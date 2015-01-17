@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //GREAT -->
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ 第1話 ピンクエンジェルス危機一髪の巻</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl1_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ 第2話 もうひとつのライバル</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl2_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ 第3話 南の海の怪の巻</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl3_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ 第4話 七瀬の秘密の巻</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl4_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ 第5話 さらばピンクエンジェルス達</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl5_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] DokiDokiぷりてぃリーグ Final</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokipl6_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="11">S001.O</rom>
+			<rom type="file" offset="12">S002.O</rom>
+			<rom type="file" offset="13">S003.O</rom>
+			<rom type="file" offset="14">S004.O</rom>
+			<rom type="file" offset="15">S005.O</rom>
+			<rom type="file" offset="16">S006.O</rom>
+			<rom type="file" offset="17">S007.O</rom>
+			<rom type="file" offset="18">S008.O</rom>
+			<rom type="file" offset="19">S009.O</rom>
+			<rom type="file" offset="20">S010.O</rom>
+			<rom type="file" offset="21">S050.O</rom>
+			<rom type="file" offset="22">S051.O</rom>
+			<rom type="file" offset="23">S052.O</rom>
+			<rom type="file" offset="24">S011.O</rom>
+			<rom type="file" offset="25">S012.O</rom>
+			<rom type="shell" offset="0">na</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">S001.O : 試合中BGM(敵側)</title>
+			<title code="12">S002.O : 敵テーマ曲BGM</title>
+			<title code="13">S003.O : 解説時BGM</title>
+			<title code="14">S004.O : 試合中BGM(味方)</title>
+			<title code="15">S005.O : 味方テーマ曲BGM</title>
+			<title code="16">S006.O : </title>
+			<title code="17">S007.O : </title>
+			<title code="18">S008.O : </title>
+			<title code="19">S009.O : </title>
+			<title code="20">S010.O : </title>
+			<title code="24">S011.O : </title>
+			<title code="25">S012.O : </title>
+			<title code="21">S050.O : ホームラン</title>
+			<title code="22">S051.O : ヒット</title>
+			<title code="23">S052.O : 三振</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] KIDS SAP 特殊行動警察 2nd FILE</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="kid_sap_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">MUAPLAY.COM</rom>
+			<rom type="file" offset="-1">TONE.DTA</rom>
+			<rom type="file" offset="0x10">M01.O</rom>
+			<rom type="file" offset="0x11">M02.O</rom>
+			<rom type="file" offset="0x12">M03.O</rom>
+			<rom type="file" offset="0x13">M04.O</rom>
+			<rom type="file" offset="0x14">M06.O</rom>
+			<rom type="file" offset="0x15">M07.O</rom>
+			<rom type="file" offset="0x16">M09.O</rom>
+			<rom type="file" offset="0x17">M10.O</rom>
+			<rom type="file" offset="0x18">M11.O</rom>
+			<rom type="file" offset="0x19">M12.O</rom>
+			<rom type="file" offset="0x1A">M13.O</rom>
+			<rom type="file" offset="0x1B">M14.O</rom>
+			<rom type="file" offset="0x1C">M15.O</rom>
+			<rom type="file" offset="0x1D">M16.O</rom>
+			<rom type="file" offset="0x1E">M17.O</rom>
+			<rom type="file" offset="0x1F">M18.O</rom>
+			<rom type="file" offset="0x20">M19.O</rom>
+			<rom type="file" offset="0x21">M20.O</rom>
+			<rom type="file" offset="0x22">M21.O</rom>
+			<rom type="file" offset="0x23">M51.O</rom>
+			<rom type="file" offset="0x24">M52.O</rom>
+			<rom type="file" offset="0x25">M53.O</rom>
+			<rom type="shell" offset="0">muaplay</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist> <titlelist>
+			<title code="0x10">M01.O : 都会 -Actor in mist-</title>
+			<title code="0x11">M02.O : 海 -Sunset-</title>
+			<title code="0x12">M03.O : 工場 -Distance of Humanism-</title>
+			<title code="0x13">M04.O : 市場 -How many smile ?-</title>
+			<title code="0x14">M06.O : 異人街 -Are you speark ?-</title>
+			<title code="0x15">M07.O : 廃虚 -Heart in hard-</title>
+			<title code="0x16">M09.O : 魔竜の樹 -Epock making-</title>
+			<title code="0x17">M10.O : 鮮血  -Vanity round-</title>
+			<title code="0x18">M11.O : 密林 -Outer Zone-</title>
+			<title code="0x19">M12.O : 盛り場  -It's New Work-</title>
+			<title code="0x1A">M13.O : 汽船 -Breth-</title>
+			<title code="0x1B">M14.O : 夜神高原 -Out Of Blue-</title>
+			<title code="0x1C">M15.O : 至地 -Dear Lady-</title>
+			<title code="0x1D">M16.O : 建設 -Last Step-</title>
+			<title code="0x1E">M17.O : いいわけ -but-</title>
+			<title code="0x1F">M18.O : 深淵 -Wrong Or Right-</title>
+			<title code="0x20">M19.O : いつも貴方と -Samday,Samwhre-</title>
+			<title code="0x21">M20.O : 週末 -Sing "Hum"-</title>
+			<title code="0x22">M21.O : 視線 -La Londe-</title>
+			<title code="0x23">M51.O : 光 -KIDS-</title>
+			<title code="0x24">M52.O : 成長 -Sildy-</title>
+			<title code="0x25">M53.O : 成長 -Sildy-</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] クイズでレッツゴー!!</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="q_letsgo_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="0x10">QUIZ_BOM.O</rom>
+			<rom type="file" offset="0x11">QUIZ_BXM.O</rom>
+			<rom type="file" offset="0x12">QUIZ_CTM.O</rom>
+			<rom type="file" offset="0x13">QUIZ_ED1.O</rom>
+			<rom type="file" offset="0x14">QUIZ_ED2.O</rom>
+			<rom type="file" offset="0x15">QUIZ_GLM.O</rom>
+			<rom type="file" offset="0x16">QUIZ_GOM.O</rom>
+			<rom type="file" offset="0x17">QUIZ_ISM.O</rom>
+			<rom type="file" offset="0x18">QUIZ_OP1.O</rom>
+			<rom type="file" offset="0x19">QUIZ_OP2.O</rom>
+			<rom type="file" offset="0x1A">QUIZ_PM1.O</rom>
+			<rom type="file" offset="0x1B">QUIZ_PM2.O</rom>
+			<rom type="file" offset="0x1C">QUIZ_PM3.O</rom>
+			<rom type="file" offset="0x1D">QUIZ_PX1.O</rom>
+			<rom type="file" offset="0x1E">QUIZ_PX2.O</rom>
+			<rom type="file" offset="0x1F">QUIZ_PX3.O</rom>
+			<rom type="file" offset="0x20">QUIZ_QM1.O</rom>
+			<rom type="file" offset="0x21">QUIZ_QM2.O</rom>
+			<rom type="file" offset="0x22">QUIZ_QM3.O</rom>
+			<rom type="file" offset="0x23">QUIZ_QX1.O</rom>
+			<rom type="file" offset="0x24">QUIZ_QX2.O</rom>
+			<rom type="file" offset="0x25">QUIZ_QX3.O</rom>
+			<rom type="file" offset="0x26">QUIZ_RK1.O</rom>
+			<rom type="file" offset="0x27">QUIZ_RK2.O</rom>
+			<rom type="file" offset="0x28">QUIZ_RK3.O</rom>
+			<rom type="file" offset="0x29">QUIZ_RS1.O</rom>
+			<rom type="file" offset="0x2A">QUIZ_RS2.O</rom>
+			<rom type="file" offset="0x2B">QUIZ_RS3.O</rom>
+			<rom type="file" offset="0x2C">QUIZ_RU1.O</rom>
+			<rom type="file" offset="0x2D">QUIZ_RU2.O</rom>
+			<rom type="file" offset="0x2E">QUIZ_RU3.O</rom>
+			<rom type="file" offset="0x2F">QUIZ_TIT.O</rom>
+			<rom type="file" offset="0x30">QUIZ_WK1.O</rom>
+			<rom type="file" offset="0x31">QUIZ_WK2.O</rom>
+			<rom type="file" offset="0x32">QUIZ_WK3.O</rom>
+			<rom type="file" offset="0x33">QUIZ_WK4.O</rom>
+			<rom type="file" offset="0x34">QUIZ_WK5.O</rom>
+			<rom type="shell" offset="0">NA -FF</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2F">QUIZ_TIT.O : タイトル</title>
+			<title code="0x18">QUIZ_OP1.O : オープニング1</title>
+			<title code="0x19">QUIZ_OP2.O : オープニング2</title>
+			<title code="0x20">QUIZ_QM1.O : メイン音楽</title>
+			<title code="0x21">QUIZ_QM2.O : メイン音楽2</title>
+			<title code="0x22">QUIZ_QM3.O : メイン音楽3</title>
+			<title code="0x23">QUIZ_QX1.O : メイン音楽(ロング)</title>
+			<title code="0x24">QUIZ_QX2.O : メイン音楽(ロング)2</title>
+			<title code="0x25">QUIZ_QX3.O : メイン音楽(ロング)3</title>
+			<title code="0x1A">QUIZ_PM1.O : メインぴんち!</title>
+			<title code="0x1B">QUIZ_PM2.O : メインぴんち2</title>
+			<title code="0x1C">QUIZ_PM3.O : メインぴんち3</title>
+			<title code="0x1D">QUIZ_PX1.O : メインぴんち!(ロング)</title>
+			<title code="0x1E">QUIZ_PX2.O : メインぴんち2(ロング)</title>
+			<title code="0x1F">QUIZ_PX3.O : メインぴんち3(ロング)</title>
+			<title code="0x2C">QUIZ_RU1.O : ルーレット</title>
+			<title code="0x2D">QUIZ_RU2.O : ルーレット2</title>
+			<title code="0x2E">QUIZ_RU3.O : ルーレット3</title>
+			<title code="0x26">QUIZ_RK1.O : ルーレット回転っ!</title>
+			<title code="0x27">QUIZ_RK2.O : ルーレット回転っ2!</title>
+			<title code="0x28">QUIZ_RK3.O : ルーレット回転っ3!</title>
+			<title code="0x13">QUIZ_ED1.O : エンディング1</title>
+			<title code="0x14">QUIZ_ED2.O : エンディング2</title>
+			<title code="0x10">QUIZ_BOM.O : ピンポン</title>
+			<title code="0x11">QUIZ_BXM.O : ブー</title>
+			<title code="0x12">QUIZ_CTM.O : こんてぃにゅー?</title>
+			<title code="0x15">QUIZ_GLM.O : パリン</title>
+			<title code="0x16">QUIZ_GOM.O : ゲームオーバー</title>
+			<title code="0x17">QUIZ_ISM.O : アイテムセレクト</title>
+			<title code="0x29">QUIZ_RS1.O : ルーレットすとっぴ!</title>
+			<title code="0x2A">QUIZ_RS2.O : ルーレットすとっぴ2!</title>
+			<title code="0x2B">QUIZ_RS3.O : ルーレットすとっぴ3!</title>
+			<title code="0x30">QUIZ_WK1.O : 歩く私</title>
+			<title code="0x31">QUIZ_WK2.O : ぴょん</title>
+			<title code="0x32">QUIZ_WK3.O : ちゃくち</title>
+			<title code="0x33">QUIZ_WK4.O : ざばーん</title>
+			<title code="0x34">QUIZ_WK5.O : わーぷ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] MISSION</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="mission_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="0x10">BGM01.O</rom>
+			<rom type="file" offset="0x11">BGM02.O</rom>
+			<rom type="file" offset="0x12">BGM03.O</rom>
+			<rom type="file" offset="0x13">BGM04.O</rom>
+			<rom type="file" offset="0x14">BGM05.O</rom>
+			<rom type="file" offset="0x15">BGM06.O</rom>
+			<rom type="file" offset="0x16">BGM07.O</rom>
+			<rom type="file" offset="0x17">BGM08.O</rom>
+			<rom type="file" offset="0x18">BGM09.O</rom>
+			<rom type="file" offset="0x19">BGM10.O</rom>
+			<rom type="file" offset="0x1A">BGM11.O</rom>
+			<rom type="file" offset="0x1B">BGM12.O</rom>
+			<rom type="file" offset="0x1C">BGM13.O</rom>
+			<rom type="file" offset="0x1D">BGM14.O</rom>
+			<rom type="file" offset="0x1E">BGM15.O</rom>
+			<rom type="file" offset="0x1F">BGM16.O</rom>
+			<rom type="file" offset="0x20">BGM17.O</rom>
+			<rom type="shell" offset="0">NA</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM01.O</title>
+			<title code="0x11">BGM02.O</title>
+			<title code="0x12">BGM03.O</title>
+			<title code="0x13">BGM04.O</title>
+			<title code="0x14">BGM05.O</title>
+			<title code="0x15">BGM06.O</title>
+			<title code="0x16">BGM07.O</title>
+			<title code="0x17">BGM08.O</title>
+			<title code="0x18">BGM09.O</title>
+			<title code="0x19">BGM10.O</title>
+			<title code="0x1A">BGM11.O</title>
+			<title code="0x1B">BGM12.O</title>
+			<title code="0x1C">BGM13.O</title>
+			<title code="0x1D">BGM14.O</title>
+			<title code="0x1E">BGM15.O</title>
+			<title code="0x1F">BGM16.O</title>
+			<title code="0x20">BGM17.O</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Messenger from DARKNIGHT</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="mess_fdn_98">
+			<rom type="file" offset="-1">nlp_hoot.com</rom>
+			<rom type="file" offset="-1">NAX.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="0x10">AS.O</rom>
+			<rom type="file" offset="0x11">AS2.O</rom>
+			<rom type="file" offset="0x12">BATTLE.O</rom>
+			<rom type="file" offset="0x13">BELL.O</rom>
+			<rom type="file" offset="0x14">CHI.O</rom>
+			<rom type="file" offset="0x15">CHI2.O</rom>
+			<rom type="file" offset="0x16">END.O</rom>
+			<rom type="file" offset="0x17">END2.O</rom>
+			<rom type="file" offset="0x18">IS.O</rom>
+			<rom type="file" offset="0x19">IS2.O</rom>
+			<rom type="file" offset="0x1A">MUTE.O</rom>
+			<rom type="file" offset="0x1B">NORMAL.O</rom>
+			<rom type="file" offset="0x1C">SIORI.O</rom>
+			<rom type="file" offset="0x1D">WHANG.O</rom>
+			<rom type="file" offset="0x1E">YAMI.O</rom>
+			<rom type="shell" offset="0">NAX -3 -F8</rom>
+			<rom type="shell" offset="0">nlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1A">MUTE.O   : MUTE</title>
+			<title code="0x1C">SIORI.O  : Moonlight</title>
+			<title code="0x1B">NORMAL.O : Dear you</title>
+			<title code="0x10">AS.O     : 日曜日は待ちぼうけ</title>
+			<title code="0x11">AS2.O    : Risky dance</title>
+			<title code="0x18">IS.O     : 街は今日も笑ってる</title>
+			<title code="0x19">IS2.O    : Can't turn</title>
+			<title code="0x14">CHI.O    : Last autumn</title>
+			<title code="0x15">CHI2.O   : Farewell</title>
+			<title code="0x12">BATTLE.O : GRAVITY INCREASE</title>
+			<title code="0x1E">YAMI.O   : DARK RITUAL</title>
+			<title code="0x16">END.O    : 帰路</title>
+			<title code="0x17">END2.O   : </title>
+			<title code="0x13">BELL.O   : チャイム</title>
+			<title code="0x1D">WHANG.O  : 断末魔</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 真倭伝 -覇刀の章-(OPNA)</name>
+		<driver type="opna">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="sinwaden_98">
+			<rom type="file" offset="-1">IBGM.EXE</rom>
+			<rom type="file" offset="-1">IBGMP.COM</rom>
+			<rom type="file" offset="0x10">WA0000.MID</rom>
+			<rom type="file" offset="0x11">WA0002.MID</rom>
+			<rom type="file" offset="0x12">WA0003.MID</rom>
+			<rom type="file" offset="0x13">WA0004.MID</rom>
+			<rom type="file" offset="0x14">WA0005.MID</rom>
+			<rom type="file" offset="0x15">WA0008.MID</rom>
+			<rom type="file" offset="0x16">WA0009.MID</rom>
+			<rom type="file" offset="0x17">WA0011.MID</rom>
+			<rom type="file" offset="0x18">WA0015.MID</rom>
+			<rom type="file" offset="0x19">WA0017'.MID</rom>
+			<rom type="file" offset="0x1a">WA0017.MID</rom>
+			<rom type="file" offset="0x1b">WA0018.MID</rom>
+			<rom type="file" offset="0x1c">WA0019.MID</rom>
+			<rom type="file" offset="0x1d">WA2013.MID</rom>
+			<rom type="shell" offset="0">IBGM -J</rom>
+			<rom type="shell" offset="0">IBGMP</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">WA0000.MID</title>
+			<title code="0x11">WA0002.MID</title>
+			<title code="0x12">WA0003.MID</title>
+			<title code="0x13">WA0004.MID</title>
+			<title code="0x14">WA0005.MID</title>
+			<title code="0x15">WA0008.MID</title>
+			<title code="0x16">WA0009.MID</title>
+			<title code="0x17">WA0011.MID</title>
+			<title code="0x18">WA0015.MID</title>
+			<title code="0x19">WA0017'.MID</title>
+			<title code="0x1a">WA0017.MID</title>
+			<title code="0x1b">WA0018.MID</title>
+			<title code="0x1c">WA0019.MID</title>
+			<title code="0x1d">WA2013.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 真倭伝 -覇刀の章-(OPN)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="sinwaden_98">
+			<rom type="file" offset="-1">IBGM.EXE</rom>
+			<rom type="file" offset="-1">IBGMP.COM</rom>
+			<rom type="file" offset="0x10">WA0000.MID</rom>
+			<rom type="file" offset="0x11">WA0002.MID</rom>
+			<rom type="file" offset="0x12">WA0003.MID</rom>
+			<rom type="file" offset="0x13">WA0004.MID</rom>
+			<rom type="file" offset="0x14">WA0005.MID</rom>
+			<rom type="file" offset="0x15">WA0008.MID</rom>
+			<rom type="file" offset="0x16">WA0009.MID</rom>
+			<rom type="file" offset="0x17">WA0011.MID</rom>
+			<rom type="file" offset="0x18">WA0015.MID</rom>
+			<rom type="file" offset="0x19">WA0017'.MID</rom>
+			<rom type="file" offset="0x1a">WA0017.MID</rom>
+			<rom type="file" offset="0x1b">WA0018.MID</rom>
+			<rom type="file" offset="0x1c">WA0019.MID</rom>
+			<rom type="file" offset="0x1d">WA2013.MID</rom>
+			<rom type="shell" offset="0">IBGM -J</rom>
+			<rom type="shell" offset="0">IBGMP</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">WA0000.MID</title>
+			<title code="0x11">WA0002.MID</title>
+			<title code="0x12">WA0003.MID</title>
+			<title code="0x13">WA0004.MID</title>
+			<title code="0x14">WA0005.MID</title>
+			<title code="0x15">WA0008.MID</title>
+			<title code="0x16">WA0009.MID</title>
+			<title code="0x17">WA0011.MID</title>
+			<title code="0x18">WA0015.MID</title>
+			<title code="0x19">WA0017'.MID</title>
+			<title code="0x1a">WA0017.MID</title>
+			<title code="0x1b">WA0018.MID</title>
+			<title code="0x1c">WA0019.MID</title>
+			<title code="0x1d">WA2013.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] VERMILION</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="NEC PC-8801">GREAT</driveralias>
+		<romlist archive="vermil88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x6000">DRIVER2</rom>
+			<rom type="code" offset="0x8100">DRIVER1</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS08</rom>
+			<rom type="bgm" offset="0x09">MUS09</rom>
+			<rom type="bgm" offset="0x0a">MUS10</rom>
+			<rom type="bgm" offset="0x0b">MUS11</rom>
+			<rom type="bgm" offset="0x0c">MUS12</rom>
+			<rom type="bgm" offset="0x0d">MUS13</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">MUS00 : </title>
+			<title code="0x01">MUS01 : </title>
+			<title code="0x02">MUS02 : </title>
+			<title code="0x03">MUS03 : </title>
+			<title code="0x04">MUS04 : </title>
+			<title code="0x05">MUS05 : </title>
+			<title code="0x06">MUS06 : </title>
+			<title code="0x07">MUS07 : </title>
+			<title code="0x08">MUS08 : </title>
+			<title code="0x09">MUS09 : </title>
+			<title code="0x0a">MUS10 : </title>
+			<title code="0x0b">MUS11 : </title>
+			<title code="0x0c">MUS12 : </title>
+		<!--	<title code="0x0d">MUS13 : </title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 真倭伝 -覇刀の章-(GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="sinwaden_98">
+			<rom type="file" offset="-1">IBGM.EXE</rom>
+			<rom type="file" offset="-1">IBGMPM.COM</rom>
+			<rom type="file" offset="0x10">WA0000.MID</rom>
+			<rom type="file" offset="0x11">WA0002.MID</rom>
+			<rom type="file" offset="0x12">WA0003.MID</rom>
+			<rom type="file" offset="0x13">WA0004.MID</rom>
+			<rom type="file" offset="0x14">WA0005.MID</rom>
+			<rom type="file" offset="0x15">WA0008.MID</rom>
+			<rom type="file" offset="0x16">WA0009.MID</rom>
+			<rom type="file" offset="0x17">WA0011.MID</rom>
+			<rom type="file" offset="0x18">WA0015.MID</rom>
+			<rom type="file" offset="0x19">WA0017'.MID</rom>
+			<rom type="file" offset="0x1a">WA0017.MID</rom>
+			<rom type="file" offset="0x1b">WA0018.MID</rom>
+			<rom type="file" offset="0x1c">WA0019.MID</rom>
+			<rom type="file" offset="0x1d">WA2013.MID</rom>
+			<rom type="shell" offset="0">IBGM -J</rom>
+			<rom type="shell" offset="0">IBGMPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">WA0000.MID</title>
+			<title code="0x11">WA0002.MID</title>
+			<title code="0x12">WA0003.MID</title>
+			<title code="0x13">WA0004.MID</title>
+			<title code="0x14">WA0005.MID</title>
+			<title code="0x15">WA0008.MID</title>
+			<title code="0x16">WA0009.MID</title>
+			<title code="0x17">WA0011.MID</title>
+			<title code="0x18">WA0015.MID</title>
+			<title code="0x19">WA0017'.MID</title>
+			<title code="0x1a">WA0017.MID</title>
+			<title code="0x1b">WA0018.MID</title>
+			<title code="0x1c">WA0019.MID</title>
+			<title code="0x1d">WA2013.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] SAP特殊行動警察 FILE:M661-51</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<romlist archive="sap68snd">
+			<rom type="code">sap68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">SAP.X</rom>
+			<rom type="code" offset="0x0b0000">M1.OPM</rom>
+			<rom type="code" offset="0x0b1000">M2.OPM</rom>
+			<rom type="code" offset="0x0b2000">M3.OPM</rom>
+			<rom type="code" offset="0x0b3000">M4.OPM</rom>
+			<rom type="code" offset="0x0B4000">M5.OPM</rom>
+			<rom type="code" offset="0x0B5000">M6.OPM</rom>
+			<rom type="code" offset="0x0B6000">M7.OPM</rom>
+			<rom type="code" offset="0x0B7000">M8.OPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">M1.OPM : </title>
+			<title code="0x02">M2.OPM : </title>
+			<title code="0x03">M3.OPM : </title>
+			<title code="0x04">M4.OPM : </title>
+			<title code="0x05">M5.OPM : </title>
+			<title code="0x06">M6.OPM : </title>
+			<title code="0x07">M7.OPN : </title>
+			<title code="0x08">M8.OPN : </title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] DOKI DOKI Card League</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<romlist archive="dokicl68snd">
+			<rom type="code">dcl68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">DOKI2.X</rom>
+			<rom type="code" offset="0x090000">M1.OPM</rom>
+			<rom type="code" offset="0x091000">M2.OPM</rom>
+			<rom type="code" offset="0x092000">M3.OPM</rom>
+			<rom type="code" offset="0x093000">M4.OPM</rom>
+			<rom type="code" offset="0x094000">M5.OPM</rom>
+			<rom type="code" offset="0x095000">M6.OPM</rom>
+			<rom type="code" offset="0x096000">M7.OPM</rom>
+			<rom type="code" offset="0x097000">M8.OPM</rom>
+			<rom type="code" offset="0x098000">M9.OPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">M1.OPM : </title>
+			<title code="0x02">M2.OPM : </title>
+			<title code="0x03">M3.OPM : </title>
+			<title code="0x04">M4.OPM : </title>
+			<title code="0x05">M5.OPM : </title>
+			<title code="0x06">M6.OPM : </title>
+			<title code="0x07">M7.OPN : </title>
+			<title code="0x08">M8.OPN : </title>
+			<title code="0x09">M9.OPN : </title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] PUPPET SHOW Part1</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="opm_mix" value="0x90"/>
+		</options>
+		<romlist archive="pptshow68snd">
+			<rom type="code">puppet68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">PUPPET.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">00 : Shake Hip!</title>
+			<title code="0x02">01 : 恋は白いTシャツ</title>
+			<title code="0x03">02 : 愛が止まらない</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 気分はぱすてるたっち!! アブナイ学園編</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<romlist archive="kpastel68snd">
+			<rom type="code">pstl68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">PASTEL.X</rom>
+			<rom type="code" offset="0x090000">BGM1.OPM</rom>
+			<rom type="code" offset="0x091000">BGM2.OPM</rom>
+			<rom type="code" offset="0x092000">BGM3.OPM</rom>
+			<rom type="code" offset="0x093000">BGM4.OPM</rom>
+			<rom type="code" offset="0x094000">BGM5.OPM</rom>
+			<rom type="code" offset="0x095000">BGM6.OPM</rom>
+			<rom type="code" offset="0x096000">BGM7.OPM</rom>
+			<rom type="code" offset="0x097000">BGM8.OPM</rom>
+			<rom type="code" offset="0x098000">BGM9.OPM</rom>
+			<rom type="code" offset="0x099000">BGMA.OPM</rom>
+			<rom type="code" offset="0x09a000">BGMB.OPM</rom>
+			<rom type="code" offset="0x09b000">BGMC.OPM</rom>
+			<rom type="code" offset="0x09c000">BGMD.OPM</rom>
+			<rom type="code" offset="0x09d000">BGME.OPM</rom>
+			<rom type="code" offset="0x09e000">BGMF.OPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM1.OPM : </title>
+			<title code="0x02">BGM2.OPM : </title>
+			<title code="0x03">BGM3.OPM : </title>
+			<title code="0x04">BGM4.OPM : </title>
+			<title code="0x05">BGM5.OPM : </title>
+			<title code="0x06">BGM6.OPM : </title>
+			<title code="0x07">BGM7.OPM : </title>
+			<title code="0x08">BGM8.OPM : </title>
+			<title code="0x09">BGM9.OPM : </title>
+			<title code="0x0a">BGMA.OPM : </title>
+			<title code="0x0b">BGMB.OPM : </title>
+			<title code="0x0c">BGMC.OPM : </title>
+			<title code="0x0d">BGMD.OPM : </title>
+			<title code="0x0e">BGME.OPM : </title>
+			<title code="0x0f">BGMF.OPM : </title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] KIDS SAP 特殊行動警察 2nd FILE</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="opm_mix" value="0xd0"/>
+		</options>
+		<romlist archive="kid68snd">
+			<rom type="code">kid68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">M01.X</rom>
+			<rom type="x" offset="0x036000">M02.X</rom>
+			<rom type="x" offset="0x03c000">M03.X</rom>
+			<rom type="x" offset="0x042000">M04.X</rom>
+			<rom type="x" offset="0x048000">M06.X</rom>
+			<rom type="x" offset="0x04e000">M07.X</rom>
+			<rom type="x" offset="0x054000">M09.X</rom>
+			<rom type="x" offset="0x05a000">M10.X</rom>
+			<rom type="x" offset="0x060000">M11.X</rom>
+			<rom type="x" offset="0x066000">M12.X</rom>
+			<rom type="x" offset="0x06c000">M13.X</rom>
+			<rom type="x" offset="0x072000">M14.X</rom>
+			<rom type="x" offset="0x078000">M15.X</rom>
+			<rom type="x" offset="0x07e000">M16.X</rom>
+			<rom type="x" offset="0x084000">M17.X</rom>
+			<rom type="x" offset="0x08a000">M18.X</rom>
+			<rom type="x" offset="0x090000">M19.X</rom>
+			<rom type="x" offset="0x096000">M20.X</rom>
+			<rom type="x" offset="0x09c000">M21.X</rom>
+			<rom type="x" offset="0x0a2000">M53.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">M01.X : 都会 -Actor in mist-</title>
+			<title code="0x02">M02.X : 海 -Sunset-</title>
+			<title code="0x03">M03.X : 工場 -Distance of Humanism-</title>
+			<title code="0x04">M04.X : 市場 -How many smile ?-</title>
+			<title code="0x05">M06.X : 異人街 -Are you speark ?-</title>
+			<title code="0x06">M07.X : 廃虚 -Heart in hard-</title>
+			<title code="0x07">M09.X : 魔竜の樹 -Epock making-</title>
+			<title code="0x08">M10.X : 鮮血  -Vanity round-</title>
+			<title code="0x09">M11.X : 密林 -Outer Zone-</title>
+			<title code="0x0a">M12.X : 盛り場  -It's New Work-</title>
+			<title code="0x0b">M13.X : 汽船 -Breth-</title>
+			<title code="0x0c">M14.X : 夜神高原 -Out Of Blue-</title>
+			<title code="0x0d">M15.X : 至地 -Dear Lady-</title>
+			<title code="0x0e">M16.X : 建設 -Last Step-</title>
+			<title code="0x0f">M17.X : いいわけ -but-</title>
+			<title code="0x10">M18.X : 深淵 -Wrong Or Right</title>
+			<title code="0x11">M19.X : いつも貴方と -Samday,Samwhre-</title>
+			<title code="0x12">M20.X : 週末 -Sing "Hum"</title>
+			<title code="0x13">M21.X : 視線 -La Londe</title>
+			<title code="0x14">M53.X : 成長 -Sildy-</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] TWILIGHT ZONE VOL.4 特別編</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<romlist archive="twzone468snd">
+			<rom type="code">opmdrv.bin</rom>
+			<rom type="x" offset="0x08000">OPMDRV.X</rom>
+			<rom type="code" offset="0x24000">BGM00.DAT</rom>
+			<rom type="code" offset="0x28000">BGM01.DAT</rom>
+			<rom type="code" offset="0x2c000">BGM02.DAT</rom>
+			<rom type="code" offset="0x30000">BGM03.DAT</rom>
+			<rom type="code" offset="0x34000">BGM04.DAT</rom>
+			<rom type="code" offset="0x38000">BGM05.DAT</rom>
+			<rom type="code" offset="0x3c000">BGM06.DAT</rom>
+			<rom type="code" offset="0x40000">BGM07.DAT</rom>
+			<rom type="code" offset="0x44000">BGM08.DAT</rom>
+			<rom type="code" offset="0x48000">BGM09.DAT</rom>
+			<rom type="code" offset="0x4c000">BGM10.DAT</rom>
+			<rom type="code" offset="0x50000">BGM11.DAT</rom>
+			<rom type="code" offset="0x54000">BGM12.DAT</rom>
+			<rom type="code" offset="0x58000">BGM13.DAT</rom>
+			<rom type="code" offset="0x5c000">BGM14.DAT</rom>
+			<rom type="code" offset="0x60000">BGM15.DAT</rom>
+			<rom type="code" offset="0x64000">BGM16.DAT</rom>
+			<rom type="code" offset="0x68000">BGM17.DAT</rom>
+			<rom type="code" offset="0x6c000">BGM18.DAT</rom>
+			<rom type="code" offset="0x70000">BGM19.DAT</rom>
+			<rom type="code" offset="0x74000">BGM20.DAT</rom>
+			<rom type="code" offset="0x78000">BGM21.DAT</rom>
+			<rom type="code" offset="0x7c000">BGM22.DAT</rom>
+			<rom type="code" offset="0x80000">BGM23.DAT</rom>
+			<rom type="code" offset="0x84000">BGM24.DAT</rom>
+			<rom type="code" offset="0x88000">BGM25.DAT</rom>
+			<rom type="code" offset="0x90000">BGM26.DAT</rom>
+			<rom type="code" offset="0x98000">BGM27.DAT</rom>
+			<rom type="code" offset="0x9c000">BGM28.DAT</rom>
+		</romlist>
+		<titlelist>
+			<!--
+			<title code="0x02">BGM00.OPM : [STOP]</title>
+			  -->
+			<title code="0x03">BGM01.OPM : </title>
+			<title code="0x04">BGM02.OPM : </title>
+			<title code="0x05">BGM03.OPM : </title>
+			<title code="0x06">BGM04.OPM : </title>
+			<title code="0x07">BGM05.OPM : </title>
+			<title code="0x08">BGM06.OPM : </title>
+			<title code="0x09">BGM07.OPM : </title>
+			<title code="0x0a">BGM08.OPM : </title>
+			<title code="0x0b">BGM09.OPM : </title>
+			<title code="0x0c">BGM10.OPM : </title>
+			<title code="0x0d">BGM11.OPM : </title>
+			<title code="0x0e">BGM12.OPM : </title>
+			<title code="0x0f">BGM13.OPM : </title>
+			<title code="0x10">BGM14.OPM : </title>
+			<title code="0x11">BGM15.OPM : </title>
+			<title code="0x12">BGM16.OPM : </title>
+			<title code="0x13">BGM17.OPM : </title>
+			<title code="0x14">BGM18.OPM : </title>
+			<title code="0x15">BGM19.OPM : </title>
+			<title code="0x16">BGM20.OPM : </title>
+			<title code="0x17">BGM21.OPM : </title>
+			<title code="0x18">BGM22.OPM : </title>
+			<title code="0x19">BGM23.OPM : </title>
+			<title code="0x1a">BGM24.OPM : </title>
+			<title code="0x1b">BGM25.OPM : </title>
+			<title code="0x1d">BGM26.OPM : </title>
+			<title code="0x1f">BGM27.OPM : </title>
+			<title code="0x20">BGM28.OPM : </title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] TWILIGHT ZONE III 長くて甘い夜</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">GREAT</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x8400"/>
+			<option name="mdata_size" value="0x1900"/>
+			<option name="mfile_size" value="0x1900"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="twzone3_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TZ3.2</rom>
+			<rom type="bgm" offset="0x00">BGM.000</rom>
+			<rom type="bgm" offset="0x01">BGM.001</rom>
+			<rom type="bgm" offset="0x02">BGM.002</rom>
+			<rom type="bgm" offset="0x03">BGM.003</rom>
+			<rom type="bgm" offset="0x04">BGM.004</rom>
+			<rom type="bgm" offset="0x05">BGM.005</rom>
+			<rom type="bgm" offset="0x06">BGM.006</rom>
+			<rom type="bgm" offset="0x07">BGM.007</rom>
+			<rom type="bgm" offset="0x08">BGM.008</rom>
+			<rom type="bgm" offset="0x09">BGM.009</rom>
+			<rom type="bgm" offset="0x0a">BGM.010</rom>
+			<rom type="bgm" offset="0x0b">BGM.011</rom>
+			<rom type="bgm" offset="0x0c">BGM.012</rom>
+			<rom type="bgm" offset="0x0d">BGM.013</rom>
+			<rom type="bgm" offset="0x0e">BGM.014</rom>
+			<rom type="bgm" offset="0x0f">BGM.015</rom>
+			<rom type="bgm" offset="0x10">BGM.016</rom>
+			<rom type="bgm" offset="0x11">BGM.017</rom>
+			<rom type="bgm" offset="0x12">BGM.018</rom>
+			<rom type="bgm" offset="0x13">BGM.019</rom>
+			<rom type="bgm" offset="0x14">BGM.020</rom>
+			<rom type="bgm" offset="0x15">BGM.021</rom>
+			<rom type="bgm" offset="0x16">BGM.022</rom>
+			<rom type="bgm" offset="0x17">BGM.023</rom>
+			<rom type="bgm" offset="0x18">BGM.024</rom>
+			<rom type="bgm" offset="0x19">BGM.025</rom>
+			<rom type="bgm" offset="0x1a">BGM.026</rom>
+			<rom type="bgm" offset="0x1b">BGM.027</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x1b" extcode="1">BGM.DAT : %02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] TWILIGHT ZONE III 長くて甘い夜</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="opm_mix" value="0xf0"/>
+			<option name="mfp"     value="0x01"/>
+		</options>
+		<romlist archive="twzone368snd">
+			<rom type="code">tz368snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">xtraopening.x</rom>
+			<rom type="x" offset="0x040000">loopreiko.x</rom>
+			<rom type="x" offset="0x050000">loopbed.x</rom>
+			<rom type="x" offset="0x060000">loopfig4.x</rom>
+			<rom type="x" offset="0x070000">loopokama.x</rom>
+			<rom type="x" offset="0x080000">looprouka.x</rom>
+			<rom type="x" offset="0x090000">loopdoct.x</rom>
+			<rom type="x" offset="0x0a0000">loopyouchi.x</rom>
+			<rom type="x" offset="0x0b0000">loopfuke.x</rom>
+			<rom type="x" offset="0x0c0000">looppet.x</rom>
+			<rom type="x" offset="0x0d0000">loophito.x</rom>
+			<rom type="x" offset="0x0e0000">loophito.x</rom>
+			<rom type="x" offset="0x0f0000">loopdougu.x</rom>
+			<rom type="x" offset="0x100000">loopjiba.x</rom>
+			<rom type="x" offset="0x110000">loopepi.x</rom>
+			<rom type="x" offset="0x120000">xtraending.x</rom>
+			<rom type="x" offset="0x130000">looppro.x</rom>
+			<rom type="x" offset="0x140000">loopyane.x</rom>
+			<rom type="x" offset="0x150000">loopfig1.x</rom>
+			<rom type="x" offset="0x160000">loopfig2.x</rom>
+			<rom type="x" offset="0x170000">loopfig3.x</rom>
+			<rom type="x" offset="0x180000">loopfig4.x</rom>
+			<rom type="x" offset="0x190000">loopfig5.x</rom>
+			<rom type="x" offset="0x1a0000">loopfig6.x</rom>
+			<rom type="x" offset="0x1b0000">mdoor.x</rom>
+			<rom type="x" offset="0x1c0000">mton.x</rom>
+			<rom type="x" offset="0x1d0000">xtraover.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">xtraopening</title>
+			<title code="0x02">loopreiko</title>
+			<title code="0x03">loopbed</title>
+			<title code="0x05">loopokama</title>
+			<title code="0x06">looprouka</title>
+			<title code="0x07">loopdoct</title>
+			<title code="0x08">loopyouchi</title>
+			<title code="0x09">loopfuke</title>
+			<title code="0x0a">looppet</title>
+			<title code="0x0b">loophito</title>
+			<title code="0x0d">loopdougu</title>
+			<title code="0x0e">loopjiba</title>
+			<title code="0x0f">loopepi</title>
+			<title code="0x10">xtraending</title>
+			<title code="0x11">looppro</title>
+			<title code="0x12">loopyane</title>
+			<title code="0x13">loopfig1</title>
+			<title code="0x14">loopfig2</title>
+			<title code="0x15">loopfig3</title>
+			<title code="0x16">loopfig4</title>
+			<title code="0x17">loopfig5</title>
+			<title code="0x18">loopfig6</title>
+			<title code="0x19">mdoor</title>
+			<title code="0x1a">mton</title>
+			<title code="0x1b">xtraover</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] TWILIGHT ZONE II なぎさの館</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">GREAT</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xc000"/>
+			<option name="mdata_size" value="0x0b00"/>
+			<option name="mfile_size" value="0x0b00"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="twzone2_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0d">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0e">MUS13.BIN</rom>
+			<rom type="bgm" offset="0x0f">MUS14.BIN</rom>
+			<rom type="bgm" offset="0x10">MUS15.BIN</rom>
+			<rom type="bgm" offset="0x11">MUS16.BIN</rom>
+			<rom type="bgm" offset="0x12">MUS17.BIN</rom>
+			<rom type="bgm" offset="0x13">MUS18.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x13" extcode="1">BGM 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] イミテーションは愛せない</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="imitat68snd">
+			<rom type="code">imi68snd.bin</rom>
+			<rom type="x"    offset="0x010000">IMIT.X</rom>
+			<rom type="code" offset="0x099866">FM.DAT</rom>
+			<rom type="x"    offset="0x0a0000">FLOAT2.X</rom>
+			<rom type="code" offset="0x0b0000">KYOKU00.DAT</rom>
+			<rom type="code" offset="0x0b2000">KYOKU01.DAT</rom>
+			<rom type="code" offset="0x0b4000">KYOKU02.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x301">KYOKU00.DAT : オープニング</title>
+			<title code="0x302">KYOKU01.DAT : 通常BGM</title>
+			<title code="0x303">KYOKU02.DAT : エンディング</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] メルヘン・パラダイス</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="marpara68snd">
+			<rom type="code">mpara68snd.bin</rom>
+			<rom type="x"    offset="0x010000">MARPARA.X</rom>
+			<rom type="code" offset="0x021428">FM.DAT</rom>
+			<rom type="x"    offset="0x0a0000">FLOAT2.X</rom>
+			<rom type="code" offset="0x0b0000">KYOKU00.DAT</rom>
+			<rom type="code" offset="0x0b2000">KYOKU01.DAT</rom>
+			<rom type="code" offset="0x0b4000">KYOKU02.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x301">KYOKU00.DAT</title>
+			<title code="0x302">KYOKU01.DAT</title>
+			<title code="0x303">KYOKU02.DAT</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ガールズ・パラダイス -楽園の天使たち-</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="gpara68snd">
+			<rom type="code">gpara68snd.bin</rom>
+			<rom type="x"    offset="0x010000">GALS.X</rom>
+			<rom type="code" offset="0x018f04">KYOKU00.DAT</rom>
+			<rom type="code" offset="0x0a17aa">FM.DAT</rom>
+			<rom type="x"    offset="0x0b0000">FLOAT2.X</rom>
+			<rom type="code" offset="0x0c0000">KYOKU00.DAT</rom>
+			<rom type="code" offset="0x0c2000">KYOKU01.DAT</rom>
+			<rom type="code" offset="0x0c4000">KYOKU02.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x301">KYOKU00.DAT</title>
+			<title code="0x302">KYOKU01.DAT</title>
+			<title code="0x303">KYOKU02.DAT</title>
+		</titlelist>
+	</game>
+</gamelist>

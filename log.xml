@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //ログ -->
+	<game>
+		<name>[PC-9801] 極 大道棋</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">ログ</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="daidou_98">
+			<rom type="file" offset="-1">EMD.COM</rom>
+			<rom type="file" offset="-1">EMD_98.COM</rom>
+			<rom type="file" offset="-1">DAIDOUGI.EMI</rom>
+			<rom type="file" offset="-1">END.EMI</rom>
+			<rom type="file" offset="-1">HASAN.EMI</rom>
+			<rom type="file" offset="-1">KACHI.EMI</rom>
+			<rom type="file" offset="-1">KOMA.EMI</rom>
+			<rom type="file" offset="-1">MAKE.EMI</rom>
+			<rom type="conin" offset="0x10">DAIDOUGI.EMI</rom>
+			<rom type="conin" offset="0x11">END.EMI</rom>
+			<rom type="conin" offset="0x12">HASAN.EMI</rom>
+			<rom type="conin" offset="0x13">KACHI.EMI</rom>
+			<rom type="conin" offset="0x14">KOMA.EMI</rom>
+			<rom type="conin" offset="0x15">MAKE.EMI</rom>
+			<rom type="shell" offset="0">EMD -V</rom>
+			<rom type="shell" offset="0">EMD_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">DAIDOUGI.EMI</title>
+			<title code="0x11">END.EMI</title>
+			<title code="0x12">HASAN.EMI</title>
+			<title code="0x13">KACHI.EMI</title>
+			<title code="0x14">KOMA.EMI</title>
+			<title code="0x15">MAKE.EMI</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] DRAGON</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">ログ</driveralias>
+		<romlist archive="dragon68snd">
+			<rom type="code">dragon68snd.bin</rom>
+			<rom type="x" offset="0x08000">OPMDRV.X</rom>
+			<rom type="code" offset="0x2c000">AHIRU.OPM</rom>
+			<rom type="code" offset="0x30000">BGM3.OPM</rom>
+			<rom type="code" offset="0x34000">BGM4.OPM</rom>
+			<rom type="code" offset="0x38000">BGM5.OPM</rom>
+			<rom type="code" offset="0x3c000">BGM6.OPM</rom>
+			<rom type="code" offset="0x40000">BUTA.OPM</rom>
+			<rom type="code" offset="0x44000">DX_ENKA.OPM</rom>
+			<rom type="code" offset="0x48000">FANFALE.OPM</rom>
+			<rom type="code" offset="0x4c000">OPENING.OPM</rom>
+			<rom type="code" offset="0x50000">SOUND.OPM</rom>
+			<rom type="code" offset="0x54000">play.OPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x000c">OPENING.OPM : </title>
+			<title code="0x050e">BGM3.OPM    : </title>
+			<title code="0x060e">BGM4.OPM    : </title>
+			<title code="0x070e">BGM5.OPM    : </title>
+			<title code="0x080e">BGM6.OPM    : </title>
+			<title code="0x0a0e">DX_ENKA.OPM : </title>
+			<title code="0x0b0e">FANFALE.OPM : </title>
+			<title code="0x090e">BUTA.OPM    : </title>
+			<title code="0x040e">AHIRU.OPM   : </title>
+		</titlelist>
+	</game>
+</gamelist>
