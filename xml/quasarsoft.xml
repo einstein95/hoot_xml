@@ -34,12 +34,11 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-
-	<!-- //QUASAR SOFT -->
+	<!-- //Quasar Soft -->
 	<game>
-		<name>[PC-8801] ASHE</name>
+		<name>[PC-8801] Ashe (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUASAR SOFT</driveralias>
+		<driveralias type="PC-8801">Quasar Soft</driveralias>
 		<romlist archive="ashe">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x7800">DRIVER</rom>
@@ -57,38 +56,38 @@
 			<rom type="bgm" offset="0x0b">MUS11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11000009">MUS09 : ロゴ～オープニング1</title>
-			<title code="0x10000000">MUS00 : オープニング2～オープニング3</title>
-			<title code="0x10000001">MUS01 : オープニング2～オープニング3(別アレンジ:未使用)</title>
-			<title code="0x1100000a">MUS10 : 討魔隊のテーマ</title>
-			<title code="0x11000002">MUS02 : メインBGM1</title>
-			<title code="0x11000005">MUS05 : メインBGM2</title>
-			<title code="0x11000006">MUS06 : 奈落の滝</title>
-			<title code="0x11000007">MUS07 : ガブロンの巣</title>
-			<title code="0x11000008">MUS08 : ユキコのテーマ</title>
-			<title code="0x11000004">MUS04 : ラストダンジョン～ラスボス</title>
-			<title code="0x1100000b">MUS11 : エンディング1～エンディング2</title>
-			<title code="0x11000003">MUS03 : ゲームオーバー</title>
-			<title code="0x0000001f">演奏停止</title>
-			<title code="0x00000020">EFFECT #00</title>
-			<title code="0x00000021">EFFECT #01</title>
-			<title code="0x00000022">EFFECT #02</title>
-			<title code="0x00000023">EFFECT #03</title>
-			<title code="0x00000024">EFFECT #04</title>
-			<title code="0x00000025">EFFECT #05</title>
-			<title code="0x00000026">EFFECT #06</title>
-			<title code="0x00000027">EFFECT #07</title>
-			<title code="0x00000028">EFFECT #08</title>
-			<title code="0x00000029">EFFECT #09</title>
-			<title code="0x0000002a">EFFECT #10</title>
-			<title code="0x0000002b">EFFECT #11</title>
-			<title code="0x0000002c">EFFECT #12</title>
+			<title code="0x0000001f">Stop the Music</title>
+			<title code="0x11000009">ロゴ～オープニング1</title>
+			<title code="0x10000000">オープニング2～オープニング3</title>
+			<title code="0x10000001">オープニング2～オープニング3(別アレンジ:未使用)</title>
+			<title code="0x1100000a">討魔隊のテーマ</title>
+			<title code="0x11000002">メインBGM1</title>
+			<title code="0x11000005">メインBGM2</title>
+			<title code="0x11000006">奈落の滝</title>
+			<title code="0x11000007">ガブロンの巣</title>
+			<title code="0x11000008">ユキコのテーマ</title>
+			<title code="0x11000004">ラストダンジョン～ラスボス</title>
+			<title code="0x1100000b">エンディング1～エンディング2</title>
+			<title code="0x11000003">ゲームオーバー</title>
+			<title code="0x00000020">SFX #00</title>
+			<title code="0x00000021">SFX #01</title>
+			<title code="0x00000022">SFX #02</title>
+			<title code="0x00000023">SFX #03</title>
+			<title code="0x00000024">SFX #04</title>
+			<title code="0x00000025">SFX #05</title>
+			<title code="0x00000026">SFX #06</title>
+			<title code="0x00000027">SFX #07</title>
+			<title code="0x00000028">SFX #08</title>
+			<title code="0x00000029">SFX #09</title>
+			<title code="0x0000002a">SFX #10</title>
+			<title code="0x0000002b">SFX #11</title>
+			<title code="0x0000002c">SFX #12</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Legend</name>
+		<name>[PC-8801] Legend (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUASAR SOFT</driveralias>
+		<driveralias type="PC-8801">Quasar Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa900"/>
 		</options>
@@ -138,9 +137,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] どろろ(OPNA)</name>
+		<name>[PC-8801] Dororo (どろろ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">QUASAR SOFT</driveralias>
+		<driveralias type="PC-8801">Quasar Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8c00"/>
 			<option name="use_rtc"    value="0x01"/>
@@ -166,38 +165,38 @@
 			<rom type="bgm"  offset="0x0f">MA402</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MA100 : オープニング ～地獄堂～ ／ 夜叉王</title>
-			<title code="0x07">MA107 : オープニング ～タイトル～ ／ 戦闘(クヌギ・水晶鬼・どどめ)</title>
-			<title code="0x08">MB107 : 再会 ／ エンディングロール</title>
-			<title code="0x04">MA104 : 探索</title>
-			<title code="0x02">MA102 : 戦闘 (野盗)</title>
-			<title code="0x06">MA106 : 戦闘 (ミンツチカムイ・おどろび)</title>
-			<title code="0x09">MA200 : おどろび出現</title>
-			<title code="0x05">MA105 : うま</title>
-			<title code="0x0c">MA302 : 戦闘 (役人)</title>
-			<title code="0x0a">MA300 : 戦闘 (ハチヤドリ)</title>
-			<title code="0x0b">MA301 : 砦への抜け穴</title>
-			<title code="0x0e">MA401 : 色ふすまの部屋</title>
-			<title code="0x01">MA101 : 季節の部屋 ～ 春の間・夏の間・冬の間・秋の間</title>
-			<title code="0x0d">MA400 : 戦闘 (夜叉王)</title>
-			<title code="0x03">MA103 : ゲームオーバー</title>
-			<title code="0x0f">MA402 : エンディング</title>
-			<title code="0x81">EFC01 : 効果音#01</title>
-			<title code="0x82">EFC02 : 効果音#02</title>
-			<title code="0x83">EFC03 : 効果音#03</title>
-			<title code="0x84">EFC04 : 効果音#04</title>
-			<title code="0x85">EFC05 : 効果音#05</title>
-			<title code="0x86">EFC06 : 効果音#06</title>
-			<title code="0x87">EFC07 : 効果音#07</title>
-			<title code="0x88">EFC08 : 効果音#08</title>
-			<title code="0x89">EFC09 : 効果音#09</title>
-			<title code="0x8a">EFC10 : 効果音#10</title>
+			<title code="0x00">オープニング ～地獄堂～ ／ 夜叉王</title>
+			<title code="0x07">オープニング ～タイトル～ ／ 戦闘(クヌギ・水晶鬼・どどめ)</title>
+			<title code="0x08">再会 ／ エンディングロール</title>
+			<title code="0x04">探索</title>
+			<title code="0x02">戦闘 (野盗)</title>
+			<title code="0x06">戦闘 (ミンツチカムイ・おどろび)</title>
+			<title code="0x09">おどろび出現</title>
+			<title code="0x05">うま</title>
+			<title code="0x0c">戦闘 (役人)</title>
+			<title code="0x0a">戦闘 (ハチヤドリ)</title>
+			<title code="0x0b">砦への抜け穴</title>
+			<title code="0x0e">色ふすまの部屋</title>
+			<title code="0x01">季節の部屋 ～ 春の間・夏の間・冬の間・秋の間</title>
+			<title code="0x0d">戦闘 (夜叉王)</title>
+			<title code="0x03">ゲームオーバー</title>
+			<title code="0x0f">エンディング</title>
+			<title code="0x81">効果音#01</title>
+			<title code="0x82">効果音#02</title>
+			<title code="0x83">効果音#03</title>
+			<title code="0x84">効果音#04</title>
+			<title code="0x85">効果音#05</title>
+			<title code="0x86">効果音#06</title>
+			<title code="0x87">効果音#07</title>
+			<title code="0x88">効果音#08</title>
+			<title code="0x89">効果音#09</title>
+			<title code="0x8a">効果音#10</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] どろろ(OPN)</name>
+		<name>[PC-8801] Dororo (どろろ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUASAR SOFT</driveralias>
+		<driveralias type="PC-8801">Quasar Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8c00"/>
 			<option name="use_rtc"    value="0x01"/>
@@ -223,38 +222,38 @@
 			<rom type="bgm"  offset="0x0f">MB402</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MB101 : オープニング ～地獄堂～ ／ 夜叉王</title>
-			<title code="0x03">MB103 : オープニング ～タイトル～ ／ 戦闘(クヌギ・水晶鬼・どどめ)</title>
-			<title code="0x07">MB107 : 再会 ／ エンディングロール</title>
-			<title code="0x06">MB106 : 探索</title>
-			<title code="0x05">MB105 : 戦闘(野盗)</title>
-			<title code="0x02">MB102 : 戦闘 (ミンツチカムイ・おどろび)</title>
-			<title code="0x09">MB200 : おどろび出現</title>
-			<title code="0x00">MB100 : うま</title>
-			<title code="0x0c">MB302 : 戦闘 (役人)</title>
-			<title code="0x0b">MB301 : 戦闘 (ハチヤドリ)</title>
-			<title code="0x0a">MB300 : 砦への抜け穴</title>
-			<title code="0x0e">MB401 : 色ふすまの部屋</title>
-			<title code="0x04">MB104 : 季節の部屋 ～ 春の間・夏の間・冬の間・秋の間</title>
-			<title code="0x0d">MB400 : 戦闘 (夜叉王)</title>
-			<title code="0x08">MB108 : ゲームオーバー</title>
-			<title code="0x0f">MB402 : エンディング</title>
-			<title code="0x81">EFC01 : 効果音#01</title>
-			<title code="0x82">EFC02 : 効果音#02</title>
-			<title code="0x83">EFC03 : 効果音#03</title>
-			<title code="0x84">EFC04 : 効果音#04</title>
-			<title code="0x85">EFC05 : 効果音#05</title>
-			<title code="0x86">EFC06 : 効果音#06</title>
-			<title code="0x87">EFC07 : 効果音#07</title>
-			<title code="0x88">EFC08 : 効果音#08</title>
-			<title code="0x89">EFC09 : 効果音#09</title>
-			<title code="0x8a">EFC10 : 効果音#10</title>
+			<title code="0x01">オープニング ～地獄堂～ ／ 夜叉王</title>
+			<title code="0x03">オープニング ～タイトル～ ／ 戦闘(クヌギ・水晶鬼・どどめ)</title>
+			<title code="0x07">再会 ／ エンディングロール</title>
+			<title code="0x06">探索</title>
+			<title code="0x05">戦闘(野盗)</title>
+			<title code="0x02">戦闘 (ミンツチカムイ・おどろび)</title>
+			<title code="0x09">おどろび出現</title>
+			<title code="0x00">うま</title>
+			<title code="0x0c">戦闘 (役人)</title>
+			<title code="0x0b">戦闘 (ハチヤドリ)</title>
+			<title code="0x0a">砦への抜け穴</title>
+			<title code="0x0e">色ふすまの部屋</title>
+			<title code="0x04">季節の部屋 ～ 春の間・夏の間・冬の間・秋の間</title>
+			<title code="0x0d">戦闘 (夜叉王)</title>
+			<title code="0x08">ゲームオーバー</title>
+			<title code="0x0f">エンディング</title>
+			<title code="0x81">効果音#01</title>
+			<title code="0x82">効果音#02</title>
+			<title code="0x83">効果音#03</title>
+			<title code="0x84">効果音#04</title>
+			<title code="0x85">効果音#05</title>
+			<title code="0x86">効果音#06</title>
+			<title code="0x87">効果音#07</title>
+			<title code="0x88">効果音#08</title>
+			<title code="0x89">効果音#09</title>
+			<title code="0x8a">効果音#10</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] Legend(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">QUASAR SOFT</driveralias>
+		<driveralias type="X1">Quasar Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf9a0"/>
 			<option name="mdata_size" value="0x0600"/>
@@ -297,7 +296,7 @@
 	<game>
 		<name>[X1] Legend(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">QUASAR SOFT</driveralias>
+		<driveralias type="X1">Quasar Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf9a0"/>
 			<option name="mdata_size" value="0x0600"/>

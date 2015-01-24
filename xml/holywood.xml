@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //Holy Wood -->
 	<game>
-		<name>[PC-9801] VASTNESS ～空虚の生贄達～(OPN)</name>
+		<name>[PC-9801] Vastness: Kuukyo no Ikenie Tachi (ヴァーストニス 空虚の生贄達) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -78,9 +78,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] VASTNESS ～空虚の生贄達～(GS)</name>
+		<name>[PC-9801] Vastness: Kuukyo no Ikenie Tachi (ヴァーストニス 空虚の生贄達) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -117,9 +117,49 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Vastness: Kuukyo no Ikenie Tachi (ヴァーストニス 空虚の生贄達) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="vastness_98">
+			<rom type="file" offset="-1">MDDRV.COM</rom>
+			<rom type="file" offset="-1">MDDRV_98.COM</rom>
+			<rom type="file" offset="-1">PP_CAT.KMM</rom>
+			<rom type="file" offset="-1">SECT01_1.KMM</rom>
+			<rom type="file" offset="-1">SECT01_2.KMM</rom>
+			<rom type="file" offset="-1">SECT02_1.KMM</rom>
+			<rom type="file" offset="-1">SECT02_2.KMM</rom>
+			<rom type="file" offset="-1">SECT03_1.KMM</rom>
+			<rom type="file" offset="-1">SECT03_2.KMM</rom>
+			<rom type="conin" offset="0x10">PP_CAT.KMM</rom>
+			<rom type="conin" offset="0x11">SECT01_1.KMM</rom>
+			<rom type="conin" offset="0x12">SECT01_2.KMM</rom>
+			<rom type="conin" offset="0x13">SECT02_1.KMM</rom>
+			<rom type="conin" offset="0x14">SECT02_2.KMM</rom>
+			<rom type="conin" offset="0x15">SECT03_1.KMM</rom>
+			<rom type="conin" offset="0x16">SECT03_2.KMM</rom>
+			<rom type="shell" offset="0">MDDRV</rom>
+			<rom type="shell" offset="0">MDDRV_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">PP_CAT.KMM</title>
+			<title code="0x11">SECT01_1.KMM</title>
+			<title code="0x12">SECT01_2.KMM</title>
+			<title code="0x13">SECT02_1.KMM</title>
+			<title code="0x14">SECT02_2.KMM</title>
+			<title code="0x15">SECT03_1.KMM</title>
+			<title code="0x16">SECT03_2.KMM</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9821] VASTNESS ～空虚の生贄達～</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9821">Holy Wood</driveralias>
+		<driveralias type="PC-9821">Holy Wood</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -152,7 +192,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.01(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -176,7 +216,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.01(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -197,7 +237,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.02(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -221,7 +261,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.02(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -242,7 +282,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.03(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -266,7 +306,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.03(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -287,7 +327,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.04</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -317,7 +357,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.05</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -344,7 +384,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.06</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -374,7 +414,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.07</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -401,7 +441,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.08</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -431,7 +471,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.09</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -467,7 +507,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.10</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -506,7 +546,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.11</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>
@@ -554,7 +594,7 @@
 	<game>
 		<name>[PC-9801] PP DISK No.12</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Holy Wood</driveralias>
+		<driveralias type="PC-9801">Holy Wood</driveralias>
 		<options>
 			<option name="fm_mix"   value="0"/>
 			<option name="ssg_mix"  value="-18"/>

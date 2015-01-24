@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //COLOSSUS -->
 	<game>
-		<name>[PC-9801] FILE:0 ゴーストキラー・神村 麗(OPN)</name>
+		<name>[PC-9801] File:0 Ghost Killer (FILE:0 ゴーストキラー・神村 麗) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
@@ -57,19 +57,19 @@
 			<rom type="shell" offset="0">file0_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">G01.CMD : オープニングテーマ</title>
-			<title code="0x02">G02.CMD : エンディングテーマ</title>
-			<title code="0x03">G03.CMD : メインテーマ</title>
-			<title code="0x04">G04.CMD : 占いの館</title>
-			<title code="0x05">G05.CMD : 地下迷路</title>
-			<title code="0x06">G06.CMD : 対ボス!</title>
-			<title code="0x07">G07.CMD : 甘美な世界</title>
+			<title code="0x01">オープニングテーマ</title>
+			<title code="0x02">エンディングテーマ</title>
+			<title code="0x03">メインテーマ</title>
+			<title code="0x04">占いの館</title>
+			<title code="0x05">地下迷路</title>
+			<title code="0x06">対ボス!</title>
+			<title code="0x07">甘美な世界</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FILE:0 ゴーストキラー・神村 麗(OPNA)</name>
+		<name>[PC-9801] File:0 Ghost Killer (FILE:0 ゴーストキラー・神村 麗) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -87,19 +87,19 @@
 			<rom type="shell" offset="0">file0_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">G01.CMD : オープニングテーマ</title>
-			<title code="0x02">G02.CMD : エンディングテーマ</title>
-			<title code="0x03">G03.CMD : メインテーマ</title>
-			<title code="0x04">G04.CMD : 占いの館</title>
-			<title code="0x05">G05.CMD : 地下迷路</title>
-			<title code="0x06">G06.CMD : 対ボス!</title>
-			<title code="0x07">G07.CMD : 甘美な世界</title>
+			<title code="0x01">オープニングテーマ</title>
+			<title code="0x02">エンディングテーマ</title>
+			<title code="0x03">メインテーマ</title>
+			<title code="0x04">占いの館</title>
+			<title code="0x05">地下迷路</title>
+			<title code="0x06">対ボス!</title>
+			<title code="0x07">甘美な世界</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FILE:0 ゴーストキラー・神村 麗(SC-55)</name>
+		<name>[PC-9801] File:0 Ghost Killer (FILE:0 ゴーストキラー・神村 麗) (SC-55)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -119,19 +119,52 @@
 			<rom type="shell" offset="0">file0_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">G01.MID : オープニングテーマ</title>
-			<title code="0x102">G02.MID : エンディングテーマ</title>
-			<title code="0x103">G03.MID : メインテーマ</title>
-			<title code="0x104">G04.MID : 占いの館</title>
-			<title code="0x105">G05.MID : 地下迷路</title>
-			<title code="0x106">G06.MID : 対ボス!</title>
-			<title code="0x107">G07.MID : 甘美な世界</title>
+			<title code="0x101">オープニングテーマ</title>
+			<title code="0x102">エンディングテーマ</title>
+			<title code="0x103">メインテーマ</title>
+			<title code="0x104">占いの館</title>
+			<title code="0x105">地下迷路</title>
+			<title code="0x106">対ボス!</title>
+			<title code="0x107">甘美な世界</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] リィナ☆クリスタル(OPN)</name>
+		<name>[PC-9801] File:0 Ghost Killer (FILE:0 ゴーストキラー・神村 麗) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Colossus</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="file0_98">
+			<rom type="file" offset="-1">file0_98.com</rom>
+			<rom type="file" offset="-1">AD.EXE</rom>
+			<rom type="conin" offset="5">AD.EXE</rom>
+			<rom type="file" offset="-1">G01.MID</rom>
+			<rom type="file" offset="-1">G02.MID</rom>
+			<rom type="file" offset="-1">G03.MID</rom>
+			<rom type="file" offset="-1">G04.MID</rom>
+			<rom type="file" offset="-1">G05.MID</rom>
+			<rom type="file" offset="-1">G06.MID</rom>
+			<rom type="file" offset="-1">G07.MID</rom>
+			<rom type="shell" offset="0">file0_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x101">オープニングテーマ</title>
+			<title code="0x102">エンディングテーマ</title>
+			<title code="0x103">メインテーマ</title>
+			<title code="0x104">占いの館</title>
+			<title code="0x105">地下迷路</title>
+			<title code="0x106">対ボス!</title>
+			<title code="0x107">甘美な世界</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Liena Crystal (リィナ☆クリスタル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
@@ -160,30 +193,29 @@
 			<rom type="shell" offset="0">liena_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01.CMD : メインテーマ</title>
-			<title code="0x02">M02.CMD : サーカス</title>
-			<title code="0x03">M03.CMD : エンディングテーマ</title>
-			<title code="0x04">M04.CMD : ぺス&amp;リィナ1</title>
-			<title code="0x05">M05.CMD : ぺス&amp;リィナ2</title>
-			<title code="0x06">M06.CMD : 馬鹿まるだし</title>
-			<title code="0x07">M07.CMD : 嵐の中</title>
-			<title code="0x08">M08.CMD : 恐怖の研究所</title>
-			<title code="0x09">M09.CMD : 逃げろ!</title>
-			<title code="0x0b">H01.CMD : リィナのエッチ</title>
-			<title code="0x0c">H02.CMD : アンドレの楽しみ</title>
-			<title code="0x0d">H03.CMD : 拷問の始まり</title>
-			<title code="0x0e">H04.CMD : 拷問の極み</title>
-			<title code="0x0f">H05.CMD : スィートリィナたん</title>
-			<title code="0x10">H06.CMD : リィナとぺスのH</title>
-			<title code="0x15">B01.CMD : ファンファーレ1</title>
-			<title code="0x16">B02.CMD : ファンファーレ2</title>
+			<title code="0x01">メインテーマ</title>
+			<title code="0x02">サーカス</title>
+			<title code="0x03">エンディングテーマ</title>
+			<title code="0x04">ぺス&amp;リィナ1</title>
+			<title code="0x05">ぺス&amp;リィナ2</title>
+			<title code="0x06">馬鹿まるだし</title>
+			<title code="0x07">嵐の中</title>
+			<title code="0x08">恐怖の研究所</title>
+			<title code="0x09">逃げろ!</title>
+			<title code="0x0b">リィナのエッチ</title>
+			<title code="0x0c">アンドレの楽しみ</title>
+			<title code="0x0d">拷問の始まり</title>
+			<title code="0x0e">拷問の極み</title>
+			<title code="0x0f">スィートリィナたん</title>
+			<title code="0x10">リィナとぺスのH</title>
+			<title code="0x15">ファンファーレ1</title>
+			<title code="0x16">ファンファーレ2</title>
 		</titlelist>
 	</game>
-
 	<game>
-		<name>[PC-9801] リィナ☆クリスタル(OPNA)</name>
+		<name>[PC-9801] Liena Crystal (リィナ☆クリスタル) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -211,30 +243,29 @@
 			<rom type="shell" offset="0">liena_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01.CMD : メインテーマ</title>
-			<title code="0x02">M02.CMD : サーカス</title>
-			<title code="0x03">M03.CMD : エンディングテーマ</title>
-			<title code="0x04">M04.CMD : ぺス&amp;リィナ1</title>
-			<title code="0x05">M05.CMD : ぺス&amp;リィナ2</title>
-			<title code="0x06">M06.CMD : 馬鹿まるだし</title>
-			<title code="0x07">M07.CMD : 嵐の中</title>
-			<title code="0x08">M08.CMD : 恐怖の研究所</title>
-			<title code="0x09">M09.CMD : 逃げろ!</title>
-			<title code="0x0b">H01.CMD : リィナのエッチ</title>
-			<title code="0x0c">H02.CMD : アンドレの楽しみ</title>
-			<title code="0x0d">H03.CMD : 拷問の始まり</title>
-			<title code="0x0e">H04.CMD : 拷問の極み</title>
-			<title code="0x0f">H05.CMD : スィートリィナたん</title>
-			<title code="0x10">H06.CMD : リィナとぺスのH</title>
-			<title code="0x15">B01.CMD : ファンファーレ1</title>
-			<title code="0x16">B02.CMD : ファンファーレ2</title>
+			<title code="0x01">メインテーマ</title>
+			<title code="0x02">サーカス</title>
+			<title code="0x03">エンディングテーマ</title>
+			<title code="0x04">ぺス&amp;リィナ1</title>
+			<title code="0x05">ぺス&amp;リィナ2</title>
+			<title code="0x06">馬鹿まるだし</title>
+			<title code="0x07">嵐の中</title>
+			<title code="0x08">恐怖の研究所</title>
+			<title code="0x09">逃げろ!</title>
+			<title code="0x0b">リィナのエッチ</title>
+			<title code="0x0c">アンドレの楽しみ</title>
+			<title code="0x0d">拷問の始まり</title>
+			<title code="0x0e">拷問の極み</title>
+			<title code="0x0f">スィートリィナたん</title>
+			<title code="0x10">リィナとぺスのH</title>
+			<title code="0x15">ファンファーレ1</title>
+			<title code="0x16">ファンファーレ2</title>
 		</titlelist>
 	</game>
-
 	<game>
-		<name>[PC-9801] リィナ☆クリスタル(SC-55)</name>
+		<name>[PC-9801] Liena Crystal (リィナ☆クリスタル) (SC-55)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">COLOSSUS</driveralias>
+		<driveralias type="PC-9801">Colossus</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -264,23 +295,76 @@
 			<rom type="shell" offset="0">liena_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">M01.MID : メインテーマ</title>
-			<title code="0x102">M02.MID : サーカス</title>
-			<title code="0x103">M03.MID : エンディングテーマ</title>
-			<title code="0x104">M04.MID : ぺス&amp;リィナ1</title>
-			<title code="0x105">M05.MID : ぺス&amp;リィナ2</title>
-			<title code="0x106">M06.MID : 馬鹿まるだし</title>
-			<title code="0x107">M07.MID : 嵐の中</title>
-			<title code="0x108">M08.MID : 恐怖の研究所</title>
-			<title code="0x109">M09.MID : 逃げろ!</title>
-			<title code="0x10b">H01.MID : リィナのエッチ</title>
-			<title code="0x10c">H02.MID : アンドレの楽しみ</title>
-			<title code="0x10d">H03.MID : 拷問の始まり</title>
-			<title code="0x10e">H04.MID : 拷問の極み</title>
-			<title code="0x10f">H05.MID : スィートリィナたん</title>
-			<title code="0x110">H06.MID : リィナとぺスのH</title>
-			<title code="0x115">B01.MID : ファンファーレ1</title>
-			<title code="0x116">B02.MID : ファンファーレ2</title>
+			<title code="0x101">メインテーマ</title>
+			<title code="0x102">サーカス</title>
+			<title code="0x103">エンディングテーマ</title>
+			<title code="0x104">ぺス&amp;リィナ1</title>
+			<title code="0x105">ぺス&amp;リィナ2</title>
+			<title code="0x106">馬鹿まるだし</title>
+			<title code="0x107">嵐の中</title>
+			<title code="0x108">恐怖の研究所</title>
+			<title code="0x109">逃げろ!</title>
+			<title code="0x10b">リィナのエッチ</title>
+			<title code="0x10c">アンドレの楽しみ</title>
+			<title code="0x10d">拷問の始まり</title>
+			<title code="0x10e">拷問の極み</title>
+			<title code="0x10f">スィートリィナたん</title>
+			<title code="0x110">リィナとぺスのH</title>
+			<title code="0x115">ファンファーレ1</title>
+			<title code="0x116">ファンファーレ2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Liena Crystal (リィナ☆クリスタル) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Colossus</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="liena_98">
+			<rom type="file" offset="-1">liena_98.com</rom>
+			<rom type="file" offset="-1">AD.EXE</rom>
+			<rom type="conin" offset="5">AD.EXE</rom>
+			<rom type="file" offset="-1">B01.MID</rom>
+			<rom type="file" offset="-1">B02.MID</rom>
+			<rom type="file" offset="-1">H01.MID</rom>
+			<rom type="file" offset="-1">H02.MID</rom>
+			<rom type="file" offset="-1">H03.MID</rom>
+			<rom type="file" offset="-1">H04.MID</rom>
+			<rom type="file" offset="-1">H05.MID</rom>
+			<rom type="file" offset="-1">H06.MID</rom>
+			<rom type="file" offset="-1">M01.MID</rom>
+			<rom type="file" offset="-1">M02.MID</rom>
+			<rom type="file" offset="-1">M03.MID</rom>
+			<rom type="file" offset="-1">M04.MID</rom>
+			<rom type="file" offset="-1">M05.MID</rom>
+			<rom type="file" offset="-1">M06.MID</rom>
+			<rom type="file" offset="-1">M07.MID</rom>
+			<rom type="file" offset="-1">M08.MID</rom>
+			<rom type="file" offset="-1">M09.MID</rom>
+			<rom type="shell" offset="0">liena_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x101">メインテーマ</title>
+			<title code="0x102">サーカス</title>
+			<title code="0x103">エンディングテーマ</title>
+			<title code="0x104">ぺス&amp;リィナ1</title>
+			<title code="0x105">ぺス&amp;リィナ2</title>
+			<title code="0x106">馬鹿まるだし</title>
+			<title code="0x107">嵐の中</title>
+			<title code="0x108">恐怖の研究所</title>
+			<title code="0x109">逃げろ!</title>
+			<title code="0x10b">リィナのエッチ</title>
+			<title code="0x10c">アンドレの楽しみ</title>
+			<title code="0x10d">拷問の始まり</title>
+			<title code="0x10e">拷問の極み</title>
+			<title code="0x10f">スィートリィナたん</title>
+			<title code="0x110">リィナとぺスのH</title>
+			<title code="0x115">ファンファーレ1</title>
+			<title code="0x116">ファンファーレ2</title>
 		</titlelist>
 	</game>
 </gamelist>

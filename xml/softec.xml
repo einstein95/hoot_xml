@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //日本ソフテック -->
 	<game>
-		<name>[X68000] eXOn(OPM)</name>
+		<name>[X68000] eXOn (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本ソフテック</driveralias>
+		<driveralias type="X68000">Softec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -49,14 +49,14 @@
 			<rom type="x"    offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">exmenu.x : タイトル</title>
-			<title code="0x01">exong.x  : ゲーム</title>
+			<title code="0x02">Title (タイトル)</title>
+			<title code="0x01">Game (ゲーム)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] eXOn(MT-32)</name>
+		<name>[X68000] eXOn (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本ソフテック</driveralias>
+		<driveralias type="X68000">Softec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -69,14 +69,14 @@
 			<rom type="x"    offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">exmenu.x : タイトル</title>
-			<title code="0x01">exong.x  : ゲーム</title>
+			<title code="0x02">Title (タイトル)</title>
+			<title code="0x01">Game (ゲーム)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] eXOn(MT-32 Emulation)</name>
+		<name>[X68000] eXOn (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本ソフテック</driveralias>
+		<driveralias type="X68000">Softec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -89,14 +89,14 @@
 			<rom type="x"    offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">exmenu.x : タイトル</title>
-			<title code="0x01">exong.x  : ゲーム</title>
+			<title code="0x02">Title (タイトル)</title>
+			<title code="0x01">Game (ゲーム)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] LUCY SHOT</name>
+		<name>[X68000] Lucy Shot (ルーシーショット)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本ソフテック</driveralias>
+		<driveralias type="X68000">Softec</driveralias>
 		<romlist archive="lucyshot68snd">
 			<rom type="code">lucy68snd.bin</rom>
 			<rom type="x" offset="0x010000">OPMDRV.X</rom>
@@ -107,9 +107,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] テニス・テニス</name>
+		<name>[PC-9801] Tennis Tennis (テニス・テニス)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="tennis98">
 			<rom type="file" offset="-1">tennis.com</rom>
 			<rom type="file" offset="-1">T.EXE</rom>
@@ -129,9 +129,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] めざせ！トッププレイヤー テニス・テニス2</name>
+		<name>[PC-9801] Mezase! Top Player: Tennis Tennis 2 (めざせ!トッププレイヤー テニス・テニス2)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="tennis2_98">
 			<rom type="file" offset="-1">tennis2.com</rom>
 			<rom type="file" offset="-1">T.EXE</rom>
@@ -156,9 +156,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 義経</name>
+		<name>[PC-9801] Yoshitsune (義経)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 		</options>
@@ -195,7 +195,7 @@
 	<game>
 		<name>[PC-9801] 雀風</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="janpu_98">
 			<rom type="file" offset="-1">janpu.com</rom>
 			<rom type="file" offset="-1">J.EXE</rom>
@@ -240,10 +240,10 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 98スタジアム</name>
+		<name>[PC-9801] 98 Stadium (98スタジアム)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="pc98dos">softec</driveralias>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="98stdium">
 			<rom type="file" offset="-1">98stdium.com</rom>
 			<rom type="file" offset="-1">BAS.EXE</rom>
@@ -263,9 +263,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] NET JACK</name>
+		<name>[PC-9801] Net Jack (ネットジャック)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="netjack98">
 			<rom type="file" offset="-1">netjack.com</rom>
 			<rom type="file" offset="-1">OPN.EXE</rom>
@@ -284,9 +284,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] AMIDA EXTRA</name>
+		<name>[PC-9801] Amida Extra (アミダ エクストラ)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 		</options>
@@ -311,7 +311,7 @@
 	<game>
 		<name>[PC-9801] 神話の島 ISLAND OF MYTH</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="sinwa98">
 			<rom type="file" offset="-1">sinwa98.com</rom>
 			<rom type="file" offset="-1">SINWA.EXE</rom>
@@ -331,9 +331,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] うさぎなパニック</name>
+		<name>[PC-9801] Usagi na Panic (うさぎなパニック)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="usagi_98">
 			<rom type="file" offset="-1">usagi.com</rom>
 			<rom type="file" offset="-1">T.EXE</rom>
@@ -393,9 +393,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] うさぎなパニック2 -ペンペン島の秘宝-</name>
+		<name>[PC-9801] Usagi na Panic 2: Penpenjima no Hihou (うさぎなパニック2 -ペンペン島の秘宝-)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="usagi2_98">
 			<rom type="file" offset="-1">usagi2.com</rom>
 			<rom type="file" offset="-1">T.EXE</rom>
@@ -451,9 +451,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 天下大乱</name>
+		<name>[PC-9801] Tenka Tairan (天下大乱)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本ソフテック</driveralias>
+		<driveralias type="PC-9801">Softec</driveralias>
 		<romlist archive="ttairan_98">
 			<rom type="file" offset="-1">ttairan.com</rom>
 			<rom type="file" offset="-1">ENDO.EXE</rom>
@@ -485,9 +485,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Pinball Pinball</name>
+		<name>[X68000] Pinball Pinball (ピンボール ピンボール)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本ソフテック</driveralias>
+		<driveralias type="X68000">Softec</driveralias>
 		<romlist archive="pinbpinb68snd">
 			<rom type="code">pbpb68snd.bin</rom>
 			<rom type="x" offset="0x010000">OPMDRV.X</rom>

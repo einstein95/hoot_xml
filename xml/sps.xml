@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] 英雄伝説</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<romlist archive="ds668snd">
 			<rom type="code">ds668snd.bin</rom>
 			<rom type="x" offset="0x08000">DSMDRV.X</rom>
@@ -66,9 +66,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Re Birth</name>
+		<name>[PC-8801] Re Birth (リ・バース) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SPS</driveralias>
+		<driveralias type="PC-8801">SPS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6900"/>
 			<option name="init_pc"    value="0xef00"/>
@@ -87,9 +87,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] THE RETURN OF ISHTAR</name>
+		<name>[PC-8801] The Return of Ishtar (イシターの復活 ザ リターン オブ イシター) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SPS</driveralias>
+		<driveralias type="PC-8801">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -110,28 +110,28 @@
 			<rom type="bgm" offset="0x09">MAINGATE.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00028408">ISSD.COM     : CREDIT</title>
-			<title code="0x00028000">IBGM1.COM    : OPENING THEME</title>
-			<title code="0x00000000">IBGM1.COM    : MAIN THEME</title>
-			<title code="0x00000005">IBGM6.COM    : DRUAGA A</title>
-			<title code="0x00000003">IBGM4.COM    : QUOX</title>
-			<title code="0x000cac07">ISGATE.COM   : ROUND CLEAR</title>
-			<title code="0x00000008">ISSD.COM     : ROUND START</title>
-			<title code="0x00000001">IBGM2.COM    : ROPER</title>
-			<title code="0x00000002">IBGM3.COM    : SUCCUBUS</title>
-			<title code="0x00000004">IBGM5.COM    : DRUAGA B</title>
-			<title code="0x00000406">ISED.COM     : MISS</title>
-			<title code="0x0000f606">ISED.COM     : GAME OVER</title>
-			<title code="0x00310809">MAINGATE.DAT : ALL ROUND CLEAR</title>
-			<title code="0x00321c09">MAINGATE.DAT : CONGRATULATIONS!</title>
-			<title code="0x00017805">IBGM6.COM    : DRUAGA NAME ENTRY</title>
-			<title code="0x00007e08">ISSD.COM     : SE</title>
+			<title code="0x00028408">Credit (クレジット音)</title>
+			<title code="0x00028000">Opening Theme</title>
+			<title code="0x00000000">Main Theme</title>
+			<title code="0x00000005">Druaga A</title>
+			<title code="0x00000003">Quox</title>
+			<title code="0x000cac07">Round Clear</title>
+			<title code="0x00000008">Round Start</title>
+			<title code="0x00000001">Roper</title>
+			<title code="0x00000002">Succubus</title>
+			<title code="0x00000004">Druaga B</title>
+			<title code="0x00000406">Miss</title>
+			<title code="0x0000f606">Game Over</title>
+			<title code="0x00310809">All Round Clear</title>
+			<title code="0x00321c09">Congratulations!</title>
+			<title code="0x00017805">Druaga Name Entry</title>
+			<title code="0x00007e08">SFX #01</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] THE RETURN OF ISHTAR</name>
+		<name>[PC-9801] The Return of Ishtar (イシターの復活 ザ リターン オブ イシター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SPS</driveralias>
+		<driveralias type="PC-9801">SPS</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -153,28 +153,28 @@
 			<rom type="shell" offset="0">muplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0284000d">ISSD.COM     : CREDIT</title>
-			<title code="0x02800006">IBGM1.COM    : OPENING THEME</title>
-			<title code="0x00000006">IBGM1.COM    : MAIN THEME</title>
-			<title code="0x0000000b">IBGM6.COM    : DRUAGA A</title>
-			<title code="0x00000009">IBGM4.COM    : QUOX</title>
-			<title code="0x10d6000e">ISGATE.EXE   : ROUND CLEAR</title>
-			<title code="0x0000000d">ISSD.COM     : ROUND START</title>
-			<title code="0x00000007">IBGM2.COM    : ROPER</title>
-			<title code="0x00000008">IBGM3.COM    : SUCCUBUS</title>
-			<title code="0x0000000a">IBGM5.COM    : DRUAGA B</title>
-			<title code="0x0004000c">ISED.COM     : MISS</title>
-			<title code="0x00f6000c">ISED.COM     : GAME OVER</title>
-			<title code="0x3108000f">MAINGATE.DAT : ALL ROUND CLEAR</title>
-			<title code="0x321c000f">MAINGATE.DAT : CONGRATULATIONS!</title>
-			<title code="0x0178000b">IBGM6.COM    : DRUAGA NAME ENTRY</title>
-			<title code="0x007e000d">ISSD.COM     : SE</title>
+			<title code="0x0284000d">Credit</title>
+			<title code="0x02800006">Opening Theme</title>
+			<title code="0x00000006">Main Theme</title>
+			<title code="0x0000000b">Druaga A</title>
+			<title code="0x00000009">Quox</title>
+			<title code="0x10d6000e">Round Clear</title>
+			<title code="0x0000000d">Round Start</title>
+			<title code="0x00000007">Roper</title>
+			<title code="0x00000008">Succubus</title>
+			<title code="0x0000000a">Druaga B</title>
+			<title code="0x0004000c">Miss</title>
+			<title code="0x00f6000c">Game Over</title>
+			<title code="0x3108000f">All Round Clear</title>
+			<title code="0x321c000f">Congratulations!</title>
+			<title code="0x0178000b">Druaga Name Entry</title>
+			<title code="0x007e000d">SFX #01</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] TONKY</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="init_pc"     value="0xf000"/>
 			<option name="mdata_addr"  value="0x5000"/>
@@ -226,14 +226,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Re Birth(OPM)</name>
+		<name>[X1] Re Birth (リ・バース) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6900"/>
 			<option name="init_pc"    value="0xef00"/>
 		</options>
-		<romlist archive="rebirth">
+		<romlist archive="rebirthx1">
 			<rom type="code" offset="0x0000">SAMPLEX.COM</rom>
 			<rom type="code" offset="0xef00">PATCHX</rom>
 			<rom type="bgm" offset="0x00">PROLOG.COM</rom>
@@ -247,14 +247,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Re Birth(PSG)</name>
+		<name>[X1] Re Birth (リ・バース) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6900"/>
 			<option name="init_pc"    value="0xef00"/>
 		</options>
-		<romlist archive="rebirth">
+		<romlist archive="rebirthx1">
 			<rom type="code" offset="0x0000">SAMPLEX.COM</rom>
 			<rom type="code" offset="0xef00">PATCHX</rom>
 			<rom type="bgm" offset="0x00">PROLOG.COM</rom>
@@ -270,7 +270,7 @@
 	<game>
 		<name>[X1] THE RETURN OF ISHTAR(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -313,7 +313,7 @@
 	<game>
 		<name>[X1] THE RETURN OF ISHTAR(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -355,7 +355,7 @@
 	<game>
 		<name>[X1] THE RETURN OF ISHTAR(OPN)</name>
 		<driver type="opn">x1</driver>
-		<driveralias type="SHARP X1">SPS</driveralias>
+		<driveralias type="X1">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -395,9 +395,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] THE FAIRY LAND STORY</name>
+		<name>[X68000] The Fairyland Story (ザ・フェアリーランドストーリー) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -451,7 +451,7 @@
 	<game>
 		<name>[X68000] Cyber Core</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -480,7 +480,7 @@
 	<game>
 		<name>[X68000] DEATH BRADE</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -521,7 +521,7 @@
 	<game>
 		<name>[X68000] THE RETURN OF ISHTAR</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -571,7 +571,7 @@
 	<game>
 		<name>[FM-7] THE RETURN OF ISHTAR</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM-7">SPS</driveralias>
+		<driveralias type="FM-7">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0x1000"/>
@@ -619,7 +619,7 @@
 	<game>
 		<name>[X68000] CUEB RUNNER</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="opm_mix" value="0x100"/>
@@ -648,7 +648,7 @@
 	<game>
 		<name>[X68000] WORLD COURT</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -706,7 +706,7 @@
 	<game>
 		<name>[X68000] MARCHEN MAZE</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SPS</driveralias>
+		<driveralias type="X68000">SPS</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -782,7 +782,7 @@
 	<game>
 		<name>[FM-7] Re Birth(OPN)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM-7">SPS</driveralias>
+		<driveralias type="FM-7">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0x4000"/>
 			<option name="mdata_addr" value="0x6500"/>
@@ -805,7 +805,7 @@
 	<game>
 		<name>[FM-7] Re Birth(PSG)</name>
 		<driver type="generic">fm7</driver>
-		<driveralias type="FUJITSU FM-7">SPS</driveralias>
+		<driveralias type="FM-7">SPS</driveralias>
 		<options>
 			<option name="init_pc"    value="0x4000"/>
 			<option name="mdata_addr" value="0x6500"/>

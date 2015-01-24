@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //ウィンキーソフト -->
 	<game>
-		<name>[X68000] OLTEUS2</name>
+		<name>[X68000] Olteus 2 (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ウィンキーソフト</driveralias>
+		<driveralias type="X68000">Winkysoft</driveralias>
 		<romlist archive="olt268snd">
 			<rom type="code">olt268snd.bin</rom>
 			<rom type="x" offset="0x8000">OLT_DRV2.X</rom>
@@ -46,35 +46,35 @@
 			<rom type="code" offset="0x20000">OLT.PCM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">STOP</title>
-			<title code="0x01">SOUND 01</title>
-			<title code="0x02">SOUND 02</title>
-			<title code="0x03">SOUND 03</title>
-			<title code="0x04">SOUND 04</title>
-			<title code="0x05">SOUND 05</title>
-			<title code="0x06">SOUND 06</title>
-			<title code="0x07">SOUND 07</title>
-			<title code="0x08">SOUND 08</title>
-			<title code="0x09">SOUND 09</title>
-			<title code="0x0a">SOUND 10</title>
-			<title code="0x0b">SOUND 11</title>
-			<title code="0x0c">SOUND 12</title>
-			<title code="0x0d">SOUND 13</title>
-			<title code="0x0e">SOUND 14</title>
-			<title code="0x0f">SOUND 15</title>
-			<title code="0x10">SOUND 16</title>
-			<title code="0x11">SOUND 17</title>
-			<title code="0x12">SOUND 18</title>
-			<title code="0x13">SOUND 19</title>
-			<title code="0x14">SOUND 20</title>
-			<title code="0x15">SOUND 21</title>
-			<title code="0x16">SOUND 22</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #10</title>
+			<title code="0x0b">BGM #11</title>
+			<title code="0x0c">BGM #12</title>
+			<title code="0x0d">BGM #13</title>
+			<title code="0x0e">BGM #14</title>
+			<title code="0x0f">BGM #15</title>
+			<title code="0x10">BGM #16</title>
+			<title code="0x11">BGM #17</title>
+			<title code="0x12">BGM #18</title>
+			<title code="0x13">BGM #19</title>
+			<title code="0x14">BGM #20</title>
+			<title code="0x15">BGM #21</title>
+			<title code="0x16">BGM #22</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] LOST POWER</name>
+		<name>[PC-8801] Lost Power (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ウィンキーソフト</driveralias>
+		<driveralias type="PC-8801">Winkysoft</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
@@ -89,9 +89,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 天地を喰らう －魔界三国志－</name>
+		<name>[PC-8801] Tenchi wo Kurau: Makai Sangokushi (天地を喰らう －魔界三国志－) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ウィンキーソフト</driveralias>
+		<driveralias type="PC-8801">Winkysoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7000"/>
 			<option name="mdata_size" value="0x0500"/>
@@ -192,7 +192,7 @@
 	<game>
 		<name>[PC-88VA] OLTEUS (initial version)(OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">ウィンキーソフト</driveralias>
+		<driveralias type="PC-88VA">Winkysoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -256,7 +256,7 @@
 	<game>
 		<name>[PC-88VA] OLTEUS (initial version)(OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">ウィンキーソフト</driveralias>
+		<driveralias type="PC-88VA">Winkysoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -319,7 +319,7 @@
 	<game>
 		<name>[PC-88VA] OLTEUS (bugfix version)(OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">ウィンキーソフト</driveralias>
+		<driveralias type="PC-88VA">Winkysoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -390,7 +390,7 @@
 	<game>
 		<name>[PC-88VA] OLTEUS (bugfix version)(OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">ウィンキーソフト</driveralias>
+		<driveralias type="PC-88VA">Winkysoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -455,7 +455,7 @@
 	<game>
 		<name>[MSX] アメリカンサクセス(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ウィンキーソフト</driveralias>
+		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7000"/>
 			<option name="mdata_size" value="0x0300"/>
@@ -478,7 +478,7 @@
 	<game>
 		<name>[MSX] アメリカンサクセス(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ウィンキーソフト</driveralias>
+		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7000"/>
 			<option name="mdata_size" value="0x0300"/>
@@ -500,7 +500,7 @@
 	<game>
 		<name>[MSX] あかんべドラゴン(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ウィンキーソフト</driveralias>
+		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -536,7 +536,7 @@
 	<game>
 		<name>[MSX] あかんべドラゴン(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ウィンキーソフト</driveralias>
+		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1800"/>

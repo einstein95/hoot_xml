@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //NATSUME -->
 	<game>
-		<name>[PC-8801] ネクロポリス －埋葬都市－(OPNA)</name>
+		<name>[PC-8801] Necropolis: Maiso Toshi (ネクロポリス －埋葬都市－) (OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">NATSUME</driveralias>
+		<driveralias type="PC-8801">Natsume</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x2a00"/>
@@ -92,9 +92,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ネクロポリス －埋葬都市－(OPN)</name>
+		<name>[PC-8801] Necropolis: Maiso Toshi (ネクロポリス －埋葬都市－) (OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NATSUME</driveralias>
+		<driveralias type="PC-8801">Natsume</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x2a00"/>
@@ -148,9 +148,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 輝け! キラキラ戦士 リスキージュエル</name>
+		<name>[PC-9801] Kagake Kira Kira Senshi Risky Jewel (輝け!キラキラ戦士 リスキージュエル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">NATSUME</driveralias>
+		<driveralias type="PC-9801">Natsume</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -180,7 +180,7 @@
 	<game>
 		<name>[PC-9801] 魔浄理子 淫靡界(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">NATSUME</driveralias>
+		<driveralias type="PC-9801">Natsume</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="dummysndrom" value="1"/>
@@ -192,14 +192,53 @@
 			<rom type="shell" offset="0">odq_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x10" max="0x19" extcode="1">SOUND %02x</range>
-			<range min="0x80" max="0x9e" extcode="1">SE %02x</range>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x80">SFX #80</title>
+			<title code="0x81">SFX #81</title>
+			<title code="0x82">SFX #82</title>
+			<title code="0x83">SFX #83</title>
+			<title code="0x84">SFX #84</title>
+			<title code="0x85">SFX #85</title>
+			<title code="0x86">SFX #86</title>
+			<title code="0x87">SFX #87</title>
+			<title code="0x88">SFX #88</title>
+			<title code="0x89">SFX #89</title>
+			<title code="0x8a">SFX #8a</title>
+			<title code="0x8b">SFX #8b</title>
+			<title code="0x8c">SFX #8c</title>
+			<title code="0x8d">SFX #8d</title>
+			<title code="0x8e">SFX #8e</title>
+			<title code="0x8f">SFX #8f</title>
+			<title code="0x90">SFX #90</title>
+			<title code="0x91">SFX #91</title>
+			<title code="0x92">SFX #92</title>
+			<title code="0x93">SFX #93</title>
+			<title code="0x94">SFX #94</title>
+			<title code="0x95">SFX #95</title>
+			<title code="0x96">SFX #96</title>
+			<title code="0x97">SFX #97</title>
+			<title code="0x98">SFX #98</title>
+			<title code="0x99">SFX #99</title>
+			<title code="0x9a">SFX #9a</title>
+			<title code="0x9b">SFX #9b</title>
+			<title code="0x9c">SFX #9c</title>
+			<title code="0x9d">SFX #9d</title>
+			<title code="0x9e">SFX #9e</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔浄理子 淫靡界(OPN+MT-32)</name>
+		<name>[PC-9801] Majoriko Inbikai Inbizoon (魔浄理子 淫靡界 インビゾーン) (MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">NATSUME</driveralias>
+		<driveralias type="PC-9801">Natsume</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="dummysndrom" value="1"/>
@@ -213,14 +252,53 @@
 			<rom type="shell" offset="0">odq_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x10" max="0x19" extcode="1">SOUND %02x</range>
-			<range min="0x80" max="0x9e" extcode="1">SE %02x</range>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x80">SFX #80</title>
+			<title code="0x81">SFX #81</title>
+			<title code="0x82">SFX #82</title>
+			<title code="0x83">SFX #83</title>
+			<title code="0x84">SFX #84</title>
+			<title code="0x85">SFX #85</title>
+			<title code="0x86">SFX #86</title>
+			<title code="0x87">SFX #87</title>
+			<title code="0x88">SFX #88</title>
+			<title code="0x89">SFX #89</title>
+			<title code="0x8a">SFX #8a</title>
+			<title code="0x8b">SFX #8b</title>
+			<title code="0x8c">SFX #8c</title>
+			<title code="0x8d">SFX #8d</title>
+			<title code="0x8e">SFX #8e</title>
+			<title code="0x8f">SFX #8f</title>
+			<title code="0x90">SFX #90</title>
+			<title code="0x91">SFX #91</title>
+			<title code="0x92">SFX #92</title>
+			<title code="0x93">SFX #93</title>
+			<title code="0x94">SFX #94</title>
+			<title code="0x95">SFX #95</title>
+			<title code="0x96">SFX #96</title>
+			<title code="0x97">SFX #97</title>
+			<title code="0x98">SFX #98</title>
+			<title code="0x99">SFX #99</title>
+			<title code="0x9a">SFX #9a</title>
+			<title code="0x9b">SFX #9b</title>
+			<title code="0x9c">SFX #9c</title>
+			<title code="0x9d">SFX #9d</title>
+			<title code="0x9e">SFX #9e</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔浄理子 淫靡界(OPN+MT-32 Emulation)</name>
+		<name>[PC-9801] Majoriko Inbikai Inbizoon (魔浄理子 淫靡界 インビゾーン) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">NATSUME</driveralias>
+		<driveralias type="PC-9801">Natsume</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="dummysndrom" value="1"/>
@@ -235,8 +313,75 @@
 			<rom type="shell" offset="0">odq_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x10" max="0x19" extcode="1">SOUND %02x</range>
-			<range min="0x80" max="0x9e" extcode="1">SE %02x</range>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x80">SFX #80</title>
+			<title code="0x81">SFX #81</title>
+			<title code="0x82">SFX #82</title>
+			<title code="0x83">SFX #83</title>
+			<title code="0x84">SFX #84</title>
+			<title code="0x85">SFX #85</title>
+			<title code="0x86">SFX #86</title>
+			<title code="0x87">SFX #87</title>
+			<title code="0x88">SFX #88</title>
+			<title code="0x89">SFX #89</title>
+			<title code="0x8a">SFX #8a</title>
+			<title code="0x8b">SFX #8b</title>
+			<title code="0x8c">SFX #8c</title>
+			<title code="0x8d">SFX #8d</title>
+			<title code="0x8e">SFX #8e</title>
+			<title code="0x8f">SFX #8f</title>
+			<title code="0x90">SFX #90</title>
+			<title code="0x91">SFX #91</title>
+			<title code="0x92">SFX #92</title>
+			<title code="0x93">SFX #93</title>
+			<title code="0x94">SFX #94</title>
+			<title code="0x95">SFX #95</title>
+			<title code="0x96">SFX #96</title>
+			<title code="0x97">SFX #97</title>
+			<title code="0x98">SFX #98</title>
+			<title code="0x99">SFX #99</title>
+			<title code="0x9a">SFX #9a</title>
+			<title code="0x9b">SFX #9b</title>
+			<title code="0x9c">SFX #9c</title>
+			<title code="0x9d">SFX #9d</title>
+			<title code="0x9e">SFX #9e</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Mitsume ga Tooru: The Three-Eyed One Comes Here (三つ目がとおる) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Natsume</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="mitsume_msx">
+			<rom type="code">Mitsume ga Tooru (1989)(Natsume).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -36,14 +36,14 @@
 <gamelist date="2005/09/25">
 	<!-- //FORESIGHT -->
 	<game>
-		<name>[PC-9801] 学園物語'93 ～The Instinct～</name>
+		<name>[PC-9801] Gakuen Monogatari '93: The Instinct (学園物語'93 ～The Instinct～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FORESIGHT</driveralias>
+		<driveralias type="PC-9801">Foresight</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
 		<romlist archive="gakuen93_98">
-			<rom type="file" offset="-1">NA.COM</rom>
+			<rom type="file" offset="-1">NAX.COM</rom>
 			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
 			<rom type="file" offset="-1">TONES.DTA</rom>
 			<rom type="file" offset="0x10">30_BGM01.O</rom>
@@ -62,7 +62,7 @@
 			<rom type="file" offset="0x1D">30_BGM0E.O</rom>
 			<rom type="file" offset="0x1E">30_BGM0F.O</rom>
 			<rom type="file" offset="0x1F">30_BGM10.O</rom>
-			<rom type="shell" offset="0">NA -T</rom>
+			<rom type="shell" offset="0">NAX -T</rom>
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
@@ -85,9 +85,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔導学院R</name>
+		<name>[PC-9801] Madou Gakuin R (魔導学院R) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FORESIGHT</driveralias>
+		<driveralias type="PC-9801">Foresight</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -137,9 +137,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 麻雀美少女伝 リップル</name>
+		<name>[PC-9801] Mahjong Bishoujo Densetsu Lipple (麻雀美少女伝 リップル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FORESIGHT</driveralias>
+		<driveralias type="PC-9801">Foresight</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -184,9 +184,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 曼陀羅家一族</name>
+		<name>[PC-9801] Mandarake Ichizoku (曼陀羅家一族) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FORESIGHT</driveralias>
+		<driveralias type="PC-9801">Foresight</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -208,16 +208,16 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BGM001.M : MANDARA FAMILY</title>
-			<title code="0x11">BGM002.M : Welcome!</title>
-			<title code="0x12">BGM003.M : サクサクやるどぉ</title>
-			<title code="0x13">BGM004.M : 御点棒頂戴!</title>
-			<title code="0x14">BGM005.M : ややや、やべぇ!</title>
-			<title code="0x15">BGM006.M : アガリィ!</title>
-			<title code="0x16">BGM007.M : やられたぁ</title>
-			<title code="0x17">BGM008.M : Beautiful Time</title>
-			<title code="0x18">BGM009.M : プロローグ ～曼陀羅～</title>
-			<title code="0x19">BGM010.M : 何でもできるもん!</title>
+			<title code="0x10">Mandara Family</title>
+			<title code="0x11">Welcome!</title>
+			<title code="0x12">サクサクやるどぉ</title>
+			<title code="0x13">御点棒頂戴!</title>
+			<title code="0x14">ややや、やべぇ!</title>
+			<title code="0x15">アガリィ!</title>
+			<title code="0x16">やられたぁ</title>
+			<title code="0x17">Beautiful Time</title>
+			<title code="0x18">プロローグ ～曼陀羅～</title>
+			<title code="0x19">何でもできるもん!</title>
 		</titlelist>
 	</game>
 </gamelist>

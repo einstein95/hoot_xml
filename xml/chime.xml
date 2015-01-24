@@ -36,16 +36,16 @@
 <gamelist date="2007/07/10">
 	<!--//Chime -->
 	<game>
-		<name>[PC-9801] プリンセスクエスト マージャンソード(86)</name>
+		<name>[PC-9801] Princess Quest Mahjong Sword (プリンセスクエスト マージャンソード) (YM2608)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Chime</driveralias>
+		<driveralias type="PC-9801">Chime</driveralias>
 		<options>
 			<option name="funcvect" value="0x7d"/>
 			<option name="clockmul" value="0x50"/>
 			<option name="extramsize" value="0x400000"/>
 			<option name="pcm_mix"  value="0xe0"/>
 		</options>
-		<romlist archive="msw98">
+		<romlist archive="pqms98">
 			<rom type="file" offset="-1">EMMDRV.COM</rom>
 			<rom type="file" offset="-1">PDR_86B.COM</rom>
 			<rom type="file" offset="-1">PUZ.COM</rom>
@@ -80,30 +80,30 @@
 			<rom type="shell" offset="0">puzp</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">MSW_P02.PUZ : CHIME TITLE  「Happy Sampling!」</title>
-			<title code="0x1b">MSW_P12.PUZ : OPENING      「Here comes a new challenger!」</title>
-			<title code="0x19">MSW_P10.PUZ : 開会式       「Hopeful beginning」</title>
-			<title code="0x10">MSW_P01.PUZ : 麻雀中1      「Go! and beat' em!」</title>
-			<title code="0x17">MSW_P08.PUZ : 麻雀中2      「Chicken Heart」</title>
-			<title code="0x15">MSW_P06.PUZ : MAR-JONG LAND「Walkin' around」</title>
-			<title code="0x14">MSW_P05.PUZ : SHOP KeroKero「...Maybe they'll support me.」</title>
-			<title code="0x12">MSW_P03.PUZ : GAME OVER    「How was it?」</title>
-			<title code="0x18">MSW_P09.PUZ : 閉会式       「Unforgettable moment」</title>
-			<title code="0x1a">MSW_P11.PUZ : ENDING       「Results」</title>
-			<title code="0x16">MSW_P07.PUZ : STAFF ROLL   「Take a rest, babe...」</title>
-			<title code="0x13">MSW_P04.PUZ : H SCENE      「Makin' a beautiful music..」</title>
+			<title code="0x11">Chime Title  「Happy Sampling!」</title>
+			<title code="0x1b">Opening      「Here comes a new challenger!」</title>
+			<title code="0x19">開会式       「Hopeful beginning」</title>
+			<title code="0x10">麻雀中1      「Go! and beat' em!」</title>
+			<title code="0x17">麻雀中2      「Chicken Heart」</title>
+			<title code="0x15">Mahjong Land 「Walkin' around」</title>
+			<title code="0x14">Shop KeroKero「...Maybe they'll support me.」</title>
+			<title code="0x12">Game Over    「How was it?」</title>
+			<title code="0x18">閉会式       「Unforgettable moment」</title>
+			<title code="0x1a">Ending       「Results」</title>
+			<title code="0x16">Staff Roll   「Take a rest, babe...」</title>
+			<title code="0x13">H Scene      「Makin' a beautiful music..」</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] プリンセスクエスト マージャンソード(OPN)</name>
+		<name>[PC-9801] Princess Quest Mahjong Sword (プリンセスクエスト マージャンソード) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Chime</driveralias>
+		<driveralias type="PC-9801">Chime</driveralias>
 		<options>
 			<option name="funcvect" value="0x7d"/>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
 		</options>
-		<romlist archive="msw98">
+		<romlist archive="pqms98">
 			<rom type="file" offset="-1">MDZ86.COM</rom>
 			<rom type="file" offset="-1">mdzp8p.com</rom>
 			<rom type="file" offset="-1">MSW_01.MDZ</rom>
@@ -134,18 +134,18 @@
 			<rom type="shell" offset="0">mdzp8p</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">MSW_01.MDZ : CHIME TITLE</title>
-			<title code="0x1b">MSW_12.MDZ : OPENING</title>
-			<title code="0x17">MSW_08.MDZ : 開会式</title>
-			<title code="0x15">MSW_06.MDZ : 麻雀中1</title>
-			<title code="0x16">MSW_07.MDZ : 麻雀中2</title>
-			<title code="0x13">MSW_04.MDZ : MAR-JONG LAND</title>
-			<title code="0x12">MSW_03.MDZ : SHOP KeroKero</title>
-			<title code="0x11">MSW_02.MDZ : GAME OVER</title>
-			<title code="0x1a">MSW_11.MDZ : 閉会式</title>
-			<title code="0x19">MSW_10.MDZ : ENDING</title>
-			<title code="0x18">MSW_09.MDZ : STAFF ROLL</title>
-			<title code="0x14">MSW_05.MDZ : H SCENE</title>
+			<title code="0x10">Chime Title  「Happy Sampling!」</title>
+			<title code="0x1b">Opening      「Here comes a new challenger!」</title>
+			<title code="0x17">開会式       「Hopeful beginning」</title>
+			<title code="0x15">麻雀中1      「Go! and beat' em!」</title>
+			<title code="0x16">麻雀中2      「Chicken Heart」</title>
+			<title code="0x13">Mahjong Land 「Walkin' around」</title>
+			<title code="0x12">Shop KeroKero「...Maybe they'll support me.」</title>
+			<title code="0x11">Game Over    「How was it?」</title>
+			<title code="0x1a">閉会式       「Unforgettable moment」</title>
+			<title code="0x19">Ending       「Results」</title>
+			<title code="0x18">Staff Roll   「Take a rest, babe...」</title>
+			<title code="0x14">H Scene      「Makin' a beautiful music..」</title>
 		</titlelist>
 	</game>
 </gamelist>

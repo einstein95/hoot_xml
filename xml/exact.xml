@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //EXACT -->
 	<game>
-		<name>[X68000] エトワール・プリンセス(OPM)</name>
+		<name>[X68000] Etoile Princesse (エトワール・プリンセス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<romlist archive="epsnd">
 			<rom type="code">epsnd.bin</rom>
 			<rom type="code" offset="0x100000">EMDRV</rom>
@@ -46,41 +46,41 @@
 			<rom type="code" offset="0x120000">EPOPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">演奏停止</title>
-			<title code="0x200">フェードアウト</title>
-			<title code="0x100">ウルト草原</title>
-			<title code="0x101">フウの水車村</title>
-			<title code="0x102">溶岩洞窟</title>
-			<title code="0x103">ドラグ火山</title>
-			<title code="0x104">エレミヤの塔</title>
-			<title code="0x105">ノムリア洞窟</title>
-			<title code="0x106">テミス神殿</title>
-			<title code="0x107">メネアの森</title>
-			<title code="0x108">ハイトの谷</title>
-			<title code="0x109">リアン湖</title>
-			<title code="0x10a">ア・レイク城</title>
-			<title code="0x10b">鏡の世界</title>
-			<title code="0x10c">太陽王宮</title>
-			<title code="0x10d">水没遺跡</title>
-			<title code="0x10e">天空城</title>
-			<title code="0x10f">エンペラーX</title>
-			<title code="0x015">ボス～その1～</title>
-			<title code="0x016">ボス～その2～</title>
-			<title code="0x017">ボス～その3～</title>
-			<title code="0x110">オープニング</title>
-			<title code="0x111">メンバーセレクト</title>
-			<title code="0x112">エンディング</title>
-			<title code="0x028">アイテムを手に入れた</title>
-			<title code="0x029">封印解除</title>
-			<title code="0x02a">ステージクリア</title>
-			<title code="0x02b">ゲームオーバー</title>
+			<title code="0x000">Stop the Music(演奏停止)</title>
+			<title code="0x200">Fade Out (フェードアウト)</title>
+			<title code="0x100">Ulto Grasslands (ウルト草原)</title>
+			<title code="0x101">Waterwheel Town of Fuu (フウの水車村)</title>
+			<title code="0x102">Lava Cave (溶岩洞窟)</title>
+			<title code="0x103">Dragu Volcano (ドラグ火山)</title>
+			<title code="0x104">Tower of Elemia (エレミヤの塔)</title>
+			<title code="0x105">Nomuria Cave (ノムリア洞窟)</title>
+			<title code="0x106">Temple of Temis (テミス神殿)</title>
+			<title code="0x107">Menea Forest (メネアの森)</title>
+			<title code="0x108">Hait Valley (ハイトの谷)</title>
+			<title code="0x109">Rian Lake (リアン湖)</title>
+			<title code="0x10a">A'Leik Castle (ア・レイク城)</title>
+			<title code="0x10b">Mirror World (鏡の世界)</title>
+			<title code="0x10c">Sun Palace (太陽王宮)</title>
+			<title code="0x10d">Underwater Ruins (水没遺跡)</title>
+			<title code="0x10e">Sky Castle (天空城)</title>
+			<title code="0x10f">Emperor X (エンペラーＸ)</title>
+			<title code="0x015">Boss 1 (ボス　～その１～)</title>
+			<title code="0x016">Boss 2 (ボス　～その２～)</title>
+			<title code="0x017">Boss 3 (ボス　～その３～)</title>
+			<title code="0x110">Opening (オープニング)</title>
+			<title code="0x111">Member Select (メンバーセレクト)</title>
+			<title code="0x112">Ending (エンディング)</title>
+			<title code="0x028">Getting an Item (アイテムを手に入れた)</title>
+			<title code="0x029">Breaking the Seal (封印解除)</title>
+			<title code="0x02a">Stage Clear (ステージクリア)</title>
+			<title code="0x02b">Game Over (ゲームオーバー)</title>
 			<!-- <title code="0x02d">バランステスト</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] エトワール・プリンセス(OPM+SC-55)</name>
+		<name>[X68000] Etoile Princesse (エトワール・プリンセス) (YM2151+MSM6258+SC-55)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -92,41 +92,41 @@
 			<rom type="code" offset="0x120000">EPMIDI</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">演奏停止</title>
-			<title code="0x200">フェードアウト</title>
-			<title code="0x100">ウルト草原</title>
-			<title code="0x101">フウの水車村</title>
-			<title code="0x102">溶岩洞窟</title>
-			<title code="0x103">ドラグ火山</title>
-			<title code="0x104">エレミヤの塔</title>
-			<title code="0x105">ノムリア洞窟</title>
-			<title code="0x106">テミス神殿</title>
-			<title code="0x107">メネアの森</title>
-			<title code="0x108">ハイトの谷</title>
-			<title code="0x109">リアン湖</title>
-			<title code="0x10a">ア・レイク城</title>
-			<title code="0x10b">鏡の世界</title>
-			<title code="0x10c">太陽王宮</title>
-			<title code="0x10d">水没遺跡</title>
-			<title code="0x10e">天空城</title>
-			<title code="0x10f">エンペラーX</title>
-			<title code="0x015">ボス～その1～</title>
-			<title code="0x016">ボス～その2～</title>
-			<title code="0x017">ボス～その3～</title>
-			<title code="0x110">オープニング</title>
-			<title code="0x111">メンバーセレクト</title>
-			<title code="0x112">エンディング</title>
-			<title code="0x028">アイテムを手に入れた</title>
-			<title code="0x029">封印解除</title>
-			<title code="0x02a">ステージクリア</title>
-			<title code="0x02b">ゲームオーバー</title>
-			<title code="0x02d">バランステスト</title>
+			<title code="0x000">Stop the Music(演奏停止)</title>
+			<title code="0x200">Fade Out (フェードアウト)</title>
+			<title code="0x100">Ulto Grasslands (ウルト草原)</title>
+			<title code="0x101">Waterwheel Town of Fuu (フウの水車村)</title>
+			<title code="0x102">Lava Cave (溶岩洞窟)</title>
+			<title code="0x103">Dragu Volcano (ドラグ火山)</title>
+			<title code="0x104">Tower of Elemia (エレミヤの塔)</title>
+			<title code="0x105">Nomuria Cave (ノムリア洞窟)</title>
+			<title code="0x106">Temple of Temis (テミス神殿)</title>
+			<title code="0x107">Menea Forest (メネアの森)</title>
+			<title code="0x108">Hait Valley (ハイトの谷)</title>
+			<title code="0x109">Rian Lake (リアン湖)</title>
+			<title code="0x10a">A'Leik Castle (ア・レイク城)</title>
+			<title code="0x10b">Mirror World (鏡の世界)</title>
+			<title code="0x10c">Sun Palace (太陽王宮)</title>
+			<title code="0x10d">Underwater Ruins (水没遺跡)</title>
+			<title code="0x10e">Sky Castle (天空城)</title>
+			<title code="0x10f">Emperor X (エンペラーＸ)</title>
+			<title code="0x015">Boss 1 (ボス　～その１～)</title>
+			<title code="0x016">Boss 2 (ボス　～その２～)</title>
+			<title code="0x017">Boss 3 (ボス　～その３～)</title>
+			<title code="0x110">Opening (オープニング)</title>
+			<title code="0x111">Member Select (メンバーセレクト)</title>
+			<title code="0x112">Ending (エンディング)</title>
+			<title code="0x028">Getting an Item (アイテムを手に入れた)</title>
+			<title code="0x029">Breaking the Seal (封印解除)</title>
+			<title code="0x02a">Stage Clear (ステージクリア)</title>
+			<title code="0x02b">Game Over (ゲームオーバー)</title>
+			<title code="0x02d">Balance Test (バランステスト)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] エトワール・プリンセス(OPM+Vermouth)</name>
+		<name>[X68000] Etoile Princesse (エトワール・プリンセス) (YM2151+MSM6258+Vermouth)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
@@ -139,41 +139,41 @@
 			<rom type="code" offset="0x120000">EPMIDI</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">演奏停止</title>
-			<title code="0x200">フェードアウト</title>
-			<title code="0x100">ウルト草原</title>
-			<title code="0x101">フウの水車村</title>
-			<title code="0x102">溶岩洞窟</title>
-			<title code="0x103">ドラグ火山</title>
-			<title code="0x104">エレミヤの塔</title>
-			<title code="0x105">ノムリア洞窟</title>
-			<title code="0x106">テミス神殿</title>
-			<title code="0x107">メネアの森</title>
-			<title code="0x108">ハイトの谷</title>
-			<title code="0x109">リアン湖</title>
-			<title code="0x10a">ア・レイク城</title>
-			<title code="0x10b">鏡の世界</title>
-			<title code="0x10c">太陽王宮</title>
-			<title code="0x10d">水没遺跡</title>
-			<title code="0x10e">天空城</title>
-			<title code="0x10f">エンペラーX</title>
-			<title code="0x015">ボス～その1～</title>
-			<title code="0x016">ボス～その2～</title>
-			<title code="0x017">ボス～その3～</title>
-			<title code="0x110">オープニング</title>
-			<title code="0x111">メンバーセレクト</title>
-			<title code="0x112">エンディング</title>
-			<title code="0x028">アイテムを手に入れた</title>
-			<title code="0x029">封印解除</title>
-			<title code="0x02a">ステージクリア</title>
-			<title code="0x02b">ゲームオーバー</title>
-			<title code="0x02d">バランステスト</title>
+			<title code="0x000">Stop the Music(演奏停止)</title>
+			<title code="0x200">Fade Out (フェードアウト)</title>
+			<title code="0x100">Ulto Grasslands (ウルト草原)</title>
+			<title code="0x101">Waterwheel Town of Fuu (フウの水車村)</title>
+			<title code="0x102">Lava Cave (溶岩洞窟)</title>
+			<title code="0x103">Dragu Volcano (ドラグ火山)</title>
+			<title code="0x104">Tower of Elemia (エレミヤの塔)</title>
+			<title code="0x105">Nomuria Cave (ノムリア洞窟)</title>
+			<title code="0x106">Temple of Temis (テミス神殿)</title>
+			<title code="0x107">Menea Forest (メネアの森)</title>
+			<title code="0x108">Hait Valley (ハイトの谷)</title>
+			<title code="0x109">Rian Lake (リアン湖)</title>
+			<title code="0x10a">A'Leik Castle (ア・レイク城)</title>
+			<title code="0x10b">Mirror World (鏡の世界)</title>
+			<title code="0x10c">Sun Palace (太陽王宮)</title>
+			<title code="0x10d">Underwater Ruins (水没遺跡)</title>
+			<title code="0x10e">Sky Castle (天空城)</title>
+			<title code="0x10f">Emperor X (エンペラーX)</title>
+			<title code="0x015">Boss 1 (ボス　～その1～)</title>
+			<title code="0x016">Boss 2 (ボス　～その2～)</title>
+			<title code="0x017">Boss 3 (ボス　～その3～)</title>
+			<title code="0x110">Opening (オープニング)</title>
+			<title code="0x111">Member Select (メンバーセレクト)</title>
+			<title code="0x112">Ending (エンディング)</title>
+			<title code="0x028">Getting an Item (アイテムを手に入れた)</title>
+			<title code="0x029">Breaking the Seal (封印解除)</title>
+			<title code="0x02a">Stage Clear (ステージクリア)</title>
+			<title code="0x02b">Game Over (ゲームオーバー)</title>
+			<title code="0x02d">Balance Test (バランステスト)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] AQUALES</name>
+		<name>[X68000] Aquales (アクアレス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -215,9 +215,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Geograph Seal(OPM)</name>
+		<name>[X68000] Geograph Seal (ジオグラフシール) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -255,9 +255,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Geograph Seal(GS)</name>
+		<name>[X68000] Geograph Seal (ジオグラフシール) (YM2151+MSM6258+SC-55)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -298,9 +298,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] NAIOUS</name>
+		<name>[X68000] Naious (ナイアス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">EXACT</driveralias>
+		<driveralias type="X68000">Exact</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>

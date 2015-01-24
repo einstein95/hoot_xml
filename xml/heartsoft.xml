@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //ハート電子産業 -->
 	<game>
-		<name>[PC-8801] HEAVY ARMED STORMING VEHICLE - VAXOL -</name>
+		<name>[PC-8801] Vaxol (ヴァクソル) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="init_pc" value="0x0100"/>
 		</options>
@@ -55,11 +55,11 @@
 			<rom type="bgm" offset="0x09">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">OPENING TITLE</title>
-			<title code="0x00000001">STAGE 1</title>
-			<title code="0x01000001">STAGE 1 BOSS</title>
-			<title code="0x00000002">STAGE 2</title>
-			<title code="0x00000003">STAGE 3</title>
+			<title code="0x00000000">Opening Title</title>
+			<title code="0x00000001">Stage 1</title>
+			<title code="0x01000001">Stage 1 Boss</title>
+			<title code="0x00000002">Stage 2</title>
+			<title code="0x00000003">Stage 3</title>
 			<title code="0x00000004">BGM #4-1</title>
 			<title code="0x01000004">BGM #4-2</title>
 			<title code="0x00000005">BGM #5</title>
@@ -70,9 +70,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 探偵団X</name>
+		<name>[PC-8801] Tanteidan X (探偵団X) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -104,33 +104,33 @@
 			<rom type="bgm" offset="0x14">XEND.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BATTLE.X : </title>
-			<title code="0x01">BEAR1.X  : </title>
-			<title code="0x02">BEAR2.X  : </title>
-			<title code="0x03">BEAR3.X  : </title>
-			<title code="0x04">BLIGHT.X : </title>
-			<title code="0x05">BUSY.X   : </title>
-			<title code="0x06">CAT1.X   : </title>
-			<title code="0x07">CAT2.X   : </title>
-			<title code="0x08">FEAR.X   : </title>
-			<title code="0x09">KING1.X  : </title>
-			<title code="0x0a">KING2.X  : </title>
-			<title code="0x0b">KING3.X  : </title>
-			<title code="0x0c">KOHMON.X : </title>
-			<title code="0x0d">RIDER.X  : </title>
-			<title code="0x0e">SE1.X    : </title>
-			<title code="0x0f">SE2.X    : </title>
-			<title code="0x10">SE3.X    : </title>
-			<title code="0x11">SE5.X    : </title>
-			<title code="0x12">TABU.X   : </title>
-			<title code="0x13">THEME.X  : </title>
-			<title code="0x14">XEND.X   : </title>
+			<title code="0x00">BATTLE.X</title>
+			<title code="0x01">BEAR1.X</title>
+			<title code="0x02">BEAR2.X</title>
+			<title code="0x03">BEAR3.X</title>
+			<title code="0x04">BLIGHT.X</title>
+			<title code="0x05">BUSY.X</title>
+			<title code="0x06">CAT1.X</title>
+			<title code="0x07">CAT2.X</title>
+			<title code="0x08">FEAR.X</title>
+			<title code="0x09">KING1.X</title>
+			<title code="0x0a">KING2.X</title>
+			<title code="0x0b">KING3.X</title>
+			<title code="0x0c">KOHMON.X</title>
+			<title code="0x0d">RIDER.X</title>
+			<title code="0x0e">SE1.X</title>
+			<title code="0x0f">SE2.X</title>
+			<title code="0x10">SE3.X</title>
+			<title code="0x11">SE5.X</title>
+			<title code="0x12">TABU.X</title>
+			<title code="0x13">THEME.X</title>
+			<title code="0x14">XEND.X</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 帰ってきた探偵団X</name>
+		<name>[PC-8801] Kaettekita Tanteidan X (帰ってきた探偵団X) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -161,32 +161,32 @@
 			<rom type="bgm" offset="0x13">TITLE.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM1.X   : </title>
-			<title code="0x01">BGM2.X   : </title>
-			<title code="0x02">BGM3.X   : </title>
-			<title code="0x03">CURRY.X  : </title>
-			<title code="0x04">DOMEST.X : </title>
-			<title code="0x05">ENDING.X : </title>
-			<title code="0x06">F1A.X    : </title>
-			<title code="0x07">F1B.X    : </title>
-			<title code="0x08">F1C.X    : </title>
-			<title code="0x09">FIGHT.X  : </title>
-			<title code="0x0a">GMOVER.X : </title>
-			<title code="0x0b">HEART.X  : </title>
-			<title code="0x0c">INSIDE.X : </title>
-			<title code="0x0d">JAIL.X   : </title>
-			<title code="0x0e">MARIN.X  : </title>
-			<title code="0x0f">SAKE.X   : </title>
-			<title code="0x10">SE1.X    : </title>
-			<title code="0x11">SE2.X    : </title>
-			<title code="0x12">SHARK.X  : </title>
-			<title code="0x13">TITLE.X  : </title>
+			<title code="0x00">BGM1.X</title>
+			<title code="0x01">BGM2.X</title>
+			<title code="0x02">BGM3.X</title>
+			<title code="0x03">CURRY.X</title>
+			<title code="0x04">DOMEST.X</title>
+			<title code="0x05">ENDING.X</title>
+			<title code="0x06">F1A.X</title>
+			<title code="0x07">F1B.X</title>
+			<title code="0x08">F1C.X</title>
+			<title code="0x09">FIGHT.X</title>
+			<title code="0x0a">GMOVER.X</title>
+			<title code="0x0b">HEART.X</title>
+			<title code="0x0c">INSIDE.X</title>
+			<title code="0x0d">JAIL.X</title>
+			<title code="0x0e">MARIN.X</title>
+			<title code="0x0f">SAKE.X</title>
+			<title code="0x10">SE1.X</title>
+			<title code="0x11">SE2.X</title>
+			<title code="0x12">SHARK.X</title>
+			<title code="0x13">TITLE.X</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 陽炎迷宮</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -250,7 +250,7 @@
 	<game>
 		<name>[PC-8801] PARAGON SEXA DOLL</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -290,7 +290,7 @@
 	<game>
 		<name>[PC-8801] ファーラの時結界</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -326,7 +326,7 @@
 	<game>
 		<name>[PC-8801] 死体置場で夕食を</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ハート電子産業</driveralias>
+		<driveralias type="PC-8801">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -420,7 +420,7 @@
 	<game>
 		<name>[PC-9801] キサントゲノス 魔性甦る時</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ハート電子産業</driveralias>
+		<driveralias type="PC-9801">HeartSoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -467,9 +467,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] GIDDY2</name>
+		<name>[PC-9801] Giddy 2 (ギディ２) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ハート電子産業</driveralias>
+		<driveralias type="PC-9801">HeartSoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -538,9 +538,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] シャレイドマジック</name>
+		<name>[PC-9801] Shared Magic (シャレイドマジック) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ハート電子産業</driveralias>
+		<driveralias type="PC-9801">HeartSoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -591,7 +591,7 @@
 	<game>
 		<name>[MSX] 帰ってきた 探偵団X</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ハート電子産業</driveralias>
+		<driveralias type="MSX">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -639,7 +639,7 @@
 	<game>
 		<name>[MSX] 陽炎迷宮(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ハート電子産業</driveralias>
+		<driveralias type="MSX">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -704,7 +704,7 @@
 	<game>
 		<name>[MSX] 陽炎迷宮(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ハート電子産業</driveralias>
+		<driveralias type="MSX">HeartSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>

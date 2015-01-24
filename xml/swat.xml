@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //SWAT -->
 	<game>
-		<name>[PC-9801] Days in Duel</name>
+		<name>[PC-9801] Days in Duel (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SWAT</driveralias>
+		<driveralias type="PC-9801">Swat</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -96,63 +96,63 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">M1.O  : BGM A</title>
-			<title code="0x11">M2.O  : BGM B</title>
-			<title code="0x12">M3.O  : BGM C</title>
-			<title code="0x13">M4.O  : BGM D</title>
-			<title code="0x14">M5.O  : Boss Fighting BGM</title>
-			<title code="0x15">M6.O  : City of China</title>
-			<title code="0x16">M7.O  : City of West(1)</title>
-			<title code="0x17">M8.O  : City of West(2)</title>
-			<title code="0x18">M9.O  : Days in Grief</title>
-			<title code="0x19">M10.O : Dark of Cave</title>
-			<title code="0x1A">M11.O : Dead of Friend</title>
-			<title code="0x1B">M12.O : Enemy BGM</title>
-			<title code="0x1C">M13.O : Enemy Fighting BGM</title>
-			<title code="0x1D">M14.O : Get Item</title>
-			<title code="0x1E">M15.O : </title>
-			<title code="0x1F">M16.O : レベルアップの音</title>
-			<title code="0x20">M17.O : Map Clear</title>
-			<title code="0x21">M18.O : Fighting BGM(1)</title>
-			<title code="0x22">M19.O : Fighting BGM(2)</title>
-			<title code="0x23">M20.O : Pure Mind</title>
-			<title code="0x24">M21.O : Song of Curse</title>
-			<title code="0x25">M22.O : Silent of Sanctuary</title>
-			<title code="0x26">M23.O : Staff Roll BGM(?)</title>
-			<title code="0x27">M24.O : </title>
-			<title code="0x28">M25.O : Theme of DUEL</title>
-			<title code="0x29">M26.O : 弓矢を撃つ音</title>
-			<title code="0x2A">M27.O : チェ－ンフレイルで殴る音</title>
-			<title code="0x2B">M28.O : クリティカルヒットの音</title>
-			<title code="0x2C">M29.O : ダメ－ジを受けた音</title>
-			<title code="0x2D">M30.O : 敵を倒した音</title>
-			<title code="0x2E">M31.O : スライム系を倒した音</title>
-			<title code="0x2F">M32.O : 電気系魔法の音</title>
-			<title code="0x30">M33.O : 火系魔法の音1</title>
-			<title code="0x31">M34.O : 火系魔法の音2</title>
-			<title code="0x32">M35.O : 氷系魔法の音</title>
-			<title code="0x33">M36.O : 霊系魔法の音</title>
-			<title code="0x34">M37.O : 魔法が敵に当たる音1</title>
-			<title code="0x35">M38.O : 魔法が敵に当たる音2</title>
-			<title code="0x36">M39.O : 攻撃ミスの音</title>
-			<title code="0x37">M40.O : 斬りつける音</title>
-			<title code="0x38">M41.O : 最強魔法の音</title>
-			<title code="0x39">M42.O : 雷系の魔法の音</title>
-			<title code="0x3A">M43.O : ブーメランの音</title>
-			<title code="0x3B">M44.O : 宝箱を開ける音</title>
-			<title code="0x3C">M45.O : 地鳴り</title>
-			<title code="0x3D">M46.O : 回復魔法の音</title>
-			<title code="0x3E">M47.O : 宝箱を開ける音</title>
+			<title code="0x10">BGM A</title>
+			<title code="0x11">BGM B</title>
+			<title code="0x12">BGM C</title>
+			<title code="0x13">BGM D</title>
+			<title code="0x14">Boss Fighting BGM</title>
+			<title code="0x15">City of China</title>
+			<title code="0x16">City of West(1)</title>
+			<title code="0x17">City of West(2)</title>
+			<title code="0x18">Days in Grief</title>
+			<title code="0x19">Dark of Cave</title>
+			<title code="0x1A">Dead of Friend</title>
+			<title code="0x1B">Enemy BGM</title>
+			<title code="0x1C">Enemy Fighting BGM</title>
+			<title code="0x1D">Get Item</title>
+			<title code="0x1E">M15.O</title>
+			<title code="0x1F">レベルアップの音</title>
+			<title code="0x20">Map Clear</title>
+			<title code="0x21">Fighting BGM(1)</title>
+			<title code="0x22">Fighting BGM(2)</title>
+			<title code="0x23">Pure Mind</title>
+			<title code="0x24">Song of Curse</title>
+			<title code="0x25">Silent of Sanctuary</title>
+			<title code="0x26">Staff Roll BGM(?)</title>
+			<title code="0x27">M24.O</title>
+			<title code="0x28">Theme of DUEL</title>
+			<title code="0x29">弓矢を撃つ音</title>
+			<title code="0x2A">チェ－ンフレイルで殴る音</title>
+			<title code="0x2B">クリティカルヒットの音</title>
+			<title code="0x2C">ダメ－ジを受けた音</title>
+			<title code="0x2D">敵を倒した音</title>
+			<title code="0x2E">スライム系を倒した音</title>
+			<title code="0x2F">電気系魔法の音</title>
+			<title code="0x30">火系魔法の音1</title>
+			<title code="0x31">火系魔法の音2</title>
+			<title code="0x32">氷系魔法の音</title>
+			<title code="0x33">霊系魔法の音</title>
+			<title code="0x34">魔法が敵に当たる音1</title>
+			<title code="0x35">魔法が敵に当たる音2</title>
+			<title code="0x36">攻撃ミスの音</title>
+			<title code="0x37">斬りつける音</title>
+			<title code="0x38">最強魔法の音</title>
+			<title code="0x39">雷系の魔法の音</title>
+			<title code="0x3A">ブーメランの音</title>
+			<title code="0x3B">宝箱を開ける音</title>
+			<title code="0x3C">地鳴り</title>
+			<title code="0x3D">回復魔法の音</title>
+			<title code="0x3E">宝箱を開ける音</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Oh!ツキ遭いた～い!! 三芝商事花札交渉プロジェクト</name>
+		<name>[PC-9801] Oh! Tsukiaitai!! San Shiba Shoji Hanafuda Koushou Project (Oh!ツキ遭いた～い!! 三芝商事花札交渉プロジェクト) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SWAT</driveralias>
+		<driveralias type="PC-9801">Swat</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="tukiaiti_98">
+		<romlist archive="ohtsuki_98">
 			<rom type="file" offset="-1">NA.com</rom>
 			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
 			<rom type="file" offset="-1">TONE.DTA</rom>
@@ -167,11 +167,11 @@
 			<rom type="file" offset="0x17">MUSIC_06.O</rom>
 			<rom type="file" offset="0x18">MUSIC_07.O</rom>
 			<rom type="file" offset="0x19">MUSIC_09.O</rom>
-			<rom type="file" offset="0x1A">MUSIC_10.O</rom>
-			<rom type="file" offset="0x1B">MUSIC_11.O</rom>
-			<rom type="file" offset="0x1C">MUSIC_12.O</rom>
-			<rom type="file" offset="0x1D">MUSIC_15.O</rom>
-			<rom type="file" offset="0x1E">MUSIC_19.O</rom>
+			<rom type="file" offset="0x1a">MUSIC_10.O</rom>
+			<rom type="file" offset="0x1b">MUSIC_11.O</rom>
+			<rom type="file" offset="0x1c">MUSIC_12.O</rom>
+			<rom type="file" offset="0x1d">MUSIC_15.O</rom>
+			<rom type="file" offset="0x1e">MUSIC_19.O</rom>
 			<rom type="shell" offset="0">NA</rom>
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
@@ -186,17 +186,17 @@
 			<title code="0x17">MUSIC_06.O</title>
 			<title code="0x18">MUSIC_07.O</title>
 			<title code="0x19">MUSIC_09.O</title>
-			<title code="0x1A">MUSIC_10.O</title>
-			<title code="0x1B">MUSIC_11.O</title>
-			<title code="0x1C">MUSIC_12.O</title>
-			<title code="0x1D">MUSIC_15.O</title>
-			<title code="0x1E">MUSIC_19.O</title>
+			<title code="0x1a">MUSIC_10.O</title>
+			<title code="0x1b">MUSIC_11.O</title>
+			<title code="0x1c">MUSIC_12.O</title>
+			<title code="0x1d">MUSIC_15.O</title>
+			<title code="0x1e">MUSIC_19.O</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 桃源境 Harlem Fantasy(OPN)</name>
+		<name>[PC-9801] Tougenkyou: Harlem Fantasy (桃源境 Harlem Fantasy) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SWAT</driveralias>
+		<driveralias type="PC-9801">Swat</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -221,19 +221,19 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">MUSIC01.O : オープニング</title>
-			<title code="0x11">MUSIC02.O : シナリオオープニング前半</title>
-			<title code="0x12">MUSIC03.O : シナリオオープニング後半</title>
-			<title code="0x13">MUSIC04.O : シナリオ</title>
-			<title code="0x14">MUSIC05.O : マップ移動</title>
-			<title code="0x15">MUSIC06.O : 家に入ったとき</title>
-			<title code="0x16">MUSIC07.O : バトルモード</title>
-			<title code="0x17">MUSIC08.O : バトルモード2</title>
-			<title code="0x18">MUSIC09.O : BOSSとの対戦</title>
-			<title code="0x19">MUSIC10.O : バトルモード勝ったとき</title>
-			<title code="0x1A">MUSIC11.O : バトル負け</title>
-			<title code="0x1B">MUSIC12.O : おちゃらけた感じ</title>
-			<title code="0x1C">MUSIC13.O : エンディング</title>
+			<title code="0x10">オープニング</title>
+			<title code="0x11">シナリオオープニング前半</title>
+			<title code="0x12">シナリオオープニング後半</title>
+			<title code="0x13">シナリオ</title>
+			<title code="0x14">マップ移動</title>
+			<title code="0x15">家に入ったとき</title>
+			<title code="0x16">バトルモード</title>
+			<title code="0x17">バトルモード2</title>
+			<title code="0x18">BOSSとの対戦</title>
+			<title code="0x19">バトルモード勝ったとき</title>
+			<title code="0x1A">バトル負け</title>
+			<title code="0x1B">おちゃらけた感じ</title>
+			<title code="0x1C">エンディング</title>
 		</titlelist>
 	</game>
 </gamelist>

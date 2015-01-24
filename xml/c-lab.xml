@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //C-Lab. -->
 	<game>
-		<name>[PC-9801] Rusty(OPN)</name>
+		<name>[PC-9801] Rusty (ラスティ) (YM2203)</name>
 		<driver type="opn">pc9821dos</driver>
-		<driveralias type="NEC PC-9801">C-Lab.</driveralias>
+		<driveralias type="PC-9801">C-lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="16"/>
@@ -94,46 +94,46 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x31">CLABLOGO.M : </title>
-			<title code="0x20">MUSS.M     : BLOOD SOON CASTLE       / 荒川憲一</title>
-			<title code="0x1f">MU02.M     : RUSTY                   / KAJA</title>
-			<title code="0x16">ALLMAP.M   : THE WORLD               / KAJA</title>
-			<title code="0x21">ROUND1.M   : QUEEN IN THE DARK NIGHT / 荒川憲一</title>
-			<title code="0x17">BOSS.M     : I'LL DESTROY YOUR MIND  / KAJA</title>
-			<title code="0x19">CLEAR.M    : DANCE DANCE             / KAJA</title>
-			<title code="0x24">ROUND2.M   : SILENT CEMETERY         / KAJA</title>
-			<title code="0x25">ROUND3.M   : MYSTERIOUS CHAPEL       / 荒川憲一</title>
-			<title code="0x26">ROUND4.M   : DEAD END                / KAJA</title>
-			<title code="0x18">BOSS2.M    : RHYTHM OF DARK          / 荒川憲一</title>
-			<title code="0x27">ROUND5.M   : EARTH HOLE              / 荒川憲一</title>
-			<title code="0x28">ROUND5_2.M : HELL'S STRIKE           / 荒川憲一</title>
-			<title code="0x29">ROUND6.M   : WATER GATE              / 荒川憲一</title>
-			<title code="0x2a">ROUND7.M   : RED SUNSET              / KAJA</title>
-			<title code="0x2b">ROUND8.M   : TOWER OF THE DESTINY    / R.TAKAMI</title>
-			<title code="0x22">ROUND10.M  : CASTLE                  / KAJA</title>
-			<title code="0x30">VISUAL4.M  : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x2c">ROUND9.M   : STONE WASHER            / KAJA</title>
-			<title code="0x23">ROUND10B.M : AN ALTER                / KAJA</title>
-			<title code="0x1e">LASTBOSS.M : FINAL BATTLE            / KAJA</title>
-			<title code="0x15">ALLCLEAR.M : ALL OVER                / KAJA</title>
-			<title code="0x1a">ENDING1.M  : AS IF IN A DREAM        / 荒川憲一</title>
-			<title code="0x1b">ENDING2.M  : RISING SUN              / KAJA</title>
-			<title code="0x1d">GAMEOVER.M : NEVER GIVEUP            / 荒川憲一</title>
-			<title code="0x1c">EYECATCH.M : </title>
-			<title code="0x2d">VISUAL1.M  : </title>
-			<title code="0x2e">VISUAL2.M  : </title>
-			<title code="0x2f">VISUAL3.M  : </title>
-			<title code="0x10">_VISUAL1.M : </title>
-			<title code="0x11">_VISUAL2.M : </title>
-			<title code="0x12">_VISUAL3.M : </title>
-			<title code="0x13">_VISUAL4.M : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x14">_VISUAL5.M : </title>
+			<title code="0x31">CLABLOGO.M</title>
+			<title code="0x20">Blood Soon Castle       / 荒川憲一</title>
+			<title code="0x1f">Rusty                   / KAJA</title>
+			<title code="0x16">The World               / KAJA</title>
+			<title code="0x21">Queen in the Dark Knight/ 荒川憲一</title>
+			<title code="0x17">I'll Destroy Your Mind  / KAJA</title>
+			<title code="0x19">Dance Dance             / KAJA</title>
+			<title code="0x24">Silent Cemetary         / KAJA</title>
+			<title code="0x25">Mysterious Chapel       / 荒川憲一</title>
+			<title code="0x26">Dead End                / KAJA</title>
+			<title code="0x18">Rhythm of Dark          / 荒川憲一</title>
+			<title code="0x27">Earth Hole              / 荒川憲一</title>
+			<title code="0x28">Hell's Strike           / 荒川憲一</title>
+			<title code="0x29">Water Gate              / 荒川憲一</title>
+			<title code="0x2a">Red Sunset              / KAJA</title>
+			<title code="0x2b">Tower of the Destiny    / R.TAKAMI</title>
+			<title code="0x22">Castle                  / KAJA</title>
+			<title code="0x30">Shooting Star           / 荒川憲一</title>
+			<title code="0x2c">Stone Washer            / KAJA</title>
+			<title code="0x23">An Alter                / KAJA</title>
+			<title code="0x1e">Final Battle            / KAJA</title>
+			<title code="0x15">All Over                / KAJA</title>
+			<title code="0x1a">As If in a Dream        / 荒川憲一</title>
+			<title code="0x1b">Rising Sun              / KAJA</title>
+			<title code="0x1d">Never Give Up           / 荒川憲一</title>
+			<title code="0x1c">EYECATCH.M2</title>
+			<title code="0x2d">VISUAL1.M2</title>
+			<title code="0x2e">VISUAL2.M2</title>
+			<title code="0x2f">VISUAL3.M2</title>
+			<title code="0x10">_VISUAL1.M2</title>
+			<title code="0x11">_VISUAL2.M2</title>
+			<title code="0x12">_VISUAL3.M2</title>
+			<title code="0x13">SHOOTING STAR           / 荒川憲一</title>
+			<title code="0x14">_VISUAL5.M2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Rusty(OPNA)</name>
+		<name>[PC-9801] Rusty (ラスティ) (YM2608)</name>
 		<driver type="opna">pc9821dos</driver>
-		<driveralias type="NEC PC-9801">C-Lab.</driveralias>
+		<driveralias type="PC-9801">C-lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="16"/>
@@ -189,46 +189,46 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x31">CLABLOGO.M  : </title>
-			<title code="0x20">MUSS.M2     : BLOOD SOON CASTLE       / 荒川憲一</title>
-			<title code="0x1f">MU02.M2     : RUSTY                   / KAJA</title>
-			<title code="0x16">ALLMAP.M2   : THE WORLD               / KAJA</title>
-			<title code="0x21">ROUND1.M2   : QUEEN IN THE DARK NIGHT / 荒川憲一</title>
-			<title code="0x17">BOSS.M2     : I'LL DESTROY YOUR MIND  / KAJA</title>
-			<title code="0x19">CLEAR.M2    : DANCE DANCE             / KAJA</title>
-			<title code="0x24">ROUND2.M2   : SILENT CEMETERY         / KAJA</title>
-			<title code="0x25">ROUND3.M2   : MYSTERIOUS CHAPEL       / 荒川憲一</title>
-			<title code="0x26">ROUND4.M2   : DEAD END                / KAJA</title>
-			<title code="0x18">BOSS2.M2    : RHYTHM OF DARK          / 荒川憲一</title>
-			<title code="0x27">ROUND5.M2   : EARTH HOLE              / 荒川憲一</title>
-			<title code="0x28">ROUND5_2.M2 : HELL'S STRIKE           / 荒川憲一</title>
-			<title code="0x29">ROUND6.M2   : WATER GATE              / 荒川憲一</title>
-			<title code="0x2a">ROUND7.M2   : RED SUNSET              / KAJA</title>
-			<title code="0x2b">ROUND8.M2   : TOWER OF THE DESTINY    / R.TAKAMI</title>
-			<title code="0x22">ROUND10.M2  : CASTLE                  / KAJA</title>
-			<title code="0x30">VISUAL4.M2  : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x2c">ROUND9.M2   : STONE WASHER            / KAJA</title>
-			<title code="0x23">ROUND10B.M2 : AN ALTER                / KAJA</title>
-			<title code="0x1e">LASTBOSS.M2 : FINAL BATTLE            / KAJA</title>
-			<title code="0x15">ALLCLEAR.M2 : ALL OVER                / KAJA</title>
-			<title code="0x1a">ENDING1.M2  : AS IF IN A DREAM        / 荒川憲一</title>
-			<title code="0x1b">ENDING2.M2  : RISING SUN              / KAJA</title>
-			<title code="0x1d">GAMEOVER.M2 : NEVER GIVEUP            / 荒川憲一</title>
-			<title code="0x1c">EYECATCH.M2 : </title>
-			<title code="0x2d">VISUAL1.M2  : </title>
-			<title code="0x2e">VISUAL2.M2  : </title>
-			<title code="0x2f">VISUAL3.M2  : </title>
-			<title code="0x10">_VISUAL1.M2 : </title>
-			<title code="0x11">_VISUAL2.M2 : </title>
-			<title code="0x12">_VISUAL3.M2 : </title>
-			<title code="0x13">_VISUAL4.M2 : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x14">_VISUAL5.M2 : </title>
+			<title code="0x31">CLABLOGO.M</title>
+			<title code="0x20">Blood Soon Castle       / 荒川憲一</title>
+			<title code="0x1f">Rusty                   / KAJA</title>
+			<title code="0x16">The World               / KAJA</title>
+			<title code="0x21">Queen in the Dark Knight/ 荒川憲一</title>
+			<title code="0x17">I'll Destroy Your Mind  / KAJA</title>
+			<title code="0x19">Dance Dance             / KAJA</title>
+			<title code="0x24">Silent Cemetary         / KAJA</title>
+			<title code="0x25">Mysterious Chapel       / 荒川憲一</title>
+			<title code="0x26">Dead End                / KAJA</title>
+			<title code="0x18">Rhythm of Dark          / 荒川憲一</title>
+			<title code="0x27">Earth Hole              / 荒川憲一</title>
+			<title code="0x28">Hell's Strike           / 荒川憲一</title>
+			<title code="0x29">Water Gate              / 荒川憲一</title>
+			<title code="0x2a">Red Sunset              / KAJA</title>
+			<title code="0x2b">Tower of the Destiny    / R.TAKAMI</title>
+			<title code="0x22">Castle                  / KAJA</title>
+			<title code="0x30">Shooting Star           / 荒川憲一</title>
+			<title code="0x2c">Stone Washer            / KAJA</title>
+			<title code="0x23">An Alter                / KAJA</title>
+			<title code="0x1e">Final Battle            / KAJA</title>
+			<title code="0x15">All Over                / KAJA</title>
+			<title code="0x1a">As If in a Dream        / 荒川憲一</title>
+			<title code="0x1b">Rising Sun              / KAJA</title>
+			<title code="0x1d">Never Give Up           / 荒川憲一</title>
+			<title code="0x1c">EYECATCH.M2</title>
+			<title code="0x2d">VISUAL1.M2</title>
+			<title code="0x2e">VISUAL2.M2</title>
+			<title code="0x2f">VISUAL3.M2</title>
+			<title code="0x10">_VISUAL1.M2</title>
+			<title code="0x11">_VISUAL2.M2</title>
+			<title code="0x12">_VISUAL3.M2</title>
+			<title code="0x13">SHOOTING STAR           / 荒川憲一</title>
+			<title code="0x14">_VISUAL5.M2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] マルチペイント・(秘)お楽しみセットvol.1</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C-Lab.</driveralias>
+		<driveralias type="PC-9801">C-lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -249,9 +249,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 突撃みっくす(OPN)</name>
+		<name>[PC-9801] Totsugeki Mix (突撃みっくす) (YM2203)</name>
 		<driver type="opn">pc9821dos</driver>
-		<driveralias type="NEC PC-9801">C-Lab.</driveralias>
+		<driveralias type="PC-9801">C-lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="16"/>
@@ -292,29 +292,29 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">CLABLOGO.M  :</title>
-			<title code="0x19">OP1.M2      : 突撃MIX オープニング1                / 荒川憲一</title>
-			<title code="0x1a">OP2.M2      : 突撃MIX Opening2                     / M.Kajihara</title>
-			<title code="0x1f">SELECT.M2   : 突撃MIX プレイヤーセレクト           / 荒川憲一</title>
-			<title code="0x1b">ROUND1.M2   : 突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1c">ROUND2.M2   : 突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
-			<title code="0x1d">ROUND3.M2   : 突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1e">ROUND4.M2   : 突撃MIX 最終面用BGM                  / M.Kajihara</title>
-			<title code="0x10">BOSS.M2     : 突撃MIX ボス用BGM1                   / M.Kajihara</title>
-			<title code="0x11">BOSS2.M2    : 突撃MIX BOSS3                        / M.Kajihara</title>
-			<title code="0x12">BOSS3.M2    : 突撃MIX ボス2                        / 荒川憲一</title>
-			<title code="0x13">CLEAR.M2    : 突撃MIX ラウンドクリア               / 荒川憲一</title>
-			<title code="0x16">FEVER.M2    : 電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
-			<title code="0x18">LASTBOSS.M2 : 突撃MIX ラスボス用BGM                / M.Kajihara</title>
-			<title code="0x14">ENDING1.M2  : 突撃MIX Ending 1                     / M.Kajihara</title>
-			<title code="0x15">ENDING2.M2  : 突撃MIX Ending                       / 荒川憲一</title>
-			<title code="0x17">GAMEOVER.M2 : 突撃MIX ゲームオーバー               / M.Kajihara</title>
+			<title code="0x20">CLABLOGO.M</title>
+			<title code="0x19">突撃MIX オープニング1                / 荒川憲一</title>
+			<title code="0x1a">突撃MIX Opening2                     / M.Kajihara</title>
+			<title code="0x1f">突撃MIX プレイヤーセレクト           / 荒川憲一</title>
+			<title code="0x1b">突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1c">突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
+			<title code="0x1d">突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1e">突撃MIX 最終面用BGM                  / M.Kajihara</title>
+			<title code="0x10">突撃MIX ボス用BGM1                   / M.Kajihara</title>
+			<title code="0x11">突撃MIX BOSS3                        / M.Kajihara</title>
+			<title code="0x12">突撃MIX ボス2                        / 荒川憲一</title>
+			<title code="0x13">突撃MIX ラウンドクリア               / 荒川憲一</title>
+			<title code="0x16">電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
+			<title code="0x18">突撃MIX ラスボス用BGM                / M.Kajihara</title>
+			<title code="0x14">突撃MIX Ending 1                     / M.Kajihara</title>
+			<title code="0x15">突撃MIX Ending                       / 荒川憲一</title>
+			<title code="0x17">突撃MIX ゲームオーバー               / M.Kajihara</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 突撃みっくす(OPNA)</name>
+		<name>[PC-9801] Totsugeki Mix (突撃みっくす) (YM2608)</name>
 		<driver type="opna">pc9821dos</driver>
-		<driveralias type="NEC PC-9801">C-Lab.</driveralias>
+		<driveralias type="PC-9801">C-lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="16"/>
@@ -354,28 +354,28 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x19">OP1.M2      : 突撃MIX オープニング1                / 荒川憲一</title>
-			<title code="0x1a">OP2.M2      : 突撃MIX Opening2                     / M.Kajihara</title>
-			<title code="0x1f">SELECT.M2   : 突撃MIX プレイヤーセレクト           / 荒川憲一</title>
-			<title code="0x1b">ROUND1.M2   : 突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1c">ROUND2.M2   : 突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
-			<title code="0x1d">ROUND3.M2   : 突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1e">ROUND4.M2   : 突撃MIX 最終面用BGM                  / M.Kajihara</title>
-			<title code="0x10">BOSS.M2     : 突撃MIX ボス用BGM1                   / M.Kajihara</title>
-			<title code="0x11">BOSS2.M2    : 突撃MIX BOSS3                        / M.Kajihara</title>
-			<title code="0x12">BOSS3.M2    : 突撃MIX ボス2                        / 荒川憲一</title>
-			<title code="0x13">CLEAR.M2    : 突撃MIX ラウンドクリア               / 荒川憲一</title>
-			<title code="0x16">FEVER.M2    : 電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
-			<title code="0x18">LASTBOSS.M2 : 突撃MIX ラスボス用BGM                / M.Kajihara</title>
-			<title code="0x14">ENDING1.M2  : 突撃MIX Ending 1                     / M.Kajihara</title>
-			<title code="0x15">ENDING2.M2  : 突撃MIX Ending                       / 荒川憲一</title>
-			<title code="0x17">GAMEOVER.M2 : 突撃MIX ゲームオーバー               / M.Kajihara</title>
+			<title code="0x19">突撃MIX オープニング1                / 荒川憲一</title>
+			<title code="0x1a">突撃MIX Opening2                     / M.Kajihara</title>
+			<title code="0x1f">突撃MIX プレイヤーセレクト           / 荒川憲一</title>
+			<title code="0x1b">突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1c">突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
+			<title code="0x1d">突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1e">突撃MIX 最終面用BGM                  / M.Kajihara</title>
+			<title code="0x10">突撃MIX ボス用BGM1                   / M.Kajihara</title>
+			<title code="0x11">突撃MIX BOSS3                        / M.Kajihara</title>
+			<title code="0x12">突撃MIX ボス2                        / 荒川憲一</title>
+			<title code="0x13">突撃MIX ラウンドクリア               / 荒川憲一</title>
+			<title code="0x16">電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
+			<title code="0x18">突撃MIX ラスボス用BGM                / M.Kajihara</title>
+			<title code="0x14">突撃MIX Ending 1                     / M.Kajihara</title>
+			<title code="0x15">突撃MIX Ending                       / 荒川憲一</title>
+			<title code="0x17">突撃MIX ゲームオーバー               / M.Kajihara</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Rusty</name>
+		<name>[PC/AT] Rusty (Adlib)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">C-Lab.</driveralias>
+		<driveralias type="PC/AT">C-Lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -421,46 +421,46 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">MUSS.M     : BLOOD SOON CASTLE       / 荒川憲一</title>
-			<title code="0x1f">MU02.M     : RUSTY                   / KAJA</title>
-			<title code="0x16">ALLMAP.M   : THE WORLD               / KAJA</title>
-			<title code="0x21">ROUND1.M   : QUEEN IN THE DARK NIGHT / 荒川憲一</title>
-			<title code="0x17">BOSS.M     : I'LL DESTROY YOUR MIND  / KAJA</title>
-			<title code="0x19">CLEAR.M    : DANCE DANCE             / KAJA</title>
-			<title code="0x24">ROUND2.M   : SILENT CEMETERY         / KAJA</title>
-			<title code="0x25">ROUND3.M   : MYSTERIOUS CHAPEL       / 荒川憲一</title>
-			<title code="0x26">ROUND4.M   : DEAD END                / KAJA</title>
-			<title code="0x18">BOSS2.M    : RHYTHM OF DARK          / 荒川憲一</title>
-			<title code="0x27">ROUND5.M   : EARTH HOLE              / 荒川憲一</title>
-			<title code="0x28">ROUND5_2.M : HELL'S STRIKE           / 荒川憲一</title>
-			<title code="0x29">ROUND6.M   : WATER GATE              / 荒川憲一</title>
-			<title code="0x2a">ROUND7.M   : RED SUNSET              / KAJA</title>
-			<title code="0x2b">ROUND8.M   : TOWER OF THE DESTINY    / R.TAKAMI</title>
-			<title code="0x22">ROUND10.M  : CASTLE                  / KAJA</title>
-			<title code="0x30">VISUAL4.M  : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x2c">ROUND9.M   : STONE WASHER            / KAJA</title>
-			<title code="0x23">ROUND10B.M : AN ALTER                / KAJA</title>
-			<title code="0x1e">LASTBOSS.M : FINAL BATTLE            / KAJA</title>
-			<title code="0x15">ALLCLEAR.M : ALL OVER                / KAJA</title>
-			<title code="0x1a">ENDING1.M  : AS IF IN A DREAM        / 荒川憲一</title>
-			<title code="0x1b">ENDING2.M  : RISING SUN              / KAJA</title>
-			<title code="0x1d">GAMEOVER.M : NEVER GIVEUP            / 荒川憲一</title>
-			<title code="0x1c">EYECATCH.M :                         / KAJA</title>
-			<title code="0x2d">VISUAL1.M  :                         / KAJA</title>
-			<title code="0x2e">VISUAL2.M  :                         / KAJA</title>
-			<title code="0x2f">VISUAL3.M  : </title>
-			<title code="0x10">_VISUAL1.M :                         / KAJA</title>
-			<title code="0x11">_VISUAL2.M :                         / KAJA</title>
-			<title code="0x12">_VISUAL3.M : </title>
-			<title code="0x13">_VISUAL4.M : SHOOTING STAR           / 荒川憲一</title>
-			<title code="0x14">_VISUAL5.M : </title>
+			<title code="0x20">Blood Soon Castle       / 荒川憲一</title>
+			<title code="0x1f">Rusty                   / KAJA</title>
+			<title code="0x16">The World               / KAJA</title>
+			<title code="0x21">Queen in the Dark Knight/ 荒川憲一</title>
+			<title code="0x17">I'll Destroy Your Mind  / KAJA</title>
+			<title code="0x19">Dance Dance             / KAJA</title>
+			<title code="0x24">Silent Cemetary         / KAJA</title>
+			<title code="0x25">Mysterious Chapel       / 荒川憲一</title>
+			<title code="0x26">Dead End                / KAJA</title>
+			<title code="0x18">Rhythm of Dark          / 荒川憲一</title>
+			<title code="0x27">Earth Hole              / 荒川憲一</title>
+			<title code="0x28">Hell's Strike           / 荒川憲一</title>
+			<title code="0x29">Water Gate              / 荒川憲一</title>
+			<title code="0x2a">Red Sunset              / KAJA</title>
+			<title code="0x2b">Tower of the Destiny    / R.TAKAMI</title>
+			<title code="0x22">Castle                  / KAJA</title>
+			<title code="0x30">Shooting Star           / 荒川憲一</title>
+			<title code="0x2c">Stone Washer            / KAJA</title>
+			<title code="0x23">An Alter                / KAJA</title>
+			<title code="0x1e">Final Battle            / KAJA</title>
+			<title code="0x15">All Over                / KAJA</title>
+			<title code="0x1a">As If in a Dream        / 荒川憲一</title>
+			<title code="0x1b">Rising Sun              / KAJA</title>
+			<title code="0x1d">Never Give Up           / 荒川憲一</title>
+			<title code="0x1c">EYECATCH.M              / KAJA</title>
+			<title code="0x2d">VISUAL1.M               / KAJA</title>
+			<title code="0x2e">VISUAL2.M               / KAJA</title>
+			<title code="0x2f">VISUAL3.M</title>
+			<title code="0x10">_VISUAL1.M              / KAJA</title>
+			<title code="0x11">_VISUAL2.M              / KAJA</title>
+			<title code="0x12">_VISUAL3.M</title>
+			<title code="0x13">SHOOTING STAR           / 荒川憲一</title>
+			<title code="0x14">_VISUAL5.M</title>
 			<range min="0x0800" max="0x0823" extcode="1">EFC.EFC    : %2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] 突撃みっくす</name>
+		<name>[PC/AT] Totsugeki Mix (突撃みっくす) (Adlib)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">C-Lab.</driveralias>
+		<driveralias type="PC/AT">C-Lab.</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -489,22 +489,22 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x19">OP1.M      : 突撃MIX オープニング1                / 荒川憲一</title>
-			<title code="0x1a">OP2.M      : 突撃MIX Opening2                     / M.Kajihara</title>
-			<title code="0x1f">SELECT.M   : 突撃MIX プレイヤーセレクト           / 荒川憲一</title>
-			<title code="0x1b">ROUND1.M   : 突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1c">ROUND2.M   : 突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
-			<title code="0x1d">ROUND3.M   : 突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
-			<title code="0x1e">ROUND4.M   : 突撃MIX 最終面用BGM                  / M.Kajihara</title>
-			<title code="0x10">BOSS.M     : 突撃MIX ボス用BGM1                   / M.Kajihara</title>
-			<title code="0x11">BOSS2.M    : 突撃MIX BOSS3                        / M.Kajihara</title>
-			<title code="0x12">BOSS3.M    : 突撃MIX ボス2                        / 荒川憲一</title>
-			<title code="0x13">CLEAR.M    : 突撃MIX ラウンドクリア               / 荒川憲一</title>
-			<title code="0x16">FEVER.M    : 電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
-			<title code="0x18">LASTBOSS.M : 突撃MIX ラスボス用BGM                / M.Kajihara</title>
-			<title code="0x14">ENDING1.M  : 突撃MIX Ending 1                     / M.Kajihara</title>
-			<title code="0x15">ENDING2.M  : 突撃MIX Ending                       / 荒川憲一</title>
-			<title code="0x17">GAMEOVER.M : 突撃MIX ゲームオーバー               / M.Kajihara</title>
+			<title code="0x19">突撃MIX オープニング1                / 荒川憲一</title>
+			<title code="0x1a">突撃MIX Opening2                     / M.Kajihara</title>
+			<title code="0x1f">突撃MIX プレイヤーセレクト           / 荒川憲一</title>
+			<title code="0x1b">突撃MIX 難易度Cラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1c">突撃MIX 難易度Bラウンド用BGM         / M.Kajihara</title>
+			<title code="0x1d">突撃MIX 難易度Aラウンド用BGM         / 荒川憲一</title>
+			<title code="0x1e">突撃MIX 最終面用BGM                  / M.Kajihara</title>
+			<title code="0x10">突撃MIX ボス用BGM1                   / M.Kajihara</title>
+			<title code="0x11">突撃MIX BOSS3                        / M.Kajihara</title>
+			<title code="0x12">突撃MIX ボス2                        / 荒川憲一</title>
+			<title code="0x13">突撃MIX ラウンドクリア               / 荒川憲一</title>
+			<title code="0x16">電撃MIX 軍艦行進曲 ロックバージョン  / TAKAHIRO NOGI</title>
+			<title code="0x18">突撃MIX ラスボス用BGM                / M.Kajihara</title>
+			<title code="0x14">突撃MIX Ending 1                     / M.Kajihara</title>
+			<title code="0x15">突撃MIX Ending                       / 荒川憲一</title>
+			<title code="0x17">突撃MIX ゲームオーバー               / M.Kajihara</title>
 		</titlelist>
 	</game>
 </gamelist>

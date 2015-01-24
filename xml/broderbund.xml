@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //Broderbund -->
 	<game>
-		<name>[PC-9801] WINGS - BLAZE YOUR WAY TO GLORY!</name>
+		<name>[PC-9801] Wings (ウイングス) (YM2203)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0003"/>
@@ -78,23 +78,24 @@
 			<rom type="bgm2" offset="0x0b">WEAPON.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">SAME.MUS     : タイトル</title>
-			<title code="0x01">AIRBORN.MUS  : 下士官</title>
-			<title code="0x04">DANGEROU.MUS : 少尉</title>
-			<title code="0x0a">VICTORY.MUS  : 中尉</title>
-			<title code="0x0b">WEAPON.MUS   : 大尉</title>
-			<title code="0x06">INTERCEP.MUS : 少佐</title>
-			<title code="0x02">ATTACK.MUS   : 中佐</title>
-			<title code="0x03">CLS.MUS      : 大佐</title>
-			<title code="0x05">FALLINGO.MUS : クリア</title>
-			<title code="0x07">KX.MUS       : ゲームオーバー</title>
-			<title code="0x09">SCORE.MUS    : ランキング</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x08">Title (タイトル)</title>
+			<title code="0x01">Petty Officer (下士官)</title>
+			<title code="0x04">Ensign (少尉)</title>
+			<title code="0x0a">Lieutenant (中尉)</title>
+			<title code="0x0b">Captain (大尉)</title>
+			<title code="0x06">Major (少佐)</title>
+			<title code="0x02">Lieutenant Colonel (中佐)</title>
+			<title code="0x03">Colonel (大佐)</title>
+			<title code="0x05">Clear (クリア)</title>
+			<title code="0x07">Game Over (ゲームオーバー)</title>
+			<title code="0x09">Ranking (ランキング)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] LOOPZ(OPN)</name>
+		<name>[PC-9801] Loopz (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -119,23 +120,23 @@
 			<rom type="bgm" offset="0x09">MA008</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03000001">MA000 : CARTOON</title>
-			<title code="0x03000002">MA001 : OLD FILM</title>
-			<title code="0x03000003">MA002 : DEAD SPACE</title>
-			<title code="0x03000004">MA003 : FUTUROLOGY</title>
-			<title code="0x03000005">MA004 : PERSIAN CARPET</title>
-			<title code="0x03000006">MA005 : OPPEKE SONG</title>
-			<title code="0x03800007">MA006 : LOOP COMPLETE</title>
-			<title code="0x01800008">MA007 : GAME OVER</title>
-			<title code="0x01800009">MA008 : FANFARE</title>
-			<title code="0x0000ffff">      : TEMPO UP</title>
-			<title code="0x0000fffe">      : TEMPO DOWN</title>
+			<title code="0x03000001">Cartoon</title>
+			<title code="0x03000002">Old Film</title>
+			<title code="0x03000003">Dead Space</title>
+			<title code="0x03000004">Futurology</title>
+			<title code="0x03000005">Persian Carpet</title>
+			<title code="0x03000006">Oppeke Song</title>
+			<title code="0x03800007">Loop Complete</title>
+			<title code="0x01800008">Game Over</title>
+			<title code="0x01800009">Fanfare</title>
+			<title code="0x0000ffff">Tempo Up</title>
+			<title code="0x0000fffe">Tempo Down</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] LOOPZ(BEEP)</name>
+		<name>[PC-9801] Loopz (Beep)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -165,29 +166,29 @@
 			<rom type="bgm" offset="0x0f">MB014</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03000001">MB000 : CARTOON</title>
-			<title code="0x03000002">MB001 : OLD FILM</title>
-			<title code="0x03000003">MB002 : DEAD SPACE</title>
-			<title code="0x03000004">MB003 : FUTUROLOGY</title>
-			<title code="0x03000005">MB004 : PERSIAN CARPET</title>
-			<title code="0x03000006">MB005 : OPPEKE SONG</title>
-			<title code="0x03800007">MB006 : LOOP COMPLETE</title>
-			<title code="0x01800008">MB007 : GAME OVER</title>
-			<title code="0x01800009">MB008 : FANFARE</title>
-			<title code="0x0380000a">MB009 : EFFECT #1</title>
-			<title code="0x0380000b">MB010 : EFFECT #2</title>
-			<title code="0x0380000c">MB011 : EFFECT #3</title>
-			<title code="0x0380000d">MB012 : EFFECT #4</title>
-			<title code="0x0380000e">MB013 : EFFECT #5</title>
-			<title code="0x0380000f">MB014 : EFFECT #6</title>
-			<title code="0x0000ffff">      : TEMPO UP</title>
-			<title code="0x0000fffe">      : TEMPO DOWN</title>
+			<title code="0x03000001">Cartoon</title>
+			<title code="0x03000002">Old Film</title>
+			<title code="0x03000003">Dead Space</title>
+			<title code="0x03000004">Futurology</title>
+			<title code="0x03000005">Persian Carpet</title>
+			<title code="0x03000006">Oppeke Song</title>
+			<title code="0x03800007">Loop Complete</title>
+			<title code="0x01800008">Game Over</title>
+			<title code="0x01800009">Fanfare</title>
+			<title code="0x0380000a">SFX #1</title>
+			<title code="0x0380000b">SFX #2</title>
+			<title code="0x0380000c">SFX #3</title>
+			<title code="0x0380000d">SFX #4</title>
+			<title code="0x0380000e">SFX #5</title>
+			<title code="0x0380000f">SFX #6</title>
+			<title code="0x0000ffff">Tempo Up</title>
+			<title code="0x0000fffe">Tempo Down</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] THE ANCIENT ART OF WAR</name>
+		<name>[PC-8801] The Ancient Art of War (アート オブ ウォー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Broderbund</driveralias>
+		<driveralias type="PC-8801">Broderbund Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="use_vrtc"   value="0x01"/>
@@ -203,16 +204,16 @@
 			<rom type="bgm" offset="0x03">sound</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Broderbund LOGO</title>
+			<title code="0x00">Broderbund Logo</title>
 			<title code="0x01">Opening</title>
 			<title code="0x02">Lose</title>
 			<title code="0x03">Win</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] カルメン サンディエゴ イン ジャパン ～犯人探して日本全国～</name>
+		<name>[PC-9801] Carmen Sandiego in Japan: Hannin Sagashite Nihon Zenkoku (カルメン サンディエゴ イン ジャパン ～犯人探して日本全国～) (YM2203)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0003"/>
@@ -225,7 +226,7 @@
 			<option name="dummysndrom" value="1"/>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="csij_98">
+		<romlist archive="carmen_98">
 			<rom type="code" offset="0x00600">ss98md2.bin</rom>
 			<rom type="code" offset="0x01000">MUSIC.SYS</rom>
 			<rom type="bgm"  offset="0x01">TAIHO.MUD</rom>
@@ -246,7 +247,7 @@
 			<rom type="bgm2" offset="0x08">WAKARE.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
+			<title code="0x00">Stop the Music</title>
 			<title code="0x01">CARMEN.MUS</title>
 			<title code="0x02">ENDING.MUS</title>
 			<title code="0x03">ETUDES.MUS</title>
@@ -258,9 +259,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PRINCE of PERSIA</name>
+		<name>[PC-9801] Prince of Persia</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -302,40 +303,39 @@
 			<rom type="bgm" offset="0x1a">MENU.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
-			<title code="0x13">OPEN.MUS    : プリンス・オブ・ペルシャ</title>
-			<title code="0x14">ROOM1.MUS   : ジャファーの陰謀</title>
-			<title code="0x1a">MENU.MUS    : メニュー画面</title>
-			<title code="0x02">MUSIC2.MUS  : 石造りの部屋</title>
-			<title code="0x01">MUSIC1.MUS  : 装飾のある部屋</title>
-			<title code="0x05">FIGHT.MUS   : 正義の戦い</title>
-			<title code="0x07">FIGHTS.MUS  : スケルトン</title>
-			<title code="0x08">FIGHTK.MUS  : ドッペルゲンガー</title>
-			<title code="0x04">MUSIC4.MUS  : 心臓破りの部屋</title>
-			<title code="0x03">MUSIC3.MUS  : ジャファーの部屋</title>
-			<title code="0x06">FIGHTF.MUS  : ジャファーとの対決</title>
-			<title code="0x16">END1.MUS    : 勝利の凱旋</title>
-			<title code="0x17">END2.MUS    : 戦いの軌跡</title>
-			<title code="0x18">END3.MUS    : ペルシャの平和</title>
-			<title code="0x15">ROOM2.MUS   : プリンセスの不安</title>
-			<title code="0x11">DEAD.MUS    : SE くし刺し</title>
-			<title code="0x12">DEAD2.MUS   : SE 主人公死亡</title>
-			<title code="0x0c">PICKUP.MUS  : SE 剣を拾う</title>
-			<title code="0x0d">POWUP.MUS   : SE ライフアップ薬</title>
-			<title code="0x0b">APPEAR2.MUS : SE ドッペルゲンガー出現</title>
-			<title code="0x19">TIMEOUT.MUS : SE ゲームオーバー</title>
-			<title code="0x10">EXIT.MUS    : SE ステージ扉が開く</title>
-			<title code="0x0f">CLEAR.MUS   : SE ステージクリアー</title>
-			<title code="0x09">VICT1.MUS   : SE 敵を倒した</title>
-			<title code="0x0a">APPEAR.MUS  : SE ジャファー登場</title>
-			<title code="0x0e">KUSURI.MUS  : SE 回復薬を飲んだ</title>
-
+			<title code="0x00">Stop the Music</title>
+			<title code="0x13">プリンス・オブ・ペルシャ</title>
+			<title code="0x14">ジャファーの陰謀</title>
+			<title code="0x1a">メニュー画面</title>
+			<title code="0x02">石造りの部屋</title>
+			<title code="0x01">装飾のある部屋</title>
+			<title code="0x05">正義の戦い</title>
+			<title code="0x07">スケルトン</title>
+			<title code="0x08">ドッペルゲンガー</title>
+			<title code="0x04">心臓破りの部屋</title>
+			<title code="0x03">ジャファーの部屋</title>
+			<title code="0x06">ジャファーとの対決</title>
+			<title code="0x16">勝利の凱旋</title>
+			<title code="0x17">戦いの軌跡</title>
+			<title code="0x18">ペルシャの平和</title>
+			<title code="0x15">プリンセスの不安</title>
+			<title code="0x11">くし刺し</title>
+			<title code="0x12">主人公死亡</title>
+			<title code="0x0c">剣を拾う</title>
+			<title code="0x0d">ライフアップ薬</title>
+			<title code="0x0b">ドッペルゲンガー出現</title>
+			<title code="0x19">ゲームオーバー</title>
+			<title code="0x10">ステージ扉が開く</title>
+			<title code="0x0f">ステージクリアー</title>
+			<title code="0x09">敵を倒した</title>
+			<title code="0x0a">ジャファー登場</title>
+			<title code="0x0e">回復薬を飲んだ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PUZZNIC</name>
+		<name>[PC-9801] Puznic (パズニック) (YM2203)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">Broderbund</driveralias>
+		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0003"/>
@@ -359,15 +359,16 @@
 			<rom type="bgm2" offset="0x03">START.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">SELECT.MUS : Round Select</title>
-			<title code="0x03">START.MUS  : Round Start</title>
-			<title code="0x01">CLEAR.MUS  : Round Clear</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x02">Round Select</title>
+			<title code="0x03">Round Start</title>
+			<title code="0x01">Round Clear</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] PUZZNIC</name>
+		<name>[X68000] Puznic (パズニック) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<romlist archive="pznc68snd">
 			<rom type="code" offset="0x00000">pznc68snd.bin</rom>
 			<rom type="code" offset="0x10000">PUZMYU.R</rom>
@@ -375,47 +376,47 @@
 			<rom type="code" offset="0x113fe">PUZ.PCM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x001">001 : BGM</title>
-			<title code="0x102">102 : SE</title>
-			<title code="0x103">103 : SE</title>
-			<title code="0x104">104 : SE</title>
-			<title code="0x105">105 : SE</title>
-			<title code="0x106">106 : SE</title>
-			<title code="0x107">107 : SE</title>
-			<title code="0x108">108 : SE</title>
-			<title code="0x109">109 : SE</title>
-			<title code="0x10a">10a : SE</title>
-			<title code="0x10b">10b : SE</title>
-			<title code="0x10c">10c : SE</title>
-			<title code="0x10d">10d : SE</title>
-			<title code="0x10e">10e : SE</title>
-			<title code="0x10f">10f : SE</title>
-			<title code="0x110">110 : SE</title>
-			<title code="0x111">111 : SE</title>
-			<title code="0x112">112 : SE</title>
-			<title code="0x113">113 : SE</title>
-			<title code="0x114">114 : SE</title>
-			<title code="0x115">115 : SE</title>
-			<title code="0x116">116 : SE</title>
-			<title code="0x117">117 : SE</title>
-			<title code="0x118">118 : SE</title>
-			<title code="0x119">119 : SE</title>
-			<title code="0x11a">11a : SE</title>
-			<title code="0x11b">11b : SE</title>
-			<title code="0x11c">11c : SE</title>
-			<title code="0x11d">11d : SE</title>
-			<title code="0x11e">11e : SE</title>
-			<title code="0x11f">11f : SE</title>
-			<title code="0x120">120 : SE</title>
-			<title code="0x121">121 : SE</title>
-			<title code="0x122">122 : SE</title>
-			<title code="0x123">123 : SE</title>
+			<title code="0x001">BGM #01</title>
+			<title code="0x102">SFX #102</title>
+			<title code="0x103">SFX #103</title>
+			<title code="0x104">SFX #104</title>
+			<title code="0x105">SFX #105</title>
+			<title code="0x106">SFX #106</title>
+			<title code="0x107">SFX #107</title>
+			<title code="0x108">SFX #108</title>
+			<title code="0x109">SFX #109</title>
+			<title code="0x10a">SFX #10a</title>
+			<title code="0x10b">SFX #10b</title>
+			<title code="0x10c">SFX #10c</title>
+			<title code="0x10d">SFX #10d</title>
+			<title code="0x10e">SFX #10e</title>
+			<title code="0x10f">SFX #10f</title>
+			<title code="0x110">SFX #110</title>
+			<title code="0x111">SFX #111</title>
+			<title code="0x112">SFX #112</title>
+			<title code="0x113">SFX #113</title>
+			<title code="0x114">SFX #114</title>
+			<title code="0x115">SFX #115</title>
+			<title code="0x116">SFX #116</title>
+			<title code="0x117">SFX #117</title>
+			<title code="0x118">SFX #118</title>
+			<title code="0x119">SFX #119</title>
+			<title code="0x11a">SFX #11a</title>
+			<title code="0x11b">SFX #11b</title>
+			<title code="0x11c">SFX #11c</title>
+			<title code="0x11d">SFX #11d</title>
+			<title code="0x11e">SFX #11e</title>
+			<title code="0x11f">SFX #11f</title>
+			<title code="0x120">SFX #120</title>
+			<title code="0x121">SFX #121</title>
+			<title code="0x122">SFX #122</title>
+			<title code="0x123">SFX #123</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Shufflepuck Cafe</name>
+		<name>[X68000] Shufflepuck Cafe (シャッフルパックカフェ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<romlist archive="spc68snd">
 			<rom type="code" offset="0x00000">spc68snd.bin</rom>
 			<rom type="x" offset="0x10000">spmusdrv.x</rom>
@@ -423,49 +424,49 @@
 			<rom type="code" offset="0x1a132">spadpcm.dat</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">001 : </title>
-			<title code="0x02">002 : </title>
-			<title code="0x03">003 : </title>
-			<title code="0x04">004 : </title>
-			<title code="0x05">005 : </title>
-			<title code="0x06">006 : </title>
-			<title code="0x07">007 : </title>
-			<title code="0x08">008 : </title>
-			<title code="0x09">009 : </title>
-			<title code="0x0a">00a : </title>
-			<title code="0x0b">00b : </title>
-			<title code="0x0c">00c : </title>
-			<title code="0x0d">00d : </title>
-			<title code="0x0e">00e : </title>
-			<title code="0x0f">00f : </title>
-			<title code="0x101">101 : SE</title>
-			<title code="0x102">102 : SE</title>
-			<title code="0x103">103 : SE</title>
-			<title code="0x104">104 : SE</title>
-			<title code="0x105">105 : SE</title>
-			<title code="0x106">106 : SE</title>
-			<title code="0x107">107 : SE</title>
-			<title code="0x108">108 : SE</title>
-			<title code="0x109">109 : SE</title>
-			<title code="0x10a">10a : SE</title>
-			<title code="0x10b">10b : SE</title>
-			<title code="0x10c">10c : SE</title>
-			<title code="0x10d">10d : SE</title>
-			<title code="0x10e">10e : SE</title>
-			<title code="0x10f">10f : SE</title>
-			<title code="0x110">110 : SE</title>
-			<title code="0x111">111 : SE</title>
-			<title code="0x112">112 : SE</title>
-			<title code="0x113">113 : SE</title>
-			<title code="0x114">114 : SE</title>
-			<title code="0x115">115 : SE</title>
-			<title code="0x116">116 : SE</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+			<title code="0x0f">BGM #0f</title>
+			<title code="0x101">SFX #101</title>
+			<title code="0x102">SFX #102</title>
+			<title code="0x103">SFX #103</title>
+			<title code="0x104">SFX #104</title>
+			<title code="0x105">SFX #105</title>
+			<title code="0x106">SFX #106</title>
+			<title code="0x107">SFX #107</title>
+			<title code="0x108">SFX #108</title>
+			<title code="0x109">SFX #109</title>
+			<title code="0x10a">SFX #10a</title>
+			<title code="0x10b">SFX #10b</title>
+			<title code="0x10c">SFX #10c</title>
+			<title code="0x10d">SFX #10d</title>
+			<title code="0x10e">SFX #10e</title>
+			<title code="0x10f">SFX #10f</title>
+			<title code="0x110">SFX #110</title>
+			<title code="0x111">SFX #111</title>
+			<title code="0x112">SFX #112</title>
+			<title code="0x113">SFX #113</title>
+			<title code="0x114">SFX #114</title>
+			<title code="0x115">SFX #115</title>
+			<title code="0x116">SFX #116</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] BLODIA</name>
+		<name>[X68000] Blodia (ブロディア) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<romlist archive="blodia68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -479,19 +480,19 @@
 			<rom type="code" offset="0x40000">SOUND.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0902">TITLE.OPM    : Title</title>
-			<title code="0x0903">BGM_1.OPM    : BGM 1</title>
-			<title code="0x0904">BGM_2.OPM    : BGM 2</title>
-			<title code="0x0905">CLEAR.OPM    : Map Clear</title>
-			<title code="0x0906">COFFEE_B.OPM : Coffee Break</title>
-			<title code="0x0907">GAME_OVE.OPM : Game Over</title>
-			<title code="0x0908">ENDING.OPM   : Ending</title>
+			<title code="0x0902">Title</title>
+			<title code="0x0903">BGM #1</title>
+			<title code="0x0904">BGM #2</title>
+			<title code="0x0905">Map Clear</title>
+			<title code="0x0906">Coffee Break</title>
+			<title code="0x0907">Game Over</title>
+			<title code="0x0908">Ending</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] PRINCE of PERSIA</name>
+		<name>[X68000] Prince of Persia (プリンスオブペルシャ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<romlist archive="pofp68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -526,39 +527,39 @@
 			<rom type="code" offset="0x9c000">PERSIA.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2015">OPENV3.OPM   : プリンス・オブ・ペルシャ</title>
-			<title code="0x2014">OPEN22.OPM   : ジャファーの陰謀</title>
-			<title code="0x201d">TITLE.OPM    : メニュー画面</title>
-			<title code="0x200d">IDOU2.OPM    : 石造りの部屋</title>
-			<title code="0x200b">IDOU.OPM     : 装飾のある部屋</title>
-			<title code="0x2006">FIGHT.OPM    : 正義の戦い</title>
-			<title code="0x2016">SENTOU2.OPM  : スケルトン</title>
-			<title code="0x2008">FIGHTS.OPM   : ドッペルゲンガー</title>
-			<title code="0x200f">IDOU4.OPM    : 心臓破りの部屋</title>
-			<title code="0x200e">IDOU3.OPM    : ジャファーの部屋</title>
-			<title code="0x2007">FIGHT2.OPM   : ジャファーとの対決</title>
-			<title code="0x2003">END1.OPM     : 勝利の凱旋</title>
-			<title code="0x2004">END24.OPM    : 戦いの軌跡</title>
-			<title code="0x201b">THEEND.OPM   : ペルシャの平和</title>
-			<title code="0x2011">MATU.OPM     : プリンセスの不安</title>
-			<title code="0x2002">DEATH3.OPM   : SE くし刺し</title>
-			<title code="0x201f">TOJYO.OPM    : SE 主人公死亡</title>
-			<title code="0x2009">GET2.OPM     : SE 剣を拾う</title>
-			<title code="0x200a">GETSWOAD.OPM : SE ライフアップ薬</title>
-			<title code="0x2010">ITIDAIJI.OPM : SE ドッペルゲンガー出現</title>
-			<title code="0x201c">TIMEOUT.OPM  : SE ゲームオーバー</title>
-			<title code="0x201e">TOBIRA2.OPM  : SE ステージ扉が開く</title>
-			<title code="0x2018">STAGEV2.OPM  : SE ステージクリアー</title>
-			<title code="0x201a">TAOSITA.OPM  : SE 敵を倒した</title>
-			<title code="0x2019">TAIKE2.OPM   : SE ジャファー登場</title>
-			<title code="0x2012">MED4.OPM     : SE 回復薬を飲んだ</title>
-			<title code="0x2013">NEW.OPM      : INIT</title>
+			<title code="0x2015">プリンス・オブ・ペルシャ</title>
+			<title code="0x2014">ジャファーの陰謀</title>
+			<title code="0x201d">メニュー画面</title>
+			<title code="0x200d">石造りの部屋</title>
+			<title code="0x200b">装飾のある部屋</title>
+			<title code="0x2006">正義の戦い</title>
+			<title code="0x2016">スケルトン</title>
+			<title code="0x2008">ドッペルゲンガー</title>
+			<title code="0x200f">心臓破りの部屋</title>
+			<title code="0x200e">ジャファーの部屋</title>
+			<title code="0x2007">ジャファーとの対決</title>
+			<title code="0x2003">勝利の凱旋</title>
+			<title code="0x2004">戦いの軌跡</title>
+			<title code="0x201b">ペルシャの平和</title>
+			<title code="0x2011">プリンセスの不安</title>
+			<title code="0x2002">くし刺し</title>
+			<title code="0x201f">主人公死亡</title>
+			<title code="0x2009">剣を拾う</title>
+			<title code="0x200a">ライフアップ薬</title>
+			<title code="0x2010">ドッペルゲンガー出現</title>
+			<title code="0x201c">ゲームオーバー</title>
+			<title code="0x201e">ステージ扉が開く</title>
+			<title code="0x2018">ステージクリアー</title>
+			<title code="0x201a">敵を倒した</title>
+			<title code="0x2019">ジャファー登場</title>
+			<title code="0x2012">回復薬を飲んだ</title>
+			<title code="0x2013">INIT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] WINGS - BLAZE YOUR WAY TO GLORY!</name>
+		<name>[X68000] Wings (ウイングス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<romlist archive="wings68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -576,23 +577,23 @@
 			<rom type="code" offset="0x50000">KIBI.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0d09">SAME.OPM     : タイトル</title>
-			<title code="0x0d02">AIRBORN.OPM  : 下士官</title>
-			<title code="0x0d05">DANGEROU.OPM : 少尉</title>
-			<title code="0x0d0b">VICTORY.OPM  : 中尉</title>
-			<title code="0x0d0c">WEAPON.OPM   : 大尉</title>
-			<title code="0x0d07">INTERCEP.OPM : 少佐</title>
-			<title code="0x0d03">ATTACK.OPM   : 中佐</title>
-			<title code="0x0d04">CLS.OPM      : 大佐</title>
-			<title code="0x0d06">FALLINGO.OPM : クリア</title>
-			<title code="0x0d08">KX.OPM       : ゲームオーバー</title>
-			<title code="0x0d0a">SCORE.OPM    : ランキング</title>
+			<title code="0x0d09">Title (タイトル)</title>
+			<title code="0x0d02">Petty Officer (下士官)</title>
+			<title code="0x0d05">Ensign (少尉)</title>
+			<title code="0x0d0b">Lieutenant (中尉)</title>
+			<title code="0x0d0c">Captain (大尉)</title>
+			<title code="0x0d07">Major (少佐)</title>
+			<title code="0x0d03">Lieutenant Colonel (中佐)</title>
+			<title code="0x0d04">Colonel (大佐)</title>
+			<title code="0x0d06">Clear (クリア)</title>
+			<title code="0x0d08">Game Over (ゲームオーバー)</title>
+			<title code="0x0d0a">Ranking (ランキング)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DIABLO</name>
+		<name>[MSX] Diablo</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Broderbund</driveralias>
+		<driveralias type="MSX">Broderbund Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -607,9 +608,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] WiBARM(TANDY)</name>
+		<name>[PC/AT] WiBArM (Tandy)</name>
 		<driver type="tandy">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Broderbund</driveralias>
+		<driveralias type="PC/AT">Broderbund Software</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
 		</options>
@@ -641,9 +642,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] WiBARM(BEEP)</name>
+		<name>[PC/AT] WiBArM (Beep)</name>
 		<driver type="beep">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Broderbund</driveralias>
+		<driveralias type="PC/AT">Broderbund Software</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
 		</options>
@@ -675,9 +676,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] LOOPZ</name>
+		<name>[X68000] Loopz</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Broderbund</driveralias>
+		<driveralias type="X68000">Broderbund Software</driveralias>
 		<options>
 			<option name="mfp"     value="1"/>
 		</options>
@@ -685,7 +686,6 @@
 			<rom type="code">loopz68snd.bin</rom>
 			<rom type="x"    offset="0x10000">loopz.X</rom>
 			<rom type="code" offset="0x73094">IB6811.S</rom>
-
 			<rom type="code" offset="0x100000">IB6811.S</rom>
 			<rom type="code" offset="0x102000">IB6812.S</rom>
 			<rom type="code" offset="0x104000">IB6810.S</rom>
@@ -694,15 +694,15 @@
 			<rom type="code" offset="0x10a000">IB683.S</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">IB6811.S : CARTOON</title>
-			<title code="0x02">IB6812.S : OLD FILM</title>
-			<title code="0x03">IB6810.S : DEAD SPACE</title>
-			<title code="0x04">IB688.S  : FUTUROLOGY</title>
-			<title code="0x05">IB682.S  : PERSIAN CARPET</title>
-			<title code="0x06">IB683.S  : OPPEKE SONG</title>
-			<title code="0x101">LOOPZ.X  : LOOP COMPLETE</title>
-			<title code="0x102">LOOPZ.X  : GAME OVER</title>
-			<title code="0x103">LOOPZ.X  : FANFARE</title>
+			<title code="0x01">Cartoon</title>
+			<title code="0x02">Old Film</title>
+			<title code="0x03">Dead Space</title>
+			<title code="0x04">Futurology</title>
+			<title code="0x05">Persian Carpet</title>
+			<title code="0x06">Oppeke Song</title>
+			<title code="0x101">Loop Complete</title>
+			<title code="0x102">Game Over</title>
+			<title code="0x103">Fanfare</title>
 		</titlelist>
 	</game>
 </gamelist>

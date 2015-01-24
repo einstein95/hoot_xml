@@ -36,13 +36,13 @@
 <gamelist date="2005/09/25">
 	<!-- //夢幻 -->
 	<game>
-		<name>[PC-9801] ホーニースイーパー 好色仕掛人(OPN)</name>
+		<name>[PC-9801] Horny Sweeper: Koushoku Shikakenin (ホーニースイーパー 好色仕掛人) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">夢幻</driveralias>
+		<driveralias type="PC-9801">Mugen</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="hs_98">
+		<romlist archive="hs1_98">
 			<rom type="file" offset="-1">tglfmp.com</rom>
 			<rom type="file" offset="-1">FMP3.COM</rom>
 			<rom type="file" offset="0x10">HS01.MFM</rom>
@@ -82,9 +82,162 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ホーニースイーパー2 女子校危機一発(OPNA)</name>
+		<name>[PC-9801] Horny Sweeper: Koushoku Shikakenin (ホーニースイーパー 好色仕掛人) (GS)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Mugen</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="hs1_98">
+			<rom type="file" offset="-1">TGLFMP2.COM</rom>
+			<rom type="file" offset="-1">FMP3.COM</rom>
+			<rom type="file" offset="0x10">HS01.MGS</rom>
+			<rom type="file" offset="0x11">HS02.MGS</rom>
+			<rom type="file" offset="0x12">HS03.MGS</rom>
+			<rom type="file" offset="0x13">HS04.MGS</rom>
+			<rom type="file" offset="0x14">HS05.MGS</rom>
+			<rom type="file" offset="0x15">HS06.MGS</rom>
+			<rom type="file" offset="0x16">HS07.MGS</rom>
+			<rom type="file" offset="0x17">HS08.MGS</rom>
+			<rom type="file" offset="0x18">HS09.MGS</rom>
+			<rom type="file" offset="0x19">HS10.MGS</rom>
+			<rom type="file" offset="0x1a">HS11.MGS</rom>
+			<rom type="file" offset="0x1b">HS12.MGS</rom>
+			<rom type="file" offset="0x1c">HS13.MGS</rom>
+			<rom type="file" offset="0x1d">HS14.MGS</rom>
+			<rom type="file" offset="0x1e">HS15.MGS</rom>
+			<rom type="shell" offset="0">FMP3 -M</rom>
+			<rom type="shell" offset="0">TGLFMP2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x020010">HS01.MGS</title>
+			<title code="0x020011">HS02.MGS</title>
+			<title code="0x020012">HS03.MGS</title>
+			<title code="0x020013">HS04.MGS</title>
+			<title code="0x020014">HS05.MGS</title>
+			<title code="0x020015">HS06.MGS</title>
+			<title code="0x020016">HS07.MGS</title>
+			<title code="0x020017">HS08.MGS</title>
+			<title code="0x020018">HS09.MGS</title>
+			<title code="0x020019">HS10.MGS</title>
+			<title code="0x02001a">HS11.MGS</title>
+			<title code="0x02001b">HS12.MGS</title>
+			<title code="0x02001c">HS13.MGS</title>
+			<title code="0x02001d">HS14.MGS</title>
+			<title code="0x02001e">HS15.MGS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Horny Sweeper: Koushoku Shikakenin (ホーニースイーパー 好色仕掛人) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Mugen</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="hs1_98">
+			<rom type="file" offset="-1">TGLFMP2.COM</rom>
+			<rom type="file" offset="-1">FMP3.COM</rom>
+			<rom type="file" offset="0x10">HS01.MGS</rom>
+			<rom type="file" offset="0x11">HS02.MGS</rom>
+			<rom type="file" offset="0x12">HS03.MGS</rom>
+			<rom type="file" offset="0x13">HS04.MGS</rom>
+			<rom type="file" offset="0x14">HS05.MGS</rom>
+			<rom type="file" offset="0x15">HS06.MGS</rom>
+			<rom type="file" offset="0x16">HS07.MGS</rom>
+			<rom type="file" offset="0x17">HS08.MGS</rom>
+			<rom type="file" offset="0x18">HS09.MGS</rom>
+			<rom type="file" offset="0x19">HS10.MGS</rom>
+			<rom type="file" offset="0x1a">HS11.MGS</rom>
+			<rom type="file" offset="0x1b">HS12.MGS</rom>
+			<rom type="file" offset="0x1c">HS13.MGS</rom>
+			<rom type="file" offset="0x1d">HS14.MGS</rom>
+			<rom type="file" offset="0x1e">HS15.MGS</rom>
+			<rom type="shell" offset="0">FMP3 -M</rom>
+			<rom type="shell" offset="0">TGLFMP2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x020010">HS01.MGS</title>
+			<title code="0x020011">HS02.MGS</title>
+			<title code="0x020012">HS03.MGS</title>
+			<title code="0x020013">HS04.MGS</title>
+			<title code="0x020014">HS05.MGS</title>
+			<title code="0x020015">HS06.MGS</title>
+			<title code="0x020016">HS07.MGS</title>
+			<title code="0x020017">HS08.MGS</title>
+			<title code="0x020018">HS09.MGS</title>
+			<title code="0x020019">HS10.MGS</title>
+			<title code="0x02001a">HS11.MGS</title>
+			<title code="0x02001b">HS12.MGS</title>
+			<title code="0x02001c">HS13.MGS</title>
+			<title code="0x02001d">HS14.MGS</title>
+			<title code="0x02001e">HS15.MGS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Horny Sweeper 2: Joshi Kou Kiki Ippatsu (ホーニースイーパー2 女子校危機一発) (GS)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Mugen</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="hs2_98">
+			<rom type="file" offset="-1">TGLFMP2.COM</rom>
+			<rom type="file" offset="-1">FMP3.COM</rom>
+			<rom type="file" offset="0x10">HS2M01.MGS</rom>
+			<rom type="file" offset="0x11">HS2M02.MGS</rom>
+			<rom type="file" offset="0x12">HS2M03.MGS</rom>
+			<rom type="file" offset="0x13">HS2M04.MGS</rom>
+			<rom type="file" offset="0x14">HS2M05.MGS</rom>
+			<rom type="file" offset="0x15">HS2M06.MGS</rom>
+			<rom type="file" offset="0x16">HS2M07.MGS</rom>
+			<rom type="file" offset="0x17">HS2M08.MGS</rom>
+			<rom type="file" offset="0x18">HS2M09.MGS</rom>
+			<rom type="file" offset="0x19">HS2M10.MGS</rom>
+			<rom type="file" offset="0x1a">HS2M11.MGS</rom>
+			<rom type="file" offset="0x1b">HS2M12.MGS</rom>
+			<rom type="file" offset="0x1c">HS2M13.MGS</rom>
+			<rom type="file" offset="0x1d">HS2M14.MGS</rom>
+			<rom type="file" offset="0x1e">HS2M15.MGS</rom>
+			<rom type="file" offset="0x1f">HS2M16.MGS</rom>
+			<rom type="file" offset="0x20">HS2M17.MGS</rom>
+			<rom type="file" offset="0x21">HS2M18.MGS</rom>
+			<rom type="file" offset="0x22">HS2M19.MGS</rom>
+			<rom type="shell" offset="0">FMP3 -M</rom>
+			<rom type="shell" offset="0">TGLFMP2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x020010">HS2M01.MGS</title>
+			<title code="0x020011">HS2M02.MGS</title>
+			<title code="0x020012">HS2M03.MGS</title>
+			<title code="0x020013">HS2M04.MGS</title>
+			<title code="0x020014">HS2M05.MGS</title>
+			<title code="0x020015">HS2M06.MGS</title>
+			<title code="0x020016">HS2M07.MGS</title>
+			<title code="0x020017">HS2M08.MGS</title>
+			<title code="0x020018">HS2M09.MGS</title>
+			<title code="0x020019">HS2M10.MGS</title>
+			<title code="0x02001a">HS2M11.MGS</title>
+			<title code="0x02001b">HS2M12.MGS</title>
+			<title code="0x02001c">HS2M13.MGS</title>
+			<title code="0x02001d">HS2M14.MGS</title>
+			<title code="0x02001e">HS2M15.MGS</title>
+			<title code="0x02001f">HS2M16.MGS</title>
+			<title code="0x020020">HS2M17.MGS</title>
+			<title code="0x020021">HS2M18.MGS</title>
+			<title code="0x020022">HS2M19.MGS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Horny Sweeper 2: Joshi Kou Kiki Ippatsu (ホーニースイーパー2 女子校危機一発) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">夢幻</driveralias>
+		<driveralias type="PC-9801">Mugen</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -136,9 +289,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ホーニースイーパー2 女子校危機一発(OPN)</name>
+		<name>[PC-9801] Horny Sweeper 2: Joshi Kou Kiki Ippatsu (ホーニースイーパー2 女子校危機一発) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">夢幻</driveralias>
+		<driveralias type="PC-9801">Mugen</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -190,61 +343,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ホーニースイーパー 好色仕掛人(GS)</name>
+		<name>[PC-9801] Horny Sweeper 2: Joshi Kou Kiki Ippatsu (ホーニースイーパー2 女子校危機一発) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">夢幻</driveralias>
+		<driveralias type="PC-9801">Mugen</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="hs_98">
-			<rom type="file" offset="-1">TGLFMP2.COM</rom>
-			<rom type="file" offset="-1">FMP3.COM</rom>
-			<rom type="file" offset="0x10">HS01.MGS</rom>
-			<rom type="file" offset="0x11">HS02.MGS</rom>
-			<rom type="file" offset="0x12">HS03.MGS</rom>
-			<rom type="file" offset="0x13">HS04.MGS</rom>
-			<rom type="file" offset="0x14">HS05.MGS</rom>
-			<rom type="file" offset="0x15">HS06.MGS</rom>
-			<rom type="file" offset="0x16">HS07.MGS</rom>
-			<rom type="file" offset="0x17">HS08.MGS</rom>
-			<rom type="file" offset="0x18">HS09.MGS</rom>
-			<rom type="file" offset="0x19">HS10.MGS</rom>
-			<rom type="file" offset="0x1a">HS11.MGS</rom>
-			<rom type="file" offset="0x1b">HS12.MGS</rom>
-			<rom type="file" offset="0x1c">HS13.MGS</rom>
-			<rom type="file" offset="0x1d">HS14.MGS</rom>
-			<rom type="file" offset="0x1e">HS15.MGS</rom>
-			<rom type="shell" offset="0">FMP3 -M</rom>
-			<rom type="shell" offset="0">TGLFMP2</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x020010">HS01.MGS</title>
-			<title code="0x020011">HS02.MGS</title>
-			<title code="0x020012">HS03.MGS</title>
-			<title code="0x020013">HS04.MGS</title>
-			<title code="0x020014">HS05.MGS</title>
-			<title code="0x020015">HS06.MGS</title>
-			<title code="0x020016">HS07.MGS</title>
-			<title code="0x020017">HS08.MGS</title>
-			<title code="0x020018">HS09.MGS</title>
-			<title code="0x020019">HS10.MGS</title>
-			<title code="0x02001a">HS11.MGS</title>
-			<title code="0x02001b">HS12.MGS</title>
-			<title code="0x02001c">HS13.MGS</title>
-			<title code="0x02001d">HS14.MGS</title>
-			<title code="0x02001e">HS15.MGS</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] ホーニースイーパー2 女子校危機一発(GS)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">夢幻</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
 		</options>
 		<romlist archive="hs2_98">
 			<rom type="file" offset="-1">TGLFMP2.COM</rom>

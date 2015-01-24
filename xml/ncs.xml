@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //NCS -->
 	<game>
-		<name>[PC-9801] ライトニングバッカス - THE KNIGHT of IRON -</name>
+		<name>[PC-9801] Lightning Vaccus: The Knight of Iron (ライトニングバッカス -The Knight of Iron-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">NCS</driveralias>
+		<driveralias type="PC-9801">NCS</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -46,31 +46,31 @@
 			<option name="dummysndrom" value="1"/>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="lvaccus98">
+		<romlist archive="lvaccus_98">
 			<rom type="code" offset="0x01000">lvaccus.bin</rom>
 			<rom type="code" offset="0x01100">COMMAND.COM</rom>
 		</romlist>
 		<titlelist>
 			<!-- crc32 = 0x869327d7 (1st version) -->
-			<title code="0xa58f0000">演奏停止</title>
-			<title code="0xa5aa0000">MUSIC #01</title>
-			<title code="0xa5c50000">MUSIC #02</title>
-			<title code="0xa5e00000">MUSIC #03</title>
-			<title code="0xa5fb0000">MUSIC #04</title>
-			<title code="0xa6160000">MUSIC #05</title>
+			<title code="0xa58f0000">Stop the Music</title>
+			<title code="0xa5aa0000">BGM #01</title>
+			<title code="0xa5c50000">BGM #02</title>
+			<title code="0xa5e00000">BGM #03</title>
+			<title code="0xa5fb0000">BGM #04</title>
+			<title code="0xa6160000">BGM #05</title>
 			<!-- crc32 = 0xcada4e5e (another version) -->
-		<!--	<title code="0xa64f0000">演奏停止</title>
-			<title code="0xa66a0000">MUSIC #01</title>
-			<title code="0xa6850000">MUSIC #02</title>
-			<title code="0xa6a00000">MUSIC #03</title>
-			<title code="0xa6bb0000">MUSIC #04</title>
-			<title code="0xa6d60000">MUSIC #05</title> -->
+		<!--	<title code="0xa64f0000">Stop the Music</title>
+			<title code="0xa66a0000">BGM #01</title>
+			<title code="0xa6850000">BGM #02</title>
+			<title code="0xa6a00000">BGM #03</title>
+			<title code="0xa6bb0000">BGM #04</title>
+			<title code="0xa6d60000">BGM #05</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Mr.BUMP</name>
+		<name>[PC-8801] Mr. Bump (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NCS</driveralias>
+		<driveralias type="PC-8801">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xe7fd"/>
 			<option name="mdata_size" value="0x1600"/>
@@ -84,17 +84,17 @@
 			<rom type="bgm" offset="0x04">MDAT05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MUS01 : Opening</title>
-			<title code="0x02">MUS02 : Area</title>
-			<title code="0x00">MUS03 : Demo?</title>
-			<title code="0x03">MUS04 : Demo?</title>
-			<title code="0x04">MUS05 : GameOver</title>
+			<title code="0x01">Opening</title>
+			<title code="0x02">Area</title>
+			<title code="0x00">Demo?</title>
+			<title code="0x03">Demo?</title>
+			<title code="0x04">GameOver</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] エルスリード</name>
+		<name>[PC-8801] Elthlead (エルスリード) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NCS</driveralias>
+		<driveralias type="PC-8801">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x2400"/>
@@ -108,7 +108,7 @@
 			<rom type="bgm"  offset="0x01">MUS01</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18000000">演奏停止</title>
+			<title code="0x18000000">Stop the Music</title>
 			<title code="0x00000000">オープニング</title>
 			<title code="0x02000001">エルスリード軍BGM</title>
 			<title code="0x03000001">ヴェルゼリア軍BGM</title>
@@ -135,9 +135,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ガイアの紋章</name>
+		<name>[PC-8801] Gaia no Monshou (ガイアの紋章) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NCS</driveralias>
+		<driveralias type="PC-8801">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 		</options>
@@ -150,15 +150,15 @@
 			<rom type="bgm"  offset="0x02">MUS02</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x31000000">演奏停止</title>
-		<!--	<title code="0x30000002">効果音停止</title> -->
+			<title code="0x31000000">Stop the Music</title>
+		<!--	<title code="0x30000002">SFX Stop</title> -->
 			<title code="0x02000001">オープニング</title>
 			<title code="0x03000001">メニュー</title>
 			<title code="0x00000000">勝利</title>
 			<title code="0x04000001">敗北</title>
-			<title code="0x06000002">BGM 1</title>
-			<title code="0x07000002">BGM 2</title>
-			<title code="0x08000002">BGM 3</title>
+			<title code="0x06000002">BGM #01</title>
+			<title code="0x07000002">BGM #02</title>
+			<title code="0x08000002">BGM #03</title>
 			<title code="0x01000000">エンディング</title>
 			<title code="0x09000002">効果音#00</title>
 			<title code="0x0a000002">効果音#01</title>
@@ -190,9 +190,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ガイフレーム</name>
+		<name>[PC-8801] Gaiflame (ガイフレーム) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NCS</driveralias>
+		<driveralias type="PC-8801">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 		</options>
@@ -217,9 +217,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ライトニングバッカス - THE KNIGHT of IRON -</name>
+		<name>[PC-8801] Lightning Vaccus: The Knight of Iron (ライトニングバッカス -The Knight of Iron-) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">NCS</driveralias>
+		<driveralias type="PC-8801">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa200"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -251,9 +251,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] ガイアの紋章(OPM)</name>
+		<name>[X1] Gaia no Monshou (ガイアの紋章) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">NCS</driveralias>
+		<driveralias type="X1">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -307,9 +307,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] ガイアの紋章(PSG)</name>
+		<name>[X1] Gaia no Monshou (ガイアの紋章) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">NCS</driveralias>
+		<driveralias type="X1">NCS</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x2a00"/>
@@ -365,7 +365,7 @@
 	<game>
 		<name>[X68000] History of Elthlead</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">NCS</driveralias>
+		<driveralias type="X68000">NCS</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -394,31 +394,31 @@
 			<rom type="x"    offset="0x190000">win2.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">load.x   : (演奏まで時間かかります)</title>
-			<title code="0x01">tk1.dat  : </title>
-			<title code="0x02">tk2.dat  : </title>
-			<title code="0x03">tk3.dat  : </title>
-			<title code="0x04">tk4.dat  : </title>
-			<title code="0x05">tk5.dat  : </title>
-			<title code="0x06">tk6.dat  : </title>
-			<title code="0x07">tk10.dat : </title>
-			<title code="0x08">tk11.dat : </title>
-			<title code="0x09">tk13.dat : </title>
-			<title code="0x0a">tk15.dat : </title>
-			<title code="0x0b">tk16.dat : </title>
-			<title code="0x0c">tk17.dat : </title>
-			<title code="0x0d">tk18.dat : </title>
-			<title code="0x0e">tk19.dat : </title>
-			<title code="0x0f">tk20.dat : </title>
-			<title code="0x11">make1.x  : </title>
-			<title code="0x12">win1.x   : </title>
-			<title code="0x13">win2.x   : </title>
+			<title code="0x10">load.x (演奏まで時間かかります)</title>
+			<title code="0x01">tk1.dat</title>
+			<title code="0x02">tk2.dat</title>
+			<title code="0x03">tk3.dat</title>
+			<title code="0x04">tk4.dat</title>
+			<title code="0x05">tk5.dat</title>
+			<title code="0x06">tk6.dat</title>
+			<title code="0x07">tk10.dat</title>
+			<title code="0x08">tk11.dat</title>
+			<title code="0x09">tk13.dat</title>
+			<title code="0x0a">tk15.dat</title>
+			<title code="0x0b">tk16.dat</title>
+			<title code="0x0c">tk17.dat</title>
+			<title code="0x0d">tk18.dat</title>
+			<title code="0x0e">tk19.dat</title>
+			<title code="0x0f">tk20.dat</title>
+			<title code="0x11">make1.x</title>
+			<title code="0x12">win1.x</title>
+			<title code="0x13">win2.x</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] SIGNATORY -調印者-</name>
+		<name>[X68000] Signatory (調印者) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">NCS</driveralias>
+		<driveralias type="X68000">NCS</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -442,27 +442,27 @@
 			<rom type="code" offset="0x64000">M_11.ONG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0004">BYON.ONG  : NCSロゴ</title>
-			<title code="0x0005">M_00B.ONG : シグナトリーのテーマ</title>
-			<title code="0x0007">M_01B.ONG : NYのテーマ</title>
-			<title code="0x0008">M_02.ONG  : 夜のセントラルパーク</title>
-			<title code="0x0009">M_03B.ONG : 1945・ベルリン</title>
-			<title code="0x000a">M_04.ONG  : 2039・Gキャニオン</title>
-			<title code="0x000b">M_05.ONG  : チリ基地を攻撃せよ</title>
-			<title code="0x000c">M_06.ONG  : ヒトラー去る</title>
-			<title code="0x000e">M_07.ONG  : 戦闘/BGM</title>
-			<title code="0x000f">M_08.ONG  : 戦闘/負けた...</title>
-			<title code="0x0010">M_09.ONG  : 戦闘/勝った!!!</title>
-			<title code="0x0011">M_10B.ONG : ムード曲(笑)</title>
-			<title code="0x0012">M_11.ONG  : ワープ!!</title>
-			<title code="0x0006">M_01.ONG  : LNのテーマ</title>
-			<title code="0x000d">M_06B.ONG : エンディングクレジット</title>
+			<title code="0x0004">NCSロゴ</title>
+			<title code="0x0005">シグナトリーのテーマ</title>
+			<title code="0x0007">NYのテーマ</title>
+			<title code="0x0008">夜のセントラルパーク</title>
+			<title code="0x0009">1945・ベルリン</title>
+			<title code="0x000a">2039・Gキャニオン</title>
+			<title code="0x000b">チリ基地を攻撃せよ</title>
+			<title code="0x000c">ヒトラー去る</title>
+			<title code="0x000e">戦闘/BGM</title>
+			<title code="0x000f">戦闘/負けた...</title>
+			<title code="0x0010">戦闘/勝った!!!</title>
+			<title code="0x0011">ムード曲(笑)</title>
+			<title code="0x0012">ワープ!!</title>
+			<title code="0x0006">LNのテーマ</title>
+			<title code="0x000d">エンディングクレジット</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] ライトニングバッカス - THE KNIGHT of IRON -</name>
+		<name>[X68000] Lightning Vaccus: The Knight of Iron (ライトニングバッカス -The Knight of Iron-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">NCS</driveralias>
+		<driveralias type="X68000">NCS</driveralias>
 		<romlist archive="lb68snd">
 			<rom type="code">lb68snd.bin</rom>
 			<rom type="code" offset="0x08000">bsound.r</rom>
@@ -470,6 +470,7 @@
 			<rom type="code" offset="0x30000">adpcm.dta</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x100">Stop the Music</title>
 			<title code="0x101">オープニング</title>
 			<title code="0x103">デモ</title>
 			<title code="0x102">部隊編成モード</title>
@@ -480,9 +481,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ガイアの紋章</name>
+		<name>[MSX2] Gaia no Monshou (ガイアの紋章) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">NCS</driveralias>
+		<driveralias type="MSX2">NCS</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -503,6 +504,28 @@
 			<title code="0x04">敗北</title>
 			<title code="0x01">エンディング</title>
 			<range min="0x108" max="0x113" extcode="1">SE 0x%03x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Elthlead (エルスリード) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">NCS</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="elthlead_msx">
+			<rom type="code">Elthlead (1988)(NCS).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
 		</titlelist>
 	</game>
 </gamelist>

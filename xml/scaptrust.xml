@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] GALL FORCE ETERNAL STORY 創世の序曲</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Scap Trust</driveralias>
+		<driveralias type="PC-8801">Scap Trust</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 		</options>
@@ -58,9 +58,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] STAR/SHIP RENDEZVOUS(OPNA)</name>
+		<name>[PC-8801] Star/Ship Rendezvous (スターシップ・ランデブー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Scap Trust</driveralias>
+		<driveralias type="PC-8801">Scap Trust</driveralias>
 		<options>
 			<option name="init_pc" value="0xe000"/>
 			<option name="showfm3ex" value="1"/>
@@ -105,9 +105,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] STAR/SHIP RENDEZVOUS(OPN)</name>
+		<name>[PC-8801] Star/Ship Rendezvous (スターシップ・ランデブー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Scap Trust</driveralias>
+		<driveralias type="PC-8801">Scap Trust</driveralias>
 		<options>
 			<option name="init_pc" value="0xe000"/>
 			<option name="showfm3ex" value="1"/>
@@ -152,9 +152,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 紫禁城</name>
+		<name>[PC-8801] Shikinjou (紫禁城) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Scap Trust</driveralias>
+		<driveralias type="PC-8801">Scap Trust</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="init_pc"    value="0xf000"/>
@@ -172,31 +172,31 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">MUSIC 00</title>
-			<title code="0x00000001">MUSIC 01</title>
-			<title code="0x00000002">MUSIC 02</title>
-			<title code="0x00000003">MUSIC 03</title>
-			<title code="0x00000004">MUSIC 04</title>
-			<title code="0x00000005">MUSIC 05</title>
-			<title code="0x00000006">MUSIC 06</title>
-			<title code="0x00000007">MUSIC 07</title>
-			<title code="0x000000ff">EFFECT 00</title>
-			<title code="0x010000ff">EFFECT 01</title>
-			<title code="0x020000ff">EFFECT 02</title>
-			<title code="0x030000ff">EFFECT 03</title>
-			<title code="0x040000ff">EFFECT 04</title>
-			<title code="0x050000ff">EFFECT 05</title>
-			<title code="0x060000ff">EFFECT 06</title>
-			<title code="0x070000ff">EFFECT 07</title>
-			<title code="0x0b0000ff">EFFECT 0B</title>
-			<title code="0x0c0000ff">EFFECT 0C</title>
-			<title code="0x0d0000ff">EFFECT 0D</title>
+			<title code="0x00000000">BGM #00</title>
+			<title code="0x00000001">BGM #01</title>
+			<title code="0x00000002">BGM #02</title>
+			<title code="0x00000003">BGM #03</title>
+			<title code="0x00000004">BGM #04</title>
+			<title code="0x00000005">BGM #05</title>
+			<title code="0x00000006">BGM #06</title>
+			<title code="0x00000007">BGM #07</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x0b0000ff">SFX #0B</title>
+			<title code="0x0c0000ff">SFX #0C</title>
+			<title code="0x0d0000ff">SFX #0D</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR/SHIP RENDEZVOUS</name>
+		<name>[PC-9801] Star/Ship Rendezvous (スターシップ・ランデブー) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Scap Trust</driveralias>
+		<driveralias type="PC-9801">Scap Trust</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -224,22 +224,22 @@
 			<rom type="bgm" offset="10">MTYH05.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="4" >MTIAM07.SND : Operation in Unsteady Space</title>
-			<title code="9" >MTYH04.SND  : The Art of Noise</title>
-			<title code="7" >MTYH02.SND  : Madness and Its Synergistic Effect</title>
-			<title code="3" >MTIAM06.SND : MAZE TRAP!!</title>
-			<title code="10">MTYH05.SND  : Bass が ブ・リ・バ・リ</title>
-			<title code="1" >MTIAM02.SND : The Outsider</title>
-			<title code="2" >MTIAM05.SND : Work of Digging at Midnight</title>
-			<title code="6" >MTYH01.SND  : Mysticism</title>
-			<title code="5" >MTIAM08.SND : The Sunset for The Sunrise</title>
-			<title code="8" >MTYH03.SND  : Don't Forget Your Wonderful Memory</title>
+			<title code="4" >Operation in Unsteady Space</title>
+			<title code="9" >The Art of Noise</title>
+			<title code="7" >Madness and Its Synergistic Effect</title>
+			<title code="3" >MAZE TRAP!!</title>
+			<title code="10">Bass が ブ・リ・バ・リ</title>
+			<title code="1" >The Outsider</title>
+			<title code="2" >Work of Digging at Midnight</title>
+			<title code="6" >Mysticism</title>
+			<title code="5" >The Sunset for The Sunrise</title>
+			<title code="8" >Don't Forget Your Wonderful Memory</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 紫禁城</name>
+		<name>[PC-9801] Shikinjou (紫禁城) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Scap Trust</driveralias>
+		<driveralias type="PC-9801">Scap Trust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -269,31 +269,31 @@
 			<rom type="shell" offset="0">mmd2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x080010">SKF0.YBM  : </title>
-			<title code="0x080011">SKM0.YBM  : </title>
-			<title code="0x080012">SKM1.YBM  : </title>
-			<title code="0x080018">SKM2.YBM  : </title>
-			<title code="0x080019">SKM3.YBM  : </title>
-			<title code="0x08001a">SKM4.YBM  : </title>
-			<title code="0x08001b">SKM5.YBM  : </title>
-			<title code="0x08001c">SKM6.YBM  : </title>
-			<title code="0x08001d">SKM7.YBM  : </title>
-			<title code="0x08001e">SKM8.YBM  : </title>
-			<title code="0x08001f">SKM9.YBM  : </title>
-			<title code="0x080013">SKM10.YBM : </title>
-			<title code="0x080014">SKM11.YBM : </title>
-			<title code="0x080015">SKM12.YBM : </title>
-			<title code="0x080016">SKM13.YBM : </title>
-			<title code="0x080017">SKM14.YBM : </title>
+			<title code="0x080010">SKF0.YBM</title>
+			<title code="0x080011">SKM0.YBM</title>
+			<title code="0x080012">SKM1.YBM</title>
+			<title code="0x080018">SKM2.YBM</title>
+			<title code="0x080019">SKM3.YBM</title>
+			<title code="0x08001a">SKM4.YBM</title>
+			<title code="0x08001b">SKM5.YBM</title>
+			<title code="0x08001c">SKM6.YBM</title>
+			<title code="0x08001d">SKM7.YBM</title>
+			<title code="0x08001e">SKM8.YBM</title>
+			<title code="0x08001f">SKM9.YBM</title>
+			<title code="0x080013">SKM10.YBM</title>
+			<title code="0x080014">SKM11.YBM</title>
+			<title code="0x080015">SKM12.YBM</title>
+			<title code="0x080016">SKM13.YBM</title>
+			<title code="0x080017">SKM14.YBM</title>
 			<!--
 			<title code="0x080020">SKM99.YBM : [STOP]</title>
 			  -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 紫禁城</name>
+		<name>[X68000] Shikinjou (紫禁城)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Scap Trust</driveralias>
+		<driveralias type="X68000">Scap Trust</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -304,25 +304,25 @@
 			<rom type="code" offset="0x51000">TONE_1.VTD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x04">04 : 柳緑花紅</title>
-			<title code="0x05">05 : 白夜の騎士</title>
-			<title code="0x06">06 : 茜の空の忍者</title>
-			<title code="0x02">02 : 銀河のロマンス</title>
-			<title code="0x03">03 : 復得返自然</title>
-			<title code="0x07">07 :</title>
-			<title code="0x08">08 :</title>
-			<title code="0x09">09 :</title>
-			<title code="0x0a">0A :</title>
-			<title code="0x0b">0B :</title>
-			<title code="0x0c">0C :</title>
-			<title code="0x0d">0D :</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x04">柳緑花紅</title>
+			<title code="0x05">白夜の騎士</title>
+			<title code="0x06">茜の空の忍者</title>
+			<title code="0x02">銀河のロマンス</title>
+			<title code="0x03">復得返自然</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] STAR/SHIP RENDEZVOUS(OPLL)</name>
+		<name>[MSX2] Star/Ship Rendezvous (スターシップ・ランデブー) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Scap Trust</driveralias>
+		<driveralias type="MSX2">Scap Trust</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xba00"/>
 			<option name="mdata_size" value="0x1900"/>
@@ -345,25 +345,25 @@
 			<rom type="bgm" offset="0x09">MTYH05.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MTIAM02.SND : Operation in Unsteady Space</title>
+			<title code="0x00">Operation in Unsteady Space</title>
 			<!--
-			<title code="0x03">MTIAM07.SND : Operation in Unsteady Space</title>
+			<title code="0x03">Operation in Unsteady Space</title>
 			  -->
-			<title code="0x08">MTYH04.SND  : The Art of Noise</title>
-			<title code="0x06">MTYH02.SND  : Madness and Its Synergistic Effect</title>
-			<title code="0x09">MTYH05.SND  : MAZE TRAP!!</title>
-			<title code="0x02">MTIAM06.SND : Bass が ブ・リ・バ・リ</title>
-			<title code="0x01">MTIAM05.SND : Work of Digging at Midnight</title>
-			<title code="0x05">MTYH01.SND  : Mysticism</title>
-			<title code="0x04">MTIAM08.SND : The Sunset for The Sunrise</title>
-			<title code="0x07">MTYH03.SND  : Don't Forget Your Wonderful Memory</title>
-			<range min="0x80" max="0x8b" extcode="1">SE   : 0x%02x : </range>
+			<title code="0x08">The Art of Noise</title>
+			<title code="0x06">Madness and Its Synergistic Effect</title>
+			<title code="0x09">MAZE TRAP!!</title>
+			<title code="0x02">Bass が ブ・リ・バ・リ</title>
+			<title code="0x01">Work of Digging at Midnight</title>
+			<title code="0x05">Mysticism</title>
+			<title code="0x04">The Sunset for The Sunrise</title>
+			<title code="0x07">Don't Forget Your Wonderful Memory</title>
+			<range min="0x80" max="0x8b" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] STAR/SHIP RENDEZVOUS(PSG)</name>
+		<name>[MSX2] Star/Ship Rendezvous (スターシップ・ランデブー) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Scap Trust</driveralias>
+		<driveralias type="MSX2">Scap Trust</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xba00"/>
 			<option name="mdata_size" value="0x1900"/>
@@ -385,25 +385,25 @@
 			<rom type="bgm" offset="0x09">MTYH05.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MTIAM02.SND : Operation in Unsteady Space</title>
+			<title code="0x00">Operation in Unsteady Space</title>
 			<!--
-			<title code="0x03">MTIAM07.SND : Operation in Unsteady Space</title>
+			<title code="0x03">Operation in Unsteady Space</title>
 			  -->
-			<title code="0x08">MTYH04.SND  : The Art of Noise</title>
-			<title code="0x06">MTYH02.SND  : Madness and Its Synergistic Effect</title>
-			<title code="0x09">MTYH05.SND  : MAZE TRAP!!</title>
-			<title code="0x02">MTIAM06.SND : Bass が ブ・リ・バ・リ</title>
-			<title code="0x01">MTIAM05.SND : Work of Digging at Midnight</title>
-			<title code="0x05">MTYH01.SND  : Mysticism</title>
-			<title code="0x04">MTIAM08.SND : The Sunset for The Sunrise</title>
-			<title code="0x07">MTYH03.SND  : Don't Forget Your Wonderful Memory</title>
-			<range min="0x80" max="0x8b" extcode="1">SE   : 0x%02x : </range>
+			<title code="0x08">The Art of Noise</title>
+			<title code="0x06">Madness and Its Synergistic Effect</title>
+			<title code="0x09">MAZE TRAP!!</title>
+			<title code="0x02">Bass が ブ・リ・バ・リ</title>
+			<title code="0x01">Work of Digging at Midnight</title>
+			<title code="0x05">Mysticism</title>
+			<title code="0x04">The Sunset for The Sunrise</title>
+			<title code="0x07">Don't Forget Your Wonderful Memory</title>
+			<range min="0x80" max="0x8b" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] クリムゾン(OPLL)</name>
+		<name>[MSX] Crimson (クリムゾン) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Scap Trust</driveralias>
+		<driveralias type="MSX2">Scap Trust</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 			<option name="use_opll"   value="0x01"/>
@@ -413,12 +413,12 @@
 			<rom type="code" offset="0x4000">OPLL.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : プロローグ</title>
-			<title code="0x01">01 : オーガ・バトル</title>
+			<title code="0x00">Prologue (プロローグ)</title>
+			<title code="0x01">Ogre Battle (オーガ・バトル)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] クリムゾン(PSG)</name>
+		<name>[MSX] Crimson (クリムゾン) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Scap Trust</driveralias>
 		<options>
@@ -613,7 +613,7 @@
 	<game>
 		<name>[X68000] STAR/SHIP RENDEZVOUS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Scap Trust</driveralias>
+		<driveralias type="X68000">Scap Trust</driveralias>
 		<romlist archive="starship68snd">
 			<rom type="code" offset="0x000000">ssr68snd.bin</rom>
 			<rom type="code" offset="0x010000">MUSIC.BIN</rom>
