@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Starbyte -->
+	<game>
+		<name>[PC/AT] Big Sea: The Better One Will Win (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="bigsea_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">BSEA001.CMF</rom>
+			<rom type="file" offset="0x11">BSEA002.CMF</rom>
+			<rom type="file" offset="0x12">BSEA003.CMF</rom>
+			<rom type="file" offset="0x13">BSEA004.CMF</rom>
+			<rom type="file" offset="0x14">BSEA005.CMF</rom>
+			<rom type="file" offset="0x15">BSEA006.CMF</rom>
+			<rom type="file" offset="0x16">BSEA007.CMF</rom>
+			<rom type="file" offset="0x17">BSEA008.CMF</rom>
+			<rom type="file" offset="0x18">BSEA009.CMF</rom>
+			<rom type="file" offset="0x19">BSEA010.CMF</rom>
+			<rom type="file" offset="0x1A">BSEA011.CMF</rom>
+			<rom type="file" offset="0x1B">BSEA012.CMF</rom>
+			<rom type="file" offset="0x1C">BSEA013.CMF</rom>
+			<rom type="file" offset="0x1D">BSEA014.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x19">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x17">Music 9</title>
+			<title code="0x18">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0xFF1D">Music 14</title>
+		</titlelist>
+	</game>
+	
+	<game>
+		<name>[PC/AT] Crime Time (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="crimetime_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">0.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Crown (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="crown_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">240.ADS</rom>
+			<rom type="file" offset="0x11">241.ADS</rom>
+			<rom type="file" offset="0x12">242.ADS</rom>
+			<rom type="file" offset="0x13">243.ADS</rom>
+			<rom type="file" offset="0x14">244.ADS</rom>
+			<rom type="file" offset="0x15">245.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Invest (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="invest_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">INVEST.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rolling Ronny (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="rronny_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">WORK.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Ingame</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Sarakon (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="sarakon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">1.ADS</rom>
+			<rom type="file" offset="0x11">2.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">Title</title>
+			<title code="0x10">Ingame</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Soul Crystal (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="soulcrystal_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">1.ADS</rom>
+			<rom type="file" offset="0x11">2.ADS</rom>
+			<rom type="file" offset="0x12">3.ADS</rom>
+			<rom type="file" offset="0x13">4.ADS</rom>
+			<rom type="file" offset="0x14">5.ADS</rom>
+			<rom type="file" offset="0x15">6.ADS</rom>
+			<rom type="file" offset="0x16">7.ADS</rom>
+			<rom type="file" offset="0x17">8.ADS</rom>
+			<rom type="file" offset="0x18">9.ADS</rom>
+			<rom type="file" offset="0x19">10.ADS</rom>
+			<rom type="file" offset="0x1A">11.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x14">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Space MAX (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="spacemax_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">SMTITLE.MID</rom>
+			<rom type="file" offset="0x11">SMSCREEN.MID</rom>
+			<rom type="file" offset="0x12">SMCOMND.MID</rom>
+			<rom type="file" offset="0x13">SMUP.MID</rom>
+			<rom type="file" offset="0x14">SMDOWN.MID</rom>
+			<rom type="file" offset="0x15">SMMODULE.MID</rom>
+			<rom type="file" offset="0x16">SMREADY.MID</rom>
+			<rom type="file" offset="0x17">SMEND.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">SCREEN</title>
+			<title code="0x12">COMND</title>
+			<title code="0x13">UP</title>
+			<title code="0x14">DOWN</title>
+			<title code="0x15">MODULE</title>
+			<title code="0x16">READY</title>
+			<title code="0xFF17">END</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Space MAX (Munt, MT-32 simulation) &lt;- Adlib version missing</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="spacemax_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">SMTITLE.MID</rom>
+			<rom type="file" offset="0x11">SMSCREEN.MID</rom>
+			<rom type="file" offset="0x12">SMCOMND.MID</rom>
+			<rom type="file" offset="0x13">SMUP.MID</rom>
+			<rom type="file" offset="0x14">SMDOWN.MID</rom>
+			<rom type="file" offset="0x15">SMMODULE.MID</rom>
+			<rom type="file" offset="0x16">SMREADY.MID</rom>
+			<rom type="file" offset="0x17">SMEND.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">SCREEN</title>
+			<title code="0x12">COMND</title>
+			<title code="0x13">UP</title>
+			<title code="0x14">DOWN</title>
+			<title code="0x15">MODULE</title>
+			<title code="0x16">READY</title>
+			<title code="0xFF17">END</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Spirit of Adventure (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Starbyte</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="spiritofadv_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADS.DRV</rom>
+			<rom type="file" offset="0x10">MUMIE.ADS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+
+
+</gamelist>

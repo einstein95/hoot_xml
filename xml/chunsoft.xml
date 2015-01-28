@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- chunsoft -->
+	<game>
+		<name>[MSX] Dragon Quest (ドラゴンクエスト) (AY-3-8910)</name>
+		<driver type="dq1">msx</driver>
+		<driveralias type="MSX">Chunsoft</driveralias>
+		<romlist archive="dq1msx">
+			<rom type="code">dq1.rom</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Overture</title>
+			<title code="0x02">Tantegel Castle</title>
+			<title code="0x04">Peaceful Village</title>
+			<title code="0x05">Kingdom of Alefgard</title>
+			<title code="0x18">A Monster Draws Near</title>
+			<title code="0x14">Thou Hast Died...</title>
+			<title code="0x06">Dark Dungeon ~ Floor 1</title>
+			<title code="0x07">Dark Dungeon ~ Floor 2</title>
+			<title code="0x08">Dark Dungeon ~ Floor 3</title>
+			<title code="0x09">Dark Dungeon ~ Floor 4</title>
+			<title code="0x0a">Dark Dungeon ~ Floor 5</title>
+			<title code="0x0b">Dark Dungeon ~ Floor 6</title>
+			<title code="0x0c">Dark Dungeon ~ Floor 7</title>
+			<title code="0x0d">Dark Dungeon ~ Floor 8</title>
+			<title code="0x16">Princess Gwaelin's Love</title>
+			<title code="0x13">Rainbow Bridge</title>
+			<title code="0x19">Victory!</title>
+			<title code="0x1a">Improvement</title>
+			<title code="0x15">Good Night</title>
+			<title code="0x17">Cursed!</title>
+			<title code="0x12">Fairy Flute</title>
+			<title code="0x11">Silver Harp</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Dragon Quest 2: Pantheon of Evil Spirits (ドラゴンクエスト２ 悪霊の神々) (AY-3-8910)</name>
+		<driver type="dq2">msx</driver>
+		<driveralias type="MSX">Chunsoft</driveralias>
+		<romlist archive="dq2msx">
+			<rom type="code">dq2.rom</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0b">Overture</title>
+			<title code="0x0c">Joyous Song</title>
+			<title code="0x12">All Hope is Lost...</title>
+			<title code="0x0e">Royal Palace</title>
+			<title code="0x15">A Lonely Youth</title>
+			<title code="0x17">Demon Attack</title>
+			<title code="0x0f">Busy City Streets</title>
+			<title code="0x10">Underground</title>
+			<title code="0x07">Friendship</title>
+			<title code="0x13">Prophecy</title>
+			<title code="0x14">Travelling with Friends</title>
+			<title code="0x11">Ever Upwards</title>
+			<title code="0x16">Riding the Waves</title>
+			<title code="0x0d">Kingdom of Alefgard</title>
+			<title code="0x18">Malroth ~ The True Evil</title>
+			<title code="0x19">Recounting our Journey</title>
+			<title code="0x01">Sleep Well</title>
+			<title code="0x05">The Spirit of Rubiss</title>
+			<title code="0x02">Saint's Prayer</title>
+			<title code="0x04">Echoing Flute</title>
+			<title code="0x03">Echoing Flute (Echo)</title>
+			<title code="0x06">Won the Lottery</title>
+			<title code="0x08">Improvement</title>
+			<title code="0x09">Victory!</title>
+			<title code="0x0a">Cursed</title>
+			<title code="0x1b">SFX #1b</title>
+			<title code="0x1c">SFX #1c</title>
+			<title code="0x1d">SFX #1d</title>
+			<title code="0x1e">SFX #1e</title>
+			<title code="0x1f">SFX #1f</title>
+			<title code="0x20">SFX #20</title>
+			<title code="0x21">SFX #21</title>
+			<title code="0x22">SFX #22</title>
+			<title code="0x23">SFX #23</title>
+			<title code="0x24">SFX #24</title>
+			<title code="0x25">SFX #25</title>
+			<title code="0x26">SFX #26</title>
+			<title code="0x27">SFX #27</title>
+			<title code="0x28">SFX #28</title>
+			<title code="0x29">SFX #29</title>
+			<title code="0x2a">SFX #2a</title>
+			<title code="0x2b">SFX #2b</title>
+			<title code="0x2c">SFX #2c</title>
+			<title code="0x2d">SFX #2d</title>
+			<title code="0x2e">SFX #2e</title>
+			<title code="0x2f">SFX #2f</title>
+			<title code="0x30">SFX #30</title>
+			<title code="0x31">SFX #31</title>
+			<title code="0x32">SFX #32</title>
+			<title code="0x33">SFX #33</title>
+		</titlelist>
+	</game>
+</gamelist>			 
+									

@@ -418,7 +418,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] キサントゲノス 魔性甦る時</name>
+		<name>[PC-9801] Xantgenos: Mashou Yomigaeru Toki (キサントゲノス 魔性甦る時) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">HeartSoft</driveralias>
 		<options>
@@ -765,6 +765,59 @@
 			<title code="0x15">FM_22.BGX</title>
 			<title code="0x16">FM_23.BGX</title>
 			<title code="0x17">FM_24.BGX</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Craze (クレイズ) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">HeartSoft</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="craze_msx">
+			<rom type="code">Craze (1988)(Heart Soft).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Vaxol (ヴァクソル) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">HeartSoft</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="vaxol_msx">
+			<rom type="code">Vaxol (1987)(Heart Soft).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
 		</titlelist>
 	</game>
 </gamelist>

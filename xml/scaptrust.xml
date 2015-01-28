@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //Scap Trust -->
 	<game>
-		<name>[PC-8801] GALL FORCE ETERNAL STORY 創世の序曲</name>
+		<name>[PC-8801] Gall Force: Eternal Story - Sousei no Jokyoku (ガルフォース 創世の序曲)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Scap Trust</driveralias>
 		<options>
@@ -49,12 +49,12 @@
 			<rom type="bgm" offset="0x02">A03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04000001">A01 : オープニング</title>
-			<title code="0x00000000">A00 : BGM1</title>
-			<title code="0x01000000">A00 : BGM2</title>
-			<title code="0x02000000">A00 : BGM3</title>
-			<title code="0x03000000">A00 : BGM4</title>
-			<title code="0x05000002">A03 : エンディング</title>
+			<title code="0x04000001">オープニング</title>
+			<title code="0x00000000">BGM1</title>
+			<title code="0x01000000">BGM2</title>
+			<title code="0x02000000">BGM3</title>
+			<title code="0x03000000">BGM4</title>
+			<title code="0x05000002">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
@@ -418,9 +418,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Crimson (クリムゾン) (AY-3-8910)</name>
+		<name>[MSX2] Crimson (クリムゾン) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Scap Trust</driveralias>
+		<driveralias type="MSX2">Scap Trust</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xbcc0"/>
 			<option name="mdata_size" value="0x1d00"/>
@@ -462,22 +462,22 @@
 			<rom type="bgm" offset="0x1e">DY.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OPEN.BIN    : プロローグ</title>
-			<title code="0x02">D@.BIN      : 冒険者達</title>
-			<title code="0x0b">DG.BIN      : 遺跡の谷</title>
+			<title code="0x00">プロローグ</title>
+			<title code="0x02">冒険者達</title>
+			<title code="0x0b">遺跡の谷</title>
 			<!--
 			<title code="0x0c">DH.BIN      : 遺跡の谷</title>
 			<title code="0x0d">DI.BIN      : 遺跡の谷</title>
 			<title code="0x0e">DJ.BIN      : 遺跡の谷</title>
 			  -->
-			<title code="0x01">MSCMAIN.BIN : オーガ・バトル</title>
-			<title code="0x10">DL.BIN      : エロイア城</title>
-			<title code="0x12">DN.BIN      : しゃべらずの森</title>
-			<title code="0x1d">DZ.BIN      : レクイエム</title>
-			<title code="0x1a">DV.BIN      : インキュバス城</title>
-			<title code="0x14">DP.BIN      : 魔獣のつり橋</title>
-			<title code="0x11">DM.BIN      : モグネス山</title>
-			<title code="0x05">DA.BIN      : 哀しみの町</title>
+			<title code="0x01">オーガ・バトル</title>
+			<title code="0x10">エロイア城</title>
+			<title code="0x12">しゃべらずの森</title>
+			<title code="0x1d">レクイエム</title>
+			<title code="0x1a">インキュバス城</title>
+			<title code="0x14">魔獣のつり橋</title>
+			<title code="0x11">モグネス山</title>
+			<title code="0x05">哀しみの町</title>
 			<!--
 			<title code="0x06">DB.BIN      : 哀しみの町</title>
 			<title code="0x07">DC.BIN      : 哀しみの町</title>
@@ -486,24 +486,24 @@
 			<title code="0x0a">DF.BIN      : 哀しみの町</title>
 			<title code="0x13">DO.BIN      : 哀しみの町</title>
 			  -->
-			<title code="0x1c">DX.BIN      : 魔物の沼</title>
-			<title code="0x17">DS.BIN      : 火吹き山</title>
+			<title code="0x1c">魔物の沼</title>
+			<title code="0x17">火吹き山</title>
 			<!--
 			<title code="0x19">DU.BIN      : 火吹き山</title>
 			  -->
-			<title code="0x0f">DK.BIN      : 死霊の谷</title>
-			<title code="0x18">DT.BIN      : キャンプ場</title>
-			<title code="0x15">DQ.BIN      : 毒の沼</title>
-			<title code="0x1b">DW.BIN      : 幻の城</title>
-			<title code="0x16">DR.BIN      : コダール城</title>
-			<title code="0x1e">DY.BIN      : クリムゾン城</title>
-			<title code="0x03">D{.BIN      : クリムゾン様、永遠に…</title>
-			<title code="0x04">D}.BIN      : エピローグ</title>
-			<range min="0x100" max="0x112" extcode="1">SE  : 0x%02x : </range>
+			<title code="0x0f">死霊の谷</title>
+			<title code="0x18">キャンプ場</title>
+			<title code="0x15">毒の沼</title>
+			<title code="0x1b">幻の城</title>
+			<title code="0x16">コダール城</title>
+			<title code="0x1e">クリムゾン城</title>
+			<title code="0x03">クリムゾン様、永遠に…</title>
+			<title code="0x04">エピローグ</title>
+			<range min="0x100" max="0x112" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 紫禁城(OPLL)</name>
+		<name>[MSX] Shikinjou (紫禁城) (OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Scap Trust</driveralias>
 		<options>
@@ -538,27 +538,27 @@
 			<rom type="bgm" offset="0x0f">SKPAC9.PMS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">DORA.PMS    : </title>
-			<title code="0x01">SKPAC0.PMS  : </title>
-			<title code="0x02">SKPAC1.PMS  : </title>
-			<title code="0x08">SKPAC2.PMS  : </title>
-			<title code="0x09">SKPAC3.PMS  : </title>
-			<title code="0x0a">SKPAC4.PMS  : </title>
-			<title code="0x0b">SKPAC5.PMS  : </title>
-			<title code="0x0c">SKPAC6.PMS  : </title>
-			<title code="0x0d">SKPAC7.PMS  : </title>
-			<title code="0x0e">SKPAC8.PMS  : </title>
-			<title code="0x0f">SKPAC9.PMS  : </title>
-			<title code="0x03">SKPAC10.PMS : </title>
-			<title code="0x04">SKPAC11.PMS : </title>
-			<title code="0x05">SKPAC12.PMS : </title>
-			<title code="0x010006">SKPAC13.PMS : </title>
-			<title code="0x010007">SKPAC14.PMS : </title>
-			<range min="0x101" max="0x114" extcode="1">SE    0x%02x : </range>
+			<title code="0x00">DORA.PMS</title>
+			<title code="0x01">SKPAC0.PMS</title>
+			<title code="0x02">SKPAC1.PMS</title>
+			<title code="0x08">SKPAC2.PMS</title>
+			<title code="0x09">SKPAC3.PMS</title>
+			<title code="0x0a">SKPAC4.PMS</title>
+			<title code="0x0b">SKPAC5.PMS</title>
+			<title code="0x0c">SKPAC6.PMS</title>
+			<title code="0x0d">SKPAC7.PMS</title>
+			<title code="0x0e">SKPAC8.PMS</title>
+			<title code="0x0f">SKPAC9.PMS</title>
+			<title code="0x03">SKPAC10.PMS</title>
+			<title code="0x04">SKPAC11.PMS</title>
+			<title code="0x05">SKPAC12.PMS</title>
+			<title code="0x010006">SKPAC13.PMS</title>
+			<title code="0x010007">SKPAC14.PMS</title>
+			<range min="0x101" max="0x114" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 紫禁城(PSG)</name>
+		<name>[MSX] Shikinjou (紫禁城) (PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Scap Trust</driveralias>
 		<options>
@@ -591,27 +591,95 @@
 			<rom type="bgm" offset="0x0f">SKP9.YBM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">DORA.YBM  : </title>
-			<title code="0x01">SKP0.YBM  : </title>
-			<title code="0x02">SKP1.YBM  : </title>
-			<title code="0x08">SKP2.YBM  : </title>
-			<title code="0x09">SKP3.YBM  : </title>
-			<title code="0x0a">SKP4.YBM  : </title>
-			<title code="0x0b">SKP5.YBM  : </title>
-			<title code="0x0c">SKP6.YBM  : </title>
-			<title code="0x0d">SKP7.YBM  : </title>
-			<title code="0x0e">SKP8.YBM  : </title>
-			<title code="0x0f">SKP9.YBM  : </title>
-			<title code="0x03">SKP10.YBM : </title>
-			<title code="0x04">SKP11.YBM : </title>
-			<title code="0x05">SKP12.YBM : </title>
-			<title code="0x06">SKP13.YBM : </title>
-			<title code="0x07">SKP14.YBM : </title>
-			<range min="0x101" max="0x114" extcode="1">SE  0x%02x : </range>
+			<title code="0x00">DORA.YBM</title>
+			<title code="0x01">SKP0.YBM</title>
+			<title code="0x02">SKP1.YBM</title>
+			<title code="0x08">SKP2.YBM</title>
+			<title code="0x09">SKP3.YBM</title>
+			<title code="0x0a">SKP4.YBM</title>
+			<title code="0x0b">SKP5.YBM</title>
+			<title code="0x0c">SKP6.YBM</title>
+			<title code="0x0d">SKP7.YBM</title>
+			<title code="0x0e">SKP8.YBM</title>
+			<title code="0x0f">SKP9.YBM</title>
+			<title code="0x03">SKP10.YBM</title>
+			<title code="0x04">SKP11.YBM</title>
+			<title code="0x05">SKP12.YBM</title>
+			<title code="0x06">SKP13.YBM</title>
+			<title code="0x07">SKP14.YBM</title>
+			<range min="0x101" max="0x114" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] STAR/SHIP RENDEZVOUS</name>
+		<name>[MSX] Deep Dungeon: Madou Senki (ディープダンジョン 魔洞戦記) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Scap Trust</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="deepd1_msx">
+			<rom type="code">Deep Dungeon - Madou Senki (1988)(Scap Trust).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+			<title code="0x0f">BGM #0f</title>
+			<title code="0x10">BGM #10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Deep Dungeon 2: Yuushi no Monshou (ディープダンジョン２ 勇士の紋章) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Scap Trust</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="deepd2_msx">
+			<rom type="code">Deep Dungeon 2 - Yuushi no Monshou (1988)(Scap Trust).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+			<title code="0x0f">BGM #0f</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Star/Ship Rendezvous (スターシップ・ランデブー)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Scap Trust</driveralias>
 		<romlist archive="starship68snd">
@@ -619,7 +687,11 @@
 			<rom type="code" offset="0x010000">MUSIC.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x05" extcode="1">BGM 0x%02x</range>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
 		</titlelist>
 	</game>
 </gamelist>

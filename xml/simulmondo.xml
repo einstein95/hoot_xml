@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Simulmondo -->
+	<game>
+		<name>[PC/AT] 1000 Miglia (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="1000miglia_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">01.MDI</rom>
+			<rom type="file" offset="0x11">02.MDI</rom>
+			<rom type="file" offset="0x12">03.MDI</rom>
+			<rom type="file" offset="0x13">04.MDI</rom>
+			<rom type="file" offset="0x14">05.MDI</rom>
+			<rom type="file" offset="0x15">06.MDI</rom>
+			<rom type="file" offset="0x16">07.MDI</rom>
+			<rom type="file" offset="0x17">08.MDI</rom>
+			<rom type="file" offset="0x18">09.MDI</rom>
+			<rom type="file" offset="0x19">10.MDI</rom>
+			<rom type="file" offset="0x1A">11.MDI</rom>
+			<rom type="file" offset="0x1B">12.MDI</rom>
+			<rom type="file" offset="0x1C">13.MDI</rom>
+			<rom type="file" offset="0x1D">14.MDI</rom>
+			<rom type="file" offset="0x1E">15.MDI</rom>
+			<rom type="file" offset="0x1F">16.MDI</rom>
+			<rom type="file" offset="0x20">17.MDI</rom>
+			<rom type="file" offset="0x21">18.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0xFF15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0xFF17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0xFF1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+		</titlelist>
+	</game>
+  <game>
+		<name>[PC/AT] 3D World Boxing (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="3dwboxing_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">BC_MAIN.MDI</rom>
+			<rom type="file" offset="0x11">3D_INTRO.MDI</rom>
+			<rom type="file" offset="0x12">GAME_OVE.MDI</rom>
+			<rom type="file" offset="0x13">PRES_INC.MDI</rom>
+			<rom type="file" offset="0x14">SELEZION.MDI</rom>
+			<rom type="file" offset="0x15">TITOLO.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] 3D World Tennis (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="3dwtennis_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">01.MDI</rom>
+			<rom type="file" offset="0x11">02.MDI</rom>
+			<rom type="file" offset="0x12">03.MDI</rom>
+			<rom type="file" offset="0x13">04.MDI</rom>
+			<rom type="file" offset="0x14">05.MDI</rom>
+			<rom type="file" offset="0x15">06.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x12">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 1: Inafferrabile Criminale (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik1_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DI1_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DI1_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DI1_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DI1_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DI1_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DI1_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DI1_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DI1_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DI1_M_09.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 2: La Gemma di Salomone (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DI2_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DI2_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DI2_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DI2_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DI2_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DI2_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DI2_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DI2_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DI2_M_09.MDI</rom>
+			<rom type="file" offset="0x19">DI2_M_0A.MDI</rom>
+			<rom type="file" offset="0x1A">DI2_M_0B.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 3: La Fuga (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DI3_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DI3_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DI3_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DI3_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DI3_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DI3_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DI3_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DI3_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DI3_M_09.MDI</rom>
+			<rom type="file" offset="0x19">DI3_M_0A.MDI</rom>
+			<rom type="file" offset="0x1A">DI3_M_0B.MDI</rom>
+			<rom type="file" offset="0x1B">DI3_M_0C.MDI</rom>
+			<rom type="file" offset="0x1C">DI3_M_0D.MDI</rom>
+			<rom type="file" offset="0x1D">DI3_M_0E.MDI</rom>
+			<rom type="file" offset="0x1E">DI3_M_0F.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 4: Trappola d'Acciaio (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">ALLARME.MDI</rom>
+			<rom type="file" offset="0x11">ATT_ESAM.MDI</rom>
+			<rom type="file" offset="0x12">COLP_FAL.MDI</rom>
+			<rom type="file" offset="0x13">DENTRO.MDI</rom>
+			<rom type="file" offset="0x14">ENTRA.MDI</rom>
+			<rom type="file" offset="0x15">FUORI.MDI</rom>
+			<rom type="file" offset="0x16">INIZIALE.MDI</rom>
+			<rom type="file" offset="0x17">LA1B.MDI</rom>
+			<rom type="file" offset="0x18">LA2C.MDI</rom>
+			<rom type="file" offset="0x19">LA20.MDI</rom>
+			<rom type="file" offset="0x1A">LA21.MDI</rom>
+			<rom type="file" offset="0x1B">LA22.MDI</rom>
+			<rom type="file" offset="0x1C">RUBA3SEQ.MDI</rom>
+			<rom type="file" offset="0x1D">ST1.MDI</rom>
+			<rom type="file" offset="0x1E">ST2.MDI</rom>
+			<rom type="file" offset="0x1F">ST3.MDI</rom>
+			<rom type="file" offset="0x20">TO_BE_CO.MDI</rom>
+			<rom type="file" offset="0x21">TROVA.MDI</rom>
+			<rom type="file" offset="0x22">USA.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 5: Ore Pericolose (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DIABOLIK.MDI</rom>
+			<rom type="file" offset="0x11">DUELLO.MDI</rom>
+			<rom type="file" offset="0x12">FINALE.MDI</rom>
+			<rom type="file" offset="0x13">RAGAZZO.MDI</rom>
+			<rom type="file" offset="0x14">ST1.MDI</rom>
+			<rom type="file" offset="0x15">ST2.MDI</rom>
+			<rom type="file" offset="0x16">TECNICO.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 6: La Notte della Paura (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik6_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">ARRESTO.MDI</rom>
+			<rom type="file" offset="0x11">DIABOLIK.MDI</rom>
+			<rom type="file" offset="0x12">FINE.MDI</rom>
+			<rom type="file" offset="0x13">GAMEOVER.MDI</rom>
+			<rom type="file" offset="0x14">INIZIALE.MDI</rom>
+			<rom type="file" offset="0x15">POLIZIA.MDI</rom>
+			<rom type="file" offset="0x16">ST1.MDI</rom>
+			<rom type="file" offset="0x17">ST2.MDI</rom>
+			<rom type="file" offset="0x18">TOBECONT.MDI</rom>
+			<rom type="file" offset="0x19">TOMBINO.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 7: Diamanti Unici (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik7_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">PRELUDE.MDI</rom>
+			<rom type="file" offset="0x11">INTRO.MDI</rom>
+			<rom type="file" offset="0x12">GAMEOVER.MDI</rom>
+			<rom type="file" offset="0x13">THEME.MDI</rom>
+			<rom type="file" offset="0x14">THEME1.MDI</rom>
+			<rom type="file" offset="0x15">THEMEB.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 8: Un Piano Perfetto (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik8_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">BAR.MDI</rom>
+			<rom type="file" offset="0x11">DIACOV.MDI</rom>
+			<rom type="file" offset="0x12">ESE.MDI</rom>
+			<rom type="file" offset="0x13">PST.MDI</rom>
+			<rom type="file" offset="0x14">RICINTRE.MDI</rom>
+			<rom type="file" offset="0x15">ST1.MDI</rom>
+			<rom type="file" offset="0x16">ST2.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 9: A Caro Prezzo (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik9_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.MDI</rom>
+			<rom type="file" offset="0x11">PRELUDE.MDI</rom>
+			<rom type="file" offset="0x12">ST1.MDI</rom>
+			<rom type="file" offset="0x13">ST2.MDI</rom>
+			<rom type="file" offset="0x14">THEME.MDI</rom>
+			<rom type="file" offset="0x15">THEME1.MDI</rom>
+			<rom type="file" offset="0x16">THEMEB1.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Diabolik 11: Inganno Fatale (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="diabolik11_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">ANALISE.MDI</rom>
+			<rom type="file" offset="0x11">ATTEN.MDI</rom>
+			<rom type="file" offset="0x12">INI.MDI</rom>
+			<rom type="file" offset="0x13">PART.MDI</rom>
+			<rom type="file" offset="0x14">ST1.MDI</rom>
+			<rom type="file" offset="0x15">ST2.MDI</rom>
+			<rom type="file" offset="0x16">TEMA.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 1: La Regina delle Tenebre (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog1_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DY1_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DY1_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DY1_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DY1_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DY1_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DY1_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DY1_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DY1_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DY1_M_09.MDI</rom>
+			<rom type="file" offset="0x19">DY1_M_0A.MDI</rom>
+			<rom type="file" offset="0x1A">DY1_M_0B.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 2: Ritorno al Crepuscolo (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DY2_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DY2_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DY2_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DY2_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DY2_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DY2_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DY2_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DY2_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DY2_M_09.MDI</rom>
+			<rom type="file" offset="0x19">DY2_M_0A.MDI</rom>
+			<rom type="file" offset="0x1A">DY2_M_0B.MDI</rom>
+			<rom type="file" offset="0x1B">DY2_M_0C.MDI</rom>
+			<rom type="file" offset="0x1C">DY2_M_0D.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 3: Storia di Nessuno (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DY3_M_01.MDI</rom>
+			<rom type="file" offset="0x11">DY3_M_02.MDI</rom>
+			<rom type="file" offset="0x12">DY3_M_03.MDI</rom>
+			<rom type="file" offset="0x13">DY3_M_04.MDI</rom>
+			<rom type="file" offset="0x14">DY3_M_05.MDI</rom>
+			<rom type="file" offset="0x15">DY3_M_06.MDI</rom>
+			<rom type="file" offset="0x16">DY3_M_07.MDI</rom>
+			<rom type="file" offset="0x17">DY3_M_08.MDI</rom>
+			<rom type="file" offset="0x18">DY3_M_09.MDI</rom>
+			<rom type="file" offset="0x19">DY3_M_0A.MDI</rom>
+			<rom type="file" offset="0x1A">DY3_M_0B.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 4: Ombre (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">ALTARE.MDI</rom>
+			<rom type="file" offset="0x11">GLOBO.MDI</rom>
+			<rom type="file" offset="0x12">INTRO.MDI</rom>
+			<rom type="file" offset="0x13">NICCHIA.MDI</rom>
+			<rom type="file" offset="0x14">OMB.MDI</rom>
+			<rom type="file" offset="0x15">ST1.MDI</rom>
+			<rom type="file" offset="0x16">ST2.MDI</rom>
+			<rom type="file" offset="0x17">VECCHIO.MDI</rom>
+			<rom type="file" offset="0x18">VORTICE.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 5: La Mummia (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">ANUBI.MDI</rom>
+			<rom type="file" offset="0x11">CONV.MDI</rom>
+			<rom type="file" offset="0x12">INTRO.MDI</rom>
+			<rom type="file" offset="0x13">MAGG.MDI</rom>
+			<rom type="file" offset="0x14">MORT.MDI</rom>
+			<rom type="file" offset="0x15">MUMMIA.MDI</rom>
+			<rom type="file" offset="0x16">SFERA.MDI</rom>
+			<rom type="file" offset="0x17">ST1.MDI</rom>
+			<rom type="file" offset="0x18">ST2.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 6: Maelstrom (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog6_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">AFF_PRE.MDI</rom>
+			<rom type="file" offset="0x11">CASA.MDI</rom>
+			<rom type="file" offset="0x12">DIA.MDI</rom>
+			<rom type="file" offset="0x13">ENT.MDI</rom>
+			<rom type="file" offset="0x14">INTRO.MDI</rom>
+			<rom type="file" offset="0x15">KIM.MDI</rom>
+			<rom type="file" offset="0x16">MAT.MDI</rom>
+			<rom type="file" offset="0x17">MOS.MDI</rom>
+			<rom type="file" offset="0x18">MUMMIA.MDI</rom>
+			<rom type="file" offset="0x19">NEO.MDI</rom>
+			<rom type="file" offset="0x1a">PAZZO.MDI</rom>
+			<rom type="file" offset="0x1b">RUOTA.MDI</rom>
+			<rom type="file" offset="0x1c">ST1.MDI</rom>
+			<rom type="file" offset="0x1d">ST2.MDI</rom>
+			<rom type="file" offset="0x1e">STREGA.MDI</rom>
+			<rom type="file" offset="0x1f">S_RI.MDI</rom>
+			<rom type="file" offset="0x20">USC.MDI</rom>
+			<rom type="file" offset="0x21">VEC.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 7: Gente Che Scompare (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog7_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">BLOCH.MDI</rom>
+			<rom type="file" offset="0x11">DYLAN.MDI</rom>
+			<rom type="file" offset="0x12">MELANIE.MDI</rom>
+			<rom type="file" offset="0x13">SAFPOST.MDI</rom>
+			<rom type="file" offset="0x14">SAFPRE.MDI</rom>
+			<rom type="file" offset="0x15">ST1.MDI</rom>
+			<rom type="file" offset="0x16">ST2.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 8: La Clessidra di Pietra (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog8_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">BUG.MDI</rom>
+			<rom type="file" offset="0x11">CLE.MDI</rom>
+			<rom type="file" offset="0x12">FIO.MDI</rom>
+			<rom type="file" offset="0x13">GOM.MDI</rom>
+			<rom type="file" offset="0x14">ST1.MDI</rom>
+			<rom type="file" offset="0x15">ST2.MDI</rom>
+			<rom type="file" offset="0x16">SVE.MDI</rom>
+			<rom type="file" offset="0x17">TDG.MDI</rom>
+			<rom type="file" offset="0x18">VER.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 9: Il Male (and Dylan Dog 11) (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog9_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">AZIONE.MDI</rom>
+			<rom type="file" offset="0x11">FRENES.MDI</rom>
+			<rom type="file" offset="0x12">INFERI.MDI</rom>
+			<rom type="file" offset="0x13">ST1.MDI</rom>
+			<rom type="file" offset="0x14">ST2.MDI</rom>
+			<rom type="file" offset="0x15">TEMA.MDI</rom>
+			<rom type="file" offset="0x16">TENSIO.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog 10: I Vampiri (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandog10_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">DUE.MDI</rom>
+			<rom type="file" offset="0x11">ETER.MDI</rom>
+			<rom type="file" offset="0x12">FRENET.MDI</rom>
+			<rom type="file" offset="0x13">ST1.MDI</rom>
+			<rom type="file" offset="0x14">ST2.MDI</rom>
+			<rom type="file" offset="0x15">TERIT.MDI</rom>
+			<rom type="file" offset="0x16">UNO.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dylan Dog: Gli Uccisori (The Murderers) (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Simulmondo</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dylandogmurd_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">MUSIC1.MDI</rom>
+			<rom type="file" offset="0x11">MUSIC2.MDI</rom>
+			<rom type="file" offset="0x12">MUSIC3.MDI</rom>
+			<rom type="file" offset="0x13">MUSIC4.MDI</rom>
+			<rom type="file" offset="0x14">MUSIC5.MDI</rom>
+			<rom type="file" offset="0x15">MUSIC6.MDI</rom>
+			<rom type="file" offset="0x16">MUSIC7.MDI</rom>
+			<rom type="file" offset="0x17">MUSIC8.MDI</rom>
+			<rom type="file" offset="0x18">MUSIC9.MDI</rom>
+			<rom type="file" offset="0x19">MUSIC10.MDI</rom>
+			<rom type="file" offset="0x1a">MUSIC11.MDI</rom>
+			<rom type="file" offset="0x1b">MUSIC12.MDI</rom>
+			<rom type="file" offset="0x1c">MUSIC13.MDI</rom>
+			<rom type="file" offset="0x1d">MUSIC14.MDI</rom>
+			<rom type="file" offset="0x1e">MUSIC15.MDI</rom>
+			<rom type="file" offset="0x1f">MUSIC16.MDI</rom>
+			<rom type="file" offset="0x20">MUSIC17.MDI</rom>
+			<rom type="file" offset="0x21">MUSIC18.MDI</rom>
+			<rom type="file" offset="0x22">MUSIC19.MDI</rom>
+			<rom type="file" offset="0x23">MUSIC20.MDI</rom>
+			<rom type="file" offset="0x24">MUSIC21.MDI</rom>
+			<rom type="file" offset="0x25">MUSIC22.MDI</rom>
+			<rom type="file" offset="0x26">MUSIC23.MDI</rom>
+			<rom type="file" offset="0x27">MUSIC24.MDI</rom>
+			<rom type="file" offset="0x28">MUSIC25.MDI</rom>
+			<rom type="file" offset="0x29">MUSIC26.MDI</rom>
+			<rom type="file" offset="0x2a">MUSIC27.MDI</rom>
+			<rom type="file" offset="0x2b">MUSIC28.MDI</rom>
+			<rom type="file" offset="0x2c">MUSIC29.MDI</rom>
+			<rom type="file" offset="0x2d">MUSIC30.MDI</rom>
+			<rom type="file" offset="0x2e">MUSIC31.MDI</rom>
+			<rom type="file" offset="0x2f">MUSIC32.MDI</rom>
+			<rom type="file" offset="0x30">MUSIC33.MDI</rom>
+			<rom type="file" offset="0x31">MUSIC36.MDI</rom>
+			<rom type="file" offset="0x32">MUSIC37.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+			<title code="0x2B">Music 28</title>
+			<title code="0x2C">Music 29</title>
+			<title code="0x2D">Music 30</title>
+			<title code="0x2E">Music 31</title>
+			<title code="0x2F">Music 32</title>
+			<title code="0x30">Music 33</title>
+			<title code="0x31">Music 34</title>
+			<title code="0x32">Music 35</title>
+		</titlelist>
+	</game>
+</gamelist>

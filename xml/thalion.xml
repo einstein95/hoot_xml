@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Thalion -->
+	<game>
+		<name>[PC/AT] A320 Airbus (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Thalion</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="a320airbus_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">AIRBUS.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Amberstar (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Thalion</driveralias>
+		<options>
+			<option name="clockmul" value="1"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="amberstar_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">bard.mdi</rom>
+			<rom type="file" offset="0x11">citywalk.mdi</rom>
+			<rom type="file" offset="0x12">dream.mdi</rom>
+			<rom type="file" offset="0x13">eriks.mdi</rom>
+			<rom type="file" offset="0x14">fanfare.mdi</rom>
+			<rom type="file" offset="0x15">flying.mdi</rom>
+			<rom type="file" offset="0x16">funky.mdi</rom>
+			<rom type="file" offset="0x17">gwen.mdi</rom>
+			<rom type="file" offset="0x18">hasta.mdi</rom>
+			<rom type="file" offset="0x19">highseas.mdi</rom>
+			<rom type="file" offset="0x1A">horse.mdi</rom>
+			<rom type="file" offset="0x1B">irish.mdi</rom>
+			<rom type="file" offset="0x1C">lullaby.mdi</rom>
+			<rom type="file" offset="0x1D">lurking.mdi</rom>
+			<rom type="file" offset="0x1E">minor.mdi</rom>
+			<rom type="file" offset="0x1F">misty.mdi</rom>
+			<rom type="file" offset="0x20">mystic.mdi</rom>
+			<rom type="file" offset="0x21">schnism.mdi</rom>
+			<rom type="file" offset="0x22">travell.mdi</rom>
+			<rom type="file" offset="0x23">ende.mdi</rom>
+			<rom type="file" offset="0x24">titel.mdi</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x24">titel</title>
+			<title code="0x10">bard</title>
+			<title code="0x11">citywalk</title>
+			<title code="0x12">dream</title>
+			<title code="0x13">eriks</title>
+			<title code="0x14">fanfare</title>
+			<title code="0x15">flying</title>
+			<title code="0x16">funky</title>
+			<title code="0x17">gwen</title>
+			<title code="0x18">hasta</title>
+			<title code="0x19">highseas</title>
+			<title code="0x1A">horse</title>
+			<title code="0x1B">irish</title>
+			<title code="0x1C">lullaby</title>
+			<title code="0x1D">lurking</title>
+			<title code="0x1E">minor</title>
+			<title code="0x1F">misty</title>
+			<title code="0x20">mystic</title>
+			<title code="0x21">schnism</title>
+			<title code="0x22">travell</title>
+			<title code="0x23">ende</title>
+		</titlelist>
+	</game>
+</gamelist>

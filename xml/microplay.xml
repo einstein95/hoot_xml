@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Microplay -->
+	<game>
+		<name>[PC/AT] Sea Rogue (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Microplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="searogue_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">STANDARD.BNK</rom>
+			<rom type="file" offset="0x10">NEWINTRO.ROL</rom>
+			<rom type="file" offset="0x11">BAHAMAS.ROL</rom>
+			<rom type="file" offset="0x12">COMBAT.ROL</rom>
+			<rom type="file" offset="0x13">EDDYSTHM.ROL</rom>
+			<rom type="file" offset="0x14">HAVANA.ROL</rom>
+			<rom type="file" offset="0x15">HORNPIPE.ROL</rom>
+			<rom type="file" offset="0x16">MEXICO.ROL</rom>
+			<rom type="file" offset="0x17">NEWYORK.ROL</rom>
+			<rom type="file" offset="0x18">PIRATE.ROL</rom>
+			<rom type="file" offset="0x19">TRAVEL.ROL</rom>
+			<rom type="file" offset="0x1A">TRAVEL1.ROL</rom>
+			<rom type="file" offset="0x1B">TRAVEL2.ROL</rom>
+			<rom type="file" offset="0x1C">TRAVEL3.ROL</rom>
+			<rom type="file" offset="0x1D">TRAVEL4.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">NEWINTRO</title>
+			<title code="0x11">BAHAMAS</title>
+			<title code="0x12">COMBAT</title>
+			<title code="0x13">EDDYSTHM</title>
+			<title code="0x14">HAVANA</title>
+			<title code="0x15">HORNPIPE</title>
+			<title code="0x16">MEXICO</title>
+			<title code="0x17">NEWYORK</title>
+			<title code="0x18">PIRATE</title>
+			<title code="0x19">TRAVEL</title>
+			<title code="0x1A">TRAVEL1</title>
+			<title code="0x1B">TRAVEL2</title>
+			<title code="0x1C">TRAVEL3</title>
+			<title code="0x1D">TRAVEL4</title>
+		</titlelist>
+	</game>
+</gamelist>

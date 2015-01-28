@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Psygnosis -->
+	<game>
+		<name>[PC/AT] Armour-Geddon (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="armourgeddon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Armour-Geddon (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="armourgeddon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Armour-Geddon (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="armourgeddon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Bram Stoker's Dracula (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dracula_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">A10.BIN</rom>
+			<rom type="file" offset="0x11">A11.BIN</rom>
+			<rom type="file" offset="0x12">A12.BIN</rom>
+			<rom type="file" offset="0x13">A13.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1200">BGM #07</title>
+			<title code="0x1201">BGM #08</title>
+			<title code="0x1202">BGM #09</title>
+			<title code="0x1203">BGM #10</title>
+			<title code="0x1300">BGM #11</title>
+			<title code="0x1301">BGM #12</title>
+			<title code="0x1302">BGM #13</title>
+			<title code="0x1303">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Bram Stoker's Dracula (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="dracula_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">R10.BIN</rom>
+			<rom type="file" offset="0x11">R11.BIN</rom>
+			<rom type="file" offset="0x12">R12.BIN</rom>
+			<rom type="file" offset="0x13">R13.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1200">BGM #07</title>
+			<title code="0x1201">BGM #08</title>
+			<title code="0x1202">BGM #09</title>
+			<title code="0x1203">BGM #10</title>
+			<title code="0x1300">BGM #11</title>
+			<title code="0x1301">BGM #12</title>
+			<title code="0x1302">BGM #13</title>
+			<title code="0x1303">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Bram Stoker's Dracula (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="dracula_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">R10.BIN</rom>
+			<rom type="file" offset="0x11">R11.BIN</rom>
+			<rom type="file" offset="0x12">R12.BIN</rom>
+			<rom type="file" offset="0x13">R13.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1200">BGM #07</title>
+			<title code="0x1201">BGM #08</title>
+			<title code="0x1202">BGM #09</title>
+			<title code="0x1203">BGM #10</title>
+			<title code="0x1300">BGM #11</title>
+			<title code="0x1301">BGM #12</title>
+			<title code="0x1302">BGM #13</title>
+			<title code="0x1303">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Bram Stoker's Dracula (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="dracula_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">S10.BIN</rom>
+			<rom type="file" offset="0x11">S11.BIN</rom>
+			<rom type="file" offset="0x12">S12.BIN</rom>
+			<rom type="file" offset="0x13">S13.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1200">BGM #07</title>
+			<title code="0x1201">BGM #08</title>
+			<title code="0x1202">BGM #09</title>
+			<title code="0x1203">BGM #10</title>
+			<title code="0x1300">BGM #11</title>
+			<title code="0x1301">BGM #12</title>
+			<title code="0x1302">BGM #13</title>
+			<title code="0x1303">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Bram Stoker's Dracula (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="dracula_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">S10.BIN</rom>
+			<rom type="file" offset="0x11">S11.BIN</rom>
+			<rom type="file" offset="0x12">S12.BIN</rom>
+			<rom type="file" offset="0x13">S13.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1200">BGM #07</title>
+			<title code="0x1201">BGM #08</title>
+			<title code="0x1202">BGM #09</title>
+			<title code="0x1203">BGM #10</title>
+			<title code="0x1300">BGM #11</title>
+			<title code="0x1301">BGM #12</title>
+			<title code="0x1302">BGM #13</title>
+			<title code="0x1303">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Last Action Hero (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="1"/>
+			<option name="opl3_mix" value="0x140"/>
+		</options>
+		<romlist archive="lahero_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVSAMP.BIN</rom>
+			<rom type="file" offset="0x10">SBL0.BIN</rom>
+			<rom type="file" offset="0x11">SBL1.BIN</rom>
+			<rom type="file" offset="0x12">SBL2.BIN</rom>
+			<rom type="file" offset="0x13">SBL3.BIN</rom>
+			<rom type="file" offset="0x14">SBL4.BIN</rom>
+			<rom type="file" offset="0x15">SBL5.BIN</rom>
+			<rom type="file" offset="0x16">SBL6.BIN</rom>
+			<rom type="file" offset="0x17">SBL7.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1104">BGM #07</title>
+			<title code="0x1105">BGM #08</title>
+			<title code="0x1106">BGM #09</title>
+			<title code="0x1107">BGM #10</title>
+			<title code="0x1200">BGM #11</title>
+			<title code="0x1300">BGM #12</title>
+			<title code="0x1400">BGM #13</title>
+			<title code="0x1500">BGM #14</title>
+			<title code="0x1600">BGM #15</title>
+			<title code="0x1700">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Last Action Hero (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="lahero_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">LAPC0.BIN</rom>
+			<rom type="file" offset="0x11">LAPC1.BIN</rom>
+			<rom type="file" offset="0x12">LAPC2.BIN</rom>
+			<rom type="file" offset="0x13">LAPC3.BIN</rom>
+			<rom type="file" offset="0x14">LAPC4.BIN</rom>
+			<rom type="file" offset="0x15">LAPC5.BIN</rom>
+			<rom type="file" offset="0x16">LAPC6.BIN</rom>
+			<rom type="file" offset="0x17">LAPC7.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1104">BGM #07</title>
+			<title code="0x1105">BGM #08</title>
+			<title code="0x1106">BGM #09</title>
+			<title code="0x1107">BGM #10</title>
+			<title code="0x1200">BGM #11</title>
+			<title code="0x1300">BGM #12</title>
+			<title code="0x1400">BGM #13</title>
+			<title code="0x1500">BGM #14</title>
+			<title code="0x1600">BGM #15</title>
+			<title code="0x1700">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Last Action Hero (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="lahero_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">LAPC0.BIN</rom>
+			<rom type="file" offset="0x11">LAPC1.BIN</rom>
+			<rom type="file" offset="0x12">LAPC2.BIN</rom>
+			<rom type="file" offset="0x13">LAPC3.BIN</rom>
+			<rom type="file" offset="0x14">LAPC4.BIN</rom>
+			<rom type="file" offset="0x15">LAPC5.BIN</rom>
+			<rom type="file" offset="0x16">LAPC6.BIN</rom>
+			<rom type="file" offset="0x17">LAPC7.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1104">BGM #07</title>
+			<title code="0x1105">BGM #08</title>
+			<title code="0x1106">BGM #09</title>
+			<title code="0x1107">BGM #10</title>
+			<title code="0x1200">BGM #11</title>
+			<title code="0x1300">BGM #12</title>
+			<title code="0x1400">BGM #13</title>
+			<title code="0x1500">BGM #14</title>
+			<title code="0x1600">BGM #15</title>
+			<title code="0x1700">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Last Action Hero (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="lahero_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">SCC0.BIN</rom>
+			<rom type="file" offset="0x11">SCC1.BIN</rom>
+			<rom type="file" offset="0x12">SCC2.BIN</rom>
+			<rom type="file" offset="0x13">SCC3.BIN</rom>
+			<rom type="file" offset="0x14">SCC4.BIN</rom>
+			<rom type="file" offset="0x15">SCC5.BIN</rom>
+			<rom type="file" offset="0x16">SCC6.BIN</rom>
+			<rom type="file" offset="0x17">SCC7.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1104">BGM #07</title>
+			<title code="0x1105">BGM #08</title>
+			<title code="0x1106">BGM #09</title>
+			<title code="0x1107">BGM #10</title>
+			<title code="0x1200">BGM #11</title>
+			<title code="0x1300">BGM #12</title>
+			<title code="0x1400">BGM #13</title>
+			<title code="0x1500">BGM #14</title>
+			<title code="0x1600">BGM #15</title>
+			<title code="0x1700">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Last Action Hero (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="lahero_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">SCC0.BIN</rom>
+			<rom type="file" offset="0x11">SCC1.BIN</rom>
+			<rom type="file" offset="0x12">SCC2.BIN</rom>
+			<rom type="file" offset="0x13">SCC3.BIN</rom>
+			<rom type="file" offset="0x14">SCC4.BIN</rom>
+			<rom type="file" offset="0x15">SCC5.BIN</rom>
+			<rom type="file" offset="0x16">SCC6.BIN</rom>
+			<rom type="file" offset="0x17">SCC7.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1100">BGM #03</title>
+			<title code="0x1101">BGM #04</title>
+			<title code="0x1102">BGM #05</title>
+			<title code="0x1103">BGM #06</title>
+			<title code="0x1104">BGM #07</title>
+			<title code="0x1105">BGM #08</title>
+			<title code="0x1106">BGM #09</title>
+			<title code="0x1107">BGM #10</title>
+			<title code="0x1200">BGM #11</title>
+			<title code="0x1300">BGM #12</title>
+			<title code="0x1400">BGM #13</title>
+			<title code="0x1500">BGM #14</title>
+			<title code="0x1600">BGM #15</title>
+			<title code="0x1700">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Obitus (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="obitus_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Obitus (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="obitus_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Obitus (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="obitus_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="lemmings_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Awesome</title>
+			<title code="0x11">Beast I</title>
+			<title code="0x12">Beast II</title>
+			<title code="0x13">CanCan</title>
+			<title code="0x14">Doggie</title>
+			<title code="0x15">Lemming 1</title>
+			<title code="0x16">Lemming 2</title>
+			<title code="0x17">Lemming 3</title>
+			<title code="0x18">Menace</title>
+			<title code="0x19">Mountain</title>
+			<title code="0x1A">Ten Lemmings</title>
+			<title code="0x1B">Tim 1</title>
+			<title code="0x1C">Tim 2</title>
+			<title code="0x1D">Tim 3</title>
+			<title code="0x1E">Tim 4</title>
+			<title code="0x1F">Tim 5</title>
+			<title code="0x20">Tim 6</title>
+			<title code="0x21">Tim 7</title>
+			<title code="0x22">Tim 8</title>
+			<title code="0x23">Tim 9</title>
+			<title code="0x24">Tim 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Oh No! More Lemmings (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="onmlemm_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Very cute</title>
+			<title code="0x11">Wacky</title>
+			<title code="0x12">Patronizingly happy</title>
+			<title code="0x13">The smiling blues</title>
+			<title code="0x14">Much joviality</title>
+			<title code="0x15">Not at all serious</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Holiday Lemmings (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="hlemm_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings for Windows 95 (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="16"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="lem95_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">CANCANP.MID</rom>
+			<rom type="file" offset="0x11">LEMMIN1P.MID</rom>
+			<rom type="file" offset="0x12">LEMMIN2P.MID</rom>
+			<rom type="file" offset="0x13">LEMMIN3P.MID</rom>
+			<rom type="file" offset="0x14">MOUNTAIP.MID</rom>
+			<rom type="file" offset="0x15">TENLEMSP.MID</rom>
+			<rom type="file" offset="0x16">TIM1P.MID</rom>
+			<rom type="file" offset="0x17">TIM2P.MID</rom>
+			<rom type="file" offset="0x18">TIM3P.MID</rom>
+			<rom type="file" offset="0x19">TIM4P.MID</rom>
+			<rom type="file" offset="0x1A">TIM5P.MID</rom>
+			<rom type="file" offset="0x1B">TIM6P.MID</rom>
+			<rom type="file" offset="0x1C">TIM7P.MID</rom>
+			<rom type="file" offset="0x1D">TIM8P.MID</rom>
+			<rom type="file" offset="0x1E">TIM9P.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">CanCan</title>
+			<title code="0x11">Lemming 1</title>
+			<title code="0x12">Lemming 2</title>
+			<title code="0x13">Lemming 3</title>
+			<title code="0x14">Mountain</title>
+			<title code="0x15">Ten Lemmings</title>
+			<title code="0x16">Tim 1</title>
+			<title code="0x17">Tim 2</title>
+			<title code="0x18">Tim 3</title>
+			<title code="0x19">Tim 4</title>
+			<title code="0x1A">Tim 5</title>
+			<title code="0x1B">Tim 6</title>
+			<title code="0x1C">Tim 7</title>
+			<title code="0x1D">Tim 8</title>
+			<title code="0x1E">Tim 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings for Windows 95 (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="lem95_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">CANCANP.MID</rom>
+			<rom type="file" offset="0x11">LEMMIN1P.MID</rom>
+			<rom type="file" offset="0x12">LEMMIN2P.MID</rom>
+			<rom type="file" offset="0x13">LEMMIN3P.MID</rom>
+			<rom type="file" offset="0x14">MOUNTAIP.MID</rom>
+			<rom type="file" offset="0x15">TENLEMSP.MID</rom>
+			<rom type="file" offset="0x16">TIM1P.MID</rom>
+			<rom type="file" offset="0x17">TIM2P.MID</rom>
+			<rom type="file" offset="0x18">TIM3P.MID</rom>
+			<rom type="file" offset="0x19">TIM4P.MID</rom>
+			<rom type="file" offset="0x1A">TIM5P.MID</rom>
+			<rom type="file" offset="0x1B">TIM6P.MID</rom>
+			<rom type="file" offset="0x1C">TIM7P.MID</rom>
+			<rom type="file" offset="0x1D">TIM8P.MID</rom>
+			<rom type="file" offset="0x1E">TIM9P.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">CanCan</title>
+			<title code="0x11">Lemming 1</title>
+			<title code="0x12">Lemming 2</title>
+			<title code="0x13">Lemming 3</title>
+			<title code="0x14">Mountain</title>
+			<title code="0x15">Ten Lemmings</title>
+			<title code="0x16">Tim 1</title>
+			<title code="0x17">Tim 2</title>
+			<title code="0x18">Tim 3</title>
+			<title code="0x19">Tim 4</title>
+			<title code="0x1A">Tim 5</title>
+			<title code="0x1B">Tim 6</title>
+			<title code="0x1C">Tim 7</title>
+			<title code="0x1D">Tim 8</title>
+			<title code="0x1E">Tim 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings II: The Tribes (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x100"/>
+		</options>
+		<romlist archive="lemmings2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="13">Music 1</title>
+			<title code="0">Music 2</title>
+			<title code="1">Music 3</title>
+			<title code="2">Music 4</title>
+			<title code="3">Music 5</title>
+			<title code="4">Music 6</title>
+			<title code="5">Music 7</title>
+			<title code="6">Music 8</title>
+			<title code="7">Music 9</title>
+			<title code="8">Music 10</title>
+			<title code="9">Music 11</title>
+			<title code="10">Music 12</title>
+			<title code="11">Music 13</title>
+			<title code="12">Music 14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings II: The Tribes (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="lemmings2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="13">Music 1</title>
+			<title code="0">Music 2</title>
+			<title code="1">Music 3</title>
+			<title code="2">Music 4</title>
+			<title code="3">Music 5</title>
+			<title code="4">Music 6</title>
+			<title code="5">Music 7</title>
+			<title code="6">Music 8</title>
+			<title code="7">Music 9</title>
+			<title code="8">Music 10</title>
+			<title code="9">Music 11</title>
+			<title code="10">Music 12</title>
+			<title code="11">Music 13</title>
+			<title code="12">Music 14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings II: The Tribes (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="lemmings2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="13">Music 1</title>
+			<title code="0">Music 2</title>
+			<title code="1">Music 3</title>
+			<title code="2">Music 4</title>
+			<title code="3">Music 5</title>
+			<title code="4">Music 6</title>
+			<title code="5">Music 7</title>
+			<title code="6">Music 8</title>
+			<title code="7">Music 9</title>
+			<title code="8">Music 10</title>
+			<title code="9">Music 11</title>
+			<title code="10">Music 12</title>
+			<title code="11">Music 13</title>
+			<title code="12">Music 14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings Paintball (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="16"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="lempaintball_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">GMRESET.COM</rom>
+			<rom type="file" offset="9">MID.DRV</rom>
+			<rom type="file" offset="0x10">MARIMBA.MID</rom>
+			<rom type="file" offset="0x11">MOODY1.MID</rom>
+			<rom type="file" offset="0x12">MOODY2.MID</rom>
+			<rom type="file" offset="0x13">NICE1.MID</rom>
+			<rom type="file" offset="0x14">NICE2.MID</rom>
+			<rom type="file" offset="0x15">NICEMOOD.MID</rom>
+			<rom type="file" offset="0x16">SONGX.MID</rom>
+			<rom type="file" offset="0x17">SPDBASS.MID</rom>
+			<rom type="file" offset="0x18">SWINGY.MID</rom>
+			<rom type="file" offset="0x19">YIDDER.MID</rom>
+			<rom type="shell" offset="0">GMRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MARIMBA</title>
+			<title code="0x11">MOODY1</title>
+			<title code="0x12">MOODY2</title>
+			<title code="0x13">NICE1</title>
+			<title code="0x14">NICE2</title>
+			<title code="0x15">NICEMOOD</title>
+			<title code="0x16">SONGX</title>
+			<title code="0x17">SPDBASS</title>
+			<title code="0x18">SWINGY</title>
+			<title code="0x19">YIDDER</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings Paintball (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="lempaintball_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MID.DRV</rom>
+			<rom type="file" offset="0x10">MARIMBA.MID</rom>
+			<rom type="file" offset="0x11">MOODY1.MID</rom>
+			<rom type="file" offset="0x12">MOODY2.MID</rom>
+			<rom type="file" offset="0x13">NICE1.MID</rom>
+			<rom type="file" offset="0x14">NICE2.MID</rom>
+			<rom type="file" offset="0x15">NICEMOOD.MID</rom>
+			<rom type="file" offset="0x16">SONGX.MID</rom>
+			<rom type="file" offset="0x17">SPDBASS.MID</rom>
+			<rom type="file" offset="0x18">SWINGY.MID</rom>
+			<rom type="file" offset="0x19">YIDDER.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MARIMBA</title>
+			<title code="0x11">MOODY1</title>
+			<title code="0x12">MOODY2</title>
+			<title code="0x13">NICE1</title>
+			<title code="0x14">NICE2</title>
+			<title code="0x15">NICEMOOD</title>
+			<title code="0x16">SONGX</title>
+			<title code="0x17">SPDBASS</title>
+			<title code="0x18">SWINGY</title>
+			<title code="0x19">YIDDER</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lemmings 3D (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="16"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="lemmings3d_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/GM0.BIN</rom>
+			<rom type="file" offset="0x10">GM/GMTITLE1.SND</rom>
+			<rom type="file" offset="0x11">GM/GMTITLE2.SND</rom>
+			<rom type="file" offset="0x12">GM/GMARMY1.SND</rom>
+			<rom type="file" offset="0x13">GM/GMARMY2.SND</rom>
+			<rom type="file" offset="0x14">GM/GMARMY3.SND</rom>
+			<rom type="file" offset="0x15">GM/GMGARD1.SND</rom>
+			<rom type="file" offset="0x16">GM/GMGARD2.SND</rom>
+			<rom type="file" offset="0x17">GM/GMGARD3.SND</rom>
+			<rom type="file" offset="0x18">GM/GMCIRC1.SND</rom>
+			<rom type="file" offset="0x19">GM/GMCIRC2.SND</rom>
+			<rom type="file" offset="0x1A">GM/GMCIRC3.SND</rom>
+			<rom type="file" offset="0x1B">GM/GMCOMP1.SND</rom>
+			<rom type="file" offset="0x1C">GM/GMCOMP2.SND</rom>
+			<rom type="file" offset="0x1D">GM/GMCOMP3.SND</rom>
+			<rom type="file" offset="0x1E">GM/GMEGYPT1.SND</rom>
+			<rom type="file" offset="0x1F">GM/GMEGYPT2.SND</rom>
+			<rom type="file" offset="0x20">GM/GMEGYPT3.SND</rom>
+			<rom type="file" offset="0x21">GM/GMALIEN1.SND</rom>
+			<rom type="file" offset="0x22">GM/GMALIEN2.SND</rom>
+			<rom type="file" offset="0x23">GM/GMALIEN3.SND</rom>
+			<rom type="file" offset="0x24">GM/GMGOLF1.SND</rom>
+			<rom type="file" offset="0x25">GM/GMGOLF2.SND</rom>
+			<rom type="file" offset="0x26">GM/GMGOLF3.SND</rom>
+			<rom type="file" offset="0x27">GM/GMMEDI1.SND</rom>
+			<rom type="file" offset="0x28">GM/GMMEDI2.SND</rom>
+			<rom type="file" offset="0x29">GM/GMMEDI3.SND</rom>
+			<rom type="file" offset="0x2a">GM/GMLEGO1.SND</rom>
+			<rom type="file" offset="0x2b">GM/GMLEGO2.SND</rom>
+			<rom type="file" offset="0x2c">GM/GMLEGO3.SND</rom>
+			<rom type="file" offset="0x2d">GM/GMSWEET1.SND</rom>
+			<rom type="file" offset="0x2e">GM/GMSWEET2.SND</rom>
+			<rom type="file" offset="0x2f">GM/GMSWEET3.SND</rom>
+			<rom type="file" offset="0x30">GM/GMFUN.SND</rom>
+			<rom type="file" offset="0x31">GM/GMTRICKY.SND</rom>
+			<rom type="file" offset="0x32">GM/GMTAXING.SND</rom>
+			<rom type="file" offset="0x33">GM/GMMAYHEM.SND</rom>
+			<rom type="file" offset="0x34">GM/GMJING1.SND</rom>
+			<rom type="file" offset="0x35">GM/GMJING2.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+			<title code="0x1100">Title (no intro)</title>
+			<title code="0x1200">Army - BGM 1</title>
+			<title code="0x1300">Army - BGM 2</title>
+			<title code="0x1400">Army - BGM 3</title>
+			<title code="0x1500">Garden - BGM 1</title>
+			<title code="0x1600">Garden - BGM 2</title>
+			<title code="0x1700">Garden - BGM 3</title>
+			<title code="0x1800">Circus - BGM 1</title>
+			<title code="0x1900">Circus - BGM 2</title>
+			<title code="0x1A00">Circus - BGM 3</title>
+			<title code="0x1B00">Computer Zone - BGM 1</title>
+			<title code="0x1C00">Computer Zone - BGM 2</title>
+			<title code="0x1D00">Computer Zone - BGM 3</title>
+			<title code="0x1E00">Egypt - BGM 1</title>
+			<title code="0x1F00">Egypt - BGM 2</title>
+			<title code="0x2000">Egypt - BGM 3</title>
+			<title code="0x2100">Alien - BGM 1</title>
+			<title code="0x2200">Alien - BGM 2</title>
+			<title code="0x2300">Alien - BGM 3</title>
+			<title code="0x2400">Golf - BGM 1</title>
+			<title code="0x2500">Golf - BGM 2</title>
+			<title code="0x2600">Golf - BGM 3</title>
+			<title code="0x2700">Medieval - BGM 1</title>
+			<title code="0x2800">Medieval - BGM 2</title>
+			<title code="0x2900">Medieval - BGM 3</title>
+			<title code="0x2a00">Lego - BGM 1</title>
+			<title code="0x2b00">Lego - BGM 2</title>
+			<title code="0x2c00">Lego - BGM 3</title>
+			<title code="0x2d00">Sweet Land - BGM 1</title>
+			<title code="0x2e00">Sweet Land - BGM 2</title>
+			<title code="0x2f00">Sweet Land - BGM 3</title>
+			<title code="0x3000">Fun Rating Jingle</title>
+			<title code="0x3100">Tricky Rating Jingle</title>
+			<title code="0x3200">Taxing Rating Jingle</title>
+			<title code="0x3300">Mayhem Rating Jingle</title>
+			<title code="0x3400">Success</title>
+			<title code="0x3500">Failed</title>
+		</titlelist>
+	</game>
+  <game>
+		<name>[PC/AT] Pyrotechnica (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="pyrotechnica_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/GM.BIN</rom>
+			<rom type="file" offset="0x10">SCC1/PYROINTR.SND</rom>
+			<rom type="file" offset="0x11">SCC1/PYROTITL.SND</rom>
+			<rom type="file" offset="0x12">SCC1/PYROOPT.SND</rom>
+			<rom type="file" offset="0x13">SCC1/PYRO1.SND</rom>
+			<rom type="file" offset="0x14">SCC1/PYRO2.SND</rom>
+			<rom type="file" offset="0x15">SCC1/PYRO3.SND</rom>
+			<rom type="file" offset="0x16">SCC1/PYRO4.SND</rom>
+			<rom type="file" offset="0x17">SCC1/PYRO5.SND</rom>
+			<rom type="file" offset="0x18">SCC1/PYRO6.SND</rom>
+			<rom type="file" offset="0x19">SCC1/PYRO7.SND</rom>
+			<rom type="file" offset="0x1A">SCC1/PYRO8.SND</rom>
+			<rom type="file" offset="0x1B">SCC1/PYRO9.SND</rom>
+			<rom type="file" offset="0x1C">SCC1/PYRO10.SND</rom>
+			<rom type="file" offset="0x1D">SCC1/PYROSCOR.SND</rom>
+			<rom type="file" offset="0x1E">SCC1/AMBY1.SND</rom>
+			<rom type="file" offset="0x1F">SCC1/AMBY2.SND</rom>
+			<rom type="file" offset="0x20">SCC1/AMBY3.SND</rom>
+			<rom type="file" offset="0x21">SCC1/AMBY4.SND</rom>
+			<rom type="file" offset="0x22">SCC1/AMBY5.SND</rom>
+			<rom type="file" offset="0x23">SCC1/END.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Title</title>
+			<title code="0x1200">Option</title>
+			<title code="0x1300">Ingame - BGM 1</title>
+			<title code="0x1400">Ingame - BGM 2</title>
+			<title code="0x1500">Ingame - BGM 3</title>
+			<title code="0x1600">Ingame - BGM 4</title>
+			<title code="0x1700">Ingame - BGM 5</title>
+			<title code="0x1800">Ingame - BGM 6</title>
+			<title code="0x1900">Ingame - BGM 7</title>
+			<title code="0x1A00">Ingame - BGM 8</title>
+			<title code="0x1B00">Ingame - BGM 9</title>
+			<title code="0x1C00">Ingame - BGM 10</title>
+			<title code="0x1D00">Score</title>
+			<title code="0x1E00">Ambience 1</title>
+			<title code="0x1F00">Ambience 2</title>
+			<title code="0x2000">Ambience 3</title>
+			<title code="0x2100">Ambience 4</title>
+			<title code="0x2200">Ambience 5</title>
+			<title code="0x2300">End</title>
+		</titlelist>
+	</game>
+
+	<game>
+		<name>[PC/AT] Pyrotechnica (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="pyrotechnica_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/LAPC.BIN</rom>
+			<rom type="file" offset="0x10">LAPC/PYROINTR.SND</rom>
+			<rom type="file" offset="0x11">LAPC/PYROTITL.SND</rom>
+			<rom type="file" offset="0x12">LAPC/PYROOPT.SND</rom>
+			<rom type="file" offset="0x13">LAPC/PYRO1.SND</rom>
+			<rom type="file" offset="0x14">LAPC/PYRO2.SND</rom>
+			<rom type="file" offset="0x15">LAPC/PYRO3.SND</rom>
+			<rom type="file" offset="0x16">LAPC/PYRO4.SND</rom>
+			<rom type="file" offset="0x17">LAPC/PYRO5.SND</rom>
+			<rom type="file" offset="0x18">LAPC/PYRO6.SND</rom>
+			<rom type="file" offset="0x19">LAPC/PYRO7.SND</rom>
+			<rom type="file" offset="0x1A">LAPC/PYRO8.SND</rom>
+			<rom type="file" offset="0x1B">LAPC/PYRO9.SND</rom>
+			<rom type="file" offset="0x1C">LAPC/PYRO10.SND</rom>
+			<rom type="file" offset="0x1D">LAPC/PYROSCOR.SND</rom>
+			<rom type="file" offset="0x1E">LAPC/AMBY1.SND</rom>
+			<rom type="file" offset="0x1F">LAPC/AMBY2.SND</rom>
+			<rom type="file" offset="0x20">LAPC/AMBY3.SND</rom>
+			<rom type="file" offset="0x21">LAPC/AMBY4.SND</rom>
+			<rom type="file" offset="0x22">LAPC/AMBY5.SND</rom>
+			<rom type="file" offset="0x23">LAPC/ENDGAME.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Title</title>
+			<title code="0x1200">Option</title>
+			<title code="0x1300">Ingame - BGM 1</title>
+			<title code="0x1400">Ingame - BGM 2</title>
+			<title code="0x1500">Ingame - BGM 3</title>
+			<title code="0x1600">Ingame - BGM 4</title>
+			<title code="0x1700">Ingame - BGM 5</title>
+			<title code="0x1800">Ingame - BGM 6</title>
+			<title code="0x1900">Ingame - BGM 7</title>
+			<title code="0x1A00">Ingame - BGM 8</title>
+			<title code="0x1B00">Ingame - BGM 9</title>
+			<title code="0x1C00">Ingame - BGM 10</title>
+			<title code="0x1D00">Score</title>
+			<title code="0x1E00">Ambience 1</title>
+			<title code="0x1F00">Ambience 2</title>
+			<title code="0x2000">Ambience 3</title>
+			<title code="0x2100">Ambience 4</title>
+			<title code="0x2200">Ambience 5</title>
+			<title code="0x2300">End</title>
+		</titlelist>
+	</game>
+
+         <game>
+		<name>[PC/AT] Pyrotechnica (SoundBlaster)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x200"/>
+		</options>
+		<romlist archive="pyrotechnica_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/SBL.BIN</rom>
+			<rom type="file" offset="0x10">SBL/PYROINTR.SND</rom>
+			<rom type="file" offset="0x11">SBL/PYROTITL.SND</rom>
+			<rom type="file" offset="0x12">SBL/PYROOPT.SND</rom>
+			<rom type="file" offset="0x13">SBL/PYRO1.SND</rom>
+			<rom type="file" offset="0x14">SBL/PYRO2.SND</rom>
+			<rom type="file" offset="0x15">SBL/PYRO3.SND</rom>
+			<rom type="file" offset="0x16">SBL/PYRO4.SND</rom>
+			<rom type="file" offset="0x17">SBL/PYRO5.SND</rom>
+			<rom type="file" offset="0x18">SBL/PYRO6.SND</rom>
+			<rom type="file" offset="0x19">SBL/PYRO7.SND</rom>
+			<rom type="file" offset="0x1A">SBL/PYRO8.SND</rom>
+			<rom type="file" offset="0x1B">SBL/PYRO9.SND</rom>
+			<rom type="file" offset="0x1C">SBL/PYRO10.SND</rom>
+			<rom type="file" offset="0x1D">SBL/PYROSCOR.SND</rom>
+			<rom type="file" offset="0x1E">SBL/AMBY1.SND</rom>
+			<rom type="file" offset="0x1F">SBL/AMBY2.SND</rom>
+			<rom type="file" offset="0x20">SBL/AMBY3.SND</rom>
+			<rom type="file" offset="0x21">SBL/AMBY4.SND</rom>
+			<rom type="file" offset="0x22">SBL/AMBY5.SND</rom>
+			<rom type="file" offset="0x23">SBL/ENDGAME.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Title</title>
+			<title code="0x1200">Option</title>
+			<title code="0x1300">Ingame - BGM 1</title>
+			<title code="0x1400">Ingame - BGM 2</title>
+			<title code="0x1500">Ingame - BGM 3</title>
+			<title code="0x1600">Ingame - BGM 4</title>
+			<title code="0x1700">Ingame - BGM 5</title>
+			<title code="0x1800">Ingame - BGM 6</title>
+			<title code="0x1900">Ingame - BGM 7</title>
+			<title code="0x1A00">Ingame - BGM 8</title>
+			<title code="0x1B00">Ingame - BGM 9</title>
+			<title code="0x1C00">Ingame - BGM 10</title>
+			<title code="0x1D00">Score</title>
+			<title code="0x1E00">Ambience 1</title>
+			<title code="0x1F00">Ambience 2</title>
+			<title code="0x2000">Ambience 3</title>
+			<title code="0x2100">Ambience 4</title>
+			<title code="0x2200">Ambience 5</title>
+			<title code="0x2300">End</title>
+		</titlelist>
+	</game>
+	
+	<game>
+		<name>[PC/AT] Pyrotechnica (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="pyrotechnica_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/LAPC.BIN</rom>
+			<rom type="file" offset="0x10">LAPC/PYROINTR.SND</rom>
+			<rom type="file" offset="0x11">LAPC/PYROTITL.SND</rom>
+			<rom type="file" offset="0x12">LAPC/PYROOPT.SND</rom>
+			<rom type="file" offset="0x13">LAPC/PYRO1.SND</rom>
+			<rom type="file" offset="0x14">LAPC/PYRO2.SND</rom>
+			<rom type="file" offset="0x15">LAPC/PYRO3.SND</rom>
+			<rom type="file" offset="0x16">LAPC/PYRO4.SND</rom>
+			<rom type="file" offset="0x17">LAPC/PYRO5.SND</rom>
+			<rom type="file" offset="0x18">LAPC/PYRO6.SND</rom>
+			<rom type="file" offset="0x19">LAPC/PYRO7.SND</rom>
+			<rom type="file" offset="0x1A">LAPC/PYRO8.SND</rom>
+			<rom type="file" offset="0x1B">LAPC/PYRO9.SND</rom>
+			<rom type="file" offset="0x1C">LAPC/PYRO10.SND</rom>
+			<rom type="file" offset="0x1D">LAPC/PYROSCOR.SND</rom>
+			<rom type="file" offset="0x1E">LAPC/AMBY1.SND</rom>
+			<rom type="file" offset="0x1F">LAPC/AMBY2.SND</rom>
+			<rom type="file" offset="0x20">LAPC/AMBY3.SND</rom>
+			<rom type="file" offset="0x21">LAPC/AMBY4.SND</rom>
+			<rom type="file" offset="0x22">LAPC/AMBY5.SND</rom>
+			<rom type="file" offset="0x23">LAPC/ENDGAME.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Title</title>
+			<title code="0x1200">Option</title>
+			<title code="0x1300">Ingame - BGM 1</title>
+			<title code="0x1400">Ingame - BGM 2</title>
+			<title code="0x1500">Ingame - BGM 3</title>
+			<title code="0x1600">Ingame - BGM 4</title>
+			<title code="0x1700">Ingame - BGM 5</title>
+			<title code="0x1800">Ingame - BGM 6</title>
+			<title code="0x1900">Ingame - BGM 7</title>
+			<title code="0x1A00">Ingame - BGM 8</title>
+			<title code="0x1B00">Ingame - BGM 9</title>
+			<title code="0x1C00">Ingame - BGM 10</title>
+			<title code="0x1D00">Score</title>
+			<title code="0x1E00">Ambience 1</title>
+			<title code="0x1F00">Ambience 2</title>
+			<title code="0x2000">Ambience 3</title>
+			<title code="0x2100">Ambience 4</title>
+			<title code="0x2200">Ambience 5</title>
+			<title code="0x2300">End</title>
+		</titlelist>
+	</game>
+  <game>
+		<name>[PC/AT] Pyrotechnica (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="pyrotechnica_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVERS/GRAV.BIN</rom>
+			<rom type="file" offset="0x10">GRAV/PYROINTR.SND</rom>
+			<rom type="file" offset="0x11">GRAV/PYROTITL.SND</rom>
+			<rom type="file" offset="0x12">GRAV/PYROOPT.SND</rom>
+			<rom type="file" offset="0x13">GRAV/PYRO1.SND</rom>
+			<rom type="file" offset="0x14">GRAV/PYRO2.SND</rom>
+			<rom type="file" offset="0x15">GRAV/PYRO3.SND</rom>
+			<rom type="file" offset="0x16">GRAV/PYRO4.SND</rom>
+			<rom type="file" offset="0x17">GRAV/PYRO5.SND</rom>
+			<rom type="file" offset="0x18">GRAV/PYRO6.SND</rom>
+			<rom type="file" offset="0x19">GRAV/PYRO7.SND</rom>
+			<rom type="file" offset="0x1A">GRAV/PYRO8.SND</rom>
+			<rom type="file" offset="0x1B">GRAV/PYRO9.SND</rom>
+			<rom type="file" offset="0x1C">GRAV/PYRO10.SND</rom>
+			<rom type="file" offset="0x1D">GRAV/PYROSCOR.SND</rom>
+			<rom type="file" offset="0x1E">GRAV/AMBY1.SND</rom>
+			<rom type="file" offset="0x1F">GRAV/AMBY2.SND</rom>
+			<rom type="file" offset="0x20">GRAV/AMBY3.SND</rom>
+			<rom type="file" offset="0x21">GRAV/AMBY4.SND</rom>
+			<rom type="file" offset="0x22">GRAV/AMBY5.SND</rom>
+			<rom type="file" offset="0x23">GRAV/ENDGAME.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Title</title>
+			<title code="0x1200">Option</title>
+			<title code="0x1300">Ingame - BGM 1</title>
+			<title code="0x1400">Ingame - BGM 2</title>
+			<title code="0x1500">Ingame - BGM 3</title>
+			<title code="0x1600">Ingame - BGM 4</title>
+			<title code="0x1700">Ingame - BGM 5</title>
+			<title code="0x1800">Ingame - BGM 6</title>
+			<title code="0x1900">Ingame - BGM 7</title>
+			<title code="0x1A00">Ingame - BGM 8</title>
+			<title code="0x1B00">Ingame - BGM 9</title>
+			<title code="0x1C00">Ingame - BGM 10</title>
+			<title code="0x1D00">Score</title>
+			<title code="0x1E00">Ambience 1</title>
+			<title code="0x1F00">Ambience 2</title>
+			<title code="0x2000">Ambience 3</title>
+			<title code="0x2100">Ambience 4</title>
+			<title code="0x2200">Ambience 5</title>
+			<title code="0x2300">End</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Theatre of Death (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="theatreofdeath_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB0.BIN</rom>
+			<rom type="file" offset="0x11">ADLIB1.BIN</rom>
+			<rom type="file" offset="0x12">ADLIB2.BIN</rom>
+			<rom type="file" offset="0x13">ADLIB3.BIN</rom>
+			<rom type="file" offset="0x14">ADLIB4.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1100">Music 5</title>
+			<title code="0x1200">Music 6</title>
+			<title code="0x1300">Music 7</title>
+			<title code="0x1400">Music 8</title>
+			<title code="0x1401">Music 9</title>
+			<title code="0x1402">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Theatre of Death (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="theatreofdeath_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">LAPC0.BIN</rom>
+			<rom type="file" offset="0x11">LAPC1.BIN</rom>
+			<rom type="file" offset="0x12">LAPC2.BIN</rom>
+			<rom type="file" offset="0x13">LAPC3.BIN</rom>
+			<rom type="file" offset="0x14">LAPC4.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1100">Music 5</title>
+			<title code="0x1200">Music 6</title>
+			<title code="0x1300">Music 7</title>
+			<title code="0x1400">Music 8</title>
+			<title code="0x1401">Music 9</title>
+			<title code="0x1402">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Theatre of Death (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="theatreofdeath_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">LAPC0.BIN</rom>
+			<rom type="file" offset="0x11">LAPC1.BIN</rom>
+			<rom type="file" offset="0x12">LAPC2.BIN</rom>
+			<rom type="file" offset="0x13">LAPC3.BIN</rom>
+			<rom type="file" offset="0x14">LAPC4.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1100">Music 5</title>
+			<title code="0x1200">Music 6</title>
+			<title code="0x1300">Music 7</title>
+			<title code="0x1400">Music 8</title>
+			<title code="0x1401">Music 9</title>
+			<title code="0x1402">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Theatre of Death (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="theatreofdeath_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">SCC0.BIN</rom>
+			<rom type="file" offset="0x11">SCC1.BIN</rom>
+			<rom type="file" offset="0x12">SCC2.BIN</rom>
+			<rom type="file" offset="0x13">SCC3.BIN</rom>
+			<rom type="file" offset="0x14">SCC4.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1100">Music 5</title>
+			<title code="0x1200">Music 6</title>
+			<title code="0x1300">Music 7</title>
+			<title code="0x1400">Music 8</title>
+			<title code="0x1401">Music 9</title>
+			<title code="0x1402">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Theatre of Death (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Psygnosis</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="theatreofdeath_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">GUS0.BIN</rom>
+			<rom type="file" offset="0x11">GUS1.BIN</rom>
+			<rom type="file" offset="0x12">GUS2.BIN</rom>
+			<rom type="file" offset="0x13">GUS3.BIN</rom>
+			<rom type="file" offset="0x14">GUS4.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1100">Music 5</title>
+			<title code="0x1200">Music 6</title>
+			<title code="0x1300">Music 7</title>
+			<title code="0x1400">Music 8</title>
+			<title code="0x1401">Music 9</title>
+			<title code="0x1402">Music 10</title>
+		</titlelist>
+	</game>
+</gamelist>

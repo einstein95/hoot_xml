@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Neo Software -->
+	<game>
+		<name>[PC/AT] The Clue! (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Neo Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="clue_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">HSC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.HSC</rom>
+			<rom type="file" offset="0x11">BAR1.HSC</rom>
+			<rom type="file" offset="0x12">BAR2.HSC</rom>
+			<rom type="file" offset="0x13">BRUCH1.HSC</rom>
+			<rom type="file" offset="0x14">BRUCH2.HSC</rom>
+			<rom type="file" offset="0x15">CARS.HSC</rom>
+			<rom type="file" offset="0x16">DEALER.HSC</rom>
+			<rom type="file" offset="0x17">END.HSC</rom>
+			<rom type="file" offset="0x18">FAHNDUNG.HSC</rom>
+			<rom type="file" offset="0x19">FAILED.HSC</rom>
+			<rom type="file" offset="0x1A">OK.HSC</rom>
+			<rom type="file" offset="0x1B">FINAL.HSC</rom>
+			<rom type="file" offset="0x1C">GLUDO.HSC</rom>
+			<rom type="file" offset="0x1D">HOTEL.HSC</rom>
+			<rom type="file" offset="0x1E">INVEST.HSC</rom>
+			<rom type="file" offset="0x1F">MALOYA.HSC</rom>
+			<rom type="file" offset="0x20">PARKER.HSC</rom>
+			<rom type="file" offset="0x21">SABIEN.HSC</rom>
+			<rom type="file" offset="0x22">SHOP.HSC</rom>
+			<rom type="file" offset="0x23">STREET1.HSC</rom>
+			<rom type="file" offset="0x24">STREET2.HSC</rom>
+			<rom type="file" offset="0x25">STREET3.HSC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+			<title code="0x11">Bar 1</title>
+			<title code="0x12">Bar 2</title>
+			<title code="0x13">Burglary starts...</title>
+			<title code="0x14">Burglary is running...</title>
+			<title code="0x15">At Cars and Vans'</title>
+			<title code="0x16">At Pooly's</title>
+			<title code="0x17">Lonely in Southampton</title>
+			<title code="0x18">At the Police...</title>
+			<title code="0x19">Failed...</title>
+			<title code="0x1A">Victory...</title>
+			<title code="0x1B">The Clou!...</title>
+			<title code="0x1C">Gludo's Theme</title>
+			<title code="0x1D">At the Hotel</title>
+			<title code="0x1E">You investigate</title>
+			<title code="0x1F">At Maloya's</title>
+			<title code="0x20">At Parker's</title>
+			<title code="0x21">Sabien's Theme</title>
+			<title code="0x22">Tools Shop</title>
+			<title code="0x23">The Streets 1</title>
+			<title code="0x24">The Streets 2</title>
+			<title code="0x25">The Streets 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whale's Voyage (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Neo Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="wvoyage_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="8">HSN.BIN</rom>
+			<rom type="file" offset="9">HSC.BIN</rom>
+			<rom type="file" offset="0x10">NEOINTRO.HSC</rom>
+			<rom type="file" offset="0x11">SELECT.HSC</rom>
+			<rom type="file" offset="0x12">INTRO.HSC</rom>
+			<rom type="file" offset="0x13">WVCHRED.HSN</rom>
+			<rom type="file" offset="0x14">SPACEBAT.HSC</rom>
+			<rom type="file" offset="0x15">OUTRO.HSC</rom>
+			<rom type="file" offset="0x16">EMPTYNES.HSC</rom>
+			<rom type="file" offset="0x17">PLTHEME0.HSC</rom>
+			<rom type="file" offset="0x18">PLTHEME1.HSC</rom>
+			<rom type="file" offset="0x19">PLTHEME2.HSC</rom>
+			<rom type="file" offset="0x1A">PLTHEME3.HSC</rom>
+			<rom type="file" offset="0x1B">PLTHEME4.HSC</rom>
+			<rom type="file" offset="0x1C">PLTHEME5.HSC</rom>
+			<rom type="file" offset="0x1D">PLTHEME6.HSC</rom>
+			<rom type="file" offset="0x1E">PLTHEME7.HSC</rom>
+			<rom type="file" offset="0x1F">FIGHT.HSC</rom>
+			<rom type="file" offset="0x20">WVBOMBE.HSC</rom>
+			<rom type="file" offset="0x21">WVGLIDER.HSC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">NEO Title Remix</title>
+			<title code="0x1100">BootMusic</title>
+			<title code="0x1200">The Whale's Scream</title>
+			<title code="0x1301">Character Editor</title>
+			<title code="0x1400">Space Battle</title>
+			<title code="0x1500">Fantasy</title>
+			<title code="0x1600">Painful Emptyness</title>
+			<title code="0x1700">Lapis</title>
+			<title code="0x1800">Arboris</title>
+			<title code="0x1900">Castra</title>
+			<title code="0x1A00">Sky Boulevard</title>
+			<title code="0x1B00">Nedax</title>
+			<title code="0x1C00">Louis 17</title>
+			<title code="0x1D00">Inoid</title>
+			<title code="0x1E00">Lost Spaceship</title>
+			<title code="0x1F00">It's Battle Time</title>
+			<title code="0x2000">The Bomb is started</title>
+			<title code="0x2100">Glider</title>
+		</titlelist>
+	</game>
+</gamelist>

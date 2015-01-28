@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Epyx -->
+	<game>
+		<name>[PC/AT] Chip's Challenge (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epyx</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="chipschallenge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0">Music 1</title>
+			<title code="1">Music 2</title>
+			<title code="2">Music 3</title>
+			<title code="3">Music 4</title>
+			<title code="4">Music 5</title>
+			<title code="5">Music 6</title>
+			<title code="6">Music 7</title>
+			<title code="7">Music 8</title>
+			<title code="8">Music 9</title>
+			<title code="9">Music 10</title>
+			<title code="10">Music 11</title>
+			<title code="11">Music 12</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Chip's Challenge (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Epyx</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="chipschallenge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0">Music 1</title>
+			<title code="1">Music 2</title>
+			<title code="2">Music 3</title>
+			<title code="3">Music 4</title>
+			<title code="4">Music 5</title>
+			<title code="5">Music 6</title>
+			<title code="6">Music 7</title>
+			<title code="7">Music 8</title>
+			<title code="8">Music 9</title>
+			<title code="9">Music 10</title>
+			<title code="10">Music 11</title>
+			<title code="11">Music 12</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Chip's Challenge (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Epyx</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="chipschallenge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0">Music 1</title>
+			<title code="1">Music 2</title>
+			<title code="2">Music 3</title>
+			<title code="3">Music 4</title>
+			<title code="4">Music 5</title>
+			<title code="5">Music 6</title>
+			<title code="6">Music 7</title>
+			<title code="7">Music 8</title>
+			<title code="8">Music 9</title>
+			<title code="9">Music 10</title>
+			<title code="10">Music 11</title>
+			<title code="11">Music 12</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Flair -->
+	<game>
+		<name>[PC/AT] Dangerous Streets (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dangstreets_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">HSC.BIN</rom>
+			<rom type="file" offset="0x10">INIT.HSC</rom>
+			<rom type="file" offset="0x11">CASCATA.HSC</rom>
+			<rom type="file" offset="0x12">CASTEL.HSC</rom>
+			<rom type="file" offset="0x13">CITTA.HSC</rom>
+			<rom type="file" offset="0x14">DANGER4.HSC</rom>
+			<rom type="file" offset="0x15">DANGER5.HSC</rom>
+			<rom type="file" offset="0x16">FINE.HSC</rom>
+			<rom type="file" offset="0x17">NEW1.HSC</rom>
+			<rom type="file" offset="0x18">NEW2.HSC</rom>
+			<rom type="file" offset="0x19">NEW3.HSC</rom>
+			<rom type="file" offset="0x1A">PUB.HSC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x3210">INIT</title>
+			<title code="0x1911">CASCATA</title>
+			<title code="0x1912">CASTEL (buggy! you need to start it twice)</title>
+			<title code="0x1913">CITTA</title>
+			<title code="0x1914">DANGER4</title>
+			<title code="0x1915">DANGER5</title>
+			<title code="0x3216">FINE</title>
+			<title code="0x1917">NEW1</title>
+			<title code="0x1918">NEW2</title>
+			<title code="0x1919">NEW3</title>
+			<title code="0x191A">PUB</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira: The Arcade Game (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="elviraarc_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MDI.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.MDI</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Euro Soccer (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="eurosoccer_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">CUSTOM1.BIN</rom>
+			<rom type="file" offset="0x11">CUSTOM2.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1103">Music 1</title>
+			<title code="0x1002">Music 2</title>
+			<title code="0x1000">Music 3</title>
+			<title code="0x1101">Music 4</title>
+			<title code="0x1104">Music 5</title>
+			<title code="0x1105">Music 6</title>
+			<title code="0x1106">Music 7</title>
+			<title code="0x1107">Music 8</title>
+			<title code="0x1108">Music 9</title>
+			<title code="0x1109">Music 10</title>
+			<title code="0x110A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Oscar (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="oscar_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="8">CUSTOM.BIN</rom>
+			<rom type="file" offset="9">HSC.BIN</rom>
+			<rom type="file" offset="0x10">ALIENS.HSC</rom>
+			<rom type="file" offset="0x11">CARTOON.HSC</rom>
+			<rom type="file" offset="0x12">COWBOY.HSC</rom>
+			<rom type="file" offset="0x13">DINOBC.HSC</rom>
+			<rom type="file" offset="0x14">GAMESHOW.HSC</rom>
+			<rom type="file" offset="0x15">HORROR.HSC</rom>
+			<rom type="file" offset="0x16">WWFOUR.HSC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2201">TITLE</title>
+			<title code="0x1000">ALIENS</title>
+			<title code="0x1100">CARTOON</title>
+			<title code="0x1200">COWBOY</title>
+			<title code="0x1300">DINOBC</title>
+			<title code="0x1400">GAMESHOW</title>
+			<title code="0x1500">HORROR</title>
+			<title code="0x1600">WWFOUR</title>
+			<title code="0x2001">UNKNOWN</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rally Championships (SB)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x180"/>
+		</options>
+		<romlist archive="rchampionships_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">SBL.DRV</rom>
+			<rom type="file" offset="0x10">S01.SBL</rom>
+			<rom type="file" offset="0x11">S02.SBL</rom>
+			<rom type="file" offset="0x12">S03.SBL</rom>
+			<rom type="file" offset="0x13">S04.SBL</rom>
+			<rom type="file" offset="0x14">S05.SBL</rom>
+			<rom type="file" offset="0x15">S06.SBL</rom>
+			<rom type="file" offset="0x16">S07.SBL</rom>
+			<rom type="file" offset="0x17">S08.SBL</rom>
+			<rom type="file" offset="0x18">S09.SBL</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rally Championships (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="rchampionships_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">LAP.DRV</rom>
+			<rom type="file" offset="0x10">S01.LAP</rom>
+			<rom type="file" offset="0x11">S02.LAP</rom>
+			<rom type="file" offset="0x12">S03.LAP</rom>
+			<rom type="file" offset="0x13">S04.LAP</rom>
+			<rom type="file" offset="0x14">S05.LAP</rom>
+			<rom type="file" offset="0x15">S06.LAP</rom>
+			<rom type="file" offset="0x16">S07.LAP</rom>
+			<rom type="file" offset="0x17">S08.LAP</rom>
+			<rom type="file" offset="0x18">S09.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rally Championships (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="rchampionships_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">LAP.DRV</rom>
+			<rom type="file" offset="0x10">S01.LAP</rom>
+			<rom type="file" offset="0x11">S02.LAP</rom>
+			<rom type="file" offset="0x12">S03.LAP</rom>
+			<rom type="file" offset="0x13">S04.LAP</rom>
+			<rom type="file" offset="0x14">S05.LAP</rom>
+			<rom type="file" offset="0x15">S06.LAP</rom>
+			<rom type="file" offset="0x16">S07.LAP</rom>
+			<rom type="file" offset="0x17">S08.LAP</rom>
+			<rom type="file" offset="0x18">S09.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rally Championships (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="rchampionships_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">SCC.DRV</rom>
+			<rom type="file" offset="0x10">S01.SCC</rom>
+			<rom type="file" offset="0x11">S02.SCC</rom>
+			<rom type="file" offset="0x12">S03.SCC</rom>
+			<rom type="file" offset="0x13">S04.SCC</rom>
+			<rom type="file" offset="0x14">S05.SCC</rom>
+			<rom type="file" offset="0x15">S06.SCC</rom>
+			<rom type="file" offset="0x16">S07.SCC</rom>
+			<rom type="file" offset="0x17">S08.SCC</rom>
+			<rom type="file" offset="0x18">S09.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rally Championships (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="rchampionships_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">SCC.DRV</rom>
+			<rom type="file" offset="0x10">S01.GUS</rom>
+			<rom type="file" offset="0x11">S02.GUS</rom>
+			<rom type="file" offset="0x12">S03.GUS</rom>
+			<rom type="file" offset="0x13">S04.GUS</rom>
+			<rom type="file" offset="0x14">S05.GUS</rom>
+			<rom type="file" offset="0x15">S06.GUS</rom>
+			<rom type="file" offset="0x16">S07.GUS</rom>
+			<rom type="file" offset="0x17">S08.GUS</rom>
+			<rom type="file" offset="0x18">S09.GUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whizz (SB)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x180"/>
+		</options>
+		<romlist archive="whizz_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVER.SBL</rom>
+			<rom type="file" offset="0x10">TITLE.SBL</rom>
+			<rom type="file" offset="0x11">SELECT.SBL</rom>
+			<rom type="file" offset="0x12">CONT.SBL</rom>
+			<rom type="file" offset="0x13">WHIZZ1.SBL</rom>
+			<rom type="file" offset="0x14">WHIZZ2.SBL</rom>
+			<rom type="file" offset="0x15">WHIZZ3.SBL</rom>
+			<rom type="file" offset="0x16">WHIZZ4.SBL</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">SELECT</title>
+			<title code="0x1200">CONT</title>
+			<title code="0x1300">WHIZZ1</title>
+			<title code="0x1400">WHIZZ2</title>
+			<title code="0x1500">WHIZZ3</title>
+			<title code="0x1600">WHIZZ4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whizz (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="whizz_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVER.LAP</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">SELECT.LAP</rom>
+			<rom type="file" offset="0x12">CONT.LAP</rom>
+			<rom type="file" offset="0x13">WHIZZ1.LAP</rom>
+			<rom type="file" offset="0x14">WHIZZ2.LAP</rom>
+			<rom type="file" offset="0x15">WHIZZ3.LAP</rom>
+			<rom type="file" offset="0x16">WHIZZ4.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">SELECT</title>
+			<title code="0x1200">CONT</title>
+			<title code="0x1300">WHIZZ1</title>
+			<title code="0x1400">WHIZZ2</title>
+			<title code="0x1500">WHIZZ3</title>
+			<title code="0x1600">WHIZZ4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whizz (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="whizz_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVER.LAP</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">SELECT.LAP</rom>
+			<rom type="file" offset="0x12">CONT.LAP</rom>
+			<rom type="file" offset="0x13">WHIZZ1.LAP</rom>
+			<rom type="file" offset="0x14">WHIZZ2.LAP</rom>
+			<rom type="file" offset="0x15">WHIZZ3.LAP</rom>
+			<rom type="file" offset="0x16">WHIZZ4.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">SELECT</title>
+			<title code="0x1200">CONT</title>
+			<title code="0x1300">WHIZZ1</title>
+			<title code="0x1400">WHIZZ2</title>
+			<title code="0x1500">WHIZZ3</title>
+			<title code="0x1600">WHIZZ4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whizz (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="whizz_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVER.SCC</rom>
+			<rom type="file" offset="0x10">TITLE.SCC</rom>
+			<rom type="file" offset="0x11">SELECT.SCC</rom>
+			<rom type="file" offset="0x12">CONT.SCC</rom>
+			<rom type="file" offset="0x13">WHIZZ1.SCC</rom>
+			<rom type="file" offset="0x14">WHIZZ2.SCC</rom>
+			<rom type="file" offset="0x15">WHIZZ3.SCC</rom>
+			<rom type="file" offset="0x16">WHIZZ4.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">SELECT</title>
+			<title code="0x1200">Game Over / Continue (CONT)</title>
+			<title code="0x1300">Grassy Plains (WHIZZ1)</title>
+			<title code="0x1400">Snowy Peaks (WHIZZ2)</title>
+			<title code="0x1500">Sandy Shores (WHIZZ3)</title>
+			<title code="0x1600">Gambleland (WHIZZ4)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Whizz (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Flair</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="whizz_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">DRIVER.SCC</rom>
+			<rom type="file" offset="0x10">TITLE.SCC</rom>
+			<rom type="file" offset="0x11">SELECT.SCC</rom>
+			<rom type="file" offset="0x12">CONT.SCC</rom>
+			<rom type="file" offset="0x13">WHIZZ1.SCC</rom>
+			<rom type="file" offset="0x14">WHIZZ2.SCC</rom>
+			<rom type="file" offset="0x15">WHIZZ3.SCC</rom>
+			<rom type="file" offset="0x16">WHIZZ4.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">SELECT</title>
+			<title code="0x1200">CONT</title>
+			<title code="0x1300">WHIZZ1</title>
+			<title code="0x1400">WHIZZ2</title>
+			<title code="0x1500">WHIZZ3</title>
+			<title code="0x1600">WHIZZ4</title>
+		</titlelist>
+	</game>
+</gamelist>

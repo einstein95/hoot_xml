@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Activision -->
+  <game>
+		<name>[PC/AT] Deathtrack (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="deathtrack_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TRAX.MID</rom>
+			<rom type="file" offset="0x11">DANGER.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">DANGER</title>
+			<title code="0x10">TRAX</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Deathtrack (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="deathtrack_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TRAX.MID</rom>
+			<rom type="file" offset="0x11">DANGER.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">DANGER</title>
+			<title code="0x10">TRAX</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Deathtrack (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="deathtrack_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TRAX.MID</rom>
+			<rom type="file" offset="0x11">DANGER.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">DANGER</title>
+			<title code="0x10">TRAX</title>
+		</titlelist>
+	</game>
+	
+	<game>
+		<name>[PC/AT] F-14 Tomcat (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="f14tomcat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">AVENGER.MID</rom>
+			<rom type="file" offset="0x12">DEATH.MID</rom>
+			<rom type="file" offset="0x13">END.MID</rom>
+			<rom type="file" offset="0x14">FLIGHT.MID</rom>
+			<rom type="file" offset="0x15">HAWK.MID</rom>
+			<rom type="file" offset="0x16">INTRO.MID</rom>
+			<rom type="file" offset="0x17">MENU.MID</rom>
+			<rom type="file" offset="0x18">MILIT1.MID</rom>
+			<rom type="file" offset="0x19">MILIT2.MID</rom>
+			<rom type="file" offset="0x1A">TOPGUN.MID</rom>
+			<rom type="file" offset="0x1B">TOPTWO.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x12">DEATH</title>
+			<title code="0x14">FLIGHT</title>
+			<title code="0x15">HAWK</title>
+			<title code="0x17">MENU</title>
+			<title code="0x18">MILIT1</title>
+			<title code="0x19">MILIT2</title>
+			<title code="0x1A">TOPGUN</title>
+			<title code="0x1B">TOPTWO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] F-14 Tomcat (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="f14tomcat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">AVENGER.MID</rom>
+			<rom type="file" offset="0x12">DEATH.MID</rom>
+			<rom type="file" offset="0x13">END.MID</rom>
+			<rom type="file" offset="0x14">FLIGHT.MID</rom>
+			<rom type="file" offset="0x15">HAWK.MID</rom>
+			<rom type="file" offset="0x16">INTRO.MID</rom>
+			<rom type="file" offset="0x17">MENU.MID</rom>
+			<rom type="file" offset="0x18">MILIT1.MID</rom>
+			<rom type="file" offset="0x19">MILIT2.MID</rom>
+			<rom type="file" offset="0x1A">TOPGUN.MID</rom>
+			<rom type="file" offset="0x1B">TOPTWO.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x12">DEATH</title>
+			<title code="0x14">FLIGHT</title>
+			<title code="0x15">HAWK</title>
+			<title code="0x17">MENU</title>
+			<title code="0x18">MILIT1</title>
+			<title code="0x19">MILIT2</title>
+			<title code="0x1A">TOPGUN</title>
+			<title code="0x1B">TOPTWO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] F-14 Tomcat (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="f14tomcat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">AVENGER.MID</rom>
+			<rom type="file" offset="0x12">DEATH.MID</rom>
+			<rom type="file" offset="0x13">END.MID</rom>
+			<rom type="file" offset="0x14">FLIGHT.MID</rom>
+			<rom type="file" offset="0x15">HAWK.MID</rom>
+			<rom type="file" offset="0x16">INTRO.MID</rom>
+			<rom type="file" offset="0x17">MENU.MID</rom>
+			<rom type="file" offset="0x18">MILIT1.MID</rom>
+			<rom type="file" offset="0x19">MILIT2.MID</rom>
+			<rom type="file" offset="0x1A">TOPGUN.MID</rom>
+			<rom type="file" offset="0x1B">TOPTWO.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x12">DEATH</title>
+			<title code="0x14">FLIGHT</title>
+			<title code="0x15">HAWK</title>
+			<title code="0x17">MENU</title>
+			<title code="0x18">MILIT1</title>
+			<title code="0x19">MILIT2</title>
+			<title code="0x1A">TOPGUN</title>
+			<title code="0x1B">TOPTWO</title>
+		</titlelist>
+	</game>
+
+	<game>
+		<name>[PC/AT] Power Drift (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="powerdrift_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">M0.MID</rom>
+			<rom type="file" offset="0x11">M1.MID</rom>
+			<rom type="file" offset="0x12">M2.MID</rom>
+			<rom type="file" offset="0x13">M3.MID</rom>
+			<rom type="file" offset="0x14">M4.MID</rom>
+			<rom type="file" offset="0x15">M5.MID</rom>
+			<rom type="file" offset="0x16">M6.MID</rom>
+			<rom type="file" offset="0x17">M7.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Power Drift (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="powerdrift_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">M0.MID</rom>
+			<rom type="file" offset="0x11">M1.MID</rom>
+			<rom type="file" offset="0x12">M2.MID</rom>
+			<rom type="file" offset="0x13">M3.MID</rom>
+			<rom type="file" offset="0x14">M4.MID</rom>
+			<rom type="file" offset="0x15">M5.MID</rom>
+			<rom type="file" offset="0x16">M6.MID</rom>
+			<rom type="file" offset="0x17">M7.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Power Drift (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="powerdrift_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">M0.MID</rom>
+			<rom type="file" offset="0x11">M1.MID</rom>
+			<rom type="file" offset="0x12">M2.MID</rom>
+			<rom type="file" offset="0x13">M3.MID</rom>
+			<rom type="file" offset="0x14">M4.MID</rom>
+			<rom type="file" offset="0x15">M5.MID</rom>
+			<rom type="file" offset="0x16">M6.MID</rom>
+			<rom type="file" offset="0x17">M7.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Ghostbusters II (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="ghostbusters2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">COMMON.MID</rom>
+			<rom type="file" offset="0x12">HQ.MID</rom>
+			<rom type="file" offset="0x13">LAB01.MID</rom>
+			<rom type="file" offset="0x14">LAB02.MID</rom>
+			<rom type="file" offset="0x15">LAB03.MID</rom>
+			<rom type="file" offset="0x16">LAB04.MID</rom>
+			<rom type="file" offset="0x17">LAB05.MID</rom>
+			<rom type="file" offset="0x18">LAB06.MID</rom>
+			<rom type="file" offset="0x19">LAB07.MID</rom>
+			<rom type="file" offset="0x1A">LAB08.MID</rom>
+			<rom type="file" offset="0x1B">LAB09.MID</rom>
+			<rom type="file" offset="0x1C">LAB10.MID</rom>
+			<rom type="file" offset="0x1D">MUSEUM1.MID</rom>
+			<rom type="file" offset="0x1E">MUSEUM2.MID</rom>
+			<rom type="file" offset="0x1F">NEWSPAPE.MID</rom>
+			<rom type="file" offset="0x20">PARKVIEW.MID</rom>
+			<rom type="file" offset="0x21">STATUE.MID</rom>
+			<rom type="file" offset="0x22">VANHORNE.MID</rom>
+			<rom type="file" offset="0x23">VIGO.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">COMMON</title>
+			<title code="0x12">HQ</title>
+			<title code="0x13">LAB01</title>
+			<title code="0x14">LAB02</title>
+			<title code="0x15">LAB03</title>
+			<title code="0x16">LAB04</title>
+			<title code="0x17">LAB05</title>
+			<title code="0x18">LAB06</title>
+			<title code="0x19">LAB07</title>
+			<title code="0x1A">LAB08</title>
+			<title code="0x1B">LAB09</title>
+			<title code="0x1C">LAB10</title>
+			<title code="0x1D">MUSEUM1</title>
+			<title code="0x1E">MUSEUM2</title>
+			<title code="0x1F">NEWSPAPE</title>
+			<title code="0x20">PARKVIEW</title>
+			<title code="0x21">STATUE</title>
+			<title code="0x22">VANHORNE</title>
+			<title code="0x23">VIGO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Ghostbusters II (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="ghostbusters2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">COMMON.MID</rom>
+			<rom type="file" offset="0x12">HQ.MID</rom>
+			<rom type="file" offset="0x13">LAB01.MID</rom>
+			<rom type="file" offset="0x14">LAB02.MID</rom>
+			<rom type="file" offset="0x15">LAB03.MID</rom>
+			<rom type="file" offset="0x16">LAB04.MID</rom>
+			<rom type="file" offset="0x17">LAB05.MID</rom>
+			<rom type="file" offset="0x18">LAB06.MID</rom>
+			<rom type="file" offset="0x19">LAB07.MID</rom>
+			<rom type="file" offset="0x1A">LAB08.MID</rom>
+			<rom type="file" offset="0x1B">LAB09.MID</rom>
+			<rom type="file" offset="0x1C">LAB10.MID</rom>
+			<rom type="file" offset="0x1D">MUSEUM1.MID</rom>
+			<rom type="file" offset="0x1E">MUSEUM2.MID</rom>
+			<rom type="file" offset="0x1F">NEWSPAPE.MID</rom>
+			<rom type="file" offset="0x20">PARKVIEW.MID</rom>
+			<rom type="file" offset="0x21">STATUE.MID</rom>
+			<rom type="file" offset="0x22">VANHORNE.MID</rom>
+			<rom type="file" offset="0x23">VIGO.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">COMMON</title>
+			<title code="0x12">HQ</title>
+			<title code="0x13">LAB01</title>
+			<title code="0x14">LAB02</title>
+			<title code="0x15">LAB03</title>
+			<title code="0x16">LAB04</title>
+			<title code="0x17">LAB05</title>
+			<title code="0x18">LAB06</title>
+			<title code="0x19">LAB07</title>
+			<title code="0x1A">LAB08</title>
+			<title code="0x1B">LAB09</title>
+			<title code="0x1C">LAB10</title>
+			<title code="0x1D">MUSEUM1</title>
+			<title code="0x1E">MUSEUM2</title>
+			<title code="0x1F">NEWSPAPE</title>
+			<title code="0x20">PARKVIEW</title>
+			<title code="0x21">STATUE</title>
+			<title code="0x22">VANHORNE</title>
+			<title code="0x23">VIGO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Ghostbusters II (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="ghostbusters2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.MID</rom>
+			<rom type="file" offset="0x11">COMMON.MID</rom>
+			<rom type="file" offset="0x12">HQ.MID</rom>
+			<rom type="file" offset="0x13">LAB01.MID</rom>
+			<rom type="file" offset="0x14">LAB02.MID</rom>
+			<rom type="file" offset="0x15">LAB03.MID</rom>
+			<rom type="file" offset="0x16">LAB04.MID</rom>
+			<rom type="file" offset="0x17">LAB05.MID</rom>
+			<rom type="file" offset="0x18">LAB06.MID</rom>
+			<rom type="file" offset="0x19">LAB07.MID</rom>
+			<rom type="file" offset="0x1A">LAB08.MID</rom>
+			<rom type="file" offset="0x1B">LAB09.MID</rom>
+			<rom type="file" offset="0x1C">LAB10.MID</rom>
+			<rom type="file" offset="0x1D">MUSEUM1.MID</rom>
+			<rom type="file" offset="0x1E">MUSEUM2.MID</rom>
+			<rom type="file" offset="0x1F">NEWSPAPE.MID</rom>
+			<rom type="file" offset="0x20">PARKVIEW.MID</rom>
+			<rom type="file" offset="0x21">STATUE.MID</rom>
+			<rom type="file" offset="0x22">VANHORNE.MID</rom>
+			<rom type="file" offset="0x23">VIGO.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">COMMON</title>
+			<title code="0x12">HQ</title>
+			<title code="0x13">LAB01</title>
+			<title code="0x14">LAB02</title>
+			<title code="0x15">LAB03</title>
+			<title code="0x16">LAB04</title>
+			<title code="0x17">LAB05</title>
+			<title code="0x18">LAB06</title>
+			<title code="0x19">LAB07</title>
+			<title code="0x1A">LAB08</title>
+			<title code="0x1B">LAB09</title>
+			<title code="0x1C">LAB10</title>
+			<title code="0x1D">MUSEUM1</title>
+			<title code="0x1E">MUSEUM2</title>
+			<title code="0x1F">NEWSPAPE</title>
+			<title code="0x20">PARKVIEW</title>
+			<title code="0x21">STATUE</title>
+			<title code="0x22">VANHORNE</title>
+			<title code="0x23">VIGO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Sargon 5: World Class Chess (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="sargon5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">0000.MID</rom>
+			<rom type="file" offset="0x11">0001.MID</rom>
+			<rom type="file" offset="0x12">0002.MID</rom>
+			<rom type="file" offset="0x13">0003.MID</rom>
+			<rom type="file" offset="0x14">0004.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Sargon 5: World Class Chess (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="sargon5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">0000.MID</rom>
+			<rom type="file" offset="0x11">0001.MID</rom>
+			<rom type="file" offset="0x12">0002.MID</rom>
+			<rom type="file" offset="0x13">0003.MID</rom>
+			<rom type="file" offset="0x14">0004.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Sargon 5: World Class Chess (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="sargon5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">0000.MID</rom>
+			<rom type="file" offset="0x11">0001.MID</rom>
+			<rom type="file" offset="0x12">0002.MID</rom>
+			<rom type="file" offset="0x13">0003.MID</rom>
+			<rom type="file" offset="0x14">0004.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+  <game>
+		<name>[PC/AT] Shanghai II: Dragon's Eye (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="shanghai2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SHANG.MID</rom>
+			<rom type="file" offset="0x11">BOAR.MID</rom>
+			<rom type="file" offset="0x12">DOG.MID</rom>
+			<rom type="file" offset="0x13">DRAGLN.MID</rom>
+			<rom type="file" offset="0x14">DRAGON.MID</rom>
+			<rom type="file" offset="0x15">HARE.MID</rom>
+			<rom type="file" offset="0x16">HEN.MID</rom>
+			<rom type="file" offset="0x17">HORSE.MID</rom>
+			<rom type="file" offset="0x18">MONKEY.MID</rom>
+			<rom type="file" offset="0x19">OX.MID</rom>
+			<rom type="file" offset="0x1A">RAM.MID</rom>
+			<rom type="file" offset="0x1B">RAT.MID</rom>
+			<rom type="file" offset="0x1C">SERPNT.MID</rom>
+			<rom type="file" offset="0x1D">SHANGI.MID</rom>
+			<rom type="file" offset="0x1E">TIGER.MID</rom>
+			<rom type="file" offset="0x1F">VICTRY.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">SHANG</title>
+			<title code="0x11">BOAR</title>
+			<title code="0x12">DOG</title>
+			<title code="0x13">DRAGLN</title>
+			<title code="0x14">DRAGON</title>
+			<title code="0x15">HARE</title>
+			<title code="0x16">HEN</title>
+			<title code="0x17">HORSE</title>
+			<title code="0x18">MONKEY</title>
+			<title code="0x19">OX</title>
+			<title code="0x1A">RAM</title>
+			<title code="0x1B">RAT</title>
+			<title code="0x1C">SERPNT</title>
+			<title code="0x1D">SHANGI</title>
+			<title code="0x1E">TIGER</title>
+			<title code="0x1F">VICTRY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Shanghai II: Dragon's Eye (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="shanghai2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SHANG.MID</rom>
+			<rom type="file" offset="0x11">BOAR.MID</rom>
+			<rom type="file" offset="0x12">DOG.MID</rom>
+			<rom type="file" offset="0x13">DRAGLN.MID</rom>
+			<rom type="file" offset="0x14">DRAGON.MID</rom>
+			<rom type="file" offset="0x15">HARE.MID</rom>
+			<rom type="file" offset="0x16">HEN.MID</rom>
+			<rom type="file" offset="0x17">HORSE.MID</rom>
+			<rom type="file" offset="0x18">MONKEY.MID</rom>
+			<rom type="file" offset="0x19">OX.MID</rom>
+			<rom type="file" offset="0x1A">RAM.MID</rom>
+			<rom type="file" offset="0x1B">RAT.MID</rom>
+			<rom type="file" offset="0x1C">SERPNT.MID</rom>
+			<rom type="file" offset="0x1D">SHANGI.MID</rom>
+			<rom type="file" offset="0x1E">TIGER.MID</rom>
+			<rom type="file" offset="0x1F">VICTRY.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">SHANG</title>
+			<title code="0x11">BOAR</title>
+			<title code="0x12">DOG</title>
+			<title code="0x13">DRAGLN</title>
+			<title code="0x14">DRAGON</title>
+			<title code="0x15">HARE</title>
+			<title code="0x16">HEN</title>
+			<title code="0x17">HORSE</title>
+			<title code="0x18">MONKEY</title>
+			<title code="0x19">OX</title>
+			<title code="0x1A">RAM</title>
+			<title code="0x1B">RAT</title>
+			<title code="0x1C">SERPNT</title>
+			<title code="0x1D">SHANGI</title>
+			<title code="0x1E">TIGER</title>
+			<title code="0x1F">VICTRY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Shanghai II: Dragon's Eye (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="shanghai2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SHANG.MID</rom>
+			<rom type="file" offset="0x11">BOAR.MID</rom>
+			<rom type="file" offset="0x12">DOG.MID</rom>
+			<rom type="file" offset="0x13">DRAGLN.MID</rom>
+			<rom type="file" offset="0x14">DRAGON.MID</rom>
+			<rom type="file" offset="0x15">HARE.MID</rom>
+			<rom type="file" offset="0x16">HEN.MID</rom>
+			<rom type="file" offset="0x17">HORSE.MID</rom>
+			<rom type="file" offset="0x18">MONKEY.MID</rom>
+			<rom type="file" offset="0x19">OX.MID</rom>
+			<rom type="file" offset="0x1A">RAM.MID</rom>
+			<rom type="file" offset="0x1B">RAT.MID</rom>
+			<rom type="file" offset="0x1C">SERPNT.MID</rom>
+			<rom type="file" offset="0x1D">SHANGI.MID</rom>
+			<rom type="file" offset="0x1E">TIGER.MID</rom>
+			<rom type="file" offset="0x1F">VICTRY.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">SHANG</title>
+			<title code="0x11">BOAR</title>
+			<title code="0x12">DOG</title>
+			<title code="0x13">DRAGLN</title>
+			<title code="0x14">DRAGON</title>
+			<title code="0x15">HARE</title>
+			<title code="0x16">HEN</title>
+			<title code="0x17">HORSE</title>
+			<title code="0x18">MONKEY</title>
+			<title code="0x19">OX</title>
+			<title code="0x1A">RAM</title>
+			<title code="0x1B">RAT</title>
+			<title code="0x1C">SERPNT</title>
+			<title code="0x1D">SHANGI</title>
+			<title code="0x1E">TIGER</title>
+			<title code="0x1F">VICTRY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Manhole (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="manhole_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MH01.MID</rom>
+			<rom type="file" offset="0x11">MH02.MID</rom>
+			<rom type="file" offset="0x12">MH03.MID</rom>
+			<rom type="file" offset="0x13">MH04.MID</rom>
+			<rom type="file" offset="0x14">MH05.MID</rom>
+			<rom type="file" offset="0x15">MH06.MID</rom>
+			<rom type="file" offset="0x16">MH08.MID</rom>
+			<rom type="file" offset="0x17">MH09.MID</rom>
+			<rom type="file" offset="0x18">MH10.MID</rom>
+			<rom type="file" offset="0x19">MH11.MID</rom>
+			<rom type="file" offset="0x1A">MH12.MID</rom>
+			<rom type="file" offset="0x1B">MH13.MID</rom>
+			<rom type="file" offset="0x1C">MH14.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Manhole (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="manhole_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MH01.MID</rom>
+			<rom type="file" offset="0x11">MH02.MID</rom>
+			<rom type="file" offset="0x12">MH03.MID</rom>
+			<rom type="file" offset="0x13">MH04.MID</rom>
+			<rom type="file" offset="0x14">MH05.MID</rom>
+			<rom type="file" offset="0x15">MH06.MID</rom>
+			<rom type="file" offset="0x16">MH08.MID</rom>
+			<rom type="file" offset="0x17">MH09.MID</rom>
+			<rom type="file" offset="0x18">MH10.MID</rom>
+			<rom type="file" offset="0x19">MH11.MID</rom>
+			<rom type="file" offset="0x1A">MH12.MID</rom>
+			<rom type="file" offset="0x1B">MH13.MID</rom>
+			<rom type="file" offset="0x1C">MH14.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Manhole (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="manhole_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MH01.MID</rom>
+			<rom type="file" offset="0x11">MH02.MID</rom>
+			<rom type="file" offset="0x12">MH03.MID</rom>
+			<rom type="file" offset="0x13">MH04.MID</rom>
+			<rom type="file" offset="0x14">MH05.MID</rom>
+			<rom type="file" offset="0x15">MH06.MID</rom>
+			<rom type="file" offset="0x16">MH08.MID</rom>
+			<rom type="file" offset="0x17">MH09.MID</rom>
+			<rom type="file" offset="0x18">MH10.MID</rom>
+			<rom type="file" offset="0x19">MH11.MID</rom>
+			<rom type="file" offset="0x1A">MH12.MID</rom>
+			<rom type="file" offset="0x1B">MH13.MID</rom>
+			<rom type="file" offset="0x1C">MH14.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mechwarrior (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="mechwarrior_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MECH.MID</rom>
+			<rom type="file" offset="0x11">DEATH.MID</rom>
+			<rom type="file" offset="0x12">LAUNCH.MID</rom>
+			<rom type="file" offset="0x13">MECHBAR.MID</rom>
+			<rom type="file" offset="0x14">VICTORY.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MECH</title>
+			<title code="0x11">DEATH</title>
+			<title code="0xFF12">LAUNCH</title>
+			<title code="0x13">MECHBAR</title>
+			<title code="0x14">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mechwarrior (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="0x10"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="mechwarrior_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MECH.MID</rom>
+			<rom type="file" offset="0x11">DEATH.MID</rom>
+			<rom type="file" offset="0x12">LAUNCH.MID</rom>
+			<rom type="file" offset="0x13">MECHBAR.MID</rom>
+			<rom type="file" offset="0x14">VICTORY.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MECH</title>
+			<title code="0x11">DEATH</title>
+			<title code="0xFF12">LAUNCH</title>
+			<title code="0x13">MECHBAR</title>
+			<title code="0x14">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mechwarrior (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="mechwarrior_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MECH.MID</rom>
+			<rom type="file" offset="0x11">DEATH.MID</rom>
+			<rom type="file" offset="0x12">LAUNCH.MID</rom>
+			<rom type="file" offset="0x13">MECHBAR.MID</rom>
+			<rom type="file" offset="0x14">VICTORY.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MECH</title>
+			<title code="0x11">DEATH</title>
+			<title code="0xFF12">LAUNCH</title>
+			<title code="0x13">MECHBAR</title>
+			<title code="0x14">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Tongue of the Fatman Adlib)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="20"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="tfatman_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">FATITLE.MID</rom>
+			<rom type="file" offset="0x11">BEHEMOUT.MID</rom>
+			<rom type="file" offset="0x12">BLOCK.MID</rom>
+			<rom type="file" offset="0x13">DEATH.MID</rom>
+			<rom type="file" offset="0x14">FATMAN.MID</rom>
+			<rom type="file" offset="0x15">FREEZER.MID</rom>
+			<rom type="file" offset="0x16">HUMAN.MID</rom>
+			<rom type="file" offset="0x17">KADAVER.MID</rom>
+			<rom type="file" offset="0x18">PUFFBOY.MID</rom>
+			<rom type="file" offset="0x19">PUNK.MID</rom>
+			<rom type="file" offset="0x1A">SELECT.MID</rom>
+			<rom type="file" offset="0x1B">SLASHER.MID</rom>
+			<rom type="file" offset="0x1C">STUMP.MID</rom>
+			<rom type="file" offset="0x1D">VICTORY.MID</rom>
+			<rom type="file" offset="0x1E">WAGEMAKE.MID</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0xFF11">BEHEMOUT</title>
+			<title code="0xFF12">BLOCK</title>
+			<title code="0x13">DEATH</title>
+			<title code="0xFF14">FATMAN</title>
+			<title code="0xFF15">FREEZER</title>
+			<title code="0xFF16">HUMAN</title>
+			<title code="0xFF17">KADAVER</title>
+			<title code="0xFF18">PUFFBOY</title>
+			<title code="0xFF19">PUNK</title>
+			<title code="0x1A">SELECT</title>
+			<title code="0xFF1B">SLASHER</title>
+			<title code="0xFF1C">STUMP</title>
+			<title code="0xFF1D">VICTORY</title>
+			<title code="0x1E">WAGEMAKE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Tongue of the Fatman (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="tfatman_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">FATITLE.MID</rom>
+			<rom type="file" offset="0x11">BEHEMOUT.MID</rom>
+			<rom type="file" offset="0x12">BLOCK.MID</rom>
+			<rom type="file" offset="0x13">DEATH.MID</rom>
+			<rom type="file" offset="0x14">FATMAN.MID</rom>
+			<rom type="file" offset="0x15">FREEZER.MID</rom>
+			<rom type="file" offset="0x16">HUMAN.MID</rom>
+			<rom type="file" offset="0x17">KADAVER.MID</rom>
+			<rom type="file" offset="0x18">PUFFBOY.MID</rom>
+			<rom type="file" offset="0x19">PUNK.MID</rom>
+			<rom type="file" offset="0x1A">SELECT.MID</rom>
+			<rom type="file" offset="0x1B">SLASHER.MID</rom>
+			<rom type="file" offset="0x1C">STUMP.MID</rom>
+			<rom type="file" offset="0x1D">VICTORY.MID</rom>
+			<rom type="file" offset="0x1E">WAGEMAKE.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0xFF11">BEHEMOUT</title>
+			<title code="0xFF12">BLOCK</title>
+			<title code="0x13">DEATH</title>
+			<title code="0xFF14">FATMAN</title>
+			<title code="0xFF15">FREEZER</title>
+			<title code="0xFF16">HUMAN</title>
+			<title code="0xFF17">KADAVER</title>
+			<title code="0xFF18">PUFFBOY</title>
+			<title code="0xFF19">PUNK</title>
+			<title code="0x1A">SELECT</title>
+			<title code="0xFF1B">SLASHER</title>
+			<title code="0xFF1C">STUMP</title>
+			<title code="0xFF1D">VICTORY</title>
+			<title code="0x1E">WAGEMAKE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Tongue of the Fatman (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Activision</driveralias>
+		<options>
+			<option name="clockmul" value="12"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="tfatman_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">FATITLE.MID</rom>
+			<rom type="file" offset="0x11">BEHEMOUT.MID</rom>
+			<rom type="file" offset="0x12">BLOCK.MID</rom>
+			<rom type="file" offset="0x13">DEATH.MID</rom>
+			<rom type="file" offset="0x14">FATMAN.MID</rom>
+			<rom type="file" offset="0x15">FREEZER.MID</rom>
+			<rom type="file" offset="0x16">HUMAN.MID</rom>
+			<rom type="file" offset="0x17">KADAVER.MID</rom>
+			<rom type="file" offset="0x18">PUFFBOY.MID</rom>
+			<rom type="file" offset="0x19">PUNK.MID</rom>
+			<rom type="file" offset="0x1A">SELECT.MID</rom>
+			<rom type="file" offset="0x1B">SLASHER.MID</rom>
+			<rom type="file" offset="0x1C">STUMP.MID</rom>
+			<rom type="file" offset="0x1D">VICTORY.MID</rom>
+			<rom type="file" offset="0x1E">WAGEMAKE.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0xFF11">BEHEMOUT</title>
+			<title code="0xFF12">BLOCK</title>
+			<title code="0x13">DEATH</title>
+			<title code="0xFF14">FATMAN</title>
+			<title code="0xFF15">FREEZER</title>
+			<title code="0xFF16">HUMAN</title>
+			<title code="0xFF17">KADAVER</title>
+			<title code="0xFF18">PUFFBOY</title>
+			<title code="0xFF19">PUNK</title>
+			<title code="0x1A">SELECT</title>
+			<title code="0xFF1B">SLASHER</title>
+			<title code="0xFF1C">STUMP</title>
+			<title code="0xFF1D">VICTORY</title>
+			<title code="0x1E">WAGEMAKE</title>
+		</titlelist>
+	</game>
+</gamelist>

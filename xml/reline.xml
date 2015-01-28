@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Reline -->
+	
+	<game>
+		<name>[PC/AT] Dynatech (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Reline</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dynatech_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">DTLD.ROL</rom>
+			<rom type="file" offset="0x11">DTOG.ROL</rom>
+			<rom type="file" offset="0x12">DTTS.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Oil Imperium (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Reline</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="oilimperium_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.MUS</rom>
+			<rom type="file" offset="0x11">TITLE.SND</rom>
+			<rom type="file" offset="0x12">ACT1.MUS</rom>
+			<rom type="file" offset="0x13">ACT1.SND</rom>
+			<rom type="file" offset="0x14">ACT2.MUS</rom>
+			<rom type="file" offset="0x15">ACT2.SND</rom>
+			<rom type="file" offset="0x16">ACT3.MUS</rom>
+			<rom type="file" offset="0x17">ACT3.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+			<title code="0x12">Act 1</title>
+			<title code="0x14">Act 2</title>
+			<title code="0x16">Act 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Penthouse Hot Numbers/Sexy Droids (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Reline</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="photnumbers_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">NUMTITLE.ROL</rom>
+			<rom type="file" offset="0x11">ONGAME1.ROL</rom>
+			<rom type="file" offset="0x12">NUMWIN.ROL</rom>
+			<rom type="file" offset="0x13">NUMLOSE.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">GAME</title>
+			<title code="0x12">WIN</title>
+			<title code="0x13">LOSE</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Infogrames -->
+	<game>
+		<name>[PC/AT] 7 Colors (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="7colors_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">INTRO.ADD</rom>
+			<rom type="file" offset="0x11">INVENT1.ADD</rom>
+			<rom type="file" offset="0x12">INVENT2.ADD</rom>
+			<rom type="file" offset="0x13">MOZART2.ADD</rom>
+			<rom type="file" offset="0x14">MOZART40.ADD</rom>
+			<rom type="file" offset="0x15">SICILIAN.ADD</rom>
+			<rom type="file" offset="0x16">SUITE1.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">INVENT1</title>
+			<title code="0x12">INVENT2</title>
+			<title code="0x13">MOZART2</title>
+			<title code="0x14">MOZART40</title>
+			<title code="0x15">SICILIAN</title>
+			<title code="0x16">SUITE1</title>
+		</titlelist>
+	</game>
+	
+	<game>
+		<name>[PC/AT] Advantage Tennis (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="advtennis_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">AT01.ADD</rom>
+			<rom type="file" offset="0x11">AT02.ADD</rom>
+			<rom type="file" offset="0x12">AT03.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Alone in the Dark (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="aloneitd_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">A00.ADD</rom>
+			<rom type="file" offset="0x11">A01.ADD</rom>
+			<rom type="file" offset="0x12">A02.ADD</rom>
+			<rom type="file" offset="0x13">A03.ADD</rom>
+			<rom type="file" offset="0x14">A04.ADD</rom>
+			<rom type="file" offset="0x15">A05.ADD</rom>
+			<rom type="file" offset="0x16">A06.ADD</rom>
+			<rom type="file" offset="0x17">A07.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Alone in the Dark 2 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="aloneitd2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">A00.ADD</rom>
+			<rom type="file" offset="0x11">A01.ADD</rom>
+			<rom type="file" offset="0x12">A02.ADD</rom>
+			<rom type="file" offset="0x13">A03.ADD</rom>
+			<rom type="file" offset="0x14">A04.ADD</rom>
+			<rom type="file" offset="0x15">A05.ADD</rom>
+			<rom type="file" offset="0x16">A06.ADD</rom>
+			<rom type="file" offset="0x17">A07.ADD</rom>
+			<rom type="file" offset="0x18">A08.ADD</rom>
+			<rom type="file" offset="0x19">A09.ADD</rom>
+			<rom type="file" offset="0x1A">A10.ADD</rom>
+			<rom type="file" offset="0x1B">A11.ADD</rom>
+			<rom type="file" offset="0x1C">A12.ADD</rom>
+			<rom type="file" offset="0x1D">A13.ADD</rom>
+			<rom type="file" offset="0x1E">A14.ADD</rom>
+			<rom type="file" offset="0x1F">A15.ADD</rom>
+			<rom type="file" offset="0x20">A16.ADD</rom>
+			<rom type="file" offset="0x21">A17.ADD</rom>
+			<rom type="file" offset="0x22">A18.ADD</rom>
+			<rom type="file" offset="0x23">A19.ADD</rom>
+			<rom type="file" offset="0x24">A20.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Alpha Waves / Continuum (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="alphawaves_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">AW001.ADD</rom>
+			<rom type="file" offset="0x11">AW002.ADD</rom>
+			<rom type="file" offset="0x12">AW003.ADD</rom>
+			<rom type="file" offset="0x13">AW004.ADD</rom>
+			<rom type="file" offset="0x14">AW005.ADD</rom>
+			<rom type="file" offset="0x15">AW006.ADD</rom>
+			<rom type="file" offset="0x16">AW007.ADD</rom>
+			<rom type="file" offset="0x17">AW008.ADD</rom>
+			<rom type="file" offset="0x18">AW009.ADD</rom>
+			<rom type="file" offset="0x19">AW010.ADD</rom>
+			<rom type="file" offset="0x1A">AW011.ADD</rom>
+			<rom type="file" offset="0x1B">AW012.ADD</rom>
+			<rom type="file" offset="0x1C">AW013.ADD</rom>
+			<rom type="file" offset="0x1D">AW014.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1C">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x17">Music 9</title>
+			<title code="0x18">Music 10</title>
+			<title code="0x19">Music 11</title>
+			<title code="0x1A">Music 12</title>
+			<title code="0x1B">Music 13</title>
+			<title code="0x1D">Music 14</title>
+		</titlelist>
+	</game>
+
+        <game>
+		<name>[PC/AT] Beauty &amp; The Beast (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="beautybeast_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">M01.ADD</rom>
+			<rom type="file" offset="0x11">M02.ADD</rom>
+			<rom type="file" offset="0x12">M03.ADD</rom>
+			<rom type="file" offset="0x13">M04.ADD</rom>
+			<rom type="file" offset="0x14">M05.ADD</rom>
+			<rom type="file" offset="0x15">M06.ADD</rom>
+			<rom type="file" offset="0x16">M07.ADD</rom>
+			<rom type="file" offset="0x17">M08.ADD</rom>
+			<rom type="file" offset="0x18">M09.ADD</rom>
+			<rom type="file" offset="0x19">M10.ADD</rom>
+			<rom type="file" offset="0x1A">M11.ADD</rom>
+			<rom type="file" offset="0x1B">M12.ADD</rom>
+			<rom type="file" offset="0x1C">M13.ADD</rom>
+			<rom type="file" offset="0x1D">M14.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	
+	<game>
+		<name>[PC/AT] Drakkhen (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="drakkhen_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">DRAK00.ADD</rom>
+			<rom type="file" offset="0x11">DRAK01.ADD</rom>
+			<rom type="file" offset="0x12">DRAK02.ADD</rom>
+			<rom type="file" offset="0x13">DRAK03.ADD</rom>
+			<rom type="file" offset="0x14">DRAK04.ADD</rom>
+			<rom type="file" offset="0x15">DRAK05.ADD</rom>
+			<rom type="file" offset="0x16">DRAK06.ADD</rom>
+			<rom type="file" offset="0x17">DRAK07.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Eternam (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="eternam_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">E01.ADD</rom>
+			<rom type="file" offset="0x11">E02.ADD</rom>
+			<rom type="file" offset="0x12">E03.ADD</rom>
+			<rom type="file" offset="0x13">E04.ADD</rom>
+			<rom type="file" offset="0x14">E05.ADD</rom>
+			<rom type="file" offset="0x15">E06.ADD</rom>
+			<rom type="file" offset="0x16">E07.ADD</rom>
+			<rom type="file" offset="0x17">E08.ADD</rom>
+			<rom type="file" offset="0x18">E09.ADD</rom>
+			<rom type="file" offset="0x19">E10.ADD</rom>
+			<rom type="file" offset="0x1A">E11.ADD</rom>
+			<rom type="file" offset="0x1B">E12.ADD</rom>
+			<rom type="file" offset="0x1C">E13.ADD</rom>
+			<rom type="file" offset="0x1D">E14.ADD</rom>
+			<rom type="file" offset="0x1E">E15.ADD</rom>
+			<rom type="file" offset="0x1F">E16.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Full Metal Planet (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="fmplanet_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">FULLMETA.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack in the Dark (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="jackitd_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">JACK.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Kult / Chamber of the Sci-Mutant Priestess (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="Kult_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">INTRO.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Murders in Space (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="murdersinspace_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">MIS.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mystical (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="mystical_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">MUSIC1.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Shadow of the Comet (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="shcomet_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">A00.ADD</rom>
+			<rom type="file" offset="0x11">A01.ADD</rom>
+			<rom type="file" offset="0x12">A02.ADD</rom>
+			<rom type="file" offset="0x13">A03.ADD</rom>
+			<rom type="file" offset="0x14">A04.ADD</rom>
+			<rom type="file" offset="0x15">A05.ADD</rom>
+			<rom type="file" offset="0x16">A06.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Light Corridor (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Infogrames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="lcorridor_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">ADLIBM.COM</rom>
+			<rom type="file" offset="0x10">INTRO.ADD</rom>
+			<rom type="file" offset="0x11">JEU.ADD</rom>
+			<rom type="shell" offset="0">ADLIBM.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">JEU</title>
+		</titlelist>
+	</game>
+</gamelist>

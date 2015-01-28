@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Lankhor -->
+	<game>
+		<name>[PC/AT] Maupiti Island (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC">Lankhor</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="maupiti_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">00.MUS</rom>
+			<rom type="file" offset="0x11">00.SND</rom>
+			<rom type="file" offset="0x12">01.MUS</rom>
+			<rom type="file" offset="0x13">01.SND</rom>
+			<rom type="file" offset="0x14">02.MUS</rom>
+			<rom type="file" offset="0x15">02.SND</rom>
+			<rom type="file" offset="0x16">03.MUS</rom>
+			<rom type="file" offset="0x17">03.SND</rom>
+			<rom type="file" offset="0x18">04.MUS</rom>
+			<rom type="file" offset="0x19">04.SND</rom>
+			<rom type="file" offset="0x1A">05.MUS</rom>
+			<rom type="file" offset="0x1B">05.SND</rom>
+			<rom type="file" offset="0x1C">06.MUS</rom>
+			<rom type="file" offset="0x1D">06.SND</rom>
+			<rom type="file" offset="0x1E">07.MUS</rom>
+			<rom type="file" offset="0x1F">07.SND</rom>
+			<rom type="file" offset="0x20">08.MUS</rom>
+			<rom type="file" offset="0x21">08.SND</rom>
+			<rom type="file" offset="0x22">09.MUS</rom>
+			<rom type="file" offset="0x23">09.SND</rom>
+			<rom type="file" offset="0x24">10.MUS</rom>
+			<rom type="file" offset="0x25">10.SND</rom>
+			<rom type="file" offset="0x26">11.MUS</rom>
+			<rom type="file" offset="0x27">11.SND</rom>
+			<rom type="file" offset="0x28">12.MUS</rom>
+			<rom type="file" offset="0x29">12.SND</rom>
+			<rom type="file" offset="0x2A">13.MUS</rom>
+			<rom type="file" offset="0x2B">13.SND</rom>
+			<rom type="file" offset="0x2C">14.MUS</rom>
+			<rom type="file" offset="0x2D">14.SND</rom>
+			<rom type="file" offset="0x2E">15.MUS</rom>
+			<rom type="file" offset="0x2F">15.SND</rom>
+			<rom type="file" offset="0x30">16.MUS</rom>
+			<rom type="file" offset="0x31">16.SND</rom>
+			<rom type="file" offset="0x32">17.MUS</rom>
+			<rom type="file" offset="0x33">17.SND</rom>
+			<rom type="file" offset="0x34">18.MUS</rom>
+			<rom type="file" offset="0x35">18.SND</rom>
+			<rom type="file" offset="0x36">19.MUS</rom>
+			<rom type="file" offset="0x37">19.SND</rom>
+			<rom type="file" offset="0x38">20.MUS</rom>
+			<rom type="file" offset="0x39">20.SND</rom>
+			<rom type="file" offset="0x3A">21.MUS</rom>
+			<rom type="file" offset="0x3B">21.SND</rom>
+			<rom type="file" offset="0x3C">22.MUS</rom>
+			<rom type="file" offset="0x3D">22.SND</rom>
+			<rom type="file" offset="0x3E">23.MUS</rom>
+			<rom type="file" offset="0x3F">23.SND</rom>
+			<rom type="file" offset="0x40">24.MUS</rom>
+			<rom type="file" offset="0x41">24.SND</rom>
+			<rom type="file" offset="0x42">25.MUS</rom>
+			<rom type="file" offset="0x43">25.SND</rom>
+			<rom type="file" offset="0x44">26.MUS</rom>
+			<rom type="file" offset="0x45">26.SND</rom>
+			<rom type="file" offset="0x46">27.MUS</rom>
+			<rom type="file" offset="0x47">27.SND</rom>
+			<rom type="file" offset="0x48">28.MUS</rom>
+			<rom type="file" offset="0x49">28.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x12">Music 2</title>
+			<title code="0x14">Music 3</title>
+			<title code="0x16">Music 4</title>
+			<title code="0x18">Music 5</title>
+			<title code="0x1A">Music 6</title>
+			<title code="0x1C">Music 7</title>
+			<title code="0x1E">Music 8</title>
+			<title code="0x20">Music 9</title>
+			<title code="0x22">Music 10</title>
+			<title code="0x24">Music 11</title>
+			<title code="0x26">Music 12</title>
+			<title code="0x28">Music 13</title>
+			<title code="0x2A">Music 14</title>
+			<title code="0x2C">Music 15</title>
+			<title code="0x2E">Music 16</title>
+			<title code="0x30">Music 17</title>
+			<title code="0x32">Music 18</title>
+			<title code="0x34">Music 19</title>
+			<title code="0x36">Music 20</title>
+			<title code="0x3A">Music 21</title>
+			<title code="0x3C">Music 22</title>
+			<title code="0x3E">Music 23</title>
+			<title code="0x40">Music 24</title>
+			<title code="0x42">Music 25</title>
+			<title code="0x44">Music 26</title>
+			<title code="0x46">Music 27</title>
+		</titlelist>
+	</game>
+</gamelist>

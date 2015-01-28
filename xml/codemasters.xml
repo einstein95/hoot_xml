@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Codemasters -->
+	<game>
+		<name>[PC/AT] Bubble Dizzy (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="bubbledizzy_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+			<title code="0x1003">BGM #04</title>
+			<title code="0x1004">BGM #05</title>
+			<title code="0x1005">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Cosmic Spacehead (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="cspacehead_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB1.BIN</rom>
+			<rom type="file" offset="0x11">ADLIB2.BIN</rom>
+			<rom type="file" offset="0x12">ADLIB3.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1001">Music 2</title>
+			<title code="0x1002">Music 3</title>
+			<title code="0x1003">Music 4</title>
+			<title code="0x1004">Music 5</title>
+			<title code="0x1006">Music 6</title>
+			<title code="0x1008">Music 7</title>
+			<title code="0x100A">Music 8</title>
+			<title code="0x100B">Music 9</title>
+			<title code="0x100C">Music 10</title>
+			<title code="0x100D">Music 11</title>
+			<title code="0x100E">Music 12</title>
+			<title code="0x1010">Music 13</title>
+			<title code="0x1011">Music 14</title>
+			<title code="0x1012">Music 15</title>
+			<title code="0x1013">Music 16</title>
+			<title code="0x1100">Music 17</title>
+			<title code="0x1101">Music 18</title>
+			<title code="0x1102">Music 19</title>
+			<title code="0x1104">Music 20</title>
+			<title code="0x1105">Music 21</title>
+			<title code="0x1106">Music 22</title>
+			<title code="0x1107">Music 23</title>
+			<title code="0x1108">Music 24</title>
+			<title code="0x1109">Music 25</title>
+			<title code="0x110A">Music 26</title>
+			<title code="0x110B">Music 27</title>
+			<title code="0x110C">Music 28</title>
+			<title code="0x110D">Music 29</title>
+			<title code="0x110E">Music 30</title>
+			<title code="0x1200">Music 31</title>
+			<title code="0x1201">Music 32</title>
+			<title code="0x1202">Music 33</title>
+			<title code="0x1203">Music 34</title>
+			<title code="0x1204">Music 35</title>
+			<title code="0x1205">Music 36</title>
+			<title code="0x1206">Music 37</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Captain Dynamo (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="capdynamo_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+			<title code="0x1003">BGM #04</title>
+			<title code="0x1004">BGM #05</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Dizzy: Prince of the Yolkfolk (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dizzyyolk_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] DJ Puff's Volcanic Capers (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="djpuff_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Fast Food (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="fastfood_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1003">BGM #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Kwik Snax (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="kwiksnax_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1003">BGM #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Magicland Dizzy (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="mldizzy_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1003">BGM #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Micro Machines (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="1"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="micromachines_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+			<title code="0x1003">BGM #04</title>
+			<title code="0x1004">BGM #05</title>
+			<title code="0x1005">BGM #06</title>
+			<title code="0x1006">BGM #07</title>
+			<title code="0x1007">BGM #08</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Seymour Goes to Hollywood (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="seymour_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+			<title code="0x1003">BGM #04</title>
+			<title code="0x1004">BGM #05</title>
+			<title code="0x1005">BGM #06</title>
+			<title code="0x1006">BGM #07</title>
+			<title code="0x1007">BGM #08</title>
+			<title code="0x1008">BGM #09</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Steg the Slug (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Codemasters</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="stegts_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+			<title code="0x1003">BGM #04</title>
+		</titlelist>
+	</game>
+</gamelist>

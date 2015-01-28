@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Microids -->
+	<game>
+		<name>[PC/AT] Genesia (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="genesia_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">INTRO.MUS</rom>
+			<rom type="file" offset="0x11">BILAN.MUS</rom>
+			<rom type="file" offset="0x12">CASERNE.MUS</rom>
+			<rom type="file" offset="0x13">ENTREPOT.MUS</rom>
+			<rom type="file" offset="0x14">TAVERNE.MUS</rom>
+			<rom type="file" offset="0x15">TEMPLE.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">BILAN</title>
+			<title code="0x12">CASERNE</title>
+			<title code="0x13">ENTREPOT</title>
+			<title code="0x14">TAVERNE</title>
+			<title code="0x15">TEMPLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky Boom (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="nicky1_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONGDEAD.MUS</rom>
+			<rom type="file" offset="0x15">SONGMON.MUS</rom>
+			<rom type="file" offset="0x16">SONGPRES.MUS</rom>
+			<rom type="file" offset="0x17">SONGWIN.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x16">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky Boom (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="nicky1_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONGDEAD.MUS</rom>
+			<rom type="file" offset="0x15">SONGMON.MUS</rom>
+			<rom type="file" offset="0x16">SONGPRES.MUS</rom>
+			<rom type="file" offset="0x17">SONGWIN.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x16">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky Boom (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="nicky1_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONGDEAD.MUS</rom>
+			<rom type="file" offset="0x15">SONGMON.MUS</rom>
+			<rom type="file" offset="0x16">SONGPRES.MUS</rom>
+			<rom type="file" offset="0x17">SONGWIN.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x16">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x17">Music 8</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky 2 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="nicky2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="file" offset="0x14">SONG4.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky 2 (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="nicky2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="file" offset="0x14">SONG4.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Nicky 2 (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Microids</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="nicky2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="file" offset="0x14">SONG4.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+</gamelist>

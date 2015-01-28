@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Knorr-Nahrmittel AG -->
+	<game>
+		<name>[PC/AT] Abenteuer Atlantis (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Knorr-Nahrmittel AG</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="abenatl_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">FXDRIVER.EXE</rom>
+			<rom type="file" offset="0x10">KNOTITEL.FX</rom>
+			<rom type="file" offset="0x11">KNOTITL2.FX</rom>
+			<rom type="file" offset="0x12">KNOBSERV.FX</rom>
+			<rom type="file" offset="0x13">KNOCASS1.FX</rom>
+			<rom type="file" offset="0x14">KNODREAM.FX</rom>
+			<rom type="file" offset="0x15">KNOFINA1.FX</rom>
+			<rom type="file" offset="0x16">KNOGRUFT.FX</rom>
+			<rom type="file" offset="0x17">KNOHEXEN.FX</rom>
+			<rom type="file" offset="0x18">KNOJING1.FX</rom>
+			<rom type="file" offset="0x19">KNOJING2.FX</rom>
+			<rom type="file" offset="0x1A">KNOJING3.FX</rom>
+			<rom type="file" offset="0x1B">KNOJING4.FX</rom>
+			<rom type="file" offset="0x1C">KNOLAND1.FX</rom>
+			<rom type="file" offset="0x1D">KNOSECRT.FX</rom>
+			<rom type="file" offset="0x1E">KNOTEMPL.FX</rom>
+			<rom type="file" offset="0x1F">KNOTOTEN.FX</rom>
+			<rom type="file" offset="0x20">KNOTROLY.FX</rom>
+			<rom type="file" offset="0x21">KNOUNITY.FX</rom>
+			<rom type="file" offset="0x22">KNOVOLL.FX</rom>
+			<rom type="file" offset="0x23">KNOWOLK.FX</rom>
+			<rom type="file" offset="0x24">KNOZAUB.FX</rom>
+			<rom type="shell" offset="0">FXDRIVER.EXE</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+		</titlelist>
+	</game>
+
+
+</gamelist>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Imagitec Design -->
+	<game>
+		<name>[PC/AT] American Gladiators (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="amglad_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">ADGLAD.ALB</rom>
+			<rom type="file" offset="0x11">ADCOMP.ALB</rom>
+			<rom type="file" offset="0x12">JINGLE.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Jingle</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] American Gladiators (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="amglad_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">COMP.RLD</rom>
+			<rom type="file" offset="0x12">JINGLE.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Jingle</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] American Gladiators (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="amglad_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">COMP.RLD</rom>
+			<rom type="file" offset="0x12">JINGLE.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Jingle</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Daemonsgate (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="dgate_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">DGTITLE.ALB</rom>
+			<rom type="file" offset="0x11">INTRO.ALB</rom>
+			<rom type="file" offset="0x12">INGAME1.ALB</rom>
+			<rom type="file" offset="0x13">INGAME2.ALB</rom>
+			<rom type="file" offset="0x14">INGAME3.ALB</rom>
+			<rom type="file" offset="0x15">INGAME4.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Intro</title>
+			<title code="0x12">Ingame 1</title>
+			<title code="0x13">Ingame 2</title>
+			<title code="0x14">Ingame 3</title>
+			<title code="0x15">Ingame 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Daemonsgate (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="dgate_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">DGTITLE.RLD</rom>
+			<rom type="file" offset="0x11">INTRO.RLD</rom>
+			<rom type="file" offset="0x12">INGAME1.RLD</rom>
+			<rom type="file" offset="0x13">INGAME2.RLD</rom>
+			<rom type="file" offset="0x14">INGAME3.RLD</rom>
+			<rom type="file" offset="0x15">INGAME4.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Intro</title>
+			<title code="0x12">Ingame 1</title>
+			<title code="0x13">Ingame 2</title>
+			<title code="0x14">Ingame 3</title>
+			<title code="0x15">Ingame 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Daemonsgate (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="dgate_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">DGTITLE.RLD</rom>
+			<rom type="file" offset="0x11">INTRO.RLD</rom>
+			<rom type="file" offset="0x12">INGAME1.RLD</rom>
+			<rom type="file" offset="0x13">INGAME2.RLD</rom>
+			<rom type="file" offset="0x14">INGAME3.RLD</rom>
+			<rom type="file" offset="0x15">INGAME4.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title tune</title>
+			<title code="0x11">Intro</title>
+			<title code="0x12">Ingame 1</title>
+			<title code="0x13">Ingame 2</title>
+			<title code="0x14">Ingame 3</title>
+			<title code="0x15">Ingame 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] King's Table: The Legend of Ragnarok (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="kingstable_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.ALB</rom>
+			<rom type="file" offset="0x11">GAME.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">GAME</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] King's Table: The Legend of Ragnarok (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="kingstable_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.RLD</rom>
+			<rom type="file" offset="0x11">GAME.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">GAME</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] King's Table: The Legend of Ragnarok (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="kingstable_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.RLD</rom>
+			<rom type="file" offset="0x11">GAME.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">GAME</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Prophecy 1: The Viking Child (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="vchild_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">TILE.ALB</rom>
+			<rom type="file" offset="0x11">PROPHECY.ALB</rom>
+			<rom type="file" offset="0x12">LOADING.ALB</rom>
+			<rom type="file" offset="0x13">P1.ALB</rom>
+			<rom type="file" offset="0x14">P2.ALB</rom>
+			<rom type="file" offset="0x15">P3.ALB</rom>
+			<rom type="file" offset="0x16">P4.ALB</rom>
+			<rom type="file" offset="0x17">P5.ALB</rom>
+			<rom type="file" offset="0x18">P6.ALB</rom>
+			<rom type="file" offset="0x19">P7.ALB</rom>
+			<rom type="file" offset="0x1A">P8.ALB</rom>
+			<rom type="file" offset="0x1B">P9.ALB</rom>
+			<rom type="file" offset="0x1C">M1.ALB</rom>
+			<rom type="file" offset="0x1D">M2.ALB</rom>
+			<rom type="file" offset="0x1E">M3.ALB</rom>
+			<rom type="file" offset="0x1F">M4.ALB</rom>
+			<rom type="file" offset="0x20">M5.ALB</rom>
+			<rom type="file" offset="0x21">M6.ALB</rom>
+			<rom type="file" offset="0x22">M7.ALB</rom>
+			<rom type="file" offset="0x23">M9.ALB</rom>
+			<rom type="file" offset="0x24">M9.ALB</rom>
+			<rom type="file" offset="0x25">DEATH.ALB</rom>
+			<rom type="file" offset="0x26">COMPLET.ALB</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">PROPHECY</title>
+			<title code="0x12">LOADING</title>
+			<title code="0x13">P1</title>
+			<title code="0x14">P2</title>
+			<title code="0x15">P3</title>
+			<title code="0x16">P4</title>
+			<title code="0x17">P5</title>
+			<title code="0x18">P6</title>
+			<title code="0x19">P7</title>
+			<title code="0x1A">P8</title>
+			<title code="0x1B">P9</title>
+			<title code="0x1C">M1</title>
+			<title code="0x1D">M2</title>
+			<title code="0x1E">M3</title>
+			<title code="0x1F">M4</title>
+			<title code="0x20">M5</title>
+			<title code="0x21">M6</title>
+			<title code="0x22">M7</title>
+			<title code="0x23">M8</title>
+			<title code="0x24">M9</title>
+			<title code="0x25">DEATH</title>
+			<title code="0x26">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Prophecy 1: The Viking Child (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="vchild_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TILE.RLD</rom>
+			<rom type="file" offset="0x11">PROPHECY.RLD</rom>
+			<rom type="file" offset="0x12">LOADING.RLD</rom>
+			<rom type="file" offset="0x13">P1.RLD</rom>
+			<rom type="file" offset="0x14">P2.RLD</rom>
+			<rom type="file" offset="0x15">P3.RLD</rom>
+			<rom type="file" offset="0x16">P4.RLD</rom>
+			<rom type="file" offset="0x17">P5.RLD</rom>
+			<rom type="file" offset="0x18">P6.RLD</rom>
+			<rom type="file" offset="0x19">P7.RLD</rom>
+			<rom type="file" offset="0x1A">P8.RLD</rom>
+			<rom type="file" offset="0x1B">P9.RLD</rom>
+			<rom type="file" offset="0x1C">M1.RLD</rom>
+			<rom type="file" offset="0x1D">M2.RLD</rom>
+			<rom type="file" offset="0x1E">M3.RLD</rom>
+			<rom type="file" offset="0x1F">M4.RLD</rom>
+			<rom type="file" offset="0x20">M5.RLD</rom>
+			<rom type="file" offset="0x21">M6.RLD</rom>
+			<rom type="file" offset="0x22">M7.RLD</rom>
+			<rom type="file" offset="0x23">M9.RLD</rom>
+			<rom type="file" offset="0x24">M9.RLD</rom>
+			<rom type="file" offset="0x25">DEATH.RLD</rom>
+			<rom type="file" offset="0x26">COMPLET.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">PROPHECY</title>
+			<title code="0x12">LOADING</title>
+			<title code="0x13">P1</title>
+			<title code="0x14">P2</title>
+			<title code="0x15">P3</title>
+			<title code="0x16">P4</title>
+			<title code="0x17">P5</title>
+			<title code="0x18">P6</title>
+			<title code="0x19">P7</title>
+			<title code="0x1A">P8</title>
+			<title code="0x1B">P9</title>
+			<title code="0x1C">M1</title>
+			<title code="0x1D">M2</title>
+			<title code="0x1E">M3</title>
+			<title code="0x1F">M4</title>
+			<title code="0x20">M5</title>
+			<title code="0x21">M6</title>
+			<title code="0x22">M7</title>
+			<title code="0x23">M8</title>
+			<title code="0x24">M9</title>
+			<title code="0x25">DEATH</title>
+			<title code="0x26">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Prophecy 1: The Viking Child (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="vchild_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TILE.RLD</rom>
+			<rom type="file" offset="0x11">PROPHECY.RLD</rom>
+			<rom type="file" offset="0x12">LOADING.RLD</rom>
+			<rom type="file" offset="0x13">P1.RLD</rom>
+			<rom type="file" offset="0x14">P2.RLD</rom>
+			<rom type="file" offset="0x15">P3.RLD</rom>
+			<rom type="file" offset="0x16">P4.RLD</rom>
+			<rom type="file" offset="0x17">P5.RLD</rom>
+			<rom type="file" offset="0x18">P6.RLD</rom>
+			<rom type="file" offset="0x19">P7.RLD</rom>
+			<rom type="file" offset="0x1A">P8.RLD</rom>
+			<rom type="file" offset="0x1B">P9.RLD</rom>
+			<rom type="file" offset="0x1C">M1.RLD</rom>
+			<rom type="file" offset="0x1D">M2.RLD</rom>
+			<rom type="file" offset="0x1E">M3.RLD</rom>
+			<rom type="file" offset="0x1F">M4.RLD</rom>
+			<rom type="file" offset="0x20">M5.RLD</rom>
+			<rom type="file" offset="0x21">M6.RLD</rom>
+			<rom type="file" offset="0x22">M7.RLD</rom>
+			<rom type="file" offset="0x23">M9.RLD</rom>
+			<rom type="file" offset="0x24">M9.RLD</rom>
+			<rom type="file" offset="0x25">DEATH.RLD</rom>
+			<rom type="file" offset="0x26">COMPLET.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">PROPHECY</title>
+			<title code="0x12">LOADING</title>
+			<title code="0x13">P1</title>
+			<title code="0x14">P2</title>
+			<title code="0x15">P3</title>
+			<title code="0x16">P4</title>
+			<title code="0x17">P5</title>
+			<title code="0x18">P6</title>
+			<title code="0x19">P7</title>
+			<title code="0x1A">P8</title>
+			<title code="0x1B">P9</title>
+			<title code="0x1C">M1</title>
+			<title code="0x1D">M2</title>
+			<title code="0x1E">M3</title>
+			<title code="0x1F">M4</title>
+			<title code="0x20">M5</title>
+			<title code="0x21">M6</title>
+			<title code="0x22">M7</title>
+			<title code="0x23">M8</title>
+			<title code="0x24">M9</title>
+			<title code="0x25">DEATH</title>
+			<title code="0x26">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Humans (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="humans_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.ALB</rom>
+			<rom type="file" offset="0x11">PARTY.ALB</rom>
+			<rom type="file" offset="0x12">LEV1.ALB</rom>
+			<rom type="file" offset="0x13">LEV2.ALB</rom>
+			<rom type="file" offset="0x14">LEV3.ALB</rom>
+			<rom type="file" offset="0x15">LEV4.ALB</rom>
+			<rom type="file" offset="0x16">LEV5.ALB</rom>
+			<rom type="file" offset="0x17">LEV6.ALB</rom>
+			<rom type="file" offset="0x18">LEV7.ALB</rom>
+			<rom type="file" offset="0x19">LEV8.ALB</rom>
+			<rom type="file" offset="0x1A">LEV9.ALB</rom>
+			<rom type="file" offset="0x1B">HISCORE.ALB</rom>
+			<rom type="file" offset="0x1C">DISK.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+			<title code="0x11">Party</title>
+			<title code="0x12">Level 1</title>
+			<title code="0x13">Level 2</title>
+			<title code="0x14">Level 3</title>
+			<title code="0x15">Level 4</title>
+			<title code="0x16">Level 5</title>
+			<title code="0x17">Level 6</title>
+			<title code="0x18">Level 7</title>
+			<title code="0x19">Level 8</title>
+			<title code="0x1A">Level 9</title>
+			<title code="0x1B">Hiscore</title>
+			<title code="0x1C">Change disk</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Humans (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="humans_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">PARTY.RLD</rom>
+			<rom type="file" offset="0x12">LEV1.RLD</rom>
+			<rom type="file" offset="0x13">LEV2.RLD</rom>
+			<rom type="file" offset="0x14">LEV3.RLD</rom>
+			<rom type="file" offset="0x15">LEV4.RLD</rom>
+			<rom type="file" offset="0x16">LEV5.RLD</rom>
+			<rom type="file" offset="0x17">LEV6.RLD</rom>
+			<rom type="file" offset="0x18">LEV7.RLD</rom>
+			<rom type="file" offset="0x19">LEV8.RLD</rom>
+			<rom type="file" offset="0x1A">LEV9.RLD</rom>
+			<rom type="file" offset="0x1B">HISCORE.RLD</rom>
+			<rom type="file" offset="0x1C">DISK.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+			<title code="0x11">Party</title>
+			<title code="0x12">Level 1</title>
+			<title code="0x13">Level 2</title>
+			<title code="0x14">Level 3</title>
+			<title code="0x15">Level 4</title>
+			<title code="0x16">Level 5</title>
+			<title code="0x17">Level 6</title>
+			<title code="0x18">Level 7</title>
+			<title code="0x19">Level 8</title>
+			<title code="0x1A">Level 9</title>
+			<title code="0x1B">Hiscore</title>
+			<title code="0x1C">Change disk</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Humans (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="humans_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">PARTY.RLD</rom>
+			<rom type="file" offset="0x12">LEV1.RLD</rom>
+			<rom type="file" offset="0x13">LEV2.RLD</rom>
+			<rom type="file" offset="0x14">LEV3.RLD</rom>
+			<rom type="file" offset="0x15">LEV4.RLD</rom>
+			<rom type="file" offset="0x16">LEV5.RLD</rom>
+			<rom type="file" offset="0x17">LEV6.RLD</rom>
+			<rom type="file" offset="0x18">LEV7.RLD</rom>
+			<rom type="file" offset="0x19">LEV8.RLD</rom>
+			<rom type="file" offset="0x1A">LEV9.RLD</rom>
+			<rom type="file" offset="0x1B">HISCORE.RLD</rom>
+			<rom type="file" offset="0x1C">DISK.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+			<title code="0x11">Party</title>
+			<title code="0x12">Level 1</title>
+			<title code="0x13">Level 2</title>
+			<title code="0x14">Level 3</title>
+			<title code="0x15">Level 4</title>
+			<title code="0x16">Level 5</title>
+			<title code="0x17">Level 6</title>
+			<title code="0x18">Level 7</title>
+			<title code="0x19">Level 8</title>
+			<title code="0x1A">Level 9</title>
+			<title code="0x1B">Hiscore</title>
+			<title code="0x1C">Change disk</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Humans 3: Evolution - Lost in Time... (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Imagitec Design</driveralias>
+		<options>
+			<option name="clockmul" value="16"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="humans3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">MUS/EVOTIT.MID</rom>
+			<rom type="file" offset="0x11">MUS/EVO1.MID</rom>
+			<rom type="file" offset="0x12">MUS/EVO2.MID</rom>
+			<rom type="file" offset="0x13">MUS/EVO3.MID</rom>
+			<rom type="file" offset="0x14">MUS/EVO4.MID</rom>
+			<rom type="file" offset="0x15">MUS/EVO5.MID</rom>
+			<rom type="file" offset="0x16">MUS/EVO6.MID</rom>
+			<rom type="file" offset="0x17">MUS/EVO7.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">evotit</title>
+			<title code="0x11">evo1</title>
+			<title code="0x12">evo2</title>
+			<title code="0x13">evo3</title>
+			<title code="0x14">evo4</title>
+			<title code="0x15">evo5</title>
+			<title code="0x16">evo6</title>
+			<title code="0x17">evo7</title>
+		</titlelist>
+	</game>
+</gamelist>

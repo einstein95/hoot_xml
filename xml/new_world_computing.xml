@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- New World Computing -->
+	<game>
+		<name>[PC/AT] Might &amp; Magic III: Isles of Terra (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="mm3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">mm3theme.m</rom>
+			<rom type="file" offset="0x11">bank.m</rom>
+			<rom type="file" offset="0x12">caves.m</rom>
+			<rom type="file" offset="0x13">city.m</rom>
+			<rom type="file" offset="0x14">combat.m</rom>
+			<rom type="file" offset="0x15">cyber.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">eerie.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">honky.m</rom>
+			<rom type="file" offset="0x1B">medieval.m</rom>
+			<rom type="file" offset="0x1C">temples.m</rom>
+			<rom type="file" offset="0x1D">towninn.m</rom>
+			<rom type="file" offset="0x1E">venture.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x11">bank</title>
+			<title code="0x12">caves</title>
+			<title code="0x13">city</title>
+			<title code="0x14">combat</title>
+			<title code="0x15">cyber</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">eerie</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">honky</title>
+			<title code="0x1B">medieval</title>
+			<title code="0x1C">temples</title>
+			<title code="0x1D">towninn</title>
+			<title code="0x1E">venture</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic III: Isles of Terra (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="mm3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">mm3theme.m</rom>
+			<rom type="file" offset="0x11">bank.m</rom>
+			<rom type="file" offset="0x12">caves.m</rom>
+			<rom type="file" offset="0x13">city.m</rom>
+			<rom type="file" offset="0x14">combat.m</rom>
+			<rom type="file" offset="0x15">cyber.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">eerie.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">honky.m</rom>
+			<rom type="file" offset="0x1B">medieval.m</rom>
+			<rom type="file" offset="0x1C">temples.m</rom>
+			<rom type="file" offset="0x1D">towninn.m</rom>
+			<rom type="file" offset="0x1E">venture.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x11">bank</title>
+			<title code="0x12">caves</title>
+			<title code="0x13">city</title>
+			<title code="0x14">combat</title>
+			<title code="0x15">cyber</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">eerie</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">honky</title>
+			<title code="0x1B">medieval</title>
+			<title code="0x1C">temples</title>
+			<title code="0x1D">towninn</title>
+			<title code="0x1E">venture</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic III: Isles of Terra (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="mm3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">mm3theme.m</rom>
+			<rom type="file" offset="0x11">bank.m</rom>
+			<rom type="file" offset="0x12">caves.m</rom>
+			<rom type="file" offset="0x13">city.m</rom>
+			<rom type="file" offset="0x14">combat.m</rom>
+			<rom type="file" offset="0x15">cyber.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">eerie.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">honky.m</rom>
+			<rom type="file" offset="0x1B">medieval.m</rom>
+			<rom type="file" offset="0x1C">temples.m</rom>
+			<rom type="file" offset="0x1D">towninn.m</rom>
+			<rom type="file" offset="0x1E">venture.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x11">bank</title>
+			<title code="0x12">caves</title>
+			<title code="0x13">city</title>
+			<title code="0x14">combat</title>
+			<title code="0x15">cyber</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">eerie</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">honky</title>
+			<title code="0x1B">medieval</title>
+			<title code="0x1C">temples</title>
+			<title code="0x1D">towninn</title>
+			<title code="0x1E">venture</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic IV: Clouds of Xeen (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x200"/>
+		</options>
+		<romlist archive="mm4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">BLASTMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">mm4theme.m</rom>
+			<rom type="file" offset="0x13">bank.m</rom>
+			<rom type="file" offset="0x14">castle.m</rom>
+			<rom type="file" offset="0x15">cavern.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">endgame.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">inn.m</rom>
+			<rom type="file" offset="0x1B">outdoors.m</rom>
+			<rom type="file" offset="0x1C">smith.m</rom>
+			<rom type="file" offset="0x1D">tavern.m</rom>
+			<rom type="file" offset="0x1E">temple.m</rom>
+			<rom type="file" offset="0x1F">town.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x12">theme</title>
+			<title code="0x13">bank</title>
+			<title code="0x14">castle</title>
+			<title code="0x15">cavern</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">endgame</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">inn</title>
+			<title code="0x1B">outdoors</title>
+			<title code="0x1C">smith</title>
+			<title code="0x1D">tavern</title>
+			<title code="0x1E">temple</title>
+			<title code="0x1F">town</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic IV: Clouds of Xeen (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="mm4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">mm4theme.m</rom>
+			<rom type="file" offset="0x13">bank.m</rom>
+			<rom type="file" offset="0x14">castle.m</rom>
+			<rom type="file" offset="0x15">cavern.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">endgame.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">inn.m</rom>
+			<rom type="file" offset="0x1B">outdoors.m</rom>
+			<rom type="file" offset="0x1C">smith.m</rom>
+			<rom type="file" offset="0x1D">tavern.m</rom>
+			<rom type="file" offset="0x1E">temple.m</rom>
+			<rom type="file" offset="0x1F">town.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x13">bank</title>
+			<title code="0x14">castle</title>
+			<title code="0x15">cavern</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">endgame</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">inn</title>
+			<title code="0x1B">outdoors</title>
+			<title code="0x1C">smith</title>
+			<title code="0x1D">tavern</title>
+			<title code="0x1E">temple</title>
+			<title code="0x1F">town</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic IV: Clouds of Xeen (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="mm4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">mm4theme.m</rom>
+			<rom type="file" offset="0x13">bank.m</rom>
+			<rom type="file" offset="0x14">castle.m</rom>
+			<rom type="file" offset="0x15">cavern.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">endgame.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">inn.m</rom>
+			<rom type="file" offset="0x1B">outdoors.m</rom>
+			<rom type="file" offset="0x1C">smith.m</rom>
+			<rom type="file" offset="0x1D">tavern.m</rom>
+			<rom type="file" offset="0x1E">temple.m</rom>
+			<rom type="file" offset="0x1F">town.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x13">bank</title>
+			<title code="0x14">castle</title>
+			<title code="0x15">cavern</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">endgame</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">inn</title>
+			<title code="0x1B">outdoors</title>
+			<title code="0x1C">smith</title>
+			<title code="0x1D">tavern</title>
+			<title code="0x1E">temple</title>
+			<title code="0x1F">town</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic IV: Clouds of Xeen (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="mm4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">CANMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">mm4theme.m</rom>
+			<rom type="file" offset="0x13">bank.m</rom>
+			<rom type="file" offset="0x14">castle.m</rom>
+			<rom type="file" offset="0x15">cavern.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">endgame.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">inn.m</rom>
+			<rom type="file" offset="0x1B">outdoors.m</rom>
+			<rom type="file" offset="0x1C">smith.m</rom>
+			<rom type="file" offset="0x1D">tavern.m</rom>
+			<rom type="file" offset="0x1E">temple.m</rom>
+			<rom type="file" offset="0x1F">town.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">theme</title>
+			<title code="0x13">bank</title>
+			<title code="0x14">castle</title>
+			<title code="0x15">cavern</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">endgame</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">inn</title>
+			<title code="0x1B">outdoors</title>
+			<title code="0x1C">smith</title>
+			<title code="0x1D">tavern</title>
+			<title code="0x1E">temple</title>
+			<title code="0x1F">town</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic IV: Clouds of Xeen (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="mm4_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">CANMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">mm4theme.m</rom>
+			<rom type="file" offset="0x13">bank.m</rom>
+			<rom type="file" offset="0x14">castle.m</rom>
+			<rom type="file" offset="0x15">cavern.m</rom>
+			<rom type="file" offset="0x16">dungeon.m</rom>
+			<rom type="file" offset="0x17">endgame.m</rom>
+			<rom type="file" offset="0x18">grounds.m</rom>
+			<rom type="file" offset="0x19">guild.m</rom>
+			<rom type="file" offset="0x1A">inn.m</rom>
+			<rom type="file" offset="0x1B">outdoors.m</rom>
+			<rom type="file" offset="0x1C">smith.m</rom>
+			<rom type="file" offset="0x1D">tavern.m</rom>
+			<rom type="file" offset="0x1E">temple.m</rom>
+			<rom type="file" offset="0x1F">town.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">theme</title>
+			<title code="0x13">bank</title>
+			<title code="0x14">castle</title>
+			<title code="0x15">cavern</title>
+			<title code="0x16">dungeon</title>
+			<title code="0x17">endgame</title>
+			<title code="0x18">grounds</title>
+			<title code="0x19">guild</title>
+			<title code="0x1A">inn</title>
+			<title code="0x1B">outdoors</title>
+			<title code="0x1C">smith</title>
+			<title code="0x1D">tavern</title>
+			<title code="0x1E">temple</title>
+			<title code="0x1F">town</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic V: Darkside of Xeen (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x200"/>
+		</options>
+		<romlist archive="mm5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">BLASTMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">bank.m</rom>
+			<rom type="file" offset="0x13">cavern1.m</rom>
+			<rom type="file" offset="0x14">cavern2.m</rom>
+			<rom type="file" offset="0x15">cavern3a.m</rom>
+			<rom type="file" offset="0x16">cstl1rev.m</rom>
+			<rom type="file" offset="0x17">cstl2rev.m</rom>
+			<rom type="file" offset="0x18">cstl3rev.m</rom>
+			<rom type="file" offset="0x19">daydesrt.m</rom>
+			<rom type="file" offset="0x1A">dngon1.m</rom>
+			<rom type="file" offset="0x1B">dngon2.m</rom>
+			<rom type="file" offset="0x1C">dngon3.m</rom>
+			<rom type="file" offset="0x1D">dungeon2.m</rom>
+			<rom type="file" offset="0x1E">guild.m</rom>
+			<rom type="file" offset="0x1F">newbrigh.m</rom>
+			<rom type="file" offset="0x20">nwblksmt.m</rom>
+			<rom type="file" offset="0x21">outday1.m</rom>
+			<rom type="file" offset="0x22">outday2.m</rom>
+			<rom type="file" offset="0x23">outday3.m</rom>
+			<rom type="file" offset="0x24">outday4.m</rom>
+			<rom type="file" offset="0x25">outnght1.m</rom>
+			<rom type="file" offset="0x26">outnght2.m</rom>
+			<rom type="file" offset="0x27">outnght4.m</rom>
+			<rom type="file" offset="0x28">sf05.m</rom>
+			<rom type="file" offset="0x29">sf09.m</rom>
+			<rom type="file" offset="0x2A">sf17.m</rom>
+			<rom type="file" offset="0x2B">smith.m</rom>
+			<rom type="file" offset="0x2C">tavern.m</rom>
+			<rom type="file" offset="0x2D">temple.m</rom>
+			<rom type="file" offset="0x2E">townday1.m</rom>
+			<rom type="file" offset="0x2F">twnnitea.m</rom>
+			<rom type="file" offset="0x30">twnniteb.m</rom>
+			<rom type="file" offset="0x31">twnwlk.m</rom>
+			<rom type="file" offset="0x32">unknown.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x12">bank</title>
+			<title code="0x13">cavern1</title>
+			<title code="0x14">cavern2</title>
+			<title code="0x15">cavern3a</title>
+			<title code="0x16">cstl1rev</title>
+			<title code="0x17">cstl2rev</title>
+			<title code="0x18">cstl3rev</title>
+			<title code="0x19">daydesrt</title>
+			<title code="0x1A">dngon1</title>
+			<title code="0x1B">dngon2</title>
+			<title code="0x1C">dngon3</title>
+			<title code="0x1D">dungeon2</title>
+			<title code="0x1E">guild</title>
+			<title code="0x1F">newbrigh</title>
+			<title code="0x20">nwblksmt</title>
+			<title code="0x21">outday1</title>
+			<title code="0x22">outday2</title>
+			<title code="0x23">outday3</title>
+			<title code="0x24">outday4</title>
+			<title code="0x25">outnght1</title>
+			<title code="0x26">outnght2</title>
+			<title code="0x27">outnght4</title>
+			<title code="0x28">sf05</title>
+			<title code="0x29">sf09</title>
+			<title code="0x2A">sf17</title>
+			<title code="0x2B">smith</title>
+			<title code="0x2C">tavern</title>
+			<title code="0x2D">temple</title>
+			<title code="0x2E">townday1</title>
+			<title code="0x2F">twnnitea</title>
+			<title code="0x30">twnniteb</title>
+			<title code="0x31">twnwlk</title>
+			<title code="0x32">unknown</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic V: Darkside of Xeen (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="mm5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">bank.m</rom>
+			<rom type="file" offset="0x13">cavern1.m</rom>
+			<rom type="file" offset="0x14">cavern2.m</rom>
+			<rom type="file" offset="0x15">cavern3a.m</rom>
+			<rom type="file" offset="0x16">cstl1rev.m</rom>
+			<rom type="file" offset="0x17">cstl2rev.m</rom>
+			<rom type="file" offset="0x18">cstl3rev.m</rom>
+			<rom type="file" offset="0x19">daydesrt.m</rom>
+			<rom type="file" offset="0x1A">dngon1.m</rom>
+			<rom type="file" offset="0x1B">dngon2.m</rom>
+			<rom type="file" offset="0x1C">dngon3.m</rom>
+			<rom type="file" offset="0x1D">dungeon2.m</rom>
+			<rom type="file" offset="0x1E">guild.m</rom>
+			<rom type="file" offset="0x1F">newbrigh.m</rom>
+			<rom type="file" offset="0x20">nwblksmt.m</rom>
+			<rom type="file" offset="0x21">outday1.m</rom>
+			<rom type="file" offset="0x22">outday2.m</rom>
+			<rom type="file" offset="0x23">outday3.m</rom>
+			<rom type="file" offset="0x24">outday4.m</rom>
+			<rom type="file" offset="0x25">outnght1.m</rom>
+			<rom type="file" offset="0x26">outnght2.m</rom>
+			<rom type="file" offset="0x27">outnght4.m</rom>
+			<rom type="file" offset="0x28">sf05.m</rom>
+			<rom type="file" offset="0x29">sf09.m</rom>
+			<rom type="file" offset="0x2A">sf17.m</rom>
+			<rom type="file" offset="0x2B">smith.m</rom>
+			<rom type="file" offset="0x2C">tavern.m</rom>
+			<rom type="file" offset="0x2D">temple.m</rom>
+			<rom type="file" offset="0x2E">townday1.m</rom>
+			<rom type="file" offset="0x2F">twnnitea.m</rom>
+			<rom type="file" offset="0x30">twnniteb.m</rom>
+			<rom type="file" offset="0x31">twnwlk.m</rom>
+			<rom type="file" offset="0x32">unknown.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x12">bank</title>
+			<title code="0x13">cavern1</title>
+			<title code="0x14">cavern2</title>
+			<title code="0x15">cavern3a</title>
+			<title code="0x16">cstl1rev</title>
+			<title code="0x17">cstl2rev</title>
+			<title code="0x18">cstl3rev</title>
+			<title code="0x19">daydesrt</title>
+			<title code="0x1A">dngon1</title>
+			<title code="0x1B">dngon2</title>
+			<title code="0x1C">dngon3</title>
+			<title code="0x1D">dungeon2</title>
+			<title code="0x1E">guild</title>
+			<title code="0x1F">newbrigh</title>
+			<title code="0x20">nwblksmt</title>
+			<title code="0x21">outday1</title>
+			<title code="0x22">outday2</title>
+			<title code="0x23">outday3</title>
+			<title code="0x24">outday4</title>
+			<title code="0x25">outnght1</title>
+			<title code="0x26">outnght2</title>
+			<title code="0x27">outnght4</title>
+			<title code="0x28">sf05</title>
+			<title code="0x29">sf09</title>
+			<title code="0x2A">sf17</title>
+			<title code="0x2B">smith</title>
+			<title code="0x2C">tavern</title>
+			<title code="0x2D">temple</title>
+			<title code="0x2E">townday1</title>
+			<title code="0x2F">twnnitea</title>
+			<title code="0x30">twnniteb</title>
+			<title code="0x31">twnwlk</title>
+			<title code="0x32">unknown</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic V: Darkside of Xeen (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="mm5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">bank.m</rom>
+			<rom type="file" offset="0x13">cavern1.m</rom>
+			<rom type="file" offset="0x14">cavern2.m</rom>
+			<rom type="file" offset="0x15">cavern3a.m</rom>
+			<rom type="file" offset="0x16">cstl1rev.m</rom>
+			<rom type="file" offset="0x17">cstl2rev.m</rom>
+			<rom type="file" offset="0x18">cstl3rev.m</rom>
+			<rom type="file" offset="0x19">daydesrt.m</rom>
+			<rom type="file" offset="0x1A">dngon1.m</rom>
+			<rom type="file" offset="0x1B">dngon2.m</rom>
+			<rom type="file" offset="0x1C">dngon3.m</rom>
+			<rom type="file" offset="0x1D">dungeon2.m</rom>
+			<rom type="file" offset="0x1E">guild.m</rom>
+			<rom type="file" offset="0x1F">newbrigh.m</rom>
+			<rom type="file" offset="0x20">nwblksmt.m</rom>
+			<rom type="file" offset="0x21">outday1.m</rom>
+			<rom type="file" offset="0x22">outday2.m</rom>
+			<rom type="file" offset="0x23">outday3.m</rom>
+			<rom type="file" offset="0x24">outday4.m</rom>
+			<rom type="file" offset="0x25">outnght1.m</rom>
+			<rom type="file" offset="0x26">outnght2.m</rom>
+			<rom type="file" offset="0x27">outnght4.m</rom>
+			<rom type="file" offset="0x28">sf05.m</rom>
+			<rom type="file" offset="0x29">sf09.m</rom>
+			<rom type="file" offset="0x2A">sf17.m</rom>
+			<rom type="file" offset="0x2B">smith.m</rom>
+			<rom type="file" offset="0x2C">tavern.m</rom>
+			<rom type="file" offset="0x2D">temple.m</rom>
+			<rom type="file" offset="0x2E">townday1.m</rom>
+			<rom type="file" offset="0x2F">twnnitea.m</rom>
+			<rom type="file" offset="0x30">twnniteb.m</rom>
+			<rom type="file" offset="0x31">twnwlk.m</rom>
+			<rom type="file" offset="0x32">unknown.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">theme</title>
+			<title code="0x12">bank</title>
+			<title code="0x13">cavern1</title>
+			<title code="0x14">cavern2</title>
+			<title code="0x15">cavern3a</title>
+			<title code="0x16">cstl1rev</title>
+			<title code="0x17">cstl2rev</title>
+			<title code="0x18">cstl3rev</title>
+			<title code="0x19">daydesrt</title>
+			<title code="0x1A">dngon1</title>
+			<title code="0x1B">dngon2</title>
+			<title code="0x1C">dngon3</title>
+			<title code="0x1D">dungeon2</title>
+			<title code="0x1E">guild</title>
+			<title code="0x1F">newbrigh</title>
+			<title code="0x20">nwblksmt</title>
+			<title code="0x21">outday1</title>
+			<title code="0x22">outday2</title>
+			<title code="0x23">outday3</title>
+			<title code="0x24">outday4</title>
+			<title code="0x25">outnght1</title>
+			<title code="0x26">outnght2</title>
+			<title code="0x27">outnght4</title>
+			<title code="0x28">sf05</title>
+			<title code="0x29">sf09</title>
+			<title code="0x2A">sf17</title>
+			<title code="0x2B">smith</title>
+			<title code="0x2C">tavern</title>
+			<title code="0x2D">temple</title>
+			<title code="0x2E">townday1</title>
+			<title code="0x2F">twnnitea</title>
+			<title code="0x30">twnniteb</title>
+			<title code="0x31">twnwlk</title>
+			<title code="0x32">unknown</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic V: Darkside of Xeen (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="mm5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">CANMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">bank.m</rom>
+			<rom type="file" offset="0x13">cavern1.m</rom>
+			<rom type="file" offset="0x14">cavern2.m</rom>
+			<rom type="file" offset="0x15">cavern3a.m</rom>
+			<rom type="file" offset="0x16">cstl1rev.m</rom>
+			<rom type="file" offset="0x17">cstl2rev.m</rom>
+			<rom type="file" offset="0x18">cstl3rev.m</rom>
+			<rom type="file" offset="0x19">daydesrt.m</rom>
+			<rom type="file" offset="0x1A">dngon1.m</rom>
+			<rom type="file" offset="0x1B">dngon2.m</rom>
+			<rom type="file" offset="0x1C">dngon3.m</rom>
+			<rom type="file" offset="0x1D">dungeon2.m</rom>
+			<rom type="file" offset="0x1E">guild.m</rom>
+			<rom type="file" offset="0x1F">newbrigh.m</rom>
+			<rom type="file" offset="0x20">nwblksmt.m</rom>
+			<rom type="file" offset="0x21">outday1.m</rom>
+			<rom type="file" offset="0x22">outday2.m</rom>
+			<rom type="file" offset="0x23">outday3.m</rom>
+			<rom type="file" offset="0x24">outday4.m</rom>
+			<rom type="file" offset="0x25">outnght1.m</rom>
+			<rom type="file" offset="0x26">outnght2.m</rom>
+			<rom type="file" offset="0x27">outnght4.m</rom>
+			<rom type="file" offset="0x28">sf05.m</rom>
+			<rom type="file" offset="0x29">sf09.m</rom>
+			<rom type="file" offset="0x2A">sf17.m</rom>
+			<rom type="file" offset="0x2B">smith.m</rom>
+			<rom type="file" offset="0x2C">tavern.m</rom>
+			<rom type="file" offset="0x2D">temple.m</rom>
+			<rom type="file" offset="0x2E">townday1.m</rom>
+			<rom type="file" offset="0x2F">twnnitea.m</rom>
+			<rom type="file" offset="0x30">twnniteb.m</rom>
+			<rom type="file" offset="0x31">twnwlk.m</rom>
+			<rom type="file" offset="0x32">unknown.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">theme</title>
+			<title code="0x12">bank</title>
+			<title code="0x13">cavern1</title>
+			<title code="0x14">cavern2</title>
+			<title code="0x15">cavern3a</title>
+			<title code="0x16">cstl1rev</title>
+			<title code="0x17">cstl2rev</title>
+			<title code="0x18">cstl3rev</title>
+			<title code="0x19">daydesrt</title>
+			<title code="0x1A">dngon1</title>
+			<title code="0x1B">dngon2</title>
+			<title code="0x1C">dngon3</title>
+			<title code="0x1D">dungeon2</title>
+			<title code="0x1E">guild</title>
+			<title code="0x1F">newbrigh</title>
+			<title code="0x20">nwblksmt</title>
+			<title code="0x21">outday1</title>
+			<title code="0x22">outday2</title>
+			<title code="0x23">outday3</title>
+			<title code="0x24">outday4</title>
+			<title code="0x25">outnght1</title>
+			<title code="0x26">outnght2</title>
+			<title code="0x27">outnght4</title>
+			<title code="0x28">sf05</title>
+			<title code="0x29">sf09</title>
+			<title code="0x2A">sf17</title>
+			<title code="0x2B">smith</title>
+			<title code="0x2C">tavern</title>
+			<title code="0x2D">temple</title>
+			<title code="0x2E">townday1</title>
+			<title code="0x2F">twnnitea</title>
+			<title code="0x30">twnniteb</title>
+			<title code="0x31">twnwlk</title>
+			<title code="0x32">unknown</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Might &amp; Magic V: Darkside of Xeen (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="mm5_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">CANMUS.DRV</rom>
+			<rom type="file" offset="0x10">bigtheme.m</rom>
+			<rom type="file" offset="0x11">cantheme.m</rom>
+			<rom type="file" offset="0x12">bank.m</rom>
+			<rom type="file" offset="0x13">cavern1.m</rom>
+			<rom type="file" offset="0x14">cavern2.m</rom>
+			<rom type="file" offset="0x15">cavern3a.m</rom>
+			<rom type="file" offset="0x16">cstl1rev.m</rom>
+			<rom type="file" offset="0x17">cstl2rev.m</rom>
+			<rom type="file" offset="0x18">cstl3rev.m</rom>
+			<rom type="file" offset="0x19">daydesrt.m</rom>
+			<rom type="file" offset="0x1A">dngon1.m</rom>
+			<rom type="file" offset="0x1B">dngon2.m</rom>
+			<rom type="file" offset="0x1C">dngon3.m</rom>
+			<rom type="file" offset="0x1D">dungeon2.m</rom>
+			<rom type="file" offset="0x1E">guild.m</rom>
+			<rom type="file" offset="0x1F">newbrigh.m</rom>
+			<rom type="file" offset="0x20">nwblksmt.m</rom>
+			<rom type="file" offset="0x21">outday1.m</rom>
+			<rom type="file" offset="0x22">outday2.m</rom>
+			<rom type="file" offset="0x23">outday3.m</rom>
+			<rom type="file" offset="0x24">outday4.m</rom>
+			<rom type="file" offset="0x25">outnght1.m</rom>
+			<rom type="file" offset="0x26">outnght2.m</rom>
+			<rom type="file" offset="0x27">outnght4.m</rom>
+			<rom type="file" offset="0x28">sf05.m</rom>
+			<rom type="file" offset="0x29">sf09.m</rom>
+			<rom type="file" offset="0x2A">sf17.m</rom>
+			<rom type="file" offset="0x2B">smith.m</rom>
+			<rom type="file" offset="0x2C">tavern.m</rom>
+			<rom type="file" offset="0x2D">temple.m</rom>
+			<rom type="file" offset="0x2E">townday1.m</rom>
+			<rom type="file" offset="0x2F">twnnitea.m</rom>
+			<rom type="file" offset="0x30">twnniteb.m</rom>
+			<rom type="file" offset="0x31">twnwlk.m</rom>
+			<rom type="file" offset="0x32">unknown.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">theme</title>
+			<title code="0x12">bank</title>
+			<title code="0x13">cavern1</title>
+			<title code="0x14">cavern2</title>
+			<title code="0x15">cavern3a</title>
+			<title code="0x16">cstl1rev</title>
+			<title code="0x17">cstl2rev</title>
+			<title code="0x18">cstl3rev</title>
+			<title code="0x19">daydesrt</title>
+			<title code="0x1A">dngon1</title>
+			<title code="0x1B">dngon2</title>
+			<title code="0x1C">dngon3</title>
+			<title code="0x1D">dungeon2</title>
+			<title code="0x1E">guild</title>
+			<title code="0x1F">newbrigh</title>
+			<title code="0x20">nwblksmt</title>
+			<title code="0x21">outday1</title>
+			<title code="0x22">outday2</title>
+			<title code="0x23">outday3</title>
+			<title code="0x24">outday4</title>
+			<title code="0x25">outnght1</title>
+			<title code="0x26">outnght2</title>
+			<title code="0x27">outnght4</title>
+			<title code="0x28">sf05</title>
+			<title code="0x29">sf09</title>
+			<title code="0x2A">sf17</title>
+			<title code="0x2B">smith</title>
+			<title code="0x2C">tavern</title>
+			<title code="0x2D">temple</title>
+			<title code="0x2E">townday1</title>
+			<title code="0x2F">twnnitea</title>
+			<title code="0x30">twnniteb</title>
+			<title code="0x31">twnwlk</title>
+			<title code="0x32">unknown</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Planet's Edge (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="pedge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">petheme.m</rom>
+			<rom type="file" offset="0x11">alien.m</rom>
+			<rom type="file" offset="0x12">castle.m</rom>
+			<rom type="file" offset="0x13">danger.m</rom>
+			<rom type="file" offset="0x14">diphda.m</rom>
+			<rom type="file" offset="0x15">edge.m</rom>
+			<rom type="file" offset="0x16">eerie.m</rom>
+			<rom type="file" offset="0x17">flyfight.m</rom>
+			<rom type="file" offset="0x18">forest.m</rom>
+			<rom type="file" offset="0x19">jungle.m</rom>
+			<rom type="file" offset="0x1A">land.m</rom>
+			<rom type="file" offset="0x1B">losegame.m</rom>
+			<rom type="file" offset="0x1C">medieval.m</rom>
+			<rom type="file" offset="0x1D">nentiam.m</rom>
+			<rom type="file" offset="0x1E">plains.m</rom>
+			<rom type="file" offset="0x1F">saharia.m</rom>
+			<rom type="file" offset="0x20">shop.m</rom>
+			<rom type="file" offset="0x21">smith.m</rom>
+			<rom type="file" offset="0x22">spacebar.m</rom>
+			<rom type="file" offset="0x23">spawn.m</rom>
+			<rom type="file" offset="0x24">tavern.m</rom>
+			<rom type="file" offset="0x25">terrain.m</rom>
+			<rom type="file" offset="0x26">theme.m</rom>
+			<rom type="file" offset="0x27">town.m</rom>
+			<rom type="file" offset="0x28">training.m</rom>
+			<rom type="file" offset="0x29">woods.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">petheme</title>
+			<title code="0x11">alien</title>
+			<title code="0x12">castle</title>
+			<title code="0x13">danger</title>
+			<title code="0x14">diphda</title>
+			<title code="0x15">edge</title>
+			<title code="0x16">eerie</title>
+			<title code="0x17">flyfight</title>
+			<title code="0x18">forest</title>
+			<title code="0x19">jungle</title>
+			<title code="0x1A">land</title>
+			<title code="0x1B">losegame</title>
+			<title code="0x1C">medieval</title>
+			<title code="0x1D">nentiam</title>
+			<title code="0x1E">plains</title>
+			<title code="0x1F">saharia</title>
+			<title code="0x20">shop</title>
+			<title code="0x21">smith</title>
+			<title code="0x22">spacebar</title>
+			<title code="0x23">spawn</title>
+			<title code="0x24">tavern</title>
+			<title code="0x25">terrain</title>
+			<title code="0x26">theme</title>
+			<title code="0x27">town</title>
+			<title code="0x28">training</title>
+			<title code="0x29">woods</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Planet's Edge (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="pedge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">petheme.m</rom>
+			<rom type="file" offset="0x11">alien.m</rom>
+			<rom type="file" offset="0x12">castle.m</rom>
+			<rom type="file" offset="0x13">danger.m</rom>
+			<rom type="file" offset="0x14">diphda.m</rom>
+			<rom type="file" offset="0x15">edge.m</rom>
+			<rom type="file" offset="0x16">eerie.m</rom>
+			<rom type="file" offset="0x17">flyfight.m</rom>
+			<rom type="file" offset="0x18">forest.m</rom>
+			<rom type="file" offset="0x19">jungle.m</rom>
+			<rom type="file" offset="0x1A">land.m</rom>
+			<rom type="file" offset="0x1B">losegame.m</rom>
+			<rom type="file" offset="0x1C">medieval.m</rom>
+			<rom type="file" offset="0x1D">nentiam.m</rom>
+			<rom type="file" offset="0x1E">plains.m</rom>
+			<rom type="file" offset="0x1F">saharia.m</rom>
+			<rom type="file" offset="0x20">shop.m</rom>
+			<rom type="file" offset="0x21">smith.m</rom>
+			<rom type="file" offset="0x22">spacebar.m</rom>
+			<rom type="file" offset="0x23">spawn.m</rom>
+			<rom type="file" offset="0x24">tavern.m</rom>
+			<rom type="file" offset="0x25">terrain.m</rom>
+			<rom type="file" offset="0x26">theme.m</rom>
+			<rom type="file" offset="0x27">town.m</rom>
+			<rom type="file" offset="0x28">training.m</rom>
+			<rom type="file" offset="0x29">woods.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">petheme</title>
+			<title code="0x11">alien</title>
+			<title code="0x12">castle</title>
+			<title code="0x13">danger</title>
+			<title code="0x14">diphda</title>
+			<title code="0x15">edge</title>
+			<title code="0x16">eerie</title>
+			<title code="0x17">flyfight</title>
+			<title code="0x18">forest</title>
+			<title code="0x19">jungle</title>
+			<title code="0x1A">land</title>
+			<title code="0x1B">losegame</title>
+			<title code="0x1C">medieval</title>
+			<title code="0x1D">nentiam</title>
+			<title code="0x1E">plains</title>
+			<title code="0x1F">saharia</title>
+			<title code="0x20">shop</title>
+			<title code="0x21">smith</title>
+			<title code="0x22">spacebar</title>
+			<title code="0x23">spawn</title>
+			<title code="0x24">tavern</title>
+			<title code="0x25">terrain</title>
+			<title code="0x26">theme</title>
+			<title code="0x27">town</title>
+			<title code="0x28">training</title>
+			<title code="0x29">woods</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Planet's Edge (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">New World Computing</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="pedge_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">petheme.m</rom>
+			<rom type="file" offset="0x11">alien.m</rom>
+			<rom type="file" offset="0x12">castle.m</rom>
+			<rom type="file" offset="0x13">danger.m</rom>
+			<rom type="file" offset="0x14">diphda.m</rom>
+			<rom type="file" offset="0x15">edge.m</rom>
+			<rom type="file" offset="0x16">eerie.m</rom>
+			<rom type="file" offset="0x17">flyfight.m</rom>
+			<rom type="file" offset="0x18">forest.m</rom>
+			<rom type="file" offset="0x19">jungle.m</rom>
+			<rom type="file" offset="0x1A">land.m</rom>
+			<rom type="file" offset="0x1B">losegame.m</rom>
+			<rom type="file" offset="0x1C">medieval.m</rom>
+			<rom type="file" offset="0x1D">nentiam.m</rom>
+			<rom type="file" offset="0x1E">plains.m</rom>
+			<rom type="file" offset="0x1F">saharia.m</rom>
+			<rom type="file" offset="0x20">shop.m</rom>
+			<rom type="file" offset="0x21">smith.m</rom>
+			<rom type="file" offset="0x22">spacebar.m</rom>
+			<rom type="file" offset="0x23">spawn.m</rom>
+			<rom type="file" offset="0x24">tavern.m</rom>
+			<rom type="file" offset="0x25">terrain.m</rom>
+			<rom type="file" offset="0x26">theme.m</rom>
+			<rom type="file" offset="0x27">town.m</rom>
+			<rom type="file" offset="0x28">training.m</rom>
+			<rom type="file" offset="0x29">woods.m</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">petheme</title>
+			<title code="0x11">alien</title>
+			<title code="0x12">castle</title>
+			<title code="0x13">danger</title>
+			<title code="0x14">diphda</title>
+			<title code="0x15">edge</title>
+			<title code="0x16">eerie</title>
+			<title code="0x17">flyfight</title>
+			<title code="0x18">forest</title>
+			<title code="0x19">jungle</title>
+			<title code="0x1A">land</title>
+			<title code="0x1B">losegame</title>
+			<title code="0x1C">medieval</title>
+			<title code="0x1D">nentiam</title>
+			<title code="0x1E">plains</title>
+			<title code="0x1F">saharia</title>
+			<title code="0x20">shop</title>
+			<title code="0x21">smith</title>
+			<title code="0x22">spacebar</title>
+			<title code="0x23">spawn</title>
+			<title code="0x24">tavern</title>
+			<title code="0x25">terrain</title>
+			<title code="0x26">theme</title>
+			<title code="0x27">town</title>
+			<title code="0x28">training</title>
+			<title code="0x29">woods</title>
+		</titlelist>
+	</game>
+</gamelist>

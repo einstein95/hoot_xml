@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- The Dreamers Guild-->
+	<game>
+		<name>[PC/AT] Inherit the Earth (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">The Dreamers Guild</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="inherittheearth_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">ADLIB.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.AD</rom>
+			<rom type="file" offset="0x10">ITE000.XMI</rom>
+			<rom type="file" offset="0x11">ITE001.XMI</rom>
+			<rom type="file" offset="0x12">ITE002.XMI</rom>
+			<rom type="file" offset="0x13">ITE003.XMI</rom>
+			<rom type="file" offset="0x14">ITE004.XMI</rom>
+			<rom type="file" offset="0x15">ITE009.XMI</rom>
+			<rom type="file" offset="0x16">ITE011.XMI</rom>
+			<rom type="file" offset="0x17">ITE012.XMI</rom>
+			<rom type="file" offset="0x18">ITE013.XMI</rom>
+			<rom type="file" offset="0x19">ITE014.XMI</rom>
+			<rom type="file" offset="0x1A">ITE015.XMI</rom>
+			<rom type="file" offset="0x1B">ITE017.XMI</rom>
+			<rom type="file" offset="0x1C">ITE020.XMI</rom>
+			<rom type="file" offset="0x1D">ITE021.XMI</rom>
+			<rom type="file" offset="0x1E">ITE022.XMI</rom>
+			<rom type="file" offset="0x1F">ITE023.XMI</rom>
+			<rom type="file" offset="0x20">ITE024.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE ADLIB.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+			<title code="0x1900">Music 10</title>
+			<title code="0x1A00">Music 11</title>
+			<title code="0x1B00">Music 12</title>
+			<title code="0x1C00">Music 13</title>
+			<title code="0x1D00">Music 14</title>
+			<title code="0x1E00">Music 15</title>
+			<title code="0x1F00">Music 16</title>
+			<title code="0x2000">Music 17</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inherit the Earth (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">The Dreamers Guild</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="inherittheearth_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">SBP2FM.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.OPL</rom>
+			<rom type="file" offset="0x10">ITE000.XMI</rom>
+			<rom type="file" offset="0x11">ITE001.XMI</rom>
+			<rom type="file" offset="0x12">ITE002.XMI</rom>
+			<rom type="file" offset="0x13">ITE003.XMI</rom>
+			<rom type="file" offset="0x14">ITE004.XMI</rom>
+			<rom type="file" offset="0x15">ITE009.XMI</rom>
+			<rom type="file" offset="0x16">ITE011.XMI</rom>
+			<rom type="file" offset="0x17">ITE012.XMI</rom>
+			<rom type="file" offset="0x18">ITE013.XMI</rom>
+			<rom type="file" offset="0x19">ITE014.XMI</rom>
+			<rom type="file" offset="0x1A">ITE015.XMI</rom>
+			<rom type="file" offset="0x1B">ITE017.XMI</rom>
+			<rom type="file" offset="0x1C">ITE020.XMI</rom>
+			<rom type="file" offset="0x1D">ITE021.XMI</rom>
+			<rom type="file" offset="0x1E">ITE022.XMI</rom>
+			<rom type="file" offset="0x1F">ITE023.XMI</rom>
+			<rom type="file" offset="0x20">ITE024.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE SBP2FM.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+			<title code="0x1900">Music 10</title>
+			<title code="0x1A00">Music 11</title>
+			<title code="0x1B00">Music 12</title>
+			<title code="0x1C00">Music 13</title>
+			<title code="0x1D00">Music 14</title>
+			<title code="0x1E00">Music 15</title>
+			<title code="0x1F00">Music 16</title>
+			<title code="0x2000">Music 17</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inherit the Earth (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">The Dreamers Guild</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="inherittheearth_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">ITE000.XMI</rom>
+			<rom type="file" offset="0x11">ITE001.XMI</rom>
+			<rom type="file" offset="0x12">ITE002.XMI</rom>
+			<rom type="file" offset="0x13">ITE003.XMI</rom>
+			<rom type="file" offset="0x14">ITE004.XMI</rom>
+			<rom type="file" offset="0x15">ITE009.XMI</rom>
+			<rom type="file" offset="0x16">ITE011.XMI</rom>
+			<rom type="file" offset="0x17">ITE012.XMI</rom>
+			<rom type="file" offset="0x18">ITE013.XMI</rom>
+			<rom type="file" offset="0x19">ITE014.XMI</rom>
+			<rom type="file" offset="0x1A">ITE015.XMI</rom>
+			<rom type="file" offset="0x1B">ITE017.XMI</rom>
+			<rom type="file" offset="0x1C">ITE020.XMI</rom>
+			<rom type="file" offset="0x1D">ITE021.XMI</rom>
+			<rom type="file" offset="0x1E">ITE022.XMI</rom>
+			<rom type="file" offset="0x1F">ITE023.XMI</rom>
+			<rom type="file" offset="0x20">ITE024.XMI</rom>
+			<rom type="shell" offset="0">MTRESET</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+			<title code="0x1900">Music 10</title>
+			<title code="0x1A00">Music 11</title>
+			<title code="0x1B00">Music 12</title>
+			<title code="0x1C00">Music 13</title>
+			<title code="0x1D00">Music 14</title>
+			<title code="0x1E00">Music 15</title>
+			<title code="0x1F00">Music 16</title>
+			<title code="0x2000">Music 17</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inherit the Earth (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">The Dreamers Guild</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="inherittheearth_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">ITE000.XMI</rom>
+			<rom type="file" offset="0x11">ITE001.XMI</rom>
+			<rom type="file" offset="0x12">ITE002.XMI</rom>
+			<rom type="file" offset="0x13">ITE003.XMI</rom>
+			<rom type="file" offset="0x14">ITE004.XMI</rom>
+			<rom type="file" offset="0x15">ITE009.XMI</rom>
+			<rom type="file" offset="0x16">ITE011.XMI</rom>
+			<rom type="file" offset="0x17">ITE012.XMI</rom>
+			<rom type="file" offset="0x18">ITE013.XMI</rom>
+			<rom type="file" offset="0x19">ITE014.XMI</rom>
+			<rom type="file" offset="0x1A">ITE015.XMI</rom>
+			<rom type="file" offset="0x1B">ITE017.XMI</rom>
+			<rom type="file" offset="0x1C">ITE020.XMI</rom>
+			<rom type="file" offset="0x1D">ITE021.XMI</rom>
+			<rom type="file" offset="0x1E">ITE022.XMI</rom>
+			<rom type="file" offset="0x1F">ITE023.XMI</rom>
+			<rom type="file" offset="0x20">ITE024.XMI</rom>
+			<rom type="shell" offset="0">MTRESET</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+			<title code="0x1900">Music 10</title>
+			<title code="0x1A00">Music 11</title>
+			<title code="0x1B00">Music 12</title>
+			<title code="0x1C00">Music 13</title>
+			<title code="0x1D00">Music 14</title>
+			<title code="0x1E00">Music 15</title>
+			<title code="0x1F00">Music 16</title>
+			<title code="0x2000">Music 17</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inherit the Earth (SC-55 in MT-32 mode)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">The Dreamers Guild</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="inherittheearth_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">SC2MT.COM</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="-1">MT32EMUL.XMI</rom>
+			<rom type="file" offset="0x10">ITE000.XMI</rom>
+			<rom type="file" offset="0x11">ITE001.XMI</rom>
+			<rom type="file" offset="0x12">ITE002.XMI</rom>
+			<rom type="file" offset="0x13">ITE003.XMI</rom>
+			<rom type="file" offset="0x14">ITE004.XMI</rom>
+			<rom type="file" offset="0x15">ITE009.XMI</rom>
+			<rom type="file" offset="0x16">ITE011.XMI</rom>
+			<rom type="file" offset="0x17">ITE012.XMI</rom>
+			<rom type="file" offset="0x18">ITE013.XMI</rom>
+			<rom type="file" offset="0x19">ITE014.XMI</rom>
+			<rom type="file" offset="0x1A">ITE015.XMI</rom>
+			<rom type="file" offset="0x1B">ITE017.XMI</rom>
+			<rom type="file" offset="0x1C">ITE020.XMI</rom>
+			<rom type="file" offset="0x1D">ITE021.XMI</rom>
+			<rom type="file" offset="0x1E">ITE022.XMI</rom>
+			<rom type="file" offset="0x1F">ITE023.XMI</rom>
+			<rom type="file" offset="0x20">ITE024.XMI</rom>
+			<rom type="shell" offset="0">SC2MT</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+			<title code="0x1700">Music 8</title>
+			<title code="0x1800">Music 9</title>
+			<title code="0x1900">Music 10</title>
+			<title code="0x1A00">Music 11</title>
+			<title code="0x1B00">Music 12</title>
+			<title code="0x1C00">Music 13</title>
+			<title code="0x1D00">Music 14</title>
+			<title code="0x1E00">Music 15</title>
+			<title code="0x1F00">Music 16</title>
+			<title code="0x2000">Music 17</title>
+		</titlelist>
+	</game>
+</gamelist>

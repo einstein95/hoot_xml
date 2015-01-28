@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //パームツリーソフト -->
+	<game>
+		<name>[PC-9801] To Five: Natsu no Tobira no Mukou ni Kimi wo Mitsukeru (TO☆FIVE ～夏の扉の向こうに君を見つける～) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Palmtree Soft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="tofive_98">
+			<rom type="file" offset="-1">CMD.COM</rom>
+			<rom type="file" offset="-1">CMDP.COM</rom>
+			<rom type="file" offset="0x10">BGM_00.KM</rom>
+			<rom type="file" offset="0x11">BGM_01.KM</rom>
+			<rom type="file" offset="0x12">BGM_02.KM</rom>
+			<rom type="file" offset="0x13">BGM_03.KM</rom>
+			<rom type="file" offset="0x14">BGM_04.KM</rom>
+			<rom type="file" offset="0x15">BGM_05.KM</rom>
+			<rom type="file" offset="0x16">BGM_06.KM</rom>
+			<rom type="file" offset="0x17">BGM_07.KM</rom>
+			<rom type="file" offset="0x18">BGM_08.KM</rom>
+			<rom type="file" offset="0x19">BGM_09.KM</rom>
+			<rom type="file" offset="0x1a">BGM_10.KM</rom>
+			<rom type="file" offset="0x1b">BGM_11.KM</rom>
+			<rom type="file" offset="0x1c">BGM_12.KM</rom>
+			<rom type="file" offset="0x1d">BGM_13.KM</rom>
+			<rom type="file" offset="0x1e">BGM_14.KM</rom>
+			<rom type="file" offset="0x1f">BGM_15.KM</rom>
+			<rom type="shell" offset="0">CMD /K</rom>
+			<rom type="shell" offset="0">CMDP.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM_00.KM</title>
+			<title code="0x11">BGM_01.KM</title>
+			<title code="0x12">おはよう!</title>
+			<title code="0x13">駆け抜けて君を</title>
+			<title code="0x14">BGM_04.KM</title>
+			<title code="0x15">あ～あ…</title>
+			<title code="0x16">泡</title>
+			<title code="0x17">BGM_07.KM</title>
+			<title code="0x18">BGM_08.KM</title>
+			<title code="0x19">BGM_09.KM</title>
+			<title code="0x1a">BGM_10.KM</title>
+			<title code="0x1b">おたわむれをぉ!</title>
+			<title code="0x1c">BGM_12.KM</title>
+			<title code="0x1d">秋代</title>
+			<title code="0x1e">麻菜のテーマ</title>
+			<title code="0x1f">ダッシュ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] To Five: Natsu no Tobira no Mukou ni Kimi wo Mitsukeru - Character Disk (TO☆FIVE ～夏の扉の向こうに君を見つける～ CHARACTER DISK) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">パームツリーソフト</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="tofivec_98">
+			<rom type="file" offset="-1">CMD.COM</rom>
+			<rom type="file" offset="-1">CMDP.COM</rom>
+			<rom type="file" offset="0x10">BGM_00.KM</rom>
+			<rom type="file" offset="0x11">BGM_01.KM</rom>
+			<rom type="file" offset="0x12">BGM_02.KM</rom>
+			<rom type="file" offset="0x13">BGM_03.KM</rom>
+			<rom type="file" offset="0x14">BGM_04.KM</rom>
+			<rom type="file" offset="0x15">BGM_05.KM</rom>
+			<rom type="file" offset="0x16">BGM_06.KM</rom>
+			<rom type="file" offset="0x17">BGM_07.KM</rom>
+			<rom type="file" offset="0x18">BGM_08.KM</rom>
+			<rom type="file" offset="0x19">BGM_09.KM</rom>
+			<rom type="file" offset="0x1A">BGM_10.KM</rom>
+			<rom type="shell" offset="0">CMD /K</rom>
+			<rom type="shell" offset="0">CMDP.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">おはよう!</title>
+			<title code="0x11">駆け抜けて君を</title>
+			<title code="0x12">BGM_02.KM</title>
+			<title code="0x13">あ～あ…</title>
+			<title code="0x14">泡</title>
+			<title code="0x15">BGM_05.KM</title>
+			<title code="0x16">BGM_06.KM</title>
+			<title code="0x17">おたわむれをぉ!</title>
+			<title code="0x18">秋代</title>
+			<title code="0x19">麻菜のテーマ</title>
+			<title code="0x1a">ダッシュ</title>
+		</titlelist>
+	</game>
+</gamelist>
