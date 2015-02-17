@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //Artec -->
 	<game>
-		<name>[PC-9801] ディガンの魔石</name>
+		<name>[PC-9801] Digan no Maseki (ディガンの魔石) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Artec</driveralias>
+		<driveralias type="PC-9801">Artec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -69,7 +69,7 @@
 			<title code="0x0f">Rigold</title>
 			<title code="0x10">Euress</title>
 			<title code="0x11">Dragon</title>
-			<title code="0x12">SYOUKI</title>
+			<title code="0x12">Syouki</title>
 			<title code="0x13">Cave 1</title>
 			<title code="0x14">Cave 2</title>
 			<title code="0x15">Cordarn</title>
@@ -78,7 +78,7 @@
 			<title code="0x18">Gamble</title>
 			<title code="0x19">Doran</title>
 			<title code="0x1a">Baroque</title>
-			<title code="0x1b">YOSHIWARA</title>
+			<title code="0x1b">Yoshiwara</title>
 			<title code="0x1c">Hotel 1</title>
 			<title code="0x1d">Hotel 2</title>
 			<title code="0x1e">Hotel 3</title>
@@ -90,9 +90,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DARK WRAITH</name>
+		<name>[PC-9801] Dark Wraith (ダークレイス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Artec</driveralias>
+		<driveralias type="PC-9801">Artec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -129,37 +129,37 @@
 			<rom type="shell" offset="0">artec</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000010">AIR.MSC      : Dungeon of Air</title>
-			<title code="0x000011">BAR.MSC      : Bar</title>
-			<title code="0x000012">BATTLE.MSC   : BATTLE IAM01</title>
-		<!--	<title code="0x000013">BOSS.MSC     : BATTLE IAM01</title> -->
-			<title code="0x000014">DRAGON.MSC   : Huge Dragon</title>
-			<title code="0x000015">EARTH.MSC    : Dungeon of Earth</title>
-			<title code="0x000016">ELEC.MSC     : Dungeon of Elec</title>
-			<title code="0x000017">ENDING.MSC   : ENDING IAM</title>
-			<title code="0x000018">FIRE.MSC     : Dungeon of Fire</title>
-			<title code="0x000019">GAMEOVER.MSC : Game Over</title>
-			<title code="0x00001a">GLAVE.MSC    : Glave</title>
-			<title code="0x00001b">GOD.MSC      : God</title>
-			<title code="0x00001c">LAST.MSC     : Last dungeon</title>
-			<title code="0x00001d">OPEN1.MSC    : pin</title>
-			<title code="0x00001e">OPEN1B.MSC   : OPENNING 1b IAM</title>
-			<title code="0x00001f">OPEN2.MSC    : TITLE_DEMO</title>
-			<title code="0x000020">OPEN3.MSC    : OPENNING 2 IAM</title>
-			<title code="0x000021">PIXPARTY.MSC : Pixy Party</title>
-			<title code="0x000022">SHOP.MSC     : Shop</title>
-			<title code="0x000023">SHRINE.MSC   : Shrine</title>
-			<title code="0x000024">SISTERS.MSC  : Sister &amp; Brother</title>
-			<title code="0x000025">TITLE.MSC    : TITLE_DEMO</title>
-			<title code="0x000026">TOWN.MSC     : Town</title>
-			<title code="0x000027">VANDEL.MSC   : LAST FIGHT IAM</title>
-			<title code="0x000028">WATER.MSC    : Dungeon of WaterIAM</title>
+			<title code="0x000010">Dungeon of Air</title>
+			<title code="0x000011">Bar</title>
+			<title code="0x000012">Battle</title>
+		<!--	<title code="0x000013">Battle</title> -->
+			<title code="0x000014">Huge Dragon</title>
+			<title code="0x000015">Dungeon of Earth</title>
+			<title code="0x000016">Dungeon of Elec</title>
+			<title code="0x000017">Ending</title>
+			<title code="0x000018">Dungeon of Fire</title>
+			<title code="0x000019">Game Over</title>
+			<title code="0x00001a">Glave</title>
+			<title code="0x00001b">God</title>
+			<title code="0x00001c">Last dungeon</title>
+			<title code="0x00001d">Pin</title>
+			<title code="0x00001e">Opening 1b</title>
+			<title code="0x00001f">Title Demo</title>
+			<title code="0x000020">Opening 2</title>
+			<title code="0x000021">Pixy Party</title>
+			<title code="0x000022">Shop</title>
+			<title code="0x000023">Shrine</title>
+			<title code="0x000024">Sister &amp; Brother</title>
+			<title code="0x000025">Title Demo</title>
+			<title code="0x000026">Town</title>
+			<title code="0x000027">Last Fight</title>
+			<title code="0x000028">Dungeon of Water</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ディガンの魔石</name>
+		<name>[PC-8801] Digan no Maseki (ディガンの魔石) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Artec</driveralias>
+		<driveralias type="PC-8801">Artec</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 		</options>
@@ -204,48 +204,48 @@
 			<rom type="bgm"  offset="0x23">GDYH36.MDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">GDYH01.MDT : Wedding</title>
-			<title code="0x01">GDYH02.MDT : Honeymoon</title>
-			<title code="0x02">GDYH03.MDT : Fountain</title>
-			<title code="0x03">GDYH04.MDT : Abilia revive</title>
-			<title code="0x04">GDYH05.MDT : Abilia Hair</title>
-			<title code="0x05">GDYH06.MDT : Ending</title>
-			<title code="0x06">GDYH07.MDT : Intro</title>
-			<title code="0x07">GDYH08.MDT : Requiem</title>
-			<title code="0x08">GDYH09.MDT : Battle</title>
-			<title code="0x09">GDYH10.MDT : Battle 2</title>
-			<title code="0x0a">GDYH11.MDT : Cartia</title>
-			<title code="0x0b">GDYH12.MDT : Baldorn</title>
-			<title code="0x0c">GDYH13.MDT : Meldorn</title>
-			<title code="0x0d">GDYH14.MDT : Edona</title>
-			<title code="0x0e">GDYH15.MDT : Tower</title>
-			<title code="0x0f">GDYH16.MDT : Rigold</title>
-			<title code="0x10">GDYH17.MDT : Euress</title>
-			<title code="0x11">GDYH18.MDT : Dragon</title>
-			<title code="0x12">GDYH19.MDT : SYOUKI</title>
-			<title code="0x13">GDYH20.MDT : Cave 1</title>
-			<title code="0x14">GDYH21.MDT : Cave 2</title>
-			<title code="0x15">GDYH22.MDT : Cordarn</title>
-			<title code="0x16">GDYH23.MDT : Black Dragon</title>
-			<title code="0x17">GDYH24.MDT : Funny</title>
-			<title code="0x18">GDYH25.MDT : Gamble</title>
-			<title code="0x19">GDYH26.MDT : Doran</title>
-			<title code="0x1a">GDYH27.MDT : Baroque</title>
-			<title code="0x1b">GDYH28.MDT : YOSHIWARA</title>
-			<title code="0x1c">GDYH29.MDT : Hotel 1</title>
-			<title code="0x1d">GDYH30.MDT : Hotel 2</title>
-			<title code="0x1e">GDYH31.MDT : Hotel 3</title>
-			<title code="0x1f">GDYH32.MDT : Hotel 4</title>
-			<title code="0x20">GDYH33.MDT : Hotel 5</title>
-			<title code="0x21">GDYH34.MDT : Fighter</title>
-			<title code="0x22">GDYH35.MDT : Honeymoon 2</title>
-			<title code="0x23">GDYH36.MDT : Baby</title>
+			<title code="0x00">Wedding</title>
+			<title code="0x01">Honeymoon</title>
+			<title code="0x02">Fountain</title>
+			<title code="0x03">Abilia revive</title>
+			<title code="0x04">Abilia Hair</title>
+			<title code="0x05">Ending</title>
+			<title code="0x06">Intro</title>
+			<title code="0x07">Requiem</title>
+			<title code="0x08">Battle</title>
+			<title code="0x09">Battle 2</title>
+			<title code="0x0a">Cartia</title>
+			<title code="0x0b">Baldorn</title>
+			<title code="0x0c">Meldorn</title>
+			<title code="0x0d">Edona</title>
+			<title code="0x0e">Tower</title>
+			<title code="0x0f">Rigold</title>
+			<title code="0x10">Euress</title>
+			<title code="0x11">Dragon</title>
+			<title code="0x12">Syouki</title>
+			<title code="0x13">Cave 1</title>
+			<title code="0x14">Cave 2</title>
+			<title code="0x15">Cordarn</title>
+			<title code="0x16">Black Dragon</title>
+			<title code="0x17">Funny</title>
+			<title code="0x18">Gamble</title>
+			<title code="0x19">Doran</title>
+			<title code="0x1a">Baroque</title>
+			<title code="0x1b">Yoshiwara</title>
+			<title code="0x1c">Hotel 1</title>
+			<title code="0x1d">Hotel 2</title>
+			<title code="0x1e">Hotel 3</title>
+			<title code="0x1f">Hotel 4</title>
+			<title code="0x20">Hotel 5</title>
+			<title code="0x21">Fighter</title>
+			<title code="0x22">Honeymoon 2</title>
+			<title code="0x23">Baby</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] バルバトゥスの魔女</name>
+		<name>[PC-8801] Barbatus no Majo (バルバトゥスの魔女) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Artec</driveralias>
+		<driveralias type="PC-8801">Artec</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 		</options>
@@ -295,9 +295,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] King Breeder(OPN)</name>
+		<name>[PC-8801] King Breeder (キングブリーダー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Artec</driveralias>
+		<driveralias type="PC-8801">Artec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd200"/>
 			<option name="init_pc" value="0x0100"/>
@@ -385,9 +385,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] King Breeder(OPNA)</name>
+		<name>[PC-8801] King Breeder (キングブリーダー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Artec</driveralias>
+		<driveralias type="PC-8801">Artec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd200"/>
 			<option name="init_pc" value="0x0100"/>
@@ -482,9 +482,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] King Breeder(OPN)</name>
+		<name>[PC-9801] King Breeder (キングブリーダー 異獣王) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Artec</driveralias>
+		<driveralias type="PC-9801">Artec</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -518,34 +518,34 @@
 			<rom type="shell" offset="0">kbreed98</rom>
 		</romlist>
 		<titlelist>
-			<title code="5">KBIAM01N.MDT : 戦闘</title>
-			<title code="6">KBIAM02N.MDT : タイトル</title>
-			<title code="7">KBIAM03N.MDT : 夢魔の神殿</title>
-			<title code="8">KBIAM04N.MDT : 店</title>
-			<title code="9">KBIAM05N.MDT : 自分の家</title>
-			<title code="10">KBIAM06N.MDT : マエリアスの家</title>
-			<title code="11">KBIAM07N.MDT : 寺院</title>
-			<title code="12">KBIAM08N.MDT : 大広間</title>
-			<title code="13">KBIAM09N.MDT : 沼神カルスの宮殿</title>
-			<title code="14">KBIAM10N.MDT : 魔宮</title>
-			<title code="15">KBIAM11N.MDT : 魔鏡の神</title>
-			<title code="16">KBIAM12N.MDT : タイトル(PC-88版)</title>
-			<title code="17">KBIAM13N.MDT : 異獣ショップ ゴル</title>
-			<title code="18">KBIAM14N.MDT : アイテムショップ ザッカス</title>
-			<title code="19">KBYH01N.MDT  : 飼育室</title>
-			<title code="20">KBYH02N.MDT  : スタッフロール</title>
-			<title code="21">KBYH04N.MDT  : 街</title>
-			<title code="22">KBYH05N.MDT  : ガルナの水門</title>
-			<title code="23">KBYH08N.MDT  : 遺跡の門</title>
-			<title code="24">KBYH09N.MDT  : ルーガーの家</title>
-			<title code="25">KBYH10N.MDT  : エピローグ</title>
-			<title code="26">KBYH13N.MDT  : 炎の祭壇</title>
+			<title code="5">戦闘</title>
+			<title code="6">タイトル</title>
+			<title code="7">夢魔の神殿</title>
+			<title code="8">店</title>
+			<title code="9">自分の家</title>
+			<title code="10">マエリアスの家</title>
+			<title code="11">寺院</title>
+			<title code="12">大広間</title>
+			<title code="13">沼神カルスの宮殿</title>
+			<title code="14">魔宮</title>
+			<title code="15">魔鏡の神</title>
+			<title code="16">タイトル(PC-88版)</title>
+			<title code="17">異獣ショップ ゴル</title>
+			<title code="18">アイテムショップ ザッカス</title>
+			<title code="19">飼育室</title>
+			<title code="20">スタッフロール</title>
+			<title code="21">街</title>
+			<title code="22">ガルナの水門</title>
+			<title code="23">遺跡の門</title>
+			<title code="24">ルーガーの家</title>
+			<title code="25">エピローグ</title>
+			<title code="26">炎の祭壇</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] King Breeder(SPB)</name>
+		<name>[PC-9801] King Breeder (キングブリーダー 異獣王) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Artec</driveralias>
+		<driveralias type="PC-9801">Artec</driveralias>
 		<options>
 			<option name="clockmul" value="0x20"/>
 			<option name="showfm3ex" value="1"/>
@@ -594,31 +594,31 @@
 			<rom type="shell" offset="0">kbreed98</rom>
 		</romlist>
 		<titlelist>
-			<title code="5">KBIAM01.MDT : 戦闘</title>
-			<title code="6">KBIAM02.MDT : タイトル</title>
-			<title code="7">KBIAM03.MDT : 夢魔の神殿</title>
-			<title code="8">KBIAM04.MDT : 店</title>
-			<title code="9">KBIAM05.MDT : 自分の家</title>
-			<title code="10">KBIAM06.MDT : マエリアスの家</title>
-			<title code="11">KBIAM07.MDT : 寺院</title>
-			<title code="12">KBIAM08.MDT : 大広間</title>
-			<title code="13">KBIAM09.MDT : 沼神カルスの宮殿</title>
-			<title code="14">KBIAM10.MDT : 魔宮</title>
-			<title code="15">KBIAM11.MDT : 魔鏡の神</title>
-	<!--	<title code="16">KBIAM12.MDT : タイトル(PC-88版)</title> -->
-			<title code="17">KBIAM13.MDT : 異獣ショップ ゴル</title>
-			<title code="18">KBIAM14.MDT : アイテムショップ ザッカス</title>
-			<title code="19">KBYH01.MDT  : 飼育室</title>
-			<title code="20">KBYH02.MDT  : スタッフロール</title>
-			<title code="21">KBYH04.MDT  : 街</title>
-			<title code="22">KBYH05.MDT  : ガルナの水門</title>
-			<title code="23">KBYH08.MDT  : 遺跡の門</title>
-			<title code="24">KBYH09.MDT  : ルーガーの家</title>
-			<title code="25">KBYH10.MDT  : エピローグ</title>
-			<title code="26">KBYH13.MDT  : 炎の祭壇</title>
-			<title code="27">KBYH16.MDT  : </title>
-			<title code="28">KBYH17.MDT  : </title>
-			<title code="29">KBYH18.MDT  : </title>
+			<title code="5">戦闘</title>
+			<title code="6">タイトル</title>
+			<title code="7">夢魔の神殿</title>
+			<title code="8">店</title>
+			<title code="9">自分の家</title>
+			<title code="10">マエリアスの家</title>
+			<title code="11">寺院</title>
+			<title code="12">大広間</title>
+			<title code="13">沼神カルスの宮殿</title>
+			<title code="14">魔宮</title>
+			<title code="15">魔鏡の神</title>
+		<!--	<title code="16">タイトル(PC-88版)</title> -->
+			<title code="17">異獣ショップ ゴル</title>
+			<title code="18">アイテムショップ ザッカス</title>
+			<title code="19">飼育室</title>
+			<title code="20">スタッフロール</title>
+			<title code="21">街</title>
+			<title code="22">ガルナの水門</title>
+			<title code="23">遺跡の門</title>
+			<title code="24">ルーガーの家</title>
+			<title code="25">エピローグ</title>
+			<title code="26">炎の祭壇</title>
+			<title code="27">KBYH16.MDT</title>
+			<title code="28">KBYH17.MDT</title>
+			<title code="29">KBYH18.MDT</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -36,52 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //QUEEN SOFT -->
 	<game>
-		<name>[PC-9801] FALL</name>
+		<name>[PC-9801] Mad Paradox (マッドパラドックス) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
-		<options>
-			<option name="bootcs" value="0x0060"/>
-			<option name="bootip" value="0x0000"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="adressing" value="0"/>
-			<option name="dataaddr" value="0xb000"/>
-			<option name="filesize" value="4096"/>
-			<option name="datamax" value="11"/>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="fall_98">
-			<rom type="binary" offset="0x100">00 70 00 00</rom>
-			<rom type="code" offset="0x600">madp_98.bin</rom>
-			<rom type="code" offset="0x7000">07000.BIN</rom>
-			<rom type="binary" offset="0xa3fee">08</rom>
-			<rom type="bgm" offset="1" >__01.DAT</rom>
-			<rom type="bgm" offset="2" >__02.DAT</rom>
-			<rom type="bgm" offset="3" >__03.DAT</rom>
-			<rom type="bgm" offset="4" >__04.DAT</rom>
-			<rom type="bgm" offset="5" >__05.DAT</rom>
-			<rom type="bgm" offset="6" >__06.DAT</rom>
-			<rom type="bgm" offset="7" >__07.DAT</rom>
-			<rom type="bgm" offset="8" >__08.DAT</rom>
-			<rom type="bgm" offset="9" >__09.DAT</rom>
-			<rom type="bgm" offset="10">__10.DAT</rom>
-		</romlist>
-		<titlelist>
-			<title code="1" >__01.DAT : </title>
-			<title code="2" >__02.DAT : </title>
-			<title code="3" >__03.DAT : </title>
-			<title code="4" >__04.DAT : </title>
-			<title code="5" >__05.DAT : </title>
-			<title code="6" >__06.DAT : </title>
-			<title code="7" >__07.DAT : </title>
-			<title code="8" >__08.DAT : </title>
-			<title code="9" >__09.DAT : </title>
-			<title code="10">__10.DAT : </title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] MAD PARADOX</name>
-		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -112,26 +69,26 @@
 			<rom type="bgm" offset="14">__14.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >__01.DAT : 裏山～ 思い出のリータ ～</title>
-			<title code="2" >__02.DAT : 戦いの地へ～ 序盤 ～</title>
-			<title code="3" >__03.DAT : ドギの砦</title>
-			<title code="4" >__04.DAT : 戦いの地へ～ 中盤 ～</title>
-			<title code="5" >__05.DAT : 戦闘</title>
-			<title code="6" >__06.DAT : 天空の城</title>
-			<title code="7" >__07.DAT : 聖域</title>
-			<title code="8" >__08.DAT : 村</title>
-			<title code="9" >__09.DAT : 四天王</title>
-			<title code="10">__10.DAT : ゲームオーバー</title>
-			<title code="11">__11.DAT : ゴーガス</title>
-			<title code="12">__12.DAT : エンディング</title>
-			<title code="13">__13.DAT : オープニング</title>
-			<title code="14">__14.DAT : ＣＧギャラリー</title>
+			<title code="1" >裏山～ 思い出のリータ ～</title>
+			<title code="2" >戦いの地へ～ 序盤 ～</title>
+			<title code="3" >ドギの砦</title>
+			<title code="4" >戦いの地へ～ 中盤 ～</title>
+			<title code="5" >戦闘</title>
+			<title code="6" >天空の城</title>
+			<title code="7" >聖域</title>
+			<title code="8" >村</title>
+			<title code="9" >四天王</title>
+			<title code="10">ゲームオーバー</title>
+			<title code="11">ゴーガス</title>
+			<title code="12">エンディング</title>
+			<title code="13">オープニング</title>
+			<title code="14">ＣＧギャラリー</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Possessioner</name>
+		<name>[PC-9801] Possessioner (ポゼッショナー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -166,34 +123,34 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">QUEEN11.M : オープニング</title>
-			<title code="0x1f">QUEEN09.M : スリット本部</title>
-			<title code="0x1e">QUEEN08.M : 装甲車出撃</title>
-			<title code="0x19">QUEEN03.M : 街A</title>
-			<title code="0x18">QUEEN02.M : 街B</title>
-			<title code="0x13">QK04.M    : 放棄地区</title>
-			<title code="0x24">QUEEN14.M : 地下水路</title>
-			<title code="0x11">QK02.M    : ブティック・ステラ</title>
-			<title code="0x1c">QUEEN06.M : プリム＝ウォンの館</title>
-			<title code="0x16">QK07.M    : ラボテック/ラシェマル博士</title>
-			<title code="0x12">QK03.M    : タワー内部</title>
-			<title code="0x23">QUEEN13.M : タワー/アダルトシーン</title>
-			<title code="0x17">QUEEN01.M : 戦闘A</title>
-			<title code="0x10">QK01.M    : 戦闘B</title>
-			<title code="0x1d">QUEEN07.M : アダルトシーンA</title>
-			<title code="0x14">QK05.M    : アダルトシーンB</title>
-			<title code="0x20">QUEEN10.M : シャワールーム</title>
-			<title code="0x1a">QUEEN04.M : ボゼッショナー</title>
-			<title code="0x15">QK06.M    : アリサ、機械に犯されるの曲</title>
-			<title code="0x1b">QUEEN05.M : ボス戦闘&amp;バッドエンド</title>
-			<title code="0x22">QUEEN12.M : エンディング</title>
-			<range min="0x0801" max="0x082e" extcode="1">QUEEN.EFC : %2X</range>
+			<title code="0x21">オープニング</title>
+			<title code="0x1f">スリット本部</title>
+			<title code="0x1e">装甲車出撃</title>
+			<title code="0x19">街A</title>
+			<title code="0x18">街B</title>
+			<title code="0x13">放棄地区</title>
+			<title code="0x24">地下水路</title>
+			<title code="0x11">ブティック・ステラ</title>
+			<title code="0x1c">プリム＝ウォンの館</title>
+			<title code="0x16">ラボテック/ラシェマル博士</title>
+			<title code="0x12">タワー内部</title>
+			<title code="0x23">タワー/アダルトシーン</title>
+			<title code="0x17">戦闘A</title>
+			<title code="0x10">戦闘B</title>
+			<title code="0x1d">アダルトシーンA</title>
+			<title code="0x14">アダルトシーンB</title>
+			<title code="0x20">シャワールーム</title>
+			<title code="0x1a">ボゼッショナー</title>
+			<title code="0x15">アリサ、機械に犯されるの曲</title>
+			<title code="0x1b">ボス戦闘&amp;バッドエンド</title>
+			<title code="0x22">エンディング</title>
+			<range min="0x0801" max="0x082e" extcode="1">QUEEN.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PURE II</name>
+		<name>[PC-9801] Pure 2 (ピュア2) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x7000"/>
@@ -230,32 +187,75 @@
 			<rom type="bgm" offset="20">__20.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >__01.DAT : </title>
-			<title code="2" >__02.DAT : </title>
-			<title code="3" >__03.DAT : </title>
-			<title code="4" >__04.DAT : </title>
-			<title code="5" >__05.DAT : </title>
-			<title code="6" >__06.DAT : </title>
-			<title code="7" >__07.DAT : </title>
-			<title code="8" >__08.DAT : </title>
-			<title code="9" >__09.DAT : </title>
-			<title code="10">__10.DAT : </title>
-			<title code="11">__11.DAT : </title>
-			<title code="12">__12.DAT : </title>
-			<title code="13">__13.DAT : </title>
-			<title code="14">__14.DAT : </title>
-			<title code="15">__15.DAT : </title>
-			<title code="16">__16.DAT : </title>
-			<title code="17">__17.DAT : </title>
-			<title code="18">__18.DAT : </title>
-			<title code="19">__19.DAT : </title>
-			<title code="20">__20.DAT : </title>
+			<title code="1" >__01.DAT</title>
+			<title code="2" >__02.DAT</title>
+			<title code="3" >__03.DAT</title>
+			<title code="4" >__04.DAT</title>
+			<title code="5" >__05.DAT</title>
+			<title code="6" >__06.DAT</title>
+			<title code="7" >__07.DAT</title>
+			<title code="8" >__08.DAT</title>
+			<title code="9" >__09.DAT</title>
+			<title code="10">__10.DAT</title>
+			<title code="11">__11.DAT</title>
+			<title code="12">__12.DAT</title>
+			<title code="13">__13.DAT</title>
+			<title code="14">__14.DAT</title>
+			<title code="15">__15.DAT</title>
+			<title code="16">__16.DAT</title>
+			<title code="17">__17.DAT</title>
+			<title code="18">__18.DAT</title>
+			<title code="19">__19.DAT</title>
+			<title code="20">__20.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] SLOPE</name>
+		<name>[PC-9801] Fall (フォール) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Queensoft</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="adressing" value="0"/>
+			<option name="dataaddr" value="0xb000"/>
+			<option name="filesize" value="4096"/>
+			<option name="datamax" value="11"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="fall_98">
+			<rom type="binary" offset="0x100">00 70 00 00</rom>
+			<rom type="code" offset="0x600">madp_98.bin</rom>
+			<rom type="code" offset="0x7000">07000.BIN</rom>
+			<rom type="binary" offset="0xa3fee">08</rom>
+			<rom type="bgm" offset="1" >__01.DAT</rom>
+			<rom type="bgm" offset="2" >__02.DAT</rom>
+			<rom type="bgm" offset="3" >__03.DAT</rom>
+			<rom type="bgm" offset="4" >__04.DAT</rom>
+			<rom type="bgm" offset="5" >__05.DAT</rom>
+			<rom type="bgm" offset="6" >__06.DAT</rom>
+			<rom type="bgm" offset="7" >__07.DAT</rom>
+			<rom type="bgm" offset="8" >__08.DAT</rom>
+			<rom type="bgm" offset="9" >__09.DAT</rom>
+			<rom type="bgm" offset="10">__10.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="1" >__01.DAT</title>
+			<title code="2" >__02.DAT</title>
+			<title code="3" >__03.DAT</title>
+			<title code="4" >__04.DAT</title>
+			<title code="5" >__05.DAT</title>
+			<title code="6" >__06.DAT</title>
+			<title code="7" >__07.DAT</title>
+			<title code="8" >__08.DAT</title>
+			<title code="9" >__09.DAT</title>
+			<title code="10">__10.DAT</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Slope (スロープ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -278,22 +278,22 @@
 			<rom type="shell" offset="0">slope_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">1.BGM : DREAM OF FUTURE</title>
-			<title code="12">2.BGM : SCHOOL LIFE</title>
-			<title code="13">3.BGM : DAY BY DAY</title>
-			<title code="14">4.BGM : LONGING</title>
-			<title code="15">5.BGM : A NEW DAY</title>
-			<title code="16">6.BGM : AFTER SCHOOL</title>
-			<title code="17">7.BGM : HAVE A GOOD TIME</title>
-			<title code="18">9.BGM : THE HEART WAVER</title>
-			<title code="19">A.BGM : DON'T STOP MY HEARTBEAT</title>
-			<title code="20">B.BGM : A DREAMY STATE</title>
+			<title code="11">Dream of Future</title>
+			<title code="12">School Life</title>
+			<title code="13">Day By Day</title>
+			<title code="14">Longing</title>
+			<title code="15">A New Day</title>
+			<title code="16">After School</title>
+			<title code="17">Have a Good Time</title>
+			<title code="18">The Heart Waver</title>
+			<title code="19">Don't Stop My Heartbeat</title>
+			<title code="20">A Dreamy State</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ウェディングラプソディー</name>
+		<name>[PC-9801] Wedding Rhapsody (ウェディングラプソディー) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x7000"/>
@@ -321,23 +321,23 @@
 			<rom type="bgm" offset="11">__11.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >__01.DAT : </title>
-			<title code="2" >__02.DAT : </title>
-			<title code="3" >__03.DAT : </title>
-			<title code="4" >__04.DAT : </title>
-			<title code="5" >__05.DAT : </title>
-			<title code="6" >__06.DAT : </title>
-			<title code="7" >__07.DAT : </title>
-			<title code="8" >__08.DAT : </title>
-			<title code="9" >__09.DAT : </title>
-			<title code="10">__10.DAT : </title>
-			<title code="11">__11.DAT : </title>
+			<title code="1" >__01.DAT</title>
+			<title code="2" >__02.DAT</title>
+			<title code="3" >__03.DAT</title>
+			<title code="4" >__04.DAT</title>
+			<title code="5" >__05.DAT</title>
+			<title code="6" >__06.DAT</title>
+			<title code="7" >__07.DAT</title>
+			<title code="8" >__08.DAT</title>
+			<title code="9" >__09.DAT</title>
+			<title code="10">__10.DAT</title>
+			<title code="11">__11.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] カース</name>
+		<name>[PC-9801] Curse (カース) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -379,47 +379,47 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LOGO.M    : </title>
-			<title code="0x11">M001.M    : オープニング</title>
-			<title code="0x12">M002.M    : メインテーマ</title>
-			<title code="0x13">M003.M    : 喫茶シルク</title>
-			<title code="0x14">M004.M    : 校門前</title>
-			<title code="0x15">M005.M    : 学生課</title>
-			<title code="0x16">M006.M    : 聞き込み1</title>
-			<title code="0x17">M007.M    : 医学部研究室</title>
-			<title code="0x18">M008.M    : 考古学研究室</title>
-			<title code="0x19">M009.M    : 心理学研究室</title>
-			<title code="0x1a">M010.M    : 博物館</title>
-			<title code="0x1b">M011.M    : さやか</title>
-			<title code="0x1c">M013.M    : 教会1</title>
-			<title code="0x1d">M014.M    : 病床</title>
-			<title code="0x1e">M015.M    : しんみり</title>
-			<title code="0x1f">M016.M    : 咲子</title>
-			<title code="0x20">M019.M    : クライマックス</title>
-			<title code="0x21">M020.M    : スローアレンジ長調</title>
-			<title code="0x22">M021.M    : スローアレンジ短調</title>
-			<title code="0x23">M022.M    : マーチアレンジ</title>
-			<title code="0x24">M023.M    : コミカル</title>
-			<title code="0x28">M095.M    : 緊張いっぱい</title>
-			<title code="0x29">M096.M    : 教会2</title>
-			<title code="0x2a">M098.M    : 聞き込み2</title>
-			<title code="0x2b">M099.M    : スタッフロール</title>
-			<title code="0x25">M050.M    : おやすみ</title>
-			<title code="0x26">M051.M    : が～ん</title>
-			<title code="0x27">M052.M    : むぅ、あやしい…</title>
-			<range min="0x0801" max="0x080c" extcode="1">CURSE.EFC : %2X</range>
+			<title code="0x10">LOGO.M</title>
+			<title code="0x11">オープニング</title>
+			<title code="0x12">メインテーマ</title>
+			<title code="0x13">喫茶シルク</title>
+			<title code="0x14">校門前</title>
+			<title code="0x15">学生課</title>
+			<title code="0x16">聞き込み1</title>
+			<title code="0x17">医学部研究室</title>
+			<title code="0x18">考古学研究室</title>
+			<title code="0x19">心理学研究室</title>
+			<title code="0x1a">博物館</title>
+			<title code="0x1b">さやか</title>
+			<title code="0x1c">教会1</title>
+			<title code="0x1d">病床</title>
+			<title code="0x1e">しんみり</title>
+			<title code="0x1f">咲子</title>
+			<title code="0x20">クライマックス</title>
+			<title code="0x21">スローアレンジ長調</title>
+			<title code="0x22">スローアレンジ短調</title>
+			<title code="0x23">マーチアレンジ</title>
+			<title code="0x24">コミカル</title>
+			<title code="0x28">緊張いっぱい</title>
+			<title code="0x29">教会2</title>
+			<title code="0x2a">聞き込み2</title>
+			<title code="0x2b">スタッフロール</title>
+			<title code="0x25">おやすみ</title>
+			<title code="0x26">が～ん</title>
+			<title code="0x27">むぅ、あやしい…</title>
+			<range min="0x0801" max="0x080c" extcode="1">CURSE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ギャンブラー Queen's Cup</name>
+		<name>[PC-9801] Gamblers Queen's Cup (ギャンブラー Queen's Cup) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="queencup_98">
+		<romlist archive="gqcup_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x10">LOGO.M</rom>
@@ -432,12 +432,12 @@
 			<rom type="file" offset="0x17">DERBY.M</rom>
 			<rom type="file" offset="0x18">FINAL.M</rom>
 			<rom type="file" offset="0x19">GO1.M</rom>
-			<rom type="file" offset="0x1A">GO2.M</rom>
-			<rom type="file" offset="0x1B">JURI4.M</rom>
-			<rom type="file" offset="0x1C">JURI5.M</rom>
-			<rom type="file" offset="0x1D">QUIZ.M</rom>
-			<rom type="file" offset="0x1E">REINA4.M</rom>
-			<rom type="file" offset="0x1F">REINA5.M</rom>
+			<rom type="file" offset="0x1a">GO2.M</rom>
+			<rom type="file" offset="0x1b">JURI4.M</rom>
+			<rom type="file" offset="0x1c">JURI5.M</rom>
+			<rom type="file" offset="0x1d">QUIZ.M</rom>
+			<rom type="file" offset="0x1e">REINA4.M</rom>
+			<rom type="file" offset="0x1f">REINA5.M</rom>
 			<rom type="file" offset="0x20">TAKAGI.M</rom>
 			<rom type="file" offset="0x21">TRACK0.M</rom>
 			<rom type="file" offset="0x22">TRACK1.M</rom>
@@ -448,34 +448,34 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LOGO.M</title>
-			<title code="0x11">TITLE.M</title>
-			<title code="0x12">AYA4.M</title>
-			<title code="0x13">AYA5.M</title>
-			<title code="0x14">BAR1.M</title>
-			<title code="0x15">BAR2.M</title>
-			<title code="0x16">BAR3.M</title>
-			<title code="0x17">DERBY.M</title>
-			<title code="0x18">FINAL.M</title>
-			<title code="0x19">GO1.M</title>
-			<title code="0x1A">GO2.M</title>
-			<title code="0x1B">JURI4.M</title>
-			<title code="0x1C">JURI5.M</title>
-			<title code="0x1D">QUIZ.M</title>
-			<title code="0x1E">REINA4.M</title>
-			<title code="0x1F">REINA5.M</title>
-			<title code="0x20">TAKAGI.M</title>
-			<title code="0x21">TRACK0.M</title>
-			<title code="0x22">TRACK1.M</title>
-			<title code="0x23">WINNER.M</title>
+			<title code="0x10">Logo</title>
+			<title code="0x11">Title</title>
+			<title code="0x17">Odds Scene</title>
+			<title code="0x21">Race 1</title>
+			<title code="0x22">Race 2</title>
+			<title code="0x14">Bar Scene 1</title>
+			<title code="0x15">Bar Scene 2</title>
+			<title code="0x16">Bar Scene 3</title>
+			<title code="0x1e">Yuenchi Scene 1</title>
+			<title code="0x1f">e1</title>
+			<title code="0x1b">Eiga</title>
+			<title code="0x1c">m1</title>
+			<title code="0x12">Keiba</title>
+			<title code="0x13">Aya</title>
+			<title code="0x1d">Quiz Scene 1</title>
+			<title code="0x20">Bar Scene 4</title>
+			<title code="0x25">Ending</title>
 			<title code="0x24">WORKMAN.M</title>
-			<title code="0x25">ENDING.M</title>
+			<title code="0x19">Game Over 1</title>
+			<title code="0x1a">Game Over 2</title>
+			<title code="0x23">Fanfare 2</title>
+			<title code="0x18">Quiz Scene 2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] クイーンソフト ライブラリー 年内特別バージョン</name>
+		<name>[PC-9801] Queensoft Library Nennai Tokubetsu Version (クイーンソフト ライブラリー 年内特別バージョン) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -496,28 +496,28 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">MUSIC01.O : BGM # 1</title>
-			<title code="0x11">MUSIC02.O : BGM # 2</title>
-			<title code="0x12">MUSIC03.O : BGM # 3</title>
-			<title code="0x13">MUSIC04.O : BGM # 4</title>
-			<title code="0x14">MUSIC05.O : BGM # 5</title>
-			<title code="0x15">MUSIC06.O : BGM # 6</title>
-			<title code="0x16">MUSIC07.O : BGM # 7</title>
-			<title code="0x17">MUSIC08.O : BGM # 8</title>
-			<title code="0x18">MUSIC09.O : BGM # 9</title>
-			<title code="0x19">MUSIC10.O : BGM #10</title>
+			<title code="0x10">MUSIC01.O</title>
+			<title code="0x11">MUSIC02.O</title>
+			<title code="0x12">MUSIC03.O</title>
+			<title code="0x13">MUSIC04.O</title>
+			<title code="0x14">MUSIC05.O</title>
+			<title code="0x15">MUSIC06.O</title>
+			<title code="0x16">MUSIC07.O</title>
+			<title code="0x17">MUSIC08.O</title>
+			<title code="0x18">MUSIC09.O</title>
+			<title code="0x19">MUSIC10.O</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] メル・メル Melty Marchen</name>
+		<name>[PC-9801] Mer Mar Melty Marchen (メル・メル メルティーメルヘン) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="mermer_98">
+		<romlist archive="mermar_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x10">DO01.M</rom>
@@ -545,9 +545,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 麻雀河底撈魚</name>
+		<name>[PC-9801] Mahjong Houtei Raoyui (麻雀河底撈魚) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -567,33 +567,33 @@
 			<rom type="file" offset="0x17">MJG3.M</rom>
 			<rom type="file" offset="0x18">WIN.M</rom>
 			<rom type="file" offset="0x19">GRAPHIC.M</rom>
-			<rom type="file" offset="0x1A">RANKING.M</rom>
-			<rom type="file" offset="0x1B">ENDING.M</rom>
-			<rom type="file" offset="0x1C">STAFF.M</rom>
+			<rom type="file" offset="0x1a">RANKING.M</rom>
+			<rom type="file" offset="0x1b">ENDING.M</rom>
+			<rom type="file" offset="0x1c">STAFF.M</rom>
 			<rom type="shell" offset="0">PMD /M10 /V0 /E1 /K</rom>
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LOGO.M    : </title>
-			<title code="0x11">OPENING.M : </title>
-			<title code="0x12">TITLE.M   : </title>
-			<title code="0x13">MENU.M    : </title>
-			<title code="0x14">LETS_GO.M : </title>
-			<title code="0x15">MJG1.M    : </title>
-			<title code="0x16">MJG2.M    : </title>
-			<title code="0x17">MJG3.M    : </title>
-			<title code="0x18">WIN.M     : </title>
-			<title code="0x19">GRAPHIC.M : </title>
-			<title code="0x1A">RANKING.M : </title>
-			<title code="0x1B">ENDING.M  : </title>
-			<title code="0x1C">STAFF.M   : </title>
-			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC   : %2X</range>
+			<title code="0x10">LOGO.M</title>
+			<title code="0x11">OPENING.M</title>
+			<title code="0x12">TITLE.M</title>
+			<title code="0x13">MENU.M</title>
+			<title code="0x14">LETS_GO.M</title>
+			<title code="0x15">MJG1.M</title>
+			<title code="0x16">MJG2.M</title>
+			<title code="0x17">MJG3.M</title>
+			<title code="0x18">WIN.M</title>
+			<title code="0x19">GRAPHIC.M</title>
+			<title code="0x1a">RANKING.M</title>
+			<title code="0x1b">ENDING.M</title>
+			<title code="0x1c">STAFF.M</title>
+			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 麻雀河底撈魚II</name>
+		<name>[PC-9801] Mahjong Houtei Raoyui 2 (麻雀河底撈魚II) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-9801">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -613,33 +613,33 @@
 			<rom type="file" offset="0x17">MJG3.M</rom>
 			<rom type="file" offset="0x18">WIN.M</rom>
 			<rom type="file" offset="0x19">GRAPHIC.M</rom>
-			<rom type="file" offset="0x1A">RANKING.M</rom>
-			<rom type="file" offset="0x1B">ENDING.M</rom>
-			<rom type="file" offset="0x1C">STAFF.M</rom>
+			<rom type="file" offset="0x1a">RANKING.M</rom>
+			<rom type="file" offset="0x1b">ENDING.M</rom>
+			<rom type="file" offset="0x1c">STAFF.M</rom>
 			<rom type="shell" offset="0">PMD /M10 /V0 /E1 /K</rom>
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LOGO.M    : </title>
-			<title code="0x11">TITLE.M   : </title>
-			<title code="0x12">OPENING.M : </title>
-			<title code="0x13">MENU.M    : </title>
-			<title code="0x14">LETS_GO.M : </title>
-			<title code="0x15">MJG1.M    : </title>
-			<title code="0x16">MJG2.M    : </title>
-			<title code="0x17">MJG3.M    : </title>
-			<title code="0x18">WIN.M     : </title>
-			<title code="0x19">GRAPHIC.M : </title>
-			<title code="0x1A">RANKING.M : </title>
-			<title code="0x1B">ENDING.M  : </title>
-			<title code="0x1C">STAFF.M   : </title>
-			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC   : %2X</range>
+			<title code="0x10">LOGO.M</title>
+			<title code="0x11">TITLE.M</title>
+			<title code="0x12">OPENING.M</title>
+			<title code="0x13">MENU.M</title>
+			<title code="0x14">LETS_GO.M</title>
+			<title code="0x15">MJG1.M</title>
+			<title code="0x16">MJG2.M</title>
+			<title code="0x17">MJG3.M</title>
+			<title code="0x18">WIN.M</title>
+			<title code="0x19">GRAPHIC.M</title>
+			<title code="0x1a">RANKING.M</title>
+			<title code="0x1b">ENDING.M</title>
+			<title code="0x1c">STAFF.M</title>
+			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] MAD PARADOX</name>
+		<name>[PC/AT] Mad Paradox (マッドパラドックス) (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">QUEEN SOFT</driveralias>
+		<driveralias type="PC/AT">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -665,26 +665,26 @@
 			<rom type="shell" offset="0">PMD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">M01.M : 裏山～ 思い出のリータ ～</title>
-			<title code="0x11">M02.M : 戦いの地へ～ 序盤 ～</title>
-			<title code="0x12">M03.M : ドギの砦</title>
-			<title code="0x13">M04.M : 戦いの地へ～ 中盤 ～</title>
-			<title code="0x14">M05.M : 戦闘</title>
-			<title code="0x15">M06.M : 天空の城</title>
-			<title code="0x16">M07.M : 聖域</title>
-			<title code="0x17">M08.M : 村</title>
-			<title code="0x18">M09.M : 四天王</title>
-			<title code="0x19">M10.M : ゲームオーバー</title>
-			<title code="0x1a">M11.M : ゴーガス</title>
-			<title code="0x1b">M12.M : エンディング</title>
-			<title code="0x1c">M13.M : オープニング</title>
-			<title code="0x1d">M14.M : ＣＧギャラリー</title>
+			<title code="0x10">裏山～ 思い出のリータ ～</title>
+			<title code="0x11">戦いの地へ～ 序盤 ～</title>
+			<title code="0x12">ドギの砦</title>
+			<title code="0x13">戦いの地へ～ 中盤 ～</title>
+			<title code="0x14">戦闘</title>
+			<title code="0x15">天空の城</title>
+			<title code="0x16">聖域</title>
+			<title code="0x17">村</title>
+			<title code="0x18">四天王</title>
+			<title code="0x19">ゲームオーバー</title>
+			<title code="0x1a">ゴーガス</title>
+			<title code="0x1b">エンディング</title>
+			<title code="0x1c">オープニング</title>
+			<title code="0x1d">ＣＧギャラリー</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] カース</name>
+		<name>[PC/AT] Curse (カース) (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">QUEEN SOFT</driveralias>
+		<driveralias type="PC/AT">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -725,41 +725,41 @@
 			<rom type="shell" offset="0">PMD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LOGO.M    : </title>
-			<title code="0x11">M001.M    : オープニング</title>
-			<title code="0x12">M002.M    : メインテーマ</title>
-			<title code="0x13">M003.M    : 喫茶シルク</title>
-			<title code="0x14">M004.M    : 校門前</title>
-			<title code="0x15">M005.M    : 学生課</title>
-			<title code="0x16">M006.M    : 聞き込み1</title>
-			<title code="0x17">M007.M    : 医学部研究室</title>
-			<title code="0x18">M008.M    : 考古学研究室</title>
-			<title code="0x19">M009.M    : 心理学研究室</title>
-			<title code="0x1a">M010.M    : 博物館</title>
-			<title code="0x1b">M011.M    : さやか</title>
-			<title code="0x1c">M013.M    : 教会1</title>
-			<title code="0x1d">M014.M    : 病床</title>
-			<title code="0x1e">M015.M    : しんみり</title>
-			<title code="0x1f">M016.M    : 咲子</title>
-			<title code="0x20">M019.M    : クライマックス</title>
-			<title code="0x21">M020.M    : スローアレンジ長調</title>
-			<title code="0x22">M021.M    : スローアレンジ短調</title>
-			<title code="0x23">M022.M    : マーチアレンジ</title>
-			<title code="0x24">M023.M    : コミカル</title>
-			<title code="0x28">M095.M    : 緊張いっぱい</title>
-			<title code="0x29">M096.M    : 教会2</title>
-			<title code="0x2a">M098.M    : 聞き込み2</title>
-			<title code="0x2b">M099.M    : スタッフロール</title>
-			<title code="0x25">M050.M    : おやすみ</title>
-			<title code="0x26">M051.M    : が～ん</title>
-			<title code="0x27">M052.M    : むぅ、あやしい…</title>
-			<range min="0x0801" max="0x080c" extcode="1">CURSE.EFC : %2X</range>
+			<title code="0x10">LOGO.M</title>
+			<title code="0x11">オープニング</title>
+			<title code="0x12">メインテーマ</title>
+			<title code="0x13">喫茶シルク</title>
+			<title code="0x14">校門前</title>
+			<title code="0x15">学生課</title>
+			<title code="0x16">聞き込み1</title>
+			<title code="0x17">医学部研究室</title>
+			<title code="0x18">考古学研究室</title>
+			<title code="0x19">心理学研究室</title>
+			<title code="0x1a">博物館</title>
+			<title code="0x1b">さやか</title>
+			<title code="0x1c">教会1</title>
+			<title code="0x1d">病床</title>
+			<title code="0x1e">しんみり</title>
+			<title code="0x1f">咲子</title>
+			<title code="0x20">クライマックス</title>
+			<title code="0x21">スローアレンジ長調</title>
+			<title code="0x22">スローアレンジ短調</title>
+			<title code="0x23">マーチアレンジ</title>
+			<title code="0x24">コミカル</title>
+			<title code="0x28">緊張いっぱい</title>
+			<title code="0x29">教会2</title>
+			<title code="0x2a">聞き込み2</title>
+			<title code="0x2b">スタッフロール</title>
+			<title code="0x25">おやすみ</title>
+			<title code="0x26">が～ん</title>
+			<title code="0x27">むぅ、あやしい…</title>
+			<range min="0x0801" max="0x080c" extcode="1">CURSE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] ギャンブラー Queen's Cup</name>
+		<name>[PC/AT] Gamblers Queen's Cup (ギャンブラー Queen's Cup) (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">QUEEN SOFT</driveralias>
+		<driveralias type="PC/AT">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -793,34 +793,34 @@
 			<rom type="shell" offset="0">PMD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1c">LOGO.M    : </title>
-			<title code="0x21">TITLE.M   : TITLE</title>
-			<title code="0x15">DERBY.M   : ODDS Scene</title>
-			<title code="0x22">TRACK0.M  : Race2</title>
-			<title code="0x23">TRACK1.M  : Race2</title>
-			<title code="0x12">BAR1.M    : Bar Scene 1</title>
-			<title code="0x13">BAR2.M    : Bar Scene 2</title>
-			<title code="0x14">BAR3.M    : Bar Scene 3</title>
-			<title code="0x1e">REINA4.M  : YUENCHI Scene 1</title>
-			<title code="0x1f">REINA5.M  : e1</title>
-			<title code="0x1a">JURI4.M   : eiga</title>
-			<title code="0x1b">JURI5.M   : m1</title>
-			<title code="0x10">AYA4.M    : keiba</title>
-			<title code="0x11">AYA5.M    : aya</title>
-			<title code="0x1d">QUIZ.M    : QUIZ Scene</title>
-			<title code="0x20">TAKAGI.M  : Bar Scene 3</title>
-			<title code="0x16">ENDING.M  : Ending</title>
-			<title code="0x25">WORKMAN.M : </title>
-			<title code="0x18">GO1.M     : Game Over 1</title>
-			<title code="0x19">GO2.M     : Game Over 2</title>
-			<title code="0x24">WINNER.M  : Fanfare 2</title>
-			<title code="0x17">FINAL.M   : QUIZ Scene</title>
+			<title code="0x1c">Logo</title>
+			<title code="0x21">Title</title>
+			<title code="0x15">Odds Scene</title>
+			<title code="0x22">Race 1</title>
+			<title code="0x23">Race 2</title>
+			<title code="0x12">Bar Scene 1</title>
+			<title code="0x13">Bar Scene 2</title>
+			<title code="0x14">Bar Scene 3</title>
+			<title code="0x1e">Yuenchi Scene 1</title>
+			<title code="0x1f">e1</title>
+			<title code="0x1a">Eiga</title>
+			<title code="0x1b">m1</title>
+			<title code="0x10">Keiba</title>
+			<title code="0x11">Aya</title>
+			<title code="0x1d">Quiz Scene 1</title>
+			<title code="0x20">Bar Scene 4</title>
+			<title code="0x16">Ending</title>
+			<title code="0x25">WORKMAN.M</title>
+			<title code="0x18">Game Over 1</title>
+			<title code="0x19">Game Over 2</title>
+			<title code="0x24">Fanfare 2</title>
+			<title code="0x17">Quiz Scene 2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] 麻雀河底撈魚</name>
+		<name>[PC/AT] Mahjong Houtei Raoyui (麻雀河底撈魚) (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">QUEEN SOFT</driveralias>
+		<driveralias type="PC/AT">Queensoft</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x12"/>
@@ -846,26 +846,26 @@
 			<rom type="shell" offset="0">PMD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x13">LOGO.M    : </title>
-			<title code="0x18">OPENING.M : </title>
-			<title code="0x1b">TITLE.M   : </title>
-			<title code="0x11">GRAPHIC.M : </title>
-			<title code="0x12">LETS_GO.M : </title>
-			<title code="0x14">MENU.M    : </title>
-			<title code="0x15">MJG1.M    : </title>
-			<title code="0x16">MJG2.M    : </title>
-			<title code="0x17">MJG3.M    : </title>
-			<title code="0x19">RANKING.M : </title>
-			<title code="0x1a">STAFF.M   : </title>
-			<title code="0x1c">WIN.M     : </title>
-			<title code="0x10">ENDING.M  : </title>
-			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC : %2X</range>
+			<title code="0x13">LOGO.M</title>
+			<title code="0x18">OPENING.M</title>
+			<title code="0x1b">TITLE.M</title>
+			<title code="0x11">GRAPHIC.M</title>
+			<title code="0x12">LETS_GO.M</title>
+			<title code="0x14">MENU.M</title>
+			<title code="0x15">MJG1.M</title>
+			<title code="0x16">MJG2.M</title>
+			<title code="0x17">MJG3.M</title>
+			<title code="0x19">RANKING.M</title>
+			<title code="0x1a">STAFF.M</title>
+			<title code="0x1c">WIN.M</title>
+			<title code="0x10">ENDING.M</title>
+			<range min="0x0801" max="0x0806" extcode="1">MJG.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PURE II</name>
+		<name>[PC-8801] Pure II (ピュアII)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-8801">Queensoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x3000"/>
 			<option name="mdata_size" value="0x0b00"/>
@@ -896,32 +896,32 @@
 			<rom type="bgm" offset="0x13">MUS020.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS001.DAT : </title>
-			<title code="0x01">MUS002.DAT : </title>
-			<title code="0x02">MUS003.DAT : </title>
-			<title code="0x03">MUS004.DAT : </title>
-			<title code="0x04">MUS005.DAT : </title>
-			<title code="0x05">MUS006.DAT : </title>
-			<title code="0x06">MUS007.DAT : </title>
-			<title code="0x07">MUS008.DAT : </title>
-			<title code="0x08">MUS009.DAT : </title>
-			<title code="0x09">MUS010.DAT : </title>
-			<title code="0x0a">MUS011.DAT : </title>
-			<title code="0x0b">MUS012.DAT : </title>
-			<title code="0x0c">MUS013.DAT : </title>
-			<title code="0x0d">MUS014.DAT : </title>
-			<title code="0x0e">MUS015.DAT : </title>
-			<title code="0x0f">MUS016.DAT : </title>
-			<title code="0x10">MUS017.DAT : </title>
-			<title code="0x11">MUS018.DAT : </title>
-			<title code="0x12">MUS019.DAT : </title>
-			<title code="0x13">MUS020.DAT : </title>
+			<title code="0x00">MUS001.DAT</title>
+			<title code="0x01">MUS002.DAT</title>
+			<title code="0x02">MUS003.DAT</title>
+			<title code="0x03">MUS004.DAT</title>
+			<title code="0x04">MUS005.DAT</title>
+			<title code="0x05">MUS006.DAT</title>
+			<title code="0x06">MUS007.DAT</title>
+			<title code="0x07">MUS008.DAT</title>
+			<title code="0x08">MUS009.DAT</title>
+			<title code="0x09">MUS010.DAT</title>
+			<title code="0x0a">MUS011.DAT</title>
+			<title code="0x0b">MUS012.DAT</title>
+			<title code="0x0c">MUS013.DAT</title>
+			<title code="0x0d">MUS014.DAT</title>
+			<title code="0x0e">MUS015.DAT</title>
+			<title code="0x0f">MUS016.DAT</title>
+			<title code="0x10">MUS017.DAT</title>
+			<title code="0x11">MUS018.DAT</title>
+			<title code="0x12">MUS019.DAT</title>
+			<title code="0x13">MUS020.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] SLOPE</name>
+		<name>[PC-8801] Slope (スロープ)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-8801">Queensoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8400"/>
 			<option name="mdata_size" value="0x0c00"/>
@@ -942,22 +942,22 @@
 			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">DREAM OF FUTURE</title>
-			<title code="0x01">SCHOOL LIFE</title>
-			<title code="0x02">DAY BY DAY</title>
-			<title code="0x03">LONGING</title>
-			<title code="0x04">A NEW DAY</title>
-			<title code="0x06">AFTER SCHOOL</title>
-			<title code="0x05">HAVE A GOOD TIME</title>
-			<title code="0x07">THE HEART WAVER</title>
-			<title code="0x08">DON'T STOP MY HEARTBEAT</title>
-			<title code="0x09">A DREAMY STATE</title>
+			<title code="0x00">Dream of Future</title>
+			<title code="0x01">School Life</title>
+			<title code="0x02">Day By Day</title>
+			<title code="0x03">Longing</title>
+			<title code="0x04">A New Day</title>
+			<title code="0x06">After School</title>
+			<title code="0x05">Have a Good Time</title>
+			<title code="0x07">The Heart Waver</title>
+			<title code="0x08">Don't Stop My Heartbeat</title>
+			<title code="0x09">A Dreamy State</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ウェディングラプソディー</name>
+		<name>[PC-8801] Wedding Rhapsody (ウェディングラプソディー)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">QUEEN SOFT</driveralias>
+		<driveralias type="PC-8801">Queensoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x80fe"/>
 			<option name="mdata_size" value="0x0a00"/>
@@ -983,21 +983,21 @@
 			<rom type="bgm" offset="0x0e">MUS0E.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM 0x00</title>
-			<title code="0x01">BGM 0x01</title>
-			<title code="0x02">BGM 0x02</title>
-			<title code="0x03">BGM 0x03</title>
-			<title code="0x04">BGM 0x04</title>
-		<!--	<title code="0x05">BGM 0x05</title> -->
-			<title code="0x06">BGM 0x06</title>
-		<!--	<title code="0x07">BGM 0x07</title> -->
-			<title code="0x08">BGM 0x08</title>
-		<!--	<title code="0x09">BGM 0x09</title> -->
-		<!--	<title code="0x0a">BGM 0x0A</title> -->
-			<title code="0x0b">BGM 0x0B</title>
-			<title code="0x0c">BGM 0x0C</title>
-			<title code="0x0d">BGM 0x0D</title>
-			<title code="0x0e">BGM 0x0E</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+		<!--	<title code="0x05">BGM #05</title> -->
+			<title code="0x06">BGM #06</title>
+		<!--	<title code="0x07">BGM #07</title> -->
+			<title code="0x08">BGM #08</title>
+		<!--	<title code="0x09">BGM #09</title> -->
+		<!--	<title code="0x0a">BGM #0A</title> -->
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
 		</titlelist>
 	</game>
 </gamelist>

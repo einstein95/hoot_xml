@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //PONYCA -->
 	<game>
-		<name>[PC-8801] SUPER PIT FALL</name>
+		<name>[PC-8801] Super Pitfall (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">PONYCA</driveralias>
+		<driveralias type="PC-8801">Pony Canyon</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -47,15 +47,15 @@
 			<rom type="code" offset="0xa000">PROG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUSIC 00</title>
-			<title code="0x01">MUSIC 01</title>
-			<title code="0x02">MUSIC 02</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Ultima IV - Quest of the Avator -</name>
+		<name>[PC-8801] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">PONYCA</driveralias>
+		<driveralias type="PC-8801">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x49d1"/>
 		</options>
@@ -69,21 +69,21 @@
 			<rom type="bgm" offset="0x04">MUS04</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000004">MUS04 : オープニング</title>
-			<title code="0x00000003">MUS03 : 地上</title>
-			<title code="0x01000001">MUS01 : コンバット</title>
-			<title code="0x00000002">MUS02 : ダンジョン</title>
-			<title code="0x03000001">MUS01 : 店</title>
-			<title code="0x00000001">MUS01 : 城</title>
-			<title code="0x00000000">MUS00 : ロード・ブリティッシュ</title>
-			<title code="0x03000002">MUS02 : キャンプ</title>
-			<title code="0x02000001">MUS01 : 神殿</title>
+			<title code="0x00000004">オープニング</title>
+			<title code="0x00000003">地上</title>
+			<title code="0x01000001">コンバット</title>
+			<title code="0x00000002">ダンジョン</title>
+			<title code="0x03000001">店</title>
+			<title code="0x00000001">城</title>
+			<title code="0x00000000">ロード・ブリティッシュ</title>
+			<title code="0x03000002">キャンプ</title>
+			<title code="0x02000001">神殿</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Ultima IV - Quest of the Avator -(OPM)</name>
+		<name>[X1] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">PONYCA</driveralias>
+		<driveralias type="X1">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf30b"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -99,29 +99,29 @@
 			<rom type="bgm" offset="0x04">MUS04</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000004">04-01 : オープニング</title>
-			<title code="0x01000003">03-01 : 地上</title>
-			<title code="0x02000001">01-02 : コンバット</title>
-			<title code="0x01000002">02-01 : ダンジョン</title>
-			<title code="0x04000001">01-04 : 店</title>
-			<title code="0x01000001">01-01 : 城</title>
-			<title code="0x01000000">00-01 : ロード・ブリティッシュ</title>
-			<title code="0x04000002">02-04 : キャンプ</title>
-			<title code="0x03000001">01-03 : 神殿</title>
-		<!--	<title code="0x02000002">02-02 : コンバット</title> -->
-		<!--	<title code="0x03000002">02-03 : 神殿</title> -->
-		<!--	<title code="0x02000003">03-02 : コンバット</title> -->
-		<!--	<title code="0x03000003">03-03 : 神殿</title> -->
-		<!--	<title code="0x04000003">03-04 : キャンプ</title> -->
-		<!--	<title code="0x02000004">04-02 : コンバット</title> -->
-		<!--	<title code="0x03000004">04-03 : 神殿</title> -->
-		<!--	<title code="0x04000004">04-04 : 店</title> -->
+			<title code="0x01000004">オープニング</title>
+			<title code="0x01000003">地上</title>
+			<title code="0x02000001">コンバット</title>
+			<title code="0x01000002">ダンジョン</title>
+			<title code="0x04000001">店</title>
+			<title code="0x01000001">城</title>
+			<title code="0x01000000">ロード・ブリティッシュ</title>
+			<title code="0x04000002">キャンプ</title>
+			<title code="0x03000001">神殿</title>
+		<!--	<title code="0x02000002">コンバット</title> -->
+		<!--	<title code="0x03000002">神殿</title> -->
+		<!--	<title code="0x02000003">コンバット</title> -->
+		<!--	<title code="0x03000003">神殿</title> -->
+		<!--	<title code="0x04000003">キャンプ</title> -->
+		<!--	<title code="0x02000004">コンバット</title> -->
+		<!--	<title code="0x03000004">神殿</title> -->
+		<!--	<title code="0x04000004">店</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Ultima IV - Quest of the Avator -(PSG)</name>
+		<name>[X1] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">PONYCA</driveralias>
+		<driveralias type="X1">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf30b"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -138,29 +138,29 @@
 			<rom type="bgm" offset="0x04">MUS04</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000004">04-01 : オープニング</title>
-			<title code="0x01000003">03-01 : 地上</title>
-			<title code="0x02000001">01-02 : コンバット</title>
-			<title code="0x01000002">02-01 : ダンジョン</title>
-			<title code="0x04000001">01-04 : 店</title>
-			<title code="0x01000001">01-01 : 城</title>
-			<title code="0x01000000">00-01 : ロード・ブリティッシュ</title>
-			<title code="0x04000002">02-04 : キャンプ</title>
-			<title code="0x03000001">01-03 : 神殿</title>
-		<!--	<title code="0x02000002">02-02 : コンバット</title> -->
-		<!--	<title code="0x03000002">02-03 : 神殿</title> -->
-		<!--	<title code="0x02000003">03-02 : コンバット</title> -->
-		<!--	<title code="0x03000003">03-03 : 神殿</title> -->
-		<!--	<title code="0x04000003">03-04 : キャンプ</title> -->
-		<!--	<title code="0x02000004">04-02 : コンバット</title> -->
-		<!--	<title code="0x03000004">04-03 : 神殿</title> -->
-		<!--	<title code="0x04000004">04-04 : 店</title> -->
+			<title code="0x01000004">オープニング</title>
+			<title code="0x01000003">地上</title>
+			<title code="0x02000001">コンバット</title>
+			<title code="0x01000002">ダンジョン</title>
+			<title code="0x04000001">店</title>
+			<title code="0x01000001">城</title>
+			<title code="0x01000000">ロード・ブリティッシュ</title>
+			<title code="0x04000002">キャンプ</title>
+			<title code="0x03000001">神殿</title>
+		<!--	<title code="0x02000002">コンバット</title> -->
+		<!--	<title code="0x03000002">神殿</title> -->
+		<!--	<title code="0x02000003">コンバット</title> -->
+		<!--	<title code="0x03000003">神殿</title> -->
+		<!--	<title code="0x04000003">キャンプ</title> -->
+		<!--	<title code="0x02000004">コンバット</title> -->
+		<!--	<title code="0x03000004">神殿</title> -->
+		<!--	<title code="0x04000004">店</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Ultima IV - Quest of the Avator -</name>
+		<name>[X68000] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PONYCA</driveralias>
+		<driveralias type="X68000">Pony Canyon</driveralias>
 		<romlist archive="u468snd">
 			<rom type="code">u468snd.bin</rom>
 			<rom type="x" offset="0x08000">ultsnd.x</rom>
@@ -169,36 +169,36 @@
 			<rom type="code" offset="0x20000">ult.efc</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">STOP</title>
-			<title code="0x100">BGM #00 : オープニング</title>
-			<title code="0x101">BGM #01 : 地上</title>
-			<title code="0x102">BGM #02 : コンバット</title>
-			<title code="0x103">BGM #03 : ダンジョン</title>
-			<title code="0x104">BGM #04 : 未使用曲</title>
-			<title code="0x105">BGM #05 : 店</title>
-			<title code="0x106">BGM #06 : 城</title>
-			<title code="0x107">BGM #07 : ロード・ブリティッシュ</title>
-			<title code="0x108">BGM #08 : キャンプ</title>
-			<title code="0x109">BGM #09 : 神殿</title>
-			<title code="0x200">SE #00</title>
-			<title code="0x201">SE #01</title>
-			<title code="0x202">SE #02</title>
-			<title code="0x203">SE #03</title>
-			<title code="0x204">SE #04</title>
-			<title code="0x205">SE #05</title>
-			<title code="0x206">SE #06</title>
-			<title code="0x207">SE #07</title>
-			<title code="0x208">SE #08</title>
-			<title code="0x209">SE #09</title>
-			<title code="0x20a">SE #0a</title>
-			<title code="0x20b">SE #0b</title>
-			<title code="0x20c">SE #0c</title>
+			<title code="0x000">Stop the Music</title>
+			<title code="0x100">オープニング</title>
+			<title code="0x101">地上</title>
+			<title code="0x102">コンバット</title>
+			<title code="0x103">ダンジョン</title>
+			<title code="0x104">未使用曲</title>
+			<title code="0x105">店</title>
+			<title code="0x106">城</title>
+			<title code="0x107">ロード・ブリティッシュ</title>
+			<title code="0x108">キャンプ</title>
+			<title code="0x109">神殿</title>
+			<title code="0x200">SFX #00</title>
+			<title code="0x201">SFX #01</title>
+			<title code="0x202">SFX #02</title>
+			<title code="0x203">SFX #03</title>
+			<title code="0x204">SFX #04</title>
+			<title code="0x205">SFX #05</title>
+			<title code="0x206">SFX #06</title>
+			<title code="0x207">SFX #07</title>
+			<title code="0x208">SFX #08</title>
+			<title code="0x209">SFX #09</title>
+			<title code="0x20a">SFX #0a</title>
+			<title code="0x20b">SFX #0b</title>
+			<title code="0x20c">SFX #0c</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / EYE OF THE BEHOLDER</name>
+		<name>[PC-9801] AD&amp;D Eye of the Beholder (AD&amp;D アイ オブ ザ ビホルダー ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -222,143 +222,143 @@
 			<rom type="shell" offset="0">mlfplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000010">E1.OBJ : </title>
-			<title code="0x000011">E2.OBJ : </title>
-			<title code="0x000012">E3.OBJ : </title>
-			<title code="0x000013">E4.OBJ : </title>
-			<title code="0x000014">E5.OBJ : </title>
-			<title code="0x000015">E6.OBJ : </title>
-			<title code="0x000016">E7.OBJ : </title>
-			<title code="0x000017">E8.OBJ : </title>
-			<title code="0x000018">E9.OBJ : </title>
-			<title code="0x000019">EOBOP  : </title>
-			<title code="0x00001a">EOBEND : </title>
-			<title code="0x00001b">DUM    : 演奏停止</title>
-			<title code="0x01ffff">EFFECT #001</title>
-			<title code="0x02ffff">EFFECT #002</title>
-			<title code="0x03ffff">EFFECT #003</title>
-			<title code="0x04ffff">EFFECT #004</title>
-			<title code="0x05ffff">EFFECT #005</title>
-			<title code="0x06ffff">EFFECT #006</title>
-			<title code="0x07ffff">EFFECT #007</title>
-			<title code="0x08ffff">EFFECT #008</title>
-			<title code="0x09ffff">EFFECT #009</title>
-			<title code="0x0affff">EFFECT #010</title>
-			<title code="0x0bffff">EFFECT #011</title>
-			<title code="0x0cffff">EFFECT #012</title>
-			<title code="0x0dffff">EFFECT #013</title>
-			<title code="0x0effff">EFFECT #014</title>
-			<title code="0x0fffff">EFFECT #015</title>
-			<title code="0x10ffff">EFFECT #016</title>
-			<title code="0x11ffff">EFFECT #017</title>
-			<title code="0x12ffff">EFFECT #018</title>
-			<title code="0x13ffff">EFFECT #019</title>
-			<title code="0x14ffff">EFFECT #020</title>
-			<title code="0x15ffff">EFFECT #021</title>
-			<title code="0x16ffff">EFFECT #022</title>
-			<title code="0x17ffff">EFFECT #023</title>
-			<title code="0x18ffff">EFFECT #024</title>
-			<title code="0x19ffff">EFFECT #025</title>
-			<title code="0x1affff">EFFECT #026</title>
-			<title code="0x1bffff">EFFECT #027</title>
-			<title code="0x1cffff">EFFECT #028</title>
-			<title code="0x1dffff">EFFECT #029</title>
-			<title code="0x1effff">EFFECT #030</title>
-			<title code="0x1fffff">EFFECT #031</title>
-			<title code="0x20ffff">EFFECT #032</title>
-			<title code="0x21ffff">EFFECT #033</title>
-			<title code="0x22ffff">EFFECT #034</title>
-			<title code="0x23ffff">EFFECT #035</title>
-			<title code="0x24ffff">EFFECT #036</title>
-			<title code="0x25ffff">EFFECT #037</title>
-			<title code="0x26ffff">EFFECT #038</title>
-			<title code="0x27ffff">EFFECT #039</title>
-			<title code="0x28ffff">EFFECT #040</title>
-			<title code="0x29ffff">EFFECT #041</title>
-			<title code="0x2affff">EFFECT #042</title>
-			<title code="0x2bffff">EFFECT #043</title>
-			<title code="0x2cffff">EFFECT #044</title>
-			<title code="0x2dffff">EFFECT #045</title>
-			<title code="0x2effff">EFFECT #046</title>
-			<title code="0x2fffff">EFFECT #047</title>
-			<title code="0x30ffff">EFFECT #048</title>
-			<title code="0x31ffff">EFFECT #049</title>
-			<title code="0x32ffff">EFFECT #050</title>
-			<title code="0x33ffff">EFFECT #051</title>
-			<title code="0x34ffff">EFFECT #052</title>
-			<title code="0x35ffff">EFFECT #053</title>
-			<title code="0x36ffff">EFFECT #054</title>
-			<title code="0x37ffff">EFFECT #055</title>
-			<title code="0x38ffff">EFFECT #056</title>
-			<title code="0x39ffff">EFFECT #057</title>
-			<title code="0x3affff">EFFECT #058</title>
-			<title code="0x3bffff">EFFECT #059</title>
-			<title code="0x3cffff">EFFECT #060</title>
-			<title code="0x3dffff">EFFECT #061</title>
-			<title code="0x3effff">EFFECT #062</title>
-			<title code="0x3fffff">EFFECT #063</title>
-			<title code="0x40ffff">EFFECT #064</title>
-			<title code="0x41ffff">EFFECT #065</title>
-			<title code="0x42ffff">EFFECT #066</title>
-			<title code="0x43ffff">EFFECT #067</title>
-			<title code="0x44ffff">EFFECT #068</title>
-			<title code="0x45ffff">EFFECT #069</title>
-			<title code="0x46ffff">EFFECT #070</title>
-			<title code="0x47ffff">EFFECT #071</title>
-			<title code="0x48ffff">EFFECT #072</title>
-			<title code="0x49ffff">EFFECT #073</title>
-			<title code="0x4affff">EFFECT #074</title>
-			<title code="0x4bffff">EFFECT #075</title>
-			<title code="0x4cffff">EFFECT #076</title>
-			<title code="0x4dffff">EFFECT #077</title>
-			<title code="0x4effff">EFFECT #078</title>
-			<title code="0x4fffff">EFFECT #079</title>
-			<title code="0x50ffff">EFFECT #080</title>
-			<title code="0x51ffff">EFFECT #081</title>
-			<title code="0x52ffff">EFFECT #082</title>
-			<title code="0x53ffff">EFFECT #083</title>
-			<title code="0x54ffff">EFFECT #084</title>
-			<title code="0x55ffff">EFFECT #085</title>
-			<title code="0x56ffff">EFFECT #086</title>
-			<title code="0x57ffff">EFFECT #087</title>
-			<title code="0x58ffff">EFFECT #088</title>
-			<title code="0x59ffff">EFFECT #089</title>
-			<title code="0x5affff">EFFECT #090</title>
-			<title code="0x5bffff">EFFECT #091</title>
-			<title code="0x5cffff">EFFECT #092</title>
-			<title code="0x5dffff">EFFECT #093</title>
-			<title code="0x5effff">EFFECT #094</title>
-			<title code="0x5fffff">EFFECT #095</title>
-			<title code="0x60ffff">EFFECT #096</title>
-			<title code="0x61ffff">EFFECT #097</title>
-			<title code="0x62ffff">EFFECT #098</title>
-			<title code="0x63ffff">EFFECT #099</title>
-			<title code="0x64ffff">EFFECT #100</title>
-			<title code="0x65ffff">EFFECT #101</title>
-			<title code="0x66ffff">EFFECT #102</title>
-			<title code="0x67ffff">EFFECT #103</title>
-			<title code="0x68ffff">EFFECT #104</title>
-			<title code="0x69ffff">EFFECT #105</title>
-			<title code="0x6affff">EFFECT #106</title>
-			<title code="0x6bffff">EFFECT #107</title>
-			<title code="0x6cffff">EFFECT #108</title>
-			<title code="0x6dffff">EFFECT #109</title>
-			<title code="0x6effff">EFFECT #110</title>
-			<title code="0x6fffff">EFFECT #111</title>
-			<title code="0x70ffff">EFFECT #112</title>
-			<title code="0x71ffff">EFFECT #113</title>
-			<title code="0x72ffff">EFFECT #114</title>
-			<title code="0x73ffff">EFFECT #115</title>
-			<title code="0x74ffff">EFFECT #116</title>
-			<title code="0x75ffff">EFFECT #117</title>
-			<title code="0x76ffff">EFFECT #118</title>
-			<title code="0x77ffff">EFFECT #119</title>
+			<title code="0x00001b">Stop the Music</title>
+			<title code="0x000010">E1.OBJ</title>
+			<title code="0x000011">E2.OBJ</title>
+			<title code="0x000012">E3.OBJ</title>
+			<title code="0x000013">E4.OBJ</title>
+			<title code="0x000014">E5.OBJ</title>
+			<title code="0x000015">E6.OBJ</title>
+			<title code="0x000016">E7.OBJ</title>
+			<title code="0x000017">E8.OBJ</title>
+			<title code="0x000018">E9.OBJ</title>
+			<title code="0x000019">EOBOP</title>
+			<title code="0x00001a">EOBEND</title>
+			<title code="0x01ffff">SFX #01</title>
+			<title code="0x02ffff">SFX #02</title>
+			<title code="0x03ffff">SFX #03</title>
+			<title code="0x04ffff">SFX #04</title>
+			<title code="0x05ffff">SFX #05</title>
+			<title code="0x06ffff">SFX #06</title>
+			<title code="0x07ffff">SFX #07</title>
+			<title code="0x08ffff">SFX #08</title>
+			<title code="0x09ffff">SFX #09</title>
+			<title code="0x0affff">SFX #0a</title>
+			<title code="0x0bffff">SFX #0b</title>
+			<title code="0x0cffff">SFX #0c</title>
+			<title code="0x0dffff">SFX #0d</title>
+			<title code="0x0effff">SFX #0e</title>
+			<title code="0x0fffff">SFX #0f</title>
+			<title code="0x10ffff">SFX #10</title>
+			<title code="0x11ffff">SFX #11</title>
+			<title code="0x12ffff">SFX #12</title>
+			<title code="0x13ffff">SFX #13</title>
+			<title code="0x14ffff">SFX #14</title>
+			<title code="0x15ffff">SFX #15</title>
+			<title code="0x16ffff">SFX #16</title>
+			<title code="0x17ffff">SFX #17</title>
+			<title code="0x18ffff">SFX #18</title>
+			<title code="0x19ffff">SFX #19</title>
+			<title code="0x1affff">SFX #1a</title>
+			<title code="0x1bffff">SFX #1b</title>
+			<title code="0x1cffff">SFX #1c</title>
+			<title code="0x1dffff">SFX #1d</title>
+			<title code="0x1effff">SFX #1e</title>
+			<title code="0x1fffff">SFX #1f</title>
+			<title code="0x20ffff">SFX #20</title>
+			<title code="0x21ffff">SFX #21</title>
+			<title code="0x22ffff">SFX #22</title>
+			<title code="0x23ffff">SFX #23</title>
+			<title code="0x24ffff">SFX #24</title>
+			<title code="0x25ffff">SFX #25</title>
+			<title code="0x26ffff">SFX #26</title>
+			<title code="0x27ffff">SFX #27</title>
+			<title code="0x28ffff">SFX #28</title>
+			<title code="0x29ffff">SFX #29</title>
+			<title code="0x2affff">SFX #2a</title>
+			<title code="0x2bffff">SFX #2b</title>
+			<title code="0x2cffff">SFX #2c</title>
+			<title code="0x2dffff">SFX #2d</title>
+			<title code="0x2effff">SFX #2e</title>
+			<title code="0x2fffff">SFX #2f</title>
+			<title code="0x30ffff">SFX #30</title>
+			<title code="0x31ffff">SFX #31</title>
+			<title code="0x32ffff">SFX #32</title>
+			<title code="0x33ffff">SFX #33</title>
+			<title code="0x34ffff">SFX #34</title>
+			<title code="0x35ffff">SFX #35</title>
+			<title code="0x36ffff">SFX #36</title>
+			<title code="0x37ffff">SFX #37</title>
+			<title code="0x38ffff">SFX #38</title>
+			<title code="0x39ffff">SFX #39</title>
+			<title code="0x3affff">SFX #3a</title>
+			<title code="0x3bffff">SFX #3b</title>
+			<title code="0x3cffff">SFX #3c</title>
+			<title code="0x3dffff">SFX #3d</title>
+			<title code="0x3effff">SFX #3e</title>
+			<title code="0x3fffff">SFX #3f</title>
+			<title code="0x40ffff">SFX #40</title>
+			<title code="0x41ffff">SFX #41</title>
+			<title code="0x42ffff">SFX #42</title>
+			<title code="0x43ffff">SFX #43</title>
+			<title code="0x44ffff">SFX #44</title>
+			<title code="0x45ffff">SFX #45</title>
+			<title code="0x46ffff">SFX #46</title>
+			<title code="0x47ffff">SFX #47</title>
+			<title code="0x48ffff">SFX #48</title>
+			<title code="0x49ffff">SFX #49</title>
+			<title code="0x4affff">SFX #4a</title>
+			<title code="0x4bffff">SFX #4b</title>
+			<title code="0x4cffff">SFX #4c</title>
+			<title code="0x4dffff">SFX #4d</title>
+			<title code="0x4effff">SFX #4e</title>
+			<title code="0x4fffff">SFX #4f</title>
+			<title code="0x50ffff">SFX #50</title>
+			<title code="0x51ffff">SFX #51</title>
+			<title code="0x52ffff">SFX #52</title>
+			<title code="0x53ffff">SFX #53</title>
+			<title code="0x54ffff">SFX #54</title>
+			<title code="0x55ffff">SFX #55</title>
+			<title code="0x56ffff">SFX #56</title>
+			<title code="0x57ffff">SFX #57</title>
+			<title code="0x58ffff">SFX #58</title>
+			<title code="0x59ffff">SFX #59</title>
+			<title code="0x5affff">SFX #5a</title>
+			<title code="0x5bffff">SFX #5b</title>
+			<title code="0x5cffff">SFX #5c</title>
+			<title code="0x5dffff">SFX #5d</title>
+			<title code="0x5effff">SFX #5e</title>
+			<title code="0x5fffff">SFX #5f</title>
+			<title code="0x60ffff">SFX #60</title>
+			<title code="0x61ffff">SFX #61</title>
+			<title code="0x62ffff">SFX #62</title>
+			<title code="0x63ffff">SFX #63</title>
+			<title code="0x64ffff">SFX #64</title>
+			<title code="0x65ffff">SFX #65</title>
+			<title code="0x66ffff">SFX #66</title>
+			<title code="0x67ffff">SFX #67</title>
+			<title code="0x68ffff">SFX #68</title>
+			<title code="0x69ffff">SFX #69</title>
+			<title code="0x6affff">SFX #6a</title>
+			<title code="0x6bffff">SFX #6b</title>
+			<title code="0x6cffff">SFX #6c</title>
+			<title code="0x6dffff">SFX #6d</title>
+			<title code="0x6effff">SFX #6e</title>
+			<title code="0x6fffff">SFX #6f</title>
+			<title code="0x70ffff">SFX #70</title>
+			<title code="0x71ffff">SFX #71</title>
+			<title code="0x72ffff">SFX #72</title>
+			<title code="0x73ffff">SFX #73</title>
+			<title code="0x74ffff">SFX #74</title>
+			<title code="0x75ffff">SFX #75</title>
+			<title code="0x76ffff">SFX #76</title>
+			<title code="0x77ffff">SFX #77</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ultima V - Warriors of Destiny -</name>
+		<name>[PC-9801] Ultima V: Warriors of Destiny (ウルティマ5 Warriors of Destiny) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -384,27 +384,27 @@
 			<rom type="shell" offset="0">opndr_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">UL01.BIN : Ultima Theme</title>
-			<title code="0x11">UL02.BIN : Britannic lands</title>
-			<title code="0x12">UL03.BIN : Cap'n Johne's Hornpipe</title>
-			<title code="0x13">UL04.BIN : Engagement and melee</title>
-			<title code="0x14">UL05.BIN : Stones</title>
-			<title code="0x15">UL06.BIN : Greyson's tale</title>
-			<title code="0x16">UL07.BIN : Fanfare for the virtuous</title>
-			<title code="0x17">UL08.BIN : The Missing Monarch</title>
-			<title code="0x18">UL09.BIN : Villager Tarantella</title>
-			<title code="0x19">UL10.BIN : Halls of Doom</title>
-			<title code="0x1a">UL11.BIN : Worlds below</title>
-			<title code="0x1b">UL12.BIN : Lord Blackthorn</title>
-			<title code="0x1c">UL13.BIN : Dream of Lady Nan</title>
-			<title code="0x1d">UL14.BIN : Joyous reunion</title>
-			<title code="0x1e">UL15.BIN : Rule Britannia</title>
+			<title code="0x10">Ultima Theme</title>
+			<title code="0x11">Britannic lands</title>
+			<title code="0x12">Cap'n Johne's Hornpipe</title>
+			<title code="0x13">Engagement and melee</title>
+			<title code="0x14">Stones</title>
+			<title code="0x15">Greyson's tale</title>
+			<title code="0x16">Fanfare for the virtuous</title>
+			<title code="0x17">The Missing Monarch</title>
+			<title code="0x18">Villager Tarantella</title>
+			<title code="0x19">Halls of Doom</title>
+			<title code="0x1a">Worlds below</title>
+			<title code="0x1b">Lord Blackthorn</title>
+			<title code="0x1c">Dream of Lady Nan</title>
+			<title code="0x1d">Joyous reunion</title>
+			<title code="0x1e">Rule Britannia</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ultima III EXODUS</name>
+		<name>[PC-9801] Ultima III: Exodus (ウルティマ3 エクソダス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -425,22 +425,22 @@
 			<rom type="shell" offset="0">opndr_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">M01.BIN : Wanderer</title>
-			<title code="0x11">M02.BIN : Towns</title>
-			<title code="0x12">M03.BIN : Castles</title>
-			<title code="0x14">M05.BIN : Combat</title>
-			<title code="0x15">M06.BIN : Shopping</title>
-			<title code="0x16">M07.BIN : Exodus</title>
-			<title code="0x17">M08.BIN : Rule Britannia</title>
-			<title code="0x18">M09.BIN : Alive</title>
-			<title code="0x19">M10.BIN : Fanfare of Lord British</title>
-			<title code="0x1a">M11.BIN : Fanfare of Lord British(UltimaIV)</title>
+			<title code="0x10">Wanderer</title>
+			<title code="0x11">Towns</title>
+			<title code="0x12">Castles</title>
+			<title code="0x14">Combat</title>
+			<title code="0x15">Shopping</title>
+			<title code="0x16">Exodus</title>
+			<title code="0x17">Rule Britannia</title>
+			<title code="0x18">Alive</title>
+			<title code="0x19">Fanfare of Lord British</title>
+			<title code="0x1a">Fanfare of Lord British(UltimaIV)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Ultima V - Warriors of Destiny -</name>
+		<name>[X68000] Ultima V: Warriors of Destiny (ウルティマ5 Warriors of Destiny) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PONYCA</driveralias>
+		<driveralias type="X68000">Pony Canyon</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -464,27 +464,27 @@
 			<rom type="code" offset="0x2f000">UL15.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">UL01.BIN : Ultima Theme</title>
-			<title code="0x02">UL02.BIN : Britannic lands</title>
-			<title code="0x03">UL03.BIN : Cap'n Johne's Hornpipe</title>
-			<title code="0x04">UL04.BIN : Engagement and melee</title>
-			<title code="0x05">UL05.BIN : Stones</title>
-			<title code="0x06">UL06.BIN : Greyson's tale</title>
-			<title code="0x07">UL07.BIN : Fanfare for the virtuous</title>
-			<title code="0x08">UL08.BIN : The Missing Monarch</title>
-			<title code="0x09">UL09.BIN : Villager Tarantella</title>
-			<title code="0x0a">UL10.BIN : Halls of Doom</title>
-			<title code="0x0b">UL11.BIN : Worlds below</title>
-			<title code="0x0c">UL12.BIN : Lord Blackthorn</title>
-			<title code="0x0d">UL13.BIN : Dream of Lady Nan</title>
-			<title code="0x0e">UL14.BIN : Joyous reunion</title>
-			<title code="0x0f">UL15.BIN : Rule Britannia</title>
+			<title code="0x01">Ultima Theme</title>
+			<title code="0x02">Britannic lands</title>
+			<title code="0x03">Cap'n Johne's Hornpipe</title>
+			<title code="0x04">Engagement and melee</title>
+			<title code="0x05">Stones</title>
+			<title code="0x06">Greyson's tale</title>
+			<title code="0x07">Fanfare for the virtuous</title>
+			<title code="0x08">The Missing Monarch</title>
+			<title code="0x09">Villager Tarantella</title>
+			<title code="0x0a">Halls of Doom</title>
+			<title code="0x0b">Worlds below</title>
+			<title code="0x0c">Lord Blackthorn</title>
+			<title code="0x0d">Dream of Lady Nan</title>
+			<title code="0x0e">Joyous reunion</title>
+			<title code="0x0f">Rule Britannia</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / DEATH KNIGHTS OF KRYNN(OPN)</name>
+		<name>[PC-9801] AD&amp;D Death Knights of Krynn (AD&amp;D デスナイト オブ クリン) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -515,31 +515,31 @@
 			<rom type="shell" offset="0">TRPSCR98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DKK01.MDT : OPENING THEME</title>
-			<title code="0x11">DKK02.MDT : MACHI</title>
-			<title code="0x12">DKK03.MDT : DUNGEON-1</title>
-			<title code="0x13">DKK04.MDT : DANGUEON-2</title>
-			<title code="0x14">DKK05.MDT : CAMP</title>
-			<title code="0x15">DKK06.MDT : SENTOU NORMAL</title>
-			<title code="0x16">DKK07.MDT : CHYUU-BOSS</title>
-			<title code="0x17">DKK08.MDT : </title>
-			<title code="0x18">DKK09.MDT : MAP</title>
-			<title code="0x19">DKK10.MDT : EVENT SHOCKING</title>
-			<title code="0x1a">DKK11.MDT : EVENT DEAI</title>
-			<title code="0x1b">DKK12.MDT : EVENT-WAKARE</title>
-			<title code="0x1c">DKK13.MDT : IKARI</title>
-			<title code="0x1d">DKK14.MDT : MIKATA NPC</title>
-			<title code="0x1e">DKK15.MDT : TEKI-NPC</title>
-			<title code="0x1f">DKK16.MDT : CHARACTER MAKING</title>
-			<title code="0x20">DKK17.MDT : Ending Event</title>
-			<title code="0x21">DKK18.MDT : ZENNMETSU 10sec</title>
-			<title code="0x22">DKK19.MDT : MAYA'S THEME</title>
+			<title code="0x10">OPENING THEME</title>
+			<title code="0x11">MACHI</title>
+			<title code="0x12">DUNGEON-1</title>
+			<title code="0x13">DANGUEON-2</title>
+			<title code="0x14">CAMP</title>
+			<title code="0x15">SENTOU NORMAL</title>
+			<title code="0x16">CHYUU-BOSS</title>
+			<title code="0x17">DKK08.MDT</title>
+			<title code="0x18">MAP</title>
+			<title code="0x19">EVENT SHOCKING</title>
+			<title code="0x1a">EVENT DEAI</title>
+			<title code="0x1b">EVENT-WAKARE</title>
+			<title code="0x1c">IKARI</title>
+			<title code="0x1d">MIKATA NPC</title>
+			<title code="0x1e">TEKI-NPC</title>
+			<title code="0x1f">CHARACTER MAKING</title>
+			<title code="0x20">Ending Event</title>
+			<title code="0x21">ZENNMETSU 10sec</title>
+			<title code="0x22">MAYA'S THEME</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / DEATH KNIGHTS OF KRYNN(GS)</name>
+		<name>[PC-9801] AD&amp;D Death Knights of Krynn (AD&amp;D デスナイト オブ クリン) (SC-88)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -571,31 +571,87 @@
 			<rom type="shell" offset="0">midrv_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DKK_MD01.MID : OPENING THEME</title>
-			<title code="0x11">DKK_MD02.MID : MACHI</title>
-			<title code="0x12">DKK_MD03.MID : DUNGEON-1</title>
-			<title code="0x13">DKK_MD04.MID : DANGUEON-2</title>
-			<title code="0x14">DKK_MD05.MID : CAMP</title>
-			<title code="0x15">DKK_MD06.MID : SENTOU NORMAL</title>
-			<title code="0x16">DKK_MD07.MID : CHYUU-BOSS</title>
-			<title code="0x17">DKK_MD08.MID : </title>
-			<title code="0x18">DKK_MD09.MID : MAP</title>
-			<title code="0x19">DKK_MD10.MID : EVENT SHOCKING</title>
-			<title code="0x1a">DKK_MD11.MID : EVENT DEAI</title>
-			<title code="0x1b">DKK_MD12.MID : EVENT-WAKARE</title>
-			<title code="0x1c">DKK_MD13.MID : IKARI</title>
-			<title code="0x1d">DKK_MD14.MID : MIKATA NPC</title>
-			<title code="0x1e">DKK_MD15.MID : TEKI-NPC</title>
-			<title code="0x1f">DKK_MD16.MID : CHARACTER MAKING</title>
-			<title code="0x20">DKK_MD17.MID : Ending Event</title>
-			<title code="0x21">DKK_MD18.MID : ZENNMETSU 10sec</title>
-			<title code="0x22">DKK_MD19.MID : MAYA'S THEME</title>
+			<title code="0x10">OPENING THEME</title>
+			<title code="0x11">MACHI</title>
+			<title code="0x12">DUNGEON-1</title>
+			<title code="0x13">DANGUEON-2</title>
+			<title code="0x14">CAMP</title>
+			<title code="0x15">SENTOU NORMAL</title>
+			<title code="0x16">CHYUU-BOSS</title>
+			<title code="0x17">DKK_MD08.MID</title>
+			<title code="0x18">MAP</title>
+			<title code="0x19">EVENT SHOCKING</title>
+			<title code="0x1a">EVENT DEAI</title>
+			<title code="0x1b">EVENT-WAKARE</title>
+			<title code="0x1c">IKARI</title>
+			<title code="0x1d">MIKATA NPC</title>
+			<title code="0x1e">TEKI-NPC</title>
+			<title code="0x1f">CHARACTER MAKING</title>
+			<title code="0x20">Ending Event</title>
+			<title code="0x21">ZENNMETSU 10sec</title>
+			<title code="0x22">MAYA'S THEME</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / CHAMPIONS OF KRYNN(OPN)</name>
+		<name>[PC-9801] AD&amp;D Death Knights of Krynn (AD&amp;D デスナイト オブ クリン) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="adnddkok_98">
+			<rom type="file" offset="-1">MIDRV_98.com</rom>
+			<rom type="file" offset="-1">MIDRV.COM</rom>
+			<rom type="file" offset="0x10">DKK_MD01.MID</rom>
+			<rom type="file" offset="0x11">DKK_MD02.MID</rom>
+			<rom type="file" offset="0x12">DKK_MD03.MID</rom>
+			<rom type="file" offset="0x13">DKK_MD04.MID</rom>
+			<rom type="file" offset="0x14">DKK_MD05.MID</rom>
+			<rom type="file" offset="0x15">DKK_MD06.MID</rom>
+			<rom type="file" offset="0x16">DKK_MD07.MID</rom>
+			<rom type="file" offset="0x17">DKK_MD08.MID</rom>
+			<rom type="file" offset="0x18">DKK_MD09.MID</rom>
+			<rom type="file" offset="0x19">DKK_MD10.MID</rom>
+			<rom type="file" offset="0x1a">DKK_MD11.MID</rom>
+			<rom type="file" offset="0x1b">DKK_MD12.MID</rom>
+			<rom type="file" offset="0x1c">DKK_MD13.MID</rom>
+			<rom type="file" offset="0x1d">DKK_MD14.MID</rom>
+			<rom type="file" offset="0x1e">DKK_MD15.MID</rom>
+			<rom type="file" offset="0x1f">DKK_MD16.MID</rom>
+			<rom type="file" offset="0x20">DKK_MD17.MID</rom>
+			<rom type="file" offset="0x21">DKK_MD18.MID</rom>
+			<rom type="file" offset="0x22">DKK_MD19.MID</rom>
+			<rom type="shell" offset="0">midrv</rom>
+			<rom type="shell" offset="0">midrv_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">OPENING THEME</title>
+			<title code="0x11">MACHI</title>
+			<title code="0x12">DUNGEON-1</title>
+			<title code="0x13">DANGUEON-2</title>
+			<title code="0x14">CAMP</title>
+			<title code="0x15">SENTOU NORMAL</title>
+			<title code="0x16">CHYUU-BOSS</title>
+			<title code="0x17">DKK_MD08.MID</title>
+			<title code="0x18">MAP</title>
+			<title code="0x19">EVENT SHOCKING</title>
+			<title code="0x1a">EVENT DEAI</title>
+			<title code="0x1b">EVENT-WAKARE</title>
+			<title code="0x1c">IKARI</title>
+			<title code="0x1d">MIKATA NPC</title>
+			<title code="0x1e">TEKI-NPC</title>
+			<title code="0x1f">CHARACTER MAKING</title>
+			<title code="0x20">Ending Event</title>
+			<title code="0x21">ZENNMETSU 10sec</title>
+			<title code="0x22">MAYA'S THEME</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] AD&amp;D Champions of Krynn (AD&amp;D チャンピオン オブ クリン) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -621,26 +677,26 @@
 			<rom type="shell" offset="0">TRPSCR98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">COK01.MDT : オープニング</title>
-			<title code="0x11">COK02.MDT : 街</title>
-			<title code="0x12">COK03.MDT : DUNGEON1 前半</title>
-			<title code="0x13">COK04.MDT : DUNGEON2 後半</title>
-			<title code="0x14">COK05.MDT : キャンプ</title>
-			<title code="0x15">COK06.MDT : BATTLE-1 ノーマル </title>
-			<title code="0x16">COK07.MDT : BATTLE ファイナル</title>
-			<title code="0x17">COK08.MDT : ワールドマップ</title>
-			<title code="0x18">COK09.MDT : EVENT 驚き!</title>
-			<title code="0x19">COK10.MDT : EVENT 出会い</title>
-			<title code="0x1a">COK11.MDT : 別れ</title>
-			<title code="0x1b">COK12.MDT : 味方NPC</title>
-			<title code="0x1c">COK13.MDT : 敵NPC</title>
-			<title code="0x1d">COK14.MDT : エンディング</title>
+			<title code="0x10">オープニング</title>
+			<title code="0x11">街</title>
+			<title code="0x12">DUNGEON1 前半</title>
+			<title code="0x13">DUNGEON2 後半</title>
+			<title code="0x14">キャンプ</title>
+			<title code="0x15">BATTLE-1 ノーマル </title>
+			<title code="0x16">BATTLE ファイナル</title>
+			<title code="0x17">ワールドマップ</title>
+			<title code="0x18">EVENT 驚き!</title>
+			<title code="0x19">EVENT 出会い</title>
+			<title code="0x1a">別れ</title>
+			<title code="0x1b">味方NPC</title>
+			<title code="0x1c">敵NPC</title>
+			<title code="0x1d">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / CHAMPIONS OF KRYNN(GS)</name>
+		<name>[PC-9801] AD&amp;D Champions of Krynn (AD&amp;D チャンピオン オブ クリン) (SC-88)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -667,26 +723,72 @@
 			<rom type="shell" offset="0">midrv_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">COKMD01.MID : オープニング</title>
-			<title code="0x11">COKMD02.MID : 街</title>
-			<title code="0x12">COKMD03.MID : DUNGEON1 前半</title>
-			<title code="0x13">COKMD04.MID : DUNGEON2 後半</title>
-			<title code="0x14">COKMD05.MID : キャンプ</title>
-			<title code="0x15">COKMD06.MID : BATTLE-1 ノーマル </title>
-			<title code="0x16">COKMD07.MID : BATTLE ファイナル</title>
-			<title code="0x17">COKMD08.MID : ワールドマップ</title>
-			<title code="0x18">COKMD09.MID : EVENT 驚き!</title>
-			<title code="0x19">COKMD10.MID : EVENT 出会い</title>
-			<title code="0x1a">COKMD11.MID : 別れ</title>
-			<title code="0x1b">COKMD12.MID : 味方NPC</title>
-			<title code="0x1c">COKMD13.MID : 敵NPC</title>
-			<title code="0x1d">COKMD14.MID : エンディング</title>
+			<title code="0x10">オープニング</title>
+			<title code="0x11">街</title>
+			<title code="0x12">DUNGEON1 前半</title>
+			<title code="0x13">DUNGEON2 後半</title>
+			<title code="0x14">キャンプ</title>
+			<title code="0x15">BATTLE-1 ノーマル </title>
+			<title code="0x16">BATTLE ファイナル</title>
+			<title code="0x17">ワールドマップ</title>
+			<title code="0x18">EVENT 驚き!</title>
+			<title code="0x19">EVENT 出会い</title>
+			<title code="0x1a">別れ</title>
+			<title code="0x1b">味方NPC</title>
+			<title code="0x1c">敵NPC</title>
+			<title code="0x1d">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / CURSE OF THE AZURE BONDS</name>
+		<name>[PC-9801] AD&amp;D Champions of Krynn (AD&amp;D チャンピオン オブ クリン) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="adndcok_98">
+			<rom type="file" offset="-1">MIDRV_98.com</rom>
+			<rom type="file" offset="-1">MIDRV.COM</rom>
+			<rom type="file" offset="0x10">COKMD01.MID</rom>
+			<rom type="file" offset="0x11">COKMD02.MID</rom>
+			<rom type="file" offset="0x12">COKMD03.MID</rom>
+			<rom type="file" offset="0x13">COKMD04.MID</rom>
+			<rom type="file" offset="0x14">COKMD05.MID</rom>
+			<rom type="file" offset="0x15">COKMD06.MID</rom>
+			<rom type="file" offset="0x16">COKMD07.MID</rom>
+			<rom type="file" offset="0x17">COKMD08.MID</rom>
+			<rom type="file" offset="0x18">COKMD09.MID</rom>
+			<rom type="file" offset="0x19">COKMD10.MID</rom>
+			<rom type="file" offset="0x1a">COKMD11.MID</rom>
+			<rom type="file" offset="0x1b">COKMD12.MID</rom>
+			<rom type="file" offset="0x1c">COKMD13.MID</rom>
+			<rom type="file" offset="0x1d">COKMD14.MID</rom>
+			<rom type="shell" offset="0">midrv</rom>
+			<rom type="shell" offset="0">midrv_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">オープニング</title>
+			<title code="0x11">街</title>
+			<title code="0x12">DUNGEON1 前半</title>
+			<title code="0x13">DUNGEON2 後半</title>
+			<title code="0x14">キャンプ</title>
+			<title code="0x15">BATTLE-1 ノーマル </title>
+			<title code="0x16">BATTLE ファイナル</title>
+			<title code="0x17">ワールドマップ</title>
+			<title code="0x18">EVENT 驚き!</title>
+			<title code="0x19">EVENT 出会い</title>
+			<title code="0x1a">別れ</title>
+			<title code="0x1b">味方NPC</title>
+			<title code="0x1c">敵NPC</title>
+			<title code="0x1d">エンディング</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] AD&amp;D Curse of the Azure Bonds (AD&amp;D カース オブ アジュアボンド) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -713,9 +815,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / HILLSFAR</name>
+		<name>[PC-9801] AD&amp;D Hillsfar (AD&amp;D ヒルズファー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -727,13 +829,23 @@
 			<rom type="shell"  offset="0">mscd_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0b" extcode="1">SOUND %02x</range>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Advanced Dungeons &amp; Dragons / POOL OF RADIANCE</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -745,13 +857,27 @@
 			<rom type="shell"  offset="0">mscd_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x0e" extcode="1">SOUND %02x</range>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / POOLS OF DARKNESS</name>
+		<name>[PC-9801] AD&amp;D Pools of Darkness (AD&amp;D プールズ オブ ダークネス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -785,9 +911,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / SECRET OF THE SILVER BLADES</name>
+		<name>[PC-9801] AD&amp;D Secret of the Silver Blades (AD&amp;D シークレット オブ ザ シルバーブレード) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -817,9 +943,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / DRAGONS OF FLAME</name>
+		<name>[PC-9801] AD&amp;D Dragons of Flame (AD&amp;D ドラゴン オブ フレイム) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -845,26 +971,26 @@
 			<rom type="shell" offset="0">DOF_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DOF01.MDT  : </title>
-			<title code="0x11">DOF02.MDT  : </title>
-			<title code="0x12">DOF03.MDT  : </title>
-			<title code="0x13">DOF04B.MDT : </title>
-			<title code="0x14">DOF04W.MDT : </title>
-			<title code="0x15">DOF05.MDT  : </title>
-			<title code="0x16">DOF06.MDT  : </title>
-			<title code="0x17">DOF07.MDT  : </title>
-			<title code="0x18">DOF08.MDT  : </title>
-			<title code="0x19">DOF09.MDT  : </title>
-			<title code="0x1a">DOF10.MDT  : </title>
-			<title code="0x1b">DOF11.MDT  : </title>
-			<title code="0x1c">DOF12.MDT  : </title>
-			<title code="0x1d">DOF13.MDT  : </title>
+			<title code="0x10">DOF01.MDT</title>
+			<title code="0x11">DOF02.MDT</title>
+			<title code="0x12">DOF03.MDT</title>
+			<title code="0x13">DOF04B.MDT</title>
+			<title code="0x14">DOF04W.MDT</title>
+			<title code="0x15">DOF05.MDT</title>
+			<title code="0x16">DOF06.MDT</title>
+			<title code="0x17">DOF07.MDT</title>
+			<title code="0x18">DOF08.MDT</title>
+			<title code="0x19">DOF09.MDT</title>
+			<title code="0x1a">DOF10.MDT</title>
+			<title code="0x1b">DOF11.MDT</title>
+			<title code="0x1c">DOF12.MDT</title>
+			<title code="0x1d">DOF13.MDT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Advanced Dungeons &amp; Dragons / DRAGON STRIKE</name>
+		<name>[X68000] AD&amp;D Dragon Strike (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PONYCA</driveralias>
+		<driveralias type="X68000">Pony Canyon</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 		</options>
@@ -894,33 +1020,33 @@
 			<rom type="code" offset="0x74000">WING2.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">DOPEN2.OPM : </title>
-			<title code="0x03">BACK.OPM   : </title>
-			<title code="0x06">DSET.OPM   : </title>
-			<title code="0x07">DSET2.OPM  : </title>
-			<title code="0x08">DSST1.OPM  : </title>
-			<title code="0x09">DSST2.OPM  : </title>
-			<title code="0x0a">DSST3.OPM  : </title>
-			<title code="0x0b">DSST4.OPM  : </title>
-			<title code="0x0d">FST.OPM    : </title>
-			<title code="0x10">OVER.OPM   : </title>
-			<title code="0x14">WIN1.OPM   : </title>
-			<title code="0x15">WIN3.OPM   : </title>
-			<title code="0x02">ARR.OPM    : SE</title>
-			<title code="0x04">BEEP.OPM   : SE</title>
-			<title code="0x0c">FIRE.OPM   : SE</title>
-			<title code="0x0e">LAND.OPM   : SE</title>
-			<title code="0x0f">LVOI.OPM   : SE</title>
-			<title code="0x11">PUSHU.OPM  : SE</title>
-			<title code="0x12">RAN6.OPM   : SE</title>
-			<title code="0x13">STOCK2.OPM : SE</title>
-			<title code="0x16">WING2.OPM  : SE</title>
+			<title code="0x05">DOPEN2.OPM</title>
+			<title code="0x03">BACK.OPM</title>
+			<title code="0x06">DSET.OPM</title>
+			<title code="0x07">DSET2.OPM</title>
+			<title code="0x08">DSST1.OPM</title>
+			<title code="0x09">DSST2.OPM</title>
+			<title code="0x0a">DSST3.OPM</title>
+			<title code="0x0b">DSST4.OPM</title>
+			<title code="0x0d">FST.OPM</title>
+			<title code="0x10">OVER.OPM</title>
+			<title code="0x14">WIN1.OPM</title>
+			<title code="0x15">WIN3.OPM</title>
+			<title code="0x02">ARR.OPM    : SFX</title>
+			<title code="0x04">BEEP.OPM   : SFX</title>
+			<title code="0x0c">FIRE.OPM   : SFX</title>
+			<title code="0x0e">LAND.OPM   : SFX</title>
+			<title code="0x0f">LVOI.OPM   : SFX</title>
+			<title code="0x11">PUSHU.OPM  : SFX</title>
+			<title code="0x12">RAN6.OPM   : SFX</title>
+			<title code="0x13">STOCK2.OPM : SFX</title>
+			<title code="0x16">WING2.OPM  : SFX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Ultima IV - Quest of the Avator -</name>
+		<name>[MSX2] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">PONYCA</driveralias>
+		<driveralias type="MSX2">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xCEB1"/>
 			<option name="mdata_size" value="0x500"/>
@@ -937,37 +1063,37 @@
 			<rom type="bgm" offset="0x04">T.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0104">T.DAT : 01 : オープニング</title>
-			<title code="0x0103">O.DAT : 01 : 地上</title>
-			<title code="0x0201">C.DAT : 02 : コンバット</title>
+			<title code="0x0104">オープニング</title>
+			<title code="0x0103">地上</title>
+			<title code="0x0201">コンバット</title>
 			<!--
-			<title code="0x0202">D.DAT : 02 : コンバット</title>
-			<title code="0x0203">O.DAT : 02 : コンバット</title>
-			<title code="0x0204">T.DAT : 02 : コンバット</title>
+			<title code="0x0202">コンバット</title>
+			<title code="0x0203">コンバット</title>
+			<title code="0x0204">コンバット</title>
 			  -->
-			<title code="0x0102">D.DAT : 01 : ダンジョン</title>
-			<title code="0x0401">C.DAT : 04 : 店</title>
+			<title code="0x0102">ダンジョン</title>
+			<title code="0x0401">店</title>
 			<!--
-			<title code="0x0404">T.DAT : 04 : 店</title>
+			<title code="0x0404">店</title>
 			  -->
-			<title code="0x0101">C.DAT : 01 : 城</title>
-			<title code="0x0100">B.DAT : 01 : ロード・ブリティッシュ</title>
-			<title code="0x0402">D.DAT : 04 : キャンプ</title>
+			<title code="0x0101">城</title>
+			<title code="0x0100">ロード・ブリティッシュ</title>
+			<title code="0x0402">キャンプ</title>
 			<!--
-			<title code="0x0403">O.DAT : 04 : キャンプ</title>
+			<title code="0x0403">キャンプ</title>
 			  -->
-			<title code="0x0301">C.DAT : 03 : 神殿</title>
+			<title code="0x0301">神殿</title>
 			<!--
-			<title code="0x0302">D.DAT : 03 : 神殿</title>
-			<title code="0x0303">O.DAT : 03 : 神殿</title>
-			<title code="0x0304">T.DAT : 03 : 神殿</title>
+			<title code="0x0302">神殿</title>
+			<title code="0x0303">神殿</title>
+			<title code="0x0304">神殿</title>
 			  -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Ultima IV - Quest of the Avator(OPNA)</name>
+		<name>[PC-88VA] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">PONYCA</driveralias>
+		<driveralias type="PC-88VA">Pony Canyon</driveralias>
 		<romlist archive="ultima4_va">
 			<rom type="file" offset="-1">ultima4.com</rom>
 			<rom type="file" offset="-1">U4.EXE</rom>
@@ -1003,9 +1129,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Ultima IV - Quest of the Avator(OPN)</name>
+		<name>[PC-88VA] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">PONYCA</driveralias>
+		<driveralias type="PC-88VA">Pony Canyon</driveralias>
 		<romlist archive="ultima4_va">
 			<rom type="file" offset="-1">ultima4.com</rom>
 			<rom type="file" offset="-1">U4.EXE</rom>
@@ -1041,9 +1167,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ultima IV - Quest of the Avator -</name>
+		<name>[PC-9801] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1093,9 +1219,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Ultima I - The First Age of Darkness -</name>
+		<name>[MSX] Ultima I: The First Age of Darkness</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">PONYCA</driveralias>
+		<driveralias type="MSX">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -1116,21 +1242,21 @@
 			<rom type="bgm" offset="0x08">ULT23.MCP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ULT1.MCP   : </title>
-			<title code="0x01">ULT6.MCP   : </title>
-			<title code="0x02">ULT7.MCP   : </title>
-			<title code="0x03">ULT12R.MCP : </title>
-			<title code="0x04">ULT13.MCP  : </title>
-			<title code="0x05">ULT16R.MCP : </title>
-			<title code="0x06">ULT19.MCP  : </title>
-			<title code="0x07">ULT22.MCP  : </title>
-			<title code="0x08">ULT23.MCP  : </title>
+			<title code="0x00">ULT1.MCP</title>
+			<title code="0x01">ULT6.MCP</title>
+			<title code="0x02">ULT7.MCP</title>
+			<title code="0x03">ULT12R.MCP</title>
+			<title code="0x04">ULT13.MCP</title>
+			<title code="0x05">ULT16R.MCP</title>
+			<title code="0x06">ULT19.MCP</title>
+			<title code="0x07">ULT22.MCP</title>
+			<title code="0x08">ULT23.MCP</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Ultima II - The Revenge of the Enchantress -</name>
+		<name>[MSX] Ultima II: The Revenge of the Enchantress</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">PONYCA</driveralias>
+		<driveralias type="MSX">Pony Canyon</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x92f4"/>
 			<option name="mdata_size" value="0x0a00"/>
@@ -1151,21 +1277,21 @@
 			<rom type="bgm" offset="0x08">ULT23.MCP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ULT1.MCP   : </title>
-			<title code="0x01">ULT2.MCP   : </title>
-			<title code="0x02">ULT6.MCP   : </title>
-			<title code="0x03">ULT7.MCP   : </title>
-			<title code="0x04">ULT12R.MCP : </title>
-			<title code="0x05">ULT16R.MCP : </title>
-			<title code="0x06">ULT20.MCP  : </title>
-			<title code="0x07">ULT21.MCP  : </title>
-			<title code="0x08">ULT23.MCP  : </title>
+			<title code="0x00">ULT1.MCP</title>
+			<title code="0x01">ULT2.MCP</title>
+			<title code="0x02">ULT6.MCP</title>
+			<title code="0x03">ULT7.MCP</title>
+			<title code="0x04">ULT12R.MCP</title>
+			<title code="0x05">ULT16R.MCP</title>
+			<title code="0x06">ULT20.MCP</title>
+			<title code="0x07">ULT21.MCP</title>
+			<title code="0x08">ULT23.MCP</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Advanced Dungeons &amp; Dragons / DRAGON STRIKE</name>
+		<name>[PC-9801] AD&amp;D Dragon Strike</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PONYCA</driveralias>
+		<driveralias type="PC-9801">Pony Canyon</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="dummysndrom" value="1"/>
@@ -1188,24 +1314,24 @@
 			<rom type="shell" offset="0">dstr_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DSTUNE1.MUS : </title>
-			<title code="0x12">DSTUNE3.MUS : </title>
-			<title code="0x13">DSTUNE5.MUS : </title>
-			<title code="0x14">DSTUNE7.MUS : </title>
-			<title code="0x15">DSTUNE8.MUS : </title>
-			<title code="0x16">DST10.MUS   : </title>
-			<title code="0x17">DST11.MUS   : </title>
-			<title code="0x18">DST12.MUS   : </title>
-			<title code="0x19">DST13.MUS   : </title>
-			<title code="0x1a">DST14.MUS   : </title>
-			<title code="0x1b">DST15.MUS   : </title>
-			<title code="0x1c">DST16.MUS   : </title>
+			<title code="0x10">DSTUNE1.MUS</title>
+			<title code="0x12">DSTUNE3.MUS</title>
+			<title code="0x13">DSTUNE5.MUS</title>
+			<title code="0x14">DSTUNE7.MUS</title>
+			<title code="0x15">DSTUNE8.MUS</title>
+			<title code="0x16">DST10.MUS</title>
+			<title code="0x17">DST11.MUS</title>
+			<title code="0x18">DST12.MUS</title>
+			<title code="0x19">DST13.MUS</title>
+			<title code="0x1a">DST14.MUS</title>
+			<title code="0x1b">DST15.MUS</title>
+			<title code="0x1c">DST16.MUS</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Ultima IV - Quest of the Avator -(OPN)</name>
+		<name>[FM-7] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (OPN)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM-7">PONYCA</driveralias>
+		<driveralias type="FM-7">Pony Canyon</driveralias>
 		<options>
 			<option name="init_pc"    value="0x5000"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -1238,9 +1364,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Ultima IV - Quest of the Avator -(PSG)</name>
+		<name>[FM-7] Ultima IV: Quest of the Avatar (ウルティマ4 アバタールの伝説) (PSG)</name>
 		<driver type="generic">fm7</driver>
-		<driveralias type="FUJITSU FM-7">PONYCA</driveralias>
+		<driveralias type="FM-7">Pony Canyon</driveralias>
 		<options>
 			<option name="init_pc"    value="0x5000"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -1270,6 +1396,108 @@
 			<title code="0x03">ロード・ブリティッシュ</title>
 			<title code="0x07">キャンプ</title>
 			<title code="0x06">神殿</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Shougi (将棋) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Pony Canyon</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="shougi_msx">
+			<rom type="code">Shougi (1986)(Pony Canyon).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Nekketsu Judo (熱血柔道) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Pony Canyon</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="judo_msx">
+			<rom type="code">Nekketsu Judo (1988)(Pony Canyon).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x80">BGM #80</title>
+			<title code="0x81">BGM #81</title>
+			<title code="0x82">BGM #82</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Nekketsu Judo (熱血柔道) (YM2413)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Pony Canyon</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="judo_msx">
+			<rom type="code">Nekketsu Judo (1988)(Pony Canyon).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Ultima III: Exodus (ウルティマ3 エクソダス) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Pony Canyon</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="u3_msx">
+			<rom type="code">Ultima III - Exodus (1987)(Pony Canyon).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //XYZ -->
 	<game>
-		<name>[PC-9801] イメージルーム バナナ倶楽部(OPNA)</name>
+		<name>[PC-9801] Imageroom Banana Club (イメージルーム バナナ倶楽部) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="wstimer" value="8"/>
@@ -73,9 +73,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] イメージルーム バナナ倶楽部(OPN)</name>
+		<name>[PC-9801] Imageroom Banana Club (イメージルーム バナナ倶楽部) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="wstimer" value="8"/>
@@ -110,9 +110,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JONASON ～傀儡の舞～</name>
+		<name>[PC-9801] Jonason: Kugutsu no Mai (ジョナサン ～傀儡の舞～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="wstimer" value="8"/>
@@ -199,7 +199,7 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x47">[STOP]</title>
+			<title code="0x47">Stop the Music</title>
 			<title code="0x10">BGM_00.KM</title>
 			<title code="0x11">BGM_01.KM</title>
 			<title code="0x12">BGM_02.KM</title>
@@ -277,9 +277,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Tonight ～終末の夜～</name>
+		<name>[PC-9801] Tonight: Shuumatsu no Yoru (トゥナイト ～終末の夜～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -346,65 +346,65 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DISKA_00.O : </title>
-			<title code="0x12">DISKA_02.O : Destiny</title>
-			<title code="0x13">DISKA_03.O : Dark of Forest</title>
-			<title code="0x14">DISKA_04.O : Flower Dance</title>
-			<title code="0x15">DISKA_05.O : Fractal Zone</title>
-			<title code="0x16">DISKA_06.O : Left Alone</title>
-			<title code="0x17">DISKA_07.O : Lonely Night</title>
-			<title code="0x18">DISKA_08.O : Suspense Mind</title>
-			<title code="0x19">DISKA_09.O : Silhouette Romance Type D</title>
-			<title code="0x1A">DISKA_10.O : Splash Wave</title>
-			<title code="0x27">DISKA_23.O : </title>
-			<title code="0x28">DISKA_25.O : BGM A</title>
-			<title code="0x29">DISKA_26.O : BGM B</title>
-			<title code="0x2D">DISKA_30.O : City of China</title>
-			<title code="0x2E">DISKA_31.O : City of West(2)</title>
-			<title code="0x30">DISKA_33.O : Dark of Cave</title>
-			<title code="0x31">DISKA_34.O : </title>
-			<title code="0x32">DISKA_35.O : Enemy BGM</title>
-			<title code="0x35">DISKA_38.O : </title>
-			<title code="0x38">DISKA_41.O : シナリオ</title>
-			<title code="0x39">DISKA_42.O : バトル負け</title>
-			<title code="0x3A">DISKA_43.O : Fighting BGM(1)</title>
-			<title code="0x3C">DISKA_45.O : </title>
-			<title code="0x3D">DISKA_46.O : Dark of Forest</title>
-			<title code="0x3E">DISKA_47.O : Over the Rainbow</title>
-			<title code="0x3F">DISKA_48.O : Pure Mind</title>
-			<title code="0x40">DISKA_49.O : Solitude</title>
-			<title code="0x42">DISKA_51.O : Silent of Sanctuary</title>
-			<title code="0x43">DISKA_52.O : </title>
-			<title code="0x44">DISKA_53.O : Left Alone(Hyper Mix)</title>
-			<title code="0x11">DISKA_01.O : BY_XYZ</title>
-			<title code="0x1B">DISKA_11.O : 高価なライタ－の音</title>
-			<title code="0x1C">DISKA_12.O : 布団を殴る音</title>
-			<title code="0x1D">DISKA_13.O : 効果音1 (チャラリ－ン)</title>
-			<title code="0x1E">DISKA_14.O : 効果音2 (ダダ－ン)</title>
-			<title code="0x1F">DISKA_15.O : 街の雑踏</title>
-			<title code="0x20">DISKA_16.O : 受話器を取る音</title>
-			<title code="0x21">DISKA_17.O : 心臓の音</title>
-			<title code="0x22">DISKA_18.O : 車のエンジンの音</title>
-			<title code="0x23">DISKA_19.O : 足音 (駐車場を歩く音)</title>
-			<title code="0x24">DISKA_20.O : コ－ドレスフォンの音</title>
-			<title code="0x25">DISKA_21.O : BOMB</title>
-			<title code="0x26">DISKA_22.O : 木製のドアの開け閉めの音</title>
-			<title code="0x2A">DISKA_27.O : 留守録の再生する時の音</title>
-			<title code="0x2B">DISKA_28.O : 電話をきる音</title>
-			<title code="0x2C">DISKA_29.O : </title>
-			<title code="0x2F">DISKA_32.O : クリティカルヒットの音</title>
-			<title code="0x33">DISKA_36.O : 火系魔法の音1</title>
-			<title code="0x34">DISKA_37.O : Get Item</title>
-			<title code="0x36">DISKA_39.O : 車のエンジンの音</title>
-			<title code="0x37">DISKA_40.O : </title>
-			<title code="0x3B">DISKA_44.O : 回復魔法の音</title>
-			<title code="0x41">DISKA_50.O : キックの音</title>
+			<title code="0x10">DISKA_00.O</title>
+			<title code="0x12">Destiny</title>
+			<title code="0x13">Dark of Forest</title>
+			<title code="0x14">Flower Dance</title>
+			<title code="0x15">Fractal Zone</title>
+			<title code="0x16">Left Alone</title>
+			<title code="0x17">Lonely Night</title>
+			<title code="0x18">Suspense Mind</title>
+			<title code="0x19">Silhouette Romance Type D</title>
+			<title code="0x1A">Splash Wave</title>
+			<title code="0x27">DISKA_23.O</title>
+			<title code="0x28">BGM A</title>
+			<title code="0x29">BGM B</title>
+			<title code="0x2D">City of China</title>
+			<title code="0x2E">City of West(2)</title>
+			<title code="0x30">Dark of Cave</title>
+			<title code="0x31">DISKA_34.O</title>
+			<title code="0x32">Enemy BGM</title>
+			<title code="0x35">DISKA_38.O</title>
+			<title code="0x38">シナリオ</title>
+			<title code="0x39">バトル負け</title>
+			<title code="0x3A">Fighting BGM(1)</title>
+			<title code="0x3C">DISKA_45.O</title>
+			<title code="0x3D">Dark of Forest</title>
+			<title code="0x3E">Over the Rainbow</title>
+			<title code="0x3F">Pure Mind</title>
+			<title code="0x40">Solitude</title>
+			<title code="0x42">Silent of Sanctuary</title>
+			<title code="0x43">DISKA_52.O</title>
+			<title code="0x44">Left Alone(Hyper Mix)</title>
+			<title code="0x11">BY_XYZ</title>
+			<title code="0x1B">高価なライタ－の音</title>
+			<title code="0x1C">布団を殴る音</title>
+			<title code="0x1D">効果音1 (チャラリ－ン)</title>
+			<title code="0x1E">効果音2 (ダダ－ン)</title>
+			<title code="0x1F">街の雑踏</title>
+			<title code="0x20">受話器を取る音</title>
+			<title code="0x21">心臓の音</title>
+			<title code="0x22">車のエンジンの音</title>
+			<title code="0x23">足音 (駐車場を歩く音)</title>
+			<title code="0x24">コ－ドレスフォンの音</title>
+			<title code="0x25">BOMB</title>
+			<title code="0x26">木製のドアの開け閉めの音</title>
+			<title code="0x2A">留守録の再生する時の音</title>
+			<title code="0x2B">電話をきる音</title>
+			<title code="0x2C">DISKA_29.O</title>
+			<title code="0x2F">クリティカルヒットの音</title>
+			<title code="0x33">火系魔法の音1</title>
+			<title code="0x34">Get Item</title>
+			<title code="0x36">車のエンジンの音</title>
+			<title code="0x37">DISKA_40.O</title>
+			<title code="0x3B">回復魔法の音</title>
+			<title code="0x41">キックの音</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 緊縛の館(OPN)</name>
+		<name>[PC-9801] Kinbaku no Yakata (緊縛の館) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="wstimer" value="8"/>
@@ -459,9 +459,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 緊縛の館(OPNA)</name>
+		<name>[PC-9801] Kinbaku no Yakata (緊縛の館) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="wstimer" value="8"/>
@@ -516,9 +516,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 誰も知らない… ～失われた記憶の扉～</name>
+		<name>[PC-9801] Dare mo Shiranai: Ushinawareta Kioku no Tobira (誰も知らない… ～失われた記憶の扉～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XYZ</driveralias>
+		<driveralias type="PC-9801">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -583,63 +583,63 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x38">BGM_40.O : Over the Rainbow</title>
-			<title code="0x39">BGM_41.O : Flower Dance</title>
-			<title code="0x3B">BGM_43.O : 蒼狼伝説</title>
-			<title code="0x3E">BGM_47.O : Left Alone(Hyper Mix)</title>
-			<title code="0x3F">BGM_48.O : Left Alone</title>
-			<title code="0x40">BGM_49.O : Lost of Memories</title>
-			<title code="0x41">BGM_50.O : Suspense Mind</title>
-			<title code="0x42">BGM_51.O : Destiny</title>
-			<title code="0x10">BGM_00.O : ロゴの曲?(^_^;)</title>
-			<title code="0x11">BGM_01.O : 警報ベルの音</title>
-			<title code="0x12">BGM_02.O : </title>
-			<title code="0x13">BGM_03.O : テレビのノイズ</title>
-			<title code="0x14">BGM_04.O : コ－ドレスフォンの音</title>
-			<title code="0x15">BGM_05.O : シャワ－を浴びる音</title>
-			<title code="0x16">BGM_06.O : </title>
-			<title code="0x17">BGM_07.O : ニッパ－でコ－ドを切る音</title>
-			<title code="0x18">BGM_08.O : フクロウの泣き声</title>
-			<title code="0x19">BGM_09.O : ブザ－を鳴らす音</title>
-			<title code="0x1A">BGM_10.O : ヤカンが沸騰する音</title>
-			<title code="0x1B">BGM_11.O : 高価なライタ－の音</title>
-			<title code="0x1C">BGM_12.O : 壁を殴る音</title>
-			<title code="0x1D">BGM_13.O : サブマシンガンを撃つ音</title>
-			<title code="0x1E">BGM_14.O : 効果音1 (チャラリ－ン)</title>
-			<title code="0x1F">BGM_15.O : 効果音2 (ダダ－ン)</title>
-			<title code="0x30">BGM_32.O : 効果音3 (ジャン)</title>
-			<title code="0x20">BGM_16.O : 怨霊戦記で使われているような効果音シリ－ズ～その1～</title>
-			<title code="0x21">BGM_17.O : 街の雑踏</title>
-			<title code="0x22">BGM_18.O : 時計の音1</title>
-			<title code="0x23">BGM_19.O : 車のドアの開け閉めの音</title>
-			<title code="0x24">BGM_20.O : 心臓の音</title>
-			<title code="0x25">BGM_21.O : 水滴の音</title>
-			<title code="0x26">BGM_22.O : 戦場の音</title>
-			<title code="0x27">BGM_23.O : 船の汽笛の音</title>
-			<title code="0x28">BGM_24.O : 木製のドアの開け閉めの音</title>
-			<title code="0x29">BGM_25.O : 留守録の再生する時の音</title>
-			<title code="0x2A">BGM_26.O : BOMB</title>
-			<title code="0x2B">BGM_27.O : BY_XYZ</title>
-			<title code="0x2C">BGM_28.O : PISTOL</title>
-			<title code="0x2D">BGM_29.O : YELLOW</title>
-			<title code="0x2E">BGM_30.O : 車がブレ－キをかける音</title>
-			<title code="0x2F">BGM_31.O : 布団を殴る音</title>
-			<title code="0x31">BGM_33.O : 車のエンジンの音</title>
-			<title code="0x32">BGM_34.O : Dark of Forest</title>
-			<title code="0x33">BGM_35.O : YELLOW</title>
-			<title code="0x34">BGM_36.O : ドアを叩く音</title>
-			<title code="0x35">BGM_37.O : シャワ－を浴びる音</title>
-			<title code="0x36">BGM_38.O : パトカ－のサイレンの音</title>
-			<title code="0x37">BGM_39.O : インタ－ホンの音</title>
-			<title code="0x3A">BGM_42.O : </title>
-			<title code="0x3C">BGM_45.O : </title>
-			<title code="0x3D">BGM_46.O : 車のエンジンの音</title>
+			<title code="0x38">Over the Rainbow</title>
+			<title code="0x39">Flower Dance</title>
+			<title code="0x3B">蒼狼伝説</title>
+			<title code="0x3E">Left Alone(Hyper Mix)</title>
+			<title code="0x3F">Left Alone</title>
+			<title code="0x40">Lost of Memories</title>
+			<title code="0x41">Suspense Mind</title>
+			<title code="0x42">Destiny</title>
+			<title code="0x10">ロゴの曲?(^_^;)</title>
+			<title code="0x11">警報ベルの音</title>
+			<title code="0x12">BGM_02.O</title>
+			<title code="0x13">テレビのノイズ</title>
+			<title code="0x14">コ－ドレスフォンの音</title>
+			<title code="0x15">シャワ－を浴びる音</title>
+			<title code="0x16">BGM_06.O</title>
+			<title code="0x17">ニッパ－でコ－ドを切る音</title>
+			<title code="0x18">フクロウの泣き声</title>
+			<title code="0x19">ブザ－を鳴らす音</title>
+			<title code="0x1A">ヤカンが沸騰する音</title>
+			<title code="0x1B">高価なライタ－の音</title>
+			<title code="0x1C">壁を殴る音</title>
+			<title code="0x1D">サブマシンガンを撃つ音</title>
+			<title code="0x1E">効果音1 (チャラリ－ン)</title>
+			<title code="0x1F">効果音2 (ダダ－ン)</title>
+			<title code="0x30">効果音3 (ジャン)</title>
+			<title code="0x20">怨霊戦記で使われているような効果音シリ－ズ～その1～</title>
+			<title code="0x21">街の雑踏</title>
+			<title code="0x22">時計の音1</title>
+			<title code="0x23">車のドアの開け閉めの音</title>
+			<title code="0x24">心臓の音</title>
+			<title code="0x25">水滴の音</title>
+			<title code="0x26">戦場の音</title>
+			<title code="0x27">船の汽笛の音</title>
+			<title code="0x28">木製のドアの開け閉めの音</title>
+			<title code="0x29">留守録の再生する時の音</title>
+			<title code="0x2A">BOMB</title>
+			<title code="0x2B">BY_XYZ</title>
+			<title code="0x2C">PISTOL</title>
+			<title code="0x2D">YELLOW</title>
+			<title code="0x2E">車がブレ－キをかける音</title>
+			<title code="0x2F">布団を殴る音</title>
+			<title code="0x31">車のエンジンの音</title>
+			<title code="0x32">Dark of Forest</title>
+			<title code="0x33">YELLOW</title>
+			<title code="0x34">ドアを叩く音</title>
+			<title code="0x35">シャワ－を浴びる音</title>
+			<title code="0x36">パトカ－のサイレンの音</title>
+			<title code="0x37">インタ－ホンの音</title>
+			<title code="0x3A">BGM_42.O</title>
+			<title code="0x3C">BGM_45.O</title>
+			<title code="0x3D">車のエンジンの音</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] 緊縛の館</name>
+		<name>[PC/AT] Kinbaku no Yakata (緊縛の館) (YMF262)</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">XYZ</driveralias>
+		<driveralias type="PC/AT">XYZ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>

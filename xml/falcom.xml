@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] XANADU - Dragon Slayer II -</name>
 		<driver type="xanadu">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="xana_88">
 			<rom type="code" offset="0xe000">PATCH</rom>
 			<rom type="prog" offset="0x01">PR.NO1</rom>
@@ -61,9 +61,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] XANADU scenario II - the Resurrection of Dragon -</name>
+		<name>[PC-8801] Xanadu Scenario II: The Ressurection of Dragon (ザナドゥ シナリオ２ THE RESSURECTION OF DRAGON) (YM2203)</name>
 		<driver type="xanadu2">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="xana2_88">
 			<rom type="code" offset="0xe000">PATCH</rom>
 			<rom type="prog" offset="0x01">PR.NO1</rom>
@@ -159,9 +159,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ロマンシア (PC-8801mkIISR専用版)</name>
+		<name>[PC-8801] Romancia (ロマンシア) (PC-8801mkIISR専用版)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -194,7 +194,7 @@
 	<game>
 		<name>[PC-8801] ロマンシア (PC-8801/mkII,PC-8801-11)</name>
 		<driver type="8801-11">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -227,7 +227,7 @@
 	<game>
 		<name>[PC-8801] ロマンシア (PC-8801/mkII,SR実行時)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -310,7 +310,7 @@
 	<game>
 		<name>[PC-8801] 太陽の神殿 - ASTEKA II -</name>
 		<driver type="asteka2">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="asteka2">
 			<rom type="code" offset="0xe000">PATCH</rom>
 			<rom type="prog" offset="0x01">APRG</rom>
@@ -330,7 +330,7 @@
 	<game>
 		<name>[PC-8001mkIISR] XANADU - Dragon Slayer II -</name>
 		<driver type="opn">pc80sr</driver>
-		<driveralias type="NEC PC-8001mkIISR">Falcom</driveralias>
+		<driveralias type="PC-8001mkIISR">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x6000"/>
@@ -387,7 +387,7 @@
 	<game>
 		<name>[PC-9801] XANADU Scenario II - the Resurrection of Dragon -(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0000"/>
 			<option name="bootip"   value="0x0600"/>
@@ -469,7 +469,7 @@
 	<game>
 		<name>[PC-9801] XANADU Scenario II - the Resurrection of Dragon -(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs"    value="0x0000"/>
 			<option name="bootip"    value="0x0600"/>
@@ -553,7 +553,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -618,7 +618,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -683,7 +683,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -748,7 +748,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -813,7 +813,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -878,7 +878,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -943,7 +943,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix (easy mode)(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1008,7 +1008,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix (easy mode)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1073,7 +1073,7 @@
 	<game>
 		<name>[PC-9801] Revival XANADU 2 Remix (easy mode)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1138,7 +1138,7 @@
 	<game>
 		<name>[PC-9801] 朱紅い雫 - THE LEGEND OF HEROES IV -(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1271,7 +1271,7 @@
 	<game>
 		<name>[PC-9801] 朱紅い雫 - THE LEGEND OF HEROES IV -(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1404,7 +1404,7 @@
 	<game>
 		<name>[PC-9801] 朱紅い雫 - THE LEGEND OF HEROES IV -(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1537,7 +1537,7 @@
 	<game>
 		<name>[PC-9801] 朱紅い雫 - THE LEGEND OF HEROES IV -(GS)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1674,7 +1674,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1773,7 +1773,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1872,7 +1872,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1971,7 +1971,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT(GS)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2074,7 +2074,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT 体験版付デモDISK(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2103,7 +2103,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT 体験版付デモDISK(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2132,7 +2132,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT 体験版付デモDISK(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2164,7 +2164,7 @@
 	<game>
 		<name>[PC-9801] Brandish VT 体験版付デモDISK(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2856,7 +2856,7 @@
 	<game>
 		<name>[PC-8801] Ys  - Ancient Ys Vanished Omen -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4d00"/>
 			<option name="vdata_addr" value="0x0100"/>
@@ -2979,7 +2979,7 @@
 	<game>
 		<name>[PC-8801] Ys II - Ancient Ys Vanished The Final Chapter -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -3100,7 +3100,7 @@
 	<game>
 		<name>[PC-8801] Ys III - Wanderers From Ys -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd200"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -3219,7 +3219,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (基本シナリオ)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3396,7 +3396,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3432,7 +3432,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3474,7 +3474,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3520,7 +3520,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3570,7 +3570,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3624,7 +3624,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3672,7 +3672,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン1)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3710,7 +3710,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン2)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3750,7 +3750,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン3)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3818,7 +3818,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン4)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3862,7 +3862,7 @@
 	<game>
 		<name>[PC-8801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン5)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -3920,7 +3920,7 @@
 	<game>
 		<name>[PC-8801] STAR TRADER</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1a00"/>
 			<option name="init_pc"    value="0xc000"/>
@@ -4074,7 +4074,7 @@
 	<game>
 		<name>[PC-8801] Dragon Slayer 英雄伝説</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="ds6_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x6200">DEMO</rom>
@@ -4123,7 +4123,7 @@
 	<game>
 		<name>[PC-8801] 英雄伝説 II(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -4235,7 +4235,7 @@
 	<game>
 		<name>[PC-8801] 英雄伝説 II(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -4347,7 +4347,7 @@
 	<game>
 		<name>[PC-8801] DINOSAUR</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1300"/>
 			<option name="init_pc"    value="0xc000"/>
@@ -4446,7 +4446,7 @@
 	<game>
 		<name>[PC-8801] ぽっぷるメイル(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="popl88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xe800">MUSDRV</rom>
@@ -4525,7 +4525,7 @@
 	<game>
 		<name>[PC-8801] ぽっぷるメイル(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="popl88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xe800">MUSDRV</rom>
@@ -4604,7 +4604,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (基本シナリオ) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -4783,7 +4783,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -4829,7 +4829,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -4877,7 +4877,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -4929,7 +4929,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -4985,7 +4985,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5038,7 +5038,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5091,7 +5091,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン１) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5134,7 +5134,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン２) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5179,7 +5179,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン３) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5254,7 +5254,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン４) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5305,7 +5305,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン５) (OPNA)</name>
 		<driver type="opna">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5368,7 +5368,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (基本シナリオ) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5547,7 +5547,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5593,7 +5593,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5641,7 +5641,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5693,7 +5693,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5750,7 +5750,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5803,7 +5803,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5856,7 +5856,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン１) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5899,7 +5899,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン２) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -5944,7 +5944,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン３) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6019,7 +6019,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン４) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6070,7 +6070,7 @@
 	<game>
 		<name>[PC-88VA] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン５) (OPN)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">Falcom</driveralias>
+		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6133,7 +6133,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (基本シナリオ)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6311,7 +6311,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6354,7 +6354,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6401,7 +6401,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6452,7 +6452,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6508,7 +6508,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6566,7 +6566,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6618,7 +6618,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン1)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6660,7 +6660,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン2)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6710,7 +6710,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン3)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6792,7 +6792,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン4)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6840,7 +6840,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン5)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -6902,7 +6902,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (基本シナリオ)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7079,7 +7079,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7121,7 +7121,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7167,7 +7167,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7217,7 +7217,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7272,7 +7272,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7330,7 +7330,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7382,7 +7382,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン1)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7424,7 +7424,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン2)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7474,7 +7474,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン3)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7556,7 +7556,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン4)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7604,7 +7604,7 @@
 	<game>
 		<name>[PC-9801] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン5)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -7666,7 +7666,7 @@
 	<game>
 		<name>[PC-9801] STAR TRADER(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0xf000"/>
@@ -7771,7 +7771,7 @@
 	<game>
 		<name>[PC-9801] STAR TRADER(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0xf000"/>
@@ -7875,7 +7875,7 @@
 	<game>
 		<name>[PC-9801] Dragon Slayer 英雄伝説(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0x0600"/>
@@ -7933,7 +7933,7 @@
 	<game>
 		<name>[PC-9801] Dragon Slayer 英雄伝説(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0x0600"/>
@@ -7991,7 +7991,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8075,7 +8075,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8158,7 +8158,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8241,7 +8241,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(店頭デモ版)(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8301,7 +8301,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(店頭デモ版)(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8360,7 +8360,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 II(店頭デモ版)(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8419,7 +8419,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III 白き魔女 -もうひとつの英雄たちの物語-(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8577,7 +8577,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III 白き魔女 -もうひとつの英雄たちの物語-(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8737,7 +8737,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III 白き魔女 -もうひとつの英雄たちの物語-(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -8897,7 +8897,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III RENEWAL 白き魔女 -もうひとつの英雄たちの物語-(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9056,7 +9056,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III RENEWAL 白き魔女 -もうひとつの英雄たちの物語-(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9217,7 +9217,7 @@
 	<game>
 		<name>[PC-9801] 英雄伝説 III RENEWAL 白き魔女 -もうひとつの英雄たちの物語-(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9378,7 +9378,7 @@
 	<game>
 		<name>[PC-9801] DINOSAUR(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0xf000"/>
@@ -9482,7 +9482,7 @@
 	<game>
 		<name>[PC-9801] DINOSAUR(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0xf000"/>
@@ -9586,7 +9586,7 @@
 	<game>
 		<name>[PC-9801] LORD MONARCH(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9641,7 +9641,7 @@
 	<game>
 		<name>[PC-9801] LORD MONARCH(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9697,7 +9697,7 @@
 	<game>
 		<name>[PC-9801] LORD MONARCH (スピークボード専用体験版)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9744,7 +9744,7 @@
 	<game>
 		<name>[PC-9801] ADVANCED LORD MONARCH(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9798,7 +9798,7 @@
 	<game>
 		<name>[PC-9801] ADVANCED LORD MONARCH(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9854,7 +9854,7 @@
 	<game>
 		<name>[PC-9801] Brandish(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -9928,7 +9928,7 @@
 	<game>
 		<name>[PC-9801] Brandish(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -10003,7 +10003,7 @@
 	<game>
 		<name>[PC-9801] Brandish RENEWAL(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="br1r_98">
 			<rom type="file" offset="-1">br1r_98.com</rom>
 			<rom type="file" offset="5" >BR1.EXE</rom>
@@ -10073,7 +10073,7 @@
 	<game>
 		<name>[PC-9801] Brandish RENEWAL(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10146,7 +10146,7 @@
 	<game>
 		<name>[PC-9801] Brandish RENEWAL(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10219,7 +10219,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 - THE PLANET BUSTER -(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="br2_98">
 			<rom type="file" offset="-1">br2_98.com</rom>
 			<rom type="file" offset="5" >BR2.EXE</rom>
@@ -10321,7 +10321,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 - THE PLANET BUSTER -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10426,7 +10426,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 - THE PLANET BUSTER -(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10531,7 +10531,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 RENEWAL - THE PLANET BUSTER -(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="br2r_98">
 			<rom type="file" offset="-1">br2r_98.com</rom>
 			<rom type="file" offset="5" >BR2.EXE</rom>
@@ -10625,7 +10625,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 RENEWAL - THE PLANET BUSTER -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10722,7 +10722,7 @@
 	<game>
 		<name>[PC-9801] Brandish 2 RENEWAL - THE PLANET BUSTER -(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -10819,7 +10819,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 - SPIRIT OF BALCAN -(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="br3_98">
 			<rom type="file" offset="-1">br3_98.com</rom>
 			<rom type="file" offset="5" >BR3.EXE</rom>
@@ -10945,7 +10945,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 - SPIRIT OF BALCAN -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11074,7 +11074,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 - SPIRIT OF BALCAN -(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11203,7 +11203,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 RENEWAL - SPIRIT OF BALCAN -(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="br3r_98">
 			<rom type="file" offset="-1">br3_98.com</rom>
 			<rom type="file" offset="5" >BR3.EXE</rom>
@@ -11329,7 +11329,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 RENEWAL - SPIRIT OF BALCAN -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11458,7 +11458,7 @@
 	<game>
 		<name>[PC-9801] Brandish 3 RENEWAL - SPIRIT OF BALCAN -(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11587,7 +11587,7 @@
 	<game>
 		<name>[PC-9801] ぽっぷるメイル(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<romlist archive="popful_98">
 			<rom type="file" offset="-1">POP_98.COM</rom>
 			<rom type="file" offset="-1">POPFUL.EXE</rom>
@@ -11668,7 +11668,7 @@
 	<game>
 		<name>[PC-9801] ぽっぷるメイル(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11752,7 +11752,7 @@
 	<game>
 		<name>[PC-9801] ぽっぷるメイル(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -11836,7 +11836,7 @@
 	<game>
 		<name>[PC-9801] Ys - Ancient Ys Vanished Omen -(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0160"/>
 			<option name="bootip"   value="0xf000"/>
@@ -11907,7 +11907,7 @@
 	<game>
 		<name>[PC-9801] Ys - Ancient Ys Vanished Omen -(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs"    value="0x0060"/>
 			<option name="bootip"    value="0x0000"/>
@@ -11930,7 +11930,7 @@
 	<game>
 		<name>[PC-9801] Ys II - Ancient Ys Vanished The Final Chapter -</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0160"/>
 			<option name="bootip"   value="0x0000"/>
@@ -12039,7 +12039,7 @@
 	<game>
 		<name>[PC-9801] Ys III - Wanderers From Ys -(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0x0600"/>
@@ -12172,7 +12172,7 @@
 	<game>
 		<name>[PC-9801] Ys III - Wanderers From Ys -(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0x0600"/>
@@ -14429,7 +14429,7 @@
 	<game>
 		<name>[PC-9801] 太陽の神殿 - ASTEKA II -</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x1000"/>
@@ -14456,7 +14456,7 @@
 	<game>
 		<name>[PC-9801] ロマンシア</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Falcom</driveralias>
+		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0xe000"/>

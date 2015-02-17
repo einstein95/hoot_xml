@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] DOOR DOOR mk2 (OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="doormk2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x1800">FMDRV</rom>
@@ -81,7 +81,7 @@
 	<game>
 		<name>[PC-8801] DOOR DOOR mk2 (PSG)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -125,9 +125,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ガンダーラ ～仏陀の聖戦～</name>
+		<name>[PC-8801] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="use_rtc"    value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
@@ -168,40 +168,40 @@
 			<rom type="bgm" offset="0x1b">ENDING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">効果音#0</title>
-			<title code="0x00000001">オープニング</title>
-			<title code="0x00000002">ガンダーラへの路 －仏陀の戦士－</title>
-			<title code="0x00000003">東方幻想</title>
-			<title code="0x00000004">転生輪廻</title>
-			<title code="0x00000005">世俗</title>
-			<title code="0x00000006">効果音#1</title>
-			<title code="0x00000007">蓮華</title>
-			<title code="0x00000008">あらたな位</title>
-			<title code="0x00000009">冥府魔道</title>
-			<title code="0x0200000a">天上界へ</title>
-			<title code="0x0000000b">菩提樹の下</title>
-			<title code="0x0000000c">ジングル</title>
+			<title code="0x00000000">Sound Effect #0 (効果音#0)</title>
+			<title code="0x00000001">Opening (オープニング)</title>
+			<title code="0x00000002">The Road to Gandhara - Warrior of Buddha (ガンダーラへの路 －仏陀の戦士－)</title>
+			<title code="0x00000003">Lotus Land (東方幻想)</title>
+			<title code="0x00000004">Transmigration (転生輪廻)</title>
+			<title code="0x00000005">The Secular (世俗)</title>
+			<title code="0x00000006">Sound Effect #1 (効果音#1)</title>
+			<title code="0x00000007">Lotus (蓮華)</title>
+			<title code="0x00000008">New Rank (あらたな位)</title>
+			<title code="0x00000009">The Netherworld (冥府魔道)</title>
+			<title code="0x0200000a">To the Heavens (天上界へ)</title>
+			<title code="0x0000000b">Under the Banyan Tree (菩提樹の下)</title>
+			<title code="0x0000000c">Jingle (ジングル)</title>
 		<!--	<title code="0x0000000d">効果音#0</title> -->
-			<title code="0x0000000e">冥府魔道(地下道)</title>
-			<title code="0x0000000f">仏舎利壷の入手</title>
-			<title code="0x00000010">寂</title>
-			<title code="0x00000011">邪神</title>
-			<title code="0x00000012">迦楼羅</title>
-			<title code="0x00000013">平安</title>
-			<title code="0x01000014">人間界</title>
-			<title code="0x01000015">地獄界</title>
-			<title code="0x01000016">餓鬼界</title>
-			<title code="0x01000017">畜生界</title>
-			<title code="0x01000018">修羅界</title>
-			<title code="0x01000019">天上界</title>
-			<title code="0x0000001a">ガンダーラへの路 －仏陀の戦士－ (エピローグ)</title>
-			<title code="0x0000001b">六凡界</title>
+			<title code="0x0000000e">The Netherworld (Tunnel) (冥府魔道(地下道))</title>
+			<title code="0x0000000f">Obtaining the Buddha's Urn (仏舎利壷の入手)</title>
+			<title code="0x00000010">Tranquility (寂)</title>
+			<title code="0x00000011">Dark God (邪神)</title>
+			<title code="0x00000012">Garuda (迦楼羅)</title>
+			<title code="0x00000013">Peace (平安)</title>
+			<title code="0x01000014">Human Realm (人間界)</title>
+			<title code="0x01000015">Infernal Realm (地獄界)</title>
+			<title code="0x01000016">Ghoul Realm (餓鬼界)</title>
+			<title code="0x01000017">Beast Realm (畜生界)</title>
+			<title code="0x01000018">Asura Realm (修羅界)</title>
+			<title code="0x01000019">Heavenly Realm (天上界)</title>
+			<title code="0x0000001a">The Road to Gandhara (Epilogue) (ガンダーラへの路 －仏陀の戦士－ (エピローグ))</title>
+			<title code="0x0000001b">The Six Unenlightened Realms (六凡界)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] DRAGON BUSTER</name>
+		<name>[PC-8801] Dragon Buster (ドラゴンバスター) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -210,43 +210,43 @@
 			<rom type="code" offset="0x7000">DRIVER</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc700000b">0B : オープニング</title>
-			<title code="0xc7000000">00 : スタートミュージック</title>
-			<title code="0xc7000002">02 : BGM岩山</title>
-			<title code="0xc7000003">03 : BGMレンガ</title>
-			<title code="0xc7000004">04 : BGMカタコンベ</title>
-			<title code="0xc7000005">05 : BGM鍾乳洞</title>
-			<title code="0xc7000006">06 : BGMルームガーダー</title>
-			<title code="0xc7000009">09 : ドラゴン消滅</title>
-			<title code="0x9a000007">07 : セリア姫登場ミュージック(INTRO)</title>
-			<title code="0x9a000008">08 : セリア姫登場ミュージック</title>
-			<title code="0xc700000a">0A : 体力警告音</title>
-			<title code="0xc7000001">01 : ゲームオーバーサウンド</title>
-			<title code="0xc700000c">0C : エンディング</title>
-			<title code="0x00000080">80 : SE マップ歩行</title>
-			<title code="0x00000081">81 : SE ダンジョン入出</title>
-			<title code="0x00000082">82 : SE ジャンプ</title>
-			<title code="0x00000083">83 : SE クサリ移動</title>
-			<title code="0x00000084">84 : SE アイテム取得</title>
-			<title code="0x00000085">85 : SE 剣を振る</title>
-			<title code="0x00000086">86 : SE 敵を斬る</title>
-			<title code="0x00000087">87 : SE 剣がぶつかる</title>
-			<title code="0x00000088">88 : SE ファイアボール発射</title>
-			<title code="0x00000089">89 : SE ファイアボールヒット</title>
-			<title code="0x0000008a">8A : SE ダメージ</title>
-			<title code="0x0000008b">8B : SE ドラゴン火吹き</title>
-			<title code="0x0000008c">8C : SE イノサイ&amp;テストール移動</title>
-			<title code="0x0000008d">8D : SE バット、スライム、ウィル・オー・ザ・ウィスプ飛来</title>
-			<title code="0x0000008e">8E : SE ビショップ呪文発射</title>
-			<title code="0x0000008f">8F : SE ケーブシャーク</title>
-			<title code="0x00000090">90 : SE バイテリティ増減</title>
-			<title code="0x00000091">91 : SE ドラゴン斬る</title>
+			<title code="0xc700000b">Opening (オープニング)</title>
+			<title code="0xc7000000">Start Music (スタートミュージック)</title>
+			<title code="0xc7000002">Rocky Mountain (BGM岩山)</title>
+			<title code="0xc7000003">BGMレンガ</title>
+			<title code="0xc7000004">BGMカタコンベ</title>
+			<title code="0xc7000005">BGM鍾乳洞</title>
+			<title code="0xc7000006">BGMルームガーダー</title>
+			<title code="0xc7000009">ドラゴン消滅</title>
+			<title code="0x9a000007">セリア姫登場ミュージック(INTRO)</title>
+			<title code="0x9a000008">セリア姫登場ミュージック</title>
+			<title code="0xc700000a">Health Alert (体力警告音)</title>
+			<title code="0xc7000001">Game Over Sound (ゲームオーバーサウンド)</title>
+			<title code="0xc700000c">Ending (エンディング)</title>
+			<title code="0x00000080">SFX Walking on the Map (マップ歩行)</title>
+			<title code="0x00000081">SFX Entering a Dungeon (ダンジョン入出)</title>
+			<title code="0x00000082">SFX Jump (ジャンプ)</title>
+			<title code="0x00000083">SFX クサリ移動</title>
+			<title code="0x00000084">SFX Getting an Item (アイテム取得)</title>
+			<title code="0x00000085">SFX Swinging a Sword (剣を振る)</title>
+			<title code="0x00000086">SFX Killing the Enemy (敵を斬る)</title>
+			<title code="0x00000087">SFX Hitting the Sword (剣がぶつかる)</title>
+			<title code="0x00000088">SFX Fireball Fired (ファイアボール発射)</title>
+			<title code="0x00000089">SFX Fireball Hit (ファイアボールヒット)</title>
+			<title code="0x0000008a">SFX Damage (ダメージ)</title>
+			<title code="0x0000008b">SFX Dragon Blowing Fire (ドラゴン火吹き)</title>
+			<title code="0x0000008c">SFX イノサイ&amp;テストール移動</title>
+			<title code="0x0000008d">SFX Bat, Slime, Will-O-The Wisp Flying (バット、スライム、ウィル・オー・ザ・ウィスプ飛来)</title>
+			<title code="0x0000008e">SFX Bishop Spell Fire (ビショップ呪文発射)</title>
+			<title code="0x0000008f">SFX Cave Shark (ケーブシャーク)</title>
+			<title code="0x00000090">SFX Vitality Increase/Decrease (バイテリティ増減)</title>
+			<title code="0x00000091">SFX Dragon Kill (ドラゴン斬る)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ウイングマン2 キータクラーの復活</name>
+		<name>[PC-8801] Wingman 2: Rebirth of Kitakura (ウイングマン2 キータクラーの復活) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa0e7"/>
 			<option name="use_rtc" value="0x01"/>
@@ -265,17 +265,17 @@
 			<rom type="bgm" offset="0x04">MDAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS01 : ウイングマン2 ～オープニング～</title>
-			<title code="0x02">MUS02 : コーヒーブレイク</title>
-			<title code="0x01">MUS03 : 戦闘</title>
-			<title code="0x03">MUS04 : デモ</title>
-			<title code="0x04">MUS05 : ウイングマン2 ～終曲～</title>
+			<title code="0x00">Wingman 2 ~Opening~ (ウイングマン2 ～オープニング～)</title>
+			<title code="0x02">Coffee Break (コーヒーブレイク)</title>
+			<title code="0x01">Battle (戦闘)</title>
+			<title code="0x03">Demo (デモ)</title>
+			<title code="0x04">Wingman 2 ~Ending Theme (ウイングマン2 ～終曲～)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ウイングマンSpecial さらば夢戦士(OPNA)</name>
+		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6200"/>
 		</options>
@@ -294,21 +294,21 @@
 			<rom type="bgm" offset="0x05">SORA.ST</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000002">OPEN  .ST  : WINGMAN</title>
-			<title code="0x00000004">SEA   .ST  : SUNSET</title>
-			<title code="0x00000003">SBOS  .ST  : PINCH</title>
-			<title code="0x00000001">BBOS  .ST  : BIG.BOSS</title>
-			<title code="0x00000000">AOI   .ST  : AOI</title>
-			<title code="0x00000005">SORA  .ST  : LAST WING</title>
-			<title code="0x000000ff">ｾﾝﾄｰ  .mus : 戦闘モードBGM</title>
-			<title code="0x010000ff">ｾﾝﾄｰ1 .mus : 戦闘モード効果音#1</title>
-			<title code="0x020000ff">ｾﾝﾄｰ2 .mus : 戦闘モード効果音#2</title>
+			<title code="0x00000002">Wingman</title>
+			<title code="0x00000004">Sunset</title>
+			<title code="0x00000003">Pinch</title>
+			<title code="0x00000001">Big.Boss</title>
+			<title code="0x00000000">Aoi</title>
+			<title code="0x00000005">Last Wing</title>
+			<title code="0x000000ff">戦闘モードBGM</title>
+			<title code="0x010000ff">戦闘モード効果音#1</title>
+			<title code="0x020000ff">戦闘モード効果音#2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ウイングマンSpecial さらば夢戦士(OPN)</name>
+		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6200"/>
 		</options>
@@ -327,21 +327,21 @@
 			<rom type="bgm" offset="0x05">SORA.mus</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000002">op    .mus : WINGMAN</title>
-			<title code="0x00000004">SEA   .mus : SUNSET</title>
-			<title code="0x00000003">SBOS  .mus : PINCH</title>
-			<title code="0x00000001">BBOS  .mus : BIG.BOSS</title>
-			<title code="0x00000000">AOI   .MUS : AOI</title>
-			<title code="0x00000005">SORA  .mus : LAST WING</title>
-			<title code="0x000000ff">ｾﾝﾄｰ  .mus : 戦闘モードBGM</title>
-			<title code="0x010000ff">ｾﾝﾄｰ1 .mus : 戦闘モード効果音#1</title>
-			<title code="0x020000ff">ｾﾝﾄｰ2 .mus : 戦闘モード効果音#2</title>
+			<title code="0x00000002">Wingman</title>
+			<title code="0x00000004">Sunset</title>
+			<title code="0x00000003">Pinch</title>
+			<title code="0x00000001">Big.Boss</title>
+			<title code="0x00000000">Aoi</title>
+			<title code="0x00000005">Last Wing</title>
+			<title code="0x000000ff">戦闘モードBGM</title>
+			<title code="0x010000ff">戦闘モード効果音#1</title>
+			<title code="0x020000ff">戦闘モード効果音#2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ANGELUS ～悪魔の福音～(OPNA)</name>
+		<name>[PC-8801] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～) (YM2203)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="angelus88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xf000">MUSIC</rom>
@@ -351,14 +351,17 @@
 			<rom type="bgm" offset="0x04">IZASSS</rom>
 			<rom type="bgm" offset="0x05">JUK</rom>
 			<rom type="bgm" offset="0x06">BRI</rom>
+			<rom type="bgm" offset="0x07">BRIOF</rom>
 			<rom type="bgm" offset="0x08">BSTON5</rom>
 			<rom type="bgm" offset="0x09">DEAD</rom>
 			<rom type="bgm" offset="0x0a">DEAD2</rom>
+			<rom type="bgm" offset="0x0b">DEADST</rom>
 			<rom type="bgm" offset="0x0c">DUMA</rom>
 			<rom type="bgm" offset="0x0d">GERM</rom>
 			<rom type="bgm" offset="0x0e">GERMSL</rom>
 			<rom type="bgm" offset="0x0f">HENBO</rom>
 			<rom type="bgm" offset="0x10">HENBO2</rom>
+			<rom type="bgm" offset="0x11">HENBO3</rom>
 			<rom type="bgm" offset="0x12">IZA</rom>
 			<rom type="bgm" offset="0x13">IZAS2</rom>
 			<rom type="bgm" offset="0x14">IZASFT</rom>
@@ -383,48 +386,52 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">OPEN   : プロローグ</title>
-			<title code="0x1b">THEME2 : 青い石のきらめき</title>
-			<title code="0x12">IZA    : 愛のシンパシー ～アンジェラスのテーマ～</title>
-			<title code="0x06">BRI    : ブライアンとエリス</title>
-			<title code="0x0f">HENBO  : 変貌～セヴァの警告～</title>
-			<title code="0x16">KAISO  : ブルー・オブジェ～郷愁～</title>
-			<title code="0x15">JAKYO  : エヴァンジェル・オン・グノーシス</title>
-			<title code="0x19">PENDAN : 悲しみのノクターン</title>
-			<title code="0x05">JUK    : エリス・イン・ジャパン</title>
-			<title code="0x1a">PERU   : ペルーのテーマ～ジグソー・タウン～</title>
-			<title code="0x13">IZAS2  : 愛のシンパシー～ヴァージョンⅡ～</title>
-			<title code="0x17">LONDON : ハード・デイズ</title>
-			<title code="0x0e">GERMSL : エリス・イン・ジャーマニー</title>
-			<title code="0x10">HENBO2 : 変貌～ヴァージョンⅡ～</title>
-			<title code="0x08">BSTON5 : 予言者</title>
-			<title code="0x14">IZASFT : 愛のシンパシー～ヴァージョンⅢ～</title>
-			<title code="0x09">DEAD   : 彷徨いのプシュケ</title>
-			<title code="0x0c">DUMA   : 崩壊の彼方</title>
-			<title code="0x02">ENDI   : エピローグ</title>
-			<title code="0x0d">GERM   : ペルー公園にて</title>
-			<title code="0x03">IZASNG : 愛のシンパシー～Ver1SNG～</title>
-			<title code="0x04">IZASSS : 愛のシンパシー～Ver2SSS～</title>
-			<title code="0x0a">DEAD2  : 彷徨いのプシュケ(別バージョン)</title>
-			<title code="0x01">GAAN2  : SE #01</title>
-			<title code="0x1c">DODODO : SE #02</title>
-			<title code="0x1d">BUKIMI : SE #03</title>
-			<title code="0x1e">CAT    : SE #04</title>
-			<title code="0x1f">DODO2  : SE #05</title>
-			<title code="0x20">GACHA  : SE #06</title>
-			<title code="0x21">GUSA   : SE #07</title>
-			<title code="0x22">INJET  : SE #08</title>
-			<title code="0x23">RING   : SE #09</title>
-			<title code="0x24">TEL    : SE #10</title>
-			<title code="0x25">GAAN   : SE #11</title>
-			<title code="0x26">KNOCK1 : SE #12</title>
-			<title code="0x27">PASHA  : SE #13</title>
+			<title code="0x18">Prologue (プロローグ)</title>
+			<title code="0x1b">The Glittering Blue Stone (青い石のきらめき)</title>
+			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (愛のシンパシー ～アンジェラスのテーマ～)</title>
+			<title code="0x06">Brian and Eris (ブライアンとエリス)</title>
+			<title code="0x0f">Transfiguration ~Seva's Warning~ (変貌～セヴァの警告～)</title>
+			<title code="0x16">Blue Object ~Nostalgia~ (ブルー・オブジェ～郷愁～)</title>
+			<title code="0x15">Evangel on Gnosis (エヴァンジェル・オン・グノーシス)</title>
+			<title code="0x19">Nocturne of Sadness (悲しみのノクターン)</title>
+			<title code="0x05">Eris in Japan (エリス・イン・ジャパン)</title>
+			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ペルーのテーマ～ジグソー・タウン～)</title>
+			<title code="0x13">Love's Sympathy ~Ver. II~ (愛のシンパシー～ヴァージョンⅡ～)</title>
+			<title code="0x17">Hard Days (ハード・デイズ)</title>
+			<title code="0x0e">Eris in Germany (エリス・イン・ジャーマニー)</title>
+			<title code="0x10">Transfiguration ~Ver. II~ (変貌～ヴァージョンⅡ～)</title>
+			<title code="0x08">Prophet (予言者)</title>
+			<title code="0x14">Love's Sympathy ~Ver. III~ (愛のシンパシー～ヴァージョンⅢ～)</title>
+			<title code="0x09">Wandering Psyche (彷徨いのプシュケ)</title>
+			<title code="0x0c">Beyond the Collapse (崩壊の彼方)</title>
+			<title code="0x02">Epilogue (エピローグ)</title>
+			<title code="0x0d">In Peru Park (ペルー公園にて)</title>
+			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (愛のシンパシー～Ver1SNG～)</title>
+			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (愛のシンパシー～Ver2SSS～)</title>
+			<title code="0x0a">Wandering Psyche (Alternate Ver.) (彷徨いのプシュケ(別バージョン))</title>
+			<title code="0x0f">Jingle #01 (ジングル #01)</title>
+			<title code="0x11">Jingle #02 (ジングル #02)</title>
+			<title code="0x07">Jingle #03 (ジングル #03)</title>
+			<title code="0x0b">Jingle #04 (ジングル #04)</title>
+			<title code="0x01">SFX #01</title>
+			<title code="0x1c">SFX #02</title>
+			<title code="0x1d">SFX #03</title>
+			<title code="0x1e">SFX #04</title>
+			<title code="0x1f">SFX #05</title>
+			<title code="0x20">SFX #06</title>
+			<title code="0x21">SFX #07</title>
+			<title code="0x22">SFX #08</title>
+			<title code="0x23">SFX #09</title>
+			<title code="0x24">SFX #10</title>
+			<title code="0x25">SFX #11</title>
+			<title code="0x26">SFX #12</title>
+			<title code="0x27">SFX #13</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ANGELUS ～悪魔の福音～(OPN)</name>
+		<name>[PC-8801] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～) (YM2608)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="angelus88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xf000">MUSIC</rom>
@@ -434,14 +441,17 @@
 			<rom type="bgm" offset="0x04">IZASSS</rom>
 			<rom type="bgm" offset="0x05">JUK</rom>
 			<rom type="bgm" offset="0x06">BRI</rom>
+			<rom type="bgm" offset="0x07">BRIOF</rom>
 			<rom type="bgm" offset="0x08">BSTON5</rom>
 			<rom type="bgm" offset="0x09">DEAD</rom>
 			<rom type="bgm" offset="0x0a">DEAD2</rom>
+			<rom type="bgm" offset="0x0b">DEADST</rom>
 			<rom type="bgm" offset="0x0c">DUMA</rom>
 			<rom type="bgm" offset="0x0d">GERM</rom>
 			<rom type="bgm" offset="0x0e">GERMSL</rom>
 			<rom type="bgm" offset="0x0f">HENBO</rom>
 			<rom type="bgm" offset="0x10">HENBO2</rom>
+			<rom type="bgm" offset="0x11">HENBO3</rom>
 			<rom type="bgm" offset="0x12">IZA</rom>
 			<rom type="bgm" offset="0x13">IZAS2</rom>
 			<rom type="bgm" offset="0x14">IZASFT</rom>
@@ -466,48 +476,52 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">OPEN   : プロローグ</title>
-			<title code="0x1b">THEME2 : 青い石のきらめき</title>
-			<title code="0x12">IZA    : 愛のシンパシー ～アンジェラスのテーマ～</title>
-			<title code="0x06">BRI    : ブライアンとエリス</title>
-			<title code="0x0f">HENBO  : 変貌～セヴァの警告～</title>
-			<title code="0x16">KAISO  : ブルー・オブジェ～郷愁～</title>
-			<title code="0x15">JAKYO  : エヴァンジェル・オン・グノーシス</title>
-			<title code="0x19">PENDAN : 悲しみのノクターン</title>
-			<title code="0x05">JUK    : エリス・イン・ジャパン</title>
-			<title code="0x1a">PERU   : ペルーのテーマ～ジグソー・タウン～</title>
-			<title code="0x13">IZAS2  : 愛のシンパシー～ヴァージョンⅡ～</title>
-			<title code="0x17">LONDON : ハード・デイズ</title>
-			<title code="0x0e">GERMSL : エリス・イン・ジャーマニー</title>
-			<title code="0x10">HENBO2 : 変貌～ヴァージョンⅡ～</title>
-			<title code="0x08">BSTON5 : 予言者</title>
-			<title code="0x14">IZASFT : 愛のシンパシー～ヴァージョンⅢ～</title>
-			<title code="0x09">DEAD   : 彷徨いのプシュケ</title>
-			<title code="0x0c">DUMA   : 崩壊の彼方</title>
-			<title code="0x02">ENDI   : エピローグ</title>
-			<title code="0x0d">GERM   : ペルー公園にて</title>
-			<title code="0x03">IZASNG : 愛のシンパシー～Ver1SNG～</title>
-			<title code="0x04">IZASSS : 愛のシンパシー～Ver2SSS～</title>
-			<title code="0x0a">DEAD2  : 彷徨いのプシュケ(別バージョン)</title>
-			<title code="0x01">GAAN2  : SE #01</title>
-			<title code="0x1c">DODODO : SE #02</title>
-			<title code="0x1d">BUKIMI : SE #03</title>
-			<title code="0x1e">CAT    : SE #04</title>
-			<title code="0x1f">DODO2  : SE #05</title>
-			<title code="0x20">GACHA  : SE #06</title>
-			<title code="0x21">GUSA   : SE #07</title>
-			<title code="0x22">INJET  : SE #08</title>
-			<title code="0x23">RING   : SE #09</title>
-			<title code="0x24">TEL    : SE #10</title>
-			<title code="0x25">GAAN   : SE #11</title>
-			<title code="0x26">KNOCK1 : SE #12</title>
-			<title code="0x27">PASHA  : SE #13</title>
+			<title code="0x18">Prologue (プロローグ)</title>
+			<title code="0x1b">The Glittering Blue Stone (青い石のきらめき)</title>
+			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (愛のシンパシー ～アンジェラスのテーマ～)</title>
+			<title code="0x06">Brian and Eris (ブライアンとエリス)</title>
+			<title code="0x0f">Transfiguration ~Seva's Warning~ (変貌～セヴァの警告～)</title>
+			<title code="0x16">Blue Object ~Nostalgia~ (ブルー・オブジェ～郷愁～)</title>
+			<title code="0x15">Evangel on Gnosis (エヴァンジェル・オン・グノーシス)</title>
+			<title code="0x19">Nocturne of Sadness (悲しみのノクターン)</title>
+			<title code="0x05">Eris in Japan (エリス・イン・ジャパン)</title>
+			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ペルーのテーマ～ジグソー・タウン～)</title>
+			<title code="0x13">Love's Sympathy ~Ver. II~ (愛のシンパシー～ヴァージョンⅡ～)</title>
+			<title code="0x17">Hard Days (ハード・デイズ)</title>
+			<title code="0x0e">Eris in Germany (エリス・イン・ジャーマニー)</title>
+			<title code="0x10">Transfiguration ~Ver. II~ (変貌～ヴァージョンⅡ～)</title>
+			<title code="0x08">Prophet (予言者)</title>
+			<title code="0x14">Love's Sympathy ~Ver. III~ (愛のシンパシー～ヴァージョンⅢ～)</title>
+			<title code="0x09">Wandering Psyche (彷徨いのプシュケ)</title>
+			<title code="0x0c">Beyond the Collapse (崩壊の彼方)</title>
+			<title code="0x02">Epilogue (エピローグ)</title>
+			<title code="0x0d">In Peru Park (ペルー公園にて)</title>
+			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (愛のシンパシー～Ver1SNG～)</title>
+			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (愛のシンパシー～Ver2SSS～)</title>
+			<title code="0x0a">Wandering Psyche (Alternate Ver.) (彷徨いのプシュケ(別バージョン))</title>
+			<title code="0x0f">Jingle #01 (ジングル #01)</title>
+			<title code="0x11">Jingle #02 (ジングル #02)</title>
+			<title code="0x07">Jingle #03 (ジングル #03)</title>
+			<title code="0x0b">Jingle #04 (ジングル #04)</title>
+			<title code="0x01">SFX #01</title>
+			<title code="0x1c">SFX #02</title>
+			<title code="0x1d">SFX #03</title>
+			<title code="0x1e">SFX #04</title>
+			<title code="0x1f">SFX #05</title>
+			<title code="0x20">SFX #06</title>
+			<title code="0x21">SFX #07</title>
+			<title code="0x22">SFX #08</title>
+			<title code="0x23">SFX #09</title>
+			<title code="0x24">SFX #10</title>
+			<title code="0x25">SFX #11</title>
+			<title code="0x26">SFX #12</title>
+			<title code="0x27">SFX #13</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Old Village Story(OPNA)</name>
+		<name>[PC-8801] The Old Village Story (オールド・ヴィレッジ・ストーリー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="oldv">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0600">PLAYB.COM</rom>
@@ -538,40 +552,40 @@
 			<rom type="bgm" offset="0x18">ﾋﾞｯｸﾘ.M2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x12">THEME1.M2 : オープニング</title>
-			<title code="0x16">WALTZ.M2  : 村</title>
-			<title code="0x00">BAROQU.M2 : </title>
-			<title code="0x01">CASL-1.M2 : </title>
-			<title code="0x02">EARTH2.M2 : フィールド2</title>
-			<title code="0x03">EMERG.M2  : </title>
-			<title code="0x04">END-3.M2  : エンディング</title>
-			<title code="0x05">HOLE-1.M2 : </title>
-			<title code="0x06">KIKI.M2   : 対決! シルフ (ボス戦)</title>
-			<title code="0x07">KIKI-2.M2 : </title>
-			<title code="0x08">KING-1.M2 : 城</title>
-			<title code="0x09">KING-2.M2 : </title>
-			<title code="0x0a">KIZOKU.M2 : 貴族の街</title>
-			<title code="0x0c">KUJIRA.M2 : クジラ</title>
-			<title code="0x0b">KUJI-2.M2 : </title>
-			<title code="0x0d">MOMO-1.M2 : ダンジョン</title>
-			<title code="0x0e">OCEAN.M2  : 漂流</title>
-			<title code="0x0f">OH!!!.M2  : </title>
-			<title code="0x10">OH!.M2    : </title>
-			<title code="0x11">SOROW5.M2 : </title>
-			<title code="0x13">TOKEI.M2  : </title>
-			<title code="0x14">TOWN-1.M2 : 城下町</title>
-			<title code="0x15">TOWN-2.M2 : </title>
-			<title code="0x17">WOOD-1.M2 : フィールド1</title>
-			<title code="0x18">ﾋﾞｯｸﾘ.M2  : ジングル</title>
-			<title code="0xfd">テンポ変更(遅い)</title>
-			<title code="0xfe">テンポ変更(速い)</title>
-			<title code="0xff">テンポ変更(通常)</title>
+			<title code="0x12">Opening (オープニング)</title>
+			<title code="0x16">Village (村)</title>
+			<title code="0x00">BAROQU.M2</title>
+			<title code="0x01">CASL-1.M2</title>
+			<title code="0x02">Field 2 (フィールド2)</title>
+			<title code="0x03">EMERG.M2</title>
+			<title code="0x04">Ending (エンディング)</title>
+			<title code="0x05">HOLE-1.M2</title>
+			<title code="0x06">Showdown! Sylph (Boss Battle) (対決!シルフ (ボス戦))</title>
+			<title code="0x07">KIKI-2.M2</title>
+			<title code="0x08">Castle (城)</title>
+			<title code="0x09">KING-2.M2</title>
+			<title code="0x0a">Nobles' Town (貴族の街)</title>
+			<title code="0x0c">Whale (クジラ)</title>
+			<title code="0x0b">KUJI-2.M2</title>
+			<title code="0x0d">Dungeon (ダンジョン)</title>
+			<title code="0x0e">Adrift (漂流)</title>
+			<title code="0x0f">OH!!!.M2</title>
+			<title code="0x10">OH!.M2</title>
+			<title code="0x11">SOROW5.M2</title>
+			<title code="0x13">TOKEI.M2</title>
+			<title code="0x14">Castle Town (城下町)</title>
+			<title code="0x15">TOWN-2.M2</title>
+			<title code="0x17">Field 1 (フィールド1)</title>
+			<title code="0x18">Jingle (ジングル)</title>
+			<title code="0xfd">Change Tempo (Slow) (テンポ変更(遅い))</title>
+			<title code="0xfe">Change Tempo (Fast) (テンポ変更(速い))</title>
+			<title code="0xff">Change Tempo (Normal) (テンポ変更(通常))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Old Village Story(OPN)</name>
+		<name>[PC-8801] The Old Village Story (オールド・ヴィレッジ・ストーリー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="oldv">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0600">PLAY2.COM</rom>
@@ -598,36 +612,36 @@
 			<rom type="bgm" offset="0x14">ﾋﾞｯｸﾘ.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0e">THEME1.M : オープニング</title>
-			<title code="0x12">WALTZ.M  : 村</title>
-			<title code="0x00">CASL-1.M : </title>
-			<title code="0x01">EARTH2.M : フィールド2</title>
-			<title code="0x02">EMERG.M  : </title>
-			<title code="0x03">END-3.M  : エンディング</title>
-			<title code="0x04">KIKI.M   : 対決! シルフ (ボス戦)</title>
-			<title code="0x05">KIKI-2.M : </title>
-			<title code="0x06">KING-1.M : 城</title>
-			<title code="0x07">KIZOKU.M : 貴族の街</title>
-			<title code="0x09">KUJIRA.M : クジラ</title>
-			<title code="0x08">KUJI-2.M : </title>
-			<title code="0x0a">MOMO-1.M : ダンジョン</title>
-			<title code="0x0b">OCEAN.M  : 漂流</title>
-			<title code="0x0c">OH!.M    : </title>
-			<title code="0x0d">SOROW5.M : </title>
-			<title code="0x0f">TOKEI.M  : </title>
-			<title code="0x10">TOWN-1.M : 城下町</title>
-			<title code="0x11">TOWN-2.M : </title>
-			<title code="0x13">WOOD-1.M : フィールド1</title>
-			<title code="0x14">ﾋﾞｯｸﾘ.M  : ジングル</title>
-			<title code="0xfd">テンポ変更(遅い)</title>
-			<title code="0xfe">テンポ変更(速い)</title>
-			<title code="0xff">テンポ変更(通常)</title>
+			<title code="0x0e">Opening (オープニング)</title>
+			<title code="0x12">Village (村)</title>
+			<title code="0x00">CASL-1.M</title>
+			<title code="0x01">Field 2 (フィールド2)</title>
+			<title code="0x02">EMERG.M</title>
+			<title code="0x03">Ending (エンディング)</title>
+			<title code="0x04">Showdown! Sylph (Boss Battle) (対決!シルフ (ボス戦))</title>
+			<title code="0x05">KIKI-2.M</title>
+			<title code="0x06">Castle (城)</title>
+			<title code="0x07">Nobles' Town (貴族の街)</title>
+			<title code="0x09">Whale (クジラ)</title>
+			<title code="0x08">KUJI-2.M</title>
+			<title code="0x0a">Dungeon (ダンジョン)</title>
+			<title code="0x0b">Adrift (漂流)</title>
+			<title code="0x0c">OH!.M</title>
+			<title code="0x0d">SOROW5.M</title>
+			<title code="0x0f">TOKEI.M</title>
+			<title code="0x10">Castle Town (城下町)</title>
+			<title code="0x11">TOWN-2.M</title>
+			<title code="0x13">Field 1 (フィールド1)</title>
+			<title code="0x14">Jingle (ジングル)</title>
+			<title code="0xfd">Change Tempo (Slow) (テンポ変更(遅い))</title>
+			<title code="0xfe">Change Tempo (Fast) (テンポ変更(速い))</title>
+			<title code="0xff">Change Tempo (Normal) (テンポ変更(通常))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] バーニングポイント(OPNA)</name>
+		<name>[PC-8801] Burning Point (バーニングポイント) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1500"/>
 			<option name="use_pcmx8" value="0x01"/>
@@ -654,28 +668,28 @@
 			<rom type="bgm" offset="0x0f">MDAT10</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">ラジオの曲</title>
+			<title code="0x0f">Radio Tune (ラジオの曲)</title>
 			<title code="0x00">Burning Point</title>
-			<title code="0x01">探偵事務所開業</title>
-			<title code="0x02">デービスの店</title>
-			<title code="0x03">捜査のテーマ</title>
-			<title code="0x04">ルドルフの追え</title>
-			<title code="0x05">告白</title>
-			<title code="0x06">15年前の真実</title>
-			<title code="0x07">殺人者</title>
+			<title code="0x01">The Detective Agency Opens (探偵事務所開業)</title>
+			<title code="0x02">Debbie's Shop (デービスの店)</title>
+			<title code="0x03">Investigating Theme (捜査のテーマ)</title>
+			<title code="0x04">Get Rudolph (ルドルフの追え)</title>
+			<title code="0x05">Confession (告白)</title>
+			<title code="0x06">The Truth of 15 Years Ago (15年前の真実)</title>
+			<title code="0x07">The Killer (殺人者)</title>
 			<title code="0x08">Heart Attack Street</title>
-			<title code="0x09">ゴールドベルク変奏曲</title>
-			<title code="0x0a">CORE ～核心～</title>
-			<title code="0x0b">野望のワルツ</title>
+			<title code="0x09">Goldberg's Theme (ゴールドベルク変奏曲)</title>
+			<title code="0x0a">Core ～核心～</title>
+			<title code="0x0b">Waltz of Ambition (野望のワルツ)</title>
 			<title code="0x0c">See you again, Steel</title>
-			<title code="0x0d">Burning Point(Finale)</title>
-			<title code="0x0e">ファンファーレ</title>
+			<title code="0x0d">Burning Point (Finale)</title>
+			<title code="0x0e">Fanfare (ファンファーレ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] バーニングポイント(OPN)</name>
+		<name>[PC-8801] Burning Point (バーニングポイント) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1500"/>
 		</options>
@@ -700,28 +714,28 @@
 			<rom type="bgm" offset="0x0e">MDATN0f</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">ラジオの曲</title>
+			<title code="0x0f">Radio Tune (ラジオの曲)</title>
 			<title code="0x00">Burning Point</title>
-			<title code="0x01">探偵事務所開業</title>
-			<title code="0x02">デービスの店</title>
-			<title code="0x03">捜査のテーマ</title>
-			<title code="0x04">ルドルフの追え</title>
-			<title code="0x05">告白</title>
-			<title code="0x06">15年前の真実</title>
-			<title code="0x07">殺人者</title>
+			<title code="0x01">The Detective Agency Opens (探偵事務所開業)</title>
+			<title code="0x02">Debbie's Shop (デービスの店)</title>
+			<title code="0x03">Investigating Theme (捜査のテーマ)</title>
+			<title code="0x04">Get Rudolph (ルドルフの追え)</title>
+			<title code="0x05">Confession (告白)</title>
+			<title code="0x06">The Truth of 15 Years Ago (15年前の真実)</title>
+			<title code="0x07">The Killer (殺人者)</title>
 			<title code="0x08">Heart Attack Street</title>
-			<title code="0x09">ゴールドベルク変奏曲</title>
-			<title code="0x0a">CORE ～核心～</title>
-			<title code="0x0b">野望のワルツ</title>
+			<title code="0x09">Goldberg's Theme (ゴールドベルク変奏曲)</title>
+			<title code="0x0a">Core ～核心～</title>
+			<title code="0x0b">Waltz of Ambition (野望のワルツ)</title>
 			<title code="0x0c">See you again, Steel</title>
-			<title code="0x0d">Burning Point(Finale)</title>
-			<title code="0x0e">ファンファーレ</title>
+			<title code="0x0d">Burning Point (Finale)</title>
+			<title code="0x0e">Fanfare (ファンファーレ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PRAJATOR - IMAGE RANGER -(OPNA)</name>
+		<name>[PC-8801] Prajator: Image Ranger (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -755,37 +769,37 @@
 			<rom type="bgm" offset="0x18">ZR.MDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OPEN.MDT   : OPENING 1</title>
-			<title code="0x09">GROW2.MDT  : OPENING 2</title>
-			<title code="0x18">ZR.MDT     : DEMO 1</title>
-			<title code="0x0c">LEX2.MDT   : AREA 1</title>
-			<title code="0x16">WRN5.MDT   : ALERT</title>
-			<title code="0x11">OVER.MDT   : AREA 1b</title>
-			<title code="0x07">FAN2.MDT   : WIN</title>
-			<title code="0x13">SETUP.MDT  : SET UP</title>
-			<title code="0x17">XEAS.MDT   : AREA 2</title>
-			<title code="0x00">B911.MDT   : AREA 2b</title>
-			<title code="0x03">COSMOS.MDT : AREA 3</title>
-			<title code="0x05">EX.MDT     : AREA 3b</title>
-			<title code="0x0e">MF.MDT     : AREA 4</title>
-			<title code="0x0a">HM3.MDT    : AREA 4b</title>
-			<title code="0x0f">NU.MDT     : AREA 5</title>
-			<title code="0x06">FAG.MDT    : AREA 5b</title>
-			<title code="0x14">SP.MDT     : DEMO 2</title>
-			<title code="0x08">FXX.MDT    : LAST TARGET</title>
-			<title code="0x02">BROCK.MDT  : DEMO 3</title>
-			<title code="0x0b">KNIGHT.MDT : DEMO 4～LAST BATTLE</title>
-			<title code="0x04">EOB.MDT    : LAST BATTLE(b)</title>
-			<title code="0x12">SD2.MDT    : DEMO 5</title>
-			<title code="0x15">STEND.MDT  : ENDING 1</title>
-			<title code="0x0d">M1016.MDT  : ENDING 2</title>
-			<title code="0x01">BLUE.MDT   : GAME OVER</title>
+			<title code="0x10">Opening 1</title>
+			<title code="0x09">Opening 2</title>
+			<title code="0x18">Demo 1</title>
+			<title code="0x0c">Area 1</title>
+			<title code="0x16">Alert</title>
+			<title code="0x11">Area 1b</title>
+			<title code="0x07">Win</title>
+			<title code="0x13">Set Up</title>
+			<title code="0x17">Area 2</title>
+			<title code="0x00">Area 2b</title>
+			<title code="0x03">Area 3</title>
+			<title code="0x05">Area 3b</title>
+			<title code="0x0e">Area 4</title>
+			<title code="0x0a">Area 4b</title>
+			<title code="0x0f">Area 5</title>
+			<title code="0x06">Area 5b</title>
+			<title code="0x14">Demo 2</title>
+			<title code="0x08">Last Target</title>
+			<title code="0x02">Demo 3</title>
+			<title code="0x0b">Demo 4～Last Battle</title>
+			<title code="0x04">Last Battle (b)</title>
+			<title code="0x12">Demo 5</title>
+			<title code="0x15">Ending 1</title>
+			<title code="0x0d">Ending 2</title>
+			<title code="0x01">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PRAJATOR - IMAGE RANGER -(OPN)</name>
+		<name>[PC-8801] Prajator: Image Ranger (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -819,37 +833,37 @@
 			<rom type="bgm" offset="0x18">ZR.MDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OPEN.MDT   : OPENING 1</title>
-			<title code="0x09">GROW2.MDT  : OPENING 2</title>
-			<title code="0x18">ZR.MDT     : DEMO 1</title>
-			<title code="0x0c">LEX2.MDT   : AREA 1</title>
-			<title code="0x16">WRN5.MDT   : ALERT</title>
-			<title code="0x11">OVER.MDT   : AREA 1b</title>
-			<title code="0x07">FAN2.MDT   : WIN</title>
-			<title code="0x13">SETUP.MDT  : SET UP</title>
-			<title code="0x17">XEAS.MDT   : AREA 2</title>
-			<title code="0x00">B911.MDT   : AREA 2b</title>
-			<title code="0x03">COSMOS.MDT : AREA 3</title>
-			<title code="0x05">EX.MDT     : AREA 3b</title>
-			<title code="0x0e">MF.MDT     : AREA 4</title>
-			<title code="0x0a">HM3.MDT    : AREA 4b</title>
-			<title code="0x0f">NU.MDT     : AREA 5</title>
-			<title code="0x06">FAG.MDT    : AREA 5b</title>
-			<title code="0x14">SP.MDT     : DEMO 2</title>
-			<title code="0x08">FXX.MDT    : LAST TARGET</title>
-			<title code="0x02">BROCK.MDT  : DEMO 3</title>
-			<title code="0x0b">KNIGHT.MDT : DEMO 4～LAST BATTLE</title>
-			<title code="0x04">EOB.MDT    : LAST BATTLE(b)</title>
-			<title code="0x12">SD2.MDT    : DEMO 5</title>
-			<title code="0x15">STEND.MDT  : ENDING 1</title>
-			<title code="0x0d">M1016.MDT  : ENDING 2</title>
-			<title code="0x01">BLUE.MDT   : GAME OVER</title>
+			<title code="0x10">Opening 1</title>
+			<title code="0x09">Opening 2</title>
+			<title code="0x18">Demo 1</title>
+			<title code="0x0c">Area 1</title>
+			<title code="0x16">Alert</title>
+			<title code="0x11">Area 1b</title>
+			<title code="0x07">Win</title>
+			<title code="0x13">Set Up</title>
+			<title code="0x17">Area 2</title>
+			<title code="0x00">Area 2b</title>
+			<title code="0x03">Area 3</title>
+			<title code="0x05">Area 3b</title>
+			<title code="0x0e">Area 4</title>
+			<title code="0x0a">Area 4b</title>
+			<title code="0x0f">Area 5</title>
+			<title code="0x06">Area 5b</title>
+			<title code="0x14">Demo 2</title>
+			<title code="0x08">Last Target</title>
+			<title code="0x02">Demo 3</title>
+			<title code="0x0b">Demo 4～Last Battle</title>
+			<title code="0x04">Last Battle (b)</title>
+			<title code="0x12">Demo 5</title>
+			<title code="0x15">Ending 1</title>
+			<title code="0x0d">Ending 2</title>
+			<title code="0x01">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] JESUS</name>
+		<name>[PC-8801] Jesus (ジーザス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="init_pc" value="0x8000"/>
@@ -944,31 +958,31 @@
 			<rom type="voice" offset="0x33">SDAT03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">チャイム</title>
-			<title code="0x01">虚空への前奏</title>
-			<title code="0x02">バルカスがモンスターにおそわれる</title>
-			<title code="0x09">ゲームオーバー</title>
-			<title code="0x03">蒼い無限</title>
-			<title code="0x0a">速雄が歩くときの音</title>
-			<title code="0x07">勇者の休息</title>
-			<title code="0x08">きらめく瞳</title>
-			<title code="0x05">菫色の愛</title>
-			<title code="0x04">やすらぎの宇宙</title>
-			<title code="0x0b">甘い抱擁</title>
-			<title code="0x0c">夢の中の二人</title>
-			<title code="0x0d">崩れ行く都市</title>
-			<title code="0x0e">空の果てへ</title>
-			<title code="0x0f">迫りくる危機</title>
-			<title code="0x10">帰還</title>
-			<title code="0x15">甦る侵入者 [1]</title>
-			<title code="0x23">甦る侵入者 [2]</title>
-			<title code="0x16">鎮魂歌</title>
-			<title code="0x24">死神の影</title>
-			<title code="0x28">挑戦の時</title>
-			<title code="0x29">勝利の旋律 [1]</title>
-			<title code="0x30">勝利の旋律 [1]を最後まで聞かないと音がおかしい</title>
-			<title code="0x31">去り行く者達</title>
-			<title code="0x32">生命への賛歌</title>
+			<title code="0x00">Chime (チャイム)</title>
+			<title code="0x01">Prelude to the Void (虚空への前奏)</title>
+			<title code="0x02">Balkas is Attacked by a Monster (バルカスがモンスターにおそわれる)</title>
+			<title code="0x09">Game Over (ゲームオーバー)</title>
+			<title code="0x03">Blue Infinity (蒼い無限)</title>
+			<title code="0x0a">Sound of Hayao Walking (速雄が歩くときの音)</title>
+			<title code="0x07">Hero's Repose (勇者の休息)</title>
+			<title code="0x08">Shining Eyes (きらめく瞳)</title>
+			<title code="0x05">Violet Love (菫色の愛)</title>
+			<title code="0x04">Tranquil Universe (やすらぎの宇宙)</title>
+			<title code="0x0b">Sweet Embrace (甘い抱擁)</title>
+			<title code="0x0c">Two Within a Dream (夢の中の二人)</title>
+			<title code="0x0d">City on the Brink of Collapse (崩れ行く都市)</title>
+			<title code="0x0e">To the Edge of the Sky (空の果てへ)</title>
+			<title code="0x0f">Impending Crisis (迫りくる危機)</title>
+			<title code="0x10">The Return (帰還)</title>
+			<title code="0x15">The Intruder Reborn [1] (甦る侵入者 [1])</title>
+			<title code="0x23">The Intruder Reborn [2] (甦る侵入者 [2])</title>
+			<title code="0x16">Requiem (鎮魂歌)</title>
+			<title code="0x24">Shadow of Death (死神の影)</title>
+			<title code="0x28">The Challenge (挑戦の時)</title>
+			<title code="0x29">Victory Tune [1] (勝利の旋律 [1])</title>
+			<title code="0x30">If You Don't Listen to All of Victory Tune [1] (勝利の旋律 [1]を最後まで聞かないと音がおかしい)</title>
+			<title code="0x31">The Departing (去り行く者達)</title>
+			<title code="0x32">Ode to Life (生命への賛歌)</title>
 			<title code="0x06">効果音01</title>
 			<title code="0x11">効果音02</title>
 			<title code="0x12">効果音03</title>
@@ -985,9 +999,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] JESUS II(OPNA)</name>
+		<name>[PC-8801] Jesus II (ジーザス2) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -1028,96 +1042,96 @@
 			<rom type="bgm" offset="0x22">effec3.com</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000020">effec1 : オープニングデモ</title>
-			<title code="0x00000009">mus_k  : 宇宙に立ちて(ラジカセ ver.)</title>
-			<title code="0x00000006">mus_h  : 船上のハワイアン</title>
-			<title code="0x0000000d">mus_o  : 宇宙に立ちて(ラジカセ 別ver.)</title>
-			<title code="0x0000000c">mus_n  : サスペンス</title>
-			<title code="0x00000000">mus_a  : 軍隊のテーマ</title>
-			<title code="0x00000003">mus_d  : 蒼い無限</title>
-			<title code="0x00000008">mus_j  : 宇宙に立ちて</title>
-			<title code="0x00000007">mus_i  : 宇宙に立ちて(in G)</title>
-			<title code="0x0000000b">mus_m  : 去り行く者たち</title>
-			<title code="0x0000000e">mus_p  : モンスター</title>
-			<title code="0x00000004">mus_f  : エレジー</title>
-			<title code="0x0000000a">mus_l  : レクイエム</title>
-			<title code="0x00000005">mus_g  : ファイト</title>
-			<title code="0x00000002">mus_c  : モンスター(フルバージョン)</title>
-			<title code="0x00000001">mus_b  : フィナーレ(宇宙に立ちて～蒼い無限～去り行く者たち～宇宙に立ちて)</title>
-			<title code="0x00000020">effec1 : 効果音00</title>
-			<title code="0x02000020">effec1 : 効果音02</title>
-			<title code="0x03000020">effec1 : 効果音03</title>
-			<title code="0x04000020">effec1 : 効果音04</title>
-			<title code="0x05000020">effec1 : 効果音05</title>
-			<title code="0x06000020">effec1 : 効果音06</title>
-			<title code="0x07000020">effec1 : 効果音07</title>
-			<title code="0x08000020">effec1 : 効果音08</title>
-			<title code="0x09000020">effec1 : 効果音09</title>
-			<title code="0x0a000020">effec1 : 効果音0a</title>
-			<title code="0x0b000020">effec1 : 効果音0b</title>
-			<title code="0x0c000020">effec1 : 効果音0c</title>
-			<title code="0x0d000020">effec1 : 効果音0d</title>
-			<title code="0x0e000020">effec1 : 効果音0e</title>
-			<title code="0x0f000020">effec1 : 効果音0f</title>
-			<title code="0x10000020">effec1 : 効果音10</title>
-			<title code="0x11000020">effec1 : 効果音11</title>
-			<title code="0x12000020">effec1 : 効果音12</title>
-			<title code="0x13000020">effec1 : 効果音13</title>
-			<title code="0x14000020">effec1 : 効果音14</title>
-			<title code="0x15000020">effec1 : 効果音15</title>
-			<title code="0x16000020">effec1 : 効果音16</title>
-			<title code="0x17000020">effec1 : 効果音17</title>
-			<title code="0x18000020">effec1 : 効果音18</title>
-			<title code="0x00000021">effec2 : 効果音00</title>
-			<title code="0x01000021">effec2 : 効果音01</title>
-			<title code="0x02000021">effec2 : 効果音02</title>
-			<title code="0x03000021">effec2 : 効果音03</title>
-			<title code="0x04000021">effec2 : 効果音04</title>
-			<title code="0x05000021">effec2 : 効果音05</title>
-			<title code="0x06000021">effec2 : 効果音06</title>
-			<title code="0x07000021">effec2 : 効果音07</title>
-			<title code="0x08000021">effec2 : 効果音08</title>
-			<title code="0x09000021">effec2 : 効果音09</title>
-			<title code="0x0a000021">effec2 : 効果音0a</title>
-			<title code="0x0b000021">effec2 : 効果音0b</title>
-			<title code="0x0c000021">effec2 : 効果音0c</title>
-			<title code="0x0d000021">effec2 : 効果音0d</title>
-			<title code="0x0e000021">effec2 : 効果音0e</title>
-			<title code="0x0f000021">effec2 : 効果音0f</title>
-			<title code="0x10000021">effec2 : 効果音10</title>
-			<title code="0x11000021">effec2 : 効果音11</title>
-			<title code="0x12000021">effec2 : 効果音12</title>
-			<title code="0x13000021">effec2 : 効果音13</title>
-			<title code="0x14000021">effec2 : 効果音14</title>
-			<title code="0x15000021">effec2 : 効果音15</title>
-			<title code="0x16000021">effec2 : 効果音16</title>
-			<title code="0x17000021">effec2 : 効果音17</title>
-			<title code="0x18000021">effec2 : 効果音18</title>
-			<title code="0x19000021">effec2 : 効果音19</title>
-			<title code="0x1a000021">effec2 : 効果音1a</title>
-			<title code="0x1b000021">effec2 : 効果音1b</title>
-			<title code="0x00000022">effec3 : 効果音00</title>
-			<title code="0x01000022">effec3 : 効果音01</title>
-			<title code="0x02000022">effec3 : 効果音02</title>
-			<title code="0x03000022">effec3 : 効果音03</title>
-			<title code="0x04000022">effec3 : 効果音04</title>
-			<title code="0x05000022">effec3 : 効果音05</title>
-			<title code="0x06000022">effec3 : 効果音06</title>
-			<title code="0x07000022">effec3 : 効果音07</title>
-			<title code="0x08000022">effec3 : 効果音08</title>
-			<title code="0x09000022">effec3 : 効果音09</title>
-			<title code="0x0a000022">effec3 : 効果音0a</title>
-			<title code="0x0b000022">effec3 : 効果音0b</title>
-			<title code="0x0c000022">effec3 : 効果音0c</title>
-			<title code="0x0d000022">effec3 : 効果音0d</title>
-			<title code="0x0e000022">effec3 : 効果音0e</title>
-			<title code="0x0f000022">effec3 : 効果音0f</title>
+			<title code="0x01000020">Opening Demo (オープニングデモ)</title>
+			<title code="0x00000009">In the Cosmos (Radio Ver.) (宇宙に立ちて(ラジカセ ver.))</title>
+			<title code="0x00000006">Ship's Hawaiian (船上のハワイアン)</title>
+			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (宇宙に立ちて(ラジカセ 別ver.))</title>
+			<title code="0x0000000c">Suspense (サスペンス)</title>
+			<title code="0x00000000">Army Theme (軍隊のテーマ)</title>
+			<title code="0x00000003">Blue Infinity (蒼い無限)</title>
+			<title code="0x00000008">In the Cosmos (宇宙に立ちて)</title>
+			<title code="0x00000007">In the Cosmos (in G) (宇宙に立ちて(in G))</title>
+			<title code="0x0000000b">The Departing (去り行く者たち)</title>
+			<title code="0x0000000e">Monster (モンスター)</title>
+			<title code="0x00000004">Elegy (エレジー)</title>
+			<title code="0x0000000a">Requiem (レクイエム)</title>
+			<title code="0x00000005">Fight (ファイト)</title>
+			<title code="0x00000002">Monster (Full Version) (モンスター(フルバージョン))</title>
+			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (フィナーレ(宇宙に立ちて～蒼い無限～去り行く者たち～宇宙に立ちて))</title>
+			<title code="0x00000020">効果音00</title>
+			<title code="0x02000020">効果音02</title>
+			<title code="0x03000020">効果音03</title>
+			<title code="0x04000020">効果音04</title>
+			<title code="0x05000020">効果音05</title>
+			<title code="0x06000020">効果音06</title>
+			<title code="0x07000020">効果音07</title>
+			<title code="0x08000020">効果音08</title>
+			<title code="0x09000020">効果音09</title>
+			<title code="0x0a000020">効果音0a</title>
+			<title code="0x0b000020">効果音0b</title>
+			<title code="0x0c000020">効果音0c</title>
+			<title code="0x0d000020">効果音0d</title>
+			<title code="0x0e000020">効果音0e</title>
+			<title code="0x0f000020">効果音0f</title>
+			<title code="0x10000020">効果音10</title>
+			<title code="0x11000020">効果音11</title>
+			<title code="0x12000020">効果音12</title>
+			<title code="0x13000020">効果音13</title>
+			<title code="0x14000020">効果音14</title>
+			<title code="0x15000020">効果音15</title>
+			<title code="0x16000020">効果音16</title>
+			<title code="0x17000020">効果音17</title>
+			<title code="0x18000020">効果音18</title>
+			<title code="0x00000021">効果音00</title>
+			<title code="0x01000021">効果音01</title>
+			<title code="0x02000021">効果音02</title>
+			<title code="0x03000021">効果音03</title>
+			<title code="0x04000021">効果音04</title>
+			<title code="0x05000021">効果音05</title>
+			<title code="0x06000021">効果音06</title>
+			<title code="0x07000021">効果音07</title>
+			<title code="0x08000021">効果音08</title>
+			<title code="0x09000021">効果音09</title>
+			<title code="0x0a000021">効果音0a</title>
+			<title code="0x0b000021">効果音0b</title>
+			<title code="0x0c000021">効果音0c</title>
+			<title code="0x0d000021">効果音0d</title>
+			<title code="0x0e000021">効果音0e</title>
+			<title code="0x0f000021">効果音0f</title>
+			<title code="0x10000021">効果音10</title>
+			<title code="0x11000021">効果音11</title>
+			<title code="0x12000021">効果音12</title>
+			<title code="0x13000021">効果音13</title>
+			<title code="0x14000021">効果音14</title>
+			<title code="0x15000021">効果音15</title>
+			<title code="0x16000021">効果音16</title>
+			<title code="0x17000021">効果音17</title>
+			<title code="0x18000021">効果音18</title>
+			<title code="0x19000021">効果音19</title>
+			<title code="0x1a000021">効果音1a</title>
+			<title code="0x1b000021">効果音1b</title>
+			<title code="0x00000022">効果音00</title>
+			<title code="0x01000022">効果音01</title>
+			<title code="0x02000022">効果音02</title>
+			<title code="0x03000022">効果音03</title>
+			<title code="0x04000022">効果音04</title>
+			<title code="0x05000022">効果音05</title>
+			<title code="0x06000022">効果音06</title>
+			<title code="0x07000022">効果音07</title>
+			<title code="0x08000022">効果音08</title>
+			<title code="0x09000022">効果音09</title>
+			<title code="0x0a000022">効果音0a</title>
+			<title code="0x0b000022">効果音0b</title>
+			<title code="0x0c000022">効果音0c</title>
+			<title code="0x0d000022">効果音0d</title>
+			<title code="0x0e000022">効果音0e</title>
+			<title code="0x0f000022">効果音0f</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] JESUS II(OPN)</name>
+		<name>[PC-8801] Jesus II (ジーザス2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -1146,120 +1160,120 @@
 			<rom type="bgm" offset="0x22">effec3.com</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000020">effec1 : オープニングデモ</title>
-			<title code="0x00000009">mus_k  : 宇宙に立ちて(ラジカセ ver.)</title>
-			<title code="0x00000006">mus_h  : 船上のハワイアン</title>
-			<title code="0x0000000d">mus_o  : 宇宙に立ちて(ラジカセ 別ver.)</title>
-			<title code="0x0000000c">mus_n  : サスペンス</title>
-			<title code="0x00000000">mus_a  : 軍隊のテーマ</title>
-			<title code="0x00000003">mus_d  : 蒼い無限</title>
-			<title code="0x00000008">mus_j  : 宇宙に立ちて</title>
-			<title code="0x00000007">mus_i  : 宇宙に立ちて(in G)</title>
-			<title code="0x0000000b">mus_m  : 去り行く者たち</title>
-			<title code="0x0000000e">mus_p  : モンスター</title>
-			<title code="0x00000004">mus_f  : エレジー</title>
-			<title code="0x0000000a">mus_l  : レクイエム</title>
-			<title code="0x00000005">mus_g  : ファイト</title>
-			<title code="0x00000002">mus_c  : モンスター(フルバージョン)</title>
-			<title code="0x00000001">mus_b  : フィナーレ(宇宙に立ちて～蒼い無限～去り行く者たち～宇宙に立ちて)</title>
-			<title code="0x00000020">effec1 : 効果音00</title>
-			<title code="0x02000020">effec1 : 効果音02</title>
-			<title code="0x03000020">effec1 : 効果音03</title>
-			<title code="0x04000020">effec1 : 効果音04</title>
-			<title code="0x05000020">effec1 : 効果音05</title>
-			<title code="0x06000020">effec1 : 効果音06</title>
-			<title code="0x07000020">effec1 : 効果音07</title>
-			<title code="0x08000020">effec1 : 効果音08</title>
-			<title code="0x09000020">effec1 : 効果音09</title>
-			<title code="0x0a000020">effec1 : 効果音0a</title>
-			<title code="0x0b000020">effec1 : 効果音0b</title>
-			<title code="0x0c000020">effec1 : 効果音0c</title>
-			<title code="0x0d000020">effec1 : 効果音0d</title>
-			<title code="0x0e000020">effec1 : 効果音0e</title>
-			<title code="0x0f000020">effec1 : 効果音0f</title>
-			<title code="0x10000020">effec1 : 効果音10</title>
-			<title code="0x11000020">effec1 : 効果音11</title>
-			<title code="0x12000020">effec1 : 効果音12</title>
-			<title code="0x13000020">effec1 : 効果音13</title>
-			<title code="0x14000020">effec1 : 効果音14</title>
-			<title code="0x15000020">effec1 : 効果音15</title>
-			<title code="0x16000020">effec1 : 効果音16</title>
-			<title code="0x17000020">effec1 : 効果音17</title>
-			<title code="0x18000020">effec1 : 効果音18</title>
-			<title code="0x00000021">effec2 : 効果音00</title>
-			<title code="0x01000021">effec2 : 効果音01</title>
-			<title code="0x02000021">effec2 : 効果音02</title>
-			<title code="0x03000021">effec2 : 効果音03</title>
-			<title code="0x04000021">effec2 : 効果音04</title>
-			<title code="0x05000021">effec2 : 効果音05</title>
-			<title code="0x06000021">effec2 : 効果音06</title>
-			<title code="0x07000021">effec2 : 効果音07</title>
-			<title code="0x08000021">effec2 : 効果音08</title>
-			<title code="0x09000021">effec2 : 効果音09</title>
-			<title code="0x0a000021">effec2 : 効果音0a</title>
-			<title code="0x0b000021">effec2 : 効果音0b</title>
-			<title code="0x0c000021">effec2 : 効果音0c</title>
-			<title code="0x0d000021">effec2 : 効果音0d</title>
-			<title code="0x0e000021">effec2 : 効果音0e</title>
-			<title code="0x0f000021">effec2 : 効果音0f</title>
-			<title code="0x10000021">effec2 : 効果音10</title>
-			<title code="0x11000021">effec2 : 効果音11</title>
-			<title code="0x12000021">effec2 : 効果音12</title>
-			<title code="0x13000021">effec2 : 効果音13</title>
-			<title code="0x14000021">effec2 : 効果音14</title>
-			<title code="0x15000021">effec2 : 効果音15</title>
-			<title code="0x16000021">effec2 : 効果音16</title>
-			<title code="0x17000021">effec2 : 効果音17</title>
-			<title code="0x18000021">effec2 : 効果音18</title>
-			<title code="0x19000021">effec2 : 効果音19</title>
-			<title code="0x1a000021">effec2 : 効果音1a</title>
-			<title code="0x1b000021">effec2 : 効果音1b</title>
-			<title code="0x00000022">effec3 : 効果音00</title>
-			<title code="0x01000022">effec3 : 効果音01</title>
-			<title code="0x02000022">effec3 : 効果音02</title>
-			<title code="0x03000022">effec3 : 効果音03</title>
-			<title code="0x04000022">effec3 : 効果音04</title>
-			<title code="0x05000022">effec3 : 効果音05</title>
-			<title code="0x06000022">effec3 : 効果音06</title>
-			<title code="0x07000022">effec3 : 効果音07</title>
-			<title code="0x08000022">effec3 : 効果音08</title>
-			<title code="0x09000022">effec3 : 効果音09</title>
-			<title code="0x0a000022">effec3 : 効果音0a</title>
-			<title code="0x0b000022">effec3 : 効果音0b</title>
-			<title code="0x0c000022">effec3 : 効果音0c</title>
-			<title code="0x0d000022">effec3 : 効果音0d</title>
-			<title code="0x0e000022">effec3 : 効果音0e</title>
-			<title code="0x0f000022">effec3 : 効果音0f</title>
+			<title code="0x01000020">Opening Demo (オープニングデモ)</title>
+			<title code="0x00000009">In the Cosmos (Radio Ver.) (宇宙に立ちて(ラジカセ ver.))</title>
+			<title code="0x00000006">Ship's Hawaiian (船上のハワイアン)</title>
+			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (宇宙に立ちて(ラジカセ 別ver.))</title>
+			<title code="0x0000000c">Suspense (サスペンス)</title>
+			<title code="0x00000000">Army Theme (軍隊のテーマ)</title>
+			<title code="0x00000003">Blue Infinity (蒼い無限)</title>
+			<title code="0x00000008">In the Cosmos (宇宙に立ちて)</title>
+			<title code="0x00000007">In the Cosmos (in G) (宇宙に立ちて(in G))</title>
+			<title code="0x0000000b">The Departing (去り行く者たち)</title>
+			<title code="0x0000000e">Monster (モンスター)</title>
+			<title code="0x00000004">Elegy (エレジー)</title>
+			<title code="0x0000000a">Requiem (レクイエム)</title>
+			<title code="0x00000005">Fight (ファイト)</title>
+			<title code="0x00000002">Monster (Full Version) (モンスター(フルバージョン))</title>
+			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (フィナーレ(宇宙に立ちて～蒼い無限～去り行く者たち～宇宙に立ちて))</title>
+			<title code="0x00000020">効果音00</title>
+			<title code="0x02000020">効果音02</title>
+			<title code="0x03000020">効果音03</title>
+			<title code="0x04000020">効果音04</title>
+			<title code="0x05000020">効果音05</title>
+			<title code="0x06000020">効果音06</title>
+			<title code="0x07000020">効果音07</title>
+			<title code="0x08000020">効果音08</title>
+			<title code="0x09000020">効果音09</title>
+			<title code="0x0a000020">効果音0a</title>
+			<title code="0x0b000020">効果音0b</title>
+			<title code="0x0c000020">効果音0c</title>
+			<title code="0x0d000020">効果音0d</title>
+			<title code="0x0e000020">効果音0e</title>
+			<title code="0x0f000020">効果音0f</title>
+			<title code="0x10000020">効果音10</title>
+			<title code="0x11000020">効果音11</title>
+			<title code="0x12000020">効果音12</title>
+			<title code="0x13000020">効果音13</title>
+			<title code="0x14000020">効果音14</title>
+			<title code="0x15000020">効果音15</title>
+			<title code="0x16000020">効果音16</title>
+			<title code="0x17000020">効果音17</title>
+			<title code="0x18000020">効果音18</title>
+			<title code="0x00000021">効果音00</title>
+			<title code="0x01000021">効果音01</title>
+			<title code="0x02000021">効果音02</title>
+			<title code="0x03000021">効果音03</title>
+			<title code="0x04000021">効果音04</title>
+			<title code="0x05000021">効果音05</title>
+			<title code="0x06000021">効果音06</title>
+			<title code="0x07000021">効果音07</title>
+			<title code="0x08000021">効果音08</title>
+			<title code="0x09000021">効果音09</title>
+			<title code="0x0a000021">効果音0a</title>
+			<title code="0x0b000021">効果音0b</title>
+			<title code="0x0c000021">効果音0c</title>
+			<title code="0x0d000021">効果音0d</title>
+			<title code="0x0e000021">効果音0e</title>
+			<title code="0x0f000021">効果音0f</title>
+			<title code="0x10000021">効果音10</title>
+			<title code="0x11000021">効果音11</title>
+			<title code="0x12000021">効果音12</title>
+			<title code="0x13000021">効果音13</title>
+			<title code="0x14000021">効果音14</title>
+			<title code="0x15000021">効果音15</title>
+			<title code="0x16000021">効果音16</title>
+			<title code="0x17000021">効果音17</title>
+			<title code="0x18000021">効果音18</title>
+			<title code="0x19000021">効果音19</title>
+			<title code="0x1a000021">効果音1a</title>
+			<title code="0x1b000021">効果音1b</title>
+			<title code="0x00000022">効果音00</title>
+			<title code="0x01000022">効果音01</title>
+			<title code="0x02000022">効果音02</title>
+			<title code="0x03000022">効果音03</title>
+			<title code="0x04000022">効果音04</title>
+			<title code="0x05000022">効果音05</title>
+			<title code="0x06000022">効果音06</title>
+			<title code="0x07000022">効果音07</title>
+			<title code="0x08000022">効果音08</title>
+			<title code="0x09000022">効果音09</title>
+			<title code="0x0a000022">効果音0a</title>
+			<title code="0x0b000022">効果音0b</title>
+			<title code="0x0c000022">効果音0c</title>
+			<title code="0x0d000022">効果音0d</title>
+			<title code="0x0e000022">効果音0e</title>
+			<title code="0x0f000022">効果音0f</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] WORLD GOLF II</name>
+		<name>[PC-8801] World Golf II (ワールドゴルフ2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="wgolf2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8000">DRIVER</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : ALBATROSS</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">Awards Ceremony (表彰式)</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Albatross</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] WORLD GOLF III(OPNA)</name>
+		<name>[PC-8801] World Golf III (ワールドゴルフ3) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="use_pcmx8" value="0x01"/>
 		</options>
@@ -1277,20 +1291,20 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS00 : オープニングデモ</title>
-			<title code="0x01">MUS01 : メニュー</title>
-			<title code="0x02">MUS02 : コーヒーブレイク</title>
-			<title code="0x03">MUS03 : ホールアウト</title>
-			<title code="0x04">MUS04 : 表彰式</title>
-		<!--	<title code="0x05">MUS05 : カップイン効果音</title>
-			<title code="0x06">MUS06 : バーディー効果音</title>
-			<title code="0x07">MUS07 : イーグル効果音</title> -->
+			<title code="0x00">Opening Demo (オープニングデモ)</title>
+			<title code="0x01">Menu (メニュー)</title>
+			<title code="0x02">Coffee Break (コーヒーブレイク)</title>
+			<title code="0x03">Hole Out (ホールアウト)</title>
+			<title code="0x04">Awards Ceremony (表彰式)</title>
+		<!--	<title code="0x05">Chip-in SFX (カップイン効果音)</title>
+			<title code="0x06">Birdie SFX (バーディー効果音)</title>
+			<title code="0x07">Eagle SFX (イーグル効果音)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] WORLD GOLF III(OPN)</name>
+		<name>[PC-8801] World Golf III (ワールドゴルフ3) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="wgolf3">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9000">DRIVER</rom>
@@ -1304,20 +1318,20 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS00 : オープニングデモ</title>
-			<title code="0x01">MUS01 : メニュー</title>
-			<title code="0x02">MUS02 : コーヒーブレイク</title>
-			<title code="0x03">MUS03 : ホールアウト</title>
-			<title code="0x04">MUS04 : 表彰式</title>
-		<!--	<title code="0x05">MUS05 : カップイン効果音</title>
-			<title code="0x06">MUS06 : バーディー効果音</title>
-			<title code="0x07">MUS07 : イーグル効果音</title> -->
+			<title code="0x00">Opening Demo (オープニングデモ)</title>
+			<title code="0x01">Menu (メニュー)</title>
+			<title code="0x02">Coffee Break (コーヒーブレイク)</title>
+			<title code="0x03">Hole Out (ホールアウト)</title>
+			<title code="0x04">Awards Ceremony (表彰式)</title>
+		<!--	<title code="0x05">Chip-in SFX (カップイン効果音)</title>
+			<title code="0x06">Birdie SFX (バーディー効果音)</title>
+			<title code="0x07">Eagle SFX (イーグル効果音)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] FANGS - THE SAGA OF WOLF BLOOD. -(OPNA)</name>
+		<name>[PC-8801] Fangs: The Saga of Wolf Blood (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_size" value="0x2100"/>
@@ -1396,47 +1410,47 @@
 			<rom type="bgm" offset="0x22">SAMPLE.MSD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">M-01.MSD   : </title>
-			<title code="0x01">M-10.MSD   : </title>
-			<title code="0x02">M-9.MSD    : </title>
-			<title code="0x03">MUS-01.MSD : </title>
-			<title code="0x04">MUS-02.MSD : </title>
-			<title code="0x05">MUS-03.MSD : </title>
-			<title code="0x06">MUS-06.MSD : </title>
-			<title code="0x07">MUS-07.MSD : </title>
-			<title code="0x08">MUS-08.MSD : </title>
-			<title code="0x09">MUS-09.MSD : </title>
-			<title code="0x0a">MUS-10.MSD : </title>
-			<title code="0x0b">MUS-11.MSD : </title>
-			<title code="0x0c">MUS-12.MSD : </title>
-			<title code="0x0d">MUS-13.MSD : </title>
-			<title code="0x0e">MUS-14.MSD : </title>
-			<title code="0x0f">MUS-16.MSD : </title>
-			<title code="0x10">MUS-17.MSD : </title>
-			<title code="0x11">MUS-19.MSD : </title>
-			<title code="0x12">MUS-20.MSD : </title>
-			<title code="0x13">MUS-22.MSD : </title>
-			<title code="0x14">MUS-23.MSD : </title>
-			<title code="0x15">MUS-24.MSD : </title>
-			<title code="0x16">MUS-25.MSD : </title>
-			<title code="0x17">MUS-26.MSD : </title>
-			<title code="0x18">MUS-27.MSD : </title>
-			<title code="0x19">MUS-28.MSD : </title>
-			<title code="0x1a">MUS-30.MSD : </title>
-			<title code="0x1b">MUS-32.MSD : </title>
-			<title code="0x1c">MUS-36.MSD : </title>
-			<title code="0x1d">MUS-98.MSD : </title>
-			<title code="0x1e">MUS31A.MSD : </title>
-			<title code="0x1f">MUS31B.MSD : </title>
-			<title code="0x20">M-2.MSD    : </title>
-			<title code="0x21">M-31.MSD   : </title>
-			<title code="0x22">SAMPLE.MSD : </title>
+			<title code="0x00">M-01.MSD</title>
+			<title code="0x01">M-10.MSD</title>
+			<title code="0x02">M-9.MSD</title>
+			<title code="0x03">MUS-01.MSD</title>
+			<title code="0x04">MUS-02.MSD</title>
+			<title code="0x05">MUS-03.MSD</title>
+			<title code="0x06">MUS-06.MSD</title>
+			<title code="0x07">MUS-07.MSD</title>
+			<title code="0x08">MUS-08.MSD</title>
+			<title code="0x09">MUS-09.MSD</title>
+			<title code="0x0a">MUS-10.MSD</title>
+			<title code="0x0b">MUS-11.MSD</title>
+			<title code="0x0c">MUS-12.MSD</title>
+			<title code="0x0d">MUS-13.MSD</title>
+			<title code="0x0e">MUS-14.MSD</title>
+			<title code="0x0f">MUS-16.MSD</title>
+			<title code="0x10">MUS-17.MSD</title>
+			<title code="0x11">MUS-19.MSD</title>
+			<title code="0x12">MUS-20.MSD</title>
+			<title code="0x13">MUS-22.MSD</title>
+			<title code="0x14">MUS-23.MSD</title>
+			<title code="0x15">MUS-24.MSD</title>
+			<title code="0x16">MUS-25.MSD</title>
+			<title code="0x17">MUS-26.MSD</title>
+			<title code="0x18">MUS-27.MSD</title>
+			<title code="0x19">MUS-28.MSD</title>
+			<title code="0x1a">MUS-30.MSD</title>
+			<title code="0x1b">MUS-32.MSD</title>
+			<title code="0x1c">MUS-36.MSD</title>
+			<title code="0x1d">MUS-98.MSD</title>
+			<title code="0x1e">MUS31A.MSD</title>
+			<title code="0x1f">MUS31B.MSD</title>
+			<title code="0x20">M-2.MSD</title>
+			<title code="0x21">M-31.MSD</title>
+			<title code="0x22">SAMPLE.MSD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] FANGS - THE SAGA OF WOLF BLOOD. -(OPN)</name>
+		<name>[PC-8801] Fangs: The Saga of Wolf Blood (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_size" value="0x2100"/>
@@ -1482,47 +1496,47 @@
 			<rom type="bgm" offset="0x22">SAMPLE.MSD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">M-01.MSD   : </title>
-			<title code="0x01">M-10.MSD   : </title>
-			<title code="0x02">M-9.MSD    : </title>
-			<title code="0x03">MUS-01.MSD : </title>
-			<title code="0x04">MUS-02.MSD : </title>
-			<title code="0x05">MUS-03.MSD : </title>
-			<title code="0x06">MUS-06.MSD : </title>
-			<title code="0x07">MUS-07.MSD : </title>
-			<title code="0x08">MUS-08.MSD : </title>
-			<title code="0x09">MUS-09.MSD : </title>
-			<title code="0x0a">MUS-10.MSD : </title>
-			<title code="0x0b">MUS-11.MSD : </title>
-			<title code="0x0c">MUS-12.MSD : </title>
-			<title code="0x0d">MUS-13.MSD : </title>
-			<title code="0x0e">MUS-14.MSD : </title>
-			<title code="0x0f">MUS-16.MSD : </title>
-			<title code="0x10">MUS-17.MSD : </title>
-			<title code="0x11">MUS-19.MSD : </title>
-			<title code="0x12">MUS-20.MSD : </title>
-			<title code="0x13">MUS-22.MSD : </title>
-			<title code="0x14">MUS-23.MSD : </title>
-			<title code="0x15">MUS-24.MSD : </title>
-			<title code="0x16">MUS-25.MSD : </title>
-			<title code="0x17">MUS-26.MSD : </title>
-			<title code="0x18">MUS-27.MSD : </title>
-			<title code="0x19">MUS-28.MSD : </title>
-			<title code="0x1a">MUS-30.MSD : </title>
-			<title code="0x1b">MUS-32.MSD : </title>
-			<title code="0x1c">MUS-36.MSD : </title>
-			<title code="0x1d">MUS-98.MSD : </title>
-			<title code="0x1e">MUS31A.MSD : </title>
-			<title code="0x1f">MUS31B.MSD : </title>
-			<title code="0x20">M-2.MSD    : </title>
-			<title code="0x21">M-31.MSD   : </title>
-			<title code="0x22">SAMPLE.MSD : </title>
+			<title code="0x00">M-01.MSD</title>
+			<title code="0x01">M-10.MSD</title>
+			<title code="0x02">M-9.MSD</title>
+			<title code="0x03">MUS-01.MSD</title>
+			<title code="0x04">MUS-02.MSD</title>
+			<title code="0x05">MUS-03.MSD</title>
+			<title code="0x06">MUS-06.MSD</title>
+			<title code="0x07">MUS-07.MSD</title>
+			<title code="0x08">MUS-08.MSD</title>
+			<title code="0x09">MUS-09.MSD</title>
+			<title code="0x0a">MUS-10.MSD</title>
+			<title code="0x0b">MUS-11.MSD</title>
+			<title code="0x0c">MUS-12.MSD</title>
+			<title code="0x0d">MUS-13.MSD</title>
+			<title code="0x0e">MUS-14.MSD</title>
+			<title code="0x0f">MUS-16.MSD</title>
+			<title code="0x10">MUS-17.MSD</title>
+			<title code="0x11">MUS-19.MSD</title>
+			<title code="0x12">MUS-20.MSD</title>
+			<title code="0x13">MUS-22.MSD</title>
+			<title code="0x14">MUS-23.MSD</title>
+			<title code="0x15">MUS-24.MSD</title>
+			<title code="0x16">MUS-25.MSD</title>
+			<title code="0x17">MUS-26.MSD</title>
+			<title code="0x18">MUS-27.MSD</title>
+			<title code="0x19">MUS-28.MSD</title>
+			<title code="0x1a">MUS-30.MSD</title>
+			<title code="0x1b">MUS-32.MSD</title>
+			<title code="0x1c">MUS-36.MSD</title>
+			<title code="0x1d">MUS-98.MSD</title>
+			<title code="0x1e">MUS31A.MSD</title>
+			<title code="0x1f">MUS31B.MSD</title>
+			<title code="0x20">M-2.MSD</title>
+			<title code="0x21">M-31.MSD</title>
+			<title code="0x22">SAMPLE.MSD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JESUS II(SPB)</name>
+		<name>[PC-9801] Jesus II (ジーザス2) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="0x20"/>
 			<option name="fm_mix" value="0"/>
@@ -1554,40 +1568,40 @@
 			<title code="0x72">サスペンス</title>
 			<title code="0x73">ラジカセ2</title>
 			<title code="0x74">モンスター2</title>
-			<title code="0x01">EFFECT #01</title>
-			<title code="0x02">EFFECT #02</title>
-			<title code="0x03">EFFECT #03</title>
-			<title code="0x04">EFFECT #04</title>
-			<title code="0x05">EFFECT #05</title>
-			<title code="0x06">EFFECT #06</title>
-			<title code="0x07">EFFECT #07</title>
-			<title code="0x08">EFFECT #08</title>
-			<title code="0x09">EFFECT #09</title>
-			<title code="0x0a">EFFECT #10</title>
-			<title code="0x0b">EFFECT #11</title>
-			<title code="0x0c">EFFECT #12</title>
-			<title code="0x0d">EFFECT #13</title>
-			<title code="0x0e">EFFECT #14</title>
-			<title code="0x0f">EFFECT #15</title>
-			<title code="0x10">EFFECT #16</title>
-			<title code="0x11">EFFECT #17</title>
-			<title code="0x12">EFFECT #18</title>
-			<title code="0x13">EFFECT #19</title>
-			<title code="0x14">EFFECT #20</title>
-			<title code="0x15">EFFECT #21</title>
-			<title code="0x16">EFFECT #22</title>
-			<title code="0x17">EFFECT #23</title>
-			<title code="0x18">EFFECT #24</title>
-			<title code="0x19">EFFECT #25</title>
-			<title code="0x1a">EFFECT #26</title>
-			<title code="0x1b">EFFECT #27</title>
+			<title code="0x01">SFX #01</title>
+			<title code="0x02">SFX #02</title>
+			<title code="0x03">SFX #03</title>
+			<title code="0x04">SFX #04</title>
+			<title code="0x05">SFX #05</title>
+			<title code="0x06">SFX #06</title>
+			<title code="0x07">SFX #07</title>
+			<title code="0x08">SFX #08</title>
+			<title code="0x09">SFX #09</title>
+			<title code="0x0a">SFX #10</title>
+			<title code="0x0b">SFX #11</title>
+			<title code="0x0c">SFX #12</title>
+			<title code="0x0d">SFX #13</title>
+			<title code="0x0e">SFX #14</title>
+			<title code="0x0f">SFX #15</title>
+			<title code="0x10">SFX #16</title>
+			<title code="0x11">SFX #17</title>
+			<title code="0x12">SFX #18</title>
+			<title code="0x13">SFX #19</title>
+			<title code="0x14">SFX #20</title>
+			<title code="0x15">SFX #21</title>
+			<title code="0x16">SFX #22</title>
+			<title code="0x17">SFX #23</title>
+			<title code="0x18">SFX #24</title>
+			<title code="0x19">SFX #25</title>
+			<title code="0x1a">SFX #26</title>
+			<title code="0x1b">SFX #27</title>
 			<title code="0xff">フェードアウト</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JESUS II(OPN)</name>
+		<name>[PC-9801] Jesus II (ジーザス2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1616,40 +1630,40 @@
 			<title code="0x72">サスペンス</title>
 			<title code="0x73">ラジカセ2</title>
 			<title code="0x74">モンスター2</title>
-			<title code="0x01">EFFECT #01</title>
-			<title code="0x02">EFFECT #02</title>
-			<title code="0x03">EFFECT #03</title>
-			<title code="0x04">EFFECT #04</title>
-			<title code="0x05">EFFECT #05</title>
-			<title code="0x06">EFFECT #06</title>
-			<title code="0x07">EFFECT #07</title>
-			<title code="0x08">EFFECT #08</title>
-			<title code="0x09">EFFECT #09</title>
-			<title code="0x0a">EFFECT #10</title>
-			<title code="0x0b">EFFECT #11</title>
-			<title code="0x0c">EFFECT #12</title>
-			<title code="0x0d">EFFECT #13</title>
-			<title code="0x0e">EFFECT #14</title>
-			<title code="0x0f">EFFECT #15</title>
-			<title code="0x10">EFFECT #16</title>
-			<title code="0x11">EFFECT #17</title>
-			<title code="0x12">EFFECT #18</title>
-			<title code="0x13">EFFECT #19</title>
-			<title code="0x14">EFFECT #20</title>
-			<title code="0x15">EFFECT #21</title>
-			<title code="0x16">EFFECT #22</title>
-			<title code="0x17">EFFECT #23</title>
-			<title code="0x18">EFFECT #24</title>
-			<title code="0x19">EFFECT #25</title>
-			<title code="0x1a">EFFECT #26</title>
-			<title code="0x1b">EFFECT #27</title>
+			<title code="0x01">SFX #01</title>
+			<title code="0x02">SFX #02</title>
+			<title code="0x03">SFX #03</title>
+			<title code="0x04">SFX #04</title>
+			<title code="0x05">SFX #05</title>
+			<title code="0x06">SFX #06</title>
+			<title code="0x07">SFX #07</title>
+			<title code="0x08">SFX #08</title>
+			<title code="0x09">SFX #09</title>
+			<title code="0x0a">SFX #10</title>
+			<title code="0x0b">SFX #11</title>
+			<title code="0x0c">SFX #12</title>
+			<title code="0x0d">SFX #13</title>
+			<title code="0x0e">SFX #14</title>
+			<title code="0x0f">SFX #15</title>
+			<title code="0x10">SFX #16</title>
+			<title code="0x11">SFX #17</title>
+			<title code="0x12">SFX #18</title>
+			<title code="0x13">SFX #19</title>
+			<title code="0x14">SFX #20</title>
+			<title code="0x15">SFX #21</title>
+			<title code="0x16">SFX #22</title>
+			<title code="0x17">SFX #23</title>
+			<title code="0x18">SFX #24</title>
+			<title code="0x19">SFX #25</title>
+			<title code="0x1a">SFX #26</title>
+			<title code="0x1b">SFX #27</title>
 			<title code="0xff">フェードアウト</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 46億年物語 -THE進化論-</name>
+		<name>[PC-9801] 46 Oku Nen Monogatari: The Shinka Ron (46億年物語 -THE進化論-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1717,9 +1731,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 群雄三国志</name>
+		<name>[PC-9801] Gunyu Sangokushi (群雄三国志) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1739,22 +1753,22 @@
 			<rom type="shell" offset="0">g3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">演奏停止</title>
-			<title code="0x0b">OPEN.MUX  : オープニング</title>
-			<title code="0x09">MAIN1.MUX : 戦略画面(序盤)</title>
-			<title code="0x0a">MAIN2.MUX : 戦略画面(終盤)</title>
-			<title code="0x06">FT1.MUX   : 戦闘 (攻勢)</title>
-			<title code="0x07">FT2.MUX   : 戦闘 (守勢)</title>
-			<title code="0x0d">WIN.MUX   : 勝利</title>
-			<title code="0x08">LOSS.MUX  : 敗戦</title>
-			<title code="0x0c">OVER.MUX  : ゲームオーバー</title>
-			<title code="0x05">END.MUX   : 統一</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x0b">Opening (オープニング)</title>
+			<title code="0x09">Battle Map (Opening) (戦略画面(序盤))</title>
+			<title code="0x0a">Battle Map (Ending) (戦略画面(終盤))</title>
+			<title code="0x06">Battle (Offense) (戦闘 (攻勢))</title>
+			<title code="0x07">Battle (Defense) (戦闘 (守勢))</title>
+			<title code="0x0d">Victory (勝利)</title>
+			<title code="0x08">Defeat (敗戦)</title>
+			<title code="0x0c">Game Over (ゲームオーバー)</title>
+			<title code="0x05">Unity (統一)</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Reichsritter - 帝国騎士団 -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1820,116 +1834,116 @@
 			<rom type="shell" offset="0">rr</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">演奏停止</title>
-			<title code="0x05">BOSS   .MUS : </title>
-			<title code="0x06">DEMO   .MUS : </title>
-			<title code="0x07">END    .MUS : </title>
-			<title code="0x08">END2   .MUS : </title>
-			<title code="0x09">OPEN   .MUS : </title>
-			<title code="0x0a">SCROLL .MUS : </title>
-			<title code="0x0b">SCROLL2.MUS : </title>
-			<title code="0x0c">TITLE  .MUS : </title>
-			<title code="0x0d">WAIT   .MUS : </title>
-			<title code="0x0e">WEDDING.MUS : </title>
-			<title code="0x0f">ASI    .MUC : </title>
-			<title code="0x10">RC-ADO .MUC : </title>
-			<title code="0x11">RC-ARI .MUC : </title>
-			<title code="0x12">RC-BUT .MUC : </title>
-			<title code="0x13">RC-DER .MUC : </title>
-			<title code="0x14">RC-EKO .MUC : </title>
-			<title code="0x15">RC-ELK .MUC : </title>
-			<title code="0x16">RC-FUN .MUC : </title>
-			<title code="0x17">RC-GAR .MUC : </title>
-			<title code="0x18">RC-GIS .MUC : </title>
-			<title code="0x19">RC-ISK .MUC : </title>
-			<title code="0x1a">RC-MIL .MUC : </title>
-			<title code="0x1b">RC-THU .MUC : </title>
-			<title code="0x1c">RC-YUL .MUC : </title>
-			<title code="0x1d">RR-ADV .MUC : </title>
-			<title code="0x1e">RR-BEF .MUC : </title>
-			<title code="0x1f">RR-BOS .MUC : </title>
-			<title code="0x20">RR-BS2 .MUC : </title>
-			<title code="0x21">RR-CAV .MUC : </title>
-			<title code="0x22">RR-CHR .MUC : </title>
-			<title code="0x23">RR-CRE .MUC : </title>
-			<title code="0x24">RR-DEM .MUC : </title>
-			<title code="0x25">RR-DES .MUC : </title>
-			<title code="0x26">RR-EVE .MUC : </title>
-			<title code="0x27">RR-FAN .MUC : </title>
-			<title code="0x28">RR-FT  .MUC : </title>
-			<title code="0x29">RR-FT2 .MUC : </title>
-			<title code="0x2a">RR-FT3 .MUC : </title>
-			<title code="0x2b">RR-ITM .MUC : </title>
-			<title code="0x2c">RR-LOS .MUC : </title>
-			<title code="0x2d">RR-MON .MUC : </title>
-			<title code="0x2e">RR-OP  .MUC : </title>
-			<title code="0x2f">RR-PAS .MUC : </title>
-			<title code="0x30">RR-QUE .MUC : </title>
-			<title code="0x31">RR-RET .MUC : </title>
-			<title code="0x32">RR-ROM .MUC : </title>
-			<title code="0x33">RR-SEA .MUC : </title>
-			<title code="0x34">RR-SHP .MUC : </title>
-			<title code="0x35">RR-SPR .MUC : </title>
-			<title code="0x36">RR-TAC .MUC : </title>
-			<title code="0x37">RR-TRA .MUC : </title>
-			<title code="0x38">RR-TW2 .MUC : </title>
-			<title code="0x39">RR-TWN .MUC : </title>
-			<title code="0x3a">RR-WAL .MUC : </title>
-			<title code="0x3b">RR-WIN .MUC : </title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x05">BOSS.MUS</title>
+			<title code="0x06">DEMO.MUS</title>
+			<title code="0x07">END.MUS</title>
+			<title code="0x08">END2.MUS</title>
+			<title code="0x09">OPEN.MUS</title>
+			<title code="0x0a">SCROLL.MUS</title>
+			<title code="0x0b">SCROLL2.MUS</title>
+			<title code="0x0c">TITLE.MUS</title>
+			<title code="0x0d">WAIT.MUS</title>
+			<title code="0x0e">WEDDING.MUS</title>
+			<title code="0x0f">ASI.MUC</title>
+			<title code="0x10">RC-ADO.MUC</title>
+			<title code="0x11">RC-ARI.MUC</title>
+			<title code="0x12">RC-BUT.MUC</title>
+			<title code="0x13">RC-DER.MUC</title>
+			<title code="0x14">RC-EKO.MUC</title>
+			<title code="0x15">RC-ELK.MUC</title>
+			<title code="0x16">RC-FUN.MUC</title>
+			<title code="0x17">RC-GAR.MUC</title>
+			<title code="0x18">RC-GIS.MUC</title>
+			<title code="0x19">RC-ISK.MUC</title>
+			<title code="0x1a">RC-MIL.MUC</title>
+			<title code="0x1b">RC-THU.MUC</title>
+			<title code="0x1c">RC-YUL.MUC</title>
+			<title code="0x1d">RR-ADV.MUC</title>
+			<title code="0x1e">RR-BEF.MUC</title>
+			<title code="0x1f">RR-BOS.MUC</title>
+			<title code="0x20">RR-BS2.MUC</title>
+			<title code="0x21">RR-CAV.MUC</title>
+			<title code="0x22">RR-CHR.MUC</title>
+			<title code="0x23">RR-CRE.MUC</title>
+			<title code="0x24">RR-DEM.MUC</title>
+			<title code="0x25">RR-DES.MUC</title>
+			<title code="0x26">RR-EVE.MUC</title>
+			<title code="0x27">RR-FAN.MUC</title>
+			<title code="0x28">RR-FT.MUC</title>
+			<title code="0x29">RR-FT2.MUC</title>
+			<title code="0x2a">RR-FT3.MUC</title>
+			<title code="0x2b">RR-ITM.MUC</title>
+			<title code="0x2c">RR-LOS.MUC</title>
+			<title code="0x2d">RR-MON.MUC</title>
+			<title code="0x2e">RR-OP.MUC</title>
+			<title code="0x2f">RR-PAS.MUC</title>
+			<title code="0x30">RR-QUE.MUC</title>
+			<title code="0x31">RR-RET.MUC</title>
+			<title code="0x32">RR-ROM.MUC</title>
+			<title code="0x33">RR-SEA.MUC</title>
+			<title code="0x34">RR-SHP.MUC</title>
+			<title code="0x35">RR-SPR.MUC</title>
+			<title code="0x36">RR-TAC.MUC</title>
+			<title code="0x37">RR-TRA.MUC</title>
+			<title code="0x38">RR-TW2.MUC</title>
+			<title code="0x39">RR-TWN.MUC</title>
+			<title code="0x3a">RR-WAL.MUC</title>
+			<title code="0x3b">RR-WIN.MUC</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] WORLD GOLF II(OPM)</name>
+		<name>[X1] World Golf II (ワールドゴルフ2) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<romlist archive="x1wg2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8000">OPMDRV</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : HOLE IN ONE</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">表彰式</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Hole in One</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] WORLD GOLF II(PSG)</name>
+		<name>[X1] World Golf II (ワールドゴルフ2) (PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<romlist archive="x1wg2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8000">PSGDRV</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : HOLE IN ONE</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">表彰式</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Hole in One</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] GANDHARA ～仏陀の聖戦～(OPM)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<options>
 			<option name="mdata_addr"  value="0x1200"/>
 			<option name="mdata_size"  value="0x4d00"/>
@@ -1999,9 +2013,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] GANDHARA ～仏陀の聖戦～(PSG)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<options>
 			<option name="mdata_addr"  value="0x1200"/>
 			<option name="mdata_size"  value="0x4d00"/>
@@ -2071,9 +2085,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] JESUS(OPM)</name>
+		<name>[X1] Jesus (ジーザス) (OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -2096,126 +2110,126 @@
 			<rom type="bgm" offset="0x08">OPMMUS8</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a000000">0A : チャイム</title>
-		<!--	<title code="0x15000001">15 : 音色設定</title> -->
-			<title code="0x16000001">16 : 虚空への前奏</title>
-			<title code="0x00000000">00 : バルカスがモンスターにおそわれる</title>
-			<title code="0x02000000">02 : ゲームオーバー</title>
-		<!--	<title code="0x0b000001">0B : 音色設定</title> -->
-			<title code="0x0c000001">0C : 蒼い無限(プロローグ)</title>
-			<title code="0x07000000">07 : 速雄が歩くときの音</title>
-			<title code="0x01000000">01 : きらめく瞳</title>
-		<!--	<title code="0x0d000001">0D : 音色設定</title> -->
-			<title code="0x0e000001">0E : やすらぎの宇宙</title>
-		<!--	<title code="0x05000000">05 : 音色設定</title> -->
-			<title code="0x06000000">06 : 菫色の愛</title>
-			<title code="0x17000001">17 : 電話の音</title>
-		<!--	<title code="0x03000000">03 : 音色設定</title> -->
-			<title code="0x04000000">04 : 勇者の休息</title>
-			<title code="0x1c000002">1C : きらめく瞳</title>
-		<!--	<title code="0x1a000001">1A : 音色設定</title> -->
-			<title code="0x1b000001">1B : 甘い抱擁</title>
-		<!--	<title code="0x18000001">18 : 音色設定</title> -->
-			<title code="0x19000001">19 : 夢の中の二人</title>
-		<!--	<title code="0x13000001">13 : 音色設定</title> -->
-			<title code="0x14000001">14 : 崩れ行く都市</title>
-		<!--	<title code="0x0f000001">0F : 音色設定</title> -->
-			<title code="0x10000001">10 : 空の果てへ</title>
-		<!--	<title code="0x11000001">11 : 音色設定</title> -->
-			<title code="0x12000001">12 : 迫り来る危機</title>
-			<title code="0x26000002">26 : 効果音(ハッチ開閉音)</title>
-			<title code="0x1e000002">1E : 効果音(船内音)</title>
-			<title code="0x2c000002">2C : 効果音(船内音)</title>
-			<title code="0x1f000002">1F : 効果音(ドアオープン)</title>
-			<title code="0x20000002">20 : 効果音(機関室)</title>
-			<title code="0x21000002">21 : 効果音(動力室)</title>
-			<title code="0x22000002">22 : 効果音(研究室)</title>
-			<title code="0x23000002">23 : 効果音(ショック)</title>
-			<title code="0x2b000002">2B : 甦る侵入者(1)(バルカス)</title>
-			<title code="0x2a000002">2A : 甦る侵入者(2)(ベリーニ)</title>
-			<title code="0x30000003">30 : 甦る侵入者(3)(食料庫)</title>
-			<title code="0x27000002">27 : 効果音(モンスター咆哮1)</title>
-			<title code="0x35000003">35 : 効果音(銃発射1)</title>
-		<!--	<title code="0x32000003">32 : 音色定義</title> -->
-			<title code="0x33000003">33 : 生命への賛歌</title>
-		<!--	<title code="0x2d000002">2D : 音色設定</title> -->
-			<title code="0x2e000002">2E : 甦る侵入者(4)(エリーヌ)</title>
-			<title code="0x3d000004">3D : 効果音(生体センサー)</title>
-			<title code="0x40000004">40 : 効果音(倉庫切り離し)</title>
-		<!--	<title code="0x3b000004">3B : 音色設定</title> -->
-		<!--	<title code="0x3c000004">3C : 空の果てへ</title> -->
-			<title code="0x42000005">42 : 帰還</title>
-			<title code="0x43000005">43 : 効果音(警告音)</title>
-			<title code="0x44000005">44 : 効果音(船内音1)</title>
-			<title code="0x51000005">51 : ジングル(モンスター発見1)</title>
-			<title code="0x50000005">50 : 効果音(銃発射2)</title>
-			<title code="0x58000006">58 : 効果音(モンスター咆哮2)</title>
-		<!--	<title code="0x56000006">56 : 音色設定</title> -->
-			<title code="0x57000006">57 : 甦る侵入者(5)(芳花)</title>
-		<!--	<title code="0x59000006">59 : 音色設定</title> -->
-			<title code="0x5a000006">5A : 鎮魂歌</title>
-			<title code="0x5c000006">5C : 空の果てへ</title>
-			<title code="0x46000005">46 : 効果音(通信音)</title>
-			<title code="0x47000005">47 : 効果音(通信ノイズ)</title>
-			<title code="0x4a000005">4A : 効果音(ショック)</title>
-			<title code="0x41000005">41 : きらめく瞳</title>
-			<title code="0x45000005">45 : 効果音(船内音2)</title>
-			<title code="0x53000006">53 : 甦る侵入者(6)(機関室下)</title>
-		<!--	<title code="0x39000004">39 : 音色設定</title> -->
-			<title code="0x3a000004">3A : やすらぎの宇宙</title>
-			<title code="0x5b000006">5B : 死神の影</title>
-			<title code="0x52000005">52 : ジングル(モンスター発見2)</title>
-			<title code="0x5d000006">5D : 効果音(ドアクローズ)</title>
-		<!--	<title code="0x5e000006">5E : 音色設定</title> -->
-			<title code="0x5f000006">5F : やすらぎの宇宙</title>
-		<!--	<title code="0x63000007">63 : 音色設定</title> -->
-			<title code="0x64000007">64 : 迫り来る危機</title>
-			<title code="0x65000007">65 : 効果音(船内音)</title>
-		<!--	<title code="0x66000007">66 : 音色設定</title> -->
-			<title code="0x67000007">67 : 挑戦の時</title>
-			<title code="0x6c000007">6C : 甦る侵入者(7)</title>
-			<title code="0x70000008">70 : 勝利の旋律</title>
-		<!--	<title code="0x71000008">71 : 勝利の旋律(後半)</title> -->
-		<!--	<title code="0x68000007">68 : 音色設定</title> -->
-			<title code="0x69000007">69 : 去り行く者達</title>
-		<!--	<title code="0x6a000007">6A : 音色設定</title> -->
-			<title code="0x6b000007">6B : 生命への賛歌</title>
-			<title code="0x6f000008">6F : 蒼い無限(エピローグ)</title>
-			<title code="0x2f000002">2F : 効果音</title>
-			<title code="0x34000003">34 : 効果音</title>
-			<title code="0x36000003">36 : 効果音</title>
-		<!--	<title code="0x08000000">08 : 音色設定</title> -->
-			<title code="0x09000000">09 : 挑戦の時</title>
-			<title code="0x54000006">54 : 甦る侵入者</title>
-			<title code="0x55000006">55 : 甦る侵入者</title>
-			<title code="0x60000006">60 : 効果音(船内音3)</title>
-			<title code="0x61000007">61 : 効果音(機関室)</title>
-		<!--	<title code="0x6d000008">6D : 音色設定</title> -->
-			<title code="0x6e000008">6E : やすらぎの宇宙</title>
-		<!--	<title code="0x1d000002">1D : </title> -->
-		<!--	<title code="0x24000002">24 : </title> -->
-		<!--	<title code="0x25000002">25 : </title> -->
-		<!--	<title code="0x28000002">28 : </title> -->
-		<!--	<title code="0x29000002">29 : </title> -->
-		<!--	<title code="0x31000003">31 : </title> -->
-		<!--	<title code="0x37000003">37 : </title> -->
-		<!--	<title code="0x38000003">38 : </title> -->
-		<!--	<title code="0x3e000004">3E : </title> -->
-		<!--	<title code="0x3f000004">3F : </title> -->
-		<!--	<title code="0x48000005">48 : </title> -->
-		<!--	<title code="0x49000005">49 : </title> -->
-		<!--	<title code="0x4b000005">4B : </title> -->
-		<!--	<title code="0x4c000005">4C : </title> -->
-		<!--	<title code="0x4d000005">4D : </title> -->
-		<!--	<title code="0x4e000005">4E : </title> -->
-		<!--	<title code="0x4f000005">4F : </title> -->
-		<!--	<title code="0x62000007">62 : </title> -->
+			<title code="0x0a000000">チャイム</title>
+		<!--	<title code="0x15000001">音色設定</title> -->
+			<title code="0x16000001">虚空への前奏</title>
+			<title code="0x00000000">バルカスがモンスターにおそわれる</title>
+			<title code="0x02000000">ゲームオーバー</title>
+		<!--	<title code="0x0b000001">音色設定</title> -->
+			<title code="0x0c000001">蒼い無限(プロローグ)</title>
+			<title code="0x07000000">速雄が歩くときの音</title>
+			<title code="0x01000000">きらめく瞳</title>
+		<!--	<title code="0x0d000001">音色設定</title> -->
+			<title code="0x0e000001">やすらぎの宇宙</title>
+		<!--	<title code="0x05000000">音色設定</title> -->
+			<title code="0x06000000">菫色の愛</title>
+			<title code="0x17000001">電話の音</title>
+		<!--	<title code="0x03000000">音色設定</title> -->
+			<title code="0x04000000">勇者の休息</title>
+			<title code="0x1c000002">きらめく瞳</title>
+		<!--	<title code="0x1a000001">音色設定</title> -->
+			<title code="0x1b000001">甘い抱擁</title>
+		<!--	<title code="0x18000001">音色設定</title> -->
+			<title code="0x19000001">夢の中の二人</title>
+		<!--	<title code="0x13000001">音色設定</title> -->
+			<title code="0x14000001">崩れ行く都市</title>
+		<!--	<title code="0x0f000001">音色設定</title> -->
+			<title code="0x10000001">空の果てへ</title>
+		<!--	<title code="0x11000001">音色設定</title> -->
+			<title code="0x12000001">迫り来る危機</title>
+			<title code="0x26000002">効果音(ハッチ開閉音)</title>
+			<title code="0x1e000002">効果音(船内音)</title>
+			<title code="0x2c000002">効果音(船内音)</title>
+			<title code="0x1f000002">効果音(ドアオープン)</title>
+			<title code="0x20000002">効果音(機関室)</title>
+			<title code="0x21000002">効果音(動力室)</title>
+			<title code="0x22000002">効果音(研究室)</title>
+			<title code="0x23000002">効果音(ショック)</title>
+			<title code="0x2b000002">甦る侵入者(1)(バルカス)</title>
+			<title code="0x2a000002">甦る侵入者(2)(ベリーニ)</title>
+			<title code="0x30000003">甦る侵入者(3)(食料庫)</title>
+			<title code="0x27000002">効果音(モンスター咆哮1)</title>
+			<title code="0x35000003">効果音(銃発射1)</title>
+		<!--	<title code="0x32000003">音色定義</title> -->
+			<title code="0x33000003">生命への賛歌</title>
+		<!--	<title code="0x2d000002">音色設定</title> -->
+			<title code="0x2e000002">甦る侵入者(4)(エリーヌ)</title>
+			<title code="0x3d000004">効果音(生体センサー)</title>
+			<title code="0x40000004">効果音(倉庫切り離し)</title>
+		<!--	<title code="0x3b000004">音色設定</title> -->
+		<!--	<title code="0x3c000004">空の果てへ</title> -->
+			<title code="0x42000005">帰還</title>
+			<title code="0x43000005">効果音(警告音)</title>
+			<title code="0x44000005">効果音(船内音1)</title>
+			<title code="0x51000005">ジングル(モンスター発見1)</title>
+			<title code="0x50000005">効果音(銃発射2)</title>
+			<title code="0x58000006">効果音(モンスター咆哮2)</title>
+		<!--	<title code="0x56000006">音色設定</title> -->
+			<title code="0x57000006">甦る侵入者(5)(芳花)</title>
+		<!--	<title code="0x59000006">音色設定</title> -->
+			<title code="0x5a000006">鎮魂歌</title>
+			<title code="0x5c000006">空の果てへ</title>
+			<title code="0x46000005">効果音(通信音)</title>
+			<title code="0x47000005">効果音(通信ノイズ)</title>
+			<title code="0x4a000005">効果音(ショック)</title>
+			<title code="0x41000005">きらめく瞳</title>
+			<title code="0x45000005">効果音(船内音2)</title>
+			<title code="0x53000006">甦る侵入者(6)(機関室下)</title>
+		<!--	<title code="0x39000004">音色設定</title> -->
+			<title code="0x3a000004">やすらぎの宇宙</title>
+			<title code="0x5b000006">死神の影</title>
+			<title code="0x52000005">ジングル(モンスター発見2)</title>
+			<title code="0x5d000006">効果音(ドアクローズ)</title>
+		<!--	<title code="0x5e000006">音色設定</title> -->
+			<title code="0x5f000006">やすらぎの宇宙</title>
+		<!--	<title code="0x63000007">音色設定</title> -->
+			<title code="0x64000007">迫り来る危機</title>
+			<title code="0x65000007">効果音(船内音)</title>
+		<!--	<title code="0x66000007">音色設定</title> -->
+			<title code="0x67000007">挑戦の時</title>
+			<title code="0x6c000007">甦る侵入者(7)</title>
+			<title code="0x70000008">勝利の旋律</title>
+		<!--	<title code="0x71000008">勝利の旋律(後半)</title> -->
+		<!--	<title code="0x68000007">音色設定</title> -->
+			<title code="0x69000007">去り行く者達</title>
+		<!--	<title code="0x6a000007">音色設定</title> -->
+			<title code="0x6b000007">生命への賛歌</title>
+			<title code="0x6f000008">蒼い無限(エピローグ)</title>
+			<title code="0x2f000002">効果音</title>
+			<title code="0x34000003">効果音</title>
+			<title code="0x36000003">効果音</title>
+		<!--	<title code="0x08000000">音色設定</title> -->
+			<title code="0x09000000">挑戦の時</title>
+			<title code="0x54000006">甦る侵入者</title>
+			<title code="0x55000006">甦る侵入者</title>
+			<title code="0x60000006">効果音(船内音3)</title>
+			<title code="0x61000007">効果音(機関室)</title>
+		<!--	<title code="0x6d000008">音色設定</title> -->
+			<title code="0x6e000008">やすらぎの宇宙</title>
+		<!--	<title code="0x1d000002">BGM #1D</title> -->
+		<!--	<title code="0x24000002">BGM #24</title> -->
+		<!--	<title code="0x25000002">BGM #25</title> -->
+		<!--	<title code="0x28000002">BGM #28</title> -->
+		<!--	<title code="0x29000002">BGM #29</title> -->
+		<!--	<title code="0x31000003">BGM #31</title> -->
+		<!--	<title code="0x37000003">BGM #37</title> -->
+		<!--	<title code="0x38000003">BGM #38</title> -->
+		<!--	<title code="0x3e000004">BGM #3E</title> -->
+		<!--	<title code="0x3f000004">BGM #3F</title> -->
+		<!--	<title code="0x48000005">BGM #48</title> -->
+		<!--	<title code="0x49000005">BGM #49</title> -->
+		<!--	<title code="0x4b000005">BGM #4B</title> -->
+		<!--	<title code="0x4c000005">BGM #4C</title> -->
+		<!--	<title code="0x4d000005">BGM #4D</title> -->
+		<!--	<title code="0x4e000005">BGM #4E</title> -->
+		<!--	<title code="0x4f000005">BGM #4F</title> -->
+		<!--	<title code="0x62000007">BGM #62</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] JESUS(PSG)</name>
+		<name>[X1] Jesus (ジーザス) (PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">ENIX</driveralias>
+		<driveralias type="X1">Enix</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2226,126 +2240,126 @@
 			<rom type="data" offset="0x4000">PSGMUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">0A : チャイム</title>
-		<!--	<title code="0x15">15 : 音色設定</title> -->
-			<title code="0x16">16 : 虚空への前奏</title>
-			<title code="0x00">00 : バルカスがモンスターにおそわれる</title>
-			<title code="0x02">02 : ゲームオーバー</title>
-		<!--	<title code="0x0b">0B : 音色設定</title> -->
-			<title code="0x0c">0C : 蒼い無限(プロローグ)</title>
-		<!--	<title code="0x07">07 : 速雄が歩くときの音</title> -->
-			<title code="0x01">01 : きらめく瞳</title>
-		<!--	<title code="0x0d">0D : 音色設定</title> -->
-			<title code="0x0e">0E : やすらぎの宇宙</title>
-		<!--	<title code="0x05">05 : 音色設定</title> -->
-			<title code="0x06">06 : 菫色の愛</title>
-			<title code="0x17">17 : 電話の音</title>
-		<!--	<title code="0x03">03 : 音色設定</title> -->
-			<title code="0x04">04 : 勇者の休息</title>
-			<title code="0x1c">1C : きらめく瞳</title>
-		<!--	<title code="0x1a">1A : 音色設定</title> -->
-			<title code="0x1b">1B : 甘い抱擁</title>
-		<!--	<title code="0x18">18 : 音色設定</title> -->
-			<title code="0x19">19 : 夢の中の二人</title>
-		<!--	<title code="0x13">13 : 音色設定</title> -->
-			<title code="0x14">14 : 崩れ行く都市</title>
-		<!--	<title code="0x0f">0F : 音色設定</title> -->
-			<title code="0x10">10 : 空の果てへ</title>
-		<!--	<title code="0x11">11 : 音色設定</title> -->
-			<title code="0x12">12 : 迫り来る危機</title>
-			<title code="0x26">26 : 効果音(ハッチ開閉音)</title>
-			<title code="0x1e">1E : 効果音(船内音)</title>
-		<!--	<title code="0x2c">2C : 効果音(船内音)</title> -->
-			<title code="0x1f">1F : 効果音(ドアオープン)</title>
-		<!--	<title code="0x20">20 : 効果音(機関室)</title> -->
-			<title code="0x21">21 : 効果音(動力室)</title>
-			<title code="0x22">22 : 効果音(研究室)</title>
-			<title code="0x23">23 : 効果音(ショック)</title>
-			<title code="0x2b">2B : 甦る侵入者(1)(バルカス)</title>
-			<title code="0x2a">2A : 甦る侵入者(2)(ベリーニ)</title>
-			<title code="0x30">30 : 甦る侵入者(3)(食料庫)</title>
-		<!--	<title code="0x27">27 : 効果音(モンスター咆哮1)</title> -->
-		<!--	<title code="0x35">35 : 効果音(銃発射1)</title> -->
-		<!--	<title code="0x32">32 : 音色定義</title> -->
-			<title code="0x33">33 : 生命への賛歌</title>
-		<!--	<title code="0x2d">2D : 音色設定</title> -->
-			<title code="0x2e">2E : 甦る侵入者(4)(エリーヌ)</title>
-			<title code="0x3d">3D : 効果音(生体センサー)</title>
-			<title code="0x40">40 : 効果音(倉庫切り離し)</title>
-		<!--	<title code="0x3b">3B : 音色設定</title> -->
-		<!--	<title code="0x3c">3C : 空の果てへ</title> -->
-			<title code="0x42">42 : 帰還</title>
-			<title code="0x43">43 : 効果音(警告音)</title>
-			<title code="0x44">44 : 効果音(船内音1)</title>
-			<title code="0x51">51 : 効果音(モンスター発見)</title>
-			<title code="0x50">50 : 効果音(銃発射2)</title>
-		<!--	<title code="0x58">58 : 効果音(モンスター咆哮2)</title> -->
-		<!--	<title code="0x56">56 : 音色設定</title> -->
-			<title code="0x57">57 : 甦る侵入者(5)(芳花)</title>
-		<!--	<title code="0x59">59 : 音色設定</title> -->
-			<title code="0x5a">5A : 鎮魂歌</title>
-			<title code="0x5c">5C : 空の果てへ</title>
-			<title code="0x46">46 : 効果音(通信音)</title>
-			<title code="0x47">47 : 効果音(通信ノイズ)</title>
-			<title code="0x4a">4A : 効果音(ショック)</title>
-			<title code="0x41">41 : きらめく瞳</title>
-			<title code="0x45">45 : 効果音(船内音2)</title>
-			<title code="0x53">53 : 甦る侵入者(6)(機関室下)</title>
-		<!--	<title code="0x39">39 : 音色設定</title> -->
-			<title code="0x3a">3A : やすらぎの宇宙</title>
-			<title code="0x5b">5B : 死神の影</title>
-			<title code="0x52">52 : ジングル(モンスター発見)</title>
-			<title code="0x5d">5D : 効果音(ドアクローズ)</title>
-		<!--	<title code="0x5e">5E : 音色設定</title> -->
-			<title code="0x5f">5F : やすらぎの宇宙</title>
-		<!--	<title code="0x63">63 : 音色設定</title> -->
-			<title code="0x64">64 : 迫り来る危機</title>
-		<!--	<title code="0x65">65 : 効果音(船内音)</title> -->
-		<!--	<title code="0x66">66 : 音色設定</title> -->
-			<title code="0x67">67 : 挑戦の時</title>
-			<title code="0x6c">6C : 甦る侵入者(7)</title>
-			<title code="0x70">70 : 勝利の旋律</title>
-		<!--	<title code="0x71">71 : 勝利の旋律(後半)</title> -->
-		<!--	<title code="0x68">68 : 音色設定</title> -->
-			<title code="0x69">69 : 去り行く者達</title>
-		<!--	<title code="0x6a">6A : 音色設定</title> -->
-			<title code="0x6b">6B : 生命への賛歌</title>
-			<title code="0x6f">6F : 蒼い無限(エピローグ)</title>
-		<!--	<title code="0x2f">2F : 効果音</title> -->
-		<!--	<title code="0x34">34 : 効果音</title> -->
-			<title code="0x36">36 : 効果音</title>
-		<!--	<title code="0x08">08 : 音色設定</title> -->
-		<!--	<title code="0x09">09 : 挑戦の時</title> -->
-			<title code="0x54">54 : 甦る侵入者</title>
-			<title code="0x55">55 : 甦る侵入者</title>
-		<!--	<title code="0x60">60 : 効果音(船内音3)</title> -->
-			<title code="0x61">61 : 蒼い無限</title>
-			<title code="0x6d">6D : やすらぎの宇宙</title>
-			<title code="0x6e">6E : やすらぎの宇宙</title>
-		<!--	<title code="0x1d">1D : </title> -->
-		<!--	<title code="0x24">24 : </title> -->
-		<!--	<title code="0x25">25 : </title> -->
-		<!--	<title code="0x28">28 : </title> -->
-		<!--	<title code="0x29">29 : </title> -->
-		<!--	<title code="0x31">31 : </title> -->
-		<!--	<title code="0x37">37 : </title> -->
-		<!--	<title code="0x38">38 : </title> -->
-		<!--	<title code="0x3e">3E : </title> -->
-		<!--	<title code="0x3f">3F : </title> -->
-		<!--	<title code="0x48">48 : </title> -->
-		<!--	<title code="0x49">49 : </title> -->
-		<!--	<title code="0x4b">4B : </title> -->
-		<!--	<title code="0x4c">4C : </title> -->
-		<!--	<title code="0x4d">4D : </title> -->
-		<!--	<title code="0x4e">4E : </title> -->
-		<!--	<title code="0x4f">4F : </title> -->
-		<!--	<title code="0x62">62 : </title> -->
+			<title code="0x0a">チャイム</title>
+		<!--	<title code="0x15">音色設定</title> -->
+			<title code="0x16">虚空への前奏</title>
+			<title code="0x00">バルカスがモンスターにおそわれる</title>
+			<title code="0x02">ゲームオーバー</title>
+		<!--	<title code="0x0b">音色設定</title> -->
+			<title code="0x0c">蒼い無限(プロローグ)</title>
+		<!--	<title code="0x07">速雄が歩くときの音</title> -->
+			<title code="0x01">きらめく瞳</title>
+		<!--	<title code="0x0d">音色設定</title> -->
+			<title code="0x0e">やすらぎの宇宙</title>
+		<!--	<title code="0x05">音色設定</title> -->
+			<title code="0x06">菫色の愛</title>
+			<title code="0x17">電話の音</title>
+		<!--	<title code="0x03">音色設定</title> -->
+			<title code="0x04">勇者の休息</title>
+			<title code="0x1c">きらめく瞳</title>
+		<!--	<title code="0x1a">音色設定</title> -->
+			<title code="0x1b">甘い抱擁</title>
+		<!--	<title code="0x18">音色設定</title> -->
+			<title code="0x19">夢の中の二人</title>
+		<!--	<title code="0x13">音色設定</title> -->
+			<title code="0x14">崩れ行く都市</title>
+		<!--	<title code="0x0f">音色設定</title> -->
+			<title code="0x10">空の果てへ</title>
+		<!--	<title code="0x11">音色設定</title> -->
+			<title code="0x12">迫り来る危機</title>
+			<title code="0x26">効果音(ハッチ開閉音)</title>
+			<title code="0x1e">効果音(船内音)</title>
+		<!--	<title code="0x2c">効果音(船内音)</title> -->
+			<title code="0x1f">効果音(ドアオープン)</title>
+		<!--	<title code="0x20">効果音(機関室)</title> -->
+			<title code="0x21">効果音(動力室)</title>
+			<title code="0x22">効果音(研究室)</title>
+			<title code="0x23">効果音(ショック)</title>
+			<title code="0x2b">甦る侵入者(1)(バルカス)</title>
+			<title code="0x2a">甦る侵入者(2)(ベリーニ)</title>
+			<title code="0x30">甦る侵入者(3)(食料庫)</title>
+		<!--	<title code="0x27">効果音(モンスター咆哮1)</title> -->
+		<!--	<title code="0x35">効果音(銃発射1)</title> -->
+		<!--	<title code="0x32">音色定義</title> -->
+			<title code="0x33">生命への賛歌</title>
+		<!--	<title code="0x2d">音色設定</title> -->
+			<title code="0x2e">甦る侵入者(4)(エリーヌ)</title>
+			<title code="0x3d">効果音(生体センサー)</title>
+			<title code="0x40">効果音(倉庫切り離し)</title>
+		<!--	<title code="0x3b">音色設定</title> -->
+		<!--	<title code="0x3c">空の果てへ</title> -->
+			<title code="0x42">帰還</title>
+			<title code="0x43">効果音(警告音)</title>
+			<title code="0x44">効果音(船内音1)</title>
+			<title code="0x51">効果音(モンスター発見)</title>
+			<title code="0x50">効果音(銃発射2)</title>
+		<!--	<title code="0x58">効果音(モンスター咆哮2)</title> -->
+		<!--	<title code="0x56">音色設定</title> -->
+			<title code="0x57">甦る侵入者(5)(芳花)</title>
+		<!--	<title code="0x59">音色設定</title> -->
+			<title code="0x5a">鎮魂歌</title>
+			<title code="0x5c">空の果てへ</title>
+			<title code="0x46">効果音(通信音)</title>
+			<title code="0x47">効果音(通信ノイズ)</title>
+			<title code="0x4a">効果音(ショック)</title>
+			<title code="0x41">きらめく瞳</title>
+			<title code="0x45">効果音(船内音2)</title>
+			<title code="0x53">甦る侵入者(6)(機関室下)</title>
+		<!--	<title code="0x39">音色設定</title> -->
+			<title code="0x3a">やすらぎの宇宙</title>
+			<title code="0x5b">死神の影</title>
+			<title code="0x52">ジングル(モンスター発見)</title>
+			<title code="0x5d">効果音(ドアクローズ)</title>
+		<!--	<title code="0x5e">音色設定</title> -->
+			<title code="0x5f">やすらぎの宇宙</title>
+		<!--	<title code="0x63">音色設定</title> -->
+			<title code="0x64">迫り来る危機</title>
+		<!--	<title code="0x65">効果音(船内音)</title> -->
+		<!--	<title code="0x66">音色設定</title> -->
+			<title code="0x67">挑戦の時</title>
+			<title code="0x6c">甦る侵入者(7)</title>
+			<title code="0x70">勝利の旋律</title>
+		<!--	<title code="0x71">勝利の旋律(後半)</title> -->
+		<!--	<title code="0x68">音色設定</title> -->
+			<title code="0x69">去り行く者達</title>
+		<!--	<title code="0x6a">音色設定</title> -->
+			<title code="0x6b">生命への賛歌</title>
+			<title code="0x6f">蒼い無限(エピローグ)</title>
+		<!--	<title code="0x2f">効果音</title> -->
+		<!--	<title code="0x34">効果音</title> -->
+			<title code="0x36">効果音</title>
+		<!--	<title code="0x08">音色設定</title> -->
+		<!--	<title code="0x09">挑戦の時</title> -->
+			<title code="0x54">甦る侵入者</title>
+			<title code="0x55">甦る侵入者</title>
+		<!--	<title code="0x60">効果音(船内音3)</title> -->
+			<title code="0x61">蒼い無限</title>
+			<title code="0x6d">やすらぎの宇宙</title>
+			<title code="0x6e">やすらぎの宇宙</title>
+		<!--	<title code="0x1d">BGM #1D</title> -->
+		<!--	<title code="0x24">BGM #24</title> -->
+		<!--	<title code="0x25">BGM #25</title> -->
+		<!--	<title code="0x28">BGM #28</title> -->
+		<!--	<title code="0x29">BGM #29</title> -->
+		<!--	<title code="0x31">BGM #31</title> -->
+		<!--	<title code="0x37">BGM #37</title> -->
+		<!--	<title code="0x38">BGM #38</title> -->
+		<!--	<title code="0x3e">BGM #3E</title> -->
+		<!--	<title code="0x3f">BGM #3F</title> -->
+		<!--	<title code="0x48">BGM #48</title> -->
+		<!--	<title code="0x49">BGM #49</title> -->
+		<!--	<title code="0x4b">BGM #4B</title> -->
+		<!--	<title code="0x4c">BGM #4C</title> -->
+		<!--	<title code="0x4d">BGM #4D</title> -->
+		<!--	<title code="0x4e">BGM #4E</title> -->
+		<!--	<title code="0x4f">BGM #4F</title> -->
+		<!--	<title code="0x62">BGM #62</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] MISTY BLUE(OPNA)</name>
+		<name>[PC-8801] Misty Blue (ミスティーブルー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9500"/>
 		</options>
@@ -2406,41 +2420,41 @@
 			<rom type="bgm" offset="0x1c">FILE516F</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">FILE012C : In the morning</title>
-			<title code="0x17">FILE112C : Broken beats</title>
-			<title code="0x18">FILE112D : Opening</title>
-			<title code="0x19">FILE112E : Opening (OPN version)</title>
-			<title code="0x0b">FILE0138 : Lovers</title>
-			<title code="0x04">FILE0131 : 疑惑</title>
-			<title code="0x07">FILE0134 : 届かぬ想い</title>
-			<title code="0x06">FILE0133 : Illusion</title>
-			<title code="0x0c">FILE0139 : I wanna close to you</title>
-			<title code="0x0d">FILE013A : Misty Blue</title>
-			<title code="0x03">FILE0130 : Hold me tonight</title>
-			<title code="0x0f">FILE013C : Dancing heart</title>
-			<title code="0x0e">FILE013B : Catch the step</title>
-			<title code="0x1a">FILE516D : Theme of enix quest</title>
-			<title code="0x1b">FILE516E : Escape (enix quest)</title>
-			<title code="0x1c">FILE516F : Battle (enix quest)</title>
-			<title code="0x05">FILE0132 : ミッキーの家の曲</title>
-			<title code="0x10">FILE013D : ミッキーの家の曲(ループ)</title>
-			<title code="0x0a">FILE0137 : 警察の曲</title>
-			<title code="0x11">FILE013E : 警察の曲(ループ)</title>
-			<title code="0x08">FILE0135 : BRIDGE 1</title>
-			<title code="0x09">FILE0136 : BRIDGE 2</title>
-			<title code="0x01">FILE012E : 無音</title>
-			<title code="0x02">FILE012F : トーン</title>
-			<title code="0x12">FILE0140 : 電話のベル</title>
-			<title code="0x13">FILE0142 : 電車</title>
-			<title code="0x14">FILE0143 : TVのノイズ</title>
-			<title code="0x15">FILE0144 : 呼び鈴</title>
-			<title code="0x16">FILE0146 : FAX</title>
+			<title code="0x00">In the morning</title>
+			<title code="0x17">Broken beats</title>
+			<title code="0x18">Opening</title>
+			<title code="0x19">Opening (OPN version)</title>
+			<title code="0x0b">Lovers</title>
+			<title code="0x04">Suspicion (疑惑)</title>
+			<title code="0x07">Elusive Thought (届かぬ想い)</title>
+			<title code="0x06">Illusion</title>
+			<title code="0x0c">I wanna close to you</title>
+			<title code="0x0d">Misty Blue</title>
+			<title code="0x03">Hold me tonight</title>
+			<title code="0x0f">Dancing heart</title>
+			<title code="0x0e">Catch the step</title>
+			<title code="0x1a">Theme of enix quest</title>
+			<title code="0x1b">Escape (enix quest)</title>
+			<title code="0x1c">Battle (enix quest)</title>
+			<title code="0x05">ミッキーの家の曲</title>
+			<title code="0x10">ミッキーの家の曲(ループ)</title>
+			<title code="0x0a">警察の曲</title>
+			<title code="0x11">警察の曲(ループ)</title>
+			<title code="0x08">BRIDGE 1</title>
+			<title code="0x09">BRIDGE 2</title>
+			<title code="0x01">無音</title>
+			<title code="0x02">トーン</title>
+			<title code="0x12">電話のベル</title>
+			<title code="0x13">電車</title>
+			<title code="0x14">TVのノイズ</title>
+			<title code="0x15">呼び鈴</title>
+			<title code="0x16">FAX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] MISTY BLUE(OPN)</name>
+		<name>[PC-8801] Misty Blue (ミスティーブルー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ENIX</driveralias>
+		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9500"/>
 		</options>
@@ -2480,41 +2494,41 @@
 			<rom type="bgm" offset="0x1c">FILE516F</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">FILE012C : In the morning</title>
-			<title code="0x17">FILE112C : Broken beats</title>
-		<!--	<title code="0x18">FILE112D : Opening</title> -->
-			<title code="0x19">FILE112E : Opening (OPN version)</title>
-			<title code="0x0b">FILE0138 : Lovers</title>
-			<title code="0x04">FILE0131 : 疑惑</title>
-			<title code="0x07">FILE0134 : 届かぬ想い</title>
-			<title code="0x06">FILE0133 : Illusion</title>
-			<title code="0x0c">FILE0139 : I wanna close to you</title>
-			<title code="0x0d">FILE013A : Misty Blue</title>
-			<title code="0x03">FILE0130 : Hold me tonight</title>
-			<title code="0x0f">FILE013C : Dancing heart</title>
-			<title code="0x0e">FILE013B : Catch the step</title>
-			<title code="0x1a">FILE516D : Theme of enix quest</title>
-			<title code="0x1b">FILE516E : Escape (enix quest)</title>
-			<title code="0x1c">FILE516F : Battle (enix quest)</title>
-			<title code="0x05">FILE0132 : ミッキーの家の曲</title>
-			<title code="0x10">FILE013D : ミッキーの家の曲(ループ)</title>
-			<title code="0x0a">FILE0137 : 警察の曲</title>
-			<title code="0x11">FILE013E : 警察の曲(ループ)</title>
-			<title code="0x08">FILE0135 : BRIDGE 1</title>
-			<title code="0x09">FILE0136 : BRIDGE 2</title>
-			<title code="0x01">FILE012E : 無音</title>
-			<title code="0x02">FILE012F : トーン</title>
-			<title code="0x12">FILE0140 : 電話のベル</title>
-			<title code="0x13">FILE0142 : 電車</title>
-			<title code="0x14">FILE0143 : TVのノイズ</title>
-			<title code="0x15">FILE0144 : 呼び鈴</title>
-			<title code="0x16">FILE0146 : FAX</title>
+			<title code="0x00">In the morning</title>
+			<title code="0x17">Broken beats</title>
+		<!--	<title code="0x18">Opening</title> -->
+			<title code="0x19">Opening (OPN version)</title>
+			<title code="0x0b">Lovers</title>
+			<title code="0x04">疑惑</title>
+			<title code="0x07">届かぬ想い</title>
+			<title code="0x06">Illusion</title>
+			<title code="0x0c">I wanna close to you</title>
+			<title code="0x0d">Misty Blue</title>
+			<title code="0x03">Hold me tonight</title>
+			<title code="0x0f">Dancing heart</title>
+			<title code="0x0e">Catch the step</title>
+			<title code="0x1a">Theme of enix quest</title>
+			<title code="0x1b">Escape (enix quest)</title>
+			<title code="0x1c">Battle (enix quest)</title>
+			<title code="0x05">ミッキーの家の曲</title>
+			<title code="0x10">ミッキーの家の曲(ループ)</title>
+			<title code="0x0a">警察の曲</title>
+			<title code="0x11">警察の曲(ループ)</title>
+			<title code="0x08">BRIDGE 1</title>
+			<title code="0x09">BRIDGE 2</title>
+			<title code="0x01">無音</title>
+			<title code="0x02">トーン</title>
+			<title code="0x12">電話のベル</title>
+			<title code="0x13">電車</title>
+			<title code="0x14">TVのノイズ</title>
+			<title code="0x15">呼び鈴</title>
+			<title code="0x16">FAX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] MISTY BLUE</name>
+		<name>[PC-9801] Misty Blue (ミスティーブルー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2554,45 +2568,45 @@
 			<rom type="shell" offset="0">musicap</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">BG010L     : </title>
-			<title code="0x06">BG018L     : </title>
-			<title code="0x07">BGM001     : </title>
-			<title code="0x08">BGM004     : Broken beats</title>
-			<title code="0x09">BGM010     : </title>
-			<title code="0x0a">BGM012     : Illusion</title>
-			<title code="0x0b">BGM013     : In the morning</title>
-			<title code="0x0c">BGM014     : 届かぬ思い</title>
-			<title code="0x0d">BGM015     : </title>
-			<title code="0x0e">BGM016     : </title>
-			<title code="0x0f">BGM018     : </title>
-			<title code="0x10">BGM019     : Lovers</title>
-			<title code="0x11">DISCO1     : Misty Blue</title>
-			<title code="0x12">DISCO3     : Catch the step</title>
-			<title code="0x13">DISCO4.MSC : Hold me tonight</title>
-			<title code="0x14">DISCO6     : Dancing heart</title>
-			<title code="0x15">ENIQ3.MSC  : Escape (enix quest)</title>
-			<title code="0x16">ENIQ4.MSC  : Battle (enix quest)</title>
-			<title code="0x17">ENIQ5.MSC  : Theme of enix quest</title>
-			<title code="0x18">HROCK1     : Opening (未使用)</title>
-			<title code="0x19">HROCK3     : Opening</title>
-			<title code="0x1a">KYUFU.MSC  : 演奏停止</title>
-			<title code="0x1b">OTO.MSC    : </title>
-			<title code="0x1c">ROCK2      : I wanna close to you</title>
-			<title code="0x1d">TELBEL     : 効果音</title>
-			<title code="0x1e">ｶﾞｯﾀﾝ      : 効果音</title>
-			<title code="0x1f">ｻﾞｻﾞｰ      : 効果音</title>
-			<title code="0x20">ﾋﾟｰｯ!      : 効果音</title>
-			<title code="0x21">ﾋﾟﾝﾎﾟﾝ     : 効果音</title>
+			<title code="0x1a">Stop the Music</title>
+			<title code="0x05">BG010L</title>
+			<title code="0x06">BG018L</title>
+			<title code="0x07">BGM001</title>
+			<title code="0x08">Broken beats</title>
+			<title code="0x09">BGM010</title>
+			<title code="0x0a">Illusion</title>
+			<title code="0x0b">In the morning</title>
+			<title code="0x0c">届かぬ思い</title>
+			<title code="0x0d">BGM015</title>
+			<title code="0x0e">BGM016</title>
+			<title code="0x0f">BGM018</title>
+			<title code="0x10">Lovers</title>
+			<title code="0x11">Misty Blue</title>
+			<title code="0x12">Catch the step</title>
+			<title code="0x13">Hold me tonight</title>
+			<title code="0x14">Dancing heart</title>
+			<title code="0x15">Escape (enix quest)</title>
+			<title code="0x16">Battle (enix quest)</title>
+			<title code="0x17">Theme of enix quest</title>
+			<title code="0x18">Opening (未使用)</title>
+			<title code="0x19">Opening</title>
+			<title code="0x1b">OTO.MSC</title>
+			<title code="0x1c">I wanna close to you</title>
+			<title code="0x1d">効果音</title>
+			<title code="0x1e">効果音</title>
+			<title code="0x1f">効果音</title>
+			<title code="0x20">効果音</title>
+			<title code="0x21">効果音</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 手天童子</name>
+		<name>[PC-9801] Shutendouji (手天童子) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-        <romlist archive="shutend_98">
+		<romlist archive="shutend_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
 			<rom type="file" offset="-1">MUSIC.COM</rom>
 			<rom type="file" offset="0x10">M1.M</rom>
@@ -2632,135 +2646,135 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JESUS II</name>
+		<name>[X68000] Jesus II (ジーザス2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ENIX</driveralias>
+		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="jesus268snd">
 			<rom type="code" offset="0x00000">jesus2.bin</rom>
 			<rom type="x"    offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x66">65 : 軍隊のテーマ</title>
-			<title code="0x67">66 : フィナーレ</title>
-			<title code="0x68">67 : モンスター</title>
-			<title code="0x69">68 : コメット</title>
-			<title code="0x6a">69 : オーバーチュア</title>
-			<title code="0x6b">6A : エレジー</title>
-			<title code="0x6c">6B : ファイト</title>
-			<title code="0x6d">6C : 洋上音楽</title>
-			<title code="0x6e">6D : テーマING</title>
-			<title code="0x6f">6E : テーマ</title>
-			<title code="0x70">6F : ラジカセ</title>
-			<title code="0x71">70 : レクイエム</title>
-			<title code="0x72">71 : 別れ</title>
-			<title code="0x73">72 : サスペンス</title>
-			<title code="0x74">73 : ラジカセ2</title>
-			<title code="0x75">74 : モンスター2</title>
-			<title code="0x02">01 : 貨物船近づく</title>
-			<title code="0x03">02 : レーダー+通信</title>
-			<title code="0x04">03 : 波の音+ウミネコ</title>
-			<title code="0x05">04 : 小さく波の音</title>
-			<title code="0x06">05 : キーボードクリック音</title>
-			<title code="0x07">06 : ダーツ命中音</title>
-			<title code="0x08">07 : 客船ぐらいの船の機関室</title>
-			<title code="0x09">08 : コンテナ落下</title>
-			<title code="0x0A">09 : ウインチ巻き上げ</title>
-			<title code="0x0B">0A : 電話呼出音</title>
-			<title code="0x0C">0B : 電話切る</title>
-			<title code="0x0D">0C : 電話話中音</title>
-			<title code="0x0E">0D : 遠くで機関室爆発</title>
-			<title code="0x0F">0E : 死体が変化</title>
-			<title code="0x10">0F : 化け物の音</title>
-			<title code="0x11">10 : 銃声</title>
-			<title code="0x12">11 : 銃を構える</title>
-			<title code="0x13">12 : コンテナが開く</title>
-			<title code="0x14">13 : 一斉掃射</title>
-			<title code="0x15">14 : 湯気がたつ</title>
-			<title code="0x16">15 : ヘリコプター音</title>
-			<title code="0x17">16 : ヘリ+バルカン砲</title>
-			<title code="0x18">17 : ヘリ撃墜音</title>
-			<title code="0x19">18 : エンジン音(小)</title>
-			<title code="0x1A">19 : シャッター音</title>
-			<title code="0x1B">1A : トランシーバーコール音</title>
-			<title code="0x1C">1B : 宇宙船エンジン音</title>
-			<title code="0x1D">1C : 着艦用ビーコン</title>
-			<title code="0x1E">1D : アリの足音</title>
-			<title code="0x1F">1E : ドッキングベイノイズ</title>
-			<title code="0x20">1F : フォジー移動音</title>
-			<title code="0x21">20 : ドアの開く音</title>
-			<title code="0x22">21 : エレベーター</title>
-			<title code="0x23">22 : 研究室ノイズ</title>
-			<title code="0x24">23 : 点滅する照明</title>
-			<title code="0x25">24 : ターゲットロックオン</title>
-			<title code="0x26">25 : 砂の嵐</title>
-			<title code="0x27">26 : 遠くの爆発音</title>
-			<title code="0x28">27 : 非常サイレン</title>
-			<title code="0x29">28 : 巨大エンジン音</title>
-			<title code="0x2a">29 : エレベーター落下</title>
-			<title code="0x2b">2A : 鋼鉄のドアをたたく</title>
-			<title code="0x2c">2B : 飛び散るガラス</title>
-			<title code="0x2d">2C : バズーカ発射</title>
-			<title code="0x2e">2D : 命中!</title>
-			<title code="0x2f">2E : はしごにかかる靴音</title>
-			<title code="0x30">2F : 心臓の鼓動</title>
-			<title code="0x31">30 : 波動砲エネルギー充填</title>
-			<title code="0x32">31 : 触手が伸びる</title>
-			<title code="0x33">32 : 冷気ガス</title>
-			<title code="0x34">33 : フォジー移動音B</title>
-			<title code="0x35">34 : 非常サイレン小</title>
-			<title code="0x4E">4E : レーダー音</title>
-			<title code="0x4F">4F : 水が落ちる音</title>
-			<title code="0x50">50 : 未使用</title>
-			<title code="0x51">51 : ジャーン1</title>
-			<title code="0x52">52 : ジャーン2</title>
-			<title code="0x53">53 : ジャーン3</title>
-			<title code="0x54">54 : エレベーター破壊</title>
-			<title code="0x55">55 : 機関銃の銃声2</title>
-			<title code="0x56">56 : モールス音</title>
-			<title code="0x57">57 : バイク セルモーター</title>
-			<title code="0x58">58 : バイク アイドリング</title>
-			<title code="0x59">59 : バイク ふかし</title>
-			<title code="0x5a">5A : バイク 走り出し</title>
-			<title code="0x5b">5B : バイク 走行音</title>
-			<title code="0x5c">5C : 波動砲</title>
-			<title code="0x5d">5D : レーダー音B</title>
+			<title code="0x66">軍隊のテーマ</title>
+			<title code="0x67">フィナーレ</title>
+			<title code="0x68">モンスター</title>
+			<title code="0x69">コメット</title>
+			<title code="0x6a">オーバーチュア</title>
+			<title code="0x6b">エレジー</title>
+			<title code="0x6c">ファイト</title>
+			<title code="0x6d">洋上音楽</title>
+			<title code="0x6e">テーマING</title>
+			<title code="0x6f">テーマ</title>
+			<title code="0x70">ラジカセ</title>
+			<title code="0x71">レクイエム</title>
+			<title code="0x72">別れ</title>
+			<title code="0x73">サスペンス</title>
+			<title code="0x74">ラジカセ2</title>
+			<title code="0x75">モンスター2</title>
+			<title code="0x02">貨物船近づく</title>
+			<title code="0x03">レーダー+通信</title>
+			<title code="0x04">波の音+ウミネコ</title>
+			<title code="0x05">小さく波の音</title>
+			<title code="0x06">キーボードクリック音</title>
+			<title code="0x07">ダーツ命中音</title>
+			<title code="0x08">客船ぐらいの船の機関室</title>
+			<title code="0x09">コンテナ落下</title>
+			<title code="0x0A">ウインチ巻き上げ</title>
+			<title code="0x0B">電話呼出音</title>
+			<title code="0x0C">電話切る</title>
+			<title code="0x0D">電話話中音</title>
+			<title code="0x0E">遠くで機関室爆発</title>
+			<title code="0x0F">死体が変化</title>
+			<title code="0x10">化け物の音</title>
+			<title code="0x11">銃声</title>
+			<title code="0x12">銃を構える</title>
+			<title code="0x13">コンテナが開く</title>
+			<title code="0x14">一斉掃射</title>
+			<title code="0x15">湯気がたつ</title>
+			<title code="0x16">ヘリコプター音</title>
+			<title code="0x17">ヘリ+バルカン砲</title>
+			<title code="0x18">ヘリ撃墜音</title>
+			<title code="0x19">エンジン音(小)</title>
+			<title code="0x1A">シャッター音</title>
+			<title code="0x1B">トランシーバーコール音</title>
+			<title code="0x1C">宇宙船エンジン音</title>
+			<title code="0x1D">着艦用ビーコン</title>
+			<title code="0x1E">アリの足音</title>
+			<title code="0x1F">ドッキングベイノイズ</title>
+			<title code="0x20">フォジー移動音</title>
+			<title code="0x21">ドアの開く音</title>
+			<title code="0x22">エレベーター</title>
+			<title code="0x23">研究室ノイズ</title>
+			<title code="0x24">点滅する照明</title>
+			<title code="0x25">ターゲットロックオン</title>
+			<title code="0x26">砂の嵐</title>
+			<title code="0x27">遠くの爆発音</title>
+			<title code="0x28">非常サイレン</title>
+			<title code="0x29">巨大エンジン音</title>
+			<title code="0x2a">エレベーター落下</title>
+			<title code="0x2b">鋼鉄のドアをたたく</title>
+			<title code="0x2c">飛び散るガラス</title>
+			<title code="0x2d">バズーカ発射</title>
+			<title code="0x2e">命中!</title>
+			<title code="0x2f">はしごにかかる靴音</title>
+			<title code="0x30">心臓の鼓動</title>
+			<title code="0x31">波動砲エネルギー充填</title>
+			<title code="0x32">触手が伸びる</title>
+			<title code="0x33">冷気ガス</title>
+			<title code="0x34">フォジー移動音B</title>
+			<title code="0x35">非常サイレン小</title>
+			<title code="0x4E">レーダー音</title>
+			<title code="0x4F">水が落ちる音</title>
+			<title code="0x50">未使用</title>
+			<title code="0x51">ジャーン1</title>
+			<title code="0x52">ジャーン2</title>
+			<title code="0x53">ジャーン3</title>
+			<title code="0x54">エレベーター破壊</title>
+			<title code="0x55">機関銃の銃声2</title>
+			<title code="0x56">モールス音</title>
+			<title code="0x57">バイク セルモーター</title>
+			<title code="0x58">バイク アイドリング</title>
+			<title code="0x59">バイク ふかし</title>
+			<title code="0x5a">バイク 走り出し</title>
+			<title code="0x5b">バイク 走行音</title>
+			<title code="0x5c">波動砲</title>
+			<title code="0x5d">レーダー音B</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] WORLD GOLF III</name>
+		<name>[X68000] World Golf III (ワールドゴルフ3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ENIX</driveralias>
+		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="wgolf368snd">
 			<rom type="code" offset="0x00000">wg368snd.bin</rom>
 			<rom type="x"    offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : オープニングデモ</title>
-			<title code="0x02">01 : メニュー</title>
-			<title code="0x03">02 : コーヒーブレーク</title>
-			<title code="0x04">03 : ホールアウト</title>
-			<title code="0x05">04 : 表彰式</title>
-			<title code="0x06">05 : </title>
-			<title code="0x07">06 : </title>
-			<title code="0x08">07 : </title>
-			<title code="0x09">08 : SE</title>
-			<title code="0x0A">09 : SE</title>
-			<title code="0x0B">10 : SE</title>
-			<title code="0x0C">11 : SE</title>
-			<title code="0x0D">12 : SE</title>
-			<title code="0x0E">13 : SE</title>
-			<title code="0x0F">14 : SE</title>
-			<title code="0x10">15 : SE</title>
-			<title code="0x11">16 : SE</title>
-			<title code="0x12">17 : SE</title>
-			<title code="0x13">18 : SE</title>
-			<title code="0x14">19 : SE</title>
+			<title code="0x01">オープニングデモ</title>
+			<title code="0x02">メニュー</title>
+			<title code="0x03">コーヒーブレーク</title>
+			<title code="0x04">ホールアウト</title>
+			<title code="0x05">表彰式</title>
+			<title code="0x06">BGM #05</title>
+			<title code="0x07">BGM #06</title>
+			<title code="0x08">BGM #07</title>
+			<title code="0x09">SFX #08</title>
+			<title code="0x0A">SFX #09</title>
+			<title code="0x0B">SFX #10</title>
+			<title code="0x0C">SFX #11</title>
+			<title code="0x0D">SFX #12</title>
+			<title code="0x0E">SFX #13</title>
+			<title code="0x0F">SFX #14</title>
+			<title code="0x10">SFX #15</title>
+			<title code="0x11">SFX #16</title>
+			<title code="0x12">SFX #17</title>
+			<title code="0x13">SFX #18</title>
+			<title code="0x14">SFX #19</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ANGELUS ～悪魔の福音～</name>
+		<name>[PC-9801] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -2792,25 +2806,25 @@
 			<title code="0x11">崩壊の彼方</title>
 			<title code="0x12">エピローグ</title>
 			<title code="0x13">ペルー公園にて</title>
-			<title code="0x14">SE #01</title>
-			<title code="0x15">SE #02</title>
-			<title code="0x16">SE #03</title>
-			<title code="0x17">SE #04</title>
-			<title code="0x18">SE #05</title>
-			<title code="0x19">SE #06</title>
-			<title code="0x1a">SE #07</title>
-			<title code="0x1b">SE #08</title>
-			<title code="0x1c">SE #09</title>
-			<title code="0x1d">SE #10</title>
-			<title code="0x1e">SE #11</title>
-			<title code="0x1f">SE #12</title>
-			<title code="0x20">SE #13</title>
+			<title code="0x14">SFX #01</title>
+			<title code="0x15">SFX #02</title>
+			<title code="0x16">SFX #03</title>
+			<title code="0x17">SFX #04</title>
+			<title code="0x18">SFX #05</title>
+			<title code="0x19">SFX #06</title>
+			<title code="0x1a">SFX #07</title>
+			<title code="0x1b">SFX #08</title>
+			<title code="0x1c">SFX #09</title>
+			<title code="0x1d">SFX #10</title>
+			<title code="0x1e">SFX #11</title>
+			<title code="0x1f">SFX #12</title>
+			<title code="0x20">SFX #13</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WORLD GOLF II</name>
+		<name>[PC-9801] World Golf II (ワールドゴルフ2) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x9000"/>
@@ -2823,25 +2837,25 @@
 			<rom type="code" offset="0x19000">wg2.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : HOLE IN ONE</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">Awards Ceremony (表彰式)</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Hole In One</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WORLD GOLF III</name>
+		<name>[PC-9801] World Golf III (ワールドゴルフ3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"  value="0"/>
@@ -2853,20 +2867,20 @@
 			<rom type="shell" offset="0">wg3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : オープニングデモ</title>
-			<title code="0x01">01 : メニュー</title>
-			<title code="0x02">02 : コーヒーブレイク</title>
-			<title code="0x03">03 : ホールアウト</title>
-			<title code="0x04">04 : 表彰式</title>
-		<!--	<title code="0x05">05 カップイン効果音</title>
-			<title code="0x06">06 バーディー効果音</title>
-			<title code="0x07">07 イーグル効果音</title> -->
+			<title code="0x00">Opening Demo (オープニングデモ)</title>
+			<title code="0x01">Menu (メニュー)</title>
+			<title code="0x02">Coffee Break (コーヒーブレイク)</title>
+			<title code="0x03">Hole Out (ホールアウト)</title>
+			<title code="0x04">Awards Ceremony (表彰式)</title>
+		<!--	<title code="0x05">Chip-in SFX (カップイン効果音)</title>
+			<title code="0x06">Birdie SFX (バーディー効果音)</title>
+			<title code="0x07">Eagle SFX (イーグル効果音)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] The Old Village Story</name>
+		<name>[PC-9801] The Old Village Story (オールド・ヴィレッジ・ストーリー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ENIX</driveralias>
+		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2898,33 +2912,33 @@
 			<rom type="shell" offset="0">oldv_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1e">THEME1.M : オープニング</title>
-			<title code="0x22">WALTZ.M  : 村</title>
-			<title code="0x10">CASL-1.M : </title>
-			<title code="0x11">EARTH2.M : フィールド2</title>
-			<title code="0x12">EMERG.M  : </title>
-			<title code="0x13">END-3.M  : エンディング</title>
-			<title code="0x14">KIKI.M   : 対決! シルフ (ボス戦)</title>
-			<title code="0x15">KIKI-2.M : </title>
-			<title code="0x16">KING-1.M : 城</title>
-			<title code="0x17">KIZOKU.M : 貴族の街</title>
-			<title code="0x18">KUJI-2.M : </title>
-			<title code="0x19">KUJIRA.M : クジラ</title>
-			<title code="0x1a">MOMO-1.M : ダンジョン</title>
-			<title code="0x1b">OCEAN.M  : 漂流</title>
-			<title code="0x1c">OH!.M    : </title>
-			<title code="0x1d">SOROW5.M : </title>
-			<title code="0x1f">TOKEI.M  : </title>
-			<title code="0x20">TOWN-1.M : 城下町</title>
-			<title code="0x21">TOWN-2.M : </title>
-			<title code="0x23">WOOD-1.M : フィールド1</title>
-			<title code="0x24">ﾋﾞｯｸﾘ.M  : ジングル</title>
+			<title code="0x1e">オープニング</title>
+			<title code="0x22">村</title>
+			<title code="0x10">CASL-1.M</title>
+			<title code="0x11">フィールド2</title>
+			<title code="0x12">EMERG.M</title>
+			<title code="0x13">エンディング</title>
+			<title code="0x14">対決!シルフ (ボス戦)</title>
+			<title code="0x15">KIKI-2.M</title>
+			<title code="0x16">城</title>
+			<title code="0x17">貴族の街</title>
+			<title code="0x18">KUJI-2.M</title>
+			<title code="0x19">クジラ</title>
+			<title code="0x1a">ダンジョン</title>
+			<title code="0x1b">漂流</title>
+			<title code="0x1c">OH!.M</title>
+			<title code="0x1d">SOROW5.M</title>
+			<title code="0x1f">TOKEI.M</title>
+			<title code="0x20">城下町</title>
+			<title code="0x21">TOWN-2.M</title>
+			<title code="0x23">フィールド1</title>
+			<title code="0x24">ジングル</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CODE-ZERO</name>
+		<name>[X68000] Code-Zero (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ENIX</driveralias>
+		<driveralias type="X68000">Enix</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -2983,35 +2997,35 @@
 			<rom type="code" offset="0xa4000">STBOS3.MUX</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">OPEN.MUX    : OPENING</title>
+			<title code="0x05">Opening</title>
 			<!--
-			<title code="0x07">SIL.MUX     : </title>
-			  -->
-			<title code="0x08">ST1M.MUX    : STAGE 1</title>
-			<title code="0x09">ST2M.MUX    : STAGE 2</title>
-			<title code="0x0a">ST3M.MUX    : STAGE 3</title>
-			<title code="0x0b">ST4M.MUX    : STAGE 4</title>
-			<title code="0x0c">ST5M.MUX    : STAGE 5</title>
-			<title code="0x0d">ST6M.MUX    : STAGE 6</title>
-			<title code="0x0e">ST7M.MUX    : STAGE 7</title>
-			<title code="0x0f">ST8M.MUX    : STAGE 8</title>
+			<title code="0x07">SIL.MUX</title>
+			-->
+			<title code="0x08">Stage 1</title>
+			<title code="0x09">Stage 2</title>
+			<title code="0x0a">Stage 3</title>
+			<title code="0x0b">Stage 4</title>
+			<title code="0x0c">Stage 5</title>
+			<title code="0x0d">Stage 6</title>
+			<title code="0x0e">Stage 7</title>
+			<title code="0x0f">Stage 8</title>
 			<!--
-			<title code="0x10">STBOSS.MUX  : BOSS 1</title>
-			  -->
-			<title code="0x11">STBOSS1.MUX : BOSS 1</title>
-			<title code="0x12">STBOSS2.MUX : BOSS 2</title>
-			<title code="0x13">STBOSS3.MUX : BOSS 3</title>
-			<title code="0x06">RCLEAR.MUX  : ROUND CLEAR</title>
-			<title code="0x01">CONT.MUX    : CONTINUE</title>
-			<title code="0x02">END1.MUX    : ENDING 1</title>
-			<title code="0x03">END2.MUX    : ENDING 2</title>
-			<title code="0x04">END3.MUX    : ENDING 3</title>
+			<title code="0x10">Boss 1</title>
+			-->
+			<title code="0x11">Boss 1</title>
+			<title code="0x12">Boss 2</title>
+			<title code="0x13">Boss 3</title>
+			<title code="0x06">Round Clear</title>
+			<title code="0x01">Continue</title>
+			<title code="0x02">Ending 1</title>
+			<title code="0x03">Ending 2</title>
+			<title code="0x04">Ending 3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ウイングマンSpecial さらば夢戦士(OPLL)</name>
+		<name>[MSX] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x83f9"/>
 			<option name="mdata_size" value="0x1400"/>
@@ -3040,9 +3054,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ウイングマンSpecial さらば夢戦士(PSG)</name>
+		<name>[MSX] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x83f9"/>
 			<option name="mdata_size" value="0x1400"/>
@@ -3070,9 +3084,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] WORLD GOLF II</name>
+		<name>[MSX] World Golf II (ワールドゴルフ2)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -3097,9 +3111,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ANGELUS ～悪魔の福音～(OPLL)</name>
+		<name>[MSX] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xac00"/>
 			<option name="mdata_size" value="0x700"/>
@@ -3155,9 +3169,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ANGELUS ～悪魔の福音～(PSG)</name>
+		<name>[MSX] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xac00"/>
 			<option name="mdata_size" value="0x700"/>
@@ -3212,9 +3226,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] JESUS</name>
+		<name>[MSX] Jesus (ジーザス) </name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ENIX</driveralias>
+		<driveralias type="MSX">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -3338,9 +3352,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] WORLD GOLF II</name>
+		<name>[FM77AV] World Golf II (ワールドゴルフ2)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">ENIX</driveralias>
+		<driveralias type="FM77AV">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 		</options>
@@ -3349,25 +3363,25 @@
 			<rom type="code" offset="0x5656">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : ALBATROSS</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">Awards Ceremony (表彰式)</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Albatross</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] ANGELUS ～悪魔の福音～</name>
+		<name>[FM77AV] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">ENIX</driveralias>
+		<driveralias type="FM77AV">Enix</driveralias>
 		<options>
 			<option name="init_pc"    value="0x4000"/>
 			<option name="mdata_addr" value="0x8000"/>
@@ -3416,42 +3430,70 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xdc0018">OPEN   : プロローグ</title>
-			<title code="0xdc001b">THEME2 : 青い石のきらめき</title>
-			<title code="0xdc0012">IZA    : 愛のシンパシー ～アンジェラスのテーマ～</title>
-			<title code="0xdc0006">BRI    : ブライアンとエリス</title>
-			<title code="0xdc000f">HENBO  : 変貌～セヴァの警告～</title>
-			<title code="0xdc0016">KAISO  : ブルー・オブジェ～郷愁～</title>
-			<title code="0xdc0015">JAKYO  : エヴァンジェル・オン・グノーシス</title>
-			<title code="0xdc0019">PENDAN : 悲しみのノクターン</title>
-			<title code="0xdb0005">JUK    : エリス・イン・ジャパン</title>
-			<title code="0xdc001a">PERU   : ペルーのテーマ～ジグソー・タウン～</title>
-			<title code="0xdc0013">IZAS2  : 愛のシンパシー～ヴァージョンⅡ～</title>
-			<title code="0xdc0017">LONDON : ハード・デイズ</title>
-			<title code="0xdc000e">GERMSL : エリス・イン・ジャーマニー</title>
-			<title code="0xdc0010">HENBO2 : 変貌～ヴァージョンⅡ～</title>
-			<title code="0xdc0008">BSTON5 : 予言者</title>
-			<title code="0xdc0014">IZASFT : 愛のシンパシー～ヴァージョンⅢ～</title>
-			<title code="0xdc0009">DEAD   : 彷徨いのプシュケ</title>
-			<title code="0xdc000c">DUMA   : 崩壊の彼方</title>
-			<title code="0xdb0002">ENDI   : エピローグ</title>
-			<title code="0xdc000d">GERM   : ペルー公園にて</title>
-			<title code="0xdb0003">IZASNG : 愛のシンパシー～Ver1SNG～</title>
-			<title code="0xdb0004">IZASSS : 愛のシンパシー～Ver2SSS～</title>
-			<title code="0xdc000a">DEAD2  : 彷徨いのプシュケ(別バージョン)</title>
-			<title code="0xda8001">GAAN2  : SE #01</title>
-			<title code="0xde001c">DODODO : SE #02</title>
-			<title code="0xdf001d">BUKIMI : SE #03</title>
-			<title code="0xdf001e">CAT    : SE #04</title>
-			<title code="0xdf001f">DODO2  : SE #05</title>
-			<title code="0xdf0020">GACHA  : SE #06</title>
-			<title code="0xdf0021">GUSA   : SE #07</title>
-			<title code="0xdf0022">INJET  : SE #08</title>
-			<title code="0xdf0023">RING   : SE #09</title>
-			<title code="0xdf0024">TEL    : SE #10</title>
-			<title code="0xdf8025">GAAN   : SE #11</title>
-			<title code="0xdf8026">KNOCK1 : SE #12</title>
-			<title code="0xdf8027">PASHA  : SE #13</title>
+			<title code="0xdc0018">プロローグ</title>
+			<title code="0xdc001b">青い石のきらめき</title>
+			<title code="0xdc0012">愛のシンパシー ～アンジェラスのテーマ～</title>
+			<title code="0xdc0006">ブライアンとエリス</title>
+			<title code="0xdc000f">変貌～セヴァの警告～</title>
+			<title code="0xdc0016">ブルー・オブジェ～郷愁～</title>
+			<title code="0xdc0015">エヴァンジェル・オン・グノーシス</title>
+			<title code="0xdc0019">悲しみのノクターン</title>
+			<title code="0xdb0005">エリス・イン・ジャパン</title>
+			<title code="0xdc001a">ペルーのテーマ～ジグソー・タウン～</title>
+			<title code="0xdc0013">愛のシンパシー～ヴァージョンⅡ～</title>
+			<title code="0xdc0017">ハード・デイズ</title>
+			<title code="0xdc000e">エリス・イン・ジャーマニー</title>
+			<title code="0xdc0010">変貌～ヴァージョンⅡ～</title>
+			<title code="0xdc0008">予言者</title>
+			<title code="0xdc0014">愛のシンパシー～ヴァージョンⅢ～</title>
+			<title code="0xdc0009">彷徨いのプシュケ</title>
+			<title code="0xdc000c">崩壊の彼方</title>
+			<title code="0xdb0002">エピローグ</title>
+			<title code="0xdc000d">ペルー公園にて</title>
+			<title code="0xdb0003">愛のシンパシー～Ver1SNG～</title>
+			<title code="0xdb0004">愛のシンパシー～Ver2SSS～</title>
+			<title code="0xdc000a">彷徨いのプシュケ(別バージョン)</title>
+			<title code="0xda8001">SFX #01</title>
+			<title code="0xde001c">SFX #02</title>
+			<title code="0xdf001d">SFX #03</title>
+			<title code="0xdf001e">SFX #04</title>
+			<title code="0xdf001f">SFX #05</title>
+			<title code="0xdf0020">SFX #06</title>
+			<title code="0xdf0021">SFX #07</title>
+			<title code="0xdf0022">SFX #08</title>
+			<title code="0xdf0023">SFX #09</title>
+			<title code="0xdf0024">SFX #10</title>
+			<title code="0xdf8025">SFX #11</title>
+			<title code="0xdf8026">SFX #12</title>
+			<title code="0xdf8027">SFX #13</title>
+		</titlelist>
+	</game>
+		<name>[MSX] Animal Land Murder Case (アニマルランド殺人事件) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Enix</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="animal_msx">
+			<rom type="code">Animal Land Murder Case (1987)(Enix).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
 		</titlelist>
 	</game>
 </gamelist>

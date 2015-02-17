@@ -36,15 +36,15 @@
 <gamelist date="2005/09/25">
 	<!-- APPLE PIE -->
 	<game>
-		<name>[PC-9801] DENGEKI DIVISION</name>
+		<name>[PC-9801] Dengeki Division (デンゲキディヴィジョン ～DENGEKI DIVISION～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="dengekid_98">
+		<romlist archive="dengeki_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">DMM_SE.EFC</rom>
@@ -63,24 +63,24 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DMM_00.M   : Mates Cunningly</title>
-			<title code="0x11">DMM_01.M   : Groan of Energy</title>
-			<title code="0x12">DMM_02.M   : Forest</title>
-			<title code="0x13">DMM_03.M   : Phenomenal Mirage</title>
-			<title code="0x14">DMM_04.M   : Hoax of Wyrm</title>
-			<title code="0x15">DMM_05.M   : Dark Silencer</title>
-			<title code="0x16">DMM_06.M   : Inperial Force</title>
-			<title code="0x17">DMM_07.M   : Secret Passage</title>
-			<title code="0x18">DMM_08.M   : Stupid Request</title>
-			<title code="0x19">DMM_09.M   : Destinate of Diary</title>
-			<title code="0x1a">DMM_10.M   : De Vision</title>
-			<range min="0x0801" max="0x0804" extcode="0">DMM_SE.EFC : %02X</range>
+			<title code="0x10">Mates Cunningly [Title Logo]</title>
+			<title code="0x11">Groan of Energy [Opening, Last Stage]</title>
+			<title code="0x12">Forest [Stage 1, 3]</title>
+			<title code="0x13">Phenomenal Mirage [Stage 2]</title>
+			<title code="0x14">Hoax of Wyrm [Stage 4]</title>
+			<title code="0x15">Dark Silencer [Stage 5]</title>
+			<title code="0x16">Imperial Force [Stage 6]</title>
+			<title code="0x17">Secret Passage [Event for Beginning Stages]</title>
+			<title code="0x18">Stupid Request [Character Making, Winning Visuals]</title>
+			<title code="0x19">Destinate of Diary [Ending]</title>
+			<title code="0x1a">De Vision [Staff Roll]</title>
+			<range min="0x0801" max="0x0804" extcode="0">DMM_SE.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Present Duo</name>
+		<name>[PC-9801] Present Duo (プレゼントデュオ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -158,9 +158,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] えれめんたる王</name>
+		<name>[PC-9801] Elemental Ou (えれめんたる王) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -202,41 +202,41 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ELE_00.M : </title>
-			<title code="0x11">ELE_01.M : </title>
-			<title code="0x12">ELE_02.M : </title>
-			<title code="0x13">ELE_03.M : </title>
-			<title code="0x14">ELE_04.M : </title>
-			<title code="0x15">ELE_05.M : </title>
-			<title code="0x16">ELE_06.M : </title>
-			<title code="0x17">ELE_07.M : </title>
-			<title code="0x18">ELE_08.M : </title>
-			<title code="0x19">ELE_09.M : </title>
-			<title code="0x1a">ELE_10.M : </title>
-			<title code="0x1b">ELE_11.M : </title>
-			<title code="0x1c">ELE_12.M : </title>
-			<title code="0x1d">ELE_13.M : </title>
-			<title code="0x1e">ELE_14.M : </title>
-			<title code="0x1f">ELE_15.M : </title>
-			<title code="0x20">ELE_16.M : </title>
-			<title code="0x21">ELE_17.M : </title>
-			<title code="0x22">ELE_18.M : </title>
-			<title code="0x23">ELE_19.M : </title>
-			<title code="0x24">ELE_20.M : </title>
-			<title code="0x25">ELE_21.M : </title>
-			<title code="0x26">ELE_22.M : </title>
-			<title code="0x27">ELE_23.M : </title>
-			<title code="0x28">ELE_24.M : </title>
-			<title code="0x29">ELE_25.M : </title>
-			<title code="0x2a">ELE_26.M : </title>
-			<title code="0x2b">ELE_30.M : </title>
-			<range min="0x0801" max="0x081c" extcode="0">SE.EFC   : %02X</range>
+			<title code="0x10">ELE_00.M</title>
+			<title code="0x11">ELE_01.M</title>
+			<title code="0x12">ELE_02.M</title>
+			<title code="0x13">ELE_03.M</title>
+			<title code="0x14">ELE_04.M</title>
+			<title code="0x15">ELE_05.M</title>
+			<title code="0x16">ELE_06.M</title>
+			<title code="0x17">ELE_07.M</title>
+			<title code="0x18">ELE_08.M</title>
+			<title code="0x19">ELE_09.M</title>
+			<title code="0x1a">ELE_10.M</title>
+			<title code="0x1b">ELE_11.M</title>
+			<title code="0x1c">ELE_12.M</title>
+			<title code="0x1d">ELE_13.M</title>
+			<title code="0x1e">ELE_14.M</title>
+			<title code="0x1f">ELE_15.M</title>
+			<title code="0x20">ELE_16.M</title>
+			<title code="0x21">ELE_17.M</title>
+			<title code="0x22">ELE_18.M</title>
+			<title code="0x23">ELE_19.M</title>
+			<title code="0x24">ELE_20.M</title>
+			<title code="0x25">ELE_21.M</title>
+			<title code="0x26">ELE_22.M</title>
+			<title code="0x27">ELE_23.M</title>
+			<title code="0x28">ELE_24.M</title>
+			<title code="0x29">ELE_25.M</title>
+			<title code="0x2a">ELE_26.M</title>
+			<title code="0x2b">ELE_30.M</title>
+			<range min="0x0801" max="0x081c" extcode="0">SE.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ろしあん マージャン ハラショー!(OPN)</name>
+		<name>[PC-9801] Russian Mahjong Horosho (ろしあん マージャン ハラショー!) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -252,17 +252,17 @@
 			<rom type="shell" offset="0">UD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010011">H_00.MDT : オープニングBGM</title>
-			<title code="0x010012">H_01.MDT : タイトルBGM</title>
-			<title code="0x010013">H_02.MDT : 麻雀中BGM</title>
-			<title code="0x010014">H_03.MDT : H画面BGM</title>
-			<title code="0x010015">H_04.MDT : エンディングBGM</title>
+			<title code="0x010011">オープニングBGM</title>
+			<title code="0x010012">タイトルBGM</title>
+			<title code="0x010013">麻雀中BGM</title>
+			<title code="0x010014">H画面BGM</title>
+			<title code="0x010015">エンディングBGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ろしあん マージャン ハラショー!(GS)</name>
+		<name>[PC-9801] Russian Mahjong Horosho (ろしあん マージャン ハラショー!) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -280,17 +280,45 @@
 			<rom type="shell" offset="0">UD_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">H_00.MDT : オープニングBGM</title>
-			<title code="0x12">H_01.MDT : タイトルBGM</title>
-			<title code="0x13">H_02.MDT : 麻雀中BGM</title>
-			<title code="0x14">H_03.MDT : H画面BGM</title>
-			<title code="0x15">H_04.MDT : エンディングBGM</title>
+			<title code="0x11">オープニングBGM</title>
+			<title code="0x12">タイトルBGM</title>
+			<title code="0x13">麻雀中BGM</title>
+			<title code="0x14">H画面BGM</title>
+			<title code="0x15">エンディングBGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] シャレード</name>
+		<name>[PC-9801] Russian Mahjong Horosho (ろしあん マージャン ハラショー!) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="khorosho_98">
+			<rom type="file" offset="-1">UD.COM</rom>
+			<rom type="file" offset="-1">UD_98.COM</rom>
+			<rom type="file" offset="0x11">H_00.MDT</rom>
+			<rom type="file" offset="0x12">H_01.MDT</rom>
+			<rom type="file" offset="0x13">H_02.MDT</rom>
+			<rom type="file" offset="0x14">H_03.MDT</rom>
+			<rom type="file" offset="0x15">H_04.MDT</rom>
+			<rom type="shell" offset="0">UD 4m10000e1000</rom>
+			<rom type="shell" offset="0">UD_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">オープニングBGM</title>
+			<title code="0x12">タイトルBGM</title>
+			<title code="0x13">麻雀中BGM</title>
+			<title code="0x14">H画面BGM</title>
+			<title code="0x15">エンディングBGM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Charade (シャレード) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -310,12 +338,12 @@
 			<rom type="file" offset="0x17">ｼｬﾚ_08.M</rom>
 			<rom type="file" offset="0x18">ｼｬﾚ_09.M</rom>
 			<rom type="file" offset="0x19">ｼｬﾚ_10.M</rom>
-			<rom type="file" offset="0x1A">ｼｬﾚ_11.M</rom>
-			<rom type="file" offset="0x1B">ｼｬﾚ_12.M</rom>
-			<rom type="file" offset="0x1C">ｼｬﾚ_13.M</rom>
-			<rom type="file" offset="0x1D">ｼｬﾚ_14.M</rom>
-			<rom type="file" offset="0x1E">ｼｬﾚ_15.M</rom>
-			<rom type="file" offset="0x1F">ｼｬﾚ_16.M</rom>
+			<rom type="file" offset="0x1a">ｼｬﾚ_11.M</rom>
+			<rom type="file" offset="0x1b">ｼｬﾚ_12.M</rom>
+			<rom type="file" offset="0x1c">ｼｬﾚ_13.M</rom>
+			<rom type="file" offset="0x1d">ｼｬﾚ_14.M</rom>
+			<rom type="file" offset="0x1e">ｼｬﾚ_15.M</rom>
+			<rom type="file" offset="0x1f">ｼｬﾚ_16.M</rom>
 			<rom type="file" offset="0x20">ｼｬﾚ_17.M</rom>
 			<rom type="file" offset="0x21">ｼｬﾚ_18.M</rom>
 			<rom type="file" offset="0x22">ｼｬﾚ_19.M</rom>
@@ -330,39 +358,39 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ｼｬﾚ_01.M   : </title>
-			<title code="0x11">ｼｬﾚ_02.M   : </title>
-			<title code="0x12">ｼｬﾚ_03.M   : </title>
-			<title code="0x13">ｼｬﾚ_04.M   : </title>
-			<title code="0x14">ｼｬﾚ_05.M   : </title>
-			<title code="0x15">ｼｬﾚ_06.M   : </title>
-			<title code="0x16">ｼｬﾚ_07.M   : </title>
-			<title code="0x17">ｼｬﾚ_08.M   : </title>
-			<title code="0x18">ｼｬﾚ_09.M   : </title>
-			<title code="0x19">ｼｬﾚ_10.M   : </title>
-			<title code="0x1A">ｼｬﾚ_11.M   : </title>
-			<title code="0x1B">ｼｬﾚ_12.M   : </title>
-			<title code="0x1C">ｼｬﾚ_13.M   : </title>
-			<title code="0x1D">ｼｬﾚ_14.M   : </title>
-			<title code="0x1E">ｼｬﾚ_15.M   : </title>
-			<title code="0x1F">ｼｬﾚ_16.M   : </title>
-			<title code="0x20">ｼｬﾚ_17.M   : </title>
-			<title code="0x21">ｼｬﾚ_18.M   : </title>
-			<title code="0x22">ｼｬﾚ_19.M   : </title>
-			<title code="0x23">ｼｬﾚ_20.M   : </title>
-			<title code="0x24">ｼｬﾚ_30.M   : </title>
-			<title code="0x25">ｼｬﾚ_31.M   : </title>
-			<title code="0x26">ｼｬﾚ_32.M   : </title>
-			<title code="0x27">ｼｬﾚ_33.M   : </title>
-			<title code="0x28">ｼｬﾚ_34.M   : </title>
-			<title code="0x29">ｼｬﾚ_35.M   : </title>
-			<range min="0x0801" max="0x080a" extcode="0">CHA_SE.EFC : %02X</range>
+			<title code="0x10">ｼｬﾚ_01.M</title>
+			<title code="0x11">ｼｬﾚ_02.M</title>
+			<title code="0x12">ｼｬﾚ_03.M</title>
+			<title code="0x13">ｼｬﾚ_04.M</title>
+			<title code="0x14">ｼｬﾚ_05.M</title>
+			<title code="0x15">ｼｬﾚ_06.M</title>
+			<title code="0x16">ｼｬﾚ_07.M</title>
+			<title code="0x17">ｼｬﾚ_08.M</title>
+			<title code="0x18">ｼｬﾚ_09.M</title>
+			<title code="0x19">ｼｬﾚ_10.M</title>
+			<title code="0x1a">ｼｬﾚ_11.M</title>
+			<title code="0x1b">ｼｬﾚ_12.M</title>
+			<title code="0x1c">ｼｬﾚ_13.M</title>
+			<title code="0x1d">ｼｬﾚ_14.M</title>
+			<title code="0x1e">ｼｬﾚ_15.M</title>
+			<title code="0x1f">ｼｬﾚ_16.M</title>
+			<title code="0x20">ｼｬﾚ_17.M</title>
+			<title code="0x21">ｼｬﾚ_18.M</title>
+			<title code="0x22">ｼｬﾚ_19.M</title>
+			<title code="0x23">ｼｬﾚ_20.M</title>
+			<title code="0x24">ｼｬﾚ_30.M</title>
+			<title code="0x25">ｼｬﾚ_31.M</title>
+			<title code="0x26">ｼｬﾚ_32.M</title>
+			<title code="0x27">ｼｬﾚ_33.M</title>
+			<title code="0x28">ｼｬﾚ_34.M</title>
+			<title code="0x29">ｼｬﾚ_35.M</title>
+			<range min="0x0801" max="0x080a" extcode="0">CHA_SE.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] メタモル･ミーナ</name>
+		<name>[PC-9801] Metamoru Meena (メタモル･ミーナ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -424,9 +452,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] メタルムーバー ジャストライク</name>
+		<name>[PC-9801] Metal Mover Jastrike (メタルムーバー ジャストライク) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -465,15 +493,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 聖少女戦隊レイカーズ</name>
+		<name>[PC-9801] Seishoujo Sentai Lakers (聖少女戦隊レイカーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="rey1_98">
+		<romlist archive="laker1_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">REI_SE.EFC</rom>
@@ -501,39 +529,39 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">REY_01.M   : </title>
-			<title code="0x11">REY_02.M   : </title>
-			<title code="0x12">REY_03.M   : </title>
-			<title code="0x13">REY_04.M   : </title>
-			<title code="0x14">REY_05.M   : </title>
-			<title code="0x15">REY_06.M   : </title>
-			<title code="0x16">REY_07.M   : </title>
-			<title code="0x17">REY_08.M   : </title>
-			<title code="0x18">REY_09.M   : </title>
-			<title code="0x19">REY_10.M   : </title>
-			<title code="0x1a">REY_11.M   : </title>
-			<title code="0x1b">REY_12.M   : </title>
-			<title code="0x1c">REY_13.M   : </title>
-			<title code="0x1d">REY_14.M   : </title>
-			<title code="0x1e">REY_15.M   : </title>
-			<title code="0x1f">REY_16.M   : </title>
-			<title code="0x20">REY_17.M   : </title>
-			<title code="0x21">REY_18.M   : </title>
-			<title code="0x22">REY_19.M   : </title>
-			<title code="0x23">REY_20.M   : </title>
-			<range min="0x0801" max="0x081e" extcode="0">REI_SE.EFC : %02X</range>
+			<title code="0x10">REY_01.M</title>
+			<title code="0x11">REY_02.M</title>
+			<title code="0x12">REY_03.M</title>
+			<title code="0x13">REY_04.M</title>
+			<title code="0x14">REY_05.M</title>
+			<title code="0x15">REY_06.M</title>
+			<title code="0x16">REY_07.M</title>
+			<title code="0x17">REY_08.M</title>
+			<title code="0x18">REY_09.M</title>
+			<title code="0x19">REY_10.M</title>
+			<title code="0x1a">REY_11.M</title>
+			<title code="0x1b">REY_12.M</title>
+			<title code="0x1c">REY_13.M</title>
+			<title code="0x1d">REY_14.M</title>
+			<title code="0x1e">REY_15.M</title>
+			<title code="0x1f">REY_16.M</title>
+			<title code="0x20">REY_17.M</title>
+			<title code="0x21">REY_18.M</title>
+			<title code="0x22">REY_19.M</title>
+			<title code="0x23">REY_20.M</title>
+			<range min="0x0801" max="0x081e" extcode="0">REI_SE.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 聖少女戦隊レイカーズ2</name>
+		<name>[PC-9801] Seishoujo Sentai Lakers 2 (聖少女戦隊レイカーズ2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="rey2_98">
+		<romlist archive="laker2_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">REI2_SE.EFC</rom>
@@ -574,52 +602,52 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">REY_00.M    : </title>
-			<title code="0x11">REY_01.M    : </title>
-			<title code="0x12">REY_02.M    : </title>
-			<title code="0x13">REY_03.M    : </title>
-			<title code="0x14">REY_04.M    : </title>
-			<title code="0x15">REY_05.M    : </title>
-			<title code="0x16">REY_06.M    : </title>
-			<title code="0x17">REY_07.M    : </title>
-			<title code="0x18">REY_08.M    : </title>
-			<title code="0x19">REY_09.M    : </title>
-			<title code="0x1a">REY_10.M    : </title>
-			<title code="0x1b">REY_11.M    : </title>
-			<title code="0x1c">REY_12.M    : </title>
-			<title code="0x1d">REY_13.M    : </title>
-			<title code="0x1e">REY_14.M    : </title>
-			<title code="0x1f">REY_15.M    : </title>
-			<title code="0x20">REY_16.M    : </title>
-			<title code="0x21">REY_17.M    : </title>
-			<title code="0x22">REY_18.M    : </title>
-			<title code="0x23">REY_19.M    : </title>
-			<title code="0x24">REY_20.M    : </title>
-			<title code="0x25">REY_21.M    : </title>
-			<title code="0x26">REY_22.M    : </title>
-			<title code="0x27">REY_23.M    : </title>
-			<title code="0x28">REY_24.M    : </title>
-			<title code="0x29">REY_25.M    : </title>
-			<title code="0x2a">REY_26.M    : </title>
-			<title code="0x2b">REY_27.M    : </title>
-			<title code="0x2c">REY_28.M    : </title>
-			<title code="0x2d">REY_29.M    : </title>
-			<title code="0x2e">REY_30.M    : </title>
-			<title code="0x2f">REY_31.M    : </title>
-			<title code="0x30">ﾚｲｶ-ｽﾞ31.M  : </title>
-			<range min="0x0801" max="0x0822" extcode="0">REI2_SE.EFC : %02X</range>
+			<title code="0x10">REY_00.M</title>
+			<title code="0x11">REY_01.M</title>
+			<title code="0x12">REY_02.M</title>
+			<title code="0x13">REY_03.M</title>
+			<title code="0x14">REY_04.M</title>
+			<title code="0x15">REY_05.M</title>
+			<title code="0x16">REY_06.M</title>
+			<title code="0x17">REY_07.M</title>
+			<title code="0x18">REY_08.M</title>
+			<title code="0x19">REY_09.M</title>
+			<title code="0x1a">REY_10.M</title>
+			<title code="0x1b">REY_11.M</title>
+			<title code="0x1c">REY_12.M</title>
+			<title code="0x1d">REY_13.M</title>
+			<title code="0x1e">REY_14.M</title>
+			<title code="0x1f">REY_15.M</title>
+			<title code="0x20">REY_16.M</title>
+			<title code="0x21">REY_17.M</title>
+			<title code="0x22">REY_18.M</title>
+			<title code="0x23">REY_19.M</title>
+			<title code="0x24">REY_20.M</title>
+			<title code="0x25">REY_21.M</title>
+			<title code="0x26">REY_22.M</title>
+			<title code="0x27">REY_23.M</title>
+			<title code="0x28">REY_24.M</title>
+			<title code="0x29">REY_25.M</title>
+			<title code="0x2a">REY_26.M</title>
+			<title code="0x2b">REY_27.M</title>
+			<title code="0x2c">REY_28.M</title>
+			<title code="0x2d">REY_29.M</title>
+			<title code="0x2e">REY_30.M</title>
+			<title code="0x2f">REY_31.M</title>
+			<title code="0x30">ﾚｲｶ-ｽﾞ31.M</title>
+			<range min="0x0801" max="0x0822" extcode="0">REI2_SE.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 聖少女戦隊レイカーズ3</name>
+		<name>[PC-9801] Seishoujo Sentai Lakers 3 (聖少女戦隊レイカーズ3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="rey3_98">
+		<romlist archive="laker3_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">LAKE_SE.EFC</rom>
@@ -690,76 +718,76 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LAKE_00.M   : </title>
-			<title code="0x11">LAKE_01.M   : </title>
-			<title code="0x12">LAKE_02.M   : </title>
-			<title code="0x13">LAKE_03.M   : </title>
-			<title code="0x14">LAKE_04.M   : </title>
-			<title code="0x15">LAKE_05.M   : </title>
-			<title code="0x16">LAKE_06.M   : </title>
-			<title code="0x17">LAKE_07.M   : </title>
-			<title code="0x18">LAKE_08.M   : </title>
-			<title code="0x19">LAKE_09.M   : </title>
-			<title code="0x1a">LAKE_10.M   : </title>
-			<title code="0x1b">LAKE_11.M   : </title>
-			<title code="0x1c">LAKE_11X.M  : </title>
-			<title code="0x1d">LAKE_12.M   : </title>
-			<title code="0x1e">LAKE_12X.M  : </title>
-			<title code="0x1f">LAKE_13.M   : </title>
-			<title code="0x20">LAKE_14.M   : </title>
-			<title code="0x21">LAKE_15.M   : </title>
-			<title code="0x22">LAKE_16.M   : </title>
-			<title code="0x23">LAKE_17.M   : </title>
-			<title code="0x24">LAKE_18.M   : </title>
-			<title code="0x25">LAKE_19.M   : </title>
-			<title code="0x26">LAKE_20.M   : </title>
-			<title code="0x27">LAKE_21.M   : </title>
-			<title code="0x28">LAKE_21X.M  : </title>
-			<title code="0x29">LAKE_22.M   : </title>
-			<title code="0x2a">LAKE_B1.M   : </title>
-			<title code="0x2b">LAKE_B2.M   : </title>
-			<title code="0x2c">LAKE_B3.M   : </title>
-			<title code="0x2d">LAKE_B4.M   : </title>
-			<title code="0x2e">LAKE_B5.M   : </title>
-			<title code="0x2f">REY_00.M    : </title>
-			<title code="0x30">REY_01.M    : </title>
-			<title code="0x31">REY_02.M    : </title>
-			<title code="0x32">REY_03.M    : </title>
-			<title code="0x33">REY_04.M    : </title>
-			<title code="0x34">REY_05.M    : </title>
-			<title code="0x35">REY_06.M    : </title>
-			<title code="0x36">REY_07.M    : </title>
-			<title code="0x37">REY_08.M    : </title>
-			<title code="0x38">REY_09.M    : </title>
-			<title code="0x39">REY_10.M    : </title>
-			<title code="0x3a">REY_11.M    : </title>
-			<title code="0x3b">REY_12.M    : </title>
-			<title code="0x3c">REY_13.M    : </title>
-			<title code="0x3d">REY_14.M    : </title>
-			<title code="0x3e">REY_15.M    : </title>
-			<title code="0x3f">REY_16.M    : </title>
-			<title code="0x40">REY_17.M    : </title>
-			<title code="0x41">REY_18.M    : </title>
-			<title code="0x42">REY_19.M    : </title>
-			<title code="0x43">REY_20.M    : </title>
-			<title code="0x44">REY_21.M    : </title>
-			<title code="0x45">REY_22.M    : </title>
-			<title code="0x46">REY_23.M    : </title>
-			<title code="0x47">REY_24.M    : </title>
-			<title code="0x48">REY_25.M    : </title>
-			<title code="0x49">REY_26.M    : </title>
-			<title code="0x4a">REY_27.M    : </title>
-			<title code="0x4b">REY_28.M    : </title>
-			<title code="0x4c">REY_29.M    : </title>
-			<title code="0x4d">REY_30.M    : </title>
-			<title code="0x4e">REY_31.M    : </title>
-			<range min="0x0800" max="0x0821" extcode="1">LAKE_SE.EFC : %2X</range>
+			<title code="0x10">LAKE_00.M</title>
+			<title code="0x11">LAKE_01.M</title>
+			<title code="0x12">LAKE_02.M</title>
+			<title code="0x13">LAKE_03.M</title>
+			<title code="0x14">LAKE_04.M</title>
+			<title code="0x15">LAKE_05.M</title>
+			<title code="0x16">LAKE_06.M</title>
+			<title code="0x17">LAKE_07.M</title>
+			<title code="0x18">LAKE_08.M</title>
+			<title code="0x19">LAKE_09.M</title>
+			<title code="0x1a">LAKE_10.M</title>
+			<title code="0x1b">LAKE_11.M</title>
+			<title code="0x1c">LAKE_11X.M</title>
+			<title code="0x1d">LAKE_12.M</title>
+			<title code="0x1e">LAKE_12X.M</title>
+			<title code="0x1f">LAKE_13.M</title>
+			<title code="0x20">LAKE_14.M</title>
+			<title code="0x21">LAKE_15.M</title>
+			<title code="0x22">LAKE_16.M</title>
+			<title code="0x23">LAKE_17.M</title>
+			<title code="0x24">LAKE_18.M</title>
+			<title code="0x25">LAKE_19.M</title>
+			<title code="0x26">LAKE_20.M</title>
+			<title code="0x27">LAKE_21.M</title>
+			<title code="0x28">LAKE_21X.M</title>
+			<title code="0x29">LAKE_22.M</title>
+			<title code="0x2a">LAKE_B1.M</title>
+			<title code="0x2b">LAKE_B2.M</title>
+			<title code="0x2c">LAKE_B3.M</title>
+			<title code="0x2d">LAKE_B4.M</title>
+			<title code="0x2e">LAKE_B5.M</title>
+			<title code="0x2f">REY_00.M</title>
+			<title code="0x30">REY_01.M</title>
+			<title code="0x31">REY_02.M</title>
+			<title code="0x32">REY_03.M</title>
+			<title code="0x33">REY_04.M</title>
+			<title code="0x34">REY_05.M</title>
+			<title code="0x35">REY_06.M</title>
+			<title code="0x36">REY_07.M</title>
+			<title code="0x37">REY_08.M</title>
+			<title code="0x38">REY_09.M</title>
+			<title code="0x39">REY_10.M</title>
+			<title code="0x3a">REY_11.M</title>
+			<title code="0x3b">REY_12.M</title>
+			<title code="0x3c">REY_13.M</title>
+			<title code="0x3d">REY_14.M</title>
+			<title code="0x3e">REY_15.M</title>
+			<title code="0x3f">REY_16.M</title>
+			<title code="0x40">REY_17.M</title>
+			<title code="0x41">REY_18.M</title>
+			<title code="0x42">REY_19.M</title>
+			<title code="0x43">REY_20.M</title>
+			<title code="0x44">REY_21.M</title>
+			<title code="0x45">REY_22.M</title>
+			<title code="0x46">REY_23.M</title>
+			<title code="0x47">REY_24.M</title>
+			<title code="0x48">REY_25.M</title>
+			<title code="0x49">REY_26.M</title>
+			<title code="0x4a">REY_27.M</title>
+			<title code="0x4b">REY_28.M</title>
+			<title code="0x4c">REY_29.M</title>
+			<title code="0x4d">REY_30.M</title>
+			<title code="0x4e">REY_31.M</title>
+			<range min="0x0800" max="0x0821" extcode="1">LAKE_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 電脳画廊</name>
+		<name>[PC-9801] Dennou Garou (電脳画廊) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -785,13 +813,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 爆裂少女隊Tバックス</name>
+		<name>[PC-9801] Bakuretsu Shoujo Tai T-Backs (爆裂少女隊Tバックス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="t_backs_98">
+		<romlist archive="tbacks_98">
 			<rom type="file" offset="-1">mlalf_98.com</rom>
 			<rom type="file" offset="-1">T_BACKS.EXE</rom>
 			<rom type="conin" offset="5">T_BACKS.EXE</rom>
@@ -831,9 +859,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 超･爆</name>
+		<name>[PC-9801] Chou Baku (超･爆) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -853,27 +881,27 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">CB_BGM1.M : Normal BGM</title>
-			<title code="0x11">CB_BGM2.M : Battle BGM</title>
-			<title code="0x12">CB_BGM3.M : Winning BGM</title>
-			<title code="0x13">CB_BGM4.M : Opening Logo.</title>
-			<title code="0x14">CB_BGM5.M : ｸｲｽﾞ ｼﾞｼﾞｲ</title>
-			<title code="0x15">CB_BGM6.M : Opening</title>
-			<title code="0x16">CB_BGM7.M : Winning BGM</title>
-			<title code="0x17">CB_BGM8.M : Ivent BGM</title>
+			<title code="0x10">Normal BGM</title>
+			<title code="0x11">Battle BGM</title>
+			<title code="0x12">Winning BGM</title>
+			<title code="0x13">Opening Logo</title>
+			<title code="0x14">ｸｲｽﾞ ｼﾞｼﾞｲ</title>
+			<title code="0x15">Opening</title>
+			<title code="0x16">Winning BGM</title>
+			<title code="0x17">Event BGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 麗獣 Twin Road</name>
+		<name>[PC-9801] Reijiyu: Twin Road (麗獣 Twin Road) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">APPLE PIE</driveralias>
+		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 			<option name="ssg_mix" value="-18"/>
 		</options>
-		<romlist archive="twin_r_98">
+		<romlist archive="reijiyu_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x10">BGM001.M</rom>

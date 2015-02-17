@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //CUSTOM -->
 	<game>
-		<name>[PC-8801] CYBER BLOCK METAL ORANGE</name>
+		<name>[PC-8801] Cyber Block Metal Orange (メタルオレンジ) (YM2608)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">CUSTOM</driveralias>
+		<driveralias type="PC-8801">Custom</driveralias>
 		<options>
 			<option name="init_pc" value="0x1000"/>
 			<option name="mdata_addr" value="0xd400"/>
@@ -131,9 +131,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CYBER BLOCK METAL ORANGE</name>
+		<name>[PC-9801] Cyber Block Metal Orange (メタルオレンジ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">CUSTOM</driveralias>
+		<driveralias type="PC-9801">Custom</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="showfm3ex" value="1"/>
@@ -168,35 +168,35 @@
 			<rom type="shell" offset="0">MORG_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">SFQ.MDT     : LOGINCHK         : FURUKAWA</title>
-			<title code="0x1f">SFO2.MDT    : OPENING          : FURUKAWA</title>
-			<title code="0x20">SFP.MDT     : RANKING          : FURUKAWA</title>
-			<title code="0x16">CBIAM09.MDT : START            : REZON</title>
-			<title code="0x21">SFP2.MDT    : STAGE            : FURUKAWA</title>
-			<title code="0x1a">MOV3.MDT    : VISUAL01 TOMO    : MOKOMOKO</title>
-			<title code="0x1c">MOV8.MDT    : VISUAL02 KAZUMI  : MOKOMOKO</title>
-			<title code="0x19">MOV1.MDT    : VISUAL03 MIKA    : MOKOMOKO</title>
-			<title code="0x17">CHINA.MDT   : VISUAL04 RINN    : FURUKAWA</title>
-			<title code="0x1b">MOV4.MDT    : VISUAL05 CYNTHIA : MOKOMOKO</title>
-			<title code="0x11">CBIAM02.MDT : INFO             : REZON</title>
-			<title code="0x1d">ORION.MDT   : STAGE01          : FURUKAWA</title>
-			<title code="0x10">CBIAM01.MDT : STAGE02          : REZON</title>
-			<title code="0x18">COSUMO.MDT  : STAGE03          : FURUKAWA</title>
-			<title code="0x13">CBIAM06.MDT : STAGE04          : REZON</title>
-			<title code="0x1e">SFC.MDT     : STAGE05          : FURUKAWA</title>
-			<title code="0x14">CBIAM07.MDT : CLEAR            : REZON</title>
-			<title code="0x23">SFR.MDT     : CONTINUE         : FURUKAWA</title>
-			<title code="0x12">CBIAM03.MDT : GAMEOVER         : REZON</title>
-			<title code="0x25">SFX.MDT     : TOPENTRY         : FURUKAWA</title>
-			<title code="0x15">CBIAM08.MDT : ENTRY2-8         : REZON</title>
-			<title code="0x24">SFT3.MDT    : ENDING           : FURUKAWA</title>
-			<range min="0x120" max="0x13d" extcode="0">SE          : %02x</range>
+			<title code="0x22">Loginchk         : Furukawa</title>
+			<title code="0x1f">Opening          : Furukawa</title>
+			<title code="0x20">Ranking          : Furukawa</title>
+			<title code="0x16">Start            : Rezon</title>
+			<title code="0x21">Stage            : Furukawa</title>
+			<title code="0x1a">Visual01 Tomo    : Mokomoko</title>
+			<title code="0x1c">Visual02 Kazumi  : Mokomoko</title>
+			<title code="0x19">Visual03 Mika    : Mokomoko</title>
+			<title code="0x17">Visual04 Rinn    : Furukawa</title>
+			<title code="0x1b">Visual05 Cynthia : Mokomoko</title>
+			<title code="0x11">Info             : Rezon</title>
+			<title code="0x1d">Stage01          : Furukawa</title>
+			<title code="0x10">Stage02          : Rezon</title>
+			<title code="0x18">Stage03          : Furukawa</title>
+			<title code="0x13">Stage04          : Rezon</title>
+			<title code="0x1e">Stage05          : Furukawa</title>
+			<title code="0x14">Clear            : Rezon</title>
+			<title code="0x23">Continue         : Furukawa</title>
+			<title code="0x12">Game Over        : Rezon</title>
+			<title code="0x25">Top Entry        : Furukawa</title>
+			<title code="0x15">Entry2-8         : Rezon</title>
+			<title code="0x24">Ending           : Furukawa</title>
+			<range min="0x120" max="0x13d" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] MAGICAL BLOCK CARAT</name>
+		<name>[PC-9801] Carat: Magical Blocks (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">CUSTOM</driveralias>
+		<driveralias type="PC-9801">Custom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -235,66 +235,66 @@
 			<rom type="shell" offset="0">TRPSCR98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x29">CRTYHS01.MDT : オ～プニング</title>
-			<title code="0x1b">CRTJKL18.MDT : タイトル</title>
-			<title code="0x15">CRTJKL07.MDT : インフォメ～ション</title>
-			<title code="0x11">CRTJKL02.MDT : BGM1</title>
-			<title code="0x10">CRTJKL01.MDT : ピンチ1</title>
-			<title code="0x12">CRTJKL04.MDT : BGM2</title>
-			<title code="0x19">CRTJKL16.MDT : BGM3</title>
-			<title code="0x17">CRTJKL12.MDT : ピンチ2</title>
-			<title code="0x16">CRTJKL08.MDT : BGM4</title>
-			<title code="0x13">CRTJKL05.MDT : BGM5</title>
-			<title code="0x21">CRTWIN02.MDT : BGM6</title>
-			<title code="0x22">CRTWIN03.MDT : ピンチ3</title>
-			<title code="0x27">CRTWIN08.MDT : BGM7</title>
-			<title code="0x28">CRTWIN09.MDT : ピンチ4</title>
-			<title code="0x14">CRTJKL06.MDT ; 未使用</title>
-			<title code="0x23">CRTWIN04.MDT : クリア～</title>
-			<title code="0x1c">CRTJKL26.MDT : ステ～ジクリア</title>
-			<title code="0x1d">CRTJKL31.MDT : 試合終了1</title>
-			<title code="0x1e">CRTJKL33.MDT : 試合終了2</title>
-			<title code="0x26">CRTWIN07.MDT : コンティニュ～</title>
-			<title code="0x25">CRTWIN06.MDT : ゲ～ムオ～バ～</title>
-			<title code="0x24">CRTWIN05.MDT : ネ～ムエントリ～</title>
-			<title code="0x2a">CRTYHS02.MDT : リトライ</title>
-			<title code="0x1a">CRTJKL17.MDT : ヴィジュアル</title>
-			<title code="0x18">CRTJKL15.MDT : エンディング(妖艶天使)</title>
-			<title code="0x1f">CRTJKL35.MDT : エンディング(ノ～マル)</title>
-			<title code="0x20">CRTJKL36.MDT : エンディング(ハ～ド)</title>
-			<title code="0x120">SE           : ブロックが崩れる</title>
-			<title code="0x121">SE           : ブロック着地</title>
-			<title code="0x122">SE           : ブロックが回転不能</title>
-			<title code="0x123">SE           : ゲ～ムエンド1</title>
-			<title code="0x124">SE           : ゲ～ムエンド2</title>
-			<title code="0x125">SE           : レベルアップ</title>
-			<title code="0x126">SE           : ブロック回転</title>
-			<title code="0x127">SE           : ブロックが消える</title>
-			<title code="0x128">SE           : スコア＆タイム表示</title>
-			<title code="0x129">SE           : カーソル移動</title>
-			<title code="0x12a">SE           : 決定</title>
-			<title code="0x12b">SE           : </title>
-			<title code="0x12c">SE           : カウント</title>
-			<title code="0x12d">SE           : </title>
-			<title code="0x12e">SE           : スタ～ト</title>
-			<title code="0x12f">SE           : 方向変更</title>
-			<title code="0x130">SE           : ネ～ムエントリ～カ～ソル移動</title>
-			<title code="0x131">SE           : ネ～ムエントリ～文字決定</title>
-			<title code="0x132">SE           : ネ～ムエントリ～バックスペ～ス</title>
-			<title code="0x133">SE           : がお～</title>
-			<title code="0x134">SE           : </title>
+			<title code="0x29">オ～プニング</title>
+			<title code="0x1b">タイトル</title>
+			<title code="0x15">インフォメ～ション</title>
+			<title code="0x11">BGM1</title>
+			<title code="0x10">ピンチ1</title>
+			<title code="0x12">BGM2</title>
+			<title code="0x19">BGM3</title>
+			<title code="0x17">ピンチ2</title>
+			<title code="0x16">BGM4</title>
+			<title code="0x13">BGM5</title>
+			<title code="0x21">BGM6</title>
+			<title code="0x22">ピンチ3</title>
+			<title code="0x27">BGM7</title>
+			<title code="0x28">ピンチ4</title>
+			<title code="0x14">未使用</title>
+			<title code="0x23">クリア～</title>
+			<title code="0x1c">ステ～ジクリア</title>
+			<title code="0x1d">試合終了1</title>
+			<title code="0x1e">試合終了2</title>
+			<title code="0x26">コンティニュ～</title>
+			<title code="0x25">ゲ～ムオ～バ～</title>
+			<title code="0x24">ネ～ムエントリ～</title>
+			<title code="0x2a">リトライ</title>
+			<title code="0x1a">ヴィジュアル</title>
+			<title code="0x18">エンディング(妖艶天使)</title>
+			<title code="0x1f">エンディング(ノ～マル)</title>
+			<title code="0x20">エンディング(ハ～ド)</title>
+			<title code="0x120">ブロックが崩れる</title>
+			<title code="0x121">ブロック着地</title>
+			<title code="0x122">ブロックが回転不能</title>
+			<title code="0x123">ゲ～ムエンド1</title>
+			<title code="0x124">ゲ～ムエンド2</title>
+			<title code="0x125">レベルアップ</title>
+			<title code="0x126">ブロック回転</title>
+			<title code="0x127">ブロックが消える</title>
+			<title code="0x128">スコア＆タイム表示</title>
+			<title code="0x129">カーソル移動</title>
+			<title code="0x12a">決定</title>
+			<title code="0x12b">SFX</title>
+			<title code="0x12c">カウント</title>
+			<title code="0x12d">SFX</title>
+			<title code="0x12e">スタ～ト</title>
+			<title code="0x12f">方向変更</title>
+			<title code="0x130">ネ～ムエントリ～カ～ソル移動</title>
+			<title code="0x131">ネ～ムエントリ～文字決定</title>
+			<title code="0x132">ネ～ムエントリ～バックスペ～ス</title>
+			<title code="0x133">がお～</title>
+			<title code="0x134">SFX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] TEEN</name>
+		<name>[PC-9801] Teens (てぃ～ん) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">CUSTOM</driveralias>
+		<driveralias type="PC-9801">Custom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 			<option name="ssg_mix" value="-18"/>
 		</options>
-		<romlist archive="teen_98">
+		<romlist archive="teens_98">
 			<rom type="file" offset="-1">TRPSCR98.COM</rom>
 			<rom type="file" offset="-1">TRPSCHRN.COM</rom>
 			<rom type="file" offset="0x10">CHIP_OP.MDT</rom>
@@ -325,44 +325,44 @@
 			<rom type="shell" offset="0x00">TRPSCR98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">CHIP_OP.MDT  : オ～プニング</title>
-			<title code="0x12">TEEN102.MDT  : てんやわんやが!女子高生 [OP]</title>
-			<title code="0x11">TEEN101.MDT  : あたし若瀬あゆみ☆</title>
-			<title code="0x13">TEEN103.MDT  : ハーイ、ミ～キ～ちゃん!</title>
-			<title code="0x14">TEEN104.MDT  : 愛ちゃんてば…もぅ～☆</title>
-			<title code="0x16">TEEN109.MDT  : 愛ちゃんの憂鬱!?</title>
-			<title code="0x1a">TEEN1H3.MDT  : Hな気分</title>
-			<title code="0x18">TEEN1H1.MDT  : あゆみちゃんに捧げます……</title>
-			<title code="0x19">TEEN1H2.MDT  : 気持ちよくしてあげる☆</title>
-			<title code="0x15">TEEN105.MDT  : EYE CATCH</title>
-			<title code="0x17">TEEN111.MDT  : てんやわんやが!女子高生 [ED]</title>
-			<title code="0x1b">TEEN201.MDT  : 愛欲の戯れ</title>
-			<title code="0x1c">TEEN201B.MDT : 小さき花の雫</title>
-			<title code="0x1d">TEEN202.MDT  : 天使達の休日</title>
-			<title code="0x1e">TEEN203.MDT  : 悦虐の陶酔</title>
-			<title code="0x1f">TEEN204.MDT  : 調教された天使</title>
-			<title code="0x20">TEEN205.MDT  : 堕天使の涙</title>
-			<title code="0x21">TEEN206.MDT  : 優しさの中で</title>
-			<title code="0x22">TEEN207.MDT  : 恋色TEEN</title>
-			<title code="0x23">TEENSE01.MDT : SE</title>
-			<title code="0x24">TEENSE02.MDT : SE</title>
-			<title code="0x25">TEENSE03.MDT : SE</title>
-			<title code="0x26">TEENSE04.MDT : SE</title>
-			<title code="0x27">TEENSE05.MDT : SE</title>
-			<range min="0x120" max="0x13e" extcode="0">SE           : %02x</range>
+			<title code="0x10">オ～プニング</title>
+			<title code="0x12">てんやわんやが!女子高生 [OP]</title>
+			<title code="0x11">あたし若瀬あゆみ☆</title>
+			<title code="0x13">ハーイ、ミ～キ～ちゃん!</title>
+			<title code="0x14">愛ちゃんてば…もぅ～☆</title>
+			<title code="0x16">愛ちゃんの憂鬱!?</title>
+			<title code="0x1a">Hな気分</title>
+			<title code="0x18">あゆみちゃんに捧げます……</title>
+			<title code="0x19">気持ちよくしてあげる☆</title>
+			<title code="0x15">EYE CATCH</title>
+			<title code="0x17">てんやわんやが!女子高生 [ED]</title>
+			<title code="0x1b">愛欲の戯れ</title>
+			<title code="0x1c">小さき花の雫</title>
+			<title code="0x1d">天使達の休日</title>
+			<title code="0x1e">悦虐の陶酔</title>
+			<title code="0x1f">調教された天使</title>
+			<title code="0x20">堕天使の涙</title>
+			<title code="0x21">優しさの中で</title>
+			<title code="0x22">恋色TEEN</title>
+			<title code="0x23">TEENSE01.MDT</title>
+			<title code="0x24">TEENSE02.MDT</title>
+			<title code="0x25">TEENSE03.MDT</title>
+			<title code="0x26">TEENSE04.MDT</title>
+			<title code="0x27">TEENSE05.MDT</title>
+			<range min="0x120" max="0x13e" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Platinum(OPN)</name>
+		<name>[PC-9801] Star Platinum (スタープラチナ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">CUSTOM</driveralias>
+		<driveralias type="PC-9801">Custom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 			<option name="ssg_mix" value="-18"/>
 			<option name="opn_type" value="0"/>
 		</options>
-		<romlist archive="starpltn_98">
+		<romlist archive="starplatinum_98">
 			<rom type="file" offset="-1">TRPSCR98.COM</rom>
 			<rom type="file" offset="-1">TRPSCHRN.COM</rom>
 			<rom type="file" offset="11">017.DAT</rom>
@@ -418,66 +418,66 @@
 			<rom type="shell" offset="0">TRPSCR98</rom>
 		</romlist>
 		<titlelist>
-			<title code="13">021.DAT : オープニング</title>
-			<title code="19">033.DAT : タイトル</title>
-			<title code="21">037.DAT : カード説明デモ</title>
-			<title code="22">039.DAT : ゲームBGM1</title>
-			<title code="53">101.DAT : ゲームBGM2</title>
-			<title code="20">035.DAT : ゲームBGM3</title>
-			<title code="18">031.DAT : ゲームBGM4</title>
-			<title code="43">081.DAT : ゲームBGM5</title>
-			<title code="51">097.DAT : 勝ちファンファーレ</title>
-			<title code="56">107.DAT : 負けファンファーレ</title>
-			<title code="57">109.DAT : ドローゲーム</title>
-			<title code="52">099.DAT : 役表示BGM</title>
-			<title code="48">091.DAT : コンティニュー</title>
-			<title code="59">113.DAT : ゲームオーバー</title>
-			<title code="23">041.DAT : M01 星雲と追いかけっこ</title>
-			<title code="47">089.DAT : M29 サブタイトルバック</title>
-			<title code="26">047.DAT : M02 第1次接近遭遇とは…</title>
-			<title code="25">045.DAT : M04 リュシィのテーマ P1</title>
-			<title code="30">055.DAT : M05 天上界回想</title>
-			<title code="37">069.DAT : M08 リュシィのテーマ P2</title>
-			<title code="54">103.DAT : M09 花札へんし～ん</title>
-			<title code="31">057.DAT : M11 放課後水泳娘</title>
-			<title code="38">071.DAT : M12 星霊召還</title>
-			<title code="42">079.DAT : M19 夕焼けこやけで日が暮れる</title>
-			<title code="28">051.DAT : M13 ぱ～ぷりん少女</title>
-			<title code="34">063.DAT : M14 夜になっても星霊探し</title>
-			<title code="33">061.DAT : M15 人気の無い神社</title>
-			<title code="44">083.DAT : M16 豪邸とお嬢様</title>
-			<title code="27">049.DAT : M17 困った双子</title>
-			<title code="41">077.DAT : M21 リュシィのテーマ P3</title>
-			<title code="40">075.DAT : M22 リュシィへんし～ん!</title>
-			<title code="35">065.DAT : M25 幸せの余韻</title>
-			<title code="39">073.DAT : M26 別れの時</title>
-			<title code="36">067.DAT : M27 女神様登場!</title>
-			<title code="46">087.DAT : M30 またヨロシクね!</title>
-			<title code="11">017.DAT : M28 それぞれの幸せ</title>
-			<title code="55">105.DAT : 脱ぎ脱ぎBGM1</title>
-			<title code="49">093.DAT : 脱ぎ脱ぎBGM2</title>
-			<title code="50">095.DAT : 脱ぎ脱ぎBGM3</title>
-			<title code="58">111.DAT : ずべ子ちゃんと遊ぼう!</title>
-			<title code="45">085.DAT : ずべ子ちゃん スタッフロール</title>
-			<title code="12">019.DAT : (オープニング 1</title>
-			<title code="14">023.DAT : (オープニング 2</title>
-			<title code="15">025.DAT : (SE 1</title>
-			<title code="16">027.DAT : (SE 2</title>
-			<title code="17">029.DAT : (METAL ORANGE</title>
-			<title code="24">043.DAT : (M01 星雲と追いかけっこ</title>
-			<title code="29">053.DAT : (METAL ORANGE</title>
-			<title code="32">059.DAT : (METAL ORANGE</title>
-			<range min="0x121" max="0x141" extcode="0">SE      : %02x</range>
+			<title code="13">オープニング</title>
+			<title code="19">タイトル</title>
+			<title code="21">カード説明デモ</title>
+			<title code="22">ゲームBGM1</title>
+			<title code="53">ゲームBGM2</title>
+			<title code="20">ゲームBGM3</title>
+			<title code="18">ゲームBGM4</title>
+			<title code="43">ゲームBGM5</title>
+			<title code="51">勝ちファンファーレ</title>
+			<title code="56">負けファンファーレ</title>
+			<title code="57">ドローゲーム</title>
+			<title code="52">役表示BGM</title>
+			<title code="48">コンティニュー</title>
+			<title code="59">ゲームオーバー</title>
+			<title code="23">M01 星雲と追いかけっこ</title>
+			<title code="47">M29 サブタイトルバック</title>
+			<title code="26">M02 第1次接近遭遇とは…</title>
+			<title code="25">M04 リュシィのテーマ P1</title>
+			<title code="30">M05 天上界回想</title>
+			<title code="37">M08 リュシィのテーマ P2</title>
+			<title code="54">M09 花札へんし～ん</title>
+			<title code="31">M11 放課後水泳娘</title>
+			<title code="38">M12 星霊召還</title>
+			<title code="42">M19 夕焼けこやけで日が暮れる</title>
+			<title code="28">M13 ぱ～ぷりん少女</title>
+			<title code="34">M14 夜になっても星霊探し</title>
+			<title code="33">M15 人気の無い神社</title>
+			<title code="44">M16 豪邸とお嬢様</title>
+			<title code="27">M17 困った双子</title>
+			<title code="41">M21 リュシィのテーマ P3</title>
+			<title code="40">M22 リュシィへんし～ん!</title>
+			<title code="35">M25 幸せの余韻</title>
+			<title code="39">M26 別れの時</title>
+			<title code="36">M27 女神様登場!</title>
+			<title code="46">M30 またヨロシクね!</title>
+			<title code="11">M28 それぞれの幸せ</title>
+			<title code="55">脱ぎ脱ぎBGM1</title>
+			<title code="49">脱ぎ脱ぎBGM2</title>
+			<title code="50">脱ぎ脱ぎBGM3</title>
+			<title code="58">ずべ子ちゃんと遊ぼう!</title>
+			<title code="45">ずべ子ちゃん スタッフロール</title>
+			<title code="12">オープニング 1</title>
+			<title code="14">オープニング 2</title>
+			<title code="15">SFX 1</title>
+			<title code="16">SFX 2</title>
+			<title code="17">Metal Orange</title>
+			<title code="24">M01 星雲と追いかけっこ</title>
+			<title code="29">Metal Orange</title>
+			<title code="32">Metal Orange</title>
+			<range min="0x121" max="0x141" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CYBER BLOCK METAL ORANGE EX(OPM)</name>
+		<name>[X68000] Cyber Block Metal Orange EX (メタルオレンジEX) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">CUSTOM</driveralias>
+		<driveralias type="X68000">Custom</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
-		<romlist archive="moex68snd">
+		<romlist archive="morang68snd">
 			<rom type="code" offset="0x000000">moex68snd.bin</rom>
 			<rom type="code" offset="0x010000">MO00.ZMD</rom>
 			<rom type="code" offset="0x012000">MO01.ZMD</rom>
@@ -519,87 +519,87 @@
 			<rom type="code" offset="0x110000">MO68.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">MO01.ZMD : OPENING</title>
-			<title code="0x04">MO03.ZMD : SELECT</title>
+			<title code="0x02">Opening</title>
+			<title code="0x04">Select</title>
 			<!--
-			<title code="0x05">MO04.ZMD : SELECT</title>
+			<title code="0x05">Select</title>
 			  -->
-			<title code="0x06">MO05.ZMD : VISUAL 1</title>
-			<title code="0x07">MO06.ZMD : VISUAL 2</title>
-			<title code="0x08">MO07.ZMD : VISUAL 3</title>
-			<title code="0x09">MO08.ZMD : VISUAL 4</title>
-			<title code="0x0a">MO09.ZMD : VISUAL 5</title>
-			<title code="0x0b">MO10.ZMD : INFORMATION</title>
-			<title code="0x0c">MO11.ZMD : STAGE 1</title>
-			<title code="0x0d">MO12.ZMD : STAGE 2</title>
-			<title code="0x0e">MO13.ZMD : STAGE 3</title>
-			<title code="0x0f">MO14.ZMD : STAGE 4</title>
-			<title code="0x10">MO15.ZMD : STAGE 5</title>
-			<title code="0x11">MO16.ZMD : STAGE CLEAR</title>
-			<title code="0x01">MO00.ZMD : PAUSE</title>
-			<title code="0x12">MO17.ZMD : CONTINUE</title>
-			<title code="0x13">MO18.ZMD : GAME OVER</title>
-			<title code="0x14">MO19.ZMD : RANKING 1</title>
-			<title code="0x15">MO20.ZMD : RANKING 2</title>
-			<title code="0x16">MO21.ZMD : ENDING</title>
-			<title code="0x03">MO02.ZMD : UNUSE</title>
+			<title code="0x06">Visual 1</title>
+			<title code="0x07">Visual 2</title>
+			<title code="0x08">Visual 3</title>
+			<title code="0x09">Visual 4</title>
+			<title code="0x0a">Visual 5</title>
+			<title code="0x0b">Information</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x0e">Stage 3</title>
+			<title code="0x0f">Stage 4</title>
+			<title code="0x10">Stage 5</title>
+			<title code="0x11">Stage Clear</title>
+			<title code="0x01">Pause</title>
+			<title code="0x12">Continue</title>
+			<title code="0x13">Game Over</title>
+			<title code="0x14">Ranking 1</title>
+			<title code="0x15">Ranking 2</title>
+			<title code="0x16">Ending</title>
+			<title code="0x03">Unused</title>
 <!--
-			<title code="0x17">MO22.ZMD : SE TONE</title>
-			<title code="0x18">MO23.ZMD : SOUND EFFECTS</title>
+			<title code="0x17">SFX Tone</title>
+			<title code="0x18">Sound Effects</title>
  -->
-			<title code="0x19">MO24.ZMD : SELECT (OPM)</title>
-			<title code="0x1a">MO25.ZMD : INFORMATION (OPM)</title>
-			<title code="0x1b">MO26.ZMD : STAGE 2 (OPM)</title>
-			<title code="0x1c">MO27.ZMD : SELECT (PSG)</title>
-			<title code="0x1d">MO28.ZMD : INFORMATION (PSG)</title>
-			<title code="0x1e">MO29.ZMD : STAGE 2 (PSG)</title>
-			<title code="0x1f">MO30.ZMD : STAGE 4 (PSG)</title>
-			<title code="0x20">MO31.ZMD : STAGE CLEAR (PSG)</title>
-			<title code="0x21">MO32.ZMD : GAME OVER (PSG)</title>
-			<title code="0x22">MO33.ZMD : RANKING 2 (PSG)</title>
-			<title code="0x23">SE  : 00 : BALL HIT!</title>
-			<title code="0x24">SE  : 01 : N.BLOCK HIT!</title>
-			<title code="0x25">SE  : 02 : B.BLOCK HIT!</title>
-			<title code="0x26">SE  : 03 : LASER SHOOT!</title>
-			<title code="0x27">SE  : 04 : POWER UP!</title>
-			<title code="0x28">SE  : 05 : CAPSULE GET!</title>
-			<title code="0x29">SE  : 06 : 1UP!</title>
-			<title code="0x2a">SE  : 07 : ENEMY!!</title>
-			<title code="0x2b">SE  : 08 : D.BLOCK HIT!</title>
-			<title code="0x2c">SE  : 09 : ENEMY HIT!</title>
-			<title code="0x2d">SE  : 0a : CAPSULE BONUS</title>
-			<title code="0x2e">SE  : 0b : BIT OFF</title>
-			<title code="0x2f">SE  : 0c : M.BLOCK HIT!</title>
-			<title code="0x30">SE  : 0d : BONUS COUNT</title>
-			<title code="0x31">SE  : 0e : NO USE</title>
-			<title code="0x32">SE  : 0f : BEEP</title>
-			<title code="0x33">SE  : 10 : PLAYER MISS</title>
-			<title code="0x34">SE  : 11 : ILLUSION HIT</title>
-			<title code="0x35">SE  : 12 : NO USE</title>
-			<title code="0x36">SE  : 13 : BARRIER HIT!</title>
-			<title code="0x37">SE  : 14 : R.BLOCK HIT!</title>
-			<title code="0x38">SE  : 15 : S.BLOCK HIT!</title>
-			<title code="0x39">SE  : 16 : SHUTTER OPEN</title>
-			<title code="0x3a">SE  : 17 : CURSOR MOVE</title>
-			<title code="0x3b">SE  : 18 : SPEED DOWN</title>
-			<title code="0x3c">SE  : 19 : G.BALL BREAK</title>
-			<title code="0x3d">SE  : 1a : </title>
-			<title code="0x3e">SE  : 1b : </title>
-			<title code="0x3f">SE  : 1c : </title>
-			<title code="0x40">SE  : 1d : </title>
-			<title code="0x41">SE  : 1e : </title>
+			<title code="0x19">Select (OPM)</title>
+			<title code="0x1a">Information (OPM)</title>
+			<title code="0x1b">Stage 2 (OPM)</title>
+			<title code="0x1c">Select (PSG)</title>
+			<title code="0x1d">Information (PSG)</title>
+			<title code="0x1e">Stage 2 (PSG)</title>
+			<title code="0x1f">Stage 4 (PSG)</title>
+			<title code="0x20">Stage Clear (PSG)</title>
+			<title code="0x21">Game Over (PSG)</title>
+			<title code="0x22">Ranking 2 (PSG)</title>
+			<title code="0x23">SFX #00 : Ball Hit!</title>
+			<title code="0x24">SFX #01 : N.Block Hit!</title>
+			<title code="0x25">SFX #02 : B.Block Hit!</title>
+			<title code="0x26">SFX #03 : Laser Shoot!</title>
+			<title code="0x27">SFX #04 : Power Up!</title>
+			<title code="0x28">SFX #05 : Capsule Get!</title>
+			<title code="0x29">SFX #06 : 1up!</title>
+			<title code="0x2a">SFX #07 : Enemy!!</title>
+			<title code="0x2b">SFX #08 : D.Block Hit!</title>
+			<title code="0x2c">SFX #09 : Enemy Hit!</title>
+			<title code="0x2d">SFX #0a : Capsule Bonus</title>
+			<title code="0x2e">SFX #0b : Bit Off</title>
+			<title code="0x2f">SFX #0c : M.Block Hit!</title>
+			<title code="0x30">SFX #0d : Bonus Count</title>
+			<title code="0x31">SFX #0e : No Use</title>
+			<title code="0x32">SFX #0f : Beep</title>
+			<title code="0x33">SFX #10 : Player Miss</title>
+			<title code="0x34">SFX #11 : Illusion Hit</title>
+			<title code="0x35">SFX #12 : No Use</title>
+			<title code="0x36">SFX #13 : Barrier Hit!</title>
+			<title code="0x37">SFX #14 : R.Block Hit!</title>
+			<title code="0x38">SFX #15 : S.Block Hit!</title>
+			<title code="0x39">SFX #16 : Shutter Open</title>
+			<title code="0x3a">SFX #17 : Cursor Move</title>
+			<title code="0x3b">SFX #18 : Speed Down</title>
+			<title code="0x3c">SFX #19 : G.Ball Break</title>
+			<title code="0x3d">SFX #1a</title>
+			<title code="0x3e">SFX #1b</title>
+			<title code="0x3f">SFX #1c</title>
+			<title code="0x40">SFX #1d</title>
+			<title code="0x41">SFX #1e</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CYBER BLOCK METAL ORANGE EX(GS)</name>
+		<name>[X68000] Cyber Block Metal Orange EX (メタルオレンジEX) (GS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">CUSTOM</driveralias>
+		<driveralias type="X68000">Custom</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
-		<romlist archive="moex68snd">
+		<romlist archive="morang68snd">
 			<rom type="code" offset="0x000000">moex68snd.bin</rom>
 			<rom type="code" offset="0x010000">MO34.ZMD</rom>
 			<rom type="code" offset="0x012000">MO35.ZMD</rom>
@@ -631,39 +631,108 @@
 			<rom type="code" offset="0x110000">MO68.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">MO35.ZMD : OPENING</title>
-			<title code="0x04">MO37.ZMD : SELECT</title>
+			<title code="0x02">Opening</title>
+			<title code="0x04">Select</title>
 <!--
-			<title code="0x05">MO38.ZMD : SELECT</title>
+			<title code="0x05">Select</title>
  -->
-			<title code="0x06">MO39.ZMD : VISUAL 1</title>
-			<title code="0x07">MO40.ZMD : VISUAL 2</title>
-			<title code="0x08">MO41.ZMD : VISUAL 3</title>
-			<title code="0x09">MO42.ZMD : VISUAL 4</title>
-			<title code="0x0a">MO43.ZMD : VISUAL 5</title>
-			<title code="0x0b">MO44.ZMD : INFORMATION</title>
-			<title code="0x0c">MO45.ZMD : STAGE 1</title>
-			<title code="0x0d">MO46.ZMD : STAGE 2</title>
-			<title code="0x0e">MO47.ZMD : STAGE 3</title>
-			<title code="0x0f">MO48.ZMD : STAGE 4</title>
-			<title code="0x10">MO49.ZMD : STAGE 5</title>
-			<title code="0x11">MO50.ZMD : STAGE CLEAR</title>
-			<title code="0x01">MO34.ZMD : PAUSE</title>
-			<title code="0x12">MO51.ZMD : CONTINUE</title>
-			<title code="0x13">MO52.ZMD : GAME OVER</title>
-			<title code="0x14">MO53.ZMD : RANKING 1</title>
-			<title code="0x15">MO54.ZMD : RANKING 2</title>
-			<title code="0x16">MO55.ZMD : ENDING</title>
-			<title code="0x03">MO36.ZMD : UNUSE</title>
-			<title code="0x17">MO56.ZMD : UNUSE</title>
-			<title code="0x18">MO57.ZMD : UNUSE</title>
-			<title code="0x19">MO58.ZMD : UNUSE</title>
+			<title code="0x06">Visual 1</title>
+			<title code="0x07">Visual 2</title>
+			<title code="0x08">Visual 3</title>
+			<title code="0x09">Visual 4</title>
+			<title code="0x0a">Visual 5</title>
+			<title code="0x0b">Information</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x0e">Stage 3</title>
+			<title code="0x0f">Stage 4</title>
+			<title code="0x10">Stage 5</title>
+			<title code="0x11">Stage Clear</title>
+			<title code="0x01">Pause</title>
+			<title code="0x12">Continue</title>
+			<title code="0x13">Game Over</title>
+			<title code="0x14">Ranking 1</title>
+			<title code="0x15">Ranking 2</title>
+			<title code="0x16">Ending</title>
+			<title code="0x03">Unused</title>
+			<title code="0x17">Unused</title>
+			<title code="0x18">Unused</title>
+			<title code="0x19">Unused</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] MAGICAL BLOCK CARAT(OPM)</name>
+		<name>[X68000] Cyber Block Metal Orange EX (メタルオレンジEX) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">CUSTOM</driveralias>
+		<driveralias type="X68000">Custom</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="morang68snd">
+			<rom type="code" offset="0x000000">moex68snd.bin</rom>
+			<rom type="code" offset="0x010000">MO34.ZMD</rom>
+			<rom type="code" offset="0x012000">MO35.ZMD</rom>
+			<rom type="code" offset="0x019000">MO36.ZMD</rom>
+			<rom type="code" offset="0x01b000">MO37.ZMD</rom>
+			<rom type="code" offset="0x01d000">MO38.ZMD</rom>
+			<rom type="code" offset="0x01f000">MO39.ZMD</rom>
+			<rom type="code" offset="0x023000">MO40.ZMD</rom>
+			<rom type="code" offset="0x025000">MO41.ZMD</rom>
+			<rom type="code" offset="0x027000">MO42.ZMD</rom>
+			<rom type="code" offset="0x02b000">MO43.ZMD</rom>
+			<rom type="code" offset="0x033000">MO44.ZMD</rom>
+			<rom type="code" offset="0x035000">MO45.ZMD</rom>
+			<rom type="code" offset="0x039000">MO46.ZMD</rom>
+			<rom type="code" offset="0x03d000">MO47.ZMD</rom>
+			<rom type="code" offset="0x040000">MO48.ZMD</rom>
+			<rom type="code" offset="0x046000">MO49.ZMD</rom>
+			<rom type="code" offset="0x04c000">MO50.ZMD</rom>
+			<rom type="code" offset="0x04f000">MO51.ZMD</rom>
+			<rom type="code" offset="0x050000">MO52.ZMD</rom>
+			<rom type="code" offset="0x051000">MO53.ZMD</rom>
+			<rom type="code" offset="0x055000">MO54.ZMD</rom>
+			<rom type="code" offset="0x057000">MO55.ZMD</rom>
+			<rom type="code" offset="0x05c000">MO56.ZMD</rom>
+			<rom type="code" offset="0x05d000">MO57.ZMD</rom>
+			<rom type="code" offset="0x05e000">MO58.ZMD</rom>
+			<rom type="x"    offset="0x080000">ZMSC.x</rom>
+			<rom type="x"    offset="0x0b0000">MO_EX.x</rom>
+			<rom type="code" offset="0x110000">MO68.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Opening</title>
+			<title code="0x04">Select</title>
+<!--
+			<title code="0x05">Select</title>
+ -->
+			<title code="0x06">Visual 1</title>
+			<title code="0x07">Visual 2</title>
+			<title code="0x08">Visual 3</title>
+			<title code="0x09">Visual 4</title>
+			<title code="0x0a">Visual 5</title>
+			<title code="0x0b">Information</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x0e">Stage 3</title>
+			<title code="0x0f">Stage 4</title>
+			<title code="0x10">Stage 5</title>
+			<title code="0x11">Stage Clear</title>
+			<title code="0x01">Pause</title>
+			<title code="0x12">Continue</title>
+			<title code="0x13">Game Over</title>
+			<title code="0x14">Ranking 1</title>
+			<title code="0x15">Ranking 2</title>
+			<title code="0x16">Ending</title>
+			<title code="0x03">Unused</title>
+			<title code="0x17">Unused</title>
+			<title code="0x18">Unused</title>
+			<title code="0x19">Unused</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Carat: Magical Blocks (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Custom</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -721,59 +790,59 @@
 			<rom type="code" offset="0x0a0000">carat68.zpd</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1c">CRTYHS01.ZMD : オ～プニング</title>
-			<title code="0x0c">CRTJKL18.ZMD : タイトル</title>
-			<title code="0x06">CRTJKL07.ZMD : インフォメ～ション</title>
-			<title code="0x03">CRTJKL02.ZMD : BGM1</title>
-			<title code="0x02">CRTJKL01.ZMD : ピンチ1</title>
-			<title code="0x04">CRTJKL04.ZMD : BGM2</title>
-			<title code="0x0a">CRTJKL16.ZMD : BGM3</title>
-			<title code="0x08">CRTJKL12.ZMD : ピンチ2</title>
-			<title code="0x07">CRTJKL08.ZMD : BGM4</title>
-			<title code="0x05">CRTJKL05.ZMD : BGM5</title>
-			<title code="0x11">CRTJKLN2.ZMD : BGM6</title>
-			<title code="0x13">CRTXA_.ZMD   : BGM7</title>
-			<title code="0x14">CRTXB_.ZMD   : ピンチ3</title>
-			<title code="0x16">CRTXD_.ZMD   : BGM8</title>
-			<title code="0x18">CRTXG_.ZMD   : ピンチ4</title>
-			<title code="0x15">CRTXC_.ZMD   : クリア～</title>
-			<title code="0x0d">CRTJKL26.ZMD : ステ～ジクリア</title>
-			<title code="0x0e">CRTJKL31.ZMD : 試合終了1</title>
-			<title code="0x0f">CRTJKL33.ZMD : 試合終了2</title>
-			<title code="0x1b">CRTXJ_.ZMD   : コンティニュ～</title>
-			<title code="0x17">CRTXE_.ZMD   : ゲ～ムオ～バ～</title>
-			<title code="0x19">CRTXH_.ZMD   : ネ～ムエントリ～</title>
-			<title code="0x1a">CRTXI_.ZMD   : リトライ</title>
-			<title code="0x0b">CRTJKL17.ZMD : ヴィジュアル</title>
-			<title code="0x09">CRTJKL15.ZMD : エンディング(妖艶天使)</title>
-			<title code="0x01">CRTEND2J.ZMD : エンディング(ノ～マル)</title>
-			<title code="0x12">CRTJKLN3.ZMD : エンディング(ハ～ド)</title>
-			<title code="0x10">CRTJKLN1.ZMD : 未使用曲</title>
-			<title code="0x1d">CRTXSA.ZMD   : ブロックが崩れる</title>
-			<title code="0x1e">CRTXSB.ZMD   : ブロック着地</title>
-			<title code="0x1f">CRTXSC.ZMD   : ブロック回転不可能</title>
-			<title code="0x20">CRTXSD.ZMD   : ゲ～ムエンド1</title>
-			<title code="0x21">CRTXSE.ZMD   : ゲ～ムエンド2</title>
-			<title code="0x22">CRTXSF.ZMD   : レベルアップ</title>
-			<title code="0x23">CRTXSG.ZMD   : ブロック回転</title>
-			<title code="0x24">CRTXSH.ZMD   : ブロックが消える</title>
-			<title code="0x25">CRTXSI.ZMD   : スコア&amp;タイム表示</title>
-			<title code="0x26">CRTXSJ.ZMD   : カ～ソル移動</title>
-			<title code="0x27">CRTXSK.ZMD   : 決定</title>
-			<title code="0x28">CRTXSL.ZMD   : カウント</title>
-			<title code="0x29">CRTXSM.ZMD   : スタ～ト</title>
-			<title code="0x2a">CRTXSN.ZMD   : 方向変更</title>
-			<title code="0x2b">CRTXSO.ZMD   : ネ～ムエントリ～カ～ソル移動</title>
-			<title code="0x2c">CRTXSP.ZMD   : ネ～ムエントリ～文字決定</title>
-			<title code="0x2d">CRTXSQ.ZMD   : ネ～ムエントリ～バックスペ～ス</title>
-			<title code="0x2e">CRTXSR.ZMD   : ブロックが固まる</title>
-			<title code="0x2f">CRTXSS.ZMD   : ポ～ズ</title>
+			<title code="0x1c">オ～プニング</title>
+			<title code="0x0c">タイトル</title>
+			<title code="0x06">インフォメ～ション</title>
+			<title code="0x03">BGM1</title>
+			<title code="0x02">ピンチ1</title>
+			<title code="0x04">BGM2</title>
+			<title code="0x0a">BGM3</title>
+			<title code="0x08">ピンチ2</title>
+			<title code="0x07">BGM4</title>
+			<title code="0x05">BGM5</title>
+			<title code="0x11">BGM6</title>
+			<title code="0x13">BGM7</title>
+			<title code="0x14">ピンチ3</title>
+			<title code="0x16">BGM8</title>
+			<title code="0x18">ピンチ4</title>
+			<title code="0x15">クリア～</title>
+			<title code="0x0d">ステ～ジクリア</title>
+			<title code="0x0e">試合終了1</title>
+			<title code="0x0f">試合終了2</title>
+			<title code="0x1b">コンティニュ～</title>
+			<title code="0x17">ゲ～ムオ～バ～</title>
+			<title code="0x19">ネ～ムエントリ～</title>
+			<title code="0x1a">リトライ</title>
+			<title code="0x0b">ヴィジュアル</title>
+			<title code="0x09">エンディング(妖艶天使)</title>
+			<title code="0x01">エンディング(ノ～マル)</title>
+			<title code="0x12">エンディング(ハ～ド)</title>
+			<title code="0x10">未使用曲</title>
+			<title code="0x1d">ブロックが崩れる</title>
+			<title code="0x1e">ブロック着地</title>
+			<title code="0x1f">ブロック回転不可能</title>
+			<title code="0x20">ゲ～ムエンド1</title>
+			<title code="0x21">ゲ～ムエンド2</title>
+			<title code="0x22">レベルアップ</title>
+			<title code="0x23">ブロック回転</title>
+			<title code="0x24">ブロックが消える</title>
+			<title code="0x25">スコア&amp;タイム表示</title>
+			<title code="0x26">カ～ソル移動</title>
+			<title code="0x27">決定</title>
+			<title code="0x28">カウント</title>
+			<title code="0x29">スタ～ト</title>
+			<title code="0x2a">方向変更</title>
+			<title code="0x2b">ネ～ムエントリ～カ～ソル移動</title>
+			<title code="0x2c">ネ～ムエントリ～文字決定</title>
+			<title code="0x2d">ネ～ムエントリ～バックスペ～ス</title>
+			<title code="0x2e">ブロックが固まる</title>
+			<title code="0x2f">ポ～ズ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] MAGICAL BLOCK CARAT(GS)</name>
+		<name>[X68000] Carat: Magical Blocks (GS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">CUSTOM</driveralias>
+		<driveralias type="X68000">Custom</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -832,52 +901,162 @@
 			<rom type="code" offset="0x0a0000">carat68.zpd</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1c">CRTYHS01.ZMD : オ～プニング</title>
-			<title code="0x0c">CRTJKL18.ZMD : タイトル</title>
-			<title code="0x06">CRTJKL07.ZMD : インフォメ～ション</title>
-			<title code="0x03">CRTJKL02.ZMD : BGM1</title>
-			<title code="0x02">CRTJKL01.ZMD : ピンチ1</title>
-			<title code="0x04">CRTJKL04.ZMD : BGM2</title>
-			<title code="0x0a">CRTJKL16.ZMD : BGM3</title>
-			<title code="0x08">CRTJKL12.ZMD : ピンチ2</title>
-			<title code="0x07">CRTJKL08.ZMD : BGM4</title>
-			<title code="0x05">CRTJKL05.ZMD : BGM5</title>
-			<title code="0x11">CRTJKLN2.ZMD : BGM6</title>
-			<title code="0x13">CRTXA_.ZMD   : BGM7</title>
-			<title code="0x14">CRTXB_.ZMD   : ピンチ3</title>
-			<title code="0x16">CRTXD_.ZMD   : BGM8</title>
-			<title code="0x18">CRTXG_.ZMD   : ピンチ4</title>
-			<title code="0x15">CRTXC_.ZMD   : クリア～</title>
-			<title code="0x0d">CRTJKL26.ZMD : ステ～ジクリア</title>
-			<title code="0x0e">CRTJKL31.ZMD : 試合終了1</title>
-			<title code="0x0f">CRTJKL33.ZMD : 試合終了2</title>
-			<title code="0x1b">CRTXJ_.ZMD   : コンティニュ～</title>
-			<title code="0x17">CRTXE_.ZMD   : ゲ～ムオ～バ～</title>
-			<title code="0x19">CRTXH_.ZMD   : ネ～ムエントリ～</title>
-			<title code="0x1a">CRTXI_.ZMD   : リトライ</title>
-			<title code="0x0b">CRTJKL17.ZMD : ヴィジュアル</title>
-			<title code="0x09">CRTJKL15.ZMD : エンディング(妖艶天使)</title>
-			<title code="0x01">CRTEND2J.ZMD : エンディング(ノ～マル)</title>
-			<title code="0x12">CRTJKLN3.ZMD : エンディング(ハ～ド)</title>
-			<title code="0x1d">CRTXSA.ZMD   : ブロックが崩れる</title>
-			<title code="0x1e">CRTXSB.ZMD   : ブロック着地</title>
-			<title code="0x1f">CRTXSC.ZMD   : ブロック回転不可能</title>
-			<title code="0x20">CRTXSD.ZMD   : ゲ～ムエンド1</title>
-			<title code="0x21">CRTXSE.ZMD   : ゲ～ムエンド2</title>
-			<title code="0x22">CRTXSF.ZMD   : レベルアップ</title>
-			<title code="0x23">CRTXSG.ZMD   : ブロック回転</title>
-			<title code="0x24">CRTXSH.ZMD   : ブロックが消える</title>
-			<title code="0x25">CRTXSI.ZMD   : スコア&amp;タイム表示</title>
-			<title code="0x26">CRTXSJ.ZMD   : カ～ソル移動</title>
-			<title code="0x27">CRTXSK.ZMD   : 決定</title>
-			<title code="0x28">CRTXSL.ZMD   : カウント</title>
-			<title code="0x29">CRTXSM.ZMD   : スタ～ト</title>
-			<title code="0x2a">CRTXSN.ZMD   : 方向変更</title>
-			<title code="0x2b">CRTXSO.ZMD   : ネ～ムエントリ～カ～ソル移動</title>
-			<title code="0x2c">CRTXSP.ZMD   : ネ～ムエントリ～文字決定</title>
-			<title code="0x2d">CRTXSQ.ZMD   : ネ～ムエントリ～バックスペ～ス</title>
-			<title code="0x2e">CRTXSR.ZMD   : ブロックが固まる</title>
-			<title code="0x2f">CRTXSS.ZMD   : ポ～ズ</title>
+			<title code="0x1c">オ～プニング</title>
+			<title code="0x0c">タイトル</title>
+			<title code="0x06">インフォメ～ション</title>
+			<title code="0x03">BGM1</title>
+			<title code="0x02">ピンチ1</title>
+			<title code="0x04">BGM2</title>
+			<title code="0x0a">BGM3</title>
+			<title code="0x08">ピンチ2</title>
+			<title code="0x07">BGM4</title>
+			<title code="0x05">BGM5</title>
+			<title code="0x11">BGM6</title>
+			<title code="0x13">BGM7</title>
+			<title code="0x14">ピンチ3</title>
+			<title code="0x16">BGM8</title>
+			<title code="0x18">ピンチ4</title>
+			<title code="0x15">クリア～</title>
+			<title code="0x0d">ステ～ジクリア</title>
+			<title code="0x0e">試合終了1</title>
+			<title code="0x0f">試合終了2</title>
+			<title code="0x1b">コンティニュ～</title>
+			<title code="0x17">ゲ～ムオ～バ～</title>
+			<title code="0x19">ネ～ムエントリ～</title>
+			<title code="0x1a">リトライ</title>
+			<title code="0x0b">ヴィジュアル</title>
+			<title code="0x09">エンディング(妖艶天使)</title>
+			<title code="0x01">エンディング(ノ～マル)</title>
+			<title code="0x12">エンディング(ハ～ド)</title>
+			<title code="0x1d">ブロックが崩れる</title>
+			<title code="0x1e">ブロック着地</title>
+			<title code="0x1f">ブロック回転不可能</title>
+			<title code="0x20">ゲ～ムエンド1</title>
+			<title code="0x21">ゲ～ムエンド2</title>
+			<title code="0x22">レベルアップ</title>
+			<title code="0x23">ブロック回転</title>
+			<title code="0x24">ブロックが消える</title>
+			<title code="0x25">スコア&amp;タイム表示</title>
+			<title code="0x26">カ～ソル移動</title>
+			<title code="0x27">決定</title>
+			<title code="0x28">カウント</title>
+			<title code="0x29">スタ～ト</title>
+			<title code="0x2a">方向変更</title>
+			<title code="0x2b">ネ～ムエントリ～カ～ソル移動</title>
+			<title code="0x2c">ネ～ムエントリ～文字決定</title>
+			<title code="0x2d">ネ～ムエントリ～バックスペ～ス</title>
+			<title code="0x2e">ブロックが固まる</title>
+			<title code="0x2f">ポ～ズ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Carat: Magical Blocks (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Custom</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="carat68snd">
+			<rom type="code" offset="0x000000">carat68snd.bin</rom>
+			<rom type="code" offset="0x00f000">fm/sefm.zmd</rom>
+			<rom type="code" offset="0x010000">md/CRTEND2J.ZMD</rom>
+			<rom type="code" offset="0x01a000">md/CRTJKL01.ZMD</rom>
+			<rom type="code" offset="0x01d000">md/CRTJKL02.ZMD</rom>
+			<rom type="code" offset="0x01f000">md/CRTJKL04.ZMD</rom>
+			<rom type="code" offset="0x021000">md/CRTJKL05.ZMD</rom>
+			<rom type="code" offset="0x024000">md/CRTJKL07.ZMD</rom>
+			<rom type="code" offset="0x026000">md/CRTJKL08.ZMD</rom>
+			<rom type="code" offset="0x028000">md/CRTJKL12.ZMD</rom>
+			<rom type="code" offset="0x02a000">md/CRTJKL15.ZMD</rom>
+			<rom type="code" offset="0x02d000">md/CRTJKL16.ZMD</rom>
+			<rom type="code" offset="0x02f000">md/CRTJKL17.ZMD</rom>
+			<rom type="code" offset="0x035000">md/CRTJKL18.ZMD</rom>
+			<rom type="code" offset="0x038000">md/CRTJKL26.ZMD</rom>
+			<rom type="code" offset="0x039000">md/CRTJKL31.ZMD</rom>
+			<rom type="code" offset="0x03b000">md/CRTJKL33.ZMD</rom>
+			<rom type="code" offset="0x03d000">md/CRTJKLN2.ZMD</rom>
+			<rom type="code" offset="0x040000">md/CRTJKLN3.ZMD</rom>
+			<rom type="code" offset="0x045000">md/CRTXA_.ZMD</rom>
+			<rom type="code" offset="0x049000">md/CRTXB_.ZMD</rom>
+			<rom type="code" offset="0x04c000">md/CRTXC_.ZMD</rom>
+			<rom type="code" offset="0x04e000">md/CRTXD_.ZMD</rom>
+			<rom type="code" offset="0x051000">md/CRTXE_.ZMD</rom>
+			<rom type="code" offset="0x052000">md/CRTXG_.ZMD</rom>
+			<rom type="code" offset="0x054000">md/CRTXH_.ZMD</rom>
+			<rom type="code" offset="0x056000">md/CRTXI_.ZMD</rom>
+			<rom type="code" offset="0x057000">md/CRTXJ_.ZMD</rom>
+			<rom type="code" offset="0x05a000">md/CRTYHS01.ZMD</rom>
+			<rom type="code" offset="0x05c000">fm/CRTXSA.ZMD</rom>
+			<rom type="code" offset="0x05c800">fm/CRTXSB.ZMD</rom>
+			<rom type="code" offset="0x05d000">fm/CRTXSC.ZMD</rom>
+			<rom type="code" offset="0x05d800">fm/CRTXSD.ZMD</rom>
+			<rom type="code" offset="0x05e000">fm/CRTXSE.ZMD</rom>
+			<rom type="code" offset="0x05e800">fm/CRTXSF.ZMD</rom>
+			<rom type="code" offset="0x05f000">fm/CRTXSG.ZMD</rom>
+			<rom type="code" offset="0x05f800">fm/CRTXSH.ZMD</rom>
+			<rom type="code" offset="0x060000">fm/CRTXSI.ZMD</rom>
+			<rom type="code" offset="0x060800">fm/CRTXSJ.ZMD</rom>
+			<rom type="code" offset="0x061000">fm/CRTXSK.ZMD</rom>
+			<rom type="code" offset="0x061800">fm/CRTXSL.ZMD</rom>
+			<rom type="code" offset="0x062000">fm/CRTXSM.ZMD</rom>
+			<rom type="code" offset="0x062800">fm/CRTXSN.ZMD</rom>
+			<rom type="code" offset="0x063000">fm/CRTXSO.ZMD</rom>
+			<rom type="code" offset="0x063800">fm/CRTXSP.ZMD</rom>
+			<rom type="code" offset="0x064000">fm/CRTXSQ.ZMD</rom>
+			<rom type="code" offset="0x064800">fm/CRTXSR.ZMD</rom>
+			<rom type="code" offset="0x065000">fm/CRTXSS.ZMD</rom>
+			<rom type="x"    offset="0x080000">zmsc.x</rom>
+			<rom type="code" offset="0x0a0000">carat68.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1c">オ～プニング</title>
+			<title code="0x0c">タイトル</title>
+			<title code="0x06">インフォメ～ション</title>
+			<title code="0x03">BGM1</title>
+			<title code="0x02">ピンチ1</title>
+			<title code="0x04">BGM2</title>
+			<title code="0x0a">BGM3</title>
+			<title code="0x08">ピンチ2</title>
+			<title code="0x07">BGM4</title>
+			<title code="0x05">BGM5</title>
+			<title code="0x11">BGM6</title>
+			<title code="0x13">BGM7</title>
+			<title code="0x14">ピンチ3</title>
+			<title code="0x16">BGM8</title>
+			<title code="0x18">ピンチ4</title>
+			<title code="0x15">クリア～</title>
+			<title code="0x0d">ステ～ジクリア</title>
+			<title code="0x0e">試合終了1</title>
+			<title code="0x0f">試合終了2</title>
+			<title code="0x1b">コンティニュ～</title>
+			<title code="0x17">ゲ～ムオ～バ～</title>
+			<title code="0x19">ネ～ムエントリ～</title>
+			<title code="0x1a">リトライ</title>
+			<title code="0x0b">ヴィジュアル</title>
+			<title code="0x09">エンディング(妖艶天使)</title>
+			<title code="0x01">エンディング(ノ～マル)</title>
+			<title code="0x12">エンディング(ハ～ド)</title>
+			<title code="0x1d">ブロックが崩れる</title>
+			<title code="0x1e">ブロック着地</title>
+			<title code="0x1f">ブロック回転不可能</title>
+			<title code="0x20">ゲ～ムエンド1</title>
+			<title code="0x21">ゲ～ムエンド2</title>
+			<title code="0x22">レベルアップ</title>
+			<title code="0x23">ブロック回転</title>
+			<title code="0x24">ブロックが消える</title>
+			<title code="0x25">スコア&amp;タイム表示</title>
+			<title code="0x26">カ～ソル移動</title>
+			<title code="0x27">決定</title>
+			<title code="0x28">カウント</title>
+			<title code="0x29">スタ～ト</title>
+			<title code="0x2a">方向変更</title>
+			<title code="0x2b">ネ～ムエントリ～カ～ソル移動</title>
+			<title code="0x2c">ネ～ムエントリ～文字決定</title>
+			<title code="0x2d">ネ～ムエントリ～バックスペ～ス</title>
+			<title code="0x2e">ブロックが固まる</title>
+			<title code="0x2f">ポ～ズ</title>
 		</titlelist>
 	</game>
 </gamelist>

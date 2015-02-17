@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //dB-SOFT -->
 	<game>
-		<name>[PC-8801] KING FLAPPY</name>
+		<name>[PC-8801] King Flappy (キングフラッピー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<romlist archive="kflappy">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
@@ -52,9 +52,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] らぷてっく</name>
+		<name>[PC-8801] Laptick (らぷてっく) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -66,20 +66,20 @@
 			<rom type="code" offset="0x4740">PROG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MUS05 : タイトル</title>
-			<title code="0x00">MUS00 : メインBGM</title>
-			<title code="0x01">MUS01 : すーぱーびっきぃ君のテーマ(1)</title>
-			<title code="0x02">MUS02 : すーぱーびっきぃ君のテーマ(2)</title>
-			<title code="0x03">MUS03 : ミス</title>
-			<title code="0x04">MUS04 : ラウンドクリア</title>
-			<title code="0x06">MUS06 : ランキング</title>
-			<title code="0x07">MUS07 : キャスト</title>
+			<title code="0x05">Title (タイトル)</title>
+			<title code="0x00">Main BGM (メインBGM)</title>
+			<title code="0x01">Team Super Vicky (1) (すーぱーびっきぃ君のテーマ(1))</title>
+			<title code="0x02">Team Super Vicky (2) (すーぱーびっきぃ君のテーマ(2))</title>
+			<title code="0x03">Miss (ミス)</title>
+			<title code="0x04">Round Clear (ラウンドクリア)</title>
+			<title code="0x06">Ranking (ランキング)</title>
+			<title code="0x07">Cast (キャスト)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] らぷてっく(PC-8801-10)</name>
+		<name>[PC-8801] Laptick (らぷてっく) (AY-3-8910x2)</name>
 		<driver type="8801-10">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<romlist archive="laptick">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0800">OP</rom>
@@ -87,20 +87,20 @@
 			<rom type="code" offset="0x4740">PROG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MUS05 : タイトル</title>
-			<title code="0x00">MUS00 : メインBGM</title>
-			<title code="0x01">MUS01 : すーぱーびっきぃ君のテーマ(1)</title>
-			<title code="0x02">MUS02 : すーぱーびっきぃ君のテーマ(2)</title>
-			<title code="0x03">MUS03 : ミス</title>
-			<title code="0x04">MUS04 : ラウンドクリア</title>
-			<title code="0x06">MUS06 : ランキング</title>
-			<title code="0x07">MUS07 : キャスト</title>
+			<title code="0x05">Title (タイトル)</title>
+			<title code="0x00">Main BGM (メインBGM)</title>
+			<title code="0x01">Team Super Vicky (1) (すーぱーびっきぃ君のテーマ(1))</title>
+			<title code="0x02">Team Super Vicky (2) (すーぱーびっきぃ君のテーマ(2))</title>
+			<title code="0x03">Miss (ミス)</title>
+			<title code="0x04">Round Clear (ラウンドクリア)</title>
+			<title code="0x06">Ranking (ランキング)</title>
+			<title code="0x07">Cast (キャスト)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] うっでいぽこ</name>
+		<name>[PC-8801] Woody Poco (うっでいぽこ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5800"/>
 			<option name="use_rtc" value="0x01"/>
@@ -126,28 +126,28 @@
 			<rom type="bgm" offset="0x0f">END</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">たいとる</title>
-			<title code="0x00">お～ぷにんぐ</title>
-			<title code="0x06">でも１</title>
-			<title code="0x07">はる</title>
-			<title code="0x08">なつ</title>
-			<title code="0x09">あき</title>
-			<title code="0x0a">ふゆ</title>
-			<title code="0x03">だんじょん</title>
-			<title code="0x01">こまんども～ど</title>
-			<title code="0x02">ぼす</title>
-			<title code="0x0d">でも２</title>
-			<title code="0x0b">ゆうえんち</title>
-			<title code="0x0c">まおうのしろ</title>
-			<title code="0x0e">ざっぷ</title>
-			<title code="0x0f">えんでぃんぐ</title>
-			<title code="0x05">おしまい。</title>
+			<title code="0x04">Title (たいとる)</title>
+			<title code="0x00">Opening (お～ぷにんぐ)</title>
+			<title code="0x06">Demo 1 (でも1)</title>
+			<title code="0x07">Spring (はる)</title>
+			<title code="0x08">Summer (なつ)</title>
+			<title code="0x09">Fall (あき)</title>
+			<title code="0x0a">Winter (ふゆ)</title>
+			<title code="0x03">Dungeon (だんじょん)</title>
+			<title code="0x01">Command Mode (こまんども～ど)</title>
+			<title code="0x02">Boss (ぼす)</title>
+			<title code="0x0d">Demo 2 (でも2)</title>
+			<title code="0x0b">Amusement Park (ゆうえんち)</title>
+			<title code="0x0c">The Devil's Castle (まおうのしろ)</title>
+			<title code="0x0e">Zap (ざっぷ)</title>
+			<title code="0x0f">Ending (えんでぃんぐ)</title>
+			<title code="0x05">The End (おしまい。)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 今夜も朝までPOWERFULまぁじゃん</name>
+		<name>[PC-8801] Konya mo Asamade Powerful Mahjong (今夜も朝までPOWERFULまぁじゃん) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x6800"/>
@@ -225,9 +225,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 今夜も朝までPOWERFULまぁじゃん2</name>
+		<name>[PC-8801] Konya mo Asamade Powerful Mahjong 2 (今夜も朝までPOWERFULまぁじゃん2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -342,9 +342,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PRODUCE</name>
+		<name>[PC-8801] Produce (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3200"/>
@@ -374,9 +374,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] うっでいぽこ</name>
+		<name>[PC-9801] Woody Poco (うっでいぽこ) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">dB-SOFT</driveralias>
+		<driveralias type="PC-9801">dB-Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0200"/>
 			<option name="bootip" value="0x0000"/>
@@ -401,28 +401,28 @@
 			<rom type="bgm" offset="0x08">ZAP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00070000">OP    : たいとる</title>
-			<title code="0x00030000">OP    : お～ぷにんぐ</title>
-			<title code="0x00060000">OP    : でも1</title>
-			<title code="0x01000001">MUS00 : はる</title>
-			<title code="0x01000002">MUS01 : なつ</title>
-			<title code="0x01000003">MUS02 : あき</title>
-			<title code="0x01000004">MUS03 : ふゆ</title>
-			<title code="0x00010000">OP    : だんじょん</title>
-			<title code="0x00020000">OP    : こまんども～ど</title>
-			<title code="0x00000000">OP    : ぼす</title>
-			<title code="0x00050000">OP    : でも2</title>
-			<title code="0x01000005">MUS04 : ゆうえんち</title>
-			<title code="0x01000006">MUS05 : まおうのしろ</title>
-			<title code="0x00090008">ZAP   : ざっぷ</title>
-			<title code="0x00080007">END   : えんでぃんぐ</title>
-			<title code="0x00040000">OP    : おしまい。</title>
+			<title code="0x00070000">Title (たいとる)</title>
+			<title code="0x00030000">Opening (お～ぷにんぐ)</title>
+			<title code="0x00060000">Demo 1 (でも1)</title>
+			<title code="0x01000001">Spring (はる)</title>
+			<title code="0x01000002">Summer (なつ)</title>
+			<title code="0x01000003">Fall (あき)</title>
+			<title code="0x01000004">Winter (ふゆ)</title>
+			<title code="0x00010000">Dungeon (だんじょん)</title>
+			<title code="0x00020000">Command Mode (こまんども～ど)</title>
+			<title code="0x00000000">Boss (ぼす)</title>
+			<title code="0x00050000">Demo 2 (でも2)</title>
+			<title code="0x01000005">Amusement Park (ゆうえんち)</title>
+			<title code="0x01000006">The Devil's Castle (まおうのしろ)</title>
+			<title code="0x00090008">Zap (ざっぷ)</title>
+			<title code="0x00080007">Ending (えんでぃんぐ)</title>
+			<title code="0x00040000">The End (おしまい。)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 今夜も朝までPOWERFULまぁじゃん</name>
+		<name>[PC-9801] Konya mo Asamade Powerful Mahjong (今夜も朝までPOWERFULまぁじゃん) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">dB-SOFT</driveralias>
+		<driveralias type="PC-9801">dB-Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
 			<option name="bootip" value="0xf000"/>
@@ -511,9 +511,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 今夜も朝までPOWERFULまぁじゃん2</name>
+		<name>[PC-9801] Konya mo Asamade Powerful Mahjong 2 (今夜も朝までPOWERFULまぁじゃん2) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">dB-SOFT</driveralias>
+		<driveralias type="PC-9801">dB-Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0xf000"/>
@@ -633,9 +633,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] メルルーン</name>
+		<name>[PC-9801] Melroon (メルルーン) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">dB-SOFT</driveralias>
+		<driveralias type="PC-9801">dB-Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0200"/>
 			<option name="bootip" value="0xd000"/>
@@ -687,11 +687,11 @@
 			<title code="0x000003">MUS02-00 : ぺこフィールドの曲</title>
 			<title code="0x010003">MUS02-01 : ぺこ村の曲</title>
 			<title code="0x020003">MUS02-02 : 家の中の曲</title>
-			<title code="0x000004">MUS03-00 : ２部のフィールドの曲</title>
-			<title code="0x010004">MUS03-01 : ２部の村の曲</title>
-			<title code="0x020004">MUS03-02 : ２部の家の中の曲</title>
-			<title code="0x040004">MUS03-04 : ２部のボスの曲</title>
-			<title code="0x050004">MUS03-05 : ２部の地下の曲</title>
+			<title code="0x000004">MUS03-00 : 2部のフィールドの曲</title>
+			<title code="0x010004">MUS03-01 : 2部の村の曲</title>
+			<title code="0x020004">MUS03-02 : 2部の家の中の曲</title>
+			<title code="0x040004">MUS03-04 : 2部のボスの曲</title>
+			<title code="0x050004">MUS03-05 : 2部の地下の曲</title>
 			<title code="0x000005">MUS04-00 : 教会の曲</title>
 			<title code="0x010005">MUS04-01 : 何かをもらったときの曲</title>
 			<title code="0x020005">MUS04-02 : 追いかけっこの曲</title>
@@ -701,8 +701,8 @@
 			<title code="0x010006">MUS05-01 : 中間デモの曲</title>
 			<title code="0x020006">MUS05-02 : エンディングの曲</title>
 			<title code="0x030006">MUS05-03 : スタッフの曲</title>
-			<title code="0x040006">MUS05-04 : いそめパート１</title>
-			<title code="0x050006">MUS05-05 : いそめパート２</title>
+			<title code="0x040006">MUS05-04 : いそめパート1</title>
+			<title code="0x050006">MUS05-05 : いそめパート2</title>
 			<title code="0x060006">MUS05-06 : いそめパート３</title>
 			<title code="0x070006">MUS05-07 : 魔王復活の曲</title>
 			<title code="0x000007">MUS06-00 : ユリカーダの曲</title>
@@ -744,9 +744,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] うっでいぽこ(OPM)</name>
+		<name>[X1] Woody Poco (うっでいぽこ) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="init_pc"    value="0xf000"/>
@@ -766,27 +766,27 @@
 			<rom type="bgm" offset="0x06">MA006</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x06000000">たいとる</title>
-			<title code="0x04000000">でも1</title>
-			<title code="0x00000001">はる</title>
-			<title code="0x00000002">なつ</title>
-			<title code="0x00000003">あき</title>
-			<title code="0x00000004">ふゆ</title>
-			<title code="0x02000000">だんじょん</title>
-			<title code="0x03000000">こまんども～ど</title>
-			<title code="0x01000000">ぼす</title>
-			<title code="0x05000000">でも2</title>
-			<title code="0x00000005">ゆうえんち</title>
-			<title code="0x00000006">まおうのしろ</title>
-			<title code="0x08000000">ざっぷ</title>
-			<title code="0x09000000">えんでぃんぐ</title>
-			<title code="0x07000000">おしまい。</title>
+			<title code="0x06000000">Title (たいとる)</title>
+			<title code="0x04000000">Demo 1 (でも1)</title>
+			<title code="0x00000001">Spring (はる)</title>
+			<title code="0x00000002">Summer (なつ)</title>
+			<title code="0x00000003">Fall (あき)</title>
+			<title code="0x00000004">Winter (ふゆ)</title>
+			<title code="0x02000000">Dungeon (だんじょん)</title>
+			<title code="0x03000000">Command Mode (こまんども～ど)</title>
+			<title code="0x01000000">Boss (ぼす)</title>
+			<title code="0x05000000">Demo 2 (でも2)</title>
+			<title code="0x00000005">Amusement Park (ゆうえんち)</title>
+			<title code="0x00000006">The Devil's Castle (まおうのしろ)</title>
+			<title code="0x08000000">Zap (ざっぷ)</title>
+			<title code="0x09000000">Ending (えんでぃんぐ)</title>
+			<title code="0x07000000">The End (おしまい。)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] うっでいぽこ(PSG)</name>
+		<name>[X1] Woody Poco (うっでいぽこ) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="init_pc"    value="0xf000"/>
@@ -806,27 +806,27 @@
 			<rom type="bgm" offset="0x06">MB006</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x06000000">たいとる</title>
-			<title code="0x04000000">でも1</title>
-			<title code="0x00000001">はる</title>
-			<title code="0x00000002">なつ</title>
-			<title code="0x00000003">あき</title>
-			<title code="0x00000004">ふゆ</title>
-			<title code="0x02000000">だんじょん</title>
-			<title code="0x03000000">こまんども～ど</title>
-			<title code="0x01000000">ぼす</title>
-			<title code="0x05000000">でも2</title>
-			<title code="0x00000005">ゆうえんち</title>
-			<title code="0x00000006">まおうのしろ</title>
-			<title code="0x08000000">ざっぷ</title>
-			<title code="0x09000000">えんでぃんぐ</title>
-			<title code="0x07000000">おしまい。</title>
+			<title code="0x06000000">Title (たいとる)</title>								 
+			<title code="0x04000000">Demo 1 (でも1)</title>									
+			<title code="0x00000001">Spring (はる)</title>										
+			<title code="0x00000002">Summer (なつ)</title>										
+			<title code="0x00000003">Fall (あき)</title>											
+			<title code="0x00000004">Winter (ふゆ)</title>										
+			<title code="0x02000000">Dungeon (だんじょん)</title>						 
+			<title code="0x03000000">Command Mode (こまんども～ど)</title>		
+			<title code="0x01000000">Boss (ぼす)</title>											
+			<title code="0x05000000">Demo 2 (でも2)</title>									
+			<title code="0x00000005">Amusement Park (ゆうえんち)</title>			
+			<title code="0x00000006">The Devil's Castle (まおうのしろ)</title>
+			<title code="0x08000000">Zap (ざっぷ)</title>										 
+			<title code="0x09000000">Ending (えんでぃんぐ)</title>						
+			<title code="0x07000000">The End (おしまい。)</title>						 
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] 今夜も朝までPOWERFULまぁじゃん(OPM)</name>
+		<name>[X1] Konya mo Asamade Powerful Mahjong (今夜も朝までPOWERFULまぁじゃん) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0xf000"/>
 			<option name="mdata_addr" value="0x6000"/>
@@ -904,9 +904,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] 今夜も朝までPOWERFULまぁじゃん(PSG)</name>
+		<name>[X1] Konya mo Asamade Powerful Mahjong (今夜も朝までPOWERFULまぁじゃん) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0xf000"/>
 			<option name="mdata_addr" value="0x6000"/>
@@ -984,9 +984,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] 今夜も朝までPOWERFULまぁじゃん2(OPM)</name>
+		<name>[X1] Konya mo Asamade Powerful Mahjong 2 (今夜も朝までPOWERFULまぁじゃん2) (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf800"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -1106,9 +1106,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] 今夜も朝までPOWERFULまぁじゃん2(PSG)</name>
+		<name>[X1] Konya mo Asamade Powerful Mahjong 2 (今夜も朝までPOWERFULまぁじゃん2) (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf800"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -1229,9 +1229,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] PRODUCE(OPM)</name>
+		<name>[X1] Produce (YM2151)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
@@ -1257,9 +1257,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] PRODUCE(PSG)</name>
+		<name>[X1] Produce (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">dB-SOFT</driveralias>
+		<driveralias type="X1">dB-Soft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
@@ -1298,9 +1298,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] メルルーン</name>
+		<name>[PC-8801] Melroon (メルルーン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6800"/>
 			<option name="use_rtc" value="0x01"/>
@@ -1346,11 +1346,11 @@
 			<title code="0x00000007">BGM 07-00 : ぺこフィールドの曲</title>
 			<title code="0x01000007">BGM 07-01 : ぺこ村の曲</title>
 			<title code="0x02000007">BGM 07-02 : 家の中の曲</title>
-			<title code="0x00000008">BGM 08-00 : ２部のフィールドの曲</title>
-			<title code="0x01000008">BGM 08-01 : ２部の村の曲</title>
-			<title code="0x02000008">BGM 08-02 : ２部の家の中の曲</title>
-			<title code="0x04000008">BGM 08-04 : ２部のボスの曲</title>
-			<title code="0x05000008">BGM 08-05 : ２部の地下の曲</title>
+			<title code="0x00000008">BGM 08-00 : 2部のフィールドの曲</title>
+			<title code="0x01000008">BGM 08-01 : 2部の村の曲</title>
+			<title code="0x02000008">BGM 08-02 : 2部の家の中の曲</title>
+			<title code="0x04000008">BGM 08-04 : 2部のボスの曲</title>
+			<title code="0x05000008">BGM 08-05 : 2部の地下の曲</title>
 			<title code="0x00000009">BGM 09-00 : 教会の曲</title>
 			<title code="0x01000009">BGM 09-01 : 何かをもらったときの曲</title>
 			<title code="0x02000009">BGM 09-02 : 追いかけっこの曲</title>
@@ -1360,8 +1360,8 @@
 			<title code="0x0100000a">BGM 10-01 : 中間デモの曲</title>
 			<title code="0x0200000a">BGM 10-02 : エンディングの曲</title>
 			<title code="0x0300000a">BGM 10-03 : スタッフの曲</title>
-			<title code="0x0400000a">BGM 10-04 : いそめパート１</title>
-			<title code="0x0500000a">BGM 10-05 : いそめパート２</title>
+			<title code="0x0400000a">BGM 10-04 : いそめパート1</title>
+			<title code="0x0500000a">BGM 10-05 : いそめパート2</title>
 			<title code="0x0600000a">BGM 10-06 : いそめパート３</title>
 			<title code="0x0700000a">BGM 10-07 : 魔王復活の曲</title>
 			<title code="0x0000000b">BGM 11-00 : ユリカーダの曲</title>
@@ -1403,9 +1403,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PERSONAL PUBLISHING PROCESSOR P1 AUTO DEMO part1 (OPN)</name>
+		<name>[PC-8801] PERSONAL PUBLISHING PROCESSOR P1 AUTO DEMO part1 (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -1422,7 +1422,7 @@
 	<game>
 		<name>[PC-8801] PERSONAL PUBLISHING PROCESSOR P1 AUTO DEMO part1 (OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -1437,9 +1437,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PERSONAL PUBLISHING PROCESSOR P1 AUTO DEMO part2</name>
+		<name>[PC-8801] PERSONAL PUBLISHING PROCESSOR P1 AUTO DEMO part2 (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">dB-SOFT</driveralias>
+		<driveralias type="PC-8801">dB-Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9100"/>
 			<option name="use_rtc" value="0x01"/>
@@ -1456,9 +1456,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] FLAPPY2 ブルースター復活の日</name>
+		<name>[X68000] Flappy 2: Blue Star Fukkatsu No Hi (FLAPPY2 ブルースター復活の日) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">dB-SOFT</driveralias>
+		<driveralias type="X68000">dB-Soft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -1467,18 +1467,89 @@
 			<rom type="x" offset="0x10000">FLAPPY2.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : タイトル</title>
-			<title code="0x03">03 : ワールド1</title>
-			<title code="0x04">04 : ワールド2</title>
-			<title code="0x05">05 : ワールド3</title>
-			<title code="0x06">06 : ワールド4</title>
-			<title code="0x07">07 : ワールド5</title>
-			<title code="0x08">08 : ミス</title>
-			<title code="0x0c">12 : ワールドクリア</title>
-			<title code="0x09">09 : ボス</title>
-			<title code="0x0a">10 : ブレイクタイム</title>
-			<title code="0x02">02 : エンディング</title>
-			<title code="0x0b">11 : ゲームオーバー</title>
+			<title code="0x01">タイトル</title>
+			<title code="0x03">ワールド1</title>
+			<title code="0x04">ワールド2</title>
+			<title code="0x05">ワールド3</title>
+			<title code="0x06">ワールド4</title>
+			<title code="0x07">ワールド5</title>
+			<title code="0x08">ミス</title>
+			<title code="0x0c">ワールドクリア</title>
+			<title code="0x09">ボス</title>
+			<title code="0x0a">ブレイクタイム</title>
+			<title code="0x02">エンディング</title>
+			<title code="0x0b">ゲームオーバー</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Cross Blaim (クロスブレイム) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">dB-Soft</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="crossb_msx">
+			<rom type="code">Cross Blaim (1986)(dB-Soft).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Start Screen</title>
+			<title code="0x01">Main BGM</title>
+			<title code="0x02">Infant of Evil</title>
+			<title code="0x03">The End</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Zexas Limited (ゼクサスリミテッド) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">dB-Soft</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="zexas_msx">
+			<rom type="code">Zexas Limited (1985)(dB-Soft).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Intro Screen</title>
+			<title code="0x01">Game Start</title>
+			<title code="0x02">Game Over</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Strategic Mars (マース) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">dB-Soft</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="smars_msx">
+			<rom type="code">Strategic Mars (1988)(dB-Soft).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
 		</titlelist>
 	</game>
 </gamelist>
