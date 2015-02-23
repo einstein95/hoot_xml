@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //C's Ware -->
 	<game>
-		<name>[PC-9801] DESIRE ～背徳の螺旋～</name>
+		<name>[PC-9801] Desire: Spiral of Perversion (デザイア 背徳の螺旋) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -86,47 +86,47 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x30">OPENING.M  : Spiral</title>
-			<title code="0x31">TITLE.M    : Title</title>
-			<title code="0x2a">DES_79.M   : Ham-and-eggs</title>
-			<title code="0x11">DES_01.M   : Ishtal</title>
-			<title code="0x12">DES_02.M   : Tina</title>
-			<title code="0x13">DES_03.M   : Consideration</title>
-			<title code="0x15">DES_05.M   : Nonsense</title>
-			<title code="0x16">DES_07.M   : Night</title>
-			<title code="0x18">DES_12.M   : Suspect 1</title>
-			<title code="0x14">DES_04.M   : Brain</title>
-			<title code="0x17">DES_08.M   : Awakening</title>
-			<title code="0x19">DES_13.M   : Dream</title>
-			<title code="0x24">DES_32.M   : Smile</title>
-			<title code="0x1e">DES_19.M   : Pursuit</title>
-			<title code="0x2d">DES_84.M   : Suspect 2</title>
-			<title code="0x29">DES_78.M   : Sunset</title>
-			<title code="0x1f">DES_21.M   : Beat</title>
-			<title code="0x25">DES_34.M   : Indignation</title>
-			<title code="0x20">DES_22.M   : Regret</title>
-			<title code="0x26">DES_36.M   : Plot</title>
-			<title code="0x21">DES_24.M   : Fact</title>
-			<title code="0x22">DES_26.M   : Reflector</title>
-			<title code="0x2c">DES_82.M   : Solitude</title>
-			<title code="0x1b">DES_15.M   : Memory 1</title>
-			<title code="0x1c">DES_16.M   : Memory 2</title>
-			<title code="0x1d">DES_17.M   : Feel</title>
-			<title code="0x2e">DES_85.M   : Lament</title>
-			<title code="0x2f">ENDING.M   : Beginning</title>
-			<title code="0x10">AIR.M      : </title>
-			<title code="0x1a">DES_14.M   : </title>
-			<title code="0x23">DES_31.M   : Responser</title>
-			<title code="0x2b">DES_80.M   : </title>
-			<title code="0x27">DES_41.M   : SE</title>
-			<title code="0x28">DES_42.M   : SE</title>
-			<range min="0x0801" max="0x0821" extcode="0">DES_SE.EFC : %02X</range>
+			<title code="0x30">Spiral</title>
+			<title code="0x31">Title</title>
+			<title code="0x2a">Ham-and-eggs</title>
+			<title code="0x11">Ishtal</title>
+			<title code="0x12">Tina</title>
+			<title code="0x13">Consideration</title>
+			<title code="0x15">Nonsense</title>
+			<title code="0x16">Night</title>
+			<title code="0x18">Suspect 1</title>
+			<title code="0x14">Brain</title>
+			<title code="0x17">Awakening</title>
+			<title code="0x19">Dream</title>
+			<title code="0x24">Smile</title>
+			<title code="0x1e">Pursuit</title>
+			<title code="0x2d">Suspect 2</title>
+			<title code="0x29">Sunset</title>
+			<title code="0x1f">Beat</title>
+			<title code="0x25">Indignation</title>
+			<title code="0x20">Regret</title>
+			<title code="0x26">Plot</title>
+			<title code="0x21">Fact</title>
+			<title code="0x22">Reflector</title>
+			<title code="0x2c">Solitude</title>
+			<title code="0x1b">Memory 1</title>
+			<title code="0x1c">Memory 2</title>
+			<title code="0x1d">Feel</title>
+			<title code="0x2e">Lament</title>
+			<title code="0x2f">Beginning</title>
+			<title code="0x10">AIR.M</title>
+			<title code="0x1a">DES_14.M</title>
+			<title code="0x23">Responser</title>
+			<title code="0x2b">DES_80.M</title>
+			<title code="0x27">SE</title>
+			<title code="0x28">SE</title>
+			<range min="0x0801" max="0x0821" extcode="0">DES_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] EVE burst error(OPN)</name>
+		<name>[PC-9801] Eve: Burst Error! (イヴ ～バーストエラー～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -205,78 +205,78 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EVE_01.M  : Main(Noon) for Woman</title>
-			<title code="0x11">EVE_02.M  : Main(Night) for Woman</title>
-			<title code="0x12">EVE_03.M  : あまぎ探偵事務所</title>
-			<title code="0x3c">EVE_43.M  : 日常</title>
-			<title code="0x38">EVE_39.M  : 招かざる客</title>
-			<title code="0x13">EVE_04.M  : 決意</title>
-			<title code="0x14">EVE_05.M  : 安らぎ I</title>
-			<title code="0x15">EVE_06.M  : Main(Noon) for Man</title>
-			<title code="0x16">EVE_07.M  : イール外国人学校(Noon)</title>
-			<title code="0x17">EVE_08.M  : Main(Night) for Man</title>
-			<title code="0x18">EVE_09.M  : Bar</title>
-			<title code="0x19">EVE_10.M  : イール外国人学校(Night)</title>
-			<title code="0x1a">EVE_11.M  : 甲野本部長</title>
-			<title code="0x1b">EVE_12.M  : まりな自室</title>
-			<title code="0x1c">EVE_13.M  : 推理 Theme I(Common)</title>
-			<title code="0x1d">EVE_14.M  : 夢   Theme II</title>
-			<title code="0x3e">EVE_45.M  : 錯乱</title>
-			<title code="0x1e">EVE_15.M  : 脱走 Theme III</title>
-			<title code="0x1f">EVE_16.M  : 憩い</title>
-			<title code="0x39">EVE_40.M  : 悪寒</title>
-			<title code="0x20">EVE_17.M  : 安らぎ II</title>
-			<title code="0x21">EVE_18.M  : トリスタン号</title>
-			<title code="0x22">EVE_19.M  : 信頼</title>
-			<title code="0x25">EVE_20.M  : 恐怖 Theme IV</title>
-			<title code="0x26">EVE_21.M  : 会話</title>
-			<title code="0x27">EVE_22.M  : Opening Bridge</title>
-			<title code="0x28">EVE_23.M  : プリシア</title>
-			<title code="0x29">EVE_24.M  : 死臭</title>
-			<title code="0x3a">EVE_41.M  : 弥生</title>
-			<title code="0x3b">EVE_42.M  : 狂気</title>
-			<title code="0x2a">EVE_25.M  : エルディア</title>
-			<title code="0x2b">EVE_26.M  : 疑惑</title>
-			<title code="0x37">EVE_38.M  : 思惑</title>
-			<title code="0x2c">EVE_27.M  : ピンチ Theme V</title>
-			<title code="0x2d">EVE_28.M  : 血族</title>
-			<title code="0x2e">EVE_29.M  : 日付変更</title>
-			<title code="0x2f">EVE_30.M  : 決意</title>
-			<title code="0x3d">EVE_44.M  : ハッカー</title>
-			<title code="0x30">EVE_31.M  : 漂流</title>
-			<title code="0x31">EVE_32.M  : 日記 I</title>
-			<title code="0x32">EVE_33.M  : 日記 II</title>
-			<title code="0x33">EVE_34.M  : μ-101</title>
-			<title code="0x34">EVE_35.M  : Ending I</title>
-			<title code="0x35">EVE_36.M  : Ending II</title>
-			<title code="0x36">EVE_37.M  : Ending III</title>
-			<title code="0x23">EVE_19A.M : 信頼</title>
-			<title code="0x24">EVE_19B.M : 信頼</title>
-			<title code="0x3f">EVE_50.M  : </title>
-			<title code="0x40">EVE_51A.M : </title>
-			<title code="0x41">EVE_51B.M : </title>
-			<title code="0x42">EVE_51C.M : </title>
-			<title code="0x43">EVE_51D.M : </title>
-			<title code="0x44">EVE_51E.M : </title>
-			<title code="0x45">EVE_52.M  : </title>
-			<title code="0x46">EVE_54.M  : </title>
-			<title code="0x47">EVE_54A.M : </title>
-			<title code="0x48">EVE_54B.M : </title>
-			<title code="0x49">EVE_55.M  : </title>
-			<title code="0x50">EVE_56.M  : </title>
-			<title code="0x51">EVE_57.M  : </title>
-			<title code="0x52">EVE_58.M  : </title>
-			<title code="0x53">EVE_59.M  : </title>
-			<title code="0x54">EVE_60.M  : </title>
-			<title code="0x55">EVE_61.M  : </title>
-			<title code="0x56">EVE_62.M  : </title>
-			<range min="0x0801" max="0x0836" extcode="0">EVE.EFC   : %02X</range>
+			<title code="0x10">Main (Noon) for Woman</title>
+			<title code="0x11">Main (Night) for Woman</title>
+			<title code="0x12">Amagi Detective Office (あまぎ探偵事務所)</title>
+			<title code="0x3c">Everyday (日常)</title>
+			<title code="0x38">Uninvited Guest (招かざる客)</title>
+			<title code="0x13">Determination (決意)</title>
+			<title code="0x14">Peace I (安らぎ I)</title>
+			<title code="0x15">Main (Noon) for Man</title>
+			<title code="0x16">Yale International School (Noon) (イール外国人学校 (Noon))</title>
+			<title code="0x17">Main (Night) for Man</title>
+			<title code="0x18">Bar</title>
+			<title code="0x19">Yale International School (Night) (イール外国人学校 (Night))</title>
+			<title code="0x1a">Chief Kouno (甲野本部長)</title>
+			<title code="0x1b">Marina's Room (まりな自室)</title>
+			<title code="0x1c">Reasoning: Theme I (Common) (推理 Theme I (Common))</title>
+			<title code="0x1d">Dream: Theme II (夢 Theme II)</title>
+			<title code="0x3e">Burst Error (錯乱)</title>
+			<title code="0x1e">Escape: Theme III (脱走 Theme III)</title>
+			<title code="0x1f">Rest (憩い)</title>
+			<title code="0x39">Chills (悪寒)</title>
+			<title code="0x20">Peace II (安らぎ II)</title>
+			<title code="0x21">Tristan Ship (トリスタン号)</title>
+			<title code="0x22">Trust (信頼)</title>
+			<title code="0x25">Fear: Theme IV (恐怖 Theme IV)</title>
+			<title code="0x26">Conversation (会話)</title>
+			<title code="0x27">Opening (Bridge)</title>
+			<title code="0x28">Pricia (プリシア)</title>
+			<title code="0x29">Stench of Death (死臭)</title>
+			<title code="0x3a">Yayoi (弥生)</title>
+			<title code="0x3b">Madness (狂気)</title>
+			<title code="0x2a">Eldia (エルディア)</title>
+			<title code="0x2b">Suspicion (疑惑)</title>
+			<title code="0x37">Speculation (思惑)</title>
+			<title code="0x2c">Pinch: Theme V (ピンチ Theme V)</title>
+			<title code="0x2d">Kinship (血族)</title>
+			<title code="0x2e">Date Change (日付変更)</title>
+			<title code="0x2f">Resolution (決意)</title>
+			<title code="0x3d">Hacker (ハッカー)</title>
+			<title code="0x30">Drifting (漂流)</title>
+			<title code="0x31">Diary I (日記 I)</title>
+			<title code="0x32">Diary II (日記 II)</title>
+			<title code="0x33">Mu-101 (μ-101)</title>
+			<title code="0x34">Ending I</title>
+			<title code="0x35">Ending II</title>
+			<title code="0x36">Ending III</title>
+			<title code="0x23">Trust (A) (信頼 (A))</title>
+			<title code="0x24">Trust (B) (信頼 (B))</title>
+			<title code="0x3f">EVE_50.M</title>
+			<title code="0x40">EVE_51A.M</title>
+			<title code="0x41">EVE_51B.M</title>
+			<title code="0x42">EVE_51C.M</title>
+			<title code="0x43">EVE_51D.M</title>
+			<title code="0x44">EVE_51E.M</title>
+			<title code="0x45">EVE_52.M</title>
+			<title code="0x46">EVE_54.M</title>
+			<title code="0x47">EVE_54A.M</title>
+			<title code="0x48">EVE_54B.M</title>
+			<title code="0x49">EVE_55.M</title>
+			<title code="0x50">EVE_56.M</title>
+			<title code="0x51">EVE_57.M</title>
+			<title code="0x52">EVE_58.M</title>
+			<title code="0x53">EVE_59.M</title>
+			<title code="0x54">EVE_60.M</title>
+			<title code="0x55">EVE_61.M</title>
+			<title code="0x56">EVE_62.M</title>
+			<range min="0x0801" max="0x0836" extcode="0">EVE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] EVE burst error(PPZ8)</name>
+		<name>[PC-9801] Eve: Burst Error! (イヴ ～バーストエラー～) (YM2608)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
@@ -360,76 +360,76 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EVE_01.M  : Main(Noon) for Woman</title>
-			<title code="0x11">EVE_02.M  : Main(Night) for Woman</title>
-			<title code="0x12">EVE_03.M  : あまぎ探偵事務所</title>
-			<title code="0x3c">EVE_43.M  : 日常</title>
-			<title code="0x38">EVE_39.M  : 招かざる客</title>
-			<title code="0x13">EVE_04.M  : 決意</title>
-			<title code="0x14">EVE_05.M  : 安らぎ I</title>
-			<title code="0x15">EVE_06.M  : Main(Noon) for Man</title>
-			<title code="0x16">EVE_07.M  : イール外国人学校(Noon)</title>
-			<title code="0x17">EVE_08.M  : Main(Night) for Man</title>
-			<title code="0x18">EVE_09.M  : Bar</title>
-			<title code="0x19">EVE_10.M  : イール外国人学校(Night)</title>
-			<title code="0x1a">EVE_11.M  : 甲野本部長</title>
-			<title code="0x1b">EVE_12.M  : まりな自室</title>
-			<title code="0x1c">EVE_13.M  : 推理 Theme I(Common)</title>
-			<title code="0x1d">EVE_14.M  : 夢   Theme II</title>
-			<title code="0x3e">EVE_45.M  : 錯乱</title>
-			<title code="0x1e">EVE_15.M  : 脱走 Theme III</title>
-			<title code="0x1f">EVE_16.M  : 憩い</title>
-			<title code="0x39">EVE_40.M  : 悪寒</title>
-			<title code="0x20">EVE_17.M  : 安らぎ II</title>
-			<title code="0x21">EVE_18.M  : トリスタン号</title>
-			<title code="0x22">EVE_19.M  : 信頼</title>
-			<title code="0x25">EVE_20.M  : 恐怖 Theme IV</title>
-			<title code="0x26">EVE_21.M  : 会話</title>
-			<title code="0x27">EVE_22.M  : Opening Bridge</title>
-			<title code="0x28">EVE_23.M  : プリシア</title>
-			<title code="0x29">EVE_24.M  : 死臭</title>
-			<title code="0x3a">EVE_41.M  : 弥生</title>
-			<title code="0x3b">EVE_42.M  : 狂気</title>
-			<title code="0x2a">EVE_25.M  : エルディア</title>
-			<title code="0x2b">EVE_26.M  : 疑惑</title>
-			<title code="0x37">EVE_38.M  : 思惑</title>
-			<title code="0x2c">EVE_27.M  : ピンチ Theme V</title>
-			<title code="0x2d">EVE_28.M  : 血族</title>
-			<title code="0x2e">EVE_29.M  : 日付変更</title>
-			<title code="0x2f">EVE_30.M  : 決意</title>
-			<title code="0x3d">EVE_44.M  : ハッカー</title>
-			<title code="0x30">EVE_31.M  : 漂流</title>
-			<title code="0x31">EVE_32.M  : 日記 I</title>
-			<title code="0x32">EVE_33.M  : 日記 II</title>
-			<title code="0x33">EVE_34.M  : μ-101</title>
-			<title code="0x34">EVE_35.M  : Ending I</title>
-			<title code="0x35">EVE_36.M  : Ending II</title>
-			<title code="0x36">EVE_37.M  : Ending III</title>
-			<title code="0x23">EVE_19A.M : 信頼</title>
-			<title code="0x24">EVE_19B.M : 信頼</title>
-			<title code="0x3f">EVE_50.M  : </title>
-			<title code="0x40">EVE_51A.M : </title>
-			<title code="0x41">EVE_51B.M : </title>
-			<title code="0x42">EVE_51C.M : </title>
-			<title code="0x43">EVE_51D.M : </title>
-			<title code="0x44">EVE_51E.M : </title>
-			<title code="0x45">EVE_52.M  : </title>
-			<title code="0x46">EVE_54A.M : </title>
-			<title code="0x47">EVE_54B.M : </title>
-			<title code="0x48">EVE_55.M  : </title>
-			<title code="0x49">EVE_56.M  : </title>
-			<title code="0x50">EVE_57.M  : </title>
-			<title code="0x51">EVE_58.M  : </title>
-			<title code="0x52">EVE_59.M  : </title>
-			<title code="0x53">EVE_60.M  : </title>
-			<title code="0x54">EVE_61.M  : </title>
-			<title code="0x55">EVE_62.M  : </title>
+			<title code="0x10">Main (Noon) for Woman</title>
+			<title code="0x11">Main (Night) for Woman</title>
+			<title code="0x12">Amagi Detective Office (あまぎ探偵事務所)</title>
+			<title code="0x3c">Everyday (日常)</title>
+			<title code="0x38">Uninvited Guest (招かざる客)</title>
+			<title code="0x13">Determination (決意)</title>
+			<title code="0x14">Peace I (安らぎ I)</title>
+			<title code="0x15">Main (Noon) for Man</title>
+			<title code="0x16">Yale International School (Noon) (イール外国人学校 (Noon))</title>
+			<title code="0x17">Main (Night) for Man</title>
+			<title code="0x18">Bar</title>
+			<title code="0x19">Yale International School (Night) (イール外国人学校 (Night))</title>
+			<title code="0x1a">Chief Kouno (甲野本部長)</title>
+			<title code="0x1b">Marina's Room (まりな自室)</title>
+			<title code="0x1c">Reasoning: Theme I (Common) (推理 Theme I (Common))</title>
+			<title code="0x1d">Dream: Theme II (夢 Theme II)</title>
+			<title code="0x3e">Burst Error (錯乱)</title>
+			<title code="0x1e">Escape: Theme III (脱走 Theme III)</title>
+			<title code="0x1f">Rest (憩い)</title>
+			<title code="0x39">Chills (悪寒)</title>
+			<title code="0x20">Peace II (安らぎ II)</title>
+			<title code="0x21">Tristan Ship (トリスタン号)</title>
+			<title code="0x22">Trust (信頼)</title>
+			<title code="0x25">Fear: Theme IV (恐怖 Theme IV)</title>
+			<title code="0x26">Conversation (会話)</title>
+			<title code="0x27">Opening (Bridge)</title>
+			<title code="0x28">Pricia (プリシア)</title>
+			<title code="0x29">Stench of Death (死臭)</title>
+			<title code="0x3a">Yayoi (弥生)</title>
+			<title code="0x3b">Madness (狂気)</title>
+			<title code="0x2a">Eldia (エルディア)</title>
+			<title code="0x2b">Suspicion (疑惑)</title>
+			<title code="0x37">Speculation (思惑)</title>
+			<title code="0x2c">Pinch: Theme V (ピンチ Theme V)</title>
+			<title code="0x2d">Kinship (血族)</title>
+			<title code="0x2e">Date Change (日付変更)</title>
+			<title code="0x2f">Resolution (決意)</title>
+			<title code="0x3d">Hacker (ハッカー)</title>
+			<title code="0x30">Drifting (漂流)</title>
+			<title code="0x31">Diary I (日記 I)</title>
+			<title code="0x32">Diary II (日記 II)</title>
+			<title code="0x33">Mu-101 (μ-101)</title>
+			<title code="0x34">Ending I</title>
+			<title code="0x35">Ending II</title>
+			<title code="0x36">Ending III</title>
+			<title code="0x23">Trust (A) (信頼 (A))</title>
+			<title code="0x24">Trust (B) (信頼 (B))</title>
+			<title code="0x3f">EVE_50.M</title>
+			<title code="0x40">EVE_51A.M</title>
+			<title code="0x41">EVE_51B.M</title>
+			<title code="0x42">EVE_51C.M</title>
+			<title code="0x43">EVE_51D.M</title>
+			<title code="0x44">EVE_51E.M</title>
+			<title code="0x45">EVE_52.M</title>
+			<title code="0x46">EVE_54A.M</title>
+			<title code="0x47">EVE_54B.M</title>
+			<title code="0x48">EVE_55.M</title>
+			<title code="0x49">EVE_56.M</title>
+			<title code="0x50">EVE_57.M</title>
+			<title code="0x51">EVE_58.M</title>
+			<title code="0x52">EVE_59.M</title>
+			<title code="0x53">EVE_60.M</title>
+			<title code="0x54">EVE_61.M</title>
+			<title code="0x55">EVE_62.M</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] GLO･RI･A ～禁断の血族～</name>
+		<name>[PC-9801] GLO.RI.A: Kindan no Ketsuzoku 2 (グロリア ～禁断の血族～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -457,28 +457,28 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x17">LEANE.M    : Leant on Him</title>
-			<title code="0x18">LEANE_OP.M : `Gloria'</title>
-			<title code="0x19">LS64.M     : Go for A Drive in A Car</title>
-			<title code="0x13">GL04_MUS.M : Celebrate A Marriage</title>
-			<title code="0x14">GL06.M     : Dead Close</title>
-			<title code="0x1b">MEI.M      : Monkey Jester</title>
-			<title code="0x1a">LS72.M     : Fine Sunday</title>
-			<title code="0x15">GL11.M     : Next Challenge</title>
-			<title code="0x16">GL12.M     : A Cog of The Lust</title>
-			<title code="0x11">CG-MODE.M  : Moon Flight</title>
-			<title code="0x12">GL04.M     : Celebrate a Marriage(Bell)</title>
-			<title code="0x10">BIRD.M     : Bird mornin</title>
-			<title code="0x1d">WAKEUP.M   : おっき</title>
-			<title code="0x1c">RAIN.M     : 嵐</title>
-			<title code="0x1e">WIND.M     : 風.WIND</title>
-			<range min="0x0802" max="0x080c" extcode="1">GLO.EFC    : %2X</range>
+			<title code="0x17">Leant on Him</title>
+			<title code="0x18">`Gloria'</title>
+			<title code="0x19">Go for a Drive in a Car</title>
+			<title code="0x13">Celebrate A Marriage</title>
+			<title code="0x14">Dead Close</title>
+			<title code="0x1b">Monkey Jester</title>
+			<title code="0x1a">Fine Sunday</title>
+			<title code="0x15">Next Challenge</title>
+			<title code="0x16">A Cog of The Lust</title>
+			<title code="0x11">Moon Flight</title>
+			<title code="0x12">Celebrate a Marriage(Bell)</title>
+			<title code="0x10">Bird mornin</title>
+			<title code="0x1d">おっき</title>
+			<title code="0x1c">嵐</title>
+			<title code="0x1e">風.WIND</title>
+			<range min="0x0802" max="0x080c" extcode="1">GLO.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] XENON ～夢幻の肢体～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -560,7 +560,7 @@
 	<game>
 		<name>[PC-9801] エイミーと呼ばないでっ(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -654,7 +654,7 @@
 	<game>
 		<name>[PC-9801] エイミーと呼ばないでっ(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -740,9 +740,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ラブィーニ</name>
+		<name>[PC-9801] Rabbini (ラブィーニ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -786,44 +786,44 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">SN05.M     : 心持ち不安</title>
-			<title code="0x22">SN16.M     : My doubts Cleared</title>
-			<title code="0x1D">RF04.M     : 流し目</title>
-			<title code="0x2C">WF28.M     : The Pure in Heart</title>
-			<title code="0x17">GD14.M     : ラブィーニ ～タイトル～</title>
-			<title code="0x21">SN07.M     : Under the Escort</title>
-			<title code="0x23">SN20.M     : 陽差し</title>
-			<title code="0x10">AR07.M     : Evening</title>
-			<title code="0x2A">VF30.M     : Holiday Art</title>
-			<title code="0x2D">WF78.M     : 裏工作</title>
-			<title code="0x25">SN21.M     : Antipersonnel Weapon</title>
-			<title code="0x26">SN23.M     : Skeleton dance</title>
-			<title code="0x2B">WF15.M     : I Feel Blue</title>
-			<title code="0x16">FRATO.M    : 静かな衝動</title>
-			<title code="0x1A">GD69.M     : 自室</title>
-			<title code="0x1F">SN04.M     : 放課</title>
-			<title code="0x1C">NULK.M     : nulkastra</title>
-			<title code="0x29">TW01.M     : Easy WIN</title>
-			<title code="0x1E">RF14.M     : Puzzle</title>
-			<title code="0x19">GD14_E.M   : ラブィーニ ～安らぎ～</title>
-			<title code="0x18">GD14_D.M   : ラブィーニ ～なれ合い～</title>
-			<title code="0x24">SN20_S.M   : 目覚め</title>
-			<title code="0x27">SV11.M     : Drive Through Shopin'</title>
-			<title code="0x11">CAR_BUR.M  : SE CAR BRAKING</title>
-			<title code="0x12">CHIM.M     : SE チャイム</title>
-			<title code="0x13">DOORCREK.M : SE ドアノブ</title>
-			<title code="0x14">DOORKNOC.M : SE ドアノック</title>
-			<title code="0x15">DOSI.M     : SE ぶきゅる</title>
-			<title code="0x1B">HARITE.M   : SE 張り手</title>
-			<title code="0x28">TEL_RING.M : SE 電話</title>
-			<range min="0x0801" max="0x0810" extcode="1">NAZO.EFC   : %02X</range>
-			<range min="0x081a" max="0x081a" extcode="1">NAZO.EFC   : %02X</range>
+			<title code="0x20">Troubled Mind (心持ち不安)</title>
+			<title code="0x22">My Doubts Cleared</title>
+			<title code="0x1D">Looking Askance (流し目)</title>
+			<title code="0x2C">The Pure in Heart</title>
+			<title code="0x17">Rabbini (Title) (ラブィーニ ～タイトル～)</title>
+			<title code="0x21">Under the Escort</title>
+			<title code="0x23">Sunlight (陽差し)</title>
+			<title code="0x10">Evening (夕方)</title>
+			<title code="0x2A">Holiday's Art</title>
+			<title code="0x2D">Reverse Engineering (裏工作)</title>
+			<title code="0x25">Anti-Personnel Weapon</title>
+			<title code="0x26">Skeleton Dance</title>
+			<title code="0x2B">I Feel Blue</title>
+			<title code="0x16">A Peaceful Walk in Town (静かな衝動)</title>
+			<title code="0x1A">My Room (自室)</title>
+			<title code="0x1F">After School (放課)</title>
+			<title code="0x1C">Nulkastra</title>
+			<title code="0x29">Easy Win (てすと楽勝)</title>
+			<title code="0x1E">Puzzle (てすと悩む)</title>
+			<title code="0x19">Rabbini (Tranquility) (ラブィーニ ～安らぎ～)</title>
+			<title code="0x18">Rabbini (Intimacy) (ラブィーニ ～なれ合い～)</title>
+			<title code="0x24">Waking Up (目覚め)</title>
+			<title code="0x27">Drive Through Shoppin'</title>
+			<title code="0x11">SFX "Car Breaking"</title>
+			<title code="0x12">SFX "Chime" (チャイム)</title>
+			<title code="0x13">SFX "Door Knob" (ドアノブ)</title>
+			<title code="0x14">SFX "Door Knock" (ドアノック)</title>
+			<title code="0x15">SFX "Thump" (ぶきゅる)</title>
+			<title code="0x1B">SFX "Slapping" (張り手)</title>
+			<title code="0x28">SFX "Telephone Ring" (電話)</title>
+			<range min="0x0801" max="0x0810" extcode="1">NAZO.EFC #%2X</range>
+			<title code="0x081a">NAZO.EFC 081A</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 悦楽の学園</name>
+		<name>[PC-9801] Etsuraku no Gakuen (悦楽の学園) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -875,53 +875,53 @@
 			<rom type="shell" offset="0">MLALF_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="46">LOGO.MLO     : </title>
-			<title code="29">ID03.MLO     : 校内の様子</title>
-			<title code="39">ID51.MLO     : 雨宮淑子</title>
-			<title code="14">HS0701.MLO   : 夢幻</title>
-			<title code="49">TIT3.MLO     : 悦楽の学園</title>
-			<title code="34">ID21.MLO     : 職員室</title>
-			<title code="33">ID15.MLO     : 振間典子</title>
-			<title code="24">HS0723.MLO   : 霞んだ日常</title>
-			<title code="48">MIST_R.MLO   : ミステリートラベル(オープニング)</title>
-			<title code="38">ID49.MLO     : 連絡員・由美</title>
-			<title code="26">HS0726.MLO   : アバンチュール</title>
-			<title code="15">HS0702.MLO   : MENU</title>
-			<title code="20">HS0719.MLO   : 理事長室</title>
-			<title code="28">ID02.MLO     : 氷室恭子</title>
-			<title code="27">HS0727.MLO   : 弱味</title>
-			<title code="37">ID40.MLO     : 保健室</title>
-			<title code="44">ID67.MLO     : 松乃広美</title>
-			<title code="17">HS0712.MLO   : 真心の広美</title>
-			<title code="31">ID12.MLO     : 体育館</title>
-			<title code="25">HS0724.MLO   : 純真</title>
-			<title code="40">ID54.MLO     : 温水プール</title>
-			<title code="41">ID57.MLO     : 謀計</title>
-			<title code="21">HS0721.MLO   : 水面下</title>
-			<title code="19">HS0718.MLO   : 夜のしじま</title>
-			<title code="43">ID62.MLO     : 純愛とナイフ</title>
-			<title code="22">HS0722.MLO   : 密事</title>
-			<title code="16">HS0711.MLO   : 性奴</title>
-			<title code="42">ID59.MLO     : 広美の告白</title>
-			<title code="51">YK12.MLO     : 淫虐</title>
-			<title code="32">ID14.MLO     : 乱闘</title>
-			<title code="35">ID28.MLO     : 終極</title>
-			<title code="18">HS0716.MLO   : 名残</title>
-			<title code="47">MIST.MLO     : ミステリートラベル(エンディング)</title>
+			<title code="50">Title</title>
+			<title code="29">In the School Grounds (校内の様子)</title>
+			<title code="39">Toshiko Amamiya (雨宮淑子)</title>
+			<title code="14">Phantasm (夢幻)</title>
+			<title code="49">School of Pleasures (悦楽の学園)</title>
+			<title code="34">Teachers' Room (職員室)</title>
+			<title code="33">Noriko Furima (振間典子)</title>
+			<title code="24">Boring Routine (霞んだ日常)</title>
+			<title code="48">Mystery Travel (Opening) (ミステリートラベル(オープニング))</title>
+			<title code="38">Yumi the Liaison Girl (連絡員・由美)</title>
+			<title code="26">Aventure (アバンチュール)</title>
+			<title code="15">Menu</title>
+			<title code="20">Director's Room (理事長室)</title>
+			<title code="28">Kyouko Himuro (氷室恭子)</title>
+			<title code="27">Weakness (弱味)</title>
+			<title code="37">Medical Room (保健室)</title>
+			<title code="44">Hiromi Matsuno (松乃広美)</title>
+			<title code="17">Faithful Hiromi (真心の広美)</title>
+			<title code="31">Gymnasium (体育館)</title>
+			<title code="25">Naivety (純真)</title>
+			<title code="40">Hot Pool (温水プール)</title>
+			<title code="41">Stratagem (謀計)</title>
+			<title code="21">Underwater (水面下)</title>
+			<title code="19">Night Spleen (夜のしじま)</title>
+			<title code="43">Pure Love and Knife (純愛とナイフ)</title>
+			<title code="22">Secret 1 (密事)</title>
+			<title code="23">Secret 2 (密事)</title>
+			<title code="16">Sex Slave (性奴)</title>
+			<title code="42">Hiromi's Confession (広美の告白)</title>
+			<title code="51">Violation (淫虐)</title>
+			<title code="32">Scuffle (乱闘)</title>
+			<title code="35">Finale 1 (終極)</title>
+			<title code="36">Finale 2 (終極)</title>
+			<title code="18">Farewell (名残)</title>
+			<title code="47">Mystery Travel (Ending) (ミステリートラベル(エンディング))</title>
 			<title code="30">ID08.MLO     : </title>
-			<title code="36">ID28_B.MLO   : </title>
-			<title code="11">BAMN.MLO     : </title>
-			<title code="12">CHIM2.MLO    : </title>
-			<title code="13">DOCUL.MLO    : </title>
-			<title code="23">HS0722_B.MLO : </title>
-			<title code="45">JYU.MLO      : </title>
+			<title code="11">SFX "Bam"</title>
+			<title code="12">SFX "Chime"</title>
+			<title code="13">SFX "Door Slam"</title>
+			<title code="45">SFX "Gun"</title>
 			<title code="50">TIT3_R.MLO   : </title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 禁断の血族</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">C's Ware</driveralias>
+		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -991,7 +991,7 @@
 	<game>
 		<name>[PC-9821] エイミーと呼ばないでっ(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1086,7 +1086,7 @@
 	<game>
 		<name>[PC-9821] エイミーと呼ばないでっ(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1174,7 +1174,7 @@
 	<game>
 		<name>[PC-9821] DESIRE ～背徳の螺旋～</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1275,7 +1275,7 @@
 	<game>
 		<name>[PC-9821] XENON ～夢幻の肢体～</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1355,7 +1355,7 @@
 	<game>
 		<name>[PC-9821] 悦楽の学園</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1452,7 +1452,7 @@
 	<game>
 		<name>[PC-9821] 禁断の血族</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9821">C's Ware</driveralias>
+		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
