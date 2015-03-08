@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] BOKOSUKA WARS</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -54,7 +54,7 @@
 	<game>
 		<name>[PC-8801] XYLOS</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="baseclock" value="0x04"/>
 		</options>
@@ -69,7 +69,7 @@
 	<game>
 		<name>[PC-8801] The Castle</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -102,7 +102,7 @@
 	<game>
 		<name>[PC-8801] Castle Excellent</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -135,7 +135,7 @@
 	<game>
 		<name>[PC-8801] 冒険者達 賢者の遺言</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -158,7 +158,7 @@
 	<game>
 		<name>[PC-8801] 1942</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<romlist archive="1942_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa300">PROG</rom>
@@ -188,7 +188,7 @@
 	<game>
 		<name>[PC-8801] 魔界村</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
@@ -212,22 +212,22 @@
 			<title code="0x0000000c">BGM12 : GAME OVER</title>
 			<title code="0x0000000d">BGM13 : TIMEOUT ALERT</title>
 			<title code="0x01000000">SE00  : SE STOP</title>
-			<title code="0x01000001">SE01  : </title>
-			<title code="0x01000002">SE02  : </title>
-			<title code="0x01000003">SE03  : </title>
-			<title code="0x01000004">SE04  : </title>
-			<title code="0x01000005">SE05  : </title>
-			<title code="0x01000006">SE06  : </title>
-			<title code="0x01000007">SE07  : </title>
-			<title code="0x01000008">SE08  : </title>
-			<title code="0x01000009">SE09  : </title>
-			<title code="0x0100000a">SE10  : </title>
+			<title code="0x01000001">SE01</title>
+			<title code="0x01000002">SE02</title>
+			<title code="0x01000003">SE03</title>
+			<title code="0x01000004">SE04</title>
+			<title code="0x01000005">SE05</title>
+			<title code="0x01000006">SE06</title>
+			<title code="0x01000007">SE07</title>
+			<title code="0x01000008">SE08</title>
+			<title code="0x01000009">SE09</title>
+			<title code="0x0100000a">SE10</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] ヨコスカウォーズ</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -271,7 +271,7 @@
 	<game>
 		<name>[PC-8801] タテスカウォーズ</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -323,7 +323,7 @@
 	<game>
 		<name>[PC-8801] PRODIGY</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">ASCII</driveralias>
+		<driveralias type="PC-8801">ASCII</driveralias>
 		<romlist archive="prodigy88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8000">DRIVER</rom>
@@ -354,7 +354,7 @@
 	<game>
 		<name>[PC-9801] Chaos Angels(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x8000"/>
@@ -490,7 +490,7 @@
 	<game>
 		<name>[PC-9801] Chaos Angels(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x8000"/>
@@ -626,7 +626,7 @@
 	<game>
 		<name>[PC-9801] LOGIN DISK&amp;BOOKシリーズ 北海道連鎖殺人事件 オホーツクに消ゆ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -650,7 +650,7 @@
 	<game>
 		<name>[PC-9801] シューティングツクール バカスカウォーズ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -697,46 +697,46 @@
 			<rom type="shell" offset="0">music_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">BGM_A.MML    : </title>
-			<title code="12">BGM_B.MML    : </title>
-			<title code="13">BGM_C.MML    : </title>
-			<title code="14">BGM_D.MML    : </title>
-			<title code="15">BGM_E.MML    : </title>
-			<title code="16">BGM_F.MML    : </title>
-			<title code="17">BGM_G.MML    : </title>
-			<title code="18">BGM_H.MML    : </title>
-			<title code="19">BGM_I.MML    : </title>
-			<title code="20">BGM_J.MML    : </title>
-			<title code="21">BGM_K.MML    : </title>
-			<title code="22">BGM_L.MML    : </title>
-			<title code="23">BGM_M.MML    : </title>
-			<title code="24">BGM_N.MML    : </title>
-			<title code="25">BGM_O.MML    : </title>
-			<title code="26">BGM_P.MML    : </title>
-			<title code="27">BGM_Q.MML    : </title>
-			<title code="28">BGM_R.MML    : </title>
-			<title code="29">BGM_S.MML    : </title>
-			<title code="30">BGM_T.MML    : </title>
-			<title code="31">BGM_U.MML    : </title>
-			<title code="32">BGM_V.MML    : </title>
-			<title code="33">BGM_W.MML    : </title>
-			<title code="34">BGM_X.MML    : </title>
-			<title code="35">BGM_Y.MML    : </title>
-			<title code="36">BGM_Z.MML    : </title>
-			<title code="37">OVER1.MML    : </title>
-			<title code="38">OVER2.MML    : </title>
-			<title code="39">TEST.MML     : </title>
-			<title code="40">UNI_1.MML    : </title>
-			<title code="41">UNI_2.MML    : </title>
-			<title code="42">UNI_3.MML    : </title>
-			<title code="43">UNI_4.MML    : </title>
-			<title code="44">YOKOTA_1.MML : </title>
+			<title code="11">BGM_A.MML</title>
+			<title code="12">BGM_B.MML</title>
+			<title code="13">BGM_C.MML</title>
+			<title code="14">BGM_D.MML</title>
+			<title code="15">BGM_E.MML</title>
+			<title code="16">BGM_F.MML</title>
+			<title code="17">BGM_G.MML</title>
+			<title code="18">BGM_H.MML</title>
+			<title code="19">BGM_I.MML</title>
+			<title code="20">BGM_J.MML</title>
+			<title code="21">BGM_K.MML</title>
+			<title code="22">BGM_L.MML</title>
+			<title code="23">BGM_M.MML</title>
+			<title code="24">BGM_N.MML</title>
+			<title code="25">BGM_O.MML</title>
+			<title code="26">BGM_P.MML</title>
+			<title code="27">BGM_Q.MML</title>
+			<title code="28">BGM_R.MML</title>
+			<title code="29">BGM_S.MML</title>
+			<title code="30">BGM_T.MML</title>
+			<title code="31">BGM_U.MML</title>
+			<title code="32">BGM_V.MML</title>
+			<title code="33">BGM_W.MML</title>
+			<title code="34">BGM_X.MML</title>
+			<title code="35">BGM_Y.MML</title>
+			<title code="36">BGM_Z.MML</title>
+			<title code="37">OVER1.MML</title>
+			<title code="38">OVER2.MML</title>
+			<title code="39">TEST.MML</title>
+			<title code="40">UNI_1.MML</title>
+			<title code="41">UNI_2.MML</title>
+			<title code="42">UNI_3.MML</title>
+			<title code="43">UNI_4.MML</title>
+			<title code="44">YOKOTA_1.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ダンジョンRPGツクール だんだんダンジョン</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -768,31 +768,31 @@
 			<rom type="shell" offset="0">music_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">BGM00.MML      : </title>
-			<title code="12">TITLE.MML      : </title>
-			<title code="13">BGM/ACCOR.MML  : </title>
-			<title code="14">BGM/BANPA.MML  : </title>
-			<title code="15">BGM/BGM00.MML  : </title>
-			<title code="16">BGM/BORE.MML   : </title>
-			<title code="17">BGM/BOSS.MML   : </title>
-			<title code="18">BGM/CHANC.MML  : </title>
-			<title code="19">BGM/DANG.MML   : </title>
-			<title code="20">BGM/DENDE.MML  : </title>
-			<title code="21">BGM/DORAG.MML  : </title>
-			<title code="22">BGM/ENDIN.MML  : </title>
-			<title code="23">BGM/NINJA.MML  : </title>
-			<title code="24">BGM/OVERJ.MML  : </title>
-			<title code="25">BGM/OVERV.MML  : </title>
-			<title code="26">BGM/SAICH.MML  : </title>
-			<title code="27">BGM/SELECT.MML : </title>
-			<title code="28">BGM/TITLE.MML  : </title>
-			<title code="29">BGM/VALOC.MML  : </title>
+			<title code="11">BGM00.MML</title>
+			<title code="12">TITLE.MML</title>
+			<title code="13">BGM/ACCOR.MML</title>
+			<title code="14">BGM/BANPA.MML</title>
+			<title code="15">BGM/BGM00.MML</title>
+			<title code="16">BGM/BORE.MML</title>
+			<title code="17">BGM/BOSS.MML</title>
+			<title code="18">BGM/CHANC.MML</title>
+			<title code="19">BGM/DANG.MML</title>
+			<title code="20">BGM/DENDE.MML</title>
+			<title code="21">BGM/DORAG.MML</title>
+			<title code="22">BGM/ENDIN.MML</title>
+			<title code="23">BGM/NINJA.MML</title>
+			<title code="24">BGM/OVERJ.MML</title>
+			<title code="25">BGM/OVERV.MML</title>
+			<title code="26">BGM/SAICH.MML</title>
+			<title code="27">BGM/SELECT.MML</title>
+			<title code="28">BGM/TITLE.MML</title>
+			<title code="29">BGM/VALOC.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] RPGツクール DANTE98</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -896,7 +896,7 @@
 	<game>
 		<name>[PC-9801] 偽典・女神転生 東京黙示録(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -957,13 +957,13 @@
 			<title code="0x25">SB015.BIN</title>
 			<title code="0x26">SB016.BIN</title>
 			<title code="0x27">SB017.BIN</title>
-			<range min="0x01000000" max="0x01000070" extcode="0">SE   : %02X : </range>
+			<range min="0x01000000" max="0x01000070" extcode="0">SE   : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 偽典・女神転生 東京黙示録(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1029,7 +1029,7 @@
 	<game>
 		<name>[PC-9801] アドベンチャーツクール98</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1089,17 +1089,17 @@
 			<title code="0x22">BGM_S.MML : ポップ</title>
 			<title code="0x23">BGM_T.MML : 緊張</title>
 			<title code="0x24">BGM_U.MML : ドラム ソロ</title>
-			<title code="0x25">BGM_V.MML : </title>
-			<title code="0x26">BGM_W.MML : </title>
-			<title code="0x27">BGM_X.MML : </title>
-			<title code="0x28">BGM_Y.MML : </title>
-			<title code="0x29">BGM_Z.MML : </title>
+			<title code="0x25">BGM_V.MML</title>
+			<title code="0x26">BGM_W.MML</title>
+			<title code="0x27">BGM_X.MML</title>
+			<title code="0x28">BGM_Y.MML</title>
+			<title code="0x29">BGM_Z.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アドベンチャーツクール98 II</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1193,7 +1193,7 @@
 	<game>
 		<name>[PC-9801] マルチゲームScripter</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1292,7 +1292,7 @@
 			<title code="0x2c">BGM29.MML : クイズ7 マヌケ!</title>
 			<title code="0x2d">BGM30.MML : クイズ8 オチ!</title>
 			<title code="0x2f">BGM32.MML : 特殊1 お経</title>
-			<title code="0x38">BGM41.MML : </title>
+			<title code="0x38">BGM41.MML</title>
 			<title code="0x39">BGM42.MML : B_CLASS ACTION MOVIE MODOKI(笑)</title>
 			<title code="0x3a">BGM43.MML : BEAT YK "TSU･JI･GI･LI"(爆)</title>
 			<title code="0x3b">BGM44.MML : TRANS_ALLAH</title>
@@ -1303,7 +1303,7 @@
 	<game>
 		<name>[PC-9801] RPGツクール DANTE98 II</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1441,7 +1441,7 @@
 	<game>
 		<name>[PC-9801] LOGIN DISK&amp;BOOKシリーズ マンハッタンレクイエム(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1463,19 +1463,19 @@
 		<titlelist>
 			<title code="0x10">MR01F.TMD  : LIFE AND TIMES</title>
 			<title code="0x11">MR02F.TMD  : J.B's TALK</title>
-			<title code="0x12">MR03AF.TMD : </title>
+			<title code="0x12">MR03AF.TMD</title>
 			<title code="0x13">MR04F.TMD  : M's BOOGIE</title>
 			<title code="0x14">MR05F.TMD  : SILVER KNIFE</title>
 			<title code="0x15">MR06F.TMD  : FALLEN WILL</title>
 			<title code="0x16">MR07F.TMD  : STILL STORM</title>
 			<title code="0x17">MR08F.TMD  : MANHATTAN REQUIEM</title>
-			<title code="0x18">MR09F.TMD  : </title>
+			<title code="0x18">MR09F.TMD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] LOGIN DISK&amp;BOOKシリーズ マンハッタンレクイエム(GS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1499,19 +1499,19 @@
 		<titlelist>
 		  <title code="0x10">MR01.TMD  : LIFE AND TIMES</title>
 		  <title code="0x11">MR02.TMD  : J.B's TALK</title>
-		  <title code="0x12">MR03A.TMD : </title>
+		  <title code="0x12">MR03A.TMD</title>
 		  <title code="0x13">MR04.TMD  : M's BOOGIE</title>
 		  <title code="0x14">MR05.TMD  : SILVER KNIFE</title>
 		  <title code="0x15">MR06.TMD  : FALLEN WILL</title>
 		  <title code="0x16">MR07.TMD  : STILL STORM</title>
 		  <title code="0x17">MR08.TMD  : MANHATTAN REQUIEM</title>
-		  <title code="0x18">MR09.TMD  : </title>
+		  <title code="0x18">MR09.TMD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ポリゴン シューティングツクール</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1551,39 +1551,39 @@
 			<rom type="shell" offset="0">music_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0b">POMUSIC1.MML : </title>
-			<title code="0x0c">POMUSIC2.MML : </title>
-			<title code="0x0d">POMUSIC3.MML : </title>
-			<title code="0x0e">POMUSIC4.MML : </title>
-			<title code="0x0f">POMUSIC5.MML : </title>
-			<title code="0x10">POMUSIC6.MML : </title>
-			<title code="0x11">SGM05.MML    : </title>
-			<title code="0x12">SGM06.MML    : </title>
-			<title code="0x13">SGM07.MML    : </title>
-			<title code="0x14">SGM08.MML    : </title>
-			<title code="0x15">SGM09.MML    : </title>
-			<title code="0x16">SGM10.MML    : </title>
-			<title code="0x17">SGM11.MML    : </title>
-			<title code="0x18">SGM12.MML    : </title>
-			<title code="0x19">SGM13.MML    : </title>
-			<title code="0x1a">SGM14.MML    : </title>
-			<title code="0x1b">SGM15.MML    : </title>
-			<title code="0x1c">SGM16.MML    : </title>
-			<title code="0x1d">SGM17.MML    : </title>
-			<title code="0x1e">SGM18.MML    : </title>
-			<title code="0x1f">SGM19.MML    : </title>
-			<title code="0x20">SGM20.MML    : </title>
-			<title code="0x21">SGM21.MML    : </title>
-			<title code="0x22">SGM22.MML    : </title>
-			<title code="0x23">SGM23.MML    : </title>
-			<title code="0x24">SGM24.MML    : </title>
-			<title code="0x25">SGM25.MML    : </title>
+			<title code="0x0b">POMUSIC1.MML</title>
+			<title code="0x0c">POMUSIC2.MML</title>
+			<title code="0x0d">POMUSIC3.MML</title>
+			<title code="0x0e">POMUSIC4.MML</title>
+			<title code="0x0f">POMUSIC5.MML</title>
+			<title code="0x10">POMUSIC6.MML</title>
+			<title code="0x11">SGM05.MML</title>
+			<title code="0x12">SGM06.MML</title>
+			<title code="0x13">SGM07.MML</title>
+			<title code="0x14">SGM08.MML</title>
+			<title code="0x15">SGM09.MML</title>
+			<title code="0x16">SGM10.MML</title>
+			<title code="0x17">SGM11.MML</title>
+			<title code="0x18">SGM12.MML</title>
+			<title code="0x19">SGM13.MML</title>
+			<title code="0x1a">SGM14.MML</title>
+			<title code="0x1b">SGM15.MML</title>
+			<title code="0x1c">SGM16.MML</title>
+			<title code="0x1d">SGM17.MML</title>
+			<title code="0x1e">SGM18.MML</title>
+			<title code="0x1f">SGM19.MML</title>
+			<title code="0x20">SGM20.MML</title>
+			<title code="0x21">SGM21.MML</title>
+			<title code="0x22">SGM22.MML</title>
+			<title code="0x23">SGM23.MML</title>
+			<title code="0x24">SGM24.MML</title>
+			<title code="0x25">SGM25.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] LOGIN DISK&amp;BOOKシリーズ はじめての大戦略</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1608,7 +1608,7 @@
 	<game>
 		<name>[PC-9801] LOGICAL</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1634,26 +1634,26 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1a">OPEN1.BIN  : </title>
-			<title code="0x1c">SELECT.BIN : </title>
-			<title code="0x11">LOG1.BIN   : </title>
-			<title code="0x12">LOG2.BIN   : </title>
-			<title code="0x13">LOG3.BIN   : </title>
-			<title code="0x14">LOG4.BIN   : </title>
-			<title code="0x15">LOG5.BIN   : </title>
-			<title code="0x16">LOG6.BIN   : </title>
-			<title code="0x17">LOG7.BIN   : </title>
-			<title code="0x18">LOG8.BIN   : </title>
-			<title code="0x19">LOG9.BIN   : </title>
-			<title code="0x1b">OVER.BIN   : </title>
-			<title code="0x10">ENDING.BIN : </title>
-			<range min="0x01000000" max="0x01000009" extcode="0">SE    : %02X : </range>
+			<title code="0x1a">OPEN1.BIN</title>
+			<title code="0x1c">SELECT.BIN</title>
+			<title code="0x11">LOG1.BIN</title>
+			<title code="0x12">LOG2.BIN</title>
+			<title code="0x13">LOG3.BIN</title>
+			<title code="0x14">LOG4.BIN</title>
+			<title code="0x15">LOG5.BIN</title>
+			<title code="0x16">LOG6.BIN</title>
+			<title code="0x17">LOG7.BIN</title>
+			<title code="0x18">LOG8.BIN</title>
+			<title code="0x19">LOG9.BIN</title>
+			<title code="0x1b">OVER.BIN</title>
+			<title code="0x10">ENDING.BIN</title>
+			<range min="0x01000000" max="0x01000009" extcode="0">SE    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 最速伝説 レーサーX</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1677,24 +1677,24 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x15">OPEN.BIN    : </title>
-			<title code="0x14">MENU.BIN    : </title>
-			<title code="0x19">SETUP.BIN   : </title>
-			<title code="0x17">RAIN.BIN    : </title>
-			<title code="0x16">R2.BIN      : </title>
-			<title code="0x18">RETIRE.BIN  : </title>
-			<title code="0x13">GOAL.BIN    : </title>
-			<title code="0x1a">VIDEO.BIN   : </title>
-			<title code="0x10">ENDING1.BIN : </title>
-			<title code="0x11">ENDING2.BIN : </title>
-			<title code="0x12">ENDING3.BIN : </title>
-			<range min="0x01000001" max="0x0100000c" extcode="0">SE     : %02X : </range>
+			<title code="0x15">OPEN.BIN</title>
+			<title code="0x14">MENU.BIN</title>
+			<title code="0x19">SETUP.BIN</title>
+			<title code="0x17">RAIN.BIN</title>
+			<title code="0x16">R2.BIN</title>
+			<title code="0x18">RETIRE.BIN</title>
+			<title code="0x13">GOAL.BIN</title>
+			<title code="0x1a">VIDEO.BIN</title>
+			<title code="0x10">ENDING1.BIN</title>
+			<title code="0x11">ENDING2.BIN</title>
+			<title code="0x12">ENDING3.BIN</title>
+			<range min="0x01000001" max="0x0100000c" extcode="0">SE     : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DERBY STALLION 98</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1727,33 +1727,33 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1a">OPENING.MUS  : </title>
-			<title code="0x1e">SELECT.MUS   : </title>
-			<title code="0x17">FARM.MUS     : </title>
-			<title code="0x20">STABLE.MUS   : </title>
-			<title code="0x1f">SRACE.MUS    : </title>
-			<title code="0x1b">PADDOCK.MUS  : </title>
-			<title code="0x18">G1.MUS       : </title>
-			<title code="0x22">TURF.MUS     : </title>
-			<title code="0x14">FAN_0.MUS    : </title>
-			<title code="0x15">FAN_1.MUS    : </title>
-			<title code="0x16">FAN_2.MUS    : </title>
-			<title code="0x1c">RACE.MUS     : </title>
-			<title code="0x1d">RGOAL.MUS    : </title>
-			<title code="0x23">WIN.MUS      : </title>
-			<title code="0x11">BIRTH.MUS    : </title>
-			<title code="0x12">DEAD.MUS     : </title>
-			<title code="0x10">AUCTION.MUS  : </title>
-			<title code="0x21">TAX.MUS      : </title>
-			<title code="0x19">GAMEOVER.MUS : </title>
-			<title code="0x13">ENDING.MUS   : </title>
-			<range min="0x01000000" max="0x01000007" extcode="0">SE      : %02X : </range>
+			<title code="0x1a">OPENING.MUS</title>
+			<title code="0x1e">SELECT.MUS</title>
+			<title code="0x17">FARM.MUS</title>
+			<title code="0x20">STABLE.MUS</title>
+			<title code="0x1f">SRACE.MUS</title>
+			<title code="0x1b">PADDOCK.MUS</title>
+			<title code="0x18">G1.MUS</title>
+			<title code="0x22">TURF.MUS</title>
+			<title code="0x14">FAN_0.MUS</title>
+			<title code="0x15">FAN_1.MUS</title>
+			<title code="0x16">FAN_2.MUS</title>
+			<title code="0x1c">RACE.MUS</title>
+			<title code="0x1d">RGOAL.MUS</title>
+			<title code="0x23">WIN.MUS</title>
+			<title code="0x11">BIRTH.MUS</title>
+			<title code="0x12">DEAD.MUS</title>
+			<title code="0x10">AUCTION.MUS</title>
+			<title code="0x21">TAX.MUS</title>
+			<title code="0x19">GAMEOVER.MUS</title>
+			<title code="0x13">ENDING.MUS</title>
+			<range min="0x01000000" max="0x01000007" extcode="0">SE      : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] PLANETS OF DRAGON(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1843,90 +1843,90 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x46">OPEN.BIN     : </title>
-			<title code="0x10">AKUBI.BIN    : </title>
-			<title code="0x11">BKMFAN.BIN   : </title>
-			<title code="0x12">BLADE.BIN    : </title>
-			<title code="0x13">BS5.BIN      : </title>
-			<title code="0x14">BUKIMI.BIN   : </title>
-			<title code="0x15">CFAN1.BIN    : </title>
-			<title code="0x16">CFAN2.BIN    : </title>
-			<title code="0x17">CHASE2.BIN   : </title>
-			<title code="0x18">CHTOWN.BIN   : </title>
-			<title code="0x19">COM2.BIN     : </title>
-			<title code="0x1a">COURT2.BIN   : </title>
-			<title code="0x1b">DANMATU.BIN  : </title>
-			<title code="0x1c">DANRO2.BIN   : </title>
-			<title code="0x1d">DARK.BIN     : </title>
-			<title code="0x1e">DARKTOWN.BIN : </title>
-			<title code="0x1f">DM1.BIN      : </title>
-			<title code="0x20">DOOR.BIN     : </title>
-			<title code="0x21">DUNGEON1.BIN : </title>
-			<title code="0x22">ENDFAN.BIN   : </title>
-			<title code="0x23">ETHE.BIN     : </title>
-			<title code="0x24">FAIR.BIN     : </title>
-			<title code="0x25">FANFARE.BIN  : </title>
-			<title code="0x26">FCHANGE.BIN  : </title>
-			<title code="0x27">FIN.BIN      : </title>
-			<title code="0x28">HAMON.BIN    : </title>
-			<title code="0x29">HITOMI.BIN   : </title>
-			<title code="0x2a">HOSIN.BIN    : </title>
-			<title code="0x2b">HUE.BIN      : </title>
-			<title code="0x2c">HUE2.BIN     : </title>
-			<title code="0x2d">IDO.BIN      : </title>
-			<title code="0x2e">INSHIP.BIN   : </title>
-			<title code="0x2f">JIKA2.BIN    : </title>
-			<title code="0x30">JIKAI.BIN    : </title>
-			<title code="0x31">JIKAI2.BIN   : </title>
-			<title code="0x32">JINGLE.BIN   : </title>
-			<title code="0x33">KAIHO.BIN    : </title>
-			<title code="0x34">KAIWA.BIN    : </title>
-			<title code="0x35">KIN2.BIN     : </title>
-			<title code="0x36">KINFAN.BIN   : </title>
-			<title code="0x37">KINPAKU.BIN  : </title>
-			<title code="0x38">KISS.BIN     : </title>
-			<title code="0x39">KK2S.BIN     : </title>
-			<title code="0x3a">KP1.BIN      : </title>
-			<title code="0x3b">MARRIAGE.BIN : </title>
-			<title code="0x3c">MAYA.BIN     : </title>
-			<title code="0x3d">MED.BIN      : </title>
-			<title code="0x3e">MEMORY.BIN   : </title>
-			<title code="0x3f">METAL.BIN    : </title>
-			<title code="0x40">MILBA.BIN    : </title>
-			<title code="0x41">MORIOKU.BIN  : </title>
-			<title code="0x42">MSEN.BIN     : </title>
-			<title code="0x43">MTITLE.BIN   : </title>
-			<title code="0x44">MUL3.BIN     : </title>
-			<title code="0x45">NAIBU.BIN    : </title>
-			<title code="0x48">PROSHIP.BIN  : </title>
-			<title code="0x49">RIRIKU.BIN   : </title>
-			<title code="0x4a">SAMBA2.BIN   : </title>
-			<title code="0x4b">SBLOW.BIN    : </title>
-			<title code="0x4c">SILENT.BIN   : </title>
-			<title code="0x4d">SINRIN.BIN   : </title>
-			<title code="0x4e">SITENNO.BIN  : </title>
-			<title code="0x4f">SNOW.BIN     : </title>
-			<title code="0x50">SNOWLAND.BIN : </title>
-			<title code="0x51">SOGU.BIN     : </title>
-			<title code="0x52">SOLONG.BIN   : </title>
-			<title code="0x54">SPACE.BIN    : </title>
-			<title code="0x55">SUISYO.BIN   : </title>
-			<title code="0x56">TITLE.BIN    : </title>
-			<title code="0x57">TITLE2.BIN   : </title>
-			<title code="0x58">TITLE22.BIN  : </title>
-			<title code="0x59">TOUJYO.BIN   : </title>
-			<title code="0x5a">UNIVERSE.BIN : </title>
-			<title code="0x5b">UTK.BIN      : </title>
-			<title code="0x5c">WALTZ_1.BIN  : </title>
-			<title code="0x5d">WALTZ_2.BIN  : </title>
-			<title code="0x5e">YSLOW.BIN    : </title>
-			<range min="0x01000000" max="0x01000064" extcode="0">SE      : %02X : </range>
+			<title code="0x46">OPEN.BIN</title>
+			<title code="0x10">AKUBI.BIN</title>
+			<title code="0x11">BKMFAN.BIN</title>
+			<title code="0x12">BLADE.BIN</title>
+			<title code="0x13">BS5.BIN</title>
+			<title code="0x14">BUKIMI.BIN</title>
+			<title code="0x15">CFAN1.BIN</title>
+			<title code="0x16">CFAN2.BIN</title>
+			<title code="0x17">CHASE2.BIN</title>
+			<title code="0x18">CHTOWN.BIN</title>
+			<title code="0x19">COM2.BIN</title>
+			<title code="0x1a">COURT2.BIN</title>
+			<title code="0x1b">DANMATU.BIN</title>
+			<title code="0x1c">DANRO2.BIN</title>
+			<title code="0x1d">DARK.BIN</title>
+			<title code="0x1e">DARKTOWN.BIN</title>
+			<title code="0x1f">DM1.BIN</title>
+			<title code="0x20">DOOR.BIN</title>
+			<title code="0x21">DUNGEON1.BIN</title>
+			<title code="0x22">ENDFAN.BIN</title>
+			<title code="0x23">ETHE.BIN</title>
+			<title code="0x24">FAIR.BIN</title>
+			<title code="0x25">FANFARE.BIN</title>
+			<title code="0x26">FCHANGE.BIN</title>
+			<title code="0x27">FIN.BIN</title>
+			<title code="0x28">HAMON.BIN</title>
+			<title code="0x29">HITOMI.BIN</title>
+			<title code="0x2a">HOSIN.BIN</title>
+			<title code="0x2b">HUE.BIN</title>
+			<title code="0x2c">HUE2.BIN</title>
+			<title code="0x2d">IDO.BIN</title>
+			<title code="0x2e">INSHIP.BIN</title>
+			<title code="0x2f">JIKA2.BIN</title>
+			<title code="0x30">JIKAI.BIN</title>
+			<title code="0x31">JIKAI2.BIN</title>
+			<title code="0x32">JINGLE.BIN</title>
+			<title code="0x33">KAIHO.BIN</title>
+			<title code="0x34">KAIWA.BIN</title>
+			<title code="0x35">KIN2.BIN</title>
+			<title code="0x36">KINFAN.BIN</title>
+			<title code="0x37">KINPAKU.BIN</title>
+			<title code="0x38">KISS.BIN</title>
+			<title code="0x39">KK2S.BIN</title>
+			<title code="0x3a">KP1.BIN</title>
+			<title code="0x3b">MARRIAGE.BIN</title>
+			<title code="0x3c">MAYA.BIN</title>
+			<title code="0x3d">MED.BIN</title>
+			<title code="0x3e">MEMORY.BIN</title>
+			<title code="0x3f">METAL.BIN</title>
+			<title code="0x40">MILBA.BIN</title>
+			<title code="0x41">MORIOKU.BIN</title>
+			<title code="0x42">MSEN.BIN</title>
+			<title code="0x43">MTITLE.BIN</title>
+			<title code="0x44">MUL3.BIN</title>
+			<title code="0x45">NAIBU.BIN</title>
+			<title code="0x48">PROSHIP.BIN</title>
+			<title code="0x49">RIRIKU.BIN</title>
+			<title code="0x4a">SAMBA2.BIN</title>
+			<title code="0x4b">SBLOW.BIN</title>
+			<title code="0x4c">SILENT.BIN</title>
+			<title code="0x4d">SINRIN.BIN</title>
+			<title code="0x4e">SITENNO.BIN</title>
+			<title code="0x4f">SNOW.BIN</title>
+			<title code="0x50">SNOWLAND.BIN</title>
+			<title code="0x51">SOGU.BIN</title>
+			<title code="0x52">SOLONG.BIN</title>
+			<title code="0x54">SPACE.BIN</title>
+			<title code="0x55">SUISYO.BIN</title>
+			<title code="0x56">TITLE.BIN</title>
+			<title code="0x57">TITLE2.BIN</title>
+			<title code="0x58">TITLE22.BIN</title>
+			<title code="0x59">TOUJYO.BIN</title>
+			<title code="0x5a">UNIVERSE.BIN</title>
+			<title code="0x5b">UTK.BIN</title>
+			<title code="0x5c">WALTZ_1.BIN</title>
+			<title code="0x5d">WALTZ_2.BIN</title>
+			<title code="0x5e">YSLOW.BIN</title>
+			<range min="0x01000000" max="0x01000064" extcode="0">SE      : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] PLANETS OF DRAGON(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2016,89 +2016,89 @@
 			<rom type="shell" offset="0">MIDEP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x46">OPEN.GS     : </title>
-			<title code="0x10">AKUBI.GS    : </title>
-			<title code="0x11">BKMFAN.GS   : </title>
-			<title code="0x12">BLADE.GS    : </title>
-			<title code="0x13">BS5.GS      : </title>
-			<title code="0x14">BUKIMI.GS   : </title>
-			<title code="0x15">CFAN1.GS    : </title>
-			<title code="0x16">CFAN2.GS    : </title>
-			<title code="0x17">CHASE2.GS   : </title>
-			<title code="0x18">CHTOWN.GS   : </title>
-			<title code="0x19">COM2.GS     : </title>
-			<title code="0x1a">COURT2.GS   : </title>
-			<title code="0x1b">DANMATU.GS  : </title>
-			<title code="0x1c">DANRO2.GS   : </title>
-			<title code="0x1d">DARK.GS     : </title>
-			<title code="0x1e">DARKTOWN.GS : </title>
-			<title code="0x1f">DM1.GS      : </title>
-			<title code="0x20">DOOR.GS     : </title>
-			<title code="0x21">DUNGEON1.GS : </title>
-			<title code="0x22">ENDFAN.GS   : </title>
-			<title code="0x23">ETHE.GS     : </title>
-			<title code="0x24">FAIR.GS     : </title>
-			<title code="0x25">FANFARE.GS  : </title>
-			<title code="0x26">FCHANGE.GS  : </title>
-			<title code="0x27">FIN.GS      : </title>
-			<title code="0x28">HAMON.GS    : </title>
-			<title code="0x29">HITOMI.GS   : </title>
-			<title code="0x2a">HOSIN.GS    : </title>
-			<title code="0x2b">HUE.GS      : </title>
-			<title code="0x2c">HUE2.GS     : </title>
-			<title code="0x2d">IDO.GS      : </title>
-			<title code="0x2e">INSHIP.GS   : </title>
-			<title code="0x2f">JIKA2.GS    : </title>
-			<title code="0x30">JIKAI.GS    : </title>
-			<title code="0x31">JIKAI2.GS   : </title>
-			<title code="0x32">JINGLE.GS   : </title>
-			<title code="0x33">KAIHO.GS    : </title>
-			<title code="0x34">KAIWA.GS    : </title>
-			<title code="0x35">KIN2.GS     : </title>
-			<title code="0x36">KINFAN.GS   : </title>
-			<title code="0x37">KINPAKU.GS  : </title>
-			<title code="0x38">KISS.GS     : </title>
-			<title code="0x39">KK2S.GS     : </title>
-			<title code="0x3a">KP1.GS      : </title>
-			<title code="0x3b">MARRIAGE.GS : </title>
-			<title code="0x3c">MAYA.GS     : </title>
-			<title code="0x3d">MED.GS      : </title>
-			<title code="0x3e">MEMORY.GS   : </title>
-			<title code="0x3f">METAL.GS    : </title>
-			<title code="0x40">MILBA.GS    : </title>
-			<title code="0x41">MORIOKU.GS  : </title>
-			<title code="0x42">MSEN.GS     : </title>
-			<title code="0x43">MTITLE.GS   : </title>
-			<title code="0x44">MUL3.GS     : </title>
-			<title code="0x45">NAIBU.GS    : </title>
-			<title code="0x47">PROSHIP.GS  : </title>
-			<title code="0x48">RIRIKU.GS   : </title>
-			<title code="0x49">SAMBA2.GS   : </title>
-			<title code="0x4a">SBLOW.GS    : </title>
-			<title code="0x4b">SILENT.GS   : </title>
-			<title code="0x4c">SINRIN.GS   : </title>
-			<title code="0x4d">SITENNO.GS  : </title>
-			<title code="0x4e">SNOW.GS     : </title>
-			<title code="0x4f">SNOWLAND.GS : </title>
-			<title code="0x50">SOGU.GS     : </title>
-			<title code="0x51">SOLONG.GS   : </title>
-			<title code="0x52">SPACE.GS    : </title>
-			<title code="0x53">SUISYO.GS   : </title>
-			<title code="0x54">TITLE.GS    : </title>
-			<title code="0x55">TITLE2.GS   : </title>
-			<title code="0x56">TITLE22.GS  : </title>
-			<title code="0x57">TOUJYO.GS   : </title>
-			<title code="0x58">UNIVERSE.GS : </title>
-			<title code="0x59">UTK.GS      : </title>
-			<title code="0x5a">WALTZ_1.GS  : </title>
-			<title code="0x5b">WALTZ_2.GS  : </title>
-			<title code="0x5c">YSLOW.GS    : </title>
+			<title code="0x46">OPEN.GS</title>
+			<title code="0x10">AKUBI.GS</title>
+			<title code="0x11">BKMFAN.GS</title>
+			<title code="0x12">BLADE.GS</title>
+			<title code="0x13">BS5.GS</title>
+			<title code="0x14">BUKIMI.GS</title>
+			<title code="0x15">CFAN1.GS</title>
+			<title code="0x16">CFAN2.GS</title>
+			<title code="0x17">CHASE2.GS</title>
+			<title code="0x18">CHTOWN.GS</title>
+			<title code="0x19">COM2.GS</title>
+			<title code="0x1a">COURT2.GS</title>
+			<title code="0x1b">DANMATU.GS</title>
+			<title code="0x1c">DANRO2.GS</title>
+			<title code="0x1d">DARK.GS</title>
+			<title code="0x1e">DARKTOWN.GS</title>
+			<title code="0x1f">DM1.GS</title>
+			<title code="0x20">DOOR.GS</title>
+			<title code="0x21">DUNGEON1.GS</title>
+			<title code="0x22">ENDFAN.GS</title>
+			<title code="0x23">ETHE.GS</title>
+			<title code="0x24">FAIR.GS</title>
+			<title code="0x25">FANFARE.GS</title>
+			<title code="0x26">FCHANGE.GS</title>
+			<title code="0x27">FIN.GS</title>
+			<title code="0x28">HAMON.GS</title>
+			<title code="0x29">HITOMI.GS</title>
+			<title code="0x2a">HOSIN.GS</title>
+			<title code="0x2b">HUE.GS</title>
+			<title code="0x2c">HUE2.GS</title>
+			<title code="0x2d">IDO.GS</title>
+			<title code="0x2e">INSHIP.GS</title>
+			<title code="0x2f">JIKA2.GS</title>
+			<title code="0x30">JIKAI.GS</title>
+			<title code="0x31">JIKAI2.GS</title>
+			<title code="0x32">JINGLE.GS</title>
+			<title code="0x33">KAIHO.GS</title>
+			<title code="0x34">KAIWA.GS</title>
+			<title code="0x35">KIN2.GS</title>
+			<title code="0x36">KINFAN.GS</title>
+			<title code="0x37">KINPAKU.GS</title>
+			<title code="0x38">KISS.GS</title>
+			<title code="0x39">KK2S.GS</title>
+			<title code="0x3a">KP1.GS</title>
+			<title code="0x3b">MARRIAGE.GS</title>
+			<title code="0x3c">MAYA.GS</title>
+			<title code="0x3d">MED.GS</title>
+			<title code="0x3e">MEMORY.GS</title>
+			<title code="0x3f">METAL.GS</title>
+			<title code="0x40">MILBA.GS</title>
+			<title code="0x41">MORIOKU.GS</title>
+			<title code="0x42">MSEN.GS</title>
+			<title code="0x43">MTITLE.GS</title>
+			<title code="0x44">MUL3.GS</title>
+			<title code="0x45">NAIBU.GS</title>
+			<title code="0x47">PROSHIP.GS</title>
+			<title code="0x48">RIRIKU.GS</title>
+			<title code="0x49">SAMBA2.GS</title>
+			<title code="0x4a">SBLOW.GS</title>
+			<title code="0x4b">SILENT.GS</title>
+			<title code="0x4c">SINRIN.GS</title>
+			<title code="0x4d">SITENNO.GS</title>
+			<title code="0x4e">SNOW.GS</title>
+			<title code="0x4f">SNOWLAND.GS</title>
+			<title code="0x50">SOGU.GS</title>
+			<title code="0x51">SOLONG.GS</title>
+			<title code="0x52">SPACE.GS</title>
+			<title code="0x53">SUISYO.GS</title>
+			<title code="0x54">TITLE.GS</title>
+			<title code="0x55">TITLE2.GS</title>
+			<title code="0x56">TITLE22.GS</title>
+			<title code="0x57">TOUJYO.GS</title>
+			<title code="0x58">UNIVERSE.GS</title>
+			<title code="0x59">UTK.GS</title>
+			<title code="0x5a">WALTZ_1.GS</title>
+			<title code="0x5b">WALTZ_2.GS</title>
+			<title code="0x5c">YSLOW.GS</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 石道(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2130,33 +2130,33 @@
 			<rom type="shell"  offset="0">muse_98 b</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1f">STARTING.___ : </title>
-			<title code="0x10">BERRY        : </title>
-			<title code="0x20">STELLA       : </title>
-			<title code="0x12">FEED         : </title>
-			<title code="0x13">FUGUE        : </title>
-			<title code="0x19">MAPLE        : </title>
-			<title code="0x16">HENRUDE      : </title>
-			<title code="0x17">HERB         : </title>
-			<title code="0x18">LILIES       : </title>
-			<title code="0x1a">OAK          : </title>
-			<title code="0x1b">PINE         : </title>
-			<title code="0x1c">PYRAMID      : </title>
-			<title code="0x1d">SAGE         : </title>
-			<title code="0x1e">SNOWROSE     : </title>
-			<title code="0x21">TULIP        : </title>
-			<title code="0x15">GARDEN       : </title>
-			<title code="0x22">WALTZ        : </title>
-			<title code="0x23">WILLOW       : </title>
-			<title code="0x14">GAMEOVER.___ : </title>
-			<title code="0x11">ENDING.___   : </title>
-			<range min="0x01000000" max="0x01000002" extcode="0">SE      : %02X : </range>
+			<title code="0x1f">STARTING.___</title>
+			<title code="0x10">BERRY</title>
+			<title code="0x20">STELLA</title>
+			<title code="0x12">FEED</title>
+			<title code="0x13">FUGUE</title>
+			<title code="0x19">MAPLE</title>
+			<title code="0x16">HENRUDE</title>
+			<title code="0x17">HERB</title>
+			<title code="0x18">LILIES</title>
+			<title code="0x1a">OAK</title>
+			<title code="0x1b">PINE</title>
+			<title code="0x1c">PYRAMID</title>
+			<title code="0x1d">SAGE</title>
+			<title code="0x1e">SNOWROSE</title>
+			<title code="0x21">TULIP</title>
+			<title code="0x15">GARDEN</title>
+			<title code="0x22">WALTZ</title>
+			<title code="0x23">WILLOW</title>
+			<title code="0x14">GAMEOVER.___</title>
+			<title code="0x11">ENDING.___</title>
+			<range min="0x01000000" max="0x01000002" extcode="0">SE      : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 石道(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2188,33 +2188,33 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1f">STARTING.___ : </title>
-			<title code="0x10">BERRY        : </title>
-			<title code="0x20">STELLA       : </title>
-			<title code="0x12">FEED         : </title>
-			<title code="0x13">FUGUE        : </title>
-			<title code="0x19">MAPLE        : </title>
-			<title code="0x16">HENRUDE      : </title>
-			<title code="0x17">HERB         : </title>
-			<title code="0x18">LILIES       : </title>
-			<title code="0x1a">OAK          : </title>
-			<title code="0x1b">PINE         : </title>
-			<title code="0x1c">PYRAMID      : </title>
-			<title code="0x1d">SAGE         : </title>
-			<title code="0x1e">SNOWROSE     : </title>
-			<title code="0x21">TULIP        : </title>
-			<title code="0x15">GARDEN       : </title>
-			<title code="0x22">WALTZ        : </title>
-			<title code="0x23">WILLOW       : </title>
-			<title code="0x14">GAMEOVER.___ : </title>
-			<title code="0x11">ENDING.___   : </title>
-			<range min="0x01000000" max="0x01000002" extcode="0">SE      : %02X : </range>
+			<title code="0x1f">STARTING.___</title>
+			<title code="0x10">BERRY</title>
+			<title code="0x20">STELLA</title>
+			<title code="0x12">FEED</title>
+			<title code="0x13">FUGUE</title>
+			<title code="0x19">MAPLE</title>
+			<title code="0x16">HENRUDE</title>
+			<title code="0x17">HERB</title>
+			<title code="0x18">LILIES</title>
+			<title code="0x1a">OAK</title>
+			<title code="0x1b">PINE</title>
+			<title code="0x1c">PYRAMID</title>
+			<title code="0x1d">SAGE</title>
+			<title code="0x1e">SNOWROSE</title>
+			<title code="0x21">TULIP</title>
+			<title code="0x15">GARDEN</title>
+			<title code="0x22">WALTZ</title>
+			<title code="0x23">WILLOW</title>
+			<title code="0x14">GAMEOVER.___</title>
+			<title code="0x11">ENDING.___</title>
+			<range min="0x01000000" max="0x01000002" extcode="0">SE      : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Wizardry VI Bane of the Cosmic Forge</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2228,14 +2228,14 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OPEN.BIN : </title>
-			<title code="0x11">END.BIN  : </title>
+			<title code="0x10">OPEN.BIN</title>
+			<title code="0x11">END.BIN</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Wizardry VII Crusaders of the Dark Savant</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2254,19 +2254,19 @@
 			<rom type="shell"  offset="0">muse_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">SCORE00.BIN : </title>
-			<title code="0x11">SCORE01.BIN : </title>
-			<title code="0x12">SCORE02.BIN : </title>
-			<title code="0x13">SCORE03.BIN : </title>
-			<title code="0x14">SCORE04.BIN : </title>
-			<title code="0x15">SCORE05.BIN : </title>
-			<title code="0x16">SCORE06.BIN : </title>
+			<title code="0x10">SCORE00.BIN</title>
+			<title code="0x11">SCORE01.BIN</title>
+			<title code="0x12">SCORE02.BIN</title>
+			<title code="0x13">SCORE03.BIN</title>
+			<title code="0x14">SCORE04.BIN</title>
+			<title code="0x15">SCORE05.BIN</title>
+			<title code="0x16">SCORE06.BIN</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ポリゴン モデリングツクール</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2321,55 +2321,55 @@
 			<rom type="shell" offset="0">music_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">POMUSIC1.MML : </title>
-			<title code="0x11">POMUSIC2.MML : </title>
-			<title code="0x12">POMUSIC3.MML : </title>
-			<title code="0x13">POMUSIC4.MML : </title>
-			<title code="0x14">POMUSIC5.MML : </title>
-			<title code="0x15">SGM01.MML    : </title>
-			<title code="0x16">SGM01L.MML   : </title>
-			<title code="0x17">SGM02.MML    : </title>
-			<title code="0x18">SGM02L.MML   : </title>
-			<title code="0x19">SGM03.MML    : </title>
-			<title code="0x1a">SGM03L.MML   : </title>
-			<title code="0x1b">SGM04.MML    : </title>
-			<title code="0x1c">SGM04L.MML   : </title>
-			<title code="0x1d">SGM05.MML    : </title>
-			<title code="0x1e">SGM06.MML    : </title>
-			<title code="0x1f">SGM07.MML    : </title>
-			<title code="0x20">SGM07L.MML   : </title>
-			<title code="0x21">SGM08.MML    : </title>
-			<title code="0x22">SGM08L.MML   : </title>
-			<title code="0x23">SGM09.MML    : </title>
-			<title code="0x24">SGM09L.MML   : </title>
-			<title code="0x25">SGM10.MML    : </title>
-			<title code="0x26">SGM11.MML    : </title>
-			<title code="0x27">SGM12.MML    : </title>
-			<title code="0x28">SGM13.MML    : </title>
-			<title code="0x29">SGM14.MML    : </title>
-			<title code="0x2a">SGM15.MML    : </title>
-			<title code="0x2b">SGM16.MML    : </title>
-			<title code="0x2c">SGM17.MML    : </title>
-			<title code="0x2d">SGM18.MML    : </title>
-			<title code="0x2e">SGM19.MML    : </title>
-			<title code="0x2f">SGM20.MML    : </title>
-			<title code="0x30">SGM21.MML    : </title>
-			<title code="0x31">SGM22.MML    : </title>
-			<title code="0x32">SGM23.MML    : </title>
-			<title code="0x33">SGM24.MML    : </title>
-			<title code="0x34">SGM25.MML    : </title>
-			<title code="0x35">SGM30SE.MML  : </title>
-			<title code="0x36">SGM31SE.MML  : </title>
-			<title code="0x37">SGM32SE.MML  : </title>
-			<title code="0x38">SGM33SE.MML  : </title>
-			<title code="0x39">SGM34SE.MML  : </title>
-			<title code="0x3a">SGM35SE.MML  : </title>
+			<title code="0x10">POMUSIC1.MML</title>
+			<title code="0x11">POMUSIC2.MML</title>
+			<title code="0x12">POMUSIC3.MML</title>
+			<title code="0x13">POMUSIC4.MML</title>
+			<title code="0x14">POMUSIC5.MML</title>
+			<title code="0x15">SGM01.MML</title>
+			<title code="0x16">SGM01L.MML</title>
+			<title code="0x17">SGM02.MML</title>
+			<title code="0x18">SGM02L.MML</title>
+			<title code="0x19">SGM03.MML</title>
+			<title code="0x1a">SGM03L.MML</title>
+			<title code="0x1b">SGM04.MML</title>
+			<title code="0x1c">SGM04L.MML</title>
+			<title code="0x1d">SGM05.MML</title>
+			<title code="0x1e">SGM06.MML</title>
+			<title code="0x1f">SGM07.MML</title>
+			<title code="0x20">SGM07L.MML</title>
+			<title code="0x21">SGM08.MML</title>
+			<title code="0x22">SGM08L.MML</title>
+			<title code="0x23">SGM09.MML</title>
+			<title code="0x24">SGM09L.MML</title>
+			<title code="0x25">SGM10.MML</title>
+			<title code="0x26">SGM11.MML</title>
+			<title code="0x27">SGM12.MML</title>
+			<title code="0x28">SGM13.MML</title>
+			<title code="0x29">SGM14.MML</title>
+			<title code="0x2a">SGM15.MML</title>
+			<title code="0x2b">SGM16.MML</title>
+			<title code="0x2c">SGM17.MML</title>
+			<title code="0x2d">SGM18.MML</title>
+			<title code="0x2e">SGM19.MML</title>
+			<title code="0x2f">SGM20.MML</title>
+			<title code="0x30">SGM21.MML</title>
+			<title code="0x31">SGM22.MML</title>
+			<title code="0x32">SGM23.MML</title>
+			<title code="0x33">SGM24.MML</title>
+			<title code="0x34">SGM25.MML</title>
+			<title code="0x35">SGM30SE.MML</title>
+			<title code="0x36">SGM31SE.MML</title>
+			<title code="0x37">SGM32SE.MML</title>
+			<title code="0x38">SGM33SE.MML</title>
+			<title code="0x39">SGM34SE.MML</title>
+			<title code="0x3a">SGM35SE.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 石道</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ASCII</driveralias>
+		<driveralias type="X68000">ASCII</driveralias>
 		<options>
 			<option name="opm_mix" value="0xe0"/>
 		</options>
@@ -2418,16 +2418,16 @@
 			<!-- maple.opmと同一
 			<title code="0x0a">inputpa.opm : MAPLE</title>
 			  -->
-			<title code="0x0b">land.opm    : </title>
-			<title code="0x03">end1.opm    : </title>
-			<title code="0x04">end2.opm    : </title>
-			<title code="0x05">end3.opm    : </title>
+			<title code="0x0b">land.opm</title>
+			<title code="0x03">end1.opm</title>
+			<title code="0x04">end2.opm</title>
+			<title code="0x05">end3.opm</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 琉球</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ASCII</driveralias>
+		<driveralias type="X68000">ASCII</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 		</options>
@@ -2643,8 +2643,8 @@
 			<title code="0x11">E1.M   : Ending</title>
 			<title code="0x13">E2.M   : Game Over</title>
 			  -->
-			<title code="0x0100">SE 00  : </title>
-			<title code="0x0101">SE 01  : </title>
+			<title code="0x0100">SE 00</title>
+			<title code="0x0101">SE 01</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2859,7 +2859,7 @@
 	<game>
 		<name>[X68000] ボンバーマン ぱにっくボンバー</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ASCII</driveralias>
+		<driveralias type="X68000">ASCII</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -2983,7 +2983,7 @@
 	<game>
 		<name>[PC-9801] 楽市の政</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ASCII</driveralias>
+		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
 			<option name="clockmul" value="0x08"/>
 		</options>

@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] ドラゴンアイズ</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-8801">GAMEテクノポリス</driveralias>
 		<romlist archive="drgeye88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0b00">USD88.Z80</rom>
@@ -89,7 +89,7 @@
 	<game>
 		<name>[PC-8801] LotLot</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<options>
 			<option name="init_pc"  value="0xa000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -111,7 +111,7 @@
 	<game>
 		<name>[PC-8801] お嬢様くらぶ</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7000"/>
 		</options>
@@ -153,7 +153,7 @@
 	<game>
 		<name>[PC-8801] GAL WARS きゃぴきゃぴるん</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<romlist archive="galwars88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">A032</rom>
@@ -178,30 +178,30 @@
 			<rom type="bgm" offset="0x11">A050</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">A033 : </title>
-			<title code="0x01">A034 : </title>
-			<title code="0x02">A035 : </title>
-			<title code="0x03">A036 : </title>
-			<title code="0x04">A037 : </title>
-			<title code="0x05">A038 : </title>
-			<title code="0x06">A039 : </title>
-			<title code="0x07">A040 : </title>
-			<title code="0x08">A041 : </title>
-			<title code="0x09">A042 : </title>
-			<title code="0x0a">A043 : </title>
-			<title code="0x0b">A044 : </title>
-			<title code="0x0c">A045 : </title>
-			<title code="0x0d">A046 : </title>
-			<title code="0x0e">A047 : </title>
-			<title code="0x0f">A048 : </title>
-			<title code="0x10">A049 : </title>
-			<title code="0x11">A050 : </title>
+			<title code="0x00">A033</title>
+			<title code="0x01">A034</title>
+			<title code="0x02">A035</title>
+			<title code="0x03">A036</title>
+			<title code="0x04">A037</title>
+			<title code="0x05">A038</title>
+			<title code="0x06">A039</title>
+			<title code="0x07">A040</title>
+			<title code="0x08">A041</title>
+			<title code="0x09">A042</title>
+			<title code="0x0a">A043</title>
+			<title code="0x0b">A044</title>
+			<title code="0x0c">A045</title>
+			<title code="0x0d">A046</title>
+			<title code="0x0e">A047</title>
+			<title code="0x0f">A048</title>
+			<title code="0x10">A049</title>
+			<title code="0x11">A050</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] おんなのこけ～さつたい ＝ねぎ戦略＝</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<romlist archive="onnanoko88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9000">splitn.2</rom>
@@ -304,7 +304,7 @@
 	<game>
 		<name>[PC-8801] 破邪大星ダンガイオー(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<options>
 			<option name="init_pc" value="0x3100"/>
 			<option name="mdata_addr" value="0x97fc"/>
@@ -334,23 +334,23 @@
 			<rom type="bgm" offset="0x10">F33</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">B27 : </title>
-			<title code="0x00000001">B28 : </title>
-			<title code="0x00000002">B29 : </title>
-			<title code="0x00000003">B30 : </title>
-			<title code="0x00000004">C27 : </title>
-			<title code="0x00000005">D38 : </title>
-			<title code="0x00000006">D39 : </title>
-			<title code="0x00000007">D40 : </title>
-			<title code="0x00000008">E30 : </title>
-			<title code="0x00000009">E31 : </title>
-			<title code="0x0000000a">E32 : </title>
+			<title code="0x00000000">B27</title>
+			<title code="0x00000001">B28</title>
+			<title code="0x00000002">B29</title>
+			<title code="0x00000003">B30</title>
+			<title code="0x00000004">C27</title>
+			<title code="0x00000005">D38</title>
+			<title code="0x00000006">D39</title>
+			<title code="0x00000007">D40</title>
+			<title code="0x00000008">E30</title>
+			<title code="0x00000009">E31</title>
+			<title code="0x0000000a">E32</title>
 			<title code="0x0000000b">F28 : CROSS FIGHT!</title>
-			<title code="0x0000000c">F29 : </title>
-			<title code="0x0000000d">F30 : </title>
+			<title code="0x0000000c">F29</title>
+			<title code="0x0000000d">F30</title>
 			<title code="0x0000000e">F31 : CROSS FIGHT! (サビのみ)</title>
-			<title code="0x0000000f">F32 : </title>
-			<title code="0x00000010">F33 : </title>
+			<title code="0x0000000f">F32</title>
+			<title code="0x00000010">F33</title>
 			<title code="0x000000ff">B31 : 効果音00</title>
 			<title code="0x010000ff">B31 : 効果音01</title>
 			<title code="0x020000ff">B31 : 効果音02</title>
@@ -365,7 +365,7 @@
 	<game>
 		<name>[PC-8801] 破邪大星ダンガイオー(OPN)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">テクノポリスソフト</driveralias>
+		<driveralias type="PC-8801">テクノポリスソフト</driveralias>
 		<options>
 			<option name="init_pc" value="0x3100"/>
 			<option name="mdata_addr" value="0x97fc"/>
@@ -395,23 +395,23 @@
 			<rom type="bgm" offset="0x10">F27</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">B00 : </title>
-			<title code="0x00000001">B12 : </title>
-			<title code="0x00000002">B16 : </title>
-			<title code="0x00000003">B25 : </title>
-			<title code="0x00000004">C08 : </title>
-			<title code="0x00000005">D01 : </title>
-			<title code="0x00000006">D17 : </title>
-			<title code="0x00000007">D34 : </title>
-			<title code="0x00000008">E03 : </title>
-			<title code="0x00000009">E11 : </title>
-			<title code="0x0000000a">E29 : </title>
+			<title code="0x00000000">B00</title>
+			<title code="0x00000001">B12</title>
+			<title code="0x00000002">B16</title>
+			<title code="0x00000003">B25</title>
+			<title code="0x00000004">C08</title>
+			<title code="0x00000005">D01</title>
+			<title code="0x00000006">D17</title>
+			<title code="0x00000007">D34</title>
+			<title code="0x00000008">E03</title>
+			<title code="0x00000009">E11</title>
+			<title code="0x0000000a">E29</title>
 			<title code="0x0000000b">F17 : CROSS FIGHT!</title>
-			<title code="0x0000000c">F23 : </title>
-			<title code="0x0000000d">F24 : </title>
+			<title code="0x0000000c">F23</title>
+			<title code="0x0000000d">F24</title>
 			<title code="0x0000000e">F25 : CROSS FIGHT! (サビのみ)</title>
-			<title code="0x0000000f">F26 : </title>
-			<title code="0x00000010">F27 : </title>
+			<title code="0x0000000f">F26</title>
+			<title code="0x00000010">F27</title>
 			<title code="0x000000ff">B31 : 効果音00</title>
 			<title code="0x010000ff">B31 : 効果音01</title>
 			<title code="0x020000ff">B31 : 効果音02</title>
@@ -426,7 +426,7 @@
 	<game>
 		<name>[PC-9801] ヴァージン・ドリーム</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -478,7 +478,7 @@
 	<game>
 		<name>[PC-9801] キミだけに愛を…</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -514,7 +514,7 @@
 	<game>
 		<name>[PC-9801] コンチネンタル</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -608,7 +608,7 @@
 	<game>
 		<name>[PC-9801] テセラ ～キミは汚れた天使か聖なる魔女か!?～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -646,7 +646,7 @@
 	<game>
 		<name>[PC-9801] ドラゴンアイズ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -722,7 +722,7 @@
 	<game>
 		<name>[PC-9801] 初恋物語</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -762,7 +762,7 @@
 	<game>
 		<name>[PC-9801] 電脳天使 ～デジタルアンジェ～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -802,7 +802,7 @@
 	<game>
 		<name>[PC-9801] 秘密の花園</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAMEテクノポリス</driveralias>
+		<driveralias type="PC-9801">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -844,7 +844,7 @@
 	<game>
 		<name>[X68000] Guerriere Lyew&#228;rd</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">テクノポリスソフト</driveralias>
+		<driveralias type="X68000">テクノポリスソフト</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -856,35 +856,35 @@
 			<rom type="code" offset="0x06e60e">JNKSND.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
+			<title code="0x01">01</title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
 			<!--
-			<title code="0x05">05 : </title>
+			<title code="0x05">05</title>
 			  -->
-			<title code="0x06">06 : </title>
+			<title code="0x06">06</title>
 			<!--
-			<title code="0x07">07 : </title>
+			<title code="0x07">07</title>
 			  -->
-			<title code="0x08">08 : </title>
+			<title code="0x08">08</title>
 			<!--
-			<title code="0x09">09 : </title>
+			<title code="0x09">09</title>
 			  -->
-			<title code="0x0a">0A : </title>
-			<title code="0x0b">0B : </title>
-			<title code="0x0c">0C : </title>
+			<title code="0x0a">0A</title>
+			<title code="0x0b">0B</title>
+			<title code="0x0c">0C</title>
 			<!--
-			<title code="0x0d">0D : </title>
-			<title code="0x0d">0E : </title>
-			<title code="0x0d">0F : </title>
+			<title code="0x0d">0D</title>
+			<title code="0x0d">0E</title>
+			<title code="0x0d">0F</title>
 			  -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] キミだけに愛を…</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAMEテクノポリス</driveralias>
+		<driveralias type="X68000">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -919,7 +919,7 @@
 	<game>
 		<name>[X68000] コンチネンタル</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAMEテクノポリス</driveralias>
+		<driveralias type="X68000">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -1011,7 +1011,7 @@
 	<game>
 		<name>[X68000] テセラ ～キミは汚れた天使か聖なる魔女か!?～</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAMEテクノポリス</driveralias>
+		<driveralias type="X68000">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -1049,7 +1049,7 @@
 	<game>
 		<name>[X68000] ドラゴンアイズ</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAMEテクノポリス</driveralias>
+		<driveralias type="X68000">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -1104,7 +1104,7 @@
 	<game>
 		<name>[X68000] 秘密の花園</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAMEテクノポリス</driveralias>
+		<driveralias type="X68000">GAMEテクノポリス</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -1164,27 +1164,27 @@
 			<rom type="bgm" offset="0x04">VMUS.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">EMUS.COM : 00 : </title>
-			<title code="0x0100">EMUS.COM : 01 : </title>
-			<title code="0x0200">EMUS.COM : 02 : </title>
-			<title code="0x0300">EMUS.COM : 03 : </title>
-			<title code="0x0001">GMUS.COM : 00 : </title>
-			<title code="0x0101">GMUS.COM : 01 : </title>
-			<title code="0x0201">GMUS.COM : 02 : </title>
-			<title code="0x0301">GMUS.COM : 03 : </title>
-			<title code="0x0002">OMUS.COM : 00 : </title>
-			<title code="0x0102">OMUS.COM : 01 : </title>
-			<title code="0x0202">OMUS.COM : 02 : </title>
-			<title code="0x0302">OMUS.COM : 03 : </title>
-			<title code="0x0003">TMUS.COM : 00 : </title>
-			<title code="0x0103">TMUS.COM : 01 : </title>
-			<title code="0x0203">TMUS.COM : 02 : </title>
-			<title code="0x0303">TMUS.COM : 03 : </title>
-			<title code="0x0004">VMUS.COM : 00 : </title>
-			<title code="0x0104">VMUS.COM : 01 : </title>
-			<title code="0x0204">VMUS.COM : 02 : </title>
-			<title code="0x0304">VMUS.COM : 03 : </title>
-			<range min="0xff01" max="0xff08" extcode="0">SE       : %02x : </range>
+			<title code="0x0000">EMUS.COM : 00</title>
+			<title code="0x0100">EMUS.COM : 01</title>
+			<title code="0x0200">EMUS.COM : 02</title>
+			<title code="0x0300">EMUS.COM : 03</title>
+			<title code="0x0001">GMUS.COM : 00</title>
+			<title code="0x0101">GMUS.COM : 01</title>
+			<title code="0x0201">GMUS.COM : 02</title>
+			<title code="0x0301">GMUS.COM : 03</title>
+			<title code="0x0002">OMUS.COM : 00</title>
+			<title code="0x0102">OMUS.COM : 01</title>
+			<title code="0x0202">OMUS.COM : 02</title>
+			<title code="0x0302">OMUS.COM : 03</title>
+			<title code="0x0003">TMUS.COM : 00</title>
+			<title code="0x0103">TMUS.COM : 01</title>
+			<title code="0x0203">TMUS.COM : 02</title>
+			<title code="0x0303">TMUS.COM : 03</title>
+			<title code="0x0004">VMUS.COM : 00</title>
+			<title code="0x0104">VMUS.COM : 01</title>
+			<title code="0x0204">VMUS.COM : 02</title>
+			<title code="0x0304">VMUS.COM : 03</title>
+			<range min="0xff01" max="0xff08" extcode="0">SE       : %02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1265,32 +1265,32 @@
 			<rom type="bgm" offset="0x19">RPG18B.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">FME13.M  : </title>
-			<title code="0x01">FME14.M  : </title>
-			<title code="0x02">FME15.M  : </title>
-			<title code="0x03">FME16.M  : </title>
-			<title code="0x04">FRPG01.M : </title>
-			<title code="0x05">FRPG03.M : </title>
-			<title code="0x06">FRPG04.M : </title>
-			<title code="0x07">FRPG05.M : </title>
-			<title code="0x08">FRPG06.M : </title>
-			<title code="0x09">FRPG07.M : </title>
-			<title code="0x0a">FRPG09.M : </title>
-			<title code="0x0b">FRPG10.M : </title>
-			<title code="0x0c">FRPG11.M : </title>
-			<title code="0x0d">FRPG12.M : </title>
-			<title code="0x0e">FRPG13.M : </title>
-			<title code="0x0f">FRPG15.M : </title>
-			<title code="0x10">FRPG16.M : </title>
-			<title code="0x11">FRPG17.M : </title>
-			<title code="0x12">FRPG19.M : </title>
-			<title code="0x13">FRPG2A.M : </title>
-			<title code="0x14">FRPG2B.M : </title>
-			<title code="0x15">FSE088.M : </title>
-			<title code="0x16">RPG14A.M : </title>
-			<title code="0x17">RPG14B.M : </title>
-			<title code="0x18">RPG18A.M : </title>
-			<title code="0x19">RPG18B.M : </title>
+			<title code="0x00">FME13.M</title>
+			<title code="0x01">FME14.M</title>
+			<title code="0x02">FME15.M</title>
+			<title code="0x03">FME16.M</title>
+			<title code="0x04">FRPG01.M</title>
+			<title code="0x05">FRPG03.M</title>
+			<title code="0x06">FRPG04.M</title>
+			<title code="0x07">FRPG05.M</title>
+			<title code="0x08">FRPG06.M</title>
+			<title code="0x09">FRPG07.M</title>
+			<title code="0x0a">FRPG09.M</title>
+			<title code="0x0b">FRPG10.M</title>
+			<title code="0x0c">FRPG11.M</title>
+			<title code="0x0d">FRPG12.M</title>
+			<title code="0x0e">FRPG13.M</title>
+			<title code="0x0f">FRPG15.M</title>
+			<title code="0x10">FRPG16.M</title>
+			<title code="0x11">FRPG17.M</title>
+			<title code="0x12">FRPG19.M</title>
+			<title code="0x13">FRPG2A.M</title>
+			<title code="0x14">FRPG2B.M</title>
+			<title code="0x15">FSE088.M</title>
+			<title code="0x16">RPG14A.M</title>
+			<title code="0x17">RPG14B.M</title>
+			<title code="0x18">RPG18A.M</title>
+			<title code="0x19">RPG18B.M</title>
 		</titlelist>
 	</game>
 	<game>

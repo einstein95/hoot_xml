@@ -39,7 +39,7 @@
 	<game>
 		<name>[PC-8801] 波動の標的</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<options>
 			<option name="vdata_addr" value="0xe1d0"/>
 		</options>
@@ -212,7 +212,7 @@
 	<game>
 		<name>[PC-8801] デストラクション(上巻)(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<options>
 			<option name="mdata_num" value="0x0100"/>
 			<option name="vdata_addr" value="0xe1d0"/>
@@ -492,7 +492,7 @@
 	<game>
 		<name>[PC-8801] デストラクション(上巻)(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<options>
 			<option name="mdata_num" value="0x0100"/>
 			<option name="vdata_addr" value="0xe1d0"/>
@@ -760,7 +760,7 @@
 	<game>
 		<name>[PC-8801] デストラクション(下巻)(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<romlist archive="destge">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xc900">WMC1</rom>
@@ -840,7 +840,7 @@
 	<game>
 		<name>[PC-8801] デストラクション(下巻)(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<romlist archive="destge">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0xc400">Y230</rom>
@@ -908,7 +908,7 @@
 	<game>
 		<name>[PC-8801] 怨霊戦記(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<options>
 			<option name="mdata_num" value="0x0100"/>
 		</options>
@@ -1337,7 +1337,7 @@
 	<game>
 		<name>[PC-8801] 怨霊戦記(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオWING</driveralias>
+		<driveralias type="PC-8801">スタジオWING</driveralias>
 		<options>
 			<option name="mdata_num" value="0x0100"/>
 		</options>

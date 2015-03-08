@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //スタジオパンサー -->
 	<game>
-		<name>[PC-8801] 神の聖都(OPNA)</name>
+		<name>[PC-8801] Kami no Machi (神の聖都) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオパンサー</driveralias>
+		<driveralias type="PC-8801">Panther Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -116,45 +116,45 @@
 			<rom type="voice" offset="0x31">2000.dat</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">open   : 神の聖都のテーマ</title>
-			<title code="0x03">demo1  : オープニングデモ1</title>
-			<title code="0x04">demo2  : オープニングデモ2</title>
-			<title code="0x06">demo3  : オープニングデモ3</title>
-			<title code="0x00">shop   : アレック商会</title>
-			<title code="0x01">bar    : 酒場</title>
-			<title code="0x07">doctor : ハイツン先生の病院</title>
-			<title code="0x10">run    : 移動(走る)</title>
-			<title code="0x11">walk   : 移動(歩く)</title>
-			<title code="0x08">fight  : 戦闘</title>
-			<title code="0x09">fear   : 病院の襲撃</title>
-			<title code="0x12">mushi  : 戦慄の蟲</title>
-			<title code="0x13">norton : ノートンの過去</title>
-			<title code="0x14">shar   : ノートンとシャーマス</title>
-			<title code="0x15">shinden: 神殿</title>
-			<title code="0x16">shrine : 神殿の中</title>
-			<title code="0x17">hardsh : アルフィスへの試練</title>
-			<title code="0x18">felna  : フェルナンドの家</title>
-			<title code="0x19">war    : 事件発生</title>
-			<title code="0x20">jina   : 逃亡してきたジナ</title>
-			<title code="0x21">ranon  : ラノン登場</title>
-			<title code="0x22">vsranon: ラノンとの戦い</title>
-			<title code="0x23">file   : フィレンVSラノン</title>
-			<title code="0x24">after  : 戦いのあとで</title>
-			<title code="0x25">confess: 由加利とジナの関係</title>
-			<title code="0x02">ruin   : 敵・本拠地</title>
-			<title code="0x26">murd   : 3番目の部屋</title>
-			<title code="0x27">wall   : 人間の壁</title>
-			<title code="0x28">dalta  : ダルダルート</title>
-			<title code="0x29">yukari : ショック～由加利の死1</title>
-			<title code="0x30">yukari2: 由加利の死2</title>
-			<title code="0x31">end1   : エンディング1</title>
-			<title code="0x05">end2   : エンディング2</title>
+			<title code="0x05">神の聖都のテーマ</title>
+			<title code="0x03">オープニングデモ1</title>
+			<title code="0x04">オープニングデモ2</title>
+			<title code="0x06">オープニングデモ3</title>
+			<title code="0x00">アレック商会</title>
+			<title code="0x01">酒場</title>
+			<title code="0x07">ハイツン先生の病院</title>
+			<title code="0x10">移動(走る)</title>
+			<title code="0x11">移動(歩く)</title>
+			<title code="0x08">戦闘</title>
+			<title code="0x09">病院の襲撃</title>
+			<title code="0x12">戦慄の蟲</title>
+			<title code="0x13">ノートンの過去</title>
+			<title code="0x14">ノートンとシャーマス</title>
+			<title code="0x15">神殿</title>
+			<title code="0x16">神殿の中</title>
+			<title code="0x17">アルフィスへの試練</title>
+			<title code="0x18">フェルナンドの家</title>
+			<title code="0x19">事件発生</title>
+			<title code="0x20">逃亡してきたジナ</title>
+			<title code="0x21">ラノン登場</title>
+			<title code="0x22">ラノンとの戦い</title>
+			<title code="0x23">フィレンVSラノン</title>
+			<title code="0x24">戦いのあとで</title>
+			<title code="0x25">由加利とジナの関係</title>
+			<title code="0x02">敵・本拠地</title>
+			<title code="0x26">3番目の部屋</title>
+			<title code="0x27">人間の壁</title>
+			<title code="0x28">ダルダルート</title>
+			<title code="0x29">ショック～由加利の死1</title>
+			<title code="0x30">由加利の死2</title>
+			<title code="0x31">エンディング1</title>
+			<title code="0x05">エンディング2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 神の聖都(OPN)</name>
+		<name>[PC-8801] Kami no Machi (神の聖都) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">スタジオパンサー</driveralias>
+		<driveralias type="PC-8801">Panther Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -232,45 +232,45 @@
 			<rom type="voice" offset="0x31">2000.dat</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">open   : 神の聖都のテーマ</title>
-			<title code="0x03">demo1  : オープニングデモ1</title>
-			<title code="0x04">demo2  : オープニングデモ2</title>
-			<title code="0x06">demo3  : オープニングデモ3</title>
-			<title code="0x00">shop   : アレック商会</title>
-			<title code="0x01">bar    : 酒場</title>
-			<title code="0x07">doctor : ハイツン先生の病院</title>
-			<title code="0x10">run    : 移動(走る)</title>
-			<title code="0x11">walk   : 移動(歩く)</title>
-			<title code="0x08">fight  : 戦闘</title>
-			<title code="0x09">fear   : 病院の襲撃</title>
-			<title code="0x12">mushi  : 戦慄の蟲</title>
-			<title code="0x13">norton : ノートンの過去</title>
-			<title code="0x14">shar   : ノートンとシャーマス</title>
-			<title code="0x15">shinden: 神殿</title>
-			<title code="0x16">shrine : 神殿の中</title>
-			<title code="0x17">hardsh : アルフィスへの試練</title>
-			<title code="0x18">felna  : フェルナンドの家</title>
-			<title code="0x19">war    : 事件発生</title>
-			<title code="0x20">jina   : 逃亡してきたジナ</title>
-			<title code="0x21">ranon  : ラノン登場</title>
-			<title code="0x22">vsranon: ラノンとの戦い</title>
-			<title code="0x23">file   : フィレンVSラノン</title>
-			<title code="0x24">after  : 戦いのあとで</title>
-			<title code="0x25">confess: 由加利とジナの関係</title>
-			<title code="0x02">ruin   : 敵・本拠地</title>
-			<title code="0x26">murd   : 3番目の部屋</title>
-			<title code="0x27">wall   : 人間の壁</title>
-			<title code="0x28">dalta  : ダルダルート</title>
-			<title code="0x29">yukari : ショック～由加利の死1</title>
-			<title code="0x30">yukari2: 由加利の死2</title>
-			<title code="0x31">end1   : エンディング1</title>
-			<title code="0x05">end2   : エンディング2</title>
+			<title code="0x05">神の聖都のテーマ</title>
+			<title code="0x03">オープニングデモ1</title>
+			<title code="0x04">オープニングデモ2</title>
+			<title code="0x06">オープニングデモ3</title>
+			<title code="0x00">アレック商会</title>
+			<title code="0x01">酒場</title>
+			<title code="0x07">ハイツン先生の病院</title>
+			<title code="0x10">移動(走る)</title>
+			<title code="0x11">移動(歩く)</title>
+			<title code="0x08">戦闘</title>
+			<title code="0x09">病院の襲撃</title>
+			<title code="0x12">戦慄の蟲</title>
+			<title code="0x13">ノートンの過去</title>
+			<title code="0x14">ノートンとシャーマス</title>
+			<title code="0x15">神殿</title>
+			<title code="0x16">神殿の中</title>
+			<title code="0x17">アルフィスへの試練</title>
+			<title code="0x18">フェルナンドの家</title>
+			<title code="0x19">事件発生</title>
+			<title code="0x20">逃亡してきたジナ</title>
+			<title code="0x21">ラノン登場</title>
+			<title code="0x22">ラノンとの戦い</title>
+			<title code="0x23">フィレンVSラノン</title>
+			<title code="0x24">戦いのあとで</title>
+			<title code="0x25">由加利とジナの関係</title>
+			<title code="0x02">敵・本拠地</title>
+			<title code="0x26">3番目の部屋</title>
+			<title code="0x27">人間の壁</title>
+			<title code="0x28">ダルダルート</title>
+			<title code="0x29">ショック～由加利の死1</title>
+			<title code="0x30">由加利の死2</title>
+			<title code="0x31">エンディング1</title>
+			<title code="0x05">エンディング2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Lesser Mern</name>
+		<name>[PC-9801] Lesser Mern (レッサーメルン) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">スタジオパンサー</driveralias>
+		<driveralias type="PC-9801">Panther Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -345,6 +345,7 @@
 			<rom type="bgm" offset="0x3b">MSC.DAT</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x00003a">Stop the Music</title>
 			<title code="0x01003b">MSC.DAT #00</title>
 			<title code="0x02003b">MSC.DAT #01</title>
 			<title code="0x03003b">MSC.DAT #02</title>
@@ -420,7 +421,6 @@
 			<title code="0x000037">M55</title>
 			<title code="0x000038">M56</title>
 			<title code="0x000039">M57</title>
-			<title code="0x00003a">M99 : 演奏停止</title>
 			<title code="0x00ffff">EFFECT #00</title>
 			<title code="0x01ffff">EFFECT #01</title>
 			<title code="0x02ffff">EFFECT #02</title>
@@ -501,9 +501,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Lesser Mern</name>
+		<name>[PC-9821] Lesser Mern (レッサーメルン) (YM2203)</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9821">スタジオパンサー</driveralias>
+		<driveralias type="PC-9821">Panther Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -579,6 +579,7 @@
 			<rom type="bgm" offset="0x3c">EMSC</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x00003a">Stop the Music</title>
 			<title code="0x01003b">OMSC #00</title>
 			<title code="0x02003b">OMSC #01</title>
 			<title code="0x03003b">OMSC #02</title>
@@ -650,89 +651,88 @@
 			<title code="0x000037">M55</title>
 			<title code="0x000038">M56</title>
 			<title code="0x000039">M57</title>
-			<title code="0x00003a">M99 : 演奏停止</title>
-			<title code="0x00ffff">EFFECT #00</title>
-			<title code="0x01ffff">EFFECT #01</title>
-			<title code="0x02ffff">EFFECT #02</title>
-			<title code="0x03ffff">EFFECT #03</title>
-			<title code="0x04ffff">EFFECT #04</title>
-			<title code="0x05ffff">EFFECT #05</title>
-			<title code="0x06ffff">EFFECT #06</title>
-			<title code="0x07ffff">EFFECT #07</title>
-			<title code="0x08ffff">EFFECT #08</title>
-			<title code="0x09ffff">EFFECT #09</title>
-			<title code="0x0affff">EFFECT #0a</title>
-			<title code="0x0bffff">EFFECT #0b</title>
-			<title code="0x0cffff">EFFECT #0c</title>
-			<title code="0x0dffff">EFFECT #0d</title>
-			<title code="0x0effff">EFFECT #0e</title>
-			<title code="0x0fffff">EFFECT #0f</title>
-			<title code="0x10ffff">EFFECT #10</title>
-			<title code="0x11ffff">EFFECT #11</title>
-			<title code="0x12ffff">EFFECT #12</title>
-			<title code="0x13ffff">EFFECT #13</title>
-			<title code="0x14ffff">EFFECT #14</title>
-			<title code="0x15ffff">EFFECT #15</title>
-			<title code="0x16ffff">EFFECT #16</title>
-			<title code="0x17ffff">EFFECT #17</title>
-			<title code="0x18ffff">EFFECT #18</title>
-			<title code="0x19ffff">EFFECT #19</title>
-			<title code="0x1affff">EFFECT #1a</title>
-			<title code="0x1bffff">EFFECT #1b</title>
-			<title code="0x1cffff">EFFECT #1c</title>
-			<title code="0x1dffff">EFFECT #1d</title>
-			<title code="0x1effff">EFFECT #1e</title>
-			<title code="0x1fffff">EFFECT #1f</title>
-			<title code="0x20ffff">EFFECT #20</title>
-			<title code="0x21ffff">EFFECT #21</title>
-			<title code="0x22ffff">EFFECT #22</title>
-			<title code="0x23ffff">EFFECT #23</title>
-			<title code="0x24ffff">EFFECT #24</title>
-			<title code="0x25ffff">EFFECT #25</title>
-			<title code="0x26ffff">EFFECT #26</title>
-			<title code="0x27ffff">EFFECT #27</title>
-			<title code="0x28ffff">EFFECT #28</title>
-			<title code="0x29ffff">EFFECT #29</title>
-			<title code="0x2affff">EFFECT #2a</title>
-			<title code="0x2bffff">EFFECT #2b</title>
-			<title code="0x2cffff">EFFECT #2c</title>
-			<title code="0x2dffff">EFFECT #2d</title>
-			<title code="0x2effff">EFFECT #2e</title>
-			<title code="0x2fffff">EFFECT #2f</title>
-			<title code="0x30ffff">EFFECT #30</title>
-			<title code="0x31ffff">EFFECT #31</title>
-			<title code="0x32ffff">EFFECT #32</title>
-			<title code="0x33ffff">EFFECT #33</title>
-			<title code="0x34ffff">EFFECT #34</title>
-			<title code="0x35ffff">EFFECT #35</title>
-			<title code="0x36ffff">EFFECT #36</title>
-			<title code="0x37ffff">EFFECT #37</title>
-			<title code="0x38ffff">EFFECT #38</title>
-			<title code="0x39ffff">EFFECT #39</title>
-			<title code="0x3affff">EFFECT #3a</title>
-			<title code="0x3bffff">EFFECT #3b</title>
-			<title code="0x3cffff">EFFECT #3c</title>
-			<title code="0x3dffff">EFFECT #3d</title>
-			<title code="0x3effff">EFFECT #3e</title>
-			<title code="0x3fffff">EFFECT #3f</title>
-			<title code="0x40ffff">EFFECT #40</title>
-			<title code="0x41ffff">EFFECT #41</title>
-			<title code="0x42ffff">EFFECT #42</title>
-			<title code="0x43ffff">EFFECT #43</title>
-			<title code="0x44ffff">EFFECT #44</title>
-			<title code="0x45ffff">EFFECT #45</title>
-			<title code="0x46ffff">EFFECT #46</title>
-			<title code="0x47ffff">EFFECT #47</title>
-			<title code="0x48ffff">EFFECT #48</title>
-			<title code="0x49ffff">EFFECT #49</title>
-			<title code="0x4affff">EFFECT #4a</title>
-			<title code="0x4bffff">EFFECT #4b</title>
+			<title code="0x00ffff">SFX #00</title>
+			<title code="0x01ffff">SFX #01</title>
+			<title code="0x02ffff">SFX #02</title>
+			<title code="0x03ffff">SFX #03</title>
+			<title code="0x04ffff">SFX #04</title>
+			<title code="0x05ffff">SFX #05</title>
+			<title code="0x06ffff">SFX #06</title>
+			<title code="0x07ffff">SFX #07</title>
+			<title code="0x08ffff">SFX #08</title>
+			<title code="0x09ffff">SFX #09</title>
+			<title code="0x0affff">SFX #0a</title>
+			<title code="0x0bffff">SFX #0b</title>
+			<title code="0x0cffff">SFX #0c</title>
+			<title code="0x0dffff">SFX #0d</title>
+			<title code="0x0effff">SFX #0e</title>
+			<title code="0x0fffff">SFX #0f</title>
+			<title code="0x10ffff">SFX #10</title>
+			<title code="0x11ffff">SFX #11</title>
+			<title code="0x12ffff">SFX #12</title>
+			<title code="0x13ffff">SFX #13</title>
+			<title code="0x14ffff">SFX #14</title>
+			<title code="0x15ffff">SFX #15</title>
+			<title code="0x16ffff">SFX #16</title>
+			<title code="0x17ffff">SFX #17</title>
+			<title code="0x18ffff">SFX #18</title>
+			<title code="0x19ffff">SFX #19</title>
+			<title code="0x1affff">SFX #1a</title>
+			<title code="0x1bffff">SFX #1b</title>
+			<title code="0x1cffff">SFX #1c</title>
+			<title code="0x1dffff">SFX #1d</title>
+			<title code="0x1effff">SFX #1e</title>
+			<title code="0x1fffff">SFX #1f</title>
+			<title code="0x20ffff">SFX #20</title>
+			<title code="0x21ffff">SFX #21</title>
+			<title code="0x22ffff">SFX #22</title>
+			<title code="0x23ffff">SFX #23</title>
+			<title code="0x24ffff">SFX #24</title>
+			<title code="0x25ffff">SFX #25</title>
+			<title code="0x26ffff">SFX #26</title>
+			<title code="0x27ffff">SFX #27</title>
+			<title code="0x28ffff">SFX #28</title>
+			<title code="0x29ffff">SFX #29</title>
+			<title code="0x2affff">SFX #2a</title>
+			<title code="0x2bffff">SFX #2b</title>
+			<title code="0x2cffff">SFX #2c</title>
+			<title code="0x2dffff">SFX #2d</title>
+			<title code="0x2effff">SFX #2e</title>
+			<title code="0x2fffff">SFX #2f</title>
+			<title code="0x30ffff">SFX #30</title>
+			<title code="0x31ffff">SFX #31</title>
+			<title code="0x32ffff">SFX #32</title>
+			<title code="0x33ffff">SFX #33</title>
+			<title code="0x34ffff">SFX #34</title>
+			<title code="0x35ffff">SFX #35</title>
+			<title code="0x36ffff">SFX #36</title>
+			<title code="0x37ffff">SFX #37</title>
+			<title code="0x38ffff">SFX #38</title>
+			<title code="0x39ffff">SFX #39</title>
+			<title code="0x3affff">SFX #3a</title>
+			<title code="0x3bffff">SFX #3b</title>
+			<title code="0x3cffff">SFX #3c</title>
+			<title code="0x3dffff">SFX #3d</title>
+			<title code="0x3effff">SFX #3e</title>
+			<title code="0x3fffff">SFX #3f</title>
+			<title code="0x40ffff">SFX #40</title>
+			<title code="0x41ffff">SFX #41</title>
+			<title code="0x42ffff">SFX #42</title>
+			<title code="0x43ffff">SFX #43</title>
+			<title code="0x44ffff">SFX #44</title>
+			<title code="0x45ffff">SFX #45</title>
+			<title code="0x46ffff">SFX #46</title>
+			<title code="0x47ffff">SFX #47</title>
+			<title code="0x48ffff">SFX #48</title>
+			<title code="0x49ffff">SFX #49</title>
+			<title code="0x4affff">SFX #4a</title>
+			<title code="0x4bffff">SFX #4b</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JOSHUA ～異世界伝承～</name>
+		<name>[PC-9801] Isekai Denshou Joshua (異世界伝承ジョシュア) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">スタジオパンサー</driveralias>
+		<driveralias type="PC-9801">Panther Software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -756,9 +756,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ハムレット</name>
+		<name>[PC-9801] Hamlet (ハムレット) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">スタジオパンサー</driveralias>
+		<driveralias type="PC-9801">Panther Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -845,9 +845,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOSHUA ～異世界伝承～(OPM)</name>
+		<name>[X68000] Isekai Denshou Joshua (異世界伝承ジョシュア) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -863,17 +863,17 @@
 			<rom type="code" offset="0x22000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MARS.DT  :</title>
-			<title code="0x01">LM002.DT :</title>
-			<title code="0x02">LM003.DT :</title>
-			<title code="0x03">LM006.DT :</title>
-			<title code="0x04">LM008.DT :</title>
+			<title code="0x05">MARS.DT</title>
+			<title code="0x01">LM002.DT</title>
+			<title code="0x02">LM003.DT</title>
+			<title code="0x03">LM006.DT</title>
+			<title code="0x04">LM008.DT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOSHUA ～異世界伝承～(MT-32)</name>
+		<name>[X68000] Isekai Denshou Joshua (異世界伝承ジョシュア) (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -891,17 +891,17 @@
 			<rom type="code" offset="0x22000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MARS.DTM  :</title>
-			<title code="0x01">LM002.DTM :</title>
-			<title code="0x02">LM003.DTM :</title>
-			<title code="0x03">LM006.DTM :</title>
-			<title code="0x04">LM008.DTM :</title>
+			<title code="0x05">MARS.DTM</title>
+			<title code="0x01">LM002.DTM</title>
+			<title code="0x02">LM003.DTM</title>
+			<title code="0x03">LM006.DTM</title>
+			<title code="0x04">LM008.DTM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOSHUA ～異世界伝承～(MT-32 Emulation)</name>
+		<name>[X68000] Isekai Denshou Joshua (異世界伝承ジョシュア) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -919,17 +919,17 @@
 			<rom type="code" offset="0x22000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MARS.DTM  :</title>
-			<title code="0x01">LM002.DTM :</title>
-			<title code="0x02">LM003.DTM :</title>
-			<title code="0x03">LM006.DTM :</title>
-			<title code="0x04">LM008.DTM :</title>
+			<title code="0x05">MARS.DTM</title>
+			<title code="0x01">LM002.DTM</title>
+			<title code="0x02">LM003.DTM</title>
+			<title code="0x03">LM006.DTM</title>
+			<title code="0x04">LM008.DTM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOSHUA ～異世界伝承～(GS)</name>
+		<name>[X68000] Isekai Denshou Joshua (異世界伝承ジョシュア) (GS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -947,17 +947,45 @@
 			<rom type="code" offset="0x22000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">MARS.DTG  :</title>
-			<title code="0x01">LM002.DTG :</title>
-			<title code="0x02">LM003.DTG :</title>
-			<title code="0x03">LM006.DTG :</title>
-			<title code="0x04">LM008.DTG :</title>
+			<title code="0x05">MARS.DTG</title>
+			<title code="0x01">LM002.DTG</title>
+			<title code="0x02">LM003.DTG</title>
+			<title code="0x03">LM006.DTG</title>
+			<title code="0x04">LM008.DTG</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] KU2(OPM)</name>
+		<name>[X68000] Isekai Denshou Joshua (異世界伝承ジョシュア) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="mfp"     value="0x01"/>
+		</options>
+		<romlist archive="joshua68snd">
+			<rom type="code" offset="0x00000">jsh68gs.bin</rom>
+			<rom type="x" offset="0x10000">PSMSCDRV.X</rom>
+			<rom type="code" offset="0x14000">NEIRO.DT</rom>
+			<rom type="code" offset="0x16000">LM002.DTG</rom>
+			<rom type="code" offset="0x18000">LM003.DTG</rom>
+			<rom type="code" offset="0x1a000">LM006.DTG</rom>
+			<rom type="code" offset="0x1c000">LM008.DTG</rom>
+			<rom type="code" offset="0x1e000">MARS.DTG</rom>
+			<rom type="code" offset="0x22000">MPCM.DT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x05">MARS.DTG</title>
+			<title code="0x01">LM002.DTG</title>
+			<title code="0x02">LM003.DTG</title>
+			<title code="0x03">LM006.DTG</title>
+			<title code="0x04">LM008.DTG</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] KU2 (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -984,27 +1012,27 @@
 			<rom type="code" offset="0x35000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01F.DT :</title>
-			<title code="0x02">M02F.DT :</title>
-			<title code="0x03">M03F.DT :</title>
-			<title code="0x04">M04F.DT :</title>
-			<title code="0x05">M05F.DT :</title>
-			<title code="0x06">M06F.DT :</title>
-			<title code="0x07">M07F.DT :</title>
-			<title code="0x08">M11F.DT :</title>
-			<title code="0x09">M14F.DT :</title>
-			<title code="0x0a">M16F.DT :</title>
-			<title code="0x0b">M17F.DT :</title>
-			<title code="0x0c">M18F.DT :</title>
-			<title code="0x0d">M19F.DT :</title>
-			<title code="0x0e">M21F.DT :</title>
-			<title code="0x0f">M28F.DT :</title>
+			<title code="0x01">M01F.DT</title>
+			<title code="0x02">M02F.DT</title>
+			<title code="0x03">M03F.DT</title>
+			<title code="0x04">M04F.DT</title>
+			<title code="0x05">M05F.DT</title>
+			<title code="0x06">M06F.DT</title>
+			<title code="0x07">M07F.DT</title>
+			<title code="0x08">M11F.DT</title>
+			<title code="0x09">M14F.DT</title>
+			<title code="0x0a">M16F.DT</title>
+			<title code="0x0b">M17F.DT</title>
+			<title code="0x0c">M18F.DT</title>
+			<title code="0x0d">M19F.DT</title>
+			<title code="0x0e">M21F.DT</title>
+			<title code="0x0f">M28F.DT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] KU2(MT-32)</name>
+		<name>[X68000] KU2 (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -1033,27 +1061,27 @@
 			<rom type="code" offset="0x37000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01C.DT :</title>
-			<title code="0x02">M02C.DT :</title>
-			<title code="0x03">M03C.DT :</title>
-			<title code="0x04">M04C.DT :</title>
-			<title code="0x05">M05C.DT :</title>
-			<title code="0x06">M06C.DT :</title>
-			<title code="0x07">M07C.DT :</title>
-			<title code="0x08">M11C.DT :</title>
-			<title code="0x09">M14C.DT :</title>
-			<title code="0x0a">M16C.DT :</title>
-			<title code="0x0b">M17C.DT :</title>
-			<title code="0x0c">M18C.DT :</title>
-			<title code="0x0d">M19C.DT :</title>
-			<title code="0x0e">M21C.DT :</title>
-			<title code="0x0f">M28C.DT :</title>
+			<title code="0x01">M01C.DT</title>
+			<title code="0x02">M02C.DT</title>
+			<title code="0x03">M03C.DT</title>
+			<title code="0x04">M04C.DT</title>
+			<title code="0x05">M05C.DT</title>
+			<title code="0x06">M06C.DT</title>
+			<title code="0x07">M07C.DT</title>
+			<title code="0x08">M11C.DT</title>
+			<title code="0x09">M14C.DT</title>
+			<title code="0x0a">M16C.DT</title>
+			<title code="0x0b">M17C.DT</title>
+			<title code="0x0c">M18C.DT</title>
+			<title code="0x0d">M19C.DT</title>
+			<title code="0x0e">M21C.DT</title>
+			<title code="0x0f">M28C.DT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] KU2(MT-32 Emulation)</name>
+		<name>[X68000] KU2 (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -1082,27 +1110,27 @@
 			<rom type="code" offset="0x37000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01C.DT :</title>
-			<title code="0x02">M02C.DT :</title>
-			<title code="0x03">M03C.DT :</title>
-			<title code="0x04">M04C.DT :</title>
-			<title code="0x05">M05C.DT :</title>
-			<title code="0x06">M06C.DT :</title>
-			<title code="0x07">M07C.DT :</title>
-			<title code="0x08">M11C.DT :</title>
-			<title code="0x09">M14C.DT :</title>
-			<title code="0x0a">M16C.DT :</title>
-			<title code="0x0b">M17C.DT :</title>
-			<title code="0x0c">M18C.DT :</title>
-			<title code="0x0d">M19C.DT :</title>
-			<title code="0x0e">M21C.DT :</title>
-			<title code="0x0f">M28C.DT :</title>
+			<title code="0x01">M01C.DT</title>
+			<title code="0x02">M02C.DT</title>
+			<title code="0x03">M03C.DT</title>
+			<title code="0x04">M04C.DT</title>
+			<title code="0x05">M05C.DT</title>
+			<title code="0x06">M06C.DT</title>
+			<title code="0x07">M07C.DT</title>
+			<title code="0x08">M11C.DT</title>
+			<title code="0x09">M14C.DT</title>
+			<title code="0x0a">M16C.DT</title>
+			<title code="0x0b">M17C.DT</title>
+			<title code="0x0c">M18C.DT</title>
+			<title code="0x0d">M19C.DT</title>
+			<title code="0x0e">M21C.DT</title>
+			<title code="0x0f">M28C.DT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] KU2(GS)</name>
+		<name>[X68000] KU2 (GS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -1131,103 +1159,152 @@
 			<rom type="code" offset="0x37000">MPCM.DT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M01G.DT :</title>
-			<title code="0x02">M02G.DT :</title>
-			<title code="0x03">M03G.DT :</title>
-			<title code="0x04">M04G.DT :</title>
-			<title code="0x05">M05G.DT :</title>
-			<title code="0x06">M06G.DT :</title>
-			<title code="0x07">M07G.DT :</title>
-			<title code="0x08">M11G.DT :</title>
-			<title code="0x09">M14G.DT :</title>
-			<title code="0x0a">M16G.DT :</title>
-			<title code="0x0b">M17G.DT :</title>
-			<title code="0x0c">M18G.DT :</title>
-			<title code="0x0d">M19G.DT :</title>
-			<title code="0x0e">M21G.DT :</title>
-			<title code="0x0f">M28G.DT :</title>
+			<title code="0x01">M01G.DT</title>
+			<title code="0x02">M02G.DT</title>
+			<title code="0x03">M03G.DT</title>
+			<title code="0x04">M04G.DT</title>
+			<title code="0x05">M05G.DT</title>
+			<title code="0x06">M06G.DT</title>
+			<title code="0x07">M07G.DT</title>
+			<title code="0x08">M11G.DT</title>
+			<title code="0x09">M14G.DT</title>
+			<title code="0x0a">M16G.DT</title>
+			<title code="0x0b">M17G.DT</title>
+			<title code="0x0c">M18G.DT</title>
+			<title code="0x0d">M19G.DT</title>
+			<title code="0x0e">M21G.DT</title>
+			<title code="0x0f">M28G.DT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 大江戸繁盛記</name>
+		<name>[X68000] KU2 (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="mfp"     value="0x01"/>
+		</options>
+		<romlist archive="ku268snd">
+			<rom type="code" offset="0x00000">ku268gs.bin</rom>
+			<rom type="x" offset="0x10000">KDRV.X</rom>
+			<rom type="code" offset="0x14000">NEIRO.DT</rom>
+			<rom type="code" offset="0x16000">M01G.DT</rom>
+			<rom type="code" offset="0x18000">M02G.DT</rom>
+			<rom type="code" offset="0x1a000">M03G.DT</rom>
+			<rom type="code" offset="0x1c000">M04G.DT</rom>
+			<rom type="code" offset="0x1e000">M05G.DT</rom>
+			<rom type="code" offset="0x20000">M06G.DT</rom>
+			<rom type="code" offset="0x22000">M07G.DT</rom>
+			<rom type="code" offset="0x24000">M11G.DT</rom>
+			<rom type="code" offset="0x26000">M14G.DT</rom>
+			<rom type="code" offset="0x2a000">M16G.DT</rom>
+			<rom type="code" offset="0x2c000">M17G.DT</rom>
+			<rom type="code" offset="0x2e000">M18G.DT</rom>
+			<rom type="code" offset="0x30000">M19G.DT</rom>
+			<rom type="code" offset="0x32000">M21G.DT</rom>
+			<rom type="code" offset="0x34000">M28G.DT</rom>
+			<rom type="code" offset="0x36000">MPCMTBL.DT</rom>
+			<rom type="code" offset="0x37000">MPCM.DT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">M01G.DT</title>
+			<title code="0x02">M02G.DT</title>
+			<title code="0x03">M03G.DT</title>
+			<title code="0x04">M04G.DT</title>
+			<title code="0x05">M05G.DT</title>
+			<title code="0x06">M06G.DT</title>
+			<title code="0x07">M07G.DT</title>
+			<title code="0x08">M11G.DT</title>
+			<title code="0x09">M14G.DT</title>
+			<title code="0x0a">M16G.DT</title>
+			<title code="0x0b">M17G.DT</title>
+			<title code="0x0c">M18G.DT</title>
+			<title code="0x0d">M19G.DT</title>
+			<title code="0x0e">M21G.DT</title>
+			<title code="0x0f">M28G.DT</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Ooedo Hanjouki (大江戸繁盛記) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<romlist archive="oedoh68snd">
 			<rom type="code">oedoh68snd.bin</rom>
 			<rom type="x" offset="0x10000">OPMDRV.X</rom>
 			<rom type="x" offset="0x30000">大江戸繁盛記.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : </title>
+			<title code="0x01">BGM #01</title>
 			<!--
-			<title code="0x02">01 : </title>
-			<title code="0x03">02 : </title>
-			<title code="0x04">03 : </title>
-			<title code="0x05">04 : </title>
-			<title code="0x06">05 : </title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
 			  -->
-			<title code="0x07">06 : </title>
-			<title code="0x08">07 : </title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 天九牌</name>
+		<name>[X68000] Tenkyuuhai (天九牌) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<romlist archive="tkh68snd">
 			<rom type="code">tnkyu68snd.bin</rom>
 			<rom type="x" offset="0x10000">OPMDRV.X</rom>
 			<rom type="x" offset="0x30000">ten.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : </title>
-			<title code="0x02">01 : </title>
-			<title code="0x03">02 : </title>
-			<title code="0x04">03 : </title>
-			<title code="0x05">04 : </title>
-			<title code="0x06">05 : </title>
+			<title code="0x01">BGM #00</title>
+			<title code="0x02">BGM #01</title>
+			<title code="0x03">BGM #02</title>
+			<title code="0x04">BGM #03</title>
+			<title code="0x05">BGM #04</title>
+			<title code="0x06">BGM #05</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 天九牌Special 桃源の宴</name>
+		<name>[X68000] Tenkyuuhai Special: Tougen no Utage (天九牌Special 桃源の宴) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<romlist archive="tkhsp68snd">
 			<rom type="code">tkhsp68snd.bin</rom>
 			<rom type="x" offset="0x10000">OPMDRV.X</rom>
 			<rom type="x" offset="0x30000">ten.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : </title>
-			<title code="0x02">01 : </title>
-			<title code="0x03">02 : </title>
-			<title code="0x04">03 : </title>
-			<title code="0x05">04 : </title>
-			<title code="0x06">05 : </title>
+			<title code="0x01">BGM #00</title>
+			<title code="0x02">BGM #01</title>
+			<title code="0x03">BGM #02</title>
+			<title code="0x04">BGM #03</title>
+			<title code="0x05">BGM #04</title>
+			<title code="0x06">BGM #05</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 天九牌Special 桃源の宴II</name>
+		<name>[X68000] Tenkyuuhai Special: Tougen no Utage II (天九牌Special 桃源の宴II) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">スタジオパンサー</driveralias>
+		<driveralias type="X68000">Panther Software</driveralias>
 		<romlist archive="tkhsp268snd">
 			<rom type="code">tkhsp268snd.bin</rom>
 			<rom type="x" offset="0x10000">OPMDRV.X</rom>
 			<rom type="x" offset="0x30000">ten.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : </title>
-			<title code="0x02">01 : </title>
-			<title code="0x03">02 : </title>
-			<title code="0x04">03 : </title>
-			<title code="0x05">04 : </title>
-			<title code="0x06">05 : </title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 神の聖都(OPLL)</name>
+		<name>[MSX2] Kami no Machi (神の聖都) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">スタジオパンサー</driveralias>
+		<driveralias type="MSX2">Panther Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x98cd"/>
 			<option name="mdata_size" value="0x1a00"/>
@@ -1300,72 +1377,72 @@
 			<rom type="bgm" offset="0x3b">OTO4</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x29">KTM1BF : 神の聖都のテーマ</title>
-			<title code="0x0d">KM10BF : オープニングデモ1</title>
-			<title code="0x28">KM9BF  : オープニングデモ3</title>
-			<title code="0x1a">KM24F  : アレック商会</title>
-			<title code="0x27">KM6F   : 酒場</title>
-			<title code="0x18">KM22F  : ハイツン先生の病院</title>
-			<title code="0x11">KM14F  : 移動(走る)</title>
-			<title code="0x23">KM32F  : 移動(歩く)</title>
-			<title code="0x16">KM1BF  : 戦闘</title>
-			<title code="0x17">KM20F  : 病院の襲撃</title>
-			<title code="0x1b">KM25F  : 戦慄の蟲</title>
-			<title code="0x1d">KM27BF : ノートンの過去</title>
-			<title code="0x13">KM17F  : ノートンとシャーマス</title>
-			<title code="0x0e">KM11F  : 神殿</title>
-			<title code="0x10">KM13F  : 神殿の中</title>
-			<title code="0x34">KM16   : アルフィスへの試練</title>
-			<title code="0x35">KM21   : フェルナンドの家</title>
-			<title code="0x24">KM33F  : 事件発生</title>
-			<title code="0x25">KM3F   : 逃亡してきたジナ</title>
-			<title code="0x20">KM2F   : ラノン登場</title>
-			<title code="0x0f">KM12F  : ラノンとの戦い</title>
-			<title code="0x19">KM23F  : フィレンVSラノン</title>
-			<title code="0x1c">KM26F  : 戦いのあとで</title>
-			<title code="0x22">KM31F  : 由加利とジナの関係</title>
-			<title code="0x15">KM19F  : 敵・本拠地</title>
-			<title code="0x12">KM15F  : 3番目の部屋</title>
-			<title code="0x14">KM18F  : 人間の壁</title>
-			<title code="0x1e">KM28F  : ダルダルート</title>
-			<title code="0x1f">KM29F  : ショック～由加利の死1</title>
-			<title code="0x26">KM4F   : 由加利の死2</title>
-			<title code="0x21">KM30F  : エンディング1</title>
-			<title code="0x00">120MM  : SE</title>
-			<title code="0x01">ALFIS  : SE</title>
-			<title code="0x02">BAKU3  : SE</title>
-			<title code="0x03">BOMB2  : SE</title>
-			<title code="0x04">DAL    : SE</title>
-			<title code="0x05">DALDAL : SE</title>
-			<title code="0x06">DAMAGE : SE</title>
-			<title code="0x36">GUN    : SE</title>
-			<title code="0x07">HITLER : SE</title>
-			<title code="0x08">JINA   : SE</title>
-			<title code="0x09">JINARI : SE</title>
-			<title code="0x0a">JYAN3  : SE</title>
-			<title code="0x0b">KAGI   : SE</title>
-			<title code="0x0c">KAKIN  : SE</title>
-			<title code="0x2a">LANON  : SE</title>
-			<title code="0x37">MIMI   : SE</title>
-			<title code="0x2b">MUSHI  : SE</title>
-			<title code="0x2c">NAGRI  : SE</title>
-			<title code="0x2d">NOTON  : SE</title>
-			<title code="0x38">OTO    : SE</title>
-			<title code="0x39">OTO2   : SE</title>
-			<title code="0x3a">OTO3   : SE</title>
-			<title code="0x3b">OTO4   : SE</title>
-			<title code="0x2e">S      : SE</title>
-			<title code="0x2f">S3     : SE</title>
-			<title code="0x30">SAKEBI : SE</title>
-			<title code="0x31">UCHU   : SE</title>
-			<title code="0x32">YUKA   : SE</title>
-			<title code="0x33">ZIPO   : SE</title>
+			<title code="0x29">神の聖都のテーマ</title>
+			<title code="0x0d">オープニングデモ1</title>
+			<title code="0x28">オープニングデモ3</title>
+			<title code="0x1a">アレック商会</title>
+			<title code="0x27">酒場</title>
+			<title code="0x18">ハイツン先生の病院</title>
+			<title code="0x11">移動(走る)</title>
+			<title code="0x23">移動(歩く)</title>
+			<title code="0x16">戦闘</title>
+			<title code="0x17">病院の襲撃</title>
+			<title code="0x1b">戦慄の蟲</title>
+			<title code="0x1d">ノートンの過去</title>
+			<title code="0x13">ノートンとシャーマス</title>
+			<title code="0x0e">神殿</title>
+			<title code="0x10">神殿の中</title>
+			<title code="0x34">アルフィスへの試練</title>
+			<title code="0x35">フェルナンドの家</title>
+			<title code="0x24">事件発生</title>
+			<title code="0x25">逃亡してきたジナ</title>
+			<title code="0x20">ラノン登場</title>
+			<title code="0x0f">ラノンとの戦い</title>
+			<title code="0x19">フィレンVSラノン</title>
+			<title code="0x1c">戦いのあとで</title>
+			<title code="0x22">由加利とジナの関係</title>
+			<title code="0x15">敵・本拠地</title>
+			<title code="0x12">3番目の部屋</title>
+			<title code="0x14">人間の壁</title>
+			<title code="0x1e">ダルダルート</title>
+			<title code="0x1f">ショック～由加利の死1</title>
+			<title code="0x26">由加利の死2</title>
+			<title code="0x21">エンディング1</title>
+			<title code="0x00">120MM</title>
+			<title code="0x01">ALFIS</title>
+			<title code="0x02">BAKU3</title>
+			<title code="0x03">BOMB2</title>
+			<title code="0x04">DAL</title>
+			<title code="0x05">DALDAL</title>
+			<title code="0x06">DAMAGE</title>
+			<title code="0x36">GUN</title>
+			<title code="0x07">HITLER</title>
+			<title code="0x08">JINA</title>
+			<title code="0x09">JINARI</title>
+			<title code="0x0a">JYAN3</title>
+			<title code="0x0b">KAGI</title>
+			<title code="0x0c">KAKIN</title>
+			<title code="0x2a">LANON</title>
+			<title code="0x37">MIMI</title>
+			<title code="0x2b">MUSHI</title>
+			<title code="0x2c">NAGRI</title>
+			<title code="0x2d">NOTON</title>
+			<title code="0x38">OTO</title>
+			<title code="0x39">OTO2</title>
+			<title code="0x3a">OTO3</title>
+			<title code="0x3b">OTO4</title>
+			<title code="0x2e">S</title>
+			<title code="0x2f">S3</title>
+			<title code="0x30">SAKEBI</title>
+			<title code="0x31">UCHU</title>
+			<title code="0x32">YUKA</title>
+			<title code="0x33">ZIPO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 神の聖都(PSG)</name>
+		<name>[MSX2] Kami no Machi (神の聖都) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">スタジオパンサー</driveralias>
+		<driveralias type="MSX2">Panther Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x98cd"/>
 			<option name="mdata_size" value="0x1a00"/>
@@ -1435,64 +1512,64 @@
 			<rom type="bgm" offset="0x3b">OTO4</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x29">KTM1BP : 神の聖都のテーマ</title>
-			<title code="0x0d">KM10BP : オープニングデモ1</title>
-			<title code="0x28">KM9BP  : オープニングデモ3</title>
-			<title code="0x1a">KM24P  : アレック商会</title>
-			<title code="0x27">KM6P   : 酒場</title>
-			<title code="0x18">KM22P  : ハイツン先生の病院</title>
-			<title code="0x11">KM14P  : 移動(走る)</title>
-			<title code="0x23">KM32P  : 移動(歩く)</title>
-			<title code="0x16">KM1BP  : 戦闘</title>
-			<title code="0x17">KM20P  : 病院の襲撃</title>
-			<title code="0x1b">KM25P  : 戦慄の蟲</title>
-			<title code="0x1d">KM27BP : ノートンの過去</title>
-			<title code="0x13">KM17P  : ノートンとシャーマス</title>
-			<title code="0x0e">KM11P  : 神殿</title>
-			<title code="0x10">KM13P  : 神殿の中</title>
-			<title code="0x24">KM33P  : 事件発生</title>
-			<title code="0x25">KM3P   : 逃亡してきたジナ</title>
-			<title code="0x20">KM2P   : ラノン登場</title>
-			<title code="0x0f">KM12P  : ラノンとの戦い</title>
-			<title code="0x19">KM23P  : フィレンVSラノン</title>
-			<title code="0x1c">KM26P  : 戦いのあとで</title>
-			<title code="0x22">KM31P  : 由加利とジナの関係</title>
-			<title code="0x15">KM19P  : 敵・本拠地</title>
-			<title code="0x12">KM15P  : 3番目の部屋</title>
-			<title code="0x14">KM18P  : 人間の壁</title>
-			<title code="0x1e">KM28P  : ダルダルート</title>
-			<title code="0x1f">KM29P  : ショック～由加利の死1</title>
-			<title code="0x26">KM4P   : 由加利の死2</title>
-			<title code="0x21">KM30P  : エンディング1</title>
-			<title code="0x00">120MM  : SE</title>
-			<title code="0x01">ALFIS  : SE</title>
-			<title code="0x02">BAKU3  : SE</title>
-			<title code="0x03">BOMB2  : SE</title>
-			<title code="0x04">DAL    : SE</title>
-			<title code="0x05">DALDAL : SE</title>
-			<title code="0x06">DAMAGE : SE</title>
-			<title code="0x07">HITLER : SE</title>
-			<title code="0x08">JINA   : SE</title>
-			<title code="0x09">JINARI : SE</title>
-			<title code="0x0a">JYAN3  : SE</title>
-			<title code="0x0b">KAGI   : SE</title>
-			<title code="0x0c">KAKIN  : SE</title>
-			<title code="0x2a">LANON  : SE</title>
-			<title code="0x2b">MUSHI  : SE</title>
-			<title code="0x2c">NAGRI  : SE</title>
-			<title code="0x2d">NOTON  : SE</title>
-			<title code="0x2e">S      : SE</title>
-			<title code="0x2f">S3     : SE</title>
-			<title code="0x30">SAKEBI : SE</title>
-			<title code="0x31">UCHU   : SE</title>
-			<title code="0x32">YUKA   : SE</title>
-			<title code="0x33">ZIPO   : SE</title>
-			<title code="0x36">GUN    : SE</title>
-			<title code="0x37">MIMI   : SE</title>
-			<title code="0x38">OTO    : SE</title>
-			<title code="0x39">OTO2   : SE</title>
-			<title code="0x3a">OTO3   : SE</title>
-			<title code="0x3b">OTO4   : SE</title>
+			<title code="0x29">神の聖都のテーマ</title>
+			<title code="0x0d">オープニングデモ1</title>
+			<title code="0x28">オープニングデモ3</title>
+			<title code="0x1a">アレック商会</title>
+			<title code="0x27">酒場</title>
+			<title code="0x18">ハイツン先生の病院</title>
+			<title code="0x11">移動(走る)</title>
+			<title code="0x23">移動(歩く)</title>
+			<title code="0x16">戦闘</title>
+			<title code="0x17">病院の襲撃</title>
+			<title code="0x1b">戦慄の蟲</title>
+			<title code="0x1d">ノートンの過去</title>
+			<title code="0x13">ノートンとシャーマス</title>
+			<title code="0x0e">神殿</title>
+			<title code="0x10">神殿の中</title>
+			<title code="0x24">事件発生</title>
+			<title code="0x25">逃亡してきたジナ</title>
+			<title code="0x20">ラノン登場</title>
+			<title code="0x0f">ラノンとの戦い</title>
+			<title code="0x19">フィレンVSラノン</title>
+			<title code="0x1c">戦いのあとで</title>
+			<title code="0x22">由加利とジナの関係</title>
+			<title code="0x15">敵・本拠地</title>
+			<title code="0x12">3番目の部屋</title>
+			<title code="0x14">人間の壁</title>
+			<title code="0x1e">ダルダルート</title>
+			<title code="0x1f">ショック～由加利の死1</title>
+			<title code="0x26">由加利の死2</title>
+			<title code="0x21">エンディング1</title>
+			<title code="0x00">120MM</title>
+			<title code="0x01">ALFIS</title>
+			<title code="0x02">BAKU3</title>
+			<title code="0x03">BOMB2</title>
+			<title code="0x04">DAL</title>
+			<title code="0x05">DALDAL</title>
+			<title code="0x06">DAMAGE</title>
+			<title code="0x07">HITLER</title>
+			<title code="0x08">JINA</title>
+			<title code="0x09">JINARI</title>
+			<title code="0x0a">JYAN3</title>
+			<title code="0x0b">KAGI</title>
+			<title code="0x0c">KAKIN</title>
+			<title code="0x2a">LANON</title>
+			<title code="0x2b">MUSHI</title>
+			<title code="0x2c">NAGRI</title>
+			<title code="0x2d">NOTON</title>
+			<title code="0x2e">S</title>
+			<title code="0x2f">S3</title>
+			<title code="0x30">SAKEBI</title>
+			<title code="0x31">UCHU</title>
+			<title code="0x32">YUKA</title>
+			<title code="0x33">ZIPO</title>
+			<title code="0x36">GUN</title>
+			<title code="0x37">MIMI</title>
+			<title code="0x38">OTO</title>
+			<title code="0x39">OTO2</title>
+			<title code="0x3a">OTO3</title>
+			<title code="0x3b">OTO4</title>
 		</titlelist>
 	</game>
 </gamelist>

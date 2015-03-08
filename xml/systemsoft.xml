@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] SeeNa(PC-8801mk2SR version)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -63,12 +63,12 @@
 			<title code="0x00000000">MUS00  : Function Area</title>
 			<title code="0x00000001">MUS01  : Balance in the Maze</title>
 			<title code="0x00000002">MUS02  : SIDE-B Stage 8</title>
-			<title code="0x00000003">MUS03  : </title>
+			<title code="0x00000003">MUS03</title>
 			<title code="0x00000004">MUS04  : SIDE-B Stage 1,3,5,7</title>
 			<title code="0x00000005">MUS05  : SIDE-B Stage 2</title>
-			<title code="0x00000006">MUS06  : </title>
-			<title code="0x00000007">MUS07  : </title>
-			<title code="0x00000008">MUS08  : </title>
+			<title code="0x00000006">MUS06</title>
+			<title code="0x00000007">MUS07</title>
+			<title code="0x00000008">MUS08</title>
 		<!--	<title code="0x00000009">MUS09  : Balance in the Maze</title> -->
 			<title code="0x0000000a">MUS10  : SIDE-B ステージクリア</title>
 			<title code="0x0000000b">MUS11  : SIDE-B オールクリア</title>
@@ -119,7 +119,7 @@
 	<game>
 		<name>[PC-8801] SeeNa(PC-8801/mk2 version)</name>
 		<driver type="8801-11">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -146,12 +146,12 @@
 			<title code="0x00000000">MUS00  : Function Area</title>
 			<title code="0x00000009">MUS09  : Balance in the Maze (PC-8801/mk2 version)</title>
 			<title code="0x00000002">MUS02  : SIDE-B Stage 8</title>
-			<title code="0x00000003">MUS03  : </title>
+			<title code="0x00000003">MUS03</title>
 			<title code="0x00000004">MUS04  : SIDE-B Stage 1,3,5,7</title>
 			<title code="0x00000005">MUS05  : SIDE-B Stage 2</title>
-			<title code="0x00000006">MUS06  : </title>
-			<title code="0x00000007">MUS07  : </title>
-			<title code="0x00000008">MUS08  : </title>
+			<title code="0x00000006">MUS06</title>
+			<title code="0x00000007">MUS07</title>
+			<title code="0x00000008">MUS08</title>
 			<title code="0x00000001">MUS01  : Balance in the Maze (PC-8801mk2SR version)</title>
 			<title code="0x0000000a">MUS10  : SIDE-B ステージクリア</title>
 			<title code="0x0000000b">MUS11  : SIDE-B オールクリア</title>
@@ -202,7 +202,7 @@
 	<game>
 		<name>[PC-8801] SeeNa WIDE SCREEN</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -227,12 +227,12 @@
 			<title code="0x00000000">MUS00  : Function Area</title>
 			<title code="0x00000009">MUS09  : Balance in the Maze (PC-8801/mk2 version)</title>
 			<title code="0x00000002">MUS02  : SIDE-B Stage 8</title>
-			<title code="0x00000003">MUS03  : </title>
+			<title code="0x00000003">MUS03</title>
 			<title code="0x00000004">MUS04  : SIDE-B Stage 1,3,5,7</title>
 			<title code="0x00000005">MUS05  : SIDE-B Stage 2</title>
-			<title code="0x00000006">MUS06  : </title>
-			<title code="0x00000007">MUS07  : </title>
-			<title code="0x00000008">MUS08  : </title>
+			<title code="0x00000006">MUS06</title>
+			<title code="0x00000007">MUS07</title>
+			<title code="0x00000008">MUS08</title>
 			<title code="0x00000001">MUS01  : Balance in the Maze (PC-8801mk2SR version)</title>
 			<title code="0x0000000a">MUS10  : SIDE-B ステージクリア</title>
 			<title code="0x0000000b">MUS11  : SIDE-B オールクリア</title>
@@ -283,7 +283,7 @@
 	<game>
 		<name>[PC-8801] かわいそう物語</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<romlist archive="kawaisou">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9000">WEDG.bin</rom>
@@ -318,7 +318,7 @@
 	<game>
 		<name>[PC-8801] 銀河</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xe000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -343,7 +343,7 @@
 	<game>
 		<name>[PC-8801] 冒険浪漫</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -383,7 +383,7 @@
 	<game>
 		<name>[PC-8801] SUPER大戦略</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5100"/>
 			<option name="mdata_size" value="0x2400"/>
@@ -403,7 +403,7 @@
 	<game>
 		<name>[PC-8801] キャンペーン版大戦略 II</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9b00"/>
 		</options>
@@ -423,7 +423,7 @@
 	<game>
 		<name>[PC-8801] ACROJET</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -439,7 +439,7 @@
 	<game>
 		<name>[PC-8801] Master of Monsters</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x2a00"/>
@@ -463,7 +463,7 @@
 	<game>
 		<name>[PC-8801] 上海 II</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5eef"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -501,7 +501,7 @@
 	<game>
 		<name>[PC-8801] F-15 STRIKE EAGLE</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<romlist archive="f15eagle">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x2000">VOICEF15.M88</rom>
@@ -515,7 +515,7 @@
 	<game>
 		<name>[PC-8801] Tir-nan-og - The Forbidden Tower -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x3000"/>
@@ -552,7 +552,7 @@
 	<game>
 		<name>[PC-8801] コラムス 対戦モード付</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">SystemSoft</driveralias>
+		<driveralias type="PC-8801">SystemSoft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -591,16 +591,16 @@
 			<title code="0x09">MUS09 : NAME ENTRY</title>
 			<title code="0x0a">MUS10 : GAME OVER</title>
 			<title code="0x0b">MUS11 : ROUND START</title>
-			<title code="0x0c">MUS12 : </title>
-			<title code="0x0d">MUS13 : </title>
-			<title code="0x0e">MUS14 : </title>
+			<title code="0x0c">MUS12</title>
+			<title code="0x0d">MUS13</title>
+			<title code="0x0e">MUS14</title>
 			<title code="0x0f">MUS15 : GAME MENU</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-88VA] 上海</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">SystemSoft</driveralias>
+		<driveralias type="PC-88VA">SystemSoft</driveralias>
 		<romlist archive="shangva">
 			<rom type="file" offset="-1">MUSIC.SYS</rom>
 			<rom type="file" offset="-1">shangva.com</rom>
@@ -608,20 +608,20 @@
 			<rom type="shell" offset="0">shangva</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x02">02 : </title>
-			<title code="0x09">09 : </title>
-			<title code="0x0a">0a : </title>
-			<title code="0x0b">0b : </title>
-			<title code="0x0c">0c : </title>
-			<title code="0x0d">0d : </title>
-			<title code="0x0e">0e : </title>
+			<title code="0x01">01</title>
+			<title code="0x02">02</title>
+			<title code="0x09">09</title>
+			<title code="0x0a">0a</title>
+			<title code="0x0b">0b</title>
+			<title code="0x0c">0c</title>
+			<title code="0x0d">0d</title>
+			<title code="0x0e">0e</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] かわいそう物語</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -662,7 +662,7 @@
 	<game>
 		<name>[PC-9801] 銀河</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -689,7 +689,7 @@
 	<game>
 		<name>[PC-9801] 芦ヶ原信之のパズルトピア</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -776,7 +776,7 @@
 	<game>
 		<name>[PC-9801] JAPAN BASHING</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -802,21 +802,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">演奏停止</title>
-			<title code="0x08">OPENING.MSC : </title>
-			<title code="0x06">MENU.MSC    : </title>
-			<title code="0x01">BGM.MSC     : </title>
-			<title code="0x05">FLAG.MSC    : </title>
-			<title code="0x07">NEWS.MSC    : </title>
-			<title code="0x09">YEAR.MSC    : </title>
-			<title code="0x02">ENDING1.MSC : </title>
-			<title code="0x03">ENDING2.MSC : </title>
-			<title code="0x04">ENDING3.MSC : </title>
+			<title code="0x08">OPENING.MSC</title>
+			<title code="0x06">MENU.MSC</title>
+			<title code="0x01">BGM.MSC</title>
+			<title code="0x05">FLAG.MSC</title>
+			<title code="0x07">NEWS.MSC</title>
+			<title code="0x09">YEAR.MSC</title>
+			<title code="0x02">ENDING1.MSC</title>
+			<title code="0x03">ENDING2.MSC</title>
+			<title code="0x04">ENDING3.MSC</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] SOLIDLANCER</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -837,16 +837,16 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">演奏停止</title>
-			<title code="0x04">OPENING.SND : </title>
-			<title code="0x02">HIGHBGM.SND : </title>
-			<title code="0x03">KOUKAON.SND : </title>
-			<title code="0x01">ENDING.SND  : </title>
+			<title code="0x04">OPENING.SND</title>
+			<title code="0x02">HIGHBGM.SND</title>
+			<title code="0x03">KOUKAON.SND</title>
+			<title code="0x01">ENDING.SND</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アートジグソー</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<!-- Vol.1 ～Vol.3 まで同一曲を使用 -->
 		<options>
 			<option name="clockmul" value="8"/>
@@ -879,7 +879,7 @@
 	<game>
 		<name>[PC-9801] F-15 STRIKE EAGLE</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<!-- MICROCABIN めぞん一刻完結篇用のmmd.comを使用します -->
 		<romlist archive="f15eagle_98">
 			<rom type="file" offset="-1">mmd.com</rom>
@@ -896,7 +896,7 @@
 	<game>
 		<name>[PC-9801] AIR COMBAT 遊撃王 II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -933,7 +933,7 @@
 	<game>
 		<name>[PC-9801] AIR COMBAT II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -957,7 +957,7 @@
 	<game>
 		<name>[PC-9801] AIR COMBAT III</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -987,7 +987,7 @@
 	<game>
 		<name>[PC-9801] 上海 II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1040,13 +1040,13 @@
 			<title code="0x02">CEND2.MUS    : キャンペーンモード 蛇/豹配列クリア</title>
 			<title code="0x03">CEND3.MUS    : キャンペーンモード 龍配列クリア</title>
 			<title code="0x0a">SEND.MUS     : ソリティアモードクリア</title>
-			<title code="0x05">GINGA.MUS    : </title>
+			<title code="0x05">GINGA.MUS</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 保存版Lode Runner</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1078,13 +1078,13 @@
 			<title code="0x07">LODE72.MSD  : Jungle-dangling</title>
 			<title code="0x08">LODE94.MSD  : Slyboots</title>
 			<title code="0x01">LEN7.MSD    : Ending</title>
-			<title code="0x04">LODE143.MSD : </title>
+			<title code="0x04">LODE143.MSD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Master of Monsters</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1112,7 +1112,7 @@
 	<game>
 		<name>[PC-9801] Master of Monsters II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1143,7 +1143,7 @@
 	<game>
 		<name>[PC-9801] Master of Monsters Final</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1203,7 +1203,7 @@
 	<game>
 		<name>[PC-9801] BRETONNE LAYS</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1241,7 +1241,7 @@
 	<game>
 		<name>[PC-9801] 遊兎伝</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1292,7 +1292,7 @@
 	<game>
 		<name>[PC-9801] IMPERIAL FORCE</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1316,13 +1316,13 @@
 			<title code="0x02">GAME.MBL    : 虚空</title>
 			<title code="0x03">BATTLE.MBL  : 接触</title>
 			<title code="0x04">END1.MBL    : 覇権</title>
-			<title code="0x05">END2.MBL    : </title>
+			<title code="0x05">END2.MBL</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] STRADIA</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1360,7 +1360,7 @@
 	<game>
 		<name>[PC-9801] 天下統一</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1404,7 +1404,7 @@
 	<game>
 		<name>[PC-9801] 天下統一 II ～乱世の覇者～</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1453,7 +1453,7 @@
 	<game>
 		<name>[PC-9801] Tir-nan-og － ダーナの末裔 －</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 		</options>
@@ -1479,7 +1479,7 @@
 	<game>
 		<name>[PC-9801] Tir-nan-og II － The Sign of Chaos －</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1519,7 +1519,7 @@
 	<game>
 		<name>[PC-9801] SUPER大戦略98</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1547,7 +1547,7 @@
 	<game>
 		<name>[PC-9801] 大戦略 III'90</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1571,7 +1571,7 @@
 	<game>
 		<name>[PC-9801] 大戦略 IV</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1605,7 +1605,7 @@
 	<game>
 		<name>[PC-9801] 空軍大戦略</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1653,7 +1653,7 @@
 	<game>
 		<name>[PC-9801] 現代大戦略EX</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1731,7 +1731,7 @@
 	<game>
 		<name>[PC-9801] BLITZKRIEG 東部戦線 1941～45</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1766,7 +1766,7 @@
 	<game>
 		<name>[PC-9801] Panzer Keil - BLITZKRIEG II -</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1819,7 +1819,7 @@
 	<game>
 		<name>[PC-9801] ウォーゲームコンストラクション</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1873,7 +1873,7 @@
 	<game>
 		<name>[PC-9801] ROBO CRASH 98</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -1930,7 +1930,7 @@
 	<game>
 		<name>[PC-9801] ROBO CRASH 2 -熱波の王者-</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2012,7 +2012,7 @@
 	<game>
 		<name>[PC-9801] ファイナルブレイカー</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2072,7 +2072,7 @@
 	<game>
 		<name>[PC-9801] ハテナ？の大冒険</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2164,7 +2164,7 @@
 	<game>
 		<name>[PC-9801] クイズ殿様の野望 全国版</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2260,7 +2260,7 @@
 	<game>
 		<name>[PC-9801] クイズ知略の覇者 三国志奇譚</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<romlist archive="qsangk98">
 			<rom type="file" offset="-1">qsangk98.com</rom>
 			<rom type="file" offset="-1">MUSDRV.COM</rom>
@@ -2319,7 +2319,7 @@
 	<game>
 		<name>[PC-9801] 麻雀三国志演義</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2361,7 +2361,7 @@
 	<game>
 		<name>[PC-9801] コラムス【対戦モード付】</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2419,7 +2419,7 @@
 	<game>
 		<name>[PC-9801] GODZILLA</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2447,20 +2447,20 @@
 		<titlelist>
 			<title code="0x01">GOJI01.MBL : ゴジラ タイトル</title>
 			<title code="0x02">GOJI02.MBL : ゴジラ エンディング</title>
-			<title code="0x03">GOJI03.MBL : </title>
-			<title code="0x04">GOJI04.MBL : </title>
+			<title code="0x03">GOJI03.MBL</title>
+			<title code="0x04">GOJI04.MBL</title>
 			<title code="0x05">GOJI05.MBL : ゴジラの恐怖</title>
-			<title code="0x06">GOJI06.MBL : </title>
+			<title code="0x06">GOJI06.MBL</title>
 			<title code="0x07">GOJI07.MBL : ゴジラ対メカゴジラ</title>
 			<title code="0x08">GOJI08.MBL : 怪獣大戦争 メインタイトル</title>
-			<title code="0x09">GOJI09.MBL : </title>
+			<title code="0x09">GOJI09.MBL</title>
 			<title code="0x0a">GOJI10.MBL : L作戦マーチI</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] PlayMaker FOOTBALL</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2483,7 +2483,7 @@
 	<game>
 		<name>[PC-9801] TUNED HEART</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2548,7 +2548,7 @@
 	<game>
 		<name>[PC-9801] MEGATON ARMS</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2599,7 +2599,7 @@
 	<game>
 		<name>[PC-9801] フィニッシュホールド</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2649,7 +2649,7 @@
 	<game>
 		<name>[PC-9801] フィニッシュホールド2TAG</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2743,7 +2743,7 @@
 	<game>
 		<name>[PC-9801] 神王伝説 クリスタニア</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2828,7 +2828,7 @@
 	<game>
 		<name>[PC-9801] NECTARIS</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2916,7 +2916,7 @@
 	<game>
 		<name>[PC-9801] キャンペーン版大戦略 II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -2948,7 +2948,7 @@
 	<game>
 		<name>[PC-9801] Lord of Panzers</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -3036,7 +3036,7 @@
 	<game>
 		<name>[PC-9801] ENCHANTER ～若き魔導士の試練～</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
 			<option name="dummysndrom" value="1"/>
 			<option name="bootcs" value="0x0060"/>
@@ -3061,7 +3061,7 @@
 	<game>
 		<name>[PC-9801] 天下統一 II パワーアップセット</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<!-- IIと比較してEDがかなり長くなっている -->
 		<options>
 			<option name="dummysndrom" value="1"/>
@@ -3110,7 +3110,7 @@
 	<game>
 		<name>[X68000] 天下統一</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<romlist archive="ttsnd">
 			<rom type="code">tt.bin</rom>
 		</romlist>
@@ -3134,7 +3134,7 @@
 	<game>
 		<name>[X68000] キャンペーン版大戦略 II</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<romlist archive="daisen2c68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -3152,7 +3152,7 @@
 	<game>
 		<name>[X68000] BRETONNE LAIS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<romlist archive="bretlais68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -3197,7 +3197,7 @@
 	<game>
 		<name>[X68000] NECTARIS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3229,7 +3229,7 @@
 	<game>
 		<name>[X68000] Master of Monsters II</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 			<option name="mfp" value="0x01"/>
@@ -3244,13 +3244,13 @@
 		<titlelist>
 			<title code="0x01">MM2OP.BGM : オープニング</title>
 			<title code="0x03">MM2ED.BGM : エンディング</title>
-			<title code="0x06">MWIN.BGM  : </title>
+			<title code="0x06">MWIN.BGM</title>
 		</titlelist>
 	</game>
  	<game>
 		<name>[X68000] BOMBER MAN</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3286,7 +3286,7 @@
 	<game>
 		<name>[X68000] BLITZKRIEG 東部戦線 1941～45</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3300,17 +3300,17 @@
 			<rom type="code" offset="0x3a000">BK_ROS.BGM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x09">BK_OPEN.BGM  : </title>
-			<title code="0x03">BK_BGM.BGM   : </title>
-			<title code="0x01">BK_BATTL.BGM : </title>
-			<title code="0x06">BK_END.BGM   : </title>
-			<title code="0x0e">BK_ROS.BGM   : </title>
+			<title code="0x09">BK_OPEN.BGM</title>
+			<title code="0x03">BK_BGM.BGM</title>
+			<title code="0x01">BK_BATTL.BGM</title>
+			<title code="0x06">BK_END.BGM</title>
+			<title code="0x0e">BK_ROS.BGM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 大戦略 III'90</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3343,7 +3343,7 @@
 	<game>
 		<name>[X68000] 大戦略 III'90 DEMO</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3353,13 +3353,13 @@
 			<rom type="code" offset="0x20000">DEMO.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">DEMO.MUS : </title>
+			<title code="0x01">DEMO.MUS</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] IMPERIAL FORCE</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3382,7 +3382,7 @@
 	<game>
 		<name>[X68000] SUPER大戦略68K</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<romlist archive="sdsen68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x"    offset="0x08000">OPMDRV.X</rom>
@@ -3398,7 +3398,7 @@
 	<game>
 		<name>[X68000] COLUMNS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<romlist archive="columns68snd">
 			<rom type="code">clms68snd.bin</rom>
 			<rom type="x" offset="0x010000">OPMDRV.X</rom>
@@ -3415,23 +3415,23 @@
 			<rom type="code" offset="0x052000">START.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">EYEC.X       : </title>
-			<title code="0x06">COOPEN.OPM   : </title>
-			<title code="0x0b">START.OPM    : </title>
+			<title code="0x01">EYEC.X</title>
+			<title code="0x06">COOPEN.OPM</title>
+			<title code="0x0b">START.OPM</title>
 			<title code="0x05">CLOTHO.OPM   : CLOTHO</title>
 			<title code="0x08">LATHESIS.OPM : LATHESIS</title>
 			<title code="0x02">ATROPOS2.OPM : ATROPOS</title>
 			<title code="0x07">E_LONE.OPM   : E-LONE</title>
-			<title code="0x03">BONUS.OPM    : </title>
-			<title code="0x04">CLEAR.OPM    : </title>
-			<title code="0x09">NAME.OPM     : </title>
-			<title code="0x0a">OVER6.OPM    : </title>
+			<title code="0x03">BONUS.OPM</title>
+			<title code="0x04">CLEAR.OPM</title>
+			<title code="0x09">NAME.OPM</title>
+			<title code="0x0a">OVER6.OPM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 上海</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -3490,11 +3490,11 @@
 			<rom type="bgm" offset="0x04">TUNEUP.MSX</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">TITLE.MSX  : </title>
-			<title code="0x01">MOVE.MSX   : </title>
-			<title code="0x04">TUNEUP.MSX : </title>
-			<title code="0x02">SENTOU.MSX : </title>
-			<title code="0x00">ENDING.MSX : </title>
+			<title code="0x03">TITLE.MSX</title>
+			<title code="0x01">MOVE.MSX</title>
+			<title code="0x04">TUNEUP.MSX</title>
+			<title code="0x02">SENTOU.MSX</title>
+			<title code="0x00">ENDING.MSX</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3517,11 +3517,11 @@
 			<rom type="bgm" offset="0x04">TUNEUP.PSG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">TITLE.PSG  : </title>
-			<title code="0x01">MOVE.PSG   : </title>
-			<title code="0x04">TUNEUP.PSG : </title>
-			<title code="0x02">SENTOU.PSG : </title>
-			<title code="0x00">ENDING.PSG : </title>
+			<title code="0x03">TITLE.PSG</title>
+			<title code="0x01">MOVE.PSG</title>
+			<title code="0x04">TUNEUP.PSG</title>
+			<title code="0x02">SENTOU.PSG</title>
+			<title code="0x00">ENDING.PSG</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3673,7 +3673,7 @@
 	<game>
 		<name>[X68000] AIR COMBAT 遊撃王 II</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SystemSoft</driveralias>
+		<driveralias type="X68000">SystemSoft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>

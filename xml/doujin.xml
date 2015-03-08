@@ -38,7 +38,7 @@
 	<game>
 		<name>[X1] DIALIDE (CATASoft)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">同人ソフト</driveralias>
+		<driveralias type="X1">同人ソフト</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -80,7 +80,7 @@
 	<game>
 		<name>[X1] Time Capsule 4th (PULSENOTES)</name>
 		<driver type="opmx2">x1</driver>
-		<driveralias type="SHARP X1">同人ソフト</driveralias>
+		<driveralias type="X1">同人ソフト</driveralias>
 		<options>
 			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0x4000"/>
@@ -111,7 +111,7 @@
 	<game>
 		<name>[X1] Time Capsule 5th (PULSENOTES)</name>
 		<driver type="opmx2">x1</driver>
-		<driveralias type="SHARP X1">同人ソフト</driveralias>
+		<driveralias type="X1">同人ソフト</driveralias>
 		<options>
 			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0x4000"/>
@@ -140,7 +140,7 @@
 	<game>
 		<name>[X68000] DIVE-ON (MIX)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="dvon68snd">
 			<rom type="code">dvon68snd.bin</rom>
 			<rom type="x" offset="0x8000">GAME.x</rom>
@@ -174,7 +174,7 @@
 	<game>
 		<name>[X68000] 超連射68K (超連射68K)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="sz268snd">
 			<rom type="code" offset="0x00000">sz268snd.bin</rom>
 			<rom type="x" offset="0x10000">MCDRV.X</rom>
@@ -209,7 +209,7 @@
 	<game>
 		<name>[X68000] 超連射68K for Windows (超連射68K)</name>
 		<driver type="mxdrv">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="sz2w68snd">
 			<rom type="data" offset="0x00">SZ2_B1.MDX</rom>
 			<rom type="data" offset="0x01">SZ2_B2.MDX</rom>
@@ -245,7 +245,7 @@
 		<name>[X68000] チョビ連射68K (CYNTHIA)</name>
 		<!-- MCDRV 0.69を使ってください -->
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="pcm8" value="1"/>
 		</options>
@@ -282,7 +282,7 @@
 	<game>
 		<name>[PC-9801] MELT DOWN (GroupR204)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -320,7 +320,7 @@
 	<game>
 		<name>[PC-9801] ReFIGHT (GroupR204)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -388,7 +388,7 @@
 	<game>
 		<name>[PC-9801] METAL FORK (KuniSoft)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -411,13 +411,13 @@
 		</romlist>
 		<titlelist>
 			<title code="0x18">NEIRO.O    : 音色定義(最初に一回だけ演奏すること)</title>
-			<title code="0x11">BGM1.O     : </title>
-			<title code="0x12">BGM2.O     : </title>
-			<title code="0x13">BGM3.O     : </title>
-			<title code="0x15">GAMEOVER.O : </title>
-			<title code="0x14">ENDING.O   : </title>
-			<title code="0x16">HA_MUSIC.O : </title>
-			<title code="0x17">N_ENTRY.O  : </title>
+			<title code="0x11">BGM1.O</title>
+			<title code="0x12">BGM2.O</title>
+			<title code="0x13">BGM3.O</title>
+			<title code="0x15">GAMEOVER.O</title>
+			<title code="0x14">ENDING.O</title>
+			<title code="0x16">HA_MUSIC.O</title>
+			<title code="0x17">N_ENTRY.O</title>
 		<!--	<title code="0x19">T_MUSIC.O  : ダミーデータ</title> -->
 		<!--	<title code="0x10">BGM.O      : (音色データなし)</title> -->
 		</titlelist>
@@ -425,7 +425,7 @@
 	<game>
 		<name>[PC-9801] OUTER FORMULA (KuniSoft)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -442,15 +442,15 @@
 		</romlist>
 		<titlelist>
 			<title code="0x13">NEIRO_2.O : 音色定義(最初に一回だけ演奏すること)</title>
-			<title code="0x10">TITLE.O   : </title>
+			<title code="0x10">TITLE.O</title>
 			<title code="0x11">LUSTY_R.O : Lusty Rascal</title>
-			<title code="0x12">WINNERS.O : </title>
+			<title code="0x12">WINNERS.O</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] KEMESIS (CO2-PRO)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -493,7 +493,7 @@
 	<game>
 		<name>[PC-9801] GARUDIUS95 (CO2-PRO)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -611,7 +611,7 @@
 	<game>
 		<name>[PC-9801] 骨塵(OPNA) (CO2-PRO)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="16"/>
 			<option name="ssg_mix" value="-18"/>
@@ -660,7 +660,7 @@
 	<game>
 		<name>[PC-9801] 骨塵(OPN) (CO2-PRO)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
@@ -709,7 +709,7 @@
 	<game>
 		<name>[PC-9801] OSSAULT PLUS(OPN) (たぼはぜ工房)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -740,7 +740,7 @@
 	<game>
 		<name>[PC-9801] OSSAULT PLUS(OPNA) (たぼはぜ工房)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -771,7 +771,7 @@
 	<game>
 		<name>[PC-9801] Steel GunNyan (Studio玄米茶)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -837,7 +837,7 @@
 	<game>
 		<name>[PC-8801] MELT DOWN (GroupR204)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="meltdown">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">MMLEX</rom>
@@ -898,7 +898,7 @@
 	<game>
 		<name>[PC-8801] ReFIGHT (GroupR204)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="refight">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">MMLEX</rom>
@@ -955,7 +955,7 @@
 	<game>
 		<name>[PC-8801] REVOLTER (A.S.C.Group)(Harnyan88 ver1.00)(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -1055,7 +1055,7 @@
 	<game>
 		<name>[PC-8801] REVOLTER (A.S.C.Group)(Harnyan88 ver1.00)(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -1155,7 +1155,7 @@
 	<game>
 		<name>[PC-8801] REVOLTER (A.S.C.Group)(Harnyan88 ver1.01)(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -1219,7 +1219,7 @@
 			<title code="0x00000018">TRYH01 : (未使用曲)</title>
 			<title code="0x00000019">TRYH04 : (未使用曲)</title>
 			<title code="0x0000001a">TRYH05 : (未使用曲) NATIVE ATTACK</title>
-			<title code="0x0000001c">EXPL   : </title>
+			<title code="0x0000001c">EXPL</title>
 		<!--	<title code="0x0000001d">TITLE  :《REVOLTER》                Title Music                   IAM</title> -->
 			<title code="0x200000ff">EFFECT #20</title>
 			<title code="0x210000ff">EFFECT #21</title>
@@ -1251,7 +1251,7 @@
 	<game>
 		<name>[PC-8801] REVOLTER (A.S.C.Group)(Harnyan88 ver1.01)(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -1315,7 +1315,7 @@
 			<title code="0x00000018">TRYH01 : (未使用曲)</title>
 			<title code="0x00000019">TRYH04 : (未使用曲)</title>
 			<title code="0x0000001a">TRYH05 : (未使用曲) NATIVE ATTACK</title>
-			<title code="0x0000001c">EXPL   : </title>
+			<title code="0x0000001c">EXPL</title>
 		<!--	<title code="0x0000001d">TITLE  :《REVOLTER》                Title Music                   IAM</title> -->
 			<title code="0x200000ff">EFFECT #20</title>
 			<title code="0x210000ff">EFFECT #21</title>
@@ -1347,7 +1347,7 @@
 	<game>
 		<name>[PC-8801] HARD RANK(OPNA) (NOP SOFTWARE)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9200"/>
 			<option name="use_pcmx8" value="0x01"/>
@@ -1393,8 +1393,8 @@
 			<title code="0x0b">MA202 : Boss</title>
 			<title code="0x0c">MA203 : Stage Start</title>
 -->
-			<title code="0x0d">MA204 : </title>
-			<title code="0x0e">MA205 : </title>
+			<title code="0x0d">MA204</title>
+			<title code="0x0e">MA205</title>
 <!--
 			<title code="0x0f">MA206 : MA204と同一</title>
 			<title code="0x10">MA207 : MA205と同一</title>
@@ -1404,7 +1404,7 @@
 	<game>
 		<name>[PC-8801] HARD RANK(OPN) (NOP SOFTWARE)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9200"/>
 			<option name="use_rtc" value="0x01"/>
@@ -1435,13 +1435,13 @@
 			<title code="0x00">MB100 : Boss</title>
 			<title code="0x08">MB108 : Name Entry</title>
 			<title code="0x09">MB200 : Staff Roll</title>
-			<title code="0x0a">MB201 : </title>
+			<title code="0x0a">MB201</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] Wanderers from SUPER SCHEME(OPNA) (ONION software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5600"/>
 		</options>
@@ -1483,7 +1483,7 @@
 	<game>
 		<name>[PC-8801] Wanderers from SUPER SCHEME(OPN) (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5600"/>
 		</options>
@@ -1507,7 +1507,7 @@
 	<game>
 		<name>[PC-9801] おしおきキライ! 2 (ほんわかソフト)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1549,7 +1549,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #1.3 (SPLIT f3) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -1678,7 +1678,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #1.3 (SPLIT i2) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -1751,7 +1751,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #2 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -1873,7 +1873,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #3 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -1955,7 +1955,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #4 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2140,7 +2140,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #5 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2241,7 +2241,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #6 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2367,7 +2367,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #7 (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2466,7 +2466,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #8(OPNA) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2617,7 +2617,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #8(OPN) (Ryokusui Software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2713,7 +2713,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #9(OPNA) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2817,7 +2817,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #9(OPN) (Ryokusui Software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2903,7 +2903,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #10(OPNA) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -3027,7 +3027,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #10(OPN) (Ryokusui Software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -3133,7 +3133,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #11(OPNA) (Ryokusui Software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -3265,7 +3265,7 @@
 	<game>
 		<name>[PC-8801] 緑水音楽ディスク #11(OPN) (Ryokusui Software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -3371,7 +3371,7 @@
 	<game>
 		<name>[PC-8801] RST88 MUSIC DISK VOL.12 (Ryokusui Software Team)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
@@ -3510,7 +3510,7 @@
 	<game>
 		<name>[PC-8801] Rusty (RST88 MUSIC DISK VOL.12 version) (Ryokusui Software Team)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
@@ -3588,7 +3588,7 @@
 	<game>
 		<name>[PC-8801] プリンセスメーカー2 (RST88 MUSIC DISK VOL.12 version) (Ryokusui Software Team)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
@@ -3684,7 +3684,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.01(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -3821,7 +3821,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.01(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -3992,7 +3992,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.02 Original Music Special(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4161,7 +4161,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.02 Original Music Special(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4374,7 +4374,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.03(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4499,7 +4499,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.03(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4629,7 +4629,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.04 システムサコム特集・斎藤学氏追悼号(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4777,7 +4777,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.04 システムサコム特集・斎藤学氏追悼号(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -4929,7 +4929,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.05 天津堂特集(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5055,7 +5055,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.05 天津堂特集(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5185,7 +5185,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.06 ソードダンサー増刊号'93・V.G.(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5309,7 +5309,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.6 ソードダンサー増刊号'93・V.G.(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5428,7 +5428,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.07 スチームハーツ(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5524,7 +5524,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.7 スチームハーツ(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5620,7 +5620,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.08 V.G.II ～姫神舞闘譚～(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5698,7 +5698,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.8 V.G.II ～姫神舞闘譚～(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5776,7 +5776,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.09 天津堂/TEAM VCUT(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -5924,7 +5924,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.9 天津堂/TEAM VCUT(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6072,7 +6072,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.10 BRIGANTY(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6148,7 +6148,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.10 BRIGANTY(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6224,7 +6224,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.11 ハーレムブレイド(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6318,7 +6318,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.11 ハーレムブレイド(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6412,7 +6412,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.12 Rainbow Wave～虹色町の奇跡/WAVER/他(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6505,7 +6505,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.12 Rainbow Wave～虹色町の奇跡/WAVER/他(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6636,7 +6636,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.12 Rainbow Wave～虹色町の奇跡/WAVER/他(86) (Firecracker)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x10"/>
@@ -6770,7 +6770,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.13 アドヴァンストV.G.2(SPB) (Firecracker)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6871,7 +6871,7 @@
 	<game>
 		<name>[PC-9801] Firecracker MUSIC SELECTION VOL.13 アドヴァンストV.G.2(OPN) (Firecracker)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -6967,7 +6967,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.2 (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6e00"/>
 			<option name="showfm3ex" value="1"/>
@@ -7007,7 +7007,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.2(JUMPER2) (good_software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="100yen2">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x6000">sound.yk2</rom>
@@ -7024,7 +7024,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.3 (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -7056,7 +7056,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.4 (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6e00"/>
 		</options>
@@ -7107,7 +7107,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.4(splitn) (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 		</options>
@@ -7121,17 +7121,17 @@
 		<titlelist>
 			<title code="0x31000000">fafa1   : お金なんかちょっとでふわふわ  作曲/神たま 作詞/OSS</title>
 			<title code="0x34000002">No1.mus : GOKILOGEAEL オープニング</title>
-			<title code="0x31000001">music5  : </title>
-			<title code="0x32000001">music5  : </title>
-			<title code="0x31000002">No1.mus : </title>
-			<title code="0x32000002">No1.mus : </title>
-			<title code="0x33000002">No1.mus : </title>
+			<title code="0x31000001">music5</title>
+			<title code="0x32000001">music5</title>
+			<title code="0x31000002">No1.mus</title>
+			<title code="0x32000002">No1.mus</title>
+			<title code="0x33000002">No1.mus</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 100YEN DISK No.5 (ONION software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="100yen5">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9000">musica</rom>
@@ -7170,7 +7170,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.5(JP-3/Wanderers from Jumpper) (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="showfm3ex" value="1"/>
@@ -7183,15 +7183,15 @@
 			<rom type="bgm" offset="0x02">No3.mus</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x31000000">No1.mus : </title>
-			<title code="0x31000001">No2.mus : </title>
-			<title code="0x31000002">No3.mus : </title>
+			<title code="0x31000000">No1.mus</title>
+			<title code="0x31000001">No2.mus</title>
+			<title code="0x31000002">No3.mus</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 100YEN DISK No.5(風船) (CREATIVE H.A.T.)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="100yen5">
 			<rom type="code" offset="0x0000">PATCH3</rom>
 			<rom type="code" offset="0x6000">NEIRO</rom>
@@ -7205,7 +7205,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.6 (ONION software)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 		</options>
@@ -7242,7 +7242,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.6(今夜も朝までパワフルバタフライ) (CRATIVE H.A.T.)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="showfm3ex" value="1"/>
@@ -7256,14 +7256,14 @@
 			<rom type="bgm" offset="0x01">MEN.mus</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OPEN.mus : </title>
-			<title code="0x01">MEN.mus  : </title>
+			<title code="0x00">OPEN.mus</title>
+			<title code="0x01">MEN.mus</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 100YEN DISK No.7 (ONION software)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<romlist archive="100yen7">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9000">musica</rom>
@@ -7320,7 +7320,7 @@
 	<game>
 		<name>[PC-8801] 100YEN DISK No.7(OPNA)(SPACE花ずきんちゃん) (TSUKKA SOFTWARE)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 		</options>
@@ -7335,15 +7335,15 @@
 			<rom type="bgm" offset="0x02">SK-10.SB2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">SK-1.SB2  : </title>
-			<title code="0x01">SK-5.SB2  : </title>
-			<title code="0x02">SK-10.SB2 : </title>
+			<title code="0x00">SK-1.SB2</title>
+			<title code="0x01">SK-5.SB2</title>
+			<title code="0x02">SK-10.SB2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 100YEN DISK No.7(OPN)(SPACE花ずきんちゃん) (TSUKKA SOFTWARE)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<driveralias type="PC-8801">同人ソフト</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 		</options>
@@ -7358,15 +7358,15 @@
 			<rom type="bgm" offset="0x02">SK-10.SB1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">SK-1.SB1  : </title>
-			<title code="0x01">SK-5.SB1  : </title>
-			<title code="0x02">SK-10.SB1 : </title>
+			<title code="0x00">SK-1.SB1</title>
+			<title code="0x01">SK-5.SB1</title>
+			<title code="0x02">SK-10.SB1</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 東方封魔録(OPN) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7414,7 +7414,7 @@
 	<game>
 		<name>[PC-9801] 東方封魔録(OPNA) (Amusement Makers)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7461,7 +7461,7 @@
 	<game>
 		<name>[PC-9801] 東方封魔録(SC-88) (Amusement Makers)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -7510,7 +7510,7 @@
 	<game>
 		<name>[PC-9801] 東方夢時空(OPN) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7569,7 +7569,7 @@
 	<game>
 		<name>[PC-9801] 東方夢時空(OPNA) (Amusement Makers)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7628,7 +7628,7 @@
 	<game>
 		<name>[PC-9801] 東方幻想郷(OPNA) (Amusement Makers)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7689,7 +7689,7 @@
 	<game>
 		<name>[PC-9801] 東方幻想郷(OPN) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7750,7 +7750,7 @@
 	<game>
 		<name>[PC-9801] 東方怪綺談(OPNA) (Amusement Makers)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -7987,7 +7987,7 @@
 	<game>
 		<name>[PC-9801] 東方怪綺談(OPN) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8224,7 +8224,7 @@
 	<game>
 		<name>[PC-9801] 東方靈異伝(OPN) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
@@ -8282,7 +8282,7 @@
 	<game>
 		<name>[PC-9801] 東方靈異伝(OPNA) (Amusement Makers)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -8339,7 +8339,7 @@
 	<game>
 		<name>[PC-9801] コープスパーティー (KENIX SOFT)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -8395,55 +8395,55 @@
 			<rom type="shell" offset="0">music_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">BGM00.MML : </title>
-			<title code="12">BGM01.MML : </title>
-			<title code="13">BGM02.MML : </title>
-			<title code="14">BGM03.MML : </title>
-			<title code="15">BGM04.MML : </title>
-			<title code="16">BGM05.MML : </title>
-			<title code="17">BGM06.MML : </title>
-			<title code="18">BGM07.MML : </title>
-			<title code="19">BGM08.MML : </title>
-			<title code="20">BGM09.MML : </title>
-			<title code="21">BGM10.MML : </title>
-			<title code="22">BGM11.MML : </title>
-			<title code="23">BGM12.MML : </title>
-			<title code="24">BGM13.MML : </title>
-			<title code="25">BGM14.MML : </title>
-			<title code="26">BGM15.MML : </title>
-			<title code="27">BGM16.MML : </title>
-			<title code="28">BGM17.MML : </title>
-			<title code="29">BGM18.MML : </title>
-			<title code="30">BGM19.MML : </title>
-			<title code="31">BGM20.MML : </title>
-			<title code="32">BGM21.MML : </title>
-			<title code="33">BGM22.MML : </title>
-			<title code="34">BGM23.MML : </title>
-			<title code="35">BGM24.MML : </title>
-			<title code="36">BGM25.MML : </title>
-			<title code="37">BGM26.MML : </title>
-			<title code="38">BGM27.MML : </title>
-			<title code="39">BGM28.MML : </title>
-			<title code="40">BGM29.MML : </title>
-			<title code="41">BGM30.MML : </title>
-			<title code="42">BGM31.MML : </title>
-			<title code="43">BGM32.MML : </title>
-			<title code="44">BGM33.MML : </title>
-			<title code="45">BGM34.MML : </title>
-			<title code="46">BGM35.MML : </title>
-			<title code="47">BGM36.MML : </title>
-			<title code="48">BGM37.MML : </title>
-			<title code="49">BGM38.MML : </title>
-			<title code="50">BGM39.MML : </title>
-			<title code="51">BGM40.MML : </title>
-			<title code="52">BGM41.MML : </title>
-			<title code="53">BGM42.MML : </title>
+			<title code="11">BGM00.MML</title>
+			<title code="12">BGM01.MML</title>
+			<title code="13">BGM02.MML</title>
+			<title code="14">BGM03.MML</title>
+			<title code="15">BGM04.MML</title>
+			<title code="16">BGM05.MML</title>
+			<title code="17">BGM06.MML</title>
+			<title code="18">BGM07.MML</title>
+			<title code="19">BGM08.MML</title>
+			<title code="20">BGM09.MML</title>
+			<title code="21">BGM10.MML</title>
+			<title code="22">BGM11.MML</title>
+			<title code="23">BGM12.MML</title>
+			<title code="24">BGM13.MML</title>
+			<title code="25">BGM14.MML</title>
+			<title code="26">BGM15.MML</title>
+			<title code="27">BGM16.MML</title>
+			<title code="28">BGM17.MML</title>
+			<title code="29">BGM18.MML</title>
+			<title code="30">BGM19.MML</title>
+			<title code="31">BGM20.MML</title>
+			<title code="32">BGM21.MML</title>
+			<title code="33">BGM22.MML</title>
+			<title code="34">BGM23.MML</title>
+			<title code="35">BGM24.MML</title>
+			<title code="36">BGM25.MML</title>
+			<title code="37">BGM26.MML</title>
+			<title code="38">BGM27.MML</title>
+			<title code="39">BGM28.MML</title>
+			<title code="40">BGM29.MML</title>
+			<title code="41">BGM30.MML</title>
+			<title code="42">BGM31.MML</title>
+			<title code="43">BGM32.MML</title>
+			<title code="44">BGM33.MML</title>
+			<title code="45">BGM34.MML</title>
+			<title code="46">BGM35.MML</title>
+			<title code="47">BGM36.MML</title>
+			<title code="48">BGM37.MML</title>
+			<title code="49">BGM38.MML</title>
+			<title code="50">BGM39.MML</title>
+			<title code="51">BGM40.MML</title>
+			<title code="52">BGM41.MML</title>
+			<title code="53">BGM42.MML</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] LAST BREAKERS(OPN) (CO2-PRO)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="12"/>
 			<option name="showfm3ex" value="1"/>
@@ -8486,7 +8486,7 @@
 	<game>
 		<name>[PC-9801] LAST BREAKERS(OPNA) (CO2-PRO)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="12"/>
 			<option name="showfm3ex" value="1"/>
@@ -8528,7 +8528,7 @@
 	<game>
 		<name>[PC-9801] OUT BREAKERS (CO2-PRO)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -8546,14 +8546,14 @@
 		<titlelist>
 			<title code="0x11">SELECT.O : ふぁんきー(笑)なメニューセレクトの曲</title>
 			<title code="0x12">TEST.O   : メインBGMもどき /こ、これはボツか・・</title>
-			<title code="0x13">TEST2.O  : </title>
+			<title code="0x13">TEST2.O</title>
 			<title code="0x10">ENDING.O : エンディング/シューティングには合わないかな(苦笑)</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] MOBILE DELIVERY (KuniSoft)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8612,24 +8612,24 @@
 			<title code="0x1e">EXB047.M  : BE QUIET!</title>
 			<title code="0x1f">EXB049.M  : MERITORIOUS DEEDS</title>
 			<title code="0x20">EXB050.M  : ELECTRIC PSG PARADE</title>
-			<title code="0x21">EXB052.M  : </title>
-			<title code="0x22">EXB053.M  : </title>
-			<title code="0x23">EXB054.M  : </title>
-			<title code="0x24">EXB055.M  : </title>
-			<title code="0x25">EXB056.M  : </title>
-			<title code="0x26">EXB057.M  : </title>
-			<title code="0x27">EXB058.M  : </title>
+			<title code="0x21">EXB052.M</title>
+			<title code="0x22">EXB053.M</title>
+			<title code="0x23">EXB054.M</title>
+			<title code="0x24">EXB055.M</title>
+			<title code="0x25">EXB056.M</title>
+			<title code="0x26">EXB057.M</title>
+			<title code="0x27">EXB058.M</title>
 			<title code="0x28">EXB059.M  : FIRST COME,FIRST SERVED!</title>
 			<title code="0x29">EXB060.M  : INSTRUCTION</title>
 			<title code="0x2a">EXB061.M  : RHYTHM OF GROOVE-MODOKI</title>
-			<title code="0x2b">*EXB062.M : </title>
+			<title code="0x2b">*EXB062.M</title>
 			<range min="0x0880" max="0x08bd" extcode="1">EXBEFC.EFC : %2X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 行け行け電大バス (Kunisoft)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8652,7 +8652,7 @@
 	<game>
 		<name>[PC-9801] クイズ お猿だウッキー! (Kunisoft)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8674,22 +8674,22 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EXB024.M    : </title>
-			<title code="0x11">QUIZ003.M   : </title>
-			<title code="0x12">QUIZ004.M   : </title>
-			<title code="0x13">QUIZ005.M   : </title>
-			<title code="0x14">QUIZ006.M   : </title>
-			<title code="0x15">QUIZ007.M   : </title>
-			<title code="0x16">QUIZ008.M   : </title>
-			<title code="0x17">QUIZ010.M   : </title>
-			<title code="0x18">QUIZ011.M   : </title>
+			<title code="0x10">EXB024.M</title>
+			<title code="0x11">QUIZ003.M</title>
+			<title code="0x12">QUIZ004.M</title>
+			<title code="0x13">QUIZ005.M</title>
+			<title code="0x14">QUIZ006.M</title>
+			<title code="0x15">QUIZ007.M</title>
+			<title code="0x16">QUIZ008.M</title>
+			<title code="0x17">QUIZ010.M</title>
+			<title code="0x18">QUIZ011.M</title>
 			<range min="0x0880" max="0x0889" extcode="1">QUIZEFC.EFC : %2X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3(OPN) (IRON GEAR)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8716,25 +8716,25 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ANGEL.M  : </title>
-			<title code="0x11">CONT.M   : </title>
-			<title code="0x12">FINAL.M  : </title>
-			<title code="0x13">FIST.M   : </title>
-			<title code="0x14">FUNG.M   : </title>
-			<title code="0x15">HITON.M  : </title>
-			<title code="0x16">LOSE.M   : </title>
-			<title code="0x17">LOSTOF.M : </title>
-			<title code="0x18">NEXT.M   : </title>
-			<title code="0x19">ROCLR.M  : </title>
-			<title code="0x1a">START.M  : </title>
-			<title code="0x1b">THERE.M  : </title>
-			<title code="0x1c">YESIAM.M : </title>
+			<title code="0x10">ANGEL.M</title>
+			<title code="0x11">CONT.M</title>
+			<title code="0x12">FINAL.M</title>
+			<title code="0x13">FIST.M</title>
+			<title code="0x14">FUNG.M</title>
+			<title code="0x15">HITON.M</title>
+			<title code="0x16">LOSE.M</title>
+			<title code="0x17">LOSTOF.M</title>
+			<title code="0x18">NEXT.M</title>
+			<title code="0x19">ROCLR.M</title>
+			<title code="0x1a">START.M</title>
+			<title code="0x1b">THERE.M</title>
+			<title code="0x1c">YESIAM.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3(OPNA) (IRON GEAR)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8785,25 +8785,25 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ANGEL.M2  : </title>
-			<title code="0x11">CONT.M2   : </title>
-			<title code="0x12">FINAL.M2  : </title>
-			<title code="0x13">FIST.M2   : </title>
-			<title code="0x14">FUNG.M2   : </title>
-			<title code="0x15">HITON.M2  : </title>
-			<title code="0x16">LOSE.M2   : </title>
-			<title code="0x17">LOSTOF.M2 : </title>
-			<title code="0x18">NEXT.M2   : </title>
-			<title code="0x19">ROCLR.M2  : </title>
-			<title code="0x1a">START.M2  : </title>
-			<title code="0x1b">THERE.M2  : </title>
-			<title code="0x1c">YESIAM.M2 : </title>
+			<title code="0x10">ANGEL.M2</title>
+			<title code="0x11">CONT.M2</title>
+			<title code="0x12">FINAL.M2</title>
+			<title code="0x13">FIST.M2</title>
+			<title code="0x14">FUNG.M2</title>
+			<title code="0x15">HITON.M2</title>
+			<title code="0x16">LOSE.M2</title>
+			<title code="0x17">LOSTOF.M2</title>
+			<title code="0x18">NEXT.M2</title>
+			<title code="0x19">ROCLR.M2</title>
+			<title code="0x1a">START.M2</title>
+			<title code="0x1b">THERE.M2</title>
+			<title code="0x1c">YESIAM.M2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3 データディスク#1 ～脳天3編～(OPN) (IRON GEAR)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8836,31 +8836,31 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ANGEL.M  : </title>
-			<title code="0x11">CONT.M   : </title>
-			<title code="0x12">DANCIN.M : </title>
-			<title code="0x13">FINAL.M  : </title>
-			<title code="0x14">FIST.M   : </title>
-			<title code="0x15">FUNG.M   : </title>
-			<title code="0x16">HITON.M  : </title>
-			<title code="0x17">LOSE.M   : </title>
-			<title code="0x18">LOSTOF.M : </title>
-			<title code="0x19">MACRO.M  : </title>
-			<title code="0x1a">MISSIN.M : </title>
-			<title code="0x1b">NEVER.M  : </title>
-			<title code="0x1c">NEXT.M   : </title>
-			<title code="0x1d">ROCLR.M  : </title>
-			<title code="0x1e">RUNNIN.M : </title>
-			<title code="0x1f">START.M  : </title>
-			<title code="0x20">STURDY.M : </title>
-			<title code="0x21">THERE.M  : </title>
-			<title code="0x22">YESIAM.M : </title>
+			<title code="0x10">ANGEL.M</title>
+			<title code="0x11">CONT.M</title>
+			<title code="0x12">DANCIN.M</title>
+			<title code="0x13">FINAL.M</title>
+			<title code="0x14">FIST.M</title>
+			<title code="0x15">FUNG.M</title>
+			<title code="0x16">HITON.M</title>
+			<title code="0x17">LOSE.M</title>
+			<title code="0x18">LOSTOF.M</title>
+			<title code="0x19">MACRO.M</title>
+			<title code="0x1a">MISSIN.M</title>
+			<title code="0x1b">NEVER.M</title>
+			<title code="0x1c">NEXT.M</title>
+			<title code="0x1d">ROCLR.M</title>
+			<title code="0x1e">RUNNIN.M</title>
+			<title code="0x1f">START.M</title>
+			<title code="0x20">STURDY.M</title>
+			<title code="0x21">THERE.M</title>
+			<title code="0x22">YESIAM.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3 データディスク#1 ～脳天3編～(OPNA) (IRON GEAR)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8917,31 +8917,31 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">ANGEL.M2  : </title>
-			<title code="0x11">CONT.M2   : </title>
-			<title code="0x12">DANCIN.M2 : </title>
-			<title code="0x13">FINAL.M2  : </title>
-			<title code="0x14">FIST.M2   : </title>
-			<title code="0x15">FUNG.M2   : </title>
-			<title code="0x16">HITON.M2  : </title>
-			<title code="0x17">LOSE.M2   : </title>
-			<title code="0x18">LOSTOF.M2 : </title>
-			<title code="0x19">MACRO.M2  : </title>
-			<title code="0x1a">MISSIN.M2 : </title>
-			<title code="0x1b">NEVER.M2  : </title>
-			<title code="0x1c">NEXT.M2   : </title>
-			<title code="0x1d">ROCLR.M2  : </title>
-			<title code="0x1e">RUNNIN.M2 : </title>
-			<title code="0x1f">START.M2  : </title>
-			<title code="0x20">STURDY.M2 : </title>
-			<title code="0x21">THERE.M2  : </title>
-			<title code="0x22">YESIAM.M2 : </title>
+			<title code="0x10">ANGEL.M2</title>
+			<title code="0x11">CONT.M2</title>
+			<title code="0x12">DANCIN.M2</title>
+			<title code="0x13">FINAL.M2</title>
+			<title code="0x14">FIST.M2</title>
+			<title code="0x15">FUNG.M2</title>
+			<title code="0x16">HITON.M2</title>
+			<title code="0x17">LOSE.M2</title>
+			<title code="0x18">LOSTOF.M2</title>
+			<title code="0x19">MACRO.M2</title>
+			<title code="0x1a">MISSIN.M2</title>
+			<title code="0x1b">NEVER.M2</title>
+			<title code="0x1c">NEXT.M2</title>
+			<title code="0x1d">ROCLR.M2</title>
+			<title code="0x1e">RUNNIN.M2</title>
+			<title code="0x1f">START.M2</title>
+			<title code="0x20">STURDY.M2</title>
+			<title code="0x21">THERE.M2</title>
+			<title code="0x22">YESIAM.M2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3 データディスク#2 ～脳天伝説編その1～(OPN) (IRON GEAR)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -8967,24 +8967,24 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BREAK.M  : </title>
-			<title code="0x11">GAMBLE.M : </title>
-			<title code="0x12">GOT.M    : </title>
-			<title code="0x13">GYM92.M  : </title>
-			<title code="0x14">OVERD.M  : </title>
-			<title code="0x15">POST.M   : </title>
-			<title code="0x16">PRELUD.M : </title>
-			<title code="0x17">START.M  : </title>
-			<title code="0x18">TAKEIT.M : </title>
-			<title code="0x19">TRAP.M   : </title>
-			<title code="0x1a">TRICK.M  : </title>
-			<title code="0x1b">VIRGIN.M : </title>
+			<title code="0x10">BREAK.M</title>
+			<title code="0x11">GAMBLE.M</title>
+			<title code="0x12">GOT.M</title>
+			<title code="0x13">GYM92.M</title>
+			<title code="0x14">OVERD.M</title>
+			<title code="0x15">POST.M</title>
+			<title code="0x16">PRELUD.M</title>
+			<title code="0x17">START.M</title>
+			<title code="0x18">TAKEIT.M</title>
+			<title code="0x19">TRAP.M</title>
+			<title code="0x1a">TRICK.M</title>
+			<title code="0x1b">VIRGIN.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 鉄拳制裁V3 データディスク#2 ～脳天伝説編その1～(OPNA) (IRON GEAR)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9034,24 +9034,24 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BREAK.M2  : </title>
-			<title code="0x11">GAMBLE.M2 : </title>
-			<title code="0x12">GOT.M2    : </title>
-			<title code="0x13">GYM92.M2  : </title>
-			<title code="0x14">OVERD.M2  : </title>
-			<title code="0x15">POST.M2   : </title>
-			<title code="0x16">PRELUD.M2 : </title>
-			<title code="0x17">START.M2  : </title>
-			<title code="0x18">TAKEIT.M2 : </title>
-			<title code="0x19">TRAP.M2   : </title>
-			<title code="0x1a">TRICK.M2  : </title>
-			<title code="0x1b">VIRGIN.M2 : </title>
+			<title code="0x10">BREAK.M2</title>
+			<title code="0x11">GAMBLE.M2</title>
+			<title code="0x12">GOT.M2</title>
+			<title code="0x13">GYM92.M2</title>
+			<title code="0x14">OVERD.M2</title>
+			<title code="0x15">POST.M2</title>
+			<title code="0x16">PRELUD.M2</title>
+			<title code="0x17">START.M2</title>
+			<title code="0x18">TAKEIT.M2</title>
+			<title code="0x19">TRAP.M2</title>
+			<title code="0x1a">TRICK.M2</title>
+			<title code="0x1b">VIRGIN.M2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 突撃麻酔少女アリス (SHINING FIELD)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9076,11 +9076,11 @@
 		</romlist>
 		<titlelist>
 			<title code="0x18">LOGO.M   : TITLE LOGO   / 中島 享生</title>
-			<title code="0x10">ALICE1.M : </title>
-			<title code="0x11">ALICE3.M : </title>
-			<title code="0x12">ALICE4.M : </title>
-			<title code="0x13">ALICE5.M : </title>
-			<title code="0x14">ALICE6.M : </title>
+			<title code="0x10">ALICE1.M</title>
+			<title code="0x11">ALICE3.M</title>
+			<title code="0x12">ALICE4.M</title>
+			<title code="0x13">ALICE5.M</title>
+			<title code="0x14">ALICE6.M</title>
 			<title code="0x15">BGM2.M   : BGM2         / 中島 享生</title>
 			<title code="0x16">CLEAR.M  : CLEAR        / 中島 享生</title>
 			<title code="0x17">LEVEL.M  : LEVEL CLEAR  / 中島 享生</title>
@@ -9091,7 +9091,7 @@
 	<game>
 		<name>[PC-9801] Bomb Battle (Muckey / Windy)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -9107,17 +9107,17 @@
 			<rom type="shell" offset="0">own_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">GAME.OWN   : </title>
-			<title code="12">READY.OWN  : </title>
-			<title code="13">RESULT.OWN : </title>
-			<title code="14">SELECT.OWN : </title>
-			<title code="15">WINNER.OWN : </title>
+			<title code="11">GAME.OWN</title>
+			<title code="12">READY.OWN</title>
+			<title code="13">RESULT.OWN</title>
+			<title code="14">SELECT.OWN</title>
+			<title code="15">WINNER.OWN</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.1(OPNA) (ACTIVE GAMERS)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9209,7 +9209,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.1(86) (ACTIVE GAMERS)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
@@ -9306,7 +9306,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.1(OPN) (ACTIVE GAMERS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9395,7 +9395,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.2(OPNA) (ACTIVE GAMERS)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9485,7 +9485,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.2(86) (ACTIVE GAMERS)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
@@ -9580,7 +9580,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.2(OPN) (ACTIVE GAMERS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9668,7 +9668,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.3(OPNA) (ACTIVE GAMERS)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9758,7 +9758,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.3(86) (ACTIVE GAMERS)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
@@ -9853,7 +9853,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.3(OPN) (ACTIVE GAMERS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -9942,7 +9942,7 @@
 		<name>[X68000] ぶたさんくえすと (CCLUB別働隊)</name>
 		<!-- MCDRV 0.68 -->
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="dmaint"  value="1"/>
 		</options>
@@ -9969,7 +9969,7 @@
 	<game>
 		<name>[X68000] DIRECT-X [release.2] (WORKS&amp;TRAX)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="directx268snd">
 			<rom type="code" offset="0x000000">dx68snd.bin</rom>
 			<rom type="code" offset="0x010000">music.dat</rom>
@@ -9990,7 +9990,7 @@
 	<game>
 		<name>[X68000] SUPER X-DAY X'95 (WORKS&amp;TRAX)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="pcm8"    value="0x01"/>
 		</options>
@@ -10016,7 +10016,7 @@
 	<game>
 		<name>[X68000] XX-FILES R (WORKS&amp;TRAX)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="pcm8"    value="0x01"/>
 		</options>
@@ -10033,7 +10033,7 @@
 	<game>
 		<name>[X68000] 戦え!こにゃんこEX (南国猫桜)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="tacoex68snd">
 			<rom type="code" offset="0x000000">tcex68snd.bin</rom>
 			<rom type="x"    offset="0x010000">tacoEX.x</rom>
@@ -10056,7 +10056,7 @@
 	<game>
 		<name>[X68000] ときめき大戦(OPM) (TMK)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="tt68snd">
 			<rom type="code" offset="0x000000">tt68snd.bin</rom>
 			<rom type="code" offset="0x010000">TF_START.ZMD</rom>
@@ -10102,7 +10102,7 @@
 	<game>
 		<name>[X68000] ときめき大戦(GS) (TMK)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -10149,7 +10149,7 @@
 	<game>
 		<name>[X68000] 女帝戦記V4 HEROINES FOREVER (LINNER-SYSTEM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="pcm8"    value="0x01"/>
 		</options>
@@ -10221,7 +10221,7 @@
 	<game>
 		<name>[X68000] 女帝戦記V3 THE QUEEN OF FIGHTERS (LINNER-SYSTEM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="pcm8"    value="0x01"/>
 		</options>
@@ -10279,7 +10279,7 @@
 	<game>
 		<name>[X68000] 魔法のシュータープッチンプリン (TeamDangeroude)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="plin68snd">
 			<rom type="code" offset="0x000000">plin68snd.bin</rom>
 			<rom type="code" offset="0x010000">plin.mus</rom>
@@ -10293,7 +10293,7 @@
 	<game>
 		<name>[X68000] DRINKY &amp; SMOKEY (DREAM STAFF)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="drkysmky68snd">
 			<rom type="code" offset="0x000000">drsm68snd.bin</rom>
 			<rom type="code" offset="0x010000">DR.ZMD</rom>
@@ -10324,7 +10324,7 @@
 	<game>
 		<name>[X68000] すとにゃんダッシュ (南国猫桜)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="sfd68snd">
 			<rom type="code" offset="0x000000">sfd68snd.bin</rom>
 			<rom type="x"    offset="0x010000">dash.x</rom>
@@ -10350,7 +10350,7 @@
 	<game>
 		<name>[X68000] LITTLE CHINESE FINAL EDITION (TFS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -10374,9 +10374,9 @@
 			<title code="0x07">BGM1.M  : Junkyard</title>
 			<title code="0x08">BGM2.M  : Fightin' Lady</title>
 			<title code="0x09">BGM3.M  : リトルチャイニーズのテーマ</title>
-			<title code="0x0a">BGM4.M  : </title>
+			<title code="0x0a">BGM4.M</title>
 			<title code="0x0b">BGM5.M  : Devil's Carnbbal</title>
-			<title code="0x0c">BGM6.M  : </title>
+			<title code="0x0c">BGM6.M</title>
 			<title code="0x0d">DG2LC.M : 開け、未知の扉</title>
 			<title code="0x0e">LCT3.M  : Battle in the Dawn</title>
 			<title code="0x0f">LCT4.M  : Overcome Difficulties</title>
@@ -10387,7 +10387,7 @@
 	<game>
 		<name>[X68000] STAR PULSE (TeamDangeroude)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="dmaint"  value="0x01"/>
 		</options>
@@ -10422,7 +10422,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.4(OPNA) (ACTIVE GAMERS)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -10517,7 +10517,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.4(86) (ACTIVE GAMERS)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -10614,7 +10614,7 @@
 	<game>
 		<name>[PC-9801] Imagical Musion Depot Vol.4(OPN) (ACTIVE GAMERS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -10706,7 +10706,7 @@
 	<game>
 		<name>[PC-9801] 府立メタトポロジー大学付属女子高校(OPN+SSGPCM) (R-FORCE software)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -10831,7 +10831,7 @@
 			<title code="15"     >D3MU104.PKO      : メニュー</title>
 			<title code="16"     >D3MU105.PKO      : 元ステージクリアー</title>
 			<title code="17"     >D3MU106.PKO      : 大ロマンの大クイズ</title>
-			<title code="18"     >D3MU107.PKO      : </title>
+			<title code="18"     >D3MU107.PKO</title>
 			<title code="19"     >D3MU201.PKO      : オープニング</title>
 			<title code="20"     >D3MU202.PKO      : タイトル</title>
 			<title code="21"     >D3MU303.PKO      : エンディング</title>
@@ -10844,14 +10844,14 @@
 			<title code="28"     >D3MU406.PKO      : フィールド6</title>
 			<title code="29"     >D3MU407.PKO      : フィールド7</title>
 			<title code="30"     >D3MU408.PKO      : フィールド8</title>
-			<title code="31"     >D3MU409.PKO      : </title>
+			<title code="31"     >D3MU409.PKO</title>
 			<title code="32"     >D3MU501.PKO      : イベント1</title>
 			<title code="33"     >D3MU502.PKO      : イベント2</title>
 			<title code="34"     >D3MU503.PKO      : イベント3</title>
 			<title code="35"     >D3MU504.PKO      : イベント4</title>
 			<title code="36"     >D3MU505.PKO      : イベント5</title>
-			<title code="37"     >D3MU506.PKO      : </title>
-			<title code="38"     >D3MU991.PKO      : </title>
+			<title code="37"     >D3MU506.PKO</title>
+			<title code="38"     >D3MU991.PKO</title>
 			<title code="0x10001">D3SE001.PKF : 01 : 剣と剣が当たる音</title>
 			<title code="0x10002">D3SE001.PKF : 02 : 死亡だぜ～～～!</title>
 			<title code="0x10003">D3SE001.PKF : 03 : 攻撃ヒット!</title>
@@ -10878,91 +10878,91 @@
 			<title code="0x10018">D3SE001.PKF : 18 : 転送音</title>
 			<title code="0x10019">D3SE001.PKF : 19 : 空砲</title>
 			<title code="0x1001a">D3SE001.PKF : 1A : 壁破壊音</title>
-			<title code="0x1001b">D3SE001.PKF : 1B : </title>
-			<title code="0x1100c">D3SE001.PKF : 1C : </title>
-			<title code="0x1001d">D3SE001.PKF : 1D : </title>
-			<title code="0x1001e">D3SE001.PKF : 1E : </title>
-			<title code="0x20030">D3SV001.PCH      : </title>
-			<title code="0x20031">D3SV002.PCH      : </title>
-			<title code="0x20032">D3SV003.PCH      : </title>
-			<title code="0x20033">D3SV004.PCH      : </title>
-			<title code="0x20034">D3SV005.PCH      : </title>
-			<title code="0x20035">D3SV008.PCH      : </title>
-			<title code="0x20036">D3SV009.PCH      : </title>
-			<title code="0x20037">D3SV010.PCH      : </title>
-			<title code="0x20038">D3SV011.PCH      : </title>
-			<title code="0x20039">D3SV012.PCH      : </title>
-			<title code="0x2003a">D3SV013.PCH      : </title>
-			<title code="0x2003b">D3SV101.PCH      : </title>
-			<title code="0x2003c">D3SV102.PCH      : </title>
-			<title code="0x2003d">D3SV103.PCH      : </title>
-			<title code="0x2003e">D3SV104.PCH      : </title>
-			<title code="0x2003f">D3SV105.PCH      : </title>
-			<title code="0x20040">D3SV106.PCH      : </title>
-			<title code="0x20041">D3SV107.PCH      : </title>
-			<title code="0x20042">D3SV108.PCH      : </title>
-			<title code="0x20043">D3SV109.PCH      : </title>
-			<title code="0x20044">D3SV111.PCH      : </title>
-			<title code="0x20045">D3SV112.PCH      : </title>
-			<title code="0x20046">D3SV113.PCH      : </title>
-			<title code="0x20047">D3SV114.PCH      : </title>
-			<title code="0x20048">D3SV201.PCH      : </title>
-			<title code="0x20049">D3SV202.PCH      : </title>
-			<title code="0x2004a">D3SV203.PCH      : </title>
-			<title code="0x2004b">D3SV204.PCH      : </title>
-			<title code="0x2004c">D3SV205.PCH      : </title>
-			<title code="0x2004d">D3SV206.PCH      : </title>
-			<title code="0x2004e">D3SV207.PCH      : </title>
-			<title code="0x2004f">D3SV301.PCH      : </title>
-			<title code="0x20050">D3SV302.PCH      : </title>
-			<title code="0x20051">D3SV303.PCH      : </title>
-			<title code="0x20052">D3SV304.PCH      : </title>
-			<title code="0x20053">D3SV305.PCH      : </title>
-			<title code="0x20054">D3SV401.PCH      : </title>
-			<title code="0x20055">D3SV402.PCH      : </title>
-			<title code="0x20056">D3SV501.PCH      : </title>
-			<title code="0x20057">D3SV502.PCH      : </title>
-			<title code="0x20058">D3SV503.PCH      : </title>
-			<title code="0x20059">D3SV504.PCH      : </title>
-			<title code="0x2005a">D3SV505.PCH      : </title>
-			<title code="0x2005b">D3SV601.PCH      : </title>
-			<title code="0x2005c">D3SV602.PCH      : </title>
-			<title code="0x2005d">D3SV603.PCH      : </title>
-			<title code="0x2005e">D3SV604.PCH      : </title>
-			<title code="0x2005f">D3SV605.PCH      : </title>
-			<title code="0x20060">D3SV606.PCH      : </title>
-			<title code="0x20061">D3SV607.PCH      : </title>
-			<title code="0x20062">D3SV608.PCH      : </title>
-			<title code="0x20063">D3SV609.PCH      : </title>
-			<title code="0x20064">D3SV610.PCH      : </title>
-			<title code="0x20065">D3SV701.PCH      : </title>
-			<title code="0x20066">D3SV702.PCH      : </title>
-			<title code="0x20067">D3SV703.PCH      : </title>
-			<title code="0x20068">D3SV801.PCH      : </title>
-			<title code="0x20069">D3SV802.PCH      : </title>
-			<title code="0x2006a">D3SV803.PCH      : </title>
-			<title code="0x2006b">D3SV804.PCH      : </title>
-			<title code="0x2006c">D3SV805.PCH      : </title>
-			<title code="0x2006d">D3SV806.PCH      : </title>
-			<title code="0x2006e">D3SV807.PCH      : </title>
-			<title code="0x2006f">D3SV808.PCH      : </title>
-			<title code="0x20070">D3SV901.PCH      : </title>
-			<title code="0x20071">D3SV902.PCH      : </title>
-			<title code="0x20072">D3SV903.PCH      : </title>
-			<title code="0x20073">D3SV904.PCH      : </title>
-			<title code="0x20074">D3SV905.PCH      : </title>
-			<title code="0x20075">D3SV906.PCH      : </title>
-			<title code="0x20076">D3SV907.PCH      : </title>
-			<title code="0x20077">D3SV908.PCH      : </title>
-			<title code="0x20078">D3SV909.PCH      : </title>
-			<title code="0x20079">D3SV910.PCH      : </title>
-			<title code="0x2007a">D3SV911.PCH      : </title>
+			<title code="0x1001b">D3SE001.PKF : 1B</title>
+			<title code="0x1100c">D3SE001.PKF : 1C</title>
+			<title code="0x1001d">D3SE001.PKF : 1D</title>
+			<title code="0x1001e">D3SE001.PKF : 1E</title>
+			<title code="0x20030">D3SV001.PCH</title>
+			<title code="0x20031">D3SV002.PCH</title>
+			<title code="0x20032">D3SV003.PCH</title>
+			<title code="0x20033">D3SV004.PCH</title>
+			<title code="0x20034">D3SV005.PCH</title>
+			<title code="0x20035">D3SV008.PCH</title>
+			<title code="0x20036">D3SV009.PCH</title>
+			<title code="0x20037">D3SV010.PCH</title>
+			<title code="0x20038">D3SV011.PCH</title>
+			<title code="0x20039">D3SV012.PCH</title>
+			<title code="0x2003a">D3SV013.PCH</title>
+			<title code="0x2003b">D3SV101.PCH</title>
+			<title code="0x2003c">D3SV102.PCH</title>
+			<title code="0x2003d">D3SV103.PCH</title>
+			<title code="0x2003e">D3SV104.PCH</title>
+			<title code="0x2003f">D3SV105.PCH</title>
+			<title code="0x20040">D3SV106.PCH</title>
+			<title code="0x20041">D3SV107.PCH</title>
+			<title code="0x20042">D3SV108.PCH</title>
+			<title code="0x20043">D3SV109.PCH</title>
+			<title code="0x20044">D3SV111.PCH</title>
+			<title code="0x20045">D3SV112.PCH</title>
+			<title code="0x20046">D3SV113.PCH</title>
+			<title code="0x20047">D3SV114.PCH</title>
+			<title code="0x20048">D3SV201.PCH</title>
+			<title code="0x20049">D3SV202.PCH</title>
+			<title code="0x2004a">D3SV203.PCH</title>
+			<title code="0x2004b">D3SV204.PCH</title>
+			<title code="0x2004c">D3SV205.PCH</title>
+			<title code="0x2004d">D3SV206.PCH</title>
+			<title code="0x2004e">D3SV207.PCH</title>
+			<title code="0x2004f">D3SV301.PCH</title>
+			<title code="0x20050">D3SV302.PCH</title>
+			<title code="0x20051">D3SV303.PCH</title>
+			<title code="0x20052">D3SV304.PCH</title>
+			<title code="0x20053">D3SV305.PCH</title>
+			<title code="0x20054">D3SV401.PCH</title>
+			<title code="0x20055">D3SV402.PCH</title>
+			<title code="0x20056">D3SV501.PCH</title>
+			<title code="0x20057">D3SV502.PCH</title>
+			<title code="0x20058">D3SV503.PCH</title>
+			<title code="0x20059">D3SV504.PCH</title>
+			<title code="0x2005a">D3SV505.PCH</title>
+			<title code="0x2005b">D3SV601.PCH</title>
+			<title code="0x2005c">D3SV602.PCH</title>
+			<title code="0x2005d">D3SV603.PCH</title>
+			<title code="0x2005e">D3SV604.PCH</title>
+			<title code="0x2005f">D3SV605.PCH</title>
+			<title code="0x20060">D3SV606.PCH</title>
+			<title code="0x20061">D3SV607.PCH</title>
+			<title code="0x20062">D3SV608.PCH</title>
+			<title code="0x20063">D3SV609.PCH</title>
+			<title code="0x20064">D3SV610.PCH</title>
+			<title code="0x20065">D3SV701.PCH</title>
+			<title code="0x20066">D3SV702.PCH</title>
+			<title code="0x20067">D3SV703.PCH</title>
+			<title code="0x20068">D3SV801.PCH</title>
+			<title code="0x20069">D3SV802.PCH</title>
+			<title code="0x2006a">D3SV803.PCH</title>
+			<title code="0x2006b">D3SV804.PCH</title>
+			<title code="0x2006c">D3SV805.PCH</title>
+			<title code="0x2006d">D3SV806.PCH</title>
+			<title code="0x2006e">D3SV807.PCH</title>
+			<title code="0x2006f">D3SV808.PCH</title>
+			<title code="0x20070">D3SV901.PCH</title>
+			<title code="0x20071">D3SV902.PCH</title>
+			<title code="0x20072">D3SV903.PCH</title>
+			<title code="0x20073">D3SV904.PCH</title>
+			<title code="0x20074">D3SV905.PCH</title>
+			<title code="0x20075">D3SV906.PCH</title>
+			<title code="0x20076">D3SV907.PCH</title>
+			<title code="0x20077">D3SV908.PCH</title>
+			<title code="0x20078">D3SV909.PCH</title>
+			<title code="0x20079">D3SV910.PCH</title>
+			<title code="0x2007a">D3SV911.PCH</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 府立メタトポロジー大学付属女子高校(86) (R-FORCE software)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -11086,7 +11086,7 @@
 			<title code="15"     >D3MU104.PKO      : メニュー</title>
 			<title code="16"     >D3MU105.PKO      : 元ステージクリアー</title>
 			<title code="17"     >D3MU106.PKO      : 大ロマンの大クイズ</title>
-			<title code="18"     >D3MU107.PKO      : </title>
+			<title code="18"     >D3MU107.PKO</title>
 			<title code="19"     >D3MU201.PKO      : オープニング</title>
 			<title code="20"     >D3MU202.PKO      : タイトル</title>
 			<title code="21"     >D3MU303.PKO      : エンディング</title>
@@ -11099,14 +11099,14 @@
 			<title code="28"     >D3MU406.PKO      : フィールド6</title>
 			<title code="29"     >D3MU407.PKO      : フィールド7</title>
 			<title code="30"     >D3MU408.PKO      : フィールド8</title>
-			<title code="31"     >D3MU409.PKO      : </title>
+			<title code="31"     >D3MU409.PKO</title>
 			<title code="32"     >D3MU501.PKO      : イベント1</title>
 			<title code="33"     >D3MU502.PKO      : イベント2</title>
 			<title code="34"     >D3MU503.PKO      : イベント3</title>
 			<title code="35"     >D3MU504.PKO      : イベント4</title>
 			<title code="36"     >D3MU505.PKO      : イベント5</title>
-			<title code="37"     >D3MU506.PKO      : </title>
-			<title code="38"     >D3MU991.PKO      : </title>
+			<title code="37"     >D3MU506.PKO</title>
+			<title code="38"     >D3MU991.PKO</title>
 			<title code="0x10001">D3SE001.PKF : 01 : 剣と剣が当たる音</title>
 			<title code="0x10002">D3SE001.PKF : 02 : 死亡だぜ～～～!</title>
 			<title code="0x10003">D3SE001.PKF : 03 : 攻撃ヒット!</title>
@@ -11133,91 +11133,91 @@
 			<title code="0x10018">D3SE001.PKF : 18 : 転送音</title>
 			<title code="0x10019">D3SE001.PKF : 19 : 空砲</title>
 			<title code="0x1001a">D3SE001.PKF : 1A : 壁破壊音</title>
-			<title code="0x1001b">D3SE001.PKF : 1B : </title>
-			<title code="0x1100c">D3SE001.PKF : 1C : </title>
-			<title code="0x1001d">D3SE001.PKF : 1D : </title>
-			<title code="0x1001e">D3SE001.PKF : 1E : </title>
-			<title code="0x20030">D3SV001.PCH      : </title>
-			<title code="0x20031">D3SV002.PCH      : </title>
-			<title code="0x20032">D3SV003.PCH      : </title>
-			<title code="0x20033">D3SV004.PCH      : </title>
-			<title code="0x20034">D3SV005.PCH      : </title>
-			<title code="0x20035">D3SV008.PCH      : </title>
-			<title code="0x20036">D3SV009.PCH      : </title>
-			<title code="0x20037">D3SV010.PCH      : </title>
-			<title code="0x20038">D3SV011.PCH      : </title>
-			<title code="0x20039">D3SV012.PCH      : </title>
-			<title code="0x2003a">D3SV013.PCH      : </title>
-			<title code="0x2003b">D3SV101.PCH      : </title>
-			<title code="0x2003c">D3SV102.PCH      : </title>
-			<title code="0x2003d">D3SV103.PCH      : </title>
-			<title code="0x2003e">D3SV104.PCH      : </title>
-			<title code="0x2003f">D3SV105.PCH      : </title>
-			<title code="0x20040">D3SV106.PCH      : </title>
-			<title code="0x20041">D3SV107.PCH      : </title>
-			<title code="0x20042">D3SV108.PCH      : </title>
-			<title code="0x20043">D3SV109.PCH      : </title>
-			<title code="0x20044">D3SV111.PCH      : </title>
-			<title code="0x20045">D3SV112.PCH      : </title>
-			<title code="0x20046">D3SV113.PCH      : </title>
-			<title code="0x20047">D3SV114.PCH      : </title>
-			<title code="0x20048">D3SV201.PCH      : </title>
-			<title code="0x20049">D3SV202.PCH      : </title>
-			<title code="0x2004a">D3SV203.PCH      : </title>
-			<title code="0x2004b">D3SV204.PCH      : </title>
-			<title code="0x2004c">D3SV205.PCH      : </title>
-			<title code="0x2004d">D3SV206.PCH      : </title>
-			<title code="0x2004e">D3SV207.PCH      : </title>
-			<title code="0x2004f">D3SV301.PCH      : </title>
-			<title code="0x20050">D3SV302.PCH      : </title>
-			<title code="0x20051">D3SV303.PCH      : </title>
-			<title code="0x20052">D3SV304.PCH      : </title>
-			<title code="0x20053">D3SV305.PCH      : </title>
-			<title code="0x20054">D3SV401.PCH      : </title>
-			<title code="0x20055">D3SV402.PCH      : </title>
-			<title code="0x20056">D3SV501.PCH      : </title>
-			<title code="0x20057">D3SV502.PCH      : </title>
-			<title code="0x20058">D3SV503.PCH      : </title>
-			<title code="0x20059">D3SV504.PCH      : </title>
-			<title code="0x2005a">D3SV505.PCH      : </title>
-			<title code="0x2005b">D3SV601.PCH      : </title>
-			<title code="0x2005c">D3SV602.PCH      : </title>
-			<title code="0x2005d">D3SV603.PCH      : </title>
-			<title code="0x2005e">D3SV604.PCH      : </title>
-			<title code="0x2005f">D3SV605.PCH      : </title>
-			<title code="0x20060">D3SV606.PCH      : </title>
-			<title code="0x20061">D3SV607.PCH      : </title>
-			<title code="0x20062">D3SV608.PCH      : </title>
-			<title code="0x20063">D3SV609.PCH      : </title>
-			<title code="0x20064">D3SV610.PCH      : </title>
-			<title code="0x20065">D3SV701.PCH      : </title>
-			<title code="0x20066">D3SV702.PCH      : </title>
-			<title code="0x20067">D3SV703.PCH      : </title>
-			<title code="0x20068">D3SV801.PCH      : </title>
-			<title code="0x20069">D3SV802.PCH      : </title>
-			<title code="0x2006a">D3SV803.PCH      : </title>
-			<title code="0x2006b">D3SV804.PCH      : </title>
-			<title code="0x2006c">D3SV805.PCH      : </title>
-			<title code="0x2006d">D3SV806.PCH      : </title>
-			<title code="0x2006e">D3SV807.PCH      : </title>
-			<title code="0x2006f">D3SV808.PCH      : </title>
-			<title code="0x20070">D3SV901.PCH      : </title>
-			<title code="0x20071">D3SV902.PCH      : </title>
-			<title code="0x20072">D3SV903.PCH      : </title>
-			<title code="0x20073">D3SV904.PCH      : </title>
-			<title code="0x20074">D3SV905.PCH      : </title>
-			<title code="0x20075">D3SV906.PCH      : </title>
-			<title code="0x20076">D3SV907.PCH      : </title>
-			<title code="0x20077">D3SV908.PCH      : </title>
-			<title code="0x20078">D3SV909.PCH      : </title>
-			<title code="0x20079">D3SV910.PCH      : </title>
-			<title code="0x2007a">D3SV911.PCH      : </title>
+			<title code="0x1001b">D3SE001.PKF : 1B</title>
+			<title code="0x1100c">D3SE001.PKF : 1C</title>
+			<title code="0x1001d">D3SE001.PKF : 1D</title>
+			<title code="0x1001e">D3SE001.PKF : 1E</title>
+			<title code="0x20030">D3SV001.PCH</title>
+			<title code="0x20031">D3SV002.PCH</title>
+			<title code="0x20032">D3SV003.PCH</title>
+			<title code="0x20033">D3SV004.PCH</title>
+			<title code="0x20034">D3SV005.PCH</title>
+			<title code="0x20035">D3SV008.PCH</title>
+			<title code="0x20036">D3SV009.PCH</title>
+			<title code="0x20037">D3SV010.PCH</title>
+			<title code="0x20038">D3SV011.PCH</title>
+			<title code="0x20039">D3SV012.PCH</title>
+			<title code="0x2003a">D3SV013.PCH</title>
+			<title code="0x2003b">D3SV101.PCH</title>
+			<title code="0x2003c">D3SV102.PCH</title>
+			<title code="0x2003d">D3SV103.PCH</title>
+			<title code="0x2003e">D3SV104.PCH</title>
+			<title code="0x2003f">D3SV105.PCH</title>
+			<title code="0x20040">D3SV106.PCH</title>
+			<title code="0x20041">D3SV107.PCH</title>
+			<title code="0x20042">D3SV108.PCH</title>
+			<title code="0x20043">D3SV109.PCH</title>
+			<title code="0x20044">D3SV111.PCH</title>
+			<title code="0x20045">D3SV112.PCH</title>
+			<title code="0x20046">D3SV113.PCH</title>
+			<title code="0x20047">D3SV114.PCH</title>
+			<title code="0x20048">D3SV201.PCH</title>
+			<title code="0x20049">D3SV202.PCH</title>
+			<title code="0x2004a">D3SV203.PCH</title>
+			<title code="0x2004b">D3SV204.PCH</title>
+			<title code="0x2004c">D3SV205.PCH</title>
+			<title code="0x2004d">D3SV206.PCH</title>
+			<title code="0x2004e">D3SV207.PCH</title>
+			<title code="0x2004f">D3SV301.PCH</title>
+			<title code="0x20050">D3SV302.PCH</title>
+			<title code="0x20051">D3SV303.PCH</title>
+			<title code="0x20052">D3SV304.PCH</title>
+			<title code="0x20053">D3SV305.PCH</title>
+			<title code="0x20054">D3SV401.PCH</title>
+			<title code="0x20055">D3SV402.PCH</title>
+			<title code="0x20056">D3SV501.PCH</title>
+			<title code="0x20057">D3SV502.PCH</title>
+			<title code="0x20058">D3SV503.PCH</title>
+			<title code="0x20059">D3SV504.PCH</title>
+			<title code="0x2005a">D3SV505.PCH</title>
+			<title code="0x2005b">D3SV601.PCH</title>
+			<title code="0x2005c">D3SV602.PCH</title>
+			<title code="0x2005d">D3SV603.PCH</title>
+			<title code="0x2005e">D3SV604.PCH</title>
+			<title code="0x2005f">D3SV605.PCH</title>
+			<title code="0x20060">D3SV606.PCH</title>
+			<title code="0x20061">D3SV607.PCH</title>
+			<title code="0x20062">D3SV608.PCH</title>
+			<title code="0x20063">D3SV609.PCH</title>
+			<title code="0x20064">D3SV610.PCH</title>
+			<title code="0x20065">D3SV701.PCH</title>
+			<title code="0x20066">D3SV702.PCH</title>
+			<title code="0x20067">D3SV703.PCH</title>
+			<title code="0x20068">D3SV801.PCH</title>
+			<title code="0x20069">D3SV802.PCH</title>
+			<title code="0x2006a">D3SV803.PCH</title>
+			<title code="0x2006b">D3SV804.PCH</title>
+			<title code="0x2006c">D3SV805.PCH</title>
+			<title code="0x2006d">D3SV806.PCH</title>
+			<title code="0x2006e">D3SV807.PCH</title>
+			<title code="0x2006f">D3SV808.PCH</title>
+			<title code="0x20070">D3SV901.PCH</title>
+			<title code="0x20071">D3SV902.PCH</title>
+			<title code="0x20072">D3SV903.PCH</title>
+			<title code="0x20073">D3SV904.PCH</title>
+			<title code="0x20074">D3SV905.PCH</title>
+			<title code="0x20075">D3SV906.PCH</title>
+			<title code="0x20076">D3SV907.PCH</title>
+			<title code="0x20077">D3SV908.PCH</title>
+			<title code="0x20078">D3SV909.PCH</title>
+			<title code="0x20079">D3SV910.PCH</title>
+			<title code="0x2007a">D3SV911.PCH</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 赤ずきんCHACHACHA (SPRITE)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="akzkccc68snd">
 			<rom type="code" offset="0x000000">accc68snd.bin</rom>
 			<rom type="code" offset="0x010000">CHACHA.ZPD</rom>
@@ -11252,7 +11252,7 @@
 	<game>
 		<name>[PC-9801] CRIM (TSUKKAsoftware)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="0"/>
@@ -11284,31 +11284,31 @@
 			<rom type="shell" offset="0">SYNTH_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BALANCE.PAI : </title>
-			<title code="0x11">PA01.PAI    : </title>
-			<title code="0x12">PA02.PAI    : </title>
-			<title code="0x13">PA03.PAI    : </title>
-			<title code="0x14">PA04.PAI    : </title>
-			<title code="0x15">PA06.PAI    : </title>
-			<title code="0x16">PA07.PAI    : </title>
-			<title code="0x17">PA12.PAI    : </title>
-			<title code="0x18">PA13.PAI    : </title>
-			<title code="0x19">PA14.PAI    : </title>
-			<title code="0x1a">PA16.PAI    : </title>
-			<title code="0x1b">PA19.PAI    : </title>
-			<title code="0x1c">PA21.PAI    : </title>
-			<title code="0x1d">PA23.PAI    : </title>
-			<title code="0x1e">PA24.PAI    : </title>
-			<title code="0x1f">PA28.PAI    : </title>
-			<title code="0x20">PA29.PAI    : </title>
-			<title code="0x21">PA98.PAI    : </title>
-			<title code="0x22">PA99.PAI    : </title>
+			<title code="0x10">BALANCE.PAI</title>
+			<title code="0x11">PA01.PAI</title>
+			<title code="0x12">PA02.PAI</title>
+			<title code="0x13">PA03.PAI</title>
+			<title code="0x14">PA04.PAI</title>
+			<title code="0x15">PA06.PAI</title>
+			<title code="0x16">PA07.PAI</title>
+			<title code="0x17">PA12.PAI</title>
+			<title code="0x18">PA13.PAI</title>
+			<title code="0x19">PA14.PAI</title>
+			<title code="0x1a">PA16.PAI</title>
+			<title code="0x1b">PA19.PAI</title>
+			<title code="0x1c">PA21.PAI</title>
+			<title code="0x1d">PA23.PAI</title>
+			<title code="0x1e">PA24.PAI</title>
+			<title code="0x1f">PA28.PAI</title>
+			<title code="0x20">PA29.PAI</title>
+			<title code="0x21">PA98.PAI</title>
+			<title code="0x22">PA99.PAI</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] おきらくブロック ちょびんでるんるん♪ (TSUKKAsoftware)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="0"/>
@@ -11370,7 +11370,7 @@
 	<game>
 		<name>[PC-9801] SeeNa98</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<romlist archive="seena98">
 			<rom type="file" offset="-1">seenamus.com</rom>
 			<rom type="file" offset="-1">SOUNDDRV.EXE</rom>
@@ -11381,12 +11381,12 @@
 			<title code="0x00">00 : Function Area</title>
 			<title code="0x01">01 : Balance in the Maze</title>
 			<title code="0x02">02 : SIDE-B Stage 8</title>
-			<title code="0x03">03 : </title>
+			<title code="0x03">03</title>
 			<title code="0x04">04 : SIDE-B Stage 1,3,5,7</title>
 			<title code="0x05">05 : SIDE-B Stage 2</title>
-			<title code="0x06">06 : </title>
-			<title code="0x07">07 : </title>
-			<title code="0x08">08 : </title>
+			<title code="0x06">06</title>
+			<title code="0x07">07</title>
+			<title code="0x08">08</title>
 			<title code="0x09">09 : Balance in the Maze</title>
 			<title code="0x0a">0a : SIDE-B オールクリア</title>
 			<title code="0x0b">0b : SIDE-B ステージクリア</title>
@@ -11395,7 +11395,7 @@
 	<game>
 		<name>[X68000] HELLHOUND(OPM) (BREAKTHROUGH)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<romlist archive="hellhund68snd">
 			<rom type="code" offset="0x000000">hh68snd.bin</rom>
 			<rom type="code" offset="0x010000">hhfmset.ZMD</rom>
@@ -11426,7 +11426,7 @@
 	<game>
 		<name>[X68000] HELLHOUND(GS) (BREAKTHROUGH)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
@@ -11459,7 +11459,7 @@
 	<game>
 		<name>[PC-88VA] VOLTIGE AERIENNE(OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">同人ソフト</driveralias>
+		<driveralias type="PC-88VA">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 		</options>
@@ -11514,7 +11514,7 @@
 	<game>
 		<name>[PC-88VA] VOLTIGE AERIENNE(OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">同人ソフト</driveralias>
+		<driveralias type="PC-88VA">同人ソフト</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 		</options>
@@ -11567,7 +11567,7 @@
 	<game>
 		<name>[X68000] C力検査V3 [完結編](OPM) (はやぶさそふと)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 		</options>
@@ -11594,14 +11594,14 @@
 			<title code="0x06">F_GAME4.ZMD : 16Cアタック/10Sアタック</title>
 			<title code="0x09">F_OVER.ZMD  : ゲームオーバー</title>
 			<title code="0x0a">F_RANK.ZMD  : ランキング入り</title>
-			<title code="0x02">F_BUTA.ZMD  : </title>
+			<title code="0x02">F_BUTA.ZMD</title>
 			<title code="0x01">F_INIT.ZMD  : 未使用</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] C力検査V3 [完結編](MT-32) (はやぶさそふと)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="midiout" value="1"/>
@@ -11630,14 +11630,14 @@
 			<title code="0x06">M_GAME4.ZMD : 16Cアタック/10Sアタック</title>
 			<title code="0x09">M_OVER.ZMD  : ゲームオーバー</title>
 			<title code="0x0a">M_RANK.ZMD  : ランキング入り</title>
-			<title code="0x02">M_BUTA.ZMD  : </title>
+			<title code="0x02">M_BUTA.ZMD</title>
 			<title code="0x01">M_INIT.ZMD  : 未使用</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] C力検査V3 [完結編](MT-32 Emulation) (はやぶさそふと)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="midiout" value="1"/>
@@ -11666,14 +11666,14 @@
 			<title code="0x06">M_GAME4.ZMD : 16Cアタック/10Sアタック</title>
 			<title code="0x09">M_OVER.ZMD  : ゲームオーバー</title>
 			<title code="0x0a">M_RANK.ZMD  : ランキング入り</title>
-			<title code="0x02">M_BUTA.ZMD  : </title>
+			<title code="0x02">M_BUTA.ZMD</title>
 			<title code="0x01">M_INIT.ZMD  : 未使用</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] C力検査V3 [完結編](CM-64+SN-U110-10) (はやぶさそふと)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="midiout" value="1"/>
@@ -11702,14 +11702,14 @@
 			<title code="0x06">C_GAME4.ZMD : 16Cアタック/10Sアタック</title>
 			<title code="0x09">C_OVER.ZMD  : ゲームオーバー</title>
 			<title code="0x0a">C_RANK.ZMD  : ランキング入り</title>
-			<title code="0x02">C_BUTA.ZMD  : </title>
+			<title code="0x02">C_BUTA.ZMD</title>
 			<title code="0x01">C_INIT.ZMD  : 未使用</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] C力検査V3 [完結編](SC-55) (はやぶさそふと)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="midiout" value="1"/>
@@ -11738,14 +11738,14 @@
 			<title code="0x06">S_GAME4.ZMD : 16Cアタック/10Sアタック</title>
 			<title code="0x09">S_OVER.ZMD  : ゲームオーバー</title>
 			<title code="0x0a">S_RANK.ZMD  : ランキング入り</title>
-			<title code="0x02">S_BUTA.ZMD  : </title>
+			<title code="0x02">S_BUTA.ZMD</title>
 			<title code="0x01">S_INIT.ZMD  : 未使用</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 脳天伝説 (IRON GEAR)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -11786,7 +11786,7 @@
 			<title code="0x08">BGM7.M  : Beatin' Beat</title>
 			<title code="0x09">BGM8.M  : 戦え!賭博戦士</title>
 			<title code="0x0b">BGM9.M  : Trickstar</title>
-			<title code="0x0c">BGM10.M : </title>
+			<title code="0x0c">BGM10.M</title>
 			<title code="0x12">REAC1.M : Seven Diamonds</title>
 			<title code="0x13">REAC2.M : MINOR-1'</title>
 			<title code="0x14">ST.M    : Break Through!</title>
@@ -11800,7 +11800,7 @@
 	<game>
 		<name>[X68000] 脳天直撃3 (IRON GEAR)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -11831,7 +11831,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x1f">LOAD.M  : From the Darkside</title>
-			<title code="0x21">MENU.M  : </title>
+			<title code="0x21">MENU.M</title>
 			<title code="0x11">BGM1.M  : Lost of Consciousness</title>
 			<title code="0x12">BGM2.M  : Missing Blue</title>
 			<title code="0x13">BGM3.M  : Fist Law</title>
@@ -11855,7 +11855,7 @@
 	<game>
 		<name>[X68000] Magery #2 THE LABYRINTH OF DIMENSION(日本洗脳倶楽部)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -11885,7 +11885,7 @@
 	<game>
 		<name>[X68000] Magery #3 THE END OF MALICIOUS FATE(日本洗脳倶楽部)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -11915,7 +11915,7 @@
 	<game>
 		<name>[X68000] Magery for おたく(日本洗脳倶楽部)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="pcm8" value="1"/>
@@ -11947,7 +11947,7 @@
 	<game>
 		<name>[X68000] ZERO 零 (和幸新宿組)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<driveralias type="X68000">同人ソフト</driveralias>
 		<options>
 			<option name="mfp" value="1"/>
 			<option name="dmaint" value="1"/>
@@ -11990,7 +11990,7 @@
 	<game>
 		<name>[PC-9801] HARD RANK (NOP SOFTWARE)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<driveralias type="PC-9801">同人ソフト</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>

@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] DAIVA - STORY I FLAME OF VLITRA -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf400"/>
 			<option name="mdata_size" value="0x0000"/>
@@ -93,7 +93,7 @@
 	<game>
 		<name>[PC-8801] HYDLIDE 3 - THE SPACE MEMORIES -(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="total_mix" value="0x300"/>
 			<option name="use_rtc"   value="0x01"/>
@@ -138,7 +138,7 @@
 	<game>
 		<name>[PC-8801] HYDLIDE 3 - THE SPACE MEMORIES -(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="total_mix" value="0x300"/>
 			<option name="use_rtc"   value="0x01"/>
@@ -183,7 +183,7 @@
 	<game>
 		<name>[PC-8801] PSY-O-BLADE(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<romlist archive="psyoblde">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x7f00">PROG</rom>
@@ -246,7 +246,7 @@
 	<game>
 		<name>[PC-8801] PSY-O-BLADE(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<romlist archive="psyoblde">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x7f00">PROG</rom>
@@ -309,7 +309,7 @@
 	<game>
 		<name>[PC-8801] Rune Worth －黒衣の貴公子－(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"   value="0x0100"/>
 			<option name="use_rtc"  value="0x01"/>
@@ -437,7 +437,7 @@
 	<game>
 		<name>[PC-8801] Rune Worth －黒衣の貴公子－(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"   value="0x0100"/>
 			<option name="use_rtc"  value="0x01"/>
@@ -574,7 +574,7 @@
 	<game>
 		<name>[PC-8801] ルーンワース ジュークボックス(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"  value="0x0100"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -660,7 +660,7 @@
 	<game>
 		<name>[PC-8801] ルーンワース ジュークボックス(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-8801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"  value="0x0100"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -745,7 +745,7 @@
 	<game>
 		<name>[PC-9801] DAIVA -カリ・ユガの光輝-</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -767,7 +767,7 @@
 	<game>
 		<name>[PC-9801] Hydlide3 S.V.</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -823,7 +823,7 @@
 	<game>
 		<name>[PC-9801] PSY-O-BLADE</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x2000"/>
 			<option name="bootip" value="0x0000"/>
@@ -875,7 +875,7 @@
 	<game>
 		<name>[PC-9801] Rune Worth 黒衣の貴公子(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -999,7 +999,7 @@
 	<game>
 		<name>[PC-9801] Rune Worth 黒衣の貴公子(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1060,7 +1060,7 @@
 	<game>
 		<name>[PC-9801] ルーンワース2 時空の神戦(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x2000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1165,7 +1165,7 @@
 	<game>
 		<name>[PC-9801] ルーンワース2 時空の神戦(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x2000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1228,7 +1228,7 @@
 	<game>
 		<name>[PC-9801] ルーンワース3 神聖紀光臨(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x2000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1310,7 +1310,7 @@
 	<game>
 		<name>[PC-9801] ルーンワース3 神聖紀光臨(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs"   value="0x2000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1367,7 +1367,7 @@
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ(OPN)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1393,7 +1393,7 @@
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ(BEEP)</name>
 		<driver type="beep">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -1419,7 +1419,7 @@
 	<game>
 		<name>[PC-9801] EIGHT LAKES G.C.(OPN)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1445,7 +1445,7 @@
 	<game>
 		<name>[PC-9801] EIGHT LAKES G.C.(BEEP)</name>
 		<driver type="beep">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -1471,7 +1471,7 @@
 	<game>
 		<name>[PC-9801] T&amp;E Selection(OPN)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1497,7 +1497,7 @@
 	<game>
 		<name>[PC-9801] T&amp;E Selection(BEEP)</name>
 		<driver type="beep">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -1523,7 +1523,7 @@
 	<game>
 		<name>[PC-9801] ワイアラエの奇蹟(OPN)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1549,7 +1549,7 @@
 	<game>
 		<name>[PC-9801] ワイアラエの奇蹟(BEEP)</name>
 		<driver type="beep">pc98</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0002"/>
@@ -1575,7 +1575,7 @@
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ HD PACK(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1604,7 +1604,7 @@
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ HD PACK(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<romlist archive="n3ghdp98">
 			<rom type="file" offset="-1">n3gv11.com</rom>
 			<rom type="file" offset="0x05">MUSIC_B.PRC</rom>
@@ -1630,7 +1630,7 @@
 	<game>
 		<name>[PC-9801] ペブルビーチの波濤(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1661,7 +1661,7 @@
 	<game>
 		<name>[PC-9801] ペブルビーチの波濤(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<romlist archive="n3gpbl98">
 			<rom type="file" offset="-1">n3gv2.com</rom>
 			<rom type="file" offset="0x05">SOUND_B.PRC</rom>
@@ -1688,7 +1688,7 @@
 	<game>
 		<name>[PC-9801] デビルズコース(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1715,7 +1715,7 @@
 	<game>
 		<name>[PC-9801] デビルズコース(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<romlist archive="n3gdvl98">
 			<rom type="file" offset="-1">n3gv2.com</rom>
 			<rom type="file" offset="0x05">SOUND_B.PRC</rom>
@@ -1738,7 +1738,7 @@
 	<game>
 		<name>[PC-9801] Mr.プロ野球 PERFECT(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1769,33 +1769,33 @@
 			<rom type="shell" offset="0">n3gv2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00020010">INST_F.MDT   : </title>
-			<title code="0x00020011">OPEN_F.MDT   : </title>
-			<title code="0x00020012">AS_F.MDT     : </title>
-			<title code="0x00020013">GS_F.MDT     : </title>
-			<title code="0x00020014">JS_F.MDT     : </title>
-			<title code="0x00020015">B_MODE_F.MDT : </title>
-			<title code="0x00020016">MMD00F.MDT   : </title>
-			<title code="0x00020017">MMD01F.MDT   : </title>
-			<title code="0x00020018">MMD02F.MDT   : </title>
-			<title code="0x00020019">MMD03F.MDT   : </title>
-			<title code="0x0002001a">MMD04F.MDT   : </title>
-			<title code="0x0002001b">MMD05F.MDT   : </title>
-			<title code="0x0002001c">MMD06F.MDT   : </title>
-			<title code="0x0002001d">MMD07F.MDT   : </title>
-			<title code="0x0002001e">SETUP_F.MDT  : </title>
-			<title code="0x0002001f">PWIN_F.MDT   : </title>
-			<title code="0x00020020">END1_F.MDT   : </title>
-			<title code="0x00020021">END2_F.MDT   : </title>
-			<title code="0x00020022">END3_F.MDT   : </title>
-			<title code="0x00020023">END4_F.MDT   : </title>
-			<title code="0x00020024">END5_F.MDT   : </title>
+			<title code="0x00020010">INST_F.MDT</title>
+			<title code="0x00020011">OPEN_F.MDT</title>
+			<title code="0x00020012">AS_F.MDT</title>
+			<title code="0x00020013">GS_F.MDT</title>
+			<title code="0x00020014">JS_F.MDT</title>
+			<title code="0x00020015">B_MODE_F.MDT</title>
+			<title code="0x00020016">MMD00F.MDT</title>
+			<title code="0x00020017">MMD01F.MDT</title>
+			<title code="0x00020018">MMD02F.MDT</title>
+			<title code="0x00020019">MMD03F.MDT</title>
+			<title code="0x0002001a">MMD04F.MDT</title>
+			<title code="0x0002001b">MMD05F.MDT</title>
+			<title code="0x0002001c">MMD06F.MDT</title>
+			<title code="0x0002001d">MMD07F.MDT</title>
+			<title code="0x0002001e">SETUP_F.MDT</title>
+			<title code="0x0002001f">PWIN_F.MDT</title>
+			<title code="0x00020020">END1_F.MDT</title>
+			<title code="0x00020021">END2_F.MDT</title>
+			<title code="0x00020022">END3_F.MDT</title>
+			<title code="0x00020023">END4_F.MDT</title>
+			<title code="0x00020024">END5_F.MDT</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ2 マスターズ(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1839,7 +1839,7 @@
 	<game>
 		<name>[PC-9801] 遥かなるオーガスタ2 マスターズ(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<romlist archive="mastrs98">
 			<rom type="file" offset="-1">n3gv2.com</rom>
 			<rom type="file" offset="0x05">SOUND_B.PRC</rom>
@@ -1861,7 +1861,7 @@
 	<game>
 		<name>[PC-9801] Mr.プロ野球 PERFECT(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<romlist archive="mrprop98">
 			<rom type="file" offset="-1">n3gv2.com</rom>
 			<rom type="file" offset="0x05">SOUND_B.PRC</rom>
@@ -1886,30 +1886,30 @@
 			<rom type="shell" offset="0">n3gv2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00020010">INST_B  .MDT : </title>
-			<title code="0x00020011">OPEN_B  .MDT : </title>
-			<title code="0x00020012">AS_B    .MDT : </title>
-			<title code="0x00020013">GS_B    .MDT : </title>
-			<title code="0x00020014">JS_B    .MDT : </title>
-			<title code="0x00020015">B_MODE_B.MDT : </title>
-			<title code="0x00020016">MMD00B  .MDT : </title>
-			<title code="0x0002001a">MMD04B  .MDT : </title>
-			<title code="0x0002001b">MMD05B  .MDT : </title>
-			<title code="0x0002001c">MMD06B  .MDT : </title>
-			<title code="0x0002001d">MMD07B  .MDT : </title>
-			<title code="0x0002001e">SETUP_B .MDT : </title>
-			<title code="0x0002001f">PWIN_B  .MDT : </title>
-			<title code="0x00020020">END1_B  .MDT : </title>
-			<title code="0x00020021">END2_B  .MDT : </title>
-			<title code="0x00020022">END3_B  .MDT : </title>
-			<title code="0x00020023">END4_B  .MDT : </title>
-			<title code="0x00020024">END5_B  .MDT : </title>
+			<title code="0x00020010">INST_B  .MDT</title>
+			<title code="0x00020011">OPEN_B  .MDT</title>
+			<title code="0x00020012">AS_B    .MDT</title>
+			<title code="0x00020013">GS_B    .MDT</title>
+			<title code="0x00020014">JS_B    .MDT</title>
+			<title code="0x00020015">B_MODE_B.MDT</title>
+			<title code="0x00020016">MMD00B  .MDT</title>
+			<title code="0x0002001a">MMD04B  .MDT</title>
+			<title code="0x0002001b">MMD05B  .MDT</title>
+			<title code="0x0002001c">MMD06B  .MDT</title>
+			<title code="0x0002001d">MMD07B  .MDT</title>
+			<title code="0x0002001e">SETUP_B .MDT</title>
+			<title code="0x0002001f">PWIN_B  .MDT</title>
+			<title code="0x00020020">END1_B  .MDT</title>
+			<title code="0x00020021">END2_B  .MDT</title>
+			<title code="0x00020022">END3_B  .MDT</title>
+			<title code="0x00020023">END4_B  .MDT</title>
+			<title code="0x00020024">END5_B  .MDT</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] SWORD WORLD PC</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">T&amp;E SOFT</driveralias>
+		<driveralias type="PC-9801">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2108,7 +2108,7 @@
 	<game>
 		<name>[X1] HYDLIDE</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<romlist archive="x1hydlide">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0fe2">PROG</rom>
@@ -2122,7 +2122,7 @@
 	<game>
 		<name>[X1] Hydlide II - SHINE OF DARKNESS -</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0xfe00"/>
 			<option name="mdata_addr" value="0x0000"/>
@@ -2153,7 +2153,7 @@
 	<game>
 		<name>[X1] DAIVA - STORY III  TRIAL OF NIRVANA -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
@@ -2188,7 +2188,7 @@
 	<game>
 		<name>[X1] DAIVA - STORY III  TRIAL OF NIRVANA -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
@@ -2223,7 +2223,7 @@
 	<game>
 		<name>[X1] HYDLIDE 3 - THE SPACE MEMORIES -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<romlist archive="x1hyd3">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xf000">BIOS</rom>
@@ -2265,7 +2265,7 @@
 	<game>
 		<name>[X1] HYDLIDE 3 - THE SPACE MEMORIES -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<romlist archive="x1hyd3">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0xf000">BIOS</rom>
@@ -2307,7 +2307,7 @@
 	<game>
 		<name>[X1] SUPER LAYDOCK - MISSION STRIKER -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x6000"/>
@@ -2365,7 +2365,7 @@
 	<game>
 		<name>[X1] SUPER LAYDOCK - MISSION STRIKER -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x6000"/>
@@ -2418,7 +2418,7 @@
 	<game>
 		<name>[X1] PSY-O-BLADE(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2469,7 +2469,7 @@
 	<game>
 		<name>[X1] PSY-O-BLADE(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">T&amp;E SOFT</driveralias>
+		<driveralias type="X1">T&amp;E SOFT</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2524,7 +2524,7 @@
 	<game>
 		<name>[X68000] Rune Worth 黒衣の貴公子</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">T&amp;E SOFT</driveralias>
+		<driveralias type="X68000">T&amp;E SOFT</driveralias>
 		<romlist archive="rw68snd">
 			<rom type="code">rw68snd.bin</rom>
 			<rom type="x" offset="0x08000">MDRVX.X</rom>
@@ -2579,7 +2579,7 @@
 	<game>
 		<name>[X68000] 幻獣鬼</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">T&amp;E SOFT</driveralias>
+		<driveralias type="X68000">T&amp;E SOFT</driveralias>
 		<romlist archive="gjk68snd">
 			<rom type="code">gjk68snd.bin</rom>
 			<rom type="x" offset="0x08000">MDRVX.X</rom>
@@ -2631,7 +2631,7 @@
 	<game>
 		<name>[X68000] HYDLIDE 3 - THE SPACE MEMORIES -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">T&amp;E SOFT</driveralias>
+		<driveralias type="X68000">T&amp;E SOFT</driveralias>
 		<romlist archive="hyd368snd">
 			<rom type="code">hyd368snd.bin</rom>
 			<rom type="x" offset="0x40000">FILE20</rom>
@@ -2676,7 +2676,7 @@
 	<game>
 		<name>[X68000] 遥かなるオーガスタ</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">T&amp;E SOFT</driveralias>
+		<driveralias type="X68000">T&amp;E SOFT</driveralias>
 		<romlist archive="n3gaug68snd">
 			<rom type="code" offset="0x00000">aug68snd.bin</rom>
 			<rom type="x" offset="0x10000">MDRVXJ.X</rom>
@@ -2705,7 +2705,7 @@
 	<game>
 		<name>[X68000] EIGHT LAKES G.C.</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">T&amp;E SOFT</driveralias>
+		<driveralias type="X68000">T&amp;E SOFT</driveralias>
 		<romlist archive="n3g8lk68snd">
 			<rom type="code" offset="0x00000">aug68snd.bin</rom>
 			<rom type="x" offset="0x10000">MDRVXJ.X</rom>

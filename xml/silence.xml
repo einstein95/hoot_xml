@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] みにまむがいなろっく</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -60,15 +60,15 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">GAI1.M   : </title>
-			<title code="0x11">GAI2.M   : </title>
-			<title code="0x12">GAI3.M   : </title>
-			<title code="0x13">GAI4.M   : </title>
-			<title code="0x14">GAI6.M   : </title>
-			<title code="0x15">GAI8.M   : </title>
-			<title code="0x16">GAN20.M  : </title>
-			<title code="0x17">HEART.M  : </title>
-			<title code="0x18">PI.M     : </title>
+			<title code="0x10">GAI1.M</title>
+			<title code="0x11">GAI2.M</title>
+			<title code="0x12">GAI3.M</title>
+			<title code="0x13">GAI4.M</title>
+			<title code="0x14">GAI6.M</title>
+			<title code="0x15">GAI8.M</title>
+			<title code="0x16">GAN20.M</title>
+			<title code="0x17">HEART.M</title>
+			<title code="0x18">PI.M</title>
 			<range min="0x0801" max="0x0810" extcode="1">GASE.EFC : %2X</range>
 			<range min="0x0880" max="0x08bd" extcode="1">GASE.EFC : %2X</range>
 		</titlelist>
@@ -76,7 +76,7 @@
 	<game>
 		<name>[PC-9801] エキサイティングみるく 第1話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -119,7 +119,7 @@
 	<game>
 		<name>[PC-9801] エキサイティングみるく 第1話(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -162,7 +162,7 @@
 	<game>
 		<name>[PC-9801] エキサイティングみるく 第2話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -199,7 +199,7 @@
 	<game>
 		<name>[PC-9801] エキサイティングみるく 第2話(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -236,7 +236,7 @@
 	<game>
 		<name>[PC-9801] 機甲装神ヴァルカイザー(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -269,24 +269,24 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">VAL01.M  : </title>
-			<title code="0x11">VAL02.M  : </title>
-			<title code="0x12">VAL03.M  : </title>
-			<title code="0x13">VAL04.M  : </title>
-			<title code="0x14">VAL05.M  : </title>
-			<title code="0x15">VAL06.M  : </title>
-			<title code="0x16">VAL07.M  : </title>
-			<title code="0x17">VAL09.M  : </title>
-			<title code="0x18">VAL10.M  : </title>
-			<title code="0x19">VAL12.M  : </title>
-			<title code="0x1a">VAL13.M  : </title>
-			<title code="0x1b">VAL14.M  : </title>
-			<title code="0x1c">VAL15.M  : </title>
-			<title code="0x1d">VAL16.M  : </title>
-			<title code="0x1e">VAL17.M  : </title>
-			<title code="0x1f">VAL18.M  : </title>
-			<title code="0x20">AME.M    : </title>
-			<title code="0x21">KAMI.M   : </title>
+			<title code="0x10">VAL01.M</title>
+			<title code="0x11">VAL02.M</title>
+			<title code="0x12">VAL03.M</title>
+			<title code="0x13">VAL04.M</title>
+			<title code="0x14">VAL05.M</title>
+			<title code="0x15">VAL06.M</title>
+			<title code="0x16">VAL07.M</title>
+			<title code="0x17">VAL09.M</title>
+			<title code="0x18">VAL10.M</title>
+			<title code="0x19">VAL12.M</title>
+			<title code="0x1a">VAL13.M</title>
+			<title code="0x1b">VAL14.M</title>
+			<title code="0x1c">VAL15.M</title>
+			<title code="0x1d">VAL16.M</title>
+			<title code="0x1e">VAL17.M</title>
+			<title code="0x1f">VAL18.M</title>
+			<title code="0x20">AME.M</title>
+			<title code="0x21">KAMI.M</title>
 			<range min="0x0801" max="0x0816" extcode="1">GASE.EFC : %2X</range>
 			<range min="0x0880" max="0x08bd" extcode="1">GASE.EFC : %2X</range>
 		</titlelist>
@@ -294,7 +294,7 @@
 	<game>
 		<name>[PC-9801] 機甲装神ヴァルカイザー(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -346,7 +346,7 @@
 	<game>
 		<name>[PC-9801] 機甲装神ヴァルカイザー(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -398,7 +398,7 @@
 	<game>
 		<name>[PC-9801] 銀聖戦神ガイナロック</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -442,14 +442,14 @@
 			<title code="0x1c">GAN19.M  : Theme</title>
 			<title code="0x1d">GAN20.M  : The Universe</title>
 			<title code="0x1e">GAN21.M  : Turn-up</title>
-			<title code="0x1f">HEART.M  : </title>
+			<title code="0x1f">HEART.M</title>
 			<range min="0x0801" max="0x0810" extcode="0">GASE.EFC : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀聖戦神ガイナロック2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -473,17 +473,17 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">GYNA_1.M  : </title>
-			<title code="0x11">GYNA_2.M  : </title>
-			<title code="0x12">GYNA_3.M  : </title>
-			<title code="0x13">GYNA_4.M  : </title>
-			<title code="0x14">GYNA_6.M  : </title>
-			<title code="0x15">GYNA_9.M  : </title>
-			<title code="0x16">GYNA_10.M : </title>
-			<title code="0x17">GYNA_11.M : </title>
-			<title code="0x18">GYNA_12.M : </title>
-			<title code="0x19">GYNA_13.M : </title>
-			<title code="0x1A">GYNA_14.M : </title>
+			<title code="0x10">GYNA_1.M</title>
+			<title code="0x11">GYNA_2.M</title>
+			<title code="0x12">GYNA_3.M</title>
+			<title code="0x13">GYNA_4.M</title>
+			<title code="0x14">GYNA_6.M</title>
+			<title code="0x15">GYNA_9.M</title>
+			<title code="0x16">GYNA_10.M</title>
+			<title code="0x17">GYNA_11.M</title>
+			<title code="0x18">GYNA_12.M</title>
+			<title code="0x19">GYNA_13.M</title>
+			<title code="0x1A">GYNA_14.M</title>
 			<range min="0x0801" max="0x080f" extcode="1">GASE.EFC  : %2X</range>
 			<range min="0x0880" max="0x08bd" extcode="1">GASE.EFC  : %2X</range>
 		</titlelist>
@@ -491,7 +491,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第01話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -521,7 +521,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第02話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -547,13 +547,13 @@
 			<title code="0x13">LIME_04.FMX : THETA</title>
 			<title code="0x14">LIME_05.FMX : ライム変身</title>
 			<title code="0x15">LIME_06.FMX : WAITING SUMMER</title>
-			<title code="0x16">LIME_07.FMX : </title>
+			<title code="0x16">LIME_07.FMX</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第03話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -583,14 +583,14 @@
 			<title code="0x15">LIME_05B.FMX : ライム変身</title>
 			<title code="0x14">LIME_05.FMX  : ライム変身</title>
 			<title code="0x16">LIME_06.FMX  : WAITING SUMMER</title>
-			<title code="0x17">LIME_07.FMX  : </title>
+			<title code="0x17">LIME_07.FMX</title>
 			<title code="0x18">LIME_08.FMX  : Fell guilty</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第04話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -621,7 +621,7 @@
 			<title code="0x14">LIME_05.FMX  : ライム変身</title>
 			<title code="0x15">LIME_05B.FMX : ライム変身</title>
 			<title code="0x16">LIME_06.FMX  : WAITING SUMMER</title>
-			<title code="0x17">LIME_07.FMX  : </title>
+			<title code="0x17">LIME_07.FMX</title>
 			<title code="0x18">LIME_08.FMX  : Fell guilty</title>
 			<title code="0x19">LIME_09.FMX  : YOU-EN-CHI</title>
 		</titlelist>
@@ -629,7 +629,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第05話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -661,7 +661,7 @@
 			<title code="0x16">LIME_05B.FMX : ライム変身</title>
 			<title code="0x15">LIME_05.FMX  : ライム変身</title>
 			<title code="0x17">LIME_06.FMX  : WAITING SUMMER</title>
-			<title code="0x18">LIME_07.FMX  : </title>
+			<title code="0x18">LIME_07.FMX</title>
 			<title code="0x19">LIME_08.FMX  : Fell guilty</title>
 			<title code="0x1A">LIME_09.FMX  : YOU-EN-CHI</title>
 			<title code="0x1B">LIME_10.FMX  : No Right Turn</title>
@@ -670,7 +670,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第06話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -703,7 +703,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第07話</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -738,7 +738,7 @@
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第08話(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<romlist archive="lime_08_98">
 			<rom type="file" offset="-1">FMX.COM</rom>
 			<rom type="file" offset="-1">FMXPB.COM</rom>
@@ -769,13 +769,13 @@
 			<title code="0x17">LIME_14.FMB  : THROUGH THE CROWD</title>
 			<title code="0x18">LIME_16.FMB  : MIZUKI</title>
 			<title code="0x19">LIME_17.FMB  : Magician</title>
-			<title code="0x1A">LIME_EYE.FMB : </title>
+			<title code="0x1A">LIME_EYE.FMB</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第08話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -810,13 +810,13 @@
 			<title code="0x18">LIME_14.FMX  : THROUGH THE CROWD</title>
 			<title code="0x19">LIME_16.FMX  : MIZUKI</title>
 			<title code="0x1A">LIME_17.FMX  : Magician</title>
-			<title code="0x1C">LIME_EYE.FMX : </title>
+			<title code="0x1C">LIME_EYE.FMX</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第09話(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<romlist archive="lime_09_98">
 			<rom type="file" offset="-1">FMX.COM</rom>
 			<rom type="file" offset="-1">FMXPB.COM</rom>
@@ -847,13 +847,13 @@
 			<title code="0x17">LIME_17.FMB  : Magician</title>
 			<title code="0x18">LIME_18.FMB  : ココナ変身</title>
 			<title code="0x19">LIME_19.FMB  : Sadness</title>
-			<title code="0x1A">LIME_EYE.FMB : </title>
+			<title code="0x1A">LIME_EYE.FMB</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第09話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -888,13 +888,13 @@
 			<title code="0x17">LIME_17.FMX  : Magician</title>
 			<title code="0x18">LIME_18.FMX  : ココナ変身</title>
 			<title code="0x19">LIME_19.FMX  : Sadness</title>
-			<title code="0x1B">LIME_EYE.FMX : </title>
+			<title code="0x1B">LIME_EYE.FMX</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第10話(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<romlist archive="lime_10_98">
 			<rom type="file" offset="-1">FMX.COM</rom>
 			<rom type="file" offset="-1">FMXPB.COM</rom>
@@ -920,14 +920,14 @@
 			<title code="0x14">LIME_16.FMB  : MIZUKI</title>
 			<title code="0x15">LIME_17.FMB  : Magician</title>
 			<title code="0x16">LIME_20.FMB  : Hot Spring Resort</title>
-			<title code="0x17">LIME_EYE.FMB : </title>
-			<title code="0x18">TRAIN.FMB    : </title>
+			<title code="0x17">LIME_EYE.FMB</title>
+			<title code="0x18">TRAIN.FMB</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第10話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -957,14 +957,14 @@
 			<title code="0x14">LIME_16.FMX  : MIZUKI</title>
 			<title code="0x15">LIME_17.FMX  : Magician</title>
 			<title code="0x16">LIME_20.FMX  : Hot Spring Resort</title>
-			<title code="0x18">LIME_EYE.FMX : </title>
-			<title code="0x19">TRAIN.FMX    : </title>
+			<title code="0x18">LIME_EYE.FMX</title>
+			<title code="0x19">TRAIN.FMX</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第11話(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<romlist archive="lime_11_98">
 			<rom type="file" offset="-1">FMX.COM</rom>
 			<rom type="file" offset="-1">FMXPB.COM</rom>
@@ -989,13 +989,13 @@
 			<title code="0x14">LIME_16.FMB  : MIZUKI</title>
 			<title code="0x15">LIME_17.FMB  : Magician</title>
 			<title code="0x16">LIME_21.FMB  : Innocent Smile</title>
-			<title code="0x17">LIME_EYE.FMB : </title>
+			<title code="0x17">LIME_EYE.FMB</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第11話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1024,13 +1024,13 @@
 			<title code="0x14">LIME_16.FMX  : MIZUKI</title>
 			<title code="0x15">LIME_17.FMX  : Magician</title>
 			<title code="0x16">LIME_21.FMX  : Innocent Smile</title>
-			<title code="0x18">LIME_EYE.FMX : </title>
+			<title code="0x18">LIME_EYE.FMX</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第12話(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<romlist archive="lime_12_98">
 			<rom type="file" offset="-1">FMX.COM</rom>
 			<rom type="file" offset="-1">FMXPB.COM</rom>
@@ -1062,14 +1062,14 @@
 			<title code="0x18">LIME_22.FMB  : Vanishing</title>
 			<title code="0x19">LIME_23.FMB  : 蒼い光の中で</title>
 			<title code="0x1A">LIME_24.FMB  : Speed</title>
-			<title code="0x1B">LIME_EYE.FMB : </title>
-			<title code="0x10">BELL.FMB     : </title>
+			<title code="0x1B">LIME_EYE.FMB</title>
+			<title code="0x10">BELL.FMB</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第12話(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1104,14 +1104,14 @@
 			<title code="0x18">LIME_22.FM2  : Vanishing</title>
 			<title code="0x19">LIME_23.FM2  : 蒼い光の中で</title>
 			<title code="0x1A">LIME_24.FM2  : Speed</title>
-			<title code="0x1B">LIME_EYE.FM2 : </title>
-			<title code="0x10">BELL.FM2     : </title>
+			<title code="0x1B">LIME_EYE.FM2</title>
+			<title code="0x10">BELL.FM2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 宝魔ハンターライム 第12話(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">SILENCE</driveralias>
+		<driveralias type="PC-9801">SILENCE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1146,14 +1146,14 @@
 			<title code="0x18">LIME_22.FM2  : Vanishing</title>
 			<title code="0x19">LIME_23.FM2  : 蒼い光の中で</title>
 			<title code="0x1A">LIME_24.FM2  : Speed</title>
-			<title code="0x1B">LIME_EYE.FM2 : </title>
-			<title code="0x10">BELL.FM2     : </title>
+			<title code="0x1B">LIME_EYE.FM2</title>
+			<title code="0x10">BELL.FM2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第01話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1183,7 +1183,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第02話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1213,7 +1213,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第03話(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1245,7 +1245,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第03話(GS)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"  value="1"/>
 			<option name="midiout" value="1"/>
@@ -1263,7 +1263,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第04話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1299,7 +1299,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第05話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1337,7 +1337,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第06話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1371,7 +1371,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第07話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1423,7 +1423,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第08話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1479,7 +1479,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第09話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1537,7 +1537,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第10話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1593,7 +1593,7 @@
 			<title code="0x12">LIME17.M  : Magician</title>
 			<title code="0x13">LIME18.M  : ココナ変身</title>
 			<title code="0x14">LIME19.M  : Sadness</title>
-			<title code="0x15">LIME20.M  : </title>
+			<title code="0x15">LIME20.M</title>
 			<!--
 			<title code="0x16">APLLAU.M  : ライム変身</title>
 			  -->
@@ -1603,7 +1603,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第11話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1667,7 +1667,7 @@
 	<game>
 		<name>[X68000] 宝魔ハンターライム 第12話</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">SILENCE</driveralias>
+		<driveralias type="X68000">SILENCE</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>

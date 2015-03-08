@@ -260,7 +260,7 @@
 	<game>
 		<name>[X1] ロマンシア(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="opm_mix" value="0x0180"/>
@@ -286,7 +286,7 @@
 	<game>
 		<name>[X1] ロマンシア(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -362,7 +362,7 @@
 	<game>
 		<name>[X1] 太陽の神殿 - ASTEKA II -</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -2193,7 +2193,7 @@
 	<game>
 		<name>[X1] XANADU - Dragon Slayer II -</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x6000"/>
@@ -2221,7 +2221,7 @@
 	<game>
 		<name>[X1] XANADU Scenario II - the Resurrection of Dragon -</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 			<option name="mdata_size" value="0x3800"/>
@@ -2324,7 +2324,7 @@
 	<game>
 		<name>[X1] XANADU - Dragon Slayer II -(OPM改造版)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0000"/>
 			<option name="mdata_size" value="0x6000"/>
@@ -2353,7 +2353,7 @@
 	<game>
 		<name>[X1] XANADU Scenario II - the Resurrection of Dragon -(OPM改造版)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -2457,7 +2457,7 @@
 	<game>
 		<name>[X68000] Ys III - Wanderers From Ys -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Falcom</driveralias>
+		<driveralias type="X68000">Falcom</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xf0"/>
@@ -4190,7 +4190,7 @@
 			<title code="0x00000013">MUS116 : 皇帝との戦闘</title>
 			<title code="0x00000014">MUS117 : 突入(1)</title>
 			<title code="0x00000015">MUS118 : 戦士の笛</title>
-			<title code="0x00000016">MUS119 : </title>
+			<title code="0x00000016">MUS119</title>
 			<title code="0x00000017">MUS400 : 地底の城</title>
 			<title code="0x00000018">MUS401 : セリオスの出発</title>
 			<title code="0x00000019">MUS402 : 洞窟内</title>
@@ -4302,7 +4302,7 @@
 			<title code="0x00000013">MUS116 : 皇帝との戦闘</title>
 			<title code="0x00000014">MUS117 : 突入(1)</title>
 			<title code="0x00000015">MUS118 : 戦士の笛</title>
-			<title code="0x00000016">MUS119 : </title>
+			<title code="0x00000016">MUS119</title>
 			<title code="0x00000017">MUS400 : 地底の城</title>
 			<title code="0x00000018">MUS401 : セリオスの出発</title>
 			<title code="0x00000019">MUS402 : 洞窟内</title>
@@ -6702,7 +6702,7 @@
 			<title code="0x0f">SS099 : ファンファーレ</title>
 			<title code="0x0e">SS073 : SORCERIAN MAGAZINE / メインテーマ</title>
 			<title code="0x0d">SS072 : SORCERIAN MAGAZINE / ソーサリアン・ファンクラブ</title>
-			<title code="0x0a">SS030 : </title>
+			<title code="0x0a">SS030</title>
 		<!--	<title code="0x0b">SS031 : 灼熱のワナ         / マグマボイアルド</title> -->
 		<!--	<title code="0x0c">SS032 : 灼熱のワナ         / 火山</title> -->
 		</titlelist>
@@ -7466,7 +7466,7 @@
 			<title code="0x0f">SS099 : ファンファーレ</title>
 			<title code="0x0e">SS073 : SORCERIAN MAGAZINE / メインテーマ</title>
 			<title code="0x0d">SS072 : SORCERIAN MAGAZINE / ソーサリアン・ファンクラブ</title>
-			<title code="0x0a">SS030 : </title>
+			<title code="0x0a">SS030</title>
 		<!--	<title code="0x0b">SS031 : 灼熱のワナ         / マグマボイアルド</title> -->
 		<!--	<title code="0x0c">SS032 : 灼熱のワナ         / 火山</title> -->
 		</titlelist>
@@ -8288,13 +8288,13 @@
 			<title code="0x0a">ED212 : グロストス城</title>
 			<title code="0x0b">ED219 : SE</title>
 			<title code="0x0c">ED280 : ユーティリティー</title>
-			<title code="0x0d">ED290 : </title>
+			<title code="0x0d">ED290</title>
 			<title code="0x0e">ED291 : オープニング</title>
-			<title code="0x0f">ED292 : </title>
-			<title code="0x10">ED293 : </title>
-			<title code="0x11">ED294 : </title>
-			<title code="0x12">ED300 : </title>
-			<title code="0x13">ED301 : </title>
+			<title code="0x0f">ED292</title>
+			<title code="0x10">ED293</title>
+			<title code="0x11">ED294</title>
+			<title code="0x12">ED300</title>
+			<title code="0x13">ED301</title>
 			<title code="0x14">ED302 : 小さな英雄－ジュリオとクリスの大冒険－</title>
 		</titlelist>
 	</game>
@@ -8347,13 +8347,13 @@
 			<title code="0x0a">ED212 : グロストス城</title>
 			<title code="0x0b">ED219 : SE</title>
 			<title code="0x0c">ED280 : ユーティリティー</title>
-			<title code="0x0d">ED290 : </title>
+			<title code="0x0d">ED290</title>
 			<title code="0x0e">ED291 : オープニング</title>
-			<title code="0x0f">ED292 : </title>
-			<title code="0x10">ED293 : </title>
-			<title code="0x11">ED294 : </title>
-			<title code="0x12">ED300 : </title>
-			<title code="0x13">ED301 : </title>
+			<title code="0x0f">ED292</title>
+			<title code="0x10">ED293</title>
+			<title code="0x11">ED294</title>
+			<title code="0x12">ED300</title>
+			<title code="0x13">ED301</title>
 			<title code="0x14">ED302 : 小さな英雄－ジュリオとクリスの大冒険－</title>
 		</titlelist>
 	</game>
@@ -8406,13 +8406,13 @@
 			<title code="0x0a">ED212 : グロストス城</title>
 			<title code="0x0b">ED219 : SE</title>
 			<title code="0x0c">ED280 : ユーティリティー</title>
-			<title code="0x0d">ED290 : </title>
+			<title code="0x0d">ED290</title>
 			<title code="0x0e">ED291 : オープニング</title>
-			<title code="0x0f">ED292 : </title>
-			<title code="0x10">ED293 : </title>
-			<title code="0x11">ED294 : </title>
-			<title code="0x12">ED300 : </title>
-			<title code="0x13">ED301 : </title>
+			<title code="0x0f">ED292</title>
+			<title code="0x10">ED293</title>
+			<title code="0x11">ED294</title>
+			<title code="0x12">ED300</title>
+			<title code="0x13">ED301</title>
 			<title code="0x14">ED302 : 小さな英雄－ジュリオとクリスの大冒険－</title>
 		</titlelist>
 	</game>
@@ -8569,8 +8569,8 @@
 			<title code="44">08_162.DAT : HEROES</title>
 			<title code="45">08_163.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="46">08_164.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 		</titlelist>
 	</game>
@@ -8729,8 +8729,8 @@
 			<title code="44">08_162.DAT : HEROES</title>
 			<title code="45">08_163.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="46">08_164.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 		</titlelist>
 	</game>
@@ -8889,8 +8889,8 @@
 			<title code="44">08_162.DAT : HEROES</title>
 			<title code="45">08_163.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="46">08_164.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 		</titlelist>
 	</game>
@@ -9047,8 +9047,8 @@
 			<title code="73">14_019.DAT : 小さな英雄たち</title>
 			<title code="74">14_023.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="75">14_024.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 			<title code="44">08_162.DAT : HEROES</title>
 		</titlelist>
@@ -9208,8 +9208,8 @@
 			<title code="73">14_019.DAT : 小さな英雄たち</title>
 			<title code="74">14_023.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="75">14_024.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 			<title code="44">08_162.DAT : HEROES</title>
 		</titlelist>
@@ -9369,8 +9369,8 @@
 			<title code="73">14_019.DAT : 小さな英雄たち</title>
 			<title code="74">14_023.DAT : 小さな英雄 -冬の到来-</title>
 			<title code="75">14_024.DAT : ティラスイールの白き魔女</title>
-			<title code="3" >00_148.DAT : </title>
-			<title code="48">12_000.DAT : </title>
+			<title code="3" >00_148.DAT</title>
+			<title code="48">12_000.DAT</title>
 			<title code="43">08_161.DAT : 愛はきらめきのなかに -エンディングバージョン- (ループ部分)</title>
 			<title code="44">08_162.DAT : HEROES</title>
 		</titlelist>
@@ -10313,9 +10313,9 @@
 			<title code="41">BTOPN69.DAT : Mystic Dela</title>
 			<title code="28">BTOPN27.DAT : SE (Opening Logo)</title>
 			<title code="39">BTOPN63.DAT : DISKCOPY</title>
-			<title code="40">BTOPN67.DAT : </title>
-			<title code="51">BTOPN96.DAT : </title>
-			<title code="52">BTOPN97.DAT : </title>
+			<title code="40">BTOPN67.DAT</title>
+			<title code="51">BTOPN96.DAT</title>
+			<title code="52">BTOPN97.DAT</title>
 		</titlelist>
 	</game>
 	<game>
@@ -10418,9 +10418,9 @@
 			<title code="41">BTOPN69.DAT : Mystic Dela</title>
 			<title code="28">BTOPN27.DAT : SE (Opening Logo)</title>
 			<title code="39">BTOPN63.DAT : DISKCOPY</title>
-			<title code="40">BTOPN67.DAT : </title>
-			<title code="51">BTOPN96.DAT : </title>
-			<title code="52">BTOPN97.DAT : </title>
+			<title code="40">BTOPN67.DAT</title>
+			<title code="51">BTOPN96.DAT</title>
+			<title code="52">BTOPN97.DAT</title>
 		</titlelist>
 	</game>
 	<game>
@@ -10523,9 +10523,9 @@
 			<title code="41">BTOPN69.DAT : Mystic Dela</title>
 			<title code="28">BTOPN27.DAT : SE (Opening Logo)</title>
 			<title code="39">BTOPN63.DAT : DISKCOPY</title>
-			<title code="40">BTOPN67.DAT : </title>
-			<title code="51">BTOPN96.DAT : </title>
-			<title code="52">BTOPN97.DAT : </title>
+			<title code="40">BTOPN67.DAT</title>
+			<title code="51">BTOPN96.DAT</title>
+			<title code="52">BTOPN97.DAT</title>
 		</titlelist>
 	</game>
 	<game>
@@ -11924,7 +11924,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">BEPMU1 : First Step towards wars</title>
-			<title code="0x01">BEPMU2 : </title>
+			<title code="0x01">BEPMU2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -12448,7 +12448,7 @@
 			<title code="0x03">FM003.BIN : 表彰式</title>
 			<title code="0x04">FM004.BIN : タイトル</title>
 			<title code="0x05">FM005.BIN : メニュー</title>
-			<title code="0x06">FM006.BIN : </title>
+			<title code="0x06">FM006.BIN</title>
 			<title code="0x07">FM007.BIN : マップエディタ</title>
 			<title code="0x08">FM016.BIN : モナーク (通常)</title>
 			<title code="0x09">FM017.BIN : モナーク (勝利目前)</title>
@@ -12683,7 +12683,7 @@
 	<game>
 		<name>[X1] Ys - Ancient Ys Vanished Omen -</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="vdata_addr" value="0x4000"/>
@@ -12743,7 +12743,7 @@
 	<game>
 		<name>[X1] Ys II - Ancient Ys Vanished The Final Chapter -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="vdata_addr" value="0x0100"/>
@@ -12882,7 +12882,7 @@
 	<game>
 		<name>[X1] Ys II - Ancient Ys Vanished The Final Chapter -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="vdata_addr" value="0x0100"/>
@@ -13019,7 +13019,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (基本シナリオ)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13188,7 +13188,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13228,7 +13228,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13272,7 +13272,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13320,7 +13320,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13372,7 +13372,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13424,7 +13424,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13474,7 +13474,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン1)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13514,7 +13514,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン2)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13556,7 +13556,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン3)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13626,7 +13626,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン4)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13672,7 +13672,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン5)(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 			<option name="opm_mix"   value="0x110"/>
@@ -13730,7 +13730,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (基本シナリオ)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -13898,7 +13898,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ユーティリティVol.1)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -13937,7 +13937,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (追加シナリオVol.1)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -13980,7 +13980,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14027,7 +14027,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14078,7 +14078,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (宇宙からの訪問者)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14129,7 +14129,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (ギルガメッシュソーサリアン)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14178,7 +14178,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン1)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14217,7 +14217,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン2)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14258,7 +14258,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン3)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14327,7 +14327,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン4)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>
@@ -14372,7 +14372,7 @@
 	<game>
 		<name>[X1] SORCERIAN - Dragon Slayer V - (セレクテッドソーサリアン5)(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Falcom</driveralias>
+		<driveralias type="X1">Falcom</driveralias>
 		<options>
 			<option name="init_pc"   value="0xc000"/>
 		</options>

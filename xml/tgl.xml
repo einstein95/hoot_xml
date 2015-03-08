@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] EDGE(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="total_mix"   value="0x280"/>
@@ -105,7 +105,7 @@
 	<game>
 		<name>[PC-9801] EDGE(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -178,7 +178,7 @@
 	<game>
 		<name>[PC-9801] EDGE(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -251,7 +251,7 @@
 	<game>
 		<name>[PC-9801] EDGE(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -321,7 +321,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER(OPN)</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -396,13 +396,13 @@
 			<title code="0x00001a">BGMI.M  : 悲しみのバラード</title>
 			<title code="0x000010">BGM18.M : ソードダンサー音頭</title>
 			<title code="0x000011">BGM19.M : 逃げろ!!</title>
-			<title code="0x000006">BGM07.M : </title>
+			<title code="0x000006">BGM07.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] SWORD DANCER(MT-32)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -559,7 +559,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER(MT-32 Emulation)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -716,7 +716,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER(CM-64)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -873,7 +873,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1030,7 +1030,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1128,7 +1128,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1228,7 +1228,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1328,7 +1328,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号(CM-64)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1428,7 +1428,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1528,7 +1528,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号'93(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1572,7 +1572,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号'93(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1619,7 +1619,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号'93(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1666,7 +1666,7 @@
 	<game>
 		<name>[PC-9801] SWORD DANCER 増刊号'93(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1710,7 +1710,7 @@
 	<game>
 		<name>[PC-9801] あっぱれ伝 -伏龍の章-(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1751,42 +1751,42 @@
 			<rom type="shell" offset="0">tglfmp</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OR_00.MF2 : </title>
-			<title code="0x11">OR_01.MF2 : </title>
-			<title code="0x12">OR_02.MF2 : </title>
-			<title code="0x13">OR_03.MF2 : </title>
-			<title code="0x14">OR_04.MF2 : </title>
-			<title code="0x15">OR_05.MF2 : </title>
-			<title code="0x16">OR_06.MF2 : </title>
-			<title code="0x17">OR_07.MF2 : </title>
-			<title code="0x18">OR_08.MF2 : </title>
-			<title code="0x19">OR_09.MF2 : </title>
-			<title code="0x1a">OR_10.MF2 : </title>
-			<title code="0x1b">OR_11.MF2 : </title>
-			<title code="0x1c">OR_12.MF2 : </title>
-			<title code="0x1d">OR_13.MF2 : </title>
-			<title code="0x1e">OR_14.MF2 : </title>
-			<title code="0x1f">OR_15.MF2 : </title>
-			<title code="0x20">OR_16.MF2 : </title>
-			<title code="0x21">OR_17.MF2 : </title>
-			<title code="0x22">OR_18.MF2 : </title>
-			<title code="0x23">OR_19.MF2 : </title>
-			<title code="0x24">OR_20.MF2 : </title>
-			<title code="0x25">OR_21.MF2 : </title>
-			<title code="0x26">OR_22.MF2 : </title>
-			<title code="0x27">OR_23.MF2 : </title>
-			<title code="0x28">OR_24.MF2 : </title>
-			<title code="0x29">OR_25.MF2 : </title>
-			<title code="0x2a">OR_26.MF2 : </title>
-			<title code="0x2b">OR_27.MF2 : </title>
-			<title code="0x2c">OR_28.MF2 : </title>
-			<title code="0x2d">OR_29.MF2 : </title>
+			<title code="0x10">OR_00.MF2</title>
+			<title code="0x11">OR_01.MF2</title>
+			<title code="0x12">OR_02.MF2</title>
+			<title code="0x13">OR_03.MF2</title>
+			<title code="0x14">OR_04.MF2</title>
+			<title code="0x15">OR_05.MF2</title>
+			<title code="0x16">OR_06.MF2</title>
+			<title code="0x17">OR_07.MF2</title>
+			<title code="0x18">OR_08.MF2</title>
+			<title code="0x19">OR_09.MF2</title>
+			<title code="0x1a">OR_10.MF2</title>
+			<title code="0x1b">OR_11.MF2</title>
+			<title code="0x1c">OR_12.MF2</title>
+			<title code="0x1d">OR_13.MF2</title>
+			<title code="0x1e">OR_14.MF2</title>
+			<title code="0x1f">OR_15.MF2</title>
+			<title code="0x20">OR_16.MF2</title>
+			<title code="0x21">OR_17.MF2</title>
+			<title code="0x22">OR_18.MF2</title>
+			<title code="0x23">OR_19.MF2</title>
+			<title code="0x24">OR_20.MF2</title>
+			<title code="0x25">OR_21.MF2</title>
+			<title code="0x26">OR_22.MF2</title>
+			<title code="0x27">OR_23.MF2</title>
+			<title code="0x28">OR_24.MF2</title>
+			<title code="0x29">OR_25.MF2</title>
+			<title code="0x2a">OR_26.MF2</title>
+			<title code="0x2b">OR_27.MF2</title>
+			<title code="0x2c">OR_28.MF2</title>
+			<title code="0x2d">OR_29.MF2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] あっぱれ伝 -伏龍の章-(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1827,42 +1827,42 @@
 			<rom type="shell" offset="0">tglfmp</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OR_00.MFM : </title>
-			<title code="0x11">OR_01.MFM : </title>
-			<title code="0x12">OR_02.MFM : </title>
-			<title code="0x13">OR_03.MFM : </title>
-			<title code="0x14">OR_04.MFM : </title>
-			<title code="0x15">OR_05.MFM : </title>
-			<title code="0x16">OR_06.MFM : </title>
-			<title code="0x17">OR_07.MFM : </title>
-			<title code="0x18">OR_08.MFM : </title>
-			<title code="0x19">OR_09.MFM : </title>
-			<title code="0x1a">OR_10.MFM : </title>
-			<title code="0x1b">OR_11.MFM : </title>
-			<title code="0x1c">OR_12.MFM : </title>
-			<title code="0x1d">OR_13.MFM : </title>
-			<title code="0x1e">OR_14.MFM : </title>
-			<title code="0x1f">OR_15.MFM : </title>
-			<title code="0x20">OR_16.MFM : </title>
-			<title code="0x21">OR_17.MFM : </title>
-			<title code="0x22">OR_18.MFM : </title>
-			<title code="0x23">OR_19.MFM : </title>
-			<title code="0x24">OR_20.MFM : </title>
-			<title code="0x25">OR_21.MFM : </title>
-			<title code="0x26">OR_22.MFM : </title>
-			<title code="0x27">OR_23.MFM : </title>
-			<title code="0x28">OR_24.MFM : </title>
-			<title code="0x29">OR_25.MFM : </title>
-			<title code="0x2a">OR_26.MFM : </title>
-			<title code="0x2b">OR_27.MFM : </title>
-			<title code="0x2c">OR_28.MFM : </title>
-			<title code="0x2d">OR_29.MFM : </title>
+			<title code="0x10">OR_00.MFM</title>
+			<title code="0x11">OR_01.MFM</title>
+			<title code="0x12">OR_02.MFM</title>
+			<title code="0x13">OR_03.MFM</title>
+			<title code="0x14">OR_04.MFM</title>
+			<title code="0x15">OR_05.MFM</title>
+			<title code="0x16">OR_06.MFM</title>
+			<title code="0x17">OR_07.MFM</title>
+			<title code="0x18">OR_08.MFM</title>
+			<title code="0x19">OR_09.MFM</title>
+			<title code="0x1a">OR_10.MFM</title>
+			<title code="0x1b">OR_11.MFM</title>
+			<title code="0x1c">OR_12.MFM</title>
+			<title code="0x1d">OR_13.MFM</title>
+			<title code="0x1e">OR_14.MFM</title>
+			<title code="0x1f">OR_15.MFM</title>
+			<title code="0x20">OR_16.MFM</title>
+			<title code="0x21">OR_17.MFM</title>
+			<title code="0x22">OR_18.MFM</title>
+			<title code="0x23">OR_19.MFM</title>
+			<title code="0x24">OR_20.MFM</title>
+			<title code="0x25">OR_21.MFM</title>
+			<title code="0x26">OR_22.MFM</title>
+			<title code="0x27">OR_23.MFM</title>
+			<title code="0x28">OR_24.MFM</title>
+			<title code="0x29">OR_25.MFM</title>
+			<title code="0x2a">OR_26.MFM</title>
+			<title code="0x2b">OR_27.MFM</title>
+			<title code="0x2c">OR_28.MFM</title>
+			<title code="0x2d">OR_29.MFM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] あっぱれ伝 -伏龍の章-(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1905,42 +1905,42 @@
 			<rom type="shell" offset="0">tglfmp2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x020010">OR_00.MGS : </title>
-			<title code="0x020011">OR_01.MGS : </title>
-			<title code="0x020012">OR_02.MGS : </title>
-			<title code="0x020013">OR_03.MGS : </title>
-			<title code="0x020014">OR_04.MGS : </title>
-			<title code="0x020015">OR_05.MGS : </title>
-			<title code="0x020016">OR_06.MGS : </title>
-			<title code="0x020017">OR_07.MGS : </title>
-			<title code="0x020018">OR_08.MGS : </title>
-			<title code="0x020019">OR_09.MGS : </title>
-			<title code="0x02001a">OR_10.MGS : </title>
-			<title code="0x02001b">OR_11.MGS : </title>
-			<title code="0x02001c">OR_12.MGS : </title>
-			<title code="0x02001d">OR_13.MGS : </title>
-			<title code="0x02001e">OR_14.MGS : </title>
-			<title code="0x02001f">OR_15.MGS : </title>
-			<title code="0x020020">OR_16.MGS : </title>
-			<title code="0x020021">OR_17.MGS : </title>
-			<title code="0x020022">OR_18.MGS : </title>
-			<title code="0x020023">OR_19.MGS : </title>
-			<title code="0x020024">OR_20.MGS : </title>
-			<title code="0x020025">OR_21.MGS : </title>
-			<title code="0x020026">OR_22.MGS : </title>
-			<title code="0x020027">OR_23.MGS : </title>
-			<title code="0x020028">OR_24.MGS : </title>
-			<title code="0x020029">OR_25.MGS : </title>
-			<title code="0x02002a">OR_26.MGS : </title>
-			<title code="0x02002b">OR_27.MGS : </title>
-			<title code="0x02002c">OR_28.MGS : </title>
-			<title code="0x02002d">OR_29.MGS : </title>
+			<title code="0x020010">OR_00.MGS</title>
+			<title code="0x020011">OR_01.MGS</title>
+			<title code="0x020012">OR_02.MGS</title>
+			<title code="0x020013">OR_03.MGS</title>
+			<title code="0x020014">OR_04.MGS</title>
+			<title code="0x020015">OR_05.MGS</title>
+			<title code="0x020016">OR_06.MGS</title>
+			<title code="0x020017">OR_07.MGS</title>
+			<title code="0x020018">OR_08.MGS</title>
+			<title code="0x020019">OR_09.MGS</title>
+			<title code="0x02001a">OR_10.MGS</title>
+			<title code="0x02001b">OR_11.MGS</title>
+			<title code="0x02001c">OR_12.MGS</title>
+			<title code="0x02001d">OR_13.MGS</title>
+			<title code="0x02001e">OR_14.MGS</title>
+			<title code="0x02001f">OR_15.MGS</title>
+			<title code="0x020020">OR_16.MGS</title>
+			<title code="0x020021">OR_17.MGS</title>
+			<title code="0x020022">OR_18.MGS</title>
+			<title code="0x020023">OR_19.MGS</title>
+			<title code="0x020024">OR_20.MGS</title>
+			<title code="0x020025">OR_21.MGS</title>
+			<title code="0x020026">OR_22.MGS</title>
+			<title code="0x020027">OR_23.MGS</title>
+			<title code="0x020028">OR_24.MGS</title>
+			<title code="0x020029">OR_25.MGS</title>
+			<title code="0x02002a">OR_26.MGS</title>
+			<title code="0x02002b">OR_27.MGS</title>
+			<title code="0x02002c">OR_28.MGS</title>
+			<title code="0x02002d">OR_29.MGS</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ソードダンサー 凶刃の女神(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="10"/>
@@ -2006,7 +2006,7 @@
 	<game>
 		<name>[PC-9801] ソードダンサー 凶刃の女神(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="10"/>
@@ -2072,7 +2072,7 @@
 	<game>
 		<name>[PC-9801] ソードダンサー 凶刃の女神(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2138,7 +2138,7 @@
 	<game>
 		<name>[PC-9801] ソードダンサー 凶刃の女神(SC-88)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2204,7 +2204,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2256,7 +2256,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2308,7 +2308,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2363,7 +2363,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2418,7 +2418,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2472,7 +2472,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー伝記 アーク王の遠征(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2516,7 +2516,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー伝記 アーク王の遠征(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2560,7 +2560,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー伝記 アーク王の遠征(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2606,7 +2606,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 天使の涙(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2664,7 +2664,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 天使の涙(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2722,7 +2722,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 天使の涙(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2782,7 +2782,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 白銀の翼(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2840,7 +2840,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 白銀の翼(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2898,7 +2898,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 白銀の翼(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2958,7 +2958,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 大地の絆(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3014,7 +3014,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 大地の絆(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3070,7 +3070,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 大地の絆(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -3128,7 +3128,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 神々の遺産(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3194,7 +3194,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 神々の遺産(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3260,7 +3260,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 神々の遺産(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -3328,7 +3328,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 獣王の証(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3402,7 +3402,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 獣王の証(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3476,7 +3476,7 @@
 	<game>
 		<name>[PC-9801] ファーランドストーリー 獣王の証(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -3552,7 +3552,7 @@
 	<game>
 		<name>[PC-9801] 機装神伝ゲンカイザー(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="10"/>
@@ -3612,7 +3612,7 @@
 	<game>
 		<name>[PC-9801] 機装神伝ゲンカイザー(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix"   value="10"/>
@@ -3672,7 +3672,7 @@
 	<game>
 		<name>[PC-9801] 機装神伝ゲンカイザー(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">TGL</driveralias>
+		<driveralias type="PC-9801">TGL</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>

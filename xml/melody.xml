@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //Melody -->
 	<game>
-		<name>[PC-9801] NIGHT SLAVE(OPN)</name>
+		<name>[PC-9801] Night Slave (ナイトスレイブ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="funcvect" value="0x70"/>
 			<option name="clockmul" value="8"/>
@@ -311,7 +311,7 @@
 			<rom type="shell" offset="0">usmd</rom>
 		</romlist>
 		<titlelist>
-<!-- SSGバランス内蔵用
+<!-- Internal SSG Balance (SSGバランス内蔵用)
 			<title code="0x12">MELODY.USO</title>
 			<title code="0x14">NSA00.USO</title>
 			<title code="0x16">NSA01.USO</title>
@@ -377,77 +377,77 @@
 			<title code="0x8E">NSSE79.USO</title>
 			<title code="0x90">NSX00A.USO</title>
 -->
-		<!--	<title code="0x10">OFF.USO      : [STOP]</title> -->
-			<title code="0x13">MELODYV.USO  : MELODY (LOGO)</title>
-			<title code="0x15">NSA00V.USO   : INITIAL VELOCITY (STG1A)</title>
-			<title code="0x17">NSA01V.USO   : HARD RUSHING (STG2)</title>
-			<title code="0x19">NSA02V.USO   : STORMY EDGE (STG3A)</title>
-			<title code="0x1B">NSA03V.USO   : INCREMENT (BOSS)</title>
-			<title code="0x1D">NSA04V.USO   : LAYERED NIGHT (STG5)</title>
-			<title code="0x1F">NSA05V.USO   : BOTTOM SWWP (STG6)</title>
-			<title code="0x21">NSA06V.USO   : TRAP CELLAR (STG7)</title>
-			<title code="0x23">NSA07V.USO   : MISSING SPACE (STG8)</title>
-			<title code="0x25">NSA08V.USO   : FROSTY BOUND (STG4A)</title>
-			<title code="0x27">NSA09V.USO   : SENSITIVE MOMENT (STG3B/STG1B)</title>
-			<title code="0x29">NSA10V.USO   : TURN OVER (STG4B)</title>
-			<title code="0x2C">NSA11AV.USO  : EMERGENCY!! (EMERGENCY)</title>
-			<title code="0x2F">NSB00V.USO   : RISKY TUNE (BOSS)</title>
-			<title code="0x31">NSB01V.USO   : CONFUSION! (BOSS)</title>
-			<title code="0x33">NSB02V.USO   : FLARE-UP (BOSS)</title>
-			<title code="0x35">NSB03V.USO   : PRETENDER (BOSS)</title>
-			<title code="0x37">NSB04V.USO   : UNCONSCIOUS DANGER (BOSS)</title>
-			<title code="0x39">NSB05V.USO   : GET AWAY (BOSS)</title>
-			<title code="0x3B">NSB06V.USO   : SILENT GUILTY (LAST_BOSS1)</title>
-			<title code="0x3D">NSB07V.USO   : DEPTH (LAST_BOSS2)</title>
-			<title code="0x3F">NSC00V.USO   : COCKPIT (COCKPIT)</title>
-			<title code="0x41">NSC01V.USO   : GO AHEAD! (STAGE CLEAR)</title>
-			<title code="0x43">NSC02V.USO   : SO BAD! (MISSION FAILED)</title>
-			<title code="0x45">NSC03V.USO   : NEVER MIND! (GAME OVER)</title>
-			<title code="0x47">NSC04V.USO   : PREP (CONFIGURATION)</title>
-			<title code="0x49">NSC05V.USO   : NEXT! (MISSION END)</title>
-			<title code="0x4B">NSO00V.USO   : OVERBLOW (TITLE)</title>
-			<title code="0x4D">NSO01V.USO   : NIGHT SLAVE (DEMO)</title>
-			<title code="0x4F">NSS00V.USO   : OBBLIGATO (PROLOGUE)</title>
-			<title code="0x51">NSS01V.USO   : STEEL FOX (STANDARD1)</title>
-			<title code="0x53">NSS02V.USO   : STEADY NOTE</title>
-			<title code="0x55">NSS03V.USO   : WAR OF NERVES</title>
-			<title code="0x57">NSS04V.USO   : SHAKEDOWN</title>
-			<title code="0x59">NSS05V.USO   : SLAVE DOG</title>
-			<title code="0x5B">NSS06V.USO   : RELAXATION</title>
-			<title code="0x5D">NSS07V.USO   : ASSIGNMENT (STANDARD2)</title>
-			<title code="0x5F">NSS08V.USO   : TO TOUR HEART (CHIHO)</title>
-			<title code="0x61">NSS09V.USO   : DESTINY</title>
-			<title code="0x63">NSS10V.USO   : BESIDE ME</title>
-			<title code="0x65">NSS11V.USO   : UNITY</title>
-			<title code="0x67">NSS12V.USO   : SO FAR AWAY (ENDING)</title>
-			<title code="0x2D">NSA11V.USO   : SE</title>
-			<title code="0x69">NSS14V.USO   : SE</title>
-			<title code="0x6B">NSS15V.USO   : SE</title>
-			<title code="0x6D">NSS16V.USO   : SE</title>
-			<title code="0x6F">NSSE01V.USO  : SE</title>
-			<title code="0x71">NSSE02V.USO  : SE</title>
-			<title code="0x73">NSSE03V.USO  : SE</title>
-			<title code="0x75">NSSE04V.USO  : SE</title>
-			<title code="0x77">NSSE05V.USO  : SE</title>
-			<title code="0x79">NSSE06V.USO  : SE</title>
-			<title code="0x7B">NSSE07V.USO  : SE</title>
-			<title code="0x7D">NSSE08V.USO  : SE</title>
-			<title code="0x7F">NSSE09V.USO  : SE</title>
-			<title code="0x81">NSSE10V.USO  : SE</title>
-			<title code="0x83">NSSE11V.USO  : SE</title>
-			<title code="0x85">NSSE200V.USO : SE</title>
-			<title code="0x87">NSSE201V.USO : SE</title>
-			<title code="0x89">NSSE30V.USO  : SE</title>
-			<title code="0x8B">NSSE46V.USO  : SE</title>
-			<title code="0x8D">NSSE50V.USO  : SE</title>
-			<title code="0x8F">NSSE79V.USO  : SE</title>
-			<title code="0x91">NSX00AV.USO  : SE</title>
+		<!--	<title code="0x10">[STOP]</title> -->
+			<title code="0x13">Melody Logo</title>
+			<title code="0x15">Initial Velocity (Stage 1A)</title>
+			<title code="0x17">Hard Rushing (Stage 2)</title>
+			<title code="0x19">Stormy Edge (Stage 3A)</title>
+			<title code="0x1b">Increment (Boss)</title>
+			<title code="0x1d">Layered Night (Stage 5)</title>
+			<title code="0x1f">Bottom Sweep (Stage 6)</title>
+			<title code="0x21">Trap Cellar (Stage 7)</title>
+			<title code="0x23">Missing Space (Stage 8)</title>
+			<title code="0x25">Frosty Bound (Stage 4A)</title>
+			<title code="0x27">Sensitive Moment (Stage 1B/3B)</title>
+			<title code="0x29">Turn Over (Stage 4B)</title>
+			<title code="0x2c">Emergency!! (Emergency)</title>
+			<title code="0x2f">Risky Tune (Boss)</title>
+			<title code="0x31">Confusion! (Boss)</title>
+			<title code="0x33">Flare-Up (Boss)</title>
+			<title code="0x35">Pretender (Boss)</title>
+			<title code="0x37">Unconscious Danger (Boss)</title>
+			<title code="0x39">Get Away (Boss)</title>
+			<title code="0x3b">Silent Guilty (Last Boss 1)</title>
+			<title code="0x3d">Depth (Last Boss 2)</title>
+			<title code="0x3f">Cockpit (Cockpit)</title>
+			<title code="0x41">Go Ahead! (Stage Clear)</title>
+			<title code="0x43">So Bad! (Mission Failed)</title>
+			<title code="0x45">Never Mind! (Game Over)</title>
+			<title code="0x47">Prep (Configuration)</title>
+			<title code="0x49">Next! (Mission End)</title>
+			<title code="0x4b">Overblow (Title)</title>
+			<title code="0x4d">Night Slave (Demo)</title>
+			<title code="0x4f">Obbligato (Prologue)</title>
+			<title code="0x51">Steel Fox (Standard 1)</title>
+			<title code="0x53">Steady Note</title>
+			<title code="0x55">War of Nerves</title>
+			<title code="0x57">Shakedown</title>
+			<title code="0x59">Slave Dog</title>
+			<title code="0x5b">Relaxation</title>
+			<title code="0x5d">Assignment (Standard 2)</title>
+			<title code="0x5f">To Your Heart (Chiho)</title>
+			<title code="0x61">Destiny</title>
+			<title code="0x63">Beside Me</title>
+			<title code="0x65">Unity</title>
+			<title code="0x67">So Far Away (Ending)</title>
+			<title code="0x2d">NSA11V.USO</title>
+			<title code="0x69">NSS14V.USO</title>
+			<title code="0x6b">NSS15V.USO</title>
+			<title code="0x6d">NSS16V.USO</title>
+			<title code="0x6f">NSSE01V.USO</title>
+			<title code="0x71">NSSE02V.USO</title>
+			<title code="0x73">NSSE03V.USO</title>
+			<title code="0x75">NSSE04V.USO</title>
+			<title code="0x77">NSSE05V.USO</title>
+			<title code="0x79">NSSE06V.USO</title>
+			<title code="0x7b">NSSE07V.USO</title>
+			<title code="0x7d">NSSE08V.USO</title>
+			<title code="0x7f">NSSE09V.USO</title>
+			<title code="0x81">NSSE10V.USO</title>
+			<title code="0x83">NSSE11V.USO</title>
+			<title code="0x85">NSSE200V.USO</title>
+			<title code="0x87">NSSE201V.USO</title>
+			<title code="0x89">NSSE30V.USO</title>
+			<title code="0x8b">NSSE46V.USO</title>
+			<title code="0x8d">NSSE50V.USO</title>
+			<title code="0x8f">NSSE79V.USO</title>
+			<title code="0x91">NSX00AV.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] NIGHT SLAVE(GS)</name>
+		<name>[PC-9801] Night Slave (ナイトスレイブ) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -510,62 +510,180 @@
 			<rom type="shell" offset="0">mfd_98</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x41">OFF.MFD     : [STOP]</title> -->
-			<title code="0x10">MELODY.MFD  : MELODY (LOGO)</title>
-			<title code="0x11">NSA00.MFD   : INITIAL VELOCITY (STG1A)</title>
-			<title code="0x12">NSA01.MFD   : HARD RUSHING (STG2)</title>
-			<title code="0x13">NSA02.MFD   : STORMY EDGE (STG3A)</title>
-			<title code="0x14">NSA03.MFD   : INCREMENT (BOSS)</title>
-			<title code="0x15">NSA04.MFD   : LAYERED NIGHT (STG5)</title>
-			<title code="0x16">NSA05.MFD   : BOTTOM SWWP (STG6)</title>
-			<title code="0x17">NSA06.MFD   : TRAP CELLAR (STG7)</title>
-			<title code="0x18">NSA07.MFD   : MISSING SPACE (STG8)</title>
-			<title code="0x19">NSA08.MFD   : FROSTY BOUND (STG4A)</title>
-			<title code="0x1a">NSA09.MFD   : SENSITIVE MOMENT (STG3B/STG1B)</title>
-			<title code="0x1b">NSA10.MFD   : TURN OVER (STG4B)</title>
-			<title code="0x1d">NSA11A.MFD  : EMERGENCY!! (EMERGENCY)</title>
-			<title code="0x1e">NSB00.MFD   : RISKY TUNE (BOSS)</title>
-			<title code="0x1f">NSB01.MFD   : CONFUSION! (BOSS)</title>
-			<title code="0x20">NSB02.MFD   : FLARE-UP (BOSS)</title>
-			<title code="0x21">NSB03.MFD   : PRETENDER (BOSS)</title>
-			<title code="0x22">NSB04.MFD   : UNCONSCIOUS DANGER (BOSS)</title>
-			<title code="0x23">NSB05.MFD   : GET AWAY (BOSS)</title>
-			<title code="0x24">NSB06.MFD   : SILENT GUILTY (LAST_BOSS1)</title>
-			<title code="0x25">NSB07.MFD   : DEPTH (LAST_BOSS2)</title>
-			<title code="0x26">NSC00.MFD   : COCKPIT (COCKPIT)</title>
-			<title code="0x27">NSC01.MFD   : GO AHEAD! (STAGE CLEAR)</title>
-			<title code="0x28">NSC02.MFD   : SO BAD! (MISSION FAILED)</title>
-			<title code="0x29">NSC03.MFD   : NEVER MIND! (GAME OVER)</title>
-			<title code="0x2a">NSC04.MFD   : PREP (CONFIGURATION)</title>
-			<title code="0x2b">NSC05.MFD   : NEXT! (MISSION END)</title>
-			<title code="0x2c">NSO00.MFD   : OVERBLOW (TITLE)</title>
-			<title code="0x2d">NSO01.MFD   : NIGHT SLAVE (DEMO)</title>
-			<title code="0x2e">NSS00.MFD   : OBBLIGATO (PROLOGUE)</title>
-			<title code="0x2f">NSS01.MFD   : STEEL FOX (STANDARD1)</title>
-			<title code="0x30">NSS02.MFD   : STEADY NOTE</title>
-			<title code="0x31">NSS03.MFD   : WAR OF NERVES</title>
-			<title code="0x32">NSS04.MFD   : SHAKEDOWN</title>
-			<title code="0x33">NSS05.MFD   : SLAVE DOG</title>
-			<title code="0x34">NSS06.MFD   : RELAXATION</title>
-			<title code="0x35">NSS07.MFD   : ASSIGNMENT (STANDARD2)</title>
-			<title code="0x36">NSS08.MFD   : TO TOUR HEART (CHIHO)</title>
-			<title code="0x37">NSS09.MFD   : DESTINY</title>
-			<title code="0x38">NSS10.MFD   : BESIDE ME</title>
-			<title code="0x39">NSS11.MFD   : UNITY</title>
-			<title code="0x3a">NSS12.MFD   : SO FAR AWAY (ENDING)</title>
-			<title code="0x1c">NSA11.MFD   : SE</title>
-			<title code="0x3b">NSS14.MFD   : SE</title>
-			<title code="0x3c">NSS15.MFD   : SE</title>
-			<title code="0x3d">NSS16.MFD   : SE</title>
-			<title code="0x3e">NSSE200.MFD : SE</title>
-			<title code="0x3f">NSSE201.MFD : SE</title>
-			<title code="0x40">NSX00A.MFD  : SE</title>
+		<!--	<title code="0x41">[STOP]</title> -->
+			<title code="0x10">Melody Logo</title>
+			<title code="0x11">Initial Velocity (Stage 1A)</title>
+			<title code="0x12">Hard Rushing (Stage 2)</title>
+			<title code="0x13">Ormy Edge (Stage 3A)</title>
+			<title code="0x14">Increment (Boss)</title>
+			<title code="0x15">Layered Night (Stage 5)</title>
+			<title code="0x16">Bottom Sweep (Stage 6)</title>
+			<title code="0x17">Trap Cellar (Stage 7)</title>
+			<title code="0x18">Missing Space (Stage 8)</title>
+			<title code="0x19">Frosty Bound (Stage 4A)</title>
+			<title code="0x1a">Sensitive Moment (Stage 1B/3B)</title>
+			<title code="0x1b">Turn Over (Stage 4B)</title>
+			<title code="0x1d">Emergency!! (Emergency)</title>
+			<title code="0x1e">Risky Tune (Boss)</title>
+			<title code="0x1f">Confusion! (Boss)</title>
+			<title code="0x20">Flare-Up (Boss)</title>
+			<title code="0x21">Pretender (Boss)</title>
+			<title code="0x22">Unconscious Danger (Boss)</title>
+			<title code="0x23">Get Away (Boss)</title>
+			<title code="0x24">Silent Guilty (Last Boss 1)</title>
+			<title code="0x25">Depth (Last Boss 2)</title>
+			<title code="0x26">Cockpit (Cockpit)</title>
+			<title code="0x27">Go Ahead! (Stage Clear)</title>
+			<title code="0x28">So Bad! (Mission Failed)</title>
+			<title code="0x29">Never Mind! (Game Over)</title>
+			<title code="0x2a">Prep (Configuration)</title>
+			<title code="0x2b">Next! (Mission End)</title>
+			<title code="0x2c">Overblow (Title)</title>
+			<title code="0x2d">Night Slave (Demo)</title>
+			<title code="0x2e">Obbligato (Prologue)</title>
+			<title code="0x2f">Steel Fox (Standard 1)</title>
+			<title code="0x30">Steady Note</title>
+			<title code="0x31">War of Nerves</title>
+			<title code="0x32">Shakedown</title>
+			<title code="0x33">Slave Dog</title>
+			<title code="0x34">Relaxation</title>
+			<title code="0x35">Assignment (Standard 2)</title>
+			<title code="0x36">To Your Heart (Chiho)</title>
+			<title code="0x37">Destiny</title>
+			<title code="0x38">Beside Me</title>
+			<title code="0x39">Unity</title>
+			<title code="0x3a">So Far Away (Ending)</title>
+			<title code="0x1c">NSA11.MFD</title>
+			<title code="0x3b">NSS14.MFD</title>
+			<title code="0x3c">NSS15.MFD</title>
+			<title code="0x3d">NSS16.MFD</title>
+			<title code="0x3e">NSSE200.MFD</title>
+			<title code="0x3f">NSSE201.MFD</title>
+			<title code="0x40">NSX00A.MFD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 暗闇(OPN)</name>
+		<name>[PC-9801] Night Slave (ナイトスレイブ) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Melody</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="night_s_98">
+			<rom type="file" offset="-1">MFD.COM</rom>
+			<rom type="file" offset="-1">MFD_98.COM</rom>
+			<rom type="file" offset="0x10">MELODY.MFD</rom>
+			<rom type="file" offset="0x11">NSA00.MFD</rom>
+			<rom type="file" offset="0x12">NSA01.MFD</rom>
+			<rom type="file" offset="0x13">NSA02.MFD</rom>
+			<rom type="file" offset="0x14">NSA03.MFD</rom>
+			<rom type="file" offset="0x15">NSA04.MFD</rom>
+			<rom type="file" offset="0x16">NSA05.MFD</rom>
+			<rom type="file" offset="0x17">NSA06.MFD</rom>
+			<rom type="file" offset="0x18">NSA07.MFD</rom>
+			<rom type="file" offset="0x19">NSA08.MFD</rom>
+			<rom type="file" offset="0x1a">NSA09.MFD</rom>
+			<rom type="file" offset="0x1b">NSA10.MFD</rom>
+			<rom type="file" offset="0x1c">NSA11.MFD</rom>
+			<rom type="file" offset="0x1d">NSA11A.MFD</rom>
+			<rom type="file" offset="0x1e">NSB00.MFD</rom>
+			<rom type="file" offset="0x1f">NSB01.MFD</rom>
+			<rom type="file" offset="0x20">NSB02.MFD</rom>
+			<rom type="file" offset="0x21">NSB03.MFD</rom>
+			<rom type="file" offset="0x22">NSB04.MFD</rom>
+			<rom type="file" offset="0x23">NSB05.MFD</rom>
+			<rom type="file" offset="0x24">NSB06.MFD</rom>
+			<rom type="file" offset="0x25">NSB07.MFD</rom>
+			<rom type="file" offset="0x26">NSC00.MFD</rom>
+			<rom type="file" offset="0x27">NSC01.MFD</rom>
+			<rom type="file" offset="0x28">NSC02.MFD</rom>
+			<rom type="file" offset="0x29">NSC03.MFD</rom>
+			<rom type="file" offset="0x2a">NSC04.MFD</rom>
+			<rom type="file" offset="0x2b">NSC05.MFD</rom>
+			<rom type="file" offset="0x2c">NSO00.MFD</rom>
+			<rom type="file" offset="0x2d">NSO01.MFD</rom>
+			<rom type="file" offset="0x2e">NSS00.MFD</rom>
+			<rom type="file" offset="0x2f">NSS01.MFD</rom>
+			<rom type="file" offset="0x30">NSS02.MFD</rom>
+			<rom type="file" offset="0x31">NSS03.MFD</rom>
+			<rom type="file" offset="0x32">NSS04.MFD</rom>
+			<rom type="file" offset="0x33">NSS05.MFD</rom>
+			<rom type="file" offset="0x34">NSS06.MFD</rom>
+			<rom type="file" offset="0x35">NSS07.MFD</rom>
+			<rom type="file" offset="0x36">NSS08.MFD</rom>
+			<rom type="file" offset="0x37">NSS09.MFD</rom>
+			<rom type="file" offset="0x38">NSS10.MFD</rom>
+			<rom type="file" offset="0x39">NSS11.MFD</rom>
+			<rom type="file" offset="0x3a">NSS12.MFD</rom>
+			<rom type="file" offset="0x3b">NSS14.MFD</rom>
+			<rom type="file" offset="0x3c">NSS15.MFD</rom>
+			<rom type="file" offset="0x3d">NSS16.MFD</rom>
+			<rom type="file" offset="0x3e">NSSE200.MFD</rom>
+			<rom type="file" offset="0x3f">NSSE201.MFD</rom>
+			<rom type="file" offset="0x40">NSX00A.MFD</rom>
+			<rom type="file" offset="0x41">OFF.MFD</rom>
+			<rom type="shell" offset="0">mfd</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x41">[STOP]</title> -->
+			<title code="0x10">Melody Logo</title>
+			<title code="0x11">Initial Velocity (Stage 1A)</title>
+			<title code="0x12">Hard Rushing (Stage 2)</title>
+			<title code="0x13">Ormy Edge (Stage 3A)</title>
+			<title code="0x14">Increment (Boss)</title>
+			<title code="0x15">Layered Night (Stage 5)</title>
+			<title code="0x16">Bottom Sweep (Stage 6)</title>
+			<title code="0x17">Trap Cellar (Stage 7)</title>
+			<title code="0x18">Missing Space (Stage 8)</title>
+			<title code="0x19">Frosty Bound (Stage 4A)</title>
+			<title code="0x1a">Sensitive Moment (Stage 1B/3B)</title>
+			<title code="0x1b">Turn Over (Stage 4B)</title>
+			<title code="0x1d">Emergency!! (Emergency)</title>
+			<title code="0x1e">Risky Tune (Boss)</title>
+			<title code="0x1f">Confusion! (Boss)</title>
+			<title code="0x20">Flare-Up (Boss)</title>
+			<title code="0x21">Pretender (Boss)</title>
+			<title code="0x22">Unconscious Danger (Boss)</title>
+			<title code="0x23">Get Away (Boss)</title>
+			<title code="0x24">Silent Guilty (Last Boss 1)</title>
+			<title code="0x25">Depth (Last Boss 2)</title>
+			<title code="0x26">Cockpit (Cockpit)</title>
+			<title code="0x27">Go Ahead! (Stage Clear)</title>
+			<title code="0x28">So Bad! (Mission Failed)</title>
+			<title code="0x29">Never Mind! (Game Over)</title>
+			<title code="0x2a">Prep (Configuration)</title>
+			<title code="0x2b">Next! (Mission End)</title>
+			<title code="0x2c">Overblow (Title)</title>
+			<title code="0x2d">Night Slave (Demo)</title>
+			<title code="0x2e">Obbligato (Prologue)</title>
+			<title code="0x2f">Steel Fox (Standard 1)</title>
+			<title code="0x30">Steady Note</title>
+			<title code="0x31">War of Nerves</title>
+			<title code="0x32">Shakedown</title>
+			<title code="0x33">Slave Dog</title>
+			<title code="0x34">Relaxation</title>
+			<title code="0x35">Assignment (Standard 2)</title>
+			<title code="0x36">To Your Heart (Chiho)</title>
+			<title code="0x37">Destiny</title>
+			<title code="0x38">Beside Me</title>
+			<title code="0x39">Unity</title>
+			<title code="0x3a">So Far Away (Ending)</title>
+			<title code="0x1c">NSA11.MFD</title>
+			<title code="0x3b">NSS14.MFD</title>
+			<title code="0x3c">NSS15.MFD</title>
+			<title code="0x3d">NSS16.MFD</title>
+			<title code="0x3e">NSSE200.MFD</title>
+			<title code="0x3f">NSSE201.MFD</title>
+			<title code="0x40">NSX00A.MFD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kurayami (暗闇) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="funcvect" value="0x70"/>
 			<option name="clockmul" value="8"/>
@@ -675,61 +793,61 @@
 			<rom type="shell" offset="0">usmd</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x10">OFF.USO    : [STOP]</title> -->
-			<title code="0x11">MELODY.USO : Melody</title>
-			<title code="0x13">YM00.USO   : 暗闇</title>
-			<title code="0x1C">YM05.USO   : 不安</title>
-			<title code="0x20">YM08.USO   : 過去との再開</title>
-			<title code="0x24">YM13.USO   : 暗闇の殺意</title>
-			<title code="0x28">YM17.USO   : 彼女の真実</title>
-			<title code="0x2F">YM27.USO   : 勇気</title>
-			<title code="0x2D">YM24.USO   : トワイライト</title>
-			<title code="0x25">YM13A.USO  : 死の足音</title>
-			<title code="0x26">YM14.USO   : 脱出への賭け</title>
-			<title code="0x16">YM01.USO   : 街の賑わい</title>
-			<title code="0x1E">YM06.USO   : 黒い欲望</title>
-			<title code="0x21">YM09.USO   : 17才の別れ</title>
-			<title code="0x23">YM12.USO   : ホワイト・クリスマス</title>
-			<title code="0x2A">YM19.USO   : 安堵</title>
-			<title code="0x2E">YM25.USO   : 捜索</title>
-			<title code="0x17">YM02.USO   : 不吉</title>
-			<title code="0x1D">YM05A.USO  : 暗闇の探索</title>
-			<title code="0x18">YM03A.USO  : 驚嘆…そして</title>
-			<title code="0x1B">YM04.USO   : めぐり合わせ</title>
-			<title code="0x1F">YM07.USO   : 思い出</title>
-			<title code="0x22">YM10.USO   : 17才の別れ～バラード</title>
-			<title code="0x27">YM16.USO   : 悲しい結末</title>
-			<title code="0x2B">YM20.USO   : アイドル</title>
-			<title code="0x29">YM18.USO   : 祝福</title>
-			<title code="0x2C">YM23.USO   : 意外な最後</title>
-			<title code="0x14">YM00A.USO  : 予感</title>
-			<title code="0x12">SUZU.USO   : </title>
-			<title code="0x15">YM00C.USO  : </title>
-			<title code="0x19">YM03B.USO  : </title>
-			<title code="0x1A">YM03C.USO  : </title>
-			<title code="0x30">YSE00.USO  : SE</title>
-			<title code="0x31">YSE00F.USO : SE</title>
-			<title code="0x32">YSE01.USO  : SE</title>
-			<title code="0x33">YSE02.USO  : SE</title>
-			<title code="0x34">YSE02A.USO : SE</title>
-			<title code="0x35">YSE03.USO  : SE</title>
-			<title code="0x36">YSE04.USO  : SE</title>
-			<title code="0x37">YSE05.USO  : SE</title>
-			<title code="0x38">YSE06.USO  : SE</title>
-			<title code="0x39">YSE07.USO  : SE</title>
-			<title code="0x3A">YSE08.USO  : SE</title>
-			<title code="0x3B">YSE09.USO  : SE</title>
-			<title code="0x3C">YSE10.USO  : SE</title>
-			<title code="0x3D">YSE11.USO  : SE</title>
-			<title code="0x3E">YSE12.USO  : SE</title>
-			<title code="0x3F">YSE13.USO  : SE</title>
-			<title code="0x40">YSE14.USO  : SE</title>
+		<!--	<title code="0x10">[STOP]</title> -->
+			<title code="0x11">Melody</title>
+			<title code="0x13">暗闇</title>
+			<title code="0x1C">不安</title>
+			<title code="0x20">過去との再開</title>
+			<title code="0x24">暗闇の殺意</title>
+			<title code="0x28">彼女の真実</title>
+			<title code="0x2F">勇気</title>
+			<title code="0x2D">トワイライト</title>
+			<title code="0x25">死の足音</title>
+			<title code="0x26">脱出への賭け</title>
+			<title code="0x16">街の賑わい</title>
+			<title code="0x1E">黒い欲望</title>
+			<title code="0x21">17才の別れ</title>
+			<title code="0x23">ホワイト・クリスマス</title>
+			<title code="0x2A">安堵</title>
+			<title code="0x2E">捜索</title>
+			<title code="0x17">不吉</title>
+			<title code="0x1D">暗闇の探索</title>
+			<title code="0x18">驚嘆…そして</title>
+			<title code="0x1B">めぐり合わせ</title>
+			<title code="0x1F">思い出</title>
+			<title code="0x22">17才の別れ～バラード</title>
+			<title code="0x27">悲しい結末</title>
+			<title code="0x2B">アイドル</title>
+			<title code="0x29">祝福</title>
+			<title code="0x2C">意外な最後</title>
+			<title code="0x14">予感</title>
+			<title code="0x12">SUZU.USO</title>
+			<title code="0x15">YM00C.USO</title>
+			<title code="0x19">YM03B.USO</title>
+			<title code="0x1A">YM03C.USO</title>
+			<title code="0x30">YSE00.USO</title>
+			<title code="0x31">YSE00F.USO</title>
+			<title code="0x32">YSE01.USO</title>
+			<title code="0x33">YSE02.USO</title>
+			<title code="0x34">YSE02A.USO</title>
+			<title code="0x35">YSE03.USO</title>
+			<title code="0x36">YSE04.USO</title>
+			<title code="0x37">YSE05.USO</title>
+			<title code="0x38">YSE06.USO</title>
+			<title code="0x39">YSE07.USO</title>
+			<title code="0x3A">YSE08.USO</title>
+			<title code="0x3B">YSE09.USO</title>
+			<title code="0x3C">YSE10.USO</title>
+			<title code="0x3D">YSE11.USO</title>
+			<title code="0x3E">YSE12.USO</title>
+			<title code="0x3F">YSE13.USO</title>
+			<title code="0x40">YSE14.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 暗闇(GS)</name>
+		<name>[PC-9801] Kurayami (暗闇) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -791,61 +909,177 @@
 			<rom type="shell" offset="0">mfd_98</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x11">OFF.MFD    : [STOP]</title> -->
-			<title code="0x10">MELODY.MFD : Melody</title>
-			<title code="0x13">YM00.MFD   : 暗闇</title>
-			<title code="0x1c">YM05.MFD   : 不安</title>
-			<title code="0x20">YM08.MFD   : 過去との再開</title>
-			<title code="0x24">YM13.MFD   : 暗闇の殺意</title>
-			<title code="0x28">YM17.MFD   : 彼女の真実</title>
-			<title code="0x2f">YM27.MFD   : 勇気</title>
-			<title code="0x2d">YM24.MFD   : トワイライト</title>
-			<title code="0x25">YM13A.MFD  : 死の足音</title>
-			<title code="0x26">YM14.MFD   : 脱出への賭け</title>
-			<title code="0x16">YM01.MFD   : 街の賑わい</title>
-			<title code="0x1e">YM06.MFD   : 黒い欲望</title>
-			<title code="0x21">YM09.MFD   : 17才の別れ</title>
-			<title code="0x23">YM12.MFD   : ホワイト・クリスマス</title>
-			<title code="0x2a">YM19.MFD   : 安堵</title>
-			<title code="0x2e">YM25.MFD   : 捜索</title>
-			<title code="0x17">YM02.MFD   : 不吉</title>
-			<title code="0x1d">YM05A.MFD  : 暗闇の探索</title>
-			<title code="0x18">YM03A.MFD  : 驚嘆…そして</title>
-			<title code="0x1b">YM04.MFD   : めぐり合わせ</title>
-			<title code="0x1f">YM07.MFD   : 思い出</title>
-			<title code="0x22">YM10.MFD   : 17才の別れ～バラード</title>
-			<title code="0x27">YM16.MFD   : 悲しい結末</title>
-			<title code="0x2b">YM20.MFD   : アイドル</title>
-			<title code="0x29">YM18.MFD   : 祝福</title>
-			<title code="0x2c">YM23.MFD   : 意外な最後</title>
-			<title code="0x14">YM00A.MFD  : 予感</title>
-			<title code="0x12">SUZU.MFD   : </title>
-			<title code="0x15">YM00C.MFD  : </title>
-			<title code="0x19">YM03B.MFD  : </title>
-			<title code="0x1a">YM03C.MFD  : </title>
-			<title code="0x30">YSE00.MFD  : SE</title>
-			<title code="0x31">YSE00F.MFD : SE</title>
-			<title code="0x32">YSE01.MFD  : SE</title>
-			<title code="0x33">YSE02.MFD  : SE</title>
-			<title code="0x34">YSE02A.MFD : SE</title>
-			<title code="0x35">YSE03.MFD  : SE</title>
-			<title code="0x36">YSE04.MFD  : SE</title>
-			<title code="0x37">YSE05.MFD  : SE</title>
-			<title code="0x38">YSE06.MFD  : SE</title>
-			<title code="0x39">YSE07.MFD  : SE</title>
-			<title code="0x3a">YSE08.MFD  : SE</title>
-			<title code="0x3b">YSE09.MFD  : SE</title>
-			<title code="0x3c">YSE10.MFD  : SE</title>
-			<title code="0x3d">YSE11.MFD  : SE</title>
-			<title code="0x3e">YSE12.MFD  : SE</title>
-			<title code="0x3f">YSE13.MFD  : SE</title>
-			<title code="0x40">YSE14.MFD  : SE</title>
+		<!--	<title code="0x11">[STOP]</title> -->
+			<title code="0x10">Melody</title>
+			<title code="0x13">暗闇</title>
+			<title code="0x1c">不安</title>
+			<title code="0x20">過去との再開</title>
+			<title code="0x24">暗闇の殺意</title>
+			<title code="0x28">彼女の真実</title>
+			<title code="0x2f">勇気</title>
+			<title code="0x2d">トワイライト</title>
+			<title code="0x25">死の足音</title>
+			<title code="0x26">脱出への賭け</title>
+			<title code="0x16">街の賑わい</title>
+			<title code="0x1e">黒い欲望</title>
+			<title code="0x21">17才の別れ</title>
+			<title code="0x23">ホワイト・クリスマス</title>
+			<title code="0x2a">安堵</title>
+			<title code="0x2e">捜索</title>
+			<title code="0x17">不吉</title>
+			<title code="0x1d">暗闇の探索</title>
+			<title code="0x18">驚嘆…そして</title>
+			<title code="0x1b">めぐり合わせ</title>
+			<title code="0x1f">思い出</title>
+			<title code="0x22">17才の別れ～バラード</title>
+			<title code="0x27">悲しい結末</title>
+			<title code="0x2b">アイドル</title>
+			<title code="0x29">祝福</title>
+			<title code="0x2c">意外な最後</title>
+			<title code="0x14">予感</title>
+			<title code="0x12">SUZU.MFD</title>
+			<title code="0x15">YM00C.MFD</title>
+			<title code="0x19">YM03B.MFD</title>
+			<title code="0x1a">YM03C.MFD</title>
+			<title code="0x30">YSE00.MFD</title>
+			<title code="0x31">YSE00F.MFD</title>
+			<title code="0x32">YSE01.MFD</title>
+			<title code="0x33">YSE02.MFD</title>
+			<title code="0x34">YSE02A.MFD</title>
+			<title code="0x35">YSE03.MFD</title>
+			<title code="0x36">YSE04.MFD</title>
+			<title code="0x37">YSE05.MFD</title>
+			<title code="0x38">YSE06.MFD</title>
+			<title code="0x39">YSE07.MFD</title>
+			<title code="0x3a">YSE08.MFD</title>
+			<title code="0x3b">YSE09.MFD</title>
+			<title code="0x3c">YSE10.MFD</title>
+			<title code="0x3d">YSE11.MFD</title>
+			<title code="0x3e">YSE12.MFD</title>
+			<title code="0x3f">YSE13.MFD</title>
+			<title code="0x40">YSE14.MFD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 牝猫秘書室(OPN)</name>
+		<name>[PC-9801] Kurayami (暗闇) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Melody</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="kurayami_98">
+			<rom type="file" offset="-1">MFD.COM</rom>
+			<rom type="file" offset="-1">MFD_98.COM</rom>
+			<rom type="file" offset="0x10">MELODY.MFD</rom>
+			<rom type="file" offset="0x11">OFF.MFD</rom>
+			<rom type="file" offset="0x12">SUZU.MFD</rom>
+			<rom type="file" offset="0x13">YM00.MFD</rom>
+			<rom type="file" offset="0x14">YM00A.MFD</rom>
+			<rom type="file" offset="0x15">YM00C.MFD</rom>
+			<rom type="file" offset="0x16">YM01.MFD</rom>
+			<rom type="file" offset="0x17">YM02.MFD</rom>
+			<rom type="file" offset="0x18">YM03A.MFD</rom>
+			<rom type="file" offset="0x19">YM03B.MFD</rom>
+			<rom type="file" offset="0x1a">YM03C.MFD</rom>
+			<rom type="file" offset="0x1b">YM04.MFD</rom>
+			<rom type="file" offset="0x1c">YM05.MFD</rom>
+			<rom type="file" offset="0x1d">YM05A.MFD</rom>
+			<rom type="file" offset="0x1e">YM06.MFD</rom>
+			<rom type="file" offset="0x1f">YM07.MFD</rom>
+			<rom type="file" offset="0x20">YM08.MFD</rom>
+			<rom type="file" offset="0x21">YM09.MFD</rom>
+			<rom type="file" offset="0x22">YM10.MFD</rom>
+			<rom type="file" offset="0x23">YM12.MFD</rom>
+			<rom type="file" offset="0x24">YM13.MFD</rom>
+			<rom type="file" offset="0x25">YM13A.MFD</rom>
+			<rom type="file" offset="0x26">YM14.MFD</rom>
+			<rom type="file" offset="0x27">YM16.MFD</rom>
+			<rom type="file" offset="0x28">YM17.MFD</rom>
+			<rom type="file" offset="0x29">YM18.MFD</rom>
+			<rom type="file" offset="0x2a">YM19.MFD</rom>
+			<rom type="file" offset="0x2b">YM20.MFD</rom>
+			<rom type="file" offset="0x2c">YM23.MFD</rom>
+			<rom type="file" offset="0x2d">YM24.MFD</rom>
+			<rom type="file" offset="0x2e">YM25.MFD</rom>
+			<rom type="file" offset="0x2f">YM27.MFD</rom>
+			<rom type="file" offset="0x30">YSE00.MFD</rom>
+			<rom type="file" offset="0x31">YSE00F.MFD</rom>
+			<rom type="file" offset="0x32">YSE01.MFD</rom>
+			<rom type="file" offset="0x33">YSE02.MFD</rom>
+			<rom type="file" offset="0x34">YSE02A.MFD</rom>
+			<rom type="file" offset="0x35">YSE03.MFD</rom>
+			<rom type="file" offset="0x36">YSE04.MFD</rom>
+			<rom type="file" offset="0x37">YSE05.MFD</rom>
+			<rom type="file" offset="0x38">YSE06.MFD</rom>
+			<rom type="file" offset="0x39">YSE07.MFD</rom>
+			<rom type="file" offset="0x3a">YSE08.MFD</rom>
+			<rom type="file" offset="0x3b">YSE09.MFD</rom>
+			<rom type="file" offset="0x3c">YSE10.MFD</rom>
+			<rom type="file" offset="0x3d">YSE11.MFD</rom>
+			<rom type="file" offset="0x3e">YSE12.MFD</rom>
+			<rom type="file" offset="0x3f">YSE13.MFD</rom>
+			<rom type="file" offset="0x40">YSE14.MFD</rom>
+			<rom type="shell" offset="0">mfd</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x11">[STOP]</title> -->
+			<title code="0x10">Melody</title>
+			<title code="0x13">暗闇</title>
+			<title code="0x1c">不安</title>
+			<title code="0x20">過去との再開</title>
+			<title code="0x24">暗闇の殺意</title>
+			<title code="0x28">彼女の真実</title>
+			<title code="0x2f">勇気</title>
+			<title code="0x2d">トワイライト</title>
+			<title code="0x25">死の足音</title>
+			<title code="0x26">脱出への賭け</title>
+			<title code="0x16">街の賑わい</title>
+			<title code="0x1e">黒い欲望</title>
+			<title code="0x21">17才の別れ</title>
+			<title code="0x23">ホワイト・クリスマス</title>
+			<title code="0x2a">安堵</title>
+			<title code="0x2e">捜索</title>
+			<title code="0x17">不吉</title>
+			<title code="0x1d">暗闇の探索</title>
+			<title code="0x18">驚嘆…そして</title>
+			<title code="0x1b">めぐり合わせ</title>
+			<title code="0x1f">思い出</title>
+			<title code="0x22">17才の別れ～バラード</title>
+			<title code="0x27">悲しい結末</title>
+			<title code="0x2b">アイドル</title>
+			<title code="0x29">祝福</title>
+			<title code="0x2c">意外な最後</title>
+			<title code="0x14">予感</title>
+			<title code="0x12">SUZU.MFD</title>
+			<title code="0x15">YM00C.MFD</title>
+			<title code="0x19">YM03B.MFD</title>
+			<title code="0x1a">YM03C.MFD</title>
+			<title code="0x30">YSE00.MFD</title>
+			<title code="0x31">YSE00F.MFD</title>
+			<title code="0x32">YSE01.MFD</title>
+			<title code="0x33">YSE02.MFD</title>
+			<title code="0x34">YSE02A.MFD</title>
+			<title code="0x35">YSE03.MFD</title>
+			<title code="0x36">YSE04.MFD</title>
+			<title code="0x37">YSE05.MFD</title>
+			<title code="0x38">YSE06.MFD</title>
+			<title code="0x39">YSE07.MFD</title>
+			<title code="0x3a">YSE08.MFD</title>
+			<title code="0x3b">YSE09.MFD</title>
+			<title code="0x3c">YSE10.MFD</title>
+			<title code="0x3d">YSE11.MFD</title>
+			<title code="0x3e">YSE12.MFD</title>
+			<title code="0x3f">YSE13.MFD</title>
+			<title code="0x40">YSE14.MFD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Mesuneko Hishoshitsu (牝猫秘書室) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="funcvect" value="0x70"/>
 			<option name="clockmul" value="8"/>
@@ -933,51 +1167,51 @@
 			<rom type="shell" offset="0">usmd</rom>
 		</romlist>
 		<titlelist>
-<!-- SSGバランス内蔵用
+<!-- Internal SSG Balance (SSGバランス内蔵用)
 			<title code="0x14">MS00.USO</title>
 			<title code="0x16">MS01.USO</title>
 			<title code="0x18">MS02.USO</title>
-			<title code="0x1A">MS03.USO</title>
-			<title code="0x1C">MS04.USO</title>
-			<title code="0x1E">MS05.USO</title>
+			<title code="0x1a">MS03.USO</title>
+			<title code="0x1c">MS04.USO</title>
+			<title code="0x1e">MS05.USO</title>
 			<title code="0x20">MS06.USO</title>
 			<title code="0x22">MS07.USO</title>
 			<title code="0x24">MS08.USO</title>
 			<title code="0x26">MS09.USO</title>
 			<title code="0x28">MSEND.USO</title>
-			<title code="0x2A">MSOVER.USO</title>
+			<title code="0x2a">MSOVER.USO</title>
 			<title code="0x34">MSSTAFF.USO</title>
-			<title code="0x2C">MSSE01.USO</title>
-			<title code="0x2E">MSSE02.USO</title>
+			<title code="0x2c">MSSE01.USO</title>
+			<title code="0x2e">MSSE02.USO</title>
 			<title code="0x30">MSSE03.USO</title>
 			<title code="0x32">MSSE04.USO</title>
 -->
-		<!--	<title code="0x10">OFF.USO      : [STOP]</title> -->
-			<title code="0x15">MS00V.USO    : MS00</title>
-			<title code="0x17">MS01V.USO    : MS01</title>
-			<title code="0x19">MS02V.USO    : MS02</title>
-			<title code="0x1B">MS03V.USO    : MS03</title>
-			<title code="0x1D">MS04V.USO    : MS04</title>
-			<title code="0x1F">MS05V.USO    : MS05</title>
-			<title code="0x21">MS06V.USO    : MS06</title>
-			<title code="0x23">MS07V.USO    : MS07</title>
-			<title code="0x25">MS08V.USO    : MS08</title>
-			<title code="0x27">MS09V.USO    : MS09</title>
-			<title code="0x2B">MSOVERV.USO  : MSOVER</title>
-			<title code="0x29">MSENDV.USO   : MSEND</title>
-			<title code="0x35">MSSTAFFV.USO : MSSTAFF</title>
-			<title code="0x2D">MSSE01V.USO  : SE</title>
-			<title code="0x2F">MSSE02V.USO  : SE</title>
-			<title code="0x31">MSSE03V.USO  : SE</title>
-			<title code="0x33">MSSE04V.USO  : SE</title>
-			<title code="0x12">IN.USO       : SE</title>
-			<title code="0x13">OUT.USO      : SE</title>
+		<!--	<title code="0x10">[STOP]</title> -->
+			<title code="0x15">MS00V.USO</title>
+			<title code="0x17">MS01V.USO</title>
+			<title code="0x19">MS02V.USO</title>
+			<title code="0x1b">MS03V.USO</title>
+			<title code="0x1d">MS04V.USO</title>
+			<title code="0x1f">MS05V.USO</title>
+			<title code="0x21">MS06V.USO</title>
+			<title code="0x23">MS07V.USO</title>
+			<title code="0x25">MS08V.USO</title>
+			<title code="0x27">MS09V.USO</title>
+			<title code="0x2b">MSOVERV.USO</title>
+			<title code="0x29">MSENDV.USO</title>
+			<title code="0x35">MSSTAFFV.USO</title>
+			<title code="0x2d">MSSE01V.USO</title>
+			<title code="0x2f">MSSE02V.USO</title>
+			<title code="0x31">MSSE03V.USO</title>
+			<title code="0x33">MSSE04V.USO</title>
+			<title code="0x12">IN.USO</title>
+			<title code="0x13">OUT.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 牝猫秘書室(GS)</name>
+		<name>[PC-9801] Mesuneko Hishoshitsu (牝猫秘書室) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Melody</driveralias>
+		<driveralias type="PC-9801">Melody</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1008,24 +1242,78 @@
 			<rom type="shell" offset="0">mfd_98</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x21">OFF.MFD     : [STOP]</title> -->
-			<title code="0x10">MS00.MFD    : MS00</title>
-			<title code="0x11">MS01.MFD    : MS01</title>
-			<title code="0x12">MS02.MFD    : MS02</title>
-			<title code="0x13">MS03.MFD    : MS03</title>
-			<title code="0x14">MS04.MFD    : MS04</title>
-			<title code="0x15">MS05.MFD    : MS05</title>
-			<title code="0x16">MS06.MFD    : MS06</title>
-			<title code="0x17">MS07.MFD    : MS07</title>
-			<title code="0x18">MS08.MFD    : MS08</title>
-			<title code="0x19">MS09.MFD    : MS09</title>
-			<title code="0x1b">MSOVER.MFD  : MSOVER</title>
-			<title code="0x1a">MSEND.MFD   : MSEND</title>
-			<title code="0x20">MSSTAFF.MFD : MSSTAFF</title>
-			<title code="0x1c">MSSE01.MFD  : SE</title>
-			<title code="0x1d">MSSE02.MFD  : SE</title>
-			<title code="0x1e">MSSE03.MFD  : SE</title>
-			<title code="0x1f">MSSE04.MFD  : SE</title>
+		<!--	<title code="0x21">[STOP]</title> -->
+			<title code="0x10">MS00.MFD</title>
+			<title code="0x11">MS01.MFD</title>
+			<title code="0x12">MS02.MFD</title>
+			<title code="0x13">MS03.MFD</title>
+			<title code="0x14">MS04.MFD</title>
+			<title code="0x15">MS05.MFD</title>
+			<title code="0x16">MS06.MFD</title>
+			<title code="0x17">MS07.MFD</title>
+			<title code="0x18">MS08.MFD</title>
+			<title code="0x19">MS09.MFD</title>
+			<title code="0x1b">MSOVER.MFD</title>
+			<title code="0x1a">MSEND.MFD</title>
+			<title code="0x20">MSSTAFF.MFD</title>
+			<title code="0x1c">MSSE01.MFD</title>
+			<title code="0x1d">MSSE02.MFD</title>
+			<title code="0x1e">MSSE03.MFD</title>
+			<title code="0x1f">MSSE04.MFD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Mesuneko Hishoshitsu (牝猫秘書室) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Melody</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="mesuneko_98">
+			<rom type="file" offset="-1">MFD.COM</rom>
+			<rom type="file" offset="-1">MFD_98.COM</rom>
+			<rom type="file" offset="0x10">MS00.MFD</rom>
+			<rom type="file" offset="0x11">MS01.MFD</rom>
+			<rom type="file" offset="0x12">MS02.MFD</rom>
+			<rom type="file" offset="0x13">MS03.MFD</rom>
+			<rom type="file" offset="0x14">MS04.MFD</rom>
+			<rom type="file" offset="0x15">MS05.MFD</rom>
+			<rom type="file" offset="0x16">MS06.MFD</rom>
+			<rom type="file" offset="0x17">MS07.MFD</rom>
+			<rom type="file" offset="0x18">MS08.MFD</rom>
+			<rom type="file" offset="0x19">MS09.MFD</rom>
+			<rom type="file" offset="0x1a">MSEND.MFD</rom>
+			<rom type="file" offset="0x1b">MSOVER.MFD</rom>
+			<rom type="file" offset="0x1c">MSSE01.MFD</rom>
+			<rom type="file" offset="0x1d">MSSE02.MFD</rom>
+			<rom type="file" offset="0x1e">MSSE03.MFD</rom>
+			<rom type="file" offset="0x1f">MSSE04.MFD</rom>
+			<rom type="file" offset="0x20">MSSTAFF.MFD</rom>
+			<rom type="file" offset="0x21">OFF.MFD</rom>
+			<rom type="shell" offset="0">mfd</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x21">[STOP]</title> -->
+			<title code="0x10">MS00.MFD</title>
+			<title code="0x11">MS01.MFD</title>
+			<title code="0x12">MS02.MFD</title>
+			<title code="0x13">MS03.MFD</title>
+			<title code="0x14">MS04.MFD</title>
+			<title code="0x15">MS05.MFD</title>
+			<title code="0x16">MS06.MFD</title>
+			<title code="0x17">MS07.MFD</title>
+			<title code="0x18">MS08.MFD</title>
+			<title code="0x19">MS09.MFD</title>
+			<title code="0x1b">MSOVER.MFD</title>
+			<title code="0x1a">MSEND.MFD</title>
+			<title code="0x20">MSSTAFF.MFD</title>
+			<title code="0x1c">MSSE01.MFD</title>
+			<title code="0x1d">MSSE02.MFD</title>
+			<title code="0x1e">MSSE03.MFD</title>
+			<title code="0x1f">MSSE04.MFD</title>
 		</titlelist>
 	</game>
 </gamelist>

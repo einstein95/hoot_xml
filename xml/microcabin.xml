@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] Xak - The Art of Visual Stage -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">MICROCABIN</driveralias>
 		<romlist archive="xak68snd">
 			<rom type="code">xak68snd.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -151,7 +151,7 @@
 	<game>
 		<name>[PC-8801] カーマイン88</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2a00"/>
 			<option name="mfile_size" value="0x2a00"/>
@@ -170,7 +170,7 @@
 	<game>
 		<name>[PC-8801] めぞん一刻 ～想いでのフォトグラフ～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x4800"/>
@@ -191,7 +191,7 @@
 	<game>
 		<name>[PC-8801] めぞん一刻・完結篇 ～さよなら、そして～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<romlist archive="maisonk">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x75b0">MUSIC88.COM</rom>
@@ -214,7 +214,7 @@
 	<game>
 		<name>[PC-8801] うる星やつら ～恋のサバイバル・バースディ～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<romlist archive="urusei">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9500">MUSIC88.COM</rom>
@@ -233,7 +233,7 @@
 	<game>
 		<name>[PC-8801] セイレーン</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="use_pcmx8" value="0x01"/>
 		</options>
@@ -253,7 +253,7 @@
 			<title code="0x01000000">MUS000.BGM : プリル</title>
 			<title code="0x01000002">MUS002.BGM : 地底メイズ</title>
 			<title code="0x01000001">MUS001.BGM : セイレイ</title>
-			<title code="0x01000004">MUS004.BGM : </title>
+			<title code="0x01000004">MUS004.BGM</title>
 			<title code="0x000000e0">ADPCM00    : ADPCM効果音停止</title>
 			<title code="0x000000e1">ADPCM01    : 雷鳴</title>
 			<title code="0x000000e2">ADPCM02    : 小川のせせらぎ</title>
@@ -277,7 +277,7 @@
 	<game>
 		<name>[PC-8801] きまぐれオレンジロード ～夏のミラージュ～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x032b"/>
 		</options>
@@ -304,7 +304,7 @@
 	<game>
 		<name>[PC-8801] What's Michael?</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x032b"/>
 		</options>
@@ -324,22 +324,22 @@
 			<rom type="bgm" offset="0x09">M00009.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">M00000.DAT : </title>
-			<title code="0x01">M00001.DAT : </title>
-			<title code="0x02">M00002.DAT : </title>
-			<title code="0x03">M00003.DAT : </title>
-			<title code="0x04">M00004.DAT : </title>
-			<title code="0x05">M00005.DAT : </title>
-			<title code="0x06">M00006.DAT : </title>
-			<title code="0x07">M00007.DAT : </title>
-			<title code="0x08">M00008.DAT : </title>
+			<title code="0x00">M00000.DAT</title>
+			<title code="0x01">M00001.DAT</title>
+			<title code="0x02">M00002.DAT</title>
+			<title code="0x03">M00003.DAT</title>
+			<title code="0x04">M00004.DAT</title>
+			<title code="0x05">M00005.DAT</title>
+			<title code="0x06">M00006.DAT</title>
+			<title code="0x07">M00007.DAT</title>
+			<title code="0x08">M00008.DAT</title>
 			<title code="0x09">M00009.DAT : 星空のエトランゼ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] Xak - The Art of Visual Stage -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf400"/>
 			<option name="mdata_size" value="0x0c00"/>
@@ -519,7 +519,7 @@
 	<game>
 		<name>[PC-8801] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -679,7 +679,7 @@
 	<game>
 		<name>[PC-8801] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x0c00"/>
@@ -822,7 +822,7 @@
 	<game>
 		<name>[PC-9801] うる星やつら ～恋のサバイバル・バースデイ～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -845,7 +845,7 @@
 	<game>
 		<name>[PC-9801] めぞん一刻完結篇 ～さよなら、そして～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<romlist archive="maisok98">
 			<rom type="file" offset="-1">mmd.com</rom>
 			<rom type="file" offset="-1">MMD.SYS</rom>
@@ -871,7 +871,7 @@
 	<game>
 		<name>[PC-9801] きまぐれオレンジロード ～夏のミラージュ～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -900,7 +900,7 @@
 	<game>
 		<name>[PC-9801] What's Michael?</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -922,22 +922,22 @@
 			<rom type="shell" offset="0">mmd2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x050010">M00000.BIN : </title>
-			<title code="0x050011">M00001.BIN : </title>
-			<title code="0x050012">M00002.BIN : </title>
-			<title code="0x050013">M00003.BIN : </title>
-			<title code="0x050014">M00004.BIN : </title>
-			<title code="0x050015">M00005.BIN : </title>
-			<title code="0x050016">M00006.BIN : </title>
-			<title code="0x050017">M00007.BIN : </title>
-			<title code="0x050018">M00008.BIN : </title>
+			<title code="0x050010">M00000.BIN</title>
+			<title code="0x050011">M00001.BIN</title>
+			<title code="0x050012">M00002.BIN</title>
+			<title code="0x050013">M00003.BIN</title>
+			<title code="0x050014">M00004.BIN</title>
+			<title code="0x050015">M00005.BIN</title>
+			<title code="0x050016">M00006.BIN</title>
+			<title code="0x050017">M00007.BIN</title>
+			<title code="0x050018">M00008.BIN</title>
 			<title code="0x050019">M00009.BIN : 星空のエトランゼ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Xak - The Art of Visual Stage -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1076,7 +1076,7 @@
 	<game>
 		<name>[PC-9801] KAX - グリーンアスパラの観る夢 -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1119,7 +1119,7 @@
 	<game>
 		<name>[PC-9801] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1253,7 +1253,7 @@
 	<game>
 		<name>[PC-9801] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1382,7 +1382,7 @@
 	<game>
 		<name>[PC-9801] FRAY - In magical adventure -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1467,7 +1467,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1577,7 +1577,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1677,7 +1677,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1775,7 +1775,7 @@
 	<game>
 		<name>[PC-9801] ELMKNIGHT</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<!-- 音色の対応が未確認です -->
 		<options>
 			<option name="clockmul" value="8"/>
@@ -1870,7 +1870,7 @@
 	<game>
 		<name>[PC-9801] カックス2世</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1918,7 +1918,7 @@
 		<name>[PC-9801] The Tower(?) of CABIN ～キャビンパニック～</name>
 		<!-- 音色の対応が未確認です -->
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2107,7 +2107,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2187,7 +2187,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(CM-64)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2260,7 +2260,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2333,7 +2333,7 @@
 	<game>
 		<name>[PC-9801] Dragon Half</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2387,28 +2387,28 @@
 			<title code="0x05001d">SONG_59.BGM  : 妙なステップで一晩中踊りあかすウサギの応援団長の突撃ラッパが鳴り響く!!</title>
 			<title code="0x050012">SONG_37.BGM  : 動かない動けないピアノが一服する。「ふぅ～」</title>
 			<title code="0x050011">SONG_32.BGM  : 色違いの5人組が描いてある扇子で踊りまくる水の王様&amp;兵士</title>
-			<title code="0x050006">AS.BGM       : </title>
-			<title code="0x050008">LOG.BGM      : </title>
-			<title code="0x050009">MIG.BGM      : </title>
-			<title code="0x05000b">SONG_100.BGM : </title>
-			<title code="0x05000e">SONG_28.BGM  : </title>
-			<title code="0x050010">SONG_31.BGM  : </title>
-			<title code="0x050014">SONG_41.BGM  : </title>
-			<title code="0x050015">SONG_44.BGM  : </title>
-			<title code="0x050016">SONG_45.BGM  : </title>
-			<title code="0x050017">SONG_48.BGM  : </title>
-			<title code="0x050018">SONG_50.BGM  : </title>
-			<title code="0x050019">SONG_51.BGM  : </title>
-			<title code="0x05001c">SONG_55.BGM  : </title>
-			<title code="0x05001f">SONG_71.BGM  : </title>
-			<title code="0x050020">SONG_74.BGM  : </title>
-			<title code="0x050021">SONG_93.BGM  : </title>
+			<title code="0x050006">AS.BGM</title>
+			<title code="0x050008">LOG.BGM</title>
+			<title code="0x050009">MIG.BGM</title>
+			<title code="0x05000b">SONG_100.BGM</title>
+			<title code="0x05000e">SONG_28.BGM</title>
+			<title code="0x050010">SONG_31.BGM</title>
+			<title code="0x050014">SONG_41.BGM</title>
+			<title code="0x050015">SONG_44.BGM</title>
+			<title code="0x050016">SONG_45.BGM</title>
+			<title code="0x050017">SONG_48.BGM</title>
+			<title code="0x050018">SONG_50.BGM</title>
+			<title code="0x050019">SONG_51.BGM</title>
+			<title code="0x05001c">SONG_55.BGM</title>
+			<title code="0x05001f">SONG_71.BGM</title>
+			<title code="0x050020">SONG_74.BGM</title>
+			<title code="0x050021">SONG_93.BGM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 英雄志願 ～GAL･ACT･HEROISM～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2467,7 +2467,7 @@
 	<game>
 		<name>[PC-9801] 紺碧の艦隊</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2500,7 +2500,7 @@
 	<game>
 		<name>[PC-9801] 紺碧の艦隊2パーフェクト</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2545,7 +2545,7 @@
 	<game>
 		<name>[PC-9801] セイレーン</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2566,13 +2566,13 @@
 			<title code="0x11">SLM02.BIN : セイレイ</title>
 			<title code="0x12">SLM03.BIN : 地底メイズ</title>
 			<title code="0x13">SLM04.BIN : セイレーン</title>
-			<title code="0x14">SLM05.BIN : </title>
+			<title code="0x14">SLM05.BIN</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] カックス3世</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">MICROCABIN</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2641,7 +2641,7 @@
 	<game>
 		<name>[X1] めぞん一刻 ～想いでのフォトグラフ～</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">MICROCABIN</driveralias>
+		<driveralias type="X1">MICROCABIN</driveralias>
 		<romlist archive="x1maison">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xb000">DRIVER</rom>
@@ -2655,7 +2655,7 @@
 	<game>
 		<name>[X1] めぞん一刻 ～想いでのフォトグラフ～ (Disk3:DEMO)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">MICROCABIN</driveralias>
+		<driveralias type="X1">MICROCABIN</driveralias>
 		<options>
 			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2679,7 +2679,7 @@
 	<game>
 		<name>[X1] うる星やつら ～恋のサバイバル・バースデイ～</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">MICROCABIN</driveralias>
+		<driveralias type="X1">MICROCABIN</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa900"/>
 		</options>
@@ -2701,7 +2701,7 @@
 	<game>
 		<name>[X1] めぞん一刻 完結篇 ～さよなら、そして～(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">MICROCABIN</driveralias>
+		<driveralias type="X1">MICROCABIN</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2723,7 +2723,7 @@
 	<game>
 		<name>[X1] めぞん一刻 完結篇 ～さよなら、そして～(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">MICROCABIN</driveralias>
+		<driveralias type="X1">MICROCABIN</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2745,7 +2745,7 @@
 	<game>
 		<name>[X68000] めぞん一刻完結篇 スペシャル</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">MICROCABIN</driveralias>
 		<romlist archive="maison68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -2767,7 +2767,7 @@
 			<title code="0x04">FUKUZATS.OPM  : 複雑夜</title>
 			<title code="0x05">HABURASH.OPM  : 朱美のはぶらし</title>
 			<title code="0x06">ICHINOSE.OPM  : 一の瀬さんは今日も行く</title>
-			<title code="0x07">KAIEN.OPM     : </title>
+			<title code="0x07">KAIEN.OPM</title>
 			<title code="0x08">KANASHIM.OPM  : 悲しみよこんにちは</title>
 			<title code="0x09">KYOKO.OPM     : 響子</title>
 			<title code="0x0a">NEGAI.OPM     : ねがい</title>
@@ -2778,7 +2778,7 @@
 	<game>
 		<name>[PC-88VA] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">MICROCABIN</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -2912,7 +2912,7 @@
 	<game>
 		<name>[PC-88VA] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">MICROCABIN</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -3041,7 +3041,7 @@
 	<game>
 		<name>[PC-88VA] FRAY - In magical adventure -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">MICROCABIN</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -3126,7 +3126,7 @@
 	<game>
 		<name>[PC-88VA] 幻影都市 - Illusion City -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">MICROCABIN</driveralias>
 		<options>
 			<option name="opn_mix" value="0x100"/>
 		</options>
@@ -5358,7 +5358,7 @@
 			<title code="0x00">BGM 10</title>
 			<title code="0x01">BGM 11</title>
 			<title code="0x02">BGM 12</title>
-			<range min="0x101" max="0x10e" extcode="0">SE : %02x : </range>
+			<range min="0x101" max="0x10e" extcode="0">SE : %02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -6547,7 +6547,7 @@
 	<game>
 		<name>[X68000] Xak II - Rising of The Redmoon -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">MICROCABIN</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>

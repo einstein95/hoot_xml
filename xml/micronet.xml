@@ -146,7 +146,7 @@
 	<game>
 		<name>[PC-8801] ÇΩÇÒÇŒ</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Micronet</driveralias>
+		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
 			<option name="use_rtc"   value="0x01"/>
 		</options>
@@ -166,7 +166,7 @@
 	<game>
 		<name>[PC-8801] ã…ìπêwéÊÇË</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Micronet</driveralias>
+		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0xb000"/>
@@ -198,7 +198,7 @@
 	<game>
 		<name>[X1] ã…ìπêwéÊÇË(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Micronet</driveralias>
+		<driveralias type="X1">Micronet</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0xa000"/>
@@ -230,7 +230,7 @@
 	<game>
 		<name>[X1] ã…ìπêwéÊÇË(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Micronet</driveralias>
+		<driveralias type="X1">Micronet</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0xa000"/>

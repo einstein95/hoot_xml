@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] Mirage(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -84,7 +84,7 @@
 	<game>
 		<name>[PC-9801] Mirage(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -129,7 +129,7 @@
 	<game>
 		<name>[PC-9801] Mirage(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -174,7 +174,7 @@
 	<game>
 		<name>[PC-9801] Mirage2 トリーXニートXローンの大冒険(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<!-- PMD.COM は ver 4.8p を使用 -->
 		<options>
 			<option name="funcvect" value="0x7e"/>
@@ -243,7 +243,7 @@
 	<game>
 		<name>[PC-9801] Mirage2 トリーXニートXローンの大冒険(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<!-- PMD.COM は ver 4.8p を使用 -->
 		<options>
 			<option name="funcvect" value="0x7e"/>
@@ -311,7 +311,7 @@
 	<game>
 		<name>[PC-9801] Mirage2 トリーXニートXローンの大冒険(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -359,7 +359,7 @@
 	<game>
 		<name>[PC-9801] Mirage2 トリーXニートXローンの大冒険(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -407,7 +407,7 @@
 	<game>
 		<name>[PC-9801] Mirage2 トリーXニートXローンの大冒険(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -457,7 +457,7 @@
 	<game>
 		<name>[PC-9801] RED(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -505,7 +505,7 @@
 	<game>
 		<name>[PC-9801] RED(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -552,7 +552,7 @@
 	<game>
 		<name>[PC-9801] RED(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -599,7 +599,7 @@
 	<game>
 		<name>[PC-9801] Sweet Emotion(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -622,23 +622,23 @@
 			<rom type="shell" offset="0">SWEET_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">SWEET1.MUF : </title>
-			<title code="0x12">SWEET2.MUF : </title>
-			<title code="0x13">SWEET3.MUF : </title>
-			<title code="0x14">SWEET4.MUF : </title>
-			<title code="0x15">SWEET5.MUF : </title>
-			<title code="0x16">SWEET6.MUF : </title>
-			<title code="0x17">SWEET7.MUF : </title>
-			<title code="0x18">SWEET8.MUF : </title>
-			<title code="0x19">SWEET9.MUF : </title>
-			<title code="0x1a">SWEETA.MUF : </title>
-			<title code="0x1b">SWEETB.MUF : </title>
+			<title code="0x11">SWEET1.MUF</title>
+			<title code="0x12">SWEET2.MUF</title>
+			<title code="0x13">SWEET3.MUF</title>
+			<title code="0x14">SWEET4.MUF</title>
+			<title code="0x15">SWEET5.MUF</title>
+			<title code="0x16">SWEET6.MUF</title>
+			<title code="0x17">SWEET7.MUF</title>
+			<title code="0x18">SWEET8.MUF</title>
+			<title code="0x19">SWEET9.MUF</title>
+			<title code="0x1a">SWEETA.MUF</title>
+			<title code="0x1b">SWEETB.MUF</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Sweet Emotion(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -661,23 +661,23 @@
 			<rom type="shell" offset="0">sweet_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x111">SWEET1.MUD : </title>
-			<title code="0x112">SWEET2.MUD : </title>
-			<title code="0x113">SWEET3.MUD : </title>
-			<title code="0x114">SWEET4.MUD : </title>
-			<title code="0x115">SWEET5.MUD : </title>
-			<title code="0x116">SWEET6.MUD : </title>
-			<title code="0x117">SWEET7.MUD : </title>
-			<title code="0x118">SWEET8.MUD : </title>
-			<title code="0x119">SWEET9.MUD : </title>
-			<title code="0x11a">SWEETA.MUD : </title>
-			<title code="0x11b">SWEETB.MUD : </title>
+			<title code="0x111">SWEET1.MUD</title>
+			<title code="0x112">SWEET2.MUD</title>
+			<title code="0x113">SWEET3.MUD</title>
+			<title code="0x114">SWEET4.MUD</title>
+			<title code="0x115">SWEET5.MUD</title>
+			<title code="0x116">SWEET6.MUD</title>
+			<title code="0x117">SWEET7.MUD</title>
+			<title code="0x118">SWEET8.MUD</title>
+			<title code="0x119">SWEET9.MUD</title>
+			<title code="0x11a">SWEETA.MUD</title>
+			<title code="0x11b">SWEETB.MUD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Sweet Emotion(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -700,23 +700,23 @@
 			<rom type="shell" offset="0">sweet_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x111">SWEET1.MUD : </title>
-			<title code="0x112">SWEET2.MUD : </title>
-			<title code="0x113">SWEET3.MUD : </title>
-			<title code="0x114">SWEET4.MUD : </title>
-			<title code="0x115">SWEET5.MUD : </title>
-			<title code="0x116">SWEET6.MUD : </title>
-			<title code="0x117">SWEET7.MUD : </title>
-			<title code="0x118">SWEET8.MUD : </title>
-			<title code="0x119">SWEET9.MUD : </title>
-			<title code="0x11a">SWEETA.MUD : </title>
-			<title code="0x11b">SWEETB.MUD : </title>
+			<title code="0x111">SWEET1.MUD</title>
+			<title code="0x112">SWEET2.MUD</title>
+			<title code="0x113">SWEET3.MUD</title>
+			<title code="0x114">SWEET4.MUD</title>
+			<title code="0x115">SWEET5.MUD</title>
+			<title code="0x116">SWEET6.MUD</title>
+			<title code="0x117">SWEET7.MUD</title>
+			<title code="0x118">SWEET8.MUD</title>
+			<title code="0x119">SWEET9.MUD</title>
+			<title code="0x11a">SWEETA.MUD</title>
+			<title code="0x11b">SWEETB.MUD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Valkyrie The Power Beauties(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
@@ -770,7 +770,7 @@
 	<game>
 		<name>[PC-9801] Valkyrie The Power Beauties(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -823,7 +823,7 @@
 	<game>
 		<name>[PC-9801] Valkyrie The Power Beauties(86)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="pcm_mix"  value="0x200"/>
@@ -1082,7 +1082,7 @@
 	<game>
 		<name>[PC-9801] Valkyrie The Power Beauties(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1137,7 +1137,7 @@
 	<game>
 		<name>[PC-9801] チャクラ(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1183,7 +1183,7 @@
 	<game>
 		<name>[PC-9801] チャクラ(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1229,7 +1229,7 @@
 	<game>
 		<name>[PC-9801] チャクラ(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1275,7 +1275,7 @@
 	<game>
 		<name>[PC-9801] Marine Rouge(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1320,19 +1320,19 @@
 			<title code="23">MR_MFM_13.DAT  : MARINE ROUGE</title>
 			<title code="25">MR_MFM_15.DAT  : UNUSED #1</title>
 			<title code="27">MR_MFM_17.DAT  : (DISCOVERY LOGO)</title>
-			<title code="0x200">MR_SE.DAT : 00 : </title>
-			<title code="0x201">MR_SE.DAT : 01 : </title>
-			<title code="0x202">MR_SE.DAT : 02 : </title>
-			<title code="0x203">MR_SE.DAT : 03 : </title>
-			<title code="0x204">MR_SE.DAT : 04 : </title>
+			<title code="0x200">MR_SE.DAT : 00</title>
+			<title code="0x201">MR_SE.DAT : 01</title>
+			<title code="0x202">MR_SE.DAT : 02</title>
+			<title code="0x203">MR_SE.DAT : 03</title>
+			<title code="0x204">MR_SE.DAT : 04</title>
 			<title code="0x205">MR_SE.DAT : 05 : (??</title>
-			<title code="0x206">MR_SE.DAT : 06 : </title>
+			<title code="0x206">MR_SE.DAT : 06</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Marine Rouge(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1381,7 +1381,7 @@
 	<game>
 		<name>[PC-9801] Marine Rouge(SC-55)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -1432,7 +1432,7 @@
 	<game>
 		<name>[PC-9801] Marine Rouge(SC-88)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -1483,7 +1483,7 @@
 	<game>
 		<name>[PC-9801] 淫従の堕天使(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1527,34 +1527,34 @@
 			<title code="24">IJ_MFM_14.DAT : Seventh Kiss</title>
 			<title code="25">IJ_MFM_15.DAT : Dark Romance</title>
 			<title code="26">IJ_MFM_16.DAT : Broke'n Gair</title>
-			<title code="0x200">IJ_SE.SE : 00 : </title>
+			<title code="0x200">IJ_SE.SE : 00</title>
 			<title code="0x201">IJ_SE.SE : 01 : (??</title>
-			<title code="0x202">IJ_SE.SE : 02 : </title>
-			<title code="0x203">IJ_SE.SE : 03 : </title>
-			<title code="0x204">IJ_SE.SE : 04 : </title>
-			<title code="0x205">IJ_SE.SE : 05 : </title>
-			<title code="0x206">IJ_SE.SE : 06 : </title>
-			<title code="0x207">IJ_SE.SE : 07 : </title>
-			<title code="0x208">IJ_SE.SE : 08 : </title>
-			<title code="0x209">IJ_SE.SE : 09 : </title>
-			<title code="0x20a">IJ_SE.SE : 10 : </title>
-			<title code="0x20b">IJ_SE.SE : 11 : </title>
-			<title code="0x20c">IJ_SE.SE : 12 : </title>
-			<title code="0x20d">IJ_SE.SE : 13 : </title>
-			<title code="0x20e">IJ_SE.SE : 14 : </title>
-			<title code="0x20f">IJ_SE.SE : 15 : </title>
-			<title code="0x210">IJ_SE.SE : 16 : </title>
-			<title code="0x211">IJ_SE.SE : 17 : </title>
-			<title code="0x212">IJ_SE.SE : 18 : </title>
-			<title code="0x213">IJ_SE.SE : 19 : </title>
+			<title code="0x202">IJ_SE.SE : 02</title>
+			<title code="0x203">IJ_SE.SE : 03</title>
+			<title code="0x204">IJ_SE.SE : 04</title>
+			<title code="0x205">IJ_SE.SE : 05</title>
+			<title code="0x206">IJ_SE.SE : 06</title>
+			<title code="0x207">IJ_SE.SE : 07</title>
+			<title code="0x208">IJ_SE.SE : 08</title>
+			<title code="0x209">IJ_SE.SE : 09</title>
+			<title code="0x20a">IJ_SE.SE : 10</title>
+			<title code="0x20b">IJ_SE.SE : 11</title>
+			<title code="0x20c">IJ_SE.SE : 12</title>
+			<title code="0x20d">IJ_SE.SE : 13</title>
+			<title code="0x20e">IJ_SE.SE : 14</title>
+			<title code="0x20f">IJ_SE.SE : 15</title>
+			<title code="0x210">IJ_SE.SE : 16</title>
+			<title code="0x211">IJ_SE.SE : 17</title>
+			<title code="0x212">IJ_SE.SE : 18</title>
+			<title code="0x213">IJ_SE.SE : 19</title>
 			<title code="0x214">IJ_SE.SE : 20 : (??</title>
-			<title code="0x215">IJ_SE.SE : 21 : </title>
+			<title code="0x215">IJ_SE.SE : 21</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 淫従の堕天使(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
@@ -1602,7 +1602,7 @@
 	<game>
 		<name>[PC-9801] 淫従の堕天使(GM)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1651,7 +1651,7 @@
 	<game>
 		<name>[PC-9801] 淫従の堕天使(SC-88)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">DISCOVERY</driveralias>
+		<driveralias type="PC-9801">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1700,7 +1700,7 @@
 	<game>
 		<name>[PC-9821] Mirage2 トリーXニートXローンの大冒険(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9821">DISCOVERY</driveralias>
+		<driveralias type="PC-9821">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1757,7 +1757,7 @@
 	<game>
 		<name>[PC-9821] Mirage2 トリーXニートXローンの大冒険(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9821">DISCOVERY</driveralias>
+		<driveralias type="PC-9821">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1816,7 +1816,7 @@
 	<game>
 		<name>[PC-9821] Mirage2 トリーXニートXローンの大冒険(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9821">DISCOVERY</driveralias>
+		<driveralias type="PC-9821">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1875,7 +1875,7 @@
 	<game>
 		<name>[PC-9821] Mirage2 トリーXニートXローンの大冒険(SC-55)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9821">DISCOVERY</driveralias>
+		<driveralias type="PC-9821">DISCOVERY</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1935,7 +1935,7 @@
 	<game>
 		<name>[X68000] Mirage</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">DISCOVERY</driveralias>
+		<driveralias type="X68000">DISCOVERY</driveralias>
 		<romlist archive="mirage68snd">
 			<rom type="code" offset="0x00000">mirage68snd.bin</rom>
 			<rom type="x" offset="0x10000">MIRAGE.X</rom>
@@ -1976,7 +1976,7 @@
 	<game>
 		<name>[X68000] Sweet Emotion</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">DISCOVERY</driveralias>
+		<driveralias type="X68000">DISCOVERY</driveralias>
 		<romlist archive="sweete68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -1994,17 +1994,17 @@
 			<rom type="code" offset="0x54000">sweetb.muf</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0204">sweet1.muf : </title>
-			<title code="0x0205">sweet2.muf : </title>
-			<title code="0x0206">sweet3.muf : </title>
-			<title code="0x0207">sweet4.muf : </title>
-			<title code="0x0208">sweet5.muf : </title>
-			<title code="0x0209">sweet6.muf : </title>
-			<title code="0x020a">sweet7.muf : </title>
-			<title code="0x020b">sweet8.muf : </title>
-			<title code="0x020c">sweet9.muf : </title>
-			<title code="0x020d">sweeta.muf : </title>
-			<title code="0x020e">sweetb.muf : </title>
+			<title code="0x0204">sweet1.muf</title>
+			<title code="0x0205">sweet2.muf</title>
+			<title code="0x0206">sweet3.muf</title>
+			<title code="0x0207">sweet4.muf</title>
+			<title code="0x0208">sweet5.muf</title>
+			<title code="0x0209">sweet6.muf</title>
+			<title code="0x020a">sweet7.muf</title>
+			<title code="0x020b">sweet8.muf</title>
+			<title code="0x020c">sweet9.muf</title>
+			<title code="0x020d">sweeta.muf</title>
+			<title code="0x020e">sweetb.muf</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2030,14 +2030,14 @@
 			<rom type="bgm" offset="0x07">SWEETB</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">SWEET1 : </title>
-			<title code="0x01">SWEET2 : </title>
-			<title code="0x02">SWEET3 : </title>
-			<title code="0x03">SWEET4 : </title>
-			<title code="0x04">SWEET8 : </title>
-			<title code="0x05">SWEET9 : </title>
-			<title code="0x06">SWEETA : </title>
-			<title code="0x07">SWEETB : </title>
+			<title code="0x00">SWEET1</title>
+			<title code="0x01">SWEET2</title>
+			<title code="0x02">SWEET3</title>
+			<title code="0x03">SWEET4</title>
+			<title code="0x04">SWEET8</title>
+			<title code="0x05">SWEET9</title>
+			<title code="0x06">SWEETA</title>
+			<title code="0x07">SWEETB</title>
 		</titlelist>
 	</game>
 </gamelist>

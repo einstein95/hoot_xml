@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] ARGO</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa600"/>
 			<option name="use_rtc"    value="0x01"/>
@@ -56,20 +56,20 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">MUS00 : </title>
+			<title code="0x00000000">MUS00</title>
 			<title code="0x00000001">MUS01 : タイトル</title>
-			<title code="0x00000002">MUS02 : </title>
+			<title code="0x00000002">MUS02</title>
 			<title code="0x00000003">MUS03 : デカキャラ戦闘</title>
 			<title code="0x00000004">MUS04 : 街</title>
-			<title code="0x00000005">MUS05 : </title>
-			<title code="0x00000006">MUS06 : </title>
+			<title code="0x00000005">MUS05</title>
+			<title code="0x00000006">MUS06</title>
 			<title code="0x01000007">MUS07 : ユーザーディスク作成</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] SILVER GHOST</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 		</options>
@@ -107,7 +107,7 @@
 	<game>
 		<name>[PC-8801] DUEL</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_num"  value="0x50"/>
@@ -148,7 +148,7 @@
 			<rom type="bgm" offset="0x46">MUS307</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xd0000000">OP1    : </title>
+			<title code="0xd0000000">OP1</title>
 			<title code="0xd7000001">OP2    : DUEL</title>
 			<title code="0xb0000020">CHR1A  : MASAKI</title>
 			<title code="0xb0000021">CHR1B  : THE SOLDIERS ALIGNE (別アレンジ)</title>
@@ -157,7 +157,7 @@
 			<title code="0xba000030">MUS100 : I'M FULL OF BEART</title>
 			<title code="0xba000031">MUS101 : REQUIEM</title>
 			<title code="0xba000032">MUS102 : A FLOOD OF WATER</title>
-			<title code="0xba000033">MUS103 : </title>
+			<title code="0xba000033">MUS103</title>
 			<title code="0xba000034">MUS104 : A MARE RUIN</title>
 			<title code="0xba000035">MUS105 : STORY OF STAR FIELD</title>
 			<title code="0xba000036">MUS106 : A DESPRATE FIGHT</title>
@@ -182,7 +182,7 @@
 	<game>
 		<name>[X1] SILVER GHOST(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">呉ソフトウェア工房</driveralias>
+		<driveralias type="X1">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xb000"/>
@@ -226,7 +226,7 @@
 	<game>
 		<name>[X1] SILVER GHOST(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">呉ソフトウェア工房</driveralias>
+		<driveralias type="X1">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xb000"/>
@@ -270,7 +270,7 @@
 	<game>
 		<name>[PC-9801] FIRST QUEEN -オルニック戦記-</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -308,7 +308,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">MUS00 : Prince of palace</title>
-			<title code="0x02">MUS01 : </title>
+			<title code="0x02">MUS01</title>
 			<title code="0x03">MUS02 : Nuts About the girl</title>
 			<title code="0x04">MUS03 : In A Row</title>
 			<title code="0x05">MUS04 : A Martial Spirit</title>
@@ -334,7 +334,7 @@
 	<game>
 		<name>[PC-9801] FIRST QUEEN II -砂漠の女王-</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -368,35 +368,35 @@
 			<rom type="bgm" offset="0x13">MUS115</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000001">MUS000 : </title>
-			<title code="0x000002">MUS001 : </title>
-			<title code="0x000003">MUS002 : </title>
-			<title code="0x000004">MUS100 : </title>
-			<title code="0x000005">MUS101 : </title>
-			<title code="0x000006">MUS102 : </title>
-			<title code="0x000007">MUS103 : </title>
-			<title code="0x000008">MUS104 : </title>
-			<title code="0x000009">MUS105 : </title>
-			<title code="0x00000a">MUS106 : </title>
-			<title code="0x00000b">MUS107 : </title>
-			<title code="0x00000c">MUS108 : </title>
-			<title code="0x00000d">MUS109 : </title>
-			<title code="0x00000e">MUS110 : </title>
-			<title code="0x00000f">MUS111 : </title>
-			<title code="0x000010">MUS112 : </title>
-			<title code="0x000011">MUS113 : </title>
-			<title code="0x000012">MUS114 : </title>
-			<title code="0x000013">MUS115 : </title>
-			<title code="0x01ffff">EFC001 : </title>
-			<title code="0x02ffff">EFC002 : </title>
-			<title code="0x03ffff">EFC003 : </title>
-			<title code="0x04ffff">EFC004 : </title>
+			<title code="0x000001">MUS000</title>
+			<title code="0x000002">MUS001</title>
+			<title code="0x000003">MUS002</title>
+			<title code="0x000004">MUS100</title>
+			<title code="0x000005">MUS101</title>
+			<title code="0x000006">MUS102</title>
+			<title code="0x000007">MUS103</title>
+			<title code="0x000008">MUS104</title>
+			<title code="0x000009">MUS105</title>
+			<title code="0x00000a">MUS106</title>
+			<title code="0x00000b">MUS107</title>
+			<title code="0x00000c">MUS108</title>
+			<title code="0x00000d">MUS109</title>
+			<title code="0x00000e">MUS110</title>
+			<title code="0x00000f">MUS111</title>
+			<title code="0x000010">MUS112</title>
+			<title code="0x000011">MUS113</title>
+			<title code="0x000012">MUS114</title>
+			<title code="0x000013">MUS115</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] FIRST QUEEN III</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -448,92 +448,92 @@
 			<rom type="bgm" offset="0x25">FQ3-37.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010001">FQ3-01.BIN : </title>
-			<title code="0x010002">FQ3-02.BIN : </title>
-			<title code="0x010003">FQ3-03.BIN : </title>
-			<title code="0x010004">FQ3-04.BIN : </title>
-			<title code="0x010005">FQ3-05.BIN : </title>
-			<title code="0x010006">FQ3-06.BIN : </title>
-			<title code="0x010007">FQ3-07.BIN : </title>
-			<title code="0x010008">FQ3-08.BIN : </title>
-			<title code="0x010009">FQ3-09.BIN : </title>
-			<title code="0x01000a">FQ3-10.BIN : </title>
-			<title code="0x01000b">FQ3-11.BIN : </title>
-			<title code="0x01000c">FQ3-12.BIN : </title>
-			<title code="0x01000d">FQ3-13.BIN : </title>
-			<title code="0x01000e">FQ3-14.BIN : </title>
-			<title code="0x01000f">FQ3-15.BIN : </title>
-			<title code="0x010010">FQ3-16.BIN : </title>
-			<title code="0x010011">FQ3-17.BIN : </title>
-			<title code="0x010012">FQ3-18.BIN : </title>
-			<title code="0x010013">FQ3-19.BIN : </title>
-			<title code="0x010014">FQ3-20.BIN : </title>
-			<title code="0x010015">FQ3-21.BIN : </title>
-			<title code="0x010016">FQ3-22.BIN : </title>
-			<title code="0x010017">FQ3-23.BIN : </title>
-			<title code="0x010018">FQ3-24.BIN : </title>
-			<title code="0x010019">FQ3-25.BIN : </title>
-			<title code="0x01001a">FQ3-26.BIN : </title>
-			<title code="0x01001b">FQ3-27.BIN : </title>
-			<title code="0x01001c">FQ3-28.BIN : </title>
-			<title code="0x01001d">FQ3-29.BIN : </title>
-			<title code="0x01001e">FQ3-30.BIN : </title>
-			<title code="0x01001f">FQ3-31.BIN : </title>
-			<title code="0x010020">FQ3-32.BIN : </title>
-			<title code="0x010021">FQ3-33.BIN : </title>
-			<title code="0x010022">FQ3-34.BIN : </title>
-			<title code="0x010023">FQ3-35.BIN : </title>
-			<title code="0x010024">FQ3-36.BIN : </title>
-			<title code="0x010025">FQ3-37.BIN : </title>
-			<title code="0x01ffff">EFC001 : </title>
-			<title code="0x02ffff">EFC002 : </title>
-			<title code="0x03ffff">EFC003 : </title>
-			<title code="0x04ffff">EFC004 : </title>
-			<title code="0x05ffff">EFC005 : </title>
-			<title code="0x06ffff">EFC006 : </title>
-			<title code="0x07ffff">EFC007 : </title>
-			<title code="0x08ffff">EFC008 : </title>
-			<title code="0x09ffff">EFC009 : </title>
-			<title code="0x0affff">EFC010 : </title>
-			<title code="0x0bffff">EFC011 : </title>
-			<title code="0x0cffff">EFC012 : </title>
-			<title code="0x0dffff">EFC013 : </title>
-			<title code="0x0effff">EFC014 : </title>
-			<title code="0x0fffff">EFC015 : </title>
-			<title code="0x10ffff">EFC016 : </title>
-			<title code="0x11ffff">EFC017 : </title>
-			<title code="0x12ffff">EFC018 : </title>
-			<title code="0x13ffff">EFC019 : </title>
-			<title code="0x14ffff">EFC020 : </title>
-			<title code="0x15ffff">EFC021 : </title>
-			<title code="0x16ffff">EFC022 : </title>
-			<title code="0x17ffff">EFC023 : </title>
-			<title code="0x18ffff">EFC024 : </title>
-			<title code="0x19ffff">EFC025 : </title>
-			<title code="0x1affff">EFC026 : </title>
-			<title code="0x1bffff">EFC027 : </title>
-			<title code="0x1cffff">EFC028 : </title>
-			<title code="0x1dffff">EFC029 : </title>
-			<title code="0x1effff">EFC030 : </title>
-			<title code="0x1fffff">EFC031 : </title>
-			<title code="0x20ffff">EFC032 : </title>
-			<title code="0x21ffff">EFC033 : </title>
-			<title code="0x22ffff">EFC034 : </title>
-			<title code="0x23ffff">EFC035 : </title>
-			<title code="0x24ffff">EFC036 : </title>
-			<title code="0x25ffff">EFC037 : </title>
-			<title code="0x26ffff">EFC038 : </title>
-			<title code="0x27ffff">EFC039 : </title>
-			<title code="0x28ffff">EFC040 : </title>
-			<title code="0x29ffff">EFC041 : </title>
-			<title code="0x2affff">EFC042 : </title>
-			<title code="0x2bffff">EFC043 : </title>
+			<title code="0x010001">FQ3-01.BIN</title>
+			<title code="0x010002">FQ3-02.BIN</title>
+			<title code="0x010003">FQ3-03.BIN</title>
+			<title code="0x010004">FQ3-04.BIN</title>
+			<title code="0x010005">FQ3-05.BIN</title>
+			<title code="0x010006">FQ3-06.BIN</title>
+			<title code="0x010007">FQ3-07.BIN</title>
+			<title code="0x010008">FQ3-08.BIN</title>
+			<title code="0x010009">FQ3-09.BIN</title>
+			<title code="0x01000a">FQ3-10.BIN</title>
+			<title code="0x01000b">FQ3-11.BIN</title>
+			<title code="0x01000c">FQ3-12.BIN</title>
+			<title code="0x01000d">FQ3-13.BIN</title>
+			<title code="0x01000e">FQ3-14.BIN</title>
+			<title code="0x01000f">FQ3-15.BIN</title>
+			<title code="0x010010">FQ3-16.BIN</title>
+			<title code="0x010011">FQ3-17.BIN</title>
+			<title code="0x010012">FQ3-18.BIN</title>
+			<title code="0x010013">FQ3-19.BIN</title>
+			<title code="0x010014">FQ3-20.BIN</title>
+			<title code="0x010015">FQ3-21.BIN</title>
+			<title code="0x010016">FQ3-22.BIN</title>
+			<title code="0x010017">FQ3-23.BIN</title>
+			<title code="0x010018">FQ3-24.BIN</title>
+			<title code="0x010019">FQ3-25.BIN</title>
+			<title code="0x01001a">FQ3-26.BIN</title>
+			<title code="0x01001b">FQ3-27.BIN</title>
+			<title code="0x01001c">FQ3-28.BIN</title>
+			<title code="0x01001d">FQ3-29.BIN</title>
+			<title code="0x01001e">FQ3-30.BIN</title>
+			<title code="0x01001f">FQ3-31.BIN</title>
+			<title code="0x010020">FQ3-32.BIN</title>
+			<title code="0x010021">FQ3-33.BIN</title>
+			<title code="0x010022">FQ3-34.BIN</title>
+			<title code="0x010023">FQ3-35.BIN</title>
+			<title code="0x010024">FQ3-36.BIN</title>
+			<title code="0x010025">FQ3-37.BIN</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
+			<title code="0x0cffff">EFC012</title>
+			<title code="0x0dffff">EFC013</title>
+			<title code="0x0effff">EFC014</title>
+			<title code="0x0fffff">EFC015</title>
+			<title code="0x10ffff">EFC016</title>
+			<title code="0x11ffff">EFC017</title>
+			<title code="0x12ffff">EFC018</title>
+			<title code="0x13ffff">EFC019</title>
+			<title code="0x14ffff">EFC020</title>
+			<title code="0x15ffff">EFC021</title>
+			<title code="0x16ffff">EFC022</title>
+			<title code="0x17ffff">EFC023</title>
+			<title code="0x18ffff">EFC024</title>
+			<title code="0x19ffff">EFC025</title>
+			<title code="0x1affff">EFC026</title>
+			<title code="0x1bffff">EFC027</title>
+			<title code="0x1cffff">EFC028</title>
+			<title code="0x1dffff">EFC029</title>
+			<title code="0x1effff">EFC030</title>
+			<title code="0x1fffff">EFC031</title>
+			<title code="0x20ffff">EFC032</title>
+			<title code="0x21ffff">EFC033</title>
+			<title code="0x22ffff">EFC034</title>
+			<title code="0x23ffff">EFC035</title>
+			<title code="0x24ffff">EFC036</title>
+			<title code="0x25ffff">EFC037</title>
+			<title code="0x26ffff">EFC038</title>
+			<title code="0x27ffff">EFC039</title>
+			<title code="0x28ffff">EFC040</title>
+			<title code="0x29ffff">EFC041</title>
+			<title code="0x2affff">EFC042</title>
+			<title code="0x2bffff">EFC043</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DUEL98</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -566,13 +566,13 @@
 			<rom type="bgm" offset="0x12">MUS015</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000001">OP1    : </title>
+			<title code="0x000001">OP1</title>
 			<title code="0x000002">OP2    : DUEL</title>
-			<title code="0x000003">MUS000 : </title>
+			<title code="0x000003">MUS000</title>
 			<title code="0x000004">MUS001 : A FLOOD OF WATER</title>
-			<title code="0x000005">MUS002 : </title>
+			<title code="0x000005">MUS002</title>
 			<title code="0x000006">MUS003 : SLOPING UPWARD</title>
-			<title code="0x000007">MUS004 : </title>
+			<title code="0x000007">MUS004</title>
 			<title code="0x000008">MUS005 : MUD AND MARSH</title>
 			<title code="0x000009">MUS006 : A MARE RUIN</title>
 			<title code="0x00000a">MUS007 : DEFEND A CASTLE OF BALT</title>
@@ -584,23 +584,23 @@
 			<title code="0x000010">MUS013 : I'M FULL OF BEART</title>
 			<title code="0x000011">MUS014 : THE SOLDIERS ALIGNE</title>
 			<title code="0x000012">MUS015 : IN FRONT OF CHIFF</title>
-			<title code="0x01ffff">EFC001 : </title>
-			<title code="0x02ffff">EFC002 : </title>
-			<title code="0x03ffff">EFC003 : </title>
-			<title code="0x04ffff">EFC004 : </title>
-			<title code="0x05ffff">EFC005 : </title>
-			<title code="0x06ffff">EFC006 : </title>
-			<title code="0x07ffff">EFC007 : </title>
-			<title code="0x08ffff">EFC008 : </title>
-			<title code="0x09ffff">EFC009 : </title>
-			<title code="0x0affff">EFC010 : </title>
-			<title code="0x0bffff">EFC011 : </title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DUEL 川中島シナリオ</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -635,43 +635,43 @@
 			<rom type="bgm" offset="0x14">MUS119</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000001">MUS100 : </title>
-			<title code="0x000002">MUS101 : </title>
-			<title code="0x000003">MUS102 : </title>
-			<title code="0x000004">MUS103 : </title>
-			<title code="0x000005">MUS104 : </title>
-			<title code="0x000006">MUS105 : </title>
-			<title code="0x000007">MUS106 : </title>
-			<title code="0x000008">MUS107 : </title>
-			<title code="0x000009">MUS108 : </title>
-			<title code="0x00000a">MUS109 : </title>
-			<title code="0x00000b">MUS110 : </title>
-			<title code="0x00000c">MUS111 : </title>
-			<title code="0x00000d">MUS112 : </title>
-			<title code="0x00000e">MUS113 : </title>
-			<title code="0x00000f">MUS114 : </title>
-			<title code="0x000010">MUS115 : </title>
-			<title code="0x000011">MUS116 : </title>
-			<title code="0x000012">MUS117 : </title>
-			<title code="0x000013">MUS118 : </title>
-			<title code="0x000014">MUS119 : </title>
-			<title code="0x01ffff">EFC001 : </title>
-			<title code="0x02ffff">EFC002 : </title>
-			<title code="0x03ffff">EFC003 : </title>
-			<title code="0x04ffff">EFC004 : </title>
-			<title code="0x05ffff">EFC005 : </title>
-			<title code="0x06ffff">EFC006 : </title>
-			<title code="0x07ffff">EFC007 : </title>
-			<title code="0x08ffff">EFC008 : </title>
-			<title code="0x09ffff">EFC009 : </title>
-			<title code="0x0affff">EFC010 : </title>
-			<title code="0x0bffff">EFC011 : </title>
+			<title code="0x000001">MUS100</title>
+			<title code="0x000002">MUS101</title>
+			<title code="0x000003">MUS102</title>
+			<title code="0x000004">MUS103</title>
+			<title code="0x000005">MUS104</title>
+			<title code="0x000006">MUS105</title>
+			<title code="0x000007">MUS106</title>
+			<title code="0x000008">MUS107</title>
+			<title code="0x000009">MUS108</title>
+			<title code="0x00000a">MUS109</title>
+			<title code="0x00000b">MUS110</title>
+			<title code="0x00000c">MUS111</title>
+			<title code="0x00000d">MUS112</title>
+			<title code="0x00000e">MUS113</title>
+			<title code="0x00000f">MUS114</title>
+			<title code="0x000010">MUS115</title>
+			<title code="0x000011">MUS116</title>
+			<title code="0x000012">MUS117</title>
+			<title code="0x000013">MUS118</title>
+			<title code="0x000014">MUS119</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 川中島異聞録</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -710,67 +710,67 @@
 			<rom type="bgm" offset="0x18">MUS222</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000001">OPNMUS-00 : </title>
-			<title code="0x010001">OPNMUS-01 : </title>
-		<!--	<title code="0x020001">OPNMUS-02 : </title> -->
-		<!--	<title code="0x030001">OPNMUS-03 : </title> -->
-		<!--	<title code="0x040001">OPNMUS-04 : </title> -->
-			<title code="0x090002">MUS200-09 : </title>
-			<title code="0x090003">MUS201-09 : </title>
-			<title code="0x090004">MUS202-09 : </title>
-			<title code="0x090005">MUS203-09 : </title>
-			<title code="0x090006">MUS204-09 : </title>
-			<title code="0x090007">MUS205-09 : </title>
-			<title code="0x090008">MUS206-09 : </title>
-			<title code="0x090009">MUS207-09 : </title>
-			<title code="0x09000a">MUS208-09 : </title>
-			<title code="0x09000b">MUS209-09 : </title>
-			<title code="0x09000c">MUS210-09 : </title>
-			<title code="0x09000d">MUS211-09 : </title>
-			<title code="0x09000e">MUS212-09 : </title>
-			<title code="0x09000f">MUS213-09 : </title>
-			<title code="0x090010">MUS214-09 : </title>
-			<title code="0x090011">MUS215-09 : </title>
-			<title code="0x090012">MUS216-09 : </title>
-			<title code="0x090013">MUS217-09 : </title>
-			<title code="0x090014">MUS218-09 : </title>
-			<title code="0x090015">MUS219-09 : </title>
-			<title code="0x090016">MUS220-09 : </title>
-			<title code="0x090017">MUS221-09 : </title>
-			<title code="0x090018">MUS222-09 : </title>
-			<title code="0x000018">MUS222-00 : </title>
-			<title code="0x010018">MUS222-01 : </title>
-			<title code="0x020018">MUS222-02 : </title>
-			<title code="0x030018">MUS222-03 : </title>
-			<title code="0x040018">MUS222-04 : </title>
-			<title code="0x050018">MUS222-05 : </title>
-			<title code="0x060018">MUS222-06 : </title>
-			<title code="0x070018">MUS222-07 : </title>
-			<title code="0x080018">MUS222-08 : </title>
-			<title code="0x01ffff">EFC001    : </title>
-			<title code="0x02ffff">EFC002    : </title>
-			<title code="0x03ffff">EFC003    : </title>
-			<title code="0x04ffff">EFC004    : </title>
-			<title code="0x05ffff">EFC005    : </title>
-			<title code="0x06ffff">EFC006    : </title>
-			<title code="0x07ffff">EFC007    : </title>
-			<title code="0x08ffff">EFC008    : </title>
-			<title code="0x09ffff">EFC009    : </title>
-			<title code="0x0affff">EFC010    : </title>
-			<title code="0x0bffff">EFC011    : </title>
-			<title code="0x0cffff">EFC012    : </title>
-			<title code="0x0dffff">EFC013    : </title>
-			<title code="0x0effff">EFC014    : </title>
-			<title code="0x0fffff">EFC015    : </title>
-			<title code="0x10ffff">EFC016    : </title>
-			<title code="0x11ffff">EFC017    : </title>
-			<title code="0x12ffff">EFC018    : </title>
+			<title code="0x000001">OPNMUS-00</title>
+			<title code="0x010001">OPNMUS-01</title>
+		<!--	<title code="0x020001">OPNMUS-02</title> -->
+		<!--	<title code="0x030001">OPNMUS-03</title> -->
+		<!--	<title code="0x040001">OPNMUS-04</title> -->
+			<title code="0x090002">MUS200-09</title>
+			<title code="0x090003">MUS201-09</title>
+			<title code="0x090004">MUS202-09</title>
+			<title code="0x090005">MUS203-09</title>
+			<title code="0x090006">MUS204-09</title>
+			<title code="0x090007">MUS205-09</title>
+			<title code="0x090008">MUS206-09</title>
+			<title code="0x090009">MUS207-09</title>
+			<title code="0x09000a">MUS208-09</title>
+			<title code="0x09000b">MUS209-09</title>
+			<title code="0x09000c">MUS210-09</title>
+			<title code="0x09000d">MUS211-09</title>
+			<title code="0x09000e">MUS212-09</title>
+			<title code="0x09000f">MUS213-09</title>
+			<title code="0x090010">MUS214-09</title>
+			<title code="0x090011">MUS215-09</title>
+			<title code="0x090012">MUS216-09</title>
+			<title code="0x090013">MUS217-09</title>
+			<title code="0x090014">MUS218-09</title>
+			<title code="0x090015">MUS219-09</title>
+			<title code="0x090016">MUS220-09</title>
+			<title code="0x090017">MUS221-09</title>
+			<title code="0x090018">MUS222-09</title>
+			<title code="0x000018">MUS222-00</title>
+			<title code="0x010018">MUS222-01</title>
+			<title code="0x020018">MUS222-02</title>
+			<title code="0x030018">MUS222-03</title>
+			<title code="0x040018">MUS222-04</title>
+			<title code="0x050018">MUS222-05</title>
+			<title code="0x060018">MUS222-06</title>
+			<title code="0x070018">MUS222-07</title>
+			<title code="0x080018">MUS222-08</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
+			<title code="0x0cffff">EFC012</title>
+			<title code="0x0dffff">EFC013</title>
+			<title code="0x0effff">EFC014</title>
+			<title code="0x0fffff">EFC015</title>
+			<title code="0x10ffff">EFC016</title>
+			<title code="0x11ffff">EFC017</title>
+			<title code="0x12ffff">EFC018</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] FIRST QUEEN IV -バルシア戦記-(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -826,97 +826,97 @@
 			<rom type="bgm" offset="0x29">FQ4OM_FM.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010001">BGM-01.BIN   : </title>
-			<title code="0x010002">BGM-02.BIN   : </title>
-			<title code="0x010003">BGM-03.BIN   : </title>
-			<title code="0x010004">BGM-04.BIN   : </title>
-			<title code="0x010005">BGM-05.BIN   : </title>
-			<title code="0x010006">BGM-06.BIN   : </title>
-			<title code="0x010007">BGM-07.BIN   : </title>
-			<title code="0x010008">BGM-08.BIN   : </title>
-			<title code="0x010009">BGM-09.BIN   : </title>
-			<title code="0x01000a">BGM-10.BIN   : </title>
-			<title code="0x01000b">BGM-11.BIN   : </title>
-			<title code="0x01000c">BGM-12.BIN   : </title>
-			<title code="0x01000d">BGM-13.BIN   : </title>
-			<title code="0x01000e">BGM-14.BIN   : </title>
-			<title code="0x01000f">BGM-15.BIN   : </title>
-			<title code="0x010010">BGM-16.BIN   : </title>
-			<title code="0x010011">BGM-17.BIN   : </title>
-			<title code="0x010012">BGM-18.BIN   : </title>
-			<title code="0x010013">BGM-19.BIN   : </title>
-			<title code="0x010014">BGM-20.BIN   : </title>
-			<title code="0x010015">BGM-21.BIN   : </title>
-			<title code="0x010016">BGM-22.BIN   : </title>
-			<title code="0x010017">BGM-23.BIN   : </title>
-			<title code="0x010018">BGM-24.BIN   : </title>
-			<title code="0x010019">BGM-25.BIN   : </title>
-			<title code="0x01001a">BGM-26.BIN   : </title>
-		<!--	<title code="0x01001b">BGM-27.BIN   : </title> -->
-			<title code="0x01001c">BGM-28.BIN   : </title>
-			<title code="0x01001d">BGM-29.BIN   : </title>
-			<title code="0x01001e">BGM-30.BIN   : </title>
-			<title code="0x01001f">BGM-31.BIN   : </title>
-			<title code="0x010020">BGM-32.BIN   : </title>
-			<title code="0x010021">BGM-33.BIN   : </title>
-			<title code="0x010022">BGM-34.BIN   : </title>
-			<title code="0x010023">BGM-35.BIN   : </title>
-			<title code="0x010024">BGM-36.BIN   : </title>
-			<title code="0x010025">BGM-37.BIN   : </title>
-			<title code="0x010026">BGM-38.BIN   : </title>
-			<title code="0x010027">BGM-39.BIN   : </title>
-			<title code="0x010028">BGM-40.BIN   : </title>
-			<title code="0x020029">FQ4OM_FM.BIN : </title>
-			<title code="0x01ffff">EFC001       : </title>
-			<title code="0x02ffff">EFC002       : </title>
-			<title code="0x03ffff">EFC003       : </title>
-			<title code="0x04ffff">EFC004       : </title>
-			<title code="0x05ffff">EFC005       : </title>
-			<title code="0x06ffff">EFC006       : </title>
-			<title code="0x07ffff">EFC007       : </title>
-			<title code="0x08ffff">EFC008       : </title>
-			<title code="0x09ffff">EFC009       : </title>
-			<title code="0x0affff">EFC010       : </title>
-			<title code="0x0bffff">EFC011       : </title>
-			<title code="0x0cffff">EFC012       : </title>
-			<title code="0x0dffff">EFC013       : </title>
-			<title code="0x0effff">EFC014       : </title>
-			<title code="0x0fffff">EFC015       : </title>
-			<title code="0x10ffff">EFC016       : </title>
-			<title code="0x11ffff">EFC017       : </title>
-			<title code="0x12ffff">EFC018       : </title>
-			<title code="0x13ffff">EFC019       : </title>
-			<title code="0x14ffff">EFC020       : </title>
-			<title code="0x15ffff">EFC021       : </title>
-			<title code="0x16ffff">EFC022       : </title>
-			<title code="0x17ffff">EFC023       : </title>
-			<title code="0x18ffff">EFC024       : </title>
-			<title code="0x19ffff">EFC025       : </title>
-			<title code="0x1affff">EFC026       : </title>
-			<title code="0x1bffff">EFC027       : </title>
-			<title code="0x1cffff">EFC028       : </title>
-			<title code="0x1dffff">EFC029       : </title>
-			<title code="0x1effff">EFC030       : </title>
-			<title code="0x1fffff">EFC031       : </title>
-			<title code="0x20ffff">EFC032       : </title>
-			<title code="0x21ffff">EFC033       : </title>
-			<title code="0x22ffff">EFC034       : </title>
-			<title code="0x23ffff">EFC035       : </title>
-			<title code="0x24ffff">EFC036       : </title>
-			<title code="0x25ffff">EFC037       : </title>
-			<title code="0x26ffff">EFC038       : </title>
-			<title code="0x27ffff">EFC039       : </title>
-			<title code="0x28ffff">EFC040       : </title>
-			<title code="0x29ffff">EFC041       : </title>
-			<title code="0x2affff">EFC042       : </title>
-			<title code="0x2bffff">EFC043       : </title>
-			<title code="0x2cffff">EFC044       : </title>
+			<title code="0x010001">BGM-01.BIN</title>
+			<title code="0x010002">BGM-02.BIN</title>
+			<title code="0x010003">BGM-03.BIN</title>
+			<title code="0x010004">BGM-04.BIN</title>
+			<title code="0x010005">BGM-05.BIN</title>
+			<title code="0x010006">BGM-06.BIN</title>
+			<title code="0x010007">BGM-07.BIN</title>
+			<title code="0x010008">BGM-08.BIN</title>
+			<title code="0x010009">BGM-09.BIN</title>
+			<title code="0x01000a">BGM-10.BIN</title>
+			<title code="0x01000b">BGM-11.BIN</title>
+			<title code="0x01000c">BGM-12.BIN</title>
+			<title code="0x01000d">BGM-13.BIN</title>
+			<title code="0x01000e">BGM-14.BIN</title>
+			<title code="0x01000f">BGM-15.BIN</title>
+			<title code="0x010010">BGM-16.BIN</title>
+			<title code="0x010011">BGM-17.BIN</title>
+			<title code="0x010012">BGM-18.BIN</title>
+			<title code="0x010013">BGM-19.BIN</title>
+			<title code="0x010014">BGM-20.BIN</title>
+			<title code="0x010015">BGM-21.BIN</title>
+			<title code="0x010016">BGM-22.BIN</title>
+			<title code="0x010017">BGM-23.BIN</title>
+			<title code="0x010018">BGM-24.BIN</title>
+			<title code="0x010019">BGM-25.BIN</title>
+			<title code="0x01001a">BGM-26.BIN</title>
+		<!--	<title code="0x01001b">BGM-27.BIN</title> -->
+			<title code="0x01001c">BGM-28.BIN</title>
+			<title code="0x01001d">BGM-29.BIN</title>
+			<title code="0x01001e">BGM-30.BIN</title>
+			<title code="0x01001f">BGM-31.BIN</title>
+			<title code="0x010020">BGM-32.BIN</title>
+			<title code="0x010021">BGM-33.BIN</title>
+			<title code="0x010022">BGM-34.BIN</title>
+			<title code="0x010023">BGM-35.BIN</title>
+			<title code="0x010024">BGM-36.BIN</title>
+			<title code="0x010025">BGM-37.BIN</title>
+			<title code="0x010026">BGM-38.BIN</title>
+			<title code="0x010027">BGM-39.BIN</title>
+			<title code="0x010028">BGM-40.BIN</title>
+			<title code="0x020029">FQ4OM_FM.BIN</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
+			<title code="0x0cffff">EFC012</title>
+			<title code="0x0dffff">EFC013</title>
+			<title code="0x0effff">EFC014</title>
+			<title code="0x0fffff">EFC015</title>
+			<title code="0x10ffff">EFC016</title>
+			<title code="0x11ffff">EFC017</title>
+			<title code="0x12ffff">EFC018</title>
+			<title code="0x13ffff">EFC019</title>
+			<title code="0x14ffff">EFC020</title>
+			<title code="0x15ffff">EFC021</title>
+			<title code="0x16ffff">EFC022</title>
+			<title code="0x17ffff">EFC023</title>
+			<title code="0x18ffff">EFC024</title>
+			<title code="0x19ffff">EFC025</title>
+			<title code="0x1affff">EFC026</title>
+			<title code="0x1bffff">EFC027</title>
+			<title code="0x1cffff">EFC028</title>
+			<title code="0x1dffff">EFC029</title>
+			<title code="0x1effff">EFC030</title>
+			<title code="0x1fffff">EFC031</title>
+			<title code="0x20ffff">EFC032</title>
+			<title code="0x21ffff">EFC033</title>
+			<title code="0x22ffff">EFC034</title>
+			<title code="0x23ffff">EFC035</title>
+			<title code="0x24ffff">EFC036</title>
+			<title code="0x25ffff">EFC037</title>
+			<title code="0x26ffff">EFC038</title>
+			<title code="0x27ffff">EFC039</title>
+			<title code="0x28ffff">EFC040</title>
+			<title code="0x29ffff">EFC041</title>
+			<title code="0x2affff">EFC042</title>
+			<title code="0x2bffff">EFC043</title>
+			<title code="0x2cffff">EFC044</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] FIRST QUEEN IV -バルシア戦記-(SC-55)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -974,53 +974,53 @@
 			<rom type="bgm" offset="0x29">FQ4OM_MD.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010001">MID-01.BIN   : </title>
-			<title code="0x010002">MID-02.BIN   : </title>
-			<title code="0x010003">MID-03.BIN   : </title>
-			<title code="0x010004">MID-04.BIN   : </title>
-			<title code="0x010005">MID-05.BIN   : </title>
-			<title code="0x010006">MID-06.BIN   : </title>
-			<title code="0x010007">MID-07.BIN   : </title>
-			<title code="0x010008">MID-08.BIN   : </title>
-			<title code="0x010009">MID-09.BIN   : </title>
-			<title code="0x01000a">MID-10.BIN   : </title>
-			<title code="0x01000b">MID-11.BIN   : </title>
-			<title code="0x01000c">MID-12.BIN   : </title>
-			<title code="0x01000d">MID-13.BIN   : </title>
-			<title code="0x01000e">MID-14.BIN   : </title>
-			<title code="0x01000f">MID-15.BIN   : </title>
-			<title code="0x010010">MID-16.BIN   : </title>
-			<title code="0x010011">MID-17.BIN   : </title>
-			<title code="0x010012">MID-18.BIN   : </title>
-			<title code="0x010013">MID-19.BIN   : </title>
-			<title code="0x010014">MID-20.BIN   : </title>
-			<title code="0x010015">MID-21.BIN   : </title>
-			<title code="0x010016">MID-22.BIN   : </title>
-			<title code="0x010017">MID-23.BIN   : </title>
-			<title code="0x010018">MID-24.BIN   : </title>
-			<title code="0x010019">MID-25.BIN   : </title>
-			<title code="0x01001a">MID-26.BIN   : </title>
-		<!--	<title code="0x01001b">MID-27.BIN   : </title> -->
-			<title code="0x01001c">MID-28.BIN   : </title>
-			<title code="0x01001d">MID-29.BIN   : </title>
-			<title code="0x01001e">MID-30.BIN   : </title>
-			<title code="0x01001f">MID-31.BIN   : </title>
-			<title code="0x010020">MID-32.BIN   : </title>
-			<title code="0x010021">MID-33.BIN   : </title>
-			<title code="0x010022">MID-34.BIN   : </title>
-			<title code="0x010023">MID-35.BIN   : </title>
-			<title code="0x010024">MID-36.BIN   : </title>
-			<title code="0x010025">MID-37.BIN   : </title>
-			<title code="0x010026">MID-38.BIN   : </title>
-			<title code="0x010027">MID-39.BIN   : </title>
-			<title code="0x010028">MID-40.BIN   : </title>
-			<title code="0x020029">FQ4OM_MD.BIN : </title>
+			<title code="0x010001">MID-01.BIN</title>
+			<title code="0x010002">MID-02.BIN</title>
+			<title code="0x010003">MID-03.BIN</title>
+			<title code="0x010004">MID-04.BIN</title>
+			<title code="0x010005">MID-05.BIN</title>
+			<title code="0x010006">MID-06.BIN</title>
+			<title code="0x010007">MID-07.BIN</title>
+			<title code="0x010008">MID-08.BIN</title>
+			<title code="0x010009">MID-09.BIN</title>
+			<title code="0x01000a">MID-10.BIN</title>
+			<title code="0x01000b">MID-11.BIN</title>
+			<title code="0x01000c">MID-12.BIN</title>
+			<title code="0x01000d">MID-13.BIN</title>
+			<title code="0x01000e">MID-14.BIN</title>
+			<title code="0x01000f">MID-15.BIN</title>
+			<title code="0x010010">MID-16.BIN</title>
+			<title code="0x010011">MID-17.BIN</title>
+			<title code="0x010012">MID-18.BIN</title>
+			<title code="0x010013">MID-19.BIN</title>
+			<title code="0x010014">MID-20.BIN</title>
+			<title code="0x010015">MID-21.BIN</title>
+			<title code="0x010016">MID-22.BIN</title>
+			<title code="0x010017">MID-23.BIN</title>
+			<title code="0x010018">MID-24.BIN</title>
+			<title code="0x010019">MID-25.BIN</title>
+			<title code="0x01001a">MID-26.BIN</title>
+		<!--	<title code="0x01001b">MID-27.BIN</title> -->
+			<title code="0x01001c">MID-28.BIN</title>
+			<title code="0x01001d">MID-29.BIN</title>
+			<title code="0x01001e">MID-30.BIN</title>
+			<title code="0x01001f">MID-31.BIN</title>
+			<title code="0x010020">MID-32.BIN</title>
+			<title code="0x010021">MID-33.BIN</title>
+			<title code="0x010022">MID-34.BIN</title>
+			<title code="0x010023">MID-35.BIN</title>
+			<title code="0x010024">MID-36.BIN</title>
+			<title code="0x010025">MID-37.BIN</title>
+			<title code="0x010026">MID-38.BIN</title>
+			<title code="0x010027">MID-39.BIN</title>
+			<title code="0x010028">MID-40.BIN</title>
+			<title code="0x020029">FQ4OM_MD.BIN</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DARK SERAPHIM</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1072,113 +1072,113 @@
 			<rom type="bgm" offset="0x25">BGM-37.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010001">BGM-01.BIN : </title>
-			<title code="0x010002">BGM-02.BIN : </title>
-			<title code="0x010003">BGM-03.BIN : </title>
-			<title code="0x010004">BGM-04.BIN : </title>
-			<title code="0x010005">BGM-05.BIN : </title>
-			<title code="0x010006">BGM-06.BIN : </title>
-			<title code="0x010007">BGM-07.BIN : </title>
-			<title code="0x010008">BGM-08.BIN : </title>
-			<title code="0x010009">BGM-09.BIN : </title>
-			<title code="0x01000a">BGM-10.BIN : </title>
-			<title code="0x01000b">BGM-11.BIN : </title>
-			<title code="0x01000c">BGM-12.BIN : </title>
-			<title code="0x01000d">BGM-13.BIN : </title>
-			<title code="0x01000e">BGM-14.BIN : </title>
-			<title code="0x01000f">BGM-15.BIN : </title>
-			<title code="0x010010">BGM-16.BIN : </title>
-			<title code="0x010011">BGM-17.BIN : </title>
-			<title code="0x010012">BGM-18.BIN : </title>
-			<title code="0x010013">BGM-19.BIN : </title>
-			<title code="0x010014">BGM-20.BIN : </title>
-			<title code="0x010015">BGM-21.BIN : </title>
-			<title code="0x010016">BGM-22.BIN : </title>
-			<title code="0x010017">BGM-23.BIN : </title>
-			<title code="0x010018">BGM-24.BIN : </title>
-			<title code="0x010019">BGM-25.BIN : </title>
-			<title code="0x01001a">BGM-26.BIN : </title>
-			<title code="0x01001b">BGM-27.BIN : </title>
-			<title code="0x01001c">BGM-28.BIN : </title>
-			<title code="0x01001d">BGM-29.BIN : </title>
-			<title code="0x01001e">BGM-30.BIN : </title>
-			<title code="0x01001f">BGM-31.BIN : </title>
-			<title code="0x010020">BGM-32.BIN : </title>
-			<title code="0x010021">BGM-33.BIN : </title>
-			<title code="0x010022">BGM-34.BIN : </title>
-			<title code="0x010023">BGM-35.BIN : </title>
-			<title code="0x010024">BGM-36.BIN : </title>
-			<title code="0x010025">BGM-37.BIN : </title>
-			<title code="0x01ffff">EFC001     : </title>
-			<title code="0x02ffff">EFC002     : </title>
-			<title code="0x03ffff">EFC003     : </title>
-			<title code="0x04ffff">EFC004     : </title>
-			<title code="0x05ffff">EFC005     : </title>
-			<title code="0x06ffff">EFC006     : </title>
-			<title code="0x07ffff">EFC007     : </title>
-			<title code="0x08ffff">EFC008     : </title>
-			<title code="0x09ffff">EFC009     : </title>
-			<title code="0x0affff">EFC010     : </title>
-			<title code="0x0bffff">EFC011     : </title>
-			<title code="0x0cffff">EFC012     : </title>
-			<title code="0x0dffff">EFC013     : </title>
-			<title code="0x0effff">EFC014     : </title>
-			<title code="0x0fffff">EFC015     : </title>
-			<title code="0x10ffff">EFC016     : </title>
-			<title code="0x11ffff">EFC017     : </title>
-			<title code="0x12ffff">EFC018     : </title>
-			<title code="0x13ffff">EFC019     : </title>
-			<title code="0x14ffff">EFC020     : </title>
-			<title code="0x15ffff">EFC021     : </title>
-			<title code="0x16ffff">EFC022     : </title>
-			<title code="0x17ffff">EFC023     : </title>
-			<title code="0x18ffff">EFC024     : </title>
-			<title code="0x19ffff">EFC025     : </title>
-			<title code="0x1affff">EFC026     : </title>
-			<title code="0x1bffff">EFC027     : </title>
-			<title code="0x1cffff">EFC028     : </title>
-			<title code="0x1dffff">EFC029     : </title>
-			<title code="0x1effff">EFC030     : </title>
-			<title code="0x1fffff">EFC031     : </title>
-			<title code="0x20ffff">EFC032     : </title>
-			<title code="0x21ffff">EFC033     : </title>
-			<title code="0x22ffff">EFC034     : </title>
-			<title code="0x23ffff">EFC035     : </title>
-			<title code="0x24ffff">EFC036     : </title>
-			<title code="0x25ffff">EFC037     : </title>
-			<title code="0x26ffff">EFC038     : </title>
-			<title code="0x27ffff">EFC039     : </title>
-			<title code="0x28ffff">EFC040     : </title>
-			<title code="0x29ffff">EFC041     : </title>
-			<title code="0x2affff">EFC042     : </title>
-			<title code="0x2bffff">EFC043     : </title>
-			<title code="0x2cffff">EFC044     : </title>
-			<title code="0x2dffff">EFC045     : </title>
-			<title code="0x2effff">EFC046     : </title>
-			<title code="0x2fffff">EFC047     : </title>
-			<title code="0x30ffff">EFC048     : </title>
-			<title code="0x31ffff">EFC049     : </title>
-			<title code="0x32ffff">EFC050     : </title>
-			<title code="0x33ffff">EFC051     : </title>
-			<title code="0x34ffff">EFC052     : </title>
-			<title code="0x35ffff">EFC053     : </title>
-			<title code="0x36ffff">EFC054     : </title>
-			<title code="0x37ffff">EFC055     : </title>
-			<title code="0x38ffff">EFC056     : </title>
-			<title code="0x39ffff">EFC057     : </title>
-			<title code="0x3affff">EFC058     : </title>
-			<title code="0x3bffff">EFC059     : </title>
-			<title code="0x3cffff">EFC060     : </title>
-			<title code="0x3dffff">EFC061     : </title>
-			<title code="0x3effff">EFC062     : </title>
-			<title code="0x3fffff">EFC063     : </title>
-			<title code="0x40ffff">EFC064     : </title>
+			<title code="0x010001">BGM-01.BIN</title>
+			<title code="0x010002">BGM-02.BIN</title>
+			<title code="0x010003">BGM-03.BIN</title>
+			<title code="0x010004">BGM-04.BIN</title>
+			<title code="0x010005">BGM-05.BIN</title>
+			<title code="0x010006">BGM-06.BIN</title>
+			<title code="0x010007">BGM-07.BIN</title>
+			<title code="0x010008">BGM-08.BIN</title>
+			<title code="0x010009">BGM-09.BIN</title>
+			<title code="0x01000a">BGM-10.BIN</title>
+			<title code="0x01000b">BGM-11.BIN</title>
+			<title code="0x01000c">BGM-12.BIN</title>
+			<title code="0x01000d">BGM-13.BIN</title>
+			<title code="0x01000e">BGM-14.BIN</title>
+			<title code="0x01000f">BGM-15.BIN</title>
+			<title code="0x010010">BGM-16.BIN</title>
+			<title code="0x010011">BGM-17.BIN</title>
+			<title code="0x010012">BGM-18.BIN</title>
+			<title code="0x010013">BGM-19.BIN</title>
+			<title code="0x010014">BGM-20.BIN</title>
+			<title code="0x010015">BGM-21.BIN</title>
+			<title code="0x010016">BGM-22.BIN</title>
+			<title code="0x010017">BGM-23.BIN</title>
+			<title code="0x010018">BGM-24.BIN</title>
+			<title code="0x010019">BGM-25.BIN</title>
+			<title code="0x01001a">BGM-26.BIN</title>
+			<title code="0x01001b">BGM-27.BIN</title>
+			<title code="0x01001c">BGM-28.BIN</title>
+			<title code="0x01001d">BGM-29.BIN</title>
+			<title code="0x01001e">BGM-30.BIN</title>
+			<title code="0x01001f">BGM-31.BIN</title>
+			<title code="0x010020">BGM-32.BIN</title>
+			<title code="0x010021">BGM-33.BIN</title>
+			<title code="0x010022">BGM-34.BIN</title>
+			<title code="0x010023">BGM-35.BIN</title>
+			<title code="0x010024">BGM-36.BIN</title>
+			<title code="0x010025">BGM-37.BIN</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
+			<title code="0x0cffff">EFC012</title>
+			<title code="0x0dffff">EFC013</title>
+			<title code="0x0effff">EFC014</title>
+			<title code="0x0fffff">EFC015</title>
+			<title code="0x10ffff">EFC016</title>
+			<title code="0x11ffff">EFC017</title>
+			<title code="0x12ffff">EFC018</title>
+			<title code="0x13ffff">EFC019</title>
+			<title code="0x14ffff">EFC020</title>
+			<title code="0x15ffff">EFC021</title>
+			<title code="0x16ffff">EFC022</title>
+			<title code="0x17ffff">EFC023</title>
+			<title code="0x18ffff">EFC024</title>
+			<title code="0x19ffff">EFC025</title>
+			<title code="0x1affff">EFC026</title>
+			<title code="0x1bffff">EFC027</title>
+			<title code="0x1cffff">EFC028</title>
+			<title code="0x1dffff">EFC029</title>
+			<title code="0x1effff">EFC030</title>
+			<title code="0x1fffff">EFC031</title>
+			<title code="0x20ffff">EFC032</title>
+			<title code="0x21ffff">EFC033</title>
+			<title code="0x22ffff">EFC034</title>
+			<title code="0x23ffff">EFC035</title>
+			<title code="0x24ffff">EFC036</title>
+			<title code="0x25ffff">EFC037</title>
+			<title code="0x26ffff">EFC038</title>
+			<title code="0x27ffff">EFC039</title>
+			<title code="0x28ffff">EFC040</title>
+			<title code="0x29ffff">EFC041</title>
+			<title code="0x2affff">EFC042</title>
+			<title code="0x2bffff">EFC043</title>
+			<title code="0x2cffff">EFC044</title>
+			<title code="0x2dffff">EFC045</title>
+			<title code="0x2effff">EFC046</title>
+			<title code="0x2fffff">EFC047</title>
+			<title code="0x30ffff">EFC048</title>
+			<title code="0x31ffff">EFC049</title>
+			<title code="0x32ffff">EFC050</title>
+			<title code="0x33ffff">EFC051</title>
+			<title code="0x34ffff">EFC052</title>
+			<title code="0x35ffff">EFC053</title>
+			<title code="0x36ffff">EFC054</title>
+			<title code="0x37ffff">EFC055</title>
+			<title code="0x38ffff">EFC056</title>
+			<title code="0x39ffff">EFC057</title>
+			<title code="0x3affff">EFC058</title>
+			<title code="0x3bffff">EFC059</title>
+			<title code="0x3cffff">EFC060</title>
+			<title code="0x3dffff">EFC061</title>
+			<title code="0x3effff">EFC062</title>
+			<title code="0x3fffff">EFC063</title>
+			<title code="0x40ffff">EFC064</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DUEL SUCCESSION</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1226,107 +1226,107 @@
 		</romlist>
 		<titlelist>
 			<title code="0x010001">BGM-01.BIN : Reconnoiter</title>
-			<title code="0x010002">BGM-02.BIN : </title>
+			<title code="0x010002">BGM-02.BIN</title>
 			<title code="0x010003">BGM-03.BIN : 希望の先へ</title>
-			<title code="0x010004">BGM-04.BIN : </title>
+			<title code="0x010004">BGM-04.BIN</title>
 			<title code="0x010005">BGM-05.BIN : 解放の時</title>
-			<title code="0x010006">BGM-06.BIN : </title>
-			<title code="0x010007">BGM-07.BIN : </title>
-			<title code="0x010008">BGM-08.BIN : </title>
-			<title code="0x010009">BGM-09.BIN : </title>
-			<title code="0x01000a">BGM-10.BIN : </title>
-			<title code="0x01000b">BGM-11.BIN : </title>
-			<title code="0x01000c">BGM-12.BIN : </title>
+			<title code="0x010006">BGM-06.BIN</title>
+			<title code="0x010007">BGM-07.BIN</title>
+			<title code="0x010008">BGM-08.BIN</title>
+			<title code="0x010009">BGM-09.BIN</title>
+			<title code="0x01000a">BGM-10.BIN</title>
+			<title code="0x01000b">BGM-11.BIN</title>
+			<title code="0x01000c">BGM-12.BIN</title>
 			<title code="0x01000d">BGM-13.BIN : PICO PICO Story</title>
 			<title code="0x01000e">BGM-14.BIN : Dance to Dance</title>
-		<!--	<title code="0x01000f">BGM-15.BIN : </title> -->
-		<!--	<title code="0x010010">BGM-16.BIN : </title> -->
-		<!--	<title code="0x010011">BGM-17.BIN : </title> -->
-			<title code="0x010012">BGM-18.BIN : </title>
-		<!--	<title code="0x010013">BGM-19.BIN : </title> -->
-			<title code="0x010014">BGM-20.BIN : </title>
-			<title code="0x010015">BGM-21.BIN : </title>
-		<!--	<title code="0x010016">BGM-22.BIN : </title> -->
-			<title code="0x010017">BGM-23.BIN : </title>
-			<title code="0x010018">BGM-24.BIN : </title>
-			<title code="0x010019">BGM-25.BIN : </title>
-			<title code="0x01001a">BGM-26.BIN : </title>
-			<title code="0x01001b">BGM-27.BIN : </title>
-			<title code="0x01001c">BGM-28.BIN : </title>
-		<!--	<title code="0x01001d">BGM-29.BIN : </title> -->
-			<title code="0x01001e">BGM-30.BIN : </title>
-			<title code="0x01001f">BGM-31.BIN : </title>
-			<title code="0x010020">BGM-32.BIN : </title>
-			<title code="0x01ffff">EFC001     : </title>
-			<title code="0x02ffff">EFC002     : </title>
-			<title code="0x03ffff">EFC003     : </title>
-			<title code="0x04ffff">EFC004     : </title>
-			<title code="0x05ffff">EFC005     : </title>
-			<title code="0x06ffff">EFC006     : </title>
-			<title code="0x07ffff">EFC007     : </title>
-			<title code="0x08ffff">EFC008     : </title>
-			<title code="0x09ffff">EFC009     : </title>
-			<title code="0x0affff">EFC010     : </title>
-			<title code="0x0bffff">EFC011     : </title>
-			<title code="0x0cffff">EFC012     : </title>
-			<title code="0x0dffff">EFC013     : </title>
-			<title code="0x0effff">EFC014     : </title>
-			<title code="0x0fffff">EFC015     : </title>
-			<title code="0x10ffff">EFC016     : </title>
-			<title code="0x11ffff">EFC017     : </title>
-			<title code="0x12ffff">EFC018     : </title>
-			<title code="0x13ffff">EFC019     : </title>
-			<title code="0x14ffff">EFC020     : </title>
-			<title code="0x15ffff">EFC021     : </title>
-			<title code="0x16ffff">EFC022     : </title>
-			<title code="0x17ffff">EFC023     : </title>
-			<title code="0x18ffff">EFC024     : </title>
-			<title code="0x19ffff">EFC025     : </title>
-			<title code="0x1affff">EFC026     : </title>
-			<title code="0x1bffff">EFC027     : </title>
-			<title code="0x1cffff">EFC028     : </title>
-			<title code="0x1dffff">EFC029     : </title>
-			<title code="0x1effff">EFC030     : </title>
-			<title code="0x1fffff">EFC031     : </title>
-			<title code="0x20ffff">EFC032     : </title>
-			<title code="0x21ffff">EFC033     : </title>
-			<title code="0x22ffff">EFC034     : </title>
-			<title code="0x23ffff">EFC035     : </title>
-			<title code="0x24ffff">EFC036     : </title>
-			<title code="0x25ffff">EFC037     : </title>
-			<title code="0x26ffff">EFC038     : </title>
-			<title code="0x27ffff">EFC039     : </title>
-			<title code="0x28ffff">EFC040     : </title>
-			<title code="0x29ffff">EFC041     : </title>
-			<title code="0x2affff">EFC042     : </title>
-			<title code="0x2bffff">EFC043     : </title>
-			<title code="0x2cffff">EFC044     : </title>
-			<title code="0x2dffff">EFC045     : </title>
-			<title code="0x2effff">EFC046     : </title>
-			<title code="0x2fffff">EFC047     : </title>
-			<title code="0x30ffff">EFC048     : </title>
-			<title code="0x31ffff">EFC049     : </title>
-			<title code="0x32ffff">EFC050     : </title>
-			<title code="0x33ffff">EFC051     : </title>
-			<title code="0x34ffff">EFC052     : </title>
-			<title code="0x35ffff">EFC053     : </title>
-			<title code="0x36ffff">EFC054     : </title>
-			<title code="0x37ffff">EFC055     : </title>
-			<title code="0x38ffff">EFC056     : </title>
-			<title code="0x39ffff">EFC057     : </title>
-			<title code="0x3affff">EFC058     : </title>
-			<title code="0x3bffff">EFC059     : </title>
-			<title code="0x3cffff">EFC060     : </title>
-			<title code="0x3dffff">EFC061     : </title>
-			<title code="0x3effff">EFC062     : </title>
-			<title code="0x3fffff">EFC063     : </title>
-			<title code="0x40ffff">EFC064     : </title>
+		<!--	<title code="0x01000f">BGM-15.BIN</title> -->
+		<!--	<title code="0x010010">BGM-16.BIN</title> -->
+		<!--	<title code="0x010011">BGM-17.BIN</title> -->
+			<title code="0x010012">BGM-18.BIN</title>
+		<!--	<title code="0x010013">BGM-19.BIN</title> -->
+			<title code="0x010014">BGM-20.BIN</title>
+			<title code="0x010015">BGM-21.BIN</title>
+		<!--	<title code="0x010016">BGM-22.BIN</title> -->
+			<title code="0x010017">BGM-23.BIN</title>
+			<title code="0x010018">BGM-24.BIN</title>
+			<title code="0x010019">BGM-25.BIN</title>
+			<title code="0x01001a">BGM-26.BIN</title>
+			<title code="0x01001b">BGM-27.BIN</title>
+			<title code="0x01001c">BGM-28.BIN</title>
+		<!--	<title code="0x01001d">BGM-29.BIN</title> -->
+			<title code="0x01001e">BGM-30.BIN</title>
+			<title code="0x01001f">BGM-31.BIN</title>
+			<title code="0x010020">BGM-32.BIN</title>
+			<title code="0x01ffff">EFC001</title>
+			<title code="0x02ffff">EFC002</title>
+			<title code="0x03ffff">EFC003</title>
+			<title code="0x04ffff">EFC004</title>
+			<title code="0x05ffff">EFC005</title>
+			<title code="0x06ffff">EFC006</title>
+			<title code="0x07ffff">EFC007</title>
+			<title code="0x08ffff">EFC008</title>
+			<title code="0x09ffff">EFC009</title>
+			<title code="0x0affff">EFC010</title>
+			<title code="0x0bffff">EFC011</title>
+			<title code="0x0cffff">EFC012</title>
+			<title code="0x0dffff">EFC013</title>
+			<title code="0x0effff">EFC014</title>
+			<title code="0x0fffff">EFC015</title>
+			<title code="0x10ffff">EFC016</title>
+			<title code="0x11ffff">EFC017</title>
+			<title code="0x12ffff">EFC018</title>
+			<title code="0x13ffff">EFC019</title>
+			<title code="0x14ffff">EFC020</title>
+			<title code="0x15ffff">EFC021</title>
+			<title code="0x16ffff">EFC022</title>
+			<title code="0x17ffff">EFC023</title>
+			<title code="0x18ffff">EFC024</title>
+			<title code="0x19ffff">EFC025</title>
+			<title code="0x1affff">EFC026</title>
+			<title code="0x1bffff">EFC027</title>
+			<title code="0x1cffff">EFC028</title>
+			<title code="0x1dffff">EFC029</title>
+			<title code="0x1effff">EFC030</title>
+			<title code="0x1fffff">EFC031</title>
+			<title code="0x20ffff">EFC032</title>
+			<title code="0x21ffff">EFC033</title>
+			<title code="0x22ffff">EFC034</title>
+			<title code="0x23ffff">EFC035</title>
+			<title code="0x24ffff">EFC036</title>
+			<title code="0x25ffff">EFC037</title>
+			<title code="0x26ffff">EFC038</title>
+			<title code="0x27ffff">EFC039</title>
+			<title code="0x28ffff">EFC040</title>
+			<title code="0x29ffff">EFC041</title>
+			<title code="0x2affff">EFC042</title>
+			<title code="0x2bffff">EFC043</title>
+			<title code="0x2cffff">EFC044</title>
+			<title code="0x2dffff">EFC045</title>
+			<title code="0x2effff">EFC046</title>
+			<title code="0x2fffff">EFC047</title>
+			<title code="0x30ffff">EFC048</title>
+			<title code="0x31ffff">EFC049</title>
+			<title code="0x32ffff">EFC050</title>
+			<title code="0x33ffff">EFC051</title>
+			<title code="0x34ffff">EFC052</title>
+			<title code="0x35ffff">EFC053</title>
+			<title code="0x36ffff">EFC054</title>
+			<title code="0x37ffff">EFC055</title>
+			<title code="0x38ffff">EFC056</title>
+			<title code="0x39ffff">EFC057</title>
+			<title code="0x3affff">EFC058</title>
+			<title code="0x3bffff">EFC059</title>
+			<title code="0x3cffff">EFC060</title>
+			<title code="0x3dffff">EFC061</title>
+			<title code="0x3effff">EFC062</title>
+			<title code="0x3fffff">EFC063</title>
+			<title code="0x40ffff">EFC064</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] EARLY KINGDOM</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1361,27 +1361,27 @@
 		</romlist>
 		<titlelist>
 		<!--	<title code="0x000010">EK00.BIN : 演奏停止</title> -->
-			<title code="0x000011">EK01.BIN : </title>
-			<title code="0x000012">EK02.BIN : </title>
-			<title code="0x000013">EK03.BIN : </title>
-			<title code="0x000014">EK04.BIN : </title>
-			<title code="0x000015">EK05.BIN : </title>
-			<title code="0x000016">EK06.BIN : </title>
-			<title code="0x000017">EK07.BIN : </title>
-			<title code="0x000018">EK08.BIN : </title>
-			<title code="0x000019">EK09.BIN : </title>
-			<title code="0x00001a">EK10.BIN : </title>
-			<title code="0x00001b">EK11.BIN : </title>
-			<title code="0x00001c">EK12.BIN : </title>
-			<title code="0x00001d">EK13.BIN : </title>
-			<title code="0x00001e">EK14.BIN : </title>
-			<title code="0x00001f">EK15.BIN : </title>
-			<title code="0x000020">EK16.BIN : </title>
-			<title code="0x000021">EK17.BIN : </title>
-			<title code="0x000022">EK18.BIN : </title>
-			<title code="0x000023">EK19.BIN : </title>
-			<title code="0x000024">EK20.BIN : </title>
-			<title code="0x000025">EK21.BIN : </title>
+			<title code="0x000011">EK01.BIN</title>
+			<title code="0x000012">EK02.BIN</title>
+			<title code="0x000013">EK03.BIN</title>
+			<title code="0x000014">EK04.BIN</title>
+			<title code="0x000015">EK05.BIN</title>
+			<title code="0x000016">EK06.BIN</title>
+			<title code="0x000017">EK07.BIN</title>
+			<title code="0x000018">EK08.BIN</title>
+			<title code="0x000019">EK09.BIN</title>
+			<title code="0x00001a">EK10.BIN</title>
+			<title code="0x00001b">EK11.BIN</title>
+			<title code="0x00001c">EK12.BIN</title>
+			<title code="0x00001d">EK13.BIN</title>
+			<title code="0x00001e">EK14.BIN</title>
+			<title code="0x00001f">EK15.BIN</title>
+			<title code="0x000020">EK16.BIN</title>
+			<title code="0x000021">EK17.BIN</title>
+			<title code="0x000022">EK18.BIN</title>
+			<title code="0x000023">EK19.BIN</title>
+			<title code="0x000024">EK20.BIN</title>
+			<title code="0x000025">EK21.BIN</title>
 			<title code="0x01ffff">効果音#01</title>
 			<title code="0x02ffff">効果音#02</title>
 			<title code="0x03ffff">効果音#03</title>
@@ -1407,7 +1407,7 @@
 	<game>
 		<name>[PC-88VA] FIRST QUEEN －オルニック戦記－</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="NEC PC-88VA">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-88VA">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1444,7 +1444,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">MUS00 : Prince of palace</title>
-			<title code="0x02">MUS01 : </title>
+			<title code="0x02">MUS01</title>
 			<title code="0x03">MUS02 : Nuts About The Girl</title>
 			<title code="0x04">MUS03 : In A Row</title>
 			<title code="0x05">MUS04 : A Martial Spirit</title>
@@ -1470,7 +1470,7 @@
 	<game>
 		<name>[X68000] FIRST QUEEN -オルニック戦記-</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">呉ソフトウェア工房</driveralias>
+		<driveralias type="X68000">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -1514,7 +1514,7 @@
 	<game>
 		<name>[X68000] FIRST QUEEN II -砂漠の女王-</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">呉ソフトウェア工房</driveralias>
+		<driveralias type="X68000">呉ソフトウェア工房</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>

@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] DEAD OF THE BRAIN ～死霊の叫び～</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -70,7 +70,7 @@
 	<game>
 		<name>[X68000] XIX [ギゼ!]</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -110,7 +110,7 @@
 	<game>
 		<name>[X68000] X･na [キサナ]</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="xna68snd">
 			<rom type="code" offset="0x00000">xna68snd.bin</rom>
 			<rom type="x" offset="0x10000">SMUSIC.X</rom>
@@ -180,7 +180,7 @@
 	<game>
 		<name>[X68000] あっぷる・くらぶ</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="applec68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -190,15 +190,15 @@
 			<rom type="code" offset="0x34000">APPLE_CLUB.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0603">APPLE.OPM   : </title>
-			<title code="0x0605">VICTORY.OPM : </title>
-			<title code="0x0604">GIVEUP.OPM  : </title>
+			<title code="0x0603">APPLE.OPM</title>
+			<title code="0x0605">VICTORY.OPM</title>
+			<title code="0x0604">GIVEUP.OPM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] うろつき童子</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="urotsu68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -254,7 +254,7 @@
 			<title code="0x031e">BAMEN.MCO  : SHOCK</title>
 			<title code="0x131e">SAD.MCO    : S☆A☆D</title>
 			<title code="0x081e">END.MCO    : Ending</title>
-			<title code="0x0c1e">H_JAZZ.MCO : </title>
+			<title code="0x0c1e">H_JAZZ.MCO</title>
 			<title code="0x041e">BOM.MCO    : BOMB</title>
 			<title code="0x151e">SE1.MCO    : S.E.-1</title>
 			<title code="0x161e">SE2.MCO    : S.E.-2</title>
@@ -266,7 +266,7 @@
 	<game>
 		<name>[X68000] ストロベリー大戦略</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="strawb68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -311,7 +311,7 @@
 	<game>
 		<name>[X68000] ドラキュラ伯爵</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -336,7 +336,7 @@
 	<game>
 		<name>[X68000] フェアリーテール海賊版</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -353,19 +353,19 @@
 			<rom type="code" offset="0x0ae000">YAMI_P.USO</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">F_OP.USO   : </title>
-			<title code="0x06">XNA_M.USO  : </title>
-			<title code="0x02">ANE_2P.USO : </title>
-			<title code="0x03">DC_AKA.USO : </title>
-			<title code="0x01">AIKO.USO   : </title>
-			<title code="0x05">LA2.USO    : </title>
-			<title code="0x07">YAMI_P.USO : </title>
+			<title code="0x04">F_OP.USO</title>
+			<title code="0x06">XNA_M.USO</title>
+			<title code="0x02">ANE_2P.USO</title>
+			<title code="0x03">DC_AKA.USO</title>
+			<title code="0x01">AIKO.USO</title>
+			<title code="0x05">LA2.USO</title>
+			<title code="0x07">YAMI_P.USO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] リップスティックアドベンチャー2</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="lip268snd">
 			<rom type="code" offset="0x00000">lip268snd.bin</rom>
 			<rom type="x" offset="0x10000">L22.X</rom>
@@ -434,7 +434,7 @@
 	<game>
 		<name>[X68000] リップスティックアドベンチャー3</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -500,7 +500,7 @@
 	<game>
 		<name>[X68000] 華麗なる人生 みなさんのおかげです。</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -558,7 +558,7 @@
 	<game>
 		<name>[X68000] 狂った果実</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -592,7 +592,7 @@
 	<game>
 		<name>[X68000] 殺しのドレス3</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -642,7 +642,7 @@
 	<game>
 		<name>[X68000] 新宿物語</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -668,15 +668,15 @@
 			<rom type="code" offset="0xdb000">op_t96.uso</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">op_t96.uso : </title>
-			<title code="0x08">sm01.uso   : </title>
-			<title code="0x09">sm02.uso   : </title>
-			<title code="0x0a">sm03.uso   : </title>
-			<title code="0x0b">sm04.uso   : </title>
-			<title code="0x0c">sm05.uso   : </title>
-			<title code="0x0d">sm06.uso   : </title>
-			<title code="0x0e">smend.uso  : </title>
-			<title code="0x0f">yokoku.uso : </title>
+			<title code="0x10">op_t96.uso</title>
+			<title code="0x08">sm01.uso</title>
+			<title code="0x09">sm02.uso</title>
+			<title code="0x0a">sm03.uso</title>
+			<title code="0x0b">sm04.uso</title>
+			<title code="0x0c">sm05.uso</title>
+			<title code="0x0d">sm06.uso</title>
+			<title code="0x0e">smend.uso</title>
+			<title code="0x0f">yokoku.uso</title>
 			<title code="0x01">se01.uso   : SE</title>
 			<title code="0x02">se02.uso   : SE</title>
 			<title code="0x03">se03.uso   : SE</title>
@@ -689,7 +689,7 @@
 	<game>
 		<name>[X68000] 舞★MAI ふにふにぱぴゅーん・と言わせちゃる!</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -733,7 +733,7 @@
 	<game>
 		<name>[X68000] 夢二 浅草綺譚</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -775,7 +775,7 @@
 	<game>
 		<name>[X68000] 蘭丸</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -800,27 +800,27 @@
 			<rom type="code" offset="0xd6000">TYPE.USO</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ACID.USO  : </title>
-			<title code="0x03">HA_LV.USO : </title>
-			<title code="0x04">R_1.USO   : </title>
-			<title code="0x06">R_2.USO   : </title>
-			<title code="0x07">R_3.USO   : </title>
-			<title code="0x08">R_4.USO   : </title>
-			<title code="0x09">R_5.USO   : </title>
-			<title code="0x0a">R_6.USO   : </title>
-			<title code="0x0b">R_7.USO   : </title>
-			<title code="0x0c">R_8.USO   : </title>
-			<title code="0x0d">R_9.USO   : </title>
-			<title code="0x05">R_10.USO  : </title>
-			<title code="0x0e">SOLO.USO  : </title>
-			<title code="0x0f">TYPE.USO  : </title>
-			<title code="0x02">END.USO   : </title>
+			<title code="0x01">ACID.USO</title>
+			<title code="0x03">HA_LV.USO</title>
+			<title code="0x04">R_1.USO</title>
+			<title code="0x06">R_2.USO</title>
+			<title code="0x07">R_3.USO</title>
+			<title code="0x08">R_4.USO</title>
+			<title code="0x09">R_5.USO</title>
+			<title code="0x0a">R_6.USO</title>
+			<title code="0x0b">R_7.USO</title>
+			<title code="0x0c">R_8.USO</title>
+			<title code="0x0d">R_9.USO</title>
+			<title code="0x05">R_10.USO</title>
+			<title code="0x0e">SOLO.USO</title>
+			<title code="0x0f">TYPE.USO</title>
+			<title code="0x02">END.USO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] X･na [キサナ]</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1600"/>
 			<option name="mdata_size" value="0x1700"/>
@@ -892,7 +892,7 @@
 	<game>
 		<name>[PC-8801] うろつき童子</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x3500"/>
 		</options>
@@ -982,7 +982,7 @@
 	<game>
 		<name>[PC-8801] リップスティックアドベンチャー</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<options>
 			<option name="baseclock"  value="0x14"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -1036,7 +1036,7 @@
 	<game>
 		<name>[PC-8801] リップスティックアドベンチャー2</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<options>
 			<option name="baseclock"  value="0x0c"/>
 			<option name="mdata_addr" value="0x2500"/>
@@ -1073,39 +1073,39 @@
 			<rom type="bgm" offset="0x1b">ﾊﾞｸﾊﾂ.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">LA2-OP.M : </title>
-			<title code="0x09">LA2-2.M  : </title>
-			<title code="0x0a">LA2-3.M  : </title>
-			<title code="0x0b">LA2-4.M  : </title>
-			<title code="0x0c">LA2-6.M  : </title>
-			<title code="0x0d">LA2-7.M  : </title>
-			<title code="0x0e">LA2-8.M  : </title>
-			<title code="0x0f">LA2-9.M  : </title>
-			<title code="0x02">LA2-10.M : </title>
-			<title code="0x03">LA2-11.M : </title>
-			<title code="0x04">LA2-12.M : </title>
-			<title code="0x05">LA2-13.M : </title>
-			<title code="0x06">LA2-14.M : </title>
-			<title code="0x07">LA2-15.M : </title>
-			<title code="0x08">LA2-16.M : </title>
-			<title code="0x10">LA2END.M : </title>
-			<title code="0x01">ENDING.M : </title>
-			<title code="0x12">M-1.M    : </title>
-			<title code="0x13">M-2.M    : </title>
-			<title code="0x14">M-3.M    : </title>
-			<title code="0x15">NAME1.M  : </title>
-			<title code="0x16">SE-3.M   : </title>
-			<title code="0x17">SE-5.M   : </title>
-			<title code="0x18">SE-6.M   : </title>
-			<title code="0x19">SE-PI.M  : </title>
-			<title code="0x1a">TEL.M    : </title>
-			<title code="0x1b">ﾊﾞｸﾊﾂ.M  : </title>
+			<title code="0x11">LA2-OP.M</title>
+			<title code="0x09">LA2-2.M</title>
+			<title code="0x0a">LA2-3.M</title>
+			<title code="0x0b">LA2-4.M</title>
+			<title code="0x0c">LA2-6.M</title>
+			<title code="0x0d">LA2-7.M</title>
+			<title code="0x0e">LA2-8.M</title>
+			<title code="0x0f">LA2-9.M</title>
+			<title code="0x02">LA2-10.M</title>
+			<title code="0x03">LA2-11.M</title>
+			<title code="0x04">LA2-12.M</title>
+			<title code="0x05">LA2-13.M</title>
+			<title code="0x06">LA2-14.M</title>
+			<title code="0x07">LA2-15.M</title>
+			<title code="0x08">LA2-16.M</title>
+			<title code="0x10">LA2END.M</title>
+			<title code="0x01">ENDING.M</title>
+			<title code="0x12">M-1.M</title>
+			<title code="0x13">M-2.M</title>
+			<title code="0x14">M-3.M</title>
+			<title code="0x15">NAME1.M</title>
+			<title code="0x16">SE-3.M</title>
+			<title code="0x17">SE-5.M</title>
+			<title code="0x18">SE-6.M</title>
+			<title code="0x19">SE-PI.M</title>
+			<title code="0x1a">TEL.M</title>
+			<title code="0x1b">ﾊﾞｸﾊﾂ.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 殺しのドレス2</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<romlist archive="koroshi2_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0600">PLAY2.COM</rom>
@@ -1120,21 +1120,21 @@
 			<rom type="bgm" offset="0x08">WEDDIN.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">THEME.M  : </title>
-			<title code="0x00">BED.M    : </title>
-			<title code="0x01">DATE.M   : </title>
-			<title code="0x05">NO-NO.M  : </title>
-			<title code="0x08">WEDDIN.M : </title>
-			<title code="0x04">LAST.M   : </title>
-			<title code="0x03">LAST-2.M : </title>
-			<title code="0x02">DEATH.M  : </title>
-			<title code="0x06">TEL.M    : </title>
+			<title code="0x07">THEME.M</title>
+			<title code="0x00">BED.M</title>
+			<title code="0x01">DATE.M</title>
+			<title code="0x05">NO-NO.M</title>
+			<title code="0x08">WEDDIN.M</title>
+			<title code="0x04">LAST.M</title>
+			<title code="0x03">LAST-2.M</title>
+			<title code="0x02">DEATH.M</title>
+			<title code="0x06">TEL.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 私をゴルフに連れてって</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">FAIRYTALE</driveralias>
+		<driveralias type="PC-8801">FAIRYTALE</driveralias>
 		<romlist archive="wtsglf88">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0100">USD88.Z80</rom>
@@ -1169,15 +1169,15 @@
 			<title code="0x0e">GA_11.USO  : エッチシーンその1</title>
 			<title code="0x0f">GA_12.USO  : エッチシーンその2</title>
 			<title code="0x00">END_1A.USO : エンディング</title>
-			<title code="0x01">END_2J.USO : </title>
-			<title code="0x02">G_01.USO   : </title>
-			<title code="0x03">G_02.USO   : </title>
+			<title code="0x01">END_2J.USO</title>
+			<title code="0x02">G_01.USO</title>
+			<title code="0x03">G_02.USO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DEAD OF THE BRAIN ～死霊の叫び～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1215,7 +1215,7 @@
 	<game>
 		<name>[PC-9801] DEAD OF THE BRAIN2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1349,7 +1349,7 @@
 	<game>
 		<name>[PC-9801] DRAGOON ARMAR for Adult</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
@@ -1394,7 +1394,7 @@
 	<game>
 		<name>[PC-9801] MOON GATE</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1405,21 +1405,21 @@
 			<rom type="shell" offset="0">moong_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0">00 : </title>
-			<title code="1">01 : </title>
-			<title code="2">02 : </title>
-			<title code="3">03 : </title>
-			<title code="4">04 : </title>
-			<title code="5">05 : </title>
-			<title code="6">06 : </title>
-			<title code="7">07 : </title>
-			<title code="8">08 : </title>
+			<title code="0">00</title>
+			<title code="1">01</title>
+			<title code="2">02</title>
+			<title code="3">03</title>
+			<title code="4">04</title>
+			<title code="5">05</title>
+			<title code="6">06</title>
+			<title code="7">07</title>
+			<title code="8">08</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] XIX [ギゼ!]</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1459,7 +1459,7 @@
 	<game>
 		<name>[PC-9801] X･na [キサナ]</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
@@ -1574,7 +1574,7 @@
 	<game>
 		<name>[PC-9801] あっぷる・くらぶ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
@@ -1598,7 +1598,7 @@
 	<game>
 		<name>[PC-9801] あっぷる・くらぶ2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
@@ -1640,7 +1640,7 @@
 	<game>
 		<name>[PC-9801] ア・ラ・ベ・ス・ク ～少女たちの織なす愛の物語～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1722,7 +1722,7 @@
 	<game>
 		<name>[PC-9801] ストロベリー★大戦略 II</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1764,7 +1764,7 @@
 	<game>
 		<name>[PC-9801] ドラキュラ伯爵</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1802,7 +1802,7 @@
 	<game>
 		<name>[PC-9801] バーチャコール</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1868,7 +1868,7 @@
 	<game>
 		<name>[PC-9801] バーチャコール2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1970,7 +1970,7 @@
 	<game>
 		<name>[PC-9801] フェアリーテール海賊版</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2007,7 +2007,7 @@
 	<game>
 		<name>[PC-9801] マリンフィルト</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2049,7 +2049,7 @@
 	<game>
 		<name>[PC-9801] リップスティックアドベンチャー</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2116,7 +2116,7 @@
 	<game>
 		<name>[PC-9801] リップスティックアドベンチャー2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
@@ -2242,7 +2242,7 @@
 	<game>
 		<name>[PC-9801] リップスティックアドベンチャー3</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2344,7 +2344,7 @@
 	<game>
 		<name>[PC-9801] ロマンスは剣の輝き -THE LAST CRUSADER-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2406,7 +2406,7 @@
 	<game>
 		<name>[PC-9801] 華麗なる人生 みなさんのおかげです。</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2550,7 +2550,7 @@
 	<game>
 		<name>[PC-9801] 華麗なる人生2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2608,7 +2608,7 @@
 	<game>
 		<name>[PC-9801] 狂った果実</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2642,7 +2642,7 @@
 	<game>
 		<name>[PC-9801] 極楽まんだら</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2736,7 +2736,7 @@
 	<game>
 		<name>[PC-9801] 殺しのドレス</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2780,12 +2780,12 @@
 			<rom type="shell" offset="0">drs_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">ｵｰﾌﾟﾝ.MUS : </title>
-			<title code="0x19">ﾔｼｷ.MUS   : </title>
-			<title code="0x12">ｺｳｴﾝ.MUS  : </title>
-			<title code="0x1a">ﾕｳ.MUS    : </title>
-			<title code="0x17">ﾊﾞｲｸ.MUS  : </title>
-			<title code="0x10">ｴﾝﾄﾞ.MUS  : </title>
+			<title code="0x11">ｵｰﾌﾟﾝ.MUS</title>
+			<title code="0x19">ﾔｼｷ.MUS</title>
+			<title code="0x12">ｺｳｴﾝ.MUS</title>
+			<title code="0x1a">ﾕｳ.MUS</title>
+			<title code="0x17">ﾊﾞｲｸ.MUS</title>
+			<title code="0x10">ｴﾝﾄﾞ.MUS</title>
 			<title code="0x13">ｼｰﾝ1.MUS  : SE</title>
 			<title code="0x14">ﾃﾞﾝﾜ.MUS  : SE</title>
 			<title code="0x15">ﾄﾞｰﾝ.MUS  : SE</title>
@@ -2796,7 +2796,7 @@
 	<game>
 		<name>[PC-9801] 殺しのドレス2</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2839,7 +2839,7 @@
 	<game>
 		<name>[PC-9801] 殺しのドレス3</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2889,7 +2889,7 @@
 	<game>
 		<name>[PC-9801] 私をゴルフに連れてって</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2965,25 +2965,25 @@
 			<title code="0x1c">GA_11.USO  : エッチシーンその1</title>
 			<title code="0x1d">GA_12.USO  : エッチシーンその2</title>
 			<title code="0x1e">GA_END.USO : エンディング</title>
-			<title code="0x1f">G_01.USO   : </title>
-			<title code="0x20">G_02.USO   : </title>
-			<title code="0x21">OVER01.USO : </title>
-			<title code="0x22">OVER02.USO : </title>
-			<title code="0x10">AKA.USO    : </title>
-			<title code="0x11">ANE_2P.USO : </title>
-			<title code="0x23">DC_01P.USO : </title>
-			<title code="0x29">POP01C.USO : </title>
-			<title code="0x24">FAN_2.USO  : </title>
-			<title code="0x25">FAN_4.USO  : </title>
-			<title code="0x26">FAN_5.USO  : </title>
-			<title code="0x27">FAN_6.USO  : </title>
-			<title code="0x28">G_SHOT.USO : </title>
+			<title code="0x1f">G_01.USO</title>
+			<title code="0x20">G_02.USO</title>
+			<title code="0x21">OVER01.USO</title>
+			<title code="0x22">OVER02.USO</title>
+			<title code="0x10">AKA.USO</title>
+			<title code="0x11">ANE_2P.USO</title>
+			<title code="0x23">DC_01P.USO</title>
+			<title code="0x29">POP01C.USO</title>
+			<title code="0x24">FAN_2.USO</title>
+			<title code="0x25">FAN_4.USO</title>
+			<title code="0x26">FAN_5.USO</title>
+			<title code="0x27">FAN_6.USO</title>
+			<title code="0x28">G_SHOT.USO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 新宿物語</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3031,7 +3031,7 @@
 	<game>
 		<name>[PC-9801] 舞★MAI ふにふにぱぴゅーん・と言わせちゃる!</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3085,7 +3085,7 @@
 	<game>
 		<name>[PC-9801] 夢二 浅草綺譚</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3141,7 +3141,7 @@
 			<title code="0x1c">DYUME09B.USO</title>
 			<title code="0x1d">DYUME10.USO</title>
 -->
-			<title code="0x1e">FAIRYTTL.USO : </title>
+			<title code="0x1e">FAIRYTTL.USO</title>
 			<title code="0x21">RYUME01.USO  : 夢待草</title>
 			<title code="0x22">RYUME02.USO  : 夢二ラプソディ</title>
 			<title code="0x23">RYUME03.USO  : 時の流れの中で</title>
@@ -3161,7 +3161,7 @@
 	<game>
 		<name>[PC-9801] 蘭丸</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">FAIRYTALE</driveralias>
+		<driveralias type="PC-9801">FAIRYTALE</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3291,7 +3291,7 @@
 	<game>
 		<name>[X68000] リップスティックアドベンチャー</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">FAIRYTALE</driveralias>
+		<driveralias type="X68000">FAIRYTALE</driveralias>
 		<romlist archive="lipsadv68snd">
 			<rom type="code" offset="0x00000">lip68snd.bin</rom>
 			<rom type="x" offset="0x10000">advgra.x</rom>
@@ -3369,44 +3369,44 @@
 			<rom type="bgm" offset="0x25">ZONBIE.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">B0N_02.M : </title>
-			<title code="0x01">B0N_03.M : </title>
-			<title code="0x02">B0N_04.M : </title>
-			<title code="0x03">B0N_05.M : </title>
-			<title code="0x04">B0N_06.M : </title>
-			<title code="0x05">B0N_07.M : </title>
-			<title code="0x06">B0N_08.M : </title>
-			<title code="0x07">B0NOPN.M : </title>
-			<title code="0x08">BOMB01.M : </title>
-			<title code="0x09">BOMB02.M : </title>
-			<title code="0x0a">BUSHU.M  : </title>
-			<title code="0x0b">CATVOI.M : </title>
-			<title code="0x0c">COIN.M   : </title>
-			<title code="0x0d">DAMEGE.M : </title>
-			<title code="0x0e">ELVTOR.M : </title>
-			<title code="0x0f">GLASS.M  : </title>
-			<title code="0x10">GUN.M    : </title>
-			<title code="0x11">GUN_B.M  : </title>
-			<title code="0x12">HEART.M  : </title>
-			<title code="0x13">HERICO.M : </title>
-			<title code="0x14">LASER.M  : </title>
-			<title code="0x15">LASER1.M : </title>
-			<title code="0x16">LASER2.M : </title>
-			<title code="0x17">LASER3.M : </title>
-			<title code="0x18">M_GUN.M  : </title>
-			<title code="0x19">MOTER.M  : </title>
-			<title code="0x1a">PUSH.M   : </title>
-			<title code="0x1b">PUSH_B.M : </title>
-			<title code="0x1c">RAIN.M   : </title>
-			<title code="0x1d">RAIN_B.M : </title>
-			<title code="0x1e">ROBO.M   : </title>
-			<title code="0x1f">SHOCK1.M : </title>
-			<title code="0x20">SHOUT.M  : </title>
-			<title code="0x21">TEL.M    : </title>
-			<title code="0x22">VOI_01.M : </title>
-			<title code="0x23">VOI_02.M : </title>
-			<title code="0x24">VOI_03.M : </title>
-			<title code="0x25">ZONBIE.M : </title>
+			<title code="0x00">B0N_02.M</title>
+			<title code="0x01">B0N_03.M</title>
+			<title code="0x02">B0N_04.M</title>
+			<title code="0x03">B0N_05.M</title>
+			<title code="0x04">B0N_06.M</title>
+			<title code="0x05">B0N_07.M</title>
+			<title code="0x06">B0N_08.M</title>
+			<title code="0x07">B0NOPN.M</title>
+			<title code="0x08">BOMB01.M</title>
+			<title code="0x09">BOMB02.M</title>
+			<title code="0x0a">BUSHU.M</title>
+			<title code="0x0b">CATVOI.M</title>
+			<title code="0x0c">COIN.M</title>
+			<title code="0x0d">DAMEGE.M</title>
+			<title code="0x0e">ELVTOR.M</title>
+			<title code="0x0f">GLASS.M</title>
+			<title code="0x10">GUN.M</title>
+			<title code="0x11">GUN_B.M</title>
+			<title code="0x12">HEART.M</title>
+			<title code="0x13">HERICO.M</title>
+			<title code="0x14">LASER.M</title>
+			<title code="0x15">LASER1.M</title>
+			<title code="0x16">LASER2.M</title>
+			<title code="0x17">LASER3.M</title>
+			<title code="0x18">M_GUN.M</title>
+			<title code="0x19">MOTER.M</title>
+			<title code="0x1a">PUSH.M</title>
+			<title code="0x1b">PUSH_B.M</title>
+			<title code="0x1c">RAIN.M</title>
+			<title code="0x1d">RAIN_B.M</title>
+			<title code="0x1e">ROBO.M</title>
+			<title code="0x1f">SHOCK1.M</title>
+			<title code="0x20">SHOUT.M</title>
+			<title code="0x21">TEL.M</title>
+			<title code="0x22">VOI_01.M</title>
+			<title code="0x23">VOI_02.M</title>
+			<title code="0x24">VOI_03.M</title>
+			<title code="0x25">ZONBIE.M</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3450,32 +3450,32 @@
 			<rom type="bgm" offset="0x19">XNA998.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">B_IN2.M  : </title>
-			<title code="0x01">BUKI.M   : </title>
-			<title code="0x02">GO_01.M  : </title>
-			<title code="0x03">GO_02.M  : </title>
-			<title code="0x04">GO_03.M  : </title>
-			<title code="0x05">GO_04.M  : </title>
-			<title code="0x06">NANA.M   : </title>
-			<title code="0x07">OP_98.M  : </title>
-			<title code="0x08">PEACE.M  : </title>
-			<title code="0x09">Q_IN2.M  : </title>
-			<title code="0x0a">XNA_01.M : </title>
-			<title code="0x0b">XNA_02.M : </title>
-			<title code="0x0c">XNA_04.M : </title>
-			<title code="0x0d">XNA_06.M : </title>
-			<title code="0x0e">XNA_07.M : </title>
-			<title code="0x0f">XNA_08.M : </title>
-			<title code="0x10">XNA_11.M : </title>
-			<title code="0x11">XNA_12.M : </title>
-			<title code="0x12">XNA_13.M : </title>
-			<title code="0x13">XNA_14.M : </title>
-			<title code="0x14">XNA_B1.M : </title>
-			<title code="0x15">XNA_T.M  : </title>
-			<title code="0x16">XNA_T1.M : </title>
-			<title code="0x17">XNA398.M : </title>
-			<title code="0x18">XNA598.M : </title>
-			<title code="0x19">XNA998.M : </title>
+			<title code="0x00">B_IN2.M</title>
+			<title code="0x01">BUKI.M</title>
+			<title code="0x02">GO_01.M</title>
+			<title code="0x03">GO_02.M</title>
+			<title code="0x04">GO_03.M</title>
+			<title code="0x05">GO_04.M</title>
+			<title code="0x06">NANA.M</title>
+			<title code="0x07">OP_98.M</title>
+			<title code="0x08">PEACE.M</title>
+			<title code="0x09">Q_IN2.M</title>
+			<title code="0x0a">XNA_01.M</title>
+			<title code="0x0b">XNA_02.M</title>
+			<title code="0x0c">XNA_04.M</title>
+			<title code="0x0d">XNA_06.M</title>
+			<title code="0x0e">XNA_07.M</title>
+			<title code="0x0f">XNA_08.M</title>
+			<title code="0x10">XNA_11.M</title>
+			<title code="0x11">XNA_12.M</title>
+			<title code="0x12">XNA_13.M</title>
+			<title code="0x13">XNA_14.M</title>
+			<title code="0x14">XNA_B1.M</title>
+			<title code="0x15">XNA_T.M</title>
+			<title code="0x16">XNA_T1.M</title>
+			<title code="0x17">XNA398.M</title>
+			<title code="0x18">XNA598.M</title>
+			<title code="0x19">XNA998.M</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3549,14 +3549,14 @@
 			<title code="0x04">BAMEN.M  : SHOCK</title>
 			<title code="0x1a">SAD.M    : S☆A☆D</title>
 			<title code="0x0b">END.M    : Ending</title>
-			<title code="0x02">AFTER.M  : </title>
-			<title code="0x08">CHUKA.M  : </title>
-			<title code="0x0a">DORI.M   : </title>
-			<title code="0x0e">FWAFWA.M : </title>
-			<title code="0x0f">GAKO2.M  : </title>
-			<title code="0x17">NIGHT.M  : </title>
-			<title code="0x1e">STTR.M   : </title>
-			<title code="0x1f">UMI.M    : </title>
+			<title code="0x02">AFTER.M</title>
+			<title code="0x08">CHUKA.M</title>
+			<title code="0x0a">DORI.M</title>
+			<title code="0x0e">FWAFWA.M</title>
+			<title code="0x0f">GAKO2.M</title>
+			<title code="0x17">NIGHT.M</title>
+			<title code="0x1e">STTR.M</title>
+			<title code="0x1f">UMI.M</title>
 			<title code="0x00">60.M     : SE</title>
 			<title code="0x01">64.M     : SE</title>
 			<title code="0x05">BOM.M    : SE</title>
@@ -3605,25 +3605,25 @@
 			<rom type="bgm" offset="0x18">M2.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x12">LA2-OP.M : </title>
-			<title code="0x01">LA2-1.M  : </title>
-			<title code="0x09">LA2-2.M  : </title>
-			<title code="0x0a">LA2-3.M  : </title>
-			<title code="0x0b">LA2-4.M  : </title>
-			<title code="0x0c">LA2-5.M  : </title>
-			<title code="0x0d">LA2-6.M  : </title>
-			<title code="0x0e">LA2-7.M  : </title>
-			<title code="0x0f">LA2-8.M  : </title>
-			<title code="0x10">LA2-9.M  : </title>
-			<title code="0x02">LA2-10.M : </title>
-			<title code="0x03">LA2-11.M : </title>
-			<title code="0x04">LA2-12.M : </title>
-			<title code="0x05">LA2-13.M : </title>
-			<title code="0x06">LA2-14.M : </title>
-			<title code="0x07">LA2-15.M : </title>
-			<title code="0x08">LA2-16.M : </title>
-			<title code="0x11">LA2END.M : </title>
-			<title code="0x00">ENDING.M : </title>
+			<title code="0x12">LA2-OP.M</title>
+			<title code="0x01">LA2-1.M</title>
+			<title code="0x09">LA2-2.M</title>
+			<title code="0x0a">LA2-3.M</title>
+			<title code="0x0b">LA2-4.M</title>
+			<title code="0x0c">LA2-5.M</title>
+			<title code="0x0d">LA2-6.M</title>
+			<title code="0x0e">LA2-7.M</title>
+			<title code="0x0f">LA2-8.M</title>
+			<title code="0x10">LA2-9.M</title>
+			<title code="0x02">LA2-10.M</title>
+			<title code="0x03">LA2-11.M</title>
+			<title code="0x04">LA2-12.M</title>
+			<title code="0x05">LA2-13.M</title>
+			<title code="0x06">LA2-14.M</title>
+			<title code="0x07">LA2-15.M</title>
+			<title code="0x08">LA2-16.M</title>
+			<title code="0x11">LA2END.M</title>
+			<title code="0x00">ENDING.M</title>
 			<title code="0x13">LA2-S1.M : SE</title>
 			<title code="0x14">LA2-S2.M : SE</title>
 			<title code="0x15">LA2-S3.M : SE</title>
@@ -3655,12 +3655,12 @@
 			<rom type="bgm" offset="0x07">WEDDIN.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BED.M    : </title>
-			<title code="0x01">DATE.M   : </title>
-			<title code="0x03">LAST-2.M : </title>
-			<title code="0x04">NO-NO.M  : </title>
-			<title code="0x06">THEME.M  : </title>
-			<title code="0x07">WEDDIN.M : </title>
+			<title code="0x00">BED.M</title>
+			<title code="0x01">DATE.M</title>
+			<title code="0x03">LAST-2.M</title>
+			<title code="0x04">NO-NO.M</title>
+			<title code="0x06">THEME.M</title>
+			<title code="0x07">WEDDIN.M</title>
 			<title code="0x02">DEATH.M  : SE</title>
 			<title code="0x05">TEL.M    : SE</title>
 		</titlelist>
@@ -3710,12 +3710,12 @@
 			<title code="0x0d">GA_11.M  : エッチシーンその1</title>
 			<title code="0x0e">GA_12.M  : エッチシーンその2</title>
 			<title code="0x0f">GA_END.M : エンディング</title>
-			<title code="0x00">G00.MUS  : </title>
+			<title code="0x00">G00.MUS</title>
 			<!-- G00.MUSとバイナリ一致
-			<title code="0x01">G01.MUS  : </title>
+			<title code="0x01">G01.MUS</title>
 			  -->
-			<title code="0x02">G02.MUS  : </title>
-			<title code="0x10">OVER.MUS : </title>
+			<title code="0x02">G02.MUS</title>
+			<title code="0x10">OVER.MUS</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3761,33 +3761,33 @@
 			<rom type="bgm" offset="0x1b">TRUEED.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x15">MAIOPN.MUS : </title>
-			<title code="0x09">MAI_A.MUS  : </title>
-			<title code="0x0a">MAI_B.MUS  : </title>
+			<title code="0x15">MAIOPN.MUS</title>
+			<title code="0x09">MAI_A.MUS</title>
+			<title code="0x0a">MAI_B.MUS</title>
 			<!--
-			<title code="0x0b">MAI_C.MUS  : </title>
-			<title code="0x0c">MAI_D.MUS  : </title>
+			<title code="0x0b">MAI_C.MUS</title>
+			<title code="0x0c">MAI_D.MUS</title>
 			  -->
-			<title code="0x0d">MAI_E.MUS  : </title>
+			<title code="0x0d">MAI_E.MUS</title>
 			<!--
-			<title code="0x0e">MAI_F.MUS  : </title>
-			<title code="0x0f">MAI_G.MUS  : </title>
+			<title code="0x0e">MAI_F.MUS</title>
+			<title code="0x0f">MAI_G.MUS</title>
 			  -->
-			<title code="0x10">MAI_H.MUS  : </title>
-			<title code="0x11">MAI_I.MUS  : </title>
+			<title code="0x10">MAI_H.MUS</title>
+			<title code="0x11">MAI_I.MUS</title>
 			<!--
-			<title code="0x12">MAI_J.MUS  : </title>
+			<title code="0x12">MAI_J.MUS</title>
 			  -->
-			<title code="0x13">MAI_K.MUS  : </title>
-			<title code="0x04">FIGHT.MUS  : </title>
-			<title code="0x02">BOSS.MUS   : </title>
-			<title code="0x05">FUNI_M.MUS : </title>
-			<title code="0x07">IVNT_1.MUS : </title>
-			<title code="0x08">IVNT_2.MUS : </title>
-			<title code="0x16">MSXMU2.MUS : </title>
-			<title code="0x14">MAIEND.MUS : </title>
-			<title code="0x03">END.MUS    : </title>
-			<title code="0x06">G_OVER.MUS : </title>
+			<title code="0x13">MAI_K.MUS</title>
+			<title code="0x04">FIGHT.MUS</title>
+			<title code="0x02">BOSS.MUS</title>
+			<title code="0x05">FUNI_M.MUS</title>
+			<title code="0x07">IVNT_1.MUS</title>
+			<title code="0x08">IVNT_2.MUS</title>
+			<title code="0x16">MSXMU2.MUS</title>
+			<title code="0x14">MAIEND.MUS</title>
+			<title code="0x03">END.MUS</title>
+			<title code="0x06">G_OVER.MUS</title>
 			<title code="0x00">ADD_I.MUS  : SE</title>
 			<title code="0x01">BOM.MUS    : SE</title>
 			<title code="0x17">SE_14B.MUS : SE</title>
@@ -3795,7 +3795,7 @@
 			<title code="0x19">SE_M14.MUS : SE</title>
 			<title code="0x1a">SE_M17.MUS : SE</title>
 			<!--
-			<title code="0x1b">TRUEED.MUS : </title>
+			<title code="0x1b">TRUEED.MUS</title>
 			  -->
 		</titlelist>
 	</game>

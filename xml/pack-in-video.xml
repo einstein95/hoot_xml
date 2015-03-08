@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] 歌声人</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Pack-In-Video</driveralias>
+		<driveralias type="PC-8801">Pack-In-Video</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb800"/>
 			<option name="use_pcmx8" value="0x01"/>
@@ -134,7 +134,7 @@
 			<title code="0x04">BGM_04.COM : ボス</title>
 			<title code="0x05">BGM_05.COM : 勝利</title>
 			<title code="0x06">BGM_06.COM : エンディング</title>
-			<range min="0x107" max="0x119" extcode="0">SE  : 0x%02x : </range>
+			<range min="0x107" max="0x119" extcode="0">SE  : 0x%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -166,7 +166,7 @@
 			<title code="0x04">P_BGM_04.COM : ボス</title>
 			<title code="0x05">P_BGM_05.COM : 勝利</title>
 			<title code="0x06">P_BGM_06.COM : エンディング</title>
-			<range min="0x107" max="0x119" extcode="0">SE    : 0x%02x : </range>
+			<range min="0x107" max="0x119" extcode="0">SE    : 0x%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -190,14 +190,14 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0501">TMSC.BIN : 01 : タイトル</title>
-			<title code="0x0201">MMSC.BIN : 01 : </title>
-			<title code="0x0202">MMSC.BIN : 02 : </title>
-			<title code="0x0203">MMSC.BIN : 03 : </title>
-			<title code="0x0204">MMSC.BIN : 04 : </title>
-			<title code="0x0205">MMSC.BIN : 05 : </title>
-			<title code="0x0206">MMSC.BIN : 06 : </title>
-			<title code="0x0207">MMSC.BIN : 07 : </title>
-			<title code="0x0001">BMSC.BIN : 01 : </title>
+			<title code="0x0201">MMSC.BIN : 01</title>
+			<title code="0x0202">MMSC.BIN : 02</title>
+			<title code="0x0203">MMSC.BIN : 03</title>
+			<title code="0x0204">MMSC.BIN : 04</title>
+			<title code="0x0205">MMSC.BIN : 05</title>
+			<title code="0x0206">MMSC.BIN : 06</title>
+			<title code="0x0207">MMSC.BIN : 07</title>
+			<title code="0x0001">BMSC.BIN : 01</title>
 			<title code="0x0401">SMSC.BIN : 01 : 連勝CG1</title>
 			<title code="0x0402">SMSC.BIN : 02 : 連勝CG2</title>
 			<title code="0x0301">RMSC.BIN : 01 : 100勝(レプリカート)</title>

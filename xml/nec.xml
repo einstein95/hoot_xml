@@ -142,7 +142,7 @@
 	<game>
 		<name>[PC-88VA] PC-88VA Demostration</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">NEC</driveralias>
+		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="demo_va">
 			<rom type="file" offset="-1">DEMO2.SYS</rom>
 			<rom type="file" offset="-1">shangva.com</rom>
@@ -150,20 +150,20 @@
 			<rom type="shell" offset="0">shangva</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
-			<title code="0x05">05 : </title>
+			<title code="0x01">01</title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
+			<title code="0x05">05</title>
 		<!--	<title code="0x06">06 : 05‚Æ“¯ˆê</title> -->
-			<title code="0x07">07 : </title>
+			<title code="0x07">07</title>
 		<!--	<title code="0x08">08 : 07‚Æ“¯ˆê</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-88VA] R-TYPE(OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">NEC</driveralias>
+		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="rtypeva">
 			<rom type="file" offset="-1">rtype.com</rom>
 			<rom type="file" offset="-1">MAIN.EXE</rom>
@@ -211,7 +211,7 @@
 	<game>
 		<name>[PC-88VA] R-TYPE(OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">NEC</driveralias>
+		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="rtypeva">
 			<rom type="file" offset="-1">rtype.com</rom>
 			<rom type="file" offset="-1">MAIN.EXE</rom>

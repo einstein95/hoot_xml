@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] バトルスキンパニック 全裸戦士</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GAINAX</driveralias>
+		<driveralias type="PC-8801">GAINAX</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xb000"/>
@@ -81,34 +81,34 @@
 		<titlelist>
 			<title code="0x00000000">MUS00 : カードバトル・パート1</title>
 			<title code="0x00000001">MUS01 : カードバトル・パート2</title>
-			<title code="0x00000002">MUS02 : </title>
-			<title code="0x00000003">MUS03 : </title>
-			<title code="0x00000004">MUS04 : </title>
+			<title code="0x00000002">MUS02</title>
+			<title code="0x00000003">MUS03</title>
+			<title code="0x00000004">MUS04</title>
 			<title code="0x00000005">MUS05 : 坂東ミミのテーマ</title>
-			<title code="0x00000006">MUS06 : </title>
+			<title code="0x00000006">MUS06</title>
 			<title code="0x00000007">MUS07 : サキと巨乳三姉妹</title>
-			<title code="0x00000008">MUS08 : </title>
-			<title code="0x00000009">MUS09 : </title>
-			<title code="0x0000000a">MUS10 : </title>
+			<title code="0x00000008">MUS08</title>
+			<title code="0x00000009">MUS09</title>
+			<title code="0x0000000a">MUS10</title>
 			<title code="0x0000000b">MUS11 : グッピー北京登場</title>
 			<title code="0x0000000c">MUS12 : 甲殻人、現る</title>
 			<title code="0x0000000d">MUS13 : 遥かなるチベットへ</title>
-			<title code="0x0000000e">MUS14 : </title>
+			<title code="0x0000000e">MUS14</title>
 			<title code="0x0000000f">MUS15 : ゲームオーバー</title>
 			<title code="0x00000010">MUS16 : ミミの悲しみ</title>
-			<title code="0x00000011">MUS17 : </title>
+			<title code="0x00000011">MUS17</title>
 			<title code="0x00000012">MUS18 : バトスキファイト</title>
 			<title code="0x00000013">MUS19 : 大団円</title>
-			<title code="0x00000014">MUS20 : </title>
-			<title code="0x00000015">MUS21 : </title>
-			<title code="0x00000016">MUS22 : </title>
-			<title code="0x00000017">MUS23 : </title>
-			<title code="0x00000018">MUS24 : </title>
-			<title code="0x00000019">MUS25 : </title>
-			<title code="0x0000001a">MUS26 : </title>
-			<title code="0x0000001b">MUS27 : </title>
-			<title code="0x0000001c">MUS28 : </title>
-			<title code="0x0000001d">MUS29 : </title>
+			<title code="0x00000014">MUS20</title>
+			<title code="0x00000015">MUS21</title>
+			<title code="0x00000016">MUS22</title>
+			<title code="0x00000017">MUS23</title>
+			<title code="0x00000018">MUS24</title>
+			<title code="0x00000019">MUS25</title>
+			<title code="0x0000001a">MUS26</title>
+			<title code="0x0000001b">MUS27</title>
+			<title code="0x0000001c">MUS28</title>
+			<title code="0x0000001d">MUS29</title>
 			<title code="0x000000ff">EFF00 : 効果音#00</title>
 			<title code="0x010000ff">EFF00 : 効果音#01</title>
 			<title code="0x020000ff">EFF00 : 効果音#02</title>
@@ -150,7 +150,7 @@
 	<game>
 		<name>[PC-9801] PRINCESS MAKER</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -195,7 +195,7 @@
 	<game>
 		<name>[PC-9801] PRINCESS MAKER 2(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<!-- PMD.COM は ver 4.8p を使用 -->
 		<options>
 			<option name="funcvect" value="0x7e"/>
@@ -307,7 +307,7 @@
 	<game>
 		<name>[PC-9801] PRINCESS MAKER 2(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -403,7 +403,7 @@
 	<game>
 		<name>[PC-9801] PRINCESS MAKER 2(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -499,7 +499,7 @@
 	<game>
 		<name>[PC-9801] PRINCESS MAKER 2(GM)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -595,7 +595,7 @@
 	<game>
 		<name>[PC-9801] SILENT MOBIUS CASE:TITANIC</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -621,28 +621,28 @@
 			<rom type="shell" offset="0">sm98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">B-1.DAT   : </title>
+			<title code="0x05">B-1.DAT</title>
 			<title code="0x06">B-2.DAT   : MUSICA DE CAFE</title>
 			<title code="0x07">B-3.DAT   : 水の宴</title>
 			<title code="0x08">B-4.DAT   : タイタニックの舞踏会</title>
-			<title code="0x09">B-41.DAT  : </title>
+			<title code="0x09">B-41.DAT</title>
 			<title code="0x0a">B-5.DAT   : 妖魔との戦い</title>
 			<title code="0x0b">B-6.DAT   : サイレントメビウス・エンディング</title>
-			<title code="0x0c">B-61.DAT  : </title>
-			<title code="0x0d">B-7.DAT   : </title>
-			<title code="0x0e">B-8.DAT   : </title>
-			<title code="0x0f">SM1.DAT   : </title>
-			<title code="0x10">SM1-1.DAT : </title>
-			<title code="0x11">SM1-2.DAT : </title>
-			<title code="0x12">SM1-3.DAT : </title>
-			<title code="0x13">SM2.DAT   : </title>
-			<title code="0x14">SM3.DAT   : </title>
+			<title code="0x0c">B-61.DAT</title>
+			<title code="0x0d">B-7.DAT</title>
+			<title code="0x0e">B-8.DAT</title>
+			<title code="0x0f">SM1.DAT</title>
+			<title code="0x10">SM1-1.DAT</title>
+			<title code="0x11">SM1-2.DAT</title>
+			<title code="0x12">SM1-3.DAT</title>
+			<title code="0x13">SM2.DAT</title>
+			<title code="0x14">SM3.DAT</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア - THE SECRET OF THE BLUE WATER -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -680,20 +680,20 @@
 		<titlelist>
 			<title code="0x10">N1.M   : ネオ・アトランティス</title>
 			<title code="0x11">N2.M   : エレクトラ</title>
-			<title code="0x12">N3.M   : </title>
+			<title code="0x12">N3.M</title>
 			<title code="0x13">N4.M   : ジャン</title>
 			<title code="0x14">N5.M   : 悪の三人組</title>
 			<title code="0x15">N6.M   : 危機</title>
-			<title code="0x16">N7.M   : </title>
+			<title code="0x16">N7.M</title>
 			<title code="0x17">N8.M   : 海のたたかい</title>
 			<title code="0x18">N9.M   : 快適な艦内</title>
 			<title code="0x19">N10.M  : グランディスの追跡</title>
-			<title code="0x1a">N11.M  : </title>
+			<title code="0x1a">N11.M</title>
 			<title code="0x1b">N12A.M : ノーチラス号出撃!</title>
-			<title code="0x1c">N12B.M : </title>
+			<title code="0x1c">N12B.M</title>
 			<title code="0x1d">N13.M  : バベルの光</title>
 			<title code="0x1e">N14A.M : 起死回生</title>
-			<title code="0x1f">N14B.M : </title>
+			<title code="0x1f">N14B.M</title>
 			<title code="0x20">N15.M  : 悲劇</title>
 			<title code="0x21">N16.M  : 頭上の恐怖</title>
 			<title code="0x22">N17.M  : 万能潜水艦N・ノーチラス号</title>
@@ -705,7 +705,7 @@
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア - THE SECRET OF THE BLUE WATER -(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -742,20 +742,20 @@
 		<titlelist>
 			<title code="0x10">N1.MMD   : ネオ・アトランティス</title>
 			<title code="0x11">N2.MMD   : エレクトラ</title>
-			<title code="0x12">N3.MMD   : </title>
+			<title code="0x12">N3.MMD</title>
 			<title code="0x13">N4.MMD   : ジャン</title>
 			<title code="0x14">N5.MMD   : 悪の三人組</title>
 			<title code="0x15">N6.MMD   : 危機</title>
-			<title code="0x16">N7.MMD   : </title>
+			<title code="0x16">N7.MMD</title>
 			<title code="0x17">N8.MMD   : 海のたたかい</title>
 			<title code="0x18">N9.MMD   : 快適な艦内</title>
 			<title code="0x19">N10.MMD  : グランディスの追跡</title>
-			<title code="0x1a">N11.MMD  : </title>
+			<title code="0x1a">N11.MMD</title>
 			<title code="0x1b">N12A.MMD : ノーチラス号出撃!</title>
-			<title code="0x1c">N12B.MMD : </title>
+			<title code="0x1c">N12B.MMD</title>
 			<title code="0x1d">N13.MMD  : バベルの光</title>
 			<title code="0x1e">N14A.MMD : 起死回生</title>
-			<title code="0x1f">N14B.MMD : </title>
+			<title code="0x1f">N14B.MMD</title>
 			<title code="0x20">N15.MMD  : 悲劇</title>
 			<title code="0x21">N16.MMD  : 頭上の恐怖</title>
 			<title code="0x22">N17.MMD  : 万能潜水艦N・ノーチラス号</title>
@@ -767,7 +767,7 @@
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア - THE SECRET OF THE BLUE WATER -(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -804,20 +804,20 @@
 		<titlelist>
 			<title code="0x10">N1.MMD   : ネオ・アトランティス</title>
 			<title code="0x11">N2.MMD   : エレクトラ</title>
-			<title code="0x12">N3.MMD   : </title>
+			<title code="0x12">N3.MMD</title>
 			<title code="0x13">N4.MMD   : ジャン</title>
 			<title code="0x14">N5.MMD   : 悪の三人組</title>
 			<title code="0x15">N6.MMD   : 危機</title>
-			<title code="0x16">N7.MMD   : </title>
+			<title code="0x16">N7.MMD</title>
 			<title code="0x17">N8.MMD   : 海のたたかい</title>
 			<title code="0x18">N9.MMD   : 快適な艦内</title>
 			<title code="0x19">N10.MMD  : グランディスの追跡</title>
-			<title code="0x1a">N11.MMD  : </title>
+			<title code="0x1a">N11.MMD</title>
 			<title code="0x1b">N12A.MMD : ノーチラス号出撃!</title>
-			<title code="0x1c">N12B.MMD : </title>
+			<title code="0x1c">N12B.MMD</title>
 			<title code="0x1d">N13.MMD  : バベルの光</title>
 			<title code="0x1e">N14A.MMD : 起死回生</title>
-			<title code="0x1f">N14B.MMD : </title>
+			<title code="0x1f">N14B.MMD</title>
 			<title code="0x20">N15.MMD  : 悲劇</title>
 			<title code="0x21">N16.MMD  : 頭上の恐怖</title>
 			<title code="0x22">N17.MMD  : 万能潜水艦N・ノーチラス号</title>
@@ -829,7 +829,7 @@
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア MUSIC FLOPPY DISK(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -866,20 +866,20 @@
 			<title code="0x10">NA.M : ブルーウォーター</title>
 			<title code="0x11">NB.M : ネオ・アトランティス</title>
 			<title code="0x12">NC.M : エレクトラ</title>
-			<title code="0x13">ND.M : </title>
+			<title code="0x13">ND.M</title>
 			<title code="0x14">NE.M : ジャン</title>
 			<title code="0x15">NF.M : 悪の三人組</title>
 			<title code="0x16">NG.M : 危機</title>
-			<title code="0x17">NH.M : </title>
+			<title code="0x17">NH.M</title>
 			<title code="0x18">NI.M : 海のたたかい</title>
 			<title code="0x19">NJ.M : 快適な艦内</title>
 			<title code="0x1a">NK.M : グランディスの追跡</title>
-			<title code="0x1b">NL.M : </title>
+			<title code="0x1b">NL.M</title>
 			<title code="0x1c">NM.M : ノーチラス号出撃!</title>
-			<title code="0x1d">NN.M : </title>
+			<title code="0x1d">NN.M</title>
 			<title code="0x1e">NO.M : バベルの光</title>
 			<title code="0x1f">NP.M : 起死回生</title>
-			<title code="0x20">NQ.M : </title>
+			<title code="0x20">NQ.M</title>
 			<title code="0x21">NR.M : 悲劇</title>
 			<title code="0x22">NS.M : 頭上の恐怖</title>
 			<title code="0x23">NT.M : 万能潜水艦N・ノーチラス号</title>
@@ -890,7 +890,7 @@
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア MUSIC FLOPPY DISK(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -928,20 +928,20 @@
 			<title code="0x10">NA.MMD : ブルーウォーター</title>
 			<title code="0x11">NB.MMD : ネオ・アトランティス</title>
 			<title code="0x12">NC.MMD : エレクトラ</title>
-			<title code="0x13">ND.MMD : </title>
+			<title code="0x13">ND.MMD</title>
 			<title code="0x14">NE.MMD : ジャン</title>
 			<title code="0x15">NF.MMD : 悪の三人組</title>
 			<title code="0x16">NG.MMD : 危機</title>
-			<title code="0x17">NH.MMD : </title>
+			<title code="0x17">NH.MMD</title>
 			<title code="0x18">NI.MMD : 海のたたかい</title>
 			<title code="0x19">NJ.MMD : 快適な艦内</title>
 			<title code="0x1a">NK.MMD : グランディスの追跡</title>
-			<title code="0x1b">NL.MMD : </title>
+			<title code="0x1b">NL.MMD</title>
 			<title code="0x1c">NM.MMD : ノーチラス号出撃!</title>
-			<title code="0x1d">NN.MMD : </title>
+			<title code="0x1d">NN.MMD</title>
 			<title code="0x1e">NO.MMD : バベルの光</title>
 			<title code="0x1f">NP.MMD : 起死回生</title>
-			<title code="0x20">NQ.MMD : </title>
+			<title code="0x20">NQ.MMD</title>
 			<title code="0x21">NR.MMD : 悲劇</title>
 			<title code="0x22">NS.MMD : 頭上の恐怖</title>
 			<title code="0x23">NT.MMD : 万能潜水艦N・ノーチラス号</title>
@@ -952,7 +952,7 @@
 	<game>
 		<name>[PC-9801] ふしぎの海のナディア MUSIC FLOPPY DISK(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -990,20 +990,20 @@
 			<title code="0x10">NA.MMD : ブルーウォーター</title>
 			<title code="0x11">NB.MMD : ネオ・アトランティス</title>
 			<title code="0x12">NC.MMD : エレクトラ</title>
-			<title code="0x13">ND.MMD : </title>
+			<title code="0x13">ND.MMD</title>
 			<title code="0x14">NE.MMD : ジャン</title>
 			<title code="0x15">NF.MMD : 悪の三人組</title>
 			<title code="0x16">NG.MMD : 危機</title>
-			<title code="0x17">NH.MMD : </title>
+			<title code="0x17">NH.MMD</title>
 			<title code="0x18">NI.MMD : 海のたたかい</title>
 			<title code="0x19">NJ.MMD : 快適な艦内</title>
 			<title code="0x1a">NK.MMD : グランディスの追跡</title>
-			<title code="0x1b">NL.MMD : </title>
+			<title code="0x1b">NL.MMD</title>
 			<title code="0x1c">NM.MMD : ノーチラス号出撃!</title>
-			<title code="0x1d">NN.MMD : </title>
+			<title code="0x1d">NN.MMD</title>
 			<title code="0x1e">NO.MMD : バベルの光</title>
 			<title code="0x1f">NP.MMD : 起死回生</title>
-			<title code="0x20">NQ.MMD : </title>
+			<title code="0x20">NQ.MMD</title>
 			<title code="0x21">NR.MMD : 悲劇</title>
 			<title code="0x22">NS.MMD : 頭上の恐怖</title>
 			<title code="0x23">NT.MMD : 万能潜水艦N・ノーチラス号</title>
@@ -1014,7 +1014,7 @@
 	<game>
 		<name>[PC-9801] スーパーバトルスキンパニック</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1058,40 +1058,40 @@
 		<titlelist>
 			<title code="0x10">BS1.MUS  : カードバトル・パート1</title>
 			<title code="0x11">BS2.MUS  : カードバトル・パート2</title>
-			<title code="0x12">BS3.MUS  : </title>
-			<title code="0x13">BS4.MUS  : </title>
-			<title code="0x14">BS5.MUS  : </title>
+			<title code="0x12">BS3.MUS</title>
+			<title code="0x13">BS4.MUS</title>
+			<title code="0x14">BS5.MUS</title>
 			<title code="0x15">BS6.MUS  : 坂東ミミのテーマ</title>
-			<title code="0x16">BS7.MUS  : </title>
+			<title code="0x16">BS7.MUS</title>
 			<title code="0x17">BS8.MUS  : サキと巨乳三姉妹</title>
-			<title code="0x18">BS9.MUS  : </title>
-			<title code="0x19">BS10.MUS : </title>
-			<title code="0x1A">BS11.MUS : </title>
+			<title code="0x18">BS9.MUS</title>
+			<title code="0x19">BS10.MUS</title>
+			<title code="0x1A">BS11.MUS</title>
 			<title code="0x1B">BS12.MUS : グッピー北京登場</title>
 			<title code="0x1C">BS13.MUS : 甲殻人、現る</title>
 			<title code="0x1D">BS14.MUS : 遥かなるチベットへ</title>
-			<title code="0x1E">BS15.MUS : </title>
+			<title code="0x1E">BS15.MUS</title>
 			<title code="0x1F">BS17.MUS : ゲームオーバー</title>
 			<title code="0x20">BS18.MUS : ミミの悲しみ</title>
-			<title code="0x21">BS19.MUS : </title>
+			<title code="0x21">BS19.MUS</title>
 			<title code="0x22">BS20.MUS : バトスキファイト</title>
 			<title code="0x23">BS21.MUS : 大団円</title>
-			<title code="0x24">BR1.MUS  : </title>
-			<title code="0x25">BR2.MUS  : </title>
-			<title code="0x26">BR3.MUS  : </title>
-			<title code="0x27">BR4.MUS  : </title>
-			<title code="0x28">BR5.MUS  : </title>
-			<title code="0x29">BR6.MUS  : </title>
-			<title code="0x2A">BR7.MUS  : </title>
-			<title code="0x2B">BR10.MUS : </title>
-			<title code="0x2C">BR11.MUS : </title>
-			<title code="0x2D">BR12.MUS : </title>
+			<title code="0x24">BR1.MUS</title>
+			<title code="0x25">BR2.MUS</title>
+			<title code="0x26">BR3.MUS</title>
+			<title code="0x27">BR4.MUS</title>
+			<title code="0x28">BR5.MUS</title>
+			<title code="0x29">BR6.MUS</title>
+			<title code="0x2A">BR7.MUS</title>
+			<title code="0x2B">BR10.MUS</title>
+			<title code="0x2C">BR11.MUS</title>
+			<title code="0x2D">BR12.MUS</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 電脳学園 - CYBERNETIC HI-SCHOOL/DENNOGAKUEN - Ver2.0</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1109,20 +1109,20 @@
 			<rom type="shell" offset="0">ch1_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">D1.DAT : </title>
-			<title code="0x06">D2.DAT : </title>
-			<title code="0x07">D3.DAT : </title>
-			<title code="0x08">D4.DAT : </title>
+			<title code="0x05">D1.DAT</title>
+			<title code="0x06">D2.DAT</title>
+			<title code="0x07">D3.DAT</title>
+			<title code="0x08">D4.DAT</title>
 			<title code="0x09">D5.DAT : 電脳学園のテーマ</title>
-			<title code="0x0a">D6.DAT : </title>
+			<title code="0x0a">D6.DAT</title>
 			<title code="0x0b">D7.DAT ; 電脳学園・エンディング</title>
-			<title code="0x0c">D8.DAT : </title>
+			<title code="0x0c">D8.DAT</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 電脳学園III トップをねらえ!</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1134,22 +1134,22 @@
 			<rom type="shell" offset="0">ch3_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >01 : </title>
+			<title code="1" >01</title>
 			<title code="2" >02 : 艦内探索</title>
 			<title code="4" >04 : 時の河を越えて…</title>
 			<title code="5" >05 : トップをねらえ! ～Fly High～</title>
 			<title code="6" >06 : ガンバスター</title>
 			<title code="7" >07 : 時の河を越えて…</title>
-			<title code="8" >08 : </title>
-			<title code="9" >09 : </title>
-			<title code="10">10 : </title>
+			<title code="8" >08</title>
+			<title code="9" >09</title>
+			<title code="10">10</title>
 			<title code="11">11 : 最後のジャンケン勝負</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 電脳学園IV エイプハンターJ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GAINAX</driveralias>
+		<driveralias type="PC-9801">GAINAX</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1193,42 +1193,42 @@
 		</romlist>
 		<titlelist>
 			<title code="0x10">MS01.M : エイプハンターJ・オープニング</title>
-			<title code="0x11">MS02.M : </title>
+			<title code="0x11">MS02.M</title>
 			<title code="0x12">MS03.M : Jの捜査活動</title>
-			<title code="0x13">MS04.M : </title>
-			<title code="0x14">MS05.M : </title>
-			<title code="0x15">MS06.M : </title>
-			<title code="0x16">MS07.M : </title>
-			<title code="0x17">MS08.M : </title>
+			<title code="0x13">MS04.M</title>
+			<title code="0x14">MS05.M</title>
+			<title code="0x15">MS06.M</title>
+			<title code="0x16">MS07.M</title>
+			<title code="0x17">MS08.M</title>
 			<title code="0x18">MS09.M : Jのギターソング</title>
 			<title code="0x19">MS10.M : 電脳学園校歌</title>
-			<title code="0x1A">MS11.M : </title>
-			<title code="0x1B">BR2.M  : </title>
-			<title code="0x1C">BR3.M  : </title>
-			<title code="0x1D">BR5.M  : </title>
-			<title code="0x1E">BR6.M  : </title>
-			<title code="0x1F">BR7.M  : </title>
-			<title code="0x20">BS7.M  : </title>
-			<title code="0x21">BS11.M : </title>
-			<title code="0x22">BS15.M : </title>
-			<title code="0x23">BS19.M : </title>
-			<title code="0x24">BS21.M : </title>
-			<title code="0x25">ME01.M : </title>
-			<title code="0x26">ME02.M : </title>
-			<title code="0x27">MK01.M : </title>
-			<title code="0x28">MK02.M : </title>
-			<title code="0x29">MK03.M : </title>
-			<title code="0x2A">MK04.M : </title>
-			<title code="0x2B">MK05.M : </title>
-			<title code="0x2C">MK06.M : </title>
-			<title code="0x2D">MK07.M : </title>
-			<title code="0x2E">MK08.M : </title>
+			<title code="0x1A">MS11.M</title>
+			<title code="0x1B">BR2.M</title>
+			<title code="0x1C">BR3.M</title>
+			<title code="0x1D">BR5.M</title>
+			<title code="0x1E">BR6.M</title>
+			<title code="0x1F">BR7.M</title>
+			<title code="0x20">BS7.M</title>
+			<title code="0x21">BS11.M</title>
+			<title code="0x22">BS15.M</title>
+			<title code="0x23">BS19.M</title>
+			<title code="0x24">BS21.M</title>
+			<title code="0x25">ME01.M</title>
+			<title code="0x26">ME02.M</title>
+			<title code="0x27">MK01.M</title>
+			<title code="0x28">MK02.M</title>
+			<title code="0x29">MK03.M</title>
+			<title code="0x2A">MK04.M</title>
+			<title code="0x2B">MK05.M</title>
+			<title code="0x2C">MK06.M</title>
+			<title code="0x2D">MK07.M</title>
+			<title code="0x2E">MK08.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9821] バトルスキンパニック9821</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9821">GAINAX</driveralias>
+		<driveralias type="PC-9821">GAINAX</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1270,42 +1270,42 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BSP21_01.M2 : </title>
-			<title code="0x11">BSP21_02.M2 : </title>
-			<title code="0x12">BSP21_03.M2 : </title>
-			<title code="0x13">BSP21_04.M2 : </title>
-			<title code="0x14">BSP21_05.M2 : </title>
-			<title code="0x15">BSP21_06.M2 : </title>
-			<title code="0x16">BSP21_07.M2 : </title>
-			<title code="0x17">BSP21_08.M2 : </title>
-			<title code="0x18">BSP21_09.M2 : </title>
-			<title code="0x19">BSP21_10.M2 : </title>
+			<title code="0x10">BSP21_01.M2</title>
+			<title code="0x11">BSP21_02.M2</title>
+			<title code="0x12">BSP21_03.M2</title>
+			<title code="0x13">BSP21_04.M2</title>
+			<title code="0x14">BSP21_05.M2</title>
+			<title code="0x15">BSP21_06.M2</title>
+			<title code="0x16">BSP21_07.M2</title>
+			<title code="0x17">BSP21_08.M2</title>
+			<title code="0x18">BSP21_09.M2</title>
+			<title code="0x19">BSP21_10.M2</title>
 			<title code="0x1a">BSP21_11.M2 : カードバトル・パート1</title>
-			<title code="0x1b">BSP21_12.M2 : </title>
-			<title code="0x1c">BSP21_13.M2 : </title>
+			<title code="0x1b">BSP21_12.M2</title>
+			<title code="0x1c">BSP21_13.M2</title>
 			<title code="0x1d">BSP21_14.M2 : グッピー北京登場</title>
 			<title code="0x1e">BSP21_15.M2 : 甲殻人、現る</title>
 			<title code="0x1f">BSP21_16.M2 : 遥かなるチベットへ</title>
-			<title code="0x20">BSP21_17.M2 : </title>
+			<title code="0x20">BSP21_17.M2</title>
 			<title code="0x21">BSP21_18.M2 : ゲームオーバー</title>
 			<title code="0x22">BSP21_19.M2 : ミミの悲しみ</title>
-			<title code="0x23">BSP21_20.M2 : </title>
+			<title code="0x23">BSP21_20.M2</title>
 			<title code="0x24">BSP21_21.M2 : カードバトル・パート2</title>
 			<title code="0x25">BSP21_22.M2 : バトスキファイト</title>
 			<title code="0x26">BSP21_23.M2 : 大団円</title>
-			<title code="0x27">BSP21_24.M2 : </title>
-			<title code="0x28">BSP21_25.M2 : </title>
-			<title code="0x29">BSP21_26.M2 : </title>
+			<title code="0x27">BSP21_24.M2</title>
+			<title code="0x28">BSP21_25.M2</title>
+			<title code="0x29">BSP21_26.M2</title>
 			<title code="0x2a">BSP21_27.M2 : 坂東ミミのテーマ</title>
-			<title code="0x2b">BSP21_28.M2 : </title>
+			<title code="0x2b">BSP21_28.M2</title>
 			<title code="0x2c">BSP21_29.M2 : サキと巨乳三姉妹</title>
-			<title code="0x2d">BSP21_30.M2 : </title>
+			<title code="0x2d">BSP21_30.M2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC/AT] PRINCESS MAKER 2(AdLib)</name>
 		<driver type="adlib">pcatdos</driver>
-		<driveralias type="IBM PC/AT">GAINAX</driveralias>
+		<driveralias type="PC/AT">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="6"/>
 			<option name="opl2_mix" value="0x1C0"/>
@@ -1397,7 +1397,7 @@
 	<game>
 		<name>[PC/AT] PRINCESS MAKER 2(MT-32)</name>
 		<driver type="beep">pcatdos</driver>
-		<driveralias type="IBM PC/AT">GAINAX</driveralias>
+		<driveralias type="PC/AT">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="6"/>
 			<option name="midiout" value="1"/>
@@ -1492,7 +1492,7 @@
 	<game>
 		<name>[PC/AT] PRINCESS MAKER 2(MT-32 Emulation)</name>
 		<driver type="beep">pcatdos</driver>
-		<driveralias type="IBM PC/AT">GAINAX</driveralias>
+		<driveralias type="PC/AT">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="6"/>
 			<option name="midiout" value="1"/>
@@ -1587,7 +1587,7 @@
 	<game>
 		<name>[PC/AT] PRINCESS MAKER 2(GM)</name>
 		<driver type="beep">pcatdos</driver>
-		<driveralias type="IBM PC/AT">GAINAX</driveralias>
+		<driveralias type="PC/AT">GAINAX</driveralias>
 		<options>
 			<option name="clockmul" value="6"/>
 			<option name="midiout" value="1"/>
@@ -1682,7 +1682,7 @@
 	<game>
 		<name>[X68000] ふしぎの海のナディア - THE SECRET OF THE BLUE WATER -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAINAX</driveralias>
+		<driveralias type="X68000">GAINAX</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1719,20 +1719,20 @@
 		<titlelist>
 			<title code="0x01">N1.PLY   : ネオ・アトランティス</title>
 			<title code="0x02">N2.PLY   : エレクトラ</title>
-			<title code="0x03">N3.PLY   : </title>
+			<title code="0x03">N3.PLY</title>
 			<title code="0x04">N4.PLY   : ジャン</title>
 			<title code="0x05">N5.PLY   : 悪の三人組</title>
 			<title code="0x06">N6.PLY   : 危機</title>
-			<title code="0x07">N7.PLY   : </title>
+			<title code="0x07">N7.PLY</title>
 			<title code="0x08">N8.PLY   : 海のたたかい</title>
 			<title code="0x09">N9.PLY   : 快適な艦内</title>
 			<title code="0x0a">N10.PLY  : グランディスの追跡</title>
-			<title code="0x0b">N11.PLY  : </title>
+			<title code="0x0b">N11.PLY</title>
 			<title code="0x0c">N12A.PLY : ノーチラス号出撃!</title>
-			<title code="0x0d">N12B.PLY : </title>
+			<title code="0x0d">N12B.PLY</title>
 			<title code="0x0e">N13.PLY  : バベルの光</title>
 			<title code="0x0f">N14A.PLY : 起死回生</title>
-			<title code="0x10">N14B.PLY : </title>
+			<title code="0x10">N14B.PLY</title>
 			<title code="0x11">N15.PLY  : 悲劇</title>
 			<title code="0x12">N16.PLY  : 頭上の恐怖</title>
 			<title code="0x13">N17.PLY  : 万能潜水艦N・ノーチラス号</title>
@@ -1744,7 +1744,7 @@
 	<game>
 		<name>[X68000] ふしぎの海のナディア MUSIC FLOPPY DISK</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAINAX</driveralias>
+		<driveralias type="X68000">GAINAX</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1778,20 +1778,20 @@
 		<titlelist>
 			<title code="0x01">N1.M   : ネオ・アトランティス</title>
 			<title code="0x02">N2.M   : エレクトラ</title>
-			<title code="0x03">N3.M   : </title>
+			<title code="0x03">N3.M</title>
 			<title code="0x04">N4.M   : ジャン</title>
 			<title code="0x05">N5.M   : 悪の三人組</title>
 			<title code="0x06">N6.M   : 危機</title>
-			<title code="0x07">N7.M   : </title>
+			<title code="0x07">N7.M</title>
 			<title code="0x08">N8.M   : 海のたたかい</title>
 			<title code="0x09">N9.M   : 快適な艦内</title>
 			<title code="0x0a">N10.M  : グランディスの追跡</title>
-			<title code="0x0b">N11.M  : </title>
+			<title code="0x0b">N11.M</title>
 			<title code="0x0c">N12A.M : ノーチラス号出撃!</title>
-			<title code="0x0d">N12B.M : </title>
+			<title code="0x0d">N12B.M</title>
 			<title code="0x0e">N13.M  : バベルの光</title>
 			<title code="0x0f">N14A.M : 起死回生</title>
-			<title code="0x10">N14B.M : </title>
+			<title code="0x10">N14B.M</title>
 			<title code="0x11">N15.M  : 悲劇</title>
 			<title code="0x12">N16.M  : 頭上の恐怖</title>
 			<title code="0x13">N17.M  : 万能潜水艦N・ノーチラス号</title>
@@ -1803,7 +1803,7 @@
 	<game>
 		<name>[X68000] SILENT MOBIUS CASE:TITANIC</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GAINAX</driveralias>
+		<driveralias type="X68000">GAINAX</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1859,21 +1859,21 @@
 			<rom type="code" offset="0xcdf63">nagur1.PCM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">CDSM2.M  : </title>
-			<title code="0x02">CDSM3.M  : </title>
-			<title code="0x03">SMK2.M   : </title>
+			<title code="0x01">CDSM2.M</title>
+			<title code="0x02">CDSM3.M</title>
+			<title code="0x03">SMK2.M</title>
 			<title code="0x04">SMS4.M   : MUSICA DE CAFE</title>
 			<title code="0x05">SMK6.M   : 水の宴</title>
 			<title code="0x06">SMS3.M   : タイタニックの舞踏会</title>
 			<title code="0x07">SMK1.M   : 妖魔との戦い</title>
 			<title code="0x08">SMS1.M   : サイレントメビウス・エンディング</title>
-			<title code="0x09">SMS2.M   : </title>
-			<title code="0x0a">SMK7.M   : </title>
-			<title code="0x0b">CDSM1A.M : </title>
-			<title code="0x0c">CDSM1B.M : </title>
-			<title code="0x0d">CDSM1C.M : </title>
-			<title code="0x0e">SMS5.M   : </title>
-			<title code="0x0f">SMS3B.M  : </title>
+			<title code="0x09">SMS2.M</title>
+			<title code="0x0a">SMK7.M</title>
+			<title code="0x0b">CDSM1A.M</title>
+			<title code="0x0c">CDSM1B.M</title>
+			<title code="0x0d">CDSM1C.M</title>
+			<title code="0x0e">SMS5.M</title>
+			<title code="0x0f">SMS3B.M</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2082,14 +2082,14 @@
 		</romlist>
 		<titlelist>
 			<title code="0x05">HOPEN.MUS : ハイウェイバスターのテーマ</title>
-			<title code="0x00">ADVM.MUS  : </title>
+			<title code="0x00">ADVM.MUS</title>
 			<title code="0x03">HBATL.MUS : ハイウェイバスターを追え!</title>
-			<title code="0x04">HHERO.MUS : </title>
-			<title code="0x01">END.MUS   : </title>
-			<title code="0x02">GOV.MUS   : </title>
-			<title code="0x06">OME.MUS   : </title>
-			<title code="0x07">QIZ.MUS   : </title>
-			<title code="0x08">QKOU.MUS  : </title>
+			<title code="0x04">HHERO.MUS</title>
+			<title code="0x01">END.MUS</title>
+			<title code="0x02">GOV.MUS</title>
+			<title code="0x06">OME.MUS</title>
+			<title code="0x07">QIZ.MUS</title>
+			<title code="0x08">QKOU.MUS</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2116,8 +2116,8 @@
 		<titlelist>
 			<title code="0x05">TOPOP.DAT  : ガンバスター</title>
 			<title code="0x00">ADV.DAT    : 艦内探索</title>
-			<title code="0x01">QUIZ.DAT   : </title>
-			<title code="0x02">SAMBA.DAT  : </title>
+			<title code="0x01">QUIZ.DAT</title>
+			<title code="0x02">SAMBA.DAT</title>
 			<title code="0x04">TOPFLY.DAT : トップをねらえ! ～Fly High～</title>
 			<title code="0x03">TOPEND.DAT : 時の河を越えて…</title>
 			<title code="0x06">TOPOVR.DAT : 時の河を越えて…</title>
@@ -2142,10 +2142,10 @@
 			<rom type="bgm" offset="0x03">BGM4.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">BGM4.DAT : </title>
+			<title code="0x03">BGM4.DAT</title>
 			<title code="0x01">BGM2.DAT : トップをねらえ! ～Fly High～</title>
 			<title code="0x02">BGM3.DAT : 時の河を越えて…</title>
-			<title code="0x00">BGM1.DAT : </title>
+			<title code="0x00">BGM1.DAT</title>
 		</titlelist>
 	</game>
 </gamelist>

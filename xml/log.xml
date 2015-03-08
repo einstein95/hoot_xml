@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] 極 大道棋</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ログ</driveralias>
+		<driveralias type="PC-9801">ログ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -72,7 +72,7 @@
 	<game>
 		<name>[X68000] DRAGON</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ログ</driveralias>
+		<driveralias type="X68000">ログ</driveralias>
 		<romlist archive="dragon68snd">
 			<rom type="code">dragon68snd.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -89,15 +89,15 @@
 			<rom type="code" offset="0x54000">play.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000c">OPENING.OPM : </title>
-			<title code="0x050e">BGM3.OPM    : </title>
-			<title code="0x060e">BGM4.OPM    : </title>
-			<title code="0x070e">BGM5.OPM    : </title>
-			<title code="0x080e">BGM6.OPM    : </title>
-			<title code="0x0a0e">DX_ENKA.OPM : </title>
-			<title code="0x0b0e">FANFALE.OPM : </title>
-			<title code="0x090e">BUTA.OPM    : </title>
-			<title code="0x040e">AHIRU.OPM   : </title>
+			<title code="0x000c">OPENING.OPM</title>
+			<title code="0x050e">BGM3.OPM</title>
+			<title code="0x060e">BGM4.OPM</title>
+			<title code="0x070e">BGM5.OPM</title>
+			<title code="0x080e">BGM6.OPM</title>
+			<title code="0x0a0e">DX_ENKA.OPM</title>
+			<title code="0x0b0e">FANFALE.OPM</title>
+			<title code="0x090e">BUTA.OPM</title>
+			<title code="0x040e">AHIRU.OPM</title>
 		</titlelist>
 	</game>
 </gamelist>

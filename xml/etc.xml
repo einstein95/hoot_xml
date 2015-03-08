@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] MUSIC LALF</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">ETC</driveralias>
+		<driveralias type="PC-8801">ETC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc200"/>
 		</options>
@@ -75,7 +75,7 @@
 	<game>
 		<name>[PC-9801] MUSIC LALF</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">ETC</driveralias>
+		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -163,7 +163,7 @@
 	<game>
 		<name>[PC-9801] PX (Sample)</name>
 		<driver type="otomichan">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ETC</driveralias>
+		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -203,7 +203,7 @@
 		<name>[PC-9801] VAL-SOUND / Kolin2 sample data</name>
 		<!-- http://www.valsound.com/ にて公開されています -->
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ETC</driveralias>
+		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
 			<option name="clockmul" value="0x14"/>
 		</options>
@@ -349,7 +349,7 @@
 	<game>
 		<name>[PC-9801] スピークボード MUSIC SHOW (ROOM1)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ETC</driveralias>
+		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
 			<option name="clockmul" value="0x20"/>
 			<option name="showfm3ex" value="1"/>
@@ -438,7 +438,7 @@
 	<game>
 		<name>[PC-9801] スピークボード MUSIC SHOW (ROOM2)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ETC</driveralias>
+		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="0x20"/>

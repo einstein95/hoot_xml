@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] Primal Space</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Flip Flop</driveralias>
+		<driveralias type="PC-9801">Flip Flop</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -69,23 +69,23 @@
 			<rom type="shell"  offset="0">natt_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BB_MUS02.NMD : </title>
-			<title code="0x11">BB_MUS03.NMD : </title>
-			<title code="0x12">BB_MUS05.NMD : </title>
-			<title code="0x13">BB_MUS07.NMD : </title>
-			<title code="0x14">BB_MUS10.NMD : </title>
-			<title code="0x15">BB_MUS11.NMD : </title>
-			<title code="0x16">BB_MUS12.NMD : </title>
-			<title code="0x17">BB_MUS13.NMD : </title>
-			<title code="0x18">BB_MUS14.NMD : </title>
-			<title code="0x19">BB_MUS16.NMD : </title>
-			<title code="0x1a">BB_MUS17.NMD : </title>
-			<title code="0x1b">BB_MUS18.NMD : </title>
-			<title code="0x1c">BB_MUS19.NMD : </title>
-			<title code="0x1d">BB_MUS21.NMD : </title>
-			<title code="0x1e">BB_MUS22.NMD : </title>
-			<title code="0x1f">BB_MUS23.NMD : </title>
-			<title code="0x20">BB_MUS24.NMD : </title>
+			<title code="0x10">BB_MUS02.NMD</title>
+			<title code="0x11">BB_MUS03.NMD</title>
+			<title code="0x12">BB_MUS05.NMD</title>
+			<title code="0x13">BB_MUS07.NMD</title>
+			<title code="0x14">BB_MUS10.NMD</title>
+			<title code="0x15">BB_MUS11.NMD</title>
+			<title code="0x16">BB_MUS12.NMD</title>
+			<title code="0x17">BB_MUS13.NMD</title>
+			<title code="0x18">BB_MUS14.NMD</title>
+			<title code="0x19">BB_MUS16.NMD</title>
+			<title code="0x1a">BB_MUS17.NMD</title>
+			<title code="0x1b">BB_MUS18.NMD</title>
+			<title code="0x1c">BB_MUS19.NMD</title>
+			<title code="0x1d">BB_MUS21.NMD</title>
+			<title code="0x1e">BB_MUS22.NMD</title>
+			<title code="0x1f">BB_MUS23.NMD</title>
+			<title code="0x20">BB_MUS24.NMD</title>
 			<range min="0x100" max="0x10f" extcode="0">BB_SE00.NMD : %02X</range>
 		</titlelist>
 	</game>

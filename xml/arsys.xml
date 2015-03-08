@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] WiBARM</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf200"/>
 			<option name="mdata_size" value="0x0e00"/>
@@ -64,7 +64,7 @@
 	<game>
 		<name>[PC-8801] Reviver</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
@@ -126,7 +126,7 @@
 	<game>
 		<name>[PC-8801] ódèbã@çbï∫ÉèÅ[ÉhÉâÉSÉì(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xa300"/>
@@ -184,7 +184,7 @@
 	<game>
 		<name>[PC-8801] ódèbã@çbï∫ÉèÅ[ÉhÉâÉSÉì(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xa300"/>
@@ -237,7 +237,7 @@
 	<game>
 		<name>[PC-8801] STAR CRUISER(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -362,7 +362,7 @@
 	<game>
 		<name>[PC-8801] STAR CRUISER(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Arsys Software</driveralias>
+		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -487,7 +487,7 @@
 	<game>
 		<name>[PC-9801] WiBARM</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0xfa00"/>
@@ -518,7 +518,7 @@
 	<game>
 		<name>[PC-9801] Spindizzy II</name>
 		<driver type="opn">pc98</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -627,7 +627,7 @@
 	<game>
 		<name>[PC-9801] STAR CRUISER</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0xe000"/>
@@ -757,7 +757,7 @@
 	<game>
 		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -827,7 +827,7 @@
 	<game>
 		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -899,7 +899,7 @@
 	<game>
 		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -971,7 +971,7 @@
 	<game>
 		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(SC-55)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Arsys Software</driveralias>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1041,9 +1041,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] WiBARM</name>
+		<name>[X1] WiBARM (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Arsys Software</driveralias>
+		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -1067,7 +1067,7 @@
 	<game>
 		<name>[X1] Reviver(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Arsys Software</driveralias>
+		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
@@ -1124,9 +1124,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Reviver(PSG)</name>
+		<name>[X1] Reviver (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Arsys Software</driveralias>
+		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
@@ -1183,7 +1183,7 @@
 	<game>
 		<name>[X1] STAR CRUISER(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Arsys Software</driveralias>
+		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -1305,9 +1305,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] STAR CRUISER(PSG)</name>
+		<name>[X1] Star Cruiser (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Arsys Software</driveralias>
+		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
@@ -1431,7 +1431,7 @@
 	<game>
 		<name>[X68000] STAR CRUISER</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Arsys Software</driveralias>
+		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="scsnd">
 			<rom type="code">sc.bin</rom>
 		</romlist>
@@ -1472,7 +1472,7 @@
 	<game>
 		<name>[X68000] Spindizzy II</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Arsys Software</driveralias>
+		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="sd2snd">
 			<rom type="code">sd2.bin</rom>
 		</romlist>
@@ -1658,7 +1658,7 @@
 	<game>
 		<name>[X68000] Knight Arms</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Arsys Software</driveralias>
+		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="kasnd">
 			<rom type="code">ka.bin</rom>
 		</romlist>

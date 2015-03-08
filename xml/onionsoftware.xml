@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] CATTLE MUTILATION</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -76,7 +76,7 @@
 	<game>
 		<name>[PC-9801] コンパルガ</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -127,18 +127,18 @@
 			<title code="0x10">DRIP01.MLO : どりっぷタイム</title>
 			<title code="0x11">DRIP02.MLO : ほんわか志向</title>
 			<title code="0x12">DRIP03.MLO : あの世の果て</title>
-			<title code="0x21">OH17.MLO   : </title>
-			<title code="0x22">OH18.MLO   : </title>
-			<title code="0x23">OH19.MLO   : </title>
-			<title code="0x24">OH20.MLO   : </title>
-			<title code="0x25">OH19_.MLO  : </title>
-			<title code="0x26">OH20_.MLO  : </title>
+			<title code="0x21">OH17.MLO</title>
+			<title code="0x22">OH18.MLO</title>
+			<title code="0x23">OH19.MLO</title>
+			<title code="0x24">OH20.MLO</title>
+			<title code="0x25">OH19_.MLO</title>
+			<title code="0x26">OH20_.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ザルバールの蒸留塔</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -186,8 +186,8 @@
 			<title code="0x1f">OH16.MLO   : Dogs won't go</title>
 			<title code="0x13">L2ARR.MLO  : あふれる風呂桶</title>
 			<title code="0x12">GT014.MLO  : 友好的な宇宙人</title>
-			<title code="0x20">OH17.MLO   : </title>
-			<title code="0x21">OH18.MLO   : </title>
+			<title code="0x20">OH17.MLO</title>
+			<title code="0x21">OH18.MLO</title>
 			<title code="0x22">OH19.MLO   : good work</title>
 			<title code="0x23">OH20.MLO   : oh my good</title>
 			<title code="0x10">CASC06.MLO : summer carnival</title>
@@ -200,7 +200,7 @@
 	<game>
 		<name>[PC-9801] 蒸留塔'95</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -261,14 +261,14 @@
 			<title code="0x28">OK4.MLO    : night of Senegal</title>
 			<title code="0x27">OK11.MLO   : practice time</title>
 			<title code="0x29">TA04.MLO   : joy of segregation</title>
-			<title code="0x25">OH19.MLO   : </title>
-			<title code="0x26">OH20.MLO   : </title>
+			<title code="0x25">OH19.MLO</title>
+			<title code="0x26">OH20.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ダニエルの宝探し</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -287,20 +287,20 @@
 			<rom type="shell" offset="0">onion_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">CASC05.MLO : </title>
-			<title code="0x11">CASC08.MLO : </title>
-			<title code="0x12">OH13.MLO   : </title>
-			<title code="0x13">OH19.MLO   : </title>
-			<title code="0x14">OH20.MLO   : </title>
-			<title code="0x15">OK11.MLO   : </title>
-			<title code="0x16">TA01.MLO   : </title>
-			<title code="0x17">TA04.MLO   : </title>
+			<title code="0x10">CASC05.MLO</title>
+			<title code="0x11">CASC08.MLO</title>
+			<title code="0x12">OH13.MLO</title>
+			<title code="0x13">OH19.MLO</title>
+			<title code="0x14">OH20.MLO</title>
+			<title code="0x15">OK11.MLO</title>
+			<title code="0x16">TA01.MLO</title>
+			<title code="0x17">TA04.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 新潟遊園を探して…</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -315,7 +315,7 @@
 			<rom type="shell" offset="0">onion_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">OF6.MLO : </title>
+			<title code="0x10">OF6.MLO</title>
 			<title code="0x11">OI3.MLO : ポートタワー物語のテーマ</title>
 			<title code="0x12">OI6.MLO : 温泉地のテーマ</title>
 			<title code="0x13">OI9.MLO : バスが来ないから歩いてみよう</title>
@@ -324,7 +324,7 @@
 	<game>
 		<name>[PC-9801] light SOUP processor sample</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -337,14 +337,14 @@
 			<rom type="shell" offset="0">onion_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">MUSAMP1.MLO : </title>
-			<title code="0x11">MUSAMP2.MLO : </title>
+			<title code="0x10">MUSAMP1.MLO</title>
+			<title code="0x11">MUSAMP2.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ジャンパー4</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -366,7 +366,7 @@
 	<game>
 		<name>[PC-9801] 夏色アバンチュール</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -398,7 +398,7 @@
 	<game>
 		<name>[PC-9801] PC's TV</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -423,26 +423,26 @@
 			<rom type="shell" offset="0">onion_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">CASC01.MLO : </title>
-			<title code="0x11">CASC05.MLO : </title>
-			<title code="0x12">CASC06.MLO : </title>
-			<title code="0x13">CASC08.MLO : </title>
-			<title code="0x14">FAFA2.MLO  : </title>
-			<title code="0x15">GT2.MLO    : </title>
+			<title code="0x10">CASC01.MLO</title>
+			<title code="0x11">CASC05.MLO</title>
+			<title code="0x12">CASC06.MLO</title>
+			<title code="0x13">CASC08.MLO</title>
+			<title code="0x14">FAFA2.MLO</title>
+			<title code="0x15">GT2.MLO</title>
 			<title code="0x16">KK1.MLO    : NIGHT RUNNING</title>
-			<title code="0x17">KK3.MLO    : </title>
-			<title code="0x18">KK4.MLO    : </title>
+			<title code="0x17">KK3.MLO</title>
+			<title code="0x18">KK4.MLO</title>
 			<title code="0x19">KK6.MLO    : 悪魔のフルート( devil mix )</title>
 			<title code="0x1a">KK7.MLO    : LUCKY TIME</title>
-			<title code="0x1b">OK11.MLO   : </title>
-			<title code="0x1c">OK19.MLO   : </title>
-			<title code="0x1d">TA01.MLO   : </title>
+			<title code="0x1b">OK11.MLO</title>
+			<title code="0x1c">OK19.MLO</title>
+			<title code="0x1d">TA01.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] たこらげーる</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -466,7 +466,7 @@
 	<game>
 		<name>[PC-9801] FIRE CHASE</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -512,11 +512,11 @@
 			<title code="0x16">GT.MLO       : 異星人来襲!</title>
 			<title code="0x17">GT'.MLO      : move your hands up'n down</title>
 			<title code="0x18">KK1.MLO      : NIGHT RUNNING</title>
-			<title code="0x19">KK2.MLO      : </title>
+			<title code="0x19">KK2.MLO</title>
 			<title code="0x1a">KK5.MLO      : CRY AT SINGAPORE</title>
 			<title code="0x1b">KK6.MLO      : 悪魔のフルート( devil mix )</title>
 			<title code="0x1c">KK7.MLO      : LUCKY TIME</title>
-			<title code="0x1d">OF6.MLO      : </title>
+			<title code="0x1d">OF6.MLO</title>
 			<title code="0x1e">OF9.MLO      : REMEMBRANCE</title>
 			<title code="0x1f">OH12.MLO     : Space Cray</title>
 			<title code="0x20">OI3.MLO      : ポートタワー物語のテーマ</title>
@@ -526,15 +526,15 @@
 			<title code="0x24">OK12.MLO     : ONLY LITTLE HOPE</title>
 			<title code="0x25">OK19.MLO     : the jungle sky</title>
 			<title code="0x26">OK21.MLO     : CAR&amp;HORN</title>
-			<title code="0x27">TDEAD.MLO    : </title>
-			<title code="0x28">TSTS2.MLO    : </title>
-			<title code="0x29">TSTS8.MLO    : </title>
+			<title code="0x27">TDEAD.MLO</title>
+			<title code="0x28">TSTS2.MLO</title>
+			<title code="0x29">TSTS8.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] DISK bit4</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">ONION software</driveralias>
+		<driveralias type="PC-9801">ONION software</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -590,11 +590,11 @@
 			<title code="0x16">GT.MLO       : 異星人来襲！</title>
 			<title code="0x17">GT'.MLO      : move your hands up'n down</title>
 			<title code="0x18">KK1.MLO      : NIGHT RUNNING</title>
-			<title code="0x19">KK2.MLO      : </title>
+			<title code="0x19">KK2.MLO</title>
 			<title code="0x1a">KK5.MLO      : CRY AT SINGAPORE</title>
 			<title code="0x1b">KK6.MLO      : 悪魔のフルート( devil mix )</title>
 			<title code="0x1c">KK7.MLO      : LUCKY TIME</title>
-			<title code="0x1d">OF6.MLO      : </title>
+			<title code="0x1d">OF6.MLO</title>
 			<title code="0x1e">OF9.MLO      : REMEMBRANCE</title>
 			<title code="0x1f">OI3.MLO      : ポートタワー物語のテーマ</title>
 			<title code="0x20">OI6.MLO      : 温泉地のテーマ</title>
@@ -603,8 +603,8 @@
 			<title code="0x23">OK12.MLO     : ONLY LITTLE HOPE</title>
 			<title code="0x24">OK19.MLO     : the jungle sky</title>
 			<title code="0x25">OK21.MLO     : CAR&amp;HORN</title>
-			<title code="0x26">TDEAD.MLO    : </title>
-			<title code="0x27">TSTS2.MLO    : </title>
+			<title code="0x26">TDEAD.MLO</title>
+			<title code="0x27">TSTS2.MLO</title>
 			<title code="0x28">TSTS8.MLO    : FIRE CHASE OPENING</title>
 			<title code="0x29">UFO0.AXO     : MUTILATED CITY</title>
 			<title code="0x2a">UFO1.AXO     : HERE COMES... EBES</title>
@@ -622,7 +622,7 @@
 	<game>
 		<name>[X68000] 異国の旅セネガル</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ONION software</driveralias>
+		<driveralias type="X68000">ONION software</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -700,7 +700,7 @@
 	<game>
 		<name>[X68000] へびゲーム!</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">ONION software</driveralias>
+		<driveralias type="X68000">ONION software</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>

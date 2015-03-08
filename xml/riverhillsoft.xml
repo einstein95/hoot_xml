@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] 殺人倶楽部DX</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Riverhill Soft</driveralias>
+		<driveralias type="X68000">Riverhill Soft</driveralias>
 		<romlist archive="mc68snd">
 			<rom type="code">mc68snd.bin</rom>
 			<rom type="x" offset="0x06800">m_club.x</rom>
@@ -73,7 +73,7 @@
 	<game>
 		<name>[X68000] Manhattan Requiem -Angels Flying In The Dark-</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Riverhill Soft</driveralias>
+		<driveralias type="X68000">Riverhill Soft</driveralias>
 		<romlist archive="mr68snd">
 			<rom type="code">mr68snd.bin</rom>
 			<rom type="x" offset="0x06800">mr.sys</rom>
@@ -99,7 +99,7 @@
 	<game>
 		<name>[X68000] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Riverhill Soft</driveralias>
+		<driveralias type="X68000">Riverhill Soft</driveralias>
 		<romlist archive="ki68snd">
 			<rom type="code">ki68snd.bin</rom>
 			<rom type="x" offset="0x06800">ki.sys</rom>
@@ -124,7 +124,7 @@
 	<game>
 		<name>[X68000] 琥珀色の遺言</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Riverhill Soft</driveralias>
+		<driveralias type="X68000">Riverhill Soft</driveralias>
 		<romlist archive="ky68snd">
 			<rom type="code">ky68snd.bin</rom>
 			<rom type="x" offset="0x06800">ky.x</rom>
@@ -165,7 +165,7 @@
 	<game>
 		<name>[X68000] 黄金の羅針盤</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Riverhill Soft</driveralias>
+		<driveralias type="X68000">Riverhill Soft</driveralias>
 		<romlist archive="rashin68snd">
 			<rom type="code">rashin68snd.bin</rom>
 			<rom type="code" offset="0x03ffe4">openning.bin</rom>
@@ -331,7 +331,7 @@
 	<game>
 		<name>[PC-8801] Manhattan Requiem -Angels Flying In The Dark-</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8d77"/>
 			<option name="mdata_size" value="0x3d00"/>
@@ -370,7 +370,7 @@
 	<game>
 		<name>[PC-8801] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="baseclock"  value="0x08"/>
 			<option name="mdata_addr" value="0x8e7a"/>
@@ -410,7 +410,7 @@
 	<game>
 		<name>[PC-8801] D.C.CONNECTION - J.B.HAROLD 3 -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="init_pc"  value="0xf000"/>
 			<option name="mdata_addr" value="0x0dfb"/>
@@ -454,7 +454,7 @@
 	<game>
 		<name>[PC-8801] 琥珀色の遺言</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -498,7 +498,7 @@
 	<game>
 		<name>[PC-8801] BURAI 上巻(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xe000"/>
 		</options>
@@ -610,7 +610,7 @@
 	<game>
 		<name>[PC-8801] BURAI 上巻(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xe000"/>
 		</options>
@@ -722,7 +722,7 @@
 	<game>
 		<name>[PC-9801] 黄金の羅針盤</name>
 		<driver type="rashin">pc98</driver>
-		<driveralias type="NEC PC-9801">Riverhill Soft</driveralias>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x5600"/>
 			<option name="filesize" value="0x1000"/>
@@ -831,7 +831,7 @@
 	<game>
 		<name>[PC-9801] D.C.CONNECTION - J.B.HAROLD 3 -</name>
 		<driver type="rashin">pc98</driver>
-		<driveralias type="NEC PC-9801">Riverhill Soft</driveralias>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x1800"/>
 			<option name="filesize" value="0x2000"/>
@@ -890,7 +890,7 @@
 	<game>
 		<name>[PC-9801] BURAI 上巻</name>
 		<driver type="burai">pc98</driver>
-		<driveralias type="NEC PC-9801">Riverhill Soft</driveralias>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x1ffe"/>
 			<option name="filesize" value="0x8000"/>
@@ -973,7 +973,7 @@
 	<game>
 		<name>[PC-9801] BURAI 下巻</name>
 		<driver type="rashin">pc98</driver>
-		<driveralias type="NEC PC-9801">Riverhill Soft</driveralias>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x3900"/>
 			<option name="filesize" value="0x4000"/>
@@ -1133,7 +1133,7 @@
 		<name>[PC-9801] プリンセス・ミネルバ ～ 姫のわがまま大冒険</name>
 		<!-- ファイルカッターは黄金の羅針盤(98)を流用します -->
 		<driver type="rashin">pc98</driver>
-		<driveralias type="NEC PC-9801">Riverhill Soft</driveralias>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x5d00"/>
 			<option name="filesize" value="0x2000"/>
@@ -1191,57 +1191,57 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">[STOP]</title>
-			<title code="0x03">snd03 : </title>
-			<title code="0x04">snd04 : </title>
-			<title code="0x05">snd05 : </title>
-			<title code="0x06">snd06 : </title>
-			<title code="0x07">snd07 : </title>
-			<title code="0x08">snd08 : </title>
-			<title code="0x09">snd09 : </title>
-			<title code="0x0a">snd0a : </title>
-			<title code="0x0b">snd0b : </title>
-			<title code="0x0c">snd0c : </title>
-			<title code="0x0d">snd0d : </title>
-			<title code="0x0e">snd0e : </title>
-			<title code="0x0f">snd0f : </title>
-			<title code="0x10">snd10 : </title>
-			<title code="0x11">snd11 : </title>
-			<title code="0x12">snd12 : </title>
-			<title code="0x13">snd13 : </title>
-			<title code="0x14">snd14 : </title>
-			<title code="0x15">snd15 : </title>
-			<title code="0x16">snd16 : </title>
-			<title code="0x17">snd17 : </title>
-			<title code="0x18">snd18 : </title>
-			<title code="0x19">snd19 : </title>
-			<title code="0x1a">snd1a : </title>
-			<title code="0x1b">snd1b : </title>
-			<title code="0x1c">snd1c : </title>
-			<title code="0x1d">snd1d : </title>
-			<title code="0x1e">snd1e : </title>
-			<title code="0x1f">snd1f : </title>
-			<title code="0x20">snd20 : </title>
-			<title code="0x21">snd21 : </title>
-			<title code="0x22">snd22 : </title>
-			<title code="0x23">snd23 : </title>
-			<title code="0x24">snd24 : </title>
-			<title code="0x25">snd25 : </title>
-			<title code="0x26">snd26 : </title>
-			<title code="0x27">snd27 : </title>
-			<title code="0x28">snd28 : </title>
-			<title code="0x29">snd29 : </title>
-			<title code="0x2a">snd2a : </title>
-			<title code="0x2b">snd2b : </title>
-			<title code="0x2c">snd2c : </title>
-			<title code="0x2d">snd2d : </title>
-			<title code="0x2e">snd2e : </title>
-			<title code="0x2f">snd2f : </title>
+			<title code="0x03">snd03</title>
+			<title code="0x04">snd04</title>
+			<title code="0x05">snd05</title>
+			<title code="0x06">snd06</title>
+			<title code="0x07">snd07</title>
+			<title code="0x08">snd08</title>
+			<title code="0x09">snd09</title>
+			<title code="0x0a">snd0a</title>
+			<title code="0x0b">snd0b</title>
+			<title code="0x0c">snd0c</title>
+			<title code="0x0d">snd0d</title>
+			<title code="0x0e">snd0e</title>
+			<title code="0x0f">snd0f</title>
+			<title code="0x10">snd10</title>
+			<title code="0x11">snd11</title>
+			<title code="0x12">snd12</title>
+			<title code="0x13">snd13</title>
+			<title code="0x14">snd14</title>
+			<title code="0x15">snd15</title>
+			<title code="0x16">snd16</title>
+			<title code="0x17">snd17</title>
+			<title code="0x18">snd18</title>
+			<title code="0x19">snd19</title>
+			<title code="0x1a">snd1a</title>
+			<title code="0x1b">snd1b</title>
+			<title code="0x1c">snd1c</title>
+			<title code="0x1d">snd1d</title>
+			<title code="0x1e">snd1e</title>
+			<title code="0x1f">snd1f</title>
+			<title code="0x20">snd20</title>
+			<title code="0x21">snd21</title>
+			<title code="0x22">snd22</title>
+			<title code="0x23">snd23</title>
+			<title code="0x24">snd24</title>
+			<title code="0x25">snd25</title>
+			<title code="0x26">snd26</title>
+			<title code="0x27">snd27</title>
+			<title code="0x28">snd28</title>
+			<title code="0x29">snd29</title>
+			<title code="0x2a">snd2a</title>
+			<title code="0x2b">snd2b</title>
+			<title code="0x2c">snd2c</title>
+			<title code="0x2d">snd2d</title>
+			<title code="0x2e">snd2e</title>
+			<title code="0x2f">snd2f</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] Manhattan Requiem - Angels Flying In The Dark -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">Riverhill Soft</driveralias>
+		<driveralias type="X1">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 		</options>
@@ -1264,7 +1264,7 @@
 	<game>
 		<name>[X1] Manhattan Requiem - Angels Flying In The Dark -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">Riverhill Soft</driveralias>
+		<driveralias type="X1">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="ctc3"       value="0x50"/>
@@ -1401,27 +1401,27 @@
 			<rom type="bgm" offset="0x1b">MUSIC6.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">BRG11.MDT  : </title>
-			<title code="0x0001">BRG121.MDT : </title>
-			<title code="0x0002">BRG122.MDT : </title>
-			<title code="0x0003">BRG24.MDT  : </title>
-			<title code="0x0004">BRG30.MDT  : </title>
-			<title code="0x0005">BRG33.MDT  : </title>
-			<title code="0x0006">BRG36.MDT  : </title>
-			<title code="0x0007">BRG40.MDT  : </title>
-			<title code="0x0008">BRG41.MDT  : </title>
-			<title code="0x0009">BRG42.MDT  : </title>
-			<title code="0x000a">BRG45.MDT  : </title>
-			<title code="0x000b">BRG46.MDT  : </title>
-			<title code="0x000c">BRG53.MDT  : </title>
-			<title code="0x000d">BRG60.MDT  : </title>
-			<title code="0x000e">BRG63.MDT  : </title>
-			<title code="0x000f">BRG64.MDT  : </title>
-			<title code="0x0010">BRG65.MDT  : </title>
-			<title code="0x0011">BRG66.MDT  : </title>
-			<title code="0x0012">BRG67.MDT  : </title>
-			<title code="0x0013">BRG70.MDT  : </title>
-			<title code="0x0014">BRG73.MDT  : </title>
+			<title code="0x0000">BRG11.MDT</title>
+			<title code="0x0001">BRG121.MDT</title>
+			<title code="0x0002">BRG122.MDT</title>
+			<title code="0x0003">BRG24.MDT</title>
+			<title code="0x0004">BRG30.MDT</title>
+			<title code="0x0005">BRG33.MDT</title>
+			<title code="0x0006">BRG36.MDT</title>
+			<title code="0x0007">BRG40.MDT</title>
+			<title code="0x0008">BRG41.MDT</title>
+			<title code="0x0009">BRG42.MDT</title>
+			<title code="0x000a">BRG45.MDT</title>
+			<title code="0x000b">BRG46.MDT</title>
+			<title code="0x000c">BRG53.MDT</title>
+			<title code="0x000d">BRG60.MDT</title>
+			<title code="0x000e">BRG63.MDT</title>
+			<title code="0x000f">BRG64.MDT</title>
+			<title code="0x0010">BRG65.MDT</title>
+			<title code="0x0011">BRG66.MDT</title>
+			<title code="0x0012">BRG67.MDT</title>
+			<title code="0x0013">BRG70.MDT</title>
+			<title code="0x0014">BRG73.MDT</title>
 
 			<title code="0x0115">MUSIC0.DAT : 01</title>
 

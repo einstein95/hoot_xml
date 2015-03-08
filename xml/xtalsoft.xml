@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] XTALSOFT DIGITAL JUKE BOX(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -230,7 +230,7 @@
 	<game>
 		<name>[PC-8801] XTALSOFT DIGITAL JUKE BOX(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -422,7 +422,7 @@
 	<game>
 		<name>[PC-8801] Mr.プロ野球</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="vdata_addr" value="0x8c00"/>
 		</options>
@@ -474,7 +474,7 @@
 	<game>
 		<name>[PC-8801] BATTLE GORILLA(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4400"/>
 			<option name="mdata_size" value="0x0700"/>
@@ -516,7 +516,7 @@
 	<game>
 		<name>[PC-8801] BATTLE GORILLA(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4400"/>
 			<option name="mdata_size" value="0x0700"/>
@@ -558,7 +558,7 @@
 	<game>
 		<name>[PC-8801] BABYLON</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<romlist archive="babylon">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8800">DEMO</rom>
@@ -590,7 +590,7 @@
 	<game>
 		<name>[PC-8801] ADVANCED Fantasian -QUEST FOR LOST SANCTUARY-(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<romlist archive="af">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0400">opefc</rom>
@@ -646,7 +646,7 @@
 	<game>
 		<name>[PC-8801] ADVANCED Fantasian -QUEST FOR LOST SANCTUARY-(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<romlist archive="af">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0400">opefc</rom>
@@ -702,7 +702,7 @@
 	<game>
 		<name>[PC-8801] Jehard</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="init_pc"    value="0xf000"/>
@@ -757,7 +757,7 @@
 	<game>
 		<name>[PC-8801] クリムゾン</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<romlist archive="crimson">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x6200">VOICE</rom>
@@ -813,7 +813,7 @@
 	<game>
 		<name>[PC-8801] クリムゾンII -邪神の逆襲-(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 		</options>
@@ -883,7 +883,7 @@
 	<game>
 		<name>[PC-8801] クリムゾンII -邪神の逆襲-(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 		</options>
@@ -953,7 +953,7 @@
 	<game>
 		<name>[PC-8801] クリムゾンIII -邪神復活-(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="showfm3ex"  value="0x01"/>
@@ -1052,7 +1052,7 @@
 	<game>
 		<name>[PC-8801] クリムゾンIII -邪神復活-(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="showfm3ex"  value="0x01"/>
@@ -1151,7 +1151,7 @@
 	<game>
 		<name>[PC-8801] 夢幻の心臓III(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_num" value="0x50"/>
 		</options>
@@ -1237,73 +1237,73 @@
 			<title code="0x05">MUS002 : 戦闘2</title>
 			<title code="0x06">MUS003 : デュアル・ダーク</title>
 			<title code="0x07">MUS100 : ルイザード地方</title>
-			<title code="0x08">MUS101 : </title>
+			<title code="0x08">MUS101</title>
 			<title code="0x09">MUS102 : ガイヤール城</title>
-			<title code="0x0a">MUS103 : </title>
+			<title code="0x0a">MUS103</title>
 			<title code="0x0b">MUS104 : 街</title>
-			<title code="0x0c">MUS105 : </title>
-			<title code="0x0d">MUS106 : </title>
-			<title code="0x0e">MUS107 : </title>
-			<title code="0x0f">MUS108 : </title>
+			<title code="0x0c">MUS105</title>
+			<title code="0x0d">MUS106</title>
+			<title code="0x0e">MUS107</title>
+			<title code="0x0f">MUS108</title>
 			<title code="0x10">MUS109 : お店</title>
 			<title code="0x11">MUS110 : イベント</title>
 			<title code="0x12">MUS111 : 祈祷師</title>
-			<title code="0x13">MUS112 : </title>
+			<title code="0x13">MUS112</title>
 			<title code="0x14">MUS113 : 仲間との会話(男性)</title>
 			<title code="0x15">MUS114 : 仲間との会話(女性)</title>
-			<title code="0x16">MUS115 : </title>
+			<title code="0x16">MUS115</title>
 		<!--	<title code="0x17">MUS200 : ルイザード地方</title> -->
 		<!--	<title code="0x18">MUS201 : 街</title> -->
 		<!--	<title code="0x19">MUS202 : 205と同じ</title> -->
-			<title code="0x1a">MUS203 : </title>
-			<title code="0x1b">MUS204 : </title>
-			<title code="0x1c">MUS205 : </title>
-			<title code="0x1d">MUS206 : </title>
-			<title code="0x1e">MUS207 : </title>
-			<title code="0x1f">MUS208 : </title>
-			<title code="0x20">MUS209 : </title>
-			<title code="0x21">MUS210 : </title>
-			<title code="0x22">MUS211 : </title>
-			<title code="0x23">MUS212 : </title>
-			<title code="0x24">MUS213 : </title>
-			<title code="0x25">MUS214 : </title>
-			<title code="0x26">MUS215 : </title>
+			<title code="0x1a">MUS203</title>
+			<title code="0x1b">MUS204</title>
+			<title code="0x1c">MUS205</title>
+			<title code="0x1d">MUS206</title>
+			<title code="0x1e">MUS207</title>
+			<title code="0x1f">MUS208</title>
+			<title code="0x20">MUS209</title>
+			<title code="0x21">MUS210</title>
+			<title code="0x22">MUS211</title>
+			<title code="0x23">MUS212</title>
+			<title code="0x24">MUS213</title>
+			<title code="0x25">MUS214</title>
+			<title code="0x26">MUS215</title>
 		<!--	<title code="0x27">MUS216 : お店</title> -->
 		<!--	<title code="0x28">MUS217 : 仲間との会話(男性)</title> -->
 		<!--	<title code="0x29">MUS218 : 仲間との会話(女性)</title> -->
 		<!--	<title code="0x2a">MUS219 : 祈祷師</title> -->
-			<title code="0x2b">MUS220 : </title>
-			<title code="0x2c">MUS300 : </title>
+			<title code="0x2b">MUS220</title>
+			<title code="0x2c">MUS300</title>
 		<!--	<title code="0x2d">MUS301 : 315と同じ</title> -->
 			<title code="0x2e">MUS302 : フィールド</title>
 			<title code="0x2f">MUS303 : 街2</title>
-			<title code="0x30">MUS304 : </title>
-			<title code="0x31">MUS305 : </title>
-			<title code="0x32">MUS306 : </title>
-			<title code="0x33">MUS307 : </title>
-			<title code="0x34">MUS308 : </title>
+			<title code="0x30">MUS304</title>
+			<title code="0x31">MUS305</title>
+			<title code="0x32">MUS306</title>
+			<title code="0x33">MUS307</title>
+			<title code="0x34">MUS308</title>
 		<!--	<title code="0x35">MUS309 : お店</title> -->
 		<!--	<title code="0x36">MUS310 : 仲間との会話(男性)</title> -->
 		<!--	<title code="0x37">MUS311 : 祈祷師</title> -->
-			<title code="0x38">MUS312 : </title>
+			<title code="0x38">MUS312</title>
 		<!--	<title code="0x39">MUS313 : 210と同じ</title> -->
 		<!--	<title code="0x3a">MUS400 : フィールド</title> -->
 		<!--	<title code="0x3b">MUS401 : 街2</title> -->
-			<title code="0x3c">MUS402 : </title>
-			<title code="0x3d">MUS403 : </title>
-			<title code="0x3e">MUS404 : </title>
-			<title code="0x3f">MUS405 : </title>
-			<title code="0x40">MUS406 : </title>
+			<title code="0x3c">MUS402</title>
+			<title code="0x3d">MUS403</title>
+			<title code="0x3e">MUS404</title>
+			<title code="0x3f">MUS405</title>
+			<title code="0x40">MUS406</title>
 			<title code="0x41">MUS407 : 最終ダンジョン</title>
 		<!--	<title code="0x42">MUS408 : お店</title> -->
 		<!--	<title code="0x43">MUS409 : 祈祷師</title> -->
-			<title code="0x44">MUS410 : </title>
+			<title code="0x44">MUS410</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 夢幻の心臓III(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_num" value="0x50"/>
 		</options>
@@ -1389,73 +1389,73 @@
 			<title code="0x05">MUS002 : 戦闘2</title>
 			<title code="0x06">MUS003 : デュアル・ダーク</title>
 			<title code="0x07">MUS100 : ルイザード地方</title>
-			<title code="0x08">MUS101 : </title>
+			<title code="0x08">MUS101</title>
 			<title code="0x09">MUS102 : ガイヤール城</title>
-			<title code="0x0a">MUS103 : </title>
+			<title code="0x0a">MUS103</title>
 			<title code="0x0b">MUS104 : 街</title>
-			<title code="0x0c">MUS105 : </title>
-			<title code="0x0d">MUS106 : </title>
-			<title code="0x0e">MUS107 : </title>
-			<title code="0x0f">MUS108 : </title>
+			<title code="0x0c">MUS105</title>
+			<title code="0x0d">MUS106</title>
+			<title code="0x0e">MUS107</title>
+			<title code="0x0f">MUS108</title>
 			<title code="0x10">MUS109 : お店</title>
 			<title code="0x11">MUS110 : イベント</title>
 			<title code="0x12">MUS111 : 祈祷師</title>
-			<title code="0x13">MUS112 : </title>
+			<title code="0x13">MUS112</title>
 			<title code="0x14">MUS113 : 仲間との会話(男性)</title>
 			<title code="0x15">MUS114 : 仲間との会話(女性)</title>
-			<title code="0x16">MUS115 : </title>
+			<title code="0x16">MUS115</title>
 		<!--	<title code="0x17">MUS200 : ルイザード地方</title> -->
 		<!--	<title code="0x18">MUS201 : 街</title> -->
 		<!--	<title code="0x19">MUS202 : 205と同じ</title> -->
-			<title code="0x1a">MUS203 : </title>
-			<title code="0x1b">MUS204 : </title>
-			<title code="0x1c">MUS205 : </title>
-			<title code="0x1d">MUS206 : </title>
-			<title code="0x1e">MUS207 : </title>
-			<title code="0x1f">MUS208 : </title>
-			<title code="0x20">MUS209 : </title>
-			<title code="0x21">MUS210 : </title>
-			<title code="0x22">MUS211 : </title>
-			<title code="0x23">MUS212 : </title>
-			<title code="0x24">MUS213 : </title>
-			<title code="0x25">MUS214 : </title>
-			<title code="0x26">MUS215 : </title>
+			<title code="0x1a">MUS203</title>
+			<title code="0x1b">MUS204</title>
+			<title code="0x1c">MUS205</title>
+			<title code="0x1d">MUS206</title>
+			<title code="0x1e">MUS207</title>
+			<title code="0x1f">MUS208</title>
+			<title code="0x20">MUS209</title>
+			<title code="0x21">MUS210</title>
+			<title code="0x22">MUS211</title>
+			<title code="0x23">MUS212</title>
+			<title code="0x24">MUS213</title>
+			<title code="0x25">MUS214</title>
+			<title code="0x26">MUS215</title>
 		<!--	<title code="0x27">MUS216 : お店</title> -->
 		<!--	<title code="0x28">MUS217 : 仲間との会話(男性)</title> -->
 		<!--	<title code="0x29">MUS218 : 仲間との会話(女性)</title> -->
 		<!--	<title code="0x2a">MUS219 : 祈祷師</title> -->
-			<title code="0x2b">MUS220 : </title>
-			<title code="0x2c">MUS300 : </title>
+			<title code="0x2b">MUS220</title>
+			<title code="0x2c">MUS300</title>
 		<!--	<title code="0x2d">MUS301 : 315と同じ</title> -->
 			<title code="0x2e">MUS302 : フィールド</title>
 			<title code="0x2f">MUS303 : 街2</title>
-			<title code="0x30">MUS304 : </title>
-			<title code="0x31">MUS305 : </title>
-			<title code="0x32">MUS306 : </title>
-			<title code="0x33">MUS307 : </title>
-			<title code="0x34">MUS308 : </title>
+			<title code="0x30">MUS304</title>
+			<title code="0x31">MUS305</title>
+			<title code="0x32">MUS306</title>
+			<title code="0x33">MUS307</title>
+			<title code="0x34">MUS308</title>
 		<!--	<title code="0x35">MUS309 : お店</title> -->
 		<!--	<title code="0x36">MUS310 : 仲間との会話(男性)</title> -->
 		<!--	<title code="0x37">MUS311 : 祈祷師</title> -->
-			<title code="0x38">MUS312 : </title>
+			<title code="0x38">MUS312</title>
 		<!--	<title code="0x39">MUS313 : 210と同じ</title> -->
 		<!--	<title code="0x3a">MUS400 : フィールド</title> -->
 		<!--	<title code="0x3b">MUS401 : 街2</title> -->
-			<title code="0x3c">MUS402 : </title>
-			<title code="0x3d">MUS403 : </title>
-			<title code="0x3e">MUS404 : </title>
-			<title code="0x3f">MUS405 : </title>
-			<title code="0x40">MUS406 : </title>
+			<title code="0x3c">MUS402</title>
+			<title code="0x3d">MUS403</title>
+			<title code="0x3e">MUS404</title>
+			<title code="0x3f">MUS405</title>
+			<title code="0x40">MUS406</title>
 			<title code="0x41">MUS407 : 最終ダンジョン</title>
 		<!--	<title code="0x42">MUS408 : お店</title> -->
 		<!--	<title code="0x43">MUS409 : 祈祷師</title> -->
-			<title code="0x44">MUS410 : </title>
+			<title code="0x44">MUS410</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] Lizard</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">XTALSOFT</driveralias>
+		<driveralias type="PC-8801">XTALSOFT</driveralias>
 		<options>
 			<option name="mdata_num" value="0"/>
 			<option name="baseclock" value="4"/>
@@ -1471,7 +1471,7 @@
 	<game>
 		<name>[X1] クリムゾン</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<options>
 			<option name="init_pc"  value="0xf000"/>
 			<option name="opm_mix"  value="0x180"/>
@@ -1535,7 +1535,7 @@
 	<game>
 		<name>[X1] クリムゾン ミュージックディスク</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<options>
 			<option name="init_pc"  value="0xf000"/>
 			<option name="opm_mix"  value="0x180"/>
@@ -1639,7 +1639,7 @@
 	<game>
 		<name>[X1] ASPIC SPECIAL(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<romlist archive="x1aspicsp">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0fd0">PROG</rom>
@@ -1660,7 +1660,7 @@
 	<game>
 		<name>[X1] ASPIC SPECIAL(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<options>
 			<option name="ctc3" value="0x43"/>
 		</options>
@@ -1697,7 +1697,7 @@
 	<game>
 		<name>[X1] ADVANCED Fantasian -QUEST FOR LOST SANCTUARY-</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<romlist archive="x1af">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x1400">fmdriver</rom>
@@ -1745,7 +1745,7 @@
 	<game>
 		<name>[X1] BATTLE GORILLA(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0100"/>
 			<option name="mdata_addr" value="0x4400"/>
@@ -1789,7 +1789,7 @@
 	<game>
 		<name>[X1] BATTLE GORILLA(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">XTALSOFT</driveralias>
+		<driveralias type="X1">XTALSOFT</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0100"/>
 			<option name="mdata_addr" value="0x4400"/>
@@ -1831,7 +1831,7 @@
 	<game>
 		<name>[PC-9801] Mr.プロ野球</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">XTALSOFT</driveralias>
+		<driveralias type="PC-9801">XTALSOFT</driveralias>
 		<options>
 		<!--	<option name="cpuclock" value="1996800"/> --> <!-- 8MHz系はこちら -->
 			<option name="cpuclock" value="2457600"/>
@@ -1883,7 +1883,7 @@
 	<game>
 		<name>[PC-9801] クリムゾンIII -邪神復活-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">XTALSOFT</driveralias>
+		<driveralias type="PC-9801">XTALSOFT</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1983,38 +1983,38 @@
 			<title code="0x00036">GAME/MUSC.37         : ハイパークリムゾン</title>
 			<title code="0x1003a">OPENING/MUSC.40      : ジングル</title>
 			<title code="0x1003b">OPENING/MUSC.41      : エンディング</title>
-			<title code="0x00037">GAME/MUSC.38         : </title>
-			<title code="0x1003c">OPENING/MUSC.42      : </title>
-			<title code="0x20000">GAME/SUND.01    : 00 : </title>
-			<title code="0x20001">GAME/SUND.01    : 01 : </title>
-			<title code="0x20002">GAME/SUND.01    : 02 : </title>
-			<title code="0x20003">GAME/SUND.01    : 03 : </title>
-			<title code="0x20004">GAME/SUND.01    : 04 : </title>
-			<title code="0x20005">GAME/SUND.01    : 05 : </title>
-			<title code="0x20006">GAME/SUND.01    : 06 : </title>
-			<title code="0x20007">GAME/SUND.01    : 07 : </title>
-			<title code="0x20008">GAME/SUND.01    : 08 : </title>
-			<title code="0x20009">GAME/SUND.01    : 09 : </title>
-			<title code="0x2000a">GAME/SUND.01    : 0a : </title>
-			<title code="0x2000b">GAME/SUND.01    : 0b : </title>
-			<title code="0x2000c">GAME/SUND.01    : 0c : </title>
-			<title code="0x2000d">GAME/SUND.01    : 0d : </title>
-			<title code="0x2000e">GAME/SUND.01    : 0e : </title>
-			<title code="0x2000f">GAME/SUND.01    : 0f : </title>
-			<title code="0x20010">GAME/SUND.01    : 10 : </title>
-			<title code="0x20011">GAME/SUND.01    : 11 : </title>
-			<title code="0x20012">GAME/SUND.01    : 12 : </title>
-			<title code="0x20013">GAME/SUND.01    : 13 : </title>
-			<title code="0x30000">OPENING/SUND.02 : 00 : </title>
-			<title code="0x30001">OPENING/SUND.02 : 01 : </title>
-			<title code="0x30002">OPENING/SUND.02 : 02 : </title>
-			<title code="0x30003">OPENING/SUND.02 : 03 : </title>
-			<title code="0x30004">OPENING/SUND.02 : 04 : </title>
-			<title code="0x30005">OPENING/SUND.02 : 05 : </title>
-			<title code="0x30006">OPENING/SUND.02 : 06 : </title>
-			<title code="0x30007">OPENING/SUND.02 : 07 : </title>
-			<title code="0x30008">OPENING/SUND.02 : 08 : </title>
-			<title code="0x30009">OPENING/SUND.02 : 09 : </title>
+			<title code="0x00037">GAME/MUSC.38</title>
+			<title code="0x1003c">OPENING/MUSC.42</title>
+			<title code="0x20000">GAME/SUND.01    : 00</title>
+			<title code="0x20001">GAME/SUND.01    : 01</title>
+			<title code="0x20002">GAME/SUND.01    : 02</title>
+			<title code="0x20003">GAME/SUND.01    : 03</title>
+			<title code="0x20004">GAME/SUND.01    : 04</title>
+			<title code="0x20005">GAME/SUND.01    : 05</title>
+			<title code="0x20006">GAME/SUND.01    : 06</title>
+			<title code="0x20007">GAME/SUND.01    : 07</title>
+			<title code="0x20008">GAME/SUND.01    : 08</title>
+			<title code="0x20009">GAME/SUND.01    : 09</title>
+			<title code="0x2000a">GAME/SUND.01    : 0a</title>
+			<title code="0x2000b">GAME/SUND.01    : 0b</title>
+			<title code="0x2000c">GAME/SUND.01    : 0c</title>
+			<title code="0x2000d">GAME/SUND.01    : 0d</title>
+			<title code="0x2000e">GAME/SUND.01    : 0e</title>
+			<title code="0x2000f">GAME/SUND.01    : 0f</title>
+			<title code="0x20010">GAME/SUND.01    : 10</title>
+			<title code="0x20011">GAME/SUND.01    : 11</title>
+			<title code="0x20012">GAME/SUND.01    : 12</title>
+			<title code="0x20013">GAME/SUND.01    : 13</title>
+			<title code="0x30000">OPENING/SUND.02 : 00</title>
+			<title code="0x30001">OPENING/SUND.02 : 01</title>
+			<title code="0x30002">OPENING/SUND.02 : 02</title>
+			<title code="0x30003">OPENING/SUND.02 : 03</title>
+			<title code="0x30004">OPENING/SUND.02 : 04</title>
+			<title code="0x30005">OPENING/SUND.02 : 05</title>
+			<title code="0x30006">OPENING/SUND.02 : 06</title>
+			<title code="0x30007">OPENING/SUND.02 : 07</title>
+			<title code="0x30008">OPENING/SUND.02 : 08</title>
+			<title code="0x30009">OPENING/SUND.02 : 09</title>
 		</titlelist>
 	</game>
 	<game>

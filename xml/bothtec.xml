@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] RELICS</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -59,7 +59,7 @@
 	<game>
 		<name>[PC-8801] Topple Zip</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9e00"/>
 		</options>
@@ -79,7 +79,7 @@
 	<game>
 		<name>[PC-8801] 銀河英雄伝説</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 		</options>
@@ -101,7 +101,7 @@
 	<game>
 		<name>[PC-8801] 銀河英雄伝説 パワーアップ＆シナリオ集</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5a00"/>
 			<option name="mdata_size" value="0x0600"/>
@@ -147,7 +147,7 @@
 	<game>
 		<name>[PC-8801] 銀河英雄伝説II</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6390"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -217,7 +217,7 @@
 	<game>
 		<name>[PC-8801] 銀河英雄伝説II DX</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x65a0"/>
 		</options>
@@ -243,7 +243,7 @@
 	<game>
 		<name>[PC-8801] The Scheme(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="use_rtc" value="0x01"/>
@@ -339,7 +339,7 @@
 	<game>
 		<name>[PC-8801] The Scheme(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="use_rtc" value="0x01"/>
@@ -395,7 +395,7 @@
 	<game>
 		<name>[PC-8801] The Scheme(80曲ミュージックモード)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">BOTHTEC</driveralias>
 		<options>
 			<option name="mfile_size" value="0x3000"/>
 			<option name="vdata_addr" value="0x3000"/>
@@ -507,7 +507,7 @@
 	<game>
 		<name>[PC-88VA] DIRES - giger loop -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">BOTHTEC</driveralias>
+		<driveralias type="PC-88VA">BOTHTEC</driveralias>
 		<romlist archive="diresva">
 			<rom type="file" offset="-1">diresva.com</rom>
 			<rom type="file" offset="-1">DEMO.EXE</rom>
@@ -527,7 +527,7 @@
 	<game>
 		<name>[PC-9801] RELICS(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="bootcs" value="0x00c0"/>
 			<option name="bootip" value="0xdd00"/>
@@ -546,7 +546,7 @@
 	<game>
 		<name>[PC-9801] RELICS(AMD-98)</name>
 		<driver type="amd98">pc98vx</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="bootcs" value="0x00c0"/>
 			<option name="bootip" value="0xdd00"/>
@@ -565,7 +565,7 @@
 	<game>
 		<name>[PC-9801] Topple Zip</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<romlist archive="topple_98">
 			<rom type="file" offset="-1">topl98.com</rom>
 			<rom type="file" offset="-1">TOPPLE.EXE</rom>
@@ -582,7 +582,7 @@
 	<game>
 		<name>[PC-9801] DIRES - giger loop -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -605,7 +605,7 @@
 	<game>
 		<name>[PC-9801] らんま1/2 飛龍伝説</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -677,79 +677,79 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0000002c">GEDS15F.MDS  : Bothtecロゴ</title>
-			<title code="0x00000049">PROLOGUE.MDS : </title>
+			<title code="0x00000049">PROLOGUE.MDS</title>
 			<title code="0x00000010">BOKUTATI.MDS : 僕たちはこれから(Short version)</title>
 			<title code="0x00000011">BOKU_END.MDS : 僕たちはこれから(Long version)</title>
-			<title code="0x00000012">EM_01.MDS    : </title>
-			<title code="0x00000013">EM_02.MDS    : </title>
-			<title code="0x00000014">EM_03.MDS    : </title>
-			<title code="0x00000015">EM_05.MDS    : </title>
-			<title code="0x00000016">EM_09.MDS    : </title>
-			<title code="0x00000017">EM_10.MDS    : </title>
-			<title code="0x00000018">EM_12.MDS    : </title>
-			<title code="0x00000019">EM_13.MDS    : </title>
-			<title code="0x0000001a">EM_14.MDS    : </title>
-			<title code="0x0000001b">EM_15.MDS    : </title>
-			<title code="0x0000001c">EM_19.MDS    : </title>
-			<title code="0x0000001d">EM_22.MDS    : </title>
-			<title code="0x0000001e">EM_24.MDS    : </title>
-			<title code="0x0000001f">EM_25.MDS    : </title>
-			<title code="0x00000020">EM_26.MDS    : </title>
-			<title code="0x00000021">EM_28.MDS    : </title>
-			<title code="0x00000022">EM_32.MDS    : </title>
-			<title code="0x00000023">EM_39.MDS    : </title>
-			<title code="0x00000024">EM_52.MDS    : </title>
-			<title code="0x00000025">EM_71.MDS    : </title>
-			<title code="0x00000026">EM_72.MDS    : </title>
-			<title code="0x00000027">EM_73.MDS    : </title>
-			<title code="0x00000028">EM_75.MDS    : </title>
-			<title code="0x00000029">EM_76.MDS    : </title>
-			<title code="0x0000002a">EM_77.MDS    : </title>
-			<title code="0x0000002b">EM_78.MDS    : </title>
-			<title code="0x0000002d">M_01.MDS     : </title>
-			<title code="0x0000002e">M_02.MDS     : </title>
-			<title code="0x0000002f">M_03.MDS     : </title>
-			<title code="0x00000030">M_05.MDS     : </title>
-			<title code="0x00000031">M_09.MDS     : </title>
-			<title code="0x00000032">M_10.MDS     : </title>
-			<title code="0x00000033">M_12.MDS     : </title>
-			<title code="0x00000034">M_13.MDS     : </title>
-			<title code="0x00000035">M_14.MDS     : </title>
-			<title code="0x00000036">M_15.MDS     : </title>
-			<title code="0x00000037">M_19.MDS     : </title>
-			<title code="0x00000038">M_22.MDS     : </title>
-			<title code="0x00000039">M_24.MDS     : </title>
-			<title code="0x0000003a">M_25.MDS     : </title>
-			<title code="0x0000003b">M_26.MDS     : </title>
-			<title code="0x0000003c">M_28.MDS     : </title>
-			<title code="0x0000003d">M_32.MDS     : </title>
-			<title code="0x0000003e">M_39.MDS     : </title>
-			<title code="0x0000003f">M_52.MDS     : </title>
-			<title code="0x00000040">M_52E.MDS    : </title>
-			<title code="0x00000041">M_71.MDS     : </title>
-			<title code="0x00000042">M_72.MDS     : </title>
-			<title code="0x00000040">M_73.MDS     : </title>
-			<title code="0x00000044">M_75.MDS     : </title>
-			<title code="0x00000045">M_76.MDS     : </title>
-			<title code="0x00000046">M_77.MDS     : </title>
-			<title code="0x00000047">M_78.MDS     : </title>
+			<title code="0x00000012">EM_01.MDS</title>
+			<title code="0x00000013">EM_02.MDS</title>
+			<title code="0x00000014">EM_03.MDS</title>
+			<title code="0x00000015">EM_05.MDS</title>
+			<title code="0x00000016">EM_09.MDS</title>
+			<title code="0x00000017">EM_10.MDS</title>
+			<title code="0x00000018">EM_12.MDS</title>
+			<title code="0x00000019">EM_13.MDS</title>
+			<title code="0x0000001a">EM_14.MDS</title>
+			<title code="0x0000001b">EM_15.MDS</title>
+			<title code="0x0000001c">EM_19.MDS</title>
+			<title code="0x0000001d">EM_22.MDS</title>
+			<title code="0x0000001e">EM_24.MDS</title>
+			<title code="0x0000001f">EM_25.MDS</title>
+			<title code="0x00000020">EM_26.MDS</title>
+			<title code="0x00000021">EM_28.MDS</title>
+			<title code="0x00000022">EM_32.MDS</title>
+			<title code="0x00000023">EM_39.MDS</title>
+			<title code="0x00000024">EM_52.MDS</title>
+			<title code="0x00000025">EM_71.MDS</title>
+			<title code="0x00000026">EM_72.MDS</title>
+			<title code="0x00000027">EM_73.MDS</title>
+			<title code="0x00000028">EM_75.MDS</title>
+			<title code="0x00000029">EM_76.MDS</title>
+			<title code="0x0000002a">EM_77.MDS</title>
+			<title code="0x0000002b">EM_78.MDS</title>
+			<title code="0x0000002d">M_01.MDS</title>
+			<title code="0x0000002e">M_02.MDS</title>
+			<title code="0x0000002f">M_03.MDS</title>
+			<title code="0x00000030">M_05.MDS</title>
+			<title code="0x00000031">M_09.MDS</title>
+			<title code="0x00000032">M_10.MDS</title>
+			<title code="0x00000033">M_12.MDS</title>
+			<title code="0x00000034">M_13.MDS</title>
+			<title code="0x00000035">M_14.MDS</title>
+			<title code="0x00000036">M_15.MDS</title>
+			<title code="0x00000037">M_19.MDS</title>
+			<title code="0x00000038">M_22.MDS</title>
+			<title code="0x00000039">M_24.MDS</title>
+			<title code="0x0000003a">M_25.MDS</title>
+			<title code="0x0000003b">M_26.MDS</title>
+			<title code="0x0000003c">M_28.MDS</title>
+			<title code="0x0000003d">M_32.MDS</title>
+			<title code="0x0000003e">M_39.MDS</title>
+			<title code="0x0000003f">M_52.MDS</title>
+			<title code="0x00000040">M_52E.MDS</title>
+			<title code="0x00000041">M_71.MDS</title>
+			<title code="0x00000042">M_72.MDS</title>
+			<title code="0x00000040">M_73.MDS</title>
+			<title code="0x00000044">M_75.MDS</title>
+			<title code="0x00000045">M_76.MDS</title>
+			<title code="0x00000046">M_77.MDS</title>
+			<title code="0x00000047">M_78.MDS</title>
 			<title code="0x00000048">OMOIDE.MDS   : 思い出がいっぱい</title>
-			<title code="0x0000ffff">EFFECT #00   : </title>
-			<title code="0x0001ffff">EFFECT #01   : </title>
-			<title code="0x0002ffff">EFFECT #02   : </title>
-			<title code="0x0003ffff">EFFECT #03   : </title>
-			<title code="0x0004ffff">EFFECT #04   : </title>
-			<title code="0x0005ffff">EFFECT #05   : </title>
-			<title code="0x0006ffff">EFFECT #06   : </title>
-			<title code="0x0007ffff">EFFECT #07   : </title>
-			<title code="0x0008ffff">EFFECT #08   : </title>
-			<title code="0x0009ffff">EFFECT #09   : </title>
+			<title code="0x0000ffff">EFFECT #00</title>
+			<title code="0x0001ffff">EFFECT #01</title>
+			<title code="0x0002ffff">EFFECT #02</title>
+			<title code="0x0003ffff">EFFECT #03</title>
+			<title code="0x0004ffff">EFFECT #04</title>
+			<title code="0x0005ffff">EFFECT #05</title>
+			<title code="0x0006ffff">EFFECT #06</title>
+			<title code="0x0007ffff">EFFECT #07</title>
+			<title code="0x0008ffff">EFFECT #08</title>
+			<title code="0x0009ffff">EFFECT #09</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<romlist archive="ginei3_98">
 			<rom type="file" offset="-1">g3.com</rom>
 			<rom type="file" offset="-1">OPENING.EXE</rom>
@@ -779,15 +779,15 @@
 			<title code="0x00000016">BGM_5F  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6F  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7F  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MDS  : </title>
-			<title code="0x0100001a">ENDBGMT .MDS  : </title>
+			<title code="0x01000019">ENDBGMD .MDS</title>
+			<title code="0x0100001a">ENDBGMT .MDS</title>
 			<title code="0x0000001b">TITLEBGM.MDS  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -819,15 +819,15 @@
 			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MPU  : </title>
-			<title code="0x0100001a">ENDBGMT .MPU  : </title>
+			<title code="0x01000019">ENDBGMD .MPU</title>
+			<title code="0x0100001a">ENDBGMT .MPU</title>
 			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -859,15 +859,15 @@
 			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MPU  : </title>
-			<title code="0x0100001a">ENDBGMT .MPU  : </title>
+			<title code="0x01000019">ENDBGMD .MPU</title>
+			<title code="0x0100001a">ENDBGMT .MPU</title>
 			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III SP(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<romlist archive="ginei3sp_98">
 			<rom type="file" offset="-1">g3.com</rom>
 			<rom type="file" offset="-1">OPENING.EXE</rom>
@@ -897,15 +897,15 @@
 			<title code="0x00000016">BGM_5F  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6F  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7F  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MDS  : </title>
-			<title code="0x0100001a">ENDBGMT .MDS  : </title>
+			<title code="0x01000019">ENDBGMD .MDS</title>
+			<title code="0x0100001a">ENDBGMT .MDS</title>
 			<title code="0x0000001b">TITLEBGM.MDS  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III SP(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -937,15 +937,15 @@
 			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MPU  : </title>
-			<title code="0x0100001a">ENDBGMT .MPU  : </title>
+			<title code="0x01000019">ENDBGMD .MPU</title>
+			<title code="0x0100001a">ENDBGMT .MPU</title>
 			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説III SP(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -977,15 +977,15 @@
 			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
 			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
 			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
-			<title code="0x01000019">ENDBGMD .MPU  : </title>
-			<title code="0x0100001a">ENDBGMT .MPU  : </title>
+			<title code="0x01000019">ENDBGMD .MPU</title>
+			<title code="0x0100001a">ENDBGMT .MPU</title>
 			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1039,17 +1039,17 @@
 			<title code="0x15">BGM405.N  : ワルキューレ(戦闘バージョン)</title>
 			<title code="0x25">NEW_F.N   : 新世界より(戦闘バージョン)</title>
 			<title code="0x27">ZENKAN.N  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.N  : </title>
-			<title code="0x1b">BGM410C.N : </title>
-			<title code="0x22">BGM417.N  : </title>
-			<title code="0x23">BGM418.N  : </title>
-			<title code="0x24">BGM419.N  : </title>
+			<title code="0x1a">BGM410.N</title>
+			<title code="0x1b">BGM410C.N</title>
+			<title code="0x22">BGM417.N</title>
+			<title code="0x23">BGM418.N</title>
+			<title code="0x24">BGM419.N</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1103,17 +1103,17 @@
 			<title code="0x15">BGM405.A  : ワルキューレ(戦闘バージョン)</title>
 			<title code="0x25">NEW_F.A   : 新世界より(戦闘バージョン)</title>
 			<title code="0x27">ZENKAN.A  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.A  : </title>
-			<title code="0x1b">BGM410C.A : </title>
-			<title code="0x22">BGM417.A  : </title>
-			<title code="0x23">BGM418.A  : </title>
-			<title code="0x24">BGM419.A  : </title>
+			<title code="0x1a">BGM410.A</title>
+			<title code="0x1b">BGM410C.A</title>
+			<title code="0x22">BGM417.A</title>
+			<title code="0x23">BGM418.A</title>
+			<title code="0x24">BGM419.A</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV(GS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1169,17 +1169,17 @@
 			<title code="0x15">BGM405.G  : ワルキューレ(戦闘バージョン)</title>
 			<title code="0x25">NEW_F.G   : 新世界より(戦闘バージョン)</title>
 			<title code="0x27">ZENKAN.G  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.G  : </title>
-			<title code="0x1b">BGM410C.G : </title>
-			<title code="0x22">BGM417.G  : </title>
-			<title code="0x23">BGM418.G  : </title>
-			<title code="0x24">BGM419.G  : </title>
+			<title code="0x1a">BGM410.G</title>
+			<title code="0x1b">BGM410C.G</title>
+			<title code="0x22">BGM417.G</title>
+			<title code="0x23">BGM418.G</title>
+			<title code="0x24">BGM419.G</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV(MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1235,17 +1235,17 @@
 			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
 			<title code="0x25">NEW_F.L   : 新世界より(戦闘バージョン)</title>
 			<title code="0x27">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.L  : </title>
-			<title code="0x1b">BGM410C.L : </title>
-			<title code="0x22">BGM417.L  : </title>
-			<title code="0x23">BGM418.L  : </title>
-			<title code="0x24">BGM419.L  : </title>
+			<title code="0x1a">BGM410.L</title>
+			<title code="0x1b">BGM410C.L</title>
+			<title code="0x22">BGM417.L</title>
+			<title code="0x23">BGM418.L</title>
+			<title code="0x24">BGM419.L</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1301,17 +1301,17 @@
 			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
 			<title code="0x25">NEW_F.L   : 新世界より(戦闘バージョン)</title>
 			<title code="0x27">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.L  : </title>
-			<title code="0x1b">BGM410C.L : </title>
-			<title code="0x22">BGM417.L  : </title>
-			<title code="0x23">BGM418.L  : </title>
-			<title code="0x24">BGM419.L  : </title>
+			<title code="0x1a">BGM410.L</title>
+			<title code="0x1b">BGM410C.L</title>
+			<title code="0x22">BGM417.L</title>
+			<title code="0x23">BGM418.L</title>
+			<title code="0x24">BGM419.L</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1354,8 +1354,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.N  : </title>
-			<title code="0x29">BGM435.N  : </title>
+			<title code="0x23">BGM418.N</title>
+			<title code="0x29">BGM435.N</title>
 			<title code="0x11">BGM401.N  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.N  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.N  : 同盟国歌</title>
@@ -1380,16 +1380,16 @@
 			<title code="0x2b">NEW_F.N   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.N  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.N  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.N  : </title>
-			<title code="0x1b">BGM410C.N : </title>
-			<title code="0x22">BGM417.N  : </title>
-			<title code="0x24">BGM419.N  : </title>
+			<title code="0x1a">BGM410.N</title>
+			<title code="0x1b">BGM410C.N</title>
+			<title code="0x22">BGM417.N</title>
+			<title code="0x24">BGM419.N</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1432,8 +1432,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.A  : </title>
-			<title code="0x29">BGM435.A  : </title>
+			<title code="0x23">BGM418.A</title>
+			<title code="0x29">BGM435.A</title>
 			<title code="0x11">BGM401.A  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.A  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.A  : 同盟国歌</title>
@@ -1458,16 +1458,16 @@
 			<title code="0x2b">NEW_F.A   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.A  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.A  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.A  : </title>
-			<title code="0x1b">BGM410C.A : </title>
-			<title code="0x22">BGM417.A  : </title>
-			<title code="0x24">BGM419.A  : </title>
+			<title code="0x1a">BGM410.A</title>
+			<title code="0x1b">BGM410C.A</title>
+			<title code="0x22">BGM417.A</title>
+			<title code="0x24">BGM419.A</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(SB16)</name>
 		<driver type="soundblaster16">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="opl3_mix" value="0x100"/>
@@ -1511,8 +1511,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.O  : </title>
-			<title code="0x29">BGM435.O  : </title>
+			<title code="0x23">BGM418.O</title>
+			<title code="0x29">BGM435.O</title>
 			<title code="0x11">BGM401.O  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.O  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.O  : 同盟国歌</title>
@@ -1537,16 +1537,16 @@
 			<title code="0x2b">NEW_F.O   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.O  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.O  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.O  : </title>
-			<title code="0x1b">BGM410C.O : </title>
-			<title code="0x22">BGM417.O  : </title>
-			<title code="0x24">BGM419.O  : </title>
+			<title code="0x1a">BGM410.O</title>
+			<title code="0x1b">BGM410C.O</title>
+			<title code="0x22">BGM417.O</title>
+			<title code="0x24">BGM419.O</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1591,8 +1591,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.G  : </title>
-			<title code="0x29">BGM435.G  : </title>
+			<title code="0x23">BGM418.G</title>
+			<title code="0x29">BGM435.G</title>
 			<title code="0x11">BGM401.G  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.G  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.G  : 同盟国歌</title>
@@ -1617,16 +1617,16 @@
 			<title code="0x2b">NEW_F.G   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.G  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.G  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.G  : </title>
-			<title code="0x1b">BGM410C.G : </title>
-			<title code="0x22">BGM417.G  : </title>
-			<title code="0x24">BGM419.G  : </title>
+			<title code="0x1a">BGM410.G</title>
+			<title code="0x1b">BGM410C.G</title>
+			<title code="0x22">BGM417.G</title>
+			<title code="0x24">BGM419.G</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1671,8 +1671,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.L  : </title>
-			<title code="0x29">BGM435.L  : </title>
+			<title code="0x23">BGM418.L</title>
+			<title code="0x29">BGM435.L</title>
 			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.L  : 同盟国歌</title>
@@ -1697,16 +1697,16 @@
 			<title code="0x2b">NEW_F.L   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.L  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.L  : </title>
-			<title code="0x1b">BGM410C.L : </title>
-			<title code="0x22">BGM417.L  : </title>
-			<title code="0x24">BGM419.L  : </title>
+			<title code="0x1a">BGM410.L</title>
+			<title code="0x1b">BGM410C.L</title>
+			<title code="0x22">BGM417.L</title>
+			<title code="0x24">BGM419.L</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 銀河英雄伝説IV EX(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">BOTHTEC</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1751,8 +1751,8 @@
 			<rom type="shell" offset="0">synu2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">BGM418.L  : </title>
-			<title code="0x29">BGM435.L  : </title>
+			<title code="0x23">BGM418.L</title>
+			<title code="0x29">BGM435.L</title>
 			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
 			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
 			<title code="0x13">BGM403.L  : 同盟国歌</title>
@@ -1777,16 +1777,16 @@
 			<title code="0x2b">NEW_F.L   : 新世界より(戦闘バージョン)</title>
 			<title code="0x2d">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
 			<title code="0x2e">FIGHT4.L  : 英雄の決断(戦闘バージョン)</title>
-			<title code="0x1a">BGM410.L  : </title>
-			<title code="0x1b">BGM410C.L : </title>
-			<title code="0x22">BGM417.L  : </title>
-			<title code="0x24">BGM419.L  : </title>
+			<title code="0x1a">BGM410.L</title>
+			<title code="0x1b">BGM410C.L</title>
+			<title code="0x22">BGM417.L</title>
+			<title code="0x24">BGM419.L</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] HOTEL WARS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1804,7 +1804,7 @@
 	<game>
 		<name>[X68000] RELICS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -1821,7 +1821,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<romlist archive="ginei68snd">
 			<rom type="code" offset="0x000000">gin68snd.bin</rom>
 			<rom type="x"    offset="0x010000">amain.x</rom>
@@ -1842,7 +1842,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説 パワーアップ＆シナリオ集(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<romlist archive="ginps68snd">
 			<rom type="code" offset="0x000000">ginps68snd.bin</rom>
 			<rom type="x"    offset="0x010000">amain.x</rom>
@@ -1867,7 +1867,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説II(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1931,7 +1931,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説II DX(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1998,7 +1998,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説III(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2026,13 +2026,13 @@
 			<title code="0x01">BGM_0F.ZMD  : 英雄</title>
 			<title code="0x05">BGM_1F.ZMD  : 悲愴</title>
 			<title code="0x08">BGM_2F.ZMD  : 新世界より</title>
-			<title code="0x0b">BGM_3F.ZMD  : </title>
-			<title code="0x14">BGM_4F.ZMD  : </title>
+			<title code="0x0b">BGM_3F.ZMD</title>
+			<title code="0x14">BGM_4F.ZMD</title>
 			<!--
 			<title code="0x15">BGM_5F.ZMD  : [STOP]</title>
 			  -->
 			<title code="0x16">BGM_6F.ZMD  : 全艦攻撃</title>
-			<title code="0x17">BGM_7F.ZMD  : </title>
+			<title code="0x17">BGM_7F.ZMD</title>
 			<title code="0x1a">END_DF.ZMD  : エンディング1</title>
 			<title code="0x1f">END_TF.ZMD  : エンディング2</title>
 			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
@@ -2041,7 +2041,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説III(MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2071,13 +2071,13 @@
 			<title code="0x01">BGM_0M.ZMD  : 英雄</title>
 			<title code="0x05">BGM_1M.ZMD  : 悲愴</title>
 			<title code="0x0b">BGM_2M.ZMD  : 新世界より</title>
-			<title code="0x10">BGM_3M.ZMD  : </title>
-			<title code="0x15">BGM_4M.ZMD  : </title>
+			<title code="0x10">BGM_3M.ZMD</title>
+			<title code="0x15">BGM_4M.ZMD</title>
 			<!--
 			<title code="0x16">BGM_5M.ZMD  : [STOP]</title>
 			  -->
 			<title code="0x17">BGM_6M.ZMD  : 全艦攻撃</title>
-			<title code="0x18">BGM_7M.ZMD  : </title>
+			<title code="0x18">BGM_7M.ZMD</title>
 			<title code="0x19">END_DM.ZMD  : エンディング1</title>
 			<title code="0x1b">END_TM.ZMD  : エンディング2</title>
 			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
@@ -2086,7 +2086,7 @@
 	<game>
 		<name>[X68000] 銀河英雄伝説III(MT-32 Emulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">BOTHTEC</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2116,13 +2116,13 @@
 			<title code="0x01">BGM_0M.ZMD  : 英雄</title>
 			<title code="0x05">BGM_1M.ZMD  : 悲愴</title>
 			<title code="0x0b">BGM_2M.ZMD  : 新世界より</title>
-			<title code="0x10">BGM_3M.ZMD  : </title>
-			<title code="0x15">BGM_4M.ZMD  : </title>
+			<title code="0x10">BGM_3M.ZMD</title>
+			<title code="0x15">BGM_4M.ZMD</title>
 			<!--
 			<title code="0x16">BGM_5M.ZMD  : [STOP]</title>
 			  -->
 			<title code="0x17">BGM_6M.ZMD  : 全艦攻撃</title>
-			<title code="0x18">BGM_7M.ZMD  : </title>
+			<title code="0x18">BGM_7M.ZMD</title>
 			<title code="0x19">END_DM.ZMD  : エンディング1</title>
 			<title code="0x1b">END_TM.ZMD  : エンディング2</title>
 			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
@@ -2242,7 +2242,7 @@
 			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x06" extcode="1">%02x : </range>
+			<range min="0x00" max="0x06" extcode="1">%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2267,7 +2267,7 @@
 			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x06" extcode="1">%02x : </range>
+			<range min="0x00" max="0x06" extcode="1">%02x</range>
 		</titlelist>
 	</game>
 	<game>

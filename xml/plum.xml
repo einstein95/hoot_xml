@@ -36,14 +36,14 @@
 <gamelist date="2005/09/25">
 	<!-- //GREAT 広島開発室 PLUM -->
 	<game>
-		<name>[PC-9801] FOREIGNER</name>
+		<name>[PC-9801] Foreigner (フォリナー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="for_ner_98">
-			<rom type="file" offset="-1">nlp_hoot.com</rom>
+		<romlist archive="foreign_98">
+			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
 			<rom type="file" offset="-1">NA.COM</rom>
 			<rom type="file" offset="-1">TONES.DTA</rom>
 			<rom type="file" offset="0x10">FOR01.O</rom>
@@ -56,16 +56,16 @@
 			<rom type="file" offset="0x17">FOR08.O</rom>
 			<rom type="file" offset="0x18">FOR09.O</rom>
 			<rom type="file" offset="0x19">FOR10.O</rom>
-			<rom type="file" offset="0x1A">FOR11.O</rom>
-			<rom type="file" offset="0x1B">FOR12.O</rom>
-			<rom type="file" offset="0x1C">FOR13.O</rom>
-			<rom type="file" offset="0x1D">FOR14.O</rom>
-			<rom type="file" offset="0x1E">FOR15.O</rom>
-			<rom type="file" offset="0x1F">FOR16.O</rom>
+			<rom type="file" offset="0x1a">FOR11.O</rom>
+			<rom type="file" offset="0x1b">FOR12.O</rom>
+			<rom type="file" offset="0x1c">FOR13.O</rom>
+			<rom type="file" offset="0x1d">FOR14.O</rom>
+			<rom type="file" offset="0x1e">FOR15.O</rom>
+			<rom type="file" offset="0x1f">FOR16.O</rom>
 			<rom type="file" offset="0x20">FOR17.O</rom>
 			<rom type="file" offset="0x21">FOR18.O</rom>
 			<rom type="shell" offset="0">NA -T</rom>
-			<rom type="shell" offset="0">nlp_hoot</rom>
+			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x10">FOR01.O</title>
@@ -78,24 +78,24 @@
 			<title code="0x17">FOR08.O</title>
 			<title code="0x18">FOR09.O</title>
 			<title code="0x19">FOR10.O</title>
-			<title code="0x1A">FOR11.O</title>
-			<title code="0x1B">FOR12.O</title>
-			<title code="0x1C">FOR13.O</title>
-			<title code="0x1D">FOR14.O</title>
-			<title code="0x1E">FOR15.O</title>
-			<title code="0x1F">FOR16.O</title>
+			<title code="0x1a">FOR11.O</title>
+			<title code="0x1b">FOR12.O</title>
+			<title code="0x1c">FOR13.O</title>
+			<title code="0x1d">FOR14.O</title>
+			<title code="0x1e">FOR15.O</title>
+			<title code="0x1f">FOR16.O</title>
 			<title code="0x20">FOR17.O</title>
 			<title code="0x21">FOR18.O</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] What is Fantasy?</name>
+		<name>[PC-9801] What is Fantasy? (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="whatf_98">
+		<romlist archive="whatfan_98">
 			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
 			<rom type="file" offset="-1">NA.COM</rom>
 			<rom type="file" offset="-1">TONES.DTA</rom>
@@ -118,8 +118,8 @@
 			<rom type="file" offset="0x20">WF21.O</rom>
 			<rom type="file" offset="0x21">WF23.O</rom>
 			<rom type="file" offset="0x22">WF24.O</rom>
-			<rom type="shell" offset="0">na</rom>
-			<rom type="shell" offset="0">nlp_hoot</rom>
+			<rom type="shell" offset="0">NA</rom>
+			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x10">WF01.O</title>
@@ -144,9 +144,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 戦国強者絵巻 RANZE(乱世)</name>
+		<name>[PC-9801] Sengoku Tsuwamono Emaki Ranze (Ransei) (戦国強者絵巻 RANZE(乱世)) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -381,9 +381,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] クィンティアロード</name>
+		<name>[PC-9801] Quintia Road (クィンティアロード) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -450,9 +450,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] クィンティアロード2</name>
+		<name>[PC-9801] Quintia Road 2 (クィンティアロード2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -547,9 +547,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] レッスルエンジェルス</name>
+		<name>[PC-9801] Wrestle Angels (レッスルエンジェルス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -610,61 +610,61 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">M01.O    : Risky Lady</title>
-			<title code="0x11">M02.O    : IRON</title>
-			<title code="0x12">M03.O    : KISS GROUND</title>
-			<title code="0x13">M04.O    : VORPAL ONE</title>
-			<title code="0x14">M05.O    : VORPAL ONE 2</title>
-			<title code="0x15">M06.O    : HEARTS ECHO</title>
-			<title code="0x16">M07.O    : DZ</title>
-			<title code="0x17">M08.O    : NON MELODY</title>
-			<title code="0x18">M09.O    : 忘却の淵</title>
-			<title code="0x19">M10.O    : Look Back</title>
-			<title code="0x1A">M11.O    : 忘却の淵 NEW VERSION</title>
-			<title code="0x1B">M12.O    : DEKH・YA!(リメイク)</title>
-			<title code="0x1C">M13.O    : A DIAGO</title>
-			<title code="0x1D">M14.O    : SEREN</title>
-			<title code="0x1E">M15.O    : スカイ ウ、ウ、ウ?</title>
-			<title code="0x1F">M16.O    : クッキーを食べながら</title>
-			<title code="0x20">M17.O    : STOP D</title>
-			<title code="0x21">M18.O    : 海底神殿</title>
-			<title code="0x22">M19.O    : RIVER SIDE MEMORY</title>
-			<title code="0x23">M20.O    : 高原の空 -おべんともって-</title>
-			<title code="0x24">M21.O    : ＷINDＹ -ひざし-</title>
-			<title code="0x25">M22.O    : ゴング</title>
-			<title code="0x26">M23.O    : THEME OF QUINTIA</title>
-			<title code="0x27">M24.O    : だから…</title>
-			<title code="0x28">M25.O    : イマジリーナンバー</title>
-			<title code="0x29">M26.O    : スレンダー・ストレス・スイミング</title>
-			<title code="0x2A">M27.O    : ドラムス</title>
-			<title code="0x2B">M28.O    : あめあがりにさんぽ</title>
-			<title code="0x2C">M29.O    : 傷</title>
-			<title code="0x2D">M30.O    : EREN DOLL</title>
-			<title code="0x2E">M31.O    : WINDY -ひざし-</title>
-			<title code="0x2F">M32.O    : MODULE</title>
-			<title code="0x30">M33.O    : DONE,REVERSE and</title>
-			<title code="0x31">M34.O    : KISS GROUND</title>
-			<title code="0x32">M35.O    : WILD JIG</title>
-			<title code="0x33">M36.O    : どうかしたの?</title>
-			<title code="0x34">M37.O    : アクター</title>
-			<title code="0x35">M38.O    : シャルド</title>
-			<title code="0x36">M39.O    : ずっと、すこしだけ</title>
-			<title code="0x37">M40.O    : MOON T</title>
-			<title code="0x38">M41.O    : ONE SHOT</title>
-			<title code="0x39">M42.O    : TWO SHOT</title>
-			<title code="0x3A">M43.O    : </title>
-			<title code="0x3B">M44.O    : ゴング</title>
-			<title code="0x3C">M50.O    : ゴング</title>
-			<title code="0x3D">PM4_01.O : いつも、きみのこと、みてるから。</title>
-			<title code="0x3E">PM4_20.O : 高原の空 -おべんともって-</title>
-			<title code="0x3F">PM4_28.O : あめあがりにさんぽ</title>
-			<title code="0x40">PM4_55.O : VORPAL ONE 2</title>
+			<title code="0x10">Risky Lady</title>
+			<title code="0x11">IRON</title>
+			<title code="0x12">KISS GROUND</title>
+			<title code="0x13">VORPAL ONE</title>
+			<title code="0x14">VORPAL ONE 2</title>
+			<title code="0x15">HEARTS ECHO</title>
+			<title code="0x16">DZ</title>
+			<title code="0x17">NON MELODY</title>
+			<title code="0x18">忘却の淵</title>
+			<title code="0x19">Look Back</title>
+			<title code="0x1A">忘却の淵 NEW VERSION</title>
+			<title code="0x1B">DEKH・YA!(リメイク)</title>
+			<title code="0x1C">A DIAGO</title>
+			<title code="0x1D">SEREN</title>
+			<title code="0x1E">スカイ ウ、ウ、ウ?</title>
+			<title code="0x1F">クッキーを食べながら</title>
+			<title code="0x20">STOP D</title>
+			<title code="0x21">海底神殿</title>
+			<title code="0x22">RIVER SIDE MEMORY</title>
+			<title code="0x23">高原の空 -おべんともって-</title>
+			<title code="0x24">ＷINDＹ -ひざし-</title>
+			<title code="0x25">ゴング</title>
+			<title code="0x26">THEME OF QUINTIA</title>
+			<title code="0x27">だから…</title>
+			<title code="0x28">イマジリーナンバー</title>
+			<title code="0x29">スレンダー・ストレス・スイミング</title>
+			<title code="0x2A">ドラムス</title>
+			<title code="0x2B">あめあがりにさんぽ</title>
+			<title code="0x2C">傷</title>
+			<title code="0x2D">EREN DOLL</title>
+			<title code="0x2E">WINDY -ひざし-</title>
+			<title code="0x2F">MODULE</title>
+			<title code="0x30">DONE,REVERSE and</title>
+			<title code="0x31">KISS GROUND</title>
+			<title code="0x32">WILD JIG</title>
+			<title code="0x33">どうかしたの?</title>
+			<title code="0x34">アクター</title>
+			<title code="0x35">シャルド</title>
+			<title code="0x36">ずっと、すこしだけ</title>
+			<title code="0x37">MOON T</title>
+			<title code="0x38">ONE SHOT</title>
+			<title code="0x39">TWO SHOT</title>
+			<title code="0x3A">M43.O</title>
+			<title code="0x3B">ゴング</title>
+			<title code="0x3C">ゴング</title>
+			<title code="0x3D">いつも、きみのこと、みてるから。</title>
+			<title code="0x3E">高原の空 -おべんともって-</title>
+			<title code="0x3F">あめあがりにさんぽ</title>
+			<title code="0x40">VORPAL ONE 2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] レッスルエンジェルス2 トップイベンター</name>
+		<name>[PC-9801] Wrestle Angels 2: Top Eventer (レッスルエンジェルス2 トップイベンター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -712,48 +712,48 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">WA201.O : 選手セレクト -ウイル-</title>
-			<title code="0x11">WA202.O : 試合曲(タイトルマッチ) -RASH INTO2-</title>
-			<title code="0x12">WA203.O : メインテーマ -レッスルエンジェルス2-</title>
-			<title code="0x13">WA204.O : 新なるチャレンジャー -チャレンジャー-</title>
-			<title code="0x14">WA205.O : 休息 -君の欠伸-</title>
-			<title code="0x15">WA206.O : 挑戦 -windy's-</title>
-			<title code="0x16">WA207.O : Hグラフイック表示 -癖暦-</title>
-			<title code="0x17">WA208.O : 友情(笑) -あなたと…-</title>
-			<title code="0x18">WA209.O : トレーニング -リアレンジ『高原』-</title>
-			<title code="0x19">WA210.O : 挑戦 -駆槍-</title>
-			<title code="0x1A">WA211.O : 離脱 -Des Pointe-</title>
-			<title code="0x1B">WA212.O : 軍団抗争 -弥神-</title>
-			<title code="0x1C">WA213.O : 追放1 -DEsT-</title>
-			<title code="0x1D">WA214.O : 追放2 -DEsT2-</title>
-			<title code="0x1E">WA215.O : 驚異 -WAYANT-</title>
-			<title code="0x1F">WA216.O : プロローグ -序曲-</title>
-			<title code="0x20">WA217.O : チャンピオン -鐘歌-</title>
-			<title code="0x21">WA218.O : エンディング -いつまでも、ここで-</title>
-			<title code="0x22">WA219.O : エンディング2 -at All-</title>
-			<title code="0x23">WA220.O : 試合曲(メキシコ) -kanpane-</title>
-			<title code="0x24">WA246.O : 試合曲 -フィナルオーダー(ﾆ ｼﾀｲﾅｧ･･･)-</title>
-			<title code="0x25">WA250.O : ポイント配付 -ヒート!-</title>
-			<title code="0x26">WA251.O : シーンつなぎ用音楽 -慌てて?-</title>
-			<title code="0x27">WA252.O : 好きに使って下さい -おはやう-</title>
-			<title code="0x28">WA253.O : シーンつなぎ用音楽 -靴音-</title>
-			<title code="0x29">WA254.O : 軍団抗争 -弥神-</title>
-			<title code="0x2A">WA258.O : 試合曲(アメリカ) -fle'tte-</title>
-			<title code="0x2B">WA259.O : 試合曲(日本) -jes-</title>
-			<title code="0x2C">WA260.O : 試合曲 -SO,REI-</title>
-			<title code="0x2D">WA261.O : 試合曲 -SO,KEN-</title>
-			<title code="0x2E">WA270.O : 軍団抗争 -弥神-</title>
-			<title code="0x2F">WA271.O : 驚異 -WAYANT-</title>
-			<title code="0x30">WA280.O : がびーん(笑) -SE1-</title>
-			<title code="0x31">WA290.O : 無音</title>
-			<title code="0x32">WA298.O : ゴング</title>
-			<title code="0x33">WA299.O : ゴング</title>
+			<title code="0x10">選手セレクト -ウイル-</title>
+			<title code="0x11">試合曲(タイトルマッチ) -RASH INTO2-</title>
+			<title code="0x12">メインテーマ -レッスルエンジェルス2-</title>
+			<title code="0x13">新なるチャレンジャー -チャレンジャー-</title>
+			<title code="0x14">休息 -君の欠伸-</title>
+			<title code="0x15">挑戦 -windy's-</title>
+			<title code="0x16">Hグラフイック表示 -癖暦-</title>
+			<title code="0x17">友情(笑) -あなたと…-</title>
+			<title code="0x18">トレーニング -リアレンジ『高原』-</title>
+			<title code="0x19">挑戦 -駆槍-</title>
+			<title code="0x1A">離脱 -Des Pointe-</title>
+			<title code="0x1B">軍団抗争 -弥神-</title>
+			<title code="0x1C">追放1 -DEsT-</title>
+			<title code="0x1D">追放2 -DEsT2-</title>
+			<title code="0x1E">驚異 -WAYANT-</title>
+			<title code="0x1F">プロローグ -序曲-</title>
+			<title code="0x20">チャンピオン -鐘歌-</title>
+			<title code="0x21">エンディング -いつまでも、ここで-</title>
+			<title code="0x22">エンディング2 -at All-</title>
+			<title code="0x23">試合曲(メキシコ) -kanpane-</title>
+			<title code="0x24">試合曲 -フィナルオーダー(ﾆ ｼﾀｲﾅｧ･･･)-</title>
+			<title code="0x25">ポイント配付 -ヒート!-</title>
+			<title code="0x26">シーンつなぎ用音楽 -慌てて?-</title>
+			<title code="0x27">好きに使って下さい -おはやう-</title>
+			<title code="0x28">シーンつなぎ用音楽 -靴音-</title>
+			<title code="0x29">軍団抗争 -弥神-</title>
+			<title code="0x2A">試合曲(アメリカ) -fle'tte-</title>
+			<title code="0x2B">試合曲(日本) -jes-</title>
+			<title code="0x2C">試合曲 -SO,REI-</title>
+			<title code="0x2D">試合曲 -SO,KEN-</title>
+			<title code="0x2E">軍団抗争 -弥神-</title>
+			<title code="0x2F">驚異 -WAYANT-</title>
+			<title code="0x30">がびーん(笑) -SE1-</title>
+			<title code="0x31">無音</title>
+			<title code="0x32">ゴング (1)</title>
+			<title code="0x33">ゴング (2)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] レッスルエンジェルス3</name>
+		<name>[PC-9801] Wrestle Angels 3 (レッスルエンジェルス3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -795,42 +795,42 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">M01.O : BOUT!!</title>
-			<title code="0x11">M02.O : THEME No1</title>
-			<title code="0x12">M03.O : Title Match</title>
-			<title code="0x13">M04.O : THEME No4 single Ver</title>
-			<title code="0x14">M05.O : Accident</title>
-			<title code="0x15">M06.O : FIRE!</title>
-			<title code="0x16">M07.O : THEME No2</title>
-			<title code="0x17">M08.O : MATSURI!</title>
-			<title code="0x18">M09.O : ULTIMATE GAME</title>
-			<title code="0x19">M10.O : TAKE IT EASY!</title>
-			<title code="0x1A">M11.O : THME No5 single Ver</title>
-			<title code="0x1B">M12.O : HOT BLOOD</title>
-			<title code="0x1C">M13.O : TRADITIONAL TEAM</title>
-			<title code="0x1D">M14.O : THEME No3</title>
-			<title code="0x1E">M15.O : EVENT</title>
-			<title code="0x1F">M16.O : Go To RESORT</title>
-			<title code="0x20">M17.O : PASSION</title>
-			<title code="0x21">M18.O : HARD SHOT</title>
-			<title code="0x22">M19.O : OLD FASHION</title>
-			<title code="0x23">M20.O : REVOLUTION</title>
-			<title code="0x24">M21.O : ENDING</title>
-			<title code="0x25">M22.O : EVENT SUB</title>
-			<title code="0x26">M23.O : WINNERS SUB</title>
-			<title code="0x27">M24.O : WINNERS</title>
-			<title code="0x28">M25.O : TENTION</title>
-			<title code="0x29">M26.O : StaFF</title>
-			<title code="0x2A">M27.O : WRESTLE ANGELS3</title>
-			<title code="0x2B">M28.O : THEME No4 Long Ver</title>
-			<title code="0x2C">M29.O : THEME No5 Long Ver</title>
-			<title code="0x2D">M40.O : GooooNG!</title>
+			<title code="0x10">BOUT!!</title>
+			<title code="0x11">THEME No1</title>
+			<title code="0x12">Title Match</title>
+			<title code="0x13">THEME No4 single Ver</title>
+			<title code="0x14">Accident</title>
+			<title code="0x15">FIRE!</title>
+			<title code="0x16">THEME No2</title>
+			<title code="0x17">MATSURI!</title>
+			<title code="0x18">ULTIMATE GAME</title>
+			<title code="0x19">TAKE IT EASY!</title>
+			<title code="0x1A">THME No5 single Ver</title>
+			<title code="0x1B">HOT BLOOD</title>
+			<title code="0x1C">TRADITIONAL TEAM</title>
+			<title code="0x1D">THEME No3</title>
+			<title code="0x1E">EVENT</title>
+			<title code="0x1F">Go To RESORT</title>
+			<title code="0x20">PASSION</title>
+			<title code="0x21">HARD SHOT</title>
+			<title code="0x22">OLD FASHION</title>
+			<title code="0x23">REVOLUTION</title>
+			<title code="0x24">ENDING</title>
+			<title code="0x25">EVENT SUB</title>
+			<title code="0x26">WINNERS SUB</title>
+			<title code="0x27">WINNERS</title>
+			<title code="0x28">TENTION</title>
+			<title code="0x29">StaFF</title>
+			<title code="0x2A">WRESTLE ANGELS3</title>
+			<title code="0x2B">THEME No4 Long Ver</title>
+			<title code="0x2C">THEME No5 Long Ver</title>
+			<title code="0x2D">GooooNG!</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] レッスルエンジェルス スペシャル もうひとりのトップイベンター</name>
+		<name>[PC-9801] Wrestle Angels Special: Mouhitori no Top Eventer (レッスルエンジェルス スペシャル もうひとりのトップイベンター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">PLUM</driveralias>
+		<driveralias type="PC-9801">Plum</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1079,9 +1079,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] レッスルエンジェルス2 トップイベンター</name>
+		<name>[X68000] Wrestle Angels 2: Top Eventer (レッスルエンジェルス2 トップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PLUM</driveralias>
+		<driveralias type="X68000">Plum</driveralias>
 		<romlist archive="wa268snd">
 			<rom type="code" offset="0x000000">wa268snd.bin</rom>
 			<rom type="code" offset="0x010000">wa201.ZMD</rom>
@@ -1117,41 +1117,41 @@
 			<rom type="x"    offset="0x040000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">wa202.ZMD : </title>
-			<title code="0x03">wa203.ZMD : </title>
-			<title code="0x04">wa204.ZMD : </title>
-			<title code="0x05">wa205.ZMD : </title>
-			<title code="0x06">wa206.ZMD : </title>
-			<title code="0x07">wa207.ZMD : </title>
-			<title code="0x08">wa208.ZMD : </title>
-			<title code="0x09">wa209.ZMD : </title>
-			<title code="0x0a">wa210.ZMD : </title>
-			<title code="0x0b">wa211.ZMD : </title>
-			<title code="0x0c">wa212.ZMD : </title>
-			<title code="0x0d">wa213.ZMD : </title>
-			<title code="0x0e">wa214.ZMD : </title>
-			<title code="0x0f">wa215.ZMD : </title>
-			<title code="0x10">wa217.ZMD : </title>
-			<title code="0x11">wa218.ZMD : </title>
-			<title code="0x12">wa219.ZMD : </title>
-			<title code="0x13">wa220.ZMD : </title>
-			<title code="0x14">wa246.ZMD : </title>
-			<title code="0x15">wa250.ZMD : </title>
-			<title code="0x16">wa251.ZMD : </title>
-			<title code="0x17">wa252.ZMD : </title>
-			<title code="0x18">wa253.ZMD : </title>
-			<title code="0x19">wa258.ZMD : </title>
-			<title code="0x1a">wa259.ZMD : </title>
-			<title code="0x1b">wa260.ZMD : </title>
-			<title code="0x1c">wa261.ZMD : </title>
-			<title code="0x1d">wa270.ZMD : </title>
-			<title code="0x1e">wa271.ZMD : </title>
+			<title code="0x02">wa202.ZMD</title>
+			<title code="0x03">wa203.ZMD</title>
+			<title code="0x04">wa204.ZMD</title>
+			<title code="0x05">wa205.ZMD</title>
+			<title code="0x06">wa206.ZMD</title>
+			<title code="0x07">wa207.ZMD</title>
+			<title code="0x08">wa208.ZMD</title>
+			<title code="0x09">wa209.ZMD</title>
+			<title code="0x0a">wa210.ZMD</title>
+			<title code="0x0b">wa211.ZMD</title>
+			<title code="0x0c">wa212.ZMD</title>
+			<title code="0x0d">wa213.ZMD</title>
+			<title code="0x0e">wa214.ZMD</title>
+			<title code="0x0f">wa215.ZMD</title>
+			<title code="0x10">wa217.ZMD</title>
+			<title code="0x11">wa218.ZMD</title>
+			<title code="0x12">wa219.ZMD</title>
+			<title code="0x13">wa220.ZMD</title>
+			<title code="0x14">wa246.ZMD</title>
+			<title code="0x15">wa250.ZMD</title>
+			<title code="0x16">wa251.ZMD</title>
+			<title code="0x17">wa252.ZMD</title>
+			<title code="0x18">wa253.ZMD</title>
+			<title code="0x19">wa258.ZMD</title>
+			<title code="0x1a">wa259.ZMD</title>
+			<title code="0x1b">wa260.ZMD</title>
+			<title code="0x1c">wa261.ZMD</title>
+			<title code="0x1d">wa270.ZMD</title>
+			<title code="0x1e">wa271.ZMD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] レッスルエンジェルス3</name>
+		<name>[X68000] Wrestle Angels 3 (レッスルエンジェルス3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PLUM</driveralias>
+		<driveralias type="X68000">Plum</driveralias>
 		<romlist archive="wa368snd">
 			<rom type="code" offset="0x000000">wa368snd.bin</rom>
 			<rom type="code" offset="0x010000">WA301.ZMD</rom>
@@ -1204,9 +1204,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] レッスルエンジェルス スペシャル もうひとりのトップイベンター</name>
+		<name>[X68000]  Wrestle Angels Special: Mouhitori no Top Eventer (レッスルエンジェルス スペシャル もうひとりのトップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PLUM</driveralias>
+		<driveralias type="X68000">Plum</driveralias>
 		<romlist archive="wasp68snd">
 			<rom type="code" offset="0x000000">wasp68snd.bin</rom>
 			<rom type="code" offset="0x010000">M103.ZMD</rom>
@@ -1268,67 +1268,67 @@
 			<rom type="x"    offset="0x070000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M103.ZMD : </title>
-			<title code="0x02">M106.ZMD : </title>
-			<title code="0x03">M108.ZMD : </title>
-			<title code="0x04">M112.ZMD : </title>
-			<title code="0x05">M118.ZMD : </title>
-			<title code="0x06">M119.ZMD : </title>
-			<title code="0x07">M128.ZMD : </title>
-			<title code="0x08">M129.ZMD : </title>
-			<title code="0x09">M135.ZMD : </title>
-			<title code="0x0a">M139.ZMD : </title>
-			<title code="0x0b">M142.ZMD : </title>
-			<title code="0x0c">M201.ZMD : </title>
-			<title code="0x0d">M204.ZMD : </title>
-			<title code="0x0e">M205.ZMD : </title>
-			<title code="0x0f">M206.ZMD : </title>
-			<title code="0x10">M207.ZMD : </title>
-			<title code="0x11">M210.ZMD : </title>
-			<title code="0x12">M214.ZMD : </title>
-			<title code="0x13">M216.ZMD : </title>
-			<title code="0x14">M217.ZMD : </title>
-			<title code="0x15">M218.ZMD : </title>
-			<title code="0x16">M219.ZMD : </title>
-			<title code="0x17">M220.ZMD : </title>
-			<title code="0x18">M246.ZMD : </title>
-			<title code="0x19">M251.ZMD : </title>
-			<title code="0x1a">M252.ZMD : </title>
-			<title code="0x1b">M253.ZMD : </title>
-			<title code="0x1c">M256.ZMD : </title>
-			<title code="0x1d">M259.ZMD : </title>
-			<title code="0x1e">M260.ZMD : </title>
-			<title code="0x1f">M261.ZMD : </title>
-			<title code="0x20">M270.ZMD : </title>
-			<title code="0x21">M301.ZMD : </title>
-			<title code="0x22">M302.ZMD : </title>
-			<title code="0x23">M303.ZMD : </title>
-			<title code="0x24">M305.ZMD : </title>
-			<title code="0x25">M306.ZMD : </title>
-			<title code="0x26">M307.ZMD : </title>
-			<title code="0x27">M308.ZMD : </title>
-			<title code="0x28">M309.ZMD : </title>
-			<title code="0x29">M310.ZMD : </title>
-			<title code="0x2a">M313.ZMD : </title>
-			<title code="0x2b">M314.ZMD : </title>
-			<title code="0x2c">M315.ZMD : </title>
-			<title code="0x2d">M316.ZMD : </title>
-			<title code="0x2e">M317.ZMD : </title>
-			<title code="0x2f">M318.ZMD : </title>
-			<title code="0x30">M320.ZMD : </title>
-			<title code="0x31">M321.ZMD : </title>
-			<title code="0x32">M322.ZMD : </title>
-			<title code="0x33">M323.ZMD : </title>
-			<title code="0x34">M324.ZMD : </title>
-			<title code="0x35">M325.ZMD : </title>
-			<title code="0x36">M326.ZMD : </title>
-			<title code="0x37">M329.ZMD : </title>
+			<title code="0x01">M103.ZMD</title>
+			<title code="0x02">M106.ZMD</title>
+			<title code="0x03">M108.ZMD</title>
+			<title code="0x04">M112.ZMD</title>
+			<title code="0x05">M118.ZMD</title>
+			<title code="0x06">M119.ZMD</title>
+			<title code="0x07">M128.ZMD</title>
+			<title code="0x08">M129.ZMD</title>
+			<title code="0x09">M135.ZMD</title>
+			<title code="0x0a">M139.ZMD</title>
+			<title code="0x0b">M142.ZMD</title>
+			<title code="0x0c">M201.ZMD</title>
+			<title code="0x0d">M204.ZMD</title>
+			<title code="0x0e">M205.ZMD</title>
+			<title code="0x0f">M206.ZMD</title>
+			<title code="0x10">M207.ZMD</title>
+			<title code="0x11">M210.ZMD</title>
+			<title code="0x12">M214.ZMD</title>
+			<title code="0x13">M216.ZMD</title>
+			<title code="0x14">M217.ZMD</title>
+			<title code="0x15">M218.ZMD</title>
+			<title code="0x16">M219.ZMD</title>
+			<title code="0x17">M220.ZMD</title>
+			<title code="0x18">M246.ZMD</title>
+			<title code="0x19">M251.ZMD</title>
+			<title code="0x1a">M252.ZMD</title>
+			<title code="0x1b">M253.ZMD</title>
+			<title code="0x1c">M256.ZMD</title>
+			<title code="0x1d">M259.ZMD</title>
+			<title code="0x1e">M260.ZMD</title>
+			<title code="0x1f">M261.ZMD</title>
+			<title code="0x20">M270.ZMD</title>
+			<title code="0x21">M301.ZMD</title>
+			<title code="0x22">M302.ZMD</title>
+			<title code="0x23">M303.ZMD</title>
+			<title code="0x24">M305.ZMD</title>
+			<title code="0x25">M306.ZMD</title>
+			<title code="0x26">M307.ZMD</title>
+			<title code="0x27">M308.ZMD</title>
+			<title code="0x28">M309.ZMD</title>
+			<title code="0x29">M310.ZMD</title>
+			<title code="0x2a">M313.ZMD</title>
+			<title code="0x2b">M314.ZMD</title>
+			<title code="0x2c">M315.ZMD</title>
+			<title code="0x2d">M316.ZMD</title>
+			<title code="0x2e">M317.ZMD</title>
+			<title code="0x2f">M318.ZMD</title>
+			<title code="0x30">M320.ZMD</title>
+			<title code="0x31">M321.ZMD</title>
+			<title code="0x32">M322.ZMD</title>
+			<title code="0x33">M323.ZMD</title>
+			<title code="0x34">M324.ZMD</title>
+			<title code="0x35">M325.ZMD</title>
+			<title code="0x36">M326.ZMD</title>
+			<title code="0x37">M329.ZMD</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] クィンティアロード</name>
+		<name>[X68000] Quintia Road (クィンティアロード) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">PLUM</driveralias>
+		<driveralias type="X68000">Plum</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -1365,33 +1365,33 @@
 			<rom type="code" offset="0x90000">M01.VDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1d02">HM01.OPM : </title>
-			<title code="0x1d03">HM02.OPM : </title>
-			<title code="0x1d04">HM03.OPM : </title>
-			<title code="0x1d05">HM04.OPM : </title>
-			<title code="0x1d06">HM05.OPM : </title>
-			<title code="0x1d07">HM08.OPM : </title>
-			<title code="0x1d08">HM09.OPM : </title>
-			<title code="0x1d09">HM11.OPM : </title>
-			<title code="0x1d0a">HM12.OPM : </title>
-			<title code="0x1d0b">HM14.OPM : </title>
-			<title code="0x1d0c">HM15.OPM : </title>
-			<title code="0x1d0d">HM16.OPM : </title>
-			<title code="0x1d0e">HM17.OPM : </title>
-			<title code="0x1d0f">HM19.OPM : </title>
-			<title code="0x1d10">HM20.OPM : </title>
-			<title code="0x1d11">HM21.OPM : </title>
-			<title code="0x1d12">HM24.OPM : </title>
-			<title code="0x1d13">HM25.OPM : </title>
-			<title code="0x1d14">HM26.OPM : </title>
-			<title code="0x1d15">HM27.OPM : </title>
-			<title code="0x1d16">HM28.OPM : </title>
-			<title code="0x1d17">HM29.OPM : </title>
-			<title code="0x1d18">HM30.OPM : </title>
-			<title code="0x1d19">HM31.OPM : </title>
-			<title code="0x1d1a">HM32.OPM : </title>
-			<title code="0x1d1b">HM33.OPM : </title>
-			<title code="0x1d1c">HM34.OPM : </title>
+			<title code="0x1d02">HM01.OPM</title>
+			<title code="0x1d03">HM02.OPM</title>
+			<title code="0x1d04">HM03.OPM</title>
+			<title code="0x1d05">HM04.OPM</title>
+			<title code="0x1d06">HM05.OPM</title>
+			<title code="0x1d07">HM08.OPM</title>
+			<title code="0x1d08">HM09.OPM</title>
+			<title code="0x1d09">HM11.OPM</title>
+			<title code="0x1d0a">HM12.OPM</title>
+			<title code="0x1d0b">HM14.OPM</title>
+			<title code="0x1d0c">HM15.OPM</title>
+			<title code="0x1d0d">HM16.OPM</title>
+			<title code="0x1d0e">HM17.OPM</title>
+			<title code="0x1d0f">HM19.OPM</title>
+			<title code="0x1d10">HM20.OPM</title>
+			<title code="0x1d11">HM21.OPM</title>
+			<title code="0x1d12">HM24.OPM</title>
+			<title code="0x1d13">HM25.OPM</title>
+			<title code="0x1d14">HM26.OPM</title>
+			<title code="0x1d15">HM27.OPM</title>
+			<title code="0x1d16">HM28.OPM</title>
+			<title code="0x1d17">HM29.OPM</title>
+			<title code="0x1d18">HM30.OPM</title>
+			<title code="0x1d19">HM31.OPM</title>
+			<title code="0x1d1a">HM32.OPM</title>
+			<title code="0x1d1b">HM33.OPM</title>
+			<title code="0x1d1c">HM34.OPM</title>
 		</titlelist>
 	</game>
 </gamelist>

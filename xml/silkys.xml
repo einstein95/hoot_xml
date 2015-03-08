@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] 恋姫 Mystic Princess</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -85,7 +85,7 @@
 	<game>
 		<name>[PC-9801] ビ・ヨンド ～黒大将に見られてる～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -205,7 +205,7 @@
 	<game>
 		<name>[PC-9801] 48夜物語</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -275,7 +275,7 @@
 	<game>
 		<name>[PC-9801] Oh! Pai</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -339,7 +339,7 @@
 	<game>
 		<name>[PC-9801] イクイクパッ君</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -395,7 +395,7 @@
 	<game>
 		<name>[PC-9801] CRESCENT</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -444,7 +444,7 @@
 	<game>
 		<name>[PC-9801] JACK -背徳の女神-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -518,7 +518,7 @@
 	<game>
 		<name>[PC-9801] Birth Days</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -580,8 +580,8 @@
 			<title code="0x22">MUS_OP1C.WMD : アンハッピーエンディング</title>
 			<title code="0x11">MUS_BRTH.WMD : ハッピーエンディング</title>
 			<title code="0x12">MUS_ED.WMD   : エンディング</title>
-			<title code="0x1d">MUS_LOGO.WMD : </title>
-			<title code="0x1f">MUS_OK2.WMD  : </title>
+			<title code="0x1d">MUS_LOGO.WMD</title>
+			<title code="0x1f">MUS_OK2.WMD</title>
 			<title code="0x29">SND_01.WMD   : SE</title>
 			<title code="0x2a">SND_02.WMD   : SE</title>
 			<title code="0x2b">SND_03.WMD   : SE</title>
@@ -591,7 +591,7 @@
 	<game>
 		<name>[PC-9801] バレンタイン・キッス ～バースデイズ2～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -632,19 +632,19 @@
 			<rom type="shell" offset="0">ELFMUS98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x19">M004.M  : </title>
-			<title code="0x16">M001.M  : </title>
-			<title code="0x17">M002.M  : </title>
-			<title code="0x18">M003.M  : </title>
-			<title code="0x1a">M005.M  : </title>
-			<title code="0x1b">M006.M  : </title>
-			<title code="0x1c">M007.M  : </title>
-			<title code="0x1d">M008.M  : </title>
-			<title code="0x1e">M009.M  : </title>
-			<title code="0x1f">M010.M  : </title>
-			<title code="0x20">M011.M  : </title>
-			<title code="0x21">M012.M  : </title>
-			<title code="0x22">M013.M  : </title>
+			<title code="0x19">M004.M</title>
+			<title code="0x16">M001.M</title>
+			<title code="0x17">M002.M</title>
+			<title code="0x18">M003.M</title>
+			<title code="0x1a">M005.M</title>
+			<title code="0x1b">M006.M</title>
+			<title code="0x1c">M007.M</title>
+			<title code="0x1d">M008.M</title>
+			<title code="0x1e">M009.M</title>
+			<title code="0x1f">M010.M</title>
+			<title code="0x20">M011.M</title>
+			<title code="0x21">M012.M</title>
+			<title code="0x22">M013.M</title>
 			<title code="0x11">LEN01.M : ビ・ヨンド レン</title>
 			<title code="0x12">LEN03.M : ビ・ヨンド 深遠の闇</title>
 			<title code="0x13">LEN13.M : ビ・ヨンド 衝突</title>
@@ -667,7 +667,7 @@
 	<game>
 		<name>[PC-9801] Figure -奪われた放課後-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -730,7 +730,7 @@
 	<game>
 		<name>[PC-9801] フェルミオン ～未来からの訪問者～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -782,7 +782,7 @@
 	<game>
 		<name>[PC-9801] MARINE BUSTER</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -828,7 +828,7 @@
 	<game>
 		<name>[PC-9801] メビウスロイド</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -882,7 +882,7 @@
 	<game>
 		<name>[PC-9801] REIRA SLAVE (奴麗) DOLL</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -914,21 +914,21 @@
 			<rom type="shell" offset="0">PLAY5_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1b">OPEN.M     : </title>
-			<title code="0x10">AKUNO.M    : </title>
-			<title code="0x12">CHASE.M    : </title>
-			<title code="0x14">FIGHT.M    : </title>
-			<title code="0x15">H3_1.M     : </title>
-			<title code="0x16">H3_2.M     : </title>
-			<title code="0x17">H3_3.M     : </title>
-			<title code="0x18">H_HPN.M    : </title>
-			<title code="0x19">H_MINOR.M  : </title>
-			<title code="0x1a">NAZONO.M   : </title>
-			<title code="0x21">SM_PUB.M   : </title>
-			<title code="0x22">SUSP.M     : </title>
-			<title code="0x23">TECHDOLL.M : </title>
-			<title code="0x24">TOWN.M     : </title>
-			<title code="0x13">ENDING.M   : </title>
+			<title code="0x1b">OPEN.M</title>
+			<title code="0x10">AKUNO.M</title>
+			<title code="0x12">CHASE.M</title>
+			<title code="0x14">FIGHT.M</title>
+			<title code="0x15">H3_1.M</title>
+			<title code="0x16">H3_2.M</title>
+			<title code="0x17">H3_3.M</title>
+			<title code="0x18">H_HPN.M</title>
+			<title code="0x19">H_MINOR.M</title>
+			<title code="0x1a">NAZONO.M</title>
+			<title code="0x21">SM_PUB.M</title>
+			<title code="0x22">SUSP.M</title>
+			<title code="0x23">TECHDOLL.M</title>
+			<title code="0x24">TOWN.M</title>
+			<title code="0x13">ENDING.M</title>
 			<title code="0x11">BOTE.M     : SE</title>
 			<title code="0x1c">PUNCH2.M   : SE</title>
 			<title code="0x1d">RAY_GUN2.M : SE</title>
@@ -940,7 +940,7 @@
 	<game>
 		<name>[PC-9801] 愛姉妹 ～二人の果実～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -961,22 +961,22 @@
 			<rom type="shell" offset="0">PLAY5_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">OPEN.M     : </title>
-			<title code="0x11">CREGIT.M   : </title>
-			<title code="0x12">DORAMA.M   : </title>
-			<title code="0x13">H1.M       : </title>
-			<title code="0x14">H2.M       : </title>
-			<title code="0x15">H3.M       : </title>
-			<title code="0x16">HARAHARA.M : </title>
-			<title code="0x17">HOME.M     : </title>
-			<title code="0x19">SAGASU.M   : </title>
+			<title code="0x18">OPEN.M</title>
+			<title code="0x11">CREGIT.M</title>
+			<title code="0x12">DORAMA.M</title>
+			<title code="0x13">H1.M</title>
+			<title code="0x14">H2.M</title>
+			<title code="0x15">H3.M</title>
+			<title code="0x16">HARAHARA.M</title>
+			<title code="0x17">HOME.M</title>
+			<title code="0x19">SAGASU.M</title>
 			<title code="0x10">CRASH.M    : SE</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 河原崎家の一族</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1029,7 +1029,7 @@
 			<title code="0x1a">INBI1.M   : 淫媚</title>
 			<title code="0x1c">LAST.M    : 危機</title>
 			<title code="0x16">GEM_END.M : 終末 最終楽章</title>
-			<title code="0x10">DEAD.M    : </title>
+			<title code="0x10">DEAD.M</title>
 			<title code="0x11">DRIVE.M   : SE</title>
 			<title code="0x12">FIRE1.M   : SE</title>
 			<title code="0x13">FIRE2.M   : SE</title>
@@ -1049,7 +1049,7 @@
 	<game>
 		<name>[PC-9801] 失われた楽園</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1081,22 +1081,22 @@
 			<rom type="shell" offset="0">ELFMUS98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">TITLE.WM    : </title>
-			<title code="0x11">AYASII.WM   : </title>
-			<title code="0x14">COMICAL.WM  : </title>
-			<title code="0x15">DUNGION.WM  : </title>
-			<title code="0x17">ESCAPE.WM   : </title>
-			<title code="0x18">GISIKI.WM   : </title>
-			<title code="0x1a">JUNGLE.WM   : </title>
-			<title code="0x1b">MIZUABI.WM  : </title>
-			<title code="0x1c">NETTORI.WM  : </title>
-			<title code="0x1d">NUKIASI.WM  : </title>
-			<title code="0x20">SETUNAI.WM  : </title>
-			<title code="0x21">SONOTOKI.WM : </title>
-			<title code="0x23">VACANCE.WM  : </title>
-			<title code="0x24">YASURAGI.WM : </title>
-			<title code="0x12">BADEND.WM   : </title>
-			<title code="0x16">ENDING.WM   : </title>
+			<title code="0x22">TITLE.WM</title>
+			<title code="0x11">AYASII.WM</title>
+			<title code="0x14">COMICAL.WM</title>
+			<title code="0x15">DUNGION.WM</title>
+			<title code="0x17">ESCAPE.WM</title>
+			<title code="0x18">GISIKI.WM</title>
+			<title code="0x1a">JUNGLE.WM</title>
+			<title code="0x1b">MIZUABI.WM</title>
+			<title code="0x1c">NETTORI.WM</title>
+			<title code="0x1d">NUKIASI.WM</title>
+			<title code="0x20">SETUNAI.WM</title>
+			<title code="0x21">SONOTOKI.WM</title>
+			<title code="0x23">VACANCE.WM</title>
+			<title code="0x24">YASURAGI.WM</title>
+			<title code="0x12">BADEND.WM</title>
+			<title code="0x16">ENDING.WM</title>
 			<title code="0x10">ARASHI.WM   : SE</title>
 			<title code="0x13">BAKUHATU.WM : SE</title>
 			<title code="0x19">HIMEI.WM    : SE</title>
@@ -1107,7 +1107,7 @@
 	<game>
 		<name>[PC-9801] 野々村病院の人々</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1145,20 +1145,20 @@
 			<rom type="shell" offset="0">PLAY5_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">AYAC_OP2.M : </title>
-			<title code="0x17">KOWAI.M    : </title>
-			<title code="0x14">JAZZ_OP.M  : </title>
-			<title code="0x29">THINK.M    : </title>
-			<title code="0x13">IDO2.M     : </title>
-			<title code="0x15">JUNMON.M   : </title>
-			<title code="0x1c">RYOUKO.M   : </title>
-			<title code="0x10">AKIKO.M    : </title>
-			<title code="0x16">KANA.M     : </title>
-			<title code="0x18">LIE.M      : </title>
-			<title code="0x19">MOMOKO.M   : </title>
-			<title code="0x27">SEMI_1.M   : </title>
-			<title code="0x28">SEMI_2.M   : </title>
-			<title code="0x12">END_3.M    : </title>
+			<title code="0x11">AYAC_OP2.M</title>
+			<title code="0x17">KOWAI.M</title>
+			<title code="0x14">JAZZ_OP.M</title>
+			<title code="0x29">THINK.M</title>
+			<title code="0x13">IDO2.M</title>
+			<title code="0x15">JUNMON.M</title>
+			<title code="0x1c">RYOUKO.M</title>
+			<title code="0x10">AKIKO.M</title>
+			<title code="0x16">KANA.M</title>
+			<title code="0x18">LIE.M</title>
+			<title code="0x19">MOMOKO.M</title>
+			<title code="0x27">SEMI_1.M</title>
+			<title code="0x28">SEMI_2.M</title>
+			<title code="0x12">END_3.M</title>
 			<title code="0x1a">PIPO.M     : SE</title>
 			<title code="0x1b">PUNCH.M    : SE</title>
 			<title code="0x1f">SE1_6.M    : SE</title>
@@ -1177,7 +1177,7 @@
 	<game>
 		<name>[PC-9801] PREMIUM</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1226,7 +1226,7 @@
 	<game>
 		<name>[PC-9801] PREMIUM II</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Silky's</driveralias>
+		<driveralias type="PC-9801">Silky's</driveralias>
 		<options>
 			<option name="showfm3ex" value="1"/>
 			<option name="clockmul" value="8"/>
@@ -1275,7 +1275,7 @@
 	<game>
 		<name>[PC/AT] 野々村病院の人々</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1313,20 +1313,20 @@
 			<rom type="shell" offset="0">PLAY5_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">AYAC_OP2.M : </title>
-			<title code="0x17">KOWAI.M    : </title>
-			<title code="0x14">JAZZ_OP.M  : </title>
-			<title code="0x29">THINK.M    : </title>
-			<title code="0x13">IDO2.M     : </title>
-			<title code="0x15">JUNMON.M   : </title>
-			<title code="0x1c">RYOUKO.M   : </title>
-			<title code="0x10">AKIKO.M    : </title>
-			<title code="0x16">KANA.M     : </title>
-			<title code="0x18">LIE.M      : </title>
-			<title code="0x19">MOMOKO.M   : </title>
-			<title code="0x27">SEMI_1.M   : </title>
-			<title code="0x28">SEMI_2.M   : </title>
-			<title code="0x12">END_3.M    : </title>
+			<title code="0x11">AYAC_OP2.M</title>
+			<title code="0x17">KOWAI.M</title>
+			<title code="0x14">JAZZ_OP.M</title>
+			<title code="0x29">THINK.M</title>
+			<title code="0x13">IDO2.M</title>
+			<title code="0x15">JUNMON.M</title>
+			<title code="0x1c">RYOUKO.M</title>
+			<title code="0x10">AKIKO.M</title>
+			<title code="0x16">KANA.M</title>
+			<title code="0x18">LIE.M</title>
+			<title code="0x19">MOMOKO.M</title>
+			<title code="0x27">SEMI_1.M</title>
+			<title code="0x28">SEMI_2.M</title>
+			<title code="0x12">END_3.M</title>
 			<title code="0x1a">PIPO.M     : SE</title>
 			<title code="0x1b">PUNCH.M    : SE</title>
 			<title code="0x1f">SE1_6.M    : SE</title>
@@ -1345,7 +1345,7 @@
 	<game>
 		<name>[PC/AT] バレンタイン・キッス ～バースデイズ2～</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1386,19 +1386,19 @@
 			<rom type="shell" offset="0">PLAY5_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x16">M001.M  : </title>
-			<title code="0x17">M002.M  : </title>
-			<title code="0x18">M003.M  : </title>
-			<title code="0x19">M004.M  : </title>
-			<title code="0x1a">M005.M  : </title>
-			<title code="0x1b">M006.M  : </title>
-			<title code="0x1c">M007.M  : </title>
-			<title code="0x1d">M008.M  : </title>
-			<title code="0x1e">M009.M  : </title>
-			<title code="0x1f">M010.M  : </title>
-			<title code="0x20">M011.M  : </title>
-			<title code="0x21">M012.M  : </title>
-			<title code="0x22">M013.M  : </title>
+			<title code="0x16">M001.M</title>
+			<title code="0x17">M002.M</title>
+			<title code="0x18">M003.M</title>
+			<title code="0x19">M004.M</title>
+			<title code="0x1a">M005.M</title>
+			<title code="0x1b">M006.M</title>
+			<title code="0x1c">M007.M</title>
+			<title code="0x1d">M008.M</title>
+			<title code="0x1e">M009.M</title>
+			<title code="0x1f">M010.M</title>
+			<title code="0x20">M011.M</title>
+			<title code="0x21">M012.M</title>
+			<title code="0x22">M013.M</title>
 			<title code="0x11">LEN01.M : ビ・ヨンド レン</title>
 			<title code="0x12">LEN03.M : ビ・ヨンド 深遠の闇</title>
 			<title code="0x13">LEN13.M : ビ・ヨンド 衝突</title>
@@ -1421,7 +1421,7 @@
 	<game>
 		<name>[PC/AT] JACK -背徳の女神-</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1499,7 +1499,7 @@
 	<game>
 		<name>[PC/AT] Figure -奪われた放課後-</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1567,7 +1567,7 @@
 	<game>
 		<name>[PC/AT] フェルミオン ～未来からの訪問者～</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1617,7 +1617,7 @@
 	<game>
 		<name>[PC/AT] メビウスロイド</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1671,7 +1671,7 @@
 	<game>
 		<name>[PC/AT] 河原崎家の一族</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1723,7 +1723,7 @@
 			<title code="0x1a">INBI1.M   : 淫媚</title>
 			<title code="0x1c">LAST.M    : 危機</title>
 			<title code="0x16">GEM_END.M : 終末 最終楽章</title>
-			<title code="0x10">DEAD.M    : </title>
+			<title code="0x10">DEAD.M</title>
 			<title code="0x11">DRIVE.M   : SE</title>
 			<title code="0x12">FIRE1.M   : SE</title>
 			<title code="0x13">FIRE2.M   : SE</title>
@@ -1743,7 +1743,7 @@
 	<game>
 		<name>[PC/AT] 失われた楽園</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1775,22 +1775,22 @@
 			<rom type="shell" offset="0">PLAY5_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">TITLE.WM    : </title>
-			<title code="0x10">ARASHI.WM   : </title>
-			<title code="0x12">BADEND.WM   : </title>
-			<title code="0x14">COMICAL.WM  : </title>
-			<title code="0x15">DUNGION.WM  : </title>
-			<title code="0x16">ENDING.WM   : </title>
-			<title code="0x17">ESCAPE.WM   : </title>
-			<title code="0x18">GISIKI.WM   : </title>
-			<title code="0x1a">JUNGLE.WM   : </title>
-			<title code="0x1b">MIZUABI.WM  : </title>
-			<title code="0x1c">NETTORI.WM  : </title>
-			<title code="0x1d">NUKIASI.WM  : </title>
-			<title code="0x20">SETUNAI.WM  : </title>
-			<title code="0x21">SONOTOKI.WM : </title>
-			<title code="0x23">VACANCE.WM  : </title>
-			<title code="0x24">YASURAGI.WM : </title>
+			<title code="0x22">TITLE.WM</title>
+			<title code="0x10">ARASHI.WM</title>
+			<title code="0x12">BADEND.WM</title>
+			<title code="0x14">COMICAL.WM</title>
+			<title code="0x15">DUNGION.WM</title>
+			<title code="0x16">ENDING.WM</title>
+			<title code="0x17">ESCAPE.WM</title>
+			<title code="0x18">GISIKI.WM</title>
+			<title code="0x1a">JUNGLE.WM</title>
+			<title code="0x1b">MIZUABI.WM</title>
+			<title code="0x1c">NETTORI.WM</title>
+			<title code="0x1d">NUKIASI.WM</title>
+			<title code="0x20">SETUNAI.WM</title>
+			<title code="0x21">SONOTOKI.WM</title>
+			<title code="0x23">VACANCE.WM</title>
+			<title code="0x24">YASURAGI.WM</title>
 			<title code="0x11">AYASII.WM   : SE</title>
 			<title code="0x13">BAKUHATU.WM : SE</title>
 			<title code="0x19">HIMEI.WM    : SE</title>
@@ -1801,7 +1801,7 @@
 	<game>
 		<name>[PC/AT] 恋姫 Mystic Princess</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1843,8 +1843,8 @@
 			<rom type="shell" offset="0">PLAY5_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">SJ002.M  : </title>
-			<title code="0x11">SJ002A.M : </title>
+			<title code="0x10">SJ002.M</title>
+			<title code="0x11">SJ002A.M</title>
 			<title code="0x12">SJ003.M  : 川の畔で</title>
 			<title code="0x13">SJ004.M  : 蛙の合唱</title>
 			<title code="0x14">SJ005.M  : 朱雀</title>
@@ -1866,7 +1866,7 @@
 			<title code="0x24">SJ022.M  : 俺って幸せ?</title>
 			<title code="0x25">SJ023.M  : 愛しき女性</title>
 			<title code="0x26">SJ024.M  : メインテーマ</title>
-			<title code="0x27">SJ024A.M : </title>
+			<title code="0x27">SJ024A.M</title>
 			<title code="0x28">SJME01.M : SE</title>
 			<title code="0x29">SJME02.M : SE</title>
 			<title code="0x2a">SJME03.M : SE</title>
@@ -1879,7 +1879,7 @@
 	<game>
 		<name>[X68000] CRESCENT</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x0a0"/>
 			<option name="pcm_mix" value="0x0ba"/>
@@ -1891,32 +1891,32 @@
 			<rom type="code" offset="0x39b60">CR68000.WPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
-			<title code="0x05">05 : </title>
-			<title code="0x06">06 : </title>
-			<title code="0x07">07 : </title>
-			<title code="0x08">08 : </title>
-			<title code="0x09">09 : </title>
-			<title code="0x0a">0a : </title>
-			<title code="0x0b">0b : </title>
-			<title code="0x0c">0c : </title>
-			<title code="0x0d">0d : </title>
-			<title code="0x0e">0e : </title>
-			<title code="0x0f">0f : </title>
-			<title code="0x10">10 : </title>
-			<title code="0x11">11 : </title>
-			<title code="0x12">12 : </title>
-			<title code="0x13">13 : </title>
-			<title code="0x14">14 : </title>
-			<title code="0x15">15 : </title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
+			<title code="0x05">05</title>
+			<title code="0x06">06</title>
+			<title code="0x07">07</title>
+			<title code="0x08">08</title>
+			<title code="0x09">09</title>
+			<title code="0x0a">0a</title>
+			<title code="0x0b">0b</title>
+			<title code="0x0c">0c</title>
+			<title code="0x0d">0d</title>
+			<title code="0x0e">0e</title>
+			<title code="0x0f">0f</title>
+			<title code="0x10">10</title>
+			<title code="0x11">11</title>
+			<title code="0x12">12</title>
+			<title code="0x13">13</title>
+			<title code="0x14">14</title>
+			<title code="0x15">15</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] MARINE BUSTER</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x0c0"/>
 			<option name="pcm_mix" value="0x0e0"/>
@@ -1948,7 +1948,7 @@
 	<game>
 		<name>[X68000] Oh! Pai</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 			<option name="pcm_mix" value="0x12a"/>
@@ -1960,31 +1960,31 @@
 			<rom type="code" offset="0x39b60">OP68000.WPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
-			<title code="0x05">05 : </title>
-			<title code="0x06">06 : </title>
-			<title code="0x07">07 : </title>
-			<title code="0x08">08 : </title>
-			<title code="0x09">09 : </title>
-			<title code="0x0a">0a : </title>
-			<title code="0x0b">0b : </title>
-			<title code="0x0c">0c : </title>
-			<title code="0x0d">0d : </title>
-			<title code="0x0e">0e : </title>
-			<title code="0x0f">0f : </title>
-			<title code="0x10">10 : </title>
-			<title code="0x11">11 : </title>
-			<title code="0x12">12 : </title>
-			<title code="0x13">13 : </title>
-			<title code="0x14">14 : </title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
+			<title code="0x05">05</title>
+			<title code="0x06">06</title>
+			<title code="0x07">07</title>
+			<title code="0x08">08</title>
+			<title code="0x09">09</title>
+			<title code="0x0a">0a</title>
+			<title code="0x0b">0b</title>
+			<title code="0x0c">0c</title>
+			<title code="0x0d">0d</title>
+			<title code="0x0e">0e</title>
+			<title code="0x0f">0f</title>
+			<title code="0x10">10</title>
+			<title code="0x11">11</title>
+			<title code="0x12">12</title>
+			<title code="0x13">13</title>
+			<title code="0x14">14</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] PREMIUM</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x0c0"/>
 			<option name="pcm_mix" value="0x0e0"/>
@@ -1996,28 +1996,28 @@
 			<rom type="code" offset="0x215a4">PRE.PDU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
-			<title code="0x05">05 : </title>
-			<title code="0x06">06 : </title>
-			<title code="0x07">07 : </title>
-			<title code="0x08">08 : </title>
-			<title code="0x09">09 : </title>
-			<title code="0x0a">0a : </title>
-			<title code="0x0b">0b : </title>
-			<title code="0x0c">0c : </title>
-			<title code="0x0d">0d : </title>
-			<title code="0x0e">0e : </title>
-			<title code="0x0f">0f : </title>
-			<title code="0x10">10 : </title>
+			<title code="0x01">01</title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
+			<title code="0x05">05</title>
+			<title code="0x06">06</title>
+			<title code="0x07">07</title>
+			<title code="0x08">08</title>
+			<title code="0x09">09</title>
+			<title code="0x0a">0a</title>
+			<title code="0x0b">0b</title>
+			<title code="0x0c">0c</title>
+			<title code="0x0d">0d</title>
+			<title code="0x0e">0e</title>
+			<title code="0x0f">0f</title>
+			<title code="0x10">10</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] PREMIUM II</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x0a0"/>
 			<option name="pcm_mix" value="0x0ba"/>
@@ -2029,28 +2029,28 @@
 			<rom type="code" offset="0x206cc">PRE2.PDU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01 : </title>
-			<title code="0x02">02 : </title>
-			<title code="0x03">03 : </title>
-			<title code="0x04">04 : </title>
-			<title code="0x05">05 : </title>
-			<title code="0x06">06 : </title>
-			<title code="0x07">07 : </title>
-			<title code="0x08">08 : </title>
-			<title code="0x09">09 : </title>
-			<title code="0x0a">0a : </title>
-			<title code="0x0b">0b : </title>
-			<title code="0x0c">0c : </title>
-			<title code="0x0d">0d : </title>
-			<title code="0x0e">0e : </title>
-			<title code="0x0f">0f : </title>
-			<title code="0x10">10 : </title>
+			<title code="0x01">01</title>
+			<title code="0x02">02</title>
+			<title code="0x03">03</title>
+			<title code="0x04">04</title>
+			<title code="0x05">05</title>
+			<title code="0x06">06</title>
+			<title code="0x07">07</title>
+			<title code="0x08">08</title>
+			<title code="0x09">09</title>
+			<title code="0x0a">0a</title>
+			<title code="0x0b">0b</title>
+			<title code="0x0c">0c</title>
+			<title code="0x0d">0d</title>
+			<title code="0x0e">0e</title>
+			<title code="0x0f">0f</title>
+			<title code="0x10">10</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] 河原崎家の一族</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">Silky's</driveralias>
+		<driveralias type="X68000">Silky's</driveralias>
 		<options>
 			<option name="opm_mix" value="0x110"/>
 		</options>
@@ -2071,7 +2071,7 @@
 			<title code="0x0a">0a : 洋館 第四楽章～庭～</title>
 			<title code="0x0b">0b : 美佐子のテーマ</title>
 			<title code="0x0c">0c : 危機</title>
-			<title code="0x0d">0d : </title>
+			<title code="0x0d">0d</title>
 			<title code="0x0e">0e : 終末 最終楽章</title>
 			<title code="0x0f">0f : SE</title>
 			<title code="0x10">10 : SE</title>
@@ -2094,7 +2094,7 @@
 	<game>
 		<name>[PC/AT] 愛姉妹 ～二人の果実～</name>
 		<driver type="soundblaster16">pcatdos</driver>
-		<driveralias type="IBM PC/AT">Silky's</driveralias>
+		<driveralias type="PC/AT">Silky's</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2115,15 +2115,15 @@
 			<rom type="shell" offset="0">PLAY5_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">OPEN.M     : </title>
-			<title code="0x11">CREGIT.M   : </title>
-			<title code="0x12">DORAMA.M   : </title>
-			<title code="0x13">H1.M       : </title>
-			<title code="0x14">H2.M       : </title>
-			<title code="0x15">H3.M       : </title>
-			<title code="0x16">HARAHARA.M : </title>
-			<title code="0x17">HOME.M     : </title>
-			<title code="0x19">SAGASU.M   : </title>
+			<title code="0x18">OPEN.M</title>
+			<title code="0x11">CREGIT.M</title>
+			<title code="0x12">DORAMA.M</title>
+			<title code="0x13">H1.M</title>
+			<title code="0x14">H2.M</title>
+			<title code="0x15">H3.M</title>
+			<title code="0x16">HARAHARA.M</title>
+			<title code="0x17">HOME.M</title>
+			<title code="0x19">SAGASU.M</title>
 			<title code="0x10">CRASH.M    : SE</title>
 		</titlelist>
 	</game>

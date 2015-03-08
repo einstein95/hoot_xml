@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] TELENET MUSIC BOX(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="use_vrtc"   value="0x01"/>
@@ -381,7 +381,7 @@
 	<game>
 		<name>[PC-8801] TELENET MUSIC BOX(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="use_vrtc"   value="0x01"/>
@@ -724,7 +724,7 @@
 	<game>
 		<name>[PC-8801] AMERICAN TRUCK</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0xa000"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -746,7 +746,7 @@
 	<game>
 		<name>[PC-8801] アルバトロス</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -767,7 +767,7 @@
 	<game>
 		<name>[PC-8801] FINAL ZONE</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0ee6"/>
 		</options>
@@ -801,7 +801,7 @@
 	<game>
 		<name>[PC-8801] 夢幻戦士ヴァリス</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="vdata_addr" value="0x0100"/>
 			<option name="vdata_size" value="0x3000"/>
@@ -865,7 +865,7 @@
 	<game>
 		<name>[PC-8801] 夢幻戦士ヴァリス II(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
@@ -1003,7 +1003,7 @@
 	<game>
 		<name>[PC-8801] 夢幻戦士ヴァリス II(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
@@ -1116,7 +1116,7 @@
 	<game>
 		<name>[PC-8801] デジタル・デビル物語 女神転生</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="baseclock" value="0x03"/>
 			<option name="use_ssgpcm" value="0x04"/>
@@ -1157,7 +1157,7 @@
 	<game>
 		<name>[PC-8801] LUXSOR - NIGHTS OVER EGYPT -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<romlist archive="luxsor">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xb000">DRIVER</rom>
@@ -1196,7 +1196,7 @@
 	<game>
 		<name>[PC-8801] 反生命戦機アンドロギュヌス</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1239,7 +1239,7 @@
 	<game>
 		<name>[PC-8801] プロ野球FAN - TELENET STADIUM -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"  value="0xc000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -1270,13 +1270,13 @@
 			<title code="0x01000004">MUS04 : HOMERUN</title>
 			<title code="0x00000001">MUS01 : Happy turn 1</title>
 			<title code="0x0000000a">MUS10 : Happy turn 2</title>
-			<title code="0x00000000">MUS00 : </title>
+			<title code="0x00000000">MUS00</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 紫醜罹(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="mfile_size" value="0x2400"/>
 			<option name="mdata_size" value="0x2400"/>
@@ -1317,7 +1317,7 @@
 	<game>
 		<name>[PC-8801] 紫醜罹(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1356,7 +1356,7 @@
 	<game>
 		<name>[PC-8801] XZR －破戒の偶像－(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1418,7 +1418,7 @@
 	<game>
 		<name>[PC-8801] XZR －破戒の偶像－(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1480,7 +1480,7 @@
 	<game>
 		<name>[PC-8801] XZR II(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1563,7 +1563,7 @@
 	<game>
 		<name>[PC-8801] XZR II(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="use_vrtc"  value="0x01"/>
 		</options>
@@ -1646,7 +1646,7 @@
 	<game>
 		<name>[PC-8801] コンストラクション・ツール めいず君(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0x8800"/>
@@ -1693,7 +1693,7 @@
 	<game>
 		<name>[PC-8801] コンストラクション・ツール めいず君(ADPCM)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="use_vrtc"   value="0x01"/>
@@ -1713,7 +1713,7 @@
 	<game>
 		<name>[PC-8801] コンストラクション・ツール めいず君(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">日本テレネット</driveralias>
+		<driveralias type="PC-8801">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x8000"/>
 			<option name="mdata_addr" value="0x8800"/>
@@ -1758,7 +1758,7 @@
 	<game>
 		<name>[PC-88VA] 神羅万象 －超能力者達の塔－(OPNA)</name>
 		<driver type="opna">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">日本テレネット</driveralias>
+		<driveralias type="PC-88VA">日本テレネット</driveralias>
 		<romlist archive="shinrava">
 			<rom type="file" offset="-1">shinra.com</rom>
 			<rom type="file" offset="-1">VISOPEN.EXE</rom>
@@ -1795,14 +1795,14 @@
 			<title code="0x010016">SICRE.0B  : Cygnet</title>
 			<title code="0x00001b">SIHP6.0B  : Super sonic sailing</title>
 		<!--	<title code="0x00001a">SIHP.0B   : Super sonic sailing</title> -->
-			<title code="0x01001f">SIVISU.0B : </title>
+			<title code="0x01001f">SIVISU.0B</title>
 			<title code="0x000010">FZ03P6.0B : FINAL ZONE</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-88VA] 神羅万象 －超能力者達の塔－(OPN)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">日本テレネット</driveralias>
+		<driveralias type="PC-88VA">日本テレネット</driveralias>
 		<romlist archive="shinrava">
 			<rom type="file" offset="-1">shinra.com</rom>
 			<rom type="file" offset="-1">VISOPEN.EXE</rom>
@@ -1839,14 +1839,14 @@
 			<title code="0x010016">SICRE.0B  : Cygnet</title>
 		<!--	<title code="0x00001b">SIHP6.0B  : Super sonic sailing</title> -->
 			<title code="0x00001a">SIHP.0B   : Super sonic sailing</title>
-			<title code="0x01001f">SIVISU.0B : </title>
+			<title code="0x01001f">SIVISU.0B</title>
 		<!--	<title code="0x000010">FZ03P6.0B : FINAL ZONE</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-88VA] DEATH BRINGER</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="NEC PC-88VA">日本テレネット</driveralias>
+		<driveralias type="PC-88VA">日本テレネット</driveralias>
 		<options>
 			<option name="vstimer"  value="0x01"/>
 		</options>
@@ -1888,13 +1888,13 @@
 			<title code="0x000017">DYAM01.0B : BLOOD &amp; FLAME</title>
 			<title code="0x010018">GE01.0B   : Refuse</title>
 			<title code="0x010014">DHP02.0B  : Last Odyssey</title>
-			<title code="0x010012">DDD01.0B  : </title>
+			<title code="0x010012">DDD01.0B</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] AMERICAN TRUCK</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="psg_mix"    value="0x50"/>
@@ -1908,8 +1908,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">OPENING  : The AMERICAN TRUCK</title>
-			<title code="0x00000001">HISCORE  : </title>
-			<title code="0x01000001">HISCORE  : </title>
+			<title code="0x00000001">HISCORE</title>
+			<title code="0x01000001">HISCORE</title>
 			<title code="0x02000001">HISCORE  : ROUTE 333</title>
 			<title code="0x00000002">ENDING   : Sunny</title>
 		</titlelist>
@@ -1917,7 +1917,7 @@
 	<game>
 		<name>[X1] アルバトロス</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
@@ -1948,7 +1948,7 @@
 	<game>
 		<name>[X1] アルバトロス拡張コース(名門コース)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -1963,7 +1963,7 @@
 	<game>
 		<name>[X1] FINAL ZONE(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<romlist archive="x1fz">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xe000">FMDRIVE.CIM</rom>
@@ -1996,7 +1996,7 @@
 	<game>
 		<name>[X1] FINAL ZONE(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<romlist archive="x1fz">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xe000">PSGDRIVE.CIM</rom>
@@ -2027,7 +2027,7 @@
 	<game>
 		<name>[X1] 夢幻戦士ヴァリス(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0100"/>
 			<option name="mdata_addr" value="0x9000"/>
@@ -2072,7 +2072,7 @@
 	<game>
 		<name>[X1] 夢幻戦士ヴァリス(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0100"/>
 			<option name="mdata_addr" value="0x9000"/>
@@ -2116,7 +2116,7 @@
 	<game>
 		<name>[X1] デジタル・デビル物語 女神転生(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc" value="0xe700"/>
 		</options>
@@ -2156,7 +2156,7 @@
 	<game>
 		<name>[X1] デジタル・デビル物語 女神転生(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"   value="0xe700"/>
 		</options>
@@ -2196,7 +2196,7 @@
 	<game>
 		<name>[X1] LUXSOR - NIGHTS OVER EGYPT -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc" value="0xe900"/>
 		</options>
@@ -2238,7 +2238,7 @@
 	<game>
 		<name>[X1] LUXSOR - NIGHTS OVER EGYPT -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc" value="0xe900"/>
 		</options>
@@ -2278,7 +2278,7 @@
 	<game>
 		<name>[X1] プロ野球FAN - TELENET STADIUM -(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"  value="0xe900"/>
 		</options>
@@ -2336,7 +2336,7 @@
 	<game>
 		<name>[X1] プロ野球FAN - TELENET STADIUM -(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"  value="0xe900"/>
 		</options>
@@ -2375,7 +2375,7 @@
 	<game>
 		<name>[X1] 紫醜罹(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"   value="0x8000"/>
 		</options>
@@ -2412,7 +2412,7 @@
 	<game>
 		<name>[X1] 紫醜罹(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<options>
 			<option name="init_pc"   value="0x8000"/>
 		</options>
@@ -2449,7 +2449,7 @@
 	<game>
 		<name>[X1] XZR －破戒の偶像－(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<romlist archive="x1xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">OPMDRV</rom>
@@ -2508,7 +2508,7 @@
 	<game>
 		<name>[X1] XZR －破戒の偶像－(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">日本テレネット</driveralias>
+		<driveralias type="X1">日本テレネット</driveralias>
 		<romlist archive="x1xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">PSGDRV</rom>
@@ -2567,7 +2567,7 @@
 	<game>
 		<name>[PC-9801] アルバトロス</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0xf000"/>
@@ -2587,7 +2587,7 @@
 	<game>
 		<name>[PC-9801] TELENET MUSIC MODE 1987 version</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2644,7 +2644,7 @@
 	<game>
 		<name>[PC-9801] 夢幻戦士ヴァリス</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x8000"/>
@@ -2681,7 +2681,7 @@
 	<game>
 		<name>[PC-9801] 夢幻戦士ヴァリスII(SOUND ORCHESTRA)</name>
 		<driver type="soundorchestra">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2818,20 +2818,20 @@
 			<title code="0x04">REIKOB.M : White Message ～麗子のテーマ  (別アレンジ)</title>
 			<title code="0x0d">A44.M    : ヴァニティーのテーマ          (別アレンジ)</title>
 			<title code="0x01">ZABG02.M : サバッシュ ファルガナ城</title>
-			<title code="0x11">BG102.M  : </title>
-			<title code="0x1b">VE01.M   : </title>
-			<title code="0x1f">VK121.M  : </title>
-			<title code="0x20">VE101.M  : </title>
-			<title code="0x21">VE102.M  : </title>
-			<title code="0x23">VE201.M  : </title>
-			<title code="0x25">VE302.M  : </title>
-			<title code="0x26">VK121L.M : </title>
+			<title code="0x11">BG102.M</title>
+			<title code="0x1b">VE01.M</title>
+			<title code="0x1f">VK121.M</title>
+			<title code="0x20">VE101.M</title>
+			<title code="0x21">VE102.M</title>
+			<title code="0x23">VE201.M</title>
+			<title code="0x25">VE302.M</title>
+			<title code="0x26">VK121L.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 夢幻戦士ヴァリスII(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -2965,20 +2965,20 @@
 			<title code="0x04">REIKOB.M : White Message ～麗子のテーマ  (別アレンジ)</title>
 			<title code="0x0d">A44.M    : ヴァニティーのテーマ          (別アレンジ)</title>
 			<title code="0x01">ZABG02.M : サバッシュ ファルガナ城</title>
-			<title code="0x11">BG102.M  : </title>
-			<title code="0x1b">VE01.M   : </title>
-			<title code="0x1f">VK121.M  : </title>
-			<title code="0x20">VE101.M  : </title>
-			<title code="0x21">VE102.M  : </title>
-			<title code="0x23">VE201.M  : </title>
-			<title code="0x25">VE302.M  : </title>
-			<title code="0x26">VK121L.M : </title>
+			<title code="0x11">BG102.M</title>
+			<title code="0x1b">VE01.M</title>
+			<title code="0x1f">VK121.M</title>
+			<title code="0x20">VE101.M</title>
+			<title code="0x21">VE102.M</title>
+			<title code="0x23">VE201.M</title>
+			<title code="0x25">VE302.M</title>
+			<title code="0x26">VK121L.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 夢幻戦士ヴァリスII(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -3054,14 +3054,14 @@
 			<title code="0x0a">GOVBB.M  : 月夜のオルゴール              作曲: 佐藤 天平</title>
 			<title code="0x02">VHPBB.M  : EverGreen                     作曲: 佐藤 天平</title>
 			<title code="0x0f">YYB.M    : 悲しみのWhite Day... 優子より 作曲: 小川 史生</title>
-			<title code="0x1b">VEKB.M   : </title>
-			<title code="0x1f">VK121B.M : </title>
+			<title code="0x1b">VEKB.M</title>
+			<title code="0x1f">VK121B.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] プロ野球FAN - TELENET STADIUM -</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x1000"/>
@@ -3103,7 +3103,7 @@
 	<game>
 		<name>[PC-9801] DEATH BRINGER</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3149,13 +3149,13 @@
 			<title code="0x000002">MUS01 : BLOOD &amp; FLAME</title>
 			<title code="0x01000d">MUS12 : Refuse</title>
 			<title code="0x01000c">MUS11 : Last Odyssey</title>
-			<title code="0x010010">MUS15 : </title>
+			<title code="0x010010">MUS15</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 紫醜罹</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x2000"/>
 			<option name="bootip" value="0x0000"/>
@@ -3184,7 +3184,7 @@
 	<game>
 		<name>[PC-9801] XZR －破戒の偶像－</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x6400"/>
@@ -3254,7 +3254,7 @@
 	<game>
 		<name>[PC-9801] XZR II (2HD)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x4000"/>
 			<option name="bootip" value="0x0000"/>
@@ -3346,15 +3346,15 @@
 			<title code="0x000017">MUS22 : エピローグ</title>
 			<title code="0x000019">MUS24 : ある勇者の物語</title>
 			<title code="0x010018">MUS23 : 流浪の神話</title>
-			<title code="0x000004">MUS03 : </title>
-			<title code="0x000006">MUS05 : </title>
+			<title code="0x000004">MUS03</title>
+			<title code="0x000006">MUS05</title>
 		<!--	<title code="0x00001a">MUS25 : ベクトルの憂鬱(OPNA)</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] XZR II (2DD)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x4000"/>
 			<option name="bootip" value="0x0000"/>
@@ -3446,15 +3446,15 @@
 			<title code="0x000017">MUS22 : エピローグ</title>
 			<title code="0x000019">MUS24 : ある勇者の物語</title>
 			<title code="0x010018">MUS23 : 流浪の神話</title>
-			<title code="0x000004">MUS03 : </title>
-			<title code="0x000006">MUS05 : </title>
+			<title code="0x000004">MUS03</title>
+			<title code="0x000006">MUS05</title>
 		<!--	<title code="0x00001a">MUS25 : ベクトルの憂鬱(OPNA)</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] コンストラクション・ツール めいず君(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs" value="0x2000"/>
 			<option name="bootip" value="0x0000"/>
@@ -3503,7 +3503,7 @@
 	<game>
 		<name>[PC-9801] コンストラクション・ツール めいず君(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs"   value="0x2000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3539,7 +3539,7 @@
 	<game>
 		<name>[PC-9801] アルバトロス2/MASTERS' HISTORY(SOUND ORCHESTRA)</name>
 		<driver type="soundorchestra">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3574,51 +3574,51 @@
 		<titlelist>
 			<title code="0x00000c">EARORCH.M  : Early Times</title>
 			<title code="0x000001">AL03.M     : Rising Up</title>
-			<title code="0x000003">ALB1_O.M   : </title>
-			<title code="0x000004">ALB3_O.M   : </title>
-			<title code="0x000005">ALB4_O.M   : </title>
-			<title code="0x000006">ALB5_O.M   : </title>
-			<title code="0x000007">ALB6_O.M   : </title>
-			<title code="0x000008">ALB7_O.M   : </title>
-			<title code="0x000009">ALB8_O.M   : </title>
-			<title code="0x00000a">ALB9_O.M   : </title>
-			<title code="0x000002">ALB10_O.M  : </title>
+			<title code="0x000003">ALB1_O.M</title>
+			<title code="0x000004">ALB3_O.M</title>
+			<title code="0x000005">ALB4_O.M</title>
+			<title code="0x000006">ALB5_O.M</title>
+			<title code="0x000007">ALB6_O.M</title>
+			<title code="0x000008">ALB7_O.M</title>
+			<title code="0x000009">ALB8_O.M</title>
+			<title code="0x00000a">ALB9_O.M</title>
+			<title code="0x000002">ALB10_O.M</title>
 			<title code="0x00000e">MYSORCH.M  : マイシュガーベイビー</title>
-			<title code="0x00000d">HOLEIN.M   : </title>
-			<title code="0x00000b">EAGLE.M    : </title>
-			<title code="0x00000f">PAR2.M     : </title>
-			<title code="0x000010">PAR3.M     : </title>
-			<title code="0x000011">Y.M        : </title>
-			<title code="0x000000">EFFECT #00 : </title>
-			<title code="0x010000">EFFECT #01 : </title>
-			<title code="0x020000">EFFECT #02 : </title>
-			<title code="0x030000">EFFECT #03 : </title>
-			<title code="0x040000">EFFECT #04 : </title>
-			<title code="0x050000">EFFECT #05 : </title>
-			<title code="0x060000">EFFECT #06 : </title>
-			<title code="0x070000">EFFECT #07 : </title>
-			<title code="0x080000">EFFECT #08 : </title>
-			<title code="0x090000">EFFECT #09 : </title>
-			<title code="0x0a0000">EFFECT #0A : </title>
-			<title code="0x0b0000">EFFECT #0B : </title>
-			<title code="0x0c0000">EFFECT #0C : </title>
-			<title code="0x0d0000">EFFECT #0D : </title>
-			<title code="0x0e0000">EFFECT #0E : </title>
-			<title code="0x0f0000">EFFECT #0F : </title>
-			<title code="0x100000">EFFECT #10 : </title>
-			<title code="0x140000">EFFECT #14 : </title>
-			<title code="0x150000">EFFECT #15 : </title>
-			<title code="0x160000">EFFECT #16 : </title>
-			<title code="0x170000">EFFECT #17 : </title>
-			<title code="0x180000">EFFECT #18 : </title>
-			<title code="0x190000">EFFECT #19 : </title>
-			<title code="0x1a0000">EFFECT #1A : </title>
+			<title code="0x00000d">HOLEIN.M</title>
+			<title code="0x00000b">EAGLE.M</title>
+			<title code="0x00000f">PAR2.M</title>
+			<title code="0x000010">PAR3.M</title>
+			<title code="0x000011">Y.M</title>
+			<title code="0x000000">EFFECT #00</title>
+			<title code="0x010000">EFFECT #01</title>
+			<title code="0x020000">EFFECT #02</title>
+			<title code="0x030000">EFFECT #03</title>
+			<title code="0x040000">EFFECT #04</title>
+			<title code="0x050000">EFFECT #05</title>
+			<title code="0x060000">EFFECT #06</title>
+			<title code="0x070000">EFFECT #07</title>
+			<title code="0x080000">EFFECT #08</title>
+			<title code="0x090000">EFFECT #09</title>
+			<title code="0x0a0000">EFFECT #0A</title>
+			<title code="0x0b0000">EFFECT #0B</title>
+			<title code="0x0c0000">EFFECT #0C</title>
+			<title code="0x0d0000">EFFECT #0D</title>
+			<title code="0x0e0000">EFFECT #0E</title>
+			<title code="0x0f0000">EFFECT #0F</title>
+			<title code="0x100000">EFFECT #10</title>
+			<title code="0x140000">EFFECT #14</title>
+			<title code="0x150000">EFFECT #15</title>
+			<title code="0x160000">EFFECT #16</title>
+			<title code="0x170000">EFFECT #17</title>
+			<title code="0x180000">EFFECT #18</title>
+			<title code="0x190000">EFFECT #19</title>
+			<title code="0x1a0000">EFFECT #1A</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アルバトロス2/MASTERS' HISTORY(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3652,51 +3652,51 @@
 		<titlelist>
 			<title code="0x00000c">EARLY2.M   : Early Times</title>
 			<title code="0x000001">AL03FM.M   : Rising Up</title>
-			<title code="0x000003">ALB1_2.M   : </title>
-			<title code="0x000004">ALB3_2.M   : </title>
-			<title code="0x000005">ALB4_2.M   : </title>
-			<title code="0x000006">ALB5_2.M   : </title>
-			<title code="0x000007">ALB6_2.M   : </title>
-			<title code="0x000008">ALB7_2.M   : </title>
-			<title code="0x000009">ALB8_2.M   : </title>
-			<title code="0x00000a">ALB9_2.M   : </title>
-			<title code="0x000002">ALB10.M    : </title>
+			<title code="0x000003">ALB1_2.M</title>
+			<title code="0x000004">ALB3_2.M</title>
+			<title code="0x000005">ALB4_2.M</title>
+			<title code="0x000006">ALB5_2.M</title>
+			<title code="0x000007">ALB6_2.M</title>
+			<title code="0x000008">ALB7_2.M</title>
+			<title code="0x000009">ALB8_2.M</title>
+			<title code="0x00000a">ALB9_2.M</title>
+			<title code="0x000002">ALB10.M</title>
 			<title code="0x00000e">MYSUGAR2.M : マイシュガーベイビー</title>
-			<title code="0x00000d">HOLEIN.M   : </title>
-			<title code="0x00000b">EAGLE.M    : </title>
-			<title code="0x00000f">PAR2.M     : </title>
-			<title code="0x000010">PAR3.M     : </title>
-			<title code="0x000011">Y.M        : </title>
-			<title code="0x000000">EFFECT #00 : </title>
-			<title code="0x010000">EFFECT #01 : </title>
-			<title code="0x020000">EFFECT #02 : </title>
-			<title code="0x030000">EFFECT #03 : </title>
-			<title code="0x040000">EFFECT #04 : </title>
-			<title code="0x050000">EFFECT #05 : </title>
-			<title code="0x060000">EFFECT #06 : </title>
-			<title code="0x070000">EFFECT #07 : </title>
-			<title code="0x080000">EFFECT #08 : </title>
-			<title code="0x090000">EFFECT #09 : </title>
-			<title code="0x0a0000">EFFECT #0A : </title>
-			<title code="0x0b0000">EFFECT #0B : </title>
-			<title code="0x0c0000">EFFECT #0C : </title>
-			<title code="0x0d0000">EFFECT #0D : </title>
-			<title code="0x0e0000">EFFECT #0E : </title>
-			<title code="0x0f0000">EFFECT #0F : </title>
-			<title code="0x100000">EFFECT #10 : </title>
-			<title code="0x140000">EFFECT #14 : </title>
-			<title code="0x150000">EFFECT #15 : </title>
-			<title code="0x160000">EFFECT #16 : </title>
-			<title code="0x170000">EFFECT #17 : </title>
-			<title code="0x180000">EFFECT #18 : </title>
-			<title code="0x190000">EFFECT #19 : </title>
-			<title code="0x1a0000">EFFECT #1A : </title>
+			<title code="0x00000d">HOLEIN.M</title>
+			<title code="0x00000b">EAGLE.M</title>
+			<title code="0x00000f">PAR2.M</title>
+			<title code="0x000010">PAR3.M</title>
+			<title code="0x000011">Y.M</title>
+			<title code="0x000000">EFFECT #00</title>
+			<title code="0x010000">EFFECT #01</title>
+			<title code="0x020000">EFFECT #02</title>
+			<title code="0x030000">EFFECT #03</title>
+			<title code="0x040000">EFFECT #04</title>
+			<title code="0x050000">EFFECT #05</title>
+			<title code="0x060000">EFFECT #06</title>
+			<title code="0x070000">EFFECT #07</title>
+			<title code="0x080000">EFFECT #08</title>
+			<title code="0x090000">EFFECT #09</title>
+			<title code="0x0a0000">EFFECT #0A</title>
+			<title code="0x0b0000">EFFECT #0B</title>
+			<title code="0x0c0000">EFFECT #0C</title>
+			<title code="0x0d0000">EFFECT #0D</title>
+			<title code="0x0e0000">EFFECT #0E</title>
+			<title code="0x0f0000">EFFECT #0F</title>
+			<title code="0x100000">EFFECT #10</title>
+			<title code="0x140000">EFFECT #14</title>
+			<title code="0x150000">EFFECT #15</title>
+			<title code="0x160000">EFFECT #16</title>
+			<title code="0x170000">EFFECT #17</title>
+			<title code="0x180000">EFFECT #18</title>
+			<title code="0x190000">EFFECT #19</title>
+			<title code="0x1a0000">EFFECT #1A</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アルバトロス2/MASTERS' HISTORY(BEEP)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3727,26 +3727,26 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0b">EARLYBE.M  : Early Times</title>
-			<title code="0x02">ALB1BE.M   : </title>
-			<title code="0x03">ALB3BE.M   : </title>
-			<title code="0x04">ALB4BE.M   : </title>
-			<title code="0x05">ALB5BE.M   : </title>
-			<title code="0x06">ALB6BE.M   : </title>
-			<title code="0x07">ALB7BE.M   : </title>
-			<title code="0x08">ALB8BE.M   : </title>
-			<title code="0x09">ALB9BE.M   : </title>
-			<title code="0x01">ALB10BE.M  : </title>
+			<title code="0x02">ALB1BE.M</title>
+			<title code="0x03">ALB3BE.M</title>
+			<title code="0x04">ALB4BE.M</title>
+			<title code="0x05">ALB5BE.M</title>
+			<title code="0x06">ALB6BE.M</title>
+			<title code="0x07">ALB7BE.M</title>
+			<title code="0x08">ALB8BE.M</title>
+			<title code="0x09">ALB9BE.M</title>
+			<title code="0x01">ALB10BE.M</title>
 			<title code="0x0c">MYSUGABE.M : マイシュガーベイビー</title>
-			<title code="0x0a">EAGLEBE.M  : </title>
-			<title code="0x0d">PAR2BE.M   : </title>
-			<title code="0x0e">PAR3BE.M   : </title>
-			<title code="0x0f">YBE.M      : </title>
+			<title code="0x0a">EAGLEBE.M</title>
+			<title code="0x0d">PAR2BE.M</title>
+			<title code="0x0e">PAR3BE.M</title>
+			<title code="0x0f">YBE.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 妖撃隊 ～邪神降魔録～(OPNA)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3789,7 +3789,7 @@
 	<game>
 		<name>[PC-9801] 妖撃隊 ～邪神降魔録～(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -3832,7 +3832,7 @@
 	<game>
 		<name>[PC-9801] 妖撃隊 ～邪神降魔録～(MT-32/CM-64)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -3875,7 +3875,7 @@
 	<game>
 		<name>[PC-9801] 妖撃隊 ～邪神降魔録～(MT-32 Emulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">日本テレネット</driveralias>
+		<driveralias type="PC-9801">日本テレネット</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -3918,7 +3918,7 @@
 	<game>
 		<name>[X68000] DEATH BRINGER</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本テレネット</driveralias>
+		<driveralias type="X68000">日本テレネット</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xf0"/>
@@ -4001,7 +4001,7 @@
 	<game>
 		<name>[X68000] 夢幻戦士ヴァリスII</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">日本テレネット</driveralias>
+		<driveralias type="X68000">日本テレネット</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xf0"/>
@@ -4182,9 +4182,9 @@
 			<title code="0x14">XEPIP  : エピローグ</title>
 			<title code="0x15">XHP01P : ある勇者の物語</title>
 			<title code="0x0d">OPX8   : 流浪の神話</title>
-			<title code="0x03">BEND01 : </title>
-			<title code="0x08">INDOX2 : </title>
-			<title code="0x0e">PRORO2 : </title>
+			<title code="0x03">BEND01</title>
+			<title code="0x08">INDOX2</title>
+			<title code="0x0e">PRORO2</title>
 		</titlelist>
 	</game>
 	<game>

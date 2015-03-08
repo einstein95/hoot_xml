@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] 覇邪の封印</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -53,7 +53,7 @@
 	<game>
 		<name>[PC-8801] へらくれす</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -76,7 +76,7 @@
 	<game>
 		<name>[PC-8801] PSYCHIC WAR - COSMIC SOLDIER 2 -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -101,7 +101,7 @@
 	<game>
 		<name>[PC-8801] 原宿AFTeR DARK</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="init_pc" value="0x8000"/>
 		</options>
@@ -122,7 +122,7 @@
 	<game>
 		<name>[PC-8801] アルギースの翼</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -164,13 +164,13 @@
 		<!--	<title code="0x00000005">05-0 : オープニング</title> -->
 			<title code="0x01000005">05-1 : エンディング</title>
 			<title code="0x02000005">05-2 : スタッフロール</title>
-			<title code="0x03000005">05-3 : </title>
+			<title code="0x03000005">05-3</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] 時空の花嫁</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -206,7 +206,7 @@
 	<game>
 		<name>[PC-8801] 魔晶伝紀ラ・ヴァルー</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -248,7 +248,7 @@
 	<game>
 		<name>[PC-8801] NAVITUNE -ドラゴン航海記-</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7700"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -279,7 +279,7 @@
 	<game>
 		<name>[PC-8801] Schwarzschild 狂嵐の銀河</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -309,7 +309,7 @@
 	<game>
 		<name>[PC-8801] Schwarzschild II 狂嵐の銀河 帝國ノ背信</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -369,7 +369,7 @@
 	<game>
 		<name>[PC-9801] 原宿AFTeR DARK</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0xf000"/>
@@ -394,7 +394,7 @@
 	<game>
 		<name>[PC-9801] アルギースの翼</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x0800"/>
 			<option name="bootip" value="0x2000"/>
@@ -438,13 +438,13 @@
 			<title code="0x000005">#05-0 : オープニング</title>
 			<title code="0x010005">#05-1 : エンディング</title>
 			<title code="0x020005">#05-2 : スタッフロール</title>
-			<title code="0x030005">#05-3 : </title>
+			<title code="0x030005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] 時空の花嫁</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x6000"/>
@@ -476,7 +476,7 @@
 	<game>
 		<name>[PC-9801] ナビチューン・ドラゴン航海記</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -507,7 +507,7 @@
 	<game>
 		<name>[PC-9801] Sabnack</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x0e78"/>
 			<option name="bootip" value="0x5a00"/>
@@ -535,7 +535,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -574,7 +574,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -613,7 +613,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS S-Premium Disk(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -644,7 +644,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS S-Premium Disk(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -675,7 +675,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS 2(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -718,7 +718,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS 2(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -757,13 +757,13 @@
 			<title code="18">PD2_M70.MID : POWER DoLLS 2</title>
 			<title code="22">PDM04.MID   : STREAMED BLUE</title>
 			<title code="14">PD2_M30.MID : SWITCHED ON "DOLLS"</title>
-			<title code="12">PD2_M11.MID : </title>
+			<title code="12">PD2_M11.MID</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] POWER DoLLS 2 Premium Disk(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -802,7 +802,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS 2 Premium Disk(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -841,7 +841,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS 2 DASH(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -888,7 +888,7 @@
 	<game>
 		<name>[PC-9801] POWER DoLLS 2 DASH(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -931,13 +931,13 @@
 			<title code="14">PD2_M30.MID  : SWITCHED ON "DOLLS"</title>
 			<title code="18">PD2_M80.MID  : NOSTALGIA</title>
 			<title code="19">PD2_M90.MID  : ROLLING STEEL</title>
-			<title code="12">PD2_M11.MID  : </title>
+			<title code="12">PD2_M11.MID</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ADVANCED POWER DoLLS 2(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -980,7 +980,7 @@
 	<game>
 		<name>[PC-9801] ADVANCED POWER DoLLS 2(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1023,7 +1023,7 @@
 	<game>
 		<name>[PC-9801] Schwarzschild 狂嵐の銀河</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x00e4"/>
 			<option name="bootip" value="0x7100"/>
@@ -1049,7 +1049,7 @@
 	<game>
 		<name>[PC-9801] SchwarzschildⅡ 狂嵐の銀河 帝國ノ背信</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x00e4"/>
 			<option name="bootip" value="0x6c00"/>
@@ -1100,7 +1100,7 @@
 	<game>
 		<name>[PC-9801] SchwarzschildⅢ 惑星デスペラン</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="bootcs" value="0x0080"/>
 			<option name="bootip" value="0x3000"/>
@@ -1116,25 +1116,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0000">00-00 : 演奏停止</title>
-			<title code="0x0001">00-01 : </title>
+			<title code="0x0001">00-01</title>
 			<title code="0x0002">00-02 : Theme From Schwarzschild III</title>
 			<title code="0x0201">02-01 : Operation</title>
 			<title code="0x0202">02-02 : War Songs Part.1</title>
 			<title code="0x0203">02-03 : Here Comes The Planets!</title>
-			<title code="0x0204">02-04 : </title>
-			<title code="0x0205">02-05 : </title>
-			<title code="0x0206">02-06 : </title>
+			<title code="0x0204">02-04</title>
+			<title code="0x0205">02-05</title>
+			<title code="0x0206">02-06</title>
 			<title code="0x0207">02-07 : The Dethperant</title>
 			<title code="0x0208">02-08 : War Songs Part.2</title>
-			<title code="0x0209">02-09 : </title>
-			<title code="0x0101">01-01 : </title>
-		<!--	<title code="0x0102">01-02 : </title> -->
+			<title code="0x0209">02-09</title>
+			<title code="0x0101">01-01</title>
+		<!--	<title code="0x0102">01-02</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Schwarzschild IV ～クレイドルエンド～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1198,34 +1198,34 @@
 			<rom type="shell" offset="0">schw4_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">m100.cmd : </title>
-			<title code="12">m101.cmd : </title>
+			<title code="11">m100.cmd</title>
+			<title code="12">m101.cmd</title>
 			<title code="13">m102.cmd : Operation 2</title>
-			<title code="14">m103.cmd : </title>
+			<title code="14">m103.cmd</title>
 			<title code="15">m104.cmd : War Songs Part.3</title>
-			<title code="16">m105.cmd : </title>
-			<title code="17">m106.cmd : </title>
+			<title code="16">m105.cmd</title>
+			<title code="17">m106.cmd</title>
 			<title code="18">m107.cmd : Operation 1</title>
 			<title code="19">m108.cmd : Theme From Schwarzschild IV</title>
-			<title code="20">m109.cmd : </title>
-			<title code="21">m110.cmd : </title>
-			<title code="22">neko.cmd : </title>
-			<title code="23">s407.cmd : </title>
-			<title code="24">s408.cmd : </title>
-			<title code="25">s415.cmd : </title>
-			<title code="26">s422.cmd : </title>
+			<title code="20">m109.cmd</title>
+			<title code="21">m110.cmd</title>
+			<title code="22">neko.cmd</title>
+			<title code="23">s407.cmd</title>
+			<title code="24">s408.cmd</title>
+			<title code="25">s415.cmd</title>
+			<title code="26">s422.cmd</title>
 			<title code="27">s424.cmd : War Songs Part.4</title>
 			<title code="28">s428.cmd : The Cradle End</title>
-			<title code="29">s430.cmd : </title>
-			<title code="30">s431.cmd : </title>
-			<title code="31">s432.cmd : </title>
+			<title code="29">s430.cmd</title>
+			<title code="30">s431.cmd</title>
+			<title code="31">s432.cmd</title>
 			<title code="32">s433.cmd : Ending Theme Of Schwarzschild IV</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] アルギースの翼(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="SHARP X1">工画堂スタジオ</driveralias>
+		<driveralias type="X1">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1268,13 +1268,13 @@
 		<!--	<title code="0x00000005">#05-0 : オープニング</title> -->
 			<title code="0x01000005">#05-1 : エンディング</title>
 			<title code="0x02000005">#05-2 : スタッフロール</title>
-			<title code="0x03000005">#05-3 : </title>
+			<title code="0x03000005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X1] アルギースの翼(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="SHARP X1">工画堂スタジオ</driveralias>
+		<driveralias type="X1">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1316,13 +1316,13 @@
 		<!--	<title code="0x00000005">#05-0 : オープニング</title> -->
 			<title code="0x01000005">#05-1 : エンディング</title>
 			<title code="0x02000005">#05-2 : スタッフロール</title>
-			<title code="0x03000005">#05-3 : </title>
+			<title code="0x03000005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] Schwarzschild 狂嵐の銀河</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">工画堂スタジオ</driveralias>
+		<driveralias type="X68000">工画堂スタジオ</driveralias>
 		<romlist archive="schw68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -1494,9 +1494,9 @@
 			<title code="0x0301">MDATA2.COM:03 : 戦闘のテーマ ～「サイキック・バトル」～</title>
 			<title code="0x0101">MDATA2.COM:01 : レクイエム ～「君よ静かに眠れ」～</title>
 			<title code="0x0802">MDATA3.COM:08 : エンディング ～「新たなる予感」～</title>
-			<title code="0x0902">MDATA3.COM:09 : </title>
+			<title code="0x0902">MDATA3.COM:09</title>
 			<title code="0x0a02">MDATA3.COM:0A : ばんざい! ～「大団円」～</title>
-			<title code="0x0b02">MDATA3.COM:0B : </title>
+			<title code="0x0b02">MDATA3.COM:0B</title>
 			<title code="0x0501">MDATA2.COM:05 : 警報</title>
 		</titlelist>
 	</game>
@@ -1696,7 +1696,7 @@
 	<game>
 		<name>[X68000] Sabnack</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">工画堂スタジオ</driveralias>
+		<driveralias type="X68000">工画堂スタジオ</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="pcm8" value="1"/>

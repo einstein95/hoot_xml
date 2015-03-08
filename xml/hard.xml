@@ -468,14 +468,14 @@
 		<romlist archive="sukeban_98">
 			<rom type="file" offset="-1">EMD.com</rom>
 			<rom type="file" offset="-1">EMD_98.COM</rom>
-			<rom type="file" offset="-1">SUKE10.EMI</rom>
-			<rom type="file" offset="-1">SUKE11.EMI</rom>
-			<rom type="file" offset="-1">SUKE12.EMI</rom>
 			<rom type="file" offset="-1">SUKE4.EMI</rom>
 			<rom type="file" offset="-1">SUKE5.EMI</rom>
 			<rom type="file" offset="-1">SUKE6.EMI</rom>
 			<rom type="file" offset="-1">SUKE8.EMI</rom>
 			<rom type="file" offset="-1">SUKE9.EMI</rom>
+			<rom type="file" offset="-1">SUKE10.EMI</rom>
+			<rom type="file" offset="-1">SUKE11.EMI</rom>
+			<rom type="file" offset="-1">SUKE12.EMI</rom>
 			<rom type="file" offset="-1">SUKECH.EMI</rom>
 			<rom type="file" offset="-1">SUKEI1.EMI</rom>
 			<rom type="file" offset="-1">SUKEI2.EMI</rom>
@@ -823,13 +823,13 @@
 			<rom type="code" offset="0x40000">AYA36.MML</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">AYA31.MML  : MAIN</title>
-			<title code="0x04">AYA32.MML  : HEAVEN</title>
-			<title code="0x05">AYA33.MML  : DEMON1</title>
-			<title code="0x06">AYA34.MML  : CITY</title>
-			<title code="0x07">AYA35.MML  : DEMON2</title>
-			<title code="0x08">AYA355.MML : DEMON2'</title>
-			<title code="0x09">AYA36.MML  : DEMON3</title>
+			<title code="0x02">Main</title>
+			<title code="0x04">Heaven</title>
+			<title code="0x05">Demon 1</title>
+			<title code="0x06">City</title>
+			<title code="0x07">Demon 2</title>
+			<title code="0x08">Demon 2'</title>
+			<title code="0x09">Demon 3</title>
 		</titlelist>
 	</game>
 	<game>
@@ -923,7 +923,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] はっちゃけあやよさん</name>
+		<name>[MSX] Hatchake Ayayo-san (はっちゃけあやよさん)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Hard</driveralias>
 		<options>
@@ -939,12 +939,12 @@
 			<rom type="bgm" offset="0x01">M2.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">M1.COM : </title>
-			<title code="0x0101">M2.COM : </title>
+			<title code="0x0000">M1.COM</title>
+			<title code="0x0101">M2.COM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] はっちゃけあやよさんII ～いけないホリディ～ AYAYO'S LOVE AFFAIR</name>
+		<name>[MSX] Hacchake Ayayo-san 2: Ikenai Holiday ~ Ayayo's Love Affair (はっちゃけあやよさんII ～いけないホリディ～ AYAYO'S LOVE AFFAIR)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Hard</driveralias>
 		<options>
@@ -963,17 +963,17 @@
 			<rom type="bgm" offset="0x04">AYAM.EMI</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">AYAM.EMI : MAIN</title>
-			<title code="0x00">AYA1.EMI : BGMその1</title>
-			<title code="0x01">AYA2.EMI : BGMその2</title>
-			<title code="0x02">AYA3.EMI : BGMその3</title>
-			<title code="0x03">AYA4.EMI : BGMその4</title>
+			<title code="0x04">Main</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 雑学オリンピック わたなべわたる編</name>
+		<name>[MSX2] Zatsugaku Olympic Watanabe Wataru-hen (雑学オリンピック わたなべわたる編)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Hard</driveralias>
+		<driveralias type="MSX2">Hard</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -983,7 +983,7 @@
 			<rom type="code" offset="0xbff9">ONGA2.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">タイトル</title>
+			<title code="0x00">Title (タイトル)</title>
 		</titlelist>
 	</game>
 </gamelist>

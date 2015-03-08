@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 1st ラジカルシークエンス(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -89,7 +89,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 1st ラジカルシークエンス(SPB)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -145,7 +145,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 2nd パンドラの森(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -190,17 +190,17 @@
 			<title code="0x1c">PW14.LSP : 愛の儀式</title>
 			<title code="0x1d">PW16.LSP : フィナーレ</title>
 			<title code="0x1e">PW17.LSP : そして時は流れ僕達は生きていく</title>
-			<title code="0x10">PW01.LSP : </title>
-			<title code="0x17">PW08.LSP : </title>
-			<title code="0x1f">PW90.LSP : </title>
-			<title code="0x20">PW91.LSP : </title>
+			<title code="0x10">PW01.LSP</title>
+			<title code="0x17">PW08.LSP</title>
+			<title code="0x1f">PW90.LSP</title>
+			<title code="0x20">PW91.LSP</title>
 			<title code="0x21">PW99.LSP : わくわくフォア・ナイン</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] GAOGAO! 2nd パンドラの森(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -245,17 +245,17 @@
 			<title code="0x1c">PW14B2.LSP : 愛の儀式</title>
 			<title code="0x1d">PW16B2.LSP : フィナーレ</title>
 			<title code="0x1e">PW17B2.LSP : そして時は流れ僕達は生きていく</title>
-			<title code="0x10">PW01B2.LSP : </title>
-			<title code="0x17">PW08B2.LSP : </title>
-			<title code="0x1f">PW90B2.LSP : </title>
-			<title code="0x20">PW91.LSP   : </title>
+			<title code="0x10">PW01B2.LSP</title>
+			<title code="0x17">PW08B2.LSP</title>
+			<title code="0x1f">PW90B2.LSP</title>
+			<title code="0x20">PW91.LSP</title>
 			<title code="0x21">PW99B2.LSP : わくわくフォア・ナイン</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] GAOGAO! 3rd ワイルドフォース(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -319,7 +319,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 3rd ワイルドフォース(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -383,7 +383,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 3rd ワイルドフォース(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -445,7 +445,7 @@
 	<game>
 		<name>[PC-9801] GAOGAO! 4th カナン ～約束の地～(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -508,14 +508,14 @@
 			<title code="0x25">G421_26.M : Burst of flame</title>
 			<title code="0x26">G422_26.M : いつか、きっと。</title>
 			<title code="0x27">G423_26.M : 約束</title>
-			<title code="0x28">G424_26.M : </title>
+			<title code="0x28">G424_26.M</title>
 			<range min="0x801" max="0x804" extcode="0">SE.EFC    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] GAOGAO! 4th カナン ～約束の地～(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -578,14 +578,14 @@
 			<title code="0x25">G421_86.M : Burst of flame</title>
 			<title code="0x26">G422_86.M : いつか、きっと。</title>
 			<title code="0x27">G423_86.M : 約束</title>
-			<title code="0x28">G424_86.M : </title>
+			<title code="0x28">G424_86.M</title>
 			<range min="0x801" max="0x804" extcode="0">SE.EFC    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] GAOGAO! 4th カナン ～約束の地～(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -647,13 +647,13 @@
 			<title code="0x25">G421_GS.M : Burst of flame</title>
 			<title code="0x26">G422_GS.M : いつか、きっと。</title>
 			<title code="0x27">G423_GS.M : 約束</title>
-			<title code="0x28">G424_GS.M : </title>
+			<title code="0x28">G424_GS.M</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] GAOGAO! オプショナルディスク</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -692,7 +692,7 @@
 		<titlelist>
 			<title code="0x10">PW05.M  : ロイのテーマ</title>
 			<title code="0x11">PW07.M  : ガール☆</title>
-			<title code="0x12">PW08.M  : </title>
+			<title code="0x12">PW08.M</title>
 			<title code="0x13">PW09.M  : センチメンタル</title>
 			<title code="0x14">PW14.M  : 愛の儀式</title>
 			<title code="0x15">PW16.M  : フィナーレ</title>
@@ -719,7 +719,7 @@
 	<game>
 		<name>[PC-9801] えんじぇる☆ないと ～闇夜を翔ける天使たちの物語～(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -772,17 +772,17 @@
 			<title code="0x22">MK019.M : あなたと踊りたい</title>
 			<title code="0x23">MK020.M : ベッドでデート</title>
 			<title code="0x24">MK021.M : 天使の舞う夜</title>
-			<title code="0x10">ASE01.M : </title>
-			<title code="0x11">ASE02.M : </title>
-			<title code="0x12">ASE03.M : </title>
-			<title code="0x13">ASE04.M : </title>
+			<title code="0x10">ASE01.M</title>
+			<title code="0x11">ASE02.M</title>
+			<title code="0x12">ASE03.M</title>
+			<title code="0x13">ASE04.M</title>
 			<range min="0x801" max="0x82A" extcode="0">MSE.EFC : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] えんじぇる☆ないと ～闇夜を翔ける天使たちの物語～(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -835,17 +835,17 @@
 			<title code="0x22">MK019.M2 : あなたと踊りたい</title>
 			<title code="0x23">MK020.M2 : ベッドでデート</title>
 			<title code="0x24">MK021.M2 : 天使の舞う夜</title>
-			<title code="0x10">ASE01.M2 : </title>
-			<title code="0x11">ASE02.M2 : </title>
-			<title code="0x12">ASE03.M2 : </title>
-			<title code="0x13">ASE04.M2 : </title>
+			<title code="0x10">ASE01.M2</title>
+			<title code="0x11">ASE02.M2</title>
+			<title code="0x12">ASE03.M2</title>
+			<title code="0x13">ASE04.M2</title>
 			<range min="0x801" max="0x82A" extcode="0">MSE.EFC  : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] えんじぇる☆ないと ～闇夜を翔ける天使たちの物語～(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -898,16 +898,16 @@
 			<title code="0x22">MK019.MMD : あなたと踊りたい</title>
 			<title code="0x23">MK020.MMD : ベッドでデート</title>
 			<title code="0x24">MK021.MMD : 天使の舞う夜</title>
-			<title code="0x10">ASE01.MMD : </title>
-			<title code="0x11">ASE02.MMD : </title>
-			<title code="0x12">ASE03.MMD : </title>
-			<title code="0x13">ASE04.MMD : </title>
+			<title code="0x10">ASE01.MMD</title>
+			<title code="0x11">ASE02.MMD</title>
+			<title code="0x12">ASE03.MMD</title>
+			<title code="0x13">ASE04.MMD</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ねこまんまEX(BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 		</options>
@@ -1002,56 +1002,56 @@
 			<title code="0x13">BATTLE01.FN1 : バトルその1</title>
 			<title code="0x14">BATTLE02.FN1 : バトルその2</title>
 			<title code="0x15">BATTLE03.FN1 : バトルその3</title>
-			<title code="0x16">BATTLE04.FN1 : </title>
-			<title code="0x38">RPG001.FN1   : </title>
-			<title code="0x39">RPG002.FN1   : </title>
-			<title code="0x3a">RPG003.FN1   : </title>
-			<title code="0x3b">RPG004.FN1   : </title>
-			<title code="0x3c">RPG005.FN1   : </title>
-			<title code="0x3d">RPG006.FN1   : </title>
-			<title code="0x3e">RPG007.FN1   : </title>
-			<title code="0x3f">RPG008.FN1   : </title>
-			<title code="0x40">RPG009.FN1   : </title>
-			<title code="0x41">RPG010.FN1   : </title>
-			<title code="0x42">RPG011.FN1   : </title>
+			<title code="0x16">BATTLE04.FN1</title>
+			<title code="0x38">RPG001.FN1</title>
+			<title code="0x39">RPG002.FN1</title>
+			<title code="0x3a">RPG003.FN1</title>
+			<title code="0x3b">RPG004.FN1</title>
+			<title code="0x3c">RPG005.FN1</title>
+			<title code="0x3d">RPG006.FN1</title>
+			<title code="0x3e">RPG007.FN1</title>
+			<title code="0x3f">RPG008.FN1</title>
+			<title code="0x40">RPG009.FN1</title>
+			<title code="0x41">RPG010.FN1</title>
+			<title code="0x42">RPG011.FN1</title>
 			<title code="0x43">RPG012.FN1   : Tear Drops</title>
-			<title code="0x44">RPG013.FN1   : </title>
+			<title code="0x44">RPG013.FN1</title>
 			<title code="0x45">RPG014.FN1   : 万華鏡の夜</title>
-			<title code="0x46">RPG015.FN1   : </title>
-			<title code="0x47">RPG016.FN1   : </title>
+			<title code="0x46">RPG015.FN1</title>
+			<title code="0x47">RPG016.FN1</title>
 			<title code="0x48">RPG017.FN1   : 精霊の集い(^^;)</title>
-			<title code="0x49">RPG018.FN1   : </title>
-			<title code="0x4a">RPG019.FN1   : </title>
-			<title code="0x4b">RPG020.FN1   : </title>
-			<title code="0x4c">RPG022.FN1   : </title>
+			<title code="0x49">RPG018.FN1</title>
+			<title code="0x4a">RPG019.FN1</title>
+			<title code="0x4b">RPG020.FN1</title>
+			<title code="0x4c">RPG022.FN1</title>
 			<title code="0x4d">RPGCAMP.FN1  : RPGキャンプ</title>
 			<title code="0x1d">KAJA01.FN1   : ???</title>
-			<title code="0x1e">LIX003A.FN1  : </title>
-			<title code="0x1f">LIX005.FN1   : </title>
-			<title code="0x20">LIX006.FN1   : </title>
-			<title code="0x21">LIX007.FN1   : </title>
-			<title code="0x22">LIX008.FN1   : </title>
-			<title code="0x23">LIX010.FN1   : </title>
-			<title code="0x24">LIX011.FN1   : </title>
-			<title code="0x25">LIX012.FN1   : </title>
-			<title code="0x26">LIX013.FN1   : </title>
-			<title code="0x27">LIX016.FN1   : </title>
-			<title code="0x28">LIX017.FN1   : </title>
-			<title code="0x29">LIX019.FN1   : </title>
-			<title code="0x2a">LIX021.FN1   : </title>
-			<title code="0x2b">LIX024.FN1   : </title>
-			<title code="0x2c">LIX029.FN1   : </title>
-			<title code="0x2d">LIX030.FN1   : </title>
-			<title code="0x2e">LIX033.FN1   : </title>
-			<title code="0x32">QNEKO3.FN1   : </title>
-			<title code="0x18">DBF2.FN1     : </title>
+			<title code="0x1e">LIX003A.FN1</title>
+			<title code="0x1f">LIX005.FN1</title>
+			<title code="0x20">LIX006.FN1</title>
+			<title code="0x21">LIX007.FN1</title>
+			<title code="0x22">LIX008.FN1</title>
+			<title code="0x23">LIX010.FN1</title>
+			<title code="0x24">LIX011.FN1</title>
+			<title code="0x25">LIX012.FN1</title>
+			<title code="0x26">LIX013.FN1</title>
+			<title code="0x27">LIX016.FN1</title>
+			<title code="0x28">LIX017.FN1</title>
+			<title code="0x29">LIX019.FN1</title>
+			<title code="0x2a">LIX021.FN1</title>
+			<title code="0x2b">LIX024.FN1</title>
+			<title code="0x2c">LIX029.FN1</title>
+			<title code="0x2d">LIX030.FN1</title>
+			<title code="0x2e">LIX033.FN1</title>
+			<title code="0x32">QNEKO3.FN1</title>
+			<title code="0x18">DBF2.FN1</title>
 			<range min="0x801" max="0x808" extcode="0">GAOT.FN1    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ねこまんまEX(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1147,56 +1147,56 @@
 			<title code="0x13">BATTLE01.FN1 : バトルその1</title>
 			<title code="0x14">BATTLE02.FN1 : バトルその2</title>
 			<title code="0x15">BATTLE03.FN1 : バトルその3</title>
-			<title code="0x16">BATTLE04.FN1 : </title>
-			<title code="0x38">RPG001.FN1   : </title>
-			<title code="0x39">RPG002.FN1   : </title>
-			<title code="0x3a">RPG003.FN1   : </title>
-			<title code="0x3b">RPG004.FN1   : </title>
-			<title code="0x3c">RPG005.FN1   : </title>
-			<title code="0x3d">RPG006.FN1   : </title>
-			<title code="0x3e">RPG007.FN1   : </title>
-			<title code="0x3f">RPG008.FN1   : </title>
-			<title code="0x40">RPG009.FN1   : </title>
-			<title code="0x41">RPG010.FN1   : </title>
-			<title code="0x42">RPG011.FN1   : </title>
+			<title code="0x16">BATTLE04.FN1</title>
+			<title code="0x38">RPG001.FN1</title>
+			<title code="0x39">RPG002.FN1</title>
+			<title code="0x3a">RPG003.FN1</title>
+			<title code="0x3b">RPG004.FN1</title>
+			<title code="0x3c">RPG005.FN1</title>
+			<title code="0x3d">RPG006.FN1</title>
+			<title code="0x3e">RPG007.FN1</title>
+			<title code="0x3f">RPG008.FN1</title>
+			<title code="0x40">RPG009.FN1</title>
+			<title code="0x41">RPG010.FN1</title>
+			<title code="0x42">RPG011.FN1</title>
 			<title code="0x43">RPG012.FN1   : Tear Drops</title>
-			<title code="0x44">RPG013.FN1   : </title>
+			<title code="0x44">RPG013.FN1</title>
 			<title code="0x45">RPG014.FN1   : 万華鏡の夜</title>
-			<title code="0x46">RPG015.FN1   : </title>
-			<title code="0x47">RPG016.FN1   : </title>
+			<title code="0x46">RPG015.FN1</title>
+			<title code="0x47">RPG016.FN1</title>
 			<title code="0x48">RPG017.FN1   : 精霊の集い(^^;)</title>
-			<title code="0x49">RPG018.FN1   : </title>
-			<title code="0x4a">RPG019.FN1   : </title>
-			<title code="0x4b">RPG020.FN1   : </title>
-			<title code="0x4c">RPG022.FN1   : </title>
+			<title code="0x49">RPG018.FN1</title>
+			<title code="0x4a">RPG019.FN1</title>
+			<title code="0x4b">RPG020.FN1</title>
+			<title code="0x4c">RPG022.FN1</title>
 			<title code="0x4d">RPGCAMP.FN1  : RPGキャンプ</title>
 			<title code="0x1d">KAJA01.FN1   : ???</title>
-			<title code="0x1e">LIX003A.FN1  : </title>
-			<title code="0x1f">LIX005.FN1   : </title>
-			<title code="0x20">LIX006.FN1   : </title>
-			<title code="0x21">LIX007.FN1   : </title>
-			<title code="0x22">LIX008.FN1   : </title>
-			<title code="0x23">LIX010.FN1   : </title>
-			<title code="0x24">LIX011.FN1   : </title>
-			<title code="0x25">LIX012.FN1   : </title>
-			<title code="0x26">LIX013.FN1   : </title>
-			<title code="0x27">LIX016.FN1   : </title>
-			<title code="0x28">LIX017.FN1   : </title>
-			<title code="0x29">LIX019.FN1   : </title>
-			<title code="0x2a">LIX021.FN1   : </title>
-			<title code="0x2b">LIX024.FN1   : </title>
-			<title code="0x2c">LIX029.FN1   : </title>
-			<title code="0x2d">LIX030.FN1   : </title>
-			<title code="0x2e">LIX033.FN1   : </title>
-			<title code="0x32">QNEKO3.FN1   : </title>
-			<title code="0x18">DBF2.FN1     : </title>
+			<title code="0x1e">LIX003A.FN1</title>
+			<title code="0x1f">LIX005.FN1</title>
+			<title code="0x20">LIX006.FN1</title>
+			<title code="0x21">LIX007.FN1</title>
+			<title code="0x22">LIX008.FN1</title>
+			<title code="0x23">LIX010.FN1</title>
+			<title code="0x24">LIX011.FN1</title>
+			<title code="0x25">LIX012.FN1</title>
+			<title code="0x26">LIX013.FN1</title>
+			<title code="0x27">LIX016.FN1</title>
+			<title code="0x28">LIX017.FN1</title>
+			<title code="0x29">LIX019.FN1</title>
+			<title code="0x2a">LIX021.FN1</title>
+			<title code="0x2b">LIX024.FN1</title>
+			<title code="0x2c">LIX029.FN1</title>
+			<title code="0x2d">LIX030.FN1</title>
+			<title code="0x2e">LIX033.FN1</title>
+			<title code="0x32">QNEKO3.FN1</title>
+			<title code="0x18">DBF2.FN1</title>
 			<range min="0x801" max="0x808" extcode="0">GAOT.FN1    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ねこまんまEX(OPNA)</name>
 		<driver type="86">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1292,56 +1292,56 @@
 			<title code="0x13">BATTLE01.FN1 : バトルその1</title>
 			<title code="0x14">BATTLE02.FN1 : バトルその2</title>
 			<title code="0x15">BATTLE03.FN1 : バトルその3</title>
-			<title code="0x16">BATTLE04.FN1 : </title>
-			<title code="0x38">RPG001.FN1   : </title>
-			<title code="0x39">RPG002.FN1   : </title>
-			<title code="0x3a">RPG003.FN1   : </title>
-			<title code="0x3b">RPG004.FN1   : </title>
-			<title code="0x3c">RPG005.FN1   : </title>
-			<title code="0x3d">RPG006.FN1   : </title>
-			<title code="0x3e">RPG007.FN1   : </title>
-			<title code="0x3f">RPG008.FN1   : </title>
-			<title code="0x40">RPG009.FN1   : </title>
-			<title code="0x41">RPG010.FN1   : </title>
-			<title code="0x42">RPG011.FN1   : </title>
+			<title code="0x16">BATTLE04.FN1</title>
+			<title code="0x38">RPG001.FN1</title>
+			<title code="0x39">RPG002.FN1</title>
+			<title code="0x3a">RPG003.FN1</title>
+			<title code="0x3b">RPG004.FN1</title>
+			<title code="0x3c">RPG005.FN1</title>
+			<title code="0x3d">RPG006.FN1</title>
+			<title code="0x3e">RPG007.FN1</title>
+			<title code="0x3f">RPG008.FN1</title>
+			<title code="0x40">RPG009.FN1</title>
+			<title code="0x41">RPG010.FN1</title>
+			<title code="0x42">RPG011.FN1</title>
 			<title code="0x43">RPG012.FN1   : Tear Drops</title>
-			<title code="0x44">RPG013.FN1   : </title>
+			<title code="0x44">RPG013.FN1</title>
 			<title code="0x45">RPG014.FN1   : 万華鏡の夜</title>
-			<title code="0x46">RPG015.FN1   : </title>
-			<title code="0x47">RPG016.FN1   : </title>
+			<title code="0x46">RPG015.FN1</title>
+			<title code="0x47">RPG016.FN1</title>
 			<title code="0x48">RPG017.FN1   : 精霊の集い(^^;)</title>
-			<title code="0x49">RPG018.FN1   : </title>
-			<title code="0x4a">RPG019.FN1   : </title>
-			<title code="0x4b">RPG020.FN1   : </title>
-			<title code="0x4c">RPG022.FN1   : </title>
+			<title code="0x49">RPG018.FN1</title>
+			<title code="0x4a">RPG019.FN1</title>
+			<title code="0x4b">RPG020.FN1</title>
+			<title code="0x4c">RPG022.FN1</title>
 			<title code="0x4d">RPGCAMP.FN1  : RPGキャンプ</title>
 			<title code="0x1d">KAJA01.FN1   : ???</title>
-			<title code="0x1e">LIX003A.FN1  : </title>
-			<title code="0x1f">LIX005.FN1   : </title>
-			<title code="0x20">LIX006.FN1   : </title>
-			<title code="0x21">LIX007.FN1   : </title>
-			<title code="0x22">LIX008.FN1   : </title>
-			<title code="0x23">LIX010.FN1   : </title>
-			<title code="0x24">LIX011.FN1   : </title>
-			<title code="0x25">LIX012.FN1   : </title>
-			<title code="0x26">LIX013.FN1   : </title>
-			<title code="0x27">LIX016.FN1   : </title>
-			<title code="0x28">LIX017.FN1   : </title>
-			<title code="0x29">LIX019.FN1   : </title>
-			<title code="0x2a">LIX021.FN1   : </title>
-			<title code="0x2b">LIX024.FN1   : </title>
-			<title code="0x2c">LIX029.FN1   : </title>
-			<title code="0x2d">LIX030.FN1   : </title>
-			<title code="0x2e">LIX033.FN1   : </title>
-			<title code="0x32">QNEKO3.FN1   : </title>
-			<title code="0x18">DBF2.FN1     : </title>
+			<title code="0x1e">LIX003A.FN1</title>
+			<title code="0x1f">LIX005.FN1</title>
+			<title code="0x20">LIX006.FN1</title>
+			<title code="0x21">LIX007.FN1</title>
+			<title code="0x22">LIX008.FN1</title>
+			<title code="0x23">LIX010.FN1</title>
+			<title code="0x24">LIX011.FN1</title>
+			<title code="0x25">LIX012.FN1</title>
+			<title code="0x26">LIX013.FN1</title>
+			<title code="0x27">LIX016.FN1</title>
+			<title code="0x28">LIX017.FN1</title>
+			<title code="0x29">LIX019.FN1</title>
+			<title code="0x2a">LIX021.FN1</title>
+			<title code="0x2b">LIX024.FN1</title>
+			<title code="0x2c">LIX029.FN1</title>
+			<title code="0x2d">LIX030.FN1</title>
+			<title code="0x2e">LIX033.FN1</title>
+			<title code="0x32">QNEKO3.FN1</title>
+			<title code="0x18">DBF2.FN1</title>
 			<range min="0x801" max="0x808" extcode="0">GAOT.FN1    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] ねこまんまEX(SPB)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1481,56 +1481,56 @@
 			<title code="0x13">BATTLE01.FN1 : バトルその1</title>
 			<title code="0x14">BATTLE02.FN1 : バトルその2</title>
 			<title code="0x15">BATTLE03.FN1 : バトルその3</title>
-			<!-- <title code="0x16">BATTLE04.FN1 : </title> -->
-			<title code="0x38">RPG001.FN1   : </title>
-			<title code="0x39">RPG002.FN1   : </title>
-			<title code="0x3a">RPG003.FN1   : </title>
-			<title code="0x3b">RPG004.FN1   : </title>
-			<title code="0x3c">RPG005.FN1   : </title>
-			<title code="0x3d">RPG006.FN1   : </title>
-			<title code="0x3e">RPG007.FN1   : </title>
-			<title code="0x3f">RPG008.FN1   : </title>
-			<title code="0x40">RPG009.FN1   : </title>
-			<title code="0x41">RPG010.FN1   : </title>
-			<title code="0x42">RPG011.FN1   : </title>
+			<!-- <title code="0x16">BATTLE04.FN1</title> -->
+			<title code="0x38">RPG001.FN1</title>
+			<title code="0x39">RPG002.FN1</title>
+			<title code="0x3a">RPG003.FN1</title>
+			<title code="0x3b">RPG004.FN1</title>
+			<title code="0x3c">RPG005.FN1</title>
+			<title code="0x3d">RPG006.FN1</title>
+			<title code="0x3e">RPG007.FN1</title>
+			<title code="0x3f">RPG008.FN1</title>
+			<title code="0x40">RPG009.FN1</title>
+			<title code="0x41">RPG010.FN1</title>
+			<title code="0x42">RPG011.FN1</title>
 			<title code="0x43">RPG012.FN1   : Tear Drops</title>
-			<title code="0x44">RPG013.FN1   : </title>
+			<title code="0x44">RPG013.FN1</title>
 			<title code="0x45">RPG014.FN1   : 万華鏡の夜</title>
-			<title code="0x46">RPG015.FN1   : </title>
-			<title code="0x47">RPG016.FN1   : </title>
+			<title code="0x46">RPG015.FN1</title>
+			<title code="0x47">RPG016.FN1</title>
 			<title code="0x48">RPG017.FN1   : 精霊の集い(^^;)</title>
-			<title code="0x49">RPG018.FN1   : </title>
-			<!-- <title code="0x4a">RPG019.FN1   : </title> -->
-			<title code="0x4b">RPG020.FN1   : </title>
-			<title code="0x4c">RPG022.FN1   : </title>
+			<title code="0x49">RPG018.FN1</title>
+			<!-- <title code="0x4a">RPG019.FN1</title> -->
+			<title code="0x4b">RPG020.FN1</title>
+			<title code="0x4c">RPG022.FN1</title>
 			<title code="0x4d">RPGCAMP.FN1  : RPGキャンプ</title>
 			<title code="0x1d">KAJA01.FN1   : ???</title>
-			<title code="0x1e">LIX003A.FN1  : </title>
-			<title code="0x1f">LIX005.FN1   : </title>
-			<title code="0x20">LIX006.FN1   : </title>
-			<title code="0x21">LIX007.FN1   : </title>
-			<title code="0x22">LIX008.FN1   : </title>
-			<title code="0x23">LIX010.FN1   : </title>
-			<title code="0x24">LIX011.FN1   : </title>
-			<title code="0x25">LIX012.FN1   : </title>
-			<title code="0x26">LIX013.FN1   : </title>
-			<title code="0x27">LIX016.FN1   : </title>
-			<title code="0x28">LIX017.FN1   : </title>
-			<title code="0x29">LIX019.FN1   : </title>
-			<title code="0x2a">LIX021.FN1   : </title>
-			<title code="0x2b">LIX024.FN1   : </title>
-			<title code="0x2c">LIX029.FN1   : </title>
-			<title code="0x2d">LIX030.FN1   : </title>
-			<title code="0x2e">LIX033.FN1   : </title>
-			<title code="0x32">QNEKO3.FN1   : </title>
-			<title code="0x18">DBF2.FN1     : </title>
+			<title code="0x1e">LIX003A.FN1</title>
+			<title code="0x1f">LIX005.FN1</title>
+			<title code="0x20">LIX006.FN1</title>
+			<title code="0x21">LIX007.FN1</title>
+			<title code="0x22">LIX008.FN1</title>
+			<title code="0x23">LIX010.FN1</title>
+			<title code="0x24">LIX011.FN1</title>
+			<title code="0x25">LIX012.FN1</title>
+			<title code="0x26">LIX013.FN1</title>
+			<title code="0x27">LIX016.FN1</title>
+			<title code="0x28">LIX017.FN1</title>
+			<title code="0x29">LIX019.FN1</title>
+			<title code="0x2a">LIX021.FN1</title>
+			<title code="0x2b">LIX024.FN1</title>
+			<title code="0x2c">LIX029.FN1</title>
+			<title code="0x2d">LIX030.FN1</title>
+			<title code="0x2e">LIX033.FN1</title>
+			<title code="0x32">QNEKO3.FN1</title>
+			<title code="0x18">DBF2.FN1</title>
 			<range min="0x801" max="0x808" extcode="0">GAOT.FN1    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! ～式神伝承～(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1579,15 +1579,15 @@
 			<title code="0x1e">WMPN16.LSP : 敗北</title>
 			<title code="0x1f">WMPN17.LSP : 予感</title>
 			<title code="0x22">WMPN21.LSP : わくわくフォア・ナイン</title>
-			<title code="0x20">WMPN18.LSP : </title>
-			<title code="0x21">WMPN20.LSP : </title>
+			<title code="0x20">WMPN18.LSP</title>
+			<title code="0x21">WMPN20.LSP</title>
 			<range min="0x801" max="0x809" extcode="0">MSE.EFC    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! ～式神伝承～(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1636,15 +1636,15 @@
 			<title code="0x1e">WMPB16.LSP : 敗北</title>
 			<title code="0x1f">WMPB17.LSP : 予感</title>
 			<title code="0x22">WMPN21.LSP : わくわくフォア・ナイン</title>
-			<title code="0x20">WMPB18.LSP : </title>
-			<title code="0x21">WMPB20.LSP : </title>
+			<title code="0x20">WMPB18.LSP</title>
+			<title code="0x21">WMPB20.LSP</title>
 			<range min="0x801" max="0x809" extcode="0">MSE.EFC    : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! ～式神伝承～(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -1698,7 +1698,7 @@
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! 2 ～刻視夢想～(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1756,14 +1756,14 @@
 			<title code="0x23">N20.M   : 勝者への贈り物</title>
 			<title code="0x24">N21.M   : 式神使い阿部雀悟</title>
 			<title code="0x25">N22.M   : わくわくフォア・ナイン</title>
-			<title code="0x26">N30.M   : </title>
+			<title code="0x26">N30.M</title>
 			<range min="0x801" max="0x832" extcode="1">MSE.EFC : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! 2 ～刻視夢想～(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1821,14 +1821,14 @@
 			<title code="0x23">B20.M   : 勝者への贈り物</title>
 			<title code="0x24">B21.M   : 式神使い阿部雀悟</title>
 			<title code="0x25">B22.M   : わくわくフォア・ナイン</title>
-			<title code="0x26">B30.M   : </title>
+			<title code="0x26">B30.M</title>
 			<range min="0x801" max="0x832" extcode="0">MSE.EFC : %02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] わくわく麻雀パニック! 2 ～刻視夢想～(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -1892,7 +1892,7 @@
 	<game>
 		<name>[PC-9801] ナイトシフター(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1949,7 +1949,7 @@
 	<game>
 		<name>[PC-9801] ナイトシフター(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -2006,7 +2006,7 @@
 	<game>
 		<name>[PC-9801] リクサス</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2093,22 +2093,22 @@
 			<title code="0x30">LIX030.MLO  : ねむたくなるのぅ</title>
 			<title code="0x31">LIX031.MLO  : 「暁のプレリュード」</title>
 			<title code="0x32">LIX032.MLO  : キャンプ、キャンプ～</title>
-			<title code="0x2c">LIX026D.MLO : </title>
-			<title code="0x33">LIX033.MLO  : </title>
-			<title code="0x34">LIX286.MLO  : </title>
-			<title code="0x35">LIX700.MLO  : </title>
-			<title code="0x36">LIX985.MLO  : </title>
-			<title code="0x37">LIX985B.MLO : </title>
-			<title code="0x38">LIX986.MLO  : </title>
-			<title code="0x39">LIX987.MLO  : </title>
-			<title code="0x3a">LIX988A.MLO : </title>
-			<title code="0x3b">LIX988B.MLO : </title>
+			<title code="0x2c">LIX026D.MLO</title>
+			<title code="0x33">LIX033.MLO</title>
+			<title code="0x34">LIX286.MLO</title>
+			<title code="0x35">LIX700.MLO</title>
+			<title code="0x36">LIX985.MLO</title>
+			<title code="0x37">LIX985B.MLO</title>
+			<title code="0x38">LIX986.MLO</title>
+			<title code="0x39">LIX987.MLO</title>
+			<title code="0x3a">LIX988A.MLO</title>
+			<title code="0x3b">LIX988B.MLO</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] リリス(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -2155,14 +2155,14 @@
 			<title code="0x1d">N15.M  : FIGHT</title>
 			<title code="0x1e">N16.M  : FIELD3</title>
 			<title code="0x1f">N17.M  : FIELD4</title>
-			<title code="0x20">N18.M  : </title>
+			<title code="0x20">N18.M</title>
 			<range min="0x801" max="0x824" extcode="1">SE.EFC : %2X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] リリス(OPNA)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -2208,14 +2208,14 @@
 			<title code="0x1d">B15.M  : FIGHT</title>
 			<title code="0x1e">B16.M  : FIELD3</title>
 			<title code="0x1f">B17.M  : FIELD4</title>
-			<title code="0x20">B18.M  : </title>
+			<title code="0x20">B18.M</title>
 			<range min="0x801" max="0x824" extcode="1">SE.EFC : %2X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] リリス(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Four･Nine</driveralias>
+		<driveralias type="PC-9801">Four･Nine</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="midiout" value="1"/>
@@ -2261,7 +2261,7 @@
 			<title code="0x1d">G15.M : FIGHT</title>
 			<title code="0x1e">G16.M : FIELD3</title>
 			<title code="0x1f">G17.M : FIELD4</title>
-			<title code="0x20">G18.M : </title>
+			<title code="0x20">G18.M</title>
 		</titlelist>
 	</game>
 </gamelist>

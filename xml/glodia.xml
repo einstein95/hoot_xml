@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] Testament</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="init_pc"    value="0xf000"/>
 			<option name="mdata_addr" value="0x4c00"/>
@@ -131,7 +131,7 @@
 	<game>
 		<name>[PC-8801] ZAVAS</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x2100"/>
@@ -283,7 +283,7 @@
 	<game>
 		<name>[PC-9801] ZAVAS</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -352,7 +352,7 @@
 	<game>
 		<name>[PC-8801] EMERALD DRAGON(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x3100"/>
@@ -441,13 +441,13 @@
 			<title code="0x00000002">BGM4   : テスタメント BGM2</title>
 			<title code="0x00000003">BIG    : テスタメント BOSS</title>
 			<title code="0x80000004">BIGDEA : 効果音</title>
-			<title code="0x0000000d">EMBGOP : </title>
-			<title code="0x80000010">EMEF1  : </title>
-			<title code="0x00000020">EMSHP3 : </title>
-			<title code="0x00000022">EMVI01 : </title>
-			<title code="0x00000025">EMVI04 : </title>
-			<title code="0x00000027">EMVI07 : </title>
-			<title code="0x8000002c">FAN1   : </title>
+			<title code="0x0000000d">EMBGOP</title>
+			<title code="0x80000010">EMEF1</title>
+			<title code="0x00000020">EMSHP3</title>
+			<title code="0x00000022">EMVI01</title>
+			<title code="0x00000025">EMVI04</title>
+			<title code="0x00000027">EMVI07</title>
+			<title code="0x8000002c">FAN1</title>
 			<title code="0x80000019">EMOPA  : (OPN) オープニング 序曲</title>
 			<title code="0x8000001a">EMOPB  : (OPN) オープニング 天変地異</title>
 			<title code="0x00000001">AMOPX  : (OPN) オープニング 回想1</title>
@@ -486,7 +486,7 @@
 	<game>
 		<name>[PC-8801] EMERALD DRAGON(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x3100"/>
@@ -574,13 +574,13 @@
 			<title code="0x00000002">BGM4   : テスタメント BGM2</title>
 			<title code="0x00000003">BIG    : テスタメント BOSS</title>
 			<title code="0x80000004">BIGDEA : 効果音</title>
-			<title code="0x0000000d">EMBGOP : </title>
-			<title code="0x80000010">EMEF1  : </title>
-			<title code="0x00000020">EMSHP3 : </title>
-			<title code="0x00000022">EMVI01 : </title>
-			<title code="0x00000025">EMVI04 : </title>
-			<title code="0x00000027">EMVI07 : </title>
-			<title code="0x8000002c">FAN1   : </title>
+			<title code="0x0000000d">EMBGOP</title>
+			<title code="0x80000010">EMEF1</title>
+			<title code="0x00000020">EMSHP3</title>
+			<title code="0x00000022">EMVI01</title>
+			<title code="0x00000025">EMVI04</title>
+			<title code="0x00000027">EMVI07</title>
+			<title code="0x8000002c">FAN1</title>
 			<title code="0x000000ff">EFFECT : 00</title>
 			<title code="0x010000ff">EFFECT : 01</title>
 			<title code="0x020000ff">EFFECT : 02</title>
@@ -611,7 +611,7 @@
 	<game>
 		<name>[PC-8801] EMERALD DRAGON Music Disk(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x3100"/>
@@ -697,16 +697,16 @@
 			<title code="0x00000013">EMFITC : 戦闘2</title>
 			<title code="0x00000012">EMFITB : 戦闘3</title>
 			<title code="0x8000000e">EMED6A : (OPNA) エンディング</title>
-			<title code="0x00000026">EMVI04 : </title>
-			<title code="0x00000006">EMBG07 : </title>
-			<title code="0x00000007">EMBG08 : </title>
-			<title code="0x00000008">EMBG09 : </title>
-			<title code="0x0000000d">EMBGOP : </title>
-			<title code="0x80000010">EMEF1  : </title>
-			<title code="0x00000011">EMFITA : </title>
-			<title code="0x00000023">EMVI01 : </title>
-			<title code="0x00000028">EMVI07 : </title>
-			<title code="0x0000002d">EMVI64 : </title>
+			<title code="0x00000026">EMVI04</title>
+			<title code="0x00000006">EMBG07</title>
+			<title code="0x00000007">EMBG08</title>
+			<title code="0x00000008">EMBG09</title>
+			<title code="0x0000000d">EMBGOP</title>
+			<title code="0x80000010">EMEF1</title>
+			<title code="0x00000011">EMFITA</title>
+			<title code="0x00000023">EMVI01</title>
+			<title code="0x00000028">EMVI07</title>
+			<title code="0x0000002d">EMVI64</title>
 			<title code="0x8000001a">EMOPA  : (OPN) オープニング 序曲</title>
 			<title code="0x8000001b">EMOPB  : (OPN) オープニング 天変地異</title>
 			<title code="0x00000001">AMOPX  : (OPN) オープニング 回想1</title>
@@ -719,7 +719,7 @@
 	<game>
 		<name>[PC-8801] EMERALD DRAGON Music Disk(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x3100"/>
@@ -805,22 +805,22 @@
 			<title code="0x00000013">EMFITC : 戦闘2</title>
 			<title code="0x00000012">EMFITB : 戦闘3</title>
 			<title code="0x8000000f">EMEDA  : エンディング</title>
-			<title code="0x00000026">EMVI04 : </title>
-			<title code="0x00000006">EMBG07 : </title>
-			<title code="0x00000007">EMBG08 : </title>
-			<title code="0x00000008">EMBG09 : </title>
-			<title code="0x0000000d">EMBGOP : </title>
-			<title code="0x80000010">EMEF1  : </title>
-			<title code="0x00000011">EMFITA : </title>
-			<title code="0x00000023">EMVI01 : </title>
-			<title code="0x00000028">EMVI07 : </title>
-		<!--	<title code="0x0000002d">EMVI64 : </title> -->
+			<title code="0x00000026">EMVI04</title>
+			<title code="0x00000006">EMBG07</title>
+			<title code="0x00000007">EMBG08</title>
+			<title code="0x00000008">EMBG09</title>
+			<title code="0x0000000d">EMBGOP</title>
+			<title code="0x80000010">EMEF1</title>
+			<title code="0x00000011">EMFITA</title>
+			<title code="0x00000023">EMVI01</title>
+			<title code="0x00000028">EMVI07</title>
+		<!--	<title code="0x0000002d">EMVI64</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] EMERALD DRAGON</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -905,23 +905,23 @@
 			<title code="0x80000e">EMEDA.S  : エンディング</title>
 			<title code="0x00000d">EMBGOP.S : メインテーマ (BGMバージョン)</title>
 			<title code="0x000010">EMFITA.S : 隠しデモ曲</title>
-			<title code="0x00001b">EMSHP3.S : </title>
-			<title code="0x00001d">EMVI01.S : </title>
-			<title code="0x000020">EMVI04.S : </title>
-			<title code="0x000022">EMVI07.S : </title>
+			<title code="0x00001b">EMSHP3.S</title>
+			<title code="0x00001d">EMVI01.S</title>
+			<title code="0x000020">EMVI04.S</title>
+			<title code="0x000022">EMVI07.S</title>
 			<title code="0x800028">FAN1.S   : ファンファーレ1</title>
 			<title code="0x800029">FAN3.S   : ファンファーレ2</title>
 			<title code="0x80000f">EMEF1.S  : ジングル</title>
 			<title code="0x000002">BGM4.S   : テスタメント BGM2</title>
 			<title code="0x000003">BGM5.S   : テスタメント LSP &amp; RSP</title>
 			<title code="0x000004">BIG.S    : テスタメント BOSS</title>
-		<!--	<title code="0x000027">EMVI64.S : </title> -->
+		<!--	<title code="0x000027">EMVI64.S</title> -->
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] Vain Dream(OPNA)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 			<option name="mdata_size" value="0x2800"/>
@@ -1071,7 +1071,7 @@
 	<game>
 		<name>[PC-8801] Vain Dream(OPN)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GLODIA</driveralias>
+		<driveralias type="PC-8801">GLODIA</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 			<option name="mdata_size" value="0x2800"/>
@@ -1217,7 +1217,7 @@
 	<game>
 		<name>[PC-9801] Vain Dream</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x4800"/>
@@ -1332,11 +1332,11 @@
 			<title code="0x00001d">VAVI23.S : 決戦のボレロ</title>
 			<title code="0x000010">VAEF05.S : 結末</title>
 			<title code="0x800017">VAHP3.S  : エンディング</title>
-			<title code="0x000016">VAEF12.S : </title>
-			<title code="0x00001b">VAVI20.S : </title>
-			<title code="0x00001c">VAVI22.S : </title>
-			<title code="0x000025">VNDO01.S : </title>
-			<title code="0x00002c">VNTW07.S : </title>
+			<title code="0x000016">VAEF12.S</title>
+			<title code="0x00001b">VAVI20.S</title>
+			<title code="0x00001c">VAVI22.S</title>
+			<title code="0x000025">VNDO01.S</title>
+			<title code="0x00002c">VNTW07.S</title>
 		<!--	<title code="0x000021">VD007.S  : オープニング2</title> -->
 		<!--	<title code="0x000006">RAOPD6.S : (OPNA) オープニング1</title> -->
 		<!--	<title code="0x00002f">VOPE6U.S : (OPNA) オープニング2</title> -->
@@ -1346,7 +1346,7 @@
 	<game>
 		<name>[PC-9801] Vain Dream II</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x9e00"/>
@@ -1457,7 +1457,7 @@
 	<game>
 		<name>[PC-9801] BIBLE MASTER</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x1000"/>
 			<option name="bootip"   value="0xf000"/>
@@ -1526,7 +1526,7 @@
 	<game>
 		<name>[PC-9801] ZAVAS II メヒテの大予言(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1625,7 +1625,7 @@
 		<name>[PC-9801] ZAVAS II メヒテの大予言(SC-55)</name>
 		<!-- GS/GM音源対応 -->
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
@@ -1725,7 +1725,7 @@
 	<game>
 		<name>[PC-9801] DIFFERENT REALM -久遠の賢者-(OPNA)</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1806,7 +1806,7 @@
 	<game>
 		<name>[PC-9801] DIFFERENT REALM -久遠の賢者-(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1887,7 +1887,7 @@
 	<game>
 		<name>[PC-9801] DIFFERENT REALM -久遠の賢者-(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -1968,7 +1968,7 @@
 	<game>
 		<name>[PC-9801] アルヴァリーク冒険記(OPNA)</name>
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2106,46 +2106,46 @@
 			<title code="0x000029">ALVA40.MIV : 帝国の出現</title>
 			<title code="0x00002a">ALVA41.MIV : そして、平和の訪れ</title>
 			<title code="0x00002b">ALVA42.MIV : 愛のテーマ</title>
-			<title code="0x000031">ALVA00.PCM : </title>
-			<title code="0x000032">ALVA01.PCM : </title>
-			<title code="0x000033">ALVA02.PCM : </title>
-			<title code="0x000034">ALVA03.PCM : </title>
-			<title code="0x000035">ALVA04.PCM : </title>
-			<title code="0x000036">ALVA05.PCM : </title>
-			<title code="0x000037">ALVA06.PCM : </title>
-			<title code="0x000038">ALVA07.PCM : </title>
-			<title code="0x000039">ALVA08.PCM : </title>
-			<title code="0x00003a">ALVA09.PCM : </title>
-			<title code="0x00003b">ALVA10.PCM : </title>
-			<title code="0x00003c">ALVA11.PCM : </title>
-			<title code="0x00003d">ALVA12.PCM : </title>
-			<title code="0x00003e">ALVA13.PCM : </title>
-			<title code="0x00003f">ALVA14.PCM : </title>
-			<title code="0x000040">ALVA15.PCM : </title>
-			<title code="0x000041">ALVA16.PCM : </title>
-			<title code="0x000042">ALVA17.PCM : </title>
-			<title code="0x000043">ALVA18.PCM : </title>
-			<title code="0x000044">ALVA19.PCM : </title>
-			<title code="0x000045">ALVA20.PCM : </title>
-			<title code="0x000046">ALVA21.PCM : </title>
-			<title code="0x000047">ALVA22.PCM : </title>
-			<title code="0x000048">ALVA23.PCM : </title>
-			<title code="0x000049">ALVA24.PCM : </title>
-			<title code="0x00004a">ALVA25.PCM : </title>
-			<title code="0x00004b">ALVA26.PCM : </title>
-			<title code="0x00004c">ALVA27.PCM : </title>
-			<title code="0x00004d">ALVA28.PCM : </title>
-			<title code="0x00004e">ALVA29.PCM : </title>
-			<title code="0x00004f">ALVA30.PCM : </title>
-			<title code="0x000050">ALVA31.PCM : </title>
-			<title code="0x000051">ALVA32.PCM : </title>
-			<title code="0x000052">ALVA33.PCM : </title>
+			<title code="0x000031">ALVA00.PCM</title>
+			<title code="0x000032">ALVA01.PCM</title>
+			<title code="0x000033">ALVA02.PCM</title>
+			<title code="0x000034">ALVA03.PCM</title>
+			<title code="0x000035">ALVA04.PCM</title>
+			<title code="0x000036">ALVA05.PCM</title>
+			<title code="0x000037">ALVA06.PCM</title>
+			<title code="0x000038">ALVA07.PCM</title>
+			<title code="0x000039">ALVA08.PCM</title>
+			<title code="0x00003a">ALVA09.PCM</title>
+			<title code="0x00003b">ALVA10.PCM</title>
+			<title code="0x00003c">ALVA11.PCM</title>
+			<title code="0x00003d">ALVA12.PCM</title>
+			<title code="0x00003e">ALVA13.PCM</title>
+			<title code="0x00003f">ALVA14.PCM</title>
+			<title code="0x000040">ALVA15.PCM</title>
+			<title code="0x000041">ALVA16.PCM</title>
+			<title code="0x000042">ALVA17.PCM</title>
+			<title code="0x000043">ALVA18.PCM</title>
+			<title code="0x000044">ALVA19.PCM</title>
+			<title code="0x000045">ALVA20.PCM</title>
+			<title code="0x000046">ALVA21.PCM</title>
+			<title code="0x000047">ALVA22.PCM</title>
+			<title code="0x000048">ALVA23.PCM</title>
+			<title code="0x000049">ALVA24.PCM</title>
+			<title code="0x00004a">ALVA25.PCM</title>
+			<title code="0x00004b">ALVA26.PCM</title>
+			<title code="0x00004c">ALVA27.PCM</title>
+			<title code="0x00004d">ALVA28.PCM</title>
+			<title code="0x00004e">ALVA29.PCM</title>
+			<title code="0x00004f">ALVA30.PCM</title>
+			<title code="0x000050">ALVA31.PCM</title>
+			<title code="0x000051">ALVA32.PCM</title>
+			<title code="0x000052">ALVA33.PCM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アルヴァリーク冒険記(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2283,46 +2283,46 @@
 			<title code="0x000029">ALVA40.MIV : 帝国の出現</title>
 			<title code="0x00002a">ALVA41.MIV : そして、平和の訪れ</title>
 			<title code="0x00002b">ALVA42.MIV : 愛のテーマ</title>
-			<title code="0x000031">ALVA00.PCM : </title>
-			<title code="0x000032">ALVA01.PCM : </title>
-			<title code="0x000033">ALVA02.PCM : </title>
-			<title code="0x000034">ALVA03.PCM : </title>
-			<title code="0x000035">ALVA04.PCM : </title>
-			<title code="0x000036">ALVA05.PCM : </title>
-			<title code="0x000037">ALVA06.PCM : </title>
-			<title code="0x000038">ALVA07.PCM : </title>
-			<title code="0x000039">ALVA08.PCM : </title>
-			<title code="0x00003a">ALVA09.PCM : </title>
-			<title code="0x00003b">ALVA10.PCM : </title>
-			<title code="0x00003c">ALVA11.PCM : </title>
-			<title code="0x00003d">ALVA12.PCM : </title>
-			<title code="0x00003e">ALVA13.PCM : </title>
-			<title code="0x00003f">ALVA14.PCM : </title>
-			<title code="0x000040">ALVA15.PCM : </title>
-			<title code="0x000041">ALVA16.PCM : </title>
-			<title code="0x000042">ALVA17.PCM : </title>
-			<title code="0x000043">ALVA18.PCM : </title>
-			<title code="0x000044">ALVA19.PCM : </title>
-			<title code="0x000045">ALVA20.PCM : </title>
-			<title code="0x000046">ALVA21.PCM : </title>
-			<title code="0x000047">ALVA22.PCM : </title>
-			<title code="0x000048">ALVA23.PCM : </title>
-			<title code="0x000049">ALVA24.PCM : </title>
-			<title code="0x00004a">ALVA25.PCM : </title>
-			<title code="0x00004b">ALVA26.PCM : </title>
-			<title code="0x00004c">ALVA27.PCM : </title>
-			<title code="0x00004d">ALVA28.PCM : </title>
-			<title code="0x00004e">ALVA29.PCM : </title>
-			<title code="0x00004f">ALVA30.PCM : </title>
-			<title code="0x000050">ALVA31.PCM : </title>
-			<title code="0x000051">ALVA32.PCM : </title>
-			<title code="0x000052">ALVA33.PCM : </title>
+			<title code="0x000031">ALVA00.PCM</title>
+			<title code="0x000032">ALVA01.PCM</title>
+			<title code="0x000033">ALVA02.PCM</title>
+			<title code="0x000034">ALVA03.PCM</title>
+			<title code="0x000035">ALVA04.PCM</title>
+			<title code="0x000036">ALVA05.PCM</title>
+			<title code="0x000037">ALVA06.PCM</title>
+			<title code="0x000038">ALVA07.PCM</title>
+			<title code="0x000039">ALVA08.PCM</title>
+			<title code="0x00003a">ALVA09.PCM</title>
+			<title code="0x00003b">ALVA10.PCM</title>
+			<title code="0x00003c">ALVA11.PCM</title>
+			<title code="0x00003d">ALVA12.PCM</title>
+			<title code="0x00003e">ALVA13.PCM</title>
+			<title code="0x00003f">ALVA14.PCM</title>
+			<title code="0x000040">ALVA15.PCM</title>
+			<title code="0x000041">ALVA16.PCM</title>
+			<title code="0x000042">ALVA17.PCM</title>
+			<title code="0x000043">ALVA18.PCM</title>
+			<title code="0x000044">ALVA19.PCM</title>
+			<title code="0x000045">ALVA20.PCM</title>
+			<title code="0x000046">ALVA21.PCM</title>
+			<title code="0x000047">ALVA22.PCM</title>
+			<title code="0x000048">ALVA23.PCM</title>
+			<title code="0x000049">ALVA24.PCM</title>
+			<title code="0x00004a">ALVA25.PCM</title>
+			<title code="0x00004b">ALVA26.PCM</title>
+			<title code="0x00004c">ALVA27.PCM</title>
+			<title code="0x00004d">ALVA28.PCM</title>
+			<title code="0x00004e">ALVA29.PCM</title>
+			<title code="0x00004f">ALVA30.PCM</title>
+			<title code="0x000050">ALVA31.PCM</title>
+			<title code="0x000051">ALVA32.PCM</title>
+			<title code="0x000052">ALVA33.PCM</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] アルヴァリーク冒険記(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2431,7 +2431,7 @@
 	<game>
 		<name>[PC-9801] BIBLE MASTER 2 - THE CHAOS OF AGLIA -(OPNA)</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2502,7 +2502,7 @@
 	<game>
 		<name>[PC-9801] BIBLE MASTER 2 - THE CHAOS OF AGLIA -(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x6000"/>
 			<option name="bootip"   value="0xf000"/>
@@ -2574,7 +2574,7 @@
 	<game>
 		<name>[PC-9801] BIBLE MASTER 2 - THE CHAOS OF AGLIA -(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2645,7 +2645,7 @@
 	<game>
 		<name>[PC-9801] RAGNAR0KKR(OPNA)</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2685,7 +2685,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">演奏停止</title>
-		<!--	<title code="0x01">RAG000.MIV : </title> -->
+		<!--	<title code="0x01">RAG000.MIV</title> -->
 			<title code="0x02">RAG001.MIV : 偶像達の黙示録</title>
 			<title code="0x03">RAG002.MIV : 花香るあの日々</title>
 			<title code="0x04">RAG003.MIV : 決意～孤高の女王に永遠の忠誠を誓う～</title>
@@ -2712,7 +2712,7 @@
 	<game>
 		<name>[PC-9801] RAGNAR0KKR(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2752,7 +2752,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">演奏停止</title>
-		<!--	<title code="0x01">RAG000.MIV : </title> -->
+		<!--	<title code="0x01">RAG000.MIV</title> -->
 			<title code="0x02">RAG001.MIV : 偶像達の黙示録</title>
 			<title code="0x03">RAG002.MIV : 花香るあの日々</title>
 			<title code="0x04">RAG003.MIV : 決意～孤高の女王に永遠の忠誠を誓う～</title>
@@ -2779,7 +2779,7 @@
 	<game>
 		<name>[PC-9801] RAGNAR0KKR(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2819,7 +2819,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x000000">演奏停止</title>
-		<!--	<title code="0x010001">RAG000.MID : </title> -->
+		<!--	<title code="0x010001">RAG000.MID</title> -->
 			<title code="0x010002">RAG001.MID : 偶像達の黙示録</title>
 			<title code="0x010003">RAG002.MID : 花香るあの日々</title>
 			<title code="0x010004">RAG003.MID : 決意～孤高の女王に永遠の忠誠を誓う～</title>
@@ -2846,7 +2846,7 @@
 	<game>
 		<name>[PC-9801] エテミブル ～天壌無窮～(OPNA)</name>
 		<driver type="86">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -2933,13 +2933,13 @@
 			<title code="0x20">ETMF32.MIV : ETMF32  GAME OVER</title>
 			<title code="0x21">ETMF33.MIV : ETMM33  DEAR MY FRIEND</title>
 			<title code="0x22">ETMF34.MIV : ETMM34  MAGIC</title>
-			<title code="0x23">ETMF95.MIV : </title>
+			<title code="0x23">ETMF95.MIV</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] エテミブル ～天壌無窮～(OPN)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3026,13 +3026,13 @@
 			<title code="0x20">ETMF32.MIV : ETMF32  GAME OVER</title>
 			<title code="0x21">ETMF33.MIV : ETMM33  DEAR MY FRIEND</title>
 			<title code="0x22">ETMF34.MIV : ETMM34  MAGIC</title>
-			<title code="0x23">ETMF95.MIV : </title>
+			<title code="0x23">ETMF95.MIV</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] エテミブル ～天壌無窮～(SC-55)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="NEC PC-9801">GLODIA</driveralias>
+		<driveralias type="PC-9801">GLODIA</driveralias>
 		<options>
 			<option name="bootcs"   value="0x0060"/>
 			<option name="bootip"   value="0x0000"/>
@@ -3119,13 +3119,13 @@
 			<title code="0x010020">ETMM32.MID : ETMF32  GAME OVER</title>
 			<title code="0x010021">ETMM33.MID : ETMM33  DEAR MY FRIEND</title>
 			<title code="0x010022">ETMM34.MID : ETMM34  MAGIC</title>
-			<title code="0x010023">ETMM95.MID : </title>
+			<title code="0x010023">ETMM95.MID</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X68000] EMERALD DRAGON</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 			<option name="mfp"     value="1"/>
@@ -3206,7 +3206,7 @@
 	<game>
 		<name>[X68000] ZAVAS</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 			<option name="mfp"     value="1"/>
@@ -3480,7 +3480,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(OPM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 		</options>
@@ -3546,7 +3546,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(OPM+MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 			<option name="midiout" value="1"/>
@@ -3614,7 +3614,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(OPM+MT-32 Emulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 			<option name="midiout" value="1"/>
@@ -3682,7 +3682,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(OPM+MT-32 RHYTHM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 			<option name="midiout" value="1"/>
@@ -3750,7 +3750,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(OPM+MT-32 RHYTHM Emulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 			<option name="midiout" value="1"/>
@@ -3818,7 +3818,7 @@
 	<game>
 		<name>[X68000] Die Bahnwelt(GM)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GLODIA</driveralias>
+		<driveralias type="X68000">GLODIA</driveralias>
 		<options>
 			<option name="mfp"    value="1"/>
 			<option name="midiout" value="1"/>
