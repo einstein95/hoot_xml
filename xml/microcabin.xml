@@ -772,7 +772,6 @@
 			<rom type="voice" offset="0x28">VD405</rom>
 			<rom type="bgm"   offset="0x29">MUS606</rom>
 			<rom type="voice" offset="0x29">VD600</rom>
-
 		</romlist>
 		<titlelist>
 			<title code="0x00">MUS100 : SE (オープニング1)</title>
@@ -6616,7 +6615,7 @@
 	<game>
 		<name>[FM77AV] うる星やつら ～恋のサバイバル・バースディ～</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">MICROCABIN</driveralias>
+		<driveralias type="FM77AV">MICROCABIN</driveralias>
 		<options>
 			<option name="init_pc"    value="0x1000"/>
 			<option name="mdata_addr" value="0x7000"/>
@@ -6642,7 +6641,7 @@
 	<game>
 		<name>[FM77AV] めぞん一刻・完結篇 ～さよなら、そして～</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">MICROCABIN</driveralias>
+		<driveralias type="FM77AV">MICROCABIN</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="mdata_addr" value="0x7000"/>

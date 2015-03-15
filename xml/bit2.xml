@@ -132,7 +132,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Famicle Parodic (ファミクルパロディック) (AY-3-8910)</name>
+		<name>[MSX2] Famicle Parodic (ファミクルパロディック) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Bit2</driveralias>
 		<options>
@@ -207,7 +207,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Hiroku Kubikiri-Kan: Chikuden Yatoubee (秘録 首斬り館 ～逐電屋藤兵衛～) (OPLL)</name>
+		<name>[MSX2] Hiroku Kubikiri-Kan: Chikuden Yatoubee (秘録 首斬り館 ～逐電屋藤兵衛～) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Bit2</driveralias>
 		<options>
@@ -381,7 +381,6 @@
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x8000">PSGDRV.BIN</rom>
 			<rom type="code" offset="0x8c00">PSGIN.BIN</rom>
-
 			<rom type="bgm" offset="0x00">PSG00.BIN</rom>
 			<rom type="bgm" offset="0x01">PSG01.BIN</rom>
 			<rom type="bgm" offset="0x02">PSG02.BIN</rom>
@@ -445,7 +444,6 @@
 			  -->
 			<title code="0x010001">01:01</title>
 			<title code="0x010003">03:01</title>
-
 			<title code="0x010103">03:02</title>
 			<!--
 			<title code="0x010018">24:01</title>
@@ -457,13 +455,11 @@
 			<title code="0x010005">10:01</title>
 			<title code="0x010006">11:01</title>
 			<title code="0x010007">12:01</title>
-
 			<title code="0x010009">14:01</title>
 			<!--
 			<title code="0x01001e">2A:01</title>
 			<title code="0x010021">32:01</title>
 			  -->
-
 			<title code="0x01000a">15:01</title>
 			<!--
 			<title code="0x010020">31:01</title>
@@ -525,7 +521,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Quinpl (Disk) (クインプル(FD)) (OPLL)</name>
+		<name>[MSX] Quinpl (Disk) (クインプル(FD)) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">BIT2</driveralias>
 		<options>
@@ -572,7 +568,6 @@
 			<title code="0x000107">07:02 : MISS</title>
 			<title code="0x000108">08:02 : MISS</title>
 			  -->
-
 			<title code="0x000201">01:03 : STAGE CLEAR</title>
 			<!--
 			<title code="0x000202">02:03 : STAGE CLEAR</title>
@@ -583,7 +578,6 @@
 			<title code="0x000207">07:03 : STAGE CLEAR</title>
 			<title code="0x000208">08:03 : STAGE CLEAR</title>
 			  -->
-
 			<title code="0x000301">01:04 : GAME OVER</title>
 			<!--
 			<title code="0x000302">02:04 : GAME OVER</title>
@@ -644,7 +638,6 @@
 			<title code="0x000107">07:02 : MISS</title>
 			<title code="0x000108">08:02 : MISS</title>
 			  -->
-
 			<title code="0x000201">01:03 : STAGE CLEAR</title>
 			<!--
 			<title code="0x000202">02:03 : STAGE CLEAR</title>
@@ -655,7 +648,6 @@
 			<title code="0x000207">07:03 : STAGE CLEAR</title>
 			<title code="0x000208">08:03 : STAGE CLEAR</title>
 			  -->
-
 			<title code="0x000301">01:04 : GAME OVER</title>
 			<!--
 			<title code="0x000302">02:04 : GAME OVER</title>

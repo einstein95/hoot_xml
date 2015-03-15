@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //呉ソフトウェア工房 -->
 	<game>
-		<name>[PC-8801] ARGO</name>
+		<name>[PC-8801] Argo (アルゴー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa600"/>
 			<option name="use_rtc"    value="0x01"/>
@@ -57,19 +57,19 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">MUS00</title>
-			<title code="0x00000001">MUS01 : タイトル</title>
+			<title code="0x00000001">タイトル</title>
 			<title code="0x00000002">MUS02</title>
-			<title code="0x00000003">MUS03 : デカキャラ戦闘</title>
-			<title code="0x00000004">MUS04 : 街</title>
+			<title code="0x00000003">デカキャラ戦闘</title>
+			<title code="0x00000004">街</title>
 			<title code="0x00000005">MUS05</title>
 			<title code="0x00000006">MUS06</title>
-			<title code="0x01000007">MUS07 : ユーザーディスク作成</title>
+			<title code="0x01000007">ユーザーディスク作成</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] SILVER GHOST</name>
+		<name>[PC-8801] Silver Ghost (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 		</options>
@@ -90,24 +90,24 @@
 			<rom type="bgm"  offset="0x0b">MUS11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS00 : オープニング</title>
-			<title code="0x03">MUS03 : クラレンスの村</title>
-			<title code="0x09">MUS09 : トレント草原</title>
-			<title code="0x04">MUS04 : とりで</title>
-			<title code="0x07">MUS07 : ドーバー海岸</title>
-			<title code="0x08">MUS08 : ログリス海岸</title>
-			<title code="0x02">MUS02 : 青い沼</title>
-			<title code="0x05">MUS05 : ゴラの遺跡</title>
-			<title code="0x06">MUS06 : ウェルズ山地</title>
-			<title code="0x0a">MUS10 : バルバラの山</title>
-			<title code="0x0b">MUS11 : キャメロット城内</title>
-			<title code="0x01">MUS01 : エンディング</title>
+			<title code="0x00">オープニング</title>
+			<title code="0x03">クラレンスの村</title>
+			<title code="0x09">トレント草原</title>
+			<title code="0x04">とりで</title>
+			<title code="0x07">ドーバー海岸</title>
+			<title code="0x08">ログリス海岸</title>
+			<title code="0x02">青い沼</title>
+			<title code="0x05">ゴラの遺跡</title>
+			<title code="0x06">ウェルズ山地</title>
+			<title code="0x0a">バルバラの山</title>
+			<title code="0x0b">キャメロット城内</title>
+			<title code="0x01">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] DUEL</name>
+		<name>[PC-8801] Duel (デュエル) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-8801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_num"  value="0x50"/>
@@ -149,40 +149,40 @@
 		</romlist>
 		<titlelist>
 			<title code="0xd0000000">OP1</title>
-			<title code="0xd7000001">OP2    : DUEL</title>
-			<title code="0xb0000020">CHR1A  : MASAKI</title>
-			<title code="0xb0000021">CHR1B  : THE SOLDIERS ALIGNE (別アレンジ)</title>
-			<title code="0xb0000022">CHR2A  : タヌキのO-SANPO</title>
-			<title code="0xb0000023">CHR2B  : THE SOLDIERS ALIGNE</title>
-			<title code="0xba000030">MUS100 : I'M FULL OF BEART</title>
-			<title code="0xba000031">MUS101 : REQUIEM</title>
-			<title code="0xba000032">MUS102 : A FLOOD OF WATER</title>
+			<title code="0xd7000001">Duel</title>
+			<title code="0xb0000020">Masaki</title>
+			<title code="0xb0000021">The Soldiers Align (別アレンジ)</title>
+			<title code="0xb0000022">タヌキのO-Sanpo</title>
+			<title code="0xb0000023">The Soldiers Align</title>
+			<title code="0xba000030">I'm Full of Beart</title>
+			<title code="0xba000031">Requiem</title>
+			<title code="0xba000032">A Flood of Water</title>
 			<title code="0xba000033">MUS103</title>
-			<title code="0xba000034">MUS104 : A MARE RUIN</title>
-			<title code="0xba000035">MUS105 : STORY OF STAR FIELD</title>
-			<title code="0xba000036">MUS106 : A DESPRATE FIGHT</title>
-		<!--	<title code="0xba000037">MUS200 : I'M FULL OF BEART</title> -->
-		<!--	<title code="0xba000038">MUS201 : REQUIEM</title> -->
-		<!--	<title code="0xba000039">MUS202 : A FLOOD OF WATER</title> -->
-			<title code="0xba00003a">MUS203 : MUD AND MARSH</title>
-			<title code="0xba00003b">MUS204 : DEFEND A CASTLE OF BALT</title>
-			<title code="0xba00003c">MUS205 : AT THE HOWLING WIND</title>
-			<title code="0xba00003d">MUS206 : IN FRONT OF CHIFF</title>
-			<title code="0xba00003e">MUS207 : A DEER FOREST</title>
-		<!--	<title code="0xba00003f">MUS300 : I'M FULL OF BEART</title> -->
-		<!--	<title code="0xba000040">MUS301 : REQUIEM</title> -->
-		<!--	<title code="0xba000041">MUS302 : A DEER FOREST</title> -->
-			<title code="0xba000042">MUS303 : SLOPING UPWARD</title>
-			<title code="0xba000043">MUS304 : BULLET THE FELLOW!</title>
-			<title code="0xba000044">MUS305 : THE VALLEY OF THE SHADOW OF DEATH</title>
-			<title code="0xba000045">MUS306 : MOON HILL</title>
-		<!--	<title code="0xba000046">MUS307 : BULLET THE FELLOW!</title> -->
+			<title code="0xba000034">A Mare Ruin</title>
+			<title code="0xba000035">Story of Star Field</title>
+			<title code="0xba000036">A Desperate Fight</title>
+		<!--	<title code="0xba000037">I'm Full of Beart</title> -->
+		<!--	<title code="0xba000038">Requiem</title> -->
+		<!--	<title code="0xba000039">A Flood of Water</title> -->
+			<title code="0xba00003a">Mud and Marsh</title>
+			<title code="0xba00003b">Defend a Castle of Balt</title>
+			<title code="0xba00003c">At the Howling Wind</title>
+			<title code="0xba00003d">In Front of Chiff</title>
+			<title code="0xba00003e">A Deer Forest</title>
+		<!--	<title code="0xba00003f">I'm Full of Beart</title> -->
+		<!--	<title code="0xba000040">Requiem</title> -->
+		<!--	<title code="0xba000041">A Deer Forest</title> -->
+			<title code="0xba000042">Sloping Upward</title>
+			<title code="0xba000043">Bullet the Fellow!</title>
+			<title code="0xba000044">The Valley of the Shadow of Death</title>
+			<title code="0xba000045">Moon Hill</title>
+		<!--	<title code="0xba000046">Bullet the Fellow!</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] SILVER GHOST(OPM)</name>
+		<name>[X1] Silver Ghost (OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="X1">呉ソフトウェア工房</driveralias>
+		<driveralias type="X1">Kure Software Koubou</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xb000"/>
@@ -224,9 +224,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] SILVER GHOST(PSG)</name>
+		<name>[X1] Silver Ghost (PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">呉ソフトウェア工房</driveralias>
+		<driveralias type="X1">Kure Software Koubou</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xb000"/>
@@ -261,16 +261,16 @@
 			<title code="0x00000005">Lie?</title>
 			<title code="0x00000006">Curse Beat</title>
 			<title code="0x00000007">ただみつめている</title>
-			<title code="0x00000008">(バルバラの山)</title>
+			<title code="0x00000008">バルバラの山</title>
 			<title code="0x00000009">Prince of palace (キャメロット城内)</title>
-			<title code="0x0100000b">(エンディング)</title>
+			<title code="0x0100000b">エンディング</title>
 			<title code="0x0200000c">タヌキのO-SANPO (バックアップ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FIRST QUEEN -オルニック戦記-</name>
+		<name>[PC-9801] First Queen: Ornic Senki (ファーストクィーン -オルニック戦記-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -307,34 +307,34 @@
 			<rom type="bgm" offset="0x16">MUS21</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MUS00 : Prince of palace</title>
+			<title code="0x01">Prince of Palace</title>
 			<title code="0x02">MUS01</title>
-			<title code="0x03">MUS02 : Nuts About the girl</title>
-			<title code="0x04">MUS03 : In A Row</title>
-			<title code="0x05">MUS04 : A Martial Spirit</title>
-			<title code="0x06">MUS05 : Halo</title>
-			<title code="0x07">MUS06 : Attack On Him</title>
-			<title code="0x08">MUS07 : Lie ?</title>
-			<title code="0x09">MUS08 : Curse Beat</title>
-			<title code="0x0a">MUS09 : ただみつめている</title>
-			<title code="0x0b">MUS10 : Sheaf Of Arrows</title>
-			<title code="0x0c">MUS11 : Melee</title>
-			<title code="0x0d">MUS12 : Money Maker</title>
-			<title code="0x0e">MUS13 : 丘の向こうへ</title>
-			<title code="0x0f">MUS14 : Returned Soldier</title>
-			<title code="0x10">MUS15 : (another version) ただみつめている</title>
-			<title code="0x11">MUS16 : (another version) Sheaf Of Arrows</title>
-			<title code="0x12">MUS17 : (another version) Melee</title>
-			<title code="0x13">MUS18 : (another version) </title>
-			<title code="0x14">MUS19 : (another version) Monery Maker</title>
-			<title code="0x15">MUS20 : (another version) 丘のむこうへ</title>
-			<title code="0x16">MUS21 : (another version) Returned Soldier</title>
+			<title code="0x03">Nuts About the girl</title>
+			<title code="0x04">In A Row</title>
+			<title code="0x05">A Martial Spirit</title>
+			<title code="0x06">Halo</title>
+			<title code="0x07">Attack On Him</title>
+			<title code="0x08">Lie ?</title>
+			<title code="0x09">Curse Beat</title>
+			<title code="0x0a">ただみつめている</title>
+			<title code="0x0b">Sheaf Of Arrows</title>
+			<title code="0x0c">Melee</title>
+			<title code="0x0d">Money Maker</title>
+			<title code="0x0e">丘の向こうへ</title>
+			<title code="0x0f">Returned Soldier</title>
+			<title code="0x10">ただみつめている (another version)</title>
+			<title code="0x11">Sheaf Of Arrows (another version)</title>
+			<title code="0x12">Melee (another version)</title>
+			<title code="0x13">MUS18 (another version)</title>
+			<title code="0x14">Monery Maker (another version)</title>
+			<title code="0x15">丘のむこうへ (another version)</title>
+			<title code="0x16">Returned Soldier (another version)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FIRST QUEEN II -砂漠の女王-</name>
+		<name>[PC-9801] First Queen II: Sabaku no Joou (ファーストクィーンII -砂漠の女王-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -394,9 +394,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FIRST QUEEN III</name>
+		<name>[PC-9801] First Queen III (ファーストクィーンIII) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -531,9 +531,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DUEL98</name>
+		<name>[PC-9801] Duel (デュエル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -567,23 +567,23 @@
 		</romlist>
 		<titlelist>
 			<title code="0x000001">OP1</title>
-			<title code="0x000002">OP2    : DUEL</title>
+			<title code="0x000002">Duel</title>
 			<title code="0x000003">MUS000</title>
-			<title code="0x000004">MUS001 : A FLOOD OF WATER</title>
+			<title code="0x000004">A Flood of Water</title>
 			<title code="0x000005">MUS002</title>
-			<title code="0x000006">MUS003 : SLOPING UPWARD</title>
+			<title code="0x000006">Sloping Upward</title>
 			<title code="0x000007">MUS004</title>
-			<title code="0x000008">MUS005 : MUD AND MARSH</title>
-			<title code="0x000009">MUS006 : A MARE RUIN</title>
-			<title code="0x00000a">MUS007 : DEFEND A CASTLE OF BALT</title>
-			<title code="0x00000b">MUS008 : STORY OF STAR FIELD</title>
-			<title code="0x00000c">MUS009 : BULLET THE FELLOW!</title>
-			<title code="0x00000d">MUS010 : A DESPRATE FIGHT</title>
-			<title code="0x00000e">MUS011 : AT THE HOWLING WIND</title>
-			<title code="0x00000f">MUS012 : THE VALLEY OF THE SHADOW OF DEATH</title>
-			<title code="0x000010">MUS013 : I'M FULL OF BEART</title>
-			<title code="0x000011">MUS014 : THE SOLDIERS ALIGNE</title>
-			<title code="0x000012">MUS015 : IN FRONT OF CHIFF</title>
+			<title code="0x000008">Mud and Marsh</title>
+			<title code="0x000009">A Mare Ruin</title>
+			<title code="0x00000a">Defend a Castle of Balt</title>
+			<title code="0x00000b">Story of Star Field</title>
+			<title code="0x00000c">Bullet the Fellow!</title>
+			<title code="0x00000d">A Desperate Fight</title>
+			<title code="0x00000e">At the Howling Wind</title>
+			<title code="0x00000f">The Valley of the Shadow of Death</title>
+			<title code="0x000010">I'm Full of Beart</title>
+			<title code="0x000011">The Soldiers Align</title>
+			<title code="0x000012">In Front of Chiff</title>
 			<title code="0x01ffff">EFC001</title>
 			<title code="0x02ffff">EFC002</title>
 			<title code="0x03ffff">EFC003</title>
@@ -598,9 +598,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DUEL 川中島シナリオ</name>
+		<name>[PC-9801] Duel Kawanakajima Scenario (デュエル 川中島シナリオ) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -669,9 +669,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 川中島異聞録</name>
+		<name>[PC-9801] Kawanakajima Ibunroku (川中島異聞録) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -768,9 +768,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FIRST QUEEN IV -バルシア戦記-(OPN)</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ファーストクィーンIV -バルシア戦記-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -914,9 +914,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] FIRST QUEEN IV -バルシア戦記-(SC-55)</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ファーストクィーンIV -バルシア戦記-) (SC-55)</name>
 		<driver type="beep">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1018,9 +1018,113 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DARK SERAPHIM</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ファーストクィーンIV -バルシア戦記-) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98vx</driver>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x1000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax"  value="0x2a"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="fq4_98">
+			<rom type="code" offset="0x00600">fq4.bin</rom>
+			<rom type="code" offset="0x35000">MIDIFQ4.BIN</rom>
+			<rom type="bgm" offset="0x00">BGM-00.BIN</rom>
+			<rom type="bgm" offset="0x01">MID-01.BIN</rom>
+			<rom type="bgm" offset="0x02">MID-02.BIN</rom>
+			<rom type="bgm" offset="0x03">MID-03.BIN</rom>
+			<rom type="bgm" offset="0x04">MID-04.BIN</rom>
+			<rom type="bgm" offset="0x05">MID-05.BIN</rom>
+			<rom type="bgm" offset="0x06">MID-06.BIN</rom>
+			<rom type="bgm" offset="0x07">MID-07.BIN</rom>
+			<rom type="bgm" offset="0x08">MID-08.BIN</rom>
+			<rom type="bgm" offset="0x09">MID-09.BIN</rom>
+			<rom type="bgm" offset="0x0a">MID-10.BIN</rom>
+			<rom type="bgm" offset="0x0b">MID-11.BIN</rom>
+			<rom type="bgm" offset="0x0c">MID-12.BIN</rom>
+			<rom type="bgm" offset="0x0d">MID-13.BIN</rom>
+			<rom type="bgm" offset="0x0e">MID-14.BIN</rom>
+			<rom type="bgm" offset="0x0f">MID-15.BIN</rom>
+			<rom type="bgm" offset="0x10">MID-16.BIN</rom>
+			<rom type="bgm" offset="0x11">MID-17.BIN</rom>
+			<rom type="bgm" offset="0x12">MID-18.BIN</rom>
+			<rom type="bgm" offset="0x13">MID-19.BIN</rom>
+			<rom type="bgm" offset="0x14">MID-20.BIN</rom>
+			<rom type="bgm" offset="0x15">MID-21.BIN</rom>
+			<rom type="bgm" offset="0x16">MID-22.BIN</rom>
+			<rom type="bgm" offset="0x17">MID-23.BIN</rom>
+			<rom type="bgm" offset="0x18">MID-24.BIN</rom>
+			<rom type="bgm" offset="0x19">MID-25.BIN</rom>
+			<rom type="bgm" offset="0x1a">MID-26.BIN</rom>
+			<rom type="bgm" offset="0x1b">MID-27.BIN</rom>
+			<rom type="bgm" offset="0x1c">MID-28.BIN</rom>
+			<rom type="bgm" offset="0x1d">MID-29.BIN</rom>
+			<rom type="bgm" offset="0x1e">MID-30.BIN</rom>
+			<rom type="bgm" offset="0x1f">MID-31.BIN</rom>
+			<rom type="bgm" offset="0x20">MID-32.BIN</rom>
+			<rom type="bgm" offset="0x21">MID-33.BIN</rom>
+			<rom type="bgm" offset="0x22">MID-34.BIN</rom>
+			<rom type="bgm" offset="0x23">MID-35.BIN</rom>
+			<rom type="bgm" offset="0x24">MID-36.BIN</rom>
+			<rom type="bgm" offset="0x25">MID-37.BIN</rom>
+			<rom type="bgm" offset="0x26">MID-38.BIN</rom>
+			<rom type="bgm" offset="0x27">MID-39.BIN</rom>
+			<rom type="bgm" offset="0x28">MID-40.BIN</rom>
+			<rom type="bgm" offset="0x29">FQ4OM_MD.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x010001">MID-01.BIN</title>
+			<title code="0x010002">MID-02.BIN</title>
+			<title code="0x010003">MID-03.BIN</title>
+			<title code="0x010004">MID-04.BIN</title>
+			<title code="0x010005">MID-05.BIN</title>
+			<title code="0x010006">MID-06.BIN</title>
+			<title code="0x010007">MID-07.BIN</title>
+			<title code="0x010008">MID-08.BIN</title>
+			<title code="0x010009">MID-09.BIN</title>
+			<title code="0x01000a">MID-10.BIN</title>
+			<title code="0x01000b">MID-11.BIN</title>
+			<title code="0x01000c">MID-12.BIN</title>
+			<title code="0x01000d">MID-13.BIN</title>
+			<title code="0x01000e">MID-14.BIN</title>
+			<title code="0x01000f">MID-15.BIN</title>
+			<title code="0x010010">MID-16.BIN</title>
+			<title code="0x010011">MID-17.BIN</title>
+			<title code="0x010012">MID-18.BIN</title>
+			<title code="0x010013">MID-19.BIN</title>
+			<title code="0x010014">MID-20.BIN</title>
+			<title code="0x010015">MID-21.BIN</title>
+			<title code="0x010016">MID-22.BIN</title>
+			<title code="0x010017">MID-23.BIN</title>
+			<title code="0x010018">MID-24.BIN</title>
+			<title code="0x010019">MID-25.BIN</title>
+			<title code="0x01001a">MID-26.BIN</title>
+		<!--	<title code="0x01001b">MID-27.BIN</title> -->
+			<title code="0x01001c">MID-28.BIN</title>
+			<title code="0x01001d">MID-29.BIN</title>
+			<title code="0x01001e">MID-30.BIN</title>
+			<title code="0x01001f">MID-31.BIN</title>
+			<title code="0x010020">MID-32.BIN</title>
+			<title code="0x010021">MID-33.BIN</title>
+			<title code="0x010022">MID-34.BIN</title>
+			<title code="0x010023">MID-35.BIN</title>
+			<title code="0x010024">MID-36.BIN</title>
+			<title code="0x010025">MID-37.BIN</title>
+			<title code="0x010026">MID-38.BIN</title>
+			<title code="0x010027">MID-39.BIN</title>
+			<title code="0x010028">MID-40.BIN</title>
+			<title code="0x020029">FQ4OM_MD.BIN</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Dark Seraphim (ダークセラフィム) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1176,9 +1280,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DUEL SUCCESSION</name>
+		<name>[PC-9801] Duel Succession (デュエル・サクセション) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1225,11 +1329,11 @@
 			<rom type="bgm" offset="0x20">BGM-32.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010001">BGM-01.BIN : Reconnoiter</title>
+			<title code="0x010001">Reconnoiter</title>
 			<title code="0x010002">BGM-02.BIN</title>
-			<title code="0x010003">BGM-03.BIN : 希望の先へ</title>
+			<title code="0x010003">希望の先へ</title>
 			<title code="0x010004">BGM-04.BIN</title>
-			<title code="0x010005">BGM-05.BIN : 解放の時</title>
+			<title code="0x010005">解放の時</title>
 			<title code="0x010006">BGM-06.BIN</title>
 			<title code="0x010007">BGM-07.BIN</title>
 			<title code="0x010008">BGM-08.BIN</title>
@@ -1237,8 +1341,8 @@
 			<title code="0x01000a">BGM-10.BIN</title>
 			<title code="0x01000b">BGM-11.BIN</title>
 			<title code="0x01000c">BGM-12.BIN</title>
-			<title code="0x01000d">BGM-13.BIN : PICO PICO Story</title>
-			<title code="0x01000e">BGM-14.BIN : Dance to Dance</title>
+			<title code="0x01000d">Pico Pico Story</title>
+			<title code="0x01000e">Dance to Dance</title>
 		<!--	<title code="0x01000f">BGM-15.BIN</title> -->
 		<!--	<title code="0x010010">BGM-16.BIN</title> -->
 		<!--	<title code="0x010011">BGM-17.BIN</title> -->
@@ -1324,9 +1428,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] EARLY KINGDOM</name>
+		<name>[PC-9801] Early Kingdom (アーリーキングダム) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1360,7 +1464,7 @@
 			<rom type="shell" offset="0">bgmplay</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x000010">EK00.BIN : 演奏停止</title> -->
+		<!--	<title code="0x000010">Stop the Music</title> -->
 			<title code="0x000011">EK01.BIN</title>
 			<title code="0x000012">EK02.BIN</title>
 			<title code="0x000013">EK03.BIN</title>
@@ -1405,9 +1509,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] FIRST QUEEN －オルニック戦記－</name>
+		<name>[PC-88VA] First Queen: Ornic Senki (ファーストクィーン -オルニック戦記-)</name>
 		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">呉ソフトウェア工房</driveralias>
+		<driveralias type="PC-88VA">Kure Software Koubou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1443,34 +1547,34 @@
 			<rom type="bgm" offset="0x16">MUS21</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MUS00 : Prince of palace</title>
+			<title code="0x01">Prince of palace</title>
 			<title code="0x02">MUS01</title>
-			<title code="0x03">MUS02 : Nuts About The Girl</title>
-			<title code="0x04">MUS03 : In A Row</title>
-			<title code="0x05">MUS04 : A Martial Spirit</title>
-			<title code="0x06">MUS05 : Halo</title>
-			<title code="0x07">MUS06 : Attack On Him</title>
-			<title code="0x08">MUS07 : Lie ?</title>
-			<title code="0x09">MUS08 : Curse Beat</title>
-			<title code="0x0a">MUS09 : ただみつめている</title>
-			<title code="0x0b">MUS10 : Sheaf Of Arrows</title>
-			<title code="0x0c">MUS11 : Melee</title>
-			<title code="0x0d">MUS12 : Money Maker</title>
-			<title code="0x0e">MUS13 : 丘の向こうへ</title>
-			<title code="0x0f">MUS14 : Returned Soldier</title>
-			<title code="0x10">MUS15 : (another version) ただみつめている</title>
-			<title code="0x11">MUS16 : (another version) Sheaf Of Arrows</title>
-			<title code="0x12">MUS17 : (another version) Melee</title>
-			<title code="0x13">MUS18 : (another version) </title>
-			<title code="0x14">MUS19 : (another version) Monery Maker</title>
-			<title code="0x15">MUS20 : (another version) 丘のむこうへ</title>
-			<title code="0x16">MUS21 : (another version) Returned Soldier</title>
+			<title code="0x03">Nuts About The Girl</title>
+			<title code="0x04">In A Row</title>
+			<title code="0x05">A Martial Spirit</title>
+			<title code="0x06">Halo</title>
+			<title code="0x07">Attack On Him</title>
+			<title code="0x08">Lie ?</title>
+			<title code="0x09">Curse Beat</title>
+			<title code="0x0a">ただみつめている</title>
+			<title code="0x0b">Sheaf Of Arrows</title>
+			<title code="0x0c">Melee</title>
+			<title code="0x0d">Money Maker</title>
+			<title code="0x0e">丘の向こうへ</title>
+			<title code="0x0f">Returned Soldier</title>
+			<title code="0x10">ただみつめている (another version)</title>
+			<title code="0x11">Sheaf Of Arrows (another version)</title>
+			<title code="0x12">Melee (another version)</title>
+			<title code="0x13">MUS18 (another version)</title>
+			<title code="0x14">Monery Maker (another version)</title>
+			<title code="0x15">丘のむこうへ (another version)</title>
+			<title code="0x16">Returned Soldier (another version)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] FIRST QUEEN -オルニック戦記-</name>
+		<name>[X68000] First Queen: Ornic Senki (ファーストクィーン -オルニック戦記-)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">呉ソフトウェア工房</driveralias>
+		<driveralias type="X68000">Kure Software Koubou</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -1494,7 +1598,7 @@
 			<rom type="code" offset="0x04e000">music14.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">Prince of palace</title>
+			<title code="0x0a">Prince of Palace</title>
 			<title code="0x03">Nuts About the girl</title>
 			<title code="0x02">In A Row</title>
 			<title code="0x04">A Martial Spirit</title>
@@ -1512,9 +1616,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] FIRST QUEEN II -砂漠の女王-</name>
+		<name>[X68000] First Queen II: Sabaku no Joou (ファーストクィーンII -砂漠の女王-)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">呉ソフトウェア工房</driveralias>
+		<driveralias type="X68000">Kure Software Koubou</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 		</options>
@@ -1527,15 +1631,45 @@
 			<rom type="code" offset="0xc40000">music.bin</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0d" extcode="1">BGM 0x%02x</range>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
 			<title code="0x0e">Nuts About the girl</title>
-			<title code="0x0f">Lie ?</title>
+			<title code="0x0f">Lie?</title>
 			<title code="0x10">Halo</title>
-			<range min="0x11" max="0x13" extcode="1">BGM 0x%02x</range>
-			<title code="0x14">Prince of palace</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">Prince of Palace</title>
 			<title code="0x15">Attack On Him</title>
-			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
-			<range min="0x201" max="0x201" extcode="0">VOICE 0x%02x</range>
+			<title code="0x101">SFX #101</title>
+			<title code="0x101">SFX #102</title>
+			<title code="0x101">SFX #103</title>
+			<title code="0x101">SFX #104</title>
+			<title code="0x101">SFX #105</title>
+			<title code="0x101">SFX #106</title>
+			<title code="0x101">SFX #107</title>
+			<title code="0x101">SFX #108</title>
+			<title code="0x101">SFX #109</title>
+			<title code="0x101">SFX #10a</title>
+			<title code="0x101">SFX #10b</title>
+			<title code="0x101">SFX #10c</title>
+			<title code="0x101">SFX #10d</title>
+			<title code="0x101">SFX #10e</title>
+			<title code="0x101">SFX #10f</title>
+			<title code="0x101">SFX #110</title>
+			<title code="0x101">SFX #111</title>
+			<title code="0x201">Voice #201</title>
 		</titlelist>
 	</game>
 </gamelist>

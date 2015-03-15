@@ -118,8 +118,8 @@
 			<title code="0x1a">DES_14.M</title>
 			<title code="0x23">Responser</title>
 			<title code="0x2b">DES_80.M</title>
-			<title code="0x27">SE</title>
-			<title code="0x28">SE</title>
+			<title code="0x27">SFX #27</title>
+			<title code="0x28">SFX #28</title>
 			<range min="0x0801" max="0x0821" extcode="0">DES_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
@@ -132,7 +132,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="eve_98">
+		<romlist archive="evebe_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">EVE.EFC</rom>
@@ -284,7 +284,7 @@
 			<option name="showfm3ex" value="1"/>
 			<option name="pcm_mix" value="0x200"/>
 		</options>
-		<romlist archive="eveppz8_98">
+		<romlist archive="evebe_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMDPPZ.COM</rom>
 			<rom type="file" offset="-1">EMMDRV.COM</rom>
@@ -458,25 +458,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x17">Leant on Him</title>
-			<title code="0x18">`Gloria'</title>
+			<title code="0x18">'Gloria'</title>
 			<title code="0x19">Go for a Drive in a Car</title>
-			<title code="0x13">Celebrate A Marriage</title>
+			<title code="0x13">Celebrate a Marriage</title>
 			<title code="0x14">Dead Close</title>
 			<title code="0x1b">Monkey Jester</title>
 			<title code="0x1a">Fine Sunday</title>
 			<title code="0x15">Next Challenge</title>
 			<title code="0x16">A Cog of The Lust</title>
 			<title code="0x11">Moon Flight</title>
-			<title code="0x12">Celebrate a Marriage(Bell)</title>
-			<title code="0x10">Bird mornin</title>
-			<title code="0x1d">おっき</title>
-			<title code="0x1c">嵐</title>
-			<title code="0x1e">風.WIND</title>
+			<title code="0x12">Celebrate a Marriage (Bell)</title>
+			<title code="0x10">SFX "Bird Morning"</title>
+			<title code="0x1d">SFX "Wake Up" (おっき)</title>
+			<title code="0x1c">SFX "Rain" (嵐)</title>
+			<title code="0x1e">SFX "Wind" (風.WIND)</title>
 			<range min="0x0802" max="0x080c" extcode="1">GLO.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] XENON ～夢幻の肢体～</name>
+		<name>[PC-9801] Xenon: Fantasy Body (ゼノン 夢幻の肢体) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
@@ -523,23 +523,23 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">XENON_01.M : Desert Storm</title>
-			<title code="0x11">XENON_02.M : XENON</title>
-			<title code="0x12">XENON_03.M : Ranfa</title>
-			<title code="0x13">XENON_04.M : 蝶</title>
-			<title code="0x14">XENON_05.M : &lt;&lt; QUADRA &gt;&gt;</title>
-			<title code="0x15">XENON_06.M : Ending II</title>
-			<title code="0x18">XENON_09.M : Synaps</title>
-			<title code="0x19">XENON_10.M : Ago</title>
-			<title code="0x1a">XENON_11.M : Trust</title>
-			<title code="0x1b">XENON_12.M : Silence</title>
-			<title code="0x1c">XENON_13.M : Encoder</title>
-			<title code="0x1e">XENON_15.M : Emergency</title>
-			<title code="0x1f">XENON_16.M : Moon</title>
-			<title code="0x20">XENON_17.M : Dream</title>
-			<title code="0x24">XENON_21.M : Towering Past</title>
-			<title code="0x25">XENON_22.M : 7th</title>
-			<title code="0x29">XENON_26.M : Mood</title>
+			<title code="0x10">Desert Storm</title>
+			<title code="0x11">XENON</title>
+			<title code="0x12">Ranfa</title>
+			<title code="0x13">Butterfly (蝶)</title>
+			<title code="0x14">Quadra</title>
+			<title code="0x15">Ending II</title>
+			<title code="0x18">Synaps</title>
+			<title code="0x19">Ago</title>
+			<title code="0x1a">Trust</title>
+			<title code="0x1b">Silence</title>
+			<title code="0x1c">Encoder</title>
+			<title code="0x1e">Emergency</title>
+			<title code="0x1f">Moon</title>
+			<title code="0x20">Dream</title>
+			<title code="0x24">Towering Past</title>
+			<title code="0x25">Seventh</title>
+			<title code="0x29">Mood</title>
 			<title code="0x16">XENON_07.M</title>
 			<title code="0x17">XENON_08.M</title>
 			<title code="0x1d">XENON_14.M</title>
@@ -554,11 +554,11 @@
 			<title code="0x2c">XENON_29.M</title>
 			<title code="0x2d">XEN_03A.M</title>
 			<title code="0x2e">XEN_03B.M</title>
-			<range min="0x0801" max="0x0832" extcode="0">XEN_SE.EFC : %02X</range>
+			<range min="0x0801" max="0x0832" extcode="0">XEN_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] エイミーと呼ばないでっ(OPN)</name>
+		<name>[PC-9801] Don't Call Me Amy! (エイミーと呼ばないでっ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
@@ -566,7 +566,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="eime_98">
+		<romlist archive="amy_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">EIMY.EFC</rom>
@@ -609,50 +609,50 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EMI_01.M : 眸のarrow(Thema Song)</title>
-			<title code="0x13">EMI_04.M : 香織</title>
-			<title code="0x14">EMI_05.M : 智美</title>
-			<title code="0x15">EMI_06.M : すみれ</title>
-			<title code="0x16">EMI_07.M : 瞳</title>
-			<title code="0x17">EMI_08.M : 鏡子</title>
-			<title code="0x18">EMI_09.M : 理恵</title>
-			<title code="0x1b">EMI_12.M : 朱い月</title>
-			<title code="0x1d">EMI_14.M : 館</title>
-			<title code="0x1e">EMI_15.M : Feeling(soft)</title>
-			<title code="0x1f">EMI_16.M : Feeling(beat)</title>
-			<title code="0x20">EMI_17.M : くつろぎ</title>
-			<title code="0x21">EMI_19.M : Came of Well</title>
-			<title code="0x22">EMI_21.M : Blood Devil</title>
-			<title code="0x23">EMI_22.M : 夢み心地</title>
-			<title code="0x24">EMI_23.M : イドの迷宮</title>
-			<title code="0x25">EMI_24.M : ワイングラス</title>
-			<title code="0x26">EMI_25.M : Heavy Sounds</title>
-			<title code="0x27">EMI_26.M : Eight Actuality</title>
-			<title code="0x28">EMI_27.M : 戦慄</title>
-			<title code="0x29">EMI_28.M : 光と闇と</title>
-			<title code="0x2a">EMI_29.M : エスニカン マリオネット</title>
-			<title code="0x2b">EMI_30.M : 病院にて</title>
-			<title code="0x2c">EMI_31.M : 憂慮</title>
-			<title code="0x2d">EMI_32.M : 再会</title>
-			<title code="0x2e">EMI_33.M : 吐息のkiss</title>
-			<title code="0x11">EMI_02.M : ファンファーレ</title>
-			<title code="0x12">EMI_03.M : アイキャッチ</title>
-			<title code="0x19">EMI_10.M : Ara?</title>
-			<title code="0x1a">EMI_11.M : Gian!</title>
-			<title code="0x1c">EMI_13.M : ジャーン</title>
-			<title code="0x2f">EMI_34.M : MENU【瞳のarrow】Short</title>
-			<title code="0x30">EMI_35.M : 次回予告【瞳のarrow】</title>
-			<title code="0x31">EMI_36.M : ちゃちゃーん</title>
-			<title code="0x32">EMI_37.M : チャイム</title>
-			<range min="0x0801" max="0x0814" extcode="0">EIMY.EFC : %02X</range>
-			<title code="0x818">EIMY.EFC : 18</title>
-			<title code="0x81a">EIMY.EFC : 1A</title>
-			<title code="0x81b">EIMY.EFC : 1B</title>
-			<title code="0x828">EIMY.EFC : 28</title>
+			<title code="0x10">Hitomi's Arrow (眸のarrow (Theme Song))</title>
+			<title code="0x13">Kaori (香織)</title>
+			<title code="0x14">Tomomi (智美)</title>
+			<title code="0x15">Sumire (すみれ)</title>
+			<title code="0x16">Hitomi (瞳)</title>
+			<title code="0x17">Kyouko (鏡子)</title>
+			<title code="0x18">Rie (理恵)</title>
+			<title code="0x1b">Bloody Month (朱い月)</title>
+			<title code="0x1d">Mansion (館)</title>
+			<title code="0x1e">Feeling (Soft)</title>
+			<title code="0x1f">Feeling (Beat)</title>
+			<title code="0x20">Sit Back and Relax (くつろぎ)</title>
+			<title code="0x21">Came Off Well</title>
+			<title code="0x22">Blood Devil</title>
+			<title code="0x23">Dreamy Feeling (夢み心地)</title>
+			<title code="0x24">Well Maze (イドの迷宮)</title>
+			<title code="0x25">Wine Glass (ワイングラス)</title>
+			<title code="0x26">Heavy Sounds</title>
+			<title code="0x27">Eight Actuality</title>
+			<title code="0x28">Shivering (戦慄)</title>
+			<title code="0x29">Light and Darkness (光と闇と)</title>
+			<title code="0x2a">Esnican Marionette (エスニカン マリオネット)</title>
+			<title code="0x2b">At the Hospital (病院にて)</title>
+			<title code="0x2c">Anxiety (憂慮)</title>
+			<title code="0x2d">Meeting Again (再会)</title>
+			<title code="0x2e">A Kiss of Sigh (吐息のKiss)</title>
+			<title code="0x11">Fanfare (ファンファーレ)</title>
+			<title code="0x12">Eyecatch (アイキャッチ)</title>
+			<title code="0x19">Huh? (Ara?)</title>
+			<title code="0x1a">Gaah! (Gian!)</title>
+			<title code="0x1c">Dong (ジャーン)</title>
+			<title code="0x2f">Hitomi's Arrow (Menu Short) (MENU【瞳のarrow】Short)</title>
+			<title code="0x30">Hitomi's Arrow (Coming Next) (次回予告【瞳のarrow】)</title>
+			<title code="0x31">Tadaa (ちゃちゃーん)</title>
+			<title code="0x32">Chime (チャイム)</title>
+			<range min="0x0801" max="0x0814" extcode="0">EIMY.EFC #%2X</range>
+			<title code="0x818">EIMY.EFC #818</title>
+			<title code="0x81a">EIMY.EFC #81A</title>
+			<title code="0x81b">EIMY.EFC #81B</title>
+			<title code="0x828">EIMY.EFC #828</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] エイミーと呼ばないでっ(GS)</name>
+		<name>[PC-9801] Don't Call Me Amy! (エイミーと呼ばないでっ) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
@@ -660,7 +660,7 @@
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
-		<romlist archive="eime_98">
+		<romlist archive="amy_98">
 			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
 			<rom type="file" offset="-1">MMD.COM</rom>
 			<rom type="file" offset="0x10">EMI_01.MMD</rom>
@@ -702,41 +702,129 @@
 			<rom type="shell" offset="0">MMP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EMI_01.MMD : 眸のarrow(Thema Song)</title>
-			<title code="0x13">EMI_04.MMD : 香織</title>
-			<title code="0x14">EMI_05.MMD : 智美</title>
-			<title code="0x15">EMI_06.MMD : すみれ</title>
-			<title code="0x16">EMI_07.MMD : 瞳</title>
-			<title code="0x17">EMI_08.MMD : 鏡子</title>
-			<title code="0x18">EMI_09.MMD : 理恵</title>
-			<title code="0x1b">EMI_12.MMD : 朱い月</title>
-			<title code="0x1d">EMI_14.MMD : 館</title>
-			<title code="0x1e">EMI_15.MMD : Feeling(soft)</title>
-			<title code="0x1f">EMI_16.MMD : Feeling(beat)</title>
-			<title code="0x20">EMI_17.MMD : くつろぎ</title>
-			<title code="0x21">EMI_19.MMD : Came of Well</title>
-			<title code="0x22">EMI_21.MMD : Blood Devil</title>
-			<title code="0x23">EMI_22.MMD : 夢み心地</title>
-			<title code="0x24">EMI_23.MMD : イドの迷宮</title>
-			<title code="0x25">EMI_24.MMD : ワイングラス</title>
-			<title code="0x26">EMI_25.MMD : Heavy Sounds</title>
-			<title code="0x27">EMI_26.MMD : Eight Actuality</title>
-			<title code="0x28">EMI_27.MMD : 戦慄</title>
-			<title code="0x29">EMI_28.MMD : 光と闇と</title>
-			<title code="0x2a">EMI_29.MMD : エスニカン マリオネット</title>
-			<title code="0x2b">EMI_30.MMD : 病院にて</title>
-			<title code="0x2c">EMI_31.MMD : 憂慮</title>
-			<title code="0x2d">EMI_32.MMD : 再会</title>
-			<title code="0x2e">EMI_33.MMD : 吐息のkiss</title>
-			<title code="0x11">EMI_02.MMD : ファンファーレ</title>
-			<title code="0x12">EMI_03.MMD : アイキャッチ</title>
-			<title code="0x19">EMI_10.MMD : Ara?</title>
-			<title code="0x1a">EMI_11.MMD : Gian!</title>
-			<title code="0x1c">EMI_13.MMD : ジャーン</title>
-			<title code="0x2f">EMI_34.MMD : MENU【瞳のarrow】Short</title>
-			<title code="0x30">EMI_35.MMD : 次回予告【瞳のarrow】</title>
-			<title code="0x31">EMI_36.MMD : ちゃちゃーん</title>
-			<title code="0x32">EMI_37.MMD : チャイム</title>
+			<title code="0x10">Hitomi's Arrow (眸のarrow (Theme Song))</title>
+			<title code="0x13">Kaori (香織)</title>
+			<title code="0x14">Tomomi (智美)</title>
+			<title code="0x15">Sumire (すみれ)</title>
+			<title code="0x16">Hitomi (瞳)</title>
+			<title code="0x17">Kyouko (鏡子)</title>
+			<title code="0x18">Rie (理恵)</title>
+			<title code="0x1b">Bloody Month (朱い月)</title>
+			<title code="0x1d">Mansion (館)</title>
+			<title code="0x1e">Feeling (Soft)</title>
+			<title code="0x1f">Feeling (Beat)</title>
+			<title code="0x20">Sit Back and Relax (くつろぎ)</title>
+			<title code="0x21">Came Off Well</title>
+			<title code="0x22">Blood Devil</title>
+			<title code="0x23">Dreamy Feeling (夢み心地)</title>
+			<title code="0x24">Well Maze (イドの迷宮)</title>
+			<title code="0x25">Wine Glass (ワイングラス)</title>
+			<title code="0x26">Heavy Sounds</title>
+			<title code="0x27">Eight Actuality</title>
+			<title code="0x28">Shivering (戦慄)</title>
+			<title code="0x29">Light and Darkness (光と闇と)</title>
+			<title code="0x2a">Esnican Marionette (エスニカン マリオネット)</title>
+			<title code="0x2b">At the Hospital (病院にて)</title>
+			<title code="0x2c">Anxiety (憂慮)</title>
+			<title code="0x2d">Meeting Again (再会)</title>
+			<title code="0x2e">A Kiss of Sigh (吐息のKiss)</title>
+			<title code="0x11">Fanfare (ファンファーレ)</title>
+			<title code="0x12">Eyecatch (アイキャッチ)</title>
+			<title code="0x19">Huh? (Ara?)</title>
+			<title code="0x1a">Gaah! (Gian!)</title>
+			<title code="0x1c">Dong (ジャーン)</title>
+			<title code="0x2f">Hitomi's Arrow (Menu Short) (MENU【瞳のarrow】Short)</title>
+			<title code="0x30">Hitomi's Arrow (Coming Next) (次回予告【瞳のarrow】)</title>
+			<title code="0x31">Tadaa (ちゃちゃーん)</title>
+			<title code="0x32">Chime (チャイム)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Don't Call Me Amy! (エイミーと呼ばないでっ) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">C's Ware</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="amy_98">
+			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
+			<rom type="file" offset="-1">MMD.COM</rom>
+			<rom type="file" offset="0x10">EMI_01.MMD</rom>
+			<rom type="file" offset="0x11">EMI_02.MMD</rom>
+			<rom type="file" offset="0x12">EMI_03.MMD</rom>
+			<rom type="file" offset="0x13">EMI_04.MMD</rom>
+			<rom type="file" offset="0x14">EMI_05.MMD</rom>
+			<rom type="file" offset="0x15">EMI_06.MMD</rom>
+			<rom type="file" offset="0x16">EMI_07.MMD</rom>
+			<rom type="file" offset="0x17">EMI_08.MMD</rom>
+			<rom type="file" offset="0x18">EMI_09.MMD</rom>
+			<rom type="file" offset="0x19">EMI_10.MMD</rom>
+			<rom type="file" offset="0x1a">EMI_11.MMD</rom>
+			<rom type="file" offset="0x1b">EMI_12.MMD</rom>
+			<rom type="file" offset="0x1c">EMI_13.MMD</rom>
+			<rom type="file" offset="0x1d">EMI_14.MMD</rom>
+			<rom type="file" offset="0x1e">EMI_15.MMD</rom>
+			<rom type="file" offset="0x1f">EMI_16.MMD</rom>
+			<rom type="file" offset="0x20">EMI_17.MMD</rom>
+			<rom type="file" offset="0x21">EMI_19.MMD</rom>
+			<rom type="file" offset="0x22">EMI_21.MMD</rom>
+			<rom type="file" offset="0x23">EMI_22.MMD</rom>
+			<rom type="file" offset="0x24">EMI_23.MMD</rom>
+			<rom type="file" offset="0x25">EMI_24.MMD</rom>
+			<rom type="file" offset="0x26">EMI_25.MMD</rom>
+			<rom type="file" offset="0x27">EMI_26.MMD</rom>
+			<rom type="file" offset="0x28">EMI_27.MMD</rom>
+			<rom type="file" offset="0x29">EMI_28.MMD</rom>
+			<rom type="file" offset="0x2a">EMI_29.MMD</rom>
+			<rom type="file" offset="0x2b">EMI_30.MMD</rom>
+			<rom type="file" offset="0x2c">EMI_31.MMD</rom>
+			<rom type="file" offset="0x2d">EMI_32.MMD</rom>
+			<rom type="file" offset="0x2e">EMI_33.MMD</rom>
+			<rom type="file" offset="0x2f">EMI_34.MMD</rom>
+			<rom type="file" offset="0x30">EMI_35.MMD</rom>
+			<rom type="file" offset="0x31">EMI_36.MMD</rom>
+			<rom type="file" offset="0x32">EMI_37.MMD</rom>
+			<rom type="shell" offset="0">MMD /M24 /K</rom>
+			<rom type="shell" offset="0">MMP_HOOT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Hitomi's Arrow (眸のarrow (Theme Song))</title>
+			<title code="0x13">Kaori (香織)</title>
+			<title code="0x14">Tomomi (智美)</title>
+			<title code="0x15">Sumire (すみれ)</title>
+			<title code="0x16">Hitomi (瞳)</title>
+			<title code="0x17">Kyouko (鏡子)</title>
+			<title code="0x18">Rie (理恵)</title>
+			<title code="0x1b">Bloody Month (朱い月)</title>
+			<title code="0x1d">Mansion (館)</title>
+			<title code="0x1e">Feeling (Soft)</title>
+			<title code="0x1f">Feeling (Beat)</title>
+			<title code="0x20">Sit Back and Relax (くつろぎ)</title>
+			<title code="0x21">Came Off Well</title>
+			<title code="0x22">Blood Devil</title>
+			<title code="0x23">Dreamy Feeling (夢み心地)</title>
+			<title code="0x24">Well Maze (イドの迷宮)</title>
+			<title code="0x25">Wine Glass (ワイングラス)</title>
+			<title code="0x26">Heavy Sounds</title>
+			<title code="0x27">Eight Actuality</title>
+			<title code="0x28">Shivering (戦慄)</title>
+			<title code="0x29">Light and Darkness (光と闇と)</title>
+			<title code="0x2a">Esnican Marionette (エスニカン マリオネット)</title>
+			<title code="0x2b">At the Hospital (病院にて)</title>
+			<title code="0x2c">Anxiety (憂慮)</title>
+			<title code="0x2d">Meeting Again (再会)</title>
+			<title code="0x2e">A Kiss of Sigh (吐息のKiss)</title>
+			<title code="0x11">Fanfare (ファンファーレ)</title>
+			<title code="0x12">Eyecatch (アイキャッチ)</title>
+			<title code="0x19">Huh? (Ara?)</title>
+			<title code="0x1a">Gaah! (Gian!)</title>
+			<title code="0x1c">Dong (ジャーン)</title>
+			<title code="0x2f">Hitomi's Arrow (Menu Short) (MENU【瞳のarrow】Short)</title>
+			<title code="0x30">Hitomi's Arrow (Coming Next) (次回予告【瞳のarrow】)</title>
+			<title code="0x31">Tadaa (ちゃちゃーん)</title>
+			<title code="0x32">Chime (チャイム)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -817,7 +905,7 @@
 			<title code="0x1B">SFX "Slapping" (張り手)</title>
 			<title code="0x28">SFX "Telephone Ring" (電話)</title>
 			<range min="0x0801" max="0x0810" extcode="1">NAZO.EFC #%2X</range>
-			<title code="0x081a">NAZO.EFC 081A</title>
+			<title code="0x081a">NAZO.EFC #081A</title>
 		</titlelist>
 	</game>
 	<game>
@@ -915,11 +1003,12 @@
 			<title code="12">SFX "Chime"</title>
 			<title code="13">SFX "Door Slam"</title>
 			<title code="45">SFX "Gun"</title>
+			<title code="46">SFX "Logo"</title>
 			<title code="50">TIT3_R.MLO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 禁断の血族</name>
+		<name>[PC-9801] Kindan no Ketsuzoku (禁断の血族) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">C's Ware</driveralias>
 		<options>
@@ -959,37 +1048,37 @@
 			<rom type="shell" offset="0">MLALF_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="16">PIP02.MLO  : エレピアノ バロック</title>
-			<title code="26">SOR03.MLO  : 崩落</title>
-			<title code="14">LS11.MLO   : 災難</title>
-			<title code="27">STR03.MLO  : 泉の精のワルツ</title>
-			<title code="15">LS71.MLO   : 危機</title>
-			<title code="17">PIP03.MLO  : 躊躇</title>
-			<title code="28">TI7.MLO    : 禁断の血族</title>
-			<title code="18">PIP04.MLO  : 別離の逢瀬</title>
-			<title code="30">YOK02.MLO  : 緊縛モード</title>
-			<title code="19">PIP07.MLO  : 隷属</title>
-			<title code="20">PIP08.MLO  : 発覚</title>
-			<title code="21">PIP13.MLO  : 一段落</title>
-			<title code="22">PIP15.MLO  : 無邪気</title>
-			<title code="23">PIP16.MLO  : 朝</title>
-			<title code="31">YOK08.MLO  : 帰宅</title>
-			<title code="32">YOK10.MLO  : いさかい</title>
-			<title code="37">YOK51.MLO  : 疑心</title>
-			<title code="12">HH09.MLO   : 濡れた花弁</title>
-			<title code="13">HH11.MLO   : 愛欲の虜</title>
-			<title code="25">ROOM03.MLO : 花々</title>
-			<title code="29">TIRA.MLO   : 遠方よりの依頼</title>
-			<title code="33">YOK14.MLO  : 奪い合い</title>
-			<title code="11">EARA.MLO   : 自室にて</title>
-			<title code="35">YOK19.MLO  : グラスベル</title>
-			<title code="34">YOK18.MLO  : 奇妙な屋敷</title>
-			<title code="24">PISTLE.MLO : 猟銃</title>
-			<title code="36">YOK40.MLO  : 遁走</title>
+			<title code="16">Electric Piano Baroque (エレピアノ バロック)</title>
+			<title code="26">Collapse (崩落)</title>
+			<title code="14">Accident (災難)</title>
+			<title code="27">Waltz of the Fountain Spirit (泉の精のワルツ)</title>
+			<title code="15">Crisis (危機)</title>
+			<title code="17">Hesitation (躊躇)</title>
+			<title code="28">Forbidden Kinship (禁断の血族)</title>
+			<title code="18">Tryst of Separation (別離の逢瀬)</title>
+			<title code="30">Bondage Mode (緊縛モード)</title>
+			<title code="19">Subordination (隷属)</title>
+			<title code="20">Discovery (発覚)</title>
+			<title code="21">Conclusion (一段落)</title>
+			<title code="22">Innocent (無邪気)</title>
+			<title code="23">Morning (朝)</title>
+			<title code="31">Homecoming (帰宅)</title>
+			<title code="32">Quarrel (いさかい)</title>
+			<title code="37">Suspicion (疑心)</title>
+			<title code="12">Moist Petals (濡れた花弁)</title>
+			<title code="13">Slave of Passion (愛欲の虜)</title>
+			<title code="25">Gallantry (花々)</title>
+			<title code="29">A Request From Faraway (遠方よりの依頼)</title>
+			<title code="33">Wrangle (奪い合い)</title>
+			<title code="11">In My Room (自室にて)</title>
+			<title code="35">Glass Bell (グラスベル)</title>
+			<title code="34">Weird Mansion (奇妙な屋敷)</title>
+			<title code="24">Pistol (猟銃)</title>
+			<title code="36">Runaway (遁走)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] エイミーと呼ばないでっ(OPNA)</name>
+		<name>[PC-9821] Don't Call Me Amy! (エイミーと呼ばないでっ) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1040,51 +1129,51 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EMI01_86.M : 眸のarrow(Thema Song)</title>
-			<title code="0x13">EMI04_86.M : 香織</title>
-			<title code="0x14">EMI05_86.M : 智美</title>
-			<title code="0x15">EMI06_86.M : すみれ</title>
-			<title code="0x16">EMI07_86.M : 瞳</title>
-			<title code="0x17">EMI08_86.M : 鏡子</title>
-			<title code="0x18">EMI09_86.M : 理恵</title>
-			<title code="0x1b">EMI12_86.M : 朱い月</title>
-			<title code="0x1d">EMI14_86.M : 館</title>
-			<title code="0x1e">EMI15_86.M : Feeling(soft)</title>
-			<title code="0x1f">EMI16_86.M : Feeling(beat)</title>
-			<title code="0x20">EMI17_86.M : くつろぎ</title>
-			<title code="0x21">EMI19_86.M : Came of Well</title>
-			<title code="0x22">EMI21_86.M : Blood Devil</title>
-			<title code="0x23">EMI22_86.M : 夢み心地</title>
-			<title code="0x24">EMI23_86.M : イドの迷宮</title>
-			<title code="0x25">EMI24_86.M : ワイングラス</title>
-			<title code="0x26">EMI25_86.M : Heavy Sounds</title>
-			<title code="0x27">EMI26_86.M : Eight Actuality</title>
-			<title code="0x28">EMI27_86.M : 戦慄</title>
-			<title code="0x29">EMI28_86.M : 光と闇と</title>
-			<title code="0x2a">EMI29_86.M : エスニカン マリオネット</title>
-			<title code="0x2b">EMI30_86.M : 病院にて</title>
-			<title code="0x2c">EMI31_86.M : 憂慮</title>
-			<title code="0x2d">EMI32_86.M : 再会</title>
-			<title code="0x2e">EMI33_86.M : 吐息のkiss</title>
-			<title code="0x11">EMI02_86.M : ファンファーレ</title>
-			<title code="0x12">EMI03_86.M : アイキャッチ</title>
-			<title code="0x19">EMI10_86.M : Ara？</title>
-			<title code="0x1a">EMI11_86.M : Gian!</title>
-			<title code="0x1c">EMI13_86.M : ジャーン</title>
-			<title code="0x2f">EMI34_86.M : MENU【瞳のarrow】Short</title>
-			<title code="0x30">EMI35_86.M : 次回予告【瞳のarrow】</title>
-			<title code="0x31">EMI36_86.M : ちゃちゃーん</title>
-			<title code="0x32">EMI37_86.M : チャイム</title>
-			<title code="0x32">EMI38_86.M : ぽくぽく</title>
-			<range min="0x0801" max="0x0814" extcode="0">EIMY.EFC   : %02X</range>
-			<title code="0x818">EIMY.EFC   : 18</title>
-			<title code="0x81a">EIMY.EFC   : 1A</title>
-			<title code="0x81b">EIMY.EFC   : 1B</title>
-			<title code="0x828">EIMY.EFC   : 28</title>
+			<title code="0x10">Hitomi's Arrow (眸のarrow (Theme Song))</title>
+			<title code="0x13">Kaori (香織)</title>
+			<title code="0x14">Tomomi (智美)</title>
+			<title code="0x15">Sumire (すみれ)</title>
+			<title code="0x16">Hitomi (瞳)</title>
+			<title code="0x17">Kyouko (鏡子)</title>
+			<title code="0x18">Rie (理恵)</title>
+			<title code="0x1b">Bloody Month (朱い月)</title>
+			<title code="0x1d">Mansion (館)</title>
+			<title code="0x1e">Feeling (Soft)</title>
+			<title code="0x1f">Feeling (Beat)</title>
+			<title code="0x20">Sit Back and Relax (くつろぎ)</title>
+			<title code="0x21">Came Off Well</title>
+			<title code="0x22">Blood Devil</title>
+			<title code="0x23">Dreamy Feeling (夢み心地)</title>
+			<title code="0x24">Well Maze (イドの迷宮)</title>
+			<title code="0x25">Wine Glass (ワイングラス)</title>
+			<title code="0x26">Heavy Sounds</title>
+			<title code="0x27">Eight Actuality</title>
+			<title code="0x28">Shivering (戦慄)</title>
+			<title code="0x29">Light and Darkness (光と闇と)</title>
+			<title code="0x2a">Esnican Marionette (エスニカン マリオネット)</title>
+			<title code="0x2b">At the Hospital (病院にて)</title>
+			<title code="0x2c">Anxiety (憂慮)</title>
+			<title code="0x2d">Meeting Again (再会)</title>
+			<title code="0x2e">A Kiss of Sigh (吐息のKiss)</title>
+			<title code="0x11">Fanfare (ファンファーレ)</title>
+			<title code="0x12">Eyecatch (アイキャッチ)</title>
+			<title code="0x19">Huh? (Ara?)</title>
+			<title code="0x1a">Gaah! (Gian!)</title>
+			<title code="0x1c">Dong (ジャーン)</title>
+			<title code="0x2f">Hitomi's Arrow (Menu Short) (MENU【瞳のarrow】Short)</title>
+			<title code="0x30">Hitomi's Arrow (Coming Next) (次回予告【瞳のarrow】)</title>
+			<title code="0x31">Tadaa (ちゃちゃーん)</title>
+			<title code="0x32">Chime (チャイム)</title>
+			<title code="0x33">Bonk Bonk (ぽくぽく)</title>
+			<range min="0x0801" max="0x0814" extcode="0">EIMY.EFC #%2X</range>
+			<title code="0x818">EIMY.EFC #818</title>
+			<title code="0x81a">EIMY.EFC #81A</title>
+			<title code="0x81b">EIMY.EFC #81B</title>
+			<title code="0x828">EIMY.EFC #828</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] エイミーと呼ばないでっ(GS)</name>
+		<name>[PC-9821] Don't Call Me Amy! (エイミーと呼ばないでっ) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1134,45 +1223,45 @@
 			<rom type="shell" offset="0">MMP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">EMI01.MMD : 眸のarrow(Thema Song)</title>
-			<title code="0x13">EMI04.MMD : 香織</title>
-			<title code="0x14">EMI05.MMD : 智美</title>
-			<title code="0x15">EMI06.MMD : すみれ</title>
-			<title code="0x16">EMI07.MMD : 瞳</title>
-			<title code="0x17">EMI08.MMD : 鏡子</title>
-			<title code="0x18">EMI09.MMD : 理恵</title>
-			<title code="0x1b">EMI12.MMD : 朱い月</title>
-			<title code="0x1d">EMI14.MMD : 館</title>
-			<title code="0x1e">EMI15.MMD : Feeling(soft)</title>
-			<title code="0x1f">EMI16.MMD : Feeling(beat)</title>
-			<title code="0x20">EMI17.MMD : くつろぎ</title>
-			<title code="0x21">EMI19.MMD : Came of Well</title>
-			<title code="0x22">EMI21.MMD : Blood Devil</title>
-			<title code="0x23">EMI22.MMD : 夢み心地</title>
-			<title code="0x24">EMI23.MMD : イドの迷宮</title>
-			<title code="0x25">EMI24.MMD : ワイングラス</title>
-			<title code="0x26">EMI25.MMD : Heavy Sounds</title>
-			<title code="0x27">EMI26.MMD : Eight Actuality</title>
-			<title code="0x28">EMI27.MMD : 戦慄</title>
-			<title code="0x29">EMI28.MMD : 光と闇と</title>
-			<title code="0x2a">EMI29.MMD : エスニカン マリオネット</title>
-			<title code="0x2b">EMI30.MMD : 病院にて</title>
-			<title code="0x2c">EMI31.MMD : 憂慮</title>
-			<title code="0x2d">EMI32.MMD : 再会</title>
-			<title code="0x2e">EMI33.MMD : 吐息のkiss</title>
-			<title code="0x11">EMI02.MMD : ファンファーレ</title>
-			<title code="0x12">EMI03.MMD : アイキャッチ</title>
-			<title code="0x19">EMI10.MMD : Ara?</title>
-			<title code="0x1a">EMI11.MMD : Gian!</title>
-			<title code="0x1c">EMI13.MMD : ジャーン</title>
-			<title code="0x2f">EMI34.MMD : MENU【瞳のarrow】Short</title>
-			<title code="0x30">EMI35.MMD : 次回予告【瞳のarrow】</title>
-			<title code="0x31">EMI36.MMD : ちゃちゃーん</title>
-			<title code="0x32">EMI37.MMD : チャイム</title>
+			<title code="0x10">Hitomi's Arrow (眸のarrow (Theme Song))</title>
+			<title code="0x13">Kaori (香織)</title>
+			<title code="0x14">Tomomi (智美)</title>
+			<title code="0x15">Sumire (すみれ)</title>
+			<title code="0x16">Hitomi (瞳)</title>
+			<title code="0x17">Kyouko (鏡子)</title>
+			<title code="0x18">Rie (理恵)</title>
+			<title code="0x1b">Bloody Month (朱い月)</title>
+			<title code="0x1d">Mansion (館)</title>
+			<title code="0x1e">Feeling (Soft)</title>
+			<title code="0x1f">Feeling (Beat)</title>
+			<title code="0x20">Sit Back and Relax (くつろぎ)</title>
+			<title code="0x21">Came Off Well</title>
+			<title code="0x22">Blood Devil</title>
+			<title code="0x23">Dreamy Feeling (夢み心地)</title>
+			<title code="0x24">Well Maze (イドの迷宮)</title>
+			<title code="0x25">Wine Glass (ワイングラス)</title>
+			<title code="0x26">Heavy Sounds</title>
+			<title code="0x27">Eight Actuality</title>
+			<title code="0x28">Shivering (戦慄)</title>
+			<title code="0x29">Light and Darkness (光と闇と)</title>
+			<title code="0x2a">Esnican Marionette (エスニカン マリオネット)</title>
+			<title code="0x2b">At the Hospital (病院にて)</title>
+			<title code="0x2c">Anxiety (憂慮)</title>
+			<title code="0x2d">Meeting Again (再会)</title>
+			<title code="0x2e">A Kiss of Sigh (吐息のKiss)</title>
+			<title code="0x11">Fanfare (ファンファーレ)</title>
+			<title code="0x12">Eyecatch (アイキャッチ)</title>
+			<title code="0x19">Huh? (Ara?)</title>
+			<title code="0x1a">Gaah! (Gian!)</title>
+			<title code="0x1c">Dong (ジャーン)</title>
+			<title code="0x2f">Hitomi's Arrow (Menu Short) (MENU【瞳のarrow】Short)</title>
+			<title code="0x30">Hitomi's Arrow (Coming Next) (次回予告【瞳のarrow】)</title>
+			<title code="0x31">Tadaa (ちゃちゃーん)</title>
+			<title code="0x32">Chime (チャイム)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] DESIRE ～背徳の螺旋～</name>
+		<name>[PC-9821] Desire: Spiral of Perversion (デザイア 背徳の螺旋) (YM2608)</name>
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1230,34 +1319,34 @@
 			<rom type="bgm" offset="0x28">TITLE.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">OPENING.M</title>
-			<title code="0x28">TITLE.M</title>
-			<title code="0x02">DES_01.M  : Noon</title>
-			<title code="0x03">DES_02.M  : Music Box</title>
-			<title code="0x04">DES_03.M  : Room</title>
-			<title code="0x05">DES_04.M  : Search I</title>
-			<title code="0x06">DES_05.M  : Gag</title>
-			<title code="0x07">DES_07.M  : Night</title>
-			<title code="0x08">DES_08.M  : Hard Scene I</title>
-			<title code="0x09">DES_12.M  : Suspicion I</title>
-			<title code="0x0a">DES_13.M  : Dream I</title>
-			<title code="0x0c">DES_15.M  : Hard Scene II</title>
-			<title code="0x0d">DES_16.M  : Hard Scene II</title>
-			<title code="0x0e">DES_17.M  : Feel Easy</title>
-			<title code="0x0f">DES_19.M  : Search II</title>
-			<title code="0x10">DES_21.M  : Anxious I</title>
-			<title code="0x11">DES_22.M  : Anxious II</title>
-			<title code="0x12">DES_24.M  : Dream II</title>
-			<title code="0x13">DES_26.M  : Responser HungUp!</title>
-			<title code="0x14">DES_31.M  : Responser</title>
-			<title code="0x15">DES_32.M  : Tina</title>
-			<title code="0x16">DES_34.M  : Pinch</title>
-			<title code="0x17">DES_36.M  : Suspicion II</title>
-			<title code="0x1b">DES_79.M  : Makoto's</title>
-			<title code="0x1d">DES_82.M  : The Another World</title>
-			<title code="0x1e">DES_84.M  : Suspicion</title>
-			<title code="0x1f">DES_85.M  : Lamentable</title>
-			<title code="0x20">ENDING.M</title>
+			<title code="0x21">Opening</title>
+			<title code="0x28">Title</title>
+			<title code="0x02">Noon</title>
+			<title code="0x03">Music Box</title>
+			<title code="0x04">Room</title>
+			<title code="0x05">Search I</title>
+			<title code="0x06">Gag</title>
+			<title code="0x07">Night</title>
+			<title code="0x08">Hard Scene I</title>
+			<title code="0x09">Suspicion I</title>
+			<title code="0x0a">Dream I</title>
+			<title code="0x0c">Hard Scene II</title>
+			<title code="0x0d">Hard Scene II</title>
+			<title code="0x0e">Feel Easy</title>
+			<title code="0x0f">Search II</title>
+			<title code="0x10">Anxious I</title>
+			<title code="0x11">Anxious II</title>
+			<title code="0x12">Dream II</title>
+			<title code="0x13">Responser HungUp!</title>
+			<title code="0x14">Responser</title>
+			<title code="0x15">Tina</title>
+			<title code="0x16">Pinch</title>
+			<title code="0x17">Suspicion II</title>
+			<title code="0x1b">Makoto's</title>
+			<title code="0x1d">Another World</title>
+			<title code="0x1e">Suspicion III</title>
+			<title code="0x1f">Lamentable</title>
+			<title code="0x20">Ending</title>
 			<title code="0x01">AIR.M</title>
 			<title code="0x0b">DES_14.M</title>
 			<title code="0x18">DES_41.M</title>
@@ -1273,7 +1362,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] XENON ～夢幻の肢体～</name>
+		<name>[PC-9821] Xenon: Fantasy Body (ゼノン 夢幻の肢体) (YM2608)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1319,41 +1408,41 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x14">XEN86_01.M : Desert Storm</title>
-			<title code="0x15">XEN86_02.M : XENON</title>
-			<title code="0x16">XEN86_03.M : Ranphar I</title>
-			<title code="0x17">XEN86_04.M : Dim Memory</title>
-			<title code="0x18">XEN86_05.M : Realize Real</title>
-			<title code="0x19">XEN86_06.M : Reamer</title>
-			<title code="0x1a">XEN86_07.M : Sound Effect No.01</title>
-			<title code="0x1b">XEN86_08.M : Sound Effect No.02</title>
-			<title code="0x1c">XEN86_09.M : Synaps</title>
-			<title code="0x1d">XEN86_10.M : Desert Storm</title>
-			<title code="0x1e">XEN86_11.M : Tacit Communicate</title>
-			<title code="0x1f">XEN86_12.M : Access</title>
-			<title code="0x20">XEN86_13.M : Encoder</title>
+			<title code="0x14">Desert Storm</title>
+			<title code="0x15">Xenon</title>
+			<title code="0x16">Ranphar I</title>
+			<title code="0x17">Dim Memory</title>
+			<title code="0x18">Realize Real</title>
+			<title code="0x19">Reamer</title>
+			<title code="0x1a">SFX #1a</title>
+			<title code="0x1b">SFX #1b</title>
+			<title code="0x1c">Synaps</title>
+			<title code="0x1d">Desert Storm</title>
+			<title code="0x1e">Tacit Communicate</title>
+			<title code="0x1f">Access</title>
+			<title code="0x20">Encoder</title>
 			<title code="0x21">XEN86_14.M</title>
-			<title code="0x22">XEN86_15.M : Risk</title>
-			<title code="0x23">XEN86_16.M : Moonlight</title>
-			<title code="0x24">XEN86_17.M : Dream</title>
+			<title code="0x22">Risk</title>
+			<title code="0x23">Moonlight</title>
+			<title code="0x24">Dream</title>
 			<title code="0x25">XEN86_18.M</title>
 			<title code="0x26">XEN86_19.M</title>
 			<title code="0x27">XEN86_20.M</title>
-			<title code="0x28">XEN86_21.M : Towering Past</title>
-			<title code="0x29">XEN86_22.M : 7th</title>
-			<title code="0x2a">XEN86_23.M : Magenta</title>
-			<title code="0x2b">XEN86_24.M : Magnify Dark</title>
-			<title code="0x2c">XEN86_25.M : 俺達の子守唄</title>
-			<title code="0x2d">XEN86_26.M : Ranphar II</title>
+			<title code="0x28">Towering Past</title>
+			<title code="0x29">7th</title>
+			<title code="0x2a">Magenta</title>
+			<title code="0x2b">Magnify Dark</title>
+			<title code="0x2c">俺達の子守唄</title>
+			<title code="0x2d">Ranphar II</title>
 			<title code="0x2e">XEN86_27.M</title>
-			<title code="0x2f">XEN86_29.M : 警報</title>
+			<title code="0x2f">警報</title>
 			<title code="0x10">XEN03A.M</title>
 			<title code="0x12">XEN03B.M</title>
-			<range min="0x0801" max="0x0832" extcode="0">XEN_SE.EFC : %02X</range>
+			<range min="0x0801" max="0x0832" extcode="0">XEN_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] 悦楽の学園</name>
+		<name>[PC-9821] Etsuraku no Gakuen (悦楽の学園) (YM2608)</name>
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1410,47 +1499,47 @@
 		</romlist>
 		<titlelist>
 			<title code="0x010021">LOGO.MLO</title>
-			<title code="0x10">ID03.MLO     : 校内の様子</title>
-			<title code="0x19">ID51.MLO     : 雨宮淑子</title>
-			<title code="0x01">HS0701.MLO   : 夢幻</title>
-			<title code="0x24">TIT3.MLO     : 悦楽の学園</title>
-			<title code="0x15">ID21.MLO     : 職員室</title>
-			<title code="0x14">ID15.MLO     : 振間典子</title>
-			<title code="0x0b">HS0723.MLO   : 霞んだ日常</title>
-			<title code="0x23">MIST_R.MLO   : ミステリートラベル(オープニング)</title>
-			<title code="0x18">ID49.MLO     : 連絡員・由美</title>
-			<title code="0x0d">HS0726.MLO   : アバンチュール</title>
-			<title code="0x02">HS0702.MLO   : MENU</title>
-			<title code="0x07">HS0719.MLO   : 理事長室</title>
-			<title code="0x0f">ID02.MLO     : 氷室恭子</title>
-			<title code="0x0e">HS0727.MLO   : 弱味</title>
-			<title code="0x17">ID40.MLO     : 保健室</title>
-			<title code="0x1e">ID67.MLO     : 松乃広美</title>
-			<title code="0x04">HS0712.MLO   : 真心の広美</title>
-			<title code="0x12">ID12.MLO     : 体育館</title>
-			<title code="0x0c">HS0724.MLO   : 純真</title>
-			<title code="0x1a">ID54.MLO     : 温水プール</title>
-			<title code="0x1b">ID57.MLO     : 謀計</title>
-			<title code="0x08">HS0721.MLO   : 水面下</title>
-			<title code="0x06">HS0718.MLO   : 夜のしじま</title>
-			<title code="0x1d">ID62.MLO     : 純愛とナイフ</title>
-			<title code="0x09">HS0722.MLO   : 密事</title>
-			<title code="0x03">HS0711.MLO   : 性奴</title>
-			<title code="0x1c">ID59.MLO     : 広美の告白</title>
-			<title code="0x26">YK12.MLO     : 淫虐</title>
-			<title code="0x13">ID14.MLO     : 乱闘</title>
-			<title code="0x16">ID28.MLO     : 終極</title>
-			<title code="0x05">HS0716.MLO   : 名残</title>
-			<title code="0x22">MIST.MLO     : ミステリートラベル(エンディング)</title>
-			<title code="0x0a">HS0722_B.MLO</title>
+			<title code="0x10">In the School Grounds (校内の様子)</title>
+			<title code="0x19">Toshiko Amamiya (雨宮淑子)</title>
+			<title code="0x01">Phantasm (夢幻)</title>
+			<title code="0x24">School of Pleasures (悦楽の学園)</title>
+			<title code="0x15">Teachers' Room (職員室)</title>
+			<title code="0x14">Noriko Furima (振間典子)</title>
+			<title code="0x0b">Boring Routine (霞んだ日常)</title>
+			<title code="0x23">Mystery Travel (Opening) (ミステリートラベル(オープニング))</title>
+			<title code="0x18">Yumi the Liaison Girl (連絡員・由美)</title>
+			<title code="0x0d">Aventure (アバンチュール)</title>
+			<title code="0x02">Menu</title>
+			<title code="0x07">Director's Room (理事長室)</title>
+			<title code="0x0f">Kyouko Himuro (氷室恭子)</title>
+			<title code="0x0e">Weakness (弱味)</title>
+			<title code="0x17">Medical Room (保健室)</title>
+			<title code="0x1e">Hiromi Matsuno (松乃広美)</title>
+			<title code="0x04">Faithful Hiromi (真心の広美)</title>
+			<title code="0x12">Gymnasium (体育館)</title>
+			<title code="0x0c">Naivety (純真)</title>
+			<title code="0x1a">Hot Pool (温水プール)</title>
+			<title code="0x1b">Stratagem (謀計)</title>
+			<title code="0x08">Underwater (水面下)</title>
+			<title code="0x06">Night Spleen (夜のしじま)</title>
+			<title code="0x1d">Pure Love and Knife (純愛とナイフ)</title>
+			<title code="0x09">Secret 1 (密事)</title>
+			<title code="0x03">Sex Slave (性奴)</title>
+			<title code="0x1c">Hiromi's Confession (広美の告白)</title>
+			<title code="0x26">Violation (淫虐)</title>
+			<title code="0x13">Scuffle (乱闘)</title>
+			<title code="0x16">Finale (終極)</title>
+			<title code="0x05">Farewell (名残)</title>
+			<title code="0x22">Mystery Travel (Ending) (ミステリートラベル(エンディング))</title>
+			<title code="0x0a">Secret 2 (密事)</title>
 			<title code="0x11">ID08.MLO</title>
-			<title code="0x1f">KIN_3.MLO    : 災難</title>
-			<title code="0x20">KIN_9.MLO    : 緊縛モード</title>
+			<title code="0x1f">Disaster (災難)</title>
+			<title code="0x20">Bondage Mode (緊縛モード)</title>
 			<title code="0x25">TIT3_R.MLO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] 禁断の血族</name>
+		<name>[PC-9821] Kindan no Ketsuzoku (禁断の血族) (YM2608)</name>
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="PC-9821">C's Ware</driveralias>
 		<options>
@@ -1493,31 +1582,31 @@
 			<rom type="bgm" offset="0x19">YOK51.MLO</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x06">PIP02.MLO  : エレピアノ バロック</title>
-			<title code="0x0e">SOR03.MLO  : 崩落</title>
-			<title code="0x04">LS11.MLO   : 災難</title>
-			<title code="0x0f">STR03.MLO  : 泉の精のワルツ</title>
-			<title code="0x05">LS71.MLO   : 危機</title>
-			<title code="0x07">PIP03.MLO  : 躊躇</title>
-			<title code="0x10">TI7.MLO    : 禁断の血族</title>
-			<title code="0x12">YOK02.MLO  : 緊縛モード</title>
-			<title code="0x08">PIP07.MLO  : 隷属</title>
-			<title code="0x09">PIP08.MLO  : 発覚</title>
-			<title code="0x0a">PIP13.MLO  : 一段落</title>
-			<title code="0x0b">PIP15.MLO  : 無邪気</title>
-			<title code="0x0c">PIP16.MLO  : 朝</title>
-			<title code="0x13">YOK08.MLO  : 帰宅</title>
-			<title code="0x14">YOK10.MLO  : いさかい</title>
-			<title code="0x19">YOK51.MLO  : 疑心</title>
-			<title code="0x02">HH09.MLO   : 濡れた花弁</title>
-			<title code="0x03">HH11.MLO   : 愛欲の虜</title>
-			<title code="0x0d">ROOM03.MLO : 花々</title>
-			<title code="0x11">TIRA.MLO   : 遠方よりの依頼</title>
-			<title code="0x15">YOK14.MLO  : 奪い合い</title>
-			<title code="0x01">EARA.MLO   : 自室にて</title>
-			<title code="0x17">YOK19.MLO  : グラスベル</title>
-			<title code="0x16">YOK18.MLO  : 奇妙な屋敷</title>
-			<title code="0x18">YOK40.MLO  : 遁走</title>
+			<title code="0x06">Electric Piano Baroque (エレピアノ バロック)</title>
+			<title code="0x0e">Collapse (崩落)</title>
+			<title code="0x04">Accident (災難)</title>
+			<title code="0x0f">Waltz of the Fountain Spirit (泉の精のワルツ)</title>
+			<title code="0x05">Crisis (危機)</title>
+			<title code="0x07">Hesitation (躊躇)</title>
+			<title code="0x10">Forbidden Kinship (禁断の血族)</title>
+			<title code="0x12">Bondage Mode (緊縛モード)</title>
+			<title code="0x08">Subordination (隷属)</title>
+			<title code="0x09">Discovery (発覚)</title>
+			<title code="0x0a">Conclusion (一段落)</title>
+			<title code="0x0b">Innocent (無邪気)</title>
+			<title code="0x0c">Morning (朝)</title>
+			<title code="0x13">Homecoming (帰宅)</title>
+			<title code="0x14">Quarrel (いさかい)</title>
+			<title code="0x19">Suspicion (疑心)</title>
+			<title code="0x02">Moist Petals (濡れた花弁)</title>
+			<title code="0x03">Slave of Passion (愛欲の虜)</title>
+			<title code="0x0d">Gallantry (花々)</title>
+			<title code="0x11">A Request From Faraway (遠方よりの依頼)</title>
+			<title code="0x15">Wrangle (奪い合い)</title>
+			<title code="0x01">In My Room (自室にて)</title>
+			<title code="0x17">Glass Bell (グラスベル)</title>
+			<title code="0x16">Weird Mansion (奇妙な屋敷)</title>
+			<title code="0x18">Runaway (遁走)</title>
 		</titlelist>
 	</game>
 </gamelist>

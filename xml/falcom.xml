@@ -2511,7 +2511,7 @@
 	<game>
 		<name>[FM77AV] XANADU - Dragon Slayer II -</name>
 		<driver type="xanadu">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">Falcom</driveralias>
+		<driveralias type="FM77AV">Falcom</driveralias>
 		<romlist archive="xana1_fmav">
 			<rom type="code" offset="0xfee0">XA1AVPATCH</rom>
 			<rom type="prog" offset="0x01">PR.NO1</rom>
@@ -2536,7 +2536,7 @@
 	<game>
 		<name>[FM77AV] XANADU scenario II - the Resurrection of Dragon -</name>
 		<driver type="xanadu">fm77av</driver>
-		<driveralias type="FUJITSU FM77AV">Falcom</driveralias>
+		<driveralias type="FM77AV">Falcom</driveralias>
 		<romlist archive="xana2_fmav">
 			<rom type="code" offset="0xfef0">XA2AVPATCH</rom>
 			<rom type="prog" offset="1">PR.NO2</rom>
@@ -2641,7 +2641,7 @@
 	<game>
 		<name>[FM-7] Ys - Ancient Ys Vanished Omen -</name>
 		<driver type="ys">mucomfm</driver>
-		<driveralias type="FUJITSU FM-7">Falcom</driveralias>
+		<driveralias type="FM-7">Falcom</driveralias>
 		<romlist archive="ys_fm7">
 			<rom type="code" offset="0xfed0">PATCH</rom>
 			<rom type="prog" offset="1">TTLPRG</rom>
@@ -2714,7 +2714,7 @@
 	<game>
 		<name>[FM77AV] Ys - Ancient Ys Vanished Omen -</name>
 		<driver type="ysav">mucomfm</driver>
-		<driveralias type="FUJITSU FM77AV">Falcom</driveralias>
+		<driveralias type="FM77AV">Falcom</driveralias>
 		<romlist archive="ys_fmav">
 			<rom type="code" offset="0xff00">PATCH</rom>
 			<rom type="prog" offset="1">TITLEP</rom>
@@ -2790,7 +2790,7 @@
 	<game>
 		<name>[FM77AV] Ys II - Ancient Ys Vanished The Final Chapter -</name>
 		<driver type="ysav">mucomfm</driver>
-		<driveralias type="FUJITSU FM77AV">Falcom</driveralias>
+		<driveralias type="FM77AV">Falcom</driveralias>
 		<romlist archive="ys2_fmav">
 			<rom type="code" offset="0xff00">PATCH</rom>
 			<rom type="code" offset="0x8000">MUSPRG</rom>
@@ -12308,7 +12308,7 @@
 		<name>[FM TOWNS] DINOSAUR</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="FUJITSU FM TOWNS">Falcom</driveralias>
+		<driveralias type="FM TOWNS">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -12412,7 +12412,7 @@
 		<name>[FM TOWNS] LORD MONARCH</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="FUJITSU FM TOWNS">Falcom</driveralias>
+		<driveralias type="FM TOWNS">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -12466,7 +12466,7 @@
 		<name>[FM TOWNS] Brandish</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="FUJITSU FM TOWNS">Falcom</driveralias>
+		<driveralias type="FM TOWNS">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -12542,7 +12542,7 @@
 		<name>[FM TOWNS] Dragon Slayer 英雄伝説</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="FUJITSU FM TOWNS">Falcom</driveralias>
+		<driveralias type="FM TOWNS">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -12600,7 +12600,7 @@
 		<name>[FM TOWNS] 英雄伝説 II</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
-		<driveralias type="FUJITSU FM TOWNS">Falcom</driveralias>
+		<driveralias type="FM TOWNS">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -14844,7 +14844,7 @@
 	<game>
 		<name>[FM-7] 太陽の神殿 - ASTEKA II -(OPN)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FUJITSU FM-7">Falcom</driveralias>
+		<driveralias type="FM-7">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0x2000"/>
 			<option name="mdata_addr" value="0x8000"/>
@@ -14868,7 +14868,7 @@
 	<game>
 		<name>[FM-7] 太陽の神殿 - ASTEKA II -(PSG)</name>
 		<driver type="generic">fm7</driver>
-		<driveralias type="FUJITSU FM-7">Falcom</driveralias>
+		<driveralias type="FM-7">Falcom</driveralias>
 		<options>
 			<option name="init_pc"    value="0x2000"/>
 			<option name="mdata_addr" value="0x8000"/>
