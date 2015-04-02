@@ -34,9 +34,9 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //Victor Entertainment / Victor/CROSSMEDIA SOFT / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/FUN FACTORY -->
+	<!-- //Victor Entertainment / Victor Entertainment / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/FUN FACTORY -->
 	<game>
-		<name>[X68000] STAR WARS - Attack on the DEATH STAR -</name>
+		<name>[X68000] Star Wars: Attack on the Death Star (スターウォーズ Attack on the DEATH STAR) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
@@ -48,11 +48,20 @@
 			<rom type="code" offset="0x12000">SW.MDT</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0101" max="0x013f" extcode="1">code 0x%04x</range>
+			<title code="0x0106">タイトル</title>
+			<title code="0x0101">ステージ１</title>
+			<title code="0x0102">ステージ2</title>
+			<title code="0x0103">ステージ3前半</title>
+			<title code="0x0104">ステージ3後半</title>
+			<title code="0x0105">オールクリア</title>
+			<title code="0x0109">エンディング</title>
+			<title code="0x0107">オプションモード</title>
+			<title code="0x0108">ネームエントリー</title>
+			<range min="0x010a" max="0x013f" extcode="1">BGM #%04x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] ライジング・サン</name>
+		<name>[X68000] Rising Sun (ライジング・サン) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="rsun68snd">
@@ -75,195 +84,195 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">STOP</title>
-			<title code="0x01">ライジングサン［ 防城 ］</title>
-			<title code="0x02">ライジングサン［ エンデｲング ］</title>
-			<title code="0x03">ライジングサン［ 法皇 ］</title>
-			<title code="0x04">ライジングサン［ 寺院 ］</title>
-			<title code="0x05">ライジングサン［ 合戦 ］</title>
-			<title code="0x06">ライジングサン［ 攻城 ］</title>
-			<title code="0x07">ライジングサン［ 負け ］</title>
-			<title code="0x08">ライジングサン［ 地図 ］</title>
-			<title code="0x09">ライジングサン［ 忍者アタック ］</title>
-			<title code="0x0a">ライジングサン［ OPENING ］</title>
-			<title code="0x0b">ライジングサン［ 自室 ］</title>
-			<title code="0x0c">ライジングサン［ 馬追い ］</title>
-			<title code="0x0d">ライジングサン［ 勝ち ］</title>
+			<title code="0x01">防城</title>
+			<title code="0x02">エンデｲング</title>
+			<title code="0x03">法皇</title>
+			<title code="0x04">寺院</title>
+			<title code="0x05">合戦</title>
+			<title code="0x06">攻城</title>
+			<title code="0x07">負け</title>
+			<title code="0x08">地図</title>
+			<title code="0x09">忍者アタック</title>
+			<title code="0x0a">OPENING</title>
+			<title code="0x0b">自室</title>
+			<title code="0x0c">馬追い</title>
+			<title code="0x0d">勝ち</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] FANTASIC NIGHT DREAMS COTTON</name>
+		<name>[X68000] Cotton: Fantastic Night Dreams (コットン) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">ELECTRONIC ARTS VICTOR</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="ctn68snd">
 			<rom type="code" offset="0x00000">ctn68snd.bin</rom>
 			<rom type="code" offset="0x10000">bootsnd.sys</rom>
 			<rom type="code" offset="0x11000">ctnsnd.r</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">00 : Loading</title>
-			<title code="0x02">01 : Opening</title>
-			<title code="0x03">02 : Ending</title>
-			<title code="0x04">03 : Ranking</title>
-			<title code="0x05">04 : Visual1</title>
-			<title code="0x06">05 : Game Over</title>
-			<title code="0x07">06 : Continue</title>
-			<title code="0x08">07 : Stage1</title>
-			<title code="0x09">08 : Stage2</title>
-			<title code="0x0a">09 : Stage3</title>
-			<title code="0x0b">0a : Stage4</title>
-			<title code="0x0c">0b : Stage5</title>
-			<title code="0x0d">0c : Stage6</title>
-			<title code="0x0e">0d : Boss1</title>
-			<title code="0x0f">0e : Boss2</title>
-			<title code="0x10">0f : Boss3</title>
-			<title code="0x11">10 : Boss4</title>
-			<title code="0x12">11 : Boss5</title>
-			<title code="0x13">12 : Boss6</title>
-			<title code="0x14">13 : Last Boss</title>
-			<title code="0x15">14 : Visual2</title>
-			<title code="0x61">61 : こい～ん</title>
-			<title code="0x62">62 : ひょえ～</title>
-			<title code="0x63">63 : 火龍</title>
-			<title code="0x64">64 : 雷</title>
-			<title code="0x65">65 : バリア</title>
-			<title code="0x66">66 : とんでけ～</title>
-			<title code="0x67">67 : 増えた</title>
-			<title code="0x68">68 : いくぽ～ん</title>
-			<title code="0x69">69 : てってけてー</title>
-			<title code="0x6a">6a : ふっか～つ</title>
-			<title code="0x6b">6b : さいなら～</title>
-			<title code="0x77">77 : ティータイム</title>
-			<title code="0x79">79 : 休んでぽん</title>
-			<range min="0x21" max="0x56" extcode="1">%02x : SE </range>
+			<title code="0x01">Loading</title>
+			<title code="0x02">Opening</title>
+			<title code="0x03">Ending</title>
+			<title code="0x04">Ranking</title>
+			<title code="0x05">Visual 1</title>
+			<title code="0x06">Game Over</title>
+			<title code="0x07">Continue</title>
+			<title code="0x08">Stage 1</title>
+			<title code="0x09">Stage 2</title>
+			<title code="0x0a">Stage 3</title>
+			<title code="0x0b">Stage 4</title>
+			<title code="0x0c">Stage 5</title>
+			<title code="0x0d">Stage 6</title>
+			<title code="0x0e">Boss 1</title>
+			<title code="0x0f">Boss 2</title>
+			<title code="0x10">Boss 3</title>
+			<title code="0x11">Boss 4</title>
+			<title code="0x12">Boss 5</title>
+			<title code="0x13">Boss 6</title>
+			<title code="0x14">Last Boss</title>
+			<title code="0x15">Visual 2</title>
+			<title code="0x61">こい～ん</title>
+			<title code="0x62">ひょえ～</title>
+			<title code="0x63">火龍</title>
+			<title code="0x64">雷</title>
+			<title code="0x65">バリア</title>
+			<title code="0x66">とんでけ～</title>
+			<title code="0x67">増えた</title>
+			<title code="0x68">いくぽ～ん</title>
+			<title code="0x69">てってけてー</title>
+			<title code="0x6a">ふっか～つ</title>
+			<title code="0x6b">さいなら～</title>
+			<title code="0x77">ティータイム</title>
+			<title code="0x79">休んでぽん</title>
+			<range min="0x21" max="0x56" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 上海 万里の長城</name>
+		<name>[X68000] Shanghai: Banri no Choujou: The Great Wall (上海 万里の長城 The Great Wall) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">ELECTRONIC ARTS VICTOR</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="sh468snd">
 			<rom type="code" offset="0x00000">sh468snd.bin</rom>
 			<rom type="code" offset="0x10000">sh4sound.r</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">01</title>
-			<title code="0x02">02</title>
-			<title code="0x03">03</title>
-			<title code="0x04">04</title>
-			<title code="0x05">05</title>
-			<title code="0x06">06</title>
-			<title code="0x07">07</title>
-			<title code="0x08">08</title>
-			<title code="0x09">09</title>
-			<title code="0x0a">0a</title>
-			<title code="0x0b">0b</title>
-			<title code="0x0c">0c</title>
-			<title code="0x0d">0d</title>
-			<title code="0x0e">0e</title>
-			<title code="0x0f">0f</title>
-			<title code="0x10">10</title>
-			<title code="0x11">11</title>
-			<title code="0x12">12</title>
-			<title code="0x13">13</title>
-			<title code="0x14">14</title>
-			<title code="0x15">15</title>
-			<title code="0x16">16</title>
-			<title code="0x17">17</title>
-			<title code="0x18">18</title>
-			<title code="0x19">19</title>
-			<title code="0x1a">1a</title>
-			<title code="0x1b">1b</title>
-			<title code="0x1c">1c</title>
-			<title code="0x1d">1d</title>
-			<title code="0x1e">1e : SE</title>
-			<title code="0x1f">1f : SE</title>
-			<title code="0x20">20 : SE</title>
-			<title code="0x21">21 : SE</title>
-			<title code="0x22">22 : SE</title>
-			<title code="0x23">23 : SE</title>
-			<title code="0x24">24 : SE</title>
-			<title code="0x25">25 : SE</title>
-			<title code="0x26">26 : SE</title>
-			<title code="0x27">27 : SE</title>
-			<title code="0x28">28 : SE</title>
-			<title code="0x29">29 : SE</title>
-			<title code="0x2a">2a : SE</title>
-			<title code="0x2b">2b : SE</title>
-			<title code="0x2c">2c : SE</title>
-			<title code="0x2d">2d : SE</title>
-			<title code="0x2e">2e : SE</title>
-			<title code="0x2f">2f : SE</title>
-			<title code="0x30">30 : SE</title>
-			<title code="0x31">31 : SE</title>
-			<title code="0x32">32 : SE</title>
-			<title code="0x33">33 : SE</title>
-			<title code="0x34">34 : SE</title>
-			<title code="0x35">35 : SE</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+			<title code="0x0f">BGM #0f</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x1a">BGM #1a</title>
+			<title code="0x1b">BGM #1b</title>
+			<title code="0x1c">BGM #1c</title>
+			<title code="0x1d">BGM #1d</title>
+			<title code="0x1e">SFX #1e</title>
+			<title code="0x1f">SFX #1f</title>
+			<title code="0x20">SFX #20</title>
+			<title code="0x21">SFX #21</title>
+			<title code="0x22">SFX #22</title>
+			<title code="0x23">SFX #23</title>
+			<title code="0x24">SFX #24</title>
+			<title code="0x25">SFX #25</title>
+			<title code="0x26">SFX #26</title>
+			<title code="0x27">SFX #27</title>
+			<title code="0x28">SFX #28</title>
+			<title code="0x29">SFX #29</title>
+			<title code="0x2a">SFX #2a</title>
+			<title code="0x2b">SFX #2b</title>
+			<title code="0x2c">SFX #2c</title>
+			<title code="0x2d">SFX #2d</title>
+			<title code="0x2e">SFX #2e</title>
+			<title code="0x2f">SFX #2f</title>
+			<title code="0x30">SFX #30</title>
+			<title code="0x31">SFX #31</title>
+			<title code="0x32">SFX #32</title>
+			<title code="0x33">SFX #33</title>
+			<title code="0x34">SFX #34</title>
+			<title code="0x35">SFX #35</title>
 			<!--
-			<title code="0x36">36 : SE</title>
-			<title code="0x37">37 : SE</title>
-			<title code="0x38">38 : SE</title>
-			<title code="0x39">39 : SE</title>
-			<title code="0x3a">3c : SE</title>
-			<title code="0x3b">3b : SE</title>
-			<title code="0x3c">3c : SE</title>
-			<title code="0x3d">3d : SE</title>
-			<title code="0x3e">3e : SE</title>
-			<title code="0x3f">3f : SE</title>
-			<title code="0x40">40 : SE</title>
-			<title code="0x41">41 : SE</title>
-			<title code="0x42">42 : SE</title>
-			<title code="0x43">43 : SE</title>
-			<title code="0x44">44 : SE</title>
-			<title code="0x45">45 : SE</title>
-			<title code="0x46">46 : SE</title>
-			<title code="0x47">47 : SE</title>
-			<title code="0x48">48 : SE</title>
-			<title code="0x49">49 : SE</title>
-			<title code="0x4a">4a : SE</title>
-			<title code="0x4b">4b : SE</title>
-			<title code="0x4c">4c : SE</title>
-			<title code="0x4d">4d : SE</title>
-			<title code="0x4e">4e : SE</title>
-			<title code="0x4f">4f : SE</title>
-			<title code="0x50">50 : SE</title>
-			<title code="0x51">51 : SE</title>
-			<title code="0x52">52 : SE</title>
-			<title code="0x53">53 : SE</title>
-			<title code="0x54">54 : SE</title>
-			<title code="0x55">55 : SE</title>
-			<title code="0x56">56 : SE</title>
-			<title code="0x57">57 : SE</title>
-			<title code="0x58">58 : SE</title>
-			<title code="0x59">59 : SE</title>
-			<title code="0x5a">5a : SE</title>
-			<title code="0x5b">5b : SE</title>
-			<title code="0x5c">5c : SE</title>
-			<title code="0x5d">5d : SE</title>
-			<title code="0x5e">5e : SE</title>
-			<title code="0x5f">5f : SE</title>
-			<title code="0x60">60 : SE</title>
-			<title code="0x61">61 : SE</title>
-			<title code="0x62">62 : SE</title>
-			<title code="0x63">63 : SE</title>
-			<title code="0x64">64 : SE</title>
-			<title code="0x65">65 : SE</title>
-			<title code="0x66">66 : SE</title>
-			<title code="0x67">67 : SE</title>
-			<title code="0x68">68 : SE</title>
-			<title code="0x69">69 : SE</title>
-			<title code="0x6a">6a : SE</title>
-			<title code="0x6b">6b : SE</title>
-			<title code="0x6c">6c : SE</title>
-			<title code="0x6d">6d : SE</title>
-			<title code="0x6e">6e : SE</title>
-			<title code="0x6f">6f : SE</title>
-			<title code="0x70">70 : SE</title>
+			<title code="0x36">SFX #36</title>
+			<title code="0x37">SFX #37</title>
+			<title code="0x38">SFX #38</title>
+			<title code="0x39">SFX #39</title>
+			<title code="0x3a">SFX #3c</title>
+			<title code="0x3b">SFX #3b</title>
+			<title code="0x3c">SFX #3c</title>
+			<title code="0x3d">SFX #3d</title>
+			<title code="0x3e">SFX #3e</title>
+			<title code="0x3f">SFX #3f</title>
+			<title code="0x40">SFX #40</title>
+			<title code="0x41">SFX #41</title>
+			<title code="0x42">SFX #42</title>
+			<title code="0x43">SFX #43</title>
+			<title code="0x44">SFX #44</title>
+			<title code="0x45">SFX #45</title>
+			<title code="0x46">SFX #46</title>
+			<title code="0x47">SFX #47</title>
+			<title code="0x48">SFX #48</title>
+			<title code="0x49">SFX #49</title>
+			<title code="0x4a">SFX #4a</title>
+			<title code="0x4b">SFX #4b</title>
+			<title code="0x4c">SFX #4c</title>
+			<title code="0x4d">SFX #4d</title>
+			<title code="0x4e">SFX #4e</title>
+			<title code="0x4f">SFX #4f</title>
+			<title code="0x50">SFX #50</title>
+			<title code="0x51">SFX #51</title>
+			<title code="0x52">SFX #52</title>
+			<title code="0x53">SFX #53</title>
+			<title code="0x54">SFX #54</title>
+			<title code="0x55">SFX #55</title>
+			<title code="0x56">SFX #56</title>
+			<title code="0x57">SFX #57</title>
+			<title code="0x58">SFX #58</title>
+			<title code="0x59">SFX #59</title>
+			<title code="0x5a">SFX #5a</title>
+			<title code="0x5b">SFX #5b</title>
+			<title code="0x5c">SFX #5c</title>
+			<title code="0x5d">SFX #5d</title>
+			<title code="0x5e">SFX #5e</title>
+			<title code="0x5f">SFX #5f</title>
+			<title code="0x60">SFX #60</title>
+			<title code="0x61">SFX #61</title>
+			<title code="0x62">SFX #62</title>
+			<title code="0x63">SFX #63</title>
+			<title code="0x64">SFX #64</title>
+			<title code="0x65">SFX #65</title>
+			<title code="0x66">SFX #66</title>
+			<title code="0x67">SFX #67</title>
+			<title code="0x68">SFX #68</title>
+			<title code="0x69">SFX #69</title>
+			<title code="0x6a">SFX #6a</title>
+			<title code="0x6b">SFX #6b</title>
+			<title code="0x6c">SFX #6c</title>
+			<title code="0x6d">SFX #6d</title>
+			<title code="0x6e">SFX #6e</title>
+			<title code="0x6f">SFX #6f</title>
+			<title code="0x70">SFX #70</title>
 -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ALANTIA - LEGEND OF BLUE STAR -</name>
+		<name>[PC-9801] Alantia (アランティア) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -275,7 +284,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x0c"/>
 		</options>
-		<romlist archive="alantia">
+		<romlist archive="alantia_98">
 			<rom type="code" offset="0x20000">DRIVER</rom>
 			<rom type="code" offset="0x2f000">alantia.bin</rom>
 			<rom type="code" offset="0x40000">DATA</rom>
@@ -292,21 +301,21 @@
 			<rom type="bgm" offset="0x0b">MUS10</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MUS00 : オープニングアニメーション</title>
-			<title code="0x07">MUS06 : メニュージングル</title>
-			<title code="0x05">MUS04 : Lonely Tracer</title>
-			<title code="0x04">MUS03 : Reflecting In My Mind</title>
-			<title code="0x03">MUS02 : Wizardly</title>
-			<title code="0x02">MUS01 : Ways</title>
-			<title code="0x06">MUS05 : Somebody There</title>
-			<title code="0x09">MUS08 : Moon Light</title>
-			<title code="0x0a">MUS09 : Long Lost Lover</title>
-			<title code="0x0b">MUS10 : Look In Your Eyes</title>
+			<title code="0x01">オープニングアニメーション</title>
+			<title code="0x07">メニュージングル</title>
+			<title code="0x05">Lonely Tracer</title>
+			<title code="0x04">Reflecting In My Mind</title>
+			<title code="0x03">Wizardry</title>
+			<title code="0x02">Ways</title>
+			<title code="0x06">Somebody There</title>
+			<title code="0x09">Moon Light</title>
+			<title code="0x0a">Long Lost Lover</title>
+			<title code="0x0b">Look In Your Eyes</title>
 			<title code="0x08">MUS07</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR WARS - Attack on the DEATH STAR -</name>
+		<name>[PC-9801] Star Wars: Attack on the Death Star (スターウォーズ Attack on the DEATH STAR) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -441,7 +450,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CLASSIC ROAD 2</name>
+		<name>[PC-9801] Classic Road 2 (クラシック・ロード2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -492,7 +501,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CLASSIC ROAD 3</name>
+		<name>[PC-9801] Classic Road 3 (クラシック・ロード3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -569,9 +578,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] MOLE MOLE 2</name>
+		<name>[PC-8801] Mole Mole 2 (モールモール2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
@@ -611,9 +620,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 敵は海賊・海賊版</name>
+		<name>[PC-8801] Teki wa Kaizoku: Kaizokuban (敵は海賊・海賊版) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">D-PHOTON/ビクター音楽産業</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -628,9 +637,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] デウリング ～魔王の館～</name>
+		<name>[PC-8801] Dwelling: Maou no Yakata (デウリング ～魔王の館～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x1a00"/>
@@ -652,9 +661,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ナイルの涙</name>
+		<name>[PC-8801] Nile no Namida (ナイルの涙) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -666,57 +675,57 @@
 			<rom type="code" offset="0xc000">PROG3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">OPENING</title>
-		<!--	<title code="0x01000001">EFFECT #01</title> -->
-		<!--	<title code="0x02000001">EFFECT #02</title> -->
-		<!--	<title code="0x03000001">EFFECT #03</title> -->
-		<!--	<title code="0x04000001">EFFECT #04</title> -->
-		<!--	<title code="0x05000001">EFFECT #05</title> -->
-		<!--	<title code="0x06000001">EFFECT #06</title> -->
-		<!--	<title code="0x07000001">EFFECT #07</title> -->
-		<!--	<title code="0x08000001">EFFECT #08</title> -->
-		<!--	<title code="0x09000001">EFFECT #09</title> -->
-		<!--	<title code="0x0a000001">EFFECT #0a</title> -->
-		<!--	<title code="0x0b000001">EFFECT #0b</title> -->
-		<!--	<title code="0x0c000001">EFFECT #0c</title> -->
-		<!--	<title code="0x0d000001">EFFECT #0d</title> -->
-		<!--	<title code="0x0e000001">EFFECT #0e</title> -->
-		<!--	<title code="0x0f000001">EFFECT #0f</title> -->
-		<!--	<title code="0x10000001">EFFECT #10</title> -->
-			<title code="0x11000002">MAIN BGM</title>
-			<title code="0x11000001">MAIN BGM (別バージョン1 : 未使用)</title>
-			<title code="0x12000001">MAIN BGM (別バージョン2 : 未使用)</title>
-			<title code="0x01000002">EFFECT #01</title>
-			<title code="0x02000002">EFFECT #02</title>
-			<title code="0x03000002">EFFECT #03</title>
-			<title code="0x04000002">EFFECT #04</title>
-			<title code="0x05000002">EFFECT #05</title>
-			<title code="0x06000002">EFFECT #06</title>
-			<title code="0x07000002">EFFECT #07</title>
-			<title code="0x08000002">EFFECT #08</title>
-			<title code="0x09000002">EFFECT #09</title>
-			<title code="0x0a000002">EFFECT #0a</title>
-			<title code="0x0b000002">EFFECT #0b</title>
-			<title code="0x0c000002">EFFECT #0c</title>
-			<title code="0x0d000002">EFFECT #0d</title>
-			<title code="0x0e000002">EFFECT #0e</title>
-			<title code="0x0f000002">EFFECT #0f</title>
-			<title code="0x10000002">EFFECT #10</title>
-			<title code="0x03000003">JINGLE #03</title>
-			<title code="0x04000003">JINGLE #04</title>
-			<title code="0x05000003">JINGLE #05</title>
-			<title code="0x07000003">JINGLE #07</title>
-			<title code="0x08000003">JINGLE #08</title>
-			<title code="0x3d000003">JINGLE #3d</title>
-			<title code="0x3e000003">JINGLE #3e</title>
-			<title code="0x3f000003">JINGLE #3f</title>
-			<title code="0x40000003">JINGLE #40</title>
+			<title code="0x00000000">Opening</title>
+		<!--	<title code="0x01000001">SFX #01</title> -->
+		<!--	<title code="0x02000001">SFX #02</title> -->
+		<!--	<title code="0x03000001">SFX #03</title> -->
+		<!--	<title code="0x04000001">SFX #04</title> -->
+		<!--	<title code="0x05000001">SFX #05</title> -->
+		<!--	<title code="0x06000001">SFX #06</title> -->
+		<!--	<title code="0x07000001">SFX #07</title> -->
+		<!--	<title code="0x08000001">SFX #08</title> -->
+		<!--	<title code="0x09000001">SFX #09</title> -->
+		<!--	<title code="0x0a000001">SFX #0a</title> -->
+		<!--	<title code="0x0b000001">SFX #0b</title> -->
+		<!--	<title code="0x0c000001">SFX #0c</title> -->
+		<!--	<title code="0x0d000001">SFX #0d</title> -->
+		<!--	<title code="0x0e000001">SFX #0e</title> -->
+		<!--	<title code="0x0f000001">SFX #0f</title> -->
+		<!--	<title code="0x10000001">SFX #10</title> -->
+			<title code="0x11000002">Main BGM</title>
+			<title code="0x11000001">Main BGM (別バージョン1 : 未使用)</title>
+			<title code="0x12000001">Main BGM (別バージョン2 : 未使用)</title>
+			<title code="0x01000002">SFX #01</title>
+			<title code="0x02000002">SFX #02</title>
+			<title code="0x03000002">SFX #03</title>
+			<title code="0x04000002">SFX #04</title>
+			<title code="0x05000002">SFX #05</title>
+			<title code="0x06000002">SFX #06</title>
+			<title code="0x07000002">SFX #07</title>
+			<title code="0x08000002">SFX #08</title>
+			<title code="0x09000002">SFX #09</title>
+			<title code="0x0a000002">SFX #0a</title>
+			<title code="0x0b000002">SFX #0b</title>
+			<title code="0x0c000002">SFX #0c</title>
+			<title code="0x0d000002">SFX #0d</title>
+			<title code="0x0e000002">SFX #0e</title>
+			<title code="0x0f000002">SFX #0f</title>
+			<title code="0x10000002">SFX #10</title>
+			<title code="0x03000003">Jingle #03</title>
+			<title code="0x04000003">Jingle #04</title>
+			<title code="0x05000003">Jingle #05</title>
+			<title code="0x07000003">Jingle #07</title>
+			<title code="0x08000003">Jingle #08</title>
+			<title code="0x3d000003">Jingle #3d</title>
+			<title code="0x3e000003">Jingle #3e</title>
+			<title code="0x3f000003">Jingle #3f</title>
+			<title code="0x40000003">Jingle #40</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Star Symphony</name>
+		<name>[PC-8801] Star Symphony (スターシンフォニー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4c00"/>
 			<option name="vdata_addr" value="0x6200"/>
@@ -747,9 +756,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 新玉取物語</name>
+		<name>[PC-8801] Shin Tamatori Monogatari (新玉取物語) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -763,9 +772,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 雀豪1</name>
+		<name>[PC-8801] Jangou 1 (雀豪1) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<romlist archive="jango188">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">DRIVER</rom>
@@ -786,9 +795,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Adrenalin Connection</name>
+		<name>[PC-8801] Adrenalin Connection (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">ビクター音楽産業</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9e00"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -837,9 +846,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 死霊戦線 ブラウニングの復活</name>
+		<name>[PC-8801] Shiryou Sensen: Browning no Fukkatsu (死霊戦線 ブラウニングの復活) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">ビクター音楽産業/FUN FACTORY</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<romlist archive="shiryo">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
@@ -874,9 +883,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 死霊戦線2</name>
+		<name>[PC-8801] Shiryou Sensen 2 (死霊戦線2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">ビクター音楽産業/FUN FACTORY</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1ba9"/>
 		</options>
@@ -958,9 +967,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] バブルガムクライシス</name>
+		<name>[PC-8801] Bubblegum Crisis (バブルガムクライシス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">ビクター音楽産業</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 		</options>
@@ -1063,9 +1072,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PRONTIS</name>
+		<name>[PC-8801] Prontis (プロンティス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-8801">Victor Entertainment</driveralias>
 		<romlist archive="prontis">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
@@ -1114,55 +1123,55 @@
 			<title code="0x00000013">BGM #19</title>
 			<title code="0x00000014">BGM #20</title>
 			<title code="0x00000015">BGM #21</title>
-			<title code="0x01000000">EFFECT #01</title>
-			<title code="0x02000000">EFFECT #02</title>
-			<title code="0x03000000">EFFECT #03</title>
-			<title code="0x04000000">EFFECT #04</title>
-			<title code="0x05000000">EFFECT #05</title>
-			<title code="0x06000000">EFFECT #06</title>
-			<title code="0x07000000">EFFECT #07</title>
-			<title code="0x08000000">EFFECT #08</title>
-			<title code="0x09000000">EFFECT #09</title>
-			<title code="0x0a000000">EFFECT #10</title>
-			<title code="0x0b000000">EFFECT #11</title>
-			<title code="0x0c000000">EFFECT #12</title>
-			<title code="0x0d000000">EFFECT #13</title>
-			<title code="0x0e000000">EFFECT #14</title>
-			<title code="0x0f000000">EFFECT #15</title>
-			<title code="0x10000000">EFFECT #16</title>
-			<title code="0x11000000">EFFECT #17</title>
-			<title code="0x12000000">EFFECT #18</title>
-			<title code="0x13000000">EFFECT #19</title>
-			<title code="0x14000000">EFFECT #10</title>
-			<title code="0x15000000">EFFECT #21</title>
-			<title code="0x16000000">EFFECT #22</title>
-			<title code="0x17000000">EFFECT #23</title>
-			<title code="0x18000000">EFFECT #24</title>
-			<title code="0x19000000">EFFECT #25</title>
-			<title code="0x1a000000">EFFECT #26</title>
-			<title code="0x1b000000">EFFECT #27</title>
-			<title code="0x1c000000">EFFECT #28</title>
-			<title code="0x1d000000">EFFECT #29</title>
-			<title code="0x1e000000">EFFECT #30</title>
-			<title code="0x1f000000">EFFECT #31</title>
-			<title code="0x20000000">EFFECT #32</title>
-			<title code="0x21000000">EFFECT #33</title>
-			<title code="0x22000000">EFFECT #34</title>
-			<title code="0x23000000">EFFECT #35</title>
-			<title code="0x24000000">EFFECT #36</title>
-			<title code="0x25000000">EFFECT #37</title>
-			<title code="0x26000000">EFFECT #38</title>
-			<title code="0x27000000">EFFECT #39</title>
-			<title code="0x28000000">EFFECT #40</title>
-			<title code="0x29000000">EFFECT #41</title>
-			<title code="0x2a000000">EFFECT #42</title>
-			<title code="0x2b000000">EFFECT #43</title>
+			<title code="0x01000000">SFX #01</title>
+			<title code="0x02000000">SFX #02</title>
+			<title code="0x03000000">SFX #03</title>
+			<title code="0x04000000">SFX #04</title>
+			<title code="0x05000000">SFX #05</title>
+			<title code="0x06000000">SFX #06</title>
+			<title code="0x07000000">SFX #07</title>
+			<title code="0x08000000">SFX #08</title>
+			<title code="0x09000000">SFX #09</title>
+			<title code="0x0a000000">SFX #10</title>
+			<title code="0x0b000000">SFX #11</title>
+			<title code="0x0c000000">SFX #12</title>
+			<title code="0x0d000000">SFX #13</title>
+			<title code="0x0e000000">SFX #14</title>
+			<title code="0x0f000000">SFX #15</title>
+			<title code="0x10000000">SFX #16</title>
+			<title code="0x11000000">SFX #17</title>
+			<title code="0x12000000">SFX #18</title>
+			<title code="0x13000000">SFX #19</title>
+			<title code="0x14000000">SFX #10</title>
+			<title code="0x15000000">SFX #21</title>
+			<title code="0x16000000">SFX #22</title>
+			<title code="0x17000000">SFX #23</title>
+			<title code="0x18000000">SFX #24</title>
+			<title code="0x19000000">SFX #25</title>
+			<title code="0x1a000000">SFX #26</title>
+			<title code="0x1b000000">SFX #27</title>
+			<title code="0x1c000000">SFX #28</title>
+			<title code="0x1d000000">SFX #29</title>
+			<title code="0x1e000000">SFX #30</title>
+			<title code="0x1f000000">SFX #31</title>
+			<title code="0x20000000">SFX #32</title>
+			<title code="0x21000000">SFX #33</title>
+			<title code="0x22000000">SFX #34</title>
+			<title code="0x23000000">SFX #35</title>
+			<title code="0x24000000">SFX #36</title>
+			<title code="0x25000000">SFX #37</title>
+			<title code="0x26000000">SFX #38</title>
+			<title code="0x27000000">SFX #39</title>
+			<title code="0x28000000">SFX #40</title>
+			<title code="0x29000000">SFX #41</title>
+			<title code="0x2a000000">SFX #42</title>
+			<title code="0x2b000000">SFX #43</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] バブルガムクライシス</name>
+		<name>[PC-9801] Bubblegum Crisis Crime Wave (バブルガムクライシス CRIME WAVE) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">ビクター音楽産業</driveralias>
+		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
 			<option name="bootcs" value="0x0300"/>
 			<option name="bootip" value="0xf000"/>
@@ -1266,7 +1275,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] My Home Dream</name>
+		<name>[PC-9801] My Home Dream (マイホームドリーム) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1317,7 +1326,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ギャンブルレーサー</name>
+		<name>[PC-9801] Gambler Racer (ギャンブルレーサー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1376,9 +1385,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] バトルテック -奪われた聖杯-</name>
+		<name>[PC-9801] Battletech: Ubawareta Seihai (バトルテック -奪われた聖杯-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1425,7 +1434,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] My Home Dream 2</name>
+		<name>[PC-9801] My Home Dream 2 (マイホームドリーム2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1528,7 +1537,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Jリーグ プロフェッショナル・サッカー 1993</name>
+		<name>[PC-9801] J.League Professional Soccer 1993 (Jリーグ プロフェッショナル・サッカー 1993) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1599,7 +1608,7 @@
 		</titlelist>
 	</game>
 	<game>
-	<name>[PC-9801] Jリーグ プロフェッショナル・サッカー 1994</name>
+		<name>[PC-9801] J.League Professional Soccer 1994 (Jリーグ プロフェッショナル・サッカー 1994) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1609,52 +1618,52 @@
 			<rom type="file" offset="-1">MDR_98.COM</rom>
 			<rom type="file" offset="-1">MDR.EXE</rom>
 			<rom type="file" offset="0x09">VOICE.VOI</rom>
-			<rom type="file" offset="0x10">SE1.SEQ</rom>
-			<rom type="file" offset="0x11">SE2.SEQ</rom>
-			<rom type="file" offset="0x12">SE3.SEQ</rom>
-			<rom type="file" offset="0x13">SE4.SEQ</rom>
-			<rom type="file" offset="0x14">SE5.SEQ</rom>
-			<rom type="file" offset="0x15">SE6.SEQ</rom>
-			<rom type="file" offset="0x16">TES1.SEQ</rom>
-			<rom type="file" offset="0x17">TES10.SEQ</rom>
-			<rom type="file" offset="0x18">TES11.SEQ</rom>
-			<rom type="file" offset="0x19">TES12.SEQ</rom>
-			<rom type="file" offset="0x1a">TES13.SEQ</rom>
-			<rom type="file" offset="0x1b">TES2.SEQ</rom>
-			<rom type="file" offset="0x1c">TES3.SEQ</rom>
-			<rom type="file" offset="0x1d">TES4.SEQ</rom>
-			<rom type="file" offset="0x1e">TES5.SEQ</rom>
-			<rom type="file" offset="0x1f">TES6.SEQ</rom>
-			<rom type="file" offset="0x20">TES7.SEQ</rom>
-			<rom type="file" offset="0x21">TES8.SEQ</rom>
-			<rom type="file" offset="0x22">TES9.SEQ</rom>
+			<rom type="file" offset="0x10">TES1.SEQ</rom>
+			<rom type="file" offset="0x11">TES2.SEQ</rom>
+			<rom type="file" offset="0x12">TES3.SEQ</rom>
+			<rom type="file" offset="0x13">TES4.SEQ</rom>
+			<rom type="file" offset="0x14">TES5.SEQ</rom>
+			<rom type="file" offset="0x15">TES6.SEQ</rom>
+			<rom type="file" offset="0x16">TES7.SEQ</rom>
+			<rom type="file" offset="0x17">TES8.SEQ</rom>
+			<rom type="file" offset="0x18">TES9.SEQ</rom>
+			<rom type="file" offset="0x19">TES10.SEQ</rom>
+			<rom type="file" offset="0x1a">TES11.SEQ</rom>
+			<rom type="file" offset="0x1b">TES12.SEQ</rom>
+			<rom type="file" offset="0x1c">TES13.SEQ</rom>
+			<rom type="file" offset="0x1d">SE1.SEQ</rom>
+			<rom type="file" offset="0x1e">SE2.SEQ</rom>
+			<rom type="file" offset="0x1f">SE3.SEQ</rom>
+			<rom type="file" offset="0x20">SE4.SEQ</rom>
+			<rom type="file" offset="0x21">SE5.SEQ</rom>
+			<rom type="file" offset="0x22">SE6.SEQ</rom>
 			<rom type="device" offset="0">MDR.EXE</rom>
 			<rom type="shell" offset="0">MDR_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x090016">TES1.SEQ</title>
-			<title code="0x09001b">TES2.SEQ</title>
-			<title code="0x09001c">TES3.SEQ</title>
-			<title code="0x09001d">TES4.SEQ</title>
-			<title code="0x09001e">TES5.SEQ</title>
-			<title code="0x09001f">TES6.SEQ</title>
-			<title code="0x090020">TES7.SEQ</title>
-			<title code="0x090021">TES8.SEQ</title>
-			<title code="0x090022">TES9.SEQ</title>
-			<title code="0x090017">TES10.SEQ</title>
-			<title code="0x090018">TES11.SEQ</title>
-			<title code="0x090019">TES12.SEQ</title>
-			<title code="0x09001a">TES13.SEQ</title>
-			<title code="0x090010">SE1.SEQ</title>
-			<title code="0x090011">SE2.SEQ</title>
-			<title code="0x090012">SE3.SEQ</title>
-			<title code="0x090013">SE4.SEQ</title>
-			<title code="0x090014">SE5.SEQ</title>
-			<title code="0x090015">SE6.SEQ</title>
+			<title code="0x090010">TES1.SEQ</title>
+			<title code="0x090011">TES2.SEQ</title>
+			<title code="0x090012">TES3.SEQ</title>
+			<title code="0x090013">TES4.SEQ</title>
+			<title code="0x090014">TES5.SEQ</title>
+			<title code="0x090015">TES6.SEQ</title>
+			<title code="0x090016">TES7.SEQ</title>
+			<title code="0x090017">TES8.SEQ</title>
+			<title code="0x090018">TES9.SEQ</title>
+			<title code="0x090019">TES10.SEQ</title>
+			<title code="0x09001a">TES11.SEQ</title>
+			<title code="0x09001b">TES12.SEQ</title>
+			<title code="0x09001c">TES13.SEQ</title>
+			<title code="0x09001d">SE1.SEQ</title>
+			<title code="0x09001e">SE2.SEQ</title>
+			<title code="0x09001f">SE3.SEQ</title>
+			<title code="0x090020">SE4.SEQ</title>
+			<title code="0x090021">SE5.SEQ</title>
+			<title code="0x090022">SE6.SEQ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Jリーグ プロフェッショナル・サッカー 1995</name>
+		<name>[PC-9801] J.League Professional Soccer 1995 (Jリーグ プロフェッショナル・サッカー 1995) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1705,9 +1714,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] バトルテック -奪われた聖杯-</name>
+		<name>[X68000] Battletech: Ubawareta Seihai (バトルテック -奪われた聖杯-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="btltech68snd">
 			<rom type="code">bt68snd.bin</rom>
 			<rom type="x" offset="0x10000">MHDRV.X</rom>
@@ -1736,29 +1745,29 @@
 		</romlist>
 		<titlelist>
 			<title code="0x03">mec01.mdh</title>
-			<title code="0x04">mec02.mdh : 移動</title>
+			<title code="0x04">移動</title>
 			<title code="0x05">mec03.mdh</title>
-			<title code="0x06">mec04.mdh : メニュー(契約中)</title>
-			<title code="0x07">mec05.mdh : メック確認</title>
-			<title code="0x08">mec06.mdh : ゲームオーバー</title>
-			<title code="0x09">mec08.mdh : メニュー</title>
-			<title code="0x0a">mec09.mdh : 酒場</title>
+			<title code="0x06">メニュー(契約中)</title>
+			<title code="0x07">メック確認</title>
+			<title code="0x08">ゲームオーバー</title>
+			<title code="0x09">メニュー</title>
+			<title code="0x0a">酒場</title>
 <!--
 			<title code="0x0b">mec10.mdh</title>
 -->
 			<title code="0x0c">mec11.mdh</title>
-			<title code="0x0d">mec12.mdh : 戦闘勝利</title>
+			<title code="0x0d">戦闘勝利</title>
 			<title code="0x0e">mec13.mdh</title>
-			<title code="0x0f">mec14.mdh : 戦闘敗北</title>
-			<title code="0x10">mec16.mdh : 契約</title>
-			<title code="0x11">SE08.mdh  : SE</title>
-			<title code="0x12">se09.mdh  : SE</title>
-			<title code="0x13">se13.mdh  : SE</title>
-			<title code="0x14">se14.mdh  : SE</title>
+			<title code="0x0f">戦闘敗北</title>
+			<title code="0x10">契約</title>
+			<title code="0x11">SE08.mdh</title>
+			<title code="0x12">se09.mdh</title>
+			<title code="0x13">se13.mdh</title>
+			<title code="0x14">se14.mdh</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CLASSIC ROAD 4</name>
+		<name>[PC-9801] Classic Road 4 (クラシック・ロード4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Victor Entertainment</driveralias>
 		<options>
@@ -1888,7 +1897,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] アランティアVAスペシャル</name>
+		<name>[PC-88VA] Alantia VA Special (アランティアVAスペシャル)</name>
 		<driver type="opn">pc88va</driver>
 		<driveralias type="PC-88VA">Victor Entertainment</driveralias>
 		<options>
@@ -1918,24 +1927,24 @@
 			<rom type="bgm" offset="0x0c">F108</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">F108 : オープニングメニュー</title>
-			<title code="0x07">F031 : メニュージングル</title>
-			<title code="0x01">F025 : オープニングアニメーション</title>
-			<title code="0x04">F028 : Reflecting In My Mind</title>
-			<title code="0x05">F029 : Lonely Tracer</title>
-			<title code="0x03">F027 : Wizardly</title>
-			<title code="0x02">F026 : Ways</title>
-			<title code="0x06">F030 : Somebody There</title>
-			<title code="0x09">F033 : Moon Light</title>
-			<title code="0x0a">F034 : Long Lost Lover</title>
-			<title code="0x0b">F035 : Look In Your Eyes</title>
+			<title code="0x0c">オープニングメニュー</title>
+			<title code="0x07">メニュージングル</title>
+			<title code="0x01">オープニングアニメーション</title>
+			<title code="0x04">Reflecting In My Mind</title>
+			<title code="0x05">Lonely Tracer</title>
+			<title code="0x03">Wizardly</title>
+			<title code="0x02">Ways</title>
+			<title code="0x06">Somebody There</title>
+			<title code="0x09">Moon Light</title>
+			<title code="0x0a">Long Lost Lover</title>
+			<title code="0x0b">Look In Your Eyes</title>
 			<title code="0x08">F032</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] PITAPAT</name>
+		<name>[X68000] Pitapat (ピタパット) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1983,9 +1992,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] NEURAL GEAR(OPM)</name>
+		<name>[X68000] Neural Gear (ニューラルギア) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2042,29 +2051,29 @@
 			<rom type="code" offset="0x148000">YORU.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">OPEN.DAT     : WHAT YOU CHANGE?</title>
-			<title code="0x07">HIRU.DAT     : KEEP TIME</title>
-			<title code="0x01">(1)AKU.DAT   : SYSTEMATIC EYES</title>
-			<title code="0x04">CITY.DAT     : TOWN SCAPE</title>
-			<title code="0x0e">SOUGEN.DAT   : DEPLETION</title>
-			<title code="0x08">JUNGLE.DAT   : VAST</title>
-			<title code="0x0d">SORA.DAT     : WAKE UP EVERYBODY</title>
-			<title code="0x0b">NANKYOKU.DAT : MERRY DANCERS</title>
-			<title code="0x10">UMI.DAT      : FLUXION</title>
-			<title code="0x09">KOUYA.DAT    : SUPER SONIC</title>
-			<title code="0x02">(2)AKU.DAT   : DON'T TARRY</title>
-			<title code="0x0a">LAST.DAT     : COME TO A CLIMAX</title>
-			<title code="0x05">ENDING.DAT   : TIME SPRIT</title>
-			<title code="0x06">GAMEOVER.DAT : INVERSION</title>
-			<title code="0x11">YORU.DAT     : INVITE</title>
-			<title code="0x03">AIDA.DAT     : SE</title>
+			<title code="0x0c">What You Change?</title>
+			<title code="0x07">Keep Time</title>
+			<title code="0x01">Systematic Eyes</title>
+			<title code="0x04">Town Scape</title>
+			<title code="0x0e">Depletion</title>
+			<title code="0x08">Vast</title>
+			<title code="0x0d">Wake Up Everybody</title>
+			<title code="0x0b">Merry Dancers</title>
+			<title code="0x10">Fluxion</title>
+			<title code="0x09">Super Sonic</title>
+			<title code="0x02">Don't Tarry</title>
+			<title code="0x0a">Come To A Climax</title>
+			<title code="0x05">Time Sprit</title>
+			<title code="0x06">Inversion</title>
+			<title code="0x11">Invite</title>
+			<title code="0x03">AIDA.DAT</title>
 			<title code="0x0f">TEST.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] NEURAL GEAR(MT-32)</name>
+		<name>[X68000] Neural Gear (ニューラルギア) (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2121,27 +2130,27 @@
 			<rom type="code" offset="0x148000">YORU_MT.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">OPEN_MT.DAT   : WHAT YOU CHANGE?</title>
-			<title code="0x07">HIRU_MT.DAT   : KEEP TIME</title>
-			<title code="0x01">(1)AKU_MT.DAT : SYSTEMATIC EYES</title>
-			<title code="0x04">CITY_MT.DAT   : TOWN SCAPE</title>
-			<title code="0x0e">SOUGEN_MT.DAT : DEPLETION</title>
-			<title code="0x08">JUNGLE_MT.DAT : VAST</title>
-			<title code="0x0d">SORA_MT.DAT   : WAKE UP EVERYBODY</title>
-			<title code="0x0b">NAN_MT.DAT    : MERRY DANCERS</title>
-			<title code="0x10">UMI_MT.DAT    : FLUXION</title>
-			<title code="0x09">KOUYA_MT.DAT  : SUPER SONIC</title>
-			<title code="0x02">(2)AKU_MT.DAT : DON'T TARRY</title>
-			<title code="0x0a">LAST_MT.DAT   : COME TO A CLIMAX</title>
-			<title code="0x05">ENDING_MT.DAT : TIME SPRIT</title>
-			<title code="0x06">OVER_MT.DAT   : INVERSION</title>
-			<title code="0x11">YORU_MT.DAT   : INVITE</title>
+			<title code="0x0c">What You Change?</title>
+			<title code="0x07">Keep Time</title>
+			<title code="0x01">Systematic Eyes</title>
+			<title code="0x04">Town Scape</title>
+			<title code="0x0e">Depletion</title>
+			<title code="0x08">Vast</title>
+			<title code="0x0d">Wake Up Everybody</title>
+			<title code="0x0b">Merry Dancers</title>
+			<title code="0x10">Fluxion</title>
+			<title code="0x09">Super Sonic</title>
+			<title code="0x02">Don't Tarry</title>
+			<title code="0x0a">Come To A Climax</title>
+			<title code="0x05">Time Sprit</title>
+			<title code="0x06">Inversion</title>
+			<title code="0x11">Invite</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] NEURAL GEAR(MT-32 Emulation)</name>
+		<name>[X68000] Neural Gear (ニューラルギア) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2198,27 +2207,27 @@
 			<rom type="code" offset="0x148000">YORU_MT.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">OPEN_MT.DAT   : WHAT YOU CHANGE?</title>
-			<title code="0x07">HIRU_MT.DAT   : KEEP TIME</title>
-			<title code="0x01">(1)AKU_MT.DAT : SYSTEMATIC EYES</title>
-			<title code="0x04">CITY_MT.DAT   : TOWN SCAPE</title>
-			<title code="0x0e">SOUGEN_MT.DAT : DEPLETION</title>
-			<title code="0x08">JUNGLE_MT.DAT : VAST</title>
-			<title code="0x0d">SORA_MT.DAT   : WAKE UP EVERYBODY</title>
-			<title code="0x0b">NAN_MT.DAT    : MERRY DANCERS</title>
-			<title code="0x10">UMI_MT.DAT    : FLUXION</title>
-			<title code="0x09">KOUYA_MT.DAT  : SUPER SONIC</title>
-			<title code="0x02">(2)AKU_MT.DAT : DON'T TARRY</title>
-			<title code="0x0a">LAST_MT.DAT   : COME TO A CLIMAX</title>
-			<title code="0x05">ENDING_MT.DAT : TIME SPRIT</title>
-			<title code="0x06">OVER_MT.DAT   : INVERSION</title>
-			<title code="0x11">YORU_MT.DAT   : INVITE</title>
+			<title code="0x0c">What You Change?</title>
+			<title code="0x07">Keep Time</title>
+			<title code="0x01">Systematic Eyes</title>
+			<title code="0x04">Town Scape</title>
+			<title code="0x0e">Depletion</title>
+			<title code="0x08">Vast</title>
+			<title code="0x0d">Wake Up Everybody</title>
+			<title code="0x0b">Merry Dancers</title>
+			<title code="0x10">Fluxion</title>
+			<title code="0x09">Super Sonic</title>
+			<title code="0x02">Don't Tarry</title>
+			<title code="0x0a">Come To A Climax</title>
+			<title code="0x05">Time Sprit</title>
+			<title code="0x06">Inversion</title>
+			<title code="0x11">Invite</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 雀豪1</name>
+		<name>[X68000] Jangou 1 (雀豪1) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="jango68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -2229,16 +2238,16 @@
 			<rom type="code" offset="0x34000">SOUND.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0602">JO.OPM      : タイトル</title>
-			<title code="0x0603">M_PLAY1.OPM : SE サイコロ</title>
-			<title code="0x0604">M_PLAY2.OPM : SE 捨牌</title>
-			<title code="0x0605">M_PLAY3.OPM : SE ツモ</title>
+			<title code="0x0602">タイトル</title>
+			<title code="0x0603">SE サイコロ</title>
+			<title code="0x0604">SE 捨牌</title>
+			<title code="0x0605">SE ツモ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 死霊戦線2</name>
+		<name>[MSX2] Shiryou Sensen 2 (死霊戦線2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">ビクター音楽産業/FUN FACTORY</driveralias>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xbc00"/>
 			<option name="mdata_size" value="0x0a00"/>
@@ -2296,25 +2305,60 @@
 			<rom type="bgm" offset="0x2d">MUS3A.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x2d" extcode="1">BGM 0x%02x</range>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x1a">BGM #1a</title>
+			<title code="0x1b">BGM #1b</title>
+			<title code="0x1c">BGM #1c</title>
+			<title code="0x1d">BGM #1d</title>
+			<title code="0x1e">BGM #1e</title>
+			<title code="0x1f">BGM #1f</title>
+			<title code="0x20">BGM #20</title>
+			<title code="0x21">BGM #21</title>
+			<title code="0x22">BGM #22</title>
+			<title code="0x23">BGM #23</title>
+			<title code="0x24">BGM #24</title>
+			<title code="0x25">BGM #25</title>
+			<title code="0x26">BGM #26</title>
+			<title code="0x27">BGM #27</title>
+			<title code="0x2d">BGM #2d</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 雀豪2(OPM)</name>
+		<name>[X68000] Jangou 2 (雀豪2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<romlist archive="jango268snd">
 			<rom type="code">jango268snd.bin</rom>
 			<rom type="x" offset="0x010000">JAN.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM 0x%02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 雀豪2(MT-32)</name>
+		<name>[X68000] Jangou 2 (雀豪2) (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -2324,13 +2368,13 @@
 			<rom type="x" offset="0x010000">JAN.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM 0x%02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 雀豪2(MT-32 Emulation)</name>
+		<name>[X68000] Jangou 2 (雀豪2) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -2340,13 +2384,13 @@
 			<rom type="x" offset="0x010000">JAN.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM 0x%02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] JACK NICKLAUS' CHAMPIONSHIP GOLF(OPLL)</name>
+		<name>[MSX] Jack Nicklaus' Championship Golf (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="MSX">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2364,17 +2408,17 @@
 			<rom type="bgm" offset="0x04">FMUS5.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">LOGO</title>
-			<title code="0x01">TITLE</title>
-			<title code="0x04">MENU</title>
-			<title code="0x02">COURSES START</title>
-			<title code="0x03">END</title>
+			<title code="0x00">Logo</title>
+			<title code="0x01">Title</title>
+			<title code="0x04">Menu</title>
+			<title code="0x02">Courses Start</title>
+			<title code="0x03">End</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] JACK NICKLAUS' CHAMPIONSHIP GOLF(PSG)</name>
+		<name>[MSX] Jack Nicklaus' Championship Golf (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="MSX">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2391,17 +2435,17 @@
 			<rom type="bgm" offset="0x04">PMUS5.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">LOGO</title>
-			<title code="0x01">TITLE</title>
-			<title code="0x04">MENU</title>
-			<title code="0x02">COURSES START</title>
-			<title code="0x03">END</title>
+			<title code="0x00">Logo</title>
+			<title code="0x01">Title</title>
+			<title code="0x04">Menu</title>
+			<title code="0x02">Courses Start</title>
+			<title code="0x03">End</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] やじうまペナントレース</name>
+		<name>[MSX] Yajiuma Pennant Race (やじうまペナントレース)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="MSX">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xBF94"/>
 			<option name="mdata_size" value="0x0620"/>
@@ -2418,28 +2462,28 @@
 			<rom type="bgm"  offset="0x04">BGM_4.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">BGM_0.COM : 00</title>
-			<title code="0x100">BGM_1.COM : 00</title>
-			<title code="0x101">BGM_1.COM : 01</title>
-			<title code="0x102">BGM_1.COM : 02</title>
-			<title code="0x103">BGM_1.COM : 03</title>
-			<title code="0x200">BGM_2.COM : 00</title>
-			<title code="0x201">BGM_2.COM : 01</title>
-			<title code="0x202">BGM_2.COM : 02</title>
-			<title code="0x203">BGM_2.COM : 03</title>
-			<title code="0x204">BGM_2.COM : 04</title>
-			<title code="0x300">BGM_3.COM : 00</title>
-			<title code="0x301">BGM_3.COM : 01</title>
-			<title code="0x302">BGM_3.COM : 02</title>
-			<title code="0x400">BGM_4.COM : 00</title>
-			<title code="0x401">BGM_4.COM : 01</title>
-			<title code="0x402">BGM_4.COM : 02</title>
+			<title code="0x000">BGM_0.COM</title>
+			<title code="0x100">BGM_1.COM #00</title>
+			<title code="0x101">BGM_1.COM #01</title>
+			<title code="0x102">BGM_1.COM #02</title>
+			<title code="0x103">BGM_1.COM #03</title>
+			<title code="0x200">BGM_2.COM #00</title>
+			<title code="0x201">BGM_2.COM #01</title>
+			<title code="0x202">BGM_2.COM #02</title>
+			<title code="0x203">BGM_2.COM #03</title>
+			<title code="0x204">BGM_2.COM #04</title>
+			<title code="0x300">BGM_3.COM #00</title>
+			<title code="0x301">BGM_3.COM #01</title>
+			<title code="0x302">BGM_3.COM #02</title>
+			<title code="0x400">BGM_4.COM #00</title>
+			<title code="0x401">BGM_4.COM #01</title>
+			<title code="0x402">BGM_4.COM #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JACK NICKLAUS CHAMPIONSHIP GOLF</name>
+		<name>[X68000] Jack Nicklaus' Championship Golf (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -2450,13 +2494,13 @@
 			<rom type="x"    offset="0x040000">GOLF.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JACK NICKLAUS COURSE DATA VOL.2(OPM)</name>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -2467,13 +2511,13 @@
 			<rom type="x"    offset="0x040000">GOLF.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JACK NICKLAUS COURSE DATA VOL.2(MT-32)</name>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2486,13 +2530,13 @@
 			<rom type="x"    offset="0x040000">GOLF.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JACK NICKLAUS COURSE DATA VOL.2(MT-32 Emulation)</name>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2505,11 +2549,11 @@
 			<rom type="x"    offset="0x040000">GOLF.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CASTLES</name>
+		<name>[X68000] Castles (キャッスルズ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
@@ -2522,13 +2566,13 @@
 			<rom type="x"    offset="0x040000">castles.x</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x11" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x11" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 魔法大作戦(OPM)</name>
+		<name>[X68000] Mahou Daisakusen (魔法大作戦) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">ELECTRONIC ARTS VICTOR</driveralias>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2537,29 +2581,29 @@
 			<rom type="x"    offset="0x010000">MAHOU.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">SORCER STRIKER        (STAGE 1)</title>
-			<title code="0x02">RIOT DANCE            (STAGE 2)</title>
-			<title code="0x03">SILENT ANOMALY        (STAGE 3)</title>
-			<title code="0x04">MEMORIAL FRAGMENT     (STAGE 4)</title>
-			<title code="0x05">ORGANIC METAL         (STAGE 5)</title>
-			<title code="0x06">INSPIRE               (STAGE 6)</title>
-			<title code="0x08">EXCLAIM TARGETS       (STAGE 1 BOSS)</title>
-			<title code="0x09">SPIRAL LOCUS          (STAGE 2 BOSS)</title>
-			<title code="0x0a">ROCK THE ACCEPT       (STAGE 3 BOSS)</title>
-			<title code="0x0b">CHAOS OPPRESSION      (STAGE 5 BOSS)</title>
-			<title code="0x0c">AUGMENTATIVE GREED    (STAGE 6 BOSS)</title>
-			<title code="0x10">DEVASTATING DISORDER  (バシネット BGM)</title>
-			<title code="0x0f">ROUND CLEAR</title>
-			<title code="0x0d">GAME OVER</title>
-			<title code="0x0e">DESTINY &amp; AMBITION    (ATTRACT)</title>
-			<title code="0x07">EVER LASTING EMOTION  (ENDING)</title>
-			<range min="0x11" max="0x4d" extcode="1">SE %02x</range>
+			<title code="0x01">Sorcer Striker [Stage 1]</title>
+			<title code="0x02">Riot Dance [Stage 2]</title>
+			<title code="0x03">Silent Anomaly [Stage 3]</title>
+			<title code="0x04">Memorial Fragment [Stage 4]</title>
+			<title code="0x05">Organic Metal [Stage 5]</title>
+			<title code="0x06">Inspire [Stage 6]</title>
+			<title code="0x08">Exclaim Targets [Stage 1 Boss]</title>
+			<title code="0x09">Spiral Locus [Stage 2 Boss]</title>
+			<title code="0x0a">Rock the Accept [Stage 3 Boss]</title>
+			<title code="0x0b">Chaos Oppression [Stage 5 Boss]</title>
+			<title code="0x0c">Augmentative Greed [Stage 6 Boss]</title>
+			<title code="0x10">Devastating Disorder [バシネット BGM]</title>
+			<title code="0x0f">Round Clear</title>
+			<title code="0x0d">Game Over</title>
+			<title code="0x0e">Destiny &amp; Ambition [Attract]</title>
+			<title code="0x07">Ever Lasting Emotion [Ending]</title>
+			<range min="0x11" max="0x4d" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 雀豪1</name>
+		<name>[MSX] Jangou 1 (雀豪1)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor/CROSSMEDIA SOFT</driveralias>
+		<driveralias type="MSX">Victor Entertainment</driveralias>
 		<options>
 			<option name="init_pc"    value="0xe400"/>
 		</options>
@@ -2571,7 +2615,170 @@
 			<title code="0x100">オープニングタイトル</title>
 			<title code="0x102">トップ</title>
 			<title code="0x101">トップ以外</title>
-			<range min="0x00" max="0x0f" extcode="1">SE 0x%02x</range>
+			<range min="0x00" max="0x0f" extcode="1">SFX #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Shiryou Sensen (死霊戦線) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="shiryo_msx">
+			<rom type="code">Shiryou Sensen (1987)(Victor).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Labyrinth: Maou no Meikyuu (ラビリンス 魔王の迷宮) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="labyr_msx">
+			<rom type="code">Labyrinth - Maou no Meikyuu (1987)(Pack-In-Video).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x80">BGM #80</title>
+			<title code="0x81">BGM #81</title>
+			<title code="0x82">BGM #82</title>
+			<title code="0x83">BGM #83</title>
+			<title code="0x84">BGM #84</title>
+			<title code="0x85">BGM #85</title>
+			<title code="0x86">BGM #86</title>
+			<title code="0x87">BGM #87</title>
+			<title code="0x88">BGM #88</title>
+			<title code="0x89">BGM #89</title>
+			<title code="0x8a">BGM #8a</title>
+			<title code="0x8b">BGM #8b</title>
+			<title code="0x8c">BGM #8c</title>
+			<title code="0x8d">BGM #8d</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Labyrinth: Maou no Meikyuu (ラビリンス 魔王の迷宮) (Y8950)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="labyr_msx">
+			<rom type="code">Labyrinth - Maou no Meikyuu (1987)(Pack-In-Video).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Predator (プレデター) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="predator_msx">
+			<rom type="code">Predator (1988)(Pack-In-Video).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Silviana (シルヴィアーナ) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="silviana_msx">
+			<rom type="code">Silviana (1989)(Pack-In-Video).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Silviana (シルヴィアーナ) (YM2413)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="silviana_msx">
+			<rom type="code">Silviana (1989)(Pack-In-Video).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
 		</titlelist>
 	</game>
 </gamelist>

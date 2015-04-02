@@ -36,7 +36,7 @@
 <gamelist date="2007/11/23">
 	<!-- //Pack-In-Video -->
 	<game>
-		<name>[PC-8801] 歌声人</name>
+		<name>[PC-8801] Kaseijin (歌声人) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Pack-In-Video</driveralias>
 		<options>
@@ -68,13 +68,13 @@
 			<rom type="bgm" offset="0x02">DEMO03.MEL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">DEMO01.MEL : 赤いスイートピー</title>
-			<title code="0x01">DEMO02.MEL : 悲しみよ こんにちは</title>
-			<title code="0x02">DEMO03.MEL : 彼女とTIP ON DUO</title>
+			<title code="0x00">赤いスイートピー</title>
+			<title code="0x01">悲しみよ こんにちは</title>
+			<title code="0x02">彼女とTIP ON DUO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] THE GOLF(OPLL)</name>
+		<name>[MSX] The Golf (OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Pack-In-Video</driveralias>
 		<options>
@@ -86,11 +86,11 @@
 			<rom type="code" offset="0x8FF9">PAC.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x03" extcode="1">BGM 0x%02x</range>
+			<range min="0x00" max="0x03" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] THE GOLF(PSG)</name>
+		<name>[MSX] The Golf (PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Pack-In-Video</driveralias>
 		<options>
@@ -101,7 +101,7 @@
 			<rom type="code" offset="0x8FF9">FM1.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x05" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x05" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -127,14 +127,14 @@
 			<rom type="bgm" offset="0x06">BGM_06.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM_00.COM : オープニング</title>
-			<title code="0x01">BGM_01.COM : フィールド</title>
-			<title code="0x02">BGM_02.COM : 自宅/村</title>
-			<title code="0x03">BGM_03.COM : 洞窟</title>
-			<title code="0x04">BGM_04.COM : ボス</title>
-			<title code="0x05">BGM_05.COM : 勝利</title>
-			<title code="0x06">BGM_06.COM : エンディング</title>
-			<range min="0x107" max="0x119" extcode="0">SE  : 0x%02x</range>
+			<title code="0x00">オープニング</title>
+			<title code="0x01">フィールド</title>
+			<title code="0x02">自宅/村</title>
+			<title code="0x03">洞窟</title>
+			<title code="0x04">ボス</title>
+			<title code="0x05">勝利</title>
+			<title code="0x06">エンディング</title>
+			<range min="0x107" max="0x119" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -159,14 +159,14 @@
 			<rom type="bgm" offset="0x06">P_BGM_06.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">P_BGM_00.COM : オープニング</title>
-			<title code="0x01">P_BGM_01.COM : フィールド</title>
-			<title code="0x02">P_BGM_02.COM : 自宅/村</title>
-			<title code="0x03">P_BGM_03.COM : 洞窟</title>
-			<title code="0x04">P_BGM_04.COM : ボス</title>
-			<title code="0x05">P_BGM_05.COM : 勝利</title>
-			<title code="0x06">P_BGM_06.COM : エンディング</title>
-			<range min="0x107" max="0x119" extcode="0">SE    : 0x%02x</range>
+			<title code="0x00">オープニング</title>
+			<title code="0x01">フィールド</title>
+			<title code="0x02">自宅/村</title>
+			<title code="0x03">洞窟</title>
+			<title code="0x04">ボス</title>
+			<title code="0x05">勝利</title>
+			<title code="0x06">エンディング</title>
+			<range min="0x107" max="0x119" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -189,19 +189,19 @@
 			<rom type="bgm" offset="0x05">TMSC.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0501">TMSC.BIN : 01 : タイトル</title>
-			<title code="0x0201">MMSC.BIN : 01</title>
-			<title code="0x0202">MMSC.BIN : 02</title>
-			<title code="0x0203">MMSC.BIN : 03</title>
-			<title code="0x0204">MMSC.BIN : 04</title>
-			<title code="0x0205">MMSC.BIN : 05</title>
-			<title code="0x0206">MMSC.BIN : 06</title>
-			<title code="0x0207">MMSC.BIN : 07</title>
-			<title code="0x0001">BMSC.BIN : 01</title>
-			<title code="0x0401">SMSC.BIN : 01 : 連勝CG1</title>
-			<title code="0x0402">SMSC.BIN : 02 : 連勝CG2</title>
-			<title code="0x0301">RMSC.BIN : 01 : 100勝(レプリカート)</title>
-			<title code="0x0101">EMSC.BIN : 01 : スタッフロール</title>
+			<title code="0x0501">タイトル</title>
+			<title code="0x0201">MMSC.BIN #01</title>
+			<title code="0x0202">MMSC.BIN #02</title>
+			<title code="0x0203">MMSC.BIN #03</title>
+			<title code="0x0204">MMSC.BIN #04</title>
+			<title code="0x0205">MMSC.BIN #05</title>
+			<title code="0x0206">MMSC.BIN #06</title>
+			<title code="0x0207">MMSC.BIN #07</title>
+			<title code="0x0001">BMSC.BIN #01</title>
+			<title code="0x0401">連勝CG1</title>
+			<title code="0x0402">連勝CG2</title>
+			<title code="0x0301">100勝(レプリカート)</title>
+			<title code="0x0101">スタッフロール</title>
 		</titlelist>
 	</game>
 </gamelist>

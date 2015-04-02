@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!--//BOTHTEC -->
 	<game>
-		<name>[PC-8801] RELICS</name>
+		<name>[PC-8801] Relics (レリクス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -57,9 +57,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Topple Zip</name>
+		<name>[PC-8801] Topple Zip (トップルジップ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9e00"/>
 		</options>
@@ -71,15 +71,15 @@
 			<rom type="bgm" offset="0x02">PLAY03.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">PLAY01.COM : BGM 1</title>
-			<title code="0x01">PLAY02.COM : BGM 2</title>
-			<title code="0x02">PLAY03.COM : BGM 3</title>
+			<title code="0x00">BGM 1</title>
+			<title code="0x01">BGM 2</title>
+			<title code="0x02">BGM 3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 銀河英雄伝説</name>
+		<name>[PC-8801] Ginga Eiyuu Densetsu (銀河英雄伝説) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5c00"/>
 		</options>
@@ -92,16 +92,16 @@
 			<rom type="bgm"  offset="0x03">BGM_2.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ボレロ(オープニング)</title>
-			<title code="0x01">ボレロ</title>
-			<title code="0x02">英  雄</title>
-			<title code="0x03">ひそう</title>
+			<title code="0x00">Bolero (Opening) (ボレロ(オープニング))</title>
+			<title code="0x01">Bolero (ボレロ)</title>
+			<title code="0x02">Hero (英  雄)</title>
+			<title code="0x03">Sadness (ひそう)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 銀河英雄伝説 パワーアップ＆シナリオ集</name>
+		<name>[PC-8801] Ginga Eiyuu Densetsu: Power-up &amp; Scenario Shuu (銀河英雄伝説 パワーアップ&amp;シナリオ集) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5a00"/>
 			<option name="mdata_size" value="0x0600"/>
@@ -132,22 +132,22 @@
 			<rom type="voice" offset="0x09">2_TONE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000000">[Disk-1] ボレロ</title>
-			<title code="0x00000001">[Disk-1] 英  雄</title>
-			<title code="0x00000002">[Disk-1] ひそう</title>
-			<title code="0x01000003">[Disk-1] 皇  帝</title>
-			<title code="0x01000004">[Disk-1] ローエングリン</title>
-			<title code="0x00000005">[Disk-2] ボレロ</title>
-			<title code="0x00000006">[Disk-2] 英  雄</title>
-			<title code="0x00000007">[Disk-2] ひそう</title>
-			<title code="0x01000008">[Disk-2] 皇  帝</title>
-			<title code="0x01000009">[Disk-2] ローエングリン</title>
+			<title code="0x01000000">[Disk-1] Bolero (ボレロ)</title>
+			<title code="0x00000001">[Disk-1] Hero (英  雄)</title>
+			<title code="0x00000002">[Disk-1] Sadness (ひそう)</title>
+			<title code="0x01000003">[Disk-1] Emperor (皇  帝)</title>
+			<title code="0x01000004">[Disk-1] Lohengrin (ローエングリン)</title>
+			<title code="0x00000005">[Disk-2] Bolero (ボレロ)</title>
+			<title code="0x00000006">[Disk-2] Hero (英  雄)</title>
+			<title code="0x00000007">[Disk-2] Sadness (ひそう)</title>
+			<title code="0x01000008">[Disk-2] Emperor (皇  帝)</title>
+			<title code="0x01000009">[Disk-2] Lohengrin (ローエングリン)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 銀河英雄伝説II</name>
+		<name>[PC-8801] Ginga Eiyuu Densetsu II (銀河英雄伝説II) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x6390"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -192,32 +192,32 @@
 			<rom type="voice" offset="0x42">OPENING3.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">GEDS01F.COM : オープニング1</title>
-			<title code="0x21">GEDS02F.COM : オープニング2</title>
-			<title code="0x22">GEDS03F.COM : オープニング3</title>
-			<title code="0x23">GEDS04F.COM : オープニング4</title>
-			<title code="0x24">GEDS05F.COM : オープニング5</title>
-			<title code="0x25">GEDS06F.COM : 初期メニュー</title>
-			<title code="0x00">BGM_06F.COM : 戦いの彼方へ</title>
-			<title code="0x01">BGM_07F.COM : 神々の黄昏</title>
-			<title code="0x02">BGM_08F.COM : 沈黙からの戦い</title>
-			<title code="0x03">BGM_09F.COM : 遥かなる航海</title>
-			<title code="0x04">BGM_0AF.COM : 戦士達の宿命</title>
-			<title code="0x05">BGM_0BF.COM : つかのまの休息</title>
-			<title code="0x06">BGM_0CF.COM : 知性的なる解決</title>
-			<title code="0x07">BGM_0DF.COM : 最前線の攻防</title>
-			<title code="0x08">BGM_0EF.COM : 勝利への進軍</title>
-			<title code="0x09">BGM_10F.COM : 英雄の決断</title>
-			<title code="0x0a">BGM_11F.COM : 全艦突撃せよ</title>
-			<title code="0x40">GEDS00F.COM : エンディング1</title>
-			<title code="0x41">GEDS01F.COM : エンディング2</title>
-			<title code="0x42">GEDS02F.COM : エンディング3</title>
+			<title code="0x20">Opening 1 (オープニング1)</title>
+			<title code="0x21">Opening 2 (オープニング2)</title>
+			<title code="0x22">Opening 3 (オープニング3)</title>
+			<title code="0x23">Opening 4 (オープニング4)</title>
+			<title code="0x24">Opening 5 (オープニング5)</title>
+			<title code="0x25">Pre-Game Menu (初期メニュー)</title>
+			<title code="0x00">Beyond the Battle (戦いの彼方へ)</title>
+			<title code="0x01">Gotterdammerung (神々の黄昏)</title>
+			<title code="0x02">Battle from the Silence (沈黙からの戦い)</title>
+			<title code="0x03">The Voyage Far Away (遥かなる航海)</title>
+			<title code="0x04">The Warriors' Destiny (戦士達の宿命)</title>
+			<title code="0x05">A Brief Repose (つかのまの休息)</title>
+			<title code="0x06">Cerebral Solution (知性的なる解決)</title>
+			<title code="0x07">Battle on the Front Lines (最前線の攻防)</title>
+			<title code="0x08">The March to Victory (勝利への進軍)</title>
+			<title code="0x09">The Hero's Decision (英雄の決断)</title>
+			<title code="0x0a">All Ships Charge! (全艦突撃せよ)</title>
+			<title code="0x40">Ending 1 (エンディング1)</title>
+			<title code="0x41">Ending 2 (エンディング2)</title>
+			<title code="0x42">Ending 3 (エンディング3)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 銀河英雄伝説II DX</name>
+		<name>[PC-8801] Ginga Eiyuu Densetsu II DX (銀河英雄伝説II DX) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x65a0"/>
 		</options>
@@ -232,18 +232,18 @@
 			<rom type="bgm" offset="0x05">BGM_0CF.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM_06F.COM : ボレロ</title>
-			<title code="0x01">BGM_07F.COM : 英雄</title>
-			<title code="0x02">BGM_08F.COM : 戦いの彼方へ</title>
-			<title code="0x03">BGM_09F.COM : 勝利への進軍</title>
-			<title code="0x04">BGM_0BF.COM : 英雄の決断</title>
-			<title code="0x05">BGM_0CF.COM : 全艦突撃せよ</title>
+			<title code="0x00">Bolero (ボレロ)</title>
+			<title code="0x01">Hero (英雄)</title>
+			<title code="0x02">Beyond the Battle (戦いの彼方へ)</title>
+			<title code="0x03">March to Victory (勝利への進軍)</title>
+			<title code="0x04">The Hero's Decision (英雄の決断)</title>
+			<title code="0x05">All Ships Charge! (全艦突撃せよ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Scheme(OPNA)</name>
+		<name>[PC-8801] The Scheme (ザ・スキーム) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="use_rtc" value="0x01"/>
@@ -305,41 +305,41 @@
 			<rom type="bgm" offset="0x11">MS0;</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000000b">MS0B : INTO THE LAIR</title>
-			<title code="0x0000000a">MS0A : DEATH WORLD</title>
-			<title code="0x00000001">MS01 : I'LL SAVE YOU ALL MY JUSTICE</title>
-			<title code="0x00000003">MS03 : COWARD!</title>
-			<title code="0x00000009">MS09 : HA! HA!</title>
-			<title code="0x00000007">MS07 : PERPETUAL DARK</title>
-			<title code="0x00000002">MS02 : SHOUT DOWN</title>
-			<title code="0x00000004">MS04 : THOUSAND EYES</title>
-			<title code="0x00000006">MS06 : NUCLEAR POWER</title>
-			<title code="0x00000011">MS0; : MASTER OF THE SHOOTING</title>
-			<title code="0x00000008">MS08 : ANGRY FIST</title>
-			<title code="0x00000005">MS05 : THE FORCE ROTTED AWAY</title>
-			<title code="0x00000010">MS0: : THE EMPEROR WAS STEPPED IN VICE</title>
-			<title code="0x0000000e">MS0X : HARDY IS THE STRONGEST</title>
-			<title code="0x0000000f">MS0Y : CHALLENGING TOMORROW</title>
-			<title code="0x0000000c">MS0C : GAME OVER</title>
-			<title code="0x0000000d">MS0G : THEME OF THE GIGAIKOTSU</title>
-			<title code="0x010000ff">EFFECT #01</title>
-			<title code="0x020000ff">EFFECT #02</title>
-			<title code="0x030000ff">EFFECT #03</title>
-			<title code="0x040000ff">EFFECT #04</title>
-			<title code="0x050000ff">EFFECT #05</title>
-			<title code="0x060000ff">EFFECT #06</title>
-			<title code="0x070000ff">EFFECT #07</title>
-			<title code="0x080000ff">EFFECT #08</title>
-			<title code="0x090000ff">EFFECT #09</title>
-			<title code="0x0a0000ff">EFFECT #0A</title>
-			<title code="0x0b0000ff">EFFECT #0B</title>
-			<title code="0x0c0000ff">EFFECT #0C</title>
+			<title code="0x0000000b">Into the Lair</title>
+			<title code="0x0000000a">Death World</title>
+			<title code="0x00000001">I'll Save You All My Justice</title>
+			<title code="0x00000003">Coward!</title>
+			<title code="0x00000009">Ha! Ha!</title>
+			<title code="0x00000007">Perpetual Dark</title>
+			<title code="0x00000002">Shout Down</title>
+			<title code="0x00000004">Thousand Eyes</title>
+			<title code="0x00000006">Nuclear Power</title>
+			<title code="0x00000011">Master of the Shooting</title>
+			<title code="0x00000008">Angry Fist</title>
+			<title code="0x00000005">The Force Rotted Away</title>
+			<title code="0x00000010">The Emperor Was Stepped in Vice</title>
+			<title code="0x0000000e">Hardy is the Strongest</title>
+			<title code="0x0000000f">Challenging Tomorrow</title>
+			<title code="0x0000000c">Game Over</title>
+			<title code="0x0000000d">Theme of the Gigaikotsu</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #0A</title>
+			<title code="0x0b0000ff">SFX #0B</title>
+			<title code="0x0c0000ff">SFX #0C</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Scheme(OPN)</name>
+		<name>[PC-8801] The Scheme (ザ・スキーム) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="use_rtc" value="0x01"/>
@@ -360,42 +360,42 @@
 			<rom type="bgm" offset="0x08">EFC_</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">MD01 : DEATH WORLD           / 古代 祐三</title>
-			<title code="0x01000001">MD01 : promise tomorrow!     / 古代 祐三</title>
-			<title code="0x02000001">MD01 : 時の流れるままに      / 古代 祐三</title>
-			<title code="0x00000002">MD02 : dead-end crisis       / 古代 祐三</title>
-			<title code="0x01000002">MD02 : The ambition of HARDY / 古代 祐三</title>
-			<title code="0x00000003">MD03 : The Scheme            / 古代 祐三</title>
-			<title code="0x01000003">MD03 : 地底の覇者            / 古代 祐三</title>
-			<title code="0x00000004">MD04 : The elegy of battle   / 古代 祐三</title>
-			<title code="0x01000004">MD04 : Abandoned mine        / 古代 祐三</title>
-			<title code="0x02000004">MD04 : A leaden sky          / Shinobu</title>
-			<title code="0x00000005">MD05 : MONSTER CARNIVAL      / 古代 祐三</title>
-			<title code="0x01000005">MD05 : 墓場                  / 古代 祐三</title>
-			<title code="0x00000006">MD06 : 勇者マルス            / 古代 祐三</title>
-			<title code="0x01000006">MD06 : 呪われた氷窟          / 古代 祐三</title>
-			<title code="0x00000007">MD07 : strange field         / 古代 祐三</title>
-			<title code="0x01000007">MD07 : The force rotted away / 古代 祐三</title>
-			<title code="0x00000008">EFC_ : SE</title>
-		<!--	<title code="0x01000008">EFC_ : 勇者マルス            / 古代 祐三</title> -->
-			<title code="0x010000ff">EFFECT #01</title>
-			<title code="0x020000ff">EFFECT #02</title>
-			<title code="0x030000ff">EFFECT #03</title>
-			<title code="0x040000ff">EFFECT #04</title>
-			<title code="0x050000ff">EFFECT #05</title>
-			<title code="0x060000ff">EFFECT #06</title>
-			<title code="0x070000ff">EFFECT #07</title>
-			<title code="0x080000ff">EFFECT #08</title>
-			<title code="0x090000ff">EFFECT #09</title>
-			<title code="0x0a0000ff">EFFECT #0A</title>
-			<title code="0x0b0000ff">EFFECT #0B</title>
-			<title code="0x0c0000ff">EFFECT #0C</title>
+			<title code="0x00000001">Death World                             / 古代 祐三</title>
+			<title code="0x01000001">Promise Tomorrow!                       / 古代 祐三</title>
+			<title code="0x02000001">As Time Goes By (時の流れるままに)      / 古代 祐三</title>
+			<title code="0x00000002">Dead-end Crisis                         / 古代 祐三</title>
+			<title code="0x01000002">The Ambition of Hard                    / 古代 祐三</title>
+			<title code="0x00000003">The Scheme                              / 古代 祐三</title>
+			<title code="0x01000003">Master of the Underground (地底の覇者)  / 古代 祐三</title>
+			<title code="0x00000004">The Elegy of Battle                     / 古代 祐三</title>
+			<title code="0x01000004">Abandoned Mine                          / 古代 祐三</title>
+			<title code="0x02000004">A Leaden Sky                            / Shinobu</title>
+			<title code="0x00000005">Monster Carnival                        / 古代 祐三</title>
+			<title code="0x01000005">Graveyard (墓場)                        / 古代 祐三</title>
+			<title code="0x00000006">Mars the Valiant (勇者マルス)           / 古代 祐三</title>
+			<title code="0x01000006">The Cursed Ice Cave (呪われた氷窟)      / 古代 祐三</title>
+			<title code="0x00000007">Strange Field                           / 古代 祐三</title>
+			<title code="0x01000007">The Force Rotted Away                   / 古代 祐三</title>
+			<title code="0x00000008">SFX Switch</title>
+		<!--	<title code="0x01000008">Mars the Valiant (勇者マルス)           / 古代 祐三</title> -->
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #0A</title>
+			<title code="0x0b0000ff">SFX #0B</title>
+			<title code="0x0c0000ff">SFX #0C</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Scheme(80曲ミュージックモード)</name>
+		<name>[PC-8801] The Scheme: 80 Track Mode (ザ・スキーム 80曲ミュージックモード) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BOTHTEC</driveralias>
+		<driveralias type="PC-8801">Bothtec</driveralias>
 		<options>
 			<option name="mfile_size" value="0x3000"/>
 			<option name="vdata_addr" value="0x3000"/>
@@ -422,92 +422,92 @@
 			<rom type="voice" offset="0x07">YY07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">No.01 : BOX EXPRESS FLYING IN THE SKY            / 作・編曲 onion</title>
-			<title code="0x00090000">No.02 : santa train                              / 作・編曲 onion</title>
-			<title code="0x000c0000">No.03 : Cross over gate                          / 作・編曲 God</title>
-			<title code="0x00100000">No.04 : MORNING STAR                             / 作・編曲 onion</title>
+			<title code="0x00000000">No.01 : Box Express Flying in the Sky            / 作・編曲 onion</title>
+			<title code="0x00090000">No.02 : Santa Train                              / 作・編曲 onion</title>
+			<title code="0x000c0000">No.03 : Cross Over Gate                          / 作・編曲 God</title>
+			<title code="0x00100000">No.04 : Morning Star                             / 作・編曲 onion</title>
 			<title code="0x00130000">No.05 : バイクで去って行く中国の人               / 作・編曲 onion</title>
 			<title code="0x00150000">No.06 : お寺だ、おどれ                           / 作・編曲 onion</title>
 			<title code="0x00180000">No.07 : 開発ROOMは謎だらけ                       / 作・編曲 onion</title>
 			<title code="0x001a0000">No.08 : みゅー                                   / 作・編曲 God</title>
 			<title code="0x001c0000">No.09 : 街の人はねてるのに                       / 作・編曲 onion</title>
-			<title code="0x001e0000">No.10 : ONE WAY                                  / 作・編曲 onion</title>
+			<title code="0x001e0000">No.10 : One Way                                  / 作・編曲 onion</title>
 			<title code="0x00000001">No.11 : 林のテーマ                               / 作・編曲 onion</title>
-			<title code="0x00050001">No.12 : Deep in grief                            / 作・編曲 Shinobu</title>
+			<title code="0x00050001">No.12 : Deep in Grief                            / 作・編曲 Shinobu</title>
 			<title code="0x00070001">No.13 : 名人が町にやってきた                     / 作・編曲 onion</title>
 			<title code="0x000a0001">No.14 : 神たまのすきな日ようび                   / 作・編曲 onion</title>
 			<title code="0x00100001">No.15 : アジアの街 I                             / 作・編曲 onion</title>
-			<title code="0x00140001">No.16 : POM POM POM                              / 作・編曲 onion</title>
-			<title code="0x00160001">No.17 : oriental gale                            / 作・編曲 onion</title>
+			<title code="0x00140001">No.16 : Pom Pom Pom                              / 作・編曲 onion</title>
+			<title code="0x00160001">No.17 : Oriental Gale                            / 作・編曲 onion</title>
 			<title code="0x00180001">No.18 : 雄大なのは空だけじゃないよ               / 作・編曲 onion</title>
-			<title code="0x001a0001">No.19 : sunrise of the zoujyouzi temple          / 作・編曲 onion</title>
-			<title code="0x001c0001">No.20 : MONKEYまわし                             / 作・編曲 onion</title>
+			<title code="0x001a0001">No.19 : Sunrise of the Zoujyouzi Temple          / 作・編曲 onion</title>
+			<title code="0x001c0001">No.20 : Monkeyまわし                             / 作・編曲 onion</title>
 			<title code="0x00000002">No.21 : うっかりエジプト                         / 作・編曲 God</title>
 			<title code="0x00020002">No.22 : ギガイコツのテーマ                       / 作・編曲 God</title>
 			<title code="0x00040002">No.23 : アラビック ヤマト                        / 作・編曲 God</title>
-			<title code="0x00070002">No.24 : sunset of the zoujyouzi temple           / 作・編曲 onion</title>
+			<title code="0x00070002">No.24 : Sunset of the Zoujyouzi Temple           / 作・編曲 onion</title>
 			<title code="0x000a0002">No.25 : 飛び出せやむちん                         / 作・編曲 onion</title>
 			<title code="0x000c0002">No.26 : 走れやむちん                             / 作・編曲 onion</title>
-			<title code="0x000f0002">No.27 : voice of ghost                           / 作・編曲 onion</title>
+			<title code="0x000f0002">No.27 : Voice of Ghost                           / 作・編曲 onion</title>
 			<title code="0x00110002">No.28 : ゴーゴー カミタマー                      / 作・編曲 onion</title>
 			<title code="0x00160002">No.29 : アジアの街 II                            / 作・編曲 onion</title>
 			<title code="0x00190002">No.30 : ローゼンの唄                             / 作・編曲 onion</title>
 			<title code="0x00000003">No.31 : やっことかめども                         / 作・編曲 onion</title>
-			<title code="0x00030003">No.32 : AMAZING DISK THEME                       / 作・編曲 God</title>
+			<title code="0x00030003">No.32 : Amazing Disk Theme                       / 作・編曲 God</title>
 			<title code="0x00050003">No.33 : オニタマ カミタマ すごいのね             / 作・編曲 Shinobu</title>
-			<title code="0x00090003">No.34 : What humdrum life                        / 作・編曲 onion</title>
-			<title code="0x000f0003">No.35 : AMAZING SILENT                           / 作・編曲 onion</title>
+			<title code="0x00090003">No.34 : What Humdrum Life                        / 作・編曲 onion</title>
+			<title code="0x000f0003">No.35 : Amazing Silent                           / 作・編曲 onion</title>
 			<title code="0x00100003">No.36 : ふねにのりおくれた!                      / 作・編曲 onion</title>
 			<title code="0x00140003">No.37 : 乱闘パーティー                           / 作・編曲 onion</title>
 			<title code="0x00170003">No.38 : サンタがきましゅ                         / 作・編曲 C.A TEAM</title>
 			<title code="0x001b0003">No.39 : 何故なの神たま                           / 作・編曲 C.A TEAM</title>
 			<title code="0x00220003">No.40 : 美しいひびき                             / 作・編曲 God</title>
 			<title code="0x00000004">No.41 : 夜明けのマンホール                       / 作・編曲 God</title>
-			<title code="0x00020004">No.42 : FANTASTIC DREAMING                       / 作・編曲 God</title>
-			<title code="0x00060004">No.43 : JUMPPERのテーマ                          / 作・編曲 God</title>
+			<title code="0x00020004">No.42 : Fantastic Dreaming                       / 作・編曲 God</title>
+			<title code="0x00060004">No.43 : Jumpperのテーマ                          / 作・編曲 God</title>
 			<title code="0x000a0004">No.44 : 悪魔のフルート                           / 作・編曲 God</title>
-			<title code="0x000d0004">No.45 : 明日にかけるJUMPPER                      / 作・編曲 God</title>
-			<title code="0x00100004">No.46 : reliable thing                           / 作・編曲 onion</title>
+			<title code="0x000d0004">No.45 : 明日にかけるJumpper                      / 作・編曲 God</title>
+			<title code="0x00100004">No.46 : Reliable Thing                           / 作・編曲 onion</title>
 			<title code="0x00140004">No.47 : 雪がつもった朝                           / 作・編曲 onion</title>
 			<title code="0x00170004">No.48 : スケルトンの左足                         / 作・編曲 God</title>
-			<title code="0x001b0004">No.49 : HARUMA GAMEのテーマ                      / 作・編曲 onion</title>
+			<title code="0x001b0004">No.49 : Haruma Gameのテーマ                      / 作・編曲 onion</title>
 			<title code="0x001f0004">No.50 : 水の止まらないホース                     / 作・編曲 God</title>
 			<title code="0x00000005">No.51 : 帰りの坂道には‥‥                       / 作・編曲 onion</title>
-			<title code="0x00030005">No.52 : sea storm                                / 作・編曲 onion</title>
-			<title code="0x00060005">No.53 : one night in town                        / 作・編曲 C.A TEAM</title>
+			<title code="0x00030005">No.52 : Sea Storm                                / 作・編曲 onion</title>
+			<title code="0x00060005">No.53 : One Night in Town                        / 作・編曲 C.A TEAM</title>
 			<title code="0x00090005">No.54 : うれしいでしゅ                           / 作・編曲 C.A TEAM</title>
 			<title code="0x000b0005">No.55 : 宴のあとに                               / 作・編曲 God</title>
-			<title code="0x000d0005">No.56 : Arabic numerals                          / 作曲 God 編曲 TAMAGO</title>
+			<title code="0x000d0005">No.56 : Arabic Numerals                          / 作曲 God 編曲 TAMAGO</title>
 			<title code="0x00130005">No.57 : あなたにハートブレイク                   / 作・編曲 God</title>
 			<title code="0x00160005">No.58 : 最後の大きな壁                           / 作・編曲 C.A TEAM</title>
-			<title code="0x001e0005">No.59 : TEST 1                                   / 作・編曲 onion</title>
+			<title code="0x001e0005">No.59 : Test 1                                   / 作・編曲 onion</title>
 			<title code="0x00220005">No.60 : 機関車やえもん                           / 作・編曲 onion</title>
 			<title code="0x00000006">No.61 : 空中給油                                 / 作・編曲 God</title>
 			<title code="0x00040006">No.62 : うん、そう。それでしゅ。                 / 作・編曲 C.A TEAM</title>
-			<title code="0x00080006">No.63 : 100円ディスクのテーマ((98版)             / 作・編曲 God</title>
+			<title code="0x00080006">No.63 : 100円ディスクのテーマ(98版)              / 作・編曲 God</title>
 			<title code="0x000d0006">No.64 : もうねたいでしゅ                         / 作・編曲 C.A TEAM</title>
 			<title code="0x00180006">No.65 : 意表をつかれたでしゅ                     / 作・編曲 C.A TEAM</title>
-			<title code="0x001b0006">No.66 : yearend festival                         / 作・編曲 God</title>
+			<title code="0x001b0006">No.66 : Yearend Festival                         / 作・編曲 God</title>
 			<title code="0x001d0006">No.67 : 悪魔のささやき                           / 作・編曲 Shinobu</title>
 			<title code="0x001e0006">No.68 : "しゃのでしゅ" アレンジバージョン        / 作・編曲 onion</title>
 			<title code="0x00220006">No.69 : のどじまんにやってきたおじさんのテーマ   / 作・編曲 onion</title>
-			<title code="0x00250006">No.70 : “夜明けのマンホール”アレンジバージョン / 作・編曲 onion</title>
+			<title code="0x00250006">No.70 : "夜明けのマンホール"アレンジバージョン / 作・編曲 onion</title>
 			<title code="0x00000007">No.71 : お祭りの用意                             / 作・編曲 onion</title>
-			<title code="0x00040007">No.72 : reflection of the temple                 / 作・編曲 God</title>
+			<title code="0x00040007">No.72 : Reflection of the Temple                 / 作・編曲 God</title>
 			<title code="0x00070007">No.73 : 彩蒋花                                   / 作・編曲 God</title>
-			<title code="0x00090007">No.74 : sound storm                              / 作・編曲 God</title>
-			<title code="0x000b0007">No.75 : FINAL DANGEROUS 2                        / 作・編曲 onion</title>
+			<title code="0x00090007">No.74 : Sound Storm                              / 作・編曲 God</title>
+			<title code="0x000b0007">No.75 : Final Dangerous 2                        / 作・編曲 onion</title>
 			<title code="0x00120007">No.76 : ろーはい                                 / 作・編曲 God</title>
-			<title code="0x00140007">No.77 : with a splash                            / 作・編曲 God</title>
+			<title code="0x00140007">No.77 : With a Splash                            / 作・編曲 God</title>
 			<title code="0x00160007">No.78 : 犬に吠えられたでしゅ                     / 作・編曲 C.A TEAM</title>
-			<title code="0x001e0007">No.79 : DEVOS endless night                      / 作・編曲 onion</title>
+			<title code="0x001e0007">No.79 : Devos Endless Night                      / 作・編曲 onion</title>
 			<title code="0x00200007">No.80 : 勝手にギガイコツ                         / 作・編曲 God</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] DIRES - giger loop -</name>
+		<name>[PC-88VA] Dires: Giger Loop (ダイレス Giger Loop)</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="PC-88VA">BOTHTEC</driveralias>
+		<driveralias type="PC-88VA">Bothtec</driveralias>
 		<romlist archive="diresva">
 			<rom type="file" offset="-1">diresva.com</rom>
 			<rom type="file" offset="-1">DEMO.EXE</rom>
@@ -525,9 +525,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] RELICS(OPN)</name>
+		<name>[PC-9801] Relics (レリクス) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="bootcs" value="0x00c0"/>
 			<option name="bootip" value="0xdd00"/>
@@ -539,14 +539,14 @@
 			<rom type="code" offset="0x0e900">relics98.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">WOMAN</title>
-			<title code="0x01">SMILE AGAIN</title>
+			<title code="0x00">Woman</title>
+			<title code="0x01">Smile Again</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] RELICS(AMD-98)</name>
+		<name>[PC-9801] Relics (レリクス) (AY-3-8910x3)</name>
 		<driver type="amd98">pc98vx</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="bootcs" value="0x00c0"/>
 			<option name="bootip" value="0xdd00"/>
@@ -558,31 +558,31 @@
 			<rom type="code" offset="0x0e900">relics98.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">WOMAN</title>
-			<title code="0x01">SMILE AGAIN</title>
+			<title code="0x00">Woman</title>
+			<title code="0x01">Smile Again</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Topple Zip</name>
+		<name>[PC-9801] Topple Zip (トップルジップ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<romlist archive="topple_98">
 			<rom type="file" offset="-1">topl98.com</rom>
 			<rom type="file" offset="-1">TOPPLE.EXE</rom>
 			<rom type="shell" offset="0">topl98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : BGM 1</title>
-			<title code="0x01">01 : BGM 2</title>
-			<title code="0x02">02 : BGM 3</title>
-			<title code="0x03">03 : 効果音</title>
-			<title code="0x04">04 : 効果音</title>
+			<title code="0x00">BGM 1</title>
+			<title code="0x01">BGM 2</title>
+			<title code="0x02">BGM 3</title>
+			<title code="0x03">効果音</title>
+			<title code="0x04">効果音</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DIRES - giger loop -</name>
+		<name>[PC-9801] Dires: Giger Loop (ダイレス Giger Loop) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -603,9 +603,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] らんま1/2 飛龍伝説</name>
+		<name>[PC-9801] Ranma 1/2: Hiryuu Densetsu (らんま1/2 飛龍伝説) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -676,10 +676,10 @@
 			<rom type="shell" offset="0">ranma</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000002c">GEDS15F.MDS  : Bothtecロゴ</title>
+			<title code="0x0000002c">Bothtecロゴ</title>
 			<title code="0x00000049">PROLOGUE.MDS</title>
-			<title code="0x00000010">BOKUTATI.MDS : 僕たちはこれから(Short version)</title>
-			<title code="0x00000011">BOKU_END.MDS : 僕たちはこれから(Long version)</title>
+			<title code="0x00000010">僕たちはこれから(Short version)</title>
+			<title code="0x00000011">僕たちはこれから(Long version)</title>
 			<title code="0x00000012">EM_01.MDS</title>
 			<title code="0x00000013">EM_02.MDS</title>
 			<title code="0x00000014">EM_03.MDS</title>
@@ -733,7 +733,7 @@
 			<title code="0x00000045">M_76.MDS</title>
 			<title code="0x00000046">M_77.MDS</title>
 			<title code="0x00000047">M_78.MDS</title>
-			<title code="0x00000048">OMOIDE.MDS   : 思い出がいっぱい</title>
+			<title code="0x00000048">思い出がいっぱい</title>
 			<title code="0x0000ffff">EFFECT #00</title>
 			<title code="0x0001ffff">EFFECT #01</title>
 			<title code="0x0002ffff">EFFECT #02</title>
@@ -747,9 +747,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III(OPN)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<romlist archive="ginei3_98">
 			<rom type="file" offset="-1">g3.com</rom>
 			<rom type="file" offset="-1">OPENING.EXE</rom>
@@ -770,24 +770,24 @@
 			<rom type="shell" offset="0">g3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MDS  : オープニング</title>
-			<title code="0x00000011">BGM_0F  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1F  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2F  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3F  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4F  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5F  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6F  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7F  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MDS</title>
 			<title code="0x0100001a">ENDBGMT .MDS</title>
-			<title code="0x0000001b">TITLEBGM.MDS  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III(MT-32)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -810,24 +810,24 @@
 			<rom type="shell" offset="0">g3m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MPU  : オープニング</title>
-			<title code="0x00000011">BGM_0M  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1M  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2M  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3M  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4M  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MPU</title>
 			<title code="0x0100001a">ENDBGMT .MPU</title>
-			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III(MT-32 Emulation)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -850,24 +850,24 @@
 			<rom type="shell" offset="0">g3m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MPU  : オープニング</title>
-			<title code="0x00000011">BGM_0M  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1M  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2M  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3M  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4M  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MPU</title>
 			<title code="0x0100001a">ENDBGMT .MPU</title>
-			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III SP(OPN)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III SP (銀河英雄伝説III SP) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<romlist archive="ginei3sp_98">
 			<rom type="file" offset="-1">g3.com</rom>
 			<rom type="file" offset="-1">OPENING.EXE</rom>
@@ -888,24 +888,24 @@
 			<rom type="shell" offset="0">g3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MDS  : オープニング</title>
-			<title code="0x00000011">BGM_0F  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1F  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2F  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3F  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4F  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5F  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6F  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7F  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MDS</title>
 			<title code="0x0100001a">ENDBGMT .MDS</title>
-			<title code="0x0000001b">TITLEBGM.MDS  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III SP(MT-32)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III SP (銀河英雄伝説III SP) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
@@ -928,24 +928,24 @@
 			<rom type="shell" offset="0">g3m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MPU  : オープニング</title>
-			<title code="0x00000011">BGM_0M  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1M  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2M  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3M  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4M  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MPU</title>
 			<title code="0x0100001a">ENDBGMT .MPU</title>
-			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説III SP(MT-32 Emulation)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu III SP (銀河英雄伝説III SP) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -968,24 +968,24 @@
 			<rom type="shell" offset="0">g3m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">OPBGM0  .MPU  : オープニング</title>
-			<title code="0x00000011">BGM_0M  .MDS  : ボレロ</title>
-			<title code="0x00000012">BGM_1M  .MDS  : 英雄</title>
-			<title code="0x00000013">BGM_2M  .MDS  : 悲愴</title>
-			<title code="0x00000014">BGM_3M  .MDS  : 新世界より</title>
-			<title code="0x00000015">BGM_4M  .MDS  : 四季・夏</title>
-			<title code="0x00000016">BGM_5M  .MDS  : 沈黙の戦場</title>
-			<title code="0x01000017">BGM_6M  .MDS  : 全艦攻撃</title>
-			<title code="0x00000018">BGM_7M  .MDS  : インサイト</title>
+			<title code="0x00000010">オープニング</title>
+			<title code="0x00000011">ボレロ</title>
+			<title code="0x00000012">英雄</title>
+			<title code="0x00000013">悲愴</title>
+			<title code="0x00000014">新世界より</title>
+			<title code="0x00000015">四季・夏</title>
+			<title code="0x00000016">沈黙の戦場</title>
+			<title code="0x01000017">全艦攻撃</title>
+			<title code="0x00000018">インサイト</title>
 			<title code="0x01000019">ENDBGMD .MPU</title>
 			<title code="0x0100001a">ENDBGMT .MPU</title>
-			<title code="0x0000001b">TITLEBGM.MPU  : Bothtecロゴ</title>
+			<title code="0x0000001b">Bothtecロゴ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV(OPN)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1021,24 +1021,24 @@
 			<rom type="shell" offset="0">synup_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">BGM401.N  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.N  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.N  : 同盟国歌</title>
-			<title code="0x14">BGM404.N  : さまよえるオランダ人</title>
-			<title code="0x26">VAL3E.N   : ワルキューレ</title>
-			<title code="0x16">BGM406.N  : タンホイザー</title>
-			<title code="0x17">BGM407.N  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.N  : 神々の黄昏</title>
-			<title code="0x19">BGM409.N  : ボレロ</title>
-			<title code="0x1c">BGM411.N  : ローエングリン</title>
-			<title code="0x1d">BGM412.N  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.N  : 新世界より</title>
-			<title code="0x1f">BGM414.N  : ラインの黄金</title>
-			<title code="0x20">BGM415.N  : 英雄</title>
-			<title code="0x21">BGM416.N  : パッヘルベルのカノン</title>
-			<title code="0x15">BGM405.N  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x25">NEW_F.N   : 新世界より(戦闘バージョン)</title>
-			<title code="0x27">ZENKAN.N  : 全艦攻撃(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.N</title>
 			<title code="0x1b">BGM410C.N</title>
 			<title code="0x22">BGM417.N</title>
@@ -1047,9 +1047,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV(OPNA)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1085,24 +1085,24 @@
 			<rom type="shell" offset="0">synup_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">BGM401.A  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.A  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.A  : 同盟国歌</title>
-			<title code="0x14">BGM404.A  : さまよえるオランダ人</title>
-			<title code="0x26">VAL3E.A   : ワルキューレ</title>
-			<title code="0x16">BGM406.A  : タンホイザー</title>
-			<title code="0x17">BGM407.A  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.A  : 神々の黄昏</title>
-			<title code="0x19">BGM409.A  : ボレロ</title>
-			<title code="0x1c">BGM411.A  : ローエングリン</title>
-			<title code="0x1d">BGM412.A  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.A  : 新世界より</title>
-			<title code="0x1f">BGM414.A  : ラインの黄金</title>
-			<title code="0x20">BGM415.A  : 英雄</title>
-			<title code="0x21">BGM416.A  : パッヘルベルのカノン</title>
-			<title code="0x15">BGM405.A  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x25">NEW_F.A   : 新世界より(戦闘バージョン)</title>
-			<title code="0x27">ZENKAN.A  : 全艦攻撃(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.A</title>
 			<title code="0x1b">BGM410C.A</title>
 			<title code="0x22">BGM417.A</title>
@@ -1111,9 +1111,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV(GS)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (GS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1151,24 +1151,24 @@
 			<rom type="shell" offset="0">synup_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">BGM401.G  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.G  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.G  : 同盟国歌</title>
-			<title code="0x14">BGM404.G  : さまよえるオランダ人</title>
-			<title code="0x26">VAL3E.G   : ワルキューレ</title>
-			<title code="0x16">BGM406.G  : タンホイザー</title>
-			<title code="0x17">BGM407.G  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.G  : 神々の黄昏</title>
-			<title code="0x19">BGM409.G  : ボレロ</title>
-			<title code="0x1c">BGM411.G  : ローエングリン</title>
-			<title code="0x1d">BGM412.G  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.G  : 新世界より</title>
-			<title code="0x1f">BGM414.G  : ラインの黄金</title>
-			<title code="0x20">BGM415.G  : 英雄</title>
-			<title code="0x21">BGM416.G  : パッヘルベルのカノン</title>
-			<title code="0x15">BGM405.G  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x25">NEW_F.G   : 新世界より(戦闘バージョン)</title>
-			<title code="0x27">ZENKAN.G  : 全艦攻撃(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.G</title>
 			<title code="0x1b">BGM410C.G</title>
 			<title code="0x22">BGM417.G</title>
@@ -1177,9 +1177,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV(MT-32)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (MT-32)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1217,24 +1217,24 @@
 			<rom type="shell" offset="0">synup_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.L  : 同盟国歌</title>
-			<title code="0x14">BGM404.L  : さまよえるオランダ人</title>
-			<title code="0x26">VAL3E.L   : ワルキューレ</title>
-			<title code="0x16">BGM406.L  : タンホイザー</title>
-			<title code="0x17">BGM407.L  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.L  : 神々の黄昏</title>
-			<title code="0x19">BGM409.L  : ボレロ</title>
-			<title code="0x1c">BGM411.L  : ローエングリン</title>
-			<title code="0x1d">BGM412.L  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.L  : 新世界より</title>
-			<title code="0x1f">BGM414.L  : ラインの黄金</title>
-			<title code="0x20">BGM415.L  : 英雄</title>
-			<title code="0x21">BGM416.L  : パッヘルベルのカノン</title>
-			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x25">NEW_F.L   : 新世界より(戦闘バージョン)</title>
-			<title code="0x27">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.L</title>
 			<title code="0x1b">BGM410C.L</title>
 			<title code="0x22">BGM417.L</title>
@@ -1243,9 +1243,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV(MT-32 Emulation)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1283,24 +1283,24 @@
 			<rom type="shell" offset="0">synup_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.L  : 同盟国歌</title>
-			<title code="0x14">BGM404.L  : さまよえるオランダ人</title>
-			<title code="0x26">VAL3E.L   : ワルキューレ</title>
-			<title code="0x16">BGM406.L  : タンホイザー</title>
-			<title code="0x17">BGM407.L  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.L  : 神々の黄昏</title>
-			<title code="0x19">BGM409.L  : ボレロ</title>
-			<title code="0x1c">BGM411.L  : ローエングリン</title>
-			<title code="0x1d">BGM412.L  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.L  : 新世界より</title>
-			<title code="0x1f">BGM414.L  : ラインの黄金</title>
-			<title code="0x20">BGM415.L  : 英雄</title>
-			<title code="0x21">BGM416.L  : パッヘルベルのカノン</title>
-			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x25">NEW_F.L   : 新世界より(戦闘バージョン)</title>
-			<title code="0x27">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.L</title>
 			<title code="0x1b">BGM410C.L</title>
 			<title code="0x22">BGM417.L</title>
@@ -1309,9 +1309,75 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(OPN)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV (銀河英雄伝説IV) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="ginei4_98">
+			<rom type="file" offset="-1">synup_98.com</rom>
+			<rom type="file" offset="-1">SYNUPS.COM</rom>
+			<rom type="file" offset="-1">SYNPLAY.EXE</rom>
+			<rom type="file" offset="0x11">BGM401.G</rom>
+			<rom type="file" offset="0x12">BGM402.G</rom>
+			<rom type="file" offset="0x13">BGM403.G</rom>
+			<rom type="file" offset="0x14">BGM404.G</rom>
+			<rom type="file" offset="0x15">BGM405.G</rom>
+			<rom type="file" offset="0x16">BGM406.G</rom>
+			<rom type="file" offset="0x17">BGM407.G</rom>
+			<rom type="file" offset="0x18">BGM408.G</rom>
+			<rom type="file" offset="0x19">BGM409.G</rom>
+			<rom type="file" offset="0x1a">BGM410.G</rom>
+			<rom type="file" offset="0x1b">BGM410C.G</rom>
+			<rom type="file" offset="0x1c">BGM411.G</rom>
+			<rom type="file" offset="0x1d">BGM412.G</rom>
+			<rom type="file" offset="0x1e">BGM413.G</rom>
+			<rom type="file" offset="0x1f">BGM414.G</rom>
+			<rom type="file" offset="0x20">BGM415.G</rom>
+			<rom type="file" offset="0x21">BGM416.G</rom>
+			<rom type="file" offset="0x22">BGM417.G</rom>
+			<rom type="file" offset="0x23">BGM418.G</rom>
+			<rom type="file" offset="0x24">BGM419.G</rom>
+			<rom type="file" offset="0x25">NEW_F.G</rom>
+			<rom type="file" offset="0x26">VAL3E.G</rom>
+			<rom type="file" offset="0x27">ZENKAN.G</rom>
+			<rom type="shell" offset="0">synups</rom>
+			<rom type="shell" offset="0">synplay</rom>
+			<rom type="shell" offset="0">synup_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x26">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x25">新世界より(戦闘バージョン)</title>
+			<title code="0x27">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x1a">BGM410.G</title>
+			<title code="0x1b">BGM410C.G</title>
+			<title code="0x22">BGM417.G</title>
+			<title code="0x23">BGM418.G</title>
+			<title code="0x24">BGM419.G</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1356,30 +1422,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.N</title>
 			<title code="0x29">BGM435.N</title>
-			<title code="0x11">BGM401.N  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.N  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.N  : 同盟国歌</title>
-			<title code="0x14">BGM404.N  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.N   : ワルキューレ</title>
-			<title code="0x16">BGM406.N  : タンホイザー</title>
-			<title code="0x17">BGM407.N  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.N  : 神々の黄昏</title>
-			<title code="0x19">BGM409.N  : ボレロ</title>
-			<title code="0x1c">BGM411.N  : ローエングリン</title>
-			<title code="0x1d">BGM412.N  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.N  : 新世界より</title>
-			<title code="0x1f">BGM414.N  : ラインの黄金</title>
-			<title code="0x20">BGM415.N  : 英雄</title>
-			<title code="0x21">BGM416.N  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.N  : 悲愴</title>
-			<title code="0x26">BGM432.N  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.N  : 自由への脱出</title>
-			<title code="0x28">BGM434.N  : 美しき謀略</title>
-			<title code="0x2a">BGM436.N  : 勝利への進軍</title>
-			<title code="0x15">BGM405.N  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.N   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.N  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.N  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.N</title>
 			<title code="0x1b">BGM410C.N</title>
 			<title code="0x22">BGM417.N</title>
@@ -1387,9 +1453,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(OPNA)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1434,30 +1500,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.A</title>
 			<title code="0x29">BGM435.A</title>
-			<title code="0x11">BGM401.A  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.A  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.A  : 同盟国歌</title>
-			<title code="0x14">BGM404.A  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.A   : ワルキューレ</title>
-			<title code="0x16">BGM406.A  : タンホイザー</title>
-			<title code="0x17">BGM407.A  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.A  : 神々の黄昏</title>
-			<title code="0x19">BGM409.A  : ボレロ</title>
-			<title code="0x1c">BGM411.A  : ローエングリン</title>
-			<title code="0x1d">BGM412.A  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.A  : 新世界より</title>
-			<title code="0x1f">BGM414.A  : ラインの黄金</title>
-			<title code="0x20">BGM415.A  : 英雄</title>
-			<title code="0x21">BGM416.A  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.A  : 悲愴</title>
-			<title code="0x26">BGM432.A  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.A  : 自由への脱出</title>
-			<title code="0x28">BGM434.A  : 美しき謀略</title>
-			<title code="0x2a">BGM436.A  : 勝利への進軍</title>
-			<title code="0x15">BGM405.A  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.A   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.A  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.A  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.A</title>
 			<title code="0x1b">BGM410C.A</title>
 			<title code="0x22">BGM417.A</title>
@@ -1465,9 +1531,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(SB16)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (YMF262)</name>
 		<driver type="soundblaster16">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="opl3_mix" value="0x100"/>
@@ -1513,30 +1579,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.O</title>
 			<title code="0x29">BGM435.O</title>
-			<title code="0x11">BGM401.O  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.O  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.O  : 同盟国歌</title>
-			<title code="0x14">BGM404.O  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.O   : ワルキューレ</title>
-			<title code="0x16">BGM406.O  : タンホイザー</title>
-			<title code="0x17">BGM407.O  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.O  : 神々の黄昏</title>
-			<title code="0x19">BGM409.O  : ボレロ</title>
-			<title code="0x1c">BGM411.O  : ローエングリン</title>
-			<title code="0x1d">BGM412.O  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.O  : 新世界より</title>
-			<title code="0x1f">BGM414.O  : ラインの黄金</title>
-			<title code="0x20">BGM415.O  : 英雄</title>
-			<title code="0x21">BGM416.O  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.O  : 悲愴</title>
-			<title code="0x26">BGM432.O  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.O  : 自由への脱出</title>
-			<title code="0x28">BGM434.O  : 美しき謀略</title>
-			<title code="0x2a">BGM436.O  : 勝利への進軍</title>
-			<title code="0x15">BGM405.O  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.O   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.O  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.O  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.O</title>
 			<title code="0x1b">BGM410C.O</title>
 			<title code="0x22">BGM417.O</title>
@@ -1544,9 +1610,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(GS)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1593,30 +1659,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.G</title>
 			<title code="0x29">BGM435.G</title>
-			<title code="0x11">BGM401.G  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.G  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.G  : 同盟国歌</title>
-			<title code="0x14">BGM404.G  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.G   : ワルキューレ</title>
-			<title code="0x16">BGM406.G  : タンホイザー</title>
-			<title code="0x17">BGM407.G  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.G  : 神々の黄昏</title>
-			<title code="0x19">BGM409.G  : ボレロ</title>
-			<title code="0x1c">BGM411.G  : ローエングリン</title>
-			<title code="0x1d">BGM412.G  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.G  : 新世界より</title>
-			<title code="0x1f">BGM414.G  : ラインの黄金</title>
-			<title code="0x20">BGM415.G  : 英雄</title>
-			<title code="0x21">BGM416.G  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.G  : 悲愴</title>
-			<title code="0x26">BGM432.G  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.G  : 自由への脱出</title>
-			<title code="0x28">BGM434.G  : 美しき謀略</title>
-			<title code="0x2a">BGM436.G  : 勝利への進軍</title>
-			<title code="0x15">BGM405.G  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.G   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.G  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.G  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.G</title>
 			<title code="0x1b">BGM410C.G</title>
 			<title code="0x22">BGM417.G</title>
@@ -1624,9 +1690,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(MT-32)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1673,30 +1739,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.L</title>
 			<title code="0x29">BGM435.L</title>
-			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.L  : 同盟国歌</title>
-			<title code="0x14">BGM404.L  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.L   : ワルキューレ</title>
-			<title code="0x16">BGM406.L  : タンホイザー</title>
-			<title code="0x17">BGM407.L  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.L  : 神々の黄昏</title>
-			<title code="0x19">BGM409.L  : ボレロ</title>
-			<title code="0x1c">BGM411.L  : ローエングリン</title>
-			<title code="0x1d">BGM412.L  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.L  : 新世界より</title>
-			<title code="0x1f">BGM414.L  : ラインの黄金</title>
-			<title code="0x20">BGM415.L  : 英雄</title>
-			<title code="0x21">BGM416.L  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.L  : 悲愴</title>
-			<title code="0x26">BGM432.L  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.L  : 自由への脱出</title>
-			<title code="0x28">BGM434.L  : 美しき謀略</title>
-			<title code="0x2a">BGM436.L  : 勝利への進軍</title>
-			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.L   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.L  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.L</title>
 			<title code="0x1b">BGM410C.L</title>
 			<title code="0x22">BGM417.L</title>
@@ -1704,9 +1770,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 銀河英雄伝説IV EX(MT-32 Emulation)</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">BOTHTEC</driveralias>
+		<driveralias type="PC-9801">Bothtec</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1753,30 +1819,30 @@
 		<titlelist>
 			<title code="0x23">BGM418.L</title>
 			<title code="0x29">BGM435.L</title>
-			<title code="0x11">BGM401.L  : SKIES OF LOVE</title>
-			<title code="0x12">BGM402.L  : 帝国軍楽曲</title>
-			<title code="0x13">BGM403.L  : 同盟国歌</title>
-			<title code="0x14">BGM404.L  : さまよえるオランダ人</title>
-			<title code="0x2c">VAL3E.L   : ワルキューレ</title>
-			<title code="0x16">BGM406.L  : タンホイザー</title>
-			<title code="0x17">BGM407.L  : ニュルンベルクのマイスタージンガー</title>
-			<title code="0x18">BGM408.L  : 神々の黄昏</title>
-			<title code="0x19">BGM409.L  : ボレロ</title>
-			<title code="0x1c">BGM411.L  : ローエングリン</title>
-			<title code="0x1d">BGM412.L  : アルビノーニのアダージョ</title>
-			<title code="0x1e">BGM413.L  : 新世界より</title>
-			<title code="0x1f">BGM414.L  : ラインの黄金</title>
-			<title code="0x20">BGM415.L  : 英雄</title>
-			<title code="0x21">BGM416.L  : パッヘルベルのカノン</title>
-			<title code="0x25">BGM431.L  : 悲愴</title>
-			<title code="0x26">BGM432.L  : ヴォカリーズ</title>
-			<title code="0x27">BGM433.L  : 自由への脱出</title>
-			<title code="0x28">BGM434.L  : 美しき謀略</title>
-			<title code="0x2a">BGM436.L  : 勝利への進軍</title>
-			<title code="0x15">BGM405.L  : ワルキューレ(戦闘バージョン)</title>
-			<title code="0x2b">NEW_F.L   : 新世界より(戦闘バージョン)</title>
-			<title code="0x2d">ZENKAN.L  : 全艦攻撃(戦闘バージョン)</title>
-			<title code="0x2e">FIGHT4.L  : 英雄の決断(戦闘バージョン)</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
 			<title code="0x1a">BGM410.L</title>
 			<title code="0x1b">BGM410C.L</title>
 			<title code="0x22">BGM417.L</title>
@@ -1784,9 +1850,89 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] HOTEL WARS</name>
+		<name>[PC-9801] Ginga Eiyuu Densetsu IV EX (銀河英雄伝説IV EX) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Bothtec</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="ginei4ex_98">
+			<rom type="file" offset="-1">synu2_98.com</rom>
+			<rom type="file" offset="-1">SYNUPS2.COM</rom>
+			<rom type="file" offset="-1">SYNPLAY2.EXE</rom>
+			<rom type="file" offset="0x11">BGM401.G</rom>
+			<rom type="file" offset="0x12">BGM402.G</rom>
+			<rom type="file" offset="0x13">BGM403.G</rom>
+			<rom type="file" offset="0x14">BGM404.G</rom>
+			<rom type="file" offset="0x15">BGM405.G</rom>
+			<rom type="file" offset="0x16">BGM406.G</rom>
+			<rom type="file" offset="0x17">BGM407.G</rom>
+			<rom type="file" offset="0x18">BGM408.G</rom>
+			<rom type="file" offset="0x19">BGM409.G</rom>
+			<rom type="file" offset="0x1a">BGM410.G</rom>
+			<rom type="file" offset="0x1b">BGM410C.G</rom>
+			<rom type="file" offset="0x1c">BGM411.G</rom>
+			<rom type="file" offset="0x1d">BGM412.G</rom>
+			<rom type="file" offset="0x1e">BGM413.G</rom>
+			<rom type="file" offset="0x1f">BGM414.G</rom>
+			<rom type="file" offset="0x20">BGM415.G</rom>
+			<rom type="file" offset="0x21">BGM416.G</rom>
+			<rom type="file" offset="0x22">BGM417.G</rom>
+			<rom type="file" offset="0x23">BGM418.G</rom>
+			<rom type="file" offset="0x24">BGM419.G</rom>
+			<rom type="file" offset="0x25">BGM431.G</rom>
+			<rom type="file" offset="0x26">BGM432.G</rom>
+			<rom type="file" offset="0x27">BGM433.G</rom>
+			<rom type="file" offset="0x28">BGM434.G</rom>
+			<rom type="file" offset="0x29">BGM435.G</rom>
+			<rom type="file" offset="0x2a">BGM436.G</rom>
+			<rom type="file" offset="0x2b">NEW_F.G</rom>
+			<rom type="file" offset="0x2c">VAL3E.G</rom>
+			<rom type="file" offset="0x2d">ZENKAN.G</rom>
+			<rom type="file" offset="0x2e">FIGHT4.G</rom>
+			<rom type="shell" offset="0">synups2</rom>
+			<rom type="shell" offset="0">synplay2</rom>
+			<rom type="shell" offset="0">synu2_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x23">BGM418.G</title>
+			<title code="0x29">BGM435.G</title>
+			<title code="0x11">Skies of Love</title>
+			<title code="0x12">帝国軍楽曲</title>
+			<title code="0x13">同盟国歌</title>
+			<title code="0x14">さまよえるオランダ人</title>
+			<title code="0x2c">ワルキューレ</title>
+			<title code="0x16">タンホイザー</title>
+			<title code="0x17">ニュルンベルクのマイスタージンガー</title>
+			<title code="0x18">神々の黄昏</title>
+			<title code="0x19">ボレロ</title>
+			<title code="0x1c">ローエングリン</title>
+			<title code="0x1d">アルビノーニのアダージョ</title>
+			<title code="0x1e">新世界より</title>
+			<title code="0x1f">ラインの黄金</title>
+			<title code="0x20">英雄</title>
+			<title code="0x21">パッヘルベルのカノン</title>
+			<title code="0x25">悲愴</title>
+			<title code="0x26">ヴォカリーズ</title>
+			<title code="0x27">自由への脱出</title>
+			<title code="0x28">美しき謀略</title>
+			<title code="0x2a">勝利への進軍</title>
+			<title code="0x15">ワルキューレ(戦闘バージョン)</title>
+			<title code="0x2b">新世界より(戦闘バージョン)</title>
+			<title code="0x2d">全艦攻撃(戦闘バージョン)</title>
+			<title code="0x2e">英雄の決断(戦闘バージョン)</title>
+			<title code="0x1a">BGM410.G</title>
+			<title code="0x1b">BGM410C.G</title>
+			<title code="0x22">BGM417.G</title>
+			<title code="0x24">BGM419.G</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Hotel Wars (ホテルウォーズ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1797,14 +1943,14 @@
 			<rom type="x" offset="0x030000">HW.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x05" extcode="1">BGM 0x%02x</range>
-			<range min="0x101" max="0x108" extcode="1">SE 0x%02x</range>
+			<range min="0x01" max="0x05" extcode="1">BGM #%02x</range>
+			<range min="0x101" max="0x108" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] RELICS</name>
+		<name>[X68000] Relics (レリクス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -1814,14 +1960,14 @@
 			<rom type="x" offset="0x20000">ENDING.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">WOMAN</title>
-			<title code="0x02">SMILE AGAIN</title>
+			<title code="0x01">Woman</title>
+			<title code="0x02">Smile Again</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説(OPM)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu (銀河英雄伝説) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<romlist archive="ginei68snd">
 			<rom type="code" offset="0x000000">gin68snd.bin</rom>
 			<rom type="x"    offset="0x010000">amain.x</rom>
@@ -1840,9 +1986,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説 パワーアップ＆シナリオ集(OPM)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu: Powerup &amp; Scenario Shuu (銀河英雄伝説 パワーアップ&amp;シナリオ集) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<romlist archive="ginps68snd">
 			<rom type="code" offset="0x000000">ginps68snd.bin</rom>
 			<rom type="x"    offset="0x010000">amain.x</rom>
@@ -1856,18 +2002,18 @@
 			<rom type="code" offset="0x0a9000">BGM_F.COM</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x06">BGM_F.COM : ボレロ</title> -->
-			<title code="0x01">BGM_O.COM : ボレロ</title>
-			<title code="0x02">BGM_1.COM : 英雄</title>
-			<title code="0x03">BGM_2.COM : 悲愴</title>
-			<title code="0x04">BGM_3.COM : 皇帝</title>
-			<title code="0x05">BGM_4.COM : ローエングリン</title>
+		<!--	<title code="0x06">ボレロ</title> -->
+			<title code="0x01">ボレロ</title>
+			<title code="0x02">英雄</title>
+			<title code="0x03">悲愴</title>
+			<title code="0x04">皇帝</title>
+			<title code="0x05">ローエングリン</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説II(OPM)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu II (銀河英雄伝説II) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1903,35 +2049,35 @@
 			<rom type="code" offset="0x0b8000">GEDS12M.MDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">GEDS01M.MDT  : オープニング1</title>
-			<title code="0x0d">GEDS02M.MDT  : オープニング2</title>
-			<title code="0x0e">GEDS03M.MDT  : オープニング3</title>
-			<title code="0x0f">GEDS04M.MDT  : オープニング4</title>
-			<title code="0x10">GEDS05M.MDT  : オープニング5</title>
-			<title code="0x11">GEDS06M.MDT  : 初期メニュー</title>
-			<title code="0x01">MUSIC06M.MDT : 戦いの彼方へ</title>
-		<!--	<title code="0x13">GEDS08M.MDT  : 戦いの彼方へ</title> -->
-			<title code="0x02">MUSIC07M.MDT : 神々の黄昏</title>
-			<title code="0x03">MUSIC08M.MDT : 沈黙からの戦い</title>
-			<title code="0x04">MUSIC09M.MDT : 遥かなる航海</title>
-			<title code="0x05">MUSIC0AM.MDT : 戦士達の宿命</title>
-			<title code="0x06">MUSIC0BM.MDT : つかのまの休息</title>
-			<title code="0x07">MUSIC0CM.MDT : 知性的なる解決</title>
-			<title code="0x08">MUSIC0DM.MDT : 最前線の攻防</title>
-			<title code="0x09">MUSIC0EM.MDT : 勝利への進軍</title>
-		<!--	<title code="0x14">GEDS09M.MDT  : 勝利への進軍</title> -->
-			<title code="0x0a">MUSIC10M.MDT : 英雄の決断</title>
-		<!--	<title code="0x12">GEDS07M.MDT  : 英雄の決断</title> -->
-			<title code="0x0b">MUSIC11M.MDT : 全艦突撃せよ</title>
-			<title code="0x15">GEDS10M.MDT  : エンディング1</title>
-			<title code="0x16">GEDS11M.MDT  : エンディング2</title>
-			<title code="0x17">GEDS12M.MDT  : エンディング3</title>
+			<title code="0x0c">オープニング1</title>
+			<title code="0x0d">オープニング2</title>
+			<title code="0x0e">オープニング3</title>
+			<title code="0x0f">オープニング4</title>
+			<title code="0x10">オープニング5</title>
+			<title code="0x11">初期メニュー</title>
+			<title code="0x01">戦いの彼方へ</title>
+		<!--	<title code="0x13">戦いの彼方へ</title> -->
+			<title code="0x02">神々の黄昏</title>
+			<title code="0x03">沈黙からの戦い</title>
+			<title code="0x04">遥かなる航海</title>
+			<title code="0x05">戦士達の宿命</title>
+			<title code="0x06">つかのまの休息</title>
+			<title code="0x07">知性的なる解決</title>
+			<title code="0x08">最前線の攻防</title>
+			<title code="0x09">勝利への進軍</title>
+		<!--	<title code="0x14">勝利への進軍</title> -->
+			<title code="0x0a">英雄の決断</title>
+		<!--	<title code="0x12">英雄の決断</title> -->
+			<title code="0x0b">全艦突撃せよ</title>
+			<title code="0x15">エンディング1</title>
+			<title code="0x16">エンディング2</title>
+			<title code="0x17">エンディング3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説II DX(OPM)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu II DX (銀河英雄伝説II DX) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp"     value="0x01"/>
 		</options>
@@ -1970,35 +2116,35 @@
 			<rom type="code" offset="0x0c4000">MUSIC14M.MDT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">GEDS01M.MDT  : オープニング1</title>
-			<title code="0x0d">GEDS02M.MDT  : オープニング2</title>
-			<title code="0x0e">GEDS03M.MDT  : オープニング3</title>
-			<title code="0x0f">GEDS04M.MDT  : オープニング4</title>
-			<title code="0x10">GEDS05M.MDT  : オープニング5</title>
-			<title code="0x11">GEDS06M.MDT  : 初期メニュー</title>
-		<!--	<title code="0x01">MUSIC06M.MDT : ボレロ</title> -->
-			<title code="0x18">MUSIC12M.MDT : ボレロ</title>
-		<!--	<title code="0x02">MUSIC07M.MDT : 悲壮</title> -->
-			<title code="0x19">MUSIC13M.MDT : 悲壮</title>
-		<!--	<title code="0x03">MUSIC08M.MDT : 英雄</title> -->
-			<title code="0x1a">MUSIC14M.MDT : 英雄</title>
-			<title code="0x04">MUSIC09M.MDT : 神々の黄昏</title>
-			<title code="0x05">MUSIC0AM.MDT : 沈黙からの戦い</title>
-			<title code="0x06">MUSIC0BM.MDT : 戦士達の宿命</title>
-			<title code="0x07">MUSIC0CM.MDT : 知性的なる解決</title>
-			<title code="0x08">MUSIC0DM.MDT : 最前線の攻防</title>
-			<title code="0x09">MUSIC0EM.MDT : 勝利への進軍</title>
-			<title code="0x0a">MUSIC10M.MDT : 英雄の決断</title>
-			<title code="0x0b">MUSIC11M.MDT : 全艦突撃せよ</title>
-			<title code="0x15">GEDS10M.MDT  : エンディング1</title>
-			<title code="0x16">GEDS11M.MDT  : エンディング2</title>
-			<title code="0x17">GEDS12M.MDT  : エンディング3</title>
+			<title code="0x0c">オープニング1</title>
+			<title code="0x0d">オープニング2</title>
+			<title code="0x0e">オープニング3</title>
+			<title code="0x0f">オープニング4</title>
+			<title code="0x10">オープニング5</title>
+			<title code="0x11">初期メニュー</title>
+		<!--	<title code="0x01">ボレロ</title> -->
+			<title code="0x18">ボレロ</title>
+		<!--	<title code="0x02">悲壮</title> -->
+			<title code="0x19">悲壮</title>
+		<!--	<title code="0x03">英雄</title> -->
+			<title code="0x1a">英雄</title>
+			<title code="0x04">神々の黄昏</title>
+			<title code="0x05">沈黙からの戦い</title>
+			<title code="0x06">戦士達の宿命</title>
+			<title code="0x07">知性的なる解決</title>
+			<title code="0x08">最前線の攻防</title>
+			<title code="0x09">勝利への進軍</title>
+			<title code="0x0a">英雄の決断</title>
+			<title code="0x0b">全艦突撃せよ</title>
+			<title code="0x15">エンディング1</title>
+			<title code="0x16">エンディング2</title>
+			<title code="0x17">エンディング3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説III(OPM)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2021,27 +2167,27 @@
 			<rom type="x"    offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">OPEN_F.ZMD  : オープニング</title>
-			<title code="0x22">TITLE_F.ZMD : Bothtecロゴ</title>
-			<title code="0x01">BGM_0F.ZMD  : 英雄</title>
-			<title code="0x05">BGM_1F.ZMD  : 悲愴</title>
-			<title code="0x08">BGM_2F.ZMD  : 新世界より</title>
+			<title code="0x21">オープニング</title>
+			<title code="0x22">Bothtecロゴ</title>
+			<title code="0x01">英雄</title>
+			<title code="0x05">悲愴</title>
+			<title code="0x08">新世界より</title>
 			<title code="0x0b">BGM_3F.ZMD</title>
 			<title code="0x14">BGM_4F.ZMD</title>
 			<!--
-			<title code="0x15">BGM_5F.ZMD  : [STOP]</title>
+			<title code="0x15">Stop the Music</title>
 			  -->
-			<title code="0x16">BGM_6F.ZMD  : 全艦攻撃</title>
+			<title code="0x16">全艦攻撃</title>
 			<title code="0x17">BGM_7F.ZMD</title>
-			<title code="0x1a">END_DF.ZMD  : エンディング1</title>
-			<title code="0x1f">END_TF.ZMD  : エンディング2</title>
-			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
+			<title code="0x1a">エンディング1</title>
+			<title code="0x1f">エンディング2</title>
+			<range min="0x101" max="0x111" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説III(MT-32)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2066,27 +2212,27 @@
 			<rom type="x"    offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">OPEN_M.ZMD  : オープニング</title>
-			<title code="0x21">TITLE_M.ZMD : Bothtecロゴ</title>
-			<title code="0x01">BGM_0M.ZMD  : 英雄</title>
-			<title code="0x05">BGM_1M.ZMD  : 悲愴</title>
-			<title code="0x0b">BGM_2M.ZMD  : 新世界より</title>
+			<title code="0x20">オープニング</title>
+			<title code="0x21">Bothtecロゴ</title>
+			<title code="0x01">英雄</title>
+			<title code="0x05">悲愴</title>
+			<title code="0x0b">新世界より</title>
 			<title code="0x10">BGM_3M.ZMD</title>
 			<title code="0x15">BGM_4M.ZMD</title>
 			<!--
-			<title code="0x16">BGM_5M.ZMD  : [STOP]</title>
+			<title code="0x16">Stop the Music</title>
 			  -->
-			<title code="0x17">BGM_6M.ZMD  : 全艦攻撃</title>
+			<title code="0x17">全艦攻撃</title>
 			<title code="0x18">BGM_7M.ZMD</title>
-			<title code="0x19">END_DM.ZMD  : エンディング1</title>
-			<title code="0x1b">END_TM.ZMD  : エンディング2</title>
-			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
+			<title code="0x19">エンディング1</title>
+			<title code="0x1b">エンディング2</title>
+			<range min="0x101" max="0x111" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 銀河英雄伝説III(MT-32 Emulation)</name>
+		<name>[X68000] Ginga Eiyuu Densetsu III (銀河英雄伝説III) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BOTHTEC</driveralias>
+		<driveralias type="X68000">Bothtec</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2111,27 +2257,27 @@
 			<rom type="x"    offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">OPEN_M.ZMD  : オープニング</title>
-			<title code="0x21">TITLE_M.ZMD : Bothtecロゴ</title>
-			<title code="0x01">BGM_0M.ZMD  : 英雄</title>
-			<title code="0x05">BGM_1M.ZMD  : 悲愴</title>
-			<title code="0x0b">BGM_2M.ZMD  : 新世界より</title>
+			<title code="0x20">オープニング</title>
+			<title code="0x21">Bothtecロゴ</title>
+			<title code="0x01">英雄</title>
+			<title code="0x05">悲愴</title>
+			<title code="0x0b">新世界より</title>
 			<title code="0x10">BGM_3M.ZMD</title>
 			<title code="0x15">BGM_4M.ZMD</title>
 			<!--
-			<title code="0x16">BGM_5M.ZMD  : [STOP]</title>
+			<title code="0x16">Stop the Music</title>
 			  -->
-			<title code="0x17">BGM_6M.ZMD  : 全艦攻撃</title>
+			<title code="0x17">全艦攻撃</title>
 			<title code="0x18">BGM_7M.ZMD</title>
-			<title code="0x19">END_DM.ZMD  : エンディング1</title>
-			<title code="0x1b">END_TM.ZMD  : エンディング2</title>
-			<range min="0x101" max="0x111" extcode="0">SE 0x%02x</range>
+			<title code="0x19">エンディング1</title>
+			<title code="0x1b">エンディング2</title>
+			<range min="0x101" max="0x111" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] T.N.T.</name>
+		<name>[MSX2] T.N.T.</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc" value="0x400"/>
 		</options>
@@ -2145,9 +2291,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PHANTASIE III - The Wrath of Nikademus -(OPLL)</name>
+		<name>[MSX2] Phantasie III: The Wrath of Nikademus (ファンタジーIII ニカデモスの怒り) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc" value="0x400"/>
 			<option name="use_opll"   value="0x01"/>
@@ -2158,13 +2304,13 @@
 			<rom type="code" offset="0x7000">PM3.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x04" extcode="1">BGM 0x%02x</range>
+			<range min="0x00" max="0x04" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PHANTASIE III - The Wrath of Nikademus -(PSG)</name>
+		<name>[MSX2] Phantasie III: The Wrath of Nikademus (ファンタジーIII ニカデモスの怒り) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc" value="0x400"/>
 		</options>
@@ -2174,13 +2320,13 @@
 			<rom type="code" offset="0x7000">PM3.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x04" extcode="1">BGM 0x%02x</range>
+			<range min="0x00" max="0x04" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 銀河英雄伝説(OPLL)</name>
+		<name>[MSX2] Ginga Eiyuu Densetsu (銀河英雄伝説) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 			<option name="use_opll"   value="0x01"/>
@@ -2194,17 +2340,17 @@
 			<title code="0x00">ボレロ</title>
 			<title code="0x01">英雄</title>
 			<title code="0x02">悲愴</title>
-			<range min="0x100" max="0x101" extcode="1">SE 0x%02x</range>
-			<range min="0x103" max="0x105" extcode="1">SE 0x%02x</range>
-			<range min="0x107" max="0x108" extcode="1">SE 0x%02x</range>
-			<range min="0x10a" max="0x10a" extcode="1">SE 0x%02x</range>
-			<range min="0x10c" max="0x10c" extcode="1">SE 0x%02x</range>
+			<range min="0x100" max="0x101" extcode="1">SE #%02x</range>
+			<range min="0x103" max="0x105" extcode="1">SE #%02x</range>
+			<range min="0x107" max="0x108" extcode="1">SE #%02x</range>
+			<range min="0x10a" max="0x10a" extcode="1">SE #%02x</range>
+			<range min="0x10c" max="0x10c" extcode="1">SE #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 銀河英雄伝説(PSG)</name>
+		<name>[MSX2] Ginga Eiyuu Densetsu (銀河英雄伝説) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -2220,9 +2366,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PHANTASIE IV - THE BIRTH OF HEROES -(OPLL)</name>
+		<name>[MSX2] Phantasie IV: The Birth of Heroes (ファンタジーIV 英雄の血脈) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd213"/>
 			<option name="mdata_size" value="0x0400"/>
@@ -2246,9 +2392,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PHANTASIE IV - THE BIRTH OF HEROES -(PSG)</name>
+		<name>[MSX2] Phantasie IV: The Birth of Heroes (ファンタジーIV 英雄の血脈) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd213"/>
 			<option name="mdata_size" value="0x0400"/>
@@ -2267,13 +2413,13 @@
 			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x06" extcode="1">%02x</range>
+			<range min="0x00" max="0x06" extcode="1">BGM #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 忍者</name>
+		<name>[MSX2] Ninja (忍者)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX2">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -2283,14 +2429,14 @@
 			<rom type="code" offset="0xAE00">DRIVER2.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x00d" extcode="1">BGM 0x%02x</range>
-			<range min="0x100" max="0x10c" extcode="0">SE 0x%02x</range>
+			<range min="0x000" max="0x00d" extcode="1">BGM #%02x</range>
+			<range min="0x100" max="0x10c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 銀河英雄伝説 パワーアップ＆シナリオ集(OPLL)</name>
+		<name>[MSX] Ginga Eiyuu Densetsu: Power-up &amp; Scenario Shuu (銀河英雄伝説 パワーアップ&amp;シナリオ集) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 			<option name="use_opll"   value="0x01"/>
@@ -2314,9 +2460,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 銀河英雄伝説 パワーアップ＆シナリオ集(PSG)</name>
+		<name>[MSX] Ginga Eiyuu Densetsu: Power-up &amp; Scenario Shuu (銀河英雄伝説 パワーアップ&amp;シナリオ集) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BOTHTEC</driveralias>
+		<driveralias type="MSX">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -2331,17 +2477,17 @@
 			<title code="0x02">悲愴</title>
 			<title code="0x03">皇帝</title>
 			<title code="0x04">ローエングリン</title>
-			<range min="0x100" max="0x101" extcode="1">SE 0x%02x</range>
-			<range min="0x103" max="0x105" extcode="1">SE 0x%02x</range>
-			<range min="0x107" max="0x108" extcode="1">SE 0x%02x</range>
-			<range min="0x10a" max="0x10a" extcode="1">SE 0x%02x</range>
-			<range min="0x10c" max="0x10c" extcode="1">SE 0x%02x</range>
+			<range min="0x100" max="0x101" extcode="1">SFX #%02x</range>
+			<range min="0x103" max="0x105" extcode="1">SFX #%02x</range>
+			<range min="0x107" max="0x108" extcode="1">SFX #%02x</range>
+			<range min="0x10a" max="0x10a" extcode="1">SFX #%02x</range>
+			<range min="0x10c" max="0x10c" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] RELICS(OPN)</name>
+		<name>[FM-7] Relics (レリクス) (OPN)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM-7">BOTHTEC</driveralias>
+		<driveralias type="FM-7">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="mdata_addr" value="0x0c00"/>
@@ -2359,9 +2505,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] RELICS(PSG)</name>
+		<name>[FM-7] Relics (レリクス) (PSG)</name>
 		<driver type="generic">fm7</driver>
-		<driveralias type="FM-7">BOTHTEC</driveralias>
+		<driveralias type="FM-7">Bothtec</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="mdata_addr" value="0x0c00"/>
@@ -2379,9 +2525,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] DIRES - giger loop -</name>
+		<name>[FM77AV] Dires: Giger Loop (ダイレス Giger Loop)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">BOTHTEC</driveralias>
+		<driveralias type="FM77AV">Bothtec</driveralias>
 		<options>
 			<option name="init_pc" value="0xd000"/>
 		</options>
@@ -2398,6 +2544,27 @@
 			<title code="0x01ff">曲展開0</title>
 			<title code="0x02ff">曲展開1</title>
 			<title code="0x04ff">曲展開2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Dires: Giger Loop (ダイレス Giger Loop) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">Bothtec</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="dires_msx">
+			<rom type="code">Dires -Giger Loop- (1987)(Bothtec).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
 		</titlelist>
 	</game>
 </gamelist>

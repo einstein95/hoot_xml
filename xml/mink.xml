@@ -36,13 +36,13 @@
 <gamelist date="2007/01/09">
 	<!-- //Mink -->
 	<game>
-		<name>[PC-9801] BOMBER QUEST</name>
+		<name>[PC-9801] Bomber Quest (ボンバークエスト) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="bomquest_98">
+		<romlist archive="bombq_98">
 			<rom type="file" offset="-1">mlalf_98.com</rom>
 			<rom type="file" offset="-1">AMI.EXE</rom>
 			<rom type="conin" offset="5">AMI.EXE</rom>
@@ -130,7 +130,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dangel</name>
+		<name>[PC-9801] Dangel (デンジェル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -220,16 +220,16 @@
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">DANGE_01.O : MINK LOGO MUSIC</title>
+			<title code="0x10">Mink Logo Music</title>
 			<title code="0x11">DANGE_02.O</title>
 			<title code="0x12">DANGE_03.O</title>
-			<title code="0x13">DANGE_04.O : 火の大陸1</title>
-			<title code="0x14">DANGE_05.O : 火の大陸2</title>
+			<title code="0x13">火の大陸1</title>
+			<title code="0x14">火の大陸2</title>
 			<title code="0x15">DANGE_06.O</title>
 			<title code="0x16">DANGE_07.O</title>
 			<title code="0x17">DANGE_08.O</title>
-			<title code="0x18">DANGE_09.O : 海</title>
-			<title code="0x19">DANGE_10.O : 飛行船</title>
+			<title code="0x18">海</title>
+			<title code="0x19">飛行船</title>
 			<title code="0x1A">DANGE_11.O</title>
 			<title code="0x1B">DANGE_12.O</title>
 			<title code="0x1C">DANGE_13.O</title>
@@ -240,66 +240,66 @@
 			<title code="0x21">DANGE_18.O</title>
 			<title code="0x22">DANGE_19.O</title>
 			<title code="0x23">DANGE_20.O</title>
-			<title code="0x24">DANGE_21.O : トロルの村</title>
+			<title code="0x24">トロルの村</title>
 			<title code="0x25">DANGE_22.O</title>
-			<title code="0x26">DANGE_23.O : ラオババのほこら</title>
+			<title code="0x26">ラオババのほこら</title>
 			<title code="0x27">DANGE_24.O</title>
-			<title code="0x28">DANGE_25.O : 火の遺跡</title>
+			<title code="0x28">火の遺跡</title>
 			<title code="0x29">DANGE_26.O</title>
-			<title code="0x2A">DANGE_27.O : 不安</title>
+			<title code="0x2A">不安</title>
 			<title code="0x2B">DANGE_28.O</title>
-			<title code="0x2C">DANGE_29.O : アンデュークの野獣化</title>
+			<title code="0x2C">アンデュークの野獣化</title>
 			<title code="0x2D">DANGE_30.O</title>
-			<title code="0x2E">DANGE_31.O : コリーヌの登場</title>
-			<title code="0x2F">DANGE_32.O : モニカ登場</title>
-			<title code="0x30">DANGE_33.O : クリスの登場</title>
-			<title code="0x31">DANGE_34.O : セリーヌのテーマ</title>
+			<title code="0x2E">コリーヌの登場</title>
+			<title code="0x2F">モニカ登場</title>
+			<title code="0x30">クリスの登場</title>
+			<title code="0x31">セリーヌのテーマ</title>
 			<title code="0x32">DANGE_35.O</title>
-			<title code="0x33">DANGE_36.O : 宿屋のテーマ</title>
+			<title code="0x33">宿屋のテーマ</title>
 			<title code="0x34">DANGE_37.O</title>
-			<title code="0x35">DANGE_38.O : 劇的なもの</title>
-			<title code="0x36">DANGE_39.O : ゲームオーバー</title>
+			<title code="0x35">劇的なもの</title>
+			<title code="0x36">ゲームオーバー</title>
 			<title code="0x37">DANGE_40.O</title>
-			<title code="0x38">DANGE_41.O : 戦闘(中ボス)</title>
-			<title code="0x39">DANGE_42.O : 最後の戦闘</title>
+			<title code="0x38">戦闘(中ボス)</title>
+			<title code="0x39">最後の戦闘</title>
 			<title code="0x3A">DANGE_43.O</title>
 			<title code="0x3B">DANGE_44.O</title>
 			<title code="0x3C">DANGE_45.O</title>
 			<title code="0x3D">DANGE_46.O</title>
-			<title code="0x3E">DANGE_47.O : 占い師</title>
-			<title code="0x3F">DANGE_48.O : 最後のダンジョン</title>
-			<title code="0x40">DANGE_49.O : モニカのテーマ改訂版</title>
-			<title code="0x41">DANGE_50.O : 天族のテーマ</title>
+			<title code="0x3E">占い師</title>
+			<title code="0x3F">最後のダンジョン</title>
+			<title code="0x40">モニカのテーマ改訂版</title>
+			<title code="0x41">天族のテーマ</title>
 			<title code="0x42">DANGE_51.O</title>
 			<title code="0x43">DANGE_52.O</title>
-			<title code="0x44">DANGE_53.O : SE13 レベルアップ</title>
-			<title code="0x45">DANGE_54.O : SE14 アイテムを拾った音</title>
-			<title code="0x46">DANGE_55.O : SE15 仲間が増えた</title>
-			<title code="0x47">DANGE_56.O : SE17 落とし穴に落ちた</title>
-			<title code="0x48">DANGE_57.O : SE18 魔法で気を溜める(小)</title>
-			<title code="0x49">DANGE_58.O : SE19 魔法で気を溜める(大)</title>
-			<title code="0x4A">DANGE_59.O : SE20 地面が揺れている</title>
-			<title code="0x4B">DANGE_60.O : SE21 ピチャピチャ</title>
-			<title code="0x4C">DANGE_61.O : SE22 波の音</title>
-			<title code="0x4D">DANGE_62.O : SE23 魔法が当たった、魔法でチュドーン</title>
-			<title code="0x4E">DANGE_63.O : SE24 川が流れる</title>
-			<title code="0x4F">DANGE_64.O : SE25 電撃で跳ね飛ばす</title>
-			<title code="0x50">DANGE_65.O : SE26 グガー</title>
-			<title code="0x51">DANGE_66.O : SE27 グルルル</title>
-			<title code="0x52">DANGE_67.O : SE29 玉が光る</title>
-			<title code="0x53">DANGE_68.O : 負けたとき</title>
-			<title code="0x54">DANGE_69.O : SE23 泊まりのジングル</title>
-			<title code="0x55">DANGE_70.O : 戦闘前</title>
-			<title code="0x56">DANGE_71.O : SE24 川が流れる</title>
-			<title code="0x57">DANGE_72.O : SE29 玉が光る</title>
-			<title code="0x58">DANGE_73.O : SE20 地面が揺れている</title>
-			<title code="0x59">DANGE_74.O : 天空城(魔王のテーマ)</title>
+			<title code="0x44">レベルアップ</title>
+			<title code="0x45">アイテムを拾った音</title>
+			<title code="0x46">仲間が増えた</title>
+			<title code="0x47">落とし穴に落ちた</title>
+			<title code="0x48">魔法で気を溜める(小)</title>
+			<title code="0x49">魔法で気を溜める(大)</title>
+			<title code="0x4A">地面が揺れている</title>
+			<title code="0x4B">ピチャピチャ</title>
+			<title code="0x4C">波の音</title>
+			<title code="0x4D">魔法が当たった、魔法でチュドーン</title>
+			<title code="0x4E">川が流れる</title>
+			<title code="0x4F">電撃で跳ね飛ばす</title>
+			<title code="0x50">グガー</title>
+			<title code="0x51">グルルル</title>
+			<title code="0x52">玉が光る</title>
+			<title code="0x53">負けたとき</title>
+			<title code="0x54">泊まりのジングル</title>
+			<title code="0x55">戦闘前</title>
+			<title code="0x56">川が流れる</title>
+			<title code="0x57">玉が光る</title>
+			<title code="0x58">地面が揺れている</title>
+			<title code="0x59">天空城(魔王のテーマ) (1)</title>
 			<title code="0x5A">DANGE_75.O</title>
-			<title code="0x5B">DANGE_76.O : 天空城(魔王のテーマ)</title>
+			<title code="0x5B">天空城(魔王のテーマ) (2)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dangel Special Disk</name>
+		<name>[PC-9801] Dangel Special Disk (デンジェル スペシャルディスク) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -470,7 +470,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DIVER'S</name>
+		<name>[PC-9801] Diver's (ダイバーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -538,7 +538,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] GOKKO Vol.01 DOCTOR</name>
+		<name>[PC-9801] Gokko Vol. 01: Doctor (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -606,7 +606,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] GOKKO Vol.02 School Gal's</name>
+		<name>[PC-9801] Gokko Vol. 02: School Gal's (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -690,7 +690,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] GOKKO Vol.03 ETCETERA</name>
+		<name>[PC-9801] Gokko Vol. 03: Etcetera (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -772,7 +772,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WANPARAウォーズ</name>
+		<name>[PC-9801] Wonder Parallel Wars (ワンパラウォーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -794,12 +794,12 @@
 			<rom type="file" offset="0x17">OP_02.M</rom>
 			<rom type="file" offset="0x18">SE05.M</rom>
 			<rom type="file" offset="0x19">WON04.M</rom>
-			<rom type="file" offset="0x1A">WON06.M</rom>
-			<rom type="file" offset="0x1B">WON08.M</rom>
-			<rom type="file" offset="0x1C">WON09B.M</rom>
-			<rom type="file" offset="0x1D">WON11.M</rom>
-			<rom type="file" offset="0x1E">WON12.M</rom>
-			<rom type="file" offset="0x1F">WON13.M</rom>
+			<rom type="file" offset="0x1a">WON06.M</rom>
+			<rom type="file" offset="0x1b">WON08.M</rom>
+			<rom type="file" offset="0x1c">WON09B.M</rom>
+			<rom type="file" offset="0x1d">WON11.M</rom>
+			<rom type="file" offset="0x1e">WON12.M</rom>
+			<rom type="file" offset="0x1f">WON13.M</rom>
 			<rom type="file" offset="0x20">WON14.M</rom>
 			<rom type="file" offset="0x21">WON15.M</rom>
 			<rom type="file" offset="0x22">WON16.M</rom>
@@ -818,12 +818,12 @@
 			<title code="0x14">MUS03.M</title>
 			<title code="0x15">MUS04.M</title>
 			<title code="0x19">WON04.M</title>
-			<title code="0x1A">WON06.M</title>
-			<title code="0x1B">WON08.M</title>
-			<title code="0x1C">WON09B.M</title>
-			<title code="0x1D">WON11.M</title>
-			<title code="0x1E">WON12.M</title>
-			<title code="0x1F">WON13.M</title>
+			<title code="0x1a">WON06.M</title>
+			<title code="0x1b">WON08.M</title>
+			<title code="0x1c">WON09B.M</title>
+			<title code="0x1d">WON11.M</title>
+			<title code="0x1e">WON12.M</title>
+			<title code="0x1f">WON13.M</title>
 			<title code="0x20">WON14.M</title>
 			<title code="0x21">WON15.M</title>
 			<title code="0x22">WON16.M</title>
@@ -832,11 +832,11 @@
 			<title code="0x25">WON19.M</title>
 			<title code="0x10">ITEM.M</title>
 			<title code="0x18">SE05.M</title>
-			<range min="0x0801" max="0x0804" extcode="1">WONEFC.EFC : %2X</range>
+			<range min="0x0801" max="0x0804" extcode="1">WONEFC.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WANPARAウォーズII</name>
+		<name>[PC-9801] Wonder Parallel Wars II (ワンパラウォーズII) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -966,7 +966,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] しゃぶり姫 ～陰の章～(OPN)</name>
+		<name>[PC-9801] Shaburi Hime: Kage no Shou (しゃぶり姫 ～陰の章～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1025,7 +1025,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] しゃぶり姫 ～陰の章～(OPNA)</name>
+		<name>[PC-9801] Shaburi Hime: Kage no Shou (しゃぶり姫 ～陰の章～) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1084,7 +1084,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ぺろぺろCandy ～陽の章～(OPN)</name>
+		<name>[PC-9801] PeroPero Candy: You no Shou (ぺろぺろCandy ～陽の章～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1141,7 +1141,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ぺろぺろCandy ～陽の章～(OPNA)</name>
+		<name>[PC-9801] PeroPero Candy: You no Shou (ぺろぺろCandy ～陽の章～) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1198,7 +1198,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary</name>
+		<name>[PC-9801] Two-Shot Diary (ツーショットDiary) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1276,7 +1276,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 1/4(OPN)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 1/4 (ツーショットDiary2 memory 1/4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1319,7 +1319,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 1/4(OPNA)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 1/4 (ツーショットDiary2 memory 1/4) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1362,7 +1362,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 2/4(OPN)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 2/4 (ツーショットDiary2 memory 2/4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1405,7 +1405,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 2/4(OPNA)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 2/4 (ツーショットDiary2 memory 2/4) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1448,7 +1448,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 3/4(OPN)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 3/4 (ツーショットDiary2 memory 3/4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1489,7 +1489,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 3/4(OPNA)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 3/4 (ツーショットDiary2 memory 3/4) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1530,7 +1530,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 4/4(OPN)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 4/4 (ツーショットDiary2 memory 4/4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1571,7 +1571,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ツーショットDiary2 memory 4/4(OPNA)</name>
+		<name>[PC-9801] Two-Shot Diary 2: Memory 4/4 (ツーショットDiary2 memory 4/4) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1612,7 +1612,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ミンクのおもちゃ箱 Vol.01</name>
+		<name>[PC-9801] Mink's Toybox Vol. 1 (ミンクのおもちゃ箱 Vol. 01) (YM2203)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1647,7 +1647,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ミンクのおもちゃ箱 Vol.02</name>
+		<name>[PC-9801] Mink's Toybox Vol. 2 (ミンクのおもちゃ箱 Vol. 02) (YM2203)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1704,7 +1704,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ミンクのおもちゃ箱 Vol.03</name>
+		<name>[PC-9801] Mink's Toybox Vol. 3 (ミンクのおもちゃ箱 Vol. 03) (YM2203)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1743,7 +1743,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔性の貌(OPN)</name>
+		<name>[PC-9801] Mashou no Kao (魔性の貌) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1812,7 +1812,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔性の貌(OPNA)</name>
+		<name>[PC-9801] Mashou no Kao (魔性の貌) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Mink</driveralias>
 		<options>
@@ -1881,7 +1881,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Dangel</name>
+		<name>[PC-9821] Dangel (デンジェル)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9821">Mink</driveralias>
 		<options>

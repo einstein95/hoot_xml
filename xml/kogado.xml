@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //工画堂スタジオ -->
 	<game>
-		<name>[PC-8801] 覇邪の封印</name>
+		<name>[PC-8801] Haja no Fuuin (覇邪の封印) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 		</options>
@@ -51,9 +51,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] へらくれす</name>
+		<name>[PC-8801] Hercules (へらくれす) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -67,16 +67,16 @@
 			<rom type="bgm" offset="0x00">PROG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">ROUND START</title>
+			<title code="0x00000000">Round Start</title>
 			<title code="0x01000000">BGM</title>
-			<title code="0x02000000">MISS</title>
+			<title code="0x02000000">Miss</title>
 			<title code="0x03000000">??</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PSYCHIC WAR - COSMIC SOLDIER 2 -</name>
+		<name>[PC-8801] Psychic War: Cosmic Soldier 2 (サイキックウォー コズミックソルジャー2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -99,9 +99,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 原宿AFTeR DARK</name>
+		<name>[PC-8801] Harajuku: After Dark (原宿アフターダーク) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="init_pc" value="0x8000"/>
 		</options>
@@ -120,9 +120,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] アルギースの翼</name>
+		<name>[PC-8801] Algeese no Tsubasa (アルギースの翼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -138,39 +138,39 @@
 			<rom type="bgm" offset="0x05">MUS05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">00-0 : オープニング</title>
-		<!--	<title code="0x01000000">00-1 : エンディング</title> -->
-		<!--	<title code="0x02000000">00-2 : スタッフロール</title> -->
-			<title code="0x00000001">01-0 : 店/メニュー</title>
-			<title code="0x01000001">01-1 : 戦闘</title>
-			<title code="0x02000001">01-2 : カズノヒロブ</title>
-			<title code="0x03000001">01-3 : フィールド</title>
-			<title code="0x04000001">01-4 : 塔</title>
-		<!--	<title code="0x00000002">02-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000002">02-1 : 戦闘</title> -->
-		<!--	<title code="0x02000002">02-2 : カズノヒロブ</title> -->
-			<title code="0x03000002">02-3 : アテパル城</title>
-			<title code="0x04000002">02-4 : 天空の王宮</title>
-			<title code="0x05000002">02-5 : 妖獣の城</title>
-		<!--	<title code="0x00000003">03-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000003">03-1 : 戦闘</title> -->
-		<!--	<title code="0x02000003">03-2 : カズノヒロブ</title> -->
-			<title code="0x03000003">03-3 : 城</title>
-			<title code="0x04000003">03-4 : 天空界</title>
-		<!--	<title code="0x00000004">04-0 : 店/メニュー</title> -->
-			<title code="0x01000004">04-1 : ユーザーディスク作成/ゲームオーバー</title>
-		<!--	<title code="0x02000004">04-2 : スタッフロール</title> -->
-			<title code="0x03000004">04-3 : 街</title>
-		<!--	<title code="0x00000005">05-0 : オープニング</title> -->
-			<title code="0x01000005">05-1 : エンディング</title>
-			<title code="0x02000005">05-2 : スタッフロール</title>
+			<title code="0x00000000">オープニング</title>
+		<!--	<title code="0x01000000">エンディング</title> -->
+		<!--	<title code="0x02000000">スタッフロール</title> -->
+			<title code="0x00000001">店/メニュー</title>
+			<title code="0x01000001">戦闘</title>
+			<title code="0x02000001">カズノヒロブ</title>
+			<title code="0x03000001">フィールド</title>
+			<title code="0x04000001">塔</title>
+		<!--	<title code="0x00000002">店/メニュー</title> -->
+		<!--	<title code="0x01000002">戦闘</title> -->
+		<!--	<title code="0x02000002">カズノヒロブ</title> -->
+			<title code="0x03000002">アテパル城</title>
+			<title code="0x04000002">天空の王宮</title>
+			<title code="0x05000002">妖獣の城</title>
+		<!--	<title code="0x00000003">店/メニュー</title> -->
+		<!--	<title code="0x01000003">戦闘</title> -->
+		<!--	<title code="0x02000003">カズノヒロブ</title> -->
+			<title code="0x03000003">城</title>
+			<title code="0x04000003">天空界</title>
+		<!--	<title code="0x00000004">店/メニュー</title> -->
+			<title code="0x01000004">ユーザーディスク作成/ゲームオーバー</title>
+		<!--	<title code="0x02000004">スタッフロール</title> -->
+			<title code="0x03000004">街</title>
+		<!--	<title code="0x00000005">オープニング</title> -->
+			<title code="0x01000005">エンディング</title>
+			<title code="0x02000005">スタッフロール</title>
 			<title code="0x03000005">05-3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 時空の花嫁</name>
+		<name>[PC-8801] Jikuu no Hanayome (時空の花嫁) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -204,9 +204,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 魔晶伝紀ラ・ヴァルー</name>
+		<name>[PC-8801] Mashou Denki: La Valeur (魔晶伝紀ラ・ヴァルー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -246,9 +246,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] NAVITUNE -ドラゴン航海記-</name>
+		<name>[PC-8801] Navitune: Dragon Koukaiki (ナビチューン・ドラゴン航海記) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x7700"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -264,22 +264,22 @@
 			<rom type="bgm"  offset="0x00">navimus.o</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">BGM 00</title>
-			<title code="0x00046d00">BGM 01</title>
-			<title code="0x01079a00">BGM 02</title>
-			<title code="0x000a3a00">BGM 03</title>
-			<title code="0x000fcb00">BGM 04</title>
-			<title code="0x00132700">BGM 05</title>
-			<title code="0x01160600">BGM 06</title>
-			<title code="0x001bfd00">BGM 07</title>
-			<title code="0x001dba00">BGM 08</title>
-			<title code="0x00236f00">BGM 09</title>
+			<title code="0x00000000">BGM #01</title>
+			<title code="0x00046d00">BGM #02</title>
+			<title code="0x01079a00">BGM #03</title>
+			<title code="0x000a3a00">BGM #04</title>
+			<title code="0x000fcb00">BGM #05</title>
+			<title code="0x00132700">BGM #06</title>
+			<title code="0x01160600">BGM #07</title>
+			<title code="0x001bfd00">BGM #08</title>
+			<title code="0x001dba00">BGM #09</title>
+			<title code="0x00236f00">BGM #0a</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Schwarzschild 狂嵐の銀河</name>
+		<name>[PC-8801] Schwarzschild: Kyouran no Ginga (Schwarzschild 狂嵐の銀河) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -307,9 +307,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Schwarzschild II 狂嵐の銀河 帝國ノ背信</name>
+		<name>[PC-8801] Schwarzschild II: Teikoku no Haishin (Schwarzschild II 狂嵐の銀河 帝國ノ背信) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-8801">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -367,9 +367,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 原宿AFTeR DARK</name>
+		<name>[PC-9801] Harajuku: After Dark (原宿アフターダーク) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0xf000"/>
@@ -392,9 +392,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] アルギースの翼</name>
+		<name>[PC-9801] Algeese no Tsubasa: Youka Ankoku-hen (アルギースの翼 ～妖華暗黒変～) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x0800"/>
 			<option name="bootip" value="0x2000"/>
@@ -415,36 +415,36 @@
 			<rom type="bgm" offset="0x05">MUS05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000001">#01-0 : 店/メニュー</title>
-			<title code="0x010001">#01-1 : 戦闘</title>
-			<title code="0x020001">#01-2 : カズノヒロブ</title>
-			<title code="0x030001">#01-3 : フィールド</title>
-			<title code="0x040001">#01-4 : 塔</title>
-		<!--	<title code="0x000002">#02-0 : 店/メニュー</title> -->
-		<!--	<title code="0x010002">#02-1 : 戦闘</title> -->
-		<!--	<title code="0x020002">#02-2 : カズノヒロブ</title> -->
-			<title code="0x030002">#02-3 : アテパル城</title>
-			<title code="0x040002">#02-4 : 天空の王宮</title>
-			<title code="0x050002">#02-5 : 妖獣の城</title>
-		<!--	<title code="0x000003">#03-0 : 店/メニュー</title> -->
-		<!--	<title code="0x010003">#03-1 : 戦闘</title> -->
-		<!--	<title code="0x020003">#03-2 : カズノヒロブ</title> -->
-			<title code="0x030003">#03-3 : 城</title>
-			<title code="0x040003">#03-4 : 天空界</title>
-		<!--	<title code="0x000004">#04-0 : 店/メニュー</title> -->
-			<title code="0x010004">#04-1 : ユーザーディスク作成/ゲームオーバー</title>
-		<!--	<title code="0x020004">#04-2 : スタッフロール</title> -->
-			<title code="0x030004">#04-3 : 街</title>
-			<title code="0x000005">#05-0 : オープニング</title>
-			<title code="0x010005">#05-1 : エンディング</title>
-			<title code="0x020005">#05-2 : スタッフロール</title>
+			<title code="0x000001">店/メニュー</title>
+			<title code="0x010001">戦闘</title>
+			<title code="0x020001">カズノヒロブ</title>
+			<title code="0x030001">フィールド</title>
+			<title code="0x040001">塔</title>
+		<!--	<title code="0x000002">店/メニュー</title> -->
+		<!--	<title code="0x010002">戦闘</title> -->
+		<!--	<title code="0x020002">カズノヒロブ</title> -->
+			<title code="0x030002">アテパル城</title>
+			<title code="0x040002">天空の王宮</title>
+			<title code="0x050002">妖獣の城</title>
+		<!--	<title code="0x000003">店/メニュー</title> -->
+		<!--	<title code="0x010003">戦闘</title> -->
+		<!--	<title code="0x020003">カズノヒロブ</title> -->
+			<title code="0x030003">城</title>
+			<title code="0x040003">天空界</title>
+		<!--	<title code="0x000004">店/メニュー</title> -->
+			<title code="0x010004">ユーザーディスク作成/ゲームオーバー</title>
+		<!--	<title code="0x020004">スタッフロール</title> -->
+			<title code="0x030004">街</title>
+			<title code="0x000005">オープニング</title>
+			<title code="0x010005">エンディング</title>
+			<title code="0x020005">スタッフロール</title>
 			<title code="0x030005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 時空の花嫁</name>
+		<name>[PC-9801] Jikuu no Hanayome (時空の花嫁)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x1000"/>
 			<option name="bootip" value="0x6000"/>
@@ -474,9 +474,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ナビチューン・ドラゴン航海記</name>
+		<name>[PC-9801] Navitune: Dragon Koukaiki (ナビチューン・ドラゴン航海記) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -490,24 +490,24 @@
 			<rom type="code" offset="0x10000">MUSIC.O</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BGM 1</title>
-			<title code="0x11">BGM 2</title>
-			<title code="0x12">BGM 3</title>
-			<title code="0x13">BGM 4</title>
-			<title code="0x14">BGM 5</title>
-			<title code="0x15">BGM 6</title>
-			<title code="0x16">BGM 7</title>
-			<title code="0x17">BGM 8</title>
-			<title code="0x18">BGM 9</title>
-			<title code="0x19">BGM 10</title>
-			<title code="0x1a">BGM 11</title>
-			<title code="0x1b">BGM 12</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x1a">BGM #1a</title>
+			<title code="0x1b">BGM #1b</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Sabnack</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x0e78"/>
 			<option name="bootip" value="0x5a00"/>
@@ -533,9 +533,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS(OPN)</name>
+		<name>[PC-9801] Power Dolls (パワードール) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -560,21 +560,21 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">PDL_01.CMD   : ALTERNATIVE WALLS</title>
-			<title code="0x22">PDL_02.CMD   : HIGH ALTITUDE CIRCLE</title>
-			<title code="0x26">PDL_81.CMD   : POWER DoLLS</title>
-			<title code="0x24">PDL_502.CMD  : LAND AROUND</title>
-			<title code="0x23">PDL_03.CMD   : GUST OF WIND</title>
-			<title code="0x20">PDL_00.CMD   : SPANK MISSION</title>
-			<title code="0x25">PDL_70.CMD   : DAYBREAK</title>
-			<title code="0x27">PDL_END.CMD  : SILKY GROUNI</title>
-			<title code="0x28">PDL_OVER.CMD : ECLIPSE</title>
+			<title code="0x21">Alternative Walls</title>
+			<title code="0x22">High Altitude Circle</title>
+			<title code="0x26">Power Dolls</title>
+			<title code="0x24">Land Around</title>
+			<title code="0x23">Gust of Wind</title>
+			<title code="0x20">Spank Mission</title>
+			<title code="0x25">Daybreak</title>
+			<title code="0x27">Silky Ground</title>
+			<title code="0x28">Eclipse</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS(GS)</name>
+		<name>[PC-9801] Power Dolls (パワードール) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -599,21 +599,60 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="13">PDL_011.MID  : ALTERNATIVE WALLS</title>
-			<title code="14">PDL_02GS.MID : HIGH ALTITUDE CIRCLE</title>
-			<title code="17">PDL_73GS.MID : POWER DOLLS</title>
-			<title code="16">PDL_503.MID  : LAND AROUND</title>
-			<title code="15">PDL_03GS.MID : GUST OF WIND</title>
-			<title code="12">PDL002GS.MID : SPANK MISSION</title>
-			<title code="18">PDL_85GS.MID : DAYBREAK</title>
-			<title code="11">PDEND_05.MID : SILKY GROUND</title>
-			<title code="19">PDL_OV01.MID : ECLIPSE</title>
+			<title code="13">Alternative Walls</title>
+			<title code="14">High Altitude Circle</title>
+			<title code="17">Power Dolls</title>
+			<title code="16">Land Around</title>
+			<title code="15">Gust of Wind</title>
+			<title code="12">Spank Mission</title>
+			<title code="18">Daybreak</title>
+			<title code="11">Silky Ground</title>
+			<title code="19">Eclipse</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Power Dolls (パワードール) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="pdoll_98">
+			<rom type="file" offset="-1">naru_98.com</rom>
+			<rom type="file" offset="-1">NARU.COM</rom>
+			<rom type="file" offset="5" >CHORUS.DAT</rom>
+			<rom type="file" offset="6" >REVERB.DAT</rom>
+			<rom type="file" offset="7" >RHYTHM.DAT</rom>
+			<rom type="file" offset="11">PDEND_05.MID</rom>
+			<rom type="file" offset="12">PDL002GS.MID</rom>
+			<rom type="file" offset="13">PDL_011.MID</rom>
+			<rom type="file" offset="14">PDL_02GS.MID</rom>
+			<rom type="file" offset="15">PDL_03GS.MID</rom>
+			<rom type="file" offset="16">PDL_503.MID</rom>
+			<rom type="file" offset="17">PDL_73GS.MID</rom>
+			<rom type="file" offset="18">PDL_85GS.MID</rom>
+			<rom type="file" offset="19">PDL_OV01.MID</rom>
+			<rom type="shell" offset="0">naru</rom>
+			<rom type="shell" offset="0">naru_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="13">Alternative Walls</title>
+			<title code="14">High Altitude Circle</title>
+			<title code="17">Power Dolls</title>
+			<title code="16">Land Around</title>
+			<title code="15">Gust of Wind</title>
+			<title code="12">Spank Mission</title>
+			<title code="18">Daybreak</title>
+			<title code="11">Silky Ground</title>
+			<title code="19">Eclipse</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] POWER DoLLS S-Premium Disk(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -634,17 +673,17 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x26">PDL_81.CMD   : POWER DoLLS</title>
-			<title code="0x20">SOUND_00.CMD : SPANK MISSION</title>
-			<title code="0x21">SOUND_01.CMD : DAYBREAK</title>
-			<title code="0x22">SOUND_02.CMD : LAND AROUND</title>
-			<title code="0x23">SOUND_03.CMD : HIGH ALTITUDE CIRCLE</title>
+			<title code="0x26">Power Dolls</title>
+			<title code="0x20">Spank Mission</title>
+			<title code="0x21">Daybreak</title>
+			<title code="0x22">Land Around</title>
+			<title code="0x23">High Altitude Circle</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] POWER DoLLS S-Premium Disk(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -665,17 +704,17 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="18">PDL_85GS.MID : POWER DoLLS</title>
-			<title code="12">SOUND_00.MID : SPANK MISSION</title>
-			<title code="13">SOUND_01.MID : DAYBREAK</title>
-			<title code="14">SOUND_02.MID : LAND AROUND</title>
-			<title code="15">SOUND_03.MID : HIGH ALTITUDE CIRCLE</title>
+			<title code="18">Power Dolls</title>
+			<title code="12">Spank Mission</title>
+			<title code="13">Daybreak</title>
+			<title code="14">Land Around</title>
+			<title code="15">High Altitude Circle</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2(OPN)</name>
+		<name>[PC-9801] Power Dolls 2 (パワードール2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -702,23 +741,23 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x27">PDM01.CMD   : SETTLE DOWN</title>
-			<title code="0x28">PDM02.CMD   : IVORY ILLUSION</title>
-			<title code="0x25">PD2_F61.CMD : D-NAIL</title>
-			<title code="0x21">PD2_F20.CMD : NIGHT RAID</title>
-			<title code="0x23">PD2_F40.CMD : CALLING ME</title>
-			<title code="0x24">PD2_F50.CMD : OUT FLANKS</title>
-			<title code="0x29">PDM03.CMD   : TAKE THE FIELD</title>
-			<title code="0x20">PD2_F01.CMD : MOVE IN ON</title>
-			<title code="0x26">PD2_F70.CMD : POWER DOLLS 2</title>
-			<title code="0x2a">PDM04.CMD   : STREAMED BLUE</title>
-			<title code="0x22">PD2_F30.CMD : SWITCHED ON "DOLLS"</title>
+			<title code="0x27">Settle Down</title>
+			<title code="0x28">Ivory Illusion</title>
+			<title code="0x25">D-Nail</title>
+			<title code="0x21">Night Raid</title>
+			<title code="0x23">Calling Me</title>
+			<title code="0x24">Out Flanks</title>
+			<title code="0x29">Take the Field</title>
+			<title code="0x20">Move In On</title>
+			<title code="0x26">Power Dolls 2</title>
+			<title code="0x2a">Streamed Blue</title>
+			<title code="0x22">Switched on "Dolls"</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2(GS)</name>
+		<name>[PC-9801] Power Dolls 2 (パワードール2) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -746,24 +785,69 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="19">PDM01.MID   : SETTLE DOWN</title>
-			<title code="20">PDM02.MID   : IVORY ILLUSION</title>
-			<title code="17">PD2_M61.MID : D-NAIL</title>
-			<title code="13">PD2_M20.MID : NIGHT RAID</title>
-			<title code="15">PD2_M40.MID : CALLING ME</title>
-			<title code="16">PD2_M50.MID : OUT FLANKS</title>
-			<title code="21">PDM03.MID   : TAKE THE FIELD</title>
-			<title code="11">PD2_M01.MID : MOVE IN ON</title>
-			<title code="18">PD2_M70.MID : POWER DoLLS 2</title>
-			<title code="22">PDM04.MID   : STREAMED BLUE</title>
-			<title code="14">PD2_M30.MID : SWITCHED ON "DOLLS"</title>
+			<title code="19">Settle Down</title>
+			<title code="20">Ivory Illusion</title>
+			<title code="17">D-Nail</title>
+			<title code="13">Night Raid</title>
+			<title code="15">Calling Me</title>
+			<title code="16">Out Flanks</title>
+			<title code="21">Take the Field</title>
+			<title code="11">Move In On</title>
+			<title code="18">Power Dolls 2</title>
+			<title code="22">Streamed Blue</title>
+			<title code="14">Switched on "Dolls"</title>
 			<title code="12">PD2_M11.MID</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2 Premium Disk(OPN)</name>
+		<name>[PC-9801] Power Dolls 2 (パワードール2) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="pdoll2_98">
+			<rom type="file" offset="-1">naru_98.com</rom>
+			<rom type="file" offset="-1">NARU.COM</rom>
+			<rom type="file" offset="5" >CHORUS.DAT</rom>
+			<rom type="file" offset="6" >REVERB.DAT</rom>
+			<rom type="file" offset="7" >RHYTHM.DAT</rom>
+			<rom type="file" offset="11">PD2_M01.MID</rom>
+			<rom type="file" offset="12">PD2_M11.MID</rom>
+			<rom type="file" offset="13">PD2_M20.MID</rom>
+			<rom type="file" offset="14">PD2_M30.MID</rom>
+			<rom type="file" offset="15">PD2_M40.MID</rom>
+			<rom type="file" offset="16">PD2_M50.MID</rom>
+			<rom type="file" offset="17">PD2_M61.MID</rom>
+			<rom type="file" offset="18">PD2_M70.MID</rom>
+			<rom type="file" offset="19">PDM01.MID</rom>
+			<rom type="file" offset="20">PDM02.MID</rom>
+			<rom type="file" offset="21">PDM03.MID</rom>
+			<rom type="file" offset="22">PDM04.MID</rom>
+			<rom type="shell" offset="0">naru</rom>
+			<rom type="shell" offset="0">naru_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="19">Settle Down</title>
+			<title code="20">Ivory Illusion</title>
+			<title code="17">D-Nail</title>
+			<title code="13">Night Raid</title>
+			<title code="15">Calling Me</title>
+			<title code="16">Out Flanks</title>
+			<title code="21">Take the Field</title>
+			<title code="11">Move In On</title>
+			<title code="18">Power Dolls 2</title>
+			<title code="22">Streamed Blue</title>
+			<title code="14">Switched on "Dolls"</title>
+			<title code="12">PD2_M11.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] POWER DoLLS 2 Premium Disk (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -788,21 +872,21 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x23">PD2_F40.CMD : CALLING ME</title>
-			<title code="0x26">PD2_F70.CMD : POWER DOLLS 2</title>
-			<title code="0x25">PD2_F61.CMD : D-NAIL</title>
-			<title code="0x21">PD2_F20.CMD : NIGHT RAID</title>
-			<title code="0x24">PD2_F50.CMD : OUT FLANKS</title>
-			<title code="0x29">PDM03.CMD   : TAKE THE FIELD</title>
-			<title code="0x28">PDM02.CMD   : IVORY ILLUSION</title>
-			<title code="0x20">PD2_F01.CMD : MOVE IN ON</title>
-			<title code="0x27">PDM01.CMD   : SETTLE DOWN</title>
+			<title code="0x23">Calling Me</title>
+			<title code="0x26">Power Dolls 2</title>
+			<title code="0x25">D-Nail</title>
+			<title code="0x21">Night Raid</title>
+			<title code="0x24">Out Flanks</title>
+			<title code="0x29">Take the Field</title>
+			<title code="0x28">Ivory Illusion</title>
+			<title code="0x20">Move in On</title>
+			<title code="0x27">Settle Down</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2 Premium Disk(GS)</name>
+		<name>[PC-9801] POWER DoLLS 2 Premium Disk (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -827,21 +911,21 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="15">PD2_P40.MID : CALLING ME</title>
-			<title code="18">PD2_M71.MID : POWER DoLLS 2</title>
-			<title code="17">PD2_M61.MID : D-NAIL</title>
-			<title code="13">PD2_M20.MID : NIGHT RAID</title>
-			<title code="16">PD2_M50.MID : OUT FLANKS</title>
-			<title code="21">PDM03.MID   : TAKE THE FIELD</title>
-			<title code="20">PDM02.MID   : IVORY ILLUSION</title>
-			<title code="11">PD2_M01.MID : MOVE IN ON</title>
-			<title code="19">PDM01.MID   : SETTLE DOWN</title>
+			<title code="15">Calling Me</title>
+			<title code="18">Power Dolls 2</title>
+			<title code="17">D-Nail</title>
+			<title code="13">Night Raid</title>
+			<title code="16">Out Flanks</title>
+			<title code="21">Take the Field</title>
+			<title code="20">Ivory Illusion</title>
+			<title code="11">Move in On</title>
+			<title code="19">Settle Down</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2 DASH(OPN)</name>
+		<name>[PC-9801] Power Dolls 2 Dash (パワードール2 ダッシュ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -870,25 +954,25 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x29">PDM01.CMD    : SETTLE DOWN</title>
-			<title code="0x2a">PDM02.CMD    : IVORY ILLUSION</title>
-			<title code="0x24">PD2_F61.CMD  : D-NAIL</title>
-			<title code="0x21">PD2_F20.CMD  : NIGHT RAID</title>
-			<title code="0x28">PD2_P40F.CMD : CALLING ME</title>
-			<title code="0x23">PD2_F50.CMD  : OUT FLANKS</title>
-			<title code="0x2b">PDM03.CMD    : TAKE THE FIELD</title>
-			<title code="0x20">PD2_F01.CMD  : MOVE IN ON</title>
-			<title code="0x25">PD2_F70.CMD  : POWER DOLLS 2</title>
-			<title code="0x2c">PDM04.CMD    : STREAMED BLUE</title>
-			<title code="0x22">PD2_F30.CMD  : SWITCHED ON "DOLLS"</title>
-			<title code="0x26">PD2_F80.CMD  : NOSTALGIA</title>
-			<title code="0x27">PD2_F90.CMD  : ROLLING STEEL</title>
+			<title code="0x29">Settle Down</title>
+			<title code="0x2a">Ivory Illusion</title>
+			<title code="0x24">D-Nail</title>
+			<title code="0x21">Night Raid</title>
+			<title code="0x28">Calling Me</title>
+			<title code="0x23">Out Flanks</title>
+			<title code="0x2b">Take the Field</title>
+			<title code="0x20">Move In On</title>
+			<title code="0x25">Power Dolls 2</title>
+			<title code="0x2c">Streamed Blue</title>
+			<title code="0x22">Switched on "Dolls"</title>
+			<title code="0x26">Nostalgia</title>
+			<title code="0x27">Rolling Steel</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] POWER DoLLS 2 DASH(GS)</name>
+		<name>[PC-9801] Power Dolls 2 Dash (パワードール2 ダッシュ) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -918,26 +1002,75 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="21">PDM01.MID    : SETTLE DOWN</title>
-			<title code="22">PDM02.MID    : IVORY ILLUSION</title>
-			<title code="16">PD2_M61.MID  : D-NAIL</title>
-			<title code="13">PD2_M20.MID  : NIGHT RAID</title>
-			<title code="20">PD2_P40.MID  : CALLING ME</title>
-			<title code="15">PD2_M50.MID  : OUT FLANKS</title>
-			<title code="23">PDM03.MID    : TAKE THE FIELD</title>
-			<title code="11">PD2_M01.MID  : MOVE IN ON</title>
-			<title code="17">PD2_M71.MID  : POWER DOLLS 2</title>
-			<title code="24">PDM04.MID    : STREAMED BLUE</title>
-			<title code="14">PD2_M30.MID  : SWITCHED ON "DOLLS"</title>
-			<title code="18">PD2_M80.MID  : NOSTALGIA</title>
-			<title code="19">PD2_M90.MID  : ROLLING STEEL</title>
+			<title code="21">Settle Down</title>
+			<title code="22">Ivory Illusion</title>
+			<title code="16">D-Nail</title>
+			<title code="13">Night Raid</title>
+			<title code="20">Calling Me</title>
+			<title code="15">Out Flanks</title>
+			<title code="23">Take the Field</title>
+			<title code="11">Move In On</title>
+			<title code="17">Power Dolls 2</title>
+			<title code="24">Streamed Blue</title>
+			<title code="14">Switched on "Dolls"</title>
+			<title code="18">Nostalgia</title>
+			<title code="19">Rolling Steel</title>
 			<title code="12">PD2_M11.MID</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ADVANCED POWER DoLLS 2(OPN)</name>
+		<name>[PC-9801] Power Dolls 2 Dash (パワードール2 ダッシュ) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="pdoll2d_98">
+			<rom type="file" offset="-1">naru_98.com</rom>
+			<rom type="file" offset="-1">NARU.COM</rom>
+			<rom type="file" offset="5" >CHORUS.DAT</rom>
+			<rom type="file" offset="6" >REVERB.DAT</rom>
+			<rom type="file" offset="7" >RHYTHM.DAT</rom>
+			<rom type="file" offset="11">PD2_M01.MID</rom>
+			<rom type="file" offset="12">PD2_M11.MID</rom>
+			<rom type="file" offset="13">PD2_M20.MID</rom>
+			<rom type="file" offset="14">PD2_M30.MID</rom>
+			<rom type="file" offset="15">PD2_M50.MID</rom>
+			<rom type="file" offset="16">PD2_M61.MID</rom>
+			<rom type="file" offset="17">PD2_M71.MID</rom>
+			<rom type="file" offset="18">PD2_M80.MID</rom>
+			<rom type="file" offset="19">PD2_M90.MID</rom>
+			<rom type="file" offset="20">PD2_P40.MID</rom>
+			<rom type="file" offset="21">PDM01.MID</rom>
+			<rom type="file" offset="22">PDM02.MID</rom>
+			<rom type="file" offset="23">PDM03.MID</rom>
+			<rom type="file" offset="24">PDM04.MID</rom>
+			<rom type="shell" offset="0">naru</rom>
+			<rom type="shell" offset="0">naru_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="21">Settle Down</title>
+			<title code="22">Ivory Illusion</title>
+			<title code="16">D-Nail</title>
+			<title code="13">Night Raid</title>
+			<title code="20">Calling Me</title>
+			<title code="15">Out Flanks</title>
+			<title code="23">Take the Field</title>
+			<title code="11">Move In On</title>
+			<title code="17">Power Dolls 2</title>
+			<title code="24">Streamed Blue</title>
+			<title code="14">Switched on "Dolls"</title>
+			<title code="18">Nostalgia</title>
+			<title code="19">Rolling Steel</title>
+			<title code="12">PD2_M11.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Advanced Power Dolls 2 (アドヴァンスド パワードール2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -964,23 +1097,23 @@
 			<rom type="shell" offset="0">EMIP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20">ADPD_10F.CMD : TIPTOP THRILL (タイトル)</title>
-			<title code="0x21">ADPD_31F.CMD : WIND FLAW (編成C3)</title>
-			<title code="0x22">ADPD_40F.CMD : WAVE (編成C2)</title>
-			<title code="0x23">ADPD_50F.CMD : BELIEVE IN MOTIVATION (エンディング)</title>
-			<title code="0x24">ADPD_60F.CMD : QUIET AFTERNOON (作戦失敗)</title>
-			<title code="0x25">ADPD_70F.CMD : SPEEDY</title>
-			<title code="0x26">ADPD_80F.CMD : FUTURITY (編成C1)</title>
-			<title code="0x27">ADPD_90F.CMD : POPPOBOOV (作戦成功)</title>
-			<title code="0x28">ADPD_A0F.CMD : J.A.V.E (作戦C1)</title>
-			<title code="0x29">ADPD_B0F.CMD : GETTING THERE (作戦C2A)</title>
-			<title code="0x2a">ADPD_C0F.CMD : BREATH OF ABYSS (作戦C2B)</title>
+			<title code="0x20">Tiptop Thrill (タイトル)</title>
+			<title code="0x21">Wind Flaw (編成C3)</title>
+			<title code="0x22">Wave (編成C2)</title>
+			<title code="0x23">Believe in Motivation (エンディング)</title>
+			<title code="0x24">Quiet Afternoon (作戦失敗)</title>
+			<title code="0x25">Speedy</title>
+			<title code="0x26">Futurity (編成C1)</title>
+			<title code="0x27">Poppoboov (作戦成功)</title>
+			<title code="0x28">J.A.V.E (作戦C1)</title>
+			<title code="0x29">Getting There (作戦C2A)</title>
+			<title code="0x2a">Breath of Abyss (作戦C2B)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ADVANCED POWER DoLLS 2(GS)</name>
+		<name>[PC-9801] Advanced Power Dolls 2 (アドヴァンスド パワードール2) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1007,23 +1140,66 @@
 			<rom type="shell" offset="0">naru_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">ADPD_10M.MID : TIPTOP THRILL (タイトル)</title>
-			<title code="12">ADPD_30M.MID : WIND FLAW (編成C3)</title>
-			<title code="13">ADPD_40M.MID : WAVE (編成C2)</title>
-			<title code="14">ADPD_50M.MID : BELIEVE IN MOTIVATION (エンディング)</title>
-			<title code="15">ADPD_60M.MID : QUIET AFTERNOON (作戦失敗)</title>
-			<title code="16">ADPD_70M.MID : SPEEDY</title>
-			<title code="17">ADPD_80M.MID : FUTURITY (編成C1)</title>
-			<title code="18">ADPD_90M.MID : POPPOBOOV (作戦成功)</title>
-			<title code="19">ADPD_A0M.MID : J.A.V.E (作戦C1)</title>
-			<title code="20">ADPD_B0M.MID : GETTING THERE (作戦C2A)</title>
-			<title code="21">ADPD_C0M.MID : BREATH OF ABYSS (作戦C2B)</title>
+			<title code="11">Tiptop Thrill (タイトル)</title>
+			<title code="12">Wind Flaw (編成C3)</title>
+			<title code="13">Wave (編成C2)</title>
+			<title code="14">Believe in Motivation (エンディング)</title>
+			<title code="15">Quiet Afternoon (作戦失敗)</title>
+			<title code="16">Speedy</title>
+			<title code="17">Futurity (編成C1)</title>
+			<title code="18">Poppoboov (作戦成功)</title>
+			<title code="19">J.A.V.E (作戦C1)</title>
+			<title code="20">Getting There (作戦C2A)</title>
+			<title code="21">Breath of Abyss (作戦C2B)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Schwarzschild 狂嵐の銀河</name>
+		<name>[PC-9801] Advanced Power Dolls 2 (アドヴァンスド パワードール2) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="apdoll2_98">
+			<rom type="file" offset="-1">naru_98.com</rom>
+			<rom type="file" offset="-1">NARU.COM</rom>
+			<rom type="file" offset="5" >CHORUS.DAT</rom>
+			<rom type="file" offset="6" >REVERB.DAT</rom>
+			<rom type="file" offset="7" >RHYTHM.DAT</rom>
+			<rom type="file" offset="11">ADPD_10M.MID</rom>
+			<rom type="file" offset="12">ADPD_30M.MID</rom>
+			<rom type="file" offset="13">ADPD_40M.MID</rom>
+			<rom type="file" offset="14">ADPD_50M.MID</rom>
+			<rom type="file" offset="15">ADPD_60M.MID</rom>
+			<rom type="file" offset="16">ADPD_70M.MID</rom>
+			<rom type="file" offset="17">ADPD_80M.MID</rom>
+			<rom type="file" offset="18">ADPD_90M.MID</rom>
+			<rom type="file" offset="19">ADPD_A0M.MID</rom>
+			<rom type="file" offset="20">ADPD_B0M.MID</rom>
+			<rom type="file" offset="21">ADPD_C0M.MID</rom>
+			<rom type="shell" offset="0">naru</rom>
+			<rom type="shell" offset="0">naru_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">Tiptop Thrill (タイトル)</title>
+			<title code="12">Wind Flaw (編成C3)</title>
+			<title code="13">Wave (編成C2)</title>
+			<title code="14">Believe in Motivation (エンディング)</title>
+			<title code="15">Quiet Afternoon (作戦失敗)</title>
+			<title code="16">Speedy</title>
+			<title code="17">Futurity (編成C1)</title>
+			<title code="18">Poppoboov (作戦成功)</title>
+			<title code="19">J.A.V.E (作戦C1)</title>
+			<title code="20">Getting There (作戦C2A)</title>
+			<title code="21">Breath of Abyss (作戦C2B)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Schwarzschild: Kyouran no Ginga (Schwarzschild 狂嵐の銀河) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x00e4"/>
 			<option name="bootip" value="0x7100"/>
@@ -1036,20 +1212,20 @@
 			<rom type="code" offset="0x07f40">schwarz.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">05 : ねこさんちーむBGM</title>
-			<title code="0x00">00 : オープニング・テーマ</title>
-			<title code="0x01">01 : 通常1BGM</title>
-			<title code="0x02">02 : 通常2BGM</title>
-			<title code="0x03">03 : 戦闘のテーマ</title>
-			<title code="0x04">04 : レクイエム</title>
-			<title code="0x06">06 : エンディング・テーマ</title>
-			<title code="0x07">07 : スタッフ･テーマ</title>
+			<title code="0x05">ねこさんちーむBGM</title>
+			<title code="0x00">オープニング・テーマ</title>
+			<title code="0x01">通常1BGM</title>
+			<title code="0x02">通常2BGM</title>
+			<title code="0x03">戦闘のテーマ</title>
+			<title code="0x04">レクイエム</title>
+			<title code="0x06">エンディング・テーマ</title>
+			<title code="0x07">スタッフ･テーマ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] SchwarzschildⅡ 狂嵐の銀河 帝國ノ背信</name>
+		<name>[PC-9801] Schwarzschild II: Teikoku no Haishin (Schwarzschild II 狂嵐の銀河 帝國ノ背信) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x00e4"/>
 			<option name="bootip" value="0x6c00"/>
@@ -1062,45 +1238,45 @@
 			<rom type="code" offset="0x07a40">schwarz2b.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : [Schwarzschild] オープニング･テーマ</title>
-			<title code="0x01">01 : [Schwarzschild] 通常1BGM</title>
-			<title code="0x02">02 : [Schwarzschild] 通常2BGM</title>
-			<title code="0x03">03 : [Schwarzschild] 戦闘のテーマ</title>
-			<title code="0x04">04 : [Schwarzschild] レクイエム</title>
-			<title code="0x05">05 : [Schwarzschild] ねこさんちーむBGM</title>
-			<title code="0x06">06 : [Schwarzschild] エンディング・テーマ</title>
-			<title code="0x07">07 : [Schwarzschild] スタッフ･テーマ</title>
-			<title code="0x08">08 : オープニング・テーマ</title>
-			<title code="0x09">09 : 通常1BGM</title>
-			<title code="0x0a">0A : 通常2BGM</title>
-			<title code="0x0b">0B : 戦闘のテーマ</title>
-			<title code="0x0c">0C : レクイエム</title>
-			<title code="0x0d">0D : ねこさんちーむBGM</title>
-			<title code="0x0e">0E : エンディング・テーマ</title>
-			<title code="0x0f">0F : スタッフ･テーマ</title>
-			<title code="0x10">10 : 演習モードBGM</title>
-			<title code="0x11">11 : [アルギースの翼] </title>
-			<title code="0x12">12 : [アルギースの翼] 店/メニュー</title>
-			<title code="0x13">13 : [アルギースの翼] </title>
-			<title code="0x14">14 : [アルギースの翼] </title>
-			<title code="0x15">15 : [アルギースの翼] ユーザーディスク作成/ゲームオーバー</title>
-			<title code="0x16">16 : [アルギースの翼] </title>
-			<title code="0x17">17 : [アルギースの翼] フィールド</title>
-			<title code="0x18">18 : [アルギースの翼] 街</title>
-			<title code="0x19">19 : [アルギースの翼] </title>
-			<title code="0x1a">1A : [アルギースの翼] 城/塔</title>
-			<title code="0x1b">1B : [アルギースの翼] </title>
-			<title code="0x1c">1C : [アルギースの翼] </title>
-			<title code="0x1d">1D : [アルギースの翼] </title>
-			<title code="0x1e">1E : [アルギースの翼] </title>
-			<title code="0x1f">1F : [アルギースの翼] オープニング</title>
-			<title code="0x20">20 : [アルギースの翼] 戦闘</title>
+			<title code="0x00">[Schwarzschild] オープニング･テーマ</title>
+			<title code="0x01">[Schwarzschild] 通常1BGM</title>
+			<title code="0x02">[Schwarzschild] 通常2BGM</title>
+			<title code="0x03">[Schwarzschild] 戦闘のテーマ</title>
+			<title code="0x04">[Schwarzschild] レクイエム</title>
+			<title code="0x05">[Schwarzschild] ねこさんちーむBGM</title>
+			<title code="0x06">[Schwarzschild] エンディング・テーマ</title>
+			<title code="0x07">[Schwarzschild] スタッフ･テーマ</title>
+			<title code="0x08">オープニング・テーマ</title>
+			<title code="0x09">通常1BGM</title>
+			<title code="0x0a">通常2BGM</title>
+			<title code="0x0b">戦闘のテーマ</title>
+			<title code="0x0c">レクイエム</title>
+			<title code="0x0d">ねこさんちーむBGM</title>
+			<title code="0x0e">エンディング・テーマ</title>
+			<title code="0x0f">スタッフ･テーマ</title>
+			<title code="0x10">演習モードBGM</title>
+			<title code="0x11">[アルギースの翼] </title>
+			<title code="0x12">[アルギースの翼] 店/メニュー</title>
+			<title code="0x13">[アルギースの翼] </title>
+			<title code="0x14">[アルギースの翼] </title>
+			<title code="0x15">[アルギースの翼] ユーザーディスク作成/ゲームオーバー</title>
+			<title code="0x16">[アルギースの翼] </title>
+			<title code="0x17">[アルギースの翼] フィールド</title>
+			<title code="0x18">[アルギースの翼] 街</title>
+			<title code="0x19">[アルギースの翼] </title>
+			<title code="0x1a">[アルギースの翼] 城/塔</title>
+			<title code="0x1b">[アルギースの翼] </title>
+			<title code="0x1c">[アルギースの翼] </title>
+			<title code="0x1d">[アルギースの翼] </title>
+			<title code="0x1e">[アルギースの翼] </title>
+			<title code="0x1f">[アルギースの翼] オープニング</title>
+			<title code="0x20">[アルギースの翼] 戦闘</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] SchwarzschildⅢ 惑星デスペラン</name>
+		<name>[PC-9801] Schwarzschild III 惑星デスペラン</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="bootcs" value="0x0080"/>
 			<option name="bootip" value="0x3000"/>
@@ -1115,26 +1291,26 @@
 			<rom type="code" offset="0x40000">GAMEMAIN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">00-00 : 演奏停止</title>
-			<title code="0x0001">00-01</title>
-			<title code="0x0002">00-02 : Theme From Schwarzschild III</title>
-			<title code="0x0201">02-01 : Operation</title>
-			<title code="0x0202">02-02 : War Songs Part.1</title>
-			<title code="0x0203">02-03 : Here Comes The Planets!</title>
-			<title code="0x0204">02-04</title>
-			<title code="0x0205">02-05</title>
-			<title code="0x0206">02-06</title>
-			<title code="0x0207">02-07 : The Dethperant</title>
-			<title code="0x0208">02-08 : War Songs Part.2</title>
-			<title code="0x0209">02-09</title>
-			<title code="0x0101">01-01</title>
-		<!--	<title code="0x0102">01-02</title> -->
+			<title code="0x0000">演奏停止</title>
+			<title code="0x0001">#00-01</title>
+			<title code="0x0002">Theme From Schwarzschild III</title>
+			<title code="0x0201">Operation</title>
+			<title code="0x0202">War Songs Part.1</title>
+			<title code="0x0203">Here Comes The Planets!</title>
+			<title code="0x0204">#02-04</title>
+			<title code="0x0205">#02-05</title>
+			<title code="0x0206">#02-06</title>
+			<title code="0x0207">The Dethperant</title>
+			<title code="0x0208">War Songs Part.2</title>
+			<title code="0x0209">#02-09</title>
+			<title code="0x0101">#01-01</title>
+		<!--	<title code="0x0102">#01-02</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Schwarzschild IV ～クレイドルエンド～</name>
+		<name>[PC-9801] Schwarzschild IV: The Cradle End (シュヴァルツシルトIV ～クレイドルエンド～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">工画堂スタジオ</driveralias>
+		<driveralias type="PC-9801">Kougadou Studio</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1200,13 +1376,13 @@
 		<titlelist>
 			<title code="11">m100.cmd</title>
 			<title code="12">m101.cmd</title>
-			<title code="13">m102.cmd : Operation 2</title>
+			<title code="13">Operation 2</title>
 			<title code="14">m103.cmd</title>
-			<title code="15">m104.cmd : War Songs Part.3</title>
+			<title code="15">War Songs Part.3</title>
 			<title code="16">m105.cmd</title>
 			<title code="17">m106.cmd</title>
-			<title code="18">m107.cmd : Operation 1</title>
-			<title code="19">m108.cmd : Theme From Schwarzschild IV</title>
+			<title code="18">Operation 1</title>
+			<title code="19">Theme From Schwarzschild IV</title>
 			<title code="20">m109.cmd</title>
 			<title code="21">m110.cmd</title>
 			<title code="22">neko.cmd</title>
@@ -1214,18 +1390,18 @@
 			<title code="24">s408.cmd</title>
 			<title code="25">s415.cmd</title>
 			<title code="26">s422.cmd</title>
-			<title code="27">s424.cmd : War Songs Part.4</title>
-			<title code="28">s428.cmd : The Cradle End</title>
+			<title code="27">War Songs Part.4</title>
+			<title code="28">The Cradle End</title>
 			<title code="29">s430.cmd</title>
 			<title code="30">s431.cmd</title>
 			<title code="31">s432.cmd</title>
-			<title code="32">s433.cmd : Ending Theme Of Schwarzschild IV</title>
+			<title code="32">Ending Theme of Schwarzschild IV</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] アルギースの翼(OPM)</name>
+		<name>[X1] Algeese no Tsubasa (アルギースの翼) (OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="X1">工画堂スタジオ</driveralias>
+		<driveralias type="X1">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1242,39 +1418,39 @@
 			<rom type="bgm" offset="0x05">MUS05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">#00-0 : オープニング</title>
-		<!--	<title code="0x01000000">#00-1 : エンディング</title> -->
-		<!--	<title code="0x02000000">#00-2 : スタッフロール</title> -->
-			<title code="0x00000001">#01-0 : 店/メニュー</title>
-			<title code="0x01000001">#01-1 : 戦闘</title>
-			<title code="0x02000001">#01-2 : カズノヒロブ</title>
-			<title code="0x03000001">#01-3 : フィールド</title>
-			<title code="0x04000001">#01-4 : 塔</title>
-		<!--	<title code="0x00000002">#02-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000002">#02-1 : 戦闘</title> -->
-		<!--	<title code="0x02000002">#02-2 : カズノヒロブ</title> -->
-			<title code="0x03000002">#02-3 : アテパル城</title>
-			<title code="0x04000002">#02-4 : 天空の王宮</title>
-			<title code="0x05000002">#02-5 : 妖獣の城</title>
-		<!--	<title code="0x00000003">#03-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000003">#03-1 : 戦闘</title> -->
-		<!--	<title code="0x02000003">#03-2 : カズノヒロブ</title> -->
-			<title code="0x03000003">#03-3 : 城</title>
-			<title code="0x04000003">#03-4 : 天空界</title>
-		<!--	<title code="0x00000004">#04-0 : 店/メニュー</title> -->
-			<title code="0x01000004">#04-1 : ユーザーディスク作成/ゲームオーバー</title>
-		<!--	<title code="0x02000004">#04-2 : スタッフロール</title> -->
-			<title code="0x03000004">#04-3 : 街</title>
-		<!--	<title code="0x00000005">#05-0 : オープニング</title> -->
-			<title code="0x01000005">#05-1 : エンディング</title>
-			<title code="0x02000005">#05-2 : スタッフロール</title>
+			<title code="0x00000000">オープニング</title>
+		<!--	<title code="0x01000000">エンディング</title> -->
+		<!--	<title code="0x02000000">スタッフロール</title> -->
+			<title code="0x00000001">店/メニュー</title>
+			<title code="0x01000001">戦闘</title>
+			<title code="0x02000001">カズノヒロブ</title>
+			<title code="0x03000001">フィールド</title>
+			<title code="0x04000001">塔</title>
+		<!--	<title code="0x00000002">店/メニュー</title> -->
+		<!--	<title code="0x01000002">戦闘</title> -->
+		<!--	<title code="0x02000002">カズノヒロブ</title> -->
+			<title code="0x03000002">アテパル城</title>
+			<title code="0x04000002">天空の王宮</title>
+			<title code="0x05000002">妖獣の城</title>
+		<!--	<title code="0x00000003">店/メニュー</title> -->
+		<!--	<title code="0x01000003">戦闘</title> -->
+		<!--	<title code="0x02000003">カズノヒロブ</title> -->
+			<title code="0x03000003">城</title>
+			<title code="0x04000003">天空界</title>
+		<!--	<title code="0x00000004">店/メニュー</title> -->
+			<title code="0x01000004">ユーザーディスク作成/ゲームオーバー</title>
+		<!--	<title code="0x02000004">スタッフロール</title> -->
+			<title code="0x03000004">街</title>
+		<!--	<title code="0x00000005">オープニング</title> -->
+			<title code="0x01000005">エンディング</title>
+			<title code="0x02000005">スタッフロール</title>
 			<title code="0x03000005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] アルギースの翼(PSG)</name>
+		<name>[X1] Algeese no Tsubasa (アルギースの翼) (PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">工画堂スタジオ</driveralias>
+		<driveralias type="X1">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1290,39 +1466,39 @@
 			<rom type="bgm" offset="0x05">MUS05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">#00-0 : オープニング</title>
-		<!--	<title code="0x01000000">#00-1 : エンディング</title> -->
-		<!--	<title code="0x02000000">#00-2 : スタッフロール</title> -->
-			<title code="0x00000001">#01-0 : 店/メニュー</title>
-			<title code="0x01000001">#01-1 : 戦闘</title>
-			<title code="0x02000001">#01-2 : カズノヒロブ</title>
-			<title code="0x03000001">#01-3 : フィールド</title>
-			<title code="0x04000001">#01-4 : 塔</title>
-		<!--	<title code="0x00000002">#02-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000002">#02-1 : 戦闘</title> -->
-		<!--	<title code="0x02000002">#02-2 : カズノヒロブ</title> -->
-			<title code="0x03000002">#02-3 : アテパル城</title>
-			<title code="0x04000002">#02-4 : 天空の王宮</title>
-			<title code="0x05000002">#02-5 : 妖獣の城</title>
-		<!--	<title code="0x00000003">#03-0 : 店/メニュー</title> -->
-		<!--	<title code="0x01000003">#03-1 : 戦闘</title> -->
-		<!--	<title code="0x02000003">#03-2 : カズノヒロブ</title> -->
-			<title code="0x03000003">#03-3 : 城</title>
-			<title code="0x04000003">#03-4 : 天空界</title>
-		<!--	<title code="0x00000004">#04-0 : 店/メニュー</title> -->
-			<title code="0x01000004">#04-1 : ユーザーディスク作成/ゲームオーバー</title>
-		<!--	<title code="0x02000004">#04-2 : スタッフロール</title> -->
-			<title code="0x03000004">#04-3 : 街</title>
-		<!--	<title code="0x00000005">#05-0 : オープニング</title> -->
-			<title code="0x01000005">#05-1 : エンディング</title>
-			<title code="0x02000005">#05-2 : スタッフロール</title>
+			<title code="0x00000000">オープニング</title>
+		<!--	<title code="0x01000000">エンディング</title> -->
+		<!--	<title code="0x02000000">スタッフロール</title> -->
+			<title code="0x00000001">店/メニュー</title>
+			<title code="0x01000001">戦闘</title>
+			<title code="0x02000001">カズノヒロブ</title>
+			<title code="0x03000001">フィールド</title>
+			<title code="0x04000001">塔</title>
+		<!--	<title code="0x00000002">店/メニュー</title> -->
+		<!--	<title code="0x01000002">戦闘</title> -->
+		<!--	<title code="0x02000002">カズノヒロブ</title> -->
+			<title code="0x03000002">アテパル城</title>
+			<title code="0x04000002">天空の王宮</title>
+			<title code="0x05000002">妖獣の城</title>
+		<!--	<title code="0x00000003">店/メニュー</title> -->
+		<!--	<title code="0x01000003">戦闘</title> -->
+		<!--	<title code="0x02000003">カズノヒロブ</title> -->
+			<title code="0x03000003">城</title>
+			<title code="0x04000003">天空界</title>
+		<!--	<title code="0x00000004">店/メニュー</title> -->
+			<title code="0x01000004">ユーザーディスク作成/ゲームオーバー</title>
+		<!--	<title code="0x02000004">スタッフロール</title> -->
+			<title code="0x03000004">街</title>
+		<!--	<title code="0x00000005">オープニング</title> -->
+			<title code="0x01000005">エンディング</title>
+			<title code="0x02000005">スタッフロール</title>
 			<title code="0x03000005">#05-3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Schwarzschild 狂嵐の銀河</name>
+		<name>[X68000] Schwarzschild: Kyouran no Ginga (シュヴァルツシルト 狂乱の銀河) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">工画堂スタジオ</driveralias>
+		<driveralias type="X68000">Kougadou Studio</driveralias>
 		<romlist archive="schw68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -1337,21 +1513,21 @@
 			<rom type="code" offset="0x40000">STAFF.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OFF.OPM   : [STOP]</title>
-			<title code="0x02">NEKO.OPM  : ねこさんちーむBGM</title>
-			<title code="0x03">OPEN.OPM  : オープニング・テーマ</title>
-			<title code="0x04">M1.OPM    : 通常1BGM</title>
-			<title code="0x05">M2.OPM    : 通常2BGM</title>
-			<title code="0x06">M3.OPM    : 戦闘のテーマ</title>
-			<title code="0x07">M4.OPM    : レクイエム</title>
-			<title code="0x08">END.OPM   : エンディング・テーマ</title>
-			<title code="0x09">STAFF.OPM : スタッフ･テーマ</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x02">ねこさんちーむBGM</title>
+			<title code="0x03">オープニング・テーマ</title>
+			<title code="0x04">通常1BGM</title>
+			<title code="0x05">通常2BGM</title>
+			<title code="0x06">戦闘のテーマ</title>
+			<title code="0x07">レクイエム</title>
+			<title code="0x08">エンディング・テーマ</title>
+			<title code="0x09">スタッフ･テーマ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] NAVITUNE -ドラゴン航海記-</name>
+		<name>[MSX2] Navitune: Dragon Koukaiki (ナビチューン・ドラゴン航海記) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX2">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa072"/>
 			<option name="mdata_size" value="0x1400"/>
@@ -1364,14 +1540,14 @@
 			<rom type="code" offset="0x4000">NAVIMUS.O</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x09" extcode="1">BGM 0x%02x</range>
-			<range min="0x80" max="0x9c" extcode="1">SE 0x%02x</range>
+			<range min="0x00" max="0x09" extcode="1">BGM #%02x</range>
+			<range min="0x80" max="0x9c" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 原宿AFTeR DARK</name>
+		<name>[MSX2] Harajuku: After Dark (原宿アフターダーク) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX2">Kougadou Studio</driveralias>
 		<options>
 			<option name="init_pc"    value="0x400"/>
 		</options>
@@ -1385,9 +1561,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 時空の花嫁(OPLL)</name>
+		<name>[MSX2] Jikuu no Hanayome (時空の花嫁) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX2">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd200"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -1412,24 +1588,24 @@
 			<rom type="bgm" offset="0x0b">MUSIC3.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">MUSIC1.COM : オープニング</title>
-			<title code="0x0b">MUSIC3.COM : オープニング効果音</title>
-			<title code="0x00">B001.BIN   : デモ曲</title>
-			<title code="0x06">B007.BIN   : タイトル</title>
-			<title code="0x08">B009.BIN   : 街</title>
-			<title code="0x02">B003.BIN   : キャンプ</title>
-			<title code="0x04">B005.BIN   : 戦闘</title>
-			<title code="0x05">B006.BIN   : ゲームオーバー</title>
-			<title code="0x09">B010.BIN   : タイムマシン</title>
-			<title code="0x03">B004.BIN   : ラストダンジョン</title>
-			<title code="0x07">B008.BIN   : ラスボス前</title>
-			<title code="0x01">B002.BIN   : エンディング</title>
+			<title code="0x0a">オープニング</title>
+			<title code="0x0b">オープニング効果音</title>
+			<title code="0x00">デモ曲</title>
+			<title code="0x06">タイトル</title>
+			<title code="0x08">街</title>
+			<title code="0x02">キャンプ</title>
+			<title code="0x04">戦闘</title>
+			<title code="0x05">ゲームオーバー</title>
+			<title code="0x09">タイムマシン</title>
+			<title code="0x03">ラストダンジョン</title>
+			<title code="0x07">ラスボス前</title>
+			<title code="0x01">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 時空の花嫁(PSG)</name>
+		<name>[MSX2] Jikuu no Hanayome (時空の花嫁) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX2">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd200"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -1453,24 +1629,24 @@
 			<rom type="bgm" offset="0x0b">MUSIC3.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">MUSIC1.COM : オープニング</title>
-			<title code="0x0b">MUSIC3.COM : オープニング効果音</title>
-			<title code="0x00">B001.BIN   : デモ曲</title>
-			<title code="0x06">B007.BIN   : タイトル</title>
-			<title code="0x08">B009.BIN   : 街</title>
-			<title code="0x02">B003.BIN   : キャンプ</title>
-			<title code="0x04">B005.BIN   : 戦闘</title>
-			<title code="0x05">B006.BIN   : ゲームオーバー</title>
-			<title code="0x09">B010.BIN   : タイムマシン</title>
-			<title code="0x03">B004.BIN   : ラストダンジョン</title>
-			<title code="0x07">B008.BIN   : ラスボス前</title>
-			<title code="0x01">B002.BIN   : エンディング</title>
+			<title code="0x0a">オープニング</title>
+			<title code="0x0b">オープニング効果音</title>
+			<title code="0x00">デモ曲</title>
+			<title code="0x06">タイトル</title>
+			<title code="0x08">街</title>
+			<title code="0x02">キャンプ</title>
+			<title code="0x04">戦闘</title>
+			<title code="0x05">ゲームオーバー</title>
+			<title code="0x09">タイムマシン</title>
+			<title code="0x03">ラストダンジョン</title>
+			<title code="0x07">ラスボス前</title>
+			<title code="0x01">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PSYCHIC WAR - COSMIC SOLDIER 2 -</name>
+		<name>[MSX] Psychic War: Cosmic Soldier 2 (サイキックウォー コズミックソルジャー2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1800"/>
@@ -1485,25 +1661,25 @@
 			<rom type="bgm" offset="0x02">MDATA3.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0600">MDATA1.COM:06 : オープニング ～「起の序曲」～</title>
-			<title code="0x0000">MDATA1.COM:00 : アンドロイドのテーマ ～「君にはチャイナ服がよく似合う」～</title>
+			<title code="0x0600">オープニング ～「起の序曲」～</title>
+			<title code="0x0000">アンドロイドのテーマ ～「君にはチャイナ服がよく似合う」～</title>
 			<!--
-			<title code="0x0001">MDATA2.COM:00 : アンドロイドのテーマ ～「君にはチャイナ服がよく似合う」～</title>
+			<title code="0x0001">アンドロイドのテーマ ～「君にはチャイナ服がよく似合う」～</title>
 			  -->
-			<title code="0x0201">MDATA2.COM:02 : 帝国のテーマ ～「悪意の象徴」～</title>
-			<title code="0x0301">MDATA2.COM:03 : 戦闘のテーマ ～「サイキック・バトル」～</title>
-			<title code="0x0101">MDATA2.COM:01 : レクイエム ～「君よ静かに眠れ」～</title>
-			<title code="0x0802">MDATA3.COM:08 : エンディング ～「新たなる予感」～</title>
-			<title code="0x0902">MDATA3.COM:09</title>
-			<title code="0x0a02">MDATA3.COM:0A : ばんざい! ～「大団円」～</title>
-			<title code="0x0b02">MDATA3.COM:0B</title>
-			<title code="0x0501">MDATA2.COM:05 : 警報</title>
+			<title code="0x0201">帝国のテーマ ～「悪意の象徴」～</title>
+			<title code="0x0301">戦闘のテーマ ～「サイキック・バトル」～</title>
+			<title code="0x0101">レクイエム ～「君よ静かに眠れ」～</title>
+			<title code="0x0802">エンディング ～「新たなる予感」～</title>
+			<title code="0x0902">MDATA3.COM #09</title>
+			<title code="0x0a02">ばんざい! ～「大団円」～</title>
+			<title code="0x0b02">MDATA3.COM #0B</title>
+			<title code="0x0501">警報</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Schwarzschild 狂嵐の銀河</name>
+		<name>[MSX] Schwarzschild: Kyouran no Ginga (Schwarzschild 狂嵐の銀河)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1534,9 +1710,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Schwarzschild II 狂嵐の銀河 帝國ノ背信</name>
+		<name>[MSX] Schwarzschild II: Teikoku no Haishin (Schwarzschild II 狂嵐の銀河 帝國ノ背信)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1569,9 +1745,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] アルギースの翼</name>
+		<name>[MSX] Algeese no Tsubasa (アルギースの翼)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1607,9 +1783,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 魔晶伝紀ラ・ヴァルー(OPLL)</name>
+		<name>[MSX] Mashou Denki: La Valeur (魔晶伝紀ラ・ヴァルー) (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xca00"/>
 			<option name="mdata_size" value="0x0b00"/>
@@ -1651,9 +1827,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 魔晶伝紀ラ・ヴァルー(PSG)</name>
+		<name>[MSX] Mashou Denki: La Valeur (魔晶伝紀ラ・ヴァルー) (PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">工画堂スタジオ</driveralias>
+		<driveralias type="MSX">Kougadou Studio</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xca00"/>
 			<option name="mdata_size" value="0x0b00"/>
@@ -1696,7 +1872,7 @@
 	<game>
 		<name>[X68000] Sabnack</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">工画堂スタジオ</driveralias>
+		<driveralias type="X68000">Kougadou Studio</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="pcm8" value="1"/>

@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //Arsys Software -->
 	<game>
-		<name>[PC-8801] WiBARM</name>
+		<name>[PC-8801] WiBARM (ウイバーン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -53,16 +53,16 @@
 			<rom type="bgm"  offset="0x03">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">MUS01 : 基地</title>
-			<title code="0x00000002">MUS02 : 地上</title>
-			<title code="0x01000002">MUS02 : 戦闘</title>
-			<title code="0x00000000">MUS00 : 3D迷路(建物内)</title>
-		<!--	<title code="0x01000000">MUS00 : 戦闘</title> -->
-			<title code="0xff000003">MUS03 : エンディング</title>
+			<title code="0x00000001">Base (基地)</title>
+			<title code="0x00000002">Land (地上)</title>
+			<title code="0x01000002">Battle (戦闘)</title>
+			<title code="0x00000000">3D Maze (Interior) (3D迷路(建物内))</title>
+		<!--	<title code="0x01000000">Battle (戦闘)</title> -->
+			<title code="0xff000003">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Reviver</name>
+		<name>[PC-8801] Reviver (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -99,32 +99,32 @@
 			<rom type="bgm" offset="0x15">MUS22</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x15">MUS22 : ARSYS LOGO</title>
-			<title code="0x00">MUS01 : 酒場1</title>
-			<title code="0x01">MUS02 : 酒場2</title>
-			<title code="0x02">MUS03 : 洞窟</title>
-			<title code="0x03">MUS04 : 城</title>
-			<title code="0x04">MUS05 : 天界・ハリイザード</title>
-			<title code="0x05">MUS06 : 邪神界・ザリオザード</title>
-			<title code="0x06">MUS07 : 魔導師タンダライド</title>
-			<title code="0x07">MUS08 : サダリアーン登場</title>
-			<title code="0x08">MUS09 : 戦闘</title>
-			<title code="0x09">MUS10 : 魔物との遭遇</title>
-			<title code="0x0a">MUS11 : 重要アイテム入手 他</title>
-			<title code="0x0b">MUS12 : クリスタルロッド</title>
-			<title code="0x0c">MUS13 : 剣士コートの死</title>
-			<title code="0x0d">MUS14 : トラップ</title>
-			<title code="0x0e">MUS15 : ラビスターク</title>
-			<title code="0x0f">MUS16 : サダリアーンとの戦い</title>
-			<title code="0x10">MUS17 : オープニング</title>
-			<title code="0x11">MUS18 : サダリアーンの最期</title>
-			<title code="0x12">MUS19 : 女剣士アルマとの出会い</title>
-			<title code="0x13">MUS20 : エンディング</title>
-			<title code="0x14">MUS21 : 死</title>
+			<title code="0x15">Arsys Logo</title>
+			<title code="0x00">Bar 1 (酒場1)</title>
+			<title code="0x01">Bar 2 (酒場2)</title>
+			<title code="0x02">Cave (洞窟)</title>
+			<title code="0x03">Castle (城)</title>
+			<title code="0x04">Heaven: Hallizard (天界・ハリイザード)</title>
+			<title code="0x05">Hell: Zaliozard (邪神界・ザリオザード)</title>
+			<title code="0x06">Tandalyde the Sorceror (魔導師タンダライド)</title>
+			<title code="0x07">Sadarian Appears (サダリアーン登場)</title>
+			<title code="0x08">Battle (戦闘)</title>
+			<title code="0x09">Monster Encounter (魔物との遭遇)</title>
+			<title code="0x0a">Get a Special Item, Etc. (重要アイテム入手 他)</title>
+			<title code="0x0b">The Crystal Rod (クリスタルロッド)</title>
+			<title code="0x0c">Death of Cote the Swordsman (剣士コートの死)</title>
+			<title code="0x0d">Trap (トラップ)</title>
+			<title code="0x0e">Ravistark (ラビスターク)</title>
+			<title code="0x0f">Battle with Sadarian (サダリアーンとの戦い)</title>
+			<title code="0x10">Opening (オープニング)</title>
+			<title code="0x11">Sadarian's End (サダリアーンの最期)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (女剣士アルマとの出会い)</title>
+			<title code="0x13">Ending (エンディング)</title>
+			<title code="0x14">Death (死)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 妖獣機甲兵ワードラゴン(OPNA)</name>
+		<name>[PC-8801] Armored Beast WerDragon (妖獣機甲兵ワードラゴン) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -161,28 +161,28 @@
 			<rom type="bgm" offset="0x11">VTRANSF</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OPENMU1F    : OPENING 1</title>
-			<title code="0x01">OPENMU3F    : OPENING 2</title>
-			<title code="0x02">BGM1.FM     : STAGE 1</title>
-			<title code="0x11">VTRANSF     : 変身</title>
-			<title code="0x08">BOSS.FM     : BOSS</title>
-			<title code="0x09">DIALOGF     : VISUAL SCENE 1 &amp; 2</title>
-			<title code="0x03">BGM2.FM     : STAGE 2</title>
-			<title code="0x04">BGM3.FM     : STAGE 3</title>
-			<title code="0x10">VIBOSSF     : VISUAL SCENE 3</title>
-			<title code="0x05">BGM4.FM     : STAGE 4</title>
-			<title code="0x0b">FLIGHTF     : VISUAL SCENE 4 (飛翔)</title>
-			<title code="0x06">BGM5.FM     : STAGE 5        (ブルースカイ)</title>
-			<title code="0x0c">JOUSAIF     : VISUAL SCENE 5</title>
-			<title code="0x07">BGM6.FM     : STAGE 6</title>
-			<title code="0x0e">METABOSS.FM : LAST BOSS 1 (変身前)</title>
-			<title code="0x0d">LASTBOSS.FM : LAST BOSS 2 (変身後)</title>
-			<title code="0x0a">ENDMUF      : ENDING</title>
-			<title code="0x0f">OVER.FM     : GAME OVER</title>
+			<title code="0x00">Opening 1</title>
+			<title code="0x01">Opening 2</title>
+			<title code="0x02">Stage 1</title>
+			<title code="0x11">Transform (変身)</title>
+			<title code="0x08">Boss</title>
+			<title code="0x09">Visual Scene 1 &amp; 2</title>
+			<title code="0x03">Stage 2</title>
+			<title code="0x04">Stage 3</title>
+			<title code="0x10">Visual Scene 3</title>
+			<title code="0x05">Stage 4</title>
+			<title code="0x0b">Visual Scene 4 (Flight) (飛翔)</title>
+			<title code="0x06">Stage 5 (Blue Sky) (ブルースカイ)</title>
+			<title code="0x0c">Visual Scene 5</title>
+			<title code="0x07">Stage 6</title>
+			<title code="0x0e">Last Boss 1 (Before Transformation) (変身前)</title>
+			<title code="0x0d">Last Boss 2 (After Transformation) (変身後)</title>
+			<title code="0x0a">Ending</title>
+			<title code="0x0f">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 妖獣機甲兵ワードラゴン(OPN)</name>
+		<name>[PC-8801] Armored Beast WerDragon (妖獣機甲兵ワードラゴン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -214,28 +214,28 @@
 			<rom type="bgm" offset="0x11">VTRANSP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OPENMU1P    : OPENING 1</title>
-			<title code="0x01">OPENMU3P    : OPENING 2</title>
-			<title code="0x02">BGM1.PC     : STAGE 1</title>
-			<title code="0x11">VTRANSP     : 変身</title>
-			<title code="0x08">BOSS.PC     : BOSS</title>
-			<title code="0x09">DIALOGP     : VISUAL SCENE 1 &amp; 2</title>
-			<title code="0x03">BGM2.PC     : STAGE 2</title>
-			<title code="0x04">BGM3.PC     : STAGE 3</title>
-			<title code="0x10">VIBOSSP     : VISUAL SCENE 3</title>
-			<title code="0x05">BGM4.PC     : STAGE 4</title>
-			<title code="0x0b">FLIGHTP     : VISUAL SCENE 4 (飛翔)</title>
-			<title code="0x06">BGM5.PC     : STAGE 5        (ブルースカイ)</title>
-			<title code="0x0c">JOUSAIP     : VISUAL SCENE 5</title>
-			<title code="0x07">BGM6.PC     : STAGE 6</title>
-			<title code="0x0e">METABOSS.PC : LAST BOSS 1 (変身前)</title>
-			<title code="0x0d">LASTBOSS.PC : LAST BOSS 2 (変身後)</title>
-			<title code="0x0a">ENDMUP      : ENDING</title>
-			<title code="0x0f">OVER.PC     : GAME OVER</title>
+			<title code="0x00">Opening 1</title>
+			<title code="0x01">Opening 2</title>
+			<title code="0x02">Stage 1</title>
+			<title code="0x11">Transform (変身)</title>
+			<title code="0x08">Boss</title>
+			<title code="0x09">Visual Scene 1 &amp; 2</title>
+			<title code="0x03">Stage 2</title>
+			<title code="0x04">Stage 3</title>
+			<title code="0x10">Visual Scene 3</title>
+			<title code="0x05">Stage 4</title>
+			<title code="0x0b">Visual Scene 4 (Flight) (飛翔)</title>
+			<title code="0x06">Stage 5 (Blue Sky) (ブルースカイ)</title>
+			<title code="0x0c">Visual Scene 5</title>
+			<title code="0x07">Stage 6</title>
+			<title code="0x0e">Last Boss 1 (Before Transformation) (変身前)</title>
+			<title code="0x0d">Last Boss 2 (After Transformation) (変身後)</title>
+			<title code="0x0a">Ending</title>
+			<title code="0x0f">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] STAR CRUISER(OPNA)</name>
+		<name>[PC-8801] Star Cruiser (スタークルーザー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -360,7 +360,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] STAR CRUISER(OPN)</name>
+		<name>[PC-8801] Star Cruiser (スタークルーザー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -485,7 +485,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WiBARM</name>
+		<name>[PC-9801] WiBARM (ウイバーン) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -507,16 +507,88 @@
 			<rom type="bgm" offset="0x04">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000002">MUS01 : 基地</title>
-			<title code="0x000003">MUS02 : 地上</title>
-			<title code="0x010003">MUS02 : 戦闘</title>
-			<title code="0x000001">MUS00 : 3D迷路(建物内)</title>
-		<!--	<title code="0x010001">MUS00 : 戦闘</title> -->
-			<title code="0x000004">MUS03 : エンディング</title>
+			<title code="0x000002">Base (基地)</title>
+			<title code="0x000003">Land (地上)</title>
+			<title code="0x010003">Battle (戦闘)</title>
+			<title code="0x000001">3D Maze (Interior) (3D迷路(建物内))</title>
+		<!--	<title code="0x010001">Battle (戦闘)</title> -->
+			<title code="0x000004">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Spindizzy II</name>
+		<name>[PC-9801] Prince of Persia (プリンスオブペルシャ) (YM2203)</name>
+		<driver type="opn">pc98</driver>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x20000"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="datamax" value="0x1b"/>
+		</options>
+		<romlist archive="persia98">
+			<rom type="code" offset="0x00600">persia98.bin</rom>
+			<rom type="code" offset="0x10000">MUSIC.SYS</rom>
+			<rom type="bgm" offset="0x01">MUSIC1.MUS</rom>
+			<rom type="bgm" offset="0x02">MUSIC2.MUS</rom>
+			<rom type="bgm" offset="0x03">MUSIC3.MUS</rom>
+			<rom type="bgm" offset="0x04">MUSIC4.MUS</rom>
+			<rom type="bgm" offset="0x05">FIGHT.MUS</rom>
+			<rom type="bgm" offset="0x06">FIGHTF.MUS</rom>
+			<rom type="bgm" offset="0x07">FIGHTS.MUS</rom>
+			<rom type="bgm" offset="0x08">FIGHTK.MUS</rom>
+			<rom type="bgm" offset="0x09">VICT1.MUS</rom>
+			<rom type="bgm" offset="0x0a">APPEAR.MUS</rom>
+			<rom type="bgm" offset="0x0b">APPEAR2.MUS</rom>
+			<rom type="bgm" offset="0x0c">PICKUP.MUS</rom>
+			<rom type="bgm" offset="0x0d">POWUP.MUS</rom>
+			<rom type="bgm" offset="0x0e">KUSURI.MUS</rom>
+			<rom type="bgm" offset="0x0f">CLEAR.MUS</rom>
+			<rom type="bgm" offset="0x10">EXIT.MUS</rom>
+			<rom type="bgm" offset="0x11">DEAD.MUS</rom>
+			<rom type="bgm" offset="0x12">DEAD2.MUS</rom>
+			<rom type="bgm" offset="0x13">OPEN.MUS</rom>
+			<rom type="bgm" offset="0x14">ROOM1.MUS</rom>
+			<rom type="bgm" offset="0x15">ROOM2.MUS</rom>
+			<rom type="bgm" offset="0x16">END1.MUS</rom>
+			<rom type="bgm" offset="0x17">END2.MUS</rom>
+			<rom type="bgm" offset="0x18">END3.MUS</rom>
+			<rom type="bgm" offset="0x19">TIMEOUT.MUS</rom>
+			<rom type="bgm" offset="0x1a">MENU.MUS</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">MUSIC1.MUS</title>
+			<title code="0x02">MUSIC2.MUS</title>
+			<title code="0x03">MUSIC3.MUS</title>
+			<title code="0x04">MUSIC4.MUS</title>
+			<title code="0x05">FIGHT.MUS</title>
+			<title code="0x06">FIGHTF.MUS</title>
+			<title code="0x07">FIGHTS.MUS</title>
+			<title code="0x08">FIGHTK.MUS</title>
+			<title code="0x09">VICT1.MUS</title>
+			<title code="0x0a">APPEAR.MUS</title>
+			<title code="0x0b">APPEAR2.MUS</title>
+			<title code="0x0c">PICKUP.MUS</title>
+			<title code="0x0d">POWUP.MUS</title>
+			<title code="0x0e">KUSURI.MUS</title>
+			<title code="0x0f">CLEAR.MUS</title>
+			<title code="0x10">EXIT.MUS</title>
+			<title code="0x11">DEAD.MUS</title>
+			<title code="0x12">DEAD2.MUS</title>
+			<title code="0x13">OPEN.MUS</title>
+			<title code="0x14">ROOM1.MUS</title>
+			<title code="0x15">ROOM2.MUS</title>
+			<title code="0x16">END1.MUS</title>
+			<title code="0x17">END2.MUS</title>
+			<title code="0x18">END3.MUS</title>
+			<title code="0x19">TIMEOUT.MUS</title>
+			<title code="0x1a">MENU.MUS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Spindizzy II (スピンディジーII) (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -577,55 +649,55 @@
 			<rom type="bgm" offset="0x2c">XYZ.OJ</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
-			<title code="0x1a">NO1     .OJ: Beginners'</title>
-			<title code="0x28">TUKURI  .OJ: WaterWorks</title>
-			<title code="0x26">SPINBALL.OJ: Pak Attack</title>
-			<title code="0x25">SP      .OJ: Pyramidea</title>
-			<title code="0x01">ARIOSO  .OJ: Buxton cat</title>
-			<title code="0x0d">JACK    .OJ: Tri Path</title>
-			<title code="0x09">GLAVE   .OJ: Sandy Island</title>
-			<title code="0x02">BALL_R  .OJ: Ballrace</title>
-			<title code="0x18">NAKANO  .OJ: Grass hopper</title>
-			<title code="0x0b">HARD    .OJ: Roller-ama</title>
-			<title code="0x0f">JIVE    .OJ: Frigia</title>
-			<title code="0x23">RATIO   .OJ: Arrow Maze</title>
-			<title code="0x11">KUKU2   .OJ: Castle Quest</title>
-			<title code="0x19">NHK     .OJ: Tower City</title>
-			<title code="0x0a">GRASS   .OJ: Grass Maze</title>
-			<title code="0x1f">POCO    .OJ: RADIMA</title>
-			<title code="0x27">STR     .OJ: Oily Way</title>
-			<title code="0x2a">WAWORKS .OJ: WaterWorld</title>
-			<title code="0x14">MODERATO.OJ: MisDirection</title>
-			<title code="0x15">MON     .OJ: Torture!</title>
-			<title code="0x03">CHASE   .OJ: Obelisk Run</title>
-			<title code="0x13">MF      .OJ: Canal Side</title>
-			<title code="0x08">GAME    .OJ: Spindizzy!</title>
-			<title code="0x16">MRX2    .OJ: Tutorial</title>
-			<title code="0x21">Q2      .OJ: Quadrant 2</title>
-			<title code="0x22">RAMP    .OJ: Ramp Run</title>
-			<title code="0x1e">PENTA   .OJ: Split Up</title>
-			<title code="0x24">ROPOP   .OJ: Lavalite</title>
-			<title code="0x20">PP      .OJ: Gargoyle</title>
-			<title code="0x05">EASY    .OJ: EasyDizzy</title>
-			<title code="0x29">URANUS  .OJ: URANUS</title>
-			<title code="0x17">MTSTAR  .OJ: CLUSTER</title>
-			<title code="0x1d">PENGIN  .OJ: Paradise</title>
-			<title code="0x2b">WOO     .OJ: Woo!!</title>
-			<title code="0x12">LOGO    .OJ: Arsys Logo</title>
-			<title code="0x04">CTTY    .OJ: Eternal Move</title>
-			<title code="0x06">END     .OJ: Ending</title>
-			<title code="0x1b">OPEN    .OJ: Zoom Up</title>
-			<title code="0x0e">JAZZ    .OJ: Solid Time</title>
-			<title code="0x0c">HURRY_UP.OJ: HURRY UP!</title>
-			<title code="0x07">FINAL   .OJ: </title>
-			<title code="0x10">KUKU    .OJ: </title>
-			<title code="0x1c">PEC     .OJ: </title>
-			<title code="0x2c">XYZ     .OJ: </title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x12">Arsys Logo</title>
+			<title code="0x1a">Beginners'</title>
+			<title code="0x28">WaterWorks</title>
+			<title code="0x26">Pak Attack</title>
+			<title code="0x25">Pyramidea</title>
+			<title code="0x01">Buxton cat</title>
+			<title code="0x0d">Tri Path</title>
+			<title code="0x09">Sandy Island</title>
+			<title code="0x02">Ballrace</title>
+			<title code="0x18">Grass hopper</title>
+			<title code="0x0b">Roller-ama</title>
+			<title code="0x0f">Frigia</title>
+			<title code="0x23">Arrow Maze</title>
+			<title code="0x11">Castle Quest</title>
+			<title code="0x19">Tower City</title>
+			<title code="0x0a">Grass Maze</title>
+			<title code="0x1f">Radima</title>
+			<title code="0x27">Oily Way</title>
+			<title code="0x2a">WaterWorld</title>
+			<title code="0x14">MisDirection</title>
+			<title code="0x15">Torture!</title>
+			<title code="0x03">Obelisk Run</title>
+			<title code="0x13">Canal Side</title>
+			<title code="0x08">Spindizzy!</title>
+			<title code="0x16">Tutorial</title>
+			<title code="0x21">Quadrant 2</title>
+			<title code="0x22">Ramp Run</title>
+			<title code="0x1e">Split Up</title>
+			<title code="0x24">Lavalite</title>
+			<title code="0x20">Gargoyle</title>
+			<title code="0x05">EasyDizzy</title>
+			<title code="0x29">Uranus</title>
+			<title code="0x17">Cluster</title>
+			<title code="0x1d">Paradise</title>
+			<title code="0x2b">Woo!!</title>
+			<title code="0x04">Eternal Move</title>
+			<title code="0x06">Ending</title>
+			<title code="0x1b">Zoom Up</title>
+			<title code="0x0e">Solid Time</title>
+			<title code="0x0c">Hurry Up!</title>
+			<title code="0x07">FINAL.OJ</title>
+			<title code="0x10">KUKU.OJ</title>
+			<title code="0x1c">PEC.OJ</title>
+			<title code="0x2c">XYZ.OJ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR CRUISER</name>
+		<name>[PC-9801] Star Cruiser (スタークルーザー) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -674,88 +746,88 @@
 			<rom type="bgm" offset="0x1e">MUS30</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">スペースフライト</title>
-			<title code="0x02">スペースファイト</title>
-			<title code="0x03">デザートゾーン</title>
-			<title code="0x04">スタークルーザー</title>
-			<title code="0x05">レッドゾーン</title>
-			<title code="0x06">スペースボート</title>
-			<title code="0x07">ショップ</title>
-			<title code="0x08">バトルスペース</title>
-			<title code="0x09">ディージー</title>
-			<title code="0x0a">土星</title>
-			<title code="0x0b">大赤斑</title>
-			<title code="0x0c">ビッグボス</title>
-			<title code="0x0d">ミッドボス</title>
-			<title code="0x0e">基地内部</title>
-			<title code="0x0f">レクイエム</title>
-			<title code="0x10">生体プラント</title>
-			<title code="0x11">ワープアウト</title>
-			<title code="0x12">ゲームオーバー</title>
-			<title code="0x13">リジル＝ケント星系</title>
-			<title code="0x14">NINETEEN</title>
-			<title code="0x15">ジューン</title>
-			<title code="0x16">ブローカー</title>
-			<title code="0x17">惑星オールドニューヨーク</title>
-			<title code="0x18">バーナード星系</title>
-			<title code="0x19">火星</title>
-			<title code="0x1a">遥かな宇宙へ</title>
-			<title code="0x1b">シリウス星系</title>
-			<title code="0x1c">VOID 大戦艦</title>
-			<title code="0x1d">G-カタパルト</title>
-			<title code="0x1e">ハイパースペース</title>
-			<title code="0x20">効果音#01</title>
-			<title code="0x21">効果音#02</title>
-			<title code="0x22">効果音#03</title>
-			<title code="0x23">効果音#04</title>
-			<title code="0x24">効果音#05</title>
-			<title code="0x25">効果音#06</title>
-			<title code="0x26">効果音#07</title>
-			<title code="0x27">効果音#08</title>
-			<title code="0x28">効果音#09</title>
-			<title code="0x29">効果音#10</title>
-			<title code="0x2a">効果音#11</title>
-			<title code="0x2b">効果音#12</title>
-			<title code="0x2c">効果音#13</title>
-			<title code="0x2d">効果音#14</title>
-			<title code="0x2e">効果音#15</title>
-			<title code="0x2f">効果音#16</title>
-			<title code="0x30">効果音#17</title>
-			<title code="0x31">効果音#18</title>
-			<title code="0x32">効果音#19</title>
-			<title code="0x33">効果音#20</title>
-			<title code="0x34">効果音#21</title>
-			<title code="0x35">効果音#22</title>
-			<title code="0x36">効果音#23</title>
-			<title code="0x37">効果音#24</title>
-			<title code="0x38">効果音#25</title>
-			<title code="0x39">効果音#26</title>
-			<title code="0x3a">効果音#27</title>
-			<title code="0x3b">効果音#28</title>
-			<title code="0x3c">効果音#29</title>
-			<title code="0x3d">効果音#30</title>
-			<title code="0x3e">効果音#31</title>
-			<title code="0x3f">効果音#32</title>
-			<title code="0x40">効果音#33</title>
-			<title code="0x41">効果音#34</title>
-			<title code="0x42">効果音#35</title>
-			<title code="0x43">効果音#36</title>
-			<title code="0x44">効果音#37</title>
-			<title code="0x45">効果音#38</title>
-			<title code="0x46">効果音#39</title>
-			<title code="0x47">効果音#40</title>
-			<title code="0x48">効果音#41</title>
-			<title code="0x49">効果音#42</title>
-			<title code="0x4a">効果音#43</title>
-			<title code="0x4b">効果音#44</title>
-			<title code="0x4c">効果音#45</title>
-			<title code="0x4d">効果音#46</title>
-			<title code="0x4e">効果音#47</title>
-			<title code="0x4f">効果音#48</title>
+			<title code="0x01">Space Flight (スペースフライト)</title>
+			<title code="0x02">Space Fight (スペースファイト)</title>
+			<title code="0x03">Desert Zone (デザートゾーン)</title>
+			<title code="0x04">Star Cruiser (スタークルーザー)</title>
+			<title code="0x05">Red Zone (レッドゾーン)</title>
+			<title code="0x06">Space Boat (スペースボート)</title>
+			<title code="0x07">Shop (ショップ)</title>
+			<title code="0x08">Battle Space (バトルスペース)</title>
+			<title code="0x09">Daisy (ディージー)</title>
+			<title code="0x0a">Saturn (土星)</title>
+			<title code="0x0b">The Great Red Spot (大赤斑)</title>
+			<title code="0x0c">Big Boss (ビッグボス)</title>
+			<title code="0x0d">Mini Boss (ミッドボス)</title>
+			<title code="0x0e">Inside the Base (基地内部)</title>
+			<title code="0x0f">Requiem (レクイエム)</title>
+			<title code="0x10">Bio Plant (生体プラント)</title>
+			<title code="0x11">Warp Out (ワープアウト)</title>
+			<title code="0x12">Game Over (ゲームオーバー)</title>
+			<title code="0x13">Rigil Kent System (リジル＝ケント星系)</title>
+			<title code="0x14">Nineteen</title>
+			<title code="0x15">June (ジューン)</title>
+			<title code="0x16">Broker (ブローカー)</title>
+			<title code="0x17">The Planet of Old New York (惑星オールドニューヨーク)</title>
+			<title code="0x18">Barnard's Star (バーナード星系)</title>
+			<title code="0x19">Mars (火星)</title>
+			<title code="0x1a">To a Far Away Galaxy (遥かな宇宙へ)</title>
+			<title code="0x1b">Sirius System (シリウス星系)</title>
+			<title code="0x1c">Great Battleship VOID (VOID 大戦艦)</title>
+			<title code="0x1d">G Catapult (G-カタパルト)</title>
+			<title code="0x1e">Hyperspace (ハイパースペース)</title>
+			<title code="0x20">SFX #01 (効果音#01)</title>
+			<title code="0x21">SFX #02 (効果音#02)</title>
+			<title code="0x22">SFX #03 (効果音#03)</title>
+			<title code="0x23">SFX #04 (効果音#04)</title>
+			<title code="0x24">SFX #05 (効果音#05)</title>
+			<title code="0x25">SFX #06 (効果音#06)</title>
+			<title code="0x26">SFX #07 (効果音#07)</title>
+			<title code="0x27">SFX #08 (効果音#08)</title>
+			<title code="0x28">SFX #09 (効果音#09)</title>
+			<title code="0x29">SFX #10 (効果音#10)</title>
+			<title code="0x2a">SFX #11 (効果音#11)</title>
+			<title code="0x2b">SFX #12 (効果音#12)</title>
+			<title code="0x2c">SFX #13 (効果音#13)</title>
+			<title code="0x2d">SFX #14 (効果音#14)</title>
+			<title code="0x2e">SFX #15 (効果音#15)</title>
+			<title code="0x2f">SFX #16 (効果音#16)</title>
+			<title code="0x30">SFX #17 (効果音#17)</title>
+			<title code="0x31">SFX #18 (効果音#18)</title>
+			<title code="0x32">SFX #19 (効果音#19)</title>
+			<title code="0x33">SFX #20 (効果音#20)</title>
+			<title code="0x34">SFX #21 (効果音#21)</title>
+			<title code="0x35">SFX #22 (効果音#22)</title>
+			<title code="0x36">SFX #23 (効果音#23)</title>
+			<title code="0x37">SFX #24 (効果音#24)</title>
+			<title code="0x38">SFX #25 (効果音#25)</title>
+			<title code="0x39">SFX #26 (効果音#26)</title>
+			<title code="0x3a">SFX #27 (効果音#27)</title>
+			<title code="0x3b">SFX #28 (効果音#28)</title>
+			<title code="0x3c">SFX #29 (効果音#29)</title>
+			<title code="0x3d">SFX #30 (効果音#30)</title>
+			<title code="0x3e">SFX #31 (効果音#31)</title>
+			<title code="0x3f">SFX #32 (効果音#32)</title>
+			<title code="0x40">SFX #33 (効果音#33)</title>
+			<title code="0x41">SFX #34 (効果音#34)</title>
+			<title code="0x42">SFX #35 (効果音#35)</title>
+			<title code="0x43">SFX #36 (効果音#36)</title>
+			<title code="0x44">SFX #37 (効果音#37)</title>
+			<title code="0x45">SFX #38 (効果音#38)</title>
+			<title code="0x46">SFX #39 (効果音#39)</title>
+			<title code="0x47">SFX #40 (効果音#40)</title>
+			<title code="0x48">SFX #41 (効果音#41)</title>
+			<title code="0x49">SFX #42 (効果音#42)</title>
+			<title code="0x4a">SFX #43 (効果音#43)</title>
+			<title code="0x4b">SFX #44 (効果音#44)</title>
+			<title code="0x4c">SFX #45 (効果音#45)</title>
+			<title code="0x4d">SFX #46 (効果音#46)</title>
+			<title code="0x4e">SFX #47 (効果音#47)</title>
+			<title code="0x4f">SFX #48 (効果音#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(OPN)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (スタークルーザー2 ザ・オデュッセウス・プロジェクト) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -771,61 +843,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0500">(初期化)</title>
-			<title code="0x0501">アルシスロゴ</title>
-			<title code="0x0502">オープニング</title>
-			<title code="0x0503">スタークルーザー タイトル</title>
-			<title code="0x0504">VOID 戦闘のテーマ</title>
-			<title code="0x0505">ナレーション</title>
-			<title code="0x0506">遥かなる旅立ち</title>
-			<title code="0x0507">PRINCE</title>
-			<title code="0x0508">AREA 1</title>
-			<title code="0x0509">傷心のテーマ</title>
-			<title code="0x050a">出航のテーマ</title>
-			<title code="0x050b">ディオニカ</title>
-			<title code="0x0600">ゲームオーバー</title>
-			<title code="0x0601">艦隊ワープ</title>
-			<title code="0x0602">BASE</title>
-			<title code="0x0603">不安な情景その1</title>
-			<title code="0x0604">SNOW LAND</title>
+			<title code="0x0500">Initialization (初期化)</title>
+			<title code="0x0501">Arsys Logo (アルシスロゴ)</title>
+			<title code="0x0502">Opening (オープニング)</title>
+			<title code="0x0503">Star Cruiser Title (スタークルーザー タイトル)</title>
+			<title code="0x0504">Battleship VOID Theme (VOID 戦闘のテーマ)</title>
+			<title code="0x0505">Narration (ナレーション)</title>
+			<title code="0x0506">Departing on a Journey Far Away (遥かなる旅立ち)</title>
+			<title code="0x0507">Prince</title>
+			<title code="0x0508">Area 1</title>
+			<title code="0x0509">Theme of a Broken Heart (傷心のテーマ)</title>
+			<title code="0x050a">Departure Theme (出航のテーマ)</title>
+			<title code="0x050b">Dyonica (ディオニカ)</title>
+			<title code="0x0600">Game Over (ゲームオーバー)</title>
+			<title code="0x0601">Fleet Warp (艦隊ワープ)</title>
+			<title code="0x0602">Base</title>
+			<title code="0x0603">A Suspenseful Scene Part 1 (不安な情景その1)</title>
+			<title code="0x0604">Snow Land</title>
 			<title code="0x0605">I Cannot Trust Any of Them</title>
 			<title code="0x0606">Space Flight</title>
-			<title code="0x0607">UNI</title>
-			<title code="0x0608">地上戦のテーマその1</title>
-			<title code="0x0609">士気高揚</title>
-			<title code="0x060a">地上戦のテーマその2</title>
+			<title code="0x0607">Uni</title>
+			<title code="0x0608">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x0609">Morale Boost (士気高揚)</title>
+			<title code="0x060a">Ground Battle Theme Part 2 (地上戦のテーマその2)</title>
 			<title code="0x060b">White Comet</title>
 			<title code="0x060c">Bar</title>
-			<title code="0x060d">不安な情景その2</title>
-			<title code="0x060e">艦内効果音</title>
-			<title code="0x060f">SHOP1</title>
-			<title code="0x0610">SHOP2</title>
-			<title code="0x0611">ENERGY SHOP</title>
+			<title code="0x060d">A Suspenseful Scene Part 2 (不安な情景その2)</title>
+			<title code="0x060e">Sounds Inside the Ship (艦内効果音)</title>
+			<title code="0x060f">Shop1</title>
+			<title code="0x0610">Shop2</title>
+			<title code="0x0611">Energy Shop</title>
 			<title code="0x0612">Dangerous Zone</title>
 			<title code="0x0613">Shocking</title>
-			<title code="0x0614">緊迫</title>
-			<title code="0x0615">G-Catapult</title>
-			<title code="0x0616">水中生物</title>
-			<title code="0x0617">リタナー艦隊</title>
-			<title code="0x0618">地上戦のテーマその1</title>
-			<title code="0x0619">CORE</title>
+			<title code="0x0614">Tension (緊迫)</title>
+			<title code="0x0615">G-Catapult (G-カタパルト)</title>
+			<title code="0x0616">Aquatic Life (水中生物)</title>
+			<title code="0x0617">Returner Fleet (リタナー艦隊)</title>
+			<title code="0x0618">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x0619">Core</title>
 			<title code="0x0700">Woody Planet</title>
 			<title code="0x0701">Alien's Bar</title>
-			<title code="0x0702">人工都市惑星</title>
+			<title code="0x0702">Artificial Urban Planet (人工都市惑星)</title>
 			<title code="0x0703">The Center of Galaxy</title>
-			<title code="0x0704">神殿</title>
-			<title code="0x0705">AREA 2</title>
+			<title code="0x0704">Temple (神殿)</title>
+			<title code="0x0705">Area 2</title>
 			<title code="0x0706">Juke Box</title>
-			<title code="0x0707">エンディングのテーマ (Shine on)</title>
-			<title code="0x0708">爆発音</title>
-			<title code="0x0709">プリ ノヴァ</title>
-			<title code="0x070a">ディオニカ</title>
+			<title code="0x0707">Ending Theme (Shine On) (エンディングのテーマ (Shine on))</title>
+			<title code="0x0708">Explosion (爆発音)</title>
+			<title code="0x0709">Pre-Nova (プリ ノヴァ)</title>
+			<title code="0x070a">Dyonica (ディオニカ)</title>
 			<title code="0x070b">Powerful Blade</title>
 			<title code="0x070c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(MT-32)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (スタークルーザー2 ザ・オデュッセウス・プロジェクト) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -843,61 +915,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2500">(初期化)</title>
-			<title code="0x2501">アルシスロゴ</title>
-			<title code="0x2502">オープニング</title>
-			<title code="0x2503">スタークルーザー タイトル</title>
-			<title code="0x2504">VOID 戦闘のテーマ</title>
-			<title code="0x2505">ナレーション</title>
-			<title code="0x2506">遥かなる旅立ち</title>
-			<title code="0x2507">PRINCE</title>
-			<title code="0x2508">AREA 1</title>
-			<title code="0x2509">傷心のテーマ</title>
-			<title code="0x250a">出航のテーマ</title>
-			<title code="0x250b">ディオニカ</title>
-			<title code="0x2600">ゲームオーバー</title>
-			<title code="0x2601">艦隊ワープ</title>
-			<title code="0x2602">BASE</title>
-			<title code="0x2603">不安な情景その1</title>
-			<title code="0x2604">SNOW LAND</title>
+			<title code="0x2500">Initialization (初期化)</title>
+			<title code="0x2501">Arsys Logo (アルシスロゴ)</title>
+			<title code="0x2502">Opening (オープニング)</title>
+			<title code="0x2503">Star Cruiser Title (スタークルーザー タイトル)</title>
+			<title code="0x2504">Battleship VOID Theme (VOID 戦闘のテーマ)</title>
+			<title code="0x2505">Narration (ナレーション)</title>
+			<title code="0x2506">Departing on a Journey Far Away (遥かなる旅立ち)</title>
+			<title code="0x2507">Prince</title>
+			<title code="0x2508">Area 1</title>
+			<title code="0x2509">Theme of a Broken Heart (傷心のテーマ)</title>
+			<title code="0x250a">Departure Theme (出航のテーマ)</title>
+			<title code="0x250b">Dyonica (ディオニカ)</title>
+			<title code="0x2600">Game Over (ゲームオーバー)</title>
+			<title code="0x2601">Fleet Warp (艦隊ワープ)</title>
+			<title code="0x2602">Base</title>
+			<title code="0x2603">A Suspenseful Scene Part 1 (不安な情景その1)</title>
+			<title code="0x2604">Snow Land</title>
 			<title code="0x2605">I Cannot Trust Any of Them</title>
 			<title code="0x2606">Space Flight</title>
-			<title code="0x2607">UNI</title>
-			<title code="0x2608">地上戦のテーマその1</title>
-			<title code="0x2609">士気高揚</title>
-			<title code="0x260a">地上戦のテーマその2</title>
+			<title code="0x2607">Uni</title>
+			<title code="0x2608">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x2609">Morale Boost (士気高揚)</title>
+			<title code="0x260a">Ground Battle Theme Part 2 (地上戦のテーマその2)</title>
 			<title code="0x260b">White Comet</title>
 			<title code="0x260c">Bar</title>
-			<title code="0x260d">不安な情景その2</title>
-			<title code="0x260e">艦内効果音</title>
-			<title code="0x260f">SHOP1</title>
-			<title code="0x2610">SHOP2</title>
-			<title code="0x2611">ENERGY SHOP</title>
+			<title code="0x260d">A Suspenseful Scene Part 2 (不安な情景その2)</title>
+			<title code="0x260e">Sounds Inside the Ship (艦内効果音)</title>
+			<title code="0x260f">Shop1</title>
+			<title code="0x2610">Shop2</title>
+			<title code="0x2611">Energy Shop</title>
 			<title code="0x2612">Dangerous Zone</title>
 			<title code="0x2613">Shocking</title>
-			<title code="0x2614">緊迫</title>
-			<title code="0x2615">G-Catapult</title>
-			<title code="0x2616">水中生物</title>
-			<title code="0x2617">リタナー艦隊</title>
-			<title code="0x2618">地上戦のテーマその1</title>
-			<title code="0x2619">CORE</title>
+			<title code="0x2614">Tension (緊迫)</title>
+			<title code="0x2615">G-Catapult (G-カタパルト)</title>
+			<title code="0x2616">Aquatic Life (水中生物)</title>
+			<title code="0x2617">Returner Fleet (リタナー艦隊)</title>
+			<title code="0x2618">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x2619">Core</title>
 			<title code="0x2700">Woody Planet</title>
 			<title code="0x2701">Alien's Bar</title>
-			<title code="0x2702">人工都市惑星</title>
+			<title code="0x2702">Artificial Urban Planet (人工都市惑星)</title>
 			<title code="0x2703">The Center of Galaxy</title>
-			<title code="0x2704">神殿</title>
-			<title code="0x2705">AREA 2</title>
+			<title code="0x2704">Temple (神殿)</title>
+			<title code="0x2705">Area 2</title>
 			<title code="0x2706">Juke Box</title>
-			<title code="0x2707">エンディングのテーマ (Shine on)</title>
-			<title code="0x2708">爆発音</title>
-			<title code="0x2709">プリ ノヴァ</title>
-			<title code="0x270a">ディオニカ</title>
+			<title code="0x2707">Ending Theme (Shine On) (エンディングのテーマ (Shine on))</title>
+			<title code="0x2708">Explosion (爆発音)</title>
+			<title code="0x2709">Pre-Nova (プリ ノヴァ)</title>
+			<title code="0x270a">Dyonica (ディオニカ)</title>
 			<title code="0x270b">Powerful Blade</title>
 			<title code="0x270c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(MT-32 Emulation)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (スタークルーザー2 ザ・オデュッセウス・プロジェクト) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -915,61 +987,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2500">(初期化)</title>
-			<title code="0x2501">アルシスロゴ</title>
-			<title code="0x2502">オープニング</title>
-			<title code="0x2503">スタークルーザー タイトル</title>
-			<title code="0x2504">VOID 戦闘のテーマ</title>
-			<title code="0x2505">ナレーション</title>
-			<title code="0x2506">遥かなる旅立ち</title>
-			<title code="0x2507">PRINCE</title>
-			<title code="0x2508">AREA 1</title>
-			<title code="0x2509">傷心のテーマ</title>
-			<title code="0x250a">出航のテーマ</title>
-			<title code="0x250b">ディオニカ</title>
-			<title code="0x2600">ゲームオーバー</title>
-			<title code="0x2601">艦隊ワープ</title>
-			<title code="0x2602">BASE</title>
-			<title code="0x2603">不安な情景その1</title>
-			<title code="0x2604">SNOW LAND</title>
+			<title code="0x2500">Initialization (初期化)</title>
+			<title code="0x2501">Arsys Logo (アルシスロゴ)</title>
+			<title code="0x2502">Opening (オープニング)</title>
+			<title code="0x2503">Star Cruiser Title (スタークルーザー タイトル)</title>
+			<title code="0x2504">Battleship VOID Theme (VOID 戦闘のテーマ)</title>
+			<title code="0x2505">Narration (ナレーション)</title>
+			<title code="0x2506">Departing on a Journey Far Away (遥かなる旅立ち)</title>
+			<title code="0x2507">Prince</title>
+			<title code="0x2508">Area 1</title>
+			<title code="0x2509">Theme of a Broken Heart (傷心のテーマ)</title>
+			<title code="0x250a">Departure Theme (出航のテーマ)</title>
+			<title code="0x250b">Dyonica (ディオニカ)</title>
+			<title code="0x2600">Game Over (ゲームオーバー)</title>
+			<title code="0x2601">Fleet Warp (艦隊ワープ)</title>
+			<title code="0x2602">Base</title>
+			<title code="0x2603">A Suspenseful Scene Part 1 (不安な情景その1)</title>
+			<title code="0x2604">Snow Land</title>
 			<title code="0x2605">I Cannot Trust Any of Them</title>
 			<title code="0x2606">Space Flight</title>
-			<title code="0x2607">UNI</title>
-			<title code="0x2608">地上戦のテーマその1</title>
-			<title code="0x2609">士気高揚</title>
-			<title code="0x260a">地上戦のテーマその2</title>
+			<title code="0x2607">Uni</title>
+			<title code="0x2608">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x2609">Morale Boost (士気高揚)</title>
+			<title code="0x260a">Ground Battle Theme Part 2 (地上戦のテーマその2)</title>
 			<title code="0x260b">White Comet</title>
 			<title code="0x260c">Bar</title>
-			<title code="0x260d">不安な情景その2</title>
-			<title code="0x260e">艦内効果音</title>
-			<title code="0x260f">SHOP1</title>
-			<title code="0x2610">SHOP2</title>
-			<title code="0x2611">ENERGY SHOP</title>
+			<title code="0x260d">A Suspenseful Scene Part 2 (不安な情景その2)</title>
+			<title code="0x260e">Sounds Inside the Ship (艦内効果音)</title>
+			<title code="0x260f">Shop1</title>
+			<title code="0x2610">Shop2</title>
+			<title code="0x2611">Energy Shop</title>
 			<title code="0x2612">Dangerous Zone</title>
 			<title code="0x2613">Shocking</title>
-			<title code="0x2614">緊迫</title>
-			<title code="0x2615">G-Catapult</title>
-			<title code="0x2616">水中生物</title>
-			<title code="0x2617">リタナー艦隊</title>
-			<title code="0x2618">地上戦のテーマその1</title>
-			<title code="0x2619">CORE</title>
+			<title code="0x2614">Tension (緊迫)</title>
+			<title code="0x2615">G-Catapult (G-カタパルト)</title>
+			<title code="0x2616">Aquatic Life (水中生物)</title>
+			<title code="0x2617">Returner Fleet (リタナー艦隊)</title>
+			<title code="0x2618">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x2619">Core</title>
 			<title code="0x2700">Woody Planet</title>
 			<title code="0x2701">Alien's Bar</title>
-			<title code="0x2702">人工都市惑星</title>
+			<title code="0x2702">Artificial Urban Planet (人工都市惑星)</title>
 			<title code="0x2703">The Center of Galaxy</title>
-			<title code="0x2704">神殿</title>
-			<title code="0x2705">AREA 2</title>
+			<title code="0x2704">Temple (神殿)</title>
+			<title code="0x2705">Area 2</title>
 			<title code="0x2706">Juke Box</title>
-			<title code="0x2707">エンディングのテーマ (Shine on)</title>
-			<title code="0x2708">爆発音</title>
-			<title code="0x2709">プリ ノヴァ</title>
-			<title code="0x270a">ディオニカ</title>
+			<title code="0x2707">Ending Theme (Shine On) (エンディングのテーマ (Shine on))</title>
+			<title code="0x2708">Explosion (爆発音)</title>
+			<title code="0x2709">Pre-Nova (プリ ノヴァ)</title>
+			<title code="0x270a">Dyonica (ディオニカ)</title>
 			<title code="0x270b">Powerful Blade</title>
 			<title code="0x270c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] STAR CRUISER II - The Odysseus project -(SC-55)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (スタークルーザー2 ザ・オデュッセウス・プロジェクト) (SC-55)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -987,61 +1059,133 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1500">(初期化)</title>
-			<title code="0x1501">アルシスロゴ</title>
-			<title code="0x1502">オープニング</title>
-			<title code="0x1503">スタークルーザー タイトル</title>
-			<title code="0x1504">VOID 戦闘のテーマ</title>
-			<title code="0x1505">ナレーション</title>
-			<title code="0x1506">遥かなる旅立ち</title>
-			<title code="0x1507">PRINCE</title>
-			<title code="0x1508">AREA 1</title>
-			<title code="0x1509">傷心のテーマ</title>
-			<title code="0x150a">出航のテーマ</title>
-			<title code="0x150b">ディオニカ</title>
-			<title code="0x1600">ゲームオーバー</title>
-			<title code="0x1601">艦隊ワープ</title>
-			<title code="0x1602">BASE</title>
-			<title code="0x1603">不安な情景その1</title>
-			<title code="0x1604">SNOW LAND</title>
+			<title code="0x1500">Initialization (初期化)</title>
+			<title code="0x1501">Arsys Logo (アルシスロゴ)</title>
+			<title code="0x1502">Opening (オープニング)</title>
+			<title code="0x1503">Star Cruiser Title (スタークルーザー タイトル)</title>
+			<title code="0x1504">Battleship VOID Theme (VOID 戦闘のテーマ)</title>
+			<title code="0x1505">Narration (ナレーション)</title>
+			<title code="0x1506">Departing on a Journey Far Away (遥かなる旅立ち)</title>
+			<title code="0x1507">Prince</title>
+			<title code="0x1508">Area 1</title>
+			<title code="0x1509">Theme of a Broken Heart (傷心のテーマ)</title>
+			<title code="0x150a">Departure Theme (出航のテーマ)</title>
+			<title code="0x150b">Dyonica (ディオニカ)</title>
+			<title code="0x1600">Game Over (ゲームオーバー)</title>
+			<title code="0x1601">Fleet Warp (艦隊ワープ)</title>
+			<title code="0x1602">Base</title>
+			<title code="0x1603">A Suspenseful Scene Part 1 (不安な情景その1)</title>
+			<title code="0x1604">Snow Land</title>
 			<title code="0x1605">I Cannot Trust Any of Them</title>
 			<title code="0x1606">Space Flight</title>
-			<title code="0x1607">UNI</title>
-			<title code="0x1608">地上戦のテーマその1</title>
-			<title code="0x1609">士気高揚</title>
-			<title code="0x160a">地上戦のテーマその2</title>
+			<title code="0x1607">Uni</title>
+			<title code="0x1608">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x1609">Morale Boost (士気高揚)</title>
+			<title code="0x160a">Ground Battle Theme Part 2 (地上戦のテーマその2)</title>
 			<title code="0x160b">White Comet</title>
 			<title code="0x160c">Bar</title>
-			<title code="0x160d">不安な情景その2</title>
-			<title code="0x160e">艦内効果音</title>
-			<title code="0x160f">SHOP1</title>
-			<title code="0x1610">SHOP2</title>
-			<title code="0x1611">ENERGY SHOP</title>
+			<title code="0x160d">A Suspenseful Scene Part 2 (不安な情景その2)</title>
+			<title code="0x160e">Sounds Inside the Ship (艦内効果音)</title>
+			<title code="0x160f">Shop1</title>
+			<title code="0x1610">Shop2</title>
+			<title code="0x1611">Energy Shop</title>
 			<title code="0x1612">Dangerous Zone</title>
 			<title code="0x1613">Shocking</title>
-			<title code="0x1614">緊迫</title>
-			<title code="0x1615">G-Catapult</title>
-			<title code="0x1616">水中生物</title>
-			<title code="0x1617">リタナー艦隊</title>
-			<title code="0x1618">地上戦のテーマその1</title>
-			<title code="0x1619">CORE</title>
+			<title code="0x1614">Tension (緊迫)</title>
+			<title code="0x1615">G-Catapult (G-カタパルト)</title>
+			<title code="0x1616">Aquatic Life (水中生物)</title>
+			<title code="0x1617">Returner Fleet (リタナー艦隊)</title>
+			<title code="0x1618">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x1619">Core</title>
 			<title code="0x1700">Woody Planet</title>
 			<title code="0x1701">Alien's Bar</title>
-			<title code="0x1702">人工都市惑星</title>
+			<title code="0x1702">Artificial Urban Planet (人工都市惑星)</title>
 			<title code="0x1703">The Center of Galaxy</title>
-			<title code="0x1704">神殿</title>
-			<title code="0x1705">AREA 2</title>
+			<title code="0x1704">Temple (神殿)</title>
+			<title code="0x1705">Area 2</title>
 			<title code="0x1706">Juke Box</title>
-			<title code="0x1707">エンディングのテーマ (Shine on)</title>
-			<title code="0x1708">爆発音</title>
-			<title code="0x1709">プリ ノヴァ</title>
-			<title code="0x170a">ディオニカ</title>
+			<title code="0x1707">Ending Theme (Shine On) (エンディングのテーマ (Shine on))</title>
+			<title code="0x1708">Explosion (爆発音)</title>
+			<title code="0x1709">Pre-Nova (プリ ノヴァ)</title>
+			<title code="0x170a">Dyonica (ディオニカ)</title>
 			<title code="0x170b">Powerful Blade</title>
 			<title code="0x170c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] WiBARM (YM2149)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (スタークルーザー2 ザ・オデュッセウス・プロジェクト) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Arsys Software</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="sc2_98">
+			<rom type="file" offset="-1">sc2_98.com</rom>
+			<rom type="file" offset="-1">NMD.COM</rom>
+			<rom type="file" offset="5" >MUSICS1.ARC</rom>
+			<rom type="file" offset="6" >MUSICS2.ARC</rom>
+			<rom type="file" offset="7" >MUSICS3.ARC</rom>
+			<rom type="shell" offset="0">nmd</rom>
+			<rom type="shell" offset="0">sc2_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1500">Initialization (初期化)</title>
+			<title code="0x1501">Arsys Logo (アルシスロゴ)</title>
+			<title code="0x1502">Opening (オープニング)</title>
+			<title code="0x1503">Star Cruiser Title (スタークルーザー タイトル)</title>
+			<title code="0x1504">Battleship VOID Theme (VOID 戦闘のテーマ)</title>
+			<title code="0x1505">Narration (ナレーション)</title>
+			<title code="0x1506">Departing on a Journey Far Away (遥かなる旅立ち)</title>
+			<title code="0x1507">Prince</title>
+			<title code="0x1508">Area 1</title>
+			<title code="0x1509">Theme of a Broken Heart (傷心のテーマ)</title>
+			<title code="0x150a">Departure Theme (出航のテーマ)</title>
+			<title code="0x150b">Dyonica (ディオニカ)</title>
+			<title code="0x1600">Game Over (ゲームオーバー)</title>
+			<title code="0x1601">Fleet Warp (艦隊ワープ)</title>
+			<title code="0x1602">Base</title>
+			<title code="0x1603">A Suspenseful Scene Part 1 (不安な情景その1)</title>
+			<title code="0x1604">Snow Land</title>
+			<title code="0x1605">I Cannot Trust Any of Them</title>
+			<title code="0x1606">Space Flight</title>
+			<title code="0x1607">Uni</title>
+			<title code="0x1608">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x1609">Morale Boost (士気高揚)</title>
+			<title code="0x160a">Ground Battle Theme Part 2 (地上戦のテーマその2)</title>
+			<title code="0x160b">White Comet</title>
+			<title code="0x160c">Bar</title>
+			<title code="0x160d">A Suspenseful Scene Part 2 (不安な情景その2)</title>
+			<title code="0x160e">Sounds Inside the Ship (艦内効果音)</title>
+			<title code="0x160f">Shop1</title>
+			<title code="0x1610">Shop2</title>
+			<title code="0x1611">Energy Shop</title>
+			<title code="0x1612">Dangerous Zone</title>
+			<title code="0x1613">Shocking</title>
+			<title code="0x1614">Tension (緊迫)</title>
+			<title code="0x1615">G-Catapult (G-カタパルト)</title>
+			<title code="0x1616">Aquatic Life (水中生物)</title>
+			<title code="0x1617">Returner Fleet (リタナー艦隊)</title>
+			<title code="0x1618">Ground Battle Theme Part 1 (地上戦のテーマその1)</title>
+			<title code="0x1619">Core</title>
+			<title code="0x1700">Woody Planet</title>
+			<title code="0x1701">Alien's Bar</title>
+			<title code="0x1702">Artificial Urban Planet (人工都市惑星)</title>
+			<title code="0x1703">The Center of Galaxy</title>
+			<title code="0x1704">Temple (神殿)</title>
+			<title code="0x1705">Area 2</title>
+			<title code="0x1706">Juke Box</title>
+			<title code="0x1707">Ending Theme (Shine On) (エンディングのテーマ (Shine on))</title>
+			<title code="0x1708">Explosion (爆発音)</title>
+			<title code="0x1709">Pre-Nova (プリ ノヴァ)</title>
+			<title code="0x170a">Dyonica (ディオニカ)</title>
+			<title code="0x170b">Powerful Blade</title>
+			<title code="0x170c">Bio Punc</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] WiBARM (ウイバーン) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1056,16 +1200,16 @@
 			<rom type="bgm" offset="0x03">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">MUS01 : 基地</title>
-			<title code="0x00000002">MUS02 : 地上</title>
-			<title code="0x01000002">MUS02 : 戦闘</title>
-			<title code="0x00000000">MUS00 : 3D迷路(建物内)</title>
-		<!--	<title code="0x01000000">MUS00 : 戦闘</title> -->
-			<title code="0xff000003">MUS03 : エンディング</title>
+			<title code="0x00000001">Base (基地)</title>
+			<title code="0x00000002">Land (地上)</title>
+			<title code="0x01000002">Battle (戦闘)</title>
+			<title code="0x00000000">3D Maze (Interior) (3D迷路(建物内))</title>
+		<!--	<title code="0x01000000">Battle (戦闘)</title> -->
+			<title code="0xff000003">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Reviver(OPM)</name>
+		<name>[X1] Reviver (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1099,28 +1243,28 @@
 			<rom type="bgm" offset="0x15">MUS22F</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x15">MUS22F : ARSYS LOGO</title>
-			<title code="0x00">MUS01F : 酒場1</title>
-			<title code="0x01">MUS02F : 酒場2</title>
-			<title code="0x02">MUS03F : 洞窟</title>
-			<title code="0x03">MUS04F : 城</title>
-			<title code="0x04">MUS05F : 天界・ハリイザード</title>
-			<title code="0x05">MUS06F : 邪神界・ザリオザード</title>
-			<title code="0x06">MUS07F : 魔導師タンダライド</title>
-			<title code="0x07">MUS08F : サダリアーン登場</title>
-			<title code="0x08">MUS09F : 戦闘</title>
-			<title code="0x09">MUS10F : 魔物との遭遇</title>
-			<title code="0x0a">MUS11F : 重要アイテム入手 他</title>
-			<title code="0x0b">MUS12F : クリスタルロッド</title>
-			<title code="0x0c">MUS13F : 剣士コートの死</title>
-			<title code="0x0d">MUS14F : トラップ</title>
-			<title code="0x0e">MUS15F : ラビスターク</title>
-			<title code="0x0f">MUS16F : サダリアーンとの戦い</title>
-			<title code="0x10">MUS17F : オープニング</title>
-			<title code="0x11">MUS18F : サダリアーンの最期</title>
-			<title code="0x12">MUS19F : 女剣士アルマとの出会い</title>
-			<title code="0x13">MUS20F : エンディング</title>
-			<title code="0x14">MUS21F : 死</title>
+			<title code="0x15">Arsys Logo</title>
+			<title code="0x00">Bar 1 (酒場1)</title>
+			<title code="0x01">Bar 2 (酒場2)</title>
+			<title code="0x02">Cave (洞窟)</title>
+			<title code="0x03">Castle (城)</title>
+			<title code="0x04">Heaven: Hallizard (天界・ハリイザード)</title>
+			<title code="0x05">Hell: Zaliozard (邪神界・ザリオザード)</title>
+			<title code="0x06">Tandalyde the Sorceror (魔導師タンダライド)</title>
+			<title code="0x07">Sadarian Appears (サダリアーン登場)</title>
+			<title code="0x08">Battle (戦闘)</title>
+			<title code="0x09">Monster Encounter (魔物との遭遇)</title>
+			<title code="0x0a">Get a Special Item, Etc. (重要アイテム入手 他)</title>
+			<title code="0x0b">The Crystal Rod (クリスタルロッド)</title>
+			<title code="0x0c">Death of Cote the Swordsman (剣士コートの死)</title>
+			<title code="0x0d">Trap (トラップ)</title>
+			<title code="0x0e">Ravistark (ラビスターク)</title>
+			<title code="0x0f">Battle with Sadarian (サダリアーンとの戦い)</title>
+			<title code="0x10">Opening (オープニング)</title>
+			<title code="0x11">Sadarian's End (サダリアーンの最期)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (女剣士アルマとの出会い)</title>
+			<title code="0x13">Ending (エンディング)</title>
+			<title code="0x14">Death (死)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1157,31 +1301,31 @@
 			<rom type="bgm" offset="0x14">MUS21P</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MUS01P : 酒場1</title>
-			<title code="0x01">MUS02P : 酒場2</title>
-			<title code="0x02">MUS03P : 洞窟</title>
-			<title code="0x03">MUS04P : 城</title>
-			<title code="0x04">MUS05P : 天界・ハリイザード</title>
-			<title code="0x05">MUS06P : 邪神界・ザリオザード</title>
-			<title code="0x06">MUS07P : 魔導師タンダライド</title>
-			<title code="0x07">MUS08P : サダリアーン登場</title>
-			<title code="0x08">MUS09P : 戦闘</title>
-			<title code="0x09">MUS10P : 魔物との遭遇</title>
-			<title code="0x0a">MUS11P : 重要アイテム入手 他</title>
-			<title code="0x0b">MUS12P : クリスタルロッド</title>
-			<title code="0x0c">MUS13P : 剣士コートの死</title>
-			<title code="0x0d">MUS14P : トラップ</title>
-			<title code="0x0e">MUS15P : ラビスターク</title>
-			<title code="0x0f">MUS16P : サダリアーンとの戦い</title>
-			<title code="0x10">MUS17P : オープニング</title>
-			<title code="0x11">MUS18P : サダリアーンの最期</title>
-			<title code="0x12">MUS19P : 女剣士アルマとの出会い</title>
-			<title code="0x13">MUS20P : エンディング</title>
-			<title code="0x14">MUS21P : 死</title>
+			<title code="0x00">Bar 1 (酒場1)</title>
+			<title code="0x01">Bar 2 (酒場2)</title>
+			<title code="0x02">Cave (洞窟)</title>
+			<title code="0x03">Castle (城)</title>
+			<title code="0x04">Heaven: Hallizard (天界・ハリイザード)</title>
+			<title code="0x05">Hell: Zaliozard (邪神界・ザリオザード)</title>
+			<title code="0x06">Tandalyde the Sorceror (魔導師タンダライド)</title>
+			<title code="0x07">Sadarian Appears (サダリアーン登場)</title>
+			<title code="0x08">Battle (戦闘)</title>
+			<title code="0x09">Monster Encounter (魔物との遭遇)</title>
+			<title code="0x0a">Get a Special Item, Etc. (重要アイテム入手 他)</title>
+			<title code="0x0b">The Crystal Rod (クリスタルロッド)</title>
+			<title code="0x0c">Death of Cote the Swordsman (剣士コートの死)</title>
+			<title code="0x0d">Trap (トラップ)</title>
+			<title code="0x0e">Ravistark (ラビスターク)</title>
+			<title code="0x0f">Battle with Sadarian (サダリアーンとの戦い)</title>
+			<title code="0x10">Opening (オープニング)</title>
+			<title code="0x11">Sadarian's End (サダリアーンの最期)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (女剣士アルマとの出会い)</title>
+			<title code="0x13">Ending (エンディング)</title>
+			<title code="0x14">Death (死)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] STAR CRUISER(OPM)</name>
+		<name>[X1] Star Cruiser (スタークルーザー) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1224,88 +1368,88 @@
 			<rom type="bgm" offset="0x1d">MUS30F</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">スペースフライト</title>
-			<title code="0x01">スペースファイト</title>
-			<title code="0x02">デザートゾーン</title>
-			<title code="0x03">スタークルーザー</title>
-			<title code="0x04">レッドゾーン</title>
-			<title code="0x05">スペースボート</title>
-			<title code="0x06">ショップ</title>
-			<title code="0x07">バトルスペース</title>
-			<title code="0x08">ディージー</title>
-			<title code="0x09">土星</title>
-			<title code="0x0a">大赤斑</title>
-			<title code="0x0b">ビッグボス</title>
-			<title code="0x0c">ミッドボス</title>
-			<title code="0x0d">基地内部</title>
-			<title code="0x0e">レクイエム</title>
-			<title code="0x0f">生体プラント</title>
-			<title code="0x10">ワープアウト</title>
-			<title code="0x11">ゲームオーバー</title>
-			<title code="0x12">リジル＝ケント星系</title>
-			<title code="0x13">NINETEEN</title>
-			<title code="0x14">ジューン</title>
-			<title code="0x15">ブローカー</title>
-			<title code="0x16">惑星オールドニューヨーク</title>
-			<title code="0x17">バーナード星系</title>
-			<title code="0x18">火星</title>
-			<title code="0x19">遥かな宇宙へ</title>
-			<title code="0x1a">シリウス星系</title>
-			<title code="0x1b">VOID 大戦艦</title>
-			<title code="0x1c">G-カタパルト</title>
-			<title code="0x1d">ハイパースペース</title>
-			<title code="0x20">効果音#01</title>
-			<title code="0x21">効果音#02</title>
-			<title code="0x22">効果音#03</title>
-			<title code="0x23">効果音#04</title>
-			<title code="0x24">効果音#05</title>
-			<title code="0x25">効果音#06</title>
-			<title code="0x26">効果音#07</title>
-			<title code="0x27">効果音#08</title>
-			<title code="0x28">効果音#09</title>
-			<title code="0x29">効果音#10</title>
-			<title code="0x2a">効果音#11</title>
-			<title code="0x2b">効果音#12</title>
-			<title code="0x2c">効果音#13</title>
-			<title code="0x2d">効果音#14</title>
-			<title code="0x2e">効果音#15</title>
-			<title code="0x2f">効果音#16</title>
-			<title code="0x30">効果音#17</title>
-			<title code="0x31">効果音#18</title>
-			<title code="0x32">効果音#19</title>
-			<title code="0x33">効果音#20</title>
-			<title code="0x34">効果音#21</title>
-			<title code="0x35">効果音#22</title>
-			<title code="0x36">効果音#23</title>
-			<title code="0x37">効果音#24</title>
-			<title code="0x38">効果音#25</title>
-			<title code="0x39">効果音#26</title>
-			<title code="0x3a">効果音#27</title>
-			<title code="0x3b">効果音#28</title>
-			<title code="0x3c">効果音#29</title>
-			<title code="0x3d">効果音#30</title>
-			<title code="0x3e">効果音#31</title>
-			<title code="0x3f">効果音#32</title>
-			<title code="0x40">効果音#33</title>
-			<title code="0x41">効果音#34</title>
-			<title code="0x42">効果音#35</title>
-			<title code="0x43">効果音#36</title>
-			<title code="0x44">効果音#37</title>
-			<title code="0x45">効果音#38</title>
-			<title code="0x46">効果音#39</title>
-			<title code="0x47">効果音#40</title>
-			<title code="0x48">効果音#41</title>
-			<title code="0x49">効果音#42</title>
-			<title code="0x4a">効果音#43</title>
-			<title code="0x4b">効果音#44</title>
-			<title code="0x4c">効果音#45</title>
-			<title code="0x4d">効果音#46</title>
-			<title code="0x4e">効果音#47</title>
-			<title code="0x4f">効果音#48</title>
+			<title code="0x00">Space Flight (スペースフライト)</title>
+			<title code="0x01">Space Fight (スペースファイト)</title>
+			<title code="0x02">Desert Zone (デザートゾーン)</title>
+			<title code="0x03">Star Cruiser (スタークルーザー)</title>
+			<title code="0x04">Red Zone (レッドゾーン)</title>
+			<title code="0x05">Space Boat (スペースボート)</title>
+			<title code="0x06">Shop (ショップ)</title>
+			<title code="0x07">Battle Space (バトルスペース)</title>
+			<title code="0x08">Daisy (ディージー)</title>
+			<title code="0x09">Saturn (土星)</title>
+			<title code="0x0a">The Great Red Spot (大赤斑)</title>
+			<title code="0x0b">Big Boss (ビッグボス)</title>
+			<title code="0x0c">Mini Boss (ミッドボス)</title>
+			<title code="0x0d">Inside the Base (基地内部)</title>
+			<title code="0x0e">Requiem (レクイエム)</title>
+			<title code="0x0f">Bio Plant (生体プラント)</title>
+			<title code="0x10">Warp Out (ワープアウト)</title>
+			<title code="0x11">Game Over (ゲームオーバー)</title>
+			<title code="0x12">Rigil Kent System (リジル＝ケント星系)</title>
+			<title code="0x13">Nineteen</title>
+			<title code="0x14">June (ジューン)</title>
+			<title code="0x15">Broker (ブローカー)</title>
+			<title code="0x16">The Planet of Old New York (惑星オールドニューヨーク)</title>
+			<title code="0x17">Barnard's Star (バーナード星系)</title>
+			<title code="0x18">Mars (火星)</title>
+			<title code="0x19">To a Far Away Galaxy (遥かな宇宙へ)</title>
+			<title code="0x1a">Sirius System (シリウス星系)</title>
+			<title code="0x1b">Great Battleship VOID (VOID 大戦艦)</title>
+			<title code="0x1c">G Catapult (G-カタパルト)</title>
+			<title code="0x1d">Hyperspace (ハイパースペース)</title>
+			<title code="0x20">SFX #01 (効果音#01)</title>
+			<title code="0x21">SFX #02 (効果音#02)</title>
+			<title code="0x22">SFX #03 (効果音#03)</title>
+			<title code="0x23">SFX #04 (効果音#04)</title>
+			<title code="0x24">SFX #05 (効果音#05)</title>
+			<title code="0x25">SFX #06 (効果音#06)</title>
+			<title code="0x26">SFX #07 (効果音#07)</title>
+			<title code="0x27">SFX #08 (効果音#08)</title>
+			<title code="0x28">SFX #09 (効果音#09)</title>
+			<title code="0x29">SFX #10 (効果音#10)</title>
+			<title code="0x2a">SFX #11 (効果音#11)</title>
+			<title code="0x2b">SFX #12 (効果音#12)</title>
+			<title code="0x2c">SFX #13 (効果音#13)</title>
+			<title code="0x2d">SFX #14 (効果音#14)</title>
+			<title code="0x2e">SFX #15 (効果音#15)</title>
+			<title code="0x2f">SFX #16 (効果音#16)</title>
+			<title code="0x30">SFX #17 (効果音#17)</title>
+			<title code="0x31">SFX #18 (効果音#18)</title>
+			<title code="0x32">SFX #19 (効果音#19)</title>
+			<title code="0x33">SFX #20 (効果音#20)</title>
+			<title code="0x34">SFX #21 (効果音#21)</title>
+			<title code="0x35">SFX #22 (効果音#22)</title>
+			<title code="0x36">SFX #23 (効果音#23)</title>
+			<title code="0x37">SFX #24 (効果音#24)</title>
+			<title code="0x38">SFX #25 (効果音#25)</title>
+			<title code="0x39">SFX #26 (効果音#26)</title>
+			<title code="0x3a">SFX #27 (効果音#27)</title>
+			<title code="0x3b">SFX #28 (効果音#28)</title>
+			<title code="0x3c">SFX #29 (効果音#29)</title>
+			<title code="0x3d">SFX #30 (効果音#30)</title>
+			<title code="0x3e">SFX #31 (効果音#31)</title>
+			<title code="0x3f">SFX #32 (効果音#32)</title>
+			<title code="0x40">SFX #33 (効果音#33)</title>
+			<title code="0x41">SFX #34 (効果音#34)</title>
+			<title code="0x42">SFX #35 (効果音#35)</title>
+			<title code="0x43">SFX #36 (効果音#36)</title>
+			<title code="0x44">SFX #37 (効果音#37)</title>
+			<title code="0x45">SFX #38 (効果音#38)</title>
+			<title code="0x46">SFX #39 (効果音#39)</title>
+			<title code="0x47">SFX #40 (効果音#40)</title>
+			<title code="0x48">SFX #41 (効果音#41)</title>
+			<title code="0x49">SFX #42 (効果音#42)</title>
+			<title code="0x4a">SFX #43 (効果音#43)</title>
+			<title code="0x4b">SFX #44 (効果音#44)</title>
+			<title code="0x4c">SFX #45 (効果音#45)</title>
+			<title code="0x4d">SFX #46 (効果音#46)</title>
+			<title code="0x4e">SFX #47 (効果音#47)</title>
+			<title code="0x4f">SFX #48 (効果音#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Star Cruiser (YM2149)</name>
+		<name>[X1] Star Cruiser (スタークルーザー) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1348,340 +1492,364 @@
 			<rom type="bgm" offset="0x1d">MUS30P</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">スペースフライト</title>
-			<title code="0x01">スペースファイト</title>
-			<title code="0x02">デザートゾーン</title>
-			<title code="0x03">スタークルーザー</title>
-			<title code="0x04">レッドゾーン</title>
-			<title code="0x05">スペースボート</title>
-			<title code="0x06">ショップ</title>
-			<title code="0x07">バトルスペース</title>
-			<title code="0x08">ディージー</title>
-			<title code="0x09">土星</title>
-			<title code="0x0a">大赤斑</title>
-			<title code="0x0b">ビッグボス</title>
-			<title code="0x0c">ミッドボス</title>
-			<title code="0x0d">基地内部</title>
-			<title code="0x0e">レクイエム</title>
-			<title code="0x0f">生体プラント</title>
-			<title code="0x10">ワープアウト</title>
-			<title code="0x11">ゲームオーバー</title>
-			<title code="0x12">リジル＝ケント星系</title>
-			<title code="0x13">NINETEEN</title>
-			<title code="0x14">ジューン</title>
-			<title code="0x15">ブローカー</title>
-			<title code="0x16">惑星オールドニューヨーク</title>
-			<title code="0x17">バーナード星系</title>
-			<title code="0x18">火星</title>
-			<title code="0x19">遥かな宇宙へ</title>
-			<title code="0x1a">シリウス星系</title>
-			<title code="0x1b">VOID 大戦艦</title>
-			<title code="0x1c">G-カタパルト</title>
-			<title code="0x1d">ハイパースペース</title>
-			<title code="0x20">効果音#01</title>
-			<title code="0x21">効果音#02</title>
-			<title code="0x22">効果音#02</title>
-			<title code="0x23">効果音#03</title>
-			<title code="0x24">効果音#04</title>
-			<title code="0x25">効果音#05</title>
-			<title code="0x26">効果音#06</title>
-			<title code="0x27">効果音#07</title>
-			<title code="0x28">効果音#08</title>
-			<title code="0x29">効果音#09</title>
-			<title code="0x2a">効果音#10</title>
-			<title code="0x2b">効果音#11</title>
-			<title code="0x2c">効果音#12</title>
-			<title code="0x2d">効果音#13</title>
-			<title code="0x2e">効果音#14</title>
-			<title code="0x2f">効果音#15</title>
-			<title code="0x30">効果音#16</title>
-			<title code="0x31">効果音#17</title>
-			<title code="0x32">効果音#18</title>
-			<title code="0x33">効果音#19</title>
-			<title code="0x34">効果音#20</title>
-			<title code="0x35">効果音#21</title>
-			<title code="0x36">効果音#22</title>
-			<title code="0x37">効果音#23</title>
-			<title code="0x38">効果音#24</title>
-			<title code="0x39">効果音#25</title>
-			<title code="0x3a">効果音#26</title>
-			<title code="0x3b">効果音#27</title>
-			<title code="0x3c">効果音#28</title>
-			<title code="0x3d">効果音#29</title>
-			<title code="0x3e">効果音#30</title>
-			<title code="0x3f">効果音#31</title>
-			<title code="0x40">効果音#32</title>
-			<title code="0x41">効果音#33</title>
-			<title code="0x42">効果音#34</title>
-			<title code="0x43">効果音#35</title>
-			<title code="0x44">効果音#36</title>
-			<title code="0x45">効果音#37</title>
-			<title code="0x46">効果音#38</title>
-			<title code="0x47">効果音#39</title>
-			<title code="0x48">効果音#40</title>
-			<title code="0x49">効果音#41</title>
-			<title code="0x4a">効果音#42</title>
-			<title code="0x4b">効果音#43</title>
-			<title code="0x4c">効果音#44</title>
-			<title code="0x4d">効果音#45</title>
-			<title code="0x4e">効果音#46</title>
-			<title code="0x4f">効果音#47</title>
+			<title code="0x00">Space Flight (スペースフライト)</title>
+			<title code="0x01">Space Fight (スペースファイト)</title>
+			<title code="0x02">Desert Zone (デザートゾーン)</title>
+			<title code="0x03">Star Cruiser (スタークルーザー)</title>
+			<title code="0x04">Red Zone (レッドゾーン)</title>
+			<title code="0x05">Space Boat (スペースボート)</title>
+			<title code="0x06">Shop (ショップ)</title>
+			<title code="0x07">Battle Space (バトルスペース)</title>
+			<title code="0x08">Daisy (ディージー)</title>
+			<title code="0x09">Saturn (土星)</title>
+			<title code="0x0a">The Great Red Spot (大赤斑)</title>
+			<title code="0x0b">Big Boss (ビッグボス)</title>
+			<title code="0x0c">Mini Boss (ミッドボス)</title>
+			<title code="0x0d">Inside the Base (基地内部)</title>
+			<title code="0x0e">Requiem (レクイエム)</title>
+			<title code="0x0f">Bio Plant (生体プラント)</title>
+			<title code="0x10">Warp Out (ワープアウト)</title>
+			<title code="0x11">Game Over (ゲームオーバー)</title>
+			<title code="0x12">Rigil Kent System (リジル＝ケント星系)</title>
+			<title code="0x13">Nineteen</title>
+			<title code="0x14">June (ジューン)</title>
+			<title code="0x15">Broker (ブローカー)</title>
+			<title code="0x16">The Planet of Old New York (惑星オールドニューヨーク)</title>
+			<title code="0x17">Barnard's Star (バーナード星系)</title>
+			<title code="0x18">Mars (火星)</title>
+			<title code="0x19">To a Far Away Galaxy (遥かな宇宙へ)</title>
+			<title code="0x1a">Sirius System (シリウス星系)</title>
+			<title code="0x1b">Great Battleship VOID (VOID 大戦艦)</title>
+			<title code="0x1c">G Catapult (G-カタパルト)</title>
+			<title code="0x1d">Hyperspace (ハイパースペース)</title>
+			<title code="0x20">SFX #01 (効果音#01)</title>
+			<title code="0x21">SFX #02 (効果音#02)</title>
+			<title code="0x22">SFX #03 (効果音#03)</title>
+			<title code="0x23">SFX #04 (効果音#04)</title>
+			<title code="0x24">SFX #05 (効果音#05)</title>
+			<title code="0x25">SFX #06 (効果音#06)</title>
+			<title code="0x26">SFX #07 (効果音#07)</title>
+			<title code="0x27">SFX #08 (効果音#08)</title>
+			<title code="0x28">SFX #09 (効果音#09)</title>
+			<title code="0x29">SFX #10 (効果音#10)</title>
+			<title code="0x2a">SFX #11 (効果音#11)</title>
+			<title code="0x2b">SFX #12 (効果音#12)</title>
+			<title code="0x2c">SFX #13 (効果音#13)</title>
+			<title code="0x2d">SFX #14 (効果音#14)</title>
+			<title code="0x2e">SFX #15 (効果音#15)</title>
+			<title code="0x2f">SFX #16 (効果音#16)</title>
+			<title code="0x30">SFX #17 (効果音#17)</title>
+			<title code="0x31">SFX #18 (効果音#18)</title>
+			<title code="0x32">SFX #19 (効果音#19)</title>
+			<title code="0x33">SFX #20 (効果音#20)</title>
+			<title code="0x34">SFX #21 (効果音#21)</title>
+			<title code="0x35">SFX #22 (効果音#22)</title>
+			<title code="0x36">SFX #23 (効果音#23)</title>
+			<title code="0x37">SFX #24 (効果音#24)</title>
+			<title code="0x38">SFX #25 (効果音#25)</title>
+			<title code="0x39">SFX #26 (効果音#26)</title>
+			<title code="0x3a">SFX #27 (効果音#27)</title>
+			<title code="0x3b">SFX #28 (効果音#28)</title>
+			<title code="0x3c">SFX #29 (効果音#29)</title>
+			<title code="0x3d">SFX #30 (効果音#30)</title>
+			<title code="0x3e">SFX #31 (効果音#31)</title>
+			<title code="0x3f">SFX #32 (効果音#32)</title>
+			<title code="0x40">SFX #33 (効果音#33)</title>
+			<title code="0x41">SFX #34 (効果音#34)</title>
+			<title code="0x42">SFX #35 (効果音#35)</title>
+			<title code="0x43">SFX #36 (効果音#36)</title>
+			<title code="0x44">SFX #37 (効果音#37)</title>
+			<title code="0x45">SFX #38 (効果音#38)</title>
+			<title code="0x46">SFX #39 (効果音#39)</title>
+			<title code="0x47">SFX #40 (効果音#40)</title>
+			<title code="0x48">SFX #41 (効果音#41)</title>
+			<title code="0x49">SFX #42 (効果音#42)</title>
+			<title code="0x4a">SFX #43 (効果音#43)</title>
+			<title code="0x4b">SFX #44 (効果音#44)</title>
+			<title code="0x4c">SFX #45 (効果音#45)</title>
+			<title code="0x4d">SFX #46 (効果音#46)</title>
+			<title code="0x4e">SFX #47 (効果音#47)</title>
+			<title code="0x4f">SFX #48 (効果音#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] STAR CRUISER</name>
+		<name>[X68000] Star Cruiser (スタークルーザー) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="scsnd">
 			<rom type="code">sc.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
-			<title code="0x01">スペースフライト</title>
-			<title code="0x02">スペースファイト</title>
-			<title code="0x03">デザートゾーン</title>
-			<title code="0x04">スタークルーザー</title>
-			<title code="0x05">レッドゾーン</title>
-			<title code="0x06">スペースボート</title>
-			<title code="0x07">ショップ</title>
-			<title code="0x08">バトルスペース</title>
-			<title code="0x09">ディージー</title>
-			<title code="0x0A">土星</title>
-			<title code="0x0B">大赤斑</title>
-			<title code="0x0C">ビッグボス</title>
-			<title code="0x0D">ミッドボス</title>
-			<title code="0x0E">基地内部</title>
-			<title code="0x0F">レクイエム</title>
-			<title code="0x10">生体プラント</title>
-			<title code="0x11">ワープアウト</title>
-			<title code="0x12">ゲームオーバー</title>
-			<title code="0x13">リジル＝ケント星系</title>
-			<title code="0x14">ようこそスタークルーザーの世界へ</title>
-			<title code="0x15">ジューン</title>
-			<title code="0x16">ブローカー</title>
-			<title code="0x17">惑星オールドニューヨーク</title>
-			<title code="0x18">バーナード星系</title>
-			<title code="0x19">火星</title>
-			<title code="0x1A">遥かな宇宙へ</title>
-			<title code="0x1B">シリウス星系</title>
-			<title code="0x1C">VOID 大戦艦</title>
-			<title code="0x1D">G-カタパルト</title>
-			<title code="0x1E">ハイパースペース</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">Space Flight (スペースフライト)</title>
+			<title code="0x02">Space Fight (スペースファイト)</title>
+			<title code="0x03">Desert Zone (デザートゾーン)</title>
+			<title code="0x04">Star Cruiser (スタークルーザー)</title>
+			<title code="0x05">Red Zone (レッドゾーン)</title>
+			<title code="0x06">Space Boat (スペースボート)</title>
+			<title code="0x07">Shop (ショップ)</title>
+			<title code="0x08">Battle Space (バトルスペース)</title>
+			<title code="0x09">Daisy (ディージー)</title>
+			<title code="0x0A">Saturn (土星)</title>
+			<title code="0x0B">The Great Red Spot (大赤斑)</title>
+			<title code="0x0C">Big Boss (ビッグボス)</title>
+			<title code="0x0D">Mini Boss (ミッドボス)</title>
+			<title code="0x0E">Inside the Base (基地内部)</title>
+			<title code="0x0F">Requiem (レクイエム)</title>
+			<title code="0x10">Bio Plant (生体プラント)</title>
+			<title code="0x11">Warp Out (ワープアウト)</title>
+			<title code="0x12">Game Over (ゲームオーバー)</title>
+			<title code="0x13">Rigil Kent System (リジル＝ケント星系)</title>
+			<title code="0x14">Welcome to the World of Star Cruiser (ようこそスタークルーザーの世界へ)</title>
+			<title code="0x15">June (ジューン)</title>
+			<title code="0x16">Broker (ブローカー)</title>
+			<title code="0x17">The Planet of Old New York (惑星オールドニューヨーク)</title>
+			<title code="0x18">Barnard's Star (バーナード星系)</title>
+			<title code="0x19">Mars (火星)</title>
+			<title code="0x1A">To a Far Away Galaxy (遥かな宇宙へ)</title>
+			<title code="0x1B">Sirius System (シリウス星系)</title>
+			<title code="0x1C">Great Battleship VOID (VOID 大戦艦)</title>
+			<title code="0x1D">G Catapult (G-カタパルト)</title>
+			<title code="0x1E">Hyperspace (ハイパースペース)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Spindizzy II</name>
+		<name>[X68000] Spindizzy II (スピンディジー2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="sd2snd">
 			<rom type="code">sd2.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
-			<title code="0x01">OPEN.X     : Note</title>
-			<title code="0x02">TITLE.X    : Flash Logo</title>
-			<title code="0x03">ARIOSO.R   : Buxton cat</title>
-			<title code="0x04">BALL_R.R   : Ballrace</title>
-			<title code="0x05">CHASE.R    : Obelisk Run</title>
-			<title code="0x06">CTTY.R     : Eternal Move</title>
-			<title code="0x07">DOKAN.R    : Explosion 2</title>
-			<title code="0x08">EASY.R     : EasyDizzy</title>
-			<title code="0x09">ENDING.R   : Ending</title>
-			<title code="0x0A">EXP.R      : Explosion 1</title>
-			<title code="0x0B">FINALE.R   : All Clear</title>
-			<title code="0x0C">GAME.R     : Spindizzy!</title>
-			<title code="0x0D">GRASS.R    : Grass Maze</title>
-			<title code="0x0E">GRAVE.R    : Sandy Island</title>
-			<title code="0x0F">HARD.R     : Roller-ama</title>
-			<title code="0x10">HURRY.R    : Hurry Up!</title>
-			<title code="0x11">IKU.R      : Gathering</title>
-			<title code="0x12">JACK.R     : Tri Path</title>
-			<title code="0x13">JAZZ.R     : Solid Time</title>
-			<title code="0x14">JIVE.R     : Frigia</title>
-			<title code="0x15">KUKU.R     : Castle Quest</title>
-			<title code="0x16">LOGO.R     : Alsys Logo</title>
-			<title code="0x17">MF.R       : Canal Side</title>
-			<title code="0x18">MODERATO.R : MisDirection</title>
-			<title code="0x19">MON.R      : Torture!</title>
-			<title code="0x1A">MRX2.R     : Tutorial</title>
-			<title code="0x1B">MTSTAR.R   : CLUSTER</title>
-			<title code="0x1C">NAKANO.R   : Grass Hopper</title>
-			<title code="0x1D">NHK.R      : Tower City</title>
-			<title code="0x1E">NICE_DAY.R : NICE DAY</title>
-			<title code="0x1F">NO1.R      : Beginners!</title>
-			<title code="0x20">OPEN.R     : Zoom Up</title>
-			<title code="0x21">PENGIN.R   : Paradise</title>
-			<title code="0x22">PENTA.R    : Split Up</title>
-			<title code="0x23">POKO.R     : RADIMA</title>
-			<title code="0x24">PP.R       : Gargoyle</title>
-			<title code="0x25">Q2.R       : Quadrant 2</title>
-			<title code="0x26">RAMP.R     : Ramp Run</title>
-			<title code="0x27">RATIO.R    : Arrow Maze</title>
-			<title code="0x28">ROPOP.R    : Lavalite</title>
-			<title code="0x29">SAIGO.R    : Escape</title>
-			<title code="0x2A">SP.R       : Pyramidea</title>
-			<title code="0x2B">SPINBALL.R : Pak Attack</title>
-			<title code="0x2C">STR.R      : Oily Way</title>
-			<title code="0x2D">TUKURI.R   : WaterWorks</title>
-			<title code="0x2E">URANUS.R   : URANUS</title>
-			<title code="0x2F">WAWORLD.R  : WaterWorld</title>
-			<title code="0x30">WOO.R      : Woo!!</title>
-			<title code="0x31">NOBUYA.X   : Note</title>
-			<title code="0x32">ARIOSO.R   : Buxton cat</title>
-			<title code="0x33">BALL_R.R   : Ballrace</title>
-			<title code="0x34">CHASE.R    : Oblisk Run</title>
-			<title code="0x35">CTTY.R     : Eternal Move</title>
-			<title code="0x36">EASY.R     : Easydizzy</title>
-			<title code="0x37">END.R      : Ending</title>
-			<title code="0x38">FINALE.R   : All Clear</title>
-			<title code="0x39">GAME.R     : Spindizzy!</title>
-			<title code="0x3A">GRASS.R    : Grass Maze</title>
-			<title code="0x3B">GRAVE.R    : Sandy Island</title>
-			<title code="0x3C">HARD.R     : Roller-ama</title>
-			<title code="0x3D">HURRY.R    : HURRY</title>
-			<title code="0x3E">HURRY_UP.R : Hurry Up!</title>
-			<title code="0x3F">JACK.R     : Tri Path</title>
-			<title code="0x40">JAZZ.R     : Solid Time</title>
-			<title code="0x41">JIVE.R     : Frigia</title>
-			<title code="0x42">KUKU.R     : Castle Quest</title>
-			<title code="0x43">LOGO.R     : Alsys Logo</title>
-			<title code="0x44">MF.R       : Canal Side</title>
-			<title code="0x45">MODERATO.R : MisDirection</title>
-			<title code="0x46">MON.R      : Torture!</title>
-			<title code="0x47">MRX2.R     : Tutorial</title>
-			<title code="0x48">MTSTAR.R   : CLUSTER</title>
-			<title code="0x49">NAKANO.R   : Grass Hopper</title>
-			<title code="0x4A">NHK.R      : Tower City</title>
-			<title code="0x4B">NICE_DAY.R : NICE DAY</title>
-			<title code="0x4C">NO1.R      : Beginners!</title>
-			<title code="0x4D">OPEN.R     : Zoom Up</title>
-			<title code="0x4E">PENGIN.R   : Paradise</title>
-			<title code="0x4F">PENTA.R    : Split Up</title>
-			<title code="0x50">POKO.R     : RADIMA</title>
-			<title code="0x51">PP.R       : Gargoyle</title>
-			<title code="0x52">Q2.R       : Quadrant 2</title>
-			<title code="0x53">RAMP.R     : Ramp Run</title>
-			<title code="0x54">RATIO.R    : Arrow Maze</title>
-			<title code="0x55">ROPOP.R    : Lavalite</title>
-			<title code="0x56">SP.R       : Pyramidea</title>
-			<title code="0x57">SPINBALL.R : Pak Attack</title>
-			<title code="0x58">STR.R      : Oily Way</title>
-			<title code="0x59">TUKURI.R   : WaterWorks</title>
-			<title code="0x5A">URANUS.R   : URANUS</title>
-			<title code="0x5B">WAWORLD.R  : WaterWorld</title>
-			<title code="0x5C">WOO.R      : Woo!!</title>
-			<title code="0x5D">ZOOM.R     : ZOOM</title>
-			<title code="0x5E">GAME.X     : SE00</title>
-			<title code="0x5F">GAME.X     : SE01</title>
-			<title code="0x60">GAME.X     : SE02</title>
-			<title code="0x61">GAME.X     : SE03</title>
-			<title code="0x62">GAME.X     : SE04</title>
-			<title code="0x63">GAME.X     : SE05</title>
-			<title code="0x64">GAME.X     : SE06</title>
-			<title code="0x65">GAME.X     : SE07</title>
-			<title code="0x66">GAME.X     : SE08</title>
-			<title code="0x67">GAME.X     : SE09</title>
-			<title code="0x68">GAME.X     : SE0A</title>
-			<title code="0x6A">GAME.X     : SE0B</title>
-			<title code="0x6B">GAME.X     : SE0C</title>
-			<title code="0x6C">GAME.X     : SE0D</title>
-			<title code="0x6D">GAME.X     : SE0E</title>
-			<title code="0x6E">GAME.X     : SE0F</title>
-			<title code="0x6F">GAME.X     : SE10</title>
-			<title code="0x70">GAME.X     : SE11</title>
-			<title code="0x71">GAME.X     : SE12</title>
-			<title code="0x72">GAME.X     : SE13</title>
-			<title code="0x73">GAME.X     : SE14</title>
-			<title code="0x74">GAME.X     : SE15</title>
-			<title code="0x75">GAME.X     : SE16</title>
-			<title code="0x76">GAME.X     : SE17</title>
-			<title code="0x77">GAME.X     : SE18</title>
-			<title code="0x78">GAME.X     : SE19</title>
-			<title code="0x79">GAME.X     : SE1A</title>
-			<title code="0x7A">GAME.X     : SE1B</title>
-			<title code="0x7B">GAME.X     : SE1C</title>
-			<title code="0x7C">GAME.X     : SE1D</title>
-			<title code="0x7D">GAME.X     : SE1E</title>
-			<title code="0x7E">GAME.X     : SE1F</title>
-			<title code="0x7F">GAME.X     : SE20</title>
-			<title code="0x80">GAME.X     : SE21</title>
-			<title code="0x81">GAME.X     : SE22</title>
-			<title code="0x82">MENU.X     : SE23</title>
-			<title code="0x83">MENU.X     : SE24</title>
-			<title code="0x84">OPEN.X     : SE25</title>
-			<title code="0x85">SELECT.X   : SE26</title>
-			<title code="0x86">SELECT.X   : SE27</title>
-			<title code="0x87">SELECT.X   : SE28</title>
-			<title code="0x88">SELECT.X   : SE29</title>
-			<title code="0x89">SELECT.X   : SE2A</title>
-			<title code="0x8A">SELECT.X   : SE2B</title>
-			<title code="0x8B">SELECT.X   : SE2C</title>
-			<title code="0x8C">SELECT.X   : SE2D</title>
-			<title code="0x8D">SELECT.X   : SE2E</title>
-			<title code="0x8E">SELECT.X   : SE2F</title>
-			<title code="0x8F">SELECT.X   : SE30</title>
-			<title code="0x90">SELECT.X   : SE31</title>
-			<title code="0x91">SELECT.X   : SE32</title>
-			<title code="0x92">SELECT.X   : SE33</title>
-			<title code="0x93">SELECT.X   : SE34</title>
-			<title code="0x94">SELECT.X   : SE35</title>
-			<title code="0x95">SELECT.X   : SE36</title>
-			<title code="0x96">SELECT.X   : SE37</title>
-			<title code="0x97">SELECT.X   : SE38</title>
-			<title code="0x98">SELECT.X   : SE39</title>
-			<title code="0x99">SELECT.X   : SE3A</title>
-			<title code="0x9A">SELECT.X   : SE3B</title>
-			<title code="0x9B">SELECT.X   : SE3C</title>
-			<title code="0x9C">SELECT.X   : SE3D</title>
-			<title code="0x9D">SELECT.X   : SE3E</title>
-			<title code="0x9E">SELECT.X   : SE3F</title>
-			<title code="0x9F">SELECT.X   : SE40</title>
-			<title code="0xA0">SELECT.X   : SE41</title>
-			<title code="0xA1">SELECT.X   : SE42</title>
-			<title code="0xA2">SELECT.X   : SE43</title>
-			<title code="0xA3">SELECT.X   : SE44</title>
-			<title code="0xA4">SELECT.X   : SE45</title>
-			<title code="0xA5">SELECT.X   : SE46</title>
-			<title code="0xA6">SELECT.X   : SE47</title>
-			<title code="0xA7">SELECT.X   : SE48</title>
-			<title code="0xA8">SELECT.X   : SE49</title>
-			<title code="0xA9">SELECT.X   : SE4A</title>
-			<title code="0xAA">SELECT.X   : SE4B</title>
-			<title code="0xAB">SELECT.X   : SE4C</title>
-			<title code="0xAC">SELECT.X   : SE4D</title>
-			<title code="0xAD">SELECT.X   : SE4E</title>
-			<title code="0xAE">SELECT.X   : SE4F</title>
-			<title code="0xAF">SELECT.X   : SE50</title>
-			<title code="0xB0">SELECT.X   : SE51</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">Note</title>
+			<title code="0x02">Flash Logo</title>
+			<title code="0x03">Buxton Cat</title>
+			<title code="0x04">Ballrace</title>
+			<title code="0x05">Obelisk Run</title>
+			<title code="0x06">Eternal Move</title>
+			<title code="0x07">Explosion 2</title>
+			<title code="0x08">EasyDizzy</title>
+			<title code="0x09">Ending</title>
+			<title code="0x0A">Explosion 1</title>
+			<title code="0x0B">All Clear</title>
+			<title code="0x0C">Spindizzy!</title>
+			<title code="0x0D">Grass Maze</title>
+			<title code="0x0E">Sandy Island</title>
+			<title code="0x0F">Roller-ama</title>
+			<title code="0x10">Hurry Up!</title>
+			<title code="0x11">Gathering</title>
+			<title code="0x12">Tri Path</title>
+			<title code="0x13">Solid Time</title>
+			<title code="0x14">Frigia</title>
+			<title code="0x15">Castle Quest</title>
+			<title code="0x16">Alsys Logo</title>
+			<title code="0x17">Canal Side</title>
+			<title code="0x18">MisDirection</title>
+			<title code="0x19">Torture!</title>
+			<title code="0x1A">Tutorial</title>
+			<title code="0x1B">Cluster</title>
+			<title code="0x1C">Grass Hopper</title>
+			<title code="0x1D">Tower City</title>
+			<title code="0x1E">Nice Day</title>
+			<title code="0x1F">Beginners!</title>
+			<title code="0x20">Zoom Up</title>
+			<title code="0x21">Paradise</title>
+			<title code="0x22">Split Up</title>
+			<title code="0x23">Radima</title>
+			<title code="0x24">Gargoyle</title>
+			<title code="0x25">Quadrant 2</title>
+			<title code="0x26">Ramp Run</title>
+			<title code="0x27">Arrow Maze</title>
+			<title code="0x28">Lavalite</title>
+			<title code="0x29">Escape</title>
+			<title code="0x2A">Pyramidea</title>
+			<title code="0x2B">Pak Attack</title>
+			<title code="0x2C">Oily Way</title>
+			<title code="0x2D">WaterWorks</title>
+			<title code="0x2E">Uranus</title>
+			<title code="0x2F">WaterWorld</title>
+			<title code="0x30">Woo!!</title>
+			<title code="0x31">Note</title>
+			<title code="0x32">Buxton cat</title>
+			<title code="0x33">Ballrace</title>
+			<title code="0x34">Oblisk Run</title>
+			<title code="0x35">Eternal Move</title>
+			<title code="0x36">Easydizzy</title>
+			<title code="0x37">Ending</title>
+			<title code="0x38">All Clear</title>
+			<title code="0x39">Spindizzy!</title>
+			<title code="0x3A">Grass Maze</title>
+			<title code="0x3B">Sandy Island</title>
+			<title code="0x3C">Roller-ama</title>
+			<title code="0x3D">Hurry</title>
+			<title code="0x3E">Hurry Up!</title>
+			<title code="0x3F">Tri Path</title>
+			<title code="0x40">Solid Time</title>
+			<title code="0x41">Frigia</title>
+			<title code="0x42">Castle Quest</title>
+			<title code="0x43">Alsys Logo</title>
+			<title code="0x44">Canal Side</title>
+			<title code="0x45">Misdirection</title>
+			<title code="0x46">Torture!</title>
+			<title code="0x47">Tutorial</title>
+			<title code="0x48">Cluster</title>
+			<title code="0x49">Grass Hopper</title>
+			<title code="0x4A">Tower City</title>
+			<title code="0x4B">Nice Day</title>
+			<title code="0x4C">Beginners!</title>
+			<title code="0x4D">Zoom Up</title>
+			<title code="0x4E">Paradise</title>
+			<title code="0x4F">Split Up</title>
+			<title code="0x50">Radima</title>
+			<title code="0x51">Gargoyle</title>
+			<title code="0x52">Quadrant 2</title>
+			<title code="0x53">Ramp Run</title>
+			<title code="0x54">Arrow Maze</title>
+			<title code="0x55">Lavalite</title>
+			<title code="0x56">Pyramidea</title>
+			<title code="0x57">Pak Attack</title>
+			<title code="0x58">Oily Way</title>
+			<title code="0x59">WaterWorks</title>
+			<title code="0x5A">Uranus</title>
+			<title code="0x5B">WaterWorld</title>
+			<title code="0x5C">Woo!!</title>
+			<title code="0x5D">Zoom</title>
+			<title code="0x5E">GAME.X #00</title>
+			<title code="0x5F">GAME.X #01</title>
+			<title code="0x60">GAME.X #02</title>
+			<title code="0x61">GAME.X #03</title>
+			<title code="0x62">GAME.X #04</title>
+			<title code="0x63">GAME.X #05</title>
+			<title code="0x64">GAME.X #06</title>
+			<title code="0x65">GAME.X #07</title>
+			<title code="0x66">GAME.X #08</title>
+			<title code="0x67">GAME.X #09</title>
+			<title code="0x68">GAME.X #0A</title>
+			<title code="0x6A">GAME.X #0B</title>
+			<title code="0x6B">GAME.X #0C</title>
+			<title code="0x6C">GAME.X #0D</title>
+			<title code="0x6D">GAME.X #0E</title>
+			<title code="0x6E">GAME.X #0F</title>
+			<title code="0x6F">GAME.X #10</title>
+			<title code="0x70">GAME.X #11</title>
+			<title code="0x71">GAME.X #12</title>
+			<title code="0x72">GAME.X #13</title>
+			<title code="0x73">GAME.X #14</title>
+			<title code="0x74">GAME.X #15</title>
+			<title code="0x75">GAME.X #16</title>
+			<title code="0x76">GAME.X #17</title>
+			<title code="0x77">GAME.X #18</title>
+			<title code="0x78">GAME.X #19</title>
+			<title code="0x79">GAME.X #1A</title>
+			<title code="0x7A">GAME.X #1B</title>
+			<title code="0x7B">GAME.X #1C</title>
+			<title code="0x7C">GAME.X #1D</title>
+			<title code="0x7D">GAME.X #1E</title>
+			<title code="0x7E">GAME.X #1F</title>
+			<title code="0x7F">GAME.X #20</title>
+			<title code="0x80">GAME.X #21</title>
+			<title code="0x81">GAME.X #22</title>
+			<title code="0x82">MENU.X #00</title>
+			<title code="0x83">MENU.X #01</title>
+			<title code="0x84">OPEN.X</title>
+			<title code="0x85">SELECT.X #00</title>
+			<title code="0x86">SELECT.X #01</title>
+			<title code="0x87">SELECT.X #02</title>
+			<title code="0x88">SELECT.X #03</title>
+			<title code="0x89">SELECT.X #04</title>
+			<title code="0x8A">SELECT.X #05</title>
+			<title code="0x8B">SELECT.X #06</title>
+			<title code="0x8C">SELECT.X #07</title>
+			<title code="0x8D">SELECT.X #08</title>
+			<title code="0x8E">SELECT.X #09</title>
+			<title code="0x8F">SELECT.X #0A</title>
+			<title code="0x90">SELECT.X #0B</title>
+			<title code="0x91">SELECT.X #0C</title>
+			<title code="0x92">SELECT.X #0D</title>
+			<title code="0x93">SELECT.X #0E</title>
+			<title code="0x94">SELECT.X #0F</title>
+			<title code="0x95">SELECT.X #10</title>
+			<title code="0x96">SELECT.X #11</title>
+			<title code="0x97">SELECT.X #12</title>
+			<title code="0x98">SELECT.X #13</title>
+			<title code="0x99">SELECT.X #14</title>
+			<title code="0x9A">SELECT.X #15</title>
+			<title code="0x9B">SELECT.X #16</title>
+			<title code="0x9C">SELECT.X #17</title>
+			<title code="0x9D">SELECT.X #18</title>
+			<title code="0x9E">SELECT.X #19</title>
+			<title code="0x9F">SELECT.X #1A</title>
+			<title code="0xA0">SELECT.X #1B</title>
+			<title code="0xA1">SELECT.X #1C</title>
+			<title code="0xA2">SELECT.X #1D</title>
+			<title code="0xA3">SELECT.X #1E</title>
+			<title code="0xA4">SELECT.X #1F</title>
+			<title code="0xA5">SELECT.X #20</title>
+			<title code="0xA6">SELECT.X #21</title>
+			<title code="0xA7">SELECT.X #22</title>
+			<title code="0xA8">SELECT.X #23</title>
+			<title code="0xA9">SELECT.X #24</title>
+			<title code="0xAA">SELECT.X #25</title>
+			<title code="0xAB">SELECT.X #26</title>
+			<title code="0xAC">SELECT.X #27</title>
+			<title code="0xAD">SELECT.X #28</title>
+			<title code="0xAE">SELECT.X #29</title>
+			<title code="0xAF">SELECT.X #2A</title>
+			<title code="0xB0">SELECT.X #2B</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Knight Arms</name>
+		<name>[X68000] Knight Arms: The Hyblid Framer (ナイトアームズ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="kasnd">
 			<rom type="code">ka.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">[STOP]</title>
-			<title code="0x09">loading    : Arsys Christmas Song</title>
-			<title code="0x12">logo       : Arsys Presents</title>
-			<title code="0x01">demo       : Knight Arms</title>
-			<title code="0x0C">title      : Galaxy Knights March</title>
-			<title code="0x02">3D         : Bad Shooter</title>
-			<title code="0x04">2D         : Slapping Ball</title>
-			<title code="0x07">Boss       : Metal Lady</title>
-			<title code="0x10">stage 2-1  : Jazzy Moon</title>
-			<title code="0x05">stage 3-1  : Banquet of Pterodactyls</title>
-			<title code="0x0B">stage 3-2  : A Shamble Rock</title>
-			<title code="0x0A">game over  : Re-in</title>
-			<title code="0x06">stage 4-2  : Travellers Tales</title>
-			<title code="0x11">stage 5-1  : Blues for a Dark Star</title>
-			<title code="0x03">stage 5-3  : Bad Condition</title>
-			<title code="0x0E">final Boss : Destruction</title>
-			<title code="0x0D">ending 1   : Gloria in Excelsis Deo!</title>
-			<title code="0x0F">ending 2   : Last Drive</title>
-			<title code="0x08">unused     : Crome</title>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x09">Arsys Christmas Song [Loading]</title>
+			<title code="0x12">Arsys Presents [Logo]</title>
+			<title code="0x01">Knight Arms [Demo]</title>
+			<title code="0x0C">Galaxy Knights March [Title]</title>
+			<title code="0x02">Bad Shooter [3D]</title>
+			<title code="0x04">Slapping Ball [2D]</title>
+			<title code="0x07">Metal Lady [Boss]</title>
+			<title code="0x10">Jazzy Moon [Stage 2-1]</title>
+			<title code="0x05">Banquet of Pterodactyls [Stage 3-1]</title>
+			<title code="0x0B">A Shamble Rock [Stage 3-2]</title>
+			<title code="0x0A">Re-in [Game Over]</title>
+			<title code="0x06">Travellers Tales [Stage 4-2]</title>
+			<title code="0x11">Blues for a Dark Star [Stage 5-1]</title>
+			<title code="0x03">Bad Condition [Stage 5-3]</title>
+			<title code="0x0E">Destruction [Final Boss]</title>
+			<title code="0x0D">Gloria in Excelsis Deo! [Ending 1]</title>
+			<title code="0x0F">Last Drive [Ending 2]</title>
+			<title code="0x08">Crome [Unused]</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Tenka Toitsu (天下統一) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Arsys Software</driveralias>
+		<romlist archive="ttsnd">
+			<rom type="code">tt.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0A">BGM #10</title>
+			<title code="0x0B">BGM #11</title>
+			<title code="0x0C">BGM #12</title>
+			<title code="0x0D">BGM #13</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1744,7 +1912,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Reviver(OPN)</name>
+		<name>[FM-7] Reviver (OPN)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
@@ -1808,7 +1976,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Reviver(PSG)</name>
+		<name>[FM-7] Reviver (PSG)</name>
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
@@ -1867,7 +2035,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] WiBARM(OPN)</name>
+		<name>[FM-7] WiBARM (OPN)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
@@ -1894,7 +2062,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] WiBARM(PSG)</name>
+		<name>[FM-7] WiBARM (PSG)</name>
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>

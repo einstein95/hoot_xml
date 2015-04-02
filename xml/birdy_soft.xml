@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //バーディーソフト -->
 	<game>
-		<name>[PC-8801] HOLE CHASER(OPNA)</name>
+		<name>[PC-8801] Hole Chaser (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -78,17 +78,17 @@
 			<rom type="bgm" offset="0x0a">VIS1.MB2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000009">OP.MB2   : オープニング</title>
-			<title code="0x00000001">BGM1.MB2 : BGM1</title>
-			<title code="0x00000002">BGM2.MB2 : BGM2</title>
-			<title code="0x00000003">BGM3.MB2 : BGM3</title>
-			<title code="0x00000004">BGM4.MB2 : BGM4</title>
-			<title code="0x00000005">BGM5.MB2 : BGM5</title>
-			<title code="0x00000006">BGM6.MB2 : BGM6</title>
-			<title code="0x0000000a">VIS1.MB2 : VISUAL</title>
-			<title code="0x00000008">END.MB2  : ENDING</title>
-			<title code="0x00000007">CLR.MB2  : ST.クリア</title>
-			<title code="0x00000000">GOVER.M  : G.OVER</title>
+			<title code="0x00000009">Opening (オープニング)</title>
+			<title code="0x00000001">BGM1.MB2</title>
+			<title code="0x00000002">BGM2.MB2</title>
+			<title code="0x00000003">BGM3.MB2</title>
+			<title code="0x00000004">BGM4.MB2</title>
+			<title code="0x00000005">BGM5.MB2</title>
+			<title code="0x00000006">BGM6.MB2</title>
+			<title code="0x0000000a">Visual</title>
+			<title code="0x00000008">Ending</title>
+			<title code="0x00000007">Stage Clear (ST.クリア)</title>
+			<title code="0x00000000">Game Over</title>
 			<title code="0x000000fe">効果音00</title>
 			<title code="0x010000fe">効果音01</title>
 			<title code="0x020000fe">効果音02</title>
@@ -102,27 +102,27 @@
 			<title code="0x0a0000fe">効果音10</title>
 			<title code="0x0b0000fe">効果音11</title>
 			<title code="0x0c0000fe">効果音12</title>
-			<title code="0x020000ff">ADPCM02  : 「や、やめて!!」</title>
-			<title code="0x040000ff">ADPCM04  : 「いや! はなして!!」</title>
-			<title code="0x090000ff">ADPCM09  : 「来てくれたのね! うれしいわ!」</title>
-			<title code="0x0a0000ff">ADPCM10  : 「そんな‥‥‥私、できない‥‥」</title>
-			<title code="0x0d0000ff">ADPCM13  : 「見ないで!!」</title>
-			<title code="0x0e0000ff">ADPCM14  : 「来ないで..」</title>
-			<title code="0x0f0000ff">ADPCM15  : 「いやいやぁ‥‥」</title>
-			<title code="0x1e0000ff">ADPCM30  : Bass Drum</title>
-			<title code="0x1f0000ff">ADPCM31  : Snare</title>
-			<title code="0x200000ff">ADPCM32  : Tom</title>
-			<title code="0x210000ff">ADPCM33  : Hi-hat Close</title>
-			<title code="0x220000ff">ADPCM34  : Hi-hat Open</title>
-			<title code="0x230000ff">ADPCM35  : Crash Symbal</title>
-			<title code="0x240000ff">ADPCM36  : Hand Clap</title>
-			<title code="0x250000ff">ADPCM37  : Orchestra Hit</title>
+			<title code="0x020000ff">「や、やめて!!」</title>
+			<title code="0x040000ff">「いや! はなして!!」</title>
+			<title code="0x090000ff">「来てくれたのね! うれしいわ!」</title>
+			<title code="0x0a0000ff">「そんな‥‥‥私、できない‥‥」</title>
+			<title code="0x0d0000ff">「見ないで!!」</title>
+			<title code="0x0e0000ff">「来ないで..」</title>
+			<title code="0x0f0000ff">「いやいやぁ‥‥」</title>
+			<title code="0x1e0000ff">Bass Drum</title>
+			<title code="0x1f0000ff">Snare</title>
+			<title code="0x200000ff">Tom</title>
+			<title code="0x210000ff">Hi-hat Close</title>
+			<title code="0x220000ff">Hi-hat Open</title>
+			<title code="0x230000ff">Crash Symbal</title>
+			<title code="0x240000ff">Hand Clap</title>
+			<title code="0x250000ff">Orchestra Hit</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] HOLE CHASER(OPN)</name>
+		<name>[PC-8801] Hole Chaser (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc"  value="0x01"/>
@@ -145,17 +145,17 @@
 			<rom type="bgm" offset="0x0a">VIS1.MN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000009">OP.MN    : オープニング</title>
-			<title code="0x00000001">BGM1.MN  : BGM1</title>
-			<title code="0x00000002">BGM2.MN  : BGM2</title>
-			<title code="0x00000003">BGM3.MN  : BGM3</title>
-			<title code="0x00000004">BGM4.MN  : BGM4</title>
-			<title code="0x00000005">BGM5.MN  : BGM5</title>
-			<title code="0x00000006">BGM6.MN  : BGM6</title>
-			<title code="0x0000000a">VIS1.MN  : VISUAL</title>
-			<title code="0x00000008">END.MN   : ENDING</title>
-			<title code="0x00000007">CLR.MN   : ST.クリア</title>
-			<title code="0x00000000">GOVER.M  : G.OVER</title>
+			<title code="0x00000009">Opening (オープニング)</title>
+			<title code="0x00000001">BGM1.MN</title>
+			<title code="0x00000002">BGM2.MN</title>
+			<title code="0x00000003">BGM3.MN</title>
+			<title code="0x00000004">BGM4.MN</title>
+			<title code="0x00000005">BGM5.MN</title>
+			<title code="0x00000006">BGM6.MN</title>
+			<title code="0x0000000a">Visual</title>
+			<title code="0x00000008">Ending</title>
+			<title code="0x00000007">Stage Clear (ST.クリア)</title>
+			<title code="0x00000000">Game Over</title>
 			<title code="0x000000fe">効果音00</title>
 			<title code="0x010000fe">効果音01</title>
 			<title code="0x020000fe">効果音02</title>
@@ -172,9 +172,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Rouge(OPNA)</name>
+		<name>[PC-8801] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -228,66 +228,66 @@
 			<rom type="bgm" offset="0x0e">RB26.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">RB2.M    : BGM 1</title>
-			<title code="0x00000001">RB3.M    : BGM 2</title>
-			<title code="0x00000002">RB4.M    : BGM 3</title>
-			<title code="0x00000003">RB5.M    : BGM 4</title>
-			<title code="0x00000004">RB9.M    : BGM 5</title>
-			<title code="0x00000005">RB10.M   : BGM 6</title>
-			<title code="0x00000006">RB14.M   : BGM 7</title>
-			<title code="0x00000007">RB15.M   : BGM 8</title>
-			<title code="0x00000008">RB17.M   : BGM 9</title>
-			<title code="0x00000009">RB18.M   : BGM 10</title>
-			<title code="0x0000000a">RB22.M   : BGM 11</title>
-			<title code="0x0000000b">RB23.M   : BGM 12</title>
-			<title code="0x0000000c">RB24.M   : BGM 13</title>
-			<title code="0x0000000d">RB25.M   : BGM 14</title>
-			<title code="0x0000000e">RB26.M   : BGM 15</title>
-			<title code="0x000000fe">効果音00</title>
-			<title code="0x010000fe">効果音01</title>
-			<title code="0x020000fe">効果音02</title>
-			<title code="0x030000fe">効果音03</title>
-			<title code="0x040000fe">効果音04</title>
-			<title code="0x050000fe">効果音05</title>
-			<title code="0x060000fe">効果音06</title>
-			<title code="0x070000fe">効果音07</title>
-			<title code="0x080000fe">効果音08</title>
-			<title code="0x090000fe">効果音09</title>
-			<title code="0x0a0000fe">効果音10</title>
-			<title code="0x0b0000fe">効果音11</title>
-			<title code="0x0c0000fe">効果音12</title>
-			<title code="0x020000ff">ADPCM    : BD3</title>
-			<title code="0x030000ff">ADPCM    : BD</title>
-			<title code="0x040000ff">ADPCM    : SD1</title>
-			<title code="0x070000ff">ADPCM    : TOM1</title>
-			<title code="0x090000ff">ADPCM    : SYNTOM</title>
-			<title code="0x0a0000ff">ADPCM    : CLOHH</title>
-			<title code="0x0b0000ff">ADPCM    : OPNHH2</title>
-			<title code="0x0d0000ff">ADPCM    : CRSCYM</title>
-			<title code="0x130000ff">ADPCM    : HCLAP</title>
-			<title code="0x140000ff">ADPCM    : CORUSU</title>
-			<title code="0x1e0000ff">ADPCM    : A1</title>
-			<title code="0x1f0000ff">ADPCM    : N1</title>
-			<title code="0x200000ff">ADPCM    : AA1</title>
-			<title code="0x210000ff">ADPCM    : A2</title>
-			<title code="0x220000ff">ADPCM    : A&amp;N</title>
-			<title code="0x230000ff">ADPCM    : UN1</title>
-			<title code="0x240000ff">ADPCM    : UN2</title>
-			<title code="0x250000ff">ADPCM    : AAN</title>
-			<title code="0x260000ff">ADPCM    : AN2</title>
-			<title code="0x270000ff">ADPCM    : AAN2</title>
-			<title code="0x280000ff">ADPCM    : IYA</title>
-			<title code="0x290000ff">ADPCM    : UNUN</title>
-			<title code="0x2a0000ff">ADPCM    : AAN3</title>
-			<title code="0x2b0000ff">ADPCM    : AA3</title>
-			<title code="0x2c0000ff">ADPCM    : AAN4</title>
-			<title code="0x2d0000ff">ADPCM    : NNN</title>
+			<title code="0x00000000">RB2.M</title>
+			<title code="0x00000001">RB3.M</title>
+			<title code="0x00000002">RB4.M</title>
+			<title code="0x00000003">RB5.M</title>
+			<title code="0x00000004">RB9.M</title>
+			<title code="0x00000005">RB10.M</title>
+			<title code="0x00000006">RB14.M</title>
+			<title code="0x00000007">RB15.M</title>
+			<title code="0x00000008">RB17.M</title>
+			<title code="0x00000009">RB18.M</title>
+			<title code="0x0000000a">RB22.M</title>
+			<title code="0x0000000b">RB23.M</title>
+			<title code="0x0000000c">RB24.M</title>
+			<title code="0x0000000d">RB25.M</title>
+			<title code="0x0000000e">RB26.M</title>
+			<title code="0x000000fe">SFX #00</title>
+			<title code="0x010000fe">SFX #01</title>
+			<title code="0x020000fe">SFX #02</title>
+			<title code="0x030000fe">SFX #03</title>
+			<title code="0x040000fe">SFX #04</title>
+			<title code="0x050000fe">SFX #05</title>
+			<title code="0x060000fe">SFX #06</title>
+			<title code="0x070000fe">SFX #07</title>
+			<title code="0x080000fe">SFX #08</title>
+			<title code="0x090000fe">SFX #09</title>
+			<title code="0x0a0000fe">SFX #10</title>
+			<title code="0x0b0000fe">SFX #11</title>
+			<title code="0x0c0000fe">SFX #12</title>
+			<title code="0x020000ff">ADPCM : BD3</title>
+			<title code="0x030000ff">ADPCM : BD</title>
+			<title code="0x040000ff">ADPCM : SD1</title>
+			<title code="0x070000ff">ADPCM : TOM1</title>
+			<title code="0x090000ff">ADPCM : SYNTOM</title>
+			<title code="0x0a0000ff">ADPCM : CLOHH</title>
+			<title code="0x0b0000ff">ADPCM : OPNHH2</title>
+			<title code="0x0d0000ff">ADPCM : CRSCYM</title>
+			<title code="0x130000ff">ADPCM : HCLAP</title>
+			<title code="0x140000ff">ADPCM : CORUSU</title>
+			<title code="0x1e0000ff">ADPCM : A1</title>
+			<title code="0x1f0000ff">ADPCM : N1</title>
+			<title code="0x200000ff">ADPCM : AA1</title>
+			<title code="0x210000ff">ADPCM : A2</title>
+			<title code="0x220000ff">ADPCM : A&amp;N</title>
+			<title code="0x230000ff">ADPCM : UN1</title>
+			<title code="0x240000ff">ADPCM : UN2</title>
+			<title code="0x250000ff">ADPCM : AAN</title>
+			<title code="0x260000ff">ADPCM : AN2</title>
+			<title code="0x270000ff">ADPCM : AAN2</title>
+			<title code="0x280000ff">ADPCM : IYA</title>
+			<title code="0x290000ff">ADPCM : UNUN</title>
+			<title code="0x2a0000ff">ADPCM : AAN3</title>
+			<title code="0x2b0000ff">ADPCM : AA3</title>
+			<title code="0x2c0000ff">ADPCM : AAN4</title>
+			<title code="0x2d0000ff">ADPCM : NNN</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Rouge(OPN)</name>
+		<name>[PC-8801] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -314,40 +314,40 @@
 			<rom type="bgm" offset="0x0e">RN26.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">RN2.M    : BGM 1</title>
-			<title code="0x00000001">RN3.M    : BGM 2</title>
-			<title code="0x00000002">RN4.M    : BGM 3</title>
-			<title code="0x00000003">RN5.M    : BGM 4</title>
-			<title code="0x00000004">RN9.M    : BGM 5</title>
-			<title code="0x00000005">RN10.M   : BGM 6</title>
-			<title code="0x00000006">RN14.M   : BGM 7</title>
-			<title code="0x00000007">RN15.M   : BGM 8</title>
-			<title code="0x00000008">RN17.M   : BGM 9</title>
-			<title code="0x00000009">RN18.M   : BGM 10</title>
-			<title code="0x0000000a">RN22.M   : BGM 11</title>
-			<title code="0x0000000b">RN23.M   : BGM 12</title>
-			<title code="0x0000000c">RN24.M   : BGM 13</title>
-			<title code="0x0000000d">RN25.M   : BGM 14</title>
-			<title code="0x0000000e">RN26.M   : BGM 15</title>
-			<title code="0x000000fe">効果音00</title>
-			<title code="0x010000fe">効果音01</title>
-			<title code="0x020000fe">効果音02</title>
-			<title code="0x030000fe">効果音03</title>
-			<title code="0x040000fe">効果音04</title>
-			<title code="0x050000fe">効果音05</title>
-			<title code="0x060000fe">効果音06</title>
-			<title code="0x070000fe">効果音07</title>
-			<title code="0x080000fe">効果音08</title>
-			<title code="0x090000fe">効果音09</title>
-			<title code="0x0a0000fe">効果音10</title>
-			<title code="0x0b0000fe">効果音11</title>
-			<title code="0x0c0000fe">効果音12</title>
+			<title code="0x00000000">RN2.M</title>
+			<title code="0x00000001">RN3.M</title>
+			<title code="0x00000002">RN4.M</title>
+			<title code="0x00000003">RN5.M</title>
+			<title code="0x00000004">RN9.M</title>
+			<title code="0x00000005">RN10.M</title>
+			<title code="0x00000006">RN14.M</title>
+			<title code="0x00000007">RN15.M</title>
+			<title code="0x00000008">RN17.M</title>
+			<title code="0x00000009">RN18.M</title>
+			<title code="0x0000000a">RN22.M</title>
+			<title code="0x0000000b">RN23.M</title>
+			<title code="0x0000000c">RN24.M</title>
+			<title code="0x0000000d">RN25.M</title>
+			<title code="0x0000000e">RN26.M</title>
+			<title code="0x000000fe">SFX #00</title>
+			<title code="0x010000fe">SFX #01</title>
+			<title code="0x020000fe">SFX #02</title>
+			<title code="0x030000fe">SFX #03</title>
+			<title code="0x040000fe">SFX #04</title>
+			<title code="0x050000fe">SFX #05</title>
+			<title code="0x060000fe">SFX #06</title>
+			<title code="0x070000fe">SFX #07</title>
+			<title code="0x080000fe">SFX #08</title>
+			<title code="0x090000fe">SFX #09</title>
+			<title code="0x0a0000fe">SFX #10</title>
+			<title code="0x0b0000fe">SFX #11</title>
+			<title code="0x0c0000fe">SFX #12</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PIAS(OPNA)</name>
+		<name>[PC-8801] Pias (ピアス) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -377,32 +377,32 @@
 			<rom type="bgm" offset="0x06">P8.MB2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">P1.MB2   : BGM 1</title>
-			<title code="0x00000001">P2.MB2   : BGM 2</title>
-			<title code="0x00000002">P3.MB2   : BGM 3</title>
-			<title code="0x00000003">P4.MB2   : BGM 4</title>
-			<title code="0x00000004">P5.MB2   : BGM 5</title>
-			<title code="0x00000005">P6.MB2   : BGM 6</title>
-			<title code="0x00000006">P8.MB2   : BGM 7</title>
-			<title code="0x000000fe">効果音00</title>
-			<title code="0x010000fe">効果音01</title>
-			<title code="0x020000fe">効果音02</title>
-			<title code="0x030000fe">効果音03</title>
-			<title code="0x040000fe">効果音04</title>
-			<title code="0x050000fe">効果音05</title>
-			<title code="0x060000fe">効果音06</title>
-			<title code="0x070000fe">効果音07</title>
-			<title code="0x080000fe">効果音08</title>
-			<title code="0x090000fe">効果音09</title>
-			<title code="0x0a0000fe">効果音10</title>
-			<title code="0x0b0000fe">効果音11</title>
-			<title code="0x0c0000fe">効果音12</title>
+			<title code="0x00000000">P1.MB2</title>
+			<title code="0x00000001">P2.MB2</title>
+			<title code="0x00000002">P3.MB2</title>
+			<title code="0x00000003">P4.MB2</title>
+			<title code="0x00000004">P5.MB2</title>
+			<title code="0x00000005">P6.MB2</title>
+			<title code="0x00000006">P8.MB2</title>
+			<title code="0x000000fe">SFX #00</title>
+			<title code="0x010000fe">SFX #01</title>
+			<title code="0x020000fe">SFX #02</title>
+			<title code="0x030000fe">SFX #03</title>
+			<title code="0x040000fe">SFX #04</title>
+			<title code="0x050000fe">SFX #05</title>
+			<title code="0x060000fe">SFX #06</title>
+			<title code="0x070000fe">SFX #07</title>
+			<title code="0x080000fe">SFX #08</title>
+			<title code="0x090000fe">SFX #09</title>
+			<title code="0x0a0000fe">SFX #10</title>
+			<title code="0x0b0000fe">SFX #11</title>
+			<title code="0x0c0000fe">SFX #12</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PIAS(OPN)</name>
+		<name>[PC-8801] Pias (ピアス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
 			<option name="init_pc"   value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -421,32 +421,32 @@
 			<rom type="bgm" offset="0x06">P8.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">P1.M     : BGM 1</title>
-			<title code="0x00000001">P2.M     : BGM 2</title>
-			<title code="0x00000002">P3.M     : BGM 3</title>
-			<title code="0x00000003">P4.M     : BGM 4</title>
-			<title code="0x00000004">P5.M     : BGM 5</title>
-			<title code="0x00000005">P6.M     : BGM 6</title>
-			<title code="0x00000006">P8.M     : BGM 7</title>
-			<title code="0x000000fe">効果音00</title>
-			<title code="0x010000fe">効果音01</title>
-			<title code="0x020000fe">効果音02</title>
-			<title code="0x030000fe">効果音03</title>
-			<title code="0x040000fe">効果音04</title>
-			<title code="0x050000fe">効果音05</title>
-			<title code="0x060000fe">効果音06</title>
-			<title code="0x070000fe">効果音07</title>
-			<title code="0x080000fe">効果音08</title>
-			<title code="0x090000fe">効果音09</title>
-			<title code="0x0a0000fe">効果音10</title>
-			<title code="0x0b0000fe">効果音11</title>
-			<title code="0x0c0000fe">効果音12</title>
+			<title code="0x00000000">P1.M</title>
+			<title code="0x00000001">P2.M</title>
+			<title code="0x00000002">P3.M</title>
+			<title code="0x00000003">P4.M</title>
+			<title code="0x00000004">P5.M</title>
+			<title code="0x00000005">P6.M</title>
+			<title code="0x00000006">P8.M</title>
+			<title code="0x000000fe">SFX #00</title>
+			<title code="0x010000fe">SFX #01</title>
+			<title code="0x020000fe">SFX #02</title>
+			<title code="0x030000fe">SFX #03</title>
+			<title code="0x040000fe">SFX #04</title>
+			<title code="0x050000fe">SFX #05</title>
+			<title code="0x060000fe">SFX #06</title>
+			<title code="0x070000fe">SFX #07</title>
+			<title code="0x080000fe">SFX #08</title>
+			<title code="0x090000fe">SFX #09</title>
+			<title code="0x0a0000fe">SFX #10</title>
+			<title code="0x0b0000fe">SFX #11</title>
+			<title code="0x0c0000fe">SFX #12</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ARTEMIS</name>
+		<name>[PC-9801] Artemis (アルテミス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -490,9 +490,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] BEAST ～淫獣の館～</name>
+		<name>[PC-9801] Beast: Injuu no Yakata (ビースト ～淫獣の館～) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0xf000"/>
@@ -531,67 +531,67 @@
 			<title code="8" >__0F.DAT</title>
 			<title code="9" >__10.DAT</title>
 			<title code="10">__11.DAT</title>
-			<title code="0x124">__3E.DAT : 24</title>
-			<title code="0x125">__3E.DAT : 25</title>
-			<title code="0x126">__3E.DAT : 26</title>
-			<title code="0x127">__3E.DAT : 27</title>
-			<title code="0x128">__3E.DAT : 28</title>
-			<title code="0x129">__3E.DAT : 29</title>
-			<title code="0x12a">__3E.DAT : 2a</title>
-			<title code="0x12d">__3E.DAT : 2d</title>
-			<title code="0x12e">__3E.DAT : 2e</title>
-			<title code="0x130">__3E.DAT : 30</title>
-			<title code="0x131">__3E.DAT : 31</title>
-			<title code="0x133">__3E.DAT : 33</title>
-			<title code="0x200">__3F.DAT : 00</title>
-			<title code="0x201">__3F.DAT : 01</title>
-			<title code="0x202">__3F.DAT : 02</title>
-			<title code="0x203">__3F.DAT : 03</title>
-			<title code="0x204">__3F.DAT : 04</title>
-			<title code="0x205">__3F.DAT : 05</title>
-			<title code="0x206">__3F.DAT : 06</title>
-			<title code="0x207">__3F.DAT : 07</title>
-			<title code="0x208">__3F.DAT : 08</title>
-			<title code="0x209">__3F.DAT : 09</title>
-			<title code="0x20a">__3F.DAT : 0a</title>
-			<title code="0x20b">__3F.DAT : 0b</title>
-			<title code="0x20c">__3F.DAT : 0c</title>
-			<title code="0x20d">__3F.DAT : 0d</title>
-			<title code="0x20e">__3F.DAT : 0e</title>
-			<title code="0x20f">__3F.DAT : 0f</title>
-			<title code="0x210">__3F.DAT : 10</title>
-			<title code="0x211">__3F.DAT : 11</title>
-			<title code="0x212">__3F.DAT : 12</title>
-			<title code="0x213">__3F.DAT : 13</title>
-			<title code="0x214">__3F.DAT : 14</title>
-			<title code="0x215">__3F.DAT : 15</title>
-			<title code="0x216">__3F.DAT : 16</title>
-			<title code="0x217">__3F.DAT : 17</title>
-			<title code="0x218">__3F.DAT : 18</title>
-			<title code="0x219">__3F.DAT : 19</title>
-			<title code="0x21a">__3F.DAT : 1a</title>
-			<title code="0x21b">__3F.DAT : 1b</title>
-			<title code="0x21c">__3F.DAT : 1c</title>
-			<title code="0x21d">__3F.DAT : 1d</title>
-			<title code="0x21e">__3F.DAT : 1e</title>
-			<title code="0x21f">__3F.DAT : 1f</title>
-			<title code="0x220">__3F.DAT : 20</title>
-			<title code="0x221">__3F.DAT : 21</title>
-			<title code="0x222">__3F.DAT : 22</title>
-			<title code="0x223">__3F.DAT : 23</title>
-			<title code="0x224">__3F.DAT : 24</title>
-			<title code="0x225">__3F.DAT : 25</title>
-			<title code="0x226">__3F.DAT : 26</title>
-			<title code="0x227">__3F.DAT : 27</title>
-			<title code="0x228">__3F.DAT : 28</title>
-			<title code="0x229">__3F.DAT : 29</title>
-			<title code="0x22a">__3F.DAT : 2a</title>
+			<title code="0x124">__3E.DAT #24</title>
+			<title code="0x125">__3E.DAT #25</title>
+			<title code="0x126">__3E.DAT #26</title>
+			<title code="0x127">__3E.DAT #27</title>
+			<title code="0x128">__3E.DAT #28</title>
+			<title code="0x129">__3E.DAT #29</title>
+			<title code="0x12a">__3E.DAT #2a</title>
+			<title code="0x12d">__3E.DAT #2d</title>
+			<title code="0x12e">__3E.DAT #2e</title>
+			<title code="0x130">__3E.DAT #30</title>
+			<title code="0x131">__3E.DAT #31</title>
+			<title code="0x133">__3E.DAT #33</title>
+			<title code="0x200">__3F.DAT #00</title>
+			<title code="0x201">__3F.DAT #01</title>
+			<title code="0x202">__3F.DAT #02</title>
+			<title code="0x203">__3F.DAT #03</title>
+			<title code="0x204">__3F.DAT #04</title>
+			<title code="0x205">__3F.DAT #05</title>
+			<title code="0x206">__3F.DAT #06</title>
+			<title code="0x207">__3F.DAT #07</title>
+			<title code="0x208">__3F.DAT #08</title>
+			<title code="0x209">__3F.DAT #09</title>
+			<title code="0x20a">__3F.DAT #0a</title>
+			<title code="0x20b">__3F.DAT #0b</title>
+			<title code="0x20c">__3F.DAT #0c</title>
+			<title code="0x20d">__3F.DAT #0d</title>
+			<title code="0x20e">__3F.DAT #0e</title>
+			<title code="0x20f">__3F.DAT #0f</title>
+			<title code="0x210">__3F.DAT #10</title>
+			<title code="0x211">__3F.DAT #11</title>
+			<title code="0x212">__3F.DAT #12</title>
+			<title code="0x213">__3F.DAT #13</title>
+			<title code="0x214">__3F.DAT #14</title>
+			<title code="0x215">__3F.DAT #15</title>
+			<title code="0x216">__3F.DAT #16</title>
+			<title code="0x217">__3F.DAT #17</title>
+			<title code="0x218">__3F.DAT #18</title>
+			<title code="0x219">__3F.DAT #19</title>
+			<title code="0x21a">__3F.DAT #1a</title>
+			<title code="0x21b">__3F.DAT #1b</title>
+			<title code="0x21c">__3F.DAT #1c</title>
+			<title code="0x21d">__3F.DAT #1d</title>
+			<title code="0x21e">__3F.DAT #1e</title>
+			<title code="0x21f">__3F.DAT #1f</title>
+			<title code="0x220">__3F.DAT #20</title>
+			<title code="0x221">__3F.DAT #21</title>
+			<title code="0x222">__3F.DAT #22</title>
+			<title code="0x223">__3F.DAT #23</title>
+			<title code="0x224">__3F.DAT #24</title>
+			<title code="0x225">__3F.DAT #25</title>
+			<title code="0x226">__3F.DAT #26</title>
+			<title code="0x227">__3F.DAT #27</title>
+			<title code="0x228">__3F.DAT #28</title>
+			<title code="0x229">__3F.DAT #29</title>
+			<title code="0x22a">__3F.DAT #2a</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] BEAST2 ～インキュバスター～</name>
+		<name>[PC-9801] Beast 2: Incubuster (ビースト2 ～インキュバスター～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -615,23 +615,23 @@
 			<rom type="shell" offset="0">bst2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="18">BST208.MUF : チャイム</title>
-			<title code="19">BST209.MUF : 水滴</title>
-			<title code="17">BST207.MUF : 村角の恐怖</title>
-			<title code="11">BST201.MUF : ダンジョン6人秋物語</title>
-			<title code="16">BST206.MUF : The TAKE</title>
-			<title code="12">BST202.MUF : 命ある限り…</title>
-			<title code="20">BST210.MUF : 静けさの中に</title>
-			<title code="15">BST205.MUF : 守るべきもの</title>
-			<title code="14">BST204.MUF : ラストバトル</title>
-			<title code="13">BST203.MUF : エンディング</title>
-<!--			<title code="21">BST211.MUF : チャイム</title> -->
+			<title code="18">チャイム</title>
+			<title code="19">水滴</title>
+			<title code="17">村角の恐怖</title>
+			<title code="11">ダンジョン6人秋物語</title>
+			<title code="16">The TAKE</title>
+			<title code="12">命ある限り…</title>
+			<title code="20">静けさの中に</title>
+			<title code="15">守るべきもの</title>
+			<title code="14">ラストバトル</title>
+			<title code="13">エンディング</title>
+<!--			<title code="21">チャイム</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] BEAST III</name>
+		<name>[PC-9801] Beast III (ビーストIII) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -691,27 +691,27 @@
 			<title code="16">__12A.DAT</title>
 			<title code="17">__12B.DAT</title>
 			<title code="18">__12C.DAT</title>
-			<title code="19">__14C.DAT : 命ある限り…</title>
-			<title code="20">__14D.DAT : 村角の恐怖</title>
-			<title code="21">__14E.DAT : ダンジョン6人秋物語</title>
-			<title code="22">__14F.DAT : 守るべきもの</title>
+			<title code="19">命ある限り…</title>
+			<title code="20">村角の恐怖</title>
+			<title code="21">ダンジョン6人秋物語</title>
+			<title code="22">守るべきもの</title>
 			<title code="23">__150.DAT</title>
-			<title code="0x101">__12E.DAT : 01</title>
-			<title code="0x102">__12E.DAT : 02</title>
-			<title code="0x103">__12E.DAT : 03</title>
-			<title code="0x104">__12E.DAT : 04</title>
-			<title code="0x105">__12E.DAT : 05</title>
-			<title code="0x106">__12E.DAT : 06</title>
-			<title code="0x107">__12E.DAT : 07</title>
-			<title code="0x108">__12E.DAT : 08</title>
-			<title code="0x109">__12E.DAT : 09</title>
-			<title code="0x10a">__12E.DAT : 0a</title>
+			<title code="0x101">__12E.DAT #01</title>
+			<title code="0x102">__12E.DAT #02</title>
+			<title code="0x103">__12E.DAT #03</title>
+			<title code="0x104">__12E.DAT #04</title>
+			<title code="0x105">__12E.DAT #05</title>
+			<title code="0x106">__12E.DAT #06</title>
+			<title code="0x107">__12E.DAT #07</title>
+			<title code="0x108">__12E.DAT #08</title>
+			<title code="0x109">__12E.DAT #09</title>
+			<title code="0x10a">__12E.DAT #0a</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] BIRDY WORLD</name>
+		<name>[PC-9801] Birdy World (バーディーワールド) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -761,16 +761,16 @@
 			<title code="26">BW15.MF1</title>
 			<title code="27">BW16.MF1</title>
 			<title code="28">BW17.MF1</title>
-			<title code="0xff00">BW.EF1   : 00</title>
-			<title code="0xff01">BW.EF1   : 01</title>
-			<title code="0xff02">BW.EF1   : 02</title>
-			<title code="0xff03">BW.EF1   : 03</title>
+			<title code="0xff00">BW.EF1 #00</title>
+			<title code="0xff01">BW.EF1 #01</title>
+			<title code="0xff02">BW.EF1 #02</title>
+			<title code="0xff03">BW.EF1 #03</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL</name>
+		<name>[PC-9801] Cal (キャル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0xf000"/>
@@ -811,24 +811,24 @@
 			<title code="8" >人魚姫</title>
 			<title code="1" >アリス</title>
 			<title code="11">エンディング</title>
-			<title code="0x224">SE : 24</title>
-			<title code="0x225">SE : 25</title>
-			<title code="0x226">SE : 26</title>
-			<title code="0x227">SE : 27</title>
-			<title code="0x228">SE : 28</title>
-			<title code="0x229">SE : 29</title>
-			<title code="0x22a">SE : 2a</title>
-			<title code="0x22d">SE : 2d</title>
-			<title code="0x22e">SE : 2e</title>
-			<title code="0x230">SE : 30</title>
-			<title code="0x231">SE : 31</title>
-			<title code="0x233">SE : 33</title>
+			<title code="0x224">SFX #24</title>
+			<title code="0x225">SFX #25</title>
+			<title code="0x226">SFX #26</title>
+			<title code="0x227">SFX #27</title>
+			<title code="0x228">SFX #28</title>
+			<title code="0x229">SFX #29</title>
+			<title code="0x22a">SFX #2a</title>
+			<title code="0x22d">SFX #2d</title>
+			<title code="0x22e">SFX #2e</title>
+			<title code="0x230">SFX #30</title>
+			<title code="0x231">SFX #31</title>
+			<title code="0x233">SFX #33</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL II</name>
+		<name>[PC-9801] Cal II (キャルII) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -886,35 +886,35 @@
 			<title code="17">アイオーン1</title>
 			<title code="18">アイオーン2</title>
 			<title code="19">エンディング</title>
-			<title code="0x224">SE1 : 24</title>
-			<title code="0x225">SE1 : 25</title>
-			<title code="0x226">SE1 : 26</title>
-			<title code="0x227">SE1 : 27</title>
-			<title code="0x228">SE1 : 28</title>
-			<title code="0x229">SE1 : 29</title>
-			<title code="0x22a">SE1 : 2a</title>
-			<title code="0x22c">SE1 : 2c</title>
-			<title code="0x22d">SE1 : 2d</title>
-			<title code="0x22e">SE1 : 2e</title>
-			<title code="0x230">SE1 : 30</title>
-			<title code="0x231">SE1 : 31</title>
-			<title code="0x233">SE1 : 33</title>
-			<title code="0x100">SE2 : 00</title>
-			<title code="0x101">SE2 : 01</title>
-			<title code="0x102">SE2 : 02</title>
-			<title code="0x103">SE2 : 03</title>
-			<title code="0x104">SE2 : 04</title>
-			<title code="0x105">SE2 : 05</title>
-			<title code="0x106">SE2 : 06</title>
-			<title code="0x107">SE2 : 07</title>
-			<title code="0x108">SE2 : 08</title>
-			<title code="0x109">SE2 : 09</title>
+			<title code="0x224">SE1 #24</title>
+			<title code="0x225">SE1 #25</title>
+			<title code="0x226">SE1 #26</title>
+			<title code="0x227">SE1 #27</title>
+			<title code="0x228">SE1 #28</title>
+			<title code="0x229">SE1 #29</title>
+			<title code="0x22a">SE1 #2a</title>
+			<title code="0x22c">SE1 #2c</title>
+			<title code="0x22d">SE1 #2d</title>
+			<title code="0x22e">SE1 #2e</title>
+			<title code="0x230">SE1 #30</title>
+			<title code="0x231">SE1 #31</title>
+			<title code="0x233">SE1 #33</title>
+			<title code="0x100">SE2 #00</title>
+			<title code="0x101">SE2 #01</title>
+			<title code="0x102">SE2 #02</title>
+			<title code="0x103">SE2 #03</title>
+			<title code="0x104">SE2 #04</title>
+			<title code="0x105">SE2 #05</title>
+			<title code="0x106">SE2 #06</title>
+			<title code="0x107">SE2 #07</title>
+			<title code="0x108">SE2 #08</title>
+			<title code="0x109">SE2 #09</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL III ～完結編～</name>
+		<name>[PC-9801] Cal III: Kanketsu Hen (キャルIII ～完結編～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -981,31 +981,31 @@
 			<title code="35">AKYOUMEI.MUF</title>
 			<title code="36">AREST.MUF</title>
 			<title code="37">ATEL.MUF</title>
-			<title code="0x100">AEFFECT.DAT  : 00</title>
-			<title code="0x101">AEFFECT.DAT  : 01</title>
-			<title code="0x102">AEFFECT.DAT  : 02</title>
-			<title code="0x103">AEFFECT.DAT  : 03</title>
-			<title code="0x104">AEFFECT.DAT  : 04</title>
-			<title code="0x105">AEFFECT.DAT  : 05</title>
-			<title code="0x106">AEFFECT.DAT  : 06</title>
-			<title code="0x107">AEFFECT.DAT  : 07</title>
-			<title code="0x108">AEFFECT.DAT  : 08</title>
-			<title code="0x109">AEFFECT.DAT  : 09</title>
-			<title code="0x10a">AEFFECT.DAT  : 10</title>
-			<title code="0x10b">AEFFECT.DAT  : 11</title>
-			<title code="0x10c">AEFFECT.DAT  : 12</title>
-			<title code="0x10d">AEFFECT.DAT  : 13</title>
-			<title code="0x10e">AEFFECT.DAT  : 14</title>
-			<title code="0x10f">AEFFECT.DAT  : 15</title>
-			<title code="0x110">AEFFECT.DAT  : 16</title>
-			<title code="0x111">AEFFECT.DAT  : 17</title>
-			<title code="0x112">AEFFECT.DAT  : 18</title>
+			<title code="0x100">AEFFECT.DAT #00</title>
+			<title code="0x101">AEFFECT.DAT #01</title>
+			<title code="0x102">AEFFECT.DAT #02</title>
+			<title code="0x103">AEFFECT.DAT #03</title>
+			<title code="0x104">AEFFECT.DAT #04</title>
+			<title code="0x105">AEFFECT.DAT #05</title>
+			<title code="0x106">AEFFECT.DAT #06</title>
+			<title code="0x107">AEFFECT.DAT #07</title>
+			<title code="0x108">AEFFECT.DAT #08</title>
+			<title code="0x109">AEFFECT.DAT #09</title>
+			<title code="0x10a">AEFFECT.DAT #10</title>
+			<title code="0x10b">AEFFECT.DAT #11</title>
+			<title code="0x10c">AEFFECT.DAT #12</title>
+			<title code="0x10d">AEFFECT.DAT #13</title>
+			<title code="0x10e">AEFFECT.DAT #14</title>
+			<title code="0x10f">AEFFECT.DAT #15</title>
+			<title code="0x110">AEFFECT.DAT #16</title>
+			<title code="0x111">AEFFECT.DAT #17</title>
+			<title code="0x112">AEFFECT.DAT #18</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL外伝 タイニィステップ</name>
+		<name>[PC-9801] Cal Gaiden: Tiny Steps (キャル外伝 タイニィステップ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1074,31 +1074,31 @@
 			<title code="12">GAN.MDT</title>
 			<title code="13">TEL1.MDT</title>
 			<title code="14">TEL2.MDT</title>
-			<title code="0x100">EFFECT.DAT : 00</title>
-			<title code="0x101">EFFECT.DAT : 01</title>
-			<title code="0x102">EFFECT.DAT : 02</title>
-			<title code="0x103">EFFECT.DAT : 03</title>
-			<title code="0x104">EFFECT.DAT : 04</title>
-			<title code="0x105">EFFECT.DAT : 05</title>
-			<title code="0x106">EFFECT.DAT : 06</title>
-			<title code="0x107">EFFECT.DAT : 07</title>
-			<title code="0x108">EFFECT.DAT : 08</title>
-			<title code="0x109">EFFECT.DAT : 09</title>
-			<title code="0x10a">EFFECT.DAT : 10</title>
-			<title code="0x10b">EFFECT.DAT : 11</title>
-			<title code="0x10c">EFFECT.DAT : 12</title>
-			<title code="0x10d">EFFECT.DAT : 13</title>
-			<title code="0x10e">EFFECT.DAT : 14</title>
-			<title code="0x10f">EFFECT.DAT : 15</title>
-			<title code="0x110">EFFECT.DAT : 16</title>
-			<title code="0x111">EFFECT.DAT : 17</title>
-			<title code="0x112">EFFECT.DAT : 18</title>
+			<title code="0x100">EFFECT.DAT #00</title>
+			<title code="0x101">EFFECT.DAT #01</title>
+			<title code="0x102">EFFECT.DAT #02</title>
+			<title code="0x103">EFFECT.DAT #03</title>
+			<title code="0x104">EFFECT.DAT #04</title>
+			<title code="0x105">EFFECT.DAT #05</title>
+			<title code="0x106">EFFECT.DAT #06</title>
+			<title code="0x107">EFFECT.DAT #07</title>
+			<title code="0x108">EFFECT.DAT #08</title>
+			<title code="0x109">EFFECT.DAT #09</title>
+			<title code="0x10a">EFFECT.DAT #10</title>
+			<title code="0x10b">EFFECT.DAT #11</title>
+			<title code="0x10c">EFFECT.DAT #12</title>
+			<title code="0x10d">EFFECT.DAT #13</title>
+			<title code="0x10e">EFFECT.DAT #14</title>
+			<title code="0x10f">EFFECT.DAT #15</title>
+			<title code="0x110">EFFECT.DAT #16</title>
+			<title code="0x111">EFFECT.DAT #17</title>
+			<title code="0x112">EFFECT.DAT #18</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL リバイバル</name>
+		<name>[PC-9801] Cal Revival (キャル リバイバル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1140,25 +1140,25 @@
 			<title code="8" >人魚姫</title>
 			<title code="1" >アリス</title>
 			<title code="11">エンディング</title>
-			<title code="0x224">SE : 24</title>
-			<title code="0x225">SE : 25</title>
-			<title code="0x226">SE : 26</title>
-			<title code="0x227">SE : 27</title>
-			<title code="0x228">SE : 28</title>
-			<title code="0x229">SE : 29</title>
-			<title code="0x22a">SE : 2a</title>
-			<title code="0x22c">SE : 2c</title>
-			<title code="0x22d">SE : 2d</title>
-			<title code="0x22e">SE : 2e</title>
-			<title code="0x230">SE : 30</title>
-			<title code="0x231">SE : 31</title>
-			<title code="0x233">SE : 33</title>
+			<title code="0x224">SFX #24</title>
+			<title code="0x225">SFX #25</title>
+			<title code="0x226">SFX #26</title>
+			<title code="0x227">SFX #27</title>
+			<title code="0x228">SFX #28</title>
+			<title code="0x229">SFX #29</title>
+			<title code="0x22a">SFX #2a</title>
+			<title code="0x22c">SFX #2c</title>
+			<title code="0x22d">SFX #2d</title>
+			<title code="0x22e">SFX #2e</title>
+			<title code="0x230">SFX #30</title>
+			<title code="0x231">SFX #31</title>
+			<title code="0x233">SFX #33</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] CAL II リバイバル</name>
+		<name>[PC-9801] Cal II Revival (キャルII リバイバル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1216,35 +1216,35 @@
 			<title code="17">アイオーン1</title>
 			<title code="18">アイオーン2</title>
 			<title code="19">エンディング</title>
-			<title code="0x224">SE1 : 24</title>
-			<title code="0x225">SE1 : 25</title>
-			<title code="0x226">SE1 : 26</title>
-			<title code="0x227">SE1 : 27</title>
-			<title code="0x228">SE1 : 28</title>
-			<title code="0x229">SE1 : 29</title>
-			<title code="0x22a">SE1 : 2a</title>
-			<title code="0x22c">SE1 : 2c</title>
-			<title code="0x22d">SE1 : 2d</title>
-			<title code="0x22e">SE1 : 2e</title>
-			<title code="0x230">SE1 : 30</title>
-			<title code="0x231">SE1 : 31</title>
-			<title code="0x233">SE1 : 33</title>
-			<title code="0x100">SE2 : 00</title>
-			<title code="0x101">SE2 : 01</title>
-			<title code="0x102">SE2 : 02</title>
-			<title code="0x103">SE2 : 03</title>
-			<title code="0x104">SE2 : 04</title>
-			<title code="0x105">SE2 : 05</title>
-			<title code="0x106">SE2 : 06</title>
-			<title code="0x107">SE2 : 07</title>
-			<title code="0x108">SE2 : 08</title>
-			<title code="0x109">SE2 : 09</title>
+			<title code="0x224">SE1 #24</title>
+			<title code="0x225">SE1 #25</title>
+			<title code="0x226">SE1 #26</title>
+			<title code="0x227">SE1 #27</title>
+			<title code="0x228">SE1 #28</title>
+			<title code="0x229">SE1 #29</title>
+			<title code="0x22a">SE1 #2a</title>
+			<title code="0x22c">SE1 #2c</title>
+			<title code="0x22d">SE1 #2d</title>
+			<title code="0x22e">SE1 #2e</title>
+			<title code="0x230">SE1 #30</title>
+			<title code="0x231">SE1 #31</title>
+			<title code="0x233">SE1 #33</title>
+			<title code="0x100">SE2 #00</title>
+			<title code="0x101">SE2 #01</title>
+			<title code="0x102">SE2 #02</title>
+			<title code="0x103">SE2 #03</title>
+			<title code="0x104">SE2 #04</title>
+			<title code="0x105">SE2 #05</title>
+			<title code="0x106">SE2 #06</title>
+			<title code="0x107">SE2 #07</title>
+			<title code="0x108">SE2 #08</title>
+			<title code="0x109">SE2 #09</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PAL リバイバル</name>
+		<name>[PC-9801] Pal: Wonder Trip Chiduru Revival (PAL ～ワンダートリップ!ちづる～ リバイバル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1324,25 +1324,25 @@
 			<title code="0x1001c">アイオーン1</title>
 			<title code="0x1001d">アイオーン2</title>
 			<title code="0x1001e">エンディング</title>
-			<title code="0x224">SE : 24</title>
-			<title code="0x225">SE : 25</title>
-			<title code="0x226">SE : 26</title>
-			<title code="0x227">SE : 27</title>
-			<title code="0x228">SE : 28</title>
-			<title code="0x229">SE : 29</title>
-			<title code="0x22a">SE : 2a</title>
-			<title code="0x22c">SE : 2c</title>
-			<title code="0x22d">SE : 2d</title>
-			<title code="0x22e">SE : 2e</title>
-			<title code="0x230">SE : 30</title>
-			<title code="0x231">SE : 31</title>
-			<title code="0x233">SE : 33</title>
+			<title code="0x224">SFX #24</title>
+			<title code="0x225">SFX #25</title>
+			<title code="0x226">SFX #26</title>
+			<title code="0x227">SFX #27</title>
+			<title code="0x228">SFX #28</title>
+			<title code="0x229">SFX #29</title>
+			<title code="0x22a">SFX #2a</title>
+			<title code="0x22c">SFX #2c</title>
+			<title code="0x22d">SFX #2d</title>
+			<title code="0x22e">SFX #2e</title>
+			<title code="0x230">SFX #30</title>
+			<title code="0x231">SFX #31</title>
+			<title code="0x233">SFX #33</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JOKER</name>
+		<name>[PC-9801] Joker (ジョーカー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1426,9 +1426,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JOKER II</name>
+		<name>[PC-9801] Joker II (ジョーカーII) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1469,44 +1469,44 @@
 			<rom type="shell" offset="0">jo2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">JO102.MF1        : Beretta's Bar</title>
-			<title code="12">JO104.MF1        : Little Lily Laura</title>
-			<title code="13">JO105.MF1        : Targe City</title>
-			<title code="14">JO106.MF1        : Gray's Bar</title>
-			<title code="15">JO107.MF1        : Female</title>
+			<title code="11">Beretta's Bar</title>
+			<title code="12">Little Lily Laura</title>
+			<title code="13">Targe City</title>
+			<title code="14">Gray's Bar</title>
+			<title code="15">Female</title>
 <!--
 			<title code="16">JO108.MF1</title>
 -->
-			<title code="17">JO110.MF1        : Lady "S・Q"</title>
-			<title code="18">JO111.MF1        : So Far</title>
-			<title code="19">JO112.MF1        : Crisis</title>
-			<title code="20">JO116.MF1        : God Bless</title>
-			<title code="21">JO200.MF1        : Justice</title>
-			<title code="22">JO201.MF1        : Warrior</title>
-			<title code="23">JO202.MF1        : Lanie</title>
-			<title code="24">JO203.MF1        : Naughty Girl</title>
-			<title code="25">JO204.MF1        : She Dissolves Him</title>
-			<title code="26">JO205.MF1        : Luck &amp; Love</title>
-			<title code="27">JO206.MF1        : Blaze Blood Branca</title>
-			<title code="28">JO207.MF1        : Night Mare</title>
-			<title code="29">JO208.MF1        : Suspicious Solo</title>
-			<title code="31">JO210.MF1        : Joker</title>
-			<title code="30">JO209.MF1        : Whistle With Wind</title>
+			<title code="17">Lady "S・Q"</title>
+			<title code="18">So Far</title>
+			<title code="19">Crisis</title>
+			<title code="20">God Bless</title>
+			<title code="21">Justice</title>
+			<title code="22">Warrior</title>
+			<title code="23">Lanie</title>
+			<title code="24">Naughty Girl</title>
+			<title code="25">She Dissolves Him</title>
+			<title code="26">Luck &amp; Love</title>
+			<title code="27">Blaze Blood Branca</title>
+			<title code="28">Night Mare</title>
+			<title code="29">Suspicious Solo</title>
+			<title code="31">Joker</title>
+			<title code="30">Whistle With Wind</title>
 			<title code="32">JO2EFF0.MF1</title>
 			<title code="33">JO2EFF1.MF1</title>
 			<title code="34">JO2EFF2.MF1</title>
 			<title code="35">JO2EFF3.MF1</title>
-			<title code="0xff00">POKER.EF1   : 00</title>
-			<title code="0xff01">POKER.EF1   : 01</title>
-			<title code="0xff02">POKER.EF1   : 02</title>
-			<title code="0xff03">POKER.EF1   : 03</title>
-			<title code="0xff04">POKER.EF1   : 04</title>
+			<title code="0xff00">POKER.EF1 #00</title>
+			<title code="0xff01">POKER.EF1 #01</title>
+			<title code="0xff02">POKER.EF1 #02</title>
+			<title code="0xff03">POKER.EF1 #03</title>
+			<title code="0xff04">POKER.EF1 #04</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] キラキラ女・神・先・生</name>
+		<name>[PC-9801] Kirakira Megami Sensei! (キラキラ女・神・先・生!) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0060"/>
 			<option name="bootip" value="0x0000"/>
@@ -1546,31 +1546,31 @@
 			<title code="09">KIRA08.MFP</title>
 			<title code="10">KIRA09.MFP</title>
 			<title code="11">KIRA10.MFP</title>
-			<title code="0x100">KIRA_E.DAT : 00</title>
-			<title code="0x101">KIRA_E.DAT : 01</title>
-			<title code="0x102">KIRA_E.DAT : 02</title>
-			<title code="0x103">KIRA_E.DAT : 03</title>
-			<title code="0x104">KIRA_E.DAT : 04</title>
-			<title code="0x105">KIRA_E.DAT : 05</title>
-			<title code="0x106">KIRA_E.DAT : 06</title>
-			<title code="0x107">KIRA_E.DAT : 07</title>
-			<title code="0x108">KIRA_E.DAT : 08</title>
-			<title code="0x109">KIRA_E.DAT : 09</title>
-			<title code="0x10a">KIRA_E.DAT : 10</title>
-			<title code="0x10b">KIRA_E.DAT : 11</title>
-			<title code="0x10c">KIRA_E.DAT : 12</title>
-			<title code="0x10d">KIRA_E.DAT : 13</title>
-			<title code="0x10e">KIRA_E.DAT : 14</title>
-			<title code="0x10f">KIRA_E.DAT : 15</title>
-			<title code="0x110">KIRA_E.DAT : 16</title>
-			<title code="0x111">KIRA_E.DAT : 17</title>
-			<title code="0x112">KIRA_E.DAT : 18</title>
+			<title code="0x100">KIRA_E.DAT #00</title>
+			<title code="0x101">KIRA_E.DAT #01</title>
+			<title code="0x102">KIRA_E.DAT #02</title>
+			<title code="0x103">KIRA_E.DAT #03</title>
+			<title code="0x104">KIRA_E.DAT #04</title>
+			<title code="0x105">KIRA_E.DAT #05</title>
+			<title code="0x106">KIRA_E.DAT #06</title>
+			<title code="0x107">KIRA_E.DAT #07</title>
+			<title code="0x108">KIRA_E.DAT #08</title>
+			<title code="0x109">KIRA_E.DAT #09</title>
+			<title code="0x10a">KIRA_E.DAT #10</title>
+			<title code="0x10b">KIRA_E.DAT #11</title>
+			<title code="0x10c">KIRA_E.DAT #12</title>
+			<title code="0x10d">KIRA_E.DAT #13</title>
+			<title code="0x10e">KIRA_E.DAT #14</title>
+			<title code="0x10f">KIRA_E.DAT #15</title>
+			<title code="0x110">KIRA_E.DAT #16</title>
+			<title code="0x111">KIRA_E.DAT #17</title>
+			<title code="0x112">KIRA_E.DAT #18</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔天学園 ～地獄のラブラブ大作戦～</name>
+		<name>[PC-9801] Maten Gakuen: Jigoku no Love Love Daisakusen (魔天学園 ～地獄のラブラブ大作戦～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1633,31 +1633,31 @@
 			<title code="33">AHUBUKI.MUL</title>
 		<!--	<title code="34">AREST.MUL</title> -->
 			<title code="35">ATEL00.MUL</title>
-			<title code="0x100">BEFFECT.DAL : 00</title>
-			<title code="0x101">BEFFECT.DAL : 01</title>
-			<title code="0x102">BEFFECT.DAL : 02</title>
-			<title code="0x103">BEFFECT.DAL : 03</title>
-			<title code="0x104">BEFFECT.DAL : 04</title>
-			<title code="0x105">BEFFECT.DAL : 05</title>
-			<title code="0x106">BEFFECT.DAL : 06</title>
-			<title code="0x107">BEFFECT.DAL : 07</title>
-			<title code="0x108">BEFFECT.DAL : 08</title>
-			<title code="0x109">BEFFECT.DAL : 09</title>
-			<title code="0x10a">BEFFECT.DAL : 10</title>
-			<title code="0x10b">BEFFECT.DAL : 11</title>
-			<title code="0x10c">BEFFECT.DAL : 12</title>
-			<title code="0x10d">BEFFECT.DAL : 13</title>
-			<title code="0x10e">BEFFECT.DAL : 14</title>
-			<title code="0x10f">BEFFECT.DAL : 15</title>
-			<title code="0x110">BEFFECT.DAL : 16</title>
-			<title code="0x111">BEFFECT.DAL : 17</title>
-			<title code="0x112">BEFFECT.DAL : 18</title>
+			<title code="0x100">BEFFECT.DAL #00</title>
+			<title code="0x101">BEFFECT.DAL #01</title>
+			<title code="0x102">BEFFECT.DAL #02</title>
+			<title code="0x103">BEFFECT.DAL #03</title>
+			<title code="0x104">BEFFECT.DAL #04</title>
+			<title code="0x105">BEFFECT.DAL #05</title>
+			<title code="0x106">BEFFECT.DAL #06</title>
+			<title code="0x107">BEFFECT.DAL #07</title>
+			<title code="0x108">BEFFECT.DAL #08</title>
+			<title code="0x109">BEFFECT.DAL #09</title>
+			<title code="0x10a">BEFFECT.DAL #10</title>
+			<title code="0x10b">BEFFECT.DAL #11</title>
+			<title code="0x10c">BEFFECT.DAL #12</title>
+			<title code="0x10d">BEFFECT.DAL #13</title>
+			<title code="0x10e">BEFFECT.DAL #14</title>
+			<title code="0x10f">BEFFECT.DAL #15</title>
+			<title code="0x110">BEFFECT.DAL #16</title>
+			<title code="0x111">BEFFECT.DAL #17</title>
+			<title code="0x112">BEFFECT.DAL #18</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] My eyes!</name>
+		<name>[PC-9801] My Eyes! (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1694,30 +1694,30 @@
 		</romlist>
 		<titlelist>
 			<title code="0x12">MY01.MUS</title>
-			<title code="0x13">MY02.MUS   : Air travel on my mind</title>
-			<title code="0x14">MY03.MUS   : Keen bayonet</title>
-			<title code="0x15">MY04.MUS   : Can I play with the fortune</title>
-			<title code="0x16">MY06.MUS   : Negative cure</title>
-			<title code="0x17">MY07.MUS   : Relics</title>
-			<title code="0x18">MY08.MUS   : Hands ON (FIRE &amp; FLOWER)</title>
-			<title code="0x19">MY09.MUS   : Geometric glow</title>
-			<title code="0x1a">MY10.MUS   : Swell trail</title>
-			<title code="0x1b">MY11.MUS   : Jaw breaker</title>
-			<title code="0x1c">MY12.MUS   : Touch of the EVIL</title>
-			<title code="0x1d">MY13.MUS   : Feel at so easy</title>
-			<title code="0x1e">MY14.MUS   : Take time to speak "1,2,3"</title>
-			<title code="0x1f">MY15.MUS   : The gigi's talks died away</title>
-			<title code="0x20">MY16.MUS   : Storm rider</title>
-			<title code="0x21">MY17.MUS   : Dome echo</title>
-			<title code="0x22">MY18.MUS   : Polka-dot sky</title>
-			<title code="0x080010">CAL203.MUS : チェス (CAL2)</title>
-			<title code="0x0a0011">JO110.MUS  : Lady "S・Q" (JOKER2)</title>
+			<title code="0x13">Air travel on my mind</title>
+			<title code="0x14">Keen bayonet</title>
+			<title code="0x15">Can I play with the fortune</title>
+			<title code="0x16">Negative cure</title>
+			<title code="0x17">Relics</title>
+			<title code="0x18">Hands ON (Fire &amp; Flower)</title>
+			<title code="0x19">Geometric glow</title>
+			<title code="0x1a">Swell trail</title>
+			<title code="0x1b">Jaw breaker</title>
+			<title code="0x1c">Touch of the Evil</title>
+			<title code="0x1d">Feel at so easy</title>
+			<title code="0x1e">Take time to speak "1,2,3"</title>
+			<title code="0x1f">The gigi's talks died away</title>
+			<title code="0x20">Storm rider</title>
+			<title code="0x21">Dome echo</title>
+			<title code="0x22">Polka-dot sky</title>
+			<title code="0x080010">チェス (CAL2)</title>
+			<title code="0x0a0011">Lady "S・Q" (JOKER2)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PAL</name>
+		<name>[PC-9801] Pal: Wonder Trip Chiduru (PAL ～ワンダートリップ!ちづる～) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1797,25 +1797,25 @@
 			<title code="0x1001c">アイオーン1</title>
 			<title code="0x1001d">アイオーン2</title>
 			<title code="0x1001e">エンディング</title>
-			<title code="0x224">SE : 24</title>
-			<title code="0x225">SE : 25</title>
-			<title code="0x226">SE : 26</title>
-			<title code="0x227">SE : 27</title>
-			<title code="0x228">SE : 28</title>
-			<title code="0x229">SE : 29</title>
-			<title code="0x22a">SE : 2a</title>
-			<title code="0x22c">SE : 2c</title>
-			<title code="0x22d">SE : 2d</title>
-			<title code="0x22e">SE : 2e</title>
-			<title code="0x230">SE : 30</title>
-			<title code="0x231">SE : 31</title>
-			<title code="0x233">SE : 33</title>
+			<title code="0x224">SFX #24</title>
+			<title code="0x225">SFX #25</title>
+			<title code="0x226">SFX #26</title>
+			<title code="0x227">SFX #27</title>
+			<title code="0x228">SFX #28</title>
+			<title code="0x229">SFX #29</title>
+			<title code="0x22a">SFX #2a</title>
+			<title code="0x22c">SFX #2c</title>
+			<title code="0x22d">SFX #2d</title>
+			<title code="0x22e">SFX #2e</title>
+			<title code="0x230">SFX #30</title>
+			<title code="0x231">SFX #31</title>
+			<title code="0x233">SFX #33</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PIAS</name>
+		<name>[PC-9801] Pias (ピアス) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1841,19 +1841,19 @@
 			<rom type="bgm" offset="7" >__16.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00001">BGM 1</title>
-			<title code="0x00002">BGM 2</title>
-			<title code="0x00003">BGM 3</title>
-			<title code="0x00004">BGM 4</title>
-			<title code="0x00005">BGM 5</title>
-			<title code="0x00006">BGM 6</title>
-			<title code="0x00007">BGM 7</title>
+			<title code="0x00001">__10.DAT</title>
+			<title code="0x00002">__11.DAT</title>
+			<title code="0x00003">__12.DAT</title>
+			<title code="0x00004">__13.DAT</title>
+			<title code="0x00005">__14.DAT</title>
+			<title code="0x00006">__15.DAT</title>
+			<title code="0x00007">__16.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Rouge</name>
+		<name>[PC-9801] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -1884,27 +1884,27 @@
 			<rom type="bgm" offset="15">__0F.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >BGM  1</title>
-			<title code="2" >BGM  2</title>
-			<title code="3" >BGM  3</title>
-			<title code="4" >BGM  4</title>
-			<title code="5" >BGM  5</title>
-			<title code="6" >BGM  6</title>
-			<title code="7" >BGM  7</title>
-			<title code="8" >BGM  8</title>
-			<title code="9" >BGM  9</title>
-			<title code="10">BGM 10</title>
-			<title code="11">BGM 11</title>
-			<title code="12">BGM 12</title>
-			<title code="13">BGM 13</title>
-			<title code="14">BGM 14</title>
-			<title code="15">BGM 15</title>
+			<title code="1" >__01.DAT</title>
+			<title code="2" >__02.DAT</title>
+			<title code="3" >__03.DAT</title>
+			<title code="4" >__04.DAT</title>
+			<title code="5" >__05.DAT</title>
+			<title code="6" >__06.DAT</title>
+			<title code="7" >__07.DAT</title>
+			<title code="8" >__08.DAT</title>
+			<title code="9" >__09.DAT</title>
+			<title code="10">__0A.DAT</title>
+			<title code="11">__0B.DAT</title>
+			<title code="12">__0C.DAT</title>
+			<title code="13">__0D.DAT</title>
+			<title code="14">__0E.DAT</title>
+			<title code="15">__0F.DAT</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] SNOW MEMORY</name>
+		<name>[PC-9801] Snow Memory (スノーメモリー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1935,40 +1935,40 @@
 			<rom type="shell" offset="0">snowm_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">REST.MUF    : STOP</title>
-			<title code="12">SM000A.MUF  : オープニング</title>
-			<title code="13">SM001.MUF   : 美都のテーマ</title>
-			<title code="14">SM002.MUF   : 麗華のテーマ</title>
-			<title code="15">SM003.MUF   : 万理江のテーマ</title>
-			<title code="16">SM004.MUF   : 千秋のテーマ</title>
-			<title code="17">SM005.MUF   : しのびよる危険</title>
-			<title code="18">SM006.MUF   : オルゴール</title>
-			<title code="19">SM008.MUF   : 悲しみの少女</title>
-			<title code="20">SM010.MUF   : 沙夜理のテーマ</title>
-			<title code="21">SM011C.MUF  : 愛の交換</title>
-			<title code="22">SM012.MUF   : 別荘</title>
-			<title code="23">SM013.MUF   : ふれあい</title>
-			<title code="24">SM014.MUF   : 変身! 女王様</title>
-			<title code="25">SM015A.MUF  : 料理の鉄人</title>
-			<title code="26">SM016.MUF   : 3分クッキング</title>
-			<title code="27">SM017A.MUF  : エンディング</title>
-			<title code="28">SM017B.MUF  : スタッフロール</title>
-			<title code="0x101">SE.EFF : 01</title>
-			<title code="0x102">SE.EFF : 02</title>
-			<title code="0x103">SE.EFF : 03</title>
-			<title code="0x104">SE.EFF : 04</title>
-			<title code="0x105">SE.EFF : 05</title>
-			<title code="0x106">SE.EFF : 06</title>
-			<title code="0x107">SE.EFF : 07</title>
-			<title code="0x108">SE.EFF : 08</title>
-			<title code="0x109">SE.EFF : 09</title>
-			<title code="0x10a">SE.EFF : 10</title>
+			<title code="11">Stop the Music</title>
+			<title code="12">オープニング</title>
+			<title code="13">美都のテーマ</title>
+			<title code="14">麗華のテーマ</title>
+			<title code="15">万理江のテーマ</title>
+			<title code="16">千秋のテーマ</title>
+			<title code="17">しのびよる危険</title>
+			<title code="18">オルゴール</title>
+			<title code="19">悲しみの少女</title>
+			<title code="20">沙夜理のテーマ</title>
+			<title code="21">愛の交換</title>
+			<title code="22">別荘</title>
+			<title code="23">ふれあい</title>
+			<title code="24">変身! 女王様</title>
+			<title code="25">料理の鉄人</title>
+			<title code="26">3分クッキング</title>
+			<title code="27">エンディング</title>
+			<title code="28">スタッフロール</title>
+			<title code="0x101">SE.EFF #01</title>
+			<title code="0x102">SE.EFF #02</title>
+			<title code="0x103">SE.EFF #03</title>
+			<title code="0x104">SE.EFF #04</title>
+			<title code="0x105">SE.EFF #05</title>
+			<title code="0x106">SE.EFF #06</title>
+			<title code="0x107">SE.EFF #07</title>
+			<title code="0x108">SE.EFF #08</title>
+			<title code="0x109">SE.EFF #09</title>
+			<title code="0x10a">SE.EFF #10</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] THANATOS</name>
+		<name>[PC-9801] Thanatos (サナトス) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -2014,27 +2014,27 @@
 			<title code="11">__1A.DAT</title>
 			<title code="12">__1B.DAT</title>
 			<title code="13">__1C.DAT</title>
-			<title code="0x224">__05.DAT : 24</title>
-			<title code="0x225">__05.DAT : 25</title>
-			<title code="0x226">__05.DAT : 26</title>
-			<title code="0x227">__05.DAT : 27</title>
-			<title code="0x228">__05.DAT : 28</title>
-			<title code="0x229">__05.DAT : 29</title>
-			<title code="0x22a">__05.DAT : 2a</title>
-			<title code="0x22d">__05.DAT : 2d</title>
-			<title code="0x22e">__05.DAT : 2e</title>
-			<title code="0x230">__05.DAT : 30</title>
-			<title code="0x231">__05.DAT : 31</title>
-			<title code="0x233">__05.DAT : 33</title>
-			<title code="0x100">__06.DAT : 00</title>
-			<title code="0x101">__06.DAT : 01</title>
-			<title code="0x102">__06.DAT : 02</title>
+			<title code="0x224">__05.DAT #24</title>
+			<title code="0x225">__05.DAT #25</title>
+			<title code="0x226">__05.DAT #26</title>
+			<title code="0x227">__05.DAT #27</title>
+			<title code="0x228">__05.DAT #28</title>
+			<title code="0x229">__05.DAT #29</title>
+			<title code="0x22a">__05.DAT #2a</title>
+			<title code="0x22d">__05.DAT #2d</title>
+			<title code="0x22e">__05.DAT #2e</title>
+			<title code="0x230">__05.DAT #30</title>
+			<title code="0x231">__05.DAT #31</title>
+			<title code="0x233">__05.DAT #33</title>
+			<title code="0x100">__06.DAT #00</title>
+			<title code="0x101">__06.DAT #01</title>
+			<title code="0x102">__06.DAT #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOKER II</name>
+		<name>[X68000] Joker II (ジョーカーII) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -2065,33 +2065,33 @@
 			<rom type="code" offset="0xff000">JO210.MF1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">JO102.MF1 : Beretta's Bar</title>
-			<title code="0x02">JO104.MF1 : Little Lily Laura</title>
-			<title code="0x03">JO105.MF1 : Targe City</title>
-			<title code="0x04">JO106.MF1 : Gray's Bar</title>
-			<title code="0x05">JO107.MF1 : Female</title>
+			<title code="0x01">Beretta's Bar</title>
+			<title code="0x02">Little Lily Laura</title>
+			<title code="0x03">Targe City</title>
+			<title code="0x04">Gray's Bar</title>
+			<title code="0x05">Female</title>
 			<title code="0x06">JO108.MF1</title>
-			<title code="0x07">JO110.MF1 : Lady "S・Q"</title>
-			<title code="0x08">JO111.MF1 : So Far</title>
-			<title code="0x09">JO112.MF1 : Crisis</title>
-			<title code="0x0a">JO116.MF1 : God Bless</title>
-			<title code="0x0b">JO200.MF1 : Justice</title>
-			<title code="0x0c">JO201.MF1 : Warrior</title>
-			<title code="0x0d">JO202.MF1 : Lanie</title>
-			<title code="0x0e">JO203.MF1 : Naughty Girl</title>
-			<title code="0x0f">JO204.MF1 : She Dissolves Him</title>
-			<title code="0x10">JO205.MF1 : Luck &amp; Love</title>
-			<title code="0x11">JO206.MF1 : Blaze Blood Branca</title>
-			<title code="0x12">JO207.MF1 : Night Mare</title>
-			<title code="0x13">JO208.MF1 : Suspicious Solo</title>
-			<title code="0x15">JO210.MF1 : Joker</title>
-			<title code="0x14">JO209.MF1 : Whistle With Wind</title>
+			<title code="0x07">Lady "S・Q"</title>
+			<title code="0x08">So Far</title>
+			<title code="0x09">Crisis</title>
+			<title code="0x0a">God Bless</title>
+			<title code="0x0b">Justice</title>
+			<title code="0x0c">Warrior</title>
+			<title code="0x0d">Lanie</title>
+			<title code="0x0e">Naughty Girl</title>
+			<title code="0x0f">She Dissolves Him</title>
+			<title code="0x10">Luck &amp; Love</title>
+			<title code="0x11">Blaze Blood Branca</title>
+			<title code="0x12">Night Mare</title>
+			<title code="0x13">Suspicious Solo</title>
+			<title code="0x15">Joker</title>
+			<title code="0x14">Whistle With Wind</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] BIRDY WORLD</name>
+		<name>[X68000] Birdy World (バーディーワールド) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -2140,9 +2140,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] JOKER</name>
+		<name>[X68000] Joker (ジョーカー) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -2226,9 +2226,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] ARTEMIS</name>
+		<name>[X68000] Artemis (アルテミス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
 		</options>
@@ -2269,9 +2269,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] BEAST2 ～インキュバスター～</name>
+		<name>[X68000] Beast 2: Incubuster (ビースト2 ～インキュバスター～) </name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<romlist archive="beast268snd">
 			<rom type="code" offset="0x00000">bst268snd.bin</rom>
 			<rom type="x" offset="0x10000">BEAST2.X</rom>
@@ -2290,25 +2290,25 @@
 			<rom type="code" offset="0xeb000">BST211.MUF</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">BST208.MUF : チャイム</title>
-			<title code="0x09">BST209.MUF : 水滴</title>
-			<title code="0x07">BST207.MUF : 村角の恐怖</title>
-			<title code="0x01">BST201.MUF : ダンジョン6人秋物語</title>
-			<title code="0x06">BST206.MUF : The TAKE</title>
-			<title code="0x02">BST202.MUF : 命ある限り…</title>
-			<title code="0x0a">BST210.MUF : 静けさの中に</title>
-			<title code="0x05">BST205.MUF : 守るべきもの</title>
-			<title code="0x04">BST204.MUF : ラストバトル</title>
-			<title code="0x03">BST203.MUF : エンディング</title>
+			<title code="0x08">チャイム</title>
+			<title code="0x09">水滴</title>
+			<title code="0x07">村角の恐怖</title>
+			<title code="0x01">ダンジョン6人秋物語</title>
+			<title code="0x06">The TAKE</title>
+			<title code="0x02">命ある限り…</title>
+			<title code="0x0a">静けさの中に</title>
+			<title code="0x05">守るべきもの</title>
+			<title code="0x04">ラストバトル</title>
+			<title code="0x03">エンディング</title>
 <!--
-			<title code="0x0b">BST211.MUF : チャイム</title>
+			<title code="0x0b">チャイム</title>
 -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] My eyes!</name>
+		<name>[X68000] My Eyes! (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<romlist archive="myeyes68snd">
 			<rom type="code" offset="0x00000">meyes68snd.bin</rom>
 			<rom type="x" offset="0x10000">my_eyes.x</rom>
@@ -2334,28 +2334,28 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">MY01.MUS</title>
-			<title code="0x02">MY02.MUS : Air travel on my mind</title>
-			<title code="0x03">MY03.MUS : Keen bayonet</title>
-			<title code="0x04">MY04.MUS : Can I play with the fortune</title>
-			<title code="0x05">MY06.MUS : Negative cure</title>
-			<title code="0x06">MY07.MUS : Relics</title>
-			<title code="0x07">MY08.MUS : Hands ON (FIRE &amp; FLOWER)</title>
-			<title code="0x08">MY09.MUS : Geometric glow</title>
-			<title code="0x09">MY10.MUS : Swell trail</title>
-			<title code="0x0a">MY11.MUS : Jaw breaker</title>
-			<title code="0x0b">MY12.MUS : Touch of the EVIL</title>
-			<title code="0x0c">MY13.MUS : Feel at so easy</title>
-			<title code="0x0d">MY14.MUS : Take time to speak "1,2,3"</title>
-			<title code="0x0e">MY15.MUS : The gigi's talks died away</title>
-			<title code="0x0f">MY16.MUS : Storm rider</title>
-			<title code="0x10">MY17.MUS : Dome echo</title>
-			<title code="0x11">MY18.MUS : Polka-dot sky</title>
+			<title code="0x02">Air travel on my mind</title>
+			<title code="0x03">Keen bayonet</title>
+			<title code="0x04">Can I play with the fortune</title>
+			<title code="0x05">Negative cure</title>
+			<title code="0x06">Relics</title>
+			<title code="0x07">Hands On (Fire &amp; Flower)</title>
+			<title code="0x08">Geometric glow</title>
+			<title code="0x09">Swell trail</title>
+			<title code="0x0a">Jaw breaker</title>
+			<title code="0x0b">Touch of the Evil</title>
+			<title code="0x0c">Feel at so easy</title>
+			<title code="0x0d">Take time to speak "1, 2, 3"</title>
+			<title code="0x0e">The gigi's talks died away</title>
+			<title code="0x0f">Storm rider</title>
+			<title code="0x10">Dome echo</title>
+			<title code="0x11">Polka-dot sky</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] HOLE CHASER</name>
+		<name>[PC-9801] Hole Chaser (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -2383,23 +2383,23 @@
 			<rom type="bgm" offset="11">VIS1.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="1" >OP.DAT  : オープニング</title>
-			<title code="2" >BGM1.M  : BGM1</title>
-			<title code="3" >BGM2.M  : BGM2</title>
-			<title code="4" >BGM3.M  : BGM3</title>
-			<title code="5" >BGM4.M  : BGM4</title>
-			<title code="6" >BGM5.M  : BGM5</title>
-			<title code="7" >BGM6.M  : BGM6</title>
-			<title code="8" >CLR.M   : VISUAL</title>
-			<title code="9" >END.M   : ENDING</title>
-			<title code="10">GOVER.M : ST.クリア</title>
-			<title code="11">VIS1.M  : G.OVER</title>
+			<title code="1" >オープニング</title>
+			<title code="2" >BGM1.M</title>
+			<title code="3" >BGM2.M</title>
+			<title code="4" >BGM3.M</title>
+			<title code="5" >BGM4.M</title>
+			<title code="6" >BGM5.M</title>
+			<title code="7" >BGM6.M</title>
+			<title code="8" >Visual</title>
+			<title code="9" >Ending</title>
+			<title code="10">ST.クリア</title>
+			<title code="11">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] BIRDY WORLD</name>
+		<name>[MSX] Birdy World (バーディーワールド)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2437,13 +2437,13 @@
 			<title code="0x0a">BW12</title>
 			<title code="0x0b">BW13</title>
 			<title code="0x0c">BW14</title>
-			<range min="0x0100" max="0x010c" extcode="0">SE : %02x</range>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] CAL</name>
+		<name>[MSX] Cal (キャル)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2466,24 +2466,24 @@
 			<rom type="bgm" offset="0x0a">MUHP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">MU09 : 結城美加</title>
-			<title code="0x04">MU05 : ヴィーナス</title>
-			<title code="0x02">MU03 : マッチ売りの少女</title>
-			<title code="0x01">MU02 : ラプンセル</title>
-			<title code="0x09">MU10 : 眠り姫</title>
-			<title code="0x03">MU04 : シンデレラ</title>
-			<title code="0x05">MU06 : 赤ずきんさん</title>
-			<title code="0x06">MU07 : ウェンディ</title>
-			<title code="0x07">MU08 : 人魚姫</title>
-			<title code="0x00">MU01 : アリス</title>
-			<title code="0x0a">MUHP : エンディング</title>
-			<range min="0x0100" max="0x010c" extcode="0">SE : %02x</range>
+			<title code="0x08">結城美加</title>
+			<title code="0x04">ヴィーナス</title>
+			<title code="0x02">マッチ売りの少女</title>
+			<title code="0x01">ラプンセル</title>
+			<title code="0x09">眠り姫</title>
+			<title code="0x03">シンデレラ</title>
+			<title code="0x05">赤ずきんさん</title>
+			<title code="0x06">ウェンディ</title>
+			<title code="0x07">人魚姫</title>
+			<title code="0x00">アリス</title>
+			<title code="0x0a">エンディング</title>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] CAL II</name>
+		<name>[MSX] Cal II (キャルII)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2513,31 +2513,31 @@
 			<rom type="bgm" offset="0x11">MU17</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">MU00 : 結城美加</title>
-			<title code="0x01">MU01 : オープニング</title>
-			<title code="0x02">MU02 : ヴィーナス</title>
-			<title code="0x03">MU03 : チェス</title>
-			<title code="0x04">MU04 : ブレーメル</title>
-			<title code="0x05">MU05 : アーシュロット</title>
-			<title code="0x06">MU06 : ジュリエット</title>
-			<title code="0x07">MU07 : ラベンナ</title>
-			<title code="0x08">MU08 : アルタミラ</title>
-			<title code="0x09">MU09 : 山吹皇女</title>
-			<title code="0x0a">MU10 : 秀蘭</title>
-			<title code="0x0b">MU11 : リョーコ</title>
-			<title code="0x0c">MU12 : シェラザード</title>
-			<title code="0x0d">MU13 : キャロル</title>
-			<title code="0x0e">MU14 : クレオパトラ</title>
-			<title code="0x0f">MU15 : マップ</title>
-			<title code="0x10">MU16 : アイオーン1</title>
-			<title code="0x11">MU17 : アイオーン2</title>
-			<range min="0x0100" max="0x010c" extcode="0">SE : %02x</range>
+			<title code="0x00">結城美加</title>
+			<title code="0x01">オープニング</title>
+			<title code="0x02">ヴィーナス</title>
+			<title code="0x03">チェス</title>
+			<title code="0x04">ブレーメル</title>
+			<title code="0x05">アーシュロット</title>
+			<title code="0x06">ジュリエット</title>
+			<title code="0x07">ラベンナ</title>
+			<title code="0x08">アルタミラ</title>
+			<title code="0x09">山吹皇女</title>
+			<title code="0x0a">秀蘭</title>
+			<title code="0x0b">リョーコ</title>
+			<title code="0x0c">シェラザード</title>
+			<title code="0x0d">キャロル</title>
+			<title code="0x0e">クレオパトラ</title>
+			<title code="0x0f">マップ</title>
+			<title code="0x10">アイオーン1</title>
+			<title code="0x11">アイオーン2</title>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] JOKER</name>
+		<name>[MSX] Joker (ジョーカー)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2582,9 +2582,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] JOKER II</name>
+		<name>[MSX] Joker II (ジョーカーII)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2615,32 +2615,32 @@
 			<rom type="bgm" offset="0x12">JO210</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">JO102 : Beretta's Bar</title>
-			<title code="0x01">JO104 : Little Lily Laura</title>
-			<title code="0x02">JO105 : Targe City</title>
-			<title code="0x03">JO106 : Gray's Bar</title>
-			<title code="0x04">JO107 : Female</title>
-			<title code="0x05">JO110 : Lady "S・Q"</title>
-			<title code="0x06">JO111 : So Far</title>
-			<title code="0x07">JO112 : Crisis</title>
-			<title code="0x08">JO116 : God Bless</title>
-			<title code="0x09">JO201 : Warrior</title>
-			<title code="0x0a">JO202 : Lanie</title>
-			<title code="0x0b">JO203 : Naughty Girl</title>
-			<title code="0x0c">JO204 : She Dissolves Him</title>
-			<title code="0x0d">JO205 : Luck &amp; Love</title>
-			<title code="0x0e">JO206 : Blaze Blood Branca</title>
-			<title code="0x0f">JO207 : Night Mare</title>
-			<title code="0x10">JO208 : Suspicious Solo</title>
-			<title code="0x12">JO210 : Joker</title>
-			<title code="0x11">JO209 : Whistle With Wind</title>
-			<range min="0x0100" max="0x010c" extcode="0">SE : %02x</range>
+			<title code="0x00">Beretta's Bar</title>
+			<title code="0x01">Little Lily Laura</title>
+			<title code="0x02">Targe City</title>
+			<title code="0x03">Gray's Bar</title>
+			<title code="0x04">Female</title>
+			<title code="0x05">Lady "S・Q"</title>
+			<title code="0x06">So Far</title>
+			<title code="0x07">Crisis</title>
+			<title code="0x08">God Bless</title>
+			<title code="0x09">Warrior</title>
+			<title code="0x0a">Lanie</title>
+			<title code="0x0b">Naughty Girl</title>
+			<title code="0x0c">She Dissolves Him</title>
+			<title code="0x0d">Luck &amp; Love</title>
+			<title code="0x0e">Blaze Blood Branca</title>
+			<title code="0x0f">Night Mare</title>
+			<title code="0x10">Suspicious Solo</title>
+			<title code="0x12">Joker</title>
+			<title code="0x11">Whistle With Wind</title>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] THANATOS</name>
+		<name>[MSX] Thanatos (サナトス)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2681,9 +2681,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] PIAS</name>
+		<name>[MSX] Pias (ピアス)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2702,19 +2702,19 @@
 			<rom type="bgm" offset="0x06">M_P8</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">M_P1 : BGM 1</title>
-			<title code="0x01">M_P2 : BGM 2</title>
-			<title code="0x02">M_P3 : BGM 3</title>
-			<title code="0x03">M_P4 : BGM 4</title>
-			<title code="0x04">M_P5 : BGM 5</title>
-			<title code="0x05">M_P6 : BGM 6</title>
-			<title code="0x06">M_P8 : BGM 7</title>
+			<title code="0x00">M_P1</title>
+			<title code="0x01">M_P2</title>
+			<title code="0x02">M_P3</title>
+			<title code="0x03">M_P4</title>
+			<title code="0x04">M_P5</title>
+			<title code="0x05">M_P6</title>
+			<title code="0x06">M_P8</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] BEAST リバイバル</name>
+		<name>[PC-9801] Beast Revival (ビースト リバイバル)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">BIRDY SOFT</driveralias>
+		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
 			<option name="bootcs" value="0x0100"/>
 			<option name="bootip" value="0x0000"/>
@@ -2754,24 +2754,24 @@
 			<title code="8" >__0F.DAT</title>
 			<title code="9" >__10.DAT</title>
 			<title code="10">__11.DAT</title>
-			<title code="0x224">__3F.DAT : 24</title>
-			<title code="0x225">__3F.DAT : 25</title>
-			<title code="0x226">__3F.DAT : 26</title>
-			<title code="0x227">__3F.DAT : 27</title>
-			<title code="0x228">__3F.DAT : 28</title>
-			<title code="0x229">__3F.DAT : 29</title>
-			<title code="0x22a">__3F.DAT : 2a</title>
-			<title code="0x22d">__3F.DAT : 2d</title>
-			<title code="0x22e">__3F.DAT : 2e</title>
-			<title code="0x230">__3F.DAT : 30</title>
-			<title code="0x231">__3F.DAT : 31</title>
-			<title code="0x233">__3F.DAT : 33</title>
+			<title code="0x224">__3F.DAT #24</title>
+			<title code="0x225">__3F.DAT #25</title>
+			<title code="0x226">__3F.DAT #26</title>
+			<title code="0x227">__3F.DAT #27</title>
+			<title code="0x228">__3F.DAT #28</title>
+			<title code="0x229">__3F.DAT #29</title>
+			<title code="0x22a">__3F.DAT #2a</title>
+			<title code="0x22d">__3F.DAT #2d</title>
+			<title code="0x22e">__3F.DAT #2e</title>
+			<title code="0x230">__3F.DAT #30</title>
+			<title code="0x231">__3F.DAT #31</title>
+			<title code="0x233">__3F.DAT #33</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] BEAST ～淫獣の館～</name>
+		<name>[MSX] Beast: Injuu no Yakata (ビースト ～淫獣の館～)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2806,9 +2806,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] BEAST2 ～インキュバスター～</name>
+		<name>[MSX2] Beast 2: Incubuster (ビースト2 ～インキュバスター～)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BIRDY SOFT</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
@@ -2830,24 +2830,24 @@
 			<rom type="bgm" offset="0x09">BST210</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">BST209 : 水滴</title>
-			<title code="0x06">BST207 : 村角の恐怖</title>
-			<title code="0x00">BST201 : ダンジョン6人秋物語</title>
-			<title code="0x05">BST206 : The TAKE</title>
-			<title code="0x01">BST202 : 命ある限り…</title>
-			<title code="0x09">BST210 : 静けさの中に</title>
-			<title code="0x04">BST205 : 守るべきもの</title>
-			<title code="0x03">BST204 : ラストバトル</title>
-			<title code="0x02">BST203 : エンディング</title>
+			<title code="0x08">水滴</title>
+			<title code="0x06">村角の恐怖</title>
+			<title code="0x00">ダンジョン6人秋物語</title>
+			<title code="0x05">The TAKE</title>
+			<title code="0x01">命ある限り…</title>
+			<title code="0x09">静けさの中に</title>
+			<title code="0x04">守るべきもの</title>
+			<title code="0x03">ラストバトル</title>
+			<title code="0x02">エンディング</title>
 			<!--
-			<title code="0x07">BST208 : チャイム</title>
+			<title code="0x07">チャイム</title>
 			  -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] BEAST ～淫獣の館～</name>
+		<name>[X68000] Beast: Injuu no Yakata (ビースト ～淫獣の館～)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2875,9 +2875,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CAL</name>
+		<name>[X68000] Cal (キャル)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2922,13 +2922,13 @@
 			<title code="0x08">人魚姫</title>
 			<title code="0x01">アリス</title>
 			<title code="0x0b">エンディング</title>
-			<range min="0x0c" max="0x15" extcode="0">BEAST BGM %d</range>
+			<range min="0x0c" max="0x15" extcode="0">BEAST BGM #%d</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] CAL II</name>
+		<name>[X68000] Cal II (キャルII)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2983,9 +2983,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] PIAS</name>
+		<name>[X68000] Pias (ピアス)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3002,13 +3002,13 @@
 			<rom type="code" offset="0x0a0000">PIAS_A05</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x07" extcode="1">BGM %d</range>
+			<range min="0x01" max="0x07" extcode="1">BGM #%d</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] THANATOS</name>
+		<name>[X68000] Thanatos (サナトス)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3035,13 +3035,13 @@
 			<rom type="code" offset="0x09e0c0">THANATOS_A07</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0d" extcode="1">BGM %02d</range>
+			<range min="0x01" max="0x0d" extcode="1">BGM #%02d</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Rouge</name>
+		<name>[X68000] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">BIRDY SOFT</driveralias>
+		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -3066,7 +3066,7 @@
 			<rom type="code" offset="0x0a0000">ROUGE_A05</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0f" extcode="1">BGM %d</range>
+			<range min="0x01" max="0x0f" extcode="1">BGM #%d</range>
 		</titlelist>
 	</game>
 </gamelist>
