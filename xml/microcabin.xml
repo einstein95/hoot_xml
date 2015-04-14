@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] Xak - The Art of Visual Stage -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">Micro Cabin</driveralias>
 		<romlist archive="xak68snd">
 			<rom type="code">xak68snd.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -149,9 +149,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] カーマイン88</name>
+		<name>[PC-8801] Carmine (カーマイン88) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2a00"/>
 			<option name="mfile_size" value="0x2a00"/>
@@ -163,14 +163,14 @@
 			<rom type="bgm" offset="0x01">M001</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">M001 : オープニング</title>
-			<title code="0x00">M000 : エンディング</title>
+			<title code="0x01">オープニング</title>
+			<title code="0x00">エンディング</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] めぞん一刻 ～想いでのフォトグラフ～</name>
+		<name>[PC-8801] Mezon Ikkoku: Omoide no Photograph (めぞん一刻 ～想いでのフォトグラフ～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x4800"/>
@@ -184,14 +184,14 @@
 			<rom type="bgm" offset="0x01">M001</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">M000 : 悲しみよこんにちは</title>
-			<title code="0x01">M001 : シ・ネ・マ</title>
+			<title code="0x00">悲しみよこんにちは</title>
+			<title code="0x01">シ・ネ・マ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] めぞん一刻・完結篇 ～さよなら、そして～</name>
+		<name>[PC-8801] Maison Ikkoku Kanketsu hen: Sayonara, Soshite (めぞん一刻・完結篇 ～さよなら、そして～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<romlist archive="maisonk">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x75b0">MUSIC88.COM</rom>
@@ -214,7 +214,7 @@
 	<game>
 		<name>[PC-8801] うる星やつら ～恋のサバイバル・バースディ～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<romlist archive="urusei">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x9500">MUSIC88.COM</rom>
@@ -233,7 +233,7 @@
 	<game>
 		<name>[PC-8801] セイレーン</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="use_pcmx8" value="0x01"/>
 		</options>
@@ -277,7 +277,7 @@
 	<game>
 		<name>[PC-8801] きまぐれオレンジロード ～夏のミラージュ～</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x032b"/>
 		</options>
@@ -304,7 +304,7 @@
 	<game>
 		<name>[PC-8801] What's Michael?</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x032b"/>
 		</options>
@@ -339,7 +339,7 @@
 	<game>
 		<name>[PC-8801] Xak - The Art of Visual Stage -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf400"/>
 			<option name="mdata_size" value="0x0c00"/>
@@ -519,7 +519,7 @@
 	<game>
 		<name>[PC-8801] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -679,7 +679,7 @@
 	<game>
 		<name>[PC-8801] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">MICROCABIN</driveralias>
+		<driveralias type="PC-8801">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf000"/>
 			<option name="mdata_size" value="0x0c00"/>
@@ -821,7 +821,7 @@
 	<game>
 		<name>[PC-9801] うる星やつら ～恋のサバイバル・バースデイ～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -844,7 +844,7 @@
 	<game>
 		<name>[PC-9801] めぞん一刻完結篇 ～さよなら、そして～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<romlist archive="maisok98">
 			<rom type="file" offset="-1">mmd.com</rom>
 			<rom type="file" offset="-1">MMD.SYS</rom>
@@ -870,7 +870,7 @@
 	<game>
 		<name>[PC-9801] きまぐれオレンジロード ～夏のミラージュ～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -899,7 +899,7 @@
 	<game>
 		<name>[PC-9801] What's Michael?</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -936,7 +936,7 @@
 	<game>
 		<name>[PC-9801] Xak - The Art of Visual Stage -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1075,7 +1075,7 @@
 	<game>
 		<name>[PC-9801] KAX - グリーンアスパラの観る夢 -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1118,7 +1118,7 @@
 	<game>
 		<name>[PC-9801] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1252,7 +1252,7 @@
 	<game>
 		<name>[PC-9801] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1381,7 +1381,7 @@
 	<game>
 		<name>[PC-9801] FRAY - In magical adventure -</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1466,7 +1466,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1576,7 +1576,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(MT-32)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1676,7 +1676,7 @@
 	<game>
 		<name>[PC-9801] 幻影都市 - Illusion City -(MT-32 Emulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1774,7 +1774,7 @@
 	<game>
 		<name>[PC-9801] ELMKNIGHT</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<!-- 音色の対応が未確認です -->
 		<options>
 			<option name="clockmul" value="8"/>
@@ -1869,7 +1869,7 @@
 	<game>
 		<name>[PC-9801] カックス2世</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1917,7 +1917,7 @@
 		<name>[PC-9801] The Tower(?) of CABIN ～キャビンパニック～</name>
 		<!-- 音色の対応が未確認です -->
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2106,7 +2106,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(OPN)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2186,7 +2186,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(CM-64)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2259,7 +2259,7 @@
 	<game>
 		<name>[PC-9801] Xak III - The eternal reccurence -(GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -2332,7 +2332,7 @@
 	<game>
 		<name>[PC-9801] Dragon Half</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2407,7 +2407,7 @@
 	<game>
 		<name>[PC-9801] 英雄志願 ～GAL･ACT･HEROISM～</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2466,7 +2466,7 @@
 	<game>
 		<name>[PC-9801] 紺碧の艦隊</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2499,7 +2499,7 @@
 	<game>
 		<name>[PC-9801] 紺碧の艦隊2パーフェクト</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2544,7 +2544,7 @@
 	<game>
 		<name>[PC-9801] セイレーン</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2571,7 +2571,7 @@
 	<game>
 		<name>[PC-9801] カックス3世</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">MICROCABIN</driveralias>
+		<driveralias type="PC-9801">Micro Cabin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2640,7 +2640,7 @@
 	<game>
 		<name>[X1] めぞん一刻 ～想いでのフォトグラフ～</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">MICROCABIN</driveralias>
+		<driveralias type="X1">Micro Cabin</driveralias>
 		<romlist archive="x1maison">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xb000">DRIVER</rom>
@@ -2654,7 +2654,7 @@
 	<game>
 		<name>[X1] めぞん一刻 ～想いでのフォトグラフ～ (Disk3:DEMO)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="X1">MICROCABIN</driveralias>
+		<driveralias type="X1">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0xc000"/>
@@ -2678,7 +2678,7 @@
 	<game>
 		<name>[X1] うる星やつら ～恋のサバイバル・バースデイ～</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">MICROCABIN</driveralias>
+		<driveralias type="X1">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa900"/>
 		</options>
@@ -2700,7 +2700,7 @@
 	<game>
 		<name>[X1] めぞん一刻 完結篇 ～さよなら、そして～(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="X1">MICROCABIN</driveralias>
+		<driveralias type="X1">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2722,7 +2722,7 @@
 	<game>
 		<name>[X1] めぞん一刻 完結篇 ～さよなら、そして～(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">MICROCABIN</driveralias>
+		<driveralias type="X1">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc" value="0xf000"/>
 		</options>
@@ -2744,7 +2744,7 @@
 	<game>
 		<name>[X68000] めぞん一刻完結篇 スペシャル</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">Micro Cabin</driveralias>
 		<romlist archive="maison68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -2777,7 +2777,7 @@
 	<game>
 		<name>[PC-88VA] Xak II - Rising of The Redmoon -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">Micro Cabin</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -2911,7 +2911,7 @@
 	<game>
 		<name>[PC-88VA] The Tower of GAZZEL -ガゼルの塔-</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">Micro Cabin</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -3040,7 +3040,7 @@
 	<game>
 		<name>[PC-88VA] FRAY - In magical adventure -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">Micro Cabin</driveralias>
 		<options>
 			<option name="opn_mix"  value="0x100"/>
 		</options>
@@ -3125,7 +3125,7 @@
 	<game>
 		<name>[PC-88VA] 幻影都市 - Illusion City -</name>
 		<driver type="opn">pc88vados</driver>
-		<driveralias type="PC-88VA">MICROCABIN</driveralias>
+		<driveralias type="PC-88VA">Micro Cabin</driveralias>
 		<options>
 			<option name="opn_mix" value="0x100"/>
 		</options>
@@ -3235,7 +3235,7 @@
 	<game>
 		<name>[MSX] FINAL FANTASY(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -3298,7 +3298,7 @@
 	<game>
 		<name>[MSX] FINAL FANTASY(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -3360,7 +3360,7 @@
 	<game>
 		<name>[MSX] FRAY - In magical adventure -(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -3608,7 +3608,7 @@
 	<game>
 		<name>[MSX] FRAY - In magical adventure -(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -3855,7 +3855,7 @@
 	<game>
 		<name>[MSX] PRINCESS MAKER(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb600"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -3926,7 +3926,7 @@
 	<game>
 		<name>[MSX] PRINCESS MAKER(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb600"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -3994,7 +3994,7 @@
 	<game>
 		<name>[MSX] SUPER大戦略</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -4016,7 +4016,7 @@
 	<game>
 		<name>[MSX] What's Michael?(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -4054,7 +4054,7 @@
 	<game>
 		<name>[MSX] What's Michael?(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -4091,7 +4091,7 @@
 	<game>
 		<name>[MSX] Xak - The Art of Visual Stage -(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc600"/>
 			<option name="mdata_size" value="0xa00"/>
@@ -4343,7 +4343,7 @@
 	<game>
 		<name>[MSX] Xak - The Art of Visual Stage -(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc600"/>
 			<option name="mdata_size" value="0xa00"/>
@@ -4594,7 +4594,7 @@
 	<game>
 		<name>[MSX] Xak II - Rising of The Redmoon -(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc200"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -4863,7 +4863,7 @@
 	<game>
 		<name>[MSX] Xak II - Rising of The Redmoon -(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc200"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -5131,7 +5131,7 @@
 	<game>
 		<name>[MSX] うる星やつら ～恋のサバイバル・バースディ～</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -5156,7 +5156,7 @@
 	<game>
 		<name>[MSX] きまぐれオレンジロード ～夏のミラージュ～(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -5186,7 +5186,7 @@
 	<game>
 		<name>[MSX] きまぐれオレンジロード ～夏のミラージュ～(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0xe00"/>
@@ -5215,7 +5215,7 @@
 	<game>
 		<name>[MSX] めぞん一刻完結篇 ～さよなら、そして～(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8300"/>
 			<option name="mdata_size" value="0xd00"/>
@@ -5245,7 +5245,7 @@
 	<game>
 		<name>[MSX] めぞん一刻完結篇 ～さよなら、そして～(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8300"/>
 			<option name="mdata_size" value="0xd00"/>
@@ -5274,7 +5274,7 @@
 	<game>
 		<name>[MSX] キャンペーン版大戦略 II(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x1200"/>
@@ -5319,7 +5319,7 @@
 	<game>
 		<name>[MSX] キャンペーン版大戦略 II(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x1200"/>
@@ -5363,7 +5363,7 @@
 	<game>
 		<name>[MSX] セイレーン</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa100"/>
 			<option name="mdata_size" value="0xc00"/>
@@ -5384,7 +5384,7 @@
 	<game>
 		<name>[MSX] 倉庫番Perfect(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x800"/>
@@ -5418,7 +5418,7 @@
 	<game>
 		<name>[MSX] 倉庫番Perfect(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x800"/>
@@ -5451,7 +5451,7 @@
 	<game>
 		<name>[MSX] The Tower of GAZZEL -ガゼルの塔-(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc100"/>
 			<option name="mdata_size" value="0xd00"/>
@@ -5856,7 +5856,7 @@
 	<game>
 		<name>[MSX] The Tower of GAZZEL -ガゼルの塔-(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc100"/>
 			<option name="mdata_size" value="0xd00"/>
@@ -6254,7 +6254,7 @@
 	<game>
 		<name>[MSX] 幻影都市 - Illusion City -</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9980"/>
 			<option name="mdata_size" value="0x1400"/>
@@ -6529,7 +6529,7 @@
 	<game>
 		<name>[MSX] めぞん一刻 ～想いでのフォトグラフ～</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">MICROCABIN</driveralias>
+		<driveralias type="MSX">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0400"/>
 		</options>
@@ -6546,7 +6546,7 @@
 	<game>
 		<name>[X68000] Xak II - Rising of The Redmoon -</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">MICROCABIN</driveralias>
+		<driveralias type="X68000">Micro Cabin</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -6615,7 +6615,7 @@
 	<game>
 		<name>[FM77AV] うる星やつら ～恋のサバイバル・バースディ～</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">MICROCABIN</driveralias>
+		<driveralias type="FM77AV">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc"    value="0x1000"/>
 			<option name="mdata_addr" value="0x7000"/>
@@ -6641,7 +6641,7 @@
 	<game>
 		<name>[FM77AV] めぞん一刻・完結篇 ～さよなら、そして～</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">MICROCABIN</driveralias>
+		<driveralias type="FM77AV">Micro Cabin</driveralias>
 		<options>
 			<option name="init_pc"    value="0x0000"/>
 			<option name="mdata_addr" value="0x7000"/>
