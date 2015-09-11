@@ -212,7 +212,7 @@
 			<title code="0xbd">Credit</title>
 			<title code="0xa6">Player Start</title>
 			<title code="0xa9">Round 1, 4-2</title>
-			<title code="0xbf">Round 1-2 </title>
+			<title code="0xbf">Round 1-2</title>
 			<title code="0xb4">Round 1 Boss</title>
 			<title code="0xb5">Round 1, 4 Clear</title>
 			<title code="0xb6">Bridge A</title>
@@ -281,18 +281,20 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Jaleco Mega System 1] Iga Ninjyutsuden (伊賀忍術伝 -五神の書-) (YM2151+MSM6295x2)</name>
+		<name>[Jaleco Mega System 1] Ninja Kazan (伊賀忍術伝 -五神の書-) (YM2151+MSM6295x2)</name>
 		<driver type="megasys1">jaleco</driver>
 		<driveralias type="Arcade">Jaleco</driveralias>
 		<options>
 			<option name="opm_mix" value="0xcd"/>
 			<option name="pcm_mix" value="0x43"/>
 		</options>
-		<romlist archive="iganinju">
-			<rom type="code" offset="0x00000">iga_05.bin</rom>
-			<rom type="code" offset="0x10000">iga_06.bin</rom>
-			<rom type="pcm1" offset="0x00000">iga_10.bin</rom>
-			<rom type="pcm2" offset="0x00000">iga_08.bin</rom>
+		<romlist archive="kazan">
+			<rom type="code" offset="0x000000">iga_05.bin</rom>
+			<rom type="code" offset="0x010000">iga_06.bin</rom>
+			<rom type="pcm1" offset="0x000000">kazan.9</rom>
+			<rom type="pcm1" offset="0x020000">kazan.10</rom>
+			<rom type="pcm2" offset="0x000000">kazan.7</rom>
+			<rom type="pcm2" offset="0x020000">kazan.8</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x04">Title Demo</title>
@@ -380,7 +382,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Jaleco Mega System 1] P-47: The Phantom Fighter (YM2151+MSM6295x2)</name>
+		<name>[Jaleco Mega System 1] P-47: The Freedom Fighter (YM2151+MSM6295x2)</name>
 		<driver type="megasys1">jaleco</driver>
 		<driveralias type="Arcade">Jaleco</driveralias>
 		<options>
@@ -419,7 +421,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Jaleco Mega System 1] Takeda Shingen (武田信玄) (YM2151+MSM6295x2)</name>
+		<name>[Jaleco Mega System 1] Shingen Samurai-Fighter (武田信玄) (YM2151+MSM6295x2)</name>
 		<driver type="megasys1">jaleco</driver>
 		<driveralias type="Arcade">Jaleco</driveralias>
 		<options>
@@ -921,7 +923,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Model 2B] Super GT 24h (スーパーＧＴ２４Ｈ) (SCSP)</name>
+		<name>[Model 2B] Super GT 24h (スーパーGT24H) (SCSP)</name>
 		<driver type="model2a">sega</driver>
 		<driveralias type="Arcade">Jaleco</driveralias>
 		<options>
@@ -933,17 +935,17 @@
 			<rom type="pcm" offset="0x000000">mpr-19154.32</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
+			<title code="0x00">Select</title>
 			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
 			<title code="0x03">BGM #03</title>
 			<title code="0x04">BGM #04</title>
 			<title code="0x05">BGM #05</title>
 			<title code="0x06">BGM #06</title>
+			<title code="0x02">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[Model 2B] Overrev (オーバーレブ) (SCSP)</name>
+		<name>[Model 2B] Over Rev (オーバーレブ) (SCSP)</name>
 		<driver type="model2a">sega</driver>
 		<driveralias type="Arcade">Jaleco</driveralias>
 		<options>
@@ -956,13 +958,13 @@
 			<rom type="pcm" offset="0x400000">mpr-20004.34</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
+			<title code="0x00">Select</title>
+			<title code="0x02">Ariake</title>
+			<title code="0x01">Tsukuba</title>
+			<title code="0x06">Hakone</title>
+			<title code="0x03">Shibuya</title>
+			<title code="0x05">Stage Up</title>
+			<title code="0x04">Game Over</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -24,6 +24,10 @@
 <xsl:template match="subtypes">
 	<xsl:apply-templates/>
 </xsl:template>
+<xsl:template match="name">
+</xsl:template>
+<xsl:template match="value">
+</xsl:template>
 <xsl:template match="subtype">
 	<h3><xsl:value-of select="name"/></h3>
 	<xsl:apply-templates/>
@@ -33,7 +37,7 @@
 	<xsl:apply-templates/>
 </xsl:template>
 <xsl:template match="description">
-	<xsl:value-of/><br/>
+	<xsl:value-of select="./text()"/><br/>
 </xsl:template>
 <xsl:template match="files">
 	<h4>Files</h4>

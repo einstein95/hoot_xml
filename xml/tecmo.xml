@@ -222,10 +222,15 @@
 			<rom type="code" offset="0x00000">a-e3.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x24">BGM #24</title>
-			<title code="0x32">BGM #32</title>
+			<title code="0x32">Title (タイトル)</title>
+			<title code="0x02">Credit (クレジット)</title>
+			<title code="0x0a">Main BGM (メインBGM)</title>
+			<title code="0x11">Slot Surface (スロット面)</title>
+			<title code="0x12">Card Surface (カード面)</title>
+			<title code="0x24">Bowling Surface (ボーリング面)</title>
+			<title code="0x19">Game Over (ゲームオーバー)</title>
+			<title code="0x1a">Name Entry (#1) (ネームエントリー(1位))</title>
+			<title code="0x1b">Name Entry (#2 or below) (ネームエントリー(2位以下))</title>
 		</titlelist>
 	</game>
 	<game>

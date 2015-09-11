@@ -35,6 +35,7 @@
 ]>
 <gamelist date="2005/09/25">
 	<!-- //psikyo -->
+	<!-- TODO: Sengoku Blade : Sengoku Ace Episode II / Tengai (tengai/tengaij) [s1945] -->
 	<game>
 		<name>[Gunbird] Samurai Aces (戦国エース) (YM2610)</name>
 		<driver type="sengoku">psikyo</driver>
@@ -106,7 +107,7 @@
 			<option name="adpcm_size" value="0x180000"/>
 		</options>
 		<romlist archive="btlkroad">
-				<rom type="code" offset="0x000000">3-u71.bin</rom>
+			<rom type="code" offset="0x000000">3-u71.bin</rom>
 			<rom type="adpcma" offset="0x000000">u56.bin</rom>
 			<rom type="adpcmb" offset="0x000000">u64.bin</rom>
 		</romlist>
@@ -144,13 +145,13 @@
 	</game>
 	<game>
 		<name>[Gunbird] Strikers 1945 (ストライカーズ1945) (YM2610)</name>
-		<driver type="gunbird">psikyo</driver>
+		<driver type="s1945">psikyo</driver>
 		<driveralias type="Arcade">Psikyo</driveralias>
 		<options>
 			<option name="adpcm_size" value="0x180000"/>
 		</options>
 		<romlist archive="s1945jn">
-				<rom type="code" offset="0x000000">3-u71.bin</rom>
+			<rom type="code" offset="0x000000">3-u71.bin</rom>
 			<rom type="adpcma" offset="0x000000">u56.bin</rom>
 			<rom type="adpcmb" offset="0x000000">u64.bin</rom>
 		</romlist>

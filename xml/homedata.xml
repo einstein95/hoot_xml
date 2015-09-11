@@ -279,7 +279,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Alaskan Malamute G.C. (アラスカンマラミュートＧ．Ｃ．) (YM2203)</name>
+		<name>[PC-9801] Alaskan Malamute G.C. (アラスカンマラミュートG.C.) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Home Data</driveralias>
 		<options>
@@ -310,27 +310,27 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Home Data</driveralias>
 		<romlist archive="marble68snd">
-			<rom type="code">marble.bin</rom>
-			<rom type="x"    offset="0x10000">MUDRV.X</rom>
+			<rom type="code" offset="0x00000">marble.bin</rom>
+			<rom type="x" offset="0x10000">MUDRV.X</rom>
 			<rom type="code" offset="0x18000">MARBLE.MGD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x48">Home Data Logo</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x2d">BGM #2d</title>
+			<title code="0x01">Practice Race [Stage 1 BGM]</title>
+			<title code="0x02">Beginner Race [Stage 2 BGM]</title>
+			<title code="0x03">Intermediate Race [Stage 3 BGM]</title>
+			<title code="0x04">Aerial Race 1 [Stage 4 BGM]</title>
+			<title code="0x05">Aerial Race 2 [Stage 4 BGM]</title>
+			<title code="0x06">Aerial Race 3 [Stage 4 BGM]</title>
+			<title code="0x07">Silly Race 1 [Stage 5 BGM]</title>
+			<title code="0x08">Silly Race 2 [Stage 5 BGM]</title>
+			<title code="0x09">Ultimate Race [Stage 6 BGM]</title>
+			<title code="0x0b">Name Entry 1</title>
+			<title code="0x0a">Name Entry 2</title>
+			<title code="0x0c">Stage 2 Preview</title>
+			<title code="0x0d">Stage 3 Preview</title>
+			<title code="0x0e">Stage 6 Preview</title>
+			<title code="0x2d">Out of Time</title>
 			<title code="0x0f">SFX #0f</title>
 			<title code="0x10">SFX #10</title>
 			<title code="0x11">SFX #11</title>
@@ -392,7 +392,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Home Data</driveralias>
 		<romlist archive="2069ad68snd">
-			<rom type="code">2069ad.bin</rom>
+			<rom type="code" offset="0x00000">2069ad.bin</rom>
 			<rom type="x"    offset="0x10000">HDMUS.X</rom>
 			<rom type="code" offset="0x18000">2069AD.MGD</rom>
 			<rom type="code" offset="0x24000">ADPCM.SMP</rom>
@@ -435,7 +435,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Home Data</driveralias>
 		<romlist archive="mjy68snd">
-			<rom type="code">2069ad.bin</rom>
+			<rom type="code" offset="0x00000">2069ad.bin</rom>
 			<rom type="x"    offset="0x10000">MUDRV.X</rom>
 			<rom type="code" offset="0x18000">X1A_MUS.MGD</rom>
 			<rom type="code" offset="0x24000">X1A_PCM.SMP</rom>
@@ -475,7 +475,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Home Data</driveralias>
 		<romlist archive="mjc68snd">
-			<rom type="code">2069ad.bin</rom>
+			<rom type="code" offset="0x00000">2069ad.bin</rom>
 			<rom type="x"    offset="0x10000">MUDRV.X</rom>
 			<rom type="code" offset="0x18000">CLINIC.MGD</rom>
 			<rom type="code" offset="0x24000">ADPCM.SMP</rom>

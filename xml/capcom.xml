@@ -404,7 +404,7 @@
 			<title code="0x02">SFX #02</title>
 			<title code="0x03">SFX #03</title>
 			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05 </title>
+			<title code="0x05">SFX #05</title>
 			<title code="0x06">SFX #06</title>
 			<title code="0x07">SFX #07</title>
 			<title code="0x08">SFX #08</title>
@@ -755,7 +755,7 @@
 			<title code="0x02">SFX #02</title>
 			<title code="0x03">SFX #03</title>
 			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05 </title>
+			<title code="0x05">SFX #05</title>
 			<title code="0x06">SFX #06</title>
 			<title code="0x07">SFX #07</title>
 			<title code="0x08">SFX #08</title>
@@ -4807,6 +4807,9 @@
 		<name>[CPS-1] Warriors of Fate (天地を喰らう２ 赤壁の戦い) (QSound)</name>
 		<driver type="cps1qs">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
+		<options>
+			<option name="type" value="0"/>
+		</options>
 		<romlist archive="wof">
 			<rom type="code" offset="0x00000">tk2_qa.rom</rom>
 			<rom type="pcm" offset="0x000000">tk2_q1.rom</rom>
@@ -4814,9 +4817,6 @@
 			<rom type="pcm" offset="0x100000">tk2_q3.rom</rom>
 			<rom type="pcm" offset="0x180000">tk2_q4.rom</rom>
 		</romlist>
-		<options>
-			<option name="type" value="0"/>
-		</options>
 		<titlelist>
 			<title code="0x7B">Advertise Demo</title>
 			<title code="0x60">Opening Demo</title>
@@ -4960,6 +4960,9 @@
 		<name>[CPS-1] Cadillacs and Dinosaurs (キャデラックス -恐竜新世紀-) (QSound)</name>
 		<driver type="cps1qs">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
+		<options>
+			<option name="type" value="1"/>
+		</options>
 		<romlist archive="dino">
 			<rom type="code" offset="0x00000">cd_q.5k</rom>
 			<rom type="pcm" offset="0x000000">cd-q1.1k</rom>
@@ -4967,9 +4970,6 @@
 			<rom type="pcm" offset="0x100000">cd-q3.3k</rom>
 			<rom type="pcm" offset="0x180000">cd-q4.4k</rom>
 		</romlist>
-		<options>
-			<option name="type" value="1"/>
-		</options>
 		<titlelist>
 			<title code="0x24">Demonstration</title>
 			<title code="0x25">Title</title>
@@ -5117,6 +5117,9 @@
 		<name>[CPS-1] The Punisher (パニッシャー) (QSound)</name>
 		<driver type="cps1qs">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
+		<options>
+			<option name="type" value="2"/>
+		</options>
 		<romlist archive="punisher">
 			<rom type="code" offset="0x00000">ps_q.5k</rom>
 			<rom type="pcm" offset="0x000000">ps-q1.1k</rom>
@@ -5124,9 +5127,6 @@
 			<rom type="pcm" offset="0x100000">ps-q3.3k</rom>
 			<rom type="pcm" offset="0x180000">ps-q4.4k</rom>
 		</romlist>
-		<options>
-			<option name="type" value="2"/>
-		</options>
 		<titlelist>
 			<title code="0x1c">Credit</title>
 			<title code="0x04">Title (1), Revenger -Theme of Revenge- [Stage 5]</title>
@@ -5312,6 +5312,9 @@
 		<name>[CPS-1] Saturday Night Slam Masters (マッスルボマー) (QSound)</name>
 		<driver type="cps1qs">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
+		<options>
+			<option name="type" value="3"/>
+		</options>
 		<romlist archive="slammast">
 			<rom type="code" offset="0x00000">mb_qa.5k</rom>
 			<rom type="pcm" offset="0x000000">mb-q1.1k</rom>
@@ -5323,9 +5326,6 @@
 			<rom type="pcm" offset="0x300000">mb-q7.3m</rom>
 			<rom type="pcm" offset="0x380000">mb-q8.4m</rom>
 		</romlist>
-		<options>
-			<option name="type" value="3"/>
-		</options>
 		<titlelist>
 			<title code="0x20">Attract</title>
 			<title code="0x35">Game Select</title>
@@ -7763,7 +7763,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[ZN1] Star Gladiator (スターグラディエイター) (QSound)</name>
+		<name>[ZN1] Star Gladiator Episode I: Final Crusade (スターグラディエイター) (QSound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="starglad">
@@ -7825,7 +7825,7 @@
 			<title code="0x08">Under Tube</title>
 			<title code="0x09">Arabessque</title>
 			<title code="0x0a">Garnet Sky</title>
-			<title code="0x0b">Amusementive Crime	</title>
+			<title code="0x0b">Amusementive Crime</title>
 			<title code="0x0c">Irreconcilably</title>
 			<title code="0x0d">Stronger</title>
 			<title code="0x0e">God Hands</title>
@@ -7838,7 +7838,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[ZN2] Rival Schools (私立ジャスティス学園 -LEGION OF HEROES-) (QSound)</name>
+		<name>[ZN2] Rival Schools: United By Fate (私立ジャスティス学園 -LEGION OF HEROES-) (QSound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="rvschool">
@@ -7926,7 +7926,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[ZN2] Plasma Sword (スターグラディエイター2 -ナイトメア・オブ・ビルシュタイン-) (QSound)</name>
+		<name>[ZN2] Plasma Sword: Nightmare of Bilstein (スターグラディエイター2 -ナイトメア・オブ・ビルシュタイン-) (QSound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="plsmaswd">

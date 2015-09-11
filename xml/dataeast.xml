@@ -1064,6 +1064,7 @@
 		</options>
 		<romlist archive="rohga">
 			<rom type="code" offset="0x00000">ha04.18p</rom>
+			<rom type="pcm1" offset="0x00000">mam13.15p</rom>
 			<rom type="pcm2" offset="0x00000">mam12.14p</rom>
 		</romlist>
 		<titlelist>
@@ -1088,7 +1089,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[DECO32] Wizard Fire (ダークシールII) (YM2151+MSM6295x2)</name>
+		<name>[DECO32] Wizard Fire (ウィザードファイアー) (YM2151+MSM6295x2)</name>
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
@@ -1099,7 +1100,44 @@
 		</options>
 		<romlist archive="wizdfire">
 			<rom type="code" offset="0x00000">je-06.20r</rom>
-			<rom type="pcm1" offset="0x00000">mas10</rom>
+			<rom type="pcm1" offset="0x00000">mas10_e</rom>
+			<rom type="pcm2" offset="0x00000">mas11</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x16">Machinations (Demo)</title>
+			<title code="0x4d">Coin</title>
+			<title code="0x0c">Knights of the Light (Select)</title>
+			<title code="0x12">Tragedy of Herude (Introduction)</title>
+			<title code="0x07">Invasion - Dark Legion (BGM 1)</title>
+			<title code="0x08">Pursuit - Wing of Death (Boss 1)</title>
+			<title code="0x09">Repulse (Clear)</title>
+			<title code="0x14">Prelude to War (Intermission 1)</title>
+			<title code="0x0a">Chase (BGM 2)</title>
+			<title code="0x0d">Battle Royal (Boss 2)</title>
+			<title code="0x15">Mouth of the Dungeon (Intermission 2)</title>
+			<title code="0x0b">Assault (BGM 3)</title>
+			<title code="0x0e">Gate of Dragon (Theme of Zenon) (Boss 3)</title>
+			<title code="0x11">Emergence - Floating Castle (Intermission 3)</title>
+			<title code="0x0f">Floating Fortress Pendemonium (BGM 4)</title>
+			<title code="0x13">Pray (Game Over)</title>
+			<title code="0x17">Rise and Fall, Light and Dark (Epilogue)</title>
+			<title code="0x10">Rise and Fall, Light and Dark -Part B- (Ending Sequence)</title>
+			<title code="0x18">BGM #18</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[DECO32] Dark Seal II (ダークシールII) (YM2151+MSM6295x2)</name>
+		<driver type="deco32">dataeast</driver>
+		<driveralias type="Arcade">Data East</driveralias>
+		<options>
+			<option name="opm_mix" value="0x9a"/>
+			<option name="pcm1_mix" value="0x8a"/>
+			<option name="pcm2_mix" value="0x2e"/>
+			<option name="pcm_size" value="0x200000"/>
+		</options>
+		<romlist archive="wizdfire">
+			<rom type="code" offset="0x00000">jb-06.20r</rom>
+			<rom type="pcm1" offset="0x00000">mas10_j</rom>
 			<rom type="pcm2" offset="0x00000">mas11</rom>
 		</romlist>
 		<titlelist>

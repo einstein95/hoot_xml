@@ -159,6 +159,7 @@
 			<title code="0x12">SFX #12</title>
 		</titlelist>
 	</game>
+	<game>
 		<name>[MSX] Operation Wolf (オペレーションウルフ) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Taito</driveralias>
@@ -1309,7 +1310,7 @@
 	</game>
 	<game>
 		<name>[Air System] Top Landing (トップランディング) (YM2610)</name>
-		<driver type="f2system">taito</driver>
+		<driver type="dual68">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="fm_mix" value="0x0"/>
@@ -1318,7 +1319,7 @@
 			<option name="adpcmb_mix" value="0x0"/>
 		</options>
 		<romlist archive="topland">
-			<rom type="code" offset="0x000000">b62-42.34</rom>
+			<rom type="code" offset="0x020000">b62-42.34</rom>
 			<rom type="adpcma" offset="0x000000">b62-17.5</rom>
 			<rom type="adpcma" offset="0x020000">b62-16.4</rom>
 			<rom type="adpcma" offset="0x040000">b62-15.3</rom>
@@ -1327,24 +1328,24 @@
 			<rom type="adpcmb" offset="0x000000">b62-18.31</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Title Demo</title>
-			<title code="0x13">Credit</title>
-			<title code="0x02">Control Yoke Adjustment</title>
-			<title code="0x05">Tokyo International Airport</title>
-			<title code="0x0B">Main Theme 1 [Practice, Light Airplane]</title>
-			<title code="0x12">Result 1</title>
-			<title code="0x03">Osaka International Airport</title>
-			<title code="0x04">Fukuoka International Airport</title>
-			<title code="0x06">San Francisco International Airport</title>
-			<title code="0x0C">Main Theme 2 [Medium Airplane]</title>
-			<title code="0x09">Charles de Gaulle International Airport</title>
-			<title code="0x07">Rio de Janeiro International Airport</title>
-			<title code="0x08">Sydney International Airport</title>
-			<title code="0x0D">Main Theme 3 [Large Airplane]</title>
-			<title code="0x0A">Dulles International Airport</title>
-			<title code="0x0E">Landing Failed</title>
-			<title code="0x0F">Result 2</title>
-			<title code="0x14">Credits</title>
+			<title code="0x01">Title Demo (タイトルデモ)</title>
+			<title code="0x13">Credit (クレジット)</title>
+			<title code="0x02">Handle Alignment (ハンドル位置合わせ)</title>
+			<title code="0x05">Tokyo International Airport (東京国際空港)</title>
+			<title code="0x0b">Main Theme 1 [Practice, Light Airplane] (Main Theme 1 [練習・小型機])</title>
+			<title code="0x12">Success &amp; Results (成功＆結果)</title>
+			<title code="0x03">Osaka International Airport (大阪国際空港)</title>
+			<title code="0x04">Fukuoka International Airport (福岡国際空港)</title>
+			<title code="0x06">San Francisco International Airport (サンフランシスコ国際空港)</title>
+			<title code="0x0c">Main Theme 2 [Medium Airplane] (Main Theme 2 [中型機])</title>
+			<title code="0x09">Charles de Gaulle Airport (ドゴール空港)</title>
+			<title code="0x07">Rio de Janeiro International Airport (リオデジャネイロ国際空港)</title>
+			<title code="0x08">Sydney International Airport (シドニー国際空港)</title>
+			<title code="0x0d">Main Theme 3 [Large Airplane] (Main Theme 3 [大型機])</title>
+			<title code="0x0a">Dulles International Airport (ダレス国際空港)</title>
+			<title code="0x0e">Landing Failed (着陸失敗)</title>
+			<title code="0x0f">Failure &amp; Result (失敗＆結果)</title>
+			<title code="0x14">Staff Roll</title>
 			<title code="0x11">Name Entry</title>
 			<title code="0x10">Game Over</title>
 		</titlelist>
@@ -2136,7 +2137,7 @@
 			<title code="0x03">Demonstration</title>
 			<title code="0xDC">[SFX] Title 1</title>
 			<title code="0xDD">[SFX] Title 2</title>
-			<title code="0xE8">[Voice] Credit Inserted </title>
+			<title code="0xE8">[Voice] Credit Inserted</title>
 			<title code="0x18">Player Select</title>
 			<title code="0x02">Stage 1</title>
 			<title code="0x0D">Stage 2</title>
@@ -3595,8 +3596,8 @@
 			<title code="0x37">中国kids (メインテーマ)</title>
 			<title code="0x3a">武道家対決</title>
 			<title code="0x41">武道家退却 (クリア～メインテーマ)</title>
-			<title code="0x38">伝承者対決Ⅰ</title>
-			<title code="0x39">伝承者対決Ⅱ (最終ボス)</title>
+			<title code="0x38">伝承者対決T</title>
+			<title code="0x39">伝承者対決U (最終ボス)</title>
 			<title code="0x3c">武術・ウーシュウ (エンディングテーマ)</title>
 			<title code="0x3e">遊戯継続 (コンティニュー)</title>
 			<title code="0x3d">終劇 (ゲームオーバー)</title>
@@ -4669,8 +4670,8 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5472,7 +5473,7 @@
 			<title code="0x102">ファンファーレ1</title>
 			<title code="0x103">ファンファーレ2</title>
 			<title code="0x108">ファンファーレ3</title>
-			<title code="0x114">ファンファーレ4 </title>
+			<title code="0x114">ファンファーレ4</title>
 			<title code="0x11a">ファンファーレ5</title>
 			<title code="0x122">ファンファーレ6</title>
 			<title code="0x125">BGM #125</title>
@@ -5492,32 +5493,44 @@
 			<option name="tbloffs" value="0x8A1DE"/>
 			<option name="es5505_mix" value="0x200"/>
 		</options>
-		<romlist archive="pbobble2o">
-			<rom type="main0">e10-11.20</rom>
-			<rom type="main1">e10-10.19</rom>
-			<rom type="main2">e10-09.18</rom>
-			<rom type="main3">e10-15.17</rom>
+		<romlist archive="pbobble2">
+			<rom type="main0">e10-24.bin</rom>
+			<rom type="main1">e10-23.bin</rom>
+			<rom type="main2">e10-22.bin</rom>
+			<rom type="main3">e10-25.bin</rom>
 			<rom type="sub0">e10-12.32</rom>
 			<rom type="sub1">e10-13.33</rom>
-			<rom type="pcm" offset="0x000000">e10-03.rom</rom>
-			<rom type="pcm" offset="0x400000">e10-04.rom</rom>
+			<rom type="pcm" offset="0x000000">e10-04.rom</rom>
+			<rom type="pcm" offset="0x400000">e10-03.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x38">Title Demo</title>
-			<title code="0x36">Welcome My Lovely [Select]</title>
-			<title code="0x37">Oppekepee no pee [Demo]</title>
-			<title code="0x31">Step Skip Go Go! [BGM1]</title>
-			<title code="0x35">Round Clear</title>
-			<title code="0x32">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2]</title>
-			<title code="0x33">Forest in April - Nakayama Mix [BGM3]</title>
-			<title code="0x3d">Continue</title>
-			<title code="0x3c">Bye Bye gokkun [Name Regist]</title>
-			<title code="0x39">Travelers Dream [BGM4]</title>
+			<title code="0x38">Title Demo (タイトルデモ)</title>
+			<title code="0x36">Welcome My Lovely [Select] (うぇるかむ・まいらぶり～ [セレクト])</title>
+			<title code="0x37">Oppekepe no Pe [Demo BGM] (おっぺけぺのぺ～ [デモBGM])</title>
+			<title code="0x31">Step Skip Go Go! [BGM1] (すてっぷ・すきっぷ・ごーごー！ [BGM1])</title>
+			<title code="0x35">Round Clear (ラウンドクリア)</title>
+			<title code="0x32">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2] (パオパオ島へ行こう！-なかやまMIX- [BGM2])</title>
+			<title code="0x33">April Forest - Nakayama Mix [BGM3] (４月の森-なかやまMIX- [BGM3])</title>
+			<title code="0x3d">Continue (コンティニュー)</title>
+			<title code="0x3c">Bye Bye Gokkun [Name Regist] (ばいばいごっくん [ネームレジスト])</title>
+			<title code="0x39">Travelers Dream [BGM4] (らべら～ず・どり～む [BGM4])</title>
 			<title code="0x34">Qi-Qi [BGM5]</title>
-			<title code="0x3a">Buruburu Nightmare [Drunk BGM]</title>
-			<title code="0x3b">All Round Clear</title>
-			<title code="0x3f">Let's Go to the Dream World with You [Ending]</title>
-			<title code="0x3e">Game Over</title>
+			<title code="0x3a">Buru-buru Nightmare [Drunk BGM] (ぶるぶる・ないとめあ [ドランクBGM])</title>
+			<title code="0x3b">All Round Clear (オールラウンドクリア)</title>
+			<title code="0x3f">Let's Go to the Dream World with You [Ending] (君と行こう夢の世界へ [Ending])</title>
+			<title code="0x3e">Game Over (ゲームオーバー)</title>
+			<title code="0x41">Step Skip Go Go! [BGM1 - Hurry Up 1] (すてっぷ・すきっぷ・ごーごー！ [BGM1 - hurry up 1])</title>
+			<title code="0x45">Step Skip Go Go! [BGM1 - Hurry Up 2] (すてっぷ・すきっぷ・ごーごー！ [BGM1 - hurry up 2])</title>
+			<title code="0x42">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2 - Hurry Up 1] (パオパオ島へ行こう！-なかやまMIX- [BGM2 - hurry up 1])</title>
+			<title code="0x46">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2 - Hurry Up 2] (パオパオ島へ行こう！-なかやまMIX- [BGM2 - hurry up 2])</title>
+			<title code="0x43">April Forest - Nakayama Mix [BGM3 - Hurry Up 1] (４月の森-なかやまMIX- [BGM3 - hurry up 1])</title>
+			<title code="0x47">April Forest - Nakayama Mix [BGM3 - Hurry Up 2] (４月の森-なかやまMIX- [BGM3 - hurry up 2])</title>
+			<title code="0x49">Travelers Dream [BGM4 - Hurry Up 1] (とらべら～ず・どり～む [BGM4 - hurry up 1])</title>
+			<title code="0x4b">Travelers Dream [BGM4 - Hurry Up 2] (とらべら～ず・どり～む [BGM4 - hurry up 2])</title>
+			<title code="0x44">Qi-Qi [BGM5 - Hurry Up 1]</title>
+			<title code="0x48">Qi-Qi [BGM5 - Hurry Up 2]</title>
+			<title code="0x4a">Buru-buru Nightmare [Drunk BGM - Hurry Up 1] (ぶるぶる・ないとめあ [ドランクBGM - hurry up 1])</title>
+			<title code="0x4c">Buru-buru Nightmare [Drunk BGM - Hurry Up 2] (ぶるぶる・ないとめあ [ドランクBGM - hurry up 2])</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6142,21 +6155,21 @@
 			<rom type="adpcma" offset="0x000000">e32-04.15</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">From M-Darwin [Demo BGM2]</title>
-			<title code="0x15">初めてのダイアリー [Name Entry BGM]</title>
-			<title code="0x0d">しゅっぱ～つ!! [Map画面BGM]</title>
-			<title code="0x02">Over Drive [BGM1]</title>
-			<title code="0x0f">Zap Off! [サイクリングヤッホーBGM]</title>
-			<title code="0x09">Brain Drain [BGM2]</title>
-			<title code="0x0b">到着っ!! [ラウンドクリア]</title>
-			<title code="0x06">Summer Face! [BGM3]</title>
-			<title code="0x13">Continue? [コンティニューBGM]</title>
-			<title code="0x11">Super Face! [BGM4]</title>
-			<title code="0x16">Judgement ~ Fly Away [評価決定BGM]</title>
-			<title code="0x0c">Game Over... [Game Over]</title>
-			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9a</title>
-			<title code="0x9b">BGM #9b</title>
+			<title code="0x017">From M-Darwin [Demo BGM2]</title>
+			<title code="0x015">初めてのダイアリー [Name Entry BGM]</title>
+			<title code="0x00d">しゅっぱ～つ!! [Map画面BGM]</title>
+			<title code="0x002">Over Drive [BGM1]</title>
+			<title code="0x00f">Zap Off! [サイクリングヤッホーBGM]</title>
+			<title code="0x009">Brain Drain [BGM2]</title>
+			<title code="0x00b">Arrival!! (到着っ!!) [Round Clear (ラウンドクリア)]</title>
+			<title code="0x006">Summer Face! [BGM3]</title>
+			<title code="0x013">Continue? [Continue BGM (コンティニューBGM)]</title>
+			<title code="0x011">Super Face! [BGM4]</title>
+			<title code="0x016">Judgement ~ Fly Away [評価決定BGM]</title>
+			<title code="0x00c">Game Over... [Game Over]</title>
+			<title code="0x099">Clear (クリア)</title>
+			<title code="0x09a">Unused (未使用)</title>
+			<title code="0x09b">Success (成功)</title>
 		</titlelist>
 	</game>
 	<game>

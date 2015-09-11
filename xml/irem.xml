@@ -538,7 +538,6 @@
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
 			<option name="opm_mix" value="0x280"/>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x400"/>
 		</options>
 		<romlist archive="bchopper">
@@ -610,7 +609,6 @@
 		<driver type="m72">irem</driver>
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x22000"/>
 		</options>
 		<romlist archive="imgfight">
@@ -645,7 +643,6 @@
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
 			<option name="opm_mix" value="0x200"/>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x11000"/>
 		</options>
 		<romlist archive="nspirit">
@@ -677,10 +674,9 @@
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
 			<option name="opm_mix" value="0x280"/>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x30000"/>
 		</options>
-		<romlist archive="dbreedm72">
+		<romlist archive="dbreed">
 			<rom type="code" offset="0x0000">db_c-l3.rom</rom>
 			<rom type="code" offset="0x0001">db_c-h3.rom</rom>
 		</romlist>
@@ -709,7 +705,6 @@
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
 			<option name="opm_mix" value="0x200"/>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x30000"/>
 		</options>
 		<romlist archive="loht">
@@ -770,10 +765,9 @@
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
 			<option name="opm_mix" value="0x200"/>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0xe000"/>
 		</options>
-		<romlist archive="xmultiplm72">
+		<romlist archive="xmultipl">
 			<rom type="code" offset="0x0000">cl0.l0</rom>
 			<rom type="code" offset="0x0001">ch0.h0</rom>
 		</romlist>
@@ -802,7 +796,6 @@
 		<driver type="m72">irem</driver>
 		<driveralias type="Arcade">Irem</driveralias>
 		<options>
-			<option name="transfer" value="0x1"/>
 			<option name="z80_offset" value="0x30000"/>
 		</options>
 		<romlist archive="airduel">

@@ -527,4 +527,115 @@
 			<title code="0x34">Game Over 3</title>
 		</titlelist>
 	</game>
+	<game>
+		<name>[Hebereke no Popoon] Hebereke no Popoon (Ç÷Ç◊ÇÍÇØÇÃÇ€Ç’Å[ÇÒ) (YM3438+MSM6295)</name>
+		<driver type="heberpop">atlus</driver>
+		<driveralias type="Arcade">Sunsoft</driveralias>
+		<options>
+			<option name="opn_mix" value="0x140"/>
+			<option name="pcm_mix" value="0x100"/>
+		</options>
+		<romlist archive="heberpop">
+			<rom type="code" offset="0x00000">hbpic34.bin</rom>
+			<rom type="pcm" offset="0x000000">hbpic53.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+			<title code="0x0b">BGM #0b</title>
+			<title code="0x0c">BGM #0c</title>
+			<title code="0x0d">BGM #0d</title>
+			<title code="0x0e">BGM #0e</title>
+			<title code="0x0f">BGM #0f</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Strength &amp; Skill] Strength &amp; Skill (ÉUÅEÉMÉlÉX) (SN76489x2)</name>
+		<driver type="guiness">sunsoft</driver>
+		<driveralias type="Arcade">Sunsoft</driveralias>
+		<romlist archive="strnskil">
+			<rom type="code" offset="0x00000">tvg1.2</rom>
+			<rom type="code" offset="0x02000">tvg2.3</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x06">Round Start</title>
+			<title code="0x03">Log Sawing</title>
+			<title code="0x02">Pile Driving</title>
+			<title code="0x01">Slope Running</title>
+			<!--
+			Ring Throwing
+			Disc Spinning
+			-->
+			<title code="0x04">Skateboarding</title>
+			<title code="0x07">Record Get</title>
+			<title code="0x05">SFX #05</title>
+			<range min="0x08" max="0x26" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Strength &amp; Skill] BanBam (ÇÿÇ¡ÇΩÇÒÉsÉÖÅ[) (SN76489x2)</name>
+		<driver type="pettanp">sunsoft</driver>
+		<driveralias type="Arcade">Sunsoft</driveralias>
+		<romlist archive="banbam">
+			<rom type="code" offset="00000">ban-rom1.ic2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Game Start 1 Å` BGM 1</title>
+			<title code="0x02">Game Start 2 Å` BGM 2</title>
+			<title code="0x03">BGM 1</title>
+			<title code="0x04">BGM 2</title>
+			<title code="0x05">Name</title>
+			<title code="0x06">Rendezvous / Challenge Stage</title>
+			<title code="0x07">Stage Clear</title>
+			<title code="0x08">Game Start</title>
+			<range min="0x09" max="0x1a" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Ikki] Ikki (Ç¢Ç¡Ç´) (SN76489x2)</name>
+		<driver type="ikki">sunsoft</driver>
+		<driveralias type="Arcade">Sunsoft</driveralias>
+		<romlist archive="ikki">
+			<rom type="code" offset="00000">tvg17_5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Game Start Å` BGM 1</title>
+			<title code="0x02">Game Start Å` BGM 2</title>
+			<title code="0x03">BGM 1</title>
+			<title code="0x04">BGM 2</title>
+			<title code="0x05">Miss</title>
+			<title code="0x06">Challenge Stage</title>
+			<title code="0x07">Name</title>
+			<title code="0x08">Game Over</title>
+			<range min="0x09" max="0x1e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Shanghai III] Shanghai III (è„äC III) (AY-3-8910+MSM6295)</name>
+		<driver type="shangha3">sunsoft</driver>
+		<driveralias type="Arcade">Sunsoft</driveralias>
+		<romlist archive="shangha3">
+			<rom type="code" offset="00000">ic3</rom>
+			<rom type="code" offset="00001">ic2</rom>
+			<rom type="pcm" offset="00000">s3j_v10.ic75</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x17" extcode="1">BGM #%02X</range>
+			<range min="0x18" max="0x32" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
 </gamelist>
