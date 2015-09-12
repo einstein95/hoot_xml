@@ -36,12 +36,12 @@
 <gamelist date="2005/09/25">
 	<!-- Domark -->
 	<game>
-		<name>[PC/AT] Championship Manager 92 (YM3812)</name>
+		<name>[PC/AT] Championship Manager (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="chm92_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -50,11 +50,11 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Championship Manager 92 (MT-32)</name>
+		<name>[PC/AT] Championship Manager (MT-32)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
@@ -69,11 +69,11 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Championship Manager 92 (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Championship Manager (Munt, MT-32 simulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
@@ -88,7 +88,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -97,7 +97,7 @@
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="dtpursuit_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -150,7 +150,7 @@
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="racedrivin_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -215,7 +215,7 @@
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="pitfight_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -224,7 +224,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -243,7 +243,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -262,7 +262,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Title tune</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -271,7 +271,7 @@
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="1"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="ssinvaders_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -279,7 +279,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">TITLE</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -297,7 +297,7 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">TITLE</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
 	<game>
@@ -315,16 +315,17 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">TITLE</title>
+			<title code="0x10">Title</title>
 		</titlelist>
 	</game>
+	<!-- SNDSTR.EXE mentions TANDYSND.BIN, but this isn't in SOUND.RNC in the version I have, nor in INTRO.PAK -->
 	<game>
-		<name>[PC/AT] SuperVGA Harrier (YM3812) &lt;- missing MT-32 music, contact me if you have the original game</name>
+		<name>[PC/AT] SuperVGA Harrier (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Domark</driveralias>
 		<options>
 			<option name="clockmul" value="0x04"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="svgaharrier_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -332,17 +333,59 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">Music 1</title>
-			<title code="0x03">Music 2</title>
-			<title code="0x04">Music 3</title>
-			<title code="0x05">Music 4</title>
-			<title code="0x06">Music 5</title>
-			<title code="0x07">Music 6</title>
-			<title code="0x08">Music 7</title>
-			<title code="0x0A">Music 8</title>
-			<title code="0x0B">Music 9</title>
-			<title code="0x0C">Music 10</title>
-			<title code="0x0D">Music 11</title>
+			<title code="0x02">Intro</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] SuperVGA Harrier (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Domark</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="svgaharrier_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Intro</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] SuperVGA Harrier (Munt, MT-32 Simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Domark</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="svgaharrier_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Intro</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] SuperVGA Harrier (BEEP)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Domark</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+		</options>
+		<romlist archive="svgaharrier_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">SPEAK.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Intro</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -347,7 +347,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -374,7 +374,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -401,7 +401,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
@@ -428,7 +428,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
 			<option name="midiout_mix" value="0x80"/>
@@ -452,16 +452,95 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Hard Nova (YM3812) &lt;- missing MT-32 music, contact me if you have the original game</name>
+		<name>[PC/AT] Hard Nova (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="hardnova_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
 			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">STARK1.MUS</rom>
+			<rom type="file" offset="0x11">STARK2.MUS</rom>
+			<rom type="file" offset="0x12">STARK3.MUS</rom>
+			<rom type="file" offset="0x13">STARK4.MUS</rom>
+			<rom type="file" offset="0x14">STARK5.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hard Nova (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Electronic Arts</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="hardnova_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">STARK1.MUS</rom>
+			<rom type="file" offset="0x11">STARK2.MUS</rom>
+			<rom type="file" offset="0x12">STARK3.MUS</rom>
+			<rom type="file" offset="0x13">STARK4.MUS</rom>
+			<rom type="file" offset="0x14">STARK5.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hard Nova (Munt, MT-32 Simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Electronic Arts</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="hardnova_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">STARK1.MUS</rom>
+			<rom type="file" offset="0x11">STARK2.MUS</rom>
+			<rom type="file" offset="0x12">STARK3.MUS</rom>
+			<rom type="file" offset="0x13">STARK4.MUS</rom>
+			<rom type="file" offset="0x14">STARK5.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hard Nova (SN76496)</name>
+		<driver type="tandy">pcatdos</driver>
+		<driveralias type="PC/AT">Electronic Arts</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+		</options>
+		<romlist archive="hardnova_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">TANDY.BIN</rom>
 			<rom type="file" offset="0x10">STARK1.MUS</rom>
 			<rom type="file" offset="0x11">STARK2.MUS</rom>
 			<rom type="file" offset="0x12">STARK3.MUS</rom>
@@ -571,7 +650,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="indy500_at">
@@ -775,7 +854,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="lowblow_at">
@@ -972,7 +1051,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -1108,7 +1187,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -1244,7 +1323,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
@@ -1379,7 +1458,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
 			<option name="midiout_mix" value="0x80"/>
@@ -1515,7 +1594,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="skiordie_at">
@@ -1741,7 +1820,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -1824,7 +1903,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -1907,7 +1986,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="8"/>
 		</options>
@@ -1990,7 +2069,7 @@
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
@@ -2157,7 +2236,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="bt3_at">
@@ -2255,7 +2334,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="immortal_at">
@@ -2431,7 +2510,7 @@
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Electronic Arts</driveralias>
 		<options>
-			<option name="clockmul" value="4"/>
+			<option name="clockmul" value="0x04"/>
 			<option name="opl2_mix" value="0x1C0"/>
 		</options>
 		<romlist archive="keef_at">
