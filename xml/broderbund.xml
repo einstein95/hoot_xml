@@ -54,27 +54,27 @@
 		<romlist archive="wings98">
 			<rom type="code" offset="0x00600">ss98md2.bin</rom>
 			<rom type="code" offset="0x01000">MUSDRV2.SYS</rom>
-			<rom type="bgm"  offset="0x01">AIRBORN.MUD</rom>
+			<rom type="bgm" offset="0x01">AIRBORN.MUD</rom>
 			<rom type="bgm2" offset="0x01">AIRBORN.MUS</rom>
-			<rom type="bgm"  offset="0x02">ATTACK.MUD</rom>
+			<rom type="bgm" offset="0x02">ATTACK.MUD</rom>
 			<rom type="bgm2" offset="0x02">ATTACK.MUS</rom>
-			<rom type="bgm"  offset="0x03">CLS.MUD</rom>
+			<rom type="bgm" offset="0x03">CLS.MUD</rom>
 			<rom type="bgm2" offset="0x03">CLS.MUS</rom>
-			<rom type="bgm"  offset="0x04">DANGEROU.MUD</rom>
+			<rom type="bgm" offset="0x04">DANGEROU.MUD</rom>
 			<rom type="bgm2" offset="0x04">DANGEROU.MUS</rom>
-			<rom type="bgm"  offset="0x05">FALLINGO.MUD</rom>
+			<rom type="bgm" offset="0x05">FALLINGO.MUD</rom>
 			<rom type="bgm2" offset="0x05">FALLINGO.MUS</rom>
-			<rom type="bgm"  offset="0x06">INTERCEP.MUD</rom>
+			<rom type="bgm" offset="0x06">INTERCEP.MUD</rom>
 			<rom type="bgm2" offset="0x06">INTERCEP.MUS</rom>
-			<rom type="bgm"  offset="0x07">KX.MUD</rom>
+			<rom type="bgm" offset="0x07">KX.MUD</rom>
 			<rom type="bgm2" offset="0x07">KX.MUS</rom>
-			<rom type="bgm"  offset="0x08">SAME.MUD</rom>
+			<rom type="bgm" offset="0x08">SAME.MUD</rom>
 			<rom type="bgm2" offset="0x08">SAME.MUS</rom>
-			<rom type="bgm"  offset="0x09">SCORE.MUD</rom>
+			<rom type="bgm" offset="0x09">SCORE.MUD</rom>
 			<rom type="bgm2" offset="0x09">SCORE.MUS</rom>
-			<rom type="bgm"  offset="0x0a">VICTORY.MUD</rom>
+			<rom type="bgm" offset="0x0a">VICTORY.MUD</rom>
 			<rom type="bgm2" offset="0x0a">VICTORY.MUS</rom>
-			<rom type="bgm"  offset="0x0b">WEAPON.MUD</rom>
+			<rom type="bgm" offset="0x0b">WEAPON.MUD</rom>
 			<rom type="bgm2" offset="0x0b">WEAPON.MUS</rom>
 		</romlist>
 		<titlelist>
@@ -134,7 +134,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Loopz (Beep)</name>
+		<name>[PC-9801] Loopz (BEEP)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
@@ -191,8 +191,8 @@
 		<driveralias type="PC-8801">Broderbund Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
-			<option name="use_vrtc"   value="0x01"/>
-			<option name="baseclock"  value="0x04"/>
+			<option name="use_vrtc" value="0x01"/>
+			<option name="baseclock" value="0x04"/>
 		</options>
 		<romlist archive="artofwar">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -229,21 +229,21 @@
 		<romlist archive="carmen_98">
 			<rom type="code" offset="0x00600">ss98md2.bin</rom>
 			<rom type="code" offset="0x01000">MUSIC.SYS</rom>
-			<rom type="bgm"  offset="0x01">TAIHO.MUD</rom>
+			<rom type="bgm" offset="0x01">TAIHO.MUD</rom>
 			<rom type="bgm2" offset="0x01">CARMEN.MUS</rom>
-			<rom type="bgm"  offset="0x02">SAMPLE.MUD</rom>
+			<rom type="bgm" offset="0x02">SAMPLE.MUD</rom>
 			<rom type="bgm2" offset="0x02">ENDING.MUS</rom>
-			<rom type="bgm"  offset="0x03">SAMPLE.MUD</rom>
+			<rom type="bgm" offset="0x03">SAMPLE.MUD</rom>
 			<rom type="bgm2" offset="0x03">ETUDES.MUS</rom>
-			<rom type="bgm"  offset="0x04">GOOD.MUD</rom>
+			<rom type="bgm" offset="0x04">GOOD.MUD</rom>
 			<rom type="bgm2" offset="0x04">MAIL.MUS</rom>
-			<rom type="bgm"  offset="0x05">CHOUTEI.MUD</rom>
+			<rom type="bgm" offset="0x05">CHOUTEI.MUD</rom>
 			<rom type="bgm2" offset="0x05">NIGETA.MUS</rom>
-			<rom type="bgm"  offset="0x06">TAIHO.MUD</rom>
+			<rom type="bgm" offset="0x06">TAIHO.MUD</rom>
 			<rom type="bgm2" offset="0x06">SEIKYU.MUS</rom>
-			<rom type="bgm"  offset="0x07">TAIHO.MUD</rom>
+			<rom type="bgm" offset="0x07">TAIHO.MUD</rom>
 			<rom type="bgm2" offset="0x07">TAIHO.MUS</rom>
-			<rom type="bgm"  offset="0x08">SAMPLE.MUD</rom>
+			<rom type="bgm" offset="0x08">SAMPLE.MUD</rom>
 			<rom type="bgm2" offset="0x08">WAKARE.MUS</rom>
 		</romlist>
 		<titlelist>
@@ -259,7 +259,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Prince of Persia</name>
+		<name>[PC-9801] Prince of Persia (プリンスオブペルシャ) (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">Broderbund Software</driveralias>
 		<options>
@@ -351,11 +351,11 @@
 		<romlist archive="puzznic_98">
 			<rom type="code" offset="0x00600">ss98md2.bin</rom>
 			<rom type="code" offset="0x01000">MUSDRV2.SYS</rom>
-			<rom type="bgm"  offset="0x01">PUZ01.MUD</rom>
+			<rom type="bgm" offset="0x01">PUZ01.MUD</rom>
 			<rom type="bgm2" offset="0x01">CLEAR.MUS</rom>
-			<rom type="bgm"  offset="0x02">PUZ01.MUD</rom>
+			<rom type="bgm" offset="0x02">PUZ01.MUD</rom>
 			<rom type="bgm2" offset="0x02">SELECT.MUS</rom>
-			<rom type="bgm"  offset="0x03">PUZ01.MUD</rom>
+			<rom type="bgm" offset="0x03">PUZ01.MUD</rom>
 			<rom type="bgm2" offset="0x03">START.MUS</rom>
 		</romlist>
 		<titlelist>
@@ -591,24 +591,24 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Diablo</name>
+		<name>[MSX2] Diablo (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Broderbund Software</driveralias>
+		<driveralias type="MSX2">Broderbund Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diablo_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x83F9">DIABLO.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x02" extcode="1">BGM 0x%02x</range>
-			<range min="0x05" max="0x07" extcode="1">BGM 0x%02x</range>
-			<range min="0x103" max="0x104" extcode="1">SE 0x%02x</range>
+			<range min="0x01" max="0x02" extcode="1">BGM #%02X</range>
+			<range min="0x05" max="0x07" extcode="1">BGM #%02X</range>
+			<range min="0x103" max="0x104" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] WiBArM (Tandy)</name>
+		<name>[PC/AT] WiBArM (ウイバーン) (SN76496)</name>
 		<driver type="tandy">pcatdos</driver>
 		<driveralias type="PC/AT">Broderbund Software</driveralias>
 		<options>
@@ -642,7 +642,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] WiBArM (Beep)</name>
+		<name>[PC/AT] WiBArM (ウイバーン) (BEEP)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Broderbund Software</driveralias>
 		<options>
@@ -676,15 +676,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Loopz</name>
+		<name>[X68000] Loopz (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Broderbund Software</driveralias>
 		<options>
-			<option name="mfp"     value="1"/>
+			<option name="mfp" value="1"/>
 		</options>
 		<romlist archive="loopz68snd">
 			<rom type="code">loopz68snd.bin</rom>
-			<rom type="x"    offset="0x10000">loopz.X</rom>
+			<rom type="x" offset="0x10000">loopz.X</rom>
 			<rom type="code" offset="0x73094">IB6811.S</rom>
 			<rom type="code" offset="0x100000">IB6811.S</rom>
 			<rom type="code" offset="0x102000">IB6812.S</rom>

@@ -12037,7 +12037,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] ぷよぷよ通</name>
+		<name>[PC/AT] Puyo Puyo Tsuu (ぷよぷよ通) (YMF262)</name>
 		<driver type="soundblaster16">pcatdos</driver>
 		<driveralias type="PC/AT">Compile</driveralias>
 		<options>
@@ -12120,12 +12120,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #00 (AY-3-8910+YM2413)</name>
+		<name>[MSX2] DiscStation #00 (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="ds00_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12134,16 +12134,16 @@
 			<rom type="code" offset="0x7228">DATA2.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0001" max="0x0001" extcode="1">オープニング</range>
-			<range min="0x0101" max="0x0104" extcode="1">BGM 0x%03x</range>
+			<range min="0x0001" max="0x0001" extcode="1">Opening (オープニング)</range>
+			<range min="0x0101" max="0x0104" extcode="1">BGM #%03X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #00(PSG)</name>
+		<name>[MSX2] DiscStation #00 (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="ds00_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12152,17 +12152,17 @@
 			<rom type="code" offset="0x7228">DATA2.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0001" max="0x0001" extcode="1">オープニング</range>
-			<range min="0x0101" max="0x0104" extcode="1">BGM 0x%03x</range>
+			<range min="0x0001" max="0x0001" extcode="1">Opening (オープニング)</range>
+			<range min="0x0101" max="0x0104" extcode="1">BGM #%03X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Puyo Puyo (ぷよぷよ) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Puyo Puyo (ぷよぷよ) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="puyo_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12182,16 +12182,16 @@
 			<title code="0x107">Sorrow of Puyo Puyo</title>
 			<title code="0x106">BGM #106</title>
 			<title code="0x10B">BGM #10B</title>
-			<range min="0x00" max="0x00" extcode="1">SFX 0x%2X</range>
-			<range min="0x10" max="0x20" extcode="1">SFX 0x%2X</range>
+			<range min="0x00" max="0x00" extcode="1">SFX #%2X</range>
+			<range min="0x10" max="0x20" extcode="1">SFX #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Puyo Puyo (ぷよぷよ) (PSG)</name>
+		<name>[MSX2] Puyo Puyo (ぷよぷよ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="puyo_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12211,17 +12211,17 @@
 			<title code="0x107">Sorrow of Puyo Puyo</title>
 			<title code="0x106">BGM #106</title>
 			<title code="0x10B">BGM #10B</title>
-			<range min="0x00" max="0x00" extcode="1">SFX 0x%2X</range>
-			<range min="0x10" max="0x20" extcode="1">SFX 0x%2X</range>
+			<range min="0x00" max="0x00" extcode="1">SFX #%2X</range>
+			<range min="0x10" max="0x20" extcode="1">SFX #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ゴルビーのパイプライン大作戦 (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Gorby no Pipeline Daisakusen (ゴルビーのパイプライン大作戦) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gorbypl_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12229,16 +12229,16 @@
 			<rom type="code" offset="0x8000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x101" max="0x10d" extcode="0">BGM 0x%02x</range>
-			<range min="0x0f" max="0x17" extcode="1">SFX 0x%02x</range>
+			<range min="0x101" max="0x10d" extcode="0">BGM #%02X</range>
+			<range min="0x0f" max="0x17" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ゴルビーのパイプライン大作戦(PSG)</name>
+		<name>[MSX2] Gorby no Pipeline Daisakusen (ゴルビーのパイプライン大作戦) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="gorbypl_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12246,20 +12246,20 @@
 			<rom type="code" offset="0x8000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x101" max="0x10d" extcode="0">BGM 0x%02x</range>
-			<range min="0x0f" max="0x17" extcode="1">SFX 0x%02x</range>
+			<range min="0x101" max="0x10d" extcode="0">BGM #%02X</range>
+			<range min="0x0f" max="0x17" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Aleste 2 (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Aleste 2 (アレスタ2) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9800"/>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="aleste2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -12268,34 +12268,34 @@
 			<rom type="bgm" offset="0x01">MUSIC01.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0115">オープニングデモ</title>
-			<title code="0x010f">タイトル</title>
-			<title code="0x0002">WEAPON SELECT</title>
-			<title code="0x0113">AREA 1</title>
-			<title code="0x000d">BOSS 1</title>
-			<title code="0x0114">BONUS</title>
-			<title code="0x0112">AREA CLEAR</title>
-			<title code="0x0001">AREA 2/6</title>
-			<title code="0x0007">BOSS 2</title>
-			<title code="0x0003">AREA 3/5</title>
-			<title code="0x0117">AREA 4</title>
-			<title code="0x000b">AREA 4 CLEAR DEMO</title>
-			<title code="0x0116">AREA 7</title>
-			<title code="0x0110">AREA 8</title>
-			<title code="0x0111">AREA 8 BOSS</title>
-			<title code="0x0004">ENDING</title>
-			<title code="0x0006">GAME OVER</title>
+			<title code="0x0115">Opening Demo (オープニングデモ)</title>
+			<title code="0x010f">Title (タイトル)</title>
+			<title code="0x0002">Weapon Select</title>
+			<title code="0x0113">Area 1</title>
+			<title code="0x000d">Boss 1</title>
+			<title code="0x0114">Bonus</title>
+			<title code="0x0112">Area Clear</title>
+			<title code="0x0001">Area 2/6</title>
+			<title code="0x0007">Boss 2</title>
+			<title code="0x0003">Area 3/5</title>
+			<title code="0x0117">Area 4</title>
+			<title code="0x000b">Area 4 Clear Demo</title>
+			<title code="0x0116">Area 7</title>
+			<title code="0x0110">Area 8</title>
+			<title code="0x0111">Area 8 Boss</title>
+			<title code="0x0004">Ending</title>
+			<title code="0x0006">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Aleste 2 (PSG)</name>
+		<name>[MSX2] Aleste 2 (アレスタ2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9800"/>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="aleste2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -12304,35 +12304,35 @@
 			<rom type="bgm" offset="0x01">MUSIC01.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0115">オープニングデモ</title>
-			<title code="0x010f">タイトル</title>
-			<title code="0x0002">WEAPON SELECT</title>
-			<title code="0x0113">AREA 1</title>
-			<title code="0x000d">BOSS 1</title>
-			<title code="0x0114">BONUS</title>
-			<title code="0x0112">AREA CLEAR</title>
-			<title code="0x0001">AREA 2/6</title>
-			<title code="0x0007">BOSS 2</title>
-			<title code="0x0003">AREA 3/5</title>
-			<title code="0x0117">AREA 4</title>
-			<title code="0x000b">AREA 4 CLEAR DEMO</title>
-			<title code="0x0116">AREA 7</title>
-			<title code="0x0110">AREA 8</title>
-			<title code="0x0111">AREA 8 BOSS</title>
-			<title code="0x0004">ENDING</title>
-			<title code="0x0006">GAME OVER</title>
+			<title code="0x0115">Opening Demo (オープニングデモ)</title>
+			<title code="0x010f">Title (タイトル)</title>
+			<title code="0x0002">Weapon Select</title>
+			<title code="0x0113">Area 1</title>
+			<title code="0x000d">Boss 1</title>
+			<title code="0x0114">Bonus</title>
+			<title code="0x0112">Area Clear</title>
+			<title code="0x0001">Area 2/6</title>
+			<title code="0x0007">Boss 2</title>
+			<title code="0x0003">Area 3/5</title>
+			<title code="0x0117">Area 4</title>
+			<title code="0x000b">Area 4 Clear Demo</title>
+			<title code="0x0116">Area 7</title>
+			<title code="0x0110">Area 8</title>
+			<title code="0x0111">Area 8 Boss</title>
+			<title code="0x0004">Ending</title>
+			<title code="0x0006">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 真・魔王ゴルベリアス (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Shin Maou Golvellius (真・魔王ゴルベリアス) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="sgolveli_msx">
 			<rom type="bgm" offset="0x00">DRIVER.BIN</rom>
@@ -12341,70 +12341,70 @@
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">TITLE</title>
-			<title code="0x001">TITLE DEMO</title>
-			<title code="0x126">ALEID KINGDOM</title>
-		<!--	<title code="0x023">ALEID KINGDOM</title>
-			<title code="0x21f">ALEID KINGDOM</title> -->
-			<title code="0x228">LITTLE VALLEY</title>
-			<title code="0x102">AREA 1</title>
-			<title code="0x201">BOSS BGM (PHINX)</title>
-			<title code="0x104">GAME OVER</title>
-		<!--	<title code="0x205">GAME OVER</title> -->
-			<title code="0x106">AREA 2</title>
-			<title code="0x211">CAVE BGM 1</title>
-			<title code="0x208">BOSS BGM (DESPA)</title>
+			<title code="0x101">Title</title>
+			<title code="0x001">Title Demo</title>
+			<title code="0x126">Aleid Kingdom</title>
+		<!--	<title code="0x023">Aleid Kingdom</title>
+			<title code="0x21f">Aleid Kingdom</title> -->
+			<title code="0x228">Little Valley</title>
+			<title code="0x102">Area 1</title>
+			<title code="0x201">Boss BGM (Phinx)</title>
+			<title code="0x104">Game Over</title>
+		<!--	<title code="0x205">Game Over</title> -->
+			<title code="0x106">Area 2</title>
+			<title code="0x211">Cave BGM 1</title>
+			<title code="0x208">Boss BGM (DESPA)</title>
 			<title code="0x21d">FANFARE</title>
-			<title code="0x107">"OBABA" THEME</title>
-		<!--	<title code="0x003">"OBABA" THEME</title> -->
-			<title code="0x209">BOSS BGM (GROWS)</title>
-		<!--	<title code="0x00a">BGM 0x00a</title> -->
-			<title code="0x10a">"ENNY" THEME</title>
-			<title code="0x121">AREA 3</title>
-			<title code="0x10e">"RANDAR" THEME</title>
-			<title code="0x10f">"DINA" THEME</title>
-			<title code="0x206">CAVE BGM 2</title>
-			<title code="0x110">"LIO" THEME</title>
-			<title code="0x212">BOSS BGM (LICH)</title>
-			<title code="0x213">CAVE BGM 3</title>
-			<title code="0x216">BOSS BGM (SKEL)</title>
-			<title code="0x111">"WINKLE" THEME</title>
-			<title code="0x217">BOSS BGM (DUSA)</title>
-			<title code="0x122">AREA 4</title>
-			<title code="0x10c">AREA 5</title>
-			<title code="0x21c">BOSS BGM (DRAN)</title>
-			<title code="0x11a">AREA 6</title>
-			<title code="0x118">AREA 7</title>
-			<title code="0x127">"GODIES" THEME</title>
-			<title code="0x123">AREA 8</title>
-		<!--	<title code="0x027">BGM 0x027</title>
-			<title code="0x227">BGM 0x227</title> -->
-			<title code="0x219">BOSS BGM (GOLVELLIUS)</title>
-			<title code="0x10d">NAME ENTRY</title>
-		<!--	<title code="0x20b">BGM 0x20b</title> -->
-		<!--	<title code="0x015">BGM 0x015</title> -->
-			<title code="0x128">HARP</title>
-			<title code="0x00b">ENDING</title>
-		<!--	<range min="0x000" max="0x000" extcode="1">SFX 0x%03x</range>
-			<range min="0x031" max="0x04a" extcode="1">SFX 0x%03x</range> -->
-			<range min="0x04b" max="0x04b" extcode="1">SFX 0x%03x</range>
-		<!--	<range min="0x04d" max="0x04d" extcode="1">SFX 0x%03x</range>-->
-			<range min="0x050" max="0x050" extcode="1">SFX 0x%03x</range>
-			<range min="0x100" max="0x100" extcode="1">SFX 0x%03x</range>
-			<range min="0x131" max="0x14b" extcode="1">SFX 0x%03x</range>
-			<range min="0x14e" max="0x14e" extcode="1">SFX 0x%03x</range>
-		<!-- 	<range min="0x231" max="0x24c" extcode="1">SFX 0x%03x</range> -->
+			<title code="0x107">"Obaba" Theme</title>
+		<!--	<title code="0x003">"Obaba" Theme</title> -->
+			<title code="0x209">Boss BGM (GROWS)</title>
+		<!--	<title code="0x00a">BGM #00a</title> -->
+			<title code="0x10a">"Enny" Theme</title>
+			<title code="0x121">Area 3</title>
+			<title code="0x10e">"Randar" Theme</title>
+			<title code="0x10f">"Dina" Theme</title>
+			<title code="0x206">Cave BGM 2</title>
+			<title code="0x110">"Lio" Theme</title>
+			<title code="0x212">Boss BGM (LICH)</title>
+			<title code="0x213">Cave BGM 3</title>
+			<title code="0x216">Boss BGM (SKEL)</title>
+			<title code="0x111">"Winkle" Theme</title>
+			<title code="0x217">Boss BGM (Dusa)</title>
+			<title code="0x122">Area 4</title>
+			<title code="0x10c">Area 5</title>
+			<title code="0x21c">Boss BGM (Dran)</title>
+			<title code="0x11a">Area 6</title>
+			<title code="0x118">Area 7</title>
+			<title code="0x127">"Godies" Theme</title>
+			<title code="0x123">Area 8</title>
+		<!--	<title code="0x027">BGM #027</title>
+			<title code="0x227">BGM #227</title> -->
+			<title code="0x219">Boss BGM (Golvellius)</title>
+			<title code="0x10d">Name Entry</title>
+		<!--	<title code="0x20b">BGM #20b</title> -->
+		<!--	<title code="0x015">BGM #015</title> -->
+			<title code="0x128">Harp</title>
+			<title code="0x00b">Ending</title>
+		<!--	<range min="0x000" max="0x000" extcode="1">SFX #%03X</range>
+			<range min="0x031" max="0x04a" extcode="1">SFX #%03X</range> -->
+			<range min="0x04b" max="0x04b" extcode="1">SFX #%03X</range>
+		<!--	<range min="0x04d" max="0x04d" extcode="1">SFX #%03X</range>-->
+			<range min="0x050" max="0x050" extcode="1">SFX #%03X</range>
+			<range min="0x100" max="0x100" extcode="1">SFX #%03X</range>
+			<range min="0x131" max="0x14b" extcode="1">SFX #%03X</range>
+			<range min="0x14e" max="0x14e" extcode="1">SFX #%03X</range>
+		<!-- 	<range min="0x231" max="0x24c" extcode="1">SFX #%03X</range> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 真・魔王ゴルベリアス(PSG)</name>
+		<name>[MSX2] Shin Maou Golvellius (真・魔王ゴルベリアス) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="sgolveli_msx">
 			<rom type="bgm" offset="0x00">DRIVER.BIN</rom>
@@ -12413,67 +12413,67 @@
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">TITLE</title>
-			<title code="0x001">TITLE DEMO</title>
-			<title code="0x126">ALEID KINGDOM</title>
-		<!--	<title code="0x023">ALEID KINGDOM</title>
-			<title code="0x21f">ALEID KINGDOM</title> -->
-			<title code="0x228">LITTLE VALLEY</title>
-			<title code="0x102">AREA 1</title>
-			<title code="0x201">BOSS BGM (PHINX)</title>
-			<title code="0x104">GAME OVER</title>
-		<!--	<title code="0x205">GAME OVER</title> -->
-			<title code="0x106">AREA 2</title>
-			<title code="0x211">CAVE BGM 1</title>
-			<title code="0x208">BOSS BGM (DESPA)</title>
+			<title code="0x101">Title</title>
+			<title code="0x001">Title Demo</title>
+			<title code="0x126">Aleid Kingdom</title>
+		<!--	<title code="0x023">Aleid Kingdom</title>
+			<title code="0x21f">Aleid Kingdom</title> -->
+			<title code="0x228">Little Valley</title>
+			<title code="0x102">Area 1</title>
+			<title code="0x201">Boss BGM (Phinx)</title>
+			<title code="0x104">Game Over</title>
+		<!--	<title code="0x205">Game Over</title> -->
+			<title code="0x106">Area 2</title>
+			<title code="0x211">Cave BGM 1</title>
+			<title code="0x208">Boss BGM (DESPA)</title>
 			<title code="0x21d">FANFARE</title>
-			<title code="0x107">"OBABA" THEME</title>
-		<!--	<title code="0x003">"OBABA" THEME</title> -->
-			<title code="0x209">BOSS BGM (GROWS)</title>
-		<!--	<title code="0x00a">BGM 0x00a</title> -->
-			<title code="0x10a">"ENNY" THEME</title>
-			<title code="0x121">AREA 3</title>
-			<title code="0x10e">"RANDAR" THEME</title>
-			<title code="0x10f">"DINA" THEME</title>
-			<title code="0x206">CAVE BGM 2</title>
-			<title code="0x110">"LIO" THEME</title>
-			<title code="0x212">BOSS BGM (LICH)</title>
-			<title code="0x213">CAVE BGM 3</title>
-			<title code="0x216">BOSS BGM (SKEL)</title>
-			<title code="0x111">"WINKLE" THEME</title>
-			<title code="0x217">BOSS BGM (DUSA)</title>
-			<title code="0x122">AREA 4</title>
-			<title code="0x10c">AREA 5</title>
-			<title code="0x21c">BOSS BGM (DRAN)</title>
-			<title code="0x11a">AREA 6</title>
-			<title code="0x118">AREA 7</title>
-			<title code="0x127">"GODIES" THEME</title>
-			<title code="0x123">AREA 8</title>
-		<!--	<title code="0x027">BGM 0x027</title>
-			<title code="0x227">BGM 0x227</title> -->
-			<title code="0x219">BOSS BGM (GOLVELLIUS)</title>
-			<title code="0x10d">NAME ENTRY</title>
-		<!--	<title code="0x20b">BGM 0x20b</title> -->
-		<!--	<title code="0x015">BGM 0x015</title> -->
-			<title code="0x128">HARP</title>
-			<title code="0x00b">ENDING</title>
-		<!--	<range min="0x000" max="0x000" extcode="1">SFX 0x%02x</range>
-			<range min="0x031" max="0x04a" extcode="1">SFX 0x%02x</range> -->
-			<range min="0x04b" max="0x04b" extcode="1">SFX 0x%02x</range>
-		<!--	<range min="0x04d" max="0x04d" extcode="1">SFX 0x%02x</range>-->
-			<range min="0x050" max="0x050" extcode="1">SFX 0x%02x</range>
-			<range min="0x100" max="0x100" extcode="1">SFX 0x%02x</range>
-			<range min="0x131" max="0x14b" extcode="1">SFX 0x%02x</range>
-			<range min="0x14e" max="0x14e" extcode="1">SFX 0x%02x</range>
-		<!-- 	<range min="0x231" max="0x24c" extcode="1">SFX 0x%02x</range> -->
+			<title code="0x107">"Obaba" Theme</title>
+		<!--	<title code="0x003">"Obaba" Theme</title> -->
+			<title code="0x209">Boss BGM (GROWS)</title>
+		<!--	<title code="0x00a">BGM #00a</title> -->
+			<title code="0x10a">"Enny" Theme</title>
+			<title code="0x121">Area 3</title>
+			<title code="0x10e">"Randar" Theme</title>
+			<title code="0x10f">"Dina" Theme</title>
+			<title code="0x206">Cave BGM 2</title>
+			<title code="0x110">"Lio" Theme</title>
+			<title code="0x212">Boss BGM (LICH)</title>
+			<title code="0x213">Cave BGM 3</title>
+			<title code="0x216">Boss BGM (SKEL)</title>
+			<title code="0x111">"Winkle" Theme</title>
+			<title code="0x217">Boss BGM (Dusa)</title>
+			<title code="0x122">Area 4</title>
+			<title code="0x10c">Area 5</title>
+			<title code="0x21c">Boss BGM (Dran)</title>
+			<title code="0x11a">Area 6</title>
+			<title code="0x118">Area 7</title>
+			<title code="0x127">"Godies" Theme</title>
+			<title code="0x123">Area 8</title>
+		<!--	<title code="0x027">BGM #027</title>
+			<title code="0x227">BGM #227</title> -->
+			<title code="0x219">Boss BGM (Golvellius)</title>
+			<title code="0x10d">Name Entry</title>
+		<!--	<title code="0x20b">BGM #20b</title> -->
+		<!--	<title code="0x015">BGM #015</title> -->
+			<title code="0x128">Harp</title>
+			<title code="0x00b">Ending</title>
+		<!--	<range min="0x000" max="0x000" extcode="1">SFX #%03X</range>
+			<range min="0x031" max="0x04a" extcode="1">SFX #%03X</range> -->
+			<range min="0x04b" max="0x04b" extcode="1">SFX #%03X</range>
+		<!--	<range min="0x04d" max="0x04d" extcode="1">SFX #%03X</range>-->
+			<range min="0x050" max="0x050" extcode="1">SFX #%03X</range>
+			<range min="0x100" max="0x100" extcode="1">SFX #%03X</range>
+			<range min="0x131" max="0x14b" extcode="1">SFX #%03X</range>
+			<range min="0x14e" max="0x14e" extcode="1">SFX #%03X</range>
+		<!-- 	<range min="0x231" max="0x24c" extcode="1">SFX #%03X</range> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 魔導物語(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #SP5 Madou Monogatari (DiscStation #SP5 魔導物語) (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"  value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 			<option name="use_msxa" value="0x01"/>
 		      </options>
 		<romlist archive="mado_msx">
@@ -12493,15 +12493,15 @@
 			<title code="0x103">ライラの遺跡2</title>
 			<title code="0x107">エンディング</title>
 			<title code="0x108">ゲームオーバー</title>
-			<range min="0x0c" max="0x18" extcode="1">SFX 0x%02x</range>
+			<range min="0x0c" max="0x18" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 魔導物語 (AY-3-8910+YM2413)</name>
+		<name>[MSX2] DiscStation #SP5 Madou Monogatari (DiscStation #SP5 魔導物語) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"  value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="mado_msx">
@@ -12521,15 +12521,15 @@
 			<title code="0x103">ライラの遺跡2</title>
 			<title code="0x107">エンディング</title>
 			<title code="0x108">ゲームオーバー</title>
-			<range min="0x0c" max="0x18" extcode="1">SFX 0x%02x</range>
+			<range min="0x0c" max="0x18" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 魔導物語(PSG)</name>
+		<name>[MSX2] DiscStation #SP5 Madou Monogatari (DiscStation #SP5 魔導物語) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="mado_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12548,69 +12548,69 @@
 			<title code="0x103">ライラの遺跡2</title>
 			<title code="0x107">エンディング</title>
 			<title code="0x108">ゲームオーバー</title>
-			<range min="0x0c" max="0x18" extcode="1">SFX 0x%02x</range>
+			<range min="0x0c" max="0x18" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP4 ALESTE外伝 (AY-3-8910+YM2413)</name>
+		<name>[MSX2] DiscStation #SP4: Aleste Gaiden (DiscStation #SP4 ALESTE外伝) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="alesteg_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc0010b">TITLE</title>
-			<title code="0x800108">STAGE 1/3</title>
-			<title code="0x800107">STAGE 1 BOSS</title>
-			<title code="0x800106">STAGE CLEAR</title>
-			<title code="0x80010a">STAGE 2/4</title>
-			<title code="0x800104">STAGE 2/3/4 BOSS</title>
-			<title code="0x80010c">STAGE 5</title>
-			<title code="0x800102">STAGE 5 BOSS</title>
-			<title code="0x800105">GAME OVER</title>
-			<title code="0xc00101">EPILOGUE</title>
-			<range min="0x00" max="0x00" extcode="1">SFX 0x%02x</range>
-			<range min="0x0d" max="0x1d" extcode="1">SFX 0x%02x</range>
+			<title code="0xc0010b">Title</title>
+			<title code="0x800108">Stage 1/3</title>
+			<title code="0x800107">Stage 1 Boss</title>
+			<title code="0x800106">Stage Clear</title>
+			<title code="0x80010a">Stage 2/4</title>
+			<title code="0x800104">Stage 2/3/4 Boss</title>
+			<title code="0x80010c">Stage 5</title>
+			<title code="0x800102">Stage 5 Boss</title>
+			<title code="0x800105">Game Over</title>
+			<title code="0xc00101">Epilogue</title>
+			<range min="0x00" max="0x00" extcode="1">SFX #%02X</range>
+			<range min="0x0d" max="0x1d" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP4 ALESTE外伝(PSG)</name>
+		<name>[MSX2] DiscStation #SP4: Aleste Gaiden (DiscStation #SP4 ALESTE外伝) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
 		<romlist archive="alesteg_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10b">TITLE</title>
-			<title code="0x108">STAGE 1/3</title>
-			<title code="0x107">STAGE 1 BOSS</title>
-			<title code="0x106">STAGE CLEAR</title>
-			<title code="0x10a">STAGE 2/4</title>
-			<title code="0x104">STAGE 2/3/4 BOSS</title>
-			<title code="0x10c">STAGE 5</title>
-			<title code="0x102">STAGE 5 BOSS</title>
-			<title code="0x105">GAME OVER</title>
-			<title code="0x101">EPILOGUE</title>
-			<range min="0x00" max="0x00" extcode="1">SFX 0x%02x</range>
-			<range min="0x0d" max="0x1d" extcode="1">SFX 0x%02x</range>
+			<title code="0x10b">Title</title>
+			<title code="0x108">Stage 1/3</title>
+			<title code="0x107">Stage 1 Boss</title>
+			<title code="0x106">Stage Clear</title>
+			<title code="0x10a">Stage 2/4</title>
+			<title code="0x104">Stage 2/3/4 Boss</title>
+			<title code="0x10c">Stage 5</title>
+			<title code="0x102">Stage 5 Boss</title>
+			<title code="0x105">Game Over</title>
+			<title code="0x101">Epilogue</title>
+			<range min="0x00" max="0x00" extcode="1">SFX #%02X</range>
+			<range min="0x0d" max="0x1d" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX3 にゃんぴ(OPLL)</name>
+		<name>[MSX2] DiscStation #DX3 Nyanpi (DiscStation #DX3 にゃんぴ) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x8000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="nyanpi_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12622,17 +12622,17 @@
 			<title code="0x102">メインBGM</title>
 			<title code="0x104">ステージクリア</title>
 			<title code="0x103">スタッフロール</title>
-			<range min="0x000" max="0x000" extcode="1">SFX 0x%02x</range>
-			<range min="0x00f" max="0x014" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">SFX #%02X</range>
+			<range min="0x00f" max="0x014" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX3 にゃんぴ(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #DX3 Nyanpi (DiscStation #DX3 にゃんぴ) (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x8000"/>
+			<option name="use_msxa" value="0x01"/>
 		      </options>
 		<romlist archive="nyanpi_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12644,16 +12644,16 @@
 			<title code="0x102">メインBGM</title>
 			<title code="0x104">ステージクリア</title>
 			<title code="0x103">スタッフロール</title>
-			<range min="0x000" max="0x000" extcode="1">SFX 0x%02x</range>
-			<range min="0x00f" max="0x014" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">SFX #%02X</range>
+			<range min="0x00f" max="0x014" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX3 にゃんぴ(PSG)</name>
+		<name>[MSX2] DiscStation #DX3 Nyanpi (DiscStation #DX3 にゃんぴ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		      </options>
 		<romlist archive="nyanpi_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -12665,22 +12665,22 @@
 			<title code="0x102">メインBGM</title>
 			<title code="0x104">ステージクリア</title>
 			<title code="0x103">スタッフロール</title>
-			<range min="0x000" max="0x000" extcode="1">SFX 0x%02x</range>
-			<range min="0x00f" max="0x014" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">SFX #%02X</range>
+			<range min="0x00f" max="0x014" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP2 SUPER COCKS(OPLL)</name>
+		<name>[MSX2] DiscStation #SP2 Super Cooks (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
-		<romlist archive="spcocks_msx">
+		<romlist archive="spcooks_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 			<rom type="bgm" offset="0x00">DRIVER.BIN</rom>
@@ -12688,49 +12688,49 @@
 			<rom type="bgm" offset="0x02">DRIVER3.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">TITLE</title>
-			<title code="0x00b">FIELD 1</title>
-			<title code="0x104">CAVE 1</title>
-			<title code="0x108">BOSS 1</title>
-			<title code="0x00c">FIELD 2</title>
-			<title code="0x102">CAVE 2</title>
-			<title code="0x109">BOSS 2</title>
-			<title code="0x007">FIELD 3</title>
-			<title code="0x207">CAVE 3</title>
-			<title code="0x213">BOSS 3</title>
-			<title code="0x00e">FIELD 4</title>
-			<title code="0x20a">CAVE 4</title>
-			<title code="0x215">BOSS 4</title>
-			<title code="0x00f">FIELD 5</title>
-			<title code="0x212">CAVE 5</title>
-			<title code="0x216">BOSS 5-1</title>
-			<title code="0x217">BOSS 5-2</title>
-			<title code="0x107">ENDING</title>
-			<title code="0x003">GAME OVER</title>
-			<title code="0x006">FANFARE</title>
-			<title code="0x00d">"GODIES" THEME</title>
-			<title code="0x010">"DINA" THEME</title>
-			<title code="0x011">"LIO" THEME</title>
-			<title code="0x019">"OBABA" THEME</title>
-			<title code="0x01a">"RANDAR" THEME</title>
-			<title code="0x01b">"WINKLE" THEME</title>
-			<title code="0x01c">"ENNY" THEME</title>
-			<title code="0x001">BGM 0x001</title>
-			<range min="0x040" max="0x06f" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Title</title>
+			<title code="0x00b">Field 1</title>
+			<title code="0x104">Cave 1</title>
+			<title code="0x108">Boss 1</title>
+			<title code="0x00c">Field 2</title>
+			<title code="0x102">Cave 2</title>
+			<title code="0x109">Boss 2</title>
+			<title code="0x007">Field 3</title>
+			<title code="0x207">Cave 3</title>
+			<title code="0x213">Boss 3</title>
+			<title code="0x00e">Field 4</title>
+			<title code="0x20a">Cave 4</title>
+			<title code="0x215">Boss 4</title>
+			<title code="0x00f">Field 5</title>
+			<title code="0x212">Cave 5</title>
+			<title code="0x216">Boss 5-1</title>
+			<title code="0x217">Boss 5-2</title>
+			<title code="0x107">Ending</title>
+			<title code="0x003">Game Over</title>
+			<title code="0x006">Fanfare</title>
+			<title code="0x00d">"Godies" Theme</title>
+			<title code="0x010">"Dina" Theme</title>
+			<title code="0x011">"Lio" Theme</title>
+			<title code="0x019">"Obaba" Theme</title>
+			<title code="0x01a">"Randar" Theme</title>
+			<title code="0x01b">"Winkle" Theme</title>
+			<title code="0x01c">"Enny" Theme</title>
+			<title code="0x001">BGM #001</title>
+			<range min="0x040" max="0x06f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP2 SUPER COCKS(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #SP2 Super Cooks (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_msxa" value="0x01"/>
 		      </options>
-		<romlist archive="spcocks_msx">
+		<romlist archive="spcooks_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 			<rom type="bgm" offset="0x00">DRIVER.BIN</rom>
@@ -12738,48 +12738,48 @@
 			<rom type="bgm" offset="0x02">DRIVER3.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">TITLE</title>
-			<title code="0x00b">FIELD 1</title>
-			<title code="0x104">CAVE 1</title>
-			<title code="0x108">BOSS 1</title>
-			<title code="0x00c">FIELD 2</title>
-			<title code="0x102">CAVE 2</title>
-			<title code="0x109">BOSS 2</title>
-			<title code="0x007">FIELD 3</title>
-			<title code="0x207">CAVE 3</title>
-			<title code="0x213">BOSS 3</title>
-			<title code="0x00e">FIELD 4</title>
-			<title code="0x20a">CAVE 4</title>
-			<title code="0x215">BOSS 4</title>
-			<title code="0x00f">FIELD 5</title>
-			<title code="0x212">CAVE 5</title>
-			<title code="0x216">BOSS 5-1</title>
-			<title code="0x217">BOSS 5-2</title>
-			<title code="0x107">ENDING</title>
-			<title code="0x003">GAME OVER</title>
-			<title code="0x006">FANFARE</title>
-			<title code="0x00d">"GODIES" THEME</title>
-			<title code="0x010">"DINA" THEME</title>
-			<title code="0x011">"LIO" THEME</title>
-			<title code="0x019">"OBABA" THEME</title>
-			<title code="0x01a">"RANDAR" THEME</title>
-			<title code="0x01b">"WINKLE" THEME</title>
-			<title code="0x01c">"ENNY" THEME</title>
-			<title code="0x001">BGM 0x001</title>
-			<range min="0x040" max="0x06f" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Title</title>
+			<title code="0x00b">Field 1</title>
+			<title code="0x104">Cave 1</title>
+			<title code="0x108">Boss 1</title>
+			<title code="0x00c">Field 2</title>
+			<title code="0x102">Cave 2</title>
+			<title code="0x109">Boss 2</title>
+			<title code="0x007">Field 3</title>
+			<title code="0x207">Cave 3</title>
+			<title code="0x213">Boss 3</title>
+			<title code="0x00e">Field 4</title>
+			<title code="0x20a">Cave 4</title>
+			<title code="0x215">Boss 4</title>
+			<title code="0x00f">Field 5</title>
+			<title code="0x212">Cave 5</title>
+			<title code="0x216">Boss 5-1</title>
+			<title code="0x217">Boss 5-2</title>
+			<title code="0x107">Ending</title>
+			<title code="0x003">Game Over</title>
+			<title code="0x006">Fanfare</title>
+			<title code="0x00d">"Godies" Theme</title>
+			<title code="0x010">"Dina" Theme</title>
+			<title code="0x011">"Lio" Theme</title>
+			<title code="0x019">"Obaba" Theme</title>
+			<title code="0x01a">"Randar" Theme</title>
+			<title code="0x01b">"Winkle" Theme</title>
+			<title code="0x01c">"Enny" Theme</title>
+			<title code="0x001">BGM #001</title>
+			<range min="0x040" max="0x06f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP2 SUPER COCKS(PSG)</name>
+		<name>[MSX2] DiscStation #SP2 Super Cooks (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
-		<romlist archive="spcocks_msx">
+		<romlist archive="spcooks_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 			<rom type="bgm" offset="0x00">DRIVER.BIN</rom>
@@ -12787,118 +12787,118 @@
 			<rom type="bgm" offset="0x02">DRIVER3.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">TITLE</title>
-			<title code="0x00b">FIELD 1</title>
-			<title code="0x104">CAVE 1</title>
-			<title code="0x108">BOSS 1</title>
-			<title code="0x00c">FIELD 2</title>
-			<title code="0x102">CAVE 2</title>
-			<title code="0x109">BOSS 2</title>
-			<title code="0x007">FIELD 3</title>
-			<title code="0x207">CAVE 3</title>
-			<title code="0x213">BOSS 3</title>
-			<title code="0x00e">FIELD 4</title>
-			<title code="0x20a">CAVE 4</title>
-			<title code="0x215">BOSS 4</title>
-			<title code="0x00f">FIELD 5</title>
-			<title code="0x212">CAVE 5</title>
-			<title code="0x216">BOSS 5-1</title>
-			<title code="0x217">BOSS 5-2</title>
-			<title code="0x107">ENDING</title>
-			<title code="0x003">GAME OVER</title>
-			<title code="0x006">FANFARE</title>
-			<title code="0x00d">"GODIES" THEME</title>
-			<title code="0x010">"DINA" THEME</title>
-			<title code="0x011">"LIO" THEME</title>
-			<title code="0x019">"OBABA" THEME</title>
-			<title code="0x01a">"RANDAR" THEME</title>
-			<title code="0x01b">"WINKLE" THEME</title>
-			<title code="0x01c">"ENNY" THEME</title>
-			<title code="0x001">BGM 0x001</title>
-			<range min="0x040" max="0x06f" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Title</title>
+			<title code="0x00b">Field 1</title>
+			<title code="0x104">Cave 1</title>
+			<title code="0x108">Boss 1</title>
+			<title code="0x00c">Field 2</title>
+			<title code="0x102">Cave 2</title>
+			<title code="0x109">Boss 2</title>
+			<title code="0x007">Field 3</title>
+			<title code="0x207">Cave 3</title>
+			<title code="0x213">Boss 3</title>
+			<title code="0x00e">Field 4</title>
+			<title code="0x20a">Cave 4</title>
+			<title code="0x215">Boss 4</title>
+			<title code="0x00f">Field 5</title>
+			<title code="0x212">Cave 5</title>
+			<title code="0x216">Boss 5-1</title>
+			<title code="0x217">Boss 5-2</title>
+			<title code="0x107">Ending</title>
+			<title code="0x003">Game Over</title>
+			<title code="0x006">Fanfare</title>
+			<title code="0x00d">"Godies" Theme</title>
+			<title code="0x010">"Dina" Theme</title>
+			<title code="0x011">"Lio" Theme</title>
+			<title code="0x019">"Obaba" Theme</title>
+			<title code="0x01a">"Randar" Theme</title>
+			<title code="0x01b">"Winkle" Theme</title>
+			<title code="0x01c">"Enny" Theme</title>
+			<title code="0x001">BGM #001</title>
+			<range min="0x040" max="0x06f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 Rune Master(OPLL)</name>
+		<name>[MSX2] DiscStation #SP5 Rune Master (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="runemst1_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">LET'S BEGIN</title>
-			<title code="0x102">MAIN THEME 1</title>
-			<title code="0x104">THE ENEMY!</title>
-			<title code="0x105">RUNE VILLAGE 1</title>
-			<title code="0x107">YOU ARE DEAD!</title>
-			<title code="0x108">NO USE</title>
-			<title code="0x109">ENDING 1</title>
-			<title code="0x10a">LET'S DANCE</title>
-			<range min="0x00b" max="0x01a" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Let's Begin</title>
+			<title code="0x102">Main Theme 1</title>
+			<title code="0x104">The Enemy!</title>
+			<title code="0x105">Rune Village 1</title>
+			<title code="0x107">You Are Dead!</title>
+			<title code="0x108">No Use</title>
+			<title code="0x109">Ending 1</title>
+			<title code="0x10a">Let's Dance</title>
+			<range min="0x00b" max="0x01a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 Rune Master(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #SP5 Rune Master (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_msxa" value="0x01"/>
 		      </options>
 		<romlist archive="runemst1_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">LET'S BEGIN</title>
-			<title code="0x102">MAIN THEME 1</title>
-			<title code="0x104">THE ENEMY!</title>
-			<title code="0x105">RUNE VILLAGE 1</title>
-			<title code="0x107">YOU ARE DEAD!</title>
-			<title code="0x108">NO USE</title>
-			<title code="0x109">ENDING 1</title>
-			<title code="0x10a">LET'S DANCE</title>
-			<range min="0x00b" max="0x01a" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Let's Begin</title>
+			<title code="0x102">Main Theme 1</title>
+			<title code="0x104">The Enemy!</title>
+			<title code="0x105">Rune Village 1</title>
+			<title code="0x107">You Are Dead!</title>
+			<title code="0x108">No Use</title>
+			<title code="0x109">Ending 1</title>
+			<title code="0x10a">Let's Dance</title>
+			<range min="0x00b" max="0x01a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP5 Rune Master(PSG)</name>
+		<name>[MSX2] DiscStation #SP5 Rune Master (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
 		<romlist archive="runemst1_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0x6000">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x101">LET'S BEGIN</title>
-			<title code="0x102">MAIN THEME 1</title>
-			<title code="0x104">THE ENEMY!</title>
-			<title code="0x105">RUNE VILLAGE 1</title>
-			<title code="0x107">YOU ARE DEAD!</title>
-			<title code="0x108">NO USE</title>
-			<title code="0x109">ENDING 1</title>
-			<title code="0x10a">LET'S DANCE</title>
-			<range min="0x00b" max="0x01a" extcode="1">SFX 0x%02x</range>
+			<title code="0x101">Let's Begin</title>
+			<title code="0x102">Main Theme 1</title>
+			<title code="0x104">The Enemy!</title>
+			<title code="0x105">Rune Village 1</title>
+			<title code="0x107">You Are Dead!</title>
+			<title code="0x108">No Use</title>
+			<title code="0x109">Ending 1</title>
+			<title code="0x10a">Let's Dance</title>
+			<range min="0x00b" max="0x01a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX2 魔導師ラルバ 総集編(OPLL)</name>
+		<name>[MSX2] DiscStation #DX2 Madoushi Lulba Soushuuhen (DiscStation #DX2 魔導師ラルバ 総集編) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="lulba_msx">
 			<rom type="code" offset="0x6000">patch</rom>
@@ -12954,19 +12954,19 @@
 			<title code="0x007">FOR LEGEND 2</title>
 			<title code="0x005">FRUITION</title>
 			<title code="0x001">ENDING</title>
-			<range min="0x009" max="0x00a" extcode="1">SFX 0x%02x</range>
-			<range min="0x020" max="0x03f" extcode="1">SFX 0x%02x</range>
+			<range min="0x009" max="0x00a" extcode="1">SFX #%02X</range>
+			<range min="0x020" max="0x03f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX2 魔導師ラルバ 総集編(PSG)</name>
+		<name>[MSX2] DiscStation #DX2 Madoushi Lulba Soushuuhen (DiscStation #DX2 魔導師ラルバ 総集編) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		</options>
 		<romlist archive="lulba_msx">
 			<rom type="code" offset="0x6000">patch</rom>
@@ -13022,17 +13022,17 @@
 			<title code="0x007">FOR LEGEND 2</title>
 			<title code="0x005">FRUITION</title>
 			<title code="0x001">ENDING</title>
-			<range min="0x009" max="0x00a" extcode="1">SFX 0x%02x</range>
-			<range min="0x020" max="0x03f" extcode="1">SFX 0x%02x</range>
+			<range min="0x009" max="0x00a" extcode="1">SFX #%02X</range>
+			<range min="0x020" max="0x03f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX1 Rune Master II(OPLL)</name>
+		<name>[MSX2] DiscStation #DX1 Rune Master II (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="runemst2_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13049,16 +13049,16 @@
 			<title code="0x106">RUNE VILLAGE 2</title>
 			<title code="0x109">ENDING 2</title>
 			<title code="0x10b">HUSTLE TURTLES</title>
-			<range min="0x010" max="0x01e" extcode="1">SFX 0x%02x</range>
+			<range min="0x010" max="0x01e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX1 Rune Master II(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #DX1 Rune Master II (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_msxa" value="0x01"/>
 		      </options>
 		<romlist archive="runemst2_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13075,15 +13075,15 @@
 			<title code="0x106">RUNE VILLAGE 2</title>
 			<title code="0x109">ENDING 2</title>
 			<title code="0x10b">HUSTLE TURTLES</title>
-			<range min="0x010" max="0x01e" extcode="1">SFX 0x%02x</range>
+			<range min="0x010" max="0x01e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #DX1 Rune Master II(PSG)</name>
+		<name>[MSX2] DiscStation #DX1 Rune Master II (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
 		<romlist archive="runemst2_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13100,15 +13100,15 @@
 			<title code="0x106">RUNE VILLAGE 2</title>
 			<title code="0x109">ENDING 2</title>
 			<title code="0x10b">HUSTLE TURTLES</title>
-			<range min="0x010" max="0x01e" extcode="1">SFX 0x%02x</range>
+			<range min="0x010" max="0x01e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #13 BLASTER BURN GALLERY(PSG)</name>
+		<name>[MSX2] DiscStation #13 Blaster Burn Gallery (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="bbg_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13116,45 +13116,45 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x303">COMPILE FANFARE</title>
-			<title code="0x001">BLASTER BURN</title>
-			<title code="0x302">READINESS(MENU)</title>
-			<title code="0x101">LIMIT(LEVEL UP)</title>
-			<title code="0x201">OUT GROW(THEME OF ?)</title>
-			<title code="0x301">REVOLT(#0,EXTRA)</title>
-			<title code="0x321">ZENO(#1-1)</title>
-			<title code="0x320">ROACH(#1-2)</title>
-			<title code="0x402">AMAZING POWER(#2-1)</title>
-			<title code="0x401">SENSE OF CRISIS(#2-2)</title>
-			<title code="0x501">A PERT GIRL(#3-1)</title>
-			<title code="0x502">THE HOLY GHOST(#3-2)</title>
-			<title code="0x503">BLIZZARD(#3-BOSS)</title>
-			<title code="0x604">FLY FLAP(RANDAR BURN)</title>
-			<title code="0x601">HEADS MAN(RB-1)</title>
-			<title code="0x602">GO FOR A DRIVE(RB-2)</title>
-			<title code="0x603">DANGEROUS(RB-BOSS)</title>
-			<title code="0x305">ROUND OVER</title>
-			<title code="0x304">GAME OVER</title>
-			<title code="0x306">NORMAL FIRE 1</title>
-			<title code="0x307">NORMAL FIRE 2</title>
-			<title code="0x308">NORMAL FIRE 3</title>
-			<title code="0x309">NORMAL FIRE 4</title>
-			<title code="0x30a">EXTRA FIRE</title>
-			<title code="0x30b">PLAYER DAMAGE</title>
-			<title code="0x30c">PLAYER EXPLOSION</title>
-			<title code="0x30d">ENEMY REFLECT</title>
-			<title code="0x30e">ENEMY EXPLOSION 1</title>
-			<title code="0x30f">ENEMY EXPLOSION 2</title>
-			<title code="0x310">POWER CHIP GET</title>
+			<title code="0x303">Compile Fanfare</title>
+			<title code="0x001">Blaster Burn</title>
+			<title code="0x302">Readiness [Menu]</title>
+			<title code="0x101">Limit [Level Up]</title>
+			<title code="0x201">Out Grow [Theme of ?]</title>
+			<title code="0x301">Revolt [#0, Extra]</title>
+			<title code="0x321">Zeno [#1-1]</title>
+			<title code="0x320">Roach [#1-2]</title>
+			<title code="0x402">Amazing Power [#2-1]</title>
+			<title code="0x401">Sense of Crisis [#2-2]</title>
+			<title code="0x501">A Pert Girl [#3-1]</title>
+			<title code="0x502">The Holy Ghost [#3-2]</title>
+			<title code="0x503">Blizzard [#3-Boss]</title>
+			<title code="0x604">Fly Flap [Randar Burn]</title>
+			<title code="0x601">Heads Man [RB-1]</title>
+			<title code="0x602">Go For a Drive [RB-2]</title>
+			<title code="0x603">Dangerous [RB-Boss]</title>
+			<title code="0x305">Round Over</title>
+			<title code="0x304">Game Over</title>
+			<title code="0x306">Normal Fire 1</title>
+			<title code="0x307">Normal Fire 2</title>
+			<title code="0x308">Normal Fire 3</title>
+			<title code="0x309">Normal Fire 4</title>
+			<title code="0x30a">Extra Fire</title>
+			<title code="0x30b">Player Damage</title>
+			<title code="0x30c">Player Explosion</title>
+			<title code="0x30d">Enemy Reflect</title>
+			<title code="0x30e">Enemy Explosion 1</title>
+			<title code="0x30f">Enemy Explosion 2</title>
+			<title code="0x310">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #13 BLASTER BURN GALLERY(OPLL)</name>
+		<name>[MSX2] DiscStation #13 Blaster Burn Gallery (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="bbg_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13162,45 +13162,45 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x303">COMPILE FANFARE</title>
-			<title code="0x001">BLASTER BURN</title>
-			<title code="0x302">READINESS(MENU)</title>
-			<title code="0x101">LIMIT(LEVEL UP)</title>
-			<title code="0x201">OUT GROW(THEME OF ?)</title>
-			<title code="0x301">REVOLT(#0,EXTRA)</title>
-			<title code="0x321">ZENO(#1-1)</title>
-			<title code="0x320">ROACH(#1-2)</title>
-			<title code="0x402">AMAZING POWER(#2-1)</title>
-			<title code="0x401">SENSE OF CRISIS(#2-2)</title>
-			<title code="0x501">A PERT GIRL(#3-1)</title>
-			<title code="0x502">THE HOLY GHOST(#3-2)</title>
-			<title code="0x503">BLIZZARD(#3-BOSS)</title>
-			<title code="0x604">FLY FLAP(RANDAR BURN)</title>
-			<title code="0x601">HEADS MAN(RB-1)</title>
-			<title code="0x602">GO FOR A DRIVE(RB-2)</title>
-			<title code="0x603">DANGEROUS(RB-BOSS)</title>
-			<title code="0x305">ROUND OVER</title>
-			<title code="0x304">GAME OVER</title>
-			<title code="0x306">NORMAL FIRE 1</title>
-			<title code="0x307">NORMAL FIRE 2</title>
-			<title code="0x308">NORMAL FIRE 3</title>
-			<title code="0x309">NORMAL FIRE 4</title>
-			<title code="0x30a">EXTRA FIRE</title>
-			<title code="0x30b">PLAYER DAMAGE</title>
-			<title code="0x30c">PLAYER EXPLOSION</title>
-			<title code="0x30d">ENEMY REFLECT</title>
-			<title code="0x30e">ENEMY EXPLOSION 1</title>
-			<title code="0x30f">ENEMY EXPLOSION 2</title>
-			<title code="0x310">POWER CHIP GET</title>
+			<title code="0x303">Compile Fanfare</title>
+			<title code="0x001">Blaster Burn</title>
+			<title code="0x302">Readiness [Menu]</title>
+			<title code="0x101">Limit [Level Up]</title>
+			<title code="0x201">Out Grow [Theme of ?]</title>
+			<title code="0x301">Revolt [#0, Extra]</title>
+			<title code="0x321">Zeno [#1-1]</title>
+			<title code="0x320">Roach [#1-2]</title>
+			<title code="0x402">Amazing Power [#2-1]</title>
+			<title code="0x401">Sense of Crisis [#2-2]</title>
+			<title code="0x501">A Pert Girl [#3-1]</title>
+			<title code="0x502">The Holy Ghost [#3-2]</title>
+			<title code="0x503">Blizzard [#3-Boss]</title>
+			<title code="0x604">Fly Flap [Randar Burn]</title>
+			<title code="0x601">Heads Man [RB-1]</title>
+			<title code="0x602">Go For a Drive [RB-2]</title>
+			<title code="0x603">Dangerous [RB-Boss]</title>
+			<title code="0x305">Round Over</title>
+			<title code="0x304">Game Over</title>
+			<title code="0x306">Normal Fire 1</title>
+			<title code="0x307">Normal Fire 2</title>
+			<title code="0x308">Normal Fire 3</title>
+			<title code="0x309">Normal Fire 4</title>
+			<title code="0x30a">Extra Fire</title>
+			<title code="0x30b">Player Damage</title>
+			<title code="0x30c">Player Explosion</title>
+			<title code="0x30d">Enemy Reflect</title>
+			<title code="0x30e">Enemy Explosion 1</title>
+			<title code="0x30f">Enemy Explosion 2</title>
+			<title code="0x310">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #13 BLASTER BURN GALLERY(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #13 Blaster Burn Gallery (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="bbg_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13208,44 +13208,44 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x303">COMPILE FANFARE</title>
-			<title code="0x001">BLASTER BURN</title>
-			<title code="0x302">READINESS(MENU)</title>
-			<title code="0x101">LIMIT(LEVEL UP)</title>
-			<title code="0x201">OUT GROW(THEME OF ?)</title>
-			<title code="0x301">REVOLT(#0,EXTRA)</title>
-			<title code="0x321">ZENO(#1-1)</title>
-			<title code="0x320">ROACH(#1-2)</title>
-			<title code="0x402">AMAZING POWER(#2-1)</title>
-			<title code="0x401">SENSE OF CRISIS(#2-2)</title>
-			<title code="0x501">A PERT GIRL(#3-1)</title>
-			<title code="0x502">THE HOLY GHOST(#3-2)</title>
-			<title code="0x503">BLIZZARD(#3-BOSS)</title>
-			<title code="0x604">FLY FLAP(RANDAR BURN)</title>
-			<title code="0x601">HEADS MAN(RB-1)</title>
-			<title code="0x602">GO FOR A DRIVE(RB-2)</title>
-			<title code="0x603">DANGEROUS(RB-BOSS)</title>
-			<title code="0x305">ROUND OVER</title>
-			<title code="0x304">GAME OVER</title>
-			<title code="0x306">NORMAL FIRE 1</title>
-			<title code="0x307">NORMAL FIRE 2</title>
-			<title code="0x308">NORMAL FIRE 3</title>
-			<title code="0x309">NORMAL FIRE 4</title>
-			<title code="0x30a">EXTRA FIRE</title>
-			<title code="0x30b">PLAYER DAMAGE</title>
-			<title code="0x30c">PLAYER EXPLOSION</title>
-			<title code="0x30d">ENEMY REFLECT</title>
-			<title code="0x30e">ENEMY EXPLOSION 1</title>
-			<title code="0x30f">ENEMY EXPLOSION 2</title>
-			<title code="0x310">POWER CHIP GET</title>
+			<title code="0x303">Compile Fanfare</title>
+			<title code="0x001">Blaster Burn</title>
+			<title code="0x302">Readiness [Menu]</title>
+			<title code="0x101">Limit [Level Up]</title>
+			<title code="0x201">Out Grow [Theme of ?]</title>
+			<title code="0x301">Revolt [#0, Extra]</title>
+			<title code="0x321">Zeno [#1-1]</title>
+			<title code="0x320">Roach [#1-2]</title>
+			<title code="0x402">Amazing Power [#2-1]</title>
+			<title code="0x401">Sense of Crisis [#2-2]</title>
+			<title code="0x501">A Pert Girl [#3-1]</title>
+			<title code="0x502">The Holy Ghost [#3-2]</title>
+			<title code="0x503">Blizzard [#3-Boss]</title>
+			<title code="0x604">Fly Flap [Randar Burn]</title>
+			<title code="0x601">Heads Man [RB-1]</title>
+			<title code="0x602">Go For a Drive [RB-2]</title>
+			<title code="0x603">Dangerous [RB-Boss]</title>
+			<title code="0x305">Round Over</title>
+			<title code="0x304">Game Over</title>
+			<title code="0x306">Normal Fire 1</title>
+			<title code="0x307">Normal Fire 2</title>
+			<title code="0x308">Normal Fire 3</title>
+			<title code="0x309">Normal Fire 4</title>
+			<title code="0x30a">Extra Fire</title>
+			<title code="0x30b">Player Damage</title>
+			<title code="0x30c">Player Explosion</title>
+			<title code="0x30d">Enemy Reflect</title>
+			<title code="0x30e">Enemy Explosion 1</title>
+			<title code="0x30f">Enemy Explosion 2</title>
+			<title code="0x310">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #18 BLASTER BURN GALLERY2(PSG)</name>
+		<name>[MSX2] DiscStation #18 Blaster Burn Gallery 2 (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="bbg2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13253,48 +13253,48 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">COMPILE FANFARE</title>
-			<title code="0x14">BLASTER BURN</title>
-			<title code="0x02">READINESS(MENU)</title>
-			<title code="0x15">LIMIT(LEVEL UP)</title>
-			<title code="0x16">OUT GROW(THEME OF ?)</title>
-			<title code="0x11">AMAZING POWER(#4-1)</title>
-			<title code="0x12">SENSE OF CRISIS(#4-2)</title>
-			<title code="0x13">BLIZZARD(#3,#5 BOSS)</title>
-			<title code="0x17">ASTEROID FREEDOM(#5-1)</title>
-			<title code="0x19">ROACH(#5 ZANA-BAIGUL)</title>
-			<title code="0x18">PIPELINE(#5-2)</title>
-			<title code="0x1a">FINAL JUSTICE(#6-1)</title>
-			<title code="0x1b">THEME OF GUARDIC(#6-2)</title>
-			<title code="0x1c">OLD EYES(#6-BOSS)</title>
-			<title code="0x1d">TOP OF THE END(#7-1)</title>
-			<title code="0x1e">PARSON'S DEATH(#7-2)</title>
-			<title code="0x22">ATTEMPT TO ESCAPE(#8-1)</title>
-			<title code="0x1f">REVOLT II(#8-2)</title>
-			<title code="0x20">TRIKAVE(FINAL BOSS)</title>
-			<title code="0x21">PEACE AT ONCE(ENDING)</title>
-			<title code="0x05">ROUND OVER</title>
-			<title code="0x04">GAME OVER</title>
-			<title code="0x06">NORMAL FIRE 1</title>
-			<title code="0x07">NORMAL FIRE 2</title>
-			<title code="0x08">NORMAL FIRE 3</title>
-			<title code="0x09">NORMAL FIRE 4</title>
-			<title code="0x0a">EXTRA FIRE</title>
-			<title code="0x0b">PLAYER DAMAGE</title>
-			<title code="0x0c">PLAYER EXPLOSION</title>
-			<title code="0x0d">ENEMY REFLECT</title>
-			<title code="0x0e">ENEMY EXPLOSION 1</title>
-			<title code="0x0f">ENEMY EXPLOSION 2</title>
-			<title code="0x10">POWER CHIP GET</title>
+			<title code="0x03">Compile Fanfare</title>
+			<title code="0x14">Blaster Burn</title>
+			<title code="0x02">Readiness [Menu]</title>
+			<title code="0x15">Limit [Level Up]</title>
+			<title code="0x16">Out Grow [Theme of ?]</title>
+			<title code="0x11">Amazing Power [#4-1]</title>
+			<title code="0x12">Sense of Crisis [#4-2]</title>
+			<title code="0x13">Blizzard [#3, #5 Boss]</title>
+			<title code="0x17">Asteroid Freedom [#5-1]</title>
+			<title code="0x19">Roach [#5 Zana-Baigul]</title>
+			<title code="0x18">Pipeline [#5-2]</title>
+			<title code="0x1a">Final Justice [#6-1]</title>
+			<title code="0x1b">Theme of Guardic [#6-2]</title>
+			<title code="0x1c">Old Eyes [#6-Boss]</title>
+			<title code="0x1d">Top of the End [#7-1]</title>
+			<title code="0x1e">Parson's Death [#7-2]</title>
+			<title code="0x22">Attempt to Escape [#8-1]</title>
+			<title code="0x1f">Revolt II [#8-2]</title>
+			<title code="0x20">Trikave [Final Boss]</title>
+			<title code="0x21">Peace at Once [Ending]</title>
+			<title code="0x05">Round Over</title>
+			<title code="0x04">Game Over</title>
+			<title code="0x06">Normal Fire 1</title>
+			<title code="0x07">Normal Fire 2</title>
+			<title code="0x08">Normal Fire 3</title>
+			<title code="0x09">Normal Fire 4</title>
+			<title code="0x0a">Extra Fire</title>
+			<title code="0x0b">Player Damage</title>
+			<title code="0x0c">Player Explosion</title>
+			<title code="0x0d">Enemy Reflect</title>
+			<title code="0x0e">Enemy Explosion 1</title>
+			<title code="0x0f">Enemy Explosion 2</title>
+			<title code="0x10">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #18 BLASTER BURN GALLERY2(OPLL)</name>
+		<name>[MSX2] DiscStation #18 Blaster Burn Gallery 2 (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="bbg2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13302,48 +13302,48 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">COMPILE FANFARE</title>
-			<title code="0x14">BLASTER BURN</title>
-			<title code="0x02">READINESS(MENU)</title>
-			<title code="0x15">LIMIT(LEVEL UP)</title>
-			<title code="0x16">OUT GROW(THEME OF ?)</title>
-			<title code="0x11">AMAZING POWER(#4-1)</title>
-			<title code="0x12">SENSE OF CRISIS(#4-2)</title>
-			<title code="0x13">BLIZZARD(#3,#5 BOSS)</title>
-			<title code="0x17">ASTEROID FREEDOM(#5-1)</title>
-			<title code="0x19">ROACH(#5 ZANA-BAIGUL)</title>
-			<title code="0x18">PIPELINE(#5-2)</title>
-			<title code="0x1a">FINAL JUSTICE(#6-1)</title>
-			<title code="0x1b">THEME OF GUARDIC(#6-2)</title>
-			<title code="0x1c">OLD EYES(#6-BOSS)</title>
-			<title code="0x1d">TOP OF THE END(#7-1)</title>
-			<title code="0x1e">PARSON'S DEATH(#7-2)</title>
-			<title code="0x22">ATTEMPT TO ESCAPE(#8-1)</title>
-			<title code="0x1f">REVOLT II(#8-2)</title>
-			<title code="0x20">TRIKAVE(FINAL BOSS)</title>
-			<title code="0x21">PEACE AT ONCE(ENDING)</title>
-			<title code="0x05">ROUND OVER</title>
-			<title code="0x04">GAME OVER</title>
-			<title code="0x06">NORMAL FIRE 1</title>
-			<title code="0x07">NORMAL FIRE 2</title>
-			<title code="0x08">NORMAL FIRE 3</title>
-			<title code="0x09">NORMAL FIRE 4</title>
-			<title code="0x0a">EXTRA FIRE</title>
-			<title code="0x0b">PLAYER DAMAGE</title>
-			<title code="0x0c">PLAYER EXPLOSION</title>
-			<title code="0x0d">ENEMY REFLECT</title>
-			<title code="0x0e">ENEMY EXPLOSION 1</title>
-			<title code="0x0f">ENEMY EXPLOSION 2</title>
-			<title code="0x10">POWER CHIP GET</title>
+			<title code="0x03">Compile Fanfare</title>
+			<title code="0x14">Blaster Burn</title>
+			<title code="0x02">Readiness [Menu]</title>
+			<title code="0x15">Limit [Level Up]</title>
+			<title code="0x16">Out Grow [Theme of ?]</title>
+			<title code="0x11">Amazing Power [#4-1]</title>
+			<title code="0x12">Sense of Crisis [#4-2]</title>
+			<title code="0x13">Blizzard [#3, #5 Boss]</title>
+			<title code="0x17">Asteroid Freedom [#5-1]</title>
+			<title code="0x19">Roach [#5 Zana-Baigul]</title>
+			<title code="0x18">Pipeline [#5-2]</title>
+			<title code="0x1a">Final Justice [#6-1]</title>
+			<title code="0x1b">Theme of Guardic [#6-2]</title>
+			<title code="0x1c">Old Eyes [#6-Boss]</title>
+			<title code="0x1d">Top of the End [#7-1]</title>
+			<title code="0x1e">Parson's Death [#7-2]</title>
+			<title code="0x22">Attempt to Escape [#8-1]</title>
+			<title code="0x1f">Revolt II [#8-2]</title>
+			<title code="0x20">Trikave [Final Boss]</title>
+			<title code="0x21">Peace at Once [Ending]</title>
+			<title code="0x05">Round Over</title>
+			<title code="0x04">Game Over</title>
+			<title code="0x06">Normal Fire 1</title>
+			<title code="0x07">Normal Fire 2</title>
+			<title code="0x08">Normal Fire 3</title>
+			<title code="0x09">Normal Fire 4</title>
+			<title code="0x0a">Extra Fire</title>
+			<title code="0x0b">Player Damage</title>
+			<title code="0x0c">Player Explosion</title>
+			<title code="0x0d">Enemy Reflect</title>
+			<title code="0x0e">Enemy Explosion 1</title>
+			<title code="0x0f">Enemy Explosion 2</title>
+			<title code="0x10">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #18 BLASTER BURN GALLERY2(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #18 Blaster Burn Gallery 2 (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="bbg2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13351,48 +13351,48 @@
 			<rom type="code" offset="0x4000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">COMPILE FANFARE</title>
-			<title code="0x14">BLASTER BURN</title>
-			<title code="0x02">READINESS(MENU)</title>
-			<title code="0x15">LIMIT(LEVEL UP)</title>
-			<title code="0x16">OUT GROW(THEME OF ?)</title>
-			<title code="0x11">AMAZING POWER(#4-1)</title>
-			<title code="0x12">SENSE OF CRISIS(#4-2)</title>
-			<title code="0x13">BLIZZARD(#3,#5 BOSS)</title>
-			<title code="0x17">ASTEROID FREEDOM(#5-1)</title>
-			<title code="0x19">ROACH(#5 ZANA-BAIGUL)</title>
-			<title code="0x18">PIPELINE(#5-2)</title>
-			<title code="0x1a">FINAL JUSTICE(#6-1)</title>
-			<title code="0x1b">THEME OF GUARDIC(#6-2)</title>
-			<title code="0x1c">OLD EYES(#6-BOSS)</title>
-			<title code="0x1d">TOP OF THE END(#7-1)</title>
-			<title code="0x1e">PARSON'S DEATH(#7-2)</title>
-			<title code="0x22">ATTEMPT TO ESCAPE(#8-1)</title>
-			<title code="0x1f">REVOLT II(#8-2)</title>
-			<title code="0x20">TRIKAVE(FINAL BOSS)</title>
-			<title code="0x21">PEACE AT ONCE(ENDING)</title>
-			<title code="0x05">ROUND OVER</title>
-			<title code="0x04">GAME OVER</title>
-			<title code="0x06">NORMAL FIRE 1</title>
-			<title code="0x07">NORMAL FIRE 2</title>
-			<title code="0x08">NORMAL FIRE 3</title>
-			<title code="0x09">NORMAL FIRE 4</title>
-			<title code="0x0a">EXTRA FIRE</title>
-			<title code="0x0b">PLAYER DAMAGE</title>
-			<title code="0x0c">PLAYER EXPLOSION</title>
-			<title code="0x0d">ENEMY REFLECT</title>
-			<title code="0x0e">ENEMY EXPLOSION 1</title>
-			<title code="0x0f">ENEMY EXPLOSION 2</title>
-			<title code="0x10">POWER CHIP GET</title>
+			<title code="0x03">Compile Fanfare</title>
+			<title code="0x14">Blaster Burn</title>
+			<title code="0x02">Readiness [Menu]</title>
+			<title code="0x15">Limit [Level Up]</title>
+			<title code="0x16">Out Grow [Theme of ?]</title>
+			<title code="0x11">Amazing Power [#4-1]</title>
+			<title code="0x12">Sense of Crisis [#4-2]</title>
+			<title code="0x13">Blizzard [#3, #5 Boss]</title>
+			<title code="0x17">Asteroid Freedom [#5-1]</title>
+			<title code="0x19">Roach [#5 Zana-Baigul]</title>
+			<title code="0x18">Pipeline [#5-2]</title>
+			<title code="0x1a">Final Justice [#6-1]</title>
+			<title code="0x1b">Theme of Guardic [#6-2]</title>
+			<title code="0x1c">Old Eyes [#6-Boss]</title>
+			<title code="0x1d">Top of the End [#7-1]</title>
+			<title code="0x1e">Parson's Death [#7-2]</title>
+			<title code="0x22">Attempt to Escape [#8-1]</title>
+			<title code="0x1f">Revolt II [#8-2]</title>
+			<title code="0x20">Trikave [Final Boss]</title>
+			<title code="0x21">Peace at Once [Ending]</title>
+			<title code="0x05">Round Over</title>
+			<title code="0x04">Game Over</title>
+			<title code="0x06">Normal Fire 1</title>
+			<title code="0x07">Normal Fire 2</title>
+			<title code="0x08">Normal Fire 3</title>
+			<title code="0x09">Normal Fire 4</title>
+			<title code="0x0a">Extra Fire</title>
+			<title code="0x0b">Player Damage</title>
+			<title code="0x0c">Player Explosion</title>
+			<title code="0x0d">Enemy Reflect</title>
+			<title code="0x0e">Enemy Explosion 1</title>
+			<title code="0x0f">Enemy Explosion 2</title>
+			<title code="0x10">Power Chip Get</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP1 ランダーの冒険(OPLL)</name>
+		<name>[MSX2] DiscStation #SP1 Randar (DiscStation #SP1 ランダーの冒険) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="randar_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13407,15 +13407,15 @@
 			<title code="0x105">BGM 05</title>
 			<title code="0x107">BGM 07</title>
 			<title code="0x108">BGM 08</title>
-			<range min="0x10" max="0x19" extcode="1">SFX 0x%02x</range>
+			<range min="0x10" max="0x19" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP1 ランダーの冒険(PSG)</name>
+		<name>[MSX2] DiscStation #SP1 Randar (DiscStation #SP1 ランダーの冒険) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="randar_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13430,19 +13430,19 @@
 			<title code="0x105">BGM 05</title>
 			<title code="0x107">BGM 07</title>
 			<title code="0x108">BGM 08</title>
-			<range min="0x10" max="0x19" extcode="1">SFX 0x%02x</range>
+			<range min="0x10" max="0x19" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ルーンマスター 三国英傑伝(OPLL)</name>
+		<name>[MSX2] Rune Master III (ルーンマスター 三国英傑伝) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="runemst3_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13454,9 +13454,9 @@
 		<titlelist>
 			<title code="0x0001">タイトルの曲</title>
 			<title code="0x0002">プレイヤー選択</title>
-			<title code="0x0003">メインBGM(黄巾の乱)</title>
-			<title code="0x0103">メインBGM(蜀建国)</title>
-			<title code="0x0203">メインBGM(三国鼎立)</title>
+			<title code="0x0003">メインBGM (黄巾の乱)</title>
+			<title code="0x0103">メインBGM (蜀建国)</title>
+			<title code="0x0203">メインBGM (三国鼎立)</title>
 			<title code="0x0004">戦闘BGM</title>
 			<title code="0x0005">中ボスBGM</title>
 			<title code="0x0006">ボスBGM</title>
@@ -13465,24 +13465,24 @@
 			<title code="0x0009">村の中</title>
 			<title code="0x000a">死んでしまった</title>
 			<title code="0x000b">サルのテーマ</title>
-			<title code="0x000c">エンディング(バッド)</title>
-			<title code="0x000d">エンディング(黄巾の乱クリア)</title>
-			<title code="0x010d">エンディング(蜀建国クリア)</title>
-			<title code="0x020d">エンディング(三国鼎立クリア)</title>
+			<title code="0x000c">エンディング (バッド)</title>
+			<title code="0x000d">エンディング (黄巾の乱クリア)</title>
+			<title code="0x010d">エンディング (蜀建国クリア)</title>
+			<title code="0x020d">エンディング (三国鼎立クリア)</title>
 			<title code="0x000e">頼み事</title>
 			<title code="0x000f">賭けに勝つ</title>
-			<range min="0x010" max="0x01e" extcode="1">SFX 0x%02x</range>
+			<range min="0x010" max="0x01e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ルーンマスター 三国英傑伝(PSG)</name>
+		<name>[MSX2] Rune Master III (ルーンマスター 三国英傑伝) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
 		<romlist archive="runemst3_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13494,9 +13494,9 @@
 		<titlelist>
 			<title code="0x0001">タイトルの曲</title>
 			<title code="0x0002">プレイヤー選択</title>
-			<title code="0x0003">メインBGM(黄巾の乱)</title>
-			<title code="0x0103">メインBGM(蜀建国)</title>
-			<title code="0x0203">メインBGM(三国鼎立)</title>
+			<title code="0x0003">メインBGM (黄巾の乱)</title>
+			<title code="0x0103">メインBGM (蜀建国)</title>
+			<title code="0x0203">メインBGM (三国鼎立)</title>
 			<title code="0x0004">戦闘BGM</title>
 			<title code="0x0005">中ボスBGM</title>
 			<title code="0x0006">ボスBGM</title>
@@ -13505,25 +13505,25 @@
 			<title code="0x0009">村の中</title>
 			<title code="0x000a">死んでしまった</title>
 			<title code="0x000b">サルのテーマ</title>
-			<title code="0x000c">エンディング(バッド)</title>
-			<title code="0x000d">エンディング(黄巾の乱クリア)</title>
-			<title code="0x010d">エンディング(蜀建国クリア)</title>
-			<title code="0x020d">エンディング(三国鼎立クリア)</title>
+			<title code="0x000c">エンディング (バッド)</title>
+			<title code="0x000d">エンディング (黄巾の乱クリア)</title>
+			<title code="0x010d">エンディング (蜀建国クリア)</title>
+			<title code="0x020d">エンディング (三国鼎立クリア)</title>
 			<title code="0x000e">頼み事</title>
 			<title code="0x000f">賭けに勝つ</title>
-			<range min="0x010" max="0x01e" extcode="1">SFX 0x%02x</range>
+			<range min="0x010" max="0x01e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ランダーの冒険III ～闇に魅せられた魔術師～(OPLL)</name>
+		<name>[MSX2] Randar III: The Adventure of Randar (ランダーの冒険III ～闇に魅せられた魔術師～) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3f00"/>
 			<option name="mfile_size" value="0x3f00"/>
-			<option name="init_pc"    value="0x6000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x6000"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="randar3_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13565,14 +13565,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ランダーの冒険III ～闇に魅せられた魔術師～(PSG)</name>
+		<name>[MSX2] Randar III: The Adventure of Randar (ランダーの冒険III ～闇に魅せられた魔術師～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x3f00"/>
 			<option name="mfile_size" value="0x3f00"/>
-			<option name="init_pc"    value="0x6000"/>
+			<option name="init_pc" value="0x6000"/>
 		      </options>
 		<romlist archive="randar3_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13614,15 +13614,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 魔導物語1-2-3(OPLL)</name>
+		<name>[MSX2] Madou Monogatari 1-2-3 (魔導物語1-2-3) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="m123_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13646,64 +13646,64 @@
 			<rom type="bgm" offset="0x10">MUSIC35.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc00000">OPEN THE DOOR</title>
-			<title code="0xc00011">1のタイトル</title>
-			<title code="0x800100">TRY OUT</title>
-			<title code="0x800200">GO!</title>
-			<title code="0x800300">BREAK THROUGH!</title>
-			<title code="0x800103">まほうが すくないんだソング 1</title>
-			<title code="0x800106">THEME OF FIRE</title>
-			<title code="0x800207">だぁー! こうずいだぁー!</title>
-			<title code="0x800107">ぼーっとしたぼーれー</title>
-			<title code="0x800109">ぴーひゃらどん</title>
-			<title code="0xc0000a">STAFF</title>
-			<title code="0x80010a">ENCOUNTER 1</title>
-			<title code="0x80010c">ITEM 1</title>
-			<title code="0x80010d">どんQぢゃないよ、ばたんQ</title>
-			<title code="0x80010e">やったぜ、ベイビー</title>
-			<title code="0x80010f">SEE ACTION!</title>
-		<!--	<title code="0xc0001e">さいごまできいて(イントロ無し)</title> -->
-			<title code="0xc0001f">さいごまできいて</title>
-			<title code="0xc00500">2のタイトル</title>
-			<title code="0x800600">ダンジョンだじょー</title>
-			<title code="0x800700">ダンジョンだべし</title>
-			<title code="0x800800">ダンジョンだべし</title>
-			<title code="0x800900">ダンジョンのこころ</title>
-			<title code="0x800603">まほうがすくないんだソング 2</title>
-			<title code="0x800607">SEE ACTION 2</title>
-			<title code="0x800608">けわしいのぼりざか</title>
-			<title code="0x800609">オバQぢゃないよ、ばたんQ</title>
-			<title code="0x80060a">ITEM 2</title>
-			<title code="0x80060b">ENCOUNTER 2</title>
-			<title code="0x800503">ケツくらえのテーマ</title>
-			<title code="0x80050d">ケツくらったのテーマ</title>
-			<title code="0xc00b01">3のタイトル</title>
-			<title code="0x800c00">どこだっていいぢゃん</title>
-			<title code="0x800d00">だんじょんこうさい</title>
-			<title code="0x800e00">まいごになって、のたれじね</title>
-			<title code="0x800f00">あっちにいきたい</title>
-			<title code="0x800c06">ぼく もう だめ</title>
-			<title code="0x800c07">SEE ACTION 3</title>
-			<title code="0x800c08">ながく ひろいみち</title>
-			<title code="0x800c09">ダイヤルQぢゃないよ、ばたんQ</title>
-			<title code="0x800c0a">ITEM 3</title>
-			<title code="0x800c0b">ENCOUNTER 3</title>
-			<title code="0x800b02">ついてくんなよ、すけべやろー</title>
-			<title code="0x800b0e">てぶくろあんだだよー</title>
-			<title code="0xc00b0c">おわっちゃいねーぜ</title>
-			<title code="0x800b0f">ついてくんなよサノバビッチ</title>
-			<range min="0x0110" max="0x011d" extcode="1">SFX 0x%02x</range>
+			<title code="0xc00000">[Madou Monogatari 1] Open the Door</title>
+			<title code="0xc00011">[Madou Monogatari 1] 1のタイトル</title>
+			<title code="0x800100">[Madou Monogatari 1] Try Out</title>
+			<title code="0x800200">[Madou Monogatari 1] Go!</title>
+			<title code="0x800300">[Madou Monogatari 1] Break Through!</title>
+			<title code="0x800103">[Madou Monogatari 1] まほうが すくないんだソング 1</title>
+			<title code="0x800106">[Madou Monogatari 1] Theme of Fire</title>
+			<title code="0x800207">[Madou Monogatari 1] だぁー! こうずいだぁー!</title>
+			<title code="0x800107">[Madou Monogatari 1] ぼーっとしたぼーれー</title>
+			<title code="0x800109">[Madou Monogatari 1] ぴーひゃらどん</title>
+			<title code="0xc0000a">[Madou Monogatari 1] Staff</title>
+			<title code="0x80010a">[Madou Monogatari 1] Encounter 1</title>
+			<title code="0x80010c">[Madou Monogatari 1] Item 1</title>
+			<title code="0x80010d">[Madou Monogatari 1] どんQぢゃないよ、ばたんQ</title>
+			<title code="0x80010e">[Madou Monogatari 1] やったぜ、ベイビー</title>
+			<title code="0x80010f">[Madou Monogatari 1] See Action!</title>
+		<!--	<title code="0xc0001e">[Madou Monogatari 1] さいごまできいて (イントロ無し)</title> -->
+			<title code="0xc0001f">[Madou Monogatari 1] さいごまできいて</title>
+			<title code="0xc00500">[Madou Monogatari 2] 2のタイトル</title>
+			<title code="0x800600">[Madou Monogatari 2] ダンジョンだじょー</title>
+			<title code="0x800700">[Madou Monogatari 2] ダンジョンだべし</title>
+			<title code="0x800800">[Madou Monogatari 2] ダンジョンだべし</title>
+			<title code="0x800900">[Madou Monogatari 2] ダンジョンのこころ</title>
+			<title code="0x800603">[Madou Monogatari 2] まほうがすくないんだソング 2</title>
+			<title code="0x800607">[Madou Monogatari 2] See Action 2</title>
+			<title code="0x800608">[Madou Monogatari 2] けわしいのぼりざか</title>
+			<title code="0x800609">[Madou Monogatari 2] オバQぢゃないよ、ばたんQ</title>
+			<title code="0x80060a">[Madou Monogatari 2] Item 2</title>
+			<title code="0x80060b">[Madou Monogatari 2] Encounter 2</title>
+			<title code="0x800503">[Madou Monogatari 2] ケツくらえのテーマ</title>
+			<title code="0x80050d">[Madou Monogatari 2] ケツくらったのテーマ</title>
+			<title code="0xc00b01">[Madou Monogatari 3] 3のタイトル</title>
+			<title code="0x800c00">[Madou Monogatari 3] どこだっていいぢゃん</title>
+			<title code="0x800d00">[Madou Monogatari 3] だんじょんこうさい</title>
+			<title code="0x800e00">[Madou Monogatari 3] まいごになって、のたれじね</title>
+			<title code="0x800f00">[Madou Monogatari 3] あっちにいきたい</title>
+			<title code="0x800c06">[Madou Monogatari 3] ぼく もう だめ</title>
+			<title code="0x800c07">[Madou Monogatari 3] See Action 3</title>
+			<title code="0x800c08">[Madou Monogatari 3] ながく ひろいみち</title>
+			<title code="0x800c09">[Madou Monogatari 3] ダイヤルQぢゃないよ、ばたんQ</title>
+			<title code="0x800c0a">[Madou Monogatari 3] Item 3</title>
+			<title code="0x800c0b">[Madou Monogatari 3] Encounter 3</title>
+			<title code="0x800b02">[Madou Monogatari 3] ついてくんなよ、すけべやろー</title>
+			<title code="0x800b0e">[Madou Monogatari 3] てぶくろあんだだよー</title>
+			<title code="0xc00b0c">[Madou Monogatari 3] おわっちゃいねーぜ</title>
+			<title code="0x800b0f">[Madou Monogatari 3] ついてくんなよサノバビッチ</title>
+			<range min="0x0110" max="0x011d" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 魔導物語1-2-3(PSG)</name>
+		<name>[MSX2] Madou Monogatari 1-2-3 (魔導物語1-2-3) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="m123_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13727,65 +13727,65 @@
 			<rom type="bgm" offset="0x10">MUSIC35.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000">OPEN THE DOOR</title>
-			<title code="0x011">1のタイトル</title>
-			<title code="0x100">TRY OUT</title>
-			<title code="0x200">GO!</title>
-			<title code="0x300">BREAK THROUGH!</title>
-			<title code="0x103">まほうが すくないんだソング 1</title>
-			<title code="0x106">THEME OF FIRE</title>
-			<title code="0x207">だぁー! こうずいだぁー!</title>
-			<title code="0x107">ぼーっとしたぼーれー</title>
-			<title code="0x109">ぴーひゃらどん</title>
-			<title code="0x00a">STAFF</title>
-			<title code="0x10a">ENCOUNTER 1</title>
-			<title code="0x10c">ITEM 1</title>
-			<title code="0x10d">どんQぢゃないよ、ばたんQ</title>
-			<title code="0x10e">やったぜ、ベイビー</title>
-			<title code="0x10f">SEE ACTION!</title>
-		<!--	<title code="0x01e">さいごまできいて(イントロ無し)</title> -->
-			<title code="0x01f">さいごまできいて</title>
-			<title code="0x500">2のタイトル</title>
-			<title code="0x600">ダンジョンだじょー</title>
-			<title code="0x700">ダンジョンだべし</title>
-			<title code="0x800">ダンジョンだべし</title>
-			<title code="0x900">ダンジョンのこころ</title>
-			<title code="0x603">まほうがすくないんだソング 2</title>
-			<title code="0x607">SEE ACTION 2</title>
-			<title code="0x608">けわしいのぼりざか</title>
-			<title code="0x609">オバQぢゃないよ、ばたんQ</title>
-			<title code="0x60a">ITEM 2</title>
-			<title code="0x60b">ENCOUNTER 2</title>
-			<title code="0x503">ケツくらえのテーマ</title>
-			<title code="0x50d">ケツくらったのテーマ</title>
-			<title code="0xb01">3のタイトル</title>
-			<title code="0xc00">どこだっていいぢゃん</title>
-			<title code="0xd00">だんじょんこうさい</title>
-			<title code="0xe00">まいごになって、のたれじね</title>
-			<title code="0xf00">あっちにいきたい</title>
-			<title code="0xc06">ぼく もう だめ</title>
-			<title code="0xc07">SEE ACTION 3</title>
-			<title code="0xc08">ながく ひろいみち</title>
-			<title code="0xc09">ダイヤルQぢゃないよ、ばたんQ</title>
-			<title code="0xc0a">ITEM 3</title>
-			<title code="0xc0b">ENCOUNTER 3</title>
-			<title code="0xb02">ついてくんなよ、すけべやろー</title>
-			<title code="0xb0e">てぶくろあんだだよー</title>
-			<title code="0xb0c">(FM9ch)おわっちゃいねーぜ</title>
-			<title code="0xb0f">ついてくんなよサノバビッチ</title>
-			<range min="0x0110" max="0x011d" extcode="1">SFX 0x%02x</range>
+			<title code="0x000">[Madou Monogatari 1] Open the Door</title>
+			<title code="0x011">[Madou Monogatari 1] 1のタイトル</title>
+			<title code="0x100">[Madou Monogatari 1] Try Out</title>
+			<title code="0x200">[Madou Monogatari 1] Go!</title>
+			<title code="0x300">[Madou Monogatari 1] Break Through!</title>
+			<title code="0x103">[Madou Monogatari 1] まほうが すくないんだソング 1</title>
+			<title code="0x106">[Madou Monogatari 1] Theme of Fire</title>
+			<title code="0x207">[Madou Monogatari 1] だぁー! こうずいだぁー!</title>
+			<title code="0x107">[Madou Monogatari 1] ぼーっとしたぼーれー</title>
+			<title code="0x109">[Madou Monogatari 1] ぴーひゃらどん</title>
+			<title code="0x00a">[Madou Monogatari 1] Staff</title>
+			<title code="0x10a">[Madou Monogatari 1] Encounter 1</title>
+			<title code="0x10c">[Madou Monogatari 1] Item 1</title>
+			<title code="0x10d">[Madou Monogatari 1] どんQぢゃないよ、ばたんQ</title>
+			<title code="0x10e">[Madou Monogatari 1] やったぜ、ベイビー</title>
+			<title code="0x10f">[Madou Monogatari 1] See Action!</title>
+		<!--	<title code="0x01e">[Madou Monogatari 1] さいごまできいて (イントロ無し)</title> -->
+			<title code="0x01f">[Madou Monogatari 1] さいごまできいて</title>
+			<title code="0x500">[Madou Monogatari 2] 2のタイトル</title>
+			<title code="0x600">[Madou Monogatari 2] ダンジョンだじょー</title>
+			<title code="0x700">[Madou Monogatari 2] ダンジョンだべし</title>
+			<title code="0x800">[Madou Monogatari 2] ダンジョンだべし</title>
+			<title code="0x900">[Madou Monogatari 2] ダンジョンのこころ</title>
+			<title code="0x603">[Madou Monogatari 2] まほうがすくないんだソング 2</title>
+			<title code="0x607">[Madou Monogatari 2] See Action 2</title>
+			<title code="0x608">[Madou Monogatari 2] けわしいのぼりざか</title>
+			<title code="0x609">[Madou Monogatari 2] オバQぢゃないよ、ばたんQ</title>
+			<title code="0x60a">[Madou Monogatari 2] Item 2</title>
+			<title code="0x60b">[Madou Monogatari 2] Encounter 2</title>
+			<title code="0x503">[Madou Monogatari 2] ケツくらえのテーマ</title>
+			<title code="0x50d">[Madou Monogatari 2] ケツくらったのテーマ</title>
+			<title code="0xb01">[Madou Monogatari 3] 3のタイトル</title>
+			<title code="0xc00">[Madou Monogatari 3] どこだっていいぢゃん</title>
+			<title code="0xd00">[Madou Monogatari 3] だんじょんこうさい</title>
+			<title code="0xe00">[Madou Monogatari 3] まいごになって、のたれじね</title>
+			<title code="0xf00">[Madou Monogatari 3] あっちにいきたい</title>
+			<title code="0xc06">[Madou Monogatari 3] ぼく もう だめ</title>
+			<title code="0xc07">[Madou Monogatari 3] See Action 3</title>
+			<title code="0xc08">[Madou Monogatari 3] ながく ひろいみち</title>
+			<title code="0xc09">[Madou Monogatari 3] ダイヤルQぢゃないよ、ばたんQ</title>
+			<title code="0xc0a">[Madou Monogatari 3] Item 3</title>
+			<title code="0xc0b">[Madou Monogatari 3] Encounter 3</title>
+			<title code="0xb02">[Madou Monogatari 3] ついてくんなよ、すけべやろー</title>
+			<title code="0xb0e">[Madou Monogatari 3] てぶくろあんだだよー</title>
+			<title code="0xb0c">[Madou Monogatari 3] (FM9ch)おわっちゃいねーぜ</title>
+			<title code="0xb0f">[Madou Monogatari 3] ついてくんなよサノバビッチ</title>
+			<range min="0x0110" max="0x011d" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DRAGON QUIZ(OPLL)</name>
+		<name>[MSX2] Dragon Quiz (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
 			<option name="mfile_size" value="0x3000"/>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="dquiz_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13804,30 +13804,30 @@
 			<rom type="bgm" offset="0x0b">MUSIC0B.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0001" max="0x001" extcode="1">BGM 0x%04x</range>
-			<range min="0x0101" max="0x101" extcode="1">BGM 0x%04x</range>
-			<range min="0x0201" max="0x204" extcode="1">BGM 0x%04x</range>
-			<range min="0x0206" max="0x206" extcode="1">BGM 0x%04x</range>
-			<range min="0x0306" max="0x306" extcode="1">BGM 0x%04x</range>
-			<range min="0x0406" max="0x406" extcode="1">BGM 0x%04x</range>
-			<range min="0x0506" max="0x507" extcode="1">BGM 0x%04x</range>
-			<range min="0x0706" max="0x706" extcode="1">BGM 0x%04x</range>
-			<range min="0x0806" max="0x807" extcode="1">BGM 0x%04x</range>
-			<range min="0x0906" max="0x907" extcode="1">BGM 0x%04x</range>
-			<range min="0x0a06" max="0xa06" extcode="1">BGM 0x%04x</range>
-			<range min="0x0b0c" max="0xb0c" extcode="1">BGM 0x%04x</range>
-			<range min="0x810" max="0x817" extcode="1">SFX 0x%02x</range>
+			<range min="0x0001" max="0x001" extcode="1">BGM #%04X</range>
+			<range min="0x0101" max="0x101" extcode="1">BGM #%04X</range>
+			<range min="0x0201" max="0x204" extcode="1">BGM #%04X</range>
+			<range min="0x0206" max="0x206" extcode="1">BGM #%04X</range>
+			<range min="0x0306" max="0x306" extcode="1">BGM #%04X</range>
+			<range min="0x0406" max="0x406" extcode="1">BGM #%04X</range>
+			<range min="0x0506" max="0x507" extcode="1">BGM #%04X</range>
+			<range min="0x0706" max="0x706" extcode="1">BGM #%04X</range>
+			<range min="0x0806" max="0x807" extcode="1">BGM #%04X</range>
+			<range min="0x0906" max="0x907" extcode="1">BGM #%04X</range>
+			<range min="0x0a06" max="0xa06" extcode="1">BGM #%04X</range>
+			<range min="0x0b0c" max="0xb0c" extcode="1">BGM #%04X</range>
+			<range min="0x810" max="0x817" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DRAGON QUIZ(PSG)</name>
+		<name>[MSX2] Dragon Quiz (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x3000"/>
 			<option name="mfile_size" value="0x3000"/>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="dquiz_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -13846,31 +13846,31 @@
 			<rom type="bgm" offset="0x0b">MUSIC0B.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0001" max="0x001" extcode="1">BGM 0x%04x</range>
-			<range min="0x0101" max="0x101" extcode="1">BGM 0x%04x</range>
-			<range min="0x0201" max="0x204" extcode="1">BGM 0x%04x</range>
-			<range min="0x0206" max="0x206" extcode="1">BGM 0x%04x</range>
-			<range min="0x0306" max="0x306" extcode="1">BGM 0x%04x</range>
-			<range min="0x0406" max="0x406" extcode="1">BGM 0x%04x</range>
-			<range min="0x0506" max="0x507" extcode="1">BGM 0x%04x</range>
-			<range min="0x0706" max="0x706" extcode="1">BGM 0x%04x</range>
-			<range min="0x0806" max="0x807" extcode="1">BGM 0x%04x</range>
-			<range min="0x0906" max="0x907" extcode="1">BGM 0x%04x</range>
-			<range min="0x0a06" max="0xa06" extcode="1">BGM 0x%04x</range>
-			<range min="0x0b0c" max="0xb0c" extcode="1">BGM 0x%04x</range>
-			<range min="0x810" max="0x817" extcode="1">SFX 0x%02x</range>
+			<range min="0x0001" max="0x001" extcode="1">BGM #%04X</range>
+			<range min="0x0101" max="0x101" extcode="1">BGM #%04X</range>
+			<range min="0x0201" max="0x204" extcode="1">BGM #%04X</range>
+			<range min="0x0206" max="0x206" extcode="1">BGM #%04X</range>
+			<range min="0x0306" max="0x306" extcode="1">BGM #%04X</range>
+			<range min="0x0406" max="0x406" extcode="1">BGM #%04X</range>
+			<range min="0x0506" max="0x507" extcode="1">BGM #%04X</range>
+			<range min="0x0706" max="0x706" extcode="1">BGM #%04X</range>
+			<range min="0x0806" max="0x807" extcode="1">BGM #%04X</range>
+			<range min="0x0906" max="0x907" extcode="1">BGM #%04X</range>
+			<range min="0x0a06" max="0xa06" extcode="1">BGM #%04X</range>
+			<range min="0x0b0c" max="0xb0c" extcode="1">BGM #%04X</range>
+			<range min="0x810" max="0x817" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH(OPLL)</name>
+		<name>[MSX2] DiscStation #SP3 Randar II: Revenge of Death (DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="randar2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13879,28 +13879,28 @@
 			<rom type="bgm" offset="0x02">BRN2-3.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x000" extcode="1">BGM 0x%03x</range>
-			<range min="0x003" max="0x003" extcode="1">BGM 0x%03x</range>
-			<range min="0x005" max="0x005" extcode="1">BGM 0x%03x</range>
-			<range min="0x007" max="0x009" extcode="1">BGM 0x%03x</range>
-			<range min="0x00b" max="0x00d" extcode="1">BGM 0x%03x</range>
-			<range min="0x101" max="0x101" extcode="1">BGM 0x%03x</range>
-			<range min="0x203" max="0x203" extcode="1">BGM 0x%03x</range>
-			<range min="0x205" max="0x206" extcode="1">BGM 0x%03x</range>
-			<range min="0x20a" max="0x20a" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x02e" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">BGM #%03X</range>
+			<range min="0x003" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x005" max="0x005" extcode="1">BGM #%03X</range>
+			<range min="0x007" max="0x009" extcode="1">BGM #%03X</range>
+			<range min="0x00b" max="0x00d" extcode="1">BGM #%03X</range>
+			<range min="0x101" max="0x101" extcode="1">BGM #%03X</range>
+			<range min="0x203" max="0x203" extcode="1">BGM #%03X</range>
+			<range min="0x205" max="0x206" extcode="1">BGM #%03X</range>
+			<range min="0x20a" max="0x20a" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x02e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #SP3 Randar II: Revenge of Death (DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH) (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="randar2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13909,27 +13909,27 @@
 			<rom type="bgm" offset="0x02">BRN2-3.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x000" extcode="1">BGM 0x%03x</range>
-			<range min="0x003" max="0x003" extcode="1">BGM 0x%03x</range>
-			<range min="0x005" max="0x005" extcode="1">BGM 0x%03x</range>
-			<range min="0x007" max="0x009" extcode="1">BGM 0x%03x</range>
-			<range min="0x00b" max="0x00d" extcode="1">BGM 0x%03x</range>
-			<range min="0x101" max="0x101" extcode="1">BGM 0x%03x</range>
-			<range min="0x203" max="0x203" extcode="1">BGM 0x%03x</range>
-			<range min="0x205" max="0x206" extcode="1">BGM 0x%03x</range>
-			<range min="0x20a" max="0x20a" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x02e" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">BGM #%03X</range>
+			<range min="0x003" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x005" max="0x005" extcode="1">BGM #%03X</range>
+			<range min="0x007" max="0x009" extcode="1">BGM #%03X</range>
+			<range min="0x00b" max="0x00d" extcode="1">BGM #%03X</range>
+			<range min="0x101" max="0x101" extcode="1">BGM #%03X</range>
+			<range min="0x203" max="0x203" extcode="1">BGM #%03X</range>
+			<range min="0x205" max="0x206" extcode="1">BGM #%03X</range>
+			<range min="0x20a" max="0x20a" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x02e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH(PSG)</name>
+		<name>[MSX2] DiscStation #SP3 Randar II: Revenge of Death (DiscStation #SP3 ランダーの冒険II REVENGE OF DEATH) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="randar2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13938,28 +13938,28 @@
 			<rom type="bgm" offset="0x02">BRN2-3.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x000" extcode="1">BGM 0x%03x</range>
-			<range min="0x003" max="0x003" extcode="1">BGM 0x%03x</range>
-			<range min="0x005" max="0x005" extcode="1">BGM 0x%03x</range>
-			<range min="0x007" max="0x009" extcode="1">BGM 0x%03x</range>
-			<range min="0x00b" max="0x00d" extcode="1">BGM 0x%03x</range>
-			<range min="0x101" max="0x101" extcode="1">BGM 0x%03x</range>
-			<range min="0x203" max="0x203" extcode="1">BGM 0x%03x</range>
-			<range min="0x205" max="0x206" extcode="1">BGM 0x%03x</range>
-			<range min="0x20a" max="0x20a" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x02e" extcode="1">SFX 0x%02x</range>
+			<range min="0x000" max="0x000" extcode="1">BGM #%03X</range>
+			<range min="0x003" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x005" max="0x005" extcode="1">BGM #%03X</range>
+			<range min="0x007" max="0x009" extcode="1">BGM #%03X</range>
+			<range min="0x00b" max="0x00d" extcode="1">BGM #%03X</range>
+			<range min="0x101" max="0x101" extcode="1">BGM #%03X</range>
+			<range min="0x203" max="0x203" extcode="1">BGM #%03X</range>
+			<range min="0x205" max="0x206" extcode="1">BGM #%03X</range>
+			<range min="0x20a" max="0x20a" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x02e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 サムライキング メガズオンZ(OPLL)</name>
+		<name>[MSX2] DiscStation #SP3 Samurai King Megazone Z (DiscStation #SP3 サムライキング メガズオンZ) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="megazonz_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -13970,27 +13970,27 @@
 			<rom type="bgm" offset="0x04">BASAM5.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x002" extcode="1">BGM 0x%03x</range>
-			<range min="0x004" max="0x004" extcode="1">BGM 0x%03x</range>
-			<range min="0x006" max="0x006" extcode="1">BGM 0x%03x</range>
-			<range min="0x00f" max="0x010" extcode="1">BGM 0x%03x</range>
-			<range min="0x106" max="0x107" extcode="1">BGM 0x%03x</range>
-			<range min="0x10b" max="0x10c" extcode="1">BGM 0x%03x</range>
-			<range min="0x302" max="0x302" extcode="1">BGM 0x%03x</range>
-			<range min="0x408" max="0x408" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x034" extcode="1">SFX 0x%02x</range>
+			<range min="0x001" max="0x002" extcode="1">BGM #%03X</range>
+			<range min="0x004" max="0x004" extcode="1">BGM #%03X</range>
+			<range min="0x006" max="0x006" extcode="1">BGM #%03X</range>
+			<range min="0x00f" max="0x010" extcode="1">BGM #%03X</range>
+			<range min="0x106" max="0x107" extcode="1">BGM #%03X</range>
+			<range min="0x10b" max="0x10c" extcode="1">BGM #%03X</range>
+			<range min="0x302" max="0x302" extcode="1">BGM #%03X</range>
+			<range min="0x408" max="0x408" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x034" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 サムライキング メガズオンZ(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #SP3 Samurai King Megazone Z (DiscStation #SP3 サムライキング メガズオンZ) (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="megazonz_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -14001,26 +14001,26 @@
 			<rom type="bgm" offset="0x04">BASAM5.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x002" extcode="1">BGM 0x%03x</range>
-			<range min="0x004" max="0x004" extcode="1">BGM 0x%03x</range>
-			<range min="0x006" max="0x006" extcode="1">BGM 0x%03x</range>
-			<range min="0x00f" max="0x010" extcode="1">BGM 0x%03x</range>
-			<range min="0x106" max="0x107" extcode="1">BGM 0x%03x</range>
-			<range min="0x10b" max="0x10c" extcode="1">BGM 0x%03x</range>
-			<range min="0x302" max="0x302" extcode="1">BGM 0x%03x</range>
-			<range min="0x408" max="0x408" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x034" extcode="1">SFX 0x%02x</range>
+			<range min="0x001" max="0x002" extcode="1">BGM #%03X</range>
+			<range min="0x004" max="0x004" extcode="1">BGM #%03X</range>
+			<range min="0x006" max="0x006" extcode="1">BGM #%03X</range>
+			<range min="0x00f" max="0x010" extcode="1">BGM #%03X</range>
+			<range min="0x106" max="0x107" extcode="1">BGM #%03X</range>
+			<range min="0x10b" max="0x10c" extcode="1">BGM #%03X</range>
+			<range min="0x302" max="0x302" extcode="1">BGM #%03X</range>
+			<range min="0x408" max="0x408" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x034" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP3 サムライキング メガズオンZ(PSG)</name>
+		<name>[MSX2] DiscStation #SP3 Samurai King Megazone Z (DiscStation #SP3 サムライキング メガズオンZ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x96f9"/>
 			<option name="mdata_size" value="0x3e00"/>
 			<option name="mfile_size" value="0x3e00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="megazonz_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -14031,24 +14031,24 @@
 			<rom type="bgm" offset="0x04">BASAM5.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x002" extcode="1">BGM 0x%03x</range>
-			<range min="0x004" max="0x004" extcode="1">BGM 0x%03x</range>
-			<range min="0x006" max="0x006" extcode="1">BGM 0x%03x</range>
-			<range min="0x00f" max="0x010" extcode="1">BGM 0x%03x</range>
-			<range min="0x106" max="0x107" extcode="1">BGM 0x%03x</range>
-			<range min="0x10b" max="0x10c" extcode="1">BGM 0x%03x</range>
-			<range min="0x302" max="0x302" extcode="1">BGM 0x%03x</range>
-			<range min="0x408" max="0x408" extcode="1">BGM 0x%03x</range>
-			<range min="0x020" max="0x034" extcode="1">SFX 0x%02x</range>
+			<range min="0x001" max="0x002" extcode="1">BGM #%03X</range>
+			<range min="0x004" max="0x004" extcode="1">BGM #%03X</range>
+			<range min="0x006" max="0x006" extcode="1">BGM #%03X</range>
+			<range min="0x00f" max="0x010" extcode="1">BGM #%03X</range>
+			<range min="0x106" max="0x107" extcode="1">BGM #%03X</range>
+			<range min="0x10b" max="0x10c" extcode="1">BGM #%03X</range>
+			<range min="0x302" max="0x302" extcode="1">BGM #%03X</range>
+			<range min="0x408" max="0x408" extcode="1">BGM #%03X</range>
+			<range min="0x020" max="0x034" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #29 JUMP HERO(OPLL)</name>
+		<name>[MSX2] DiscStation #29 Jump Hero (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="jumphero_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14056,22 +14056,22 @@
 			<rom type="code" offset="0x69ee">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x105">TITLE</title>
-			<title code="0x101">STAGE 1-2 BGM</title>
-			<title code="0x102">STAGE 3 BGM</title>
-			<title code="0x106">STAGE CLEAR</title>
-			<title code="0x104">ALL STAGE CLEAR</title>
+			<title code="0x105">Title</title>
+			<title code="0x101">Stage 1-2 BGM</title>
+			<title code="0x102">Stage 3 BGM</title>
+			<title code="0x106">Stage Clear</title>
+			<title code="0x104">All Stage Clear</title>
 			<title code="0x103">???</title>
-			<range min="0x10" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x10" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #29 JUMP HERO(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #29 Jump Hero (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="jumphero_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14079,21 +14079,21 @@
 			<rom type="code" offset="0x69ee">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x105">TITLE</title>
-			<title code="0x101">STAGE 1-2 BGM</title>
-			<title code="0x102">STAGE 3 BGM</title>
-			<title code="0x106">STAGE CLEAR</title>
-			<title code="0x104">ALL STAGE CLEAR</title>
+			<title code="0x105">Title</title>
+			<title code="0x101">Stage 1-2 BGM</title>
+			<title code="0x102">Stage 3 BGM</title>
+			<title code="0x106">Stage Clear</title>
+			<title code="0x104">All Stage Clear</title>
 			<title code="0x103">???</title>
-			<range min="0x10" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x10" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #29 JUMP HERO(PSG)</name>
+		<name>[MSX2] DiscStation #29 Jump Hero (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="jumphero_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14101,22 +14101,22 @@
 			<rom type="code" offset="0x69ee">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x105">TITLE</title>
-			<title code="0x101">STAGE 1-2 BGM</title>
-			<title code="0x102">STAGE 3 BGM</title>
-			<title code="0x106">STAGE CLEAR</title>
-			<title code="0x104">ALL STAGE CLEAR</title>
+			<title code="0x105">Title</title>
+			<title code="0x101">Stage 1-2 BGM</title>
+			<title code="0x102">Stage 3 BGM</title>
+			<title code="0x106">Stage Clear</title>
+			<title code="0x104">All Stage Clear</title>
 			<title code="0x103">???</title>
-			<range min="0x10" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x10" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP4 ちるどれん うぉーず(OPLL)</name>
+		<name>[MSX2] DiscStation #SP4 Children Wars (DiscStation #SP4 ちるどれん うぉーず) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="chldwar_msx">
 			<rom type="code" offset="0x3ef9">BASCLD.OBJ</rom>
@@ -14130,15 +14130,15 @@
 			<title code="0x105">メインメニュー</title>
 			<title code="0x106">エンディング</title>
 			<title code="0x103">未使用曲</title>
-			<range min="0x08" max="0x0b" extcode="1">SFX %02x</range>
+			<range min="0x08" max="0x0b" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #SP4 ちるどれん うぉーず(PSG)</name>
+		<name>[MSX2] DiscStation #SP4 Children Wars (DiscStation #SP4 ちるどれん うぉーず) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="chldwar_msx">
 			<rom type="code" offset="0x3ef9">BASCLD.OBJ</rom>
@@ -14152,19 +14152,19 @@
 			<title code="0x105">メインメニュー</title>
 			<title code="0x106">エンディング</title>
 			<title code="0x103">未使用曲</title>
-			<range min="0x08" max="0x0b" extcode="1">SFX %02x</range>
+			<range min="0x08" max="0x0b" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #32 GREEN CRYSTAL(OPLL)</name>
+		<name>[MSX2] DiscStation #32 Green Crystal (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x1500"/>
 			<option name="mfile_size" value="0x1500"/>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="grncrytl_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14176,25 +14176,25 @@
 			<rom type="bgm" offset="0x04">MUSIC04.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM %03x</range>
-			<range min="0x108" max="0x109" extcode="1">BGM %03x</range>
-			<range min="0x208" max="0x209" extcode="1">BGM %03x</range>
-			<range min="0x308" max="0x309" extcode="1">BGM %03x</range>
-			<range min="0x401" max="0x401" extcode="1">BGM %03x</range>
-			<range min="0x406" max="0x408" extcode="1">BGM %03x</range>
-			<range min="0x00a" max="0x01f" extcode="1">SFX %02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM %03X</range>
+			<range min="0x108" max="0x109" extcode="1">BGM %03X</range>
+			<range min="0x208" max="0x209" extcode="1">BGM %03X</range>
+			<range min="0x308" max="0x309" extcode="1">BGM %03X</range>
+			<range min="0x401" max="0x401" extcode="1">BGM %03X</range>
+			<range min="0x406" max="0x408" extcode="1">BGM %03X</range>
+			<range min="0x00a" max="0x01f" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #32 GREEN CRYSTAL(MSX-AUDIO)</name>
+		<name>[MSX2] DiscStation #32 Green Crystal (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x1500"/>
 			<option name="mfile_size" value="0x1500"/>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="grncrytl_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14206,24 +14206,24 @@
 			<rom type="bgm" offset="0x04">MUSIC04.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM %03x</range>
-			<range min="0x108" max="0x109" extcode="1">BGM %03x</range>
-			<range min="0x208" max="0x209" extcode="1">BGM %03x</range>
-			<range min="0x308" max="0x309" extcode="1">BGM %03x</range>
-			<range min="0x401" max="0x401" extcode="1">BGM %03x</range>
-			<range min="0x406" max="0x408" extcode="1">BGM %03x</range>
-			<range min="0x00a" max="0x01f" extcode="1">SFX %02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM %03X</range>
+			<range min="0x108" max="0x109" extcode="1">BGM %03X</range>
+			<range min="0x208" max="0x209" extcode="1">BGM %03X</range>
+			<range min="0x308" max="0x309" extcode="1">BGM %03X</range>
+			<range min="0x401" max="0x401" extcode="1">BGM %03X</range>
+			<range min="0x406" max="0x408" extcode="1">BGM %03X</range>
+			<range min="0x00a" max="0x01f" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] DiscStation #32 GREEN CRYSTAL(PSG)</name>
+		<name>[MSX2] DiscStation #32 Green Crystal (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x1500"/>
 			<option name="mfile_size" value="0x1500"/>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="grncrytl_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14235,22 +14235,22 @@
 			<rom type="bgm" offset="0x04">MUSIC04.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM %03x</range>
-			<range min="0x108" max="0x109" extcode="1">BGM %03x</range>
-			<range min="0x208" max="0x209" extcode="1">BGM %03x</range>
-			<range min="0x308" max="0x309" extcode="1">BGM %03x</range>
-			<range min="0x401" max="0x401" extcode="1">BGM %03x</range>
-			<range min="0x406" max="0x408" extcode="1">BGM %03x</range>
-			<range min="0x00a" max="0x01f" extcode="1">SFX %02x</range>
+			<range min="0x001" max="0x008" extcode="1">BGM %03X</range>
+			<range min="0x108" max="0x109" extcode="1">BGM %03X</range>
+			<range min="0x208" max="0x209" extcode="1">BGM %03X</range>
+			<range min="0x308" max="0x309" extcode="1">BGM %03X</range>
+			<range min="0x401" max="0x401" extcode="1">BGM %03X</range>
+			<range min="0x406" max="0x408" extcode="1">BGM %03X</range>
+			<range min="0x00a" max="0x01f" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (OPLL)</name>
+		<name>[MSX2] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="wsales_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14267,15 +14267,15 @@
 			<title code="0x107">BGM 07</title>
 			<title code="0x108">BGM 08</title>
 			<title code="0x109">BGM 09</title>
-			<range min="0x11" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x11" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (PSG)</name>
+		<name>[MSX2] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="wsales_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14292,16 +14292,16 @@
 			<title code="0x107">BGM 07</title>
 			<title code="0x108">BGM 08</title>
 			<title code="0x109">BGM 09</title>
-			<range min="0x11" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x11" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (MSX-AUDIO)</name>
+		<name>[MSX2] Fujiko Fujio (A)'s Warau Salesman 1 (藤子不二雄(A)の笑ゥせぇるすまん(1)) (MSX-AUDIO)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Compile</driveralias>
+		<driveralias type="MSX2">Compile</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="wsales_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -14318,7 +14318,7 @@
 			<title code="0x107">BGM 07</title>
 			<title code="0x108">BGM 08</title>
 			<title code="0x109">BGM 09</title>
-			<range min="0x11" max="0x19" extcode="1">SFX %02x</range>
+			<range min="0x11" max="0x19" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -14540,132 +14540,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Aleste 2 (アレスタ2) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="aleste2_msx">
-			<rom type="code">Aleste 2 (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x95">Opening</title>
-			<title code="0x8F">Title</title>
-			<title code="0x82">Weapon Select</title>
-			<title code="0x93">Area 1</title>
-			<title code="0x8D">Boss 1</title>
-			<title code="0x94">Win</title>
-			<title code="0x92">Area Clear</title>
-			<title code="0x81">Area 2</title>
-			<title code="0x97">Area 3</title>
-			<title code="0x8B">Area 4</title>
-			<title code="0x83">Demo</title>
-			<title code="0x87">Boss 2</title>
-			<title code="0x86">Area 7</title>
-			<title code="0x96">Area 8</title>
-			<title code="0x90">Last Battle</title>
-			<title code="0x91">Ending</title>
-			<title code="0x84">Game Over</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Aleste 2 (アレスタ2) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="aleste2_msx">
-			<rom type="code">Aleste 2 (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x15">Opening</title>
-			<title code="0x0F">Title</title>
-			<title code="0x02">Weapon Select</title>
-			<title code="0x13">Area 1</title>
-			<title code="0x0D">Boss 1</title>
-			<title code="0x14">Win</title>
-			<title code="0x12">Area Clear</title>
-			<title code="0x01">Area 2</title>
-			<title code="0x03">Area 3</title>
-			<title code="0x17">Area 4</title>
-			<title code="0x0B">Demo</title>
-			<title code="0x07">Boss 2</title>
-			<title code="0x16">Area 7</title>
-			<title code="0x10">Area 8</title>
-			<title code="0x11">Last Battle</title>
-			<title code="0x04">Ending</title>
-			<title code="0x06">Game Over</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Aleste Gaiden (アレスタ 外伝) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="alesteg_msx">
-			<rom type="code">Aleste Gaiden (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x81">BGM #81</title>
-			<title code="0x82">BGM #82</title>
-			<title code="0x83">BGM #83</title>
-			<title code="0x84">BGM #84</title>
-			<title code="0x85">BGM #85</title>
-			<title code="0x86">BGM #86</title>
-			<title code="0x87">BGM #87</title>
-			<title code="0x88">BGM #88</title>
-			<title code="0x89">BGM #89</title>
-			<title code="0x8a">BGM #8a</title>
-			<title code="0x8b">BGM #8b</title>
-			<title code="0x8c">BGM #8c</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Aleste Gaiden (アレスタ 外伝) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="alesteg_msx">
-			<rom type="code">Aleste Gaiden (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[MSX2] Blaster Burn: Budruga Episode 3 (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Compile</driveralias>
@@ -14755,202 +14629,6 @@
 			<title code="0x11">BGM #11</title>
 			<title code="0x12">BGM #12</title>
 			<title code="0x49">BGM #49</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Golvellius 2 (真・魔王ゴルベリアス) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="golv2_msx">
-			<rom type="code">Golvellius 2 (1988)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x81">Kelesis Theme</title>
-			<title code="0x82">Overworld 2</title>
-			<title code="0x84">Death Of A Hero</title>
-			<title code="0x86">Overworld 1</title>
-			<title code="0x87">Wise Woman</title>
-			<title code="0x8a">Enny The Fairy</title>
-			<title code="0x8c">Overworld 3</title>
-			<title code="0x8d">And Your Name Is ?</title>
-			<title code="0x8e">Randar Theme</title>
-			<title code="0x8f">Dina The Fairy</title>
-			<title code="0x90">Rio The Fairy</title>
-			<title code="0x91">Winkle The Fairy</title>
-			<title code="0x98">Overworld 4</title>
-			<title code="0x9a">Entering Cave To Valley Of Doom</title>
-			<title code="0x91">BGM 21</title>
-			<title code="0x92">BGM 22</title>
-			<title code="0x93">BGM 23</title>
-			<title code="0x96">The City</title>
-			<title code="0x97">BGM 27</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Golvellius 2 (真・魔王ゴルベリアス) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="golv2_msx">
-			<rom type="code">Golvellius 2 (1988)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Kelesis Theme</title>
-			<title code="0x02">Overworld 2</title>
-			<title code="0x04">Death Of A Hero</title>
-			<title code="0x06">Overworld 1</title>
-			<title code="0x07">Wise Woman</title>
-			<title code="0x0a">Enny The Fairy</title>
-			<title code="0x0c">Overworld 3</title>
-			<title code="0x0d">And Your Name Is ?</title>
-			<title code="0x0e">Randar Theme</title>
-			<title code="0x0f">Dina The Fairy</title>
-			<title code="0x10">Rio The Fairy</title>
-			<title code="0x11">Winkle The Fairy</title>
-			<title code="0x18">Overworld 4</title>
-			<title code="0x1a">Entering Cave To Valley Of Doom</title>
-			<title code="0x21">BGM 21</title>
-			<title code="0x22">BGM 22</title>
-			<title code="0x23">BGM 23</title>
-			<title code="0x26">The City</title>
-			<title code="0x27">BGM 27</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Madou Monogatari 1-2-3 (魔導物語1－2－3) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="m123_msx">
-			<rom type="code">Madou Monogatari 1-2-3 (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x80">[DiscStation] Menu</title>
-			<title code="0x81">[Madou Monogatari 1] Open The Door</title>
-			<title code="0x82">[Madou Monogatari 1] Try Out</title>
-			<title code="0x83">[Madou Monogatari 1] Go!</title>
-			<title code="0x84">[Madou Monogatari 1] Break Through!</title>
-			<title code="0x85">[Madou Monogatari 1] まほうが すくないんだソング 1</title>
-			<title code="0x86">[Madou Monogatari 1] Theme Of Fire</title>
-			<title code="0x87">[Madou Monogatari 1] だぁー! こうずいだぁー!</title>
-			<title code="0x88">[Madou Monogatari 1] ぼーっとしたぼーれー</title>
-			<title code="0x89">[Madou Monogatari 1] ぴーひゃらどん</title>
-			<title code="0x8A">[Madou Monogatari 1] Staff</title>
-			<title code="0x8B">[Madou Monogatari 1] Encounter 1</title>
-			<title code="0x8C">[Madou Monogatari 1] Item 1</title>
-			<title code="0x8D">[Madou Monogatari 1] どんQぢゃないよ、ばたんQ</title>
-			<title code="0x8E">[Madou Monogatari 1] やったぜ、ベイビー</title>
-			<title code="0x8F">[Madou Monogatari 1] See Action!</title>
-			<title code="0x9F">[Madou Monogatari 1] さいごまできいて</title>
-			<title code="0xA1">[Madou Monogatari 2] 2のタイトル</title>
-			<title code="0xA2">[Madou Monogatari 2] ダンジョンだじょー</title>
-			<title code="0xA3">[Madou Monogatari 2] ダンジョンだべし</title>
-			<title code="0xA4">[Madou Monogatari 2] ダンジョンだべし</title>
-			<title code="0xA5">[Madou Monogatari 2] ダンジョンのこころ</title>
-			<title code="0xA6">[Madou Monogatari 2] まほうがすくないんだソング 2</title>
-			<title code="0xA7">[Madou Monogatari 2] See Action 2</title>
-			<title code="0xA8">[Madou Monogatari 2] けわしいのぼりざか</title>
-			<title code="0xA9">[Madou Monogatari 2] オバQぢゃないよ、ばたんQ</title>
-			<title code="0xAA">[Madou Monogatari 2] Item 2</title>
-			<title code="0xAB">[Madou Monogatari 2] Encounter 2</title>
-			<title code="0xAC">[Madou Monogatari 2] ケツくらえのテーマ</title>
-			<title code="0xAD">[Madou Monogatari 2] ケツくらったのテーマ</title>
-			<title code="0xC1">[Madou Monogatari 3] 3のタイトル</title>
-			<title code="0xC2">[Madou Monogatari 3] どこだっていいぢゃん</title>
-			<title code="0xC3">[Madou Monogatari 3] だんじょんこうさい</title>
-			<title code="0xC4">[Madou Monogatari 3] まいごになって、のたれじね</title>
-			<title code="0xC5">[Madou Monogatari 3] ・っちにいきたい</title>
-			<title code="0xC6">[Madou Monogatari 3] ぼく もう だめ</title>
-			<title code="0xC7">[Madou Monogatari 3] See Action 3</title>
-			<title code="0xC8">[Madou Monogatari 3] ながく ひろいみち</title>
-			<title code="0xC9">[Madou Monogatari 3] ダイヤルQぢゃないよ、ばたんQ</title>
-			<title code="0xCA">[Madou Monogatari 3] Item 3</title>
-			<title code="0xCB">[Madou Monogatari 3] Encounter 3</title>
-			<title code="0xCC">[Madou Monogatari 3] ついてくんなよ、すけべやろー</title>
-			<title code="0xCD">[Madou Monogatari 3] てぶくろ・んだだよー</title>
-			<title code="0xCE">[Madou Monogatari 3] おわっちゃいねーぜ</title>
-			<title code="0xCF">[Madou Monogatari 3] ついてくんなよサノバビッチ</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Madou Monogatari 1-2-3 (魔導物語1－2－3) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="m123_msx">
-			<rom type="code">Madou Monogatari 1-2-3 (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">[DiscStation] Menu</title>
-			<title code="0x01">[Madou Monogatari 1] Open The Door</title>
-			<title code="0x02">[Madou Monogatari 1] Try Out</title>
-			<title code="0x03">[Madou Monogatari 1] Go!</title>
-			<title code="0x04">[Madou Monogatari 1] Break Through!</title>
-			<title code="0x05">[Madou Monogatari 1] まほうが すくないんだソング 1</title>
-			<title code="0x06">[Madou Monogatari 1] Theme Of Fire</title>
-			<title code="0x07">[Madou Monogatari 1] だぁー! こうずいだぁー!</title>
-			<title code="0x08">[Madou Monogatari 1] ぼーっとしたぼーれー</title>
-			<title code="0x09">[Madou Monogatari 1] ぴーひゃらどん</title>
-			<title code="0x0A">[Madou Monogatari 1] Staff</title>
-			<title code="0x0B">[Madou Monogatari 1] Encounter 1</title>
-			<title code="0x0C">[Madou Monogatari 1] Item 1</title>
-			<title code="0x0D">[Madou Monogatari 1] どんQぢゃないよ、ばたんQ</title>
-			<title code="0x0E">[Madou Monogatari 1] やったぜ、ベイビー</title>
-			<title code="0x0F">[Madou Monogatari 1] See Action!</title>
-			<title code="0x1F">[Madou Monogatari 1] さいごまできいて</title>
-			<title code="0x21">[Madou Monogatari 2] 2のタイトル</title>
-			<title code="0x22">[Madou Monogatari 2] ダンジョンだじょー</title>
-			<title code="0x23">[Madou Monogatari 2] ダンジョンだべし</title>
-			<title code="0x24">[Madou Monogatari 2] ダンジョンだべし</title>
-			<title code="0x25">[Madou Monogatari 2] ダンジョンのこころ</title>
-			<title code="0x26">[Madou Monogatari 2] まほうがすくないんだソング 2</title>
-			<title code="0x27">[Madou Monogatari 2] See Action 2</title>
-			<title code="0x28">[Madou Monogatari 2] けわしいのぼりざか</title>
-			<title code="0x29">[Madou Monogatari 2] オバQぢゃないよ、ばたんQ</title>
-			<title code="0x2A">[Madou Monogatari 2] Item 2</title>
-			<title code="0x2B">[Madou Monogatari 2] Encounter 2</title>
-			<title code="0x2C">[Madou Monogatari 2] ケツくらえのテーマ</title>
-			<title code="0x2D">[Madou Monogatari 2] ケツくらったのテーマ</title>
-			<title code="0x41">[Madou Monogatari 3] 3のタイトル</title>
-			<title code="0x42">[Madou Monogatari 3] どこだっていいぢゃん</title>
-			<title code="0x43">[Madou Monogatari 3] だんじょんこうさい</title>
-			<title code="0x44">[Madou Monogatari 3] まいごになって、のたれじね</title>
-			<title code="0x45">[Madou Monogatari 3] ・っちにいきたい</title>
-			<title code="0x46">[Madou Monogatari 3] ぼく もう だめ</title>
-			<title code="0x47">[Madou Monogatari 3] See Action 3</title>
-			<title code="0x48">[Madou Monogatari 3] ながく ひろいみち</title>
-			<title code="0x49">[Madou Monogatari 3] ダイヤルQぢゃないよ、ばたんQ</title>
-			<title code="0x4A">[Madou Monogatari 3] Item 3</title>
-			<title code="0x4B">[Madou Monogatari 3] Encounter 3</title>
-			<title code="0x4C">[Madou Monogatari 3] ついてくんなよ、すけべやろー</title>
-			<title code="0x4D">[Madou Monogatari 3] てぶくろ・んだだよー</title>
-			<title code="0x4E">[Madou Monogatari 3] おわっちゃいねーぜ</title>
-			<title code="0x4F">[Madou Monogatari 3] ついてくんなよサノバビッチ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -15047,248 +14725,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Puyo Puyo (ぷよぷよ) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="puyo_msx">
-			<rom type="code">Puyo Puyo (1991)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x81">Title</title>
-			<title code="0x82">Menu</title>
-			<title code="0x83">BGM #1</title>
-			<title code="0x84">BGM #2</title>
-			<title code="0x85">BGM #3</title>
-			<title code="0x88">BGM #1 (Warning)</title>
-			<title code="0x89">BGM #2 (Warning)</title>
-			<title code="0x8A">BGM #3 (Warning)</title>
-			<title code="0xA1">Game Over</title>
-			<title code="0x87">Continue</title>
-			<title code="0x86">BGM #86</title>
-			<title code="0x8B">BGM #8B</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Puyo Puyo (ぷよぷよ) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="puyo_msx">
-			<rom type="code">Puyo Puyo (1991)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Title</title>
-			<title code="0x02">Menu</title>
-			<title code="0x03">BGM #1</title>
-			<title code="0x04">BGM #2</title>
-			<title code="0x05">BGM #3</title>
-			<title code="0x08">BGM #1 (Warning)</title>
-			<title code="0x09">BGM #2 (Warning)</title>
-			<title code="0x0A">BGM #3 (Warning)</title>
-			<title code="0x21">Game Over</title>
-			<title code="0x07">Continue</title>
-			<title code="0x06">BGM #86</title>
-			<title code="0x0B">BGM #8B</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Randar (ランダーの冒険) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rand_msx">
-			<rom type="code">Randar (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Randar 2: Revenge of Death (ランダーの冒険 II) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rand2_msx">
-			<rom type="code">Randar II - Revenge of Death (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x80">BGM #80</title>
-			<title code="0x90">BGM #90</title>
-			<title code="0x81">BGM #81</title>
-			<title code="0x93">BGM #93</title>
-			<title code="0xa3">BGM #a3</title>
-			<title code="0x95">BGM #95</title>
-			<title code="0xa5">BGM #a5</title>
-			<title code="0xa6">BGM #a6</title>
-			<title code="0x97">BGM #97</title>
-			<title code="0x98">BGM #98</title>
-			<title code="0x99">BGM #99</title>
-			<title code="0xaa">BGM #aa</title>
-			<title code="0x9b">BGM #9b</title>
-			<title code="0x9c">BGM #9c</title>
-			<title code="0x9d">BGM #9d</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Randar 2: Revenge of Death (ランダーの冒険 II) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rand2_msx">
-			<rom type="code">Randar II - Revenge of Death (1989)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x23">BGM #23</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x25">BGM #25</title>
-			<title code="0x26">BGM #26</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x2a">BGM #2a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Randar 3: The Adventure of Randar (ランダーの冒険 III) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rand3_msx">
-			<rom type="code">Randar III - The Adventure of Randar (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x80">BGM #80</title>
-			<title code="0x81">BGM #81</title>
-			<title code="0x91">BGM #91</title>
-			<title code="0xd1">BGM #d1</title>
-			<title code="0x82">BGM #82</title>
-			<title code="0x83">BGM #83</title>
-			<title code="0x84">BGM #84</title>
-			<title code="0x85">BGM #85</title>
-			<title code="0x96">BGM #96</title>
-			<title code="0x97">BGM #97</title>
-			<title code="0x98">BGM #98</title>
-			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9a</title>
-			<title code="0xba">BGM #ba</title>
-			<title code="0x9b">BGM #9b</title>
-			<title code="0x9c">BGM #9c</title>
-			<title code="0xde">BGM #de</title>
-			<title code="0xa0">BGM #a0</title>
-			<title code="0xa1">BGM #a1</title>
-			<title code="0xc1">BGM #c1</title>
-			<title code="0xa3">BGM #a3</title>
-			<title code="0xa4">BGM #a4</title>
-			<title code="0xe4">BGM #e4</title>
-			<title code="0xa6">BGM #a6</title>
-			<title code="0xa7">BGM #a7</title>
-			<title code="0xa8">BGM #a8</title>
-			<title code="0xa9">BGM #a9</title>
-			<title code="0xaa">BGM #aa</title>
-			<title code="0xab">BGM #ab</title>
-			<title code="0xac">BGM #ac</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Randar 3: The Adventure of Randar (ランダーの冒険 III) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rand3_msx">
-			<rom type="code">Randar III - The Adventure of Randar (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x51">BGM #51</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x3a">BGM #3a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x5e">BGM #5e</title>
-			<title code="0x20">BGM #20</title>
-			<title code="0x21">BGM #21</title>
-			<title code="0x41">BGM #41</title>
-			<title code="0x23">BGM #23</title>
-			<title code="0x24">BGM #24</title>
-			<title code="0x64">BGM #64</title>
-			<title code="0x26">BGM #26</title>
-			<title code="0x27">BGM #27</title>
-			<title code="0x28">BGM #28</title>
-			<title code="0x29">BGM #29</title>
-			<title code="0x2a">BGM #2a</title>
-			<title code="0x2b">BGM #2b</title>
-			<title code="0x2c">BGM #2c</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[MSX2] Runemaster (ルーンマスター) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Compile</driveralias>
@@ -15334,120 +14770,6 @@
 			<title code="0x07">Lost the Fight</title>
 			<title code="0x09">The End</title>
 			<title code="0x0a">The Gamble</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Runemaster 2 (ルーンマスター II) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rune2_msx">
-			<rom type="code">Runemaster 2 (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x81">Intro theme Runemaster II</title>
-			<title code="0x82">Runemaster II Adventure</title>
-			<title code="0x83">Another Fight</title>
-			<title code="0x84">Big Battle</title>
-			<title code="0x85">In Town</title>
-			<title code="0x86">The Elder</title>
-			<title code="0x87">Lost the Fight</title>
-			<title code="0x89">The End</title>
-			<title code="0x8b">The Gamble</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Runemaster 2 (ルーンマスター II) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rune2_msx">
-			<rom type="code">Runemaster 2 (1990)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Intro theme Runemaster II</title>
-			<title code="0x02">Runemaster II Adventure</title>
-			<title code="0x03">Another Fight</title>
-			<title code="0x04">Big Battle</title>
-			<title code="0x05">In Town</title>
-			<title code="0x06">The Elder</title>
-			<title code="0x07">Lost the Fight</title>
-			<title code="0x09">The End</title>
-			<title code="0x0b">The Gamble</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Runemaster 3 (ルーンマスター III) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rune3_msx">
-			<rom type="code">Runemaster 3 (1991)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x81">Intro theme Runemaster III</title>
-			<title code="0x82">Scenario Select</title>
-			<title code="0x83">Runemaster III Journey BGM</title>
-			<title code="0x84">Another Battle</title>
-			<title code="0x85">Big Battle</title>
-			<title code="0x86">Great Battle</title>
-			<title code="0x87">BGM #07</title>
-			<title code="0x88">Lost Fight</title>
-			<title code="0x89">Lost Fight</title>
-			<title code="0x8a">BGM #0A</title>
-			<title code="0x8b">The Gamble</title>
-			<title code="0x8c">The End 1</title>
-			<title code="0x8d">The End 2</title>
-			<title code="0x8e">Event</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Runemaster 3 (ルーンマスター III) (YM2413)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">Compile</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="rune3_msx">
-			<rom type="code">Runemaster 3 (1991)(Compile).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Intro theme Runemaster III</title>
-			<title code="0x02">Scenario Select</title>
-			<title code="0x03">Runemaster III Journey BGM</title>
-			<title code="0x04">Another Battle</title>
-			<title code="0x05">Big Battle</title>
-			<title code="0x06">Great Battle</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">Lost Fight</title>
-			<title code="0x09">Lost Fight</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">The Gamble</title>
-			<title code="0x0c">The End 1</title>
-			<title code="0x0d">The End 2</title>
-			<title code="0x0e">Event</title>
 		</titlelist>
 	</game>
 	<game>

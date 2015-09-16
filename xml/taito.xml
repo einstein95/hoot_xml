@@ -4527,7 +4527,7 @@
 		<driver type="generic">neogeo</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
-			<option name="adpcm_size" value="0x0400000"/>
+			<option name="adpcm_size" value="0x400000"/>
 		</options>
 		<romlist archive="pbobblen">
 			<rom type="code" offset="0x00000">d96-06.m1</rom>
@@ -4559,11 +4559,12 @@
 		<driver type="generic">neogeo</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
-			<option name="adpcm_size" value="0x1000000"/>
+			<option name="adpcm_size" value="0x400000"/>
 			<option name="neo_pcm2_snk_1999" value="4"/>
+			<option name="m1_decrypt" value="1"/>
 		</options>
 		<romlist archive="pnyaa">
-			<rom type="code" offset="0x00000">267-m1_decrypted.bin</rom>
+			<rom type="code" offset="0x00000">267-m1.m1</rom>
 			<rom type="adpcma" offset="0x000000">267-v1.v1</rom>
 		</romlist>
 		<titlelist>
