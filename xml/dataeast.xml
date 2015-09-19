@@ -142,13 +142,8 @@
 		<name>[Express Raider] Express Raider (ウエスタンエクスプレス) (YM2203+YM3526)</name>
 		<driver type="exprraid">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0xf0"/>
-			<option name="ssg_mix" value="0xf0"/>
-			<option name="opl_mix" value="0x110"/>
-		</options>
 		<romlist archive="exprraid">
-			<rom type="code" offset="0x8000">cz02</rom>
+			<rom type="code" offset="0x8000">cz02-1.2a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x18">BGM #18</title>
@@ -164,11 +159,6 @@
 		<name>[Break Thru] Break Thru (強行突破) (YM2203+YM3526)</name>
 		<driver type="brkthru">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0xf0"/>
-			<option name="ssg_mix" value="0xf0"/>
-			<option name="opl_mix" value="0x110"/>
-		</options>
 		<romlist archive="brkthru">
 			<rom type="code" offset="0x8000">brkthru.5</rom>
 		</romlist>
@@ -185,11 +175,6 @@
 		<name>[Break Thru] Darwin 4078 (ダーウィン4078) (YM2203+YM3526)</name>
 		<driver type="brkthru">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0xf0"/>
-			<option name="ssg_mix" value="0xf0"/>
-			<option name="opl_mix" value="0x110"/>
-		</options>
 		<romlist archive="darwin">
 			<rom type="code" offset="0x8000">darw_08.rom</rom>
 		</romlist>
@@ -206,10 +191,6 @@
 		<name>[Last Mission] Last Mission (ラストミッション) (YM2203+YM3526)</name>
 		<driver type="lastmisn">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x180"/>
-			<option name="opl_mix" value="0x180"/>
-		</options>
 		<romlist archive="lastmisn">
 			<rom type="code" offset="0x8000">dl05-.5h</rom>
 		</romlist>
@@ -229,10 +210,6 @@
 		<name>[Last Mission] Shackled (ブレイウッド) (YM2203+YM3526)</name>
 		<driver type="lastmisn">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x180"/>
-			<option name="opl_mix" value="0x180"/>
-		</options>
 		<romlist archive="shackled">
 			<rom type="code" offset="0x8000">dk-07.rom</rom>
 		</romlist>
@@ -252,10 +229,6 @@
 		<name>[DECO8] Garyo Retsuden (臥竜列伝) (YM2203+YM3812)</name>
 		<driver type="cobracom">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x60"/>
-			<option name="opl2_mix" value="0x180"/>
-		</options>
 		<romlist archive="garyoret">
 			<rom type="code" offset="0x8000">dv05</rom>
 		</romlist>
@@ -281,10 +254,6 @@
 		<name>[DECO8] Gondomania (魔境戦士) (YM2203+YM3526)</name>
 		<driver type="makyosen">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x60"/>
-			<option name="opl2_mix" value="0x180"/>
-		</options>
 		<romlist archive="gondo">
 			<rom type="code" offset="0x8000">dt-05.256</rom>
 		</romlist>
@@ -302,10 +271,6 @@
 		<name>[DECO8] Meikyuu Hunter G (迷宮ハンターG) (YM2203+YM3812)</name>
 		<driver type="cobracom">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x60"/>
-			<option name="opl2_mix" value="0x180"/>
-		</options>
 		<romlist archive="meikyuh">
 			<rom type="code" offset="0x8000">dw05.5f</rom>
 		</romlist>
@@ -326,10 +291,6 @@
 		<name>[DECO8] Cobra-Command (コブラコマンドー) (YM2203+YM3812)</name>
 		<driver type="cobracom">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x60"/>
-			<option name="opl2_mix" value="0x180"/>
-		</options>
 		<romlist archive="cobracom">
 			<rom type="code" offset="0x8000">el10-4.bin</rom>
 		</romlist>
@@ -352,11 +313,6 @@
 		<name>[Robocop] Heavy Barrel (ヘビーバレル) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="hbarrel">
 			<rom type="code" offset="0x8000">hb07.bin</rom>
 			<rom type="pcm" offset="0x0000">hb08.bin</rom>
@@ -374,11 +330,6 @@
 		<name>[Robocop] Bad Dudes vs. Dragonninja (ドラゴン忍者) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="baddudes">
 			<rom type="code" offset="0x8000">ei07.8a</rom>
 			<rom type="pcm" offset="0x0000">ei08.2c</rom>
@@ -398,11 +349,6 @@
 		<name>[Robocop] Birdie Try (バーディートライ) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="birdtry">
 			<rom type="code" offset="0x8000">ek-07.bin</rom>
 			<rom type="pcm" offset="0x0000">ek-08.bin</rom>
@@ -427,11 +373,6 @@
 		<name>[Robocop] Robocop (ロボコップ) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="robocop">
 			<rom type="code" offset="0x8000">ep03-3</rom>
 			<rom type="pcm" offset="0x0000">ep02</rom>
@@ -455,11 +396,6 @@
 		<name>[Robocop] Stadium Hero (スタジアムヒーロー) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="stadhero">
 			<rom type="code" offset="0x8000">ef18.bin</rom>
 			<rom type="pcm" offset="0x0000">ef17.bin</rom>
@@ -482,11 +418,6 @@
 		<name>[Robocop] Act-Fancer Cybernetick Hyper Weapon (アクトフェンサー) (YM2203+YM3812+MSM6295)</name>
 		<driver type="triothep">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="actfancr">
 			<rom type="code" offset="0x8000">17-1</rom>
 			<rom type="pcm" offset="0x0000">18</rom>
@@ -510,11 +441,6 @@
 		<name>[Robocop] Hippodrome (ファイティングファンタジー) (YM2203+YM3812+MSM6295)</name>
 		<driver type="drgninja">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="hippodrm">
 			<rom type="code" offset="0x8000">ew04</rom>
 			<rom type="pcm" offset="0x0000">ew03</rom>
@@ -536,11 +462,6 @@
 		<name>[Robocop] Trio The Punch: Never Forget Me... (トリオ・ザ・パンチ) (YM2203+YM3812+MSM6295)</name>
 		<driver type="triothep">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opn_mix" value="0x100"/>
-			<option name="opl2_mix" value="0x180"/>
-			<option name="pcm_mix" value="0xc0"/>
-		</options>
 		<romlist archive="triothep">
 			<rom type="code" offset="0x0000">fg-18.bin</rom>
 			<rom type="pcm" offset="0x0000">fg-17.bin</rom>
@@ -558,10 +479,6 @@
 		<name>[Karnov] Karnov (カルノフ) (YM2203+YM3526)</name>
 		<driver type="karnov">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opl_mix" value="0x180"/>
-			<option name="opn_mix" value="0x69"/>
-		</options>
 		<romlist archive="karnov">
 			<rom type="code" offset="0x08000">dn05-5</rom>
 		</romlist>
@@ -579,10 +496,6 @@
 		<name>[Karnov] Wonder Planet (ワンダープラネット) (YM2203+YM3526)</name>
 		<driver type="karnov">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opl_mix" value="0x180"/>
-			<option name="opn_mix" value="0x69"/>
-		</options>
 		<romlist archive="wndrplnt">
 			<rom type="code" offset="0x08000">ea05.bin</rom>
 		</romlist>
@@ -604,10 +517,6 @@
 		<name>[Karnov] Chelnov: Atomic Runner (チェルノブ -戦う人間発電所-) (YM2203+YM3526)</name>
 		<driver type="karnov">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opl_mix" value="0x180"/>
-			<option name="opn_mix" value="0x69"/>
-		</options>
 		<romlist archive="chelnov">
 			<rom type="code" offset="0x08000">ee05-.f3</rom>
 		</romlist>
@@ -647,14 +556,8 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Vapor Trail: Hyper Offence Formation (空牙 -OPERATION CODE 'VAPER TRAIL'-) (YM2151+YM2203+MSM6295x2)</name>
-		<driver type="generic">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="opn_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-		</options>
 		<romlist archive="vaportra">
 			<rom type="code" offset="0x00000">fj04</rom>
 			<rom type="pcm1" offset="0x00000">fj06</rom>
@@ -679,14 +582,8 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Crude Buster (クルードバスター) (YM2151+YM2203+MSM6295x2)</name>
-		<driver type="generic">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="opn_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-		</options>
 		<romlist archive="cbuster">
 			<rom type="code" offset="0x00000">fu11-.rom</rom>
 			<rom type="pcm1" offset="0x00000">fu12-.rom</rom>
@@ -711,14 +608,8 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Dark Seal (ダークシール) (YM2151+YM2203+MSM6295x2)</name>
-		<driver type="generic">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="opn_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-		</options>
 		<romlist archive="darkseal">
 			<rom type="code" offset="0x00000">fz-06.rom</rom>
 			<rom type="pcm1" offset="0x00000">fz-08.rom</rom>
@@ -742,12 +633,10 @@
 	</game>
 	<game>
 		<name>[Crude Buster] The Cliffhanger: Edward Randy (エドワードランディ) (YM2151+MSM6295x2)</name>
-		<driver type="wolffang">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xa0000"/>
 		</options>
 		<romlist archive="edrandy">
 			<rom type="code" offset="0x00000">ge-09.k13</rom>
@@ -772,13 +661,10 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Caveman Ninja (戦え原始人 ジョー＆マック) (YM2151+MSM6295x2)</name>
-		<driver type="wolffang">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xa0000"/>
 		</options>
 		<romlist archive="cninja">
 			<rom type="code" offset="0x00000">gl-07.rom</rom>
@@ -807,14 +693,10 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Robocop 2 (ロボコップ2) (YM2151+YM2203+MSM6295x2)</name>
-		<driver type="thunderzone">dataeast</driver>
+		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="opn_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xa0000"/>
 		</options>
 		<romlist archive="robocop2">
 			<rom type="code" offset="0x00000">gp-09.k13</rom>
@@ -843,14 +725,10 @@
 	</game>
 	<game>
 		<name>[Crude Buster] Thunder Zone (サンダーゾーン) (YM2151+YM2203+MSM6295x2)</name>
-		<driver type="thunderzone">dataeast</driver>
+		<driver type="thndzone">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="opn_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xa0000"/>
 		</options>
 		<romlist archive="thndzone">
 			<rom type="code" offset="0x00000">gs04</rom>
@@ -879,10 +757,6 @@
 		<name>[Super Burger Time] Super Burger Time (スーパーバーガータイム) (YM2151+MSM6295)</name>
 		<driver type="supbtime">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x9a"/>
-		</options>
 		<romlist archive="supbtime">
 			<rom type="code" offset="0x00000">gc06.bin</rom>
 			<rom type="pcm1" offset="0x00000">gc05.bin</rom>
@@ -902,10 +776,6 @@
 		<name>[Super Burger Time] China Town (チャイナタウン) (YM2151+MSM6295)</name>
 		<driver type="supbtime">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x9a"/>
-		</options>
 		<romlist archive="chinatwn">
 			<rom type="code" offset="0x00000">gv_02-.f16</rom>
 			<rom type="pcm1" offset="0x00000">gv_03-.j14</rom>
@@ -941,10 +811,6 @@
 		<name>[Super Burger Time] Tumble Pop (タンブルポップ) (YM2151+MSM6295)</name>
 		<driver type="supbtime">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x200"/>
-		</options>
 		<romlist archive="tumblep">
 			<rom type="code" offset="0x00000">hl02-.f16</rom>
 			<rom type="pcm1" offset="0x00000">hl03-.j15</rom>
@@ -973,10 +839,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xc0000"/>
 		</options>
 		<romlist archive="mutantf">
 			<rom type="code" offset="0x00000">hd-12.21j</rom>
@@ -1004,10 +867,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x080000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="captaven">
 			<rom type="code" offset="0x00000">hj_08.17k</rom>
@@ -1057,10 +917,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0xc0000"/>
 		</options>
 		<romlist archive="rohga">
 			<rom type="code" offset="0x00000">ha04.18p</rom>
@@ -1093,10 +950,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="wizdfire">
 			<rom type="code" offset="0x00000">je-06.20r</rom>
@@ -1130,10 +984,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="wizdfire">
 			<rom type="code" offset="0x00000">jb-06.20r</rom>
@@ -1166,12 +1017,6 @@
 		<name>[DECO32] Funky Jet (ファンキージェット) (YM2151+MSM6295x2)</name>
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
-		</options>
 		<romlist archive="funkyjet">
 			<rom type="code" offset="0x00000">jk02.16f</rom>
 			<rom type="pcm1" offset="0x00000">jk03.15h</rom>
@@ -1197,10 +1042,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x80000"/>
 		</options>
 		<romlist archive="dietgo">
 			<rom type="code" offset="0x00000">jy02.m14</rom>
@@ -1236,10 +1078,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="nitrobal">
 			<rom type="code" offset="0x00000">jl08.r20</rom>
@@ -1285,10 +1124,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="boogwing">
 			<rom type="code" offset="0x00000">km06.18p</rom>
@@ -1325,10 +1161,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="dragngun">
 			<rom type="code" offset="0x00000">kb10.n25</rom>
@@ -1366,10 +1199,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="fghthist">
 			<rom type="code" offset="0x00000">kz02.18k</rom>
@@ -1410,10 +1240,7 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x100000"/>
 		</options>
 		<romlist archive="schmeisr">
 			<rom type="code" offset="0x00000">sr013.18p</rom>
@@ -1446,12 +1273,9 @@
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
 		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
+			<option name="pcm_size" value="0x180000"/>
 		</options>
-		<romlist archive="lockloadu">
+		<romlist archive="lockload">
 			<rom type="code" offset="0x00000">nh-06-0.n25</rom>
 			<rom type="pcm1" offset="0x00000">mbm-07.n21</rom>
 			<rom type="pcm2" offset="0x00000">mbm-06.n17</rom>
@@ -1500,12 +1324,6 @@
 		<name>[DECO32] Sotsugyo Shousho (卒業証書) (YM2151+MSM6295x2)</name>
 		<driver type="deco32">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x9a"/>
-			<option name="pcm1_mix" value="0x8a"/>
-			<option name="pcm2_mix" value="0x2e"/>
-			<option name="pcm_size" value="0x200000"/>
-		</options>
 		<romlist archive="sotsugyo">
 			<rom type="code" offset="0x00000">sb020.16f</rom>
 			<rom type="pcm1" offset="0x00000">sb030.15h</rom>
@@ -1625,11 +1443,6 @@
 		<name>[Night Slashers] Night Slashers (ナイトスラッシャーズ) (YM2151+MSM6295x2)</name>
 		<driver type="nslasher">dataeast</driver>
 		<driveralias type="Arcade">Data East</driveralias>
-		<options>
-			<option name="opm_mix" value="0x66"/>
-			<option name="pcm1_mix" value="0xcc"/>
-			<option name="pcm2_mix" value="0x20"/>
-		</options>
 		<romlist archive="nslasher">
 			<rom type="code" offset="0x0000">sndprg.17l</rom>
 			<rom type="pcm1" offset="0x0000">mbh-10.14l</rom>
