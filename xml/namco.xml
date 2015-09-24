@@ -519,13 +519,6 @@
 		<name>[MSX] Galaga (ギャラガ) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="galaga_msx">
 			<rom type="code">Galaga (1984)(Namco).kss</rom>
 		</romlist>
@@ -555,13 +548,6 @@
 		<name>[MSX] Pac-Mania (パックマニア) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="pacmania_msx">
 			<rom type="code">Pac-Mania (1988)(Namco).kss</rom>
 		</romlist>
@@ -576,13 +562,6 @@
 		<name>[MSX2] Dragon Buster (ドラゴンバスター) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="drgbst_msx">
 			<rom type="code">Dragon Buster (1987)(Namco).kss</rom>
 		</romlist>
@@ -619,13 +598,6 @@
 		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="famista_msx">
 			<rom type="code">Family Stadium (1989)(Namco).kss</rom>
 		</romlist>
@@ -649,13 +621,6 @@
 		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (Y8950)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="famista_msx">
 			<rom type="code">Family Stadium (1989)(Namco).kss</rom>
 		</romlist>
@@ -679,13 +644,6 @@
 		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (YM2413)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="famista_msx">
 			<rom type="code">Family Stadium (1989)(Namco).kss</rom>
 		</romlist>
@@ -709,13 +667,6 @@
 		<name>[MSX2] The Return of Ishtar (ザ リターン オブ イシター) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
 		<romlist archive="roishtar_msx">
 			<rom type="code">Return of Ishtar (1988)(Namco).kss</rom>
 		</romlist>
@@ -1594,7 +1545,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Thunder Ceptor] Thunder Ceptor 1 &amp; 2 (サンダーセプター／2) (YM2151)</name>
+		<name>[Thunder Ceptor] Thunder Ceptor 1 &amp; 2 (サンダーセプター/2) (YM2151)</name>
 		<driver type="tceptor">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
