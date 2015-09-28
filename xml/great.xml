@@ -36,6 +36,90 @@
 <gamelist date="2005/09/25">
 	<!-- //GREAT -->
 	<game>
+		<name>[PC-8801] Doki Doki Card League (ドキドキカードリーグ)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="NEC PC-8801">GREAT</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xd000"/>
+			<option name="mdata_size" value="0x0800"/>
+			<option name="mfile_size" value="0x0800"/>
+			<option name="init_pc"    value="0x0000"/>
+			<option name="use_rtc"    value="0x01"/>
+		</options>
+		<romlist archive="dokicl_88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xe000">bgm.bin</rom>
+			<rom type="bgm" offset="0x00">M1.DAT</rom>
+			<rom type="bgm" offset="0x01">M2.DAT</rom>
+			<rom type="bgm" offset="0x02">M3.DAT</rom>
+			<rom type="bgm" offset="0x03">M4.DAT</rom>
+			<rom type="bgm" offset="0x04">M5.DAT</rom>
+			<rom type="bgm" offset="0x05">M6.DAT</rom>
+			<rom type="bgm" offset="0x06">M7.DAT</rom>
+			<rom type="bgm" offset="0x07">M8.DAT</rom>
+			<rom type="bgm" offset="0x08">M9.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">M1.DAT</title>
+			<title code="0x01">M2.DAT</title>
+			<title code="0x02">M3.DAT</title>
+			<title code="0x03">M4.DAT</title>
+			<title code="0x04">M5.DAT</title>
+			<title code="0x05">M6.DAT</title>
+			<title code="0x06">M7.DAT</title>
+			<title code="0x07">M8.DAT</title>
+			<title code="0x08">M9.DAT</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] 気分はぱすてるたっち!! アブナイ学園編</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="NEC PC-8801">GREAT</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xd800"/>
+			<option name="mdata_size" value="0x0800"/>
+			<option name="mfile_size" value="0x0800"/>
+			<option name="init_pc"    value="0x0000"/>
+			<option name="use_rtc"    value="0x01"/>
+		</options>
+		<romlist archive="kpastel_88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xe000">fmpsg.mac</rom>
+			<rom type="bgm" offset="0x00">M1.DAT</rom>
+			<rom type="bgm" offset="0x01">M2.DAT</rom>
+			<rom type="bgm" offset="0x02">M3.DAT</rom>
+			<rom type="bgm" offset="0x03">M4.DAT</rom>
+			<rom type="bgm" offset="0x04">M5.DAT</rom>
+			<rom type="bgm" offset="0x05">M6.DAT</rom>
+			<rom type="bgm" offset="0x06">M7.DAT</rom>
+			<rom type="bgm" offset="0x07">M8.DAT</rom>
+			<rom type="bgm" offset="0x08">M9.DAT</rom>
+			<rom type="bgm" offset="0x09">MA.DAT</rom>
+			<rom type="bgm" offset="0x0a">MB.DAT</rom>
+			<rom type="bgm" offset="0x0b">MC.DAT</rom>
+			<rom type="bgm" offset="0x0c">MD.DAT</rom>
+			<rom type="bgm" offset="0x0d">ME.DAT</rom>
+			<rom type="bgm" offset="0x0e">MF.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">M1.DAT</title>
+			<title code="0x01">M2.DAT</title>
+			<title code="0x02">M3.DAT</title>
+			<title code="0x03">M4.DAT</title>
+			<title code="0x04">M5.DAT</title>
+			<title code="0x05">M6.DAT</title>
+			<title code="0x06">M7.DAT</title>
+			<title code="0x07">M8.DAT</title>
+			<title code="0x08">M9.DAT</title>
+			<title code="0x09">MA.DAT</title>
+			<title code="0x0a">MB.DAT</title>
+			<title code="0x0b">MC.DAT</title>
+			<title code="0x0c">MD.DAT</title>
+			<title code="0x0d">ME.DAT</title>
+			<title code="0x0e">MF.DAT</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Doki Doki Pretty League #1: Pink Angels Kiki Ippatsu no Maki (DokiDokiぷりてぃリーグ 第1話 ピンクエンジェルス危機一髪の巻) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Great</driveralias>
@@ -1231,10 +1315,10 @@
 		</options>
 		<romlist archive="gpara68snd">
 			<rom type="code">gpara68snd.bin</rom>
-			<rom type="x"    offset="0x010000">GALS.X</rom>
+			<rom type="x" offset="0x010000">GALS.X</rom>
 			<rom type="code" offset="0x018f04">KYOKU00.DAT</rom>
 			<rom type="code" offset="0x0a17aa">FM.DAT</rom>
-			<rom type="x"    offset="0x0b0000">FLOAT2.X</rom>
+			<rom type="x" offset="0x0b0000">FLOAT2.X</rom>
 			<rom type="code" offset="0x0c0000">KYOKU00.DAT</rom>
 			<rom type="code" offset="0x0c2000">KYOKU01.DAT</rom>
 			<rom type="code" offset="0x0c4000">KYOKU02.DAT</rom>
@@ -1243,6 +1327,96 @@
 			<title code="0x301">KYOKU00.DAT</title>
 			<title code="0x302">KYOKU01.DAT</title>
 			<title code="0x303">KYOKU02.DAT</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Doki Doki Card League (ドキドキカードリーグ)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Great</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x37FC"/>
+			<option name="mdata_size" value="0x0820"/>
+			<option name="mfile_size" value="0x0820"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="dokicl_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xd7f9">CARD2.BIN</rom>
+			<rom type="bgm" offset="0x00">M1</rom>
+			<rom type="bgm" offset="0x01">M2</rom>
+			<rom type="bgm" offset="0x02">M3</rom>
+			<rom type="bgm" offset="0x03">M4</rom>
+			<rom type="bgm" offset="0x04">M5</rom>
+			<rom type="bgm" offset="0x05">M6</rom>
+			<rom type="bgm" offset="0x06">M7</rom>
+			<rom type="bgm" offset="0x07">M8</rom>
+			<rom type="bgm" offset="0x08">M9</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x08" extcode="1">BGM %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] 気分はぱすてるたっち!! アブナイ学園編</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">GREAT</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x2ffc"/>
+			<option name="mdata_size" value="0x0810"/>
+			<option name="mfile_size" value="0x0810"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="kpastel_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xcff9">PASTEL2.BIN</rom>
+			<rom type="bgm" offset="0x00">M1.VRM</rom>
+			<rom type="bgm" offset="0x01">M2.VRM</rom>
+			<rom type="bgm" offset="0x02">M3.VRM</rom>
+			<rom type="bgm" offset="0x03">M4.VRM</rom>
+			<rom type="bgm" offset="0x04">M5.VRM</rom>
+			<rom type="bgm" offset="0x05">M6.VRM</rom>
+			<rom type="bgm" offset="0x06">M7.VRM</rom>
+			<rom type="bgm" offset="0x07">M8.VRM</rom>
+			<rom type="bgm" offset="0x08">M9.VRM</rom>
+			<rom type="bgm" offset="0x09">MA.VRM</rom>
+			<rom type="bgm" offset="0x0a">MB.VRM</rom>
+			<rom type="bgm" offset="0x0b">MC.VRM</rom>
+			<rom type="bgm" offset="0x0c">MD.VRM</rom>
+			<rom type="bgm" offset="0x0d">ME.VRM</rom>
+			<rom type="bgm" offset="0x0e">MF.VRM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">M1.VRM</title>
+			<title code="0x01">M2.VRM</title>
+			<title code="0x02">M3.VRM</title>
+			<title code="0x03">M4.VRM</title>
+			<title code="0x04">M5.VRM</title>
+			<title code="0x05">M6.VRM</title>
+			<title code="0x06">M7.VRM</title>
+			<title code="0x07">M8.VRM</title>
+			<title code="0x08">M9.VRM</title>
+			<title code="0x09">MA.VRM</title>
+			<title code="0x0a">MB.VRM</title>
+			<title code="0x0b">MC.VRM</title>
+			<title code="0x0c">MD.VRM</title>
+			<title code="0x0d">ME.VRM</title>
+			<title code="0x0e">MF.VRM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Gakuen Monogatari (学園物語) (Disk)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">GREAT</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="gakumonod_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x03" max="0x00b" extcode="1">BGM %02X</range>
+			<range min="0x00" max="0x002" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 </gamelist>

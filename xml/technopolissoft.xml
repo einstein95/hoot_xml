@@ -1195,7 +1195,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kimidake_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1437,6 +1437,30 @@
 			<title code="0x05">Clear Demo</title>
 			<title code="0x00">Game Over</title>
 			<range min="0x04" max="0x04" extcode="1">BGM #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Ç®èÏólÇ≠ÇÁÇ‘</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="ojosama_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x3ff9">M.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Jang ken          / TENTEKO</title>
+			<title code="0x01">HARD              / NEKO</title>
+			<title code="0x02">Twincle           / TENTEKO</title>
+			<title code="0x03">Spring skip       / XKD</title>
+			<title code="0x04">Theme of GIRLS    / KOSIRON</title>
+			<title code="0x05">Epilogue          / KOSIRON</title>
+			<title code="0x06">GAME OVER         / TENTEKO</title>
+			<title code="0x07">Sea side          / GOD</title>
+			<title code="0x08">Atend of MENUETTE / XKD</title>
+			<title code="0x09">Queens            / KOSIRON</title>
 		</titlelist>
 	</game>
 </gamelist>

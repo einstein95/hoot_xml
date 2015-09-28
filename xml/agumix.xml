@@ -919,30 +919,204 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] The Queen of Duelist Gaiden Alpha (クィーン オブ デュエリスト外伝α) (YM2151+MSM6258)</name>
+		<name>[X68000] The Queen of Duelist Gaiden Alpha (クィーン オブ デュエリスト 外伝α) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Agumix</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="pcm8" value="0x01"/>
+		</options>
 		<romlist archive="qoda68snd">
 			<rom type="code" offset="0x000000">qod68snd.bin</rom>
-			<rom type="x"    offset="0x010000">dg.x</rom>
-			<rom type="code" offset="0x017000">TITLE.ZMD</rom>
-			<rom type="code" offset="0x018000">INTRO.ZMD</rom>
-			<rom type="code" offset="0x019000">CHIZURU.ZMD</rom>
-			<rom type="code" offset="0x01a000">ELZA.ZMD</rom>
-			<rom type="code" offset="0x01b000">EMILY.ZMD</rom>
-			<rom type="code" offset="0x01c000">GOLD.ZMD</rom>
-			<rom type="code" offset="0x01d000">KIRIKO.ZMD</rom>
-			<rom type="code" offset="0x01e000">MAI.ZMD</rom>
-			<rom type="code" offset="0x01f000">MIYUKI.ZMD</rom>
-			<rom type="code" offset="0x020000">REIKA.ZMD</rom>
-			<rom type="code" offset="0x021000">RYUHOU.ZMD</rom>
-			<rom type="code" offset="0x022000">TAKEGAMI.ZMD</rom>
-			<rom type="code" offset="0x023000">ENDING.ZMD</rom>
-			<rom type="x"    offset="0x060000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">dg.x</rom>
+			<rom type="x" offset="0x020000">ZMSC.X</rom>
+			<rom type="code" offset="0x047000">TITLE.ZMD</rom>
+			<rom type="code" offset="0x048000">INTRO.ZMD</rom>
+			<rom type="code" offset="0x049000">CHIZURU.ZMD</rom>
+			<rom type="code" offset="0x04a000">ELZA.ZMD</rom>
+			<rom type="code" offset="0x04b000">EMILY.ZMD</rom>
+			<rom type="code" offset="0x04c000">GOLD.ZMD</rom>
+			<rom type="code" offset="0x04d000">KIRIKO.ZMD</rom>
+			<rom type="code" offset="0x04e000">MAI.ZMD</rom>
+			<rom type="code" offset="0x04f000">MIYUKI.ZMD</rom>
+			<rom type="code" offset="0x050000">REIKA.ZMD</rom>
+			<rom type="code" offset="0x051000">RYUHOU.ZMD</rom>
+			<rom type="code" offset="0x052000">TAKEGAMI.ZMD</rom>
+			<rom type="code" offset="0x053000">ENDING.ZMD</rom>
+			<rom type="code" offset="0x070000">CH_CON_0.PCM</rom>
+			<rom type="code" offset="0x076000">CH_CON_1.PCM</rom>
+			<rom type="code" offset="0x07b000">CH_END_0.PCM</rom>
+			<rom type="code" offset="0x080000">CH_END_1.PCM</rom>
+			<rom type="code" offset="0x084000">CH_END_2.PCM</rom>
+			<rom type="code" offset="0x088000">C_CH_N.PCM</rom>
+			<rom type="code" offset="0x08d000">C_CH_Y.PCM</rom>
+			<rom type="code" offset="0x090000">C_EL_N.PCM</rom>
+			<rom type="code" offset="0x095000">C_EL_Y.PCM</rom>
+			<rom type="code" offset="0x098000">C_KI_N.PCM</rom>
+			<rom type="code" offset="0x09c000">C_KI_Y.PCM</rom>
+			<rom type="code" offset="0x09f000">C_MI_N.PCM</rom>
+			<rom type="code" offset="0x0a3000">C_MI_Y.PCM</rom>
+			<rom type="code" offset="0x0a6000">C_RE_N.PCM</rom>
+			<rom type="code" offset="0x0aa000">C_RE_Y.PCM</rom>
+			<rom type="code" offset="0x0ae000">EL_CON_0.PCM</rom>
+			<rom type="code" offset="0x0b3000">EL_CON_1.PCM</rom>
+			<rom type="code" offset="0x0b6000">EL_END_0.PCM</rom>
+			<rom type="code" offset="0x0bc000">EL_END_1.PCM</rom>
+			<rom type="code" offset="0x0c1000">EL_END_2.PCM</rom>
+			<rom type="code" offset="0x0c4000">EM_CONG.PCM</rom>
+			<rom type="code" offset="0x0c8000">EM_END_0.PCM</rom>
+			<rom type="code" offset="0x0d2000">EM_END_1.PCM</rom>
+			<rom type="code" offset="0x0e0000">KI_CON_0.PCM</rom>
+			<rom type="code" offset="0x0e3000">KI_CON_1.PCM</rom>
+			<rom type="code" offset="0x0e7000">KI_END_0.PCM</rom>
+			<rom type="code" offset="0x0ee000">KI_END_1.PCM</rom>
+			<rom type="code" offset="0x0f3000">KI_END_2.PCM</rom>
+			<rom type="code" offset="0x0fb000">L_CH_CH.PCM</rom>
+			<rom type="code" offset="0x100000">L_CH_EL.PCM</rom>
+			<rom type="code" offset="0x105000">L_CH_GO.PCM</rom>
+			<rom type="code" offset="0x10a000">L_CH_KI.PCM</rom>
+			<rom type="code" offset="0x10e000">L_CH_MI.PCM</rom>
+			<rom type="code" offset="0x112000">L_CH_RE.PCM</rom>
+			<rom type="code" offset="0x115000">L_CH_TK.PCM</rom>
+			<rom type="code" offset="0x11d000">L_EL_CH.PCM</rom>
+			<rom type="code" offset="0x121000">L_EL_EL.PCM</rom>
+			<rom type="code" offset="0x126000">L_EL_GO.PCM</rom>
+			<rom type="code" offset="0x12b000">L_EL_KI.PCM</rom>
+			<rom type="code" offset="0x12f000">L_EL_MI.PCM</rom>
+			<rom type="code" offset="0x132000">L_EL_RE.PCM</rom>
+			<rom type="code" offset="0x134000">L_EL_TK.PCM</rom>
+			<rom type="code" offset="0x13a000">L_EM_0.PCM</rom>
+			<rom type="code" offset="0x13d000">L_GO_CH.PCM</rom>
+			<rom type="code" offset="0x13f000">L_GO_EL.PCM</rom>
+			<rom type="code" offset="0x141000">L_GO_GO.PCM</rom>
+			<rom type="code" offset="0x144000">L_GO_KI.PCM</rom>
+			<rom type="code" offset="0x146000">L_GO_MI.PCM</rom>
+			<rom type="code" offset="0x149000">L_GO_RE.PCM</rom>
+			<rom type="code" offset="0x14b000">L_GO_TK.PCM</rom>
+			<rom type="code" offset="0x14d000">L_KI_CH.PCM</rom>
+			<rom type="code" offset="0x151000">L_KI_EL.PCM</rom>
+			<rom type="code" offset="0x156000">L_KI_GO.PCM</rom>
+			<rom type="code" offset="0x15b000">L_KI_KI.PCM</rom>
+			<rom type="code" offset="0x160000">L_KI_MI.PCM</rom>
+			<rom type="code" offset="0x165000">L_KI_RE.PCM</rom>
+			<rom type="code" offset="0x16a000">L_KI_TK.PCM</rom>
+			<rom type="code" offset="0x16f000">L_MI_CH.PCM</rom>
+			<rom type="code" offset="0x176000">L_MI_EL.PCM</rom>
+			<rom type="code" offset="0x17d000">L_MI_GO.PCM</rom>
+			<rom type="code" offset="0x181000">L_MI_KI.PCM</rom>
+			<rom type="code" offset="0x188000">L_MI_MI.PCM</rom>
+			<rom type="code" offset="0x18e000">L_MI_RE.PCM</rom>
+			<rom type="code" offset="0x192000">L_MI_TK.PCM</rom>
+			<rom type="code" offset="0x197000">L_MY_0.PCM</rom>
+			<rom type="code" offset="0x19c000">L_RE_CH.PCM</rom>
+			<rom type="code" offset="0x1a2000">L_RE_EL.PCM</rom>
+			<rom type="code" offset="0x1a7000">L_RE_GO.PCM</rom>
+			<rom type="code" offset="0x1ab000">L_RE_KI.PCM</rom>
+			<rom type="code" offset="0x1b0000">L_RE_MI.PCM</rom>
+			<rom type="code" offset="0x1b3000">L_RE_RE.PCM</rom>
+			<rom type="code" offset="0x1b7000">L_RE_TK.PCM</rom>
+			<rom type="code" offset="0x1bc000">L_RY_0.PCM</rom>
+			<rom type="code" offset="0x1c0000">L_RY_1.PCM</rom>
+			<rom type="code" offset="0x1c4000">L_RY_2.PCM</rom>
+			<rom type="code" offset="0x1cb000">L_TK_CH.PCM</rom>
+			<rom type="code" offset="0x1d2000">L_TK_EL.PCM</rom>
+			<rom type="code" offset="0x1d8000">L_TK_GO.PCM</rom>
+			<rom type="code" offset="0x1dc000">L_TK_KI.PCM</rom>
+			<rom type="code" offset="0x1e3000">L_TK_MI.PCM</rom>
+			<rom type="code" offset="0x1ea000">L_TK_RE.PCM</rom>
+			<rom type="code" offset="0x1f2000">L_TK_TK.PCM</rom>
+			<rom type="code" offset="0x1f8000">MI_CON_0.PCM</rom>
+			<rom type="code" offset="0x1fd000">MI_CON_1.PCM</rom>
+			<rom type="code" offset="0x203000">MI_END_0.PCM</rom>
+			<rom type="code" offset="0x207000">MI_END_1.PCM</rom>
+			<rom type="code" offset="0x20d000">MI_END_2.PCM</rom>
+			<rom type="code" offset="0x213000">MY_CONG.PCM</rom>
+			<rom type="code" offset="0x216000">MY_END_0.PCM</rom>
+			<rom type="code" offset="0x21e000">MY_END_1.PCM</rom>
+			<rom type="code" offset="0x224000">MY_END_2.PCM</rom>
+			<rom type="code" offset="0x229000">RE_CON_0.PCM</rom>
+			<rom type="code" offset="0x230000">RE_CON_1.PCM</rom>
+			<rom type="code" offset="0x237000">RE_END_0.PCM</rom>
+			<rom type="code" offset="0x23b000">RE_END_1.PCM</rom>
+			<rom type="code" offset="0x242000">RE_END_2.PCM</rom>
+			<rom type="code" offset="0x246000">RY_CONG.PCM</rom>
+			<rom type="code" offset="0x24a000">RY_END_0.PCM</rom>
+			<rom type="code" offset="0x251000">W_CH_CH.PCM</rom>
+			<rom type="code" offset="0x256000">W_CH_EL.PCM</rom>
+			<rom type="code" offset="0x25c000">W_CH_GO.PCM</rom>
+			<rom type="code" offset="0x262000">W_CH_KI.PCM</rom>
+			<rom type="code" offset="0x269000">W_CH_MI.PCM</rom>
+			<rom type="code" offset="0x270000">W_CH_RE.PCM</rom>
+			<rom type="code" offset="0x277000">W_CH_TK.PCM</rom>
+			<rom type="code" offset="0x280000">W_EL_CH.PCM</rom>
+			<rom type="code" offset="0x284000">W_EL_EL.PCM</rom>
+			<rom type="code" offset="0x288000">W_EL_GO.PCM</rom>
+			<rom type="code" offset="0x28d000">W_EL_KI.PCM</rom>
+			<rom type="code" offset="0x293000">W_EL_MI.PCM</rom>
+			<rom type="code" offset="0x298000">W_EL_RE.PCM</rom>
+			<rom type="code" offset="0x29d000">W_EL_TK.PCM</rom>
+			<rom type="code" offset="0x2a4000">W_EM_0.PCM</rom>
+			<rom type="code" offset="0x2a8000">W_EM_1.PCM</rom>
+			<rom type="code" offset="0x2af000">W_EM_2.PCM</rom>
+			<rom type="code" offset="0x2b6000">W_EM_3.PCM</rom>
+			<rom type="code" offset="0x2bb000">W_GO_CH.PCM</rom>
+			<rom type="code" offset="0x2be000">W_GO_EL.PCM</rom>
+			<rom type="code" offset="0x2c1000">W_GO_GO.PCM</rom>
+			<rom type="code" offset="0x2c4000">W_GO_KI.PCM</rom>
+			<rom type="code" offset="0x2c6000">W_GO_MI.PCM</rom>
+			<rom type="code" offset="0x2c8000">W_GO_RE.PCM</rom>
+			<rom type="code" offset="0x2ca000">W_GO_TK.PCM</rom>
+			<rom type="code" offset="0x2cc000">W_KI_CH.PCM</rom>
+			<rom type="code" offset="0x2d1000">W_KI_EL.PCM</rom>
+			<rom type="code" offset="0x2d6000">W_KI_GO.PCM</rom>
+			<rom type="code" offset="0x2db000">W_KI_KI.PCM</rom>
+			<rom type="code" offset="0x2e0000">W_KI_MI.PCM</rom>
+			<rom type="code" offset="0x2e4000">W_KI_RE.PCM</rom>
+			<rom type="code" offset="0x2ea000">W_KI_TK.PCM</rom>
+			<rom type="code" offset="0x2ee000">W_MI_CH.PCM</rom>
+			<rom type="code" offset="0x2f3000">W_MI_EL.PCM</rom>
+			<rom type="code" offset="0x2f7000">W_MI_GO.PCM</rom>
+			<rom type="code" offset="0x2fc000">W_MI_KI.PCM</rom>
+			<rom type="code" offset="0x301000">W_MI_MI.PCM</rom>
+			<rom type="code" offset="0x306000">W_MI_RE.PCM</rom>
+			<rom type="code" offset="0x30c000">W_MI_TK.PCM</rom>
+			<rom type="code" offset="0x313000">W_MY_0.PCM</rom>
+			<rom type="code" offset="0x31c000">W_MY_1.PCM</rom>
+			<rom type="code" offset="0x322000">W_MY_2.PCM</rom>
+			<rom type="code" offset="0x32c000">W_MY_3.PCM</rom>
+			<rom type="code" offset="0x334000">W_RE_CH.PCM</rom>
+			<rom type="code" offset="0x33a000">W_RE_EL.PCM</rom>
+			<rom type="code" offset="0x33f000">W_RE_GO.PCM</rom>
+			<rom type="code" offset="0x344000">W_RE_KI.PCM</rom>
+			<rom type="code" offset="0x34a000">W_RE_MI.PCM</rom>
+			<rom type="code" offset="0x34e000">W_RE_RE.PCM</rom>
+			<rom type="code" offset="0x357000">W_RE_TK.PCM</rom>
+			<rom type="code" offset="0x35c000">W_RY_0.PCM</rom>
+			<rom type="code" offset="0x361000">W_RY_1.PCM</rom>
+			<rom type="code" offset="0x367000">W_RY_2.PCM</rom>
+			<rom type="code" offset="0x36e000">W_TK_CH.PCM</rom>
+			<rom type="code" offset="0x377000">W_TK_EL.PCM</rom>
+			<rom type="code" offset="0x37e000">W_TK_GO.PCM</rom>
+			<rom type="code" offset="0x385000">W_TK_KI.PCM</rom>
+			<rom type="code" offset="0x38a000">W_TK_MI.PCM</rom>
+			<rom type="code" offset="0x392000">W_TK_RE.PCM</rom>
+			<rom type="code" offset="0x39b000">W_TK_TK.PCM</rom>
+			<rom type="code" offset="0x3a0000">CHIZURU.PCL</rom>
+			<rom type="code" offset="0x3ac000">ELZA.PCL</rom>
+			<rom type="code" offset="0x3b9000">EMILY.PCL</rom>
+			<rom type="code" offset="0x3c1000">GOLD.PCL</rom>
+			<rom type="code" offset="0x3ca000">KIRIKO.PCL</rom>
+			<rom type="code" offset="0x3d2000">MAI.PCL</rom>
+			<rom type="code" offset="0x3dc000">MIYUKI.PCL</rom>
+			<rom type="code" offset="0x3e1000">REIKA.PCL</rom>
+			<rom type="code" offset="0x3eb000">ROUND.PCL</rom>
+			<rom type="code" offset="0x3f0000">RYUHOU.PCL</rom>
+			<rom type="code" offset="0x3fc000">TAKEGAMI.PCL</rom>
+			<rom type="code" offset="0x40c000">SE.PCL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">TITLE.ZMD</title>
-			<title code="0x02">INTRO.ZMD</title>
+			<title code="0x01">タイトル</title>
+			<title code="0x02">対戦</title>
 			<title code="0x03">鷹森ちづる</title>
 			<title code="0x0a">神戸麗華</title>
 			<title code="0x07">光明寺キリコ</title>
@@ -953,7 +1127,238 @@
 			<title code="0x09">松田美由紀</title>
 			<title code="0x06">ストレンジゴールド</title>
 			<title code="0x0c">グレート武神</title>
-			<title code="0x0d">ENDING.ZMD</title>
+			<title code="0x0d">エンディング</title>
+			<title code="0x19f">CHIZURU.PCL #0</title>
+			<title code="0x1a0">CHIZURU.PCL #1</title>
+			<title code="0x1a1">CHIZURU.PCL #2</title>
+			<title code="0x1a2">CHIZURU.PCL #3</title>
+			<title code="0x1a3">CHIZURU.PCL #4</title>
+			<title code="0x1a4">CHIZURU.PCL #5</title>
+			<title code="0x101">CH_CON_0.PCM</title>
+			<title code="0x102">CH_CON_1.PCM</title>
+			<title code="0x103">CH_END_0.PCM</title>
+			<title code="0x104">CH_END_1.PCM</title>
+			<title code="0x105">CH_END_2.PCM</title>
+			<title code="0x163">W_CH_CH.PCM</title>
+			<title code="0x164">W_CH_EL.PCM</title>
+			<title code="0x165">W_CH_GO.PCM</title>
+			<title code="0x166">W_CH_KI.PCM</title>
+			<title code="0x167">W_CH_MI.PCM</title>
+			<title code="0x168">W_CH_RE.PCM</title>
+			<title code="0x169">W_CH_TK.PCM</title>
+			<title code="0x11d">L_CH_CH.PCM</title>
+			<title code="0x11e">L_CH_EL.PCM</title>
+			<title code="0x11f">L_CH_GO.PCM</title>
+			<title code="0x120">L_CH_KI.PCM</title>
+			<title code="0x121">L_CH_MI.PCM</title>
+			<title code="0x122">L_CH_RE.PCM</title>
+			<title code="0x123">L_CH_TK.PCM</title>
+			<title code="0x106">C_CH_N.PCM</title>
+			<title code="0x107">C_CH_Y.PCM</title>
+			<title code="0x1a5">ELZA.PCL #0</title>
+			<title code="0x1a6">ELZA.PCL #1</title>
+			<title code="0x1a7">ELZA.PCL #2</title>
+			<title code="0x1a8">ELZA.PCL #3</title>
+			<title code="0x1a9">ELZA.PCL #4</title>
+			<title code="0x1aa">ELZA.PCL #5</title>
+			<title code="0x1ab">ELZA.PCL #6</title>
+			<title code="0x1ac">ELZA.PCL #7</title>
+			<title code="0x1ad">ELZA.PCL #8</title>
+			<title code="0x110">EL_CON_0.PCM</title>
+			<title code="0x111">EL_CON_1.PCM</title>
+			<title code="0x112">EL_END_0.PCM</title>
+			<title code="0x113">EL_END_1.PCM</title>
+			<title code="0x114">EL_END_2.PCM</title>
+			<title code="0x16a">W_EL_CH.PCM</title>
+			<title code="0x16b">W_EL_EL.PCM</title>
+			<title code="0x16c">W_EL_GO.PCM</title>
+			<title code="0x16d">W_EL_KI.PCM</title>
+			<title code="0x16e">W_EL_MI.PCM</title>
+			<title code="0x16f">W_EL_RE.PCM</title>
+			<title code="0x170">W_EL_TK.PCM</title>
+			<title code="0x124">L_EL_CH.PCM</title>
+			<title code="0x125">L_EL_EL.PCM</title>
+			<title code="0x126">L_EL_GO.PCM</title>
+			<title code="0x127">L_EL_KI.PCM</title>
+			<title code="0x128">L_EL_MI.PCM</title>
+			<title code="0x129">L_EL_RE.PCM</title>
+			<title code="0x12a">L_EL_TK.PCM</title>
+			<title code="0x108">C_EL_N.PCM</title>
+			<title code="0x109">C_EL_Y.PCM</title>
+			<title code="0x1ae">EMILY.PCL #0</title>
+			<title code="0x1af">EMILY.PCL #1</title>
+			<title code="0x1b0">EMILY.PCL #2</title>
+			<title code="0x1b1">EMILY.PCL #3</title>
+			<title code="0x1b2">EMILY.PCL #4</title>
+			<title code="0x115">EM_CONG.PCM</title>
+			<title code="0x116">EM_END_0.PCM</title>
+			<title code="0x117">EM_END_1.PCM</title>
+			<title code="0x171">W_EM_0.PCM</title>
+			<title code="0x172">W_EM_1.PCM</title>
+			<title code="0x173">W_EM_2.PCM</title>
+			<title code="0x174">W_EM_3.PCM</title>
+			<title code="0x12b">L_EM_0.PCM</title>
+			<title code="0x1b3">GOLD.PCL #0</title>
+			<title code="0x1b4">GOLD.PCL #1</title>
+			<title code="0x1b5">GOLD.PCL #2</title>
+			<title code="0x1b6">GOLD.PCL #3</title>
+			<title code="0x175">W_GO_CH.PCM</title>
+			<title code="0x176">W_GO_EL.PCM</title>
+			<title code="0x177">W_GO_GO.PCM</title>
+			<title code="0x178">W_GO_KI.PCM</title>
+			<title code="0x179">W_GO_MI.PCM</title>
+			<title code="0x17a">W_GO_RE.PCM</title>
+			<title code="0x17b">W_GO_TK.PCM</title>
+			<title code="0x12c">L_GO_CH.PCM</title>
+			<title code="0x12d">L_GO_EL.PCM</title>
+			<title code="0x12e">L_GO_GO.PCM</title>
+			<title code="0x12f">L_GO_KI.PCM</title>
+			<title code="0x130">L_GO_MI.PCM</title>
+			<title code="0x131">L_GO_RE.PCM</title>
+			<title code="0x132">L_GO_TK.PCM</title>
+			<title code="0x1b7">KIRIKO.PCL #0</title>
+			<title code="0x1b8">KIRIKO.PCL #1</title>
+			<title code="0x1b9">KIRIKO.PCL #2</title>
+			<title code="0x1ba">KIRIKO.PCL #3</title>
+			<title code="0x1bb">KIRIKO.PCL #4</title>
+			<title code="0x118">KI_CON_0.PCM</title>
+			<title code="0x119">KI_CON_1.PCM</title>
+			<title code="0x11a">KI_END_0.PCM</title>
+			<title code="0x11b">KI_END_1.PCM</title>
+			<title code="0x11c">KI_END_2.PCM</title>
+			<title code="0x17c">W_KI_CH.PCM</title>
+			<title code="0x17d">W_KI_EL.PCM</title>
+			<title code="0x17e">W_KI_GO.PCM</title>
+			<title code="0x17f">W_KI_KI.PCM</title>
+			<title code="0x180">W_KI_MI.PCM</title>
+			<title code="0x181">W_KI_RE.PCM</title>
+			<title code="0x182">W_KI_TK.PCM</title>
+			<title code="0x133">L_KI_CH.PCM</title>
+			<title code="0x134">L_KI_EL.PCM</title>
+			<title code="0x135">L_KI_GO.PCM</title>
+			<title code="0x136">L_KI_KI.PCM</title>
+			<title code="0x137">L_KI_MI.PCM</title>
+			<title code="0x138">L_KI_RE.PCM</title>
+			<title code="0x139">L_KI_TK.PCM</title>
+			<title code="0x10a">C_KI_N.PCM</title>
+			<title code="0x10b">C_KI_Y.PCM</title>
+			<title code="0x1bc">MAI.PCL #0</title>
+			<title code="0x1bd">MAI.PCL #1</title>
+			<title code="0x1be">MAI.PCL #2</title>
+			<title code="0x1bf">MAI.PCL #3</title>
+			<title code="0x1c0">MAI.PCL #4</title>
+			<title code="0x1c1">MAI.PCL #5</title>
+			<title code="0x153">MI_CON_0.PCM</title>
+			<title code="0x154">MI_CON_1.PCM</title>
+			<title code="0x155">MI_END_0.PCM</title>
+			<title code="0x156">MI_END_1.PCM</title>
+			<title code="0x157">MI_END_2.PCM</title>
+			<title code="0x183">W_MI_CH.PCM</title>
+			<title code="0x184">W_MI_EL.PCM</title>
+			<title code="0x185">W_MI_GO.PCM</title>
+			<title code="0x186">W_MI_KI.PCM</title>
+			<title code="0x187">W_MI_MI.PCM</title>
+			<title code="0x188">W_MI_RE.PCM</title>
+			<title code="0x189">W_MI_TK.PCM</title>
+			<title code="0x13a">L_MI_CH.PCM</title>
+			<title code="0x13b">L_MI_EL.PCM</title>
+			<title code="0x13c">L_MI_GO.PCM</title>
+			<title code="0x13d">L_MI_KI.PCM</title>
+			<title code="0x13e">L_MI_MI.PCM</title>
+			<title code="0x13f">L_MI_RE.PCM</title>
+			<title code="0x140">L_MI_TK.PCM</title>
+			<title code="0x10c">C_MI_N.PCM</title>
+			<title code="0x10d">C_MI_Y.PCM</title>
+			<title code="0x1c2">MIYUKI.PCL #0</title>
+			<title code="0x1c3">MIYUKI.PCL #1</title>
+			<title code="0x1c4">MIYUKI.PCL #2</title>
+			<title code="0x158">MY_CONG.PCM</title>
+			<title code="0x159">MY_END_0.PCM</title>
+			<title code="0x15a">MY_END_1.PCM</title>
+			<title code="0x15b">MY_END_2.PCM</title>
+			<title code="0x18a">W_MY_0.PCM</title>
+			<title code="0x18b">W_MY_1.PCM</title>
+			<title code="0x18c">W_MY_2.PCM</title>
+			<title code="0x18d">W_MY_3.PCM</title>
+			<title code="0x141">L_MY_0.PCM</title>
+			<title code="0x1c5">REIKA.PCL #0</title>
+			<title code="0x1c6">REIKA.PCL #1</title>
+			<title code="0x1c7">REIKA.PCL #2</title>
+			<title code="0x1c8">REIKA.PCL #3</title>
+			<title code="0x1c9">REIKA.PCL #4</title>
+			<title code="0x1ca">REIKA.PCL #5</title>
+			<title code="0x15c">RE_CON_0.PCM</title>
+			<title code="0x15d">RE_CON_1.PCM</title>
+			<title code="0x15e">RE_END_0.PCM</title>
+			<title code="0x15f">RE_END_1.PCM</title>
+			<title code="0x160">RE_END_2.PCM</title>
+			<title code="0x18e">W_RE_CH.PCM</title>
+			<title code="0x18f">W_RE_EL.PCM</title>
+			<title code="0x190">W_RE_GO.PCM</title>
+			<title code="0x191">W_RE_KI.PCM</title>
+			<title code="0x192">W_RE_MI.PCM</title>
+			<title code="0x193">W_RE_RE.PCM</title>
+			<title code="0x194">W_RE_TK.PCM</title>
+			<title code="0x142">L_RE_CH.PCM</title>
+			<title code="0x143">L_RE_EL.PCM</title>
+			<title code="0x144">L_RE_GO.PCM</title>
+			<title code="0x145">L_RE_KI.PCM</title>
+			<title code="0x146">L_RE_MI.PCM</title>
+			<title code="0x147">L_RE_RE.PCM</title>
+			<title code="0x148">L_RE_TK.PCM</title>
+			<title code="0x10e">C_RE_N.PCM</title>
+			<title code="0x10f">C_RE_Y.PCM</title>
+			<title code="0x1d0">RYUHOU.PCL #0</title>
+			<title code="0x1d1">RYUHOU.PCL #1</title>
+			<title code="0x1d2">RYUHOU.PCL #2</title>
+			<title code="0x1d3">RYUHOU.PCL #3</title>
+			<title code="0x1d4">RYUHOU.PCL #4</title>
+			<title code="0x1d5">RYUHOU.PCL #5</title>
+			<title code="0x1d6">RYUHOU.PCL #6</title>
+			<title code="0x1d7">RYUHOU.PCL #7</title>
+			<title code="0x1d8">RYUHOU.PCL #8</title>
+			<title code="0x161">RY_CONG.PCM</title>
+			<title code="0x162">RY_END_0.PCM</title>
+			<title code="0x195">W_RY_0.PCM</title>
+			<title code="0x196">W_RY_1.PCM</title>
+			<title code="0x197">W_RY_2.PCM</title>
+			<title code="0x149">L_RY_0.PCM</title>
+			<title code="0x14a">L_RY_1.PCM</title>
+			<title code="0x14b">L_RY_2.PCM</title>
+			<title code="0x1d9">TAKEGAMI.PCL #0</title>
+			<title code="0x1da">TAKEGAMI.PCL #1</title>
+			<title code="0x1db">TAKEGAMI.PCL #2</title>
+			<title code="0x1dc">TAKEGAMI.PCL #3</title>
+			<title code="0x1dd">TAKEGAMI.PCL #4</title>
+			<title code="0x1de">TAKEGAMI.PCL #5</title>
+			<title code="0x198">W_TK_CH.PCM</title>
+			<title code="0x199">W_TK_EL.PCM</title>
+			<title code="0x19a">W_TK_GO.PCM</title>
+			<title code="0x19b">W_TK_KI.PCM</title>
+			<title code="0x19c">W_TK_MI.PCM</title>
+			<title code="0x19d">W_TK_RE.PCM</title>
+			<title code="0x19e">W_TK_TK.PCM</title>
+			<title code="0x14c">L_TK_CH.PCM</title>
+			<title code="0x14d">L_TK_EL.PCM</title>
+			<title code="0x14e">L_TK_GO.PCM</title>
+			<title code="0x14f">L_TK_KI.PCM</title>
+			<title code="0x150">L_TK_MI.PCM</title>
+			<title code="0x151">L_TK_RE.PCM</title>
+			<title code="0x152">L_TK_TK.PCM</title>
+			<title code="0x1cb">ROUND.PCL #0</title>
+			<title code="0x1cc">ROUND.PCL #1</title>
+			<title code="0x1cd">ROUND.PCL #2</title>
+			<title code="0x1ce">ROUND.PCL #3</title>
+			<title code="0x1cf">ROUND.PCL #4</title>
+			<title code="0x1df">SE.PCL #0</title>
+			<title code="0x1e0">SE.PCL #1</title>
+			<title code="0x1e1">SE.PCL #2</title>
+			<title code="0x1e2">SE.PCL #3</title>
+			<title code="0x1e3">SE.PCL #4</title>
+			<title code="0x1e4">SE.PCL #5</title>
+			<title code="0x1e5">SE.PCL #6</title>
+			<title code="0x1e6">SE.PCL #7</title>
+			<title code="0x1e7">SE.PCL #8</title>
 		</titlelist>
 	</game>
 </gamelist>

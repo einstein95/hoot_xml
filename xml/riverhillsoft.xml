@@ -1130,14 +1130,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kigen: Kagayaki no Hasha (KIGEN ‹P‚«‚Ì”eŽÒ)v</name>
+		<name>[PC-9801] Kigen: Kagayaki no Hasha (KIGEN -‹P‚«‚Ì”eŽÒ-) (YM2203)</name>
 		<driver type="rashin">pc98</driver>
 		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
 			<option name="dataaddr" value="0x5500"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="datamax" value="0x52"/>
-			<option name="ssg_mix" value="-16"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="kigen">
 			<rom type="code" offset="0x0000">snddrv.bin</rom>

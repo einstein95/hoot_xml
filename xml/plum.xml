@@ -1082,39 +1082,42 @@
 		<name>[X68000] Wrestle Angels 2: Top Eventer (レッスルエンジェルス2 トップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Plum</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="wa268snd">
 			<rom type="code" offset="0x000000">wa268snd.bin</rom>
-			<rom type="code" offset="0x010000">wa201.ZMD</rom>
-			<rom type="code" offset="0x011000">wa202.ZMD</rom>
-			<rom type="code" offset="0x013000">wa203.ZMD</rom>
-			<rom type="code" offset="0x015000">wa204.ZMD</rom>
-			<rom type="code" offset="0x017000">wa205.ZMD</rom>
-			<rom type="code" offset="0x018000">wa206.ZMD</rom>
-			<rom type="code" offset="0x019000">wa207.ZMD</rom>
-			<rom type="code" offset="0x01a000">wa208.ZMD</rom>
-			<rom type="code" offset="0x01b000">wa209.ZMD</rom>
-			<rom type="code" offset="0x01c000">wa210.ZMD</rom>
-			<rom type="code" offset="0x01d000">wa211.ZMD</rom>
-			<rom type="code" offset="0x01e000">wa212.ZMD</rom>
-			<rom type="code" offset="0x020000">wa213.ZMD</rom>
-			<rom type="code" offset="0x021000">wa214.ZMD</rom>
-			<rom type="code" offset="0x022000">wa215.ZMD</rom>
-			<rom type="code" offset="0x023000">wa217.ZMD</rom>
-			<rom type="code" offset="0x024000">wa218.ZMD</rom>
-			<rom type="code" offset="0x026000">wa219.ZMD</rom>
-			<rom type="code" offset="0x027000">wa220.ZMD</rom>
-			<rom type="code" offset="0x028000">wa246.ZMD</rom>
-			<rom type="code" offset="0x02a000">wa250.ZMD</rom>
-			<rom type="code" offset="0x02b000">wa251.ZMD</rom>
-			<rom type="code" offset="0x02c000">wa252.ZMD</rom>
-			<rom type="code" offset="0x02d000">wa253.ZMD</rom>
-			<rom type="code" offset="0x02e000">wa258.ZMD</rom>
-			<rom type="code" offset="0x030000">wa259.ZMD</rom>
-			<rom type="code" offset="0x032000">wa260.ZMD</rom>
-			<rom type="code" offset="0x033000">wa261.ZMD</rom>
-			<rom type="code" offset="0x034000">wa270.ZMD</rom>
-			<rom type="code" offset="0x036000">wa271.ZMD</rom>
-			<rom type="x"    offset="0x040000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">wa201.ZMD</rom>
+			<rom type="code" offset="0x032000">wa202.ZMD</rom>
+			<rom type="code" offset="0x034000">wa203.ZMD</rom>
+			<rom type="code" offset="0x036000">wa204.ZMD</rom>
+			<rom type="code" offset="0x038000">wa205.ZMD</rom>
+			<rom type="code" offset="0x03a000">wa206.ZMD</rom>
+			<rom type="code" offset="0x03c000">wa207.ZMD</rom>
+			<rom type="code" offset="0x03e000">wa208.ZMD</rom>
+			<rom type="code" offset="0x040000">wa209.ZMD</rom>
+			<rom type="code" offset="0x042000">wa210.ZMD</rom>
+			<rom type="code" offset="0x044000">wa211.ZMD</rom>
+			<rom type="code" offset="0x046000">wa212.ZMD</rom>
+			<rom type="code" offset="0x048000">wa213.ZMD</rom>
+			<rom type="code" offset="0x04a000">wa214.ZMD</rom>
+			<rom type="code" offset="0x04c000">wa215.ZMD</rom>
+			<rom type="code" offset="0x04e000">wa217.ZMD</rom>
+			<rom type="code" offset="0x050000">wa218.ZMD</rom>
+			<rom type="code" offset="0x052000">wa219.ZMD</rom>
+			<rom type="code" offset="0x054000">wa220.ZMD</rom>
+			<rom type="code" offset="0x056000">wa246.ZMD</rom>
+			<rom type="code" offset="0x058000">wa250.ZMD</rom>
+			<rom type="code" offset="0x05a000">wa251.ZMD</rom>
+			<rom type="code" offset="0x05c000">wa252.ZMD</rom>
+			<rom type="code" offset="0x05e000">wa253.ZMD</rom>
+			<rom type="code" offset="0x060000">wa258.ZMD</rom>
+			<rom type="code" offset="0x062000">wa259.ZMD</rom>
+			<rom type="code" offset="0x064000">wa260.ZMD</rom>
+			<rom type="code" offset="0x066000">wa261.ZMD</rom>
+			<rom type="code" offset="0x068000">wa270.ZMD</rom>
+			<rom type="code" offset="0x06a000">wa271.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x02">wa202.ZMD</title>
@@ -1152,31 +1155,34 @@
 		<name>[X68000] Wrestle Angels 3 (レッスルエンジェルス3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Plum</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="wa368snd">
-			<rom type="code" offset="0x000000">wa368snd.bin</rom>
-			<rom type="code" offset="0x010000">WA301.ZMD</rom>
-			<rom type="code" offset="0x011000">WA302.ZMD</rom>
-			<rom type="code" offset="0x012000">WA303.ZMD</rom>
-			<rom type="code" offset="0x013000">WA305.ZMD</rom>
-			<rom type="code" offset="0x014000">WA307.ZMD</rom>
-			<rom type="code" offset="0x015000">WA308.ZMD</rom>
-			<rom type="code" offset="0x016000">WA309.ZMD</rom>
-			<rom type="code" offset="0x017000">WA310.ZMD</rom>
-			<rom type="code" offset="0x018000">WA312.ZMD</rom>
-			<rom type="code" offset="0x019000">WA313.ZMD</rom>
-			<rom type="code" offset="0x01a000">WA314.ZMD</rom>
-			<rom type="code" offset="0x01b000">WA315.ZMD</rom>
-			<rom type="code" offset="0x01c000">WA316.ZMD</rom>
-			<rom type="code" offset="0x01d000">WA318.ZMD</rom>
-			<rom type="code" offset="0x01e000">WA319.ZMD</rom>
-			<rom type="code" offset="0x01f000">WA320.ZMD</rom>
-			<rom type="code" offset="0x020000">WA321.ZMD</rom>
-			<rom type="code" offset="0x021000">WA324.ZMD</rom>
-			<rom type="code" offset="0x022000">WA326.ZMD</rom>
-			<rom type="code" offset="0x023000">WA327.ZMD</rom>
-			<rom type="code" offset="0x024000">WA328.ZMD</rom>
-			<rom type="code" offset="0x025000">WA329.ZMD</rom>
-			<rom type="x"    offset="0x030000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">wa268snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">WA301.ZMD</rom>
+			<rom type="code" offset="0x032000">WA302.ZMD</rom>
+			<rom type="code" offset="0x034000">WA303.ZMD</rom>
+			<rom type="code" offset="0x036000">WA305.ZMD</rom>
+			<rom type="code" offset="0x038000">WA307.ZMD</rom>
+			<rom type="code" offset="0x03a000">WA308.ZMD</rom>
+			<rom type="code" offset="0x03c000">WA309.ZMD</rom>
+			<rom type="code" offset="0x03e000">WA310.ZMD</rom>
+			<rom type="code" offset="0x040000">WA312.ZMD</rom>
+			<rom type="code" offset="0x042000">WA313.ZMD</rom>
+			<rom type="code" offset="0x044000">WA314.ZMD</rom>
+			<rom type="code" offset="0x046000">WA315.ZMD</rom>
+			<rom type="code" offset="0x048000">WA316.ZMD</rom>
+			<rom type="code" offset="0x04a000">WA318.ZMD</rom>
+			<rom type="code" offset="0x04c000">WA319.ZMD</rom>
+			<rom type="code" offset="0x04e000">WA320.ZMD</rom>
+			<rom type="code" offset="0x050000">WA321.ZMD</rom>
+			<rom type="code" offset="0x052000">WA324.ZMD</rom>
+			<rom type="code" offset="0x054000">WA326.ZMD</rom>
+			<rom type="code" offset="0x056000">WA327.ZMD</rom>
+			<rom type="code" offset="0x058000">WA328.ZMD</rom>
+			<rom type="code" offset="0x05a000">WA329.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">WA301.ZMD</title>
@@ -1207,65 +1213,68 @@
 		<name>[X68000]  Wrestle Angels Special: Mouhitori no Top Eventer (レッスルエンジェルス スペシャル もうひとりのトップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Plum</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="wasp68snd">
-			<rom type="code" offset="0x000000">wasp68snd.bin</rom>
-			<rom type="code" offset="0x010000">M103.ZMD</rom>
-			<rom type="code" offset="0x011000">M106.ZMD</rom>
-			<rom type="code" offset="0x013000">M108.ZMD</rom>
-			<rom type="code" offset="0x014000">M112.ZMD</rom>
-			<rom type="code" offset="0x015000">M118.ZMD</rom>
-			<rom type="code" offset="0x016000">M119.ZMD</rom>
-			<rom type="code" offset="0x017000">M128.ZMD</rom>
-			<rom type="code" offset="0x01a000">M129.ZMD</rom>
-			<rom type="code" offset="0x01b000">M135.ZMD</rom>
-			<rom type="code" offset="0x01d000">M139.ZMD</rom>
-			<rom type="code" offset="0x01e000">M142.ZMD</rom>
-			<rom type="code" offset="0x01f000">M201.ZMD</rom>
-			<rom type="code" offset="0x020000">M204.ZMD</rom>
-			<rom type="code" offset="0x021000">M205.ZMD</rom>
-			<rom type="code" offset="0x022000">M206.ZMD</rom>
-			<rom type="code" offset="0x023000">M207.ZMD</rom>
-			<rom type="code" offset="0x024000">M210.ZMD</rom>
-			<rom type="code" offset="0x025000">M214.ZMD</rom>
-			<rom type="code" offset="0x026000">M216.ZMD</rom>
-			<rom type="code" offset="0x027000">M217.ZMD</rom>
-			<rom type="code" offset="0x028000">M218.ZMD</rom>
-			<rom type="code" offset="0x02a000">M219.ZMD</rom>
-			<rom type="code" offset="0x02b000">M220.ZMD</rom>
-			<rom type="code" offset="0x02c000">M246.ZMD</rom>
-			<rom type="code" offset="0x02e000">M251.ZMD</rom>
-			<rom type="code" offset="0x02f000">M252.ZMD</rom>
-			<rom type="code" offset="0x030000">M253.ZMD</rom>
-			<rom type="code" offset="0x031000">M256.ZMD</rom>
-			<rom type="code" offset="0x032000">M259.ZMD</rom>
-			<rom type="code" offset="0x034000">M260.ZMD</rom>
-			<rom type="code" offset="0x035000">M261.ZMD</rom>
-			<rom type="code" offset="0x037000">M270.ZMD</rom>
-			<rom type="code" offset="0x039000">M301.ZMD</rom>
-			<rom type="code" offset="0x03a000">M302.ZMD</rom>
-			<rom type="code" offset="0x03b000">M303.ZMD</rom>
-			<rom type="code" offset="0x03c000">M305.ZMD</rom>
-			<rom type="code" offset="0x03d000">M306.ZMD</rom>
-			<rom type="code" offset="0x03e000">M307.ZMD</rom>
-			<rom type="code" offset="0x03f000">M308.ZMD</rom>
-			<rom type="code" offset="0x040000">M309.ZMD</rom>
-			<rom type="code" offset="0x041000">M310.ZMD</rom>
-			<rom type="code" offset="0x042000">M313.ZMD</rom>
-			<rom type="code" offset="0x043000">M314.ZMD</rom>
-			<rom type="code" offset="0x044000">M315.ZMD</rom>
-			<rom type="code" offset="0x045000">M316.ZMD</rom>
-			<rom type="code" offset="0x046000">M317.ZMD</rom>
-			<rom type="code" offset="0x047000">M318.ZMD</rom>
-			<rom type="code" offset="0x048000">M320.ZMD</rom>
-			<rom type="code" offset="0x049000">M321.ZMD</rom>
-			<rom type="code" offset="0x04a000">M322.ZMD</rom>
-			<rom type="code" offset="0x04b000">M323.ZMD</rom>
-			<rom type="code" offset="0x04c000">M324.ZMD</rom>
-			<rom type="code" offset="0x04d000">M325.ZMD</rom>
-			<rom type="code" offset="0x04e000">M326.ZMD</rom>
-			<rom type="code" offset="0x04f000">M329.ZMD</rom>
-			<rom type="code" offset="0x060000">WAsp.ZPD</rom>
-			<rom type="x"    offset="0x070000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">wa268snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">M103.ZMD</rom>
+			<rom type="code" offset="0x032000">M106.ZMD</rom>
+			<rom type="code" offset="0x034000">M108.ZMD</rom>
+			<rom type="code" offset="0x036000">M112.ZMD</rom>
+			<rom type="code" offset="0x038000">M118.ZMD</rom>
+			<rom type="code" offset="0x03a000">M119.ZMD</rom>
+			<rom type="code" offset="0x03c000">M128.ZMD</rom>
+			<rom type="code" offset="0x040000">M129.ZMD</rom>
+			<rom type="code" offset="0x042000">M135.ZMD</rom>
+			<rom type="code" offset="0x044000">M139.ZMD</rom>
+			<rom type="code" offset="0x046000">M142.ZMD</rom>
+			<rom type="code" offset="0x048000">M201.ZMD</rom>
+			<rom type="code" offset="0x04a000">M204.ZMD</rom>
+			<rom type="code" offset="0x04c000">M205.ZMD</rom>
+			<rom type="code" offset="0x04e000">M206.ZMD</rom>
+			<rom type="code" offset="0x050000">M207.ZMD</rom>
+			<rom type="code" offset="0x052000">M210.ZMD</rom>
+			<rom type="code" offset="0x054000">M214.ZMD</rom>
+			<rom type="code" offset="0x056000">M216.ZMD</rom>
+			<rom type="code" offset="0x058000">M217.ZMD</rom>
+			<rom type="code" offset="0x05a000">M218.ZMD</rom>
+			<rom type="code" offset="0x05c000">M219.ZMD</rom>
+			<rom type="code" offset="0x05e000">M220.ZMD</rom>
+			<rom type="code" offset="0x060000">M246.ZMD</rom>
+			<rom type="code" offset="0x062000">M251.ZMD</rom>
+			<rom type="code" offset="0x064000">M252.ZMD</rom>
+			<rom type="code" offset="0x066000">M253.ZMD</rom>
+			<rom type="code" offset="0x068000">M256.ZMD</rom>
+			<rom type="code" offset="0x06a000">M259.ZMD</rom>
+			<rom type="code" offset="0x06c000">M260.ZMD</rom>
+			<rom type="code" offset="0x06e000">M261.ZMD</rom>
+			<rom type="code" offset="0x070000">M270.ZMD</rom>
+			<rom type="code" offset="0x072000">M301.ZMD</rom>
+			<rom type="code" offset="0x074000">M302.ZMD</rom>
+			<rom type="code" offset="0x076000">M303.ZMD</rom>
+			<rom type="code" offset="0x078000">M305.ZMD</rom>
+			<rom type="code" offset="0x07a000">M306.ZMD</rom>
+			<rom type="code" offset="0x07c000">M307.ZMD</rom>
+			<rom type="code" offset="0x07e000">M308.ZMD</rom>
+			<rom type="code" offset="0x080000">M309.ZMD</rom>
+			<rom type="code" offset="0x082000">M310.ZMD</rom>
+			<rom type="code" offset="0x084000">M313.ZMD</rom>
+			<rom type="code" offset="0x086000">M314.ZMD</rom>
+			<rom type="code" offset="0x088000">M315.ZMD</rom>
+			<rom type="code" offset="0x08a000">M316.ZMD</rom>
+			<rom type="code" offset="0x08c000">M317.ZMD</rom>
+			<rom type="code" offset="0x08e000">M318.ZMD</rom>
+			<rom type="code" offset="0x090000">M320.ZMD</rom>
+			<rom type="code" offset="0x092000">M321.ZMD</rom>
+			<rom type="code" offset="0x094000">M322.ZMD</rom>
+			<rom type="code" offset="0x096000">M323.ZMD</rom>
+			<rom type="code" offset="0x098000">M324.ZMD</rom>
+			<rom type="code" offset="0x09a000">M325.ZMD</rom>
+			<rom type="code" offset="0x09c000">M326.ZMD</rom>
+			<rom type="code" offset="0x09e000">M329.ZMD</rom>
+			<rom type="code" offset="0x0a0000">WAsp.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">M103.ZMD</title>
@@ -1275,54 +1284,54 @@
 			<title code="0x05">M118.ZMD</title>
 			<title code="0x06">M119.ZMD</title>
 			<title code="0x07">M128.ZMD</title>
-			<title code="0x08">M129.ZMD</title>
-			<title code="0x09">M135.ZMD</title>
-			<title code="0x0a">M139.ZMD</title>
-			<title code="0x0b">M142.ZMD</title>
-			<title code="0x0c">M201.ZMD</title>
-			<title code="0x0d">M204.ZMD</title>
-			<title code="0x0e">M205.ZMD</title>
-			<title code="0x0f">M206.ZMD</title>
-			<title code="0x10">M207.ZMD</title>
-			<title code="0x11">M210.ZMD</title>
-			<title code="0x12">M214.ZMD</title>
-			<title code="0x13">M216.ZMD</title>
-			<title code="0x14">M217.ZMD</title>
-			<title code="0x15">M218.ZMD</title>
-			<title code="0x16">M219.ZMD</title>
-			<title code="0x17">M220.ZMD</title>
-			<title code="0x18">M246.ZMD</title>
-			<title code="0x19">M251.ZMD</title>
-			<title code="0x1a">M252.ZMD</title>
-			<title code="0x1b">M253.ZMD</title>
-			<title code="0x1c">M256.ZMD</title>
-			<title code="0x1d">M259.ZMD</title>
-			<title code="0x1e">M260.ZMD</title>
-			<title code="0x1f">M261.ZMD</title>
-			<title code="0x20">M270.ZMD</title>
-			<title code="0x21">M301.ZMD</title>
-			<title code="0x22">M302.ZMD</title>
-			<title code="0x23">M303.ZMD</title>
-			<title code="0x24">M305.ZMD</title>
-			<title code="0x25">M306.ZMD</title>
-			<title code="0x26">M307.ZMD</title>
-			<title code="0x27">M308.ZMD</title>
-			<title code="0x28">M309.ZMD</title>
-			<title code="0x29">M310.ZMD</title>
-			<title code="0x2a">M313.ZMD</title>
-			<title code="0x2b">M314.ZMD</title>
-			<title code="0x2c">M315.ZMD</title>
-			<title code="0x2d">M316.ZMD</title>
-			<title code="0x2e">M317.ZMD</title>
-			<title code="0x2f">M318.ZMD</title>
-			<title code="0x30">M320.ZMD</title>
-			<title code="0x31">M321.ZMD</title>
-			<title code="0x32">M322.ZMD</title>
-			<title code="0x33">M323.ZMD</title>
-			<title code="0x34">M324.ZMD</title>
-			<title code="0x35">M325.ZMD</title>
-			<title code="0x36">M326.ZMD</title>
-			<title code="0x37">M329.ZMD</title>
+			<title code="0x09">M129.ZMD</title>
+			<title code="0x0a">M135.ZMD</title>
+			<title code="0x0b">M139.ZMD</title>
+			<title code="0x0c">M142.ZMD</title>
+			<title code="0x0d">M201.ZMD</title>
+			<title code="0x0e">M204.ZMD</title>
+			<title code="0x0f">M205.ZMD</title>
+			<title code="0x10">M206.ZMD</title>
+			<title code="0x11">M207.ZMD</title>
+			<title code="0x12">M210.ZMD</title>
+			<title code="0x13">M214.ZMD</title>
+			<title code="0x14">M216.ZMD</title>
+			<title code="0x15">M217.ZMD</title>
+			<title code="0x16">M218.ZMD</title>
+			<title code="0x17">M219.ZMD</title>
+			<title code="0x18">M220.ZMD</title>
+			<title code="0x19">M246.ZMD</title>
+			<title code="0x1a">M251.ZMD</title>
+			<title code="0x1b">M252.ZMD</title>
+			<title code="0x1c">M253.ZMD</title>
+			<title code="0x1d">M256.ZMD</title>
+			<title code="0x1e">M259.ZMD</title>
+			<title code="0x1f">M260.ZMD</title>
+			<title code="0x20">M261.ZMD</title>
+			<title code="0x21">M270.ZMD</title>
+			<title code="0x22">M301.ZMD</title>
+			<title code="0x23">M302.ZMD</title>
+			<title code="0x24">M303.ZMD</title>
+			<title code="0x25">M305.ZMD</title>
+			<title code="0x26">M306.ZMD</title>
+			<title code="0x27">M307.ZMD</title>
+			<title code="0x28">M308.ZMD</title>
+			<title code="0x29">M309.ZMD</title>
+			<title code="0x2a">M310.ZMD</title>
+			<title code="0x2b">M313.ZMD</title>
+			<title code="0x2c">M314.ZMD</title>
+			<title code="0x2d">M315.ZMD</title>
+			<title code="0x2e">M316.ZMD</title>
+			<title code="0x2f">M317.ZMD</title>
+			<title code="0x30">M318.ZMD</title>
+			<title code="0x31">M320.ZMD</title>
+			<title code="0x32">M321.ZMD</title>
+			<title code="0x33">M322.ZMD</title>
+			<title code="0x34">M323.ZMD</title>
+			<title code="0x35">M324.ZMD</title>
+			<title code="0x36">M325.ZMD</title>
+			<title code="0x37">M326.ZMD</title>
+			<title code="0x38">M329.ZMD</title>
 		</titlelist>
 	</game>
 	<game>

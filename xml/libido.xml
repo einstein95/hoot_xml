@@ -34,7 +34,7 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //LIBIDO -->
+	<!-- //Libido -->
 	<game>
 		<name>[PC-9801] Libido7 (GS)</name>
 		<driver type="beep">pc98dos</driver>
@@ -484,36 +484,87 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] Libido7 (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Libido</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="libido768snd">
+			<rom type="code" offset="0x000000">lb768snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x060000">LB19.ZMD</rom>
+			<rom type="code" offset="0x063000">LB00.ZMD</rom>
+			<rom type="code" offset="0x064000">LB01.ZMD</rom>
+			<rom type="code" offset="0x066000">LB04.ZMD</rom>
+			<rom type="code" offset="0x067000">LB06.ZMD</rom>
+			<rom type="code" offset="0x069000">LB07.ZMD</rom>
+			<rom type="code" offset="0x06b000">LB09.ZMD</rom>
+			<rom type="code" offset="0x06c000">LB10.ZMD</rom>
+			<rom type="code" offset="0x06e000">LB12.ZMD</rom>
+			<rom type="code" offset="0x06f000">LB13.ZMD</rom>
+			<rom type="code" offset="0x070000">LB14.ZMD</rom>
+			<rom type="code" offset="0x071000">LB15.ZMD</rom>
+			<rom type="code" offset="0x072000">LB16.ZMD</rom>
+			<rom type="code" offset="0x073000">LB17.ZMD</rom>
+			<rom type="code" offset="0x075000">LB18.ZMD</rom>
+			<rom type="code" offset="0x076000">LB21.ZMD</rom>
+			<rom type="code" offset="0x077000">LB24.ZMD</rom>
+			<rom type="code" offset="0x080000">LB.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">音色定義&amp;リビドーロゴ</title>
+			<title code="0x02">LB00.ZMD</title>
+			<title code="0x03">LB01.ZMD</title>
+			<title code="0x04">LB04.ZMD</title>
+			<title code="0x05">LB06.ZMD</title>
+			<title code="0x06">LB07.ZMD</title>
+			<title code="0x07">LB09.ZMD</title>
+			<title code="0x08">LB10.ZMD</title>
+			<title code="0x09">LB12.ZMD</title>
+			<title code="0x0A">LB13.ZMD</title>
+			<title code="0x0B">LB14.ZMD</title>
+			<title code="0x0C">LB15.ZMD</title>
+			<title code="0x0D">LB16.ZMD</title>
+			<title code="0x0E">LB17.ZMD</title>
+			<title code="0x0F">LB18.ZMD</title>
+			<title code="0x10">LB21.ZMD</title>
+			<title code="0x11">LB24.ZMD</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X68000] Libido7 (GM)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Libido</driveralias>
 		<options>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="8"/>
 		</options>
 		<romlist archive="libido768snd">
-			<rom type="code" offset="0x000000">lb768mid.bin</rom>
-			<rom type="code" offset="0x010000">GM/LB19.ZMD</rom>
-			<rom type="code" offset="0x013000">GM/LB00.ZMD</rom>
-			<rom type="code" offset="0x014000">GM/LB01.ZMD</rom>
-			<rom type="code" offset="0x016000">GM/LB04.ZMD</rom>
-			<rom type="code" offset="0x017000">GM/LB06.ZMD</rom>
-			<rom type="code" offset="0x019000">GM/LB07.ZMD</rom>
-			<rom type="code" offset="0x01b000">GM/LB09.ZMD</rom>
-			<rom type="code" offset="0x01c000">GM/LB10.ZMD</rom>
-			<rom type="code" offset="0x01e000">GM/LB12.ZMD</rom>
-			<rom type="code" offset="0x01f000">GM/LB13.ZMD</rom>
-			<rom type="code" offset="0x020000">GM/LB14.ZMD</rom>
-			<rom type="code" offset="0x021000">GM/LB15.ZMD</rom>
-			<rom type="code" offset="0x022000">GM/LB16.ZMD</rom>
-			<rom type="code" offset="0x023000">GM/LB17.ZMD</rom>
-			<rom type="code" offset="0x025000">GM/LB18.ZMD</rom>
-			<rom type="code" offset="0x026000">GM/LB21.ZMD</rom>
-			<rom type="code" offset="0x027000">GM/LB24.ZMD</rom>
-			<rom type="x" offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">lb768snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x060000">GM/LB19.ZMD</rom>
+			<rom type="code" offset="0x063000">GM/LB00.ZMD</rom>
+			<rom type="code" offset="0x064000">GM/LB01.ZMD</rom>
+			<rom type="code" offset="0x066000">GM/LB04.ZMD</rom>
+			<rom type="code" offset="0x067000">GM/LB06.ZMD</rom>
+			<rom type="code" offset="0x069000">GM/LB07.ZMD</rom>
+			<rom type="code" offset="0x06b000">GM/LB09.ZMD</rom>
+			<rom type="code" offset="0x06c000">GM/LB10.ZMD</rom>
+			<rom type="code" offset="0x06e000">GM/LB12.ZMD</rom>
+			<rom type="code" offset="0x06f000">GM/LB13.ZMD</rom>
+			<rom type="code" offset="0x070000">GM/LB14.ZMD</rom>
+			<rom type="code" offset="0x071000">GM/LB15.ZMD</rom>
+			<rom type="code" offset="0x072000">GM/LB16.ZMD</rom>
+			<rom type="code" offset="0x073000">GM/LB17.ZMD</rom>
+			<rom type="code" offset="0x075000">GM/LB18.ZMD</rom>
+			<rom type="code" offset="0x076000">GM/LB21.ZMD</rom>
+			<rom type="code" offset="0x077000">GM/LB24.ZMD</rom>
+			<rom type="code" offset="0x080000">LB.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">LB19.ZMD : No.19 リビドーロゴ</title>
+			<title code="0x01">リビドーロゴ</title>
 			<title code="0x02">LB00.ZMD</title>
 			<title code="0x03">LB01.ZMD</title>
 			<title code="0x04">LB04.ZMD</title>
@@ -537,78 +588,34 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Libido</driveralias>
 		<options>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
 		</options>
 		<romlist archive="libido768snd">
-			<rom type="code" offset="0x000000">lb768mid.bin</rom>
-			<rom type="code" offset="0x010000">GM/LB19.ZMD</rom>
-			<rom type="code" offset="0x013000">GM/LB00.ZMD</rom>
-			<rom type="code" offset="0x014000">GM/LB01.ZMD</rom>
-			<rom type="code" offset="0x016000">GM/LB04.ZMD</rom>
-			<rom type="code" offset="0x017000">GM/LB06.ZMD</rom>
-			<rom type="code" offset="0x019000">GM/LB07.ZMD</rom>
-			<rom type="code" offset="0x01b000">GM/LB09.ZMD</rom>
-			<rom type="code" offset="0x01c000">GM/LB10.ZMD</rom>
-			<rom type="code" offset="0x01e000">GM/LB12.ZMD</rom>
-			<rom type="code" offset="0x01f000">GM/LB13.ZMD</rom>
-			<rom type="code" offset="0x020000">GM/LB14.ZMD</rom>
-			<rom type="code" offset="0x021000">GM/LB15.ZMD</rom>
-			<rom type="code" offset="0x022000">GM/LB16.ZMD</rom>
-			<rom type="code" offset="0x023000">GM/LB17.ZMD</rom>
-			<rom type="code" offset="0x025000">GM/LB18.ZMD</rom>
-			<rom type="code" offset="0x026000">GM/LB21.ZMD</rom>
-			<rom type="code" offset="0x027000">GM/LB24.ZMD</rom>
-			<rom type="x" offset="0x080000">zmusic.x</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">LB19.ZMD : No.19 リビドーロゴ</title>
-			<title code="0x02">LB00.ZMD</title>
-			<title code="0x03">LB01.ZMD</title>
-			<title code="0x04">LB04.ZMD</title>
-			<title code="0x05">LB06.ZMD</title>
-			<title code="0x06">LB07.ZMD</title>
-			<title code="0x07">LB09.ZMD</title>
-			<title code="0x08">LB10.ZMD</title>
-			<title code="0x09">LB12.ZMD</title>
-			<title code="0x0A">LB13.ZMD</title>
-			<title code="0x0B">LB14.ZMD</title>
-			<title code="0x0C">LB15.ZMD</title>
-			<title code="0x0D">LB16.ZMD</title>
-			<title code="0x0E">LB17.ZMD</title>
-			<title code="0x0F">LB18.ZMD</title>
-			<title code="0x10">LB21.ZMD</title>
-			<title code="0x11">LB24.ZMD</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Libido7 (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Libido</driveralias>
-		<romlist archive="libido768snd">
 			<rom type="code" offset="0x000000">lb768snd.bin</rom>
-			<rom type="code" offset="0x010000">LB19.ZMD</rom>
-			<rom type="code" offset="0x013000">LB00.ZMD</rom>
-			<rom type="code" offset="0x014000">LB01.ZMD</rom>
-			<rom type="code" offset="0x016000">LB04.ZMD</rom>
-			<rom type="code" offset="0x017000">LB06.ZMD</rom>
-			<rom type="code" offset="0x019000">LB07.ZMD</rom>
-			<rom type="code" offset="0x01b000">LB09.ZMD</rom>
-			<rom type="code" offset="0x01c000">LB10.ZMD</rom>
-			<rom type="code" offset="0x01e000">LB12.ZMD</rom>
-			<rom type="code" offset="0x01f000">LB13.ZMD</rom>
-			<rom type="code" offset="0x020000">LB14.ZMD</rom>
-			<rom type="code" offset="0x021000">LB15.ZMD</rom>
-			<rom type="code" offset="0x022000">LB16.ZMD</rom>
-			<rom type="code" offset="0x023000">LB17.ZMD</rom>
-			<rom type="code" offset="0x025000">LB18.ZMD</rom>
-			<rom type="code" offset="0x026000">LB21.ZMD</rom>
-			<rom type="code" offset="0x027000">LB24.ZMD</rom>
-			<rom type="code" offset="0x029000">LB.ZPD</rom>
-			<rom type="x" offset="0x080000">zmusic.x</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x060000">GM/LB19.ZMD</rom>
+			<rom type="code" offset="0x063000">GM/LB00.ZMD</rom>
+			<rom type="code" offset="0x064000">GM/LB01.ZMD</rom>
+			<rom type="code" offset="0x066000">GM/LB04.ZMD</rom>
+			<rom type="code" offset="0x067000">GM/LB06.ZMD</rom>
+			<rom type="code" offset="0x069000">GM/LB07.ZMD</rom>
+			<rom type="code" offset="0x06b000">GM/LB09.ZMD</rom>
+			<rom type="code" offset="0x06c000">GM/LB10.ZMD</rom>
+			<rom type="code" offset="0x06e000">GM/LB12.ZMD</rom>
+			<rom type="code" offset="0x06f000">GM/LB13.ZMD</rom>
+			<rom type="code" offset="0x070000">GM/LB14.ZMD</rom>
+			<rom type="code" offset="0x071000">GM/LB15.ZMD</rom>
+			<rom type="code" offset="0x072000">GM/LB16.ZMD</rom>
+			<rom type="code" offset="0x073000">GM/LB17.ZMD</rom>
+			<rom type="code" offset="0x075000">GM/LB18.ZMD</rom>
+			<rom type="code" offset="0x076000">GM/LB21.ZMD</rom>
+			<rom type="code" offset="0x077000">GM/LB24.ZMD</rom>
+			<rom type="code" offset="0x080000">LB.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">LB19.ZMD : No.19 音色定義&amp;リビドーロゴ</title>
+			<title code="0x01">リビドーロゴ</title>
 			<title code="0x02">LB00.ZMD</title>
 			<title code="0x03">LB01.ZMD</title>
 			<title code="0x04">LB04.ZMD</title>

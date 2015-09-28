@@ -674,7 +674,7 @@
 			<rom type="data" offset="0xb400">OPMDAT.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000000">オープニング</title>
+			<title code="0x01000000">Opening (オープニング)</title>
 			<title code="0x01000008">主人公のテーマ</title>
 			<title code="0x01000001">メイン華北</title>
 			<title code="0x01000002">メイン華南</title>
@@ -701,7 +701,7 @@
 			<rom type="data" offset="0xb400">PSGDAT.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000000">オープニング</title>
+			<title code="0x01000000">Opening (オープニング)</title>
 			<title code="0x00000005">勝利</title>
 			<title code="0x00000006">敗退</title>
 			<title code="0x0100000a">死亡</title>
@@ -788,8 +788,8 @@
 			<rom type="data" offset="0x4000">MMLDATA.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">プレ・オープニング</title>
-			<title code="0x01000001">オープニング</title>
+			<title code="0x00000000">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x01000001">Opening (オープニング)</title>
 			<title code="0x01000002">初期設定</title>
 			<title code="0x0100000d">信長・メイン</title>
 			<title code="0x0100000e">信長・戦争</title>
@@ -797,7 +797,7 @@
 			<title code="0x00000007">敗退</title>
 			<title code="0x0100000b">エンディング死亡</title>
 			<title code="0x0100000c">後継者選択</title>
-			<title code="0x01000003">メイン</title>
+			<title code="0x01000003">Main (メイン)</title>
 			<title code="0x0100000f">その他のコマンド</title>
 			<title code="0x01000008">婚姻</title>
 			<title code="0x01000004">野戦</title>
@@ -7378,6 +7378,65 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">BGM #00</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Romance of the Three Kingdoms (三國志) </name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Koei</driveralias>
+		<options>
+			<option name="init_pc" value="0xa000"/>
+		</options>
+		<romlist archive="san1_msx">
+			<rom type="code" offset="0x0100">SANMAIN.COM</rom>
+			<rom type="code" offset="0xa000">patch</rom>
+			<rom type="code" offset="0xf000">MMLDATA.MX2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0100">Opening (オープニング)</title>
+			<title code="0x0101">メイン華北</title>
+			<title code="0x0102">メイン華南</title>
+			<title code="0x0103">戦争華北</title>
+			<title code="0x0104">戦争華南</title>
+			<title code="0x0005">勝利</title>
+			<title code="0x0006">敗退</title>
+			<title code="0x0107">王の娘のテーマ</title>
+			<title code="0x010a">死亡</title>
+			<title code="0x0108">主人公のテーマ</title>
+			<title code="0x0109">統一</title>
+			<title code="0x0200">SFX #00</title>
+			<title code="0x0201">SFX #01</title>
+			<title code="0x0202">SFX #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Nobunaga's Ambition: Zenkokuban (信長の野望 全国版) </name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Koei</driveralias>
+		<options>
+			<option name="init_pc" value="0xa000"/>
+		</options>
+		<romlist archive="nobuz2_msx">
+			<rom type="code" offset="0x0100">ODAMAIN.COM</rom>
+			<rom type="code" offset="0xa000">patch</rom>
+			<rom type="code" offset="0xf000">MMLDATA.MX2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0100">Opening (オープニング)</title>
+			<title code="0x0101">Main (メイン)</title>
+			<title code="0x0102">戦争</title>
+			<title code="0x0003">勝利</title>
+			<title code="0x0004">敗退</title>
+			<title code="0x0005">全国統一</title>
+			<title code="0x0006">死亡</title>
+			<title code="0x0007">SFX #07</title>
+			<title code="0x0008">SFX #08</title>
+			<title code="0x0009">SFX #09</title>
+			<title code="0x000a">SFX #0A</title>
+			<title code="0x000b">SFX #0B</title>
+			<title code="0x000c">SFX #0C</title>
+			<title code="0x000d">SFX #0D</title>
+			<title code="0x000e">SFX #0E</title>
 		</titlelist>
 	</game>
 </gamelist>

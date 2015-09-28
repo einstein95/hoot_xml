@@ -36,9 +36,133 @@
 <gamelist date="2014/03/02">
 	<!-- //もものきはうす -->
 	<game>
-		<name>[MSX] ピーチアップ総集編II(笑) みらぁめいず ～鏡の中のアオナたち～(OPLL)</name>
+		<name>[MSX] ピーチアップ8 MIRROR MAZE (OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
+		<options>
+			<option name="use_opll" value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="pup8_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x1000">DRIVER0.BIN</rom>
+			<rom type="code" offset="0x4000">DRIVER1.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0201">ピーチアップ タイトル</title>
+			<title code="0x0101">Title</title>
+			<title code="0x0102">Stage Select</title>
+			<title code="0x0104">Main BGM</title>
+			<title code="0x0107">Stage Clear</title>
+			<title code="0x0103">Visual</title>
+			<title code="0x0105">Game Over</title>
+			<title code="0x0106">BGM 0x06</title>
+			<title code="0x0202">ピーチアップ メニュー(未使用)</title>
+			<range min="0x21" max="0x2e" extcode="1">SE 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] ピーチアップ8 MIRROR MAZE (PSG)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Momonoki House</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="pup8_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x1000">DRIVER0.BIN</rom>
+			<rom type="code" offset="0x4000">DRIVER1.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0201">ピーチアップ タイトル</title>
+			<title code="0x0101">Title</title>
+			<title code="0x0102">Stage Select</title>
+			<title code="0x0104">Main BGM</title>
+			<title code="0x0107">Stage Clear</title>
+			<title code="0x0103">Visual</title>
+			<title code="0x0105">Game Over</title>
+			<title code="0x0106">BGM 0x06</title>
+			<title code="0x0202">ピーチアップ メニュー(未使用)</title>
+			<range min="0x21" max="0x2e" extcode="1">SE 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] ピーチアップ8 アウター番外編II R-POLICE採用試験 (OPLL)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Momonoki House</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x1000"/>
+			<option name="mdata_size" value="0x3000"/>
+			<option name="mfile_size" value="0x3000"/>
+			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="pup8_msx">
+			<rom type="code" offset="0x0400">patch2</rom>
+			<rom type="code" offset="0x1000">DRIVER3.BIN</rom>
+			<rom type="bgm"  offset="0x00">DRIVER2.BIN</rom>
+			<rom type="bgm"  offset="0x01">DRIVER3.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0201">ピーチアップ タイトル</title>
+			<title code="0x0202">ピーチアップ メニュー</title>
+			<title code="0x01">Today, So Fine</title>
+			<title code="0x02">あいしゅうのあうたぁ2</title>
+			<title code="0x03">Who's Next?</title>
+			<title code="0x04">Let's Go Home</title>
+			<title code="0x05">Don't Cry...</title>
+			<title code="0x06">Too Bad, Ha!</title>
+			<title code="0x07">Dit It!</title>
+			<title code="0x08">でへへへのへへ</title>
+			<title code="0x20">シャッフル</title>
+			<title code="0x21">クリック</title>
+			<title code="0x22">配る</title>
+			<title code="0x23">ダメージ</title>
+			<title code="0x24">必殺技</title>
+			<title code="0x25">防御</title>
+			<title code="0x26">Hクリック</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] ピーチアップ8 アウター番外編II R-POLICE採用試験 (PSG)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Momonoki House</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x1000"/>
+			<option name="mdata_size" value="0x3000"/>
+			<option name="mfile_size" value="0x3000"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="pup8_msx">
+			<rom type="code" offset="0x0400">patch2</rom>
+			<rom type="code" offset="0x1000">DRIVER3.BIN</rom>
+			<rom type="bgm"  offset="0x00">DRIVER2.BIN</rom>
+			<rom type="bgm"  offset="0x01">DRIVER3.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0201">ピーチアップ タイトル</title>
+			<title code="0x0202">ピーチアップ メニュー</title>
+			<title code="0x01">Today, So Fine</title>
+			<title code="0x02">あいしゅうのあうたぁ2</title>
+			<title code="0x03">Who's Next?</title>
+			<title code="0x04">Let's Go Home</title>
+			<title code="0x05">Don't Cry...</title>
+			<title code="0x06">Too Bad, Ha!</title>
+			<title code="0x07">Dit It!</title>
+			<title code="0x08">でへへへのへへ</title>
+			<title code="0x20">シャッフル</title>
+			<title code="0x21">クリック</title>
+			<title code="0x22">配る</title>
+			<title code="0x23">ダメージ</title>
+			<title code="0x24">必殺技</title>
+			<title code="0x25">防御</title>
+			<title code="0x26">Hクリック</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] ピーチアップ総集編II(笑) みらぁめいず ～鏡の中のアオナたち～ (OPLL)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -69,7 +193,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) みらぁめいず ～鏡の中のアオナたち～(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -99,7 +223,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) サナトリウム・オブ・ロマンス2(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -130,7 +254,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) サナトリウム・オブ・ロマンス2(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -159,7 +283,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) また チンと手と(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -186,7 +310,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) また チンと手と(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -212,7 +336,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) 華姉妹(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -243,7 +367,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) 華姉妹(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -273,7 +397,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) 3画面でDON III -夢色コイン-(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -299,7 +423,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) 3画面でDON III -夢色コイン-(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -324,7 +448,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) MAIL BOX(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -346,7 +470,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編II(笑) MAIL BOX(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -367,7 +491,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 PEACH CLUB II GIRLS SAVER(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -405,7 +529,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 PEACH CLUB II GIRLS SAVER(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4000"/>
@@ -442,7 +566,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 スーパーピーチスロット(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -468,7 +592,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 スーパーピーチスロット(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -493,7 +617,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 シーソーでぺろんちょ スペシャル(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -520,7 +644,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 シーソーでぺろんちょ スペシャル(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -546,7 +670,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 グリエルの聖杯 - EXCELLENT -(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -580,7 +704,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 グリエルの聖杯 - EXCELLENT -(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -613,7 +737,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 帰ってきた3画面でドン! 立直!リーチ!りぃち!(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -637,7 +761,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 帰ってきた3画面でドン! 立直!リーチ!りぃち!(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x3000"/>
@@ -660,7 +784,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 ハイパーブロック くずしちゃえぬがしちゃえ!(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x2400"/>
@@ -685,7 +809,7 @@
 	<game>
 		<name>[MSX] ピーチアップ総集編 ハイパーブロック くずしちゃえぬがしちゃえ!(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">もものきはうす</driveralias>
+		<driveralias type="MSX">Momonoki House</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x2400"/>

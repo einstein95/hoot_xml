@@ -79,29 +79,31 @@
 		<name>[X68000] Viewpoint (ビューポイント) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Nexus Interact</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
 		<romlist archive="viewpoin68snd">
 			<rom type="code" offset="0x000000">vp68snd.bin</rom>
-			<rom type="code" offset="0x010000">fmpara.ZMD</rom>
-			<rom type="code" offset="0x011000">view00.ZMD</rom>
-			<rom type="code" offset="0x012000">VIEW01.ZMD</rom>
-			<rom type="code" offset="0x013000">VIEW02.ZMD</rom>
-			<rom type="code" offset="0x014000">VIEW03.ZMD</rom>
-			<rom type="code" offset="0x015000">view04.ZMD</rom>
-			<rom type="code" offset="0x016000">VIEW05.ZMD</rom>
-			<rom type="code" offset="0x017000">VIEW06.ZMD</rom>
-			<rom type="code" offset="0x018000">VIEW07.ZMD</rom>
-			<rom type="code" offset="0x019000">VIEW08.ZMD</rom>
-			<rom type="code" offset="0x01a000">VIEW09.ZMD</rom>
-			<rom type="code" offset="0x01b000">VIEW0A.ZMD</rom>
-			<rom type="code" offset="0x01c000">VIEW0B.ZMD</rom>
-			<rom type="code" offset="0x01e000">VIEW03.ZPD</rom>
-			<rom type="code" offset="0x022000">VIEW04.ZPD</rom>
-			<rom type="code" offset="0x038000">VIEW06.ZPD</rom>
-			<rom type="code" offset="0x03c000">VIEW0A.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">fmpara.ZMD</rom>
+			<rom type="code" offset="0x031000">view00.ZMD</rom>
+			<rom type="code" offset="0x032000">VIEW01.ZMD</rom>
+			<rom type="code" offset="0x033000">VIEW02.ZMD</rom>
+			<rom type="code" offset="0x034000">VIEW03.ZMD</rom>
+			<rom type="code" offset="0x035000">view04.ZMD</rom>
+			<rom type="code" offset="0x036000">VIEW05.ZMD</rom>
+			<rom type="code" offset="0x037000">VIEW06.ZMD</rom>
+			<rom type="code" offset="0x038000">VIEW07.ZMD</rom>
+			<rom type="code" offset="0x039000">VIEW08.ZMD</rom>
+			<rom type="code" offset="0x03a000">VIEW09.ZMD</rom>
+			<rom type="code" offset="0x03b000">VIEW0A.ZMD</rom>
+			<rom type="code" offset="0x03c000">VIEW0B.ZMD</rom>
+			<rom type="code" offset="0x03e000">VIEW03.ZPD</rom>
+			<rom type="code" offset="0x042000">VIEW04.ZPD</rom>
+			<rom type="code" offset="0x058000">VIEW06.ZPD</rom>
+			<rom type="code" offset="0x05c000">VIEW0A.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Stop the Music</title>
 			<title code="0x02">Eye Catch Sammy</title>
 			<title code="0x03">Title Back</title>
 			<title code="0x04">Not All There</title>

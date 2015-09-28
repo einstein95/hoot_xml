@@ -663,6 +663,26 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] フルーツパックVol.1 3X3EYESに夢中なの! (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nihon Create</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="frutpak1_98">
+			<rom type="file" offset="-1">SDRV.SYS</rom>
+			<rom type="file" offset="-1">SDRV_98.COM</rom>
+			<rom type="device" offset="0">sdrv.sys</rom>
+			<rom type="shell" offset="0">sdrv_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01000004">Normal BGM (通常BGM)</title>
+			<title code="0x01000003">Home Run (ホームラン)</title>
+			<title code="0x01000001">SFX #01</title>
+			<title code="0x01000002">SFX #02</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Makyoden (魔京伝) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Nihon Create</driveralias>

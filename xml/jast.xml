@@ -1591,41 +1591,44 @@
 		<name>[X68000] Totsugeki Bakkon Street (突撃ばっこんストリート) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="bakkon168snd">
 			<rom type="code" offset="0x000000">tbs68snd.bin</rom>
-			<rom type="code" offset="0x010000">BS_S.ZMD</rom>
-			<rom type="code" offset="0x013000">BS_01X.ZMD</rom>
-			<rom type="code" offset="0x015000">BS_02X.ZMD</rom>
-			<rom type="code" offset="0x017000">BS_03X.ZMD</rom>
-			<rom type="code" offset="0x019000">BS_04X.ZMD</rom>
-			<rom type="code" offset="0x01b000">BS_05X.ZMD</rom>
-			<rom type="code" offset="0x01d000">BS_06X.ZMD</rom>
-			<rom type="code" offset="0x01f000">BS_07X.ZMD</rom>
-			<rom type="code" offset="0x021000">BS_08X.ZMD</rom>
-			<rom type="code" offset="0x023000">BS_09X.ZMD</rom>
-			<rom type="code" offset="0x025000">BS_10X.ZMD</rom>
-			<rom type="code" offset="0x027000">BS_11X.ZMD</rom>
-			<rom type="code" offset="0x029000">BS_12X.ZMD</rom>
-			<rom type="code" offset="0x02b000">BS_13X.ZMD</rom>
-			<rom type="code" offset="0x02d000">BS_14X.ZMD</rom>
-			<rom type="code" offset="0x02f000">BS_15X.ZMD</rom>
-			<rom type="code" offset="0x031000">BS_16X.ZMD</rom>
-			<rom type="code" offset="0x033000">BS_17X.ZMD</rom>
-			<rom type="code" offset="0x035000">BS_18X.ZMD</rom>
-			<rom type="code" offset="0x037000">BS_19X.ZMD</rom>
-			<rom type="code" offset="0x039000">BS_20X.ZMD</rom>
-			<rom type="code" offset="0x03b000">BS_21X.ZMD</rom>
-			<rom type="code" offset="0x03d000">BS_23X.ZMD</rom>
-			<rom type="code" offset="0x03f000">BS_24X.ZMD</rom>
-			<rom type="code" offset="0x041000">BS_25X.ZMD</rom>
-			<rom type="code" offset="0x043000">BS_26X.ZMD</rom>
-			<rom type="code" offset="0x045000">BS_27X.ZMD</rom>
-			<rom type="code" offset="0x047000">BS_28X.ZMD</rom>
-			<rom type="code" offset="0x049000">BS_29X.ZMD</rom>
-			<rom type="code" offset="0x04b000">BS_30X.ZMD</rom>
-			<rom type="code" offset="0x04d000">BS_31X.ZMD</rom>
-			<rom type="code" offset="0x04f000">BS_32X.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">BS_S.ZMD</rom>
+			<rom type="code" offset="0x033000">BS_01X.ZMD</rom>
+			<rom type="code" offset="0x035000">BS_02X.ZMD</rom>
+			<rom type="code" offset="0x037000">BS_03X.ZMD</rom>
+			<rom type="code" offset="0x039000">BS_04X.ZMD</rom>
+			<rom type="code" offset="0x03b000">BS_05X.ZMD</rom>
+			<rom type="code" offset="0x03d000">BS_06X.ZMD</rom>
+			<rom type="code" offset="0x03f000">BS_07X.ZMD</rom>
+			<rom type="code" offset="0x041000">BS_08X.ZMD</rom>
+			<rom type="code" offset="0x043000">BS_09X.ZMD</rom>
+			<rom type="code" offset="0x045000">BS_10X.ZMD</rom>
+			<rom type="code" offset="0x047000">BS_11X.ZMD</rom>
+			<rom type="code" offset="0x049000">BS_12X.ZMD</rom>
+			<rom type="code" offset="0x04b000">BS_13X.ZMD</rom>
+			<rom type="code" offset="0x04d000">BS_14X.ZMD</rom>
+			<rom type="code" offset="0x04f000">BS_15X.ZMD</rom>
+			<rom type="code" offset="0x051000">BS_16X.ZMD</rom>
+			<rom type="code" offset="0x053000">BS_17X.ZMD</rom>
+			<rom type="code" offset="0x055000">BS_18X.ZMD</rom>
+			<rom type="code" offset="0x057000">BS_19X.ZMD</rom>
+			<rom type="code" offset="0x059000">BS_20X.ZMD</rom>
+			<rom type="code" offset="0x05b000">BS_21X.ZMD</rom>
+			<rom type="code" offset="0x05d000">BS_23X.ZMD</rom>
+			<rom type="code" offset="0x05f000">BS_24X.ZMD</rom>
+			<rom type="code" offset="0x061000">BS_25X.ZMD</rom>
+			<rom type="code" offset="0x063000">BS_26X.ZMD</rom>
+			<rom type="code" offset="0x065000">BS_27X.ZMD</rom>
+			<rom type="code" offset="0x067000">BS_28X.ZMD</rom>
+			<rom type="code" offset="0x069000">BS_29X.ZMD</rom>
+			<rom type="code" offset="0x06b000">BS_30X.ZMD</rom>
+			<rom type="code" offset="0x06d000">BS_31X.ZMD</rom>
+			<rom type="code" offset="0x06f000">BS_32X.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">BS_01X.ZMD</title>
@@ -1665,41 +1668,42 @@
 		<name>[X68000] Totsugeki Bakkon Street 2: Hunting Roulette (突撃ばっこんストリート2 ～はんてぃんぐ☆るーれっと～) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="bakkon268snd">
 			<rom type="code" offset="0x000000">tbs68snd.bin</rom>
-			<rom type="code" offset="0x010000">HNT_S.ZMD</rom>
-			<rom type="code" offset="0x013000">HNT1.ZMD</rom>
-			<rom type="code" offset="0x015000">HNT2.ZMD</rom>
-			<rom type="code" offset="0x017000">HNT3.ZMD</rom>
-			<rom type="code" offset="0x019000">HNT4.ZMD</rom>
-			<rom type="code" offset="0x01b000">HNT5.ZMD</rom>
-			<rom type="code" offset="0x01d000">HNT6.ZMD</rom>
-			<rom type="code" offset="0x01f000">HNT7.ZMD</rom>
-			<rom type="code" offset="0x021000">HNT8.ZMD</rom>
-			<rom type="code" offset="0x023000">HNT9.ZMD</rom>
-			<rom type="code" offset="0x025000">HNT10.ZMD</rom>
-			<rom type="code" offset="0x027000">HNT11.ZMD</rom>
-			<rom type="code" offset="0x029000">HNT12.ZMD</rom>
-			<rom type="code" offset="0x02b000">HNT13.ZMD</rom>
-			<rom type="code" offset="0x02d000">HNT14.ZMD</rom>
-			<rom type="code" offset="0x02f000">HNT15.ZMD</rom>
-			<rom type="code" offset="0x031000">HNT16.ZMD</rom>
-			<rom type="code" offset="0x033000">HNT17.ZMD</rom>
-			<rom type="code" offset="0x035000">HNT18.ZMD</rom>
-			<rom type="code" offset="0x037000">HNT19.ZMD</rom>
-			<rom type="code" offset="0x039000">HNT20.ZMD</rom>
-			<rom type="code" offset="0x03b000">HNT21.ZMD</rom>
-			<rom type="code" offset="0x03d000">HNT22.ZMD</rom>
-			<rom type="code" offset="0x03f000">HNT23.ZMD</rom>
-			<rom type="code" offset="0x041000">HNT24.ZMD</rom>
-			<rom type="code" offset="0x043000">HNT25.ZMD</rom>
-			<rom type="code" offset="0x045000">HNT26.ZMD</rom>
-			<rom type="code" offset="0x047000">HNT27.ZMD</rom>
-			<rom type="code" offset="0x049000">HNT28.ZMD</rom>
-			<rom type="code" offset="0x04b000">HNT29.ZMD</rom>
-			<rom type="code" offset="0x04d000">HNT30.ZMD</rom>
-			<rom type="code" offset="0x04f000">HNT31.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">HNT_S.ZMD</rom>
+			<rom type="code" offset="0x033000">HNT1.ZMD</rom>
+			<rom type="code" offset="0x035000">HNT2.ZMD</rom>
+			<rom type="code" offset="0x037000">HNT3.ZMD</rom>
+			<rom type="code" offset="0x039000">HNT4.ZMD</rom>
+			<rom type="code" offset="0x03b000">HNT5.ZMD</rom>
+			<rom type="code" offset="0x03d000">HNT6.ZMD</rom>
+			<rom type="code" offset="0x03f000">HNT7.ZMD</rom>
+			<rom type="code" offset="0x041000">HNT8.ZMD</rom>
+			<rom type="code" offset="0x043000">HNT9.ZMD</rom>
+			<rom type="code" offset="0x045000">HNT10.ZMD</rom>
+			<rom type="code" offset="0x047000">HNT11.ZMD</rom>
+			<rom type="code" offset="0x049000">HNT12.ZMD</rom>
+			<rom type="code" offset="0x04b000">HNT13.ZMD</rom>
+			<rom type="code" offset="0x04d000">HNT14.ZMD</rom>
+			<rom type="code" offset="0x04f000">HNT15.ZMD</rom>
+			<rom type="code" offset="0x051000">HNT16.ZMD</rom>
+			<rom type="code" offset="0x053000">HNT17.ZMD</rom>
+			<rom type="code" offset="0x055000">HNT18.ZMD</rom>
+			<rom type="code" offset="0x057000">HNT19.ZMD</rom>
+			<rom type="code" offset="0x059000">HNT20.ZMD</rom>
+			<rom type="code" offset="0x05b000">HNT21.ZMD</rom>
+			<rom type="code" offset="0x05d000">HNT22.ZMD</rom>
+			<rom type="code" offset="0x05f000">HNT23.ZMD</rom>
+			<rom type="code" offset="0x061000">HNT24.ZMD</rom>
+			<rom type="code" offset="0x063000">HNT25.ZMD</rom>
+			<rom type="code" offset="0x065000">HNT26.ZMD</rom>
+			<rom type="code" offset="0x067000">HNT27.ZMD</rom>
+			<rom type="code" offset="0x069000">HNT28.ZMD</rom>
+			<rom type="code" offset="0x06b000">HNT29.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">HNT1.ZMD</title>
@@ -1737,47 +1741,50 @@
 		<name>[X68000] Super Ultra Machine Cyborg Marilyn DX (スーパーウルトラむっちんぷりぷりサイボーグマリリンDX) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="maririn68snd">
 			<rom type="code" offset="0x000000">tbs68snd.bin</rom>
-			<rom type="code" offset="0x010000">MR_S.ZMD</rom>
-			<rom type="code" offset="0x013000">MR_01X.ZMD</rom>
-			<rom type="code" offset="0x015000">MR_02X.ZMD</rom>
-			<rom type="code" offset="0x017000">MR_03X.ZMD</rom>
-			<rom type="code" offset="0x019000">MR_04X.ZMD</rom>
-			<rom type="code" offset="0x01b000">MR_05X.ZMD</rom>
-			<rom type="code" offset="0x01d000">MR_06X.ZMD</rom>
-			<rom type="code" offset="0x01f000">MR_07X.ZMD</rom>
-			<rom type="code" offset="0x021000">MR_08X.ZMD</rom>
-			<rom type="code" offset="0x023000">MR_09X.ZMD</rom>
-			<rom type="code" offset="0x025000">MR_10X.ZMD</rom>
-			<rom type="code" offset="0x027000">MR_12X.ZMD</rom>
-			<rom type="code" offset="0x029000">MR_13X.ZMD</rom>
-			<rom type="code" offset="0x02b000">MR_14X.ZMD</rom>
-			<rom type="code" offset="0x02d000">MR_15X.ZMD</rom>
-			<rom type="code" offset="0x02f000">MR_16X.ZMD</rom>
-			<rom type="code" offset="0x031000">MR_17X.ZMD</rom>
-			<rom type="code" offset="0x033000">MR_18X.ZMD</rom>
-			<rom type="code" offset="0x035000">MR_19X.ZMD</rom>
-			<rom type="code" offset="0x037000">MR_20X.ZMD</rom>
-			<rom type="code" offset="0x039000">MR_21X.ZMD</rom>
-			<rom type="code" offset="0x03b000">MR_22X.ZMD</rom>
-			<rom type="code" offset="0x03d000">MR_23X.ZMD</rom>
-			<rom type="code" offset="0x03f000">MR_24X.ZMD</rom>
-			<rom type="code" offset="0x041000">MR_25X.ZMD</rom>
-			<rom type="code" offset="0x043000">MR_SEX.ZMD</rom>
-			<rom type="code" offset="0x045000">SND_01X.ZMD</rom>
-			<rom type="code" offset="0x047000">SND_02X.ZMD</rom>
-			<rom type="code" offset="0x049000">SND_03X.ZMD</rom>
-			<rom type="code" offset="0x04b000">SND_04X.ZMD</rom>
-			<rom type="code" offset="0x04d000">SND_05X.ZMD</rom>
-			<rom type="code" offset="0x04f000">SND_06X.ZMD</rom>
-			<rom type="code" offset="0x051000">SND_07X.ZMD</rom>
-			<rom type="code" offset="0x053000">SND_08X.ZMD</rom>
-			<rom type="code" offset="0x055000">SND_09X.ZMD</rom>
-			<rom type="code" offset="0x057000">SND_10X.ZMD</rom>
-			<rom type="code" offset="0x059000">SND_11X.ZMD</rom>
-			<rom type="code" offset="0x05b000">SND_12X.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">MR_S.ZMD</rom>
+			<rom type="code" offset="0x033000">MR_01X.ZMD</rom>
+			<rom type="code" offset="0x035000">MR_02X.ZMD</rom>
+			<rom type="code" offset="0x037000">MR_03X.ZMD</rom>
+			<rom type="code" offset="0x039000">MR_04X.ZMD</rom>
+			<rom type="code" offset="0x03b000">MR_05X.ZMD</rom>
+			<rom type="code" offset="0x03d000">MR_06X.ZMD</rom>
+			<rom type="code" offset="0x03f000">MR_07X.ZMD</rom>
+			<rom type="code" offset="0x041000">MR_08X.ZMD</rom>
+			<rom type="code" offset="0x043000">MR_09X.ZMD</rom>
+			<rom type="code" offset="0x045000">MR_10X.ZMD</rom>
+			<rom type="code" offset="0x047000">MR_12X.ZMD</rom>
+			<rom type="code" offset="0x049000">MR_13X.ZMD</rom>
+			<rom type="code" offset="0x04b000">MR_14X.ZMD</rom>
+			<rom type="code" offset="0x04d000">MR_15X.ZMD</rom>
+			<rom type="code" offset="0x04f000">MR_16X.ZMD</rom>
+			<rom type="code" offset="0x051000">MR_17X.ZMD</rom>
+			<rom type="code" offset="0x053000">MR_18X.ZMD</rom>
+			<rom type="code" offset="0x055000">MR_19X.ZMD</rom>
+			<rom type="code" offset="0x057000">MR_20X.ZMD</rom>
+			<rom type="code" offset="0x059000">MR_21X.ZMD</rom>
+			<rom type="code" offset="0x05b000">MR_22X.ZMD</rom>
+			<rom type="code" offset="0x05d000">MR_23X.ZMD</rom>
+			<rom type="code" offset="0x05f000">MR_24X.ZMD</rom>
+			<rom type="code" offset="0x061000">MR_25X.ZMD</rom>
+			<rom type="code" offset="0x063000">MR_SEX.ZMD</rom>
+			<rom type="code" offset="0x065000">SND_01X.ZMD</rom>
+			<rom type="code" offset="0x067000">SND_02X.ZMD</rom>
+			<rom type="code" offset="0x069000">SND_03X.ZMD</rom>
+			<rom type="code" offset="0x06b000">SND_04X.ZMD</rom>
+			<rom type="code" offset="0x06d000">SND_05X.ZMD</rom>
+			<rom type="code" offset="0x06f000">SND_06X.ZMD</rom>
+			<rom type="code" offset="0x071000">SND_07X.ZMD</rom>
+			<rom type="code" offset="0x073000">SND_08X.ZMD</rom>
+			<rom type="code" offset="0x075000">SND_09X.ZMD</rom>
+			<rom type="code" offset="0x077000">SND_10X.ZMD</rom>
+			<rom type="code" offset="0x079000">SND_11X.ZMD</rom>
+			<rom type="code" offset="0x07b000">SND_12X.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">MR_01X.ZMD</title>
@@ -1822,152 +1829,39 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Setsuju: Yuganda Kioku (雪猫 ～ゆがんだ記憶～) (OPM)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Jast</driveralias>
-		<romlist archive="setujuu68snd">
-			<rom type="code" offset="0x000000">setu68snd.bin</rom>
-			<rom type="code" offset="0x013000">AKANE.ZMD</rom>
-			<rom type="code" offset="0x015000">AKANE_H.ZMD</rom>
-			<rom type="code" offset="0x017000">BADEND.ZMD</rom>
-			<rom type="code" offset="0x019000">BOEE.ZMD</rom>
-			<rom type="code" offset="0x01b000">CAT.ZMD</rom>
-			<rom type="code" offset="0x01d000">DISCO.ZMD</rom>
-			<rom type="code" offset="0x01f000">HARUMI.ZMD</rom>
-			<rom type="code" offset="0x021000">HARUMI_H.ZMD</rom>
-			<rom type="code" offset="0x023000">HOTEL.ZMD</rom>
-			<rom type="code" offset="0x025000">HPYEND.ZMD</rom>
-			<rom type="code" offset="0x027000">HURO.ZMD</rom>
-			<rom type="code" offset="0x029000">JOURNY.ZMD</rom>
-			<rom type="code" offset="0x02b000">KAORI.ZMD</rom>
-			<rom type="code" offset="0x02d000">KENTARO.ZMD</rom>
-			<rom type="code" offset="0x02f000">MAI.ZMD</rom>
-			<rom type="code" offset="0x031000">MIKI.ZMD</rom>
-			<rom type="code" offset="0x033000">OPENING.ZMD</rom>
-			<rom type="code" offset="0x035000">PAN.ZMD</rom>
-			<rom type="code" offset="0x037000">REST.ZMD</rom>
-			<rom type="code" offset="0x039000">SCHOOL.ZMD</rom>
-			<rom type="code" offset="0x03b000">SKI.ZMD</rom>
-			<rom type="code" offset="0x03d000">SNACK.ZMD</rom>
-			<rom type="code" offset="0x03f000">TAKUYA.ZMD</rom>
-			<rom type="code" offset="0x041000">YAMA.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">西脇茜</title>
-			<title code="0x02">Hシーン 茜Ver.</title>
-			<title code="0x03">Bad Ending</title>
-			<title code="0x06">Disco</title>
-			<title code="0x07">北村晴美</title>
-			<title code="0x08">Hシーン 晴美ver.</title>
-			<title code="0x09">ホテル</title>
-			<title code="0x0a">Happy Ending</title>
-			<title code="0x0b">露天風呂</title>
-			<title code="0x0c">旅</title>
-			<title code="0x0d">香織</title>
-			<title code="0x0e">健太郎</title>
-			<title code="0x0f">小林舞</title>
-			<title code="0x10">井上美紀</title>
-			<title code="0x11">Opening</title>
-			<title code="0x13">レストラン</title>
-			<title code="0x14">学校</title>
-			<title code="0x15">スキー場</title>
-			<title code="0x16">スナック</title>
-			<title code="0x17">黒木拓也</title>
-			<title code="0x18">山頂</title>
-			<title code="0x04">BOEE.ZMD</title>
-			<title code="0x05">SE 猫</title>
-			<title code="0x12">PAN.ZMD</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Setsuju: Yuganda Kioku (雪猫 ～ゆがんだ記憶～) (SC-55)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Jast</driveralias>
-		<options>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="setujuu68snd">
-			<rom type="code" offset="0x000000">tgc68mid.bin</rom>
-			<rom type="code" offset="0x013000">AKANE.SC5</rom>
-			<rom type="code" offset="0x015000">AKANE_H.SC5</rom>
-			<rom type="code" offset="0x017000">BADEND.SC5</rom>
-			<rom type="code" offset="0x019000">DISCO.SC5</rom>
-			<rom type="code" offset="0x01b000">HARUMI.SC5</rom>
-			<rom type="code" offset="0x01d000">HARUMI_H.SC5</rom>
-			<rom type="code" offset="0x01f000">HOTEL.SC5</rom>
-			<rom type="code" offset="0x021000">HPYEND2.SC5</rom>
-			<rom type="code" offset="0x025000">HURO.SC5</rom>
-			<rom type="code" offset="0x027000">JOURNY.SC5</rom>
-			<rom type="code" offset="0x029000">KAORI.SC5</rom>
-			<rom type="code" offset="0x02b000">KENTARO.SC5</rom>
-			<rom type="code" offset="0x02d000">MAI.SC5</rom>
-			<rom type="code" offset="0x02f000">MIKI.SC5</rom>
-			<rom type="code" offset="0x031000">OPENING.SC5</rom>
-			<rom type="code" offset="0x033000">REST.SC5</rom>
-			<rom type="code" offset="0x035000">SCHOOL.SC5</rom>
-			<rom type="code" offset="0x037000">SKI.SC5</rom>
-			<rom type="code" offset="0x039000">SNACK.SC5</rom>
-			<rom type="code" offset="0x03b000">TAKUYA.SC5</rom>
-			<rom type="code" offset="0x03d000">YAMA.SC5</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">西脇茜</title>
-			<title code="0x02">Hシーン 茜Ver.</title>
-			<title code="0x03">Bad Ending</title>
-			<title code="0x04">Disco</title>
-			<title code="0x05">北村晴美</title>
-			<title code="0x06">Hシーン 晴美ver.</title>
-			<title code="0x07">ホテル</title>
-			<title code="0x08">Happy Ending</title>
-			<title code="0x0a">露天風呂</title>
-			<title code="0x0b">旅</title>
-			<title code="0x0c">香織</title>
-			<title code="0x0d">健太郎</title>
-			<title code="0x0e">小林舞</title>
-			<title code="0x0f">井上美紀</title>
-			<title code="0x10">Opening</title>
-			<title code="0x11">レストラン</title>
-			<title code="0x12">学校</title>
-			<title code="0x13">スキー場</title>
-			<title code="0x14">スナック</title>
-			<title code="0x15">黒木拓也</title>
-			<title code="0x16">山頂</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[X68000] Tenshitachi no Gogo VI: My Fair Teacher (天使たちの午後VI -マイフェアティーチャー-)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="ten668snd">
 			<rom type="code" offset="0x000000">tbs68snd.bin</rom>
-			<rom type="code" offset="0x010000">TENSI_S.ZMD</rom>
-			<rom type="code" offset="0x013000">T6_01X.ZMD</rom>
-			<rom type="code" offset="0x015000">T6_02X.ZMD</rom>
-			<rom type="code" offset="0x017000">T6_03X.ZMD</rom>
-			<rom type="code" offset="0x019000">T6_04X.ZMD</rom>
-			<rom type="code" offset="0x01b000">T6_05X.ZMD</rom>
-			<rom type="code" offset="0x01d000">T6_06X.ZMD</rom>
-			<rom type="code" offset="0x01f000">T6_07X.ZMD</rom>
-			<rom type="code" offset="0x021000">T6_08X.ZMD</rom>
-			<rom type="code" offset="0x023000">T6_09X.ZMD</rom>
-			<rom type="code" offset="0x025000">T6_10X.ZMD</rom>
-			<rom type="code" offset="0x027000">T6_11X.ZMD</rom>
-			<rom type="code" offset="0x029000">T6_12X.ZMD</rom>
-			<rom type="code" offset="0x02b000">T6_13X.ZMD</rom>
-			<rom type="code" offset="0x02d000">T6_14X.ZMD</rom>
-			<rom type="code" offset="0x02f000">T6_15X.ZMD</rom>
-			<rom type="code" offset="0x031000">T6_16X.ZMD</rom>
-			<rom type="code" offset="0x033000">T6_17X.ZMD</rom>
-			<rom type="code" offset="0x035000">T6_18X.ZMD</rom>
-			<rom type="code" offset="0x037000">T6_19X.ZMD</rom>
-			<rom type="code" offset="0x039000">T6_20X.ZMD</rom>
-			<rom type="code" offset="0x03b000">T6_21X.ZMD</rom>
-			<rom type="code" offset="0x03d000">T6_22X.ZMD</rom>
-			<rom type="code" offset="0x03f000">T6_23X.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">TENSI_S.ZMD</rom>
+			<rom type="code" offset="0x033000">T6_01X.ZMD</rom>
+			<rom type="code" offset="0x035000">T6_02X.ZMD</rom>
+			<rom type="code" offset="0x037000">T6_03X.ZMD</rom>
+			<rom type="code" offset="0x039000">T6_04X.ZMD</rom>
+			<rom type="code" offset="0x03b000">T6_05X.ZMD</rom>
+			<rom type="code" offset="0x03d000">T6_06X.ZMD</rom>
+			<rom type="code" offset="0x03f000">T6_07X.ZMD</rom>
+			<rom type="code" offset="0x041000">T6_08X.ZMD</rom>
+			<rom type="code" offset="0x043000">T6_09X.ZMD</rom>
+			<rom type="code" offset="0x045000">T6_10X.ZMD</rom>
+			<rom type="code" offset="0x047000">T6_11X.ZMD</rom>
+			<rom type="code" offset="0x049000">T6_12X.ZMD</rom>
+			<rom type="code" offset="0x04b000">T6_13X.ZMD</rom>
+			<rom type="code" offset="0x04d000">T6_14X.ZMD</rom>
+			<rom type="code" offset="0x04f000">T6_15X.ZMD</rom>
+			<rom type="code" offset="0x051000">T6_16X.ZMD</rom>
+			<rom type="code" offset="0x053000">T6_17X.ZMD</rom>
+			<rom type="code" offset="0x055000">T6_18X.ZMD</rom>
+			<rom type="code" offset="0x057000">T6_19X.ZMD</rom>
+			<rom type="code" offset="0x059000">T6_20X.ZMD</rom>
+			<rom type="code" offset="0x05b000">T6_21X.ZMD</rom>
+			<rom type="code" offset="0x05d000">T6_22X.ZMD</rom>
+			<rom type="code" offset="0x05f000">T6_23X.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">T6_01X.ZMD</title>
@@ -1996,44 +1890,167 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] Setsuju: Yuganda Kioku (雪猫 ～ゆがんだ記憶～) (OPM)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="setujuu68snd">
+			<rom type="code" offset="0x000000">setujyu68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x033000">AKANE.ZMD</rom>
+			<rom type="code" offset="0x035000">AKANE_H.ZMD</rom>
+			<rom type="code" offset="0x037000">BADEND.ZMD</rom>
+			<rom type="code" offset="0x039000">BOEE.ZMD</rom>
+			<rom type="code" offset="0x03b000">CAT.ZMD</rom>
+			<rom type="code" offset="0x03d000">DISCO.ZMD</rom>
+			<rom type="code" offset="0x03f000">HARUMI.ZMD</rom>
+			<rom type="code" offset="0x041000">HARUMI_H.ZMD</rom>
+			<rom type="code" offset="0x043000">HOTEL.ZMD</rom>
+			<rom type="code" offset="0x045000">HPYEND.ZMD</rom>
+			<rom type="code" offset="0x047000">HURO.ZMD</rom>
+			<rom type="code" offset="0x049000">JOURNY.ZMD</rom>
+			<rom type="code" offset="0x04b000">KAORI.ZMD</rom>
+			<rom type="code" offset="0x04d000">KENTARO.ZMD</rom>
+			<rom type="code" offset="0x04f000">MAI.ZMD</rom>
+			<rom type="code" offset="0x051000">MIKI.ZMD</rom>
+			<rom type="code" offset="0x053000">OPENING.ZMD</rom>
+			<rom type="code" offset="0x055000">PAN.ZMD</rom>
+			<rom type="code" offset="0x057000">REST.ZMD</rom>
+			<rom type="code" offset="0x059000">SCHOOL.ZMD</rom>
+			<rom type="code" offset="0x05b000">SKI.ZMD</rom>
+			<rom type="code" offset="0x05d000">SNACK.ZMD</rom>
+			<rom type="code" offset="0x05f000">TAKUYA.ZMD</rom>
+			<rom type="code" offset="0x061000">YAMA.ZMD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">Opening</title>
+			<title code="0x01">西脇茜</title>
+			<title code="0x07">北村晴美</title>
+			<title code="0x10">井上美紀</title>
+			<title code="0x0f">小林舞</title>
+			<title code="0x0d">香織</title>
+			<title code="0x0e">健太郎</title>
+			<title code="0x17">黒木拓也</title>
+			<title code="0x14">学校</title>
+			<title code="0x13">レストラン</title>
+			<title code="0x0c">旅</title>
+			<title code="0x09">ホテル</title>
+			<title code="0x0b">露天風呂</title>
+			<title code="0x15">スキー場</title>
+			<title code="0x16">スナック</title>
+			<title code="0x06">Disco</title>
+			<title code="0x18">山頂</title>
+			<title code="0x02">Hシーン 茜Ver.</title>
+			<title code="0x08">Hシーン 晴美ver.</title>
+			<title code="0x0a">Happy Ending</title>
+			<title code="0x03">Bad Ending</title>
+			<title code="0x04">BOEE.ZMD</title>
+			<title code="0x05">SE 猫</title>
+			<title code="0x12">PAN.ZMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Setsuju: Yuganda Kioku (雪猫 ～ゆがんだ記憶～) (SC-55)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="setujuu68snd">
+			<rom type="code" offset="0x000000">setujyu68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x033000">AKANE.SC5</rom>
+			<rom type="code" offset="0x035000">AKANE_H.SC5</rom>
+			<rom type="code" offset="0x037000">BADEND.SC5</rom>
+			<rom type="code" offset="0x039000">DISCO.SC5</rom>
+			<rom type="code" offset="0x03b000">HARUMI.SC5</rom>
+			<rom type="code" offset="0x03d000">HARUMI_H.SC5</rom>
+			<rom type="code" offset="0x03f000">HOTEL.SC5</rom>
+			<rom type="code" offset="0x041000">HPYEND2.SC5</rom>
+			<rom type="code" offset="0x045000">HURO.SC5</rom>
+			<rom type="code" offset="0x047000">JOURNY.SC5</rom>
+			<rom type="code" offset="0x049000">KAORI.SC5</rom>
+			<rom type="code" offset="0x04b000">KENTARO.SC5</rom>
+			<rom type="code" offset="0x04d000">MAI.SC5</rom>
+			<rom type="code" offset="0x04f000">MIKI.SC5</rom>
+			<rom type="code" offset="0x051000">OPENING.SC5</rom>
+			<rom type="code" offset="0x053000">REST.SC5</rom>
+			<rom type="code" offset="0x055000">SCHOOL.SC5</rom>
+			<rom type="code" offset="0x057000">SKI.SC5</rom>
+			<rom type="code" offset="0x059000">SNACK.SC5</rom>
+			<rom type="code" offset="0x05b000">TAKUYA.SC5</rom>
+			<rom type="code" offset="0x05d000">YAMA.SC5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Opening</title>
+			<title code="0x01">西脇茜</title>
+			<title code="0x05">北村晴美</title>
+			<title code="0x0e">小林舞</title>
+			<title code="0x0c">香織</title>
+			<title code="0x0d">健太郎</title>
+			<title code="0x0f">井上美紀</title>
+			<title code="0x15">黒木拓也</title>
+			<title code="0x12">学校</title>
+			<title code="0x11">レストラン</title>
+			<title code="0x0b">旅</title>
+			<title code="0x07">ホテル</title>
+			<title code="0x0a">露天風呂</title>
+			<title code="0x13">スキー場</title>
+			<title code="0x14">スナック</title>
+			<title code="0x04">Disco</title>
+			<title code="0x16">山頂</title>
+			<title code="0x02">Hシーン 茜Ver.</title>
+			<title code="0x06">Hシーン 晴美ver.</title>
+			<title code="0x08">Happy Ending</title>
+			<title code="0x03">Bad Ending</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X68000] Tenshitachi no Gogo Collection (天使たちの午後コレクション) (OPM)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="ten_col168snd">
-			<rom type="code" offset="0x000000">tbs68snd.bin</rom>
-			<rom type="code" offset="0x010000">BS_S.ZMD</rom>
-			<rom type="code" offset="0x013000">SONG_01.ZMD</rom>
-			<rom type="code" offset="0x015000">SONG_02.ZMD</rom>
-			<rom type="code" offset="0x017000">SONG_03.ZMD</rom>
-			<rom type="code" offset="0x019000">SONG_04.ZMD</rom>
-			<rom type="code" offset="0x01b000">SONG_05.ZMD</rom>
-			<rom type="code" offset="0x01d000">SONG_06.ZMD</rom>
-			<rom type="code" offset="0x01f000">SONG_07.ZMD</rom>
-			<rom type="code" offset="0x021000">SONG_08.ZMD</rom>
-			<rom type="code" offset="0x023000">SONG_09.ZMD</rom>
-			<rom type="code" offset="0x025000">SONG_10.ZMD</rom>
-			<rom type="code" offset="0x027000">SONG_11.ZMD</rom>
-			<rom type="code" offset="0x029000">SONG_12.ZMD</rom>
-			<rom type="code" offset="0x02b000">SONG_13.ZMD</rom>
-			<rom type="code" offset="0x02d000">SONG_14.ZMD</rom>
-			<rom type="code" offset="0x02f000">SONG_15.ZMD</rom>
-			<rom type="code" offset="0x031000">SONG_16.ZMD</rom>
-			<rom type="code" offset="0x033000">SONG_17.ZMD</rom>
-			<rom type="code" offset="0x035000">SONG_18.ZMD</rom>
-			<rom type="code" offset="0x037000">SONG_19.ZMD</rom>
-			<rom type="code" offset="0x039000">SONG_20.ZMD</rom>
-			<rom type="code" offset="0x03b000">SONG_21.ZMD</rom>
-			<rom type="code" offset="0x03d000">SONG_22.ZMD</rom>
-			<rom type="code" offset="0x03f000">SONG_23.ZMD</rom>
-			<rom type="code" offset="0x041000">SONG_24.ZMD</rom>
-			<rom type="code" offset="0x043000">SONG_25.ZMD</rom>
-			<rom type="code" offset="0x045000">SONG_26.ZMD</rom>
-			<rom type="code" offset="0x047000">SONG_27.ZMD</rom>
-			<rom type="code" offset="0x049000">SONG_28.ZMD</rom>
-			<rom type="code" offset="0x04b000">SONG_29.ZMD</rom>
-			<rom type="code" offset="0x04d000">SONG_30.ZMD</rom>
-			<rom type="code" offset="0x04f000">SONG_31.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">setujyu68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">BS_S.ZMD</rom>
+			<rom type="code" offset="0x033000">SONG_01.ZMD</rom>
+			<rom type="code" offset="0x035000">SONG_02.ZMD</rom>
+			<rom type="code" offset="0x037000">SONG_03.ZMD</rom>
+			<rom type="code" offset="0x039000">SONG_04.ZMD</rom>
+			<rom type="code" offset="0x03b000">SONG_05.ZMD</rom>
+			<rom type="code" offset="0x03d000">SONG_06.ZMD</rom>
+			<rom type="code" offset="0x03f000">SONG_07.ZMD</rom>
+			<rom type="code" offset="0x041000">SONG_08.ZMD</rom>
+			<rom type="code" offset="0x043000">SONG_09.ZMD</rom>
+			<rom type="code" offset="0x045000">SONG_10.ZMD</rom>
+			<rom type="code" offset="0x047000">SONG_11.ZMD</rom>
+			<rom type="code" offset="0x049000">SONG_12.ZMD</rom>
+			<rom type="code" offset="0x04b000">SONG_13.ZMD</rom>
+			<rom type="code" offset="0x04d000">SONG_14.ZMD</rom>
+			<rom type="code" offset="0x04f000">SONG_15.ZMD</rom>
+			<rom type="code" offset="0x051000">SONG_16.ZMD</rom>
+			<rom type="code" offset="0x053000">SONG_17.ZMD</rom>
+			<rom type="code" offset="0x055000">SONG_18.ZMD</rom>
+			<rom type="code" offset="0x057000">SONG_19.ZMD</rom>
+			<rom type="code" offset="0x059000">SONG_20.ZMD</rom>
+			<rom type="code" offset="0x05b000">SONG_21.ZMD</rom>
+			<rom type="code" offset="0x05d000">SONG_22.ZMD</rom>
+			<rom type="code" offset="0x05f000">SONG_23.ZMD</rom>
+			<rom type="code" offset="0x061000">SONG_24.ZMD</rom>
+			<rom type="code" offset="0x063000">SONG_25.ZMD</rom>
+			<rom type="code" offset="0x065000">SONG_26.ZMD</rom>
+			<rom type="code" offset="0x067000">SONG_27.ZMD</rom>
+			<rom type="code" offset="0x069000">SONG_28.ZMD</rom>
+			<rom type="code" offset="0x06b000">SONG_29.ZMD</rom>
+			<rom type="code" offset="0x06d000">SONG_30.ZMD</rom>
+			<rom type="code" offset="0x06f000">SONG_31.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">SONG_01.ZMD</title>
@@ -2074,42 +2091,44 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jast</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
 		<romlist archive="ten_col168snd">
-			<rom type="code" offset="0x000000">tgc68mid.bin</rom>
-			<rom type="code" offset="0x013000">T01.ZMD</rom>
-			<rom type="code" offset="0x015000">T02.ZMD</rom>
-			<rom type="code" offset="0x019000">T03.ZMD</rom>
-			<rom type="code" offset="0x01b000">T04.ZMD</rom>
-			<rom type="code" offset="0x023000">T05.ZMD</rom>
-			<rom type="code" offset="0x027000">T06.ZMD</rom>
-			<rom type="code" offset="0x02b000">T07.ZMD</rom>
-			<rom type="code" offset="0x02d000">T08.ZMD</rom>
-			<rom type="code" offset="0x02f000">T09.ZMD</rom>
-			<rom type="code" offset="0x031000">T10.ZMD</rom>
-			<rom type="code" offset="0x033000">T11.ZMD</rom>
-			<rom type="code" offset="0x035000">T12.ZMD</rom>
-			<rom type="code" offset="0x037000">T13.ZMD</rom>
-			<rom type="code" offset="0x039000">T14.ZMD</rom>
-			<rom type="code" offset="0x03b000">T15.ZMD</rom>
-			<rom type="code" offset="0x03d000">T16.ZMD</rom>
-			<rom type="code" offset="0x03f000">T17.ZMD</rom>
-			<rom type="code" offset="0x041000">T18.ZMD</rom>
-			<rom type="code" offset="0x043000">T19.ZMD</rom>
-			<rom type="code" offset="0x047000">T20.ZMD</rom>
-			<rom type="code" offset="0x049000">T21.ZMD</rom>
-			<rom type="code" offset="0x04b000">T22.ZMD</rom>
-			<rom type="code" offset="0x04d000">T23.ZMD</rom>
-			<rom type="code" offset="0x04f000">T24.ZMD</rom>
-			<rom type="code" offset="0x051000">T25.ZMD</rom>
-			<rom type="code" offset="0x053000">T26.ZMD</rom>
-			<rom type="code" offset="0x055000">T27.ZMD</rom>
-			<rom type="code" offset="0x057000">T28.ZMD</rom>
-			<rom type="code" offset="0x059000">T29.ZMD</rom>
-			<rom type="code" offset="0x05b000">T30.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">setujyu68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMUSIC.X</rom>
+			<rom type="code" offset="0x030000">BS_S.ZMD</rom>
+			<rom type="code" offset="0x033000">T01.ZMD</rom>
+			<rom type="code" offset="0x035000">T02.ZMD</rom>
+			<rom type="code" offset="0x039000">T03.ZMD</rom>
+			<rom type="code" offset="0x03b000">T04.ZMD</rom>
+			<rom type="code" offset="0x043000">T05.ZMD</rom>
+			<rom type="code" offset="0x047000">T06.ZMD</rom>
+			<rom type="code" offset="0x04b000">T07.ZMD</rom>
+			<rom type="code" offset="0x04d000">T08.ZMD</rom>
+			<rom type="code" offset="0x04f000">T09.ZMD</rom>
+			<rom type="code" offset="0x051000">T10.ZMD</rom>
+			<rom type="code" offset="0x053000">T11.ZMD</rom>
+			<rom type="code" offset="0x055000">T12.ZMD</rom>
+			<rom type="code" offset="0x057000">T13.ZMD</rom>
+			<rom type="code" offset="0x059000">T14.ZMD</rom>
+			<rom type="code" offset="0x05b000">T15.ZMD</rom>
+			<rom type="code" offset="0x05d000">T16.ZMD</rom>
+			<rom type="code" offset="0x05f000">T17.ZMD</rom>
+			<rom type="code" offset="0x061000">T18.ZMD</rom>
+			<rom type="code" offset="0x063000">T19.ZMD</rom>
+			<rom type="code" offset="0x067000">T20.ZMD</rom>
+			<rom type="code" offset="0x069000">T21.ZMD</rom>
+			<rom type="code" offset="0x06b000">T22.ZMD</rom>
+			<rom type="code" offset="0x06d000">T23.ZMD</rom>
+			<rom type="code" offset="0x06f000">T24.ZMD</rom>
+			<rom type="code" offset="0x071000">T25.ZMD</rom>
+			<rom type="code" offset="0x073000">T26.ZMD</rom>
+			<rom type="code" offset="0x075000">T27.ZMD</rom>
+			<rom type="code" offset="0x077000">T28.ZMD</rom>
+			<rom type="code" offset="0x079000">T29.ZMD</rom>
+			<rom type="code" offset="0x07b000">T30.ZMD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">T01.ZMD</title>

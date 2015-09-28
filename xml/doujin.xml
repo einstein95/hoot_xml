@@ -36,6 +36,913 @@
 <gamelist date="2005/09/25">
 	<!-- //同人ソフト -->
 	<game>
+		<name>[PC-8801] VALIANT7 (G.P.M SOFT)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="NEC PC-8801">同人ソフト</driveralias>
+		<options>
+			<option name="baseclock" value="0x04"/>
+		</options>
+		<romlist archive="valiant7_88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xb000">music2</rom>
+			<rom type="code" offset="0xc000">mus001</rom>
+			<rom type="code" offset="0xe200">oto001</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">MAIN BGM</title>
+			<title code="0x01">BOSS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] F-nano2' 体験版</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">同人ソフト</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x7000"/>
+			<option name="mdata_size" value="0x7000"/>
+			<option name="mfile_size" value="0x7000"/>
+			<option name="init_pc"    value="0x0400"/>
+			<option name="use_opll"   value="0x01"/>
+			<option name="psg_mix"    value="0x0f0"/>
+			<option name="total_mix"  value="0x180"/>
+			<option name="clock_mul"  value="0x02"/>
+		</options>
+		<romlist archive="fnano2tr_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">MPK_FN2.BIN</rom>
+			<rom type="bgm" offset="0x00">F-NANOT.MPK</rom>
+			<rom type="bgm" offset="0x01">F-NANOZ.MPK</rom>
+			<rom type="bgm" offset="0x02">F-NANOｨ.MPK</rom>
+			<rom type="bgm" offset="0x03">F-NANOｩ.MPK</rom>
+			<rom type="bgm" offset="0x04">F-NANOｫ.MPK</rom>
+			<rom type="bgm" offset="0x05">F-NANOﾉ.MPK</rom>
+			<rom type="bgm" offset="0x06">F-NANOﾎ.MPK</rom>
+			<rom type="bgm" offset="0x07">F-NANOﾐ.MPK</rom>
+			<rom type="bgm" offset="0x08">F-NANOﾖ.MPK</rom>
+			<rom type="bgm" offset="0x09">F-NANOﾚ.MPK</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">久しぶりね!!</title>
+			<title code="0x01">Dawn</title>
+			<title code="0x02">そのまま、死ね</title>
+			<title code="0x03">いいんでない?</title>
+			<title code="0x04">Alert</title>
+			<title code="0x05">蒼の果て</title>
+			<title code="0x06">路上での資格</title>
+			<title code="0x07">Shadow Dancers</title>
+			<title code="0x08">強者共が夢の跡</title>
+			<title code="0x09">Pain</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 宇羅曼蛇 (CO2-PRO)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">同人ソフト</driveralias>
+		<options>
+			<option name="ssg_mix" value="-18"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="ulamanda_98">
+			<rom type="file" offset="-1">music_98.com</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="-1">SOUND.DAT</rom>
+			<rom type="file" offset="11">BGM_A.MML</rom>
+			<rom type="file" offset="12">BGM_B.MML</rom>
+			<rom type="file" offset="13">BGM_C.MML</rom>
+			<rom type="file" offset="14">BGM_D.MML</rom>
+			<rom type="file" offset="15">BGM_E.MML</rom>
+			<rom type="file" offset="16">BGM_F.MML</rom>
+			<rom type="file" offset="17">BGM_G.MML</rom>
+			<rom type="file" offset="18">BGM_H.MML</rom>
+			<rom type="file" offset="19">BGM_I.MML</rom>
+			<rom type="file" offset="20">BGM_J.MML</rom>
+			<rom type="file" offset="21">BGM_K.MML</rom>
+			<rom type="file" offset="22">BGM_L.MML</rom>
+			<rom type="file" offset="23">BGM_M.MML</rom>
+			<rom type="file" offset="24">BGM_N.MML</rom>
+			<rom type="file" offset="25">BGM_O.MML</rom>
+			<rom type="file" offset="26">BGM_P.MML</rom>
+			<rom type="file" offset="27">BGM_Q.MML</rom>
+			<rom type="file" offset="28">BGM_R.MML</rom>
+			<rom type="shell" offset="0">music -r</rom>
+			<rom type="shell" offset="0">music_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">BGM_A.MML</title>
+			<title code="12">BGM_B.MML</title>
+			<title code="13">BGM_C.MML</title>
+			<title code="14">BGM_D.MML</title>
+			<title code="15">BGM_E.MML</title>
+			<title code="16">BGM_F.MML</title>
+			<title code="17">BGM_G.MML</title>
+			<title code="18">BGM_H.MML</title>
+			<title code="19">BGM_I.MML</title>
+			<title code="20">BGM_J.MML</title>
+			<title code="21">BGM_K.MML</title>
+			<title code="22">BGM_L.MML</title>
+			<title code="23">BGM_M.MML</title>
+			<title code="24">BGM_N.MML</title>
+			<title code="25">BGM_O.MML</title>
+			<title code="26">BGM_P.MML</title>
+			<title code="27">BGM_Q.MML</title>
+			<title code="28">BGM_R.MML</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ときめき大戦(OPM) (TMK)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="tt68snd">
+			<rom type="code" offset="0x000000">tt68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">TF_START.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMI00.ZMD</rom>
+			<rom type="code" offset="0x035000">BGMI01.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMI02.ZMD</rom>
+			<rom type="code" offset="0x037000">BGMI03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMI04.ZMD</rom>
+			<rom type="code" offset="0x039000">BGMI05.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMI06.ZMD</rom>
+			<rom type="code" offset="0x03b000">BGMI07.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMI08.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMI09.ZMD</rom>
+			<rom type="code" offset="0x03f000">BGMI10.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMI11.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMI12.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMI13.ZMD</rom>
+			<rom type="code" offset="0x045000">BGMI14.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMI15.ZMD</rom>
+			<rom type="code" offset="0x050000">TZ_DRM.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">DEPARTURES        (音色ロード)</title>
+			<title code="0x07">DEPARTURES        (ローディング)</title>
+			<title code="0x0b">OPEN YOUR EYES    (タイトルデモ)</title>
+			<title code="0x02">JEALOUCY STORM    (キャラクター選択)</title>
+			<title code="0x0d">1-WHITE PLANET</title>
+			<title code="0x0e">2-RED EYES</title>
+			<title code="0x0f">3-BLUE WIND</title>
+			<title code="0x10">4-DARK LABYRINTH</title>
+			<title code="0x11">5-BLACK ANGEL</title>
+			<title code="0x0c">NEW CHALLENGER</title>
+			<title code="0x05">DO YOU FEEL ENVY? (コンティニュー)</title>
+			<title code="0x04">TRY AND TRY       (ゲームオーバー)</title>
+			<title code="0x08">LONG TO SEE YOU   (スタッフロール)</title>
+			<title code="0x09">WHICH IS NO1?     (コングラチュレーション)</title>
+			<title code="0x03">RANKS TT</title>
+			<title code="0x06">ANOTHER RANKS TT</title>
+			<title code="0x0a">NO USE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ときめき大戦(SC-55) (TMK)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="tt68snd">
+			<rom type="code" offset="0x000000">tt68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x034000">BGMM00.ZMD</rom>
+			<rom type="code" offset="0x035000">BGMM01.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMM02.ZMD</rom>
+			<rom type="code" offset="0x037000">BGMM03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMM04.ZMD</rom>
+			<rom type="code" offset="0x039000">BGMM05.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMM06.ZMD</rom>
+			<rom type="code" offset="0x03b000">BGMM07.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMM08.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMM09.ZMD</rom>
+			<rom type="code" offset="0x03f000">BGMM10.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMM11.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMM12.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMM13.ZMD</rom>
+			<rom type="code" offset="0x045000">BGMM14.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMM15.ZMD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">DEPARTURES        (ローディング)</title>
+			<title code="0x0b">OPEN YOUR EYES    (タイトルデモ)</title>
+			<title code="0x02">JEALOUCY STORM    (キャラクター選択)</title>
+			<title code="0x0d">1-WHITE PLANET</title>
+			<title code="0x0e">2-RED EYES</title>
+			<title code="0x0f">3-BLUE WIND</title>
+			<title code="0x10">4-DARK LABYRINTH</title>
+			<title code="0x11">5-BLACK ANGEL</title>
+			<title code="0x0c">NEW CHALLENGER</title>
+			<title code="0x05">DO YOU FEEL ENVY? (コンティニュー)</title>
+			<title code="0x04">TRY AND TRY       (ゲームオーバー)</title>
+			<title code="0x08">LONG TO SEE YOU   (スタッフロール)</title>
+			<title code="0x09">WHICH IS NO1?     (コングラチュレーション)</title>
+			<title code="0x03">RANKS TT</title>
+			<title code="0x06">ANOTHER RANKS TT</title>
+		<!--	<title code="0x0a">NO USE</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 魔法のシュータープッチンプリン (TeamDangeroude)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="plin68snd">
+			<rom type="code" offset="0x000000">plin68snd.bin</rom>
+			<rom type="code" offset="0x010000">plin.mus</rom>
+			<rom type="code" offset="0x045000">plin.ZPD</rom>
+			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">plin.mus #01</title>
+			<title code="0x03">plin.mus #02</title>
+			<title code="0x04">plin.mus #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 魔法のシュータープッチンプリン2 (TeamDangeroude)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="plin268snd">
+			<rom type="code" offset="0x000000">plin68snd.bin</rom>
+			<rom type="code" offset="0x010000">pl2.mus</rom>
+			<rom type="code" offset="0x045000">plin2.ZPD</rom>
+			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">FM11.ZMD</rom>
+			<rom type="code" offset="0x033000">FM12.ZMD</rom>
+			<rom type="code" offset="0x036000">FM13.ZMD</rom>
+			<rom type="code" offset="0x039000">FM14.ZMD</rom>
+			<rom type="code" offset="0x03c000">FM15.ZMD</rom>
+			<rom type="code" offset="0x03f000">FM16.ZMD</rom>
+			<rom type="code" offset="0x042000">FM17.ZMD</rom>
+			<rom type="code" offset="0x045000">FM18.ZMD</rom>
+			<rom type="code" offset="0x048000">FM19.ZMD</rom>
+			<rom type="code" offset="0x04b000">FM20.ZMD</rom>
+			<rom type="code" offset="0x04e000">FM22.ZMD</rom>
+			<rom type="code" offset="0x051000">FM25.ZMD</rom>
+			<rom type="code" offset="0x054000">FM29.ZMD</rom>
+			<rom type="code" offset="0x057000">FM31.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM+MT-32) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">MT11.ZMD</rom>
+			<rom type="code" offset="0x033000">MT12.ZMD</rom>
+			<rom type="code" offset="0x036000">MT13.ZMD</rom>
+			<rom type="code" offset="0x039000">MT14.ZMD</rom>
+			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
+			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
+			<rom type="code" offset="0x042000">MT17.ZMD</rom>
+			<rom type="code" offset="0x045000">MT18.ZMD</rom>
+			<rom type="code" offset="0x048000">MT19.ZMD</rom>
+			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
+			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
+			<rom type="code" offset="0x051000">MT25.ZMD</rom>
+			<rom type="code" offset="0x054000">MT29.ZMD</rom>
+			<rom type="code" offset="0x057000">MT31.ZMD</rom>
+			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
+			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
+			<rom type="code" offset="0x063000">MT99.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM+MT-32 Emulation) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">MT11.ZMD</rom>
+			<rom type="code" offset="0x033000">MT12.ZMD</rom>
+			<rom type="code" offset="0x036000">MT13.ZMD</rom>
+			<rom type="code" offset="0x039000">MT14.ZMD</rom>
+			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
+			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
+			<rom type="code" offset="0x042000">MT17.ZMD</rom>
+			<rom type="code" offset="0x045000">MT18.ZMD</rom>
+			<rom type="code" offset="0x048000">MT19.ZMD</rom>
+			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
+			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
+			<rom type="code" offset="0x051000">MT25.ZMD</rom>
+			<rom type="code" offset="0x054000">MT29.ZMD</rom>
+			<rom type="code" offset="0x057000">MT31.ZMD</rom>
+			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
+			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
+			<rom type="code" offset="0x063000">MT99.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(CM-64) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="3"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">CM11.ZMD</rom>
+			<rom type="code" offset="0x033000">CM12.ZMD</rom>
+			<rom type="code" offset="0x036000">CM13.ZMD</rom>
+			<rom type="code" offset="0x039000">CM14.ZMD</rom>
+			<rom type="code" offset="0x03c000">CM15.ZMD</rom>
+			<rom type="code" offset="0x03f000">CM16.ZMD</rom>
+			<rom type="code" offset="0x042000">CM17.ZMD</rom>
+			<rom type="code" offset="0x045000">CM18.ZMD</rom>
+			<rom type="code" offset="0x048000">CM19.ZMD</rom>
+			<rom type="code" offset="0x04b000">CM20.ZMD</rom>
+			<rom type="code" offset="0x04e000">CM22.ZMD</rom>
+			<rom type="code" offset="0x051000">CM25.ZMD</rom>
+			<rom type="code" offset="0x054000">CM29.ZMD</rom>
+			<rom type="code" offset="0x057000">CM31.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(SC-55) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">sc11.zmd</rom>
+			<rom type="code" offset="0x033000">sc12.zmd</rom>
+			<rom type="code" offset="0x036000">sc13.zmd</rom>
+			<rom type="code" offset="0x039000">sc14.zmd</rom>
+			<rom type="code" offset="0x03c000">sc15.zmd</rom>
+			<rom type="code" offset="0x03f000">sc16.zmd</rom>
+			<rom type="code" offset="0x042000">sc17.zmd</rom>
+			<rom type="code" offset="0x045000">sc18.zmd</rom>
+			<rom type="code" offset="0x048000">sc19.zmd</rom>
+			<rom type="code" offset="0x04b000">sc20.zmd</rom>
+			<rom type="code" offset="0x04e000">sc22.zmd</rom>
+			<rom type="code" offset="0x051000">sc25.zmd</rom>
+			<rom type="code" offset="0x054000">sc29.zmd</rom>
+			<rom type="code" offset="0x057000">sc31.zmd</rom>
+			<rom type="code" offset="0x05a000">sc23.ZMD</rom>
+			<rom type="code" offset="0x05d000">sc27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_sc.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] DRINKY &amp; SMOKEY (DREAM STAFF)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="drkysmky68snd">
+			<rom type="code" offset="0x000000">drsm68snd.bin</rom>
+			<rom type="code" offset="0x010000">DR.ZMD</rom>
+			<rom type="code" offset="0x011000">DR_01.ZMD</rom>
+			<rom type="code" offset="0x015000">DR_02.ZMD</rom>
+			<rom type="code" offset="0x017000">DR_03.ZMD</rom>
+			<rom type="code" offset="0x018000">DR_04.ZMD</rom>
+			<rom type="code" offset="0x01a000">DR_05.ZMD</rom>
+			<rom type="code" offset="0x01b000">DR_06.ZMD</rom>
+			<rom type="code" offset="0x01c000">DR_07.ZMD</rom>
+			<rom type="code" offset="0x01e000">DR_08.ZMD</rom>
+			<rom type="code" offset="0x020000">DR_09.ZMD</rom>
+			<rom type="code" offset="0x026000">DR.ZPD</rom>
+			<rom type="x"    offset="0x030000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Drinky a go go!</title>
+			<title code="0x02">Drinky &amp; Smokey</title>
+			<title code="0x03">Lazy days</title>
+			<title code="0x04">Fantastic avenue</title>
+			<title code="0x05">Nice job!</title>
+			<title code="0x06">Loading blues</title>
+			<title code="0x07">Smokey blues</title>
+			<title code="0x08">Drink with me</title>
+			<title code="0x09">Growing DREAM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 女帝戦記 Ver3.00 The Queen of Fighters (LINNER-SYSTEM)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="jotei368snd">
+			<rom type="code" offset="0x000000">jotei368snd.bin</rom>
+			<rom type="code" offset="0x010000">SNDDAT.ZMD</rom>
+			<rom type="code" offset="0x012000">ATHENA.ZMD</rom>
+			<rom type="code" offset="0x014000">BLOOD.ZMD</rom>
+			<rom type="code" offset="0x016000">CAMMY.ZMD</rom>
+			<rom type="code" offset="0x018000">CHARLOTTE.ZMD</rom>
+			<rom type="code" offset="0x01a000">JYOTEI2_spend.ZMD</rom>
+			<rom type="code" offset="0x01c000">KATEZINA.ZMD</rom>
+			<rom type="code" offset="0x01e000">KOF_con.ZMD</rom>
+			<rom type="code" offset="0x020000">NAKO.ZMD</rom>
+			<rom type="code" offset="0x022000">NEOGEO.ZMD</rom>
+			<rom type="code" offset="0x024000">RYOKO.ZMD</rom>
+			<rom type="code" offset="0x026000">SIRANUI.ZMD</rom>
+			<rom type="code" offset="0x028000">TITLE.ZMD</rom>
+			<rom type="code" offset="0x02a000">TWIN_M.ZMD</rom>
+			<rom type="code" offset="0x02c000">WH2_CS.ZMD</rom>
+			<rom type="code" offset="0x02e000">ZCHUN_LI.ZMD</rom>
+			<rom type="code" offset="0x030000">ZOPTION.ZMD</rom>
+			<rom type="code" offset="0x032000">ZREKKOH.ZMD</rom>
+			<rom type="code" offset="0x034000">ZSYOUYU.ZMD</rom>
+			<rom type="code" offset="0x036000">ZWIN.ZMD</rom>
+			<rom type="code" offset="0x038000">ZWINNER.ZMD</rom>
+			<rom type="code" offset="0x040000">ATHENA.ZPD</rom>
+			<rom type="code" offset="0x060000">JYOTEI.ZPD</rom>
+			<rom type="code" offset="0x080000">JYOTEI2_spend.ZPD</rom>
+			<rom type="x"    offset="0x090000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x09">NEOGEO起動BGM</title>
+			<title code="0x0c">タイトル</title>
+			<title code="0x0e">プレイヤーセレクト</title>
+			<title code="0x01">サイコソルジャーのテーマ</title>
+			<title code="0x02">BLOODのテーマ</title>
+			<title code="0x03">キャミィのテーマ</title>
+			<title code="0x04">舶来女</title>
+			<title code="0x06">異寇の女剣士</title>
+			<title code="0x08">自然の宴・春</title>
+			<title code="0x0a">亮子のテーマ</title>
+			<title code="0x0b">炎龍神</title>
+			<title code="0x0d">Twin memories</title>
+			<title code="0x0f">CHUN－LI</title>
+			<title code="0x11">天下無双烈光斬</title>
+			<title code="0x12">ギ－スにしょうゆ</title>
+			<title code="0x13">勝利デモ</title>
+			<title code="0x14">勝利の影に</title>
+			<title code="0x07">コンティニュー</title>
+			<title code="0x05">スタッフロール</title>
+			<title code="0x10">NEOGEO レベルセレクト</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 女帝戦記 Ver4.00 Heroines Forever (LINNER-SYSTEM)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="jotei468snd">
+			<rom type="code" offset="0x000000">jotei468snd.bin</rom>
+			<rom type="code" offset="0x010000">BGM25.ZMD</rom>
+			<rom type="code" offset="0x012000">BGM00.ZMD</rom>
+			<rom type="code" offset="0x014000">BGM01.ZMD</rom>
+			<rom type="code" offset="0x016000">BGM02.ZMD</rom>
+			<rom type="code" offset="0x018000">BGM03.ZMD</rom>
+			<rom type="code" offset="0x01a000">BGM04.ZMD</rom>
+			<rom type="code" offset="0x01c000">BGM05.ZMD</rom>
+			<rom type="code" offset="0x01e000">BGM06.ZMD</rom>
+			<rom type="code" offset="0x020000">BGM07.ZMD</rom>
+			<rom type="code" offset="0x022000">BGM08.ZMD</rom>
+			<rom type="code" offset="0x024000">BGM09.ZMD</rom>
+			<rom type="code" offset="0x026000">BGM10.ZMD</rom>
+			<rom type="code" offset="0x028000">BGM11.ZMD</rom>
+			<rom type="code" offset="0x02a000">BGM12.ZMD</rom>
+			<rom type="code" offset="0x02c000">BGM13.ZMD</rom>
+			<rom type="code" offset="0x02e000">BGM14.ZMD</rom>
+			<rom type="code" offset="0x030000">BGM15.ZMD</rom>
+			<rom type="code" offset="0x032000">BGM16.ZMD</rom>
+			<rom type="code" offset="0x034000">BGM17.ZMD</rom>
+			<rom type="code" offset="0x036000">BGM18.ZMD</rom>
+			<rom type="code" offset="0x038000">BGM19.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGM20.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGM21.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGM22.ZMD</rom>
+			<rom type="code" offset="0x040000">BGM23.ZMD</rom>
+			<rom type="code" offset="0x042000">BGM24.ZMD</rom>
+			<rom type="code" offset="0x044000">BGM27.ZMD</rom>
+			<rom type="code" offset="0x046000">ATHENA.ZPD</rom>
+			<rom type="code" offset="0x063000">JYOTEI.ZPD</rom>
+			<rom type="code" offset="0x08e000">JYOTEI2_spend.ZPD</rom>
+			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<!-- 曲順は公式サントラ準拠 -->
+			<title code="0x11">NEOGEO LOGO</title>
+			<title code="0x12">オープニング</title>
+			<!--
+			<title code="0x1a">オープニング</title>
+			  -->
+			<title code="0x10">タイトル</title>
+			<title code="0x13">LEVEL UP2</title>
+			<title code="0x14">プレイヤーセレクト1</title>
+			<title code="0x15">プレイヤーセレクト2</title>
+			<title code="0x01">春麗のテーマ</title>
+			<title code="0x16">結果がすべて</title>
+			<title code="0x02">異寇の女剣士</title>
+			<title code="0x03">天下無双烈光斬</title>
+			<title code="0x04">ギ－スにしょうゆ</title>
+			<title code="0x05">炎龍神</title>
+			<title code="0x06">亮子のテーマ</title>
+			<title code="0x07">キャミィのテーマ</title>
+			<title code="0x08">自然の宴・春</title>
+			<title code="0x09">BLOODのテーマ</title>
+			<title code="0x0a">Twin Memories</title>
+			<title code="0x0b">サイコソルジャーのテーマ</title>
+			<title code="0x0c">ね!</title>
+			<title code="0x0d">若気の怒り</title>
+			<title code="0x0e">唐手娘のテーマ</title>
+			<title code="0x0f">舶来女</title>
+			<title code="0x17">コンティニュー</title>
+			<title code="0x19">スタッフロール</title>
+			<title code="0x18">勝利の影に</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] HELLHOUND(OPM) (BREAKTHROUGH)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="hellhund68snd">
+			<rom type="code" offset="0x000000">hh68snd.bin</rom>
+			<rom type="code" offset="0x010000">hhfmset.ZMD</rom>
+			<rom type="code" offset="0x014000">credit.ZMD</rom>
+			<rom type="code" offset="0x015000">select.ZMD</rom>
+			<rom type="code" offset="0x016000">DIE_OPM.ZMD</rom>
+			<rom type="code" offset="0x01a000">BIO_OPM.ZMD</rom>
+			<rom type="code" offset="0x01d000">KIS_OPM.ZMD</rom>
+			<rom type="code" offset="0x01f000">INF_OPM.ZMD</rom>
+			<rom type="code" offset="0x021000">OUT_OPM.ZMD</rom>
+			<rom type="code" offset="0x031000">THU_OPM.ZMD</rom>
+			<rom type="code" offset="0x033000">YOU_OPM.ZMD</rom>
+			<rom type="code" offset="0x035000">hh97.ZPD</rom>
+			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit</title>
+			<title code="0x02">Power-select</title>
+			<title code="0x03">DIE FOR SOMEONE?</title>
+			<title code="0x04">BIOSPHERE</title>
+			<title code="0x05">KISETSU-FU</title>
+			<title code="0x06">INFINITY</title>
+			<title code="0x07">OUTER LIMITS</title>
+			<title code="0x08">Heading for the Thunderbolt</title>
+			<title code="0x09">You are not alone</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] HELLHOUND(GS) (BREAKTHROUGH)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="hellhund68snd">
+			<rom type="code" offset="0x000000">hh68snd.bin</rom>
+			<rom type="code" offset="0x014000">credit_55.ZMD</rom>
+			<rom type="code" offset="0x015000">select_55.ZMD</rom>
+			<rom type="code" offset="0x016000">DIE_55.ZMD</rom>
+			<rom type="code" offset="0x01a000">BIO_55.ZMD</rom>
+			<rom type="code" offset="0x01d000">KIS_55.ZMD</rom>
+			<rom type="code" offset="0x01f000">INF_55.ZMD</rom>
+			<rom type="code" offset="0x021000">OUT_55.ZMD</rom>
+			<rom type="code" offset="0x031000">THU_55.ZMD</rom>
+			<rom type="code" offset="0x033000">YOU_55.ZMD</rom>
+			<rom type="code" offset="0x035000">hh97.ZPD</rom>
+			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit</title>
+			<title code="0x02">Power-select</title>
+			<title code="0x03">DIE FOR SOMEONE?</title>
+			<title code="0x04">BIOSPHERE</title>
+			<title code="0x05">KISETSU-FU</title>
+			<title code="0x06">INFINITY</title>
+			<title code="0x07">OUTER LIMITS</title>
+			<title code="0x08">Heading for the Thunderbolt</title>
+			<title code="0x09">You are not alone</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] DIRECT-X [release.1] (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="directx68snd">
+			<rom type="code" offset="0x000000">dx68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">music.dat</rom>
+			<rom type="code" offset="0x040000">pgh30.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">SYNC.01  ゲーム中BGM</title>
+			<title code="0x02">SYNC.02  BOSS曲</title>
+			<title code="0x03">SYNC.09  OP曲(未使用)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] DIRECT-X [release.2] (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="directx268snd">
+			<rom type="code" offset="0x000000">dx268snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">music.dat</rom>
+			<rom type="code" offset="0x040000">pgh30b.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">START</title>
+			<title code="0x01">SYNC.01  [ STAGE.01 BGM ]</title>
+			<title code="0x02">SYNC.02  [ BOSS曲 ]</title>
+			<title code="0x03">SYNC.03  [ STAGE.02 BGM ]</title>
+			<title code="0x08">SYNC.04  [ STAGE.03 BGM ]</title>
+			<title code="0x04">SYNC.05  [ STAGE.03 BOSS ]</title>
+			<title code="0x05">SYNC.06  [ STAFF ROLL ]</title>
+			<title code="0x06">SYNC.07  [ NAME ENTRY ]</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] SUPER X-DAY X'95 (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="sxdayx68snd">
+			<rom type="code" offset="0x000000">sxdayx68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh3.ZPD</rom>
+			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">愛しさと 貧しさと 心細さと</title>
+			<title code="0x02">Are U Make Up?</title>
+			<title code="0x03">X-POWER</title>
+			<title code="0x04">blue figures</title>
+			<title code="0x05">access 1995</title>
+			<title code="0x06">dancing synthia</title>
+			<title code="0x07">X dAnce with U</title>
+			<title code="0x08">95 Rave</title>
+			<title code="0x09">OVERTURE</title>
+			<title code="0x0a">Destiny</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] The Super X-FILES (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="sxf68snd">
+			<rom type="code" offset="0x000000">sxdayx68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh20.ZPD</rom>
+			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x06" extcode="1">BGM %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] XX-FILES [ DOUBLE X ] with SATELLITE SYSTEM (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="xxf68snd">
+			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
+			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x08" extcode="1">BGM %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] XX-FILES R [ DOUBLE X ] (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="xxfr68snd">
+			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
+			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x0b" extcode="1">music.dat : %02x :</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] すとにゃんダッシュ (南国猫桜)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="sfd68snd">
+			<rom type="code" offset="0x000000">sfd68snd.bin</rom>
+			<rom type="x"    offset="0x010000">dash.x</rom>
+			<rom type="x"    offset="0x060000">ZMSC.X</rom>
+			<rom type="code" offset="0x0a0000">PCMSET.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0b">タイトル</title>
+			<title code="0x0d">キャラ選択</title>
+			<title code="0x03">魅也 澪</title>
+			<title code="0x01">猫 美鈴</title>
+			<title code="0x02">猫 虎莉</title>
+			<title code="0x04">桜 螢</title>
+			<title code="0x05">キャンディー</title>
+			<title code="0x06">ハニー・ビー</title>
+			<title code="0x08">ピュティア･ピュツェル</title>
+			<title code="0x07">クリュタイムネストラ</title>
+			<title code="0x0a">クイーン・ニキ</title>
+			<title code="0x0c">エンディング</title>
+			<title code="0x0e">エンディング2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] 戦え!こにゃんこEX (南国猫桜)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="SHARP X68000">同人ソフト</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="tacoex68snd">
+			<rom type="code" offset="0x000000">tcex68snd.bin</rom>
+			<rom type="x"    offset="0x010000">tacoEX.x</rom>
+			<rom type="code" offset="0x06c000">drumfile.ZPD</rom>
+			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">オープニング</title>
+			<title code="0x0a">キャラ選択</title>
+			<title code="0x02">夏夢華 綾</title>
+			<title code="0x03">薄魅 鈴</title>
+			<title code="0x04">猫 沙昌</title>
+			<title code="0x05">餡按</title>
+			<title code="0x06">キャロライン</title>
+			<title code="0x07">藤之宮 響</title>
+			<title code="0x08">エンディング1</title>
+			<title code="0x09">エンディング2</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X1] DIALIDE (CATASoft)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Doujin</driveralias>
@@ -59,22 +966,22 @@
 			<rom type="bgm" offset="0x0b">DIA-00C.Mus</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">DIA-001.Mus : Introduction (作編曲:Baki)</title>
-			<title code="0x000001">DIA-002.Mus : Opening      (作編曲:Baki)</title>
-			<title code="0x100002">DIA-003.Mus : BGM 1        (作編曲:Baki)</title>
-			<title code="0x100004">DIA-005.Mus : BGM 2        (作編曲:Baki)</title>
-			<title code="0x100006">DIA-007.Mus : BGM 3        (作編曲:Baki)</title>
-			<title code="0x000002">DIA-003.Mus : Warning      (作編曲:Baki)</title>
-			<title code="0x000003">DIA-004.Mus : BOSS 1       (作編曲:Baki)</title>
-		<!--	<title code="0x000004">DIA-005.Mus : Warning      (作編曲:Baki)</title> -->
-			<title code="0x000005">DIA-006.Mus : BOSS 2       (作編曲:GORRY)</title>
-		<!--	<title code="0x000006">DIA-007.Mus : Warning      (作編曲:Baki)</title> -->
-			<title code="0x000007">DIA-008.Mus : BOSS 3       (作編曲:Baki)</title>
-		<!--	<title code="0x000008">DIA-009.Mus : Warning      (作編曲:Baki)</title> -->
-		<!--	<title code="0x100008">DIA-009.Mus : BGM 2        (作編曲:Baki)</title> -->
-			<title code="0x000009">DIA-00A.Mus : BOSS 4       (作曲:AC-Ro. 編曲:Baki)</title>
-			<title code="0x00000a">DIA-00B.Mus : BOSS Final   (作編曲:Baki)</title>
-			<title code="0x00000b">DIA-00C.Mus : Ending       (作編曲:Baki)</title>
+			<title code="0x000000">Introduction (作編曲:Baki)</title>
+			<title code="0x000001">Opening      (作編曲:Baki)</title>
+			<title code="0x100002">BGM 1        (作編曲:Baki)</title>
+			<title code="0x100004">BGM 2        (作編曲:Baki)</title>
+			<title code="0x100006">BGM 3        (作編曲:Baki)</title>
+			<title code="0x000002">Warning      (作編曲:Baki)</title>
+			<title code="0x000003">BOSS 1       (作編曲:Baki)</title>
+		<!--	<title code="0x000004">Warning      (作編曲:Baki)</title> -->
+			<title code="0x000005">BOSS 2       (作編曲:GORRY)</title>
+		<!--	<title code="0x000006">Warning      (作編曲:Baki)</title> -->
+			<title code="0x000007">BOSS 3       (作編曲:Baki)</title>
+		<!--	<title code="0x000008">Warning      (作編曲:Baki)</title> -->
+		<!--	<title code="0x100008">BGM 2        (作編曲:Baki)</title> -->
+			<title code="0x000009">BOSS 4       (作曲:AC-Ro. 編曲:Baki)</title>
+			<title code="0x00000a">BOSS Final   (作編曲:Baki)</title>
+			<title code="0x00000b">Ending       (作編曲:Baki)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -328,9 +1235,9 @@
 			<option name="filesize" value="0x2000"/>
 			<option name="dataaddr" value="0x20000"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0c"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-8"/>
+			<option name="datamax" value="0x0c"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-8"/>
 		</options>
 		<romlist archive="refight98">
 			<rom type="code" offset="0x00600">mmlp.bin</rom>

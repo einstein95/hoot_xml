@@ -38,7 +38,7 @@
 	<game>
 		<name>[X1] HAYATO(OPM)</name>
 		<driver type="opm">x1</driver>
-		<driveralias type="X1">TAKERU</driveralias>
+		<driveralias type="X1">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 		</options>
@@ -72,7 +72,7 @@
 	<game>
 		<name>[X1] HAYATO(PSG)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">TAKERU</driveralias>
+		<driveralias type="X1">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="psg_mix" value="0x70"/>
@@ -105,9 +105,22 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] Ko-Window アプリケーション集3</name>
+		<driver type="mxdrv">x68k</driver>
+		<driveralias type="X68000">Takeru</driveralias>
+		<romlist archive="kowin368snd">
+			<rom type="data" offset="0x01">kowin3.mdx</rom>
+			<rom type="data" offset="0x02">KoWin3m.MDX</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">kowin3.mdx  : theme music by LEEX</title>
+			<title code="0x02">KoWin3m.MDX : theme music by LEEX</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (基本シナリオ)(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -247,7 +260,7 @@
 	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (基本シナリオ)(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -388,7 +401,7 @@
 	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -458,7 +471,7 @@
 	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (戦国ソーサリアン)(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -529,7 +542,7 @@
 	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(PSG)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -601,7 +614,7 @@
 	<game>
 		<name>[MSX] SORCERIAN - Dragon Slayer V - (ピラミッドソーサリアン)(OPLL)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">TAKERU</driveralias>
+		<driveralias type="MSX">Takeru</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mdata_size" value="0x2000"/>

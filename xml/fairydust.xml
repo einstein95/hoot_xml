@@ -1320,4 +1320,489 @@
 			<title code="0x14">The Next Stage</title>
 		</titlelist>
 	</game>
+	<game>
+		<name>[PC-9801] こうかん日記第II章 ～聖夜をあなたと～ (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+		</options>
+		<romlist archive="koukan2_98">
+			<rom type="file" offset="-1">MFD.EXE</rom>
+			<rom type="file" offset="-1">mfd_98.com</rom>
+			<rom type="file" offset="-1">M01.MID</rom>
+			<rom type="file" offset="-1">M02.MID</rom>
+			<rom type="file" offset="-1">M03.MID</rom>
+			<rom type="file" offset="-1">M04.MID</rom>
+			<rom type="file" offset="-1">M05.MID</rom>
+			<rom type="file" offset="-1">M06.MID</rom>
+			<rom type="file" offset="-1">M07.MID</rom>
+			<rom type="file" offset="-1">M08.MID</rom>
+			<rom type="file" offset="-1">M09.MID</rom>
+			<rom type="file" offset="-1">M10.MID</rom>
+			<rom type="file" offset="-1">M11.MID</rom>
+			<rom type="file" offset="-1">M12.MID</rom>
+			<rom type="file" offset="-1">M13.MID</rom>
+			<rom type="file" offset="-1">M14.MID</rom>
+			<rom type="file" offset="-1">M15.MID</rom>
+			<rom type="file" offset="-1">M16.MID</rom>
+			<rom type="file" offset="-1">M17.MID</rom>
+			<rom type="file" offset="-1">M18.MID</rom>
+			<rom type="file" offset="-1">M19.MID</rom>
+			<rom type="file" offset="-1">M20.MID</rom>
+			<rom type="file" offset="-1">M21.MID</rom>
+			<rom type="file" offset="-1">M22.MID</rom>
+			<rom type="file" offset="-1">M23_1.MID</rom>
+			<rom type="file" offset="-1">M23_2.MID</rom>
+			<rom type="file" offset="-1">M24.MID</rom>
+			<rom type="file" offset="-1">M25.MID</rom>
+			<rom type="file" offset="-1">M26.MID</rom>
+			<rom type="file" offset="-1">M27.MID</rom>
+			<rom type="file" offset="-1">M28.MID</rom>
+			<rom type="file" offset="-1">M29.MID</rom>
+			<rom type="file" offset="-1">M30.MID</rom>
+			<rom type="file" offset="-1">M31.MID</rom>
+			<rom type="file" offset="-1">M32.MID</rom>
+			<rom type="file" offset="-1">M33.MID</rom>
+			<rom type="file" offset="-1">M34.MID</rom>
+			<rom type="conin" offset="0x00">M01.MID</rom>
+			<rom type="conin" offset="0x01">M02.MID</rom>
+			<rom type="conin" offset="0x02">M03.MID</rom>
+			<rom type="conin" offset="0x03">M04.MID</rom>
+			<rom type="conin" offset="0x04">M05.MID</rom>
+			<rom type="conin" offset="0x05">M06.MID</rom>
+			<rom type="conin" offset="0x06">M07.MID</rom>
+			<rom type="conin" offset="0x07">M08.MID</rom>
+			<rom type="conin" offset="0x08">M09.MID</rom>
+			<rom type="conin" offset="0x09">M10.MID</rom>
+			<rom type="conin" offset="0x0a">M11.MID</rom>
+			<rom type="conin" offset="0x0b">M12.MID</rom>
+			<rom type="conin" offset="0x0c">M13.MID</rom>
+			<rom type="conin" offset="0x0d">M14.MID</rom>
+			<rom type="conin" offset="0x0e">M15.MID</rom>
+			<rom type="conin" offset="0x0f">M16.MID</rom>
+			<rom type="conin" offset="0x10">M17.MID</rom>
+			<rom type="conin" offset="0x11">M18.MID</rom>
+			<rom type="conin" offset="0x12">M19.MID</rom>
+			<rom type="conin" offset="0x13">M20.MID</rom>
+			<rom type="conin" offset="0x14">M21.MID</rom>
+			<rom type="conin" offset="0x15">M22.MID</rom>
+			<rom type="conin" offset="0x16">M23_1.MID</rom>
+			<rom type="conin" offset="0x17">M23_2.MID</rom>
+			<rom type="conin" offset="0x18">M24.MID</rom>
+			<rom type="conin" offset="0x19">M25.MID</rom>
+			<rom type="conin" offset="0x1a">M26.MID</rom>
+			<rom type="conin" offset="0x1b">M27.MID</rom>
+			<rom type="conin" offset="0x1c">M28.MID</rom>
+			<rom type="conin" offset="0x1d">M29.MID</rom>
+			<rom type="conin" offset="0x1e">M30.MID</rom>
+			<rom type="conin" offset="0x1f">M31.MID</rom>
+			<rom type="conin" offset="0x20">M32.MID</rom>
+			<rom type="conin" offset="0x21">M33.MID</rom>
+			<rom type="conin" offset="0x22">M34.MID</rom>
+			<rom type="shell" offset="0">MFD L</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x020000">M01.MID</title>
+			<title code="0x020001">M02.MID</title>
+			<title code="0x020002">M03.MID</title>
+			<title code="0x020003">M04.MID</title>
+			<title code="0x020004">M05.MID</title>
+			<title code="0x020005">M06.MID</title>
+			<title code="0x020006">M07.MID</title>
+			<title code="0x020007">M08.MID</title>
+			<title code="0x020008">M09.MID</title>
+			<title code="0x020009">M10.MID</title>
+			<title code="0x02000a">M11.MID</title>
+			<title code="0x02000b">M12.MID</title>
+			<title code="0x02000c">M13.MID</title>
+			<title code="0x02000d">M14.MID</title>
+			<title code="0x02000e">M15.MID</title>
+			<title code="0x02000f">M16.MID</title>
+			<title code="0x020010">M17.MID</title>
+			<title code="0x020011">M18.MID</title>
+			<title code="0x020012">M19.MID</title>
+			<title code="0x020013">M20.MID</title>
+			<title code="0x020014">M21.MID</title>
+			<title code="0x020015">M22.MID</title>
+			<title code="0x020016">M23_1.MID</title>
+			<title code="0x020017">M23_2.MID</title>
+			<title code="0x020018">M24.MID</title>
+			<title code="0x020019">M25.MID</title>
+			<title code="0x02001a">M26.MID</title>
+			<title code="0x02001b">M27.MID</title>
+			<title code="0x02001c">M28.MID</title>
+			<title code="0x02001d">M29.MID</title>
+			<title code="0x02001e">M30.MID</title>
+			<title code="0x02001f">M31.MID</title>
+			<title code="0x020020">M32.MID</title>
+			<title code="0x020021">M33.MID</title>
+			<title code="0x020022">M34.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] こうかん日記第II章 ～聖夜をあなたと～ (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="koukan2_98">
+			<rom type="file" offset="-1">MFD.EXE</rom>
+			<rom type="file" offset="-1">mfd_98.com</rom>
+			<rom type="file" offset="-1">M01.MID</rom>
+			<rom type="file" offset="-1">M02.MID</rom>
+			<rom type="file" offset="-1">M03.MID</rom>
+			<rom type="file" offset="-1">M04.MID</rom>
+			<rom type="file" offset="-1">M05.MID</rom>
+			<rom type="file" offset="-1">M06.MID</rom>
+			<rom type="file" offset="-1">M07.MID</rom>
+			<rom type="file" offset="-1">M08.MID</rom>
+			<rom type="file" offset="-1">M09.MID</rom>
+			<rom type="file" offset="-1">M10.MID</rom>
+			<rom type="file" offset="-1">M11.MID</rom>
+			<rom type="file" offset="-1">M12.MID</rom>
+			<rom type="file" offset="-1">M13.MID</rom>
+			<rom type="file" offset="-1">M14.MID</rom>
+			<rom type="file" offset="-1">M15.MID</rom>
+			<rom type="file" offset="-1">M16.MID</rom>
+			<rom type="file" offset="-1">M17.MID</rom>
+			<rom type="file" offset="-1">M18.MID</rom>
+			<rom type="file" offset="-1">M19.MID</rom>
+			<rom type="file" offset="-1">M20.MID</rom>
+			<rom type="file" offset="-1">M21.MID</rom>
+			<rom type="file" offset="-1">M22.MID</rom>
+			<rom type="file" offset="-1">M23_1.MID</rom>
+			<rom type="file" offset="-1">M23_2.MID</rom>
+			<rom type="file" offset="-1">M24.MID</rom>
+			<rom type="file" offset="-1">M25.MID</rom>
+			<rom type="file" offset="-1">M26.MID</rom>
+			<rom type="file" offset="-1">M27.MID</rom>
+			<rom type="file" offset="-1">M28.MID</rom>
+			<rom type="file" offset="-1">M29.MID</rom>
+			<rom type="file" offset="-1">M30.MID</rom>
+			<rom type="file" offset="-1">M31.MID</rom>
+			<rom type="file" offset="-1">M32.MID</rom>
+			<rom type="file" offset="-1">M33.MID</rom>
+			<rom type="file" offset="-1">M34.MID</rom>
+			<rom type="conin" offset="0x00">M01.MID</rom>
+			<rom type="conin" offset="0x01">M02.MID</rom>
+			<rom type="conin" offset="0x02">M03.MID</rom>
+			<rom type="conin" offset="0x03">M04.MID</rom>
+			<rom type="conin" offset="0x04">M05.MID</rom>
+			<rom type="conin" offset="0x05">M06.MID</rom>
+			<rom type="conin" offset="0x06">M07.MID</rom>
+			<rom type="conin" offset="0x07">M08.MID</rom>
+			<rom type="conin" offset="0x08">M09.MID</rom>
+			<rom type="conin" offset="0x09">M10.MID</rom>
+			<rom type="conin" offset="0x0a">M11.MID</rom>
+			<rom type="conin" offset="0x0b">M12.MID</rom>
+			<rom type="conin" offset="0x0c">M13.MID</rom>
+			<rom type="conin" offset="0x0d">M14.MID</rom>
+			<rom type="conin" offset="0x0e">M15.MID</rom>
+			<rom type="conin" offset="0x0f">M16.MID</rom>
+			<rom type="conin" offset="0x10">M17.MID</rom>
+			<rom type="conin" offset="0x11">M18.MID</rom>
+			<rom type="conin" offset="0x12">M19.MID</rom>
+			<rom type="conin" offset="0x13">M20.MID</rom>
+			<rom type="conin" offset="0x14">M21.MID</rom>
+			<rom type="conin" offset="0x15">M22.MID</rom>
+			<rom type="conin" offset="0x16">M23_1.MID</rom>
+			<rom type="conin" offset="0x17">M23_2.MID</rom>
+			<rom type="conin" offset="0x18">M24.MID</rom>
+			<rom type="conin" offset="0x19">M25.MID</rom>
+			<rom type="conin" offset="0x1a">M26.MID</rom>
+			<rom type="conin" offset="0x1b">M27.MID</rom>
+			<rom type="conin" offset="0x1c">M28.MID</rom>
+			<rom type="conin" offset="0x1d">M29.MID</rom>
+			<rom type="conin" offset="0x1e">M30.MID</rom>
+			<rom type="conin" offset="0x1f">M31.MID</rom>
+			<rom type="conin" offset="0x20">M32.MID</rom>
+			<rom type="conin" offset="0x21">M33.MID</rom>
+			<rom type="conin" offset="0x22">M34.MID</rom>
+			<rom type="shell" offset="0">MFD L</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x010000">M01.MID</title>
+			<title code="0x010001">M02.MID</title>
+			<title code="0x010002">M03.MID</title>
+			<title code="0x010003">M04.MID</title>
+			<title code="0x010004">M05.MID</title>
+			<title code="0x010005">M06.MID</title>
+			<title code="0x010006">M07.MID</title>
+			<title code="0x010007">M08.MID</title>
+			<title code="0x010008">M09.MID</title>
+			<title code="0x010009">M10.MID</title>
+			<title code="0x01000a">M11.MID</title>
+			<title code="0x01000b">M12.MID</title>
+			<title code="0x01000c">M13.MID</title>
+			<title code="0x01000d">M14.MID</title>
+			<title code="0x01000e">M15.MID</title>
+			<title code="0x01000f">M16.MID</title>
+			<title code="0x010010">M17.MID</title>
+			<title code="0x010011">M18.MID</title>
+			<title code="0x010012">M19.MID</title>
+			<title code="0x010013">M20.MID</title>
+			<title code="0x010014">M21.MID</title>
+			<title code="0x010015">M22.MID</title>
+			<title code="0x010016">M23_1.MID</title>
+			<title code="0x010017">M23_2.MID</title>
+			<title code="0x010018">M24.MID</title>
+			<title code="0x010019">M25.MID</title>
+			<title code="0x01001a">M26.MID</title>
+			<title code="0x01001b">M27.MID</title>
+			<title code="0x01001c">M28.MID</title>
+			<title code="0x01001d">M29.MID</title>
+			<title code="0x01001e">M30.MID</title>
+			<title code="0x01001f">M31.MID</title>
+			<title code="0x010020">M32.MID</title>
+			<title code="0x010021">M33.MID</title>
+			<title code="0x010022">M34.MID</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 魔人形 (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="madol_98">
+			<rom type="file" offset="-1">MFD.EXE</rom>
+			<rom type="file" offset="-1">mfd_98.com</rom>
+			<rom type="file" offset="-1">MAD01.MID</rom>
+			<rom type="file" offset="-1">MAD02.MID</rom>
+			<rom type="file" offset="-1">MAD03.MID</rom>
+			<rom type="file" offset="-1">MAD04.MID</rom>
+			<rom type="file" offset="-1">MAD05.MID</rom>
+			<rom type="file" offset="-1">MAD06.MID</rom>
+			<rom type="file" offset="-1">MAD07.MID</rom>
+			<rom type="file" offset="-1">MAD08.MID</rom>
+			<rom type="file" offset="-1">MAD09.MID</rom>
+			<rom type="file" offset="-1">MAD10.MID</rom>
+			<rom type="file" offset="-1">MAD11.MID</rom>
+			<rom type="file" offset="-1">MAD12.MID</rom>
+			<rom type="file" offset="-1">MAD13.MID</rom>
+			<rom type="file" offset="-1">MAD14.MID</rom>
+			<rom type="file" offset="-1">MAD15.MID</rom>
+			<rom type="file" offset="-1">MAD16.MID</rom>
+			<rom type="file" offset="-1">MAD17.MID</rom>
+			<rom type="file" offset="-1">MAD18.MID</rom>
+			<rom type="file" offset="-1">MAD19.MID</rom>
+			<rom type="file" offset="-1">MAD20.MID</rom>
+			<rom type="file" offset="-1">MAD21.MID</rom>
+			<rom type="file" offset="-1">MAD22.MID</rom>
+			<rom type="file" offset="-1">MAD23.MID</rom>
+			<rom type="file" offset="-1">MAD24.MID</rom>
+			<rom type="file" offset="-1">MAD25.MID</rom>
+			<rom type="file" offset="-1">MAD26.MID</rom>
+			<rom type="file" offset="-1">MAD27.MID</rom>
+			<rom type="file" offset="-1">MAD28.MID</rom>
+			<rom type="file" offset="-1">MAD29.MID</rom>
+			<rom type="file" offset="-1">MAD30.MID</rom>
+			<rom type="file" offset="-1">MAD31.MID</rom>
+			<rom type="file" offset="-1">MAD32.MID</rom>
+			<rom type="file" offset="-1">MAD33.MID</rom>
+			<rom type="file" offset="-1">MAD34.MID</rom>
+			<rom type="conin" offset="0x00">MAD01.MID</rom>
+			<rom type="conin" offset="0x01">MAD02.MID</rom>
+			<rom type="conin" offset="0x02">MAD03.MID</rom>
+			<rom type="conin" offset="0x03">MAD04.MID</rom>
+			<rom type="conin" offset="0x04">MAD05.MID</rom>
+			<rom type="conin" offset="0x05">MAD06.MID</rom>
+			<rom type="conin" offset="0x06">MAD07.MID</rom>
+			<rom type="conin" offset="0x07">MAD08.MID</rom>
+			<rom type="conin" offset="0x08">MAD09.MID</rom>
+			<rom type="conin" offset="0x09">MAD10.MID</rom>
+			<rom type="conin" offset="0x0a">MAD11.MID</rom>
+			<rom type="conin" offset="0x0b">MAD12.MID</rom>
+			<rom type="conin" offset="0x0c">MAD13.MID</rom>
+			<rom type="conin" offset="0x0d">MAD14.MID</rom>
+			<rom type="conin" offset="0x0e">MAD15.MID</rom>
+			<rom type="conin" offset="0x0f">MAD16.MID</rom>
+			<rom type="conin" offset="0x10">MAD17.MID</rom>
+			<rom type="conin" offset="0x11">MAD18.MID</rom>
+			<rom type="conin" offset="0x12">MAD19.MID</rom>
+			<rom type="conin" offset="0x13">MAD20.MID</rom>
+			<rom type="conin" offset="0x14">MAD21.MID</rom>
+			<rom type="conin" offset="0x15">MAD22.MID</rom>
+			<rom type="conin" offset="0x16">MAD23.MID</rom>
+			<rom type="conin" offset="0x17">MAD24.MID</rom>
+			<rom type="conin" offset="0x18">MAD25.MID</rom>
+			<rom type="conin" offset="0x19">MAD26.MID</rom>
+			<rom type="conin" offset="0x1a">MAD27.MID</rom>
+			<rom type="conin" offset="0x1b">MAD28.MID</rom>
+			<rom type="conin" offset="0x1c">MAD29.MID</rom>
+			<rom type="conin" offset="0x1d">MAD30.MID</rom>
+			<rom type="conin" offset="0x1e">MAD31.MID</rom>
+			<rom type="conin" offset="0x1f">MAD32.MID</rom>
+			<rom type="conin" offset="0x20">MAD33.MID</rom>
+			<rom type="conin" offset="0x21">MAD34.MID</rom>
+			<rom type="shell" offset="0">MFD L</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x020000">オープニング</title>
+			<title code="0x020001">オープニング2</title>
+			<title code="0x020002">涼子のテーマ</title>
+			<title code="0x020003">涼子のテーマ2</title>
+			<title code="0x020004">あやのテーマ</title>
+			<title code="0x020005">瑞穂のテーマ</title>
+			<title code="0x020006">結衣のテーマ</title>
+			<title code="0x020007">智代のテーマ</title>
+			<title code="0x020008">アケミのテーマ</title>
+			<title code="0x020009">真理のテーマ</title>
+			<title code="0x02000a">まゆのテーマ</title>
+			<title code="0x02000b">和也のテーマ</title>
+			<title code="0x02000c">謎の女のテーマ</title>
+			<title code="0x02000d">粧子のテーマ</title>
+			<title code="0x02000e">広夢のテーマ</title>
+			<title code="0x02000f">粧子と謎の女</title>
+			<title code="0x020010">新田のテーマ</title>
+			<title code="0x020011">喫茶店</title>
+			<title code="0x020012">ディスコ</title>
+			<title code="0x020013">スペシャルエンディング</title>
+			<title code="0x020014">バー</title>
+			<title code="0x020015">アンティークショップ</title>
+			<title code="0x020016">洋館</title>
+			<title code="0x020017">怒り</title>
+			<title code="0x020018">ノーマルH1</title>
+			<title code="0x020019">ノーマルH2</title>
+			<title code="0x02001a">アブノーマルH</title>
+			<title code="0x02001b">バッドエンディング</title>
+			<title code="0x02001c">ノーマルエンディング</title>
+			<title code="0x02001d">薫子のテーマ</title>
+			<title code="0x02001e">ラブホテル</title>
+			<title code="0x02001f">メインストリート1</title>
+			<title code="0x020020">メインストリート2</title>
+			<title code="0x020021">公園</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] 魔人形 (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="madol_98">
+			<rom type="file" offset="-1">MFD.EXE</rom>
+			<rom type="file" offset="-1">mfd_98.com</rom>
+			<rom type="file" offset="-1">MAD01.MID</rom>
+			<rom type="file" offset="-1">MAD02.MID</rom>
+			<rom type="file" offset="-1">MAD03.MID</rom>
+			<rom type="file" offset="-1">MAD04.MID</rom>
+			<rom type="file" offset="-1">MAD05.MID</rom>
+			<rom type="file" offset="-1">MAD06.MID</rom>
+			<rom type="file" offset="-1">MAD07.MID</rom>
+			<rom type="file" offset="-1">MAD08.MID</rom>
+			<rom type="file" offset="-1">MAD09.MID</rom>
+			<rom type="file" offset="-1">MAD10.MID</rom>
+			<rom type="file" offset="-1">MAD11.MID</rom>
+			<rom type="file" offset="-1">MAD12.MID</rom>
+			<rom type="file" offset="-1">MAD13.MID</rom>
+			<rom type="file" offset="-1">MAD14.MID</rom>
+			<rom type="file" offset="-1">MAD15.MID</rom>
+			<rom type="file" offset="-1">MAD16.MID</rom>
+			<rom type="file" offset="-1">MAD17.MID</rom>
+			<rom type="file" offset="-1">MAD18.MID</rom>
+			<rom type="file" offset="-1">MAD19.MID</rom>
+			<rom type="file" offset="-1">MAD20.MID</rom>
+			<rom type="file" offset="-1">MAD21.MID</rom>
+			<rom type="file" offset="-1">MAD22.MID</rom>
+			<rom type="file" offset="-1">MAD23.MID</rom>
+			<rom type="file" offset="-1">MAD24.MID</rom>
+			<rom type="file" offset="-1">MAD25.MID</rom>
+			<rom type="file" offset="-1">MAD26.MID</rom>
+			<rom type="file" offset="-1">MAD27.MID</rom>
+			<rom type="file" offset="-1">MAD28.MID</rom>
+			<rom type="file" offset="-1">MAD29.MID</rom>
+			<rom type="file" offset="-1">MAD30.MID</rom>
+			<rom type="file" offset="-1">MAD31.MID</rom>
+			<rom type="file" offset="-1">MAD32.MID</rom>
+			<rom type="file" offset="-1">MAD33.MID</rom>
+			<rom type="file" offset="-1">MAD34.MID</rom>
+			<rom type="conin" offset="0x00">MAD01.MID</rom>
+			<rom type="conin" offset="0x01">MAD02.MID</rom>
+			<rom type="conin" offset="0x02">MAD03.MID</rom>
+			<rom type="conin" offset="0x03">MAD04.MID</rom>
+			<rom type="conin" offset="0x04">MAD05.MID</rom>
+			<rom type="conin" offset="0x05">MAD06.MID</rom>
+			<rom type="conin" offset="0x06">MAD07.MID</rom>
+			<rom type="conin" offset="0x07">MAD08.MID</rom>
+			<rom type="conin" offset="0x08">MAD09.MID</rom>
+			<rom type="conin" offset="0x09">MAD10.MID</rom>
+			<rom type="conin" offset="0x0a">MAD11.MID</rom>
+			<rom type="conin" offset="0x0b">MAD12.MID</rom>
+			<rom type="conin" offset="0x0c">MAD13.MID</rom>
+			<rom type="conin" offset="0x0d">MAD14.MID</rom>
+			<rom type="conin" offset="0x0e">MAD15.MID</rom>
+			<rom type="conin" offset="0x0f">MAD16.MID</rom>
+			<rom type="conin" offset="0x10">MAD17.MID</rom>
+			<rom type="conin" offset="0x11">MAD18.MID</rom>
+			<rom type="conin" offset="0x12">MAD19.MID</rom>
+			<rom type="conin" offset="0x13">MAD20.MID</rom>
+			<rom type="conin" offset="0x14">MAD21.MID</rom>
+			<rom type="conin" offset="0x15">MAD22.MID</rom>
+			<rom type="conin" offset="0x16">MAD23.MID</rom>
+			<rom type="conin" offset="0x17">MAD24.MID</rom>
+			<rom type="conin" offset="0x18">MAD25.MID</rom>
+			<rom type="conin" offset="0x19">MAD26.MID</rom>
+			<rom type="conin" offset="0x1a">MAD27.MID</rom>
+			<rom type="conin" offset="0x1b">MAD28.MID</rom>
+			<rom type="conin" offset="0x1c">MAD29.MID</rom>
+			<rom type="conin" offset="0x1d">MAD30.MID</rom>
+			<rom type="conin" offset="0x1e">MAD31.MID</rom>
+			<rom type="conin" offset="0x1f">MAD32.MID</rom>
+			<rom type="conin" offset="0x20">MAD33.MID</rom>
+			<rom type="conin" offset="0x21">MAD34.MID</rom>
+			<rom type="shell" offset="0">MFD L</rom>
+			<rom type="shell" offset="0">mfd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x010000">オープニング</title>
+			<title code="0x010001">オープニング2</title>
+			<title code="0x010002">涼子のテーマ</title>
+			<title code="0x010003">涼子のテーマ2</title>
+			<title code="0x010004">あやのテーマ</title>
+			<title code="0x010005">瑞穂のテーマ</title>
+			<title code="0x010006">結衣のテーマ</title>
+			<title code="0x010007">智代のテーマ</title>
+			<title code="0x010008">アケミのテーマ</title>
+			<title code="0x010009">真理のテーマ</title>
+			<title code="0x01000a">まゆのテーマ</title>
+			<title code="0x01000b">和也のテーマ</title>
+			<title code="0x01000c">謎の女のテーマ</title>
+			<title code="0x01000d">粧子のテーマ</title>
+			<title code="0x01000e">広夢のテーマ</title>
+			<title code="0x01000f">粧子と謎の女</title>
+			<title code="0x010010">新田のテーマ</title>
+			<title code="0x010011">喫茶店</title>
+			<title code="0x010012">ディスコ</title>
+			<title code="0x010013">スペシャルエンディング</title>
+			<title code="0x010014">バー</title>
+			<title code="0x010015">アンティークショップ</title>
+			<title code="0x010016">洋館</title>
+			<title code="0x010017">怒り</title>
+			<title code="0x010018">ノーマルH1</title>
+			<title code="0x010019">ノーマルH2</title>
+			<title code="0x01001a">アブノーマルH</title>
+			<title code="0x01001b">バッドエンディング</title>
+			<title code="0x01001c">ノーマルエンディング</title>
+			<title code="0x01001d">薫子のテーマ</title>
+			<title code="0x01001e">ラブホテル</title>
+			<title code="0x01001f">メインストリート1</title>
+			<title code="0x010020">メインストリート2</title>
+			<title code="0x010021">公園</title>
+		</titlelist>
+	</game>
 </gamelist>

@@ -34,7 +34,7 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //Victor Entertainment / Victor Entertainment / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/FUN FACTORY -->
+	<!-- //Victor Entertainment / Victor/CROSSMEDIA SOFT / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/FUN FACTORY -->
 	<game>
 		<name>[X68000] Star Wars: Attack on the Death Star (スターウォーズ Attack on the DEATH STAR) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
@@ -49,7 +49,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0106">タイトル</title>
-			<title code="0x0101">ステージ１</title>
+			<title code="0x0101">ステージ1</title>
 			<title code="0x0102">ステージ2</title>
 			<title code="0x0103">ステージ3前半</title>
 			<title code="0x0104">ステージ3後半</title>
@@ -1711,6 +1711,52 @@
 			<title code="0x09001e">SE3.SEQ</title>
 			<title code="0x09001f">SE4.SEQ</title>
 			<title code="0x090020">SE5.SEQ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Professional Baseball '96 (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Victor Entertainment</driveralias>
+		<romlist archive="pbball96_98">
+			<rom type="file" offset="-1">MDR_98.COM</rom>
+			<rom type="file" offset="-1">MDR.EXE</rom>
+			<rom type="file" offset="0x09">VOICE.VOI</rom>
+			<rom type="file" offset="0x10">BOUND.SEQ</rom>
+			<rom type="file" offset="0x11">BUS.SEQ</rom>
+			<rom type="file" offset="0x12">CATCH.SEQ</rom>
+			<rom type="file" offset="0x13">DEAD.SEQ</rom>
+			<rom type="file" offset="0x14">DENSYA.SEQ</rom>
+			<rom type="file" offset="0x15">GASYA2.SEQ</rom>
+			<rom type="file" offset="0x16">GASYAN.SEQ</rom>
+			<rom type="file" offset="0x17">JET.SEQ</rom>
+			<rom type="file" offset="0x18">KAN1.SEQ</rom>
+			<rom type="file" offset="0x19">KAN2.SEQ</rom>
+			<rom type="file" offset="0x1a">KAN3.SEQ</rom>
+			<rom type="file" offset="0x1b">KOTSU.SEQ</rom>
+			<rom type="file" offset="0x1c">KOTSU_OL.SEQ</rom>
+			<rom type="file" offset="0x1d">SLIDE.SEQ</rom>
+			<rom type="file" offset="0x1e">SWING.SEQ</rom>
+			<rom type="file" offset="0x1f">THROW.SEQ</rom>
+			<rom type="device" offset="0">MDR.EXE</rom>
+			<rom type="shell" offset="0">MDR_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x090010">BOUND.SEQ</title>
+			<title code="0x090011">BUS.SEQ</title>
+			<title code="0x090012">CATCH.SEQ</title>
+			<title code="0x090013">DEAD.SEQ</title>
+			<title code="0x090014">DENSYA.SEQ</title>
+			<title code="0x090015">GASYA2.SEQ</title>
+			<title code="0x090016">GASYAN.SEQ</title>
+			<title code="0x090017">JET.SEQ</title>
+			<title code="0x090018">KAN1.SEQ</title>
+			<title code="0x090019">KAN2.SEQ</title>
+			<title code="0x09001a">KAN3.SEQ</title>
+			<title code="0x09001b">KOTSU.SEQ</title>
+			<title code="0x09001c">KOTSU_OL.SEQ</title>
+			<title code="0x09001d">SLIDE.SEQ</title>
+			<title code="0x09001e">SWING.SEQ</title>
+			<title code="0x09001f">THROW.SEQ</title>
 		</titlelist>
 	</game>
 	<game>

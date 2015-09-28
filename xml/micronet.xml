@@ -317,6 +317,20 @@
 			<title code="0x0a09">STNO7.MML</title>
 		</titlelist>
 	</game>
+		<name>[X68000] Heavy Nova (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Micro Net</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="hnova68snd">
+			<rom type="code" offset="0x000000">hnova68snd.bin</rom>
+			<rom type="x" offset="0x010000">HEAD.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x0f" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
 	<game>
 		<name>[MSX] 麻雀狂時代 SPECIAL II 冒険篇(OPLL)</name>
 		<driver type="generic">msx</driver>
@@ -331,7 +345,7 @@
 			<rom type="code" offset="0x8f00">BIOS.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x10" extcode="1">BGM %02x</range>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -347,7 +361,7 @@
 			<rom type="code" offset="0x8f00">BIOS.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x10" extcode="1">BGM %02x</range>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -367,8 +381,8 @@
 			<rom type="bgm"  offset="0x01">ENDMSX.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x003" extcode="1">BGM 0x%03x</range>
-			<range min="0x100" max="0x102" extcode="1">BGM 0x%03x</range>
+			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -387,12 +401,12 @@
 			<rom type="bgm"  offset="0x01">ENDMSX.COM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x000" max="0x003" extcode="1">BGM 0x%03x</range>
-			<range min="0x100" max="0x102" extcode="1">BGM 0x%03x</range>
+			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] たんば(OPLL)</name>
+		<name>[MSX] たんば (OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -405,12 +419,12 @@
 			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">タイトル</title>
+			<title code="0x00">Title (タイトル)</title>
 			<title code="0x01">上がり</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] たんば(PSG)</name>
+		<name>[MSX] たんば (PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -422,7 +436,7 @@
 			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">タイトル</title>
+			<title code="0x00">Title (タイトル)</title>
 			<title code="0x01">上がり</title>
 		</titlelist>
 	</game>

@@ -1775,28 +1775,29 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Familysoft</driveralias>
 		<options>
-			<option name="pcm8"    value="0x01"/>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
 		</options>
 		<romlist archive="asuka68snd">
-			<rom type="code" offset="0x000000">ask68snd.bin</rom>
-			<rom type="code" offset="0x010000">mus_dat1/AS00.ZMD</rom>
-			<rom type="code" offset="0x014000">mus_dat1/AS01.ZMD</rom>
-			<rom type="code" offset="0x018000">mus_dat1/AS02.ZMD</rom>
-			<rom type="code" offset="0x01c000">mus_dat1/AS03.ZMD</rom>
-			<rom type="code" offset="0x020000">mus_dat1/AS04.ZMD</rom>
-			<rom type="code" offset="0x024000">mus_dat1/AS05.ZMD</rom>
-			<rom type="code" offset="0x028000">mus_dat1/AS06.ZMD</rom>
-			<rom type="code" offset="0x02c000">mus_dat1/AS07.ZMD</rom>
-			<rom type="code" offset="0x030000">mus_dat1/AS08.ZMD</rom>
-			<rom type="code" offset="0x034000">mus_dat1/AS09.ZMD</rom>
-			<rom type="code" offset="0x038000">mus_dat1/AS10.ZMD</rom>
-			<rom type="code" offset="0x03c000">mus_dat1/AS11.ZMD</rom>
-			<rom type="code" offset="0x040000">mus_dat1/AS12.ZMD</rom>
-			<rom type="code" offset="0x044000">mus_dat1/AS13.ZMD</rom>
-			<rom type="code" offset="0x048000">mus_dat1/AS14.ZMD</rom>
-			<rom type="code" offset="0x04c000">mus_dat1/AS15.ZMD</rom>
-			<rom type="code" offset="0x060000">mus_dat1/ASKA.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">mus_dat1/AS00.ZMD</rom>
+			<rom type="code" offset="0x031000">mus_dat1/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat1/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat1/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat1/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat1/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat1/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat1/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat1/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat1/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat1/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat1/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat1/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat1/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat1/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat1/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">Burning Fest.</title>
@@ -1818,48 +1819,51 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (SC-55)</name>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (GS)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Familysoft</driveralias>
 		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="pcm8" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
 		<romlist archive="asuka68snd">
-			<rom type="code" offset="0x000000">ask68mid.bin</rom>
-			<rom type="code" offset="0x010000">mus_dat2/AS01.ZMD</rom>
-			<rom type="code" offset="0x015000">mus_dat2/AS02.ZMD</rom>
-			<rom type="code" offset="0x018000">mus_dat2/AS03.ZMD</rom>
-			<rom type="code" offset="0x01c000">mus_dat2/AS04.ZMD</rom>
-			<rom type="code" offset="0x020000">mus_dat2/AS05.ZMD</rom>
-			<rom type="code" offset="0x025000">mus_dat2/AS06.ZMD</rom>
-			<rom type="code" offset="0x029000">mus_dat2/AS07.ZMD</rom>
-			<rom type="code" offset="0x02b000">mus_dat2/AS08.ZMD</rom>
-			<rom type="code" offset="0x036000">mus_dat2/AS09.ZMD</rom>
-			<rom type="code" offset="0x039000">mus_dat2/AS10.ZMD</rom>
-			<rom type="code" offset="0x03c000">mus_dat2/AS11.ZMD</rom>
-			<rom type="code" offset="0x03d000">mus_dat2/AS12.ZMD</rom>
-			<rom type="code" offset="0x03e000">mus_dat2/AS13.ZMD</rom>
-			<rom type="code" offset="0x041000">mus_dat2/AS14.ZMD</rom>
-			<rom type="code" offset="0x043000">mus_dat2/AS15.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat2/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat2/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat2/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat2/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat2/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat2/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat2/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat2/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat2/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat2/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat2/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat2/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat2/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat2/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat2/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">Burning Fest.</title>
-			<title code="0x0a">Entry</title>
-			<title code="0x0b">Title In</title>
-			<title code="0x01">飛鳥のテーマ</title>
-			<title code="0x02">環のテーマ</title>
-			<title code="0x03">虎美のテーマ</title>
-			<title code="0x04">竜子のテーマ</title>
-			<title code="0x05">めぐみのテーマ</title>
-			<title code="0x06">久美のテーマ</title>
-			<title code="0x0f">The Battle</title>
-			<title code="0x08">Vacation</title>
-			<title code="0x09">Continue?</title>
-			<title code="0x0e">Game Over</title>
-			<title code="0x0c">私立繚乱女学院高等学校校歌</title>
-			<title code="0x0d">Legend of Valkyrie</title>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1867,44 +1871,47 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Familysoft</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="8"/>
 		</options>
 		<romlist archive="asuka68snd">
-			<rom type="code" offset="0x000000">ask68mid.bin</rom>
-			<rom type="code" offset="0x010000">mus_dat3/AS01.ZMD</rom>
-			<rom type="code" offset="0x015000">mus_dat3/AS02.ZMD</rom>
-			<rom type="code" offset="0x018000">mus_dat3/AS03.ZMD</rom>
-			<rom type="code" offset="0x01c000">mus_dat3/AS04.ZMD</rom>
-			<rom type="code" offset="0x020000">mus_dat3/AS05.ZMD</rom>
-			<rom type="code" offset="0x025000">mus_dat3/AS06.ZMD</rom>
-			<rom type="code" offset="0x029000">mus_dat3/AS07.ZMD</rom>
-			<rom type="code" offset="0x02b000">mus_dat3/AS08.ZMD</rom>
-			<rom type="code" offset="0x036000">mus_dat3/AS09.ZMD</rom>
-			<rom type="code" offset="0x039000">mus_dat3/AS10.ZMD</rom>
-			<rom type="code" offset="0x03c000">mus_dat3/AS11.ZMD</rom>
-			<rom type="code" offset="0x03d000">mus_dat3/AS12.ZMD</rom>
-			<rom type="code" offset="0x03e000">mus_dat3/AS13.ZMD</rom>
-			<rom type="code" offset="0x041000">mus_dat3/AS14.ZMD</rom>
-			<rom type="code" offset="0x043000">mus_dat3/AS15.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat3/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat3/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat3/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat3/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat3/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat3/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat3/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat3/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat3/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat3/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat3/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat3/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat3/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat3/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat3/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">Burning Fest.</title>
-			<title code="0x0a">Entry</title>
-			<title code="0x0b">Title In</title>
-			<title code="0x01">飛鳥のテーマ</title>
-			<title code="0x02">環のテーマ</title>
-			<title code="0x03">虎美のテーマ</title>
-			<title code="0x04">竜子のテーマ</title>
-			<title code="0x05">めぐみのテーマ</title>
-			<title code="0x06">久美のテーマ</title>
-			<title code="0x0f">The Battle</title>
-			<title code="0x08">Vacation</title>
-			<title code="0x09">Continue?</title>
-			<title code="0x0e">Game Over</title>
-			<title code="0x0c">私立繚乱女学院高等学校校歌</title>
-			<title code="0x0d">Legend of Valkyrie</title>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1912,44 +1919,47 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Familysoft</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
 		</options>
 		<romlist archive="asuka68snd">
-			<rom type="code" offset="0x000000">ask68mid.bin</rom>
-			<rom type="code" offset="0x010000">mus_dat3/AS01.ZMD</rom>
-			<rom type="code" offset="0x015000">mus_dat3/AS02.ZMD</rom>
-			<rom type="code" offset="0x018000">mus_dat3/AS03.ZMD</rom>
-			<rom type="code" offset="0x01c000">mus_dat3/AS04.ZMD</rom>
-			<rom type="code" offset="0x020000">mus_dat3/AS05.ZMD</rom>
-			<rom type="code" offset="0x025000">mus_dat3/AS06.ZMD</rom>
-			<rom type="code" offset="0x029000">mus_dat3/AS07.ZMD</rom>
-			<rom type="code" offset="0x02b000">mus_dat3/AS08.ZMD</rom>
-			<rom type="code" offset="0x036000">mus_dat3/AS09.ZMD</rom>
-			<rom type="code" offset="0x039000">mus_dat3/AS10.ZMD</rom>
-			<rom type="code" offset="0x03c000">mus_dat3/AS11.ZMD</rom>
-			<rom type="code" offset="0x03d000">mus_dat3/AS12.ZMD</rom>
-			<rom type="code" offset="0x03e000">mus_dat3/AS13.ZMD</rom>
-			<rom type="code" offset="0x041000">mus_dat3/AS14.ZMD</rom>
-			<rom type="code" offset="0x043000">mus_dat3/AS15.ZMD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat3/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat3/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat3/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat3/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat3/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat3/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat3/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat3/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat3/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat3/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat3/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat3/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat3/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat3/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat3/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">Burning Fest.</title>
-			<title code="0x0a">Entry</title>
-			<title code="0x0b">Title In</title>
-			<title code="0x01">飛鳥のテーマ</title>
-			<title code="0x02">環のテーマ</title>
-			<title code="0x03">虎美のテーマ</title>
-			<title code="0x04">竜子のテーマ</title>
-			<title code="0x05">めぐみのテーマ</title>
-			<title code="0x06">久美のテーマ</title>
-			<title code="0x0f">The Battle</title>
-			<title code="0x08">Vacation</title>
-			<title code="0x09">Continue?</title>
-			<title code="0x0e">Game Over</title>
-			<title code="0x0c">私立繚乱女学院高等学校校歌</title>
-			<title code="0x0d">Legend of Valkyrie</title>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2464,6 +2474,30 @@
 			<title code="0x06">Last Boss</title>
 			<title code="0x08">Ending</title>
 			<range min="0x165" max="0x17a" extcode="1">SE 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mobile Suit Gundam: MS Field (機動戦士ガンダム MSフィールド) </name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">FamilySoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x9ff9"/>
+			<option name="mdata_size" value="0x0800"/>
+			<option name="mfile_size" value="0x0800"/>
+			<option name="init_pc"    value="0x0400"/>
+		</options>
+		<romlist archive="msfield_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xAff9">M.BIN</rom>
+			<rom type="bgm" offset="0x00">MUSIC0.BIN</rom>
+			<rom type="bgm" offset="0x01">MUSIC1.BIN</rom>
+			<rom type="bgm" offset="0x02">MUSIC2.BIN</rom>
+			<rom type="bgm" offset="0x03">MUSIC3.BIN</rom>
+			<rom type="bgm" offset="0x04">MUSIC4.BIN</rom>
+			<rom type="bgm" offset="0x05">MUSIC5.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x001" max="0x005" extcode="0">MUSIC%1d.BIN</range>
 		</titlelist>
 	</game>
 </gamelist>

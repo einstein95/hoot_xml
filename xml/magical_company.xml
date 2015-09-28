@@ -787,50 +787,53 @@
 		<name>[X68000] Garou Densetsu Special (âÏòTì`ê‡SPECIAL) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
-		<romlist archive="garousp68snd">
-			<rom type="code" offset="0x000000">gsp68snd.bin</rom>
-			<rom type="code" offset="0x010000">BGMF_00.ZMD</rom>
-			<rom type="code" offset="0x012000">BGMF_01.ZMD</rom>
-			<rom type="code" offset="0x014000">BGMF_02.ZMD</rom>
-			<rom type="code" offset="0x016000">BGMF_03.ZMD</rom>
-			<rom type="code" offset="0x018000">BGMF_04.ZMD</rom>
-			<rom type="code" offset="0x01a000">BGMF_05.ZMD</rom>
-			<rom type="code" offset="0x01c000">BGMF_06.ZMD</rom>
-			<rom type="code" offset="0x01e000">BGMF_07.ZMD</rom>
-			<rom type="code" offset="0x020000">BGMF_08.ZMD</rom>
-			<rom type="code" offset="0x022000">BGMF_09.ZMD</rom>
-			<rom type="code" offset="0x024000">BGMF_10.ZMD</rom>
-			<rom type="code" offset="0x026000">BGMF_11.ZMD</rom>
-			<rom type="code" offset="0x028000">BGMF_12.ZMD</rom>
-			<rom type="code" offset="0x02a000">BGMF_13.ZMD</rom>
-			<rom type="code" offset="0x02c000">BGMF_14.ZMD</rom>
-			<rom type="code" offset="0x02e000">BGMF_15.ZMD</rom>
-			<rom type="code" offset="0x030000">BGMF_16.ZMD</rom>
-			<rom type="code" offset="0x038000">BGMF_20.ZMD</rom>
-			<rom type="code" offset="0x03a000">BGMF_21.ZMD</rom>
-			<rom type="code" offset="0x03e000">BGMF_23.ZMD</rom>
-			<rom type="code" offset="0x040000">BGMF_24.ZMD</rom>
-			<rom type="code" offset="0x042000">BGMF_25.ZMD</rom>
-			<rom type="code" offset="0x044000">BGMF_26.ZMD</rom>
-			<rom type="code" offset="0x046000">BGMF_27.ZMD</rom>
-			<rom type="code" offset="0x048000">BGMF_28.ZMD</rom>
-			<rom type="code" offset="0x04a000">BGMF_29.ZMD</rom>
-			<rom type="code" offset="0x04c000">BGMF_30.ZMD</rom>
-			<rom type="code" offset="0x050000">BEAR.ZPD</rom>
-			<rom type="code" offset="0x055000">BLOOD.ZPD</rom>
-			<rom type="code" offset="0x062000">CRAUSER.ZPD</rom>
-			<rom type="code" offset="0x064000">DUCK.ZPD</rom>
-			<rom type="code" offset="0x06a000">ENDING.ZPD</rom>
-			<rom type="code" offset="0x071000">GDSP_MH.ZPD</rom>
-			<rom type="code" offset="0x0a0000">GEESE.ZPD</rom>
-			<rom type="code" offset="0x0a8000">JOE.ZPD</rom>
-			<rom type="code" offset="0x0b0000">JYUBEI.ZPD</rom>
-			<rom type="code" offset="0x0b8000">RYO.ZPD</rom>
-			<rom type="code" offset="0x0bd000">SELECT.ZPD</rom>
-			<rom type="code" offset="0x0c1000">SNARE2.ZPD</rom>
-			<rom type="code" offset="0x0c5000">TERRY.ZPD</rom>
-			<rom type="code" offset="0x0c9000">TITLE.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="fatfursp68snd">
+			<rom type="code" offset="0x000000">ffurysp68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">BGMF_00.ZMD</rom>
+			<rom type="code" offset="0x032000">BGMF_01.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMF_02.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMF_03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMF_04.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMF_05.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMF_06.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMF_07.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMF_08.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMF_09.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMF_10.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMF_11.ZMD</rom>
+			<rom type="code" offset="0x048000">BGMF_12.ZMD</rom>
+			<rom type="code" offset="0x04a000">BGMF_13.ZMD</rom>
+			<rom type="code" offset="0x04c000">BGMF_14.ZMD</rom>
+			<rom type="code" offset="0x04e000">BGMF_15.ZMD</rom>
+			<rom type="code" offset="0x050000">BGMF_16.ZMD</rom>
+			<rom type="code" offset="0x058000">BGMF_20.ZMD</rom>
+			<rom type="code" offset="0x05a000">BGMF_21.ZMD</rom>
+			<rom type="code" offset="0x05e000">BGMF_23.ZMD</rom>
+			<rom type="code" offset="0x060000">BGMF_24.ZMD</rom>
+			<rom type="code" offset="0x062000">BGMF_25.ZMD</rom>
+			<rom type="code" offset="0x064000">BGMF_26.ZMD</rom>
+			<rom type="code" offset="0x066000">BGMF_27.ZMD</rom>
+			<rom type="code" offset="0x068000">BGMF_28.ZMD</rom>
+			<rom type="code" offset="0x06a000">BGMF_29.ZMD</rom>
+			<rom type="code" offset="0x06c000">BGMF_30.ZMD</rom>
+			<rom type="code" offset="0x070000">BEAR.ZPD</rom>
+			<rom type="code" offset="0x075000">BLOOD.ZPD</rom>
+			<rom type="code" offset="0x082000">CRAUSER.ZPD</rom>
+			<rom type="code" offset="0x084000">DUCK.ZPD</rom>
+			<rom type="code" offset="0x08a000">ENDING.ZPD</rom>
+			<rom type="code" offset="0x091000">GDSP_MH.ZPD</rom>
+			<rom type="code" offset="0x0c0000">GEESE.ZPD</rom>
+			<rom type="code" offset="0x0c8000">JOE.ZPD</rom>
+			<rom type="code" offset="0x0d0000">JYUBEI.ZPD</rom>
+			<rom type="code" offset="0x0d8000">RYO.ZPD</rom>
+			<rom type="code" offset="0x0dd000">SELECT.ZPD</rom>
+			<rom type="code" offset="0x0e1000">SNARE2.ZPD</rom>
+			<rom type="code" offset="0x0e5000">TERRY.ZPD</rom>
+			<rom type="code" offset="0x0e9000">TITLE.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
@@ -869,52 +872,53 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
-		<romlist archive="garousp68snd">
-			<rom type="code" offset="0x000000">gsp68mid.bin</rom>
-			<rom type="code" offset="0x010000">BGMM_00.ZMD</rom>
-			<rom type="code" offset="0x012000">BGMM_01.ZMD</rom>
-			<rom type="code" offset="0x014000">BGMM_02.ZMD</rom>
-			<rom type="code" offset="0x016000">BGMM_03.ZMD</rom>
-			<rom type="code" offset="0x018000">BGMM_04.ZMD</rom>
-			<rom type="code" offset="0x01a000">BGMM_05.ZMD</rom>
-			<rom type="code" offset="0x01c000">BGMM_06.ZMD</rom>
-			<rom type="code" offset="0x01e000">BGMM_07.ZMD</rom>
-			<rom type="code" offset="0x020000">BGMM_08.ZMD</rom>
-			<rom type="code" offset="0x022000">BGMM_09.ZMD</rom>
-			<rom type="code" offset="0x024000">BGMM_10.ZMD</rom>
-			<rom type="code" offset="0x026000">BGMM_11.ZMD</rom>
-			<rom type="code" offset="0x028000">BGMM_12.ZMD</rom>
-			<rom type="code" offset="0x02a000">BGMM_13.ZMD</rom>
-			<rom type="code" offset="0x02c000">BGMM_14.ZMD</rom>
-			<rom type="code" offset="0x02e000">BGMM_15.ZMD</rom>
-			<rom type="code" offset="0x030000">BGMM_16.ZMD</rom>
-			<rom type="code" offset="0x03a000">BGMM_21.ZMD</rom>
-			<rom type="code" offset="0x03e000">BGMM_23.ZMD</rom>
-			<rom type="code" offset="0x040000">BGMM_24.ZMD</rom>
-			<rom type="code" offset="0x042000">BGMM_25.ZMD</rom>
-			<rom type="code" offset="0x044000">BGMM_26.ZMD</rom>
-			<rom type="code" offset="0x046000">BGMM_27.ZMD</rom>
-			<rom type="code" offset="0x048000">BGMM_28.ZMD</rom>
-			<rom type="code" offset="0x04a000">BGMM_29.ZMD</rom>
-			<rom type="code" offset="0x04c000">BGMM_30.ZMD</rom>
-			<rom type="code" offset="0x050000">BEAR.ZPD</rom>
-			<rom type="code" offset="0x055000">BLOOD.ZPD</rom>
-			<rom type="code" offset="0x062000">CRAUSER.ZPD</rom>
-			<rom type="code" offset="0x064000">DUCK.ZPD</rom>
-			<rom type="code" offset="0x06a000">ENDING.ZPD</rom>
-			<rom type="code" offset="0x071000">GDSP_MH.ZPD</rom>
-			<rom type="code" offset="0x0a0000">GEESE.ZPD</rom>
-			<rom type="code" offset="0x0a8000">JOE.ZPD</rom>
-			<rom type="code" offset="0x0b0000">JYUBEI.ZPD</rom>
-			<rom type="code" offset="0x0b8000">RYO.ZPD</rom>
-			<rom type="code" offset="0x0bd000">SELECT.ZPD</rom>
-			<rom type="code" offset="0x0c1000">SNARE2.ZPD</rom>
-			<rom type="code" offset="0x0c5000">TERRY.ZPD</rom>
-			<rom type="code" offset="0x0c9000">TITLE.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+		<romlist archive="fatfursp68snd">
+			<rom type="code" offset="0x000000">ffurysp68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">BGMM_00.ZMD</rom>
+			<rom type="code" offset="0x032000">BGMM_01.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMM_02.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMM_03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMM_04.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMM_05.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMM_06.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMM_07.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMM_08.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMM_09.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMM_10.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMM_11.ZMD</rom>
+			<rom type="code" offset="0x048000">BGMM_12.ZMD</rom>
+			<rom type="code" offset="0x04a000">BGMM_13.ZMD</rom>
+			<rom type="code" offset="0x04c000">BGMM_14.ZMD</rom>
+			<rom type="code" offset="0x04e000">BGMM_15.ZMD</rom>
+			<rom type="code" offset="0x050000">BGMM_16.ZMD</rom>
+			<rom type="code" offset="0x05a000">BGMM_21.ZMD</rom>
+			<rom type="code" offset="0x05e000">BGMM_23.ZMD</rom>
+			<rom type="code" offset="0x060000">BGMM_24.ZMD</rom>
+			<rom type="code" offset="0x062000">BGMM_25.ZMD</rom>
+			<rom type="code" offset="0x064000">BGMM_26.ZMD</rom>
+			<rom type="code" offset="0x066000">BGMM_27.ZMD</rom>
+			<rom type="code" offset="0x068000">BGMM_28.ZMD</rom>
+			<rom type="code" offset="0x06a000">BGMM_29.ZMD</rom>
+			<rom type="code" offset="0x06c000">BGMM_30.ZMD</rom>
+			<rom type="code" offset="0x070000">BEAR.ZPD</rom>
+			<rom type="code" offset="0x075000">BLOOD.ZPD</rom>
+			<rom type="code" offset="0x082000">CRAUSER.ZPD</rom>
+			<rom type="code" offset="0x084000">DUCK.ZPD</rom>
+			<rom type="code" offset="0x08a000">ENDING.ZPD</rom>
+			<rom type="code" offset="0x091000">GDSP_MH.ZPD</rom>
+			<rom type="code" offset="0x0c0000">GEESE.ZPD</rom>
+			<rom type="code" offset="0x0c8000">JOE.ZPD</rom>
+			<rom type="code" offset="0x0d0000">JYUBEI.ZPD</rom>
+			<rom type="code" offset="0x0d8000">RYO.ZPD</rom>
+			<rom type="code" offset="0x0dd000">SELECT.ZPD</rom>
+			<rom type="code" offset="0x0e1000">SNARE2.ZPD</rom>
+			<rom type="code" offset="0x0e5000">TERRY.ZPD</rom>
+			<rom type="code" offset="0x0e9000">TITLE.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
@@ -950,60 +954,58 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
-		<romlist archive="garousp68snd">
-			<rom type="code" offset="0x000000">gsp68mid.bin</rom>
-			<rom type="code" offset="0x010000">BGMM_00.ZMD</rom>
-			<rom type="code" offset="0x012000">BGMM_01.ZMD</rom>
-			<rom type="code" offset="0x014000">BGMM_02.ZMD</rom>
-			<rom type="code" offset="0x016000">BGMM_03.ZMD</rom>
-			<rom type="code" offset="0x018000">BGMM_04.ZMD</rom>
-			<rom type="code" offset="0x01a000">BGMM_05.ZMD</rom>
-			<rom type="code" offset="0x01c000">BGMM_06.ZMD</rom>
-			<rom type="code" offset="0x01e000">BGMM_07.ZMD</rom>
-			<rom type="code" offset="0x020000">BGMM_08.ZMD</rom>
-			<rom type="code" offset="0x022000">BGMM_09.ZMD</rom>
-			<rom type="code" offset="0x024000">BGMM_10.ZMD</rom>
-			<rom type="code" offset="0x026000">BGMM_11.ZMD</rom>
-			<rom type="code" offset="0x028000">BGMM_12.ZMD</rom>
-			<rom type="code" offset="0x02a000">BGMM_13.ZMD</rom>
-			<rom type="code" offset="0x02c000">BGMM_14.ZMD</rom>
-			<rom type="code" offset="0x02e000">BGMM_15.ZMD</rom>
-			<rom type="code" offset="0x030000">BGMM_16.ZMD</rom>
-			<rom type="code" offset="0x03a000">BGMM_21.ZMD</rom>
-			<rom type="code" offset="0x03e000">BGMM_23.ZMD</rom>
-			<rom type="code" offset="0x040000">BGMM_24.ZMD</rom>
-			<rom type="code" offset="0x042000">BGMM_25.ZMD</rom>
-			<rom type="code" offset="0x044000">BGMM_26.ZMD</rom>
-			<rom type="code" offset="0x046000">BGMM_27.ZMD</rom>
-			<rom type="code" offset="0x048000">BGMM_28.ZMD</rom>
-			<rom type="code" offset="0x04a000">BGMM_29.ZMD</rom>
-			<rom type="code" offset="0x04c000">BGMM_30.ZMD</rom>
-			<rom type="code" offset="0x050000">BEAR.ZPD</rom>
-			<rom type="code" offset="0x055000">BLOOD.ZPD</rom>
-			<rom type="code" offset="0x062000">CRAUSER.ZPD</rom>
-			<rom type="code" offset="0x064000">DUCK.ZPD</rom>
-			<rom type="code" offset="0x06a000">ENDING.ZPD</rom>
-			<rom type="code" offset="0x071000">GDSP_MH.ZPD</rom>
-			<rom type="code" offset="0x0a0000">GEESE.ZPD</rom>
-			<rom type="code" offset="0x0a8000">JOE.ZPD</rom>
-			<rom type="code" offset="0x0b0000">JYUBEI.ZPD</rom>
-			<rom type="code" offset="0x0b8000">RYO.ZPD</rom>
-			<rom type="code" offset="0x0bd000">SELECT.ZPD</rom>
-			<rom type="code" offset="0x0c1000">SNARE2.ZPD</rom>
-			<rom type="code" offset="0x0c5000">TERRY.ZPD</rom>
-			<rom type="code" offset="0x0c9000">TITLE.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+		<romlist archive="fatfursp68snd">
+			<rom type="code" offset="0x000000">ffurysp68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">BGMM_00.ZMD</rom>
+			<rom type="code" offset="0x032000">BGMM_01.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMM_02.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMM_03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMM_04.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMM_05.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMM_06.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMM_07.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMM_08.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMM_09.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMM_10.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMM_11.ZMD</rom>
+			<rom type="code" offset="0x048000">BGMM_12.ZMD</rom>
+			<rom type="code" offset="0x04a000">BGMM_13.ZMD</rom>
+			<rom type="code" offset="0x04c000">BGMM_14.ZMD</rom>
+			<rom type="code" offset="0x04e000">BGMM_15.ZMD</rom>
+			<rom type="code" offset="0x050000">BGMM_16.ZMD</rom>
+			<rom type="code" offset="0x05a000">BGMM_21.ZMD</rom>
+			<rom type="code" offset="0x05e000">BGMM_23.ZMD</rom>
+			<rom type="code" offset="0x060000">BGMM_24.ZMD</rom>
+			<rom type="code" offset="0x062000">BGMM_25.ZMD</rom>
+			<rom type="code" offset="0x064000">BGMM_26.ZMD</rom>
+			<rom type="code" offset="0x066000">BGMM_27.ZMD</rom>
+			<rom type="code" offset="0x068000">BGMM_28.ZMD</rom>
+			<rom type="code" offset="0x06a000">BGMM_29.ZMD</rom>
+			<rom type="code" offset="0x06c000">BGMM_30.ZMD</rom>
+			<rom type="code" offset="0x070000">BEAR.ZPD</rom>
+			<rom type="code" offset="0x075000">BLOOD.ZPD</rom>
+			<rom type="code" offset="0x082000">CRAUSER.ZPD</rom>
+			<rom type="code" offset="0x084000">DUCK.ZPD</rom>
+			<rom type="code" offset="0x08a000">ENDING.ZPD</rom>
+			<rom type="code" offset="0x091000">GDSP_MH.ZPD</rom>
+			<rom type="code" offset="0x0c0000">GEESE.ZPD</rom>
+			<rom type="code" offset="0x0c8000">JOE.ZPD</rom>
+			<rom type="code" offset="0x0d0000">JYUBEI.ZPD</rom>
+			<rom type="code" offset="0x0d8000">RYO.ZPD</rom>
+			<rom type="code" offset="0x0dd000">SELECT.ZPD</rom>
+			<rom type="code" offset="0x0e1000">SNARE2.ZPD</rom>
+			<rom type="code" offset="0x0e5000">TERRY.ZPD</rom>
+			<rom type="code" offset="0x0e9000">TITLE.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
 			<title code="0x13">âÏòTì`ê‡SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
-<!--
-			<title code="0x12">VS</title>
--->
 			<title code="0x17">VS</title>
 			<title code="0x02">ÉNÉäÉLÉìÉgÉì</title>
 			<title code="0x03">ÉpÉXÉ^</title>
@@ -1030,64 +1032,62 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (âÏòTì`ê‡SPECIAL) (YM2151+MSM6258+GS)</name>
+		<name>[X68000] Garou Densetsu Special (âÏòTì`ê‡SPECIAL) (YM2151+MSM6258+GS+MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
-		<romlist archive="garousp68snd">
-			<rom type="code" offset="0x000000">gsp68mid.bin</rom>
-			<rom type="code" offset="0x010000">BGMS_00.ZMD</rom>
-			<rom type="code" offset="0x012000">BGMS_01.ZMD</rom>
-			<rom type="code" offset="0x014000">BGMS_02.ZMD</rom>
-			<rom type="code" offset="0x016000">BGMS_03.ZMD</rom>
-			<rom type="code" offset="0x018000">BGMS_04.ZMD</rom>
-			<rom type="code" offset="0x01a000">BGMS_05.ZMD</rom>
-			<rom type="code" offset="0x01c000">BGMS_06.ZMD</rom>
-			<rom type="code" offset="0x01e000">BGMS_07.ZMD</rom>
-			<rom type="code" offset="0x020000">BGMS_08.ZMD</rom>
-			<rom type="code" offset="0x022000">BGMS_09.ZMD</rom>
-			<rom type="code" offset="0x024000">BGMS_10.ZMD</rom>
-			<rom type="code" offset="0x026000">BGMS_11.ZMD</rom>
-			<rom type="code" offset="0x028000">BGMS_12.ZMD</rom>
-			<rom type="code" offset="0x02a000">BGMS_13.ZMD</rom>
-			<rom type="code" offset="0x02c000">BGMS_14.ZMD</rom>
-			<rom type="code" offset="0x02e000">BGMS_15.ZMD</rom>
-			<rom type="code" offset="0x030000">BGMS_16.ZMD</rom>
-			<rom type="code" offset="0x03a000">BGMS_21.ZMD</rom>
-			<rom type="code" offset="0x03e000">BGMS_23.ZMD</rom>
-			<rom type="code" offset="0x040000">BGMS_24.ZMD</rom>
-			<rom type="code" offset="0x042000">BGMS_25.ZMD</rom>
-			<rom type="code" offset="0x044000">BGMS_26.ZMD</rom>
-			<rom type="code" offset="0x046000">BGMS_27.ZMD</rom>
-			<rom type="code" offset="0x048000">BGMS_28.ZMD</rom>
-			<rom type="code" offset="0x04a000">BGMS_29.ZMD</rom>
-			<rom type="code" offset="0x04c000">BGMS_30.ZMD</rom>
-			<rom type="code" offset="0x050000">BEAR.ZPD</rom>
-			<rom type="code" offset="0x055000">BLOOD.ZPD</rom>
-			<rom type="code" offset="0x062000">CRAUSER.ZPD</rom>
-			<rom type="code" offset="0x064000">DUCK.ZPD</rom>
-			<rom type="code" offset="0x06a000">ENDING.ZPD</rom>
-			<rom type="code" offset="0x071000">GDSP_MH.ZPD</rom>
-			<rom type="code" offset="0x0a0000">GEESE.ZPD</rom>
-			<rom type="code" offset="0x0a8000">JOE.ZPD</rom>
-			<rom type="code" offset="0x0b0000">JYUBEI.ZPD</rom>
-			<rom type="code" offset="0x0b8000">RYO.ZPD</rom>
-			<rom type="code" offset="0x0bd000">SELECT.ZPD</rom>
-			<rom type="code" offset="0x0c1000">SNARE2.ZPD</rom>
-			<rom type="code" offset="0x0c5000">TERRY.ZPD</rom>
-			<rom type="code" offset="0x0c9000">TITLE.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+		<romlist archive="fatfursp68snd">
+			<rom type="code" offset="0x000000">ffurysp68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">BGMS_00.ZMD</rom>
+			<rom type="code" offset="0x032000">BGMS_01.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMS_02.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMS_03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMS_04.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMS_05.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMS_06.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMS_07.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMS_08.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMS_09.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMS_10.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMS_11.ZMD</rom>
+			<rom type="code" offset="0x048000">BGMS_12.ZMD</rom>
+			<rom type="code" offset="0x04a000">BGMS_13.ZMD</rom>
+			<rom type="code" offset="0x04c000">BGMS_14.ZMD</rom>
+			<rom type="code" offset="0x04e000">BGMS_15.ZMD</rom>
+			<rom type="code" offset="0x050000">BGMS_16.ZMD</rom>
+			<rom type="code" offset="0x05a000">BGMS_21.ZMD</rom>
+			<rom type="code" offset="0x05e000">BGMS_23.ZMD</rom>
+			<rom type="code" offset="0x060000">BGMS_24.ZMD</rom>
+			<rom type="code" offset="0x062000">BGMS_25.ZMD</rom>
+			<rom type="code" offset="0x064000">BGMS_26.ZMD</rom>
+			<rom type="code" offset="0x066000">BGMS_27.ZMD</rom>
+			<rom type="code" offset="0x068000">BGMS_28.ZMD</rom>
+			<rom type="code" offset="0x06a000">BGMS_29.ZMD</rom>
+			<rom type="code" offset="0x06c000">BGMS_30.ZMD</rom>
+			<rom type="code" offset="0x070000">BEAR.ZPD</rom>
+			<rom type="code" offset="0x075000">BLOOD.ZPD</rom>
+			<rom type="code" offset="0x082000">CRAUSER.ZPD</rom>
+			<rom type="code" offset="0x084000">DUCK.ZPD</rom>
+			<rom type="code" offset="0x08a000">ENDING.ZPD</rom>
+			<rom type="code" offset="0x091000">GDSP_MH.ZPD</rom>
+			<rom type="code" offset="0x0c0000">GEESE.ZPD</rom>
+			<rom type="code" offset="0x0c8000">JOE.ZPD</rom>
+			<rom type="code" offset="0x0d0000">JYUBEI.ZPD</rom>
+			<rom type="code" offset="0x0d8000">RYO.ZPD</rom>
+			<rom type="code" offset="0x0dd000">SELECT.ZPD</rom>
+			<rom type="code" offset="0x0e1000">SNARE2.ZPD</rom>
+			<rom type="code" offset="0x0e5000">TERRY.ZPD</rom>
+			<rom type="code" offset="0x0e9000">TITLE.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
 			<title code="0x13">âÏòTì`ê‡SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
-<!--
-			<title code="0x12">VS</title>
--->
 			<title code="0x17">VS</title>
 			<title code="0x02">ÉNÉäÉLÉìÉgÉì</title>
 			<title code="0x03">ÉpÉXÉ^</title>
@@ -1114,64 +1114,62 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (âÏòTì`ê‡SPECIAL) (YM2151+MSM6258+Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] Garou Densetsu Special (âÏòTì`ê‡SPECIAL) (YM2151+MSM6258+MT-32+Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="6"/>
 		</options>
-		<romlist archive="garousp68snd">
-			<rom type="code" offset="0x000000">gsp68mid.bin</rom>
-			<rom type="code" offset="0x010000">BGMS_00.ZMD</rom>
-			<rom type="code" offset="0x012000">BGMS_01.ZMD</rom>
-			<rom type="code" offset="0x014000">BGMS_02.ZMD</rom>
-			<rom type="code" offset="0x016000">BGMS_03.ZMD</rom>
-			<rom type="code" offset="0x018000">BGMS_04.ZMD</rom>
-			<rom type="code" offset="0x01a000">BGMS_05.ZMD</rom>
-			<rom type="code" offset="0x01c000">BGMS_06.ZMD</rom>
-			<rom type="code" offset="0x01e000">BGMS_07.ZMD</rom>
-			<rom type="code" offset="0x020000">BGMS_08.ZMD</rom>
-			<rom type="code" offset="0x022000">BGMS_09.ZMD</rom>
-			<rom type="code" offset="0x024000">BGMS_10.ZMD</rom>
-			<rom type="code" offset="0x026000">BGMS_11.ZMD</rom>
-			<rom type="code" offset="0x028000">BGMS_12.ZMD</rom>
-			<rom type="code" offset="0x02a000">BGMS_13.ZMD</rom>
-			<rom type="code" offset="0x02c000">BGMS_14.ZMD</rom>
-			<rom type="code" offset="0x02e000">BGMS_15.ZMD</rom>
-			<rom type="code" offset="0x030000">BGMS_16.ZMD</rom>
-			<rom type="code" offset="0x03a000">BGMS_21.ZMD</rom>
-			<rom type="code" offset="0x03e000">BGMS_23.ZMD</rom>
-			<rom type="code" offset="0x040000">BGMS_24.ZMD</rom>
-			<rom type="code" offset="0x042000">BGMS_25.ZMD</rom>
-			<rom type="code" offset="0x044000">BGMS_26.ZMD</rom>
-			<rom type="code" offset="0x046000">BGMS_27.ZMD</rom>
-			<rom type="code" offset="0x048000">BGMS_28.ZMD</rom>
-			<rom type="code" offset="0x04a000">BGMS_29.ZMD</rom>
-			<rom type="code" offset="0x04c000">BGMS_30.ZMD</rom>
-			<rom type="code" offset="0x050000">BEAR.ZPD</rom>
-			<rom type="code" offset="0x055000">BLOOD.ZPD</rom>
-			<rom type="code" offset="0x062000">CRAUSER.ZPD</rom>
-			<rom type="code" offset="0x064000">DUCK.ZPD</rom>
-			<rom type="code" offset="0x06a000">ENDING.ZPD</rom>
-			<rom type="code" offset="0x071000">GDSP_MH.ZPD</rom>
-			<rom type="code" offset="0x0a0000">GEESE.ZPD</rom>
-			<rom type="code" offset="0x0a8000">JOE.ZPD</rom>
-			<rom type="code" offset="0x0b0000">JYUBEI.ZPD</rom>
-			<rom type="code" offset="0x0b8000">RYO.ZPD</rom>
-			<rom type="code" offset="0x0bd000">SELECT.ZPD</rom>
-			<rom type="code" offset="0x0c1000">SNARE2.ZPD</rom>
-			<rom type="code" offset="0x0c5000">TERRY.ZPD</rom>
-			<rom type="code" offset="0x0c9000">TITLE.ZPD</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+		<romlist archive="fatfursp68snd">
+			<rom type="code" offset="0x000000">ffurysp68snd.bin</rom>
+			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">BGMS_00.ZMD</rom>
+			<rom type="code" offset="0x032000">BGMS_01.ZMD</rom>
+			<rom type="code" offset="0x034000">BGMS_02.ZMD</rom>
+			<rom type="code" offset="0x036000">BGMS_03.ZMD</rom>
+			<rom type="code" offset="0x038000">BGMS_04.ZMD</rom>
+			<rom type="code" offset="0x03a000">BGMS_05.ZMD</rom>
+			<rom type="code" offset="0x03c000">BGMS_06.ZMD</rom>
+			<rom type="code" offset="0x03e000">BGMS_07.ZMD</rom>
+			<rom type="code" offset="0x040000">BGMS_08.ZMD</rom>
+			<rom type="code" offset="0x042000">BGMS_09.ZMD</rom>
+			<rom type="code" offset="0x044000">BGMS_10.ZMD</rom>
+			<rom type="code" offset="0x046000">BGMS_11.ZMD</rom>
+			<rom type="code" offset="0x048000">BGMS_12.ZMD</rom>
+			<rom type="code" offset="0x04a000">BGMS_13.ZMD</rom>
+			<rom type="code" offset="0x04c000">BGMS_14.ZMD</rom>
+			<rom type="code" offset="0x04e000">BGMS_15.ZMD</rom>
+			<rom type="code" offset="0x050000">BGMS_16.ZMD</rom>
+			<rom type="code" offset="0x05a000">BGMS_21.ZMD</rom>
+			<rom type="code" offset="0x05e000">BGMS_23.ZMD</rom>
+			<rom type="code" offset="0x060000">BGMS_24.ZMD</rom>
+			<rom type="code" offset="0x062000">BGMS_25.ZMD</rom>
+			<rom type="code" offset="0x064000">BGMS_26.ZMD</rom>
+			<rom type="code" offset="0x066000">BGMS_27.ZMD</rom>
+			<rom type="code" offset="0x068000">BGMS_28.ZMD</rom>
+			<rom type="code" offset="0x06a000">BGMS_29.ZMD</rom>
+			<rom type="code" offset="0x06c000">BGMS_30.ZMD</rom>
+			<rom type="code" offset="0x070000">BEAR.ZPD</rom>
+			<rom type="code" offset="0x075000">BLOOD.ZPD</rom>
+			<rom type="code" offset="0x082000">CRAUSER.ZPD</rom>
+			<rom type="code" offset="0x084000">DUCK.ZPD</rom>
+			<rom type="code" offset="0x08a000">ENDING.ZPD</rom>
+			<rom type="code" offset="0x091000">GDSP_MH.ZPD</rom>
+			<rom type="code" offset="0x0c0000">GEESE.ZPD</rom>
+			<rom type="code" offset="0x0c8000">JOE.ZPD</rom>
+			<rom type="code" offset="0x0d0000">JYUBEI.ZPD</rom>
+			<rom type="code" offset="0x0d8000">RYO.ZPD</rom>
+			<rom type="code" offset="0x0dd000">SELECT.ZPD</rom>
+			<rom type="code" offset="0x0e1000">SNARE2.ZPD</rom>
+			<rom type="code" offset="0x0e5000">TERRY.ZPD</rom>
+			<rom type="code" offset="0x0e9000">TITLE.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
 			<title code="0x13">âÏòTì`ê‡SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
-<!--
-			<title code="0x12">VS</title>
--->
 			<title code="0x17">VS</title>
 			<title code="0x02">ÉNÉäÉLÉìÉgÉì</title>
 			<title code="0x03">ÉpÉXÉ^</title>
