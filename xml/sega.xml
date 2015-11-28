@@ -197,17 +197,21 @@
 		<titlelist>
 			<title code="0x93">Start</title>
 			<title code="0x84">BGM 1 -Space-</title>
-			<title code="0x85">BGM 1a -Planet-</title>
-			<title code="0x88">BGM 2 -Fortress-</title>
-			<title code="0x8a">BGM 2a -Fortress-</title>
+			<title code="0x85">BGM 1a -Space-</title>
+			<title code="0x89">Colony In</title>
+			<title code="0x88">BGM 2 -Colony-</title>
+			<title code="0x8a">Colony Out</title>
 			<title code="0x95">Warp</title>
-			<title code="0x89">BGM 3 -Escape-</title>
 			<title code="0x94">Clear</title>
 			<title code="0x82">Name Entry</title>
-			<title code="0x86">SFX #86</title>
-			<range min="0x8b" max="0x8d" extcode="1">SFX #%02X</range>
-			<title code="0x8e">SFX "Extend"</title>
-			<title code="0x90">SFX #90</title>
+			<title code="0x8e">Bonus</title>
+			<title code="0x84">Round Up</title>
+			<title code="0x95">Warp</title>
+			<title code="0x86">SFX "Supply Ships"</title>
+			<title code="0x8b">SFX "Fire"</title>
+			<title code="0x8c">SFX "Bomb"</title>
+			<title code="0x8d">SFX "Explosion 1"</title>
+			<title code="0x90">SFX "Explosion 2"</title>
 		</titlelist>
 	</game>
 	<game>
@@ -218,16 +222,17 @@
 			<rom type="code" offset="0x0000">epr-5652.3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x87">Credit (クレジット音)</title>
+			<title code="0x87">Credit (クレジット音) / Bonus</title>
 			<title code="0x83">Start / Main Theme</title>
 			<title code="0x84">Clear / Main Theme</title>
-			<title code="0x88">SFX "Player Destroyed"</title>
-			<title code="0x81">Ranking List</title>
+			<title code="0x88">SFX "Death"</title>
+			<title code="0x81">Name Entry</title>
 			<title code="0x82">Main Theme</title>
-			<title code="0x85">SFX "Shot"</title>
-			<title code="0x86">SFX "Missile"</title>
-			<title code="0x89">SFX "Hit"</title>
-			<title code="0x8b">SFX "Extend"</title>
+			<title code="0x85">SFX "Fire"</title>
+			<title code="0x86">SFX "Bomb"</title>
+			<title code="0x89">SFX "Enemy Hit"</title>
+			<title code="0x8a">SFX "Explosion"</title>
+			<title code="0x8b">SFX "Extra Ship"</title>
 		</titlelist>
 	</game>
 	<game>
@@ -238,13 +243,21 @@
 			<rom type="code" offset="0x0000">epr-5535.3</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x8f">Credit (クレジット音)</title>
 			<title code="0x82">Main BGM</title>
-			<title code="0x8d">Round Clear</title>
-			<title code="0x90">Time Result</title>
-			<title code="0x8c">Name Entry</title>
+			<title code="0x8d">Round Up</title>
+			<title code="0x90">Time Bonus</title>
+			<title code="0x8c">Hi-Score</title>
 			<title code="0x8f">Player Miss</title>
-			<range min="0x86" max="0x99" extcode="1">SFX #%02X</range>
-			<range min="0x91" max="0x92" extcode="1">SFX #%02X</range>
+			<title code="0x86">SFX "Jump"</title>
+			<title code="0x87">SFX "Disappointed Road"</title>
+			<title code="0x88">SFX "Flag"</title>
+			<title code="0x89">SFX "Bonus"</title>
+			<title code="0x8e">SFX "Explosion 1"</title>
+			<title code="0x8f">SFX "Explosion 2"</title>
+			<title code="0x92">SFX "Extra Car"</title>
+			<title code="0x91">SFX #91</title>
+			<range min="0x93" max="0x99" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -255,17 +268,25 @@
 			<rom type="code" offset="0x0000">epr-5763.3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x82">Start - Main BGM</title>
-			<title code="0x81">Main BGM</title>
-			<title code="0x88">Round Clear</title>
-			<title code="0x93">Explosion - Round Clear</title>
-			<title code="0x84">Miss!</title>
+			<title code="0x82">Start - Main Theme</title> <!-- Start Melody -->
+			<title code="0x81">Main Theme</title> <!-- Gaming BGM -->
+			<title code="0x88">Round Up</title>
+			<title code="0x93">Explosion - Round Up</title> <!-- Smile -->
+			<title code="0x84">Death</title>
 			<title code="0x83">Name Entry</title>
-			<range min="0x85" max="0x87" extcode="1">SFX #%02X</range>
-			<range min="0x8c" max="0x8d" extcode="1">SFX #%02X</range>
-			<range min="0x8f" max="0x90" extcode="1">SFX #%02X</range>
-			<title code="0x92">SFX #92</title>
-			<range min="0x94" max="0x95" extcode="1">SFX #%02X</range>
+			<title code="0x85">SFX "Arrow"</title>
+			<title code="0x86">SFX "Missile"</title>
+			<title code="0x87">SFX "Explosion"</title>
+			<title code="0x89">SFX "Drop a Bomb"</title>
+			<title code="0x8a">SFX "Beam"</title>
+			<title code="0x8c">SFX "Extra Player"</title>
+			<title code="0x8d">SFX "Explosion of Castle"</title>
+			<title code="0x8e">SFX "Sword"</title>
+			<title code="0x8f">SFX "Treasure"</title>
+			<title code="0x90">SFX "Sandpillar"</title>
+			<title code="0x92">SFX "Shot of Ship"</title>
+			<title code="0x94">SFX "Drop Arms"</title>
+			<title code="0x95">SFX "Scene Over"</title>
 		</titlelist>
 	</game>
 	<game>
@@ -277,18 +298,31 @@
 		</romlist>
 		<titlelist>
 			<title code="0xb3">Credit (クレジット音)</title>
-			<title code="0x82">Main Theme</title>
-			<title code="0x81">Round Clear</title>
+			<title code="0x82">Main Theme</title> <!-- B.G.M. -->
+			<title code="0x81">Round Up</title>
 			<title code="0x85">Main Theme</title>
-			<title code="0xb2">Alert!</title>
-			<title code="0x91">SFX "Miss" (ミス)</title>
+			<title code="0xb2">Emergency</title>
+			<title code="0x91">SFX "Killed"</title>
 			<title code="0x83">Game Over</title>
 			<title code="0x84">Name Entry</title>
-			<title code="0x90">SFX #90</title>
-			<range min="0x92" max="0x94" extcode="1">SFX #%02X</range>
-			<range min="0xa0" max="0xa3" extcode="1">SFX #%02X</range>
-			<range min="0xb0" max="0xb1" extcode="1">SFX #%02X</range>
-			<range min="0xb4" max="0xbb" extcode="1">SFX #%02X</range>
+			<title code="0x90">SFX "Fire"</title>
+			<title code="0x94">SFX "Kick Block"</title>
+			<title code="0x92">SFX "Drop Bomb"</title>
+			<title code="0xba">SFX "Supply Bomb"</title>
+			<title code="0xa2">SFX "Appear Enemy"</title>
+			<title code="0xb1">SFX "Appear Blocker"</title>
+			<title code="0x93">SFX "Bomb Explosion"</title>
+			<title code="0xa0">SFX "Enemy Explosion"</title>
+			<title code="0xa1">SFX "Block Explosion"</title>
+			<title code="0xa3">SFX "Block Increase"</title>
+			<title code="0xb9">SFX "Hit"</title>
+			<title code="0xb4">SFX "Extra"</title>
+			<title code="0xb6">SFX "Death Ray"</title>
+			<title code="0xb7">SFX "Red Block Cut"</title>
+			<title code="0xbb">SFX "End of Gen. Attack"</title>
+			<title code="0xb0">SFX #B0</title>
+			<title code="0xb5">SFX #B5</title>
+			<title code="0xb8">SFX #B8</title>
 		</titlelist>
 	</game>
 	<game>
@@ -346,22 +380,36 @@
 		</romlist>
 		<titlelist>
 			<title code="0x1d">Credit (クレジット音)</title>
-			<title code="0x1b">Main Theme (メインテーマ)</title>
+			<title code="0x1b">Main Theme (メインテーマ)</title> <!-- Background Music -->
 			<title code="0x22">Bull Appears (牛乱入)</title>
-			<title code="0x14">Winner (勝利)</title>
-			<title code="0x13">Bonus Demo (ボーナスデモ)</title>
+			<title code="0x14">Winner (勝利)</title> <!-- End of Round -->
+			<title code="0x13">Bonus Demo (ボーナスデモ)</title> <!-- Flamenco Music -->
 			<title code="0x1a">Bonus Stage (ボーナスステージ)</title>
-			<title code="0x16">Miss (ミス)</title>
+			<title code="0x16">Miss (No Bonus Points) (ミス)</title>
 			<title code="0x19">Bonus Points (ボーナスポイント)</title>
 			<title code="0x12">Bull Gets Up (牛復活)</title>
-			<title code="0x15">Miss (ミス)</title>
+			<title code="0x15">Miss (End of Game) (ミス)</title>
 			<title code="0x21">Game Over (ゲームオーバー)</title>
 			<title code="0x18">Name Entry (ネームエントリー)</title>
-			<title code="0x17">Bonus Stage Intro (ボーナスステージ イントロ)</title>
-			<range min="0x01" max="0x06" extcode="1">SFX #%02X</range>
-			<range min="0x08" max="0x0f" extcode="1">SFX #%02X</range>
-			<title code="0x11">SFX #11</title>
-			<range min="0x1d" max="0x20" extcode="1">SFX #%02X</range>
+			<title code="0x17">Bonus Stage Intro (ボーナスステージ イントロ)</title> <!-- Introductory Fanfare -->
+			<title code="0x01">SFX "Bull's Breathing"</title>
+			<title code="0x02">SFX "Bull Running"</title>
+			<title code="0x03">SFX "Bull's Roar'"</title>
+			<title code="0x04">SFX "Bull Falling Down'"</title>
+			<title code="0x05">SFX "Bull Crashing Into the Wall'"</title>
+			<title code="0x06">SFX "Bull's Horns Crashing With the Sword'"</title>
+			<title code="0x08">SFX "Matador Touching the Bull'"</title>
+			<title code="0x09">SFX "Bull's Horns Touching the Cape'"</title>
+			<title code="0x0a">SFX "Piercing the Target Mark'"</title>
+			<title code="0x0b">SFX "Piercing Action'"</title>
+			<title code="0x0c">SFX "Matador Killed By Bull'"</title>
+			<title code="0x12">SFX "Applause'"</title>
+			<title code="0x0f">SFX "Roar of Approval'"</title>
+			<title code="0x11">SFX "Shouts of Approval'"</title>
+			<title code="0x1f">SFX "Matador Killed By Bull - Bonus Stage'"</title>
+			<title code="0x20">SFX "Extra Matador'"</title>
+			<title code="0x0e">SFX #0E</title>
+			<title code="0x1e">SFX #1E</title>
 		</titlelist>
 	</game>
 	<game>
@@ -459,17 +507,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0xb8">Title Screen</title>
-			<title code="0xb3">Start - BGM 1</title>
+			<title code="0xb3">Start - BGM 1</title> <!-- Opening BGM -->
 			<title code="0xb4">BGM 1</title>
-			<title code="0xb6">Mission Clear</title>
+			<title code="0xb6">Mission Clear</title> <!-- Pattern Clear -->
 			<title code="0xb9">BGM 2</title>
-			<title code="0xb5">Miss</title>
+			<title code="0xb5">Miss</title> <!-- Player Death -->
 			<title code="0xa3">Game Over</title>
 			<title code="0x81">Name Entry (from Oushou / Hideo Murata)</title>
-			<range min="0x82" max="0x84" extcode="1">SFX #%02X</range>
-			<range min="0x90" max="0x94" extcode="1">SFX #%02X</range>
-			<range min="0xb0" max="0xb2" extcode="1">SFX #%02X</range>
-			<title code="0xb7">SFX #B7</title>
+			<title code="0x91">SFX "Extra"</title>
+			<title code="0x84">SFX "Score 1"</title>
+			<title code="0x92">SFX "Score 2"</title>
+			<title code="0x82">SFX "Fire"</title>
+			<title code="0x83">SFX "Jump"</title>
+			<title code="0xa2">SFX "Punch 1"</title>
+			<title code="0xb7">SFX "Punch 2"</title>
+			<title code="0xb0">SFX "Punch 3"</title>
+			<title code="0xb1">SFX "Pick Up Ingot"</title>
+			<title code="0xb2">SFX "Bomb"</title>
+			<title code="0x90">SFX #90</title>
+			<range min="0x93" max="0x94" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -548,14 +604,14 @@
 		<titlelist>
 			<title code="0x95">Credit (クレジット音)</title>
 			<title code="0x97">Rafflesia BGM (Title Screen)</title>
-			<title code="0x81">Start / Main BGM</title>
+			<title code="0x81">Start / Main BGM</title> <!-- Player Start -->
 			<title code="0x82">Main BGM</title>
 			<title code="0x83">Boss BGM</title>
 			<title code="0x84">VS Boss BGM</title>
 			<title code="0x92">Boss Die</title>
 			<title code="0x98">Player Bomb</title>
-			<title code="0x88">Area Clear</title>
-			<title code="0x87">Game Clear</title>
+			<title code="0x87">Area Clear</title>
+			<title code="0x88">Game Clear</title>
 			<title code="0x85">Naming</title>
 			<title code="0x86">Naming End</title>
 			<title code="0x89">SFX "Beam"</title>
@@ -564,7 +620,7 @@
 			<title code="0x93">SFX "Rafflesia Die"</title>
 			<title code="0x94">SFX "Power Up"</title>
 			<title code="0x96">SFX "Extra Up"</title>
-			<title code="0x97">SFX "Player Bomb"</title>
+			<title code="0x98">SFX "Player Bomb"</title>
 			<title code="0x99">SFX "UFO"</title>
 			<title code="0xa0">SFX "UFO Bomb"</title>
 			<title code="0xa1">SFX "Message"</title>
@@ -584,19 +640,19 @@
 			<title code="0xc0">Game Over</title>
 			<title code="0xc1">Stage Start</title>
 			<title code="0xc2">Miss</title>
-			<title code="0xc3">BGM #c3</title>
-			<title code="0xc4">BGM #c4</title>
-			<title code="0xc5">BGM #c5</title>
-			<title code="0xc6">BGM #c6</title>
-			<title code="0xc7">BGM #c7</title>
-			<title code="0xc8">BGM #c8</title>
-			<title code="0xc9">BGM #c9</title>
-			<title code="0xca">BGM #ca</title>
-			<title code="0xcb">BGM #cb</title>
-			<title code="0xcc">BGM #cc</title>
-			<title code="0xcd">BGM #cd</title>
-			<title code="0xce">BGM #ce</title>
-			<title code="0xcf">BGM #cf</title>
+			<title code="0xc3">BGM #C3</title>
+			<title code="0xc4">BGM #C4</title>
+			<title code="0xc5">BGM #C5</title>
+			<title code="0xc6">BGM #C6</title>
+			<title code="0xc7">BGM #C7</title>
+			<title code="0xc8">BGM #C8</title>
+			<title code="0xc9">BGM #C9</title>
+			<title code="0xca">BGM #CA</title>
+			<title code="0xcb">BGM #CB</title>
+			<title code="0xcc">BGM #CC</title>
+			<title code="0xcd">BGM #CD</title>
+			<title code="0xce">BGM #CE</title>
+			<title code="0xcf">BGM #CF</title>
 			<range min="0x48" max="0x5c" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
@@ -614,21 +670,21 @@
 			<title code="0x85">BGM #85</title>
 			<title code="0x86">BGM #86</title>
 			<title code="0x89">BGM #89</title>
-			<title code="0xa3">BGM #a3</title>
-			<title code="0xa5">BGM #a5</title>
-			<title code="0xa6">BGM #a6</title>
-			<title code="0xa8">BGM #a8</title>
-			<title code="0xa9">BGM #a9</title>
-			<title code="0xb0">BGM #b0</title>
-			<title code="0xb1">BGM #b1</title>
-			<title code="0xb3">BGM #b3</title>
+			<title code="0xa3">BGM #A3</title>
+			<title code="0xa5">BGM #A5</title>
+			<title code="0xa6">BGM #A6</title>
+			<title code="0xa8">BGM #A8</title>
+			<title code="0xa9">BGM #A9</title>
+			<title code="0xb0">BGM #B0</title>
+			<title code="0xb1">BGM #B1</title>
+			<title code="0xb3">BGM #B3</title>
 			<title code="0x82">SFX #82</title>
 			<range min="0x87" max="0x88" extcode="1">SFX #%02X</range>
 			<range min="0x90" max="0x99" extcode="1">SFX #%02X</range>
 			<range min="0xa0" max="0xa2" extcode="1">SFX #%02X</range>
-			<title code="0xa4">SFX #a4</title>
-			<title code="0xa7">SFX #a7</title>
-			<title code="0xb2">SFX #b2</title>
+			<title code="0xa4">SFX #A4</title>
+			<title code="0xa7">SFX #A7</title>
+			<title code="0xb2">SFX #B2</title>
 			<range min="0xb4" max="0xb5" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
@@ -856,7 +912,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Dakko-chan Jansou (だっこちゃん雀荘) (SN76496x2)</name>
+		<name>[System 2] Dakko-chan House (だっこちゃん雀荘) (SN76496x2)</name>
 		<driver type="system1">sega</driver>
 		<driveralias type="Arcade">Sega</driveralias>
 		<romlist archive="dakkochn">
@@ -1200,10 +1256,10 @@
 			<title code="0x97">BGM #97</title>
 			<title code="0x98">BGM #98</title>
 			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9a</title>
-			<title code="0x9c">BGM #9c</title>
-			<title code="0x9d">BGM #9d</title>
-			<title code="0xa2">BGM #a2</title>
+			<title code="0x9a">BGM #9A</title>
+			<title code="0x9c">BGM #9C</title>
+			<title code="0x9d">BGM #9D</title>
+			<title code="0xa2">BGM #A2</title>
 			<range min="0x81" max="0x95" extcode="1">SFX #%02X</range>
 			<title code="0x9b">SFX #9B</title>
 			<range min="0x9e" max="0x9f" extcode="1">SFX #%02X</range>
@@ -1778,19 +1834,19 @@
 			<rom type="adpcm" offset="0x00000">epr-10998.a8</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xa0">BGM #a0</title>
-			<title code="0xa1">BGM #a1</title>
-			<title code="0xa2">BGM #a2</title>
-			<title code="0xa3">BGM #a3</title>
-			<title code="0xa4">BGM #a4</title>
-			<title code="0xa5">BGM #a5</title>
-			<title code="0xa6">BGM #a6</title>
-			<title code="0xa8">BGM #a8</title>
-			<title code="0xa9">BGM #a9</title>
-			<title code="0xaa">BGM #aa</title>
-			<title code="0xab">BGM #ab</title>
-			<title code="0xac">BGM #ac</title>
-			<title code="0xad">BGM #ad</title>
+			<title code="0xa0">BGM #A0</title>
+			<title code="0xa1">BGM #A1</title>
+			<title code="0xa2">BGM #A2</title>
+			<title code="0xa3">BGM #A3</title>
+			<title code="0xa4">BGM #A4</title>
+			<title code="0xa5">BGM #A5</title>
+			<title code="0xa6">BGM #A6</title>
+			<title code="0xa8">BGM #A8</title>
+			<title code="0xa9">BGM #A9</title>
+			<title code="0xaa">BGM #AA</title>
+			<title code="0xab">BGM #AB</title>
+			<title code="0xac">BGM #AC</title>
+			<title code="0xad">BGM #AD</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1866,13 +1922,13 @@
 			<rom type="adpcm" offset="0x10000">epr-11349.a9</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xa7">BGM #a7</title>
-			<title code="0xa8">BGM #a8</title>
-			<title code="0xa9">BGM #a9</title>
-			<title code="0xaa">BGM #aa</title>
-			<title code="0xab">BGM #ab</title>
-			<title code="0xac">BGM #ac</title>
-			<title code="0xad">BGM #ad</title>
+			<title code="0xa7">BGM #A7</title>
+			<title code="0xa8">BGM #A8</title>
+			<title code="0xa9">BGM #A9</title>
+			<title code="0xaa">BGM #AA</title>
+			<title code="0xab">BGM #AB</title>
+			<title code="0xac">BGM #AC</title>
+			<title code="0xad">BGM #AD</title>
 			<title code="0x41">Voice "The target is in sight"</title>
 			<title code="0x42">Voice "Recover and attack again</title>
 			<title code="0x43">Voice "Operation successful, congratulations"</title>
@@ -2031,11 +2087,11 @@
 			<title code="0x97">BGM #97</title>
 			<title code="0x98">BGM #98</title>
 			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9a</title>
-			<title code="0x9b">BGM #9b</title>
-			<title code="0x9c">BGM #9c</title>
-			<title code="0x9d">BGM #9d</title>
-			<title code="0x9f">BGM #9f</title>
+			<title code="0x9a">BGM #9A</title>
+			<title code="0x9b">BGM #9B</title>
+			<title code="0x9c">BGM #9C</title>
+			<title code="0x9d">BGM #9D</title>
+			<title code="0x9f">BGM #9F</title>
 			<title code="0x01">Voice #01</title>
 			<title code="0x02">Voice "Going, going, going"</title>
 			<title code="0x04">Voice "An out-of-the-park homer"</title>
@@ -2261,11 +2317,11 @@
 			<title code="0x97">BGM #97</title>
 			<title code="0x98">BGM #98</title>
 			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9a</title>
-			<title code="0x9b">BGM #9b</title>
-			<title code="0x9c">BGM #9c</title>
-			<title code="0x9d">BGM #9d</title>
-			<title code="0x9f">BGM #9f</title>
+			<title code="0x9a">BGM #9A</title>
+			<title code="0x9b">BGM #9B</title>
+			<title code="0x9c">BGM #9C</title>
+			<title code="0x9d">BGM #9D</title>
+			<title code="0x9f">BGM #9F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2330,25 +2386,25 @@
 			<rom type="adpcm" offset="0x00000">13001.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc0">BGM #c0</title>
-			<title code="0xc1">BGM #c1</title>
-			<title code="0xc2">BGM #c2</title>
-			<title code="0xc3">BGM #c3</title>
-			<title code="0xc4">BGM #c4</title>
-			<title code="0xc5">BGM #c5</title>
-			<title code="0xc6">BGM #c6</title>
-			<title code="0xc7">BGM #c7</title>
-			<title code="0xc8">BGM #c8</title>
-			<title code="0xc9">BGM #c9</title>
-			<title code="0xca">BGM #ca</title>
-			<title code="0xcb">BGM #cb</title>
-			<title code="0xcc">BGM #cc</title>
-			<title code="0xcd">BGM #cd</title>
-			<title code="0xce">BGM #ce</title>
-			<title code="0xcf">BGM #cf</title>
-			<title code="0xd0">BGM #d0</title>
-			<title code="0xd1">BGM #d1</title>
-			<title code="0xd2">BGM #d2</title>
+			<title code="0xc0">BGM #C0</title>
+			<title code="0xc1">BGM #C1</title>
+			<title code="0xc2">BGM #C2</title>
+			<title code="0xc3">BGM #C3</title>
+			<title code="0xc4">BGM #C4</title>
+			<title code="0xc5">BGM #C5</title>
+			<title code="0xc6">BGM #C6</title>
+			<title code="0xc7">BGM #C7</title>
+			<title code="0xc8">BGM #C8</title>
+			<title code="0xc9">BGM #C9</title>
+			<title code="0xca">BGM #CA</title>
+			<title code="0xcb">BGM #CB</title>
+			<title code="0xcc">BGM #CC</title>
+			<title code="0xcd">BGM #CD</title>
+			<title code="0xce">BGM #CE</title>
+			<title code="0xcf">BGM #CF</title>
+			<title code="0xd0">BGM #D0</title>
+			<title code="0xd1">BGM #D1</title>
+			<title code="0xd2">BGM #D2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2437,7 +2493,7 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
+			<title code="0x0a">BGM #0A</title>
 			<range min="0x0b" max="0x3e" extcode="1">SFX #%02X</range>
 			<title code="0x44">Voice "Congratulations"</title>
 			<title code="0x45">Voice "Bonus Line"</title>
@@ -2478,12 +2534,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 			<title code="0x12">BGM #12</title>
@@ -2506,32 +2562,32 @@
 			<rom type="adpcm" offset="0x00000">epr-17690.a11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc1">BGM #c1</title>
-			<title code="0xc2">BGM #c2</title>
-			<title code="0xc3">BGM #c3</title>
-			<title code="0xc4">BGM #c4</title>
-			<title code="0xc5">BGM #c5</title>
-			<title code="0xc6">BGM #c6</title>
-			<title code="0xc7">BGM #c7</title>
-			<title code="0xc8">BGM #c8</title>
-			<title code="0xc9">BGM #c9</title>
-			<title code="0xca">BGM #ca</title>
-			<title code="0xcb">BGM #cb</title>
-			<title code="0xcc">BGM #cc</title>
-			<title code="0xcd">BGM #cd</title>
-			<title code="0xce">BGM #ce</title>
-			<title code="0xcf">BGM #cf</title>
-			<title code="0xd0">BGM #d0</title>
-			<title code="0xd1">BGM #d1</title>
-			<title code="0xd5">BGM #d5</title>
-			<title code="0xd6">BGM #d6</title>
-			<title code="0xd7">BGM #d7</title>
-			<title code="0xd8">BGM #d8</title>
-			<title code="0xd9">BGM #d9</title>
-			<title code="0xda">BGM #da</title>
-			<title code="0xdb">BGM #db</title>
-			<title code="0xdc">BGM #dc</title>
-			<title code="0xdd">BGM #dd</title>
+			<title code="0xc1">BGM #C1</title>
+			<title code="0xc2">BGM #C2</title>
+			<title code="0xc3">BGM #C3</title>
+			<title code="0xc4">BGM #C4</title>
+			<title code="0xc5">BGM #C5</title>
+			<title code="0xc6">BGM #C6</title>
+			<title code="0xc7">BGM #C7</title>
+			<title code="0xc8">BGM #C8</title>
+			<title code="0xc9">BGM #C9</title>
+			<title code="0xca">BGM #CA</title>
+			<title code="0xcb">BGM #CB</title>
+			<title code="0xcc">BGM #CC</title>
+			<title code="0xcd">BGM #CD</title>
+			<title code="0xce">BGM #CE</title>
+			<title code="0xcf">BGM #CF</title>
+			<title code="0xd0">BGM #D0</title>
+			<title code="0xd1">BGM #D1</title>
+			<title code="0xd5">BGM #D5</title>
+			<title code="0xd6">BGM #D6</title>
+			<title code="0xd7">BGM #D7</title>
+			<title code="0xd8">BGM #D8</title>
+			<title code="0xd9">BGM #D9</title>
+			<title code="0xda">BGM #DA</title>
+			<title code="0xdb">BGM #DB</title>
+			<title code="0xdc">BGM #DC</title>
+			<title code="0xdd">BGM #DD</title>
 			<range min="0x41" max="0x61" extcode="1">Voice #%02X</range>
 		</titlelist>
 	</game>
@@ -2761,9 +2817,9 @@
 			<title code="0x04">BGM #04</title>
 			<title code="0x06">BGM #06</title>
 			<title code="0x08">BGM #08</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0e">BGM #0e</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0e">BGM #0E</title>
 			<title code="0x10">BGM #10</title>
 		</titlelist>
 	</game>
@@ -3311,12 +3367,12 @@
 			<title code="0x87">BGM #87</title>
 			<title code="0x88">BGM #88</title>
 			<title code="0x89">BGM #89</title>
-			<title code="0x8a">BGM #8a</title>
-			<title code="0x8b">BGM #8b</title>
-			<title code="0x8c">BGM #8c</title>
-			<title code="0x8d">BGM #8d</title>
-			<title code="0x8e">BGM #8e</title>
-			<title code="0x8f">BGM #8f</title>
+			<title code="0x8a">BGM #8A</title>
+			<title code="0x8b">BGM #8B</title>
+			<title code="0x8c">BGM #8C</title>
+			<title code="0x8d">BGM #8D</title>
+			<title code="0x8e">BGM #8E</title>
+			<title code="0x8f">BGM #8F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3562,7 +3618,7 @@
 			<title code="0x87">BGM #87</title>
 			<title code="0x88">BGM #88</title>
 			<title code="0x89">BGM #89</title>
-			<title code="0x8a">BGM #8a</title>
+			<title code="0x8a">BGM #8A</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3803,10 +3859,10 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3867,10 +3923,10 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 		</titlelist>
@@ -4037,12 +4093,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 		</titlelist>
@@ -4190,12 +4246,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 			<title code="0x12">BGM #12</title>
@@ -4206,12 +4262,12 @@
 			<title code="0x17">BGM #17</title>
 			<title code="0x18">BGM #18</title>
 			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
-			<title code="0x1e">BGM #1e</title>
-			<title code="0x1f">BGM #1f</title>
+			<title code="0x1a">BGM #1A</title>
+			<title code="0x1b">BGM #1B</title>
+			<title code="0x1c">BGM #1C</title>
+			<title code="0x1d">BGM #1D</title>
+			<title code="0x1e">BGM #1E</title>
+			<title code="0x1f">BGM #1F</title>
 			<title code="0x20">BGM #20</title>
 			<title code="0x21">BGM #21</title>
 			<title code="0x22">BGM #22</title>
@@ -4579,12 +4635,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 		</titlelist>
@@ -4613,10 +4669,10 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4675,12 +4731,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 		</titlelist>
@@ -5017,9 +5073,9 @@
 			<rom type="code">Zaxxon (1985)(Sega).kss</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x8a">BGM #8a</title>
+			<title code="0x8a">BGM #8A</title>
 			<title code="0x81">BGM #81</title>
-			<title code="0x8f">BGM #8f</title>
+			<title code="0x8f">BGM #8F</title>
 			<title code="0x83">SFX #83</title>
 			<title code="0x84">SFX #84</title>
 			<title code="0x85">SFX #85</title>
@@ -5027,10 +5083,10 @@
 			<title code="0x87">SFX #87</title>
 			<title code="0x88">SFX #88</title>
 			<title code="0x89">SFX #89</title>
-			<title code="0x8b">SFX #8b</title>
-			<title code="0x8c">SFX #8c</title>
-			<title code="0x8d">SFX #8d</title>
-			<title code="0x8e">SFX #8e</title>
+			<title code="0x8b">SFX #8B</title>
+			<title code="0x8c">SFX #8C</title>
+			<title code="0x8d">SFX #8D</title>
+			<title code="0x8e">SFX #8E</title>
 			<title code="0x90">SFX #90</title>
 		</titlelist>
 	</game>

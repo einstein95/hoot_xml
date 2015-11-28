@@ -164,7 +164,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Koei</driveralias>
 		<options>
-			<option name="init_pc"   value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x6000"/>
 			<option name="mfile_size" value="0x6000"/>
@@ -192,24 +192,24 @@
 			<rom type="bgm" offset="0x10">MAIN.003</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000009">Opening / Dream of the Wanderer (オープニング／夢の旅人)</title>
+			<title code="0x01000009">Opening / Dream Voyager (オープニング/夢の旅人)</title>
 			<title code="0x0100000a">Initialize (初期設定)</title>
-			<title code="0x01000000">Mongol Empire (メイン モンゴル)</title>
-			<title code="0x01000001">Japan (メイン 日本)</title>
-			<title code="0x01000002">India (メイン インド)</title>
-			<title code="0x01000003">Arabia (メイン アラビア)</title>
-			<title code="0x01000004">Western Europe (メイン 西ヨーロッパ)</title>
-			<title code="0x01000005">Eastern Europe (メイン 東ヨーロッパ)</title>
-			<title code="0x01000006">Orudo (オルド)</title>
-			<title code="0x01000007">Orudo Theme (オルド ラッチのテーマ)</title>
-			<title code="0x01000008">Genghis Khan's War Theme (戦争 ジンギスカンのテーマ)</title>
-			<title code="0x0100000b">The Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x01000000">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x01000001">Main - Japan (メイン 日本)</title>
+			<title code="0x01000002">Main - India (メイン インド)</title>
+			<title code="0x01000003">Main - Arabia (メイン アラビア)</title>
+			<title code="0x01000004">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x01000005">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x01000006">Ordo (オルド)</title>
+			<title code="0x01000007">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x01000008">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x0100000b">War - Rider's Dance (戦争 騎馬の舞)</title>
 			<title code="0x0000000c">Victory (勝利)</title>
 			<title code="0x0000000d">Defeat (敗北)</title>
 			<title code="0x01000010">Death (死亡)</title>
 			<title code="0x0100000f">Mongolia United (モンゴル統一)</title>
 			<title code="0x0100000e">Ending (エンディング)</title>
-			<title code="0x00000080">ADPCM: オープニングナレーション</title>
+			<title code="0x00000080">ADPCM:Opening Narration (オープニングナレーション)</title>
 			<title code="0x00000081">ADPCM:「後で後悔するぞ」</title>
 			<title code="0x00000082">ADPCM:「覚えていろ!」</title>
 			<title code="0x00000083">ADPCM:「グウァー!」</title>
@@ -243,8 +243,8 @@
 			<rom type="bgm" offset="0x00">MUSIC.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00002800">プレ・オープニング</title>
-			<title code="0x01012600">オープニング</title>
+			<title code="0x00002800">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x01012600">Opening (オープニング)</title>
 			<title code="0x0102c400">初期設定</title>
 			<title code="0x01052f00">メイン・春</title>
 			<title code="0x01079500">メイン・夏</title>
@@ -279,8 +279,8 @@
 			<rom type="bgm" offset="0x00">ISINMML.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x002b5900">プレ・オープニング</title>
-			<title code="0x01106200">オープニング</title>
+			<title code="0x002b5900">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x01106200">Opening (オープニング)</title>
 			<title code="0x010b4900">初期設定</title>
 			<title code="0x0102dc00">MAIN1 ～冬～</title>
 			<title code="0x01002000">MAIN2 ～秋～</title>
@@ -349,7 +349,7 @@
 			<rom type="bgm" offset="0x01">OESOUND.OVL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00020001">オープニング</title>
+			<title code="0x00020001">Opening (オープニング)</title>
 			<title code="0x01050001">プレストーリー</title>
 			<title code="0x01158001">嵐の航海</title>
 			<title code="0x01020000">初期設定</title>
@@ -371,7 +371,7 @@
 			<title code="0x01118001">エンディング</title>
 			<title code="0x013c8000">ゲームオーバー</title>
 			<title code="0x00410000">ジングル</title>
-		<!--	<title code="0x01020001">オープニング</title> -->
+		<!--	<title code="0x01020001">Opening (オープニング)</title> -->
 		<!--	<title code="0x010a0001">王宮</title> -->
 			<title code="0x011b8001">波</title>
 		</titlelist>
@@ -391,7 +391,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01000000">序曲</title>
-			<title code="0x01047c00">オープニング</title>
+			<title code="0x01047c00">Opening (オープニング)</title>
 			<title code="0x01084900">母港・呉のテーマ</title>
 			<title code="0x010b2f00">母港・ハワイのテーマ</title>
 			<title code="0x0110c000">寄港</title>
@@ -446,7 +446,7 @@
 			<title code="0x0058f900">勝利</title>
 			<title code="0x005b4200">敗北</title>
 			<title code="0x015ce400">死亡エンディング</title>
-			<title code="0x01000401">オープニング</title>
+			<title code="0x01000401">Opening (オープニング)</title>
 			<title code="0x011f9101">エンディング</title>
 		</titlelist>
 	</game>
@@ -465,8 +465,8 @@
 			<rom type="bgm" offset="0x01">MMLDATA2.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000001">オープニング1</title>
-			<title code="0x01064201">オープニング2</title>
+			<title code="0x01000001">Opening 1 (オープニング1)</title>
+			<title code="0x01064201">Opening 2 (オープニング2)</title>
 			<title code="0x01002c00">初期メニュー</title>
 			<title code="0x01023a00">BGM(織田)</title>
 			<title code="0x01075000">BGM(武田)</title>
@@ -538,9 +538,9 @@
 			<title code="0x0068ab00">レベルアップ</title>
 			<title code="0x0169f100">ボスキャラ対決</title>
 			<title code="0x016c7300">対決前セリフ</title>
-			<title code="0x01000a01">オープニング1</title>
-			<title code="0x01036a01">オープニング2</title>
-			<title code="0x0111ef01">オープニング3</title>
+			<title code="0x01000a01">Opening 1 (オープニング1)</title>
+			<title code="0x01036a01">Opening 2 (オープニング2)</title>
+			<title code="0x0111ef01">Opening 3 (オープニング3)</title>
 			<title code="0x011f0201">エンディング1</title>
 			<title code="0x012e8301">エンディング2</title>
 			<!-- <title code="0x016ed001">MUS36</title> -->
@@ -561,7 +561,7 @@
 			<rom type="bgm" offset="0x01">MMLDATA2.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">オープニング</title>
+			<title code="0x00000001">Opening (オープニング)</title>
 			<title code="0x01002000">初期設定</title>
 			<title code="0x01066500">メイン・春</title>
 			<title code="0x010df000">メイン・夏</title>
@@ -613,7 +613,7 @@
 			<title code="0x015ddb00">自軍将軍の死</title>
 			<title code="0x015f8d00">戦場のロマンス</title>
 			<title code="0x01619d00">援軍</title>
-			<title code="0x0165f800">オープニング</title>
+			<title code="0x0165f800">Opening (オープニング)</title>
 			<title code="0x01704b00">プレ勝利エンディング</title>
 			<title code="0x01722000">エンディング</title>
 		</titlelist>
@@ -633,7 +633,7 @@
 			<rom type="bgm" offset="0x01">MMLDATA2.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000001">オープニング</title>
+			<title code="0x01000001">Opening (オープニング)</title>
 			<title code="0x01002e00">戦略・モンゴル</title>
 			<title code="0x0105ed00">戦略・内陸アジア</title>
 			<title code="0x010bb300">戦略・インド</title>
@@ -722,25 +722,25 @@
 			<rom type="data" offset="0xd800">MMLOPM.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">オープニング／夢の旅人(ループあり)</title>
-			<title code="0x12">オープニング／夢の旅人(ループなし)</title>
-			<title code="0x13">オープニング／夢の旅人(fine.)</title>
-			<title code="0x01">初期設定</title>
-			<title code="0x06">メイン モンゴル</title>
-			<title code="0x07">メイン 日本</title>
-			<title code="0x08">メイン インド</title>
-			<title code="0x09">メイン アラビア</title>
-			<title code="0x0a">メイン 西ヨーロッパ</title>
-			<title code="0x0b">メイン 東ヨーロッパ</title>
-			<title code="0x0c">オルド</title>
-			<title code="0x02">オルド ラッチのテーマ</title>
-			<title code="0x05">戦争 ジンギスカンのテーマ</title>
-			<title code="0x0d">戦争 騎馬の舞</title>
-			<title code="0x0e">勝利</title>
-			<title code="0x0f">敗北</title>
-			<title code="0x04">死亡</title>
-			<title code="0x03">モンゴル統一</title>
-			<title code="0x10">エンディング</title>
+			<title code="0x11">Opening / Dream Voyager (Loop) (オープニング/夢の旅人(ループあり))</title>
+			<title code="0x12">Opening / Dream Voyager (No Loop) (オープニング/夢の旅人(ループなし))</title>
+			<title code="0x13">Opening / Dream Voyager (Fine) (オープニング/夢の旅人(fine.))</title>
+			<title code="0x01">Initialize (初期設定)</title>
+			<title code="0x06">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x07">Main - Japan (メイン 日本)</title>
+			<title code="0x08">Main - India (メイン インド)</title>
+			<title code="0x09">Main - Arabia (メイン アラビア)</title>
+			<title code="0x0a">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x0b">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x0c">Ordo (オルド)</title>
+			<title code="0x02">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x05">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x0d">War - Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x0e">Victory (勝利)</title>
+			<title code="0x0f">Defeat (敗北)</title>
+			<title code="0x04">Death (死亡)</title>
+			<title code="0x03">Mongolia United (モンゴル統一)</title>
+			<title code="0x10">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -757,25 +757,25 @@
 			<rom type="data" offset="0xd800">MMLPSG.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">オープニング／夢の旅人(ループあり)</title>
-			<title code="0x12">オープニング／夢の旅人(ループなし)</title>
-			<title code="0x13">オープニング／夢の旅人(fine.)</title>
-			<title code="0x01">初期設定</title>
-			<title code="0x06">メイン モンゴル</title>
-			<title code="0x07">メイン 日本</title>
-			<title code="0x08">メイン インド</title>
-			<title code="0x09">メイン アラビア</title>
-			<title code="0x0a">メイン 西ヨーロッパ</title>
-			<title code="0x0b">メイン 東ヨーロッパ</title>
-			<title code="0x0c">オルド</title>
-			<title code="0x02">オルド ラッチのテーマ</title>
-			<title code="0x05">戦争 ジンギスカンのテーマ</title>
-			<title code="0x0d">戦争 騎馬の舞</title>
-			<title code="0x0e">勝利</title>
-			<title code="0x0f">敗北</title>
-			<title code="0x04">死亡</title>
-			<title code="0x03">モンゴル統一</title>
-			<title code="0x10">エンディング</title>
+			<title code="0x11">Opening / Dream Voyager (Loop) (オープニング/夢の旅人(ループあり))</title>
+			<title code="0x12">Opening / Dream Voyager (No Loop) (オープニング/夢の旅人(ループなし))</title>
+			<title code="0x13">Opening / Dream Voyager (Fine) (オープニング/夢の旅人(fine.))</title>
+			<title code="0x01">Initialize (初期設定)</title>
+			<title code="0x06">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x07">Main - Japan (メイン 日本)</title>
+			<title code="0x08">Main - India (メイン インド)</title>
+			<title code="0x09">Main - Arabia (メイン アラビア)</title>
+			<title code="0x0a">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x0b">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x0c">Ordo (オルド)</title>
+			<title code="0x02">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x05">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x0d">War - Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x0e">Victory (勝利)</title>
+			<title code="0x0f">Defeat (敗北)</title>
+			<title code="0x04">Death (死亡)</title>
+			<title code="0x03">Mongolia United (モンゴル統一)</title>
+			<title code="0x10">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -816,8 +816,8 @@
 			<rom type="data" offset="0x4000">MUSIC.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">プレ・オープニング</title>
-			<title code="0x01000001">オープニング</title>
+			<title code="0x00000000">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x01000001">Opening (オープニング)</title>
 			<title code="0x01000002">初期設定</title>
 			<title code="0x01000003">メイン・春</title>
 			<title code="0x01000004">メイン・夏</title>
@@ -848,8 +848,8 @@
 			<rom type="data" offset="0x4000">ISINMML.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000000e">プレ・オープニング</title>
-			<title code="0x00000004">オープニング</title>
+			<title code="0x0000000e">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x00000004">Opening (オープニング)</title>
 			<title code="0x01000005">初期設定</title>
 			<title code="0x01000000">MAIN1 ～冬～</title>
 			<title code="0x01000001">MAIN2 ～秋～</title>
@@ -876,7 +876,7 @@
 			<rom type="data" offset="0x4000">MUSIC.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000001">オープニング</title>
+			<title code="0x01000001">Opening (オープニング)</title>
 			<title code="0x01000002">初期メニュー</title>
 			<title code="0x01000003">戦略画面1</title>
 			<title code="0x01000004">戦略画面2</title>
@@ -910,7 +910,7 @@
 			<rom type="data" offset="0x6000">SOUND.OVL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x81000001">オープニング</title>
+			<title code="0x81000001">Opening (オープニング)</title>
 			<title code="0x81000002">プレ・ストーリー</title>
 			<title code="0x81000006">嵐の航海</title>
 			<title code="0x01000001">初期設定</title>
@@ -946,7 +946,7 @@
 			<rom type="data" offset="0x8000">MUSIC.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x81000000">オープニング</title>
+			<title code="0x81000000">Opening (オープニング)</title>
 			<title code="0x01000000">フランス</title>
 			<title code="0x01000001">ドイツ</title>
 			<title code="0x01000002">北欧</title>
@@ -993,8 +993,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000102">プレ・オープニング</title>
-			<title code="0x10000101">オープニング</title>
+			<title code="0x10000102">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x10000101">Opening (オープニング)</title>
 			<title code="0x30000108">MAIN1 ～冬～</title>
 			<title code="0x30000103">MAIN2 ～秋～</title>
 			<title code="0x30000102">MAIN3 ～夏～</title>
@@ -1031,8 +1031,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000001">プレ・オープニング</title>
-			<title code="0x10000102">オープニング</title>
+			<title code="0x10000001">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x10000102">Opening (オープニング)</title>
 			<title code="0x10000103">初期設定</title>
 			<title code="0x10000104">メイン</title>
 			<title code="0x10000105">野戦</title>
@@ -1070,8 +1070,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000101">オープニング1</title>
-			<title code="0x10000102">オープニング2</title>
+			<title code="0x10000101">Opening 1 (オープニング1)</title>
+			<title code="0x10000102">Opening 2 (オープニング2)</title>
 			<title code="0x10000103">エンディング</title>
 			<title code="0x30000101">初期メニュー</title>
 			<title code="0x30000102">BGM(織田)</title>
@@ -1161,8 +1161,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000101">オープニング(1)</title>
-			<title code="0x10000102">オープニング(2)</title>
+			<title code="0x10000101">Opening (1) (オープニング(1))</title>
+			<title code="0x10000102">Opening (2) (オープニング(2))</title>
 			<title code="0x30000101">メイン元気</title>
 			<title code="0x30000102">メイン試練</title>
 			<title code="0x30000103">メイン進軍</title>
@@ -1260,7 +1260,7 @@
 			<title code="0x00000000">Stop the Music</title>
 			<title code="0x10000101">波</title>
 			<title code="0x10000102">嵐の航海</title>
-			<title code="0x10000103">オープニング</title>
+			<title code="0x10000103">Opening (オープニング)</title>
 			<title code="0x10000104">プレ・ストーリー</title>
 			<title code="0x10000105">初期設定</title>
 			<title code="0x10000106">ポルトガル</title>
@@ -1346,7 +1346,7 @@
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
 			<title code="0x10000101">序曲</title>
-			<title code="0x10000102">オープニング</title>
+			<title code="0x10000102">Opening (オープニング)</title>
 			<title code="0x10000103">母港・呉のテーマ</title>
 			<title code="0x10000104">会議(日本)</title>
 			<title code="0x10000105">出港</title>
@@ -1392,25 +1392,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000111">オープニング／夢の旅人</title>
-		<!--	(title code="0x10000012")12 : オープニング／夢の旅人 途中まで (/title) 	-->
-		<!--	(title code="0x10000013")13 : オープニング／夢の旅人 途中から (/title) 	-->
-			<title code="0x10000101">初期設定</title>
-			<title code="0x10000102">オルド ラッチのテーマ</title>
-			<title code="0x10000103">モンゴル統一</title>
-			<title code="0x10000104">死亡</title>
-			<title code="0x10000105">戦争 ジンギスカンのテーマ</title>
-			<title code="0x10000106">メイン モンゴル</title>
-			<title code="0x10000107">メイン 日本</title>
-			<title code="0x10000108">メイン インド</title>
-			<title code="0x10000109">メイン アラビア</title>
-			<title code="0x1000010a">メイン 西ヨーロッパ</title>
-			<title code="0x1000010b">メイン 東ヨーロッパ</title>
-			<title code="0x1000010c">オルド</title>
-			<title code="0x1000010d">戦争 騎馬の舞</title>
-			<title code="0x1000000e">勝利</title>
-			<title code="0x1000000f">敗北</title>
-			<title code="0x10000110">エンディング</title>
+			<title code="0x10000111">Opening / Dream Voyager (オープニング/夢の旅人)</title>
+		<!--	<title code="0x10000012">Opening / Dream Voyager (First Half) (オープニング/夢の旅人 途中まで)</title> 	-->
+		<!--	<title code="0x10000013">Opening / Dream Voyager (Second Half) (オープニング/夢の旅人 途中から)</title> 	-->
+			<title code="0x10000101">Initialize (初期設定)</title>
+			<title code="0x10000106">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x10000107">Main - Japan (メイン 日本)</title>
+			<title code="0x10000108">Main - India (メイン インド)</title>
+			<title code="0x10000109">Main - Arabia (メイン アラビア)</title>
+			<title code="0x1000010a">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x1000010b">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x1000010c">Ordo (オルド)</title>
+			<title code="0x10000102">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x10000105">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x1000010d">War - Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x1000000e">Victory (勝利)</title>
+			<title code="0x1000000f">Defeat (敗北)</title>
+			<title code="0x10000104">Death (死亡)</title>
+			<title code="0x10000103">Mongolia United (モンゴル統一)</title>
+			<title code="0x10000110">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1435,7 +1435,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x10000101">オープニング</title>
+			<title code="0x10000101">Opening (オープニング)</title>
 			<title code="0x30000101">戦略・モンゴル</title>
 			<title code="0x30000102">戦略・内陸アジア</title>
 			<title code="0x30000103">戦略・インド</title>
@@ -1526,46 +1526,46 @@
 			<rom type="shell" offset="0">TENSH_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">乱世の鷹               (オープニング)</title>
+			<title code="0x01000010">乱世の鷹 (オープニング)</title>
 <!--
 			<title code="0x01000011">MUSIC.NB6 #00</title>
 			<title code="0x01010011">MUSIC.NB6 #01</title>
 -->
 			<title code="0x01020011">MUSIC.NB6 #02</title>
 			<title code="0x00030011">MUSIC.NB6 #03</title>
-			<title code="0x00040011">                       (披露・問答)</title>
-			<title code="0x00050011">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01060011">陰影                   (死亡)</title>
-			<title code="0x01070011">                       (東北地方)</title>
-			<title code="0x01080011">遠野                   (関東地方)</title>
-			<title code="0x01090011">春濤                   (東海地方)</title>
-			<title code="0x010a0011">甲斐の虎               (甲信地方)</title>
-			<title code="0x010b0011">毘の旗幟               (北陸地方)</title>
-			<title code="0x010c0011">湖上の弓月             (近畿地方)</title>
-			<title code="0x010d0011">雲の路                 (山陰地方)</title>
-			<title code="0x010e0011">                       (山陽地方)</title>
-			<title code="0x010f0011">花菜風                 (四国地方)</title>
-			<title code="0x01100011">                       (九州地方)</title>
-			<title code="0x01110011">                       (海外貿易港)</title>
-			<title code="0x01120011">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01130011">月下の陣               (戦争)</title>
-			<title code="0x01140011">夏疾風                 (戦争・夏)</title>
-			<title code="0x01150011">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01160011">夏疾風                 (戦争・春)</title>
-			<title code="0x01170011">                       (戦争・冬)</title>
-			<title code="0x01180011">                       (戦争・秋)</title>
-			<title code="0x01190011">破軍                   (戦争・信長)</title>
+			<title code="0x00040011">披露・問答</title>
+			<title code="0x00050011">披露・茶会ファンファーレ</title>
+			<title code="0x01060011">陰影 (死亡)</title>
+			<title code="0x01070011">東北地方</title>
+			<title code="0x01080011">遠野 (関東地方)</title>
+			<title code="0x01090011">春濤 (東海地方)</title>
+			<title code="0x010a0011">甲斐の虎 (甲信地方)</title>
+			<title code="0x010b0011">毘の旗幟 (北陸地方)</title>
+			<title code="0x010c0011">湖上の弓月 (近畿地方)</title>
+			<title code="0x010d0011">雲の路 (山陰地方)</title>
+			<title code="0x010e0011">山陽地方</title>
+			<title code="0x010f0011">花菜風 (四国地方)</title>
+			<title code="0x01100011">九州地方</title>
+			<title code="0x01110011">海外貿易港</title>
+			<title code="0x01120011">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01130011">月下の陣 (戦争)</title>
+			<title code="0x01140011">夏疾風 (戦争・夏)</title>
+			<title code="0x01150011">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01160011">夏疾風 (戦争・春)</title>
+			<title code="0x01170011">戦争・冬</title>
+			<title code="0x01180011">戦争・秋</title>
+			<title code="0x01190011">破軍 (戦争・信長)</title>
 			<title code="0x011a0011">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x011b0011">                       (講義)</title>
-			<title code="0x011c0011">風蘭                   (披露・茶会)</title>
-			<title code="0x011d0011">                       (外交)</title>
-			<title code="0x011e0011">怨狼の牙               (本能寺の変)</title>
-			<title code="0x011f0011">いにしえの瞳           (環境)</title>
-			<title code="0x01200011">虎口の城               (戦争・名将)</title>
+			<title code="0x011b0011">講義</title>
+			<title code="0x011c0011">風蘭 (披露・茶会)</title>
+			<title code="0x011d0011">外交</title>
+			<title code="0x011e0011">怨狼の牙 (本能寺の変)</title>
+			<title code="0x011f0011">いにしえの瞳 (環境)</title>
+			<title code="0x01200011">虎口の城 (戦争・名将)</title>
 			<title code="0x01210011">MUSIC.NB6 #21</title>
-			<title code="0x00220011">                       (敗北)</title>
-			<title code="0x00230011">                       (御前・茶会・披露開始)</title>
-			<title code="0x01000012">夢幻の彼方             (エンディング)</title>
+			<title code="0x00220011">敗北</title>
+			<title code="0x00230011">御前・茶会・披露開始</title>
+			<title code="0x01000012">夢幻の彼方 (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1586,46 +1586,46 @@
 			<rom type="shell" offset="0">TENSH_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">乱世の鷹               (オープニング)</title>
+			<title code="0x01000010">乱世の鷹 (オープニング)</title>
 <!--
 			<title code="0x01000011">MUSIC21.NB6 #00</title>
 			<title code="0x01010011">MUSIC21.NB6 #01</title>
 -->
 			<title code="0x01020011">MUSIC21.NB6 #02</title>
 			<title code="0x00030011">MUSIC21.NB6 #03</title>
-			<title code="0x00040011">                       (披露・問答)</title>
-			<title code="0x00050011">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01060011">陰影                   (死亡)</title>
-			<title code="0x01070011">                       (東北地方)</title>
-			<title code="0x01080011">遠野                   (関東地方)</title>
-			<title code="0x01090011">春濤                   (東海地方)</title>
-			<title code="0x010a0011">甲斐の虎               (甲信地方)</title>
-			<title code="0x010b0011">毘の旗幟               (北陸地方)</title>
-			<title code="0x010c0011">湖上の弓月             (近畿地方)</title>
-			<title code="0x010d0011">雲の路                 (山陰地方)</title>
-			<title code="0x010e0011">                       (山陽地方)</title>
-			<title code="0x010f0011">花菜風                 (四国地方)</title>
-			<title code="0x01100011">                       (九州地方)</title>
-			<title code="0x01110011">                       (海外貿易港)</title>
-			<title code="0x01120011">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01130011">月下の陣               (戦争)</title>
-			<title code="0x01140011">夏疾風                 (戦争・夏)</title>
-			<title code="0x01150011">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01160011">夏疾風                 (戦争・春)</title>
-			<title code="0x01170011">                       (戦争・冬)</title>
-			<title code="0x01180011">                       (戦争・秋)</title>
-			<title code="0x01190011">破軍                   (戦争・信長)</title>
+			<title code="0x00040011">披露・問答</title>
+			<title code="0x00050011">披露・茶会ファンファーレ</title>
+			<title code="0x01060011">陰影 (死亡)</title>
+			<title code="0x01070011">東北地方</title>
+			<title code="0x01080011">遠野 (関東地方)</title>
+			<title code="0x01090011">春濤 (東海地方)</title>
+			<title code="0x010a0011">甲斐の虎 (甲信地方)</title>
+			<title code="0x010b0011">毘の旗幟 (北陸地方)</title>
+			<title code="0x010c0011">湖上の弓月 (近畿地方)</title>
+			<title code="0x010d0011">雲の路 (山陰地方)</title>
+			<title code="0x010e0011">山陽地方</title>
+			<title code="0x010f0011">花菜風 (四国地方)</title>
+			<title code="0x01100011">九州地方</title>
+			<title code="0x01110011">海外貿易港</title>
+			<title code="0x01120011">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01130011">月下の陣 (戦争)</title>
+			<title code="0x01140011">夏疾風 (戦争・夏)</title>
+			<title code="0x01150011">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01160011">夏疾風 (戦争・春)</title>
+			<title code="0x01170011">戦争・冬</title>
+			<title code="0x01180011">戦争・秋</title>
+			<title code="0x01190011">破軍 (戦争・信長)</title>
 			<title code="0x011a0011">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x011b0011">                       (講義)</title>
-			<title code="0x011c0011">風蘭                   (披露・茶会)</title>
-			<title code="0x011d0011">                       (外交)</title>
-			<title code="0x011e0011">怨狼の牙               (本能寺の変)</title>
-			<title code="0x011f0011">いにしえの瞳           (環境)</title>
-			<title code="0x01200011">虎口の城               (戦争・名将)</title>
+			<title code="0x011b0011">講義</title>
+			<title code="0x011c0011">風蘭 (披露・茶会)</title>
+			<title code="0x011d0011">外交</title>
+			<title code="0x011e0011">怨狼の牙 (本能寺の変)</title>
+			<title code="0x011f0011">いにしえの瞳 (環境)</title>
+			<title code="0x01200011">虎口の城 (戦争・名将)</title>
 			<title code="0x01210011">MUSIC21.NB6 #21</title>
-			<title code="0x00220011">                       (敗北)</title>
-			<title code="0x00230011">                       (御前・茶会・披露開始)</title>
-			<title code="0x01000012">夢幻の彼方             (エンディング)</title>
+			<title code="0x00220011">敗北</title>
+			<title code="0x00230011">御前・茶会・披露開始</title>
+			<title code="0x01000012">夢幻の彼方 (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1793,9 +1793,9 @@
 			<rom type="shell" offset="0">TTK2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02000011">オープニング・提督の決断IIのテーマ</title>
+			<title code="0x02000011">Opening - Theme of Teitoku no Ketsudan II (オープニング・提督の決断IIのテーマ)</title>
 <!--
-			<title code="0x02010011">OPBGM.TK2 : 01 :</title>
+			<title code="0x02010011">OPBGM.TK2 #01</title>
 -->
 			<title code="0x94000010">BGM.TK2 #00</title>
 			<title code="0x94010010">日本軍のテーマ(戦況有利)</title>
@@ -2029,7 +2029,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Taikou Risshiden 2 (太閤立志伝2) (YM2203)</name>
+		<name>[PC-9801] Taikou Risshiden II (太閤立志伝 II) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Koei</driveralias>
 		<options>
@@ -2072,10 +2072,24 @@
 			<rom type="file" offset="0x2e">MMLDATA.030</rom>
 			<rom type="file" offset="0x2f">MMLDATA.031</rom>
 			<rom type="file" offset="0x30">MMLDATA.032</rom>
+			<rom type="file" offset="0x31">OPEN.000</rom>
+			<rom type="file" offset="0x32">OPEN.001</rom>
+			<rom type="file" offset="0x33">OPEN.002</rom>
+			<rom type="file" offset="0x34">OPEN.003</rom>
+			<rom type="file" offset="0x35">OPEN.004</rom>
+			<rom type="file" offset="0x37">END.000</rom>
+			<rom type="file" offset="0x38">END.001</rom>
+			<rom type="file" offset="0x39">END.002</rom>
+			<rom type="file" offset="0x3a">END.003</rom>
 			<rom type="shell" offset="0">FMDRV</rom>
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x01000031">OPEN.BGM #00</title>
+		<!--	<title code="0x00000032">OPEN.BGM #01</title> -->
+			<title code="0x01000033">OPEN.BGM #02</title>
+			<title code="0x01000034">OPEN.BGM #03</title>
+			<title code="0x00000035">OPEN.BGM #04</title>
 			<title code="0x01000010">MMLDATA.LZW #00</title>
 			<title code="0x01000011">MMLDATA.LZW #01</title>
 			<title code="0x01000012">MMLDATA.LZW #02</title>
@@ -2109,6 +2123,10 @@
 			<title code="0x0000002e">MMLDATA.LZW #30</title>
 			<title code="0x0000002f">MMLDATA.LZW #31</title>
 			<title code="0x00000030">MMLDATA.LZW #32</title>
+			<title code="0x01000037">END.BGM #00</title>
+			<title code="0x01000038">END.BGM #01</title>
+			<title code="0x01000039">END.BGM #02</title>
+			<title code="0x0000003a">END.BGM #03</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2225,42 +2243,42 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">乱世の鷹               (オープニング)</title>
-			<title code="0x01000011">夢幻の彼方             (エンディング)</title>
+			<title code="0x01000010">乱世の鷹 (オープニング)</title>
+			<title code="0x01000011">夢幻の彼方 (エンディング)</title>
 			<title code="0x01000012">BGM #02</title>
 			<title code="0x00000013">BGM #03</title>
-			<title code="0x00000014">                       (披露・問答)</title>
-			<title code="0x00000015">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01000016">陰影                   (死亡)</title>
-			<title code="0x01000017">                       (東北地方)</title>
-			<title code="0x01000018">遠野                   (関東地方)</title>
-			<title code="0x01000019">春濤                   (東海地方)</title>
-			<title code="0x0100001a">甲斐の虎               (甲信地方)</title>
-			<title code="0x0100001b">毘の旗幟               (北陸地方)</title>
-			<title code="0x0100001c">湖上の弓月             (近畿地方)</title>
-			<title code="0x0100001d">雲の路                 (山陰地方)</title>
-			<title code="0x0100001e">                       (山陽地方)</title>
-			<title code="0x0100001f">花菜風                 (四国地方)</title>
-			<title code="0x01000020">                       (九州地方)</title>
-			<title code="0x01000021">                       (海外貿易港)</title>
-			<title code="0x01000022">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01000023">月下の陣               (戦争)</title>
-			<title code="0x01000024">夏疾風                 (戦争・夏)</title>
-			<title code="0x01000025">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01000026">夏疾風                 (戦争・春)</title>
-			<title code="0x01000027">                       (戦争・冬)</title>
-			<title code="0x01000028">                       (戦争・秋)</title>
-			<title code="0x01000029">破軍                   (戦争・信長)</title>
+			<title code="0x00000014">披露・問答</title>
+			<title code="0x00000015">披露・茶会ファンファーレ</title>
+			<title code="0x01000016">陰影 (死亡)</title>
+			<title code="0x01000017">東北地方</title>
+			<title code="0x01000018">遠野 (関東地方)</title>
+			<title code="0x01000019">春濤 (東海地方)</title>
+			<title code="0x0100001a">甲斐の虎 (甲信地方)</title>
+			<title code="0x0100001b">毘の旗幟 (北陸地方)</title>
+			<title code="0x0100001c">湖上の弓月 (近畿地方)</title>
+			<title code="0x0100001d">雲の路 (山陰地方)</title>
+			<title code="0x0100001e">山陽地方</title>
+			<title code="0x0100001f">花菜風 (四国地方)</title>
+			<title code="0x01000020">九州地方</title>
+			<title code="0x01000021">海外貿易港</title>
+			<title code="0x01000022">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01000023">月下の陣 (戦争)</title>
+			<title code="0x01000024">夏疾風 (戦争・夏)</title>
+			<title code="0x01000025">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01000026">夏疾風 (戦争・春)</title>
+			<title code="0x01000027">戦争・冬</title>
+			<title code="0x01000028">戦争・秋</title>
+			<title code="0x01000029">破軍 (戦争・信長)</title>
 			<title code="0x0100002a">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x0100002b">                       (講義)</title>
-			<title code="0x0100002c">風蘭                   (披露・茶会)</title>
-			<title code="0x0100002d">                       (外交)</title>
-			<title code="0x0100002e">怨狼の牙               (本能寺の変)</title>
-			<title code="0x0100002f">いにしえの瞳           (環境)</title>
-			<title code="0x01000030">虎口の城               (戦争・名将)</title>
+			<title code="0x0100002b">講義</title>
+			<title code="0x0100002c">風蘭 (披露・茶会)</title>
+			<title code="0x0100002d">外交</title>
+			<title code="0x0100002e">怨狼の牙 (本能寺の変)</title>
+			<title code="0x0100002f">いにしえの瞳 (環境)</title>
+			<title code="0x01000030">虎口の城 (戦争・名将)</title>
 			<title code="0x01000031">BGM #21</title>
-			<title code="0x00000032">                       (敗北)</title>
-			<title code="0x00000033">                       (御前・茶会・披露開始)</title>
+			<title code="0x00000032">敗北</title>
+			<title code="0x00000033">御前・茶会・披露開始</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2314,42 +2332,42 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">乱世の鷹               (オープニング)</title>
-			<title code="0x01000011">夢幻の彼方             (エンディング)</title>
+			<title code="0x01000010">乱世の鷹 (オープニング)</title>
+			<title code="0x01000011">夢幻の彼方 (エンディング)</title>
 			<title code="0x01000012">BGM #02</title>
 			<title code="0x00000013">BGM #03</title>
-			<title code="0x00000014">                       (披露・問答)</title>
-			<title code="0x00000015">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01000016">陰影                   (死亡)</title>
-			<title code="0x01000017">                       (東北地方)</title>
-			<title code="0x01000018">遠野                   (関東地方)</title>
-			<title code="0x01000019">春濤                   (東海地方)</title>
-			<title code="0x0100001a">甲斐の虎               (甲信地方)</title>
-			<title code="0x0100001b">毘の旗幟               (北陸地方)</title>
-			<title code="0x0100001c">湖上の弓月             (近畿地方)</title>
-			<title code="0x0100001d">雲の路                 (山陰地方)</title>
-			<title code="0x0100001e">                       (山陽地方)</title>
-			<title code="0x0100001f">花菜風                 (四国地方)</title>
-			<title code="0x01000020">                       (九州地方)</title>
-			<title code="0x01000021">                       (海外貿易港)</title>
-			<title code="0x01000022">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01000023">月下の陣               (戦争)</title>
-			<title code="0x01000024">夏疾風                 (戦争・夏)</title>
-			<title code="0x01000025">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01000026">夏疾風                 (戦争・春)</title>
-			<title code="0x01000027">                       (戦争・冬)</title>
-			<title code="0x01000028">                       (戦争・秋)</title>
-			<title code="0x01000029">破軍                   (戦争・信長)</title>
+			<title code="0x00000014">披露・問答</title>
+			<title code="0x00000015">披露・茶会ファンファーレ</title>
+			<title code="0x01000016">陰影 (死亡)</title>
+			<title code="0x01000017">東北地方</title>
+			<title code="0x01000018">遠野 (関東地方)</title>
+			<title code="0x01000019">春濤 (東海地方)</title>
+			<title code="0x0100001a">甲斐の虎 (甲信地方)</title>
+			<title code="0x0100001b">毘の旗幟 (北陸地方)</title>
+			<title code="0x0100001c">湖上の弓月 (近畿地方)</title>
+			<title code="0x0100001d">雲の路 (山陰地方)</title>
+			<title code="0x0100001e">山陽地方</title>
+			<title code="0x0100001f">花菜風 (四国地方)</title>
+			<title code="0x01000020">九州地方</title>
+			<title code="0x01000021">海外貿易港</title>
+			<title code="0x01000022">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01000023">月下の陣 (戦争)</title>
+			<title code="0x01000024">夏疾風 (戦争・夏)</title>
+			<title code="0x01000025">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01000026">夏疾風 (戦争・春)</title>
+			<title code="0x01000027">戦争・冬</title>
+			<title code="0x01000028">戦争・秋</title>
+			<title code="0x01000029">破軍 (戦争・信長)</title>
 			<title code="0x0100002a">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x0100002b">                       (講義)</title>
-			<title code="0x0100002c">風蘭                   (披露・茶会)</title>
-			<title code="0x0100002d">                       (外交)</title>
-			<title code="0x0100002e">怨狼の牙               (本能寺の変)</title>
-			<title code="0x0100002f">いにしえの瞳           (環境)</title>
-			<title code="0x01000030">虎口の城               (戦争・名将)</title>
+			<title code="0x0100002b">講義</title>
+			<title code="0x0100002c">風蘭 (披露・茶会)</title>
+			<title code="0x0100002d">外交</title>
+			<title code="0x0100002e">怨狼の牙 (本能寺の変)</title>
+			<title code="0x0100002f">いにしえの瞳 (環境)</title>
+			<title code="0x01000030">虎口の城 (戦争・名将)</title>
 			<title code="0x01000031">BGM #21</title>
-			<title code="0x00000032">                       (敗北)</title>
-			<title code="0x00000033">                       (御前・茶会・披露開始)</title>
+			<title code="0x00000032">敗北</title>
+			<title code="0x00000033">御前・茶会・披露開始</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2504,7 +2522,7 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">オープニング SE</title>
+			<title code="0x00000010">Opening SFX (オープニング SFX)</title>
 			<title code="0x01010010">信長の野望・覇王伝 オープニング</title>
 			<title code="0x01000011">織田信長のテーマ</title>
 			<title code="0x01010011">武田信玄のテーマ</title>
@@ -2548,7 +2566,7 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000011">オープニング</title>
+			<title code="0x01000011">Opening (オープニング)</title>
 			<title code="0x01010011">初期設定</title>
 			<title code="0x01070012">春</title>
 			<title code="0x010F0012">夏</title>
@@ -2681,26 +2699,26 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">オープニング</title>
+			<title code="0x01000010">Opening (オープニング)</title>
 <!-- MAIN.BINと同じ
-			<title code="0x01010010">OPEN.BIN : 01 :</title>
-			<title code="0x01020010">OPEN.BIN : 02 :</title>
-			<title code="0x01030010">OPEN.BIN : 03 :</title>
-			<title code="0x01040010">OPEN.BIN : 04 :</title>
-			<title code="0x01050010">OPEN.BIN : 05 :</title>
-			<title code="0x01060010">OPEN.BIN : 06 :</title>
-			<title code="0x01070010">OPEN.BIN : 07 :</title>
-			<title code="0x01080010">OPEN.BIN : 08 :</title>
-			<title code="0x01090010">OPEN.BIN : 09 :</title>
-			<title code="0x000A0010">OPEN.BIN : 0A :</title>
-			<title code="0x000B0010">OPEN.BIN : 0B :</title>
-			<title code="0x010C0010">OPEN.BIN : 0C :</title>
-			<title code="0x010D0010">OPEN.BIN : 0D :</title>
-			<title code="0x010E0010">OPEN.BIN : 0E :</title>
-			<title code="0x010F0010">OPEN.BIN : 0F :</title>
+			<title code="0x01010010">OPEN.BIN #01</title>
+			<title code="0x01020010">OPEN.BIN #02</title>
+			<title code="0x01030010">OPEN.BIN #03</title>
+			<title code="0x01040010">OPEN.BIN #04</title>
+			<title code="0x01050010">OPEN.BIN #05</title>
+			<title code="0x01060010">OPEN.BIN #06</title>
+			<title code="0x01070010">OPEN.BIN #07</title>
+			<title code="0x01080010">OPEN.BIN #08</title>
+			<title code="0x01090010">OPEN.BIN #09</title>
+			<title code="0x000A0010">OPEN.BIN #0A</title>
+			<title code="0x000B0010">OPEN.BIN #0B</title>
+			<title code="0x010C0010">OPEN.BIN #0C</title>
+			<title code="0x010D0010">OPEN.BIN #0D</title>
+			<title code="0x010E0010">OPEN.BIN #0E</title>
+			<title code="0x010F0010">OPEN.BIN #0F</title>
 	 END.BINと同じ
-			<title code="0x01100010">OPEN.BIN : 10 :</title>
-			<title code="0x01110010">OPEN.BIN : 11 :</title>
+			<title code="0x01100010">OPEN.BIN #10</title>
+			<title code="0x01110010">OPEN.BIN #11</title>
 -->
 			<title code="0x01000011">メイン 項羽1</title>
 			<title code="0x01010011">メイン 項羽2</title>
@@ -2876,7 +2894,7 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01160010">オープニング</title>
+			<title code="0x01160010">Opening (オープニング)</title>
 			<title code="0x01000010">フランス</title>
 			<title code="0x01010010">ドイツ</title>
 			<title code="0x01020010">北欧</title>
@@ -2930,18 +2948,18 @@
 			<title code="0x01080010">OPEN.BIN #08</title>
 			<title code="0x01090010">OPEN.BIN #09</title>
 <!--
-			<title code="0x000A0010">OPEN : 0A :</title>
-			<title code="0x010B0010">OPEN : 0B :</title>
-			<title code="0x010C0010">OPEN : 0C :</title>
-			<title code="0x010D0010">OPEN : 0D :</title>
-			<title code="0x010E0010">OPEN : 0E :</title>
-			<title code="0x000F0010">OPEN : 0F :</title>
-			<title code="0x00100010">OPEN : 10 :</title>
-			<title code="0x00110010">OPEN : 11 :</title>
+			<title code="0x000A0010">OPEN #0A</title>
+			<title code="0x010B0010">OPEN #0B</title>
+			<title code="0x010C0010">OPEN #0C</title>
+			<title code="0x010D0010">OPEN #0D</title>
+			<title code="0x010E0010">OPEN #0E</title>
+			<title code="0x000F0010">OPEN #0F</title>
+			<title code="0x00100010">OPEN #10</title>
+			<title code="0x00110010">OPEN #11</title>
 -->
 			<title code="0x00120010">OPEN.BIN #12</title>
 <!--
-			<title code="0x01000011">MAIN : 00 :</title>
+			<title code="0x01000011">MAIN #00</title>
 -->
 			<title code="0x01010011">MAIN.BIN #01</title>
 			<title code="0x01020011">MAIN.BIN #02</title>
@@ -2980,7 +2998,7 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">オープニング</title>
+			<title code="0x00000010">Opening (オープニング)</title>
 			<title code="0x01000011">初期設定</title>
 			<title code="0x01010011">メイン・春</title>
 			<title code="0x01020011">メイン・夏</title>
@@ -3018,11 +3036,11 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">オープニング</title>
+			<title code="0x00000010">Opening (オープニング)</title>
 <!--
-			<title code="0x00010010">OPEN : 01 :</title>
-			<title code="0x00020010">OPEN : 02 :</title>
-			<title code="0x01000011">MAIN : 00 :</title>
+			<title code="0x00010010">OPEN #01</title>
+			<title code="0x00020010">OPEN #02</title>
+			<title code="0x01000011">MAIN #00</title>
 -->
 			<title code="0x01010011">フランス電撃戦</title>
 			<title code="0x01020011">北アメリカ戦線</title>
@@ -3035,7 +3053,7 @@
 			<title code="0x00090011">戦闘・勝利</title>
 			<title code="0x000a0011">戦闘・敗北</title>
 <!--
-			<title code="0x010b0011">MAIN : 0B : エンディング</title>
+			<title code="0x010b0011">エンディング</title>
 -->
 			<title code="0x000c0011">シナリオ敗北</title>
 			<title code="0x000d0011">シナリオ勝利</title>
@@ -3046,8 +3064,8 @@
 			<title code="0x01120011">戦場のロマンス</title>
 			<title code="0x01130011">援軍</title>
 <!--
-			<title code="0x00140011">MAIN : 14 :</title>
-			<title code="0x00000012">END  : 00 :</title>
+			<title code="0x00140011">MAIN #14</title>
+			<title code="0x00000012">END #00</title>
 -->
 			<title code="0x01010012">エンディング</title>
 			<title code="0x01020012">プレ勝利エンディング</title>
@@ -3132,12 +3150,12 @@
 			<title code="0x01080010">HEX戦</title>
 			<title code="0x00090010">HEX戦：敗退</title>
 			<title code="0x000a0010">HEX戦：勝利</title>
-			<title code="0x010b0010">オープニング3</title>
-			<title code="0x010c0010">オープニング1</title>
+			<title code="0x010b0010">Opening 3 (オープニング3)</title>
+			<title code="0x010c0010">Opening 1 (オープニング1)</title>
 			<title code="0x010d0010">エンディング2</title>
 			<title code="0x000e0010">イベントクリア</title>
 			<title code="0x010f0010">城下町内移動</title>
-			<title code="0x01100010">オープニング2</title>
+			<title code="0x01100010">Opening 2 (オープニング2)</title>
 			<title code="0x01110010">日本移動：仲間無し</title>
 			<title code="0x01120010">日本移動：仲間有り</title>
 			<title code="0x01130010">日本移動：ラスト</title>
@@ -3178,7 +3196,7 @@
 			<rom type="shell" offset="0">SAN1_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0100">オープニング</title>
+			<title code="0x0100">Opening (オープニング)</title>
 			<title code="0x0101">メイン華北</title>
 			<title code="0x0102">メイン華南</title>
 			<title code="0x0103">戦争華北</title>
@@ -3208,7 +3226,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000010">プレ・オープニング</title>
-			<title code="0x01010010">オープニング</title>
+			<title code="0x01010010">Opening (オープニング)</title>
 			<title code="0x01020010">初期設定</title>
 			<title code="0x01030010">メイン・春</title>
 			<title code="0x01040010">メイン・夏</title>
@@ -3454,42 +3472,42 @@
 			<rom type="shell" offset="0">FMDRV_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000011">乱世の鷹               (オープニング)</title>
-			<title code="0x01000012">夢幻の彼方             (エンディング)</title>
+			<title code="0x01000011">乱世の鷹 (オープニング)</title>
+			<title code="0x01000012">夢幻の彼方 (エンディング)</title>
 			<title code="0x01000013">BGM #02</title>
 			<title code="0x00000014">BGM #03</title>
-			<title code="0x00000015">                       (披露・問答)</title>
-			<title code="0x00000016">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01000017">陰影                   (死亡)</title>
-			<title code="0x01000018">                       (東北地方)</title>
-			<title code="0x01000019">遠野                   (関東地方)</title>
-			<title code="0x0100001a">春濤                   (東海地方)</title>
-			<title code="0x0100001b">甲斐の虎               (甲信地方)</title>
-			<title code="0x0100001c">毘の旗幟               (北陸地方)</title>
-			<title code="0x0100001d">湖上の弓月             (近畿地方)</title>
-			<title code="0x0100001e">雲の路                 (山陰地方)</title>
-			<title code="0x0100001f">                       (山陽地方)</title>
-			<title code="0x01000020">花菜風                 (四国地方)</title>
-			<title code="0x01000021">                       (九州地方)</title>
-			<title code="0x01000022">                       (海外貿易港)</title>
-			<title code="0x01000023">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01000024">月下の陣               (戦争)</title>
-			<title code="0x01000025">夏疾風                 (戦争・夏)</title>
-			<title code="0x01000026">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01000027">夏疾風                 (戦争・春)</title>
-			<title code="0x01000028">                       (戦争・冬)</title>
-			<title code="0x01000029">                       (戦争・秋)</title>
-			<title code="0x0100002a">破軍                   (戦争・信長)</title>
+			<title code="0x00000015">披露・問答</title>
+			<title code="0x00000016">披露・茶会ファンファーレ</title>
+			<title code="0x01000017">陰影 (死亡)</title>
+			<title code="0x01000018">東北地方</title>
+			<title code="0x01000019">遠野 (関東地方)</title>
+			<title code="0x0100001a">春濤 (東海地方)</title>
+			<title code="0x0100001b">甲斐の虎 (甲信地方)</title>
+			<title code="0x0100001c">毘の旗幟 (北陸地方)</title>
+			<title code="0x0100001d">湖上の弓月 (近畿地方)</title>
+			<title code="0x0100001e">雲の路 (山陰地方)</title>
+			<title code="0x0100001f">山陽地方</title>
+			<title code="0x01000020">花菜風 (四国地方)</title>
+			<title code="0x01000021">九州地方</title>
+			<title code="0x01000022">海外貿易港</title>
+			<title code="0x01000023">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01000024">月下の陣 (戦争)</title>
+			<title code="0x01000025">夏疾風 (戦争・夏)</title>
+			<title code="0x01000026">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01000027">夏疾風 (戦争・春)</title>
+			<title code="0x01000028">戦争・冬</title>
+			<title code="0x01000029">戦争・秋</title>
+			<title code="0x0100002a">破軍 (戦争・信長)</title>
 			<title code="0x0100002b">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x0100002c">                       (講義)</title>
-			<title code="0x0100002d">風蘭                   (披露・茶会)</title>
-			<title code="0x0100002e">                       (外交)</title>
-			<title code="0x0100002f">怨狼の牙               (本能寺の変)</title>
-			<title code="0x01000030">いにしえの瞳           (環境)</title>
-			<title code="0x01000031">虎口の城               (戦争・名将)</title>
+			<title code="0x0100002c">講義</title>
+			<title code="0x0100002d">風蘭 (披露・茶会)</title>
+			<title code="0x0100002e">外交</title>
+			<title code="0x0100002f">怨狼の牙 (本能寺の変)</title>
+			<title code="0x01000030">いにしえの瞳 (環境)</title>
+			<title code="0x01000031">虎口の城 (戦争・名将)</title>
 			<title code="0x01000032">BGM #33</title>
-			<title code="0x00000033">                       (敗北)</title>
-			<title code="0x00000034">                       (御前・茶会・披露開始)</title>
+			<title code="0x00000033">敗北</title>
+			<title code="0x00000034">御前・茶会・披露開始</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3511,46 +3529,46 @@
 			<rom type="shell" offset="0">SBOPL_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">乱世の鷹               (オープニング)</title>
+			<title code="0x01000010">乱世の鷹 (オープニング)</title>
 <!--
 			<title code="0x01000011">MUSIC.NB6 #00</title>
 			<title code="0x01010011">MUSIC.NB6 #01</title>
 -->
 			<title code="0x01020011">MUSIC.NB6 #02</title>
 			<title code="0x00030011">MUSIC.NB6 #03</title>
-			<title code="0x00040011">                       (披露・問答)</title>
-			<title code="0x00050011">                       (披露・茶会ファンファーレ)</title>
-			<title code="0x01060011">陰影                   (死亡)</title>
-			<title code="0x01070011">                       (東北地方)</title>
-			<title code="0x01080011">遠野                   (関東地方)</title>
-			<title code="0x01090011">春濤                   (東海地方)</title>
-			<title code="0x010a0011">甲斐の虎               (甲信地方)</title>
-			<title code="0x010b0011">毘の旗幟               (北陸地方)</title>
-			<title code="0x010c0011">湖上の弓月             (近畿地方)</title>
-			<title code="0x010d0011">雲の路                 (山陰地方)</title>
-			<title code="0x010e0011">                       (山陽地方)</title>
-			<title code="0x010f0011">花菜風                 (四国地方)</title>
-			<title code="0x01100011">                       (九州地方)</title>
-			<title code="0x01110011">                       (海外貿易港)</title>
-			<title code="0x01120011">天魔鬼神～上の巻～     (安土城)</title>
-			<title code="0x01130011">月下の陣               (戦争)</title>
-			<title code="0x01140011">夏疾風                 (戦争・夏)</title>
-			<title code="0x01150011">暉映の戦場             (戦争・緊迫)</title>
-			<title code="0x01160011">夏疾風                 (戦争・春)</title>
-			<title code="0x01170011">                       (戦争・冬)</title>
-			<title code="0x01180011">                       (戦争・秋)</title>
-			<title code="0x01190011">破軍                   (戦争・信長)</title>
+			<title code="0x00040011">披露・問答</title>
+			<title code="0x00050011">披露・茶会ファンファーレ</title>
+			<title code="0x01060011">陰影 (死亡)</title>
+			<title code="0x01070011">東北地方</title>
+			<title code="0x01080011">遠野 (関東地方)</title>
+			<title code="0x01090011">春濤 (東海地方)</title>
+			<title code="0x010a0011">甲斐の虎 (甲信地方)</title>
+			<title code="0x010b0011">毘の旗幟 (北陸地方)</title>
+			<title code="0x010c0011">湖上の弓月 (近畿地方)</title>
+			<title code="0x010d0011">雲の路 (山陰地方)</title>
+			<title code="0x010e0011">山陽地方</title>
+			<title code="0x010f0011">花菜風 (四国地方)</title>
+			<title code="0x01100011">九州地方</title>
+			<title code="0x01110011">海外貿易港</title>
+			<title code="0x01120011">天魔鬼神～上の巻～ (安土城)</title>
+			<title code="0x01130011">月下の陣 (戦争)</title>
+			<title code="0x01140011">夏疾風 (戦争・夏)</title>
+			<title code="0x01150011">暉映の戦場 (戦争・緊迫)</title>
+			<title code="0x01160011">夏疾風 (戦争・春)</title>
+			<title code="0x01170011">戦争・冬</title>
+			<title code="0x01180011">戦争・秋</title>
+			<title code="0x01190011">破軍 (戦争・信長)</title>
 			<title code="0x011a0011">OVERTURE～信長の野望～ (初期設定)</title>
-			<title code="0x011b0011">                       (講義)</title>
-			<title code="0x011c0011">風蘭                   (披露・茶会)</title>
-			<title code="0x011d0011">                       (外交)</title>
-			<title code="0x011e0011">怨狼の牙               (本能寺の変)</title>
-			<title code="0x011f0011">いにしえの瞳           (環境)</title>
-			<title code="0x01200011">虎口の城               (戦争・名将)</title>
+			<title code="0x011b0011">講義</title>
+			<title code="0x011c0011">風蘭 (披露・茶会)</title>
+			<title code="0x011d0011">外交</title>
+			<title code="0x011e0011">怨狼の牙 (本能寺の変)</title>
+			<title code="0x011f0011">いにしえの瞳 (環境)</title>
+			<title code="0x01200011">虎口の城 (戦争・名将)</title>
 			<title code="0x01210011">MUSIC.NB6 #21</title>
-			<title code="0x00220011">                       (敗北)</title>
-			<title code="0x00230011">                       (御前・茶会・披露開始)</title>
-			<title code="0x01000012">夢幻の彼方             (エンディング)</title>
+			<title code="0x00220011">敗北</title>
+			<title code="0x00230011">御前・茶会・披露開始</title>
+			<title code="0x01000012">夢幻の彼方 (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3614,7 +3632,7 @@
 		<titlelist>
 			<title code="0x01000010">嵐の航海</title>
 			<title code="0x01010010">プレストーリー</title>
-			<title code="0x01020010">オープニング</title>
+			<title code="0x01020010">Opening (オープニング)</title>
 			<title code="0x01030010">波</title>
 			<title code="0x01000011">戦後処理</title>
 			<title code="0x01010011">逮捕</title>
@@ -3722,13 +3740,13 @@
 			<title code="0x01130011">Outsiders</title>
 			<title code="0x01000012">我が大地 -On the Earth-</title>
 <!--
-			<title code="0x01010012">EDMUSIC.R3 : 01 :</title>
+			<title code="0x01010012">EDMUSIC.R3 #01</title>
 -->
 			<title code="0x01020012">EDMUSIC.R3 #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Taikou Risshiden 2 (太閤立志伝2)</name>
+		<name>[PC/AT] Taikou Risshiden II (太閤立志伝 II)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Koei</driveralias>
 		<options>
@@ -3830,7 +3848,7 @@
 			<rom type="shell" offset="0">FMDRV_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">オープニング</title>
+			<title code="0x00000010">Opening (オープニング)</title>
 <!--
 			<title code="0x01010010">エンディング</title>
 			<title code="0x01020010">プレ勝利エンディング</title>
@@ -3855,7 +3873,7 @@
 			<title code="0x01110011">援軍</title>
 <!--
 			<title code="0x01120011">エンディング</title>
-			<title code="0x00000012">オープニング</title>
+			<title code="0x00000012">Opening (オープニング)</title>
 -->
 			<title code="0x01010012">エンディング</title>
 			<title code="0x01020012">プレ勝利エンディング</title>
@@ -3930,7 +3948,7 @@
 			<rom type="shell" offset="0">FMDRV_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">オープニング</title>
+			<title code="0x01000010">Opening (オープニング)</title>
 			<title code="0x01010010">戦略・モンゴル</title>
 			<title code="0x01020010">戦略・内陸アジア</title>
 			<title code="0x01030010">戦略・インド</title>
@@ -4074,7 +4092,7 @@
 			<rom type="shell" offset="0">FMDRV_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000010">オープニング</title>
+			<title code="0x01000010">Opening (オープニング)</title>
 			<title code="0x01000011">戦争・戦力均衡</title>
 			<title code="0x01010011">戦争・コンピュータ</title>
 			<title code="0x01020011">休養・舞踏会</title>
@@ -4155,7 +4173,7 @@
 			<rom type="shell" offset="0">fmdrv_at</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000010">オープニング</title>
+			<title code="0x00000010">Opening (オープニング)</title>
 			<title code="0x01000011">初期設定</title>
 			<title code="0x01010011">メイン・春</title>
 			<title code="0x01020011">メイン・夏</title>
@@ -4176,7 +4194,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Pacific Theater of Operations 2 (提督の決断 II) (YM3812)</name>
+		<name>[PC/AT] Pacific Theater of Operations II (提督の決断 II) (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Koei</driveralias>
 		<options>
@@ -4193,7 +4211,7 @@
 			<rom type="shell" offset="0">TTK2_AT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000011">オープニング・提督の決断IIのテーマ</title>
+			<title code="0x00000011">Opening - Theme of Teitoku no Ketsudan II (オープニング・提督の決断IIのテーマ)</title>
 			<title code="0x97000010">BGM.TK2 #00</title>
 			<title code="0x97010010">日本軍のテーマ(戦況有利)</title>
 			<title code="0x97020010">日本軍のテーマ</title>
@@ -4441,16 +4459,16 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="nobuz68snd">
 			<rom type="code">nobz68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">NOB.SND</rom>
 			<rom type="code" offset="0x04ffde">ODAMAIN.Z</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0101">オープニング</title>
+			<title code="0x0101">Opening (オープニング)</title>
 			<title code="0x0102">メイン</title>
 			<title code="0x0103">戦争</title>
 			<title code="0x0004">勝利</title>
@@ -4466,17 +4484,17 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="gunyu68snd">
 			<rom type="code">gunyu68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">GUNYUU.SND</rom>
 			<rom type="code" offset="0x0514de">MAIN.Z</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0101">プレ・オープニング</title>
-			<title code="0x0102">オープニング</title>
+			<title code="0x0102">Opening (オープニング)</title>
 			<title code="0x0103">初期設定</title>
 			<title code="0x0104">メイン</title>
 			<title code="0x0105">野戦</title>
@@ -4498,16 +4516,16 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="san68snd">
 			<rom type="code">san168snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">SANGOKU.SND</rom>
 			<rom type="code" offset="0x04ffde">SANMAIN.Z</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xff01">オープニング(ジングル有り)</title>
+			<title code="0xff01">Opening (With Jingle) (オープニング(ジングル有り))</title>
 			<title code="0xff02">メイン華北</title>
 			<title code="0xff03">メイン華南</title>
 			<title code="0xff04">戦争華北</title>
@@ -4518,7 +4536,7 @@
 			<title code="0xff09">死亡</title>
 			<title code="0xff0a">主人公のテーマ</title>
 			<title code="0xff0b">統一</title>
-			<title code="0xff0c">オープニング</title>
+			<title code="0xff0c">Opening (オープニング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4526,32 +4544,32 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="gkhan68snd">
 			<rom type="code">gkhan68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">JIN.SND</rom>
 			<rom type="code" offset="0x0514de">JINMAIN.Z</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0111">オープニング／夢の旅人</title>
-			<title code="0x0101">初期設定</title>
-			<title code="0x0105">戦争 ジンギスカンのテーマ</title>
-			<title code="0x010d">戦争 騎馬の舞</title>
-			<title code="0x0106">メイン モンゴル</title>
-			<title code="0x0107">メイン 日本</title>
-			<title code="0x0109">メイン アラビア</title>
-			<title code="0x0108">メイン インド</title>
-			<title code="0x010a">メイン 西ヨーロッパ</title>
-			<title code="0x010b">メイン 東ヨーロッパ</title>
-			<title code="0x000e">勝利</title>
-			<title code="0x000f">敗北</title>
-			<title code="0x010c">オルド</title>
-			<title code="0x0102">オルド ラッチのテーマ</title>
-			<title code="0x0103">モンゴル統一</title>
-			<title code="0x0104">死亡</title>
-			<title code="0x0110">エンディング</title>
+			<title code="0x0111">Opening / Dream Voyager (オープニング/夢の旅人)</title>
+			<title code="0x0101">Initialize (初期設定)</title>
+			<title code="0x0106">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x0107">Main - Japan (メイン 日本)</title>
+			<title code="0x0108">Main - India (メイン インド)</title>
+			<title code="0x0109">Main - Arabia (メイン アラビア)</title>
+			<title code="0x010a">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x010b">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x010c">Ordo (オルド)</title>
+			<title code="0x0102">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x0105">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x010d">War - Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x000e">Victory (勝利)</title>
+			<title code="0x000f">Defeat (敗北)</title>
+			<title code="0x0104">Death (死亡)</title>
+			<title code="0x0103">Mongolia United (モンゴル統一)</title>
+			<title code="0x0110">Ending (エンディング)</title>
 			<title code="0x0112">BGM #12</title>
 		</titlelist>
 	</game>
@@ -4589,7 +4607,7 @@
 		<titlelist>
 			<title code="0x1902">波</title>
 			<title code="0x1903">嵐の航海</title>
-			<title code="0x1905">オープニング</title>
+			<title code="0x1905">Opening (オープニング)</title>
 			<title code="0x1906">プレ・ストーリー</title>
 			<title code="0x1907">初期設定</title>
 			<title code="0x1908">ポルトガル</title>
@@ -4646,8 +4664,8 @@
 			<rom type="code" offset="0x88000">SNDDATA.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1b18">オープニング1</title>
-			<title code="0x1b19">オープニング2</title>
+			<title code="0x1b18">Opening 1 (オープニング1)</title>
+			<title code="0x1b19">Opening 2 (オープニング2)</title>
 			<title code="0x1b02">初期メニュー</title>
 			<title code="0x1b03">BGM(織田)</title>
 			<title code="0x1b04">BGM(武田)</title>
@@ -4678,17 +4696,17 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="suiko68snd">
 			<rom type="code">suiko68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">SUIKO68K.SND</rom>
 			<rom type="code" offset="0x0514de">MAIN.Z</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0001">プレ・オープニング</title>
-			<title code="0x0102">オープニング</title>
+			<title code="0x0102">Opening (オープニング)</title>
 			<title code="0x0103">初期設定</title>
 			<title code="0x0104">メイン・春</title>
 			<title code="0x0105">メイン・夏</title>
@@ -4714,17 +4732,17 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Koei</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="ishin68snd">
 			<rom type="code">ishin68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">NMIKOEI2.SND</rom>
 			<rom type="code" offset="0x0514de">ISINMAIN.Z</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x000f">プレ・オープニング</title>
-			<title code="0x0010">オープニング</title>
+			<title code="0x0010">Opening (オープニング)</title>
 			<title code="0x010b">初期設定</title>
 			<title code="0x0103">MAIN1 ～冬～</title>
 			<title code="0x0104">MAIN2 ～秋～</title>
@@ -4775,8 +4793,8 @@
 			<rom type="code" offset="0x84000">68S3.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1a02">オープニング(1)</title>
-			<title code="0x1a03">オープニング(2)</title>
+			<title code="0x1a02">Opening (1) (オープニング(1))</title>
+			<title code="0x1a03">Opening (2) (オープニング(2))</title>
 			<title code="0x1a04">エンディング</title>
 			<title code="0x1a05">メイン元気</title>
 			<title code="0x1a06">メイン試練</title>
@@ -4836,7 +4854,7 @@
 			<rom type="code" offset="0x94000">SNDDATA.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1e02">オープニング</title>
+			<title code="0x1e02">Opening (オープニング)</title>
 			<title code="0x1e04">フランス</title>
 			<title code="0x1e05">ドイツ</title>
 			<title code="0x1e06">北欧</title>
@@ -4859,7 +4877,7 @@
 			<title code="0x1e17">勝利</title>
 			<title code="0x1e18">敗北</title>
 			<title code="0x1e19">死亡エンディング</title>
-			<title code="0x1e1a">オープニング</title>
+			<title code="0x1e1a">Opening (オープニング)</title>
 			<title code="0x1e1c">エンディング</title>
 		</titlelist>
 	</game>
@@ -4910,9 +4928,9 @@
 			<rom type="code" offset="0xc0000">BUSHO.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x290f">オープニング1</title>
-			<title code="0x2913">オープニング2</title>
-			<title code="0x290d">オープニング3</title>
+			<title code="0x290f">Opening 1 (オープニング1)</title>
+			<title code="0x2913">Opening 2 (オープニング2)</title>
+			<title code="0x290d">Opening 3 (オープニング3)</title>
 			<title code="0x2902">対決前セリフ</title>
 			<title code="0x2903">レベルアップ</title>
 			<title code="0x2904">ダンジョン：修験場内</title>
@@ -4958,7 +4976,7 @@
 		</options>
 		<romlist archive="san268snd">
 			<rom type="code">san268snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">SAN2.SND</rom>
 			<rom type="code" offset="0x04ffde">MAIN.Z</rom>
 		</romlist>
@@ -5081,7 +5099,7 @@
 			<rom type="code" offset="0x78000">EWMX.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x170c">オープニング</title>
+			<title code="0x170c">Opening (オープニング)</title>
 			<title code="0x1702">フランス電撃戦</title>
 			<title code="0x1703">北アメリカ戦線</title>
 			<title code="0x1704">独ソ機甲戦</title>
@@ -5137,7 +5155,7 @@
 			<rom type="code" offset="0x80000">SNDOP.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1904">オープニング SE</title>
+			<title code="0x1904">Opening SFX (オープニング SFX)</title>
 			<title code="0x1902">信長の野望・覇王伝 オープニング</title>
 			<title code="0x1905">織田信長のテーマ</title>
 			<title code="0x1906">武田信玄のテーマ</title>
@@ -5240,7 +5258,7 @@
 			<rom type="code" offset="0x80000">MU_SOUND.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1914">オープニング</title>
+			<title code="0x1914">Opening (オープニング)</title>
 			<title code="0x1902">初期設定</title>
 			<title code="0x1903">メイン・春</title>
 			<title code="0x1905">メイン・夏</title>
@@ -5290,7 +5308,7 @@
 			<rom type="code" offset="0x70000">X68KR.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1512">オープニング</title>
+			<title code="0x1512">Opening (オープニング)</title>
 			<title code="0x1502">メイン 項羽1</title>
 			<title code="0x1503">メイン 項羽2</title>
 			<title code="0x1505">メイン 項羽3</title>
@@ -5408,7 +5426,7 @@
 			<rom type="code" offset="0xa8000">TK.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x231b">オープニング</title>
+			<title code="0x231b">Opening (オープニング)</title>
 			<title code="0x231c">初期設定</title>
 			<title code="0x230a">春</title>
 			<title code="0x2312">夏</title>
@@ -5475,7 +5493,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x1a02">序曲</title>
-			<title code="0x1a03">オープニング</title>
+			<title code="0x1a03">Opening (オープニング)</title>
 			<title code="0x1a05">母港・呉のテーマ</title>
 			<title code="0x1a13">母港・ハワイのテーマ</title>
 			<title code="0x1a08">会議(日本)</title>
@@ -5533,7 +5551,7 @@
 			<rom type="code" offset="0x8c000">SND.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1c02">オープニング</title>
+			<title code="0x1c02">Opening (オープニング)</title>
 			<title code="0x1c05">戦略・モンゴル</title>
 			<title code="0x1c06">戦略・内陸アジア</title>
 			<title code="0x1c07">戦略・インド</title>
@@ -5573,7 +5591,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00010010">プレ・オープニング</title>
-			<title code="0x01020010">オープニング</title>
+			<title code="0x01020010">Opening (オープニング)</title>
 			<title code="0x01030010">初期設定</title>
 			<title code="0x01040010">メイン</title>
 			<title code="0x01050010">野戦</title>
@@ -5603,7 +5621,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00010010">プレ・オープニング</title>
-			<title code="0x01020010">オープニング</title>
+			<title code="0x01020010">Opening (オープニング)</title>
 			<title code="0x01030010">初期設定</title>
 			<title code="0x01040010">メイン・春</title>
 			<title code="0x01050010">メイン・夏</title>
@@ -5638,7 +5656,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x12020010">プレ・オープニング</title>
-			<title code="0x12010010">オープニング</title>
+			<title code="0x12010010">Opening (オープニング)</title>
 			<title code="0x1e050011">初期設定</title>
 			<title code="0x1e080011">MAIN1 ～冬～</title>
 			<title code="0x1e030011">MAIN2 ～秋～</title>
@@ -5668,7 +5686,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01010010">序曲</title>
-			<title code="0x01020010">オープニング</title>
+			<title code="0x01020010">Opening (オープニング)</title>
 			<title code="0x01030010">母港・呉のテーマ</title>
 			<title code="0x01040010">会議(日本)</title>
 			<title code="0x01050010">出港</title>
@@ -5699,7 +5717,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="genghis_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5707,25 +5725,25 @@
 			<rom type="code" offset="0x8000">MMLDATA.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01990010">オープニング／夢の旅人(1)</title>
-			<title code="0x019f0011">オープニング／夢の旅人(2)</title>
-			<title code="0x01a48012">オープニング／夢の旅人(3)</title>
-			<title code="0x00800000">初期設定</title>
-			<title code="0x00840001">オルド ラッチのテーマ</title>
-			<title code="0x00858002">モンゴル統一</title>
-			<title code="0x01870003">死亡</title>
-			<title code="0x00880004">戦争 ジンギスカンのテーマ</title>
-			<title code="0x00890005">メイン モンゴル</title>
-			<title code="0x008b0006">メイン 日本</title>
-			<title code="0x008c0007">メイン インド</title>
-			<title code="0x008d8008">メイン アラビア</title>
-			<title code="0x008f0009">メイン 西ヨーロッパ</title>
-			<title code="0x0091000a">メイン 東ヨーロッパ</title>
-			<title code="0x0092800b">オルド</title>
-			<title code="0x0093800c">戦争 騎馬の舞</title>
-			<title code="0x0196000d">勝利</title>
-			<title code="0x0197000e">敗北</title>
-			<title code="0x0098000f">エンディング</title>
+			<title code="0x01990010">Opening / Dream Voyager (1) (オープニング/夢の旅人(1))</title>
+			<title code="0x019f0011">Opening / Dream Voyager (2) (オープニング/夢の旅人(2))</title>
+			<title code="0x01a48012">Opening / Dream Voyager (3) (オープニング/夢の旅人(3))</title>
+			<title code="0x00800000">Initialize (初期設定)</title>
+			<title code="0x00890005">Main - Mongolia (メイン モンゴル)</title>
+			<title code="0x008b0006">Main - Japan (メイン 日本)</title>
+			<title code="0x008c0007">Main - India (メイン インド)</title>
+			<title code="0x008d8008">Main - Arabia (メイン アラビア)</title>
+			<title code="0x008f0009">Main - West Europe (メイン 西ヨーロッパ)</title>
+			<title code="0x0091000a">Main - East Europe (メイン 東ヨーロッパ)</title>
+			<title code="0x0092800b">Ordo (オルド)</title>
+			<title code="0x00840001">Ordo - Latch Theme (オルド ラッチのテーマ)</title>
+			<title code="0x00880004">War - Theme of Genghis Khan (戦争 ジンギスカンのテーマ)</title>
+			<title code="0x0093800c">War - Rider's Dance (戦争 騎馬の舞)</title>
+			<title code="0x0196000d">Victory (勝利)</title>
+			<title code="0x0197000e">Defeat (敗北)</title>
+			<title code="0x01870003">Death (死亡)</title>
+			<title code="0x00858002">Mongolia United (モンゴル統一)</title>
+			<title code="0x0098000f">Ending (エンディング)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5736,7 +5754,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="europe_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5764,7 +5782,7 @@
 			<rom type="bgm" offset="0x14">MML_21.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000a">オープニング</title>
+			<title code="0x000a">Opening (オープニング)</title>
 			<title code="0x0000">フランス電撃戦</title>
 			<title code="0x0001">北アメリカ戦線</title>
 			<title code="0x0002">独ソ機甲戦</title>
@@ -5795,7 +5813,7 @@
 			<option name="mdata_addr" value="0x84d2"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="europe_msx,fmpac_msx">
@@ -5825,7 +5843,7 @@
 			<rom type="bgm" offset="0x14">MML_21.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000a">オープニング</title>
+			<title code="0x000a">Opening (オープニング)</title>
 			<title code="0x0000">フランス電撃戦</title>
 			<title code="0x0001">北アメリカ戦線</title>
 			<title code="0x0002">独ソ機甲戦</title>
@@ -5856,7 +5874,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="lmpereur_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5890,8 +5908,8 @@
 			<rom type="bgm" offset="0x18">MUS_22.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">オープニング(1)</title>
-			<title code="0x000001">オープニング(2)</title>
+			<title code="0x000000">Opening (1) (オープニング(1))</title>
+			<title code="0x000001">Opening (2) (オープニング(2))</title>
 			<title code="0x010003">フランス</title>
 			<title code="0x010004">ドイツ</title>
 			<title code="0x010005">北欧</title>
@@ -5925,7 +5943,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="lmpereur_msx,fmpac_msx">
@@ -5960,8 +5978,8 @@
 			<rom type="bgm" offset="0x18">MUS_22.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">オープニング(1)</title>
-			<title code="0x000001">オープニング(2)</title>
+			<title code="0x000000">Opening (1) (オープニング(1))</title>
+			<title code="0x000001">Opening (2) (オープニング(2))</title>
 			<title code="0x010003">フランス</title>
 			<title code="0x010004">ドイツ</title>
 			<title code="0x010005">北欧</title>
@@ -5995,7 +6013,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="royalbld_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6021,7 +6039,7 @@
 			<rom type="bgm" offset="0x12">MML_17.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">オープニング</title>
+			<title code="0x0000">Opening (オープニング)</title>
 			<title code="0x0002">初期設定</title>
 			<title code="0x0003">メイン・春</title>
 			<title code="0x0004">メイン・夏</title>
@@ -6050,7 +6068,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="royalbld_msx,fmpac_msx">
@@ -6079,7 +6097,7 @@
 			<rom type="bgm" offset="0x12">MML_17.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">オープニング</title>
+			<title code="0x000000">Opening (オープニング)</title>
 			<title code="0x010002">初期設定</title>
 			<title code="0x010003">メイン・春</title>
 			<title code="0x010004">メイン・夏</title>
@@ -6108,8 +6126,8 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_num"  value="0x50"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="mdata_num" value="0x50"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="inindou_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6186,9 +6204,9 @@
 			<rom type="bgm" offset="0x45">OMUS_35.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010023">オープニング1</title>
-			<title code="0x010024">オープニング2</title>
-			<title code="0x010025">オープニング3</title>
+			<title code="0x010023">Opening 1 (オープニング1)</title>
+			<title code="0x010024">Opening 2 (オープニング2)</title>
+			<title code="0x010025">Opening 3 (オープニング3)</title>
 			<title code="0x000000">日本移動：仲間無し</title>
 			<title code="0x000001">日本移動：仲間有り</title>
 			<title code="0x000002">日本移動：ラスト</title>
@@ -6222,8 +6240,8 @@
 			<title code="0x00011e">死亡</title>
 			<title code="0x00001f">32</title>
 			<!--
-			<title code="0x000020">オープニング2</title>
-			  -->
+			<title code="0x000020">Opening 2 (オープニング2)</title>
+			-->
 			<title code="0x000021">エンディング1</title>
 			<title code="0x000022">エンディング2</title>
 <!--
@@ -6270,8 +6288,8 @@
 			<option name="mdata_addr" value="0x9cfe"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_num"  value="0x50"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="mdata_num" value="0x50"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="inindou_msx,fmpac_msx">
@@ -6351,9 +6369,9 @@
 			<rom type="bgm" offset="0x45">OMUS_35.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010023">オープニング1</title>
-			<title code="0x010024">オープニング2</title>
-			<title code="0x010025">オープニング3</title>
+			<title code="0x010023">Opening 1 (オープニング1)</title>
+			<title code="0x010024">Opening 2 (オープニング2)</title>
+			<title code="0x010025">Opening 3 (オープニング3)</title>
 			<title code="0x000000">日本移動：仲間無し</title>
 			<title code="0x000001">日本移動：仲間有り</title>
 			<title code="0x000002">日本移動：ラスト</title>
@@ -6387,8 +6405,8 @@
 			<title code="0x00011e">死亡</title>
 			<title code="0x00001f">32</title>
 			<!--
-			<title code="0x000020">オープニング2</title>
-			  -->
+			<title code="0x000020">Opening 2 (オープニング2)</title>
+			-->
 			<title code="0x000021">エンディング1</title>
 			<title code="0x000022">エンディング2</title>
 <!--
@@ -6432,7 +6450,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="ishin_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6440,7 +6458,7 @@
 			<rom type="code" offset="0x8000">ISINMML.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000d">オープニング</title>
+			<title code="0x000d">Opening (オープニング)</title>
 			<title code="0x0004">初期設定</title>
 			<title code="0x0003">MAIN4 ～春～</title>
 			<title code="0x0002">MAIN3 ～夏～</title>
@@ -6462,7 +6480,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="ishin_msx,fmpac_msx">
@@ -6471,7 +6489,7 @@
 			<rom type="code" offset="0x8000">ISINMML.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000d">オープニング</title>
+			<title code="0x000d">Opening (オープニング)</title>
 			<title code="0x0004">初期設定</title>
 			<title code="0x0003">MAIN4 ～春～</title>
 			<title code="0x0002">MAIN3 ～夏～</title>
@@ -6493,7 +6511,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="san2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6501,7 +6519,7 @@
 			<rom type="code" offset="0xd6a0">KOEI.SYS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">オープニング</title>
+			<title code="0x0000">Opening (オープニング)</title>
 			<title code="0x0001">初期設定</title>
 			<title code="0x0002">魏メインテーマ</title>
 			<title code="0x0003">蜀メインテーマ</title>
@@ -6529,7 +6547,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="san2_msx,fmpac_msx">
@@ -6538,7 +6556,7 @@
 			<rom type="code" offset="0x8000">MUSIC.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">オープニング</title>
+			<title code="0x0000">Opening (オープニング)</title>
 			<title code="0x0001">初期設定</title>
 			<title code="0x0002">魏メインテーマ</title>
 			<title code="0x0003">蜀メインテーマ</title>
@@ -6566,7 +6584,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="gunyu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6574,9 +6592,9 @@
 			<rom type="code" offset="0x8000">MMLDATA.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0100">プレ・オープニング</title>
-			<title code="0x0101">オープニング(1)</title>
-			<title code="0x0002">オープニング(2)</title>
+			<title code="0x0100">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x0101">Opening (1) (オープニング(1))</title>
+			<title code="0x0002">Opening (2) (オープニング(2))</title>
 			<title code="0x0003">初期設定</title>
 			<title code="0x0004">メイン</title>
 			<title code="0x0005">野戦</title>
@@ -6598,7 +6616,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gunyu_msx,fmpac_msx">
@@ -6607,9 +6625,9 @@
 			<rom type="code" offset="0x8000">MMLDATA.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0100">プレ・オープニング</title>
-			<title code="0x0101">オープニング(1)</title>
-			<title code="0x0002">オープニング(2)</title>
+			<title code="0x0100">Pre-Opening (プレ・オープニング)</title>
+			<title code="0x0101">Opening (1) (オープニング(1))</title>
+			<title code="0x0002">Opening (2) (オープニング(2))</title>
 			<title code="0x0003">初期設定</title>
 			<title code="0x0004">メイン</title>
 			<title code="0x0005">野戦</title>
@@ -6631,7 +6649,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="fuunroku_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6640,9 +6658,9 @@
 			<rom type="code" offset="0xd700">KOEI.SYS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010000">オープニング1</title>
-			<title code="0x010001">オープニング2(1)</title>
-			<title code="0x000002">オープニング2(2)</title>
+			<title code="0x010000">Opening 1 (オープニング1)</title>
+			<title code="0x010001">Opening 2 (1) (オープニング2(1))</title>
+			<title code="0x000002">Opening 2 (2) (オープニング2(2))</title>
 			<title code="0x000100">初期メニュー</title>
 			<title code="0x000101">BGM(織田)</title>
 			<title code="0x000102">BGM(武田)</title>
@@ -6672,8 +6690,8 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="fuunroku_msx,fmpac_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6682,9 +6700,9 @@
 			<rom type="code" offset="0x8000">MMLDATA.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010000">オープニング1</title>
-			<title code="0x010001">オープニング2(1)</title>
-			<title code="0x000002">オープニング2(2)</title>
+			<title code="0x010000">Opening 1 (オープニング1)</title>
+			<title code="0x010001">Opening 2 (1) (オープニング2(1))</title>
+			<title code="0x000002">Opening 2 (2) (オープニング2(2))</title>
 			<title code="0x000100">初期メニュー</title>
 			<title code="0x000101">BGM(織田)</title>
 			<title code="0x000102">BGM(武田)</title>
@@ -6714,7 +6732,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="suiko_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6723,7 +6741,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0100">プレ・オープニング</title>
-			<title code="0x0001">オープニング</title>
+			<title code="0x0001">Opening (オープニング)</title>
 			<title code="0x0002">初期設定</title>
 			<title code="0x0003">メイン・春</title>
 			<title code="0x0004">メイン・夏</title>
@@ -6749,7 +6767,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="suiko_msx,fmpac_msx">
@@ -6759,7 +6777,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0100">プレ・オープニング</title>
-			<title code="0x0001">オープニング</title>
+			<title code="0x0001">Opening (オープニング)</title>
 			<title code="0x0002">初期設定</title>
 			<title code="0x0003">メイン・春</title>
 			<title code="0x0004">メイン・夏</title>
@@ -6788,7 +6806,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="gencho_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6821,7 +6839,7 @@
 			<rom type="bgm" offset="0x19">MML_26.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0018">オープニング</title>
+			<title code="0x0018">Opening (オープニング)</title>
 			<title code="0x0000">戦略・モンゴル</title>
 			<title code="0x000f">戦略・内陸アジア</title>
 			<title code="0x0014">戦略・イスラム</title>
@@ -6857,7 +6875,7 @@
 			<option name="mdata_addr" value="0xca8b"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gencho_msx,fmpac_msx">
@@ -6892,7 +6910,7 @@
 			<rom type="bgm" offset="0x19">MML_26.CIM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0018">オープニング</title>
+			<title code="0x0018">Opening (オープニング)</title>
 			<title code="0x0000">戦略・モンゴル</title>
 			<title code="0x000f">戦略・内陸アジア</title>
 			<title code="0x0014">戦略・イスラム</title>
@@ -6925,7 +6943,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="daikokai_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -6933,7 +6951,7 @@
 			<rom type="code" offset="0xd700">KOEI.SYS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0010">オープニング</title>
+			<title code="0x0010">Opening (オープニング)</title>
 			<title code="0x0000">初期設定</title>
 			<title code="0x0001">ポルトガル</title>
 			<title code="0x0002">王宮</title>
@@ -6958,7 +6976,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="daikokai_msx,fmpac_msx">
@@ -6968,7 +6986,7 @@
 			<rom type="code" offset="0xd700">KOEI.SYS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0010">オープニング</title>
+			<title code="0x0010">Opening (オープニング)</title>
 			<title code="0x0000">初期設定</title>
 			<title code="0x0001">ポルトガル</title>
 			<title code="0x0002">王宮</title>
@@ -6993,7 +7011,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Koei</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="daikokai_msx,fmpac_msx">
@@ -7003,7 +7021,7 @@
 			<rom type="code" offset="0xd700">KOEI.SYS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0010">オープニング</title>
+			<title code="0x0010">Opening (オープニング)</title>
 			<title code="0x0000">初期設定</title>
 			<title code="0x0001">ポルトガル</title>
 			<title code="0x0002">王宮</title>
@@ -7032,7 +7050,7 @@
 		</options>
 		<romlist archive="dkj268snd">
 			<rom type="code">dkj268snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">DATA1.019</rom>
 			<rom type="code" offset="0x040000">IPL113.R</rom>
 			<rom type="code" offset="0x041fde">main.cz</rom>
@@ -7131,7 +7149,7 @@
 		<driver type="opn">pc9821dos</driver>
 		<driveralias type="PC-9801">Koei</driveralias>
 		<options>
-			<option name="ssg_mix"  value="-18"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="san5_98">
 			<rom type="file" offset="-1">FMOPN.COM</rom>
@@ -7266,7 +7284,7 @@
 		<driver type="opn">pc9821dos</driver>
 		<driveralias type="PC-9801">Koei</driveralias>
 		<options>
-			<option name="ssg_mix"  value="-18"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="teitok3_98">
 			<rom type="file" offset="-1">FMOPN.COM</rom>
