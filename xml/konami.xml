@@ -9586,7 +9586,6 @@
 		<driver type="gticlub">konami</driver>
 		<driveralias type="Arcade">Konami</driveralias>
 		<options>
-			<option name="pcm_mix" value="0x100"/>
 			<option name="pcm_size" value="0x0800000"/>
 		</options>
 		<romlist archive="gticlub">
@@ -9607,10 +9606,8 @@
 			<title code="0x1050000">Heaven Shuffle [Goal BGM]</title>
 			<title code="0x1060000">Damned Souls Blues [Race Over BGM]</title>
 			<title code="0x10b0000">Evil-Eyed Angel [Tag Race]</title>
-			<title code="0x1090000">No Problem, But I Miss You [Ending BGM]</title>
-			<title code="0x1090000">cont.</title>
-			<title code="0x1090000">cont.</title>
-			<title code="0x10a0000">cont.</title>
+			<title code="0x1090000">No Problem, But I Miss You [Ending BGM] (x3)</title>
+			<title code="0x10a0000">No Problem, But I Miss You (End) [Ending BGM]</title>
 			<title code="0x10d0000">Speaker Test</title>
 		</titlelist>
 	</game>
@@ -9619,7 +9616,6 @@
 		<driver type="gticlub">konami</driver>
 		<driveralias type="Arcade">Konami</driveralias>
 		<options>
-			<option name="pcm_mix" value="0x100"/>
 			<option name="pcm_size" value="0x800000"/>
 		</options>
 		<romlist archive="slrasslt">
@@ -9654,11 +9650,10 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Hornet] Hang Pilot (ハングパイロット) (RF5C400)</name>
+		<name>[GTI Club] Hang Pilot (ハングパイロット) (RF5C400)</name>
 		<driver type="gticlub">konami</driver>
 		<driveralias type="Arcade">Konami</driveralias>
 		<options>
-			<option name="pcm_mix" value="0x100"/>
 			<option name="pcm_size" value="0x800000"/>
 		</options>
 		<romlist archive="hangplt">

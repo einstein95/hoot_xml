@@ -36,6 +36,146 @@
 <gamelist date="2005/09/25">
 	<!-- Atari -->
 	<game>
+		<name>[System 1] Marble Madness (マーブルマッドネス) (YM2151)</name>
+		<driver type="system1">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="marble">
+			<rom type="code" offset="0x08000">136033.421</rom>
+			<rom type="code" offset="0x0c000">136033.422</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">Practice Race [Stage 1 BGM]</title>
+			<title code="0x0a">Beginner Race [Stage 2 BGM]</title>
+			<title code="0x0c">Intermediate Race [Stage 3 BGM]</title>
+			<title code="0x0e">Aerial Race 1 [Stage 4 BGM]</title>
+			<title code="0x10">Aerial Race 2 [Stage 4 BGM]</title>
+			<title code="0x12">Aerial Race 3 [Stage 4 BGM]</title>
+			<title code="0x14">Silly Race 1 [Stage 5 BGM]</title>
+			<title code="0x16">Silly Race 2 [Stage 5 BGM]</title>
+			<title code="0x18">Ultimate Race [Stage 6 BGM]</title>
+			<title code="0x1c">Stage 2 Preview</title>
+			<title code="0x1d">Stage 3 Preview</title>
+			<title code="0x1e">Stage 6 Preview</title>
+			<title code="0x2f">Goal</title>
+			<title code="0x30">Perfect Clear</title>
+			<title code="0x1b">Name Entry 1</title>
+			<title code="0x1a">Name Entry 2</title>
+			<title code="0x3f">Out of Time</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[System 1] Peter Pack-Rat (ピーターパックラット) (YM2151)</name>
+		<driver type="system1">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="peterpak">
+			<rom offset="0x8000" type="code">136028.101</rom>
+			<rom offset="0xc000" type="code">136028.102</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[System 1] Indiana Jones and the Temple of Doom (インディージョーンズ) (YM2151)</name>
+		<driver type="system1">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="indytemp">
+			<rom offset="0x4000" type="code">136036.153</rom>
+			<rom offset="0x8000" type="code">136036.154</rom>
+			<rom offset="0xc000" type="code">136036.155</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[System 1] Road Runner (ルーニーチューンズ・ロードランナー) (YM2151)</name>
+		<driver type="system1">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="roadrunn">
+			<rom offset="0x8000" type="code">136040-143.15e</rom>
+			<rom offset="0xc000" type="code">136040-144.17e</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[System 1] Road Blasters (ロードブラスターズ) (YM2151)</name>
+		<driver type="system1">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="roadblst">
+			<rom offset="0x4000" type="code">136048-1149.14e</rom>
+			<rom offset="0x8000" type="code">136048-1169.1516e</rom>
+			<rom offset="0xc000" type="code">136048-1170.17e</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Gauntlet] Gauntlet (ガントレット) (YM2151)</name>
+		<driver type="gauntlet">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="gauntlet">
+			<rom type="code" offset="0x4000">136037-120.16r</rom>
+			<rom type="code" offset="0x8000">136037-119.16s</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Silent</title>
+			<title code="0x02">Noisy</title>
+			<title code="0x04">Music Chip Test</title>
+		<!--<title code="0x05">Effects Chip Test</title>
+			<title code="0x08">Speech Chip Test</title>-->
+			<title code="0x09">Level Start</title>
+			<range min="0x10" max="0x21" extcode="1">Sound #%02X</range>
+			<title code="0x22">Game Start P1</title>
+			<title code="0x23">Game Start P2</title>
+			<title code="0x24">Game Start P3</title>
+			<title code="0x25">Game Start P4</title>
+			<range min="0x26" max="0x36" extcode="1">Sound #%02X</range>
+			<title code="0x37">Credit P1</title>
+			<title code="0x38">Credit P2</title>
+			<title code="0x39">Credit P3</title>
+			<title code="0x3a">Credit P4</title>
+			<title code="0x3b">Hit P1</title>
+			<title code="0x3c">Hit P2</title>
+			<title code="0x3d">Hit P3</title>
+			<title code="0x3e">Hit P4</title>
+			<range min="0x3f" max="0x4a" extcode="1">Sound #%02X</range>
+		</titlelist>
+	</game>
+
+	<game>
+		<name>[Gauntlet] Vindicators Part II (YM2151)</name>
+		<driver type="gauntlet">atari</driver>
+		<driveralias type="Arcade">11AA</driveralias>
+		<romlist archive="vindctr2">
+			<rom offset="0x4000" type="code">136059-1160.16s</rom>
+			<rom offset="0x8000" type="code">136059-1161.16r</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Silent</title>
+			<title code="0x02">Noisy</title>
+			<title code="0x04">Music Chip Test</title>
+		<!--<title code="0x05">Effects Chip Test</title>
+			<title code="0x08">Speech Chip Test</title>-->
+			<title code="0x0c">Title/Area BGM</title>
+			<title code="0x6e">Credit</title>
+			<title code="0x20">Target Select</title>
+			<title code="0x16">Area BGM 1</title>
+			<title code="0x14">Area BGM 2</title>
+			<title code="0x0e">Area BGM 3</title>
+			<title code="0x10">Area BGM 4</title>
+			<title code="0x12">Area BGM 5</title>
+			<title code="0x18">All Clear</title>
+			<title code="0x1c">Name Entry</title>
+			<title code="0x1e">Continue</title>
+			<title code="0x1a">Unknown BGM</title>
+			<range min="0x22" max="0x89" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC/AT] Skull &amp; Crossbones (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Atari</driveralias>
