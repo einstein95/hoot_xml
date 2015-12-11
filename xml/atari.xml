@@ -85,7 +85,18 @@
 			<rom offset="0xc000" type="code">136036.155</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+			<title code="0x1d">Credit</title>
+			<title code="0x2a">Game Start</title>
+			<title code="0x10">Difficulty Select</title>
+			<title code="0x0b">Walking Level / Challenge Round</title>
+			<title code="0x09">Minecart Level</title>
+			<title code="0x0f">Sankara Stone Level 1</title>
+			<title code="0x0c">Sankara Stone Level 2 / 3</title>
+			<title code="0x0d">Rope Bridge Level</title>
+			<title code="0x0a">High Score</title>
+			<title code="0x04">Music Chip Test</title>
+			<range min="0x1a" max="0x1c" extcode="1">SFX #%02X</range>
+			<range min="0x1e" max="0x29" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -110,7 +121,17 @@
 			<rom offset="0xc000" type="code">136048-1170.17e</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+			<title code="0x09">Level Select</title>
+			<title code="0x0b">Level Finish 1</title>
+			<title code="0x0c">Level Finish 2</title>
+			<title code="0x0d">Level Finish 3</title>
+			<title code="0x0f">Level Clear (play after Level Finish)</title>			
+			<title code="0x10">Ran out of Fuel</title>
+			<title code="0x12">High Score</title>
+			<title code="0x16">Game Over</title>
+			<title code="0x04">Music Chip Test</title>
+			<range min="0x50" max="0x52" extcode="1">SFX #%02X</range>
+			<range min="0x58" max="0x5b" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -124,9 +145,10 @@
 		<titlelist>
 			<title code="0x01">Silent</title>
 			<title code="0x02">Noisy</title>
-			<title code="0x04">Music Chip Test</title>
-		<!--<title code="0x05">Effects Chip Test</title>
-			<title code="0x08">Speech Chip Test</title>-->
+			<title code="0x37">Credit P1</title>
+			<title code="0x38">Credit P2</title>
+			<title code="0x39">Credit P3</title>
+			<title code="0x3a">Credit P4</title>
 			<title code="0x09">Level Start</title>
 			<range min="0x10" max="0x21" extcode="1">Sound #%02X</range>
 			<title code="0x22">Game Start P1</title>
@@ -134,15 +156,14 @@
 			<title code="0x24">Game Start P3</title>
 			<title code="0x25">Game Start P4</title>
 			<range min="0x26" max="0x36" extcode="1">Sound #%02X</range>
-			<title code="0x37">Credit P1</title>
-			<title code="0x38">Credit P2</title>
-			<title code="0x39">Credit P3</title>
-			<title code="0x3a">Credit P4</title>
 			<title code="0x3b">Hit P1</title>
 			<title code="0x3c">Hit P2</title>
 			<title code="0x3d">Hit P3</title>
 			<title code="0x3e">Hit P4</title>
 			<range min="0x3f" max="0x4a" extcode="1">Sound #%02X</range>
+			<title code="0x04">Music Chip Test</title>
+		<!--<title code="0x05">Effects Chip Test</title>
+			<title code="0x08">Speech Chip Test</title>-->
 		</titlelist>
 	</game>
 

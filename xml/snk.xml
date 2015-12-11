@@ -572,6 +572,38 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[Alpha 68k] The Next Space (ザ・ネクスト・スペース) (YM3812)</name>
+		<driver type="tnextspc">snk</driver>
+		<driveralias type="Arcade">SNK</driveralias>
+		<romlist archive="tnextspc">
+			<rom type="code" offset="0x00000">ns_1.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xbf">Credit</title>
+			<title code="0x68">Title</title>
+			<title code="0x4f">Demonstration</title>
+			<title code="0x50">Level 1</title>
+			<title code="0x51">Boss 1</title>
+			<title code="0x5e">Boss 2</title>
+			<title code="0x43">BGM #43</title>
+			<title code="0x44">BGM #44</title>
+			<title code="0x4c">BGM #4C</title>
+			<title code="0x4d">BGM #4D</title>
+			<title code="0x54">BGM #54</title>
+			<title code="0x5b">BGM #5B</title>
+			<title code="0x5f">BGM #5F</title>
+			<title code="0x60">BGM #60</title>
+			<title code="0x61">BGM #61</title>
+			<title code="0x67">BGM #67</title>
+			<title code="0x69">BGM #69</title>
+			<title code="0x6a">BGM #6A</title>
+			<title code="0x6d">BGM #6D</title>
+			<title code="0x6e">BGM #6E</title>
+			<title code="0x6f">BGM #6F</title>
+			<range min="0x80" max="0xbe" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[SNK68] P.O.W.: Prisoners of War (脱獄 -PRISONERS OF WAR-) (YM3812+uPD7759)</name>
 		<driver type="3812">snk</driver>
 		<driveralias type="Arcade">SNK</driveralias>
