@@ -44,9 +44,9 @@
 		</options>
 		<romlist archive="shootrng68snd">
 			<rom type="code">sr68snd.bin</rom>
-			<rom type="x"    offset="0x10000">OPMDRV.X</rom>
+			<rom type="x" offset="0x10000">OPMDRV.X</rom>
 			<rom type="code" offset="0x30000">SR.FMD</rom>
-			<rom type="x"    offset="0x40000">shoot.x</rom>
+			<rom type="x" offset="0x40000">shoot.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">BGM #00</title>
@@ -139,41 +139,41 @@
 			<option name="mdata_addr" value="0xb180"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="fparodic_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xa000">FMDRV.BIN</rom>
 			<rom type="code" offset="0xc580">TONE.BIN</rom>
 			<rom type="code" offset="0xd800">SE.BIN</rom>
-			<rom type="bgm"  offset="0x0000">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x0001">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x0002">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x0003">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x0004">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x0005">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x0006">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x0007">MUS07.BIN</rom>
-			<rom type="bgm"  offset="0x0008">MUS08.BIN</rom>
-			<rom type="bgm"  offset="0x0009">MUS09.BIN</rom>
-			<rom type="bgm"  offset="0x000a">MUS0A.BIN</rom>
-			<rom type="bgm"  offset="0x000b">MUS0B.BIN</rom>
-			<rom type="bgm"  offset="0x000c">MUS0C.BIN</rom>
-			<rom type="bgm"  offset="0x000d">MUS0D.BIN</rom>
-			<rom type="bgm"  offset="0x000e">MUS0E.BIN</rom>
-			<rom type="bgm"  offset="0x000f">MUS0F.BIN</rom>
-			<rom type="bgm"  offset="0x0010">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x0011">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x0012">MUS12.BIN</rom>
-			<rom type="bgm"  offset="0x0013">MUS13.BIN</rom>
-			<rom type="bgm"  offset="0x0014">MUS14.BIN</rom>
-			<rom type="bgm"  offset="0x0015">MUS15.BIN</rom>
-			<rom type="bgm"  offset="0x0016">MUS16.BIN</rom>
-			<rom type="bgm"  offset="0x0017">MUS17.BIN</rom>
-			<rom type="bgm"  offset="0x0018">MUS18.BIN</rom>
-			<rom type="bgm"  offset="0x0019">MUS19.BIN</rom>
-			<rom type="bgm"  offset="0x001a">MUS1A.BIN</rom>
+			<rom type="bgm" offset="0x0000">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x0001">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x0002">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x0003">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x0004">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x0005">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x0006">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x0007">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x0008">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x0009">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x000a">MUS0A.BIN</rom>
+			<rom type="bgm" offset="0x000b">MUS0B.BIN</rom>
+			<rom type="bgm" offset="0x000c">MUS0C.BIN</rom>
+			<rom type="bgm" offset="0x000d">MUS0D.BIN</rom>
+			<rom type="bgm" offset="0x000e">MUS0E.BIN</rom>
+			<rom type="bgm" offset="0x000f">MUS0F.BIN</rom>
+			<rom type="bgm" offset="0x0010">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0011">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0012">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0013">MUS13.BIN</rom>
+			<rom type="bgm" offset="0x0014">MUS14.BIN</rom>
+			<rom type="bgm" offset="0x0015">MUS15.BIN</rom>
+			<rom type="bgm" offset="0x0016">MUS16.BIN</rom>
+			<rom type="bgm" offset="0x0017">MUS17.BIN</rom>
+			<rom type="bgm" offset="0x0018">MUS18.BIN</rom>
+			<rom type="bgm" offset="0x0019">MUS19.BIN</rom>
+			<rom type="bgm" offset="0x001a">MUS1A.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">OPENING</title>
@@ -214,8 +214,8 @@
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="kubikiri_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -345,26 +345,26 @@
 			<title code="0x000035">05:01</title>
 			  -->
 			<title code="0x000032">46:01</title>
-			<title code="0x000002">02:01 : SE</title>
+			<title code="0x000002">SFX #02:01</title>
 			<!--
-			<title code="0x00002b">3C:01 : SE</title>
+			<title code="0x00002b">SFX #3C:01</title>
 			  -->
-			<title code="0x000303">03:01 : SE</title>
+			<title code="0x000303">SFX #03:01</title>
 			<!--
-			<title code="0x000036">06:01 : SE</title>
+			<title code="0x000036">SFX #06:01</title>
 			  -->
-			<title code="0x00000b">16:01 : SE</title>
-			<title code="0x00000e">19:01 : SE</title>
+			<title code="0x00000b">SFX #16:01</title>
+			<title code="0x00000e">SFX #19:01</title>
 			<!--
-			<title code="0x000028">39:01 : SE</title>
-			<title code="0x000033">47:01 : SE</title>
+			<title code="0x000028">SFX #39:01</title>
+			<title code="0x000033">SFX #47:01</title>
 			  -->
-			<title code="0x000022">33:01 : SE</title>
-			<title code="0x000023">34:01 : SE</title>
-			<title code="0x00002a">3B:01 : SE</title>
-			<title code="0x00002e">42:01 : SE</title>
-			<title code="0x00002f">43:01 : SE</title>
-			<title code="0x000030">44:01 : SE</title>
+			<title code="0x000022">SFX #33:01</title>
+			<title code="0x000023">SFX #34:01</title>
+			<title code="0x00002a">SFX #3B:01</title>
+			<title code="0x00002e">SFX #42:01</title>
+			<title code="0x00002f">SFX #43:01</title>
+			<title code="0x000030">SFX #44:01</title>
 		</titlelist>
 	</game>
 	<game>
@@ -375,7 +375,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x0c00"/>
 			<option name="mfile_size" value="0x0c00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kubikiri_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -501,23 +501,23 @@
 			<title code="0x01002d">41:01</title>
 			<title code="0x010031">45:01</title>
 			<title code="0x000032">46:01</title>
-			<title code="0x000002">02:01 : SE</title>
+			<title code="0x000002">SFX #02:01</title>
 			<!--
-			<title code="0x00002b">3C:01 : SE</title>
+			<title code="0x00002b">SFX #3C:01</title>
 			  -->
-			<title code="0x000303">03:01 : SE</title>
-			<title code="0x00000b">16:01 : SE</title>
-			<title code="0x00000e">19:01 : SE</title>
+			<title code="0x000303">SFX #03:01</title>
+			<title code="0x00000b">SFX #16:01</title>
+			<title code="0x00000e">SFX #19:01</title>
 			<!--
-			<title code="0x000028">39:01 : SE</title>
-			<title code="0x000033">47:01 : SE</title>
+			<title code="0x000028">SFX #39:01</title>
+			<title code="0x000033">SFX #47:01</title>
 			  -->
-			<title code="0x000022">33:01 : SE</title>
-			<title code="0x000023">34:01 : SE</title>
-			<title code="0x00002a">3B:01 : SE</title>
-			<title code="0x00002e">42:01 : SE</title>
-			<title code="0x00002f">43:01 : SE</title>
-			<title code="0x000030">44:01 : SE</title>
+			<title code="0x000022">SFX #33:01</title>
+			<title code="0x000023">SFX #34:01</title>
+			<title code="0x00002a">SFX #3B:01</title>
+			<title code="0x00002e">SFX #42:01</title>
+			<title code="0x00002f">SFX #43:01</title>
+			<title code="0x000030">SFX #44:01</title>
 		</titlelist>
 	</game>
 	<game>
@@ -528,8 +528,8 @@
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="quinplf_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -599,7 +599,7 @@
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="quinplf_msx">
 			<rom type="code" offset="0x0400">patch</rom>

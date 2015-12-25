@@ -2488,7 +2488,7 @@
 		</options>
 		<romlist archive="msfield_msx">
 			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0xAff9">M.BIN</rom>
+			<rom type="code" offset="0xaff9">M.BIN</rom>
 			<rom type="bgm" offset="0x00">MUSIC0.BIN</rom>
 			<rom type="bgm" offset="0x01">MUSIC1.BIN</rom>
 			<rom type="bgm" offset="0x02">MUSIC2.BIN</rom>
@@ -2498,6 +2498,22 @@
 		</romlist>
 		<titlelist>
 			<range min="0x001" max="0x005" extcode="0">MUSIC%1d.BIN</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Keiji Dai Dageki: Shachou Reijou Yuukai Jiken (åYéñëÂë≈åÇ Å`é–í∑óﬂèÏóUâ˚éñåèÅ`) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">FamilySoft</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+		</options>
+		<romlist archive="daida_msx">
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0xd3F9">GPSGCTL.BIN</rom>
+			<rom type="code" offset="0xd852">GTEST.MG8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM</title>
 		</titlelist>
 	</game>
 </gamelist>

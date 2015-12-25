@@ -72,7 +72,17 @@
 			<rom offset="0xc000" type="code">136028.102</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
+			<title code="0x2a">Credit</title>
+			<title code="0x0d">Introduction / Underground Level</title>
+			<title code="0x13">Level 1 Start</title>
+			<title code="0x15">Level Start</title>
+			<title code="0x09">Level 3</title>
+			<title code="0x17">Level 1 Clear</title>
+			<title code="0x12">Level 2 Clear</title>
+			<title code="0x0c">Level 3 Clear</title>
+			<title code="0x28">Level 4 Clear</title>
+			<title code="0x08">Miss</title>
+			<range min="0x1f" max="0x27" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>

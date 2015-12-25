@@ -1399,6 +1399,47 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[MSX2] Peacock King (çEêùâ§) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Pony Canyon</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+		</options>
+		<romlist archive="kujakuou_msx">
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0x4000">MAIN.COM</rom>
+			<rom type="code" offset="0x7800">MCDATA.COM</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x009" extcode="1">BGM #%02X</range>
+			<title code="0x0100">SFX #00</title>
+			<title code="0x0101">SFX #01</title>
+			<title code="0x0102">SFX #02</title>
+			<title code="0x0103">SFX #03</title>
+			<title code="0x0104">SFX #04</title>
+			<title code="0x0105">SFX #05</title>
+			<title code="0x0106">SFX #06</title>
+			<title code="0x0107">SFX #07</title>
+			<title code="0x0108">SFX #08</title>
+			<title code="0x0109">SFX #09</title>
+			<title code="0x010a">SFX #0A</title>
+			<title code="0x010b">SFX #0B</title>
+			<title code="0x010c">SFX #0C</title>
+			<title code="0x010d">SFX #0D</title>
+			<title code="0x010f">SFX #0F</title>
+			<title code="0x0110">SFX #10</title>
+			<title code="0x0111">SFX #11</title>
+			<title code="0x0112">SFX #12</title>
+			<title code="0x0113">SFX #13</title>
+			<title code="0x0114">SFX #14</title>
+			<title code="0x0115">SFX #15</title>
+			<title code="0x0116">SFX #16</title>
+			<title code="0x0117">SFX #17</title>
+			<title code="0x0118">SFX #18</title>
+			<title code="0x011a">SFX #1A</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[MSX] Shougi (è´ä˚) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Pony Canyon</driveralias>
