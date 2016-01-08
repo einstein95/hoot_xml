@@ -6043,6 +6043,205 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[FX1] RayStorm (レイストーム) (ZSG2)</name>
+		<driver type="zn">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="raystorm">
+			<rom type="code" offset="0x080000">e24-09.14</rom>
+			<rom type="pcm" offset="0x000000">e24-04.27</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x13">Cycloid [Atract Demo]</title>
+			<title code="0x02">Origin [Throw a Coin]</title>
+			<title code="0x03">Ooparts [Player Select]</title>
+			<title code="0x07">Geometric City [Area 1]</title>
+			<title code="0x08">Aquarium [Area 2]</title>
+			<title code="0x09">Muddling Through [Area 3]</title>
+			<title code="0x10">Juggler [Boss 1]</title>
+			<title code="0x0a">Catharsis [Area 4]</title>
+			<title code="0x0b">Luminescence [Area 5]</title>
+			<title code="0x11">Metaphar [Boss 2]</title>
+			<title code="0x0c">Toxoplasma [Area 6]</title>
+			<title code="0x0d">Slaughter Hour [Area 7]</title>
+			<title code="0x12">Molecular Clock [Boss 3]</title>
+			<title code="0x04">Hard Number [Stage Clear]</title>
+			<title code="0x0e">Heart Land [Area 8]</title>
+			<title code="0x0f">Intolerance [Last Boss]</title>
+			<title code="0x14">Ceramic Heart [Ending Staff Roll]</title>
+			<title code="0x06">Endless Stairs [Name Entry]</title>
+			<title code="0x05">Dead Air [Game Over]</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FX1] G-Darius (Gダライアス) (ZSG2)</name>
+		<driver type="zn">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="gdarius2">
+			<rom type="code" offset="0x080000">e39-07.14</rom>
+			<rom type="pcm" offset="0x000000">e39-04.27</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">B.T. Dutch</title>
+			<title code="0x0e">Network</title>
+			<title code="0x01">Episode 0</title>
+			<title code="0x02">G Zero</title>
+			<title code="0x07">Phage</title>
+			<title code="0x03">biophoton</title>
+			<title code="0x04">Dada</title>
+			<title code="0x0c">OneDown</title>
+			<title code="0x09">H.G. Virus</title>
+			<title code="0x05">invivo</title>
+			<title code="0x0a">nonsensecodon</title>
+			<title code="0x06">Kimera II</title>
+			<title code="0x0b">Adam</title>
+			<title code="0x0d">Duplication</title>
+			<title code="0x10">未来完了 from7</title>
+			<title code="0x0f">Game Over (ゲームオーバー)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FX1] Fighters' Impact (ファイターズインパクト) (ZSG2)</name>
+		<driver type="zn">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="pcm_size" value="0x800000"/>
+		</options>
+		<romlist archive="ftimpcta">
+			<rom type="code" offset="0x080000">e25-10.14</rom>
+			<rom type="pcm" offset="0x000000">e25-04.27</rom>
+			<rom type="pcm" offset="0x400000">e25-05.28</rom>
+		</romlist>
+			<titlelist>
+				<title code="0x25">first Impact</title>
+				<title code="0x08">Angel Beat</title>
+				<title code="0x07">Dead Lock</title>
+				<title code="0x16">Here come a new challenger!</title>
+				<title code="0x17">Scoop</title>
+				<title code="0x18">Scoop (Outro)</title>
+				<title code="0x02">Major flight</title>
+				<title code="0x03">古都 -Koto-</title>
+				<title code="0x04">Sunny</title>
+				<title code="0x06">Be Cool</title>
+				<title code="0x01">Away Game</title>
+				<title code="0x05">Human complex</title>
+				<title code="0x1a">宣告 -Break out-</title>
+				<title code="0x1c">道 -Road-</title>
+				<title code="0x19">人別帖 -Beyond the earth-</title>
+				<title code="0x1d">対時 -Valet-</title>
+				<title code="0x21">旅路 -Regret-</title>
+				<title code="0x1e">凶影 -Magic-</title>
+				<title code="0x22">共鳴 -Delirium-</title>
+				<title code="0x23">光と闇 -Curse-</title>
+				<title code="0x26">想舞灯 -Gone-</title>
+				<title code="0x24">夢枕 -O.Z-</title>
+			</titlelist>
+	</game>
+	<game>
+		<name>[GNET] Kollon (ころん) (ZSG2)</name>
+		<driver type="gnet">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="pcm_size" value="0x600000"/>
+		</options>
+		<romlist archive="kollon">
+			<rom type="code" offset="0x080000">pgmflash</rom>
+			<rom type="pcm" offset="0x000000">sndflash0</rom>
+			<rom type="pcm" offset="0x200000">sndflash1</rom>
+			<rom type="pcm" offset="0x400000">sndflash2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[GNET] Super Puzzle Bobble (スーパーパズルボブル) (ZSG2)</name>
+		<driver type="gnet">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="pcm_size" value="0x600000"/>
+		</options>
+		<romlist archive="spuzbobl">
+			<rom type="code" offset="0x080000">pgmflash</rom>
+			<rom type="pcm" offset="0x000000">sndflash0</rom>
+			<rom type="pcm" offset="0x200000">sndflash1</rom>
+			<rom type="pcm" offset="0x400000">sndflash2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[GNET] RayCrisis (レイクライシス) (ZSG2)</name>
+		<driver type="gnet">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="pcm_size" value="0x600000"/>
+		</options>
+		<romlist archive="raycris">
+			<rom type="code" offset="0x080000">pgmflash</rom>
+			<rom type="pcm" offset="0x000000">sndflash0</rom>
+			<rom type="pcm" offset="0x200000">sndflash1</rom>
+			<rom type="pcm" offset="0x400000">sndflash2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Or, Can  it be said that her behavior is a crime? [Attract]</title>
+			<title code="0x02">The Models [Waiting]</title>
+			<title code="0x03">There is no sense unless everything is arranged completely [Player Select]</title>
+			<title code="0x11">Lavande bleu [Story 1]</title>
+			<title code="0x0a">Vit-symty [Story 2]</title>
+			<title code="0x14">Non Sentimentalisme [Story 3]</title>
+			<title code="0x0d">Son dessein [Story 4]</title>
+			<title code="0x04">Blood and tide [Continue]</title>
+			<title code="0x06">Formless living bodies [Last Boss Type A]</title>
+			<title code="0x17">Root of all evil [Last Boss Type-B]</title>
+			<title code="0x08">All is shut down [Ending Type A]</title>
+			<title code="0x09">There are no nails at my tip toe [Ending Type B]</title>
+			<title code="0x05">Love is not enough [Game Over]</title>
+			<title code="0x18">All is shut down [Ending Type-A (complete version)]</title>
+			<title code="0x07">Not on CD #07</title>
+			<title code="0x0b">Not on CD #0B</title>
+			<title code="0x0c">Not on CD #0C</title>
+			<title code="0x0e">Not on CD #0E</title>
+			<title code="0x0f">Not on CD #0F</title>
+			<title code="0x12">Not on CD #12</title>
+			<title code="0x13">Not on CD #13</title>
+			<title code="0x15">Not on CD #15</title>
+			<title code="0x16">Not on CD #16</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[JC System] Densha De Go (電車でGO！) (ES5505)</name>
 		<driver type="f3system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
