@@ -43,6 +43,8 @@
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="dengeki_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -493,7 +495,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Seishoujo Sentai Lakers (聖少女戦隊レイカーズ) (YM2203)</name>
+		<name>[PC-9801] Sei Shoujo Sentai Lakers (聖少女戦隊レイカーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
@@ -501,7 +503,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="laker1_98">
+		<romlist archive="rey1_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">REI_SE.EFC</rom>
@@ -553,7 +555,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Seishoujo Sentai Lakers 2 (聖少女戦隊レイカーズ2) (YM2203)</name>
+		<name>[PC-9801] Sei Shoujo Sentai Lakers II (聖少女戦隊レイカーズII) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
@@ -561,7 +563,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="laker2_98">
+		<romlist archive="rey2_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">REI2_SE.EFC</rom>
@@ -639,7 +641,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Seishoujo Sentai Lakers 3 (聖少女戦隊レイカーズ3) (YM2203)</name>
+		<name>[PC-9801] Sei Shoujo Sentai Lakers III (聖少女戦隊レイカーズIII) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
@@ -647,7 +649,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="laker3_98">
+		<romlist archive="rey3_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">LAKE_SE.EFC</rom>
@@ -813,13 +815,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Bakuretsu Shoujo Tai T-Backs (爆裂少女隊Tバックス) (YM2203)</name>
+		<name>[PC-9801] Bakuretsu Shoujo-tai T-Backs (爆裂少女隊Tバックス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="tbacks_98">
+		<romlist archive="t_backs_98">
 			<rom type="file" offset="-1">mlalf_98.com</rom>
 			<rom type="file" offset="-1">T_BACKS.EXE</rom>
 			<rom type="conin" offset="5">T_BACKS.EXE</rom>
@@ -892,7 +894,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Reijiyu: Twin Road (麗獣 Twin Road) (YM2203)</name>
+		<name>[PC-9801] Reijuu: Twin Road (麗獣 Twin Road) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apple Pie</driveralias>
 		<options>
@@ -901,7 +903,7 @@
 			<option name="showfm3ex" value="1"/>
 			<option name="ssg_mix" value="-18"/>
 		</options>
-		<romlist archive="reijiyu_98">
+		<romlist archive="twin_r_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x10">BGM001.M</rom>

@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //ALLEX -->
 	<game>
-		<name>[PC-9801] Pick Up Mahjong Master (PickUP♪ 麻雀マスター) (YM2203)</name>
+		<name>[PC-9801] Pick Up♪ Mahjong Master (PickUP♪ 麻雀マスター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Allex</driveralias>
 		<options>
@@ -65,7 +65,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pick Up Yadokari Eisei Housoukyoku 1-3 (PickUP♪ やどかり衛星放送局 #1-#3) (YM2203)</name>
+		<name>[PC-9801] Pick Up♪ Yadokari Eisei Housoukyoku #1-3 (PickUP♪ やどかり衛星放送局 #1-#3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Allex</driveralias>
 		<options>
@@ -92,7 +92,61 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pick Up Yadokari Eisei Housoukyoku 4 (PickUP♪ やどかり衛星放送局 #4) (YM2203)</name>
+		<name>[PC-9801] Pick Up♪ Yadokari Eisei Housoukyoku #2 (PickUP♪ やどかり衛星放送局 #2) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Allex</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="yadehsk2_98">
+			<rom type="file" offset="-1">ALLEX_98.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="0x08">FMSOUND.DAT</rom>
+			<rom type="file" offset="0x10">G14.AXM</rom>
+			<rom type="file" offset="0x11">G19.AXM</rom>
+			<rom type="file" offset="0x12">G41.AXM</rom>
+			<rom type="file" offset="0x13">G42.AXM</rom>
+			<rom type="file" offset="0x14">G51.AXM</rom>
+			<rom type="shell" offset="0">music</rom>
+			<rom type="shell" offset="0">allex_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">G14.AXM</title>
+			<title code="0x11">G19.AXM</title>
+			<title code="0x12">G41.AXM</title>
+			<title code="0x13">G42.AXM</title>
+			<title code="0x14">G51.AXM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Pick Up♪ Yadokari Eisei Housoukyoku #3 (PickUP♪ やどかり衛星放送局 #3) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Allex</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="yadehsk3_98">
+			<rom type="file" offset="-1">ALLEX_98.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="0x08">FMSOUND.DAT</rom>
+			<rom type="file" offset="0x10">G14.AXM</rom>
+			<rom type="file" offset="0x11">G19.AXM</rom>
+			<rom type="file" offset="0x12">G41.AXM</rom>
+			<rom type="file" offset="0x13">G42.AXM</rom>
+			<rom type="file" offset="0x14">G51.AXM</rom>
+			<rom type="shell" offset="0">music</rom>
+			<rom type="shell" offset="0">allex_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">G14.AXM</title>
+			<title code="0x11">G19.AXM</title>
+			<title code="0x12">G41.AXM</title>
+			<title code="0x13">G42.AXM</title>
+			<title code="0x14">G51.AXM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Pick Up♪ Yadokari Eisei Housoukyoku #4 (PickUP♪ やどかり衛星放送局 #4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Allex</driveralias>
 		<options>
@@ -137,7 +191,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pick Up Yadokari Eisei Housoukyoku 5 (PickUP♪ やどかり衛星放送局 #5) (YM2203)</name>
+		<name>[PC-9801] Pick Up♪ Yadokari Eisei Housoukyoku #5 (PickUP♪ やどかり衛星放送局 #5) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Allex</driveralias>
 		<options>
@@ -280,12 +334,12 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Allex</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="mjmaster68snd">
 			<rom type="code">mjmaster68snd.bin</rom>
-			<rom type="x"    offset="0x010000">ALLEX.ALS</rom>
-			<rom type="x"    offset="0x020000">sound.ALS</rom>
+			<rom type="x" offset="0x010000">ALLEX.ALS</rom>
+			<rom type="x" offset="0x020000">sound.ALS</rom>
 			<rom type="code" offset="0x030000">MAJANG.SDx</rom>
 			<rom type="code" offset="0x040000">MAJANG.PCx</rom>
 			<rom type="code" offset="0x050000">OPDEMO.ASD</rom>

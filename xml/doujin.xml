@@ -36,548 +36,6 @@
 <gamelist date="2005/09/25">
 	<!-- //同人ソフト -->
 	<game>
-		<name>[PC-8801] VALIANT7 (G.P.M SOFT)</name>
-		<driver type="opna">pc88</driver>
-		<driveralias type="NEC PC-8801">Doujin</driveralias>
-		<options>
-			<option name="baseclock" value="0x04"/>
-		</options>
-		<romlist archive="valiant7_88">
-			<rom type="code" offset="0x0000">PATCH</rom>
-			<rom type="code" offset="0xb000">music2</rom>
-			<rom type="code" offset="0xc000">mus001</rom>
-			<rom type="code" offset="0xe200">oto001</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">MAIN BGM</title>
-			<title code="0x01">BOSS</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] F-nano2' 体験版</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Doujin</driveralias>
-		<options>
-			<option name="mdata_addr" value="0x7000"/>
-			<option name="mdata_size" value="0x7000"/>
-			<option name="mfile_size" value="0x7000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
-			<option name="psg_mix"    value="0x0f0"/>
-			<option name="total_mix"  value="0x180"/>
-			<option name="clock_mul"  value="0x02"/>
-		</options>
-		<romlist archive="fnano2tr_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">MPK_FN2.BIN</rom>
-			<rom type="bgm" offset="0x00">F-NANOT.MPK</rom>
-			<rom type="bgm" offset="0x01">F-NANOZ.MPK</rom>
-			<rom type="bgm" offset="0x02">F-NANOｨ.MPK</rom>
-			<rom type="bgm" offset="0x03">F-NANOｩ.MPK</rom>
-			<rom type="bgm" offset="0x04">F-NANOｫ.MPK</rom>
-			<rom type="bgm" offset="0x05">F-NANOﾉ.MPK</rom>
-			<rom type="bgm" offset="0x06">F-NANOﾎ.MPK</rom>
-			<rom type="bgm" offset="0x07">F-NANOﾐ.MPK</rom>
-			<rom type="bgm" offset="0x08">F-NANOﾖ.MPK</rom>
-			<rom type="bgm" offset="0x09">F-NANOﾚ.MPK</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">久しぶりね!!</title>
-			<title code="0x01">Dawn</title>
-			<title code="0x02">そのまま、死ね</title>
-			<title code="0x03">いいんでない?</title>
-			<title code="0x04">Alert</title>
-			<title code="0x05">蒼の果て</title>
-			<title code="0x06">路上での資格</title>
-			<title code="0x07">Shadow Dancers</title>
-			<title code="0x08">強者共が夢の跡</title>
-			<title code="0x09">Pain</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] 宇羅曼蛇 (CO2-PRO)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">Doujin</driveralias>
-		<options>
-			<option name="ssg_mix" value="-18"/>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="ulamanda_98">
-			<rom type="file" offset="-1">music_98.com</rom>
-			<rom type="file" offset="-1">MUSIC.COM</rom>
-			<rom type="file" offset="-1">SOUND.DAT</rom>
-			<rom type="file" offset="11">BGM_A.MML</rom>
-			<rom type="file" offset="12">BGM_B.MML</rom>
-			<rom type="file" offset="13">BGM_C.MML</rom>
-			<rom type="file" offset="14">BGM_D.MML</rom>
-			<rom type="file" offset="15">BGM_E.MML</rom>
-			<rom type="file" offset="16">BGM_F.MML</rom>
-			<rom type="file" offset="17">BGM_G.MML</rom>
-			<rom type="file" offset="18">BGM_H.MML</rom>
-			<rom type="file" offset="19">BGM_I.MML</rom>
-			<rom type="file" offset="20">BGM_J.MML</rom>
-			<rom type="file" offset="21">BGM_K.MML</rom>
-			<rom type="file" offset="22">BGM_L.MML</rom>
-			<rom type="file" offset="23">BGM_M.MML</rom>
-			<rom type="file" offset="24">BGM_N.MML</rom>
-			<rom type="file" offset="25">BGM_O.MML</rom>
-			<rom type="file" offset="26">BGM_P.MML</rom>
-			<rom type="file" offset="27">BGM_Q.MML</rom>
-			<rom type="file" offset="28">BGM_R.MML</rom>
-			<rom type="shell" offset="0">music -r</rom>
-			<rom type="shell" offset="0">music_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="11">BGM_A.MML</title>
-			<title code="12">BGM_B.MML</title>
-			<title code="13">BGM_C.MML</title>
-			<title code="14">BGM_D.MML</title>
-			<title code="15">BGM_E.MML</title>
-			<title code="16">BGM_F.MML</title>
-			<title code="17">BGM_G.MML</title>
-			<title code="18">BGM_H.MML</title>
-			<title code="19">BGM_I.MML</title>
-			<title code="20">BGM_J.MML</title>
-			<title code="21">BGM_K.MML</title>
-			<title code="22">BGM_L.MML</title>
-			<title code="23">BGM_M.MML</title>
-			<title code="24">BGM_N.MML</title>
-			<title code="25">BGM_O.MML</title>
-			<title code="26">BGM_P.MML</title>
-			<title code="27">BGM_Q.MML</title>
-			<title code="28">BGM_R.MML</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] 魔法のシュータープッチンプリン2 (TeamDangeroude)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="0x01"/>
-		</options>
-		<romlist archive="plin268snd">
-			<rom type="code" offset="0x000000">plin68snd.bin</rom>
-			<rom type="code" offset="0x010000">pl2.mus</rom>
-			<rom type="code" offset="0x045000">plin2.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] ひとみ坂(OPM) (東開発塾)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-		</options>
-		<romlist archive="htmzaka68snd">
-			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
-			<rom type="x"    offset="0x010000">zmsc.x</rom>
-			<rom type="code" offset="0x030000">FM11.ZMD</rom>
-			<rom type="code" offset="0x033000">FM12.ZMD</rom>
-			<rom type="code" offset="0x036000">FM13.ZMD</rom>
-			<rom type="code" offset="0x039000">FM14.ZMD</rom>
-			<rom type="code" offset="0x03c000">FM15.ZMD</rom>
-			<rom type="code" offset="0x03f000">FM16.ZMD</rom>
-			<rom type="code" offset="0x042000">FM17.ZMD</rom>
-			<rom type="code" offset="0x045000">FM18.ZMD</rom>
-			<rom type="code" offset="0x048000">FM19.ZMD</rom>
-			<rom type="code" offset="0x04b000">FM20.ZMD</rom>
-			<rom type="code" offset="0x04e000">FM22.ZMD</rom>
-			<rom type="code" offset="0x051000">FM25.ZMD</rom>
-			<rom type="code" offset="0x054000">FM29.ZMD</rom>
-			<rom type="code" offset="0x057000">FM31.ZMD</rom>
-			<rom type="code" offset="0x070000">hitomi.zpd</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">FLUTER SONG</title>
-			<title code="0x02">LOVE WITH YOU</title>
-			<title code="0x03">LUNA CRUISE</title>
-			<title code="0x04">ETERNAL PURE LOVE</title>
-			<title code="0x05">TU.KA.N.DE...</title>
-			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
-			<title code="0x07">HEAVY SWING</title>
-			<title code="0x08">LOOK AT ME...</title>
-			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
-			<title code="0x0a">BROKEN REMEMBER</title>
-			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
-			<title code="0x0c">NIGHT MARE</title>
-			<title code="0x0d">JUST FOR LOVE</title>
-			<title code="0x0e">SOUTH WIND</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] ひとみ坂(OPM+MT-32) (東開発塾)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="2"/>
-		</options>
-		<romlist archive="htmzaka68snd">
-			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
-			<rom type="x"    offset="0x010000">zmsc.x</rom>
-			<rom type="code" offset="0x030000">MT11.ZMD</rom>
-			<rom type="code" offset="0x033000">MT12.ZMD</rom>
-			<rom type="code" offset="0x036000">MT13.ZMD</rom>
-			<rom type="code" offset="0x039000">MT14.ZMD</rom>
-			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
-			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
-			<rom type="code" offset="0x042000">MT17.ZMD</rom>
-			<rom type="code" offset="0x045000">MT18.ZMD</rom>
-			<rom type="code" offset="0x048000">MT19.ZMD</rom>
-			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
-			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
-			<rom type="code" offset="0x051000">MT25.ZMD</rom>
-			<rom type="code" offset="0x054000">MT29.ZMD</rom>
-			<rom type="code" offset="0x057000">MT31.ZMD</rom>
-			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
-			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
-			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
-			<rom type="code" offset="0x063000">MT99.ZMD</rom>
-			<rom type="code" offset="0x070000">hitomi.zpd</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">FLUTER SONG</title>
-			<title code="0x02">LOVE WITH YOU</title>
-			<title code="0x03">LUNA CRUISE</title>
-			<title code="0x04">ETERNAL PURE LOVE</title>
-			<title code="0x05">TU.KA.N.DE...</title>
-			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
-			<title code="0x07">HEAVY SWING</title>
-			<title code="0x08">LOOK AT ME...</title>
-			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
-			<title code="0x0a">BROKEN REMEMBER</title>
-			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
-			<title code="0x0c">NIGHT MARE</title>
-			<title code="0x0d">JUST FOR LOVE</title>
-			<title code="0x0e">SOUTH WIND</title>
-			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
-			<title code="0x10">PIERCE THE GALAXY 1992</title>
-			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] ひとみ坂(OPM+MT-32 Emulation) (東開発塾)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="htmzaka68snd">
-			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
-			<rom type="x"    offset="0x010000">zmsc.x</rom>
-			<rom type="code" offset="0x030000">MT11.ZMD</rom>
-			<rom type="code" offset="0x033000">MT12.ZMD</rom>
-			<rom type="code" offset="0x036000">MT13.ZMD</rom>
-			<rom type="code" offset="0x039000">MT14.ZMD</rom>
-			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
-			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
-			<rom type="code" offset="0x042000">MT17.ZMD</rom>
-			<rom type="code" offset="0x045000">MT18.ZMD</rom>
-			<rom type="code" offset="0x048000">MT19.ZMD</rom>
-			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
-			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
-			<rom type="code" offset="0x051000">MT25.ZMD</rom>
-			<rom type="code" offset="0x054000">MT29.ZMD</rom>
-			<rom type="code" offset="0x057000">MT31.ZMD</rom>
-			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
-			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
-			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
-			<rom type="code" offset="0x063000">MT99.ZMD</rom>
-			<rom type="code" offset="0x070000">hitomi.zpd</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">FLUTER SONG</title>
-			<title code="0x02">LOVE WITH YOU</title>
-			<title code="0x03">LUNA CRUISE</title>
-			<title code="0x04">ETERNAL PURE LOVE</title>
-			<title code="0x05">TU.KA.N.DE...</title>
-			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
-			<title code="0x07">HEAVY SWING</title>
-			<title code="0x08">LOOK AT ME...</title>
-			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
-			<title code="0x0a">BROKEN REMEMBER</title>
-			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
-			<title code="0x0c">NIGHT MARE</title>
-			<title code="0x0d">JUST FOR LOVE</title>
-			<title code="0x0e">SOUTH WIND</title>
-			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
-			<title code="0x10">PIERCE THE GALAXY 1992</title>
-			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] ひとみ坂(CM-64) (東開発塾)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
-		</options>
-		<romlist archive="htmzaka68snd">
-			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
-			<rom type="x"    offset="0x010000">zmsc.x</rom>
-			<rom type="code" offset="0x030000">CM11.ZMD</rom>
-			<rom type="code" offset="0x033000">CM12.ZMD</rom>
-			<rom type="code" offset="0x036000">CM13.ZMD</rom>
-			<rom type="code" offset="0x039000">CM14.ZMD</rom>
-			<rom type="code" offset="0x03c000">CM15.ZMD</rom>
-			<rom type="code" offset="0x03f000">CM16.ZMD</rom>
-			<rom type="code" offset="0x042000">CM17.ZMD</rom>
-			<rom type="code" offset="0x045000">CM18.ZMD</rom>
-			<rom type="code" offset="0x048000">CM19.ZMD</rom>
-			<rom type="code" offset="0x04b000">CM20.ZMD</rom>
-			<rom type="code" offset="0x04e000">CM22.ZMD</rom>
-			<rom type="code" offset="0x051000">CM25.ZMD</rom>
-			<rom type="code" offset="0x054000">CM29.ZMD</rom>
-			<rom type="code" offset="0x057000">CM31.ZMD</rom>
-			<rom type="code" offset="0x070000">hitomi.zpd</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">FLUTER SONG</title>
-			<title code="0x02">LOVE WITH YOU</title>
-			<title code="0x03">LUNA CRUISE</title>
-			<title code="0x04">ETERNAL PURE LOVE</title>
-			<title code="0x05">TU.KA.N.DE...</title>
-			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
-			<title code="0x07">HEAVY SWING</title>
-			<title code="0x08">LOOK AT ME...</title>
-			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
-			<title code="0x0a">BROKEN REMEMBER</title>
-			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
-			<title code="0x0c">NIGHT MARE</title>
-			<title code="0x0d">JUST FOR LOVE</title>
-			<title code="0x0e">SOUTH WIND</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] ひとみ坂(SC-55) (東開発塾)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="htmzaka68snd">
-			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
-			<rom type="x"    offset="0x010000">zmsc.x</rom>
-			<rom type="code" offset="0x030000">sc11.zmd</rom>
-			<rom type="code" offset="0x033000">sc12.zmd</rom>
-			<rom type="code" offset="0x036000">sc13.zmd</rom>
-			<rom type="code" offset="0x039000">sc14.zmd</rom>
-			<rom type="code" offset="0x03c000">sc15.zmd</rom>
-			<rom type="code" offset="0x03f000">sc16.zmd</rom>
-			<rom type="code" offset="0x042000">sc17.zmd</rom>
-			<rom type="code" offset="0x045000">sc18.zmd</rom>
-			<rom type="code" offset="0x048000">sc19.zmd</rom>
-			<rom type="code" offset="0x04b000">sc20.zmd</rom>
-			<rom type="code" offset="0x04e000">sc22.zmd</rom>
-			<rom type="code" offset="0x051000">sc25.zmd</rom>
-			<rom type="code" offset="0x054000">sc29.zmd</rom>
-			<rom type="code" offset="0x057000">sc31.zmd</rom>
-			<rom type="code" offset="0x05a000">sc23.ZMD</rom>
-			<rom type="code" offset="0x05d000">sc27.ZMD</rom>
-			<rom type="code" offset="0x060000">AKO_sc.ZMD</rom>
-			<rom type="code" offset="0x070000">hitomi.zpd</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">FLUTER SONG</title>
-			<title code="0x02">LOVE WITH YOU</title>
-			<title code="0x03">LUNA CRUISE</title>
-			<title code="0x04">ETERNAL PURE LOVE</title>
-			<title code="0x05">TU.KA.N.DE...</title>
-			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
-			<title code="0x07">HEAVY SWING</title>
-			<title code="0x08">LOOK AT ME...</title>
-			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
-			<title code="0x0a">BROKEN REMEMBER</title>
-			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
-			<title code="0x0c">NIGHT MARE</title>
-			<title code="0x0d">JUST FOR LOVE</title>
-			<title code="0x0e">SOUTH WIND</title>
-			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
-			<title code="0x10">PIERCE THE GALAXY 1992</title>
-			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] HELLHOUND(OPM) (BREAKTHROUGH)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-		</options>
-		<romlist archive="hellhund68snd">
-			<rom type="code" offset="0x000000">hh68snd.bin</rom>
-			<rom type="code" offset="0x010000">hhfmset.ZMD</rom>
-			<rom type="code" offset="0x014000">credit.ZMD</rom>
-			<rom type="code" offset="0x015000">select.ZMD</rom>
-			<rom type="code" offset="0x016000">DIE_OPM.ZMD</rom>
-			<rom type="code" offset="0x01a000">BIO_OPM.ZMD</rom>
-			<rom type="code" offset="0x01d000">KIS_OPM.ZMD</rom>
-			<rom type="code" offset="0x01f000">INF_OPM.ZMD</rom>
-			<rom type="code" offset="0x021000">OUT_OPM.ZMD</rom>
-			<rom type="code" offset="0x031000">THU_OPM.ZMD</rom>
-			<rom type="code" offset="0x033000">YOU_OPM.ZMD</rom>
-			<rom type="code" offset="0x035000">hh97.ZPD</rom>
-			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Credit</title>
-			<title code="0x02">Power-select</title>
-			<title code="0x03">DIE FOR SOMEONE?</title>
-			<title code="0x04">BIOSPHERE</title>
-			<title code="0x05">KISETSU-FU</title>
-			<title code="0x06">INFINITY</title>
-			<title code="0x07">OUTER LIMITS</title>
-			<title code="0x08">Heading for the Thunderbolt</title>
-			<title code="0x09">You are not alone</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] HELLHOUND(GS) (BREAKTHROUGH)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="hellhund68snd">
-			<rom type="code" offset="0x000000">hh68snd.bin</rom>
-			<rom type="code" offset="0x014000">credit_55.ZMD</rom>
-			<rom type="code" offset="0x015000">select_55.ZMD</rom>
-			<rom type="code" offset="0x016000">DIE_55.ZMD</rom>
-			<rom type="code" offset="0x01a000">BIO_55.ZMD</rom>
-			<rom type="code" offset="0x01d000">KIS_55.ZMD</rom>
-			<rom type="code" offset="0x01f000">INF_55.ZMD</rom>
-			<rom type="code" offset="0x021000">OUT_55.ZMD</rom>
-			<rom type="code" offset="0x031000">THU_55.ZMD</rom>
-			<rom type="code" offset="0x033000">YOU_55.ZMD</rom>
-			<rom type="code" offset="0x035000">hh97.ZPD</rom>
-			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Credit</title>
-			<title code="0x02">Power-select</title>
-			<title code="0x03">DIE FOR SOMEONE?</title>
-			<title code="0x04">BIOSPHERE</title>
-			<title code="0x05">KISETSU-FU</title>
-			<title code="0x06">INFINITY</title>
-			<title code="0x07">OUTER LIMITS</title>
-			<title code="0x08">Heading for the Thunderbolt</title>
-			<title code="0x09">You are not alone</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] DIRECT-X [release.1] (WORKS&amp;TRAX)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-		</options>
-		<romlist archive="directx68snd">
-			<rom type="code" offset="0x000000">dx68snd.bin</rom>
-			<rom type="x"    offset="0x010000">ZMSC.X</rom>
-			<rom type="code" offset="0x030000">music.dat</rom>
-			<rom type="code" offset="0x040000">pgh30.ZPD</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">SYNC.01  ゲーム中BGM</title>
-			<title code="0x02">SYNC.02  BOSS曲</title>
-			<title code="0x03">SYNC.09  OP曲(未使用)</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] DIRECT-X [release.2] (WORKS&amp;TRAX)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-		</options>
-		<romlist archive="directx268snd">
-			<rom type="code" offset="0x000000">dx268snd.bin</rom>
-			<rom type="x"    offset="0x010000">ZMSC.X</rom>
-			<rom type="code" offset="0x030000">music.dat</rom>
-			<rom type="code" offset="0x040000">pgh30b.ZPD</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x07">START</title>
-			<title code="0x01">SYNC.01  [ STAGE.01 BGM ]</title>
-			<title code="0x02">SYNC.02  [ BOSS曲 ]</title>
-			<title code="0x03">SYNC.03  [ STAGE.02 BGM ]</title>
-			<title code="0x08">SYNC.04  [ STAGE.03 BGM ]</title>
-			<title code="0x04">SYNC.05  [ STAGE.03 BOSS ]</title>
-			<title code="0x05">SYNC.06  [ STAFF ROLL ]</title>
-			<title code="0x06">SYNC.07  [ NAME ENTRY ]</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] The Super X-FILES (WORKS&amp;TRAX)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="pcm8" value="1"/>
-		</options>
-		<romlist archive="sxf68snd">
-			<rom type="code" offset="0x000000">sxdayx68snd.bin</rom>
-			<rom type="code" offset="0x010000">music.dat</rom>
-			<rom type="code" offset="0x020000">pgh20.ZPD</rom>
-			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x06" extcode="1">BGM %02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] XX-FILES [ DOUBLE X ] with SATELLITE SYSTEM (WORKS&amp;TRAX)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="pcm8" value="1"/>
-		</options>
-		<romlist archive="xxf68snd">
-			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
-			<rom type="code" offset="0x010000">music.dat</rom>
-			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
-			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x08" extcode="1">BGM %02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] XX-FILES R [ DOUBLE X ] (WORKS&amp;TRAX)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Doujin</driveralias>
-		<options>
-			<option name="mfp" value="1"/>
-			<option name="pcm8" value="1"/>
-		</options>
-		<romlist archive="xxfr68snd">
-			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
-			<rom type="code" offset="0x010000">music.dat</rom>
-			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
-			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x0b" extcode="1">music.dat #%02X</range>
-		</titlelist>
-	</game>
-	<game>
 		<name>[X1] DIALIDE (CATASoft)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Doujin</driveralias>
@@ -1151,6 +609,60 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] 宇羅曼蛇 (CO2-PRO)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">Doujin</driveralias>
+		<options>
+			<option name="ssg_mix" value="-18"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="ulamanda_98">
+			<rom type="file" offset="-1">music_98.com</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="-1">SOUND.DAT</rom>
+			<rom type="file" offset="11">BGM_A.MML</rom>
+			<rom type="file" offset="12">BGM_B.MML</rom>
+			<rom type="file" offset="13">BGM_C.MML</rom>
+			<rom type="file" offset="14">BGM_D.MML</rom>
+			<rom type="file" offset="15">BGM_E.MML</rom>
+			<rom type="file" offset="16">BGM_F.MML</rom>
+			<rom type="file" offset="17">BGM_G.MML</rom>
+			<rom type="file" offset="18">BGM_H.MML</rom>
+			<rom type="file" offset="19">BGM_I.MML</rom>
+			<rom type="file" offset="20">BGM_J.MML</rom>
+			<rom type="file" offset="21">BGM_K.MML</rom>
+			<rom type="file" offset="22">BGM_L.MML</rom>
+			<rom type="file" offset="23">BGM_M.MML</rom>
+			<rom type="file" offset="24">BGM_N.MML</rom>
+			<rom type="file" offset="25">BGM_O.MML</rom>
+			<rom type="file" offset="26">BGM_P.MML</rom>
+			<rom type="file" offset="27">BGM_Q.MML</rom>
+			<rom type="file" offset="28">BGM_R.MML</rom>
+			<rom type="shell" offset="0">music -r</rom>
+			<rom type="shell" offset="0">music_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="11">BGM_A.MML</title>
+			<title code="12">BGM_B.MML</title>
+			<title code="13">BGM_C.MML</title>
+			<title code="14">BGM_D.MML</title>
+			<title code="15">BGM_E.MML</title>
+			<title code="16">BGM_F.MML</title>
+			<title code="17">BGM_G.MML</title>
+			<title code="18">BGM_H.MML</title>
+			<title code="19">BGM_I.MML</title>
+			<title code="20">BGM_J.MML</title>
+			<title code="21">BGM_K.MML</title>
+			<title code="22">BGM_L.MML</title>
+			<title code="23">BGM_M.MML</title>
+			<title code="24">BGM_N.MML</title>
+			<title code="25">BGM_O.MML</title>
+			<title code="26">BGM_P.MML</title>
+			<title code="27">BGM_Q.MML</title>
+			<title code="28">BGM_R.MML</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] 骨塵(OPNA) (CO2-PRO)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">Doujin</driveralias>
@@ -1358,22 +870,22 @@
 			<title code="0x00001d">SONG_N.MUS</title>
 			<title code="0x00001e">SONG_O.MUS</title>
 			<title code="0x00001f">SONG_P.MUS</title>
-			<title code="0x00ffff">EFFECT #00</title>
-			<title code="0x01ffff">EFFECT #01</title>
-			<title code="0x02ffff">EFFECT #02</title>
-			<title code="0x03ffff">EFFECT #03</title>
-			<title code="0x04ffff">EFFECT #04</title>
-			<title code="0x05ffff">EFFECT #05</title>
-			<title code="0x06ffff">EFFECT #06</title>
-			<title code="0x07ffff">EFFECT #07</title>
-			<title code="0x08ffff">EFFECT #08</title>
-			<title code="0x09ffff">EFFECT #09</title>
-			<title code="0x0affff">EFFECT #10</title>
-			<title code="0x0bffff">EFFECT #11</title>
-			<title code="0x0cffff">EFFECT #12</title>
-			<title code="0x0dffff">EFFECT #13</title>
-			<title code="0x0effff">EFFECT #14</title>
-			<title code="0x0fffff">EFFECT #15</title>
+			<title code="0x00ffff">SFX #00</title>
+			<title code="0x01ffff">SFX #01</title>
+			<title code="0x02ffff">SFX #02</title>
+			<title code="0x03ffff">SFX #03</title>
+			<title code="0x04ffff">SFX #04</title>
+			<title code="0x05ffff">SFX #05</title>
+			<title code="0x06ffff">SFX #06</title>
+			<title code="0x07ffff">SFX #07</title>
+			<title code="0x08ffff">SFX #08</title>
+			<title code="0x09ffff">SFX #09</title>
+			<title code="0x0affff">SFX #10</title>
+			<title code="0x0bffff">SFX #11</title>
+			<title code="0x0cffff">SFX #12</title>
+			<title code="0x0dffff">SFX #13</title>
+			<title code="0x0effff">SFX #14</title>
+			<title code="0x0fffff">SFX #15</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1501,9 +1013,109 @@
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
-			<option name="baseclock"  value="0x04"/>
+			<option name="baseclock" value="0x04"/>
 			<option name="use_ssgpcm" value="0x08"/>
-			<option name="showfm3ex"  value="0x01"/>
+			<option name="showfm3ex" value="0x01"/>
+		</options>
+		<romlist archive="revolter">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x0100">JR.COM</rom>
+			<rom type="code" offset="0x9e00">GBIOS.COM</rom>
+			<rom type="bgm" offset="0x00">ALARM3.MML</rom>
+			<rom type="bgm" offset="0x01">COMP3.MML</rom>
+			<rom type="bgm" offset="0x02">COMP4.MML</rom>
+			<rom type="bgm" offset="0x03">COMP5.MML</rom>
+			<rom type="bgm" offset="0x04">COMP6.MML</rom>
+			<rom type="bgm" offset="0x05">COMP7.MML</rom>
+			<rom type="bgm" offset="0x06">COMP10.MML</rom>
+			<rom type="bgm" offset="0x07">COMP14.MML</rom>
+			<rom type="bgm" offset="0x08">COMP15.MML</rom>
+			<rom type="bgm" offset="0x09">COMP17.MML</rom>
+			<rom type="bgm" offset="0x0a">COMP18.MML</rom>
+			<rom type="bgm" offset="0x0b">COMP19.MML</rom>
+			<rom type="bgm" offset="0x0c">COMP20.MML</rom>
+			<rom type="bgm" offset="0x0d">IAM1.MML</rom>
+			<rom type="bgm" offset="0x0e">IAM2.MML</rom>
+			<rom type="bgm" offset="0x0f">IAM3.MML</rom>
+			<rom type="bgm" offset="0x10">IAM4.MML</rom>
+			<rom type="bgm" offset="0x11">IAM5.MML</rom>
+			<rom type="bgm" offset="0x12">IAM6.MML</rom>
+			<rom type="bgm" offset="0x13">IAM10.MML</rom>
+			<rom type="bgm" offset="0x14">IAM11.MML</rom>
+			<rom type="bgm" offset="0x15">IAM12.MML</rom>
+			<rom type="bgm" offset="0x16">LAST1.MML</rom>
+			<rom type="bgm" offset="0x17">LAST2.MML</rom>
+			<rom type="bgm" offset="0x18">TRYH01.MML</rom>
+			<rom type="bgm" offset="0x19">TRYH04.MML</rom>
+			<rom type="bgm" offset="0x1a">TRYH05.MML</rom>
+			<rom type="bgm" offset="0x1b">WECBGM3.MML</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000003">《ピアノの練習》            Demo. Music                   YmoH.S</title>
+			<title code="0x0000000d">《REVOLTER》                Title Music                   IAM</title>
+			<title code="0x00000005">《処女作アレンジバージョン》ランキング・デモ              YmoH.S</title>
+			<title code="0x0000000e">《Midnight Chaser》         City Stage BGM                IAM</title>
+			<title code="0x00000001">《ギターが ブ・リ・バ・リ》 BGM2                          YmoH.S</title>
+			<title code="0x00000002">《挫那尽苦》                BGM3                          YmoH.S</title>
+			<title code="0x00000004">《〇ァリ〇崩れ》            Boss Character                YmoH.S</title>
+			<title code="0x00000015">《Winning Stream》          Stage Clear                   IAM</title>
+			<title code="0x00000014">《Last Revolt》             Aggressor's Core              IAM</title>
+			<title code="0x0000000c">《これならママもOKさっ!》   All Round Clear               YmoH.S</title>
+			<title code="0x00000012">《???????》                 Name Entry 1位                IAM</title>
+			<title code="0x00000011">《The Water Of A Fountain》 Name Entry 2～5位             IAM</title>
+			<title code="0x0000000f">《Daybreak Highway》        Ending Music                  IAM</title>
+			<title code="0x00000010">《あんで死なにゃあかんのじゃ! クソゲーじゃん!》Game Over  IAM</title>
+			<title code="0x00000006">《たらいまわし》            Game Over                     YmoH.S</title>
+			<title code="0x00000007">Dragon Sprit Boss 3 namco  YmoH.S</title>
+			<title code="0x00000008">GRADIUS-2(MSX) 戦艦の腹の中のBGM KONAMI  YmoH.S</title>
+			<title code="0x00000009">アレスの翼 BGM1 CAPCOM  YmoH.S</title>
+			<title code="0x0000000a">アレスの翼 BGM2 CAPCOM  YmoH.S</title>
+			<title code="0x0000000b">Salamander Oyadama KONAMI YmoH.S</title>
+			<title code="0x0000001b">《CRAZY SPEEDER》WEC LE MANS 24 BGM3 / KONAMI  Copied by IAM</title>
+			<title code="0x00000000">Boss Warning</title>
+			<title code="0x00000016">?</title>
+			<title code="0x00000017">?</title>
+			<title code="0x00000013">(未使用曲)</title>
+			<title code="0x00000018">(未使用曲)</title>
+			<title code="0x00000019">(未使用曲)</title>
+			<title code="0x0000001a">(未使用曲) NATIVE ATTACK</title>
+			<title code="0x200000ff">SFX #20</title>
+			<title code="0x210000ff">SFX #21</title>
+			<title code="0x220000ff">SFX #22</title>
+			<title code="0x230000ff">SFX #23</title>
+			<title code="0x240000ff">SFX #24</title>
+			<title code="0x250000ff">SFX #25</title>
+			<title code="0x260000ff">SFX #26</title>
+			<title code="0x270000ff">SFX #27</title>
+			<title code="0x280000ff">SFX #28</title>
+			<title code="0x290000ff">SFX #29</title>
+			<title code="0x2a0000ff">SFX #2A</title>
+			<title code="0x2b0000ff">SFX #2B</title>
+			<title code="0x2c0000ff">SFX #2C</title>
+			<title code="0x2d0000ff">SFX #2D</title>
+			<title code="0x2e0000ff">SFX #2E</title>
+			<title code="0x2f0000ff">SFX #2F</title>
+			<title code="0x300000ff">SFX #30</title>
+			<title code="0x310000ff">SFX #31</title>
+			<title code="0x320000ff">SFX #32</title>
+			<title code="0x330000ff">SFX #33</title>
+			<title code="0x340000ff">SFX #34</title>
+			<title code="0x350000ff">SFX #35</title>
+			<title code="0x360000ff">SFX #36</title>
+			<title code="0x370000ff">SFX #37</title>
+			<title code="0x000000fe">V1モード警告ボイス</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Revolter (YM2203) (A.S.C. Group) (Harnyan88 ver1.00)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Doujin</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x8600"/>
+			<option name="mdata_size" value="0x1800"/>
+			<option name="baseclock" value="0x04"/>
+			<option name="use_ssgpcm" value="0x08"/>
+			<option name="showfm3ex" value="0x01"/>
 		</options>
 		<romlist archive="revolter">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1595,115 +1207,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Revolter (YM2203) (A.S.C. Group) (Harnyan88 ver1.00)</name>
-		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Doujin</driveralias>
-		<options>
-			<option name="mdata_addr" value="0x8600"/>
-			<option name="mdata_size" value="0x1800"/>
-			<option name="baseclock"  value="0x04"/>
-			<option name="use_ssgpcm" value="0x08"/>
-			<option name="showfm3ex"  value="0x01"/>
-		</options>
-		<romlist archive="revolter">
-			<rom type="code" offset="0x0000">PATCH</rom>
-			<rom type="code" offset="0x0100">JR.COM</rom>
-			<rom type="code" offset="0x9e00">GBIOS.COM</rom>
-			<rom type="bgm" offset="0x00">ALARM3.MML</rom>
-			<rom type="bgm" offset="0x01">COMP3.MML</rom>
-			<rom type="bgm" offset="0x02">COMP4.MML</rom>
-			<rom type="bgm" offset="0x03">COMP5.MML</rom>
-			<rom type="bgm" offset="0x04">COMP6.MML</rom>
-			<rom type="bgm" offset="0x05">COMP7.MML</rom>
-			<rom type="bgm" offset="0x06">COMP10.MML</rom>
-			<rom type="bgm" offset="0x07">COMP14.MML</rom>
-			<rom type="bgm" offset="0x08">COMP15.MML</rom>
-			<rom type="bgm" offset="0x09">COMP17.MML</rom>
-			<rom type="bgm" offset="0x0a">COMP18.MML</rom>
-			<rom type="bgm" offset="0x0b">COMP19.MML</rom>
-			<rom type="bgm" offset="0x0c">COMP20.MML</rom>
-			<rom type="bgm" offset="0x0d">IAM1.MML</rom>
-			<rom type="bgm" offset="0x0e">IAM2.MML</rom>
-			<rom type="bgm" offset="0x0f">IAM3.MML</rom>
-			<rom type="bgm" offset="0x10">IAM4.MML</rom>
-			<rom type="bgm" offset="0x11">IAM5.MML</rom>
-			<rom type="bgm" offset="0x12">IAM6.MML</rom>
-			<rom type="bgm" offset="0x13">IAM10.MML</rom>
-			<rom type="bgm" offset="0x14">IAM11.MML</rom>
-			<rom type="bgm" offset="0x15">IAM12.MML</rom>
-			<rom type="bgm" offset="0x16">LAST1.MML</rom>
-			<rom type="bgm" offset="0x17">LAST2.MML</rom>
-			<rom type="bgm" offset="0x18">TRYH01.MML</rom>
-			<rom type="bgm" offset="0x19">TRYH04.MML</rom>
-			<rom type="bgm" offset="0x1a">TRYH05.MML</rom>
-			<rom type="bgm" offset="0x1b">WECBGM3.MML</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00000003">comp5  :《ピアノの練習》            Demo. Music                   YmoH.S</title>
-			<title code="0x0000000d">iam1   :《REVOLTER》                Title Music                   IAM</title>
-			<title code="0x00000005">comp7  :《処女作アレンジバージョン》ランキング・デモ              YmoH.S</title>
-			<title code="0x0000000e">iam2   :《Midnight Chaser》         City Stage BGM                IAM</title>
-			<title code="0x00000001">comp3  :《ギターが ブ・リ・バ・リ》 BGM2                          YmoH.S</title>
-			<title code="0x00000002">comp4  :《挫那尽苦》                BGM3                          YmoH.S</title>
-			<title code="0x00000004">comp6  :《〇ァリ〇崩れ》            Boss Character                YmoH.S</title>
-			<title code="0x00000015">iam12  :《Winning Stream》          Stage Clear                   IAM</title>
-			<title code="0x00000014">iam11  :《Last Revolt》             Aggressor's Core              IAM</title>
-			<title code="0x0000000c">comp20 :《これならママもOKさっ!》   All Round Clear               YmoH.S</title>
-			<title code="0x00000012">iam6   :《???????》                 Name Entry 1位                IAM</title>
-			<title code="0x00000011">iam5   :《The Water Of A Fountain》 Name Entry 2～5位             IAM</title>
-			<title code="0x0000000f">iam3   :《Daybreak Highway》        Ending Music                  IAM</title>
-			<title code="0x00000010">iam4   :《あんで死なにゃあかんのじゃ! クソゲーじゃん!》Game Over  IAM</title>
-			<title code="0x00000006">comp10 :《たらいまわし》            Game Over                     YmoH.S</title>
-			<title code="0x00000007">comp14 :Dragon Sprit Boss 3 namco  YmoH.S</title>
-			<title code="0x00000008">comp15 :GRADIUS-2(MSX) 戦艦の腹の中のBGM KONAMI  YmoH.S</title>
-			<title code="0x00000009">comp17 :アレスの翼 BGM1 CAPCOM  YmoH.S</title>
-			<title code="0x0000000a">comp18 :アレスの翼 BGM2 CAPCOM  YmoH.S</title>
-			<title code="0x0000000b">comp19 :Salamander Oyadama KONAMI YmoH.S</title>
-			<title code="0x0000001b">wecbgm3:《CRAZY SPEEDER》WEC LE MANS 24 BGM3 / KONAMI  Copied by IAM</title>
-			<title code="0x00000000">Boss Warning</title>
-			<title code="0x00000016">?</title>
-			<title code="0x00000017">?</title>
-			<title code="0x00000013">(未使用曲)</title>
-			<title code="0x00000018">(未使用曲)</title>
-			<title code="0x00000019">(未使用曲)</title>
-			<title code="0x0000001a">(未使用曲) NATIVE ATTACK</title>
-			<title code="0x200000ff">EFFECT #20</title>
-			<title code="0x210000ff">EFFECT #21</title>
-			<title code="0x220000ff">EFFECT #22</title>
-			<title code="0x230000ff">EFFECT #23</title>
-			<title code="0x240000ff">EFFECT #24</title>
-			<title code="0x250000ff">EFFECT #25</title>
-			<title code="0x260000ff">EFFECT #26</title>
-			<title code="0x270000ff">EFFECT #27</title>
-			<title code="0x280000ff">EFFECT #28</title>
-			<title code="0x290000ff">EFFECT #29</title>
-			<title code="0x2a0000ff">EFFECT #2A</title>
-			<title code="0x2b0000ff">EFFECT #2B</title>
-			<title code="0x2c0000ff">EFFECT #2C</title>
-			<title code="0x2d0000ff">EFFECT #2D</title>
-			<title code="0x2e0000ff">EFFECT #2E</title>
-			<title code="0x2f0000ff">EFFECT #2F</title>
-			<title code="0x300000ff">EFFECT #30</title>
-			<title code="0x310000ff">EFFECT #31</title>
-			<title code="0x320000ff">EFFECT #32</title>
-			<title code="0x330000ff">EFFECT #33</title>
-			<title code="0x340000ff">EFFECT #34</title>
-			<title code="0x350000ff">EFFECT #35</title>
-			<title code="0x360000ff">EFFECT #36</title>
-			<title code="0x370000ff">EFFECT #37</title>
-			<title code="0x000000fe">V1モード警告ボイス</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-8801] REVOLTER (A.S.C.Group)(Harnyan88 ver1.01)(OPNA)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Doujin</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
-			<option name="baseclock"  value="0x04"/>
+			<option name="baseclock" value="0x04"/>
 			<option name="use_ssgpcm" value="0x08"/>
-			<option name="showfm3ex"  value="0x01"/>
+			<option name="showfm3ex" value="0x01"/>
 		</options>
 		<romlist archive="revolter_">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1763,30 +1275,30 @@
 			<title code="0x0000001a">(未使用曲) NATIVE ATTACK</title>
 			<title code="0x0000001c">EXPL</title>
 		<!--	<title code="0x0000001d">TITLE  :《REVOLTER》                Title Music                   IAM</title> -->
-			<title code="0x200000ff">EFFECT #20</title>
-			<title code="0x210000ff">EFFECT #21</title>
-			<title code="0x220000ff">EFFECT #22</title>
-			<title code="0x230000ff">EFFECT #23</title>
-			<title code="0x240000ff">EFFECT #24</title>
-			<title code="0x250000ff">EFFECT #25</title>
-			<title code="0x260000ff">EFFECT #26</title>
-			<title code="0x270000ff">EFFECT #27</title>
-			<title code="0x280000ff">EFFECT #28</title>
-			<title code="0x290000ff">EFFECT #29</title>
-			<title code="0x2a0000ff">EFFECT #2A</title>
-			<title code="0x2b0000ff">EFFECT #2B</title>
-			<title code="0x2c0000ff">EFFECT #2C</title>
-			<title code="0x2d0000ff">EFFECT #2D</title>
-			<title code="0x2e0000ff">EFFECT #2E</title>
-			<title code="0x2f0000ff">EFFECT #2F</title>
-			<title code="0x300000ff">EFFECT #30</title>
-			<title code="0x310000ff">EFFECT #31</title>
-			<title code="0x320000ff">EFFECT #32</title>
-			<title code="0x330000ff">EFFECT #33</title>
-			<title code="0x340000ff">EFFECT #34</title>
-			<title code="0x350000ff">EFFECT #35</title>
-			<title code="0x360000ff">EFFECT #36</title>
-			<title code="0x370000ff">EFFECT #37</title>
+			<title code="0x200000ff">SFX #20</title>
+			<title code="0x210000ff">SFX #21</title>
+			<title code="0x220000ff">SFX #22</title>
+			<title code="0x230000ff">SFX #23</title>
+			<title code="0x240000ff">SFX #24</title>
+			<title code="0x250000ff">SFX #25</title>
+			<title code="0x260000ff">SFX #26</title>
+			<title code="0x270000ff">SFX #27</title>
+			<title code="0x280000ff">SFX #28</title>
+			<title code="0x290000ff">SFX #29</title>
+			<title code="0x2a0000ff">SFX #2A</title>
+			<title code="0x2b0000ff">SFX #2B</title>
+			<title code="0x2c0000ff">SFX #2C</title>
+			<title code="0x2d0000ff">SFX #2D</title>
+			<title code="0x2e0000ff">SFX #2E</title>
+			<title code="0x2f0000ff">SFX #2F</title>
+			<title code="0x300000ff">SFX #30</title>
+			<title code="0x310000ff">SFX #31</title>
+			<title code="0x320000ff">SFX #32</title>
+			<title code="0x330000ff">SFX #33</title>
+			<title code="0x340000ff">SFX #34</title>
+			<title code="0x350000ff">SFX #35</title>
+			<title code="0x360000ff">SFX #36</title>
+			<title code="0x370000ff">SFX #37</title>
 			<title code="0x000000fe">V1モード警告ボイス</title>
 		</titlelist>
 	</game>
@@ -1797,7 +1309,7 @@
 		<options>
 			<option name="mdata_addr" value="0x8600"/>
 			<option name="mdata_size" value="0x1800"/>
-			<option name="baseclock"  value="0x04"/>
+			<option name="baseclock" value="0x04"/>
 			<option name="use_ssgpcm" value="0x08"/>
 			<option name="showfm3ex" value="0x01"/>
 		</options>
@@ -1859,30 +1371,30 @@
 			<title code="0x0000001a">TRYH05 (未使用曲) NATIVE ATTACK</title>
 			<title code="0x0000001c">EXPL</title>
 		<!--	<title code="0x0000001d">《REVOLTER》                Title Music                   IAM</title> -->
-			<title code="0x200000ff">EFFECT #20</title>
-			<title code="0x210000ff">EFFECT #21</title>
-			<title code="0x220000ff">EFFECT #22</title>
-			<title code="0x230000ff">EFFECT #23</title>
-			<title code="0x240000ff">EFFECT #24</title>
-			<title code="0x250000ff">EFFECT #25</title>
-			<title code="0x260000ff">EFFECT #26</title>
-			<title code="0x270000ff">EFFECT #27</title>
-			<title code="0x280000ff">EFFECT #28</title>
-			<title code="0x290000ff">EFFECT #29</title>
-			<title code="0x2a0000ff">EFFECT #2A</title>
-			<title code="0x2b0000ff">EFFECT #2B</title>
-			<title code="0x2c0000ff">EFFECT #2C</title>
-			<title code="0x2d0000ff">EFFECT #2D</title>
-			<title code="0x2e0000ff">EFFECT #2E</title>
-			<title code="0x2f0000ff">EFFECT #2F</title>
-			<title code="0x300000ff">EFFECT #30</title>
-			<title code="0x310000ff">EFFECT #31</title>
-			<title code="0x320000ff">EFFECT #32</title>
-			<title code="0x330000ff">EFFECT #33</title>
-			<title code="0x340000ff">EFFECT #34</title>
-			<title code="0x350000ff">EFFECT #35</title>
-			<title code="0x360000ff">EFFECT #36</title>
-			<title code="0x370000ff">EFFECT #37</title>
+			<title code="0x200000ff">SFX #20</title>
+			<title code="0x210000ff">SFX #21</title>
+			<title code="0x220000ff">SFX #22</title>
+			<title code="0x230000ff">SFX #23</title>
+			<title code="0x240000ff">SFX #24</title>
+			<title code="0x250000ff">SFX #25</title>
+			<title code="0x260000ff">SFX #26</title>
+			<title code="0x270000ff">SFX #27</title>
+			<title code="0x280000ff">SFX #28</title>
+			<title code="0x290000ff">SFX #29</title>
+			<title code="0x2a0000ff">SFX #2A</title>
+			<title code="0x2b0000ff">SFX #2B</title>
+			<title code="0x2c0000ff">SFX #2C</title>
+			<title code="0x2d0000ff">SFX #2D</title>
+			<title code="0x2e0000ff">SFX #2E</title>
+			<title code="0x2f0000ff">SFX #2F</title>
+			<title code="0x300000ff">SFX #30</title>
+			<title code="0x310000ff">SFX #31</title>
+			<title code="0x320000ff">SFX #32</title>
+			<title code="0x330000ff">SFX #33</title>
+			<title code="0x340000ff">SFX #34</title>
+			<title code="0x350000ff">SFX #35</title>
+			<title code="0x360000ff">SFX #36</title>
+			<title code="0x370000ff">SFX #37</title>
 			<title code="0x000000fe">V1モード警告ボイス</title>
 		</titlelist>
 	</game>
@@ -2105,77 +1617,77 @@
 			<rom type="code" offset="0x9300">SPLF3.COM</rom>
 			<rom type="code" offset="0xb000">SPLF3.DRV</rom>
 			<rom type="code" offset="0xfff0">split.wrk</rom>
-			<rom type="bgm"   offset="0x00">feena</rom>
+			<rom type="bgm" offset="0x00">feena</rom>
 			<rom type="voice" offset="0x00">effec.kaj</rom>
-			<rom type="bgm"   offset="0x01">ys.en1</rom>
+			<rom type="bgm" offset="0x01">ys.en1</rom>
 			<rom type="voice" offset="0x01">effec.kaj</rom>
-			<rom type="bgm"   offset="0x02">ys.en2</rom>
+			<rom type="bgm" offset="0x02">ys.en2</rom>
 			<rom type="voice" offset="0x02">effec.kaj</rom>
-			<rom type="bgm"   offset="0x03">hyd3.gay</rom>
+			<rom type="bgm" offset="0x03">hyd3.gay</rom>
 			<rom type="voice" offset="0x03">effec.kaj</rom>
-			<rom type="bgm"   offset="0x04">scheme.mc</rom>
+			<rom type="bgm" offset="0x04">scheme.mc</rom>
 			<rom type="voice" offset="0x04">effec.kaj</rom>
-			<rom type="bgm"   offset="0x05">scheme.bs1</rom>
+			<rom type="bgm" offset="0x05">scheme.bs1</rom>
 			<rom type="voice" offset="0x05">effec.kaj</rom>
-			<rom type="bgm"   offset="0x06">scheme.en</rom>
+			<rom type="bgm" offset="0x06">scheme.en</rom>
 			<rom type="voice" offset="0x06">effec.kaj</rom>
-			<rom type="bgm"   offset="0x07">nm.st</rom>
+			<rom type="bgm" offset="0x07">nm.st</rom>
 			<rom type="voice" offset="0x07">effec.kaj</rom>
-			<rom type="bgm"   offset="0x08">nm.bg1</rom>
+			<rom type="bgm" offset="0x08">nm.bg1</rom>
 			<rom type="voice" offset="0x08">effec.kaj</rom>
-			<rom type="bgm"   offset="0x09">gaplus.st</rom>
+			<rom type="bgm" offset="0x09">gaplus.st</rom>
 			<rom type="voice" offset="0x09">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0a">cf.op</rom>
+			<rom type="bgm" offset="0x0a">cf.op</rom>
 			<rom type="voice" offset="0x0a">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0b">cf.bg1</rom>
+			<rom type="bgm" offset="0x0b">cf.bg1</rom>
 			<rom type="voice" offset="0x0b">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0c">mn.nm2</rom>
+			<rom type="bgm" offset="0x0c">mn.nm2</rom>
 			<rom type="voice" offset="0x0c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0d">sor.op</rom>
+			<rom type="bgm" offset="0x0d">sor.op</rom>
 			<rom type="voice" offset="0x0d">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0e">gf.bg1</rom>
+			<rom type="bgm" offset="0x0e">gf.bg1</rom>
 			<rom type="voice" offset="0x0e">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0f">gr][.end</rom>
+			<rom type="bgm" offset="0x0f">gr][.end</rom>
 			<rom type="voice" offset="0x0f">effec.kaj</rom>
-			<rom type="bgm"   offset="0x10">lf.bg2</rom>
+			<rom type="bgm" offset="0x10">lf.bg2</rom>
 			<rom type="voice" offset="0x10">effec.kaj</rom>
-			<rom type="bgm"   offset="0x11">lf.bg4</rom>
+			<rom type="bgm" offset="0x11">lf.bg4</rom>
 			<rom type="voice" offset="0x11">effec.kaj</rom>
-			<rom type="bgm"   offset="0x12">lf.bg5</rom>
+			<rom type="bgm" offset="0x12">lf.bg5</rom>
 			<rom type="voice" offset="0x12">effec.kaj</rom>
-			<rom type="bgm"   offset="0x13">drq.st</rom>
+			<rom type="bgm" offset="0x13">drq.st</rom>
 			<rom type="voice" offset="0x13">effec.kaj</rom>
-			<rom type="bgm"   offset="0x14">drq.bg1</rom>
+			<rom type="bgm" offset="0x14">drq.bg1</rom>
 			<rom type="voice" offset="0x14">effec.kaj</rom>
-			<rom type="bgm"   offset="0x15">tc.bg1</rom>
+			<rom type="bgm" offset="0x15">tc.bg1</rom>
 			<rom type="voice" offset="0x15">effec.kaj</rom>
-			<rom type="bgm"   offset="0x16">tc.bg2</rom>
+			<rom type="bgm" offset="0x16">tc.bg2</rom>
 			<rom type="voice" offset="0x16">effec.kaj</rom>
-			<rom type="bgm"   offset="0x17">drs.cos</rom>
+			<rom type="bgm" offset="0x17">drs.cos</rom>
 			<rom type="voice" offset="0x17">effec.kaj</rom>
-			<rom type="bgm"   offset="0x18">nkms.op</rom>
+			<rom type="bgm" offset="0x18">nkms.op</rom>
 			<rom type="voice" offset="0x18">effec.kaj</rom>
-			<rom type="bgm"   offset="0x19">valis2.bg2</rom>
+			<rom type="bgm" offset="0x19">valis2.bg2</rom>
 			<rom type="voice" offset="0x19">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1a">valis2.bg6</rom>
+			<rom type="bgm" offset="0x1a">valis2.bg6</rom>
 			<rom type="voice" offset="0x1a">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1b">valis2.bg7</rom>
+			<rom type="bgm" offset="0x1b">valis2.bg7</rom>
 			<rom type="voice" offset="0x1b">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1c">valis2.bg8</rom>
+			<rom type="bgm" offset="0x1c">valis2.bg8</rom>
 			<rom type="voice" offset="0x1c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1d">P-47.ar1</rom>
+			<rom type="bgm" offset="0x1d">P-47.ar1</rom>
 			<rom type="voice" offset="0x1d">effec.nor</rom>
-			<rom type="bgm"   offset="0x1e">ys.n05</rom>
+			<rom type="bgm" offset="0x1e">ys.n05</rom>
 			<rom type="voice" offset="0x1e">effec.nor</rom>
-			<rom type="bgm"   offset="0x1f">scheme.op1</rom>
+			<rom type="bgm" offset="0x1f">scheme.op1</rom>
 			<rom type="voice" offset="0x1f">effec.nor</rom>
-			<rom type="bgm"   offset="0x20">scheme.bg8</rom>
+			<rom type="bgm" offset="0x20">scheme.bg8</rom>
 			<rom type="voice" offset="0x20">effec.nor</rom>
-			<rom type="bgm"   offset="0x21">scheme.go</rom>
+			<rom type="bgm" offset="0x21">scheme.go</rom>
 			<rom type="voice" offset="0x21">effec.nor</rom>
-			<rom type="bgm"   offset="0x22">grd2.bg1</rom>
+			<rom type="bgm" offset="0x22">grd2.bg1</rom>
 			<rom type="voice" offset="0x22">effec.nor</rom>
-			<rom type="bgm"   offset="0x23">grd][.dem</rom>
+			<rom type="bgm" offset="0x23">grd][.dem</rom>
 			<rom type="voice" offset="0x23">effec.nor</rom>
 		</romlist>
 		<titlelist>
@@ -2232,41 +1744,41 @@
 		<romlist archive="rst88v1">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0xb100">spliti.drv</rom>
-			<rom type="bgm"   offset="0x00">Draspi.sea</rom>
+			<rom type="bgm" offset="0x00">Draspi.sea</rom>
 			<rom type="voice" offset="0x00">effec.tak</rom>
-			<rom type="bgm"   offset="0x01">psg</rom>
+			<rom type="bgm" offset="0x01">psg</rom>
 			<rom type="voice" offset="0x01">effec.tak</rom>
-			<rom type="bgm"   offset="0x02">Pole-P.all</rom>
+			<rom type="bgm" offset="0x02">Pole-P.all</rom>
 			<rom type="voice" offset="0x02">effec.tak</rom>
-			<rom type="bgm"   offset="0x03">Draspi.bs1</rom>
+			<rom type="bgm" offset="0x03">Draspi.bs1</rom>
 			<rom type="voice" offset="0x03">effec.no2</rom>
-			<rom type="bgm"   offset="0x04">draspi.ar4</rom>
+			<rom type="bgm" offset="0x04">draspi.ar4</rom>
 			<rom type="voice" offset="0x04">effec.no2</rom>
-			<rom type="bgm"   offset="0x05">Draspi.AR6</rom>
+			<rom type="bgm" offset="0x05">Draspi.AR6</rom>
 			<rom type="voice" offset="0x05">effec.no2</rom>
-			<rom type="bgm"   offset="0x06">Draspi.yam</rom>
+			<rom type="bgm" offset="0x06">Draspi.yam</rom>
 			<rom type="voice" offset="0x06">effec.no2</rom>
-			<rom type="bgm"   offset="0x07">Draspi.zaw</rom>
+			<rom type="bgm" offset="0x07">Draspi.zaw</rom>
 			<rom type="voice" offset="0x07">effec.no2</rom>
-			<rom type="bgm"   offset="0x08">superK.bs3</rom>
+			<rom type="bgm" offset="0x08">superK.bs3</rom>
 			<rom type="voice" offset="0x08">effec.no2</rom>
-			<rom type="bgm"   offset="0x09">scheme.bg6</rom>
+			<rom type="bgm" offset="0x09">scheme.bg6</rom>
 			<rom type="voice" offset="0x09">effec.no2</rom>
-			<rom type="bgm"   offset="0x0a">twnbee.bg1</rom>
+			<rom type="bgm" offset="0x0a">twnbee.bg1</rom>
 			<rom type="voice" offset="0x0a">effec.no2</rom>
-			<rom type="bgm"   offset="0x0b">a-jax.end</rom>
+			<rom type="bgm" offset="0x0b">a-jax.end</rom>
 			<rom type="voice" offset="0x0b">effec.no2</rom>
-			<rom type="bgm"   offset="0x0c">syvali.bg1</rom>
+			<rom type="bgm" offset="0x0c">syvali.bg1</rom>
 			<rom type="voice" offset="0x0c">effec.no2</rom>
-			<rom type="bgm"   offset="0x0d">nw.bg1</rom>
+			<rom type="bgm" offset="0x0d">nw.bg1</rom>
 			<rom type="voice" offset="0x0d">effec.no2</rom>
-			<rom type="bgm"   offset="0x0e">gf.bg2</rom>
+			<rom type="bgm" offset="0x0e">gf.bg2</rom>
 			<rom type="voice" offset="0x0e">effec.no2</rom>
-			<rom type="bgm"   offset="0x0f">cc.bg1</rom>
+			<rom type="bgm" offset="0x0f">cc.bg1</rom>
 			<rom type="voice" offset="0x0f">effec.no2</rom>
-			<rom type="bgm"   offset="0x10">ys3.opn</rom>
+			<rom type="bgm" offset="0x10">ys3.opn</rom>
 			<rom type="voice" offset="0x10">effec.no2</rom>
-			<rom type="bgm"   offset="0x11">kickof.sss</rom>
+			<rom type="bgm" offset="0x11">kickof.sss</rom>
 			<rom type="voice" offset="0x11">effec.no2</rom>
 		</romlist>
 		<titlelist>
@@ -2327,59 +1839,59 @@
 			<rom type="adpcm" offset="0x1ba80">b-bd.pcm</rom>
 			<rom type="adpcm" offset="0x1c120">bdrm.pcm</rom>
 			<rom type="adpcm" offset="0x1c920">hho.pcm</rom>
-			<rom type="bgm"   offset="0x00">valky.bg1</rom>
+			<rom type="bgm" offset="0x00">valky.bg1</rom>
 			<rom type="voice" offset="0x00">effec.nor</rom>
-			<rom type="bgm"   offset="0x01">snatch.bg1</rom>
+			<rom type="bgm" offset="0x01">snatch.bg1</rom>
 			<rom type="voice" offset="0x01">effec.nor</rom>
-			<rom type="bgm"   offset="0x02">jaleva.bg2</rom>
+			<rom type="bgm" offset="0x02">jaleva.bg2</rom>
 			<rom type="voice" offset="0x02">effec.nor</rom>
-			<rom type="bgm"   offset="0x03">ys][.n16</rom>
+			<rom type="bgm" offset="0x03">ys][.n16</rom>
 			<rom type="voice" offset="0x03">effec.nor</rom>
-			<rom type="bgm"   offset="0x04">ys][.n17</rom>
+			<rom type="bgm" offset="0x04">ys][.n17</rom>
 			<rom type="voice" offset="0x04">effec.nor</rom>
-			<rom type="bgm"   offset="0x05">ys.n06</rom>
+			<rom type="bgm" offset="0x05">ys.n06</rom>
 			<rom type="voice" offset="0x05">effec.nor</rom>
-			<rom type="bgm"   offset="0x06">ys.n08</rom>
+			<rom type="bgm" offset="0x06">ys.n08</rom>
 			<rom type="voice" offset="0x06">effec.nor</rom>
-			<rom type="bgm"   offset="0x07">ys.en1</rom>
+			<rom type="bgm" offset="0x07">ys.en1</rom>
 			<rom type="voice" offset="0x07">effec.nor</rom>
-			<rom type="bgm"   offset="0x08">hyd2.opn</rom>
+			<rom type="bgm" offset="0x08">hyd2.opn</rom>
 			<rom type="voice" offset="0x08">effec.nor</rom>
-			<rom type="bgm"   offset="0x09">alpha.op</rom>
+			<rom type="bgm" offset="0x09">alpha.op</rom>
 			<rom type="voice" offset="0x09">effec.nor</rom>
-			<rom type="bgm"   offset="0x0a">ns.bg1</rom>
+			<rom type="bgm" offset="0x0a">ns.bg1</rom>
 			<rom type="voice" offset="0x0a">effec.nor</rom>
-			<rom type="bgm"   offset="0x0b">sk.bs3</rom>
+			<rom type="bgm" offset="0x0b">sk.bs3</rom>
 			<rom type="voice" offset="0x0b">effec.nor</rom>
-			<rom type="bgm"   offset="0x0c">k.1</rom>
+			<rom type="bgm" offset="0x0c">k.1</rom>
 			<rom type="voice" offset="0x0c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0d">k.2</rom>
+			<rom type="bgm" offset="0x0d">k.2</rom>
 			<rom type="voice" offset="0x0d">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0e">k.6</rom>
+			<rom type="bgm" offset="0x0e">k.6</rom>
 			<rom type="voice" offset="0x0e">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0f">k.7</rom>
+			<rom type="bgm" offset="0x0f">k.7</rom>
 			<rom type="voice" offset="0x0f">effec.kaj</rom>
-			<rom type="bgm"   offset="0x10">k.8</rom>
+			<rom type="bgm" offset="0x10">k.8</rom>
 			<rom type="voice" offset="0x10">effec.kaj</rom>
-			<rom type="bgm"   offset="0x11">k.9</rom>
+			<rom type="bgm" offset="0x11">k.9</rom>
 			<rom type="voice" offset="0x11">effec.kaj</rom>
-			<rom type="bgm"   offset="0x12">k.10</rom>
+			<rom type="bgm" offset="0x12">k.10</rom>
 			<rom type="voice" offset="0x12">effec.kaj</rom>
-			<rom type="bgm"   offset="0x13">k.12</rom>
+			<rom type="bgm" offset="0x13">k.12</rom>
 			<rom type="voice" offset="0x13">effec.kaj</rom>
-			<rom type="bgm"   offset="0x14">k.14</rom>
+			<rom type="bgm" offset="0x14">k.14</rom>
 			<rom type="voice" offset="0x14">effec.kaj</rom>
-			<rom type="bgm"   offset="0x15">k.15</rom>
+			<rom type="bgm" offset="0x15">k.15</rom>
 			<rom type="voice" offset="0x15">effec.kaj</rom>
-			<rom type="bgm"   offset="0x16">k.17</rom>
+			<rom type="bgm" offset="0x16">k.17</rom>
 			<rom type="voice" offset="0x16">effec.kaj</rom>
-			<rom type="bgm"   offset="0x17">k.11</rom>
+			<rom type="bgm" offset="0x17">k.11</rom>
 			<rom type="voice" offset="0x17">effec.kaj</rom>
-			<rom type="bgm"   offset="0x18">k.19</rom>
+			<rom type="bgm" offset="0x18">k.19</rom>
 			<rom type="voice" offset="0x18">effec.kaj</rom>
-			<rom type="bgm"   offset="0x19">Draspi.ar6</rom>
+			<rom type="bgm" offset="0x19">Draspi.ar6</rom>
 			<rom type="voice" offset="0x19">effec.nor</rom>
-			<rom type="bgm"   offset="0x1a">ys.en2</rom>
+			<rom type="bgm" offset="0x1a">ys.en2</rom>
 			<rom type="voice" offset="0x1a">effec.nor</rom>
 		</romlist>
 		<titlelist>
@@ -2445,35 +1957,35 @@
 			<rom type="adpcm" offset="0x13a4c">crush</rom>
 			<rom type="adpcm" offset="0x15e60">HCLAP</rom>
 			<rom type="adpcm" offset="0x16e58">COWBEL</rom>
-			<rom type="bgm"   offset="0x00">tc.bg2</rom>
+			<rom type="bgm" offset="0x00">tc.bg2</rom>
 			<rom type="voice" offset="0x00">effec.nor</rom>
-			<rom type="bgm"   offset="0x01">dara][.n11</rom>
+			<rom type="bgm" offset="0x01">dara][.n11</rom>
 			<rom type="voice" offset="0x01">effec.nor</rom>
-			<rom type="bgm"   offset="0x02">dara][.clr</rom>
+			<rom type="bgm" offset="0x02">dara][.clr</rom>
 			<rom type="voice" offset="0x02">effec.nor</rom>
-			<rom type="bgm"   offset="0x03">galka.end</rom>
+			<rom type="bgm" offset="0x03">galka.end</rom>
 			<rom type="voice" offset="0x03">effec.nor</rom>
-			<rom type="bgm"   offset="0x04">tout.end</rom>
+			<rom type="bgm" offset="0x04">tout.end</rom>
 			<rom type="voice" offset="0x04">effec.nor</rom>
-			<rom type="bgm"   offset="0x05">drq.bg1</rom>
+			<rom type="bgm" offset="0x05">drq.bg1</rom>
 			<rom type="voice" offset="0x05">effec.kaj</rom>
-			<rom type="bgm"   offset="0x06">field</rom>
+			<rom type="bgm" offset="0x06">field</rom>
 			<rom type="voice" offset="0x06">effec.kaj</rom>
-			<rom type="bgm"   offset="0x07">k.21</rom>
+			<rom type="bgm" offset="0x07">k.21</rom>
 			<rom type="voice" offset="0x07">effec.kaj</rom>
-			<rom type="bgm"   offset="0x08">k.23</rom>
+			<rom type="bgm" offset="0x08">k.23</rom>
 			<rom type="voice" offset="0x08">effec.kaj</rom>
-			<rom type="bgm"   offset="0x09">k.24</rom>
+			<rom type="bgm" offset="0x09">k.24</rom>
 			<rom type="voice" offset="0x09">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0a">k.25</rom>
+			<rom type="bgm" offset="0x0a">k.25</rom>
 			<rom type="voice" offset="0x0a">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0b">k.26</rom>
+			<rom type="bgm" offset="0x0b">k.26</rom>
 			<rom type="voice" offset="0x0b">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0c">k.18</rom>
+			<rom type="bgm" offset="0x0c">k.18</rom>
 			<rom type="voice" offset="0x0c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0d">k.19</rom>
+			<rom type="bgm" offset="0x0d">k.19</rom>
 			<rom type="voice" offset="0x0d">effec.kaj</rom>
-			<rom type="bgm"   offset="0x0e">bforce.4th</rom>
+			<rom type="bgm" offset="0x0e">bforce.4th</rom>
 			<rom type="voice" offset="0x0e">effec.nor</rom>
 		</romlist>
 		<titlelist>
@@ -2525,105 +2037,105 @@
 			<rom type="adpcm" offset="0x0de74">OCHIT2</rom>
 			<rom type="adpcm" offset="0x0fe6c">HCLAP</rom>
 			<rom type="adpcm" offset="0x10e64">COWBEL</rom>
-			<rom type="bgm"   offset="0x00">darius.bg1</rom>
+			<rom type="bgm" offset="0x00">darius.bg1</rom>
 			<rom type="voice" offset="0x00">effec.nor</rom>
-			<rom type="bgm"   offset="0x01">bforce.4th</rom>
+			<rom type="bgm" offset="0x01">bforce.4th</rom>
 			<rom type="voice" offset="0x01">effec.nor</rom>
-			<rom type="bgm"   offset="0x02">scheme.end</rom>
+			<rom type="bgm" offset="0x02">scheme.end</rom>
 			<rom type="voice" offset="0x02">effec.nor</rom>
-			<rom type="bgm"   offset="0x03">ys.tw</rom>
+			<rom type="bgm" offset="0x03">ys.tw</rom>
 			<rom type="voice" offset="0x03">effec.nor</rom>
-			<rom type="bgm"   offset="0x04">ns.clr</rom>
+			<rom type="bgm" offset="0x04">ns.clr</rom>
 			<rom type="voice" offset="0x04">effec.nor</rom>
-			<rom type="bgm"   offset="0x05">ys3.bos</rom>
+			<rom type="bgm" offset="0x05">ys3.bos</rom>
 			<rom type="voice" offset="0x05">effec.nor</rom>
-			<rom type="bgm"   offset="0x06">tc.bg4</rom>
+			<rom type="bgm" offset="0x06">tc.bg4</rom>
 			<rom type="voice" offset="0x06">effec.nor</rom>
-			<rom type="bgm"   offset="0x07">drq3.rot</rom>
+			<rom type="bgm" offset="0x07">drq3.rot</rom>
 			<rom type="voice" offset="0x07">effec.nor</rom>
-			<rom type="bgm"   offset="0x08">drq3.ron</rom>
+			<rom type="bgm" offset="0x08">drq3.ron</rom>
 			<rom type="voice" offset="0x08">effec.nor</rom>
-			<rom type="bgm"   offset="0x09">drq3.tow</rom>
+			<rom type="bgm" offset="0x09">drq3.tow</rom>
 			<rom type="voice" offset="0x09">effec.nor</rom>
-			<rom type="bgm"   offset="0x0a">drq3.adv</rom>
+			<rom type="bgm" offset="0x0a">drq3.adv</rom>
 			<rom type="voice" offset="0x0a">effec.nor</rom>
-			<rom type="bgm"   offset="0x0b">drq3.vir</rom>
+			<rom type="bgm" offset="0x0b">drq3.vir</rom>
 			<rom type="voice" offset="0x0b">effec.nor</rom>
-			<rom type="bgm"   offset="0x0c">drq3.dun</rom>
+			<rom type="bgm" offset="0x0c">drq3.dun</rom>
 			<rom type="voice" offset="0x0c">effec.nor</rom>
-			<rom type="bgm"   offset="0x0d">drq3.fig</rom>
+			<rom type="bgm" offset="0x0d">drq3.fig</rom>
 			<rom type="voice" offset="0x0d">effec.nor</rom>
-			<rom type="bgm"   offset="0x0e">drq3.req</rom>
+			<rom type="bgm" offset="0x0e">drq3.req</rom>
 			<rom type="voice" offset="0x0e">effec.nor</rom>
-			<rom type="bgm"   offset="0x0f">drq3.pr2</rom>
+			<rom type="bgm" offset="0x0f">drq3.pr2</rom>
 			<rom type="voice" offset="0x0f">effec.nor</rom>
-			<rom type="bgm"   offset="0x10">drq3.hok</rom>
+			<rom type="bgm" offset="0x10">drq3.hok</rom>
 			<rom type="voice" offset="0x10">effec.nor</rom>
-			<rom type="bgm"   offset="0x11">drq3.se2</rom>
+			<rom type="bgm" offset="0x11">drq3.se2</rom>
 			<rom type="voice" offset="0x11">effec.nor</rom>
-			<rom type="bgm"   offset="0x12">drq3.TOW</rom>
+			<rom type="bgm" offset="0x12">drq3.TOW</rom>
 			<rom type="voice" offset="0x12">effec.nor</rom>
-			<rom type="bgm"   offset="0x13">drq3.jp3</rom>
+			<rom type="bgm" offset="0x13">drq3.jp3</rom>
 			<rom type="voice" offset="0x13">effec.nor</rom>
-			<rom type="bgm"   offset="0x14">drq3.tps</rom>
+			<rom type="bgm" offset="0x14">drq3.tps</rom>
 			<rom type="voice" offset="0x14">effec.nor</rom>
-			<rom type="bgm"   offset="0x15">drq3.fl3</rom>
+			<rom type="bgm" offset="0x15">drq3.fl3</rom>
 			<rom type="voice" offset="0x15">effec.nor</rom>
-			<rom type="bgm"   offset="0x16">drq3.alf</rom>
+			<rom type="bgm" offset="0x16">drq3.alf</rom>
 			<rom type="voice" offset="0x16">effec.nor</rom>
-			<rom type="bgm"   offset="0x17">drq3.bos</rom>
+			<rom type="bgm" offset="0x17">drq3.bos</rom>
 			<rom type="voice" offset="0x17">effec.nor</rom>
-			<rom type="bgm"   offset="0x18">drq3.en2</rom>
+			<rom type="bgm" offset="0x18">drq3.en2</rom>
 			<rom type="voice" offset="0x18">effec.nor</rom>
-			<rom type="bgm"   offset="0x19">psg.29x</rom>
+			<rom type="bgm" offset="0x19">psg.29x</rom>
 			<rom type="voice" offset="0x19">effec.nor</rom>
-			<rom type="bgm"   offset="0x1a">ｹﾑｰﾙ.1</rom>
+			<rom type="bgm" offset="0x1a">ｹﾑｰﾙ.1</rom>
 			<rom type="voice" offset="0x1a">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1b">ｹﾑｰﾙ.3</rom>
+			<rom type="bgm" offset="0x1b">ｹﾑｰﾙ.3</rom>
 			<rom type="voice" offset="0x1b">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1c">gra2</rom>
+			<rom type="bgm" offset="0x1c">gra2</rom>
 			<rom type="voice" offset="0x1c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1d">rf2</rom>
+			<rom type="bgm" offset="0x1d">rf2</rom>
 			<rom type="voice" offset="0x1d">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1e">gofer</rom>
+			<rom type="bgm" offset="0x1e">gofer</rom>
 			<rom type="voice" offset="0x1e">effec.kaj</rom>
-			<rom type="bgm"   offset="0x1f">gal</rom>
+			<rom type="bgm" offset="0x1f">gal</rom>
 			<rom type="voice" offset="0x1f">effec.kaj</rom>
-			<rom type="bgm"   offset="0x20">ss.op</rom>
+			<rom type="bgm" offset="0x20">ss.op</rom>
 			<rom type="voice" offset="0x20">effec.kaj</rom>
-			<rom type="bgm"   offset="0x21">drq.dej</rom>
+			<rom type="bgm" offset="0x21">drq.dej</rom>
 			<rom type="voice" offset="0x21">effec.kaj</rom>
-			<rom type="bgm"   offset="0x22">top.op</rom>
+			<rom type="bgm" offset="0x22">top.op</rom>
 			<rom type="voice" offset="0x22">effec.kaj</rom>
-			<rom type="bgm"   offset="0x23">top.jan</rom>
+			<rom type="bgm" offset="0x23">top.jan</rom>
 			<rom type="voice" offset="0x23">effec.kaj</rom>
-			<rom type="bgm"   offset="0x24">top.fly</rom>
+			<rom type="bgm" offset="0x24">top.fly</rom>
 			<rom type="voice" offset="0x24">effec.kaj</rom>
-			<rom type="bgm"   offset="0x25">hc.op</rom>
+			<rom type="bgm" offset="0x25">hc.op</rom>
 			<rom type="voice" offset="0x25">effec.kaj</rom>
-			<rom type="bgm"   offset="0x26">hc.ed</rom>
+			<rom type="bgm" offset="0x26">hc.ed</rom>
 			<rom type="voice" offset="0x26">effec.kaj</rom>
-			<rom type="bgm"   offset="0x27">a.2</rom>
+			<rom type="bgm" offset="0x27">a.2</rom>
 			<rom type="voice" offset="0x27">effec.kaj</rom>
-			<rom type="bgm"   offset="0x28">a.3</rom>
+			<rom type="bgm" offset="0x28">a.3</rom>
 			<rom type="voice" offset="0x28">effec.kaj</rom>
-			<rom type="bgm"   offset="0x29">a.6</rom>
+			<rom type="bgm" offset="0x29">a.6</rom>
 			<rom type="voice" offset="0x29">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2a">a.10</rom>
+			<rom type="bgm" offset="0x2a">a.10</rom>
 			<rom type="voice" offset="0x2a">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2b">a.8</rom>
+			<rom type="bgm" offset="0x2b">a.8</rom>
 			<rom type="voice" offset="0x2b">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2c">a.7</rom>
+			<rom type="bgm" offset="0x2c">a.7</rom>
 			<rom type="voice" offset="0x2c">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2d">a.9</rom>
+			<rom type="bgm" offset="0x2d">a.9</rom>
 			<rom type="voice" offset="0x2d">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2e">a.11</rom>
+			<rom type="bgm" offset="0x2e">a.11</rom>
 			<rom type="voice" offset="0x2e">effec.kaj</rom>
-			<rom type="bgm"   offset="0x2f">silent.dem</rom>
+			<rom type="bgm" offset="0x2f">silent.dem</rom>
 			<rom type="voice" offset="0x2f">effec.kaj</rom>
-			<rom type="bgm"   offset="0x30">ys.tow</rom>
+			<rom type="bgm" offset="0x30">ys.tow</rom>
 			<rom type="voice" offset="0x30">effec.nor</rom>
-			<rom type="bgm"   offset="0x31">k.19</rom>
+			<rom type="bgm" offset="0x31">k.19</rom>
 			<rom type="voice" offset="0x31">effec.kaj</rom>
 		</romlist>
 		<titlelist>
@@ -2716,36 +2228,36 @@
 			<rom type="adpcm" offset="0x19274">UFUFU</rom>
 			<rom type="adpcm" offset="0x1a66c">ohit.cm</rom>
 			<rom type="adpcm" offset="0x1be60">HCLAP</rom>
-			<rom type="bgm"   offset="0x00">q.1</rom>
-			<rom type="bgm"   offset="0x01">drq4.ch1</rom>
-			<rom type="bgm"   offset="0x02">ab.sel</rom>
-			<rom type="bgm"   offset="0x03">ab.bg1</rom>
-			<rom type="bgm"   offset="0x04">laby.bg1</rom>
-			<rom type="bgm"   offset="0x05">laby.end</rom>
-			<rom type="bgm"   offset="0x06">grd][.bg8</rom>
-			<rom type="bgm"   offset="0x07">scheme.bg6</rom>
-			<rom type="bgm"   offset="0x08">roman.op</rom>
-			<rom type="bgm"   offset="0x09">cb.flr</rom>
-			<rom type="bgm"   offset="0x0a">hp.end</rom>
-			<rom type="bgm"   offset="0x0b">nor.1</rom>
-			<rom type="bgm"   offset="0x0c">plus a.st1</rom>
-			<rom type="bgm"   offset="0x0d">plus a.st4</rom>
-			<rom type="bgm"   offset="0x0e">flak a.bg1</rom>
-			<rom type="bgm"   offset="0x0f">Ys041s</rom>
-			<rom type="bgm"   offset="0x10">Ys026</rom>
-			<rom type="bgm"   offset="0x11">Ys2-en</rom>
-			<rom type="bgm"   offset="0x12">kuuga.che</rom>
-			<rom type="bgm"   offset="0x13">begin.che</rom>
-			<rom type="bgm"   offset="0x14">gr2end.che</rom>
-			<rom type="bgm"   offset="0x15">yokyun</rom>
-			<rom type="bgm"   offset="0x16">sm.bg1</rom>
-			<rom type="bgm"   offset="0x17">sm.bg2</rom>
-			<rom type="bgm"   offset="0x18">ps.bg5</rom>
-			<rom type="bgm"   offset="0x19">ps.bg6</rom>
-			<rom type="bgm"   offset="0x1a">ps.end</rom>
-			<rom type="bgm"   offset="0x1b">nm2.bg6</rom>
-			<rom type="bgm"   offset="0x1c">k'</rom>
-			<rom type="bgm"   offset="0x1d">k''</rom>
+			<rom type="bgm" offset="0x00">q.1</rom>
+			<rom type="bgm" offset="0x01">drq4.ch1</rom>
+			<rom type="bgm" offset="0x02">ab.sel</rom>
+			<rom type="bgm" offset="0x03">ab.bg1</rom>
+			<rom type="bgm" offset="0x04">laby.bg1</rom>
+			<rom type="bgm" offset="0x05">laby.end</rom>
+			<rom type="bgm" offset="0x06">grd][.bg8</rom>
+			<rom type="bgm" offset="0x07">scheme.bg6</rom>
+			<rom type="bgm" offset="0x08">roman.op</rom>
+			<rom type="bgm" offset="0x09">cb.flr</rom>
+			<rom type="bgm" offset="0x0a">hp.end</rom>
+			<rom type="bgm" offset="0x0b">nor.1</rom>
+			<rom type="bgm" offset="0x0c">plus a.st1</rom>
+			<rom type="bgm" offset="0x0d">plus a.st4</rom>
+			<rom type="bgm" offset="0x0e">flak a.bg1</rom>
+			<rom type="bgm" offset="0x0f">Ys041s</rom>
+			<rom type="bgm" offset="0x10">Ys026</rom>
+			<rom type="bgm" offset="0x11">Ys2-en</rom>
+			<rom type="bgm" offset="0x12">kuuga.che</rom>
+			<rom type="bgm" offset="0x13">begin.che</rom>
+			<rom type="bgm" offset="0x14">gr2end.che</rom>
+			<rom type="bgm" offset="0x15">yokyun</rom>
+			<rom type="bgm" offset="0x16">sm.bg1</rom>
+			<rom type="bgm" offset="0x17">sm.bg2</rom>
+			<rom type="bgm" offset="0x18">ps.bg5</rom>
+			<rom type="bgm" offset="0x19">ps.bg6</rom>
+			<rom type="bgm" offset="0x1a">ps.end</rom>
+			<rom type="bgm" offset="0x1b">nm2.bg6</rom>
+			<rom type="bgm" offset="0x1c">k'</rom>
+			<rom type="bgm" offset="0x1d">k''</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">R.S.T. LOGO                                                    / KAJA</title>
@@ -2822,46 +2334,46 @@
 			<rom type="adpcm" offset="0x1c4e4">crazy.5</rom>
 			<rom type="adpcm" offset="0x1cb60">crazy.6</rom>
 			<rom type="adpcm" offset="0x1d41c">UFUFU</rom>
-			<rom type="bgm"   offset="0x00">q.1</rom>
-			<rom type="bgm"   offset="0x01">midlan.sel</rom>
-			<rom type="bgm"   offset="0x02">fight</rom>
-			<rom type="bgm"   offset="0x03">grd3.bg3</rom>
-			<rom type="bgm"   offset="0x04">grd3.try</rom>
-			<rom type="bgm"   offset="0x05">grd3.en1</rom>
-			<rom type="bgm"   offset="0x06">grd3.bg0</rom>
-			<rom type="bgm"   offset="0x07">gloc.bga</rom>
-			<rom type="bgm"   offset="0x08">ff3.opn</rom>
-			<rom type="bgm"   offset="0x09">nor.3</rom>
-			<rom type="bgm"   offset="0x0a">nor.5</rom>
-			<rom type="bgm"   offset="0x0b">crazy2.clr</rom>
-			<rom type="bgm"   offset="0x0c">marvel.bg1</rom>
-			<rom type="bgm"   offset="0x0d">rollin.bg1</rom>
-			<rom type="bgm"   offset="0x0e">world.cup</rom>
-			<rom type="bgm"   offset="0x0f">drq.che</rom>
-			<rom type="bgm"   offset="0x10">gof.che</rom>
-			<rom type="bgm"   offset="0x11">go2.che</rom>
-			<rom type="bgm"   offset="0x12">hana.che</rom>
-			<rom type="bgm"   offset="0x13">ab1.bgm</rom>
-			<rom type="bgm"   offset="0x14">take.bgm</rom>
-			<rom type="bgm"   offset="0x15">roi.1</rom>
-			<rom type="bgm"   offset="0x16">roi.2</rom>
-			<rom type="bgm"   offset="0x17">emergency</rom>
-			<rom type="bgm"   offset="0x18">malti-.att</rom>
-			<rom type="bgm"   offset="0x19">p.1b</rom>
-			<rom type="bgm"   offset="0x1a">p.2b</rom>
-			<rom type="bgm"   offset="0x1b">p.3b</rom>
-			<rom type="bgm"   offset="0x1c">p.4b</rom>
-			<rom type="bgm"   offset="0x1d">p.5b</rom>
-			<rom type="bgm"   offset="0x1e">p.6b</rom>
-			<rom type="bgm"   offset="0x1f">p.8b</rom>
-			<rom type="bgm"   offset="0x20">sp.1</rom>
-			<rom type="bgm"   offset="0x21">sp.2</rom>
-			<rom type="bgm"   offset="0x22">sp.3</rom>
-			<rom type="bgm"   offset="0x23">sp.4</rom>
-			<rom type="bgm"   offset="0x24">sp.6</rom>
-			<rom type="bgm"   offset="0x25">zeal.1</rom>
-			<rom type="bgm"   offset="0x26">tsp.1</rom>
-			<rom type="bgm"   offset="0x27">tsp.2</rom>
+			<rom type="bgm" offset="0x00">q.1</rom>
+			<rom type="bgm" offset="0x01">midlan.sel</rom>
+			<rom type="bgm" offset="0x02">fight</rom>
+			<rom type="bgm" offset="0x03">grd3.bg3</rom>
+			<rom type="bgm" offset="0x04">grd3.try</rom>
+			<rom type="bgm" offset="0x05">grd3.en1</rom>
+			<rom type="bgm" offset="0x06">grd3.bg0</rom>
+			<rom type="bgm" offset="0x07">gloc.bga</rom>
+			<rom type="bgm" offset="0x08">ff3.opn</rom>
+			<rom type="bgm" offset="0x09">nor.3</rom>
+			<rom type="bgm" offset="0x0a">nor.5</rom>
+			<rom type="bgm" offset="0x0b">crazy2.clr</rom>
+			<rom type="bgm" offset="0x0c">marvel.bg1</rom>
+			<rom type="bgm" offset="0x0d">rollin.bg1</rom>
+			<rom type="bgm" offset="0x0e">world.cup</rom>
+			<rom type="bgm" offset="0x0f">drq.che</rom>
+			<rom type="bgm" offset="0x10">gof.che</rom>
+			<rom type="bgm" offset="0x11">go2.che</rom>
+			<rom type="bgm" offset="0x12">hana.che</rom>
+			<rom type="bgm" offset="0x13">ab1.bgm</rom>
+			<rom type="bgm" offset="0x14">take.bgm</rom>
+			<rom type="bgm" offset="0x15">roi.1</rom>
+			<rom type="bgm" offset="0x16">roi.2</rom>
+			<rom type="bgm" offset="0x17">emergency</rom>
+			<rom type="bgm" offset="0x18">malti-.att</rom>
+			<rom type="bgm" offset="0x19">p.1b</rom>
+			<rom type="bgm" offset="0x1a">p.2b</rom>
+			<rom type="bgm" offset="0x1b">p.3b</rom>
+			<rom type="bgm" offset="0x1c">p.4b</rom>
+			<rom type="bgm" offset="0x1d">p.5b</rom>
+			<rom type="bgm" offset="0x1e">p.6b</rom>
+			<rom type="bgm" offset="0x1f">p.8b</rom>
+			<rom type="bgm" offset="0x20">sp.1</rom>
+			<rom type="bgm" offset="0x21">sp.2</rom>
+			<rom type="bgm" offset="0x22">sp.3</rom>
+			<rom type="bgm" offset="0x23">sp.4</rom>
+			<rom type="bgm" offset="0x24">sp.6</rom>
+			<rom type="bgm" offset="0x25">zeal.1</rom>
+			<rom type="bgm" offset="0x26">tsp.1</rom>
+			<rom type="bgm" offset="0x27">tsp.2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">R.S.T. LOGO                                                    / KAJA</title>
@@ -2949,32 +2461,32 @@
 			<rom type="adpcm" offset="0x1f520">TIMPAN</rom>
 			<rom type="adpcm" offset="0x21118">ka</rom>
 			<rom type="adpcm" offset="0x21594">finger.1</rom>
-			<rom type="bgm"   offset="0x00">q.1</rom>
-			<rom type="bgm"   offset="0x01">wiz3.bol</rom>
-			<rom type="bgm"   offset="0x02">area88.bg1</rom>
-			<rom type="bgm"   offset="0x03">area88.bs1</rom>
-			<rom type="bgm"   offset="0x04">sal.op</rom>
-			<rom type="bgm"   offset="0x05">lf.bg4</rom>
-			<rom type="bgm"   offset="0x06">mb.end</rom>
-			<rom type="bgm"   offset="0x07">nor.7c</rom>
-			<rom type="bgm"   offset="0x08">toplan.clr</rom>
-			<rom type="bgm"   offset="0x09">w cup.dem</rom>
-			<rom type="bgm"   offset="0x0a">rollin.nam</rom>
-			<rom type="bgm"   offset="0x0b">ﾊﾚｰ.clr</rom>
-			<rom type="bgm"   offset="0x0c">df.bg1</rom>
-			<rom type="bgm"   offset="0x0d">ys3.mml</rom>
-			<rom type="bgm"   offset="0x0e">ys2.mml</rom>
-			<rom type="bgm"   offset="0x0f">Dras04.b2</rom>
-			<rom type="bgm"   offset="0x10">Dras06.b2</rom>
-			<rom type="bgm"   offset="0x11">Dras24.b2</rom>
-			<rom type="bgm"   offset="0x12">Seint.b2</rom>
-			<rom type="bgm"   offset="0x13">Kom1.b2</rom>
-			<rom type="bgm"   offset="0x14">sp.7</rom>
-			<rom type="bgm"   offset="0x15">onk.1</rom>
-			<rom type="bgm"   offset="0x16">kami.1</rom>
-			<rom type="bgm"   offset="0x17">sma.4</rom>
-			<rom type="bgm"   offset="0x18">SYVALI.ON</rom>
-			<rom type="bgm"   offset="0x19">MISTY</rom>
+			<rom type="bgm" offset="0x00">q.1</rom>
+			<rom type="bgm" offset="0x01">wiz3.bol</rom>
+			<rom type="bgm" offset="0x02">area88.bg1</rom>
+			<rom type="bgm" offset="0x03">area88.bs1</rom>
+			<rom type="bgm" offset="0x04">sal.op</rom>
+			<rom type="bgm" offset="0x05">lf.bg4</rom>
+			<rom type="bgm" offset="0x06">mb.end</rom>
+			<rom type="bgm" offset="0x07">nor.7c</rom>
+			<rom type="bgm" offset="0x08">toplan.clr</rom>
+			<rom type="bgm" offset="0x09">w cup.dem</rom>
+			<rom type="bgm" offset="0x0a">rollin.nam</rom>
+			<rom type="bgm" offset="0x0b">ﾊﾚｰ.clr</rom>
+			<rom type="bgm" offset="0x0c">df.bg1</rom>
+			<rom type="bgm" offset="0x0d">ys3.mml</rom>
+			<rom type="bgm" offset="0x0e">ys2.mml</rom>
+			<rom type="bgm" offset="0x0f">Dras04.b2</rom>
+			<rom type="bgm" offset="0x10">Dras06.b2</rom>
+			<rom type="bgm" offset="0x11">Dras24.b2</rom>
+			<rom type="bgm" offset="0x12">Seint.b2</rom>
+			<rom type="bgm" offset="0x13">Kom1.b2</rom>
+			<rom type="bgm" offset="0x14">sp.7</rom>
+			<rom type="bgm" offset="0x15">onk.1</rom>
+			<rom type="bgm" offset="0x16">kami.1</rom>
+			<rom type="bgm" offset="0x17">sma.4</rom>
+			<rom type="bgm" offset="0x18">SYVALI.ON</rom>
+			<rom type="bgm" offset="0x19">MISTY</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">R.S.T. LOGO                                                    / KAJA</title>
@@ -3074,45 +2586,45 @@
 			<rom type="adpcm" offset="0x36480">ﾋﾟｮｯ1.as</rom>
 			<rom type="adpcm" offset="0x36850">ｷﾞｬｼｬﾝ.as</rom>
 			<rom type="adpcm" offset="0x3744c">ﾋﾟｮｯ2.as</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">title</rom>
-			<rom type="bgm"   offset="0x02">ds IV.sel</rom>
-			<rom type="bgm"   offset="0x03">sm.bg1</rom>
-			<rom type="bgm"   offset="0x04">trigon.bg1</rom>
-			<rom type="bgm"   offset="0x05">nor.8</rom>
-			<rom type="bgm"   offset="0x06">sf.nam</rom>
-			<rom type="bgm"   offset="0x07">tetris</rom>
-			<rom type="bgm"   offset="0x08">noa.as</rom>
-			<rom type="bgm"   offset="0x09">drq2.lov</rom>
-			<rom type="bgm"   offset="0x0a">Ill sa.ve</rom>
-			<rom type="bgm"   offset="0x0b">Scheme.AR</rom>
-			<rom type="bgm"   offset="0x0c">SINOBI.OP</rom>
-			<rom type="bgm"   offset="0x0d">SINOBI.DEM</rom>
-			<rom type="bgm"   offset="0x0e">SINOBI.lik</rom>
-			<rom type="bgm"   offset="0x0f">PALACE.1AR</rom>
-			<rom type="bgm"   offset="0x10">PALACE.2AR</rom>
-			<rom type="bgm"   offset="0x11">The las.t</rom>
-			<rom type="bgm"   offset="0x12">ADOL</rom>
-			<rom type="bgm"   offset="0x13">TOPLAN</rom>
-			<rom type="bgm"   offset="0x14">PAPA</rom>
-			<rom type="bgm"   offset="0x15">MAN.ST1</rom>
-			<rom type="bgm"   offset="0x16">GR-2.OP</rom>
-			<rom type="bgm"   offset="0x17">GR-2.END</rom>
-			<rom type="bgm"   offset="0x18">A.JAX</rom>
-			<rom type="bgm"   offset="0x19">VAL</rom>
-			<rom type="bgm"   offset="0x1a">GRASS</rom>
-			<rom type="bgm"   offset="0x1b">PHELIO.S</rom>
-			<rom type="bgm"   offset="0x1c">METAL</rom>
-			<rom type="bgm"   offset="0x1d">BOSCO.2</rom>
-			<rom type="bgm"   offset="0x1e">THUND2</rom>
-			<rom type="bgm"   offset="0x1f">SNATCH.OP</rom>
-			<rom type="bgm"   offset="0x20">GALA</rom>
-			<rom type="bgm"   offset="0x21">GALA.NAM</rom>
-			<rom type="bgm"   offset="0x22">POWER.B</rom>
-			<rom type="bgm"   offset="0x23">POWER.E</rom>
-			<rom type="bgm"   offset="0x24">ROMAN</rom>
-			<rom type="bgm"   offset="0x25">darius.clr</rom>
-			<rom type="bgm"   offset="0x26">k.1</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">title</rom>
+			<rom type="bgm" offset="0x02">ds IV.sel</rom>
+			<rom type="bgm" offset="0x03">sm.bg1</rom>
+			<rom type="bgm" offset="0x04">trigon.bg1</rom>
+			<rom type="bgm" offset="0x05">nor.8</rom>
+			<rom type="bgm" offset="0x06">sf.nam</rom>
+			<rom type="bgm" offset="0x07">tetris</rom>
+			<rom type="bgm" offset="0x08">noa.as</rom>
+			<rom type="bgm" offset="0x09">drq2.lov</rom>
+			<rom type="bgm" offset="0x0a">Ill sa.ve</rom>
+			<rom type="bgm" offset="0x0b">Scheme.AR</rom>
+			<rom type="bgm" offset="0x0c">SINOBI.OP</rom>
+			<rom type="bgm" offset="0x0d">SINOBI.DEM</rom>
+			<rom type="bgm" offset="0x0e">SINOBI.lik</rom>
+			<rom type="bgm" offset="0x0f">PALACE.1AR</rom>
+			<rom type="bgm" offset="0x10">PALACE.2AR</rom>
+			<rom type="bgm" offset="0x11">The las.t</rom>
+			<rom type="bgm" offset="0x12">ADOL</rom>
+			<rom type="bgm" offset="0x13">TOPLAN</rom>
+			<rom type="bgm" offset="0x14">PAPA</rom>
+			<rom type="bgm" offset="0x15">MAN.ST1</rom>
+			<rom type="bgm" offset="0x16">GR-2.OP</rom>
+			<rom type="bgm" offset="0x17">GR-2.END</rom>
+			<rom type="bgm" offset="0x18">A.JAX</rom>
+			<rom type="bgm" offset="0x19">VAL</rom>
+			<rom type="bgm" offset="0x1a">GRASS</rom>
+			<rom type="bgm" offset="0x1b">PHELIO.S</rom>
+			<rom type="bgm" offset="0x1c">METAL</rom>
+			<rom type="bgm" offset="0x1d">BOSCO.2</rom>
+			<rom type="bgm" offset="0x1e">THUND2</rom>
+			<rom type="bgm" offset="0x1f">SNATCH.OP</rom>
+			<rom type="bgm" offset="0x20">GALA</rom>
+			<rom type="bgm" offset="0x21">GALA.NAM</rom>
+			<rom type="bgm" offset="0x22">POWER.B</rom>
+			<rom type="bgm" offset="0x23">POWER.E</rom>
+			<rom type="bgm" offset="0x24">ROMAN</rom>
+			<rom type="bgm" offset="0x25">darius.clr</rom>
+			<rom type="bgm" offset="0x26">k.1</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ADPCM LOAD                                                     / KAJA</title>
@@ -3170,45 +2682,45 @@
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xac00">pmdg</rom>
 			<rom type="code" offset="0xe000">efcdat</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">title</rom>
-			<rom type="bgm"   offset="0x02">ds IV.sel</rom>
-			<rom type="bgm"   offset="0x03">sm.bg1</rom>
-			<rom type="bgm"   offset="0x04">trigon.bg1</rom>
-			<rom type="bgm"   offset="0x05">nor.8</rom>
-			<rom type="bgm"   offset="0x06">sf.nam</rom>
-			<rom type="bgm"   offset="0x07">tetris</rom>
-			<rom type="bgm"   offset="0x08">noa.as</rom>
-			<rom type="bgm"   offset="0x09">drq2.lov</rom>
-			<rom type="bgm"   offset="0x0a">Ill sa.ve</rom>
-			<rom type="bgm"   offset="0x0b">Scheme.AR</rom>
-			<rom type="bgm"   offset="0x0c">SINOBI.OP</rom>
-			<rom type="bgm"   offset="0x0d">SINOBI.DEM</rom>
-			<rom type="bgm"   offset="0x0e">SINOBI.lik</rom>
-			<rom type="bgm"   offset="0x0f">PALACE.1AR</rom>
-			<rom type="bgm"   offset="0x10">PALACE.2AR</rom>
-			<rom type="bgm"   offset="0x11">The las.t</rom>
-			<rom type="bgm"   offset="0x12">ADOL</rom>
-			<rom type="bgm"   offset="0x13">TOPLAN</rom>
-			<rom type="bgm"   offset="0x14">PAPA</rom>
-			<rom type="bgm"   offset="0x15">MAN.ST1</rom>
-			<rom type="bgm"   offset="0x16">GR-2.OP</rom>
-			<rom type="bgm"   offset="0x17">GR-2.END</rom>
-			<rom type="bgm"   offset="0x18">A.JAX</rom>
-			<rom type="bgm"   offset="0x19">VAL</rom>
-			<rom type="bgm"   offset="0x1a">GRASS</rom>
-			<rom type="bgm"   offset="0x1b">PHELIO.S</rom>
-			<rom type="bgm"   offset="0x1c">METAL</rom>
-			<rom type="bgm"   offset="0x1d">BOSCO.2</rom>
-			<rom type="bgm"   offset="0x1e">THUND2</rom>
-			<rom type="bgm"   offset="0x1f">SNATCH.OP</rom>
-			<rom type="bgm"   offset="0x20">GALA</rom>
-			<rom type="bgm"   offset="0x21">GALA.NAM</rom>
-			<rom type="bgm"   offset="0x22">POWER.B</rom>
-			<rom type="bgm"   offset="0x23">POWER.E</rom>
-			<rom type="bgm"   offset="0x24">ROMAN</rom>
-			<rom type="bgm"   offset="0x25">darius.clr</rom>
-			<rom type="bgm"   offset="0x26">k.1</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">title</rom>
+			<rom type="bgm" offset="0x02">ds IV.sel</rom>
+			<rom type="bgm" offset="0x03">sm.bg1</rom>
+			<rom type="bgm" offset="0x04">trigon.bg1</rom>
+			<rom type="bgm" offset="0x05">nor.8</rom>
+			<rom type="bgm" offset="0x06">sf.nam</rom>
+			<rom type="bgm" offset="0x07">tetris</rom>
+			<rom type="bgm" offset="0x08">noa.as</rom>
+			<rom type="bgm" offset="0x09">drq2.lov</rom>
+			<rom type="bgm" offset="0x0a">Ill sa.ve</rom>
+			<rom type="bgm" offset="0x0b">Scheme.AR</rom>
+			<rom type="bgm" offset="0x0c">SINOBI.OP</rom>
+			<rom type="bgm" offset="0x0d">SINOBI.DEM</rom>
+			<rom type="bgm" offset="0x0e">SINOBI.lik</rom>
+			<rom type="bgm" offset="0x0f">PALACE.1AR</rom>
+			<rom type="bgm" offset="0x10">PALACE.2AR</rom>
+			<rom type="bgm" offset="0x11">The las.t</rom>
+			<rom type="bgm" offset="0x12">ADOL</rom>
+			<rom type="bgm" offset="0x13">TOPLAN</rom>
+			<rom type="bgm" offset="0x14">PAPA</rom>
+			<rom type="bgm" offset="0x15">MAN.ST1</rom>
+			<rom type="bgm" offset="0x16">GR-2.OP</rom>
+			<rom type="bgm" offset="0x17">GR-2.END</rom>
+			<rom type="bgm" offset="0x18">A.JAX</rom>
+			<rom type="bgm" offset="0x19">VAL</rom>
+			<rom type="bgm" offset="0x1a">GRASS</rom>
+			<rom type="bgm" offset="0x1b">PHELIO.S</rom>
+			<rom type="bgm" offset="0x1c">METAL</rom>
+			<rom type="bgm" offset="0x1d">BOSCO.2</rom>
+			<rom type="bgm" offset="0x1e">THUND2</rom>
+			<rom type="bgm" offset="0x1f">SNATCH.OP</rom>
+			<rom type="bgm" offset="0x20">GALA</rom>
+			<rom type="bgm" offset="0x21">GALA.NAM</rom>
+			<rom type="bgm" offset="0x22">POWER.B</rom>
+			<rom type="bgm" offset="0x23">POWER.E</rom>
+			<rom type="bgm" offset="0x24">ROMAN</rom>
+			<rom type="bgm" offset="0x25">darius.clr</rom>
+			<rom type="bgm" offset="0x26">k.1</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">R.S.T. LOGO                                                    / KAJA</title>
@@ -3284,40 +2796,40 @@
 			<rom type="adpcm" offset="0x12904">CORUSU</rom>
 			<rom type="adpcm" offset="0x188fc">voicho</rom>
 			<rom type="adpcm" offset="0x1d8f4">hitcho</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">sss.h87</rom>
-			<rom type="bgm"   offset="0x03">a-jax.end</rom>
-			<rom type="bgm"   offset="0x04">fh.bg1</rom>
-			<rom type="bgm"   offset="0x05">RT2-2</rom>
-			<rom type="bgm"   offset="0x06">TRI-2</rom>
-			<rom type="bgm"   offset="0x07">MADA-1</rom>
-			<rom type="bgm"   offset="0x08">PA-24</rom>
-			<rom type="bgm"   offset="0x09">MAZE-3</rom>
-			<rom type="bgm"   offset="0x0a">GR3-13</rom>
-			<rom type="bgm"   offset="0x0b">ATOMIC.PMD</rom>
-			<rom type="bgm"   offset="0x0c">BLUTAL.PMD</rom>
-			<rom type="bgm"   offset="0x0d">CYBER1.PMD</rom>
-			<rom type="bgm"   offset="0x0e">DEFEAT.PMD</rom>
-			<rom type="bgm"   offset="0x0f">LEGEND.PMD</rom>
-			<rom type="bgm"   offset="0x10">MIDRES.PMD</rom>
-			<rom type="bgm"   offset="0x11">SPMEND.PMD</rom>
-			<rom type="bgm"   offset="0x12">KAJA.1</rom>
-			<rom type="bgm"   offset="0x13">KAJA.2b</rom>
-			<rom type="bgm"   offset="0x14">KAJA.3</rom>
-			<rom type="bgm"   offset="0x15">thomas.1</rom>
-			<rom type="bgm"   offset="0x16">suzuka</rom>
-			<rom type="bgm"   offset="0x17">gra.st1</rom>
-			<rom type="bgm"   offset="0x18">sal.st1</rom>
-			<rom type="bgm"   offset="0x19">sinobi.chi</rom>
-			<rom type="bgm"   offset="0x1a">sinobi.end</rom>
-			<rom type="bgm"   offset="0x1b">cf.1</rom>
-			<rom type="bgm"   offset="0x1c">bh.1</rom>
-			<rom type="bgm"   offset="0x1d">bh.2</rom>
-			<rom type="bgm"   offset="0x1e">bh.3</rom>
-			<rom type="bgm"   offset="0x1f">bh.4</rom>
-			<rom type="bgm"   offset="0x20">bh.5</rom>
-			<rom type="bgm"   offset="0x21">bh.6</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">sss.h87</rom>
+			<rom type="bgm" offset="0x03">a-jax.end</rom>
+			<rom type="bgm" offset="0x04">fh.bg1</rom>
+			<rom type="bgm" offset="0x05">RT2-2</rom>
+			<rom type="bgm" offset="0x06">TRI-2</rom>
+			<rom type="bgm" offset="0x07">MADA-1</rom>
+			<rom type="bgm" offset="0x08">PA-24</rom>
+			<rom type="bgm" offset="0x09">MAZE-3</rom>
+			<rom type="bgm" offset="0x0a">GR3-13</rom>
+			<rom type="bgm" offset="0x0b">ATOMIC.PMD</rom>
+			<rom type="bgm" offset="0x0c">BLUTAL.PMD</rom>
+			<rom type="bgm" offset="0x0d">CYBER1.PMD</rom>
+			<rom type="bgm" offset="0x0e">DEFEAT.PMD</rom>
+			<rom type="bgm" offset="0x0f">LEGEND.PMD</rom>
+			<rom type="bgm" offset="0x10">MIDRES.PMD</rom>
+			<rom type="bgm" offset="0x11">SPMEND.PMD</rom>
+			<rom type="bgm" offset="0x12">KAJA.1</rom>
+			<rom type="bgm" offset="0x13">KAJA.2b</rom>
+			<rom type="bgm" offset="0x14">KAJA.3</rom>
+			<rom type="bgm" offset="0x15">thomas.1</rom>
+			<rom type="bgm" offset="0x16">suzuka</rom>
+			<rom type="bgm" offset="0x17">gra.st1</rom>
+			<rom type="bgm" offset="0x18">sal.st1</rom>
+			<rom type="bgm" offset="0x19">sinobi.chi</rom>
+			<rom type="bgm" offset="0x1a">sinobi.end</rom>
+			<rom type="bgm" offset="0x1b">cf.1</rom>
+			<rom type="bgm" offset="0x1c">bh.1</rom>
+			<rom type="bgm" offset="0x1d">bh.2</rom>
+			<rom type="bgm" offset="0x1e">bh.3</rom>
+			<rom type="bgm" offset="0x1f">bh.4</rom>
+			<rom type="bgm" offset="0x20">bh.5</rom>
+			<rom type="bgm" offset="0x21">bh.6</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ADPCM LOAD                                                     / KAJA</title>
@@ -3370,40 +2882,40 @@
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xac00">pmdg</rom>
 			<rom type="code" offset="0xe000">efcdat</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">sss.h87</rom>
-			<rom type="bgm"   offset="0x03">a-jax.end</rom>
-			<rom type="bgm"   offset="0x04">fh.bg1</rom>
-			<rom type="bgm"   offset="0x05">RT2-2</rom>
-			<rom type="bgm"   offset="0x06">TRI-2</rom>
-			<rom type="bgm"   offset="0x07">MADA-1</rom>
-			<rom type="bgm"   offset="0x08">PA-24</rom>
-			<rom type="bgm"   offset="0x09">MAZE-3</rom>
-			<rom type="bgm"   offset="0x0a">GR3-13</rom>
-			<rom type="bgm"   offset="0x0b">ATOMIC.PMD</rom>
-			<rom type="bgm"   offset="0x0c">BLUTAL.PMD</rom>
-			<rom type="bgm"   offset="0x0d">CYBER1.PMD</rom>
-			<rom type="bgm"   offset="0x0e">DEFEAT.PMD</rom>
-			<rom type="bgm"   offset="0x0f">LEGEND.PMD</rom>
-			<rom type="bgm"   offset="0x10">MIDRES.PMD</rom>
-			<rom type="bgm"   offset="0x11">SPMEND.PMD</rom>
-			<rom type="bgm"   offset="0x12">KAJA.1</rom>
-			<rom type="bgm"   offset="0x13">KAJA.2b</rom>
-			<rom type="bgm"   offset="0x14">KAJA.3</rom>
-			<rom type="bgm"   offset="0x15">thomas.1</rom>
-			<rom type="bgm"   offset="0x16">suzuka</rom>
-			<rom type="bgm"   offset="0x17">gra.st1</rom>
-			<rom type="bgm"   offset="0x18">sal.st1</rom>
-			<rom type="bgm"   offset="0x19">sinobi.chi</rom>
-			<rom type="bgm"   offset="0x1a">sinobi.end</rom>
-			<rom type="bgm"   offset="0x1b">cf.1</rom>
-			<rom type="bgm"   offset="0x1c">bh.1</rom>
-			<rom type="bgm"   offset="0x1d">bh.2</rom>
-			<rom type="bgm"   offset="0x1e">bh.3</rom>
-			<rom type="bgm"   offset="0x1f">bh.4</rom>
-			<rom type="bgm"   offset="0x20">bh.5</rom>
-			<rom type="bgm"   offset="0x21">bh.6</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">sss.h87</rom>
+			<rom type="bgm" offset="0x03">a-jax.end</rom>
+			<rom type="bgm" offset="0x04">fh.bg1</rom>
+			<rom type="bgm" offset="0x05">RT2-2</rom>
+			<rom type="bgm" offset="0x06">TRI-2</rom>
+			<rom type="bgm" offset="0x07">MADA-1</rom>
+			<rom type="bgm" offset="0x08">PA-24</rom>
+			<rom type="bgm" offset="0x09">MAZE-3</rom>
+			<rom type="bgm" offset="0x0a">GR3-13</rom>
+			<rom type="bgm" offset="0x0b">ATOMIC.PMD</rom>
+			<rom type="bgm" offset="0x0c">BLUTAL.PMD</rom>
+			<rom type="bgm" offset="0x0d">CYBER1.PMD</rom>
+			<rom type="bgm" offset="0x0e">DEFEAT.PMD</rom>
+			<rom type="bgm" offset="0x0f">LEGEND.PMD</rom>
+			<rom type="bgm" offset="0x10">MIDRES.PMD</rom>
+			<rom type="bgm" offset="0x11">SPMEND.PMD</rom>
+			<rom type="bgm" offset="0x12">KAJA.1</rom>
+			<rom type="bgm" offset="0x13">KAJA.2b</rom>
+			<rom type="bgm" offset="0x14">KAJA.3</rom>
+			<rom type="bgm" offset="0x15">thomas.1</rom>
+			<rom type="bgm" offset="0x16">suzuka</rom>
+			<rom type="bgm" offset="0x17">gra.st1</rom>
+			<rom type="bgm" offset="0x18">sal.st1</rom>
+			<rom type="bgm" offset="0x19">sinobi.chi</rom>
+			<rom type="bgm" offset="0x1a">sinobi.end</rom>
+			<rom type="bgm" offset="0x1b">cf.1</rom>
+			<rom type="bgm" offset="0x1c">bh.1</rom>
+			<rom type="bgm" offset="0x1d">bh.2</rom>
+			<rom type="bgm" offset="0x1e">bh.3</rom>
+			<rom type="bgm" offset="0x1f">bh.4</rom>
+			<rom type="bgm" offset="0x20">bh.5</rom>
+			<rom type="bgm" offset="0x21">bh.6</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ADPCM LOAD                                                     / KAJA</title>
@@ -3474,50 +2986,50 @@
 			<rom type="adpcm" offset="0x11b04">snare1.pcm</rom>
 			<rom type="adpcm" offset="0x126fc">syntom.pcm</rom>
 			<rom type="adpcm" offset="0x132f4">piano.pcm</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">neko.opn</rom>
-			<rom type="bgm"   offset="0x03">toypop.bgm</rom>
-			<rom type="bgm"   offset="0x04">romanc.8</rom>
-			<rom type="bgm"   offset="0x05">romanc.5</rom>
-			<rom type="bgm"   offset="0x06">challe.st3</rom>
-			<rom type="bgm"   offset="0x07">star s.g_o</rom>
-			<rom type="bgm"   offset="0x08">asobi.4</rom>
-			<rom type="bgm"   offset="0x09">druaga.nam</rom>
-			<rom type="bgm"   offset="0x0a">digdu2.nam</rom>
-			<rom type="bgm"   offset="0x0b">trboED</rom>
-			<rom type="bgm"   offset="0x0c">DRASPI.ED</rom>
-			<rom type="bgm"   offset="0x0d">Green.S</rom>
-			<rom type="bgm"   offset="0x0e">ｼﾝｾｶｲ.ﾖﾘ</rom>
-			<rom type="bgm"   offset="0x0f">ｽｷｰﾑ.ED</rom>
-			<rom type="bgm"   offset="0x10">thund</rom>
-			<rom type="bgm"   offset="0x11">select</rom>
-			<rom type="bgm"   offset="0x12">seasid</rom>
-			<rom type="bgm"   offset="0x13">tabida</rom>
-			<rom type="bgm"   offset="0x14">GENO.7</rom>
-			<rom type="bgm"   offset="0x15">pm.1s</rom>
-			<rom type="bgm"   offset="0x16">pm.2s</rom>
-			<rom type="bgm"   offset="0x17">pm.3s</rom>
-			<rom type="bgm"   offset="0x18">pm.4s</rom>
-			<rom type="bgm"   offset="0x19">pm.5s</rom>
-			<rom type="bgm"   offset="0x1a">pm.6s</rom>
-			<rom type="bgm"   offset="0x1b">sy.1s</rom>
-			<rom type="bgm"   offset="0x1c">sy.2s</rom>
-			<rom type="bgm"   offset="0x1d">sy.3s</rom>
-			<rom type="bgm"   offset="0x1e">sy.4s</rom>
-			<rom type="bgm"   offset="0x1f">de5.1s</rom>
-			<rom type="bgm"   offset="0x20">de5.2s</rom>
-			<rom type="bgm"   offset="0x21">de5.3s</rom>
-			<rom type="bgm"   offset="0x22">hex.1s</rom>
-			<rom type="bgm"   offset="0x23">hex.3s</rom>
-			<rom type="bgm"   offset="0x24">hex.4s</rom>
-			<rom type="bgm"   offset="0x25">hex.5s</rom>
-			<rom type="bgm"   offset="0x26">hex.6s</rom>
-			<rom type="bgm"   offset="0x27">hex.8s</rom>
-			<rom type="bgm"   offset="0x28">hex.7s</rom>
-			<rom type="bgm"   offset="0x29">de.1s</rom>
-			<rom type="bgm"   offset="0x2a">de.4s</rom>
-			<rom type="bgm"   offset="0x2b">de.2s</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">neko.opn</rom>
+			<rom type="bgm" offset="0x03">toypop.bgm</rom>
+			<rom type="bgm" offset="0x04">romanc.8</rom>
+			<rom type="bgm" offset="0x05">romanc.5</rom>
+			<rom type="bgm" offset="0x06">challe.st3</rom>
+			<rom type="bgm" offset="0x07">star s.g_o</rom>
+			<rom type="bgm" offset="0x08">asobi.4</rom>
+			<rom type="bgm" offset="0x09">druaga.nam</rom>
+			<rom type="bgm" offset="0x0a">digdu2.nam</rom>
+			<rom type="bgm" offset="0x0b">trboED</rom>
+			<rom type="bgm" offset="0x0c">DRASPI.ED</rom>
+			<rom type="bgm" offset="0x0d">Green.S</rom>
+			<rom type="bgm" offset="0x0e">ｼﾝｾｶｲ.ﾖﾘ</rom>
+			<rom type="bgm" offset="0x0f">ｽｷｰﾑ.ED</rom>
+			<rom type="bgm" offset="0x10">thund</rom>
+			<rom type="bgm" offset="0x11">select</rom>
+			<rom type="bgm" offset="0x12">seasid</rom>
+			<rom type="bgm" offset="0x13">tabida</rom>
+			<rom type="bgm" offset="0x14">GENO.7</rom>
+			<rom type="bgm" offset="0x15">pm.1s</rom>
+			<rom type="bgm" offset="0x16">pm.2s</rom>
+			<rom type="bgm" offset="0x17">pm.3s</rom>
+			<rom type="bgm" offset="0x18">pm.4s</rom>
+			<rom type="bgm" offset="0x19">pm.5s</rom>
+			<rom type="bgm" offset="0x1a">pm.6s</rom>
+			<rom type="bgm" offset="0x1b">sy.1s</rom>
+			<rom type="bgm" offset="0x1c">sy.2s</rom>
+			<rom type="bgm" offset="0x1d">sy.3s</rom>
+			<rom type="bgm" offset="0x1e">sy.4s</rom>
+			<rom type="bgm" offset="0x1f">de5.1s</rom>
+			<rom type="bgm" offset="0x20">de5.2s</rom>
+			<rom type="bgm" offset="0x21">de5.3s</rom>
+			<rom type="bgm" offset="0x22">hex.1s</rom>
+			<rom type="bgm" offset="0x23">hex.3s</rom>
+			<rom type="bgm" offset="0x24">hex.4s</rom>
+			<rom type="bgm" offset="0x25">hex.5s</rom>
+			<rom type="bgm" offset="0x26">hex.6s</rom>
+			<rom type="bgm" offset="0x27">hex.8s</rom>
+			<rom type="bgm" offset="0x28">hex.7s</rom>
+			<rom type="bgm" offset="0x29">de.1s</rom>
+			<rom type="bgm" offset="0x2a">de.4s</rom>
+			<rom type="bgm" offset="0x2b">de.2s</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ADPCM LOAD                                                     / KAJA</title>
@@ -3580,50 +3092,50 @@
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xac00">pmdg</rom>
 			<rom type="code" offset="0xe000">efcdat</rom>
-			<rom type="bgm"   offset="0x00">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">neko.opn</rom>
-			<rom type="bgm"   offset="0x03">toypop.bgm</rom>
-			<rom type="bgm"   offset="0x04">romanc.8</rom>
-			<rom type="bgm"   offset="0x05">romanc.5</rom>
-			<rom type="bgm"   offset="0x06">challe.st3</rom>
-			<rom type="bgm"   offset="0x07">star s.g_o</rom>
-			<rom type="bgm"   offset="0x08">asobi.4</rom>
-			<rom type="bgm"   offset="0x09">druaga.nam</rom>
-			<rom type="bgm"   offset="0x0a">digdu2.nam</rom>
-			<rom type="bgm"   offset="0x0b">trboED</rom>
-			<rom type="bgm"   offset="0x0c">DRASPI.ED</rom>
-			<rom type="bgm"   offset="0x0d">Green.S</rom>
-			<rom type="bgm"   offset="0x0e">ｼﾝｾｶｲ.ﾖﾘ</rom>
-			<rom type="bgm"   offset="0x0f">ｽｷｰﾑ.ED</rom>
-			<rom type="bgm"   offset="0x10">thund</rom>
-			<rom type="bgm"   offset="0x11">select</rom>
-			<rom type="bgm"   offset="0x12">seasid</rom>
-			<rom type="bgm"   offset="0x13">tabida</rom>
-			<rom type="bgm"   offset="0x14">GENO.7</rom>
-			<rom type="bgm"   offset="0x15">pm.1s</rom>
-			<rom type="bgm"   offset="0x16">pm.2s</rom>
-			<rom type="bgm"   offset="0x17">pm.3s</rom>
-			<rom type="bgm"   offset="0x18">pm.4s</rom>
-			<rom type="bgm"   offset="0x19">pm.5s</rom>
-			<rom type="bgm"   offset="0x1a">pm.6s</rom>
-			<rom type="bgm"   offset="0x1b">sy.1s</rom>
-			<rom type="bgm"   offset="0x1c">sy.2s</rom>
-			<rom type="bgm"   offset="0x1d">sy.3s</rom>
-			<rom type="bgm"   offset="0x1e">sy.4s</rom>
-			<rom type="bgm"   offset="0x1f">de5.1s</rom>
-			<rom type="bgm"   offset="0x20">de5.2s</rom>
-			<rom type="bgm"   offset="0x21">de5.3s</rom>
-			<rom type="bgm"   offset="0x22">hex.1s</rom>
-			<rom type="bgm"   offset="0x23">hex.3s</rom>
-			<rom type="bgm"   offset="0x24">hex.4s</rom>
-			<rom type="bgm"   offset="0x25">hex.5s</rom>
-			<rom type="bgm"   offset="0x26">hex.6s</rom>
-			<rom type="bgm"   offset="0x27">hex.8s</rom>
-			<rom type="bgm"   offset="0x28">hex.7s</rom>
-			<rom type="bgm"   offset="0x29">de.1s</rom>
-			<rom type="bgm"   offset="0x2a">de.4s</rom>
-			<rom type="bgm"   offset="0x2b">de.2s</rom>
+			<rom type="bgm" offset="0x00">pcmloa.d</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">neko.opn</rom>
+			<rom type="bgm" offset="0x03">toypop.bgm</rom>
+			<rom type="bgm" offset="0x04">romanc.8</rom>
+			<rom type="bgm" offset="0x05">romanc.5</rom>
+			<rom type="bgm" offset="0x06">challe.st3</rom>
+			<rom type="bgm" offset="0x07">star s.g_o</rom>
+			<rom type="bgm" offset="0x08">asobi.4</rom>
+			<rom type="bgm" offset="0x09">druaga.nam</rom>
+			<rom type="bgm" offset="0x0a">digdu2.nam</rom>
+			<rom type="bgm" offset="0x0b">trboED</rom>
+			<rom type="bgm" offset="0x0c">DRASPI.ED</rom>
+			<rom type="bgm" offset="0x0d">Green.S</rom>
+			<rom type="bgm" offset="0x0e">ｼﾝｾｶｲ.ﾖﾘ</rom>
+			<rom type="bgm" offset="0x0f">ｽｷｰﾑ.ED</rom>
+			<rom type="bgm" offset="0x10">thund</rom>
+			<rom type="bgm" offset="0x11">select</rom>
+			<rom type="bgm" offset="0x12">seasid</rom>
+			<rom type="bgm" offset="0x13">tabida</rom>
+			<rom type="bgm" offset="0x14">GENO.7</rom>
+			<rom type="bgm" offset="0x15">pm.1s</rom>
+			<rom type="bgm" offset="0x16">pm.2s</rom>
+			<rom type="bgm" offset="0x17">pm.3s</rom>
+			<rom type="bgm" offset="0x18">pm.4s</rom>
+			<rom type="bgm" offset="0x19">pm.5s</rom>
+			<rom type="bgm" offset="0x1a">pm.6s</rom>
+			<rom type="bgm" offset="0x1b">sy.1s</rom>
+			<rom type="bgm" offset="0x1c">sy.2s</rom>
+			<rom type="bgm" offset="0x1d">sy.3s</rom>
+			<rom type="bgm" offset="0x1e">sy.4s</rom>
+			<rom type="bgm" offset="0x1f">de5.1s</rom>
+			<rom type="bgm" offset="0x20">de5.2s</rom>
+			<rom type="bgm" offset="0x21">de5.3s</rom>
+			<rom type="bgm" offset="0x22">hex.1s</rom>
+			<rom type="bgm" offset="0x23">hex.3s</rom>
+			<rom type="bgm" offset="0x24">hex.4s</rom>
+			<rom type="bgm" offset="0x25">hex.5s</rom>
+			<rom type="bgm" offset="0x26">hex.6s</rom>
+			<rom type="bgm" offset="0x27">hex.8s</rom>
+			<rom type="bgm" offset="0x28">hex.7s</rom>
+			<rom type="bgm" offset="0x29">de.1s</rom>
+			<rom type="bgm" offset="0x2a">de.4s</rom>
+			<rom type="bgm" offset="0x2b">de.2s</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ADPCM LOAD                                                     / KAJA</title>
@@ -3712,50 +3224,50 @@
 			<rom type="adpcm" offset="0x1e184">CS&amp;BD.MB</rom>
 			<rom type="adpcm" offset="0x203c0">TIMPAN</rom>
 			<rom type="adpcm" offset="0x21fb8">D10TM1</rom>
-			<rom type="bgm"   offset="0x00">dancin.pmd</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">ff3.opn</rom>
-			<rom type="bgm"   offset="0x03">rm3.spa</rom>
-			<rom type="bgm"   offset="0x04">rm3.bos</rom>
-			<rom type="bgm"   offset="0x05">grd3.dep</rom>
-			<rom type="bgm"   offset="0x06">grd3.bg1</rom>
-			<rom type="bgm"   offset="0x07">grd3.itw</rom>
-			<rom type="bgm"   offset="0x08">tc.bg2</rom>
-			<rom type="bgm"   offset="0x09">gloc.lan</rom>
-			<rom type="bgm"   offset="0x0a">Draspi.zaw</rom>
-			<rom type="bgm"   offset="0x0b">thomas.1</rom>
-			<rom type="bgm"   offset="0x0c">nor.11</rom>
-			<rom type="bgm"   offset="0x0d">nor.14a</rom>
-			<rom type="bgm"   offset="0x0e">ff3 fm.opn</rom>
-			<rom type="bgm"   offset="0x0f">ff3.hik</rom>
-			<rom type="bgm"   offset="0x10">dmario.win</rom>
-			<rom type="bgm"   offset="0x11">rm3_.SPA</rom>
-			<rom type="bgm"   offset="0x12">rm3_.BOS</rom>
-			<rom type="bgm"   offset="0x13">paro.1st</rom>
-			<rom type="bgm"   offset="0x14">paro.2st</rom>
-			<rom type="bgm"   offset="0x15">drqIV.s2</rom>
-			<rom type="bgm"   offset="0x16">drqIV.s4</rom>
-			<rom type="bgm"   offset="0x17">slayer.pmd</rom>
-			<rom type="bgm"   offset="0x18">battle.pmd</rom>
-			<rom type="bgm"   offset="0x19">memory.pmd</rom>
-			<rom type="bgm"   offset="0x1a">mb.opn</rom>
-			<rom type="bgm"   offset="0x1b">mega.bg1</rom>
-			<rom type="bgm"   offset="0x1c">tcros4</rom>
-			<rom type="bgm"   offset="0x1d">d'.tho</rom>
-			<rom type="bgm"   offset="0x1e">M_MAC.tho</rom>
-			<rom type="bgm"   offset="0x1f">stg01</rom>
-			<rom type="bgm"   offset="0x20">pm6.b2</rom>
-			<rom type="bgm"   offset="0x21">pm8.b2</rom>
-			<rom type="bgm"   offset="0x22">pm9.b2</rom>
-			<rom type="bgm"   offset="0x23">pm12.b2</rom>
-			<rom type="bgm"   offset="0x24">pm7.b2</rom>
-			<rom type="bgm"   offset="0x25">pm5.b2</rom>
-			<rom type="bgm"   offset="0x26">pm15.b2</rom>
-			<rom type="bgm"   offset="0x27">kt.sp2</rom>
-			<rom type="bgm"   offset="0x28">y.1b</rom>
-			<rom type="bgm"   offset="0x29">mb.end</rom>
-			<rom type="bgm"   offset="0x2a">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x2b">pm10.b2</rom>
+			<rom type="bgm" offset="0x00">dancin.pmd</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">ff3.opn</rom>
+			<rom type="bgm" offset="0x03">rm3.spa</rom>
+			<rom type="bgm" offset="0x04">rm3.bos</rom>
+			<rom type="bgm" offset="0x05">grd3.dep</rom>
+			<rom type="bgm" offset="0x06">grd3.bg1</rom>
+			<rom type="bgm" offset="0x07">grd3.itw</rom>
+			<rom type="bgm" offset="0x08">tc.bg2</rom>
+			<rom type="bgm" offset="0x09">gloc.lan</rom>
+			<rom type="bgm" offset="0x0a">Draspi.zaw</rom>
+			<rom type="bgm" offset="0x0b">thomas.1</rom>
+			<rom type="bgm" offset="0x0c">nor.11</rom>
+			<rom type="bgm" offset="0x0d">nor.14a</rom>
+			<rom type="bgm" offset="0x0e">ff3 fm.opn</rom>
+			<rom type="bgm" offset="0x0f">ff3.hik</rom>
+			<rom type="bgm" offset="0x10">dmario.win</rom>
+			<rom type="bgm" offset="0x11">rm3_.SPA</rom>
+			<rom type="bgm" offset="0x12">rm3_.BOS</rom>
+			<rom type="bgm" offset="0x13">paro.1st</rom>
+			<rom type="bgm" offset="0x14">paro.2st</rom>
+			<rom type="bgm" offset="0x15">drqIV.s2</rom>
+			<rom type="bgm" offset="0x16">drqIV.s4</rom>
+			<rom type="bgm" offset="0x17">slayer.pmd</rom>
+			<rom type="bgm" offset="0x18">battle.pmd</rom>
+			<rom type="bgm" offset="0x19">memory.pmd</rom>
+			<rom type="bgm" offset="0x1a">mb.opn</rom>
+			<rom type="bgm" offset="0x1b">mega.bg1</rom>
+			<rom type="bgm" offset="0x1c">tcros4</rom>
+			<rom type="bgm" offset="0x1d">d'.tho</rom>
+			<rom type="bgm" offset="0x1e">M_MAC.tho</rom>
+			<rom type="bgm" offset="0x1f">stg01</rom>
+			<rom type="bgm" offset="0x20">pm6.b2</rom>
+			<rom type="bgm" offset="0x21">pm8.b2</rom>
+			<rom type="bgm" offset="0x22">pm9.b2</rom>
+			<rom type="bgm" offset="0x23">pm12.b2</rom>
+			<rom type="bgm" offset="0x24">pm7.b2</rom>
+			<rom type="bgm" offset="0x25">pm5.b2</rom>
+			<rom type="bgm" offset="0x26">pm15.b2</rom>
+			<rom type="bgm" offset="0x27">kt.sp2</rom>
+			<rom type="bgm" offset="0x28">y.1b</rom>
+			<rom type="bgm" offset="0x29">mb.end</rom>
+			<rom type="bgm" offset="0x2a">pcmloa.d</rom>
+			<rom type="bgm" offset="0x2b">pm10.b2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Dancing on the road                                            /</title>
@@ -3818,50 +3330,50 @@
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xac00">pmdg</rom>
 			<rom type="code" offset="0xe000">efcdat</rom>
-			<rom type="bgm"   offset="0x00">dancin.pmd</rom>
-			<rom type="bgm"   offset="0x01">q.1</rom>
-			<rom type="bgm"   offset="0x02">ff3.opn</rom>
-			<rom type="bgm"   offset="0x03">rm3.spa</rom>
-			<rom type="bgm"   offset="0x04">rm3.bos</rom>
-			<rom type="bgm"   offset="0x05">grd3.dep</rom>
-			<rom type="bgm"   offset="0x06">grd3.bg1</rom>
-			<rom type="bgm"   offset="0x07">grd3.itw</rom>
-			<rom type="bgm"   offset="0x08">tc.bg2</rom>
-			<rom type="bgm"   offset="0x09">gloc.lan</rom>
-			<rom type="bgm"   offset="0x0a">Draspi.zaw</rom>
-			<rom type="bgm"   offset="0x0b">thomas.1</rom>
-			<rom type="bgm"   offset="0x0c">nor.11</rom>
-			<rom type="bgm"   offset="0x0d">nor.14a</rom>
-			<rom type="bgm"   offset="0x0e">ff3 fm.opn</rom>
-			<rom type="bgm"   offset="0x0f">ff3.hik</rom>
-			<rom type="bgm"   offset="0x10">dmario.win</rom>
-			<rom type="bgm"   offset="0x11">rm3_.SPA</rom>
-			<rom type="bgm"   offset="0x12">rm3_.BOS</rom>
-			<rom type="bgm"   offset="0x13">paro.1st</rom>
-			<rom type="bgm"   offset="0x14">paro.2st</rom>
-			<rom type="bgm"   offset="0x15">drqIV.s2</rom>
-			<rom type="bgm"   offset="0x16">drqIV.s4</rom>
-			<rom type="bgm"   offset="0x17">slayer.pmd</rom>
-			<rom type="bgm"   offset="0x18">battle.pmd</rom>
-			<rom type="bgm"   offset="0x19">memory.pmd</rom>
-			<rom type="bgm"   offset="0x1a">mb.opn</rom>
-			<rom type="bgm"   offset="0x1b">mega.bg1</rom>
-			<rom type="bgm"   offset="0x1c">tcros4</rom>
-			<rom type="bgm"   offset="0x1d">d'.tho</rom>
-			<rom type="bgm"   offset="0x1e">M_MAC.tho</rom>
-			<rom type="bgm"   offset="0x1f">stg01</rom>
-			<rom type="bgm"   offset="0x20">pm6.b2</rom>
-			<rom type="bgm"   offset="0x21">pm8.b2</rom>
-			<rom type="bgm"   offset="0x22">pm9.b2</rom>
-			<rom type="bgm"   offset="0x23">pm12.b2</rom>
-			<rom type="bgm"   offset="0x24">pm7.b2</rom>
-			<rom type="bgm"   offset="0x25">pm5.b2</rom>
-			<rom type="bgm"   offset="0x26">pm15.b2</rom>
-			<rom type="bgm"   offset="0x27">kt.sp2</rom>
-			<rom type="bgm"   offset="0x28">y.1b</rom>
-			<rom type="bgm"   offset="0x29">mb.end</rom>
-			<rom type="bgm"   offset="0x2a">pcmloa.d</rom>
-			<rom type="bgm"   offset="0x2b">pm10.b2</rom>
+			<rom type="bgm" offset="0x00">dancin.pmd</rom>
+			<rom type="bgm" offset="0x01">q.1</rom>
+			<rom type="bgm" offset="0x02">ff3.opn</rom>
+			<rom type="bgm" offset="0x03">rm3.spa</rom>
+			<rom type="bgm" offset="0x04">rm3.bos</rom>
+			<rom type="bgm" offset="0x05">grd3.dep</rom>
+			<rom type="bgm" offset="0x06">grd3.bg1</rom>
+			<rom type="bgm" offset="0x07">grd3.itw</rom>
+			<rom type="bgm" offset="0x08">tc.bg2</rom>
+			<rom type="bgm" offset="0x09">gloc.lan</rom>
+			<rom type="bgm" offset="0x0a">Draspi.zaw</rom>
+			<rom type="bgm" offset="0x0b">thomas.1</rom>
+			<rom type="bgm" offset="0x0c">nor.11</rom>
+			<rom type="bgm" offset="0x0d">nor.14a</rom>
+			<rom type="bgm" offset="0x0e">ff3 fm.opn</rom>
+			<rom type="bgm" offset="0x0f">ff3.hik</rom>
+			<rom type="bgm" offset="0x10">dmario.win</rom>
+			<rom type="bgm" offset="0x11">rm3_.SPA</rom>
+			<rom type="bgm" offset="0x12">rm3_.BOS</rom>
+			<rom type="bgm" offset="0x13">paro.1st</rom>
+			<rom type="bgm" offset="0x14">paro.2st</rom>
+			<rom type="bgm" offset="0x15">drqIV.s2</rom>
+			<rom type="bgm" offset="0x16">drqIV.s4</rom>
+			<rom type="bgm" offset="0x17">slayer.pmd</rom>
+			<rom type="bgm" offset="0x18">battle.pmd</rom>
+			<rom type="bgm" offset="0x19">memory.pmd</rom>
+			<rom type="bgm" offset="0x1a">mb.opn</rom>
+			<rom type="bgm" offset="0x1b">mega.bg1</rom>
+			<rom type="bgm" offset="0x1c">tcros4</rom>
+			<rom type="bgm" offset="0x1d">d'.tho</rom>
+			<rom type="bgm" offset="0x1e">M_MAC.tho</rom>
+			<rom type="bgm" offset="0x1f">stg01</rom>
+			<rom type="bgm" offset="0x20">pm6.b2</rom>
+			<rom type="bgm" offset="0x21">pm8.b2</rom>
+			<rom type="bgm" offset="0x22">pm9.b2</rom>
+			<rom type="bgm" offset="0x23">pm12.b2</rom>
+			<rom type="bgm" offset="0x24">pm7.b2</rom>
+			<rom type="bgm" offset="0x25">pm5.b2</rom>
+			<rom type="bgm" offset="0x26">pm15.b2</rom>
+			<rom type="bgm" offset="0x27">kt.sp2</rom>
+			<rom type="bgm" offset="0x28">y.1b</rom>
+			<rom type="bgm" offset="0x29">mb.end</rom>
+			<rom type="bgm" offset="0x2a">pcmloa.d</rom>
+			<rom type="bgm" offset="0x2b">pm10.b2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Dancing on the road                                            /</title>
@@ -7576,15 +7088,15 @@
 		<romlist archive="100yen3">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xd000">music2</rom>
-			<rom type="bgm"   offset="0x00">BARCH.mus</rom>
+			<rom type="bgm" offset="0x00">BARCH.mus</rom>
 			<rom type="voice" offset="0x00">BARCH.oto</rom>
-			<rom type="bgm"   offset="0x01">buta.mus</rom>
+			<rom type="bgm" offset="0x01">buta.mus</rom>
 			<rom type="voice" offset="0x01">buta.oto</rom>
-			<rom type="bgm"   offset="0x02">MENU.mus</rom>
+			<rom type="bgm" offset="0x02">MENU.mus</rom>
 			<rom type="voice" offset="0x02">MENU.oto</rom>
-			<rom type="bgm"   offset="0x03">sayoko.mus</rom>
+			<rom type="bgm" offset="0x03">sayoko.mus</rom>
 			<rom type="voice" offset="0x03">sayoko.oto</rom>
-			<rom type="bgm"   offset="0x04">Y-S.mus</rom>
+			<rom type="bgm" offset="0x04">Y-S.mus</rom>
 			<rom type="voice" offset="0x04">Y-S.oto</rom>
 		</romlist>
 		<titlelist>
@@ -7906,121 +7418,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Touhou Reiiden ~ The Highly Responsive to Prayers (東方靈異伝) (YM2203) (Amusement Makers)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Doujin</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="ssg_mix" value="-18"/>
-		</options>
-		<romlist archive="tohoreii_98">
-			<rom type="file" offset="-1">MDRV98.COM</rom>
-			<rom type="file" offset="-1">mlp_hoot.com</rom>
-			<rom type="file" offset="0x10">INIT.MDT</rom>
-			<rom type="file" offset="0x11">REIMU.MDT</rom>
-			<rom type="file" offset="0x12">ZIPANGU.MDT</rom>
-			<rom type="file" offset="0x13">ST0.MDT</rom>
-			<rom type="file" offset="0x14">ST1.MDT</rom>
-			<rom type="file" offset="0x15">ST2.MDT</rom>
-			<rom type="file" offset="0x16">ST3.MDT</rom>
-			<rom type="file" offset="0x17">ST4.MDT</rom>
-			<rom type="file" offset="0x18">ST5.MDT</rom>
-			<rom type="file" offset="0x19">ST6.MDT</rom>
-			<rom type="file" offset="0x1a">POSITIVE.MDT</rom>
-			<rom type="file" offset="0x1b">LEGEND.MDT</rom>
-			<rom type="file" offset="0x1c">KAMI.MDT</rom>
-			<rom type="file" offset="0x1d">KAMI2.MDT</rom>
-			<rom type="file" offset="0x1e">TENSI.MDT</rom>
-			<rom type="file" offset="0x1f">SYUGEN.MDT</rom>
-			<rom type="file" offset="0x20">SHUGEN.MDT</rom>
-			<rom type="file" offset="0x21">ALICE.MDT</rom>
-			<rom type="file" offset="0x22">IRIS.MDT</rom>
-			<rom type="shell" offset="0">MDRV98 -M7 -W1</rom>
-			<rom type="shell" offset="0">mlp_hoot</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x11">A Sacred Lot [Title Screen]</title>
-			<title code="0x12">Shrine of the Wind (風の神社) [Unused]</title>
-			<title code="0x14">Highly Responsive to Prayers [Theme of Makai Levels 6-9, Credits theme]</title>
-			<title code="0x15">Eastern Strange Discourse (東方怪奇談) [Theme of Hell Levels 6-9]</title>
-			<title code="0x16">Oriental Magician [Theme of Makai Levels 11-14]</title>
-			<title code="0x17">Blade of Banishment (破邪の小太刀) [Theme of Hell Levels 11-14]</title>
-			<title code="0x18">the Legend of KAGE [Theme of Makai Levels 16-19]</title>
-			<title code="0x13">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
-			<!-- ST00.MDTとバイナリ一致
-			<title code="0x19">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
-			  -->
-			<title code="0x1a">The Positive and Negative [SinGyoku's theme]</title>
-			<title code="0x1b">Angel's Legend (天使伝説) [YuugenMagan and Mima's theme]</title>
-			<title code="0x1c">Magic Mirror (魔鏡(地獄)) [Elis and Kikuri's theme]</title>
-			<title code="0x1d">Magic Mirror (魔鏡(魔界)) [Elis and Kikuri's theme]</title>
-			<title code="0x1e">Now, Until the Moment You Die (いざ倒れ逝くその時まで) [Makai Final Stage theme 1 / Sariel's first theme]</title>
-			<title code="0x1f">We Shall Die Together (死なばもろとも) [Makai Final Stage theme 2 / Sariel's second theme]</title>
-			<!-- SYUGEN.MDTとバイナリ一致
-			<title code="0x20">死なばもろとも</title>
-			  -->
-			<title code="0x21">Swordsman of a Distant Star (星幽剣士) [Hell Final Stage theme / Konngara's theme]</title>
-			<title code="0x22">Iris (アイリス) [Ending theme]</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Touhou Reiiden ~ The Highly Responsive to Prayers (東方靈異伝) (YM2608) (Amusement Makers)</name>
-		<driver type="opna">pc98dos</driver>
-		<driveralias type="PC-9801">Doujin</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="tohoreii_98">
-			<rom type="file" offset="-1">MDRV98.COM</rom>
-			<rom type="file" offset="-1">mlp_hoot.com</rom>
-			<rom type="file" offset="0x10">INIT.MDT</rom>
-			<rom type="file" offset="0x11">REIMU.MDT</rom>
-			<rom type="file" offset="0x12">ZIPANGU.MDT</rom>
-			<rom type="file" offset="0x13">ST0.MDT</rom>
-			<rom type="file" offset="0x14">ST1.MDT</rom>
-			<rom type="file" offset="0x15">ST2.MDT</rom>
-			<rom type="file" offset="0x16">ST3.MDT</rom>
-			<rom type="file" offset="0x17">ST4.MDT</rom>
-			<rom type="file" offset="0x18">ST5.MDT</rom>
-			<rom type="file" offset="0x19">ST6.MDT</rom>
-			<rom type="file" offset="0x1a">POSITIVE.MDT</rom>
-			<rom type="file" offset="0x1b">LEGEND.MDT</rom>
-			<rom type="file" offset="0x1c">KAMI.MDT</rom>
-			<rom type="file" offset="0x1d">KAMI2.MDT</rom>
-			<rom type="file" offset="0x1e">TENSI.MDT</rom>
-			<rom type="file" offset="0x1f">SYUGEN.MDT</rom>
-			<rom type="file" offset="0x20">SHUGEN.MDT</rom>
-			<rom type="file" offset="0x21">ALICE.MDT</rom>
-			<rom type="file" offset="0x22">IRIS.MDT</rom>
-			<rom type="shell" offset="0">MDRV98 -M7 -W1</rom>
-			<rom type="shell" offset="0">mlp_hoot</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x11">A Sacret Lot [Title Screen Theme]</title>
-			<title code="0x12">Shrine of the Wind (風の神社) [Unused]</title>
-			<title code="0x14">Highly Responsive to Prayers [Theme of Makai Levels 6-9, Credits theme]</title>
-			<title code="0x15">Eastern Strange Discourse (東方怪奇談) [Theme of Hell Levels 6-9]</title>
-			<title code="0x16">Oriental Magician [Theme of Makai Levels 11-14]</title>
-			<title code="0x17">Blade of Banishment (破邪の小太刀) [Theme of Hell Levels 11-14]</title>
-			<title code="0x18">the Legend of KAGE [Theme of Makai Levels 16-19]</title>
-			<title code="0x13">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
-			<!-- ST00.MDTとバイナリ一致
-			<title code="0x19">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
-			  -->
-			<title code="0x1a">The Positive and Negative [SinGyoku's theme]</title>
-			<title code="0x1b">Angel's Legend (天使伝説) [YuugenMagan and Mima's theme]</title>
-			<title code="0x1c">Magic Mirror (魔鏡(地獄)) [Elis and Kikuri's theme]</title>
-			<title code="0x1d">Magic Mirror (魔鏡(魔界)) [Elis and Kikuri's theme]</title>
-			<title code="0x1e">Now, Until the Moment You Die (いざ倒れ逝くその時まで) [Makai Final Stage theme 1 / Sariel's first theme]</title>
-			<title code="0x1f">We Shall Die Together (死なばもろとも) [Makai Final Stage theme 2 / Sariel's second theme]</title>
-			<!-- SYUGEN.MDTとバイナリ一致
-			<title code="0x20">We Shall Die Together (死なばもろとも)</title>
-			  -->
-			<title code="0x21">Swordsman of a Distant Star (星幽剣士) [Hell Final Stage theme / Konngara's theme]</title>
-			<title code="0x22">Iris (アイリス) [Ending theme]</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Touhou Fumaroku ~ the Story of Eastern Wonderland (東方封魔録) (YM2203) (Amusement Makers)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Doujin</driveralias>
@@ -8143,12 +7540,10 @@
 			<rom type="file" offset="0x1c">ENDING.MMD</rom>
 			<rom type="file" offset="0x1d">STAGE5.MMD</rom>
 			<rom type="file" offset="0x1e">BOSS5.MMD</rom>
-			<rom type="file" offset="0x1f">GMINIT.MMD</rom>
 			<rom type="shell" offset="0">mmd /D /K /M12</rom>
 			<rom type="shell" offset="0">mmp_hoot</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1f">GM Initialise</title>
 			<title code="0x10">Eastern Recorded Sealing of a Demon ~ Pure Land Mandala (東方封魔録 ～浄土曼荼羅) [Title screen]</title>
 			<title code="0x11">Hakurei ~ Eastern Wind (博麗 ～Eastern Wind) [Stage 1 theme]</title>
 			<title code="0x16">She's in a temper!! [Stage 1 Boss - Rika's theme]</title>
@@ -8881,6 +8276,121 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Touhou Reiiden ~ The Highly Responsive to Prayers (東方靈異伝) (YM2203) (Amusement Makers)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Doujin</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="ssg_mix" value="-18"/>
+		</options>
+		<romlist archive="tohoreii_98">
+			<rom type="file" offset="-1">MDRV98.COM</rom>
+			<rom type="file" offset="-1">mlp_hoot.com</rom>
+			<rom type="file" offset="0x10">INIT.MDT</rom>
+			<rom type="file" offset="0x11">REIMU.MDT</rom>
+			<rom type="file" offset="0x12">ZIPANGU.MDT</rom>
+			<rom type="file" offset="0x13">ST0.MDT</rom>
+			<rom type="file" offset="0x14">ST1.MDT</rom>
+			<rom type="file" offset="0x15">ST2.MDT</rom>
+			<rom type="file" offset="0x16">ST3.MDT</rom>
+			<rom type="file" offset="0x17">ST4.MDT</rom>
+			<rom type="file" offset="0x18">ST5.MDT</rom>
+			<rom type="file" offset="0x19">ST6.MDT</rom>
+			<rom type="file" offset="0x1a">POSITIVE.MDT</rom>
+			<rom type="file" offset="0x1b">LEGEND.MDT</rom>
+			<rom type="file" offset="0x1c">KAMI.MDT</rom>
+			<rom type="file" offset="0x1d">KAMI2.MDT</rom>
+			<rom type="file" offset="0x1e">TENSI.MDT</rom>
+			<rom type="file" offset="0x1f">SYUGEN.MDT</rom>
+			<rom type="file" offset="0x20">SHUGEN.MDT</rom>
+			<rom type="file" offset="0x21">ALICE.MDT</rom>
+			<rom type="file" offset="0x22">IRIS.MDT</rom>
+			<rom type="shell" offset="0">MDRV98 -M7 -W1</rom>
+			<rom type="shell" offset="0">mlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">A Sacred Lot [Title Screen]</title>
+			<title code="0x12">Shrine of the Wind (風の神社) [Unused]</title>
+			<title code="0x14">Highly Responsive to Prayers [Theme of Makai Levels 6-9, Credits theme]</title>
+			<title code="0x15">Eastern Strange Discourse (東方怪奇談) [Theme of Hell Levels 6-9]</title>
+			<title code="0x16">Oriental Magician [Theme of Makai Levels 11-14]</title>
+			<title code="0x17">Blade of Banishment (破邪の小太刀) [Theme of Hell Levels 11-14]</title>
+			<title code="0x18">the Legend of KAGE [Theme of Makai Levels 16-19]</title>
+			<title code="0x13">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
+			<!-- ST00.MDTとバイナリ一致
+			<title code="0x19">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
+			  -->
+			<title code="0x1a">The Positive and Negative [SinGyoku's theme]</title>
+			<title code="0x1b">Angel's Legend (天使伝説) [YuugenMagan and Mima's theme]</title>
+			<title code="0x1c">Magic Mirror (魔鏡(地獄)) [Elis and Kikuri's theme]</title>
+			<title code="0x1d">Magic Mirror (魔鏡(魔界)) [Elis and Kikuri's theme]</title>
+			<title code="0x1e">Now, Until the Moment You Die (いざ倒れ逝くその時まで) [Makai Final Stage theme 1 / Sariel's first theme]</title>
+			<title code="0x1f">We Shall Die Together (死なばもろとも) [Makai Final Stage theme 2 / Sariel's second theme]</title>
+			<!-- SYUGEN.MDTとバイナリ一致
+			<title code="0x20">死なばもろとも</title>
+			  -->
+			<title code="0x21">Swordsman of a Distant Star (星幽剣士) [Hell Final Stage theme / Konngara's theme]</title>
+			<title code="0x22">Iris (アイリス) [Ending theme]</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Touhou Reiiden ~ The Highly Responsive to Prayers (東方靈異伝) (YM2608) (Amusement Makers)</name>
+		<driver type="opna">pc98dos</driver>
+		<driveralias type="PC-9801">Doujin</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="tohoreii_98">
+			<rom type="file" offset="-1">MDRV98.COM</rom>
+			<rom type="file" offset="-1">mlp_hoot.com</rom>
+			<rom type="file" offset="0x10">INIT.MDT</rom>
+			<rom type="file" offset="0x11">REIMU.MDT</rom>
+			<rom type="file" offset="0x12">ZIPANGU.MDT</rom>
+			<rom type="file" offset="0x13">ST0.MDT</rom>
+			<rom type="file" offset="0x14">ST1.MDT</rom>
+			<rom type="file" offset="0x15">ST2.MDT</rom>
+			<rom type="file" offset="0x16">ST3.MDT</rom>
+			<rom type="file" offset="0x17">ST4.MDT</rom>
+			<rom type="file" offset="0x18">ST5.MDT</rom>
+			<rom type="file" offset="0x19">ST6.MDT</rom>
+			<rom type="file" offset="0x1a">POSITIVE.MDT</rom>
+			<rom type="file" offset="0x1b">LEGEND.MDT</rom>
+			<rom type="file" offset="0x1c">KAMI.MDT</rom>
+			<rom type="file" offset="0x1d">KAMI2.MDT</rom>
+			<rom type="file" offset="0x1e">TENSI.MDT</rom>
+			<rom type="file" offset="0x1f">SYUGEN.MDT</rom>
+			<rom type="file" offset="0x20">SHUGEN.MDT</rom>
+			<rom type="file" offset="0x21">ALICE.MDT</rom>
+			<rom type="file" offset="0x22">IRIS.MDT</rom>
+			<rom type="shell" offset="0">MDRV98 -M7 -W1</rom>
+			<rom type="shell" offset="0">mlp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x11">A Sacret Lot [Title Screen Theme]</title>
+			<title code="0x12">Shrine of the Wind (風の神社) [Unused]</title>
+			<title code="0x14">Highly Responsive to Prayers [Theme of Makai Levels 6-9, Credits theme]</title>
+			<title code="0x15">Eastern Strange Discourse (東方怪奇談) [Theme of Hell Levels 6-9]</title>
+			<title code="0x16">Oriental Magician [Theme of Makai Levels 11-14]</title>
+			<title code="0x17">Blade of Banishment (破邪の小太刀) [Theme of Hell Levels 11-14]</title>
+			<title code="0x18">the Legend of KAGE [Theme of Makai Levels 16-19]</title>
+			<title code="0x13">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
+			<!-- ST00.MDTとバイナリ一致
+			<title code="0x19">Eternal Shrine Maiden (永遠の巫女) [Theme of Levels 1-4, Hell Levels 16-19]</title>
+			  -->
+			<title code="0x1a">The Positive and Negative [SinGyoku's theme]</title>
+			<title code="0x1b">Angel's Legend (天使伝説) [YuugenMagan and Mima's theme]</title>
+			<title code="0x1c">Magic Mirror (魔鏡(地獄)) [Elis and Kikuri's theme]</title>
+			<title code="0x1d">Magic Mirror (魔鏡(魔界)) [Elis and Kikuri's theme]</title>
+			<title code="0x1e">Now, Until the Moment You Die (いざ倒れ逝くその時まで) [Makai Final Stage theme 1 / Sariel's first theme]</title>
+			<title code="0x1f">We Shall Die Together (死なばもろとも) [Makai Final Stage theme 2 / Sariel's second theme]</title>
+			<!-- SYUGEN.MDTとバイナリ一致
+			<title code="0x20">We Shall Die Together (死なばもろとも)</title>
+			  -->
+			<title code="0x21">Swordsman of a Distant Star (星幽剣士) [Hell Final Stage theme / Konngara's theme]</title>
+			<title code="0x22">Iris (アイリス) [Ending theme]</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Corpse Party (コープスパーティー) (YM2203) (Kenix Soft)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Doujin</driveralias>
@@ -9237,8 +8747,8 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="teksei3_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9282,9 +8792,9 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
-			<option name="adpcm_mix"  value="-10"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
+			<option name="adpcm_mix" value="-10"/>
 		</options>
 		<romlist archive="teksei3_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9351,8 +8861,8 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="tekseid1_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9408,9 +8918,9 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
-			<option name="adpcm_mix"  value="-10"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
+			<option name="adpcm_mix" value="-10"/>
 		</options>
 		<romlist archive="tekseid1_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9489,8 +8999,8 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="tekseid2_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9532,9 +9042,9 @@
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-28"/>
-			<option name="adpcm_mix"  value="-10"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-28"/>
+			<option name="adpcm_mix" value="-10"/>
 		</options>
 		<romlist archive="tekseid2_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -9758,7 +9268,7 @@
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
 			<option name="clockmul" value="8"/>
-			<option name="pcm_mix"  value="0xe0"/>
+			<option name="pcm_mix" value="0xe0"/>
 		</options>
 		<romlist archive="imd_1_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -10034,7 +9544,7 @@
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
 			<option name="clockmul" value="8"/>
-			<option name="pcm_mix"  value="0xe0"/>
+			<option name="pcm_mix" value="0xe0"/>
 		</options>
 		<romlist archive="imd_2_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -10307,7 +9817,7 @@
 			<option name="funcvect" value="0x7e"/>
 			<option name="extramsize" value="0x400000"/>
 			<option name="clockmul" value="8"/>
-			<option name="pcm_mix"  value="0xe0"/>
+			<option name="pcm_mix" value="0xe0"/>
 		</options>
 		<romlist archive="imd_3_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
@@ -10488,11 +9998,11 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="dmaint"  value="1"/>
+			<option name="dmaint" value="1"/>
 		</options>
 		<romlist archive="bq68snd">
 			<rom type="code" offset="0x00000">bq68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MCDRV.X</rom>
+			<rom type="x" offset="0x10000">MCDRV.X</rom>
 			<rom type="code" offset="0x40000">MCMM.R</rom>
 		</romlist>
 		<titlelist>
@@ -10511,24 +10021,46 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] DIRECT-X [release.1] (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="directx68snd">
+			<rom type="code" offset="0x000000">dx68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">music.dat</rom>
+			<rom type="code" offset="0x040000">pgh30.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">ゲーム中BGM</title>
+			<title code="0x02">BOSS曲</title>
+			<title code="0x03">OP曲(未使用)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X68000] DIRECT-X [release.2] (WORKS&amp;TRAX)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="directx268snd">
-			<rom type="code" offset="0x000000">dx68snd.bin</rom>
-			<rom type="code" offset="0x010000">music.dat</rom>
-			<rom type="code" offset="0x020000">pgh30b.ZPD</rom>
-			<rom type="x"    offset="0x040000">zmusic.x</rom>
+			<rom type="code" offset="0x000000">dx268snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">music.dat</rom>
+			<rom type="code" offset="0x040000">pgh30b.ZPD</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x07">START</title>
-			<title code="0x01">STAGE.01 BGM</title>
-			<title code="0x02">BOSS曲</title>
-			<title code="0x03">STAGE.02 BGM</title>
-			<title code="0x08">STAGE.03 BGM</title>
-			<title code="0x04">STAGE.03 BOSS</title>
-			<title code="0x05">STAFF ROLL</title>
-			<title code="0x06">NAME ENTRY</title>
+			<title code="0x01">SYNC.01  [ STAGE.01 BGM ]</title>
+			<title code="0x02">SYNC.02  [ BOSS曲 ]</title>
+			<title code="0x03">SYNC.03  [ STAGE.02 BGM ]</title>
+			<title code="0x08">SYNC.04  [ STAGE.03 BGM ]</title>
+			<title code="0x04">SYNC.05  [ STAGE.03 BOSS ]</title>
+			<title code="0x05">SYNC.06  [ STAFF ROLL ]</title>
+			<title code="0x06">SYNC.07  [ NAME ENTRY ]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -10543,7 +10075,7 @@
 			<rom type="code" offset="0x000000">sxdayx68snd.bin</rom>
 			<rom type="code" offset="0x010000">music.dat</rom>
 			<rom type="code" offset="0x020000">pgh3.ZPD</rom>
-			<rom type="x"    offset="0x0b0000">ZMSC.X</rom>
+			<rom type="x" offset="0x0b0000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">愛しさと 貧しさと 心細さと</title>
@@ -10559,17 +10091,54 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] XX-FILES R (WORKS&amp;TRAX)</name>
+		<name>[X68000] The Super X-FILES (WORKS&amp;TRAX)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="pcm8"    value="0x01"/>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
 		</options>
-		<romlist archive="xxfr68snd">
+		<romlist archive="sxf68snd">
 			<rom type="code" offset="0x000000">sxdayx68snd.bin</rom>
 			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh20.ZPD</rom>
+			<rom type="x" offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x06" extcode="1">BGM %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] XX-FILES [ DOUBLE X ] with SATELLITE SYSTEM (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="xxf68snd">
+			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
 			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
-			<rom type="x"    offset="0x0b0000">zmusic.x</rom>
+			<rom type="x" offset="0x0b0000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x08" extcode="1">BGM %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] XX-FILES R [ DOUBLE X ] (WORKS&amp;TRAX)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="xxfr68snd">
+			<rom type="code" offset="0x000000">xxfiles68snd.bin</rom>
+			<rom type="code" offset="0x010000">music.dat</rom>
+			<rom type="code" offset="0x020000">pgh22.ZPD</rom>
+			<rom type="x" offset="0x0b0000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<range min="0x01" max="0x0b" extcode="1">music.dat #%02X</range>
@@ -10584,9 +10153,9 @@
 		</options>
 		<romlist archive="tacoex68snd">
 			<rom type="code" offset="0x000000">tcex68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tacoEX.x</rom>
+			<rom type="x" offset="0x010000">tacoEX.x</rom>
 			<rom type="code" offset="0x06c000">drumfile.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">オープニング</title>
@@ -10610,7 +10179,7 @@
 		</options>
 		<romlist archive="tt68snd">
 			<rom type="code" offset="0x000000">tt68snd.bin</rom>
-			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
 			<rom type="code" offset="0x030000">TF_START.ZMD</rom>
 			<rom type="code" offset="0x034000">BGMI00.ZMD</rom>
 			<rom type="code" offset="0x035000">BGMI01.ZMD</rom>
@@ -10661,7 +10230,7 @@
 		</options>
 		<romlist archive="tt68snd">
 			<rom type="code" offset="0x000000">tt68snd.bin</rom>
-			<rom type="x"    offset="0x010000">ZMSC.X</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
 			<rom type="code" offset="0x034000">BGMM00.ZMD</rom>
 			<rom type="code" offset="0x035000">BGMM01.ZMD</rom>
 			<rom type="code" offset="0x036000">BGMM02.ZMD</rom>
@@ -10738,7 +10307,7 @@
 			<rom type="code" offset="0x046000">ATHENA.ZPD</rom>
 			<rom type="code" offset="0x063000">JYOTEI.ZPD</rom>
 			<rom type="code" offset="0x08e000">JYOTEI2_spend.ZPD</rom>
-			<rom type="x"    offset="0x0a0000">ZMSC.X</rom>
+			<rom type="x" offset="0x0a0000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!-- 曲順は公式サントラ準拠 -->
@@ -10806,7 +10375,7 @@
 			<rom type="code" offset="0x040000">ATHENA.ZPD</rom>
 			<rom type="code" offset="0x060000">JYOTEI.ZPD</rom>
 			<rom type="code" offset="0x080000">JYOTEI2_spend.ZPD</rom>
-			<rom type="x"    offset="0x090000">ZMSC.X</rom>
+			<rom type="x" offset="0x090000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x09">NEOGEO起動BGM</title>
@@ -10842,12 +10411,32 @@
 			<rom type="code" offset="0x000000">plin68snd.bin</rom>
 			<rom type="code" offset="0x010000">plin.mus</rom>
 			<rom type="code" offset="0x045000">plin.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x02">plin.mus #01</title>
 			<title code="0x03">plin.mus #02</title>
 			<title code="0x04">plin.mus #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Mahou no Shooter Putchin Purin 2 (魔法のシュータープッチンプリン2) (TeamDangeroude)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="plin268snd">
+			<rom type="code" offset="0x000000">plin68snd.bin</rom>
+			<rom type="code" offset="0x010000">pl2.mus</rom>
+			<rom type="code" offset="0x045000">plin2.ZPD</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
 		</titlelist>
 	</game>
 	<game>
@@ -10893,8 +10482,8 @@
 		</options>
 		<romlist archive="sfd68snd">
 			<rom type="code" offset="0x000000">sfd68snd.bin</rom>
-			<rom type="x"    offset="0x010000">dash.x</rom>
-			<rom type="x"    offset="0x060000">ZMSC.X</rom>
+			<rom type="x" offset="0x010000">dash.x</rom>
+			<rom type="x" offset="0x060000">ZMSC.X</rom>
 			<rom type="code" offset="0x0a0000">PCMSET.ZPD</rom>
 		</romlist>
 		<titlelist>
@@ -10918,7 +10507,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="lcf68snd">
 			<rom type="code" offset="0x00000">pmd68snd.bin</rom>
@@ -10955,11 +10544,11 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="dmaint"  value="0x01"/>
+			<option name="dmaint" value="0x01"/>
 		</options>
 		<romlist archive="spuls68snd">
 			<rom type="code" offset="0x00000">spuls68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MCDRV.X</rom>
+			<rom type="x" offset="0x10000">MCDRV.X</rom>
 			<rom type="code" offset="0x30000">spulse.mus</rom>
 		</romlist>
 		<titlelist>
@@ -11391,33 +10980,33 @@
 			<rom type="shell" offset="0">PKO_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="12"     >Game Over</title>
-			<title code="13"     >オンラインマニュアル</title>
-			<title code="14"     >スタッフボイス</title>
-			<title code="15"     >メニュー</title>
-			<title code="16"     >元ステージクリアー</title>
-			<title code="17"     >大ロマンの大クイズ</title>
-			<title code="18"     >D3MU107.PKO</title>
-			<title code="19"     >オープニング</title>
-			<title code="20"     >タイトル</title>
-			<title code="21"     >エンディング</title>
-			<title code="22"     >スッタフロール</title>
-			<title code="23"     >フィールド1</title>
-			<title code="24"     >フィールド2</title>
-			<title code="25"     >フィールド3</title>
-			<title code="26"     >フィールド4</title>
-			<title code="27"     >フィールド5</title>
-			<title code="28"     >フィールド6</title>
-			<title code="29"     >フィールド7</title>
-			<title code="30"     >フィールド8</title>
-			<title code="31"     >D3MU409.PKO</title>
-			<title code="32"     >イベント1</title>
-			<title code="33"     >イベント2</title>
-			<title code="34"     >イベント3</title>
-			<title code="35"     >イベント4</title>
-			<title code="36"     >イベント5</title>
-			<title code="37"     >D3MU506.PKO</title>
-			<title code="38"     >D3MU991.PKO</title>
+			<title code="12" >Game Over</title>
+			<title code="13" >オンラインマニュアル</title>
+			<title code="14" >スタッフボイス</title>
+			<title code="15" >メニュー</title>
+			<title code="16" >元ステージクリアー</title>
+			<title code="17" >大ロマンの大クイズ</title>
+			<title code="18" >D3MU107.PKO</title>
+			<title code="19" >オープニング</title>
+			<title code="20" >タイトル</title>
+			<title code="21" >エンディング</title>
+			<title code="22" >スッタフロール</title>
+			<title code="23" >フィールド1</title>
+			<title code="24" >フィールド2</title>
+			<title code="25" >フィールド3</title>
+			<title code="26" >フィールド4</title>
+			<title code="27" >フィールド5</title>
+			<title code="28" >フィールド6</title>
+			<title code="29" >フィールド7</title>
+			<title code="30" >フィールド8</title>
+			<title code="31" >D3MU409.PKO</title>
+			<title code="32" >イベント1</title>
+			<title code="33" >イベント2</title>
+			<title code="34" >イベント3</title>
+			<title code="35" >イベント4</title>
+			<title code="36" >イベント5</title>
+			<title code="37" >D3MU506.PKO</title>
+			<title code="38" >D3MU991.PKO</title>
 			<title code="0x10001">剣と剣が当たる音</title>
 			<title code="0x10002">死亡だぜ～～～!</title>
 			<title code="0x10003">攻撃ヒット!</title>
@@ -11646,33 +11235,33 @@
 			<rom type="shell" offset="0">PKO_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="12"     >Game Over</title>
-			<title code="13"     >オンラインマニュアル</title>
-			<title code="14"     >スタッフボイス</title>
-			<title code="15"     >メニュー</title>
-			<title code="16"     >元ステージクリアー</title>
-			<title code="17"     >大ロマンの大クイズ</title>
-			<title code="18"     >D3MU107.PKO</title>
-			<title code="19"     >オープニング</title>
-			<title code="20"     >タイトル</title>
-			<title code="21"     >エンディング</title>
-			<title code="22"     >スッタフロール</title>
-			<title code="23"     >フィールド1</title>
-			<title code="24"     >フィールド2</title>
-			<title code="25"     >フィールド3</title>
-			<title code="26"     >フィールド4</title>
-			<title code="27"     >フィールド5</title>
-			<title code="28"     >フィールド6</title>
-			<title code="29"     >フィールド7</title>
-			<title code="30"     >フィールド8</title>
-			<title code="31"     >D3MU409.PKO</title>
-			<title code="32"     >イベント1</title>
-			<title code="33"     >イベント2</title>
-			<title code="34"     >イベント3</title>
-			<title code="35"     >イベント4</title>
-			<title code="36"     >イベント5</title>
-			<title code="37"     >D3MU506.PKO</title>
-			<title code="38"     >D3MU991.PKO</title>
+			<title code="12" >Game Over</title>
+			<title code="13" >オンラインマニュアル</title>
+			<title code="14" >スタッフボイス</title>
+			<title code="15" >メニュー</title>
+			<title code="16" >元ステージクリアー</title>
+			<title code="17" >大ロマンの大クイズ</title>
+			<title code="18" >D3MU107.PKO</title>
+			<title code="19" >オープニング</title>
+			<title code="20" >タイトル</title>
+			<title code="21" >エンディング</title>
+			<title code="22" >スッタフロール</title>
+			<title code="23" >フィールド1</title>
+			<title code="24" >フィールド2</title>
+			<title code="25" >フィールド3</title>
+			<title code="26" >フィールド4</title>
+			<title code="27" >フィールド5</title>
+			<title code="28" >フィールド6</title>
+			<title code="29" >フィールド7</title>
+			<title code="30" >フィールド8</title>
+			<title code="31" >D3MU409.PKO</title>
+			<title code="32" >イベント1</title>
+			<title code="33" >イベント2</title>
+			<title code="34" >イベント3</title>
+			<title code="35" >イベント4</title>
+			<title code="36" >イベント5</title>
+			<title code="37" >D3MU506.PKO</title>
+			<title code="38" >D3MU991.PKO</title>
 			<title code="0x10001">剣と剣が当たる音</title>
 			<title code="0x10002">死亡だぜ～～～!</title>
 			<title code="0x10003">攻撃ヒット!</title>
@@ -11799,7 +11388,7 @@
 			<rom type="code" offset="0x03b000">MUSIC08.ZMD</rom>
 			<rom type="code" offset="0x03c000">MUSIC09.ZMD</rom>
 			<rom type="code" offset="0x03d000">MUSIC10.ZMD</rom>
-			<rom type="x"    offset="0x060000">zmusic.x</rom>
+			<rom type="x" offset="0x060000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x05">[             たいとる            ] for CHACHACHA   Composed by I.C.KaZe</title>
@@ -11821,8 +11410,8 @@
 		<driveralias type="PC-9801">Doujin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-6"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-6"/>
 		</options>
 		<romlist archive="crim_98">
 			<rom type="file" offset="-1">SYNTH_98.COM</rom>
@@ -11877,8 +11466,8 @@
 		<driveralias type="PC-9801">Doujin</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-6"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-6"/>
 		</options>
 		<romlist archive="okirakub_98">
 			<rom type="file" offset="-1">SYNTH_98.COM</rom>
@@ -11962,6 +11551,9 @@
 		<name>[X68000] HELLHOUND(OPM) (BREAKTHROUGH)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
 		<romlist archive="hellhund68snd">
 			<rom type="code" offset="0x000000">hh68snd.bin</rom>
 			<rom type="code" offset="0x010000">hhfmset.ZMD</rom>
@@ -11975,7 +11567,7 @@
 			<rom type="code" offset="0x023000">THU_OPM.ZMD</rom>
 			<rom type="code" offset="0x024000">YOU_OPM.ZMD</rom>
 			<rom type="code" offset="0x030000">hh97.ZPD</rom>
-			<rom type="x"    offset="0x090000">zmusic.x</rom>
+			<rom type="x" offset="0x090000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">Credit</title>
@@ -11994,11 +11586,12 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
 		<romlist archive="hellhund68snd">
-			<rom type="code" offset="0x000000">hh68mid.bin</rom>
+			<rom type="code" offset="0x000000">hh68snd.bin</rom>
 			<rom type="code" offset="0x014000">credit_55.ZMD</rom>
 			<rom type="code" offset="0x015000">select_55.ZMD</rom>
 			<rom type="code" offset="0x016000">DIE_55.ZMD</rom>
@@ -12008,7 +11601,8 @@
 			<rom type="code" offset="0x021000">OUT_55.ZMD</rom>
 			<rom type="code" offset="0x031000">THU_55.ZMD</rom>
 			<rom type="code" offset="0x033000">YOU_55.ZMD</rom>
-			<rom type="x"    offset="0x050000">zmusic.x</rom>
+			<rom type="code" offset="0x035000">hh97.ZPD</rom>
+			<rom type="x" offset="0x0a0000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--<title code="0x00">Credit</title>-->
@@ -12135,7 +11729,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 		</options>
 		<romlist archive="cryoku68snd">
 			<rom type="code" offset="0x000000">cryok68snd.bin</rom>
@@ -12149,7 +11743,7 @@
 			<rom type="code" offset="0x01e000">F_OPEN.ZMD</rom>
 			<rom type="code" offset="0x021000">F_OVER.ZMD</rom>
 			<rom type="code" offset="0x022000">F_RANK.ZMD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">オープニング</title>
@@ -12169,7 +11763,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -12185,7 +11779,7 @@
 			<rom type="code" offset="0x01e000">M_OPEN.ZMD</rom>
 			<rom type="code" offset="0x021000">M_OVER.ZMD</rom>
 			<rom type="code" offset="0x022000">M_RANK.ZMD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">オープニング</title>
@@ -12205,7 +11799,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -12221,7 +11815,7 @@
 			<rom type="code" offset="0x01e000">M_OPEN.ZMD</rom>
 			<rom type="code" offset="0x021000">M_OVER.ZMD</rom>
 			<rom type="code" offset="0x022000">M_RANK.ZMD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">オープニング</title>
@@ -12241,7 +11835,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -12257,7 +11851,7 @@
 			<rom type="code" offset="0x01e000">C_OPEN.ZMD</rom>
 			<rom type="code" offset="0x021000">C_OVER.ZMD</rom>
 			<rom type="code" offset="0x022000">C_RANK.ZMD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">オープニング</title>
@@ -12277,7 +11871,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
@@ -12293,7 +11887,7 @@
 			<rom type="code" offset="0x01e000">S_OPEN.ZMD</rom>
 			<rom type="code" offset="0x021000">S_OVER.ZMD</rom>
 			<rom type="code" offset="0x022000">S_RANK.ZMD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x08">オープニング</title>
@@ -12313,11 +11907,11 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="nouden68snd">
 			<rom type="code" offset="0x00000">pmd3568snd.bin</rom>
-			<rom type="x"    offset="0x10000">pmd.x</rom>
+			<rom type="x" offset="0x10000">pmd.x</rom>
 			<rom type="code" offset="0x22000">ND.P</rom>
 			<rom type="code" offset="0x40000">BGM1.M</rom>
 			<rom type="code" offset="0x42000">BGM2.M</rom>
@@ -12368,11 +11962,11 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="nouten368snd">
 			<rom type="code" offset="0x00000">pmd3568snd.bin</rom>
-			<rom type="x"    offset="0x10000">pmd.x</rom>
+			<rom type="x" offset="0x10000">pmd.x</rom>
 			<rom type="code" offset="0x22000">N3.P</rom>
 			<rom type="code" offset="0x60000">BGM1.M</rom>
 			<rom type="code" offset="0x62000">BGM2.M</rom>
@@ -12430,10 +12024,10 @@
 			<rom type="code" offset="0x010000">68SND.ZMD</rom>
 			<rom type="code" offset="0x018000">TITLE.ZMD</rom>
 			<rom type="code" offset="0x020000">music.sar</rom>
-			<rom type="x"    offset="0x080000">zmusic24.x</rom>
+			<rom type="x" offset="0x080000">zmusic24.x</rom>
 			<rom type="code" offset="0x100000">Wan.ZPD</rom>
 			<rom type="code" offset="0x180000">music.sar</rom>
-			<rom type="x"    offset="0x200000">maze.x</rom>
+			<rom type="x" offset="0x200000">maze.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">WELCOME TO NSC WORLD</title>
@@ -12458,10 +12052,10 @@
 		<romlist archive="magery368snd">
 			<rom type="code">mag368snd.bin</rom>
 			<rom type="code" offset="0x018000">m3_battle.zmd</rom>
-			<rom type="x"    offset="0x080000">ZMUSIC.X</rom>
+			<rom type="x" offset="0x080000">ZMUSIC.X</rom>
 			<rom type="code" offset="0x100000">mag.ZPD</rom>
 			<rom type="code" offset="0x180000">music.sar</rom>
-			<rom type="x"    offset="0x200000">maze.x</rom>
+			<rom type="x" offset="0x200000">maze.x</rom>
 		</romlist>
 		<titlelist>
 		<!--
@@ -12483,16 +12077,16 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Doujin</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="pcm8" value="1"/>
 		</options>
 		<romlist archive="mageryo68snd">
 			<rom type="code">mago68snd.bin</rom>
 			<rom type="code" offset="0x018000">paro_title.zmd</rom>
-			<rom type="x"    offset="0x080000">zmsc_u.x</rom>
+			<rom type="x" offset="0x080000">zmsc_u.x</rom>
 			<rom type="code" offset="0x100000">Wan.ZPD</rom>
 			<rom type="code" offset="0x180000">music.sar</rom>
-			<rom type="x"    offset="0x200000">maze.x</rom>
+			<rom type="x" offset="0x200000">maze.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">WELCOME TO NSC WORLD</title>
@@ -12558,8 +12152,8 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Doujin</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x29200"/>
 			<option name="filesize" value="0x01000"/>
 			<option name="data2addr" value="0x28800"/>
@@ -12592,6 +12186,308 @@
 			<title code="0x07">Boss</title>
 			<title code="0x08">Name Entry</title>
 			<title code="0x09">Staff Roll</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] VALIANT7 (G.P.M SOFT)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="NEC PC-8801">Doujin</driveralias>
+		<options>
+			<option name="baseclock" value="0x04"/>
+		</options>
+		<romlist archive="valiant7_88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xb000">music2</rom>
+			<rom type="code" offset="0xc000">mus001</rom>
+			<rom type="code" offset="0xe200">oto001</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">MAIN BGM</title>
+			<title code="0x01">BOSS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] F-nano2' 体験版</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Doujin</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x7000"/>
+			<option name="mdata_size" value="0x7000"/>
+			<option name="mfile_size" value="0x7000"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
+			<option name="psg_mix" value="0x0f0"/>
+			<option name="total_mix" value="0x180"/>
+			<option name="clock_mul" value="0x02"/>
+		</options>
+		<romlist archive="fnano2tr_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">MPK_FN2.BIN</rom>
+			<rom type="bgm" offset="0x00">F-NANOT.MPK</rom>
+			<rom type="bgm" offset="0x01">F-NANOZ.MPK</rom>
+			<rom type="bgm" offset="0x02">F-NANOｨ.MPK</rom>
+			<rom type="bgm" offset="0x03">F-NANOｩ.MPK</rom>
+			<rom type="bgm" offset="0x04">F-NANOｫ.MPK</rom>
+			<rom type="bgm" offset="0x05">F-NANOﾉ.MPK</rom>
+			<rom type="bgm" offset="0x06">F-NANOﾎ.MPK</rom>
+			<rom type="bgm" offset="0x07">F-NANOﾐ.MPK</rom>
+			<rom type="bgm" offset="0x08">F-NANOﾖ.MPK</rom>
+			<rom type="bgm" offset="0x09">F-NANOﾚ.MPK</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">久しぶりね!!</title>
+			<title code="0x01">Dawn</title>
+			<title code="0x02">そのまま、死ね</title>
+			<title code="0x03">いいんでない?</title>
+			<title code="0x04">Alert</title>
+			<title code="0x05">蒼の果て</title>
+			<title code="0x06">路上での資格</title>
+			<title code="0x07">Shadow Dancers</title>
+			<title code="0x08">強者共が夢の跡</title>
+			<title code="0x09">Pain</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x" offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">FM11.ZMD</rom>
+			<rom type="code" offset="0x033000">FM12.ZMD</rom>
+			<rom type="code" offset="0x036000">FM13.ZMD</rom>
+			<rom type="code" offset="0x039000">FM14.ZMD</rom>
+			<rom type="code" offset="0x03c000">FM15.ZMD</rom>
+			<rom type="code" offset="0x03f000">FM16.ZMD</rom>
+			<rom type="code" offset="0x042000">FM17.ZMD</rom>
+			<rom type="code" offset="0x045000">FM18.ZMD</rom>
+			<rom type="code" offset="0x048000">FM19.ZMD</rom>
+			<rom type="code" offset="0x04b000">FM20.ZMD</rom>
+			<rom type="code" offset="0x04e000">FM22.ZMD</rom>
+			<rom type="code" offset="0x051000">FM25.ZMD</rom>
+			<rom type="code" offset="0x054000">FM29.ZMD</rom>
+			<rom type="code" offset="0x057000">FM31.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM+MT-32) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x" offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">MT11.ZMD</rom>
+			<rom type="code" offset="0x033000">MT12.ZMD</rom>
+			<rom type="code" offset="0x036000">MT13.ZMD</rom>
+			<rom type="code" offset="0x039000">MT14.ZMD</rom>
+			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
+			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
+			<rom type="code" offset="0x042000">MT17.ZMD</rom>
+			<rom type="code" offset="0x045000">MT18.ZMD</rom>
+			<rom type="code" offset="0x048000">MT19.ZMD</rom>
+			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
+			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
+			<rom type="code" offset="0x051000">MT25.ZMD</rom>
+			<rom type="code" offset="0x054000">MT29.ZMD</rom>
+			<rom type="code" offset="0x057000">MT31.ZMD</rom>
+			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
+			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
+			<rom type="code" offset="0x063000">MT99.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(OPM+MT-32 Emulation) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x" offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">MT11.ZMD</rom>
+			<rom type="code" offset="0x033000">MT12.ZMD</rom>
+			<rom type="code" offset="0x036000">MT13.ZMD</rom>
+			<rom type="code" offset="0x039000">MT14.ZMD</rom>
+			<rom type="code" offset="0x03c000">MT15.ZMD</rom>
+			<rom type="code" offset="0x03f000">MT16.ZMD</rom>
+			<rom type="code" offset="0x042000">MT17.ZMD</rom>
+			<rom type="code" offset="0x045000">MT18.ZMD</rom>
+			<rom type="code" offset="0x048000">MT19.ZMD</rom>
+			<rom type="code" offset="0x04b000">MT20.ZMD</rom>
+			<rom type="code" offset="0x04e000">MT22.ZMD</rom>
+			<rom type="code" offset="0x051000">MT25.ZMD</rom>
+			<rom type="code" offset="0x054000">MT29.ZMD</rom>
+			<rom type="code" offset="0x057000">MT31.ZMD</rom>
+			<rom type="code" offset="0x05a000">MT23.ZMD</rom>
+			<rom type="code" offset="0x05d000">MT27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_mt.ZMD</rom>
+			<rom type="code" offset="0x063000">MT99.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(CM-64) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="3"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x" offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">CM11.ZMD</rom>
+			<rom type="code" offset="0x033000">CM12.ZMD</rom>
+			<rom type="code" offset="0x036000">CM13.ZMD</rom>
+			<rom type="code" offset="0x039000">CM14.ZMD</rom>
+			<rom type="code" offset="0x03c000">CM15.ZMD</rom>
+			<rom type="code" offset="0x03f000">CM16.ZMD</rom>
+			<rom type="code" offset="0x042000">CM17.ZMD</rom>
+			<rom type="code" offset="0x045000">CM18.ZMD</rom>
+			<rom type="code" offset="0x048000">CM19.ZMD</rom>
+			<rom type="code" offset="0x04b000">CM20.ZMD</rom>
+			<rom type="code" offset="0x04e000">CM22.ZMD</rom>
+			<rom type="code" offset="0x051000">CM25.ZMD</rom>
+			<rom type="code" offset="0x054000">CM29.ZMD</rom>
+			<rom type="code" offset="0x057000">CM31.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] ひとみ坂(SC-55) (東開発塾)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Doujin</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="htmzaka68snd">
+			<rom type="code" offset="0x000000">htmzaka68snd.bin</rom>
+			<rom type="x" offset="0x010000">zmsc.x</rom>
+			<rom type="code" offset="0x030000">sc11.zmd</rom>
+			<rom type="code" offset="0x033000">sc12.zmd</rom>
+			<rom type="code" offset="0x036000">sc13.zmd</rom>
+			<rom type="code" offset="0x039000">sc14.zmd</rom>
+			<rom type="code" offset="0x03c000">sc15.zmd</rom>
+			<rom type="code" offset="0x03f000">sc16.zmd</rom>
+			<rom type="code" offset="0x042000">sc17.zmd</rom>
+			<rom type="code" offset="0x045000">sc18.zmd</rom>
+			<rom type="code" offset="0x048000">sc19.zmd</rom>
+			<rom type="code" offset="0x04b000">sc20.zmd</rom>
+			<rom type="code" offset="0x04e000">sc22.zmd</rom>
+			<rom type="code" offset="0x051000">sc25.zmd</rom>
+			<rom type="code" offset="0x054000">sc29.zmd</rom>
+			<rom type="code" offset="0x057000">sc31.zmd</rom>
+			<rom type="code" offset="0x05a000">sc23.ZMD</rom>
+			<rom type="code" offset="0x05d000">sc27.ZMD</rom>
+			<rom type="code" offset="0x060000">AKO_sc.ZMD</rom>
+			<rom type="code" offset="0x070000">hitomi.zpd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">FLUTER SONG</title>
+			<title code="0x02">LOVE WITH YOU</title>
+			<title code="0x03">LUNA CRUISE</title>
+			<title code="0x04">ETERNAL PURE LOVE</title>
+			<title code="0x05">TU.KA.N.DE...</title>
+			<title code="0x06">JUST COMEBACK AT THAT MEMORIES</title>
+			<title code="0x07">HEAVY SWING</title>
+			<title code="0x08">LOOK AT ME...</title>
+			<title code="0x09">SENTIMENTAL AFTERNOON...</title>
+			<title code="0x0a">BROKEN REMEMBER</title>
+			<title code="0x0b">SONATA - FIRST MOVEMENT</title>
+			<title code="0x0c">NIGHT MARE</title>
+			<title code="0x0d">JUST FOR LOVE</title>
+			<title code="0x0e">SOUTH WIND</title>
+			<title code="0x0f">SONATA - THIRD MOVEMENT</title>
+			<title code="0x10">PIERCE THE GALAXY 1992</title>
+			<title code="0x11">「 Longing / Love 」 Music by George Winsion</title>
 		</titlelist>
 	</game>
 </gamelist>

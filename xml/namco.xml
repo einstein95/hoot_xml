@@ -36,74 +36,89 @@
 <gamelist date="2010/03/20">
 	<!-- //NAMCO -->
 	<game>
-		<name>[MSX] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (OPLL)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Namco</driveralias>
+		<driveralias type="MSX2">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="famstahc_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x9E60">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x100" max="0x105" extcode="0">BGM #%02X</range>
+			<title code="0x104">タイトル / ホームラン</title>
+			<title code="0x101">プレイボール</title>
+			<title code="0x102">メインBGM</title>
+			<title code="0x103">チャンスBGM</title>
+			<title code="0x105">ゲームセット</title>
+			<range min="0x00" max="0x00" extcode="1">SFX #%02X</range>
 			<range min="0x20" max="0x2e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (MSX-AUDIO)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (Y8950)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Namco</driveralias>
+		<driveralias type="MSX2">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_msxa"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_msxa" value="0x01"/>
 		</options>
 		<romlist archive="famstahc_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x9E60">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x100" max="0x105" extcode="0">BGM 0x%02x</range>
-			<range min="0x20" max="0x2e" extcode="1">SFX #%2X</range>
+			<title code="0x104">タイトル / ホームラン</title>
+			<title code="0x101">プレイボール</title>
+			<title code="0x102">メインBGM</title>
+			<title code="0x103">チャンスBGM</title>
+			<title code="0x105">ゲームセット</title>
+			<range min="0x00" max="0x00" extcode="1">SFX #%02X</range>
+			<range min="0x20" max="0x2e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (PSG)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium: Home Run Contest (プロ野球ファミリースタジアム ホームランコンテスト) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Namco</driveralias>
+		<driveralias type="MSX2">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="famstahc_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x9E60">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x100" max="0x105" extcode="0">BGM 0x%02x</range>
-			<range min="0x20" max="0x2e" extcode="1">SFX #%2X</range>
+			<title code="0x104">タイトル / ホームラン</title>
+			<title code="0x101">プレイボール</title>
+			<title code="0x102">メインBGM</title>
+			<title code="0x103">チャンスBGM</title>
+			<title code="0x105">ゲームセット</title>
+			<range min="0x00" max="0x00" extcode="1">SFX #%02X</range>
+			<range min="0x20" max="0x2e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Barunba (バルンバ)</name>
+		<name>[MSX2] Barunba (バルンバ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="barunba_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xc000">PSG.COM</rom>
-			<rom type="bgm"  offset="0x0000">BGM1.COM</rom>
-			<rom type="bgm"  offset="0x0001">BGM2.COM</rom>
-			<rom type="bgm"  offset="0x0002">BGM3.COM</rom>
-			<rom type="bgm"  offset="0x0003">BGM4.COM</rom>
-			<rom type="bgm"  offset="0x0004">BGM5.COM</rom>
-			<rom type="bgm"  offset="0x0005">BGM8.COM</rom>
+			<rom type="bgm" offset="0x0000">BGM1.COM</rom>
+			<rom type="bgm" offset="0x0001">BGM2.COM</rom>
+			<rom type="bgm" offset="0x0002">BGM3.COM</rom>
+			<rom type="bgm" offset="0x0003">BGM4.COM</rom>
+			<rom type="bgm" offset="0x0004">BGM5.COM</rom>
+			<rom type="bgm" offset="0x0005">BGM8.COM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0400">BGM1.COM : 04 : AREA MAP</title>
@@ -145,77 +160,77 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] F1 Douchuu Ki (F1道中記) (OPLL)</name>
+		<name>[MSX] F1 Douchuu Ki (F1道中記) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xaa00"/>
 			<option name="mdata_size" value="0x1600"/>
 			<option name="mfile_size" value="0x1600"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="f1douchu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xa000">DRIVER.BIN</rom>
 			<rom type="code" offset="0xd680">TONE.BIN</rom>
-			<rom type="bgm"  offset="0x0000">DATA0.BIN</rom>
-			<rom type="bgm"  offset="0x0001">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x0002">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x0003">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x0004">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x0000">DATA0.BIN</rom>
+			<rom type="bgm" offset="0x0001">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x0002">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x0003">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x0004">DATA4.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">BGM 0x0000</title>
-			<title code="0x0100">BGM 0x0001</title>
-			<title code="0x0001">BGM 0x0100</title>
-			<title code="0x0101">BGM 0x0101</title>
-			<title code="0x0002">BGM 0x0200</title>
-			<title code="0x0003">BGM 0x0300</title>
-			<title code="0x0004">BGM 0x0400</title>
+			<title code="0x0000">BGM #0000</title>
+			<title code="0x0100">BGM #0001</title>
+			<title code="0x0001">BGM #0100</title>
+			<title code="0x0101">BGM #0101</title>
+			<title code="0x0002">BGM #0200</title>
+			<title code="0x0003">BGM #0300</title>
+			<title code="0x0004">BGM #0400</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] F1 Douchuu Ki (F1道中記) (PSG)</name>
+		<name>[MSX] F1 Douchuu Ki (F1道中記) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xaa00"/>
 			<option name="mdata_size" value="0x1600"/>
 			<option name="mfile_size" value="0x1600"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="f1douchu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xa000">DRIVER.BIN</rom>
 			<rom type="code" offset="0xd680">TONE.BIN</rom>
-			<rom type="bgm"  offset="0x0000">DATA0.BIN</rom>
-			<rom type="bgm"  offset="0x0001">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x0002">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x0003">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x0004">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x0000">DATA0.BIN</rom>
+			<rom type="bgm" offset="0x0001">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x0002">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x0003">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x0004">DATA4.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">BGM 0x0000</title>
-			<title code="0x0100">BGM 0x0001</title>
-			<title code="0x0001">BGM 0x0100</title>
-			<title code="0x0101">BGM 0x0101</title>
-			<title code="0x0002">BGM 0x0200</title>
-			<title code="0x0003">BGM 0x0300</title>
-			<title code="0x0004">BGM 0x0400</title>
+			<title code="0x0000">BGM #0000</title>
+			<title code="0x0100">BGM #0001</title>
+			<title code="0x0001">BGM #0100</title>
+			<title code="0x0101">BGM #0101</title>
+			<title code="0x0002">BGM #0200</title>
+			<title code="0x0003">BGM #0300</title>
+			<title code="0x0004">BGM #0400</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Menu) (OPLL)</name>
+		<name>[MSX] Disk NG (Menu) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"  offset="0x0400">patch</rom>
-			<rom type="code"  offset="0x4000">TITLE.BIN</rom>
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TITLE.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Bosconian</title>
@@ -227,15 +242,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Menu) (PSG)</name>
+		<name>[MSX] Disk NG (Menu) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"  offset="0x0400">patch</rom>
-			<rom type="code"  offset="0x4000">TITLE.BIN</rom>
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TITLE.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Bosconian</title>
@@ -247,30 +262,30 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (XVM)</name>
+		<name>[MSX] Disk NG (XVM) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"  offset="0x0400">xvm_pat</rom>
-			<rom type="code"  offset="0x4000">XVM.BIN</rom>
+			<rom type="code" offset="0x0400">xvm_pat</rom>
+			<rom type="code" offset="0x4000">XVM.BIN</rom>
 		</romlist>
 		<titlelist>
 			<range min="0x80" max="0x86" extcode="1">BGM #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Bosconian)</name>
+		<name>[MSX] Disk NG (Bosconian) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"   offset="0x0400">bosc_pat</rom>
-			<rom type="code"   offset="0x4000">BOSCO.BIN</rom>
+			<rom type="code" offset="0x0400">bosc_pat</rom>
+			<rom type="code" offset="0x4000">BOSCO.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">ゲームスタート</title>
@@ -281,11 +296,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Galaga)</name>
+		<name>[MSX] Disk NG (Galaga) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
 			<rom type="code" offset="0x0400">galg_pat</rom>
@@ -302,36 +317,36 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (King &amp; Balloon)</name>
+		<name>[MSX] Disk NG (King &amp; Balloon) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"   offset="0x0400">king_pat</rom>
-			<rom type="code"   offset="0x4000">KINGBALN.BIN</rom>
+			<rom type="code" offset="0x0400">king_pat</rom>
+			<rom type="code" offset="0x4000">KINGBALN.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ゲームスタート</title>
 			<title code="0x06">ゲームオーバー</title>
-			<title code="0x01">SFX HELP!</title>
-			<title code="0x02">SFX THANK YOU!</title>
-			<title code="0x07">SFX BYE BYE!</title>
+			<title code="0x01">SFX "Help!"</title>
+			<title code="0x02">SFX "Thank You!"</title>
+			<title code="0x07">SFX "Bye Bye!"</title>
 			<range min="0x03" max="0x05" extcode="1">SFX #%2X</range>
 			<range min="0x08" max="0x0a" extcode="1">SFX #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Tank Battalion)</name>
+		<name>[MSX] Disk NG (Tank Battalion) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"   offset="0x0400">tank_pat</rom>
-			<rom type="code"   offset="0x4000">TANKBTLN.BIN</rom>
+			<rom type="code" offset="0x0400">tank_pat</rom>
+			<rom type="code" offset="0x4000">TANKBTLN.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ゲームスタート</title>
@@ -340,15 +355,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG (Warp &amp; Warp)</name>
+		<name>[MSX] Disk NG (Warp &amp; Warp) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng1_msx">
-			<rom type="code"   offset="0x0400">warp_pat</rom>
-			<rom type="code"   offset="0x4000">WARPWARP.BIN</rom>
+			<rom type="code" offset="0x0400">warp_pat</rom>
+			<rom type="code" offset="0x4000">WARPWARP.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x04">ゲームスタート</title>
@@ -358,16 +373,16 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Menu) (OPLL)</name>
+		<name>[MSX] Disk NG 2 (Menu) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"  offset="0x0400">patch2</rom>
-			<rom type="code"  offset="0x4000">TITLE.BIN</rom>
+			<rom type="code" offset="0x0400">patch2</rom>
+			<rom type="code" offset="0x4000">TITLE.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0105">Title</title>
@@ -380,15 +395,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG2 (Menu) (PSG)</name>
+		<name>[MSX] Disk NG2 (Menu) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"  offset="0x0400">patch2</rom>
-			<rom type="code"  offset="0x4000">TITLE.BIN</rom>
+			<rom type="code" offset="0x0400">patch2</rom>
+			<rom type="code" offset="0x4000">TITLE.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0105">Title</title>
@@ -401,30 +416,30 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (SHM)</name>
+		<name>[MSX] Disk NG 2 (SHM) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"  offset="0x0400">patch</rom>
-			<rom type="code"  offset="0x4000">SHM.BIN</rom>
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">SHM.BIN</rom>
 		</romlist>
 		<titlelist>
 			<range min="0x80" max="0x86" extcode="1">BGM #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Dig Dug)</name>
+		<name>[MSX] Disk NG 2 (Dig Dug) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"   offset="0x0400">digdug_pat</rom>
-			<rom type="code"   offset="0x4000">DIGDUG.BIN</rom>
+			<rom type="code" offset="0x0400">digdug_pat</rom>
+			<rom type="code" offset="0x4000">DIGDUG.BIN</rom>
 			<rom type="binary" offset="0x875f">c9</rom>
 		</romlist>
 		<titlelist>
@@ -438,15 +453,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Galaxian)</name>
+		<name>[MSX] Disk NG 2 (Galaxian) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"  offset="0x0400">galax_pat</rom>
-			<rom type="code"   offset="0x4000">GALAXIAN.BIN</rom>
+			<rom type="code" offset="0x0400">galax_pat</rom>
+			<rom type="code" offset="0x4000">GALAXIAN.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">ゲームスタート</title>
@@ -454,15 +469,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Mappy)</name>
+		<name>[MSX] Disk NG 2 (Mappy) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"   offset="0x0400">mappy_pat</rom>
-			<rom type="code"   offset="0x4000">MAPPY.BIN</rom>
+			<rom type="code" offset="0x0400">mappy_pat</rom>
+			<rom type="code" offset="0x4000">MAPPY.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">メインBGM</title>
@@ -474,15 +489,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Pac-Man)</name>
+		<name>[MSX] Disk NG 2 (Pac-Man) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"   offset="0x0400">pacman_pat</rom>
-			<rom type="code"   offset="0x4000">PACMAN.BIN</rom>
+			<rom type="code" offset="0x0400">pacman_pat</rom>
+			<rom type="code" offset="0x4000">PACMAN.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">スタートミュージック</title>
@@ -497,15 +512,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG 2 (Rally X)</name>
+		<name>[MSX] Disk NG 2 (Rally X) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="diskng2_msx">
-			<rom type="code"   offset="0x0400">rally_pat</rom>
-			<rom type="code"   offset="0x4000">RALLYX.BIN</rom>
+			<rom type="code" offset="0x0400">rally_pat</rom>
+			<rom type="code" offset="0x4000">RALLYX.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">ノーマルステージ スタート</title>
@@ -595,7 +610,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (AY-3-8910)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium (プロ野球ファミリースタジアム) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
 		<romlist archive="famista_msx">
@@ -618,7 +633,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (Y8950)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium (プロ野球ファミリースタジアム) (Y8950)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
 		<romlist archive="famista_msx">
@@ -641,7 +656,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Family Stadium: Professional Baseball (プロ野球ファミリースタジアム) (YM2413)</name>
+		<name>[MSX2] Pro Yakyuu Family Stadium (プロ野球ファミリースタジアム) (YM2413)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Namco</driveralias>
 		<romlist archive="famista_msx">
@@ -7399,42 +7414,42 @@
 			<option name="pcm_size" value="0x1800000"/>
 		</options>
 		<romlist archive="ehrgeiz">
-			<rom type="code" offset="0x000000">eg1vera.11s</rom>
-			<rom type="pcm" offset="0x000000">eg1wave0.2</rom>
-			<rom type="pcm" offset="0x800000">eg1wave0.2</rom>
+			<rom type="code" offset="0x0000000">eg1vera.11s</rom>
+			<rom type="pcm" offset="0x0000000">eg1wave0.2</rom>
+			<rom type="pcm" offset="0x0800000">eg1wave0.2</rom>
 			<rom type="pcm" offset="0x1000000">eg1wave0.2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x1a">The Title</title>
-			<title code="0x14">The Tale of "EHRGEIZ".</title>
-			<title code="0x02">VICTORY</title>
-			<title code="0x17">ESCAPE</title>
-			<title code="0x39">飛行船で逃げろ！</title>
-			<title code="0x05">香港レゲエ</title>
-			<title code="0x26">CONTINENTAL TRAIN</title>
-			<title code="0x1d">旅の果てに</title>
-			<title code="0x2f">真実の扉</title>
-			<title code="0x08">運命</title>
-			<title code="0x32">闘う者達(FFVIIより)</title>
-			<title code="0xe3">プレリュード(FFVIIより)</title>
-			<title code="0xe9">未来の人の挽歌</title>
+			<title code="0x14">The Tale of "Ehrgeiz".</title>
+			<title code="0x02">Victory</title>
+			<title code="0x17">Escape</title>
+			<title code="0x39">Run Away in the Airship! (飛行船で逃げろ!)</title>
+			<title code="0x05">Hong Kong Reggae (香港レゲエ)</title>
+			<title code="0x26">Continental Train</title>
+			<title code="0x1d">The End of the Journey (旅の果てに)</title>
+			<title code="0x2f">Door of Truth (真実の扉)</title>
+			<title code="0x08">Fate (運命)</title>
+			<title code="0x32">Those Who Fight (from FFVII) (闘う者達(FFVIIより))</title>
+			<title code="0xe3">Prelude (from FFVII) (プレリュード(FFVIIより))</title>
+			<title code="0xe9">A Song for the Man of the Future (未来の人の挽歌)</title>
 			<title code="0xe6">The Legend.</title>
-			<title code="0x20">DER EHRGEIZ.</title>
-			<title code="0x35">A self-service SELECTOR.</title>
+			<title code="0x20">Der Ehrgeiz.</title>
+			<title code="0x35">A Self-Service Selector.</title>
 			<title code="0x3c">Elevator</title>
 			<title code="0x11">Fresh Fish</title>
 			<title code="0x0e">Continue</title>
-			<title code="0x2c">ステージクリアー</title>
-			<title code="0xdd">マップソング１</title>
-			<title code="0xec">マップソング２</title>
-			<title code="0xda">マップソング３</title>
-			<title code="0xe0">マップソング４</title>
+			<title code="0x2c">Stage Clear (ステージクリアー)</title>
+			<title code="0xdd">Map Song 1 (マップソング1)</title>
+			<title code="0xec">Map Song 2 (マップソング2)</title>
+			<title code="0xda">Map Song 3 (マップソング3)</title>
+			<title code="0xe0">Map Song 4 (マップソング4)</title>
 			<title code="0x23">11th</title>
-			<title code="0x0b">CD未収録曲1</title>
-			<title code="0x29">CD未収録曲2</title>
-			<title code="0xd4">CD未収録曲3</title>
-			<title code="0xd7">CD未収録曲4</title>
-			<title code="0xf4">CD未収録曲5</title>
+			<title code="0x0b">Not on CD 1 (CD未収録曲1)</title>
+			<title code="0x29">Not on CD 2 (CD未収録曲2)</title>
+			<title code="0xd4">Not on CD 3 (CD未収録曲3)</title>
+			<title code="0xd7">Not on CD 4 (CD未収録曲4)</title>
+			<title code="0xf4">Not on CD 5 (CD未収録曲5)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7876,7 +7891,6 @@
 			<rom type="pcm" offset="0x800000">psp1wave1.ic1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Stop the Music</title>
 			<title code="0x243">Opening</title>
 			<title code="0x202">Mode Select</title>
 			<title code="0x0f">Burn on to Karie</title>
@@ -7907,17 +7921,18 @@
 			<rom type="pcm" offset="0x000000">aq1wave0.2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BGM #00</title>
-			<title code="0x11">BGM #01</title>
-			<title code="0x12">BGM #02</title>
-			<title code="0x13">BGM #03</title>
-			<title code="0x14">BGM #04</title>
-			<title code="0x15">BGM #05</title>
-			<title code="0x16">BGM #06</title>
-			<title code="0x19">BGM #07</title>
-			<title code="0x1a">BGM #08</title>
-			<title code="0x1b">BGM #09</title>
-			<title code="0x1c">BGM #10</title>
+			<title code="0x1a">Mode Select</title>
+			<title code="0x10">Deep Sea</title>
+			<title code="0x11">Submarine Volcano</title>
+			<title code="0x12">Temple</title>
+			<title code="0x13">Crystal</title>
+			<title code="0x14">Shallows</title>
+			<!-- <title code="0x15">Shallows</title> -->
+			<title code="0x19">All Clear</title>
+			<title code="0x1b">Staff Roll</title>
+			<title code="0x1c">Game Over</title>
+			<title code="0x16">Match-up Mode</title>
+			<range min="0x101" max="0x135" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>

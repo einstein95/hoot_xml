@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-8801] Flicky (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Micro Net</driveralias>
+		<driveralias type="PC-8801">Micronet</driveralias>
 		<romlist archive="flickypc">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG88</rom>
@@ -56,9 +56,9 @@
 	<game>
 		<name>[X1] Flicky (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">Micro Net</driveralias>
+		<driveralias type="X1">Micronet</driveralias>
 		<options>
-			<option name="psg_mix"  value="0x18"/>
+			<option name="psg_mix" value="0x18"/>
 		</options>
 		<romlist archive="flickypc">
 			<rom type="code" offset="0x0000">PATCHX</rom>
@@ -77,7 +77,7 @@
 	<game>
 		<name>[PC-8801] Champion Prowres Special (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Micro Net</driveralias>
+		<driveralias type="PC-8801">Micronet</driveralias>
 		<romlist archive="cprwrspc">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x1000">PROG1</rom>
@@ -98,9 +98,9 @@
 	<game>
 		<name>[X1] Champion Prowres Special (YM2149)</name>
 		<driver type="psg">x1</driver>
-		<driveralias type="X1">Micro Net</driveralias>
+		<driveralias type="X1">Micronet</driveralias>
 		<options>
-			<option name="psg_mix"  value="0x50"/>
+			<option name="psg_mix" value="0x50"/>
 		</options>
 		<romlist archive="cprwrspc">
 			<rom type="code" offset="0x0000">PATCHX</rom>
@@ -120,7 +120,7 @@
 	<game>
 		<name>[PC-8801] Robo Wres 2001 (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Micro Net</driveralias>
+		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x818b"/>
 			<option name="mdata_size" value="0x7b00"/>
@@ -144,11 +144,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ÇΩÇÒÇŒ</name>
+		<name>[PC-8801] Tanba (ÇΩÇÒÇŒ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
-			<option name="use_rtc"   value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="tanba88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -164,13 +164,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ã…ìπêwéÊÇË</name>
+		<name>[PC-8801] Gokudou Jintori (ã…ìπêwéÊÇË) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0xb000"/>
-			<option name="use_rtc"   value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="gokudo88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -196,11 +196,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] ã…ìπêwéÊÇË(OPM)</name>
+		<name>[X1] Gokudou Jintori (ã…ìπêwéÊÇË) (OPM)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Micronet</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0xb000"/>
 		</options>
@@ -228,11 +228,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] ã…ìπêwéÊÇË(PSG)</name>
+		<name>[X1] Gokudou Jintori (ã…ìπêwéÊÇË) (PSG)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Micronet</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mfile_size" value="0xb000"/>
 		</options>
@@ -260,9 +260,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Rinne Tensei Reversible Game Tanba (ó÷âÙì]ê∂ÉäÉoÅ[ÉVÉuÉãÉQÅ[ÉÄ ÇΩÇÒÇŒ) (YM2151+MSM6258)</name>
+		<name>[X68000] Tanba (ÇΩÇÒÇŒ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Micro Net</driveralias>
+		<driveralias type="X68000">Micronet</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 		</options>
@@ -289,7 +289,7 @@
 	<game>
 		<name>[X68000] Mahjong Kyou Jidai Special (ñÉêùã∂éûë„ÉXÉyÉVÉÉÉã) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Micro Net</driveralias>
+		<driveralias type="X68000">Micronet</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 		</options>
@@ -318,9 +318,118 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (ñÉêùã∂éûë„ SPECIAL II ñ`åØï—) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Micronet</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="mjkyosp2_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">MUS.COM</rom>
+			<rom type="code" offset="0x8f00">BIOS.COM</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (ñÉêùã∂éûë„ SPECIAL II ñ`åØï—) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Micronet</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="mjkyosp2_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">MUS.COM</rom>
+			<rom type="code" offset="0x8f00">BIOS.COM</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Gokudou Jintori (ã…ìπêwéÊÇË) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Micronet</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x4000"/>
+			<option name="mdata_size" value="0x4000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="init_pc" value="0x400"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="gokudo_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="bgm" offset="0x00">TITLE.COM</rom>
+			<rom type="bgm" offset="0x01">ENDMSX.COM</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Gokudou Jintori (ã…ìπêwéÊÇË) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Micronet</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x4000"/>
+			<option name="mdata_size" value="0x4000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="init_pc" value="0x400"/>
+		</options>
+		<romlist archive="gokudo_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="bgm" offset="0x00">TITLE.COM</rom>
+			<rom type="bgm" offset="0x01">ENDMSX.COM</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
+			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Tanba (ÇΩÇÒÇŒ) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Micronet</driveralias>
+		<options>
+			<option name="init_pc" value="0x400"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="tanba_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TITLE.COM</rom>
+			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Title (É^ÉCÉgÉã)</title>
+			<title code="0x01">è„Ç™ÇË</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Tanba (ÇΩÇÒÇŒ) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Micronet</driveralias>
+		<options>
+			<option name="init_pc" value="0x400"/>
+		</options>
+		<romlist archive="tanba_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TITLE.COM</rom>
+			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Title (É^ÉCÉgÉã)</title>
+			<title code="0x01">è„Ç™ÇË</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X68000] Heavy Nova (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Micro Net</driveralias>
+		<driveralias type="X68000">Micronet</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -330,115 +439,6 @@
 		</romlist>
 		<titlelist>
 			<range min="0x01" max="0x0f" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ñÉêùã∂éûë„ SPECIAL II ñ`åØï—(OPLL)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
-		</options>
-		<romlist archive="mjkyosp2_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">MUS.COM</rom>
-			<rom type="code" offset="0x8f00">BIOS.COM</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ñÉêùã∂éûë„ SPECIAL II ñ`åØï—(PSG)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0400"/>
-		</options>
-		<romlist archive="mjkyosp2_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">MUS.COM</rom>
-			<rom type="code" offset="0x8f00">BIOS.COM</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ã…ìπêwéÊÇË(OPLL)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="mdata_addr" value="0x4000"/>
-			<option name="mdata_size" value="0x4000"/>
-			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x400"/>
-			<option name="use_opll"   value="0x01"/>
-		</options>
-		<romlist archive="gokudo_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="bgm"  offset="0x00">TITLE.COM</rom>
-			<rom type="bgm"  offset="0x01">ENDMSX.COM</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
-			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ã…ìπêwéÊÇË(PSG)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="mdata_addr" value="0x4000"/>
-			<option name="mdata_size" value="0x4000"/>
-			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x400"/>
-		</options>
-		<romlist archive="gokudo_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="bgm"  offset="0x00">TITLE.COM</rom>
-			<rom type="bgm"  offset="0x01">ENDMSX.COM</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x000" max="0x003" extcode="1">BGM #%03X</range>
-			<range min="0x100" max="0x102" extcode="1">BGM #%03X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ÇΩÇÒÇŒ (OPLL)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="init_pc"    value="0x400"/>
-			<option name="use_opll"   value="0x01"/>
-		</options>
-		<romlist archive="tanba_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">TITLE.COM</rom>
-			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Title (É^ÉCÉgÉã)</title>
-			<title code="0x01">è„Ç™ÇË</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] ÇΩÇÒÇŒ (PSG)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Micronet</driveralias>
-		<options>
-			<option name="init_pc"    value="0x400"/>
-		</options>
-		<romlist archive="tanba_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">TITLE.COM</rom>
-			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Title (É^ÉCÉgÉã)</title>
-			<title code="0x01">è„Ç™ÇË</title>
 		</titlelist>
 	</game>
 </gamelist>

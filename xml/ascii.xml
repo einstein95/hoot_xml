@@ -63,7 +63,7 @@
 			<rom type="code" offset="0x9000">PROG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Main BGM</title>
+			<title code="0x00">BGM</title>
 		</titlelist>
 	</game>
 	<game>
@@ -178,11 +178,11 @@
 			<title code="0x83">Game Over</title>
 			<title code="0x64">Name Entry</title>
 			<title code="0x65">High Score</title>
-			<title code="0x40">SFX</title>
-			<title code="0x3F">SFX</title>
-			<title code="0x41">SFX</title>
-			<title code="0x42">SFX (Hit)</title>
-			<title code="0x3E">SFX (Miss)</title>
+			<title code="0x40">SFX #40</title>
+			<title code="0x3F">SFX #3F</title>
+			<title code="0x41">SFX #41</title>
+			<title code="0x42">SFX "Hit"</title>
+			<title code="0x3E">SFX "Miss"</title>
 		</titlelist>
 	</game>
 	<game>
@@ -887,10 +887,10 @@
 			<title code="0x34">イベント6</title>
 			<title code="0x35">イベント7</title>
 			<title code="0x36">別れ</title>
-			<title code="0x37">SFX #1</title>
-			<title code="0x38">SFX #2</title>
-			<title code="0x39">SFX #3</title>
-			<title code="0x3a">SFX #4</title>
+			<title code="0x37">SFX #01</title>
+			<title code="0x38">SFX #02</title>
+			<title code="0x39">SFX #03</title>
+			<title code="0x3a">SFX #04</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2560,64 +2560,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ishido (石道) (OPN)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">ASCII</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="ishido_98">
-			<rom type="file" offset="-1">SDD_2.DRV</rom>
-			<rom type="file" offset="-1">MUSE_98.COM</rom>
-			<rom type="file" offset="0x08">SE02.EFT</rom>
-			<rom type="file" offset="0x10">OPN/BERRY</rom>
-			<rom type="file" offset="0x11">OPN/ENDING.___</rom>
-			<rom type="file" offset="0x12">OPN/FEED</rom>
-			<rom type="file" offset="0x13">OPN/FUGUE</rom>
-			<rom type="file" offset="0x14">OPN/GAMEOVER.___</rom>
-			<rom type="file" offset="0x15">OPN/GARDEN</rom>
-			<rom type="file" offset="0x16">OPN/HENRUDE</rom>
-			<rom type="file" offset="0x17">OPN/HERB</rom>
-			<rom type="file" offset="0x18">OPN/LILIES</rom>
-			<rom type="file" offset="0x19">OPN/MAPLE</rom>
-			<rom type="file" offset="0x1a">OPN/OAK</rom>
-			<rom type="file" offset="0x1b">OPN/PINE</rom>
-			<rom type="file" offset="0x1c">OPN/PYRAMID</rom>
-			<rom type="file" offset="0x1d">OPN/SAGE</rom>
-			<rom type="file" offset="0x1e">OPN/SNOWROSE</rom>
-			<rom type="file" offset="0x1f">OPN/STARTING.___</rom>
-			<rom type="file" offset="0x20">OPN/STELLA</rom>
-			<rom type="file" offset="0x21">OPN/TULIP</rom>
-			<rom type="file" offset="0x22">OPN/WALTZ</rom>
-			<rom type="file" offset="0x23">OPN/WILLOW</rom>
-			<rom type="device" offset="0">sdd_2.drv</rom>
-			<rom type="shell"  offset="0">muse_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x1f">STARTING.___</title>
-			<title code="0x10">BERRY</title>
-			<title code="0x20">STELLA</title>
-			<title code="0x12">FEED</title>
-			<title code="0x13">FUGUE</title>
-			<title code="0x19">MAPLE</title>
-			<title code="0x16">HENRUDE</title>
-			<title code="0x17">HERB</title>
-			<title code="0x18">LILIES</title>
-			<title code="0x1a">OAK</title>
-			<title code="0x1b">PINE</title>
-			<title code="0x1c">PYRAMID</title>
-			<title code="0x1d">SAGE</title>
-			<title code="0x1e">SNOWROSE</title>
-			<title code="0x21">TULIP</title>
-			<title code="0x15">GARDEN</title>
-			<title code="0x22">WALTZ</title>
-			<title code="0x23">WILLOW</title>
-			<title code="0x14">GAMEOVER.___</title>
-			<title code="0x11">ENDING.___</title>
-			<range min="0x01000000" max="0x01000002" extcode="0">SFX #%02X</range>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Ishido (石道) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">ASCII</driveralias>
@@ -2676,6 +2618,64 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Ishido (石道) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">ASCII</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="ishido_98">
+			<rom type="file" offset="-1">SDD_2.DRV</rom>
+			<rom type="file" offset="-1">MUSE_98.COM</rom>
+			<rom type="file" offset="0x08">SE02.EFT</rom>
+			<rom type="file" offset="0x10">OPN/BERRY</rom>
+			<rom type="file" offset="0x11">OPN/ENDING.___</rom>
+			<rom type="file" offset="0x12">OPN/FEED</rom>
+			<rom type="file" offset="0x13">OPN/FUGUE</rom>
+			<rom type="file" offset="0x14">OPN/GAMEOVER.___</rom>
+			<rom type="file" offset="0x15">OPN/GARDEN</rom>
+			<rom type="file" offset="0x16">OPN/HENRUDE</rom>
+			<rom type="file" offset="0x17">OPN/HERB</rom>
+			<rom type="file" offset="0x18">OPN/LILIES</rom>
+			<rom type="file" offset="0x19">OPN/MAPLE</rom>
+			<rom type="file" offset="0x1a">OPN/OAK</rom>
+			<rom type="file" offset="0x1b">OPN/PINE</rom>
+			<rom type="file" offset="0x1c">OPN/PYRAMID</rom>
+			<rom type="file" offset="0x1d">OPN/SAGE</rom>
+			<rom type="file" offset="0x1e">OPN/SNOWROSE</rom>
+			<rom type="file" offset="0x1f">OPN/STARTING.___</rom>
+			<rom type="file" offset="0x20">OPN/STELLA</rom>
+			<rom type="file" offset="0x21">OPN/TULIP</rom>
+			<rom type="file" offset="0x22">OPN/WALTZ</rom>
+			<rom type="file" offset="0x23">OPN/WILLOW</rom>
+			<rom type="device" offset="0">sdd_2.drv</rom>
+			<rom type="shell"  offset="0">muse_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1f">STARTING.___</title>
+			<title code="0x10">BERRY</title>
+			<title code="0x20">STELLA</title>
+			<title code="0x12">FEED</title>
+			<title code="0x13">FUGUE</title>
+			<title code="0x19">MAPLE</title>
+			<title code="0x16">HENRUDE</title>
+			<title code="0x17">HERB</title>
+			<title code="0x18">LILIES</title>
+			<title code="0x1a">OAK</title>
+			<title code="0x1b">PINE</title>
+			<title code="0x1c">PYRAMID</title>
+			<title code="0x1d">SAGE</title>
+			<title code="0x1e">SNOWROSE</title>
+			<title code="0x21">TULIP</title>
+			<title code="0x15">GARDEN</title>
+			<title code="0x22">WALTZ</title>
+			<title code="0x23">WILLOW</title>
+			<title code="0x14">GAMEOVER.___</title>
+			<title code="0x11">ENDING.___</title>
+			<range min="0x01000000" max="0x01000002" extcode="0">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] SoftCon 4 Sample Game (ソフコン4 サンプルゲーム) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">ASCII</driveralias>
@@ -2698,7 +2698,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Wizardry VI: Bane of the Cosmic Forge (ウィザードリィ6 ベイン・オブ・ザ・コズミックフォージ) (YM2203)</name>
+		<name>[PC-9801] Wizardry VI: Bane of the Cosmic Forge (ウィザードリィVI ベイン・オブ・ザ・コズミックフォージ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
@@ -2719,7 +2719,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Wizardry VII: Crusaders of the Dark Savant (ウィザードリィ7 クルセーダーズ・オブ・ザ・ダーク・サヴァント) (YM2203)</name>
+		<name>[PC-9801] Wizardry VII: Crusaders of the Dark Savant (ウィザードリィVII クルセーダーズ・オブ・ザ・ダーク・サヴァント) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">ASCII</driveralias>
 		<options>
@@ -3345,40 +3345,11 @@
 			<rom type="fmbios" offset="0x0000">FMPAC.ROM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
+			<range min="0x00" max="0x1d" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] RPG Construction Tsuuru Dante (RPGコンストラクションツール Dante) (YM2413)</name>
+		<name>[MSX2] RPG Construction Tsuuru Dante (RPGコンストラクションツール Dante) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">ASCII</driveralias>
 		<options>
@@ -3390,36 +3361,7 @@
 			<rom type="code" offset="0xd279">PSGFM.OBJ</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
+			<range min="0x00" max="0x1d" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3434,16 +3376,28 @@
 			<rom type="code" offset="0x87f9">MENU.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<range min="0x10a" max="0x110" extcode="0">SFX #%02d</range>
+			<range min="0x00" max="0x08" extcode="1">BGM #%02X</range>
+			<range min="0x10a" max="0x110" extcode="0">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Zowazo World (ぞわぞわーるど) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">ASCII</driveralias>
+		<options>
+			<option name="init_pc" value="0x400"/>
+		</options>
+		<romlist archive="zowawrld_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4ef9">GAME1PLY.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x100">BGM #00</title>
+			<title code="0x102">BGM #02</title>
+			<title code="0x104">BGM #04</title>
+			<title code="0x106">BGM #06</title>
+			<title code="0x107">BGM #07</title>
+			<range min="0x0a" max="0x16" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3529,27 +3483,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Zowazo World (ぞわぞわーるど) (AY-3-8910)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">ASCII</driveralias>
-		<options>
-			<option name="init_pc" value="0x400"/>
-		</options>
-		<romlist archive="zowawrld_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4ef9">GAME1PLY.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x100">BGM #00</title>
-			<title code="0x102">BGM #02</title>
-			<title code="0x104">BGM #04</title>
-			<title code="0x106">BGM #06</title>
-			<title code="0x107">BGM #07</title>
-			<range min="0x0a" max="0x16" extcode="1">SFX #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Bomberman: Panic Bomber (ボンバーマン ぱにっくボンバー)</name>
+		<name>[X68000] Bomberman: Panic Bomber (ボンバーマン ぱにっくボンバー) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">ASCII</driveralias>
 		<options>
@@ -3561,18 +3495,7 @@
 			<rom type="code" offset="0x038000">BOBARU0.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
+			<range min="0x01" max="0x0c" extcode="1">BGM #%02X</range>
 			<range min="0x101" max="0x11c" extcode="0">SFX #%02x</range>
 		</titlelist>
 	</game>
@@ -3684,34 +3607,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Penguin-kun Wars 2 (ぺんぎんくんウォーズ2) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">ASCII</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-			<option name="scc_mix" value="0xcc"/>
-		</options>
-		<romlist archive="pengwars2_msx">
-			<rom type="code">Penguin-kun Wars 2 (1988)(ASCII).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x0A">Title</title>
-			<title code="0x07">Map</title>
-			<title code="0x00">Dear Old World</title>
-			<title code="0x01">Insect World</title>
-			<title code="0x02">Reptiles World</title>
-			<title code="0x03">Ocean World</title>
-			<title code="0x04">Antarctic World</title>
-			<title code="0x05">Emperor</title>
-			<title code="0x06">Clear</title>
-			<title code="0x09">Ending</title>
-			<title code="0x08">Game Over</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Rakuichi no Matsuri (楽市の政) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">ASCII</driveralias>
@@ -3741,17 +3636,36 @@
 		<titlelist>
 			<title code="0x11">OPEN2.BIN</title>
 			<title code="0x12">OPEN3.BIN</title>
-			<title code="0x13">DATA2.MRG #13</title>
-			<title code="0x14">DATA2.MRG #14</title>
-			<title code="0x15">DATA2.MRG #15</title>
-			<title code="0x16">DATA2.MRG #16</title>
-			<title code="0x17">DATA2.MRG #17</title>
-			<title code="0x18">DATA2.MRG #18</title>
-			<title code="0x19">DATA2.MRG #19</title>
-			<title code="0x1a">DATA2.MRG #1a</title>
-			<title code="0x1b">DATA2.MRG #1b</title>
-			<title code="0x1c">DATA2.MRG #1c</title>
+			<range min="0x13" max="0x1c" extcode="0">DATA2.MRG #%02X</range>
 			<title code="0x10">ENDING.BIN</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Penguin-kun Wars 2 (ぺんぎんくんウォーズ2) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">ASCII</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="pengwars2_msx">
+			<rom type="code">Penguin-kun Wars 2 (1988)(ASCII).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0A">Title</title>
+			<title code="0x07">Map</title>
+			<title code="0x00">Dear Old World</title>
+			<title code="0x01">Insect World</title>
+			<title code="0x02">Reptiles World</title>
+			<title code="0x03">Ocean World</title>
+			<title code="0x04">Antarctic World</title>
+			<title code="0x05">Emperor</title>
+			<title code="0x06">Clear</title>
+			<title code="0x09">Ending</title>
+			<title code="0x08">Game Over</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -34,7 +34,7 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //Victor Entertainment / Victor/CROSSMEDIA SOFT / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/FUN FACTORY -->
+	<!-- //Victor Entertainment / Victor/CROSSMEDIA SOFT / ビクター音楽産業 / ELECTRONIC ARTS VICTOR / ビクター音楽産業/Fun Factory -->
 	<game>
 		<name>[X68000] Star Wars: Attack on the Death Star (スターウォーズ Attack on the DEATH STAR) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
@@ -102,7 +102,7 @@
 	<game>
 		<name>[X68000] Cotton: Fantastic Night Dreams (コットン) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Electronic Arts Victor</driveralias>
 		<romlist archive="ctn68snd">
 			<rom type="code" offset="0x00000">ctn68snd.bin</rom>
 			<rom type="code" offset="0x10000">bootsnd.sys</rom>
@@ -149,7 +149,7 @@
 	<game>
 		<name>[X68000] Shanghai: Banri no Choujou: The Great Wall (上海 万里の長城 The Great Wall) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Electronic Arts Victor</driveralias>
 		<romlist archive="sh468snd">
 			<rom type="code" offset="0x00000">sh468snd.bin</rom>
 			<rom type="code" offset="0x10000">sh4sound.r</rom>
@@ -269,6 +269,37 @@
 			<title code="0x6f">SFX #6f</title>
 			<title code="0x70">SFX #70</title>
 -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Mahou Daisakusen (魔法大作戦) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Electronic Arts Victor</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="mahoudai68snd">
+			<rom type="code" offset="0x000000">mahou68snd.bin</rom>
+			<rom type="x" offset="0x010000">MAHOU.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Sorcer Striker [Stage 1]</title>
+			<title code="0x02">Riot Dance [Stage 2]</title>
+			<title code="0x03">Silent Anomaly [Stage 3]</title>
+			<title code="0x04">Memorial Fragment [Stage 4]</title>
+			<title code="0x05">Organic Metal [Stage 5]</title>
+			<title code="0x06">Inspire [Stage 6]</title>
+			<title code="0x08">Exclaim Targets [Stage 1 Boss]</title>
+			<title code="0x09">Spiral Locus [Stage 2 Boss]</title>
+			<title code="0x0a">Rock the Accept [Stage 3 Boss]</title>
+			<title code="0x0b">Chaos Oppression [Stage 5 Boss]</title>
+			<title code="0x0c">Augmentative Greed [Stage 6 Boss]</title>
+			<title code="0x10">Devastating Disorder [バシネット BGM]</title>
+			<title code="0x0f">Round Clear</title>
+			<title code="0x0d">Game Over</title>
+			<title code="0x0e">Destiny &amp; Ambition [Attract]</title>
+			<title code="0x07">Ever Lasting Emotion [Ending]</title>
+			<range min="0x11" max="0x4d" extcode="1">SFX #%02x</range>
 		</titlelist>
 	</game>
 	<game>
@@ -580,7 +611,7 @@
 	<game>
 		<name>[PC-8801] Mole Mole 2 (モールモール2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
@@ -622,7 +653,7 @@
 	<game>
 		<name>[PC-8801] Teki wa Kaizoku: Kaizokuban (敵は海賊・海賊版) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">D-Photon/Victor Ongaku Sangyou</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -633,17 +664,17 @@
 			<rom type="code" offset="0x4000">TEKI-1.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">オープニングタイトル</title>
+			<title code="0x00">Opening Title (オープニングタイトル)</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-8801] Dwelling: Maou no Yakata (デウリング ～魔王の館～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x1a00"/>
-			<option name="use_rtc"    value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="dwelling">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -663,7 +694,7 @@
 	<game>
 		<name>[PC-8801] Nile no Namida (ナイルの涙) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -725,7 +756,7 @@
 	<game>
 		<name>[PC-8801] Star Symphony (スターシンフォニー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4c00"/>
 			<option name="vdata_addr" value="0x6200"/>
@@ -734,15 +765,15 @@
 			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="ssymphony">
-			<rom type="code"  offset="0x0000">PATCH</rom>
-			<rom type="code"  offset="0x6200">STAR0.COM</rom>
-			<rom type="bgm"   offset="0x00">S1.M</rom>
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x6200">STAR0.COM</rom>
+			<rom type="bgm" offset="0x00">S1.M</rom>
 			<rom type="voice" offset="0x00">STAR1.COM</rom>
-			<rom type="bgm"   offset="0x01">S1.M</rom>
+			<rom type="bgm" offset="0x01">S1.M</rom>
 			<rom type="voice" offset="0x01">STAR0.COM</rom>
-			<rom type="bgm"   offset="0x02">S2.M</rom>
+			<rom type="bgm" offset="0x02">S2.M</rom>
 			<rom type="voice" offset="0x02">STAR0.COM</rom>
-			<rom type="bgm"   offset="0x03">S3.M</rom>
+			<rom type="bgm" offset="0x03">S3.M</rom>
 			<rom type="voice" offset="0x03">STAR0.COM</rom>
 		</romlist>
 		<titlelist>
@@ -758,7 +789,7 @@
 	<game>
 		<name>[PC-8801] Shin Tamatori Monogatari (新玉取物語) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="use_rtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
@@ -774,7 +805,7 @@
 	<game>
 		<name>[PC-8801] Jangou 1 (雀豪1) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<romlist archive="jango188">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">DRIVER</rom>
@@ -797,7 +828,7 @@
 	<game>
 		<name>[PC-8801] Adrenalin Connection (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor Ongaku Sangyou</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9e00"/>
 			<option name="use_vrtc" value="0x01"/>
@@ -848,7 +879,7 @@
 	<game>
 		<name>[PC-8801] Shiryou Sensen: Browning no Fukkatsu (死霊戦線 ブラウニングの復活) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor Ongaku Sangyou/Fun Factory</driveralias>
 		<romlist archive="shiryo">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
@@ -885,7 +916,7 @@
 	<game>
 		<name>[PC-8801] Shiryou Sensen 2 (死霊戦線2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor Ongaku Sangyou/Fun Factory</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1ba9"/>
 		</options>
@@ -969,7 +1000,7 @@
 	<game>
 		<name>[PC-8801] Bubblegum Crisis (バブルガムクライシス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor Ongaku Sangyou</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xb000"/>
 		</options>
@@ -1074,7 +1105,7 @@
 	<game>
 		<name>[PC-8801] Prontis (プロンティス) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Victor Entertainment</driveralias>
+		<driveralias type="PC-8801">Victor/Crossmedia Soft</driveralias>
 		<romlist archive="prontis">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
@@ -1171,7 +1202,7 @@
 	<game>
 		<name>[PC-9801] Bubblegum Crisis Crime Wave (バブルガムクライシス CRIME WAVE) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">Victor Entertainment</driveralias>
+		<driveralias type="PC-9801">Victor Ongaku Sangyou</driveralias>
 		<options>
 			<option name="bootcs" value="0x0300"/>
 			<option name="bootip" value="0xf000"/>
@@ -1387,7 +1418,7 @@
 	<game>
 		<name>[PC-9801] Battletech: Ubawareta Seihai (バトルテック -奪われた聖杯-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Victor Entertainment</driveralias>
+		<driveralias type="PC-9801">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1618,48 +1649,48 @@
 			<rom type="file" offset="-1">MDR_98.COM</rom>
 			<rom type="file" offset="-1">MDR.EXE</rom>
 			<rom type="file" offset="0x09">VOICE.VOI</rom>
-			<rom type="file" offset="0x10">TES1.SEQ</rom>
-			<rom type="file" offset="0x11">TES2.SEQ</rom>
-			<rom type="file" offset="0x12">TES3.SEQ</rom>
-			<rom type="file" offset="0x13">TES4.SEQ</rom>
-			<rom type="file" offset="0x14">TES5.SEQ</rom>
-			<rom type="file" offset="0x15">TES6.SEQ</rom>
-			<rom type="file" offset="0x16">TES7.SEQ</rom>
-			<rom type="file" offset="0x17">TES8.SEQ</rom>
-			<rom type="file" offset="0x18">TES9.SEQ</rom>
-			<rom type="file" offset="0x19">TES10.SEQ</rom>
-			<rom type="file" offset="0x1a">TES11.SEQ</rom>
-			<rom type="file" offset="0x1b">TES12.SEQ</rom>
-			<rom type="file" offset="0x1c">TES13.SEQ</rom>
-			<rom type="file" offset="0x1d">SE1.SEQ</rom>
-			<rom type="file" offset="0x1e">SE2.SEQ</rom>
-			<rom type="file" offset="0x1f">SE3.SEQ</rom>
-			<rom type="file" offset="0x20">SE4.SEQ</rom>
-			<rom type="file" offset="0x21">SE5.SEQ</rom>
-			<rom type="file" offset="0x22">SE6.SEQ</rom>
+			<rom type="file" offset="0x10">SE1.SEQ</rom>
+			<rom type="file" offset="0x11">SE2.SEQ</rom>
+			<rom type="file" offset="0x12">SE3.SEQ</rom>
+			<rom type="file" offset="0x13">SE4.SEQ</rom>
+			<rom type="file" offset="0x14">SE5.SEQ</rom>
+			<rom type="file" offset="0x15">SE6.SEQ</rom>
+			<rom type="file" offset="0x16">TES1.SEQ</rom>
+			<rom type="file" offset="0x17">TES10.SEQ</rom>
+			<rom type="file" offset="0x18">TES11.SEQ</rom>
+			<rom type="file" offset="0x19">TES12.SEQ</rom>
+			<rom type="file" offset="0x1a">TES13.SEQ</rom>
+			<rom type="file" offset="0x1b">TES2.SEQ</rom>
+			<rom type="file" offset="0x1c">TES3.SEQ</rom>
+			<rom type="file" offset="0x1d">TES4.SEQ</rom>
+			<rom type="file" offset="0x1e">TES5.SEQ</rom>
+			<rom type="file" offset="0x1f">TES6.SEQ</rom>
+			<rom type="file" offset="0x20">TES7.SEQ</rom>
+			<rom type="file" offset="0x21">TES8.SEQ</rom>
+			<rom type="file" offset="0x22">TES9.SEQ</rom>
 			<rom type="device" offset="0">MDR.EXE</rom>
 			<rom type="shell" offset="0">MDR_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x090010">TES1.SEQ</title>
-			<title code="0x090011">TES2.SEQ</title>
-			<title code="0x090012">TES3.SEQ</title>
-			<title code="0x090013">TES4.SEQ</title>
-			<title code="0x090014">TES5.SEQ</title>
-			<title code="0x090015">TES6.SEQ</title>
-			<title code="0x090016">TES7.SEQ</title>
-			<title code="0x090017">TES8.SEQ</title>
-			<title code="0x090018">TES9.SEQ</title>
-			<title code="0x090019">TES10.SEQ</title>
-			<title code="0x09001a">TES11.SEQ</title>
-			<title code="0x09001b">TES12.SEQ</title>
-			<title code="0x09001c">TES13.SEQ</title>
-			<title code="0x09001d">SE1.SEQ</title>
-			<title code="0x09001e">SE2.SEQ</title>
-			<title code="0x09001f">SE3.SEQ</title>
-			<title code="0x090020">SE4.SEQ</title>
-			<title code="0x090021">SE5.SEQ</title>
-			<title code="0x090022">SE6.SEQ</title>
+			<title code="0x090016">TES1.SEQ</title>
+			<title code="0x09001b">TES2.SEQ</title>
+			<title code="0x09001c">TES3.SEQ</title>
+			<title code="0x09001d">TES4.SEQ</title>
+			<title code="0x09001e">TES5.SEQ</title>
+			<title code="0x09001f">TES6.SEQ</title>
+			<title code="0x090020">TES7.SEQ</title>
+			<title code="0x090021">TES8.SEQ</title>
+			<title code="0x090022">TES9.SEQ</title>
+			<title code="0x090017">TES10.SEQ</title>
+			<title code="0x090018">TES11.SEQ</title>
+			<title code="0x090019">TES12.SEQ</title>
+			<title code="0x09001a">TES13.SEQ</title>
+			<title code="0x090010">SE1.SEQ</title>
+			<title code="0x090011">SE2.SEQ</title>
+			<title code="0x090012">SE3.SEQ</title>
+			<title code="0x090013">SE4.SEQ</title>
+			<title code="0x090014">SE5.SEQ</title>
+			<title code="0x090015">SE6.SEQ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1714,55 +1745,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Professional Baseball '96 (YM2203)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Victor Entertainment</driveralias>
-		<romlist archive="pbball96_98">
-			<rom type="file" offset="-1">MDR_98.COM</rom>
-			<rom type="file" offset="-1">MDR.EXE</rom>
-			<rom type="file" offset="0x09">VOICE.VOI</rom>
-			<rom type="file" offset="0x10">BOUND.SEQ</rom>
-			<rom type="file" offset="0x11">BUS.SEQ</rom>
-			<rom type="file" offset="0x12">CATCH.SEQ</rom>
-			<rom type="file" offset="0x13">DEAD.SEQ</rom>
-			<rom type="file" offset="0x14">DENSYA.SEQ</rom>
-			<rom type="file" offset="0x15">GASYA2.SEQ</rom>
-			<rom type="file" offset="0x16">GASYAN.SEQ</rom>
-			<rom type="file" offset="0x17">JET.SEQ</rom>
-			<rom type="file" offset="0x18">KAN1.SEQ</rom>
-			<rom type="file" offset="0x19">KAN2.SEQ</rom>
-			<rom type="file" offset="0x1a">KAN3.SEQ</rom>
-			<rom type="file" offset="0x1b">KOTSU.SEQ</rom>
-			<rom type="file" offset="0x1c">KOTSU_OL.SEQ</rom>
-			<rom type="file" offset="0x1d">SLIDE.SEQ</rom>
-			<rom type="file" offset="0x1e">SWING.SEQ</rom>
-			<rom type="file" offset="0x1f">THROW.SEQ</rom>
-			<rom type="device" offset="0">MDR.EXE</rom>
-			<rom type="shell" offset="0">MDR_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x090010">BOUND.SEQ</title>
-			<title code="0x090011">BUS.SEQ</title>
-			<title code="0x090012">CATCH.SEQ</title>
-			<title code="0x090013">DEAD.SEQ</title>
-			<title code="0x090014">DENSYA.SEQ</title>
-			<title code="0x090015">GASYA2.SEQ</title>
-			<title code="0x090016">GASYAN.SEQ</title>
-			<title code="0x090017">JET.SEQ</title>
-			<title code="0x090018">KAN1.SEQ</title>
-			<title code="0x090019">KAN2.SEQ</title>
-			<title code="0x09001a">KAN3.SEQ</title>
-			<title code="0x09001b">KOTSU.SEQ</title>
-			<title code="0x09001c">KOTSU_OL.SEQ</title>
-			<title code="0x09001d">SLIDE.SEQ</title>
-			<title code="0x09001e">SWING.SEQ</title>
-			<title code="0x09001f">THROW.SEQ</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[X68000] Battletech: Ubawareta Seihai (バトルテック -奪われた聖杯-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<romlist archive="btltech68snd">
 			<rom type="code">bt68snd.bin</rom>
 			<rom type="x" offset="0x10000">MHDRV.X</rom>
@@ -1943,6 +1928,52 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Professional Baseball '96 (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Victor Entertainment</driveralias>
+		<romlist archive="pbball96_98">
+			<rom type="file" offset="-1">MDR_98.COM</rom>
+			<rom type="file" offset="-1">MDR.EXE</rom>
+			<rom type="file" offset="0x09">VOICE.VOI</rom>
+			<rom type="file" offset="0x10">BOUND.SEQ</rom>
+			<rom type="file" offset="0x11">BUS.SEQ</rom>
+			<rom type="file" offset="0x12">CATCH.SEQ</rom>
+			<rom type="file" offset="0x13">DEAD.SEQ</rom>
+			<rom type="file" offset="0x14">DENSYA.SEQ</rom>
+			<rom type="file" offset="0x15">GASYA2.SEQ</rom>
+			<rom type="file" offset="0x16">GASYAN.SEQ</rom>
+			<rom type="file" offset="0x17">JET.SEQ</rom>
+			<rom type="file" offset="0x18">KAN1.SEQ</rom>
+			<rom type="file" offset="0x19">KAN2.SEQ</rom>
+			<rom type="file" offset="0x1a">KAN3.SEQ</rom>
+			<rom type="file" offset="0x1b">KOTSU.SEQ</rom>
+			<rom type="file" offset="0x1c">KOTSU_OL.SEQ</rom>
+			<rom type="file" offset="0x1d">SLIDE.SEQ</rom>
+			<rom type="file" offset="0x1e">SWING.SEQ</rom>
+			<rom type="file" offset="0x1f">THROW.SEQ</rom>
+			<rom type="device" offset="0">MDR.EXE</rom>
+			<rom type="shell" offset="0">MDR_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x090010">BOUND.SEQ</title>
+			<title code="0x090011">BUS.SEQ</title>
+			<title code="0x090012">CATCH.SEQ</title>
+			<title code="0x090013">DEAD.SEQ</title>
+			<title code="0x090014">DENSYA.SEQ</title>
+			<title code="0x090015">GASYA2.SEQ</title>
+			<title code="0x090016">GASYAN.SEQ</title>
+			<title code="0x090017">JET.SEQ</title>
+			<title code="0x090018">KAN1.SEQ</title>
+			<title code="0x090019">KAN2.SEQ</title>
+			<title code="0x09001a">KAN3.SEQ</title>
+			<title code="0x09001b">KOTSU.SEQ</title>
+			<title code="0x09001c">KOTSU_OL.SEQ</title>
+			<title code="0x09001d">SLIDE.SEQ</title>
+			<title code="0x09001e">SWING.SEQ</title>
+			<title code="0x09001f">THROW.SEQ</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-88VA] Alantia VA Special (アランティアVAスペシャル)</name>
 		<driver type="opn">pc88va</driver>
 		<driveralias type="PC-88VA">Victor Entertainment</driveralias>
@@ -1990,9 +2021,9 @@
 	<game>
 		<name>[X68000] Pitapat (ピタパット) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="pitapat68snd">
 			<rom type="code" offset="0x00000">pit68snd.bin</rom>
@@ -2040,13 +2071,13 @@
 	<game>
 		<name>[X68000] Neural Gear (ニューラルギア) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="ngear68snd">
 			<rom type="code" offset="0x00000">ngear68snd.bin</rom>
-			<rom type="x"    offset="0x010000">YONADRV.X</rom>
+			<rom type="x" offset="0x010000">YONADRV.X</rom>
 			<rom type="code" offset="0x01c92e">BD_0.PCM</rom>
 			<rom type="code" offset="0x01d2b6">BD_1.PCM</rom>
 			<rom type="code" offset="0x01da36">SD1.PCM</rom>
@@ -2077,7 +2108,7 @@
 			<rom type="code" offset="0x042050">EXP.SMP</rom>
 			<rom type="code" offset="0x042550">MISSEN.SMP</rom>
 			<rom type="code" offset="0x04492e">RAL.SND</rom>
-			<rom type="x"    offset="0x050000">NEURALGEAR.X</rom>
+			<rom type="x" offset="0x050000">NEURALGEAR.X</rom>
 			<rom type="code" offset="0x0c8000">(1)AKU.DAT</rom>
 			<rom type="code" offset="0x0d0000">(2)AKU.DAT</rom>
 			<rom type="code" offset="0x0d8000">AIDA.DAT</rom>
@@ -2119,7 +2150,7 @@
 	<game>
 		<name>[X68000] Neural Gear (ニューラルギア) (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2127,7 +2158,7 @@
 		</options>
 		<romlist archive="ngear68snd">
 			<rom type="code" offset="0x00000">ngear68mid.bin</rom>
-			<rom type="x"    offset="0x10000">YONADRV.X</rom>
+			<rom type="x" offset="0x10000">YONADRV.X</rom>
 			<rom type="code" offset="0x1c92e">BD_0.PCM</rom>
 			<rom type="code" offset="0x1d2b6">BD_1.PCM</rom>
 			<rom type="code" offset="0x1da36">SD1.PCM</rom>
@@ -2158,7 +2189,7 @@
 			<rom type="code" offset="0x42050">EXP.SMP</rom>
 			<rom type="code" offset="0x42550">MISSEN.SMP</rom>
 			<rom type="code" offset="0x4492e">RAL.SND</rom>
-			<rom type="x"    offset="0x50000">NEURALGEAR.X</rom>
+			<rom type="x" offset="0x50000">NEURALGEAR.X</rom>
 			<rom type="code" offset="0xc8000">(1)AKU_MT.DAT</rom>
 			<rom type="code" offset="0xd0000">(2)AKU_MT.DAT</rom>
 			<rom type="code" offset="0x0e0000">CITY_MT.DAT</rom>
@@ -2196,7 +2227,7 @@
 	<game>
 		<name>[X68000] Neural Gear (ニューラルギア) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
@@ -2204,7 +2235,7 @@
 		</options>
 		<romlist archive="ngear68snd">
 			<rom type="code" offset="0x00000">ngear68mid.bin</rom>
-			<rom type="x"    offset="0x10000">YONADRV.X</rom>
+			<rom type="x" offset="0x10000">YONADRV.X</rom>
 			<rom type="code" offset="0x1c92e">BD_0.PCM</rom>
 			<rom type="code" offset="0x1d2b6">BD_1.PCM</rom>
 			<rom type="code" offset="0x1da36">SD1.PCM</rom>
@@ -2235,7 +2266,7 @@
 			<rom type="code" offset="0x42050">EXP.SMP</rom>
 			<rom type="code" offset="0x42550">MISSEN.SMP</rom>
 			<rom type="code" offset="0x4492e">RAL.SND</rom>
-			<rom type="x"    offset="0x50000">NEURALGEAR.X</rom>
+			<rom type="x" offset="0x50000">NEURALGEAR.X</rom>
 			<rom type="code" offset="0xc8000">(1)AKU_MT.DAT</rom>
 			<rom type="code" offset="0xd0000">(2)AKU_MT.DAT</rom>
 			<rom type="code" offset="0x0e0000">CITY_MT.DAT</rom>
@@ -2273,7 +2304,7 @@
 	<game>
 		<name>[X68000] Jangou 1 (雀豪1) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
 		<romlist archive="jango68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -2291,14 +2322,167 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] Jangou 2 (雀豪2) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<romlist archive="jango268snd">
+			<rom type="code">jango268snd.bin</rom>
+			<rom type="x" offset="0x010000">JAN.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jangou 2 (雀豪2) (MT-32)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="jango268snd">
+			<rom type="code">jango268mid.bin</rom>
+			<rom type="x" offset="0x010000">JAN.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jangou 2 (雀豪2) (Munt, MT-32 simulation)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<options>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="jango268snd">
+			<rom type="code">jango268mid.bin</rom>
+			<rom type="x" offset="0x010000">JAN.X</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x001" max="0x008" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jack Nicklaus' Championship Golf (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="jngolf68snd">
+			<rom type="code">jack68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="code" offset="0x030000">SETUP.OPM</rom>
+			<rom type="x" offset="0x040000">GOLF.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Logo</title>
+			<title code="0x02">Title</title>
+			<title code="0x03">Menu</title>
+			<title code="0x04">Course Start</title>
+			<title code="0x05">End</title>
+			<range min="0x06" max="0x09" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="jngolfc268snd">
+			<rom type="code">jngolf268snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="code" offset="0x030000">SETUP.OPM</rom>
+			<rom type="x" offset="0x040000">GOLF.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Logo</title>
+			<title code="0x02">Title</title>
+			<title code="0x03">Menu</title>
+			<title code="0x04">Course Start</title>
+			<title code="0x05">End</title>
+			<range min="0x06" max="0x09" extcode="1">BGM #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (MT-32)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="jngolfc268snd">
+			<rom type="code">jngolf268snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="code" offset="0x038000">MIDIDAT.DMT</rom>
+			<rom type="x" offset="0x040000">GOLF.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Logo</title>
+			<title code="0x02">Title</title>
+			<title code="0x03">Menu</title>
+			<title code="0x04">Course Start</title>
+			<title code="0x05">End</title>
+			<range min="0x06" max="0x09" extcode="1">BGM #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (Munt, MT-32 simulation)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor/Crossmedia Soft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="jngolfc268snd">
+			<rom type="code">jngolf268snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="code" offset="0x038000">MIDIDAT.DMT</rom>
+			<rom type="x" offset="0x040000">GOLF.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Logo</title>
+			<title code="0x02">Title</title>
+			<title code="0x03">Menu</title>
+			<title code="0x04">Course Start</title>
+			<title code="0x05">End</title>
+			<range min="0x06" max="0x09" extcode="1">BGM #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Castles (キャッスルズ) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Victor Entertainment</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="castles68snd">
+			<rom type="code">castles68snd.bin</rom>
+			<rom type="x" offset="0x010000">mhdrv.x</rom>
+			<rom type="code" offset="0x020000">CASMUS.LZ</rom>
+			<rom type="x" offset="0x040000">castles.x</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x11" extcode="1">BGM #%02x</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[MSX2] Shiryou Sensen 2 (死霊戦線2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Victor Entertainment</driveralias>
+		<driveralias type="MSX2">Victor Ongaku Sangyou/Fun Factory</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xbc00"/>
 			<option name="mdata_size" value="0x0a00"/>
 			<option name="mfile_size" value="0x0a00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="shiryo2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2351,98 +2535,19 @@
 			<rom type="bgm" offset="0x2d">MUS3A.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
-			<title code="0x1e">BGM #1e</title>
-			<title code="0x1f">BGM #1f</title>
-			<title code="0x20">BGM #20</title>
-			<title code="0x21">BGM #21</title>
-			<title code="0x22">BGM #22</title>
-			<title code="0x23">BGM #23</title>
-			<title code="0x24">BGM #24</title>
-			<title code="0x25">BGM #25</title>
-			<title code="0x26">BGM #26</title>
-			<title code="0x27">BGM #27</title>
-			<title code="0x2d">BGM #2d</title>
+			<range min="0x00" max="0x2d" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Jangou 2 (雀豪2) (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<romlist archive="jango268snd">
-			<rom type="code">jango268snd.bin</rom>
-			<rom type="x" offset="0x010000">JAN.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Jangou 2 (雀豪2) (MT-32)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="2"/>
-		</options>
-		<romlist archive="jango268snd">
-			<rom type="code">jango268mid.bin</rom>
-			<rom type="x" offset="0x010000">JAN.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Jangou 2 (雀豪2) (Munt, MT-32 simulation)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="jango268snd">
-			<rom type="code">jango268mid.bin</rom>
-			<rom type="x" offset="0x010000">JAN.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x001" max="0x008" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] Jack Nicklaus' Championship Golf (OPLL)</name>
+		<name>[MSX2] Jack Nicklaus' Championship Golf (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor Entertainment</driveralias>
+		<driveralias type="MSX2">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="jngolf_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2462,14 +2567,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Jack Nicklaus' Championship Golf (PSG)</name>
+		<name>[MSX2] Jack Nicklaus' Championship Golf (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor Entertainment</driveralias>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="jngolf_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2489,23 +2594,23 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Yajiuma Pennant Race (やじうまペナントレース)</name>
+		<name>[MSX2] Yajiuma Pennant Race (やじうまペナントレース) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor Entertainment</driveralias>
+		<driveralias type="MSX2">Victor/Crossmedia Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xBF94"/>
 			<option name="mdata_size" value="0x0620"/>
 			<option name="mfile_size" value="0x0620"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="yajiuma_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x7F71">CROSS.COM</rom>
-			<rom type="bgm"  offset="0x00">BGM_0.COM</rom>
-			<rom type="bgm"  offset="0x01">BGM_1.COM</rom>
-			<rom type="bgm"  offset="0x02">BGM_2.COM</rom>
-			<rom type="bgm"  offset="0x03">BGM_3.COM</rom>
-			<rom type="bgm"  offset="0x04">BGM_4.COM</rom>
+			<rom type="bgm" offset="0x00">BGM_0.COM</rom>
+			<rom type="bgm" offset="0x01">BGM_1.COM</rom>
+			<rom type="bgm" offset="0x02">BGM_2.COM</rom>
+			<rom type="bgm" offset="0x03">BGM_3.COM</rom>
+			<rom type="bgm" offset="0x04">BGM_4.COM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x000">BGM_0.COM</title>
@@ -2527,131 +2632,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Jack Nicklaus' Championship Golf (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-		</options>
-		<romlist archive="jngolf68snd">
-			<rom type="code">jack68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
-			<rom type="code" offset="0x030000">SETUP.OPM</rom>
-			<rom type="x"    offset="0x040000">GOLF.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-		</options>
-		<romlist archive="jngolfc268snd">
-			<rom type="code">jngolf268snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
-			<rom type="code" offset="0x030000">SETUP.OPM</rom>
-			<rom type="x"    offset="0x040000">GOLF.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (MT-32)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="2"/>
-		</options>
-		<romlist archive="jngolfc268snd">
-			<rom type="code">jngolf268snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
-			<rom type="code" offset="0x038000">MIDIDAT.DMT</rom>
-			<rom type="x"    offset="0x040000">GOLF.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Jack Nicklaus Course Data Vol. 2 (Munt, MT-32 simulation)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="jngolfc268snd">
-			<rom type="code">jngolf268snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
-			<rom type="code" offset="0x038000">MIDIDAT.DMT</rom>
-			<rom type="x"    offset="0x040000">GOLF.X</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Castles (キャッスルズ) (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-		</options>
-		<romlist archive="castles68snd">
-			<rom type="code">castles68snd.bin</rom>
-			<rom type="x"    offset="0x010000">mhdrv.x</rom>
-			<rom type="code" offset="0x020000">CASMUS.LZ</rom>
-			<rom type="x"    offset="0x040000">castles.x</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x11" extcode="1">BGM #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Mahou Daisakusen (魔法大作戦) (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Victor Entertainment</driveralias>
-		<options>
-			<option name="mfp" value="0x01"/>
-		</options>
-		<romlist archive="mahoudai68snd">
-			<rom type="code" offset="0x000000">mahou68snd.bin</rom>
-			<rom type="x"    offset="0x010000">MAHOU.X</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Sorcer Striker [Stage 1]</title>
-			<title code="0x02">Riot Dance [Stage 2]</title>
-			<title code="0x03">Silent Anomaly [Stage 3]</title>
-			<title code="0x04">Memorial Fragment [Stage 4]</title>
-			<title code="0x05">Organic Metal [Stage 5]</title>
-			<title code="0x06">Inspire [Stage 6]</title>
-			<title code="0x08">Exclaim Targets [Stage 1 Boss]</title>
-			<title code="0x09">Spiral Locus [Stage 2 Boss]</title>
-			<title code="0x0a">Rock the Accept [Stage 3 Boss]</title>
-			<title code="0x0b">Chaos Oppression [Stage 5 Boss]</title>
-			<title code="0x0c">Augmentative Greed [Stage 6 Boss]</title>
-			<title code="0x10">Devastating Disorder [バシネット BGM]</title>
-			<title code="0x0f">Round Clear</title>
-			<title code="0x0d">Game Over</title>
-			<title code="0x0e">Destiny &amp; Ambition [Attract]</title>
-			<title code="0x07">Ever Lasting Emotion [Ending]</title>
-			<range min="0x11" max="0x4d" extcode="1">SFX #%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] Jangou 1 (雀豪1)</name>
+		<name>[MSX2] Jangou 1 (雀豪1)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Victor Entertainment</driveralias>
+		<driveralias type="MSX2">Victor Entertainment</driveralias>
 		<options>
-			<option name="init_pc"    value="0xe400"/>
+			<option name="init_pc" value="0xe400"/>
 		</options>
 		<romlist archive="jango1_msx">
 			<rom type="code" offset="0x0100">START.COM</rom>

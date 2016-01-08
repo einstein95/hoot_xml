@@ -36,9 +36,9 @@
 <gamelist date="2012/01/07">
 	<!-- // テクノポリスソフト / GAMEテクノポリス -->
 	<game>
-		<name>[PC-8801] ドラゴンアイズ</name>
+		<name>[PC-8801] Dragon Eyes (ドラゴンアイズ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Technopolis Soft</driveralias>
+		<driveralias type="PC-8801">GAME Technopolis</driveralias>
 		<romlist archive="drgeye88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0b00">USD88.Z80</rom>
@@ -81,17 +81,17 @@
 			<title code="0x02">別離</title>
 			<title code="0x0b">事起</title>
 			<title code="0x03">行きづまりの捷利</title>
-			<title code="0x0d">ドラゴンアイズ</title>
+			<title code="0x0d">Dragon Eyes (ドラゴンアイズ)</title>
 			<title code="0x05">再会</title>
 			<title code="0x01">アイネス</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] LotLot</name>
+		<name>[PC-8801] LotLot (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<options>
-			<option name="init_pc"  value="0xa000"/>
+			<option name="init_pc" value="0xa000"/>
 			<option name="use_vrtc" value="0x01"/>
 			<option name="baseclock" value="0x04"/>
 		</options>
@@ -109,7 +109,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] お嬢様くらぶ</name>
+		<name>[PC-8801] Ojousama Club (お嬢様くらぶ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<options>
@@ -151,7 +151,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] GAL WARS きゃぴきゃぴるん</name>
+		<name>[PC-8801] Gal Wars: Kiyapikyapirun (GAL WARS きゃぴきゃぴるん) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<romlist archive="galwars88">
@@ -199,7 +199,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] おんなのこけ～さつたい ＝ねぎ戦略＝</name>
+		<name>[PC-8801] On'na no Koke-satsutai: Negi Senryaku (おんなのこけ～さつたい ＝ねぎ戦略＝) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<romlist archive="onnanoko88">
@@ -278,7 +278,7 @@
 			<title code="0x19">No28.mus</title>
 			<title code="0x1a">No29.mus</title>
 			<title code="0x1c">No30.mus</title>
-			<title code="0x1d">No31.mus</title>
+		<!--	<title code="0x1d">No31.mus</title> -->
 			<title code="0x1e">No32.mus</title>
 			<title code="0x1f">No33.mus</title>
 			<title code="0x20">No34.mus</title>
@@ -302,7 +302,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 破邪大星ダンガイオー(OPNA)</name>
+		<name>[PC-8801] Haja Ouboshi Dangaiou (破邪大星ダンガイオー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<options>
@@ -363,7 +363,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] 破邪大星ダンガイオー(OPN)</name>
+		<name>[PC-8801] Haja Ouboshi Dangaiou (破邪大星ダンガイオー) (YM2203)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Technopolis Soft</driveralias>
 		<options>
@@ -424,9 +424,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ヴァージン・ドリーム</name>
+		<name>[PC-9801] Virgin Dream (ヴァージン・ドリーム) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -476,9 +476,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] キミだけに愛を…</name>
+		<name>[PC-9801] Kimi Dake ni ai o... (キミだけに愛を...) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -512,9 +512,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] コンチネンタル</name>
+		<name>[PC-9801] Continental (コンチネンタル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -606,9 +606,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] テセラ ～キミは汚れた天使か聖なる魔女か!?～</name>
+		<name>[PC-9801] Tecera: Kimi wa Kegareta Tenshi ka Seinaru Majo ka!? (テセラ ～キミは汚れた天使か聖なる魔女か!?～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -644,9 +644,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] ドラゴンアイズ</name>
+		<name>[PC-9801] Dragon Eyes (ドラゴンアイズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -714,15 +714,15 @@
 			<title code="0x12">別離</title>
 			<title code="0x1b">事起</title>
 			<title code="0x14">行きづまりの捷利</title>
-			<title code="0x1d">ドラゴンアイズ</title>
+			<title code="0x1d">Dragon Eyes (ドラゴンアイズ)</title>
 			<title code="0x15">再会</title>
 			<title code="0x11">アイネス</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 初恋物語</name>
+		<name>[PC-9801] Hatsukoi Monogatari (初恋物語) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -760,9 +760,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 電脳天使 ～デジタルアンジェ～</name>
+		<name>[PC-9801] Den'nou Tenshi: Digital Angel (電脳天使 ～デジタルアンジェ～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -800,9 +800,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 秘密の花園</name>
+		<name>[PC-9801] Himitsu no Hanazono (秘密の花園) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Technopolis Soft</driveralias>
+		<driveralias type="PC-9801">GAME Technopolis</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -842,55 +842,55 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Guerriere Lyew&#228;rd</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Technopolis Soft</driveralias>
-		<options>
-			<option name="mfp"     value="0x01"/>
-		</options>
-		<romlist archive="lyeward68snd">
-			<rom type="code">lyw68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
-			<rom type="code" offset="0x030000">JNKMUS.DAT</rom>
-			<rom type="x"    offset="0x040000">LYEWARD.X</rom>
-			<rom type="code" offset="0x06e60e">JNKSND.DAT</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">01</title>
-			<title code="0x02">02</title>
-			<title code="0x03">03</title>
-			<title code="0x04">04</title>
-			<!--
-			<title code="0x05">05</title>
-			  -->
-			<title code="0x06">06</title>
-			<!--
-			<title code="0x07">07</title>
-			  -->
-			<title code="0x08">08</title>
-			<!--
-			<title code="0x09">09</title>
-			  -->
-			<title code="0x0a">0A</title>
-			<title code="0x0b">0B</title>
-			<title code="0x0c">0C</title>
-			<!--
-			<title code="0x0d">0D</title>
-			<title code="0x0d">0E</title>
-			<title code="0x0d">0F</title>
-			  -->
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] キミだけに愛を…</name>
+		<name>[X68000] Guerriere Lyew&#228;rd (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Technopolis Soft</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
+		<romlist archive="lyeward68snd">
+			<rom type="code">lyw68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="code" offset="0x030000">JNKMUS.DAT</rom>
+			<rom type="x" offset="0x040000">LYEWARD.X</rom>
+			<rom type="code" offset="0x06e60e">JNKSND.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<!--
+			<title code="0x05">BGM #05</title>
+			  -->
+			<title code="0x06">BGM #06</title>
+			<!--
+			<title code="0x07">BGM #07</title>
+			  -->
+			<title code="0x08">BGM #08</title>
+			<!--
+			<title code="0x09">BGM #09</title>
+			  -->
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<!--
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0d">BGM #0E</title>
+			<title code="0x0d">BGM #0F</title>
+			  -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Kimi Dake ni ai o... (キミだけに愛を...) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">GAME Technopolis</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
 		<romlist archive="kimidake68snd">
 			<rom type="code" offset="0x000000">kimidake68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x050000">KIMI.PCD</rom>
 			<rom type="code" offset="0x090000">KI_01.USO</rom>
 			<rom type="code" offset="0x095000">KI_02.USO</rom>
@@ -917,15 +917,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] コンチネンタル</name>
+		<name>[X68000] Continental (コンチネンタル) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Technopolis Soft</driveralias>
+		<driveralias type="X68000">GAME Technopolis</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="conti68snd">
 			<rom type="code" offset="0x000000">conti68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x040000">FSE.SE</rom>
 			<rom type="code" offset="0x042000">CONTINEN.PCD</rom>
 			<rom type="code" offset="0x090000">FME13.USO</rom>
@@ -1009,15 +1009,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] テセラ ～キミは汚れた天使か聖なる魔女か!?～</name>
+		<name>[X68000] Tecera: Kimi wa Kegareta Tenshi ka Seinaru Majo ka!? (テセラ ～キミは汚れた天使か聖なる魔女か!?～) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Technopolis Soft</driveralias>
+		<driveralias type="X68000">GAME Technopolis</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="tecera68snd">
 			<rom type="code" offset="0x000000">tecera68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x04f000">TEC_SE.SE</rom>
 			<rom type="code" offset="0x050000">IV.PCD</rom>
 			<rom type="code" offset="0x090000">BADEND.USO</rom>
@@ -1047,15 +1047,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] ドラゴンアイズ</name>
+		<name>[X68000] Dragon Eyes (ドラゴンアイズ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Technopolis Soft</driveralias>
+		<driveralias type="X68000">GAME Technopolis</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="drageye68snd">
 			<rom type="code" offset="0x000000">drageye68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x01fb90">CITY.PCD</rom>
 			<rom type="code" offset="0x090000">AWA_A.USO</rom>
 			<rom type="code" offset="0x095000">AWA_B.USO</rom>
@@ -1096,21 +1096,21 @@
 			<title code="0x03">別離</title>
 			<title code="0x0c">事起</title>
 			<title code="0x05">行きづまりの捷利</title>
-			<title code="0x0e">ドラゴンアイズ</title>
+			<title code="0x0e">Dragon Eyes (ドラゴンアイズ)</title>
 			<title code="0x06">再会</title>
 			<title code="0x02">アイネス</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 秘密の花園</name>
+		<name>[X68000] Himitsu no Hanazono (秘密の花園) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Technopolis Soft</driveralias>
+		<driveralias type="X68000">GAME Technopolis</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="himihana68snd">
 			<rom type="code" offset="0x000000">himihana68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x04f000">HIMITU.SE</rom>
 			<rom type="code" offset="0x050000">CITY.PCD</rom>
 			<rom type="code" offset="0x090000">HI_01.USO</rom>
@@ -1144,14 +1144,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Shenan Dragon</name>
+		<name>[MSX2] Shenan Dragon (シェナンドラゴン) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">Technopolis Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0xb00"/>
 			<option name="mfile_size" value="0xb00"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="sdragn_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1188,9 +1188,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] キミだけに愛を…</name>
+		<name>[MSX2] Kimi Dake ni ai o... (キミだけに愛を...) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">GAME Technopolis</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
@@ -1225,14 +1225,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] コンチネンタル</name>
+		<name>[MSX2] Continental (コンチネンタル) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">GAME Technopolis</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="conti_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1294,14 +1294,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ドラゴンアイズ</name>
+		<name>[MSX2] Dragon Eyes (ドラゴンアイズ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">GAME Technopolis</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="drageye_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1344,19 +1344,19 @@
 			<title code="0x01">別離</title>
 			<title code="0x0a">事起</title>
 			<title code="0x02">行きづまりの捷利</title>
-			<title code="0x0c">ドラゴンアイズ</title>
+			<title code="0x0c">Dragon Eyes (ドラゴンアイズ)</title>
 			<title code="0x04">再会</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 秘密の花園</name>
+		<name>[MSX2] Himitsu no Hanazono (秘密の花園) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">GAME Technopolis</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="himihana_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1398,11 +1398,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 単騎狼・ウルフ・AT</name>
+		<name>[MSX2] Tanki Oukami Wolf AT (単騎狼・ウルフ・AT) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">Technopolis Soft</driveralias>
 		<options>
-			<option name="init_pc"    value="0x00400"/>
+			<option name="init_pc" value="0x00400"/>
 		</options>
 		<romlist archive="fwolfat_msx">
 			<rom type="code" offset="0x0100">WOLF.COM</rom>
@@ -1440,9 +1440,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] お嬢様くらぶ</name>
+		<name>[MSX2] Ojousama Club (お嬢様くらぶ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Technopolis Soft</driveralias>
+		<driveralias type="MSX2">Technopolis Soft</driveralias>
 		<options>
 			<option name="init_pc" value="0x0400"/>
 		</options>

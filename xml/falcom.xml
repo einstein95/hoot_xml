@@ -159,6 +159,39 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-8801] Romancia (ロマンシア) (PC-8801mkIISR専用版) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Falcom</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x0000"/>
+			<option name="mdata_size" value="0x4000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="init_pc"    value="0xf000"/>
+			<option name="baseclock"  value="0x04"/>
+			<option name="wstimer"  value="0x01"/>
+		</options>
+		<romlist archive="romanciasr">
+			<rom type="code" offset="0x1000">PR.NO1</rom>
+			<rom type="code" offset="0xb000">OPN</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x00">PR.NO1</rom>
+			<rom type="bgm" offset="0x01">PR.NO3</rom>
+			<rom type="bgm" offset="0x02">IPL</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Opening (オープニング)</title>
+			<title code="0x00000001">ロマンシア王国</title>
+			<title code="0x01000001">天上界</title>
+			<title code="0x02000001">アゾルバ／地下帝国</title>
+			<title code="0x03000001">ヴァイデス</title>
+			<title code="0x04000001">ロマンシア城</title>
+			<title code="0x05000001">地下迷宮</title>
+			<title code="0x06000001">Game Over (ゲームオーバー)</title>
+			<title code="0x07000001">Ending (エンディング)</title>
+			<title code="0x00000002">Opening Fanfare (オープニングファンファーレ)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-8801] Romancia (ロマンシア) (PC-8801/mkII,PC-8801-11) (YM2203)</name>
 		<driver type="8801-11">pc88</driver>
 		<driveralias type="PC-8801">Falcom</driveralias>
@@ -189,6 +222,39 @@
 			<title code="0x06000001">Game Over (ゲームオーバー)</title>
 			<title code="0x07000001">Ending (エンディング)</title>
 			<title code="0x00000002">Opening Fanfare (オープニングファンファーレ)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Romancia (ロマンシア) (PC-8801/mkII,SR実行時) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="NEC PC-8801">Falcom</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x0000"/>
+			<option name="mdata_size" value="0x4000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="init_pc"    value="0xf000"/>
+			<option name="baseclock"  value="4"/>
+			<option name="wstimer"  value="1"/>
+		</options>
+		<romlist archive="romancia88">
+			<rom type="code" offset="0x1000">PR.NO7</rom>
+			<rom type="code" offset="0xb000">OPN</rom>
+			<rom type="code" offset="0xf000">PATCH2</rom>
+			<rom type="bgm" offset="0x00">PR.NO7</rom>
+			<rom type="bgm" offset="0x01">PR.NO8</rom>
+			<rom type="bgm" offset="0x02">PR.NO6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">オープニング</title>
+			<title code="0x00000001">ロマンシア王国</title>
+			<title code="0x01000001">天上界</title>
+			<title code="0x02000001">アゾルバ／地下帝国</title>
+			<title code="0x03000001">ヴァイデス</title>
+			<title code="0x04000001">ロマンシア城</title>
+			<title code="0x05000001">地下迷宮</title>
+			<title code="0x06000001">ゲームオーバー</title>
+			<title code="0x07000001">エンディング</title>
+			<title code="0x00000002">オープニングファンファーレ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -262,6 +328,38 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-8001mkIISR] Xanadu (ザナドゥ) (YM2203)</name>
+		<driver type="opn">pc80sr</driver>
+		<driveralias type="PC-8001mkIISR">Falcom</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x0000"/>
+			<option name="mdata_size" value="0x6000"/>
+			<option name="mfile_size" value="0x6000"/>
+			<option name="init_pc"    value="0xf000"/>
+		</options>
+		<romlist archive="xanadu_80sr">
+			<rom type="code" offset="0x0000">PR.NO1</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x00">PR.NO1</rom>
+			<rom type="bgm" offset="0x01">PR.NO2</rom>
+			<rom type="bgm" offset="0x02">PR.NO3</rom>
+			<rom type="bgm" offset="0x03">PR.NO4</rom>
+			<rom type="bgm" offset="0x04">PR.NO5</rom>
+			<rom type="bgm" offset="0x05">PR.NO5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Traning Grounds</title>
+			<title code="0x01">Main BGM</title>
+			<title code="0x02">Boss</title>
+			<title code="0x03">King Dragon</title>
+			<title code="0x04">Ending 1</title>
+			<title code="0x05">Ending 2</title>
+			<title code="0xfd">Volume Change</title>
+			<title code="0xfe">in battle (toggle)</title>
+			<title code="0xff">food empty (toggle)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X1] Taiyou no Shinden: Asteka II (太陽の神殿 -ASTEKA II-) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Falcom</driveralias>
@@ -284,6 +382,172 @@
 			<title code="0x01000001">Mundo Perdido (失われた世界)</title>
 			<title code="0x01000002">La noche triste (悲しみの夜)</title>
 			<title code="0x02000002">El Castillo (エル・カスティーリョ)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Xanadu Scenario II: The Resurrection of Dragon (ザナドゥ シナリオII THE RESURRECTION OF DRAGON) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0x0600"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x05c00"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax" value="0x1c"/>
+			<option name="dummysndrom" value="1"/>
+		</options>
+		<romlist archive="xana2_98">
+			<rom type="code" offset="0x00600">xana2.bin</rom>
+			<rom type="code" offset="0x04000">PR.NO0</rom>
+			<rom type="code" offset="0x10000">PR.NO5</rom>
+			<rom type="code" offset="0x15c00">m.000Q</rom>
+			<rom type="code" offset="0x1f000">xana2e.bin</rom>
+			<rom type="bgm" offset="0x01">m.0000</rom>
+			<rom type="bgm" offset="0x02">m.0001</rom>
+			<rom type="bgm" offset="0x03">m.0002</rom>
+			<rom type="bgm" offset="0x04">m.0003</rom>
+			<rom type="bgm" offset="0x05">m.0004</rom>
+			<rom type="bgm" offset="0x06">m.0005</rom>
+			<rom type="bgm" offset="0x07">m.0006</rom>
+			<rom type="bgm" offset="0x08">m.0007</rom>
+			<rom type="bgm" offset="0x09">m.0008</rom>
+			<rom type="bgm" offset="0x0a">m.0009</rom>
+			<rom type="bgm" offset="0x0b">m.000A</rom>
+			<rom type="bgm" offset="0x0c">m.000B</rom>
+			<rom type="bgm" offset="0x0d">m.000C</rom>
+			<rom type="bgm" offset="0x0e">m.000D</rom>
+			<rom type="bgm" offset="0x0f">m.000E</rom>
+			<rom type="bgm" offset="0x10">m.000F</rom>
+			<rom type="bgm" offset="0x11">m.000G</rom>
+			<rom type="bgm" offset="0x12">m.000H</rom>
+			<rom type="bgm" offset="0x13">m.000I</rom>
+			<rom type="bgm" offset="0x14">m.000J</rom>
+			<rom type="bgm" offset="0x15">m.000K</rom>
+			<rom type="bgm" offset="0x16">m.000L</rom>
+			<rom type="bgm" offset="0x17">m.000M</rom>
+			<rom type="bgm" offset="0x18">m.000N</rom>
+			<rom type="bgm" offset="0x19">m.000O</rom>
+			<rom type="bgm" offset="0x1a">m.000P</rom>
+			<rom type="bgm" offset="0x1b">IPLMUS</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x1b">PC-8801mkII Arranged Opening Theme [Opening]</title>
+			<title code="0x01">Mapleford [Level 1]</title>
+			<title code="0x02">Filane [Level 2]</title>
+			<title code="0x03">Poigone [Level 3]</title>
+			<title code="0x04">Gandine [Level 4]</title>
+			<title code="0x05">Nuldour [Level 5]</title>
+			<title code="0x06">Alf [Level 6]</title>
+			<title code="0x07">Alcanek [Level 7]</title>
+			<title code="0x08">Altel [Level 8]</title>
+			<title code="0x09">Klepsydra [Level 9]</title>
+			<title code="0x0a">Rilvan [Level 10]</title>
+			<title code="0x0b">Shangri-La [Level 11]</title>
+			<title code="0x0c">Theme of Marivoux [Boss 1]</title>
+			<title code="0x0d">Theme of Peluton [Boss 2]</title>
+			<title code="0x0e">Theme of Great Kraken [Boss 3]</title>
+			<title code="0x0f">Theme of Zschokke [Boss 4]</title>
+			<title code="0x10">Theme of White Dragon [Boss 5]</title>
+			<title code="0x11">Theme of Borges [Boss 6]</title>
+			<title code="0x12">Theme of Red Dragon [Boss 7]</title>
+			<title code="0x13">Theme of Guin [Boss 8]</title>
+			<title code="0x14">Theme of Hydra [Boss 9]</title>
+			<title code="0x15">Theme of Buzzati [Boss 10]</title>
+			<title code="0x16">Theme of Boiardo [Boss 11]</title>
+			<title code="0x17">Feel at Ease [Shop]</title>
+			<title code="0x18">A Calm Tone of Voice [The Healers]</title>
+			<title code="0x19">Temple [Temple]</title>
+			<title code="0x1a">Theme of King Dragon [King Dragon]</title>
+			<title code="0xfd">Ending Theme &amp; Postlude [Ending Theme]</title>
+			<title code="0xff">Hungry (toggle)</title>
+			<title code="0xfe">In battle (toggle)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Xanadu Scenario II: The Resurrection of Dragon (ザナドゥ シナリオII THE RESURRECTION OF DRAGON) (BEEP)</name>
+		<driver type="beep">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0x0600"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x05c00"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="datamax" value="0x1c"/>
+			<option name="clockmul" value="0x02"/>
+			<option name="cpuclock" value="1996800"/>
+			<option name="beep_type" value="0"/>
+			<option name="wstimer" value="3"/>
+		</options>
+		<romlist archive="xana2_98">
+			<rom type="code" offset="0x00600">xana2.bin</rom>
+			<rom type="code" offset="0x04000">PR.NO0</rom>
+			<rom type="code" offset="0x10000">PR.NO5</rom>
+			<rom type="code" offset="0x15c00">m.000Q</rom>
+			<rom type="code" offset="0x1f000">xana2e.bin</rom>
+			<rom type="bgm" offset="0x01">m.0000</rom>
+			<rom type="bgm" offset="0x02">m.0001</rom>
+			<rom type="bgm" offset="0x03">m.0002</rom>
+			<rom type="bgm" offset="0x04">m.0003</rom>
+			<rom type="bgm" offset="0x05">m.0004</rom>
+			<rom type="bgm" offset="0x06">m.0005</rom>
+			<rom type="bgm" offset="0x07">m.0006</rom>
+			<rom type="bgm" offset="0x08">m.0007</rom>
+			<rom type="bgm" offset="0x09">m.0008</rom>
+			<rom type="bgm" offset="0x0a">m.0009</rom>
+			<rom type="bgm" offset="0x0b">m.000A</rom>
+			<rom type="bgm" offset="0x0c">m.000B</rom>
+			<rom type="bgm" offset="0x0d">m.000C</rom>
+			<rom type="bgm" offset="0x0e">m.000D</rom>
+			<rom type="bgm" offset="0x0f">m.000E</rom>
+			<rom type="bgm" offset="0x10">m.000F</rom>
+			<rom type="bgm" offset="0x11">m.000G</rom>
+			<rom type="bgm" offset="0x12">m.000H</rom>
+			<rom type="bgm" offset="0x13">m.000I</rom>
+			<rom type="bgm" offset="0x14">m.000J</rom>
+			<rom type="bgm" offset="0x15">m.000K</rom>
+			<rom type="bgm" offset="0x16">m.000L</rom>
+			<rom type="bgm" offset="0x17">m.000M</rom>
+			<rom type="bgm" offset="0x18">m.000N</rom>
+			<rom type="bgm" offset="0x19">m.000O</rom>
+			<rom type="bgm" offset="0x1a">m.000P</rom>
+			<rom type="bgm" offset="0x1b">IPLMUS</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x1b">PC-8801mkII Arranged Opening Theme [Opening]</title>
+			<title code="0x01">Mapleford [Level 1]</title>
+			<title code="0x02">Filane [Level 2]</title>
+			<title code="0x03">Poigone [Level 3]</title>
+			<title code="0x04">Gandine [Level 4]</title>
+			<title code="0x05">Nuldour [Level 5]</title>
+			<title code="0x06">Alf [Level 6]</title>
+			<title code="0x07">Alcanek [Level 7]</title>
+			<title code="0x08">Altel [Level 8]</title>
+			<title code="0x09">Klepsydra [Level 9]</title>
+			<title code="0x0a">Rilvan [Level 10]</title>
+			<title code="0x0b">Shangri-La [Level 11]</title>
+			<title code="0x0c">Theme of Marivoux [Boss 1]</title>
+			<title code="0x0d">Theme of Peluton [Boss 2]</title>
+			<title code="0x0e">Theme of Great Kraken [Boss 3]</title>
+			<title code="0x0f">Theme of Zschokke [Boss 4]</title>
+			<title code="0x10">Theme of White Dragon [Boss 5]</title>
+			<title code="0x11">Theme of Borges [Boss 6]</title>
+			<title code="0x12">Theme of Red Dragon [Boss 7]</title>
+			<title code="0x13">Theme of Guin [Boss 8]</title>
+			<title code="0x14">Theme of Hydra [Boss 9]</title>
+			<title code="0x15">Theme of Buzzati [Boss 10]</title>
+			<title code="0x16">Theme of Boiardo [Boss 11]</title>
+			<title code="0x17">Feel at Ease [Shop]</title>
+			<title code="0x18">A Calm Tone of Voice [The Healers]</title>
+			<title code="0x19">Temple [Temple]</title>
+			<title code="0x1a">Theme of King Dragon [King Dragon]</title>
+			<title code="0xfd">Ending Theme &amp; Postlude [Ending Theme]</title>
+			<title code="0xff">Hungry (toggle)</title>
+			<title code="0xfe">In battle (toggle)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2047,6 +2311,125 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Brandish VT Trial Version Demo Disk (ブランディッシュVT 体験版付デモDISK) (YM2608)</name>
+		<driver type="opna">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x1c00"/>
+			<option name="clockmul" value="0x04"/>
+			<option name="datamax" value="0x05"/>
+		</options>
+		<romlist archive="brvtdemo_98">
+			<rom type="code" offset="0x00600">fmd98.bin</rom>
+			<rom type="code" offset="0x01100">FMD98.DRV</rom>
+			<rom type="bgm" offset="0x00">VT_03_86.A_</rom>
+			<rom type="bgm" offset="0x01">VT_05_86.A_</rom>
+			<rom type="bgm" offset="0x02">VT_13_86.A_</rom>
+			<rom type="bgm" offset="0x03">VT_26_86.A_</rom>
+			<rom type="bgm" offset="0x04">VT_31_86.A_</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">デモ曲</title>
+			<title code="0x00">古の祈り     - meditation -</title>
+			<title code="0x01">遺跡         - the prop -</title>
+			<title code="0x02">ショップ     - relations -</title>
+			<title code="0x03">GAME OVER</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Brandish VT Trial Version Demo Disk (ブランディッシュVT 体験版付デモDISK) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x1c00"/>
+			<option name="clockmul" value="0x04"/>
+			<option name="datamax" value="0x05"/>
+		</options>
+		<romlist archive="brvtdemo_98">
+			<rom type="code" offset="0x00600">fmd98.bin</rom>
+			<rom type="code" offset="0x01100">FMD98.DRV</rom>
+			<rom type="bgm" offset="0x00">VT_03_26.N_</rom>
+			<rom type="bgm" offset="0x01">VT_05_26.N_</rom>
+			<rom type="bgm" offset="0x02">VT_13_26.N_</rom>
+			<rom type="bgm" offset="0x03">VT_26_26.N_</rom>
+			<rom type="bgm" offset="0x04">VT_31_26.N_</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">デモ曲</title>
+			<title code="0x00">古の祈り     - meditation -</title>
+			<title code="0x01">遺跡         - the prop -</title>
+			<title code="0x02">ショップ     - relations -</title>
+			<title code="0x03">GAME OVER</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Brandish VT Trial Version Demo Disk (ブランディッシュVT 体験版付デモDISK) (SC-55)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x1c00"/>
+			<option name="clockmul" value="0x04"/>
+			<option name="datamax" value="0x05"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="brvtdemo_98">
+			<rom type="code" offset="0x00600">fmd98.bin</rom>
+			<rom type="code" offset="0x01100">FMD98.DRV</rom>
+			<rom type="binary" offset="0x018d6">90 90</rom>
+			<rom type="bgm" offset="0x00">VT_03_MD.M_</rom>
+			<rom type="bgm" offset="0x01">VT_05_MD.M_</rom>
+			<rom type="bgm" offset="0x02">VT_13_MD.M_</rom>
+			<rom type="bgm" offset="0x03">VT_26_MD.M_</rom>
+			<rom type="bgm" offset="0x04">VT_31_MD.M_</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">デモ曲</title>
+			<title code="0x00">古の祈り     - meditation -</title>
+			<title code="0x01">遺跡         - the prop -</title>
+			<title code="0x02">ショップ     - relations -</title>
+			<title code="0x03">GAME OVER</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Brandish VT Trial Version Demo Disk (ブランディッシュVT 体験版付デモDISK) (BEEP)</name>
+		<driver type="beep">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x1c00"/>
+			<option name="clockmul" value="0x04"/>
+			<option name="datamax" value="0x05"/>
+		</options>
+		<romlist archive="brvtdemo_98">
+			<rom type="code" offset="0x00600">fmd98.bin</rom>
+			<rom type="code" offset="0x01100">FMD98.DRV</rom>
+			<rom type="bgm" offset="0x00">VT_03_BP.B_</rom>
+			<rom type="bgm" offset="0x01">VT_05_BP.B_</rom>
+			<rom type="bgm" offset="0x02">VT_13_BP.B_</rom>
+			<rom type="bgm" offset="0x03">VT_26_BP.B_</rom>
+			<rom type="bgm" offset="0x04">VT_31_BP.B_</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">デモ曲</title>
+			<title code="0x00">古の祈り     - meditation -</title>
+			<title code="0x01">遺跡         - the prop -</title>
+			<title code="0x02">ショップ     - relations -</title>
+			<title code="0x03">GAME OVER</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X1] Xanadu (ザナドゥ) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Falcom</driveralias>
@@ -2322,6 +2705,7 @@
 			<rom type="code">ys368.bin</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x00">Stop the Music</title>
 			<title code="0x03">Pause</title>
 			<title code="0x17">Dancing on the road   * ユーザーディスク作成</title>
 			<title code="0x1c">Introduction !!       * PCM データロード</title>
@@ -3249,7 +3633,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2203)</name>
+		<name>[PC-8801] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
@@ -3379,6 +3763,7 @@
 		<options>
 			<option name="init_pc"    value="0xc000"/>
 			<option name="mdata_addr" value="0x6800"/>
+			<option name="wstimer"    value="0x01"/>
 		</options>
 		<romlist archive="sorc88v3">
 			<rom type="code" offset="0x0000">BIOS</rom>
@@ -3554,9 +3939,9 @@
 			<title code="0x03">美しき花嫁         / ケイン</title>
 			<title code="0x04">美しき花嫁         / シナリオクリア</title>
 			<title code="0x05">銀の灯が消えた街   / オルソード</title>
-			<title code="0x06">銀の灯が消えた街   / 湖底の都市遺跡</title>
-			<title code="0x07">銀の灯が消えた街   / ゴルディアン</title>
-			<title code="0x08">銀の灯が消えた街   / シナリオクリア</title>
+			<title code="0x08">銀の灯が消えた街   / 湖底の都市遺跡</title>
+			<title code="0x06">銀の灯が消えた街   / ゴルディアン</title>
+			<title code="0x07">銀の灯が消えた街   / シナリオクリア</title>
 			<title code="0x0b">ファンファーレ</title>
 			<title code="0x0a">Sorcerian Magazine / メインテーマ</title>
 			<title code="0x09">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
@@ -3927,7 +4312,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (YM2203)</name>
+		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Falcom</driveralias>
 		<romlist archive="ds6_88">
@@ -3976,7 +4361,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説 II) (YM2608)</name>
+		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説 II) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
@@ -4020,7 +4405,7 @@
 			<rom type="bgm" offset="0x1d">MUS503</rom>
 			<rom type="bgm" offset="0x1e">MUS504</rom>
 			<rom type="bgm" offset="0x1f">MUS600</rom>
-			<rom type="bgm" offset="0x10">MUS601</rom>
+			<rom type="bgm" offset="0x20">MUS601</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Utility (ユーティリティー)</title>
@@ -4055,7 +4440,7 @@
 			<title code="0x0000001d">レジスタンス狩り</title>
 			<title code="0x0000001e">レジスタンス狩り</title>
 			<title code="0x0000001f">会議</title>
-			<title code="0x00000010">出撃</title>
+			<title code="0x00000020">出撃</title>
 			<title code="0x000000ff">効果音#00</title>
 			<title code="0x010000ff">効果音#01</title>
 			<title code="0x020000ff">効果音#02</title>
@@ -4088,7 +4473,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説 II) (YM2203)</name>
+		<name>[PC-8801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説 II) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Falcom</driveralias>
 		<options>
@@ -4132,7 +4517,7 @@
 			<rom type="bgm" offset="0x1d">MUS503</rom>
 			<rom type="bgm" offset="0x1e">MUS504</rom>
 			<rom type="bgm" offset="0x1f">MUS600</rom>
-			<rom type="bgm" offset="0x10">MUS601</rom>
+			<rom type="bgm" offset="0x20">MUS601</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Utility (ユーティリティー)</title>
@@ -4167,7 +4552,7 @@
 			<title code="0x0000001d">レジスタンス狩り</title>
 			<title code="0x0000001e">レジスタンス狩り</title>
 			<title code="0x0000001f">会議</title>
-			<title code="0x00000010">出撃</title>
+			<title code="0x00000020">出撃</title>
 			<title code="0x000000ff">効果音#00</title>
 			<title code="0x010000ff">効果音#01</title>
 			<title code="0x020000ff">効果音#02</title>
@@ -4457,185 +4842,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Sorcerian (ソーサリアン) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x3d"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcva">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN001</rom>
-			<rom type="bgm" offset="0x02">SN002</rom>
-			<rom type="bgm" offset="0x03">SN003</rom>
-			<rom type="bgm" offset="0x04">SN004</rom>
-			<rom type="bgm" offset="0x05">SN005</rom>
-			<rom type="bgm" offset="0x06">SN006</rom>
-			<rom type="bgm" offset="0x07">SN007</rom>
-			<rom type="bgm" offset="0x08">SN008</rom>
-			<rom type="bgm" offset="0x09">SN009</rom>
-			<rom type="bgm" offset="0x0a">SN010</rom>
-			<rom type="bgm" offset="0x0b">SN011</rom>
-			<rom type="bgm" offset="0x0c">SN012</rom>
-			<rom type="bgm" offset="0x0d">SN014</rom>
-			<rom type="bgm" offset="0x0e">SN015</rom>
-			<rom type="bgm" offset="0x0f">SN016</rom>
-			<rom type="bgm" offset="0x10">SN017</rom>
-			<rom type="bgm" offset="0x11">SN018</rom>
-			<rom type="bgm" offset="0x12">SN020</rom>
-			<rom type="bgm" offset="0x13">SN021</rom>
-			<rom type="bgm" offset="0x14">SN022</rom>
-			<rom type="bgm" offset="0x15">SN025</rom>
-			<rom type="bgm" offset="0x16">SN026</rom>
-			<rom type="bgm" offset="0x17">SN027</rom>
-			<rom type="bgm" offset="0x18">SN032</rom>
-			<rom type="bgm" offset="0x19">SN034</rom>
-			<rom type="bgm" offset="0x1a">SN036</rom>
-			<rom type="bgm" offset="0x1b">SN037</rom>
-			<rom type="bgm" offset="0x1c">SN039</rom>
-			<rom type="bgm" offset="0x1d">SN040</rom>
-			<rom type="bgm" offset="0x1e">SN041</rom>
-			<rom type="bgm" offset="0x1f">SN042</rom>
-			<rom type="bgm" offset="0x20">SN043</rom>
-			<rom type="bgm" offset="0x21">SN044</rom>
-			<rom type="bgm" offset="0x22">SN045</rom>
-			<rom type="bgm" offset="0x23">SN047</rom>
-			<rom type="bgm" offset="0x24">SN048</rom>
-			<rom type="bgm" offset="0x25">SN049</rom>
-			<rom type="bgm" offset="0x26">SN053</rom>
-			<rom type="bgm" offset="0x27">SN054</rom>
-			<rom type="bgm" offset="0x28">SN055</rom>
-			<rom type="bgm" offset="0x29">SN058</rom>
-			<rom type="bgm" offset="0x2a">SN059</rom>
-			<rom type="bgm" offset="0x2b">SN060</rom>
-			<rom type="bgm" offset="0x2c">SN061</rom>
-			<rom type="bgm" offset="0x2d">SN062</rom>
-			<rom type="bgm" offset="0x2e">SN068</rom>
-			<rom type="bgm" offset="0x2f">SN069</rom>
-			<rom type="bgm" offset="0x30">SN070</rom>
-			<rom type="bgm" offset="0x31">SN071</rom>
-			<rom type="bgm" offset="0x32">SN081</rom>
-			<rom type="bgm" offset="0x33">SN082</rom>
-			<rom type="bgm" offset="0x34">SN083</rom>
-			<rom type="bgm" offset="0x35">SN084</rom>
-			<rom type="bgm" offset="0x36">SN085</rom>
-			<rom type="bgm" offset="0x37">SN086</rom>
-			<rom type="bgm" offset="0x38">SN090</rom>
-			<rom type="bgm" offset="0x39">SN091</rom>
-			<rom type="bgm" offset="0x3a">SN092</rom>
-			<rom type="bgm" offset="0x3b">SN098</rom>
-			<rom type="bgm" offset="0x3c">SN099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00001c">Opening (オープニング)</title>
-			<title code="0x000011">Castle "Let's Meet Here" (城「ここで逢えるね」)</title>
-			<title code="0x00001d">Town "Pentawa I" (町「ペンタウァI」)</title>
-			<title code="0x00000b">Town "Pentawa II" (町「ペンタウァII」)</title>
-			<title code="0x000012">The Inn "Travelers Inn" (アイテム分配「トラベラーズ・イン」)</title>
-			<title code="0x00002e">Scenario Clear "Beautiful Day" (シナリオクリア「Beautiful day」)</title>
-			<title code="0x000030">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-			<title code="0x00003c">ファンファーレ</title>
-			<title code="0x00002d">キングドラゴン</title>
-			<title code="0x00003b">キングドラゴン死亡</title>
-			<title code="0x00002c">エンディングI</title>
-			<title code="0x000039">エンディングII</title>
-			<title code="0x000001">消えた王様の杖           / ダンジョン</title>
-			<title code="0x000005">消えた王様の杖           / ヒドラ</title>
-			<title code="0x000010">失われたタリスマン       / 森</title>
-			<title code="0x00001e">失われたタリスマン       / 地下ダンジョン</title>
-			<title code="0x000032">失われたタリスマン       / 神官デヒテル</title>
-			<title code="0x000036">失われたタリスマン       / サンド・マリボー</title>
-			<title code="0x00000a">ルシフェルの水門         / 地下ダンジョン</title>
-			<title code="0x000017">ルシフェルの水門         / クラーケン</title>
-			<title code="0x00001b">呪われたオアシス         / 砂漠</title>
-			<title code="0x000029">呪われたオアシス         / 砂の城</title>
-			<title code="0x00002b">呪われたオアシス         / ルワンとゴールドドラゴン</title>
-			<title code="0x000025">盗賊たちの塔             / 塔</title>
-			<title code="0x000027">盗賊たちの塔             / 地底</title>
-			<title code="0x000028">盗賊たちの塔             / 屋上</title>
-			<title code="0x000033">盗賊たちの塔             / シャドー・ドラゴン</title>
-			<title code="0x000038">盗賊たちの塔             / メジャー・デーモン</title>
-			<title code="0x000019">暗き沼の魔法使い         / 暗き沼</title>
-			<title code="0x000009">暗き沼の魔法使い         / レッド・ドラゴン</title>
-			<title code="0x000003">ロマンシア               / ロマンシア王国</title>
-			<title code="0x000008">ロマンシア               / ロマンシア城</title>
-			<title code="0x000004">ロマンシア               / アゾルバ王国</title>
-			<title code="0x000020">ロマンシア               / ヴァイデス</title>
-			<title code="0x00002f">ロマンシア               / クリア</title>
-			<title code="0x000002">紅玉の謎                 / 森</title>
-			<title code="0x000031">紅玉の謎                 / モス・ジャイアント</title>
-			<title code="0x000018">暗黒の魔導士             / ダンジョンI</title>
-			<title code="0x000016">暗黒の魔導士             / ブルードラゴン</title>
-			<title code="0x000014">暗黒の魔導士             / ダンジョンII</title>
-			<title code="0x00000f">暗黒の魔導士             / ゲディス</title>
-			<title code="0x00000d">呪われたクイーンマリー号 / 船内</title>
-			<title code="0x000021">呪われたクイーンマリー号 / 上陸後</title>
-			<title code="0x000035">呪われたクイーンマリー号 / アークデーモン</title>
-			<title code="0x000024">天の神々たち             / 村</title>
-			<title code="0x00001f">天の神々たち             / コンバットシーン</title>
-			<title code="0x00002a">天の神々たち             / 天上界</title>
-			<title code="0x000022">天の神々たち             / 竪琴</title>
-			<title code="0x000034">天の神々たち             / エビル=シャーマン</title>
-			<title code="0x000007">氷の洞窟                 / 洞窟I</title>
-			<title code="0x000006">氷の洞窟                 / エキム</title>
-			<title code="0x00001a">氷の洞窟                 / 洞窟II</title>
-			<title code="0x00000c">メデューサの首           / 森</title>
-			<title code="0x000026">メデューサの首           / 村</title>
-			<title code="0x000023">メデューサの首           / メデューサ</title>
-			<title code="0x000013">囚われた魔法使い         / 地下要塞</title>
-			<title code="0x000037">囚われた魔法使い         / ファイヤー・エレメント</title>
-			<title code="0x000015">不老長寿の水             / 生きている洞窟</title>
-			<title code="0x00000e">不老長寿の水             / ダブル=デビルズ</title>
-			<title code="0x00003a">不老長寿の水             / 動く心臓</title>
-			<title code="0x000000">SFX #00</title>
-			<title code="0x010000">SFX #01</title>
-			<title code="0x020000">SFX #02</title>
-			<title code="0x030000">SFX #03</title>
-			<title code="0x040000">SFX #04</title>
-			<title code="0x050000">SFX #05</title>
-			<title code="0x060000">SFX #06</title>
-			<title code="0x070000">SFX #07</title>
-			<title code="0x080000">SFX #08</title>
-			<title code="0x090000">SFX #09</title>
-			<title code="0x0a0000">SFX #10</title>
-			<title code="0x0b0000">SFX #11</title>
-			<title code="0x0c0000">SFX #12</title>
-			<title code="0x0d0000">SFX #13</title>
-			<title code="0x0e0000">SFX #14</title>
-			<title code="0x0f0000">SFX #15</title>
-			<title code="0x100000">SFX #16</title>
-			<title code="0x110000">SFX #17</title>
-			<title code="0x120000">SFX #18</title>
-			<title code="0x130000">SFX #19</title>
-			<title code="0x140000">SFX #20</title>
-			<title code="0x150000">SFX #21</title>
-			<title code="0x160000">SFX #22</title>
-			<title code="0x170000">SFX #23</title>
-			<title code="0x180000">SFX #24</title>
-			<title code="0x190000">SFX #25</title>
-			<title code="0x1a0000">SFX #26</title>
-			<title code="0x1b0000">SFX #27</title>
-			<title code="0x1c0000">SFX #28</title>
-			<title code="0x1d0000">SFX #29</title>
-			<title code="0x1e0000">SFX #30</title>
-			<title code="0x1f0000">SFX #31</title>
-			<title code="0x200000">SFX #32</title>
-			<title code="0x210000">SFX #33</title>
-			<title code="0x220000">SFX #34</title>
-			<title code="0x230000">SFX #35</title>
-			<title code="0x240000">SFX #36</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-88VA] Sorcerian (ソーサリアン) (YM2608)</name>
 		<driver type="opna">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
@@ -4815,8 +5021,8 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 1 (ソーサリアン 追加シナリオ Vol. 1) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
+		<name>[PC-88VA] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
@@ -4824,42 +5030,40 @@
 			<option name="dataaddr" value="0x11800"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x0e"/>
+			<option name="datamax" value="0x0d"/>
 			<option name="wstimer" value="1"/>
 		</options>
-		<romlist archive="sorcvav1">
+		<romlist archive="sorcvaut">
 			<rom type="code" offset="0x00000">BIOSD</rom>
 			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
 			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN013</rom>
-			<rom type="bgm" offset="0x02">SN019</rom>
-			<rom type="bgm" offset="0x03">SN023</rom>
-			<rom type="bgm" offset="0x04">SN024</rom>
-			<rom type="bgm" offset="0x05">SN028</rom>
-			<rom type="bgm" offset="0x06">SN030</rom>
-			<rom type="bgm" offset="0x07">SN031</rom>
-			<rom type="bgm" offset="0x08">SN033</rom>
-			<rom type="bgm" offset="0x09">SN035</rom>
-			<rom type="bgm" offset="0x0a">SN050</rom>
-			<rom type="bgm" offset="0x0b">SN051</rom>
-			<rom type="bgm" offset="0x0c">SN052</rom>
-			<rom type="bgm" offset="0x0d">SN099</rom>
+			<rom type="bgm" offset="0x01">SS029</rom>
+			<rom type="bgm" offset="0x02">SS036</rom>
+			<rom type="bgm" offset="0x03">SS056</rom>
+			<rom type="bgm" offset="0x04">SS066</rom>
+			<rom type="bgm" offset="0x05">SS067</rom>
+			<rom type="bgm" offset="0x06">SS070</rom>
+			<rom type="bgm" offset="0x07">SS075</rom>
+			<rom type="bgm" offset="0x08">SS087</rom>
+			<rom type="bgm" offset="0x09">SS089</rom>
+			<rom type="bgm" offset="0x0a">SS092</rom>
+			<rom type="bgm" offset="0x0b">SS097</rom>
+			<rom type="bgm" offset="0x0c">SS099</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">魔性の島                     / 魔性の島</title>
-			<title code="0x05">魔性の島                     / ロックデーモン</title>
-			<title code="0x0a">いけにえの神殿               / ローラを救え</title>
-			<title code="0x07">いけにえの神殿               / ミノタウロス</title>
-			<title code="0x0b">いけにえの神殿               / エルジーナ</title>
-			<title code="0x03">悪魔に魅入られた花           / 悪魔に魅入られた花</title>
-			<title code="0x06">悪魔に魅入られた花           / ゴーレム</title>
-			<title code="0x01">嗚呼、ジョセフィーヌは今何処 / いとしのジョセフィーヌ</title>
-			<title code="0x09">嗚呼、ジョセフィーヌは今何処 / アースウォーム</title>
-			<title code="0x02">アマゾンの剣                 / ヴァネルバ</title>
-			<title code="0x08">アマゾンの剣                 / ジョアンナ</title>
-			<title code="0x0d">ファンファーレ</title>
-			<title code="0x0c">CONGRATULATION!</title>
+			<title code="0x03">メニュー                  / The Choice Is Yours</title>
+			<title code="0x04">おたよりをよみたい        / はじめまして</title>
+			<title code="0x05">ソーサリアン・クイズ      / 僕はゲーマーだ!</title>
+			<title code="0x07">ミニミニ・ソーサリアン    / Happy! Happy!</title>
+			<title code="0x01">BGMをききたい             / 消えた王様の杖クリアBGM</title>
+			<title code="0x08">BGMをききたい             / 盗賊たちの塔クリアBGM</title>
+			<title code="0x09">BGMをききたい             / 紅玉の謎クリアBGM</title>
+			<title code="0x0b">BGMをききたい             / モスジャイアント PC-8801</title>
+			<title code="0x02">BGMをききたい             / 氷のどうくつ2</title>
+			<title code="0x0a">BGMをききたい             / 不老長寿の水2</title>
+			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
+			<title code="0x0c">ファンファーレ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4911,59 +5115,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 2: Sengoku Sorcerian (ソーサリアン 追加シナリオ Vol. 2 戦国ソーサリアン) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x10"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcvav2">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN000</rom>
-			<rom type="bgm" offset="0x02">SN038</rom>
-			<rom type="bgm" offset="0x03">SN063</rom>
-			<rom type="bgm" offset="0x04">SN064</rom>
-			<rom type="bgm" offset="0x05">SN065</rom>
-			<rom type="bgm" offset="0x06">SN072</rom>
-			<rom type="bgm" offset="0x07">SN077</rom>
-			<rom type="bgm" offset="0x08">SN078</rom>
-			<rom type="bgm" offset="0x09">SN079</rom>
-			<rom type="bgm" offset="0x0a">SN080</rom>
-			<rom type="bgm" offset="0x0b">SN093</rom>
-			<rom type="bgm" offset="0x0c">SN094</rom>
-			<rom type="bgm" offset="0x0d">SN095</rom>
-			<rom type="bgm" offset="0x0e">SN096</rom>
-			<rom type="bgm" offset="0x0f">SN099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Stop the Music</title>
-			<title code="0x03">武田信玄の章 / 異形の地</title>
-			<title code="0x0c">武田信玄の章 / 阿修羅</title>
-			<title code="0x04">織田信長の章 / 雪の五条大橋</title>
-			<title code="0x0d">織田信長の章 / 風神 雷神</title>
-			<title code="0x06">豊臣秀吉の章 / 哀愁の天守閣</title>
-			<title code="0x0a">豊臣秀吉の章 / ぬえ</title>
-			<title code="0x05">真田幸村の章 / 忍者屋敷</title>
-			<title code="0x0b">真田幸村の章 / 天狗</title>
-			<title code="0x09">徳川家康の章 / 江戸を斬る</title>
-			<title code="0x08">徳川家康の章 / 邪鬼</title>
-			<title code="0x02">SFX</title>
-			<title code="0x0f">ファンファーレ</title>
-			<title code="0x07">勝利</title>
-			<title code="0x0e">帰還</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 2: Sengoku Sorcerian (ソーサリアン 追加シナリオ Vol. 2 戦国ソーサリアン) (YM2608)</name>
+		<name>[PC-88VA] Sengoku Sorcerian (戦国ソーサリアン) (YM2608)</name>
 		<driver type="opna">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
@@ -5015,8 +5167,64 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Gilgamesh Sorcerian (ギルガメッシュソーサリアン) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
+		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 3: Pyramid Sorcerian (ソーサリアン 追加シナリオ Vol. 3 ピラミッドソーサリアン) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x12"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcvav3">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS000</rom>
+			<rom type="bgm" offset="0x02">SS001</rom>
+			<rom type="bgm" offset="0x03">SS002</rom>
+			<rom type="bgm" offset="0x04">SS003</rom>
+			<rom type="bgm" offset="0x05">SS004</rom>
+			<rom type="bgm" offset="0x06">SS005</rom>
+			<rom type="bgm" offset="0x07">SS006</rom>
+			<rom type="bgm" offset="0x08">SS007</rom>
+			<rom type="bgm" offset="0x09">SS008</rom>
+			<rom type="bgm" offset="0x0a">SS009</rom>
+			<rom type="bgm" offset="0x0b">SS010</rom>
+			<rom type="bgm" offset="0x0c">SS011</rom>
+			<rom type="bgm" offset="0x0d">SS012</rom>
+			<rom type="bgm" offset="0x0e">SS013</rom>
+			<rom type="bgm" offset="0x0f">SS046</rom>
+			<rom type="bgm" offset="0x10">SS057</rom>
+			<rom type="bgm" offset="0x11">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Stop the Music</title>
+			<title code="0x0f">メニュー画面           / Sanders Island</title>
+			<title code="0x09">血塗られた王家の秘宝   / Bloody-Diamond</title>
+			<title code="0x0e">血塗られた王家の秘宝   / Tutankhamen</title>
+			<title code="0x04">魔の下僕ガッシュの陰謀 / Forest of Lafaune</title>
+			<title code="0x03">魔の下僕ガッシュの陰謀 / Before Gash</title>
+			<title code="0x06">魔の下僕ガッシュの陰謀 / Gash</title>
+			<title code="0x0a">心を失った姫君         / Cherish-doll</title>
+			<title code="0x0d">心を失った姫君         / Gaddlegun</title>
+			<title code="0x10">嘆きの神殿             / Grievously Shrine</title>
+			<title code="0x07">嘆きの神殿             / Juggler</title>
+			<title code="0x02">ギルバレスの迷宮       / Labyrinth of Gilbares</title>
+			<title code="0x0c">ギルバレスの迷宮       / Foreboding</title>
+			<title code="0x0b">ギルバレスの迷宮       / Gilbares</title>
+			<title code="0x11">ファンファーレ</title>
+			<title code="0x08">シナリオクリア         / Click! Click!</title>
+			<title code="0x05">エンディング           / Good-luck ! Good-by !</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 4: Sorcerian Uchuukara no Houmonsha (ソーサリアン 追加シナリオ Vol. 4 宇宙からの訪問者) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
 		<options>
 			<option name="bootcs" value="0x0000"/>
@@ -5026,45 +5234,45 @@
 			<option name="filesize" value="0x2000"/>
 			<option name="datamax" value="0x11"/>
 		</options>
-		<romlist archive="sorcvav5">
+		<romlist archive="sorcvav4">
 			<rom type="code" offset="0x00000">BIOSD</rom>
 			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
 			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN010</rom>
-			<rom type="bgm" offset="0x02">SN012</rom>
-			<rom type="bgm" offset="0x03">SN020</rom>
-			<rom type="bgm" offset="0x04">SN021</rom>
-			<rom type="bgm" offset="0x05">SN022</rom>
-			<rom type="bgm" offset="0x06">SN030</rom>
-			<rom type="bgm" offset="0x07">SN031</rom>
-			<rom type="bgm" offset="0x08">SN032</rom>
-			<rom type="bgm" offset="0x09">SN033</rom>
-			<rom type="bgm" offset="0x0a">SN040</rom>
-			<rom type="bgm" offset="0x0b">SN042</rom>
-			<rom type="bgm" offset="0x0c">SN050</rom>
-			<rom type="bgm" offset="0x0d">SN052</rom>
-			<rom type="bgm" offset="0x0e">SN085</rom>
-			<rom type="bgm" offset="0x0f">SN088</rom>
-			<rom type="bgm" offset="0x10">SN099</rom>
+			<rom type="bgm" offset="0x01">SS012</rom>
+			<rom type="bgm" offset="0x02">SS013</rom>
+			<rom type="bgm" offset="0x03">SS014</rom>
+			<rom type="bgm" offset="0x04">SS015</rom>
+			<rom type="bgm" offset="0x05">SS016</rom>
+			<rom type="bgm" offset="0x06">SS017</rom>
+			<rom type="bgm" offset="0x07">SS018</rom>
+			<rom type="bgm" offset="0x08">SS020</rom>
+			<rom type="bgm" offset="0x09">SS021</rom>
+			<rom type="bgm" offset="0x0a">SS022</rom>
+			<rom type="bgm" offset="0x0b">SS023</rom>
+			<rom type="bgm" offset="0x0c">SS024</rom>
+			<rom type="bgm" offset="0x0d">SS025</rom>
+			<rom type="bgm" offset="0x0e">SS026</rom>
+			<rom type="bgm" offset="0x0f">SS027</rom>
+			<rom type="bgm" offset="0x10">SS028</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">双頭の魔犬                 / 時計塔</title>
-			<title code="0x02">双頭の魔犬                 / ケルベロス</title>
-			<title code="0x03">二漕のナルキッソス         / ナルキッソス号</title>
-			<title code="0x04">二漕のナルキッソス         / ウォータードラゴン</title>
-			<title code="0x05">二漕のナルキッソス         / ジャイアント・パイン</title>
-			<title code="0x06">白夜に消えた村人           / 村</title>
-			<title code="0x08">白夜に消えた村人           / カンニバル</title>
-			<title code="0x0a">復讐の黒き勇者             / ロボット工場</title>
-			<title code="0x0b">復讐の黒き勇者             / ゴモラ</title>
-			<title code="0x0e">復讐の黒き勇者             / シナリオクリア</title>
-			<title code="0x0c">呪われた国ペンタウァの悲劇 / アザトート城</title>
-			<title code="0x0d">呪われた国ペンタウァの悲劇 / ディンギル</title>
-			<title code="0x10">ファンファーレ</title>
-			<title code="0x0f">Ending (エンディング)</title>
-			<title code="0x07">未使用曲1</title>
-			<title code="0x09">未使用曲2</title>
+			<title code="0x09">愛と悲しみのバンパイヤ / 城</title>
+			<title code="0x0d">愛と悲しみのバンパイヤ / アークデーモン</title>
+			<title code="0x0f">愛と悲しみのバンパイヤ / ファイヤー・ゴーレム</title>
+			<title code="0x0b">愛と悲しみのバンパイヤ / ジャレス</title>
+			<title code="0x0a">愛と悲しみのバンパイヤ / シナリオクリア</title>
+			<title code="0x07">海は広いな             / 海</title>
+			<title code="0x02">海は広いな             / デロルきんちゃく</title>
+			<title code="0x03">食虫植物の森           / 森</title>
+			<title code="0x08">食虫植物の森           / ベララ</title>
+			<title code="0x06">食虫植物の森           / シナリオクリア</title>
+			<title code="0x04">未知なるものへ         / 地上</title>
+			<title code="0x0e">未知なるものへ         / 宇宙</title>
+			<title code="0x0c">未知なるものへ         / 女の子</title>
+			<title code="0x01">未知なるものへ         / ナマコルド</title>
+			<title code="0x05">シナリオクリア</title>
+			<title code="0x10">魔法のアイテム屋WIZ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5100,6 +5308,771 @@
 			<rom type="bgm" offset="0x0e">SS085</rom>
 			<rom type="bgm" offset="0x0f">SS088</rom>
 			<rom type="bgm" offset="0x10">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">双頭の魔犬                 / 時計塔</title>
+			<title code="0x02">双頭の魔犬                 / ケルベロス</title>
+			<title code="0x03">二漕のナルキッソス         / ナルキッソス号</title>
+			<title code="0x04">二漕のナルキッソス         / ウォータードラゴン</title>
+			<title code="0x05">二漕のナルキッソス         / ジャイアント・パイン</title>
+			<title code="0x06">白夜に消えた村人           / 村</title>
+			<title code="0x08">白夜に消えた村人           / カンニバル</title>
+			<title code="0x0a">復讐の黒き勇者             / ロボット工場</title>
+			<title code="0x0b">復讐の黒き勇者             / ゴモラ</title>
+			<title code="0x0e">復讐の黒き勇者             / シナリオクリア</title>
+			<title code="0x0c">呪われた国ペンタウァの悲劇 / アザトート城</title>
+			<title code="0x0d">呪われた国ペンタウァの悲劇 / ディンギル</title>
+			<title code="0x10">ファンファーレ</title>
+			<title code="0x0f">Ending (エンディング)</title>
+			<title code="0x07">未使用曲1</title>
+			<title code="0x09">未使用曲2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Selected Sorcerian 1 (セレクテッドソーサリアン1) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x0c"/>
+		</options>
+		<romlist archive="sorcvav6">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS011</rom>
+			<rom type="bgm" offset="0x02">SS012</rom>
+			<rom type="bgm" offset="0x03">SS013</rom>
+			<rom type="bgm" offset="0x04">SS014</rom>
+			<rom type="bgm" offset="0x05">SS015</rom>
+			<rom type="bgm" offset="0x06">SS016</rom>
+			<rom type="bgm" offset="0x07">SS017</rom>
+			<rom type="bgm" offset="0x08">SS018</rom>
+			<rom type="bgm" offset="0x09">SS072</rom>
+			<rom type="bgm" offset="0x0a">SS073</rom>
+			<rom type="bgm" offset="0x0b">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">美しき花嫁         / ディオンヌ村</title>
+			<title code="0x02">美しき花嫁         / 山賊</title>
+			<title code="0x03">美しき花嫁         / ケイン</title>
+			<title code="0x04">美しき花嫁         / シナリオクリア</title>
+			<title code="0x05">銀の灯が消えた街   / オルソード</title>
+			<title code="0x08">銀の灯が消えた街   / 湖底の都市遺跡</title>
+			<title code="0x06">銀の灯が消えた街   / ゴルディアン</title>
+			<title code="0x07">銀の灯が消えた街   / シナリオクリア</title>
+			<title code="0x0b">ファンファーレ</title>
+			<title code="0x0a">Sorcerian Magazine / メインテーマ</title>
+			<title code="0x09">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Selected Sorcerian 2 (セレクテッドソーサリアン2) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x0d"/>
+		</options>
+		<romlist archive="sorcvav7">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS019</rom>
+			<rom type="bgm" offset="0x02">SS020</rom>
+			<rom type="bgm" offset="0x03">SS021</rom>
+			<rom type="bgm" offset="0x04">SS022</rom>
+			<rom type="bgm" offset="0x05">SS023</rom>
+			<rom type="bgm" offset="0x06">SS024</rom>
+			<rom type="bgm" offset="0x07">SS025</rom>
+			<rom type="bgm" offset="0x08">SS026</rom>
+			<rom type="bgm" offset="0x09">SS027</rom>
+			<rom type="bgm" offset="0x0a">SS072</rom>
+			<rom type="bgm" offset="0x0b">SS073</rom>
+			<rom type="bgm" offset="0x0c">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">パンドラの箱       / 神々の村</title>
+			<title code="0x02">パンドラの箱       / 神殿</title>
+			<title code="0x03">パンドラの箱       / パンドラ</title>
+			<title code="0x04">パンドラの箱       / シナリオクリア</title>
+			<title code="0x05">灼熱のワナ         / 村</title>
+			<title code="0x06">灼熱のワナ         / 火山</title>
+			<title code="0x07">灼熱のワナ         / マグマボイアルド</title>
+			<title code="0x08">灼熱のワナ         / 南の村</title>
+			<title code="0x09">灼熱のワナ         / シナリオクリア</title>
+			<title code="0x0c">ファンファーレ</title>
+			<title code="0x0b">Sorcerian Magazine / メインテーマ</title>
+			<title code="0x0a">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Selected Sorcerian 3 (セレクテッドソーサリアン3) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x1c"/>
+		</options>
+		<romlist archive="sorcvav8">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS028</rom>
+			<rom type="bgm" offset="0x02">SS029</rom>
+			<rom type="bgm" offset="0x03">SS030</rom>
+			<rom type="bgm" offset="0x04">SS031</rom>
+			<rom type="bgm" offset="0x05">SS032</rom>
+			<rom type="bgm" offset="0x06">SS033</rom>
+			<rom type="bgm" offset="0x07">SS034</rom>
+			<rom type="bgm" offset="0x08">SS035</rom>
+			<rom type="bgm" offset="0x09">SS036</rom>
+			<rom type="bgm" offset="0x0a">SS037</rom>
+			<rom type="bgm" offset="0x0b">SS038</rom>
+			<rom type="bgm" offset="0x0c">SS039</rom>
+			<rom type="bgm" offset="0x0d">SS042</rom>
+			<rom type="bgm" offset="0x0e">SS043</rom>
+			<rom type="bgm" offset="0x0f">SS044</rom>
+			<rom type="bgm" offset="0x10">SS045</rom>
+			<rom type="bgm" offset="0x11">SS046</rom>
+			<rom type="bgm" offset="0x12">SS047</rom>
+			<rom type="bgm" offset="0x13">SS048</rom>
+			<rom type="bgm" offset="0x14">SS049</rom>
+			<rom type="bgm" offset="0x15">SS050</rom>
+			<rom type="bgm" offset="0x16">SS061</rom>
+		<!--	<rom type="bgm" offset="0x17">SS070</rom> -->
+			<rom type="bgm" offset="0x18">SS072</rom>
+			<rom type="bgm" offset="0x19">SS073</rom>
+			<rom type="bgm" offset="0x1a">SS098</rom>
+			<rom type="bgm" offset="0x1b">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">時の神殿           / リラ城</title>
+			<title code="0x02">時の神殿           / 神殿</title>
+			<title code="0x09">時の神殿           / サーペット</title>
+			<title code="0x06">時の神殿           / ポジティル</title>
+			<title code="0x16">時の神殿           / ネガティルI</title>
+			<title code="0x0e">時の神殿           / 時空転送装置</title>
+			<title code="0x03">時の神殿           / 神殿・2000年前</title>
+			<title code="0x04">時の神殿           / 不老不死の儀式</title>
+			<title code="0x1a">時の神殿           / 静寂</title>
+			<title code="0x05">時の神殿           / 再来の時</title>
+			<title code="0x07">時の神殿           / ネガティルII</title>
+			<title code="0x0a">時の神殿           / 蘇る記憶</title>
+			<title code="0x08">時の神殿           / キラーボーン</title>
+			<title code="0x0d">時の神殿           / キラーボーンの断末魔</title>
+			<title code="0x0b">時の神殿           / バーランの復活</title>
+			<title code="0x0c">時の神殿           / ポジティルの復活</title>
+			<title code="0x0f">時の神殿           / シナリオクリア</title>
+			<title code="0x15">呪われた遺跡       / 吟遊詩人 バーバラおばさん</title>
+			<title code="0x10">呪われた遺跡       / 村</title>
+			<title code="0x11">呪われた遺跡       / 遺跡</title>
+			<title code="0x13">呪われた遺跡       / マンティピード</title>
+			<title code="0x12">呪われた遺跡       / イスマリア王妃</title>
+			<title code="0x14">呪われた遺跡       / シナリオクリア</title>
+		<!--	<title code="0x17">ゲームオーバー 「Sigh and tears」</title> -->
+			<title code="0x1b">ファンファーレ</title>
+			<title code="0x19">Sorcerian Magazine / メインテーマ</title>
+			<title code="0x18">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Selected Sorcerian 4 (セレクテッドソーサリアン4) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x10"/>
+		</options>
+		<romlist archive="sorcvav9">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS051</rom>
+			<rom type="bgm" offset="0x02">SS052</rom>
+			<rom type="bgm" offset="0x03">SS053</rom>
+			<rom type="bgm" offset="0x04">SS054</rom>
+			<rom type="bgm" offset="0x05">SS055</rom>
+			<rom type="bgm" offset="0x06">SS056</rom>
+			<rom type="bgm" offset="0x07">SS057</rom>
+			<rom type="bgm" offset="0x08">SS058</rom>
+			<rom type="bgm" offset="0x09">SS059</rom>
+			<rom type="bgm" offset="0x0a">SS060</rom>
+			<rom type="bgm" offset="0x0b">SS062</rom>
+		<!--	<rom type="bgm" offset="0x0c">SS070</rom> -->
+			<rom type="bgm" offset="0x0d">SS072</rom>
+			<rom type="bgm" offset="0x0e">SS073</rom>
+			<rom type="bgm" offset="0x0f">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x06">闇に消えた女神     / 太陽の神殿</title>
+			<title code="0x07">闇に消えた女神     / 太陽の女神</title>
+			<title code="0x08">闇に消えた女神     / 地下牢</title>
+			<title code="0x0b">闇に消えた女神     / ミューズの琴</title>
+			<title code="0x09">闇に消えた女神     / 闇の王・ファルカス</title>
+			<title code="0x0a">闇に消えた女神     / シナリオクリア</title>
+			<title code="0x01">妖夢幻伝説         / エマリア国</title>
+			<title code="0x02">妖夢幻伝説         / 摩天楼</title>
+			<title code="0x04">妖夢幻伝説         / ドラゴン島</title>
+			<title code="0x03">妖夢幻伝説         / パズス</title>
+			<title code="0x05">妖夢幻伝説         / シナリオクリア</title>
+		<!--	<title code="0x0c">時の神殿           / ネガティルII</title> -->
+			<title code="0x0f">ファンファーレ</title>
+			<title code="0x0e">Sorcerian Magazine / メインテーマ</title>
+			<title code="0x0d">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Selected Sorcerian 5 (セレクテッドソーサリアン5) (YM2608)</name>
+		<driver type="opna">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x16"/>
+		</options>
+		<romlist archive="sorcvav10">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS2</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SS040</rom>
+			<rom type="bgm" offset="0x02">SS041</rom>
+			<rom type="bgm" offset="0x03">SS063</rom>
+			<rom type="bgm" offset="0x04">SS064</rom>
+			<rom type="bgm" offset="0x05">SS065</rom>
+			<rom type="bgm" offset="0x06">SS066</rom>
+			<rom type="bgm" offset="0x07">SS067</rom>
+			<rom type="bgm" offset="0x08">SS068</rom>
+			<rom type="bgm" offset="0x09">SS069</rom>
+			<rom type="bgm" offset="0x0a">SS070</rom>
+			<rom type="bgm" offset="0x0b">SS071</rom>
+			<rom type="bgm" offset="0x0c">SS072</rom>
+			<rom type="bgm" offset="0x0d">SS073</rom>
+			<rom type="bgm" offset="0x0e">SS074</rom>
+			<rom type="bgm" offset="0x0f">SS092</rom>
+			<rom type="bgm" offset="0x10">SS093</rom>
+			<rom type="bgm" offset="0x11">SS094</rom>
+			<rom type="bgm" offset="0x12">SS095</rom>
+			<rom type="bgm" offset="0x13">SS096</rom>
+			<rom type="bgm" offset="0x14">SS097</rom>
+			<rom type="bgm" offset="0x15">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">封印                           / 刑務所</title>
+			<title code="0x04">封印                           / 遺跡</title>
+			<title code="0x05">封印                           / タウラー&amp;ワーウルフ</title>
+			<title code="0x06">封印                           / リーク・ディオン</title>
+			<title code="0x07">封印                           / シナリオクリア</title>
+			<title code="0x01">それゆけドトーのトライアスロン / エールの交換</title>
+			<title code="0x0b">それゆけドトーのトライアスロン / 競技スタート</title>
+			<title code="0x02">それゆけドトーのトライアスロン / ユイターのソーサリアンクイズ</title>
+			<title code="0x08">それゆけドトーのトライアスロン / 産婆のサンバ</title>
+			<title code="0x0e">それゆけドトーのトライアスロン / ファイヤー・エレメント</title>
+			<title code="0x09">それゆけドトーのトライアスロン / 表彰式</title>
+			<title code="0x0a">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
+			<title code="0x15">ファンファーレ</title>
+			<title code="0x0d">Sorcerian Magazine             / メインテーマ</title>
+			<title code="0x0c">Sorcerian Magazine             / ソーサリアン・ファンクラブ</title>
+			<title code="0x0f">ドラゴンモード                 / アークデーモン</title>
+			<title code="0x10">ドラゴンモード                 / ヴァイデス</title>
+			<title code="0x11">ドラゴンモード                 / キングドラゴン</title>
+			<title code="0x12">ドラゴンモード                 / 風神 雷神</title>
+			<title code="0x13">ドラゴンモード                 / カラミティードラゴン</title>
+			<title code="0x14">スタッフクレジット</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian (ソーサリアン) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x3d"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcva">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN001</rom>
+			<rom type="bgm" offset="0x02">SN002</rom>
+			<rom type="bgm" offset="0x03">SN003</rom>
+			<rom type="bgm" offset="0x04">SN004</rom>
+			<rom type="bgm" offset="0x05">SN005</rom>
+			<rom type="bgm" offset="0x06">SN006</rom>
+			<rom type="bgm" offset="0x07">SN007</rom>
+			<rom type="bgm" offset="0x08">SN008</rom>
+			<rom type="bgm" offset="0x09">SN009</rom>
+			<rom type="bgm" offset="0x0a">SN010</rom>
+			<rom type="bgm" offset="0x0b">SN011</rom>
+			<rom type="bgm" offset="0x0c">SN012</rom>
+			<rom type="bgm" offset="0x0d">SN014</rom>
+			<rom type="bgm" offset="0x0e">SN015</rom>
+			<rom type="bgm" offset="0x0f">SN016</rom>
+			<rom type="bgm" offset="0x10">SN017</rom>
+			<rom type="bgm" offset="0x11">SN018</rom>
+			<rom type="bgm" offset="0x12">SN020</rom>
+			<rom type="bgm" offset="0x13">SN021</rom>
+			<rom type="bgm" offset="0x14">SN022</rom>
+			<rom type="bgm" offset="0x15">SN025</rom>
+			<rom type="bgm" offset="0x16">SN026</rom>
+			<rom type="bgm" offset="0x17">SN027</rom>
+			<rom type="bgm" offset="0x18">SN032</rom>
+			<rom type="bgm" offset="0x19">SN034</rom>
+			<rom type="bgm" offset="0x1a">SN036</rom>
+			<rom type="bgm" offset="0x1b">SN037</rom>
+			<rom type="bgm" offset="0x1c">SN039</rom>
+			<rom type="bgm" offset="0x1d">SN040</rom>
+			<rom type="bgm" offset="0x1e">SN041</rom>
+			<rom type="bgm" offset="0x1f">SN042</rom>
+			<rom type="bgm" offset="0x20">SN043</rom>
+			<rom type="bgm" offset="0x21">SN044</rom>
+			<rom type="bgm" offset="0x22">SN045</rom>
+			<rom type="bgm" offset="0x23">SN047</rom>
+			<rom type="bgm" offset="0x24">SN048</rom>
+			<rom type="bgm" offset="0x25">SN049</rom>
+			<rom type="bgm" offset="0x26">SN053</rom>
+			<rom type="bgm" offset="0x27">SN054</rom>
+			<rom type="bgm" offset="0x28">SN055</rom>
+			<rom type="bgm" offset="0x29">SN058</rom>
+			<rom type="bgm" offset="0x2a">SN059</rom>
+			<rom type="bgm" offset="0x2b">SN060</rom>
+			<rom type="bgm" offset="0x2c">SN061</rom>
+			<rom type="bgm" offset="0x2d">SN062</rom>
+			<rom type="bgm" offset="0x2e">SN068</rom>
+			<rom type="bgm" offset="0x2f">SN069</rom>
+			<rom type="bgm" offset="0x30">SN070</rom>
+			<rom type="bgm" offset="0x31">SN071</rom>
+			<rom type="bgm" offset="0x32">SN081</rom>
+			<rom type="bgm" offset="0x33">SN082</rom>
+			<rom type="bgm" offset="0x34">SN083</rom>
+			<rom type="bgm" offset="0x35">SN084</rom>
+			<rom type="bgm" offset="0x36">SN085</rom>
+			<rom type="bgm" offset="0x37">SN086</rom>
+			<rom type="bgm" offset="0x38">SN090</rom>
+			<rom type="bgm" offset="0x39">SN091</rom>
+			<rom type="bgm" offset="0x3a">SN092</rom>
+			<rom type="bgm" offset="0x3b">SN098</rom>
+			<rom type="bgm" offset="0x3c">SN099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00001c">Opening (オープニング)</title>
+			<title code="0x000011">Castle "Let's Meet Here" (城「ここで逢えるね」)</title>
+			<title code="0x00001d">Town "Pentawa I" (町「ペンタウァI」)</title>
+			<title code="0x00000b">Town "Pentawa II" (町「ペンタウァII」)</title>
+			<title code="0x000012">The Inn "Travelers Inn" (アイテム分配「トラベラーズ・イン」)</title>
+			<title code="0x00002e">Scenario Clear "Beautiful Day" (シナリオクリア「Beautiful day」)</title>
+			<title code="0x000030">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
+			<title code="0x00003c">ファンファーレ</title>
+			<title code="0x00002d">キングドラゴン</title>
+			<title code="0x00003b">キングドラゴン死亡</title>
+			<title code="0x00002c">エンディングI</title>
+			<title code="0x000039">エンディングII</title>
+			<title code="0x000001">消えた王様の杖           / ダンジョン</title>
+			<title code="0x000005">消えた王様の杖           / ヒドラ</title>
+			<title code="0x000010">失われたタリスマン       / 森</title>
+			<title code="0x00001e">失われたタリスマン       / 地下ダンジョン</title>
+			<title code="0x000032">失われたタリスマン       / 神官デヒテル</title>
+			<title code="0x000036">失われたタリスマン       / サンド・マリボー</title>
+			<title code="0x00000a">ルシフェルの水門         / 地下ダンジョン</title>
+			<title code="0x000017">ルシフェルの水門         / クラーケン</title>
+			<title code="0x00001b">呪われたオアシス         / 砂漠</title>
+			<title code="0x000029">呪われたオアシス         / 砂の城</title>
+			<title code="0x00002b">呪われたオアシス         / ルワンとゴールドドラゴン</title>
+			<title code="0x000025">盗賊たちの塔             / 塔</title>
+			<title code="0x000027">盗賊たちの塔             / 地底</title>
+			<title code="0x000028">盗賊たちの塔             / 屋上</title>
+			<title code="0x000033">盗賊たちの塔             / シャドー・ドラゴン</title>
+			<title code="0x000038">盗賊たちの塔             / メジャー・デーモン</title>
+			<title code="0x000019">暗き沼の魔法使い         / 暗き沼</title>
+			<title code="0x000009">暗き沼の魔法使い         / レッド・ドラゴン</title>
+			<title code="0x000003">ロマンシア               / ロマンシア王国</title>
+			<title code="0x000008">ロマンシア               / ロマンシア城</title>
+			<title code="0x000004">ロマンシア               / アゾルバ王国</title>
+			<title code="0x000020">ロマンシア               / ヴァイデス</title>
+			<title code="0x00002f">ロマンシア               / クリア</title>
+			<title code="0x000002">紅玉の謎                 / 森</title>
+			<title code="0x000031">紅玉の謎                 / モス・ジャイアント</title>
+			<title code="0x000018">暗黒の魔導士             / ダンジョンI</title>
+			<title code="0x000016">暗黒の魔導士             / ブルードラゴン</title>
+			<title code="0x000014">暗黒の魔導士             / ダンジョンII</title>
+			<title code="0x00000f">暗黒の魔導士             / ゲディス</title>
+			<title code="0x00000d">呪われたクイーンマリー号 / 船内</title>
+			<title code="0x000021">呪われたクイーンマリー号 / 上陸後</title>
+			<title code="0x000035">呪われたクイーンマリー号 / アークデーモン</title>
+			<title code="0x000024">天の神々たち             / 村</title>
+			<title code="0x00001f">天の神々たち             / コンバットシーン</title>
+			<title code="0x00002a">天の神々たち             / 天上界</title>
+			<title code="0x000022">天の神々たち             / 竪琴</title>
+			<title code="0x000034">天の神々たち             / エビル=シャーマン</title>
+			<title code="0x000007">氷の洞窟                 / 洞窟I</title>
+			<title code="0x000006">氷の洞窟                 / エキム</title>
+			<title code="0x00001a">氷の洞窟                 / 洞窟II</title>
+			<title code="0x00000c">メデューサの首           / 森</title>
+			<title code="0x000026">メデューサの首           / 村</title>
+			<title code="0x000023">メデューサの首           / メデューサ</title>
+			<title code="0x000013">囚われた魔法使い         / 地下要塞</title>
+			<title code="0x000037">囚われた魔法使い         / ファイヤー・エレメント</title>
+			<title code="0x000015">不老長寿の水             / 生きている洞窟</title>
+			<title code="0x00000e">不老長寿の水             / ダブル=デビルズ</title>
+			<title code="0x00003a">不老長寿の水             / 動く心臓</title>
+			<title code="0x000000">SFX #00</title>
+			<title code="0x010000">SFX #01</title>
+			<title code="0x020000">SFX #02</title>
+			<title code="0x030000">SFX #03</title>
+			<title code="0x040000">SFX #04</title>
+			<title code="0x050000">SFX #05</title>
+			<title code="0x060000">SFX #06</title>
+			<title code="0x070000">SFX #07</title>
+			<title code="0x080000">SFX #08</title>
+			<title code="0x090000">SFX #09</title>
+			<title code="0x0a0000">SFX #10</title>
+			<title code="0x0b0000">SFX #11</title>
+			<title code="0x0c0000">SFX #12</title>
+			<title code="0x0d0000">SFX #13</title>
+			<title code="0x0e0000">SFX #14</title>
+			<title code="0x0f0000">SFX #15</title>
+			<title code="0x100000">SFX #16</title>
+			<title code="0x110000">SFX #17</title>
+			<title code="0x120000">SFX #18</title>
+			<title code="0x130000">SFX #19</title>
+			<title code="0x140000">SFX #20</title>
+			<title code="0x150000">SFX #21</title>
+			<title code="0x160000">SFX #22</title>
+			<title code="0x170000">SFX #23</title>
+			<title code="0x180000">SFX #24</title>
+			<title code="0x190000">SFX #25</title>
+			<title code="0x1a0000">SFX #26</title>
+			<title code="0x1b0000">SFX #27</title>
+			<title code="0x1c0000">SFX #28</title>
+			<title code="0x1d0000">SFX #29</title>
+			<title code="0x1e0000">SFX #30</title>
+			<title code="0x1f0000">SFX #31</title>
+			<title code="0x200000">SFX #32</title>
+			<title code="0x210000">SFX #33</title>
+			<title code="0x220000">SFX #34</title>
+			<title code="0x230000">SFX #35</title>
+			<title code="0x240000">SFX #36</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x0d"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcvaut">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN029</rom>
+			<rom type="bgm" offset="0x02">SN036</rom>
+			<rom type="bgm" offset="0x03">SN056</rom>
+			<rom type="bgm" offset="0x04">SN066</rom>
+			<rom type="bgm" offset="0x05">SN067</rom>
+			<rom type="bgm" offset="0x06">SN070</rom>
+			<rom type="bgm" offset="0x07">SN075</rom>
+			<rom type="bgm" offset="0x08">SN087</rom>
+			<rom type="bgm" offset="0x09">SN089</rom>
+			<rom type="bgm" offset="0x0a">SN092</rom>
+			<rom type="bgm" offset="0x0b">SN097</rom>
+			<rom type="bgm" offset="0x0c">SN099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">メニュー                  / The Choice Is Yours</title>
+			<title code="0x04">おたよりをよみたい        / はじめまして</title>
+			<title code="0x05">ソーサリアン・クイズ      / 僕はゲーマーだ!</title>
+			<title code="0x07">ミニミニ・ソーサリアン    / Happy! Happy!</title>
+			<title code="0x01">BGMをききたい             / 消えた王様の杖クリアBGM</title>
+			<title code="0x08">BGMをききたい             / 盗賊たちの塔クリアBGM</title>
+			<title code="0x09">BGMをききたい             / 紅玉の謎クリアBGM</title>
+			<title code="0x0b">BGMをききたい             / モスジャイアント PC-8801</title>
+			<title code="0x02">BGMをききたい             / 氷のどうくつ2</title>
+			<title code="0x0a">BGMをききたい             / 不老長寿の水2</title>
+			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
+			<title code="0x0c">ファンファーレ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 1 (ソーサリアン 追加シナリオ Vol. 1) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x0e"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcvav1">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN013</rom>
+			<rom type="bgm" offset="0x02">SN019</rom>
+			<rom type="bgm" offset="0x03">SN023</rom>
+			<rom type="bgm" offset="0x04">SN024</rom>
+			<rom type="bgm" offset="0x05">SN028</rom>
+			<rom type="bgm" offset="0x06">SN030</rom>
+			<rom type="bgm" offset="0x07">SN031</rom>
+			<rom type="bgm" offset="0x08">SN033</rom>
+			<rom type="bgm" offset="0x09">SN035</rom>
+			<rom type="bgm" offset="0x0a">SN050</rom>
+			<rom type="bgm" offset="0x0b">SN051</rom>
+			<rom type="bgm" offset="0x0c">SN052</rom>
+			<rom type="bgm" offset="0x0d">SN099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x04">魔性の島                     / 魔性の島</title>
+			<title code="0x05">魔性の島                     / ロックデーモン</title>
+			<title code="0x0a">いけにえの神殿               / ローラを救え</title>
+			<title code="0x07">いけにえの神殿               / ミノタウロス</title>
+			<title code="0x0b">いけにえの神殿               / エルジーナ</title>
+			<title code="0x03">悪魔に魅入られた花           / 悪魔に魅入られた花</title>
+			<title code="0x06">悪魔に魅入られた花           / ゴーレム</title>
+			<title code="0x01">嗚呼、ジョセフィーヌは今何処 / いとしのジョセフィーヌ</title>
+			<title code="0x09">嗚呼、ジョセフィーヌは今何処 / アースウォーム</title>
+			<title code="0x02">アマゾンの剣                 / ヴァネルバ</title>
+			<title code="0x08">アマゾンの剣                 / ジョアンナ</title>
+			<title code="0x0d">ファンファーレ</title>
+			<title code="0x0c">CONGRATULATION!</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sengoku Sorcerian (戦国ソーサリアン) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x10"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcvav2">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN000</rom>
+			<rom type="bgm" offset="0x02">SN038</rom>
+			<rom type="bgm" offset="0x03">SN063</rom>
+			<rom type="bgm" offset="0x04">SN064</rom>
+			<rom type="bgm" offset="0x05">SN065</rom>
+			<rom type="bgm" offset="0x06">SN072</rom>
+			<rom type="bgm" offset="0x07">SN077</rom>
+			<rom type="bgm" offset="0x08">SN078</rom>
+			<rom type="bgm" offset="0x09">SN079</rom>
+			<rom type="bgm" offset="0x0a">SN080</rom>
+			<rom type="bgm" offset="0x0b">SN093</rom>
+			<rom type="bgm" offset="0x0c">SN094</rom>
+			<rom type="bgm" offset="0x0d">SN095</rom>
+			<rom type="bgm" offset="0x0e">SN096</rom>
+			<rom type="bgm" offset="0x0f">SN099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Stop the Music</title>
+			<title code="0x03">武田信玄の章 / 異形の地</title>
+			<title code="0x0c">武田信玄の章 / 阿修羅</title>
+			<title code="0x04">織田信長の章 / 雪の五条大橋</title>
+			<title code="0x0d">織田信長の章 / 風神 雷神</title>
+			<title code="0x06">豊臣秀吉の章 / 哀愁の天守閣</title>
+			<title code="0x0a">豊臣秀吉の章 / ぬえ</title>
+			<title code="0x05">真田幸村の章 / 忍者屋敷</title>
+			<title code="0x0b">真田幸村の章 / 天狗</title>
+			<title code="0x09">徳川家康の章 / 江戸を斬る</title>
+			<title code="0x08">徳川家康の章 / 邪鬼</title>
+			<title code="0x02">SFX</title>
+			<title code="0x0f">ファンファーレ</title>
+			<title code="0x07">勝利</title>
+			<title code="0x0e">帰還</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 3: Pyramid Sorcerian (ソーサリアン 追加シナリオ Vol. 3 ピラミッドソーサリアン) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x12"/>
+			<option name="wstimer" value="1"/>
+		</options>
+		<romlist archive="sorcvav3">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="binary" offset="0x10100">c6</rom>
+			<rom type="bgm" offset="0x01">SN000</rom>
+			<rom type="bgm" offset="0x02">SN001</rom>
+			<rom type="bgm" offset="0x03">SN002</rom>
+			<rom type="bgm" offset="0x04">SN003</rom>
+			<rom type="bgm" offset="0x05">SN004</rom>
+			<rom type="bgm" offset="0x06">SN005</rom>
+			<rom type="bgm" offset="0x07">SN006</rom>
+			<rom type="bgm" offset="0x08">SN007</rom>
+			<rom type="bgm" offset="0x09">SN008</rom>
+			<rom type="bgm" offset="0x0a">SN009</rom>
+			<rom type="bgm" offset="0x0b">SN010</rom>
+			<rom type="bgm" offset="0x0c">SN011</rom>
+			<rom type="bgm" offset="0x0d">SN012</rom>
+			<rom type="bgm" offset="0x0e">SN013</rom>
+			<rom type="bgm" offset="0x0f">SN046</rom>
+			<rom type="bgm" offset="0x10">SN057</rom>
+			<rom type="bgm" offset="0x11">SN099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Stop the Music</title>
+			<title code="0x0f">メニュー画面           / Sanders Island</title>
+			<title code="0x09">血塗られた王家の秘宝   / Bloody-Diamond</title>
+			<title code="0x0e">血塗られた王家の秘宝   / Tutankhamen</title>
+			<title code="0x04">魔の下僕ガッシュの陰謀 / Forest of Lafaune</title>
+			<title code="0x03">魔の下僕ガッシュの陰謀 / Before Gash</title>
+			<title code="0x06">魔の下僕ガッシュの陰謀 / Gash</title>
+			<title code="0x0a">心を失った姫君         / Cherish-doll</title>
+			<title code="0x0d">心を失った姫君         / Gaddlegun</title>
+			<title code="0x10">嘆きの神殿             / Grievously Shrine</title>
+			<title code="0x07">嘆きの神殿             / Juggler</title>
+			<title code="0x02">ギルバレスの迷宮       / Labyrinth of Gilbares</title>
+			<title code="0x0c">ギルバレスの迷宮       / Foreboding</title>
+			<title code="0x0b">ギルバレスの迷宮       / Gilbares</title>
+			<title code="0x11">ファンファーレ</title>
+			<title code="0x08">シナリオクリア         / Click! Click!</title>
+			<title code="0x05">エンディング           / Good-luck ! Good-by !</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 4: Sorcerian Uchuukara no Houmonsha (ソーサリアン 追加シナリオ Vol. 4 宇宙からの訪問者) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x11"/>
+		</options>
+		<romlist archive="sorcvav4">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN012</rom>
+			<rom type="bgm" offset="0x02">SN013</rom>
+			<rom type="bgm" offset="0x03">SN014</rom>
+			<rom type="bgm" offset="0x04">SN015</rom>
+			<rom type="bgm" offset="0x05">SN016</rom>
+			<rom type="bgm" offset="0x06">SN017</rom>
+			<rom type="bgm" offset="0x07">SN018</rom>
+			<rom type="bgm" offset="0x08">SN020</rom>
+			<rom type="bgm" offset="0x09">SN021</rom>
+			<rom type="bgm" offset="0x0a">SN022</rom>
+			<rom type="bgm" offset="0x0b">SN023</rom>
+			<rom type="bgm" offset="0x0c">SN024</rom>
+			<rom type="bgm" offset="0x0d">SN025</rom>
+			<rom type="bgm" offset="0x0e">SN026</rom>
+			<rom type="bgm" offset="0x0f">SN027</rom>
+			<rom type="bgm" offset="0x10">SN028</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x09">愛と悲しみのバンパイヤ / 城</title>
+			<title code="0x0d">愛と悲しみのバンパイヤ / アークデーモン</title>
+			<title code="0x0f">愛と悲しみのバンパイヤ / ファイヤー・ゴーレム</title>
+			<title code="0x0b">愛と悲しみのバンパイヤ / ジャレス</title>
+			<title code="0x0a">愛と悲しみのバンパイヤ / シナリオクリア</title>
+			<title code="0x07">海は広いな             / 海</title>
+			<title code="0x02">海は広いな             / デロルきんちゃく</title>
+			<title code="0x03">食虫植物の森           / 森</title>
+			<title code="0x08">食虫植物の森           / ベララ</title>
+			<title code="0x06">食虫植物の森           / シナリオクリア</title>
+			<title code="0x04">未知なるものへ         / 地上</title>
+			<title code="0x0e">未知なるものへ         / 宇宙</title>
+			<title code="0x0c">未知なるものへ         / 女の子</title>
+			<title code="0x01">未知なるものへ         / ナマコルド</title>
+			<title code="0x05">シナリオクリア</title>
+			<title code="0x10">魔法のアイテム屋WIZ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] Gilgamesh Sorcerian (ギルガメッシュソーサリアン) (YM2203)</name>
+		<driver type="opn">pc88va</driver>
+		<driveralias type="PC-88VA">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x11800"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="datamax" value="0x11"/>
+		</options>
+		<romlist archive="sorcvav5">
+			<rom type="code" offset="0x00000">BIOSD</rom>
+			<rom type="code" offset="0x0f000">sorcva.bin</rom>
+			<rom type="code" offset="0x10000">BIOSS</rom>
+			<rom type="code" offset="0x11000">DSEFC</rom>
+			<rom type="bgm" offset="0x01">SN010</rom>
+			<rom type="bgm" offset="0x02">SN012</rom>
+			<rom type="bgm" offset="0x03">SN020</rom>
+			<rom type="bgm" offset="0x04">SN021</rom>
+			<rom type="bgm" offset="0x05">SN022</rom>
+			<rom type="bgm" offset="0x06">SN030</rom>
+			<rom type="bgm" offset="0x07">SN031</rom>
+			<rom type="bgm" offset="0x08">SN032</rom>
+			<rom type="bgm" offset="0x09">SN033</rom>
+			<rom type="bgm" offset="0x0a">SN040</rom>
+			<rom type="bgm" offset="0x0b">SN042</rom>
+			<rom type="bgm" offset="0x0c">SN050</rom>
+			<rom type="bgm" offset="0x0d">SN052</rom>
+			<rom type="bgm" offset="0x0e">SN085</rom>
+			<rom type="bgm" offset="0x0f">SN088</rom>
+			<rom type="bgm" offset="0x10">SN099</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">双頭の魔犬                 / 時計塔</title>
@@ -5164,49 +6137,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Selected Sorcerian 1 (セレクテッドソーサリアン1) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x0c"/>
-		</options>
-		<romlist archive="sorcvav6">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS011</rom>
-			<rom type="bgm" offset="0x02">SS012</rom>
-			<rom type="bgm" offset="0x03">SS013</rom>
-			<rom type="bgm" offset="0x04">SS014</rom>
-			<rom type="bgm" offset="0x05">SS015</rom>
-			<rom type="bgm" offset="0x06">SS016</rom>
-			<rom type="bgm" offset="0x07">SS017</rom>
-			<rom type="bgm" offset="0x08">SS018</rom>
-			<rom type="bgm" offset="0x09">SS072</rom>
-			<rom type="bgm" offset="0x0a">SS073</rom>
-			<rom type="bgm" offset="0x0b">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">美しき花嫁         / ディオンヌ村</title>
-			<title code="0x02">美しき花嫁         / 山賊</title>
-			<title code="0x03">美しき花嫁         / ケイン</title>
-			<title code="0x04">美しき花嫁         / シナリオクリア</title>
-			<title code="0x05">銀の灯が消えた街   / オルソード</title>
-			<title code="0x08">銀の灯が消えた街   / 湖底の都市遺跡</title>
-			<title code="0x06">銀の灯が消えた街   / ゴルディアン</title>
-			<title code="0x07">銀の灯が消えた街   / シナリオクリア</title>
-			<title code="0x0b">ファンファーレ</title>
-			<title code="0x0a">Sorcerian Magazine / メインテーマ</title>
-			<title code="0x09">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-88VA] Selected Sorcerian 2 (セレクテッドソーサリアン2) (YM2203)</name>
 		<driver type="opn">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
@@ -5235,51 +6165,6 @@
 			<rom type="bgm" offset="0x0a">SN072</rom>
 			<rom type="bgm" offset="0x0b">SN073</rom>
 			<rom type="bgm" offset="0x0c">SN099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">パンドラの箱       / 神々の村</title>
-			<title code="0x02">パンドラの箱       / 神殿</title>
-			<title code="0x03">パンドラの箱       / パンドラ</title>
-			<title code="0x04">パンドラの箱       / シナリオクリア</title>
-			<title code="0x05">灼熱のワナ         / 村</title>
-			<title code="0x06">灼熱のワナ         / 火山</title>
-			<title code="0x07">灼熱のワナ         / マグマボイアルド</title>
-			<title code="0x08">灼熱のワナ         / 南の村</title>
-			<title code="0x09">灼熱のワナ         / シナリオクリア</title>
-			<title code="0x0c">ファンファーレ</title>
-			<title code="0x0b">Sorcerian Magazine / メインテーマ</title>
-			<title code="0x0a">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Selected Sorcerian 2 (セレクテッドソーサリアン2) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x0d"/>
-		</options>
-		<romlist archive="sorcvav7">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS019</rom>
-			<rom type="bgm" offset="0x02">SS020</rom>
-			<rom type="bgm" offset="0x03">SS021</rom>
-			<rom type="bgm" offset="0x04">SS022</rom>
-			<rom type="bgm" offset="0x05">SS023</rom>
-			<rom type="bgm" offset="0x06">SS024</rom>
-			<rom type="bgm" offset="0x07">SS025</rom>
-			<rom type="bgm" offset="0x08">SS026</rom>
-			<rom type="bgm" offset="0x09">SS027</rom>
-			<rom type="bgm" offset="0x0a">SS072</rom>
-			<rom type="bgm" offset="0x0b">SS073</rom>
-			<rom type="bgm" offset="0x0c">SS099</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">パンドラの箱       / 神々の村</title>
@@ -5372,81 +6257,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] Selected Sorcerian 3 (セレクテッドソーサリアン3) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x1c"/>
-		</options>
-		<romlist archive="sorcvav8">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS028</rom>
-			<rom type="bgm" offset="0x02">SS029</rom>
-			<rom type="bgm" offset="0x03">SS030</rom>
-			<rom type="bgm" offset="0x04">SS031</rom>
-			<rom type="bgm" offset="0x05">SS032</rom>
-			<rom type="bgm" offset="0x06">SS033</rom>
-			<rom type="bgm" offset="0x07">SS034</rom>
-			<rom type="bgm" offset="0x08">SS035</rom>
-			<rom type="bgm" offset="0x09">SS036</rom>
-			<rom type="bgm" offset="0x0a">SS037</rom>
-			<rom type="bgm" offset="0x0b">SS038</rom>
-			<rom type="bgm" offset="0x0c">SS039</rom>
-			<rom type="bgm" offset="0x0d">SS042</rom>
-			<rom type="bgm" offset="0x0e">SS043</rom>
-			<rom type="bgm" offset="0x0f">SS044</rom>
-			<rom type="bgm" offset="0x10">SS045</rom>
-			<rom type="bgm" offset="0x11">SS046</rom>
-			<rom type="bgm" offset="0x12">SS047</rom>
-			<rom type="bgm" offset="0x13">SS048</rom>
-			<rom type="bgm" offset="0x14">SS049</rom>
-			<rom type="bgm" offset="0x15">SS050</rom>
-			<rom type="bgm" offset="0x16">SS061</rom>
-		<!--	<rom type="bgm" offset="0x17">SS070</rom> -->
-			<rom type="bgm" offset="0x18">SS072</rom>
-			<rom type="bgm" offset="0x19">SS073</rom>
-			<rom type="bgm" offset="0x1a">SS098</rom>
-			<rom type="bgm" offset="0x1b">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">時の神殿           / リラ城</title>
-			<title code="0x02">時の神殿           / 神殿</title>
-			<title code="0x09">時の神殿           / サーペット</title>
-			<title code="0x06">時の神殿           / ポジティル</title>
-			<title code="0x16">時の神殿           / ネガティルI</title>
-			<title code="0x0e">時の神殿           / 時空転送装置</title>
-			<title code="0x03">時の神殿           / 神殿・2000年前</title>
-			<title code="0x04">時の神殿           / 不老不死の儀式</title>
-			<title code="0x1a">時の神殿           / 静寂</title>
-			<title code="0x05">時の神殿           / 再来の時</title>
-			<title code="0x07">時の神殿           / ネガティルII</title>
-			<title code="0x0a">時の神殿           / 蘇る記憶</title>
-			<title code="0x08">時の神殿           / キラーボーン</title>
-			<title code="0x0d">時の神殿           / キラーボーンの断末魔</title>
-			<title code="0x0b">時の神殿           / バーランの復活</title>
-			<title code="0x0c">時の神殿           / ポジティルの復活</title>
-			<title code="0x0f">時の神殿           / シナリオクリア</title>
-			<title code="0x15">呪われた遺跡       / 吟遊詩人 バーバラおばさん</title>
-			<title code="0x10">呪われた遺跡       / 村</title>
-			<title code="0x11">呪われた遺跡       / 遺跡</title>
-			<title code="0x13">呪われた遺跡       / マンティピード</title>
-			<title code="0x12">呪われた遺跡       / イスマリア王妃</title>
-			<title code="0x14">呪われた遺跡       / シナリオクリア</title>
-		<!--	<title code="0x17">ゲームオーバー 「Sigh and tears」</title> -->
-			<title code="0x1b">ファンファーレ</title>
-			<title code="0x19">Sorcerian Magazine / メインテーマ</title>
-			<title code="0x18">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-88VA] Selected Sorcerian 4 (セレクテッドソーサリアン4) (YM2203)</name>
 		<driver type="opn">pc88va</driver>
 		<driveralias type="PC-88VA">Falcom</driveralias>
@@ -5495,57 +6305,6 @@
 			<title code="0x0e">Sorcerian Magazine / メインテーマ</title>
 			<title code="0x0d">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
 			<title code="0x0c">時の神殿           / ネガティルII</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Selected Sorcerian 4 (セレクテッドソーサリアン4) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x10"/>
-		</options>
-		<romlist archive="sorcvav9">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS051</rom>
-			<rom type="bgm" offset="0x02">SS052</rom>
-			<rom type="bgm" offset="0x03">SS053</rom>
-			<rom type="bgm" offset="0x04">SS054</rom>
-			<rom type="bgm" offset="0x05">SS055</rom>
-			<rom type="bgm" offset="0x06">SS056</rom>
-			<rom type="bgm" offset="0x07">SS057</rom>
-			<rom type="bgm" offset="0x08">SS058</rom>
-			<rom type="bgm" offset="0x09">SS059</rom>
-			<rom type="bgm" offset="0x0a">SS060</rom>
-			<rom type="bgm" offset="0x0b">SS062</rom>
-		<!--	<rom type="bgm" offset="0x0c">SS070</rom> -->
-			<rom type="bgm" offset="0x0d">SS072</rom>
-			<rom type="bgm" offset="0x0e">SS073</rom>
-			<rom type="bgm" offset="0x0f">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x06">闇に消えた女神     / 太陽の神殿</title>
-			<title code="0x07">闇に消えた女神     / 太陽の女神</title>
-			<title code="0x08">闇に消えた女神     / 地下牢</title>
-			<title code="0x0b">闇に消えた女神     / ミューズの琴</title>
-			<title code="0x09">闇に消えた女神     / 闇の王・ファルカス</title>
-			<title code="0x0a">闇に消えた女神     / シナリオクリア</title>
-			<title code="0x01">妖夢幻伝説         / エマリア国</title>
-			<title code="0x02">妖夢幻伝説         / 摩天楼</title>
-			<title code="0x04">妖夢幻伝説         / ドラゴン島</title>
-			<title code="0x03">妖夢幻伝説         / パズス</title>
-			<title code="0x05">妖夢幻伝説         / シナリオクリア</title>
-		<!--	<title code="0x0c">時の神殿           / ネガティルII</title> -->
-			<title code="0x0f">ファンファーレ</title>
-			<title code="0x0e">Sorcerian Magazine / メインテーマ</title>
-			<title code="0x0d">Sorcerian Magazine / ソーサリアン・ファンクラブ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5609,380 +6368,6 @@
 			<title code="0x12">ドラゴンモード                 / 風神 雷神</title>
 			<title code="0x13">ドラゴンモード                 / カラミティードラゴン</title>
 			<title code="0x14">スタッフクレジット</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Selected Sorcerian 5 (セレクテッドソーサリアン5) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x16"/>
-		</options>
-		<romlist archive="sorcvav10">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS040</rom>
-			<rom type="bgm" offset="0x02">SS041</rom>
-			<rom type="bgm" offset="0x03">SS063</rom>
-			<rom type="bgm" offset="0x04">SS064</rom>
-			<rom type="bgm" offset="0x05">SS065</rom>
-			<rom type="bgm" offset="0x06">SS066</rom>
-			<rom type="bgm" offset="0x07">SS067</rom>
-			<rom type="bgm" offset="0x08">SS068</rom>
-			<rom type="bgm" offset="0x09">SS069</rom>
-			<rom type="bgm" offset="0x0a">SS070</rom>
-			<rom type="bgm" offset="0x0b">SS071</rom>
-			<rom type="bgm" offset="0x0c">SS072</rom>
-			<rom type="bgm" offset="0x0d">SS073</rom>
-			<rom type="bgm" offset="0x0e">SS074</rom>
-			<rom type="bgm" offset="0x0f">SS092</rom>
-			<rom type="bgm" offset="0x10">SS093</rom>
-			<rom type="bgm" offset="0x11">SS094</rom>
-			<rom type="bgm" offset="0x12">SS095</rom>
-			<rom type="bgm" offset="0x13">SS096</rom>
-			<rom type="bgm" offset="0x14">SS097</rom>
-			<rom type="bgm" offset="0x15">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x03">封印                           / 刑務所</title>
-			<title code="0x04">封印                           / 遺跡</title>
-			<title code="0x05">封印                           / タウラー&amp;ワーウルフ</title>
-			<title code="0x06">封印                           / リーク・ディオン</title>
-			<title code="0x07">封印                           / シナリオクリア</title>
-			<title code="0x01">それゆけドトーのトライアスロン / エールの交換</title>
-			<title code="0x0b">それゆけドトーのトライアスロン / 競技スタート</title>
-			<title code="0x02">それゆけドトーのトライアスロン / ユイターのソーサリアンクイズ</title>
-			<title code="0x08">それゆけドトーのトライアスロン / 産婆のサンバ</title>
-			<title code="0x0e">それゆけドトーのトライアスロン / ファイヤー・エレメント</title>
-			<title code="0x09">それゆけドトーのトライアスロン / 表彰式</title>
-			<title code="0x0a">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-			<title code="0x15">ファンファーレ</title>
-			<title code="0x0d">Sorcerian Magazine             / メインテーマ</title>
-			<title code="0x0c">Sorcerian Magazine             / ソーサリアン・ファンクラブ</title>
-			<title code="0x0f">ドラゴンモード                 / アークデーモン</title>
-			<title code="0x10">ドラゴンモード                 / ヴァイデス</title>
-			<title code="0x11">ドラゴンモード                 / キングドラゴン</title>
-			<title code="0x12">ドラゴンモード                 / 風神 雷神</title>
-			<title code="0x13">ドラゴンモード                 / カラミティードラゴン</title>
-			<title code="0x14">スタッフクレジット</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 3: Pyramid Sorcerian (ソーサリアン 追加シナリオ Vol. 3 ピラミッドソーサリアン) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x12"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcvav3">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="binary" offset="0x10100">c6</rom>
-			<rom type="bgm" offset="0x01">SN000</rom>
-			<rom type="bgm" offset="0x02">SN001</rom>
-			<rom type="bgm" offset="0x03">SN002</rom>
-			<rom type="bgm" offset="0x04">SN003</rom>
-			<rom type="bgm" offset="0x05">SN004</rom>
-			<rom type="bgm" offset="0x06">SN005</rom>
-			<rom type="bgm" offset="0x07">SN006</rom>
-			<rom type="bgm" offset="0x08">SN007</rom>
-			<rom type="bgm" offset="0x09">SN008</rom>
-			<rom type="bgm" offset="0x0a">SN009</rom>
-			<rom type="bgm" offset="0x0b">SN010</rom>
-			<rom type="bgm" offset="0x0c">SN011</rom>
-			<rom type="bgm" offset="0x0d">SN012</rom>
-			<rom type="bgm" offset="0x0e">SN013</rom>
-			<rom type="bgm" offset="0x0f">SN046</rom>
-			<rom type="bgm" offset="0x10">SN057</rom>
-			<rom type="bgm" offset="0x11">SN099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Stop the Music</title>
-			<title code="0x0f">メニュー画面           / Sanders Island</title>
-			<title code="0x09">血塗られた王家の秘宝   / Bloody-Diamond</title>
-			<title code="0x0e">血塗られた王家の秘宝   / Tutankhamen</title>
-			<title code="0x04">魔の下僕ガッシュの陰謀 / Forest of Lafaune</title>
-			<title code="0x03">魔の下僕ガッシュの陰謀 / Before Gash</title>
-			<title code="0x06">魔の下僕ガッシュの陰謀 / Gash</title>
-			<title code="0x0a">心を失った姫君         / Cherish-doll</title>
-			<title code="0x0d">心を失った姫君         / Gaddlegun</title>
-			<title code="0x10">嘆きの神殿             / Grievously Shrine</title>
-			<title code="0x07">嘆きの神殿             / Juggler</title>
-			<title code="0x02">ギルバレスの迷宮       / Labyrinth of Gilbares</title>
-			<title code="0x0c">ギルバレスの迷宮       / Foreboding</title>
-			<title code="0x0b">ギルバレスの迷宮       / Gilbares</title>
-			<title code="0x11">ファンファーレ</title>
-			<title code="0x08">シナリオクリア         / Click! Click!</title>
-			<title code="0x05">エンディング           / Good-luck ! Good-by !</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 3: Pyramid Sorcerian (ソーサリアン 追加シナリオ Vol. 3 ピラミッドソーサリアン) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x12"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcvav3">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS000</rom>
-			<rom type="bgm" offset="0x02">SS001</rom>
-			<rom type="bgm" offset="0x03">SS002</rom>
-			<rom type="bgm" offset="0x04">SS003</rom>
-			<rom type="bgm" offset="0x05">SS004</rom>
-			<rom type="bgm" offset="0x06">SS005</rom>
-			<rom type="bgm" offset="0x07">SS006</rom>
-			<rom type="bgm" offset="0x08">SS007</rom>
-			<rom type="bgm" offset="0x09">SS008</rom>
-			<rom type="bgm" offset="0x0a">SS009</rom>
-			<rom type="bgm" offset="0x0b">SS010</rom>
-			<rom type="bgm" offset="0x0c">SS011</rom>
-			<rom type="bgm" offset="0x0d">SS012</rom>
-			<rom type="bgm" offset="0x0e">SS013</rom>
-			<rom type="bgm" offset="0x0f">SS046</rom>
-			<rom type="bgm" offset="0x10">SS057</rom>
-			<rom type="bgm" offset="0x11">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Stop the Music</title>
-			<title code="0x0f">メニュー画面           / Sanders Island</title>
-			<title code="0x09">血塗られた王家の秘宝   / Bloody-Diamond</title>
-			<title code="0x0e">血塗られた王家の秘宝   / Tutankhamen</title>
-			<title code="0x04">魔の下僕ガッシュの陰謀 / Forest of Lafaune</title>
-			<title code="0x03">魔の下僕ガッシュの陰謀 / Before Gash</title>
-			<title code="0x06">魔の下僕ガッシュの陰謀 / Gash</title>
-			<title code="0x0a">心を失った姫君         / Cherish-doll</title>
-			<title code="0x0d">心を失った姫君         / Gaddlegun</title>
-			<title code="0x10">嘆きの神殿             / Grievously Shrine</title>
-			<title code="0x07">嘆きの神殿             / Juggler</title>
-			<title code="0x02">ギルバレスの迷宮       / Labyrinth of Gilbares</title>
-			<title code="0x0c">ギルバレスの迷宮       / Foreboding</title>
-			<title code="0x0b">ギルバレスの迷宮       / Gilbares</title>
-			<title code="0x11">ファンファーレ</title>
-			<title code="0x08">シナリオクリア         / Click! Click!</title>
-			<title code="0x05">エンディング           / Good-luck ! Good-by !</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x0d"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcvaut">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN029</rom>
-			<rom type="bgm" offset="0x02">SN036</rom>
-			<rom type="bgm" offset="0x03">SN056</rom>
-			<rom type="bgm" offset="0x04">SN066</rom>
-			<rom type="bgm" offset="0x05">SN067</rom>
-			<rom type="bgm" offset="0x06">SN070</rom>
-			<rom type="bgm" offset="0x07">SN075</rom>
-			<rom type="bgm" offset="0x08">SN087</rom>
-			<rom type="bgm" offset="0x09">SN089</rom>
-			<rom type="bgm" offset="0x0a">SN092</rom>
-			<rom type="bgm" offset="0x0b">SN097</rom>
-			<rom type="bgm" offset="0x0c">SN099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x03">メニュー                  / The Choice Is Yours</title>
-			<title code="0x04">おたよりをよみたい        / はじめまして</title>
-			<title code="0x05">ソーサリアン・クイズ      / 僕はゲーマーだ!</title>
-			<title code="0x07">ミニミニ・ソーサリアン    / Happy! Happy!</title>
-			<title code="0x01">BGMをききたい             / 消えた王様の杖クリアBGM</title>
-			<title code="0x08">BGMをききたい             / 盗賊たちの塔クリアBGM</title>
-			<title code="0x09">BGMをききたい             / 紅玉の謎クリアBGM</title>
-			<title code="0x0b">BGMをききたい             / モスジャイアント PC-8801</title>
-			<title code="0x02">BGMをききたい             / 氷のどうくつ2</title>
-			<title code="0x0a">BGMをききたい             / 不老長寿の水2</title>
-			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-			<title code="0x0c">ファンファーレ</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x0d"/>
-			<option name="wstimer" value="1"/>
-		</options>
-		<romlist archive="sorcvaut">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS029</rom>
-			<rom type="bgm" offset="0x02">SS036</rom>
-			<rom type="bgm" offset="0x03">SS056</rom>
-			<rom type="bgm" offset="0x04">SS066</rom>
-			<rom type="bgm" offset="0x05">SS067</rom>
-			<rom type="bgm" offset="0x06">SS070</rom>
-			<rom type="bgm" offset="0x07">SS075</rom>
-			<rom type="bgm" offset="0x08">SS087</rom>
-			<rom type="bgm" offset="0x09">SS089</rom>
-			<rom type="bgm" offset="0x0a">SS092</rom>
-			<rom type="bgm" offset="0x0b">SS097</rom>
-			<rom type="bgm" offset="0x0c">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x03">メニュー                  / The Choice Is Yours</title>
-			<title code="0x04">おたよりをよみたい        / はじめまして</title>
-			<title code="0x05">ソーサリアン・クイズ      / 僕はゲーマーだ!</title>
-			<title code="0x07">ミニミニ・ソーサリアン    / Happy! Happy!</title>
-			<title code="0x01">BGMをききたい             / 消えた王様の杖クリアBGM</title>
-			<title code="0x08">BGMをききたい             / 盗賊たちの塔クリアBGM</title>
-			<title code="0x09">BGMをききたい             / 紅玉の謎クリアBGM</title>
-			<title code="0x0b">BGMをききたい             / モスジャイアント PC-8801</title>
-			<title code="0x02">BGMをききたい             / 氷のどうくつ2</title>
-			<title code="0x0a">BGMをききたい             / 不老長寿の水2</title>
-			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-			<title code="0x0c">ファンファーレ</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 4: Sorcerian Uchuukara no Houmonsha (ソーサリアン 追加シナリオ Vol. 4 宇宙からの訪問者) (YM2203)</name>
-		<driver type="opn">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x11"/>
-		</options>
-		<romlist archive="sorcvav4">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SN012</rom>
-			<rom type="bgm" offset="0x02">SN013</rom>
-			<rom type="bgm" offset="0x03">SN014</rom>
-			<rom type="bgm" offset="0x04">SN015</rom>
-			<rom type="bgm" offset="0x05">SN016</rom>
-			<rom type="bgm" offset="0x06">SN017</rom>
-			<rom type="bgm" offset="0x07">SN018</rom>
-			<rom type="bgm" offset="0x08">SN020</rom>
-			<rom type="bgm" offset="0x09">SN021</rom>
-			<rom type="bgm" offset="0x0a">SN022</rom>
-			<rom type="bgm" offset="0x0b">SN023</rom>
-			<rom type="bgm" offset="0x0c">SN024</rom>
-			<rom type="bgm" offset="0x0d">SN025</rom>
-			<rom type="bgm" offset="0x0e">SN026</rom>
-			<rom type="bgm" offset="0x0f">SN027</rom>
-			<rom type="bgm" offset="0x10">SN028</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x09">愛と悲しみのバンパイヤ / 城</title>
-			<title code="0x0d">愛と悲しみのバンパイヤ / アークデーモン</title>
-			<title code="0x0f">愛と悲しみのバンパイヤ / ファイヤー・ゴーレム</title>
-			<title code="0x0b">愛と悲しみのバンパイヤ / ジャレス</title>
-			<title code="0x0a">愛と悲しみのバンパイヤ / シナリオクリア</title>
-			<title code="0x07">海は広いな             / 海</title>
-			<title code="0x02">海は広いな             / デロルきんちゃく</title>
-			<title code="0x03">食虫植物の森           / 森</title>
-			<title code="0x08">食虫植物の森           / ベララ</title>
-			<title code="0x06">食虫植物の森           / シナリオクリア</title>
-			<title code="0x04">未知なるものへ         / 地上</title>
-			<title code="0x0e">未知なるものへ         / 宇宙</title>
-			<title code="0x0c">未知なるものへ         / 女の子</title>
-			<title code="0x01">未知なるものへ         / ナマコルド</title>
-			<title code="0x05">シナリオクリア</title>
-			<title code="0x10">魔法のアイテム屋WIZ</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-88VA] Sorcerian Extra Scenario Vol. 4: Sorcerian Uchuukara no Houmonsha (ソーサリアン 追加シナリオ Vol. 4 宇宙からの訪問者) (YM2608)</name>
-		<driver type="opna">pc88va</driver>
-		<driveralias type="PC-88VA">Falcom</driveralias>
-		<options>
-			<option name="bootcs" value="0x0000"/>
-			<option name="bootip" value="0xf000"/>
-			<option name="dataaddr" value="0x11800"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="filesize" value="0x2000"/>
-			<option name="datamax" value="0x11"/>
-		</options>
-		<romlist archive="sorcvav4">
-			<rom type="code" offset="0x00000">BIOSD</rom>
-			<rom type="code" offset="0x0f000">sorcva.bin</rom>
-			<rom type="code" offset="0x10000">BIOSS2</rom>
-			<rom type="code" offset="0x11000">DSEFC</rom>
-			<rom type="bgm" offset="0x01">SS012</rom>
-			<rom type="bgm" offset="0x02">SS013</rom>
-			<rom type="bgm" offset="0x03">SS014</rom>
-			<rom type="bgm" offset="0x04">SS015</rom>
-			<rom type="bgm" offset="0x05">SS016</rom>
-			<rom type="bgm" offset="0x06">SS017</rom>
-			<rom type="bgm" offset="0x07">SS018</rom>
-			<rom type="bgm" offset="0x08">SS020</rom>
-			<rom type="bgm" offset="0x09">SS021</rom>
-			<rom type="bgm" offset="0x0a">SS022</rom>
-			<rom type="bgm" offset="0x0b">SS023</rom>
-			<rom type="bgm" offset="0x0c">SS024</rom>
-			<rom type="bgm" offset="0x0d">SS025</rom>
-			<rom type="bgm" offset="0x0e">SS026</rom>
-			<rom type="bgm" offset="0x0f">SS027</rom>
-			<rom type="bgm" offset="0x10">SS028</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x09">愛と悲しみのバンパイヤ / 城</title>
-			<title code="0x0d">愛と悲しみのバンパイヤ / アークデーモン</title>
-			<title code="0x0f">愛と悲しみのバンパイヤ / ファイヤー・ゴーレム</title>
-			<title code="0x0b">愛と悲しみのバンパイヤ / ジャレス</title>
-			<title code="0x0a">愛と悲しみのバンパイヤ / シナリオクリア</title>
-			<title code="0x07">海は広いな             / 海</title>
-			<title code="0x02">海は広いな             / デロルきんちゃく</title>
-			<title code="0x03">食虫植物の森           / 森</title>
-			<title code="0x08">食虫植物の森           / ベララ</title>
-			<title code="0x06">食虫植物の森           / シナリオクリア</title>
-			<title code="0x04">未知なるものへ         / 地上</title>
-			<title code="0x0e">未知なるものへ         / 宇宙</title>
-			<title code="0x0c">未知なるものへ         / 女の子</title>
-			<title code="0x01">未知なるものへ         / ナマコルド</title>
-			<title code="0x05">シナリオクリア</title>
-			<title code="0x10">魔法のアイテム屋WIZ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6164,7 +6549,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2203)</name>
+		<name>[PC-9801] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -6932,7 +7317,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (BEEP)</name>
+		<name>[PC-9801] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (BEEP)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -7728,7 +8113,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (YM2203)</name>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -7786,7 +8171,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (BEEP)</name>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (BEEP)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -7844,7 +8229,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説II) (YM2608)</name>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説II) (YM2608)</name>
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -7928,7 +8313,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説II) (YM2203)</name>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説II) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -8011,7 +8396,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説II) (BEEP)</name>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説II) (BEEP)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Falcom</driveralias>
 		<options>
@@ -8091,6 +8476,184 @@
 			<title code="0x1f">Opening (オープニング)</title>
 			<title code="0x20">Ending (エンディング)</title>
 			<title code="0x21">Utility (ユーティリティー)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II Demo (ドラゴンスレイヤー 英雄伝説II (店頭デモ版)) (YM2608)</name>
+		<driver type="opna">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax"  value="0x15"/>
+			<option name="rhy_mix"  value="19"/>
+		</options>
+		<romlist archive="ed2d_98">
+			<rom type="code" offset="0x00600">ed2.bin</rom>
+			<rom type="code" offset="0x01000">2608.BIN</rom>
+			<rom type="bgm" offset="0x01">ED201.BIN</rom>
+			<rom type="bgm" offset="0x02">ED202.BIN</rom>
+			<rom type="bgm" offset="0x03">ED203.BIN</rom>
+			<rom type="bgm" offset="0x04">ED204.BIN</rom>
+			<rom type="bgm" offset="0x05">ED205.BIN</rom>
+			<rom type="bgm" offset="0x06">ED206.BIN</rom>
+			<rom type="bgm" offset="0x07">ED207.BIN</rom>
+			<rom type="bgm" offset="0x08">ED209.BIN</rom>
+			<rom type="bgm" offset="0x09">ED211.BIN</rom>
+			<rom type="bgm" offset="0x0a">ED212.BIN</rom>
+			<rom type="bgm" offset="0x0b">ED219.BIN</rom>
+			<rom type="bgm" offset="0x0c">ED280.BIN</rom>
+			<rom type="bgm" offset="0x0d">ED290.BIN</rom>
+			<rom type="bgm" offset="0x0e">ED291.BIN</rom>
+			<rom type="bgm" offset="0x0f">ED292.BIN</rom>
+			<rom type="bgm" offset="0x10">ED293.BIN</rom>
+			<rom type="bgm" offset="0x11">ED294.BIN</rom>
+			<rom type="bgm" offset="0x12">ED300.BIN</rom>
+			<rom type="bgm" offset="0x13">ED301.BIN</rom>
+			<rom type="bgm" offset="0x14">ED302.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">戦闘</title>
+			<title code="0x02">ゲームオーバー</title>
+			<title code="0x03">平和</title>
+			<title code="0x04">城</title>
+			<title code="0x05">ビックリ</title>
+			<title code="0x06">スライムいじめ</title>
+			<title code="0x07">町</title>
+			<title code="0x08">船</title>
+			<title code="0x09">地底、町</title>
+			<title code="0x0a">グロストス城</title>
+			<title code="0x0b">SE</title>
+			<title code="0x0c">ユーティリティー</title>
+			<title code="0x0d"></title>
+			<title code="0x0e">オープニング</title>
+			<title code="0x0f"></title>
+			<title code="0x10"></title>
+			<title code="0x11"></title>
+			<title code="0x12"></title>
+			<title code="0x13"></title>
+			<title code="0x14">小さな英雄－ジュリオとクリスの大冒険－</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II Demo (ドラゴンスレイヤー 英雄伝説II (店頭デモ版)) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax"  value="0x15"/>
+		</options>
+		<romlist archive="ed2d_98">
+			<rom type="code" offset="0x00600">ed2.bin</rom>
+			<rom type="code" offset="0x01000">2203.BIN</rom>
+			<rom type="bgm" offset="0x01">ED201.BIN</rom>
+			<rom type="bgm" offset="0x02">ED202.BIN</rom>
+			<rom type="bgm" offset="0x03">ED203.BIN</rom>
+			<rom type="bgm" offset="0x04">ED204.BIN</rom>
+			<rom type="bgm" offset="0x05">ED205.BIN</rom>
+			<rom type="bgm" offset="0x06">ED206.BIN</rom>
+			<rom type="bgm" offset="0x07">ED207.BIN</rom>
+			<rom type="bgm" offset="0x08">ED209.BIN</rom>
+			<rom type="bgm" offset="0x09">ED211.BIN</rom>
+			<rom type="bgm" offset="0x0a">ED212.BIN</rom>
+			<rom type="bgm" offset="0x0b">ED219.BIN</rom>
+			<rom type="bgm" offset="0x0c">ED280.BIN</rom>
+			<rom type="bgm" offset="0x0d">ED290.BIN</rom>
+			<rom type="bgm" offset="0x0e">ED291.BIN</rom>
+			<rom type="bgm" offset="0x0f">ED292.BIN</rom>
+			<rom type="bgm" offset="0x10">ED293.BIN</rom>
+			<rom type="bgm" offset="0x11">ED294.BIN</rom>
+			<rom type="bgm" offset="0x12">ED300.BIN</rom>
+			<rom type="bgm" offset="0x13">ED301.BIN</rom>
+			<rom type="bgm" offset="0x14">ED302.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">戦闘</title>
+			<title code="0x02">ゲームオーバー</title>
+			<title code="0x03">平和</title>
+			<title code="0x04">城</title>
+			<title code="0x05">ビックリ</title>
+			<title code="0x06">スライムいじめ</title>
+			<title code="0x07">町</title>
+			<title code="0x08">船</title>
+			<title code="0x09">地底、町</title>
+			<title code="0x0a">グロストス城</title>
+			<title code="0x0b">SE</title>
+			<title code="0x0c">ユーティリティー</title>
+			<title code="0x0d"></title>
+			<title code="0x0e">オープニング</title>
+			<title code="0x0f"></title>
+			<title code="0x10"></title>
+			<title code="0x11"></title>
+			<title code="0x12"></title>
+			<title code="0x13"></title>
+			<title code="0x14">小さな英雄－ジュリオとクリスの大冒険－</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Dragon Slayer: Eiyuu Densetsu II Demo (ドラゴンスレイヤー 英雄伝説II (店頭デモ版)) (BEEP)</name>
+		<driver type="beep">pc98vx</driver>
+		<driveralias type="PC-9801">Falcom</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax"  value="0x15"/>
+		</options>
+		<romlist archive="ed2d_98">
+			<rom type="code" offset="0x00600">ed2.bin</rom>
+			<rom type="code" offset="0x01000">BEEP.BIN</rom>
+			<rom type="bgm" offset="0x01">ED201.BIN</rom>
+			<rom type="bgm" offset="0x02">ED202.BIN</rom>
+			<rom type="bgm" offset="0x03">ED203.BIN</rom>
+			<rom type="bgm" offset="0x04">ED204.BIN</rom>
+			<rom type="bgm" offset="0x05">ED205.BIN</rom>
+			<rom type="bgm" offset="0x06">ED206.BIN</rom>
+			<rom type="bgm" offset="0x07">ED207.BIN</rom>
+			<rom type="bgm" offset="0x08">ED209.BIN</rom>
+			<rom type="bgm" offset="0x09">ED211.BIN</rom>
+			<rom type="bgm" offset="0x0a">ED212.BIN</rom>
+			<rom type="bgm" offset="0x0b">ED219.BIN</rom>
+			<rom type="bgm" offset="0x0c">ED280.BIN</rom>
+			<rom type="bgm" offset="0x0d">ED290.BIN</rom>
+			<rom type="bgm" offset="0x0e">ED291.BIN</rom>
+			<rom type="bgm" offset="0x0f">ED292.BIN</rom>
+			<rom type="bgm" offset="0x10">ED293.BIN</rom>
+			<rom type="bgm" offset="0x11">ED294.BIN</rom>
+			<rom type="bgm" offset="0x12">ED300.BIN</rom>
+			<rom type="bgm" offset="0x13">ED301.BIN</rom>
+			<rom type="bgm" offset="0x14">ED302.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">戦闘</title>
+			<title code="0x02">ゲームオーバー</title>
+			<title code="0x03">平和</title>
+			<title code="0x04">城</title>
+			<title code="0x05">ビックリ</title>
+			<title code="0x06">スライムいじめ</title>
+			<title code="0x07">町</title>
+			<title code="0x08">船</title>
+			<title code="0x09">地底、町</title>
+			<title code="0x0a">グロストス城</title>
+			<title code="0x0b">SE</title>
+			<title code="0x0c">ユーティリティー</title>
+			<title code="0x0d"></title>
+			<title code="0x0e">オープニング</title>
+			<title code="0x0f"></title>
+			<title code="0x10"></title>
+			<title code="0x11"></title>
+			<title code="0x12"></title>
+			<title code="0x13"></title>
+			<title code="0x14">小さな英雄－ジュリオとクリスの大冒険－</title>
 		</titlelist>
 	</game>
 	<game>
@@ -12066,7 +12629,7 @@
 			<title code="0x17">Earthen Flute (土笛)</title>
 			<title code="0x18">SFX #01</title>
 			<title code="0x19">Burning!</title>
-			<title code="0x1a">Unknown [04A]</title>
+			<title code="0x1a">Siren (セイレーン)</title>
 			<title code="0x1b">Harp (竪琴)</title>
 			<title code="0x1c">A Soul's Repose (鎮魂)</title>
 			<title code="0x1d">Music Box (オルゴール)</title>
@@ -12120,23 +12683,23 @@
 			<rom type="bgm" offset="0x11">FM025.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Winning Player (プレイヤー勝利)</title>
-			<title code="0x02">Game Over</title>
-			<title code="0x03">Award Ceremony (表彰式)</title>
 			<title code="0x04">Opening (タイトル)</title>
 			<title code="0x05">Menu (メニュー)</title>
-			<title code="0x06">FM006.BIN</title>
-			<title code="0x07">Map Edit (マップ エディタ)</title>
-			<title code="0x08">Lord Monarch (Common) (モナーク(通常))</title>
-			<title code="0x09">Lord Monarch (Victorious) (モナーク(勝利目前))</title>
-			<title code="0x0a">Fuse Panic (Common) (フーズパニック(通常))</title>
-			<title code="0x0b">Fuse Panic (Victorious) (フーズパニック(勝利目前))</title>
-			<title code="0x0c">War Camp (Common) (戦乱の陣 (通常))</title>
-			<title code="0x0d">War Camp (Victorious) (戦乱の陣 (勝利目前))</title>
-			<title code="0x0e">Mechanic Techno (Common) (メカニックテクノ(通常))</title>
-			<title code="0x0f">Mechanic Techno (Victorious) (メカニックテクノ(勝利目前))</title>
-			<title code="0x10">Fantasy Pastel (Common ) (パステルファンタジー(通常)</title>
-			<title code="0x11">Fantasy Pastel (Victorious) (パステルファンタジー(勝利目前))</title>
+			<title code="0x07">Map Edit (マップエディット)</title>
+			<title code="0x08">Lord Monarch (Common) (ロードモナーク通常)</title>
+			<title code="0x09">Lord Monarch (Victorious) (ロードモナーク勝利目前)</title>
+			<title code="0x01">Winning Player (プレイヤー勝利)</title>
+			<title code="0x03">Award Ceremony (表彰式)</title>
+			<title code="0x0a">Fuse Panic (Common) (フーズパニック 通常)</title>
+			<title code="0x0b">Fuse Panic (Victorious) (フーズパニック 勝利目前)</title>
+			<title code="0x0c">War Camp (Common) (戦乱の陣 通常)</title>
+			<title code="0x0d">War Camp (Victorious) (戦乱の陣 勝利目前)</title>
+			<title code="0x0e">Mechanic Techno (Common) (メカニックテクノ 通常)</title>
+			<title code="0x0f">Mechanic Techno (Victorious) (メカニックテクノ 勝利目前)</title>
+			<title code="0x10">Fantasy Pastel (Common ) (パステルファンタジー 通常)</title>
+			<title code="0x11">Fantasy Pastel (Victorious) (パステルファンタジー 勝利目前)</title>
+			<title code="0x06">Ending (エンディング)</title>
+			<title code="0x02">Game Over (ゲームオーバー)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -12216,7 +12779,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM Towns] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (YM3438)</name>
+		<name>[FM Towns] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (YM3438)</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="FM Towns">Falcom</driveralias>
@@ -12274,7 +12837,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM Towns] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー英雄伝説II) (YM3438)</name>
+		<name>[FM Towns] Dragon Slayer: Eiyuu Densetsu II (ドラゴンスレイヤー 英雄伝説II) (YM3438)</name>
 		<!-- PC98版 Revival Xanadu ドライバを使用 -->
 		<driver type="opna">pc98vx</driver>
 		<driveralias type="FM Towns">Falcom</driveralias>
@@ -12863,7 +13426,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2149+YM2151)</name>
+		<name>[X1] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2149+YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Falcom</driveralias>
 		<options>
@@ -13179,9 +13742,9 @@
 			<title code="0x03">美しき花嫁         / ケイン</title>
 			<title code="0x04">美しき花嫁         / シナリオクリア</title>
 			<title code="0x05">銀の灯が消えた街   / オルソード</title>
-			<title code="0x06">銀の灯が消えた街   / 湖底の都市遺跡</title>
-			<title code="0x07">銀の灯が消えた街   / ゴルディアン</title>
-			<title code="0x08">銀の灯が消えた街   / シナリオクリア</title>
+			<title code="0x08">銀の灯が消えた街   / 湖底の都市遺跡</title>
+			<title code="0x06">銀の灯が消えた街   / ゴルディアン</title>
+			<title code="0x07">銀の灯が消えた街   / シナリオクリア</title>
 			<title code="0x0c">ファンファーレ</title>
 			<title code="0x09">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
 			<title code="0x0b">Sorcerian Magazine / メインテーマ</title>
@@ -13573,6 +14136,45 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X1] Sorcerian Utility Vol. 1 (ソーサリアン ユーティリティVol.1) (YM2149)</name>
+		<driver type="psg">x1</driver>
+		<driveralias type="X1">Falcom</driveralias>
+		<options>
+			<option name="init_pc"   value="0xc000"/>
+		</options>
+		<romlist archive="sorcx1ut">
+			<rom type="code" offset="0x0000">BIOS</rom>
+			<rom type="code" offset="0xc000">PATCH</rom>
+			<rom type="data" offset="0x7000">DS5EFC</rom>
+			<rom type="bgm" offset="0x01">SS029</rom>
+			<rom type="bgm" offset="0x02">SS036</rom>
+			<rom type="bgm" offset="0x03">SS056</rom>
+			<rom type="bgm" offset="0x04">SS066</rom>
+			<rom type="bgm" offset="0x05">SS067</rom>
+			<rom type="bgm" offset="0x06">SS070</rom>
+			<rom type="bgm" offset="0x07">SS075</rom>
+			<rom type="bgm" offset="0x08">SS087</rom>
+			<rom type="bgm" offset="0x09">SS089</rom>
+			<rom type="bgm" offset="0x0a">SS092</rom>
+			<rom type="bgm" offset="0x0b">SS097</rom>
+			<rom type="bgm" offset="0x0c">SS099</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">メニュー             / The Choice is Yours</title>
+			<title code="0x04">おたよりをよみたい   / はじめまして</title>
+			<title code="0x05">ソーサリアンクイズ   / 僕はゲーマーだ!</title>
+			<title code="0x07">ミニミニソーサリアン / Happy! Happy!</title>
+			<title code="0x0c">ファンファーレ</title>
+			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
+			<title code="0x01">BGMをききたい        / 消えた王様の杖クリアBGM</title>
+			<title code="0x08">BGMをききたい        / 盗賊たちの塔クリアBGM</title>
+			<title code="0x09">BGMをききたい        / 紅玉の謎クリアBGM</title>
+			<title code="0x0b">BGMをききたい        / モスジャイアント PC-8801</title>
+			<title code="0x02">BGMをききたい        / 氷のどうくつ2</title>
+			<title code="0x0a">BGMをききたい        / 不老長寿の水2</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X1] Sorcerian Extra Scenario Vol. 1 (ソーサリアン 追加シナリオ Vol. 1) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Falcom</driveralias>
@@ -13613,45 +14215,6 @@
 			<title code="0x0e">ファンファーレ</title>
 			<title code="0x0c">Congratulation!</title>
 			<title code="0x0d">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X1] Sorcerian Utility Disk (ソーサリアン ユーティリティーDISK) (YM2149)</name>
-		<driver type="psg">x1</driver>
-		<driveralias type="X1">Falcom</driveralias>
-		<options>
-			<option name="init_pc"   value="0xc000"/>
-		</options>
-		<romlist archive="sorcx1ut">
-			<rom type="code" offset="0x0000">BIOS</rom>
-			<rom type="code" offset="0xc000">PATCH</rom>
-			<rom type="data" offset="0x7000">DS5EFC</rom>
-			<rom type="bgm" offset="0x01">SS029</rom>
-			<rom type="bgm" offset="0x02">SS036</rom>
-			<rom type="bgm" offset="0x03">SS056</rom>
-			<rom type="bgm" offset="0x04">SS066</rom>
-			<rom type="bgm" offset="0x05">SS067</rom>
-			<rom type="bgm" offset="0x06">SS070</rom>
-			<rom type="bgm" offset="0x07">SS075</rom>
-			<rom type="bgm" offset="0x08">SS087</rom>
-			<rom type="bgm" offset="0x09">SS089</rom>
-			<rom type="bgm" offset="0x0a">SS092</rom>
-			<rom type="bgm" offset="0x0b">SS097</rom>
-			<rom type="bgm" offset="0x0c">SS099</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x03">メニュー             / The Choice is Yours</title>
-			<title code="0x04">おたよりをよみたい   / はじめまして</title>
-			<title code="0x05">ソーサリアンクイズ   / 僕はゲーマーだ!</title>
-			<title code="0x07">ミニミニソーサリアン / Happy! Happy!</title>
-			<title code="0x0c">ファンファーレ</title>
-			<title code="0x06">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
-			<title code="0x01">BGMをききたい        / 消えた王様の杖クリアBGM</title>
-			<title code="0x08">BGMをききたい        / 盗賊たちの塔クリアBGM</title>
-			<title code="0x09">BGMをききたい        / 紅玉の謎クリアBGM</title>
-			<title code="0x0b">BGMをききたい        / モスジャイアント PC-8801</title>
-			<title code="0x02">BGMをききたい        / 氷のどうくつ2</title>
-			<title code="0x0a">BGMをききたい        / 不老長寿の水2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -13882,9 +14445,9 @@
 			<title code="0x03">美しき花嫁         / ケイン</title>
 			<title code="0x04">美しき花嫁         / シナリオクリア</title>
 			<title code="0x05">銀の灯が消えた街   / オルソード</title>
-			<title code="0x06">銀の灯が消えた街   / 湖底の都市遺跡</title>
-			<title code="0x07">銀の灯が消えた街   / ゴルディアン</title>
-			<title code="0x08">銀の灯が消えた街   / シナリオクリア</title>
+			<title code="0x08">銀の灯が消えた街   / 湖底の都市遺跡</title>
+			<title code="0x06">銀の灯が消えた街   / ゴルディアン</title>
+			<title code="0x07">銀の灯が消えた街   / シナリオクリア</title>
 			<title code="0x0c">ファンファーレ</title>
 			<title code="0x09">Game Over "Sigh and Tears" (ゲームオーバー「Sigh and tears」)</title>
 			<title code="0x0b">Sorcerian Magazine / メインテーマ</title>
@@ -14396,11 +14959,11 @@
 			<title code="0x0019">Staff劇場</title>
 			<title code="0x0106">Luckey宝箱</title>
 			<title code="0x010b">効果音</title>
-			<range min="0x10001" max="0x10016" extcode="0">効果音 #%02x</range>
+			<range min="0x10001" max="0x10016" extcode="0">効果音 #%02d</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Falcom</driveralias>
 		<options>
@@ -14460,7 +15023,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー英雄伝説) (AY-3-8910)</name>
+		<name>[MSX2] Dragon Slayer: Eiyuu Densetsu (ドラゴンスレイヤー 英雄伝説) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Falcom</driveralias>
 		<options>
@@ -14526,7 +15089,7 @@
 			<rom type="code">lh532037</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">Wall breakdown (石落下)</title>
+			<title code="0x0f">Wall Breakdown (石落下)</title>
 			<title code="0x09">Opening Theme (タイトル)</title>
 			<title code="0x06">Inn &amp; Residence Theme</title>
 			<title code="0x0d">Select Screen (装備)</title>
@@ -14546,44 +15109,55 @@
 			<title code="0x13">Teatime Melody (エンディング2)</title>
 			<title code="0x08">Death Theme (死亡)</title>
 			<title code="0x0e">Item (宝・)</title>
-			<title code="0x81">SFX #01</title>
-			<title code="0x82">SFX #02</title>
-			<title code="0x83">SFX #03</title>
-			<title code="0x84">SFX #04</title>
-			<title code="0x85">SFX #05</title>
-			<title code="0x86">SFX #06</title>
-			<title code="0x87">SFX #07</title>
-			<title code="0x88">SFX #08</title>
-			<title code="0x89">SFX #09</title>
-			<title code="0x8a">SFX #0A</title>
-			<title code="0x8b">SFX #0B</title>
-			<title code="0x8c">SFX #0C</title>
-			<title code="0x8d">SFX #0D</title>
-			<title code="0x8e">SFX #0E</title>
-			<title code="0x8f">SFX #0F</title>
-			<title code="0x90">SFX #10</title>
-			<title code="0x91">SFX #11</title>
-			<title code="0x92">SFX #12</title>
-			<title code="0x93">SFX #13</title>
-			<title code="0x94">SFX #14</title>
-			<title code="0x95">SFX #15</title>
-			<title code="0x96">SFX #16</title>
-			<title code="0x97">SFX #17</title>
-			<title code="0x98">SFX #18</title>
-			<title code="0x99">SFX #19</title>
-			<title code="0x9a">SFX #1A</title>
-			<title code="0x9b">SFX #1B</title>
-			<title code="0x9c">SFX #1C</title>
-			<title code="0x9d">SFX #1D</title>
-			<title code="0x9e">SFX #1E</title>
-			<title code="0x9f">SFX #1F</title>
-			<title code="0xa0">SFX #20</title>
-			<title code="0xa1">SFX #21</title>
-			<title code="0xa2">SFX #22</title>
-			<title code="0xa3">SFX #23</title>
-			<title code="0xa4">SFX #24</title>
-			<title code="0xa5">SFX #25</title>
-			<title code="0xa6">SFX #26</title>
+			<range min="0x81" max="0xa6" extcode="0">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-7] Taiyou no Shinden: Asteka II (太陽の神殿 -ASTEKA II-) (OPN)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-7">Falcom</driveralias>
+		<options>
+			<option name="init_pc" value="0x2000"/>
+			<option name="mdata_addr" value="0x8000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="mdata_size" value="0x4000"/>
+		</options>
+		<romlist archive="asteka2_fm7">
+			<rom type="code" offset="0x2000">PATCH.BIN</rom>
+			<rom type="bgm" offset="0x00">APRG</rom>
+			<rom type="bgm" offset="0x01">ENDPRG</rom>
+			<rom type="bgm" offset="0x02">TTLPRG</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0002">Templo del Sol (太陽の神殿)</title>
+			<title code="0x0000">Mundo Perdido (失われた世界)</title>
+			<title code="0x0001">La noche triste (悲しみの夜)</title>
+			<title code="0x0100">Cerote (聖なる泉)</title>
+			<title code="0x0101">El Castillo (エル・カスティーリョ)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-7] Taiyou no Shinden: Asteka II (太陽の神殿 -ASTEKA II-) (PSG)</name>
+		<driver type="generic">fm7</driver>
+		<driveralias type="FM-7">Falcom</driveralias>
+		<options>
+			<option name="init_pc" value="0x2000"/>
+			<option name="mdata_addr" value="0x8000"/>
+			<option name="mfile_size" value="0x4000"/>
+			<option name="mdata_size" value="0x4000"/>
+		</options>
+		<romlist archive="asteka2_fm7">
+			<rom type="code" offset="0x2000">PATCH.BIN</rom>
+			<rom type="bgm" offset="0x00">APRG</rom>
+			<rom type="bgm" offset="0x01">ENDPRG</rom>
+			<rom type="bgm" offset="0x02">TTLPRG</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0002">Templo del Sol (太陽の神殿)</title>
+			<title code="0x0000">Mundo Perdido (失われた世界)</title>
+			<title code="0x0001">La noche triste (悲しみの夜)</title>
+			<title code="0x0100">Cerote (聖なる泉)</title>
+			<title code="0x0101">El Castillo (エル・カスティーリョ)</title>
 		</titlelist>
 	</game>
 	<game>

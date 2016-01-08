@@ -96,6 +96,8 @@
 		</options>
 		<romlist archive="ishtar88">
 			<rom type="code" offset="0x0000">SYS88.Z80</rom>
+			<rom type="code" offset="0xb000">IBGM5.COM</rom>
+			<rom type="code" offset="0xc000">ISSD.COM</rom>
 			<rom type="code" offset="0xc680">OPN88.Z80</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
 			<rom type="bgm" offset="0x00">IBGM1.COM</rom>
@@ -110,13 +112,13 @@
 			<rom type="bgm" offset="0x09">MAINGATE.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00028408">Credit (クレジット音)</title>
+			<title code="0x00028408">Credit</title>
 			<title code="0x00028000">Opening Theme</title>
+			<title code="0x00000008">Round Start</title>
 			<title code="0x00000000">Main Theme</title>
 			<title code="0x00000005">Druaga A</title>
 			<title code="0x00000003">Quox</title>
 			<title code="0x000cac07">Round Clear</title>
-			<title code="0x00000008">Round Start</title>
 			<title code="0x00000001">Roper</title>
 			<title code="0x00000002">Succubus</title>
 			<title code="0x00000004">Druaga B</title>
@@ -124,8 +126,46 @@
 			<title code="0x0000f606">Game Over</title>
 			<title code="0x00310809">All Round Clear</title>
 			<title code="0x00321c09">Congratulations!</title>
-			<title code="0x00017805">Druaga Name Entry</title>
-			<title code="0x00007e08">SFX #01</title>
+			<title code="0x00017805">Protect Trap #1 (Druaga Name Entry)</title>
+			<title code="0x000000fe">Protect Trap #2</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #10</title>
+			<title code="0x00030d08">SFX #11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Re-Birth (リ・バース) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="NEC PC-9801">SPS</driveralias>
+		<options>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="dataaddr" value="0x06900"/>
+			<option name="filesize" value="0x01000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="datamax" value="0x04"/>
+			<option name="dummysndrom" value="1"/>
+		</options>
+		<romlist archive="rebirth98">
+			<rom type="code" offset="0x10000">MAIN.COM</rom>
+			<rom type="code" offset="0x1f000">rebirth.bin</rom>
+			<rom type="bgm" offset="0x01">PROLOG.COM</rom>
+			<rom type="bgm" offset="0x02">BEPSUB.COM</rom>
+			<rom type="bgm" offset="0x03">EPILOG.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Prologue</title>
+			<title code="0x02">BGM</title>
+			<title code="0x03">Epilogue</title>
 		</titlelist>
 	</game>
 	<game>
@@ -167,12 +207,24 @@
 			<title code="0x00f6000c">Game Over</title>
 			<title code="0x3108000f">All Round Clear</title>
 			<title code="0x321c000f">Congratulations!</title>
-			<title code="0x0178000b">Druaga Name Entry</title>
-			<title code="0x007e000d">SFX #01</title>
+			<title code="0x0178000b">Protect Trap #1 (Druaga Name Entry)</title>
+			<title code="0x000000fe">Protect Trap #2</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x000001ff">SFX #01</title>
+			<title code="0x000002ff">SFX #02</title>
+			<title code="0x000003ff">SFX #03</title>
+			<title code="0x000004ff">SFX #04</title>
+			<title code="0x000005ff">SFX #05</title>
+			<title code="0x000006ff">SFX #06</title>
+			<title code="0x000007ff">SFX #07</title>
+			<title code="0x000008ff">SFX #08</title>
+			<title code="0x000009ff">SFX #09</title>
+			<title code="0x00000aff">SFX #10</title>
+			<title code="0x030d000d">SFX #11</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Tonky</name>
+		<name>[X1] Tonky (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">SPS</driveralias>
 		<options>
@@ -274,10 +326,11 @@
 		<options>
 			<option name="init_pc" value="0xf000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="debug_mem" value="0x0000"/>
 		</options>
 		<romlist archive="x1ishtar">
 			<rom type="code" offset="0x0000">SYSX1.Z80</rom>
+			<rom type="code" offset="0xb000">IBGM5.COM</rom>
+			<rom type="code" offset="0xbf00">ISSD.COM</rom>
 			<rom type="code" offset="0xc580">OPMX1.Z80</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
 			<rom type="bgm" offset="0x00">IBGM1.COM</rom>
@@ -306,8 +359,20 @@
 			<title code="0x0000f606">Game Over</title>
 			<title code="0x00310809">All Round Clear</title>
 			<title code="0x00321c09">Congratulations!</title>
-			<title code="0x00017805">Druaga Name Entry</title>
-			<title code="0x00007e08">SFX</title>
+			<title code="0x00017805">Protect Trap #1 (Druaga Name Entry)</title>
+			<title code="0x000000fe">Protect Trap #2</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #10</title>
+			<title code="0x00030d08">SFX #11</title>
 		</titlelist>
 	</game>
 	<game>
@@ -320,6 +385,8 @@
 		</options>
 		<romlist archive="x1ishtar">
 			<rom type="code" offset="0x0000">SYSX1.Z80</rom>
+			<rom type="code" offset="0xb000">IBGM5.COM</rom>
+			<rom type="code" offset="0xbf00">ISSD.COM</rom>
 			<rom type="code" offset="0xc580">PSGX1.Z80</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
 			<rom type="bgm" offset="0x00">IBGM1.COM</rom>
@@ -348,8 +415,20 @@
 			<title code="0x0000f606">Game Over</title>
 			<title code="0x00310809">All Round Clear</title>
 			<title code="0x00321c09">Congratulations!</title>
-			<title code="0x00017805">Druaga Name Entry</title>
-			<title code="0x00007e08">SFX</title>
+			<title code="0x00017805">Protect Trap #1 (Druaga Name Entry)</title>
+			<title code="0x000000fe">Protect Trap #2</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #10</title>
+			<title code="0x00030d08">SFX #11</title>
 		</titlelist>
 	</game>
 	<game>
@@ -362,6 +441,8 @@
 		</options>
 		<romlist archive="x1ishtar">
 			<rom type="code" offset="0x0000">SYSX1.Z80</rom>
+			<rom type="code" offset="0xb000">IBGM5.COM</rom>
+			<rom type="code" offset="0xbf00">ISSD.COM</rom>
 			<rom type="code" offset="0xc580">OPNX1.Z80</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
 			<rom type="bgm" offset="0x00">IBGM1.COM</rom>
@@ -390,8 +471,20 @@
 			<title code="0x0000f606">Game Over</title>
 			<title code="0x00310809">All Round Clear</title>
 			<title code="0x00321c09">Congratulations!</title>
-			<title code="0x00017805">Druaga Name Entry</title>
-			<title code="0x00007e08">SFX</title>
+			<title code="0x00017805">Protect Trap #1 (Druaga Name Entry)</title>
+			<title code="0x000000fe">Protect Trap #2</title>
+			<title code="0x000000ff">SFX #00</title>
+			<title code="0x010000ff">SFX #01</title>
+			<title code="0x020000ff">SFX #02</title>
+			<title code="0x030000ff">SFX #03</title>
+			<title code="0x040000ff">SFX #04</title>
+			<title code="0x050000ff">SFX #05</title>
+			<title code="0x060000ff">SFX #06</title>
+			<title code="0x070000ff">SFX #07</title>
+			<title code="0x080000ff">SFX #08</title>
+			<title code="0x090000ff">SFX #09</title>
+			<title code="0x0a0000ff">SFX #10</title>
+			<title code="0x00030d08">SFX #11</title>
 		</titlelist>
 	</game>
 	<game>
@@ -609,18 +702,18 @@
 			<title code="0x0508">All Round Clear</title>
 			<title code="0x0608">Congratulations</title>
 			<title code="0x0205">Name Entry</title>
-			<title code="0xff00">ISSD.M   : SE</title>
-			<title code="0xff01">ISSD.M   : SE</title>
-			<title code="0xff02">ISSD.M   : SE</title>
-			<title code="0xff03">ISSD.M   : SE</title>
-			<title code="0xff04">ISSD.M   : SE</title>
-			<title code="0xff05">ISSD.M   : SE</title>
-			<title code="0xff06">ISSD.M   : SE</title>
-			<title code="0xff07">ISSD.M   : SE</title>
-			<title code="0xff08">ISSD.M   : SE</title>
-			<title code="0xff09">ISSD.M   : SE</title>
-			<title code="0xff0a">ISSD.M   : SE</title>
-			<title code="0xff0b">ISSD.M   : SE</title>
+			<title code="0xff00">SFX #00</title>
+			<title code="0xff01">SFX #01</title>
+			<title code="0xff02">SFX #02</title>
+			<title code="0xff03">SFX #03</title>
+			<title code="0xff04">SFX #04</title>
+			<title code="0xff05">SFX #05</title>
+			<title code="0xff06">SFX #06</title>
+			<title code="0xff07">SFX #07</title>
+			<title code="0xff08">SFX #08</title>
+			<title code="0xff09">SFX #09</title>
+			<title code="0xff0a">SFX #0a</title>
+			<title code="0xff0b">SFX #0b</title>
 		</titlelist>
 	</game>
 	<game>
@@ -707,7 +800,7 @@
 			<title code="244">Voice "歓声 1"</title>
 			<title code="245">Voice "歓声 2"</title>
 			<title code="246">Voice "歓声 3"</title>
-			<range min="200" max="216" extcode="1">SFX #%03X</range>
+			<range min="200" max="216" extcode="1">SFX #%03d</range>
 		</titlelist>
 	</game>
 	<game>
@@ -780,10 +873,10 @@
 			<title code="153">Last Boss Part B, C</title>
 			<title code="154">Opening Part B</title>
 		-->
-			<range min="200" max="207" extcode="1">SFX #%03X</range>
-			<range min="210" max="217" extcode="1">SFX #%03X</range>
-			<range min="219" max="224" extcode="1">SFX #%03X</range>
-			<range min="230" max="239" extcode="1">SFX #%03X</range>
+			<range min="200" max="207" extcode="1">SFX #%03d</range>
+			<range min="210" max="217" extcode="1">SFX #%03d</range>
+			<range min="219" max="224" extcode="1">SFX #%03d</range>
+			<range min="230" max="239" extcode="1">SFX #%03d</range>
 		</titlelist>
 	</game>
 	<game>

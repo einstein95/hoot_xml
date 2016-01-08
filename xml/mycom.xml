@@ -33,25 +33,40 @@
 					max CDATA #REQUIRED
 					extcode CDATA #IMPLIED>
 ]>
-<gamelist date="2005/09/25">
-	<!-- //ALLOT -->
+<gamelist date="2015/02/20">
+	<!-- //MYCOM/毎日コミュニケーションズ -->
 	<game>
-		<name>[PC-9801] Imadoki Junjyou Monogatari (いまどき純情物語) (YM2203)</name>
+		<name>[PC-9801] Kyuukyoku no Puzzle: Kyoku Daidougi (究極のパズル 極 大道棋) </name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Allot</driveralias>
+		<driveralias type="PC-9801">Mainichi Communications</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="dummysndrom" value="1"/>
 		</options>
-		<romlist archive="imadoki_98">
-			<rom type="file" offset="-1">IMADO_98.COM</rom>
-			<rom type="file" offset="-1">MUSDRV.COM</rom>
-			<rom type="shell" offset="0">musdrv</rom>
-			<rom type="shell" offset="0">imado_98</rom>
+		<romlist archive="daidou_98">
+			<rom type="file" offset="-1">EMD.COM</rom>
+			<rom type="file" offset="-1">EMD_98.COM</rom>
+			<rom type="file" offset="-1">DAIDOUGI.EMI</rom>
+			<rom type="file" offset="-1">END.EMI</rom>
+			<rom type="file" offset="-1">HASAN.EMI</rom>
+			<rom type="file" offset="-1">KACHI.EMI</rom>
+			<rom type="file" offset="-1">KOMA.EMI</rom>
+			<rom type="file" offset="-1">MAKE.EMI</rom>
+			<rom type="conin" offset="0x10">DAIDOUGI.EMI</rom>
+			<rom type="conin" offset="0x11">END.EMI</rom>
+			<rom type="conin" offset="0x12">HASAN.EMI</rom>
+			<rom type="conin" offset="0x13">KACHI.EMI</rom>
+			<rom type="conin" offset="0x14">KOMA.EMI</rom>
+			<rom type="conin" offset="0x15">MAKE.EMI</rom>
+			<rom type="shell" offset="0">EMD -V</rom>
+			<rom type="shell" offset="0">EMD_98</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x0b" extcode="1">BGM #%02X</range>
-			<range min="0x0c" max="0x28" extcode="1">SFX #%02X</range>
+			<title code="0x10">DAIDOUGI.EMI</title>
+			<title code="0x11">END.EMI</title>
+			<title code="0x12">HASAN.EMI</title>
+			<title code="0x13">KACHI.EMI</title>
+			<title code="0x14">KOMA.EMI</title>
+			<title code="0x15">MAKE.EMI</title>
 		</titlelist>
 	</game>
 </gamelist>

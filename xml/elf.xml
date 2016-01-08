@@ -42,7 +42,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
-			<option name="ssg_mix" value="-18"/>
+			<option name="ssg_mix" value="-22"/>
 		</options>
 		<romlist archive="dk4_98">
 			<rom type="file" offset="-1">ELFMUS98.COM</rom>
@@ -495,6 +495,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dk2_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -649,6 +650,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dk3_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -786,6 +788,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="foxy2_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -869,6 +872,7 @@
 		<driveralias type="PC-9801">elf</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="kakyusei_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -1038,6 +1042,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="metal1_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -1505,6 +1510,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="elle_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -1735,6 +1741,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="shan_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -1936,6 +1943,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="foxy_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2013,6 +2021,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="ray-gun_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2116,6 +2125,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dk1_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2185,6 +2195,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="deja_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2264,6 +2275,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dks1_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2407,6 +2419,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dks2_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -2473,7 +2486,6 @@
 			<rom type="file" offset="0x4b">_SETUNAI.M</rom>
 			<rom type="file" offset="0x4c">_SKLAK.M</rom>
 			<rom type="file" offset="0x4d">_TANOSII.M</rom>
-			<rom type="file" offset="0x4e">_MIHO_.M</rom>
 			<rom type="shell" offset="0">PLAY5</rom>
 			<rom type="shell" offset="0">PLAY5_98</rom>
 		</romlist>
@@ -2522,7 +2534,6 @@
 			<title code="0x37">Girls Room</title>
 			<title code="0x1a">未使用曲</title>
 			<title code="0x39">Wish For Happiness</title>
-			<title code="0x4e">榊原 みゆき</title>
 			<title code="0x13">SFX 学校のチャイム</title>
 			<title code="0x14">SFX 朝</title>
 			<title code="0x16">SFX コンピュータ</title>
@@ -2755,6 +2766,7 @@
 		<driveralias type="PC-9801">elf</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="dks2sp_98">
 			<rom type="file" offset="-1">PLAY5_98.COM</rom>
@@ -3598,7 +3610,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="deja_68snd">
 			<rom type="code" offset="0x000000">hoot68.bin</rom>
-			<rom type="x"    offset="0x010000">music.x</rom>
+			<rom type="x" offset="0x010000">music.x</rom>
 			<rom type="code" offset="0x017036">deja.pcm</rom>
 		</romlist>
 		<titlelist>
@@ -3646,7 +3658,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="pinky168snd">
 			<rom type="code" offset="0x00000">pinky.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 			<rom type="code" offset="0x16C7A">PINKY.PCM</rom>
 		</romlist>
 		<titlelist>
@@ -3676,7 +3688,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="pinky268snd">
 			<rom type="code" offset="0x00000">pinky.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 			<rom type="code" offset="0x16C7A">PINKY.PCM</rom>
 		</romlist>
 		<titlelist>
@@ -3706,7 +3718,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="pinky368snd">
 			<rom type="code" offset="0x00000">pinky.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 			<rom type="code" offset="0x16C7A">PINKY.PCM</rom>
 		</romlist>
 		<titlelist>
@@ -3736,7 +3748,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="dk168snd">
 			<rom type="code" offset="0x00000">dk1.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 			<rom type="code" offset="0x176A4">D_KNIGHT.PCM</rom>
 		</romlist>
 		<titlelist>
@@ -3768,7 +3780,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="dk268snd">
 			<rom type="code" offset="0x00000">dk2.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">オープニング1</title>
@@ -3856,7 +3868,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="dk368snd">
 			<rom type="code" offset="0x00000">dk3.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">オープニング</title>
@@ -3930,7 +3942,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="elle68snd">
 			<rom type="code" offset="0x00000">elle.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">エルとのムーディソング</title>
@@ -3979,7 +3991,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="tensin68snd">
 			<rom type="code" offset="0x00000">tensin.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">AMANO</title>
@@ -4071,7 +4083,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="shan68snd">
 			<rom type="code" offset="0x00000">elle.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">KOEN</title>
@@ -4099,7 +4111,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="foxy268snd">
 			<rom type="code" offset="0x00000">elle.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">END1</title>
@@ -4142,7 +4154,7 @@
 		<driveralias type="X68000">elf</driveralias>
 		<romlist archive="ray-gun68snd">
 			<rom type="code" offset="0x00000">raygun.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 			<rom type="code" offset="0x173B8">RAY_GUN.PCM</rom>
 		</romlist>
 		<titlelist>
@@ -4541,7 +4553,7 @@
 		</options>
 		<romlist archive="dk468snd">
 			<rom type="code" offset="0x00000">ww68snd.bin</rom>
-			<rom type="x"    offset="0x10000">widrv.x</rom>
+			<rom type="x" offset="0x10000">widrv.x</rom>
 			<rom type="code" offset="0x11b60">dk4_68.wmd</rom>
 			<rom type="code" offset="0x39b60">dk4_68.wpd</rom>
 		</romlist>
@@ -4632,7 +4644,7 @@
 		</options>
 		<romlist archive="shan268snd">
 			<rom type="code" offset="0x00000">ww68snd.bin</rom>
-			<rom type="x"    offset="0x10000">widrv.x</rom>
+			<rom type="x" offset="0x10000">widrv.x</rom>
 			<rom type="code" offset="0x11b60">SH2X.WMD</rom>
 			<rom type="code" offset="0x39b60">SH2X.WPD</rom>
 		</romlist>
@@ -4689,7 +4701,7 @@
 		</options>
 		<romlist archive="wworth68snd">
 			<rom type="code" offset="0x00000">ww68snd.bin</rom>
-			<rom type="x"    offset="0x10000">widrv.x</rom>
+			<rom type="x" offset="0x10000">widrv.x</rom>
 			<rom type="code" offset="0x11b60">WW68000.WMD</rom>
 			<rom type="code" offset="0x39b60">WW68000.WPD</rom>
 		</romlist>
@@ -4773,7 +4785,7 @@
 		</options>
 		<romlist archive="meye68snd">
 			<rom type="code" offset="0x00000">ww68snd.bin</rom>
-			<rom type="x"    offset="0x10000">widrv.x</rom>
+			<rom type="x" offset="0x10000">widrv.x</rom>
 			<rom type="code" offset="0x11b60">eye68000.wmd</rom>
 			<rom type="code" offset="0x39b60">eye68000.wpd</rom>
 		</romlist>
@@ -4858,8 +4870,8 @@
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
-			<option name="total_mix"  value="0x01c0"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="total_mix" value="0x01c0"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="deja_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4940,8 +4952,8 @@
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="total_mix"  value="0x01c0"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="total_mix" value="0x01c0"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="dk2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5094,8 +5106,8 @@
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="total_mix"  value="0x0180"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="total_mix" value="0x0180"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="elle_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5168,8 +5180,8 @@
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="total_mix"  value="0x0180"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="total_mix" value="0x0180"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="foxy_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -5228,8 +5240,8 @@
 			<option name="mdata_addr" value="0xb000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="total_mix"  value="0x01c0"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="total_mix" value="0x01c0"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="ray-gun_msx">
 			<rom type="code" offset="0x0400">patch</rom>

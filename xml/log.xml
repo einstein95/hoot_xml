@@ -36,41 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //ƒƒO -->
 	<game>
-		<name>[PC-9801] Kiwame: Daidougi (‹É ‘å“¹Šû) </name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Log</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="daidou_98">
-			<rom type="file" offset="-1">EMD.COM</rom>
-			<rom type="file" offset="-1">EMD_98.COM</rom>
-			<rom type="file" offset="-1">DAIDOUGI.EMI</rom>
-			<rom type="file" offset="-1">END.EMI</rom>
-			<rom type="file" offset="-1">HASAN.EMI</rom>
-			<rom type="file" offset="-1">KACHI.EMI</rom>
-			<rom type="file" offset="-1">KOMA.EMI</rom>
-			<rom type="file" offset="-1">MAKE.EMI</rom>
-			<rom type="conin" offset="0x10">DAIDOUGI.EMI</rom>
-			<rom type="conin" offset="0x11">END.EMI</rom>
-			<rom type="conin" offset="0x12">HASAN.EMI</rom>
-			<rom type="conin" offset="0x13">KACHI.EMI</rom>
-			<rom type="conin" offset="0x14">KOMA.EMI</rom>
-			<rom type="conin" offset="0x15">MAKE.EMI</rom>
-			<rom type="shell" offset="0">EMD -V</rom>
-			<rom type="shell" offset="0">EMD_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">DAIDOUGI.EMI</title>
-			<title code="0x11">END.EMI</title>
-			<title code="0x12">HASAN.EMI</title>
-			<title code="0x13">KACHI.EMI</title>
-			<title code="0x14">KOMA.EMI</title>
-			<title code="0x15">MAKE.EMI</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Dragon</name>
+		<name>[X68000] Dragon (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Log</driveralias>
 		<romlist archive="dragon68snd">

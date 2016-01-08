@@ -36,7 +36,41 @@
 <gamelist date="2005/09/25">
 	<!--//ENIX -->
 	<game>
-		<name>[PC-8801] DOOR DOOR mk2 (OPN)</name>
+		<name>[PC-8001mkIISR] Pac-Land ()</name>
+		<driver type="opn">pc80sr</driver>
+		<driveralias type="PC-8001mkIISR">Enix</driveralias>
+		<options>
+			<option name="use_rtc" value="0x01"/>
+			<option name="baseclock" value="0x04"/>
+		</options>
+		<romlist archive="pacland_80sr">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1000">MUSIC1</rom>
+			<rom type="code" offset="0x2000">MUSIC2</rom>
+			<rom type="code" offset="0xa400">PROG</rom>
+			<rom type="code" offset="0xd900">MUSIC1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">往路BGM</title>
+			<title code="0xff">復路BGM</title>
+			<title code="0x01">Stop</title>
+			<title code="0x02">Extend</title>
+			<title code="0x03">Round Clear</title>
+			<title code="0x04">フィーチャー</title>
+			<title code="0x05">Goal</title>
+			<title code="0x06">Game Over</title>
+			<title code="0x07">接触</title>
+			<title code="0x08">SFX</title>
+			<title code="0x09">落下</title>
+			<title code="0x0a">ミス</title>
+			<title code="0x0b">パワーエサ</title>
+			<title code="0x0c">モンスター食う</title>
+			<title code="0x0d">Round Start</title>
+			<title code="0x0e">クレジット</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] DOOR DOOR mk2 (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="doormk2">
@@ -61,25 +95,25 @@
 			<title code="0x0f">BGM #0f</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
-			<title code="0x85">SE #85</title>
-			<title code="0x86">SE #86</title>
-			<title code="0x87">SE #87</title>
-			<title code="0x88">SE #88</title>
-			<title code="0x89">SE #89</title>
-			<title code="0x8a">SE #8a</title>
-			<title code="0x8b">SE #8b</title>
-			<title code="0x8c">SE #8c</title>
-			<title code="0x8d">SE #8d</title>
-			<title code="0x8e">SE #8e</title>
-			<title code="0x8f">SE #8f</title>
-			<title code="0x90">SE #90</title>
-			<title code="0x91">SE #91</title>
-			<title code="0x92">SE #92</title>
-			<title code="0x93">SE #93</title>
+			<title code="0x85">SFX #85</title>
+			<title code="0x86">SFX #86</title>
+			<title code="0x87">SFX #87</title>
+			<title code="0x88">SFX #88</title>
+			<title code="0x89">SFX #89</title>
+			<title code="0x8a">SFX #8a</title>
+			<title code="0x8b">SFX #8b</title>
+			<title code="0x8c">SFX #8c</title>
+			<title code="0x8d">SFX #8d</title>
+			<title code="0x8e">SFX #8e</title>
+			<title code="0x8f">SFX #8f</title>
+			<title code="0x90">SFX #90</title>
+			<title code="0x91">SFX #91</title>
+			<title code="0x92">SFX #92</title>
+			<title code="0x93">SFX #93</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] DOOR DOOR mk2 (PSG)</name>
+		<name>[PC-8801] Door Door mk2 (AY-3-8910)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -129,7 +163,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
-			<option name="use_rtc"    value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x4b00"/>
 			<option name="mfile_size" value="0x4b00"/>
@@ -181,7 +215,7 @@
 			<title code="0x0200000a">To the Heavens (天上界へ)</title>
 			<title code="0x0000000b">Under the Banyan Tree (菩提樹の下)</title>
 			<title code="0x0000000c">Jingle (ジングル)</title>
-		<!--	<title code="0x0000000d">効果音#0</title> -->
+		<!--	<title code="0x0000000d">SFX #0 (効果音#0)</title> -->
 			<title code="0x0000000e">The Netherworld (Tunnel) (冥府魔道(地下道))</title>
 			<title code="0x0000000f">Obtaining the Buddha's Urn (仏舎利壷の入手)</title>
 			<title code="0x00000010">Tranquility (寂)</title>
@@ -351,17 +385,14 @@
 			<rom type="bgm" offset="0x04">IZASSS</rom>
 			<rom type="bgm" offset="0x05">JUK</rom>
 			<rom type="bgm" offset="0x06">BRI</rom>
-			<rom type="bgm" offset="0x07">BRIOF</rom>
 			<rom type="bgm" offset="0x08">BSTON5</rom>
 			<rom type="bgm" offset="0x09">DEAD</rom>
 			<rom type="bgm" offset="0x0a">DEAD2</rom>
-			<rom type="bgm" offset="0x0b">DEADST</rom>
 			<rom type="bgm" offset="0x0c">DUMA</rom>
 			<rom type="bgm" offset="0x0d">GERM</rom>
 			<rom type="bgm" offset="0x0e">GERMSL</rom>
 			<rom type="bgm" offset="0x0f">HENBO</rom>
 			<rom type="bgm" offset="0x10">HENBO2</rom>
-			<rom type="bgm" offset="0x11">HENBO3</rom>
 			<rom type="bgm" offset="0x12">IZA</rom>
 			<rom type="bgm" offset="0x13">IZAS2</rom>
 			<rom type="bgm" offset="0x14">IZASFT</rom>
@@ -409,10 +440,6 @@
 			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (愛のシンパシー～Ver1SNG～)</title>
 			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (愛のシンパシー～Ver2SSS～)</title>
 			<title code="0x0a">Wandering Psyche (Alternate Ver.) (彷徨いのプシュケ(別バージョン))</title>
-			<title code="0x0f">Jingle #01 (ジングル #01)</title>
-			<title code="0x11">Jingle #02 (ジングル #02)</title>
-			<title code="0x07">Jingle #03 (ジングル #03)</title>
-			<title code="0x0b">Jingle #04 (ジングル #04)</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x1c">SFX #02</title>
 			<title code="0x1d">SFX #03</title>
@@ -441,17 +468,14 @@
 			<rom type="bgm" offset="0x04">IZASSS</rom>
 			<rom type="bgm" offset="0x05">JUK</rom>
 			<rom type="bgm" offset="0x06">BRI</rom>
-			<rom type="bgm" offset="0x07">BRIOF</rom>
 			<rom type="bgm" offset="0x08">BSTON5</rom>
 			<rom type="bgm" offset="0x09">DEAD</rom>
 			<rom type="bgm" offset="0x0a">DEAD2</rom>
-			<rom type="bgm" offset="0x0b">DEADST</rom>
 			<rom type="bgm" offset="0x0c">DUMA</rom>
 			<rom type="bgm" offset="0x0d">GERM</rom>
 			<rom type="bgm" offset="0x0e">GERMSL</rom>
 			<rom type="bgm" offset="0x0f">HENBO</rom>
 			<rom type="bgm" offset="0x10">HENBO2</rom>
-			<rom type="bgm" offset="0x11">HENBO3</rom>
 			<rom type="bgm" offset="0x12">IZA</rom>
 			<rom type="bgm" offset="0x13">IZAS2</rom>
 			<rom type="bgm" offset="0x14">IZASFT</rom>
@@ -499,10 +523,6 @@
 			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (愛のシンパシー～Ver1SNG～)</title>
 			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (愛のシンパシー～Ver2SSS～)</title>
 			<title code="0x0a">Wandering Psyche (Alternate Ver.) (彷徨いのプシュケ(別バージョン))</title>
-			<title code="0x0f">Jingle #01 (ジングル #01)</title>
-			<title code="0x11">Jingle #02 (ジングル #02)</title>
-			<title code="0x07">Jingle #03 (ジングル #03)</title>
-			<title code="0x0b">Jingle #04 (ジングル #04)</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x1c">SFX #02</title>
 			<title code="0x1d">SFX #03</title>
@@ -1329,14 +1349,96 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-8801] Shutendouji (手天童子) (YM2608)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="PC-8801">Enix</driveralias>
+		<romlist archive="shuten88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1000">PLAY3B.COM</rom>
+			<rom type="bgm" offset="0x00">M1.M</rom>
+			<rom type="bgm" offset="0x01">M2.M</rom>
+			<rom type="bgm" offset="0x02">M3.M</rom>
+			<rom type="bgm" offset="0x03">M4.M</rom>
+			<rom type="bgm" offset="0x04">M5.M</rom>
+			<rom type="bgm" offset="0x05">M6.M</rom>
+			<rom type="bgm" offset="0x06">M8.M</rom>
+			<rom type="bgm" offset="0x07">M9.M</rom>
+			<rom type="bgm" offset="0x08">M10.M</rom>
+			<rom type="bgm" offset="0x09">M11.M</rom>
+			<rom type="bgm" offset="0x0a">M12.M</rom>
+			<rom type="bgm" offset="0x0b">M13.M</rom>
+			<rom type="bgm" offset="0x0c">M14.M</rom>
+			<rom type="bgm" offset="0x0d">M15.M</rom>
+			<rom type="bgm" offset="0x0e">M16.M</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">M1.M</title>
+			<title code="0x01">M2.M</title>
+			<title code="0x02">M3.M</title>
+			<title code="0x03">M4.M</title>
+			<title code="0x04">M5.M</title>
+			<title code="0x05">M6.M</title>
+			<title code="0x06">M8.M</title>
+			<title code="0x07">M9.M</title>
+			<title code="0x08">M10.M</title>
+			<title code="0x09">M11.M</title>
+			<title code="0x0a">M12.M</title>
+			<title code="0x0b">M13.M</title>
+			<title code="0x0c">M14.M</title>
+			<title code="0x0d">M15.M</title>
+			<title code="0x0e">M16.M</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Shutendouji (手天童子) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Enix</driveralias>
+		<romlist archive="shuten88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1000">PLAY3.COM</rom>
+			<rom type="bgm" offset="0x00">M1.M</rom>
+			<rom type="bgm" offset="0x01">M2.M</rom>
+			<rom type="bgm" offset="0x02">M3.M</rom>
+			<rom type="bgm" offset="0x03">M4.M</rom>
+			<rom type="bgm" offset="0x04">M5.M</rom>
+			<rom type="bgm" offset="0x05">M6.M</rom>
+			<rom type="bgm" offset="0x06">M8.M</rom>
+			<rom type="bgm" offset="0x07">M9.M</rom>
+			<rom type="bgm" offset="0x08">M10.M</rom>
+			<rom type="bgm" offset="0x09">M11.M</rom>
+			<rom type="bgm" offset="0x0a">M12.M</rom>
+			<rom type="bgm" offset="0x0b">M13.M</rom>
+			<rom type="bgm" offset="0x0c">M14.M</rom>
+			<rom type="bgm" offset="0x0d">M15.M</rom>
+			<rom type="bgm" offset="0x0e">M16.M</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">M1.M</title>
+			<title code="0x01">M2.M</title>
+			<title code="0x02">M3.M</title>
+			<title code="0x03">M4.M</title>
+			<title code="0x04">M5.M</title>
+			<title code="0x05">M6.M</title>
+			<title code="0x06">M8.M</title>
+			<title code="0x07">M9.M</title>
+			<title code="0x08">M10.M</title>
+			<title code="0x09">M11.M</title>
+			<title code="0x0a">M12.M</title>
+			<title code="0x0b">M13.M</title>
+			<title code="0x0c">M14.M</title>
+			<title code="0x0d">M15.M</title>
+			<title code="0x0e">M16.M</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-8801] Fangs: The Saga of Wolf Blood (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_size" value="0x2100"/>
 			<option name="mfile_size" value="0x2100"/>
-			<option name="use_pcmx8"  value="0x01"/>
+			<option name="use_pcmx8" value="0x01"/>
 		</options>
 		<romlist archive="fangs">
 			<rom type="code" offset="0x0300">SYSTEM.BIN</rom>
@@ -1452,7 +1554,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_size" value="0x2100"/>
 			<option name="mfile_size" value="0x2100"/>
 		</options>
@@ -1766,7 +1868,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Reichsritter - 帝国騎士団 -</name>
+		<name>[PC-9801] Reichsritter - 帝国騎士団 - (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1917,7 +2019,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] World Golf II (ワールドゴルフ2) (PSG)</name>
+		<name>[X1] World Golf II (ワールドゴルフ2) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<romlist archive="x1wg2">
@@ -1941,13 +2043,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (OPM)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
-			<option name="mdata_addr"  value="0x1200"/>
-			<option name="mdata_size"  value="0x4d00"/>
-			<option name="mfile_size"  value="0x4d00"/>
+			<option name="mdata_addr" value="0x1200"/>
+			<option name="mdata_size" value="0x4d00"/>
+			<option name="mfile_size" value="0x4d00"/>
 		</options>
 		<romlist archive="x1gand">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -2013,13 +2115,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (PSG)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ガンダーラ ～仏陀の聖戦～) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
-			<option name="mdata_addr"  value="0x1200"/>
-			<option name="mdata_size"  value="0x4d00"/>
-			<option name="mfile_size"  value="0x4d00"/>
+			<option name="mdata_addr" value="0x1200"/>
+			<option name="mdata_size" value="0x4d00"/>
+			<option name="mfile_size" value="0x4d00"/>
 		</options>
 		<romlist archive="x1gand">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -2085,11 +2187,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Jesus (ジーザス) (OPM)</name>
+		<name>[X1] Jesus (ジーザス) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
 		</options>
 		<romlist archive="x1jesus">
@@ -2227,7 +2329,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Jesus (ジーザス) (PSG)</name>
+		<name>[X1] Jesus (ジーザス) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
@@ -2651,7 +2753,7 @@
 		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="jesus268snd">
 			<rom type="code" offset="0x00000">jesus2.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x66">軍隊のテーマ</title>
@@ -2746,7 +2848,7 @@
 		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="wgolf368snd">
 			<rom type="code" offset="0x00000">wg368snd.bin</rom>
-			<rom type="x"    offset="0x10000">MUSIC.X</rom>
+			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">オープニングデモ</title>
@@ -2858,7 +2960,7 @@
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="5"/>
 		</options>
 		<romlist archive="wg3_98">
@@ -2940,11 +3042,11 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Enix</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="codez68snd">
 			<rom type="code" offset="0x00000">codez68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MUCO.X</rom>
+			<rom type="x" offset="0x10000">MUCO.X</rom>
 			<rom type="code" offset="0x172e8">SE.MUX</rom>
 			<rom type="code" offset="0x19b7a">MUCOFM.DAT</rom>
 			<rom type="code" offset="0x1bb7a">PCMTBL</rom>
@@ -3023,25 +3125,25 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (OPLL)</name>
+		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x83f9"/>
 			<option name="mdata_size" value="0x1400"/>
 			<option name="mfile_size" value="0x1400"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="wingsp_msx">
 			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="bgm"  offset="0x00">FMPCH.COM</rom>
-			<rom type="bgm"  offset="0x01">FMBAT.COM</rom>
-			<rom type="bgm"  offset="0x02">FMBGBS.COM</rom>
-			<rom type="bgm"  offset="0x03">FMAOI.COM</rom>
-			<rom type="bgm"  offset="0x04">FMEND.COM</rom>
-			<rom type="bgm"  offset="0x05">FMCOFEE.COM</rom>
-			<rom type="bgm"  offset="0x06">FMOPEN.COM</rom>
+			<rom type="bgm" offset="0x00">FMPCH.COM</rom>
+			<rom type="bgm" offset="0x01">FMBAT.COM</rom>
+			<rom type="bgm" offset="0x02">FMBGBS.COM</rom>
+			<rom type="bgm" offset="0x03">FMAOI.COM</rom>
+			<rom type="bgm" offset="0x04">FMEND.COM</rom>
+			<rom type="bgm" offset="0x05">FMCOFEE.COM</rom>
+			<rom type="bgm" offset="0x06">FMOPEN.COM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0206">WINGMAN</title>
@@ -3054,24 +3156,24 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (PSG)</name>
+		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ウイングマンスペシャル -さらば夢戦士-) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x83f9"/>
 			<option name="mdata_size" value="0x1400"/>
 			<option name="mfile_size" value="0x1400"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="wingsp_msx">
 			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="bgm"  offset="0x00">PSGPCH.COM</rom>
-			<rom type="bgm"  offset="0x01">PSGBAT.COM</rom>
-			<rom type="bgm"  offset="0x02">PSGBGS.COM</rom>
-			<rom type="bgm"  offset="0x03">PSGAOI.COM</rom>
-			<rom type="bgm"  offset="0x04">PSGEND.COM</rom>
-			<rom type="bgm"  offset="0x05">PSGCOFEE.COM</rom>
-			<rom type="bgm"  offset="0x06">PSGOPN.COM</rom>
+			<rom type="bgm" offset="0x00">PSGPCH.COM</rom>
+			<rom type="bgm" offset="0x01">PSGBAT.COM</rom>
+			<rom type="bgm" offset="0x02">PSGBGS.COM</rom>
+			<rom type="bgm" offset="0x03">PSGAOI.COM</rom>
+			<rom type="bgm" offset="0x04">PSGEND.COM</rom>
+			<rom type="bgm" offset="0x05">PSGCOFEE.COM</rom>
+			<rom type="bgm" offset="0x06">PSGOPN.COM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0106">WINGMAN</title>
@@ -3084,156 +3186,156 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] World Golf II (ワールドゴルフ2)</name>
+		<name>[MSX2] World Golf II (ワールドゴルフ2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="wgolf2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x5000">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">00 : OPENING</title>
-			<title code="0x01">01 : COFFEE BREAK #1</title>
-			<title code="0x02">02 : COFFEE BREAK #2</title>
-			<title code="0x03">03 : 表彰式</title>
-			<title code="0x04">04 : ENDING</title>
-			<title code="0x05">05 : BIRDIE TRY</title>
-			<title code="0x06">06 : EAGLE TRY</title>
-			<title code="0x07">07 : ALBATROSS</title>
-			<title code="0x08">08 : EAGLE</title>
-			<title code="0x09">09 : START (SHORT HOLE)</title>
-			<title code="0x0a">0A : START (MIDDLE HOLE)</title>
-			<title code="0x0b">0B : START (LONG HOLE)</title>
-			<title code="0x0c">0C : BIRDIE</title>
+			<title code="0x00">Opening</title>
+			<title code="0x01">Coffee Break #1</title>
+			<title code="0x02">Coffee Break #2</title>
+			<title code="0x03">Awards Ceremony (表彰式)</title>
+			<title code="0x04">Ending</title>
+			<title code="0x05">Birdie Try</title>
+			<title code="0x06">Eagle Try</title>
+			<title code="0x07">Albatross</title>
+			<title code="0x08">Eagle</title>
+			<title code="0x09">Start (Short Hole)</title>
+			<title code="0x0a">Start (Middle Hole)</title>
+			<title code="0x0b">Start (Long Hole)</title>
+			<title code="0x0c">Birdie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)(OPLL)</name>
+		<name>[MSX2] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xac00"/>
 			<option name="mdata_size" value="0x700"/>
 			<option name="mfile_size" value="0x700"/>
-			<option name="init_pc"    value="0x400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="angelus_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xB300">FM</rom>
-			<rom type="bgm"  offset="0x00">OTOA01</rom>
-			<rom type="bgm"  offset="0x01">OTOA02</rom>
-			<rom type="bgm"  offset="0x02">OTOA03</rom>
-			<rom type="bgm"  offset="0x03">OTOA04</rom>
-			<rom type="bgm"  offset="0x04">OTOA05</rom>
-			<rom type="bgm"  offset="0x05">OTOA06</rom>
-			<rom type="bgm"  offset="0x06">OTOA07</rom>
-			<rom type="bgm"  offset="0x07">OTOA08</rom>
-			<rom type="bgm"  offset="0x08">OTOA09</rom>
-			<rom type="bgm"  offset="0x09">OTOA10</rom>
-			<rom type="bgm"  offset="0x0a">OTOA11</rom>
-			<rom type="bgm"  offset="0x0b">OTOA12</rom>
-			<rom type="bgm"  offset="0x0c">OTOA13</rom>
-			<rom type="bgm"  offset="0x0d">OTOA14</rom>
-			<rom type="bgm"  offset="0x0e">OTOA15</rom>
-			<rom type="bgm"  offset="0x0f">OTOA16</rom>
-			<rom type="bgm"  offset="0x10">OTOA17</rom>
-			<rom type="bgm"  offset="0x11">OTOA18</rom>
-			<rom type="bgm"  offset="0x12">OTOA19</rom>
-			<rom type="bgm"  offset="0x13">OTOA20</rom>
+			<rom type="bgm" offset="0x00">OTOA01</rom>
+			<rom type="bgm" offset="0x01">OTOA02</rom>
+			<rom type="bgm" offset="0x02">OTOA03</rom>
+			<rom type="bgm" offset="0x03">OTOA04</rom>
+			<rom type="bgm" offset="0x04">OTOA05</rom>
+			<rom type="bgm" offset="0x05">OTOA06</rom>
+			<rom type="bgm" offset="0x06">OTOA07</rom>
+			<rom type="bgm" offset="0x07">OTOA08</rom>
+			<rom type="bgm" offset="0x08">OTOA09</rom>
+			<rom type="bgm" offset="0x09">OTOA10</rom>
+			<rom type="bgm" offset="0x0a">OTOA11</rom>
+			<rom type="bgm" offset="0x0b">OTOA12</rom>
+			<rom type="bgm" offset="0x0c">OTOA13</rom>
+			<rom type="bgm" offset="0x0d">OTOA14</rom>
+			<rom type="bgm" offset="0x0e">OTOA15</rom>
+			<rom type="bgm" offset="0x0f">OTOA16</rom>
+			<rom type="bgm" offset="0x10">OTOA17</rom>
+			<rom type="bgm" offset="0x11">OTOA18</rom>
+			<rom type="bgm" offset="0x12">OTOA19</rom>
+			<rom type="bgm" offset="0x13">OTOA20</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OTOA01 : プロローグ</title>
-			<title code="0x01">OTOA02 : 愛のシンパシー ～アンジェラスのテーマ～</title>
-			<title code="0x02">OTOA03 : 青い石のきらめき</title>
-			<title code="0x03">OTOA04 : ブライアンとエリス</title>
-			<title code="0x04">OTOA05 : 変貌～セヴァの警告～</title>
-			<title code="0x05">OTOA06 : ブルー・オブジェ～郷愁～</title>
-			<title code="0x06">OTOA07 : エヴァンジェル・オン・グノーシス</title>
-			<title code="0x07">OTOA08 : 悲しみのノクターン</title>
-			<title code="0x08">OTOA09 : エリス・イン・ジャパン</title>
-			<title code="0x09">OTOA10 : ペルーのテーマ～ジグソー・タウン～</title>
-			<title code="0x0a">OTOA11 : ペルー公園にて</title>
-			<title code="0x0b">OTOA12 : 愛のシンパシー～ヴァージョンII～</title>
-			<title code="0x0c">OTOA13 : ハード・デイズ</title>
-			<title code="0x0d">OTOA14 : エリス・イン・ジャーマニー</title>
-			<title code="0x0e">OTOA15 : 変貌～ヴァージョンII～</title>
-			<title code="0x0f">OTOA16 : 予言者</title>
-			<title code="0x10">OTOA17 : 愛のシンパシー～ヴァージョンIII～</title>
-			<title code="0x11">OTOA18 : 彷徨いのプシュケ</title>
-			<title code="0x12">OTOA19 : 崩壊の彼方</title>
-			<title code="0x13">OTOA20 : エピローグ</title>
+			<title code="0x00">プロローグ</title>
+			<title code="0x01">愛のシンパシー ～アンジェラスのテーマ～</title>
+			<title code="0x02">青い石のきらめき</title>
+			<title code="0x03">ブライアンとエリス</title>
+			<title code="0x04">変貌～セヴァの警告～</title>
+			<title code="0x05">ブルー・オブジェ～郷愁～</title>
+			<title code="0x06">エヴァンジェル・オン・グノーシス</title>
+			<title code="0x07">悲しみのノクターン</title>
+			<title code="0x08">エリス・イン・ジャパン</title>
+			<title code="0x09">ペルーのテーマ～ジグソー・タウン～</title>
+			<title code="0x0a">ペルー公園にて</title>
+			<title code="0x0b">愛のシンパシー～ヴァージョンII～</title>
+			<title code="0x0c">ハード・デイズ</title>
+			<title code="0x0d">エリス・イン・ジャーマニー</title>
+			<title code="0x0e">変貌～ヴァージョンII～</title>
+			<title code="0x0f">予言者</title>
+			<title code="0x10">愛のシンパシー～ヴァージョンIII～</title>
+			<title code="0x11">彷徨いのプシュケ</title>
+			<title code="0x12">崩壊の彼方</title>
+			<title code="0x13">エピローグ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)(PSG)</name>
+		<name>[MSX2] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xac00"/>
 			<option name="mdata_size" value="0x700"/>
 			<option name="mfile_size" value="0x700"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="angelus_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xB300">PSG</rom>
-			<rom type="bgm"  offset="0x00">OTOB01</rom>
-			<rom type="bgm"  offset="0x01">OTOB02</rom>
-			<rom type="bgm"  offset="0x02">OTOB03</rom>
-			<rom type="bgm"  offset="0x03">OTOB04</rom>
-			<rom type="bgm"  offset="0x04">OTOB05</rom>
-			<rom type="bgm"  offset="0x05">OTOB06</rom>
-			<rom type="bgm"  offset="0x06">OTOB07</rom>
-			<rom type="bgm"  offset="0x07">OTOB08</rom>
-			<rom type="bgm"  offset="0x08">OTOB09</rom>
-			<rom type="bgm"  offset="0x09">OTOB10</rom>
-			<rom type="bgm"  offset="0x0a">OTOB11</rom>
-			<rom type="bgm"  offset="0x0b">OTOB12</rom>
-			<rom type="bgm"  offset="0x0c">OTOB13</rom>
-			<rom type="bgm"  offset="0x0d">OTOB14</rom>
-			<rom type="bgm"  offset="0x0e">OTOB15</rom>
-			<rom type="bgm"  offset="0x0f">OTOB16</rom>
-			<rom type="bgm"  offset="0x10">OTOB17</rom>
-			<rom type="bgm"  offset="0x11">OTOB18</rom>
-			<rom type="bgm"  offset="0x12">OTOB19</rom>
-			<rom type="bgm"  offset="0x13">OTOB20</rom>
+			<rom type="bgm" offset="0x00">OTOB01</rom>
+			<rom type="bgm" offset="0x01">OTOB02</rom>
+			<rom type="bgm" offset="0x02">OTOB03</rom>
+			<rom type="bgm" offset="0x03">OTOB04</rom>
+			<rom type="bgm" offset="0x04">OTOB05</rom>
+			<rom type="bgm" offset="0x05">OTOB06</rom>
+			<rom type="bgm" offset="0x06">OTOB07</rom>
+			<rom type="bgm" offset="0x07">OTOB08</rom>
+			<rom type="bgm" offset="0x08">OTOB09</rom>
+			<rom type="bgm" offset="0x09">OTOB10</rom>
+			<rom type="bgm" offset="0x0a">OTOB11</rom>
+			<rom type="bgm" offset="0x0b">OTOB12</rom>
+			<rom type="bgm" offset="0x0c">OTOB13</rom>
+			<rom type="bgm" offset="0x0d">OTOB14</rom>
+			<rom type="bgm" offset="0x0e">OTOB15</rom>
+			<rom type="bgm" offset="0x0f">OTOB16</rom>
+			<rom type="bgm" offset="0x10">OTOB17</rom>
+			<rom type="bgm" offset="0x11">OTOB18</rom>
+			<rom type="bgm" offset="0x12">OTOB19</rom>
+			<rom type="bgm" offset="0x13">OTOB20</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">OTOB01 : プロローグ</title>
-			<title code="0x01">OTOB02 : 愛のシンパシー ～アンジェラスのテーマ～</title>
-			<title code="0x02">OTOB03 : 青い石のきらめき</title>
-			<title code="0x03">OTOB04 : ブライアンとエリス</title>
-			<title code="0x04">OTOB05 : 変貌～セヴァの警告～</title>
-			<title code="0x05">OTOB06 : ブルー・オブジェ～郷愁～</title>
-			<title code="0x06">OTOB07 : エヴァンジェル・オン・グノーシス</title>
-			<title code="0x07">OTOB08 : 悲しみのノクターン</title>
-			<title code="0x08">OTOB09 : エリス・イン・ジャパン</title>
-			<title code="0x09">OTOB10 : ペルーのテーマ～ジグソー・タウン～</title>
-			<title code="0x0a">OTOB11 : ペルー公園にて</title>
-			<title code="0x0b">OTOB12 : 愛のシンパシー～ヴァージョンII～</title>
-			<title code="0x0c">OTOB13 : ハード・デイズ</title>
-			<title code="0x0d">OTOB14 : エリス・イン・ジャーマニー</title>
-			<title code="0x0e">OTOB15 : 変貌～ヴァージョンII～</title>
-			<title code="0x0f">OTOB16 : 予言者</title>
-			<title code="0x10">OTOB17 : 愛のシンパシー～ヴァージョンIII～</title>
-			<title code="0x11">OTOB18 : 彷徨いのプシュケ</title>
-			<title code="0x12">OTOB19 : 崩壊の彼方</title>
-			<title code="0x13">OTOB20 : エピローグ</title>
+			<title code="0x00">プロローグ</title>
+			<title code="0x01">愛のシンパシー ～アンジェラスのテーマ～</title>
+			<title code="0x02">青い石のきらめき</title>
+			<title code="0x03">ブライアンとエリス</title>
+			<title code="0x04">変貌～セヴァの警告～</title>
+			<title code="0x05">ブルー・オブジェ～郷愁～</title>
+			<title code="0x06">エヴァンジェル・オン・グノーシス</title>
+			<title code="0x07">悲しみのノクターン</title>
+			<title code="0x08">エリス・イン・ジャパン</title>
+			<title code="0x09">ペルーのテーマ～ジグソー・タウン～</title>
+			<title code="0x0a">ペルー公園にて</title>
+			<title code="0x0b">愛のシンパシー～ヴァージョンII～</title>
+			<title code="0x0c">ハード・デイズ</title>
+			<title code="0x0d">エリス・イン・ジャーマニー</title>
+			<title code="0x0e">変貌～ヴァージョンII～</title>
+			<title code="0x0f">予言者</title>
+			<title code="0x10">愛のシンパシー～ヴァージョンIII～</title>
+			<title code="0x11">彷徨いのプシュケ</title>
+			<title code="0x12">崩壊の彼方</title>
+			<title code="0x13">エピローグ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Jesus (ジーザス) </name>
+		<name>[MSX2] Jesus (ジーザス) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Enix</driveralias>
+		<driveralias type="MSX2">Enix</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		      </options>
 		<romlist archive="jesus_msx">
 			<rom type="code" offset="0x0100">MAIN1.BIN</rom>
@@ -3253,7 +3355,6 @@
 			<rom type="bgm" offset="0x0b">MUS12.BIN</rom>
 			<rom type="bgm" offset="0x0c">MUS13.BIN</rom>
 			<rom type="bgm" offset="0x0d">MUS14.BIN</rom>
-			<rom type="bgm" offset="0x0e">MUS15.BIN</rom>
 			<rom type="bgm" offset="0x0f">MUS16.BIN</rom>
 			<rom type="bgm" offset="0x10">MUS17.BIN</rom>
 			<rom type="bgm" offset="0x11">MUS18.BIN</rom>
@@ -3327,14 +3428,13 @@
 			<title code="0x12">生命への賛歌</title>
 		<!--	<title code="0x1c">生命への賛歌</title> -->
 			<title code="0x00">効果音(電話の音)</title>
-			<title code="0x0e">効果音(動力室)</title>
+			<title code="0x18">効果音(動力室)</title>
 			<title code="0x13">効果音(ドアオープン)</title>
 		<!--	<title code="0x25">効果音</title> -->
 			<title code="0x14">効果音(船内音)</title>
 			<title code="0x15">効果音(ハッチ開閉音)</title>
 			<title code="0x17">効果音(ショック)</title>
 		<!--	<title code="0x28">効果音</title> -->
-			<title code="0x18">効果音(機関室)</title>
 			<title code="0x19">効果音(銃発射)</title>
 		<!--	<title code="0x24">効果音(銃発射)</title> -->
 			<title code="0x1a">効果音(モンスター咆哮)</title>
@@ -3352,11 +3452,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] World Golf II (ワールドゴルフ2)</name>
+		<name>[FM77-AV] World Golf II (ワールドゴルフ2)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Enix</driveralias>
+		<driveralias type="FM77-AV">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
+			<option name="init_pc" value="0x0000"/>
 		</options>
 		<romlist archive="wgolf2_fmav">
 			<rom type="code" offset="0x0000">PATCH.BIN</rom>
@@ -3379,11 +3479,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)</name>
+		<name>[FM77-AV] Angelus: Akuma no Fukuin (アンジェラス ～悪魔の福音～)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Enix</driveralias>
+		<driveralias type="FM77-AV">Enix</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0x8000"/>
 			<option name="mfile_size" value="0x0500"/>
 			<option name="mdata_size" value="0x0500"/>

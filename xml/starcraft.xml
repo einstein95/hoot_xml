@@ -67,16 +67,16 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">Stop the Music</title>
-			<title code="0x00">BGM #01</title>
-			<title code="0x01">BGM #02</title>
-			<title code="0x02">BGM #03</title>
-			<title code="0x03">BGM #04</title>
-			<title code="0x04">BGM #05</title>
-			<title code="0x05">BGM #06</title>
-			<title code="0x06">BGM #07</title>
-			<title code="0x07">BGM #08</title>
-			<title code="0x08">BGM #09</title>
-			<title code="0x09">BGM #10</title>
+			<title code="0x00">Title / Main Menu (タイトル/メインメニュー)</title>
+			<title code="0x01">Town (街)</title>
+			<title code="0x03">Field (フィールド)</title>
+			<title code="0x08">Fight (戦闘)</title>
+			<title code="0x09">End of Fight (戦闘終了)</title>
+			<title code="0x02">BGM03</title>
+			<title code="0x04">BGM05</title>
+			<title code="0x05">BGM06</title>
+			<title code="0x06">BGM07</title>
+			<title code="0x07">BGM08</title>
 		</titlelist>
 	</game>
 	<game>
@@ -260,7 +260,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Might and Magic Book Two</name>
+		<name>[PC-9801] Might and Magic Book Two (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">StarCraft</driveralias>
 		<options>
@@ -1904,20 +1904,20 @@
 			<rom type="x" offset="0x030000">MAIN.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
-			<title code="0x06">BGM #05</title>
-			<title code="0x07">BGM #06</title>
-			<title code="0x08">BGM #07</title>
-			<title code="0x09">BGM #08</title>
-			<title code="0x0a">BGM #09</title>
+                        <title code="0x01">Title / Main Menu (タイトル/メインメニュー)</title>
+                        <title code="0x02">Town (街)</title>
+                        <title code="0x04">Field (フィールド)</title>
+                        <title code="0x09">Battle (戦闘)</title>
+                        <title code="0x0a">End of Battle (戦闘終了)</title>
+                        <title code="0x03">BGM #03</title>
+                        <title code="0x05">BGM #05</title>
+                        <title code="0x06">BGM #06</title>
+                        <title code="0x07">BGM #07</title>
+                        <title code="0x08">BGM #08</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Might and Magic Book Two</name>
+		<name>[X68000] Might and Magic Book Two (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">StarCraft</driveralias>
 		<romlist archive="m_and_m268snd">
@@ -1926,15 +1926,15 @@
 			<rom type="x" offset="0x030000">MAIN.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
-			<title code="0x06">BGM #05</title>
-			<title code="0x07">BGM #06</title>
-			<title code="0x08">BGM #07</title>
-			<title code="0x09">BGM #08</title>
+                        <title code="0x01">Title (タイトル)</title>
+                        <title code="0x02">Town (街)</title>
+                        <title code="0x03">Field (フィールド)</title>
+                        <title code="0x05">Dungeon (ダンジョン)</title>
+                        <title code="0x06">Battle (戦闘)</title>
+                        <title code="0x04">BGM #04</title>
+                        <title code="0x07">BGM #07</title>
+                        <title code="0x08">BGM #08</title>
+                        <title code="0x09">BGM #09</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1947,11 +1947,11 @@
 			<rom type="x" offset="0x030000">main.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1965,13 +1965,13 @@
 			<rom type="x" offset="0x040000">P4.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
-			<title code="0x06">BGM #05</title>
-			<title code="0x07">BGM #06</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1985,7 +1985,7 @@
 			<rom type="x" offset="0x040000">QS.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
+			<title code="0x01">BGM #01</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1999,12 +1999,12 @@
 			<rom type="x" offset="0x040000">main.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
-			<title code="0x06">BGM #05</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2017,150 +2017,168 @@
 			<rom type="x" offset="0x030000">TNT.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #00</title>
-			<title code="0x02">BGM #01</title>
-			<title code="0x03">BGM #02</title>
-			<title code="0x04">BGM #03</title>
-			<title code="0x05">BGM #04</title>
-			<title code="0x06">BGM #05</title>
-			<title code="0x07">BGM #05</title>
-			<title code="0x08">BGM #06</title>
-			<title code="0x09">BGM #07</title>
-			<title code="0x0a">BGM #08</title>
-			<title code="0x0b">BGM #09</title>
-			<title code="0x0c">BGM #0A</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Might and Magic</name>
+		<name>[MSX2] Might and Magic: The Secret Of The Inner Sanctum (マイトアンドマジック) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">StarCraft</driveralias>
+		<driveralias type="MSX2">StarCraft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1a4f"/>
 			<option name="mdata_size" value="0x0400"/>
 			<option name="mfile_size" value="0x0400"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="m_and_m_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0x0b00">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x01">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x02">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x03">DATA4.BIN</rom>
-			<rom type="bgm"  offset="0x04">DATA5.BIN</rom>
-			<rom type="bgm"  offset="0x05">DATA6.BIN</rom>
-			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
-			<rom type="bgm"  offset="0x07">DATA8.BIN</rom>
-			<rom type="bgm"  offset="0x08">DATA9.BIN</rom>
-			<rom type="bgm"  offset="0x09">DATAA.BIN</rom>
+			<rom type="bgm" offset="0x00">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x01">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x02">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x03">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x04">DATA5.BIN</rom>
+			<rom type="bgm" offset="0x05">DATA6.BIN</rom>
+			<rom type="bgm" offset="0x06">DATA7.BIN</rom>
+			<rom type="bgm" offset="0x07">DATA8.BIN</rom>
+			<rom type="bgm" offset="0x08">DATA9.BIN</rom>
+			<rom type="bgm" offset="0x09">DATAA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x09" extcode="1">BGM #%02x</range>
+			<title code="0x00">タイトル/メインメニュー</title>
+			<title code="0x01">街</title>
+			<title code="0x03">フィールド</title>
+			<title code="0x08">戦闘</title>
+			<title code="0x09">戦闘終了</title>
+			<range min="0x02" max="0x02" extcode="1">BGM #%02X</range>
+			<range min="0x04" max="0x07" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Might and Magic Book Two (OPLL)</name>
+		<name>[MSX2] Might and Magic Book Two: Gates To Another World (マイトアンドマジックブック2)  (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">StarCraft</driveralias>
+		<driveralias type="MSX2">StarCraft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd1a0"/>
 			<option name="mdata_size" value="0x0400"/>
 			<option name="mfile_size" value="0x0400"/>
-			<option name="init_pc"    value="0x400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="mandm2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xcb7f">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x01">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x02">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x03">DATA4.BIN</rom>
-			<rom type="bgm"  offset="0x04">DATA5.BIN</rom>
-			<rom type="bgm"  offset="0x05">DATA6.BIN</rom>
-			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
-			<rom type="bgm"  offset="0x07">DATA8.BIN</rom>
-			<rom type="bgm"  offset="0x08">DATA9.BIN</rom>
+			<rom type="bgm" offset="0x00">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x01">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x02">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x03">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x04">DATA5.BIN</rom>
+			<rom type="bgm" offset="0x05">DATA6.BIN</rom>
+			<rom type="bgm" offset="0x06">DATA7.BIN</rom>
+			<rom type="bgm" offset="0x07">DATA8.BIN</rom>
+			<rom type="bgm" offset="0x08">DATA9.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x08" extcode="1">BGM #%02x</range>
+			<title code="0x00">タイトル</title>
+			<title code="0x01">街</title>
+			<title code="0x02">フィールド</title>
+			<title code="0x04">ダンジョン</title>
+			<title code="0x05">戦闘</title>
+			<range min="0x03" max="0x03" extcode="1">BGM #%02X</range>
+			<range min="0x05" max="0x08" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Might and Magic Book Two (PSG)</name>
+		<name>[MSX2] Might and Magic Book Two (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">StarCraft</driveralias>
+		<driveralias type="MSX2">StarCraft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd1a0"/>
 			<option name="mdata_size" value="0x0400"/>
 			<option name="mfile_size" value="0x0400"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="mandm2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xcb7f">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x01">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x02">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x03">DATA4.BIN</rom>
-			<rom type="bgm"  offset="0x04">DATA5.BIN</rom>
-			<rom type="bgm"  offset="0x05">DATA6.BIN</rom>
-			<rom type="bgm"  offset="0x06">DATA7.BIN</rom>
-			<rom type="bgm"  offset="0x07">DATA8.BIN</rom>
-			<rom type="bgm"  offset="0x08">DATA9.BIN</rom>
+			<rom type="bgm" offset="0x00">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x01">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x02">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x03">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x04">DATA5.BIN</rom>
+			<rom type="bgm" offset="0x05">DATA6.BIN</rom>
+			<rom type="bgm" offset="0x06">DATA7.BIN</rom>
+			<rom type="bgm" offset="0x07">DATA8.BIN</rom>
+			<rom type="bgm" offset="0x08">DATA9.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x08" extcode="1">BGM #%02x</range>
+			<title code="0x00">タイトル</title>
+			<title code="0x01">街</title>
+			<title code="0x02">フィールド</title>
+			<title code="0x04">ダンジョン</title>
+			<title code="0x05">戦闘</title>
+			<range min="0x03" max="0x03" extcode="1">BGM #%02X</range>
+			<range min="0x05" max="0x08" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Rogue Alliance (OPLL)</name>
+		<name>[MSX2] Rogue Alliance (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">StarCraft</driveralias>
+		<driveralias type="MSX2">StarCraft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd4ac"/>
 			<option name="mdata_size" value="0x0200"/>
 			<option name="mfile_size" value="0x0200"/>
-			<option name="init_pc"    value="0x400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="rougea_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xcb9d">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x01">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x02">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x03">DATA4.BIN</rom>
-			<rom type="bgm"  offset="0x04">DATA5.BIN</rom>
-			<rom type="bgm"  offset="0x05">DATA6.BIN</rom>
+			<rom type="bgm" offset="0x00">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x01">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x02">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x03">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x04">DATA5.BIN</rom>
+			<rom type="bgm" offset="0x05">DATA6.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x05" extcode="1">BGM #%02x</range>
+			<range min="0x00" max="0x05" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Rogue Alliance (PSG)</name>
+		<name>[MSX2] Rogue Alliance (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">StarCraft</driveralias>
+		<driveralias type="MSX2">StarCraft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd4ac"/>
 			<option name="mdata_size" value="0x0200"/>
 			<option name="mfile_size" value="0x0200"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="rougea_msx">
 			<rom type="code" offset="0x0400">patch</rom>
 			<rom type="code" offset="0xcb9d">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">DATA1.BIN</rom>
-			<rom type="bgm"  offset="0x01">DATA2.BIN</rom>
-			<rom type="bgm"  offset="0x02">DATA3.BIN</rom>
-			<rom type="bgm"  offset="0x03">DATA4.BIN</rom>
-			<rom type="bgm"  offset="0x04">DATA5.BIN</rom>
-			<rom type="bgm"  offset="0x05">DATA6.BIN</rom>
+			<rom type="bgm" offset="0x00">DATA1.BIN</rom>
+			<rom type="bgm" offset="0x01">DATA2.BIN</rom>
+			<rom type="bgm" offset="0x02">DATA3.BIN</rom>
+			<rom type="bgm" offset="0x03">DATA4.BIN</rom>
+			<rom type="bgm" offset="0x04">DATA5.BIN</rom>
+			<rom type="bgm" offset="0x05">DATA6.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x05" extcode="1">BGM #%02x</range>
+			<range min="0x00" max="0x05" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

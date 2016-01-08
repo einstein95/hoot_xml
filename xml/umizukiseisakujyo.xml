@@ -36,9 +36,281 @@
 <gamelist date="2005/09/25">
 	<!-- //海月製作所 -->
 	<game>
+		<name>[PC-9801] Love Escalator (ラブ・エスカレーター) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="love_e_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">LOVE1.EFC</rom>
+			<rom type="file" offset="0x09">LOVE2.EFC</rom>
+			<rom type="file" offset="0x10">AME.M26</rom>
+			<rom type="file" offset="0x11">BGM_01.M26</rom>
+			<rom type="file" offset="0x12">BGM_02.M26</rom>
+			<rom type="file" offset="0x13">BGM_03.M26</rom>
+			<rom type="file" offset="0x14">BGM_04.M26</rom>
+			<rom type="file" offset="0x15">BGM_05.M26</rom>
+			<rom type="file" offset="0x16">BGM_06.M26</rom>
+			<rom type="file" offset="0x17">BGM_07.M26</rom>
+			<rom type="file" offset="0x18">BGM_08.M26</rom>
+			<rom type="file" offset="0x19">BGM_09.M26</rom>
+			<rom type="file" offset="0x1A">BGM_10.M26</rom>
+			<rom type="file" offset="0x1B">BGM_11.M26</rom>
+			<rom type="file" offset="0x1C">BGM_12.M26</rom>
+			<rom type="file" offset="0x1D">BGM_13.M26</rom>
+			<rom type="file" offset="0x1E">BGM_14.M26</rom>
+			<rom type="file" offset="0x1F">BGM_15.M26</rom>
+			<rom type="file" offset="0x20">BGM_16.M26</rom>
+			<rom type="file" offset="0x21">BGM_17.M26</rom>
+			<rom type="file" offset="0x22">BGM_18.M26</rom>
+			<rom type="file" offset="0x23">BGM_19.M26</rom>
+			<rom type="file" offset="0x24">BGM_20.M26</rom>
+			<rom type="file" offset="0x25">BGM_21.M26</rom>
+			<rom type="file" offset="0x26">BGM_22.M26</rom>
+			<rom type="file" offset="0x27">BGM_23.M26</rom>
+			<rom type="file" offset="0x28">BGM_24.M26</rom>
+			<rom type="file" offset="0x29">BGM_25.M26</rom>
+			<rom type="file" offset="0x2A">BGM_26.M26</rom>
+			<rom type="file" offset="0x2B">BOO.M26</rom>
+			<rom type="file" offset="0x2C">DAISEI.M26</rom>
+			<rom type="file" offset="0x2D">HINT.M26</rom>
+			<rom type="file" offset="0x2E">M0005.M26</rom>
+			<rom type="file" offset="0x2F">M0008.M26</rom>
+			<rom type="file" offset="0x30">M0036.M26</rom>
+			<rom type="file" offset="0x31">M0039.M26</rom>
+			<rom type="file" offset="0x32">M0041.M26</rom>
+			<rom type="file" offset="0x33">M0042.M26</rom>
+			<rom type="file" offset="0x34">NAZO.M26</rom>
+			<rom type="file" offset="0x35">SEIKAI.M26</rom>
+			<rom type="file" offset="0x36">SHOCK.M26</rom>
+			<rom type="file" offset="0x37">SUZUME.M26</rom>
+			<rom type="file" offset="0x38">TOKEI.M26</rom>
+			<rom type="file" offset="0x39">TOKEI2.M26</rom>
+			<rom type="file" offset="0x3A">UMI.M26</rom>
+			<rom type="file" offset="0x3B">ZATTOU1.M26</rom>
+			<rom type="file" offset="0x3C">ZATTOU2.M26</rom>
+			<rom type="file" offset="0x3D">ZATTOU3.M26</rom>
+			<rom type="file" offset="0x3E">ZATTOU4.M26</rom>
+			<rom type="shell" offset="0">pmd # -e6 -i -k -m24 -v0</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x3A">海月のテーマ</title>
+			<title code="0x11">Love Escalator</title>
+			<title code="0x12">Green</title>
+			<title code="0x13">BYF.</title>
+			<title code="0x14">Angelic face</title>
+			<title code="0x15">はにかみ</title>
+			<title code="0x16">Circulation</title>
+			<title code="0x17">下町っ娘</title>
+			<title code="0x18">夕方はいつも雨降り</title>
+			<title code="0x19">Rocket Punch</title>
+			<title code="0x1A">添わない角度</title>
+			<title code="0x1B">やわらかな光に包まれて…</title>
+			<title code="0x1C">熱々台風</title>
+			<title code="0x1D">Autumn tints</title>
+			<title code="0x1E">Snowwhite Moon</title>
+			<title code="0x1F">Atono Matsuri</title>
+			<title code="0x20">Present for You</title>
+			<title code="0x21">Disunion</title>
+			<title code="0x22">Vacation</title>
+			<title code="0x23">Flying My Way</title>
+			<title code="0x24">Have You Been In Love?</title>
+			<title code="0x25">Behind the Love</title>
+			<title code="0x26">Verdure</title>
+			<title code="0x27">Peril</title>
+			<title code="0x28">Crash!</title>
+			<title code="0x29">戸惑いの行方</title>
+			<title code="0x2A">ハイ?</title>
+			<title code="0x2F">Pre Fight!</title>
+			<title code="0x30">パチ屋根性</title>
+			<title code="0x31">ワニ道楽</title>
+			<title code="0x32">エイ道楽</title>
+			<title code="0x33">ヨンガリア</title>
+			<title code="0x10">雨</title>
+			<title code="0x2B">不正解</title>
+			<title code="0x2C">大正解</title>
+			<title code="0x2D">ヒント等得る</title>
+			<title code="0x2E">過去を観つめる者</title>
+			<title code="0x34">謎</title>
+			<title code="0x35">正解</title>
+			<title code="0x36">ガーン</title>
+			<title code="0x37">雀</title>
+			<title code="0x38">時計</title>
+			<title code="0x39">時計2</title>
+			<title code="0x3B">雑踏1</title>
+			<title code="0x3C">雑踏2</title>
+			<title code="0x3D">雑踏3</title>
+			<title code="0x3E">雑踏4</title>
+			<range min="0x802" max="0x841" extcode="1">LOVE1.EFC #%2X</range>
+			<range min="0x902" max="0x976" extcode="1">LOVE2.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Love Escalator (ラブ・エスカレーター) (YM2608)</name>
+		<driver type="86">pc98dos</driver>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="love_e_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMDB2.COM</rom>
+			<rom type="file" offset="0x08">LOVE1.EFC</rom>
+			<rom type="file" offset="0x09">LOVE2.EFC</rom>
+			<rom type="file" offset="0x10">AME.M86</rom>
+			<rom type="file" offset="0x11">BGM_01.M86</rom>
+			<rom type="file" offset="0x12">BGM_02.M86</rom>
+			<rom type="file" offset="0x13">BGM_03.M86</rom>
+			<rom type="file" offset="0x14">BGM_04.M86</rom>
+			<rom type="file" offset="0x15">BGM_05.M86</rom>
+			<rom type="file" offset="0x16">BGM_06.M86</rom>
+			<rom type="file" offset="0x17">BGM_07.M86</rom>
+			<rom type="file" offset="0x18">BGM_08.M86</rom>
+			<rom type="file" offset="0x19">BGM_09.M86</rom>
+			<rom type="file" offset="0x1A">BGM_10.M86</rom>
+			<rom type="file" offset="0x1B">BGM_11.M86</rom>
+			<rom type="file" offset="0x1C">BGM_12.M86</rom>
+			<rom type="file" offset="0x1D">BGM_13.M86</rom>
+			<rom type="file" offset="0x1E">BGM_14.M86</rom>
+			<rom type="file" offset="0x1F">BGM_15.M86</rom>
+			<rom type="file" offset="0x20">BGM_16.M86</rom>
+			<rom type="file" offset="0x21">BGM_17.M86</rom>
+			<rom type="file" offset="0x22">BGM_18.M86</rom>
+			<rom type="file" offset="0x23">BGM_19.M86</rom>
+			<rom type="file" offset="0x24">BGM_20.M86</rom>
+			<rom type="file" offset="0x25">BGM_21.M86</rom>
+			<rom type="file" offset="0x26">BGM_22.M86</rom>
+			<rom type="file" offset="0x27">BGM_23.M86</rom>
+			<rom type="file" offset="0x28">BGM_24.M86</rom>
+			<rom type="file" offset="0x29">BGM_25.M86</rom>
+			<rom type="file" offset="0x2A">BGM_26.M86</rom>
+			<rom type="file" offset="0x2B">BOO.M86</rom>
+			<rom type="file" offset="0x2C">DAISEI.M86</rom>
+			<rom type="file" offset="0x2D">HINT.M86</rom>
+			<rom type="file" offset="0x2E">M0005.M86</rom>
+			<rom type="file" offset="0x2F">M0008.M86</rom>
+			<rom type="file" offset="0x30">M0036.M86</rom>
+			<rom type="file" offset="0x31">M0039.M86</rom>
+			<rom type="file" offset="0x32">M0041.M86</rom>
+			<rom type="file" offset="0x33">M0042.M86</rom>
+			<rom type="file" offset="0x34">NAZO.M86</rom>
+			<rom type="file" offset="0x35">SEIKAI.M86</rom>
+			<rom type="file" offset="0x36">SHOCK.M86</rom>
+			<rom type="file" offset="0x37">SUZUME.M86</rom>
+			<rom type="file" offset="0x38">TOKEI.M86</rom>
+			<rom type="file" offset="0x39">TOKEI2.M86</rom>
+			<rom type="file" offset="0x3A">UMI.M86</rom>
+			<rom type="file" offset="0x3B">ZATTOU1.M86</rom>
+			<rom type="file" offset="0x3C">ZATTOU2.M86</rom>
+			<rom type="file" offset="0x3D">ZATTOU3.M86</rom>
+			<rom type="file" offset="0x3E">ZATTOU4.M86</rom>
+			<rom type="shell" offset="0">pmdb2 # -e6 -i -k -m24 -v0</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x3A">海月のテーマ</title>
+			<title code="0x11">Love Escalator</title>
+			<title code="0x12">Fated Pledge (Silent Ver.)</title>
+			<title code="0x13">BY F.</title>
+			<title code="0x14">Angelic face</title>
+			<title code="0x15">はにかみ</title>
+			<title code="0x16">Circulation</title>
+			<title code="0x17">下町っ娘</title>
+			<title code="0x18">夕方はいつも雨降り</title>
+			<title code="0x19">Rocket Punch</title>
+			<title code="0x1A">添わない角度</title>
+			<title code="0x1B">やわらかな光に包まれて…</title>
+			<title code="0x1C">熱々台風</title>
+			<title code="0x1D">Autumn tints</title>
+			<title code="0x1E">Snow Light</title>
+			<title code="0x1F">Atono Matsuri</title>
+			<title code="0x20">Present for You</title>
+			<title code="0x21">Disunion</title>
+			<title code="0x22">Vacation</title>
+			<title code="0x23">Flying My Way</title>
+			<title code="0x24">Have You Been In Love?</title>
+			<title code="0x25">Behind the Love</title>
+			<title code="0x26">None But The Lonely Heart</title>
+			<title code="0x27">Peril</title>
+			<title code="0x28">Crash!</title>
+			<title code="0x29">戸惑いの行方</title>
+			<title code="0x2A">空回りPOWER</title>
+			<title code="0x2E">過去を観つめる者</title>
+			<title code="0x2F">Pre Fight!</title>
+			<title code="0x30">パチ屋根性</title>
+			<title code="0x31">ワニ道楽</title>
+			<title code="0x32">エイ道楽</title>
+			<title code="0x33">ヨンガリア</title>
+			<title code="0x10">雨</title>
+			<title code="0x2B">不正解</title>
+			<title code="0x2C">大正解</title>
+			<title code="0x2D">ヒント等得る</title>
+			<title code="0x34">謎</title>
+			<title code="0x35">正解</title>
+			<title code="0x36">ガーン</title>
+			<title code="0x37">雀</title>
+			<title code="0x38">時計</title>
+			<title code="0x39">時計2</title>
+			<title code="0x3B">雑踏1</title>
+			<title code="0x3C">雑踏2</title>
+			<title code="0x3D">雑踏3</title>
+			<title code="0x3E">雑踏4</title>
+			<range min="0x802" max="0x841" extcode="1">LOVE1.EFC #%2X</range>
+			<range min="0x902" max="0x976" extcode="1">LOVE2.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Love Escalator Demonstration (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="love_ed_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x10">BGM_000A.M</rom>
+			<rom type="shell" offset="0">pmd # /i /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Green</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Love Escalator Demonstration (YM2608)</name>
+		<driver type="86">pc98dos</driver>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="love_ed_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD86.COM</rom>
+			<rom type="file" offset="0x10">DEM_000B.M</rom>
+			<rom type="shell" offset="0">pmd86 # /i /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Fated Pledge</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Power Slave (パワースレイブ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -186,7 +458,7 @@
 	<game>
 		<name>[PC-9801] Rookies (ルーキーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
+		<driveralias type="PC-9801">Umizuki Seisakujyo</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -271,278 +543,6 @@
 			<title code="0x30">時計2</title>
 			<title code="0x32">雑踏2</title>
 			<range min="0x902" max="0x941" extcode="1">SOUND.EFC #%2X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Love Escalator (ラブ・エスカレーター) (YM2203)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
-		<options>
-			<option name="funcvect" value="0x7e"/>
-			<option name="clockmul" value="8"/>
-			<option name="showfm3ex" value="1"/>
-		</options>
-		<romlist archive="love_e_98">
-			<rom type="file" offset="-1">PMD_98.COM</rom>
-			<rom type="file" offset="-1">PMD.COM</rom>
-			<rom type="file" offset="0x08">LOVE1.EFC</rom>
-			<rom type="file" offset="0x09">LOVE2.EFC</rom>
-			<rom type="file" offset="0x10">AME.M26</rom>
-			<rom type="file" offset="0x11">BGM_01.M26</rom>
-			<rom type="file" offset="0x12">BGM_02.M26</rom>
-			<rom type="file" offset="0x13">BGM_03.M26</rom>
-			<rom type="file" offset="0x14">BGM_04.M26</rom>
-			<rom type="file" offset="0x15">BGM_05.M26</rom>
-			<rom type="file" offset="0x16">BGM_06.M26</rom>
-			<rom type="file" offset="0x17">BGM_07.M26</rom>
-			<rom type="file" offset="0x18">BGM_08.M26</rom>
-			<rom type="file" offset="0x19">BGM_09.M26</rom>
-			<rom type="file" offset="0x1A">BGM_10.M26</rom>
-			<rom type="file" offset="0x1B">BGM_11.M26</rom>
-			<rom type="file" offset="0x1C">BGM_12.M26</rom>
-			<rom type="file" offset="0x1D">BGM_13.M26</rom>
-			<rom type="file" offset="0x1E">BGM_14.M26</rom>
-			<rom type="file" offset="0x1F">BGM_15.M26</rom>
-			<rom type="file" offset="0x20">BGM_16.M26</rom>
-			<rom type="file" offset="0x21">BGM_17.M26</rom>
-			<rom type="file" offset="0x22">BGM_18.M26</rom>
-			<rom type="file" offset="0x23">BGM_19.M26</rom>
-			<rom type="file" offset="0x24">BGM_20.M26</rom>
-			<rom type="file" offset="0x25">BGM_21.M26</rom>
-			<rom type="file" offset="0x26">BGM_22.M26</rom>
-			<rom type="file" offset="0x27">BGM_23.M26</rom>
-			<rom type="file" offset="0x28">BGM_24.M26</rom>
-			<rom type="file" offset="0x29">BGM_25.M26</rom>
-			<rom type="file" offset="0x2A">BGM_26.M26</rom>
-			<rom type="file" offset="0x2B">BOO.M26</rom>
-			<rom type="file" offset="0x2C">DAISEI.M26</rom>
-			<rom type="file" offset="0x2D">HINT.M26</rom>
-			<rom type="file" offset="0x2E">M0005.M26</rom>
-			<rom type="file" offset="0x2F">M0008.M26</rom>
-			<rom type="file" offset="0x30">M0036.M26</rom>
-			<rom type="file" offset="0x31">M0039.M26</rom>
-			<rom type="file" offset="0x32">M0041.M26</rom>
-			<rom type="file" offset="0x33">M0042.M26</rom>
-			<rom type="file" offset="0x34">NAZO.M26</rom>
-			<rom type="file" offset="0x35">SEIKAI.M26</rom>
-			<rom type="file" offset="0x36">SHOCK.M26</rom>
-			<rom type="file" offset="0x37">SUZUME.M26</rom>
-			<rom type="file" offset="0x38">TOKEI.M26</rom>
-			<rom type="file" offset="0x39">TOKEI2.M26</rom>
-			<rom type="file" offset="0x3A">UMI.M26</rom>
-			<rom type="file" offset="0x3B">ZATTOU1.M26</rom>
-			<rom type="file" offset="0x3C">ZATTOU2.M26</rom>
-			<rom type="file" offset="0x3D">ZATTOU3.M26</rom>
-			<rom type="file" offset="0x3E">ZATTOU4.M26</rom>
-			<rom type="shell" offset="0">pmd # -e6 -i -k -m24 -v0</rom>
-			<rom type="shell" offset="0">pmd_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x3A">海月のテーマ</title>
-			<title code="0x11">Love Escalator</title>
-			<title code="0x12">Green</title>
-			<title code="0x13">BYF.</title>
-			<title code="0x14">Angelic face</title>
-			<title code="0x15">はにかみ</title>
-			<title code="0x16">Circulation</title>
-			<title code="0x17">下町っ娘</title>
-			<title code="0x18">夕方はいつも雨降り</title>
-			<title code="0x19">Rocket Punch</title>
-			<title code="0x1A">添わない角度</title>
-			<title code="0x1B">やわらかな光に包まれて…</title>
-			<title code="0x1C">熱々台風</title>
-			<title code="0x1D">Autumn tints</title>
-			<title code="0x1E">Snowwhite Moon</title>
-			<title code="0x1F">Atono Matsuri</title>
-			<title code="0x20">Present for You</title>
-			<title code="0x21">Disunion</title>
-			<title code="0x22">Vacation</title>
-			<title code="0x23">Flying My Way</title>
-			<title code="0x24">Have You Been In Love?</title>
-			<title code="0x25">Behind the Love</title>
-			<title code="0x26">Verdure</title>
-			<title code="0x27">Peril</title>
-			<title code="0x28">Crash!</title>
-			<title code="0x29">戸惑いの行方</title>
-			<title code="0x2A">ハイ?</title>
-			<title code="0x2F">Pre Fight!</title>
-			<title code="0x30">パチ屋根性</title>
-			<title code="0x31">ワニ道楽</title>
-			<title code="0x32">エイ道楽</title>
-			<title code="0x33">ヨンガリア</title>
-			<title code="0x10">雨</title>
-			<title code="0x2B">不正解</title>
-			<title code="0x2C">大正解</title>
-			<title code="0x2D">ヒント等得る</title>
-			<title code="0x2E">過去を観つめる者</title>
-			<title code="0x34">謎</title>
-			<title code="0x35">正解</title>
-			<title code="0x36">ガーン</title>
-			<title code="0x37">雀</title>
-			<title code="0x38">時計</title>
-			<title code="0x39">時計2</title>
-			<title code="0x3B">雑踏1</title>
-			<title code="0x3C">雑踏2</title>
-			<title code="0x3D">雑踏3</title>
-			<title code="0x3E">雑踏4</title>
-			<range min="0x802" max="0x841" extcode="1">LOVE1.EFC #%2X</range>
-			<range min="0x902" max="0x976" extcode="1">LOVE2.EFC #%2X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Love Escalator (ラブ・エスカレーター) (YM2608)</name>
-		<driver type="86">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
-		<options>
-			<option name="funcvect" value="0x7e"/>
-			<option name="clockmul" value="8"/>
-			<option name="showfm3ex" value="1"/>
-		</options>
-		<romlist archive="love_e_98">
-			<rom type="file" offset="-1">PMD_98.COM</rom>
-			<rom type="file" offset="-1">PMDB2.COM</rom>
-			<rom type="file" offset="0x08">LOVE1.EFC</rom>
-			<rom type="file" offset="0x09">LOVE2.EFC</rom>
-			<rom type="file" offset="0x10">AME.M86</rom>
-			<rom type="file" offset="0x11">BGM_01.M86</rom>
-			<rom type="file" offset="0x12">BGM_02.M86</rom>
-			<rom type="file" offset="0x13">BGM_03.M86</rom>
-			<rom type="file" offset="0x14">BGM_04.M86</rom>
-			<rom type="file" offset="0x15">BGM_05.M86</rom>
-			<rom type="file" offset="0x16">BGM_06.M86</rom>
-			<rom type="file" offset="0x17">BGM_07.M86</rom>
-			<rom type="file" offset="0x18">BGM_08.M86</rom>
-			<rom type="file" offset="0x19">BGM_09.M86</rom>
-			<rom type="file" offset="0x1A">BGM_10.M86</rom>
-			<rom type="file" offset="0x1B">BGM_11.M86</rom>
-			<rom type="file" offset="0x1C">BGM_12.M86</rom>
-			<rom type="file" offset="0x1D">BGM_13.M86</rom>
-			<rom type="file" offset="0x1E">BGM_14.M86</rom>
-			<rom type="file" offset="0x1F">BGM_15.M86</rom>
-			<rom type="file" offset="0x20">BGM_16.M86</rom>
-			<rom type="file" offset="0x21">BGM_17.M86</rom>
-			<rom type="file" offset="0x22">BGM_18.M86</rom>
-			<rom type="file" offset="0x23">BGM_19.M86</rom>
-			<rom type="file" offset="0x24">BGM_20.M86</rom>
-			<rom type="file" offset="0x25">BGM_21.M86</rom>
-			<rom type="file" offset="0x26">BGM_22.M86</rom>
-			<rom type="file" offset="0x27">BGM_23.M86</rom>
-			<rom type="file" offset="0x28">BGM_24.M86</rom>
-			<rom type="file" offset="0x29">BGM_25.M86</rom>
-			<rom type="file" offset="0x2A">BGM_26.M86</rom>
-			<rom type="file" offset="0x2B">BOO.M86</rom>
-			<rom type="file" offset="0x2C">DAISEI.M86</rom>
-			<rom type="file" offset="0x2D">HINT.M86</rom>
-			<rom type="file" offset="0x2E">M0005.M86</rom>
-			<rom type="file" offset="0x2F">M0008.M86</rom>
-			<rom type="file" offset="0x30">M0036.M86</rom>
-			<rom type="file" offset="0x31">M0039.M86</rom>
-			<rom type="file" offset="0x32">M0041.M86</rom>
-			<rom type="file" offset="0x33">M0042.M86</rom>
-			<rom type="file" offset="0x34">NAZO.M86</rom>
-			<rom type="file" offset="0x35">SEIKAI.M86</rom>
-			<rom type="file" offset="0x36">SHOCK.M86</rom>
-			<rom type="file" offset="0x37">SUZUME.M86</rom>
-			<rom type="file" offset="0x38">TOKEI.M86</rom>
-			<rom type="file" offset="0x39">TOKEI2.M86</rom>
-			<rom type="file" offset="0x3A">UMI.M86</rom>
-			<rom type="file" offset="0x3B">ZATTOU1.M86</rom>
-			<rom type="file" offset="0x3C">ZATTOU2.M86</rom>
-			<rom type="file" offset="0x3D">ZATTOU3.M86</rom>
-			<rom type="file" offset="0x3E">ZATTOU4.M86</rom>
-			<rom type="shell" offset="0">pmdb2 # -e6 -i -k -m24 -v0</rom>
-			<rom type="shell" offset="0">pmd_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x3A">海月のテーマ</title>
-			<title code="0x11">Love Escalator</title>
-			<title code="0x12">Fated Pledge (Silent Ver.)</title>
-			<title code="0x13">BY F.</title>
-			<title code="0x14">Angelic face</title>
-			<title code="0x15">はにかみ</title>
-			<title code="0x16">Circulation</title>
-			<title code="0x17">下町っ娘</title>
-			<title code="0x18">夕方はいつも雨降り</title>
-			<title code="0x19">Rocket Punch</title>
-			<title code="0x1A">添わない角度</title>
-			<title code="0x1B">やわらかな光に包まれて…</title>
-			<title code="0x1C">熱々台風</title>
-			<title code="0x1D">Autumn tints</title>
-			<title code="0x1E">Snow Light</title>
-			<title code="0x1F">Atono Matsuri</title>
-			<title code="0x20">Present for You</title>
-			<title code="0x21">Disunion</title>
-			<title code="0x22">Vacation</title>
-			<title code="0x23">Flying My Way</title>
-			<title code="0x24">Have You Been In Love?</title>
-			<title code="0x25">Behind the Love</title>
-			<title code="0x26">None But The Lonely Heart</title>
-			<title code="0x27">Peril</title>
-			<title code="0x28">Crash!</title>
-			<title code="0x29">戸惑いの行方</title>
-			<title code="0x2A">空回りPOWER</title>
-			<title code="0x2E">過去を観つめる者</title>
-			<title code="0x2F">Pre Fight!</title>
-			<title code="0x30">パチ屋根性</title>
-			<title code="0x31">ワニ道楽</title>
-			<title code="0x32">エイ道楽</title>
-			<title code="0x33">ヨンガリア</title>
-			<title code="0x10">雨</title>
-			<title code="0x2B">不正解</title>
-			<title code="0x2C">大正解</title>
-			<title code="0x2D">ヒント等得る</title>
-			<title code="0x34">謎</title>
-			<title code="0x35">正解</title>
-			<title code="0x36">ガーン</title>
-			<title code="0x37">雀</title>
-			<title code="0x38">時計</title>
-			<title code="0x39">時計2</title>
-			<title code="0x3B">雑踏1</title>
-			<title code="0x3C">雑踏2</title>
-			<title code="0x3D">雑踏3</title>
-			<title code="0x3E">雑踏4</title>
-			<range min="0x802" max="0x841" extcode="1">LOVE1.EFC #%2X</range>
-			<range min="0x902" max="0x976" extcode="1">LOVE2.EFC #%2X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Love Escalator Demonstration (YM2203)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
-		<options>
-			<option name="funcvect" value="0x7e"/>
-			<option name="clockmul" value="8"/>
-			<option name="showfm3ex" value="1"/>
-		</options>
-		<romlist archive="love_ed_98">
-			<rom type="file" offset="-1">PMD_98.COM</rom>
-			<rom type="file" offset="-1">PMD.COM</rom>
-			<rom type="file" offset="0x10">BGM_000A.M</rom>
-			<rom type="shell" offset="0">pmd # /i /k</rom>
-			<rom type="shell" offset="0">pmd_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">Green</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Love Escalator Demonstration (YM2608)</name>
-		<driver type="86">pc98dos</driver>
-		<driveralias type="PC-9801">Umitsuki Productions</driveralias>
-		<options>
-			<option name="funcvect" value="0x7e"/>
-			<option name="clockmul" value="8"/>
-			<option name="showfm3ex" value="1"/>
-		</options>
-		<romlist archive="love_ed_98">
-			<rom type="file" offset="-1">PMD_98.COM</rom>
-			<rom type="file" offset="-1">PMD86.COM</rom>
-			<rom type="file" offset="0x10">DEM_000B.M</rom>
-			<rom type="shell" offset="0">pmd86 # /i /k</rom>
-			<rom type="shell" offset="0">pmd_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">Fated Pledge</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -36,14 +36,14 @@
 <gamelist date="2007/03/25">
 	<!-- //ザインソフト(Sein 1984~1986, Xain 1987~198905 (Galf Stream?), Zain 198909~... (Alfaim?)) -->
 	<game>
-		<name>[PC-8801] Tritorn (トリトーン) (YM2203)</name>
+		<name>[PC-8801] Triton (トリトーン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
 			<option name="baseclock" value="0x04"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
-		<romlist archive="tritorn">
+		<romlist archive="triton">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8000">MUSIC</rom>
 			<rom type="code" offset="0xf000">ENDING</rom>
@@ -119,7 +119,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Herlesh: Seek Lost a Light (ハーレッシュ) (YM2203)</name>
+		<name>[PC-8801] Herlesh (ハーレッシュ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -237,7 +237,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tritorn 2: Road of Darkness (トリトーンII ROAD OF DARKNESS) (YM2203)</name>
+		<name>[PC-8801] Triton 2: Road of Darkness (トリトーンII ROAD OF DARKNESS) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -245,7 +245,7 @@
 			<option name="mdata_size" value="0x0800"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
-		<romlist archive="tritorn2">
+		<romlist archive="triton2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">DRIVER</rom>
 			<rom type="bgm" offset="0x00">MUS00</rom>
@@ -303,7 +303,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dios (FD版) (YM2608)</name>
+		<name>[PC-8801] Dios (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -362,7 +362,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dios (FD版) (YM2203)</name>
+		<name>[PC-8801] Dios (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -517,7 +517,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Tug of War (タッグオブウォー) (YM2608)</name>
+		<name>[PC-8801] Tug of War (タッグオブウォー) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -550,7 +550,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Tug of War (タッグオブウォー) (YM2203)</name>
+		<name>[PC-8801] Tug of War (タッグオブウォー) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -703,6 +703,33 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[X68000] Dios (ディオス) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Sein Soft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+		</options>
+		<romlist archive="dios68snd">
+			<rom type="code" offset="0x000000">dios68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x020000">OPENING.X</rom>
+			<rom type="code" offset="0x030000">MUS00.BIN</rom>
+			<rom type="code" offset="0x032000">MUS01.BIN</rom>
+			<rom type="code" offset="0x034000">MUS02.BIN</rom>
+			<rom type="code" offset="0x036000">MUS03.BIN</rom>
+			<rom type="code" offset="0x038000">MUS04.BIN</rom>
+			<rom type="code" offset="0x03a000">MUS05.BIN</rom>
+			<rom type="code" offset="0x03c000">MUS06.BIN</rom>
+			<rom type="code" offset="0x03e000">MUS07.BIN</rom>
+			<rom type="code" offset="0x040000">MUS08.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">OPENING.X #00</title>
+			<title code="0x02">OPENING.X #01</title>
+			<range min="0x03" max="0x0b" extcode="0">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[X68000] Ground Master: Ushinawareta Houju no Densetsu (Ground Master -失われた宝珠の伝説-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
@@ -831,69 +858,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Hideger (AY-3-8910+YM2413)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-			<option name="use_opll" value="0x01"/>
-		</options>
-		<romlist archive="hideger_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0xb000">OPLL.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Title (タイトル)</title>
-			<title code="0x02">BGM 02</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Hideger (AY-3-8910)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-		</options>
-		<romlist archive="hideger_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0xb000">PSG.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Title (タイトル)</title>
-			<title code="0x02">BGM 02</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Jotumn (AY-3-8910)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-		</options>
-		<romlist archive="jotumn_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x04" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Majin Kyu (魔神宮) (AY-3-8910)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-		</options>
-		<romlist archive="majinkyu_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x01" max="0x05" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
 		<name>[MSX2] Bastard (バスタード) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
@@ -913,52 +877,6 @@
 			<title code="0x018d">BGM #8d</title>
 			<title code="0x018f">BGM #8f</title>
 			<range min="0x01" max="0x0c" extcode="1">SFX #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Tritorn II: Road of Darkness (トリトーンII ROAD OF DARKNESS) (AY-3-8910+YM2413)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-			<option name="mdata_addr" value="0xb800"/>
-			<option name="mdata_size" value="0x0400"/>
-			<option name="mfile_size" value="0x0400"/>
-			<option name="use_opll" value="0x01"/>
-		</options>
-		<romlist archive="tritorn2_msx">
-			<rom type="code" offset="0x0400">patch</rom>
-			<rom type="code" offset="0x8000">FMDRV.BIN</rom>
-			<rom type="bgm" offset="0x00">MUS0.BIN</rom>
-			<rom type="bgm" offset="0x01">MUS1.BIN</rom>
-			<rom type="bgm" offset="0x02">MUS2.BIN</rom>
-			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x00" max="0x03" extcode="1">BGM #%02X</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX2] Tritorn II: Road of Darkness (トリトーンII ROAD OF DARKNESS) (AY-3-8910)</name>
-		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">Sein Soft</driveralias>
-		<options>
-			<option name="init_pc" value="0x0400"/>
-			<option name="mdata_addr" value="0xb800"/>
-			<option name="mdata_size" value="0x0400"/>
-			<option name="mfile_size" value="0x0400"/>
-		</options>
-		<romlist archive="tritorn2_msx">
-			<rom type="code" offset="0x0400">patch2</rom>
-			<rom type="code" offset="0x8000">PSGDRV.BIN</rom>
-			<rom type="code" offset="0x9E80">TONE.BIN</rom>
-			<rom type="bgm" offset="0x00">MUS0.BIN</rom>
-			<rom type="bgm" offset="0x01">MUS1.BIN</rom>
-			<rom type="bgm" offset="0x02">MUS2.BIN</rom>
-			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
-		</romlist>
-		<titlelist>
-			<range min="0x00" max="0x03" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1026,6 +944,7 @@
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
 			<option name="use_opll" value="0x01"/>
+			<option name="psg_mix" value="0x30"/>
 		</options>
 		<romlist archive="galfstrm_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1070,30 +989,125 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Dios (ディオス) (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Sein Soft</driveralias>
+		<name>[MSX2] Hideger (AY-3-8910+YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
-			<option name="mfp" value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
-		<romlist archive="dios68snd">
-			<rom type="code" offset="0x000000">dios68snd.bin</rom>
-			<rom type="x" offset="0x010000">OPMDRV.X</rom>
-			<rom type="x" offset="0x020000">OPENING.X</rom>
-			<rom type="code" offset="0x030000">MUS00.BIN</rom>
-			<rom type="code" offset="0x032000">MUS01.BIN</rom>
-			<rom type="code" offset="0x034000">MUS02.BIN</rom>
-			<rom type="code" offset="0x036000">MUS03.BIN</rom>
-			<rom type="code" offset="0x038000">MUS04.BIN</rom>
-			<rom type="code" offset="0x03a000">MUS05.BIN</rom>
-			<rom type="code" offset="0x03c000">MUS06.BIN</rom>
-			<rom type="code" offset="0x03e000">MUS07.BIN</rom>
-			<rom type="code" offset="0x040000">MUS08.BIN</rom>
+		<romlist archive="hideger_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xb000">OPLL.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">OPENING.X #00</title>
-			<title code="0x02">OPENING.X #01</title>
-			<range min="0x03" max="0x0b" extcode="0">BGM #%02X</range>
+			<title code="0x01">Title (タイトル)</title>
+			<title code="0x02">BGM 02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Hideger (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="hideger_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xb000">PSG.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Title (タイトル)</title>
+			<title code="0x02">BGM 02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Jotumn (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="jotumn_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x04">タイトル</title>
+			<title code="0x01">通常BGM</title>
+			<title code="0x02">店/教会</title>
+			<title code="0x03">戦闘</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Triton II: Road of Darkness (トリトーンII ROAD OF DARKNESS) (AY-3-8910+YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+			<option name="mdata_addr" value="0xb800"/>
+			<option name="mdata_size" value="0x0400"/>
+			<option name="mfile_size" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="triton2_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x8000">FMDRV.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS0.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS1.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS2.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">タイトル</title>
+			<title code="0x03">通常BGM</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x02">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Triton II: Road of Darkness (トリトーンII ROAD OF DARKNESS) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+			<option name="mdata_addr" value="0xb800"/>
+			<option name="mdata_size" value="0x0400"/>
+			<option name="mfile_size" value="0x0400"/>
+		</options>
+		<romlist archive="triton2_msx">
+			<rom type="code" offset="0x0400">patch2</rom>
+			<rom type="code" offset="0x8000">PSGDRV.BIN</rom>
+			<rom type="code" offset="0x9E80">TONE.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS0.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS1.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS2.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">タイトル</title>
+			<title code="0x03">通常BGM</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x02">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Majin Kyu (魔神宮) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Sein Soft</driveralias>
+		<options>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="majinkyu_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">タイトル</title>
+			<title code="0x02">通常BGM</title>
+			<title code="0x03">街</title>
+			<title code="0x05">戦闘</title>
+			<title code="0x04">塔</title>
 		</titlelist>
 	</game>
 	<game>

@@ -41,6 +41,7 @@
 		<driveralias type="X68000">Capcom</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
+			<option name="stop" value="0xff"/>
 		</options>
 		<romlist archive="srh68snd">
 			<rom type="code">srh68snd.bin</rom>
@@ -48,7 +49,6 @@
 			<rom type="code" offset="0xa0000">SHSOUND.SLD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
 			<title code="0x14">Credit (クレジット)</title>
 			<title code="0x11">Defense Zone (防衛圏) [Stage 1 Demo]</title>
 			<title code="0x00">Rush In! (踏み込め！) [1st Stage BGM1]</title>
@@ -94,6 +94,7 @@
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="mfp" value="1"/>
+			<option name="stop" value="0xff"/>
 		</options>
 		<romlist archive="dm68snd">
 			<rom type="code">dm68snd.bin</rom>
@@ -103,33 +104,32 @@
 			<rom type="code" offset="0x30000">TEXTDAT2.SLD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
+			<title code="0x07">Credit</title>
+			<title code="0x00">Start</title>
+			<title code="0x0a">Map</title>
+			<title code="0x0c">1st BGM</title>
+			<title code="0x0d">1st Boss BGM</title>
+			<title code="0x0e">2nd BGM</title>
+			<title code="0x0f">2nd Boss BGM</title>
+			<title code="0x10">3rd BGM</title>
+			<title code="0x11">3rd Boss BGM</title>
+			<title code="0x12">4th BGM</title>
+			<title code="0x13">4th Boss BGM</title>
+			<title code="0x14">5th BGM</title>
+			<title code="0x15">5th Boss BGM</title>
+			<title code="0x17">1st Lap End</title>
+			<title code="0x16">6th BGM (Lucifer)</title>
+			<title code="0x02">Round Clear</title>
+			<title code="0x18">End</title>
+			<title code="0x19">Ending</title>
+			<title code="0x09">Hurry Up</title>
+			<title code="0x08">Death</title>
+			<title code="0x01">Game Over</title>
+			<title code="0x0b">Continue</title>
+			<title code="0x03">Ranking Top</title>
+			<title code="0x04">Ranking Under 2nd</title>
+			<title code="0x05">Display Top</title>
+			<title code="0x06">Display Under 2nd</title>
 		</titlelist>
 	</game>
 	<game>
@@ -138,6 +138,7 @@
 		<driveralias type="X68000">Capcom</driveralias>
 		<options>
 			<option name="mfp" value="1"/>
+			<option name="stop" value="0xff"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="8"/>
 		</options>
@@ -149,33 +150,32 @@
 			<rom type="code" offset="0x30000">TEXTDAT4.SLD</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
+			<title code="0x07">Credit</title>
+			<title code="0x00">Start</title>
+			<title code="0x0a">Map</title>
+			<title code="0x0c">1st BGM</title>
+			<title code="0x0d">1st Boss BGM</title>
+			<title code="0x0e">2nd BGM</title>
+			<title code="0x0f">2nd Boss BGM</title>
+			<title code="0x10">3rd BGM</title>
+			<title code="0x11">3rd Boss BGM</title>
+			<title code="0x12">4th BGM</title>
+			<title code="0x13">4th Boss BGM</title>
+			<title code="0x14">5th BGM</title>
+			<title code="0x15">5th Boss BGM</title>
+			<title code="0x17">1st Lap End</title>
+			<title code="0x16">6th BGM (Lucifer)</title>
+			<title code="0x02">Round Clear</title>
+			<title code="0x18">End</title>
+			<title code="0x19">Ending</title>
+			<title code="0x09">Hurry Up</title>
+			<title code="0x08">Death</title>
+			<title code="0x01">Game Over</title>
+			<title code="0x0b">Continue</title>
+			<title code="0x03">Ranking Top</title>
+			<title code="0x04">Ranking Under 2nd</title>
+			<title code="0x05">Display Top</title>
+			<title code="0x06">Display Under 2nd</title>
 		</titlelist>
 	</game>
 	<game>
@@ -184,6 +184,7 @@
 		<driveralias type="X68000">Capcom</driveralias>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
+			<option name="stop" value="0xff"/>
 			<option name="mfp" value="1"/>
 			<option name="dmaint" value="1"/>
 		</options>
@@ -199,39 +200,26 @@
 			<rom type="code" offset="0x80000">DRUMS.MOP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1A</title>
-			<title code="0x1b">BGM #1B</title>
-			<title code="0x1c">BGM #1C</title>
-			<title code="0x1d">BGM #1D</title>
-			<title code="0x1e">BGM #1E</title>
-			<title code="0x1f">BGM #1F</title>
+			<title code="0x12">Opening</title>
+			<title code="0x1f">Credit</title>
+			<title code="0x15">Character Select/Name Entry</title>
+			<title code="0x10">Round Start</title>
+			<title code="0x00">Round1 Slum1/Round4/Round6</title>
+			<title code="0x01">Round1 Slum2</title>
+			<title code="0x16">Round Clear</title>
+			<title code="0x02">Round2 Subway Park1/Round6</title>
+			<title code="0x03">Round2 Subway Park2</title>
+			<title code="0x0a">BONUS Stage</title>
+			<title code="0x04">Round3 West Side1</title>
+			<title code="0x08">Round4 Industrial Area1</title>
+			<title code="0x09">Round4 Industrial Area2/Round6</title>
+			<title code="0x05">Round5 Bay Area1</title>
+			<title code="0x06">Round5 Bay Area2</title>
+			<title code="0x07">Round5 Bay Area3/Round6</title>
+			<title code="0x18">All Round Clear</title>
+			<title code="0x14">Ending</title>
+			<title code="0x13">Continue</title>
+			<title code="0x11">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -241,6 +229,7 @@
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="mfp" value="1"/>
+			<option name="stop" value="0xff"/>
 			<option name="dmaint" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="0"/>
@@ -257,39 +246,26 @@
 			<rom type="code" offset="0x80000">DRUMS.MOP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1A</title>
-			<title code="0x1b">BGM #1B</title>
-			<title code="0x1c">BGM #1C</title>
-			<title code="0x1d">BGM #1D</title>
-			<title code="0x1e">BGM #1E</title>
-			<title code="0x1f">BGM #1F</title>
+			<title code="0x12">Opening</title>
+			<title code="0x1f">Credit</title>
+			<title code="0x15">Character Select/Name Entry</title>
+			<title code="0x10">Round Start</title>
+			<title code="0x00">Round1 Slum1/Round4/Round6</title>
+			<title code="0x01">Round1 Slum2</title>
+			<title code="0x16">Round Clear</title>
+			<title code="0x02">Round2 Subway Park1/Round6</title>
+			<title code="0x03">Round2 Subway Park2</title>
+			<title code="0x0a">BONUS Stage</title>
+			<title code="0x04">Round3 West Side1</title>
+			<title code="0x08">Round4 Industrial Area1</title>
+			<title code="0x09">Round4 Industrial Area2/Round6</title>
+			<title code="0x05">Round5 Bay Area1</title>
+			<title code="0x06">Round5 Bay Area2</title>
+			<title code="0x07">Round5 Bay Area3/Round6</title>
+			<title code="0x18">All Round Clear</title>
+			<title code="0x14">Ending</title>
+			<title code="0x13">Continue</title>
+			<title code="0x11">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -299,6 +275,7 @@
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="mfp" value="1"/>
+			<option name="stop" value="0xff"/>
 			<option name="dmaint" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
@@ -315,39 +292,26 @@
 			<rom type="code" offset="0x80000">DRUMS.MOP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFF">Stop the Music</title>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1A</title>
-			<title code="0x1b">BGM #1B</title>
-			<title code="0x1c">BGM #1C</title>
-			<title code="0x1d">BGM #1D</title>
-			<title code="0x1e">BGM #1E</title>
-			<title code="0x1f">BGM #1F</title>
+			<title code="0x12">Opening</title>
+			<title code="0x1f">Credit</title>
+			<title code="0x15">Character Select/Name Entry</title>
+			<title code="0x10">Round Start</title>
+			<title code="0x00">Round1 Slum1/Round4/Round6</title>
+			<title code="0x01">Round1 Slum2</title>
+			<title code="0x16">Round Clear</title>
+			<title code="0x02">Round2 Subway Park1/Round6</title>
+			<title code="0x03">Round2 Subway Park2</title>
+			<title code="0x0a">BONUS Stage</title>
+			<title code="0x04">Round3 West Side1</title>
+			<title code="0x08">Round4 Industrial Area1</title>
+			<title code="0x09">Round4 Industrial Area2/Round6</title>
+			<title code="0x05">Round5 Bay Area1</title>
+			<title code="0x06">Round5 Bay Area2</title>
+			<title code="0x07">Round5 Bay Area3/Round6</title>
+			<title code="0x18">All Round Clear</title>
+			<title code="0x14">Ending</title>
+			<title code="0x13">Continue</title>
+			<title code="0x11">Game Over</title>
 		</titlelist>
 	</game>
 	<game>

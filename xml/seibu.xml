@@ -43,7 +43,7 @@
 			<option name="ay_mix" value="0x48"/>
 			<option name="sn_mix" value="0x100"/>
 			<option name="fmpac_mix" value="0x200"/>
-				<option name="fmunit_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
 			<option name="scc_mix" value="0xcc"/>
 		</options>
 		<romlist archive="mwizkid_msx">
@@ -171,8 +171,7 @@
 		<driver type="raiden">seibu</driver>
 		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
 		<options>
-			<option name="opl_mix" value="0x300"/>
-			<option name="pcm_mix" value="0x220"/>
+			<option name="pcm_mix" value="0x80"/>
 			<option name="pcm_size" value="0x80000"/>
 		</options>
 		<romlist archive="goodejan">
@@ -193,8 +192,7 @@
 		<driver type="raiden">seibu</driver>
 		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
 		<options>
-			<option name="opl_mix" value="0x300"/>
-			<option name="pcm_mix" value="0x220"/>
+			<option name="pcm_mix" value="0x80"/>
 			<option name="pcm_size" value="0x80000"/>
 		</options>
 		<romlist archive="totmejan">
@@ -212,54 +210,10 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Raiden] Heated Barrel (ヒーテッドバレル) (YM3812+MSM6295)</name>
-		<driver type="raiden">seibu</driver>
-		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
-		<options>
-			<option name="opl_mix" value="0x300"/>
-			<option name="pcm_mix" value="0x220"/>
-			<option name="pcm_size" value="0x20000"/>
-		</options>
-		<romlist archive="heatbrl">
-			<rom type="code" offset="0x0000">barrel.7</rom>
-			<rom type="pcm" offset="0x0000">barrel.8</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1a</title>
-			<title code="0x1b">BGM #1b</title>
-			<title code="0x1c">BGM #1c</title>
-			<title code="0x1d">BGM #1d</title>
-			<title code="0x1e">BGM #1e</title>
-			<title code="0x1f">BGM #1f</title>
-			<title code="0x26">BGM #26</title>
-			<title code="0x27">BGM #27</title>
-			<title code="0x28">BGM #28</title>
-			<title code="0x29">BGM #29</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[Raiden] Seibu Cup Soccer (セイブカップサッカー) (YM3812+MSM6295)</name>
 		<driver type="raiden">seibu</driver>
 		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
 		<options>
-			<option name="opl_mix" value="0x300"/>
 			<option name="pcm_mix" value="0x220"/>
 			<option name="pcm_size" value="0x40000"/>
 		</options>

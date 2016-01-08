@@ -63,10 +63,10 @@
 			<title code="0x04">COFFEE BREAK          (捜査休憩)</title>
 			<title code="0x05">QUESTIONS AND ANSWERS (取調べ室)</title>
 			<title code="0x06">BGM #06</title>
-			<title code="0x07">FINAL IMPRESSION      (自白)</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
+			<title code="0x07">FINAL IMPRESSION      (自白1)</title>
+			<title code="0x08">FINAL IMPRESSION      (自白2)</title>
+			<title code="0x09">FINAL IMPRESSION      (自白3)</title>
+			<title code="0x0a">FINAL IMPRESSION      (自白4)</title>
 			<title code="0x0c">A RIVER IN LIGHT      (エンディング)</title>
 		</titlelist>
 	</game>
@@ -341,19 +341,19 @@
 			<option name="vfile_size" value="0x1000"/>
 		</options>
 		<romlist archive="manreq88">
-			<rom type="code"  offset="0x0000">PATCH</rom>
-			<rom type="code"  offset="0x8d77">A9E</rom>
-			<rom type="bgm"   offset="0x00">A9E</rom>
-			<rom type="bgm"   offset="0x01">A9A</rom>
-			<rom type="bgm"   offset="0x02">A9A</rom>
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x8d77">A9E</rom>
+			<rom type="bgm" offset="0x00">A9E</rom>
+			<rom type="bgm" offset="0x01">A9A</rom>
+			<rom type="bgm" offset="0x02">A9A</rom>
 			<rom type="voice" offset="0x02">A9C</rom>
-			<rom type="bgm"   offset="0x03">A9A</rom>
+			<rom type="bgm" offset="0x03">A9A</rom>
 			<rom type="voice" offset="0x03">A9D</rom>
-			<rom type="bgm"   offset="0x04">A9A</rom>
+			<rom type="bgm" offset="0x04">A9A</rom>
 			<rom type="voice" offset="0x04">A9D</rom>
-			<rom type="bgm"   offset="0x05">A9A</rom>
+			<rom type="bgm" offset="0x05">A9A</rom>
 			<rom type="voice" offset="0x05">A9F</rom>
-			<rom type="bgm"   offset="0x06">A9A</rom>
+			<rom type="bgm" offset="0x06">A9A</rom>
 			<rom type="voice" offset="0x06">A9F</rom>
 		</romlist>
 		<titlelist>
@@ -372,7 +372,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
-			<option name="baseclock"  value="0x08"/>
+			<option name="baseclock" value="0x08"/>
 			<option name="mdata_addr" value="0x8e7a"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
@@ -383,17 +383,17 @@
 		<romlist archive="kissof88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x8e7a">A96</rom>
-			<rom type="bgm"   offset="0x00">A95</rom>
-			<rom type="bgm"   offset="0x01">A96</rom>
-			<rom type="bgm"   offset="0x02">A96</rom>
+			<rom type="bgm" offset="0x00">A95</rom>
+			<rom type="bgm" offset="0x01">A96</rom>
+			<rom type="bgm" offset="0x02">A96</rom>
 			<rom type="voice" offset="0x02">A98</rom>
-			<rom type="bgm"   offset="0x03">A96</rom>
+			<rom type="bgm" offset="0x03">A96</rom>
 			<rom type="voice" offset="0x03">A99</rom>
-			<rom type="bgm"   offset="0x04">A96</rom>
+			<rom type="bgm" offset="0x04">A96</rom>
 			<rom type="voice" offset="0x04">AA1</rom>
-			<rom type="bgm"   offset="0x05">A96</rom>
+			<rom type="bgm" offset="0x05">A96</rom>
 			<rom type="voice" offset="0x05">AA2</rom>
-			<rom type="bgm"   offset="0x06">A96</rom>
+			<rom type="bgm" offset="0x06">A96</rom>
 			<rom type="voice" offset="0x06">AA3</rom>
 		</romlist>
 		<titlelist>
@@ -412,7 +412,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Riverhill Soft</driveralias>
 		<options>
-			<option name="init_pc"  value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x0dfb"/>
 		</options>
 		<romlist archive="dcconnec">
@@ -728,6 +728,8 @@
 			<option name="filesize" value="0x1000"/>
 			<option name="datamax" value="0x30"/>
 			<option name="clockmul" value="8"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="rashin98">
 			<rom type="code" offset="0x0000">snd00</rom>
@@ -829,7 +831,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] D.C. Connection: Ai to Shi no Meiro (D.C. コネクション 愛と死の迷路) (YM2203)</name>
+		<name>[PC-9801] D.C. Connection: J.B. Harold 3 (J.B.ハロルドの事件簿3 - D.C.コネクション) (YM2203)</name>
 		<driver type="rashin">pc98</driver>
 		<driveralias type="PC-9801">Riverhill Soft</driveralias>
 		<options>
@@ -837,6 +839,8 @@
 			<option name="filesize" value="0x2000"/>
 			<option name="datamax" value="0x18"/>
 			<option name="clockmul" value="8"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="dccon98">
 			<rom type="code" offset="0x0000">snd01</rom>
@@ -897,6 +901,8 @@
 			<option name="datamax" value="0x23"/>
 			<option name="total_mix" value="0x140"/>
 			<option name="clockmul" value="8"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="burai198">
 			<rom type="code" offset="0x0000">snd01</rom>
@@ -980,6 +986,8 @@
 			<option name="datamax" value="0x47"/>
 			<option name="total_mix" value="0x280"/>
 			<option name="clockmul" value="8"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="burai298">
 			<rom type="code" offset="0x0000">snddrv.bin</rom>
@@ -1130,113 +1138,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kigen: Kagayaki no Hasha (KIGEN -輝きの覇者-) (YM2203)</name>
-		<driver type="rashin">pc98</driver>
-		<driveralias type="PC-9801">Riverhill Soft</driveralias>
-		<options>
-			<option name="dataaddr" value="0x5500"/>
-			<option name="filesize" value="0x4000"/>
-			<option name="datamax" value="0x52"/>
-			<option name="fm_mix" value="0"/>
-			<option name="ssg_mix" value="-18"/>
-		</options>
-		<romlist archive="kigen">
-			<rom type="code" offset="0x0000">snddrv.bin</rom>
-			<rom type="code" offset="0x1d00">neiro.dat</rom>
-			<rom type="bgm" offset="0x01">mus01.dat</rom>
-			<rom type="bgm" offset="0x02">mus02.dat</rom>
-			<rom type="bgm" offset="0x03">mus03.dat</rom>
-			<rom type="bgm" offset="0x04">mus04.dat</rom>
-			<rom type="bgm" offset="0x05">mus05.dat</rom>
-			<rom type="bgm" offset="0x06">mus06.dat</rom>
-			<rom type="bgm" offset="0x07">mus07.dat</rom>
-			<rom type="bgm" offset="0x08">mus08.dat</rom>
-			<rom type="bgm" offset="0x09">mus09.dat</rom>
-			<rom type="bgm" offset="0x10">mus10.dat</rom>
-			<rom type="bgm" offset="0x11">mus11.dat</rom>
-			<rom type="bgm" offset="0x12">mus12.dat</rom>
-			<rom type="bgm" offset="0x13">mus13.dat</rom>
-			<rom type="bgm" offset="0x14">mus14.dat</rom>
-			<rom type="bgm" offset="0x15">mus15.dat</rom>
-			<rom type="bgm" offset="0x16">mus16.dat</rom>
-			<rom type="bgm" offset="0x17">mus17.dat</rom>
-			<rom type="bgm" offset="0x18">mus18.dat</rom>
-			<rom type="bgm" offset="0x19">mus19.dat</rom>
-			<rom type="bgm" offset="0x20">mus20.dat</rom>
-			<rom type="bgm" offset="0x21">mus21.dat</rom>
-			<rom type="bgm" offset="0x22">mus22.dat</rom>
-			<rom type="bgm" offset="0x23">mus23.dat</rom>
-			<rom type="bgm" offset="0x24">mus24.dat</rom>
-			<rom type="bgm" offset="0x25">mus25.dat</rom>
-			<rom type="bgm" offset="0x26">mus26.dat</rom>
-			<rom type="bgm" offset="0x27">mus27.dat</rom>
-			<rom type="bgm" offset="0x28">mus28.dat</rom>
-			<rom type="bgm" offset="0x29">mus29.dat</rom>
-			<rom type="bgm" offset="0x30">mus30.dat</rom>
-			<rom type="bgm" offset="0x31">mus31.dat</rom>
-			<rom type="bgm" offset="0x32">mus32.dat</rom>
-			<rom type="bgm" offset="0x33">mus33.dat</rom>
-			<rom type="bgm" offset="0x34">mus34.dat</rom>
-			<rom type="bgm" offset="0x41">musop01.dat</rom>
-			<rom type="bgm" offset="0x43">musop37.dat</rom>
-			<rom type="bgm" offset="0x44">musop38.dat</rom>
-			<rom type="bgm" offset="0x45">musop39.dat</rom>
-			<rom type="bgm" offset="0x46">musop40.dat</rom>
-			<rom type="bgm" offset="0x47">musop41.dat</rom>
-			<rom type="bgm" offset="0x48">musop42.dat</rom>
-			<rom type="bgm" offset="0x49">musop43.dat</rom>
-			<rom type="bgm" offset="0x50">musop44.dat</rom>
-			<rom type="bgm" offset="0x51">musop45.dat</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Stop the Music</title>
-			<title code="0x19">タイトルメニュー</title>
-			<title code="0x06">最初の城</title>
-			<title code="0x20">前半フィールド</title>
-			<title code="0x21">戦闘1</title>
-			<title code="0x23">戦闘2</title>
-			<title code="0x24">戦闘3(ラスボス)</title>
-			<title code="0x25">戦闘4</title>
-			<title code="0x26">戦闘5</title>
-			<title code="0x30">戦闘勝利</title>
-			<title code="0x31">全滅</title>
-			<title code="0x02">町1</title>
-			<title code="0x04">町2</title>
-			<title code="0x05">町3</title>
-			<title code="0x07">ほこら</title>
-			<title code="0x03">神殿</title>
-			<title code="0x08">ダンジョン1</title>
-			<title code="0x09">ダンジョン2</title>
-			<title code="0x10">ダンジョン3</title>
-			<title code="0x11">ダンジョン4</title>
-			<title code="0x12">ダンジョン5</title>
-			<title code="0x13">海底人の町</title>
-			<title code="0x15">BGM 15</title>
-			<title code="0x14">乗り物(馬車)</title>
-			<title code="0x01">乗り物</title>
-			<title code="0x16">乗り物(エアカー)</title>
-			<title code="0x17">乗り物(巨大飛空艇,海水艇)</title>
-			<title code="0x18">乗り物(船,らくだ,ボート)</title>
-			<title code="0x22">ラストランジョン</title>
-			<title code="0x27">宿屋</title>
-			<title code="0x28">宿屋</title>
-			<title code="0x29">イベント効果音</title>
-			<title code="0x32">イベント効果音(?)</title>
-			<title code="0x33">レベルアップ</title>
-			<title code="0x34">BGM 34</title>
-			<title code="0x41">ロゴ</title>
-			<title code="0x43">オープニングタイトル</title>
-			<title code="0x44">エンディング スタッフロール</title>
-			<title code="0x45">オープニング</title>
-			<title code="0x46">イベント</title>
-			<title code="0x47">イベント</title>
-			<title code="0x48">イベント</title>
-			<title code="0x49">エンディング</title>
-			<title code="0x50">イベント</title>
-			<title code="0x51">イベント</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Princess Minerva: Hime no Wagamama Daibouken (プリンセス・ミネルバ ～ 姫のわがまま大冒険) (YM2203)</name>
 		<!-- ファイルカッターは黄金の羅針盤(98)を流用します -->
 		<driver type="rashin">pc98</driver>
@@ -1246,6 +1147,8 @@
 			<option name="filesize" value="0x2000"/>
 			<option name="datamax" value="0x30"/>
 			<option name="clockmul" value="8"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="minrva98">
 			<rom type="code" offset="0x0000">snd00</rom>
@@ -1374,7 +1277,7 @@
 		<driveralias type="X1">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
-			<option name="ctc3"       value="0x50"/>
+			<option name="ctc3" value="0x50"/>
 		</options>
 		<romlist archive="x1manreq">
 			<rom type="code" offset="0x0000">PATCH2</rom>
@@ -1399,8 +1302,8 @@
 			<option name="mdata_addr" value="0xcdf9"/>
 			<option name="mdata_size" value="0xd00"/>
 			<option name="mfile_size" value="0xd00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="burai1_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1472,8 +1375,8 @@
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x5700"/>
 			<option name="mfile_size" value="0x5700"/>
-			<option name="init_pc"    value="0x4000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x4000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="burai2_msx">
 			<rom type="code" offset="0x0100">BRG.COM</rom>
@@ -1651,15 +1554,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM(OPLL)</name>
+		<name>[MSX2] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4FEB"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="kissom_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1683,14 +1586,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM(PSG)</name>
+		<name>[MSX2] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4FEB"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kissom_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1714,14 +1617,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Manhattan Requiem -Angels Flying In The Dark-</name>
+		<name>[MSX2] Manhattan Requiem -Angels Flying In The Dark- (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x457F"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		      </options>
 		<romlist archive="manreq_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1745,39 +1648,39 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 琥珀色の遺言(OPLL)</name>
+		<name>[MSX2] Kohaku-iro no Yuigon (琥珀色の遺言) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="kohaku_msx,fmpac_msx">
 			<rom type="code" offset="0x0400">patch2</rom>
 			<rom type="code" offset="0x4000">FMPAC.ROM</rom>
 			<rom type="code" offset="0x8F97">TONE01.BIN</rom>
-			<rom type="bgm"  offset="0x00">OPLL00.BIN</rom>
-			<rom type="bgm"  offset="0x01">OPLL01.BIN</rom>
-			<rom type="bgm"  offset="0x02">OPLL02.BIN</rom>
-			<rom type="bgm"  offset="0x03">OPLL03.BIN</rom>
-			<rom type="bgm"  offset="0x04">OPLL04.BIN</rom>
-			<rom type="bgm"  offset="0x05">OPLL05.BIN</rom>
-			<rom type="bgm"  offset="0x06">OPLL06.BIN</rom>
-			<rom type="bgm"  offset="0x07">OPLL07.BIN</rom>
-			<rom type="bgm"  offset="0x08">OPLL08.BIN</rom>
-			<rom type="bgm"  offset="0x09">OPLL09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">OPLL10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">OPLL11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">OPLL20.BIN</rom>
-			<rom type="bgm"  offset="0x0d">OPLL21.BIN</rom>
-			<rom type="bgm"  offset="0x0e">OPLL22.BIN</rom>
-			<rom type="bgm"  offset="0x0f">OPLL23.BIN</rom>
-			<rom type="bgm"  offset="0x10">OPLL24.BIN</rom>
-			<rom type="bgm"  offset="0x11">OPLL25.BIN</rom>
-			<rom type="bgm"  offset="0x12">OPLL26.BIN</rom>
+			<rom type="bgm" offset="0x00">OPLL00.BIN</rom>
+			<rom type="bgm" offset="0x01">OPLL01.BIN</rom>
+			<rom type="bgm" offset="0x02">OPLL02.BIN</rom>
+			<rom type="bgm" offset="0x03">OPLL03.BIN</rom>
+			<rom type="bgm" offset="0x04">OPLL04.BIN</rom>
+			<rom type="bgm" offset="0x05">OPLL05.BIN</rom>
+			<rom type="bgm" offset="0x06">OPLL06.BIN</rom>
+			<rom type="bgm" offset="0x07">OPLL07.BIN</rom>
+			<rom type="bgm" offset="0x08">OPLL08.BIN</rom>
+			<rom type="bgm" offset="0x09">OPLL09.BIN</rom>
+			<rom type="bgm" offset="0x0a">OPLL10.BIN</rom>
+			<rom type="bgm" offset="0x0b">OPLL11.BIN</rom>
+			<rom type="bgm" offset="0x0c">OPLL20.BIN</rom>
+			<rom type="bgm" offset="0x0d">OPLL21.BIN</rom>
+			<rom type="bgm" offset="0x0e">OPLL22.BIN</rom>
+			<rom type="bgm" offset="0x0f">OPLL23.BIN</rom>
+			<rom type="bgm" offset="0x10">OPLL24.BIN</rom>
+			<rom type="bgm" offset="0x11">OPLL25.BIN</rom>
+			<rom type="bgm" offset="0x12">OPLL26.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0200">運命の歯車       (オープニング)</title>
@@ -1798,14 +1701,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 琥珀色の遺言(PSG)</name>
+		<name>[MSX2] Kohaku-iro no Yuigon (琥珀色の遺言) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x78BF"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		      </options>
 		<romlist archive="kohaku_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1847,15 +1750,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] D.C.CONNECTION - J.B.HAROLD 3 -</name>
+		<name>[MSX2] D.C. Connection: J.B. Harold 3 (J.B.ハロルドの事件簿3 - D.C.コネクション)  (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Riverhill Soft</driveralias>
+		<driveralias type="MSX2">Riverhill Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		      </options>
 		<romlist archive="dccon_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -1899,11 +1802,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] 琥珀色の遺言</name>
+		<name>[FM77-AV] Kohaku-iro no Yuigon (琥珀色の遺言) (YM2203)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Riverhill Soft</driveralias>
+		<driveralias type="FM77-AV">Riverhill Soft</driveralias>
 		<options>
-			<option name="init_pc"    value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="mdata_addr" value="0xdc00"/>
 			<option name="mfile_size" value="0x1400"/>
 			<option name="mdata_size" value="0x1400"/>
@@ -1912,20 +1815,20 @@
 			<rom type="code" offset="0x1000">PATCH.BIN</rom>
 			<rom type="code" offset="0x1600">DRIVER.BIN</rom>
 			<rom type="code" offset="0xd000">SOUND.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x08">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x09">MUS12.BIN</rom>
-			<rom type="bgm"  offset="0x0a">MUS13.BIN</rom>
-			<rom type="bgm"  offset="0x0b">MUS14.BIN</rom>
-			<rom type="bgm"  offset="0x0c">MUS15.BIN</rom>
-			<rom type="bgm"  offset="0x0d">MUS16.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS13.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS14.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS15.BIN</rom>
+			<rom type="bgm" offset="0x0d">MUS16.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">運命の歯車       (オープニング)</title>
@@ -1942,6 +1845,113 @@
 			<title code="0x04">月下の告白       (自白4)</title>
 			<title code="0x05">愚者の持つ切り札 (自白5)</title>
 			<title code="0x06">黄昏に染まる館   (エンディング)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kigen: Kagayaki no Hasha (KIGEN -輝きの覇者-) (YM2203)</name>
+		<driver type="rashin">pc98</driver>
+		<driveralias type="PC-9801">Riverhill Soft</driveralias>
+		<options>
+			<option name="dataaddr" value="0x5500"/>
+			<option name="filesize" value="0x4000"/>
+			<option name="datamax" value="0x52"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
+		</options>
+		<romlist archive="kigen">
+			<rom type="code" offset="0x0000">snddrv.bin</rom>
+			<rom type="code" offset="0x1d00">neiro.dat</rom>
+			<rom type="bgm" offset="0x01">mus01.dat</rom>
+			<rom type="bgm" offset="0x02">mus02.dat</rom>
+			<rom type="bgm" offset="0x03">mus03.dat</rom>
+			<rom type="bgm" offset="0x04">mus04.dat</rom>
+			<rom type="bgm" offset="0x05">mus05.dat</rom>
+			<rom type="bgm" offset="0x06">mus06.dat</rom>
+			<rom type="bgm" offset="0x07">mus07.dat</rom>
+			<rom type="bgm" offset="0x08">mus08.dat</rom>
+			<rom type="bgm" offset="0x09">mus09.dat</rom>
+			<rom type="bgm" offset="0x10">mus10.dat</rom>
+			<rom type="bgm" offset="0x11">mus11.dat</rom>
+			<rom type="bgm" offset="0x12">mus12.dat</rom>
+			<rom type="bgm" offset="0x13">mus13.dat</rom>
+			<rom type="bgm" offset="0x14">mus14.dat</rom>
+			<rom type="bgm" offset="0x15">mus15.dat</rom>
+			<rom type="bgm" offset="0x16">mus16.dat</rom>
+			<rom type="bgm" offset="0x17">mus17.dat</rom>
+			<rom type="bgm" offset="0x18">mus18.dat</rom>
+			<rom type="bgm" offset="0x19">mus19.dat</rom>
+			<rom type="bgm" offset="0x20">mus20.dat</rom>
+			<rom type="bgm" offset="0x21">mus21.dat</rom>
+			<rom type="bgm" offset="0x22">mus22.dat</rom>
+			<rom type="bgm" offset="0x23">mus23.dat</rom>
+			<rom type="bgm" offset="0x24">mus24.dat</rom>
+			<rom type="bgm" offset="0x25">mus25.dat</rom>
+			<rom type="bgm" offset="0x26">mus26.dat</rom>
+			<rom type="bgm" offset="0x27">mus27.dat</rom>
+			<rom type="bgm" offset="0x28">mus28.dat</rom>
+			<rom type="bgm" offset="0x29">mus29.dat</rom>
+			<rom type="bgm" offset="0x30">mus30.dat</rom>
+			<rom type="bgm" offset="0x31">mus31.dat</rom>
+			<rom type="bgm" offset="0x32">mus32.dat</rom>
+			<rom type="bgm" offset="0x33">mus33.dat</rom>
+			<rom type="bgm" offset="0x34">mus34.dat</rom>
+			<rom type="bgm" offset="0x41">musop01.dat</rom>
+			<rom type="bgm" offset="0x43">musop37.dat</rom>
+			<rom type="bgm" offset="0x44">musop38.dat</rom>
+			<rom type="bgm" offset="0x45">musop39.dat</rom>
+			<rom type="bgm" offset="0x46">musop40.dat</rom>
+			<rom type="bgm" offset="0x47">musop41.dat</rom>
+			<rom type="bgm" offset="0x48">musop42.dat</rom>
+			<rom type="bgm" offset="0x49">musop43.dat</rom>
+			<rom type="bgm" offset="0x50">musop44.dat</rom>
+			<rom type="bgm" offset="0x51">musop45.dat</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x19">タイトルメニュー</title>
+			<title code="0x06">最初の城</title>
+			<title code="0x20">前半フィールド</title>
+			<title code="0x21">戦闘1</title>
+			<title code="0x23">戦闘2</title>
+			<title code="0x24">戦闘3(ラスボス)</title>
+			<title code="0x25">戦闘4</title>
+			<title code="0x26">戦闘5</title>
+			<title code="0x30">戦闘勝利</title>
+			<title code="0x31">全滅</title>
+			<title code="0x02">町1</title>
+			<title code="0x04">町2</title>
+			<title code="0x05">町3</title>
+			<title code="0x07">ほこら</title>
+			<title code="0x03">神殿</title>
+			<title code="0x08">ダンジョン1</title>
+			<title code="0x09">ダンジョン2</title>
+			<title code="0x10">ダンジョン3</title>
+			<title code="0x11">ダンジョン4</title>
+			<title code="0x12">ダンジョン5</title>
+			<title code="0x13">海底人の町</title>
+			<title code="0x15">BGM 15</title>
+			<title code="0x14">乗り物(馬車)</title>
+			<title code="0x01">乗り物</title>
+			<title code="0x16">乗り物(エアカー)</title>
+			<title code="0x17">乗り物(巨大飛空艇,海水艇)</title>
+			<title code="0x18">乗り物(船,らくだ,ボート)</title>
+			<title code="0x22">ラストランジョン</title>
+			<title code="0x27">宿屋</title>
+			<title code="0x28">宿屋</title>
+			<title code="0x29">イベント効果音</title>
+			<title code="0x32">イベント効果音(?)</title>
+			<title code="0x33">レベルアップ</title>
+			<title code="0x34">BGM 34</title>
+			<title code="0x41">ロゴ</title>
+			<title code="0x43">オープニングタイトル</title>
+			<title code="0x44">エンディング スタッフロール</title>
+			<title code="0x45">オープニング</title>
+			<title code="0x46">イベント</title>
+			<title code="0x47">イベント</title>
+			<title code="0x48">イベント</title>
+			<title code="0x49">エンディング</title>
+			<title code="0x50">イベント</title>
+			<title code="0x51">イベント</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -115,7 +115,7 @@
 		</options>
 		<romlist archive="mayumi68snd">
 			<rom type="code" offset="0x000000">mayumi68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x050000">MAYUMI.PCD</rom>
 			<rom type="code" offset="0x090000">GIRLS.USO</rom>
 			<rom type="code" offset="0x095000">HAGEYAMA.USO</rom>
@@ -215,7 +215,7 @@
 		</options>
 		<romlist archive="can468snd">
 			<rom type="code" offset="0x000000">can468snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x04f000">CAN4.SE</rom>
 			<rom type="code" offset="0x050000">city.pcd</rom>
 			<rom type="code" offset="0x090000">can_01.uso</rom>
@@ -257,7 +257,7 @@
 		</options>
 		<romlist archive="can568snd">
 			<rom type="code" offset="0x000000">can568snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x04f000">CAN5.SE</rom>
 			<rom type="code" offset="0x050000">CAN5.PCD</rom>
 			<rom type="code" offset="0x090000">can5_01.uso</rom>
@@ -293,7 +293,7 @@
 		</options>
 		<romlist archive="kerakera68snd">
 			<rom type="code" offset="0x000000">kerakera68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x050000">kera.pcd</rom>
 			<rom type="code" offset="0x90000">kr_band.uso</rom>
 			<rom type="code" offset="0x95000">kr_end.uso</rom>
@@ -395,7 +395,7 @@
 		</options>
 		<romlist archive="will68snd">
 			<rom type="code" offset="0x000000">will68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x050000">WILL.PCD</rom>
 			<rom type="code" offset="0x090000">BOMB02.USO</rom>
 			<rom type="code" offset="0x095000">M_GUN.USO</rom>
@@ -493,7 +493,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sotsugyou Shashin / Miki (卒業写真 / 美姫) (YM2151+MSM6258)</name>
+		<name>[X68000] Sotsugyou Shashin / Miki (卒業写真・美姫) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -501,7 +501,7 @@
 		</options>
 		<romlist archive="mikisotu68snd">
 			<rom type="code" offset="0x000000">mikisotu68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x090000">AISY.USO</rom>
 			<rom type="code" offset="0x095000">DOK.USO</rom>
 			<rom type="code" offset="0x09a000">END.USO</rom>
@@ -528,43 +528,6 @@
 			<title code="0x0a">MAI.USO</title>
 			<title code="0x0b">MORN.USO</title>
 			<title code="0x0c">ST5.USO</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-8801] Can Can Bunny: Superior (きゃんきゃんバニー スペリオール) (YM2203)</name>
-		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Cocktail Soft</driveralias>
-		<romlist archive="can2_88">
-			<rom type="code" offset="0x0000">PATCH</rom>
-			<rom type="code" offset="0x0300">PLAY2.Z80</rom>
-			<rom type="bgm" offset="0x00">UMIN-1.M</rom>
-			<rom type="bgm" offset="0x01">UMIN-2.M</rom>
-			<rom type="bgm" offset="0x02">UMIN-3.M</rom>
-			<rom type="bgm" offset="0x03">UMIN-4.M</rom>
-			<rom type="bgm" offset="0x04">UMIN-5.M</rom>
-			<rom type="bgm" offset="0x05">UMIN-6.M</rom>
-			<rom type="bgm" offset="0x06">UMIN-7.M</rom>
-			<rom type="bgm" offset="0x07">UMIN-8.M</rom>
-			<rom type="bgm" offset="0x08">UMIN-9.M</rom>
-			<rom type="bgm" offset="0x09">UMIN-A.M</rom>
-			<rom type="bgm" offset="0x0a">UMIN-B.M</rom>
-			<rom type="bgm" offset="0x0b">UMIN-C.M</rom>
-			<rom type="bgm" offset="0x0c">UMIN-D.M</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">UMIN-1.M</title>
-			<title code="0x01">UMIN-2.M</title>
-			<title code="0x02">UMIN-3.M</title>
-			<title code="0x03">UMIN-4.M</title>
-			<title code="0x04">UMIN-5.M</title>
-			<title code="0x05">UMIN-6.M</title>
-			<title code="0x06">UMIN-7.M</title>
-			<title code="0x07">UMIN-8.M</title>
-			<title code="0x08">UMIN-9.M</title>
-			<title code="0x09">UMIN-A.M</title>
-			<title code="0x0a">UMIN-B.M</title>
-			<title code="0x0b">UMIN-C.M</title>
-			<title code="0x0c">UMIN-D.M</title>
 		</titlelist>
 	</game>
 	<game>
@@ -703,7 +666,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
-			<option name="baseclock"  value="0x0c"/>
+			<option name="baseclock" value="0x0c"/>
 			<option name="mdata_addr" value="0x1400"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
@@ -724,7 +687,7 @@
 			<rom type="bgm" offset="0x0a">MUS0A.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x09" extcode="1">BGM #%02x</range>
+			<range min="0x00" max="0x09" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -732,7 +695,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
-			<option name="baseclock"  value="0x0c"/>
+			<option name="baseclock" value="0x0c"/>
 			<option name="mdata_addr" value="0x1200"/>
 			<option name="mdata_size" value="0x0c00"/>
 			<option name="mfile_size" value="0x0c00"/>
@@ -842,7 +805,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
-			<option name="baseclock"  value="0x0c"/>
+			<option name="baseclock" value="0x0c"/>
 			<option name="mdata_addr" value="0x1400"/>
 			<option name="mdata_size" value="0x1400"/>
 			<option name="mfile_size" value="0x1400"/>
@@ -868,8 +831,8 @@
 			<rom type="bgm" offset="0x0f">MUS0f.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x0b" extcode="1">BGM #%02x</range>
-			<range min="0x0d" max="0x0e" extcode="1">BGM #%02x</range>
+			<range min="0x00" max="0x0b" extcode="1">BGM #%02X</range>
+			<range min="0x0d" max="0x0e" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1105,9 +1068,9 @@
 			<title code="0x1a">VAC_11.USO</title>
 			<title code="0x1b">VAC_12.USO</title>
 			<title code="0x1c">VAC_13.USO</title>
-			<title code="0x1D">VAC_S_01.USO</title>
-			<title code="0x1E">VAC_S_02.USO</title>
-			<title code="0x1F">VAC_S_03.USO</title>
+			<title code="0x1d">VAC_S_01.USO</title>
+			<title code="0x1e">VAC_S_02.USO</title>
+			<title code="0x1f">VAC_S_03.USO</title>
 			<title code="0x20">VAC_S_04.USO</title>
 			<title code="0x21">VAC_S_05.USO</title>
 			<title code="0x22">VAC_S_06.USO</title>
@@ -1293,15 +1256,15 @@
 			<title code="0x17">Silence</title>
 			<title code="0x18">Tears of The Star</title>
 			<title code="0x19">Hell Heat</title>
-			<title code="0x1D">Princess of Mermaid</title>
+			<title code="0x1d">Princess of Mermaid</title>
 			<title code="0x12">Port Town</title>
 			<title code="0x13">Pop Up</title>
 			<title code="0x14">Athena's Memory</title>
-			<title code="0x1A">Dojahnng!</title>
-			<title code="0x1B">We're Ready</title>
-			<title code="0x1C">Einstein High</title>
-			<title code="0x1E">NIKE15.USO</title>
-			<title code="0x1F">SE01.USO</title>
+			<title code="0x1a">Dojahnng!</title>
+			<title code="0x1b">We're Ready</title>
+			<title code="0x1c">Einstein High</title>
+			<title code="0x1e">NIKE15.USO</title>
+			<title code="0x1f">SE01.USO</title>
 			<title code="0x20">SE02.USO</title>
 			<title code="0x21">SE03.USO</title>
 			<title code="0x22">SE04.USO</title>
@@ -1346,10 +1309,10 @@
 			<title code="0x17">いらっしゃいませ!</title>
 			<title code="0x18">Piaキャロットへようこそ</title>
 			<title code="0x19">抱きしめてほしくて</title>
-			<title code="0x1A">ようこそ、夏休み!</title>
-			<title code="0x1B">今日も頑張って!</title>
-			<title code="0x1C">君と夢の中で</title>
-			<title code="0x1D">そして...ありがとう</title>
+			<title code="0x1a">ようこそ、夏休み!</title>
+			<title code="0x1b">今日も頑張って!</title>
+			<title code="0x1c">君と夢の中で</title>
+			<title code="0x1d">そして...ありがとう</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1699,7 +1662,7 @@
 			<title code="0x14">Evil Dragon (邪竜)</title>
 		<!--	<title code="0x16">PQ_SE14.USO</title> -->
 			<title code="0x19">PQ_01.USO</title>
-			<title code="0x1A">PQ_02.USO</title>
+			<title code="0x1a">PQ_02.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1794,8 +1757,8 @@
 			<title code="0x15">Departure</title>
 			<title code="0x18">GMOL.USO</title>
 			<title code="0x19">Battle Field</title>
-			<title code="0x1A">領主の館</title>
-			<title code="0x1D">Bloody Love</title>
+			<title code="0x1a">領主の館</title>
+			<title code="0x1d">Bloody Love</title>
 			<title code="0x20">MEROU.USO</title>
 			<title code="0x21">NODO.USO</title>
 			<title code="0x23">Game Over</title>
@@ -1804,23 +1767,23 @@
 			<title code="0x26">R5.USO</title>
 			<title code="0x27">RB.USO</title>
 			<title code="0x28">ROMAN.USO</title>
-			<title code="0x2D">SHO.USO</title>
+			<title code="0x2d">SHO.USO</title>
 			<title code="0x30">Strike A Blow</title>
 			<title code="0x31">Hard Struggle</title>
 			<title code="0x16">DOKU1.USO</title>
 			<title code="0x17">DOKU2.USO</title>
 <!--
-			<title code="0x1B">IWA.USO</title>
+			<title code="0x1b">IWA.USO</title>
   -->
-			<title code="0x1C">IWA3.USO</title>
-			<title code="0x1E">KIRU.USO</title>
-			<title code="0x1F">KUZURE.USO</title>
+			<title code="0x1c">IWA3.USO</title>
+			<title code="0x1e">KIRU.USO</title>
+			<title code="0x1f">KUZURE.USO</title>
 			<title code="0x29">SE1.USO</title>
-			<title code="0x2A">SE2.USO</title>
-			<title code="0x2B">SE3.USO</title>
-			<title code="0x2C">SE4.USO</title>
-			<title code="0x2E">SHOCK.USO</title>
-			<title code="0x2F">TAKARA.USO</title>
+			<title code="0x2a">SE2.USO</title>
+			<title code="0x2b">SE3.USO</title>
+			<title code="0x2c">SE4.USO</title>
+			<title code="0x2e">SHOCK.USO</title>
+			<title code="0x2f">TAKARA.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1860,9 +1823,9 @@
 			<title code="0x18">WIL_SE5.USO</title>
 			<title code="0x10">BOMB02.USO</title>
 			<title code="0x11">M_GUN.USO</title>
-			<title code="0x1A">WSE_01.USO</title>
-			<title code="0x1B">WSE_02.USO</title>
-			<title code="0x1C">WSE_03.USO</title>
+			<title code="0x1a">WSE_01.USO</title>
+			<title code="0x1b">WSE_02.USO</title>
+			<title code="0x1c">WSE_03.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1905,12 +1868,12 @@
 			<title code="0x17">BAK_03.USO</title>
 			<title code="0x18">BAK_04.USO</title>
 			<title code="0x19">BAK_05.USO</title>
-			<title code="0x1A">BAK_06.USO</title>
-			<title code="0x1B">BAK_07.USO</title>
-			<title code="0x1C">BAK_08.USO</title>
-			<title code="0x1D">BAK_09.USO</title>
-			<title code="0x1E">BAK_10.USO</title>
-			<title code="0x1F">BAK_11.USO</title>
+			<title code="0x1a">BAK_06.USO</title>
+			<title code="0x1b">BAK_07.USO</title>
+			<title code="0x1c">BAK_08.USO</title>
+			<title code="0x1d">BAK_09.USO</title>
+			<title code="0x1e">BAK_10.USO</title>
+			<title code="0x1f">BAK_11.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2524,8 +2487,8 @@
 			<title code="0x18">HARE_05D.USO</title>
 			<title code="0x1a">HARE_06D.USO</title>
 			<title code="0x1c">HARE_07D.USO</title>
-			<title code="0x1E">HADSE_01.USO</title>
-			<title code="0x1F">HADSE_02.USO</title>
+			<title code="0x1e">HADSE_01.USO</title>
+			<title code="0x1f">HADSE_02.USO</title>
 			<title code="0x20">HADSE_03.USO</title>
 			<title code="0x21">HADSE_04.USO</title>
 			<title code="0x22">HADSE_05.USO</title>
@@ -2544,12 +2507,12 @@
 			<title code="0x27">HAVSE_01.USO</title>
 			<title code="0x28">HAVSE_02.USO</title>
 			<title code="0x29">HAVSE_03.USO</title>
-			<title code="0x2A">HAVSE_04.USO</title>
-			<title code="0x2B">HAVSE_05.USO</title>
-			<title code="0x2C">HAVSE_06.USO</title>
-			<title code="0x2D">HAVSE_07.USO</title>
-			<title code="0x2E">HAVSE_08.USO</title>
-			<title code="0x2F">HAVSE_09.USO</title>
+			<title code="0x2a">HAVSE_04.USO</title>
+			<title code="0x2b">HAVSE_05.USO</title>
+			<title code="0x2c">HAVSE_06.USO</title>
+			<title code="0x2d">HAVSE_07.USO</title>
+			<title code="0x2e">HAVSE_08.USO</title>
+			<title code="0x2f">HAVSE_09.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2558,7 +2521,7 @@
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="ssg_mix" value="-18"/>
+			<option name="ssg_mix" value="-20"/>
 		</options>
 		<romlist archive="nurse_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
@@ -2730,11 +2693,11 @@
 			<title code="0x18">AG2_S1.USO</title>
 			<title code="0x19">AG2_S2.USO</title>
 			<title code="0x1a">AG2_S3.USO</title>
-			<title code="0x1B">AG_SE_01.USO</title>
-			<title code="0x1C">AG_SE_02.USO</title>
-			<title code="0x1D">AG_SE_03.USO</title>
-			<title code="0x1E">AG_SE_04.USO</title>
-			<title code="0x1F">AG_SE_05.USO</title>
+			<title code="0x1b">AG_SE_01.USO</title>
+			<title code="0x1c">AG_SE_02.USO</title>
+			<title code="0x1d">AG_SE_03.USO</title>
+			<title code="0x1e">AG_SE_04.USO</title>
+			<title code="0x1f">AG_SE_05.USO</title>
 			<title code="0x20">AG_SE_06.USO</title>
 			<title code="0x21">AG_SE_07.USO</title>
 			<title code="0x22">AG_SE_08.USO</title>
@@ -2777,14 +2740,14 @@
 			<title code="0x13">MIKI/MORN.USO</title>
 			<title code="0x14">MIKI/ST5.USO</title>
 			<title code="0x16">SOTSU/COCKTAIL.USO</title>
-			<title code="0x1C">SOTSU/OPEN.USO</title>
+			<title code="0x1c">SOTSU/OPEN.USO</title>
 			<title code="0x15">SOTSU/AISY.USO</title>
 			<title code="0x17">SOTSU/DOK.USO</title>
 			<title code="0x18">とまらないメリーゴーランド</title>
 			<title code="0x19">SOTSU/IMARI.USO</title>
-			<title code="0x1A">SOTSU/M_62.USO</title>
-			<title code="0x1B">SOTSU/NAZO.USO</title>
-			<title code="0x1D">SOTSU/ST6.USO</title>
+			<title code="0x1a">SOTSU/M_62.USO</title>
+			<title code="0x1b">SOTSU/NAZO.USO</title>
+			<title code="0x1d">SOTSU/ST6.USO</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2795,7 +2758,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="nike_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2840,7 +2803,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="can3_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2885,7 +2848,7 @@
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="can2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2922,7 +2885,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="illumina_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2985,7 +2948,7 @@
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x0800"/>
 			<option name="mfile_size" value="0x0800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="sekai_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -3030,7 +2993,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="cos_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -3089,7 +3052,7 @@
 			<option name="mdata_addr" value="0x5000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="feris_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -3136,7 +3099,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="mikisotu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -3174,8 +3137,8 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="0x04"/>
 		</options>
@@ -3184,8 +3147,8 @@
 			<rom type="code" offset="0x1ed60">driver.bin</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x09" extcode="1">BGM #%02x</range>
-			<range min="0x100" max="0x118" extcode="1">SFX #%02x</range>
+			<range min="0x00" max="0x09" extcode="1">BGM #%02X</range>
+			<range min="0x100" max="0x118" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3193,8 +3156,8 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="0x03"/>
 			<option name="dataaddr" value="0x23370"/>
@@ -3204,14 +3167,14 @@
 			<rom type="code" offset="0x00600">can1_98.bin</rom>
 			<rom type="code" offset="0x1e370">DRIVER.BIN</rom>
 			<rom type="code" offset="0x27130">DRIVER2.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">タイトル</title>
@@ -3222,7 +3185,7 @@
 			<title code="0x06">白鳥香</title>
 			<title code="0x07">渡辺麻美</title>
 			<title code="0x03">エンディング</title>
-			<range min="0x101" max="0x111" extcode="0">SFX #%02x</range>
+			<range min="0x101" max="0x111" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3233,8 +3196,8 @@
 			<option name="mdata_addr" value="0x2500"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="baseclock"  value="0x04"/>
+			<option name="init_pc" value="0x0000"/>
+			<option name="baseclock" value="0x04"/>
 		</options>
 		<romlist archive="hare_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -3267,7 +3230,7 @@
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x0e00"/>
 			<option name="mfile_size" value="0x0e00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="hare_msx">
 			<rom type="code" offset="0x0400">patch</rom>

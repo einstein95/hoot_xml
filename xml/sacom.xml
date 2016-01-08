@@ -564,14 +564,14 @@
 			<title code="0x05">力のせい</title>
 			<title code="0x20">リビング</title>
 			<title code="0x1e">スタジオYo</title>
-			<title code="0x22">電話の呼出音</title>
+			<title code="0x21">電話の呼出音</title>
 			<title code="0x03">突然! 電話</title>
 			<title code="0x04">マリーの死</title>
 			<title code="0x0e">死の後に</title>
-			<title code="0x25">優也との思い出</title>
+			<title code="0x24">優也との思い出</title>
 			<title code="0x0b">午前0時30分</title>
 			<title code="0x1f">血・交換・赤</title>
-			<title code="0x24">喫茶 茶此夢</title>
+			<title code="0x23">喫茶 茶此夢</title>
 			<title code="0x08">マリーの部屋</title>
 			<title code="0x09">唯が殺された</title>
 			<title code="0x14">不思議な夢を見た</title>
@@ -581,8 +581,8 @@
 			<title code="0x07">テレサの死</title>
 			<title code="0x11">血の繋がり</title>
 			<title code="0x0a">リーンの失踪、そして</title>
-			<title code="0x21">闇の血族 エンディング</title>
-			<title code="0x23">闇の血族-完結編-予告</title>
+			<title code="0x25">闇の血族 エンディング</title>
+			<title code="0x22">闇の血族-完結編-予告</title>
 			<title code="0x0f">未使用曲1</title>
 			<title code="0x1b">未使用曲2</title>
 			<title code="0x1c">未使用曲3</title>
@@ -625,14 +625,14 @@
 			<title code="0x05">力のせい</title>
 			<title code="0x20">リビング</title>
 			<title code="0x1e">スタジオYo</title>
-			<title code="0x22">電話の呼出音</title>
+			<title code="0x21">電話の呼出音</title>
 			<title code="0x03">突然! 電話</title>
 			<title code="0x04">マリーの死</title>
 			<title code="0x0e">死の後に</title>
-			<title code="0x25">優也との思い出</title>
+			<title code="0x24">優也との思い出</title>
 			<title code="0x0b">午前0時30分</title>
 			<title code="0x1f">血・交換・赤</title>
-			<title code="0x24">喫茶 茶此夢</title>
+			<title code="0x23">喫茶 茶此夢</title>
 			<title code="0x08">マリーの部屋</title>
 			<title code="0x09">唯が殺された</title>
 			<title code="0x14">不思議な夢を見た</title>
@@ -642,8 +642,8 @@
 			<title code="0x07">テレサの死</title>
 			<title code="0x11">血の繋がり</title>
 			<title code="0x0a">リーンの失踪、そして</title>
-			<title code="0x21">闇の血族 エンディング</title>
-			<title code="0x23">闇の血族-完結編-予告</title>
+			<title code="0x25">闇の血族 エンディング</title>
+			<title code="0x22">闇の血族-完結編-予告</title>
 			<title code="0x0f">未使用曲1</title>
 			<title code="0x1b">未使用曲2</title>
 			<title code="0x1c">未使用曲3</title>
@@ -1167,7 +1167,7 @@
 			<title code="0x25">BGM E</title>
 			<title code="0x14">Ending</title>
 			<title code="0x1d">Name</title>
-			<title code="0x2e">Unused Music (BGM E) (未使用曲(BGM E))</title>
+			<title code="0x2e">Unused (BGM E) (未使用曲(BGM E))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1195,7 +1195,7 @@
 			<title code="0x07">BGM E</title>
 			<title code="0x08">ENDING</title>
 			<title code="0x09">NAME</title>
-			<title code="0x0a">Unused Music (BGM E) (未使用曲(BGM E))</title>
+			<title code="0x0a">Unused (BGM E) (未使用曲(BGM E))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1223,7 +1223,7 @@
 			<title code="0x07">BGM E</title>
 			<title code="0x08">ENDING</title>
 			<title code="0x09">NAME</title>
-			<title code="0x0a">Unused Music (BGM E) (未使用曲(BGM E))</title>
+			<title code="0x0a">Unused (BGM E) (未使用曲(BGM E))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1874,7 +1874,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Euphory (PSG)</name>
+		<name>[X1] Euphory (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">System Sacom</driveralias>
 		<options>
@@ -3645,9 +3645,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Marchen Veil I</name>
+		<name>[MSX2] Marchen Veil I (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">System Sacom</driveralias>
+		<driveralias type="MSX2">System Sacom</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4980"/>
 			<option name="mdata_size" value="0x800"/>
@@ -3676,37 +3676,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Yuureikun (幽霊君) (AY-3-8910)</name>
-		<driver type="kss">msx</driver>
-		<driveralias type="MSX2">System Sacom</driveralias>
-		<options>
-			<option name="ay_mix" value="0x48"/>
-			<option name="sn_mix" value="0x100"/>
-			<option name="fmpac_mix" value="0x200"/>
-			<option name="fmunit_mix" value="0x200"/>
-		</options>
-		<romlist archive="yurei_msx">
-			<rom type="code">Yuureikun (1989)(System Sacom).kss</rom>
-		</romlist>
-		<titlelist>
-			<title code="0xb">タイトル</title>
-			<title code="0x0">1st.BGM 地獄の入口</title>
-			<title code="0x7">ボス 1 BGM</title>
-			<title code="0x1">2st.BGM 奈落の穴</title>
-			<title code="0x9">ボス前BGM</title>
-			<title code="0x8">ボス 2 BGM</title>
-			<title code="0x2">3st.BGM 三途の川</title>
-			<title code="0x3">4st.BGM 針山洞窟</title>
-			<title code="0x4">5st.BGM</title>
-			<title code="0x5">6st.BGM</title>
-			<title code="0x6">7st.BGM</title>
-			<title code="0xa">Game Over</title>
-			<title code="0xc">エンディング 1 BGM</title>
-			<title code="0xd">エンディング 2 BGM</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM-7] DOME (YM2203)</name>
+		<name>[FM-7] Dome (ドーム) (YM2203)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">System Sacom</driveralias>
 		<options>
@@ -3749,7 +3719,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] DOME(PSG)</name>
+		<name>[FM-7] Dome (ドーム) (AY-3-8910)</name>
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">System Sacom</driveralias>
 		<options>
@@ -3789,6 +3759,36 @@
 			<title code="0x05">スキャンダル</title>
 			<title code="0x03">筑波科学博</title>
 			<title code="0x0b">ザ・ドーム・アソシエーション発会式</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Yuureikun (幽霊君) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX2">System Sacom</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+		</options>
+		<romlist archive="yurei_msx">
+			<rom type="code">Yuureikun (1989)(System Sacom).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xb">タイトル</title>
+			<title code="0x0">1st.BGM 地獄の入口</title>
+			<title code="0x7">ボス 1 BGM</title>
+			<title code="0x1">2st.BGM 奈落の穴</title>
+			<title code="0x9">ボス前BGM</title>
+			<title code="0x8">ボス 2 BGM</title>
+			<title code="0x2">3st.BGM 三途の川</title>
+			<title code="0x3">4st.BGM 針山洞窟</title>
+			<title code="0x4">5st.BGM</title>
+			<title code="0x5">6st.BGM</title>
+			<title code="0x6">7st.BGM</title>
+			<title code="0xa">Game Over</title>
+			<title code="0xc">エンディング 1 BGM</title>
+			<title code="0xd">エンディング 2 BGM</title>
 		</titlelist>
 	</game>
 </gamelist>

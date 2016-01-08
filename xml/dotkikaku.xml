@@ -38,7 +38,7 @@
 	<game>
 		<name>[PC-9801] Flash Point 3 (フラッシュポイント3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -86,7 +86,7 @@
 	<game>
 		<name>[PC-9801] Flash Point 4 (フラッシュポイント4) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -128,7 +128,7 @@
 	<game>
 		<name>[PC-9801] City Knights (シティナイツ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -169,7 +169,7 @@
 	<game>
 		<name>[PC-9801] Hana to Chiruran (華と散るらん) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -192,7 +192,7 @@
 	<game>
 		<name>[PC-9801] Hana to Chiruran (華と散るらん) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -218,7 +218,7 @@
 	<game>
 		<name>[PC-9801] Flash Point (フラッシュポイント) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -266,7 +266,7 @@
 	<game>
 		<name>[PC-9801] Flash Point 2 (フラッシュポイント2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -298,10 +298,10 @@
 	<game>
 		<name>[PC-8801] Blue Moon Story Part 1 (ブルームーン・ストーリー PART I) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Dot Plan</driveralias>
+		<driveralias type="PC-8801">Dot Kikaku</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="init_pc" value="0x1000"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="blmnstry">
 			<rom type="code" offset="0x1000">PATCH</rom>
@@ -326,16 +326,16 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Blue Moon Story Part 1 (ブルームーン・ストーリー PART I)</name>
+		<name>[PC-9801] Blue Moon Story Part 1 (ブルームーン・ストーリー PART I) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="bootcs" value="0x2f7c"/>
 			<option name="bootip" value="0x0000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x3b4cf"/>
 			<option name="filesize" value="0x3000"/>
-			<option name="datamax"  value="0x08"/>
+			<option name="datamax" value="0x08"/>
 			<option name="clockmul" value="8"/>
 		</options>
 		<romlist archive="bmnstry_98">
@@ -363,7 +363,7 @@
 	<game>
 		<name>[PC-9801] Nut Berry (ナッツベリー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -395,9 +395,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] マジックナイト!</name>
+		<name>[PC-9801] Magic Knight! (マジックナイト!) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -440,9 +440,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] バトルハイスクール</name>
+		<name>[PC-9801] Battle High School (バトルハイスクール) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Dot Plan</driveralias>
+		<driveralias type="PC-9801">Dot Kikaku</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -467,15 +467,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] GRAM CATS 2X(OPM)</name>
+		<name>[X68000] Gram Cats 2X (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="gramcat268snd">
 			<rom type="code" offset="0x000000">gramcat268snd.bin</rom>
-			<rom type="x"    offset="0x010000">MDRV.x</rom>
+			<rom type="x" offset="0x010000">MDRV.x</rom>
 			<rom type="code" offset="0x018000">CM32L.FMD</rom>
 			<rom type="code" offset="0x020000">BD1.PCM</rom>
 			<rom type="code" offset="0x022000">LIM.PCM</rom>
@@ -523,17 +523,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] GRAM CATS 2X(MT-32)</name>
+		<name>[X68000] Gram Cats 2X (MT-32)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="gramcat268snd">
 			<rom type="code" offset="0x000000">gramcat268mid.bin</rom>
-			<rom type="x"    offset="0x010000">MDRV.x</rom>
+			<rom type="x" offset="0x010000">MDRV.x</rom>
 			<rom type="code" offset="0x040000">BATLE2.GU1</rom>
 			<rom type="code" offset="0x042000">BEACH2.GU1</rom>
 			<rom type="code" offset="0x044000">ENDING2.GU1</rom>
@@ -567,17 +567,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] GRAM CATS 2X(MT-32 Emulation)</name>
+		<name>[X68000] Gram Cats 2X (MT-32 Emulation)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
 		<romlist archive="gramcat268snd">
 			<rom type="code" offset="0x000000">gramcat268mid.bin</rom>
-			<rom type="x"    offset="0x010000">MDRV.x</rom>
+			<rom type="x" offset="0x010000">MDRV.x</rom>
 			<rom type="code" offset="0x040000">BATLE2.GU1</rom>
 			<rom type="code" offset="0x042000">BEACH2.GU1</rom>
 			<rom type="code" offset="0x044000">ENDING2.GU1</rom>
@@ -611,26 +611,26 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 花札放浪記</name>
+		<name>[X68000] Hanafuda Hourou-ki (花札放浪記) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="hanahou68snd">
 			<rom type="code" offset="0x000000">hanahou68snd.bin</rom>
-			<rom type="x"    offset="0x10000">OPMDRV.X</rom>
-			<rom type="x"    offset="0x30000">A.X</rom>
+			<rom type="x" offset="0x10000">OPMDRV.X</rom>
+			<rom type="x" offset="0x30000">A.X</rom>
 			<rom type="code" offset="0x80000">MUSIC.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] バトルハイスクール</name>
+		<name>[X68000] Battle High School (バトルハイスクール) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<romlist archive="btlhisch68snd">
 			<rom type="code" offset="0x00000">bhs68snd.bin</rom>
 			<rom type="x" offset="0x10000">advmain.x</rom>
@@ -651,9 +651,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] マジックナイト!</name>
+		<name>[X68000] Magic Knight! (マジックナイト!) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Dot Plan</driveralias>
+		<driveralias type="X68000">Dot Kikaku</driveralias>
 		<romlist archive="mknight68snd">
 			<rom type="code" offset="0x00000">mgck68snd.bin</rom>
 			<rom type="x" offset="0x10000">advmain.x</rom>
@@ -690,15 +690,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] GRAM CATS(OPLL)</name>
+		<name>[MSX2] Gram Cats (グラムキャッツ) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Dot Plan</driveralias>
+		<driveralias type="MSX2">Dot Kikaku</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gramcat_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -808,14 +808,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] GRAM CATS(PSG)</name>
+		<name>[MSX2] Gram Cats (グラムキャッツ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Dot Plan</driveralias>
+		<driveralias type="MSX2">Dot Kikaku</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="gramcat_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -925,15 +925,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] GRAM CATS 2</name>
+		<name>[MSX2] Gram Cats 2 (グラムキャッツ2) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Dot Plan</driveralias>
+		<driveralias type="MSX2">Dot Kikaku</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gramcat2_msx">
 			<rom type="code" offset="0x0400">patch</rom>

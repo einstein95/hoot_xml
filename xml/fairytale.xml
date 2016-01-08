@@ -108,7 +108,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] X・na (キサナ) (YM2151+MSM6258)</name>
+		<name>[X68000] X-na (キサナ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Fairytale</driveralias>
 		<romlist archive="xna68snd">
@@ -296,14 +296,14 @@
 			<title code="0x07">テンコ様のテーマ</title>
 			<title code="0x08">Bass!</title>
 			<title code="0x09">Like a Traffic Accident</title>
-			<title code="0x0a">時の風の中で…</title>
+			<title code="0x0a">時の風の中で...</title>
 			<title code="0x0c">A Day In Spring</title>
 			<title code="0x0d">Silently Word</title>
 			<title code="0x0e">Electicalwood Childrens</title>
 			<title code="0x0f">Sleep in the Moon-Light</title>
 			<title code="0x10">Love of Historily</title>
 			<title code="0x11">浮かれ気分と裏腹に</title>
-			<title code="0x13">はっきり言って、なめてます…</title>
+			<title code="0x13">はっきり言って、なめてます...</title>
 			<title code="0x14">結婚行進曲</title>
 			<title code="0x15">A Day In Spring</title>
 		</titlelist>
@@ -387,8 +387,10 @@
 			<rom type="code" offset="0x4c000">LA2ｰ13.M</rom>
 			<rom type="code" offset="0x4e000">LA2ｰ14.M</rom>
 			<rom type="code" offset="0x50000">LA2ｰ15.M</rom>
-			<rom type="code" offset="0x52000">LA2-S2.M</rom>
-			<rom type="code" offset="0x54000">LA2-S3.M</rom>
+<!--
+			<rom type="code" offset="0x52000">LA2ｰS2.M</rom>
+			<rom type="code" offset="0x54000">LA2ｰS3.M</rom>
+-->
 			<rom type="code" offset="0x56000">M_K1.M</rom>
 			<rom type="code" offset="0x58000">Mｰ2.M</rom>
 			<rom type="code" offset="0x5a000">Mｰ3.M</rom>
@@ -1367,7 +1369,6 @@
 			<rom type="file" offset="-1">MONST.M</rom>
 			<rom type="file" offset="-1">PEACE.M</rom>
 			<rom type="file" offset="-1">SHOP.M</rom>
-			<rom type="file" offset="-1">DEMO.M</rom>
 			<rom type="conin" offset="0x10">AMADAR.M</rom>
 			<rom type="conin" offset="0x11">BOSS.M</rom>
 			<rom type="conin" offset="0x12">BY-BY.M</rom>
@@ -1377,7 +1378,6 @@
 			<rom type="conin" offset="0x16">MONST.M</rom>
 			<rom type="conin" offset="0x17">PEACE.M</rom>
 			<rom type="conin" offset="0x18">SHOP.M</rom>
-			<rom type="conin" offset="0x19">DEMO.M</rom>
 			<rom type="shell" offset="0">MUSDRV</rom>
 			<rom type="shell" offset="0">MUSDRVP</rom>
 		</romlist>
@@ -1391,7 +1391,6 @@
 			<title code="0x16">MONST.M</title>
 			<title code="0x17">PEACE.M</title>
 			<title code="0x18">SHOP.M</title>
-			<title code="0x19">DEMO.M</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1641,13 +1640,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Arabesque!: Shoujotachi no Orinasu Ai no Monogatari (アラベスク ～少女たちの織りなす愛の物語～) (YM2203)</name>
+		<name>[PC-9801] Arabesque!: Shoujo-tachi no Orinasu Ai no Monogatari (アラベスク ～少女たちの織りなす愛の物語～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fairytale</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="arabesque_98">
+		<romlist archive="alavesk_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">ALICE.OV1</rom>
 			<rom type="conin" offset="0x05">ALICE.OV1</rom>
@@ -1771,7 +1770,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="drahaku_98">
+		<romlist archive="dorakyur_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">ADVBIOS.OVL</rom>
 			<rom type="conin" offset="0x05">ADVBIOS.OVL</rom>
@@ -2014,7 +2013,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="marine_p_98">
+		<romlist archive="marine_f_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">MARINE.OV1</rom>
 			<rom type="conin" offset="0x05">MARINE.OV1</rom>
@@ -2803,7 +2802,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="koroshi2_98">
+		<romlist archive="korosi2_98">
 			<rom type="file" offset="-1">MUSDRV.COM</rom>
 			<rom type="file" offset="-1">MUSDRVP.COM</rom>
 			<rom type="file" offset="-1">BED.M</rom>
@@ -2846,7 +2845,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="koroshi3_98">
+		<romlist archive="korosi3_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">ADVBIOS.OVL</rom>
 			<rom type="conin" offset="0x05">ADVBIOS.OVL</rom>

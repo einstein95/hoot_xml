@@ -34,11 +34,11 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //フェアリーダスト -->
+	<!-- //FairyDust -->
 	<game>
 		<name>[PC-9801] 5-jikanme no Venus (5時間目のヴィーナス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -65,6 +65,7 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x1a">5_11.M</title>
 			<title code="0x10">5_01.M</title>
 			<title code="0x11">5_02.M</title>
 			<title code="0x12">5_03.M</title>
@@ -75,7 +76,6 @@
 			<title code="0x17">5_08.M</title>
 			<title code="0x18">5_09.M</title>
 			<title code="0x19">5_10.M</title>
-			<title code="0x1a">5_11.M</title>
 			<title code="0x1b">5_20.M</title>
 			<title code="0x1c">SE_10.M</title>
 			<range min="0x0801" max="0x0809" extcode="1">SE.EFC #%2X</range>
@@ -84,7 +84,7 @@
 	<game>
 		<name>[PC-9801] Star Trap (スタートラップ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -152,7 +152,7 @@
 	<game>
 		<name>[PC-9801] Uki Uki Island (うきうきアイランド) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -224,7 +224,7 @@
 	<game>
 		<name>[PC-9801] Uki Uki Island (うきうきアイランド) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -296,7 +296,7 @@
 	<game>
 		<name>[PC-9801] Uki Uki Island (うきうきアイランド) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -368,7 +368,7 @@
 	<game>
 		<name>[PC-9801] Koukan Nikki (こうかん日記) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -421,7 +421,7 @@
 	<game>
 		<name>[PC-9801] Koukan Nikki (こうかん日記) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -472,7 +472,7 @@
 	<game>
 		<name>[PC-9801] Koukan Nikki (こうかん日記) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -523,7 +523,7 @@
 	<game>
 		<name>[PC-9801] Escalation '95: Oneesamatte Yondeiidesuka? (エスカレーション'95 ～お姉さまって呼んでいいですか?～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x70"/>
 			<option name="clockmul" value="8"/>
@@ -613,7 +613,7 @@
 	<game>
 		<name>[PC-9801] Escalation '95: Oneesamatte Yondeiidesuka? (エスカレーション'95 ～お姉さまって呼んでいいですか?～) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -655,7 +655,7 @@
 	<game>
 		<name>[PC-9801] Escalation '95: Oneesamatte Yondeiidesuka? (エスカレーション'95 ～お姉さまって呼んでいいですか?～) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -695,9 +695,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fairy Dust Fan Kansha Disk Final (フェアリーダスト ファン感謝ディスク FINAL) (YM2203)</name>
+		<name>[PC-9801] FairyDust Fan Kansha Disk Final (フェアリーダスト ファン感謝ディスク FINAL) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -739,7 +739,7 @@
 	<game>
 		<name>[PC-9801] Lemon Angel (レモンエンジェル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -787,7 +787,7 @@
 	<game>
 		<name>[PC-9801] Lemon Angel (レモンエンジェル) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -835,7 +835,7 @@
 	<game>
 		<name>[PC-9801] Lemon Angel (レモンエンジェル) (GS)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -881,7 +881,7 @@
 	<game>
 		<name>[PC-9801] Lemon Angel (レモンエンジェル) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -927,7 +927,7 @@
 	<game>
 		<name>[PC-9801] Ami: Kaze Tachinu (亜美 ～風立ちぬ～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -993,7 +993,7 @@
 	<game>
 		<name>[PC-9801] Akai Suishou no Hitomi (赤い水晶の瞳) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1069,7 +1069,7 @@
 	<game>
 		<name>[PC-9801] Akai Suishou no Hitomi (赤い水晶の瞳) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1145,7 +1145,7 @@
 	<game>
 		<name>[PC-9801] Akai Suishou no Hitomi (赤い水晶の瞳) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1221,7 +1221,7 @@
 	<game>
 		<name>[PC-9801] Chou Jigen Densetsu Rall 3: Kakuseihen (超次元伝説RALL III ～覚醒編～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
@@ -1267,7 +1267,7 @@
 	<game>
 		<name>[PC-9801] Chou Jigen Densetsu Rall 3: Kakuseihen (超次元伝説RALL III ～覚醒編～) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1295,7 +1295,7 @@
 	<game>
 		<name>[PC-9801] Chou Jigen Densetsu Rall 3: Kakuseihen (超次元伝説RALL III ～覚醒編～) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1321,9 +1321,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] こうかん日記第II章 ～聖夜をあなたと～ (YM2203)</name>
+		<name>[PC-9801] Koukan Nikki Dai-II-Shou: Seiya o Anata to (こうかん日記第II章 ～聖夜をあなたと～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 		</options>
@@ -1442,9 +1442,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] こうかん日記第II章 ～聖夜をあなたと～ (GS)</name>
+		<name>[PC-9801] Koukan Nikki Dai-II-Shou: Seiya o Anata to (こうかん日記第II章 ～聖夜をあなたと～) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
@@ -1566,9 +1566,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔人形 (YM2203)</name>
+		<name>[PC-9801] Ma Ningyou (魔人形) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
 			<option name="wstimer" value="1"/>
@@ -1685,9 +1685,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 魔人形 (GS)</name>
+		<name>[PC-9801] Ma Ningyou (魔人形) (GS)</name>
 		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fairy Dust</driveralias>
+		<driveralias type="PC-9801">FairyDust</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
