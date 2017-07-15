@@ -32,6 +32,12 @@
 <gamelist date="2005/02/13">
 	<bind>
 		<exts>
+			<ext>ay</ext>
+		</exts>
+		<driver type="zxayemul">zxspectrum</driver>
+	</bind>
+	<bind>
+		<exts>
 			<ext>pce</ext>
 			<ext>hes</ext>
 		</exts>
@@ -61,6 +67,18 @@
 		<driver type="mxdrv">x68k</driver>
 		<options>
 			<option name="opm_mix" value="0xc0"/>
+			<option name="pcm_mix" value="0xf0"/>
+		</options>
+	</bind>
+	<bind>
+		<exts>
+			<ext>mnd</ext>
+		</exts>
+		<driver type="mnd">x68k</driver>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="opm_mix" value="0xc0"/>
+			<option name="opn3_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xf0"/>
 		</options>
 	</bind>
@@ -99,9 +117,18 @@
 
 				¦‰º‚Ìnez‚ÆÝ’è‚ª•ª‚©‚ê‚Ä‚¢‚é‚Ì‚ÅŠÔˆá‚¦‚È‚¢‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢
 			-->
+			<option name="apu_mix" value="0x100"/>
+			<option name="dpcm_mix" value="0x100"/>
+			<option name="vrc6_mix" value="0x100"/>
+			<option name="vrc7_mix" value="0x100"/>
 			<option name="fds_mix" value="0xd0"/>
-			<option name="fdsrealmode" value="0"/>
-			<option name="nesrealdac" value="0"/>
+			<option name="mmc5_mix" value="0x100"/>
+			<option name="n163_mix" value="0x100"/>
+			<option name="sunsoft5b_mix" value="0x100"/>
+			<option name="n163realmode" value="1"/>
+			<option name="fdsrealmode" value="3"/>
+			<option name="nesrealdac" value="1"/>
+			<option name="total_mix" value="0x100"/>
 		</options>
 	</bind>
 	<bind>
@@ -110,9 +137,18 @@
 		</exts>
 		<driver type="nez">nes</driver>
 		<options>
+			<option name="apu_mix" value="0x100"/>
+			<option name="dpcm_mix" value="0x100"/>
+			<option name="vrc6_mix" value="0x100"/>
+			<option name="vrc7_mix" value="0x100"/>
 			<option name="fds_mix" value="0xd0"/>
+			<option name="mmc5_mix" value="0x100"/>
+			<option name="n163_mix" value="0x100"/>
+			<option name="sunsoft5b_mix" value="0x100"/>
+			<option name="n163realmode" value="0x80"/>
 			<option name="fdsrealmode" value="0"/>
 			<option name="nesrealdac" value="0"/>
+			<option name="total_mix" value="0x100"/>
 		</options>
 	</bind>
 	<bind>
@@ -121,6 +157,9 @@
 			<ext>gbr</ext>
 		</exts>
 		<driver type="gbs">gb</driver>
+		<options>
+			<option name="dmg_mix" value="0x100"/>
+		</options>
 	</bind>
 	<bind>
 		<exts>
@@ -134,9 +173,9 @@
 		</exts>
 		<driver type="kinro5">msx</driver>
 		<options>
-			<option name="scc_mix" value="0x108"/>
-			<option name="psg_mix" value="0xd4"/>
-			<option name="opll_mix" value="0x250"/>
+			<option name="scc_mix" value="0xfe"/>
+			<option name="psg_mix" value="0xe6"/>
+			<option name="opll_mix" value="0x24a"/>
 		</options>
 	</bind>
 	<bind>
@@ -145,9 +184,9 @@
 		</exts>
 		<driver type="mpk">msx</driver>
 		<options>
-			<option name="scc_mix" value="0x108"/>
-			<option name="psg_mix" value="0xd4"/>
-			<option name="opll_mix" value="0x250"/>
+			<option name="scc_mix" value="0xfe"/>
+			<option name="psg_mix" value="0xe6"/>
+			<option name="opll_mix" value="0x24a"/>
 		</options>
 	</bind>
 	<bind>
@@ -156,9 +195,9 @@
 		</exts>
 		<driver type="mgsdrv">msx</driver>
 		<options>
-			<option name="scc_mix" value="0x108"/>
-			<option name="psg_mix" value="0xd4"/>
-			<option name="opll_mix" value="0x250"/>
+			<option name="scc_mix" value="0xfe"/>
+			<option name="psg_mix" value="0xe6"/>
+			<option name="opll_mix" value="0x24a"/>
 		</options>
 	</bind>
 	<bind>
@@ -167,18 +206,24 @@
 		</exts>
 		<driver type="pt3">msx</driver>
 	</bind>
+	<bind>
+		<exts>
+			<ext>ay</ext>
+		</exts>
+		<driver type="zxayemul">zxspectrum</driver>
+	</bind>
 
 	<childlists>
 		<!-- ================ 1 ================ -->
 		<list>xml/13cm.xml</list>
 		<list>xml/21st_century.xml</list>
 		<!-- ================ A ================ -->
-		<list>xml/abogado_powers.xml</list>
+		<list>xml/abogadopowers.xml</list>
 		<list>xml/abstrax.xml</list>
 		<list>xml/acclaim.xml</list>
 		<list>xml/accolade.xml</list>
 		<list>xml/acer.xml</list>
-		<list>xml/acid_plan.xml</list>
+		<list>xml/acidplan.xml</list>
 		<list>xml/active.xml</list>
 		<list>xml/activision.xml</list>
 		<list>xml/adk.xml</list>
@@ -194,7 +239,7 @@
 		<list>xml/ange.xml</list>
 		<list>xml/anjin.xml</list>
 		<list>xml/apogee.xml</list>
-		<list>xml/apple_pie.xml</list>
+		<list>xml/applepie.xml</list>
 		<list>xml/apricot.xml</list>
 		<list>xml/arc_developments.xml</list>
 		<list>xml/arsys.xml</list>
@@ -212,14 +257,14 @@
 		<list>xml/bandai.xml</list>
 		<list>xml/banpresto.xml</list>
 		<list>xml/basement.xml</list>
-		<list>xml/basho_house.xml</list>
+		<list>xml/bashohouse.xml</list>
 		<list>xml/bethesda.xml</list>
 		<list>xml/bio_100%.xml</list>
-		<list>xml/birdy_soft.xml</list>
+		<list>xml/birdysoft.xml</list>
 		<list>xml/bit2.xml</list>
 		<list>xml/bitmap_brothers.xml</list>
 		<list>xml/bit_brother_software.xml</list>
-		<list>xml/black_package.xml</list>
+		<list>xml/blackpackage.xml</list>
 		<list>xml/blizzard.xml</list>
 		<list>xml/blucky.xml</list>
 		<list>xml/blue_byte.xml</list>
@@ -231,7 +276,6 @@
 		<list>xml/broderbund.xml</list>
 		<list>xml/bullfrog.xml</list>
 		<!-- ================ C ================ -->
-		<list>xml/c's_ware.xml</list>
 		<list>xml/c-class.xml</list>
 		<list>xml/c-lab.xml</list>
 		<list>xml/california_dreams.xml</list>
@@ -252,11 +296,12 @@
 		<list>xml/compile.xml</list>
 		<list>xml/copysoft.xml</list>
 		<list>xml/core_design.xml</list>
-		<list>xml/cosmos_computer.xml</list>
+		<list>xml/cosmoscomputer.xml</list>
 		<list>xml/crossmedia.xml</list>
 		<list>xml/crowd.xml</list>
+		<list>xml/csware.xml</list>
 		<list>xml/cuisse.xml</list>
-		<list>xml/culotte.xml</list>
+		<list>xml/curott.xml</list>
 		<list>xml/custom.xml</list>
 		<list>xml/cybelle.xml</list>
 		<list>xml/cygnus_studios.xml</list>
@@ -281,7 +326,7 @@
 		<list>xml/do.xml</list>
 		<list>xml/doa.xml</list>
 		<list>xml/domark.xml</list>
-		<list>xml/dot_plan.xml</list>
+		<list>xml/dotkikaku.xml</list>
 		<list>xml/doujin.xml</list>
 		<list>xml/dreamers_guild.xml</list>
 		<list>xml/dreamforge.xml</list>
@@ -305,9 +350,9 @@
 		<!-- ================ F ================ -->
 		<list>xml/f2system.xml</list>
 		<list>xml/fairydust.xml</list>
+		<list>xml/fairytale.xml</list>
 		<list>xml/fairytale-hardcover.xml</list>
 		<list>xml/fairytale-xshitei.xml</list>
-		<list>xml/fairytale.xml</list>
 		<list>xml/falcom.xml</list>
 		<list>xml/familysoft.xml</list>
 		<list>xml/firstlight.xml</list>
@@ -326,11 +371,10 @@
 		<list>xml/gam.xml</list>
 		<list>xml/gamearts.xml</list>
 		<list>xml/gamestar.xml</list>
-		<list>xml/gametechnopolis.xml</list>
 		<list>xml/gametek.xml</list>
 		<list>xml/garuda.xml</list>
 		<list>xml/giga.xml</list>
-		<list>xml/gimmick_house.xml</list>
+		<list>xml/gimmickhouse.xml</list>
 		<list>xml/glams.xml</list>
 		<list>xml/glodia.xml</list>
 		<list>xml/gloria.xml</list>
@@ -343,17 +387,17 @@
 		<list>xml/gust.xml</list>
 		<!-- ================ H ================ -->
 		<list>xml/hal_laboratory.xml</list>
-		<list>xml/happy_time.xml</list>
+		<list>xml/happytime.xml</list>
 		<list>xml/hard.xml</list>
 		<list>xml/heartsoft.xml</list>
 		<list>xml/hertz.xml</list>
 		<list>xml/hervest.xml</list>
 		<list>xml/himeyasoft.xml</list>
-		<list>xml/hobby_japan.xml</list>
+		<list>xml/hobbyjapan.xml</list>
 		<list>xml/hokusho.xml</list>
 		<list>xml/holywood.xml</list>
 		<list>xml/homedata.xml</list>
-		<list>xml/hot-b.xml</list>
+		<list>xml/hotb.xml</list>
 		<list>xml/hudsonsoft.xml</list>
 		<list>xml/hulinks.xml</list>
 		<list>xml/human.xml</list>
@@ -381,9 +425,9 @@
 		<list>xml/jaleco.xml</list>
 		<list>xml/jam.xml</list>
 		<list>xml/janis.xml</list>
-		<list>xml/japan_clary_business.xml</list>
-		<list>xml/japan_home_video.xml</list>
+		<list>xml/japanclarybusiness.xml</list>
 		<list>xml/jast.xml</list>
+		<list>xml/jhv.xml</list>
 		<list>xml/jitenshasogyo.xml</list>
 		<list>xml/juice.xml</list>
 		<!-- ================ K ================ -->
@@ -408,17 +452,17 @@
 		<list>xml/legend.xml</list>
 		<list>xml/libido.xml</list>
 		<list>xml/linel.xml</list>
-		<list>xml/lip_star.xml</list>
+		<list>xml/lipstar.xml</list>
 		<list>xml/ljn.xml</list>
 		<list>xml/log.xml</list>
 		<list>xml/loriciel.xml</list>
 		<list>xml/lovegun.xml</list>
 		<list>xml/lucasarts.xml</list>
-		<list>xml/lunar_soft.xml</list>
+		<list>xml/lunarsoft.xml</list>
 		<!-- ================ M ================ -->
 		<list>xml/maesta7.xml</list>
+		<list>xml/magical.xml</list>
 		<list>xml/magicalzoo.xml</list>
-		<list>xml/magical_company.xml</list>
 		<list>xml/magnetic_scrolls.xml</list>
 		<list>xml/matrix.xml</list>
 		<list>xml/maxima.xml</list>
@@ -426,11 +470,11 @@
 		<list>xml/maybesoft.xml</list>
 		<list>xml/mayfarsoft.xml</list>
 		<list>xml/mbstruth.xml</list>
-		<list>xml/mebio_software.xml</list>
+		<list>xml/mebiosoftware.xml</list>
 		<list>xml/megami.xml</list>
 		<list>xml/melody.xml</list>
 		<list>xml/merit_studios.xml</list>
-		<list>xml/miami_soft.xml</list>
+		<list>xml/miamisoft.xml</list>
 		<list>xml/microcabin.xml</list>
 		<list>xml/microids.xml</list>
 		<list>xml/microleague.xml</list>
@@ -454,13 +498,14 @@
 		<list>xml/mugen.xml</list>
 		<list>xml/muppetbox.xml</list>
 		<list>xml/mvp_software.xml</list>
+		<list>xml/mycom.xml</list>
 		<!-- ================ N ================ -->
 		<list>xml/namco.xml</list>
 		<list>xml/natsume.xml</list>
 		<list>xml/ncs.xml</list>
 		<list>xml/nec.xml</list>
-		<list>xml/nec_avenue.xml</list>
-		<list>xml/nec_interchannel.xml</list>
+		<list>xml/necavenue.xml</list>
+		<list>xml/necinterchannel.xml</list>
 		<list>xml/negative.xml</list>
 		<list>xml/neo_software.xml</list>
 		<list>xml/new.xml</list>
@@ -480,14 +525,14 @@
 		<!-- ================ O ================ -->
 		<list>xml/ocean.xml</list>
 		<list>xml/onionsoftware.xml</list>
-		<list>xml/orange_house.xml</list>
+		<list>xml/orangehouse.xml</list>
 		<list>xml/origin.xml</list>
 		<list>xml/outlaw.xml</list>
 		<list>xml/outou.xml</list>
 		<list>xml/oxford.xml</list>
 		<!-- ================ P ================ -->
 		<list>xml/pack-in-video.xml</list>
-		<list>xml/palmtree_soft.xml</list>
+		<list>xml/palmtree.xml</list>
 		<list>xml/panasoft.xml</list>
 		<list>xml/panther.xml</list>
 		<list>xml/paragon.xml</list>
@@ -496,15 +541,14 @@
 		<list>xml/pcmcomplete.xml</list>
 		<list>xml/peachsoft.xml</list>
 		<list>xml/pearlsoft.xml</list>
+		<list>xml/pegasusjapan.xml</list>
 		<list>xml/pegasussoft.xml</list>
-		<list>xml/pegasus_japan.xml</list>
 		<list>xml/pendulo_studios.xml</list>
-		<list>xml/peppermint_kids.xml</list>
-		<list>xml/persian_soft.xml</list>
+		<list>xml/peppermintkids.xml</list>
+		<list>xml/persiansoft.xml</list>
 		<list>xml/petit.xml</list>
 		<list>xml/pil.xml</list>
-		<list>xml/piston_soft.xml</list>
-		<list>xml/plum.xml</list>
+		<list>xml/pis-tonsoft.xml</list>
 		<list>xml/poisonbreath.xml</list>
 		<list>xml/ponyca.xml</list>
 		<list>xml/ponytail.xml</list>
@@ -517,10 +561,10 @@
 		<list>xml/puchi.xml</list>
 		<!-- ================ Q ================ -->
 		<list>xml/quasarsoft.xml</list>
-		<list>xml/queen_soft.xml</list>
+		<list>xml/queensoft.xml</list>
 		<!-- ================ R ================ -->
-		<list>xml/r-rate.xml</list>
 		<list>xml/r.xml</list>
+		<list>xml/r-rate.xml</list>
 		<list>xml/rage.xml</list>
 		<list>xml/rainbird.xml</list>
 		<list>xml/raizing.xml</list>
@@ -532,23 +576,25 @@
 		<list>xml/rforce.xml</list>
 		<list>xml/rightstuff.xml</list>
 		<list>xml/rihuri.xml</list>
-		<list>xml/ringer_bell.xml</list>
+		<list>xml/ringerbell.xml</list>
 		<list>xml/riruhisparty.xml</list>
 		<list>xml/risc.xml</list>
 		<list>xml/riverhillsoft.xml</list>
 		<!-- ================ S ================ -->
+		<list>xml/sacom.xml</list>
 		<list>xml/safari.xml</list>
-		<list>xml/santa_fe.xml</list>
+		<list>xml/santafe.xml</list>
 		<list>xml/scaptrust.xml</list>
 		<list>xml/scoop.xml</list>
-		<list>xml/sea_lion.xml</list>
+		<list>xml/sealion.xml</list>
 		<list>xml/sega.xml</list>
 		<list>xml/seibu.xml</list>
 		<list>xml/sein.xml</list>
 		<list>xml/semicom.xml</list>
+		<list>xml/sgi.xml</list>
 		<list>xml/sharp.xml</list>
 		<list>xml/shinseisha.xml</list>
-		<list>xml/sierra.xml</list>
+		<list>xml/sierraonline.xml</list>
 		<list>xml/silence.xml</list>
 		<list>xml/silicon_knights.xml</list>
 		<list>xml/silkys.xml</list>
@@ -561,13 +607,13 @@
 		<list>xml/softpal.xml</list>
 		<list>xml/softstar.xml</list>
 		<list>xml/software_2000.xml</list>
-		<list>xml/soft_plan.xml</list>
-		<list>xml/soft_world.xml</list>
+		<list>xml/softplan.xml</list>
+		<list>xml/softworld.xml</list>
 		<list>xml/sogna.xml</list>
 		<list>xml/sony.xml</list>
 		<list>xml/sorciere.xml</list>
-		<list>xml/space_project.xml</list>
-		<list>xml/spectrum_holobyte.xml</list>
+		<list>xml/spaceproject.xml</list>
+		<list>xml/spectrumholobyte.xml</list>
 		<list>xml/sps.xml</list>
 		<list>xml/square.xml</list>
 		<list>xml/ssg.xml</list>
@@ -577,19 +623,18 @@
 		<list>xml/sting.xml</list>
 		<list>xml/storm.xml</list>
 		<list>xml/striker.xml</list>
-		<list>xml/studio_angel.xml</list>
-		<list>xml/studio_b-room.xml</list>
-		<list>xml/studio_genmaitya.xml</list>
-		<list>xml/studio_milk.xml</list>
-		<list>xml/studio_mobius.xml</list>
-		<list>xml/studio_twinkle.xml</list>
+		<list>xml/studioangel.xml</list>
+		<list>xml/studiobroom.xml</list>
+		<list>xml/studiogenmaitya.xml</list>
+		<list>xml/studiomilk.xml</list>
+		<list>xml/studiomobius.xml</list>
+		<list>xml/studiotwinkle.xml</list>
 		<list>xml/succubus.xml</list>
 		<list>xml/sunflowers.xml</list>
 		<list>xml/sunsoft.xml</list>
-		<list>xml/sur_de_wave.xml</list>
+		<list>xml/surdewave.xml</list>
 		<list>xml/swat.xml</list>
 		<list>xml/systemsoft.xml</list>
-		<list>xml/system_sacom.xml</list>
 		<!-- ================ T ================ -->
 		<list>xml/t2.xml</list>
 		<list>xml/tad.xml</list>
@@ -599,8 +644,8 @@
 		<list>xml/tale_software.xml</list>
 		<list>xml/tande.xml</list>
 		<list>xml/tatsumi.xml</list>
-		<list>xml/team_17.xml</list>
-		<list>xml/tear_drop.xml</list>
+		<list>xml/team17.xml</list>
+		<list>xml/teardrop.xml</list>
 		<list>xml/technogrard.xml</list>
 		<list>xml/technopolissoft.xml</list>
 		<list>xml/technos.xml</list>
@@ -627,11 +672,11 @@
 		<list>xml/trush.xml</list>
 		<list>xml/t_time.xml</list>
 		<!-- ================ U ================ -->
-		<list>xml/u-mesoft.xml</list>
-		<list>xml/u-office.xml</list>
+		<list>xml/u_office.xml</list>
 		<list>xml/ubisoft.xml</list>
 		<list>xml/ucom.xml</list>
-		<list>xml/umizuki_productions.xml</list>
+		<list>xml/umesoft.xml</list>
+		<list>xml/umizukiseisakujyo.xml</list>
 		<list>xml/universal.xml</list>
 		<list>xml/unknown.xml</list>
 		<list>xml/upl.xml</list>
@@ -639,7 +684,7 @@
 		<list>xml/u_office.xml</list>
 		<!-- ================ V ================ -->
 		<list>xml/victor.xml</list>
-		<list>xml/video_system.xml</list>
+		<list>xml/videosystem.xml</list>
 		<list>xml/ving.xml</list>
 		<list>xml/visco.xml</list>
 		<list>xml/vivian.xml</list>
