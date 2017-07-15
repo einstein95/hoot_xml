@@ -36,6 +36,40 @@
 <gamelist date="2005/09/25">
 	<!-- Midway -->
 	<game>
+		<name>[Pac-Man] Jr. Pac-Man (ジュニアパックマン) (WSG)</name>
+		<driver type="jrpacman">namco</driver>
+		<driveralias type="Arcade">Midway</driveralias>
+		<romlist archive="jrpacman">
+			<rom type="code" offset="0x0000">jrp8d.bin</rom>
+			<rom type="code" offset="0x2000">jrp8e.bin</rom>
+			<rom type="code" offset="0x8000">jrp8h.bin</rom>
+			<rom type="code" offset="0xa000">jrp8j.bin</rom>
+			<rom type="code" offset="0xc000">jrp8k.bin</rom>
+			<rom type="pcm" offset="0x0000">jrprom.7p</rom>
+			<rom type="pcm" offset="0x0100">jrprom.5s</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Game Start</title>
+			<title code="0x01">Intermission #1 - "Jr. meets Yum-Yum"</title>
+			<title code="0x02">Intermission #3 - "They escape!"</title>
+			<title code="0x03">Intermission #2 - "The gift"</title>
+			<title code="0x09">Credit</title>
+			<title code="0x0A">Extend</title>
+			<title code="0x10">Siren #1</title>
+			<title code="0x11">Siren #2</title>
+			<title code="0x12">Siren #3</title>
+			<title code="0x13">Siren #4</title>
+			<title code="0x14">Siren #5</title>
+			<title code="0x15">Energizer</title>
+			<title code="0x16">Monster Escapes</title>
+			<title code="0x18">Munch #1</title>
+			<title code="0x19">Munch #2</title>
+			<title code="0x1A">Fruit/Prize Eaten</title>
+			<title code="0x1B">Monster Eaten</title>
+			<title code="0x1C">Death</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC/AT] T2: The Arcade Game (YM3812)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Midway</driveralias>

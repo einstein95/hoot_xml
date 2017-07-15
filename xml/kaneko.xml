@@ -78,7 +78,7 @@
 			<title code="0x01">Sky Shark</title>
 			<title code="0x02">Asia</title>
 			<title code="0x03">Against The Attack</title>
-			<title code="0x06">Water Fromt</title>
+			<title code="0x06">Water Front</title>
 			<title code="0x09">Behind The Bush</title>
 			<title code="0x07">Last Fighter</title>
 			<title code="0x04">Triumph</title>
@@ -116,12 +116,12 @@
 			<title code="0x6e">Final Boss</title>
 			<title code="0x48">End Credit</title>
 			<title code="0x1c">Game Over</title>
-			<title code="0x62">Unused 01</title>
-			<title code="0x63">Unused 02</title>
-			<title code="0x70">Unused 03</title>
-			<title code="0x74">Unused 04</title>
-			<title code="0x7b">Unused 05</title>
-			<title code="0x7f">Unused 06</title>
+			<title code="0x62">Unused #01</title>
+			<title code="0x63">Unused #02</title>
+			<title code="0x70">Unused #03</title>
+			<title code="0x74">Unused #04</title>
+			<title code="0x7b">Unused #05</title>
+			<title code="0x7f">Unused #06</title>
 		</titlelist>
 	</game>
 	<game>
@@ -161,12 +161,12 @@
 			<title code="0x3e">Disc Jockey (alt intro 3)</title>
 			<title code="0x40">Disc Jockey (alt intro 4)</title>
 			<title code="0x42">Disc Jockey (alt intro 5)</title>
-			<title code="0x35">Unused 1</title>
-			<title code="0x38">Unused 2</title>
-			<title code="0x3c">Unused 3</title>
-			<title code="0x44">Unused 4</title>
-			<title code="0x4b">Unused 5</title>
-			<title code="0x4e">Unused 6</title>
+			<title code="0x35">Unused #01</title>
+			<title code="0x38">Unused #02</title>
+			<title code="0x3c">Unused #03</title>
+			<title code="0x44">Unused #04</title>
+			<title code="0x4b">Unused #05</title>
+			<title code="0x4e">Unused #06</title>
 		</titlelist>
 	</game>
 	<game>
@@ -200,6 +200,46 @@
 			<title code="0x1b">Name Entry</title>
 			<title code="0x23">Not on the CD #1</title>
 			<title code="0x29">Not on the CD #2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[68k Hardware] Blood Warrior (大江戸ファイト) (MSM6295x2)</name>
+		<driver type="bloodwar">kaneko</driver>
+		<driveralias type="Arcade">Kaneko</driveralias>
+		<options>
+			<option name="pcm_mix" value="0x50"/>
+		</options>
+		<romlist archive="bloodwar">
+			<rom type="code" offset="0x000000">ofp0f3.514</rom>
+			<rom type="code" offset="0x000001">ofp1j3.513</rom>
+			<rom type="pcm1" offset="0x000000">of-101-f-0223.101</rom>
+			<rom type="pcm2" offset="0x000000">of-100-0222.99</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x81" max="0x83" extcode="1">BGM #%02X</range>
+			<range min="0x85" max="0x8c" extcode="1">BGM #%02X</range>
+			<range min="0x01" max="0x27" extcode="1">SFX #%02X</range>
+			<range min="0x28" max="0x7a" extcode="1">Voice #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[68k Hardware] Blood Warrior (JP) (大江戸ファイト) (MSM6295x2)</name>
+		<driver type="bloodwar">kaneko</driver>
+		<driveralias type="Arcade">Kaneko</driveralias>
+		<options>
+			<option name="pcm_mix" value="0x50"/>
+		</options>
+		<romlist archive="bloodwar">
+			<rom type="code" offset="0x000000">ofp0f3.514</rom>
+			<rom type="code" offset="0x000001">ofp1j3.513</rom>
+			<rom type="pcm1" offset="0x000000">of-101-j-0224.101</rom>
+			<rom type="pcm2" offset="0x000000">of-100-0222.99</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x81" max="0x83" extcode="1">BGM #%02X</range>
+			<range min="0x85" max="0x8c" extcode="1">BGM #%02X</range>
+			<range min="0x01" max="0x27" extcode="1">SFX #%02X</range>
+			<range min="0x28" max="0x78" extcode="1">Voice #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

@@ -40,7 +40,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Nidecom Carry</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0100"/>
+			<option name="init_pc" value="0x0100"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="vic9_88">
@@ -52,9 +52,25 @@
 			<title code="0x01000000">タイトル(ループ)</title>
 			<title code="0x01000001">イニング表</title>
 			<title code="0x01000003">イニング裏</title>
+			<title code="0x00000006">ホームラン</title>
 			<title code="0x00000005">勝ち</title>
 			<title code="0x00000002">負け</title>
 			<title code="0x00000004">未使用</title>
+<!--			<title code="0x000000ff">効果音#00</title>
+			<title code="0x010000ff">効果音#01</title>
+			<title code="0x020000ff">効果音#02</title>
+			<title code="0x030000ff">効果音#03</title>
+			<title code="0x040000ff">効果音#04</title>
+			<title code="0x050000ff">効果音#05</title>
+			<title code="0x060000ff">効果音#06</title>
+			<title code="0x070000ff">効果音#07</title>
+			<title code="0x080000ff">効果音#08</title>
+			<title code="0x090000ff">効果音#09</title>
+			<title code="0x0a0000ff">効果音#0A</title>
+			<title code="0x0b0000ff">効果音#0B</title>
+			<title code="0x0c0000ff">効果音#0C</title>
+			<title code="0x0d0000ff">効果音#0D</title>
+			<title code="0x0e0000ff">効果音#0E</title> -->
 		</titlelist>
 	</game>
 	<game>
@@ -62,7 +78,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Nidecom Carry</driveralias>
 		<options>
-			<option name="init_pc"  value="0x0100"/>
+			<option name="init_pc" value="0x0100"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="gyro_88">
@@ -89,7 +105,7 @@
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Nidecom Carry</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf800"/>
+			<option name="init_pc" value="0xf800"/>
 			<option name="mdata_addr" value="0xe000"/>
 			<option name="mdata_size" value="0x0c00"/>
 		</options>
@@ -97,8 +113,8 @@
 			<rom type="code" offset="0x0000">SYSX1.Z80</rom>
 			<rom type="code" offset="0xec00">OPMX1.Z80</rom>
 			<rom type="code" offset="0xf800">PATCH</rom>
-			<rom type="bgm"  offset="0x00">MO1.Z80</rom>
-			<rom type="bgm"  offset="0x01">MO2.Z80</rom>
+			<rom type="bgm" offset="0x00">MO1.Z80</rom>
+			<rom type="bgm" offset="0x01">MO2.Z80</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">BGM1 (メインテーマ)「走!」 (No Intro)</title>
@@ -128,7 +144,7 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Nidecom Carry</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf800"/>
+			<option name="init_pc" value="0xf800"/>
 			<option name="mdata_addr" value="0xe000"/>
 			<option name="mdata_size" value="0x0c00"/>
 		</options>
@@ -136,8 +152,8 @@
 			<rom type="code" offset="0x0000">SYSX1.Z80</rom>
 			<rom type="code" offset="0xec00">PSGX1.Z80</rom>
 			<rom type="code" offset="0xf800">PATCH</rom>
-			<rom type="bgm"  offset="0x00">MP1.Z80</rom>
-			<rom type="bgm"  offset="0x01">MP2.Z80</rom>
+			<rom type="bgm" offset="0x00">MP1.Z80</rom>
+			<rom type="bgm" offset="0x01">MP2.Z80</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">BGM1 (メインテーマ)「走!」 (No Intro)</title>
@@ -164,12 +180,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ELEVATOR ACTION</name>
+		<name>[PC-8801] Elevator Action (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Nidecom Carry</driveralias>
 		<options>
 			<option name="baseclock" value="0x04"/>
-			<option name="use_rtc"   value="1"/>
+			<option name="use_rtc" value="1"/>
 		</options>
 		<romlist archive="elvact88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -177,8 +193,8 @@
 			<rom type="code" offset="0xEFB0">SNDDRV</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x03" extcode="0">BGM %d</range>
-			<range min="0x04" max="0x15" extcode="1">0x%02X</range>
+			<range min="0x00" max="0x03" extcode="0">BGM #%02X</range>
+			<range min="0x04" max="0x15" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

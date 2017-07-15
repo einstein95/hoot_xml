@@ -40,12 +40,12 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="init_pc" value="0x0000"/>
+			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x5000"/>
 			<option name="mfile_size" value="0x5000"/>
-			<option name="mdata_num"  value="0xa2"/>
+			<option name="mdata_num" value="0xa2"/>
 		</options>
 		<romlist archive="tnmbox_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -383,12 +383,12 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="init_pc" value="0x0000"/>
+			<option name="use_vrtc" value="0x01"/>
 			<option name="mdata_addr" value="0x1000"/>
 			<option name="mdata_size" value="0x5000"/>
 			<option name="mfile_size" value="0x5000"/>
-			<option name="mdata_num"  value="0xa2"/>
+			<option name="mdata_num" value="0xa2"/>
 		</options>
 		<romlist archive="tnmbox_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -559,7 +559,7 @@
 		<titlelist>
 			<title code="0x10000000">[Music Box] オープニング～POP Kiss</title>
 			<title code="0x01000001">[American Truck] The American Truck</title>
-			<title code="0x01000002">[American Truck] ルート333</title>
+			<title code="0x01000002">[American Truck] Route 333 (ルート333)</title>
 			<title code="0x01000003">[American Truck] Sunny</title>
 			<title code="0x01000004">[アルバトロス] Rising Up</title>
 			<title code="0x01000005">[アルバトロス] Love &amp; Tears</title>
@@ -722,18 +722,41 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] American Truck (アメリカントラック) (YM2203)</name>
+		<name>[PC-8801] American Truck (アメリカントラック) (PC-8801mkIISR version) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0xa000"/>
+			<option name="init_pc" value="0xa000"/>
 			<option name="mdata_addr" value="0xc000"/>
 		</options>
-		<romlist archive="ametruck">
+		<romlist archive="ametrucksr">
 			<rom type="code" offset="0x0000">N88.ROM</rom>
 			<rom type="code" offset="0x6000">N88_3.ROM</rom>
 			<rom type="code" offset="0xa000">PATCH</rom>
 			<rom type="code" offset="0xb000">DRIVER</rom>
+			<rom type="bgm" offset="0x00">OP</rom>
+			<rom type="bgm" offset="0x01">ED</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">The American Truck</title>
+			<title code="0x02">Route 333</title>
+			<title code="0x01">Sunny</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] American Truck (アメリカントラック) (PC-8801/mkII version) (YM2203)</name>
+		<driver type="8801-11">pc88</driver>
+		<driveralias type="PC-8801">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0xaa00"/>
+			<option name="mdata_addr" value="0x9000"/>
+			<option name="mdata_size" value="0x1a00"/>
+		</options>
+		<romlist archive="ametruck88">
+			<rom type="code" offset="0x0000">N88.ROM</rom>
+			<rom type="code" offset="0xaa00">PATCH</rom>
+			<rom type="code" offset="0xb000">DRIVER</rom>
+			<rom type="code" offset="0xc200">SBIOS</rom>
 			<rom type="bgm" offset="0x00">OP</rom>
 			<rom type="bgm" offset="0x01">ED</rom>
 		</romlist>
@@ -774,16 +797,16 @@
 		<romlist archive="finalz">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">A028</rom>
-			<rom type="bgm"  offset="0x00">A002</rom>
-			<rom type="bgm"  offset="0x01">A003</rom>
-			<rom type="bgm"  offset="0x02">A004</rom>
-			<rom type="bgm"  offset="0x03">A005</rom>
-			<rom type="bgm"  offset="0x04">A006</rom>
-			<rom type="bgm"  offset="0x05">A007</rom>
-			<rom type="bgm"  offset="0x06">A008</rom>
-			<rom type="bgm"  offset="0x07">A009</rom>
-			<rom type="bgm"  offset="0x08">A010</rom>
-			<rom type="bgm"  offset="0x09">A011</rom>
+			<rom type="bgm" offset="0x00">A002</rom>
+			<rom type="bgm" offset="0x01">A003</rom>
+			<rom type="bgm" offset="0x02">A004</rom>
+			<rom type="bgm" offset="0x03">A005</rom>
+			<rom type="bgm" offset="0x04">A006</rom>
+			<rom type="bgm" offset="0x05">A007</rom>
+			<rom type="bgm" offset="0x06">A008</rom>
+			<rom type="bgm" offset="0x07">A009</rom>
+			<rom type="bgm" offset="0x08">A010</rom>
+			<rom type="bgm" offset="0x09">A011</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Final Zone</title>
@@ -808,39 +831,39 @@
 			<option name="vfile_size" value="0x3000"/>
 		</options>
 		<romlist archive="valis">
-			<rom type="code"  offset="0x0000">PATCH</rom>
-			<rom type="code"  offset="0x0100">A032</rom>
-			<rom type="bgm"   offset="0x00">A016</rom>
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x0100">A032</rom>
+			<rom type="bgm" offset="0x00">A016</rom>
 			<rom type="voice" offset="0x00">A032</rom>
-			<rom type="bgm"   offset="0x01">A017</rom>
+			<rom type="bgm" offset="0x01">A017</rom>
 			<rom type="voice" offset="0x01">A032</rom>
-			<rom type="bgm"   offset="0x02">A018</rom>
+			<rom type="bgm" offset="0x02">A018</rom>
 			<rom type="voice" offset="0x02">A032</rom>
-			<rom type="bgm"   offset="0x03">A019</rom>
+			<rom type="bgm" offset="0x03">A019</rom>
 			<rom type="voice" offset="0x03">A032</rom>
-			<rom type="bgm"   offset="0x04">A020</rom>
+			<rom type="bgm" offset="0x04">A020</rom>
 			<rom type="voice" offset="0x04">A032</rom>
-			<rom type="bgm"   offset="0x05">A021</rom>
+			<rom type="bgm" offset="0x05">A021</rom>
 			<rom type="voice" offset="0x05">A032</rom>
-			<rom type="bgm"   offset="0x06">A022</rom>
+			<rom type="bgm" offset="0x06">A022</rom>
 			<rom type="voice" offset="0x06">A032</rom>
-			<rom type="bgm"   offset="0x07">A023</rom>
+			<rom type="bgm" offset="0x07">A023</rom>
 			<rom type="voice" offset="0x07">A032</rom>
-			<rom type="bgm"   offset="0x08">A024</rom>
+			<rom type="bgm" offset="0x08">A024</rom>
 			<rom type="voice" offset="0x08">A032</rom>
-			<rom type="bgm"   offset="0x09">A025</rom>
+			<rom type="bgm" offset="0x09">A025</rom>
 			<rom type="voice" offset="0x09">A032</rom>
-			<rom type="bgm"   offset="0x0a">A026</rom>
+			<rom type="bgm" offset="0x0a">A026</rom>
 			<rom type="voice" offset="0x0a">A032</rom>
-			<rom type="bgm"   offset="0x0b">A027</rom>
+			<rom type="bgm" offset="0x0b">A027</rom>
 			<rom type="voice" offset="0x0b">A032</rom>
-			<rom type="bgm"   offset="0x0c">A028</rom>
+			<rom type="bgm" offset="0x0c">A028</rom>
 			<rom type="voice" offset="0x0c">A032</rom>
-			<rom type="bgm"   offset="0x0d">A029</rom>
+			<rom type="bgm" offset="0x0d">A029</rom>
 			<rom type="voice" offset="0x0d">A032</rom>
-			<rom type="bgm"   offset="0x0e">A030</rom>
+			<rom type="bgm" offset="0x0e">A030</rom>
 			<rom type="voice" offset="0x0e">A032</rom>
-			<rom type="bgm"   offset="0x0f">A024</rom>
+			<rom type="bgm" offset="0x0f">A024</rom>
 			<rom type="voice" offset="0x0f">A008</rom>
 		</romlist>
 		<titlelist>
@@ -863,15 +886,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Fantasm Soldier Valis 2 (夢幻戦士ヴァリスII) (YM2608)</name>
+		<name>[PC-8801] Fantasm Soldier Valis II (夢幻戦士ヴァリスII) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
-			<option name="use_vrtc"   value="0x01"/>
-			<option name="use_pcmx8"  value="0x01"/>
-			<option name="baseclock"  value="0x12"/>
+			<option name="use_vrtc" value="0x01"/>
+			<option name="use_pcmx8" value="0x01"/>
+			<option name="baseclock" value="0x12"/>
 		</options>
 		<romlist archive="valis2">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1001,14 +1024,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Fantasm Soldier Valis 2 (夢幻戦士ヴァリスII) (YM2203)</name>
+		<name>[PC-8801] Fantasm Soldier Valis II (夢幻戦士ヴァリスII) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
 			<option name="mdata_size" value="0x2800"/>
 			<option name="mfile_size" value="0x2800"/>
-			<option name="use_vrtc"   value="0x01"/>
-			<option name="baseclock"  value="0x0c"/>
+			<option name="use_vrtc" value="0x01"/>
+			<option name="baseclock" value="0x0c"/>
 		</options>
 		<romlist archive="valis2">
 			<rom type="code" offset="0x0000">PATCH2</rom>
@@ -1124,19 +1147,19 @@
 		<romlist archive="dds">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0110">MMODE</rom>
-			<rom type="bgm"  offset="0x00">MUS00</rom>
-			<rom type="bgm"  offset="0x01">MUS01</rom>
-			<rom type="bgm"  offset="0x02">MUS02</rom>
-			<rom type="bgm"  offset="0x03">MUS03</rom>
-			<rom type="bgm"  offset="0x04">MUS04</rom>
-			<rom type="bgm"  offset="0x05">MUS05</rom>
-			<rom type="bgm"  offset="0x06">MUS06</rom>
-			<rom type="bgm"  offset="0x07">MUS07</rom>
-			<rom type="bgm"  offset="0x08">MUS08</rom>
-			<rom type="bgm"  offset="0x09">MUS09</rom>
-			<rom type="bgm"  offset="0x0a">MUS10</rom>
-			<rom type="bgm"  offset="0x0b">MUS11</rom>
-			<rom type="bgm"  offset="0x0c">MUS12</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS08</rom>
+			<rom type="bgm" offset="0x09">MUS09</rom>
+			<rom type="bgm" offset="0x0a">MUS10</rom>
+			<rom type="bgm" offset="0x0b">MUS11</rom>
+			<rom type="bgm" offset="0x0c">MUS12</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0100000b">Major II             / 小川 史生</title>
@@ -1198,7 +1221,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="andrgyns">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1241,7 +1264,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"  value="0xc000"/>
+			<option name="init_pc" value="0xc000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="yakyufan">
@@ -1280,7 +1303,7 @@
 		<options>
 			<option name="mfile_size" value="0x2400"/>
 			<option name="mdata_size" value="0x2400"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="saziri">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1319,7 +1342,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="saziri">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1358,7 +1381,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1420,7 +1443,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1482,56 +1505,56 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="xzr2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">DRIVER</rom>
-			<rom type="bgm"   offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
 			<rom type="voice" offset="0x00">VD001</rom>
-			<rom type="bgm"   offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
 			<rom type="voice" offset="0x01">VD004</rom>
-			<rom type="bgm"   offset="0x02">MA100</rom>
+			<rom type="bgm" offset="0x02">MA100</rom>
 			<rom type="voice" offset="0x02">VD000</rom>
-			<rom type="bgm"   offset="0x03">MA101</rom>
+			<rom type="bgm" offset="0x03">MA101</rom>
 			<rom type="voice" offset="0x03">VD000</rom>
-			<rom type="bgm"   offset="0x04">MB002</rom>
+			<rom type="bgm" offset="0x04">MB002</rom>
 			<rom type="voice" offset="0x04">VD004</rom>
-			<rom type="bgm"   offset="0x05">MB003</rom>
+			<rom type="bgm" offset="0x05">MB003</rom>
 			<rom type="voice" offset="0x05">VD003</rom>
-			<rom type="bgm"   offset="0x06">MB004</rom>
+			<rom type="bgm" offset="0x06">MB004</rom>
 			<rom type="voice" offset="0x06">VD000</rom>
-			<rom type="bgm"   offset="0x07">MB005</rom>
+			<rom type="bgm" offset="0x07">MB005</rom>
 			<rom type="voice" offset="0x07">VD000</rom>
-			<rom type="bgm"   offset="0x08">MB006</rom>
+			<rom type="bgm" offset="0x08">MB006</rom>
 			<rom type="voice" offset="0x08">VD006</rom>
-			<rom type="bgm"   offset="0x09">MB007</rom>
+			<rom type="bgm" offset="0x09">MB007</rom>
 			<rom type="voice" offset="0x09">VD006</rom>
-			<rom type="bgm"   offset="0x0a">MB008</rom>
+			<rom type="bgm" offset="0x0a">MB008</rom>
 			<rom type="voice" offset="0x0a">VD006</rom>
-			<rom type="bgm"   offset="0x0b">MB009</rom>
+			<rom type="bgm" offset="0x0b">MB009</rom>
 			<rom type="voice" offset="0x0b">VD000</rom>
-			<rom type="bgm"   offset="0x0c">MB010</rom>
+			<rom type="bgm" offset="0x0c">MB010</rom>
 			<rom type="voice" offset="0x0c">VD000</rom>
-			<rom type="bgm"   offset="0x0d">MB011</rom>
+			<rom type="bgm" offset="0x0d">MB011</rom>
 			<rom type="voice" offset="0x0d">VD000</rom>
-			<rom type="bgm"   offset="0x0e">MB012</rom>
+			<rom type="bgm" offset="0x0e">MB012</rom>
 			<rom type="voice" offset="0x0e">VD000</rom>
-			<rom type="bgm"   offset="0x0f">MB013</rom>
+			<rom type="bgm" offset="0x0f">MB013</rom>
 			<rom type="voice" offset="0x0f">VD006</rom>
-			<rom type="bgm"   offset="0x10">MB014</rom>
+			<rom type="bgm" offset="0x10">MB014</rom>
 			<rom type="voice" offset="0x10">VD006</rom>
-			<rom type="bgm"   offset="0x11">MB015</rom>
+			<rom type="bgm" offset="0x11">MB015</rom>
 			<rom type="voice" offset="0x11">VD004</rom>
-			<rom type="bgm"   offset="0x12">MB016</rom>
+			<rom type="bgm" offset="0x12">MB016</rom>
 			<rom type="voice" offset="0x12">VD006</rom>
-			<rom type="bgm"   offset="0x13">MB017</rom>
+			<rom type="bgm" offset="0x13">MB017</rom>
 			<rom type="voice" offset="0x13">VD005</rom>
-			<rom type="bgm"   offset="0x14">MB018</rom>
+			<rom type="bgm" offset="0x14">MB018</rom>
 			<rom type="voice" offset="0x14">VD004</rom>
-			<rom type="bgm"   offset="0x15">MB019</rom>
+			<rom type="bgm" offset="0x15">MB019</rom>
 			<rom type="voice" offset="0x15">VD004</rom>
-			<rom type="bgm"   offset="0x16">MB020</rom>
+			<rom type="bgm" offset="0x16">MB020</rom>
 			<rom type="voice" offset="0x16">VD006</rom>
 		</romlist>
 		<titlelist>
@@ -1565,56 +1588,56 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="xzr2">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">DRIVER</rom>
-			<rom type="bgm"   offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
 			<rom type="voice" offset="0x00">VD001</rom>
-			<rom type="bgm"   offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
 			<rom type="voice" offset="0x01">VD004</rom>
-			<rom type="bgm"   offset="0x02">MB100</rom>
+			<rom type="bgm" offset="0x02">MB100</rom>
 			<rom type="voice" offset="0x02">VD000</rom>
-			<rom type="bgm"   offset="0x03">MB101</rom>
+			<rom type="bgm" offset="0x03">MB101</rom>
 			<rom type="voice" offset="0x03">VD000</rom>
-			<rom type="bgm"   offset="0x04">MB002</rom>
+			<rom type="bgm" offset="0x04">MB002</rom>
 			<rom type="voice" offset="0x04">VD004</rom>
-			<rom type="bgm"   offset="0x05">MB003</rom>
+			<rom type="bgm" offset="0x05">MB003</rom>
 			<rom type="voice" offset="0x05">VD003</rom>
-			<rom type="bgm"   offset="0x06">MB004</rom>
+			<rom type="bgm" offset="0x06">MB004</rom>
 			<rom type="voice" offset="0x06">VD000</rom>
-			<rom type="bgm"   offset="0x07">MB005</rom>
+			<rom type="bgm" offset="0x07">MB005</rom>
 			<rom type="voice" offset="0x07">VD000</rom>
-			<rom type="bgm"   offset="0x08">MB006</rom>
+			<rom type="bgm" offset="0x08">MB006</rom>
 			<rom type="voice" offset="0x08">VD006</rom>
-			<rom type="bgm"   offset="0x09">MB007</rom>
+			<rom type="bgm" offset="0x09">MB007</rom>
 			<rom type="voice" offset="0x09">VD006</rom>
-			<rom type="bgm"   offset="0x0a">MB008</rom>
+			<rom type="bgm" offset="0x0a">MB008</rom>
 			<rom type="voice" offset="0x0a">VD006</rom>
-			<rom type="bgm"   offset="0x0b">MB009</rom>
+			<rom type="bgm" offset="0x0b">MB009</rom>
 			<rom type="voice" offset="0x0b">VD000</rom>
-			<rom type="bgm"   offset="0x0c">MB010</rom>
+			<rom type="bgm" offset="0x0c">MB010</rom>
 			<rom type="voice" offset="0x0c">VD000</rom>
-			<rom type="bgm"   offset="0x0d">MB011</rom>
+			<rom type="bgm" offset="0x0d">MB011</rom>
 			<rom type="voice" offset="0x0d">VD000</rom>
-			<rom type="bgm"   offset="0x0e">MB012</rom>
+			<rom type="bgm" offset="0x0e">MB012</rom>
 			<rom type="voice" offset="0x0e">VD000</rom>
-			<rom type="bgm"   offset="0x0f">MB013</rom>
+			<rom type="bgm" offset="0x0f">MB013</rom>
 			<rom type="voice" offset="0x0f">VD006</rom>
-			<rom type="bgm"   offset="0x10">MB014</rom>
+			<rom type="bgm" offset="0x10">MB014</rom>
 			<rom type="voice" offset="0x10">VD006</rom>
-			<rom type="bgm"   offset="0x11">MB015</rom>
+			<rom type="bgm" offset="0x11">MB015</rom>
 			<rom type="voice" offset="0x11">VD004</rom>
-			<rom type="bgm"   offset="0x12">MB016</rom>
+			<rom type="bgm" offset="0x12">MB016</rom>
 			<rom type="voice" offset="0x12">VD006</rom>
-			<rom type="bgm"   offset="0x13">MB017</rom>
+			<rom type="bgm" offset="0x13">MB017</rom>
 			<rom type="voice" offset="0x13">VD005</rom>
-			<rom type="bgm"   offset="0x14">MB018</rom>
+			<rom type="bgm" offset="0x14">MB018</rom>
 			<rom type="voice" offset="0x14">VD004</rom>
-			<rom type="bgm"   offset="0x15">MB019</rom>
+			<rom type="bgm" offset="0x15">MB019</rom>
 			<rom type="voice" offset="0x15">VD004</rom>
-			<rom type="bgm"   offset="0x16">MB020</rom>
+			<rom type="bgm" offset="0x16">MB020</rom>
 			<rom type="voice" offset="0x16">VD006</rom>
 		</romlist>
 		<titlelist>
@@ -1648,34 +1671,34 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="vdata_addr" value="0x8100"/>
-			<option name="use_vrtc"   value="0x01"/>
-			<option name="use_pcmx8"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
+			<option name="use_pcmx8" value="0x01"/>
 		</options>
 		<romlist archive="mazekun">
 			<rom type="code" offset="0x0000">PROG</rom>
 			<rom type="code" offset="0x8000">PATCH</rom>
 			<rom type="code" offset="0xede1">WORK</rom>
 			<rom type="adpcm" offset="0x00000">ADPCM1</rom>
-			<rom type="bgm"   offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
 			<rom type="voice" offset="0x00">VD000</rom>
-			<rom type="bgm"   offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
 			<rom type="voice" offset="0x01">VD000</rom>
-			<rom type="bgm"   offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
 			<rom type="voice" offset="0x02">VD000</rom>
-			<rom type="bgm"   offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
 			<rom type="voice" offset="0x03">VD001</rom>
-			<rom type="bgm"   offset="0x04">MB004</rom>
+			<rom type="bgm" offset="0x04">MB004</rom>
 			<rom type="voice" offset="0x04">VD000</rom>
-			<rom type="bgm"   offset="0x05">MB005</rom>
+			<rom type="bgm" offset="0x05">MB005</rom>
 			<rom type="voice" offset="0x05">VD000</rom>
-			<rom type="bgm"   offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
 			<rom type="voice" offset="0x06">VD000</rom>
-			<rom type="bgm"   offset="0x07">MB007</rom>
+			<rom type="bgm" offset="0x07">MB007</rom>
 			<rom type="voice" offset="0x07">VD000</rom>
-			<rom type="bgm"   offset="0x08">MB008</rom>
+			<rom type="bgm" offset="0x08">MB008</rom>
 			<rom type="voice" offset="0x08">VD000</rom>
 		</romlist>
 		<titlelist>
@@ -1695,9 +1718,9 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
-			<option name="use_vrtc"   value="0x01"/>
-			<option name="use_pcmx8"  value="0x01"/>
+			<option name="init_pc" value="0x8000"/>
+			<option name="use_vrtc" value="0x01"/>
+			<option name="use_pcmx8" value="0x01"/>
 		</options>
 		<romlist archive="mazekun">
 			<rom type="code" offset="0x0000">PROG</rom>
@@ -1715,32 +1738,32 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 			<option name="mdata_addr" value="0x8800"/>
 			<option name="vdata_addr" value="0x8100"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="mazekun">
 			<rom type="code" offset="0x0000">PROG</rom>
 			<rom type="code" offset="0x8000">PATCH</rom>
 			<rom type="code" offset="0xede1">WORK</rom>
-			<rom type="bgm"   offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
 			<rom type="voice" offset="0x00">VD000</rom>
-			<rom type="bgm"   offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
 			<rom type="voice" offset="0x01">VD000</rom>
-			<rom type="bgm"   offset="0x02">MB002</rom>
+			<rom type="bgm" offset="0x02">MB002</rom>
 			<rom type="voice" offset="0x02">VD000</rom>
-			<rom type="bgm"   offset="0x03">MB003</rom>
+			<rom type="bgm" offset="0x03">MB003</rom>
 			<rom type="voice" offset="0x03">VD001</rom>
-			<rom type="bgm"   offset="0x04">MB004</rom>
+			<rom type="bgm" offset="0x04">MB004</rom>
 			<rom type="voice" offset="0x04">VD000</rom>
-			<rom type="bgm"   offset="0x05">MB005</rom>
+			<rom type="bgm" offset="0x05">MB005</rom>
 			<rom type="voice" offset="0x05">VD000</rom>
-			<rom type="bgm"   offset="0x06">MB006</rom>
+			<rom type="bgm" offset="0x06">MB006</rom>
 			<rom type="voice" offset="0x06">VD000</rom>
-			<rom type="bgm"   offset="0x07">MB007</rom>
+			<rom type="bgm" offset="0x07">MB007</rom>
 			<rom type="voice" offset="0x07">VD000</rom>
-			<rom type="bgm"   offset="0x08">MB008</rom>
+			<rom type="bgm" offset="0x08">MB008</rom>
 			<rom type="voice" offset="0x08">VD000</rom>
 		</romlist>
 		<titlelist>
@@ -1848,7 +1871,7 @@
 		<driver type="opn">pc88vados</driver>
 		<driveralias type="PC-88VA">Telenet Japan</driveralias>
 		<options>
-			<option name="vstimer"  value="0x01"/>
+			<option name="vstimer" value="0x01"/>
 		</options>
 		<romlist archive="dbgva">
 			<rom type="file" offset="-1">dbva.com</rom>
@@ -1897,7 +1920,7 @@
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x1000"/>
-			<option name="psg_mix"    value="0x50"/>
+			<option name="psg_mix" value="0x50"/>
 		</options>
 		<romlist archive="x1ametruck">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -1919,24 +1942,24 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x0100"/>
 			<option name="mdata_size" value="0x8000"/>
 			<option name="mfile_size" value="0x8000"/>
 			<option name="vdata_addr" value="0xa000"/>
 			<option name="vdata_size" value="0x0c00"/>
 			<option name="vfile_size" value="0x0c00"/>
-			<option name="psg_mix"    value="0x50"/>
+			<option name="psg_mix" value="0x50"/>
 		</options>
 		<romlist archive="x1alba">
 			<rom type="code" offset="0x0100">OP</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
-			<rom type="bgm"   offset="0x00">OP</rom>
-			<rom type="bgm"   offset="0x01">CB</rom>
+			<rom type="bgm" offset="0x00">OP</rom>
+			<rom type="bgm" offset="0x01">CB</rom>
 			<rom type="voice" offset="0x01">CBM1</rom>
-			<rom type="bgm"   offset="0x02">CB</rom>
+			<rom type="bgm" offset="0x02">CB</rom>
 			<rom type="voice" offset="0x02">CBM2</rom>
-			<rom type="bgm"   offset="0x03">ED</rom>
+			<rom type="bgm" offset="0x03">ED</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Rising Up</title>
@@ -2029,7 +2052,7 @@
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0100"/>
+			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0x9000"/>
 		</options>
 		<romlist archive="x1valis">
@@ -2037,20 +2060,20 @@
 			<rom type="code" offset="0x4000">OPMDRV2</rom>
 			<rom type="code" offset="0xb790">VOICE</rom>
 			<rom type="code" offset="0xec00">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA100</rom>
-			<rom type="bgm"  offset="0x01">MA101</rom>
-			<rom type="bgm"  offset="0x02">MA102</rom>
-			<rom type="bgm"  offset="0x03">MA103</rom>
-			<rom type="bgm"  offset="0x04">MA104</rom>
-			<rom type="bgm"  offset="0x05">MA105</rom>
-			<rom type="bgm"  offset="0x06">MA200</rom>
-			<rom type="bgm"  offset="0x07">MA201</rom>
-			<rom type="bgm"  offset="0x08">MA202</rom>
-			<rom type="bgm"  offset="0x09">MA203</rom>
-			<rom type="bgm"  offset="0x0a">MA204</rom>
-			<rom type="bgm"  offset="0x0b">MA205</rom>
-			<rom type="bgm"  offset="0x0c">MA206</rom>
-			<rom type="bgm"  offset="0x0d">MA207</rom>
+			<rom type="bgm" offset="0x00">MA100</rom>
+			<rom type="bgm" offset="0x01">MA101</rom>
+			<rom type="bgm" offset="0x02">MA102</rom>
+			<rom type="bgm" offset="0x03">MA103</rom>
+			<rom type="bgm" offset="0x04">MA104</rom>
+			<rom type="bgm" offset="0x05">MA105</rom>
+			<rom type="bgm" offset="0x06">MA200</rom>
+			<rom type="bgm" offset="0x07">MA201</rom>
+			<rom type="bgm" offset="0x08">MA202</rom>
+			<rom type="bgm" offset="0x09">MA203</rom>
+			<rom type="bgm" offset="0x0a">MA204</rom>
+			<rom type="bgm" offset="0x0b">MA205</rom>
+			<rom type="bgm" offset="0x0c">MA206</rom>
+			<rom type="bgm" offset="0x0d">MA207</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">The Fantasm Solier Valis</title>
@@ -2074,27 +2097,27 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0100"/>
+			<option name="init_pc" value="0x0100"/>
 			<option name="mdata_addr" value="0x9000"/>
 		</options>
 		<romlist archive="x1valis">
 			<rom type="code" offset="0x0100">PATCH</rom>
 			<rom type="code" offset="0x4000">PSGDRV2</rom>
 			<rom type="code" offset="0xec00">PSGDRV</rom>
-			<rom type="bgm"  offset="0x00">MB100</rom>
-			<rom type="bgm"  offset="0x01">MB101</rom>
-			<rom type="bgm"  offset="0x02">MB102</rom>
-			<rom type="bgm"  offset="0x03">MB103</rom>
-			<rom type="bgm"  offset="0x04">MB104</rom>
-			<rom type="bgm"  offset="0x05">MB105</rom>
-			<rom type="bgm"  offset="0x06">MB200</rom>
-			<rom type="bgm"  offset="0x07">MB201</rom>
-			<rom type="bgm"  offset="0x08">MB202</rom>
-			<rom type="bgm"  offset="0x09">MB203</rom>
-			<rom type="bgm"  offset="0x0a">MB204</rom>
-			<rom type="bgm"  offset="0x0b">MB205</rom>
-			<rom type="bgm"  offset="0x0c">MB206</rom>
-			<rom type="bgm"  offset="0x0d">MB207</rom>
+			<rom type="bgm" offset="0x00">MB100</rom>
+			<rom type="bgm" offset="0x01">MB101</rom>
+			<rom type="bgm" offset="0x02">MB102</rom>
+			<rom type="bgm" offset="0x03">MB103</rom>
+			<rom type="bgm" offset="0x04">MB104</rom>
+			<rom type="bgm" offset="0x05">MB105</rom>
+			<rom type="bgm" offset="0x06">MB200</rom>
+			<rom type="bgm" offset="0x07">MB201</rom>
+			<rom type="bgm" offset="0x08">MB202</rom>
+			<rom type="bgm" offset="0x09">MB203</rom>
+			<rom type="bgm" offset="0x0a">MB204</rom>
+			<rom type="bgm" offset="0x0b">MB205</rom>
+			<rom type="bgm" offset="0x0c">MB206</rom>
+			<rom type="bgm" offset="0x0d">MB207</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">The Fantasm Solier Valis</title>
@@ -2123,19 +2146,19 @@
 		<romlist archive="x1dds">
 			<rom type="code" offset="0xe700">PATCH</rom>
 			<rom type="code" offset="0xe800">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA005</rom>
-			<rom type="bgm"  offset="0x06">MA006</rom>
-			<rom type="bgm"  offset="0x07">MA100</rom>
-			<rom type="bgm"  offset="0x08">MA101</rom>
-			<rom type="bgm"  offset="0x09">MA102</rom>
-			<rom type="bgm"  offset="0x0a">MA103</rom>
-			<rom type="bgm"  offset="0x0b">MA104</rom>
-			<rom type="bgm"  offset="0x0c">MA105</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA005</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x07">MA100</rom>
+			<rom type="bgm" offset="0x08">MA101</rom>
+			<rom type="bgm" offset="0x09">MA102</rom>
+			<rom type="bgm" offset="0x0a">MA103</rom>
+			<rom type="bgm" offset="0x0b">MA104</rom>
+			<rom type="bgm" offset="0x0c">MA105</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000006">Major II             / 小川 史生</title>
@@ -2158,24 +2181,24 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"   value="0xe700"/>
+			<option name="init_pc" value="0xe700"/>
 		</options>
 		<romlist archive="x1dds">
 			<rom type="code" offset="0xe700">PATCH</rom>
 			<rom type="code" offset="0xe800">PSGDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA005</rom>
-			<rom type="bgm"  offset="0x06">MA006</rom>
-			<rom type="bgm"  offset="0x07">MA100</rom>
-			<rom type="bgm"  offset="0x08">MA101</rom>
-			<rom type="bgm"  offset="0x09">MA102</rom>
-			<rom type="bgm"  offset="0x0a">MA103</rom>
-			<rom type="bgm"  offset="0x0b">MA104</rom>
-			<rom type="bgm"  offset="0x0c">MA105</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA005</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x07">MA100</rom>
+			<rom type="bgm" offset="0x08">MA101</rom>
+			<rom type="bgm" offset="0x09">MA102</rom>
+			<rom type="bgm" offset="0x0a">MA103</rom>
+			<rom type="bgm" offset="0x0b">MA104</rom>
+			<rom type="bgm" offset="0x0c">MA105</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000006">Major II             / 小川 史生</title>
@@ -2194,7 +2217,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] LUXSOR - NIGHTS OVER EGYPT -(OPM)</name>
+		<name>[X1] Luxsor: Nights Over Egypt (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
@@ -2203,20 +2226,20 @@
 		<romlist archive="x1luxsor">
 			<rom type="code" offset="0xe900">PATCH</rom>
 			<rom type="code" offset="0xea00">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA100</rom>
-			<rom type="bgm"  offset="0x06">MA101</rom>
-			<rom type="bgm"  offset="0x07">MA102</rom>
-			<rom type="bgm"  offset="0x08">MA103</rom>
-			<rom type="bgm"  offset="0x09">MA104</rom>
-			<rom type="bgm"  offset="0x0a">MA105</rom>
-			<rom type="bgm"  offset="0x0b">MA106</rom>
-			<rom type="bgm"  offset="0x0c">MA107</rom>
-			<rom type="bgm"  offset="0x0d">MA108</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA100</rom>
+			<rom type="bgm" offset="0x06">MA101</rom>
+			<rom type="bgm" offset="0x07">MA102</rom>
+			<rom type="bgm" offset="0x08">MA103</rom>
+			<rom type="bgm" offset="0x09">MA104</rom>
+			<rom type="bgm" offset="0x0a">MA105</rom>
+			<rom type="bgm" offset="0x0b">MA106</rom>
+			<rom type="bgm" offset="0x0c">MA107</rom>
+			<rom type="bgm" offset="0x0d">MA108</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000000">IPL</title>
@@ -2245,19 +2268,19 @@
 		<romlist archive="x1luxsor">
 			<rom type="code" offset="0xe900">PATCH</rom>
 			<rom type="code" offset="0xea00">PSGDRV</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA100</rom>
-			<rom type="bgm"  offset="0x06">MA101</rom>
-			<rom type="bgm"  offset="0x07">MA102</rom>
-			<rom type="bgm"  offset="0x08">MA103</rom>
-			<rom type="bgm"  offset="0x09">MA104</rom>
-			<rom type="bgm"  offset="0x0a">MA105</rom>
-			<rom type="bgm"  offset="0x0b">MA106</rom>
-			<rom type="bgm"  offset="0x0c">MA107</rom>
-			<rom type="bgm"  offset="0x0d">MA108</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA100</rom>
+			<rom type="bgm" offset="0x06">MA101</rom>
+			<rom type="bgm" offset="0x07">MA102</rom>
+			<rom type="bgm" offset="0x08">MA103</rom>
+			<rom type="bgm" offset="0x09">MA104</rom>
+			<rom type="bgm" offset="0x0a">MA105</rom>
+			<rom type="bgm" offset="0x0b">MA106</rom>
+			<rom type="bgm" offset="0x0c">MA107</rom>
+			<rom type="bgm" offset="0x0d">MA108</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000001">Nights Over Egypt</title>
@@ -2276,35 +2299,35 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] プロ野球FAN - TELENET STADIUM -(OPM)</name>
+		<name>[X1] Pro Yakyuu Fan: Telenet Stadium (プロ野球FAN テレネットスタジアム) (YM2149)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"  value="0xe900"/>
+			<option name="init_pc" value="0xe900"/>
 		</options>
 		<romlist archive="x1yakyufan">
 			<rom type="code" offset="0xe900">PATCH</rom>
 			<rom type="code" offset="0xea00">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA100</rom>
-			<rom type="bgm"  offset="0x06">MA101</rom>
-			<rom type="bgm"  offset="0x07">MA102</rom>
-			<rom type="bgm"  offset="0x08">MA103</rom>
-			<rom type="bgm"  offset="0x09">MA104</rom>
-			<rom type="bgm"  offset="0x0a">MA105</rom>
-			<rom type="bgm"  offset="0x0b">MC000</rom>
-			<rom type="bgm"  offset="0x0c">MC002</rom>
-			<rom type="bgm"  offset="0x0d">MC003</rom>
-			<rom type="bgm"  offset="0x0e">MC004</rom>
-			<rom type="bgm"  offset="0x0f">MC005</rom>
-			<rom type="bgm"  offset="0x10">MC006</rom>
-			<rom type="bgm"  offset="0x11">MC007</rom>
-			<rom type="bgm"  offset="0x12">MC008</rom>
-			<rom type="bgm"  offset="0x13">MC009</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA100</rom>
+			<rom type="bgm" offset="0x06">MA101</rom>
+			<rom type="bgm" offset="0x07">MA102</rom>
+			<rom type="bgm" offset="0x08">MA103</rom>
+			<rom type="bgm" offset="0x09">MA104</rom>
+			<rom type="bgm" offset="0x0a">MA105</rom>
+			<rom type="bgm" offset="0x0b">MC000</rom>
+			<rom type="bgm" offset="0x0c">MC002</rom>
+			<rom type="bgm" offset="0x0d">MC003</rom>
+			<rom type="bgm" offset="0x0e">MC004</rom>
+			<rom type="bgm" offset="0x0f">MC005</rom>
+			<rom type="bgm" offset="0x10">MC006</rom>
+			<rom type="bgm" offset="0x11">MC007</rom>
+			<rom type="bgm" offset="0x12">MC008</rom>
+			<rom type="bgm" offset="0x13">MC009</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">プロ野球だよ人生は!</title>
@@ -2338,24 +2361,24 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"  value="0xe900"/>
+			<option name="init_pc" value="0xe900"/>
 		</options>
 		<romlist archive="x1yakyufan">
 			<rom type="code" offset="0xe900">PATCH</rom>
 			<rom type="code" offset="0xea00">PSGDRV</rom>
-			<rom type="bgm"  offset="0x00">MB000</rom>
-			<rom type="bgm"  offset="0x01">MB001</rom>
-			<rom type="bgm"  offset="0x02">MB002</rom>
-			<rom type="bgm"  offset="0x03">MB003</rom>
-			<rom type="bgm"  offset="0x04">MB004</rom>
-			<rom type="bgm"  offset="0x05">MB005</rom>
-			<rom type="bgm"  offset="0x05">MB100</rom>
-			<rom type="bgm"  offset="0x06">MB101</rom>
-			<rom type="bgm"  offset="0x07">MB102</rom>
-			<rom type="bgm"  offset="0x08">MB103</rom>
-			<rom type="bgm"  offset="0x09">MB104</rom>
-			<rom type="bgm"  offset="0x0a">MB105</rom>
-			<rom type="bgm"  offset="0x0b">MC001</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x02">MB002</rom>
+			<rom type="bgm" offset="0x03">MB003</rom>
+			<rom type="bgm" offset="0x04">MB004</rom>
+			<rom type="bgm" offset="0x05">MB005</rom>
+			<rom type="bgm" offset="0x05">MB100</rom>
+			<rom type="bgm" offset="0x06">MB101</rom>
+			<rom type="bgm" offset="0x07">MB102</rom>
+			<rom type="bgm" offset="0x08">MB103</rom>
+			<rom type="bgm" offset="0x09">MB104</rom>
+			<rom type="bgm" offset="0x0a">MB105</rom>
+			<rom type="bgm" offset="0x0b">MC001</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">プロ野球だよ人生は!</title>
@@ -2377,23 +2400,23 @@
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"   value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="x1saziri">
 			<rom type="code" offset="0x0100">MUSMOD</rom>
 			<rom type="code" offset="0x8000">PATCH</rom>
 			<rom type="code" offset="0xd000">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA005</rom>
-			<rom type="bgm"  offset="0x06">MA006</rom>
-			<rom type="bgm"  offset="0x07">MA007</rom>
-			<rom type="bgm"  offset="0x08">MA008</rom>
-			<rom type="bgm"  offset="0x09">MA009</rom>
-			<rom type="bgm"  offset="0x0a">MA010</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA005</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x07">MA007</rom>
+			<rom type="bgm" offset="0x08">MA008</rom>
+			<rom type="bgm" offset="0x09">MA009</rom>
+			<rom type="bgm" offset="0x0a">MA010</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000009">Synchrotron</title>
@@ -2414,23 +2437,23 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"   value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="x1saziri">
 			<rom type="code" offset="0x0100">MUSMOD</rom>
 			<rom type="code" offset="0x8000">PATCH</rom>
 			<rom type="code" offset="0xd000">PSGDRV</rom>
-			<rom type="bgm"  offset="0x00">MB000</rom>
-			<rom type="bgm"  offset="0x01">MB001</rom>
-			<rom type="bgm"  offset="0x02">MB002</rom>
-			<rom type="bgm"  offset="0x03">MB003</rom>
-			<rom type="bgm"  offset="0x04">MB004</rom>
-			<rom type="bgm"  offset="0x05">MB005</rom>
-			<rom type="bgm"  offset="0x06">MB006</rom>
-			<rom type="bgm"  offset="0x07">MB007</rom>
-			<rom type="bgm"  offset="0x08">MB008</rom>
-			<rom type="bgm"  offset="0x09">MB009</rom>
-			<rom type="bgm"  offset="0x0a">MB010</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x02">MB002</rom>
+			<rom type="bgm" offset="0x03">MB003</rom>
+			<rom type="bgm" offset="0x04">MB004</rom>
+			<rom type="bgm" offset="0x05">MB005</rom>
+			<rom type="bgm" offset="0x06">MB006</rom>
+			<rom type="bgm" offset="0x07">MB007</rom>
+			<rom type="bgm" offset="0x08">MB008</rom>
+			<rom type="bgm" offset="0x09">MB009</rom>
+			<rom type="bgm" offset="0x0a">MB010</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000009">Synchrotron</title>
@@ -2453,30 +2476,30 @@
 		<romlist archive="x1xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">OPMDRV</rom>
-			<rom type="bgm"  offset="0x00">MA000</rom>
-			<rom type="bgm"  offset="0x01">MA001</rom>
-			<rom type="bgm"  offset="0x02">MA002</rom>
-			<rom type="bgm"  offset="0x03">MA003</rom>
-			<rom type="bgm"  offset="0x04">MA004</rom>
-			<rom type="bgm"  offset="0x05">MA005</rom>
-			<rom type="bgm"  offset="0x06">MA006</rom>
-			<rom type="bgm"  offset="0x07">MA007</rom>
-			<rom type="bgm"  offset="0x08">MA008</rom>
-			<rom type="bgm"  offset="0x09">MA009</rom>
-			<rom type="bgm"  offset="0x0a">MA010</rom>
-			<rom type="bgm"  offset="0x0b">MA011</rom>
-			<rom type="bgm"  offset="0x0c">MA012</rom>
-			<rom type="bgm"  offset="0x0d">MA013</rom>
-			<rom type="bgm"  offset="0x0e">MA014</rom>
-			<rom type="bgm"  offset="0x0f">MA015</rom>
-			<rom type="bgm"  offset="0x10">MA016</rom>
-			<rom type="bgm"  offset="0x11">MA017</rom>
-			<rom type="bgm"  offset="0x12">MA018</rom>
-			<rom type="bgm"  offset="0x13">MA019</rom>
-			<rom type="bgm"  offset="0x14">MA020</rom>
-			<rom type="bgm"  offset="0x15">MA021</rom>
-			<rom type="bgm"  offset="0x16">MA022</rom>
-			<rom type="bgm"  offset="0x17">MA023</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA005</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x07">MA007</rom>
+			<rom type="bgm" offset="0x08">MA008</rom>
+			<rom type="bgm" offset="0x09">MA009</rom>
+			<rom type="bgm" offset="0x0a">MA010</rom>
+			<rom type="bgm" offset="0x0b">MA011</rom>
+			<rom type="bgm" offset="0x0c">MA012</rom>
+			<rom type="bgm" offset="0x0d">MA013</rom>
+			<rom type="bgm" offset="0x0e">MA014</rom>
+			<rom type="bgm" offset="0x0f">MA015</rom>
+			<rom type="bgm" offset="0x10">MA016</rom>
+			<rom type="bgm" offset="0x11">MA017</rom>
+			<rom type="bgm" offset="0x12">MA018</rom>
+			<rom type="bgm" offset="0x13">MA019</rom>
+			<rom type="bgm" offset="0x14">MA020</rom>
+			<rom type="bgm" offset="0x15">MA021</rom>
+			<rom type="bgm" offset="0x16">MA022</rom>
+			<rom type="bgm" offset="0x17">MA023</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0100000d">A Prologue on XZR</title>
@@ -2512,30 +2535,30 @@
 		<romlist archive="x1xzr">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0xa400">PSGDRV</rom>
-			<rom type="bgm"  offset="0x00">MB000</rom>
-			<rom type="bgm"  offset="0x01">MB001</rom>
-			<rom type="bgm"  offset="0x02">MB002</rom>
-			<rom type="bgm"  offset="0x03">MB003</rom>
-			<rom type="bgm"  offset="0x04">MB004</rom>
-			<rom type="bgm"  offset="0x05">MB005</rom>
-			<rom type="bgm"  offset="0x06">MB006</rom>
-			<rom type="bgm"  offset="0x07">MB007</rom>
-			<rom type="bgm"  offset="0x08">MB008</rom>
-			<rom type="bgm"  offset="0x09">MB009</rom>
-			<rom type="bgm"  offset="0x0a">MB010</rom>
-			<rom type="bgm"  offset="0x0b">MB011</rom>
-			<rom type="bgm"  offset="0x0c">MB012</rom>
-			<rom type="bgm"  offset="0x0d">MB013</rom>
-			<rom type="bgm"  offset="0x0e">MB014</rom>
-			<rom type="bgm"  offset="0x0f">MB015</rom>
-			<rom type="bgm"  offset="0x10">MB016</rom>
-			<rom type="bgm"  offset="0x11">MB017</rom>
-			<rom type="bgm"  offset="0x12">MB018</rom>
-			<rom type="bgm"  offset="0x13">MB019</rom>
-			<rom type="bgm"  offset="0x14">MB020</rom>
-			<rom type="bgm"  offset="0x15">MB021</rom>
-			<rom type="bgm"  offset="0x16">MB022</rom>
-			<rom type="bgm"  offset="0x17">MB023</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x02">MB002</rom>
+			<rom type="bgm" offset="0x03">MB003</rom>
+			<rom type="bgm" offset="0x04">MB004</rom>
+			<rom type="bgm" offset="0x05">MB005</rom>
+			<rom type="bgm" offset="0x06">MB006</rom>
+			<rom type="bgm" offset="0x07">MB007</rom>
+			<rom type="bgm" offset="0x08">MB008</rom>
+			<rom type="bgm" offset="0x09">MB009</rom>
+			<rom type="bgm" offset="0x0a">MB010</rom>
+			<rom type="bgm" offset="0x0b">MB011</rom>
+			<rom type="bgm" offset="0x0c">MB012</rom>
+			<rom type="bgm" offset="0x0d">MB013</rom>
+			<rom type="bgm" offset="0x0e">MB014</rom>
+			<rom type="bgm" offset="0x0f">MB015</rom>
+			<rom type="bgm" offset="0x10">MB016</rom>
+			<rom type="bgm" offset="0x11">MB017</rom>
+			<rom type="bgm" offset="0x12">MB018</rom>
+			<rom type="bgm" offset="0x13">MB019</rom>
+			<rom type="bgm" offset="0x14">MB020</rom>
+			<rom type="bgm" offset="0x15">MB021</rom>
+			<rom type="bgm" offset="0x16">MB022</rom>
+			<rom type="bgm" offset="0x17">MB023</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0100000d">A Prologue on XZR</title>
@@ -2585,7 +2608,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] TELENET MUSIC MODE 1987 version</name>
+		<name>[PC-9801] Telenet Music Mode 1987 version (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
@@ -2651,7 +2674,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x0000"/>
 			<option name="filesize" value="0x0000"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 			<option name="clockmul" value="8"/>
 			<option name="opn_mix" value="0x280"/>
 		</options>
@@ -2679,7 +2702,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fantasm Soldier Valis 2 (夢幻戦士ヴァリスII) (YM2203+YM3812)</name>
+		<name>[PC-9801] Fantasm Soldier Valis II (夢幻戦士ヴァリスII) (YM2203+YM3812)</name>
 		<driver type="soundorchestra">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
@@ -2690,97 +2713,97 @@
 			<option name="file2size" value="0x0700"/>
 			<option name="data2addr" value="0x16930"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x2d"/>
-			<option name="opl_mix"  value="0x300"/>
+			<option name="datamax" value="0x2d"/>
+			<option name="opl_mix" value="0x300"/>
 		</options>
 		<romlist archive="valis298">
 			<rom type="code" offset="0x00600">valis2so.bin</rom>
 			<rom type="code" offset="0x04000">VIS</rom>
 			<rom type="code" offset="0x30000">OP.MF</rom>
 			<rom type="code" offset="0x31000">HP.MF</rom>
-			<rom type="bgm"  offset="0x01">ZABG02.M</rom>
+			<rom type="bgm" offset="0x01">ZABG02.M</rom>
 			<rom type="bgm2" offset="0x01">ZABG02.F</rom>
-			<rom type="bgm"  offset="0x02">VHPDX.M</rom>
+			<rom type="bgm" offset="0x02">VHPDX.M</rom>
 			<rom type="bgm2" offset="0x02">HP.F</rom>
-			<rom type="bgm"  offset="0x03">REIKO.M</rom>
+			<rom type="bgm" offset="0x03">REIKO.M</rom>
 			<rom type="bgm2" offset="0x03">TENPV.F</rom>
-			<rom type="bgm"  offset="0x04">REIKOB.M</rom>
+			<rom type="bgm" offset="0x04">REIKOB.M</rom>
 			<rom type="bgm2" offset="0x04">TENPV.F</rom>
-			<rom type="bgm"  offset="0x05">V40A4.M</rom>
+			<rom type="bgm" offset="0x05">V40A4.M</rom>
 			<rom type="bgm2" offset="0x05">TENPV.F</rom>
-			<rom type="bgm"  offset="0x06">PR.M</rom>
+			<rom type="bgm" offset="0x06">PR.M</rom>
 			<rom type="bgm2" offset="0x06">TENP3.F</rom>
-			<rom type="bgm"  offset="0x07">BGA4.M</rom>
+			<rom type="bgm" offset="0x07">BGA4.M</rom>
 			<rom type="bgm2" offset="0x07">TV.F</rom>
-			<rom type="bgm"  offset="0x08">BGB4.M</rom>
+			<rom type="bgm" offset="0x08">BGB4.M</rom>
 			<rom type="bgm2" offset="0x08">TENP4.F</rom>
-			<rom type="bgm"  offset="0x09">VANITA.M</rom>
+			<rom type="bgm" offset="0x09">VANITA.M</rom>
 			<rom type="bgm2" offset="0x09">TENPV.F</rom>
-			<rom type="bgm"  offset="0x0a">GOV.M</rom>
+			<rom type="bgm" offset="0x0a">GOV.M</rom>
 			<rom type="bgm2" offset="0x0a">TENP3.F</rom>
-			<rom type="bgm"  offset="0x0b">BAL.M</rom>
+			<rom type="bgm" offset="0x0b">BAL.M</rom>
 			<rom type="bgm2" offset="0x0b">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0c">A4.M</rom>
+			<rom type="bgm" offset="0x0c">A4.M</rom>
 			<rom type="bgm2" offset="0x0c">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0d">A44.M</rom>
+			<rom type="bgm" offset="0x0d">A44.M</rom>
 			<rom type="bgm2" offset="0x0d">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0e">YUKO.M</rom>
+			<rom type="bgm" offset="0x0e">YUKO.M</rom>
 			<rom type="bgm2" offset="0x0e">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0f">Y2.M</rom>
+			<rom type="bgm" offset="0x0f">Y2.M</rom>
 			<rom type="bgm2" offset="0x0f">NV12.F</rom>
-			<rom type="bgm"  offset="0x10">BG202.M</rom>
+			<rom type="bgm" offset="0x10">BG202.M</rom>
 			<rom type="bgm2" offset="0x10">NV12.F</rom>
-			<rom type="bgm"  offset="0x11">BG102.M</rom>
+			<rom type="bgm" offset="0x11">BG102.M</rom>
 			<rom type="bgm2" offset="0x11">NV12.F</rom>
-			<rom type="bgm"  offset="0x12">VEKAN1.M</rom>
+			<rom type="bgm" offset="0x12">VEKAN1.M</rom>
 			<rom type="bgm2" offset="0x12">NV12.F</rom>
-			<rom type="bgm"  offset="0x13">FINBO.M</rom>
+			<rom type="bgm" offset="0x13">FINBO.M</rom>
 			<rom type="bgm2" offset="0x13">NV12.F</rom>
-			<rom type="bgm"  offset="0x14">HISO4.M</rom>
+			<rom type="bgm" offset="0x14">HISO4.M</rom>
 			<rom type="bgm2" offset="0x14">NV12.F</rom>
-			<rom type="bgm"  offset="0x15">BG301.M</rom>
+			<rom type="bgm" offset="0x15">BG301.M</rom>
 			<rom type="bgm2" offset="0x15">NV12.F</rom>
-			<rom type="bgm"  offset="0x16">PINCH.M</rom>
+			<rom type="bgm" offset="0x16">PINCH.M</rom>
 			<rom type="bgm2" offset="0x16">ONM.F</rom>
-			<rom type="bgm"  offset="0x17">V2OPDX.M</rom>
+			<rom type="bgm" offset="0x17">V2OPDX.M</rom>
 			<rom type="bgm2" offset="0x17">OP.F</rom>
-			<rom type="bgm"  offset="0x18">DC.M</rom>
+			<rom type="bgm" offset="0x18">DC.M</rom>
 			<rom type="bgm2" offset="0x18">V2DEM.F</rom>
-			<rom type="bgm"  offset="0x19">DEKA01.M</rom>
+			<rom type="bgm" offset="0x19">DEKA01.M</rom>
 			<rom type="bgm2" offset="0x19">V2DEM.F</rom>
-			<rom type="bgm"  offset="0x1a">F01.M</rom>
+			<rom type="bgm" offset="0x1a">F01.M</rom>
 			<rom type="bgm2" offset="0x1a">NV12.F</rom>
-			<rom type="bgm"  offset="0x1b">VE01.M</rom>
+			<rom type="bgm" offset="0x1b">VE01.M</rom>
 			<rom type="bgm2" offset="0x1b">NV12.F</rom>
-			<rom type="bgm"  offset="0x1c">SHI101.M</rom>
+			<rom type="bgm" offset="0x1c">SHI101.M</rom>
 			<rom type="bgm2" offset="0x1c">NV12.F</rom>
-			<rom type="bgm"  offset="0x1d">SHI201.M</rom>
+			<rom type="bgm" offset="0x1d">SHI201.M</rom>
 			<rom type="bgm2" offset="0x1d">NV12.F</rom>
-			<rom type="bgm"  offset="0x1e">YAMA01.M</rom>
+			<rom type="bgm" offset="0x1e">YAMA01.M</rom>
 			<rom type="bgm2" offset="0x1e">NV12.F</rom>
-			<rom type="bgm"  offset="0x1f">VK121.M</rom>
+			<rom type="bgm" offset="0x1f">VK121.M</rom>
 			<rom type="bgm2" offset="0x1f">NV12.F</rom>
-			<rom type="bgm"  offset="0x20">VE101.M</rom>
+			<rom type="bgm" offset="0x20">VE101.M</rom>
 			<rom type="bgm2" offset="0x20">NV12.F</rom>
-			<rom type="bgm"  offset="0x21">VE102.M</rom>
+			<rom type="bgm" offset="0x21">VE102.M</rom>
 			<rom type="bgm2" offset="0x21">NV12.F</rom>
-			<rom type="bgm"  offset="0x23">VE201.M</rom>
+			<rom type="bgm" offset="0x23">VE201.M</rom>
 			<rom type="bgm2" offset="0x23">NV12.F</rom>
-			<rom type="bgm"  offset="0x25">VE302.M</rom>
+			<rom type="bgm" offset="0x25">VE302.M</rom>
 			<rom type="bgm2" offset="0x25">NV12.F</rom>
-			<rom type="bgm"  offset="0x26">VK121L.M</rom>
+			<rom type="bgm" offset="0x26">VK121L.M</rom>
 			<rom type="bgm2" offset="0x26">NV12.F</rom>
-			<rom type="bgm"  offset="0x27">V2I.M</rom>
+			<rom type="bgm" offset="0x27">V2I.M</rom>
 			<rom type="bgm2" offset="0x27">VKJ.F</rom>
-			<rom type="bgm"  offset="0x28">V5I2.M</rom>
+			<rom type="bgm" offset="0x28">V5I2.M</rom>
 			<rom type="bgm2" offset="0x28">VKJ.F</rom>
-			<rom type="bgm"  offset="0x29">V6I2.M</rom>
+			<rom type="bgm" offset="0x29">V6I2.M</rom>
 			<rom type="bgm2" offset="0x29">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2a">V7I.M</rom>
+			<rom type="bgm" offset="0x2a">V7I.M</rom>
 			<rom type="bgm2" offset="0x2a">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2b">V8I.M</rom>
+			<rom type="bgm" offset="0x2b">V8I.M</rom>
 			<rom type="bgm2" offset="0x2b">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2c">V9I.M</rom>
+			<rom type="bgm" offset="0x2c">V9I.M</rom>
 			<rom type="bgm2" offset="0x2c">VKJ.F</rom>
 		</romlist>
 		<titlelist>
@@ -2840,94 +2863,94 @@
 			<option name="file2size" value="0x0700"/>
 			<option name="data2addr" value="0x16930"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x2d"/>
+			<option name="datamax" value="0x2d"/>
 		</options>
 		<romlist archive="valis298">
 			<rom type="code" offset="0x00600">valis2.bin</rom>
 			<rom type="code" offset="0x04000">VIS</rom>
-			<rom type="bgm"  offset="0x01">ZABG02.M</rom>
+			<rom type="bgm" offset="0x01">ZABG02.M</rom>
 			<rom type="bgm2" offset="0x01">ZABG02.F</rom>
-			<rom type="bgm"  offset="0x02">VHP.M</rom>
+			<rom type="bgm" offset="0x02">VHP.M</rom>
 			<rom type="bgm2" offset="0x02">TENP3.F</rom>
-			<rom type="bgm"  offset="0x03">REIKO.M</rom>
+			<rom type="bgm" offset="0x03">REIKO.M</rom>
 			<rom type="bgm2" offset="0x03">TENPV.F</rom>
-			<rom type="bgm"  offset="0x04">REIKOB.M</rom>
+			<rom type="bgm" offset="0x04">REIKOB.M</rom>
 			<rom type="bgm2" offset="0x04">TENPV.F</rom>
-			<rom type="bgm"  offset="0x05">V40A4.M</rom>
+			<rom type="bgm" offset="0x05">V40A4.M</rom>
 			<rom type="bgm2" offset="0x05">TENPV.F</rom>
-			<rom type="bgm"  offset="0x06">PR.M</rom>
+			<rom type="bgm" offset="0x06">PR.M</rom>
 			<rom type="bgm2" offset="0x06">TENP3.F</rom>
-			<rom type="bgm"  offset="0x07">BGA4.M</rom>
+			<rom type="bgm" offset="0x07">BGA4.M</rom>
 			<rom type="bgm2" offset="0x07">TV.F</rom>
-			<rom type="bgm"  offset="0x08">BGB4.M</rom>
+			<rom type="bgm" offset="0x08">BGB4.M</rom>
 			<rom type="bgm2" offset="0x08">TENP4.F</rom>
-			<rom type="bgm"  offset="0x09">VANITA.M</rom>
+			<rom type="bgm" offset="0x09">VANITA.M</rom>
 			<rom type="bgm2" offset="0x09">TENPV.F</rom>
-			<rom type="bgm"  offset="0x0a">GOV.M</rom>
+			<rom type="bgm" offset="0x0a">GOV.M</rom>
 			<rom type="bgm2" offset="0x0a">TENP3.F</rom>
-			<rom type="bgm"  offset="0x0b">BAL.M</rom>
+			<rom type="bgm" offset="0x0b">BAL.M</rom>
 			<rom type="bgm2" offset="0x0b">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0c">A4.M</rom>
+			<rom type="bgm" offset="0x0c">A4.M</rom>
 			<rom type="bgm2" offset="0x0c">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0d">A44.M</rom>
+			<rom type="bgm" offset="0x0d">A44.M</rom>
 			<rom type="bgm2" offset="0x0d">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0e">YUKO.M</rom>
+			<rom type="bgm" offset="0x0e">YUKO.M</rom>
 			<rom type="bgm2" offset="0x0e">TENP4.F</rom>
-			<rom type="bgm"  offset="0x0f">Y2.M</rom>
+			<rom type="bgm" offset="0x0f">Y2.M</rom>
 			<rom type="bgm2" offset="0x0f">NV12.F</rom>
-			<rom type="bgm"  offset="0x10">BG202.M</rom>
+			<rom type="bgm" offset="0x10">BG202.M</rom>
 			<rom type="bgm2" offset="0x10">NV12.F</rom>
-			<rom type="bgm"  offset="0x11">BG102.M</rom>
+			<rom type="bgm" offset="0x11">BG102.M</rom>
 			<rom type="bgm2" offset="0x11">NV12.F</rom>
-			<rom type="bgm"  offset="0x12">VEKAN1.M</rom>
+			<rom type="bgm" offset="0x12">VEKAN1.M</rom>
 			<rom type="bgm2" offset="0x12">NV12.F</rom>
-			<rom type="bgm"  offset="0x13">FINBO.M</rom>
+			<rom type="bgm" offset="0x13">FINBO.M</rom>
 			<rom type="bgm2" offset="0x13">NV12.F</rom>
-			<rom type="bgm"  offset="0x14">HISO4.M</rom>
+			<rom type="bgm" offset="0x14">HISO4.M</rom>
 			<rom type="bgm2" offset="0x14">NV12.F</rom>
-			<rom type="bgm"  offset="0x15">BG301.M</rom>
+			<rom type="bgm" offset="0x15">BG301.M</rom>
 			<rom type="bgm2" offset="0x15">NV12.F</rom>
-			<rom type="bgm"  offset="0x16">PINCH.M</rom>
+			<rom type="bgm" offset="0x16">PINCH.M</rom>
 			<rom type="bgm2" offset="0x16">ONM.F</rom>
-			<rom type="bgm"  offset="0x17">V2OPD1.M</rom>
+			<rom type="bgm" offset="0x17">V2OPD1.M</rom>
 			<rom type="bgm2" offset="0x17">V2DEM.F</rom>
-			<rom type="bgm"  offset="0x18">DC.M</rom>
+			<rom type="bgm" offset="0x18">DC.M</rom>
 			<rom type="bgm2" offset="0x18">V2DEM.F</rom>
-			<rom type="bgm"  offset="0x19">DEKA01.M</rom>
+			<rom type="bgm" offset="0x19">DEKA01.M</rom>
 			<rom type="bgm2" offset="0x19">V2DEM.F</rom>
-			<rom type="bgm"  offset="0x1a">F01.M</rom>
+			<rom type="bgm" offset="0x1a">F01.M</rom>
 			<rom type="bgm2" offset="0x1a">NV12.F</rom>
-			<rom type="bgm"  offset="0x1b">VE01.M</rom>
+			<rom type="bgm" offset="0x1b">VE01.M</rom>
 			<rom type="bgm2" offset="0x1b">NV12.F</rom>
-			<rom type="bgm"  offset="0x1c">SHI101.M</rom>
+			<rom type="bgm" offset="0x1c">SHI101.M</rom>
 			<rom type="bgm2" offset="0x1c">NV12.F</rom>
-			<rom type="bgm"  offset="0x1d">SHI201.M</rom>
+			<rom type="bgm" offset="0x1d">SHI201.M</rom>
 			<rom type="bgm2" offset="0x1d">NV12.F</rom>
-			<rom type="bgm"  offset="0x1e">YAMA01.M</rom>
+			<rom type="bgm" offset="0x1e">YAMA01.M</rom>
 			<rom type="bgm2" offset="0x1e">NV12.F</rom>
-			<rom type="bgm"  offset="0x1f">VK121.M</rom>
+			<rom type="bgm" offset="0x1f">VK121.M</rom>
 			<rom type="bgm2" offset="0x1f">NV12.F</rom>
-			<rom type="bgm"  offset="0x20">VE101.M</rom>
+			<rom type="bgm" offset="0x20">VE101.M</rom>
 			<rom type="bgm2" offset="0x20">NV12.F</rom>
-			<rom type="bgm"  offset="0x21">VE102.M</rom>
+			<rom type="bgm" offset="0x21">VE102.M</rom>
 			<rom type="bgm2" offset="0x21">NV12.F</rom>
-			<rom type="bgm"  offset="0x23">VE201.M</rom>
+			<rom type="bgm" offset="0x23">VE201.M</rom>
 			<rom type="bgm2" offset="0x23">NV12.F</rom>
-			<rom type="bgm"  offset="0x25">VE302.M</rom>
+			<rom type="bgm" offset="0x25">VE302.M</rom>
 			<rom type="bgm2" offset="0x25">NV12.F</rom>
-			<rom type="bgm"  offset="0x26">VK121L.M</rom>
+			<rom type="bgm" offset="0x26">VK121L.M</rom>
 			<rom type="bgm2" offset="0x26">NV12.F</rom>
-			<rom type="bgm"  offset="0x27">V2I.M</rom>
+			<rom type="bgm" offset="0x27">V2I.M</rom>
 			<rom type="bgm2" offset="0x27">VKJ.F</rom>
-			<rom type="bgm"  offset="0x28">V5I2.M</rom>
+			<rom type="bgm" offset="0x28">V5I2.M</rom>
 			<rom type="bgm2" offset="0x28">VKJ.F</rom>
-			<rom type="bgm"  offset="0x29">V6I2.M</rom>
+			<rom type="bgm" offset="0x29">V6I2.M</rom>
 			<rom type="bgm2" offset="0x29">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2a">V7I.M</rom>
+			<rom type="bgm" offset="0x2a">V7I.M</rom>
 			<rom type="bgm2" offset="0x2a">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2b">V8I.M</rom>
+			<rom type="bgm" offset="0x2b">V8I.M</rom>
 			<rom type="bgm2" offset="0x2b">VKJ.F</rom>
-			<rom type="bgm"  offset="0x2c">V9I.M</rom>
+			<rom type="bgm" offset="0x2c">V9I.M</rom>
 			<rom type="bgm2" offset="0x2c">VKJ.F</rom>
 		</romlist>
 		<titlelist>
@@ -2985,7 +3008,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="filesize" value="0x6000"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x2d"/>
+			<option name="datamax" value="0x2d"/>
 		</options>
 		<romlist archive="valis298">
 			<rom type="code" offset="0x00600">valis2.bin</rom>
@@ -3105,13 +3128,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x08256"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x11"/>
+			<option name="datamax" value="0x11"/>
 		</options>
 		<romlist archive="dbg98">
 			<rom type="code" offset="0x00600">BIOS98</rom>
@@ -3153,7 +3176,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 紫醜罹</name>
+		<name>[PC-9801] Sa.Zi.Ri. (紫醜罹) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
@@ -3167,22 +3190,22 @@
 			<rom type="code" offset="0x20000">saziri.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0008">08 : Synchrotron</title>
-			<title code="0x0100">00 : 君は、Funky, Monkey, Saziri</title>
-			<title code="0x0101">01 : すったらもんだら三度笠</title>
-			<title code="0x0102">02 : 五衛門 至上の愛</title>
-			<title code="0x0103">03 : 真剣!白刃の舞</title>
-			<title code="0x000a">0A : 屍を越えて</title>
-			<title code="0x0104">04 : 壮絶!稲妻．狙い打ち</title>
-			<title code="0x0105">05 : 天の怒り，地の慟哭</title>
-			<title code="0x0106">06 : 天使は、かく語りき</title>
-			<title code="0x0107">07 : 殺陣師死すべし</title>
-			<title code="0x0009">09 : Breeze of Spring</title>
-			<title code="0x000b">0B : 君は、Funky, Monkey, Saziri (･?･?･?･ Version)</title>
+			<title code="0x0008">Synchrotron</title>
+			<title code="0x0100">君は、Funky, Monkey, Saziri</title>
+			<title code="0x0101">すったらもんだら三度笠</title>
+			<title code="0x0102">五衛門 至上の愛</title>
+			<title code="0x0103">真剣!白刃の舞</title>
+			<title code="0x000a">屍を越えて</title>
+			<title code="0x0104">壮絶!稲妻．狙い打ち</title>
+			<title code="0x0105">天の怒り，地の慟哭</title>
+			<title code="0x0106">天使は、かく語りき</title>
+			<title code="0x0107">殺陣師死すべし</title>
+			<title code="0x0009">Breeze of Spring</title>
+			<title code="0x000b">君は、Funky, Monkey, Saziri (･?･?･?･ Version)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] XZR －破戒の偶像－</name>
+		<name>[PC-9801] XZR: Hakai no Guuzou (エグザイル 破戒の偶像) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
@@ -3258,8 +3281,8 @@
 		<options>
 			<option name="bootcs" value="0x4000"/>
 			<option name="bootip" value="0x0000"/>
-			<option name="dataaddr"  value="0x1bd5a"/>
-			<option name="filesize"  value="0x02000"/>
+			<option name="dataaddr" value="0x1bd5a"/>
+			<option name="filesize" value="0x02000"/>
 			<option name="data2addr" value="0x1b8b1"/>
 			<option name="file2size" value="0x00200"/>
 			<option name="funcvect" value="0x7f"/>
@@ -3269,57 +3292,57 @@
 		<romlist archive="xzr2_98">
 			<rom type="code" offset="0x00600">PROG</rom>
 			<rom type="code" offset="0x40000">xzr298.bin</rom>
-			<rom type="bgm"  offset="0x01">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS00</rom>
 			<rom type="bgm2" offset="0x01">VD008</rom>
-			<rom type="bgm"  offset="0x02">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS01</rom>
 			<rom type="bgm2" offset="0x02">VD008</rom>
-			<rom type="bgm"  offset="0x03">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS02</rom>
 			<rom type="bgm2" offset="0x03">VD006</rom>
-			<rom type="bgm"  offset="0x04">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS03</rom>
 			<rom type="bgm2" offset="0x04">VD000</rom>
-			<rom type="bgm"  offset="0x05">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS04</rom>
 			<rom type="bgm2" offset="0x05">VD006</rom>
-			<rom type="bgm"  offset="0x06">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS05</rom>
 			<rom type="bgm2" offset="0x06">VD012</rom>
-			<rom type="bgm"  offset="0x07">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS06</rom>
 			<rom type="bgm2" offset="0x07">VD008</rom>
-			<rom type="bgm"  offset="0x08">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS07</rom>
 			<rom type="bgm2" offset="0x08">VD008</rom>
-			<rom type="bgm"  offset="0x09">MUS08</rom>
+			<rom type="bgm" offset="0x09">MUS08</rom>
 			<rom type="bgm2" offset="0x09">VD002</rom>
-			<rom type="bgm"  offset="0x0a">MUS09</rom>
+			<rom type="bgm" offset="0x0a">MUS09</rom>
 			<rom type="bgm2" offset="0x0a">VD005</rom>
-			<rom type="bgm"  offset="0x0b">MUS10</rom>
+			<rom type="bgm" offset="0x0b">MUS10</rom>
 			<rom type="bgm2" offset="0x0b">VD008</rom>
-			<rom type="bgm"  offset="0x0c">MUS11</rom>
+			<rom type="bgm" offset="0x0c">MUS11</rom>
 			<rom type="bgm2" offset="0x0c">VD006</rom>
-			<rom type="bgm"  offset="0x0d">MUS12</rom>
+			<rom type="bgm" offset="0x0d">MUS12</rom>
 			<rom type="bgm2" offset="0x0d">VD008</rom>
-			<rom type="bgm"  offset="0x0e">MUS13</rom>
+			<rom type="bgm" offset="0x0e">MUS13</rom>
 			<rom type="bgm2" offset="0x0e">VD008</rom>
-			<rom type="bgm"  offset="0x0f">MUS14</rom>
+			<rom type="bgm" offset="0x0f">MUS14</rom>
 			<rom type="bgm2" offset="0x0f">VD006</rom>
-			<rom type="bgm"  offset="0x10">MUS15</rom>
+			<rom type="bgm" offset="0x10">MUS15</rom>
 			<rom type="bgm2" offset="0x10">VD000</rom>
-			<rom type="bgm"  offset="0x11">MUS16</rom>
+			<rom type="bgm" offset="0x11">MUS16</rom>
 			<rom type="bgm2" offset="0x11">VD000</rom>
-			<rom type="bgm"  offset="0x12">MUS17</rom>
+			<rom type="bgm" offset="0x12">MUS17</rom>
 			<rom type="bgm2" offset="0x12">VD000</rom>
-			<rom type="bgm"  offset="0x13">MUS18</rom>
+			<rom type="bgm" offset="0x13">MUS18</rom>
 			<rom type="bgm2" offset="0x13">VD000</rom>
-			<rom type="bgm"  offset="0x14">MUS19</rom>
+			<rom type="bgm" offset="0x14">MUS19</rom>
 			<rom type="bgm2" offset="0x14">VD000</rom>
-			<rom type="bgm"  offset="0x15">MUS20</rom>
+			<rom type="bgm" offset="0x15">MUS20</rom>
 			<rom type="bgm2" offset="0x15">VD000</rom>
-			<rom type="bgm"  offset="0x16">MUS21</rom>
+			<rom type="bgm" offset="0x16">MUS21</rom>
 			<rom type="bgm2" offset="0x16">VD007</rom>
-			<rom type="bgm"  offset="0x17">MUS22</rom>
+			<rom type="bgm" offset="0x17">MUS22</rom>
 			<rom type="bgm2" offset="0x17">VD000</rom>
-			<rom type="bgm"  offset="0x18">MUS23</rom>
+			<rom type="bgm" offset="0x18">MUS23</rom>
 			<rom type="bgm2" offset="0x18">VD006</rom>
-			<rom type="bgm"  offset="0x19">MUS24</rom>
+			<rom type="bgm" offset="0x19">MUS24</rom>
 			<rom type="bgm2" offset="0x19">VD000</rom>
-			<rom type="bgm"  offset="0x1a">MUS25</rom>
+			<rom type="bgm" offset="0x1a">MUS25</rom>
 			<rom type="bgm2" offset="0x1a">VD002</rom>
 		</romlist>
 		<titlelist>
@@ -3358,8 +3381,8 @@
 		<options>
 			<option name="bootcs" value="0x4000"/>
 			<option name="bootip" value="0x0000"/>
-			<option name="dataaddr"  value="0x1bdaa"/>
-			<option name="filesize"  value="0x02000"/>
+			<option name="dataaddr" value="0x1bdaa"/>
+			<option name="filesize" value="0x02000"/>
 			<option name="data2addr" value="0x1b901"/>
 			<option name="file2size" value="0x00200"/>
 			<option name="funcvect" value="0x7f"/>
@@ -3369,57 +3392,57 @@
 		<romlist archive="xzr2_98d">
 			<rom type="code" offset="0x00600">PROG</rom>
 			<rom type="code" offset="0x40000">xzr298d.bin</rom>
-			<rom type="bgm"  offset="0x01">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS00</rom>
 			<rom type="bgm2" offset="0x01">VD008</rom>
-			<rom type="bgm"  offset="0x02">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS01</rom>
 			<rom type="bgm2" offset="0x02">VD008</rom>
-			<rom type="bgm"  offset="0x03">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS02</rom>
 			<rom type="bgm2" offset="0x03">VD006</rom>
-			<rom type="bgm"  offset="0x04">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS03</rom>
 			<rom type="bgm2" offset="0x04">VD000</rom>
-			<rom type="bgm"  offset="0x05">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS04</rom>
 			<rom type="bgm2" offset="0x05">VD006</rom>
-			<rom type="bgm"  offset="0x06">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS05</rom>
 			<rom type="bgm2" offset="0x06">VD012</rom>
-			<rom type="bgm"  offset="0x07">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS06</rom>
 			<rom type="bgm2" offset="0x07">VD008</rom>
-			<rom type="bgm"  offset="0x08">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS07</rom>
 			<rom type="bgm2" offset="0x08">VD008</rom>
-			<rom type="bgm"  offset="0x09">MUS08</rom>
+			<rom type="bgm" offset="0x09">MUS08</rom>
 			<rom type="bgm2" offset="0x09">VD002</rom>
-			<rom type="bgm"  offset="0x0a">MUS09</rom>
+			<rom type="bgm" offset="0x0a">MUS09</rom>
 			<rom type="bgm2" offset="0x0a">VD005</rom>
-			<rom type="bgm"  offset="0x0b">MUS10</rom>
+			<rom type="bgm" offset="0x0b">MUS10</rom>
 			<rom type="bgm2" offset="0x0b">VD008</rom>
-			<rom type="bgm"  offset="0x0c">MUS11</rom>
+			<rom type="bgm" offset="0x0c">MUS11</rom>
 			<rom type="bgm2" offset="0x0c">VD006</rom>
-			<rom type="bgm"  offset="0x0d">MUS12</rom>
+			<rom type="bgm" offset="0x0d">MUS12</rom>
 			<rom type="bgm2" offset="0x0d">VD008</rom>
-			<rom type="bgm"  offset="0x0e">MUS13</rom>
+			<rom type="bgm" offset="0x0e">MUS13</rom>
 			<rom type="bgm2" offset="0x0e">VD008</rom>
-			<rom type="bgm"  offset="0x0f">MUS14</rom>
+			<rom type="bgm" offset="0x0f">MUS14</rom>
 			<rom type="bgm2" offset="0x0f">VD006</rom>
-			<rom type="bgm"  offset="0x10">MUS15</rom>
+			<rom type="bgm" offset="0x10">MUS15</rom>
 			<rom type="bgm2" offset="0x10">VD000</rom>
-			<rom type="bgm"  offset="0x11">MUS16</rom>
+			<rom type="bgm" offset="0x11">MUS16</rom>
 			<rom type="bgm2" offset="0x11">VD000</rom>
-			<rom type="bgm"  offset="0x12">MUS17</rom>
+			<rom type="bgm" offset="0x12">MUS17</rom>
 			<rom type="bgm2" offset="0x12">VD000</rom>
-			<rom type="bgm"  offset="0x13">MUS18</rom>
+			<rom type="bgm" offset="0x13">MUS18</rom>
 			<rom type="bgm2" offset="0x13">VD000</rom>
-			<rom type="bgm"  offset="0x14">MUS19</rom>
+			<rom type="bgm" offset="0x14">MUS19</rom>
 			<rom type="bgm2" offset="0x14">VD000</rom>
-			<rom type="bgm"  offset="0x15">MUS20</rom>
+			<rom type="bgm" offset="0x15">MUS20</rom>
 			<rom type="bgm2" offset="0x15">VD000</rom>
-			<rom type="bgm"  offset="0x16">MUS21</rom>
+			<rom type="bgm" offset="0x16">MUS21</rom>
 			<rom type="bgm2" offset="0x16">VD007</rom>
-			<rom type="bgm"  offset="0x17">MUS22</rom>
+			<rom type="bgm" offset="0x17">MUS22</rom>
 			<rom type="bgm2" offset="0x17">VD000</rom>
-			<rom type="bgm"  offset="0x18">MUS23</rom>
+			<rom type="bgm" offset="0x18">MUS23</rom>
 			<rom type="bgm2" offset="0x18">VD006</rom>
-			<rom type="bgm"  offset="0x19">MUS24</rom>
+			<rom type="bgm" offset="0x19">MUS24</rom>
 			<rom type="bgm2" offset="0x19">VD000</rom>
-			<rom type="bgm"  offset="0x1a">MUS25</rom>
+			<rom type="bgm" offset="0x1a">MUS25</rom>
 			<rom type="bgm2" offset="0x1a">VD002</rom>
 		</romlist>
 		<titlelist>
@@ -3469,23 +3492,23 @@
 		<romlist archive="mazekun_98">
 			<rom type="code" offset="0x00600">PROG</rom>
 			<rom type="code" offset="0x20000">mazekun.bin</rom>
-			<rom type="bgm"  offset="0x01">MA000</rom>
+			<rom type="bgm" offset="0x01">MA000</rom>
 			<rom type="bgm2" offset="0x01">VD000</rom>
-			<rom type="bgm"  offset="0x02">MA001</rom>
+			<rom type="bgm" offset="0x02">MA001</rom>
 			<rom type="bgm2" offset="0x02">VD000</rom>
-			<rom type="bgm"  offset="0x03">MA002</rom>
+			<rom type="bgm" offset="0x03">MA002</rom>
 			<rom type="bgm2" offset="0x03">VD001</rom>
-			<rom type="bgm"  offset="0x04">MA003</rom>
+			<rom type="bgm" offset="0x04">MA003</rom>
 			<rom type="bgm2" offset="0x04">VD000</rom>
-			<rom type="bgm"  offset="0x05">MA004</rom>
+			<rom type="bgm" offset="0x05">MA004</rom>
 			<rom type="bgm2" offset="0x05">VD000</rom>
-			<rom type="bgm"  offset="0x06">MA005</rom>
+			<rom type="bgm" offset="0x06">MA005</rom>
 			<rom type="bgm2" offset="0x06">VD000</rom>
-			<rom type="bgm"  offset="0x07">MA006</rom>
+			<rom type="bgm" offset="0x07">MA006</rom>
 			<rom type="bgm2" offset="0x07">VD000</rom>
-			<rom type="bgm"  offset="0x08">MA007</rom>
+			<rom type="bgm" offset="0x08">MA007</rom>
 			<rom type="bgm2" offset="0x08">VD000</rom>
-			<rom type="bgm"  offset="0x09">MA008</rom>
+			<rom type="bgm" offset="0x09">MA008</rom>
 			<rom type="bgm2" offset="0x09">VD000</rom>
 		</romlist>
 		<titlelist>
@@ -3505,13 +3528,13 @@
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
-			<option name="bootcs"   value="0x2000"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x2000"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x0e0c0"/>
 			<option name="filesize" value="0x0400"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x09"/>
+			<option name="datamax" value="0x09"/>
 		</options>
 		<romlist archive="mazekun_98">
 			<rom type="code" offset="0x00600">PROG</rom>
@@ -3541,14 +3564,14 @@
 		<driver type="soundorchestra">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x20000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x12"/>
-			<option name="opl_mix"  value="0x300"/>
+			<option name="datamax" value="0x12"/>
+			<option name="opl_mix" value="0x300"/>
 		</options>
 		<romlist archive="alba2_98">
 			<rom type="code" offset="0x00600">LDR.BIN</rom>
@@ -3620,13 +3643,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x20000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x12"/>
+			<option name="datamax" value="0x12"/>
 		</options>
 		<romlist archive="alba2_98">
 			<rom type="code" offset="0x00600">LDR.BIN</rom>
@@ -3698,13 +3721,13 @@
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Telenet Japan</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x20000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x10"/>
+			<option name="datamax" value="0x10"/>
 		</options>
 		<romlist archive="alba2_98">
 			<rom type="code" offset="0x00600">LDR.BIN</rom>
@@ -4005,11 +4028,11 @@
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xf0"/>
-			<option name="mfp"     value="1"/>
+			<option name="mfp" value="1"/>
 		</options>
 		<romlist archive="valis268snd">
 			<rom type="code" offset="0x00000">valis268snd.bin</rom>
-			<rom type="x"    offset="0x10000">SND_XDRV.X</rom>
+			<rom type="x" offset="0x10000">SND_XDRV.X</rom>
 			<rom type="code" offset="0x151EE">VALIS2.A0B</rom>
 			<rom type="code" offset="0x21364">VALIS2.VCE</rom>
 			<rom type="code" offset="0x23564">VALIS2.SE</rom>
@@ -4065,8 +4088,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_num"  value="0x20"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x20"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="xzr_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4125,8 +4148,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="mdata_num"  value="0x20"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x20"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="xzr2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4195,8 +4218,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="mdata_num"  value="0x70"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x70"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="alba2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4224,7 +4247,7 @@
 			<title code="0x06">MUS06</title>
 			<title code="0x07">MUS07</title>
 			<title code="0x08">MUS08</title>
-			<title code="0x0a">マイシュガーベイビー</title>
+			<title code="0x0a">My Sugar Baby (マイシュガーベイビー)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4235,9 +4258,9 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="mdata_num"  value="0x70"/>
-			<option name="use_opll"   value="0x01"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x70"/>
+			<option name="use_opll" value="0x01"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="alba2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4265,7 +4288,7 @@
 			<title code="0x06">MUS06P</title>
 			<title code="0x07">MUS07P</title>
 			<title code="0x08">MUS08P</title>
-			<title code="0x0a">マイシュガーベイビー</title>
+			<title code="0x0a">My Sugar Baby (マイシュガーベイビー)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4276,7 +4299,7 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="saziri_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4306,8 +4329,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="mdata_num"  value="0x40"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x40"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="valis2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4369,26 +4392,16 @@
 			<title code="0x0000">光の中の麗子</title>
 			<title code="0x0001">Virgin Crisis</title>
 			<title code="0x0002">SACRED SACRIFICE</title>
-<!--
 			<title code="0x0003">パールモントWink</title>
--->
-			<title code="0x0004">パールモントWink</title>
+		<!--<title code="0x0004">パールモントWink</title>-->
 			<title code="0x0005">PINCH ZONE</title>
-<!--
-			<title code="0x0006">PINCH ZONE</title>
--->
+		<!--<title code="0x0006">PINCH ZONE</title>-->
 			<title code="0x0007">Yuko My Love</title>
-<!--
-			<title code="0x0008">Yuko My Love</title>
--->
+		<!--<title code="0x0008">Yuko My Love</title>-->
 			<title code="0x0009">呪いの巡礼</title>
-<!--
-			<title code="0x000a">呪いの巡礼</title>
--->
+		<!--<title code="0x000a">呪いの巡礼</title>-->
 			<title code="0x000b">ENDLESS BATTLE</title>
-<!--
-			<title code="0x000c">ENDLESS BATTLE</title>
--->
+		<!--<title code="0x000c">ENDLESS BATTLE</title>-->
 			<title code="0x000d">Pavane</title>
 			<title code="0x000e">VALIA</title>
 			<title code="0x000f">VANITY</title>
@@ -4400,53 +4413,35 @@
 			<title code="0x0015">VACANTY.T5</title>
 			<title code="0x0016">VACANTY.T6</title>
 			<title code="0x0017">VACANTY.T6(別Ver 1)</title>
-			<title code="0x0018">VACANTY.T6(別Ver 1)</title>
+			<title code="0x0018">VACANTY.T6(別Ver 2)</title>
 			<title code="0x0019">VACANTY.T7</title>
 			<title code="0x001a">Yuuko...</title>
 			<title code="0x001b">Sentimental Soldier</title>
-<!--
-			<title code="0x001c">Sentimental Soldier</title>
--->
+		<!--<title code="0x001c">Sentimental Soldier</title> -->
 			<title code="0x001d">Prediction</title>
-<!--
-			<title code="0x001e">Prediction</title>
--->
+		<!--<title code="0x001e">Prediction</title> -->
 			<title code="0x001f">Mirageの星座</title>
-<!--
-			<title code="0x0020">Mirageの星座</title>
--->
+		<!--<title code="0x0020">Mirageの星座</title> -->
 			<title code="0x0021">Rock'n Roll CINDERELLA</title>
-<!--
-			<title code="0x0022">Rock'n Roll CINDERELLA</title>
--->
-<!--		「悲しみのWhite Day...優子より」は「Yuuko...」と同じデータ	-->
+		<!--<title code="0x0022">Rock'n Roll CINDERELLA</title> -->
+		<!--「悲しみのWhite Day...優子より」は「Yuuko...」と同じデータを使用	-->
 			<title code="0x0023">White Message～麗子のテーマ</title>
 			<title code="0x0024">White Message～麗子の愛</title>
 			<title code="0x0025">涙の子守唄 ～Before～</title>
 			<title code="0x0026">涙の子守唄 ～After～</title>
 			<title code="0x0027">Against Black Shadow</title>
-<!--
-			<title code="0x0028">Against Black Shadow</title>
--->
+		<!--<title code="0x0028">Against Black Shadow</title> -->
 			<title code="0x0029">Tears in Battle</title>
-<!--
-			<title code="0x002a">Tears in Battle</title>
--->
+		<!--<title code="0x002a">Tears in Battle</title> -->
 			<title code="0x002b">魔の波動</title>
-<!--
-			<title code="0x002c">魔の波動</title>
--->
+		<!--<title code="0x002c">魔の波動</title> -->
 			<title code="0x002d">MEGAS</title>
-<!--
-			<title code="0x002e">MEGAS</title>
--->
-			<title code="0x002f">月夜のオルゴール</title>
-<!--
-			<title code="0x0030">月夜のオルゴール</title>
--->
-			<title code="0x0131">Ever Green</title>
-			<title code="0x0032">V201PS</title>
-			<title code="0x0033">V302PS</title>
+		<!--<title code="0x002e">MEGAS</title> -->
+			<title code="0x012f">月夜のオルゴール</title>
+		<!--<title code="0x0030">月夜のオルゴール</title> -->
+			<title code="0x0031">Ever Green</title>
+			<title code="0x0032">VE201</title>
+			<title code="0x0033">VE302</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4457,9 +4452,9 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="mdata_num"  value="0x40"/>
-			<option name="use_opll"   value="0x01"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="mdata_num" value="0x40"/>
+			<option name="use_opll" value="0x01"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="valis2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -4522,25 +4517,15 @@
 			<title code="0x0001">Virgin Crisis</title>
 			<title code="0x0002">SACRED SACRIFICE</title>
 			<title code="0x0003">パールモントWink</title>
-<!--
-			<title code="0x0004">パールモントWink</title>
--->
+		<!--<title code="0x0004">パールモントWink</title>-->
 			<title code="0x0005">PINCH ZONE</title>
-<!--
-			<title code="0x0006">PINCH ZONE</title>
--->
+		<!--<title code="0x0006">PINCH ZONE</title>-->
 			<title code="0x0007">Yuko My Love</title>
-<!--
-			<title code="0x0008">Yuko My Love</title>
--->
+		<!--<title code="0x0008">Yuko My Love</title>-->
 			<title code="0x0009">呪いの巡礼</title>
-<!--
-			<title code="0x000a">呪いの巡礼</title>
--->
+		<!--<title code="0x000a">呪いの巡礼</title>-->
 			<title code="0x000b">ENDLESS BATTLE</title>
-<!--
-			<title code="0x000c">ENDLESS BATTLE</title>
--->
+		<!--<title code="0x000c">ENDLESS BATTLE</title>-->
 			<title code="0x000d">Pavane</title>
 			<title code="0x000e">VALIA</title>
 			<title code="0x000f">VANITY</title>
@@ -4556,46 +4541,28 @@
 			<title code="0x0019">VACANTY.T7</title>
 			<title code="0x001a">Yuuko...</title>
 			<title code="0x001b">Sentimental Soldier</title>
-<!--
-			<title code="0x001c">Sentimental Soldier</title>
--->
+		<!--<title code="0x001c">Sentimental Soldier</title> -->
 			<title code="0x001d">Prediction</title>
-<!--
-			<title code="0x001e">Prediction</title>
--->
+		<!--<title code="0x001e">Prediction</title> -->
 			<title code="0x001f">Mirageの星座</title>
-<!--
-			<title code="0x0020">Mirageの星座</title>
--->
+		<!--<title code="0x0020">Mirageの星座</title> -->
 			<title code="0x0021">Rock'n Roll CINDERELLA</title>
-<!--
-			<title code="0x0022">Rock'n Roll CINDERELLA</title>
--->
-<!--		「悲しみのWhite Day...優子より」は「Yuuko...」と同じデータを使用	-->
+		<!--<title code="0x0022">Rock'n Roll CINDERELLA</title> -->
+		<!--「悲しみのWhite Day...優子より」は「Yuuko...」と同じデータを使用	-->
 			<title code="0x0023">White Message～麗子のテーマ</title>
 			<title code="0x0024">White Message～麗子の愛</title>
 			<title code="0x0025">涙の子守唄 ～Before～</title>
 			<title code="0x0026">涙の子守唄 ～After～</title>
 			<title code="0x0027">Against Black Shadow</title>
-<!--
-			<title code="0x0028">Against Black Shadow</title>
--->
+		<!--<title code="0x0028">Against Black Shadow</title> -->
 			<title code="0x0029">Tears in Battle</title>
-<!--
-			<title code="0x002a">Tears in Battle</title>
--->
+		<!--<title code="0x002a">Tears in Battle</title> -->
 			<title code="0x002b">魔の波動</title>
-<!--
-			<title code="0x002c">魔の波動</title>
--->
+		<!--<title code="0x002c">魔の波動</title> -->
 			<title code="0x002d">MEGAS</title>
-<!--
-			<title code="0x002e">MEGAS</title>
--->
+		<!--<title code="0x002e">MEGAS</title> -->
 			<title code="0x012f">月夜のオルゴール</title>
-<!--
-			<title code="0x0030">月夜のオルゴール</title>
--->
+		<!--<title code="0x0030">月夜のオルゴール</title> -->
 			<title code="0x0031">Ever Green</title>
 			<title code="0x0032">VE201</title>
 			<title code="0x0033">VE302</title>
@@ -4609,15 +4576,15 @@
 			<option name="mdata_addr" value="0x6000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="yakyufan_msx">
-			<rom type="code"   offset="0x0400">patch</rom>
-			<rom type="code"   offset="0x4000">TSTO.COM</rom>
-			<rom type="bgm"    offset="0x00">OPN.DAT</rom>
-			<rom type="bgm"    offset="0x01">MUS.DAT</rom>
-			<rom type="bgm"    offset="0x02">TUNA.MMM</rom>
-			<rom type="bgm"    offset="0x03">END2.MMM</rom>
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">TSTO.COM</rom>
+			<rom type="bgm" offset="0x00">OPN.DAT</rom>
+			<rom type="bgm" offset="0x01">MUS.DAT</rom>
+			<rom type="bgm" offset="0x02">TUNA.MMM</rom>
+			<rom type="bgm" offset="0x03">END2.MMM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x76b300">プロ野球だよ人生は!</title>
@@ -4626,9 +4593,7 @@
 			<title code="0x675101">Dream Ball Dance</title>
 			<title code="0x6bc201">涙のDiamonds</title>
 			<title code="0x6bd302">破れた夢</title>
-<!--
-			<title code="0x958803">破れた夢</title>
--->
+			<!-- <title code="0x958803">破れた夢</title> -->
 			<title code="0x98bd03">勝って兜の緒を締めよ</title>
 		</titlelist>
 	</game>
@@ -4637,8 +4602,8 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x8000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="columns_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -4662,7 +4627,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Telenet Japan</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="columns_msx">
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
@@ -4679,6 +4644,258 @@
 			<title code="0x0106">Name Entry</title>
 			<title code="0x0107">Game Over</title>
 			<range min="0x11" max="0x1f" extcode="1">SFX #%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-77AV] Luxsor: Nights Over Egypt (ルクソール) (YM2203)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-77AV">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x0000"/>
+			<option name="mdata_addr" value="0x1000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_size" value="0x2000"/>
+		</options>
+		<romlist archive="luxsor_fmav">
+			<rom type="code" offset="0x0000">PATCH.BIN</rom>
+			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0d">MUS13.BIN</rom>
+			<rom type="bgm" offset="0x0e">MUS14.BIN</rom>
+			<rom type="bgm" offset="0x0f">MUS15.BIN</rom>
+			<rom type="bgm" offset="0x10">MUS16.BIN</rom>
+			<rom type="bgm" offset="0x11">MUS17.BIN</rom>
+			<rom type="bgm" offset="0x12">MUS18.BIN</rom>
+			<rom type="bgm" offset="0x13">MUS19.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">Nights over Egypt</title>
+		<!--<title code="0x0e">Nights over Egypt</title>
+			<title code="0x10">Nights over Egypt</title> -->
+			<title code="0x04">Mysty Pyramid</title>
+		<!--<title code="0x12">Mysty Pyramid</title> -->
+			<title code="0x05">Eagle</title>
+			<title code="0x0a">Bleeding Volcano</title>
+			<title code="0x06">Shinin' Ship's Journey</title>
+			<title code="0x07">Street Fightin' Boogie</title>
+			<title code="0x08">Wish-Wish-Wish</title>
+			<title code="0x09">Burnin' Heatin' Beat</title>
+			<title code="0x00">Spectacles</title>
+		<!--<title code="0x0b">Spectacles</title> -->
+			<title code="0x01">D-D-Danger</title>
+		<!--<title code="0x0c">D-D-Danger</title> -->
+			<title code="0x02">Over the Rescue</title>
+		<!--<title code="0x0d">Over the Rescue</title> -->
+			<title code="0x11">Sweet Tragedy</title>
+			<title code="0x13">Reminisce</title>
+			<title code="0x0f">Reminisce (No-Intro)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-7] Albatross (アルバトロス) (PSG)</name>
+		<driver type="generic">fm7</driver>
+		<driveralias type="FM-7">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x0000"/>
+			<option name="mdata_addr" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_size" value="0x2000"/>
+		</options>
+		<romlist archive="albatrss_fm7">
+			<rom type="code" offset="0x0000">PATCH.BIN</rom>
+			<rom type="code" offset="0x8500">OP.BIN</rom>
+			<rom type="code" offset="0xF000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Rising Up</title>
+			<title code="0x00">Love &amp; tears</title>
+			<title code="0x02">Twilight Blue</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-7] Albatross (アルバトロス) (YM2203)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-7">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x0000"/>
+			<option name="mdata_addr" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_size" value="0x2000"/>
+		</options>
+		<romlist archive="albatrss_fm7">
+			<rom type="code" offset="0x0000">PATCH.BIN</rom>
+			<rom type="code" offset="0x8500">OP.BIN</rom>
+			<rom type="code" offset="0xF000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Rising Up</title>
+			<title code="0x00">Love &amp; tears</title>
+			<title code="0x02">Twilight Blue</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-77AV] Digital Devil Monogatari: Megami Tensei (デジタル・デビル物語 女神転生) (YM2203)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-77AV">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x2000"/>
+			<option name="mdata_addr" value="0x0100"/>
+			<option name="mfile_size" value="0x1e00"/>
+			<option name="mdata_size" value="0x1e00"/>
+		</options>
+		<romlist archive="dds_fmav">
+			<rom type="code" offset="0x2000">PATCH.BIN</rom>
+			<rom type="code" offset="0xc9c0">DATA.BIN</rom>
+			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0d">MUS13.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x010b">Major II</title>
+			<title code="0x0000">Magnetic Magician</title>
+			<title code="0x0002">A Statuette of loser</title>
+		<!--<title code="0x000a">A Statuette of loser</title> -->
+			<title code="0x0001">Running Star</title>
+			<title code="0x0004">ケルンの朝</title>
+			<title code="0x0003">Si-Si-Si</title>
+			<title code="0x0105">Over the moon</title>
+			<title code="0x0007">Izanami...</title>
+			<title code="0x0009">女郎花</title>
+			<title code="0x0008">Yumiko</title>
+			<title code="0x0006">ゴーギャンの靴</title>
+			<title code="0x010c">Romantic Hell</title>
+			<title code="0x010d">Bright Morning</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-77AV] Pro Yakyuu Fan: Telenet Stadium (プロ野球FAN テレネットスタジアム) (YM2203)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-77AV">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+			<option name="mdata_addr" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_size" value="0x2000"/>
+		</options>
+		<romlist archive="yakyufan_fmav">
+			<rom type="code" offset="0x1000">PATCH.BIN</rom>
+			<rom type="code" offset="0xb667">DRIVER.BIN</rom>
+			<rom type="code" offset="0xe000">ENTRY.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS12.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x000a">プロ野球だよ人生は!</title>
+			<title code="0x0000">Sweet Sweet Sports</title>
+			<title code="0x0001">Passionative Game</title>
+			<title code="0x0002">Dream Ball Dance</title>
+			<title code="0x0003">涙のDiamonds</title>
+			<title code="0x0106">INNING CHANGE</title>
+			<title code="0x0108">破れた夢</title>
+			<title code="0x0009">勝って兜の緒を締めよ</title>
+			<title code="0x0105">HOMERUN</title>
+			<title code="0x000b">Happy turn 1</title>
+			<title code="0x010c">Happy turn 2</title>
+			<title code="0x0004">BGM #04</title>
+			<title code="0x0007">BGM #07</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM-77AV] Mugen Senshi Valis (夢幻戦士ヴァリス) (YM2203)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM-77AV">Telenet Japan</driveralias>
+		<options>
+			<option name="init_pc" value="0x0000"/>
+			<option name="mdata_addr" value="0xc000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_size" value="0x2000"/>
+		</options>
+		<romlist archive="valis_fmav">
+			<rom type="code" offset="0x0000">PATCH.BIN</rom>
+			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">MUS10.BIN</rom>
+			<rom type="bgm" offset="0x0b">MUS11.BIN</rom>
+			<rom type="bgm" offset="0x0c">MUS12.BIN</rom>
+			<rom type="bgm" offset="0x0e">MUS14.BIN</rom>
+			<rom type="bgm" offset="0x10">MUS16.BIN</rom>
+			<rom type="bgm" offset="0x11">MUS17.BIN</rom>
+			<rom type="bgm" offset="0x12">MUS18.BIN</rom>
+			<rom type="bgm" offset="0x13">MUS19.BIN</rom>
+			<rom type="bgm" offset="0x14">MUS20.BIN</rom>
+			<rom type="bgm" offset="0x15">MUS21.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0000">IPL</title>
+			<title code="0x0001">The Fantasm Solier Valis</title>
+			<title code="0x0002">The Soldier is Born</title>
+			<title code="0x0110">Death Zone</title>
+			<title code="0x0107">Death's Whisper</title>
+		<!--<title code="0x0112">Death's Whisper</title> -->
+			<title code="0x0003">Enter Logless</title>
+			<title code="0x010b">Flash of Sword</title>
+			<title code="0x0108">The Wilderness</title>
+		<!--<title code="0x0113">The Wilderness</title> -->
+			<title code="0x010c">Ogre Battle</title>
+			<title code="0x0109">Dark Forest</title>
+		<!--<title code="0x0114">Dark Forest</title> -->
+			<title code="0x010a">Cellular Tissue</title>
+		<!--<title code="0x0115">Cellular Tissue</title> -->
+			<title code="0x0005">Miss Blueに微笑みを</title>
+			<title code="0x0004">Requiem</title>
+			<title code="0x0111">Lonely Soldier</title>
+			<title code="0x000e">Over the Rainbow</title>
+			<title code="0x0006">Sadness... Reiko</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4802,258 +5019,6 @@
 			<title code="0x06">BGM #06</title>
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM77AV] Luxsor: Nights Over Egypt (ルクソール)</name>
-		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="mdata_addr" value="0x1000"/>
-			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_size" value="0x2000"/>
-		</options>
-		<romlist archive="luxsor_fmav">
-			<rom type="code" offset="0x0000">PATCH.BIN</rom>
-			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS07.BIN</rom>
-			<rom type="bgm"  offset="0x08">MUS08.BIN</rom>
-			<rom type="bgm"  offset="0x09">MUS09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">MUS12.BIN</rom>
-			<rom type="bgm"  offset="0x0d">MUS13.BIN</rom>
-			<rom type="bgm"  offset="0x0e">MUS14.BIN</rom>
-			<rom type="bgm"  offset="0x0f">MUS15.BIN</rom>
-			<rom type="bgm"  offset="0x10">MUS16.BIN</rom>
-			<rom type="bgm"  offset="0x11">MUS17.BIN</rom>
-			<rom type="bgm"  offset="0x12">MUS18.BIN</rom>
-			<rom type="bgm"  offset="0x13">MUS19.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x03">Nights over Egypt</title>
-<!--			<title code="0x0e">Nights over Egypt</title>
-			<title code="0x10">Nights over Egypt</title> -->
-			<title code="0x04">Mysty Pyramid</title>
-<!--			<title code="0x12">Mysty Pyramid</title> -->
-			<title code="0x05">Eagle</title>
-			<title code="0x0a">Bleeding Volcano</title>
-			<title code="0x06">Shinin' Ship's Journey</title>
-			<title code="0x07">Street Fightin' Boogie</title>
-			<title code="0x08">Wish-Wish-Wish</title>
-			<title code="0x09">Burnin' Heatin' Beat</title>
-			<title code="0x00">Spectacles</title>
-<!--			<title code="0x0b">Spectacles</title> -->
-			<title code="0x01">D-D-Danger</title>
-<!--			<title code="0x0c">D-D-Danger</title> -->
-			<title code="0x02">Over the Rescue</title>
-<!--			<title code="0x0d">Over the Rescue</title> -->
-			<title code="0x11">Sweet Tragedy</title>
-			<title code="0x13">Reminisce</title>
-			<title code="0x0f">Reminisce (No-Intro)</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM-7] Albatross (アルバトロス) (PSG)</name>
-		<driver type="generic">fm7</driver>
-		<driveralias type="FM-7">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="mdata_addr" value="0x2000"/>
-			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_size" value="0x2000"/>
-		</options>
-		<romlist archive="albatrss_fm7">
-			<rom type="code" offset="0x0000">PATCH.BIN</rom>
-			<rom type="code" offset="0x8500">OP.BIN</rom>
-			<rom type="code" offset="0xF000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Rising Up</title>
-			<title code="0x00">Love &amp; tears</title>
-			<title code="0x02">Twilight Blue</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM-7] Albatross (アルバトロス) (OPN)</name>
-		<driver type="generic">fm77av</driver>
-		<driveralias type="FM-7">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="mdata_addr" value="0x2000"/>
-			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_size" value="0x2000"/>
-		</options>
-		<romlist archive="albatrss_fm7">
-			<rom type="code" offset="0x0000">PATCH.BIN</rom>
-			<rom type="code" offset="0x8500">OP.BIN</rom>
-			<rom type="code" offset="0xF000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01">Rising Up</title>
-			<title code="0x00">Love &amp; tears</title>
-			<title code="0x02">Twilight Blue</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM77AV] Digital Devil Monogatari: Megami Tensei (デジタル・デビル物語 女神転生)</name>
-		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x2000"/>
-			<option name="mdata_addr" value="0x0100"/>
-			<option name="mfile_size" value="0x1e00"/>
-			<option name="mdata_size" value="0x1e00"/>
-		</options>
-		<romlist archive="dds_fmav">
-			<rom type="code" offset="0x2000">PATCH.BIN</rom>
-			<rom type="code" offset="0xc9c0">DATA.BIN</rom>
-			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS07.BIN</rom>
-			<rom type="bgm"  offset="0x08">MUS08.BIN</rom>
-			<rom type="bgm"  offset="0x09">MUS09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">MUS12.BIN</rom>
-			<rom type="bgm"  offset="0x0d">MUS13.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x010b">Major II</title>
-			<title code="0x0000">Magnetic Magician</title>
-			<title code="0x0002">A Statuette of loser</title>
-		<!--	<title code="0x000a">A Statuette of loser</title> -->
-			<title code="0x0001">Running Star</title>
-			<title code="0x0004">ケルンの朝</title>
-			<title code="0x0003">Si-Si-Si</title>
-			<title code="0x0105">Over the moon</title>
-			<title code="0x0007">Izanami...</title>
-			<title code="0x0009">女郎花</title>
-			<title code="0x0008">Yumiko</title>
-			<title code="0x0006">ゴーギャンの靴</title>
-			<title code="0x010c">Romantic Hell</title>
-			<title code="0x010d">Bright Morning</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM77AV] Pro Yakyuu Fan: Telenet Stadium (プロ野球FAN テレネットスタジアム)</name>
-		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x1000"/>
-			<option name="mdata_addr" value="0x2000"/>
-			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_size" value="0x2000"/>
-		</options>
-		<romlist archive="yakyufan_fmav">
-			<rom type="code" offset="0x1000">PATCH.BIN</rom>
-			<rom type="code" offset="0xb667">DRIVER.BIN</rom>
-			<rom type="code" offset="0xe000">ENTRY.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS07.BIN</rom>
-			<rom type="bgm"  offset="0x08">MUS08.BIN</rom>
-			<rom type="bgm"  offset="0x09">MUS09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">MUS12.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x000a">プロ野球だよ人生は!</title>
-			<title code="0x0000">Sweet Sweet Sports</title>
-			<title code="0x0001">Passionative Game</title>
-			<title code="0x0002">Dream Ball Dance</title>
-			<title code="0x0003">涙のDiamonds</title>
-			<title code="0x0106">INNING CHANGE</title>
-			<title code="0x0108">破れた夢</title>
-			<title code="0x0009">勝って兜の緒を締めよ</title>
-			<title code="0x0105">HOMERUN</title>
-			<title code="0x000b">Happy turn 1</title>
-			<title code="0x010c">Happy turn 2</title>
-			<range min="0x04" max="0x04" extcode="1">0x%02x</range>
-			<range min="0x07" max="0x07" extcode="1">0x%02x</range>
-		</titlelist>
-	</game>
-	<game>
-		<name>[FM77AV] Mugen Senshi Valis (夢幻戦士ヴァリス)</name>
-		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Telenet Japan</driveralias>
-		<options>
-			<option name="init_pc"    value="0x0000"/>
-			<option name="mdata_addr" value="0xc000"/>
-			<option name="mfile_size" value="0x2000"/>
-			<option name="mdata_size" value="0x2000"/>
-		</options>
-		<romlist archive="valis_fmav">
-			<rom type="code" offset="0x0000">PATCH.BIN</rom>
-			<rom type="code" offset="0xe000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
-			<rom type="bgm"  offset="0x04">MUS04.BIN</rom>
-			<rom type="bgm"  offset="0x05">MUS05.BIN</rom>
-			<rom type="bgm"  offset="0x06">MUS06.BIN</rom>
-			<rom type="bgm"  offset="0x07">MUS07.BIN</rom>
-			<rom type="bgm"  offset="0x08">MUS08.BIN</rom>
-			<rom type="bgm"  offset="0x09">MUS09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">MUS10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">MUS11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">MUS12.BIN</rom>
-			<rom type="bgm"  offset="0x0e">MUS14.BIN</rom>
-			<rom type="bgm"  offset="0x10">MUS16.BIN</rom>
-			<rom type="bgm"  offset="0x11">MUS17.BIN</rom>
-			<rom type="bgm"  offset="0x12">MUS18.BIN</rom>
-			<rom type="bgm"  offset="0x13">MUS19.BIN</rom>
-			<rom type="bgm"  offset="0x14">MUS20.BIN</rom>
-			<rom type="bgm"  offset="0x15">MUS21.BIN</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x0000">IPL</title>
-			<title code="0x0001">The Fantasm Solier Valis</title>
-			<title code="0x0002">The Soldier is Born</title>
-			<title code="0x0110">Death Zone</title>
-			<title code="0x0107">Death's Whisper</title>
-<!--			<title code="0x0112">Death's Whisper</title> -->
-			<title code="0x0003">Enter Logless</title>
-			<title code="0x010b">Flash of Sword</title>
-			<title code="0x0108">The Wilderness</title>
-<!--			<title code="0x0113">The Wilderness</title> -->
-			<title code="0x010c">Ogre Battle</title>
-			<title code="0x0109">Dark Forest</title>
-<!--			<title code="0x0114">Dark Forest</title> -->
-			<title code="0x010a">Cellular Tissue</title>
-<!--			<title code="0x0115">Cellular Tissue</title> -->
-			<title code="0x0005">Miss Blueに微笑みを</title>
-			<title code="0x0004">Requiem</title>
-			<title code="0x0111">Lonely Soldier</title>
-			<title code="0x000e">Over the Rainbow</title>
-			<title code="0x0006">Sadness... Reiko</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -66,4 +66,48 @@
 			<title code="0x040e">AHIRU.OPM</title>
 		</titlelist>
 	</game>
+	<game>
+		<name>[PC-9801] Dragon (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="NEC PC-9801">Log</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dragon_98">
+			<rom type="file" offset="-1">‰ä‘·Žq.EXE</rom>
+			<rom type="file" offset="-1">ABIKO_98.COM</rom>
+			<rom type="file" offset="-1">BGM1.MUS</rom>
+			<rom type="file" offset="-1">BGM1.ONS</rom>
+			<rom type="file" offset="-1">BGM2.MUS</rom>
+			<rom type="file" offset="-1">BGM2.ONS</rom>
+			<rom type="file" offset="-1">BGM3.MUS</rom>
+			<rom type="file" offset="-1">BGM3.ONS</rom>
+			<rom type="file" offset="-1">BGM4.MUS</rom>
+			<rom type="file" offset="-1">BGM4.ONS</rom>
+			<rom type="file" offset="-1">BGM5.MUS</rom>
+			<rom type="file" offset="-1">BGM5.ONS</rom>
+			<rom type="file" offset="-1">BGM6.MUS</rom>
+			<rom type="file" offset="-1">BGM6.ONS</rom>
+			<rom type="file" offset="-1">BGM7.MUS</rom>
+			<rom type="file" offset="-1">BGM7.ONS</rom>
+			<rom type="conin" offset="0x10">BGM1</rom>
+			<rom type="conin" offset="0x11">BGM2</rom>
+			<rom type="conin" offset="0x12">BGM3</rom>
+			<rom type="conin" offset="0x13">BGM4</rom>
+			<rom type="conin" offset="0x14">BGM5</rom>
+			<rom type="conin" offset="0x15">BGM6</rom>
+			<rom type="conin" offset="0x16">BGM7</rom>
+			<rom type="shell" offset="0">‰ä‘·Žq</rom>
+			<rom type="shell" offset="0">ABIKO_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM1.MUS</title>
+			<title code="0x11">BGM2.MUS</title>
+			<title code="0x12">BGM3.MUS</title>
+			<title code="0x13">BGM4.MUS</title>
+			<title code="0x14">BGM5.MUS</title>
+			<title code="0x15">BGM6.MUS</title>
+			<title code="0x16">BGM7.MUS</title>
+		</titlelist>
+	</game>
 </gamelist>

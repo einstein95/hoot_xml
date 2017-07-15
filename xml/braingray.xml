@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //BrainGray -->
 	<game>
-		<name>[PC-8801] Last Armageddon Demo (ラストハルマゲドン) (YM2608)</name>
+		<name>[PC-8801] Last Armageddon (Demo) (ラストハルマゲドン) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">Brain Grey</driveralias>
+		<driveralias type="PC-8801">BrainGray</driveralias>
 		<romlist archive="lastarmg">
 			<rom type="code" offset="0x0000">PATCHD</rom>
 			<rom type="code" offset="0x0100">DEMO</rom>
@@ -55,9 +55,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Last Armageddon Demo (ラストハルマゲドン) (YM2203)</name>
+		<name>[PC-8801] Last Armageddon (Demo) (ラストハルマゲドン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Brain Grey</driveralias>
+		<driveralias type="PC-8801">BrainGray</driveralias>
 		<romlist archive="lastarmg">
 			<rom type="code" offset="0x0000">PATCH2D</rom>
 			<rom type="code" offset="0x0100">DEMO</rom>
@@ -76,7 +76,7 @@
 	<game>
 		<name>[PC-8801] Last Armageddon (ラストハルマゲドン) (YM2608)</name>
 		<driver type="opna">pc88</driver>
-		<driveralias type="PC-8801">Brain Grey</driveralias>
+		<driveralias type="PC-8801">BrainGray</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -119,7 +119,7 @@
 	<game>
 		<name>[PC-8801] Last Armageddon (ラストハルマゲドン) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="PC-8801">Brain Grey</driveralias>
+		<driveralias type="PC-8801">BrainGray</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xf800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -160,14 +160,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] LAST ARMAGEDDON(PSG)</name>
+		<name>[MSX2] Last Armageddon (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BrainGray</driveralias>
+		<driveralias type="MSX2">BrainGray</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="lastarmg_msx">
 			<rom type="code" offset="0x0100">028</rom>
@@ -240,15 +240,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] LAST ARMAGEDDON (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Last Armageddon (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BrainGray</driveralias>
+		<driveralias type="MSX2">BrainGray</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x4000"/>
 			<option name="mfile_size" value="0x4000"/>
-			<option name="init_pc"    value="0x8000"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x8000"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="lastarmg_msx">
 			<rom type="code" offset="0x0100">029</rom>
@@ -321,11 +321,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 抜忍伝説</name>
+		<name>[MSX2] Nukenin Densetsu (抜忍伝説) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BrainGray</driveralias>
+		<driveralias type="MSX2">BrainGray</driveralias>
 		<options>
-			<option name="init_pc"    value="0x3000"/>
+			<option name="init_pc" value="0x3000"/>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mfile_size" value="0x2600"/>
 			<option name="mdata_size" value="0x2600"/>
@@ -399,11 +399,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 抜忍伝説 外伝</name>
+		<name>[MSX2] Nukenin Densetsu: Gaiden (抜忍伝説 外伝) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">BrainGray</driveralias>
+		<driveralias type="MSX2">BrainGray</driveralias>
 		<options>
-			<option name="init_pc"    value="0x5000"/>
+			<option name="init_pc" value="0x5000"/>
 			<option name="mdata_addr" value="0x6000"/>
 			<option name="mfile_size" value="0x2700"/>
 			<option name="mdata_size" value="0x2700"/>
@@ -415,14 +415,14 @@
 			<rom type="bgm" offset="0x01">MOVMUS</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x18" extcode="1">EVTMUS : %02X</range>
-			<title code="0x119">MOVMUS : 00</title>
-			<title code="0x11a">MOVMUS : 01</title>
-			<title code="0x11b">MOVMUS : 02</title>
-			<title code="0x11c">MOVMUS : 03</title>
-			<title code="0x11d">MOVMUS : 04</title>
-			<title code="0x11e">MOVMUS : 05</title>
-			<title code="0x11f">MOVMUS : 06</title>
+			<range min="0x00" max="0x18" extcode="1">EVTMUS #%02X</range>
+			<title code="0x119">MOVMUS #00</title>
+			<title code="0x11a">MOVMUS #01</title>
+			<title code="0x11b">MOVMUS #02</title>
+			<title code="0x11c">MOVMUS #03</title>
+			<title code="0x11d">MOVMUS #04</title>
+			<title code="0x11e">MOVMUS #05</title>
+			<title code="0x11f">MOVMUS #06</title>
 		</titlelist>
 	</game>
 </gamelist>

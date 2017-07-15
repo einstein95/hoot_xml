@@ -1355,8 +1355,6 @@
 		<driveralias type="X68000">Dempa Shinbunsha</driveralias>
 		<romlist archive="ys68snd">
 			<rom type="code">ys68.bin</rom>
-<!-- 			<rom type="code" offset="0x0299c">ysmusic.dat</rom>
-			<rom type="code" offset="0x11112">yspcm.dat</rom> -->
 		</romlist>
 		<titlelist>
 			<title code="0x00">Stop the Music</title>
@@ -1375,6 +1373,7 @@
 			<title code="0x0d">Rest in Peace</title>
 			<title code="0x0e">The Morning Grow</title>
 			<title code="0x0f">See You Again</title>
+			<title code="0x10">test</title>
 			<title code="0x11">X68000 Original BGM 1</title>
 			<title code="0x12">X68000 Original BGM 2</title>
 			<title code="0x14">Game Over</title>
@@ -1578,7 +1577,7 @@
 			<option name="init_pc" value="0xf000"/>
 			<option name="use_rtc" value="0x01"/>
 		</options>
-		<romlist archive="mappy88">
+		<romlist archive="mappy_88">
 			<rom type="code" offset="0x0000">PROG1</rom>
 			<rom type="code" offset="0x8a00">PROG2</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
@@ -1614,7 +1613,7 @@
 			<option name="baseclock" value="0x04"/>
 			<option name="use_ssgpcm" value="0x08"/>
 		</options>
-		<romlist archive="grobda88">
+		<romlist archive="grobda_88">
 			<rom type="code" offset="0x0000">PROG</rom>
 			<rom type="code" offset="0xf000">PATCH</rom>
 		</romlist>
@@ -1646,8 +1645,9 @@
 			<option name="mdata_addr" value="0xc000"/>
 			<option name="baseclock" value="0x04"/>
 			<option name="use_ssgpcm" value="0x08"/>
+			<option name="showfm3ex" value="1"/>
 		</options>
-		<romlist archive="sharri88">
+		<romlist archive="sharri_88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">PROG</rom>
 			<rom type="code" offset="0x3000">DRIVER</rom>

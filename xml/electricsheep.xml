@@ -52,10 +52,10 @@
 			<rom type="x"    offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x0a" max="0x0b" extcode="0">OPENING.X BGM#%2X</range>
-			<range min="0x01" max="0x04" extcode="1">ROBOT.X BGM#%2X</range>
-			<range min="0x06" max="0x09" extcode="1">ROBOT.X BGM#%2X</range>
-			<range min="0x101" max="0x107" extcode="0">SFX #%2X</range>
+			<range min="0x0a" max="0x0b" extcode="0">OPENING.X #%02X</range>
+			<range min="0x01" max="0x04" extcode="1">ROBOT.X #%02X</range>
+			<range min="0x06" max="0x09" extcode="1">ROBOT.X #%02X</range>
+			<range min="0x101" max="0x107" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

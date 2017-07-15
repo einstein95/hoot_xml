@@ -45,7 +45,7 @@
 		</options>
 		<romlist archive="sol68snd">
 			<rom type="code">slf68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x145fc">FM_DRV.68K</rom>
 			<rom type="code" offset="0x185fc">SOL.FM</rom>
 			<rom type="code" offset="0x245fc">SOL.VCE</rom>
@@ -164,7 +164,7 @@
 		</options>
 		<romlist archive="gran68snd">
 			<rom type="code" offset="0x00000">grnd68snd.bin</rom>
-			<rom type="x"    offset="0x10000">SND_XDRV.X</rom>
+			<rom type="x" offset="0x10000">SND_XDRV.X</rom>
 			<rom type="code" offset="0x14B38">GRANADA.FM</rom>
 			<rom type="code" offset="0x1CB38">GRANADA.VCE</rom>
 			<rom type="code" offset="0x1DD38">GRANADA.SE</rom>
@@ -194,12 +194,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Granada (MT-32/CM-64)</name>
+		<name>[X68000] Granada (MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="midiout_mix" value="0x220"/>
 		</options>
 		<romlist archive="gran68snd">
@@ -375,7 +375,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Final Zone (FZ戦記 アクシス) (YM2151+MSM6258)</name>
+		<name>[X68000] FZ Senki Axis (FZ戦記 アクシス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
@@ -385,7 +385,7 @@
 		</options>
 		<romlist archive="axis68snd">
 			<rom type="code">axs68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14dfc">FM_DRV.68K</rom>
 			<rom type="code" offset="0x18dfc">AXIS.FM</rom>
 			<rom type="code" offset="0x24dfc">AXIS.VCE</rom>
@@ -409,17 +409,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Final Zone (FZ戦記 アクシス) (MT-32/CM-64)</name>
+		<name>[X68000] FZ Senki Axis (FZ戦記 アクシス) (MT-32/CM-64)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="axis68snd">
 			<rom type="code">axs68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14dfc">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18dfc">AXIS.MDI</rom>
 			<rom type="code" offset="0x24dfc">AXIS.VCE</rom>
@@ -443,7 +443,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Final Zone (FZ戦記 アクシス) (Munt, MT-32 simulation)</name>
+		<name>[X68000] FZ Senki Axis (FZ戦記 アクシス) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
@@ -453,7 +453,7 @@
 		</options>
 		<romlist archive="axis68snd">
 			<rom type="code">axs68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14dfc">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18dfc">AXIS.MDI</rom>
 			<rom type="code" offset="0x24dfc">AXIS.VCE</rom>
@@ -487,7 +487,7 @@
 		</options>
 		<romlist archive="ryu68snd">
 			<rom type="code">ryu68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e08">FM_DRV.68K</rom>
 			<rom type="code" offset="0x18e08">RYU.FM</rom>
 			<rom type="code" offset="0x20e08">RYU.VCE</rom>
@@ -505,12 +505,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 		</titlelist>
 	</game>
@@ -520,12 +520,12 @@
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="ryu68snd">
 			<rom type="code">ryu68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e08">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e08">RYU.MDI</rom>
 			<rom type="code" offset="0x20e08">RYU.VCE</rom>
@@ -543,12 +543,12 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 		</titlelist>
 	</game>
@@ -563,7 +563,7 @@
 		</options>
 		<romlist archive="ryu68snd">
 			<rom type="code">ryu68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e08">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e08">RYU.MDI</rom>
 			<rom type="code" offset="0x20e08">RYU.VCE</rom>
@@ -581,15 +581,15 @@
 			<title code="0x07">BGM #07</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
-			<range min="0x201" max="0x212" extcode="0">code #%03x</range>
-			<range min="0x301" max="0x312" extcode="0">code #%03x</range>
+			<range min="0x201" max="0x212" extcode="0">SFX #%03X</range>
+			<range min="0x301" max="0x312" extcode="0">SFX #%03X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -603,7 +603,7 @@
 		</options>
 		<romlist archive="ao68snd">
 			<rom type="code">ao68snd.bin</rom>
-			<rom type="x"    offset="0x10000">M_DRV.X</rom>
+			<rom type="x" offset="0x10000">M_DRV.X</rom>
 			<rom type="code" offset="0x14e3e">FM_DRV.68K</rom>
 			<rom type="code" offset="0x18e3e">AO.FM</rom>
 			<rom type="code" offset="0x26a3e">AO.VCE</rom>
@@ -653,12 +653,12 @@
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="ao68snd">
 			<rom type="code">ao68mid.bin</rom>
-			<rom type="x"    offset="0x10000">M_DRV.X</rom>
+			<rom type="x" offset="0x10000">M_DRV.X</rom>
 			<rom type="code" offset="0x14e3e">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e3e">AO.MID</rom>
 			<rom type="code" offset="0x26a3e">AO.VCE</rom>
@@ -713,7 +713,7 @@
 		</options>
 		<romlist archive="ao68snd">
 			<rom type="code">ao68mid.bin</rom>
-			<rom type="x"    offset="0x10000">M_DRV.X</rom>
+			<rom type="x" offset="0x10000">M_DRV.X</rom>
 			<rom type="code" offset="0x14e3e">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e3e">AO.MID</rom>
 			<rom type="code" offset="0x26a3e">AO.VCE</rom>
@@ -768,7 +768,7 @@
 		</options>
 		<romlist archive="dino68snd">
 			<rom type="code">dino68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">FM_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">DINO.FM</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -794,12 +794,12 @@
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="dino68snd">
 			<rom type="code">dino68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">DINO.MID</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -830,7 +830,7 @@
 		</options>
 		<romlist archive="dino68snd">
 			<rom type="code">dino68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">DINO.MID</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -861,7 +861,7 @@
 		</options>
 		<romlist archive="niko268snd">
 			<rom type="code">dino68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">FM_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">NIKO.FM</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -887,12 +887,12 @@
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="niko268snd">
 			<rom type="code">dino68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">NIKO.MID</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -923,7 +923,7 @@
 		</options>
 		<romlist archive="niko268snd">
 			<rom type="code">dino68mid.bin</rom>
-			<rom type="x"    offset="0x10000">MDRV.X</rom>
+			<rom type="x" offset="0x10000">MDRV.X</rom>
 			<rom type="code" offset="0x14e4c">MIDI_DRV.68K</rom>
 			<rom type="code" offset="0x18e4c">NIKO.MID</rom>
 			<rom type="code" offset="0x2b64c">SAMPLE.VCE</rom>
@@ -953,7 +953,7 @@
 		</options>
 		<romlist archive="arcshu68snd">
 			<rom type="code">arcshu68snd.bin</rom>
-			<rom type="x"    offset="0x10000">SND_XDRV.X</rom>
+			<rom type="x" offset="0x10000">SND_XDRV.X</rom>
 			<rom type="code" offset="0x13f48">ARCUSHU.FM</rom>
 			<rom type="code" offset="0x1ce3d">ARCUSHU.VCE</rom>
 			<rom type="code" offset="0x1e03e">ARCUSHU.SE</rom>
@@ -972,7 +972,7 @@
 			<title code="0x0a">最初の地      (ARCUS/エクスプロージョン)</title>
 			<title code="0x0b">              (ARCUS/レジェンド)</title>
 			<title code="0x0c">              (あーくしゅ/オープニングアレンジ)</title>
-			<title code="0x0d">BGM #0d</title>
+			<title code="0x0d">BGM #0D</title>
 			<title code="0x0e">オープニング</title>
 			<title code="0x0f">ルアン参上    (OLD ENEMY 2)</title>
 			<title code="0x10">戦闘</title>
@@ -985,7 +985,7 @@
 			<title code="0x17">かち</title>
 			<title code="0x18">まけ</title>
 			<title code="0x19">ゲームオーバー</title>
-			<title code="0x1a">BGM #1a</title>
+			<title code="0x1a">BGM #1A</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1050,52 +1050,52 @@
 			<option name="vdata_addr" value="0x0100"/>
 			<option name="vdata_size" value="0x5000"/>
 			<option name="vfile_size" value="0x5000"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="yaksa">
-			<rom type="code"  offset="0x0000">PATCH2</rom>
-			<rom type="code"  offset="0x0100">B048</rom>
-			<rom type="bgm"   offset="0x00">A008</rom>
+			<rom type="code" offset="0x0000">PATCH2</rom>
+			<rom type="code" offset="0x0100">B048</rom>
+			<rom type="bgm" offset="0x00">A008</rom>
 			<rom type="voice" offset="0x00">A010</rom>
-			<rom type="bgm"   offset="0x01">B003</rom>
+			<rom type="bgm" offset="0x01">B003</rom>
 			<rom type="voice" offset="0x01">B048</rom>
-			<rom type="bgm"   offset="0x02">B003</rom>
+			<rom type="bgm" offset="0x02">B003</rom>
 			<rom type="voice" offset="0x02">B048</rom>
-			<rom type="bgm"   offset="0x03">B016</rom>
+			<rom type="bgm" offset="0x03">B016</rom>
 			<rom type="voice" offset="0x03">B048</rom>
-			<rom type="bgm"   offset="0x04">B017</rom>
+			<rom type="bgm" offset="0x04">B017</rom>
 			<rom type="voice" offset="0x04">B048</rom>
-			<rom type="bgm"   offset="0x05">B018</rom>
+			<rom type="bgm" offset="0x05">B018</rom>
 			<rom type="voice" offset="0x05">B048</rom>
-			<rom type="bgm"   offset="0x06">B019</rom>
+			<rom type="bgm" offset="0x06">B019</rom>
 			<rom type="voice" offset="0x06">B048</rom>
-			<rom type="bgm"   offset="0x07">B020</rom>
+			<rom type="bgm" offset="0x07">B020</rom>
 			<rom type="voice" offset="0x07">B048</rom>
-			<rom type="bgm"   offset="0x08">B021</rom>
+			<rom type="bgm" offset="0x08">B021</rom>
 			<rom type="voice" offset="0x08">B048</rom>
-			<rom type="bgm"   offset="0x09">B022</rom>
+			<rom type="bgm" offset="0x09">B022</rom>
 			<rom type="voice" offset="0x09">B048</rom>
-			<rom type="bgm"   offset="0x0a">B023</rom>
+			<rom type="bgm" offset="0x0a">B023</rom>
 			<rom type="voice" offset="0x0a">B048</rom>
-			<rom type="bgm"   offset="0x0b">B024</rom>
+			<rom type="bgm" offset="0x0b">B024</rom>
 			<rom type="voice" offset="0x0b">B048</rom>
-			<rom type="bgm"   offset="0x0c">B025</rom>
+			<rom type="bgm" offset="0x0c">B025</rom>
 			<rom type="voice" offset="0x0c">B048</rom>
-			<rom type="bgm"   offset="0x0d">B026</rom>
+			<rom type="bgm" offset="0x0d">B026</rom>
 			<rom type="voice" offset="0x0d">B048</rom>
-			<rom type="bgm"   offset="0x0e">C091</rom>
+			<rom type="bgm" offset="0x0e">C091</rom>
 			<rom type="voice" offset="0x0e">B048</rom>
-			<rom type="bgm"   offset="0x0f">C092</rom>
+			<rom type="bgm" offset="0x0f">C092</rom>
 			<rom type="voice" offset="0x0f">B048</rom>
-			<rom type="bgm"   offset="0x10">C093</rom>
+			<rom type="bgm" offset="0x10">C093</rom>
 			<rom type="voice" offset="0x10">B048</rom>
-			<rom type="bgm"   offset="0x11">C094</rom>
+			<rom type="bgm" offset="0x11">C094</rom>
 			<rom type="voice" offset="0x11">B048</rom>
-			<rom type="bgm"   offset="0x12">C095</rom>
+			<rom type="bgm" offset="0x12">C095</rom>
 			<rom type="voice" offset="0x12">B048</rom>
-			<rom type="bgm"   offset="0x13">C096</rom>
+			<rom type="bgm" offset="0x13">C096</rom>
 			<rom type="voice" offset="0x13">B048</rom>
-			<rom type="bgm"   offset="0x14">C097</rom>
+			<rom type="bgm" offset="0x14">C097</rom>
 			<rom type="voice" offset="0x14">B048</rom>
 		</romlist>
 		<titlelist>
@@ -1132,15 +1132,15 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x8000"/>
 			<option name="mfile_size" value="0x8000"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="yaksa">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">C010</rom>
-			<rom type="bgm"  offset="0x00">C056</rom>
-			<rom type="bgm"  offset="0x01">C057</rom>
-			<rom type="bgm"  offset="0x02">C058</rom>
-			<rom type="bgm"  offset="0x03">C059</rom>
+			<rom type="bgm" offset="0x00">C056</rom>
+			<rom type="bgm" offset="0x01">C057</rom>
+			<rom type="bgm" offset="0x02">C058</rom>
+			<rom type="bgm" offset="0x03">C059</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">龍王魔空『夜叉』</title>
@@ -1208,7 +1208,7 @@
 			<rom type="bgm" offset="0x33">MDAT33</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x83">レジェンド</title>
+			<title code="0x83">           * レジェンド</title>
 			<title code="0x09">MACHI      * メリーゴーランド</title>
 			<title code="0x04">YOROZUYA   * フォーセール</title>
 			<title code="0x01">SAKA       * カンパレロ</title>
@@ -1217,13 +1217,13 @@
 			<title code="0x33">SAKABA     * エクスプロージョン</title>
 			<title code="0x13">VIDE       * オペレーション</title>
 			<title code="0x23">B END      * 悠久の時を見つめて</title>
-			<title code="0x26">迷いの森</title>
+			<title code="0x26">           * 迷いの森</title>
 			<title code="0x03">RORIGAN    * イリスレクイエム</title>
 			<title code="0x08">NAZO       * センチュリー</title>
 			<title code="0x18">DUNGEON I  * プレリュード</title>
 			<title code="0x05">MAJO       * ブルーマジック</title>
 			<title code="0x07">YADOYA     * モーニングムーン</title>
-			<title code="0x19">エチュード</title>
+			<title code="0x19">           * エチュード</title>
 			<title code="0x02">SEIREI     * 精霊との出会い</title>
 			<title code="0x11">KOUYA      * ゼルドマッドネス</title>
 			<title code="0x30">HYOUGA     * ブリザード</title>
@@ -1234,8 +1234,8 @@
 			<title code="0x80">ITEM GET   * ゲッティングクローサー</title>
 			<title code="0x14">SENTOU II  * エンドレスファイト</title>
 			<title code="0x06">SEIDOUSHI  * セイント</title>
-			<title code="0x81">エンド・オブ・ジ・ワールド</title>
-			<title code="0x82">ARCUS00         * オーバー・ザ・レインボー</title>
+			<title code="0x81">           * エンド・オブ・ジ・ワールド</title>
+			<title code="0x82">ARCUS00    * オーバー・ザ・レインボー</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1281,7 +1281,7 @@
 			<rom type="bgm" offset="0x33">MDAT33</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x83">レジェンド</title>
+			<title code="0x83">           * レジェンド</title>
 			<title code="0x09">MACHI      * メリーゴーランド</title>
 			<title code="0x04">YOROZUYA   * フォーセール</title>
 			<title code="0x01">SAKA       * カンパレロ</title>
@@ -1290,13 +1290,13 @@
 			<title code="0x33">SAKABA     * エクスプロージョン</title>
 			<title code="0x13">VIDE       * オペレーション</title>
 			<title code="0x23">B END      * 悠久の時を見つめて</title>
-			<title code="0x26">迷いの森</title>
+			<title code="0x26">           * 迷いの森</title>
 			<title code="0x03">RORIGAN    * イリスレクイエム</title>
 			<title code="0x08">NAZO       * センチュリー</title>
 			<title code="0x18">DUNGEON I  * プレリュード</title>
 			<title code="0x05">MAJO       * ブルーマジック</title>
 			<title code="0x07">YADOYA     * モーニングムーン</title>
-			<title code="0x19">エチュード</title>
+			<title code="0x19">           * エチュード</title>
 			<title code="0x02">SEIREI     * 精霊との出会い</title>
 			<title code="0x11">KOUYA      * ゼルドマッドネス</title>
 			<title code="0x30">HYOUGA     * ブリザード</title>
@@ -1307,12 +1307,12 @@
 			<title code="0x80">ITEM GET   * ゲッティングクローサー</title>
 			<title code="0x14">SENTOU II  * エンドレスファイト</title>
 			<title code="0x06">SEIDOUSHI  * セイント</title>
-			<title code="0x81">エンド・オブ・ジ・ワールド</title>
-			<title code="0x82">ARCUS00         * オーバー・ザ・レインボー</title>
+			<title code="0x81">           * エンド・オブ・ジ・ワールド</title>
+			<title code="0x82">ARCUS00    * オーバー・ザ・レインボー</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ARCUS 店頭デモ(OPNA)</name>
+		<name>[PC-8801] Arcus - Shop Demo (ARCUS 店頭デモ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
@@ -1334,7 +1334,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] ARCUS 店頭デモ(OPN)</name>
+		<name>[PC-8801] Arcus - Shop Demo (ARCUS 店頭デモ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
@@ -1574,7 +1574,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] MID-GARTS (DUAL SIDE)(OPNA)</name>
+		<name>[PC-8801] Mid-Garts (ミッドガルツ) (Dual Side) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
@@ -1654,51 +1654,51 @@
 			<rom type="bgm" offset="0x28">1/5</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">MID-GARTS</title>
-			<title code="0x01000001">INTRODUCE</title>
-			<title code="0x01000002">RUNE BLADE</title>
-			<title code="0x00000003">FLUTE</title>
-			<title code="0x01000004">DAY DREAM</title>
-			<title code="0x01000005">RECKLESSNESS</title>
-			<title code="0x01000006">SILENT SPACE</title>
-			<title code="0x01000007">BURNING OUT</title>
-			<title code="0x01000008">CONTACT</title>
-			<title code="0x01000009">LIBERATION</title>
-			<title code="0x0100000a">ETERNAL WILL</title>
-			<title code="0x0100000b">MANA</title>
-			<title code="0x0100000c">CRISIS</title>
-			<title code="0x0100000d">BET MY OWN LIFE</title>
-			<title code="0x0100000e">TRUTH</title>
-			<title code="0x0100000f">TENSE HEART</title>
-			<title code="0x01000010">SNEAK IN</title>
-			<title code="0x01000011">PROTEST AGAINST POWER</title>
-			<title code="0x01000012">INDICATION OF THE FUTURE</title>
-			<title code="0x01000013">NAVIGATION OF SURCUN</title>
-			<title code="0x01000014">RUSHING</title>
-			<title code="0x01000015">DARK MOON</title>
-			<title code="0x01000016">STARTING OVER</title>
-			<title code="0x01000017">OLD ENEMY</title>
-			<title code="0x01000018">SARA REPRISE MG VERSION</title>
-			<title code="0x01000019">SUNNY PLACE</title>
-			<title code="0x0100001a">SKYSCRAPER</title>
-			<title code="0x0100001b">SKYSCRAPER 2</title>
-			<title code="0x0100001c">BEYOND THE SADNESS</title>
-			<title code="0x0100001d">OLD ENEMY 2</title>
-			<title code="0x0100001e">LA MALHEART</title>
-			<title code="0x0100001f">DON'T CRY</title>
-			<title code="0x01000020">ADVANCE</title>
-			<title code="0x01000021">BRILLIANCE BLADE</title>
-			<title code="0x01000022">DEMISE</title>
-			<title code="0x00000023">CONCLUSION</title>
-			<title code="0x01000024">STORMING BATTLES</title>
-			<title code="0x01000025">FINAL CONFRONT</title>
-			<title code="0x01000026">WITH MY DEAR FRIENDS</title>
-			<title code="0x00000027">IT'S COUNT DOWN</title>
-		<!--	<title code="0x00000028">MID-GARTS</title> -->
+			<title code="0x00000000">Mid-Garts</title>
+			<title code="0x01000001">Introduce</title>
+			<title code="0x01000002">Rune Blade</title>
+			<title code="0x00000003">Flute</title>
+			<title code="0x01000004">Day Dream</title>
+			<title code="0x01000005">Recklessness</title>
+			<title code="0x01000006">Silent Space</title>
+			<title code="0x01000007">Burning Out</title>
+			<title code="0x01000008">Contact</title>
+			<title code="0x01000009">Liberation</title>
+			<title code="0x0100000a">Eternal Will</title>
+			<title code="0x0100000b">Mana</title>
+			<title code="0x0100000c">Crisis</title>
+			<title code="0x0100000d">Bet My Own Life</title>
+			<title code="0x0100000e">Truth</title>
+			<title code="0x0100000f">Tense Heart</title>
+			<title code="0x01000010">Sneak In</title>
+			<title code="0x01000011">Protest Against Power</title>
+			<title code="0x01000012">Indication Of The Future</title>
+			<title code="0x01000013">Navigation Of Surcun</title>
+			<title code="0x01000014">Rushing</title>
+			<title code="0x01000015">Dark Moon</title>
+			<title code="0x01000016">Starting Over</title>
+			<title code="0x01000017">Old Enemy</title>
+			<title code="0x01000018">Sara (Reprise MG Version)</title>
+			<title code="0x01000019">Sunny Place</title>
+			<title code="0x0100001a">Skyscraper</title>
+			<title code="0x0100001b">Skyscraper 2</title>
+			<title code="0x0100001c">Beyond The Sadness</title>
+			<title code="0x0100001d">Old Enemy 2</title>
+			<title code="0x0100001e">La Malheart</title>
+			<title code="0x0100001f">Don't Cry</title>
+			<title code="0x01000020">Advance</title>
+			<title code="0x01000021">Brilliance Blade</title>
+			<title code="0x01000022">Demise</title>
+			<title code="0x00000023">Conclusion</title>
+			<title code="0x01000024">Storming Battles</title>
+			<title code="0x01000025">Final Confront</title>
+			<title code="0x01000026">With My Dear Friends</title>
+			<title code="0x00000027">It's Count Down</title>
+		<!--	<title code="0x00000028">Mid-Garts</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] MID-GARTS (DUAL SIDE)(OPN)</name>
+		<name>[PC-8801] Mid-Garts (ミッドガルツ) (Dual Side) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
@@ -1752,47 +1752,47 @@
 			<rom type="bgm" offset="0x28">1/5</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">MID-GARTS</title>
-			<title code="0x01000001">INTRODUCE</title>
-			<title code="0x01000002">RUNE BLADE</title>
-			<title code="0x00000003">FLUTE</title>
-			<title code="0x01000004">DAY DREAM</title>
-			<title code="0x01000005">RECKLESSNESS</title>
-			<title code="0x01000006">SILENT SPACE</title>
-			<title code="0x01000007">BURNING OUT</title>
-			<title code="0x01000008">CONTACT</title>
-			<title code="0x01000009">LIBERATION</title>
-			<title code="0x0100000a">ETERNAL WILL</title>
-			<title code="0x0100000b">MANA</title>
-			<title code="0x0100000c">CRISIS</title>
-			<title code="0x0100000d">BET MY OWN LIFE</title>
-			<title code="0x0100000e">TRUTH</title>
-			<title code="0x0100000f">TENSE HEART</title>
-			<title code="0x01000010">SNEAK IN</title>
-			<title code="0x01000011">PROTEST AGAINST POWER</title>
-			<title code="0x01000012">INDICATION OF THE FUTURE</title>
-			<title code="0x01000013">NAVIGATION OF SURCUN</title>
-			<title code="0x01000014">RUSHING</title>
-			<title code="0x01000015">DARK MOON</title>
-			<title code="0x01000016">STARTING OVER</title>
-			<title code="0x01000017">OLD ENEMY</title>
-			<title code="0x01000018">SARA REPRISE MG VERSION</title>
-			<title code="0x01000019">SUNNY PLACE</title>
-			<title code="0x0100001a">SKYSCRAPER</title>
-			<title code="0x0100001b">SKYSCRAPER 2</title>
-			<title code="0x0100001c">BEYOND THE SADNESS</title>
-			<title code="0x0100001d">OLD ENEMY 2</title>
-			<title code="0x0100001e">LA MALHEART</title>
-			<title code="0x0100001f">DON'T CRY</title>
-			<title code="0x01000020">ADVANCE</title>
-			<title code="0x01000021">BRILLIANCE BLADE</title>
-			<title code="0x01000022">DEMISE</title>
-			<title code="0x00000023">CONCLUSION</title>
-			<title code="0x01000024">STORMING BATTLES</title>
-			<title code="0x01000025">FINAL CONFRONT</title>
-			<title code="0x01000026">WITH MY DEAR FRIENDS</title>
-			<title code="0x00000027">IT'S COUNT DOWN</title>
-		<!--	<title code="0x00000028">MID-GARTS</title> -->
+			<title code="0x00000000">Mid-Garts</title>
+			<title code="0x01000001">Introduce</title>
+			<title code="0x01000002">Rune Blade</title>
+			<title code="0x00000003">Flute</title>
+			<title code="0x01000004">Day Dream</title>
+			<title code="0x01000005">Recklessness</title>
+			<title code="0x01000006">Silent Space</title>
+			<title code="0x01000007">Burning Out</title>
+			<title code="0x01000008">Contact</title>
+			<title code="0x01000009">Liberation</title>
+			<title code="0x0100000a">Eternal Will</title>
+			<title code="0x0100000b">Mana</title>
+			<title code="0x0100000c">Crisis</title>
+			<title code="0x0100000d">Bet My Own Life</title>
+			<title code="0x0100000e">Truth</title>
+			<title code="0x0100000f">Tense Heart</title>
+			<title code="0x01000010">Sneak In</title>
+			<title code="0x01000011">Protest Against Power</title>
+			<title code="0x01000012">Indication Of The Future</title>
+			<title code="0x01000013">Navigation Of Surcun</title>
+			<title code="0x01000014">Rushing</title>
+			<title code="0x01000015">Dark Moon</title>
+			<title code="0x01000016">Starting Over</title>
+			<title code="0x01000017">Old Enemy</title>
+			<title code="0x01000018">Sara (Reprise MG Version)</title>
+			<title code="0x01000019">Sunny Place</title>
+			<title code="0x0100001a">Skyscraper</title>
+			<title code="0x0100001b">Skyscraper 2</title>
+			<title code="0x0100001c">Beyond The Sadness</title>
+			<title code="0x0100001d">Old Enemy 2</title>
+			<title code="0x0100001e">La Malheart</title>
+			<title code="0x0100001f">Don't Cry</title>
+			<title code="0x01000020">Advance</title>
+			<title code="0x01000021">Brilliance Blade</title>
+			<title code="0x01000022">Demise</title>
+			<title code="0x00000023">Conclusion</title>
+			<title code="0x01000024">Storming Battles</title>
+			<title code="0x01000025">Final Confront</title>
+			<title code="0x01000026">With My Dear Friends</title>
+			<title code="0x00000027">It's Count Down</title>
+		<!--	<title code="0x00000028">Mid-Garts</title> -->
 		</titlelist>
 	</game>
 	<game>
@@ -2111,7 +2111,7 @@
 			<option name="vdata_addr" value="0xe000"/>
 			<option name="vdata_size" value="0x1000"/>
 			<option name="vfile_size" value="0x1000"/>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcus2">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -2139,83 +2139,83 @@
 			<rom type="adpcm" offset="0x34000">G020</rom>
 			<rom type="adpcm" offset="0x36000">G021</rom>
 			<rom type="adpcm" offset="0x38000">G022</rom>
-			<rom type="bgm"   offset="0x00">A039</rom>
+			<rom type="bgm" offset="0x00">A039</rom>
 			<rom type="voice" offset="0x00">A008</rom>
-			<rom type="bgm"   offset="0x01">A040</rom>
+			<rom type="bgm" offset="0x01">A040</rom>
 			<rom type="voice" offset="0x01">A008</rom>
-			<rom type="bgm"   offset="0x02">B027</rom>
+			<rom type="bgm" offset="0x02">B027</rom>
 			<rom type="voice" offset="0x02">B004</rom>
-			<rom type="bgm"   offset="0x03">B028</rom>
+			<rom type="bgm" offset="0x03">B028</rom>
 			<rom type="voice" offset="0x03">B004</rom>
-			<rom type="bgm"   offset="0x04">B029</rom>
+			<rom type="bgm" offset="0x04">B029</rom>
 			<rom type="voice" offset="0x04">B004</rom>
-			<rom type="bgm"   offset="0x05">B131</rom>
+			<rom type="bgm" offset="0x05">B131</rom>
 			<rom type="voice" offset="0x05">B004</rom>
-			<rom type="bgm"   offset="0x06">C068</rom>
+			<rom type="bgm" offset="0x06">C068</rom>
 			<rom type="voice" offset="0x06">B004</rom>
-			<rom type="bgm"   offset="0x07">C069</rom>
+			<rom type="bgm" offset="0x07">C069</rom>
 			<rom type="voice" offset="0x07">B004</rom>
-			<rom type="bgm"   offset="0x08">C070</rom>
+			<rom type="bgm" offset="0x08">C070</rom>
 			<rom type="voice" offset="0x08">B004</rom>
-			<rom type="bgm"   offset="0x09">C071</rom>
+			<rom type="bgm" offset="0x09">C071</rom>
 			<rom type="voice" offset="0x09">B004</rom>
-			<rom type="bgm"   offset="0x0a">C072</rom>
+			<rom type="bgm" offset="0x0a">C072</rom>
 			<rom type="voice" offset="0x0a">B004</rom>
-			<rom type="bgm"   offset="0x0b">C073</rom>
+			<rom type="bgm" offset="0x0b">C073</rom>
 			<rom type="voice" offset="0x0b">B004</rom>
-			<rom type="bgm"   offset="0x0c">C074</rom>
+			<rom type="bgm" offset="0x0c">C074</rom>
 			<rom type="voice" offset="0x0c">B004</rom>
-			<rom type="bgm"   offset="0x0d">C075</rom>
+			<rom type="bgm" offset="0x0d">C075</rom>
 			<rom type="voice" offset="0x0d">B004</rom>
-			<rom type="bgm"   offset="0x0e">C076</rom>
+			<rom type="bgm" offset="0x0e">C076</rom>
 			<rom type="voice" offset="0x0e">B004</rom>
-			<rom type="bgm"   offset="0x0f">C091</rom>
+			<rom type="bgm" offset="0x0f">C091</rom>
 			<rom type="voice" offset="0x0f">B004</rom>
-			<rom type="bgm"   offset="0x10">C092</rom>
+			<rom type="bgm" offset="0x10">C092</rom>
 			<rom type="voice" offset="0x10">B004</rom>
-			<rom type="bgm"   offset="0x11">C093</rom>
+			<rom type="bgm" offset="0x11">C093</rom>
 			<rom type="voice" offset="0x11">B004</rom>
-			<rom type="bgm"   offset="0x12">C094</rom>
+			<rom type="bgm" offset="0x12">C094</rom>
 			<rom type="voice" offset="0x12">B004</rom>
-			<rom type="bgm"   offset="0x13">D060</rom>
+			<rom type="bgm" offset="0x13">D060</rom>
 			<rom type="voice" offset="0x13">B004</rom>
-			<rom type="bgm"   offset="0x14">D061</rom>
+			<rom type="bgm" offset="0x14">D061</rom>
 			<rom type="voice" offset="0x14">B004</rom>
-			<rom type="bgm"   offset="0x15">D062</rom>
+			<rom type="bgm" offset="0x15">D062</rom>
 			<rom type="voice" offset="0x15">B004</rom>
-			<rom type="bgm"   offset="0x16">D063</rom>
+			<rom type="bgm" offset="0x16">D063</rom>
 			<rom type="voice" offset="0x16">B004</rom>
-			<rom type="bgm"   offset="0x17">D093</rom>
+			<rom type="bgm" offset="0x17">D093</rom>
 			<rom type="voice" offset="0x17">B004</rom>
-			<rom type="bgm"   offset="0x18">D094</rom>
+			<rom type="bgm" offset="0x18">D094</rom>
 			<rom type="voice" offset="0x18">B004</rom>
-			<rom type="bgm"   offset="0x19">D095</rom>
+			<rom type="bgm" offset="0x19">D095</rom>
 			<rom type="voice" offset="0x19">B004</rom>
-			<rom type="bgm"   offset="0x1a">D100</rom>
+			<rom type="bgm" offset="0x1a">D100</rom>
 			<rom type="voice" offset="0x1a">B004</rom>
-			<rom type="bgm"   offset="0x1b">E083</rom>
+			<rom type="bgm" offset="0x1b">E083</rom>
 			<rom type="voice" offset="0x1b">B004</rom>
-			<rom type="bgm"   offset="0x1c">E084</rom>
+			<rom type="bgm" offset="0x1c">E084</rom>
 			<rom type="voice" offset="0x1c">B004</rom>
-			<rom type="bgm"   offset="0x1d">E085</rom>
+			<rom type="bgm" offset="0x1d">E085</rom>
 			<rom type="voice" offset="0x1d">B004</rom>
-			<rom type="bgm"   offset="0x1e">E086</rom>
+			<rom type="bgm" offset="0x1e">E086</rom>
 			<rom type="voice" offset="0x1e">B004</rom>
-			<rom type="bgm"   offset="0x1f">E087</rom>
+			<rom type="bgm" offset="0x1f">E087</rom>
 			<rom type="voice" offset="0x1f">B004</rom>
-			<rom type="bgm"   offset="0x20">E088</rom>
+			<rom type="bgm" offset="0x20">E088</rom>
 			<rom type="voice" offset="0x20">B004</rom>
-			<rom type="bgm"   offset="0x21">E110</rom>
+			<rom type="bgm" offset="0x21">E110</rom>
 			<rom type="voice" offset="0x21">B004</rom>
-			<rom type="bgm"   offset="0x22">E111</rom>
+			<rom type="bgm" offset="0x22">E111</rom>
 			<rom type="voice" offset="0x22">B004</rom>
-			<rom type="bgm"   offset="0x23">F018</rom>
+			<rom type="bgm" offset="0x23">F018</rom>
 			<rom type="voice" offset="0x23">B004</rom>
-			<rom type="bgm"   offset="0x24">F075</rom>
+			<rom type="bgm" offset="0x24">F075</rom>
 			<rom type="voice" offset="0x24">B004</rom>
-			<rom type="bgm"   offset="0x25">F076</rom>
+			<rom type="bgm" offset="0x25">F076</rom>
 			<rom type="voice" offset="0x25">B004</rom>
-			<rom type="bgm"   offset="0x26">G054</rom>
+			<rom type="bgm" offset="0x26">G054</rom>
 			<rom type="voice" offset="0x26">B004</rom>
 		</romlist>
 		<titlelist>
@@ -2268,88 +2268,88 @@
 			<option name="vdata_addr" value="0xe000"/>
 			<option name="vdata_size" value="0x1000"/>
 			<option name="vfile_size" value="0x1000"/>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcus2">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0100">A007</rom>
-			<rom type="bgm"   offset="0x00">A039</rom>
+			<rom type="bgm" offset="0x00">A039</rom>
 			<rom type="voice" offset="0x00">A008</rom>
-			<rom type="bgm"   offset="0x01">A040</rom>
+			<rom type="bgm" offset="0x01">A040</rom>
 			<rom type="voice" offset="0x01">A008</rom>
-			<rom type="bgm"   offset="0x02">B027</rom>
+			<rom type="bgm" offset="0x02">B027</rom>
 			<rom type="voice" offset="0x02">B004</rom>
-			<rom type="bgm"   offset="0x03">B028</rom>
+			<rom type="bgm" offset="0x03">B028</rom>
 			<rom type="voice" offset="0x03">B004</rom>
-			<rom type="bgm"   offset="0x04">B029</rom>
+			<rom type="bgm" offset="0x04">B029</rom>
 			<rom type="voice" offset="0x04">B004</rom>
-			<rom type="bgm"   offset="0x05">B131</rom>
+			<rom type="bgm" offset="0x05">B131</rom>
 			<rom type="voice" offset="0x05">B004</rom>
-			<rom type="bgm"   offset="0x06">C068</rom>
+			<rom type="bgm" offset="0x06">C068</rom>
 			<rom type="voice" offset="0x06">B004</rom>
-			<rom type="bgm"   offset="0x07">C069</rom>
+			<rom type="bgm" offset="0x07">C069</rom>
 			<rom type="voice" offset="0x07">B004</rom>
-			<rom type="bgm"   offset="0x08">C070</rom>
+			<rom type="bgm" offset="0x08">C070</rom>
 			<rom type="voice" offset="0x08">B004</rom>
-			<rom type="bgm"   offset="0x09">C071</rom>
+			<rom type="bgm" offset="0x09">C071</rom>
 			<rom type="voice" offset="0x09">B004</rom>
-			<rom type="bgm"   offset="0x0a">C072</rom>
+			<rom type="bgm" offset="0x0a">C072</rom>
 			<rom type="voice" offset="0x0a">B004</rom>
-			<rom type="bgm"   offset="0x0b">C073</rom>
+			<rom type="bgm" offset="0x0b">C073</rom>
 			<rom type="voice" offset="0x0b">B004</rom>
-			<rom type="bgm"   offset="0x0c">C074</rom>
+			<rom type="bgm" offset="0x0c">C074</rom>
 			<rom type="voice" offset="0x0c">B004</rom>
-			<rom type="bgm"   offset="0x0d">C075</rom>
+			<rom type="bgm" offset="0x0d">C075</rom>
 			<rom type="voice" offset="0x0d">B004</rom>
-			<rom type="bgm"   offset="0x0e">C076</rom>
+			<rom type="bgm" offset="0x0e">C076</rom>
 			<rom type="voice" offset="0x0e">B004</rom>
-			<rom type="bgm"   offset="0x0f">C091</rom>
+			<rom type="bgm" offset="0x0f">C091</rom>
 			<rom type="voice" offset="0x0f">B004</rom>
-			<rom type="bgm"   offset="0x10">C092</rom>
+			<rom type="bgm" offset="0x10">C092</rom>
 			<rom type="voice" offset="0x10">B004</rom>
-			<rom type="bgm"   offset="0x11">C093</rom>
+			<rom type="bgm" offset="0x11">C093</rom>
 			<rom type="voice" offset="0x11">B004</rom>
-			<rom type="bgm"   offset="0x12">C094</rom>
+			<rom type="bgm" offset="0x12">C094</rom>
 			<rom type="voice" offset="0x12">B004</rom>
-			<rom type="bgm"   offset="0x13">D060</rom>
+			<rom type="bgm" offset="0x13">D060</rom>
 			<rom type="voice" offset="0x13">B004</rom>
-			<rom type="bgm"   offset="0x14">D061</rom>
+			<rom type="bgm" offset="0x14">D061</rom>
 			<rom type="voice" offset="0x14">B004</rom>
-			<rom type="bgm"   offset="0x15">D062</rom>
+			<rom type="bgm" offset="0x15">D062</rom>
 			<rom type="voice" offset="0x15">B004</rom>
-			<rom type="bgm"   offset="0x16">D063</rom>
+			<rom type="bgm" offset="0x16">D063</rom>
 			<rom type="voice" offset="0x16">B004</rom>
-			<rom type="bgm"   offset="0x17">D093</rom>
+			<rom type="bgm" offset="0x17">D093</rom>
 			<rom type="voice" offset="0x17">B004</rom>
-			<rom type="bgm"   offset="0x18">D094</rom>
+			<rom type="bgm" offset="0x18">D094</rom>
 			<rom type="voice" offset="0x18">B004</rom>
-			<rom type="bgm"   offset="0x19">D095</rom>
+			<rom type="bgm" offset="0x19">D095</rom>
 			<rom type="voice" offset="0x19">B004</rom>
-			<rom type="bgm"   offset="0x1a">D100</rom>
+			<rom type="bgm" offset="0x1a">D100</rom>
 			<rom type="voice" offset="0x1a">B004</rom>
-			<rom type="bgm"   offset="0x1b">E083</rom>
+			<rom type="bgm" offset="0x1b">E083</rom>
 			<rom type="voice" offset="0x1b">B004</rom>
-			<rom type="bgm"   offset="0x1c">E084</rom>
+			<rom type="bgm" offset="0x1c">E084</rom>
 			<rom type="voice" offset="0x1c">B004</rom>
-			<rom type="bgm"   offset="0x1d">E085</rom>
+			<rom type="bgm" offset="0x1d">E085</rom>
 			<rom type="voice" offset="0x1d">B004</rom>
-			<rom type="bgm"   offset="0x1e">E086</rom>
+			<rom type="bgm" offset="0x1e">E086</rom>
 			<rom type="voice" offset="0x1e">B004</rom>
-			<rom type="bgm"   offset="0x1f">E087</rom>
+			<rom type="bgm" offset="0x1f">E087</rom>
 			<rom type="voice" offset="0x1f">B004</rom>
-			<rom type="bgm"   offset="0x20">E088</rom>
+			<rom type="bgm" offset="0x20">E088</rom>
 			<rom type="voice" offset="0x20">B004</rom>
-			<rom type="bgm"   offset="0x21">E110</rom>
+			<rom type="bgm" offset="0x21">E110</rom>
 			<rom type="voice" offset="0x21">B004</rom>
-			<rom type="bgm"   offset="0x22">E111</rom>
+			<rom type="bgm" offset="0x22">E111</rom>
 			<rom type="voice" offset="0x22">B004</rom>
-			<rom type="bgm"   offset="0x23">F018</rom>
+			<rom type="bgm" offset="0x23">F018</rom>
 			<rom type="voice" offset="0x23">B004</rom>
-			<rom type="bgm"   offset="0x24">F075</rom>
+			<rom type="bgm" offset="0x24">F075</rom>
 			<rom type="voice" offset="0x24">B004</rom>
-			<rom type="bgm"   offset="0x25">F076</rom>
+			<rom type="bgm" offset="0x25">F076</rom>
 			<rom type="voice" offset="0x25">B004</rom>
-			<rom type="bgm"   offset="0x26">G054</rom>
+			<rom type="bgm" offset="0x26">G054</rom>
 			<rom type="voice" offset="0x26">B004</rom>
 		</romlist>
 		<titlelist>
@@ -2395,37 +2395,37 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Arcus II: Silent Symphony Shop Demonstration (アークスII Silent Symphony 店頭デモ) (YM2608)</name>
+		<name>[PC-8801] Arcus II: Silent Symphony - Shop Demo (アークスII Silent Symphony 店頭デモ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcus2dm">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">A007</rom>
 			<rom type="code" offset="0xe000">A008</rom>
-			<rom type="bgm"  offset="0x00">A009</rom>
+			<rom type="bgm" offset="0x00">A009</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Shop Demonstration Music</title>
+			<title code="0x00">Shop Demo Music</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Arcus II: Silent Symphony Shop Demonstration (アークスII Silent Symphony 店頭デモ) (YM2203)</name>
+		<name>[PC-8801] Arcus II: Silent Symphony - Shop Demo (アークスII Silent Symphony 店頭デモ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcus2dm">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0100">A007</rom>
 			<rom type="code" offset="0xe000">A008</rom>
-			<rom type="bgm"  offset="0x00">A009</rom>
+			<rom type="bgm" offset="0x00">A009</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Shop Demonstration Music</title>
+			<title code="0x00">Shop Demo Music</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2433,36 +2433,36 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcusyu">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">A001</rom>
 			<rom type="code" offset="0xde00">A002</rom>
-			<rom type="bgm"  offset="0x00">A028</rom>
-			<rom type="bgm"  offset="0x01">B171</rom>
-			<rom type="bgm"  offset="0x02">B172</rom>
-			<rom type="bgm"  offset="0x03">B173</rom>
-			<rom type="bgm"  offset="0x04">B174</rom>
-			<rom type="bgm"  offset="0x05">B175</rom>
-			<rom type="bgm"  offset="0x06">B176</rom>
-			<rom type="bgm"  offset="0x07">B177</rom>
-			<rom type="bgm"  offset="0x08">B178</rom>
-			<rom type="bgm"  offset="0x09">B179</rom>
-			<rom type="bgm"  offset="0x0a">B180</rom>
-			<rom type="bgm"  offset="0x0b">B181</rom>
-			<rom type="bgm"  offset="0x0c">B182</rom>
-			<rom type="bgm"  offset="0x0d">B184</rom>
-			<rom type="bgm"  offset="0x0e">B185</rom>
-			<rom type="bgm"  offset="0x0f">B186</rom>
-			<rom type="bgm"  offset="0x10">B187</rom>
-			<rom type="bgm"  offset="0x11">B188</rom>
-			<rom type="bgm"  offset="0x12">B189</rom>
-			<rom type="bgm"  offset="0x13">B190</rom>
-			<rom type="bgm"  offset="0x14">B191</rom>
-			<rom type="bgm"  offset="0x15">B192</rom>
-			<rom type="bgm"  offset="0x16">B193</rom>
-			<rom type="bgm"  offset="0x17">B194</rom>
+			<rom type="bgm" offset="0x00">A028</rom>
+			<rom type="bgm" offset="0x01">B171</rom>
+			<rom type="bgm" offset="0x02">B172</rom>
+			<rom type="bgm" offset="0x03">B173</rom>
+			<rom type="bgm" offset="0x04">B174</rom>
+			<rom type="bgm" offset="0x05">B175</rom>
+			<rom type="bgm" offset="0x06">B176</rom>
+			<rom type="bgm" offset="0x07">B177</rom>
+			<rom type="bgm" offset="0x08">B178</rom>
+			<rom type="bgm" offset="0x09">B179</rom>
+			<rom type="bgm" offset="0x0a">B180</rom>
+			<rom type="bgm" offset="0x0b">B181</rom>
+			<rom type="bgm" offset="0x0c">B182</rom>
+			<rom type="bgm" offset="0x0d">B184</rom>
+			<rom type="bgm" offset="0x0e">B185</rom>
+			<rom type="bgm" offset="0x0f">B186</rom>
+			<rom type="bgm" offset="0x10">B187</rom>
+			<rom type="bgm" offset="0x11">B188</rom>
+			<rom type="bgm" offset="0x12">B189</rom>
+			<rom type="bgm" offset="0x13">B190</rom>
+			<rom type="bgm" offset="0x14">B191</rom>
+			<rom type="bgm" offset="0x15">B192</rom>
+			<rom type="bgm" offset="0x16">B193</rom>
+			<rom type="bgm" offset="0x17">B194</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000000">オープニング</title>
@@ -2496,36 +2496,36 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="arcusyu">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0100">A001</rom>
 			<rom type="code" offset="0xde00">A002</rom>
-			<rom type="bgm"  offset="0x00">A028</rom>
-			<rom type="bgm"  offset="0x01">B171</rom>
-			<rom type="bgm"  offset="0x02">B172</rom>
-			<rom type="bgm"  offset="0x03">B173</rom>
-			<rom type="bgm"  offset="0x04">B174</rom>
-			<rom type="bgm"  offset="0x05">B175</rom>
-			<rom type="bgm"  offset="0x06">B176</rom>
-			<rom type="bgm"  offset="0x07">B177</rom>
-			<rom type="bgm"  offset="0x08">B178</rom>
-			<rom type="bgm"  offset="0x09">B179</rom>
-			<rom type="bgm"  offset="0x0a">B180</rom>
-			<rom type="bgm"  offset="0x0b">B181</rom>
-			<rom type="bgm"  offset="0x0c">B182</rom>
-			<rom type="bgm"  offset="0x0d">B184</rom>
-			<rom type="bgm"  offset="0x0e">B185</rom>
-			<rom type="bgm"  offset="0x0f">B186</rom>
-			<rom type="bgm"  offset="0x10">B187</rom>
-			<rom type="bgm"  offset="0x11">B188</rom>
-			<rom type="bgm"  offset="0x12">B189</rom>
-			<rom type="bgm"  offset="0x13">B190</rom>
-			<rom type="bgm"  offset="0x14">B191</rom>
-			<rom type="bgm"  offset="0x15">B192</rom>
-			<rom type="bgm"  offset="0x16">B193</rom>
-			<rom type="bgm"  offset="0x17">B194</rom>
+			<rom type="bgm" offset="0x00">A028</rom>
+			<rom type="bgm" offset="0x01">B171</rom>
+			<rom type="bgm" offset="0x02">B172</rom>
+			<rom type="bgm" offset="0x03">B173</rom>
+			<rom type="bgm" offset="0x04">B174</rom>
+			<rom type="bgm" offset="0x05">B175</rom>
+			<rom type="bgm" offset="0x06">B176</rom>
+			<rom type="bgm" offset="0x07">B177</rom>
+			<rom type="bgm" offset="0x08">B178</rom>
+			<rom type="bgm" offset="0x09">B179</rom>
+			<rom type="bgm" offset="0x0a">B180</rom>
+			<rom type="bgm" offset="0x0b">B181</rom>
+			<rom type="bgm" offset="0x0c">B182</rom>
+			<rom type="bgm" offset="0x0d">B184</rom>
+			<rom type="bgm" offset="0x0e">B185</rom>
+			<rom type="bgm" offset="0x0f">B186</rom>
+			<rom type="bgm" offset="0x10">B187</rom>
+			<rom type="bgm" offset="0x11">B188</rom>
+			<rom type="bgm" offset="0x12">B189</rom>
+			<rom type="bgm" offset="0x13">B190</rom>
+			<rom type="bgm" offset="0x14">B191</rom>
+			<rom type="bgm" offset="0x15">B192</rom>
+			<rom type="bgm" offset="0x16">B193</rom>
+			<rom type="bgm" offset="0x17">B194</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000000">オープニング</title>
@@ -2559,7 +2559,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="zan">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -2570,35 +2570,35 @@
 			<rom type="adpcm" offset="0x04000">A052</rom>
 			<rom type="adpcm" offset="0x06000">A053</rom>
 			<rom type="adpcm" offset="0x08000">A054</rom>
-			<rom type="bgm"  offset="0x00">A031</rom>
-			<rom type="bgm"  offset="0x01">A032</rom>
-			<rom type="bgm"  offset="0x02">B031</rom>
-			<rom type="bgm"  offset="0x03">B032</rom>
-			<rom type="bgm"  offset="0x04">B033</rom>
-			<rom type="bgm"  offset="0x05">B034</rom>
-			<rom type="bgm"  offset="0x06">B035</rom>
-			<rom type="bgm"  offset="0x07">B036</rom>
-			<rom type="bgm"  offset="0x08">B037</rom>
-			<rom type="bgm"  offset="0x09">B038</rom>
-			<rom type="bgm"  offset="0x0a">B039</rom>
-			<rom type="bgm"  offset="0x0b">B040</rom>
-			<rom type="bgm"  offset="0x0c">B041</rom>
-			<rom type="bgm"  offset="0x0d">B042</rom>
-			<rom type="bgm"  offset="0x0e">B043</rom>
-			<rom type="bgm"  offset="0x0f">B044</rom>
-			<rom type="bgm"  offset="0x10">B045</rom>
-			<rom type="bgm"  offset="0x11">B046</rom>
-			<rom type="bgm"  offset="0x12">B047</rom>
-			<rom type="bgm"  offset="0x13">B048</rom>
-			<rom type="bgm"  offset="0x14">B049</rom>
-			<rom type="bgm"  offset="0x15">B050</rom>
-			<rom type="bgm"  offset="0x16">B051</rom>
-			<rom type="bgm"  offset="0x17">B052</rom>
-			<rom type="bgm"  offset="0x18">B053</rom>
-			<rom type="bgm"  offset="0x19">B054</rom>
-			<rom type="bgm"  offset="0x1a">B055</rom>
-			<rom type="bgm"  offset="0x1b">B056</rom>
-			<rom type="bgm"  offset="0x1c">B057</rom>
+			<rom type="bgm" offset="0x00">A031</rom>
+			<rom type="bgm" offset="0x01">A032</rom>
+			<rom type="bgm" offset="0x02">B031</rom>
+			<rom type="bgm" offset="0x03">B032</rom>
+			<rom type="bgm" offset="0x04">B033</rom>
+			<rom type="bgm" offset="0x05">B034</rom>
+			<rom type="bgm" offset="0x06">B035</rom>
+			<rom type="bgm" offset="0x07">B036</rom>
+			<rom type="bgm" offset="0x08">B037</rom>
+			<rom type="bgm" offset="0x09">B038</rom>
+			<rom type="bgm" offset="0x0a">B039</rom>
+			<rom type="bgm" offset="0x0b">B040</rom>
+			<rom type="bgm" offset="0x0c">B041</rom>
+			<rom type="bgm" offset="0x0d">B042</rom>
+			<rom type="bgm" offset="0x0e">B043</rom>
+			<rom type="bgm" offset="0x0f">B044</rom>
+			<rom type="bgm" offset="0x10">B045</rom>
+			<rom type="bgm" offset="0x11">B046</rom>
+			<rom type="bgm" offset="0x12">B047</rom>
+			<rom type="bgm" offset="0x13">B048</rom>
+			<rom type="bgm" offset="0x14">B049</rom>
+			<rom type="bgm" offset="0x15">B050</rom>
+			<rom type="bgm" offset="0x16">B051</rom>
+			<rom type="bgm" offset="0x17">B052</rom>
+			<rom type="bgm" offset="0x18">B053</rom>
+			<rom type="bgm" offset="0x19">B054</rom>
+			<rom type="bgm" offset="0x1a">B055</rom>
+			<rom type="bgm" offset="0x1b">B056</rom>
+			<rom type="bgm" offset="0x1c">B057</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">YS1002</title>
@@ -2637,41 +2637,41 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="zan">
 			<rom type="code" offset="0x0000">PATCH3</rom>
 			<rom type="code" offset="0x0100">A001</rom>
 			<rom type="code" offset="0xe000">A002</rom>
-			<rom type="bgm"  offset="0x00">A031</rom>
-			<rom type="bgm"  offset="0x01">A032</rom>
-			<rom type="bgm"  offset="0x02">B031</rom>
-			<rom type="bgm"  offset="0x03">B032</rom>
-			<rom type="bgm"  offset="0x04">B033</rom>
-			<rom type="bgm"  offset="0x05">B034</rom>
-			<rom type="bgm"  offset="0x06">B035</rom>
-			<rom type="bgm"  offset="0x07">B036</rom>
-			<rom type="bgm"  offset="0x08">B037</rom>
-			<rom type="bgm"  offset="0x09">B038</rom>
-			<rom type="bgm"  offset="0x0a">B039</rom>
-			<rom type="bgm"  offset="0x0b">B040</rom>
-			<rom type="bgm"  offset="0x0c">B041</rom>
-			<rom type="bgm"  offset="0x0d">B042</rom>
-			<rom type="bgm"  offset="0x0e">B043</rom>
-			<rom type="bgm"  offset="0x0f">B044</rom>
-			<rom type="bgm"  offset="0x10">B045</rom>
-			<rom type="bgm"  offset="0x11">B046</rom>
-			<rom type="bgm"  offset="0x12">B047</rom>
-			<rom type="bgm"  offset="0x13">B048</rom>
-			<rom type="bgm"  offset="0x14">B049</rom>
-			<rom type="bgm"  offset="0x15">B050</rom>
-			<rom type="bgm"  offset="0x16">B051</rom>
-			<rom type="bgm"  offset="0x17">B052</rom>
-			<rom type="bgm"  offset="0x18">B053</rom>
-			<rom type="bgm"  offset="0x19">B054</rom>
-			<rom type="bgm"  offset="0x1a">B055</rom>
-			<rom type="bgm"  offset="0x1b">B056</rom>
-			<rom type="bgm"  offset="0x1c">B057</rom>
+			<rom type="bgm" offset="0x00">A031</rom>
+			<rom type="bgm" offset="0x01">A032</rom>
+			<rom type="bgm" offset="0x02">B031</rom>
+			<rom type="bgm" offset="0x03">B032</rom>
+			<rom type="bgm" offset="0x04">B033</rom>
+			<rom type="bgm" offset="0x05">B034</rom>
+			<rom type="bgm" offset="0x06">B035</rom>
+			<rom type="bgm" offset="0x07">B036</rom>
+			<rom type="bgm" offset="0x08">B037</rom>
+			<rom type="bgm" offset="0x09">B038</rom>
+			<rom type="bgm" offset="0x0a">B039</rom>
+			<rom type="bgm" offset="0x0b">B040</rom>
+			<rom type="bgm" offset="0x0c">B041</rom>
+			<rom type="bgm" offset="0x0d">B042</rom>
+			<rom type="bgm" offset="0x0e">B043</rom>
+			<rom type="bgm" offset="0x0f">B044</rom>
+			<rom type="bgm" offset="0x10">B045</rom>
+			<rom type="bgm" offset="0x11">B046</rom>
+			<rom type="bgm" offset="0x12">B047</rom>
+			<rom type="bgm" offset="0x13">B048</rom>
+			<rom type="bgm" offset="0x14">B049</rom>
+			<rom type="bgm" offset="0x15">B050</rom>
+			<rom type="bgm" offset="0x16">B051</rom>
+			<rom type="bgm" offset="0x17">B052</rom>
+			<rom type="bgm" offset="0x18">B053</rom>
+			<rom type="bgm" offset="0x19">B054</rom>
+			<rom type="bgm" offset="0x1a">B055</rom>
+			<rom type="bgm" offset="0x1b">B056</rom>
+			<rom type="bgm" offset="0x1c">B057</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">YS1002</title>
@@ -2710,7 +2710,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="niko2">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -2731,14 +2731,14 @@
 			<rom type="adpcm" offset="0x1c000">B012</rom>
 			<rom type="adpcm" offset="0x20000">B013</rom>
 			<rom type="adpcm" offset="0x24000">B014</rom>
-			<rom type="bgm"  offset="0x00">A004</rom>
-			<rom type="bgm"  offset="0x01">A006</rom>
-			<rom type="bgm"  offset="0x02">A011</rom>
-			<rom type="bgm"  offset="0x03">A012</rom>
-			<rom type="bgm"  offset="0x04">A020</rom>
-			<rom type="bgm"  offset="0x05">A021</rom>
-			<rom type="bgm"  offset="0x06">A024</rom>
-			<rom type="bgm"  offset="0x07">A030</rom>
+			<rom type="bgm" offset="0x00">A004</rom>
+			<rom type="bgm" offset="0x01">A006</rom>
+			<rom type="bgm" offset="0x02">A011</rom>
+			<rom type="bgm" offset="0x03">A012</rom>
+			<rom type="bgm" offset="0x04">A020</rom>
+			<rom type="bgm" offset="0x05">A021</rom>
+			<rom type="bgm" offset="0x06">A024</rom>
+			<rom type="bgm" offset="0x07">A030</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000001">オープニング</title>
@@ -2756,20 +2756,20 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Wolf Team</driveralias>
 		<options>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="niko2">
 			<rom type="code" offset="0x0000">PATCH2</rom>
 			<rom type="code" offset="0x0100">A001</rom>
 			<rom type="code" offset="0xe000">A002</rom>
-			<rom type="bgm"  offset="0x00">A004</rom>
-			<rom type="bgm"  offset="0x01">A006</rom>
-			<rom type="bgm"  offset="0x02">A011</rom>
-			<rom type="bgm"  offset="0x03">A012</rom>
-			<rom type="bgm"  offset="0x04">A020</rom>
-			<rom type="bgm"  offset="0x05">A021</rom>
-			<rom type="bgm"  offset="0x06">A024</rom>
-			<rom type="bgm"  offset="0x07">A030</rom>
+			<rom type="bgm" offset="0x00">A004</rom>
+			<rom type="bgm" offset="0x01">A006</rom>
+			<rom type="bgm" offset="0x02">A011</rom>
+			<rom type="bgm" offset="0x03">A012</rom>
+			<rom type="bgm" offset="0x04">A020</rom>
+			<rom type="bgm" offset="0x05">A021</rom>
+			<rom type="bgm" offset="0x06">A024</rom>
+			<rom type="bgm" offset="0x07">A030</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01000001">オープニング</title>
@@ -2884,7 +2884,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x17"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 		</options>
 		<romlist archive="yaksa_98">
 			<rom type="code" offset="0x01000">yaksa98.bin</rom>
@@ -2977,7 +2977,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x21000"/>
 			<option name="filesize" value="0x4000"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x2a"/>
 			<option name="opn_mix" value="0x280"/>
@@ -3082,7 +3082,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x3a000"/>
 			<option name="filesize" value="0x2000"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x1e"/>
 			<option name="opn_mix" value="0x280"/>
@@ -3241,7 +3241,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x1d70a"/>
 			<option name="filesize" value="0x2000"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x1a"/>
 			<option name="opn_mix" value="0x280"/>
@@ -3310,13 +3310,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x11"/>
+			<option name="datamax" value="0x11"/>
 		</options>
 		<romlist archive="zan98">
 			<rom type="code" offset="0x00600">000_SS</rom>
@@ -3362,13 +3362,13 @@
 		<driver type="soundorchestra">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x11"/>
+			<option name="datamax" value="0x11"/>
 		</options>
 		<romlist archive="zan98">
 			<rom type="code" offset="0x00600">000_SS</rom>
@@ -3410,17 +3410,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 斬 ～陽炎の時代～(デジタル版)</name>
+		<name>[PC-9801] Zan: Kagerou no Toki (Digital Version) (斬 ～陽炎の時代～(デジタル版)) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x50000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x11"/>
+			<option name="datamax" value="0x11"/>
 		</options>
 		<romlist archive="zan98d">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -3466,13 +3466,13 @@
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x2060"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x2060"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x26"/>
+			<option name="datamax" value="0x26"/>
 		</options>
 		<romlist archive="arcus298">
 			<rom type="code" offset="0x20600">OS.BIN</rom>
@@ -3560,13 +3560,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 		</options>
 		<romlist archive="d_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -3626,13 +3626,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -3699,13 +3699,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -3772,13 +3772,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0d"/>
+			<option name="datamax" value="0x0d"/>
 		</options>
 		<romlist archive="ryu98">
 			<rom type="code" offset="0x00600">000_SS</rom>
@@ -3816,13 +3816,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -3867,13 +3867,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -3918,13 +3918,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -3969,13 +3969,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x16"/>
+			<option name="datamax" value="0x16"/>
 		</options>
 		<romlist archive="spanof98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4031,13 +4031,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x16"/>
+			<option name="datamax" value="0x16"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -4096,13 +4096,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x16"/>
+			<option name="datamax" value="0x16"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -4161,13 +4161,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1f"/>
+			<option name="datamax" value="0x1f"/>
 		</options>
 		<romlist archive="zanyks98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4241,15 +4241,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1e"/>
+			<option name="datamax" value="0x1e"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="zanyks98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4322,13 +4322,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1e"/>
+			<option name="datamax" value="0x1e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -4403,13 +4403,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x10"/>
+			<option name="datamax" value="0x10"/>
 		</options>
 		<romlist archive="gou_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4453,15 +4453,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="gou_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4504,13 +4504,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -4555,13 +4555,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x139f0"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x3d"/>
+			<option name="datamax" value="0x3d"/>
 		</options>
 		<romlist archive="cchase98">
 			<rom type="code" offset="0x10000">OS.COM</rom>
@@ -4695,13 +4695,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 		</options>
 		<romlist archive="zan2_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4743,15 +4743,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="zan2_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4792,13 +4792,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -4841,13 +4841,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 		</options>
 		<romlist archive="zan2s_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4889,15 +4889,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="zan2s_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -4938,13 +4938,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0e"/>
+			<option name="datamax" value="0x0e"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -4987,13 +4987,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1d"/>
+			<option name="datamax" value="0x1d"/>
 		</options>
 		<romlist archive="arcus398">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5063,15 +5063,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1c"/>
+			<option name="datamax" value="0x1c"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="arcus398">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5140,13 +5140,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1c"/>
+			<option name="datamax" value="0x1c"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -5217,13 +5217,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0b"/>
+			<option name="datamax" value="0x0b"/>
 		</options>
 		<romlist archive="niko2_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5257,15 +5257,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0a"/>
+			<option name="datamax" value="0x0a"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="niko2_98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5298,13 +5298,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0a"/>
+			<option name="datamax" value="0x0a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -5339,13 +5339,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x15496"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x15"/>
+			<option name="datamax" value="0x15"/>
 		</options>
 		<romlist archive="ssg98">
 			<rom type="code" offset="0x10000">OS.COM</rom>
@@ -5399,13 +5399,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x15"/>
+			<option name="datamax" value="0x15"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -5462,13 +5462,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0060"/>
-			<option name="bootip"   value="0x0000"/>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
 			<option name="dataaddr" value="0x70000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x15"/>
+			<option name="datamax" value="0x15"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -5525,13 +5525,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095aa"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1b"/>
+			<option name="datamax" value="0x1b"/>
 		</options>
 		<romlist archive="tenbu98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5597,13 +5597,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095aa"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -5670,13 +5670,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095aa"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -5743,13 +5743,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095b2"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1b"/>
+			<option name="datamax" value="0x1b"/>
 		</options>
 		<romlist archive="tenbul98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -5815,13 +5815,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095b2"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -5888,13 +5888,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x095b2"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -5961,13 +5961,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 		</options>
 		<romlist archive="suzaku98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6027,15 +6027,15 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x17"/>
+			<option name="datamax" value="0x17"/>
 			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="3"/>
+			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="suzaku98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6094,13 +6094,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x17"/>
+			<option name="datamax" value="0x17"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -6161,13 +6161,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0c"/>
+			<option name="datamax" value="0x0c"/>
 		</options>
 		<romlist archive="hioden98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6203,13 +6203,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0b"/>
+			<option name="datamax" value="0x0b"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -6246,13 +6246,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0b"/>
+			<option name="datamax" value="0x0b"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -6289,13 +6289,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1a"/>
+			<option name="datamax" value="0x1a"/>
 		</options>
 		<romlist archive="dmdply98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6359,13 +6359,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x19"/>
+			<option name="datamax" value="0x19"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -6430,13 +6430,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x19"/>
+			<option name="datamax" value="0x19"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -6501,13 +6501,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x64000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x10"/>
+			<option name="datamax" value="0x10"/>
 		</options>
 		<romlist archive="gou2_98">
 			<rom type="code" offset="0x00600">000_SYS1</rom>
@@ -6551,13 +6551,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x64000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -6602,13 +6602,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x64000"/>
 			<option name="filesize" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -6654,13 +6654,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x08"/>
+			<option name="datamax" value="0x08"/>
 		</options>
 		<romlist archive="apros98">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6688,13 +6688,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x11"/>
+			<option name="datamax" value="0x11"/>
 		</options>
 		<romlist archive="gulfwr98">
 			<rom type="code" offset="0x00600">1/000_BOOT</rom>
@@ -6740,13 +6740,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -6791,13 +6791,13 @@
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x0f"/>
+			<option name="datamax" value="0x0f"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -6838,17 +6838,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 (緋王伝 II) (YM2608)</name>
+		<name>[PC-9801] Hiouden II (緋王伝 II) (YM2608)</name>
 		<driver type="86">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x13"/>
+			<option name="datamax" value="0x13"/>
 		</options>
 		<romlist archive="hiodn298">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6894,17 +6894,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 (緋王伝 II) (YM2203)</name>
+		<name>[PC-9801] Hiouden II (緋王伝 II) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x13"/>
+			<option name="datamax" value="0x13"/>
 		</options>
 		<romlist archive="hiodn298">
 			<rom type="code" offset="0x00600">000_BOOT</rom>
@@ -6950,17 +6950,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 (緋王伝 II) (MT-32/CM-64)</name>
+		<name>[PC-9801] Hiouden II (緋王伝 II) (MT-32/CM-64)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x13"/>
+			<option name="datamax" value="0x13"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -7009,17 +7009,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 (緋王伝 II) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Hiouden II (緋王伝 II) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x0000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x78000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x13"/>
+			<option name="datamax" value="0x13"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -7068,17 +7068,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 Dash (緋王伝 II'HD) (YM2608)</name>
+		<name>[PC-9801] Hiouden II'HD (緋王伝 II'HD) (YM2608)</name>
 		<driver type="86">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x38000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 		</options>
 		<romlist archive="hio2hd98">
 			<rom type="code" offset="0x10100">HIOSYS.COM</rom>
@@ -7134,17 +7134,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 Dash (緋王伝 II'HD) (YM2203)</name>
+		<name>[PC-9801] Hiouden II'HD (緋王伝 II'HD) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x38000"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 		</options>
 		<romlist archive="hio2hd98">
 			<rom type="code" offset="0x10100">HIOSYS.COM</rom>
@@ -7200,17 +7200,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 Dash (緋王伝 II'HD) (MT-32/CM-64)</name>
+		<name>[PC-9801] Hiouden II'HD (緋王伝 II'HD) (MT-32/CM-64)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x38000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="3"/>
 		</options>
@@ -7269,17 +7269,17 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hiouden 2 Dash (緋王伝 II'HD) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Hiouden II'HD (緋王伝 II'HD) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
-			<option name="bootcs"   value="0x1000"/>
-			<option name="bootip"   value="0xf000"/>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0xf000"/>
 			<option name="dataaddr" value="0x38000"/>
 			<option name="filesize" value="0x3000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x18"/>
+			<option name="datamax" value="0x18"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -7338,7 +7338,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Zan 3: Tenun Ware ni Ari (斬 III ～天運我にあり～) (YM2608)</name>
+		<name>[PC-9801] Zan III: Ten'un Ware ni Ari (斬 III ～天運我にあり～) (YM2608)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
@@ -7393,7 +7393,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Zan 3: Tenun Ware ni Ari (斬 III ～天運我にあり～) (YM2203)</name>
+		<name>[PC-9801] Zan III: Ten'un Ware ni Ari (斬 III ～天運我にあり～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
@@ -7448,7 +7448,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Zan 3: Tenun Ware ni Ari (斬 III ～天運我にあり～) (MT-32/CM-64)</name>
+		<name>[PC-9801] Zan III: Ten'un Ware ni Ari (斬 III ～天運我にあり～) (MT-32/CM-64)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
@@ -7504,7 +7504,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Zan 3: Tenun Ware ni Ari (斬 III ～天運我にあり～) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Zan III: Ten'un Ware ni Ari (斬 III ～天運我にあり～) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
@@ -7565,8 +7565,8 @@
 		<driveralias type="PC-9801">Wolf Team</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-13"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-13"/>
 		</options>
 		<romlist archive="grail98">
 			<rom type="file" offset="-1">fake_48.com</rom>
@@ -7589,12 +7589,12 @@
 			<title code="0x00070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0x00090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0x00120010">BGM #12</title>
@@ -7605,12 +7605,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0x001f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0x001f0010">BGM #1F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7641,12 +7641,12 @@
 			<title code="0x00070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0x00090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0x00120010">BGM #12</title>
@@ -7657,12 +7657,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0x001f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0x001f0010">BGM #1F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7695,12 +7695,12 @@
 			<title code="0x00070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0x00090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0x00120010">BGM #12</title>
@@ -7711,12 +7711,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0x001f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0x001f0010">BGM #1F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7749,12 +7749,12 @@
 			<title code="0x00070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0x00090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0x00120010">BGM #12</title>
@@ -7765,12 +7765,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0x001f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0x001f0010">BGM #1F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7804,12 +7804,12 @@
 			<title code="0xff070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0xff090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0xff120010">BGM #12</title>
@@ -7820,12 +7820,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0xff1f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0xff1f0010">BGM #1F</title>
 			<title code="0xff200010">BGM #20</title>
 			<title code="0x00210010">BGM #21</title>
 			<title code="0xff220010">BGM #22</title>
@@ -7865,12 +7865,12 @@
 			<title code="0xff070010">BGM #07</title>
 			<title code="0xff080010">BGM #08</title>
 			<title code="0xff090010">BGM #09</title>
-			<title code="0xff0a0010">BGM #0a</title>
-			<title code="0xff0b0010">BGM #0b</title>
-			<title code="0xff0c0010">BGM #0c</title>
-			<title code="0xff0d0010">BGM #0d</title>
-			<title code="0xff0e0010">BGM #0e</title>
-			<title code="0xff0f0010">BGM #0f</title>
+			<title code="0xff0a0010">BGM #0A</title>
+			<title code="0xff0b0010">BGM #0B</title>
+			<title code="0xff0c0010">BGM #0C</title>
+			<title code="0xff0d0010">BGM #0D</title>
+			<title code="0xff0e0010">BGM #0E</title>
+			<title code="0xff0f0010">BGM #0F</title>
 			<title code="0xff100010">BGM #10</title>
 			<title code="0xff110010">BGM #11</title>
 			<title code="0xff120010">BGM #12</title>
@@ -7881,12 +7881,12 @@
 			<title code="0xff170010">BGM #17</title>
 			<title code="0xff180010">BGM #18</title>
 			<title code="0xff190010">BGM #19</title>
-			<title code="0xff1a0010">BGM #1a</title>
-			<title code="0xff1b0010">BGM #1b</title>
-			<title code="0xff1c0010">BGM #1c</title>
-			<title code="0xff1d0010">BGM #1d</title>
-			<title code="0xff1e0010">BGM #1e</title>
-			<title code="0xff1f0010">BGM #1f</title>
+			<title code="0xff1a0010">BGM #1A</title>
+			<title code="0xff1b0010">BGM #1B</title>
+			<title code="0xff1c0010">BGM #1C</title>
+			<title code="0xff1d0010">BGM #1D</title>
+			<title code="0xff1e0010">BGM #1E</title>
+			<title code="0xff1f0010">BGM #1F</title>
 			<title code="0xff200010">BGM #20</title>
 			<title code="0x00210010">BGM #21</title>
 			<title code="0xff220010">BGM #22</title>
@@ -7926,12 +7926,12 @@
 			<title code="0xff370010">BGM #37</title>
 			<title code="0xff380010">BGM #38</title>
 			<title code="0xff390010">BGM #39</title>
-			<title code="0xff3a0010">BGM #3a</title>
-			<title code="0xff3b0010">BGM #3b</title>
-			<title code="0xff3c0010">BGM #3c</title>
-			<title code="0xff3d0010">BGM #3d</title>
-			<title code="0xff3e0010">BGM #3e</title>
-			<title code="0xff3f0010">BGM #3f</title>
+			<title code="0xff3a0010">BGM #3A</title>
+			<title code="0xff3b0010">BGM #3B</title>
+			<title code="0xff3c0010">BGM #3C</title>
+			<title code="0xff3d0010">BGM #3D</title>
+			<title code="0xff3e0010">BGM #3E</title>
+			<title code="0xff3f0010">BGM #3F</title>
 			<title code="0xff400010">BGM #40</title>
 			<title code="0xff410010">BGM #41</title>
 			<title code="0xff420010">BGM #42</title>
@@ -7942,12 +7942,12 @@
 			<title code="0xff470010">BGM #47</title>
 			<title code="0xff480010">BGM #48</title>
 			<title code="0xff490010">BGM #49</title>
-			<title code="0xff4a0010">BGM #4a</title>
-			<title code="0xff4b0010">BGM #4b</title>
-			<title code="0xff4c0010">BGM #4c</title>
-			<title code="0xff4d0010">BGM #4d</title>
-			<title code="0xff4e0010">BGM #4e</title>
-			<title code="0xff4f0010">BGM #4f</title>
+			<title code="0xff4a0010">BGM #4A</title>
+			<title code="0xff4b0010">BGM #4B</title>
+			<title code="0xff4c0010">BGM #4C</title>
+			<title code="0xff4d0010">BGM #4D</title>
+			<title code="0xff4e0010">BGM #4E</title>
+			<title code="0xff4f0010">BGM #4F</title>
 			<title code="0xff500010">BGM #50</title>
 			<title code="0xff510010">BGM #51</title>
 			<title code="0xff520010">BGM #52</title>
@@ -7989,12 +7989,12 @@
 			<title code="0xff370010">BGM #37</title>
 			<title code="0xff380010">BGM #38</title>
 			<title code="0xff390010">BGM #39</title>
-			<title code="0xff3a0010">BGM #3a</title>
-			<title code="0xff3b0010">BGM #3b</title>
-			<title code="0xff3c0010">BGM #3c</title>
-			<title code="0xff3d0010">BGM #3d</title>
-			<title code="0xff3e0010">BGM #3e</title>
-			<title code="0xff3f0010">BGM #3f</title>
+			<title code="0xff3a0010">BGM #3A</title>
+			<title code="0xff3b0010">BGM #3B</title>
+			<title code="0xff3c0010">BGM #3C</title>
+			<title code="0xff3d0010">BGM #3D</title>
+			<title code="0xff3e0010">BGM #3E</title>
+			<title code="0xff3f0010">BGM #3F</title>
 			<title code="0xff400010">BGM #40</title>
 			<title code="0xff410010">BGM #41</title>
 			<title code="0xff420010">BGM #42</title>
@@ -8005,12 +8005,12 @@
 			<title code="0xff470010">BGM #47</title>
 			<title code="0xff480010">BGM #48</title>
 			<title code="0xff490010">BGM #49</title>
-			<title code="0xff4a0010">BGM #4a</title>
-			<title code="0xff4b0010">BGM #4b</title>
-			<title code="0xff4c0010">BGM #4c</title>
-			<title code="0xff4d0010">BGM #4d</title>
-			<title code="0xff4e0010">BGM #4e</title>
-			<title code="0xff4f0010">BGM #4f</title>
+			<title code="0xff4a0010">BGM #4A</title>
+			<title code="0xff4b0010">BGM #4B</title>
+			<title code="0xff4c0010">BGM #4C</title>
+			<title code="0xff4d0010">BGM #4D</title>
+			<title code="0xff4e0010">BGM #4E</title>
+			<title code="0xff4f0010">BGM #4F</title>
 			<title code="0xff500010">BGM #50</title>
 			<title code="0xff510010">BGM #51</title>
 			<title code="0xff520010">BGM #52</title>
@@ -8022,7 +8022,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Gaudi: Barcelona no Kaze (ガウディ －バルセロナの風－) (YM2151+MSM6258)</name>
+		<name>[X68000] Gaudi: Barcelona no Kaze (ガウディ -バルセロナの風-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<options>
@@ -8109,7 +8109,7 @@
 		</options>
 		<romlist archive="arcus68snd">
 			<rom type="code" offset="0x00000">arc68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MAIN1.X</rom>
+			<rom type="x" offset="0x10000">MAIN1.X</rom>
 			<rom type="code" offset="0x4fd04">KOUKA.SMP</rom>
 			<rom type="code" offset="0x98000">AX2300.0B</rom>
 			<rom type="code" offset="0x9a000">YX0100.0B</rom>
@@ -8190,8 +8190,8 @@
 		<options>
 			<option name="opm_mix" value="0xc0"/>
 			<option name="pcm_mix" value="0xe0"/>
-			<option name="mfp"     value="0x01"/>
-			<option name="dmaint"  value="0x01"/>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
 		</options>
 		<romlist archive="arcus268snd">
 			<rom type="code">arcs268snd.bin</rom>
@@ -8240,13 +8240,13 @@
 			<title code="0x26">Willpower</title>
 			<title code="0x27">Wills Over</title>
 			<title code="0x28">Bridal and Peace</title>
-			<title code="0x02">店頭Demo</title>
+			<title code="0x02">Store Demo (店頭Demo)</title>
 			<title code="0x03">BGM #02</title>
-			<title code="0x04">レジェンド</title>
+			<title code="0x04">Legend (レジェンド)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Arcus II: Silent Symphony Omake Disk (アークスII Silent Symphony) (YM2151+MSM6258)</name>
+		<name>[X68000] Arcus II: Silent Symphony (Disk 4 Omake) (アークスII Silent Symphony) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Wolf Team</driveralias>
 		<romlist archive="arcus268snd">
@@ -8259,7 +8259,7 @@
 			<rom type="code" offset="0x1F0000">trap_f.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xFFFF">Wolf Team</title>
+			<title code="0xffff">Wolf Team</title>
 			<title code="0x01">Omake</title>
 			<title code="0x02">Arcus</title>
 			<title code="0x03">Legend</title>
@@ -8309,8 +8309,8 @@
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x1a00"/>
 			<option name="mfile_size" value="0x1a00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="arcus_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8364,70 +8364,70 @@
 			<!-- ドライバーが違うので音色がおかしい
 			<title code="0x2b">IPL</title>
 			  -->
-			<title code="0x05">レジェンド</title>
-			<title code="0x06">メリーゴーランド</title>
-			<title code="0x07">フォーセール</title>
-			<title code="0x08">カンパレロ</title>
-			<title code="0x09">バラード</title>
+			<title code="0x05">Legend (レジェンド)</title>
+			<title code="0x06">Merry-Go-Round (メリーゴーランド)</title>
+			<title code="0x07">For Sale (フォーセール)</title>
+			<title code="0x08">Kanparero (カンパレロ)</title>
+			<title code="0x09">Ballad (バラード)</title>
 			<!--
-			<title code="0x0a">ファイターズ・ファイト(テンポ遅い)</title>
+			<title code="0x0a">Fighter's Fight (Slow Tempo) (ファイターズ・ファイト(テンポ遅い))</title>
 			  -->
-			<title code="0x24">ファイターズ・ファイト</title>
-			<title code="0x0b">エクスプロージョン</title>
-			<title code="0x01">オペレーション</title>
+			<title code="0x24">Fighter's Fight (ファイターズ・ファイト)</title>
+			<title code="0x0b">Explosion (エクスプロージョン)</title>
+			<title code="0x01">Operation (オペレーション)</title>
 			<!--
-			<title code="0x0c">オペレーション</title>
+			<title code="0x0c">Operation (オペレーション)</title>
 			  -->
-			<title code="0x0d">悠久の時を見つめて</title>
-			<title code="0x0e">迷いの森</title>
-			<title code="0x0f">イリスレクイエム</title>
+			<title code="0x0d">Gazing Into Eternity (悠久の時を見つめて)</title>
+			<title code="0x0e">Perplexing Woods (迷いの森)</title>
+			<title code="0x0f">Iris Requiem (イリスレクイエム)</title>
 			<!--
-			<title code="0x29">イリスレクイエム</title>
+			<title code="0x29">Iris Requiem (イリスレクイエム)</title>
 			  -->
-			<title code="0x10">センチュリー</title>
-			<title code="0x11">プレリュード</title>
-			<title code="0x12">ブルーマジック</title>
+			<title code="0x10">Century (センチュリー)</title>
+			<title code="0x11">Prelude (プレリュード)</title>
+			<title code="0x12">Blue Magic (ブルーマジック)</title>
 			<!--
-			<title code="0x28">ブルーマジック(テンポ遅い)</title>
+			<title code="0x28">Blue Magic (Slow Tempo) (ブルーマジック(テンポ遅い))</title>
 			  -->
-			<title code="0x13">モーニングムーン</title>
-			<title code="0x14">エチュード</title>
-			<title code="0x15">精霊との出会い</title>
+			<title code="0x13">Morning Moon (モーニングムーン)</title>
+			<title code="0x14">Etude (エチュード)</title>
+			<title code="0x15">Meeting The Mountain Spirit (精霊との出会い)</title>
 			<!--
-			<title code="0x2a">精霊との出会い</title>
+			<title code="0x2a">Meeting The Mountain Spirit (精霊との出会い)</title>
 			  -->
-			<title code="0x16">ゼルドマッドネス</title>
-			<title code="0x17">ブリザード</title>
-			<title code="0x18">コンチェルト</title>
-			<title code="0x19">シンフォニー</title>
-			<title code="0x1a">伝説の炎</title>
-			<title code="0x1b">トラップ</title>
+			<title code="0x16">Zeld's Madness (ゼルドマッドネス)</title>
+			<title code="0x17">Blizzard (ブリザード)</title>
+			<title code="0x18">Concerto (コンチェルト)</title>
+			<title code="0x19">Symphony (シンフォニー)</title>
+			<title code="0x1a">Legend of Fire (伝説の炎)</title>
+			<title code="0x1b">Trap (トラップ)</title>
 			<!--
-			<title code="0x25">トラップ</title>
+			<title code="0x25">Trap (トラップ)</title>
 			  -->
-			<title code="0x1c">ゲッティングクローサー</title>
+			<title code="0x1c">Getting Closer (ゲッティングクローサー)</title>
 			<!--
-			<title code="0x26">ゲッティングクローサー</title>
-			<title code="0x00">エンドレスファイト</title>
+			<title code="0x26">Getting Closer (ゲッティングクローサー)</title>
+			<title code="0x00">Endless Fight (エンドレスファイト)</title>
 			  -->
-			<title code="0x1d">エンドレスファイト</title>
+			<title code="0x1d">Endless Fight (エンドレスファイト)</title>
 			<!--
-			<title code="0x27">エンドレスファイト(テンポ遅い)</title>
+			<title code="0x27">Endless Fight (Slow Tempo) (エンドレスファイト(テンポ遅い))</title>
 			  -->
-			<title code="0x1e">セイント</title>
-			<title code="0x1f">エンド・オブ・ジ・ワールド</title>
-			<title code="0x20">オーバー・ザ・レインボー</title>
-			<title code="0x02">クライシス</title>
+			<title code="0x1e">Saint (セイント)</title>
+			<title code="0x1f">End of the World (エンド・オブ・ジ・ワールド)</title>
+			<title code="0x20">Over the Rainbow (オーバー・ザ・レインボー)</title>
+			<title code="0x02">Crisis (クライシス)</title>
 			<!--
-			<title code="0x21">クライシス</title>
+			<title code="0x21">Crisis (クライシス)</title>
 			  -->
-			<title code="0x03">ラブ  ユー</title>
+			<title code="0x03">Love You (ラブ  ユー)</title>
 			<!--
-			<title code="0x22">ラブ  ユー</title>
+			<title code="0x22">Love You (ラブ  ユー)</title>
 			  -->
-			<title code="0x04">ドント ゴー アウェイ</title>
+			<title code="0x04">Don't Go Away (ドント ゴー アウェイ)</title>
 			<!--
-			<title code="0x23">ドント ゴー アウェイ</title>
+			<title code="0x23">Don't Go Away (ドント ゴー アウェイ)</title>
 			  -->
 		</titlelist>
 	</game>
@@ -8439,7 +8439,7 @@
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x0f00"/>
 			<option name="mfile_size" value="0x0f00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="arcus_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8491,70 +8491,70 @@
 		</romlist>
 		<titlelist>
 			<title code="0x2b">IPL</title>
-			<title code="0x05">レジェンド</title>
-			<title code="0x06">メリーゴーランド</title>
-			<title code="0x07">フォーセール</title>
-			<title code="0x08">カンパレロ</title>
-			<title code="0x09">バラード</title>
+			<title code="0x05">Legend (レジェンド)</title>
+			<title code="0x06">Merry-Go-Round (メリーゴーランド)</title>
+			<title code="0x07">For Sale (フォーセール)</title>
+			<title code="0x08">Kanparero (カンパレロ)</title>
+			<title code="0x09">Ballad (バラード)</title>
 			<!--
-			<title code="0x0a">ファイターズ・ファイト</title>
+			<title code="0x0a">Fighter's Fight (ファイターズ・ファイト)</title>
 			  -->
-			<title code="0x24">ファイターズ・ファイト</title>
-			<title code="0x0b">エクスプロージョン</title>
+			<title code="0x24">Fighter's Fight (ファイターズ・ファイト)</title>
+			<title code="0x0b">Explosion (エクスプロージョン)</title>
 			<!--
-			<title code="0x01">オペレーション</title>
+			<title code="0x01">Operation (オペレーション)</title>
 			  -->
-			<title code="0x0c">オペレーション</title>
-			<title code="0x0d">悠久の時を見つめて</title>
-			<title code="0x0e">迷いの森</title>
-			<title code="0x0f">イリスレクイエム</title>
+			<title code="0x0c">Operation (オペレーション)</title>
+			<title code="0x0d">Gazing Into Eternity (悠久の時を見つめて)</title>
+			<title code="0x0e">Perplexing Woods (迷いの森)</title>
+			<title code="0x0f">Iris Requiem (イリスレクイエム)</title>
 			<!--
-			<title code="0x29">イリスレクイエム</title>
+			<title code="0x29">Iris Requiem (イリスレクイエム)</title>
 			  -->
-			<title code="0x10">センチュリー</title>
-			<title code="0x11">プレリュード</title>
-			<title code="0x12">ブルーマジック</title>
+			<title code="0x10">Century (センチュリー)</title>
+			<title code="0x11">Prelude (プレリュード)</title>
+			<title code="0x12">Blue Magic (ブルーマジック)</title>
 			<!--
-			<title code="0x28">ブルーマジック</title>
+			<title code="0x28">Blue Magic (ブルーマジック)</title>
 			  -->
-			<title code="0x13">モーニングムーン</title>
-			<title code="0x14">エチュード</title>
-			<title code="0x15">精霊との出会い</title>
+			<title code="0x13">Morning Moon (モーニングムーン)</title>
+			<title code="0x14">Etude (エチュード)</title>
+			<title code="0x15">Meeting The Mountain Spirit (精霊との出会い)</title>
 			<!--
-			<title code="0x2a">精霊との出会い</title>
+			<title code="0x2a">Meeting The Mountain Spirit (精霊との出会い)</title>
 			  -->
-			<title code="0x16">ゼルドマッドネス</title>
-			<title code="0x17">ブリザード</title>
-			<title code="0x18">コンチェルト</title>
-			<title code="0x19">シンフォニー</title>
-			<title code="0x1a">伝説の炎</title>
-			<title code="0x1b">トラップ</title>
+			<title code="0x16">Zeld's Madness (ゼルドマッドネス)</title>
+			<title code="0x17">Blizzard (ブリザード)</title>
+			<title code="0x18">Concerto (コンチェルト)</title>
+			<title code="0x19">Symphony (シンフォニー)</title>
+			<title code="0x1a">Legend of Fire (伝説の炎)</title>
+			<title code="0x1b">Trap (トラップ)</title>
 			<!--
-			<title code="0x25">トラップ</title>
+			<title code="0x25">Trap (トラップ)</title>
 			  -->
-			<title code="0x1c">ゲッティングクローサー</title>
+			<title code="0x1c">Getting Closer (ゲッティングクローサー)</title>
 			<!--
-			<title code="0x26">ゲッティングクローサー</title>
-			<title code="0x1d">エンドレスファイト</title>
+			<title code="0x26">Getting Closer (ゲッティングクローサー)</title>
+			<title code="0x1d">Endless Fight (エンドレスファイト)</title>
 			  -->
-			<title code="0x00">エンドレスファイト</title>
+			<title code="0x00">Endless Fight (エンドレスファイト)</title>
 			<!--
 			<title code="0x27">エンドレスファイト</title>
 			  -->
-			<title code="0x1e">セイント</title>
-			<title code="0x1f">エンド・オブ・ジ・ワールド</title>
-			<title code="0x20">オーバー・ザ・レインボー</title>
-			<title code="0x02">クライシス</title>
+			<title code="0x1e">Saint (セイント)</title>
+			<title code="0x1f">End of the World (エンド・オブ・ジ・ワールド)</title>
+			<title code="0x20">Over the Rainbow (オーバー・ザ・レインボー)</title>
+			<title code="0x02">Crisis (クライシス)</title>
 			<!--
-			<title code="0x21">クライシス</title>
+			<title code="0x21">Crisis (クライシス)</title>
 			  -->
-			<title code="0x03">ラブ  ユー</title>
+			<title code="0x03">Love You (ラブ  ユー)</title>
 			<!--
-			<title code="0x22">ラブ  ユー</title>
+			<title code="0x22">Love You (ラブ  ユー)</title>
 			  -->
-			<title code="0x04">ドント ゴー アウェイ</title>
+			<title code="0x04">Don't Go Away (ドント ゴー アウェイ)</title>
 			<!--
-			<title code="0x23">ドント ゴー アウェイ</title>
+			<title code="0x23">Don't Go Away (ドント ゴー アウェイ)</title>
 			  -->
 		</titlelist>
 	</game>
@@ -8566,8 +8566,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1200"/>
 			<option name="mfile_size" value="0x1200"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="arcus2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8628,9 +8628,9 @@
 			<title code="0x0008">Mute</title>
 			  -->
 			<title code="0x0000">IPL</title>
-			<title code="0x0003">Ten Years After1</title>
-			<title code="0x0001">Ten Years After2</title>
-			<title code="0x0002">Ten Years After3</title>
+			<title code="0x0003">Ten Years After (1)</title>
+			<title code="0x0001">Ten Years After (2)</title>
+			<title code="0x0002">Ten Years After (3)</title>
 			<title code="0x0112">Loggers</title>
 			<title code="0x010a">Smile</title>
 			<title code="0x010b">Take A Rest</title>
@@ -8674,7 +8674,7 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1200"/>
 			<option name="mfile_size" value="0x1200"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="arcus2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8735,9 +8735,9 @@
 			<title code="0x0008">Mute</title>
 			  -->
 			<title code="0x0000">IPL</title>
-			<title code="0x0003">Ten Years After1</title>
-			<title code="0x0001">Ten Years After2</title>
-			<title code="0x0002">Ten Years After3</title>
+			<title code="0x0003">Ten Years After (1)</title>
+			<title code="0x0001">Ten Years After (2)</title>
+			<title code="0x0002">Ten Years After (3)</title>
 			<title code="0x0112">Loggers</title>
 			<title code="0x010a">Smile</title>
 			<title code="0x010b">Take A Rest</title>
@@ -8781,8 +8781,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="gaudi_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8864,14 +8864,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Gaudi: Barcelona no Kaze (ガウディ －バルセロナの風－) (AY-3-8910)</name>
+		<name>[MSX2] Gaudi: Barcelona no Kaze (ガウディ -バルセロナの風-) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Wolf Team</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="gaudi_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -8960,9 +8960,9 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1e00"/>
 			<option name="mfile_size" value="0x1e00"/>
-			<option name="mdata_num"  value="0x056"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="mdata_num" value="0x056"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="mg_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9111,9 +9111,9 @@
 		<options>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1e00"/>
-			<option name="mdata_num"  value="0x56"/>
+			<option name="mdata_num" value="0x56"/>
 			<option name="mfile_size" value="0x1e00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="mg_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9260,8 +9260,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="niko2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9296,7 +9296,7 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1800"/>
 			<option name="mfile_size" value="0x1800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="niko2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9335,7 +9335,7 @@
 			<option name="mdata_addr" value="0x8e78"/>
 			<option name="mdata_size" value="0x0c00"/>
 			<option name="mfile_size" value="0x0c00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="yaksa_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9390,8 +9390,8 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="arcshu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9458,7 +9458,7 @@
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="arcshu_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -9518,15 +9518,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] Arcus (アークス)</name>
+		<name>[FM-77AV] Arcus (アークス) (YM2203)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Wolf Team</driveralias>
+		<driveralias type="FM-77AV">Wolf Team</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0x9600"/>
 			<option name="mfile_size" value="0x2000"/>
 			<option name="mdata_size" value="0x2000"/>
-			<option name="mdata_num"  value="0x32"/>
+			<option name="mdata_num" value="0x32"/>
 		</options>
 		<romlist archive="arcus_fmav">
 			<rom type="code" offset="0x4000">PATCH.BIN</rom>
@@ -9679,11 +9679,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] Yaksa (ヤシャ)</name>
+		<name>[FM-77AV] Yaksa (ヤシャ) (YM2203)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Wolf Team</driveralias>
+		<driveralias type="FM-77AV">Wolf Team</driveralias>
 		<options>
-			<option name="init_pc"    value="0x5000"/>
+			<option name="init_pc" value="0x5000"/>
 			<option name="mdata_addr" value="0x7a00"/>
 			<option name="mfile_size" value="0x2000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -9692,30 +9692,30 @@
 			<rom type="code" offset="0x0100">DRIVER.BIN</rom>
 			<rom type="code" offset="0xA300">DRIVER2.BIN</rom>
 			<rom type="code" offset="0x5000">PATCH.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.0B</rom>
-			<rom type="bgm"  offset="0x01">MUS01.0B</rom>
-			<rom type="bgm"  offset="0x02">MUS02.0B</rom>
-			<rom type="bgm"  offset="0x03">MUS03.0B</rom>
-			<rom type="bgm"  offset="0x04">MUS04.0B</rom>
-			<rom type="bgm"  offset="0x05">MUS05.0B</rom>
-			<rom type="bgm"  offset="0x06">MUS06.0B</rom>
-			<rom type="bgm"  offset="0x07">MUS07.0B</rom>
-			<rom type="bgm"  offset="0x08">MUS08.0B</rom>
-			<rom type="bgm"  offset="0x09">MUS09.0B</rom>
-			<rom type="bgm"  offset="0x0a">MUS0A.0B</rom>
-			<rom type="bgm"  offset="0x0b">MUS0B.0B</rom>
-			<rom type="bgm"  offset="0x0c">MUS0C.0B</rom>
-			<rom type="bgm"  offset="0x0d">MUS0D.0B</rom>
-			<rom type="bgm"  offset="0x0e">MUS0E.0B</rom>
-			<rom type="bgm"  offset="0x0f">MUS0F.0B</rom>
-			<rom type="bgm"  offset="0x10">MUS10.0B</rom>
-			<rom type="bgm"  offset="0x11">MUS11.0B</rom>
-			<rom type="bgm"  offset="0x12">MUS12.0B</rom>
-			<rom type="bgm"  offset="0x13">MUS13.0B</rom>
-			<rom type="bgm"  offset="0x14">MUS14.0B</rom>
-			<rom type="bgm"  offset="0x15">MUS15.0B</rom>
-			<rom type="bgm"  offset="0x16">MUS16.0B</rom>
-			<rom type="bgm"  offset="0x17">MUS17.0B</rom>
+			<rom type="bgm" offset="0x00">MUS00.0B</rom>
+			<rom type="bgm" offset="0x01">MUS01.0B</rom>
+			<rom type="bgm" offset="0x02">MUS02.0B</rom>
+			<rom type="bgm" offset="0x03">MUS03.0B</rom>
+			<rom type="bgm" offset="0x04">MUS04.0B</rom>
+			<rom type="bgm" offset="0x05">MUS05.0B</rom>
+			<rom type="bgm" offset="0x06">MUS06.0B</rom>
+			<rom type="bgm" offset="0x07">MUS07.0B</rom>
+			<rom type="bgm" offset="0x08">MUS08.0B</rom>
+			<rom type="bgm" offset="0x09">MUS09.0B</rom>
+			<rom type="bgm" offset="0x0a">MUS0A.0B</rom>
+			<rom type="bgm" offset="0x0b">MUS0B.0B</rom>
+			<rom type="bgm" offset="0x0c">MUS0C.0B</rom>
+			<rom type="bgm" offset="0x0d">MUS0D.0B</rom>
+			<rom type="bgm" offset="0x0e">MUS0E.0B</rom>
+			<rom type="bgm" offset="0x0f">MUS0F.0B</rom>
+			<rom type="bgm" offset="0x10">MUS10.0B</rom>
+			<rom type="bgm" offset="0x11">MUS11.0B</rom>
+			<rom type="bgm" offset="0x12">MUS12.0B</rom>
+			<rom type="bgm" offset="0x13">MUS13.0B</rom>
+			<rom type="bgm" offset="0x14">MUS14.0B</rom>
+			<rom type="bgm" offset="0x15">MUS15.0B</rom>
+			<rom type="bgm" offset="0x16">MUS16.0B</rom>
+			<rom type="bgm" offset="0x17">MUS17.0B</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0100">IPL</title>
@@ -9745,11 +9745,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77AV] Yaksa (ヤシャ) (Music Mode)</name>
+		<name>[FM-77AV] Yaksa (ヤシャ) (Music Mode)</name>
 		<driver type="generic">fm77av</driver>
-		<driveralias type="FM77AV">Wolf Team</driveralias>
+		<driveralias type="FM-77AV">Wolf Team</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
+			<option name="init_pc" value="0x0000"/>
 			<option name="mdata_addr" value="0x4000"/>
 			<option name="mfile_size" value="0x6200"/>
 			<option name="mdata_size" value="0x6200"/>
@@ -9758,10 +9758,10 @@
 			<rom type="code" offset="0x0000">PATCH2.BIN</rom>
 			<rom type="code" offset="0x1000">DRIVER3.BIN</rom>
 			<rom type="code" offset="0x1f00">DRIVER4.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS20.0B</rom>
-			<rom type="bgm"  offset="0x01">MUS21.0B</rom>
-			<rom type="bgm"  offset="0x02">MUS22.0B</rom>
-			<rom type="bgm"  offset="0x03">MUS23.0B</rom>
+			<rom type="bgm" offset="0x00">MUS20.0B</rom>
+			<rom type="bgm" offset="0x01">MUS21.0B</rom>
+			<rom type="bgm" offset="0x02">MUS22.0B</rom>
+			<rom type="bgm" offset="0x03">MUS23.0B</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0000">龍王魔空『夜叉』</title>

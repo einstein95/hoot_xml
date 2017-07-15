@@ -179,7 +179,7 @@
 			<option name="opm_mix" value="0x100"/>
 			<option name="mfp" value="0x01"/>
 		</options>
-		<romlist archive="dash68snd">
+		<romlist archive="rallybik68snd">
 			<rom type="code" offset="0x000000">dash68snd.bin</rom>
 			<rom type="x" offset="0x010000">DASH.X</rom>
 			<rom type="code" offset="0xe68000">DH.SND</rom>
@@ -273,7 +273,7 @@
 			<title code="0x10">Level Up (Unused) (レベルアップ(未使用))</title>
 			<title code="0x11">Defeat (Unused) (敗北(未使用))</title>
 			<title code="0x12">Ending Theme 1 (Unused) (エンディング・テーマ1(未使用))</title>
-			<title code="0x13">Ending Theme 2 ~Ocharake~ (Unused) (エンディング・テーマ2～おちゃらけ～(未使用))</title>
+			<title code="0x13">Ending Theme 2 -Ocharake- (Unused) (エンディング・テーマ2～おちゃらけ～(未使用))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -562,11 +562,11 @@
 		<titlelist>
 			<title code="0x01">Title (タイトル)</title>
 			<title code="0x02">Opening Theme (オープニング・テーマ)</title>
-			<title code="0x03">「まて！このやろー！」</title>
+			<title code="0x03">「まて!このやろー!」</title>
 			<title code="0x04">Game Start (ゲームスタート)</title>
 			<title code="0x05">日本選手権～宿敵りきとの対決</title>
 			<title code="0x0f">勝利</title>
-			<title code="0x0b">世界進出！！</title>
+			<title code="0x0b">世界進出!!</title>
 			<title code="0x06">対イギリス・チームのテーマ</title>
 			<title code="0x07">対アイスランド・チームのテーマ</title>
 			<title code="0x08">対中国・チームのテーマ</title>
@@ -703,7 +703,7 @@
 			<title code="116">Next Area (Story 2)</title>
 			<title code="117">Contact (Story 3)</title>
 			<title code="118">See you again (Name Entry)</title>
-			<title code="119">Boss 5 (イントロ無し)</title>
+			<title code="119">Boss 5 (No Intro) (Boss 5 (イントロ無し))</title>
 			<range min="201" max="204" extcode="1">SFX %03d</range>
 			<range min="206" max="206" extcode="1">SFX %03d</range>
 			<range min="208" max="212" extcode="1">SFX %03d</range>

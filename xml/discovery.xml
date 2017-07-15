@@ -82,7 +82,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage (MT-32)</name>
+		<name>[PC-9801] Mirage (ミラージュ) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -127,7 +127,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage (Munt, MT-32 Simmulation)</name>
+		<name>[PC-9801] Mirage (ミラージュ) (Munt, MT-32 Simmulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -172,97 +172,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage (ミラージュ) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="mirage_98">
-			<rom type="file" offset="-1">mirag_98.com</rom>
-			<rom type="file" offset="-1">MIRAGE.EXE</rom>
-			<rom type="file" offset="0x10">ML00.MD1</rom>
-			<rom type="file" offset="0x11">ML01.MD1</rom>
-			<rom type="file" offset="0x12">ML02.MD1</rom>
-			<rom type="file" offset="0x13">ML03.MD1</rom>
-			<rom type="file" offset="0x14">ML04.MD1</rom>
-			<rom type="file" offset="0x15">ML05.MD1</rom>
-			<rom type="file" offset="0x16">ML06.MD1</rom>
-			<rom type="file" offset="0x17">ML07.MD1</rom>
-			<rom type="file" offset="0x18">ML08.MD1</rom>
-			<rom type="file" offset="0x19">ML09.MD1</rom>
-			<rom type="file" offset="0x1a">ML10.MD1</rom>
-			<rom type="file" offset="0x1b">ML11.MD1</rom>
-			<rom type="file" offset="0x1c">ML12.MD1</rom>
-			<rom type="file" offset="0x1d">ML13.MD1</rom>
-			<rom type="shell" offset="0">mirag_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x110">メイン・テーマ</title>
-			<title code="0x111">魔法使いの弟子</title>
-			<title code="0x112">パリッシュ・ブルー</title>
-			<title code="0x113">ステップ・アップ</title>
-			<title code="0x11d">アローン</title>
-			<title code="0x114">ライト・ステップ</title>
-			<title code="0x115">スパークル</title>
-			<title code="0x116">ミニ・ストップ</title>
-			<title code="0x117">アクアのテーマ</title>
-			<title code="0x118">魔王マルデューク</title>
-			<title code="0x119">神々のたそがれ</title>
-			<title code="0x11a">コーダ</title>
-			<title code="0x11b">シューティング・スター</title>
-			<title code="0x11c">マジックグラフィー</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Mirage (ミラージュ) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="mirage_98">
-			<rom type="file" offset="-1">mirag_98.com</rom>
-			<rom type="file" offset="-1">MIRAGE.EXE</rom>
-			<rom type="file" offset="0x10">ML00.MD1</rom>
-			<rom type="file" offset="0x11">ML01.MD1</rom>
-			<rom type="file" offset="0x12">ML02.MD1</rom>
-			<rom type="file" offset="0x13">ML03.MD1</rom>
-			<rom type="file" offset="0x14">ML04.MD1</rom>
-			<rom type="file" offset="0x15">ML05.MD1</rom>
-			<rom type="file" offset="0x16">ML06.MD1</rom>
-			<rom type="file" offset="0x17">ML07.MD1</rom>
-			<rom type="file" offset="0x18">ML08.MD1</rom>
-			<rom type="file" offset="0x19">ML09.MD1</rom>
-			<rom type="file" offset="0x1a">ML10.MD1</rom>
-			<rom type="file" offset="0x1b">ML11.MD1</rom>
-			<rom type="file" offset="0x1c">ML12.MD1</rom>
-			<rom type="file" offset="0x1d">ML13.MD1</rom>
-			<rom type="shell" offset="0">mirag_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x110">メイン・テーマ</title>
-			<title code="0x111">魔法使いの弟子</title>
-			<title code="0x112">パリッシュ・ブルー</title>
-			<title code="0x113">ステップ・アップ</title>
-			<title code="0x11d">アローン</title>
-			<title code="0x114">ライト・ステップ</title>
-			<title code="0x115">スパークル</title>
-			<title code="0x116">ミニ・ストップ</title>
-			<title code="0x117">アクアのテーマ</title>
-			<title code="0x118">魔王マルデューク</title>
-			<title code="0x119">神々のたそがれ</title>
-			<title code="0x11a">コーダ</title>
-			<title code="0x11b">シューティング・スター</title>
-			<title code="0x11c">マジックグラフィー</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (YM2203)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<!-- PMD.COM は ver 4.8p を使用 -->
@@ -331,7 +241,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (YM2608)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<!-- PMD.COM は ver 4.8p を使用 -->
@@ -399,7 +309,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (MT-32)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -447,7 +357,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -495,7 +405,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (GS)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -545,7 +455,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -604,9 +514,9 @@
 		<romlist archive="red_98">
 			<rom type="file" offset="-1">RED_98.COM</rom>
 			<rom type="file" offset="-1">RED.EXE</rom>
-			<rom type="file" offset="6" >RED.OP1</rom>
-			<rom type="file" offset="7" >RED.SS1</rom>
-			<rom type="file" offset="8" >RED.EF1</rom>
+			<rom type="file" offset="6">RED.OP1</rom>
+			<rom type="file" offset="7">RED.SS1</rom>
+			<rom type="file" offset="8">RED.EF1</rom>
 			<rom type="file" offset="0x10">RED_00.MF1</rom>
 			<rom type="file" offset="0x11">RED_01.MF1</rom>
 			<rom type="file" offset="0x12">RED_02.MF1</rom>
@@ -643,7 +553,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Red (MT-32)</name>
+		<name>[PC-9801] Red (レッド) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -690,107 +600,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Red (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Red (レッド) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="red_98">
-			<rom type="file" offset="-1">red_98.com</rom>
-			<rom type="file" offset="-1">RED.EXE</rom>
-			<rom type="file" offset="0x10">RED_00.MD1</rom>
-			<rom type="file" offset="0x11">RED_01.MD1</rom>
-			<rom type="file" offset="0x12">RED_02.MD1</rom>
-			<rom type="file" offset="0x13">RED_03.MD1</rom>
-			<rom type="file" offset="0x14">RED_04.MD1</rom>
-			<rom type="file" offset="0x15">RED_05.MD1</rom>
-			<rom type="file" offset="0x16">RED_06.MD1</rom>
-			<rom type="file" offset="0x17">RED_07.MD1</rom>
-			<rom type="file" offset="0x18">RED_08.MD1</rom>
-			<rom type="file" offset="0x19">RED_09.MD1</rom>
-			<rom type="file" offset="0x1a">RED_10.MD1</rom>
-			<rom type="file" offset="0x1b">RED_11.MD1</rom>
-			<rom type="file" offset="0x1c">RED_12.MD1</rom>
-			<rom type="file" offset="0x1d">RED_13.MD1</rom>
-			<rom type="file" offset="0x1e">RED_14.MD1</rom>
-			<rom type="shell" offset="0">red_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x11d">ラグランジュ・ポイント</title>
-			<title code="0x111">グレイ・タイム</title>
-			<title code="0x112">ティアーズ・オブ・イオス</title>
-			<title code="0x113">ビッグ・ブルー</title>
-			<title code="0x114">アラウンド・ザ・クロック</title>
-			<title code="0x115">ムービング・オン</title>
-			<title code="0x116">ダークウォーク</title>
-			<title code="0x11e">ブラスト！</title>
-			<title code="0x118">イエス・ノー</title>
-			<title code="0x119">スノーバード・ファンタジー</title>
-			<title code="0x11a">デス・アンド・リザレクション</title>
-			<title code="0x11b">オーバードライブ</title>
-			<title code="0x11c">レディ・トゥ・スペース</title>
-			<title code="0x110">グラス・ファイヤー</title>
-			<title code="0x117">ネクスト</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Red (レッド) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="red_98">
-			<rom type="file" offset="-1">red_98.com</rom>
-			<rom type="file" offset="-1">RED.EXE</rom>
-			<rom type="file" offset="0x10">RED_00.MD1</rom>
-			<rom type="file" offset="0x11">RED_01.MD1</rom>
-			<rom type="file" offset="0x12">RED_02.MD1</rom>
-			<rom type="file" offset="0x13">RED_03.MD1</rom>
-			<rom type="file" offset="0x14">RED_04.MD1</rom>
-			<rom type="file" offset="0x15">RED_05.MD1</rom>
-			<rom type="file" offset="0x16">RED_06.MD1</rom>
-			<rom type="file" offset="0x17">RED_07.MD1</rom>
-			<rom type="file" offset="0x18">RED_08.MD1</rom>
-			<rom type="file" offset="0x19">RED_09.MD1</rom>
-			<rom type="file" offset="0x1a">RED_10.MD1</rom>
-			<rom type="file" offset="0x1b">RED_11.MD1</rom>
-			<rom type="file" offset="0x1c">RED_12.MD1</rom>
-			<rom type="file" offset="0x1d">RED_13.MD1</rom>
-			<rom type="file" offset="0x1e">RED_14.MD1</rom>
-			<rom type="shell" offset="0">red_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x11d">ラグランジュ・ポイント</title>
-			<title code="0x111">グレイ・タイム</title>
-			<title code="0x112">ティアーズ・オブ・イオス</title>
-			<title code="0x113">ビッグ・ブルー</title>
-			<title code="0x114">アラウンド・ザ・クロック</title>
-			<title code="0x115">ムービング・オン</title>
-			<title code="0x116">ダークウォーク</title>
-			<title code="0x11e">ブラスト！</title>
-			<title code="0x118">イエス・ノー</title>
-			<title code="0x119">スノーバード・ファンタジー</title>
-			<title code="0x11a">デス・アンド・リザレクション</title>
-			<title code="0x11b">オーバードライブ</title>
-			<title code="0x11c">レディ・トゥ・スペース</title>
-			<title code="0x110">グラス・ファイヤー</title>
-			<title code="0x117">ネクスト</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Red (レッド) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
 		</options>
 		<romlist archive="red_98">
 			<rom type="file" offset="-1">red_98.com</rom>
@@ -840,8 +656,8 @@
 		<romlist archive="sweet_e_98">
 			<rom type="file" offset="-1">SWEET_98.COM</rom>
 			<rom type="file" offset="-1">ADVB.EXE</rom>
-			<rom type="file" offset="6" >EDIT.OPN</rom>
-			<rom type="file" offset="7" >EDIT.SSG</rom>
+			<rom type="file" offset="6">EDIT.OPN</rom>
+			<rom type="file" offset="7">EDIT.SSG</rom>
 			<rom type="file" offset="0x11">SWEET1.MUF</rom>
 			<rom type="file" offset="0x12">SWEET2.MUF</rom>
 			<rom type="file" offset="0x13">SWEET3.MUF</rom>
@@ -870,7 +686,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sweet Emotion (MT-32)</name>
+		<name>[PC-9801] Sweet Emotion (スウィートエモーション) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -909,91 +725,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sweet Emotion (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Sweet Emotion (スウィートエモーション) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="sweet_e_98">
-			<rom type="file" offset="-1">sweet_98.com</rom>
-			<rom type="file" offset="-1">ADVB.EXE</rom>
-			<rom type="file" offset="0x11">SWEET1.MUD</rom>
-			<rom type="file" offset="0x12">SWEET2.MUD</rom>
-			<rom type="file" offset="0x13">SWEET3.MUD</rom>
-			<rom type="file" offset="0x14">SWEET4.MUD</rom>
-			<rom type="file" offset="0x15">SWEET5.MUD</rom>
-			<rom type="file" offset="0x16">SWEET6.MUD</rom>
-			<rom type="file" offset="0x17">SWEET7.MUD</rom>
-			<rom type="file" offset="0x18">SWEET8.MUD</rom>
-			<rom type="file" offset="0x19">SWEET9.MUD</rom>
-			<rom type="file" offset="0x1a">SWEETA.MUD</rom>
-			<rom type="file" offset="0x1b">SWEETB.MUD</rom>
-			<rom type="shell" offset="0">sweet_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x111">SWEET1.MUD</title>
-			<title code="0x112">SWEET2.MUD</title>
-			<title code="0x113">SWEET3.MUD</title>
-			<title code="0x114">SWEET4.MUD</title>
-			<title code="0x115">SWEET5.MUD</title>
-			<title code="0x116">SWEET6.MUD</title>
-			<title code="0x117">SWEET7.MUD</title>
-			<title code="0x118">SWEET8.MUD</title>
-			<title code="0x119">SWEET9.MUD</title>
-			<title code="0x11a">SWEETA.MUD</title>
-			<title code="0x11b">SWEETB.MUD</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Sweet Emotion (スウィートエモーション) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="sweet_e_98">
-			<rom type="file" offset="-1">sweet_98.com</rom>
-			<rom type="file" offset="-1">ADVB.EXE</rom>
-			<rom type="file" offset="0x11">SWEET1.MUD</rom>
-			<rom type="file" offset="0x12">SWEET2.MUD</rom>
-			<rom type="file" offset="0x13">SWEET3.MUD</rom>
-			<rom type="file" offset="0x14">SWEET4.MUD</rom>
-			<rom type="file" offset="0x15">SWEET5.MUD</rom>
-			<rom type="file" offset="0x16">SWEET6.MUD</rom>
-			<rom type="file" offset="0x17">SWEET7.MUD</rom>
-			<rom type="file" offset="0x18">SWEET8.MUD</rom>
-			<rom type="file" offset="0x19">SWEET9.MUD</rom>
-			<rom type="file" offset="0x1a">SWEETA.MUD</rom>
-			<rom type="file" offset="0x1b">SWEETB.MUD</rom>
-			<rom type="shell" offset="0">sweet_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x111">SWEET1.MUD</title>
-			<title code="0x112">SWEET2.MUD</title>
-			<title code="0x113">SWEET3.MUD</title>
-			<title code="0x114">SWEET4.MUD</title>
-			<title code="0x115">SWEET5.MUD</title>
-			<title code="0x116">SWEET6.MUD</title>
-			<title code="0x117">SWEET7.MUD</title>
-			<title code="0x118">SWEET8.MUD</title>
-			<title code="0x119">SWEET9.MUD</title>
-			<title code="0x11a">SWEETA.MUD</title>
-			<title code="0x11b">SWEETB.MUD</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Sweet Emotion (スウィートエモーション) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
 		</options>
 		<romlist archive="sweet_e_98">
 			<rom type="file" offset="-1">sweet_98.com</rom>
@@ -1035,7 +773,7 @@
 		</options>
 		<romlist archive="valkyrie_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="5" >CSCP.BIN</rom>
+			<rom type="file" offset="5">CSCP.BIN</rom>
 			<rom type="file" offset="11">VA_MF_01.DAT</rom>
 			<rom type="file" offset="12">VA_MF_02.DAT</rom>
 			<rom type="file" offset="13">VA_MF_03.DAT</rom>
@@ -1080,7 +818,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Valkyrie The Power Beauties(OPNA)</name>
+		<name>[PC-9801] Valkyrie: The Power Beauties (ヴァルキリー The Power Beauties) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -1088,7 +826,7 @@
 		</options>
 		<romlist archive="valkyrie_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="5" >CSCP.BIN</rom>
+			<rom type="file" offset="5">CSCP.BIN</rom>
 			<rom type="file" offset="11">VA_SF_01.DAT</rom>
 			<rom type="file" offset="12">VA_SF_02.DAT</rom>
 			<rom type="file" offset="13">VA_SF_03.DAT</rom>
@@ -1138,11 +876,11 @@
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="pcm_mix"  value="0x200"/>
+			<option name="pcm_mix" value="0x200"/>
 		</options>
 		<romlist archive="valkyrie_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="5" >CSCP.BIN</rom>
+			<rom type="file" offset="5">CSCP.BIN</rom>
 			<rom type="file" offset="11">VA_SF_01.DAT</rom>
 			<rom type="file" offset="12">VA_SF_02.DAT</rom>
 			<rom type="file" offset="13">VA_SF_03.DAT</rom>
@@ -1230,25 +968,25 @@
 			<rom type="shell" offset="0">VALKY_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="11"    >Velvet Moon</title>
-			<title code="12"    >Vivid in Heart</title>
-			<title code="13"    >Spiraling Hearts</title>
-			<title code="14"    >Straight Fight</title>
-			<title code="15"    >Southwester Saxophone</title>
-			<title code="16"    >Deep-Sky Submarine</title>
-			<title code="17"    >Rim-Shot</title>
-			<title code="18"    >Murasaki-Kaze</title>
-			<title code="19"    >Magic Splash</title>
-			<title code="20"    >Silicon Lover</title>
-			<title code="21"    >Frozen Moonlight</title>
-			<title code="22"    >fight!</title>
-			<title code="23"    >Win!</title>
-			<title code="24"    >Lose...</title>
-			<title code="25"    >Makeup</title>
-			<title code="26"    >Fruits in Honey</title>
-			<title code="27"    >Sakanoue</title>
-			<title code="28"    >Blackstork</title>
-			<title code="29"    >Walk, Don't Run.</title>
+			<title code="11">Velvet Moon</title>
+			<title code="12">Vivid in Heart</title>
+			<title code="13">Spiraling Hearts</title>
+			<title code="14">Straight Fight</title>
+			<title code="15">Southwester Saxophone</title>
+			<title code="16">Deep-Sky Submarine</title>
+			<title code="17">Rim-Shot</title>
+			<title code="18">Murasaki-Kaze</title>
+			<title code="19">Magic Splash</title>
+			<title code="20">Silicon Lover</title>
+			<title code="21">Frozen Moonlight</title>
+			<title code="22">fight!</title>
+			<title code="23">Win!</title>
+			<title code="24">Lose...</title>
+			<title code="25">Makeup</title>
+			<title code="26">Fruits in Honey</title>
+			<title code="27">Sakanoue</title>
+			<title code="28">Blackstork</title>
+			<title code="29">Walk, Don't Run.</title>
 			<title code="0x2701">パンチ(小)</title>
 			<title code="0x2702">キック(小)</title>
 			<title code="0x2703">パンチ(大)</title>
@@ -1402,7 +1140,7 @@
 		</options>
 		<romlist archive="valkyrie_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="5" >CSCP.BIN</rom>
+			<rom type="file" offset="5">CSCP.BIN</rom>
 			<rom type="file" offset="11">VA_GS_01.DAT</rom>
 			<rom type="file" offset="12">VA_GS_02.DAT</rom>
 			<rom type="file" offset="13">VA_GS_03.DAT</rom>
@@ -1457,7 +1195,7 @@
 		</options>
 		<romlist archive="valkyrie_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="5" >CSCP.BIN</rom>
+			<rom type="file" offset="5">CSCP.BIN</rom>
 			<rom type="file" offset="11">VA_GS_01.DAT</rom>
 			<rom type="file" offset="12">VA_GS_02.DAT</rom>
 			<rom type="file" offset="13">VA_GS_03.DAT</rom>
@@ -1511,9 +1249,9 @@
 		<romlist archive="chakura_98">
 			<rom type="file" offset="-1">CHAKU_98.COM</rom>
 			<rom type="file" offset="-1">CHAKURA.EXE</rom>
-			<rom type="file" offset="6" >C_CLUB.OPN</rom>
-			<rom type="file" offset="7" >C_CLUB.SSG</rom>
-			<rom type="file" offset="8" >C_CLUB.EFF</rom>
+			<rom type="file" offset="6">C_CLUB.OPN</rom>
+			<rom type="file" offset="7">C_CLUB.SSG</rom>
+			<rom type="file" offset="8">C_CLUB.EFF</rom>
 			<rom type="file" offset="11">C_00.MU</rom>
 			<rom type="file" offset="12">C_01.MU</rom>
 			<rom type="file" offset="13">C_02.MU</rom>
@@ -1640,98 +1378,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Chakura (チャクラ) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="chakura_98">
-			<rom type="file" offset="-1">MMD.COM</rom>
-			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
-			<rom type="file" offset="11">C_00.MMD</rom>
-			<rom type="file" offset="12">C_01.MMD</rom>
-			<rom type="file" offset="13">C_02.MMD</rom>
-			<rom type="file" offset="14">C_03.MMD</rom>
-			<rom type="file" offset="15">C_11.MMD</rom>
-			<rom type="file" offset="16">C_12.MMD</rom>
-			<rom type="file" offset="17">C_13.MMD</rom>
-			<rom type="file" offset="18">C_21.MMD</rom>
-			<rom type="file" offset="19">C_22.MMD</rom>
-			<rom type="file" offset="20">C_31.MMD</rom>
-			<rom type="file" offset="21">C_32.MMD</rom>
-			<rom type="file" offset="22">C_33.MMD</rom>
-			<rom type="file" offset="23">FUN.MMD</rom>
-			<rom type="file" offset="24">OVER.MMD</rom>
-			<rom type="shell" offset="0">MMD</rom>
-			<rom type="shell" offset="0">MMP_HOOT</rom>
-		</romlist>
-		<titlelist>
-			<title code="11">チャクラリズム</title>
-			<title code="12">走れ! チャック・ノリス!</title>
-			<title code="13">え?</title>
-			<title code="14">エンゼル・フィッシュのアリア</title>
-			<title code="15">どきどき☆カウンセリング</title>
-			<title code="16">さくらの園</title>
-			<title code="17">青、白、さくら色</title>
-			<title code="18">こんにちは、さようなら</title>
-			<title code="19">緑の光</title>
-			<title code="20">かえるの水玉蝶ネクタイ</title>
-			<title code="21">トリック・スター</title>
-			<title code="22">聖金曜日の不思議</title>
-			<title code="23">さて!</title>
-			<title code="24">きのこの里の午後</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Chakura (チャクラ) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Discovery</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="chakura_98">
-			<rom type="file" offset="-1">MMD.COM</rom>
-			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
-			<rom type="file" offset="11">C_00.MMD</rom>
-			<rom type="file" offset="12">C_01.MMD</rom>
-			<rom type="file" offset="13">C_02.MMD</rom>
-			<rom type="file" offset="14">C_03.MMD</rom>
-			<rom type="file" offset="15">C_11.MMD</rom>
-			<rom type="file" offset="16">C_12.MMD</rom>
-			<rom type="file" offset="17">C_13.MMD</rom>
-			<rom type="file" offset="18">C_21.MMD</rom>
-			<rom type="file" offset="19">C_22.MMD</rom>
-			<rom type="file" offset="20">C_31.MMD</rom>
-			<rom type="file" offset="21">C_32.MMD</rom>
-			<rom type="file" offset="22">C_33.MMD</rom>
-			<rom type="file" offset="23">FUN.MMD</rom>
-			<rom type="file" offset="24">OVER.MMD</rom>
-			<rom type="shell" offset="0">MMD</rom>
-			<rom type="shell" offset="0">MMP_HOOT</rom>
-		</romlist>
-		<titlelist>
-			<title code="11">チャクラリズム</title>
-			<title code="12">走れ! チャック・ノリス!</title>
-			<title code="13">え?</title>
-			<title code="14">エンゼル・フィッシュのアリア</title>
-			<title code="15">どきどき☆カウンセリング</title>
-			<title code="16">さくらの園</title>
-			<title code="17">青、白、さくら色</title>
-			<title code="18">こんにちは、さようなら</title>
-			<title code="19">緑の光</title>
-			<title code="20">かえるの水玉蝶ネクタイ</title>
-			<title code="21">トリック・スター</title>
-			<title code="22">聖金曜日の不思議</title>
-			<title code="23">さて!</title>
-			<title code="24">きのこの里の午後</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Marine Rouge (マリンルージュ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
@@ -1740,8 +1386,8 @@
 		</options>
 		<romlist archive="mariner_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
-			<rom type="file" offset="7" >MR_SE.DAT</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
+			<rom type="file" offset="7">MR_SE.DAT</rom>
 			<rom type="file" offset="11">MR_MFM_01.DAT</rom>
 			<rom type="file" offset="12">MR_MFM_02.DAT</rom>
 			<rom type="file" offset="13">MR_MFM_03.DAT</rom>
@@ -1797,7 +1443,7 @@
 		</options>
 		<romlist archive="mariner_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">MR_SFM_01.DAT</rom>
 			<rom type="file" offset="12">MR_SFM_02.DAT</rom>
 			<rom type="file" offset="13">MR_SFM_03.DAT</rom>
@@ -1848,7 +1494,7 @@
 		</options>
 		<romlist archive="mariner_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">MR_55_01.DAT</rom>
 			<rom type="file" offset="12">MR_55_02.DAT</rom>
 			<rom type="file" offset="13">MR_55_03.DAT</rom>
@@ -1899,7 +1545,7 @@
 		</options>
 		<romlist archive="mariner_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">MR_88_01.DAT</rom>
 			<rom type="file" offset="12">MR_88_02.DAT</rom>
 			<rom type="file" offset="13">MR_88_03.DAT</rom>
@@ -1940,7 +1586,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Marine Rouge (マリンルージュ) (SC-88)</name>
+		<name>[PC-9801] Marine Rouge (マリンルージュ) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -1950,7 +1596,7 @@
 		</options>
 		<romlist archive="mariner_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">MR_55_01.DAT</rom>
 			<rom type="file" offset="12">MR_55_02.DAT</rom>
 			<rom type="file" offset="13">MR_55_03.DAT</rom>
@@ -1991,7 +1637,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Requiem for Fallen Angels (淫従の堕天使) (YM2203)</name>
+		<name>[PC-9801] Injuu no Datenshi: Requiem for Fallen Angel (淫従の堕天使) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -2000,8 +1646,8 @@
 		</options>
 		<romlist archive="injuda_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
-			<rom type="file" offset="7" >IJ_SE.SE</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
+			<rom type="file" offset="7">IJ_SE.SE</rom>
 			<rom type="file" offset="11">IJ_MFM_01.DAT</rom>
 			<rom type="file" offset="12">IJ_MFM_02.DAT</rom>
 			<rom type="file" offset="13">IJ_MFM_03.DAT</rom>
@@ -2062,7 +1708,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Requiem for Fallen Angels (淫従の堕天使) (YM2608)</name>
+		<name>[PC-9801] Injuu no Datenshi: Requiem for Fallen Angel (淫従の堕天使) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -2071,7 +1717,7 @@
 		</options>
 		<romlist archive="injuda_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">IJ_SFM_01.DAT</rom>
 			<rom type="file" offset="12">IJ_SFM_02.DAT</rom>
 			<rom type="file" offset="13">IJ_SFM_03.DAT</rom>
@@ -2110,7 +1756,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Requiem for Fallen Angels (淫従の堕天使) (GM)</name>
+		<name>[PC-9801] Injuu no Datenshi: Requiem for Fallen Angel (淫従の堕天使) (GM)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -2120,7 +1766,7 @@
 		</options>
 		<romlist archive="injuda_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">IJ_GM_01.DAT</rom>
 			<rom type="file" offset="12">IJ_GM_02.DAT</rom>
 			<rom type="file" offset="13">IJ_GM_03.DAT</rom>
@@ -2159,7 +1805,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Requiem for Fallen Angels (淫従の堕天使) (SC-88)</name>
+		<name>[PC-9801] Injuu no Datenshi: Requiem for Fallen Angel (淫従の堕天使) (SC-88)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -2169,7 +1815,7 @@
 		</options>
 		<romlist archive="injuda_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">IJ_88_01.DAT</rom>
 			<rom type="file" offset="12">IJ_88_02.DAT</rom>
 			<rom type="file" offset="13">IJ_88_03.DAT</rom>
@@ -2208,7 +1854,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Requiem for Fallen Angels (淫従の堕天使) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Injuu no Datenshi: Requiem for Fallen Angel (淫従の堕天使) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Discovery</driveralias>
 		<options>
@@ -2218,7 +1864,7 @@
 		</options>
 		<romlist archive="injuda_98">
 			<rom type="file" offset="-1">VALKY_98.COM</rom>
-			<rom type="file" offset="6" >SSCP.BIN</rom>
+			<rom type="file" offset="6">SSCP.BIN</rom>
 			<rom type="file" offset="11">IJ_GM_01.DAT</rom>
 			<rom type="file" offset="12">IJ_GM_02.DAT</rom>
 			<rom type="file" offset="13">IJ_GM_03.DAT</rom>
@@ -2257,7 +1903,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (OPNA)</name>
+		<name>[PC-9821] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (OPNA)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9821">Discovery</driveralias>
 		<options>
@@ -2266,9 +1912,9 @@
 		<romlist archive="mirage2_21">
 			<rom type="file" offset="-1">mrg21_98.com</rom>
 			<rom type="file" offset="-1">MRG2.EXE</rom>
-			<rom type="file" offset="6" >MIRAGE2.OP1</rom>
-			<rom type="file" offset="7" >MIRAGE2.SS1</rom>
-			<rom type="file" offset="8" >MIRAGE2.EF1</rom>
+			<rom type="file" offset="6">MIRAGE2.OP1</rom>
+			<rom type="file" offset="7">MIRAGE2.SS1</rom>
+			<rom type="file" offset="8">MIRAGE2.EF1</rom>
 			<rom type="file" offset="0x11">T_01.MF2</rom>
 			<rom type="file" offset="0x12">T_02.MF2</rom>
 			<rom type="file" offset="0x13">T_03.MF2</rom>
@@ -2314,7 +1960,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (MT-32)</name>
+		<name>[PC-9821] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9821">Discovery</driveralias>
 		<options>
@@ -2325,9 +1971,9 @@
 		<romlist archive="mirage2_21">
 			<rom type="file" offset="-1">mrg21_98.com</rom>
 			<rom type="file" offset="-1">MRG2.EXE</rom>
-			<rom type="file" offset="6" >MIRAGE2.OP1</rom>
-			<rom type="file" offset="7" >MIRAGE2.SS1</rom>
-			<rom type="file" offset="8" >MIRAGE2.EF1</rom>
+			<rom type="file" offset="6">MIRAGE2.OP1</rom>
+			<rom type="file" offset="7">MIRAGE2.SS1</rom>
+			<rom type="file" offset="8">MIRAGE2.EF1</rom>
 			<rom type="file" offset="0x11">T_01.MF2</rom>
 			<rom type="file" offset="0x12">T_02.MF2</rom>
 			<rom type="file" offset="0x13">T_03.MF2</rom>
@@ -2373,7 +2019,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Munt, MT-32 simulation)</name>
+		<name>[PC-9821] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9821">Discovery</driveralias>
 		<options>
@@ -2384,9 +2030,9 @@
 		<romlist archive="mirage2_21">
 			<rom type="file" offset="-1">mrg21_98.com</rom>
 			<rom type="file" offset="-1">MRG2.EXE</rom>
-			<rom type="file" offset="6" >MIRAGE2.OP1</rom>
-			<rom type="file" offset="7" >MIRAGE2.SS1</rom>
-			<rom type="file" offset="8" >MIRAGE2.EF1</rom>
+			<rom type="file" offset="6">MIRAGE2.OP1</rom>
+			<rom type="file" offset="7">MIRAGE2.SS1</rom>
+			<rom type="file" offset="8">MIRAGE2.EF1</rom>
 			<rom type="file" offset="0x11">T_01.MF2</rom>
 			<rom type="file" offset="0x12">T_02.MF2</rom>
 			<rom type="file" offset="0x13">T_03.MF2</rom>
@@ -2432,7 +2078,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Mirage 2: Torii X Niito X Roun no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (SC-55)</name>
+		<name>[PC-9821] Mirage 2: Torry x Neat x Roan no Daibouken (ミラージュ2 トリーXニートXローンの大冒険) (SC-55)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9821">Discovery</driveralias>
 		<options>
@@ -2443,9 +2089,9 @@
 		<romlist archive="mirage2_21">
 			<rom type="file" offset="-1">mrg21_98.com</rom>
 			<rom type="file" offset="-1">MRG2.EXE</rom>
-			<rom type="file" offset="6" >MIRAGE2.OP1</rom>
-			<rom type="file" offset="7" >MIRAGE2.SS1</rom>
-			<rom type="file" offset="8" >MIRAGE2.EF1</rom>
+			<rom type="file" offset="6">MIRAGE2.OP1</rom>
+			<rom type="file" offset="7">MIRAGE2.SS1</rom>
+			<rom type="file" offset="8">MIRAGE2.EF1</rom>
 			<rom type="file" offset="0x11">T_01.MF2</rom>
 			<rom type="file" offset="0x12">T_02.MF2</rom>
 			<rom type="file" offset="0x13">T_03.MF2</rom>
@@ -2567,14 +2213,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Sweet Emotion</name>
+		<name>[MSX2] Sweet Emotion (スウィートエモーション) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Discovery</driveralias>
+		<driveralias type="MSX2">Discovery</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="sweetem_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>

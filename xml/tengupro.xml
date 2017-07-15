@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //“V‹çƒvƒ -->
 	<game>
-		<name>[PC-9801] H-GO! Yeah! (‰zŒã‰®) (YM2203)</name>
+		<name>[PC-9801]  Etigoya H-GO! Yeah! (‰zŒã‰® H-Go! Yeah!) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Tengu Pro</driveralias>
 		<options>
@@ -52,11 +52,7 @@
 			<rom type="shell" offset="0">odq_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">BGM #00</title>
-			<title code="0x11">BGM #01</title>
-			<title code="0x12">BGM #02</title>
-			<title code="0x13">BGM #03</title>
-			<title code="0x14">BGM #04</title>
+			<range min="0x10" max="0x14" extcode="1">BGM #%2X</range>
 			<range min="0x80" max="0x9c" extcode="1">SFX #%2X</range>
 		</titlelist>
 	</game>

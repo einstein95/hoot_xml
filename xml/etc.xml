@@ -36,11 +36,13 @@
 <gamelist date="2005/09/25">
 	<!--//ETC -->
 	<game>
-		<name>[PC-8801] MUSIC LALF</name>
+		<name>[PC-8801] Music Lalf (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">ETC</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xc200"/>
+			<option name="mfile_size" value="0x2100"/>
+			<option name="mdata_size" value="0x2100"/>
 		</options>
 		<romlist archive="mlalf88">
 			<rom type="code" offset="0x0000">PATCH</rom>
@@ -73,7 +75,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] MUSIC LALF</name>
+		<name>[PC-9801] Music Lalf (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
@@ -124,44 +126,44 @@
 			<rom type="bgm" offset="0x32">UFOB.MLO</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">GWARS1.MLO  : GAL WARSきゃぴきゃぴるん opening [flying swors]</title>
-			<title code="0x02">GWARS2.MLO  : GAL WARSきゃぴきゃぴるん music [美少女戦士紹介所]</title>
-			<title code="0x03">GWARS3.MLO  : GAL WARSきゃぴきゃぴるん ending [Get Away]</title>
-			<title code="0x04">OJYO1.MLO   : お嬢様くらぶ opening1</title>
-			<title code="0x05">OJYO2.MLO   : お嬢様くらぶ opening2</title>
-			<title code="0x06">OJYO3.MLO   : お嬢様くらぶ intermission</title>
-			<title code="0x07">OJYO4.MLO   : お嬢様くらぶ music1</title>
-			<title code="0x08">OJYO5.MLO   : お嬢様くらぶ music2</title>
-			<title code="0x09">OJYO6.MLO   : お嬢様くらぶ music3</title>
-			<title code="0x0a">OJYO7.MLO   : お嬢様くらぶ ending</title>
-			<title code="0x0b">OJYO8.MLO   : お嬢様くらぶ music mode のテーマ</title>
-			<title code="0x0c">ORGNAL1.MLO : 誇大広告の出口表示</title>
-			<title code="0x0d">ORGNAL2.MLO : にぎやかな墓地</title>
-			<title code="0x0e">ORGNAL3.MLO : 公儀隠密ロマンスカー 11両編成</title>
-			<title code="0x0f">ORGNAL4.MLO : 走れ 黒塗のロマンスカー</title>
-			<title code="0x20">ORGNAL5.MLO : デンジャラス ダーク</title>
-			<title code="0x21">SAMPL2.MLO  : Yuzo Koshiro/SAMPLE2 for normal sound board</title>
-			<title code="0x22">SAMPL3.MLO  : Yuzo Koshiro/SAMPLE3 for PSG only</title>
-			<title code="0x23">SESIL.MLO   : ときめきセシル ending</title>
-			<title code="0x24">TUKUNE1.MLO : スメタナ 交響詩｢モルダウ｣</title>
-			<title code="0x25">TUKUNE2.MLO : モーツァルト 交響曲第25番K.183 第1楽章</title>
-			<title code="0x26">TUKUNE3.MLO : ショパン ｢葬送行進曲｣</title>
-			<title code="0x27">TUKUNE4.MLO : ベートーベン ｢月光｣</title>
-			<title code="0x28">TUKUNE5.MLO : ベートーベン ｢運命｣</title>
-			<title code="0x29">UFO1.MLO    : fantastic ruin</title>
-			<title code="0x2a">UFO2.MLO    : Here comes...EBA !!</title>
-			<title code="0x2b">UFO3.MLO    : Dancing in the back of the moon</title>
-			<title code="0x2c">UFO4.MLO    : UFO推進音</title>
-			<title code="0x2d">UFO5.MLO    : EBEs STEP</title>
-			<title code="0x2e">UFO6.MLO    : further!</title>
-			<title code="0x2f">UFO7.MLO    : Night of ranch</title>
-			<title code="0x30">UFO8.MLO    : The last day</title>
-			<title code="0x31">UFO9.MLO    : Take me home EBEs</title>
-			<title code="0x32">UFOB.MLO    : UFO bakuhatsu</title>
+			<title code="0x01">GAL WARSきゃぴきゃぴるん opening [flying swors]</title>
+			<title code="0x02">GAL WARSきゃぴきゃぴるん music [美少女戦士紹介所]</title>
+			<title code="0x03">GAL WARSきゃぴきゃぴるん ending [Get Away]</title>
+			<title code="0x04">お嬢様くらぶ opening1</title>
+			<title code="0x05">お嬢様くらぶ opening2</title>
+			<title code="0x06">お嬢様くらぶ intermission</title>
+			<title code="0x07">お嬢様くらぶ music1</title>
+			<title code="0x08">お嬢様くらぶ music2</title>
+			<title code="0x09">お嬢様くらぶ music3</title>
+			<title code="0x0a">お嬢様くらぶ ending</title>
+			<title code="0x0b">お嬢様くらぶ music mode のテーマ</title>
+			<title code="0x0c">誇大広告の出口表示</title>
+			<title code="0x0d">にぎやかな墓地</title>
+			<title code="0x0e">公儀隠密ロマンスカー 11両編成</title>
+			<title code="0x0f">走れ 黒塗のロマンスカー</title>
+			<title code="0x20">デンジャラス ダーク</title>
+			<title code="0x21">Yuzo Koshiro/SAMPLE2 for normal sound board</title>
+			<title code="0x22">Yuzo Koshiro/SAMPLE3 for PSG only</title>
+			<title code="0x23">ときめきセシル ending</title>
+			<title code="0x24">スメタナ 交響詩｢モルダウ｣</title>
+			<title code="0x25">モーツァルト 交響曲第25番K.183 第1楽章</title>
+			<title code="0x26">ショパン ｢葬送行進曲｣</title>
+			<title code="0x27">ベートーベン ｢月光｣</title>
+			<title code="0x28">ベートーベン ｢運命｣</title>
+			<title code="0x29">fantastic ruin</title>
+			<title code="0x2a">Here comes...EBA !!</title>
+			<title code="0x2b">Dancing in the back of the moon</title>
+			<title code="0x2c">UFO推進音</title>
+			<title code="0x2d">EBEs STEP</title>
+			<title code="0x2e">further!</title>
+			<title code="0x2f">Night of ranch</title>
+			<title code="0x30">The last day</title>
+			<title code="0x31">Take me home EBEs</title>
+			<title code="0x32">UFO bakuhatsu</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] PX (Sample)</name>
+		<name>[PC-9801] PX (Sample) (YM2203?)</name>
 		<driver type="otomichan">pc98dos</driver>
 		<driveralias type="PC-9801">ETC</driveralias>
 		<options>
@@ -195,12 +197,12 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">GLACIERX.M : ｢ Gracier Land ｣ from DRAGON SABER (c) namco / Arranged by Captain-NEO</title>
-			<title code="0x11">GYNA_2.M   : OVER TAKE OPENING 1 / Arranged by NEO</title>
+			<title code="0x10">｢ Gracier Land ｣ from DRAGON SABER (c) namco / Arranged by Captain-NEO</title>
+			<title code="0x11">OVER TAKE OPENING 1 / Arranged by NEO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] VAL-SOUND / Kolin2 sample data</name>
+		<name>[PC-9801] Val-Sound / Kolin2 sample data (YM2608)</name>
 		<!-- http://www.valsound.com/ にて公開されています -->
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">ETC</driveralias>

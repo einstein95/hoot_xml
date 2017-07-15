@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //êVê∫é– -->
 	<game>
-		<name>[X68000] SCORPIUS</name>
+		<name>[X68000] Scorpius (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">êVê∫é–</driveralias>
+		<driveralias type="X68000">Shinseishiya</driveralias>
 		<options>
 			<option name="mfp"    value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -127,28 +127,28 @@
 			<rom type="code" offset="0x0ac000">HIT0.PCM</rom>
 		</romlist>
 		<titlelist>
-			<title code="160">OPENING</title>
-			<title code="161">SELECT</title>
-			<title code="162">STAGE 1</title>
-			<title code="163">STAGE 2</title>
-			<title code="164">STAGE 3</title>
-			<title code="165">STAGE 4</title>
-			<title code="166">STAGE 5</title>
-			<title code="167">STAGE 6</title>
-			<title code="168">STAGE 7</title>
-			<title code="169">BOSS 1</title>
-			<title code="170">BOSS 2</title>
-			<title code="171">BOSS 3</title>
-			<title code="172">BOSS 4</title>
-			<title code="173">CLEAR</title>
-			<title code="174">LAST</title>
-			<title code="175">ENDING</title>
-			<title code="176">NAME</title>
-			<title code="177">GAME OVER</title>
-			<range min="100" max="113" extcode="1">SE %03d</range>
-			<range min="120" max="130" extcode="1">SE %03d</range>
-			<range min="140" max="154" extcode="1">SE %03d</range>
-			<!--title code="155">SE 155</title-->
+			<title code="160">Opening</title>
+			<title code="161">Select</title>
+			<title code="162">Stage 1</title>
+			<title code="163">Stage 2</title>
+			<title code="164">Stage 3</title>
+			<title code="165">Stage 4</title>
+			<title code="166">Stage 5</title>
+			<title code="167">Stage 6</title>
+			<title code="168">Stage 7</title>
+			<title code="169">Boss 1</title>
+			<title code="170">Boss 2</title>
+			<title code="171">Boss 3</title>
+			<title code="172">Boss 4</title>
+			<title code="173">Clear</title>
+			<title code="174">Last</title>
+			<title code="175">Ending</title>
+			<title code="176">Name</title>
+			<title code="177">Game Over</title>
+			<range min="100" max="113" extcode="1">SFX #%03d</range>
+			<range min="120" max="130" extcode="1">SFX #%03d</range>
+			<range min="140" max="154" extcode="1">SFX #%03d</range>
+			<!--title code="155">SFX #155</title-->
 		</titlelist>
 	</game>
 </gamelist>

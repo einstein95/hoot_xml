@@ -248,14 +248,10 @@
 		<name>[Raiden 2] Raiden 2 (“d_–‚˜ø) (YM2151+MSM6295x2)</name>
 		<driver type="raiden2">seibu</driver>
 		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
-		<options>
-			<option name="opm_mix" value="0x2a0"/>
-			<option name="pcm_mix" value="0x181"/>
-			<option name="pcm_size" value="0x80000"/>
-		</options>
 		<romlist archive="raiden2">
 			<rom type="code" offset="0x0000">snd.u1110</rom>
-			<rom type="pcm" offset="0x00000">raiden_2_pcm.u1018</rom>
+			<rom type="pcm" offset="0x00000">seibu6.u1017</rom>
+			<rom type="pcm" offset="0x80000">raiden_2_pcm.u1018</rom> 
 		</romlist>
 		<titlelist>
 			<title code="0x01">Coin</title>
@@ -277,15 +273,9 @@
 		<name>[Raiden 2] Raiden DX (—‹“dDX) (YM2151+MSM6295x2)</name>
 		<driver type="raiden2">seibu</driver>
 		<driveralias type="Arcade">Seibu Kaihatsu</driveralias>
-		<options>
-			<option name="opm_mix" value="0x2a0"/>
-			<option name="pcm_mix" value="0x181"/>
-			<option name="pcm_size" value="0x80000"/>
-		</options>
-		<romlist archive="raidndx">
+		<romlist archive="raidendx">
 			<rom type="code" offset="0x0000">dx_5.5b</rom>
-			<rom type="pcm" offset="0x00000">dx_6.3b</rom>
-			<rom type="pcm" offset="0x40000">dx_pcm.3a</rom>
+			<rom type="pcm" offset="0x80000">dx_pcm.3a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x62">Course Select</title>

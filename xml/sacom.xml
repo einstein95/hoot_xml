@@ -1175,25 +1175,25 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">System Sacom</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="robokid68snd">
 			<rom type="code" offset="0x00000">rkmd68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MIDIDRV.X</rom>
+			<rom type="x" offset="0x10000">MIDIDRV.X</rom>
 			<rom type="code" offset="0x20000">TONE.JIN</rom>
 			<rom type="code" offset="0x30000">MIDI.JIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MAIN THEME(BGM A)</title>
-			<title code="0x02">AREA CLEAR</title>
+			<title code="0x01">Main Theme (BGM A)</title>
+			<title code="0x02">Area Clear</title>
 			<title code="0x03">BGM B</title>
 			<title code="0x04">BGM C</title>
-			<title code="0x05">BOSS</title>
+			<title code="0x05">Boss</title>
 			<title code="0x06">BGM D</title>
 			<title code="0x07">BGM E</title>
-			<title code="0x08">ENDING</title>
+			<title code="0x08">Ending</title>
 			<title code="0x09">NAME</title>
 			<title code="0x0a">Unused (BGM E) (未使用曲(BGM E))</title>
 		</titlelist>
@@ -1203,25 +1203,25 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">System Sacom</driveralias>
 		<options>
-			<option name="mfp"  value="1"/>
+			<option name="mfp" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
 		<romlist archive="robokid68snd">
 			<rom type="code" offset="0x00000">rkmd68snd.bin</rom>
-			<rom type="x"    offset="0x10000">MIDIDRV.X</rom>
+			<rom type="x" offset="0x10000">MIDIDRV.X</rom>
 			<rom type="code" offset="0x20000">TONE.JIN</rom>
 			<rom type="code" offset="0x30000">MIDI.JIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">MAIN THEME(BGM A)</title>
-			<title code="0x02">AREA CLEAR</title>
+			<title code="0x01">Main Theme (BGM A)</title>
+			<title code="0x02">Area Clear</title>
 			<title code="0x03">BGM B</title>
 			<title code="0x04">BGM C</title>
-			<title code="0x05">BOSS</title>
+			<title code="0x05">Boss</title>
 			<title code="0x06">BGM D</title>
 			<title code="0x07">BGM E</title>
-			<title code="0x08">ENDING</title>
+			<title code="0x08">Ending</title>
 			<title code="0x09">NAME</title>
 			<title code="0x0a">Unused (BGM E) (未使用曲(BGM E))</title>
 		</titlelist>
@@ -1822,7 +1822,7 @@
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="euphory">
 			<rom type="code" offset="0x0000">PROG00</rom>
@@ -1880,7 +1880,7 @@
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 		</options>
 		<romlist archive="euphory">
 			<rom type="code" offset="0x0000">PROG00</rom>
@@ -2033,7 +2033,7 @@
 			<option name="funcvect" value="0x7f"/>
 			<option name="dataaddr" value="0x15dc0"/>
 			<option name="filesize" value="0x1000"/>
-			<option name="ssg_mix"  value="-12"/>
+			<option name="ssg_mix" value="-12"/>
 			<option name="clockmul" value="8"/>
 			<option name="datamax" value="0x10"/>
 		</options>
@@ -2132,7 +2132,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="dome_98">
@@ -2221,7 +2221,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="sfthd198">
@@ -2297,7 +2297,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="sfthd298">
@@ -2405,7 +2405,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="38mank98">
@@ -2623,7 +2623,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="pwrsng98">
@@ -2743,7 +2743,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="pwrsngd_98">
@@ -2767,7 +2767,7 @@
 		<driveralias type="PC-9801">System Sacom</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"  value="0"/>
+			<option name="fm_mix" value="0"/>
 			<option name="ssg_mix" value="-28"/>
 		</options>
 		<romlist archive="michiyo98">
@@ -3601,7 +3601,7 @@
 			<option name="mdata_addr" value="0x2EF6"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 		</options>
 		<romlist archive="dome_msx">
 			<rom type="code" offset="0x0100">MANAGR.COM</rom>
@@ -3652,7 +3652,7 @@
 			<option name="mdata_addr" value="0x4980"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="mv1_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -3680,7 +3680,7 @@
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">System Sacom</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
+			<option name="init_pc" value="0x0000"/>
 			<option name="mdata_addr" value="0x964c"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
@@ -3688,19 +3688,19 @@
 		<romlist archive="dome_fm7">
 			<rom type="code" offset="0x0000">PATCH.BIN</rom>
 			<rom type="code" offset="0x1110">MANAGE.COM</rom>
-			<rom type="bgm"  offset="0x00">MSC001.FMP</rom>
-			<rom type="bgm"  offset="0x01">MSC002.FMP</rom>
-			<rom type="bgm"  offset="0x02">MSC003.FMP</rom>
-			<rom type="bgm"  offset="0x03">MSC004.FMP</rom>
-			<rom type="bgm"  offset="0x04">MSC005.FMP</rom>
-			<rom type="bgm"  offset="0x05">MSC006.FMP</rom>
-			<rom type="bgm"  offset="0x06">MSC007.FMP</rom>
-			<rom type="bgm"  offset="0x07">MSC008.FMP</rom>
-			<rom type="bgm"  offset="0x08">MSC009.FMP</rom>
-			<rom type="bgm"  offset="0x09">MSC010.FMP</rom>
-			<rom type="bgm"  offset="0x0a">MSC011.FMP</rom>
-			<rom type="bgm"  offset="0x0b">MSC012.FMP</rom>
-			<rom type="bgm"  offset="0x0c">MSC014.FMP</rom>
+			<rom type="bgm" offset="0x00">MSC001.FMP</rom>
+			<rom type="bgm" offset="0x01">MSC002.FMP</rom>
+			<rom type="bgm" offset="0x02">MSC003.FMP</rom>
+			<rom type="bgm" offset="0x03">MSC004.FMP</rom>
+			<rom type="bgm" offset="0x04">MSC005.FMP</rom>
+			<rom type="bgm" offset="0x05">MSC006.FMP</rom>
+			<rom type="bgm" offset="0x06">MSC007.FMP</rom>
+			<rom type="bgm" offset="0x07">MSC008.FMP</rom>
+			<rom type="bgm" offset="0x08">MSC009.FMP</rom>
+			<rom type="bgm" offset="0x09">MSC010.FMP</rom>
+			<rom type="bgm" offset="0x0a">MSC011.FMP</rom>
+			<rom type="bgm" offset="0x0b">MSC012.FMP</rom>
+			<rom type="bgm" offset="0x0c">MSC014.FMP</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">オープニング</title>
@@ -3723,7 +3723,7 @@
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">System Sacom</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0000"/>
+			<option name="init_pc" value="0x0000"/>
 			<option name="mdata_addr" value="0x9642"/>
 			<option name="mdata_size" value="0x2000"/>
 			<option name="mfile_size" value="0x2000"/>
@@ -3731,19 +3731,19 @@
 		<romlist archive="dome_fm7">
 			<rom type="code" offset="0x0000">PATCH.BIN</rom>
 			<rom type="code" offset="0x1110">MANAGE.COM</rom>
-			<rom type="bgm"  offset="0x00">MSC001.PSX</rom>
-			<rom type="bgm"  offset="0x01">MSC002.PSX</rom>
-			<rom type="bgm"  offset="0x02">MSC003.PSX</rom>
-			<rom type="bgm"  offset="0x03">MSC004.PSX</rom>
-			<rom type="bgm"  offset="0x04">MSC005.PSX</rom>
-			<rom type="bgm"  offset="0x05">MSC006.PSX</rom>
-			<rom type="bgm"  offset="0x06">MSC007.PSX</rom>
-			<rom type="bgm"  offset="0x07">MSC008.PSX</rom>
-			<rom type="bgm"  offset="0x08">MSC009.PSX</rom>
-			<rom type="bgm"  offset="0x09">MSC010.PSX</rom>
-			<rom type="bgm"  offset="0x0a">MSC011.PSX</rom>
-			<rom type="bgm"  offset="0x0b">MSC012.PSX</rom>
-			<rom type="bgm"  offset="0x0c">MSC014.PSX</rom>
+			<rom type="bgm" offset="0x00">MSC001.PSX</rom>
+			<rom type="bgm" offset="0x01">MSC002.PSX</rom>
+			<rom type="bgm" offset="0x02">MSC003.PSX</rom>
+			<rom type="bgm" offset="0x03">MSC004.PSX</rom>
+			<rom type="bgm" offset="0x04">MSC005.PSX</rom>
+			<rom type="bgm" offset="0x05">MSC006.PSX</rom>
+			<rom type="bgm" offset="0x06">MSC007.PSX</rom>
+			<rom type="bgm" offset="0x07">MSC008.PSX</rom>
+			<rom type="bgm" offset="0x08">MSC009.PSX</rom>
+			<rom type="bgm" offset="0x09">MSC010.PSX</rom>
+			<rom type="bgm" offset="0x0a">MSC011.PSX</rom>
+			<rom type="bgm" offset="0x0b">MSC012.PSX</rom>
+			<rom type="bgm" offset="0x0c">MSC014.PSX</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">オープニング</title>

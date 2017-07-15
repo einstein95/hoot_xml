@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //U-Office -->
 	<game>
-		<name>[PC-9801] Legam(OPN)</name>
+		<name>[PC-9801] Legam (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">U-Office</driveralias>
 		<options>
@@ -79,39 +79,39 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LG_FM01.FM : Opening 1</title>
-			<title code="0x11">LG_FM02.FM : Opening 2</title>
-			<title code="0x12">LG_FM03.FM : 森</title>
-			<title code="0x13">LG_FM04.FM : Main Feled</title>
-			<title code="0x14">LG_FM05.FM : 町</title>
-			<title code="0x15">LG_FM06.FM : 村</title>
-			<title code="0x16">LG_FM07.FM : エルフの村</title>
-			<title code="0x17">LG_FM08.FM : 洞窟</title>
-			<title code="0x18">LG_FM09.FM : 神殿</title>
-			<title code="0x19">LG_FM10.FM : イベント 1</title>
-			<title code="0x1a">LG_FM11.FM : イベント 2</title>
-			<title code="0x1b">LG_FM12.FM : 3人組</title>
-			<title code="0x1c">LG_FM13.FM : Nomal Battle</title>
-			<title code="0x1d">LG_FM14.FM : BOSS</title>
+			<title code="0x10">Opening 1</title>
+			<title code="0x11">Opening 2</title>
+			<title code="0x12">森</title>
+			<title code="0x13">Main Feled</title>
+			<title code="0x14">町</title>
+			<title code="0x15">村</title>
+			<title code="0x16">エルフの村</title>
+			<title code="0x17">洞窟</title>
+			<title code="0x18">神殿</title>
+			<title code="0x19">イベント 1</title>
+			<title code="0x1a">イベント 2</title>
+			<title code="0x1b">3人組</title>
+			<title code="0x1c">Nomal Battle</title>
+			<title code="0x1d">BOSS</title>
 			<title code="0x1e">LG_FM15.FM</title>
 			<title code="0x1f">LG_FM16.FM</title>
 			<title code="0x20">LG_FM17.FM</title>
-			<title code="0x21">LG_FM18.FM : 山・雪山</title>
-			<title code="0x22">LG_FM19.FM : イベント 3</title>
-			<title code="0x23">LG_FM20.FM : Ending</title>
-			<title code="0x24">LG_FM21.FM : LAST BATTLE</title>
-			<title code="0x25">LG_FM22.FM : Dragon</title>
-			<title code="0x26">LG_FM23.FM : 宿屋</title>
-			<title code="0x27">LG_FM24.FM : GAME OVER</title>
-			<title code="0x28">LG_FM25.FM : WIN</title>
-			<title code="0x29">LG_FM26.FM : 怪しい音色</title>
-			<title code="0x2a">LG_FM27.FM : 宝箱</title>
-			<title code="0x2b">LG_FM28.FM : 笛</title>
-			<range min="0x0801" max="0x080C" extcode="1">FLEF.EFC   : %2X</range>
+			<title code="0x21">山・雪山</title>
+			<title code="0x22">イベント 3</title>
+			<title code="0x23">Ending</title>
+			<title code="0x24">LAST BATTLE</title>
+			<title code="0x25">Dragon</title>
+			<title code="0x26">宿屋</title>
+			<title code="0x27">GAME OVER</title>
+			<title code="0x28">WIN</title>
+			<title code="0x29">怪しい音色</title>
+			<title code="0x2a">宝箱</title>
+			<title code="0x2b">笛</title>
+			<range min="0x0801" max="0x080C" extcode="1">FLEF.EFC #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Legam(GS)</name>
+		<name>[PC-9801] Legam (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">U-Office</driveralias>
 		<options>
@@ -154,34 +154,34 @@
 			<rom type="shell" offset="0">MMDR_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">LG_GS01.MD : Opening 1</title>
-			<title code="0x11">LG_GS02.MD : Opening 2</title>
-			<title code="0x12">LG_GS03.MD : 森</title>
-			<title code="0x13">LG_GS04.MD : Main Feled</title>
-			<title code="0x14">LG_GS05.MD : 町</title>
-			<title code="0x15">LG_GS06.MD : 村</title>
-			<title code="0x16">LG_GS07.MD : エルフの村</title>
-			<title code="0x17">LG_GS08.MD : 洞窟</title>
-			<title code="0x18">LG_GS09.MD : 神殿</title>
-			<title code="0x19">LG_GS10.MD : イベント 1</title>
-			<title code="0x1a">LG_GS11.MD : イベント 2</title>
-			<title code="0x1b">LG_GS12.MD : 3人組</title>
-			<title code="0x1c">LG_GS13.MD : Nomal Battle</title>
-			<title code="0x1d">LG_GS14.MD : BOSS</title>
+			<title code="0x10">Opening 1</title>
+			<title code="0x11">Opening 2</title>
+			<title code="0x12">森</title>
+			<title code="0x13">Main Feled</title>
+			<title code="0x14">町</title>
+			<title code="0x15">村</title>
+			<title code="0x16">エルフの村</title>
+			<title code="0x17">洞窟</title>
+			<title code="0x18">神殿</title>
+			<title code="0x19">イベント 1</title>
+			<title code="0x1a">イベント 2</title>
+			<title code="0x1b">3人組</title>
+			<title code="0x1c">Nomal Battle</title>
+			<title code="0x1d">BOSS</title>
 			<title code="0x1e">LG_GS15.MD</title>
 			<title code="0x1f">LG_GS16.MD</title>
 			<title code="0x20">LG_GS17.MD</title>
-			<title code="0x21">LG_GS18.MD : 山・雪山</title>
-			<title code="0x22">LG_GS19.MD : イベント 3</title>
-			<title code="0x23">LG_GS20.MD : Ending</title>
-			<title code="0x24">LG_GS21.MD : LAST BATTLE</title>
-			<title code="0x25">LG_GS22.MD : Dragon</title>
-			<title code="0x26">LG_GS23.MD : 宿屋</title>
-			<title code="0x27">LG_GS24.MD : GAME OVER</title>
-			<title code="0x28">LG_GS25.MD : WIN</title>
-			<title code="0x29">LG_GS26.MD : 怪しい音色</title>
-			<title code="0x2a">LG_GS27.MD : 宝箱</title>
-			<title code="0x2b">LG_GS28.MD : 笛</title>
+			<title code="0x21">山・雪山</title>
+			<title code="0x22">イベント 3</title>
+			<title code="0x23">Ending</title>
+			<title code="0x24">LAST BATTLE</title>
+			<title code="0x25">Dragon</title>
+			<title code="0x26">宿屋</title>
+			<title code="0x27">GAME OVER</title>
+			<title code="0x28">WIN</title>
+			<title code="0x29">怪しい音色</title>
+			<title code="0x2a">宝箱</title>
+			<title code="0x2b">笛</title>
 		</titlelist>
 	</game>
 </gamelist>

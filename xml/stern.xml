@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2016/01/11">
+	<!-- Stern Electronics -->
+	<game>
+		<name>[Scramble] Tazz-Mania (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Stern Electronics</driveralias>
+		<romlist archive="tazmania">
+			<rom type="code" offset="0x00000">rom0.snd</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">SFX #01</title>
+			<title code="0x02">SFX #02</title>
+			<title code="0x03">SFX #03</title>
+			<title code="0x04">SFX #04</title>
+			<title code="0x05">SFX #05</title>
+			<title code="0x06">SFX #06</title>
+			<title code="0x07">SFX #07</title>
+			<title code="0x08">SFX #08</title>
+			<title code="0x09">SFX #09</title>
+			<title code="0x0A">SFX #0A</title>
+			<title code="0x0B">SFX #0B</title>
+			<title code="0x0C">SFX #0C</title>
+			<title code="0x0D">SFX #0D</title>
+			<title code="0x0E">SFX #0E</title>
+			<title code="0x0F">SFX #0F</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Scramble] Moonwar (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Stern Electronics</driveralias>
+		<romlist archive="moonwar">
+			<rom type="code" offset="0x00000">mw2.5c</rom>
+			<rom type="code" offset="0x0800">mw2.5d</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0A">BGM #0A</title>
+			<title code="0x0B">BGM #0B</title>
+			<title code="0x0C">BGM #0C</title>
+			<title code="0x0D">BGM #0D</title>
+			<title code="0x0E">BGM #0E</title>
+			<title code="0x0F">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Scramble] Armored Car (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Stern Electronics</driveralias>
+		<romlist archive="armorcar">
+			<rom type="code" offset="0x00000">sound.5c</rom>
+			<rom type="code" offset="0x0800">sound.5d</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0A">BGM #0A</title>
+			<title code="0x0B">BGM #0B</title>
+			<title code="0x0C">BGM #0C</title>
+			<title code="0x0D">BGM #0D</title>
+			<title code="0x0E">BGM #0E</title>
+			<title code="0x0F">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Scramble] Lost Tomb (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Stern Electronics</driveralias>
+		<romlist archive="losttomb">
+			<rom type="code" offset="0x00000">5c</rom>
+			<rom type="code" offset="0x0800">5d</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0A">BGM #0A</title>
+			<title code="0x0B">BGM #0B</title>
+			<title code="0x0C">BGM #0C</title>
+			<title code="0x0D">BGM #0D</title>
+			<title code="0x0E">BGM #0E</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Scramble] Speed Coin (Prototype) (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Stern Electronics</driveralias>
+		<romlist archive="spdcoin">
+			<rom type="code" offset="0x00000">spdcoin.5c</rom>
+			<rom type="code" offset="0x0800">spdcoin.5d</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Attract</title>
+			<title code="0x02">High Score Screen</title>
+			<title code="0x03">Hit (Bonus Screen)</title>
+			<title code="0x04">Coin</title>
+			<title code="0x05">New Best Time</title>
+			<title code="0x06">BGM</title>
+			<title code="0x08">Attract (after coin)</title>
+			<title code="0x09">High Score Screen (after coin)</title>
+		<!--<title code="0x0A">Hit (Bonus Screen)</title>
+			<title code="0x0B">Coin</title>
+			<title code="0x0C">New Best Time</title>-->
+			<title code="0x0D">BGM (after coin)</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -252,6 +252,268 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Beat Vice Music mode (ビートバイス ミュージックモード) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="bvmm_98">
+			<rom type="file" offset="-1">bvmm_98.com</rom>
+			<rom type="file" offset="-1">OPNDRV.COM</rom>
+			<rom type="file" offset="0x10">MD0</rom>
+			<rom type="file" offset="0x11">MD1</rom>
+			<rom type="file" offset="0x12">MD10</rom>
+			<rom type="file" offset="0x13">MD100</rom>
+			<rom type="file" offset="0x14">MD101</rom>
+			<rom type="file" offset="0x15">MD102</rom>
+			<rom type="file" offset="0x16">MD103</rom>
+			<rom type="file" offset="0x17">MD104</rom>
+			<rom type="file" offset="0x18">MD105</rom>
+			<rom type="file" offset="0x19">MD106</rom>
+			<rom type="file" offset="0x1a">MD107</rom>
+			<rom type="file" offset="0x1b">MD108</rom>
+			<rom type="file" offset="0x1c">MD109</rom>
+			<rom type="file" offset="0x1d">MD11</rom>
+			<rom type="file" offset="0x1e">MD110</rom>
+			<rom type="file" offset="0x1f">MD111</rom>
+			<rom type="file" offset="0x20">MD112</rom>
+			<rom type="file" offset="0x21">MD113</rom>
+			<rom type="file" offset="0x22">MD114</rom>
+			<rom type="file" offset="0x23">MD115</rom>
+			<rom type="file" offset="0x24">MD116</rom>
+			<rom type="file" offset="0x25">MD117</rom>
+			<rom type="file" offset="0x26">MD118</rom>
+			<rom type="file" offset="0x27">MD119</rom>
+			<rom type="file" offset="0x28">MD12</rom>
+			<rom type="file" offset="0x29">MD120</rom>
+			<rom type="file" offset="0x2a">MD121</rom>
+			<rom type="file" offset="0x2b">MD13</rom>
+			<rom type="file" offset="0x2c">MD14</rom>
+			<rom type="file" offset="0x2d">MD15</rom>
+			<rom type="file" offset="0x2e">MD16</rom>
+			<rom type="file" offset="0x2f">MD17</rom>
+			<rom type="file" offset="0x30">MD18</rom>
+			<rom type="file" offset="0x31">MD19</rom>
+			<rom type="file" offset="0x32">MD2</rom>
+			<rom type="file" offset="0x33">MD20</rom>
+			<rom type="file" offset="0x34">MD21</rom>
+			<rom type="file" offset="0x35">MD22</rom>
+			<rom type="file" offset="0x36">MD23</rom>
+			<rom type="file" offset="0x37">MD24</rom>
+			<rom type="file" offset="0x38">MD25</rom>
+			<rom type="file" offset="0x39">MD26</rom>
+			<rom type="file" offset="0x3a">MD27</rom>
+			<rom type="file" offset="0x3b">MD28</rom>
+			<rom type="file" offset="0x3c">MD29</rom>
+			<rom type="file" offset="0x3d">MD3</rom>
+			<rom type="file" offset="0x3e">MD30</rom>
+			<rom type="file" offset="0x3f">MD31</rom>
+			<rom type="file" offset="0x40">MD32</rom>
+			<rom type="file" offset="0x41">MD33</rom>
+			<rom type="file" offset="0x42">MD34</rom>
+			<rom type="file" offset="0x43">MD35</rom>
+			<rom type="file" offset="0x44">MD36</rom>
+			<rom type="file" offset="0x45">MD37</rom>
+			<rom type="file" offset="0x46">MD38</rom>
+			<rom type="file" offset="0x47">MD39</rom>
+			<rom type="file" offset="0x48">MD4</rom>
+			<rom type="file" offset="0x49">MD40</rom>
+			<rom type="file" offset="0x4a">MD41</rom>
+			<rom type="file" offset="0x4b">MD42</rom>
+			<rom type="file" offset="0x4c">MD43</rom>
+			<rom type="file" offset="0x4d">MD44</rom>
+			<rom type="file" offset="0x4e">MD45</rom>
+			<rom type="file" offset="0x4f">MD46</rom>
+			<rom type="file" offset="0x50">MD47</rom>
+			<rom type="file" offset="0x51">MD48</rom>
+			<rom type="file" offset="0x52">MD49</rom>
+			<rom type="file" offset="0x53">MD5</rom>
+			<rom type="file" offset="0x54">MD50</rom>
+			<rom type="file" offset="0x55">MD51</rom>
+			<rom type="file" offset="0x56">MD52</rom>
+			<rom type="file" offset="0x57">MD53</rom>
+			<rom type="file" offset="0x58">MD54</rom>
+			<rom type="file" offset="0x59">MD55</rom>
+			<rom type="file" offset="0x5a">MD56</rom>
+			<rom type="file" offset="0x5b">MD57</rom>
+			<rom type="file" offset="0x5c">MD58</rom>
+			<rom type="file" offset="0x5d">MD59</rom>
+			<rom type="file" offset="0x5e">MD6</rom>
+			<rom type="file" offset="0x5f">MD60</rom>
+			<rom type="file" offset="0x60">MD61</rom>
+			<rom type="file" offset="0x61">MD62</rom>
+			<rom type="file" offset="0x62">MD63</rom>
+			<rom type="file" offset="0x63">MD64</rom>
+			<rom type="file" offset="0x64">MD65</rom>
+			<rom type="file" offset="0x65">MD66</rom>
+			<rom type="file" offset="0x66">MD67</rom>
+			<rom type="file" offset="0x67">MD68</rom>
+			<rom type="file" offset="0x68">MD69</rom>
+			<rom type="file" offset="0x69">MD7</rom>
+			<rom type="file" offset="0x6a">MD70</rom>
+			<rom type="file" offset="0x6b">MD71</rom>
+			<rom type="file" offset="0x6c">MD72</rom>
+			<rom type="file" offset="0x6d">MD73</rom>
+			<rom type="file" offset="0x6e">MD74</rom>
+			<rom type="file" offset="0x6f">MD75</rom>
+			<rom type="file" offset="0x70">MD76</rom>
+			<rom type="file" offset="0x71">MD77</rom>
+			<rom type="file" offset="0x72">MD78</rom>
+			<rom type="file" offset="0x73">MD79</rom>
+			<rom type="file" offset="0x74">MD8</rom>
+			<rom type="file" offset="0x75">MD80</rom>
+			<rom type="file" offset="0x76">MD81</rom>
+			<rom type="file" offset="0x77">MD82</rom>
+			<rom type="file" offset="0x78">MD83</rom>
+			<rom type="file" offset="0x79">MD84</rom>
+			<rom type="file" offset="0x7a">MD85</rom>
+			<rom type="file" offset="0x7b">MD86</rom>
+			<rom type="file" offset="0x7c">MD87</rom>
+			<rom type="file" offset="0x7d">MD88</rom>
+			<rom type="file" offset="0x7e">MD89</rom>
+			<rom type="file" offset="0x7f">MD9</rom>
+			<rom type="file" offset="0x80">MD90</rom>
+			<rom type="file" offset="0x81">MD91</rom>
+			<rom type="file" offset="0x82">MD92</rom>
+			<rom type="file" offset="0x83">MD93</rom>
+			<rom type="file" offset="0x84">MD94</rom>
+			<rom type="file" offset="0x85">MD95</rom>
+			<rom type="file" offset="0x86">MD96</rom>
+			<rom type="file" offset="0x87">MD97</rom>
+			<rom type="file" offset="0x88">MD98</rom>
+			<rom type="file" offset="0x89">MD99</rom>
+			<rom type="file" offset="0x8a">MMMAIN</rom>
+			<rom type="shell" offset="0">opndrv</rom>
+			<rom type="shell" offset="0">bvmm_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅システムタイトル</title>
+			<title code="0x11">Logic operation</title>
+			<title code="0x32">Fountain to world</title>
+			<title code="0x3d">Go to hell</title>
+			<title code="0x48">Rolling road</title>
+			<title code="0x53">Skin head</title>
+			<title code="0x5e">Which do you have?</title>
+			<title code="0x69">Red sight</title>
+			<title code="0x74">Try into the hide</title>
+			<title code="0x7f">Try again!</title>
+			<title code="0x12">Oh! my God!!</title>
+			<title code="0x1d">Will meet you</title>
+			<title code="0x28">Quick! Quick!</title>
+			<title code="0x2b">Lucky! Lucky!</title>
+			<title code="0x2c">Under the world</title>
+			<title code="0x2d">Take the mission</title>
+			<title code="0x2e">Never be afraid</title>
+			<title code="0x2f">Dark the mission</title>
+			<title code="0x30">Resistance</title>
+			<title code="0x31">Cybernet projection</title>
+			<title code="0x33">Gride and turn</title>
+			<title code="0x34">Resolution</title>
+			<title code="0x35">All green</title>
+			<title code="0x36">Shot</title>
+			<title code="0x37">Criminal heroes</title>
+			<title code="0x38">Pressure of God</title>
+			<title code="0x39">Secret war</title>
+			<title code="0x3a">Hidden</title>
+			<title code="0x3b">Stairway to saint</title>
+			<title code="0x3c">Chain reaction</title>
+			<title code="0x3e">Have you ever seen</title>
+			<title code="0x3f">Magnificent dimension</title>
+			<title code="0x40">Z-AGE</title>
+			<title code="0x41">War for psychology</title>
+			<title code="0x42">Light road</title>
+			<title code="0x43">Voice of hell</title>
+			<title code="0x44">Laser of blue</title>
+			<title code="0x45">Illusion</title>
+			<title code="0x46">Born to Devil</title>
+			<title code="0x47">Cosmic wave</title>
+			<title code="0x49">Into fire</title>
+			<title code="0x4a">Death tears</title>
+			<title code="0x4b">Answer of quiet</title>
+			<title code="0x4c">Twilight air</title>
+			<title code="0x4d">Star dust</title>
+			<title code="0x4e">Natural high</title>
+			<title code="0x4f">Dark wind</title>
+			<title code="0x50">Tight rope</title>
+			<title code="0x51">Saintly fight</title>
+			<title code="0x52">St.Black</title>
+			<title code="0x54">Ancent jade</title>
+			<title code="0x55">Jim-Jams</title>
+			<title code="0x56">Pink noise</title>
+			<title code="0x57">Ground cross</title>
+			<title code="0x58">5光年要塞のテーマ</title>
+			<title code="0x59">ネオラエシーのテーマ</title>
+			<title code="0x5a">リジル・ケントのテーマ</title>
+			<title code="0x5b">太陽系のテーマ</title>
+			<title code="0x5c">ネタールのテーマ</title>
+			<title code="0x5d">プロキオンのテーマ</title>
+			<title code="0x5f">マルミーのテーマ</title>
+			<title code="0x60">ボルフベッケルのテーマ</title>
+			<title code="0x61">ヴィラマのテーマ</title>
+			<title code="0x62">バーナードのテーマ</title>
+			<title code="0x63">シリウスのテーマ</title>
+			<title code="0x64">共同体のテーマ</title>
+			<title code="0x65">五陵邦のテーマ</title>
+			<title code="0x66">帝国のテーマ</title>
+			<title code="0x67">He said</title>
+			<title code="0x68">Get lost</title>
+			<title code="0x6a">She is a girl</title>
+			<title code="0x6b">Phantom</title>
+			<title code="0x6c">Once again</title>
+			<title code="0x6d">Get human heart</title>
+			<title code="0x6e">Time was</title>
+			<title code="0x6f">Reminiscence</title>
+			<title code="0x70">Red flag</title>
+			<title code="0x71">Fat Ota</title>
+			<title code="0x72">Sigh for grief</title>
+			<title code="0x73">Warrior</title>
+			<title code="0x75">Remainning picture</title>
+			<title code="0x76">Have a joke</title>
+			<title code="0x77">Pass the crisis</title>
+			<title code="0x78">Celebration</title>
+			<title code="0x79">Remember a day</title>
+			<title code="0x7a">Missleading</title>
+			<title code="0x7b">Kidnap</title>
+			<title code="0x7c">Endless history</title>
+			<title code="0x7d">Be rejoiced</title>
+			<title code="0x7e">Add U</title>
+			<title code="0x80">Pub</title>
+			<title code="0x81">Sometime world</title>
+			<title code="0x82">Worry cherry</title>
+			<title code="0x83">Lonely heart</title>
+			<title code="0x84">Turning point</title>
+			<title code="0x85">Sadness road</title>
+			<title code="0x86">No home</title>
+			<title code="0x87">Yuki after make love</title>
+			<title code="0x88">Miss match love</title>
+			<title code="0x89">Dark town</title>
+			<title code="0x13">I so only one</title>
+			<title code="0x14">Funny face</title>
+			<title code="0x15">Night so long</title>
+			<title code="0x16">Happy wedding</title>
+			<title code="0x17">The last moment</title>
+			<title code="0x18">BYE-BYE</title>
+			<title code="0x19">Pleasuer seeker</title>
+			<title code="0x1a">Beat Vice</title>
+			<title code="0x1b">Behind the shadow</title>
+			<title code="0x1c">Logic operation (for demo)</title>
+			<title code="0x1e">Puru-Puru</title>
+			<title code="0x1f">Dark eyes</title>
+			<title code="0x20">Party is over</title>
+			<title code="0x21">Can you try</title>
+			<title code="0x22">Mind game</title>
+			<title code="0x23">Into the ･･･</title>
+			<title code="0x24">Dancin' Yuki</title>
+			<title code="0x25">Nightmare</title>
+			<title code="0x26">Sky move</title>
+			<title code="0x27">Last change</title>
+			<title code="0x29">Voice of falcon</title>
+			<title code="0x2a">Perpetual motion</title>
+			<title code="0x8a">MMMAIN</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Amaranth (アマランス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fuga System</driveralias>
@@ -362,7 +624,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Amaranth (Tentou Demo) (アマランス (店頭デモ)) (YM2203)</name>
+		<name>[PC-9801] Amaranth (Store Demo) (アマランス (店頭デモ)) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fuga System</driveralias>
 		<options>
@@ -927,7 +1189,7 @@
 			<title code="0x2e">CHAOS.MD</title>
 			<title code="0x2f">DHILTHY.MD</title>
 			<title code="0x30">ENDING1.MD</title>
-			<title code="0x31">ENDING2.MD  : 終わり無き旅路 (スタッフロール)</title>
+			<title code="0x31">終わり無き旅路 (スタッフロール)</title>
 			<title code="0x34">P0002.MD</title>
 		</titlelist>
 	</game>
@@ -1296,7 +1558,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Amaranth II - Tentou Demo (アマランスII 店頭デモ) (YM2203)</name>
+		<name>[PC-9801] Amaranth II (Store Demo) (アマランスII 店頭デモ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fuga System</driveralias>
 		<options>
@@ -2380,248 +2642,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (YM2203)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="deadfc98">
-			<rom type="file" offset="-1">fgplay_h.com</rom>
-			<rom type="file" offset="-1">OPNDRV.COM</rom>
-			<rom type="file" offset="0x10">DFRC_000.MD</rom>
-			<rom type="file" offset="0x11">DFRC_001.MD</rom>
-			<rom type="file" offset="0x12">DFRC_002.MD</rom>
-			<rom type="file" offset="0x13">DFRC_003.MD</rom>
-			<rom type="file" offset="0x14">DFRC_004.MD</rom>
-			<rom type="file" offset="0x15">DFRC_005.MD</rom>
-			<rom type="file" offset="0x16">DFRC_006.MD</rom>
-			<rom type="file" offset="0x17">DFRC_007.MD</rom>
-			<rom type="file" offset="0x18">DFRC_008.MD</rom>
-			<rom type="file" offset="0x19">DFRC_009.MD</rom>
-			<rom type="file" offset="0x1a">DFRC_010.MD</rom>
-			<rom type="file" offset="0x1b">DFRC_011.MD</rom>
-			<rom type="file" offset="0x1c">DFRC_012.MD</rom>
-			<rom type="file" offset="0x1d">DFRC_013.MD</rom>
-			<rom type="file" offset="0x1e">DFRC_014.MD</rom>
-			<rom type="shell" offset="0">opndrv</rom>
-			<rom type="shell" offset="0">fgplay_h</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">風雅タイトル</title>
-			<title code="0x19">オープニング1</title>
-			<title code="0x1a">オープニング2</title>
-			<title code="0x11">監獄島</title>
-			<title code="0x12">進軍</title>
-			<title code="0x13">迷いの森</title>
-			<title code="0x14">西国ダルディーラ</title>
-			<title code="0x15">中央僧院</title>
-			<title code="0x16">ダル</title>
-			<title code="0x17">哀しみ</title>
-			<title code="0x1c">ザコ戦闘</title>
-			<title code="0x1d">ボス戦闘</title>
-			<title code="0x1e">ダル戦闘</title>
-			<title code="0x18">エンディング</title>
-			<title code="0x1b">スタッフロール</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (MT-32)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="2"/>
-		</options>
-		<romlist archive="deadfc98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="-1">CM64.TON</rom>
-			<rom type="conin" offset="5">CM64.TON</rom>
-			<rom type="file" offset="0x10">DFRC_000.MMD</rom>
-			<rom type="file" offset="0x11">DFRC_001.MMD</rom>
-			<rom type="file" offset="0x12">DFRC_002.MMD</rom>
-			<rom type="file" offset="0x13">DFRC_003.MMD</rom>
-			<rom type="file" offset="0x14">DFRC_004.MMD</rom>
-			<rom type="file" offset="0x15">DFRC_005.MMD</rom>
-			<rom type="file" offset="0x16">DFRC_006.MMD</rom>
-			<rom type="file" offset="0x17">DFRC_007.MMD</rom>
-			<rom type="file" offset="0x18">DFRC_008.MMD</rom>
-			<rom type="file" offset="0x19">DFRC_009.MMD</rom>
-			<rom type="file" offset="0x1a">DFRC_010.MMD</rom>
-			<rom type="file" offset="0x1b">DFRC_011.MMD</rom>
-			<rom type="file" offset="0x1c">DFRC_012.MMD</rom>
-			<rom type="file" offset="0x1d">DFRC_013.MMD</rom>
-			<rom type="file" offset="0x1e">DFRC_014.MMD</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">風雅タイトル</title>
-			<title code="0x19">オープニング1</title>
-			<title code="0x1a">オープニング2</title>
-			<title code="0x11">監獄島</title>
-			<title code="0x12">進軍</title>
-			<title code="0x13">迷いの森</title>
-			<title code="0x14">西国ダルディーラ</title>
-			<title code="0x15">中央僧院</title>
-			<title code="0x16">ダル</title>
-			<title code="0x17">哀しみ</title>
-			<title code="0x1c">ザコ戦闘</title>
-			<title code="0x1d">ボス戦闘</title>
-			<title code="0x1e">ダル戦闘</title>
-			<title code="0x18">エンディング</title>
-			<title code="0x1b">スタッフロール</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (Munt, MT-32 simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="deadfc98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="-1">CM64.TON</rom>
-			<rom type="conin" offset="5">CM64.TON</rom>
-			<rom type="file" offset="0x10">DFRC_000.MMD</rom>
-			<rom type="file" offset="0x11">DFRC_001.MMD</rom>
-			<rom type="file" offset="0x12">DFRC_002.MMD</rom>
-			<rom type="file" offset="0x13">DFRC_003.MMD</rom>
-			<rom type="file" offset="0x14">DFRC_004.MMD</rom>
-			<rom type="file" offset="0x15">DFRC_005.MMD</rom>
-			<rom type="file" offset="0x16">DFRC_006.MMD</rom>
-			<rom type="file" offset="0x17">DFRC_007.MMD</rom>
-			<rom type="file" offset="0x18">DFRC_008.MMD</rom>
-			<rom type="file" offset="0x19">DFRC_009.MMD</rom>
-			<rom type="file" offset="0x1a">DFRC_010.MMD</rom>
-			<rom type="file" offset="0x1b">DFRC_011.MMD</rom>
-			<rom type="file" offset="0x1c">DFRC_012.MMD</rom>
-			<rom type="file" offset="0x1d">DFRC_013.MMD</rom>
-			<rom type="file" offset="0x1e">DFRC_014.MMD</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">風雅タイトル</title>
-			<title code="0x19">オープニング1</title>
-			<title code="0x1a">オープニング2</title>
-			<title code="0x11">監獄島</title>
-			<title code="0x12">進軍</title>
-			<title code="0x13">迷いの森</title>
-			<title code="0x14">西国ダルディーラ</title>
-			<title code="0x15">中央僧院</title>
-			<title code="0x16">ダル</title>
-			<title code="0x17">哀しみ</title>
-			<title code="0x1c">ザコ戦闘</title>
-			<title code="0x1d">ボス戦闘</title>
-			<title code="0x1e">ダル戦闘</title>
-			<title code="0x18">エンディング</title>
-			<title code="0x1b">スタッフロール</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="deadfc98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">DFRC_000.GMD</rom>
-			<rom type="file" offset="0x11">DFRC_001.GMD</rom>
-			<rom type="file" offset="0x12">DFRC_002.GMD</rom>
-			<rom type="file" offset="0x13">DFRC_003.GMD</rom>
-			<rom type="file" offset="0x14">DFRC_004.GMD</rom>
-			<rom type="file" offset="0x15">DFRC_005.GMD</rom>
-			<rom type="file" offset="0x16">DFRC_006.GMD</rom>
-			<rom type="file" offset="0x17">DFRC_007.GMD</rom>
-			<rom type="file" offset="0x18">DFRC_008.GMD</rom>
-			<rom type="file" offset="0x19">DFRC_009.GMD</rom>
-			<rom type="file" offset="0x1a">DFRC_010.GMD</rom>
-			<rom type="file" offset="0x1b">DFRC_011.GMD</rom>
-			<rom type="file" offset="0x1c">DFRC_012.GMD</rom>
-			<rom type="file" offset="0x1d">DFRC_013.GMD</rom>
-			<rom type="file" offset="0x1e">DFRC_014.GMD</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">風雅タイトル</title>
-			<title code="0x19">オープニング1</title>
-			<title code="0x1a">オープニング2</title>
-			<title code="0x11">監獄島</title>
-			<title code="0x12">進軍</title>
-			<title code="0x13">迷いの森</title>
-			<title code="0x14">西国ダルディーラ</title>
-			<title code="0x15">中央僧院</title>
-			<title code="0x16">ダル</title>
-			<title code="0x17">哀しみ</title>
-			<title code="0x1c">ザコ戦闘</title>
-			<title code="0x1d">ボス戦闘</title>
-			<title code="0x1e">ダル戦闘</title>
-			<title code="0x18">エンディング</title>
-			<title code="0x1b">スタッフロール</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="deadfc98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">DFRC_000.GMD</rom>
-			<rom type="file" offset="0x11">DFRC_001.GMD</rom>
-			<rom type="file" offset="0x12">DFRC_002.GMD</rom>
-			<rom type="file" offset="0x13">DFRC_003.GMD</rom>
-			<rom type="file" offset="0x14">DFRC_004.GMD</rom>
-			<rom type="file" offset="0x15">DFRC_005.GMD</rom>
-			<rom type="file" offset="0x16">DFRC_006.GMD</rom>
-			<rom type="file" offset="0x17">DFRC_007.GMD</rom>
-			<rom type="file" offset="0x18">DFRC_008.GMD</rom>
-			<rom type="file" offset="0x19">DFRC_009.GMD</rom>
-			<rom type="file" offset="0x1a">DFRC_010.GMD</rom>
-			<rom type="file" offset="0x1b">DFRC_011.GMD</rom>
-			<rom type="file" offset="0x1c">DFRC_012.GMD</rom>
-			<rom type="file" offset="0x1d">DFRC_013.GMD</rom>
-			<rom type="file" offset="0x1e">DFRC_014.GMD</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">風雅タイトル</title>
-			<title code="0x19">オープニング1</title>
-			<title code="0x1a">オープニング2</title>
-			<title code="0x11">監獄島</title>
-			<title code="0x12">進軍</title>
-			<title code="0x13">迷いの森</title>
-			<title code="0x14">西国ダルディーラ</title>
-			<title code="0x15">中央僧院</title>
-			<title code="0x16">ダル</title>
-			<title code="0x17">哀しみ</title>
-			<title code="0x1c">ザコ戦闘</title>
-			<title code="0x1d">ボス戦闘</title>
-			<title code="0x1e">ダル戦闘</title>
-			<title code="0x18">エンディング</title>
-			<title code="0x1b">スタッフロール</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Amaranth KH: Stellar Oukoku Kenkoku Tan (アマランスKH ～シュテラール王国建国譚～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fuga System</driveralias>
@@ -2972,7 +2992,249 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pushpon (Taiken-ban) (ぷっしぽーん (体験版)) (YM2203)</name>
+		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="deadfc98">
+			<rom type="file" offset="-1">fgplay_h.com</rom>
+			<rom type="file" offset="-1">OPNDRV.COM</rom>
+			<rom type="file" offset="0x10">DFRC_000.MD</rom>
+			<rom type="file" offset="0x11">DFRC_001.MD</rom>
+			<rom type="file" offset="0x12">DFRC_002.MD</rom>
+			<rom type="file" offset="0x13">DFRC_003.MD</rom>
+			<rom type="file" offset="0x14">DFRC_004.MD</rom>
+			<rom type="file" offset="0x15">DFRC_005.MD</rom>
+			<rom type="file" offset="0x16">DFRC_006.MD</rom>
+			<rom type="file" offset="0x17">DFRC_007.MD</rom>
+			<rom type="file" offset="0x18">DFRC_008.MD</rom>
+			<rom type="file" offset="0x19">DFRC_009.MD</rom>
+			<rom type="file" offset="0x1a">DFRC_010.MD</rom>
+			<rom type="file" offset="0x1b">DFRC_011.MD</rom>
+			<rom type="file" offset="0x1c">DFRC_012.MD</rom>
+			<rom type="file" offset="0x1d">DFRC_013.MD</rom>
+			<rom type="file" offset="0x1e">DFRC_014.MD</rom>
+			<rom type="shell" offset="0">opndrv</rom>
+			<rom type="shell" offset="0">fgplay_h</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅タイトル</title>
+			<title code="0x19">オープニング1</title>
+			<title code="0x1a">オープニング2</title>
+			<title code="0x11">監獄島</title>
+			<title code="0x12">進軍</title>
+			<title code="0x13">迷いの森</title>
+			<title code="0x14">西国ダルディーラ</title>
+			<title code="0x15">中央僧院</title>
+			<title code="0x16">ダル</title>
+			<title code="0x17">哀しみ</title>
+			<title code="0x1c">ザコ戦闘</title>
+			<title code="0x1d">ボス戦闘</title>
+			<title code="0x1e">ダル戦闘</title>
+			<title code="0x18">エンディング</title>
+			<title code="0x1b">スタッフロール</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (MT-32)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="deadfc98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="-1">CM64.TON</rom>
+			<rom type="conin" offset="5">CM64.TON</rom>
+			<rom type="file" offset="0x10">DFRC_000.MMD</rom>
+			<rom type="file" offset="0x11">DFRC_001.MMD</rom>
+			<rom type="file" offset="0x12">DFRC_002.MMD</rom>
+			<rom type="file" offset="0x13">DFRC_003.MMD</rom>
+			<rom type="file" offset="0x14">DFRC_004.MMD</rom>
+			<rom type="file" offset="0x15">DFRC_005.MMD</rom>
+			<rom type="file" offset="0x16">DFRC_006.MMD</rom>
+			<rom type="file" offset="0x17">DFRC_007.MMD</rom>
+			<rom type="file" offset="0x18">DFRC_008.MMD</rom>
+			<rom type="file" offset="0x19">DFRC_009.MMD</rom>
+			<rom type="file" offset="0x1a">DFRC_010.MMD</rom>
+			<rom type="file" offset="0x1b">DFRC_011.MMD</rom>
+			<rom type="file" offset="0x1c">DFRC_012.MMD</rom>
+			<rom type="file" offset="0x1d">DFRC_013.MMD</rom>
+			<rom type="file" offset="0x1e">DFRC_014.MMD</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅タイトル</title>
+			<title code="0x19">オープニング1</title>
+			<title code="0x1a">オープニング2</title>
+			<title code="0x11">監獄島</title>
+			<title code="0x12">進軍</title>
+			<title code="0x13">迷いの森</title>
+			<title code="0x14">西国ダルディーラ</title>
+			<title code="0x15">中央僧院</title>
+			<title code="0x16">ダル</title>
+			<title code="0x17">哀しみ</title>
+			<title code="0x1c">ザコ戦闘</title>
+			<title code="0x1d">ボス戦闘</title>
+			<title code="0x1e">ダル戦闘</title>
+			<title code="0x18">エンディング</title>
+			<title code="0x1b">スタッフロール</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (Munt, MT-32 simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="deadfc98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="-1">CM64.TON</rom>
+			<rom type="conin" offset="5">CM64.TON</rom>
+			<rom type="file" offset="0x10">DFRC_000.MMD</rom>
+			<rom type="file" offset="0x11">DFRC_001.MMD</rom>
+			<rom type="file" offset="0x12">DFRC_002.MMD</rom>
+			<rom type="file" offset="0x13">DFRC_003.MMD</rom>
+			<rom type="file" offset="0x14">DFRC_004.MMD</rom>
+			<rom type="file" offset="0x15">DFRC_005.MMD</rom>
+			<rom type="file" offset="0x16">DFRC_006.MMD</rom>
+			<rom type="file" offset="0x17">DFRC_007.MMD</rom>
+			<rom type="file" offset="0x18">DFRC_008.MMD</rom>
+			<rom type="file" offset="0x19">DFRC_009.MMD</rom>
+			<rom type="file" offset="0x1a">DFRC_010.MMD</rom>
+			<rom type="file" offset="0x1b">DFRC_011.MMD</rom>
+			<rom type="file" offset="0x1c">DFRC_012.MMD</rom>
+			<rom type="file" offset="0x1d">DFRC_013.MMD</rom>
+			<rom type="file" offset="0x1e">DFRC_014.MMD</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅タイトル</title>
+			<title code="0x19">オープニング1</title>
+			<title code="0x1a">オープニング2</title>
+			<title code="0x11">監獄島</title>
+			<title code="0x12">進軍</title>
+			<title code="0x13">迷いの森</title>
+			<title code="0x14">西国ダルディーラ</title>
+			<title code="0x15">中央僧院</title>
+			<title code="0x16">ダル</title>
+			<title code="0x17">哀しみ</title>
+			<title code="0x1c">ザコ戦闘</title>
+			<title code="0x1d">ボス戦闘</title>
+			<title code="0x1e">ダル戦闘</title>
+			<title code="0x18">エンディング</title>
+			<title code="0x1b">スタッフロール</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="deadfc98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">DFRC_000.GMD</rom>
+			<rom type="file" offset="0x11">DFRC_001.GMD</rom>
+			<rom type="file" offset="0x12">DFRC_002.GMD</rom>
+			<rom type="file" offset="0x13">DFRC_003.GMD</rom>
+			<rom type="file" offset="0x14">DFRC_004.GMD</rom>
+			<rom type="file" offset="0x15">DFRC_005.GMD</rom>
+			<rom type="file" offset="0x16">DFRC_006.GMD</rom>
+			<rom type="file" offset="0x17">DFRC_007.GMD</rom>
+			<rom type="file" offset="0x18">DFRC_008.GMD</rom>
+			<rom type="file" offset="0x19">DFRC_009.GMD</rom>
+			<rom type="file" offset="0x1a">DFRC_010.GMD</rom>
+			<rom type="file" offset="0x1b">DFRC_011.GMD</rom>
+			<rom type="file" offset="0x1c">DFRC_012.GMD</rom>
+			<rom type="file" offset="0x1d">DFRC_013.GMD</rom>
+			<rom type="file" offset="0x1e">DFRC_014.GMD</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅タイトル</title>
+			<title code="0x19">オープニング1</title>
+			<title code="0x1a">オープニング2</title>
+			<title code="0x11">監獄島</title>
+			<title code="0x12">進軍</title>
+			<title code="0x13">迷いの森</title>
+			<title code="0x14">西国ダルディーラ</title>
+			<title code="0x15">中央僧院</title>
+			<title code="0x16">ダル</title>
+			<title code="0x17">哀しみ</title>
+			<title code="0x1c">ザコ戦闘</title>
+			<title code="0x1d">ボス戦闘</title>
+			<title code="0x1e">ダル戦闘</title>
+			<title code="0x18">エンディング</title>
+			<title code="0x1b">スタッフロール</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Shin Seiki Koubou Shi: Dead Force (新世紀興亡史 デッドフォース) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="deadfc98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">DFRC_000.GMD</rom>
+			<rom type="file" offset="0x11">DFRC_001.GMD</rom>
+			<rom type="file" offset="0x12">DFRC_002.GMD</rom>
+			<rom type="file" offset="0x13">DFRC_003.GMD</rom>
+			<rom type="file" offset="0x14">DFRC_004.GMD</rom>
+			<rom type="file" offset="0x15">DFRC_005.GMD</rom>
+			<rom type="file" offset="0x16">DFRC_006.GMD</rom>
+			<rom type="file" offset="0x17">DFRC_007.GMD</rom>
+			<rom type="file" offset="0x18">DFRC_008.GMD</rom>
+			<rom type="file" offset="0x19">DFRC_009.GMD</rom>
+			<rom type="file" offset="0x1a">DFRC_010.GMD</rom>
+			<rom type="file" offset="0x1b">DFRC_011.GMD</rom>
+			<rom type="file" offset="0x1c">DFRC_012.GMD</rom>
+			<rom type="file" offset="0x1d">DFRC_013.GMD</rom>
+			<rom type="file" offset="0x1e">DFRC_014.GMD</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">風雅タイトル</title>
+			<title code="0x19">オープニング1</title>
+			<title code="0x1a">オープニング2</title>
+			<title code="0x11">監獄島</title>
+			<title code="0x12">進軍</title>
+			<title code="0x13">迷いの森</title>
+			<title code="0x14">西国ダルディーラ</title>
+			<title code="0x15">中央僧院</title>
+			<title code="0x16">ダル</title>
+			<title code="0x17">哀しみ</title>
+			<title code="0x1c">ザコ戦闘</title>
+			<title code="0x1d">ボス戦闘</title>
+			<title code="0x1e">ダル戦闘</title>
+			<title code="0x18">エンディング</title>
+			<title code="0x1b">スタッフロール</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Pushpon (Demo) (ぷっしぽーん (体験版)) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Fuga System</driveralias>
 		<options>
@@ -3002,265 +3264,127 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Beat Vice Music Mode (YM2203)</name>
+		<name>[PC-9801] Hakoujaku Senki (覇皇雀戦鬼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Fuga System</driveralias>
+		<driveralias type="NEC PC-9801">Fuga System</driveralias>
 		<options>
-			<option name="clockmul" value="8"/>
+			<option name="clockmul" value="0x08"/>
 		</options>
-		<romlist archive="bvmm_98">
-			<rom type="file" offset="-1">bvmm_98.com</rom>
+		<romlist archive="haoujan_98">
+			<rom type="file" offset="-1">fgplay_h.com</rom>
 			<rom type="file" offset="-1">OPNDRV.COM</rom>
-			<rom type="file" offset="0x10">MD0</rom>
-			<rom type="file" offset="0x11">MD1</rom>
-			<rom type="file" offset="0x12">MD10</rom>
-			<rom type="file" offset="0x13">MD100</rom>
-			<rom type="file" offset="0x14">MD101</rom>
-			<rom type="file" offset="0x15">MD102</rom>
-			<rom type="file" offset="0x16">MD103</rom>
-			<rom type="file" offset="0x17">MD104</rom>
-			<rom type="file" offset="0x18">MD105</rom>
-			<rom type="file" offset="0x19">MD106</rom>
-			<rom type="file" offset="0x1a">MD107</rom>
-			<rom type="file" offset="0x1b">MD108</rom>
-			<rom type="file" offset="0x1c">MD109</rom>
-			<rom type="file" offset="0x1d">MD11</rom>
-			<rom type="file" offset="0x1e">MD110</rom>
-			<rom type="file" offset="0x1f">MD111</rom>
-			<rom type="file" offset="0x20">MD112</rom>
-			<rom type="file" offset="0x21">MD113</rom>
-			<rom type="file" offset="0x22">MD114</rom>
-			<rom type="file" offset="0x23">MD115</rom>
-			<rom type="file" offset="0x24">MD116</rom>
-			<rom type="file" offset="0x25">MD117</rom>
-			<rom type="file" offset="0x26">MD118</rom>
-			<rom type="file" offset="0x27">MD119</rom>
-			<rom type="file" offset="0x28">MD12</rom>
-			<rom type="file" offset="0x29">MD120</rom>
-			<rom type="file" offset="0x2a">MD121</rom>
-			<rom type="file" offset="0x2b">MD13</rom>
-			<rom type="file" offset="0x2c">MD14</rom>
-			<rom type="file" offset="0x2d">MD15</rom>
-			<rom type="file" offset="0x2e">MD16</rom>
-			<rom type="file" offset="0x2f">MD17</rom>
-			<rom type="file" offset="0x30">MD18</rom>
-			<rom type="file" offset="0x31">MD19</rom>
-			<rom type="file" offset="0x32">MD2</rom>
-			<rom type="file" offset="0x33">MD20</rom>
-			<rom type="file" offset="0x34">MD21</rom>
-			<rom type="file" offset="0x35">MD22</rom>
-			<rom type="file" offset="0x36">MD23</rom>
-			<rom type="file" offset="0x37">MD24</rom>
-			<rom type="file" offset="0x38">MD25</rom>
-			<rom type="file" offset="0x39">MD26</rom>
-			<rom type="file" offset="0x3a">MD27</rom>
-			<rom type="file" offset="0x3b">MD28</rom>
-			<rom type="file" offset="0x3c">MD29</rom>
-			<rom type="file" offset="0x3d">MD3</rom>
-			<rom type="file" offset="0x3e">MD30</rom>
-			<rom type="file" offset="0x3f">MD31</rom>
-			<rom type="file" offset="0x40">MD32</rom>
-			<rom type="file" offset="0x41">MD33</rom>
-			<rom type="file" offset="0x42">MD34</rom>
-			<rom type="file" offset="0x43">MD35</rom>
-			<rom type="file" offset="0x44">MD36</rom>
-			<rom type="file" offset="0x45">MD37</rom>
-			<rom type="file" offset="0x46">MD38</rom>
-			<rom type="file" offset="0x47">MD39</rom>
-			<rom type="file" offset="0x48">MD4</rom>
-			<rom type="file" offset="0x49">MD40</rom>
-			<rom type="file" offset="0x4a">MD41</rom>
-			<rom type="file" offset="0x4b">MD42</rom>
-			<rom type="file" offset="0x4c">MD43</rom>
-			<rom type="file" offset="0x4d">MD44</rom>
-			<rom type="file" offset="0x4e">MD45</rom>
-			<rom type="file" offset="0x4f">MD46</rom>
-			<rom type="file" offset="0x50">MD47</rom>
-			<rom type="file" offset="0x51">MD48</rom>
-			<rom type="file" offset="0x52">MD49</rom>
-			<rom type="file" offset="0x53">MD5</rom>
-			<rom type="file" offset="0x54">MD50</rom>
-			<rom type="file" offset="0x55">MD51</rom>
-			<rom type="file" offset="0x56">MD52</rom>
-			<rom type="file" offset="0x57">MD53</rom>
-			<rom type="file" offset="0x58">MD54</rom>
-			<rom type="file" offset="0x59">MD55</rom>
-			<rom type="file" offset="0x5a">MD56</rom>
-			<rom type="file" offset="0x5b">MD57</rom>
-			<rom type="file" offset="0x5c">MD58</rom>
-			<rom type="file" offset="0x5d">MD59</rom>
-			<rom type="file" offset="0x5e">MD6</rom>
-			<rom type="file" offset="0x5f">MD60</rom>
-			<rom type="file" offset="0x60">MD61</rom>
-			<rom type="file" offset="0x61">MD62</rom>
-			<rom type="file" offset="0x62">MD63</rom>
-			<rom type="file" offset="0x63">MD64</rom>
-			<rom type="file" offset="0x64">MD65</rom>
-			<rom type="file" offset="0x65">MD66</rom>
-			<rom type="file" offset="0x66">MD67</rom>
-			<rom type="file" offset="0x67">MD68</rom>
-			<rom type="file" offset="0x68">MD69</rom>
-			<rom type="file" offset="0x69">MD7</rom>
-			<rom type="file" offset="0x6a">MD70</rom>
-			<rom type="file" offset="0x6b">MD71</rom>
-			<rom type="file" offset="0x6c">MD72</rom>
-			<rom type="file" offset="0x6d">MD73</rom>
-			<rom type="file" offset="0x6e">MD74</rom>
-			<rom type="file" offset="0x6f">MD75</rom>
-			<rom type="file" offset="0x70">MD76</rom>
-			<rom type="file" offset="0x71">MD77</rom>
-			<rom type="file" offset="0x72">MD78</rom>
-			<rom type="file" offset="0x73">MD79</rom>
-			<rom type="file" offset="0x74">MD8</rom>
-			<rom type="file" offset="0x75">MD80</rom>
-			<rom type="file" offset="0x76">MD81</rom>
-			<rom type="file" offset="0x77">MD82</rom>
-			<rom type="file" offset="0x78">MD83</rom>
-			<rom type="file" offset="0x79">MD84</rom>
-			<rom type="file" offset="0x7a">MD85</rom>
-			<rom type="file" offset="0x7b">MD86</rom>
-			<rom type="file" offset="0x7c">MD87</rom>
-			<rom type="file" offset="0x7d">MD88</rom>
-			<rom type="file" offset="0x7e">MD89</rom>
-			<rom type="file" offset="0x7f">MD9</rom>
-			<rom type="file" offset="0x80">MD90</rom>
-			<rom type="file" offset="0x81">MD91</rom>
-			<rom type="file" offset="0x82">MD92</rom>
-			<rom type="file" offset="0x83">MD93</rom>
-			<rom type="file" offset="0x84">MD94</rom>
-			<rom type="file" offset="0x85">MD95</rom>
-			<rom type="file" offset="0x86">MD96</rom>
-			<rom type="file" offset="0x87">MD97</rom>
-			<rom type="file" offset="0x88">MD98</rom>
-			<rom type="file" offset="0x89">MD99</rom>
-			<rom type="file" offset="0x8a">MMMAIN</rom>
+			<rom type="file" offset="0x10">HAOU_000.MD</rom>
+			<rom type="file" offset="0x11">HAOU_001.MD</rom>
+			<rom type="file" offset="0x12">HAOU_002.MD</rom>
+			<rom type="file" offset="0x13">HAOU_003.MD</rom>
+			<rom type="file" offset="0x14">HAOU_004.MD</rom>
+			<rom type="file" offset="0x15">HAOU_005.MD</rom>
+			<rom type="file" offset="0x16">HAOU_006.MD</rom>
+			<rom type="file" offset="0x17">HAOU_007.MD</rom>
+			<rom type="file" offset="0x18">HAOU_008.MD</rom>
+			<rom type="file" offset="0x19">HAOU_009.MD</rom>
+			<rom type="file" offset="0x1a">HAOU_010.MD</rom>
+			<rom type="file" offset="0x1b">HAOU_011.MD</rom>
 			<rom type="shell" offset="0">opndrv</rom>
-			<rom type="shell" offset="0">bvmm_98</rom>
+			<rom type="shell" offset="0">fgplay_h</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">風雅システムタイトル</title>
-			<title code="0x11">Logic operation</title>
-			<title code="0x32">Fountain to world</title>
-			<title code="0x3d">Go to hell</title>
-			<title code="0x48">Rolling road</title>
-			<title code="0x53">Skin head</title>
-			<title code="0x5e">Which do you have?</title>
-			<title code="0x69">Red sight</title>
-			<title code="0x74">Try into the hide</title>
-			<title code="0x7f">Try again!</title>
-			<title code="0x12">Oh! my God!!</title>
-			<title code="0x1d">Will meet you</title>
-			<title code="0x28">Quick! Quick!</title>
-			<title code="0x2b">Lucky! Lucky!</title>
-			<title code="0x2c">Under the world</title>
-			<title code="0x2d">Take the mission</title>
-			<title code="0x2e">Never be afraid</title>
-			<title code="0x2f">Dark the mission</title>
-			<title code="0x30">Resistance</title>
-			<title code="0x31">Cybernet projection</title>
-			<title code="0x33">Gride and turn</title>
-			<title code="0x34">Resolution</title>
-			<title code="0x35">All green</title>
-			<title code="0x36">Shot</title>
-			<title code="0x37">Criminal heroes</title>
-			<title code="0x38">Pressure of God</title>
-			<title code="0x39">Secret war</title>
-			<title code="0x3a">Hidden</title>
-			<title code="0x3b">Stairway to saint</title>
-			<title code="0x3c">Chain reaction</title>
-			<title code="0x3e">Have you ever seen</title>
-			<title code="0x3f">Magnificent dimension</title>
-			<title code="0x40">Z-AGE</title>
-			<title code="0x41">War for psychology</title>
-			<title code="0x42">Light road</title>
-			<title code="0x43">Voice of hell</title>
-			<title code="0x44">Laser of blue</title>
-			<title code="0x45">Illusion</title>
-			<title code="0x46">Born to Devil</title>
-			<title code="0x47">Cosmic wave</title>
-			<title code="0x49">Into fire</title>
-			<title code="0x4a">Death tears</title>
-			<title code="0x4b">Answer of quiet</title>
-			<title code="0x4c">Twilight air</title>
-			<title code="0x4d">Star dust</title>
-			<title code="0x4e">Natural high</title>
-			<title code="0x4f">Dark wind</title>
-			<title code="0x50">Tight rope</title>
-			<title code="0x51">Saintly fight</title>
-			<title code="0x52">St.Black</title>
-			<title code="0x54">Ancent jade</title>
-			<title code="0x55">Jim-Jams</title>
-			<title code="0x56">Pink noise</title>
-			<title code="0x57">Ground cross</title>
-			<title code="0x58">5光年要塞のテーマ</title>
-			<title code="0x59">ネオラエシーのテーマ</title>
-			<title code="0x5a">リジル・ケントのテーマ</title>
-			<title code="0x5b">太陽系のテーマ</title>
-			<title code="0x5c">ネタールのテーマ</title>
-			<title code="0x5d">プロキオンのテーマ</title>
-			<title code="0x5f">マルミーのテーマ</title>
-			<title code="0x60">ボルフベッケルのテーマ</title>
-			<title code="0x61">ヴィラマのテーマ</title>
-			<title code="0x62">バーナードのテーマ</title>
-			<title code="0x63">シリウスのテーマ</title>
-			<title code="0x64">共同体のテーマ</title>
-			<title code="0x65">五陵邦のテーマ</title>
-			<title code="0x66">帝国のテーマ</title>
-			<title code="0x67">He said</title>
-			<title code="0x68">Get lost</title>
-			<title code="0x6a">She is a girl</title>
-			<title code="0x6b">Phantom</title>
-			<title code="0x6c">Once again</title>
-			<title code="0x6d">Get human heart</title>
-			<title code="0x6e">Time was</title>
-			<title code="0x6f">Reminiscence</title>
-			<title code="0x70">Red flag</title>
-			<title code="0x71">Fat Ota</title>
-			<title code="0x72">Sigh for grief</title>
-			<title code="0x73">Warrior</title>
-			<title code="0x75">Remainning picture</title>
-			<title code="0x76">Have a joke</title>
-			<title code="0x77">Pass the crisis</title>
-			<title code="0x78">Celebration</title>
-			<title code="0x79">Remember a day</title>
-			<title code="0x7a">Missleading</title>
-			<title code="0x7b">Kidnap</title>
-			<title code="0x7c">Endless history</title>
-			<title code="0x7d">Be rejoiced</title>
-			<title code="0x7e">Add U</title>
-			<title code="0x80">Pub</title>
-			<title code="0x81">Sometime world</title>
-			<title code="0x82">Worry cherry</title>
-			<title code="0x83">Lonely heart</title>
-			<title code="0x84">Turning point</title>
-			<title code="0x85">Sadness road</title>
-			<title code="0x86">No home</title>
-			<title code="0x87">Yuki after make love</title>
-			<title code="0x88">Miss match love</title>
-			<title code="0x89">Dark town</title>
-			<title code="0x13">I so only one</title>
-			<title code="0x14">Funny face</title>
-			<title code="0x15">Night so long</title>
-			<title code="0x16">Happy wedding</title>
-			<title code="0x17">The last moment</title>
-			<title code="0x18">BYE-BYE</title>
-			<title code="0x19">Pleasuer seeker</title>
-			<title code="0x1a">Beat Vice</title>
-			<title code="0x1b">Behind the shadow</title>
-			<title code="0x1c">Logic operation (for demo)</title>
-			<title code="0x1e">Puru-Puru</title>
-			<title code="0x1f">Dark eyes</title>
-			<title code="0x20">Party is over</title>
-			<title code="0x21">Can you try</title>
-			<title code="0x22">Mind game</title>
-			<title code="0x23">Into the ･･･</title>
-			<title code="0x24">Dancin' Yuki</title>
-			<title code="0x25">Nightmare</title>
-			<title code="0x26">Sky move</title>
-			<title code="0x27">Last change</title>
-			<title code="0x29">Voice of falcon</title>
-			<title code="0x2a">Perpetual motion</title>
-			<title code="0x8a">MMMAIN</title>
+			<title code="0x10">HAOU_000.MD</title>
+			<title code="0x11">HAOU_001.MD</title>
+			<title code="0x12">HAOU_002.MD</title>
+			<title code="0x13">HAOU_003.MD</title>
+			<title code="0x14">HAOU_004.MD</title>
+			<title code="0x15">HAOU_005.MD</title>
+			<title code="0x16">HAOU_006.MD</title>
+			<title code="0x17">HAOU_007.MD</title>
+			<title code="0x18">HAOU_008.MD</title>
+			<title code="0x19">HAOU_009.MD</title>
+			<title code="0x1a">HAOU_010.MD</title>
+			<title code="0x1b">HAOU_011.MD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Hakoujaku Senki (覇皇雀戦鬼) (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="NEC PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="0x08"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="haoujan_98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">HAOU_000.GMD</rom>
+			<rom type="file" offset="0x11">HAOU_001.GMD</rom>
+			<rom type="file" offset="0x12">HAOU_002.GMD</rom>
+			<rom type="file" offset="0x13">HAOU_003.GMD</rom>
+			<rom type="file" offset="0x14">HAOU_004.GMD</rom>
+			<rom type="file" offset="0x15">HAOU_005.GMD</rom>
+			<rom type="file" offset="0x16">HAOU_006.GMD</rom>
+			<rom type="file" offset="0x17">HAOU_007.GMD</rom>
+			<rom type="file" offset="0x18">HAOU_008.GMD</rom>
+			<rom type="file" offset="0x19">HAOU_009.GMD</rom>
+			<rom type="file" offset="0x1a">HAOU_010.GMD</rom>
+			<rom type="file" offset="0x1b">HAOU_011.GMD</rom>
+			<rom type="shell" offset="0">fmd /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">HAOU_000.GMD</title>
+			<title code="0x11">HAOU_001.GMD</title>
+			<title code="0x12">HAOU_002.GMD</title>
+			<title code="0x13">HAOU_003.GMD</title>
+			<title code="0x14">HAOU_004.GMD</title>
+			<title code="0x15">HAOU_005.GMD</title>
+			<title code="0x16">HAOU_006.GMD</title>
+			<title code="0x17">HAOU_007.GMD</title>
+			<title code="0x18">HAOU_008.GMD</title>
+			<title code="0x19">HAOU_009.GMD</title>
+			<title code="0x1a">HAOU_010.GMD</title>
+			<title code="0x1b">HAOU_011.GMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Hakoujaku Senki (覇皇雀戦鬼) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="NEC PC-9801">Fuga System</driveralias>
+		<options>
+			<option name="clockmul" value="0x08"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="haoujan_98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">HAOU_000.GMD</rom>
+			<rom type="file" offset="0x11">HAOU_001.GMD</rom>
+			<rom type="file" offset="0x12">HAOU_002.GMD</rom>
+			<rom type="file" offset="0x13">HAOU_003.GMD</rom>
+			<rom type="file" offset="0x14">HAOU_004.GMD</rom>
+			<rom type="file" offset="0x15">HAOU_005.GMD</rom>
+			<rom type="file" offset="0x16">HAOU_006.GMD</rom>
+			<rom type="file" offset="0x17">HAOU_007.GMD</rom>
+			<rom type="file" offset="0x18">HAOU_008.GMD</rom>
+			<rom type="file" offset="0x19">HAOU_009.GMD</rom>
+			<rom type="file" offset="0x1a">HAOU_010.GMD</rom>
+			<rom type="file" offset="0x1b">HAOU_011.GMD</rom>
+			<rom type="shell" offset="0">fmd /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">HAOU_000.GMD</title>
+			<title code="0x11">HAOU_001.GMD</title>
+			<title code="0x12">HAOU_002.GMD</title>
+			<title code="0x13">HAOU_003.GMD</title>
+			<title code="0x14">HAOU_004.GMD</title>
+			<title code="0x15">HAOU_005.GMD</title>
+			<title code="0x16">HAOU_006.GMD</title>
+			<title code="0x17">HAOU_007.GMD</title>
+			<title code="0x18">HAOU_008.GMD</title>
+			<title code="0x19">HAOU_009.GMD</title>
+			<title code="0x1a">HAOU_010.GMD</title>
+			<title code="0x1b">HAOU_011.GMD</title>
 		</titlelist>
 	</game>
 </gamelist>

@@ -42,7 +42,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="idolwosaga_98">
+		<romlist archive="idolwosg_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">ADVBIOS.OVL</rom>
 			<rom type="conin" offset="0x05">ADVBIOS.OVL</rom>
@@ -102,7 +102,7 @@
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="bishoujyo_98">
+		<romlist archive="dbzukan_98">
 			<rom type="file" offset="-1">usd_98.com</rom>
 			<rom type="file" offset="-1">ADVH.EXE</rom>
 			<rom type="conin" offset="0x05">ADVH.EXE</rom>
@@ -145,7 +145,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Disk Bishoujo Daizukan (ディスク美少女大図鑑)</name>
+		<name>[X68000] Disk Bishoujo Daizukan (ディスク美少女大図鑑) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Santa Fe</driveralias>
 		<options>
@@ -153,7 +153,7 @@
 		</options>
 		<romlist archive="dbzukan68snd">
 			<rom type="code" offset="0x000000">dbzukan68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x023c1a">CITY.PCD</rom>
 			<rom type="code" offset="0x090000">DC_02P.USO</rom>
 			<rom type="code" offset="0x095000">DC_04A.USO</rom>
@@ -229,14 +229,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk Bishoujo Daizukan (ディスク美少女大図鑑)</name>
+		<name>[MSX2] Disk Bishoujo Daizukan (ディスク美少女大図鑑) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Santa Fe</driveralias>
+		<driveralias type="MSX2">Santa Fe</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="dbzukan_msx">
 			<rom type="code" offset="0x0400">patch</rom>

@@ -182,7 +182,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Billionaire 2 (億万長者2) (YM2203)</name>
+		<name>[PC-9801] Billionaire II (億万長者II) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cosmos Computer</driveralias>
 		<options>
@@ -221,7 +221,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Billionaire 3 (億万長者3) (YM2203)</name>
+		<name>[PC-9801] Billionaire III (億万長者III) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cosmos Computer</driveralias>
 		<options>
@@ -417,7 +417,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Regional Power III (レジオナルパワー3) (YM2203)</name>
+		<name>[PC-9801] Regional Power III (レジオナルパワーIII) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cosmos Computer</driveralias>
 		<options>
@@ -450,7 +450,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Regional Power III Special (レジオナルパワー3 スペシャル) (YM2203)</name>
+		<name>[PC-9801] Regional Power III Special (レジオナルパワーIIII スペシャル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cosmos Computer</driveralias>
 		<options>
@@ -493,7 +493,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Regional Power II (レジオナルパワー2)</name>
+		<name>[PC/AT] Regional Power II (レジオナルパワーII)</name>
 		<driver type="adlib">pcatdos</driver>
 		<driveralias type="PC/AT">Cosmos Computer</driveralias>
 		<options>
@@ -541,14 +541,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Warning</name>
+		<name>[MSX2] Warning (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Cosmos Computer</driveralias>
+		<driveralias type="MSX2">Cosmos Computer</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd2f9"/>
 			<option name="mdata_size" value="0x0c00"/>
 			<option name="mfile_size" value="0x0c00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="warning_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -573,21 +573,21 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Mahjong Saikyou Musashi (麻雀最強武蔵)</name>
+		<name>[X68000] Mahjong Saikyou Musashi (麻雀最強武蔵) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cosmos Computer</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="mjmusasi68snd">
 			<rom type="code">mjmusasi68snd.bin</rom>
-			<rom type="x"    offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
 			<rom type="code" offset="0x030000">MUSASHI.SOU</rom>
-			<rom type="x"    offset="0x040000">MAJAN2.X</rom>
+			<rom type="x" offset="0x040000">MAJAN2.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">TITLE</title>
-			<title code="0x02">BGM 0x02</title>
+			<title code="0x01">Title</title>
+			<title code="0x02">BGM #02</title>
 			<range min="0x05" max="0x08" extcode="1">BGM #%2X</range>
 		</titlelist>
 	</game>

@@ -1328,18 +1328,32 @@
 			<title code="0x01">Opening</title>
 			<title code="0x02">Stage 1</title>
 			<title code="0x03">Boss</title>
-			<title code="0x0C">Clear</title>
+			<title code="0x0c">Clear</title>
 			<title code="0x06">Stage 2</title>
 			<title code="0x05">Stage 3</title>
 			<title code="0x07">Stage 4</title>
 			<title code="0x04">Stage 5</title>
 			<title code="0x09">Stage 6</title>
 			<title code="0x08">Stage 7</title>
-			<title code="0x0A">Last Boss</title>
-			<title code="0x0E">Ending 1</title>
-			<title code="0x0D">Ending 2</title>
+			<title code="0x0a">Last Boss</title>
+			<title code="0x0e">Ending 1</title>
+			<title code="0x0d">Ending 2</title>
 			<title code="0x10">Game Over</title>
-			<title code="0x0B">Ranking</title>
+			<title code="0x0b">Ranking</title>
+			<range min="0x26" max="0x39" extcode="1">SFX #%02X</range>
+			<title code="0x3d">SFX #3D</title>
+			<range min="0x3f" max="0x42" extcode="1">SFX #%02X</range>
+			<title code="0x44">SFX #44</title>
+			<title code="0x46">SFX #46</title>
+			<title code="0x48">SFX #48</title>
+			<title code="0x49">SFX #49</title>
+			<title code="0x4b">SFX #4B</title>
+			<title code="0x4c">SFX #4C</title>
+			<range min="0x4e" max="0x71" extcode="1">SFX #%02X</range>
+			<range min="0x80" max="0x85" extcode="1">SFX #%02X</range>
+			<range min="0x8b" max="0x8c" extcode="1">SFX #%02X</range>
+			<range min="0x91" max="0x93" extcode="1">SFX #%02X</range>
+			<title code="0x98">SFX #98</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1435,18 +1449,43 @@
 			<rom type="pcm" offset="0x0000">mr-da.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
+			<title code="0x2d">Credit</title>
+			<title code="0x01">Midnight Town [Stage 1]</title>
+			<title code="0x02">Boss Theme</title>
+			<title code="0x06">Stage Clear</title>
+			<title code="0x0c">Result</title>
+			<title code="0x04">Outskirts [Stage 2]</title>
+			<title code="0x08">Floating Turtles [Stage 3]</title>
+			<title code="0x05">Seabed [Stage 4]</title>
+			<title code="0x07">Castle [Stage 5]</title>
+			<title code="0x09">Fortress [Stage 6]</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x03">Ranking</title>
+			<title code="0x0b">Not on CD (CD–¢Žû˜^‹È)</title>
+			<range min="0x2f" max="0x33" extcode="1">SFX #%02X</range>
+			<range min="0x36" max="0x3e" extcode="1">SFX #%02X</range>
+			<range min="0x40" max="0x45" extcode="1">SFX #%02X</range>
+			<title code="0x47">SFX #47</title>
+			<range min="0x49" max="0x51" extcode="1">SFX #%02X</range>
+			<title code="0x53">SFX #53</title>
+			<title code="0x55">SFX #55</title>
+			<title code="0x58">SFX #58</title>
+			<range min="0x5a" max="0x5e" extcode="1">SFX #%02X</range>
+			<range min="0x60" max="0x66" extcode="1">SFX #%02X</range>
+			<range min="0x68" max="0x69" extcode="1">SFX #%02X</range>
+			<title code="0x6b">SFX #6B</title>
+			<title code="0x6d">SFX #6D</title>
+			<title code="0x70">SFX #70</title>
+			<title code="0x74">SFX #74</title>
+			<title code="0x77">SFX #77</title>
+			<title code="0x7a">SFX #7A</title>
+			<range min="0x7c" max="0x80" extcode="1">SFX #%02X</range>
+			<title code="0x82">SFX #82</title>
+			<title code="0x89">SFX #89</title>
+			<range min="0x8c" max="0x8e" extcode="1">SFX #%02X</range>
+			<range min="0x90" max="0x92" extcode="1">SFX #%02X</range>
+			<range min="0x94" max="0x95" extcode="1">SFX #%02X</range>
+			<range min="0x97" max="0x9d" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1719,20 +1758,47 @@
 			<rom type="pcm" offset="0x0000">f4-b-da0</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
+			<title code="0x2a">Credit</title>
+			<title code="0x06">Stage 01</title>
+			<title code="0x07">Boss</title>
+			<title code="0x0c">Stage Clear</title>
+			<title code="0x02">Stage 02</title>
+			<title code="0x03">Stage 03</title>
+			<title code="0x01">Stage 04</title>
+			<title code="0x05">Stage 05</title>
+			<title code="0x09">Stage 06</title>
+			<title code="0x08">Stage 07, 08</title>
+			<title code="0x04">Blast Boss</title>
+			<title code="0x0d">Ending</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x0b">Name Entry</title>
+			<title code="0x0e">Not on CD (CD–¢Žû˜^‹È)</title>
+			<range min="0x2d" max="0x2e" extcode="1">SFX #%02X</range>
+			<range min="0x30" max="0x33" extcode="1">SFX #%02X</range>
+			<title code="0x3c">SFX #3C</title>
+			<title code="0x3e">SFX #3E</title>
+			<title code="0x40">SFX #40</title>
+			<title code="0x42">SFX #42</title>
+			<title code="0x44">SFX #44</title>
+			<title code="0x46">SFX #46</title>
+			<title code="0x48">SFX #48</title>
+			<title code="0x4a">SFX #4A</title>
+			<range min="0x4c" max="0x4e" extcode="1">SFX #%02X</range>
+			<title code="0x50">SFX #50</title>
+			<range min="0x52" max="0x53" extcode="1">SFX #%02X</range>
+			<title code="0x55">SFX #55</title>
+			<title code="0x57">SFX #57</title>
+			<range min="0x59" max="0x5a" extcode="1">SFX #%02X</range>
+			<title code="0x5c">SFX #5C</title>
+			<title code="0x5e">SFX #5E</title>
+			<range min="0x60" max="0x61" extcode="1">SFX #%02X</range>
+			<title code="0x66">SFX #66</title>
+			<title code="0x70">SFX #70</title>
+			<range min="0x72" max="0x73" extcode="1">SFX #%02X</range>
+			<range min="0x75" max="0x76" extcode="1">SFX #%02X</range>
+			<range min="0x78" max="0x7b" extcode="1">SFX #%02X</range>
+			<range min="0x90" max="0x97" extcode="1">SFX #%02X</range>
+			<range min="0x9d" max="0x9e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>

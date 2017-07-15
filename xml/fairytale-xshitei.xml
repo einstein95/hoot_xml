@@ -34,7 +34,7 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2008/07/13">
-	<!-- //Fairytale X-Shitei-->
+	<!-- //FAIRYTALE X指定-->
 	<game>
 		<name>[X68000] Dragon City X-Shitei (ドラゴンシティX指定) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
@@ -44,7 +44,7 @@
 		</options>
 		<romlist archive="drgcty68snd">
 			<rom type="code" offset="0x000000">drgcty68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x01fb4e">CITY.PCD</rom>
 			<rom type="code" offset="0x090000">1026P.USO</rom>
 			<rom type="code" offset="0x095000">ANE_2P.USO</rom>
@@ -95,7 +95,7 @@
 		</options>
 		<romlist archive="yujinsc68snd">
 			<rom type="code" offset="0x000000">yujinsc68snd.bin</rom>
-			<rom type="x"    offset="0x010000">TANK.X</rom>
+			<rom type="x" offset="0x010000">TANK.X</rom>
 			<rom type="code" offset="0x04f000">YUJIN.SE</rom>
 			<rom type="code" offset="0x050000">ZON5.PCD</rom>
 			<rom type="code" offset="0x090000">U_01.USO</rom>
@@ -141,7 +141,7 @@
 		</options>
 		<romlist archive="saori68snd">
 			<rom type="code" offset="0x000000">saori68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tank.x</rom>
+			<rom type="x" offset="0x010000">tank.x</rom>
 			<rom type="code" offset="0x090000">X_01.USO</rom>
 			<rom type="code" offset="0x095000">X_02.USO</rom>
 			<rom type="code" offset="0x09a000">X_03.USO</rom>
@@ -573,7 +573,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="dra_c_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -624,7 +624,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kounai1_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -701,7 +701,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kounai2_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -756,7 +756,7 @@
 			<option name="mdata_addr" value="0x9000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="kounai3_msx">
 			<rom type="code" offset="0x0400">patch</rom>

@@ -36,35 +36,35 @@
 <gamelist date="2005/09/25">
 	<!-- //STING -->
 	<game>
-		<name>[X68000] LAST BATTALION</name>
+		<name>[X68000] Last Battalion (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">STING</driveralias>
+		<driveralias type="X68000">Sting</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="lastbt68snd">
 			<rom type="code" offset="0x000000">lastb68snd.bin</rom>
-			<rom type="x"    offset="0x010000">lb.x</rom>
+			<rom type="x" offset="0x010000">lb.x</rom>
 			<rom type="code" offset="0x0427e8">lb.pcm</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0e">OPENING</title>
-			<title code="0x0f">OPENING 2</title>
-			<title code="0x01">TITLE</title>
-			<title code="0x02">STAGE 1</title>
-			<title code="0x03">STAGE 2</title>
-			<title code="0x04">STAGE 3</title>
-			<title code="0x05">STAGE 4</title>
-			<title code="0x06">STAGE 5</title>
-			<title code="0x07">STAGE 6</title>
-			<title code="0x09">BOSS 1</title>
-			<title code="0x08">BOSS 2</title>
-			<title code="0x0a">BOSS 3</title>
-			<title code="0x0c">STAGE CLEAR</title>
-			<title code="0x0b">GAME OVER</title>
-			<title code="0x10">ENDING</title>
-			<title code="0x0d">ENDING 2</title>
-			<range min="0x11" max="0x22" extcode="1">SE 0x%02x</range>
+			<title code="0x0e">Opening</title>
+			<title code="0x0f">Opening 2</title>
+			<title code="0x01">Title</title>
+			<title code="0x02">Stage 1</title>
+			<title code="0x03">Stage 2</title>
+			<title code="0x04">Stage 3</title>
+			<title code="0x05">Stage 4</title>
+			<title code="0x06">Stage 5</title>
+			<title code="0x07">Stage 6</title>
+			<title code="0x09">Boss 1</title>
+			<title code="0x08">Boss 2</title>
+			<title code="0x0a">Boss 3</title>
+			<title code="0x0c">Stage Clear</title>
+			<title code="0x0b">Game Over</title>
+			<title code="0x10">Ending</title>
+			<title code="0x0d">Ending 2</title>
+			<range min="0x11" max="0x22" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

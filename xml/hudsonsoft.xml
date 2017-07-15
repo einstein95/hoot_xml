@@ -182,11 +182,11 @@
 		<romlist archive="dione">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0800">DRIVER2</rom>
-			<rom type="bgm"   offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
 			<rom type="voice" offset="0x00">DRIVER1</rom>
-			<rom type="bgm"   offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
 			<rom type="voice" offset="0x01">DRIVER2</rom>
-			<rom type="bgm"   offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
 			<rom type="voice" offset="0x02">DRIVER1</rom>
 		</romlist>
 		<titlelist>
@@ -285,7 +285,7 @@
 			<title code="0x0e">戦闘終了</title>
 			<title code="0x05">Hermit's Theme (仙人のテーマ)</title>
 			<title code="0x06">Hermit's Training (仙人の修行)</title>
-			<title code="0x0d">レベルアップ</title>
+			<title code="0x0d">Level Up (レベルアップ)</title>
 			<title code="0x04">Snow's Theme (ユキのテーマ)</title>
 			<title code="0x0a">Binbougami's Theme (貧乏神のテーマ)</title>
 			<title code="0x17">Combat 2 (戦闘2)</title>
@@ -308,7 +308,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Hudson Soft</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="shang268snd">
 			<rom type="code">shan268snd.bin</rom>
@@ -334,7 +334,7 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Hudson Soft</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="pwrlg68snd">
 			<rom type="code">pl68snd.bin</rom>
@@ -451,7 +451,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Neo Geo] Panic Bomber (ボンバーマン ぱにっくボンバー) (YM2610)</name>
+		<name>[Neo Geo] Bomberman: Panic Bomber (ボンバーマン ぱにっくボンバー) (YM2610)</name>
 		<driver type="generic">neogeo</driver>
 		<driveralias type="Arcade">Hudson Soft</driveralias>
 		<options>
@@ -585,7 +585,7 @@
 		<driveralias type="PC/AT">Hudson Soft</driveralias>
 		<options>
 			<option name="clockmul" value="4"/>
-			<option name="opl2_mix" value="0x1C0"/>
+			<option name="opl2_mix" value="0x1c0"/>
 		</options>
 		<romlist archive="dynablaster_at">
 			<rom type="file" offset="-1">CODE.COM</rom>
@@ -608,21 +608,21 @@
 			<rom type="shell" offset="0">CODE.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xff1e">Music 1</title>
-			<title code="0x1d">Music 2</title>
-			<title code="0x1c">Music 3</title>
-			<title code="0x1b">Music 4</title>
-			<title code="0x19">Music 5</title>
-			<title code="0x10">Music 6</title>
-			<title code="0xff1a">Music 7</title>
-			<title code="0xff11">Music 8</title>
-			<title code="0xff12">Music 9</title>
-			<title code="0xff13">Music 10</title>
-			<title code="0xff14">Music 11</title>
-			<title code="0xff15">Music 12</title>
-			<title code="0xff16">Music 13</title>
-			<title code="0xff17">Music 14</title>
-			<title code="0xff18">Music 15</title>
+			<title code="0xff17">Battle</title>
+			<title code="0xff1e">Introduction</title>
+			<title code="0xff18">Round Start</title>
+			<title code="0xff13">Stage Start</title>
+			<title code="0x1c">Stage Music 1</title>
+			<title code="0x1d">Stage Music 2</title>
+			<title code="0xff1a">Stage Clear</title>
+			<title code="0x1b">Boss</title>
+			<title code="0xff15">Dead</title>
+			<title code="0xff16">Game Over</title>
+			<title code="0x10">Battle</title>
+			<title code="0xff11">Draw Game</title>
+			<title code="0xff12">Win Match</title>
+			<title code="0xff14">Bomber Champ</title>
+			<title code="0x19">Ending</title>
 		</titlelist>
 	</game>
 </gamelist>

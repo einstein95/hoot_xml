@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //スペースプロジェクト -->
 	<game>
-		<name>[PC-9801] Clone Doll Kagaijyugyou (クローンドール 課外授業) (YM2203)</name>
+		<name>[PC-9801] Clone Doll Kagai Jugyou (クローンドール 課外授業) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Space Project</driveralias>
 		<options>
@@ -72,7 +72,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Clone Doll Kagaijyugyou (クローンドール 課外授業) (GS)</name>
+		<name>[PC-9801] Clone Doll Kagai Jugyou (クローンドール 課外授業) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Space Project</driveralias>
 		<options>
@@ -111,7 +111,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Clone Doll Kagaijyugyou (クローンドール 課外授業) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Clone Doll Kagai Jugyou (クローンドール 課外授業) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Space Project</driveralias>
 		<options>
@@ -186,51 +186,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Tenkousei (転校生) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
-		<driveralias type="PC-9801">Space Project</driveralias>
-		<options>
-			<option name="clockmul" value="0x04"/>
-			<option name="fm_mix"	 value="0"/>
-			<option name="ssg_mix"	value="-8"/>
-		</options>
-		<romlist archive="tenkousi_98">
-			<rom type="file" offset="-1">NAX.com</rom>
-			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
-			<rom type="file" offset="0x10">S00X_01.BIN</rom>
-			<rom type="file" offset="0x11">S00X_02.BIN</rom>
-			<rom type="file" offset="0x12">S00X_03.BIN</rom>
-			<rom type="file" offset="0x13">S00X_04.BIN</rom>
-			<rom type="file" offset="0x14">S01X_01.BIN</rom>
-<!--// S000の方と同じっぽい
-			<rom type="file" offset="0x15">S01X_02.BIN</rom>
-			<rom type="file" offset="0x16">S01X_03.BIN</rom>
-			<rom type="file" offset="0x17">S01X_04.BIN</rom>
--->
-			<rom type="shell" offset="0">NAX</rom>
-			<rom type="shell" offset="0">NLP_HOOT</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">S00X_01.BIN</title>
-			<title code="0x11">S00X_02.BIN</title>
-			<title code="0x12">S00X_03.BIN</title>
-			<title code="0x13">S00X_04.BIN</title>
-			<title code="0x14">S01X_01.BIN</title>
-<!--
-			<title code="0x15">S01X_02.BIN</title>
-			<title code="0x16">S01X_03.BIN</title>
-			<title code="0x17">S01X_04.BIN</title>
--->
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Seiyoku Gakuen Seraphita (聖翼学園セラフィタ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Space Project</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="seraphita_98">
+		<romlist archive="seraphit_98">
 			<rom type="file" offset="-1">TRPSCR98.COM</rom>
 			<rom type="file" offset="-1">TRPSCHRN.COM</rom>
 			<rom type="file" offset="0x10">01.MDT</rom>
@@ -269,7 +231,7 @@
 			<option name="midiout_type" value="7"/>
 			<option name="wstimer" value="2"/>
 		</options>
-		<romlist archive="seraphita_98">
+		<romlist archive="seraphit_98">
 			<rom type="file" offset="-1">midrv_98.com</rom>
 			<rom type="file" offset="-1">MIDRV_LT.COM</rom>
 			<rom type="file" offset="0x10">01.RCP</rom>
@@ -308,7 +270,7 @@
 			<option name="midiout_type" value="6"/>
 			<option name="midiout_mix" value="0x80"/>
 		</options>
-		<romlist archive="seraphita_98">
+		<romlist archive="seraphit_98">
 			<rom type="file" offset="-1">midrv_98.com</rom>
 			<rom type="file" offset="-1">MIDRV_LT.COM</rom>
 			<rom type="file" offset="0x10">01.RCP</rom>
@@ -338,7 +300,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Battle Queen: Saikyou Fighers Retsuden (バトルクィーン 最強ファイターズ列伝) (YM2203)</name>
+		<name>[PC-9801] Battle Queen: Saikyou Fighters Retsuden (バトルクィーン 最強ファイターズ列伝) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Space Project</driveralias>
 		<options>

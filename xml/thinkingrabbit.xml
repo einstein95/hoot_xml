@@ -60,12 +60,12 @@
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0100">SBP.COM</rom>
 			<rom type="code" offset="0x484c">SBPVOICE.BIN</rom>
-			<rom type="bgm"  offset="0x00">SBPBGM0.BIN</rom>
-			<rom type="bgm"  offset="0x01">SBPBGM1.BIN</rom>
-			<rom type="bgm"  offset="0x02">SBPBGM2.BIN</rom>
-			<rom type="bgm"  offset="0x03">SBPBGM3.BIN</rom>
-			<rom type="bgm"  offset="0x04">SBPBGM4.BIN</rom>
-			<rom type="bgm"  offset="0x05">SBPBGM5.BIN</rom>
+			<rom type="bgm" offset="0x00">SBPBGM0.BIN</rom>
+			<rom type="bgm" offset="0x01">SBPBGM1.BIN</rom>
+			<rom type="bgm" offset="0x02">SBPBGM2.BIN</rom>
+			<rom type="bgm" offset="0x03">SBPBGM3.BIN</rom>
+			<rom type="bgm" offset="0x04">SBPBGM4.BIN</rom>
+			<rom type="bgm" offset="0x05">SBPBGM5.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">SBPBGM0.BIN</title>
@@ -94,7 +94,7 @@
 			<rom type="file" offset="0x14">SBPBGM4.BGM</rom>
 			<rom type="file" offset="0x15">SBPBGM5.BGM</rom>
 			<rom type="device" offset="0">mmd2.sys 5000</rom>
-			<rom type="shell"  offset="0">mmd2</rom>
+			<rom type="shell" offset="0">mmd2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x050010">SBPBGM0.BGM</title>
@@ -129,7 +129,7 @@
 			<rom type="file" offset="0x1a">SBRBGM10.BGM</rom>
 			<rom type="file" offset="0x1b">SBRBGM11.BGM</rom>
 			<rom type="device" offset="0">mmd.sys /f12 4096 0</rom>
-			<rom type="shell"  offset="0">mmd2</rom>
+			<rom type="shell" offset="0">mmd2</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x050010">SBRBGM00.BGM</title>
@@ -147,7 +147,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] 倉庫番Perfect</name>
+		<name>[X1] Soukoban Perfect (倉庫番Perfect) (YM2203)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Thinking Rabbit</driveralias>
 		<options>
@@ -214,7 +214,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 倉庫番Perfect</name>
+		<name>[X68000] Soukoban Perfect (倉庫番Perfect) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Thinking Rabbit</driveralias>
 		<options>
@@ -225,8 +225,8 @@
 			<rom type="code" offset="0x067c0">MAIN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x06" extcode="1">BGM %02x</range>
-			<range min="0x08" max="0x09" extcode="1">BGM %02x</range>
+			<range min="0x01" max="0x06" extcode="1">BGM #%02X</range>
+			<range min="0x08" max="0x09" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

@@ -22,7 +22,7 @@
 	<!ATTLIST romlist archive CDATA #IMPLIED>
 	<!ELEMENT rom (#PCDATA)>
 	<!ATTLIST rom type CDATA #REQUIRED
-				  offset CDATA #IMPLIED
+				 offset CDATA #IMPLIED
 				  crc32 CDATA #IMPLIED>
 	<!ELEMENT titlelist (title|range)*>
 	<!ELEMENT title (#PCDATA)>
@@ -379,12 +379,12 @@
 			<rom type="file" offset="0x17">QUIZ_ISM.O</rom>
 			<rom type="file" offset="0x18">QUIZ_OP1.O</rom>
 			<rom type="file" offset="0x19">QUIZ_OP2.O</rom>
-			<rom type="file" offset="0x1A">QUIZ_PM1.O</rom>
-			<rom type="file" offset="0x1B">QUIZ_PM2.O</rom>
-			<rom type="file" offset="0x1C">QUIZ_PM3.O</rom>
-			<rom type="file" offset="0x1D">QUIZ_PX1.O</rom>
-			<rom type="file" offset="0x1E">QUIZ_PX2.O</rom>
-			<rom type="file" offset="0x1F">QUIZ_PX3.O</rom>
+			<rom type="file" offset="0x1a">QUIZ_PM1.O</rom>
+			<rom type="file" offset="0x1b">QUIZ_PM2.O</rom>
+			<rom type="file" offset="0x1c">QUIZ_PM3.O</rom>
+			<rom type="file" offset="0x1d">QUIZ_PX1.O</rom>
+			<rom type="file" offset="0x1e">QUIZ_PX2.O</rom>
+			<rom type="file" offset="0x1f">QUIZ_PX3.O</rom>
 			<rom type="file" offset="0x20">QUIZ_QM1.O</rom>
 			<rom type="file" offset="0x21">QUIZ_QM2.O</rom>
 			<rom type="file" offset="0x22">QUIZ_QM3.O</rom>
@@ -395,12 +395,12 @@
 			<rom type="file" offset="0x27">QUIZ_RK2.O</rom>
 			<rom type="file" offset="0x28">QUIZ_RK3.O</rom>
 			<rom type="file" offset="0x29">QUIZ_RS1.O</rom>
-			<rom type="file" offset="0x2A">QUIZ_RS2.O</rom>
-			<rom type="file" offset="0x2B">QUIZ_RS3.O</rom>
-			<rom type="file" offset="0x2C">QUIZ_RU1.O</rom>
-			<rom type="file" offset="0x2D">QUIZ_RU2.O</rom>
-			<rom type="file" offset="0x2E">QUIZ_RU3.O</rom>
-			<rom type="file" offset="0x2F">QUIZ_TIT.O</rom>
+			<rom type="file" offset="0x2a">QUIZ_RS2.O</rom>
+			<rom type="file" offset="0x2b">QUIZ_RS3.O</rom>
+			<rom type="file" offset="0x2c">QUIZ_RU1.O</rom>
+			<rom type="file" offset="0x2d">QUIZ_RU2.O</rom>
+			<rom type="file" offset="0x2e">QUIZ_RU3.O</rom>
+			<rom type="file" offset="0x2f">QUIZ_TIT.O</rom>
 			<rom type="file" offset="0x30">QUIZ_WK1.O</rom>
 			<rom type="file" offset="0x31">QUIZ_WK2.O</rom>
 			<rom type="file" offset="0x32">QUIZ_WK3.O</rom>
@@ -470,12 +470,12 @@
 			<rom type="file" offset="0x17">BGM08.O</rom>
 			<rom type="file" offset="0x18">BGM09.O</rom>
 			<rom type="file" offset="0x19">BGM10.O</rom>
-			<rom type="file" offset="0x1A">BGM11.O</rom>
-			<rom type="file" offset="0x1B">BGM12.O</rom>
-			<rom type="file" offset="0x1C">BGM13.O</rom>
-			<rom type="file" offset="0x1D">BGM14.O</rom>
-			<rom type="file" offset="0x1E">BGM15.O</rom>
-			<rom type="file" offset="0x1F">BGM16.O</rom>
+			<rom type="file" offset="0x1a">BGM11.O</rom>
+			<rom type="file" offset="0x1b">BGM12.O</rom>
+			<rom type="file" offset="0x1c">BGM13.O</rom>
+			<rom type="file" offset="0x1d">BGM14.O</rom>
+			<rom type="file" offset="0x1e">BGM15.O</rom>
+			<rom type="file" offset="0x1f">BGM16.O</rom>
 			<rom type="file" offset="0x20">BGM17.O</rom>
 			<rom type="shell" offset="0">NA</rom>
 			<rom type="shell" offset="0">nlp_hoot</rom>
@@ -491,12 +491,12 @@
 			<title code="0x17">BGM08.O</title>
 			<title code="0x18">BGM09.O</title>
 			<title code="0x19">BGM10.O</title>
-			<title code="0x1A">BGM11.O</title>
-			<title code="0x1B">BGM12.O</title>
-			<title code="0x1C">BGM13.O</title>
-			<title code="0x1D">BGM14.O</title>
-			<title code="0x1E">BGM15.O</title>
-			<title code="0x1F">BGM16.O</title>
+			<title code="0x1a">BGM11.O</title>
+			<title code="0x1b">BGM12.O</title>
+			<title code="0x1c">BGM13.O</title>
+			<title code="0x1d">BGM14.O</title>
+			<title code="0x1e">BGM15.O</title>
+			<title code="0x1f">BGM16.O</title>
 			<title code="0x20">BGM17.O</title>
 		</titlelist>
 	</game>
@@ -521,11 +521,11 @@
 			<rom type="file" offset="0x17">END2.O</rom>
 			<rom type="file" offset="0x18">IS.O</rom>
 			<rom type="file" offset="0x19">IS2.O</rom>
-			<rom type="file" offset="0x1A">MUTE.O</rom>
-			<rom type="file" offset="0x1B">NORMAL.O</rom>
-			<rom type="file" offset="0x1C">SIORI.O</rom>
-			<rom type="file" offset="0x1D">WHANG.O</rom>
-			<rom type="file" offset="0x1E">YAMI.O</rom>
+			<rom type="file" offset="0x1a">MUTE.O</rom>
+			<rom type="file" offset="0x1b">NORMAL.O</rom>
+			<rom type="file" offset="0x1c">SIORI.O</rom>
+			<rom type="file" offset="0x1d">WHANG.O</rom>
+			<rom type="file" offset="0x1e">YAMI.O</rom>
 			<rom type="shell" offset="0">NAX -3 -F8</rom>
 			<rom type="shell" offset="0">nlp_hoot</rom>
 		</romlist>
@@ -779,10 +779,10 @@
 			<rom type="code" offset="0x0b1000">M2.OPM</rom>
 			<rom type="code" offset="0x0b2000">M3.OPM</rom>
 			<rom type="code" offset="0x0b3000">M4.OPM</rom>
-			<rom type="code" offset="0x0B4000">M5.OPM</rom>
-			<rom type="code" offset="0x0B5000">M6.OPM</rom>
-			<rom type="code" offset="0x0B6000">M7.OPM</rom>
-			<rom type="code" offset="0x0B7000">M8.OPM</rom>
+			<rom type="code" offset="0x0b4000">M5.OPM</rom>
+			<rom type="code" offset="0x0b5000">M6.OPM</rom>
+			<rom type="code" offset="0x0b6000">M7.OPM</rom>
+			<rom type="code" offset="0x0b7000">M8.OPM</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x01">M1.OPM</title>
@@ -1230,7 +1230,7 @@
 	<game>
 		<name>[PC-9801] Foreigner (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1248,12 +1248,12 @@
 			<rom type="file" offset="0x17">FOR08.O</rom>
 			<rom type="file" offset="0x18">FOR09.O</rom>
 			<rom type="file" offset="0x19">FOR10.O</rom>
-			<rom type="file" offset="0x1A">FOR11.O</rom>
-			<rom type="file" offset="0x1B">FOR12.O</rom>
-			<rom type="file" offset="0x1C">FOR13.O</rom>
-			<rom type="file" offset="0x1D">FOR14.O</rom>
-			<rom type="file" offset="0x1E">FOR15.O</rom>
-			<rom type="file" offset="0x1F">FOR16.O</rom>
+			<rom type="file" offset="0x1a">FOR11.O</rom>
+			<rom type="file" offset="0x1b">FOR12.O</rom>
+			<rom type="file" offset="0x1c">FOR13.O</rom>
+			<rom type="file" offset="0x1d">FOR14.O</rom>
+			<rom type="file" offset="0x1e">FOR15.O</rom>
+			<rom type="file" offset="0x1f">FOR16.O</rom>
 			<rom type="file" offset="0x20">FOR17.O</rom>
 			<rom type="file" offset="0x21">FOR18.O</rom>
 			<rom type="shell" offset="0">NA -T</rom>
@@ -1270,12 +1270,12 @@
 			<title code="0x17">イベント戦闘 -Fatal-</title>
 			<title code="0x18">宿屋 -Rest-</title>
 			<title code="0x19">ぼけ＆つっこみ -The Bells-</title>
-			<title code="0x1A">通常戦闘 -O'FICS-</title>
-			<title code="0x1B">戦闘勝利 -Till The End Of Green-</title>
-			<title code="0x1C">苦悩 -Wor･･･-</title>
-			<title code="0x1D">オープニング -In The Next Line-</title>
-			<title code="0x1E">平和な街 -Next SOMETHING-</title>
-			<title code="0x1F">逆襲 -Wards-</title>
+			<title code="0x1a">通常戦闘 -O'FICS-</title>
+			<title code="0x1b">戦闘勝利 -Till The End Of Green-</title>
+			<title code="0x1c">苦悩 -Wor･･･-</title>
+			<title code="0x1d">オープニング -In The Next Line-</title>
+			<title code="0x1e">平和な街 -Next SOMETHING-</title>
+			<title code="0x1f">逆襲 -Wards-</title>
 			<title code="0x20">逆襲 -あらら-</title>
 			<title code="0x21">エンディング -For End of Asia-</title>
 		</titlelist>
@@ -1283,7 +1283,7 @@
 	<game>
 		<name>[PC-9801] What is Fantasy?</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1338,7 +1338,7 @@
 	<game>
 		<name>[PC-9801] Sengoku Tsuwamono Emaki: Ranze (戦国強者絵巻 RANZE(乱世)) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1356,12 +1356,12 @@
 			<rom type="file" offset="0x17">RAN008.O</rom>
 			<rom type="file" offset="0x18">RAN009.O</rom>
 			<rom type="file" offset="0x19">RAN010.O</rom>
-			<rom type="file" offset="0x1A">RAN011.O</rom>
-			<rom type="file" offset="0x1B">RAN012.O</rom>
-			<rom type="file" offset="0x1C">RAN013.O</rom>
-			<rom type="file" offset="0x1D">RAN014.O</rom>
-			<rom type="file" offset="0x1E">RAN015.O</rom>
-			<rom type="file" offset="0x1F">RAN016.O</rom>
+			<rom type="file" offset="0x1a">RAN011.O</rom>
+			<rom type="file" offset="0x1b">RAN012.O</rom>
+			<rom type="file" offset="0x1c">RAN013.O</rom>
+			<rom type="file" offset="0x1d">RAN014.O</rom>
+			<rom type="file" offset="0x1e">RAN015.O</rom>
+			<rom type="file" offset="0x1f">RAN016.O</rom>
 			<rom type="file" offset="0x20">RAN017.O</rom>
 			<rom type="file" offset="0x21">RAN018.O</rom>
 			<rom type="file" offset="0x22">RAN019.O</rom>
@@ -1372,12 +1372,12 @@
 			<rom type="file" offset="0x27">RAN024.O</rom>
 			<rom type="file" offset="0x28">RAN025.O</rom>
 			<rom type="file" offset="0x29">RAN026.O</rom>
-			<rom type="file" offset="0x2A">RAN027.O</rom>
-			<rom type="file" offset="0x2B">RAN028.O</rom>
-			<rom type="file" offset="0x2C">RAN029.O</rom>
-			<rom type="file" offset="0x2D">RAN030.O</rom>
-			<rom type="file" offset="0x2E">RAN031.O</rom>
-			<rom type="file" offset="0x2F">RAN032.O</rom>
+			<rom type="file" offset="0x2a">RAN027.O</rom>
+			<rom type="file" offset="0x2b">RAN028.O</rom>
+			<rom type="file" offset="0x2c">RAN029.O</rom>
+			<rom type="file" offset="0x2d">RAN030.O</rom>
+			<rom type="file" offset="0x2e">RAN031.O</rom>
+			<rom type="file" offset="0x2f">RAN032.O</rom>
 			<rom type="file" offset="0x30">RAN033.O</rom>
 			<rom type="file" offset="0x31">RAN034.O</rom>
 			<rom type="file" offset="0x32">RAN035.O</rom>
@@ -1388,12 +1388,12 @@
 			<rom type="file" offset="0x37">RAN040.O</rom>
 			<rom type="file" offset="0x38">RAN041.O</rom>
 			<rom type="file" offset="0x39">RAN042.O</rom>
-			<rom type="file" offset="0x3A">RAN043.O</rom>
-			<rom type="file" offset="0x3B">RAN044.O</rom>
-			<rom type="file" offset="0x3C">RAN045.O</rom>
-			<rom type="file" offset="0x3D">RAN046.O</rom>
-			<rom type="file" offset="0x3E">RAN050.O</rom>
-			<rom type="file" offset="0x3F">RAN051.O</rom>
+			<rom type="file" offset="0x3a">RAN043.O</rom>
+			<rom type="file" offset="0x3b">RAN044.O</rom>
+			<rom type="file" offset="0x3c">RAN045.O</rom>
+			<rom type="file" offset="0x3d">RAN046.O</rom>
+			<rom type="file" offset="0x3e">RAN050.O</rom>
+			<rom type="file" offset="0x3f">RAN051.O</rom>
 			<rom type="file" offset="0x40">RAN052.O</rom>
 			<rom type="file" offset="0x41">RAN053.O</rom>
 			<rom type="file" offset="0x42">RAN054.O</rom>
@@ -1404,12 +1404,12 @@
 			<rom type="file" offset="0x47">RAN102.O</rom>
 			<rom type="file" offset="0x48">RAN103.O</rom>
 			<rom type="file" offset="0x49">RAN104.O</rom>
-			<rom type="file" offset="0x4A">RAN105.O</rom>
-			<rom type="file" offset="0x4B">RAN106.O</rom>
-			<rom type="file" offset="0x4C">RAN107.O</rom>
-			<rom type="file" offset="0x4D">RAN108.O</rom>
-			<rom type="file" offset="0x4E">RAN109.O</rom>
-			<rom type="file" offset="0x4F">RAN110.O</rom>
+			<rom type="file" offset="0x4a">RAN105.O</rom>
+			<rom type="file" offset="0x4b">RAN106.O</rom>
+			<rom type="file" offset="0x4c">RAN107.O</rom>
+			<rom type="file" offset="0x4d">RAN108.O</rom>
+			<rom type="file" offset="0x4e">RAN109.O</rom>
+			<rom type="file" offset="0x4f">RAN110.O</rom>
 			<rom type="file" offset="0x50">RAN111.O</rom>
 			<rom type="file" offset="0x51">RAN112.O</rom>
 			<rom type="file" offset="0x52">RAN113.O</rom>
@@ -1420,12 +1420,12 @@
 			<rom type="file" offset="0x57">RAN118.O</rom>
 			<rom type="file" offset="0x58">RAN119.O</rom>
 			<rom type="file" offset="0x59">RAN120.O</rom>
-			<rom type="file" offset="0x5A">RAN121.O</rom>
-			<rom type="file" offset="0x5B">RAN122.O</rom>
-			<rom type="file" offset="0x5C">RAN123.O</rom>
-			<rom type="file" offset="0x5D">RAN124.O</rom>
-			<rom type="file" offset="0x5E">RAN125.O</rom>
-			<rom type="file" offset="0x5F">RAN126.O</rom>
+			<rom type="file" offset="0x5a">RAN121.O</rom>
+			<rom type="file" offset="0x5b">RAN122.O</rom>
+			<rom type="file" offset="0x5c">RAN123.O</rom>
+			<rom type="file" offset="0x5d">RAN124.O</rom>
+			<rom type="file" offset="0x5e">RAN125.O</rom>
+			<rom type="file" offset="0x5f">RAN126.O</rom>
 			<rom type="file" offset="0x60">RAN127.O</rom>
 			<rom type="file" offset="0x61">RAN128.O</rom>
 			<rom type="file" offset="0x62">RAN129.O</rom>
@@ -1436,12 +1436,12 @@
 			<rom type="file" offset="0x67">RAN134.O</rom>
 			<rom type="file" offset="0x68">RAN135.O</rom>
 			<rom type="file" offset="0x69">RAN136.O</rom>
-			<rom type="file" offset="0x6A">RAN137.O</rom>
-			<rom type="file" offset="0x6B">RAN138.O</rom>
-			<rom type="file" offset="0x6C">RAN139.O</rom>
-			<rom type="file" offset="0x6D">RAN140.O</rom>
-			<rom type="file" offset="0x6E">RAN141.O</rom>
-			<rom type="file" offset="0x6F">RAN142.O</rom>
+			<rom type="file" offset="0x6a">RAN137.O</rom>
+			<rom type="file" offset="0x6b">RAN138.O</rom>
+			<rom type="file" offset="0x6c">RAN139.O</rom>
+			<rom type="file" offset="0x6d">RAN140.O</rom>
+			<rom type="file" offset="0x6e">RAN141.O</rom>
+			<rom type="file" offset="0x6f">RAN142.O</rom>
 			<rom type="file" offset="0x70">RAN143.O</rom>
 			<rom type="file" offset="0x71">RAN144.O</rom>
 			<rom type="file" offset="0x72">RAN145.O</rom>
@@ -1452,10 +1452,10 @@
 			<rom type="file" offset="0x77">RAN150.O</rom>
 			<rom type="file" offset="0x78">RAN151.O</rom>
 			<rom type="file" offset="0x79">RAN152.O</rom>
-			<rom type="file" offset="0x7A">RAN153.O</rom>
-			<rom type="file" offset="0x7B">RAN154.O</rom>
-			<rom type="file" offset="0x7C">RAN155.O</rom>
-			<rom type="file" offset="0x7D">RAN156.O</rom>
+			<rom type="file" offset="0x7a">RAN153.O</rom>
+			<rom type="file" offset="0x7b">RAN154.O</rom>
+			<rom type="file" offset="0x7c">RAN155.O</rom>
+			<rom type="file" offset="0x7d">RAN156.O</rom>
 			<rom type="shell" offset="0">NA</rom>
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
@@ -1470,12 +1470,12 @@
 			<title code="0x17">RAN008.O</title>
 			<title code="0x18">RAN009.O</title>
 			<title code="0x19">RAN010.O</title>
-			<title code="0x1A">RAN011.O</title>
-			<title code="0x1B">RAN012.O</title>
-			<title code="0x1C">RAN013.O</title>
-			<title code="0x1D">RAN014.O</title>
-			<title code="0x1E">RAN015.O</title>
-			<title code="0x1F">RAN016.O</title>
+			<title code="0x1a">RAN011.O</title>
+			<title code="0x1b">RAN012.O</title>
+			<title code="0x1c">RAN013.O</title>
+			<title code="0x1d">RAN014.O</title>
+			<title code="0x1e">RAN015.O</title>
+			<title code="0x1f">RAN016.O</title>
 			<title code="0x20">RAN017.O</title>
 			<title code="0x21">RAN018.O</title>
 			<title code="0x22">RAN019.O</title>
@@ -1486,12 +1486,12 @@
 			<title code="0x27">RAN024.O</title>
 			<title code="0x28">RAN025.O</title>
 			<title code="0x29">RAN026.O</title>
-			<title code="0x2A">RAN027.O</title>
-			<title code="0x2B">RAN028.O</title>
-			<title code="0x2C">RAN029.O</title>
-			<title code="0x2D">RAN030.O</title>
-			<title code="0x2E">RAN031.O</title>
-			<title code="0x2F">RAN032.O</title>
+			<title code="0x2a">RAN027.O</title>
+			<title code="0x2b">RAN028.O</title>
+			<title code="0x2c">RAN029.O</title>
+			<title code="0x2d">RAN030.O</title>
+			<title code="0x2e">RAN031.O</title>
+			<title code="0x2f">RAN032.O</title>
 			<title code="0x30">RAN033.O</title>
 			<title code="0x31">RAN034.O</title>
 			<title code="0x32">RAN035.O</title>
@@ -1502,12 +1502,12 @@
 			<title code="0x37">RAN040.O</title>
 			<title code="0x38">RAN041.O</title>
 			<title code="0x39">RAN042.O</title>
-			<title code="0x3A">RAN043.O</title>
-			<title code="0x3B">RAN044.O</title>
-			<title code="0x3C">RAN045.O</title>
-			<title code="0x3D">RAN046.O</title>
-			<title code="0x3E">RAN050.O</title>
-			<title code="0x3F">RAN051.O</title>
+			<title code="0x3a">RAN043.O</title>
+			<title code="0x3b">RAN044.O</title>
+			<title code="0x3c">RAN045.O</title>
+			<title code="0x3d">RAN046.O</title>
+			<title code="0x3e">RAN050.O</title>
+			<title code="0x3f">RAN051.O</title>
 			<title code="0x40">RAN052.O</title>
 			<title code="0x41">RAN053.O</title>
 			<title code="0x42">RAN054.O</title>
@@ -1518,12 +1518,12 @@
 			<title code="0x47">RAN102.O</title>
 			<title code="0x48">RAN103.O</title>
 			<title code="0x49">RAN104.O</title>
-			<title code="0x4A">RAN105.O</title>
-			<title code="0x4B">RAN106.O</title>
-			<title code="0x4C">RAN107.O</title>
-			<title code="0x4D">RAN108.O</title>
-			<title code="0x4E">RAN109.O</title>
-			<title code="0x4F">RAN110.O</title>
+			<title code="0x4a">RAN105.O</title>
+			<title code="0x4b">RAN106.O</title>
+			<title code="0x4c">RAN107.O</title>
+			<title code="0x4d">RAN108.O</title>
+			<title code="0x4e">RAN109.O</title>
+			<title code="0x4f">RAN110.O</title>
 			<title code="0x50">RAN111.O</title>
 			<title code="0x51">RAN112.O</title>
 			<title code="0x52">RAN113.O</title>
@@ -1534,12 +1534,12 @@
 			<title code="0x57">RAN118.O</title>
 			<title code="0x58">RAN119.O</title>
 			<title code="0x59">RAN120.O</title>
-			<title code="0x5A">RAN121.O</title>
-			<title code="0x5B">RAN122.O</title>
-			<title code="0x5C">RAN123.O</title>
-			<title code="0x5D">RAN124.O</title>
-			<title code="0x5E">RAN125.O</title>
-			<title code="0x5F">RAN126.O</title>
+			<title code="0x5a">RAN121.O</title>
+			<title code="0x5b">RAN122.O</title>
+			<title code="0x5c">RAN123.O</title>
+			<title code="0x5d">RAN124.O</title>
+			<title code="0x5e">RAN125.O</title>
+			<title code="0x5f">RAN126.O</title>
 			<title code="0x60">RAN127.O</title>
 			<title code="0x61">RAN128.O</title>
 			<title code="0x62">RAN129.O</title>
@@ -1550,12 +1550,12 @@
 			<title code="0x67">RAN134.O</title>
 			<title code="0x68">RAN135.O</title>
 			<title code="0x69">RAN136.O</title>
-			<title code="0x6A">RAN137.O</title>
-			<title code="0x6B">RAN138.O</title>
-			<title code="0x6C">RAN139.O</title>
-			<title code="0x6D">RAN140.O</title>
-			<title code="0x6E">RAN141.O</title>
-			<title code="0x6F">RAN142.O</title>
+			<title code="0x6a">RAN137.O</title>
+			<title code="0x6b">RAN138.O</title>
+			<title code="0x6c">RAN139.O</title>
+			<title code="0x6d">RAN140.O</title>
+			<title code="0x6e">RAN141.O</title>
+			<title code="0x6f">RAN142.O</title>
 			<title code="0x70">RAN143.O</title>
 			<title code="0x71">RAN144.O</title>
 			<title code="0x72">RAN145.O</title>
@@ -1566,16 +1566,16 @@
 			<title code="0x77">RAN150.O</title>
 			<title code="0x78">RAN151.O</title>
 			<title code="0x79">RAN152.O</title>
-			<title code="0x7A">RAN153.O</title>
-			<title code="0x7B">RAN154.O</title>
-			<title code="0x7C">RAN155.O</title>
-			<title code="0x7D">RAN156.O</title>
+			<title code="0x7a">RAN153.O</title>
+			<title code="0x7b">RAN154.O</title>
+			<title code="0x7c">RAN155.O</title>
+			<title code="0x7d">RAN156.O</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Quintia Road (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1590,10 +1590,10 @@
 			<rom type="file" offset="0x14">M05.O</rom>
 			<rom type="file" offset="0x17">M08.O</rom>
 			<rom type="file" offset="0x18">M09.O</rom>
-			<rom type="file" offset="0x1B">M12.O</rom>
-			<rom type="file" offset="0x1D">M14.O</rom>
-			<rom type="file" offset="0x1E">M15.O</rom>
-			<rom type="file" offset="0x1F">M16.O</rom>
+			<rom type="file" offset="0x1b">M12.O</rom>
+			<rom type="file" offset="0x1d">M14.O</rom>
+			<rom type="file" offset="0x1e">M15.O</rom>
+			<rom type="file" offset="0x1f">M16.O</rom>
 			<rom type="file" offset="0x20">M17.O</rom>
 			<rom type="file" offset="0x22">M19.O</rom>
 			<rom type="file" offset="0x23">M20.O</rom>
@@ -1601,11 +1601,11 @@
 			<rom type="file" offset="0x27">M24.O</rom>
 			<rom type="file" offset="0x28">M25.O</rom>
 			<rom type="file" offset="0x29">M26.O</rom>
-			<rom type="file" offset="0x2A">M27.O</rom>
-			<rom type="file" offset="0x2B">M28.O</rom>
-			<rom type="file" offset="0x2C">M29.O</rom>
-			<rom type="file" offset="0x2D">M30.O</rom>
-			<rom type="file" offset="0x2E">M31.O</rom>
+			<rom type="file" offset="0x2a">M27.O</rom>
+			<rom type="file" offset="0x2b">M28.O</rom>
+			<rom type="file" offset="0x2c">M29.O</rom>
+			<rom type="file" offset="0x2d">M30.O</rom>
+			<rom type="file" offset="0x2e">M31.O</rom>
 			<rom type="file" offset="0x31">M34.O</rom>
 			<rom type="file" offset="0x37">M40.O</rom>
 			<rom type="file" offset="0x38">M41.O</rom>
@@ -1620,10 +1620,10 @@
 			<title code="0x14">望郷</title>
 			<title code="0x17">Integrated Circuit</title>
 			<title code="0x18">落葉のリフレイン</title>
-			<title code="0x1B">紅家 -KOUKE-</title>
-			<title code="0x1D">夕凪</title>
-			<title code="0x1E">Quintia</title>
-			<title code="0x1F">飛揚</title>
+			<title code="0x1b">紅家 -KOUKE-</title>
+			<title code="0x1d">夕凪</title>
+			<title code="0x1e">Quintia</title>
+			<title code="0x1f">飛揚</title>
 			<title code="0x20">Present For Sonia</title>
 			<title code="0x22">ADVANCE</title>
 			<title code="0x23">暁桜</title>
@@ -1631,11 +1631,11 @@
 			<title code="0x27">祁匙</title>
 			<title code="0x28">Dedicated To Secra</title>
 			<title code="0x29">山の人</title>
-			<title code="0x2A">ゾルバー要塞</title>
-			<title code="0x2B">エンディングテーマ</title>
-			<title code="0x2C">ディルディエの凱旋</title>
-			<title code="0x2D">In Dark</title>
-			<title code="0x2E">STORM</title>
+			<title code="0x2a">ゾルバー要塞</title>
+			<title code="0x2b">エンディングテーマ</title>
+			<title code="0x2c">ディルディエの凱旋</title>
+			<title code="0x2d">In Dark</title>
+			<title code="0x2e">STORM</title>
 			<title code="0x31">Inventio no.4 by J.S.Bach</title>
 			<title code="0x37">Passing Wind</title>
 			<title code="0x38">Ancient</title>
@@ -1644,7 +1644,7 @@
 	<game>
 		<name>[PC-9801] Quintia Road II (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1662,12 +1662,12 @@
 			<rom type="file" offset="0x17">QR208.O</rom>
 			<rom type="file" offset="0x18">QR209.O</rom>
 			<rom type="file" offset="0x19">QR210.O</rom>
-			<rom type="file" offset="0x1A">QR211.O</rom>
-			<rom type="file" offset="0x1B">QR212.O</rom>
-			<rom type="file" offset="0x1C">QR213.O</rom>
-			<rom type="file" offset="0x1D">QR214.O</rom>
-			<rom type="file" offset="0x1E">QR215.O</rom>
-			<rom type="file" offset="0x1F">QR216.O</rom>
+			<rom type="file" offset="0x1a">QR211.O</rom>
+			<rom type="file" offset="0x1b">QR212.O</rom>
+			<rom type="file" offset="0x1c">QR213.O</rom>
+			<rom type="file" offset="0x1d">QR214.O</rom>
+			<rom type="file" offset="0x1e">QR215.O</rom>
+			<rom type="file" offset="0x1f">QR216.O</rom>
 			<rom type="file" offset="0x20">QR217.O</rom>
 			<rom type="file" offset="0x21">QR218.O</rom>
 			<rom type="file" offset="0x22">QR219.O</rom>
@@ -1678,12 +1678,12 @@
 			<rom type="file" offset="0x27">QR224.O</rom>
 			<rom type="file" offset="0x28">QR225.O</rom>
 			<rom type="file" offset="0x29">QR226.O</rom>
-			<rom type="file" offset="0x2A">QR227.O</rom>
-			<rom type="file" offset="0x2B">QR228.O</rom>
-			<rom type="file" offset="0x2C">QR229.O</rom>
-			<rom type="file" offset="0x2D">QR230.O</rom>
-			<rom type="file" offset="0x2E">QR231.O</rom>
-			<rom type="file" offset="0x2F">QR232.O</rom>
+			<rom type="file" offset="0x2a">QR227.O</rom>
+			<rom type="file" offset="0x2b">QR228.O</rom>
+			<rom type="file" offset="0x2c">QR229.O</rom>
+			<rom type="file" offset="0x2d">QR230.O</rom>
+			<rom type="file" offset="0x2e">QR231.O</rom>
+			<rom type="file" offset="0x2f">QR232.O</rom>
 			<rom type="file" offset="0x30">QR233.O</rom>
 			<rom type="file" offset="0x31">QR234.O</rom>
 			<rom type="file" offset="0x32">QR235.O</rom>
@@ -1706,12 +1706,12 @@
 			<title code="0x17">街中</title>
 			<title code="0x18">街中</title>
 			<title code="0x19">街中</title>
-			<title code="0x1A">上空</title>
-			<title code="0x1B">上空スローリースタイル</title>
-			<title code="0x1C">緊張</title>
-			<title code="0x1D">ETC1:行進</title>
-			<title code="0x1E">ETC2:爪先</title>
-			<title code="0x1F">Hシーン</title>
+			<title code="0x1a">上空</title>
+			<title code="0x1b">上空スローリースタイル</title>
+			<title code="0x1c">緊張</title>
+			<title code="0x1d">ETC1:行進</title>
+			<title code="0x1e">ETC2:爪先</title>
+			<title code="0x1f">Hシーン</title>
 			<title code="0x20">Hシーンロングスタイル</title>
 			<title code="0x21">教会</title>
 			<title code="0x22">リラックス</title>
@@ -1722,12 +1722,12 @@
 			<title code="0x27">悲しみVer.２</title>
 			<title code="0x28">洞窟、もしくは地下室</title>
 			<title code="0x29">洞窟、もしくは地下室</title>
-			<title code="0x2A">怒り</title>
-			<title code="0x2B">戴冠式</title>
-			<title code="0x2C">小人達</title>
-			<title code="0x2D">ローレライ</title>
-			<title code="0x2E">湖</title>
-			<title code="0x2F">砂漠</title>
+			<title code="0x2a">怒り</title>
+			<title code="0x2b">戴冠式</title>
+			<title code="0x2c">小人達</title>
+			<title code="0x2d">ローレライ</title>
+			<title code="0x2e">湖</title>
+			<title code="0x2f">砂漠</title>
 			<title code="0x30">ドラゴン</title>
 			<title code="0x31">疾走</title>
 			<title code="0x32">ラスト戦闘(PSGをギターだと思ってね)</title>
@@ -1741,7 +1741,7 @@
 	<game>
 		<name>[PC-9801] Wrestle Angels (レッスルエンジェルス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1759,12 +1759,12 @@
 			<rom type="file" offset="0x17">M08.O</rom>
 			<rom type="file" offset="0x18">M09.O</rom>
 			<rom type="file" offset="0x19">M10.O</rom>
-			<rom type="file" offset="0x1A">M11.O</rom>
-			<rom type="file" offset="0x1B">M12.O</rom>
-			<rom type="file" offset="0x1C">M13.O</rom>
-			<rom type="file" offset="0x1D">M14.O</rom>
-			<rom type="file" offset="0x1E">M15.O</rom>
-			<rom type="file" offset="0x1F">M16.O</rom>
+			<rom type="file" offset="0x1a">M11.O</rom>
+			<rom type="file" offset="0x1b">M12.O</rom>
+			<rom type="file" offset="0x1c">M13.O</rom>
+			<rom type="file" offset="0x1d">M14.O</rom>
+			<rom type="file" offset="0x1e">M15.O</rom>
+			<rom type="file" offset="0x1f">M16.O</rom>
 			<rom type="file" offset="0x20">M17.O</rom>
 			<rom type="file" offset="0x21">M18.O</rom>
 			<rom type="file" offset="0x22">M19.O</rom>
@@ -1775,12 +1775,12 @@
 			<rom type="file" offset="0x27">M24.O</rom>
 			<rom type="file" offset="0x28">M25.O</rom>
 			<rom type="file" offset="0x29">M26.O</rom>
-			<rom type="file" offset="0x2A">M27.O</rom>
-			<rom type="file" offset="0x2B">M28.O</rom>
-			<rom type="file" offset="0x2C">M29.O</rom>
-			<rom type="file" offset="0x2D">M30.O</rom>
-			<rom type="file" offset="0x2E">M31.O</rom>
-			<rom type="file" offset="0x2F">M32.O</rom>
+			<rom type="file" offset="0x2a">M27.O</rom>
+			<rom type="file" offset="0x2b">M28.O</rom>
+			<rom type="file" offset="0x2c">M29.O</rom>
+			<rom type="file" offset="0x2d">M30.O</rom>
+			<rom type="file" offset="0x2e">M31.O</rom>
+			<rom type="file" offset="0x2f">M32.O</rom>
 			<rom type="file" offset="0x30">M33.O</rom>
 			<rom type="file" offset="0x31">M34.O</rom>
 			<rom type="file" offset="0x32">M35.O</rom>
@@ -1791,12 +1791,12 @@
 			<rom type="file" offset="0x37">M40.O</rom>
 			<rom type="file" offset="0x38">M41.O</rom>
 			<rom type="file" offset="0x39">M42.O</rom>
-			<rom type="file" offset="0x3A">M43.O</rom>
-			<rom type="file" offset="0x3B">M44.O</rom>
-			<rom type="file" offset="0x3C">M50.O</rom>
-			<rom type="file" offset="0x3D">PM4_01.O</rom>
-			<rom type="file" offset="0x3E">PM4_20.O</rom>
-			<rom type="file" offset="0x3F">PM4_28.O</rom>
+			<rom type="file" offset="0x3a">M43.O</rom>
+			<rom type="file" offset="0x3b">M44.O</rom>
+			<rom type="file" offset="0x3c">M50.O</rom>
+			<rom type="file" offset="0x3d">PM4_01.O</rom>
+			<rom type="file" offset="0x3e">PM4_20.O</rom>
+			<rom type="file" offset="0x3f">PM4_28.O</rom>
 			<rom type="file" offset="0x40">PM4_55.O</rom>
 			<rom type="shell" offset="0">MUAPLAY -z -f9</rom>
 			<rom type="shell" offset="0">NLP_HOOT</rom>
@@ -1812,12 +1812,12 @@
 			<title code="0x17">NON MELODY</title>
 			<title code="0x18">忘却の淵</title>
 			<title code="0x19">Look Back</title>
-			<title code="0x1A">忘却の淵 NEW VERSION</title>
-			<title code="0x1B">DEKH・YA!(リメイク)</title>
-			<title code="0x1C">A DIAGO</title>
-			<title code="0x1D">SEREN</title>
-			<title code="0x1E">スカイ ウ、ウ、ウ?</title>
-			<title code="0x1F">クッキーを食べながら</title>
+			<title code="0x1a">忘却の淵 NEW VERSION</title>
+			<title code="0x1b">DEKH・YA!(リメイク)</title>
+			<title code="0x1c">A DIAGO</title>
+			<title code="0x1d">SEREN</title>
+			<title code="0x1e">スカイ ウ、ウ、ウ?</title>
+			<title code="0x1f">クッキーを食べながら</title>
 			<title code="0x20">STOP D</title>
 			<title code="0x21">海底神殿</title>
 			<title code="0x22">RIVER SIDE MEMORY</title>
@@ -1828,12 +1828,12 @@
 			<title code="0x27">だから…</title>
 			<title code="0x28">イマジリーナンバー</title>
 			<title code="0x29">スレンダー・ストレス・スイミング</title>
-			<title code="0x2A">ドラムス</title>
-			<title code="0x2B">あめあがりにさんぽ</title>
-			<title code="0x2C">傷</title>
-			<title code="0x2D">EREN DOLL</title>
-			<title code="0x2E">WINDY -ひざし-</title>
-			<title code="0x2F">MODULE</title>
+			<title code="0x2a">ドラムス</title>
+			<title code="0x2b">あめあがりにさんぽ</title>
+			<title code="0x2c">傷</title>
+			<title code="0x2d">EREN DOLL</title>
+			<title code="0x2e">WINDY -ひざし-</title>
+			<title code="0x2f">MODULE</title>
 			<title code="0x30">DONE,REVERSE and</title>
 			<title code="0x31">KISS GROUND</title>
 			<title code="0x32">WILD JIG</title>
@@ -1844,19 +1844,19 @@
 			<title code="0x37">MOON T</title>
 			<title code="0x38">ONE SHOT</title>
 			<title code="0x39">TWO SHOT</title>
-			<title code="0x3A"></title>
-			<title code="0x3B">ゴング</title>
-		<!--	<title code="0x3C">ゴング</title> -->
-			<title code="0x3D">いつも、きみのこと、みてるから。</title>
-			<title code="0x3E">高原の空 -おべんともって-</title>
-			<title code="0x3F">あめあがりにさんぽ</title>
+			<title code="0x3a">M43.O</title>
+			<title code="0x3b">ゴング</title>
+		<!--	<title code="0x3c">ゴング</title> -->
+			<title code="0x3d">いつも、きみのこと、みてるから。</title>
+			<title code="0x3e">高原の空 -おべんともって-</title>
+			<title code="0x3f">あめあがりにさんぽ</title>
 			<title code="0x40">VORPAL ONE 2</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Wrestle Angels 2: Top Eventer (レッスルエンジェルス2 トップイベンター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1874,12 +1874,12 @@
 			<rom type="file" offset="0x17">WA208.O</rom>
 			<rom type="file" offset="0x18">WA209.O</rom>
 			<rom type="file" offset="0x19">WA210.O</rom>
-			<rom type="file" offset="0x1A">WA211.O</rom>
-			<rom type="file" offset="0x1B">WA212.O</rom>
-			<rom type="file" offset="0x1C">WA213.O</rom>
-			<rom type="file" offset="0x1D">WA214.O</rom>
-			<rom type="file" offset="0x1E">WA215.O</rom>
-			<rom type="file" offset="0x1F">WA216.O</rom>
+			<rom type="file" offset="0x1a">WA211.O</rom>
+			<rom type="file" offset="0x1b">WA212.O</rom>
+			<rom type="file" offset="0x1c">WA213.O</rom>
+			<rom type="file" offset="0x1d">WA214.O</rom>
+			<rom type="file" offset="0x1e">WA215.O</rom>
+			<rom type="file" offset="0x1f">WA216.O</rom>
 			<rom type="file" offset="0x20">WA217.O</rom>
 			<rom type="file" offset="0x21">WA218.O</rom>
 			<rom type="file" offset="0x22">WA219.O</rom>
@@ -1890,12 +1890,12 @@
 			<rom type="file" offset="0x27">WA252.O</rom>
 			<rom type="file" offset="0x28">WA253.O</rom>
 			<rom type="file" offset="0x29">WA254.O</rom>
-			<rom type="file" offset="0x2A">WA258.O</rom>
-			<rom type="file" offset="0x2B">WA259.O</rom>
-			<rom type="file" offset="0x2C">WA260.O</rom>
-			<rom type="file" offset="0x2D">WA261.O</rom>
-			<rom type="file" offset="0x2E">WA270.O</rom>
-			<rom type="file" offset="0x2F">WA271.O</rom>
+			<rom type="file" offset="0x2a">WA258.O</rom>
+			<rom type="file" offset="0x2b">WA259.O</rom>
+			<rom type="file" offset="0x2c">WA260.O</rom>
+			<rom type="file" offset="0x2d">WA261.O</rom>
+			<rom type="file" offset="0x2e">WA270.O</rom>
+			<rom type="file" offset="0x2f">WA271.O</rom>
 			<rom type="file" offset="0x30">WA280.O</rom>
 			<rom type="file" offset="0x31">WA290.O</rom>
 			<rom type="file" offset="0x32">WA298.O</rom>
@@ -1914,12 +1914,12 @@
 			<title code="0x17">友情(笑) -あなたと…-</title>
 			<title code="0x18">トレーニング -リアレンジ『高原』-</title>
 			<title code="0x19">挑戦 -駆槍-</title>
-			<title code="0x1A">離脱 -Des Pointe-</title>
-			<title code="0x1B">軍団抗争 -弥神-</title>
-			<title code="0x1C">追放1 -DEsT-</title>
-			<title code="0x1D">追放2 -DEsT2-</title>
-			<title code="0x1E">驚異 -WAYANT-</title>
-			<title code="0x1F">プロローグ -序曲-</title>
+			<title code="0x1a">離脱 -Des Pointe-</title>
+			<title code="0x1b">軍団抗争 -弥神-</title>
+			<title code="0x1c">追放1 -DEsT-</title>
+			<title code="0x1d">追放2 -DEsT2-</title>
+			<title code="0x1e">驚異 -WAYANT-</title>
+			<title code="0x1f">プロローグ -序曲-</title>
 			<title code="0x20">チャンピオン -鐘歌-</title>
 			<title code="0x21">エンディング -いつまでも、ここで-</title>
 			<title code="0x22">エンディング2 -at All-</title>
@@ -1930,12 +1930,12 @@
 			<title code="0x27">好きに使って下さい -おはやう-</title>
 			<title code="0x28">シーンつなぎ用音楽 -靴音-</title>
 			<title code="0x29">軍団抗争 -弥神-</title>
-			<title code="0x2A">試合曲(アメリカ) -fle'tte-</title>
-			<title code="0x2B">試合曲(日本) -jes-</title>
-			<title code="0x2C">試合曲 -SO,REI-</title>
-			<title code="0x2D">試合曲 -SO,KEN-</title>
-			<title code="0x2E">軍団抗争 -弥神-</title>
-			<title code="0x2F">驚異 -WAYANT-</title>
+			<title code="0x2a">試合曲(アメリカ) -fle'tte-</title>
+			<title code="0x2b">試合曲(日本) -jes-</title>
+			<title code="0x2c">試合曲 -SO,REI-</title>
+			<title code="0x2d">試合曲 -SO,KEN-</title>
+			<title code="0x2e">軍団抗争 -弥神-</title>
+			<title code="0x2f">驚異 -WAYANT-</title>
 			<title code="0x30">がびーん(笑) -SE1-</title>
 			<title code="0x31">無音</title>
 			<title code="0x32">ゴング</title>
@@ -1945,7 +1945,7 @@
 	<game>
 		<name>[PC-9801] Wrestle Angels 3 (レッスルエンジェルス3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -1963,12 +1963,12 @@
 			<rom type="file" offset="0x17">M08.O</rom>
 			<rom type="file" offset="0x18">M09.O</rom>
 			<rom type="file" offset="0x19">M10.O</rom>
-			<rom type="file" offset="0x1A">M11.O</rom>
-			<rom type="file" offset="0x1B">M12.O</rom>
-			<rom type="file" offset="0x1C">M13.O</rom>
-			<rom type="file" offset="0x1D">M14.O</rom>
-			<rom type="file" offset="0x1E">M15.O</rom>
-			<rom type="file" offset="0x1F">M16.O</rom>
+			<rom type="file" offset="0x1a">M11.O</rom>
+			<rom type="file" offset="0x1b">M12.O</rom>
+			<rom type="file" offset="0x1c">M13.O</rom>
+			<rom type="file" offset="0x1d">M14.O</rom>
+			<rom type="file" offset="0x1e">M15.O</rom>
+			<rom type="file" offset="0x1f">M16.O</rom>
 			<rom type="file" offset="0x20">M17.O</rom>
 			<rom type="file" offset="0x21">M18.O</rom>
 			<rom type="file" offset="0x22">M19.O</rom>
@@ -1979,10 +1979,10 @@
 			<rom type="file" offset="0x27">M24.O</rom>
 			<rom type="file" offset="0x28">M25.O</rom>
 			<rom type="file" offset="0x29">M26.O</rom>
-			<rom type="file" offset="0x2A">M27.O</rom>
-			<rom type="file" offset="0x2B">M28.O</rom>
-			<rom type="file" offset="0x2C">M29.O</rom>
-			<rom type="file" offset="0x2D">M40.O</rom>
+			<rom type="file" offset="0x2a">M27.O</rom>
+			<rom type="file" offset="0x2b">M28.O</rom>
+			<rom type="file" offset="0x2c">M29.O</rom>
+			<rom type="file" offset="0x2d">M40.O</rom>
 			<rom type="shell" offset="0">NA</rom>
 			<rom type="shell" offset="0">NLP_HOOT</rom>
 		</romlist>
@@ -1997,12 +1997,12 @@
 			<title code="0x17">MATSURI!</title>
 			<title code="0x18">ULTIMATE GAME</title>
 			<title code="0x19">TAKE IT EASY!</title>
-			<title code="0x1A">THME No5 single Ver</title>
-			<title code="0x1B">HOT BLOOD</title>
-			<title code="0x1C">TRADITIONAL TEAM</title>
-			<title code="0x1D">THEME No3</title>
-			<title code="0x1E">EVENT</title>
-			<title code="0x1F">Go To RESORT</title>
+			<title code="0x1a">THME No5 single Ver</title>
+			<title code="0x1b">HOT BLOOD</title>
+			<title code="0x1c">TRADITIONAL TEAM</title>
+			<title code="0x1d">THEME No3</title>
+			<title code="0x1e">EVENT</title>
+			<title code="0x1f">Go To RESORT</title>
 			<title code="0x20">PASSION</title>
 			<title code="0x21">HARD SHOT</title>
 			<title code="0x22">OLD FASHION</title>
@@ -2013,16 +2013,16 @@
 			<title code="0x27">WINNERS</title>
 			<title code="0x28">TENTION</title>
 			<title code="0x29">StaFF</title>
-			<title code="0x2A">WRESTLE ANGELS3</title>
-			<title code="0x2B">THEME No4 Long Ver</title>
-			<title code="0x2C">THEME No5 Long Ver</title>
-			<title code="0x2D">GooooNG!</title>
+			<title code="0x2a">WRESTLE ANGELS3</title>
+			<title code="0x2b">THEME No4 Long Ver</title>
+			<title code="0x2c">THEME No5 Long Ver</title>
+			<title code="0x2d">GooooNG!</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[PC-9801] Wrestle Angels Special: Mou Hitori no Top Eventer (レッスルエンジェルス スペシャル もうひとりのトップイベンター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
-		<driveralias type="NEC PC-9801">GREAT</driveralias>
+		<driveralias type="PC-9801">Great</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
 		</options>
@@ -2040,12 +2040,12 @@
 			<rom type="file" offset="0x17">M108.O</rom>
 			<rom type="file" offset="0x18">M109.O</rom>
 			<rom type="file" offset="0x19">M110.O</rom>
-			<rom type="file" offset="0x1A">M111.O</rom>
-			<rom type="file" offset="0x1B">M112.O</rom>
-			<rom type="file" offset="0x1C">M113.O</rom>
-			<rom type="file" offset="0x1D">M114.O</rom>
-			<rom type="file" offset="0x1E">M115.O</rom>
-			<rom type="file" offset="0x1F">M116.O</rom>
+			<rom type="file" offset="0x1a">M111.O</rom>
+			<rom type="file" offset="0x1b">M112.O</rom>
+			<rom type="file" offset="0x1c">M113.O</rom>
+			<rom type="file" offset="0x1d">M114.O</rom>
+			<rom type="file" offset="0x1e">M115.O</rom>
+			<rom type="file" offset="0x1f">M116.O</rom>
 			<rom type="file" offset="0x20">M117.O</rom>
 			<rom type="file" offset="0x21">M118.O</rom>
 			<rom type="file" offset="0x22">M119.O</rom>
@@ -2056,12 +2056,12 @@
 			<rom type="file" offset="0x27">M126.O</rom>
 			<rom type="file" offset="0x28">M127.O</rom>
 			<rom type="file" offset="0x29">M128.O</rom>
-			<rom type="file" offset="0x2A">M129.O</rom>
-			<rom type="file" offset="0x2B">M130.O</rom>
-			<rom type="file" offset="0x2C">M131.O</rom>
-			<rom type="file" offset="0x2D">M132.O</rom>
-			<rom type="file" offset="0x2E">M133.O</rom>
-			<rom type="file" offset="0x2F">M134.O</rom>
+			<rom type="file" offset="0x2a">M129.O</rom>
+			<rom type="file" offset="0x2b">M130.O</rom>
+			<rom type="file" offset="0x2c">M131.O</rom>
+			<rom type="file" offset="0x2d">M132.O</rom>
+			<rom type="file" offset="0x2e">M133.O</rom>
+			<rom type="file" offset="0x2f">M134.O</rom>
 			<rom type="file" offset="0x30">M135.O</rom>
 			<rom type="file" offset="0x31">M136.O</rom>
 			<rom type="file" offset="0x32">M137.O</rom>
@@ -2072,12 +2072,12 @@
 			<rom type="file" offset="0x37">M142.O</rom>
 			<rom type="file" offset="0x38">M154.O</rom>
 			<rom type="file" offset="0x39">M155.O</rom>
-			<rom type="file" offset="0x3A">M201.O</rom>
-			<rom type="file" offset="0x3B">M202.O</rom>
-			<rom type="file" offset="0x3C">M203.O</rom>
-			<rom type="file" offset="0x3D">M204.O</rom>
-			<rom type="file" offset="0x3E">M205.O</rom>
-			<rom type="file" offset="0x3F">M206.O</rom>
+			<rom type="file" offset="0x3a">M201.O</rom>
+			<rom type="file" offset="0x3b">M202.O</rom>
+			<rom type="file" offset="0x3c">M203.O</rom>
+			<rom type="file" offset="0x3d">M204.O</rom>
+			<rom type="file" offset="0x3e">M205.O</rom>
+			<rom type="file" offset="0x3f">M206.O</rom>
 			<rom type="file" offset="0x40">M207.O</rom>
 			<rom type="file" offset="0x41">M208.O</rom>
 			<rom type="file" offset="0x42">M209.O</rom>
@@ -2088,12 +2088,12 @@
 			<rom type="file" offset="0x47">M214.O</rom>
 			<rom type="file" offset="0x48">M215.O</rom>
 			<rom type="file" offset="0x49">M216.O</rom>
-			<rom type="file" offset="0x4A">M217.O</rom>
-			<rom type="file" offset="0x4B">M218.O</rom>
-			<rom type="file" offset="0x4C">M219.O</rom>
-			<rom type="file" offset="0x4D">M220.O</rom>
-			<rom type="file" offset="0x4E">M246.O</rom>
-			<rom type="file" offset="0x4F">M250.O</rom>
+			<rom type="file" offset="0x4a">M217.O</rom>
+			<rom type="file" offset="0x4b">M218.O</rom>
+			<rom type="file" offset="0x4c">M219.O</rom>
+			<rom type="file" offset="0x4d">M220.O</rom>
+			<rom type="file" offset="0x4e">M246.O</rom>
+			<rom type="file" offset="0x4f">M250.O</rom>
 			<rom type="file" offset="0x50">M251.O</rom>
 			<rom type="file" offset="0x51">M252.O</rom>
 			<rom type="file" offset="0x52">M253.O</rom>
@@ -2104,12 +2104,12 @@
 			<rom type="file" offset="0x57">M258.O</rom>
 			<rom type="file" offset="0x58">M259.O</rom>
 			<rom type="file" offset="0x59">M260.O</rom>
-			<rom type="file" offset="0x5A">M261.O</rom>
-			<rom type="file" offset="0x5B">M270.O</rom>
-			<rom type="file" offset="0x5C">M271.O</rom>
-			<rom type="file" offset="0x5D">M280.O</rom>
-			<rom type="file" offset="0x5E">M281.O</rom>
-			<rom type="file" offset="0x5F">M282.O</rom>
+			<rom type="file" offset="0x5a">M261.O</rom>
+			<rom type="file" offset="0x5b">M270.O</rom>
+			<rom type="file" offset="0x5c">M271.O</rom>
+			<rom type="file" offset="0x5d">M280.O</rom>
+			<rom type="file" offset="0x5e">M281.O</rom>
+			<rom type="file" offset="0x5f">M282.O</rom>
 			<rom type="file" offset="0x60">M290.O</rom>
 			<rom type="file" offset="0x61">M291.O</rom>
 			<rom type="file" offset="0x62">M292.O</rom>
@@ -2120,12 +2120,12 @@
 			<rom type="file" offset="0x67">M301.O</rom>
 			<rom type="file" offset="0x68">M302.O</rom>
 			<rom type="file" offset="0x69">M303.O</rom>
-			<rom type="file" offset="0x6A">M304.O</rom>
-			<rom type="file" offset="0x6B">M305.O</rom>
-			<rom type="file" offset="0x6C">M306.O</rom>
-			<rom type="file" offset="0x6D">M307.O</rom>
-			<rom type="file" offset="0x6E">M308.O</rom>
-			<rom type="file" offset="0x6F">M309.O</rom>
+			<rom type="file" offset="0x6a">M304.O</rom>
+			<rom type="file" offset="0x6b">M305.O</rom>
+			<rom type="file" offset="0x6c">M306.O</rom>
+			<rom type="file" offset="0x6d">M307.O</rom>
+			<rom type="file" offset="0x6e">M308.O</rom>
+			<rom type="file" offset="0x6f">M309.O</rom>
 			<rom type="file" offset="0x70">M310.O</rom>
 			<rom type="file" offset="0x71">M311.O</rom>
 			<rom type="file" offset="0x72">M312.O</rom>
@@ -2136,12 +2136,12 @@
 			<rom type="file" offset="0x77">M317.O</rom>
 			<rom type="file" offset="0x78">M318.O</rom>
 			<rom type="file" offset="0x79">M319.O</rom>
-			<rom type="file" offset="0x7A">M320.O</rom>
-			<rom type="file" offset="0x7B">M321.O</rom>
-			<rom type="file" offset="0x7C">M322.O</rom>
-			<rom type="file" offset="0x7D">M323.O</rom>
-			<rom type="file" offset="0x7E">M324.O</rom>
-			<rom type="file" offset="0x7F">M325.O</rom>
+			<rom type="file" offset="0x7a">M320.O</rom>
+			<rom type="file" offset="0x7b">M321.O</rom>
+			<rom type="file" offset="0x7c">M322.O</rom>
+			<rom type="file" offset="0x7d">M323.O</rom>
+			<rom type="file" offset="0x7e">M324.O</rom>
+			<rom type="file" offset="0x7f">M325.O</rom>
 			<rom type="file" offset="0x80">M326.O</rom>
 			<rom type="file" offset="0x81">M327.O</rom>
 			<rom type="file" offset="0x82">M328.O</rom>
@@ -2161,12 +2161,12 @@
 			<title code="0x17">NON MELODY</title>
 			<title code="0x18">忘却の淵</title>
 			<title code="0x19">Look Back</title>
-			<title code="0x1A">忘却の淵 NEW VERSION</title>
-			<title code="0x1B">DEKH・YA!(リメイク)</title>
-			<title code="0x1C">A DIAGO</title>
-			<title code="0x1D">SEREN</title>
-			<title code="0x1E">スカイ ウ、ウ、ウ?</title>
-			<title code="0x1F">クッキーを食べながら</title>
+			<title code="0x1a">忘却の淵 NEW VERSION</title>
+			<title code="0x1b">DEKH・YA!(リメイク)</title>
+			<title code="0x1c">A DIAGO</title>
+			<title code="0x1d">SEREN</title>
+			<title code="0x1e">スカイ ウ、ウ、ウ?</title>
+			<title code="0x1f">クッキーを食べながら</title>
 			<title code="0x20">STOP D</title>
 			<title code="0x21">海底神殿</title>
 			<title code="0x22">RIVER SIDE MEMORY</title>
@@ -2177,12 +2177,12 @@
 			<title code="0x27">スレンダー・ストレス・スイミング</title>
 			<title code="0x28">ドラムス</title>
 			<title code="0x29">あめあがりにさんぽ</title>
-			<title code="0x2A">傷</title>
-			<title code="0x2B">EREN DOLL</title>
-			<title code="0x2C">WINDY -ひざし-</title>
-			<title code="0x2D">MODULE</title>
-			<title code="0x2E">DONE,REVERSE and</title>
-			<title code="0x2F">KISS GROUND</title>
+			<title code="0x2a">傷</title>
+			<title code="0x2b">EREN DOLL</title>
+			<title code="0x2c">WINDY -ひざし-</title>
+			<title code="0x2d">MODULE</title>
+			<title code="0x2e">DONE,REVERSE and</title>
+			<title code="0x2f">KISS GROUND</title>
 			<title code="0x30">WILD JIG</title>
 			<title code="0x31">どうかしたの?</title>
 			<title code="0x32">アクター</title>
@@ -2193,12 +2193,12 @@
 			<title code="0x37">TWO SHOT</title>
 			<title code="0x38">VORPAL ONE</title>
 			<title code="0x39">VORPAL ONE 2</title>
-			<title code="0x3A">選手セレクト -ウイル-</title>
-			<title code="0x3B">試合曲(タイトルマッチ) -RASH INTO2-</title>
-			<title code="0x3C">メインテーマ -レッスルエンジェルス2-</title>
-			<title code="0x3D">新なるチャレンジャー -チャレンジャー-</title>
-			<title code="0x3E">休息 -君の欠伸-</title>
-			<title code="0x3F">挑戦 -windy's-</title>
+			<title code="0x3a">選手セレクト -ウイル-</title>
+			<title code="0x3b">試合曲(タイトルマッチ) -RASH INTO2-</title>
+			<title code="0x3c">メインテーマ -レッスルエンジェルス2-</title>
+			<title code="0x3d">新なるチャレンジャー -チャレンジャー-</title>
+			<title code="0x3e">休息 -君の欠伸-</title>
+			<title code="0x3f">挑戦 -windy's-</title>
 			<title code="0x40">Hグラフイック表示 -癖暦-</title>
 			<title code="0x41">友情(笑) -あなたと・・・-</title>
 			<title code="0x42">トレーニング -リアレンジ『高原』-</title>
@@ -2209,12 +2209,12 @@
 			<title code="0x47">追放2 -DEsT2-</title>
 			<title code="0x48">驚異 -WAYANT-</title>
 			<title code="0x49">プロローグ -序曲-</title>
-			<title code="0x4A">チャンピオン -鐘歌-</title>
-			<title code="0x4B">エンディング -いつまでも、ここで-</title>
-			<title code="0x4C">エンディング2 -at All-</title>
-			<title code="0x4D">試合曲(メキシコ) -kanpane-</title>
-			<title code="0x4E">試合曲 -フィナルオーダー(ﾆ ｼﾀｲﾅｧ･･･)-</title>
-			<title code="0x4F">ポイント配付 -ヒート!-</title>
+			<title code="0x4a">チャンピオン -鐘歌-</title>
+			<title code="0x4b">エンディング -いつまでも、ここで-</title>
+			<title code="0x4c">エンディング2 -at All-</title>
+			<title code="0x4d">試合曲(メキシコ) -kanpane-</title>
+			<title code="0x4e">試合曲 -フィナルオーダー(ﾆ ｼﾀｲﾅｧ･･･)-</title>
+			<title code="0x4f">ポイント配付 -ヒート!-</title>
 			<title code="0x50">シーンつなぎ用音楽 -慌てて?-</title>
 			<title code="0x51">好きに使って下さい -おはやう-</title>
 			<title code="0x52">シーンつなぎ用音楽  -靴音-</title>
@@ -2225,12 +2225,12 @@
 			<title code="0x57">試合曲(アメリカ) -fle'tte-</title>
 			<title code="0x58">試合曲(日本) -jes-</title>
 			<title code="0x59">試合曲 -SO,REI-</title>
-			<title code="0x5A">試合曲 -SO,KEN-</title>
-			<title code="0x5B">軍団抗争 -弥神-</title>
-			<title code="0x5C">驚異 -WAYANT-</title>
-			<title code="0x5D">軍団抗争 -弥神-</title>
-			<title code="0x5E">驚異 -WAYANT-</title>
-			<title code="0x5F">ぐわわわわーん(笑) -SE3-</title>
+			<title code="0x5a">試合曲 -SO,KEN-</title>
+			<title code="0x5b">軍団抗争 -弥神-</title>
+			<title code="0x5c">驚異 -WAYANT-</title>
+			<title code="0x5d">軍団抗争 -弥神-</title>
+			<title code="0x5e">驚異 -WAYANT-</title>
+			<title code="0x5f">ぐわわわわーん(笑) -SE3-</title>
 			<title code="0x60">無音</title>
 			<title code="0x61">ゴング1</title>
 			<title code="0x62">ゴング2</title>
@@ -2241,12 +2241,12 @@
 			<title code="0x67">M301.O</title>
 			<title code="0x68">M302.O</title>
 			<title code="0x69">M303.O</title>
-			<title code="0x6A">M304.O</title>
-			<title code="0x6B">M305.O</title>
-			<title code="0x6C">M306.O</title>
-			<title code="0x6D">M307.O</title>
-			<title code="0x6E">M308.O</title>
-			<title code="0x6F">M309.O</title>
+			<title code="0x6a">M304.O</title>
+			<title code="0x6b">M305.O</title>
+			<title code="0x6c">M306.O</title>
+			<title code="0x6d">M307.O</title>
+			<title code="0x6e">M308.O</title>
+			<title code="0x6f">M309.O</title>
 			<title code="0x70">M310.O</title>
 			<title code="0x71">M311.O</title>
 			<title code="0x72">M312.O</title>
@@ -2257,12 +2257,12 @@
 			<title code="0x77">M317.O</title>
 			<title code="0x78">M318.O</title>
 			<title code="0x79">M319.O</title>
-			<title code="0x7A">M320.O</title>
-			<title code="0x7B">M321.O</title>
-			<title code="0x7C">M322.O</title>
-			<title code="0x7D">M323.O</title>
-			<title code="0x7E">M324.O</title>
-			<title code="0x7F">M325.O</title>
+			<title code="0x7a">M320.O</title>
+			<title code="0x7b">M321.O</title>
+			<title code="0x7c">M322.O</title>
+			<title code="0x7d">M323.O</title>
+			<title code="0x7e">M324.O</title>
+			<title code="0x7f">M325.O</title>
 			<title code="0x80">M326.O</title>
 			<title code="0x81">M327.O</title>
 			<title code="0x82">M328.O</title>
@@ -2273,7 +2273,7 @@
 	<game>
 		<name>[X68000] Wrestle Angels 2: Top Eventer (レッスルエンジェルス2 トップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<driveralias type="X68000">Great</driveralias>
 		<options>
 			<option name="mfp" value="1"/>
 		</options>
@@ -2346,7 +2346,7 @@
 	<game>
 		<name>[X68000] Wrestle Angels 3 (レッスルエンジェルス3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<driveralias type="X68000">Great</driveralias>
 		<options>
 			<option name="mfp" value="1"/>
 		</options>
@@ -2362,7 +2362,7 @@
 			<rom type="code" offset="0x03c000">WA309.ZMD</rom>
 			<rom type="code" offset="0x03e000">WA310.ZMD</rom>
 			<rom type="code" offset="0x040000">WA312.ZMD</rom>
-			<rom type="code" offset="0x042000">WA313.ZMD</rom>
+			<!-- <rom type="code" offset="0x042000">WA313.ZMD</rom> -->
 			<rom type="code" offset="0x044000">WA314.ZMD</rom>
 			<rom type="code" offset="0x046000">WA315.ZMD</rom>
 			<rom type="code" offset="0x048000">WA316.ZMD</rom>
@@ -2386,7 +2386,7 @@
 			<title code="0x07">WA309.ZMD</title>
 			<title code="0x08">WA310.ZMD</title>
 			<title code="0x09">WA312.ZMD</title>
-			<title code="0x0a">WA313.ZMD</title>
+			<!-- <title code="0x0a">WA313.ZMD</title> -->
 			<title code="0x0b">WA314.ZMD</title>
 			<title code="0x0c">WA315.ZMD</title>
 			<title code="0x0d">WA316.ZMD</title>
@@ -2404,7 +2404,7 @@
 	<game>
 		<name>[X68000] Wrestle Angels Special: Mou Hitori no Top Eventer (レッスルエンジェルス スペシャル もうひとりのトップイベンター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<driveralias type="X68000">Great</driveralias>
 		<options>
 			<option name="mfp" value="1"/>
 		</options>
@@ -2527,9 +2527,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quintia Road (YM2151+MSM6258)</name>
+		<name>[X68000] Quintia Road (クィンティアロード) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="SHARP X68000">GREAT</driveralias>
+		<driveralias type="X68000">Great</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -2633,7 +2633,7 @@
 	<game>
 		<name>[MSX2] Kibun wa Pastel Touch!! Abunai Gakuen-hen (気分はぱすてるたっち!! アブナイ学園編) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">GREAT</driveralias>
+		<driveralias type="MSX2">Great</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x2ffc"/>
 			<option name="mdata_size" value="0x0810"/>
@@ -2680,7 +2680,7 @@
 	<game>
 		<name>[PC-8801] Doki Doki Card League (ドキドキカードリーグ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GREAT</driveralias>
+		<driveralias type="PC-8801">Great</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2716,7 +2716,7 @@
 	<game>
 		<name>[PC-8801] Kibun wa Pastel Touch!! Abunai Gakuen-hen (気分はぱすてるたっち!! アブナイ学園編) (YM2203)</name>
 		<driver type="opn">pc88</driver>
-		<driveralias type="NEC PC-8801">GREAT</driveralias>
+		<driveralias type="PC-8801">Great</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xd800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2764,7 +2764,7 @@
 	<game>
 		<name>[MSX2] Gakuen Monogatari (Disk) (学園物語(Disk)) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX2">GREAT</driveralias>
+		<driveralias type="MSX2">Great</driveralias>
 		<options>
 			<option name="init_pc" value="0x0400"/>
 		</options>
@@ -2775,6 +2775,94 @@
 		<titlelist>
 			<range min="0x03" max="0x00b" extcode="1">BGM %02X</range>
 			<range min="0x00" max="0x002" extcode="1">SFX %02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Doki Doki Card League (ドキドキカードリーグ) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Great</driveralias>
+		<options>
+			<option name="bootcs" value="0x0100"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x2d000"/>
+			<option name="filesize" value="0x0800"/>
+			<option name="datamax" value="10"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dokicl_98">
+			<rom type="code" offset="0x01000">dokicl_98.bin</rom>
+			<rom type="code" offset="0x2e000">BGM.BIN</rom>
+			<rom type="bgm" offset="0x01">M1.DAT</rom>
+			<rom type="bgm" offset="0x02">M2.DAT</rom>
+			<rom type="bgm" offset="0x03">M3.DAT</rom>
+			<rom type="bgm" offset="0x04">M4.DAT</rom>
+			<rom type="bgm" offset="0x05">M5.DAT</rom>
+			<rom type="bgm" offset="0x06">M6.DAT</rom>
+			<rom type="bgm" offset="0x07">M7.DAT</rom>
+			<rom type="bgm" offset="0x08">M8.DAT</rom>
+			<rom type="bgm" offset="0x09">M9.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">試合その1</title>
+			<title code="0x02">没になった曲その1</title>
+			<title code="0x03">オープニング</title>
+			<title code="0x04">没になった曲その2</title>
+			<title code="0x05">エンディング</title>
+			<title code="0x06">いっぱい使っちゃった</title>
+			<title code="0x07">試合その2</title>
+			<title code="0x08">負けたよーん</title>
+			<title code="0x09">RPGのノリでも没</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kibun wa Pastel Touch!! Abunai Gakuen-hen (気分はぱすてるたっち!! アブナイ学園編) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Great</driveralias>
+		<options>
+			<option name="bootcs" value="0x0100"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x2d800"/>
+			<option name="filesize" value="0x07f0"/>
+			<option name="datamax" value="16"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="kpastel_98">
+			<rom type="code" offset="0x01000">pastel_98.bin</rom>
+			<rom type="code" offset="0x2e000">FMPSG.BIN</rom>
+			<rom type="bgm" offset="0x01">M1.DAT</rom>
+			<rom type="bgm" offset="0x02">M2.DAT</rom>
+			<rom type="bgm" offset="0x03">M3.DAT</rom>
+			<rom type="bgm" offset="0x04">M4.DAT</rom>
+			<rom type="bgm" offset="0x05">M5.DAT</rom>
+			<rom type="bgm" offset="0x06">M6.DAT</rom>
+			<rom type="bgm" offset="0x07">M7.DAT</rom>
+			<rom type="bgm" offset="0x08">M8.DAT</rom>
+			<rom type="bgm" offset="0x09">M9.DAT</rom>
+			<rom type="bgm" offset="0x0a">MA.DAT</rom>
+			<rom type="bgm" offset="0x0b">MB.DAT</rom>
+			<rom type="bgm" offset="0x0c">MC.DAT</rom>
+			<rom type="bgm" offset="0x0d">MD.DAT</rom>
+			<rom type="bgm" offset="0x0e">ME.DAT</rom>
+			<rom type="bgm" offset="0x0f">MF.DAT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">M1.DAT</title>
+			<title code="0x02">M2.DAT</title>
+			<title code="0x03">M3.DAT</title>
+			<title code="0x04">M4.DAT</title>
+			<title code="0x05">M5.DAT</title>
+			<title code="0x06">M6.DAT</title>
+			<title code="0x07">M7.DAT</title>
+			<title code="0x08">M8.DAT</title>
+			<title code="0x09">M9.DAT</title>
+			<title code="0x0a">MA.DAT</title>
+			<title code="0x0b">MB.DAT</title>
+			<title code="0x0c">MC.DAT</title>
+			<title code="0x0d">MD.DAT</title>
+			<title code="0x0e">ME.DAT</title>
+			<title code="0x0f">MF.DAT</title>
 		</titlelist>
 	</game>
 </gamelist>

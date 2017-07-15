@@ -487,6 +487,172 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Venus (ヴィーナス) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Software House Parsley</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="venus_98">
+			<rom type="file" offset="-1">fgplay_h.com</rom>
+			<rom type="file" offset="-1">OPNDRV.COM</rom>
+			<rom type="file" offset="0x10">VENUS_00.FM</rom>
+			<rom type="file" offset="0x11">VENUS_01.FM</rom>
+			<rom type="file" offset="0x12">VENUS_02.FM</rom>
+			<rom type="file" offset="0x13">VENUS_03.FM</rom>
+			<rom type="file" offset="0x14">VENUS_04.FM</rom>
+			<rom type="file" offset="0x15">VENUS_05.FM</rom>
+			<rom type="file" offset="0x16">VENUS_06.FM</rom>
+			<rom type="file" offset="0x17">VENUS_07.FM</rom>
+			<rom type="file" offset="0x18">VENUS_08.FM</rom>
+			<rom type="file" offset="0x19">VENUS_09.FM</rom>
+			<rom type="file" offset="0x1A">VENUS_10.FM</rom>
+			<rom type="file" offset="0x1B">VENUS_11.FM</rom>
+			<rom type="file" offset="0x1C">VENUS_12.FM</rom>
+			<rom type="file" offset="0x1D">VENUS_13.FM</rom>
+			<rom type="file" offset="0x1E">VENUS_14.FM</rom>
+			<rom type="file" offset="0x1F">VENUS_15.FM</rom>
+			<rom type="file" offset="0x20">VENUS_16.FM</rom>
+			<rom type="file" offset="0x21">VENUS_17.FM</rom>
+			<rom type="file" offset="0x22">VENUS_18.FM</rom>
+			<rom type="shell" offset="0">opndrv</rom>
+			<rom type="shell" offset="0">fgplay_h</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x10">VENUS_00.FM</title>	-->
+			<title code="0x11">VENUS_01.FM</title>
+			<title code="0x12">VENUS_02.FM</title>
+			<title code="0x13">VENUS_03.FM</title>
+			<title code="0x14">VENUS_04.FM</title>
+			<title code="0x15">VENUS_05.FM</title>
+			<title code="0x16">VENUS_06.FM</title>
+			<title code="0x17">VENUS_07.FM</title>
+			<title code="0x18">VENUS_08.FM</title>
+			<title code="0x19">VENUS_09.FM</title>
+			<title code="0x1A">VENUS_10.FM</title>
+			<title code="0x1B">VENUS_11.FM</title>
+			<title code="0x1C">VENUS_12.FM</title>
+			<title code="0x1D">VENUS_13.FM</title>
+			<title code="0x1E">VENUS_14.FM</title>
+			<title code="0x1F">VENUS_15.FM</title>
+			<title code="0x20">VENUS_16.FM</title>
+			<title code="0x21">VENUS_17.FM</title>
+			<title code="0x22">VENUS_18.FM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Venus (ヴィーナス) (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Software House Parsley</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="venus_98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">VENUS_00.GS</rom>
+			<rom type="file" offset="0x11">VENUS_01.GS</rom>
+			<rom type="file" offset="0x12">VENUS_02.GS</rom>
+			<rom type="file" offset="0x13">VENUS_03.GS</rom>
+			<rom type="file" offset="0x14">VENUS_04.GS</rom>
+			<rom type="file" offset="0x15">VENUS_05.GS</rom>
+			<rom type="file" offset="0x16">VENUS_06.GS</rom>
+			<rom type="file" offset="0x17">VENUS_07.GS</rom>
+			<rom type="file" offset="0x18">VENUS_08.GS</rom>
+			<rom type="file" offset="0x19">VENUS_09.GS</rom>
+			<rom type="file" offset="0x1A">VENUS_10.GS</rom>
+			<rom type="file" offset="0x1B">VENUS_11.GS</rom>
+			<rom type="file" offset="0x1C">VENUS_12.GS</rom>
+			<rom type="file" offset="0x1D">VENUS_13.GS</rom>
+			<rom type="file" offset="0x1E">VENUS_14.GS</rom>
+			<rom type="file" offset="0x1F">VENUS_15.GS</rom>
+			<rom type="file" offset="0x20">VENUS_16.GS</rom>
+			<rom type="file" offset="0x21">VENUS_17.GS</rom>
+			<rom type="file" offset="0x22">VENUS_18.GS</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x10">VENUS_00.GS</title>	-->
+			<title code="0x11">VENUS_01.GS</title>
+			<title code="0x12">VENUS_02.GS</title>
+			<title code="0x13">VENUS_03.GS</title>
+			<title code="0x14">VENUS_04.GS</title>
+			<title code="0x15">VENUS_05.GS</title>
+			<title code="0x16">VENUS_06.GS</title>
+			<title code="0x17">VENUS_07.GS</title>
+			<title code="0x18">VENUS_08.GS</title>
+			<title code="0x19">VENUS_09.GS</title>
+			<title code="0x1A">VENUS_10.GS</title>
+			<title code="0x1B">VENUS_11.GS</title>
+			<title code="0x1C">VENUS_12.GS</title>
+			<title code="0x1D">VENUS_13.GS</title>
+			<title code="0x1E">VENUS_14.GS</title>
+			<title code="0x1F">VENUS_15.GS</title>
+			<title code="0x20">VENUS_16.GS</title>
+			<title code="0x21">VENUS_17.GS</title>
+			<title code="0x22">VENUS_18.GS</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Venus (ヴィーナス) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">Software House Parsley</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="venus_98">
+			<rom type="file" offset="-1">fugam_98.com</rom>
+			<rom type="file" offset="-1">FMD.EXE</rom>
+			<rom type="file" offset="0x10">VENUS_00.GS</rom>
+			<rom type="file" offset="0x11">VENUS_01.GS</rom>
+			<rom type="file" offset="0x12">VENUS_02.GS</rom>
+			<rom type="file" offset="0x13">VENUS_03.GS</rom>
+			<rom type="file" offset="0x14">VENUS_04.GS</rom>
+			<rom type="file" offset="0x15">VENUS_05.GS</rom>
+			<rom type="file" offset="0x16">VENUS_06.GS</rom>
+			<rom type="file" offset="0x17">VENUS_07.GS</rom>
+			<rom type="file" offset="0x18">VENUS_08.GS</rom>
+			<rom type="file" offset="0x19">VENUS_09.GS</rom>
+			<rom type="file" offset="0x1A">VENUS_10.GS</rom>
+			<rom type="file" offset="0x1B">VENUS_11.GS</rom>
+			<rom type="file" offset="0x1C">VENUS_12.GS</rom>
+			<rom type="file" offset="0x1D">VENUS_13.GS</rom>
+			<rom type="file" offset="0x1E">VENUS_14.GS</rom>
+			<rom type="file" offset="0x1F">VENUS_15.GS</rom>
+			<rom type="file" offset="0x20">VENUS_16.GS</rom>
+			<rom type="file" offset="0x21">VENUS_17.GS</rom>
+			<rom type="file" offset="0x22">VENUS_18.GS</rom>
+			<rom type="shell" offset="0">FMD /#</rom>
+			<rom type="shell" offset="0">fugam_98</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x10">VENUS_00.GS</title>	-->
+			<title code="0x11">VENUS_01.GS</title>
+			<title code="0x12">VENUS_02.GS</title>
+			<title code="0x13">VENUS_03.GS</title>
+			<title code="0x14">VENUS_04.GS</title>
+			<title code="0x15">VENUS_05.GS</title>
+			<title code="0x16">VENUS_06.GS</title>
+			<title code="0x17">VENUS_07.GS</title>
+			<title code="0x18">VENUS_08.GS</title>
+			<title code="0x19">VENUS_09.GS</title>
+			<title code="0x1A">VENUS_10.GS</title>
+			<title code="0x1B">VENUS_11.GS</title>
+			<title code="0x1C">VENUS_12.GS</title>
+			<title code="0x1D">VENUS_13.GS</title>
+			<title code="0x1E">VENUS_14.GS</title>
+			<title code="0x1F">VENUS_15.GS</title>
+			<title code="0x20">VENUS_16.GS</title>
+			<title code="0x21">VENUS_17.GS</title>
+			<title code="0x22">VENUS_18.GS</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Celery (せろり) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
@@ -626,70 +792,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Image (イマージュ) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="4"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="image1_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">DORA_M.MDI</rom>
-			<rom type="file" offset="0x11">HOU_M.MDI</rom>
-			<rom type="file" offset="0x12">KEI_M.MDI</rom>
-			<rom type="file" offset="0x13">S1_1M.MDI</rom>
-			<rom type="file" offset="0x14">S1_2M.MDI</rom>
-			<rom type="file" offset="0x15">S1_3M.MDI</rom>
-			<rom type="file" offset="0x16">ST_0M.MDI</rom>
-			<rom type="shell" offset="0">fmd /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">俺のファミリア4WD</title>
-			<title code="0x11">ムーディー ブルース</title>
-			<title code="0x12">｢K｣はあせらず</title>
-			<title code="0x13">優しい軟弱者</title>
-			<title code="0x14">チゴイネルワイゼン ～午後のネス○カフェ～</title>
-			<title code="0x15">Snap!Snap!</title>
-			<title code="0x16">恋するギター小僧</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Image (イマージュ) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="4"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="image1_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">DORA_M.MDI</rom>
-			<rom type="file" offset="0x11">HOU_M.MDI</rom>
-			<rom type="file" offset="0x12">KEI_M.MDI</rom>
-			<rom type="file" offset="0x13">S1_1M.MDI</rom>
-			<rom type="file" offset="0x14">S1_2M.MDI</rom>
-			<rom type="file" offset="0x15">S1_3M.MDI</rom>
-			<rom type="file" offset="0x16">ST_0M.MDI</rom>
-			<rom type="shell" offset="0">fmd /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">俺のファミリア4WD</title>
-			<title code="0x11">ムーディー ブルース</title>
-			<title code="0x12">｢K｣はあせらず</title>
-			<title code="0x13">優しい軟弱者</title>
-			<title code="0x14">チゴイネルワイゼン ～午後のネス○カフェ～</title>
-			<title code="0x15">Snap!Snap!</title>
-			<title code="0x16">恋するギター小僧</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Image 2 (イマージュ2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
@@ -787,98 +889,6 @@
 			<option name="clockmul" value="8"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
-		</options>
-		<romlist archive="image2_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">IMAG2_00.GS</rom>
-			<rom type="file" offset="0x11">IMAG2_01.GS</rom>
-			<rom type="file" offset="0x12">IMAG2_02.GS</rom>
-			<rom type="file" offset="0x13">IMAG2_03.GS</rom>
-			<rom type="file" offset="0x14">IMAG2_04.GS</rom>
-			<rom type="file" offset="0x15">IMAG2_05.GS</rom>
-			<rom type="file" offset="0x16">IMAG2_06.GS</rom>
-			<rom type="file" offset="0x17">IMAG2_07.GS</rom>
-			<rom type="file" offset="0x18">IMAG2_08.GS</rom>
-			<rom type="file" offset="0x19">IMAG2_09.GS</rom>
-			<rom type="file" offset="0x1A">IMAG2_10.GS</rom>
-			<rom type="file" offset="0x1B">IMAG2_11.GS</rom>
-			<rom type="file" offset="0x1C">IMAG2_12.GS</rom>
-			<rom type="file" offset="0x1D">IMAG2_13.GS</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">IMAG2_00.GS</title>
-			<title code="0x11">IMAG2_01.GS</title>
-			<title code="0x12">IMAG2_02.GS</title>
-			<title code="0x13">IMAG2_03.GS</title>
-			<title code="0x14">IMAG2_04.GS</title>
-			<title code="0x15">IMAG2_05.GS</title>
-			<title code="0x16">IMAG2_06.GS</title>
-			<title code="0x17">IMAG2_07.GS</title>
-			<title code="0x18">IMAG2_08.GS</title>
-			<title code="0x19">IMAG2_09.GS</title>
-			<title code="0x1A">IMAG2_10.GS</title>
-			<title code="0x1B">IMAG2_11.GS</title>
-			<title code="0x1C">IMAG2_12.GS</title>
-			<title code="0x1D">IMAG2_13.GS</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Image 2 (イマージュ2) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="4"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="image2_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">IMAG2_00.GS</rom>
-			<rom type="file" offset="0x11">IMAG2_01.GS</rom>
-			<rom type="file" offset="0x12">IMAG2_02.GS</rom>
-			<rom type="file" offset="0x13">IMAG2_03.GS</rom>
-			<rom type="file" offset="0x14">IMAG2_04.GS</rom>
-			<rom type="file" offset="0x15">IMAG2_05.GS</rom>
-			<rom type="file" offset="0x16">IMAG2_06.GS</rom>
-			<rom type="file" offset="0x17">IMAG2_07.GS</rom>
-			<rom type="file" offset="0x18">IMAG2_08.GS</rom>
-			<rom type="file" offset="0x19">IMAG2_09.GS</rom>
-			<rom type="file" offset="0x1A">IMAG2_10.GS</rom>
-			<rom type="file" offset="0x1B">IMAG2_11.GS</rom>
-			<rom type="file" offset="0x1C">IMAG2_12.GS</rom>
-			<rom type="file" offset="0x1D">IMAG2_13.GS</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x10">IMAG2_00.GS</title>
-			<title code="0x11">IMAG2_01.GS</title>
-			<title code="0x12">IMAG2_02.GS</title>
-			<title code="0x13">IMAG2_03.GS</title>
-			<title code="0x14">IMAG2_04.GS</title>
-			<title code="0x15">IMAG2_05.GS</title>
-			<title code="0x16">IMAG2_06.GS</title>
-			<title code="0x17">IMAG2_07.GS</title>
-			<title code="0x18">IMAG2_08.GS</title>
-			<title code="0x19">IMAG2_09.GS</title>
-			<title code="0x1A">IMAG2_10.GS</title>
-			<title code="0x1B">IMAG2_11.GS</title>
-			<title code="0x1C">IMAG2_12.GS</title>
-			<title code="0x1D">IMAG2_13.GS</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Image 2 (イマージュ2) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="4"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
 		</options>
 		<romlist archive="image2_98">
 			<rom type="file" offset="-1">fugam_98.com</rom>
@@ -1224,172 +1234,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Venus (ヴィーナス) (YM2203)</name>
-		<driver type="opn">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-		</options>
-		<romlist archive="venus_98">
-			<rom type="file" offset="-1">fgplay_h.com</rom>
-			<rom type="file" offset="-1">OPNDRV.COM</rom>
-			<rom type="file" offset="0x10">VENUS_00.FM</rom>
-			<rom type="file" offset="0x11">VENUS_01.FM</rom>
-			<rom type="file" offset="0x12">VENUS_02.FM</rom>
-			<rom type="file" offset="0x13">VENUS_03.FM</rom>
-			<rom type="file" offset="0x14">VENUS_04.FM</rom>
-			<rom type="file" offset="0x15">VENUS_05.FM</rom>
-			<rom type="file" offset="0x16">VENUS_06.FM</rom>
-			<rom type="file" offset="0x17">VENUS_07.FM</rom>
-			<rom type="file" offset="0x18">VENUS_08.FM</rom>
-			<rom type="file" offset="0x19">VENUS_09.FM</rom>
-			<rom type="file" offset="0x1A">VENUS_10.FM</rom>
-			<rom type="file" offset="0x1B">VENUS_11.FM</rom>
-			<rom type="file" offset="0x1C">VENUS_12.FM</rom>
-			<rom type="file" offset="0x1D">VENUS_13.FM</rom>
-			<rom type="file" offset="0x1E">VENUS_14.FM</rom>
-			<rom type="file" offset="0x1F">VENUS_15.FM</rom>
-			<rom type="file" offset="0x20">VENUS_16.FM</rom>
-			<rom type="file" offset="0x21">VENUS_17.FM</rom>
-			<rom type="file" offset="0x22">VENUS_18.FM</rom>
-			<rom type="shell" offset="0">opndrv</rom>
-			<rom type="shell" offset="0">fgplay_h</rom>
-		</romlist>
-		<titlelist>
-		<!--	<title code="0x10">VENUS_00.FM</title>	-->
-			<title code="0x11">VENUS_01.FM</title>
-			<title code="0x12">VENUS_02.FM</title>
-			<title code="0x13">VENUS_03.FM</title>
-			<title code="0x14">VENUS_04.FM</title>
-			<title code="0x15">VENUS_05.FM</title>
-			<title code="0x16">VENUS_06.FM</title>
-			<title code="0x17">VENUS_07.FM</title>
-			<title code="0x18">VENUS_08.FM</title>
-			<title code="0x19">VENUS_09.FM</title>
-			<title code="0x1A">VENUS_10.FM</title>
-			<title code="0x1B">VENUS_11.FM</title>
-			<title code="0x1C">VENUS_12.FM</title>
-			<title code="0x1D">VENUS_13.FM</title>
-			<title code="0x1E">VENUS_14.FM</title>
-			<title code="0x1F">VENUS_15.FM</title>
-			<title code="0x20">VENUS_16.FM</title>
-			<title code="0x21">VENUS_17.FM</title>
-			<title code="0x22">VENUS_18.FM</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Venus (ヴィーナス) (GS)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="venus_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">VENUS_00.GS</rom>
-			<rom type="file" offset="0x11">VENUS_01.GS</rom>
-			<rom type="file" offset="0x12">VENUS_02.GS</rom>
-			<rom type="file" offset="0x13">VENUS_03.GS</rom>
-			<rom type="file" offset="0x14">VENUS_04.GS</rom>
-			<rom type="file" offset="0x15">VENUS_05.GS</rom>
-			<rom type="file" offset="0x16">VENUS_06.GS</rom>
-			<rom type="file" offset="0x17">VENUS_07.GS</rom>
-			<rom type="file" offset="0x18">VENUS_08.GS</rom>
-			<rom type="file" offset="0x19">VENUS_09.GS</rom>
-			<rom type="file" offset="0x1A">VENUS_10.GS</rom>
-			<rom type="file" offset="0x1B">VENUS_11.GS</rom>
-			<rom type="file" offset="0x1C">VENUS_12.GS</rom>
-			<rom type="file" offset="0x1D">VENUS_13.GS</rom>
-			<rom type="file" offset="0x1E">VENUS_14.GS</rom>
-			<rom type="file" offset="0x1F">VENUS_15.GS</rom>
-			<rom type="file" offset="0x20">VENUS_16.GS</rom>
-			<rom type="file" offset="0x21">VENUS_17.GS</rom>
-			<rom type="file" offset="0x22">VENUS_18.GS</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-		<!--	<title code="0x10">VENUS_00.GS</title>	-->
-			<title code="0x11">VENUS_01.GS</title>
-			<title code="0x12">VENUS_02.GS</title>
-			<title code="0x13">VENUS_03.GS</title>
-			<title code="0x14">VENUS_04.GS</title>
-			<title code="0x15">VENUS_05.GS</title>
-			<title code="0x16">VENUS_06.GS</title>
-			<title code="0x17">VENUS_07.GS</title>
-			<title code="0x18">VENUS_08.GS</title>
-			<title code="0x19">VENUS_09.GS</title>
-			<title code="0x1A">VENUS_10.GS</title>
-			<title code="0x1B">VENUS_11.GS</title>
-			<title code="0x1C">VENUS_12.GS</title>
-			<title code="0x1D">VENUS_13.GS</title>
-			<title code="0x1E">VENUS_14.GS</title>
-			<title code="0x1F">VENUS_15.GS</title>
-			<title code="0x20">VENUS_16.GS</title>
-			<title code="0x21">VENUS_17.GS</title>
-			<title code="0x22">VENUS_18.GS</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[PC-9801] Venus (ヴィーナス) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="beep">pc98dos</driver>
-		<driveralias type="PC-9801">Software House Parsley</driveralias>
-		<options>
-			<option name="clockmul" value="8"/>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="venus_98">
-			<rom type="file" offset="-1">fugam_98.com</rom>
-			<rom type="file" offset="-1">FMD.EXE</rom>
-			<rom type="file" offset="0x10">VENUS_00.GS</rom>
-			<rom type="file" offset="0x11">VENUS_01.GS</rom>
-			<rom type="file" offset="0x12">VENUS_02.GS</rom>
-			<rom type="file" offset="0x13">VENUS_03.GS</rom>
-			<rom type="file" offset="0x14">VENUS_04.GS</rom>
-			<rom type="file" offset="0x15">VENUS_05.GS</rom>
-			<rom type="file" offset="0x16">VENUS_06.GS</rom>
-			<rom type="file" offset="0x17">VENUS_07.GS</rom>
-			<rom type="file" offset="0x18">VENUS_08.GS</rom>
-			<rom type="file" offset="0x19">VENUS_09.GS</rom>
-			<rom type="file" offset="0x1A">VENUS_10.GS</rom>
-			<rom type="file" offset="0x1B">VENUS_11.GS</rom>
-			<rom type="file" offset="0x1C">VENUS_12.GS</rom>
-			<rom type="file" offset="0x1D">VENUS_13.GS</rom>
-			<rom type="file" offset="0x1E">VENUS_14.GS</rom>
-			<rom type="file" offset="0x1F">VENUS_15.GS</rom>
-			<rom type="file" offset="0x20">VENUS_16.GS</rom>
-			<rom type="file" offset="0x21">VENUS_17.GS</rom>
-			<rom type="file" offset="0x22">VENUS_18.GS</rom>
-			<rom type="shell" offset="0">FMD /#</rom>
-			<rom type="shell" offset="0">fugam_98</rom>
-		</romlist>
-		<titlelist>
-		<!--	<title code="0x10">VENUS_00.GS</title>	-->
-			<title code="0x11">VENUS_01.GS</title>
-			<title code="0x12">VENUS_02.GS</title>
-			<title code="0x13">VENUS_03.GS</title>
-			<title code="0x14">VENUS_04.GS</title>
-			<title code="0x15">VENUS_05.GS</title>
-			<title code="0x16">VENUS_06.GS</title>
-			<title code="0x17">VENUS_07.GS</title>
-			<title code="0x18">VENUS_08.GS</title>
-			<title code="0x19">VENUS_09.GS</title>
-			<title code="0x1A">VENUS_10.GS</title>
-			<title code="0x1B">VENUS_11.GS</title>
-			<title code="0x1C">VENUS_12.GS</title>
-			<title code="0x1D">VENUS_13.GS</title>
-			<title code="0x1E">VENUS_14.GS</title>
-			<title code="0x1F">VENUS_15.GS</title>
-			<title code="0x20">VENUS_16.GS</title>
-			<title code="0x21">VENUS_17.GS</title>
-			<title code="0x22">VENUS_18.GS</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Farce: Yuuwaku Hakusho (ファルス 誘惑白書) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
@@ -1551,7 +1395,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou (煩悩予備校) (YM2203)</name>
+		<name>[PC-9801] Bonnou Yobikou (煩悩予備校) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1583,7 +1427,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 2 (煩悩予備校2) (YM2203)</name>
+		<name>[PC-9801] Bonnou Yobikou 2 (煩悩予備校2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1606,7 +1450,6 @@
 			<rom type="shell" offset="0">fgplay_h</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x11">EFFECT.MD</title>	-->
 			<title code="0x16">OPENING.MD</title>
 			<title code="0x17">OTAKU.MD</title>
 			<title code="0x18">SCIENCE.MD</title>
@@ -1616,10 +1459,11 @@
 			<title code="0x13">LASTQUIZ.MD</title>
 			<title code="0x15">NUDE.MD</title>
 			<title code="0x12">ENDING.MD</title>
+		<!--	<title code="0x11">EFFECT.MD</title>	-->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 2 (煩悩予備校2) (MT-32)</name>
+		<name>[PC-9801] Bonnou Yobikou 2 (煩悩予備校2) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1664,7 +1508,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 2 (煩悩予備校2) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Bonnou Yobikou 2 (煩悩予備校2) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1709,7 +1553,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 3 (煩悩予備校3) (YM2203)</name>
+		<name>[PC-9801] Bonnou Yobikou 3 (煩悩予備校3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1747,7 +1591,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 3 (煩悩予備校3) (MT-32)</name>
+		<name>[PC-9801] Bonnou Yobikou 3 (煩悩予備校3) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1785,7 +1629,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Quiz Bonnou Yobikou 3 (煩悩予備校3) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Bonnou Yobikou 3 (煩悩予備校3) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Software House Parsley</driveralias>
 		<options>
@@ -1827,14 +1671,14 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
 		</options>
 		<romlist archive="image268snd">
 			<rom type="code" offset="0x000000">image268snd.bin</rom>
 			<rom type="code" offset="0x010000">IMAGE2.FMA</rom>
 			<rom type="code" offset="0x060000">IMAGE2.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -1861,14 +1705,14 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="image268snd">
 			<rom type="code" offset="0x000000">image268snd.bin</rom>
 			<rom type="code" offset="0x010000">IMAGE2.MDA</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -1895,14 +1739,14 @@
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
 		<romlist archive="image268snd">
 			<rom type="code" offset="0x000000">image268snd.bin</rom>
 			<rom type="code" offset="0x010000">IMAGE2.MDA</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -1925,11 +1769,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 3 (煩悩予備校3) (YM2151+MSM6258)</name>
+		<name>[X68000] Bonnou Yobikou 3 (煩悩予備校3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"    value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
 		</options>
 		<romlist archive="bonnou368snd">
@@ -1937,7 +1781,7 @@
 			<rom type="code" offset="0x010000">BON3.FM</rom>
 			<rom type="code" offset="0x040000">VOICE.ZMD</rom>
 			<rom type="code" offset="0x060000">BON3.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -1957,18 +1801,18 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 3 (煩悩予備校3) (MT-32)</name>
+		<name>[X68000] Bonnou Yobikou 3 (煩悩予備校3) (MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
 		<romlist archive="bonnou368snd">
 			<rom type="code" offset="0x000000">bon368snd.bin</rom>
 			<rom type="code" offset="0x010000">BON3.MID</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -1987,18 +1831,18 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 3 (煩悩予備校3) (Munt, MT-32 simulation)</name>
+		<name>[X68000] Bonnou Yobikou 3 (煩悩予備校3) (Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
 		<romlist archive="bonnou368snd">
 			<rom type="code" offset="0x000000">bon368snd.bin</rom>
 			<rom type="code" offset="0x010000">BON3.MID</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<!--
@@ -2017,65 +1861,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 3 (煩悩予備校3) (GS)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Software House Parsley</driveralias>
-		<options>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="4"/>
-		</options>
-		<romlist archive="bonnou368snd">
-			<rom type="code" offset="0x000000">image268mid.bin</rom>
-			<rom type="code" offset="0x010000">BON3.MID</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
-		</romlist>
-		<titlelist>
-			<!--
-			<title code="0x01">Stop the Music</title>
-			  -->
-			<title code="0x02">メニュー</title>
-			<title code="0x03">プレイ</title>
-			<title code="0x04">1分クイズの曲</title>
-			<title code="0x05">脱衣曲</title>
-			<title code="0x06">ゲームオーバ</title>
-			<title code="0x07">マップ移動</title>
-			<title code="0x08">コミケ帰りの御宅健太郎</title>
-			<title code="0x09">エンディング</title>
-			<title code="0x0a">スタッフロール</title>
-			<title code="0x0b">ぱせりタイトル</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 3 (煩悩予備校3) (Vermouth, Gravis Ultrasound simulation)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Software House Parsley</driveralias>
-		<options>
-			<option name="midiout" value="1"/>
-			<option name="midiout_type" value="6"/>
-		</options>
-		<romlist archive="bonnou368snd">
-			<rom type="code" offset="0x000000">image268mid.bin</rom>
-			<rom type="code" offset="0x010000">BON3.MID</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
-		</romlist>
-		<titlelist>
-			<!--
-			<title code="0x01">Stop the Music</title>
-			  -->
-			<title code="0x02">メニュー</title>
-			<title code="0x03">プレイ</title>
-			<title code="0x04">1分クイズの曲</title>
-			<title code="0x05">脱衣曲</title>
-			<title code="0x06">ゲームオーバ</title>
-			<title code="0x07">マップ移動</title>
-			<title code="0x08">コミケ帰りの御宅健太郎</title>
-			<title code="0x09">エンディング</title>
-			<title code="0x0a">スタッフロール</title>
-			<title code="0x0b">ぱせりタイトル</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X68000] Quiz Bonnou Yobikou (煩悩予備校) (YM2151+MSM6258)</name>
+		<name>[X68000] Bonnou Yobikou (煩悩予備校) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<romlist archive="bonnou168snd">
@@ -2103,11 +1889,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Quiz Bonnou Yobikou 2 (煩悩予備校2) (YM2151+MSM6258)</name>
+		<name>[X68000] Bonnou Yobikou 2 (煩悩予備校2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Software House Parsley</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="bonnou268snd">
 			<rom type="code">bon268snd.bin</rom>
@@ -2174,7 +1960,7 @@
 			<rom type="code" offset="0x031000">STOP.ZMD</rom>
 			<rom type="code" offset="0x032000">WARNING.ZMD</rom>
 			<rom type="code" offset="0x040000">BE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x13">Stop the Music</title>
@@ -2232,7 +2018,7 @@
 			<rom type="code" offset="0x031000">STOP.ZMD</rom>
 			<rom type="code" offset="0x032000">WARNING.ZMD</rom>
 			<rom type="code" offset="0x040000">BE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x13">Stop the Music</title>
@@ -2290,7 +2076,7 @@
 			<rom type="code" offset="0x031000">STOP.ZMD</rom>
 			<rom type="code" offset="0x032000">WARNING.ZMD</rom>
 			<rom type="code" offset="0x040000">BE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMSC.X</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x13">Stop the Music</title>
@@ -2333,7 +2119,7 @@
 			<rom type="code" offset="0x019000">S1_3M.ZMD</rom>
 			<rom type="code" offset="0x01b000">ST_M.ZMD</rom>
 			<rom type="code" offset="0x020000">IMAGE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMUSIC.X</rom>
+			<rom type="x" offset="0x080000">ZMUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x07">恋するギター小僧</title>
@@ -2363,7 +2149,7 @@
 			<rom type="code" offset="0x019000">S1_3M.ZMD</rom>
 			<rom type="code" offset="0x01b000">ST_M.ZMD</rom>
 			<rom type="code" offset="0x020000">IMAGE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMUSIC.X</rom>
+			<rom type="x" offset="0x080000">ZMUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x07">恋するギター小僧</title>
@@ -2393,7 +2179,7 @@
 			<rom type="code" offset="0x019000">S1_3M.ZMD</rom>
 			<rom type="code" offset="0x01b000">ST_M.ZMD</rom>
 			<rom type="code" offset="0x020000">IMAGE.ZPD</rom>
-			<rom type="x"    offset="0x080000">ZMUSIC.X</rom>
+			<rom type="x" offset="0x080000">ZMUSIC.X</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x07">恋するギター小僧</title>

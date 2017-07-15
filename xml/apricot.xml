@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //ApRicoT -->
 	<game>
-		<name>[PC-9801] Nocturnal Illusion (夢幻夜想曲) (YM2203)</name>
+		<name>[PC-9801] Mugen Yasoukyoku (夢幻夜想曲) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Apricot</driveralias>
 		<options>
@@ -44,7 +44,7 @@
 			<option name="clockmul" value="8"/>
 			<option name="ssg_mix" value="-18"/>
 		</options>
-		<romlist archive="mugyaso_98">
+		<romlist archive="mugenya_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x08">SE.EFC</rom>
@@ -80,15 +80,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Nocturnal Illusion (夢幻夜想曲) (YM2608)</name>
+		<name>[PC-9801] Mugen Yasoukyoku (夢幻夜想曲) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Apricot</driveralias>
 		<options>
 			<option name="funcvect" value="0x7e"/>
 			<option name="clockmul" value="8"/>
-			<option name="total_mix"  value="0x80"/>
+			<option name="total_mix" value="0x80"/>
 		</options>
-		<romlist archive="mugyaso_98">
+		<romlist archive="mugenya_98">
 			<rom type="file" offset="-1">PMD_98.COM</rom>
 			<rom type="file" offset="-1">PMDB2.COM</rom>
 			<rom type="file" offset="0x08">SE.EFC</rom>
@@ -124,7 +124,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Nocturnal Illusion (夢幻夜想曲) (GS)</name>
+		<name>[PC-9801] Mugen Yasoukyoku (夢幻夜想曲) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Apricot</driveralias>
 		<options>
@@ -132,7 +132,7 @@
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="4"/>
 		</options>
-		<romlist archive="mugyaso_98">
+		<romlist archive="mugenya_98">
 			<rom type="file" offset="-1">mmp_hoot.com</rom>
 			<rom type="file" offset="-1">MMD.COM</rom>
 			<rom type="file" offset="0x10">G00.M</rom>
@@ -166,7 +166,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Nocturnal Illusion (夢幻夜想曲) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Mugen Yasoukyoku (夢幻夜想曲) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Apricot</driveralias>
 		<options>
@@ -175,7 +175,7 @@
 			<option name="midiout_type" value="6"/>
 			<option name="midiout_mix" value="0x80"/>
 		</options>
-		<romlist archive="mugyaso_98">
+		<romlist archive="mugenya_98">
 			<rom type="file" offset="-1">mmp_hoot.com</rom>
 			<rom type="file" offset="-1">MMD.COM</rom>
 			<rom type="file" offset="0x10">G00.M</rom>

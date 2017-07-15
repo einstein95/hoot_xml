@@ -78,7 +78,7 @@
 		<options>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x1000"/>
-			<option name="use_vrtc"   value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 			<option name="showfm3ex" value="1"/>
 		</options>
 		<romlist archive="replcart">
@@ -86,12 +86,12 @@
 			<rom type="code" offset="0x8100">PROG</rom>
 			<rom type="code" offset="0xc000">DRIVER</rom>
 			<rom type="code" offset="0xe000">SUBMUS</rom>
-			<rom type="bgm"  offset="0x00">MUS00</rom>
-			<rom type="bgm"  offset="0x01">MUS01</rom>
-			<rom type="bgm"  offset="0x02">MUS02</rom>
-			<rom type="bgm"  offset="0x03">MUS03</rom>
-			<rom type="bgm"  offset="0x04">MUS04</rom>
-			<rom type="bgm"  offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">BGM #00</title>
@@ -118,7 +118,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Arkanoid</name>
+		<name>[PC-9801] Arkanoid (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Taito</driveralias>
 		<options>
@@ -126,7 +126,7 @@
 			<option name="bootip" value="0x4000"/>
 			<option name="funcvect" value="0x7f"/>
 			<option name="clockmul" value="3"/>
-			<option name="wstimer"  value="2"/>
+			<option name="wstimer" value="2"/>
 		</options>
 		<romlist archive="arkanoid98">
 			<rom type="code" offset="0x08000">0000</rom>
@@ -276,6 +276,27 @@
 			<title code="0x0b">BGM #0b</title>
 			<title code="0x0c">BGM #0c</title>
 			<title code="0x0d">BGM #0d</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Arkanoid] Arkanoid (アルカノイド) (AY-3-8910)</name>
+		<driver type="arkanoid">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="arkanoid">
+			<rom type="code" offset="0x000000">a75-01-1.ic17</rom>
+			<rom type="code" offset="0x008000">a75-11.ic16</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0a">Story</title>
+			<title code="0x0b">Round Start</title>
+			<title code="0x0c">DOH Round</title>
+			<title code="0x0e">Game Over</title>
+			<title code="0x0f">Ending</title>
+			<title code="0x10">Extend</title>
+			<title code="0x0d">Unused #0D</title>
+			<title code="0x17">Unused #17</title>
+			<range min="0x03" max="0x09" extcode="1">SFX #%02X</range>
+			<title code="0x18">SFX #18</title>
 		</titlelist>
 	</game>
 	<game>
@@ -814,6 +835,33 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[N.Y. Captor] Wyvern F-0 (ワイバーンF-0) (YM2149x2+MSM5232)</name>
+		<driver type="nycaptor">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="psg_mix" value="0x100"/>
+			<option name="msm5232_mix" value="0x100"/>
+		</options>
+		<romlist archive="wyvernf0">
+			<rom type="code" offset="0x000000">a39_16.ic26</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x06">Credit</title>
+			<!-- <title code="0x44">Credit</title> -->
+			<title code="0x21">Boss BGM "codename ZERO ~ Type ii"</title>
+			<title code="0x6b">Main Theme "codename ZERO ~ Type i"</title>
+			<title code="0x31">Main Theme "codename ZERO ~ Type i"</title>
+			<title code="0x20">Name Entry</title>
+			<title code="0x2e">Name Entry 2</title>
+			<title code="0x0a">Game Over "count ZERO"</title>
+			<title code="0x0b">Main Theme "codename ZERO ~ Type i" (With SE)</title>
+			<title code="0x1f">Main Theme "codename ZERO ~ Type i" (Without Intro)</title>
+			<range min="0x07" max="0x09" extcode="1">SFX #%02X</range>
+			<range min="0x0c" max="0x1e" extcode="1">SFX #%02X</range>
+			<range min="0x22" max="0x2d" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[Taito Sound Board '84] The Fairyland Story (ザ・フェアリーランドストーリー) (YM2149+MSM5232)</name>
 		<driver type="flstory">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
@@ -1151,23 +1199,23 @@
 			<rom type="code" offset="0x000000">a78-07.46</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2D">[SFX] Title, Extend</title>
+			<title code="0x2d">[SFX] Title, Extend</title>
 			<title code="0x34">Credit</title>
 			<title code="0x07">Introduction - Main Theme</title>
 			<title code="0x10">Extend Bonus Music</title>
 			<title code="0x30">Main Theme</title>
 			<title code="0x18">Hurry! - Main Theme (faster)</title>
 			<title code="0x32">Bonus Game</title>
-			<title code="0x0F">Main Theme (faster)</title>
+			<title code="0x0f">Main Theme (faster)</title>
 			<title code="0x19">[SFX] Skull Monsuke appears</title>
 			<title code="0x29">Secret Room</title>
-			<title code="0x2B">False Ending</title>
+			<title code="0x2b">False Ending</title>
 			<title code="0x09">Super Drunk</title>
-			<title code="0x1C">[SFX] All Clear</title>
+			<title code="0x1c">[SFX] All Clear</title>
 			<title code="0x13">[SFX] Halley's Comet</title>
 			<title code="0x14">Real Ending</title>
 			<title code="0x08">Name Regist</title>
-			<title code="0x0B">Game Over</title>
+			<title code="0x0b">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1195,6 +1243,37 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[KiKi KaiKai] Kick &amp; Run (キック &amp; ラン) (YM2203)</name>
+		<driver type="kicknrun">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="opn_mix" value="0x180"/>
+		</options>
+		<romlist archive="kicknrun">
+			<rom offset="0x000000" type="code">a87-06.f6</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0f">Credit</title>
+			<title code="0x05">Team Select</title>
+			<title code="0x06">Prepare to Game</title>
+			<title code="0x07">Kick Off - Main Game</title>
+			<title code="0x0d">Half Time Show</title>
+			<title code="0x08">Gameset - Win</title>
+			<title code="0x0a">Ending Demo 1</title>
+			<title code="0x2f">Ending Demo 2</title>
+			<title code="0x0b">Name Entry</title>
+			<title code="0x0e">VS Game Continue</title>
+			<title code="0x0c">VS Game Name Entry</title>
+			<title code="0x09">Game Over</title>
+			<title code="0x26">Kick Off - Main Game (Loop)</title>
+			<title code="0x2e">Prepare to Game (Loop)</title>
+			<range min="0x10" max="0x1b" extcode="0">SFX #%02X</range>
+			<range min="0x1d" max="0x24" extcode="0">SFX #%02X</range>
+			<range min="0x27" max="0x2d" extcode="0">SFX #%02X</range>
+			<title code="0x30">SFX #30</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[Darius] Darius (ダライアス) (YM2203x2+MSM5205)</name>
 		<driver type="darius">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
@@ -1212,20 +1291,41 @@
 			<title code="0x28">Warning!</title>
 			<title code="0x07">Boss 1</title>
 			<title code="0x08">Round Clear</title>
-			<title code="0x2E">Inorganic Beat (City)</title>
-			<title code="0x2F">Boss 2</title>
-			<title code="0x2B">Cosmic Air Way (Mountain Region)</title>
+			<title code="0x2e">Inorganic Beat (City)</title>
+			<title code="0x2f">Boss 2</title>
+			<title code="0x2b">Cosmic Air Way (Mountain Region)</title>
 			<title code="0x30">Boss 3</title>
-			<title code="0x2D">Chaos -Main Theme- (Van Allen Belt)</title>
+			<title code="0x2d">Chaos -Main Theme- (Van Allen Belt)</title>
 			<title code="0x31">Boss 4</title>
-			<title code="0x2C">The Sea (Undersea Base)</title>
+			<title code="0x2c">The Sea (Undersea Base)</title>
 			<title code="0x32">Boss 5</title>
-			<title code="0x3A">Credit B</title>
+			<title code="0x3a">Credit B</title>
 			<title code="0x33">Boss 6</title>
 			<title code="0x34">Boss 7</title>
 			<title code="0x36">Ending</title>
 			<title code="0x35">Name</title>
 			<title code="0x09">Game Over</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Land Sea Air Squad] Land Sea Air Squad / Storming Party (陸海空 -最前線-) (YM2203)</name>
+		<driver type="lsasquad">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="opn_mix" value="0xa0"/>
+			<option name="ssg_mix" value="0x80"/>
+		</options>
+		<romlist archive="lsasquad">
+			<rom offset="0x000000" type="code">a64-04.44</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Credit</title>
+			<title code="0x18">Main BGM</title>
+			<title code="0x1a">Name Entry</title>
+			<title code="0x19">Game Over</title>
+			<title code="0x1b">Unused</title>
+			<range max="0x16" min="0x05" extcode="0">SFX #%02X</range>
+			<range max="0x1e" min="0x1d" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1236,17 +1336,18 @@
 			<rom type="code" offset="0x000000">a71-07.ic10</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x12">Credit (Ver.1)</title>
-			<title code="0x28">Start (Ver.4) - Main BGM (Ver.4)</title>
-			<title code="0x05">Boss BGM (w/o intro Ver.3)</title>
-			<title code="0x27">Main BGM (Ver.4)</title>
+			<title code="0x02">SSG Off</title>
+			<title code="0x12">Credit</title>
+			<title code="0x28">Start (Ver.4) ~ Main BGM (Ver.4)</title>
+			<title code="0x05">Boss BGM (Ver.3)</title>
 			<title code="0x29">Game Over (Ver.4)</title>
-			<title code="0x1c">Name Entry (Ver.3 unused)</title>
-			<title code="0x11">SFX - Start (Ver.4) - Main BGM (Ver.4)</title>
-			<title code="0x1a">Wait - Start (Ver.4) - Main BGM (Ver.4)</title>
-			<title code="0x1b">Wait - Boss BGM (Ver.3)</title>
-			<title code="0x24">SFX - Main BGM (Ver.4)</title>
-			<title code="0x23">SFX - Boss BGM (Ver.3)</title>
+			<title code="0x1c">Name Entry (Ver.3) (Unused)</title>
+			<title code="0x27">Main BGM (Ver.4)</title>
+			<title code="0x11">SFX ~ Start (Ver.4) ~ Main BGM (Ver.4)</title>
+			<title code="0x1a">Wait ~ Start (Ver.4) ~ Main BGM (Ver.4)</title>
+			<title code="0x1b">Wait ~ Boss BGM (Ver.3)</title>
+			<title code="0x24">SFX ~ Main BGM (Ver.4)</title>
+			<title code="0x23">SFX ~ Boss BGM (Ver.3)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1262,8 +1363,8 @@
 			<title code="0x07">Start</title>
 			<title code="0x08">Landing Successful</title>
 			<title code="0x09">Name Regist (Completed)</title>
-			<title code="0x0A">Landing Failed</title>
-			<title code="0x0B">Game Over</title>
+			<title code="0x0a">Landing Failed</title>
+			<title code="0x0b">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1329,15 +1430,15 @@
 		</romlist>
 		<titlelist>
 			<title code="0x09">Open [Attract]</title>
-			<title code="0x0A">Ju Ju [Select]</title>
+			<title code="0x0a">Ju Ju [Select]</title>
 			<title code="0x15">#1279 [Briefing]</title>
 			<title code="0x10">Flight [Practice]</title>
 			<title code="0x11">Fire [Fire-fighting Exercise]</title>
-			<title code="0x0B">Bom [Oil Carrier - Unused]</title>
-			<title code="0x0E">Red City [Street of Buildings - Unused]</title>
-			<title code="0x0C">Volcano [Volcanic Island]</title>
-			<title code="0x0D">Camel Land [Pyramid]</title>
-			<title code="0x0F">In Focus [Main Theme]</title>
+			<title code="0x0b">Bom [Oil Carrier - Unused]</title>
+			<title code="0x0e">Red City [Street of Buildings - Unused]</title>
+			<title code="0x0c">Volcano [Volcanic Island]</title>
+			<title code="0x0d">Camel Land [Pyramid]</title>
+			<title code="0x0f">In Focus [Main Theme]</title>
 			<title code="0x12">Clear [Mission Completed]</title>
 			<title code="0x14">Morning [Ending]</title>
 			<title code="0x16">Na-Ma-Su-Te [Name Entry]</title>
@@ -1421,29 +1522,56 @@
 			<rom type="code" offset="0x000000">a98-11.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1F">Credit</title>
+			<title code="0x1f">Credit</title>
 			<title code="0x05">Player Select</title>
 			<title code="0x06">Let's Get Started!</title>
 			<title code="0x12">[SFX] Airscrew</title>
 			<title code="0x07">Game Start</title>
 			<title code="0x08">Theme of Blue Sky</title>
-			<title code="0x0B">Stage Clear</title>
+			<title code="0x0b">Stage Clear</title>
 			<title code="0x09">Theme of Sunset Glow</title>
-			<title code="0x0B">Stage Clear</title>
-			<title code="0x0C">Bonus Stage</title>
-			<title code="0x0D">Bonus Stage Clear</title>
-			<title code="0x0A">Theme of Moonless Night</title>
+			<title code="0x0b">Stage Clear</title>
+			<title code="0x0c">Bonus Stage</title>
+			<title code="0x0d">Bonus Stage Clear</title>
+			<title code="0x0a">Theme of Moonless Night</title>
 			<title code="0x26">[SFX] Explosion</title>
-			<title code="0x0B">Stage Clear</title>
+			<title code="0x0b">Stage Clear</title>
 			<title code="0x12">[SFX] Airscrew</title>
-			<title code="0x0E">Moving Stage</title>
+			<title code="0x0e">Moving Stage</title>
 			<title code="0x10">False Boss</title>
-			<title code="0x0A">True Boss</title>
+			<title code="0x0a">True Boss</title>
 			<title code="0x26">[SFX] Explosion</title>
-			<title code="0x0B">Stage Clear</title>
+			<title code="0x0b">Stage Clear</title>
 			<title code="0x11">Ending</title>
-			<title code="0x0B">Name Regist</title>
-			<title code="0x0F">Game Over</title>
+			<title code="0x0b">Name Regist</title>
+			<title code="0x0f">Game Over</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[The New Zealand Story] Arkanoid: Revenge of DOH (アルカノイド リベンジ オブ DOH) (YM2203)</name>
+		<driver type="arkanoid2">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="stop" value="0x0"/>
+			<option name="opn_mix" value="0x180"/>
+		</options>
+		<romlist archive="arknoid2">
+			<rom type="code" offset="0x000000">b08_13.3e</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">Credit (クレジット)</title>
+			<title code="0x1f">Demo Start (スタートデモ)</title>
+			<title code="0x17">Game Start (ゲームスタート)</title>
+			<title code="0x18">Extend (エクステンド)</title>
+			<title code="0x20">Game Start (Boss Stage) (ボスステージ ゲームスタート)</title>
+			<title code="0x22">Dimensional Superior Manufacturing Body / Dimensional Fortress DOH (次元物体製造体/次元要塞DOH)</title>
+			<title code="0x26">Miss (ミス)</title>
+			<title code="0x19">Game Over (ゲームオーバー)</title>
+			<title code="0x23">Name Entry / Ending (ネームエントリー/エンディング)</title>
+			<title code="0x21">Unused (Flipull Main BGM) (未使用(フリップル メインBGM))</title>
+			<range min="0x05" max="0x16" extcode="1">SFX #%02X</range>
+			<range min="0x1a" max="0x1e" extcode="1">SFX #%02X</range>
+			<range min="0x24" max="0x25" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1454,17 +1582,17 @@
 			<rom type="code" offset="0x000000">b06-19.4e</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0F">Credit</title>
+			<title code="0x0f">Credit</title>
 			<title code="0x05">Round 1, 5</title>
 			<title code="0x06">Round 2, 6</title>
 			<title code="0x07">Round 3, 7</title>
 			<title code="0x08">Round 4, 8</title>
 			<title code="0x09">Round Boss</title>
-			<title code="0x0A">Final Boss</title>
-			<title code="0x0B">Name Entry</title>
-			<title code="0x0C">Staff Roll</title>
-			<title code="0x0D">Round Clear</title>
-			<title code="0x0E">Game Over</title>
+			<title code="0x0a">Final Boss</title>
+			<title code="0x0b">Name Entry</title>
+			<title code="0x0c">Staff Roll</title>
+			<title code="0x0d">Round Clear</title>
+			<title code="0x0e">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1523,23 +1651,23 @@
 			<rom type="code" offset="0x00000">b53-11.38</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0E">Credit</title>
+			<title code="0x0e">Credit</title>
 			<title code="0x05">Opening - Main Theme</title>
 			<title code="0x06">Main Theme</title>
-			<title code="0x0A">Hurry Up (1)</title>
-			<title code="0x3B">Hurry Up (2)</title>
+			<title code="0x0a">Hurry Up (1)</title>
+			<title code="0x3b">Hurry Up (2)</title>
 			<title code="0x31">Book of Death</title>
 			<title code="0x39">Clock</title>
-			<title code="0x0C">Power Up BGM</title>
-			<title code="0x0D">Extend</title>
+			<title code="0x0c">Power Up BGM</title>
+			<title code="0x0d">Extend</title>
 			<title code="0x10">Round Clear</title>
 			<title code="0x07">Boss BGM</title>
 			<title code="0x11">Player Dead</title>
 			<title code="0x38">Entrance of Heaven</title>
 			<title code="0x08">Heaven BGM</title>
 			<title code="0x09">Ending</title>
-			<title code="0x0B">Name Register</title>
-			<title code="0x0F">Game Over</title>
+			<title code="0x0b">Name Register</title>
+			<title code="0x0f">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1551,14 +1679,14 @@
 		</romlist>
 		<titlelist>
 			<title code="0x12">Credit</title>
-			<title code="0x2E">Stage Intro</title>
+			<title code="0x2e">Stage Intro</title>
 			<title code="0x24">BGM #1 (Space/Planet Surface)</title>
 			<title code="0x26">Boss Intro/Gold Moai &amp; Mechanical Yeti</title>
 			<title code="0x29">Stage Clear</title>
-			<title code="0x2A">BGM #2 (City)</title>
-			<title code="0x2F">Boss Intro/Red Scorpion &amp; Violet Salamander</title>
-			<title code="0x2C">Enter Your Name</title>
-			<title code="0x2D">All Clear/Continue Play?</title>
+			<title code="0x2a">BGM #2 (City)</title>
+			<title code="0x2f">Boss Intro/Red Scorpion &amp; Violet Salamander</title>
+			<title code="0x2c">Enter Your Name</title>
+			<title code="0x2d">All Clear/Continue Play?</title>
 			<title code="0x25">Game Over</title>
 		</titlelist>
 	</game>
@@ -1567,20 +1695,21 @@
 		<driver type="opwolf">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
-			<option name="opm_mix" value="0x280"/>
+			<option name="opm_mix" value="0x240"/>
 		</options>
 		<romlist archive="opwolf">
 			<rom type="code" offset="0x000000">b20-07.10</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x06">Opening Demo</title>
-			<title code="0x0B">Stage Select</title>
-			<title code="0x07">Operataion Start</title>
-			<title code="0x08">Mission Accomplished #1</title>
-			<title code="0x09">Mission Accomplished #2</title>
-			<title code="0x0A">Mission Failed</title>
+			<title code="0x07">Operation Start</title>
+			<title code="0x0b">Mission Select</title>
+			<title code="0x08">Mission Clear</title>
+			<title code="0x09">Operation Successful</title>
+			<title code="0x0a">Mission Failed</title>
 			<title code="0x55">Name Entry</title>
-			<title code="0x56">Stage Select #2</title>
+			<title code="0x56">Mission Select #2</title>
+			<range min="0x0c" max="0x1a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1608,9 +1737,9 @@
 			<title code="0x0a">[Darius] Boss</title>
 			<title code="0x0f">[Darius] Clear</title>
 			<title code="0x19">[Darius] Register Your Name</title>
-			<title code="0x36">[Fairly Land Story] Intro</title>
-			<title code="0x37">[Fairly Land Story] BGM</title>
-			<title code="0x38">[Fairly Land Story] Boss</title>
+			<title code="0x36">[Fairyland Story] Intro</title>
+			<title code="0x37">[Fairyland Story] BGM</title>
+			<title code="0x38">[Fairyland Story] Boss</title>
 			<title code="0x05">[Bubble Bobble] Intro</title>
 			<title code="0x10">[Bubble Bobble] BGM</title>
 			<title code="0x12">[Bubble Bobble] Dragon</title>
@@ -1622,10 +1751,10 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Rainbow Islands] Rainbow Islands Bootleg (レインボーアイランド) (YM2203x2)</name>
+		<name>[Rainbow Islands] Rainbow Islands (bootleg) (レインボーアイランド) (YM2203x2)</name>
 		<driver type="ribl">bootleg</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<romlist archive="jumping">
+		<romlist archive="rainbow">
 			<rom type="code" offset="0x000000">jb1_cd67</rom>
 		</romlist>
 		<titlelist>
@@ -1640,9 +1769,9 @@
 			<title code="0x17">[Arkanoid] Game Over</title>
 			<title code="0x39">[Darius] Intro</title>
 			<title code="0x0a">[Darius] Boss</title>
-			<title code="0x36">[Fairly Land Story] Intro</title>
-			<title code="0x37">[Fairly Land Story] BGM</title>
-			<title code="0x38">[Fairly Land Story] Boss</title>
+			<title code="0x36">[Fairyland Story] Intro</title>
+			<title code="0x37">[Fairyland Story] BGM</title>
+			<title code="0x38">[Fairyland Story] Boss</title>
 			<title code="0x05">[Bubble Bobble] Intro</title>
 			<title code="0x10">[Bubble Bobble] BGM</title>
 			<title code="0x12">[Bubble Bobble] Dragon</title>
@@ -1665,13 +1794,13 @@
 		<titlelist>
 			<title code="0x04">Credit</title>
 			<title code="0x19">Broken The Promises [Opening]</title>
-			<title code="0x1A">Aggressive World [Scene 1]</title>
+			<title code="0x1a">Aggressive World [Scene 1]</title>
 			<title code="0x27">Scene Clear</title>
-			<title code="0x1B">Re-In-Carnation [Scene 2]</title>
-			<title code="0x1C">The Devil Boss Carnival [Scene 3 Boss]</title>
-			<title code="0x1D">Final Destroy [Scene 3 Round 6 Boss]</title>
+			<title code="0x1b">Re-In-Carnation [Scene 2]</title>
+			<title code="0x1c">The Devil Boss Carnival [Scene 3 Boss]</title>
+			<title code="0x1d">Final Destroy [Scene 3 Round 6 Boss]</title>
 			<title code="0x20">The Man Of Saga [Ending]</title>
-			<title code="0x1F">Bad Bible [Name Regist]</title>
+			<title code="0x1f">Bad Bible [Name Regist]</title>
 			<title code="0x04">Game Over</title>
 		</titlelist>
 	</game>
@@ -1700,36 +1829,68 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Top Speed] Operation Thunderbolt (オペレーションサンダーボルト) (YM2610)</name>
+		<name>[Operation Thunderbolt] Operation Thunderbolt [オペレーションサンダーボルト]</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="othunder">
-			<rom type="code" offset="0x000000">b67-13.40</rom>
-			<rom type="adpcma" offset="0x00000">b67-08</rom>
-			<rom type="adpcmb" offset="0x00000">b67-07</rom>
+			<rom type="code" offset="0x000000">b67-13.ic40</rom>
+			<rom type="adpcma" offset="0x00000">b67-08.ic67</rom>
+			<rom type="adpcmb" offset="0x00000">b67-07.ic44</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">Demo</title>
-			<title code="0x40">[Voice] Operation Thunderbolt</title>
-			<title code="0x13">Credit</title>
-			<title code="0x08">Mission Start</title>
-			<title code="0x09">Mission 1 Completed</title>
-			<title code="0x0A">Mission 2 Completed</title>
-			<title code="0x0B">Mission 3 Completed</title>
-			<title code="0x0C">Mission 4 Completed</title>
-			<title code="0x0D">Mission 5 Completed</title>
-			<title code="0x0E">Mission 6 Completed</title>
-			<title code="0x0F">Mission 7 Completed</title>
-			<title code="0x10">Mission 8 Completed</title>
-			<title code="0x11">Mission Failed</title>
-			<title code="0x12">End Credit &amp; Name Entry</title>
-			<title code="0x">Credit</title>
+			<title code="0x07">Master of Dragon</title>
+			<title code="0x40">Voice "Operation Thunderbolt"</title>
+			<title code="0x13">Insert Coin</title>
+			<title code="0x08">Welcome to Fighting World!!</title>
+			<title code="0x41">Voice "Operation init..."</title>
+			<title code="0x09">Mission Clear 1</title>
+			<title code="0x0a">Mission Clear 2</title>
+			<title code="0x0b">Mission Clear 3</title>
+			<title code="0x0c">Mission Clear 4</title>
+			<title code="0x0d">Mission Clear 5</title>
+			<title code="0x0e">Mission Clear 6</title>
+			<title code="0x0f">Mission Clear 7</title>
+			<title code="0x10">Mission Clear 8</title>
+			<title code="0x51">Voice "Escape Succesful"</title>
+			<title code="0x55">Voice "Misson Complete..."</title>
+			<title code="0x56">Voice "Now..."</title>
+			<title code="0x57">Voice "Nobody..."</title>
+			<title code="0x12">We Have Fight For Liberty</title>
+			<title code="0x11">Game Over</title>
+			<range min="0x14" max="0x1f" extcode="1">SFX #%02X</range>
+			<range min="0x24" max="0x3f" extcode="1">SFX #%02X</range>
+			<range min="0x62" max="0x65" extcode="1">SFX #%02X</range>
+			<title code="0x42">Voice - Stage 1 Intro</title>
+			<title code="0x43">Voice - Stage 2 Intro</title>
+			<title code="0x44">Voice - Stage 3 Intro</title>
+			<title code="0x45">Voice - Stage 4 Intro</title>
+			<title code="0x46">Voice - Stage 5 Intro</title>
+			<title code="0x47">Voice - Stage 6 Intro</title>
+			<title code="0x48">Voice - Stage 7 Intro</title>
+			<title code="0x49">Voice - Stage 8 Intro</title>
+			<title code="0x4a">Voice - Stage 1 Clear</title>
+			<title code="0x4b">Voice - Stage 2 Clear</title>
+			<title code="0x4c">Voice - Stage 3 Clear</title>
+			<title code="0x4d">Voice - Stage 4 Clear</title>
+			<title code="0x4e">Voice - Stage 5 Clear</title>
+			<title code="0x4f">Voice - Stage 6 Clear</title>
+			<title code="0x50">Voice - Stage 7 Clear</title>
+			<title code="0x53">Voice - Game Over A</title>
+			<title code="0x52">Voice - Game Over B</title>
+			<title code="0x54">Voice - Game Over C</title>
+			<title code="0x58">Voice - Enemy A</title>
+			<title code="0x59">Voice - Enemy B</title>
+			<title code="0x5a">Voice - Enemy C</title>
+			<title code="0x5b">Voice - Enemy D</title>
+			<title code="0x5c">Voice - Hostage A</title>
+			<title code="0x5d">Voice - Hostage B</title>
+			<title code="0x5e">Voice - Hostage C</title>
+			<title code="0x5f">Voice - Hostage D</title>
+			<title code="0x60">Voice - Hostage E</title>
+			<title code="0x61">Voice - Hostage F</title>
+			<title code="0x67">Voice - Hostage G</title>
+			<range min="0x68" max="0x81" extcode="1">ADPCM Sample #%02X</range>
+			<title code="0x66">All ADPCM Data Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1778,12 +1939,12 @@
 			<rom type="adpcmb" offset="0x00000">c32-12.7</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x10">BGM #10</title>
 			<title code="0x11">BGM #11</title>
 			<title code="0x12">BGM #12</title>
@@ -1805,15 +1966,15 @@
 			<title code="0x06">Main Theme 1 [Round 1]</title>
 			<title code="0x08">Boss BGM 1 [Round 1, 2, 3, 4, 5]</title>
 			<title code="0x09">Main Theme 2 [Round 1, 2, 3, 4]</title>
-			<title code="0x0A">Boss BGM 2 [Round 1]</title>
+			<title code="0x0a">Boss BGM 2 [Round 1]</title>
 			<title code="0x14">Round Clear</title>
 			<title code="0x07">Main Theme 3 [Round 2, 3, 4]</title>
-			<title code="0x0B">Boss BGM 3 [Round 2]</title>
-			<title code="0x0C">Boss BGM 4 [Round 3]</title>
-			<title code="0x0D">Boss BGM 5 [Round 4]</title>
+			<title code="0x0b">Boss BGM 3 [Round 2]</title>
+			<title code="0x0c">Boss BGM 4 [Round 3]</title>
+			<title code="0x0d">Boss BGM 5 [Round 4]</title>
 			<title code="0x15">To Continue Game</title>
-			<title code="0x0E">Round 5 BGM 1</title>
-			<title code="0x0F">Round 5 BGM 2</title>
+			<title code="0x0e">Round 5 BGM 1</title>
+			<title code="0x0f">Round 5 BGM 2</title>
 			<title code="0x10">Round 5 BGM 3</title>
 			<title code="0x11">Round 5 BGM 4</title>
 			<title code="0x12">Boss BGM 6 [Round 5]</title>
@@ -1821,12 +1982,12 @@
 			<title code="0x16">Ending</title>
 			<title code="0x17">Name Entry</title>
 			<title code="0x18">Game Over</title>
-			<title code="0xF4">Speaker Test</title>
+			<title code="0xf4">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[X System] Twin Hawk (大旋風) (YM2151)</name>
-		<driver type="daisenpuu">taito</driver>
+		<driver type="daisenpu">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<romlist archive="twinhawk">
 			<rom type="code" offset="0x000000">b87-07.13e</rom>
@@ -1837,7 +1998,7 @@
 			<title code="0x03">BGM 2</title>
 			<title code="0x04">BGM 3</title>
 			<title code="0x05">BGM 4</title>
-			<title code="0x1A">Game Over</title>
+			<title code="0x1a">Game Over</title>
 			<title code="0x18">Name Storage</title>
 			<title code="0x19">Opening Theme (Reprise)</title>
 		</titlelist>
@@ -1854,17 +2015,17 @@
 			<title code="0x07">Desertion [Act 1]</title>
 			<title code="0x08">Brefing [Act 1]</title>
 			<title code="0x09">BGM 1 [Act 2]</title>
-			<title code="0x0A">Boss 1 Cerberus [Act 2]</title>
-			<title code="0x0B">BGM 2 [Act 3, 4]</title>
-			<title code="0x0E">Boss 2 Athene [Act 3, 4]</title>
-			<title code="0x0D">BGM 3 [Act 5-1]</title>
-			<title code="0x0F">BGM 4 [Act 5-2, 6]</title>
+			<title code="0x0a">Boss 1 Cerberus [Act 2]</title>
+			<title code="0x0b">BGM 2 [Act 3, 4]</title>
+			<title code="0x0e">Boss 2 Athene [Act 3, 4]</title>
+			<title code="0x0d">BGM 3 [Act 5-1]</title>
+			<title code="0x0f">BGM 4 [Act 5-2, 6]</title>
 			<title code="0x10">Boss 3 Zeus [Act 5, 6]</title>
 			<title code="0x11">N [Final Boss]</title>
 			<title code="0x12">Bad End</title>
 			<title code="0x13">Ending [Good End]</title>
 			<title code="0x14">Name [Name Entry]</title>
-			<title code="0x0C">Boss Poseidon [Unused]</title>
+			<title code="0x0c">Boss Poseidon [Unused]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1877,10 +2038,10 @@
 			<rom type="adpcmb" offset="0x00000">b81-01.1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2F">Opening</title>
-			<title code="0x2C">-I- The Story [Main Theme]</title>
-			<title code="0x2D">-II- The Trap [Trap]</title>
-			<title code="0x2E">-III- The Battle</title>
+			<title code="0x2f">Opening</title>
+			<title code="0x2c">-I- The Story [Main Theme]</title>
+			<title code="0x2d">-II- The Trap [Trap]</title>
+			<title code="0x2e">-III- The Battle</title>
 			<title code="0x30">Motive [Stage Clear]</title>
 			<title code="0x31">-IV- The Big Swords [Ending]</title>
 			<title code="0x32">Ya-Bu's Dream [Name Entry]</title>
@@ -1890,7 +2051,33 @@
 		<name>[B System] Rambo III (ランボーIII) (YM2610)</name>
 		<driver type="bsystem">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<romlist archive="rambo3p">
+		<romlist archive="rambo3">
+			<rom type="code" offset="0x00000">ramb3-10.bin</rom>
+			<rom type="adpcma" offset="0x00000">ramb3-05.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x05">Title (1)</title>
+			<title code="0x1f">Title (2)</title>
+			<title code="0x24">Title (3)</title>
+			<title code="0x0e">Credit</title>
+			<title code="0x06">Introduction</title>
+			<title code="0x3f">Escape from a Base [Scene 1]</title>
+			<title code="0x0a">Enemy's Area</title>
+			<title code="0x0c">Enemies were Cleared!</title>
+			<title code="0x07">Shooting-Battle [Scene 2]</title>
+			<title code="0x09">Chase [Scene 3]</title>
+			<title code="0x08">Fire in the Dark [Scene 4]</title>
+			<title code="0x0b">All-out Attack [Scene 5]</title>
+			<title code="0x0d">Ending</title>
+			<title code="0x10">Game Over</title>
+			<title code="0x0f">Name Entry</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[B System] Rambo III (EU) (ランボーIII) (YM2610)</name>
+		<driver type="bsystem">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="rambo3">
 			<rom type="code" offset="0x00000">r3-00.rom</rom>
 			<rom type="adpcma" offset="0x00000">r3-a1.rom</rom>
 			<rom type="adpcma" offset="0x20000">r3-a2.rom</rom>
@@ -1899,20 +2086,20 @@
 		</romlist>
 		<titlelist>
 			<title code="0x05">Title (1)</title>
-			<title code="0x1F">Title (2)</title>
+			<title code="0x1f">Title (2)</title>
 			<title code="0x24">Title (3)</title>
-			<title code="0x0E">Credit</title>
+			<title code="0x0e">Credit</title>
 			<title code="0x06">Introduction</title>
-			<title code="0x3F">Escape from a Base [Scene 1]</title>
-			<title code="0x0A">Enemy's Area</title>
-			<title code="0x0C">Enemies were Cleared!</title>
+			<title code="0x3f">Escape from a Base [Scene 1]</title>
+			<title code="0x0a">Enemy's Area</title>
+			<title code="0x0c">Enemies were Cleared!</title>
 			<title code="0x07">Shooting-Battle [Scene 2]</title>
 			<title code="0x09">Chase [Scene 3]</title>
 			<title code="0x08">Fire in the Dark [Scene 4]</title>
-			<title code="0x0B">All-out Attack [Scene 5]</title>
-			<title code="0x0D">Ending</title>
+			<title code="0x0b">All-out Attack [Scene 5]</title>
+			<title code="0x0d">Ending</title>
 			<title code="0x10">Game Over</title>
-			<title code="0x0F">Name Entry</title>
+			<title code="0x0f">Name Entry</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1927,21 +2114,21 @@
 			<title code="0x17">Credit</title>
 			<title code="0x08">Introduction</title>
 			<title code="0x09">Prison Breaking [Round 1]</title>
-			<title code="0x0C">Round 2 Start</title>
-			<title code="0x0D">Bank Robbery [Round 2]</title>
-			<title code="0x0F">Smuggling [Round 3]</title>
+			<title code="0x0c">Round 2 Start</title>
+			<title code="0x0d">Bank Robbery [Round 2]</title>
+			<title code="0x0f">Smuggling [Round 3]</title>
 			<title code="0x11">Kidnapping (1) [Round 4]</title>
 			<title code="0x12">Kidnapping (2) [Round 5]</title>
 			<title code="0x13">Kidnapping (3) [Round 6]</title>
-			<title code="0x0A">Boss [Round 1, 3, 4, 6]</title>
+			<title code="0x0a">Boss [Round 1, 3, 4, 6]</title>
 			<title code="0x14">Round Clear</title>
 			<title code="0x15">Ending</title>
 			<title code="0x16">Name Entry</title>
-			<title code="0x0E">Round 2 Start</title>
+			<title code="0x0e">Round 2 Start</title>
 			<title code="0x40">Round 2, 3 (Ver.2)</title>
-			<title code="0x3E">Unused 1</title>
-			<title code="0x3F">Unused 2</title>
-			<title code="0xF4">Speaker Test</title>
+			<title code="0x3e">Unused 1</title>
+			<title code="0x3f">Unused 2</title>
+			<title code="0xf4">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1958,19 +2145,19 @@
 		</romlist>
 		<titlelist>
 			<title code="0x07">Title Screen</title>
-			<title code="0x0F">Credit</title>
+			<title code="0x0f">Credit</title>
 			<title code="0x11">Character Select</title>
 			<title code="0x08">Theme 1</title>
-			<title code="0x0A">Theme 2</title>
+			<title code="0x0a">Theme 2</title>
 			<title code="0x09">Theme 3</title>
-			<title code="0x0B">Winner</title>
-			<title code="0x0C">Bonus</title>
-			<title code="0x0E">Bonus Stage</title>
-			<title code="0x0D">Ending</title>
-			<title code="0x4D">Name Entry</title>
+			<title code="0x0b">Winner</title>
+			<title code="0x0c">Bonus</title>
+			<title code="0x0e">Bonus Stage</title>
+			<title code="0x0d">Ending</title>
+			<title code="0x4d">Name Entry</title>
 			<title code="0x10">Game Over</title>
-			<title code="0x3E">Theme 1 (Ver.2)</title>
-			<title code="0x4E">Theme 2 (Ver.2)</title>
+			<title code="0x3e">Theme 1 (Ver.2)</title>
+			<title code="0x4e">Theme 2 (Ver.2)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1982,8 +2169,8 @@
 			<rom type="adpcma" offset="0x00000">c43-01</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1C">Title Screen</title>
-			<title code="0x1D">Credit</title>
+			<title code="0x1c">Title Screen</title>
+			<title code="0x1d">Credit</title>
 			<title code="0x22">Take Off!</title>
 			<title code="0x24">Stage 1 Music</title>
 			<title code="0x25">Stage 2 Music</title>
@@ -1991,14 +2178,14 @@
 			<title code="0x27">Stage 4 Music</title>
 			<title code="0x28">Stage 5 Music</title>
 			<title code="0x29">Stage 6 Music</title>
-			<title code="0x2B">Boss Music</title>
-			<title code="0x2C">Stage Clear</title>
-			<title code="0x2D">Game Over</title>
-			<title code="0x2A">Unknown</title>
+			<title code="0x2b">Boss Music</title>
+			<title code="0x2c">Stage Clear</title>
+			<title code="0x2d">Game Over</title>
+			<title code="0x2a">Unknown</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[B System] Hit The Ice (ヒット・ジ・アイス) (YM2203+MSM6295)</name>
+		<name>[B System] Hit the Ice (ヒット・ジ・アイス) (YM2203+MSM6295)</name>
 		<driver type="viofight">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
@@ -2012,22 +2199,22 @@
 		<titlelist>
 			<title code="0x07">Title Screen</title>
 			<title code="0x08">Character Select</title>
-			<title code="0x0F">1st Period: Locker Room</title>
+			<title code="0x0f">1st Period: Locker Room</title>
 			<title code="0x16">1st Period: Start</title>
 			<title code="0x13">Face Off</title>
 			<title code="0x10">2nd, 3rd Period: Locker Room</title>
 			<title code="0x11">2nd, 3rd Period: Start</title>
 			<title code="0x15">Fight 1</title>
-			<title code="0x0D">Fight 2</title>
-			<title code="0x0E">Name Entry</title>
+			<title code="0x0d">Fight 2</title>
+			<title code="0x0e">Name Entry</title>
 			<title code="0x12">Game Over</title>
 			<title code="0x09">Character Select (w/o intro)</title>
-			<title code="0x0B">Unused 1</title>
-			<title code="0x0C">Unused 1 (w/o intro)</title>
-			<title code="0x17">Unused 2</title>
-			<title code="0x2D">Unused 2 (w/o intro)</title>
-			<title code="0x14">Unused 3</title>
-			<title code="0x0A">Unused 4</title>
+			<title code="0x0b">Unused #01</title>
+			<title code="0x0c">Unused #01 (w/o intro)</title>
+			<title code="0x17">Unused #02</title>
+			<title code="0x2d">Unused #02 (w/o intro)</title>
+			<title code="0x14">Unused #03</title>
+			<title code="0x0a">Unused #04</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2046,17 +2233,17 @@
 			<title code="0x03">BGM 2 [Stage 4 to 8, 24 to 28, 44 to 48]</title>
 			<title code="0x06">BGM 3 [Stage 14 to 18, 34 to 38]</title>
 			<title code="0x07">Stage Clear 2</title>
-			<title code="0x0E">Bonus Game</title>
+			<title code="0x0e">Bonus Game</title>
 			<title code="0x04">BGM 4 [Stage 9 to 13, 19 to 23, 29 to 33, 49]</title>
-			<title code="0x0D">Last Boss [Stage 50]</title>
+			<title code="0x0d">Last Boss [Stage 50]</title>
 			<title code="0x17">Ending</title>
-			<title code="0x0B">Name Entry</title>
+			<title code="0x0b">Name Entry</title>
 			<title code="0x02">Game Over</title>
-			<title code="0x08">Unused Music 1</title>
-			<title code="0x0C">Unused Music 2</title>
-			<title code="0x15">Unused Music 3</title>
-			<title code="0x16">Unused Music 4</title>
-			<title code="0x0F">Speaker Test</title>
+			<title code="0x08">Unused #01</title>
+			<title code="0x0c">Unused #02</title>
+			<title code="0x15">Unused #03</title>
+			<title code="0x16">Unused #04</title>
+			<title code="0x0f">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2069,16 +2256,16 @@
 			<rom type="adpcma" offset="0x00000">east-01.ic1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0D">Opening Demo</title>
+			<title code="0x0d">Opening Demo</title>
 			<title code="0x16">Player Select</title>
 			<title code="0x03">Stage 1</title>
-			<title code="0x0C">Boss</title>
+			<title code="0x0c">Boss</title>
 			<title code="0x15">Stage Clear</title>
 			<title code="0x02">Stage 2</title>
 			<title code="0x04">Stage 3</title>
 			<title code="0x05">Stage 4</title>
-			<title code="0x0B">Stage 5</title>
-			<title code="0x0F">Last Boss</title>
+			<title code="0x0b">Stage 5</title>
+			<title code="0x0f">Last Boss</title>
 			<title code="0x17">Ending - Credits Roll</title>
 			<title code="0x01">Game Over</title>
 		</titlelist>
@@ -2093,30 +2280,30 @@
 		</romlist>
 		<titlelist>
 			<title code="0x03">Demonstration</title>
-			<title code="0xDC">[SFX] Title 1</title>
-			<title code="0xDD">[SFX] Title 2</title>
-			<title code="0xE8">[Voice] Credit Inserted</title>
+			<title code="0xdc">[SFX] Title 1</title>
+			<title code="0xdd">[SFX] Title 2</title>
+			<title code="0xe8">[Voice] Credit Inserted</title>
 			<title code="0x18">Player Select</title>
 			<title code="0x02">Stage 1</title>
-			<title code="0x0D">Stage 2</title>
+			<title code="0x0d">Stage 2</title>
 			<title code="0x04">Stage 3</title>
-			<title code="0x0B">Boss 1 [Stage 1, 4, 6]</title>
+			<title code="0x0b">Boss 1 [Stage 1, 4, 6]</title>
 			<title code="0x06">Stage Clear</title>
-			<title code="0x1E">Next Stage</title>
-			<title code="0x0F">Stage 4</title>
-			<title code="0x0E">Stage 5 [Stage 2 Part 2]</title>
+			<title code="0x1e">Next Stage</title>
+			<title code="0x0f">Stage 4</title>
+			<title code="0x0e">Stage 5 [Stage 2 Part 2]</title>
 			<title code="0x17">Stage 6</title>
 			<title code="0x01">Boss 2 [Stage 1, 2, 3, 4, 5, 6]</title>
 			<title code="0x06">Congratulations</title>
 			<title code="0x19">Ending</title>
 			<title code="0x16">Game Over</title>
-			<title code="0x1A">Unused 1</title>
-			<title code="0x1F">Unused 2</title>
+			<title code="0x1a">Unused 1</title>
+			<title code="0x1f">Unused 2</title>
 			<title code="0x15">Unused 3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[B System] Quiz Sekai wa Show by Shobai (クイズ世界はSHOW by ショーバイ！！) (YM2610)</name>
+		<name>[B System] Quiz Sekai wa Show by Shobai!! (クイズ世界はSHOW by ショーバイ!!) (YM2610)</name>
 		<driver type="bsystem">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<romlist archive="qzshowby">
@@ -2278,6 +2465,27 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[B System] Real Puncher (YM2203)</name>
+		<driver type="sonicb">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="realpunc">
+			<rom offset="0x000000" type="code">d76_06.106</rom>
+			<rom offset="0x000000" type="adpcm">d76_01.93</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x09">アトラクトデモ</title>
+			<title code="0x37">クレジット</title>
+			<title code="0x11">奇妙なロボットのテーマ</title>
+			<title code="0x12">大怪獣ガメコンのテーマ</title>
+			<title code="0x13">アンドロイドのテーマ</title>
+			<title code="0x0a">ターゲットセレクト</title>
+			<title code="0x0c">成功のテーマ</title>
+			<title code="0x0d">失敗のテーマ</title>
+			<title code="0x0e">結果のテーマ</title>
+			<title code="0x0b">CD未収録曲(ソニックブラストマンより未使用 2)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[B System] Space Invaders DX (スペースインベーダーDX) (YM2610)</name>
 		<driver type="bsystem">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
@@ -2290,8 +2498,8 @@
 			<title code="0x36">Credit Inserted</title>
 			<title code="0x38">Select Play Mode</title>
 			<title code="0x39">VS Mode</title>
-			<title code="0x3B">Win</title>
-			<title code="0x3A">Unused</title>
+			<title code="0x3b">Win</title>
+			<title code="0x3a">Unused</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2300,16 +2508,53 @@
 		<driveralias type="Arcade">Taito</driveralias>
 		<romlist archive="sbm">
 			<rom type="code" offset="0x00000">c69-23.28</rom>
-			<rom type="adpcma" offset="0x00000">c69-03.36</rom>
+			<rom type="adpcm" offset="0x00000">c69-03.36</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1E">Theme of Super Sonic Blast Man [Attract Mode]</title>
-			<title code="0x1F">Target Select</title>
-			<title code="0x21">Successful</title>
-			<title code="0x22">Failure</title>
-			<title code="0x24">Result</title>
-			<title code="0x20">Unused 1</title>
-			<title code="0x23">Unused 2</title>
+			<title code="0x1e">Attract Demo (アトラクトデモ)</title>
+			<title code="0x2c">Credit (クレジット)</title>
+			<title code="0x1f">Target Select (ターゲットセレクト)</title>
+			<title code="0x21">Success (成功のテーマ)</title>
+			<title code="0x22">Failure (失敗のテーマ)</title>
+			<title code="0x24">Results (結果のテーマ)</title>
+			<title code="0x20">Unused 1 (未使用 1)</title>
+			<title code="0x23">Unused 2 (未使用 2)</title>
+			<title code="0x35">Unused 3 (未使用 3)</title>
+			<title code="0x36">Unused 4 (未使用 4)</title>
+			<title code="0x25">Voice "地球の平和を守るため…"</title>
+			<title code="0x26">Voice "スーパーソニックブラストマン!"</title>
+			<title code="0x27">Voice "だが!　ヒーローに休息は無い"</title>
+			<title code="0x28">Voice "戦え!愛と正義のために!"</title>
+			<title code="0x29">Voice "私のパンチを受けてみろ!"</title>
+			<title code="0x2a">Voice "とぅあ!"</title>
+			<title code="0x2b">Voice "きゃぁ~っ!たすけてぇ!"</title>
+			<title code="0x2d">Voice "とぅあぁっ!(リバーブ入り)"</title>
+			<title code="0x2e">Voice "えぁーーー"</title>
+			<title code="0x09">Voice "うわっはっは"</title>
+			<title code="0x0a">Voice "でぅぁ!"</title>
+			<title code="0x0d">SFX "パンチ１"</title>
+			<title code="0x16">SFX "パンチ２"</title>
+			<title code="0x2f">SFX "パンチ３"</title>
+			<title code="0x10">SFX "パンチ４"</title>
+			<title code="0x0e">SFX "破壊音"</title>
+			<title code="0x12">SFX "怪獣1"</title>
+			<title code="0x14">SFX "怪獣2"</title>
+			<title code="0x0c">SFX "トレーラー"</title>
+			<title code="0x0b">SFX #0B</title>
+			<title code="0x0f">SFX #0F</title>
+			<title code="0x11">SFX #11</title>
+			<title code="0x17">SFX #17</title>
+			<title code="0x18">SFX #18</title>
+			<title code="0x19">SFX #19</title>
+			<title code="0x1a">SFX #1A</title>
+			<title code="0x1b">SFX #1B</title>
+			<title code="0x1c">SFX #1C</title>
+			<title code="0x30">SFX #30</title>
+			<title code="0x31">SFX #31</title>
+			<title code="0x32">SFX #32</title>
+			<title code="0x37">SFX #37</title>
+			<title code="0x38">SFX #38</title>
+			<title code="0x39">SFX #39</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2328,26 +2573,26 @@
 		</romlist>
 		<titlelist>
 			<title code="0x17">Credit</title>
-			<title code="0x0F">Story</title>
+			<title code="0x0f">Story</title>
 			<title code="0x58">Hell Map Preview</title>
 			<title code="0x09">Round 1: Dilapidated Backyard Cemetary</title>
 			<title code="0x16">Invincible</title>
 			<title code="0x10">Round Clear</title>
-			<title code="0x0E">Welcome to the Underworld</title>
-			<title code="0x0A">Round 2: The Dead-or-Alive River</title>
-			<title code="0x0B">Round 3: Burning Inferno</title>
+			<title code="0x0e">Welcome to the Underworld</title>
+			<title code="0x0a">Round 2: The Dead-or-Alive River</title>
+			<title code="0x0b">Round 3: Burning Inferno</title>
 			<title code="0x29">[Voice] Shouts of the Deads</title>
-			<title code="0x0D">Boss</title>
+			<title code="0x0d">Boss</title>
 			<title code="0x56">Round 4: Bloody Pond</title>
 			<title code="0x15">Continue?</title>
-			<title code="0x0A">Round 5: Glacier Trap</title>
-			<title code="0x0B">Round 6: Lose-Your-Way Maze</title>
-			<title code="0x0C">Round 7: Emma's Lair</title>
+			<title code="0x0a">Round 5: Glacier Trap</title>
+			<title code="0x0b">Round 6: Lose-Your-Way Maze</title>
+			<title code="0x0c">Round 7: Emma's Lair</title>
 			<title code="0x44">[SFX] Emma appearing</title>
-			<title code="0x0D">Emma's Hall</title>
+			<title code="0x0d">Emma's Hall</title>
 			<title code="0x48">[SFX] Transforming</title>
-			<title code="0x0D">Dragon and Foo</title>
-			<title code="0x4B">[Voice] Last agony</title>
+			<title code="0x0d">Dragon and Foo</title>
+			<title code="0x4b">[Voice] Last agony</title>
 			<title code="0x12">Ending</title>
 			<title code="0x14">Game Over</title>
 			<title code="0x13">Name Entry</title>
@@ -2365,15 +2610,15 @@
 		<titlelist>
 			<title code="0x13">Credit</title>
 			<title code="0x07">Round 1 - Current City</title>
-			<title code="0x0F">Boss</title>
+			<title code="0x0f">Boss</title>
 			<title code="0x06">Boss Destroyed</title>
-			<title code="0x0E">Bonus Stage - Warp Space</title>
-			<title code="0x0B">Round 2 - Primitive Age</title>
-			<title code="0x0A">Round 3 - Early Egypt</title>
-			<title code="0x0E">Round 4 - World War II</title>
+			<title code="0x0e">Bonus Stage - Warp Space</title>
+			<title code="0x0b">Round 2 - Primitive Age</title>
+			<title code="0x0a">Round 3 - Early Egypt</title>
+			<title code="0x0e">Round 4 - World War II</title>
 			<title code="0x07">Ending</title>
-			<title code="0x0C">Unused 1</title>
-			<title code="0x0D">Unused 2</title>
+			<title code="0x0c">Unused 1</title>
+			<title code="0x0d">Unused 2</title>
 			<title code="0x09">Unused 3</title>
 			<title code="0x08">Unused 4</title>
 			<title code="0x04">Unused 5</title>
@@ -2389,23 +2634,23 @@
 			<rom type="pcm" offset="0x00000">c17-06.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1C">Credit</title>
-			<title code="0x0B">Demo</title>
+			<title code="0x1c">Credit</title>
+			<title code="0x0b">Demo</title>
 			<title code="0x06">Shop</title>
-			<title code="0x0C">Intro</title>
+			<title code="0x0c">Intro</title>
 			<title code="0x04">Stage 1</title>
 			<title code="0x05">Stage 2</title>
-			<title code="0x0D">Crash!</title>
+			<title code="0x0d">Crash!</title>
 			<title code="0x12">Continue</title>
 			<title code="0x08">Stage 4</title>
 			<title code="0x09">Stage 5</title>
-			<title code="0x0A">Stage 3, 6</title>
+			<title code="0x0a">Stage 3, 6</title>
 			<title code="0x39">Congratulations!!</title>
 			<title code="0x11">Ending</title>
 			<title code="0x13">Name Entry</title>
-			<title code="0x0E">Game Over</title>
+			<title code="0x0e">Game Over</title>
 			<title code="0x07">Unused 1</title>
-			<title code="0x0F">Unused 2</title>
+			<title code="0x0f">Unused 2</title>
 			<title code="0x10">Unused 3</title>
 		</titlelist>
 	</game>
@@ -2418,23 +2663,23 @@
 		</romlist>
 		<titlelist>
 			<title code="0x03">Prologue "Forefeel"</title>
-			<title code="0x1A">Credit</title>
+			<title code="0x1a">Credit</title>
 			<title code="0x04">Guided by a Conductor.. [Name Select]</title>
 			<title code="0x05">Door between Ordinary and Disordinary [Town and Village Scene]</title>
 			<title code="0x09">Beginning of the Battle [Rocks Scene]</title>
-			<title code="0x0E">Relentless Attack [Boss]</title>
+			<title code="0x0e">Relentless Attack [Boss]</title>
 			<title code="0x12">Level Up</title>
 			<title code="0x17">Morning Has Come</title>
-			<title code="0x0A">Bellville Vibraphone [Bricks and Water Scene]</title>
+			<title code="0x0a">Bellville Vibraphone [Bricks and Water Scene]</title>
 			<title code="0x15">Got an Item</title>
 			<title code="0x18">Underground Cave</title>
 			<title code="0x06">Shaded Figure [Forest Scene]</title>
-			<title code="0x0B">Suck the Lifebood to Live [Plants Scene]</title>
-			<title code="0x0C">Where are you skating to? [Ice Scene]</title>
+			<title code="0x0b">Suck the Lifebood to Live [Plants Scene]</title>
+			<title code="0x0c">Where are you skating to? [Ice Scene]</title>
 			<title code="0x08">Kids are afraid of thunder [Thunderstrom Scene]</title>
-			<title code="0x0D">Chortle with Insanity [Skelton and Flame Scene]</title>
+			<title code="0x0d">Chortle with Insanity [Skelton and Flame Scene]</title>
 			<title code="0x16">Whistle</title>
-			<title code="0x0F">Infltration [Castle of Baarogue]</title>
+			<title code="0x0f">Infltration [Castle of Baarogue]</title>
 			<title code="0x10">Last Drop of Blood [Fight against Baarogue]</title>
 			<title code="0x11">Fanfare</title>
 			<title code="0x13">Ending</title>
@@ -2447,28 +2692,31 @@
 		<name>[F2 System] Final Blow (ファイナルブロー) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="finalb">
 			<rom type="code" offset="0x00000">b82_10.16</rom>
 			<rom type="adpcma" offset="0x000000">b82-02.1</rom>
 			<rom type="adpcmb" offset="0x000000">b82-01.2</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x00">演奏停止</title>
 			<title code="0x11">Title</title>
 			<title code="0x65">Credit</title>
-			<title code="0x0A">Select Boxer</title>
-			<title code="0x0B">Winner</title>
-			<title code="0x09">Next Boxer</title>
-			<title code="0x0D">New Champion</title>
-			<title code="0x0E">Credits Roll</title>
+			<title code="0x0a">Fighter Select</title>
+			<title code="0x09">Match Information</title>
+			<title code="0x0d">New Champion</title>
+			<title code="0x0e">Ending</title>
+			<title code="0x0c">Lose (Game Over)</title>
 			<title code="0x10">Name Entry</title>
-			<title code="0x0C">Game Over</title>
-			<title code="0xF4">Speaker Check</title>
+			<title code="0x0b">Unused</title>
+			<title code="0xf4">Speaker Check</title>
+			<range min="0x12" max="0x2e" extcode="0">Voice #%02X</range>
+			<range min="0x3b" max="0x4a" extcode="0">Voice #%02X</range>
+			<range min="0x4f" max="0x55" extcode="0">Voice #%02X</range>
+			<range min="0x59" max="0x62" extcode="0">Voice #%02X</range>
+			<range min="0x2f" max="0x3a" extcode="0">SFX #%02X</range>
+			<range min="0x56" max="0x58" extcode="0">SFX #%02X</range>
+			<range min="0x63" max="0x64" extcode="0">SFX #%02X</range>
+			<range min="0x66" max="0x72" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2487,20 +2735,20 @@
 			<rom type="adpcmb" offset="0x000000">c11-02.30</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1A">Notice Screen</title>
+			<title code="0x1a">Notice Screen</title>
 			<title code="0x19">Title</title>
 			<title code="0x14">Prologue - from Fantaisie Impromptu by Chopin</title>
-			<title code="0x2D">Credit</title>
+			<title code="0x2d">Credit</title>
 			<title code="0x11">Round Select</title>
 			<title code="0x09">Round 1</title>
-			<title code="0x0E">Round 2</title>
-			<title code="0x0B">Round 3</title>
-			<title code="0x0C">Round 4</title>
-			<title code="0x0D">Round 5</title>
-			<title code="0x0A">Round 6</title>
-			<title code="0x0F">Round 7</title>
+			<title code="0x0e">Round 2</title>
+			<title code="0x0b">Round 3</title>
+			<title code="0x0c">Round 4</title>
+			<title code="0x0d">Round 5</title>
+			<title code="0x0a">Round 6</title>
+			<title code="0x0f">Round 7</title>
 			<title code="0x10">Round 8 (Final Round)</title>
-			<title code="0x1E">Emergency!</title>
+			<title code="0x1e">Emergency!</title>
 			<title code="0x12">Boss</title>
 			<title code="0x13">Round Clear</title>
 			<title code="0x17">Ending - from Ode an die Freude by Beethoven</title>
@@ -2526,18 +2774,18 @@
 			<title code="0x17">Credit</title>
 			<title code="0x16">Intro Story</title>
 			<title code="0x09">Which Rikshaw Do You Ride in?</title>
-			<title code="0x0A">Theme of Kuizu 1</title>
-			<title code="0x2A">[Voice] teehendaa! teehendaa!</title>
-			<title code="0x0F">Accident (Bonus Game 1)</title>
-			<title code="0x0B">Bandit Appearing</title>
+			<title code="0x0a">Theme of Kuizu 1</title>
+			<title code="0x2a">[Voice] teehendaa! teehendaa!</title>
+			<title code="0x0f">Accident (Bonus Game 1)</title>
+			<title code="0x0b">Bandit Appearing</title>
 			<title code="0x24">Theme of Bandit 1</title>
-			<title code="0x0C">Theme of Bandit 2</title>
+			<title code="0x0c">Theme of Bandit 2</title>
 			<title code="0x29">[Voice] ototoi kiyagarettendee!</title>
-			<title code="0x0D">Punished a Bandit</title>
-			<title code="0x0E">Choose Shirine Gate You Like (Bonus Game 2)</title>
+			<title code="0x0d">Punished a Bandit</title>
+			<title code="0x0e">Choose Shirine Gate You Like (Bonus Game 2)</title>
 			<title code="0x10">Golden Town</title>
 			<title code="0x11">Theme of Kuizu 2</title>
-			<title code="0x2B">[Voice] arigatee</title>
+			<title code="0x2b">[Voice] arigatee</title>
 			<title code="0x12">Liberated Wayfarers</title>
 			<title code="0x13">Ending - Credits Roll</title>
 			<title code="0x15">Name Entry</title>
@@ -2550,7 +2798,7 @@
 			<title code="0x36">Credits Roll Part 7</title>
 			<title code="0x37">Credits Roll Part 8</title>
 			<title code="0x38">Credits Roll Part 9</title>
-			<title code="0xF4">Speaker Test</title>
+			<title code="0xf4">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2568,19 +2816,19 @@
 			<rom type="adpcma" offset="0x000000">c49-04.ic33</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1D">Credit</title>
+			<title code="0x1d">Credit</title>
 			<title code="0x08">Tiny Fanfare [Title]</title>
 			<title code="0x09">Wanna Ride on a Pelican! [Game Start]</title>
-			<title code="0x0A">Let's get on! We're friends!! [Round 1]</title>
-			<title code="0x0C">Waltz of Water and Bubble [Round 2]</title>
-			<title code="0x1A">Hurry Up</title>
+			<title code="0x0a">Let's get on! We're friends!! [Round 1]</title>
+			<title code="0x0c">Waltz of Water and Bubble [Round 2]</title>
+			<title code="0x1a">Hurry Up</title>
 			<title code="0x16">Round Clear</title>
-			<title code="0x0B">Toy Panic [Round 3]</title>
-			<title code="0x0D">Viva! Sphinx [Round 4]</title>
+			<title code="0x0b">Toy Panic [Round 3]</title>
+			<title code="0x0d">Viva! Sphinx [Round 4]</title>
 			<title code="0x12">Bogey Man [Boss]</title>
-			<title code="0x0E">Under the Big Tree [Round 5]</title>
+			<title code="0x0e">Under the Big Tree [Round 5]</title>
 			<title code="0x19">Map Preview</title>
-			<title code="0x0F">Marionette on the Clouds [Round 6]</title>
+			<title code="0x0f">Marionette on the Clouds [Round 6]</title>
 			<title code="0x10">Bridge [Bridge between Round 6 and 7]</title>
 			<title code="0x11">Labyrinth [Round 7]</title>
 			<title code="0x13">He must be tougher than Beethoven [Last Boss]</title>
@@ -2589,11 +2837,11 @@
 			<title code="0x18">Serenade of the Toy Land [Name Entry]</title>
 			<title code="0x17">Chan Chan Chan [Game Over]</title>
 			<title code="0x58">So Long</title>
-			<title code="0x4C">Round 1 - w/o intro</title>
+			<title code="0x4c">Round 1 - w/o intro</title>
 			<title code="0x45">Round 2 - w/o intro</title>
 			<title code="0x42">Round 3 - w/o intro</title>
 			<title code="0x50">Round 4 - w/o intro</title>
-			<title code="0x4A">Round 5 - w/o intro</title>
+			<title code="0x4a">Round 5 - w/o intro</title>
 			<title code="0x51">Round 6 - w/o intro</title>
 			<title code="0x48">Hurry Up - w/o intro</title>
 			<title code="0x49">Boss - w/o intro</title>
@@ -2619,22 +2867,22 @@
 			<title code="0x15">Com</title>
 			<title code="0x08">Target Info</title>
 			<title code="0x09">Map Preview</title>
-			<title code="0x0A">Idaho (from Chase H.Q)</title>
-			<title code="0x0C">Gas Station, Casino</title>
-			<title code="0x0B">Special Refuel - Boss Battle</title>
-			<title code="0x0E">Capture</title>
-			<title code="0x0D">Target Practice</title>
-			<title code="0x0F">Rescue Nancy</title>
+			<title code="0x0a">Idaho (from Chase H.Q)</title>
+			<title code="0x0c">Gas Station, Casino</title>
+			<title code="0x0b">Special Refuel - Boss Battle</title>
+			<title code="0x0e">Capture</title>
+			<title code="0x0d">Target Practice</title>
+			<title code="0x0f">Rescue Nancy</title>
 			<title code="0x10">Ending</title>
 			<title code="0x13">Credits</title>
 			<title code="0x12">Name Entry</title>
 			<title code="0x11">Game Over</title>
 			<title code="0x23">Rescue Nancy Ver.2</title>
-			<title code="0xF2">Speaker Test</title>
+			<title code="0xf2">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[F2 System] Super Space Invaders '91 (MJ-12 ＜マジェスティックトゥエルブ＞) (YM2610)</name>
+		<name>[F2 System] Super Space Invaders '91 (マジェスティックトゥエルブ) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
@@ -2648,29 +2896,29 @@
 			<rom type="adpcma" offset="0x000000">c64-02.2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2B">[SFX] Stand By</title>
-			<title code="0x0A">Demo</title>
+			<title code="0x2b">[SFX] Stand By</title>
+			<title code="0x0a">Demo</title>
 			<title code="0x32">[SFX] Credit</title>
 			<title code="0x77">[SFX] Warning</title>
-			<title code="0x5D">[SFX] Invaders Moving 1 [Round 1-3, 20-22, 27-32]</title>
-			<title code="0x5E">[SFX] Invaders Moving 2 [Round 1-3, 20-22, 27-32]</title>
-			<title code="0x5F">[SFX] Invaders Moving 3 [Round 1-3, 20-22, 27-32]</title>
+			<title code="0x5d">[SFX] Invaders Moving 1 [Round 1-3, 20-22, 27-32]</title>
+			<title code="0x5e">[SFX] Invaders Moving 2 [Round 1-3, 20-22, 27-32]</title>
+			<title code="0x5f">[SFX] Invaders Moving 3 [Round 1-3, 20-22, 27-32]</title>
 			<title code="0x60">[SFX] Invaders Moving 4 [Round 1-3, 20-22, 27-32]</title>
 			<title code="0x61">[SFX] Invaders Moving 5 [Round 1-3, 20-22, 27-32]</title>
 			<title code="0x62">[SFX] Invaders Moving 6 [Round 1-3, 20-22, 27-32]</title>
-			<title code="0x0E">BGM 1 [Round 4-6]</title>
+			<title code="0x0e">BGM 1 [Round 4-6]</title>
 			<title code="0x11">Cattle Mutilation [Round 7, 26]</title>
-			<title code="0x0D">BGM 2 [Round 12-14]</title>
-			<title code="0x7B">Boss 1 [Round 11, 15, 19] - Intro</title>
+			<title code="0x0d">BGM 2 [Round 12-14]</title>
+			<title code="0x7b">Boss 1 [Round 11, 15, 19] - Intro</title>
 			<title code="0x53">Boss 1 [Round 11, 15, 19]</title>
 			<title code="0x38">[SFX] Invaders Moving 7 [Round 8-10, 16-18]</title>
 			<title code="0x39">[SFX] Invaders Moving 8 [Round 8-10, 16-18]</title>
-			<title code="0x3A">[SFX] Invaders Moving 9 [Round 8-10, 16-18]</title>
-			<title code="0x3B">[SFX] Invaders Moving 10 [Round 8-10, 16-18]</title>
-			<title code="0x4A">[SFX] Invaders Moving 11 [Round 8-10, 16-18]</title>
-			<title code="0x4B">[SFX] Invaders Moving 12 [Round 8-10, 16-18]</title>
-			<title code="0x0C">BGM 3 [Round 23-25]</title>
-			<title code="0x0F">BGM 4 [Round 33-38]</title>
+			<title code="0x3a">[SFX] Invaders Moving 9 [Round 8-10, 16-18]</title>
+			<title code="0x3b">[SFX] Invaders Moving 10 [Round 8-10, 16-18]</title>
+			<title code="0x4a">[SFX] Invaders Moving 11 [Round 8-10, 16-18]</title>
+			<title code="0x4b">[SFX] Invaders Moving 12 [Round 8-10, 16-18]</title>
+			<title code="0x0c">BGM 3 [Round 23-25]</title>
+			<title code="0x0f">BGM 4 [Round 33-38]</title>
 			<title code="0x81">Boss 2 [Round 39] - Intro</title>
 			<title code="0x54">Boss 2 [Round 39]</title>
 			<title code="0x14">BGM 5 [Round 40-42]</title>
@@ -2678,19 +2926,19 @@
 			<title code="0x15">Ending</title>
 			<title code="0x16">Credits</title>
 			<title code="0x18">Name Entry</title>
-			<title code="0x3C">Zone Select 1 (JP Ver.)</title>
+			<title code="0x3c">Zone Select 1 (JP Ver.)</title>
 			<title code="0x13">Zone Select 2 (JP Ver.)</title>
-			<title code="0x0B">BGM 1 Part 2</title>
+			<title code="0x0b">BGM 1 Part 2</title>
 			<title code="0x17">BGM 4 Part 2</title>
 			<title code="0x66">Boss 3 - Part 2</title>
 			<title code="0x67">Boss 3 - Part 3</title>
 			<title code="0x10">Unused 1</title>
 			<title code="0x12">Unused 2</title>
-			<title code="0xF2">Speaker Test</title>
+			<title code="0xf2">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[F2 System] Gun and Frontier (ガンフロンティア) (YM2610)</name>
+		<name>[F2 System] Gun &amp; Frontier (ガンフロンティア) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
@@ -2705,28 +2953,28 @@
 		</romlist>
 		<titlelist>
 			<title code="0x34">Red &amp; Yellow [Attract Mode]</title>
-			<title code="0x3D">Credit</title>
+			<title code="0x3d">Credit</title>
 			<title code="0x09">[SFX] Take Off</title>
 			<title code="0x37">Desert Mountain Storm [BGM 1]</title>
-			<title code="0x3B">Welcome to Heaven [Boss]</title>
-			<title code="0x3E">In the Sky [BGM 5 &amp; 6]</title>
+			<title code="0x3b">Welcome to Heaven [Boss]</title>
+			<title code="0x3e">In the Sky [BGM 5 &amp; 6]</title>
 			<title code="0x38">Ka.Ra.Me.Te [BGM 3]</title>
 			<title code="0x42">Moai [Bad Ending]</title>
 			<title code="0x26">[SFX] Wind</title>
-			<title code="0x3A">To the Wildness [BGM 4]</title>
-			<title code="0x3F">Yunfore [BGM 7]</title>
+			<title code="0x3a">To the Wildness [BGM 4]</title>
+			<title code="0x3f">Yunfore [BGM 7]</title>
 			<title code="0x40">Maspy [Last Boss]</title>
-			<title code="0x3E">Overcast [Good Ending - Former Part]</title>
+			<title code="0x3e">Overcast [Good Ending - Former Part]</title>
 			<title code="0x41">Overcast [Good Ending - Later Part]</title>
 			<title code="0x43">Unprost [Name Regist]</title>
 			<title code="0x39">Ka.Ra.Me.Te [BGM 3] - w/o intro</title>
 			<title code="0x22">Title Screen</title>
-			<title code="0x3C">Unused</title>
-			<title code="0xF1">[PSG] Test Tone</title>
-			<title code="0xF2">[FM] Test Tone</title>
-			<title code="0xF3">[PCM] Test Tone</title>
-			<title code="0xF5">[PSG] Test Tone</title>
-			<title code="0xF6">[PSG] Test Tone</title>
+			<title code="0x3c">Unused</title>
+			<title code="0xf1">[PSG] Test Tone</title>
+			<title code="0xf2">[FM] Test Tone</title>
+			<title code="0xf3">[PCM] Test Tone</title>
+			<title code="0xf5">[PSG] Test Tone</title>
+			<title code="0xf6">[PSG] Test Tone</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2788,23 +3036,23 @@
 			<title code="0x06">Furi Tenisu Kouen no Joukamachi</title>
 			<title code="0x07">Nonki de Genki na Mura no Min</title>
 			<title code="0x08">Shinden no Aru Machi ~Norowa Re Shi Hitobito~</title>
-			<title code="0x0A">Setsugen wo Iku</title>
+			<title code="0x0a">Setsugen wo Iku</title>
 			<title code="0x28">Hokkai wo Tobu ~Hishou, Kiyoshi Suzume shi~</title>
-			<title code="0x0D">Seichi, Suzume Ryuu no Hoko ra</title>
-			<title code="0x0F">Ma Theme ~Tenkuu ni Ukabu Yougan Jou~</title>
+			<title code="0x0d">Seichi, Suzume Ryuu no Hoko ra</title>
+			<title code="0x0f">Ma Theme ~Tenkuu ni Ukabu Yougan Jou~</title>
 			<title code="0x10">Kessen!! ~Shouri ha Ware ni~</title>
-			<title code="0x0B">Kyoufu no Dungeon</title>
-			<title code="0x0C">Suukantsu no Tou ~Otakara Ippai, Teki Ippai~</title>
+			<title code="0x0b">Kyoufu no Dungeon</title>
+			<title code="0x0c">Suukantsu no Tou ~Otakara Ippai, Teki Ippai~</title>
 			<title code="0x22">Monster ga Araware ta!!</title>
 			<title code="0x25">Mahou no wo Erabe! ~Youkoso! Hinomaru ya he~</title>
 			<title code="0x19">Techno Wars</title>
-			<title code="0x1A">Formula Battle</title>
-			<title code="0x1B">Kung-fu Fight</title>
-			<title code="0x0E">Suzume Ryuu no Shiren</title>
-			<title code="0x1C">Battle Crisis</title>
-			<title code="0x1D">Teki no Riichi Theme</title>
-			<title code="0x1E">Ryouko Theme ~Dou da~</title>
-			<title code="0x1F">Teki no Shouri Theme</title>
+			<title code="0x1a">Formula Battle</title>
+			<title code="0x1b">Kung-fu Fight</title>
+			<title code="0x0e">Suzume Ryuu no Shiren</title>
+			<title code="0x1c">Battle Crisis</title>
+			<title code="0x1d">Teki no Riichi Theme</title>
+			<title code="0x1e">Ryouko Theme ~Dou da~</title>
+			<title code="0x1f">Teki no Shouri Theme</title>
 			<title code="0x20">Ryouko no Shouri Theme</title>
 			<title code="0x21">Nagare Kyoku Theme</title>
 			<title code="0x23">Ryouko no Datsui ~Hidooi~</title>
@@ -2815,10 +3063,10 @@
 			<title code="0x15">Nakama ga Dekita</title>
 			<title code="0x16">Otakara wo Ire ta!!</title>
 			<title code="0x26">Continue</title>
-			<title code="0x2A">Ending ~Mou hitotsu no Mahjong Quest~</title>
+			<title code="0x2a">Ending ~Mou hitotsu no Mahjong Quest~</title>
 			<title code="0x27">Game Over</title>
 			<title code="0x12">Not on CD #1</title>
-			<title code="0x2B">Not on CD #2</title>
+			<title code="0x2b">Not on CD #2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2838,15 +3086,15 @@
 		</romlist>
 		<titlelist>
 			<title code="0x09">Ah! Glorious Koshien [Title Screen]</title>
-			<title code="0x1A">Credit</title>
-			<title code="0x0A">Team Select</title>
-			<title code="0x0E">Theme of Time-Out and Rock, Paper, Scissors</title>
-			<title code="0x0B">Music 1</title>
+			<title code="0x1a">Credit</title>
+			<title code="0x0a">Team Select</title>
+			<title code="0x0e">Theme of Time-Out and Rock, Paper, Scissors</title>
+			<title code="0x0b">Music 1</title>
 			<title code="0x12">Music 2</title>
-			<title code="0x0C">Music 3</title>
+			<title code="0x0c">Music 3</title>
 			<title code="0x10">End of Inning</title>
-			<title code="0x0D">Music 4</title>
-			<title code="0x0F">Music 5</title>
+			<title code="0x0d">Music 4</title>
+			<title code="0x0f">Music 5</title>
 			<title code="0x13">Home Run</title>
 			<title code="0x92">Music 6</title>
 			<title code="0x11">Music 7</title>
@@ -2855,14 +3103,14 @@
 			<title code="0x18">Credits</title>
 			<title code="0x19">Congratulations</title>
 			<title code="0x15">Game Over</title>
-			<title code="0x1C">[SFX] Siren</title>
+			<title code="0x1c">[SFX] Siren</title>
 			<title code="0x16">Unused</title>
-			<title code="0xF2">Speaker Test (FM)</title>
-			<title code="0xF6">Speaker Test (PSG)</title>
+			<title code="0xf2">Speaker Test (FM)</title>
+			<title code="0xf6">Speaker Test (PSG)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[F2 System] YuuYu no Quiz de Go!Go! (ゆうゆのクイズでGo！Go！) (YM2610)</name>
+		<name>[F2 System] Yuuyu no Quiz de GO!GO! (ゆうゆのクイズでGo！Go！) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
@@ -2878,12 +3126,12 @@
 		<titlelist>
 			<title code="0x08">Demo: Introduction</title>
 			<title code="0x09">Demo: Item Introduction</title>
-			<title code="0x0A">Demo: Program Introduction</title>
-			<title code="0x0B">[SFX] Rule Information</title>
-			<title code="0x0C">Genre Selection</title>
-			<title code="0x0D">[SFX] Stage Start Jingle</title>
-			<title code="0x0E">Stage 1</title>
-			<title code="0x0F">Stage 2</title>
+			<title code="0x0a">Demo: Program Introduction</title>
+			<title code="0x0b">[SFX] Rule Information</title>
+			<title code="0x0c">Genre Selection</title>
+			<title code="0x0d">[SFX] Stage Start Jingle</title>
+			<title code="0x0e">Stage 1</title>
+			<title code="0x0f">Stage 2</title>
 			<title code="0x10">Stage 3</title>
 			<title code="0x11">Stage 4</title>
 			<title code="0x12">Stage 5</title>
@@ -2894,12 +3142,12 @@
 			<title code="0x17">Unknown</title>
 			<title code="0x18">Name Entry</title>
 			<title code="0x19">Bonus Game A</title>
-			<title code="0x1A">Bonus Game B</title>
-			<title code="0x1B">Bonus Game C</title>
-			<title code="0x1C">Continue</title>
-			<title code="0x1D">Game Over</title>
-			<title code="0x1E">Staff Roll</title>
-			<title code="0x1F">Ending</title>
+			<title code="0x1a">Bonus Game B</title>
+			<title code="0x1b">Bonus Game C</title>
+			<title code="0x1c">Continue</title>
+			<title code="0x1d">Game Over</title>
+			<title code="0x1e">Staff Roll</title>
+			<title code="0x1f">Ending</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2919,20 +3167,20 @@
 		</romlist>
 		<titlelist>
 			<title code="0x63">Opening</title>
-			<title code="0x5E">[Voice] "The Ninja Kids!" (Title)</title>
-			<title code="0x5A">Credit</title>
+			<title code="0x5e">[Voice] "The Ninja Kids!" (Title)</title>
+			<title code="0x5a">Credit</title>
 			<title code="0x64">Character Select</title>
-			<title code="0x6D">Start Demo</title>
+			<title code="0x6d">Start Demo</title>
 			<title code="0x65">Stage Start</title>
 			<title code="0x67">Stage 1 - An Aimed Town</title>
-			<title code="0x6E">Boss</title>
+			<title code="0x6e">Boss</title>
 			<title code="0x66">Stage Clear</title>
 			<title code="0x68">Stage 2 - The Satan of Flames</title>
 			<title code="0x69">Stage 3 - Construction Work Spot</title>
-			<title code="0x6A">Stage 4 - A Bad Ninja Appears!</title>
-			<title code="0x6B">Stage 5-I - The Last Severe Fight</title>
-			<title code="0x6C">Stage 5-II - Drop</title>
-			<title code="0x6F">Last Boss - Demon</title>
+			<title code="0x6a">Stage 4 - A Bad Ninja Appears!</title>
+			<title code="0x6b">Stage 5-I - The Last Severe Fight</title>
+			<title code="0x6c">Stage 5-II - Drop</title>
+			<title code="0x6f">Last Boss - Demon</title>
 			<title code="0x72">Ending</title>
 			<title code="0x74">Game Over</title>
 			<title code="0x73">Name Entry</title>
@@ -2940,6 +3188,55 @@
 			<title code="0x71">Unused 2</title>
 			<title code="0x75">Stage 2 - The Satan of Flames (Loop)</title>
 			<title code="0x76">Stage 3 - Construction Work Spot (Loop)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[F2 System] The Ninja Kids (ニンジャキッズ) (YM2610)</name>
+		<driver type="f2system">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="ninjak">
+			<rom type="code" offset="0x00000">c85-14.ic54</rom>
+			<rom type="adpcma" offset="0x000000">c85-04.ic31</rom>
+			<rom type="adpcmb" offset="0x000000">c85-05.ic33</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x63">Opening</title>
+			<title code="0x5a">Credit</title>
+			<title code="0x64">Character Select</title>
+			<title code="0x6d">Start Demo</title>
+			<title code="0x65">Stage Start</title>
+			<title code="0x67">An Aimed Town [Stage 1]</title>
+			<title code="0x6e">Boss</title>
+			<title code="0x66">Stage Clear</title>
+			<title code="0x68">The Satan of Flames [Stage 2] (炎の悪魔 [STAGE 2])</title>
+			<title code="0x69">Construction Work Spot [Stage 3] (工事現場の怪 [STAGE 3])</title>
+			<title code="0x6a">A Bad Ninja Appears! [Stage 4] (悪の忍者あらわる! [STAGE 4])</title>
+			<title code="0x6b">The Last Severe Fight [Stage 5-I] (最期の激闘 [STAGE 5])</title>
+			<title code="0x6c">Drop [Stage 5-II]</title>
+			<title code="0x6f">Demon [Last Boss]</title>
+			<title code="0x72">Ending</title>
+			<title code="0x73">Name Entry</title>
+			<title code="0x74">Game Over</title>
+			<title code="0x70">Unused 1</title>
+			<title code="0x71">Unused 2</title>
+			<title code="0x75">The Satan of Flames [Stage 2] (Loop) (炎の悪魔 [STAGE 2] (Loop))</title>
+			<title code="0x76">Construction Work Spot [Stage 3] (Loop) (工事現場の怪 [STAGE 3] (Loop))</title>
+			<title code="0x5e">Voice "The Ninja Kids!" (Title)</title>
+			<range min="0x05" max="0x09" extcode="0">SFX #%02X</range>
+			<range min="0x0b" max="0x25" extcode="0">SFX #%02X</range>
+			<range min="0x27" max="0x2c" extcode="0">SFX #%02X</range>
+			<range min="0x2e" max="0x33" extcode="0">SFX #%02X</range>
+			<range min="0x35" max="0x38" extcode="0">SFX #%02X</range>
+			<title code="0x3a">SFX #3A</title>
+			<range min="0x3c" max="0x42" extcode="0">SFX #%02X</range>
+			<range min="0x44" max="0x4a" extcode="0">SFX #%02X</range>
+			<range min="0x4c" max="0x52" extcode="0">SFX #%02X</range>
+			<title code="0x55">SFX #55</title>
+			<range min="0x57" max="0x59" extcode="0">SFX #%02X</range>
+			<range min="0x5b" max="0x5d" extcode="0">SFX #%02X</range>
+			<title code="0x5f">SFX #5F</title>
+			<range min="0x77" max="0x8e" extcode="0">SFX #%02X</range>
+			<title code="0x90">SFX #90</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2957,18 +3254,18 @@
 			<rom type="adpcma" offset="0x000000">c91-04.28</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0D">Title Demo</title>
+			<title code="0x0d">Title Demo</title>
 			<title code="0x12">Credit</title>
-			<title code="0x0C">Player Select - Theme 1</title>
+			<title code="0x0c">Player Select - Theme 1</title>
 			<title code="0x08">Theme 1</title>
 			<title code="0x09">Theme 2</title>
-			<title code="0x0A">Winner</title>
-			<title code="0x0B">Bonus Stage</title>
-			<title code="0x0F">Ending</title>
+			<title code="0x0a">Winner</title>
+			<title code="0x0b">Bonus Stage</title>
+			<title code="0x0f">Ending</title>
 			<title code="0x10">Name Entry</title>
 			<title code="0x11">Game Over</title>
-			<title code="0x0E">Unused</title>
-			<title code="0xF2">Speaker Test</title>
+			<title code="0x0e">Unused</title>
+			<title code="0xf2">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2988,32 +3285,32 @@
 		<titlelist>
 			<title code="0x09">Princess Kidnapped</title>
 			<title code="0x48">Credit</title>
-			<title code="0x0A">Save the Princess!</title>
-			<title code="0x0B">Genre Select</title>
+			<title code="0x0a">Save the Princess!</title>
+			<title code="0x0b">Genre Select</title>
 			<title code="0x21">Chosen!</title>
-			<title code="0x0D">Map Preview</title>
-			<title code="0x0E">The Kingdom of Public [World 1]</title>
+			<title code="0x0d">Map Preview</title>
+			<title code="0x0e">The Kingdom of Public [World 1]</title>
 			<title code="0x17">You Found a Treasure Box!!</title>
-			<title code="0x1C">You Got a Treasure Box!!</title>
-			<title code="0x0F">Harpazein Sea [World 2]</title>
+			<title code="0x1c">You Got a Treasure Box!!</title>
+			<title code="0x0f">Harpazein Sea [World 2]</title>
 			<title code="0x10">Ice World [World 3]</title>
 			<title code="0x11">Underground Labyrinth [World 4]</title>
 			<title code="0x12">Volcanic Area [World 5]</title>
-			<title code="0x1A">Shopping</title>
+			<title code="0x1a">Shopping</title>
 			<title code="0x13">Sky World [World 6]</title>
 			<title code="0x15">Boss</title>
 			<title code="0x14">Dark Lord [World 7]</title>
 			<title code="0x16">World Clear</title>
-			<title code="0x0C">Ending</title>
-			<title code="0x1E">Credits</title>
-			<title code="0x1F">Name Entry</title>
-			<title code="0x1D">Game Over</title>
+			<title code="0x0c">Ending</title>
+			<title code="0x1e">Credits</title>
+			<title code="0x1f">Name Entry</title>
+			<title code="0x1d">Game Over</title>
 			<title code="0x47">Credits Ver.2</title>
 			<title code="0x18">Unused 1</title>
 			<title code="0x19">Unused 2</title>
-			<title code="0x1B">Unused 3</title>
+			<title code="0x1b">Unused 3</title>
 			<title code="0x20">Unused 4</title>
-			<title code="0xF2">Speaker Test</title>
+			<title code="0xf2">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3035,37 +3332,37 @@
 			<title code="0x42">[Voice] Quiz Chikyuu Boueigun</title>
 			<title code="0x32">Credit</title>
 			<title code="0x16">Game Mode Select</title>
-			<title code="0x0A">Silver Hawk 1, Go!</title>
-			<title code="0x0B">Select Quiz-Monster</title>
-			<title code="0x1F">Story 1 - Challenger from Space</title>
-			<title code="0x0C">Defend the Laboratory!</title>
+			<title code="0x0a">Silver Hawk 1, Go!</title>
+			<title code="0x0b">Select Quiz-Monster</title>
+			<title code="0x1f">Story 1 - Challenger from Space</title>
+			<title code="0x0c">Defend the Laboratory!</title>
 			<title code="0x12">Ambitions of Planet Riddle</title>
-			<title code="0x1F">Story 2 - Chase the UFO</title>
-			<title code="0x0E">Shoot Down the Reconnaissance UFO!</title>
+			<title code="0x1f">Story 2 - Chase the UFO</title>
+			<title code="0x0e">Shoot Down the Reconnaissance UFO!</title>
 			<title code="0x18">Intent of the Undersea Kingdom, Remlia</title>
-			<title code="0x1F">Story 3 - Herald from Remlia</title>
+			<title code="0x1f">Story 3 - Herald from Remlia</title>
 			<title code="0x11">Let's Get to Work, Battle Shark!</title>
-			<title code="0x1F">Story 4 - TDF Base Facing a Crisis</title>
+			<title code="0x1f">Story 4 - TDF Base Facing a Crisis</title>
 			<title code="0x19">Quiz Monster Approaching!</title>
-			<title code="0x1F">Story 5 - Encounter under Aurora</title>
-			<title code="0x0D">Antarctic Bases in Danger!</title>
-			<title code="0x1F">Story 6 - Go for the White Planet</title>
-			<title code="0x0F">Shout to the Moon!</title>
+			<title code="0x1f">Story 5 - Encounter under Aurora</title>
+			<title code="0x0d">Antarctic Bases in Danger!</title>
+			<title code="0x1f">Story 6 - Go for the White Planet</title>
+			<title code="0x0f">Shout to the Moon!</title>
 			<title code="0x14">Supply</title>
-			<title code="0x1D">Select Supply</title>
+			<title code="0x1d">Select Supply</title>
 			<title code="0x10">Battle in the White Land</title>
 			<title code="0x16">Special Training 1</title>
 			<title code="0x15">Special Training 2</title>
-			<title code="0x1F">Final Story - Braves Forever</title>
-			<title code="0x1A">Space Monster, King Drill</title>
-			<title code="0x1C">Victorious Fanfare</title>
+			<title code="0x1f">Final Story - Braves Forever</title>
+			<title code="0x1a">Space Monster, King Drill</title>
+			<title code="0x1c">Victorious Fanfare</title>
 			<title code="0x13">We'll Never Forget You [Ending]</title>
 			<title code="0x16">Name Entry</title>
-			<title code="0x1B">Game Over</title>
+			<title code="0x1b">Game Over</title>
 			<title code="0x33">The End</title>
 			<title code="0x17">Theme of Versus Mode</title>
-			<title code="0x1E">Unused</title>
-			<title code="0xF2">Speaker Test 1</title>
+			<title code="0x1e">Unused</title>
+			<title code="0xf2">Speaker Test 1</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3082,22 +3379,22 @@
 			<rom type="code" offset="0x00000">d20-06.5</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0A">Credit</title>
-			<title code="0x0B">Questions 1</title>
+			<title code="0x0a">Credit</title>
+			<title code="0x0b">Questions 1</title>
 			<title code="0x11">Love Diagnosis</title>
 			<title code="0x12">Marriage Diagnosis</title>
 			<title code="0x13">Sex Diagnosis</title>
 			<title code="0x14">Special Diagnosis</title>
-			<title code="0x0D">Point Game Start</title>
-			<title code="0x0C">Point Game</title>
-			<title code="0x0E">Point Game End</title>
+			<title code="0x0d">Point Game Start</title>
+			<title code="0x0c">Point Game</title>
+			<title code="0x0e">Point Game End</title>
 			<title code="0x22">Questions 2</title>
 			<title code="0x25">Diagnosis of Couple's Love</title>
 			<title code="0x26">Diagnosis of Friendship between Men</title>
 			<title code="0x27">Diagnosis of Friendship between Women</title>
 			<title code="0x24">Questions 3</title>
 			<title code="0x10">Result</title>
-			<title code="0x0F">Finish</title>
+			<title code="0x0f">Finish</title>
 			<title code="0x23">Question 2 (Ver.2)</title>
 		</titlelist>
 	</game>
@@ -3117,22 +3414,22 @@
 			<rom type="adpcmb" offset="0x000000">d39-08.4</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x7E">Title Demo</title>
+			<title code="0x7e">Title Demo</title>
 			<title code="0x81">Select</title>
 			<title code="0x88">1st Day</title>
 			<title code="0x94">Clear / Attract</title>
 			<title code="0x80">2nd Day</title>
 			<title code="0x84">Bonus Stage</title>
 			<title code="0x82">3rd Day</title>
-			<title code="0x7F">4th Day</title>
+			<title code="0x7f">4th Day</title>
 			<title code="0x88">5th Day</title>
 			<title code="0x83">7th Day</title>
 			<title code="0x93">Sudden Death</title>
 			<title code="0x85">Ending</title>
 			<title code="0x86">End Credits</title>
-			<title code="0x7E">Name Entry</title>
-			<title code="0x1E">Game Over</title>
-			<title code="0x4D">Unused</title>
+			<title code="0x7e">Name Entry</title>
+			<title code="0x1e">Game Over</title>
+			<title code="0x4d">Unused</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3151,33 +3448,33 @@
 		</romlist>
 		<titlelist>
 			<title code="0x54">Do You Wanna be a Winner in Life?</title>
-			<title code="0x0C">Title Screen</title>
+			<title code="0x0c">Title Screen</title>
 			<title code="0x48">Credit</title>
 			<title code="0x14">Select Character</title>
 			<title code="0x16">Map Preview</title>
-			<title code="0x1D">Question Master Appears!</title>
-			<title code="0x0F">Quiz BGM 1</title>
+			<title code="0x1d">Question Master Appears!</title>
+			<title code="0x0f">Quiz BGM 1</title>
 			<title code="0x19">Round Clear</title>
 			<title code="0x18">Bonus Game Intro</title>
 			<title code="0x21">Bonus Game</title>
 			<title code="0x18">You Win!</title>
 			<title code="0x15">Select Item</title>
-			<title code="0x1C">Doctor Appears!</title>
+			<title code="0x1c">Doctor Appears!</title>
 			<title code="0x53">Life Recovery</title>
-			<title code="0x0D">Quiz BGM 2</title>
-			<title code="0x0E">Quiz BGM 3</title>
+			<title code="0x0d">Quiz BGM 2</title>
+			<title code="0x0e">Quiz BGM 3</title>
 			<title code="0x19">Round Clear</title>
 			<title code="0x17">Crisis</title>
 			<title code="0x11">Quiz BGM 4</title>
 			<title code="0x10">Quiz BGM 5</title>
 			<title code="0x13">Quiz BGM 6</title>
 			<title code="0x12">Quiz BGM 7</title>
-			<title code="0x1B">All Questions Answered</title>
-			<title code="0x1F">Credits</title>
+			<title code="0x1b">All Questions Answered</title>
+			<title code="0x1f">Credits</title>
 			<title code="0x20">Game Over</title>
-			<title code="0x1E">Name Entry</title>
-			<title code="0x1A">Unused</title>
-			<title code="0xF2">Speaker Test 1</title>
+			<title code="0x1e">Name Entry</title>
+			<title code="0x1a">Unused</title>
+			<title code="0xf2">Speaker Test 1</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3196,40 +3493,40 @@
 		</romlist>
 		<titlelist>
 			<title code="0x09">Tricycle and Shin-chan</title>
-			<title code="0x1D">Nohara Family (Demo)</title>
-			<title code="0x7C">[SFX] Trick by Shin'nosuke 1</title>
-			<title code="0x7D">[SFX] Trick by Shin'nosuke 2</title>
-			<title code="0x7E">[SFX] Trick by Shin'nosuke 3</title>
-			<title code="0x7F">[SFX] Trick by Shin'nosuke 4</title>
+			<title code="0x1d">Nohara Family (Demo)</title>
+			<title code="0x7c">[SFX] Trick by Shin'nosuke 1</title>
+			<title code="0x7d">[SFX] Trick by Shin'nosuke 2</title>
+			<title code="0x7e">[SFX] Trick by Shin'nosuke 3</title>
+			<title code="0x7f">[SFX] Trick by Shin'nosuke 4</title>
 			<title code="0x80">[SFX] Trick by Shin'nosuke 5</title>
-			<title code="0x1F">Demo</title>
-			<title code="0x1C">Introduction</title>
-			<title code="0x0B">Credit</title>
-			<title code="0x1D">Nohara Family Scene</title>
+			<title code="0x1f">Demo</title>
+			<title code="0x1c">Introduction</title>
+			<title code="0x0b">Credit</title>
+			<title code="0x1d">Nohara Family Scene</title>
 			<title code="0x14">Map Preview</title>
-			<title code="0x1A">Question Master Appeared</title>
+			<title code="0x1a">Question Master Appeared</title>
 			<title code="0x12">Genre Select</title>
-			<title code="0x0C">Quiz BGM 1</title>
-			<title code="0x0F">Quiz BGM 2</title>
-			<title code="0x0E">Quiz BGM 3</title>
-			<title code="0x0D">Quiz BGM 4</title>
+			<title code="0x0c">Quiz BGM 1</title>
+			<title code="0x0f">Quiz BGM 2</title>
+			<title code="0x0e">Quiz BGM 3</title>
+			<title code="0x0d">Quiz BGM 4</title>
 			<title code="0x10">Quiz BGM 5</title>
 			<title code="0x16">Passed</title>
 			<title code="0x13">Won the Ingridents of Dinner!</title>
 			<title code="0x15">Challenge the Bonus Game!</title>
 			<title code="0x19">Bonus Game</title>
 			<title code="0x17">All Stage Cleared</title>
-			<title code="0x1D">Ending</title>
+			<title code="0x1d">Ending</title>
 			<title code="0x11">Credits</title>
-			<title code="0x1E">Name Entry</title>
-			<title code="0x1B">Game Over</title>
+			<title code="0x1e">Name Entry</title>
+			<title code="0x1b">Game Over</title>
 			<title code="0x83">Quiz BGM 1 Ver.2</title>
 			<title code="0x18">Quiz BGM 5 Ver.2</title>
-			<title code="0xF1">Speaker Test 1</title>
+			<title code="0xf1">Speaker Test 1</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[F2 System] Quiz Crayon Shin-chan: Orato Asobo (クレヨンしんちゃん おらと遊ぼ) (YM2610)</name>
+		<name>[F2 System] Crayon Shin-chan: Orato Asobo (クレヨンしんちゃん おらと遊ぼ) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
@@ -3248,21 +3545,21 @@
 			<title code="0x70">Title</title>
 			<title code="0x10">Game Explanation Demo</title>
 			<title code="0x20">Credit</title>
-			<title code="0x0C">Start Demo</title>
+			<title code="0x0c">Start Demo</title>
 			<title code="0x15">Map Movement</title>
-			<title code="0x0E">Team Introduction BGM</title>
-			<title code="0x1B">Shutsudai sha ni nin me kara</title>
+			<title code="0x0e">Team Introduction BGM</title>
+			<title code="0x1b">Shutsudai sha ni nin me kara</title>
 			<title code="0x16">Game Select</title>
-			<title code="0x0D">Problem Minigame</title>
+			<title code="0x0d">Problem Minigame</title>
 			<title code="0x17">Round Clear</title>
 			<title code="0x11">Score Result</title>
-			<title code="0x1C">Nohara gin no kai toujou!</title>
+			<title code="0x1c">Nohara gin no kai toujou!</title>
 			<title code="0x19">Final Round</title>
 			<title code="0x18">All Round Clear</title>
-			<title code="0x1D">Victory Reward Selection</title>
+			<title code="0x1d">Victory Reward Selection</title>
 			<title code="0x12">Chokobi ichi nen bun, Sekai isshuu, Shinju no necklace, Ikasu gaisha</title>
-			<title code="0x0B">Staff Roll</title>
-			<title code="0x0F">Game Over</title>
+			<title code="0x0b">Staff Roll</title>
+			<title code="0x0f">Game Over</title>
 			<title code="0x12">Name Entry</title>
 		</titlelist>
 	</game>
@@ -3286,162 +3583,52 @@
 			<title code="0x45">Credit</title>
 			<title code="0x47">Stand-bye!</title>
 			<title code="0x38">Main Theme</title>
-			<title code="0x3F">Boss 1</title>
+			<title code="0x3f">Boss 1</title>
 			<title code="0x39">Universe [Theme 2]</title>
 			<title code="0x40">Boss 2</title>
 			<title code="0x48">Next Area</title>
-			<title code="0x3A">Fire! Fire! Fire! [Theme 3]</title>
+			<title code="0x3a">Fire! Fire! Fire! [Theme 3]</title>
 			<title code="0x41">Boss 3</title>
-			<title code="0x3C">___ so easy [Theme 5]</title>
+			<title code="0x3c">___ so easy [Theme 5]</title>
 			<title code="0x27">[SFX] Warning</title>
 			<title code="0x44">Hurry</title>
-			<title code="0x3B">Larful [Theme 4]</title>
+			<title code="0x3b">Larful [Theme 4]</title>
 			<title code="0x42">Boss 4</title>
 			<title code="0x49">Contact</title>
-			<title code="0x3E">Ja Fre [Theme 7]</title>
-			<title code="0x3D">Confusion [Theme 6]</title>
+			<title code="0x3e">Ja Fre [Theme 7]</title>
+			<title code="0x3d">Confusion [Theme 6]</title>
 			<title code="0x43">Boss 5</title>
 			<title code="0x46">Beginning of the end [Ending]</title>
-			<title code="0x4A">See you again [Name Entry]</title>
-			<title code="0x4C">Boss5 (w/o intro)</title>
+			<title code="0x4a">See you again [Name Entry]</title>
+			<title code="0x4c">Boss5 (w/o intro)</title>
 		</titlelist>
 	</game>
 	<game>
 		<name>[H System] Recordbreaker (ゴーフォーザゴールド) (YM2610)</name>
-		<driver type="f2system">taito</driver>
+		<driver type="dual68">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="recordbr">
-			<rom type="code" offset="0x010000">b56-19.bin</rom>
+			<rom type="code" offset="0x000000">b56-19.bin</rom>
 			<rom type="adpcma" offset="0x000000">b56-10.bin</rom>
 			<rom type="adpcmb" offset="0x000000">b56-09.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0xa8">BGM #a8</title>
-			<title code="0xa9">BGM #a9</title>
-			<title code="0xaa">BGM #aa</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1a</title>
-			<title code="0x1b">SFX #1b</title>
-			<title code="0x1c">SFX #1c</title>
-			<title code="0x1d">SFX #1d</title>
-			<title code="0x1e">SFX #1e</title>
-			<title code="0x1f">SFX #1f</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2a</title>
-			<title code="0x2b">SFX #2b</title>
-			<title code="0x2c">SFX #2c</title>
-			<title code="0x2d">SFX #2d</title>
-			<title code="0x2e">SFX #2e</title>
-			<title code="0x2f">SFX #2f</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3a</title>
-			<title code="0x3b">SFX #3b</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6a</title>
-			<title code="0x6b">SFX #6b</title>
-			<title code="0x6c">SFX #6c</title>
-			<title code="0x6d">SFX #6d</title>
-			<title code="0x6e">SFX #6e</title>
-			<title code="0x6f">SFX #6f</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7a</title>
-			<title code="0x7b">SFX #7b</title>
-			<title code="0x7c">SFX #7c</title>
-			<title code="0x7d">SFX #7d</title>
-			<title code="0x7e">SFX #7e</title>
-			<title code="0x7f">SFX #7f</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8a</title>
-			<title code="0x8b">SFX #8b</title>
-			<title code="0x8c">SFX #8c</title>
-			<title code="0x8d">SFX #8d</title>
-			<title code="0x8e">SFX #8e</title>
-			<title code="0x8f">SFX #8f</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
-			<title code="0x99">SFX #99</title>
-			<title code="0x9a">SFX #9a</title>
-			<title code="0x9b">SFX #9b</title>
-			<title code="0x9c">SFX #9c</title>
-			<title code="0x9d">SFX #9d</title>
-			<title code="0x9e">SFX #9e</title>
-			<title code="0x9f">SFX #9f</title>
-			<title code="0xa0">SFX #a0</title>
-			<title code="0xa1">SFX #a1</title>
-			<title code="0xa2">SFX #a2</title>
+			<title code="0x07">Title</title>
+			<title code="0x10">Coin</title>
+			<title code="0x08">Name Set</title>
+			<title code="0xa9">Competition Selection</title>
+			<title code="0x09">Competition Clear</title>
+			<title code="0x0a">New Record!</title>
+			<title code="0x0c">Podium</title>
+			<title code="0xa8">Result</title>
+			<title code="0xaa">Competition Selection (Ver. 2)</title>
+			<title code="0x0b">Unused #01</title>
+			<title code="0x0d">Unused #02</title>
+			<title code="0x0e">Unused #03</title>
+			<title code="0x0f">Unused #04</title>
+			<title code="0x11">Unused #05</title>
+			<range min="0x12" max="0x3b" extcode="0">SFX #%02X</range>
+			<range min="0x63" max="0xa2" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3460,19 +3647,19 @@
 		</romlist>
 		<titlelist>
 			<title code="0x09">Title</title>
-			<title code="0x0A">Team Select</title>
-			<title code="0x0B">Play Ball</title>
+			<title code="0x0a">Team Select</title>
+			<title code="0x0b">Play Ball</title>
 			<title code="0x14">BGM 1</title>
-			<title code="0x0C">Time</title>
+			<title code="0x0c">Time</title>
 			<title code="0x15">BGM 2</title>
 			<title code="0x10">Home Run</title>
-			<title code="0x0F">Score</title>
-			<title code="0x0E">Change</title>
+			<title code="0x0f">Score</title>
+			<title code="0x0e">Change</title>
 			<title code="0x13">Continue</title>
 			<title code="0x12">Game Set</title>
-			<title code="0x0A">Name Entry</title>
+			<title code="0x0a">Name Entry</title>
 			<title code="0x16">Credits Roll</title>
-			<title code="0x0D">BGM #0D</title>
+			<title code="0x0d">BGM #0D</title>
 			<title code="0x11">BGM #11</title>
 		</titlelist>
 	</game>
@@ -3496,17 +3683,17 @@
 			<title code="0x06">Theme #1</title>
 			<title code="0x07">Round Clear (Unused)</title>
 			<title code="0x29">2nd Credit</title>
-			<title code="0x0C">Theme #2</title>
-			<title code="0x2A">3rd Credit</title>
-			<title code="0x0D">Theme of Giant Crab</title>
+			<title code="0x0c">Theme #2</title>
+			<title code="0x2a">3rd Credit</title>
+			<title code="0x0d">Theme of Giant Crab</title>
 			<title code="0x08">Player Extended</title>
-			<title code="0x2B">4th Credit</title>
-			<title code="0x0E">Theme #3</title>
-			<title code="0x2C">5th Credit</title>
-			<title code="0x0F">Final Round</title>
+			<title code="0x2b">4th Credit</title>
+			<title code="0x0e">Theme #3</title>
+			<title code="0x2c">5th Credit</title>
+			<title code="0x0f">Final Round</title>
 			<title code="0x10">Ending</title>
-			<title code="0x0A">Game Over</title>
-			<title code="0x0B">Name Regist (1st Place)</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x0b">Name Regist (1st Place)</title>
 			<title code="0x09">Name Regist (2nd to 5th Place)</title>
 		</titlelist>
 	</game>
@@ -3524,20 +3711,20 @@
 			<title code="0x19">Main BGM 1</title>
 			<title code="0x11">Main BGM 2</title>
 			<title code="0x21">Title Match</title>
-			<title code="0x1E">Champion</title>
-			<title code="0x1F">Ending</title>
+			<title code="0x1e">Champion</title>
+			<title code="0x1f">Ending</title>
 			<title code="0x20">Name Entry</title>
-			<title code="0x1C">Game Over</title>
+			<title code="0x1c">Game Over</title>
 			<title code="0x09">Entrance Theme [Black Machine]</title>
-			<title code="0x0A">Entrance Theme [Jimmy Carbon]</title>
-			<title code="0x0B">Entrance Theme [Rocky Garner]</title>
-			<title code="0x0C">Entrance Theme [Miracle Rastan]</title>
-			<title code="0x0D">Entrance Theme [Matterhorn Decker]</title>
-			<title code="0x0E">Entrance Theme [Cobra Bloody Joe]</title>
-			<title code="0x0F">Entrance Theme [The Samurai]</title>
+			<title code="0x0a">Entrance Theme [Jimmy Carbon]</title>
+			<title code="0x0b">Entrance Theme [Rocky Garner]</title>
+			<title code="0x0c">Entrance Theme [Miracle Rastan]</title>
+			<title code="0x0d">Entrance Theme [Matterhorn Decker]</title>
+			<title code="0x0e">Entrance Theme [Cobra Bloody Joe]</title>
+			<title code="0x0f">Entrance Theme [The Samurai]</title>
 			<title code="0x10">Entrance Theme [Nitoro Panks]</title>
-			<title code="0x1B">Winner</title>
-			<title code="0x1D">Loser</title>
+			<title code="0x1b">Winner</title>
+			<title code="0x1d">Loser</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3597,14 +3784,14 @@
 			<rom type="adpcmb" offset="0x000000">b33-08.19</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1A">Credit</title>
+			<title code="0x1a">Credit</title>
 			<title code="0x09">Brazil</title>
-			<title code="0x0B">America</title>
-			<title code="0x0C">France</title>
-			<title code="0x0A">Monaco</title>
-			<title code="0x0D">Germany</title>
-			<title code="0x0E">Spain</title>
-			<title code="0x0F">Mexico</title>
+			<title code="0x0b">America</title>
+			<title code="0x0c">France</title>
+			<title code="0x0a">Monaco</title>
+			<title code="0x0d">Germany</title>
+			<title code="0x0e">Spain</title>
+			<title code="0x0f">Mexico</title>
 			<title code="0x10">Japan</title>
 			<title code="0x11">Pit In</title>
 			<title code="0x12">Goal In (Clear)</title>
@@ -3639,7 +3826,7 @@
 			<title code="0x70">Round Start</title>
 			<title code="0x71">Los Angeles</title>
 			<title code="0x72">Idaho</title>
-			<title code="0x7C">Count Down</title>
+			<title code="0x7c">Count Down</title>
 			<title code="0x73">Washington</title>
 			<title code="0x74">Chicago</title>
 			<title code="0x75">New York</title>
@@ -3647,8 +3834,8 @@
 			<title code="0x77">Arrest (Round Clear)</title>
 			<title code="0x78">Perfect Chaser</title>
 			<title code="0x79">My Name &amp; Your Name (Name Entry)</title>
-			<title code="0x7A">Not on CD</title>
-			<title code="0x7B">This is Chase H.Q.! (Attract Mode)</title>
+			<title code="0x7a">Not on CD</title>
+			<title code="0x7b">This is Chase H.Q.! (Attract Mode)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3698,23 +3885,23 @@
 			<rom type="adpcmb" offset="0x000000">c09-15.29</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0F">Demo</title>
+			<title code="0x0f">Demo</title>
 			<title code="0x44">Credit</title>
 			<title code="0x01">Start</title>
 			<title code="0x02">City [Round 1]</title>
 			<title code="0x07">Main Theme</title>
-			<title code="0x0E">Round Clear</title>
+			<title code="0x0e">Round Clear</title>
 			<title code="0x03">Bay Area [Round 2]</title>
 			<title code="0x04">Off Road [Round 3]</title>
 			<title code="0x05">Highway [Round 4]</title>
 			<title code="0x06">Desert [Round 5]</title>
 			<title code="0x08">Helicopter Chase</title>
 			<title code="0x09">Warehouse</title>
-			<title code="0x0A">All Missions Completed</title>
-			<title code="0x0D">Count Down</title>
-			<title code="0x0B">Game Over</title>
-			<title code="0x0C">Name Entry</title>
-			<title code="0xF4">Speaker Test</title>
+			<title code="0x0a">All Missions Completed</title>
+			<title code="0x0d">Count Down</title>
+			<title code="0x0b">Game Over</title>
+			<title code="0x0c">Name Entry</title>
+			<title code="0xf4">Speaker Test</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3775,205 +3962,105 @@
 			<rom type="adpcmb" offset="0x000000">b77-08.ic57</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Opening</title>
-			<title code="0x0F">Credit</title>
-			<title code="0x02">Game Start - BGM 1 [Round 1-3]</title>
-			<title code="0x04">Boss 1 [Round 1-3]</title>
-			<title code="0x0B">Round Clear</title>
-			<title code="0x10">Player Extended</title>
-			<title code="0x07">BGM 2 [Round 4-7]</title>
-			<title code="0x08">Boss 2 [Round 4-7]</title>
-			<title code="0x09">BGM 3 [Round 8]</title>
-			<title code="0x0A">Boss 3 [Round 8]</title>
-			<title code="0x0C">Ending</title>
-			<title code="0x05">Staff Roll</title>
-			<title code="0x2D">Continue</title>
-			<title code="0x0E">Game Over</title>
-			<title code="0x0D">Name Entry</title>
-			<title code="0x02">Game Start</title>
-			<title code="0x03">BGM 1 [Round 1-3]</title>
+			<title code="0x01">Opening (オープニング)</title>
+			<title code="0x0f">Credit (クレジット)</title>
+			<title code="0x02">Game Start (ゲームスタート)</title>
+			<title code="0x03">BGM1[Round1～3]</title>
+			<title code="0x04">Boss 1 (ボス1) [Round1～3]</title>
+			<title code="0x0b">Round Clear (ラウンドクリア)</title>
+			<title code="0x10">Etend (エクステンド)</title>
+			<title code="0x07">BGM2 [Round4～7]</title>
+			<title code="0x08">Boss 2 (ボス2) [Round4～7]</title>
+			<title code="0x09">BGM3 [Round8]</title>
+			<title code="0x0a">Final Boss (最終ボス) [Round8]</title>
+			<title code="0x0c">Ending ~ Staff Roll (エンディング～スタッフロール)</title>
+			<title code="0x2d">Continue (コンティニュー)</title>
+			<title code="0x0e">Game Over (ゲームオーバー)</title>
+			<title code="0x0d">Name Entry (ネームエントリー)</title>
+			<title code="0x31">Voice #31</title>
+			<range min="0x12" max="0x1f" extcode="1">SFX #%02X</range>
+			<range min="0x22" max="0x25" extcode="1">SFX #%02X</range>
+			<range min="0x28" max="0x2c" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[Z System] Power Wheels (パワーホイールズ) (YM2610)</name>
-		<driver type="dual68">taito</driver>
+		<name>[Z System] Battle Shark (YM2610)</name>
+		<driver type="bshark">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
+			<option name="opnb_mix" value="0x100"/>
 		</options>
-		<romlist archive="pwheelsj">
+		<romlist archive="bshark">
+			<rom offset="0x000000" type="code0">c34_74.128</rom>
+			<rom offset="0x020000" type="code0">c34_75.129</rom>
+			<rom offset="0x000000" type="code1">c34_72.112</rom>
+			<rom offset="0x020000" type="code1">c34_73.113</rom>
+			<rom offset="0x000000" type="adpcma">c34_08.127</rom>
+			<rom offset="0x000000" type="adpcmb">c34_09.126</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x09">Title Demo</title>
+			<title code="0x11">Credit</title>
+			<title code="0x0a">Round BGM</title>
+			<title code="0x0e">Round Clear</title>
+			<title code="0x93">Boss BGM 1</title>
+			<title code="0x0f">Boss Clear</title>
+			<title code="0x10">Boss BGM 2</title>
+			<title code="0x98">Boss BGM 3</title>
+			<title code="0x90">Last Round</title>
+			<title code="0x0d">Ending</title>
+			<title code="0x0c">Name Entry</title>
+			<title code="0x0b">Game Over</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Z System] Double Axle (パワーホイールズ) (YM2610)</name>
+		<driver type="dual68">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<romlist archive="dblaxle">
 			<rom type="code" offset="0x000000">c78-32.42</rom>
 			<rom type="adpcma" offset="0x000000">c78-01.33</rom>
 			<rom type="adpcma" offset="0x100000">c78-02.46</rom>
 			<rom type="adpcmb" offset="0x000000">c78-03.31</rom>
 		</romlist>
+		<!-- USA
+		<romlist archive="dblaxle">
+			<rom type="code" offset="0x000000">c78-34.c42</rom>
+			<rom type="adpcma" offset="0x000000">c78-12.33</rom>
+			<rom type="adpcma" offset="0x100000">c78-13.46</rom>
+			<rom type="adpcmb" offset="0x000000">c78-14.31</rom>
+		</romlist>
+		-->
 		<titlelist>
-			<title code="0x40">BGM #40</title>
-			<title code="0x41">BGM #41</title>
-			<title code="0x42">BGM #42</title>
-			<title code="0x43">BGM #43</title>
-			<title code="0x44">BGM #44</title>
-			<title code="0x45">BGM #45</title>
-			<title code="0x46">BGM #46</title>
-			<title code="0x47">BGM #47</title>
-			<title code="0x48">BGM #48</title>
-			<title code="0x49">BGM #49</title>
-			<title code="0x4a">BGM #4a</title>
-			<title code="0x4b">BGM #4b</title>
-			<title code="0x4c">BGM #4c</title>
-			<title code="0x4d">BGM #4d</title>
-			<title code="0x4e">BGM #4e</title>
-			<title code="0x4f">BGM #4f</title>
-			<title code="0x50">BGM #50</title>
-			<title code="0x51">BGM #51</title>
-			<title code="0x52">BGM #52</title>
-			<title code="0x54">BGM #54</title>
-			<title code="0x55">BGM #55</title>
-			<title code="0x09">Voice #09</title>
-			<title code="0x0a">Voice #0a</title>
-			<title code="0x0d">Voice #0d</title>
-			<title code="0x0e">Voice #0e</title>
-			<title code="0x0f">Voice #0f</title>
-			<title code="0x10">Voice #10</title>
-			<title code="0x11">Voice #11</title>
-			<title code="0x12">Voice #12</title>
-			<title code="0x13">Voice #13</title>
-			<title code="0x14">Voice #14</title>
-			<title code="0x15">Voice #15</title>
-			<title code="0x16">Voice #16</title>
-			<title code="0x17">Voice #17</title>
-			<title code="0x18">Voice #18</title>
-			<title code="0x19">Voice #19</title>
-			<title code="0x1a">Voice #1a</title>
-			<title code="0x1b">Voice #1b</title>
-			<title code="0x1c">Voice #1c</title>
-			<title code="0x1d">Voice #1d</title>
-			<title code="0x1e">Voice #1e</title>
-			<title code="0x1f">Voice #1f</title>
-			<title code="0x20">Voice #20</title>
- 			<title code="0x21">Voice 213</title>
-			<title code="0x22">Voice #22</title>
-			<title code="0x23">Voice #23</title>
-			<title code="0x24">Voice #24</title>
-			<title code="0x25">Voice #25</title>
-			<title code="0x26">Voice #26</title>
-			<title code="0x27">Voice #27</title>
-			<title code="0x28">Voice #28</title>
-			<title code="0x29">Voice #29</title>
-			<title code="0x2a">Voice #2a</title>
-			<title code="0x2b">Voice #2b</title>
-			<title code="0x2c">Voice #2c</title>
-			<title code="0x2d">Voice #2d</title>
-			<title code="0x2e">Voice #2e</title>
-			<title code="0x2f">Voice #2f</title>
-			<title code="0x31">Voice #31</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
+			<title code="0x41">Title (タイトル)</title>
+			<title code="0x40">Credit (クレジット)</title>
+			<title code="0x42">Race Select (レースセレクト)</title>
+			<title code="0x52">Choice (決定)</title>
+			<title code="0x44">Race Description (レース説明)</title>
+			<title code="0x4d">Cross Country Race</title>
+			<title code="0x4a">Goal</title>
+			<title code="0x4e">Mudbog Race</title>
+			<title code="0x50">Icy Road</title>
+			<title code="0x4b">Crash Race Description (クラッシュレース説明)</title>
+			<title code="0x4f">Car Crushing!!</title>
+			<title code="0x45">Game Over</title>
+			<title code="0x46">Name Entry</title>
+			<title code="0x4c">Buy Item (from Double Axle) (BUY ITEM(ダブルアクセルより))</title>
+			<title code="0x55">Sea Side Crushing Race (from Double Axle) (SEA SIDE CRUSHING RACE(ダブルアクセルより))</title>
+			<title code="0x51">Stadium Battle Race (from Double Axle) (STADIUM BATTLE RACE(ダブルアクセルより))</title>
+			<title code="0x48">Ending (from Double Axle) (ENDING(ダブルアクセルより))</title>
+			<title code="0x54">Unused 1</title>
+			<title code="0x49">Unused 2</title>
+			<title code="0x43">Race Select (Loop) (レースセレクト(イントロ無し))</title>
+			<title code="0x47">Name Entry (Loop) (NAME ENTRY(イントロ無し))</title>
+			<range min="0x09" max="0x0a" extcode="0">Voice #%02X</range>
+			<range min="0x0d" max="0x2f" extcode="0">Voice #%02X</range>
+			<range min="0x31" max="0x33" extcode="0">Voice #%02X</range>
 			<title code="0x53">Voice #53</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6a</title>
-			<title code="0x6b">SFX #6b</title>
-			<title code="0x6c">SFX #6c</title>
-			<title code="0x6d">SFX #6d</title>
-			<title code="0x6e">SFX #6e</title>
-			<title code="0x6f">SFX #6f</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7a</title>
-			<title code="0x7b">SFX #7b</title>
-			<title code="0x7c">SFX #7c</title>
-			<title code="0x7d">SFX #7d</title>
-			<title code="0x7e">SFX #7e</title>
-			<title code="0x7f">SFX #7f</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8a</title>
-			<title code="0x8b">SFX #8b</title>
-			<title code="0x8c">SFX #8c</title>
-			<title code="0x8d">SFX #8d</title>
-			<title code="0x8e">SFX #8e</title>
-			<title code="0x8f">SFX #8f</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
-			<title code="0x99">SFX #99</title>
-			<title code="0x9a">SFX #9a</title>
-			<title code="0x9b">SFX #9b</title>
-			<title code="0x9c">SFX #9c</title>
-			<title code="0x9d">SFX #9d</title>
-			<title code="0x9e">SFX #9e</title>
-			<title code="0x9f">SFX #9f</title>
-			<title code="0xa0">SFX #a0</title>
-			<title code="0xa1">SFX #a1</title>
-			<title code="0xa2">SFX #a2</title>
-			<title code="0xa3">SFX #a3</title>
-			<title code="0xa4">SFX #a4</title>
-			<title code="0xa5">SFX #a5</title>
-			<title code="0xa6">SFX #a6</title>
-			<title code="0xa7">SFX #a7</title>
-			<title code="0xa8">SFX #a8</title>
-			<title code="0xa9">SFX #a9</title>
-			<title code="0xaa">SFX #aa</title>
-			<title code="0xab">SFX #ab</title>
-			<title code="0xaf">SFX #af</title>
-			<title code="0xb0">SFX #b0</title>
-			<title code="0xbf">SFX #bf</title>
-			<title code="0xc0">SFX #c0</title>
-			<title code="0xc1">SFX #c1</title>
-			<title code="0xc2">SFX #c2</title>
-			<title code="0xc3">SFX #c3</title>
-			<title code="0xc4">SFX #c4</title>
-			<title code="0xc5">SFX #c5</title>
-			<title code="0xc6">SFX #c6</title>
-			<title code="0xc7">SFX #c7</title>
-			<title code="0xc8">SFX #c8</title>
-			<title code="0xc9">SFX #c9</title>
-			<title code="0xca">SFX #ca</title>
-			<title code="0xcb">SFX #cb</title>
-			<title code="0xcc">SFX #cc</title>
-			<title code="0xcd">SFX #cd</title>
-			<title code="0xce">SFX #ce</title>
-			<title code="0xcf">SFX #cf</title>
-			<title code="0xd0">SFX #d0</title>
-			<title code="0xd1">SFX #d1</title>
-			<title code="0xd2">SFX #d2</title>
-			<title code="0xd3">SFX #d3</title>
-			<title code="0xd4">SFX #d4</title>
-			<title code="0xd5">SFX #d5</title>
-			<title code="0xd7">SFX #d7</title>
+			<range min="0x61" max="0xab" extcode="0">SFX #%02X</range>
+			<range min="0xaf" max="0xb0" extcode="0">SFX #%02X</range>
+			<range min="0xbf" max="0xd5" extcode="0">SFX #%02X</range>
+			<title code="0xd7">SFX #D7</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3993,14 +4080,46 @@
 			<rom type="adpcmb" offset="0x000000">c84-85.31</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x93">BGM #93</title>
+			<title code="0x0d">クレジット</title>
+			<title code="0x0e">コースセレクト</title>
+			<title code="0x10">スタート</title>
+			<title code="0x11">ピットイン</title>
+			<title code="0x12">タイムアップ</title>
+			<title code="0x13">エンディング</title>
+			<title code="0x14">ネームエントリー</title>
+			<title code="0x15">ゲームオーバー</title>
+			<title code="0x8d">CD未収録曲 1</title>
+			<title code="0x8e">CD未収録曲 2</title>
+			<title code="0x7e">Voice #7E</title>
+			<title code="0x7f">Voice #7F</title>
+			<title code="0x80">Voice #80</title>
+			<title code="0x81">Voice #81</title>
+			<title code="0x82">Voice #82</title>
+			<title code="0x83">Voice #83</title>
+			<title code="0x85">Voice #85</title>
+			<title code="0x86">Voice #86</title>
+			<title code="0x87">Voice #87</title>
+			<title code="0x88">Voice #88</title>
+			<title code="0x89">Voice #89</title>
+			<title code="0x8a">Voice #8A</title>
+			<title code="0x8b">Voice #8B</title>
+			<title code="0x9a">Voice #9A</title>
+			<range min="0x16" max="0x18" extcode="1">SFX #%02X</range>
+			<range min="0x1a" max="0x1d" extcode="1">SFX #%02X</range>
+			<title code="0x1f">SFX #1F</title>
+			<title code="0x21">SFX #21</title>
+			<range min="0x23" max="0x24" extcode="1">SFX #%02X</range>
+			<range min="0x27" max="0x29" extcode="1">SFX #%02X</range>
+			<range min="0x52" max="0x54" extcode="1">SFX #%02X</range>
+			<range min="0x60" max="0x63" extcode="1">SFX #%02X</range>
+			<range min="0x66" max="0x69" extcode="1">SFX #%02X</range>
+			<range min="0x6b" max="0x6c" extcode="1">SFX #%02X</range>
+			<range min="0x6e" max="0x71" extcode="1">SFX #%02X</range>
+			<range min="0x73" max="0x78" extcode="1">SFX #%02X</range>
+			<title code="0x8c">SFX #8C</title>
+			<range min="0x8f" max="0x92" extcode="1">SFX #%02X</range>
+			<title code="0x96">SFX #96</title>
+			<title code="0x98">SFX #98</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4021,19 +4140,19 @@
 			<title code="0x07">Title Demo</title>
 			<title code="0x08">Opening Demo</title>
 			<title code="0x09">Sylvan Land [Round 1 BGM]</title>
-			<title code="0x0F">Bonus Stage</title>
-			<title code="0x0A">Sweet Land [Round 2 BGM]</title>
+			<title code="0x0f">Bonus Stage</title>
+			<title code="0x0a">Sweet Land [Round 2 BGM]</title>
 			<title code="0x16">Hurry Up!! [Time Out]</title>
 			<title code="0x15">Map Preview</title>
-			<title code="0x0B">Ice Land [Round 3 BGM]</title>
-			<title code="0x4D">Secret Room [Warp]</title>
+			<title code="0x0b">Ice Land [Round 3 BGM]</title>
+			<title code="0x4d">Secret Room [Warp]</title>
 			<title code="0x11">Secret Room</title>
-			<title code="0x0C">Wonderland [Round 4 BGM]</title>
-			<title code="0x0D">Dungeon [Round 5 BGM]</title>
+			<title code="0x0c">Wonderland [Round 4 BGM]</title>
+			<title code="0x0d">Dungeon [Round 5 BGM]</title>
 			<title code="0x10">Boss Scene</title>
 			<title code="0x13">Bad End</title>
-			<title code="0x4F">Castle in The Sky [Intro]</title>
-			<title code="0x0E">Castle in The Sky [Round 6 BGM]</title>
+			<title code="0x4f">Castle in The Sky [Intro]</title>
+			<title code="0x0e">Castle in The Sky [Round 6 BGM]</title>
 			<title code="0x12">Happy End</title>
 			<title code="0x19">Game Over</title>
 			<title code="0x14">Name Register</title>
@@ -4043,12 +4162,6 @@
 		<name>[F1 System] Thunder Fox (サンダーフォックス) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="thundfox">
 			<rom type="code" offset="0x00000">c28-14.3</rom>
 			<rom type="adpcma" offset="0x000000">c28-06.41</rom>
@@ -4057,20 +4170,22 @@
 		<titlelist>
 			<title code="0x09">Demo</title>
 			<title code="0x31">Credit</title>
-			<title code="0x0B">Old War Field [Stage 1]</title>
-			<title code="0x11">Boss 1</title>
-			<title code="0x0A">Stage Clear</title>
-			<title code="0x0C">Air Fortress [Stage 2]</title>
-			<title code="0x12">Break-out</title>
-			<title code="0x0E">Sea [Stage 3]</title>
-			<title code="0x10">Aircraft Carrier</title>
-			<title code="0x0F">Mine [Stage 4]</title>
-			<title code="0x0D">Enemy Base [Stage 5]</title>
-			<title code="0x12">Boss 2</title>
-			<title code="0x10">Boss 3</title>
+			<title code="0x0b">Stage 1</title>
+			<title code="0x11">Stage 1 Boss, 3-3 Boss, 5 Mid-Boss (1st Half) (STAGE 1 BOSS,3-3 BOSS,5 中BOSS(前半))</title>
+			<title code="0x0a">Stage Clear</title>
+			<title code="0x0c">Stage 2</title>
+			<title code="0x12">Stage 2 Escape, 5 Mid-Boss (2nd Half), Final Boss (2nd Half) (STAGE 2 ESCAPE,5 中BOSS(後半),FINAL BOSS(後半))</title>
+			<title code="0x0e">Stage 3-1</title>
+			<title code="0x10">Stage 3-2, Final Boss (1st Half) (STAGE 3-2,FINAL BOSS(前半))</title>
+			<title code="0x0f">Stage 4</title>
+			<title code="0x0d">Stage 5-1</title>
 			<title code="0x14">Ending</title>
 			<title code="0x15">Game Over</title>
 			<title code="0x13">Name Entry</title>
+			<range min="0x16" max="0x30" extcode="0">SFX #%02X</range>
+			<range min="0x31" max="0x3f" extcode="0">SFX #%02X</range>
+			<range min="0x70" max="0x87" extcode="0">SFX #%02X</range>
+			<range min="0x8f" max="0x9b" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4081,7 +4196,7 @@
 			<option name="opn_mix" value="0x100"/>
 			<option name="pcm_mix" value="0x9f"/>
 		</options>
-		<romlist archive="cameltrya">
+		<romlist archive="cameltry">
 			<rom type="code" offset="0x00000">c38-15.bin</rom>
 			<rom type="pcm" offset="0x00000">c38-04.bin</rom>
 		</romlist>
@@ -4142,191 +4257,29 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[F1 System] Football Champ (ハットトリックヒーロー) (YM2610)</name>
+		<name>[F1 System] Football Champ / Euro Champ '92 (ハットトリックヒーロー) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="footchmp">
-			<rom type="code" offset="0x00000">c80-15.70</rom>
+			<rom type="code" offset="0x000000">c80-15.70</rom>
 			<rom type="adpcma" offset="0x000000">c80-03.57</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x99">BGM #99</title>
-			<title code="0x2a">Voice #2a</title>
-			<title code="0x2b">Voice #2b</title>
-			<title code="0x2c">Voice #2c</title>
-			<title code="0x2d">Voice #2d</title>
-			<title code="0x2e">Voice #2e</title>
-			<title code="0x2f">Voice #2f</title>
-			<title code="0x30">Voice #30</title>
-			<title code="0x31">Voice #31</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x80">Voice #80</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x82">Voice #82</title>
-			<title code="0x83">Voice #83</title>
-			<title code="0x84">Voice #84</title>
-			<title code="0x85">Voice #85</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1a</title>
-			<title code="0x1b">SFX #1b</title>
-			<title code="0x1c">SFX #1c</title>
-			<title code="0x1d">SFX #1d</title>
-			<title code="0x1e">SFX #1e</title>
-			<title code="0x1f">SFX #1f</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3a</title>
-			<title code="0x3b">SFX #3b</title>
-			<title code="0x3c">SFX #3c</title>
-			<title code="0x3d">SFX #3d</title>
-			<title code="0x3e">SFX #3e</title>
-			<title code="0x3f">SFX #3f</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4a</title>
-			<title code="0x4b">SFX #4b</title>
-			<title code="0x4c">SFX #4c</title>
-			<title code="0x4d">SFX #4d</title>
-			<title code="0x4e">SFX #4e</title>
-			<title code="0x4f">SFX #4f</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5a</title>
-			<title code="0x5b">SFX #5b</title>
-			<title code="0x5c">SFX #5c</title>
-			<title code="0x5d">SFX #5d</title>
-			<title code="0x5e">SFX #5e</title>
-			<title code="0x5f">SFX #5f</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6a</title>
-			<title code="0x6b">SFX #6b</title>
-			<title code="0x6c">SFX #6c</title>
-			<title code="0x6d">SFX #6d</title>
-			<title code="0x6e">SFX #6e</title>
-			<title code="0x6f">SFX #6f</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7a</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8a</title>
-			<title code="0x8b">SFX #8b</title>
-			<title code="0x8c">SFX #8c</title>
-			<title code="0x8d">SFX #8d</title>
-			<title code="0x8e">SFX #8e</title>
-			<title code="0x8f">SFX #8f</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x9a">SFX #9a</title>
-			<title code="0x9b">SFX #9b</title>
-			<title code="0x9c">SFX #9c</title>
-			<title code="0x9d">SFX #9d</title>
-			<title code="0x9e">SFX #9e</title>
-			<title code="0x9f">SFX #9f</title>
-			<title code="0xa0">SFX #a0</title>
-			<title code="0xa1">SFX #a1</title>
-			<title code="0xa2">SFX #a2</title>
-			<title code="0xa3">SFX #a3</title>
-			<title code="0xa4">SFX #a4</title>
-			<title code="0xa5">SFX #a5</title>
-			<title code="0xa6">SFX #a6</title>
-			<title code="0xa7">SFX #a7</title>
-			<title code="0xa8">SFX #a8</title>
-			<title code="0xa9">SFX #a9</title>
-			<title code="0xaa">SFX #aa</title>
-			<title code="0xab">SFX #ab</title>
-			<title code="0xac">SFX #ac</title>
-			<title code="0xad">SFX #ad</title>
-			<title code="0xae">SFX #ae</title>
-			<title code="0xaf">SFX #af</title>
-			<title code="0xb0">SFX #b0</title>
-			<title code="0xb1">SFX #b1</title>
-			<title code="0xb2">SFX #b2</title>
-			<title code="0xb3">SFX #b3</title>
-			<title code="0xb4">SFX #b4</title>
-			<title code="0xb5">SFX #b5</title>
-			<title code="0xb6">SFX #b6</title>
-			<title code="0xb7">SFX #b7</title>
-			<title code="0xb8">SFX #b8</title>
-			<title code="0xb9">SFX #b9</title>
+			<title code="0x09">Team Select</title>
+			<title code="0x99">Goal</title>
+			<title code="0x0b">Win</title>
+			<title code="0x0a">Next Game</title>
+			<title code="0x0c">Lose</title>
+			<title code="0x0e">All Clear</title>
+			<title code="0x0f">Ending</title>
+			<title code="0x10">Game Over</title>
+			<title code="0x0d">Name Entry</title>
+			<range max="0x2a" min="0x34" extcode="0">Voice #%02X</range>
+			<range max="0x80" min="0x85" extcode="0">Voice #%02X</range>
+			<range max="0x11" min="0x29" extcode="0">SFX #%02X</range>
+			<range max="0x35" min="0x7a" extcode="0">SFX #%02X</range>
+			<range max="0x86" min="0x97" extcode="0">SFX #%02X</range>
+			<range max="0x9a" min="0xb9" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4344,36 +4297,36 @@
 			<rom type="adpcma" offset="0x000000">c98-01.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0A">Attract Mode</title>
+			<title code="0x0a">Attract Mode</title>
 			<title code="0x09">Radish Land -Prologue-</title>
 			<title code="0x08">Credit</title>
 			<title code="0x21">Selection</title>
-			<title code="0x0B">Grandfather's Room</title>
-			<title code="0x0D">BGM 1 - Town of Zak &amp; Mell</title>
-			<title code="0x0C">Underearth - Radio Tone (unused)</title>
+			<title code="0x0b">Grandfather's Room</title>
+			<title code="0x0d">BGM 1 - Town of Zak &amp; Mell</title>
+			<title code="0x0c">Underearth - Radio Tone (unused)</title>
 			<title code="0x17">Boss - Normal Version</title>
-			<title code="0x0F">BGM 2 - Stuck of Cristals</title>
-			<title code="0x3E">Boss - Cliff Failure</title>
+			<title code="0x0f">BGM 2 - Stuck of Cristals</title>
+			<title code="0x3e">Boss - Cliff Failure</title>
 			<title code="0x61">Round Clear</title>
-			<title code="0x6E">Foolish Code</title>
+			<title code="0x6e">Foolish Code</title>
 			<title code="0x10">BGM 3 - Town of Noids</title>
 			<title code="0x64">Boss - Kagamijishi</title>
-			<title code="0x1D">Intermission</title>
+			<title code="0x1d">Intermission</title>
 			<title code="0x11">BGM 4 - Desert</title>
-			<title code="0x1C">Special Magic - Rapman</title>
-			<title code="0x1B">Special Magic - Mr. Mikata</title>
+			<title code="0x1c">Special Magic - Rapman</title>
+			<title code="0x1b">Special Magic - Mr. Mikata</title>
 			<title code="0x12">BGM 5 - Exhausted Town</title>
 			<title code="0x65">Boss - Shaman</title>
 			<title code="0x13">BGM 6 - Escher World</title>
 			<title code="0x16">BGM 7 - The Sky, Above the Clouds (unused)</title>
-			<title code="0x6F">Lively Code</title>
+			<title code="0x6f">Lively Code</title>
 			<title code="0x15">BGM 8 - Snow Field, Bosket of Memory</title>
-			<title code="0x1A">Special Magic - Cradlesong (unused)</title>
+			<title code="0x1a">Special Magic - Cradlesong (unused)</title>
 			<title code="0x14">BGM 9 - Messed-up Cave</title>
 			<title code="0x19">All Rounds Clear</title>
-			<title code="0x1E">Ending</title>
+			<title code="0x1e">Ending</title>
 			<title code="0x20">Game Over</title>
-			<title code="0x1F">Name Regist</title>
+			<title code="0x1f">Name Regist</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4393,13 +4346,13 @@
 		</romlist>
 		<titlelist>
 			<title code="0x49">Red &amp; Yellow [Attract 1] - intro</title>
-			<title code="0x0A">Red &amp; Yellow [Attract 2]</title>
+			<title code="0x0a">Red &amp; Yellow [Attract 2]</title>
 			<title code="0x46">Credit</title>
-			<title code="0x0B">Take Off [Opening]</title>
-			<title code="0x0C">Born to be free [Round 1 -Down to The Earth-]</title>
-			<title code="0x0D">visitor [Boss A -Round 1-]</title>
-			<title code="0x0E">Dancing Horming [Bonus A -Override-]</title>
-			<title code="0x0F">Dancing Horming -w/o intro-</title>
+			<title code="0x0b">Take Off [Opening]</title>
+			<title code="0x0c">Born to be free [Round 1 -Down to The Earth-]</title>
+			<title code="0x0d">visitor [Boss A -Round 1-]</title>
+			<title code="0x0e">Dancing Horming [Bonus A -Override-]</title>
+			<title code="0x0f">Dancing Horming -w/o intro-</title>
 			<title code="0x10">Dual Moon [Round 2 -Cry for The Moon-]</title>
 			<title code="0x11">Yueez [Boss B -Round 2-]</title>
 			<title code="0x12">memory [Clear -Round 2-]</title>
@@ -4407,14 +4360,14 @@
 			<title code="0x14">Dio panic! [Boss C -Round 3-]</title>
 			<title code="0x15">non fiction [Bonus B -Black Out-]</title>
 			<title code="0x17">Waste days [Round 4 -Cristal-]</title>
-			<title code="0x18">the gate of guardian ([oss D -Round 4-]</title>
+			<title code="0x18">the gate of guardian ([Boss D -Round 4-]</title>
 			<title code="0x19">Doubt [Round 5 -Nemesis Crisis-]</title>
-			<title code="0x1A">Phantasm [Boss E -Round 5-]</title>
-			<title code="0x1D">Game is over [Bad End]</title>
-			<title code="0x1C">Time [Round 6 -A Mirage of Mind Gaia-]</title>
-			<title code="0x1E">a mirage of mind #1 [Ending]</title>
+			<title code="0x1a">Phantasm [Boss E -Round 5-]</title>
+			<title code="0x1d">Game is over [Bad End]</title>
+			<title code="0x1c">Time [Round 6 -A Mirage of Mind Gaia-]</title>
+			<title code="0x1e">a mirage of mind #1 [Ending]</title>
 			<title code="0x20">a mirage of mind #2 [Credits Roll]</title>
-			<title code="0x1F">Into the H.I. [Name Entry 1]</title>
+			<title code="0x1f">Into the H.I. [Name Entry 1]</title>
 			<title code="0x57">Into the H.I. -All Clear- [Name Entry 2]</title>
 		</titlelist>
 	</game>
@@ -4422,36 +4375,37 @@
 		<name>[F1 System] Dead Connection (デッドコネクション) (YM2610)</name>
 		<driver type="f2system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
-		<options>
-			<option name="fm_mix" value="0x0"/>
-			<option name="ssg_mix" value="0x0"/>
-			<option name="adpcma_mix" value="0x0"/>
-			<option name="adpcmb_mix" value="0x0"/>
-		</options>
 		<romlist archive="deadconx">
-			<rom type="code" offset="0x00000">d28-10.6</rom>
+			<rom type="code" offset="0x000000">d28-10.6</rom>
 			<rom type="adpcma" offset="0x000000">d28-03.10</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x5f">BGM #5f</title>
-			<title code="0x60">BGM #60</title>
-			<title code="0x61">BGM #61</title>
-			<title code="0x62">BGM #62</title>
-			<title code="0x63">BGM #63</title>
-			<title code="0x66">BGM #66</title>
-			<title code="0x67">BGM #67</title>
-			<title code="0x6a">BGM #6a</title>
-			<title code="0x6b">BGM #6b</title>
-			<title code="0x6c">BGM #6c</title>
-			<title code="0x6d">BGM #6d</title>
-			<title code="0x6f">BGM #6f</title>
-			<title code="0x70">BGM #70</title>
-			<title code="0x71">BGM #71</title>
-			<title code="0x72">BGM #72</title>
-			<title code="0x73">BGM #73</title>
-			<title code="0x75">BGM #75</title>
-			<title code="0x77">BGM #77</title>
-			<title code="0x78">BGM #78</title>
+			<title code="0x6c">Attract Demo</title>
+			<title code="0x72">Credit</title>
+			<title code="0x63">Charactor Select / Name Entry</title>
+			<title code="0x71">Introduction Stage 1</title>
+			<title code="0x73">Round Start</title>
+			<title code="0x5f">Stage 1,5</title>
+			<title code="0x67">Boss BGM Stage 1,2,3,4,5,6,7 / Stage 8</title>
+			<title code="0x77">Round Clear Stage 1,2,4,5,6,7</title>
+			<title code="0x78">Introduction Stage 2,3,5,6,7,8</title>
+			<title code="0x60">Stage 2,4,6</title>
+			<title code="0x61">Stage 3,7</title>
+			<title code="0x6b">Introduction Stage 4 / Ending Demo 1</title>
+			<title code="0x6a">Ending Demo 2</title>
+			<title code="0x62">Staff Roll</title>
+			<title code="0x75">Continue</title>
+			<title code="0x6f">The End (Game Retire)</title>
+			<title code="0x66">Unused #01</title>
+			<title code="0x6e">Unused #02</title>
+			<title code="0x70">Unused #03</title>
+			<title code="0x79">Unused #04</title>
+			<range min="0x61" max="0xab" extcode="0">SFX #%02X</range>
+			<title code="0x6d">SFX #6D</title>
+			<title code="0x74">SFX #74</title>
+			<title code="0x76">SFX #76</title>
+			<range min="0x7a" max="0xb0" extcode="0">SFX #%02X</range>
+			<range min="0xb2" max="0xff" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4466,7 +4420,7 @@
 			<rom type="code" offset="0x000000">c04-06.71</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2B">Credit</title>
+			<title code="0x2b">Credit</title>
 			<title code="0x05">Attract Mode</title>
 			<title code="0x06">Start</title>
 			<title code="0x10">Main Music</title>
@@ -4475,9 +4429,9 @@
 			<title code="0x10">Main Music</title>
 			<title code="0x07">Round Cleared</title>
 			<title code="0x09">Ending</title>
-			<title code="0x0B">Name Entry</title>
-			<title code="0x0C">Game Over</title>
-			<title code="0x0A">End Credits (Part)</title>
+			<title code="0x0b">Name Entry</title>
+			<title code="0x0c">Game Over</title>
+			<title code="0x0a">End Credits (Part)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4576,6 +4530,9 @@
 		<name>[Super Z System] Galactic Storm (ギャラクティックストーム) (ES5505)</name>
 		<driver type="galastrm">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="es5505_mix" value="0x180"/>
+		</options>
 		<romlist archive="galastrm">
 			<rom type="main0">c99_15.ic105</rom>
 			<rom type="main1">c99_12.ic102</rom>
@@ -4590,15 +4547,16 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">祖国～Opening</title>
-			<title code="0x08">Protmind～Main Theme</title>
-			<title code="0x04">Acrobat 1</title>
-			<title code="0x05">Acrobat 2</title>
+			<title code="0x05">Protmind～Main Theme</title>
+			<title code="0x04">Acrobat</title>
 			<title code="0x03">DNA CITY （記憶の都市）</title>
 			<title code="0x02">回路</title>
-			<title code="0x23">電脳皇帝</title>
-			<title code="0x09">Ending</title>
-			<title code="0x0a">帰還</title>
-			<title code="0x0b">Over</title>
+			<title code="0x09">電脳皇帝</title>
+			<title code="0x06">Ending</title>
+			<title code="0x07">帰還</title>
+			<title code="0x08">Over</title>
+			<title code="0x0a">Protmind～Main Theme</title>
+			<title code="0x0b">電脳皇帝</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4655,19 +4613,19 @@
 		<titlelist>
 			<title code="0x02">Intro Story</title>
 			<title code="0x04">Character Select</title>
-			<title code="0x0F">Stage 1, 4-1, 5-3, 7</title>
+			<title code="0x0f">Stage 1, 4-1, 5-3, 7</title>
 			<title code="0x05">Mission Completed</title>
 			<title code="0x09">Stage 2, 6-1, 5-2</title>
-			<title code="0x0B">Stage 3, 5-1, 6-3</title>
-			<title code="0x0D">Stage 4-2, 6-2</title>
-			<title code="0x0E">Last Battle</title>
+			<title code="0x0b">Stage 3, 5-1, 6-3</title>
+			<title code="0x0d">Stage 4-2, 6-2</title>
+			<title code="0x0e">Last Battle</title>
 			<title code="0x10">Credits Roll</title>
 			<title code="0x04">Name Entry</title>
 			<title code="0x06">Game Over</title>
 			<title code="0x07">Unused 1</title>
 			<title code="0x08">Unused 2</title>
-			<title code="0x0A">Unused 3</title>
-			<title code="0x0C">Unused 4</title>
+			<title code="0x0a">Unused 3</title>
+			<title code="0x0c">Unused 4</title>
 			<title code="0x11">Unused 5</title>
 		</titlelist>
 	</game>
@@ -4731,18 +4689,18 @@
 		</romlist>
 		<titlelist>
 			<title code="0x16">Rain</title>
-			<title code="0x0A">Tactical Tracer</title>
+			<title code="0x0a">Tactical Tracer</title>
 			<title code="0x05">Crossing Street</title>
 			<title code="0x07">Trigger Happy</title>
 			<title code="0x09">Terminal Domain</title>
-			<title code="0x0B">Round Clear</title>
-			<title code="0x0C">Round Clear</title>
+			<title code="0x0b">Round Clear</title>
+			<title code="0x0c">Round Clear</title>
 			<title code="0x12">All Clear</title>
-			<title code="0x0E">Game Over</title>
-			<title code="0x0D">47 Hours</title>
+			<title code="0x0e">Game Over</title>
+			<title code="0x0d">47 Hours</title>
 			<title code="0x08">Silent Groove</title>
 			<title code="0x11">Fake Metal</title>
-			<title code="0x0F">Accident (Not Released on a CD)</title>
+			<title code="0x0f">Accident (Not on CD)</title>
 			<title code="0x15">Unknown 1</title>
 			<title code="0x10">Unknown 2</title>
 			<title code="0x13">Unknown 3</title>
@@ -4801,28 +4759,28 @@
 		<titlelist>
 			<title code="0x09">Overture</title>
 			<title code="0x21">Dancing Girl</title>
-			<title code="0x0A">Dark Cloud [Player Select]</title>
-			<title code="0x0C">Wild Times [Round 1]</title>
-			<title code="0x0D">Wild Times [Round 1 Boss: Mumukinsuia]</title>
-			<title code="0x0E">Maiden Battle [Round 2 Boss: Asura]</title>
-			<title code="0x0F">Victory [Clear]</title>
+			<title code="0x0a">Dark Cloud [Player Select]</title>
+			<title code="0x0c">Wild Times [Round 1]</title>
+			<title code="0x0d">Wild Times [Round 1 Boss: Mumukinsuia]</title>
+			<title code="0x0e">Maiden Battle [Round 2 Boss: Asura]</title>
+			<title code="0x0f">Victory [Clear]</title>
 			<title code="0x10">Verse [Demo]</title>
 			<title code="0x13">Split in the Sky [Round 3]</title>
-			<title code="0x1E">Depth Charge [Round 3 Boss: Great Roc]</title>
+			<title code="0x1e">Depth Charge [Round 3 Boss: Great Roc]</title>
 			<title code="0x14">Wandering [Round 4]</title>
 			<title code="0x12">Vagrancy [Round 4]</title>
 			<title code="0x19">Seance [Round 4 Boss: Kanjiji]</title>
 			<title code="0x11">Journey [Round 4 &amp; Name Entry]</title>
-			<title code="0x0B">Curtainfall [Game Over]</title>
+			<title code="0x0b">Curtainfall [Game Over]</title>
 			<title code="0x15">Foreign Country [Round 5]</title>
 			<title code="0x16">Foreign Country [Round 5]</title>
 			<title code="0x17">Nightmare [Round 5]</title>
 			<title code="0x18">Nightmare [Round 5]</title>
-			<title code="0x1A">Mystery [Lamp]</title>
-			<title code="0x1B">Attack [Round 6]</title>
-			<title code="0x1C">Heartthrob [Round 7]</title>
-			<title code="0x1D">Ancient Castle [Round 7]</title>
-			<title code="0x1F">Timber Chute [Last Boss: Baruantess]</title>
+			<title code="0x1a">Mystery [Lamp]</title>
+			<title code="0x1b">Attack [Round 6]</title>
+			<title code="0x1c">Heartthrob [Round 7]</title>
+			<title code="0x1d">Ancient Castle [Round 7]</title>
+			<title code="0x1f">Timber Chute [Last Boss: Baruantess]</title>
 			<title code="0x20">Grand Finale - Going with the Great Tide [All Round Clear]</title>
 			<title code="0x21">Grand Finale - Going with the Great Tide [End Credits]</title>
 		</titlelist>
@@ -4943,10 +4901,10 @@
 			<rom type="pcm" offset="0xc00000">d66-02.ic3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x5C">The First Report [Attract Demo]</title>
-			<title code="0x5D">On Standby [Starting Demo]</title>
-			<title code="0x5E">Penetration [Round 1]</title>
-			<title code="0x5F">G [Round 2]</title>
+			<title code="0x5c">The First Report [Attract Demo]</title>
+			<title code="0x5d">On Standby [Starting Demo]</title>
+			<title code="0x5e">Penetration [Round 1]</title>
+			<title code="0x5f">G [Round 2]</title>
 			<title code="0x66">Aggresiveness [Boss A] : Experiment 1</title>
 			<title code="0x60">Vision [Round 3]</title>
 			<title code="0x61">Cracking! [Round 4]</title>
@@ -4956,10 +4914,10 @@
 			<title code="0x65">The Plot Thickens [Route to Round 7]</title>
 			<title code="0x64">Quartz [Round 7]</title>
 			<title code="0x69">The Fates [Last Boss 1]</title>
-			<title code="0x6A">Doomsday [Last Boss 2]</title>
-			<title code="0x6D">Q.E.P.D. [Ending]</title>
-			<title code="0x6C">KP-4 [Name Entry]</title>
-			<title code="0x6B">Reason for it [Game Over]</title>
+			<title code="0x6a">Doomsday [Last Boss 2]</title>
+			<title code="0x6d">Q.E.P.D. [Ending]</title>
+			<title code="0x6c">KP-4 [Name Entry]</title>
+			<title code="0x6b">Reason for it [Game Over]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4984,15 +4942,15 @@
 			<title code="0x07">H.T.H. '93</title>
 			<title code="0x03">Team Select</title>
 			<title code="0x04">Goal #1</title>
-			<title code="0x0E">Goal #2</title>
+			<title code="0x0e">Goal #2</title>
 			<title code="0x09">Yellow Card</title>
-			<title code="0x0A">Exit</title>
+			<title code="0x0a">Exit</title>
 			<title code="0x05">Next Stage</title>
-			<title code="0x0B">Happening!</title>
-			<title code="0x0F">P.K.</title>
-			<title code="0x0C">Continue</title>
+			<title code="0x0b">Happening!</title>
+			<title code="0x0f">P.K.</title>
+			<title code="0x0c">Continue</title>
 			<title code="0x06">Game Over</title>
-			<title code="0x0D">Jump!</title>
+			<title code="0x0d">Jump!</title>
 			<title code="0x08">lat. 11 dig N</title>
 			<title code="0x10">Tribute to H.T.H. Staff</title>
 		</titlelist>
@@ -5051,18 +5009,18 @@
 			<rom type="pcm" offset="0xc00000">d69-02.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xAA">Title</title>
-			<title code="0xA2">Dancing Girl Ver.2 [Opening]</title>
-			<title code="0xA3">The Story will be Talked Again [Character Select]</title>
-			<title code="0xA0">With the Holy Sword, Light Bringer [Main Theme]</title>
-			<title code="0xA8">Stream of Sorrow Wanders Around the Age of Vanity [Shrine]</title>
-			<title code="0xA1">Recall It As Providence Leads You [Boss]</title>
-			<title code="0xA7">Stand in Silent Fear [Labyrinth]</title>
-			<title code="0xA6">Now We Cut Off the Hideous Chains [Fight]</title>
-			<title code="0xA5">Consecrate for the Magnificent Volition [Theme of Venom]</title>
-			<title code="0xA9">Evil Lord Descends and Humble Again [Last Boss]</title>
-			<title code="0xA4">Believe in Eternity... [Ending]</title>
-			<title code="0xAC">Dancing Girl Ver.3 [Name Entry]</title>
+			<title code="0xaa">Title</title>
+			<title code="0xa2">Dancing Girl Ver.2 [Opening]</title>
+			<title code="0xa3">The Story will be Talked Again [Character Select]</title>
+			<title code="0xa0">With the Holy Sword, Light Bringer [Main Theme]</title>
+			<title code="0xa8">Stream of Sorrow Wanders Around the Age of Vanity [Shrine]</title>
+			<title code="0xa1">Recall It As Providence Leads You [Boss]</title>
+			<title code="0xa7">Stand in Silent Fear [Labyrinth]</title>
+			<title code="0xa6">Now We Cut Off the Hideous Chains [Fight]</title>
+			<title code="0xa5">Consecrate for the Magnificent Volition [Theme of Venom]</title>
+			<title code="0xa9">Evil Lord Descends and Humble Again [Last Boss]</title>
+			<title code="0xa4">Believe in Eternity... [Ending]</title>
+			<title code="0xac">Dancing Girl Ver.3 [Name Entry]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5072,7 +5030,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x10D460"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="kaiserkn">
 			<rom type="main0">d84-25.20</rom>
@@ -5087,8 +5044,8 @@
 			<rom type="pcm" offset="0xc00000">d84-02.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x20B">Kaiser Knuckle [Attract Mode]</title>
-			<title code="0x20C">In the World [Player Demo]</title>
+			<title code="0x20b">Kaiser Knuckle [Attract Mode]</title>
+			<title code="0x20c">In the World [Player Demo]</title>
 			<title code="0x201">Look at Me! [Theme from Kazuya]</title>
 			<title code="0x209">Cry for the Moon [Theme from Wu Long]</title>
 			<title code="0x204">Capricious Valkyrie [Theme from Liza]</title>
@@ -5100,10 +5057,10 @@
 			<title code="0x202">Round Clear</title>
 			<title code="0x207">Splendor [Theme from Barts]</title>
 			<title code="0x206">Unavailable #7004 [Theme from Marco]</title>
-			<title code="0x20A">Continue</title>
-			<title code="0x20E">One Night Dream [Theme from Boggy]</title>
-			<title code="0x20D">Select B</title>
-			<title code="0x20F">Wheel of Fortune [Motif of Azteca]</title>
+			<title code="0x20a">Continue</title>
+			<title code="0x20e">One Night Dream [Theme from Boggy]</title>
+			<title code="0x20d">Select B</title>
+			<title code="0x20f">Wheel of Fortune [Motif of Azteca]</title>
 			<title code="0x210">Emperor [Motif of General]</title>
 			<title code="0x211">Beginning of the End</title>
 		</titlelist>
@@ -5158,7 +5115,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0xE8000"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="bublbob2">
 			<rom type="main0">d90-12</rom>
@@ -5171,9 +5127,9 @@
 			<rom type="pcm" offset="0xc00000">d90-05</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x9B">Opening ~ Magical Beginning [Attract Demo]</title>
-			<title code="0x9F">One Day Something Happened [Opening Demo] Intro</title>
-			<title code="0xA0">One Day Something Happened [Opening Demo]</title>
+			<title code="0x9b">Opening ~ Magical Beginning [Attract Demo]</title>
+			<title code="0x9f">One Day Something Happened [Opening Demo] Intro</title>
+			<title code="0xa0">One Day Something Happened [Opening Demo]</title>
 			<title code="0x98">At the Entrance to the Country of Magic [Chara Select]</title>
 			<title code="0x90">Inside a Picture Book [Normal Round BGM] Intro</title>
 			<title code="0x91">Inside a Picture Book [Normal Round BGM]</title>
@@ -5181,20 +5137,20 @@
 			<title code="0x96">Scall Appears!</title>
 			<title code="0x99">That's Rough! [Normal Boss Round BGM]</title>
 			<title code="0x94">Event Scenery 1 ~ Meet Yamato [Darius Area Boss BGM]</title>
-			<title code="0xAA">Event Scenery 1 ~ Meet Yamato</title>
-			<title code="0xA7">Event Scenery 2 ~ Jack O' Colsona's Cape [Pulirula Area Boss BGM]</title>
-			<title code="0xA8">Event Scenery 3 ~ The Fake Continues [Strange World Boss BGM]</title>
-			<title code="0x9C">Candy Everywhere [Boss Clear BGM]</title>
+			<title code="0xaa">Event Scenery 1 ~ Meet Yamato</title>
+			<title code="0xa7">Event Scenery 2 ~ Jack O' Colsona's Cape [Pulirula Area Boss BGM]</title>
+			<title code="0xa8">Event Scenery 3 ~ The Fake Continues [Strange World Boss BGM]</title>
+			<title code="0x9c">Candy Everywhere [Boss Clear BGM]</title>
 			<title code="0x95">Round Clear [Round Clear]</title>
-			<title code="0x9E">Sacred Cave [Extra Round BGM]</title>
-			<title code="0xA2">Sorcerer Drunk [Last Boss BGM]</title>
-			<title code="0xA3">The Road Leads On to the Village [All Clear Demo]</title>
-			<title code="0xA4">Talking of Memories of a Far-off Land [Ending]</title>
-			<title code="0x9D">Wasn't it Fun? [Name Register]</title>
+			<title code="0x9e">Sacred Cave [Extra Round BGM]</title>
+			<title code="0xa2">Sorcerer Drunk [Last Boss BGM]</title>
+			<title code="0xa3">The Road Leads On to the Village [All Clear Demo]</title>
+			<title code="0xa4">Talking of Memories of a Far-off Land [Ending]</title>
+			<title code="0x9d">Wasn't it Fun? [Name Register]</title>
 			<title code="0x97">Game Over [Game Over]</title>
-			<title code="0xA5">Map Display [Unused Track]</title>
-			<title code="0xA9">Old Man's Legend ~ Bubble Bobble Theme [Bubble Bobble BGM]</title>
-			<title code="0x0D">Unknown</title>
+			<title code="0xa5">Map Display [Unused Track]</title>
+			<title code="0xa9">Old Man's Legend ~ Bubble Bobble Theme [Bubble Bobble BGM]</title>
+			<title code="0x0d">Unknown</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5204,7 +5160,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x50000"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="spcinvdj">
 			<rom type="main0">d93-04.bin</rom>
@@ -5232,7 +5187,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0xEBF16"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="pwrgoal">
 			<rom type="main0">d94-18.bin</rom>
@@ -5270,7 +5224,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x7BBC"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="elvactr">
 			<rom type="main0">e02-12.20</rom>
@@ -5284,32 +5237,32 @@
 			<rom type="pcm" offset="0xc00000">e02-05.39</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1C6">D.E.F [Misson Start 1, 2, 4]</title>
-			<title code="0x1C7">D.E.F [Game Start]</title>
-			<title code="0x1CF">Red After Image (1) [Mission 1-1]</title>
-			<title code="0x1C2">Red After Image (2) [Mission 1-2]</title>
-			<title code="0x1D1">System Down (1) [Mission 2-1, 2-2]</title>
-			<title code="0x1CD">System Down (2) [Mission 2-3]</title>
-			<title code="0x1CA">Message from 1998 [Mission Complete BGM 2]</title>
-			<title code="0x1CE">Feedback Romance (1) [Mission 3-1]</title>
-			<title code="0x1D0">Feedback Romance (2) [Mission 3-2]</title>
-			<title code="0x1C3">Colours of Nights [Mission 3-3]</title>
-			<title code="0x1C9">Side by Side (1) [Mission Start BGM 3, Fin]</title>
-			<title code="0x1D3">Side by Side (2) [Mission 4-1]</title>
-			<title code="0x1D2">Side by Side (3) [Mission 4-2]</title>
-			<title code="0x1C8">I Can Only Think in Job (1) [Mission Start 5]</title>
-			<title code="0x1C5">I Can Only Think in Job (2) [Mission Complete]</title>
-			<title code="0x1C4">I Can Only Think in Job (3) [Mission 3-4]</title>
-			<title code="0x1D4">I Can Only Think in Job (4) [Mission 5-1]</title>
-			<title code="0x1D7">Break Beat [Mission 5-2]</title>
-			<title code="0x1D8">Blow Up [Final Mission 1]</title>
-			<title code="0x1D9">"Red Suit" [Final Mission 2]</title>
-			<title code="0x1DA">"Red Suit" [Final Mission 3]</title>
-			<title code="0x1DB">Missing Link [Ending]</title>
-			<title code="0x1CB">Pre Production (1)</title>
-			<title code="0x1CC">Pre Production (2) [Name Entry]</title>
-			<title code="0x1C1">Elevator Action '95</title>
-			<title code="0x1D6">Unknown</title>
+			<title code="0x1c6">D.E.F [Misson Start 1, 2, 4]</title>
+			<title code="0x1c7">D.E.F [Game Start]</title>
+			<title code="0x1cf">Red After Image (1) [Mission 1-1]</title>
+			<title code="0x1c2">Red After Image (2) [Mission 1-2]</title>
+			<title code="0x1d1">System Down (1) [Mission 2-1, 2-2]</title>
+			<title code="0x1cd">System Down (2) [Mission 2-3]</title>
+			<title code="0x1ca">Message from 1998 [Mission Complete BGM 2]</title>
+			<title code="0x1ce">Feedback Romance (1) [Mission 3-1]</title>
+			<title code="0x1d0">Feedback Romance (2) [Mission 3-2]</title>
+			<title code="0x1c3">Colours of Nights [Mission 3-3]</title>
+			<title code="0x1c9">Side by Side (1) [Mission Start BGM 3, Fin]</title>
+			<title code="0x1d3">Side by Side (2) [Mission 4-1]</title>
+			<title code="0x1d2">Side by Side (3) [Mission 4-2]</title>
+			<title code="0x1c8">I Can Only Think in Job (1) [Mission Start 5]</title>
+			<title code="0x1c5">I Can Only Think in Job (2) [Mission Complete]</title>
+			<title code="0x1c4">I Can Only Think in Job (3) [Mission 3-4]</title>
+			<title code="0x1d4">I Can Only Think in Job (4) [Mission 5-1]</title>
+			<title code="0x1d7">Break Beat [Mission 5-2]</title>
+			<title code="0x1d8">Blow Up [Final Mission 1]</title>
+			<title code="0x1d9">"Red Suit" [Final Mission 2]</title>
+			<title code="0x1da">"Red Suit" [Final Mission 3]</title>
+			<title code="0x1db">Missing Link [Ending]</title>
+			<title code="0x1cb">Pre Production (1)</title>
+			<title code="0x1cc">Pre Production (2) [Name Entry]</title>
+			<title code="0x1c1">Elevator Action '95</title>
+			<title code="0x1d6">Unknown</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5319,7 +5272,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x64B10"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="spcinv95">
 			<rom type="main0">e06-14.20</rom>
@@ -5333,17 +5285,17 @@
 		</romlist>
 		<titlelist>
 			<title code="0x99">Title Demo</title>
-			<title code="0xBE">Player Select</title>
+			<title code="0xbe">Player Select</title>
 			<title code="0x97">Round Start Demo</title>
 			<title code="0x90">Round 1 - At the Supermarket</title>
-			<title code="0x9C">Round 2 - Street Kitchen</title>
-			<title code="0x9D">Round 3 - A Holiday of Idol - I'm happy</title>
+			<title code="0x9c">Round 2 - Street Kitchen</title>
+			<title code="0x9d">Round 3 - A Holiday of Idol - I'm happy</title>
 			<title code="0x94">Round 3 - Love is Magic - Love you more than Superman</title>
-			<title code="0x9E">Round 4 - Time</title>
-			<title code="0xB9">Round 5 / Bonus Stage</title>
-			<title code="0xBC">Round Boss</title>
-			<title code="0xBD">Ending</title>
-			<title code="0x9F">Game Over</title>
+			<title code="0x9e">Round 4 - Time</title>
+			<title code="0xb9">Round 5 / Bonus Stage</title>
+			<title code="0xbc">Round Boss</title>
+			<title code="0xbd">Ending</title>
+			<title code="0x9f">Game Over</title>
 			<title code="0x98">Name Entry</title>
 			<title code="0x91">BGM #91</title>
 			<title code="0x95">BGM #95</title>
@@ -5356,7 +5308,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0xE8000"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="twinqix">
 			<rom type="main0">mpr0-3.b60</rom>
@@ -5377,19 +5328,18 @@
 			<title code="0x35">BGM #35</title>
 			<title code="0x37">BGM #37</title>
 			<title code="0x39">BGM #39</title>
-			<title code="0x3A">BGM #3A</title>
-			<title code="0x3C">BGM #3C</title>
-			<title code="0x3D">BGM #3D</title>
+			<title code="0x3a">BGM #3A</title>
+			<title code="0x3c">BGM #3C</title>
+			<title code="0x3d">BGM #3D</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[F3 System] Moriguchi Hiroko no Quiz de Hyuu!Hyuu! (森口博子のクイズでヒュー！ヒュー！) (ES5505)</name>
+		<name>[F3 System] Moriguchi Hiroko no Quiz de Hyuu! Hyuu! (森口博子のクイズでヒュー！ヒュー！) (ES5505)</name>
 		<driver type="f3system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x5667C"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="quizhuhu">
 			<rom type="main0">e08-16.20</rom>
@@ -5449,8 +5399,7 @@
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="sub_size" value="0x180000"/>
-			<option name="tbloffs" value="0x8A1DE"/>
-			<option name="es5505_mix" value="0x200"/>
+			<option name="tbloffs" value="0xcb3e"/>
 		</options>
 		<romlist archive="pbobble2">
 			<rom type="main0">e10-24.bin</rom>
@@ -5493,13 +5442,65 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[F3 System] Puzzle Bobble 2x (パズルボブル2x) (ES5505)</name>
+		<driver type="f3system">taito</driver>
+		<driveralias type="Arcade">Taito</driveralias>
+		<options>
+			<option name="sub_size" value="0x180000"/>
+			<option name="tbloffs" value="0xcbfe"/>
+		</options>
+		<romlist archive="pbobble2">
+			<rom type="main0">e10-29.20</rom>
+			<rom type="main1">e10-28.19</rom>
+			<rom type="main2">e10-27.18</rom>
+			<rom type="main3">e10-26.17</rom>
+			<rom type="sub0">e10-30.32</rom>
+			<rom type="sub1">e10-31.33</rom>
+			<rom offset="0x000000" type="pcm">e10-04.rom</rom>
+			<rom offset="0x400000" type="pcm">e10-03.rom</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x38">Title Demo (タイトルデモ)</title>
+			<title code="0x36">Welcome My Lovely [Select] (うぇるかむ・まいらぶり~ [セレクト])</title>
+			<title code="0x37">Oppekepe no Pe [Demo BGM] (おっぺけぺのぺ~ [デモBGM])</title>
+			<title code="0x31">Step Skip Go Go! [BGM1] (すてっぷ・すきっぷ・ごーごー! [BGM1])</title>
+			<title code="0x41">Step Skip Go Go! [BGM1 - Hurry Up 1] (すてっぷ・すきっぷ・ごーごー! [BGM1 - hurry up 1])</title>
+			<title code="0x45">Step Skip Go Go! [BGM1 - Hurry Up 2] (すてっぷ・すきっぷ・ごーごー! [BGM1 - hurry up 2])</title>
+			<title code="0x35">Round Clear (ラウンドクリア)</title>
+			<title code="0x32">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2] (パオパオ島へ行こう!-なかやまMIX- [BGM2])</title>
+			<title code="0x42">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2 - Hurry Up 1] (パオパオ島へ行こう!-なかやまMIX- [BGM2 - hurry up 1])</title>
+			<title code="0x46">Let's Go to Pao Pao Island! - Nakayama Mix [BGM2 - Hurry Up 2] (パオパオ島へ行こう!-なかやまMIX- [BGM2 - hurry up 2])</title>
+			<title code="0x33">April Forest - Nakayama Mix [BGM3] (4月の森-なかやまMIX- [BGM3])</title>
+			<title code="0x43">April Forest - Nakayama Mix [BGM3 - Hurry Up 1] (4月の森-なかやまMIX- [BGM3 - hurry up 1])</title>
+			<title code="0x47">April Forest - Nakayama Mix [BGM3 - Hurry Up 2] (4月の森-なかやまMIX- [BGM3 - hurry up 2])</title>
+			<title code="0x3d">Continue (コンティニュー)</title>
+			<title code="0x3c">Bye Bye Gokkun [Name Regist] (ばいばいごっくん [ネームレジスト])</title>
+			<title code="0x84">くりすまっす。 (季節デモ from 2x)</title>
+			<title code="0x85">あ!はっぴぃにゅういや~ (季節デモ from 2x)</title>
+			<title code="0x39">Travelers Dream [BGM4] (らべら~ず・どり~む [BGM4])</title>
+			<title code="0x49">Travelers Dream [BGM4 - Hurry Up 1] (とらべら~ず・どり~む [BGM4 - hurry up 1])</title>
+			<title code="0x4b">Travelers Dream [BGM4 - Hurry Up 2] (とらべら~ず・どり~む [BGM4 - hurry up 2])</title>
+			<title code="0x34">Qi-Qi [BGM5]</title>
+			<title code="0x44">Qi-Qi [BGM5 - Hurry Up 1]</title>
+			<title code="0x48">Qi-Qi [BGM5 - Hurry Up 2]</title>
+			<title code="0x81">Paradise Cha Cha Cha! (ぱらだいす・ちゃ・ちゃ・ちゃ!) [BGM6 from 2x]</title>
+			<title code="0x82">Paradise Cha Cha Cha! (ぱらだいす・ちゃ・ちゃ・ちゃ! [BGM4 - hurry up 1]) [BGM6 from 2x - Hurry Up 1]</title>
+			<title code="0x83">Paradise Cha Cha Cha! (ぱらだいす・ちゃ・ちゃ・ちゃ! [BGM4 - hurry up 2]) [BGM6 from 2x - Hurry Up 2]</title>
+			<title code="0x3a">Buru-buru Nightmare [Drunk BGM] (ぶるぶる・ないとめあ [ドランクBGM])</title>
+			<title code="0x4a">Buru-buru Nightmare [Drunk BGM - Hurry Up 1] (ぶるぶる・ないとめあ [ドランクBGM - hurry up 1])</title>
+			<title code="0x4c">Buru-buru Nightmare [Drunk BGM - Hurry Up 2] (ぶるぶる・ないとめあ [ドランクBGM - hurry up 2])</title>
+			<title code="0x3b">All Round Clear (オールラウンドクリア)</title>
+			<title code="0x3f">Let's Go to the Dream World with You [Ending] (君と行こう夢の世界へ [Ending])</title>
+			<title code="0x3e">Game Over (ゲームオーバー)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[F3 System] Gekirindan (逆鱗弾) (ES5505)</name>
 		<driver type="f3system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x5F36"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="gekiridn">
 			<rom type="main0">e11-12.ic20</rom>
@@ -5513,8 +5514,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x63">Player Select</title>
-			<title code="0x5E">Pure Spirit [BGM 1 / A.D.3195]</title>
-			<title code="0x5F">Recursion [BGM 2 / A.D.1942]</title>
+			<title code="0x5e">Pure Spirit [BGM 1 / A.D.3195]</title>
+			<title code="0x5f">Recursion [BGM 2 / A.D.1942]</title>
 			<title code="0x60">Untitled Soldier [BGM 3 / A.D.1999]</title>
 			<title code="0x61">Mixing Beat [BGM 4 / A.D.2373]</title>
 			<title code="0x62">Whats Inside [BGM 5 / A.D.4580]</title>
@@ -5529,7 +5530,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x43E74"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="tcobra2">
 			<rom type="main0">e15-14.bin</rom>
@@ -5562,13 +5562,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[F3 System] Bubble Memories: The Story of Bubble Bobble 3 (バブルメモリーズ -THE STORY OF BUBLLE BOBBLE III-) (ES5505)</name>
+		<name>[F3 System] Bubble Memories: The Story of Bubble Bobble III (バブルメモリーズ -THE STORY OF BUBLLE BOBBLE III-) (ES5505)</name>
 		<driver type="f3system">taito</driver>
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x17F000"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="bubblem">
 			<rom type="main0">e21-21.20</rom>
@@ -5581,27 +5580,27 @@
 			<rom type="pcm" offset="0x400000">e21-04.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x93">BGM #93</title>
-			<title code="0x94">BGM #94</title>
-			<title code="0x95">BGM #95</title>
-			<title code="0x96">BGM #96</title>
-			<title code="0x97">BGM #97</title>
-			<title code="0x98">BGM #98</title>
-			<title code="0x99">BGM #99</title>
-			<title code="0x9a">BGM #9A</title>
-			<title code="0x9b">BGM #9B</title>
-			<title code="0x9c">BGM #9C</title>
-			<title code="0x9d">BGM #9D</title>
-			<title code="0x9e">BGM #9E</title>
-			<title code="0x9f">BGM #9F</title>
-			<title code="0xa0">BGM #A0</title>
-			<title code="0xa2">BGM #A2</title>
-			<title code="0xa3">BGM #A3</title>
-			<title code="0xa4">BGM #A4</title>
-			<title code="0xa5">BGM #A5</title>
-			<title code="0xa6">BGM #A6</title>
-			<title code="0xaa">BGM #AA</title>
-			<title code="0xab">BGM #AB</title>
+			<title code="0x9d">終りの始まり(ストーリーデモ)</title>
+			<title code="0x9b">スキップランチ(ゲーム選択、テクニック紹介)</title>
+			<title code="0x93">思い出の地へ(スタートデモ)</title>
+			<title code="0x94">思い出の地へ(メインテーマ)</title>
+			<title code="0x99">SU・KA・RU (スカル登場)</title>
+			<title code="0x9c">パニックランド(ボスBGM)</title>
+			<title code="0x98">新たな世界へ(ボスクリア)</title>
+			<title code="0x97">道の向こうに(ボーナスゲーム、NEXTゲーム)</title>
+			<title code="0x9a">聖なる小箱(ヒントルーム)</title>
+			<title code="0xa6">混乱(最終ボス登場)</title>
+			<title code="0xab">混乱(最終ボステーマ)</title>
+			<title code="0x9f">魔王の巣窟(エンディング(ノーマル))</title>
+			<title code="0xa0">帰還(エンディング(スーパー))</title>
+			<title code="0xa2">思い出がリフレイン(スタッフロール)</title>
+			<title code="0xa4">終わらない散歩(今日の成績)</title>
+			<title code="0xa3">ボカブンブン(ネームレジスト)</title>
+			<title code="0xaa">ショータイム(オールクリア ゲームオーバー)</title>
+			<title code="0x95">あの頃のボク(練習モード・オープニング)</title>
+			<title code="0x96">あの頃のボク(練習モード・メインテーマ(バブルボブル))</title>
+			<title code="0x9e">Yeah!(ラウンドクリア)</title>
+			<title code="0xa5">Whoops!(ゲームオーバー)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5611,7 +5610,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x31E4A"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="cleopatr">
 			<rom type="main0">e28-10.bin</rom>
@@ -5623,8 +5621,8 @@
 			<rom type="pcm" offset="0x000000">e28-03.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2D">Cleopatra Fortune</title>
-			<title code="0x2F">Select</title>
+			<title code="0x2d">Cleopatra Fortune</title>
+			<title code="0x2f">Select</title>
 			<title code="0x31">Shinin' Queen</title>
 			<title code="0x32">Stone Age</title>
 			<title code="0x33">Pinch!</title>
@@ -5634,7 +5632,7 @@
 			<title code="0x36">Continue</title>
 			<title code="0x34">Game Over</title>
 			<title code="0x39">Play Demo #1</title>
-			<title code="0x2E">Play Demo #2</title>
+			<title code="0x2e">Play Demo #2</title>
 			<title code="0x37">Desire</title>
 		</titlelist>
 	</game>
@@ -5645,7 +5643,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x32046"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="pbobble3">
 			<rom type="main0">e29-12.rom</rom>
@@ -5659,21 +5656,21 @@
 			<rom type="pcm" offset="0xc00000">e29-05.rom</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xB2">Title Demonstration</title>
-			<title code="0xB5">Positive Kick Waltz [Select BGM1]</title>
-			<title code="0xB6">Honest People Flying in the Air [Select BGM2]</title>
-			<title code="0xBD">The Slippers of Dreams [Main BGM1]</title>
-			<title code="0xB3">Stage Clear!</title>
-			<title code="0xBE">Let's Go to Pao Pao Island -URI MIX- [Main BGM2]</title>
-			<title code="0xB7">Blast Man Appearance! [Select BGM3]</title>
-			<title code="0xBF">April Forest -URI MIX- [Main BGM3]</title>
-			<title code="0xB8">Caloric Master [Select BGM4]</title>
-			<title code="0xC0">Recycling Chop [Last Boss BGM]</title>
-			<title code="0xBB">Game Over</title>
-			<title code="0xBA">Continue</title>
-			<title code="0xB9">Heat-up Dance -Together With Mama- [Name Entry]</title>
-			<title code="0xB4">All Round Clear</title>
-			<title code="0xBC">The Slippers of Dreams -Reprise- [Ending]</title>
+			<title code="0xb2">Title Demonstration</title>
+			<title code="0xb5">Positive Kick Waltz [Select BGM1]</title>
+			<title code="0xb6">Honest People Flying in the Air [Select BGM2]</title>
+			<title code="0xbd">The Slippers of Dreams [Main BGM1]</title>
+			<title code="0xb3">Stage Clear!</title>
+			<title code="0xbe">Let's Go to Pao Pao Island -URI MIX- [Main BGM2]</title>
+			<title code="0xb7">Blast Man Appearance! [Select BGM3]</title>
+			<title code="0xbf">April Forest -URI MIX- [Main BGM3]</title>
+			<title code="0xb8">Caloric Master [Select BGM4]</title>
+			<title code="0xc0">Recycling Chop [Last Boss BGM]</title>
+			<title code="0xbb">Game Over</title>
+			<title code="0xba">Continue</title>
+			<title code="0xb9">Heat-up Dance -Together With Mama- [Name Entry]</title>
+			<title code="0xb4">All Round Clear</title>
+			<title code="0xbc">The Slippers of Dreams -Reprise- [Ending]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5683,7 +5680,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x27006"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="arkretrn">
 			<rom type="main0">e36-11</rom>
@@ -5738,30 +5734,30 @@
 			<title code="0x132">Gemstone Land</title>
 			<title code="0x126">Go Go West [Garnet]</title>
 			<title code="0x131">Swallow [Ruco]</title>
-			<title code="0x12A">Child Play [Rald]</title>
-			<title code="0x13F">Episode #1</title>
+			<title code="0x12a">Child Play [Rald]</title>
+			<title code="0x13f">Episode #1</title>
 			<title code="0x127">Jewel Box [Shyst]</title>
 			<title code="0x133">Episode #2</title>
 			<title code="0x128">Smile for Me</title>
-			<title code="0x12C">Sylban Library [Bee]</title>
+			<title code="0x12c">Sylban Library [Bee]</title>
 			<title code="0x135">Sands of Time</title>
 			<title code="0x124">Player Select</title>
-			<title code="0x12B">Nervous Delivery [Pearl &amp; Dearl]</title>
-			<title code="0x12D">Deja Vu [Perydot]</title>
-			<title code="0x12F">Old Vision [Opa]</title>
+			<title code="0x12b">Nervous Delivery [Pearl &amp; Dearl]</title>
+			<title code="0x12d">Deja Vu [Perydot]</title>
+			<title code="0x12f">Old Vision [Opa]</title>
 			<title code="0x136">Over the Sky</title>
-			<title code="0x13B">For You</title>
+			<title code="0x13b">For You</title>
 			<title code="0x125">Puchi Carat</title>
-			<title code="0x13C">Congratulation</title>
-			<title code="0x12E">Bad Moon [Sapphire]</title>
+			<title code="0x13c">Congratulation</title>
+			<title code="0x12e">Bad Moon [Sapphire]</title>
 			<title code="0x129">Mirage [C-Mond]</title>
 			<title code="0x134">Episode #3</title>
 			<title code="0x130">Order of Blue Shield [Paz]</title>
 			<title code="0x137">Episode #4</title>
-			<title code="0x13D">Friends Staff</title>
-			<title code="0x13E">Shinin' Queen [Patoraco]</title>
+			<title code="0x13d">Friends Staff</title>
+			<title code="0x13e">Shinin' Queen [Patoraco]</title>
 			<title code="0x139">Parade</title>
-			<title code="0x13A">Game Over</title>
+			<title code="0x13a">Game Over</title>
 			<title code="0x138">Unknown</title>
 		</titlelist>
 	</game>
@@ -5771,8 +5767,7 @@
 		<driveralias type="Arcade">Taito</driveralias>
 		<options>
 			<option name="sub_size" value="0x180000"/>
-			<option name="tbloffs" value="0xF3176"/>
-			<option name="es5505_mix" value="0x200"/>
+			<option name="tbloffs" value="0xf3176"/>
 		</options>
 		<romlist archive="pbobble4">
 			<rom type="main0">e49-12.20</rom>
@@ -5808,7 +5803,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0xFDCBC"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="popnpop">
 			<rom type="main0">e51-12.20</rom>
@@ -5847,7 +5841,6 @@
 		<options>
 			<option name="sub_size" value="0x180000"/>
 			<option name="tbloffs" value="0x6BDE"/>
-			<option name="es5505_mix" value="0x200"/>
 		</options>
 		<romlist archive="landmakr">
 			<rom type="main0">e61-13.20</rom>
@@ -5895,22 +5888,22 @@
 		</romlist>
 		<titlelist>
 			<title code="0x08">Demo</title>
-			<title code="0x0A">Title</title>
-			<title code="0xF2">Credit</title>
-			<title code="0x0F">Player Select</title>
+			<title code="0x0a">Title</title>
+			<title code="0xf2">Credit</title>
+			<title code="0x0f">Player Select</title>
 			<title code="0x09">Space Shuttle</title>
-			<title code="0x0B">VS</title>
+			<title code="0x0b">VS</title>
 			<title code="0x03">U.S.A</title>
 			<title code="0x01">Japan</title>
 			<title code="0x05">Brazil</title>
 			<title code="0x06">China</title>
 			<title code="0x02">Germany</title>
 			<title code="0x04">England</title>
-			<title code="0x0E">Win</title>
-			<title code="0x0D">Ending</title>
+			<title code="0x0e">Win</title>
+			<title code="0x0d">Ending</title>
 			<title code="0x12">Name Entry</title>
 			<title code="0x07">Game Over</title>
-			<title code="0x0C">Continue?</title>
+			<title code="0x0c">Continue?</title>
 			<title code="0x10">Unused 1</title>
 			<title code="0x11">Unused 2</title>
 		</titlelist>
@@ -5999,17 +5992,17 @@
 			<rom type="adpcma" offset="0x000000">e22-01.15</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0A">Fire &amp; Ice [Atract Demo BGM]</title>
+			<title code="0x0a">Fire &amp; Ice [Atract Demo BGM]</title>
 			<title code="0x09">Select</title>
-			<title code="0x0D">Burning Storm ["Burn" Theme]</title>
+			<title code="0x0d">Burning Storm ["Burn" Theme]</title>
 			<title code="0x14">Fallen Angel ["Emilio" Theme]</title>
-			<title code="0x0C">Lunatic Crow ["Brad" Theme]</title>
+			<title code="0x0c">Lunatic Crow ["Brad" Theme]</title>
 			<title code="0x02">Carry Away! ["Sonia" Theme]</title>
 			<title code="0x18">Melos of the Seal Magic ["Genma" Theme]</title>
 			<title code="0x10">Revenger ["Gates" Theme]</title>
-			<title code="0x1C">Birdie Birdie! ["Wendy" Theme]</title>
-			<title code="0x0F">Asian Labyrinth ["WONG" Theme]</title>
-			<title code="0x1A">Freezing Point ["KEITH" Theme]</title>
+			<title code="0x1c">Birdie Birdie! ["Wendy" Theme]</title>
+			<title code="0x0f">Asian Labyrinth ["WONG" Theme]</title>
+			<title code="0x1a">Freezing Point ["KEITH" Theme]</title>
 			<title code="0x12">Last Impact [Final Stage BGM]</title>
 			<title code="0x16">Burning Scape [Ending]</title>
 			<title code="0x07">Continue</title>
@@ -6111,30 +6104,30 @@
 			<rom type="pcm" offset="0x000000">e25-04.27</rom>
 			<rom type="pcm" offset="0x400000">e25-05.28</rom>
 		</romlist>
-			<titlelist>
-				<title code="0x25">first Impact</title>
-				<title code="0x08">Angel Beat</title>
-				<title code="0x07">Dead Lock</title>
-				<title code="0x16">Here come a new challenger!</title>
-				<title code="0x17">Scoop</title>
-				<title code="0x18">Scoop (Outro)</title>
-				<title code="0x02">Major flight</title>
-				<title code="0x03">古都 -Koto-</title>
-				<title code="0x04">Sunny</title>
-				<title code="0x06">Be Cool</title>
-				<title code="0x01">Away Game</title>
-				<title code="0x05">Human complex</title>
-				<title code="0x1a">宣告 -Break out-</title>
-				<title code="0x1c">道 -Road-</title>
-				<title code="0x19">人別帖 -Beyond the earth-</title>
-				<title code="0x1d">対時 -Valet-</title>
-				<title code="0x21">旅路 -Regret-</title>
-				<title code="0x1e">凶影 -Magic-</title>
-				<title code="0x22">共鳴 -Delirium-</title>
-				<title code="0x23">光と闇 -Curse-</title>
-				<title code="0x26">想舞灯 -Gone-</title>
-				<title code="0x24">夢枕 -O.Z-</title>
-			</titlelist>
+		<titlelist>
+			<title code="0x25">first Impact</title>
+			<title code="0x08">Angel Beat</title>
+			<title code="0x07">Dead Lock</title>
+			<title code="0x16">Here come a new challenger!</title>
+			<title code="0x17">Scoop</title>
+			<title code="0x18">Scoop (Outro)</title>
+			<title code="0x02">Major flight</title>
+			<title code="0x03">古都 -Koto-</title>
+			<title code="0x04">Sunny</title>
+			<title code="0x06">Be Cool</title>
+			<title code="0x01">Away Game</title>
+			<title code="0x05">Human complex</title>
+			<title code="0x1a">宣告 -Break out-</title>
+			<title code="0x1c">道 -Road-</title>
+			<title code="0x19">人別帖 -Beyond the earth-</title>
+			<title code="0x1d">対時 -Valet-</title>
+			<title code="0x21">旅路 -Regret-</title>
+			<title code="0x1e">凶影 -Magic-</title>
+			<title code="0x22">共鳴 -Delirium-</title>
+			<title code="0x23">光と闇 -Curse-</title>
+			<title code="0x26">想舞灯 -Gone-</title>
+			<title code="0x24">夢枕 -O.Z-</title>
+		</titlelist>
 	</game>
 	<game>
 		<name>[GNET] Kollon (ころん) (ZSG2)</name>
@@ -6216,29 +6209,113 @@
 			<rom type="pcm" offset="0x400000">sndflash2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Or, Can  it be said that her behavior is a crime? [Attract]</title>
-			<title code="0x02">The Models [Waiting]</title>
-			<title code="0x03">There is no sense unless everything is arranged completely [Player Select]</title>
-			<title code="0x11">Lavande bleu [Story 1]</title>
-			<title code="0x0a">Vit-symty [Story 2]</title>
-			<title code="0x14">Non Sentimentalisme [Story 3]</title>
-			<title code="0x0d">Son dessein [Story 4]</title>
-			<title code="0x04">Blood and tide [Continue]</title>
-			<title code="0x06">Formless living bodies [Last Boss Type A]</title>
-			<title code="0x17">Root of all evil [Last Boss Type-B]</title>
-			<title code="0x08">All is shut down [Ending Type A]</title>
-			<title code="0x09">There are no nails at my tip toe [Ending Type B]</title>
-			<title code="0x05">Love is not enough [Game Over]</title>
-			<title code="0x18">All is shut down [Ending Type-A (complete version)]</title>
-			<title code="0x07">Not on CD #07</title>
-			<title code="0x0b">Not on CD #0B</title>
-			<title code="0x0c">Not on CD #0C</title>
-			<title code="0x0e">Not on CD #0E</title>
-			<title code="0x0f">Not on CD #0F</title>
-			<title code="0x12">Not on CD #12</title>
-			<title code="0x13">Not on CD #13</title>
-			<title code="0x15">Not on CD #15</title>
-			<title code="0x16">Not on CD #16</title>
+			<title code="0x01">Or, Can  it be said that her behavior is a crime? [Attract] (少女の行為はもう終わったのか)</title>
+			<title code="0x02">The Models [Waiting] (自分で撰んだ拷問)</title>
+			<title code="0x03">There is no sense unless everything is arranged completely [Player Select] (100％じゃ駄目だ、100％じゃなきゃ駄目なんだ)</title>
+			<title code="0x11">Lavande bleu (1) [Story 1] (ラベンダーの咲く庭 #1)</title>
+			<title code="0x12">Lavande bleu (2) [Story 1] (ラベンダーの咲く庭 #2)</title>
+			<title code="0x13">Lavande bleu (3) [Story 1] (ラベンダーの咲く庭 #3)</title>
+			<title code="0x0a">Vit-symty (1) [Story 2] (生命の風が吹く場所 #1)</title>
+			<title code="0x0b">Vit-symty (2) [Story 2] (生命の風が吹く場所 #2)</title>
+			<title code="0x0c">Vit-symty (3) [Story 2] (生命の風が吹く場所 #3)</title>
+			<title code="0x14">Non Sentimentalisme (1) [Story 3] (女の子にはセンチメンタルなんて感情はない #1)</title>
+			<title code="0x15">Non Sentimentalisme (2) [Story 3] (女の子にはセンチメンタルなんて感情はない #2)</title>
+			<title code="0x16">Non Sentimentalisme (3) [Story 3] (女の子にはセンチメンタルなんて感情はない #3)</title>
+			<title code="0x0d">Son dessein (1) [Story 4] (彼女の目的 #1)</title>
+			<title code="0x0e">Son dessein (2) [Story 4] (彼女の目的 #2)</title>
+			<title code="0x0f">Son dessein (3) [Story 4] (彼女の目的 #3)</title>
+			<title code="0x04">Blood and tide [Continue] (ふたつの液体)</title>
+			<title code="0x06">Formless living bodies (1) [Last Boss Type A] (司教は言った「それは奇跡じゃない」 #1)</title>
+			<title code="0x07">Formless living bodies (2) [Last Boss Type A] (司教は言った「それは奇跡じゃない」 #2)</title>
+			<title code="0x17">Root of all evil [Last Boss Type-B] (聖母マリアよ、二人を何故別々に？)</title>
+			<title code="0x08">All is shut down [Ending Type A] (童話の消えた森)</title>
+			<title code="0x09">There are no nails at my tip toe [Ending Type B] (天使の爪痕)</title>
+			<title code="0x05">Love is not enough [Game Over] (愛が足りない)</title>
+			<title code="0x18">All is shut down [Ending Type-A (complete version)] (童話の消えた森(complete version))</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[GNET] Psyvariar -Revision- (ZSG2)</name>
+		<driver type="gnet">taito</driver>
+		<driveralias type="Arcade">Success</driveralias>
+		<romlist archive="psyvarrv">
+			<rom offset="0x080000" type="code">pgmflash</rom>
+			<rom offset="0x000000" type="pcm">sndflash0</rom>
+			<rom offset="0x200000" type="pcm">sndflash1</rom>
+			<rom offset="0x400000" type="pcm">sndflash2</rom>
+		</romlist>
+		<options>
+			<option name="pcm_mix" value="0x100"/>
+			<option name="pcm_size" value="0x600000"/>
+		</options>
+		<titlelist>
+			<title code="0x01">Stop</title>
+			<title code="0x15">Opening</title>
+			<title code="0x03">Mode Select</title>
+			<title code="0x04">Erath</title>
+			<title code="0x09">Forest</title>
+			<title code="0x0a">Valley</title>
+			<title code="0x0b">Desert</title>
+			<title code="0x12">Volcano</title>
+			<title code="0x0f">Asteroid</title>
+			<title code="0x05">Boss #01</title>
+			<title code="0x0c">Cludbank</title>
+			<title code="0x06">Colony</title>
+			<title code="0x14">Zero-Space</title>
+			<title code="0x02">City</title>
+			<title code="0x11">Factory</title>
+			<title code="0x0d">Boss #02</title>
+			<title code="0x07">Clear</title>
+			<title code="0x10">Photon</title>
+			<title code="0x13">Graviton</title>
+			<title code="0x16">Weakboson</title>
+			<title code="0x19">Gluon_re</title>
+			<title code="0x17">LastBoss</title>
+			<title code="0x18">Ending</title>
+			<title code="0x08">NameEntry</title>
+			<title code="0x0e">Gameover</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[GNET] Psyvariar -Medium Unit- (ZSG2)</name>
+		<driver type="gnet">taito</driver>
+		<driveralias type="Arcade">Success</driveralias>
+		<romlist archive="psyvaria">
+			<rom offset="0x080000" type="code">pgmflash</rom>
+			<rom offset="0x000000" type="pcm">sndflash0</rom>
+			<rom offset="0x200000" type="pcm">sndflash1</rom>
+			<rom offset="0x400000" type="pcm">sndflash2</rom>
+		</romlist>
+		<options>
+			<option name="pcm_mix" value="0x100"/>
+			<option name="pcm_size" value="0x600000"/>
+		</options>
+		<titlelist>
+			<title code="0x01">Stop</title>
+			<title code="0x15">Opening</title>
+			<title code="0x03">Select [Complete Edition ver]</title>
+			<title code="0x04">Erath</title>
+			<title code="0x09">Forest</title>
+			<title code="0x0a">Valley</title>
+			<title code="0x0b">Desert</title>
+			<title code="0x12">Volcano</title>
+			<title code="0x0f">Asteroid</title>
+			<title code="0x05">Boss #01</title>
+			<title code="0x0c">Cludbank</title>
+			<title code="0x06">Colony</title>
+			<title code="0x14">Zero-Space</title>
+			<title code="0x02">City</title>
+			<title code="0x11">Factory</title>
+			<title code="0x0d">Boss #02</title>
+			<title code="0x07">Clear</title>
+			<title code="0x10">Photon</title>
+			<title code="0x13">Graviton</title>
+			<title code="0x16">Weakboson</title>
+			<title code="0x19">Gluon</title>
+			<title code="0x17">LastBoss</title>
+			<title code="0x18">Ending</title>
+			<title code="0x08">NameEntry</title>
+			<title code="0x0e">Gameover</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6262,17 +6339,17 @@
 			<rom type="pcm" offset="0xc00000">e35-20.035</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0E">Go! Go! Train [Title Demo]</title>
-			<title code="0x0B">Traffic [intro] [Line Select]</title>
-			<title code="0x0C">Traffic [main] [Line Select]</title>
-			<title code="0x0F">Game Start</title>
+			<title code="0x0e">Go! Go! Train [Title Demo]</title>
+			<title code="0x0b">Traffic [intro] [Line Select]</title>
+			<title code="0x0c">Traffic [main] [Line Select]</title>
+			<title code="0x0f">Game Start</title>
 			<title code="0x08">Departure Bell</title>
 			<title code="0x04">Bonus Hit</title>
 			<title code="0x06">Bonus Stage</title>
 			<title code="0x05">Docking!!</title>
 			<title code="0x09">Name Entry</title>
 			<title code="0x07">Congratulation!! [Accomplished]</title>
-			<title code="0x0D">Take me sunset [Ending]</title>
+			<title code="0x0d">Take me sunset [Ending]</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6474,8 +6551,8 @@
 			<title code="0x6">Music 4</title>
 			<title code="0x8">Music 5</title>
 			<title code="0x9">Music 6</title>
-			<title code="0xA">Music 7</title>
-			<title code="0xC">Music 8</title>
+			<title code="0xa">Music 7</title>
+			<title code="0xc">Music 8</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6568,8 +6645,8 @@
 			<title code="0x7">Music 8</title>
 			<title code="0x8">Music 9</title>
 			<title code="0x9">Music 10</title>
-			<title code="0xA">Music 11</title>
-			<title code="0xB">Music 12</title>
+			<title code="0xa">Music 11</title>
+			<title code="0xb">Music 12</title>
 		</titlelist>
 	</game>
 	<game>

@@ -2424,20 +2424,20 @@
 			<rom type="bgm" offset="0x0a">GOJI10.MBL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ゴジラ タイトル</title>
-			<title code="0x02">ゴジラ エンディング</title>
+			<title code="0x01">Godzilla - Title (ゴジラ タイトル)</title>
+			<title code="0x02">Godzilla - Ending (ゴジラ エンディング)</title>
 			<title code="0x03">GOJI03.MBL</title>
 			<title code="0x04">GOJI04.MBL</title>
-			<title code="0x05">ゴジラの恐怖</title>
+			<title code="0x05">Fear of Godzilla (ゴジラの恐怖)</title>
 			<title code="0x06">GOJI06.MBL</title>
-			<title code="0x07">ゴジラ対メカゴジラ</title>
-			<title code="0x08">怪獣大戦争 メインタイトル</title>
+			<title code="0x07">Godzilla vs. Mechagodzilla (ゴジラ対メカゴジラ)</title>
+			<title code="0x08">Invasion of Astro-Monster - Main Title (怪獣大戦争 メインタイトル)</title>
 			<title code="0x09">GOJI09.MBL</title>
-			<title code="0x0a">L作戦マーチI</title>
+			<title code="0x0a">L Strategy March I (L作戦マーチI)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Playmaker Football (プレイメーカー フットボール) (YM2203)</name>
+		<name>[PC-9801] PlayMaker Football (プレイメーカー フットボール) (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">SystemSoft</driveralias>
 		<options>
@@ -2850,41 +2850,8 @@
 			<title code="0x000c">敵軍勝利</title>
 			<title code="0x0012">エンディング</title>
 			<title code="0x000e">ゲームオーバー</title>
-			<title code="0x0101">SFX #01</title>
-			<title code="0x0102">SFX #02</title>
-			<title code="0x0103">SFX #03</title>
-			<title code="0x0105">SFX #05</title>
-			<title code="0x0106">SFX #06</title>
-			<title code="0x0107">SFX #07</title>
-			<title code="0x0108">SFX #08</title>
-			<title code="0x0109">SFX #09</title>
-			<title code="0x010a">SFX #0a</title>
-			<title code="0x010b">SFX #0b</title>
-			<title code="0x010c">SFX #0c</title>
-			<title code="0x010d">SFX #0d</title>
-			<title code="0x010e">SFX #0e</title>
-			<title code="0x010f">SFX #0f</title>
-			<title code="0x0110">SFX #10</title>
-			<title code="0x0111">SFX #11</title>
-			<title code="0x0112">SFX #12</title>
-			<title code="0x0113">SFX #13</title>
-			<title code="0x0114">SFX #14</title>
-			<title code="0x0115">SFX #15</title>
-			<title code="0x0116">SFX #16</title>
-			<title code="0x0117">SFX #17</title>
-			<title code="0x0118">SFX #18</title>
-			<title code="0x0119">SFX #19</title>
-			<title code="0x011a">SFX #1a</title>
-			<title code="0x011b">SFX #1b</title>
-			<title code="0x011c">SFX #1c</title>
-			<title code="0x011d">SFX #1d</title>
-			<title code="0x011e">SFX #1e</title>
-			<title code="0x011f">SFX #1f</title>
-			<title code="0x0120">SFX #20</title>
-			<title code="0x0121">SFX #21</title>
-			<title code="0x0122">SFX #22</title>
-			<title code="0x0123">SFX #23</title>
-			<title code="0x0124">SFX #24</title>
+			<range min="0x0101" max="0x0103" extcode="1">SFX #%02X</range>
+			<range min="0x0105" max="0x0124" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3098,7 +3065,7 @@
 			<title code="0x09">合戦</title>
 			<title code="0x0A">負け</title>
 			<title code="0x0B">偃武</title>
-			<title code="0x0C">エンディング</title>
+			<title code="0x0C">Ending (エンディング)</title>
 			<title code="0x0D">未使用</title>
 		</titlelist>
 	</game>
@@ -3146,7 +3113,7 @@
 			<rom type="code" offset="0x64000">OPENING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x12">オープニング</title>
+			<title code="0x12">Opening (オープニング)</title>
 			<title code="0x02">Lotus Eaters</title>
 			<title code="0x03">The Holy Crown</title>
 			<title code="0x04">The Sole Hope</title>
@@ -3177,24 +3144,24 @@
 			<rom type="x" offset="0x10000">2151DRV.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">タイトル～メニュー</title>
-			<title code="0x07">メニュー</title>
-			<title code="0x08">マニュアル</title>
-			<title code="0x0b">パスワード</title>
-			<title code="0x01">オープニング</title>
-			<title code="0x0a">マップ</title>
+			<title code="0x05">Title ~ Menu (タイトル～メニュー)</title>
+			<title code="0x07">Menu (メニュー)</title>
+			<title code="0x08">Manual (マニュアル)</title>
+			<title code="0x0b">Password (パスワード)</title>
+			<title code="0x01">Opening (オープニング)</title>
+			<title code="0x0a">Map (マップ)</title>
 			<title code="0x02">自軍ターン</title>
 			<title code="0x10">自軍優勢</title>
 			<title code="0x03">敵軍ターン</title>
 			<title code="0x11">敵軍優勢</title>
 			<title code="0x0d">工場占拠</title>
-			<title code="0x0f">ステージクリア</title>
+			<title code="0x0f">Stage Clear (ステージクリア)</title>
 			<title code="0x04">自軍勝利</title>
 			<title code="0x06">自軍敗北</title>
 			<title code="0x0c">敵軍勝利</title>
 			<title code="0x09">敵軍敗北</title>
-			<title code="0x12">エンディング</title>
-			<title code="0x0e">ゲームオーバー</title>
+			<title code="0x12">Ending (エンディング)</title>
+			<title code="0x0e">Game Over (ゲームオーバー)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3496,7 +3463,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Tir-nan-og: Daana no Matsuei (ティル・ナ・ノーグ ダーナの末裔) (YM2413)</name>
+		<name>[MSX2] Tir-nan-og: Dana no Matsuei (ティル・ナ・ノーグ ダーナの末裔) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">SystemSoft</driveralias>
 		<options>
@@ -3536,7 +3503,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Tir-nan-og: Daana no Matsuei (ティル・ナ・ノーグ ダーナの末裔) (AY-3-8910)</name>
+		<name>[MSX2] Tir-nan-og: Dana no Matsuei (ティル・ナ・ノーグ ダーナの末裔) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">SystemSoft</driveralias>
 		<options>
@@ -3575,7 +3542,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Shanghai 2 (上海 II) (AY-3-8910)</name>
+		<name>[MSX2] Shanghai II (上海 II) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">SystemSoft</driveralias>
 		<options>
@@ -3664,6 +3631,32 @@
 			<title code="0x03">Lose Mission (任務失敗)</title>
 			<title code="0x04">Complete (任務成功)</title>
 			<title code="0x05">Liberation (エンディング)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Lord of Wars (ロード・オブ・ウォーズ) (BEEP)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="NEC PC-9801">SystemSoft</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+		</options>
+		<romlist archive="low_98">
+			<rom type="file" offset="-1">VBEEP.SYS</rom>
+			<rom type="file" offset="-1">LOW_98.COM</rom>
+			<rom type="file" offset="0x10">MUSIC.BIN</rom>
+			<rom type="device" offset="0">vbeep.sys 500</rom>
+			<rom type="shell"  offset="0">low_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x18">Title (タイトル)</title>
+			<title code="0x0e">勝利</title>
+			<title code="0x0f">敗北</title>
+			<title code="0x0d">Ending (エンディング)</title>
+			<title code="0x12">勝利者の記録</title>
+			<title code="0x0c">BGM 0x0C</title>
+			<range min="0x014" max="0x017" extcode="0">Fanfare #%02X (ファンファーレ%02X)</range>
+			<range min="0x000" max="0x00b" extcode="1">SFX #%02X</range>
+			<range min="0x010" max="0x011" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>

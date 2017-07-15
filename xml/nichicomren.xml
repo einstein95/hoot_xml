@@ -38,7 +38,7 @@
 	<game>
 		<name>[X68000] D-Return (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">NichiComRen Kikaku</driveralias>
+		<driveralias type="X68000">NichiKonRen Kikaku</driveralias>
 		<romlist archive="dreturn68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
@@ -135,7 +135,7 @@
 	<game>
 		<name>[X68000] Loop Eraser (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">NichiComRen Kikaku</driveralias>
+		<driveralias type="X68000">NichiKonRen Kikaku</driveralias>
 		<romlist archive="loopersr68snd">
 			<rom type="code">le68snd.bin</rom>
 			<rom type="x" offset="0x010000">OPMDRV.X</rom>
@@ -162,8 +162,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">Stop the Music</title>
-			<title code="0x02">Please Wait A Moment [LOADING]</title>
-			<title code="0x03">Loop Eraser [TITLE]</title>
+			<title code="0x02">Please Wait A Moment [Loading]</title>
+			<title code="0x03">Loop Eraser [Title]</title>
 			<title code="0x06">Stardust Blue [BGM 1]</title>
 			<title code="0x07">With You [BGM 2]</title>
 			<title code="0x08">Dizzy Waltz [BGM 3]</title>
@@ -174,18 +174,18 @@
 			<title code="0x0d">Run Through The Field [BGM 8]</title>
 			<title code="0x0e">Holy Ground [BGM 9]</title>
 			<title code="0x0f">åéÇ÷çsÇ±Ç§ÇÊ [BGM10]</title>
-			<title code="0x10">Crystal Rings [BGM11]</title>
-			<title code="0x11">Reminiscent Melody [BGM12]</title>
-			<title code="0x12">Strange Rhythm [BGM13]</title>
-			<title code="0x13">Metropolis NEO OSAKA [BGM14]</title>
-			<title code="0x04">Loop Eraser Ending [ENDING 1]</title>
-			<title code="0x05">Fair Breeze [ENDING2]</title>
+			<title code="0x10">Crystal Rings [BGM 11]</title>
+			<title code="0x11">Reminiscent Melody [BGM 12]</title>
+			<title code="0x12">Strange Rhythm [BGM 13]</title>
+			<title code="0x13">Metropolis NEO OSAKA [BGM 14]</title>
+			<title code="0x04">Loop Eraser Ending [Ending 1]</title>
+			<title code="0x05">Fair Breeze [Ending 2]</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Cannon Sight</name>
+		<name>[X68000] Cannon Sight (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">NichiComRen Kikaku</driveralias>
+		<driveralias type="X68000">NichiKonRen Kikaku</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 			<option name="dmaint" value="0x01"/>
@@ -210,8 +210,8 @@
 			<rom type="code" offset="0x02e000">BOSS3.ZMD</rom>
 			<rom type="code" offset="0x030000">ENDING1.ZMD</rom>
 			<rom type="code" offset="0x032000">ENDING2.ZMD</rom>
-			<rom type="x"    offset="0x060000">INITS.X</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x060000">INITS.X</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
 			<rom type="code" offset="0x100000">drum.zpd</rom>
 		</romlist>
 		<titlelist>

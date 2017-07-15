@@ -44,9 +44,9 @@
 		</options>
 		<romlist archive="exon68snd">
 			<rom type="code">exon68snd.bin</rom>
-			<rom type="x"    offset="0x10000">OPMDRV2.X</rom>
-			<rom type="x"    offset="0x30000">exong.x</rom>
-			<rom type="x"    offset="0x50000">exmenu.x</rom>
+			<rom type="x" offset="0x10000">OPMDRV2.X</rom>
+			<rom type="x" offset="0x30000">exong.x</rom>
+			<rom type="x" offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x02">Title (タイトル)</title>
@@ -64,9 +64,9 @@
 		</options>
 		<romlist archive="exon68snd">
 			<rom type="code">exon68mid.bin</rom>
-			<rom type="x"    offset="0x10000">OPMDRV2.X</rom>
-			<rom type="x"    offset="0x30000">exong.x</rom>
-			<rom type="x"    offset="0x50000">exmenu.x</rom>
+			<rom type="x" offset="0x10000">OPMDRV2.X</rom>
+			<rom type="x" offset="0x30000">exong.x</rom>
+			<rom type="x" offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x02">Title (タイトル)</title>
@@ -84,9 +84,9 @@
 		</options>
 		<romlist archive="exon68snd">
 			<rom type="code">exon68mid.bin</rom>
-			<rom type="x"    offset="0x10000">OPMDRV2.X</rom>
-			<rom type="x"    offset="0x30000">exong.x</rom>
-			<rom type="x"    offset="0x50000">exmenu.x</rom>
+			<rom type="x" offset="0x10000">OPMDRV2.X</rom>
+			<rom type="x" offset="0x30000">exong.x</rom>
+			<rom type="x" offset="0x50000">exmenu.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x02">Title (タイトル)</title>
@@ -117,15 +117,15 @@
 			<rom type="shell" offset="0">tennis</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01f8">00 : (無音)</title>
-			<title code="0x020a">01 : BGM 1</title>
-			<title code="0x021c">02 : BGM 2</title>
-			<title code="0x022e">03 : BGM 3</title>
-			<title code="0x0240">04 : BGM 4</title>
-			<title code="0x0252">05 : BGM 5</title>
-			<title code="0x0264">06 : BGM 6</title>
-			<title code="0x0276">07 : BGM 7</title>
-			<title code="0xffff">   : FADE OUT</title>
+			<title code="0x01f8">(無音)</title>
+			<title code="0x020a">BGM 1</title>
+			<title code="0x021c">BGM 2</title>
+			<title code="0x022e">BGM 3</title>
+			<title code="0x0240">BGM 4</title>
+			<title code="0x0252">BGM 5</title>
+			<title code="0x0264">BGM 6</title>
+			<title code="0x0276">BGM 7</title>
+			<title code="0xffff">FADE OUT</title>
 		</titlelist>
 	</game>
 	<game>
@@ -171,24 +171,24 @@
 			<rom type="shell" offset="0">yositune</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01f100">DEM.EXE : BGM 01</title>
-			<title code="0x020300">DEM.EXE : BGM 02</title>
-			<title code="0x01F101">ADV.EXE : BGM 01</title>
-			<title code="0x020301">ADV.EXE : BGM 02</title>
-			<title code="0x021501">ADV.EXE : BGM 03</title>
-			<title code="0x022701">ADV.EXE : BGM 04</title>
-			<title code="0x023901">ADV.EXE : BGM 05</title>
-			<title code="0x024B01">ADV.EXE : BGM 06</title>
-			<title code="0x025D01">ADV.EXE : BGM 07</title>
-			<title code="0x026F01">ADV.EXE : BGM 08</title>
-			<title code="0x028101">ADV.EXE : BGM 09</title>
-			<title code="0x029301">ADV.EXE : BGM 10</title>
-			<title code="0x02A501">ADV.EXE : BGM 11</title>
-			<title code="0x02B701">ADV.EXE : BGM 12</title>
-			<title code="0x01f102">SIM.EXE : BGM 01</title>
-			<title code="0x020302">SIM.EXE : BGM 02</title>
-			<title code="0x021502">SIM.EXE : BGM 03</title>
-			<title code="0x022702">SIM.EXE : BGM 04</title>
+			<title code="0x01f100">DEM.EXE #01</title>
+			<title code="0x020300">DEM.EXE #02</title>
+			<title code="0x01F101">ADV.EXE #01</title>
+			<title code="0x020301">ADV.EXE #02</title>
+			<title code="0x021501">ADV.EXE #03</title>
+			<title code="0x022701">ADV.EXE #04</title>
+			<title code="0x023901">ADV.EXE #05</title>
+			<title code="0x024B01">ADV.EXE #06</title>
+			<title code="0x025D01">ADV.EXE #07</title>
+			<title code="0x026F01">ADV.EXE #08</title>
+			<title code="0x028101">ADV.EXE #09</title>
+			<title code="0x029301">ADV.EXE #10</title>
+			<title code="0x02A501">ADV.EXE #11</title>
+			<title code="0x02B701">ADV.EXE #12</title>
+			<title code="0x01f102">SIM.EXE #01</title>
+			<title code="0x020302">SIM.EXE #02</title>
+			<title code="0x021502">SIM.EXE #03</title>
+			<title code="0x022702">SIM.EXE #04</title>
 			<title code="0x0000ff">FADE OUT</title>
 		</titlelist>
 	</game>
@@ -273,12 +273,12 @@
 			<rom type="shell" offset="0">netjack</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01f800">OPN.EXE  : BGM 01</title>
-			<title code="0x01f801">COA1.EXE : BGM 01 (無音)</title>
-			<title code="0x020a01">COA1.EXE : BGM 02</title>
-			<title code="0x021c01">COA1.EXE : BGM 03</title>
-			<title code="0x022e01">COA1.EXE : BGM 04</title>
-			<title code="0x024001">COA1.EXE : BGM 05</title>
+			<title code="0x01f800">OPN.EXE #01</title>
+			<title code="0x01f801">COA1.EXE #01 (無音)</title>
+			<title code="0x020a01">COA1.EXE #02</title>
+			<title code="0x021c01">COA1.EXE #03</title>
+			<title code="0x022e01">COA1.EXE #04</title>
+			<title code="0x024001">COA1.EXE #05</title>
 			<title code="0x0000ff">FADE OUT</title>
 		</titlelist>
 	</game>
@@ -464,22 +464,22 @@
 			<rom type="shell" offset="0">ttairan</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x01f800">ENDO.EXE : BGM 01 (無音)</title> -->
-			<title code="0x020a00">ENDO.EXE : BGM 02</title>
-			<title code="0x021c00">ENDO.EXE : BGM 03</title>
-			<title code="0x022e00">ENDO.EXE : BGM 04</title>
-			<title code="0x01f801">JAP.EXE  : BGM 01</title>
-			<title code="0x01f802">OPN.EXE  : BGM 01</title>
-			<title code="0x020a02">OPN.EXE  : BGM 02</title>
-		<!--	<title code="0x021c02">OPN.EXE  : BGM 03 (無音)</title> -->
-		<!--	<title code="0x01f803">PED.EXE  : BGM 01 (無音)</title> -->
-			<title code="0x020a03">PED.EXE  : BGM 02</title>
-			<title code="0x021c03">PED.EXE  : BGM 03</title>
-			<title code="0x022e03">PED.EXE  : BGM 04</title>
-		<!--	<title code="0x01f804">SIM.EXE  : BGM 01 (無音)</title> -->
-			<title code="0x020a04">SIM.EXE  : BGM 02</title>
-			<title code="0x021c04">SIM.EXE  : BGM 03</title>
-			<title code="0x022e04">SIM.EXE  : BGM 04</title>
+		<!--	<title code="0x01f800">ENDO.EXE #01 (無音)</title> -->
+			<title code="0x020a00">ENDO.EXE #02</title>
+			<title code="0x021c00">ENDO.EXE #03</title>
+			<title code="0x022e00">ENDO.EXE #04</title>
+			<title code="0x01f801">JAP.EXE #01</title>
+			<title code="0x01f802">OPN.EXE #01</title>
+			<title code="0x020a02">OPN.EXE #02</title>
+		<!--	<title code="0x021c02">OPN.EXE #03 (無音)</title> -->
+		<!--	<title code="0x01f803">PED.EXE #01 (無音)</title> -->
+			<title code="0x020a03">PED.EXE #02</title>
+			<title code="0x021c03">PED.EXE #03</title>
+			<title code="0x022e03">PED.EXE #04</title>
+		<!--	<title code="0x01f804">SIM.EXE #01 (無音)</title> -->
+			<title code="0x020a04">SIM.EXE #02</title>
+			<title code="0x021c04">SIM.EXE #03</title>
+			<title code="0x022e04">SIM.EXE #04</title>
 			<title code="0x0000ff">FADE OUT</title>
 		</titlelist>
 	</game>

@@ -74,12 +74,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] The Golf (OPLL)</name>
+		<name>[MSX2] The Golf (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Pack-In-Video</driveralias>
+		<driveralias type="MSX2">Pack-In-Video</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="thegolf_msx">
 		<rom type="code" offset="0x0400">patch</rom>
@@ -90,11 +90,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] The Golf (PSG)</name>
+		<name>[MSX2] The Golf (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Pack-In-Video</driveralias>
+		<driveralias type="MSX2">Pack-In-Video</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="thegolf_msx">
 		<rom type="code" offset="0x0400">patch2</rom>
@@ -105,15 +105,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] シルヴィアーナ ～愛いっぱいの冒険者～(OPLL)</name>
+		<name>[MSX2] Silviana: Ai-ippai no Boukensha  (シルヴィアーナ ～愛いっぱいの冒険者～) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Pack-In-Video</driveralias>
+		<driveralias type="MSX2">Pack-In-Video</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9c65"/>
 			<option name="mdata_size" value="0xe00"/>
 			<option name="mfile_size" value="0xe00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="silviana_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -138,14 +138,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] シルヴィアーナ ～愛いっぱいの冒険者～(PSG)</name>
+		<name>[MSX2] Silviana: Ai-ippai no Boukensha  (シルヴィアーナ ～愛いっぱいの冒険者～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Pack-In-Video</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x9c65"/>
 			<option name="mdata_size" value="0xe00"/>
 			<option name="mfile_size" value="0xe00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="silviana_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -170,14 +170,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 軍人将棋</name>
+		<name>[MSX2] Gunjin Shougi (軍人将棋) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Pack-In-Video</driveralias>
+		<driveralias type="MSX2">Pack-In-Video</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa000"/>
 			<option name="mdata_size" value="0x3000"/>
 			<option name="mfile_size" value="0x3000"/>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 		</options>
 		<romlist archive="gshogi_msx">
 			<rom type="code" offset="0x0400">patch</rom>

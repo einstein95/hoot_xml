@@ -408,6 +408,18 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-8801] KISS OF MURDER -殺意の接吻- ANOTHER STORY of MANHATTAN REQUIEM(DEMO)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="NEC PC-8801">Riverhill Soft</driveralias>
+		<romlist archive="kissof88dm">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xac00">DRIVER</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">SUSPICIOUS SCENE (DEMO version)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-8801] D.C. Connection: Ai to Shi no Meiro (D.C. コネクション 愛と死の迷路) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Riverhill Soft</driveralias>

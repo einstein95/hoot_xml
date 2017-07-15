@@ -78,7 +78,6 @@
 			<rom type="bgm2" offset="0x0b">WEAPON.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Stop the Music</title>
 			<title code="0x08">Title (É^ÉCÉgÉã)</title>
 			<title code="0x01">Petty Officer (â∫émäØ)</title>
 			<title code="0x04">Ensign (è≠à—)</title>
@@ -226,7 +225,7 @@
 			<option name="dummysndrom" value="1"/>
 			<option name="clockmul" value="8"/>
 		</options>
-		<romlist archive="carmen_98">
+		<romlist archive="csij_98">
 			<rom type="code" offset="0x00600">ss98md2.bin</rom>
 			<rom type="code" offset="0x01000">MUSIC.SYS</rom>
 			<rom type="bgm" offset="0x01">TAIHO.MUD</rom>
@@ -359,7 +358,6 @@
 			<rom type="bgm2" offset="0x03">START.MUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Stop the Music</title>
 			<title code="0x02">Round Select</title>
 			<title code="0x03">Round Start</title>
 			<title code="0x01">Round Clear</title>
@@ -481,8 +479,8 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0902">Title</title>
-			<title code="0x0903">BGM #1</title>
-			<title code="0x0904">BGM #2</title>
+			<title code="0x0903">BGM #01</title>
+			<title code="0x0904">BGM #02</title>
 			<title code="0x0905">Map Clear</title>
 			<title code="0x0906">Coffee Break</title>
 			<title code="0x0907">Game Over</title>
@@ -602,8 +600,11 @@
 			<rom type="code" offset="0x83F9">DIABLO.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x02" extcode="1">BGM #%02X</range>
-			<range min="0x05" max="0x07" extcode="1">BGM #%02X</range>
+			<title code="0x06">Title</title>
+			<title code="0x01">Main BGM</title>
+			<title code="0x02">Game Over</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x07">BGM #07</title>
 			<range min="0x103" max="0x104" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>

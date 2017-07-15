@@ -17,13 +17,13 @@
 	<!ELEMENT options (option)*>
 	<!ELEMENT option EMPTY>
 	<!ATTLIST option name CDATA #REQUIRED
-		 value CDATA #REQUIRED>
+					 value CDATA #REQUIRED>
 	<!ELEMENT romlist (rom)*>
 	<!ATTLIST romlist archive CDATA #IMPLIED>
 	<!ELEMENT rom (#PCDATA)>
 	<!ATTLIST rom type CDATA #REQUIRED
-					offset CDATA #IMPLIED
-					crc32 CDATA #IMPLIED>
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
 	<!ELEMENT titlelist (title|range)*>
 	<!ELEMENT title (#PCDATA)>
 	<!ATTLIST title code CDATA #REQUIRED

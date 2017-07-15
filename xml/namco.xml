@@ -273,7 +273,7 @@
 			<rom type="code" offset="0x4000">XVM.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x80" max="0x86" extcode="1">BGM #%2X</range>
+			<range min="0x80" max="0x86" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -288,11 +288,11 @@
 			<rom type="code" offset="0x4000">BOSCO.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ゲームスタート</title>
-			<title code="0x02">ラウンドクリア</title>
-			<title code="0x03">ハイスコア</title>
-			<title code="0x00">SFX エクステンド</title>
-			<range min="0x04" max="0x09" extcode="1">SFX #%2X</range>
+			<title code="0x01">Game Start (ゲームスタート)</title>
+			<title code="0x02">Round Clear (ラウンドクリア)</title>
+			<title code="0x03">High Score (ハイスコア)</title>
+			<title code="0x00">SFX "Extend" (SE エクステンド)</title>
+			<range min="0x04" max="0x09" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -307,13 +307,13 @@
 			<rom type="code" offset="0x4000">GALAGA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ゲームスタート</title>
-			<title code="0x06">チャレンジングステージ スタート</title>
-			<title code="0x07">チャレンジングステージ パーフェクト</title>
-			<title code="0x08">チャレンジングステージ パーフェクト以外</title>
-			<title code="0x09">ランキング</title>
-			<range min="0x01" max="0x05" extcode="1">SFX #%2X</range>
-			<range min="0x0a" max="0x12" extcode="1">SFX #%2X</range>
+			<title code="0x00">Game Start (ゲームスタート)</title>
+			<title code="0x06">Challenging Stage - Start (チャレンジングステージ スタート)</title>
+			<title code="0x07">Challenging Stage - Perfect (チャレンジングステージ パーフェクト)</title>
+			<title code="0x08">Challenging Stage - Not Perfect (チャレンジングステージ パーフェクト以外)</title>
+			<title code="0x09">Ranking (ランキング)</title>
+			<range min="0x01" max="0x05" extcode="1">SFX #%02X</range>
+			<range min="0x0a" max="0x12" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -328,13 +328,13 @@
 			<rom type="code" offset="0x4000">KINGBALN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ゲームスタート</title>
-			<title code="0x06">ゲームオーバー</title>
+			<title code="0x00">Game Start (ゲームスタート)</title>
+			<title code="0x06">Game Over (ゲームオーバー)</title>
 			<title code="0x01">SFX "Help!"</title>
 			<title code="0x02">SFX "Thank You!"</title>
 			<title code="0x07">SFX "Bye Bye!"</title>
-			<range min="0x03" max="0x05" extcode="1">SFX #%2X</range>
-			<range min="0x08" max="0x0a" extcode="1">SFX #%2X</range>
+			<range min="0x03" max="0x05" extcode="1">SFX #%02X</range>
+			<range min="0x08" max="0x0a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -349,9 +349,9 @@
 			<rom type="code" offset="0x4000">TANKBTLN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ゲームスタート</title>
-			<title code="0x01">ゲームオーバー</title>
-			<range min="0x02" max="0x06" extcode="1">SFX #%2X</range>
+			<title code="0x00">Game Start (ゲームスタート)</title>
+			<title code="0x01">Game Over (ゲームオーバー)</title>
+			<range min="0x02" max="0x06" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -366,10 +366,10 @@
 			<rom type="code" offset="0x4000">WARPWARP.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">ゲームスタート</title>
-			<title code="0x06">ステージクリア</title>
-			<range min="0x00" max="0x03" extcode="1">SFX #%2X</range>
-			<range min="0x05" max="0x0e" extcode="1">SFX #%2X</range>
+			<title code="0x04">Game Start (ゲームスタート)</title>
+			<title code="0x06">Stage Clear (ステージクリア)</title>
+			<range min="0x00" max="0x03" extcode="1">SFX #%02X</range>
+			<range min="0x05" max="0x0e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -395,7 +395,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Disk NG2 (Menu) (AY-3-8910)</name>
+		<name>[MSX] Disk NG 2 (Menu) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Namco</driveralias>
 		<options>
@@ -427,7 +427,7 @@
 			<rom type="code" offset="0x4000">SHM.BIN</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x80" max="0x86" extcode="1">BGM #%2X</range>
+			<range min="0x80" max="0x86" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -443,13 +443,13 @@
 			<rom type="binary" offset="0x875f">c9</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ゲームスタート</title>
+			<title code="0x00">Game Start (ゲームスタート)</title>
 			<title code="0x01">BGM</title>
-			<title code="0x02">ステージクリア</title>
-			<title code="0x03">エクステンド</title>
-			<title code="0x04">ミス</title>
-			<title code="0x05">ゲームオーバー</title>
-			<range min="0x06" max="0x0b" extcode="1">SFX #%2X</range>
+			<title code="0x02">Stage Clear (ステージクリア)</title>
+			<title code="0x03">Extend (エクステンド)</title>
+			<title code="0x04">Miss (ミス)</title>
+			<title code="0x05">Game Over (ゲームオーバー)</title>
+			<range min="0x06" max="0x0b" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -464,8 +464,8 @@
 			<rom type="code" offset="0x4000">GALAXIAN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ゲームスタート</title>
-			<range min="0x01" max="0x05" extcode="1">SFX #%2X</range>
+			<title code="0x00">Game Start (ゲームスタート)</title>
+			<range min="0x01" max="0x05" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -480,12 +480,12 @@
 			<rom type="code" offset="0x4000">MAPPY.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">メインBGM</title>
-			<title code="0x01">メインBGM(ハリーアップ)</title>
-			<title code="0x02">エクステンド</title>
-			<title code="0x03">ハリーアップ</title>
-			<title code="0x04">ミス</title>
-			<range min="0x05" max="0x07" extcode="1">SFX #%2X</range>
+			<title code="0x00">Main BGM (メインBGM)</title>
+			<title code="0x01">Main BGM (Hurry Up) (メインBGM(ハリーアップ))</title>
+			<title code="0x02">Extend (エクステンド)</title>
+			<title code="0x03">Hurry Up (ハリーアップ)</title>
+			<title code="0x04">Miss (ミス)</title>
+			<range min="0x05" max="0x07" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -500,15 +500,15 @@
 			<rom type="code" offset="0x4000">PACMAN.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">スタートミュージック</title>
-			<title code="0x08">平常移動</title>
-			<title code="0x07">スパート移動</title>
-			<title code="0x01">コーヒーブレイクミュージック</title>
-			<title code="0x02">エクステンドサウンド</title>
-			<title code="0x03">クッキーを食べる</title>
-			<title code="0x06">モンスターを食べる</title>
-			<title code="0x04">フルーツを食べる</title>
-			<title code="0x05">ミス</title>
+			<title code="0x00">Start Music (スタートミュージック)</title>
+			<title code="0x08">Normal Movement (平常移動)</title>
+			<title code="0x07">Super Movement (スパート移動)</title>
+			<title code="0x01">Coffee Break Music (コーヒーブレイクミュージック)</title>
+			<title code="0x02">Extend Sound (エクステンドサウンド)</title>
+			<title code="0x03">Eat Cookie (クッキーを食べる)</title>
+			<title code="0x06">Eat Ghost (モンスターを食べる)</title>
+			<title code="0x04">Eat Fruit (フルーツを食べる)</title>
+			<title code="0x05">Miss (ミス)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -523,11 +523,11 @@
 			<rom type="code" offset="0x4000">RALLYX.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ノーマルステージ スタート</title>
-			<title code="0x09">チャレンジングステージ スタート</title>
+			<title code="0x01">Normal Stage - Start (ノーマルステージ スタート)</title>
+			<title code="0x09">Challenging Stage - Start (チャレンジングステージ スタート)</title>
 			<title code="0x00">BGM</title>
-			<title code="0x02">ラウンドクリア</title>
-			<range min="0x03" max="0x08" extcode="1">SFX #%2X</range>
+			<title code="0x02">Round Clear (ラウンドクリア)</title>
+			<range min="0x03" max="0x08" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -569,7 +569,7 @@
 		<titlelist>
 			<title code="0x01">Intro</title>
 			<title code="0x00">Block Town</title>
-			<title code="0x02">Pacman's Park &amp; Sandbox Land</title>
+			<title code="0x02">Pac-Man's Park &amp; Sandbox Land</title>
 			<title code="0x03">Jungly Steps</title>
 		</titlelist>
 	</game>
@@ -734,40 +734,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Pac-Man] Jr. Pac-Man (ジュニアパックマン) (WSG)</name>
-		<driver type="jrpacman">namco</driver>
-		<driveralias type="Arcade">Namco</driveralias>
-		<romlist archive="jrpacman">
-			<rom type="code" offset="0x0000">jrp8d.bin</rom>
-			<rom type="code" offset="0x2000">jrp8e.bin</rom>
-			<rom type="code" offset="0x8000">jrp8h.bin</rom>
-			<rom type="code" offset="0xa000">jrp8j.bin</rom>
-			<rom type="code" offset="0xc000">jrp8k.bin</rom>
-			<rom type="pcm" offset="0x0000">jrprom.7p</rom>
-			<rom type="pcm" offset="0x0100">jrprom.5s</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Game Start</title>
-			<title code="0x01">Intermission #1 - "jr meets yum-yum"</title>
-			<title code="0x02">Intermission #3 - "they escape!"</title>
-			<title code="0x03">Intermission #2 - "the gift"</title>
-			<title code="0x09">Credit</title>
-			<title code="0x0A">Extend</title>
-			<title code="0x10">Siren #1</title>
-			<title code="0x11">Siren #2</title>
-			<title code="0x12">Siren #3</title>
-			<title code="0x13">Siren #4</title>
-			<title code="0x14">Siren #5</title>
-			<title code="0x15">Energizer</title>
-			<title code="0x16">Monster Escapes</title>
-			<title code="0x18">Munch #1</title>
-			<title code="0x19">Munch #2</title>
-			<title code="0x1A">Fruit/Prize Eaten</title>
-			<title code="0x1B">Monster Eaten</title>
-			<title code="0x1C">Death</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[Rally X] Rally X (ラリーX) (WSG)</name>
 		<driver type="rallyx">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
@@ -866,7 +832,6 @@
 		<romlist archive="bosco">
 			<rom type="code" offset="0x0000">bos1_7.3e</rom>
 			<rom type="pcm" offset="0x0000">bos1-1.1d</rom>
-			<rom type="pcm" offset="0x0100">bos1-2.5c</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Formation Sound (バトル・ステーション音)</title>
@@ -896,28 +861,28 @@
 			<rom type="pcm" offset="0x0000">prom-1.1d</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">Credit (クレジット音)</title>
-			<title code="0x0b">Game Start Music (ゲーム・スタート・ミュージック)</title>
-			<title code="0x15">Flag Appears (面数表示の「旗」登場音)</title>
-			<title code="0x13">Alien Flying (エイリアン飛行音)</title>
-			<title code="0x0f">Shot (ショット発射)</title>
-			<title code="0x03">Hit on Zako (ザコ ヒット音)</title>
-			<title code="0x02">Hit on Goei (ゴエイ ヒット音)</title>
-			<title code="0x01">Hit on Boss (1) (ボスヒット音 (その1))</title>
-			<title code="0x04">Hit on Boss (2) (ボスヒット音 (その2))</title>
-			<title code="0x12">Enemy Division (３機編隊音)</title>
+			<title code="0x03">Zako Hit (ザコ ヒット音)</title>
+			<title code="0x02">Goei Hit (ゴエイ ヒット音)</title>
+			<title code="0x01">Boss Hit (1) (ボスヒット音 (その1))</title>
+			<title code="0x04">Boss Hit (2) (ボスヒット音 (その2))</title>
 			<title code="0x05">Tractor Beam Sound (トラクタービーム音)</title>
 			<title code="0x06">Fighter in the Beam (マイシップがトラクター・ビームで上昇するときの音)</title>
+			<title code="0x0a">Extend (エクステンド音)</title>
+			<title code="0x0b">Game Start Music (ゲーム・スタート・ミュージック)</title>
+			<title code="0x0d">Challenging Stage Start (チャレンジング・ステージ・スタート・ミュージック)</title>
+			<title code="0x08">Credit (クレジット音)</title>
 			<title code="0x09">Fighter is taken away (マイシップが連れ去られる音)</title>
 			<title code="0x07">Captive is shot (キャプティブを撃ってしまった音)</title>
-			<title code="0x0d">Challenging Stage Start (チャレンジング・ステージ・スタート・ミュージック)</title>
-			<title code="0x0e">Flawed Result (チャレンジング・ステージでパーフェクトでないときのミュージック)</title>
-			<title code="0x14">Perfect Result (チャレンジング・ステージでパーフェクトのときのミュージック)</title>
-			<title code="0x0a">Extend (エクステンド音)</title>
+			<title code="0x12">Enemy Division (3機編隊音)</title>
+			<title code="0x13">Alien Flying (エイリアン飛行音)</title>
 			<title code="0x0c">Name Entry Music (High Score) (&lt;ハイスコア&gt;名前入れミュージック)</title>
+			<title code="0x15">Flag Appears (面数表示の「旗」登場音)</title>
+			<title code="0x14">Perfect Result (チャレンジング・ステージでパーフェクトのときのミュージック)</title>
 			<title code="0x10">Name Entry Music (名前入れミュージック)</title>
 			<title code="0x11">Fighter Recaptured (マイシップを取りかえした音)</title>
-			<title code="0x16">?</title>
+			<title code="0x0e">Flawed Result (チャレンジング・ステージでパーフェクトでないときのミュージック)</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x0f">Shot (ショット発射)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -934,12 +899,12 @@
 		<titlelist>
 			<title code="0x00">Credit (クレジット音)</title>
 			<title code="0x01">Game Start Music (ゲーム・スタート・ミュージック)</title>
-			<title code="0x11">DigDug Walking (ディグダグ歩行ミュージック)</title>
+			<title code="0x11">Dig Dug Walking (ディグダグ歩行ミュージック)</title>
 			<title code="0x07">Extend Music (エクステンド・ミュージック)</title>
 			<title code="0x08">Round Clear Music (ラウンド・クリア・ミュージック)</title>
 			<title code="0x06">Monster Bye-Bye Music (モンスターバイバイ・ミュージック (ハリーアップ))</title>
-			<title code="0x04">Monster touched DigDug (モンスターがディグダグに接触した音)</title>
-			<title code="0x05">DidDug Disappearing (ディグダグ やられ音)</title>
+			<title code="0x04">Monster touched Dig Dug (モンスターがディグダグに接触した音)</title>
+			<title code="0x05">Dig Dug Disappearing (ディグダグ やられ音)</title>
 			<title code="0x03">Game Over Music (ゲーム・オーバー・ミュージック)</title>
 			<title code="0x02">High Score Music (ハイスコア・ミュージック)</title>
 			<title code="0x14">Name Entry Music (名前入れミュージック)</title>
@@ -984,6 +949,60 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[Pole Position] Pole Position (ポールポジション) (WSG)</name>
+		<driver type="pp">namco</driver>
+		<driveralias type="Arcade">Namco</driveralias>
+		<romlist archive="polepos">
+			<rom type="code" offset="0x0000">pp1_9b.6h</rom>
+			<rom type="code" offset="0x2000">pp1_10b.5h</rom>
+			<rom type="pcm" offset="0x0000">pp1-5.3b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">Extend SFX (エクステンド音)</title>
+			<title code="0x06">Qualifying Start Fanfare (予選スタート・ファンファーレ)</title>
+			<title code="0x04">Qualifying Goal Music (Pole Position) (予選ゴール・ミュージック(ポール・ポジション))</title>
+			<title code="0x05">Qualifying Goal Music (Not Pole Position) (予選ゴール・ミュージック(ポール・ポジションでないとき))</title>
+			<title code="0x0e">Puddle Passing SFX (水たまり通過音)</title>
+			<title code="0x0b">&lt;1st&gt; Name Entry Music (＜1位＞名前入れミュージック)</title>
+			<title code="0x0f">Time Bonus Adding SFX (タイム・ボーナス加算音)</title>
+			<title code="0x09">Overtaking Bonus Adding SFX (追越ボーナス加算音)</title>
+			<title code="0x01">Game Over Music (ゲーム・オーバー・ミュージック)</title>
+			<title code="0x02">Gran Prix Goal Music (グランプリ・ゴール・ミュージック)</title>
+			<title code="0x0a">&lt;2nd~6th&gt; Name Entry Music (＜2～6位＞名前入れミュージック)</title>
+			<title code="0x08">Credit SFX (クレジット音)</title>
+			<title code="0x10">&lt;7th~100th&gt; Name Entry Music (＜7～100位＞名前入れミュージック)</title>
+			<title code="0x03">Qualifying Start Sign SFX (予選スタート・サイン音)</title>
+			<title code="0x0d">Grand Prix Start Sign SFX (グランプリ・スタート・サイン音)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Pole Position] Pole Position 2 (ポールポジション2) (WSG)</name>
+		<driver type="pp2">namco</driver>
+		<driveralias type="Arcade">Namco</driveralias>
+		<romlist archive="polepos2">
+			<rom offset="0x0000" type="code">pp4_9.6h</rom>
+			<rom offset="0x2000" type="code">pp4_10.5h</rom>
+			<rom offset="0x0000" type="pcm">pp1-5.3b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x07">Extend SFX (エクステンド音)</title>
+			<title code="0x04">Qualifying Goal Music (Pole Position) (予選ゴール・ミュージック(ポール・ポジション))</title>
+			<title code="0x05">Qualifying Goal Music (Not Pole Position) (予選ゴール・ミュージック(ポール・ポジションでないとき))</title>
+			<title code="0x0e">Puddle Passing SFX (水たまり通過音)</title>
+			<title code="0x0b">&lt;1st&gt; Name Entry Music (＜1位＞名前入れミュージック)</title>
+			<title code="0x0f">Time Bonus Adding SFX (タイム・ボーナス加算音)</title>
+			<title code="0x09">Overtaking Bonus Adding SFX (追越ボーナス加算音)</title>
+			<title code="0x01">Game Over Music (ゲーム・オーバー・ミュージック)</title>
+			<title code="0x02">Gran Prix Goal Music (グランプリ・ゴール・ミュージック)</title>
+			<title code="0x0a">&lt;2nd~6th&gt; Name Entry Music (＜2～6位＞名前入れミュージック)</title>
+			<title code="0x08">Credit SFX (クレジット音)</title>
+			<title code="0x03">Qualifying Start Sign SFX (予選スタート・サイン音)</title>
+			<title code="0x0d">Grand Prix Start Sign SFX (グランプリ・スタート・サイン音)</title>
+			<title code="0x10">&lt;7th~20th&gt; Name Entry Music (＜7～20位＞名前入れミュージック)</title>
+			<title code="0x06">Qualifying Start Fanfare (予選スタート・ファンファーレ)</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[Mappy] Super Pac-Man (スーパーパックマン) (WSG)</name>
 		<driver type="wsg6809">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
@@ -1007,19 +1026,19 @@
 			<title code="0x06">Monster Moving Sound (Normal Mode) (モンスター移動音 (平常時))</title>
 			<title code="0x07">Monster Moving Sound (Spurt Mode 1) (モンスター移動音 (スパート時 1))</title>
 			<title code="0x08">Monsters Became Blue (モンスターいじけ音)</title>
-			<title code="0x09">PacMan Got a Key (パックマンが鍵を食べる音)</title>
-			<title code="0x0a">PacMan Ate a Fruit (パックマンがエサを食べる音)</title>
+			<title code="0x09">Pac-Man Got a Key (パックマンが鍵を食べる音)</title>
+			<title code="0x0a">Pac-Man Ate a Fruit (パックマンがエサを食べる音)</title>
 			<title code="0x0b">Monster Moving Sound (Spurt Mode 2) (モンスター移動音 (スパート時 2))</title>
-			<title code="0x0c">PacMan Broke a Wall (パックマンが壁を食べる音)</title>
-			<title code="0x0d">PacMan Ate a Monster (パックマンがモンスターを食べる音)</title>
+			<title code="0x0c">Pac-Man Broke a Wall (パックマンが壁を食べる音)</title>
+			<title code="0x0d">Pac-Man Ate a Monster (パックマンがモンスターを食べる音)</title>
 			<title code="0x0e">Slot Machine Working (回転ドラムの回転音)</title>
 			<title code="0x0f">You Won 100 Points on the Slot Machine (スロットで100点が出たときの音)</title>
 			<title code="0x10">You Won 2000 Points / 5000 Points on the Slot Machine (スロットで2000点または5000点が出たときの音)</title>
-			<title code="0x11">PacMan Ate a Special Power Food (パックマンがスペシャル・パワー・エサを食べる音)</title>
+			<title code="0x11">Pac-Man Ate a Special Power Food (パックマンがスペシャル・パワー・エサを食べる音)</title>
 			<title code="0x12">Challenging Stage Start (チャレンジ・ステージ開始の音)</title>
-			<title code="0x13">PacMan Disappearing (パックマン消滅音)</title>
+			<title code="0x13">Pac-Man Disappearing (パックマン消滅音)</title>
 			<title code="0x14">Extended (エクステンド・ミュージック)</title>
-			<title code="0x15">PacMan Show Music (パックマンショー・ミュージック)</title>
+			<title code="0x15">Pac-Man Show Music (パックマンショー・ミュージック)</title>
 			<title code="0x16">Counting Bonus Points (ボーナス加算音)</title>
 		</titlelist>
 	</game>
@@ -1112,23 +1131,23 @@
 			<title code="0x06">Touched Enemy (ミス音)</title>
 			<title code="0x07">Trampolin (トランポリンジャンプ音)</title>
 			<title code="0x08">Got a Target (ターゲットクリア音)</title>
-			<title code="0x09">First Spurt (第１スパート音)</title>
+			<title code="0x09">First Spurt (第1スパート音)</title>
 			<title code="0x0a">Microwave (マイクロウェーブ音)</title>
 			<title code="0x0b">Bonus Round (ボーナスラウンドBGM)</title>
 			<title code="0x0c">Bonus Round Start (ボーナスラウンドスタート)</title>
 			<title code="0x0d">Name Entry (名前入れミュージック)</title>
 			<title code="0x0e">Name Entry End (名前入れ終了ミュージック)</title>
-			<title code="0x0f">Second Spurt (第２スパート音)</title>
+			<title code="0x0f">Second Spurt (第2スパート音)</title>
 			<title code="0x10">Crashed Big Balloon in the Bonus Round (ボーナスラウンド大風船クリア音)</title>
 			<title code="0x11">Compiling Bonus Points (ボーナスラウンドオーバーミュージック)</title>
 			<title code="0x12">Bell (ベル落とし音)</title>
-			<title code="0x13">Coin 1 (unused) (コイン音１ (未使用))</title>
-			<title code="0x14">Coin 2 (unused) (コイン音２ (未使用))</title>
-			<title code="0x16">Coin 3 (unused) (コイン音３ (未使用))</title>
+			<title code="0x13">Coin 1 (unused) (コイン音1 (未使用))</title>
+			<title code="0x14">Coin 2 (unused) (コイン音2 (未使用))</title>
+			<title code="0x16">Coin 3 (unused) (コイン音3 (未使用))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[Mappy] Libble Rabble (リブルラブル) (WSG)</name>
+		<name>[System 16] Libble Rabble (リブルラブル) (WSG)</name>
 		<driver type="wsg6809">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="liblrabl">
@@ -1202,7 +1221,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Mappy] Gaplus (ギャプラス) (WSG)</name>
+		<name>[Gaplus] Gaplus (ギャプラス) (WSG)</name>
 		<driver type="wsg6809">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -1244,7 +1263,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Mappy] Dig Dug 2 (ディグダグ２) (WSG)</name>
+		<name>[Mappy] Dig Dug II (ディグダグII) (WSG)</name>
 		<driver type="wsg6809">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="digdug2">
@@ -1266,11 +1285,11 @@
 			<title code="0x0a">Name entry (名前入れミュージック)</title>
 			<title code="0x0b">Unused (未使用)</title>
 			<title code="0x0c">Get a special item (スペシャル・ターゲットを食べる音)</title>
-			<title code="0x0d">Digdug touched a monster (モンスターがディグダグに接触した音)</title>
+			<title code="0x0d">Dig Dug touched a monster (モンスターがディグダグに接触した音)</title>
 			<title code="0x0e">Figer fires (ファイガー火吐き音)</title>
 			<title code="0x0f">Fall into the sea (海 落っこち音)</title>
 			<title code="0x10">Blowing out a monster (モンスターパンク音)</title>
-			<title code="0x11">Digdug missed (ディグダグ やられ音)</title>
+			<title code="0x11">Dig Dug missed (ディグダグ やられ音)</title>
 			<title code="0x12">Round clear (ラウンド・クリア・ミュージック)</title>
 			<title code="0x13">Extra (エクステンド・ミュージック)</title>
 			<title code="0x15">Fanfare 1,000,000 pts. (100万点ファンファーレ)</title>
@@ -1320,7 +1339,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Mappy] Toypop (トイポップ) (WSG)</name>
+		<name>[System 16] Toypop (トイポップ) (WSG)</name>
 		<driver type="wsg6809">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="toypop">
@@ -1350,12 +1369,12 @@
 			<title code="0x16">SFX "SHOT"</title>
 			<title code="0x12">SFX "泊弾"</title>
 			<title code="0x17">SFX "敵倒す"</title>
-			<title code="0x09">SFX "？１"</title>
-			<title code="0x08">SFX "？２"</title>
-			<title code="0x0c">SFX "？３"</title>
-			<title code="0x11">SFX "？４"</title>
-			<title code="0x15">SFX "？５"</title>
-			<title code="0x1a">SFX "？６"</title>
+			<title code="0x09">SFX "?1"</title>
+			<title code="0x08">SFX "?2"</title>
+			<title code="0x0c">SFX "?3"</title>
+			<title code="0x11">SFX "?4"</title>
+			<title code="0x15">SFX "?5"</title>
+			<title code="0x1a">SFX "?6"</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1402,7 +1421,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Baraduke] Pac Land (パックランド) (C30)</name>
+		<name>[Pac-Land] Pac-Land (パックランド) (C30)</name>
 		<driver type="wsg63701">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="pacland">
@@ -1445,7 +1464,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Baraduke] Baraduke (バラデューク) (C30)</name>
+		<name>[Baraduke] Alien Sector (バラデューク) (C30)</name>
 		<driver type="wsg63701">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -1560,7 +1579,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Thunder Ceptor] Thunder Ceptor 1 &amp; 2 (サンダーセプター/2) (YM2151)</name>
+		<name>[Thunder Ceptor] Thunder Ceptor / II (サンダーセプター/II) (YM2151)</name>
 		<driver type="tceptor">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -1755,7 +1774,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Shadowland / Yokai Douchuuki (妖怪道中記) (YM2151+C30)</name>
+		<name>[System 1] Shadowland (妖怪道中記) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="shadowld">
@@ -1767,18 +1786,18 @@
 			<title code="0x00">Credit (コイン)</title>
 			<title code="0x1c">BGM #1</title>
 			<title code="0x36">Opening the Parlor (開店～店内)</title>
-			<title code="0x3d">Onigashima ~ BGM (鬼ヶ島～BGM)</title>
+			<title code="0x3d">Onigashima ～ BGM (鬼ヶ島～BGM)</title>
 			<title code="0x28">Oni (鬼)</title>
 			<title code="0x33">Round Clear (ラウンド・クリア)</title>
-			<title code="0x10">Ryuuguujou ~ Mambo Ryuuguu (竜宮城～マンボ竜宮)</title>
+			<title code="0x10">Ryuuguujou ～ Mambo Ryuuguu (竜宮城～マンボ竜宮)</title>
 			<title code="0x16">Tamatebako (玉手・)</title>
 			<title code="0x30">BGM #2</title>
-			<title code="0x0e">Fake Shaman ~ BGM (巫女モドキ～BGM)</title>
-			<title code="0x1a">Game Start ~ Funeral (ゲームスタート～お葬式)</title>
-			<title code="0x3a">Acheron ~ Enma Daioh (三途の河～閻魔大王)</title>
-			<title code="0x37">Upper Region ~ Elysium (天界～極楽)</title>
+			<title code="0x0e">Fake Shaman ～ BGM (巫女モドキ～BGM)</title>
+			<title code="0x1a">Game Start ～ Funeral (ゲームスタート～お葬式)</title>
+			<title code="0x3a">Acheron ～ Enma Daioh (三途の河～閻魔大王)</title>
+			<title code="0x37">Upper Region ～ Elysium (天界～極楽)</title>
 			<title code="0x20">BGM #3</title>
-			<title code="0x3c">Ending ~ Credits (エンディング～スタッフ・ロール)</title>
+			<title code="0x3c">Ending ～ Credits (エンディング～スタッフ・ロール)</title>
 			<title code="0x31">Game Over (ゲームオーバー)</title>
 			<title code="0x12">Mambo Ryuuguu (マンボ龍宮)</title>
 			<title code="0x17">Tamatebako (End) (玉手・ (おわり))</title>
@@ -1952,11 +1971,10 @@
 			<rom type="code" offset="0x10000">pn2_s1.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xff">Stop the Music</title>
 			<title code="0x100">Credit (コイン)</title>
 			<title code="0x00">Game Start</title>
 			<title code="0x02">Block Town (World 1)</title>
-			<title code="0x03">Pacman's Park (World 2)</title>
+			<title code="0x03">Pac-Man's Park (World 2)</title>
 			<title code="0x07">Sandbox Land (World 3)</title>
 			<title code="0x06">Jungly Steps (World 4)</title>
 			<title code="0x01">Demo #1</title>
@@ -1970,7 +1988,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Pac-Mania JP (パックマニア) (YM2151+C30)</name>
+		<name>[System 1] Pac-Mania (JP) (パックマニア) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="pacmaniaj">
@@ -1978,11 +1996,10 @@
 			<rom type="code" offset="0x10000">pn1_s1.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xff">Stop the Music</title>
 			<title code="0x100">Credit (コイン)</title>
 			<title code="0x00">Game Start</title>
 			<title code="0x02">Block Town (World 1)</title>
-			<title code="0x03">Pacman's Park (World 2)</title>
+			<title code="0x03">Pac-Man's Park (World 2)</title>
 			<title code="0x07">Sandbox Land (World 3)</title>
 			<title code="0x06">Jungly Steps (World 4)</title>
 			<title code="0x01">Demo #1</title>
@@ -2030,7 +2047,7 @@
 			<title code="0x16">SFX #16</title>
 			<title code="0x19">SFX #19</title>
 			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B (合体中ザコ・合体音？)</title>
+			<title code="0x1b">SFX #1B (合体中ザコ・合体音?)</title>
 			<title code="0x22">SFX #22</title>
 			<title code="0x101">SFX #101 (面数表示 1)</title>
 			<title code="0x102">SFX #102 (選択)</title>
@@ -2124,7 +2141,7 @@
 			<title code="0x09">Sea Beraboh (Undersea Stage) (シーベラボー (海中ステージ))</title>
 			<title code="0x13">Dark Troop (Ninja House) (闇の軍団 (忍者屋敷ステージ))</title>
 			<title code="0x1b">Bakuta Laboratory (Final Stage) (泊田研究所 (最終面))</title>
-			<title code="0x10">Fanfare ~ Ending (ファンファーレ～エンディング)</title>
+			<title code="0x10">Fanfare ～ Ending (ファンファーレ～エンディング)</title>
 			<title code="0x11">Credits (ランキング書き込み前、スタッフロール)</title>
 			<title code="0x12">Name Entry Music (1st) (ランキング (1st))</title>
 			<title code="0x17">Name Entry Music (below 2nd) (ランキング (2nd ～))</title>
@@ -2157,7 +2174,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Marchen Maze / Alice In Wonderland (メルヘンメイズ) (YM2151+C30)</name>
+		<name>[System 1] Marchen Maze / Alice in Wonderland (メルヘンメイズ) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="mmaze">
@@ -2211,7 +2228,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Bakutotsu Kijuutei / Baraduke 2 (泊突機銃艇) (YM2151+C30)</name>
+		<name>[System 1] Bakutotsu Kijuutei: Baraduke II (泊突機銃艇 バラデュークII) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="bakutotu">
@@ -2232,7 +2249,7 @@
 			<title code="0x0c">Ending (エンディング)</title>
 			<title code="0x0f">Name Entry Music (1st) (ランキング (1位))</title>
 			<title code="0x0d">Name Entry Music (below 2nd) (ランキング (2位以下))</title>
-			<title code="0x0e">??? / Game Over? (??? / ゲームオーバー？)</title>
+			<title code="0x0e">??? / Game Over? (??? / ゲームオーバー?)</title>
 			<title code="0x02">SFX #02</title>
 			<title code="0x03">SFX #03</title>
 			<title code="0x04">SFX #04</title>
@@ -2269,7 +2286,7 @@
 			<title code="0x07">BGM 2 (London, Lawn Court)</title>
 			<title code="0x05">BGM 3 (Paris, Clay Court)</title>
 			<title code="0x03">Result (試合結果)</title>
-			<title code="0x02">Unused? (未使用？)</title>
+			<title code="0x02">Unused? (未使用?)</title>
 			<title code="0x101">SFX #101</title>
 			<title code="0x102">SFX #102</title>
 			<title code="0x103">SFX #103</title>
@@ -2342,12 +2359,12 @@
 			<title code="0x30">SFX Spanner (スパナ)</title>
 			<title code="0x01">SFX Knife 1 (ナイフ1)</title>
 			<title code="0x02">SFX Knife 2 (ナイフ2)</title>
-			<title code="0x0f">？？？A</title>
-			<title code="0x12">？？？B</title>
-			<title code="0x25">？？？C</title>
-			<title code="0x2b">？？？D</title>
-			<title code="0x46">？？？E</title>
-			<title code="0x40">SFX "？？？"</title>
+			<title code="0x0f">???A</title>
+			<title code="0x12">???B</title>
+			<title code="0x25">???C</title>
+			<title code="0x2b">???D</title>
+			<title code="0x46">???E</title>
+			<title code="0x40">SFX "???"</title>
 			<title code="0x00">Speaker Test (スピーカーテスト)</title>
 		</titlelist>
 	</game>
@@ -2422,8 +2439,8 @@
 			<title code="0x0f">Theme of Glerin (グレリンのテーマ)</title>
 			<title code="0x19">Jitney Fanfare (やっつけファンファーレ)</title>
 			<title code="0x04">End Credits (スタッフロール)</title>
-			<title code="0x10">Continue? #1 (コンティニュー？ #1)</title>
-			<title code="0x0d">Continue? #2 (コンティニュー？ #2)</title>
+			<title code="0x10">Continue? #1 (コンティニュー? #1)</title>
+			<title code="0x0d">Continue? #2 (コンティニュー? #2)</title>
 			<title code="0x0b">Game Over (ゲームオーバー)</title>
 			<title code="0x02">Unknown 1</title>
 			<title code="0x03">Unknown 2</title>
@@ -2602,7 +2619,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Pistol Daimyo no Bouken / Quest of Pistol Daimyo (ピストル大名の冒険) (YM2151+C30)</name>
+		<name>[System 1] Pistol Daimyo no Bouken (ピストル大名の冒険) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="pistoldm">
@@ -2657,7 +2674,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 1] Soukoban Deluxe / Boxy Boy (倉庫番ＤＸ) (YM2151+C30)</name>
+		<name>[System 1] Boxy Boy (倉庫番DX) (YM2151+C30)</name>
 		<driver type="system1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<romlist archive="boxyboy">
@@ -2720,10 +2737,10 @@
 			<title code="0xff">Stop the Music</title>
 			<title code="0x12">Credit (コイン)</title>
 			<title code="0x13">SFX Version Selected</title>
-			<title code="0x01">PacMan Story BGM 1</title>
-			<title code="0x02">PacMan Story BGM 1 (Faster)</title>
-			<title code="0x03">PacMan Story BGM 2</title>
-			<title code="0x04">PacMan Story BGM 2 (Faster)</title>
+			<title code="0x01">Pac-Man Story BGM 1</title>
+			<title code="0x02">Pac-Man Story BGM 1 (Faster)</title>
+			<title code="0x03">Pac-Man Story BGM 2</title>
+			<title code="0x04">Pac-Man Story BGM 2 (Faster)</title>
 			<title code="0x05">Floor Exercise BGM 1</title>
 			<title code="0x06">Floor Exercise BGM 1 (Faster)</title>
 			<title code="0x09">Shuffle !!! / Challenge !!!</title>
@@ -2751,12 +2768,12 @@
 			<title code="0x107">SFX #107</title>
 			<title code="0x108">SFX #108</title>
 			<title code="0x109">SFX #109</title>
-			<title code="0x10A">SFX #10A</title>
-			<title code="0x10B">SFX #10B</title>
-			<title code="0x10C">SFX #10C</title>
-			<title code="0x10D">SFX #10D</title>
-			<title code="0x10E">SFX #10E</title>
-			<title code="0x10F">SFX #10F</title>
+			<title code="0x10a">SFX #10A</title>
+			<title code="0x10b">SFX #10B</title>
+			<title code="0x10c">SFX #10C</title>
+			<title code="0x10d">SFX #10D</title>
+			<title code="0x10e">SFX #10E</title>
+			<title code="0x10f">SFX #10F</title>
 			<title code="0x110">SFX #110</title>
 			<title code="0x111">SFX #111</title>
 			<title code="0x112">SFX #112</title>
@@ -2773,16 +2790,16 @@
 			<title code="0x4e">Stop the Music</title>
 			<title code="0x105">Credit (コイン)</title>
 			<title code="0x02">Stage Demo</title>
-			<title code="0x0A">Tank Force March</title>
-			<title code="0x0E">Jungle</title>
+			<title code="0x0a">Tank Force March</title>
+			<title code="0x0e">Jungle</title>
 			<title code="0x10">Jungle (faster) (高速)</title>
-			<title code="0x1A">AK. Destroyer</title>
-			<title code="0x1C">AK. Destroyer (faster) (高速)</title>
+			<title code="0x1a">AK. Destroyer</title>
+			<title code="0x1c">AK. Destroyer (faster) (高速)</title>
 			<title code="0x12">Desert Storm (砂漠の嵐)</title>
 			<title code="0x14">Desert Storm (faster) (高速)</title>
 			<title code="0x16">Battle City '92</title>
 			<title code="0x18">Battle City '92 (faster) (高速)</title>
-			<title code="0x1E">Evil Fortress</title>
+			<title code="0x1e">Evil Fortress</title>
 			<title code="0x05">Introduction 1</title>
 			<title code="0x06">Introduction 2</title>
 			<title code="0x09">Time Axis Control Unit (時間軸制御装置)</title>
@@ -2791,11 +2808,11 @@
 			<title code="0x20">The Eternal Twilight</title>
 			<title code="0x08">Game Over</title>
 			<title code="0x04">Continue</title>
-			<title code="0x0B">Stage Demo ~ Tank Force March</title>
-			<title code="0x0F">Jungle w/o intro (イントロ無し)</title>
+			<title code="0x0b">Stage Demo ～ Tank Force March</title>
+			<title code="0x0f">Jungle w/o intro (イントロ無し)</title>
 			<title code="0x11">Jungle w/o intro (faster) (イントロ無し, 高速)</title>
-			<title code="0x1B">AK. Destroyer w/o intro (イントロ無し)</title>
-			<title code="0x1D">AK. Destroyer w/o intro (faster) (イントロ無し, 高速)</title>
+			<title code="0x1b">AK. Destroyer w/o intro (イントロ無し)</title>
+			<title code="0x1d">AK. Destroyer w/o intro (faster) (イントロ無し, 高速)</title>
 			<title code="0x13">Desert Storm w/o intro (イントロ無し)</title>
 			<title code="0x15">Desert Storm w/o intro (faster) (イントロ無し, 高速)</title>
 			<title code="0x17">Battle City '92 w/o intro (イントロ無し)</title>
@@ -3082,7 +3099,7 @@
 			<title code="0x37">Lightning Sword, Phelios (Chapter 7-1) (光の剣フェリオス[CHAPTER7])</title>
 			<title code="0x51">Temple of Dupons (Chapter 7-2) (デュポンの神殿)</title>
 			<title code="0x53">The End of Dupons (Last Boss) (デュポンの最期)</title>
-			<title code="0x46">Smile of Artemis ~ Grand Finale (Ending - End Credits) (アルテミスの微笑～大団円)</title>
+			<title code="0x46">Smile of Artemis ～ Grand Finale (Ending - End Credits) (アルテミスの微笑～大団円)</title>
 			<title code="0x49">Prayer of Artemis (Continue) (アルテミスの願い)</title>
 			<title code="0x4b">Epigraph (Name Entry) (勇者の碑(いしぶみ))</title>
 			<title code="0x3a">(Scene Shift) (場面切り替え時BGM)</title>
@@ -3095,7 +3112,7 @@
 			<title code="0x01">Voice "アポロンめ、私には向かえばどうなるか見せてやる。きゃーーっ！"</title>
 			<title code="0x03">Voice "アポロン、あなたと過ごしたディロスの丘に帰りたい…"</title>
 			<title code="0x02">Voice "さあ、もっと泣き喚け！アポロンをおびき寄せろ！"</title>
-			<title code="0x04">Voice "この私から逃げられると思っているのか？愚か者め！"</title>
+			<title code="0x04">Voice "この私から逃げられると思っているのか?愚か者め！"</title>
 			<title code="0x05">Voice "アポロン、光の剣を手に入れなければデュポンに勝てないわ…"</title>
 			<title code="0x06">Voice "来てくれたのね、嬉しい！好きよ…アポロン…"</title>
 			<title code="0x07">Voice "Option"</title>
@@ -3170,17 +3187,17 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">Speaker Test (ステレオテスト)</title>
-			<title code="0x01">Credit ~ Awaiting Entry (コイン～エントリー受付)</title>
+			<title code="0x01">Credit ～ Awaiting Entry (コイン～エントリー受付)</title>
 			<title code="0x02">Entry Closed (エントリー終了)</title>
 			<title code="0x03">Finish B (ゴールB)</title>
-			<title code="0x14">Finish A (+ Name Entry) (ゴールA (ネーム入れ))</title>
+			<title code="0x14">Finish A (Name Entry) (ゴールA (ネーム入れ))</title>
 			<title code="0x0c">Finish C (ゴールC)</title>
 			<title code="0x20">Awaiting Entry (エントリー受付)</title>
-			<title code="0x2e">Finish B ~ Another Take (ゴールB～別テイク)</title>
-			<title code="0x23">Unknown 1 (CD未収録曲)</title>
-			<title code="0x24">Unknown 2 (CD未収録曲)</title>
-			<title code="0x27">Unknown 3 (CD未収録曲)</title>
-			<title code="0x29">Unknown 4 (CD未収録曲)</title>
+			<title code="0x2e">Finish B ～ Another Take (ゴールB～別テイク)</title>
+			<title code="0x23">Not on CD #1 (CD未収録曲)</title>
+			<title code="0x24">Not on CD #2 (CD未収録曲)</title>
+			<title code="0x27">Not on CD #3 (CD未収録曲)</title>
+			<title code="0x29">Not on CD #4 (CD未収録曲)</title>
 			<title code="0x1a">SFX "Three"</title>
 			<title code="0x1b">SFX "Two"</title>
 			<title code="0x1c">SFX "One"</title>
@@ -3199,7 +3216,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Legend of the Valkyrie (ワルキューレの伝説) (YM2151+C140)</name>
+		<name>[System 2] Valkyrie no Densetsu (ワルキューレの伝説) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -3287,7 +3304,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x4c">Stop the Music</title>
-			<title code="0x20D">Credit (コイン)</title>
+			<title code="0x20d">Credit (コイン)</title>
 			<title code="0x0a">Mothership Appearing (母艦登場)</title>
 			<title code="0x29">Stage Select</title>
 			<title code="0x00">Taking Off</title>
@@ -3316,14 +3333,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Marvel Land JP (マーベルランド) (YM2151+C140)</name>
+		<name>[System 2] Marvel Land (JP) (マーベルランド) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
 			<option name="codeaddr" value="0x7110"/>
 			<option name="opm_mix" value="0x140"/>
 		</options>
-		<romlist archive="marvlandj">
+		<romlist archive="marvland">
 			<rom type="code" offset="0x000000">mv1-snd0.bin</rom>
 			<rom type="pcm" offset="0x000000">mv1-voi1.bin</rom>
 		</romlist>
@@ -3335,7 +3352,7 @@
 			<title code="0x0e">Underground Stage (地下迷路面)</title>
 			<title code="0x4a">Boss Stage Start (ボス面 スタートBGM)</title>
 			<title code="0x7b">Voice "助けて、パコ！"</title>
-			<title code="0x83">Voice "準備はいいですか？ヨーイ…"</title>
+			<title code="0x83">Voice "準備はいいですか?ヨーイ…"</title>
 			<title code="0x7c">SFX Bang (パーン)</title>
 			<title code="0x4e">Boss Stage BGM (ボス面 対決BGM)</title>
 			<title code="0x22">Boss Stage Lose (ボス面 負けBGM)</title>
@@ -3447,7 +3464,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Golly Ghost (ゴーリーゴースト) (YM2151+C140)</name>
+		<name>[System 2] Golly! Ghost! (ゴーリー!ゴースト!) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -3511,7 +3528,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Rolling Thunder 2 (ローリングサンダー２) (YM2151+C140)</name>
+		<name>[System 2] Rolling Thunder 2 (ローリングサンダー2) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -3575,7 +3592,7 @@
 			<title code="0x40">Act.4 -Street Battle- Geitz Welner (ゲイツ・ヴェルナー)</title>
 			<title code="0x44">Act.4 -Street Battle- A Death Cry</title>
 			<title code="0x37">Ending (エンディング)</title>
-			<title code="0x42">Refrain ~ Name Entry (REFRAIN～ネーム・エントリー)</title>
+			<title code="0x42">Refrain ～ Name Entry (REFRAIN～ネーム・エントリー)</title>
 			<title code="0x27">Game Over (Not Released on CD) (CD未収録)</title>
 			<title code="0x206">Unknown #206</title>
 			<title code="0x211">Unknown #211</title>
@@ -3676,18 +3693,18 @@
 			<title code="0x7f">SFX Geek's Last Agony (GEEK断末魔)</title>
 			<title code="0x7a">Ending - Intro (エンディング (イントロ))</title>
 			<title code="0x80">Ending (エンディング)</title>
-			<title code="0x47">GEEK出現1 (CD未収録)と同じ？</title>
+			<title code="0x47">GEEK出現1 (CD未収録)と同じ?</title>
 			<title code="0x60">敵の要塞島・地上 (イントロ別ver)</title>
 			<title code="0x63">敵の要塞島・地上 (イントロなし)</title>
-			<title code="0x76">脱出と同じ？</title>
-			<title code="0x77">敵リーダー登場と同じ？</title>
-			<title code="0x79">脱出と同じ？</title>
-			<title code="0x7C">GEEK出現2と同じ？</title>
+			<title code="0x76">脱出と同じ?</title>
+			<title code="0x77">敵リーダー登場と同じ?</title>
+			<title code="0x79">脱出と同じ?</title>
+			<title code="0x7c">GEEK出現2と同じ?</title>
 			<title code="0x200">Speaker Test (スピーカーテスト)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Cosmo Gang The Video (コズモギャングズ・ザ・ビデオ) (YM2151+C140)</name>
+		<name>[System 2] Cosmo Gang the Video (コズモギャングズ・ザ・ビデオ) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -3701,8 +3718,8 @@
 		<titlelist>
 			<title code="0x02">Credit (コイン)</title>
 			<title code="0x17">Begin! (始まり！)</title>
-			<title code="0x10">Attack 1 (整列その１)</title>
-			<title code="0x0b">BGM 1 - Space (BGMその１・宇宙！)</title>
+			<title code="0x10">Attack 1 (整列その1)</title>
+			<title code="0x0b">BGM 1 - Space (BGMその1・宇宙！)</title>
 			<title code="0x08">Round Clear (ラウンドクリア)</title>
 			<title code="0x2f">Challenging Stage - Western (チャレンジングステージ - 西部劇)</title>
 			<title code="0x32">Challenging Stage - Ninja (チャレンジングステージ - 忍者)</title>
@@ -3716,8 +3733,8 @@
 			<title code="0x59">Bonus (Fair) (ボーナスポイント決定(梅))</title>
 			<title code="0x5d">Bonus (Good) (ボーナスポイント決定(竹))</title>
 			<title code="0x60">Bonus (Excellent) (ボーナスポイント決定(松))</title>
-			<title code="0x6f">Attack 2 (整列その２)</title>
-			<title code="0x6c">BGM 2 - Planet (BGMその２・惑星！)</title>
+			<title code="0x6f">Attack 2 (整列その2)</title>
+			<title code="0x6c">BGM 2 - Planet (BGMその2・惑星！)</title>
 			<title code="0x2a">Game Over (ゲームオーバー・べぇーだ)</title>
 			<title code="0x71">Showdown with King Cosmo (キングコズモと対決)</title>
 			<title code="0x75">Ending (エンディング)</title>
@@ -3765,13 +3782,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Cosmo Gang The Video JP (コズモギャングズ・ザ・ビデオ) (YM2151+C140)</name>
+		<name>[System 2] Cosmo Gang the Video (JP) (コズモギャングズ・ザ・ビデオ) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
 			<option name="codeaddr" value="0x7110"/>
 		</options>
-		<romlist archive="cosmogngj">
+		<romlist archive="cosmogng">
 			<rom type="code" offset="0x00000">co1snd0.bin</rom>
 			<rom type="pcm" offset="0x000000">co1voi1.bin</rom>
 			<rom type="pcm" offset="0x080000">co1voi2.bin</rom>
@@ -3779,8 +3796,8 @@
 		<titlelist>
 			<title code="0x02">Credit (コイン)</title>
 			<title code="0x17">Begin! (始まり！)</title>
-			<title code="0x10">Attack 1 (整列その１)</title>
-			<title code="0x0b">BGM 1 - Space (BGMその１・宇宙！)</title>
+			<title code="0x10">Attack 1 (整列その1)</title>
+			<title code="0x0b">BGM 1 - Space (BGMその1・宇宙！)</title>
 			<title code="0x08">Round Clear (ラウンドクリア)</title>
 			<title code="0x2f">Challenging Stage - Western (チャレンジングステージ - 西部劇)</title>
 			<title code="0x32">Challenging Stage - Ninja (チャレンジングステージ - 忍者)</title>
@@ -3794,8 +3811,8 @@
 			<title code="0x59">Bonus (Fair) (ボーナスポイント決定(梅))</title>
 			<title code="0x5d">Bonus (Good) (ボーナスポイント決定(竹))</title>
 			<title code="0x60">Bonus (Excellent) (ボーナスポイント決定(松))</title>
-			<title code="0x6f">Attack 2 (整列その２)</title>
-			<title code="0x6c">BGM 2 - Planet (BGMその２・惑星！)</title>
+			<title code="0x6f">Attack 2 (整列その2)</title>
+			<title code="0x6c">BGM 2 - Planet (BGMその2・惑星！)</title>
 			<title code="0x2a">Game Over (ゲームオーバー・べぇーだ)</title>
 			<title code="0x71">Showdown with King Cosmo (キングコズモと対決)</title>
 			<title code="0x75">Ending (エンディング)</title>
@@ -3975,7 +3992,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Suzuka 8 Hours (スズカエイトアワーズ１) (YM2151+C140)</name>
+		<name>[System 2] Suzuka 8 Hours (スズカエイトアワーズ1) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -3999,7 +4016,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Suzuka 8 Hours 2 (スズカエイトアワーズ２) (YM2151+C140)</name>
+		<name>[System 2] Suzuka 8 Hours 2 (スズカエイトアワーズ2) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -4021,7 +4038,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 2] Super World Stadium / '92 (SUPER ワールドスタジアム) (YM2151+C140)</name>
+		<name>[System 2] Super World Stadium / '92 (SUPER ワールドスタジアム/'92) (YM2151+C140)</name>
 		<driver type="system2">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -4226,10 +4243,10 @@
 			<title code="0x48">Cosmo Field Ambience #2 (a)</title>
 			<title code="0x4b">Cosmo Field Ambience #2 (b)</title>
 			<title code="0x4e">Cosmo Field Ambience #2 (c)</title>
-			<title code="0xa4">Ending Theme ~ Credits Roll (a)</title>
-			<title code="0xa7">Ending Theme ~ Credits Roll (b)</title>
-			<title code="0xaa">Ending Theme ~ Credits Roll (c)</title>
-			<title code="0xad">Ending Theme ~ Credits Roll (d)</title>
+			<title code="0xa4">Ending Theme ～ Credits Roll (a)</title>
+			<title code="0xa7">Ending Theme ～ Credits Roll (b)</title>
+			<title code="0xaa">Ending Theme ～ Credits Roll (c)</title>
+			<title code="0xad">Ending Theme ～ Credits Roll (d)</title>
 			<title code="0x42">Game Over</title>
 			<title code="0x16">Name Entry (a)</title>
 			<title code="0x19">Name Entry (b)</title>
@@ -4291,44 +4308,31 @@
 			<title code="0x58">The Theme of Starblade (All Clear - Credits Roll)</title>
 			<title code="0x5e">Blue Flight (Name Entry)</title>
 			<title code="0x0e">The Theme of Starblade -Type 2-</title>
-			<title code="0x28">Voice "Prepare for Operation Starblade.</title>
-			<title code="0x28"> Calling starfighter Geosword, calling Geosword, come in Geosword.</title>
-			<title code="0x28"> The enemy task force mechanized planet "Red Eye" just reached the federation</title>
-			<title code="0x28"> of planets, and is approaching our mother planet. Our strategy is to neutralize</title>
-			<title code="0x28"> "Red Eye" and defeat the menace to our mother planet. Aim at the power source</title>
-			<title code="0x28"> generator of "Red Eye", all energy converges on the "Power Stone" which is</title>
-			<title code="0x28"> inside of "Octopus".</title>
-			<title code="0x28"> Good Luck Geosword. Over."</title>
+			<title code="0x28">Voice "Prepare for Operation Starblade. Calling starfighter Geosword, calling Geosword, come in Geosword. The enemy task force mechanized planet "Red Eye" just reached the federation of planets, and is approaching our mother planet. Our strategy is to neutralize "Red Eye" and defeat the menace to our mother planet. Aim at the power source generator of "Red Eye", all energy converges on the "Power Stone" which is inside of "Octopus". Good Luck Geosword. Over."</title>
 			<title code="0x30">Voice "Warp mode set."</title>
 			<title code="0x31">Voice "Enemy fleet has warped towards "Red Eye", pursue and engage "Red Eye"."</title>
 			<title code="0x32">Voice "Geosword warp point is located. Co-ordinates set at W726."</title>
 			<title code="0x33">Voice "Entering enemy's defense line."</title>
 			<title code="0x34">Voice "Broke through the asteroids belt. Ready to engage the enemy."</title>
 			<title code="0x35">Voice "Located enemy flagship "Commander"."</title>
-			<title code="0x36">Voice "Broke through the enemies last defences,</title>
-			<title code="0x36"> and are going to descend to Red Eye now."</title>
-			<title code="0x37">Voice "Red Eye is shielded by special energy shields. There are enemy access</title>
-			<title code="0x37"> passages through the shields.</title>
+			<title code="0x36">Voice "Broke through the enemies last defences, and are going to descend to Red Eye now."</title>
+			<title code="0x37">Voice "Red Eye is shielded by special energy shields. There are enemy access passages through the shields.</title>
 			<title code="0x38">Voice "We have located a passage, and are headed for Octopus."</title>
-			<title code="0x39">Voice "Locate the target approach vector on Red Eye surface.</title>
-			<title code="0x39"> Shift to surface navigation mode."</title>
+			<title code="0x39">Voice "Locate the target approach vector on Red Eye surface. Shift to surface navigation mode."</title>
 			<title code="0x3a">Voice "Arrived at Octopus."</title>
-			<title code="0x3b">Voice "Penetrate Red Eye surface defences.</title>
-			<title code="0x3b"> Target Power Stone is in the central energy chamber."</title>
+			<title code="0x3b">Voice "Penetrate Red Eye surface defences. Target Power Stone is in the central energy chamber."</title>
 			<title code="0x3c">Voice "Destroy Power Stone."</title>
 			<title code="0x3d">Voice "Verify Octopus' energy source has decreased and stopped."</title>
 			<title code="0x3e">Voice "Mission accomplished, return to base now."</title>
 			<title code="0x3f">Voice "Sensors indicate large scale warp reaction at 12 o'clock."</title>
 			<title code="0x40">Voice "Fought the surviving enemy fighters."</title>
 			<title code="0x41">Voice "Find the Iceberg control center."</title>
-			<title code="0x42">Voice "The weak points appear to be in the projections</title>
-			<title code="0x42"> that stick out of the centre."</title>
+			<title code="0x42">Voice "The weak points appear to be in the projections that stick out of the centre."</title>
 			<title code="0x43">Voice "Destroy all the projections."</title>
 			<title code="0x44">Voice "Warning."</title>
 			<title code="0x45">Voice "Danger, shields low. Danger, shields low."</title>
 			<title code="0x46">Voice "We are under attack, energy to shields decreasing."</title>
-			<title code="0x47">Voice "This is mother ship, this is mother ship. We are under attack,</title>
-			<title code="0x47"> impossible to navigate, team Starblade pursue and engage fighters."</title>
+			<title code="0x47">Voice "This is mother ship, this is mother ship. We are under attack, impossible to navigate, team Starblade pursue and engage fighters."</title>
 			<title code="0x48">Voice "Take the right one GeoSword, I'll take the left one, over."</title>
 			<title code="0x49">Voice "Roger out."</title>
 			<title code="0x4a">Voice "Attack the starboard Geosword, Ill take the port, over."</title>
@@ -4342,9 +4346,7 @@
 			<title code="0x52">Voice "Destroy the control center geosword, we'll intercept the fighters, over."</title>
 			<title code="0x53">Voice "All wings ships launch, over."</title>
 			<title code="0x54">Voice "Destroy the control centre, Geosword. We'll cover you, over."</title>
-			<title code="0x55">Voice "This is team leader. This is team leader.</title>
-			<title code="0x55"> We accomplished the mission and will return to base now.</title>
-			<title code="0x55"> Nice work gentlemen, Over."</title>
+			<title code="0x55">Voice "This is team leader. This is team leader. We accomplished the mission and will return to base now. Nice work gentlemen, Over."</title>
 			<title code="0x56">Voice "Geosword, come in Geosword. This is team leader. This is team leader."</title>
 			<title code="0x57">Voice "This is team leader. This is team leader."</title>
 			<title code="0x01">SFX #01</title>
@@ -4437,8 +4439,7 @@
 			<title code="0x1c">A Defeat</title>
 			<title code="0x1d">Twilight Hero</title>
 			<title code="0x00">Speaker Test (スピーカーテスト)</title>
-			<title code="0x1f">Voice "Ladies and gentleman, this is today's event.</title>
-			<title code="0x1f"> Who's going to be the strongest warrior"</title>
+			<title code="0x1f">Voice "Ladies and gentleman, this is today's event. Who's going to be the strongest warrior?"</title>
 			<title code="0x20">Voice "Ready"</title>
 			<title code="0x21">Voice "Go!"</title>
 			<title code="0x22">Voice "You Win"</title>
@@ -4481,19 +4482,19 @@
 			<title code="0x02">Find the Coronet!</title>
 			<title code="0x09">Mysterious Natives</title>
 			<title code="0x18">Cleared</title>
-			<title code="0x0B">What Picture?</title>
+			<title code="0x0b">What Picture?</title>
 			<title code="0x04">Three Gems</title>
-			<title code="0x0D">Bakuretsu 1-minute Battle</title>
+			<title code="0x0d">Bakuretsu 1-minute Battle</title>
 			<title code="0x07">Stage Completed</title>
 			<title code="0x60">Over the Volcano</title>
-			<title code="0x1A">Samba with Elephants</title>
+			<title code="0x1a">Samba with Elephants</title>
 			<title code="0x11">Chased by Xylocopinae</title>
 			<title code="0x62">At Sunbaked Desert</title>
-			<title code="0x1C">V.S. the Archenemy 1</title>
+			<title code="0x1c">V.S. the Archenemy 1</title>
 			<title code="0x15">V.S. the Archenemy 2</title>
 			<title code="0x64">Closing Credits</title>
-			<title code="0x1E">Today's Lucky Animal</title>
-			<title code="0x0F">BGM #0F</title>
+			<title code="0x1e">Today's Lucky Animal</title>
+			<title code="0x0f">BGM #0F</title>
 			<title code="0x49">BGM #49</title>
 		</titlelist>
 	</game>
@@ -4537,23 +4538,23 @@
 		<titlelist>
 			<title code="0x69">Opening</title>
 			<title code="0x47">Awaiting Other Player</title>
-			<title code="0x6B">Start (not on CD)</title>
+			<title code="0x6b">Start (not on CD)</title>
 			<title code="0x41">Game BGM 1</title>
 			<title code="0x49">Warning BGM</title>
-			<title code="0x4F">Draw or Loss</title>
+			<title code="0x4f">Draw or Loss</title>
 			<title code="0x43">Game BGM 2 (not on CD)</title>
-			<title code="0x4D">Win-loss Standings</title>
+			<title code="0x4d">Win-loss Standings</title>
 			<title code="0x63">Music of the Boss Dragon</title>
 			<title code="0x45">Continue</title>
 			<title code="0x61">Game Over</title>
 			<title code="0x65">Music of the Final Boss Elinjus</title>
-			<title code="0x4B">Win</title>
+			<title code="0x4b">Win</title>
 			<title code="0x67">Ending (not on CD)</title>
-			<title code="0x6D">Credits (not on CD)</title>
+			<title code="0x6d">Credits (not on CD)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[NA-1] Fighter and Attacker (F/A ファイター&amp;アタッカー) (C219)</name>
+		<name>[NA-1] Fighter &amp; Attacker (F/A ファイター&amp;アタッカー) (C219)</name>
 		<driver type="na1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -4596,45 +4597,17 @@
 			<rom type="code" offset="0x00c000">c69.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2D">Credit</title>
-			<title code="0x2C">Take it Easy</title>
+			<title code="0x2d">Credit</title>
+			<title code="0x2c">Take it Easy</title>
 			<title code="0x27">Start</title>
 			<title code="0x06">[Voice] "Let's Play"</title>
-			<title code="0x2F">Enjoy</title>
+			<title code="0x2f">Enjoy</title>
 			<title code="0x26">[SFX] Applause</title>
 			<title code="0x28">Game and Match</title>
-			<title code="0x3C">Score</title>
-			<title code="0x3A">[SFX] Smash</title>
+			<title code="0x3c">Score</title>
+			<title code="0x3a">[SFX] Smash</title>
 			<title code="0x29">The Victory</title>
-			<title code="0x2E">Continue?</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[NA-1] Emeraldia (エメラルディア) (C219)</name>
-		<driver type="na1">namco</driver>
-		<driveralias type="Arcade">Namco</driveralias>
-		<options>
-			<option name="pcm_size" value="0x080000"/>
-			<option name="subtype" value="0x04"/>
-		</options>
-		<romlist archive="emeralda">
-			<rom type="pcm" offset="0x000000">em2-ep1u.7f</rom>
-			<rom type="pcm" offset="0x000001">em2-ep1l.7c</rom>
-			<rom type="code" offset="0x00c000">c70.bin</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x55">First Selection</title>
-			<title code="0x41">Welcome to Emeraldia</title>
-			<title code="0x43">Offence and Defense on the Red Line</title>
-			<title code="0x45">Love Catch of Mint and Gum (VS mode)</title>
-			<title code="0x4F">Setteled</title>
-			<title code="0x47">Intermission</title>
-			<title code="0x49">Theme of Jameel, the Dark Sea Lord</title>
-			<title code="0x59">Continue</title>
-			<title code="0x4B">Theme of Evacuation</title>
-			<title code="0x4D">Evacuation Successful</title>
-			<title code="0x57">New Journey of Mint (Ending)</title>
-			<title code="0x5B">Name Entry</title>
+			<title code="0x2e">Continue?</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4722,7 +4695,35 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[NA-2] Nettou! Gekitou! Quiztou!! (熱闘！激闘！クイズ島) (C219)</name>
+		<name>[NA-2] Emeraldia (エメラルディア) (C219)</name>
+		<driver type="na1">namco</driver>
+		<driveralias type="Arcade">Namco</driveralias>
+		<options>
+			<option name="pcm_size" value="0x080000"/>
+			<option name="subtype" value="0x04"/>
+		</options>
+		<romlist archive="emeralda">
+			<rom type="pcm" offset="0x000000">em2-ep1u.7f</rom>
+			<rom type="pcm" offset="0x000001">em2-ep1l.7c</rom>
+			<rom type="code" offset="0x00c000">c70.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x55">First Selection</title>
+			<title code="0x41">Welcome to Emeraldia</title>
+			<title code="0x43">Offence and Defense on the Red Line</title>
+			<title code="0x45">Love Catch of Mint and Gum (VS mode)</title>
+			<title code="0x4f">Setteled</title>
+			<title code="0x47">Intermission</title>
+			<title code="0x49">Theme of Jameel, the Dark Sea Lord</title>
+			<title code="0x59">Continue</title>
+			<title code="0x4b">Theme of Evacuation</title>
+			<title code="0x4d">Evacuation Successful</title>
+			<title code="0x57">New Journey of Mint (Ending)</title>
+			<title code="0x5b">Name Entry</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[NA-2] Nettou! Gekitou! Quiztou!! (熱闘！激闘！クイズ島!!) (C219)</name>
 		<driver type="na1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -4741,20 +4742,20 @@
 			<title code="0x04">Waltz of Flower Garden (Theme of Attar)</title>
 			<title code="0x05">Memory of Island (Theme of Farmer)</title>
 			<title code="0x06">Ancient Dream (Theme of Palaeontoligist)</title>
-			<title code="0x0B">Bugle of Angel</title>
-			<title code="0x0F">Quiz!!</title>
-			<title code="0x0D">Samba de Quiz</title>
-			<title code="0x0E">ROCK is Great!</title>
+			<title code="0x0b">Bugle of Angel</title>
+			<title code="0x0f">Quiz!!</title>
+			<title code="0x0d">Samba de Quiz</title>
+			<title code="0x0e">ROCK is Great!</title>
 			<title code="0x10">Q-Tech</title>
 			<title code="0x07">Won Out! (1)</title>
 			<title code="0x08">Abnormality</title>
-			<title code="0x0C">Find Keyword!</title>
+			<title code="0x0c">Find Keyword!</title>
 			<title code="0x09">Great Satan Appers</title>
 			<title code="0x12">Final Battle</title>
 			<title code="0x13">Won</title>
-			<title code="0x1C">New History</title>
-			<title code="0x1B">Won Out! (2)</title>
-			<title code="0x1D">The Theme of Quiztou (2)</title>
+			<title code="0x1c">New History</title>
+			<title code="0x1b">Won Out! (2)</title>
+			<title code="0x1d">The Theme of Quiztou (2)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -4781,13 +4782,13 @@
 			<title code="0x07">Interceptor 1</title>
 			<title code="0x09">Interceptor 2</title>
 			<title code="0x37">No Stop Rock Chop</title>
-			<title code="0x0F">Numan Sniper</title>
+			<title code="0x0f">Numan Sniper</title>
 			<title code="0x11">Tower Topper 1</title>
 			<title code="0x13">Tower Topper 2</title>
 			<title code="0x15">Tower Topper 3</title>
-			<title code="0x3B">Failure!</title>
-			<title code="0x3D">Success!</title>
-			<title code="0x3F">Game Over!</title>
+			<title code="0x3b">Failure!</title>
+			<title code="0x3d">Success!</title>
+			<title code="0x3f">Game Over!</title>
 			<title code="0x41">Results</title>
 			<title code="0x47">Results (over rega edit)</title>
 			<title code="0x45">A World Record</title>
@@ -4819,7 +4820,7 @@
 			<title code="0x1c">MAX-day : Starting Gate</title>
 			<title code="0x49">MAX-day : Survival Edit</title>
 			<title code="0x40">VEX-day : Ranking.exe</title>
-			<title code="0x3E">VEX-day : Ranking.exe II</title>
+			<title code="0x3e">VEX-day : Ranking.exe II</title>
 			<title code="0x1a">FIX-day : Future Lab 3999</title>
 			<title code="0x12">FIX-day : Maintenance Mode</title>
 			<title code="0x21">FOX-day : Super Les Edit</title>
@@ -4854,7 +4855,7 @@
 			<title code="0x94">エレクトーン・メドレー　守備交代.4</title>
 			<title code="0x90">エレクトーン・メドレー　ホームラン</title>
 			<title code="0x7f">エレクトーン・メドレー　試合終了</title>
-			<title code="0xa1">CD未収録曲</title>
+			<title code="0xa1">Not on CD (CD未収録曲)</title>
 			<title code="0x30">Voice #30</title>
 			<range min="0x32" max="0x3b" extcode="0">Voice #%02X</range>
 			<range min="0x40" max="0x46" extcode="0">Voice #%02X</range>
@@ -4947,7 +4948,7 @@
 			<rom type="pcm" offset="0x000000">nr1-voi0</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">Title ~ Overture</title>
+			<title code="0x04">Title ～ Overture</title>
 			<title code="0x7c">Credit (コイン)</title>
 			<title code="0x10">Exeo</title>
 			<title code="0x03">Evergrenes</title>
@@ -4970,7 +4971,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[NB-1] Point Blank / GunBullet (ガンバレット) (C352)</name>
+		<name>[NB-1] Point Blank / Gun Bullet (ガンバレット) (C352)</name>
 		<driver type="nb1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -5124,11 +5125,11 @@
 			<title code="0x9b">BGM #9B</title>
 			<title code="0x9d">BGM #9D</title>
 			<title code="0x03">Voice "Strike"</title>
-			<range min="0x42" max="0x4f" extcode="0">Voice #%02X</range>
+			<range min="0x42" max="0x4f" extcode="1">Voice #%02X</range>
 			<title code="0x51">Voice #51</title>
 			<title code="0x53">Voice #53</title>
 			<title code="0x55">Voice #55</title>
-			<range min="0x57" max="0x60" extcode="0">Voice #%02X</range>
+			<range min="0x57" max="0x60" extcode="1">Voice #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -5204,7 +5205,7 @@
 			<title code="0xf9">Jungle Factory</title>
 			<title code="0x47">Death Flight</title>
 			<title code="0xf6">Dangerous Cruise</title>
-			<title code="0x9c">Mr.Acme's Theme ~ A Planned Double Cross</title>
+			<title code="0x9c">Mr.Acme's Theme ～ A Planned Double Cross</title>
 			<title code="0xfb">Counterblow</title>
 			<title code="0x9a">I've Survived</title>
 			<title code="0xfd">Enjoy Life</title>
@@ -5213,7 +5214,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[NB-2] Mach Breakers (マッハブレイカーズ -ニューマンアスレチック2-) (C352)</name>
+		<name>[NB-2] Mach Breakers: Numan Athletics 2 (マッハブレイカーズ -ニューマンアスレチック2-) (C352)</name>
 		<driver type="nb1">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -5253,7 +5254,7 @@
 			<title code="0x209">競技オーバー</title>
 			<title code="0x238">同着判定</title>
 			<title code="0x20f">ワールド・レコード</title>
-			<title code="0x231">１人でもクリア</title>
+			<title code="0x231">1人でもクリア</title>
 			<title code="0x232">コンティニュー</title>
 			<title code="0x264">エキシビジョン</title>
 			<title code="0x239">表彰式</title>
@@ -5326,8 +5327,8 @@
 			<title code="0x311">スタート・ミュージック</title>
 			<title code="0x312">ゲームBGM</title>
 			<title code="0x315">エクステンド音</title>
-			<title code="0x313">１位・ネーム入れ・ミュージック</title>
-			<title code="0x314">２～５位・ネーム入れ・ミュージック</title>
+			<title code="0x313">1位・ネーム入れ・ミュージック</title>
+			<title code="0x314">2～5位・ネーム入れ・ミュージック</title>
 			<title code="0x00">===== Xevious Arrangement =====</title>
 			<title code="0x101">Objects &amp; Forest [BGM1] (Area 1, Extra Area 1)</title>
 			<title code="0x102">Objects &amp; Forest [BGM1] (Area 2, Extra Area 2)</title>
@@ -5412,7 +5413,7 @@
 			<rom type="pcm" offset="0x000000">ncs1voic.7c</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">===== Pacman (パックマン) =====</title>
+			<title code="0x00">===== Pac-Man (パックマン) =====</title>
 			<title code="0x110">コインクレジット</title>
 			<title code="0x11b">ゲームスタートMUSIC</title>
 			<title code="0x111">ワカワカ</title>
@@ -5421,7 +5422,7 @@
 			<title code="0x116">かみつき</title>
 			<title code="0x11c">コーヒーブレイクBGM</title>
 			<title code="0x11a">消滅</title>
-			<title code="0x00">===== Pacman Arrangement =====</title>
+			<title code="0x00">===== Pac-Man Arrangement =====</title>
 			<title code="0x120">コインクレジット</title>
 			<title code="0x191">イントロダクションMUSIC</title>
 			<title code="0x180">オープニングファンファーレ</title>
@@ -5438,8 +5439,8 @@
 			<title code="0x193">集計結果BGM</title>
 			<title code="0x197">エンディングBGM</title>
 			<title code="0x18e">コンティニューBGM</title>
-			<title code="0x189">ネームエントリーBGM(１位)</title>
-			<title code="0x18a">ネームエントリーBGM(２位～５位)</title>
+			<title code="0x189">ネームエントリーBGM(1位)</title>
+			<title code="0x18a">ネームエントリーBGM(2位～5位)</title>
 			<title code="0x18c">2P乱入ファンファーレ</title>
 			<title code="0x190">ファンファーレ(未使用)</title>
 			<title code="0x105">Not on CD 1 (CD未収録曲 1)</title>
@@ -5733,25 +5734,25 @@
 			<rom type="pcm" offset="0x300000">cy1wav3.10l</rom>
 		</romlist>
 		<titlelist>
+			<title code="0x8d">Select Your Vehicle (機体セレクト)</title>
 			<title code="0x8c">Opening (オープニング)</title>
-			<title code="0xf0">[Voice] Cyber Commando (Title Screen) (タイトル画面)</title>
-			<title code="0x8d">Machine Select (機体セレクト)</title>
-			<title code="0x80">City Stage 1 (都市ステージ 1, 対戦時都市ステージ 1)</title>
-			<title code="0x81">Park Stage 1 (公園ステージ 1, 対戦時公園ステージ 1)</title>
-			<title code="0x82">VS Metal Surpent, Versus Game Factory Stage 1 (VSメタルサーペントステージ, 対戦時工場ステージ 1)</title>
-			<title code="0x83">VS Rafflesia, Versus Game Factory Stage 2 (VSラフレシアステージ, 対戦時工場ステージ 2)</title>
-			<title code="0x84">VS General-D, Versus Game City Stage 2 (VSジェネラルーDステージ, 対戦時都市ステージ 2)</title>
-			<title code="0x85">VS Nightmare (VSナイトメアステージ)</title>
-			<title code="0x8b">Ending (starts after 12 seconds) (エンディング (12秒後に演奏開始))</title>
-			<title code="0x8a">Versus Game Park Stage 2 (対戦時公園ステージ 2)</title>
+			<title code="0x80">East City</title>
+			<title code="0x81">Civic Park</title>
+			<title code="0x82">Metal Serpent</title>
+			<title code="0x83">Rafflesia</title>
+			<title code="0x84">General-D</title>
+			<title code="0x85">Nightmare</title>
+			<title code="0x8b">Ending (エンディング)</title>
 			<title code="0x8f">Continue (コンティニュー)</title>
-			<title code="0x8e">Challenger Machine Select (乱入対戦時機体セレクト)</title>
+			<title code="0x8e">Select Your Vehicle (VS)</title>
+			<title code="0x8a">Versus</title>
 			<title code="0x88">Unused 1 (未使用 1)</title>
 			<title code="0xa0">Unused 2 (未使用 2)</title>
 			<title code="0xad">Unused 3 (未使用 3)</title>
 			<title code="0xae">Unused 4 (未使用 4)</title>
 			<title code="0xbb">Unused 5 (未使用 5)</title>
 			<title code="0x00">Speaker Test (スピーカーテスト)</title>
+			<title code="0xf0">Voice "Cyber Commando" (Title Screen) (タイトル画面)</title>
 			<title code="0xa1">Voice "The rescue operation has been given the go-ahead. This is not an exercise. I repeat, this is not an exercise. The space station "Unasur" has been occupied by the security computer system "Rama". It's orbit has been reprogrammed to collide with Earth. Your mission is to board "Unasur" and destroy "Rama" to stop the collision of "Unasur" and the Earth. You have courage to use all heavy weapons. Good luck Cyber Commando, over."</title>
 			<title code="0xaf">Voice "Recovery of the central computer has been confirmed."</title>
 			<title code="0xb0">Voice "The "Unasur's" orbit has been stabilized."</title>
@@ -5927,7 +5928,7 @@
 			<title code="0xa1">Voice "You're loosing time."</title>
 			<title code="0xa2">Voice "Hurry up!"</title>
 			<title code="0xa3">Voice "Time has been extended."</title>
-			<title code="0xa4">Voice "Now you're in ???"</title>
+			<title code="0xa4">Voice "Now you're in 1st."</title>
 			<title code="0xa5">Voice "You've earned lap leader points."</title>
 			<title code="0xab">Voice "Two laps to go."</title>
 			<title code="0xa6">Voice "Final lap."</title>
@@ -5938,20 +5939,16 @@
 			<title code="0xac">Voice "Red Lightning, number 25 is given the checkered flag."</title>
 			<title code="0xad">Voice "After a fierce battle, Red Lightning, number 25 pulls out a win."</title>
 			<title code="0xae">Voice "Red Lightning, number 25 is now taking a victory lap."</title>
-			<title code="0xaf">Voice "And now Red Lightning, number 25 crosses the finish line</title>
-			<title code="0xaf"> to take second place."</title>
+			<title code="0xaf">Voice "And now Red Lightning, number 25 crosses the finish line to take second place."</title>
 			<title code="0xb0">Voice "The second race will be Stream Field."</title>
 			<title code="0xb1">Voice "The second race will be Serrow Valley."</title>
 			<title code="0xb2">Voice "The second race will be Capitol City."</title>
 			<title code="0xb3">Voice "The third race will be Stream Field."</title>
 			<title code="0xb4">Voice "The third race will be Serrow Valley."</title>
 			<title code="0xb5">Voice "The third race will be Capitol City."</title>
-			<title code="0xb6">Voice "Even though it's early in the season, all drivers look hungry</title>
-			<title code="0xb6"> for victory. It's a long road to the championship."</title>
-			<title code="0xb7">Voice "It's a halfway point in the season and the competition is really</title>
-			<title code="0xb7"> starting to build. Remember to keep focused."</title>
-			<title code="0xb8">Voice "The final race is in the books. Now let's see who's the winner of the</title>
-			<title code="0xb8"> championship trophy."</title>
+			<title code="0xb6">Voice "Even though it's early in the season, all drivers look hungry for victory. It's a long road to the championship."</title>
+			<title code="0xb7">Voice "It's a halfway point in the season and the competition is really starting to build. Remember to keep focused."</title>
+			<title code="0xb8">Voice "The final race is in the books. Now let's see who's the winner of the championship trophy."</title>
 			<title code="0xb9">Voice "The winner of this championship series is... Red Lightning, number 25."</title>
 			<title code="0xba">Voice "Congratulations"</title>
 			<title code="0xbb">Voice "You've finished second, your total points..."</title>
@@ -6000,10 +5997,10 @@
 			<title code="0x45">You're a Loser (Game Over)</title>
 			<title code="0x54">Above the Sky, Below the Sea</title>
 			<title code="0x60">Into the Twilight (Expert's Mode Ending)</title>
-			<title code="0x43">Unknown (CD未収録曲 1)</title>
-			<title code="0x52">Unknown (CD未収録曲 2)</title>
-			<title code="0x57">Unknown (CD未収録曲 3)</title>
-			<title code="0x5a">Unknown (CD未収録曲 4)</title>
+			<title code="0x43">Not on CD (CD未収録曲 1)</title>
+			<title code="0x52">Not on CD (CD未収録曲 2)</title>
+			<title code="0x57">Not on CD (CD未収録曲 3)</title>
+			<title code="0x5a">Not on CD (CD未収録曲 4)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6187,7 +6184,7 @@
 			<title code="0x110">Sunrise/Sunset (サンライズ/サンセット)</title>
 			<title code="0x127">The Return in Triumph (凱旋)</title>
 			<title code="0x126">Healing: Theme from Sunrise/Sunset (安らぎ)</title>
-			<title code="0x123">Unknown (CD未収録曲)</title>
+			<title code="0x123">Not on CD (CD未収録曲)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -6452,7 +6449,7 @@
 			<title code="0x95">Name Entry</title>
 			<title code="0x68">Miss</title>
 			<title code="0xbd">Game Over</title>
-			<title code="0xad">Unknown (CD未収録曲)</title>
+			<title code="0xad">Not on CD (CD未収録曲)</title>
 			<title code="0x00">Voice "Prop Cycle"</title>
 			<title code="0x6f">Voice "Congratulations"</title>
 		</titlelist>
@@ -6641,7 +6638,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 11] Tekken 2 (鉄拳２) (C352)</name>
+		<name>[System 11] Tekken 2 Ver.B (鉄拳2) (C352)</name>
 		<driver type="system11">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -6654,7 +6651,7 @@
 			<rom type="pcm" offset="0x800000">tes1wave.8k</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x116">Introduction Movie (鉄拳２アトラクトムービー・サウンドトラック)</title>
+			<title code="0x116">Introduction Movie (鉄拳2アトラクトムービー・サウンドトラック)</title>
 			<title code="0x55">Fighter Select</title>
 			<title code="0x90">Michelle Chang -A Wandering Slugger- (－放浪の女拳士－)</title>
 			<title code="0x60">Yoshimitsu -A Space Ninja (吉光 －カラクリ宇宙忍者－)</title>
@@ -6671,7 +6668,7 @@
 			<title code="0xa5">Heihachi Mishima -Devil Kazuya- (三島平八 －デビルカズヤ－)</title>
 			<title code="0x1d0">Ending BGM</title>
 			<title code="0x50">Roger &amp; Alex</title>
-			<title code="0x1e0">Unknown (CD未収録曲)</title>
+			<title code="0x1e0">Not on CD (CD未収録曲)</title>
 			<title code="0xc5">Voice "Bruce Irvin"</title>
 			<title code="0xc6">Voice "Jun Kazama"</title>
 			<title code="0xc7">Voice "Lei Wulong"</title>
@@ -6794,8 +6791,7 @@
 			<title code="0xa0">Voice "The grueling battle ended with a victory of... Mitsurugi."</title>
 			<title code="0xa1">Voice "Will you challenge the enemy again?"</title>
 			<title code="0xa2">Voice "The legend will never die."</title>
-			<title code="0xa3">Voice "Transcending history and the world,</title>
-			<title code="0xa3"> a tale of souls and swords eternally retold."</title>
+			<title code="0xa3">Voice "Transcending history and the world, a tale of souls and swords eternally retold."</title>
 			<title code="0xa4">Voice "Soul Edge"</title>
 			<title code="0xa5">Voice "Welcome to the stage of history."</title>
 			<title code="0xa6">Voice "Namco"</title>
@@ -7299,7 +7295,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 12] Tekken 3 (鉄拳３) (C352)</name>
+		<name>[System 12] Tekken 3 (鉄拳3) (C352)</name>
 		<driver type="system12">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -7863,18 +7859,19 @@
 			<rom type="pcm" offset="0x000000">dri1wave0.5</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0B">Georian</title>
-			<title code="0x02">Mr.Driller's Theme</title>
-			<title code="0x4E">sala de masala</title>
-			<title code="0x6E">Fanfare</title>
+			<title code="0x0b">Georian</title>
+			<title code="0x02">Mr. Driller's Theme</title>
+			<title code="0x4e">Sala de Masala</title>
+			<title code="0x6e">Fanfare</title>
 			<title code="0x08">Mr.Driller</title>
 			<title code="0x33">Mode Select</title>
 			<title code="0x38">Game Over</title>
 			<title code="0x01">Stereo Check</title>
-			<title code="0x4B">Unknown #1</title>
+			<title code="0x4b">Unknown #1</title>
 			<title code="0x53">Unknown #2</title>
 			<title code="0x55">Unknown #3</title>
 			<title code="0x65">Unknown #4</title>
+			<range min="0x10" max="0x4a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -7921,22 +7918,22 @@
 			<rom type="pcm" offset="0x000000">aq1wave0.2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1a">Mode Select</title>
-			<title code="0x10">Deep Sea</title>
-			<title code="0x11">Submarine Volcano</title>
-			<title code="0x12">Temple</title>
-			<title code="0x13">Crystal</title>
-			<title code="0x14">Shallows</title>
-			<!-- <title code="0x15">Shallows</title> -->
-			<title code="0x19">All Clear</title>
-			<title code="0x1b">Staff Roll</title>
-			<title code="0x1c">Game Over</title>
+			<title code="0x1a">Mode Select (モードセレクト)</title>
+			<title code="0x10">Deep Sea (深海)</title>
+			<title code="0x11">Submarine Volcano (海底火山)</title>
+			<title code="0x12">Temple (神殿)</title>
+			<title code="0x13">Crystal (水晶)</title>
+			<title code="0x14">Shallows (浅瀬)</title>
+			<!-- <title code="0x15">Shallows (浅瀬)</title> -->
+			<title code="0x19">All Clear (オールクリア)</title>
+			<title code="0x1b">Staff Roll (スタッフロール)</title>
+			<title code="0x1c">Game Over (ゲームオーバー)</title>
 			<title code="0x16">Match-up Mode</title>
 			<range min="0x101" max="0x135" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[System 12] Shin Nihon Pro Wrestling Toukon Retsuden 3 Arcade Edition (新日本プロレスリング 闘魂烈伝3 - アーケードエディション) (C352)</name>
+		<name>[System 12] Shin Nihon Pro Wrestling Toukon Retsuden 3 - Arcade Edition (新日本プロレスリング 闘魂烈伝3 - アーケードエディション) (C352)</name>
 		<driver type="system12">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
 		<options>
@@ -8082,6 +8079,76 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[System 12] Techno Drive (テクノドライブ) (C352)</name>
+		<driver type="system12">namco</driver>
+		<driveralias type="Arcade">Namco</driveralias>
+		<options>
+			<option name="pcm_mix" value="0xc0"/>
+			<option name="pcm_size" value="0x800000"/>
+		</options>
+		<romlist archive="technodr">
+			<rom type="code" offset="0x000000">th1verb.11s</rom>
+			<rom type="code" offset="0x010040">patch</rom> <!-- 00010040: 00->01 -->
+			<rom type="pcm" offset="0x000000">th1wave0.5</rom>
+			<rom type="pcm" offset="0x400000">th1wave1.4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x001">Sound Test</title>
+			<title code="0x130">Title Demo</title>
+			<title code="0x140">Attract Demo</title>
+			<title code="0x161">Select</title>
+			<title code="0x100">Steering Technique</title>
+			<title code="0x110">Footwork Technique</title>
+			<title code="0x120">Practical Technique</title>
+			<title code="0x153">Result</title>
+			<title code="0x127">BGM #27</title>
+			<title code="0x150">BGM #50</title>
+			<title code="0x154">BGM #54</title>
+			<title code="0x160">BGM #60</title>
+			<title code="0x170">BGM #70</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[System 12] Kart Duel (カートデュエル) (C352)</name>
+		<driver type="system12">namco</driver>
+		<driveralias type="Arcade">Namco</driveralias>
+		<options>
+			<option name="pcm_mix" value="0xc0"/>
+			<option name="pcm_size" value="0x800000"/>
+		</options>
+		<romlist archive="kartduel">
+			<rom type="code" offset="0x000000">ktd1vera.11s</rom>
+			<rom type="pcm" offset="0x000000">ktd1wave0.ic2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Sound Test</title>
+			<title code="0x0c">Namco Logo</title>
+			<title code="0x4c">Title</title>
+			<title code="0x46">High Score Table</title>
+			<title code="0x67">Attract Demo</title>
+			<title code="0x10">BGM #00</title>
+			<title code="0x17">BGM #01</title>
+			<title code="0x1b">BGM #02</title>
+			<title code="0x23">BGM #03</title>
+			<title code="0x27">BGM #04</title>
+			<title code="0x2b">BGM #05</title>
+			<title code="0x30">BGM #06</title>
+			<title code="0x32">BGM #07</title>
+			<title code="0x39">BGM #08</title>
+			<title code="0x40">BGM #09</title>
+			<title code="0x53">BGM #12</title>
+			<title code="0x5a">BGM #13</title>
+			<title code="0x61">BGM #14</title>
+			<range min="0x02" max="0x06" extcode="1">SFX #%02X</range>
+			<range min="0x08" max="0x0b" extcode="1">SFX #%02X</range>
+			<range min="0x0d" max="0x0e" extcode="1">SFX #%02X</range>
+			<range min="0x14" max="0x16" extcode="1">SFX #%02X</range>
+			<range min="0x21" max="0x22" extcode="1">SFX #%02X</range>
+			<title code="0x38">SFX #38</title>
+			<range min="0x72" max="0x76" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
 		<name>[Gorgon] Final Furlong (ファイナルハロン) (C352)</name>
 		<driver type="system12">namco</driver>
 		<driveralias type="Arcade">Namco</driveralias>
@@ -8089,7 +8156,7 @@
 			<option name="pcm_mix" value="0xa0"/>
 			<option name="pcm_size" value="0x1000000"/>
 		</options>
-		<romlist archive="finlflng">
+		<romlist archive="finfurl">
 			<rom type="code" offset="0x000000">ff2vera.ic3</rom>
 			<rom type="pcm" offset="0x000000">ff2wavel.2s</rom>
 			<rom type="pcm" offset="0x800000">ff2waveh.3s</rom>
@@ -8117,12 +8184,6 @@
 			<title code="0x5d">BGM #5D</title>
 			<title code="0x5e">BGM #5E</title>
 			<title code="0x5f">BGM #5F</title>
-			<title code="0x60">BGM #60</title>
-			<title code="0x61">BGM #61</title>
-			<title code="0x62">BGM #62</title>
-			<title code="0x63">BGM #63</title>
-			<title code="0x64">BGM #64</title>
-			<title code="0x65">BGM #65</title>
 			<title code="0x66">BGM #66</title>
 			<title code="0x67">BGM #67</title>
 			<title code="0x68">BGM #68</title>

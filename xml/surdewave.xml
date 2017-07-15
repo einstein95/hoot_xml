@@ -370,75 +370,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Hayato (YM2149)</name>
-		<driver type="psg">x1</driver>
-		<driveralias type="X1">Sur De Wave</driveralias>
-		<options>
-			<option name="mdata_addr" value="0xc000"/>
-			<option name="psg_mix" value="0x70"/>
-		</options>
-		<romlist archive="x1hayato">
-			<rom type="code" offset="0x0000">PATCH</rom>
-			<rom type="code" offset="0xb800">DRIVER1</rom>
-			<rom type="code" offset="0xbc00">DRIVER2</rom>
-			<rom type="bgm" offset="0x00">MUS00</rom>
-			<rom type="bgm" offset="0x01">MUS01</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01000001">BGM #01</title>
-			<title code="0x02000000">BGM #02</title>
-			<title code="0x03000000">BGM #03</title>
-			<title code="0x04000000">BGM #04</title>
-			<title code="0x05000000">BGM #05</title>
-			<title code="0x06000000">BGM #06</title>
-			<title code="0x07000000">BGM #07</title>
-			<title code="0x08000000">BGM #08</title>
-			<title code="0x09000001">BGM #09</title>
-			<title code="0x0b000000">BGM #0b</title>
-			<title code="0x0c000000">BGM #0c</title>
-			<title code="0x0d000000">BGM #0d</title>
-			<title code="0x0e000000">BGM #0e</title>
-			<title code="0x0f000000">BGM #0f</title>
-			<title code="0x10000000">BGM #10</title>
-			<title code="0x11000000">BGM #11</title>
-			<title code="0x12000000">BGM #12</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[X1] Hayato (YM2151)</name>
-		<driver type="opm">x1</driver>
-		<driveralias type="X1">Sur De Wave</driveralias>
-		<options>
-			<option name="mdata_addr" value="0xc000"/>
-		</options>
-		<romlist archive="x1hayato">
-			<rom type="code" offset="0x0000">PATCH</rom>
-			<rom type="code" offset="0xb800">DRIVER1</rom>
-			<rom type="code" offset="0xbc00">DRIVER2</rom>
-			<rom type="bgm" offset="0x00">MUS00</rom>
-			<rom type="bgm" offset="0x01">MUS01</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x01000001">BGM #01</title>
-			<title code="0x02000000">BGM #02</title>
-			<title code="0x03000000">BGM #03</title>
-			<title code="0x04000000">BGM #04</title>
-			<title code="0x05000000">BGM #05</title>
-			<title code="0x06000000">BGM #06</title>
-			<title code="0x07000000">BGM #07</title>
-			<title code="0x08000000">BGM #08</title>
-			<title code="0x09000001">BGM #09</title>
-			<title code="0x0b000000">BGM #0b</title>
-			<title code="0x0c000000">BGM #0c</title>
-			<title code="0x0d000000">BGM #0d</title>
-			<title code="0x0e000000">BGM #0e</title>
-			<title code="0x0f000000">BGM #0f</title>
-			<title code="0x10000000">BGM #10</title>
-			<title code="0x11000000">BGM #11</title>
-			<title code="0x12000000">BGM #12</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[X68000] Nostalgia 1907 (ノスタルジア1907) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sur De Wave</driveralias>
@@ -469,7 +400,7 @@
 			<title code="0x0e">BGM #0e</title>
 			<title code="0x0f">BGM #0f</title>
 			<title code="0x10">BGM #10</title>
-			<title code="0x11">10 波の音</title>
+			<title code="0x11">波の音</title>
 			<title code="0x12">気弱いんじゃない。</title>
 			<title code="0x13">彼がドアを閉めた、</title>
 			<title code="0x14">BGM #14</title>
@@ -574,7 +505,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] HARD SHOT</name>
+		<name>[PC-9801] Hard Shot (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Sur De Wave</driveralias>
 		<options>

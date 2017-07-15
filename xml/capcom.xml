@@ -348,74 +348,94 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Son Son] Son Son (ソンソン) (AY-3-8910x2)</name>
+		<name>[SonSon] SonSon (ソンソン) (AY-3-8910x2)</name>
 		<driver type="sonson">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="sonson">
 			<rom type="code" offset="0x00000">ss_6.c11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">クレジット</title>
-			<title code="0x18">スタートデモ</title>
-			<title code="0x16">スタート</title>
-			<title code="0x10">メインBGM</title>
-			<title code="0x11">砦BGM</title>
-			<title code="0x12">メインBGM</title>
-			<title code="0x17">天竺BGM</title>
-			<title code="0x14">ゲームオーバー</title>
-			<title code="0x13">ネームレジスト</title>
-			<title code="0x15">エントリー終了</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
+			<title code="0x01">Credit (クレジット)</title>
+			<title code="0x18">Start Demo (スタートデモ)</title>
+			<title code="0x16">Start (スタート)</title>
+			<title code="0x10">Main BGM (メインBGM)</title>
+			<title code="0x11">Fortress BGM (砦BGM)</title>
+			<title code="0x12">Main BGM (メインBGM)</title>
+			<title code="0x17">Tenjiku BGM (天竺BGM)</title>
+			<title code="0x14">Game Over (ゲームオーバー)</title>
+			<title code="0x13">Name Register (ネームレジスト)</title>
+			<title code="0x15">Entry End (エントリー終了)</title>
+			<range min="0x02" max="0xc" extcode="1">SFX #02X</range>
+			<range min="0x0e" max="0x0f" extcode="1">SFX #02X</range>
 		</titlelist>
 	</game>
 	<game>
 		<name>[1942] 1942 (AY-3-8910x2)</name>
-		<driver type = "1942">capcom</driver>
+		<driver type="1942">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<options>
-			<option name = "psg_mix" value = "0x100"/>
+			<option name="psg_mix" value="0x100"/>
 		</options>
-		<romlist archive = "1942">
-			<rom type = "code" offset = "0x00000">sr-01.c11</rom>
+		<romlist archive="1942">
+			<rom type="code" offset="0x00000">sr-01.c11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">クレジット</title>
-			<title code="0x0d">スタート(1)</title>
-			<title code="0x06">スタート(2)</title>
-			<title code="0x11">メインBGM</title>
-			<title code="0x1b">ステージクリア</title>
-			<title code="0x13">リスタート</title>
-			<title code="0x15">ボーナスステージクリア</title>
-			<title code="0x1a">亜也虎BGM(1)</title>
-			<title code="0x14">亜也虎BGM(2)</title>
-			<title code="0x16">ゲームオーバー</title>
-			<title code="0x17">ネームレジスト</title>
+			<title code="0x0a">Credit (クレジット)</title>
+			<title code="0x0d">Start (1) (スタート(1))</title>
+			<title code="0x06">Start (2) (スタート(2))</title>
+			<title code="0x11">Main BGM (メインBGM)</title>
+			<title code="0x1b">Stage Clear (ステージクリア)</title>
+			<title code="0x13">Restart (リスタート)</title>
+			<title code="0x15">Bonus Stage Clear (ボーナスステージクリア)</title>
+			<title code="0x1a">Ayako BGM (1) (亜也虎BGM(1))</title>
+			<title code="0x14">Ayako BGM (2) (亜也虎BGM(2))</title>
+			<title code="0x16">Game Over (ゲームオーバー)</title>
+			<title code="0x17">Name Register (ネームレジスト)</title>
 			<title code="0x08">BGM #08</title>
 			<title code="0x12">BGM #12</title>
 			<title code="0x18">BGM #18</title>
 			<title code="0x19">BGM #19</title>
-			<title code="0x01">SFX #01</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
+			<range min="0x01" max="0x05" extcode="1">SFX #02X</range>
 			<title code="0x07">SFX #07</title>
 			<title code="0x09">SFX #09</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0e">SFX #0E</title>
+			<range min="0x0c" max="0x0e" extcode="1">SFX #02X</range>
 			<title code="0x1f">SFX #1F</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Higemaru] Pirate Ship Higemaru (ひげ丸) (AY-3-8910x2)</name>
+		<driver type="higemaru">capcom</driver>
+		<driveralias type="Arcade">Capcom</driveralias>
+		<romlist archive="higemaru">
+			<rom offset="0x0000" type="code">hg4.p12</rom>
+			<rom offset="0x2000" type="code">hg5.m12</rom>
+			<rom offset="0x4000" type="code">hg6.p11</rom>
+			<rom offset="0x6000" type="code">hg7.m11</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Coin</title>
+			<title code="0x08">Game Start</title>
+			<title code="0x01">Lesson</title>
+			<title code="0x04">Deck Start</title>
+			<title code="0x06">Intro</title>
+			<title code="0x09">BGM</title>
+			<title code="0x0a">BGM (Fast)</title>
+			<title code="0x0b">BGM (Very Fast)</title>
+			<title code="0x0f">Bonus</title>
+			<title code="0x11">Clear</title>
+			<title code="0x05">Next Deck</title>
+			<title code="0x07">Hi-Point Deck</title>
+			<title code="0x0c">BGM 2</title>
+			<title code="0x0d">BGM 2 (Fast)</title>
+			<title code="0x0e">BGM 2 (Very Fast)</title>
+			<title code="0x12">Miss</title>
+			<title code="0x13">Game Over</title>
+			<title code="0x14">Naming</title>
+			<title code="0x15">Ranking Top</title>
+			<title code="0x00">Ranking</title>
+			<title code="0x10">1-Up</title>
+			<title code="0x16">Warning</title>
+			<range min="0x17" max="0x1e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -449,13 +469,13 @@
 			<title code="0x31">Player Out (プレイヤーミスSE)</title>
 			<title code="0x18">Hurry Up! (Time Left 15 seconds) (タイムアウト警告)</title>
 			<title code="0x2f">Game Over (ゲームオーバー)</title>
-			<title code="0x26">Name Regist (1st Place) (1位ネーム入れ)</title>
-			<title code="0x25">Name Regist Finished (1st Place) (1位ネーム入れ終了)</title>
-			<title code="0x2c">Name Regist (2nd Place and below) (1) (2位以下ネーム入れイントロ)</title>
-			<title code="0x28">Name Regist (2nd Place and below) (2) (2位以下ネーム入れ)</title>
-			<title code="0x27">Name Regist Finished (2nd Place and below) (2位以下ネーム入れ終了)</title>
-			<title code="0x1d">アイテム獲得SE</title>
-			<title code="0x37">プレイヤーエクステンドSE</title>
+			<title code="0x26">Name Register (1st Place) (1位ネーム入れ)</title>
+			<title code="0x25">Name Register Finished (1st Place) (1位ネーム入れ終了)</title>
+			<title code="0x2c">Name Register (2nd Place and below) (1) (2位以下ネーム入れイントロ)</title>
+			<title code="0x28">Name Register (2nd Place and below) (2) (2位以下ネーム入れ)</title>
+			<title code="0x27">Name Register Finished (2nd Place and below) (2位以下ネーム入れ終了)</title>
+			<title code="0x1d">Item Get SFX (アイテム獲得SE)</title>
+			<title code="0x37">Player Extend SFX (プレイヤーエクステンドSE)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -493,11 +513,11 @@
 			<title code="0x21">Restart</title>
 			<title code="0x32">Game Over</title>
 			<title code="0x33">Name Regist</title>
-			<title code="0x35">Name Regist Finished</title>
+			<title code="0x35">Name Register Finished</title>
 			<title code="0x34">Name Resist Time Out</title>
 			<title code="0x3a">Continue</title>
-			<title code="0x38">Unused</title>
-			<title code="0x3d">Unused</title>
+			<title code="0x38">Unused #1</title>
+			<title code="0x3d">Unused #2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -523,9 +543,9 @@
 			<title code="0x23">Name Entry</title>
 			<title code="0x26">Ranking</title>
 			<title code="0x21">Extend</title>
-			<title code="0x05">SFX 死亡</title>
-			<title code="0x0c">SFX 虫</title>
-			<title code="0x0d">SFX アイテム</title>
+			<title code="0x05">SFX "Death" (SFX 死亡)</title>
+			<title code="0x0c">SFX "Insect" (SFX 虫)</title>
+			<title code="0x0d">SFX "Item" (SFX アイテム)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -592,7 +612,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ghosts and Goblins] 1943 (１９４３～ミッドウェイ海戦～) (YM2203x2)</name>
+		<name>[Ghosts and Goblins] 1943 (1943～ミッドウェイ海戦～) (YM2203x2)</name>
 		<driver type="opn2">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="1943">
@@ -654,7 +674,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ghosts and Goblins] Avengers (必殺！無頼拳) (YM2203x2)</name>
+		<name>[Ghosts and Goblins] Avengers (必殺! 無頼拳) (YM2203x2)</name>
 		<driver type="opn2">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="avengers">
@@ -675,10 +695,10 @@
 			<title code="0x32">Boss "Geshita"</title>
 			<title code="0x34">Ending - End Credits</title>
 			<title code="0x24">Game Over</title>
-			<title code="0x25">Name Regist (1st Place)</title>
-			<title code="0x27">Name Regist Finished (1st Place)</title>
-			<title code="0x26">Name Regist (2nd Place and Below)</title>
-			<title code="0x28">Name Regist Finished (2nd Place and Below)</title>
+			<title code="0x25">Name Register (1st Place)</title>
+			<title code="0x27">Name Register Finished (1st Place)</title>
+			<title code="0x26">Name Register (2nd Place and Below)</title>
+			<title code="0x28">Name Register Finished (2nd Place and Below)</title>
 			<title code="0x29">Continue</title>
 			<title code="0x30">Unused</title>
 			<title code="0x35">Unused</title>
@@ -687,52 +707,35 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Exed Exes] Exed Exes (エグゼドエグゼス) (SN76496x2)</name>
+		<name>[Exed Exes] Exed Exes (エグゼドエグゼス) (AY-3-8910+SN76496x2)</name>
 		<driver type="exedexes">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="exedexes">
 			<rom type="code" offset="0x00000">11e_ee01.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x35">Stop the Music</title>
-			<title code="0x01">クレジット</title>
-			<title code="0x24">スタートデモ</title>
-			<title code="0x25">メインBGM</title>
+			<title code="0x01">Credit (クレジット)</title>
+			<title code="0x24">Start Demo (スタートデモ)</title>
+			<title code="0x25">Main BGM (メインBGM)</title>
 			<title code="0x22">Hi-Point Area BGM</title>
-			<title code="0x2a">ボス</title>
-			<title code="0x2b">ボスクリア</title>
-			<title code="0x2d">エグゼドエグゼス(16面ボス)クリア</title>
-			<title code="0x2c">ゲームーオーバー</title>
-			<title code="0x20">１位ネームレジスト</title>
-			<title code="0x21">エントリー終了</title>
-			<title code="0x2f">2位以下ネームレジスト</title>
-			<title code="0x23">エントリー終了</title>
-			<title code="0x30">1000万点達成BGM</title>
-			<title code="0x31">1000万点達成ネームレジスト</title>
-			<title code="0x33">Unknown</title>
-			<title code="0x34">Unknown [Son Son Main BGM]</title>
-			<title code="0x27">パワーアップ BGM1</title>
-			<title code="0x28">パワーアップ BGM2</title>
-			<title code="0x29">パワーアップ BGM3</title>
-			<title code="0x26">パワーダウン BGM</title>
+			<title code="0x2a">Boss (ボス)</title>
+			<title code="0x2b">Boss Clear (ボスクリア)</title>
+			<title code="0x2d">Exed Exes (16th Boss) Clear (エグゼドエグゼス(16面ボス)クリア)</title>
+			<title code="0x2c">Game Over (ゲームーオーバー)</title>
+			<title code="0x20">#1 Name Register (1位ネームレジスト)</title>
+			<title code="0x21">#1 Entry End (エントリー終了)</title>
+			<title code="0x2f">#2 and Lower Name Register (2位以下ネームレジスト)</title>
+			<title code="0x23">#2 and Lower Entry End (エントリー終了)</title>
+			<title code="0x30">10 Million Points Achieved BGM (1000万点達成BGM)</title>
+			<title code="0x31">10 Million Points Achieved Name Register (1000万点達成ネームレジスト)</title>
+			<title code="0x33">Unknown [Pirate Ship Higemaru BGM]</title>
+			<title code="0x34">Unknown [SonSon Main BGM]</title>
+			<title code="0x27">Power Up BGM 1 (パワーアップ BGM1)</title>
+			<title code="0x28">Power Up BGM 2 (パワーアップ BGM2)</title>
+			<title code="0x29">Power Up BGM 3 (パワーアップ BGM3)</title>
+			<title code="0x26">Power Up BGM 4 (パワーダウン BGM)</title>
+			<range min="0x02" max="0x12" extcode="1">SFX #%02X</range>
 			<title code="0x2e">SFX #2E</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
 		</titlelist>
 	</game>
 	<game>
@@ -757,29 +760,12 @@
 			<title code="0x24">BGM 2</title>
 			<title code="0x26">All Cleared (オールクリア)</title>
 			<title code="0x27">Game Over (ゲームオーバー)</title>
-			<title code="0x28">Name Regist (ネームレジスト)</title>
-			<title code="0x29">Entry Finished (1st Place) (１位エントリー終了)</title>
-			<title code="0x2a">Entry Finished (Below 2nd Place) (２位以下エントリー終了)</title>
-			<title code="0x2c">Restart - BGM 2 (リスタート ～ ＢＧＭ２)</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
+			<title code="0x28">Name Register (ネームレジスト)</title>
+			<title code="0x29">Entry Finished (1st Place) (1位エントリー終了)</title>
+			<title code="0x2a">Entry Finished (Below 2nd Place) (2位以下エントリー終了)</title>
+			<title code="0x2c">Restart - BGM 2 (リスタート ～ BGM2)</title>
+			<range min="0x02" max="0x0d" extcode="1">SFX #%02X</range>
+			<range min="0x0f" max="0x15" extcode="1">SFX #%02X</range>
 			<title code="0x18">SFX #18</title>
 			<title code="0x1b">SFX #1B</title>
 		</titlelist>
@@ -796,16 +782,16 @@
 			<title code="0x25">Opening Demonstration</title>
 			<title code="0x26">Start</title>
 			<title code="0x28">Sharp Shooting [Stage 1 &amp; 4]</title>
-			<title code="0x2C">Area Finished</title>
+			<title code="0x2c">Area Finished</title>
 			<title code="0x29">Chaser [Stage 2 &amp; 6]</title>
-			<title code="0x2D">Time Out Warning</title>
+			<title code="0x2d">Time Out Warning</title>
 			<title code="0x38">Player Out</title>
-			<title code="0x2F">Game Over</title>
+			<title code="0x2f">Game Over</title>
 			<title code="0x39">Continue</title>
-			<title code="0x2A">Go Mad [Stage 3 &amp; 5]</title>
-			<title code="0x2B">Last Stage Start</title>
-			<title code="0x3A">Theme from Zapper</title>
-			<title code="0x2E">Last Stage Cleared</title>
+			<title code="0x2a">Go Mad [Stage 3 &amp; 5]</title>
+			<title code="0x2b">Last Stage Start</title>
+			<title code="0x3a">Theme from Zapper</title>
+			<title code="0x2e">Last Stage Cleared</title>
 			<title code="0x30">Top Class Ranking</title>
 			<title code="0x32">Second Class Ranking</title>
 			<title code="0x31">Ranking Display</title>
@@ -817,7 +803,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Rush and Crash] The Speed Rumbler JP (ラッシュ&amp;クラッシュ) (YM2203x2)</name>
+		<name>[Rush and Crash] The Speed Rumbler (JP) (ラッシュ&amp;クラッシュ) (YM2203x2)</name>
 		<driver type="rushcrsh">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="rushcrsh">
@@ -828,16 +814,16 @@
 			<title code="0x25">Opening Demonstration</title>
 			<title code="0x26">Start</title>
 			<title code="0x28">Sharp Shooting [Stage 1 &amp; 4]</title>
-			<title code="0x2C">Area Finished</title>
+			<title code="0x2c">Area Finished</title>
 			<title code="0x29">Chaser [Stage 2 &amp; 6]</title>
-			<title code="0x2D">Time Out Warning</title>
+			<title code="0x2d">Time Out Warning</title>
 			<title code="0x38">Player Out</title>
-			<title code="0x2F">Game Over</title>
+			<title code="0x2f">Game Over</title>
 			<title code="0x39">Continue</title>
-			<title code="0x2A">Go Mad [Stage 3 &amp; 5]</title>
-			<title code="0x2B">Last Stage Start</title>
-			<title code="0x3A">Theme from Zapper</title>
-			<title code="0x2E">Last Stage Cleared</title>
+			<title code="0x2a">Go Mad [Stage 3 &amp; 5]</title>
+			<title code="0x2b">Last Stage Start</title>
+			<title code="0x3a">Theme from Zapper</title>
+			<title code="0x2e">Last Stage Cleared</title>
 			<title code="0x30">Top Class Ranking</title>
 			<title code="0x32">Second Class Ranking</title>
 			<title code="0x31">Ranking Display</title>
@@ -879,33 +865,9 @@
 			<title code="0x2c">Ending</title>
 			<title code="0x2e">Game Over</title>
 			<title code="0x38">Speaker Test</title>
-			<title code="0x01">SFX #01</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
+			<range min="0x01" max="0x15" extcode="1">SFX #%02X</range>
+			<range min="0x17" max="0x18" extcode="1">SFX #%02X</range>
+			<range min="0x1a" max="0x1e" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -916,21 +878,21 @@
 			<rom type="code" offset="0x00000">ts_01b.4e</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">最前線</title>
-			<title code="0x02">大要塞</title>
-			<title code="0x0a">悪魔の塔</title>
-			<title code="0x0b">トップ・シークレット</title>
-			<title code="0x0e">エンディング</title>
-			<title code="0x03">ランキング</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<range min="0x11" max="0x2a" extcode="0">SFX #%02d</range>
+			<title code="0x10">Credit (クレジット)</title>
+			<title code="0x01">The Front Line (最前線)</title>
+			<title code="0x09">Stage Clear (ステージクリア)</title>
+			<title code="0x02">Large Fortress (大要塞)</title>
+			<title code="0x04">Stage 3 (ステージ3)</title>
+			<title code="0x0a">Devil's Tower (悪魔の塔)</title>
+			<title code="0x0b">Top Secret (トップ・シークレット)</title>
+			<title code="0x0e">Ending (エンディング)</title>
+			<title code="0x07">Game Over (ゲームオーバー)</title>
+			<title code="0x08">Continue (コンティニュー)</title>
+			<title code="0x03">Ranking (ランキング)</title>
+			<title code="0x06">Player Start (プレイヤースタート)</title>
+			<title code="0x05">Unused Track 1</title>
+			<title code="0x0f">Unused Track 2</title>
+			<range min="0x11" max="0x2a" extcode="1">SFX #%02X</range>
  	</titlelist>
 	</game>
 	<game>
@@ -947,20 +909,20 @@
 			<title code="0x29">Nomal Boss</title>
 			<title code="0x32">Round Clear</title>
 			<title code="0x22">Underground [Round 2]</title>
-			<title code="0x2D">Dungeon</title>
+			<title code="0x2d">Dungeon</title>
 			<title code="0x23">Flame Wall [Round 3]</title>
-			<title code="0x2C">Shop</title>
+			<title code="0x2c">Shop</title>
 			<title code="0x24">Volcanic Belt [Round 4]</title>
 			<title code="0x25">The Road to Hell [Round 5]</title>
 			<title code="0x34">Continue</title>
 			<title code="0x26">Air Corridor [Round 6]</title>
-			<title code="0x2A">Blue &amp; Red Dragons [Round 3, 6]</title>
+			<title code="0x2a">Blue &amp; Red Dragons [Round 3, 6]</title>
 			<title code="0x27">The Church of Death [Round 7]</title>
 			<title code="0x28">Dragon's Castle [Round 8]</title>
-			<title code="0x2B">Black Dragon</title>
+			<title code="0x2b">Black Dragon</title>
 			<title code="0x33">Last Round Clear</title>
-			<title code="0x2E">Name Entry</title>
-			<title code="0x2F">Hiscore List</title>
+			<title code="0x2e">Name Entry</title>
+			<title code="0x2f">Hiscore List</title>
 			<title code="0x31">Game Over</title>
 			<title code="0x35">Unused 1</title>
 			<title code="0x36">Unused 2</title>
@@ -982,28 +944,28 @@
 			<rom type="code2" offset="0x20000">sf-01.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0F">Game Start [Credit]</title>
+			<title code="0x0f">Game Start [Credit]</title>
 			<title code="0x34">Stage Select</title>
 			<title code="0x33">VS.</title>
 			<title code="0x28">Retsu [Japan, Shourinji Temple]</title>
 			<title code="0x29">Geki [Japan, Ninja]</title>
 			<title code="0x37">Stage Clear</title>
-			<title code="0x2A">Joe [USA, Martial Art]</title>
-			<title code="0x2B">Mike [USA, Boxer]</title>
-			<title code="0x3A">Bonus Stage [Breaking Bricks]</title>
-			<title code="0x2C">Birdie [England, Mohican]</title>
-			<title code="0x2D">Eagle [England, Ancient Castle]</title>
-			<title code="0x3E">Breaking In</title>
-			<title code="0x2E">Lee [China, Great Wall]</title>
-			<title code="0x2F">Yuan [China, Town]</title>
-			<title code="0x3B">Bonus Stage [Breaking Boards]</title>
+			<title code="0x2a">Joe [USA, Martial Art]</title>
+			<title code="0x2b">Mike [USA, Boxer]</title>
+			<title code="0x3a">Bonus Stage [Breaking Bricks]</title>
+			<title code="0x2c">Birdie [England, Mohican]</title>
+			<title code="0x2d">Eagle [England, Ancient Castle]</title>
+			<title code="0x3e">Breaking In</title>
+			<title code="0x2e">Lee [China, Great Wall]</title>
+			<title code="0x2f">Yuan [China, Town]</title>
+			<title code="0x3b">Bonus Stage [Breaking Boards]</title>
 			<title code="0x30">Adon [Thai, Sun Set]</title>
 			<title code="0x31">Sagat [Thai, Final Match]</title>
 			<title code="0x32">Final Demo</title>
 			<title code="0x36">Credits Roll</title>
 			<title code="0x38">Name Entry</title>
 			<title code="0x39">Ranking Display</title>
-			<title code="0x3C">Continue</title>
+			<title code="0x3c">Continue</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1018,25 +980,25 @@
 			<rom type="code" offset="0x0000">tru05.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2D">Credit</title>
+			<title code="0x2d">Credit</title>
 			<title code="0x30">Start Demo</title>
 			<title code="0x37">Map Preview</title>
 			<title code="0x45">Stage Select (US Ver.)</title>
 			<title code="0x31">Kinryuu-Kan [Stage 1]</title>
-			<title code="0x3A">Destroyed Middle Boss</title>
-			<title code="0x3E">Boss 1 [Fudo]</title>
-			<title code="0x3D">Stage Clear</title>
+			<title code="0x3a">Destroyed Middle Boss</title>
+			<title code="0x3e">Boss 1 [Fudo]</title>
+			<title code="0x3d">Stage Clear</title>
 			<title code="0x36">Ashram [Bonus Stage]</title>
 			<title code="0x32">Genma-Kan [Stage 2]</title>
-			<title code="0x3F">Boss 2 [Kukai]</title>
+			<title code="0x3f">Boss 2 [Kukai]</title>
 			<title code="0x33">Jasou Pass [Stage 3]</title>
 			<title code="0x34">Kaimei-In [Stage 4]</title>
 			<title code="0x35">Ryugadoh [Stage 5]</title>
 			<title code="0x38">Ending</title>
 			<title code="0x39">Ranking</title>
 			<title code="0x01">Player Out</title>
-			<title code="0x3B">Continue</title>
-			<title code="0x3C">Game Over</title>
+			<title code="0x3b">Continue</title>
+			<title code="0x3c">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1094,15 +1056,15 @@
 		<titlelist>
 			<title code="0x20">Credit</title>
 			<title code="0x21">Opening</title>
-			<title code="0x2A">Player Select</title>
+			<title code="0x2a">Player Select</title>
 			<title code="0x22">Startup</title>
-			<title code="0x2C">Galden's Route [Stage 1]</title>
+			<title code="0x2c">Galden's Route [Stage 1]</title>
 			<title code="0x31">Boss</title>
 			<title code="0x32">Stage Clear</title>
-			<title code="0x2B">Mystery Zone [Stage 2]</title>
-			<title code="0x2E">Dark Route [Stage 3]</title>
-			<title code="0x2D">Burning Route [Stage 4]</title>
-			<title code="0x2F">Frozen Route [Stage 5]</title>
+			<title code="0x2b">Mystery Zone [Stage 2]</title>
+			<title code="0x2e">Dark Route [Stage 3]</title>
+			<title code="0x2d">Burning Route [Stage 4]</title>
+			<title code="0x2f">Frozen Route [Stage 5]</title>
 			<title code="0x30">Galden: Last Duel [Stage 6]</title>
 			<title code="0x33">Queen Sheeta [Ending 1]</title>
 			<title code="0x36">Fighting Scene [Ending 2]</title>
@@ -1132,21 +1094,21 @@
 			<title code="0x23">Credit</title>
 			<title code="0x12">Car Select</title>
 			<title code="0x01">Capital [Stage 1]</title>
-			<title code="0x0A">Stage Clear</title>
+			<title code="0x0a">Stage Clear</title>
 			<title code="0x04">Net Wood Forest [Stage 2]</title>
 			<title code="0x03">Coral Sea [Stage 3]</title>
 			<title code="0x02">Big Cave Tunnel [Stage 4]</title>
 			<title code="0x05">Ruins Desert [Stage 5]</title>
-			<title code="0x0E">Million Valley [Stage 6]</title>
+			<title code="0x0e">Million Valley [Stage 6]</title>
 			<title code="0x07">Thunder Road [Stage 7]</title>
 			<title code="0x06">Marine Snow Pipe Way [Stage 8]</title>
-			<title code="0x0F">Sky City [Stage 9] &amp; Attract Mode</title>
+			<title code="0x0f">Sky City [Stage 9] &amp; Attract Mode</title>
 			<title code="0x10">Ending</title>
-			<title code="0x0D">Name Entry (1st - 3rd)</title>
-			<title code="0x0B">Name Entry (4th - 10th)</title>
+			<title code="0x0d">Name Entry (1st - 3rd)</title>
+			<title code="0x0b">Name Entry (4th - 10th)</title>
 			<title code="0x08">Game Over</title>
 			<title code="0x09">Result</title>
-			<title code="0x0C">Continue</title>
+			<title code="0x0c">Continue</title>
 			<title code="0x11">Unused</title>
 		</titlelist>
 	</game>
@@ -1163,7 +1125,6 @@
 			<rom type="pcm" offset="0x20000">lw-04u.13e</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xf0">Stop the Music</title>
 			<title code="0x00">Credit (クレジット)</title>
 			<title code="0x01">Opening</title>
 			<title code="0x02">Round 1 BGM (Dust World #1)</title>
@@ -1186,88 +1147,9 @@
 			<title code="0x13">Game Over</title>
 			<title code="0x15">Not on CD 1 (未使用 1)</title>
 			<title code="0x16">Not on CD 2 (未使用 2)</title>
-			<title code="0x80">Voice #80</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x82">Voice #82</title>
-			<title code="0x83">Voice #83</title>
-			<title code="0x84">Voice #84</title>
-			<title code="0x85">Voice #85</title>
-			<title code="0x86">Voice #86</title>
-			<title code="0x87">Voice #87</title>
-			<title code="0x88">Voice #88</title>
-			<title code="0x89">Voice #89</title>
-			<title code="0x8a">Voice #8A</title>
-			<title code="0x8b">Voice #8B</title>
-			<title code="0x8c">Voice #8C</title>
-			<title code="0x8d">Voice #8D</title>
-			<title code="0x8e">Voice #8E</title>
-			<title code="0x8f">Voice #8F</title>
-			<title code="0x90">Voice #90</title>
-			<title code="0x91">Voice #91</title>
-			<title code="0x92">Voice #92</title>
-			<title code="0x93">Voice #93</title>
-			<title code="0x94">Voice #94</title>
-			<title code="0x9b">Voice #9B</title>
-			<title code="0x9c">Voice #9C</title>
-			<title code="0x9d">Voice #9D</title>
-			<title code="0x9e">Voice #9E</title>
-			<title code="0x9f">Voice #9F</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
+			<range min="0x80" max="0x94" extcode="1">Voice #%02X</range>
+			<range min="0x9b" max="0x9f" extcode="1">Voice #%02X</range>
+			<range min="0x20" max="0x57" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1299,107 +1181,16 @@
 			<title code="0x18">Zap</title>
 			<title code="0x16">Final Boss (Lucifer)</title>
 			<title code="0x19">Ending</title>
-			<title code="0x03">Name Regist (1st Place)</title>
-			<title code="0x05">Name Regist Finished (1st Place)</title>
-			<title code="0x04">Name Regist (2nd Place and below)</title>
-			<title code="0x06">Name Regist Finished (2nd Place and below)</title>
+			<title code="0x03">Name Register (1st Place)</title>
+			<title code="0x05">Name Register Finished (1st Place)</title>
+			<title code="0x04">Name Register (2nd Place and below)</title>
+			<title code="0x06">Name Register Finished (2nd Place and below)</title>
 			<title code="0x09">Timeout Warning</title>
 			<title code="0x08">Player Out</title>
 			<title code="0x01">Game Over</title>
 			<title code="0x0b">Continue</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7A</title>
-			<title code="0x7b">SFX #7B</title>
-			<title code="0x7c">SFX #7C</title>
-			<title code="0x7d">SFX #7D</title>
-			<title code="0x7e">SFX #7E</title>
-			<title code="0x7f">SFX #7F</title>
+			<range min="0x20" max="0x47" extcode="1">SFX #%02X</range>
+			<range min="0x4b" max="0x7f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1444,66 +1235,7 @@
 			<title code="0x11">Game Over</title>
 			<title code="0x16">BGM #16</title>
 			<title code="0x1c">BGM #1C</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
+			<range min="0x20" max="0x5b" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1519,50 +1251,41 @@
 			<rom type="pcm" offset="0x20000">ff_19.12c</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xf0">Stop the Music</title>
-			<title code="0x95">[SFX] Phone 1</title>
-			<title code="0x96">[SFX] Phone 2</title>
 			<title code="0x52">Demo BGM</title>
-			<title code="0x5F">Credit Inserted</title>
+			<title code="0x5f">Credit Inserted</title>
 			<title code="0x55">Player Select</title>
 			<title code="0x50">Opening</title>
-			<title code="0x88">[Voice] Ahhhahahaha... (Damnd)</title>
 			<title code="0x40">BGM 1</title>
 			<title code="0x41">BGM 2</title>
-			<title code="0x40">BGM 1</title>
-			<title code="0x57">Round Clear</title>
-			<title code="0x85">[Voice] Haaaahhhh!</title>
 			<title code="0x42">BGM 3</title>
-			<title code="0x94">[SFX] Subway 1</title>
-			<title code="0x93">[SFX] Subway 2</title>
 			<title code="0x43">BGM 4</title>
-			<title code="0x4C">Bonus Stage</title>
-			<title code="0x76">[SFX]</title>
-			<title code="0x8E">[Voice] Oh! My God!! (Bred)</title>
-			<title code="0x40">BGM 1</title>
 			<title code="0x44">BGM 5</title>
-			<title code="0x40">BGM 1</title>
-			<title code="0x44">BGM 5</title>
-			<title code="0x48">BGM 9</title>
-			<title code="0x49">BGM 10</title>
 			<title code="0x45">BGM 6</title>
 			<title code="0x46">BGM 7</title>
 			<title code="0x47">BGM 8</title>
-			<title code="0x90">[SFX] Elevator 1</title>
-			<title code="0x91">[SFX] Elevator 2</title>
-			<title code="0x92">[SFX] Elevator 3</title>
-			<title code="0x89">[Voice] Hah!</title>
-			<title code="0x40">BGM 1</title>
+			<title code="0x48">BGM 9</title>
 			<title code="0x49">BGM 10</title>
-			<title code="0x42">BGM 3</title>
-			<title code="0x9D">[Voice] Huhahahaha...! (Belger)</title>
-			<title code="0x47">BGM 8</title>
-			<title code="0x9E">[Voice] Aahhhh... (Belger)</title>
-			<title code="0x6D">[SFX] Belger's End</title>
+			<title code="0x57">Round Clear</title>
+			<title code="0x4c">Bonus Stage</title>
 			<title code="0x58">Last Round Clear</title>
 			<title code="0x54">Ending</title>
 			<title code="0x53">Continue</title>
 			<title code="0x51">Game Over</title>
+			<title code="0x95">[SFX] Phone 1</title>
+			<title code="0x96">[SFX] Phone 2</title>
+			<title code="0x94">[SFX] Subway 1</title>
+			<title code="0x93">[SFX] Subway 2</title>
+			<title code="0x76">[SFX]</title>
+			<title code="0x90">[SFX] Elevator 1</title>
+			<title code="0x91">[SFX] Elevator 2</title>
+			<title code="0x92">[SFX] Elevator 3</title>
+			<title code="0x6d">[SFX] Belger's End</title>
+			<title code="0x88">[Voice] Ahhhahahaha... (Damnd)</title>
+			<title code="0x85">[Voice] Haaaahhhh!</title>
+			<title code="0x8e">[Voice] Oh! My God!! (Bred)</title>
+			<title code="0x89">[Voice] Hah!</title>
+			<title code="0x9d">[Voice] Huhahahaha...! (Belger)</title>
+			<title code="0x9e">[Voice] Aahhhh... (Belger)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1612,107 +1335,8 @@
 			<title code="0x0e">Game Over</title>
 			<title code="0x15">Continue</title>
 			<title code="0x17">Ring (Start 1) alt.</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x82">Voice #82</title>
-			<title code="0x83">Voice #83</title>
-			<title code="0x84">Voice #84</title>
-			<title code="0x85">Voice #85</title>
-			<title code="0x86">Voice #86</title>
-			<title code="0x87">Voice #87</title>
-			<title code="0x88">Voice #88</title>
-			<title code="0x89">Voice #89</title>
-			<title code="0x8a">Voice #8A</title>
-			<title code="0x8b">Voice #8B</title>
-			<title code="0x8c">Voice #8C</title>
-			<title code="0x8d">Voice #8D</title>
-			<title code="0x8e">Voice #8E</title>
-			<title code="0x8f">Voice #8F</title>
-			<title code="0x90">Voice #90</title>
-			<title code="0x91">Voice #91</title>
-			<title code="0x92">Voice #92</title>
-			<title code="0x93">Voice #93</title>
-			<title code="0x94">Voice #94</title>
-			<title code="0x95">Voice #95</title>
-			<title code="0x96">Voice #96</title>
-			<title code="0x97">Voice #97</title>
-			<title code="0x98">Voice #98</title>
-			<title code="0x99">Voice #99</title>
-			<title code="0x9a">Voice #9A</title>
-			<title code="0x9b">Voice #9B</title>
-			<title code="0x9c">Voice #9C</title>
-			<title code="0x9d">Voice #9D</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
+			<range min="0x81" max="0x9d" extcode="1">Voice #%02X</range>
+			<range min="0x30" max="0x77" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1753,59 +1377,8 @@
 			<title code="0x16">Ending &amp; Staff Roll</title>
 			<title code="0x14">Last Ranking</title>
 			<title code="0x07">Oil Refinery CD Version (未使用 CD Version)</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
-			<title code="0x8c">SFX #8C</title>
-			<title code="0x8d">SFX #8D</title>
-			<title code="0x8e">SFX #8E</title>
-			<title code="0x8f">SFX #8F</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
+			<range min="0x20" max="0x41" extcode="1">SFX #%02X</range>
+			<range min="0x81" max="0x93" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1821,10 +1394,10 @@
 			<rom type="pcm" offset="0x20000">wl_19.12c</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x3B">Credit (クレジット)</title>
+			<title code="0x3b">Credit (クレジット)</title>
 			<title code="0x12">Map (マップ)</title>
 			<title code="0x13">Stage 1 - Crossroad (1ステージ クロス・ロード)</title>
-			<title code="0x1B">Shop (ショップ)</title>
+			<title code="0x1b">Shop (ショップ)</title>
 			<title code="0x00">Stage 1 - Crossroad (w/o Intro) (1ステージ クロス・ロード (イントロ無し))</title>
 			<title code="0x01">Stage 1 - Boss (1ステージ ボス)</title>
 			<title code="0x10">Stage Clear (ステージクリア)</title>
@@ -1836,96 +1409,20 @@
 			<title code="0x07">Stage 4 - Sorsha's Camp I (4ステージ ソーシャのキャンプ I)</title>
 			<title code="0x09">Stage 4 - Sorsha's Camp II (4ステージ ソーシャのキャンプ II)</title>
 			<title code="0x08">Stage 4 - Sorsha's Camp III (4ステージ ソーシャのキャンプ III)</title>
-			<title code="0x0A">Stage 5 - Tir Asleen Castle (5ステージ ティア・アスリーン城)</title>
-			<title code="0x0B">Stage 5 - Boss (5ステージ ボス)</title>
-			<title code="0x0C">Stage 6 - Nockmaar Castle I (6ステージ ノックマー城 I)</title>
-			<title code="0x0E">Stage 6 - Boss 1 (6ステージ 中ボス)</title>
-			<title code="0x0D">Stage 6 - Nockmaar Castle II (6ステージ ノックマー城 II)</title>
-			<title code="0x0F">Stage 6 - Boss 2 (6ステージ ボス)</title>
-			<title code="0x1D">Ending - Credits Roll (エンディング～スタッフロール)</title>
+			<title code="0x0a">Stage 5 - Tir Asleen Castle (5ステージ ティア・アスリーン城)</title>
+			<title code="0x0b">Stage 5 - Boss (5ステージ ボス)</title>
+			<title code="0x0c">Stage 6 - Nockmaar Castle I (6ステージ ノックマー城 I)</title>
+			<title code="0x0e">Stage 6 - Boss 1 (6ステージ 中ボス)</title>
+			<title code="0x0d">Stage 6 - Nockmaar Castle II (6ステージ ノックマー城 II)</title>
+			<title code="0x0f">Stage 6 - Boss 2 (6ステージ ボス)</title>
+			<title code="0x1d">Ending - Credits Roll (エンディング～スタッフロール)</title>
 			<title code="0x18">Name Entry (ネームエントリー)</title>
 			<title code="0x16">Ranking (ランキングディスプレイ)</title>
 			<title code="0x15">Continue (コンティニュー)</title>
 			<title code="0x14">Game Over (ゲームオーバー)</title>
-			<title code="0x1A">Stage Clear (Different Version) (ステージクリア (別バージョン))</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x82">Voice #82</title>
-			<title code="0x83">Voice #83</title>
-			<title code="0x84">Voice #84</title>
-			<title code="0x85">Voice #85</title>
-			<title code="0x86">Voice #86</title>
-			<title code="0x87">Voice #87</title>
-			<title code="0x88">Voice #88</title>
-			<title code="0x89">Voice #89</title>
-			<title code="0x8a">Voice #8A</title>
-			<title code="0x8b">Voice #8B</title>
-			<title code="0x8c">Voice #8C</title>
-			<title code="0x8d">Voice #8D</title>
-			<title code="0x8e">Voice #8E</title>
-			<title code="0x8f">Voice #8F</title>
-			<title code="0x90">Voice #90</title>
-			<title code="0x91">Voice #91</title>
-			<title code="0x92">Voice #92</title>
-			<title code="0x93">Voice #93</title>
-			<title code="0x94">Voice #94</title>
-			<title code="0x95">Voice #95</title>
-			<title code="0x96">Voice #96</title>
-			<title code="0x97">Voice #97</title>
-			<title code="0x98">Voice #98</title>
-			<title code="0x99">Voice #99</title>
-			<title code="0x9a">Voice #9A</title>
-			<title code="0x9b">Voice #9B</title>
-			<title code="0x9c">Voice #9C</title>
-			<title code="0x9d">Voice #9D</title>
-			<title code="0x9e">Voice #9E</title>
-			<title code="0x9f">Voice #9F</title>
-			<title code="0xa0">Voice #A0</title>
-			<title code="0xa1">Voice #A1</title>
-			<title code="0xa2">Voice #A2</title>
-			<title code="0xa3">Voice #A3</title>
-			<title code="0xa4">Voice #A4</title>
-			<title code="0xa5">Voice #A5</title>
-			<title code="0xa6">Voice #A6</title>
-			<title code="0xa7">Voice #A7</title>
-			<title code="0xa8">Voice #A8</title>
-			<title code="0xa9">Voice #A9</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
+			<title code="0x1a">Stage Clear (Different Version) (ステージクリア (別バージョン))</title>
+			<range min="0x81" max="0xa9" extcode="1">Voice #%02X</range>
+			<range min="0x20" max="0x44" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -1969,136 +1466,8 @@
 			<title code="0x54">Continue</title>
 			<title code="0x4c">Game Over</title>
 			<title code="0x59">Unused</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
-			<title code="0x1f">SFX #1F</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7A</title>
-			<title code="0x7b">SFX #7B</title>
-			<title code="0x7c">SFX #7C</title>
-			<title code="0x7d">SFX #7D</title>
-			<title code="0x7e">SFX #7E</title>
-			<title code="0x7f">SFX #7F</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
-			<title code="0x8c">SFX #8C</title>
-			<title code="0x8d">SFX #8D</title>
-			<title code="0x8e">SFX #8E</title>
-			<title code="0x8f">SFX #8F</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
-			<title code="0x99">SFX #99</title>
-			<title code="0x9a">SFX #9A</title>
-			<title code="0x9b">SFX #9B</title>
-			<title code="0x9c">SFX #9C</title>
-			<title code="0x9d">SFX #9D</title>
-			<title code="0x9e">SFX #9E</title>
-			<title code="0x9f">SFX #9F</title>
-			<title code="0xa0">SFX #A0</title>
-			<title code="0xa1">SFX #A1</title>
-			<title code="0xa2">SFX #A2</title>
-			<title code="0xa3">SFX #A3</title>
-			<title code="0xa4">SFX #A4</title>
-			<title code="0xa5">SFX #A5</title>
-			<title code="0xa6">SFX #A6</title>
-			<title code="0xa7">SFX #A7</title>
-			<title code="0xa8">SFX #A8</title>
-			<title code="0xa9">SFX #A9</title>
-			<title code="0xaa">SFX #AA</title>
-			<title code="0xab">SFX #AB</title>
+			<range min="0x0a" max="0x3f" extcode="1">SFX #%02X</range>
+			<range min="0x60" max="0xab" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2144,63 +1513,8 @@
 			<title code="0x15">Unused 4</title>
 			<title code="0x1c">Unused 5</title>
 			<title code="0x16">Unused 6</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
+			<range min="0x21" max="0x23" extcode="1">SFX #%02X</range>
+			<range min="0x25" max="0x5a" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2242,61 +1556,17 @@
 			<title code="0x14">Game Over</title>
 			<title code="0x13">Ranking Display</title>
 			<title code="0x15">Unused</title>
-			<title code="0x2a">Voice #2A</title>
-			<title code="0x2b">Voice #2B</title>
-			<title code="0x37">Voice #37</title>
-			<title code="0x38">Voice #38</title>
-			<title code="0x39">Voice #39</title>
-			<title code="0x3a">Voice #3A</title>
+			<range min="0x2a" max="0x2b" extcode="1">Voice #%02X</range>
+			<range min="0x37" max="0x3a" extcode="1">Voice #%02X</range>
 			<title code="0x4e">Voice #4E</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
+			<range min="0x53" max="0x55" extcode="1">Voice #%02X</range>
 			<title code="0x1a">SFX #1A</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
-			<title code="0x1f">SFX #1F</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
+			<range min="0x1d" max="0x1f" extcode="1">SFX #%02X</range>
+			<range min="0x21" max="0x29" extcode="1">SFX #%02X</range>
+			<range min="0x2c" max="0x36" extcode="1">SFX #%02X</range>
+			<range min="0x3b" max="0x48" extcode="1">SFX #%02X</range>
+			<range min="0x4b" max="0x4d" extcode="1">SFX #%02X</range>
+			<range min="0x4f" max="0x52" extcode="1">SFX #%02X</range>
 			<title code="0x56">SFX #56</title>
 		</titlelist>
 	</game>
@@ -2342,89 +1612,9 @@
 			<title code="0x13">Ranking (1st)</title>
 			<title code="0x14">Ranking (below 2nd)</title>
 			<title code="0x11">Game Over</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
+			<range min="0x20" max="0x5d" extcode="1">SFX #%02X</range>
+			<range min="0x60" max="0x6f" extcode="1">SFX #%02X</range>
+			<range min="0x71" max="0x75" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2459,62 +1649,10 @@
 			<title code="0x0c">Ranking Display</title>
 			<title code="0x0d">Game Over</title>
 			<title code="0x33">Voice #33</title>
-			<title code="0x35">Voice #35</title>
-			<title code="0x36">Voice #36</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
+			<range min="0x35" max="0x36" extcode="1">Voice #%02X</range>
+			<range min="0x21" max="0x32" extcode="1">SFX #%02X</range>
 			<title code="0x34">SFX #34</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
+			<range min="0x37" max="0x59" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2566,90 +1704,14 @@
 			<title code="0x1d">Unused #1D</title>
 			<title code="0x6f">Unused #6F</title>
 			<title code="0x64">Unused #64</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
+			<range min="0x58" max="0x59" extcode="1">Voice #%02X</range>
 			<title code="0x77">Voice #77</title>
 			<title code="0x1a">SFX #1A</title>
-			<title code="0x1f">SFX #1F</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
+			<range min="0x1f" max="0x57" extcode="1">SFX #%02X</range>
+			<range min="0x5a" max="0x5b" extcode="1">SFX #%02X</range>
+			<range min="0x5e" max="0x63" extcode="1">SFX #%02X</range>
+			<range min="0x66" max="0x6d" extcode="1">SFX #%02X</range>
+			<range min="0x70" max="0x76" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -2694,113 +1756,36 @@
 			<title code="0x8b">Continue</title>
 			<title code="0x8c">Game Over</title>
 			<title code="0x8d">Name Entry</title>
+			<range min="0x0c" max="0x0f" extcode="1">Voice #%02X</range>
+			<range min="0x20" max="0x21" extcode="1">Voice #%02X</range>
+			<range min="0x2a" max="0x2b" extcode="1">Voice #%02X</range>
 			<title code="0x3e">Voice #3E</title>
-			<title code="0x21">Voice #21</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x4e">Voice #4E</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x0c">Voice #0C</title>
-			<title code="0x0d">Voice #0D</title>
-			<title code="0x0e">Voice #0E</title>
-			<title code="0x0f">Voice #0F</title>
-			<title code="0x2a">Voice #2A</title>
-			<title code="0x2b">Voice #2B</title>
 			<title code="0x43">Voice #43</title>
-			<title code="0x47">Voice #47</title>
-			<title code="0x48">Voice #48</title>
-			<title code="0x49">Voice #49</title>
-			<title code="0x4b">Voice #4B</title>
-			<title code="0x4c">Voice #4C</title>
-			<title code="0x4d">Voice #4D</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x60">Voice #60</title>
+			<range min="0x47" max="0x49" extcode="1">Voice #%02X</range>
+			<range min="0x4b" max="0x4e" extcode="1">Voice #%02X</range>
+			<range min="0x52" max="0x58" extcode="1">Voice #%02X</range>
+			<range min="0x5b" max="0x5c" extcode="1">Voice #%02X</range>
+			<range min="0x60" max="0x62" extcode="1">Voice #%02X</range>
 			<title code="0x64">Voice #64</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x20">Voice #20</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x00">SFX #00</title>
-			<title code="0x01">SFX #01</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
-			<title code="0x1f">SFX #1F</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
+			<range min="0x68" max="0x69" extcode="1">Voice #%02X</range>
+			<range min="0x00" max="0x0b" extcode="1">SFX #%02X</range>
+			<range min="0x10" max="0x1f" extcode="1">SFX #%02X</range>
+			<range min="0x22" max="0x29" extcode="1">SFX #%02X</range>
+			<range min="0x2c" max="0x2d" extcode="1">SFX #%02X</range>
+			<range min="0x32" max="0x3d" extcode="1">SFX #%02X</range>
 			<title code="0x3f">SFX #3F</title>
 			<title code="0x42">SFX #42</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
+			<range min="0x44" max="0x46" extcode="1">SFX #%02X</range>
 			<title code="0x4a">SFX #4A</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x9f">SFX #9F</title>
+			<range min="0x4f" max="0x50" extcode="1">SFX #%02X</range>
 			<title code="0x59">SFX #59</title>
+			<title code="0x5a">SFX #5A</title>
+			<range min="0x5d" max="0x5f" extcode="1">SFX #%02X</range>
+			<title code="0x63">SFX #63</title>
+			<range min="0x65" max="0x67" extcode="1">SFX #%02X</range>
+			<range min="0x6a" max="0x6c" extcode="1">SFX #%02X</range>
+			<range min="0x90" max="0x92" extcode="1">SFX #%02X</range>
+			<title code="0x9f">SFX #9F</title>
 		</titlelist>
 	</game>
 	<game>
@@ -2846,81 +1831,16 @@
 			<title code="0x17">Continue</title>
 			<title code="0x19">Game Over</title>
 			<title code="0x1c">Ranking</title>
-			<title code="0x20">Voice #20</title>
-			<title code="0x21">Voice #21</title>
-			<title code="0x22">Voice #22</title>
-			<title code="0x23">Voice #23</title>
-			<title code="0x24">Voice #24</title>
-			<title code="0x25">Voice #25</title>
-			<title code="0x26">Voice #26</title>
-			<title code="0x27">Voice #27</title>
-			<title code="0x28">Voice #28</title>
-			<title code="0x29">Voice #29</title>
-			<title code="0x2a">Voice #2A</title>
-			<title code="0x2b">Voice #2B</title>
-			<title code="0x2c">Voice #2C</title>
-			<title code="0x2e">Voice #2E</title>
-			<title code="0x2f">Voice #2F</title>
-			<title code="0x30">Voice #30</title>
-			<title code="0x31">Voice #31</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x35">Voice #35</title>
-			<title code="0x36">Voice #36</title>
-			<title code="0x37">Voice #37</title>
+			<range min="0x20" max="0x37" extcode="1">Voice #%02X</range>
 			<title code="0x60">Voice #60</title>
 			<title code="0x74">Voice #74</title>
 			<title code="0x2d">SFX #2D</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
+			<range min="0x3a" max="0x4d" extcode="1">SFX #%02X</range>
+			<range min="0x50" max="0x52" extcode="1">SFX #%02X</range>
+			<range min="0x55" max="0x5a" extcode="1">SFX #%02X</range>
+			<range min="0x5c" max="0x5f" extcode="1">SFX #%02X</range>
+			<range min="0x61" max="0x62" extcode="1">SFX #%02X</range>
+			<range min="0x64" max="0x71" extcode="1">SFX #%02X</range>
 			<title code="0x73">SFX #73</title>
 		</titlelist>
 	</game>
@@ -2982,90 +1902,20 @@
 			<title code="0x13">Game Over</title>
 			<title code="0x14">Ranking Display</title>
 			<title code="0x12">Unused</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x85">Voice #85</title>
 			<title code="0x40">Voice #40</title>
-			<title code="0x42">Voice #42</title>
-			<title code="0x43">Voice #43</title>
-			<title code="0x45">Voice #45</title>
-			<title code="0x46">Voice #46</title>
-			<title code="0x47">Voice #47</title>
-			<title code="0x48">Voice #48</title>
+			<range min="0x42" max="0x43" extcode="1">Voice #%02X</range>
+			<range min="0x45" max="0x48" extcode="1">Voice #%02X</range>
 			<title code="0x4a">Voice #4A</title>
 			<title code="0x4c">Voice #4C</title>
 			<title code="0x4d">Voice #4D</title>
-			<title code="0x4f">Voice #4F</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
+			<range min="0x4f" max="0x70" extcode="1">Voice #%02X</range>
+			<range min="0x73" max="0x77" extcode="1">Voice #%02X</range>
+			<title code="0x85">Voice #85</title>
+			<range min="0x21" max="0x33" extcode="1">SFX #%02X</range>
+			<range min="0x36" max="0x39" extcode="1">SFX #%02X</range>
+			<range min="0x3b" max="0x3e" extcode="1">SFX #%02X</range>
+			<range min="0x71" max="0x72" extcode="1">SFX #%02X</range>
+			<range min="0x86" max="0x8b" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3109,13 +1959,9 @@
 			<title code="0x0e">Unused #0E</title>
 			<title code="0x11">Unused #11</title>
 			<title code="0x2e">Unused #2E</title>
+			<title code="0x18">Voice #18</title>
 			<title code="0x30">Voice #30</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x35">Voice #35</title>
-			<title code="0x36">Voice #36</title>
-			<title code="0x37">Voice #37</title>
+			<range min="0x32" max="0x37" extcode="1">Voice #%02X</range>
 			<title code="0x3b">Voice #3B</title>
 			<title code="0x40">Voice #40</title>
 			<title code="0x61">Voice #61</title>
@@ -3123,80 +1969,29 @@
 			<title code="0x6e">Voice #6E</title>
 			<title code="0x70">Voice #70</title>
 			<title code="0x7b">Voice #7B</title>
-			<title code="0x18">Voice #18</title>
 			<title code="0x19">SFX #19</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
+			<range min="0x1b" max="0x1e" extcode="1">SFX #%02X</range>
+			<range min="0x20" max="0x2d" extcode="1">SFX #%02X</range>
 			<title code="0x2f">SFX #2F</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
+			<range min="0x38" max="0x3a" extcode="1">SFX #%02X</range>
+			<range min="0x3c" max="0x3f" extcode="1">SFX #%02X</range>
+			<range min="0x41" max="0x47" extcode="1">SFX #%02X</range>
 			<title code="0x49">SFX #49</title>
 			<title code="0x4b">SFX #4B</title>
 			<title code="0x4e">SFX #4E</title>
 			<title code="0x50">SFX #50</title>
 			<title code="0x52">SFX #52</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
+			<range min="0x54" max="0x57" extcode="1">SFX #%02X</range>
+			<range min="0x59" max="0x5f" extcode="1">SFX #%02X</range>
+			<range min="0x63" max="0x67" extcode="1">SFX #%02X</range>
+			<range min="0x69" max="0x6a" extcode="1">SFX #%02X</range>
 			<title code="0x6f">SFX #6F</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x73">SFX #73</title>
-			<title code="0x74">SFX #74</title>
-			<title code="0x75">SFX #75</title>
-			<title code="0x76">SFX #76</title>
-			<title code="0x77">SFX #77</title>
-			<title code="0x78">SFX #78</title>
-			<title code="0x79">SFX #79</title>
-			<title code="0x7a">SFX #7A</title>
+			<range min="0x71" max="0x7a" extcode="1">SFX #%02X</range>
 			<title code="0x7e">SFX #7E</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[CPS-1] Three Wonders (ワンダー３) (YM2151+MSM6295)</name>
+		<name>[CPS-1] Three Wonders (ワンダー3) (YM2151+MSM6295)</name>
 		<driver type="cps1">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<options>
@@ -3280,156 +2075,31 @@
 			<title code="0x74">Credits Roll</title>
 			<title code="0x73">Continue</title>
 			<title code="0x3e">Game Over</title>
-			<title code="0x00">SFX #00</title>
-			<title code="0x01">SFX #01</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
+			<range min="0x00" max="0x13" extcode="1">SFX #%02X</range>
 			<title code="0x15">SFX #15</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1e">SFX #1E</title>
-			<title code="0x1f">SFX #1F</title>
+			<range min="0x18" max="0x1f" extcode="1">SFX #%02X</range>
 			<title code="0x3f">SFX #3F</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
+			<range min="0x46" max="0x4a" extcode="1">SFX #%02X</range>
+			<range min="0x4c" max="0x4d" extcode="1">SFX #%02X</range>
+			<range min="0x4f" max="0x52" extcode="1">SFX #%02X</range>
+			<range min="0x5b" max="0x5f" extcode="1">SFX #%02X</range>
 			<title code="0x63">SFX #63</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
+			<range min="0x67" max="0x69" extcode="1">SFX #%02X</range>
+			<range min="0x6b" max="0x72" extcode="1">SFX #%02X</range>
 			<title code="0x76">SFX #76</title>
 			<title code="0x78">SFX #78</title>
 			<title code="0x7c">SFX #7C</title>
 			<title code="0x7f">SFX #7F</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
-			<title code="0x8c">SFX #8C</title>
-			<title code="0x8d">SFX #8D</title>
-			<title code="0x8e">SFX #8E</title>
-			<title code="0x8f">SFX #8F</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
-			<title code="0x99">SFX #99</title>
+			<range min="0x80" max="0x83" extcode="1">SFX #%02X</range>
+			<range min="0x85" max="0x99" extcode="1">SFX #%02X</range>
 			<title code="0x9d">SFX #9D</title>
-			<title code="0x9f">SFX #9F</title>
-			<title code="0xa0">SFX #A0</title>
-			<title code="0xa1">SFX #A1</title>
-			<title code="0xa2">SFX #A2</title>
-			<title code="0xa3">SFX #A3</title>
-			<title code="0xa5">SFX #A5</title>
-			<title code="0xa6">SFX #A6</title>
-			<title code="0xa7">SFX #A7</title>
-			<title code="0xa8">SFX #A8</title>
-			<title code="0xa9">SFX #A9</title>
-			<title code="0xaa">SFX #AA</title>
-			<title code="0xab">SFX #AB</title>
-			<title code="0xac">SFX #AC</title>
-			<title code="0xad">SFX #AD</title>
-			<title code="0xae">SFX #AE</title>
-			<title code="0xaf">SFX #AF</title>
-			<title code="0xb0">SFX #B0</title>
-			<title code="0xb1">SFX #B1</title>
-			<title code="0xb2">SFX #B2</title>
-			<title code="0xb3">SFX #B3</title>
-			<title code="0xb4">SFX #B4</title>
-			<title code="0xb5">SFX #B5</title>
-			<title code="0xb6">SFX #B6</title>
-			<title code="0xb7">SFX #B7</title>
-			<title code="0xb8">SFX #B8</title>
-			<title code="0xb9">SFX #B9</title>
-			<title code="0xba">SFX #BA</title>
-			<title code="0xbb">SFX #BB</title>
-			<title code="0xbc">SFX #BC</title>
-			<title code="0xbd">SFX #BD</title>
+			<range min="0x9f" max="0xa3" extcode="1">SFX #%02X</range>
+			<range min="0xa5" max="0xbd" extcode="1">SFX #%02X</range>
 			<title code="0xbf">SFX #BF</title>
 			<title code="0xc1">SFX #C1</title>
-			<title code="0xc9">SFX #C9</title>
-			<title code="0xca">SFX #CA</title>
-			<title code="0xcd">SFX #CD</title>
-			<title code="0xce">SFX #CE</title>
-			<title code="0xcf">SFX #CF</title>
-			<title code="0xd0">SFX #D0</title>
-			<title code="0xd1">SFX #D1</title>
-			<title code="0xd2">SFX #D2</title>
-			<title code="0xd3">SFX #D3</title>
-			<title code="0xd4">SFX #D4</title>
-			<title code="0xd5">SFX #D5</title>
-			<title code="0xd6">SFX #D6</title>
-			<title code="0xd7">SFX #D7</title>
-			<title code="0xd8">SFX #D8</title>
-			<title code="0xd9">SFX #D9</title>
-			<title code="0xda">SFX #DA</title>
-			<title code="0xdb">SFX #DB</title>
-			<title code="0xdc">SFX #DC</title>
-			<title code="0xdd">SFX #DD</title>
-			<title code="0xde">SFX #DE</title>
-			<title code="0xdf">SFX #DF</title>
-			<title code="0xe7">SFX #E7</title>
-			<title code="0xe8">SFX #E8</title>
-			<title code="0xe9">SFX #E9</title>
-			<title code="0xea">SFX #EA</title>
-			<title code="0xeb">SFX #EB</title>
-			<title code="0xec">SFX #EC</title>
-			<title code="0xed">SFX #ED</title>
-			<title code="0xee">SFX #EE</title>
-			<title code="0xef">SFX #EF</title>
+			<range min="0xc9" max="0xca" extcode="1">SFX #%02X</range>
+			<range min="0xcd" max="0xdf" extcode="1">SFX #%02X</range>
+			<range min="0xe7" max="0xef" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3485,78 +2155,29 @@
 			<title code="0x0c">エキスパートコース 6ステージ 魔王の谷…最後の戦い</title>
 			<title code="0x1a">脳ミソ大王出現デモ</title>
 			<title code="0x1b">クイズBGM-F (脳ミソ大王)</title>
-			<title code="0x19">エンディング</title>
+			<title code="0x19">Ending (エンディング)</title>
 			<title code="0x3b">スタッフロール</title>
 			<title code="0x3a">コンティニュー</title>
-			<title code="0x38">ゲームオーバー</title>
+			<title code="0x38">Game Over (ゲームオーバー)</title>
 			<title code="0x39">ネームエントリー</title>
 			<title code="0x17">エントリー終了</title>
 			<title code="0x16">ランキングディスプレイ</title>
 			<title code="0x2e">Voice #2E</title>
-			<title code="0x30">Voice #30</title>
-			<title code="0x31">Voice #31</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x35">Voice #35</title>
+			<range min="0x30" max="0x35" extcode="1">Voice #%02X</range>
 			<title code="0x55">Voice #55</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
+			<range min="0x5f" max="0x6a" extcode="1">Voice #%02X</range>
 			<title code="0x6e">Voice #6E</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x1c">SFX #1C</title>
-			<title code="0x1d">SFX #1D</title>
-			<title code="0x1f">SFX #1F</title>
-			<title code="0x20">SFX #20</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
+			<range min="0x13" max="0x15" extcode="1">SFX #%02X</range>
+			<range min="0x1c" max="0x1d" extcode="1">SFX #%02X</range>
+			<range min="0x1f" max="0x2d" extcode="1">SFX #%02X</range>
 			<title code="0x2f">SFX #2F</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
+			<range min="0x36" max="0x37" extcode="1">SFX #%02X</range>
+			<range min="0x3c" max="0x45" extcode="1">SFX #%02X</range>
+			<range min="0x57" max="0x59" extcode="1">SFX #%02X</range>
+			<range min="0x5b" max="0x5c" extcode="1">SFX #%02X</range>
 			<title code="0x5e">SFX #5E</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6f">SFX #6F</title>
-			<title code="0x70">SFX #70</title>
+			<range min="0x6b" max="0x6d" extcode="1">SFX #%02X</range>
+			<range min="0x6f" max="0x70" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -3616,108 +2237,18 @@
 			<title code="0x45">Ranking Display 2</title>
 			<title code="0x44">Continue</title>
 			<title code="0x47">Game Over</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x71">Voice #71</title>
-			<title code="0x72">Voice #72</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x78">Voice #78</title>
-			<title code="0x79">Voice #79</title>
-			<title code="0x7a">Voice #7A</title>
-			<title code="0x7b">Voice #7B</title>
-			<title code="0x7c">Voice #7C</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1d">SFX #1D</title>
+			<range min="0x50" max="0x7c" extcode="1">Voice #%02X</range>
+			<range min="0x02" max="0x0e" extcode="1">SFX #%02X</range>
+			<range min="0x10" max="0x1d" extcode="1">SFX #%02X</range>
 			<title code="0x46">SFX #46</title>
 			<title code="0x7e">SFX #7E</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
-			<title code="0x8d">SFX #8D</title>
-			<title code="0x8e">SFX #8E</title>
-			<title code="0x8f">SFX #8F</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
+			<range min="0x80" max="0x8b" extcode="1">SFX #%02X</range>
+			<range min="0x8d" max="0x98" extcode="1">SFX #%02X</range>
 			<title code="0x9a">SFX #9A</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[CPS-1] Quiz and Dragons JP (クイズ &amp; ドラゴンズ) (YM2151+MSM6295)</name>
+		<name>[CPS-1] Quiz and Dragons (JP) (クイズ &amp; ドラゴンズ) (YM2151+MSM6295)</name>
 		<driver type="cps1">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<options>
@@ -3794,103 +2325,13 @@
 			<title code="0xe3">BGM #E3</title>
 			<title code="0xe4">BGM #E4</title>
 			<title code="0xe5">BGM #E5</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x71">Voice #71</title>
-			<title code="0x72">Voice #72</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x78">Voice #78</title>
-			<title code="0x79">Voice #79</title>
-			<title code="0x7a">Voice #7A</title>
-			<title code="0x7b">Voice #7B</title>
-			<title code="0x7c">Voice #7C</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x18">SFX #18</title>
-			<title code="0x19">SFX #19</title>
-			<title code="0x1a">SFX #1A</title>
-			<title code="0x1b">SFX #1B</title>
-			<title code="0x1d">SFX #1D</title>
+			<range min="0x50" max="0x7c" extcode="1">Voice #%02X</range>
+			<range min="0x02" max="0x0e" extcode="1">SFX #%02X</range>
+			<range min="0x10" max="0x1d" extcode="1">SFX #%02X</range>
 			<title code="0x46">SFX #46</title>
 			<title code="0x7e">SFX #7E</title>
-			<title code="0x80">SFX #80</title>
-			<title code="0x81">SFX #81</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
-			<title code="0x8d">SFX #8D</title>
-			<title code="0x8e">SFX #8E</title>
-			<title code="0x8f">SFX #8F</title>
-			<title code="0x90">SFX #90</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
+			<range min="0x80" max="0x8b" extcode="1">SFX #%02X</range>
+			<range min="0x8d" max="0x98" extcode="1">SFX #%02X</range>
 			<title code="0x9a">SFX #9A</title>
 		</titlelist>
 	</game>
@@ -3954,90 +2395,20 @@
 			<title code="0x13">Game Over</title>
 			<title code="0x14">Ranking Display</title>
 			<title code="0x12">Unused</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x85">Voice #85</title>
 			<title code="0x40">Voice #40</title>
-			<title code="0x42">Voice #42</title>
-			<title code="0x43">Voice #43</title>
-			<title code="0x45">Voice #45</title>
-			<title code="0x46">Voice #46</title>
-			<title code="0x47">Voice #47</title>
-			<title code="0x48">Voice #48</title>
+			<range min="0x42" max="0x43" extcode="1">Voice #%02X</range>
+			<range min="0x45" max="0x48" extcode="1">Voice #%02X</range>
 			<title code="0x4a">Voice #4A</title>
-			<title code="0x4c">Voice #4C</title>
-			<title code="0x4d">Voice #4D</title>
-			<title code="0x4f">Voice #4F</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x71">SFX #71</title>
-			<title code="0x72">SFX #72</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x87">SFX #87</title>
-			<title code="0x88">SFX #88</title>
-			<title code="0x89">SFX #89</title>
-			<title code="0x8a">SFX #8A</title>
-			<title code="0x8b">SFX #8B</title>
+			<range min="0x4c" max="0x4d" extcode="1">Voice #%02X</range>
+			<range min="0x4f" max="0x70" extcode="1">Voice #%02X</range>
+			<range min="0x73" max="0x77" extcode="1">Voice #%02X</range>
+			<title code="0x85">Voice #85</title>
+			<range min="0x21" max="0x2f" extcode="1">SFX #%02X</range>
+			<range min="0x31" max="0x33" extcode="1">SFX #%02X</range>
+			<range min="0x36" max="0x39" extcode="1">SFX #%02X</range>
+			<range min="0x3b" max="0x3e" extcode="1">SFX #%02X</range>
+			<range min="0x71" max="0x72" extcode="1">SFX #%02X</range>
+			<range min="0x86" max="0x8b" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4085,77 +2456,12 @@
 			<title code="0x1b">Continue</title>
 			<title code="0x1c">Game Over</title>
 			<title code="0x15">Name Entry</title>
-			<title code="0x3a">Voice #3A</title>
-			<title code="0x3b">Voice #3B</title>
+			<range min="0x3a" max="0x3b" extcode="1">Voice #%02X</range>
 			<title code="0x54">Voice #54</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x21">SFX #21</title>
-			<title code="0x22">SFX #22</title>
-			<title code="0x23">SFX #23</title>
-			<title code="0x24">SFX #24</title>
-			<title code="0x25">SFX #25</title>
-			<title code="0x26">SFX #26</title>
-			<title code="0x27">SFX #27</title>
-			<title code="0x28">SFX #28</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
-			<title code="0x2c">SFX #2C</title>
-			<title code="0x2d">SFX #2D</title>
-			<title code="0x2e">SFX #2E</title>
-			<title code="0x2f">SFX #2F</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
+			<range min="0x5b" max="0x67" extcode="1">Voice #%02X</range>
+			<range min="0x21" max="0x39" extcode="1">SFX #%02X</range>
+			<range min="0x3c" max="0x53" extcode="1">SFX #%02X</range>
+			<range min="0x55" max="0x5a" extcode="1">SFX #%02X</range>
 			<title code="0x6a">SFX #6A</title>
 		</titlelist>
 	</game>
@@ -4217,52 +2523,10 @@
 			<title code="0x48">BGM #48</title>
 			<title code="0x49">BGM #49</title>
 			<title code="0x4a">BGM #4A</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x07">SFX #07</title>
-			<title code="0x08">SFX #08</title>
-			<title code="0x09">SFX #09</title>
-			<title code="0x0a">SFX #0A</title>
-			<title code="0x0b">SFX #0B</title>
-			<title code="0x0c">SFX #0C</title>
-			<title code="0x0d">SFX #0D</title>
-			<title code="0x0e">SFX #0E</title>
-			<title code="0x0f">SFX #0F</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
+			<range min="0x50" max="0x5d" extcode="1">Voice #%02X</range>
+			<range min="0x60" max="0x67" extcode="1">Voice #%02X</range>
+			<range min="0x02" max="0x17" extcode="1">SFX #%02X</range>
+			<range min="0x5e" max="0x5f" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4313,17 +2577,8 @@
 			<title code="0x21">Credits Roll</title>
 			<title code="0x13">Game Over</title>
 			<title code="0x14">Ranking Display</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
+			<range min="0x39" max="0x40" extcode="1">SFX #%02X</range>
+			<range min="0x42" max="0x44" extcode="1">SFX #%02X</range>
 			<title code="0x61">SFX #61</title>
 		</titlelist>
 	</game>
@@ -4373,190 +2628,27 @@
 			<title code="0x1d">Ending - Bass</title>
 			<title code="0x1e">Ending - Megaman 2</title>
 			<title code="0x2c">Voice #2C</title>
-			<title code="0x2e">Voice #2E</title>
-			<title code="0x2f">Voice #2F</title>
-			<title code="0x30">Voice #30</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x71">Voice #71</title>
-			<title code="0x72">Voice #72</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x78">Voice #78</title>
-			<title code="0x79">Voice #79</title>
-			<title code="0x7a">Voice #7A</title>
-			<title code="0x7b">Voice #7B</title>
-			<title code="0x7d">Voice #7D</title>
-			<title code="0x7e">Voice #7E</title>
-			<title code="0x7f">Voice #7F</title>
-			<title code="0x80">Voice #80</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x87">Voice #87</title>
-			<title code="0x88">Voice #88</title>
-			<title code="0x89">Voice #89</title>
-			<title code="0x8a">Voice #8A</title>
-			<title code="0x8b">Voice #8B</title>
-			<title code="0x8c">Voice #8C</title>
-			<title code="0x8d">Voice #8D</title>
-			<title code="0x8e">Voice #8E</title>
-			<title code="0x8f">Voice #8F</title>
+			<range min="0x2e" max="0x30" extcode="1">Voice #%02X</range>
+			<range min="0x32" max="0x34" extcode="1">Voice #%02X</range>
+			<range min="0x56" max="0x5b" extcode="1">Voice #%02X</range>
+			<range min="0x70" max="0x7b" extcode="1">Voice #%02X</range>
+			<range min="0x7d" max="0x81" extcode="1">Voice #%02X</range>
+			<range min="0x87" max="0x8f" extcode="1">Voice #%02X</range>
 			<title code="0xa7">Voice #A7</title>
 			<title code="0xea">Voice #EA</title>
-			<title code="0x29">SFX #29</title>
-			<title code="0x2a">SFX #2A</title>
-			<title code="0x2b">SFX #2B</title>
+			<range min="0x29" max="0x2b" extcode="1">SFX #%02X</range>
 			<title code="0x2d">SFX #2D</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3a">SFX #3A</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
-			<title code="0x5f">SFX #5F</title>
-			<title code="0x60">SFX #60</title>
-			<title code="0x61">SFX #61</title>
-			<title code="0x62">SFX #62</title>
-			<title code="0x63">SFX #63</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
-			<title code="0x67">SFX #67</title>
-			<title code="0x68">SFX #68</title>
-			<title code="0x69">SFX #69</title>
-			<title code="0x6a">SFX #6A</title>
-			<title code="0x6b">SFX #6B</title>
-			<title code="0x6c">SFX #6C</title>
-			<title code="0x6d">SFX #6D</title>
-			<title code="0x6e">SFX #6E</title>
-			<title code="0x6f">SFX #6F</title>
+			<range min="0x36" max="0x3a" extcode="1">SFX #%02X</range>
+			<range min="0x3c" max="0x55" extcode="1">SFX #%02X</range>
+			<range min="0x5c" max="0x6f" extcode="1">SFX #%02X</range>
 			<title code="0x7c">SFX #7C</title>
-			<title code="0x82">SFX #82</title>
-			<title code="0x83">SFX #83</title>
-			<title code="0x84">SFX #84</title>
-			<title code="0x85">SFX #85</title>
-			<title code="0x86">SFX #86</title>
-			<title code="0x91">SFX #91</title>
-			<title code="0x92">SFX #92</title>
-			<title code="0x93">SFX #93</title>
-			<title code="0x94">SFX #94</title>
-			<title code="0x95">SFX #95</title>
-			<title code="0x96">SFX #96</title>
-			<title code="0x97">SFX #97</title>
-			<title code="0x98">SFX #98</title>
-			<title code="0x99">SFX #99</title>
-			<title code="0x9a">SFX #9A</title>
-			<title code="0x9b">SFX #9B</title>
-			<title code="0x9c">SFX #9C</title>
-			<title code="0x9d">SFX #9D</title>
-			<title code="0x9e">SFX #9E</title>
-			<title code="0x9f">SFX #9F</title>
-			<title code="0xa0">SFX #A0</title>
-			<title code="0xa1">SFX #A1</title>
-			<title code="0xa2">SFX #A2</title>
-			<title code="0xa3">SFX #A3</title>
-			<title code="0xa4">SFX #A4</title>
-			<title code="0xa5">SFX #A5</title>
-			<title code="0xa6">SFX #A6</title>
-			<title code="0xa8">SFX #A8</title>
-			<title code="0xa9">SFX #A9</title>
-			<title code="0xaa">SFX #AA</title>
-			<title code="0xab">SFX #AB</title>
-			<title code="0xac">SFX #AC</title>
-			<title code="0xad">SFX #AD</title>
-			<title code="0xae">SFX #AE</title>
-			<title code="0xaf">SFX #AF</title>
-			<title code="0xb0">SFX #B0</title>
-			<title code="0xb1">SFX #B1</title>
-			<title code="0xb2">SFX #B2</title>
-			<title code="0xb3">SFX #B3</title>
-			<title code="0xb4">SFX #B4</title>
-			<title code="0xb5">SFX #B5</title>
-			<title code="0xb6">SFX #B6</title>
-			<title code="0xb7">SFX #B7</title>
-			<title code="0xb8">SFX #B8</title>
-			<title code="0xb9">SFX #B9</title>
-			<title code="0xba">SFX #BA</title>
-			<title code="0xbb">SFX #BB</title>
-			<title code="0xbc">SFX #BC</title>
-			<title code="0xbe">SFX #BE</title>
-			<title code="0xbf">SFX #BF</title>
-			<title code="0xc0">SFX #C0</title>
-			<title code="0xc1">SFX #C1</title>
-			<title code="0xc2">SFX #C2</title>
-			<title code="0xc4">SFX #C4</title>
-			<title code="0xc5">SFX #C5</title>
-			<title code="0xc6">SFX #C6</title>
-			<title code="0xc7">SFX #C7</title>
-			<title code="0xc8">SFX #C8</title>
-			<title code="0xcc">SFX #CC</title>
-			<title code="0xcd">SFX #CD</title>
-			<title code="0xce">SFX #CE</title>
-			<title code="0xcf">SFX #CF</title>
-			<title code="0xd0">SFX #D0</title>
-			<title code="0xd1">SFX #D1</title>
-			<title code="0xd2">SFX #D2</title>
-			<title code="0xd4">SFX #D4</title>
-			<title code="0xd5">SFX #D5</title>
-			<title code="0xd6">SFX #D6</title>
-			<title code="0xd7">SFX #D7</title>
-			<title code="0xd8">SFX #D8</title>
-			<title code="0xd9">SFX #D9</title>
-			<title code="0xda">SFX #DA</title>
-			<title code="0xdb">SFX #DB</title>
-			<title code="0xdc">SFX #DC</title>
-			<title code="0xdd">SFX #DD</title>
-			<title code="0xde">SFX #DE</title>
-			<title code="0xdf">SFX #DF</title>
-			<title code="0xe0">SFX #E0</title>
-			<title code="0xe4">SFX #E4</title>
-			<title code="0xe5">SFX #E5</title>
-			<title code="0xe6">SFX #E6</title>
-			<title code="0xe7">SFX #E7</title>
-			<title code="0xe8">SFX #E8</title>
-			<title code="0xe9">SFX #E9</title>
-			<title code="0xeb">SFX #EB</title>
-			<title code="0xec">SFX #EC</title>
-			<title code="0xed">SFX #ED</title>
-			<title code="0xee">SFX #EE</title>
+			<range min="0x82" max="0x86" extcode="1">SFX #%02X</range>
+			<range min="0x91" max="0xa6" extcode="1">SFX #%02X</range>
+			<range min="0xa8" max="0xc8" extcode="1">SFX #%02X</range>
+			<range min="0xcc" max="0xd2" extcode="1">SFX #%02X</range>
+			<range min="0xd4" max="0xe0" extcode="1">SFX #%02X</range>
+			<range min="0xe4" max="0xe9" extcode="1">SFX #%02X</range>
+			<range min="0xeb" max="0xee" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -4588,84 +2680,13 @@
 			<title code="0x13">BGM #13</title>
 			<title code="0x14">BGM #14</title>
 			<title code="0x15">BGM #15</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x71">Voice #71</title>
-			<title code="0x72">Voice #72</title>
-			<title code="0x73">Voice #73</title>
-			<title code="0x74">Voice #74</title>
-			<title code="0x75">Voice #75</title>
-			<title code="0x76">Voice #76</title>
-			<title code="0x77">Voice #77</title>
-			<title code="0x78">Voice #78</title>
-			<title code="0x79">Voice #79</title>
-			<title code="0x7a">Voice #7A</title>
-			<title code="0x7b">Voice #7B</title>
-			<title code="0x7c">Voice #7C</title>
-			<title code="0x7d">Voice #7D</title>
-			<title code="0x7e">Voice #7E</title>
-			<title code="0x80">Voice #80</title>
-			<title code="0x81">Voice #81</title>
-			<title code="0x82">Voice #82</title>
-			<title code="0x83">Voice #83</title>
-			<title code="0x85">Voice #85</title>
-			<title code="0x86">Voice #86</title>
-			<title code="0x30">SFX #30</title>
-			<title code="0x31">SFX #31</title>
-			<title code="0x32">SFX #32</title>
-			<title code="0x33">SFX #33</title>
-			<title code="0x34">SFX #34</title>
-			<title code="0x35">SFX #35</title>
-			<title code="0x36">SFX #36</title>
-			<title code="0x37">SFX #37</title>
-			<title code="0x38">SFX #38</title>
-			<title code="0x39">SFX #39</title>
-			<title code="0x3b">SFX #3B</title>
-			<title code="0x3c">SFX #3C</title>
-			<title code="0x3d">SFX #3D</title>
-			<title code="0x3e">SFX #3E</title>
-			<title code="0x3f">SFX #3F</title>
-			<title code="0x40">SFX #40</title>
-			<title code="0x41">SFX #41</title>
-			<title code="0x42">SFX #42</title>
-			<title code="0x43">SFX #43</title>
-			<title code="0x44">SFX #44</title>
-			<title code="0x45">SFX #45</title>
-			<title code="0x46">SFX #46</title>
-			<title code="0x47">SFX #47</title>
-			<title code="0x48">SFX #48</title>
-			<title code="0x49">SFX #49</title>
-			<title code="0x4a">SFX #4A</title>
-			<title code="0x4b">SFX #4B</title>
-			<title code="0x4c">SFX #4C</title>
-			<title code="0x4d">SFX #4D</title>
-			<title code="0x4e">SFX #4E</title>
-			<title code="0x4f">SFX #4F</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x55">SFX #55</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x59">SFX #59</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
+			<range min="0x61" max="0x67" extcode="1">Voice #%02X</range>
+			<range min="0x69" max="0x7e" extcode="1">Voice #%02X</range>
+			<range min="0x80" max="0x83" extcode="1">Voice #%02X</range>
+			<range min="0x85" max="0x86" extcode="1">Voice #%02X</range>
+			<range min="0x30" max="0x39" extcode="1">SFX #%02X</range>
+			<range min="0x3b" max="0x52" extcode="1">SFX #%02X</range>
+			<range min="0x54" max="0x5c" extcode="1">SFX #%02X</range>
 			<title code="0x87">SFX #87</title>
 		</titlelist>
 	</game>
@@ -4723,47 +2744,15 @@
 			<title code="0x1f">High Score Table</title>
 			<title code="0x1b">Unified the County - Credits Roll</title>
 			<title code="0x1e">Unused</title>
-			<title code="0x32">Voice #32</title>
-			<title code="0x33">Voice #33</title>
-			<title code="0x34">Voice #34</title>
-			<title code="0x35">Voice #35</title>
-			<title code="0x36">Voice #36</title>
-			<title code="0x37">Voice #37</title>
-			<title code="0x39">Voice #39</title>
-			<title code="0x3a">Voice #3A</title>
-			<title code="0x3d">Voice #3D</title>
-			<title code="0x3e">Voice #3E</title>
-			<title code="0x3f">Voice #3F</title>
-			<title code="0x40">Voice #40</title>
-			<title code="0x41">Voice #41</title>
-			<title code="0x42">Voice #42</title>
-			<title code="0x43">Voice #43</title>
-			<title code="0x44">Voice #44</title>
-			<title code="0x45">Voice #45</title>
-			<title code="0x46">Voice #46</title>
-			<title code="0x47">Voice #47</title>
-			<title code="0x48">Voice #48</title>
-			<title code="0x49">Voice #49</title>
+			<range min="0x32" max="0x37" extcode="1">Voice #%02X</range>
+			<range min="0x39" max="0x3a" extcode="1">Voice #%02X</range>
+			<range min="0x3d" max="0x49" extcode="1">Voice #%02X</range>
 			<title code="0x6e">Voice #6E</title>
-			<title code="0x59">SFX #59</title>
 			<title code="0x1d">SFX #1D</title>
-			<title code="0x50">SFX #50</title>
-			<title code="0x51">SFX #51</title>
-			<title code="0x52">SFX #52</title>
-			<title code="0x53">SFX #53</title>
-			<title code="0x54">SFX #54</title>
-			<title code="0x56">SFX #56</title>
-			<title code="0x57">SFX #57</title>
-			<title code="0x58">SFX #58</title>
-			<title code="0x5a">SFX #5A</title>
-			<title code="0x5b">SFX #5B</title>
-			<title code="0x5c">SFX #5C</title>
-			<title code="0x5d">SFX #5D</title>
-			<title code="0x5e">SFX #5E</title>
+			<range min="0x50" max="0x54" extcode="1">SFX #%02X</range>
+			<range min="0x56" max="0x5e" extcode="1">SFX #%02X</range>
 			<title code="0x60">SFX #60</title>
-			<title code="0x64">SFX #64</title>
-			<title code="0x65">SFX #65</title>
-			<title code="0x66">SFX #66</title>
+			<range min="0x64" max="0x66" extcode="1">SFX #%02X</range>
 			<title code="0x68">SFX #68</title>
 		</titlelist>
 	</game>
@@ -4810,7 +2799,7 @@
 			<title code="0x6a">The Battle of Chibi (赤壁の戦い) [Round 8-1]</title>
 			<title code="0x6b">The Battle of Chibi (赤壁の戦い) [Round 8-2]</title>
 			<title code="0x87">The Battle of Chibi (赤壁の戦い) [Round 8-3]</title>
-			<title code="0x6C">Hua Rongdao (華容道) [Round 9]</title>
+			<title code="0x6c">Hua Rongdao (華容道) [Round 9]</title>
 			<title code="0x6e">Lu Bu (呂布) [Boss]</title>
 			<title code="0x6f">Cao Cao (曹操) [Boss]</title>
 			<title code="0x72">Last Round Clear</title>
@@ -5017,68 +3006,9 @@
 			<title code="0x3a">Continue</title>
 			<title code="0x3b">Game Over</title>
 			<title code="0x39">Ranking</title>
-			<title code="0x4a">Voice #4A</title>
-			<title code="0x4b">Voice #4B</title>
-			<title code="0x4c">Voice #4C</title>
-			<title code="0x4d">Voice #4D</title>
-			<title code="0x4e">Voice #4E</title>
-			<title code="0x4f">Voice #4F</title>
-			<title code="0x50">Voice #50</title>
-			<title code="0x51">Voice #51</title>
-			<title code="0x52">Voice #52</title>
-			<title code="0x53">Voice #53</title>
-			<title code="0x54">Voice #54</title>
-			<title code="0x55">Voice #55</title>
-			<title code="0x56">Voice #56</title>
-			<title code="0x57">Voice #57</title>
-			<title code="0x58">Voice #58</title>
-			<title code="0x59">Voice #59</title>
-			<title code="0x5a">Voice #5A</title>
-			<title code="0x129">Voice #129</title>
-			<title code="0x12a">Voice #12A</title>
-			<title code="0x12b">Voice #12B</title>
-			<title code="0x13c">Voice #13C</title>
-			<title code="0x1e9">Voice #1E9</title>
-			<title code="0x13d">Voice #13D</title>
-			<title code="0x13e">Voice #13E</title>
-			<title code="0x140">Voice #140</title>
-			<title code="0x141">Voice #141</title>
-			<title code="0x5b">Voice #5B</title>
-			<title code="0x5c">Voice #5C</title>
-			<title code="0x5d">Voice #5D</title>
-			<title code="0x5e">Voice #5E</title>
-			<title code="0x5f">Voice #5F</title>
-			<title code="0x60">Voice #60</title>
-			<title code="0x61">Voice #61</title>
-			<title code="0x62">Voice #62</title>
-			<title code="0x63">Voice #63</title>
-			<title code="0x64">Voice #64</title>
-			<title code="0x65">Voice #65</title>
-			<title code="0x66">Voice #66</title>
-			<title code="0x67">Voice #67</title>
-			<title code="0x68">Voice #68</title>
-			<title code="0x69">Voice #69</title>
-			<title code="0x6a">Voice #6A</title>
-			<title code="0x6b">Voice #6B</title>
-			<title code="0x6c">Voice #6C</title>
-			<title code="0x6d">Voice #6D</title>
-			<title code="0x6e">Voice #6E</title>
-			<title code="0x6f">Voice #6F</title>
-			<title code="0x70">Voice #70</title>
-			<title code="0x71">Voice #71</title>
-			<title code="0x12c">Voice #12C</title>
-			<title code="0x12d">Voice #12D</title>
-			<title code="0x12e">Voice #12E</title>
-			<title code="0x12f">Voice #12F</title>
-			<title code="0x1ea">Voice #1EA</title>
-			<title code="0x1eb">Voice #1EB</title>
-			<title code="0x1ec">Voice #1EC</title>
-			<title code="0x1ed">Voice #1ED</title>
 			<title code="0x41">Voice #41</title>
 			<title code="0x45">Voice #45</title>
-			<title code="0x48">Voice #48</title>
-			<title code="0x49">Voice #49</title>
-			<title code="0x72">Voice #72</title>
+			<range min="0x48" max="0x72" extcode="1">Voice #%02X</range>
 			<title code="0x76">Voice #76</title>
 			<title code="0x7a">Voice #7A</title>
 			<title code="0x7e">Voice #7E</title>
@@ -5089,7 +3019,9 @@
 			<title code="0x92">Voice #92</title>
 			<title code="0x96">Voice #96</title>
 			<title code="0x9a">Voice #9A</title>
-			<title code="0x142">Voice #142</title>
+			<range min="0x129" max="0x12f" extcode="1">Voice #%02X</range>
+			<range min="0x13c" max="0x13e" extcode="1">Voice #%02X</range>
+			<range min="0x140" max="0x142" extcode="1">Voice #%02X</range>
 			<title code="0x144">Voice #144</title>
 			<title code="0x146">Voice #146</title>
 			<title code="0x148">Voice #148</title>
@@ -5151,22 +3083,9 @@
 			<title code="0x1ba">Voice #1BA</title>
 			<title code="0x1bc">Voice #1BC</title>
 			<title code="0x1be">Voice #1BE</title>
-			<title code="0x1ee">Voice #1EE</title>
-			<title code="0x00">SFX #00</title>
-			<title code="0x01">SFX #01</title>
-			<title code="0x02">SFX #02</title>
-			<title code="0x03">SFX #03</title>
-			<title code="0x04">SFX #04</title>
-			<title code="0x05">SFX #05</title>
-			<title code="0x06">SFX #06</title>
-			<title code="0x10">SFX #10</title>
-			<title code="0x11">SFX #11</title>
-			<title code="0x12">SFX #12</title>
-			<title code="0x13">SFX #13</title>
-			<title code="0x14">SFX #14</title>
-			<title code="0x15">SFX #15</title>
-			<title code="0x16">SFX #16</title>
-			<title code="0x17">SFX #17</title>
+			<range min="0x1e9" max="0x1ee" extcode="1">Voice #%02X</range>
+			<range min="0x00" max="0x06" extcode="1">SFX #%02X</range>
+			<range min="0x10" max="0x17" extcode="1">SFX #%02X</range>
 			<title code="0xa1">SFX #A1</title>
 			<title code="0xa4">SFX #A4</title>
 			<title code="0xa8">SFX #A8</title>
@@ -5187,24 +3106,13 @@
 			<title code="0xe4">SFX #E4</title>
 			<title code="0xe8">SFX #E8</title>
 			<title code="0xec">SFX #EC</title>
-			<title code="0xf0">SFX #F0</title>
-			<title code="0xf1">SFX #F1</title>
-			<title code="0xf2">SFX #F2</title>
-			<title code="0xf3">SFX #F3</title>
-			<title code="0xf4">SFX #F4</title>
-			<title code="0xf5">SFX #F5</title>
-			<title code="0xf6">SFX #F6</title>
-			<title code="0xf7">SFX #F7</title>
-			<title code="0xf8">SFX #F8</title>
+			<range min="0xf0" max="0xf8" extcode="1">SFX #%02X</range>
 			<title code="0xfc">SFX #FC</title>
 			<title code="0x100">SFX #100</title>
 			<title code="0x104">SFX #104</title>
 			<title code="0x108">SFX #108</title>
 			<title code="0x10c">SFX #10C</title>
-			<title code="0x111">SFX #111</title>
-			<title code="0x112">SFX #112</title>
-			<title code="0x113">SFX #113</title>
-			<title code="0x114">SFX #114</title>
+			<range min="0x111" max="0x114" extcode="1">SFX #%02X</range>
 			<title code="0x118">SFX #118</title>
 			<title code="0x11c">SFX #11C</title>
 			<title code="0x120">SFX #120</title>
@@ -5221,12 +3129,8 @@
 			<title code="0x1d6">SFX #1D6</title>
 			<title code="0x1da">SFX #1DA</title>
 			<title code="0x1de">SFX #1DE</title>
-			<title code="0x1e7">SFX #1E7</title>
-			<title code="0x1e8">SFX #1E8</title>
-			<title code="0x1f1">SFX #1F1</title>
-			<title code="0x1f2">SFX #1F2</title>
-			<title code="0x1f3">SFX #1F3</title>
-			<title code="0x1f4">SFX #1F4</title>
+			<range min="0x1e7" max="0x1e8" extcode="1">SFX #%02X</range>
+			<range min="0x1f1" max="0x1f4" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -5770,7 +3674,8 @@
 			<rom type="pcm" offset="0x200000">vph.12m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2b">Q-Sound Logo</title>
+			<title code="0x2b">Q-Sound Logo 1</title>
+			<title code="0x2c">Q-Sound Logo 2</title>
 			<title code="0x01">Opening - Title</title>
 			<title code="0x03">Player Select 1</title>
 			<title code="0x2f">Player Select 2</title>
@@ -5838,7 +3743,6 @@
 			<title code="0x05">Ranking Display</title>
 			<title code="0x2a">Credits Roll 1</title>
 			<title code="0x2e">Credits Roll 2</title>
-			<title code="0x2c">Q-Sound Logo 2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5852,18 +3756,19 @@
 			<rom type="pcm" offset="0x200000">cyb.12m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2d">Q-Sound Logo</title>
+			<title code="0x2d">Q-Sound Logo 1</title>
+			<title code="0x2e">Q-Sound Logo 2</title>
 			<title code="0x01">Opening Title</title>
 			<title code="0x31">Robot Demo 1</title>
 			<title code="0x33">Robot Demo 2</title>
-			<title code="0x0a">Ranking Table</title>
+			<title code="0x0a">Ranking Display</title>
 			<title code="0x02">Player Select</title>
 			<title code="0x03">Story Demo 1</title>
 			<title code="0x0b">VS.</title>
 			<title code="0x12">Megalopolis</title>
 			<title code="0x13">Machine Arena</title>
 			<title code="0x2f">Story Demo 2</title>
-			<title code="0x1d">Theme of Gaits</title>
+			<title code="0x1d">Gaits Theme</title>
 			<title code="0x0d">Winning Theme 1</title>
 			<title code="0x05">Story Demo 3</title>
 			<title code="0x14">Power Station</title>
@@ -5872,7 +3777,7 @@
 			<title code="0x0e">Continue</title>
 			<title code="0x35">Story Demo 4</title>
 			<title code="0x34">Story Demo 5</title>
-			<title code="0x1e">Theme of Super 8</title>
+			<title code="0x1e">Super 8 Theme</title>
 			<title code="0x08">Story Demo 6</title>
 			<title code="0x10">You Face A New Opponent</title>
 			<title code="0x04">Story Demo 7</title>
@@ -5881,30 +3786,30 @@
 			<title code="0x18">Underwater 1</title>
 			<title code="0x19">Underwater 2</title>
 			<title code="0x06">Story Demo 8</title>
-			<title code="0x1f">Theme of Helion</title>
+			<title code="0x1f">Helion Theme</title>
 			<title code="0x0c">Winning Theme 2</title>
 			<title code="0x07">Story Demo 9</title>
 			<title code="0x17">Space Fleet</title>
 			<title code="0x1c">Doomsday Weapon</title>
 			<title code="0x09">Story Demo 10</title>
-			<title code="0x32">Theme of Warlock 1</title>
-			<title code="0x3a">Theme of Warlock 2</title>
-			<title code="0x28">Mary's Ending</title>
-			<title code="0x25">Bao and Mao's Ending 1</title>
-			<title code="0x2b">Bao and Mao's Ending 2</title>
-			<title code="0x24">Gawaine's Ending 1</title>
-			<title code="0x2a">Gawaine's Ending 2</title>
-			<title code="0x23">Arieta's Ending 1</title>
-			<title code="0x29">Arieta's Ending 2</title>
-			<title code="0x27">Santana's Ending</title>
-			<title code="0x20">Jin's Ending 1</title>
-			<title code="0x26">Jin's Ending 2</title>
-			<title code="0x36">Cast's Ending</title>
-			<title code="0x2c">Credits Roll</title>
+			<title code="0x28">Mary Ending 1</title>
+			<title code="0x25">Bao and Mao Ending 1</title>
+			<title code="0x2b">Bao and Mao Ending 2</title>
+			<title code="0x24">Gawaine Ending 1</title>
+			<title code="0x2a">Gawaine Ending 2</title>
+			<title code="0x32">Warlock Theme 1</title>
+			<title code="0x3a">Warlock Theme 2</title>
+			<title code="0x23">Arieta Ending 1</title>
+			<title code="0x29">Arieta Ending 2</title>
+			<title code="0x27">Santana Ending</title>
+			<title code="0x20">Jin Ending 1</title>
+			<title code="0x26">Jin Ending 2</title>
+			<title code="0x36">Cast Ending</title>
+			<title code="0x2c">Staff Roll</title>
 			<title code="0x37">Powered Gear, High Score Ranking</title>
-			<title code="0x11">Name Entry (Unused)</title>
+			<title code="0x11">Naming (Unused)</title>
 			<title code="0x0f">Game Over</title>
-			<title code="0x39">Mary's Ending (Unused)</title>
+			<title code="0x39">Mary Ending 2 (Unused)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5918,7 +3823,8 @@
 			<rom type="pcm" offset="0x200000">sfz.12m</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">Q-Sound Logo</title>
+			<title code="0x22">Q-Sound Logo 1</title>
+			<title code="0x23">Q-Sound Logo 2</title>
 			<title code="0x0d">Opening Demo</title>
 			<title code="0xf4">[Voice] Street Fighter Alpha</title>
 			<title code="0x0e">Player Select</title>
@@ -5958,7 +3864,6 @@
 			<title code="0x14">Ranking Display 1</title>
 			<title code="0x24">Ranking Display 2</title>
 			<title code="0x34">Itoshisato Setsunasato Kokorozuyosato / Ryoko Shinohara with T. Komuro (Dramatic Battle BGM)</title>
-			<title code="0x23">Q-Sound Logo 2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -5977,39 +3882,40 @@
 			<rom type="pcm" offset="0x380000">rcm.58</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0A</title>
-			<title code="0x0b">BGM #0B</title>
-			<title code="0x0c">BGM #0C</title>
-			<title code="0x0d">BGM #0D</title>
-			<title code="0x0e">BGM #0E</title>
-			<title code="0x0f">BGM #0F</title>
-			<title code="0x10">BGM #10</title>
-			<title code="0x11">BGM #11</title>
-			<title code="0x12">BGM #12</title>
-			<title code="0x13">BGM #13</title>
-			<title code="0x14">BGM #14</title>
-			<title code="0x15">BGM #15</title>
-			<title code="0x16">BGM #16</title>
-			<title code="0x17">BGM #17</title>
-			<title code="0x18">BGM #18</title>
-			<title code="0x19">BGM #19</title>
-			<title code="0x1a">BGM #1A</title>
-			<title code="0x1b">BGM #1B</title>
-			<title code="0x1c">BGM #1C</title>
-			<title code="0x1d">BGM #1D</title>
-			<title code="0x1e">BGM #1E</title>
-			<title code="0x1f">BGM #1F</title>
-			<title code="0x22">BGM #22</title>
-			<title code="0x23">BGM #23</title>
+			<title code="0x22">Q-Sound Logo 1</title>
+			<title code="0x23">Q-Sound Logo 2</title>
+			<title code="0x31">Capcom Logo</title>
+			<title code="0x01">Title</title>
+			<title code="0x02">Player Select</title>
+			<title code="0x03">Stage Select (Rockman 1~2)</title>
+			<title code="0x06">Stage Starting</title>
+			<title code="0x0c">Stage 1 (from Napalm Man's Theme (ナパームマンのテーマより)</title>
+			<title code="0x0d">Stage 2 (from Crash Man's Theme (クラッシュマンのテーマより))</title>
+			<title code="0x0f">Stage 3 (from Guts Man's Theme (ガッツマンのテーマより)</title>
+			<title code="0x04">Stage Select (Rockman 3~6)</title>
+			<title code="0x11">Stage 4 (from Gyro Man's Theme (ジャイロマンのテーマより))</title>
+			<title code="0x10">Stage 5 (from Gemini Man's Theme (ジェミニマンのテーマより))</title>
+			<title code="0x0e">Stage 6 (from Shadow Man's Theme (シャドウマンのテーマより))</title>
+			<title code="0x07">Stage Clear</title>
+			<title code="0x08">You Got New Weapon</title>
+			<title code="0x05">Stage Select (Rockman 7)</title>
+			<title code="0x12">Stage 7 (Mega Man 7 - from the Opening Stage (Rockman 7 - オープニングステージより))</title>
+			<title code="0x17">Stage 8 (from Cloud Man's Theme (クラウドマンのテーマより))</title>
+			<title code="0x13">Stage 9 (from Slash Man's Theme (スラッシュマンのテーマより))</title>
+			<title code="0x16">Stage 10 (from Freeze Man's Theme (フリーズマンのテーマより))</title>
+			<title code="0x15">Stage 11 (from Junk Man's Theme (ジャンクマンのテーマより))</title>
+			<title code="0x14">Stage 12 (from Shade Man's Theme (シェードマンのテーマより))</title>
+			<title code="0x1f">Stage 13 (From "Makai")</title>
+			<title code="0x09">VS Wily</title>
+			<title code="0x18">Stage Wily Boss</title>
+			<title code="0x19">Stage Wily Machine</title>
+			<title code="0x1a">Stage Wily Capsule</title>
+			<title code="0x0a">Continue</title>
+			<title code="0x0b">Game Over</title>
+			<title code="0x1b">Ending - Rockman 1</title>
+			<title code="0x1c">Ending - Forte</title>
+			<title code="0x1d">Ending - Blues</title>
+			<title code="0x1e">Ending - Rockman 2</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7395,6 +5301,34 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[System 32] Slip Stream (YM3438x2)</name>
+		<driver type="slipstrm">capcom</driver>
+		<driveralias type="Arcade">Capcom</driveralias>
+		<options>
+			<option name="opn_mix" value="0x180"/>
+			<option name="pcm_mix" value="0x150"/>
+		</options>
+		<romlist archive="slipstrm">
+			<rom offset="0x00000" type="code">s32_snd00.ic35</rom> <!-- 0x4000-0x8000 -->
+			<rom offset="0x00000" type="pcm">s32_snd01.ic31</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Attract Demo</title>
+			<title code="0x04">Mode Select</title>
+			<title code="0x0b">Machine Select</title>
+			<title code="0x05">German Course</title>
+			<title code="0x06">Japan Course</title>
+			<title code="0x07">Australia Course</title>
+			<title code="0x08">Monaco Course</title>
+			<title code="0x09">Results</title>
+			<title code="0x0a">Retire</title>
+			<title code="0x0c">Continue</title>
+			<title code="0x0d">Game Over</title>
+			<title code="0x0e">Staff Roll</title>
+			<title code="0x0f">Unknown</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[ZN1] Battle Arena Toshinden 2 (闘神伝2) (Q-Sound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
@@ -7465,22 +5399,22 @@
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="sfex">
-			<rom type="code" offset="0x00000">sfe-02</rom>
-			<rom type="code" offset="0x20000">sfe-03</rom>
-			<rom type="pcm" offset="0x000000">sfe-01m</rom>
+			<rom type="code" offset="0x00000">sfe_02.2e</rom>
+			<rom type="code" offset="0x20000">sfe_03.3e</rom>
+			<rom type="pcm" offset="0x000000">sfe-01m.3b</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x10">Q-Sound Logo</title>
 			<title code="0x01">Street Fighter EX</title>
 			<title code="0x11">Character Select</title>
 			<title code="0x02">Rising Dragoon</title>
-			<title code="0x03">Guardian of Light</title>
-			<title code="0x04">Pyrrhic Song</title>
+			<title code="0x03">Guardian of Light (光の守護神)</title>
+			<title code="0x04">Pyrrhic Song (天脚舞歌)</title>
 			<title code="0x05">Cold Pipe</title>
 			<title code="0x06">Strange Sunset</title>
-			<title code="0x07">Sakura in Full Bloom</title>
+			<title code="0x07">Sakura in Full Bloom (夜桜満開)</title>
 			<title code="0x08">Under Tube</title>
-			<title code="0x09">Arabessque</title>
+			<title code="0x09">Arabesque</title>
 			<title code="0x0a">Garnet Sky</title>
 			<title code="0x0b">Amusementive Crime</title>
 			<title code="0x0c">Irreconcilably</title>
@@ -7488,7 +5422,7 @@
 			<title code="0x0e">God Hands</title>
 			<title code="0x12">New Challenger</title>
 			<title code="0x13">Stage Clear</title>
-			<title code="0x16">Credits</title>
+			<title code="0x16">Staffroll</title>
 			<title code="0x15">Continue</title>
 			<title code="0x14">Game Over</title>
 			<title code="0x0f">BGM #0F</title>
@@ -7499,73 +5433,75 @@
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="rvschool">
-			<rom type="code" offset="0x00000">jst-02</rom>
-			<rom type="code" offset="0x20000">jst-03</rom>
-			<rom type="pcm" offset="0x000000">jst-01m</rom>
+			<rom type="code" offset="0x00000">jst_02.2e</rom>
+			<rom type="code" offset="0x20000">jst_03.3e</rom>
+			<rom type="pcm" offset="0x000000">jst-01m.3b</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x3f">Q-Sound Logo</title>
-			<title code="0x14">Introductory Chapter</title>
-			<title code="0x01">We Save Our School!</title>
-			<title code="0x02">Today's Ichiban</title>
-			<title code="0x03">Select Student</title>
-			<title code="0x04">Fight!!</title>
-			<title code="0x05">Roof of Taiyou Gakuen High School</title>
-			<title code="0x0b">Pacific HS Back Gate</title>
-			<title code="0x07">Gorin High School 1st Gym</title>
-			<title code="0x0a">Construction Site in Back of Gedou HS</title>
-			<title code="0x06">Taiyou Gakuen Junior High Playing Field</title>
-			<title code="0x0c">Drive-in Theatre</title>
-			<title code="0x08">Gorin High School Training Camp</title>
-			<title code="0x09">Riverbed in Front of Gedou High School</title>
-			<title code="0x0d">Taiyou Gakuen High School Classroom</title>
-			<title code="0x0e">Justice Gakuen Front Gate</title>
-			<title code="0x0f">Justice Gakuen Library</title>
-			<title code="0x10">Phantom Space</title>
-			<title code="0x11">The Winner</title>
-			<title code="0x12">Come on!</title>
-			<title code="0x13">Humiliating Defeat</title>
-			<title code="0x15">Theme of Taiyou School</title>
-			<title code="0x16">Theme of Gorin HS</title>
-			<title code="0x17">Theme of Pacific HS</title>
-			<title code="0x18">Theme of Gedou High School</title>
-			<title code="0x19">Theme of Sensei</title>
-			<title code="0x1a">Theme of Raizou</title>
-			<title code="0x1b">Shootout! Hyou</title>
-			<title code="0x1c">Even If We Got Brainwashed..</title>
-			<title code="0x24">Ending 1: Theme of Love</title>
-			<title code="0x1d">Ending 2: Theme of Friendship</title>
-			<title code="0x1f">Ending 3: Theme of Youth</title>
-			<title code="0x1e">Ending 4: Hope of Taiyo Gakuen</title>
-			<title code="0x20">Ending 5: Strength of Gedou High School</title>
-			<title code="0x21">Ending 6: Brotherhood of Kyousuke</title>
-			<title code="0x22">Ending 7: Decision by Edge</title>
-			<title code="0x26">Ending 8: Sakura's Heart</title>
-			<title code="0x25">Ending 9: Woe of Hyou</title>
-			<title code="0x27">Fanfare</title>
-			<title code="0x23">Bad Ending</title>
-			<title code="0x28">Credits</title>
-			<title code="0x29">The Fight Continues..</title>
+			<title code="0x14">Prologue (序章)</title>
+			<title code="0x01">We'll Protect Our School! (俺達の学校は俺達が守る!)</title>
+			<title code="0x02">Today's No. 1 (本日の一番)</title>
+			<title code="0x03">Selecting Students (生徒選抜)</title>
+			<title code="0x04">The Match (勝負!!)</title>
+			<title code="0x05">On the Rooftop of Sunshine High School (太陽学園高等部屋上)</title>
+			<title code="0x0b">In Front of Pacific High School's Back Gate (パシフィックHS裏門前)</title>
+			<title code="0x07">Gym 1 of Five Rings High School (五輪高校第一体育館)</title>
+			<title code="0x0a">Construction Site at the Back of Evil High School (外道高校裏工事現場)</title>
+			<title code="0x06">The School yard of Sunshine Junior High School (太陽学園中等部グラウンド)</title>
+			<title code="0x0c">Drive-in Theater (ドライブインシアター)</title>
+			<title code="0x08">In Front of Five Rings High School's Seaside Training Camp (五輪高校臨海合宿所前)</title>
+			<title code="0x09">At the Riverbed in Front of Evil High School (外道高校前河川敷)</title>
+			<title code="0x0d">In a Classroom of Sunshine High School (太陽学園高等部教室)</title>
+			<title code="0x0e">In Front of the Main Gate of Justice High School (ジャスティス学園正門前)</title>
+			<title code="0x0f">In the Library of Justice High School (ジャスティス学園図書館)</title>
+			<title code="0x10">Space of Illusion (幻影空間)</title>
+			<title code="0x11">News Flash! The Winner (速報! 勝利者)</title>
+			<title code="0x12">Cheer Up! (しっかりしろ!)</title>
+			<title code="0x13">Humiliating Defeat (屈辱の敗北)</title>
+			<title code="0x15">The Theme of Sunshine School (太陽学園のテーマ)</title>
+			<title code="0x16">The Theme of Five Rings School High School (五輪高校のテーマ)</title>
+			<title code="0x17">The Theme of Pacific High School (パシフィックHSのテーマ)</title>
+			<title code="0x18">The Theme of Outlaw High School (外道高校のテーマ)</title>
+			<title code="0x19">The Theme of Teacher (先生のテーマ)</title>
+			<title code="0x1a">The Theme of Raizo (雷蔵のテーマ)</title>
+			<title code="0x1b">Battle! Hyou (決戦! 雹)</title>
+			<title code="0x1c">Even if Being Brainwashed... (洗脳されたとしても...)</title>
+			<title code="0x24">Ending 1 - The Theme of Love (エンディング1愛のテーマ)</title>
+			<title code="0x1d">Ending 2 - The Theme of Friendship Time (エンディング2友情のテーマ)</title>
+			<title code="0x1f">Ending 3 - The Theme of Youth (エンディング3青春のテーマ)</title>
+			<title code="0x1e">Ending 4 - The Hope of Sunshine School (エンディング4太陽学園の希望)</title>
+			<title code="0x20">Ending 5 - The Good Evil High School (エンディング5外道高校，良いところ)</title>
+			<title code="0x21">Ending 6 - Kyosuke's Brotherly Love (エンディング6恭介の兄弟愛)</title>
+			<title code="0x22">Ending 7 - The Determination of Edge (エンディング7エッジの決意)</title>
+			<title code="0x26">Ending 8 - The Feeling of Sakura (エンディング8さくらの気持ち)</title>
+			<title code="0x25">Ending 9 - The Distress of Hyou (エンディング9雹の苦悩)</title>
+			<title code="0x27">Fanfare (ファンファーレ)</title>
+			<title code="0x23">Bad Ending (バッドエンディング)</title>
+			<title code="0x28">Staff Roll (スタッフロール)</title>
+			<title code="0x29">The Fight Goes On... (闘いは続く...)</title>
+			<!-- The School Song of Sunshine School (太陽学園校歌) -->
+			<!-- Something Extra (おまけ) -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[ZN2] Street Fighter EX 2 (ストリートファイターEX2) (Q-Sound)</name>
+		<name>[ZN2] Street Fighter EX2 (ストリートファイターEX2) (Q-Sound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="sfex2">
-			<rom type="code" offset="0x00000">ex2-02</rom>
-			<rom type="pcm" offset="0x000000">ex2-01m</rom>
+			<rom type="code" offset="0x00000">ex2_02.2e</rom>
+			<rom type="pcm" offset="0x000000">ex2-01m.3a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x409">Q-Sound Logo</title>
-			<title code="0x414">Street Fighter EX 2</title>
+			<title code="0x414">Street Fighter EX2</title>
 			<title code="0x412">Select</title>
 			<title code="0x420">Pearl in The Sky</title>
 			<title code="0x421">White Field</title>
 			<title code="0x422">The Infinite Earth</title>
 			<title code="0x423">Lost Sea</title>
 			<title code="0x424">Mahatma Temple with Hymn</title>
-			<title code="0x425">Three Trees</title>
+			<title code="0x425">Three Tree</title>
 			<title code="0x426">Crowded Town</title>
 			<title code="0x427">Flash Train</title>
 			<title code="0x428">Fake World</title>
@@ -7574,12 +5510,12 @@
 			<title code="0x42b">More Stronger</title>
 			<title code="0x42c">Passage of Lotus</title>
 			<title code="0x417">Ending</title>
-			<title code="0x415">Credits Roll</title>
+			<title code="0x415">Staff Roll</title>
 			<title code="0x413">Continue</title>
 			<title code="0x410">Stage Clear</title>
 			<title code="0x416">Challenger</title>
 			<title code="0x411">Game Over</title>
-			<title code="0x408">Speaker Test</title>
+			<title code="0x408">Speaker Test (スピーカーテスト)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7587,16 +5523,16 @@
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="plsmaswd">
-			<rom type="code" offset="0x00000">sg2-02</rom>
-			<rom type="code" offset="0x20000">sg2-03</rom>
-			<rom type="pcm" offset="0x000000">sg2-01m</rom>
+			<rom type="code" offset="0x00000">sg2_02.2e</rom>
+			<rom type="code" offset="0x20000">sg2_03.3e</rom>
+			<rom type="pcm" offset="0x000000">sg2-01m.3a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x40">Credit</title>
 			<title code="0x3c">Q-Sound Logo</title>
 			<title code="0x3a">Prologue</title>
 			<title code="0x01">Opening - Title</title>
-			<title code="0x3b">Ranking Table</title>
+			<title code="0x3b">Ranking Display</title>
 			<title code="0x02">Character Select</title>
 			<title code="0x03">Next Stage</title>
 			<title code="0x09">Illusion of Peace</title>
@@ -7609,49 +5545,49 @@
 			<title code="0x0e">Holy Graveyard</title>
 			<title code="0x0f">Against the Absolute</title>
 			<title code="0x13">Story Demo 2</title>
-			<title code="0x10">Fate of the Galaxy -Stage 8-</title>
-			<title code="0x11">Win</title>
-			<title code="0x14">Ending 1</title>
-			<title code="0x15">Ending 2</title>
-			<title code="0x16">Ending 3</title>
-			<title code="0x18">Hayato's Ending 1</title>
-			<title code="0x19">Hayato's Ending 2</title>
-			<title code="0x1b">Jine's Ending</title>
-			<title code="0x20">Saturn's Ending</title>
-			<title code="0x1e">Gamof's Ending</title>
-			<title code="0x24">Gerelt's Ending 1</title>
-			<title code="0x25">Gerelt's Ending 2</title>
-			<title code="0x28">Vector's Ending 1</title>
-			<title code="0x29">Vector's Ending 2</title>
-			<title code="0x22">Zelkin's Ending</title>
-			<title code="0x2c">Gore's Ending</title>
-			<title code="0x2e">Blood's Ending</title>
-			<title code="0x30">G.Bilstein's Ending</title>
-			<title code="0x1a">B.Hayato's Ending</title>
-			<title code="0x1c">Ele's Ending 1</title>
-			<title code="0x1d">Ele's Ending 2</title>
-			<title code="0x21">Prince's Ending</title>
-			<title code="0x1f">Gantestsu's Ending</title>
-			<title code="0x26">Claire's Ending 1</title>
-			<title code="0x27">Claire's Ending 2</title>
-			<title code="0x2a">Omega's Ending 1</title>
-			<title code="0x2b">Omega's Ending 2</title>
-			<title code="0x23">Eagle's Ending</title>
-			<title code="0x2d">Luca's Ending</title>
-			<title code="0x2f">Shaker's Ending</title>
-			<title code="0x31">Bilstein's Ending</title>
-			<title code="0x34">Rain's Ending 1</title>
-			<title code="0x35">Rain's Ending 2</title>
-			<title code="0x32">Byakko's Ending</title>
-			<title code="0x36">Kaede's Ending 1</title>
-			<title code="0x37">Kaede's Ending 2</title>
-			<title code="0x38">Kaede's Ending 3</title>
-			<title code="0x33">Rai-on's Ending</title>
+			<title code="0x10">Fate of the Galaxy</title>
+			<title code="0x11">Winning Theme</title>
+			<title code="0x14">Ending Theme 1</title>
+			<title code="0x15">Ending Theme 2</title>
+			<title code="0x16">Ending Theme 3</title>
+			<title code="0x18">Hayato Ending Theme 1</title>
+			<title code="0x19">Hayato Ending Theme 2</title>
+			<title code="0x1b">June Ending Theme</title>
+			<title code="0x20">Saturn Ending Theme</title>
+			<title code="0x1e">Gamof Ending Theme</title>
+			<title code="0x24">Gerelt Ending Theme 1</title>
+			<title code="0x25">Gerelt Ending Theme 2</title>
+			<title code="0x28">Vector Ending Theme 1</title>
+			<title code="0x29">Vector Ending Theme 2</title>
+			<title code="0x22">Zelkin Ending Theme</title>
+			<title code="0x2c">Gore Ending Theme</title>
+			<title code="0x2e">Blood Ending Theme</title>
+			<title code="0x30">G. Bilstein Ending Theme</title>
+			<title code="0x1a">B. Hayato Ending Theme</title>
+			<title code="0x1c">Ele Ending Theme 11</title>
+			<title code="0x1d">Ele Ending Theme 2</title>
+			<title code="0x21">Prince Ending Theme</title>
+			<title code="0x1f">Gantetsu Ending Theme</title>
+			<title code="0x26">Claire Ending Theme 1</title>
+			<title code="0x27">Claire Ending Theme 2</title>
+			<title code="0x2a">Omega Ending Theme 1</title>
+			<title code="0x2b">Omega Ending Theme 2</title>
+			<title code="0x23">Eagle Ending Theme</title>
+			<title code="0x2d">Luca Ending Theme</title>
+			<title code="0x2f">Shaker Ending Theme</title>
+			<title code="0x31">Bilstein Ending Theme</title>
+			<title code="0x34">Rain Ending Theme 1</title>
+			<title code="0x35">Rain Ending Theme 2</title>
+			<title code="0x32">Byakko Ending Theme</title>
+			<title code="0x36">Kaede Ending Theme 1</title>
+			<title code="0x37">Kaede Ending Theme 2</title>
+			<title code="0x38">Kaede Ending Theme 3</title>
+			<title code="0x33">Rai-On Ending Theme</title>
 			<title code="0x05">Continue</title>
-			<title code="0x07">High Score Table</title>
+			<title code="0x07">Score Display</title>
 			<title code="0x08">Name Entry</title>
 			<title code="0x06">Game Over</title>
-			<title code="0x39">Credits</title>
+			<title code="0x39">Staff Roll</title>
 			<title code="0x3d">Prince - Dance</title>
 			<title code="0x3e">Kaede - Mole Attack</title>
 			<title code="0x41">[SFX] Timer</title>
@@ -7667,13 +5603,13 @@
 		</romlist>
 		<titlelist>
 			<title code="0x409">Q-Sound Logo</title>
-			<title code="0x421">Hardening drops. (normal mix) (Less than level 500)</title>
-			<title code="0x422">Hardening drops. (instant death mix) (Level 500 and more)</title>
-			<title code="0x423">Happy Happy (Ending)</title>
-			<title code="0x412">Game Over</title>
-			<title code="0x410">Results</title>
-			<title code="0x411">Break Into</title>
-			<title code="0x420">Let's live variously</title>
+			<title code="0x421">Hardening drops. (normal mix) (Under Level 500)</title>
+			<title code="0x422">Hardening drops. (instant death mix) (Over Level 500)</title>
+			<title code="0x423">Happy Happy (Ending) (Happy Happy (エンディング)</title>
+			<title code="0x412">Game Over (ゲームオーバー)</title>
+			<title code="0x410">Results (結果報告)</title>
+			<title code="0x411">Break Into (乱入)</title>
+			<title code="0x420">Let's live variously (Play BGM) (Let's live variously (対戦BGM))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7681,135 +5617,135 @@
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="techromn">
-			<rom type="code" offset="0x00000">kio-02.bin</rom>
-			<rom type="code" offset="0x20000">kio-03.bin</rom>
+			<rom type="code" offset="0x000000">kio-02.bin</rom>
+			<rom type="code" offset="0x020000">kio-03.bin</rom>
 			<rom type="pcm" offset="0x000000">kio-01m.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xff04">Mono Switch (［モノラル］)</title>
-			<title code="0xff05">Stereo Switch (［ステレオ］)</title>
-			<title code="0x8020">CAPCOM ロゴ</title>
-			<title code="0xb005">序曲</title>
-			<title code="0x8001">闘え！キカイオー</title>
-			<title code="0x8002">プレイヤー・セレクト</title>
-			<title code="0x8003">VS画面</title>
-			<title code="0x8009">市街地－昼－(ステージ)</title>
-			<title code="0x800a">市街地－夜－(ステージ)</title>
-			<title code="0x800b">港(ステージ)</title>
-			<title code="0x800c">基地(ステージ)</title>
-			<title code="0x800d">砂漠(ステージ)</title>
-			<title code="0x800e">夕日(ステージ)</title>
-			<title code="0x800f">大氷河(ステージ)</title>
-			<title code="0x8010">宇宙(ステージ)</title>
-			<title code="0x8011">火山(ステージ)</title>
-			<title code="0xb006">襲撃(シナリオ・デモ)</title>
-			<title code="0xb007">哀愁－男－(シナリオ・デモ)</title>
-			<title code="0xb008">急げ！(シナリオ・デモ)</title>
-			<title code="0xb009">悪巧み(シナリオ・デモ)</title>
-			<title code="0xb00a">日常(シナリオ・デモ)</title>
-			<title code="0xb00b">哀愁－女－(シナリオ・デモ)</title>
-			<title code="0xb00c">活気(シナリオ・デモ)</title>
-			<title code="0xb00d">出撃(シナリオ・デモ)</title>
-			<title code="0xb028">平穏(シナリオ・デモ)</title>
-			<title code="0xb029">指令(シナリオ・デモ)</title>
-			<title code="0x801f">轟雷登場(轟雷のテーマ)</title>
-			<title code="0x8021">ゴルディバス変身</title>
-			<title code="0x8013">最終勝負(ボスステージ)</title>
-			<title code="0x8012">異次元空間(ステージ)</title>
-			<title code="0x8004">勝利</title>
-			<title code="0x8005">途中参加</title>
-			<title code="0x8006">ランキング</title>
-			<title code="0x8007">コンティニュー</title>
-			<title code="0x8008">ゲームオーバー</title>
-			<title code="0x8017">キカイオー・アイキャッチ</title>
-			<title code="0x801c">キカイオー・サブタイトル</title>
-			<title code="0x8043">キカイオー・エンディングＡ</title>
-			<title code="0x8044">キカイオー・エンディングＢ</title>
-			<title code="0x8014">ディクセン・アイキャッチ</title>
-			<title code="0x8049">ディクセン・サブタイトル</title>
-			<title code="0xb013">ディクセン・エンディングＡ</title>
-			<title code="0xb014">ディクセン・エンディングＢ</title>
-			<title code="0xb015">ディクセン・エンディングＣ</title>
-			<title code="0x8019">ラファーガ・アイキャッチ</title>
-			<title code="0x804d">ラファーガ・サブタイトル</title>
-			<title code="0x8034">ラファーガ・エンディングＡ</title>
-			<title code="0x8035">ラファーガ・エンディングＢ</title>
-			<title code="0x8036">ラファーガ・エンディングＣ</title>
-			<title code="0x8037">ラファーガ・エンディングＤ</title>
-			<title code="0xb031">ボロン・シナリオデモ</title>
-			<title code="0x801b">ボロン・アイキャッチ</title>
-			<title code="0x804b">ボロン・サブタイトル</title>
-			<title code="0x8038">ボロン・エンディングＡ</title>
-			<title code="0x8039">ボロン・エンディングＢ</title>
-			<title code="0x803a">ボロン・エンディングＣ</title>
-			<title code="0xb00f">パルシオン・登場テーマ</title>
-			<title code="0x8015">パルシオン・アイキャッチ</title>
-			<title code="0x8048">パルシオン・サブタイトル</title>
-			<title code="0xb022">パルシオン・エンディングＡ</title>
-			<title code="0xb023">パルシオン・エンディングＢ</title>
-			<title code="0x802d">ワイズダック・登場テーマ</title>
-			<title code="0x8016">ワイズダック・アイキャッチ</title>
-			<title code="0x8047">ワイズダック・サブタイトル</title>
-			<title code="0x8033">ワイズダック・エンディング</title>
-			<title code="0xb000">ディアナ・登場テーマ１</title>
-			<title code="0xb001">ディアナ・登場テーマ２</title>
-			<title code="0x8018">ディアナ・アイキャッチ</title>
-			<title code="0x804c">ディアナ・サブタイトル</title>
-			<title code="0x803b">ディアナ・エンディングＡ</title>
-			<title code="0x803d">ディアナ・エンディングＢ</title>
-			<title code="0x803e">ディアナ・エンディングＣ</title>
-			<title code="0xb00e">ツインザム・登場テーマ</title>
-			<title code="0x801a">ツインザム・アイキャッチ</title>
-			<title code="0x804a">ツインザム・サブタイトル</title>
-			<title code="0x8041">ツインザム・エンディングＡ</title>
-			<title code="0x8042">ツインザム・エンディングＢ</title>
+			<title code="0xff04">Monoaural (［モノラル］)</title>
+			<title code="0xff05">Stereo (［ステレオ］)</title>
+			<title code="0x8020">Capcom Logo (CAPCOM ロゴ)</title>
+			<title code="0xb005">Prelude (序曲)</title>
+			<title code="0x8001">Fight! Kikaioh (闘え! キカイオー)</title>
+			<title code="0x8002">Player Select (プレイヤー・セレクト)</title>
+			<title code="0x8003">VS Screen (VS画面)</title>
+			<title code="0x8009">Town Area -Day- (Stage) (市街地－昼－(ステージ))</title>
+			<title code="0x800a">Town Area -Night- (Stage) (市街地－夜－(ステージ))</title>
+			<title code="0x800b">Harbor (Stage) (港(ステージ))</title>
+			<title code="0x800c">Military Base (Stage) (基地(ステージ))</title>
+			<title code="0x800d">Desert (Stage) (砂漠(ステージ))</title>
+			<title code="0x800e">Sunset (Stage) (夕日(ステージ))</title>
+			<title code="0x800f">Giant Glacier (Stage) (大氷河(ステージ))</title>
+			<title code="0x8010">Outer Space (Stage) (宇宙(ステージ))</title>
+			<title code="0x8011">Volcano (Stage) (火山(ステージ))</title>
+			<title code="0xb006">Raid (Scenario Demo) (襲撃(シナリオ・デモ))</title>
+			<title code="0xb007">Sorrow -Man- (Scenario Demo) (哀愁－男－(シナリオ・デモ))</title>
+			<title code="0xb008">Hurry! (Scenario Demo) (急げ!(シナリオ・デモ))</title>
+			<title code="0xb009">Conspiracy (Scenario Demo) (悪巧み(シナリオ・デモ))</title>
+			<title code="0xb00a">Ordinary (Scenario Demo) (日常(シナリオ・デモ))</title>
+			<title code="0xb00b">Sorrow -Woman- (Scenario Demo) (哀愁－女－(シナリオ・デモ))</title>
+			<title code="0xb00c">Vigor (Scenario Demo) (活気(シナリオ・デモ))</title>
+			<title code="0xb00d">Sortie (Scenario Demo) (出撃(シナリオ・デモ))</title>
+			<title code="0xb028">Calmness (Scenario Demo) (平穏(シナリオ・デモ))</title>
+			<title code="0xb029">Orders (Scenario Demo) (指令(シナリオ・デモ))</title>
+			<title code="0x801f">Visiting Gourai (Theme of Gourai) (轟雷登場(轟雷のテーマ))</title>
+			<title code="0x8021">Goldibus Transformation (ゴルディバス変身)</title>
+			<title code="0x8013">Last Match (Boss Stage) (最終勝負(ボスステージ))</title>
+			<title code="0x8012">Space in a Different Dimension (Stage) (異次元空間(ステージ))</title>
+			<title code="0x8004">Victory (勝利)</title>
+			<title code="0x8005">Here Comes a New Challenger (途中参加)</title>
+			<title code="0x8006">Ranking (ランキング)</title>
+			<title code="0x8007">Continue (コンティニュー)</title>
+			<title code="0x8008">Game Over (ゲームオーバー)</title>
+			<title code="0x8017">Kikaioh Eyecatch (キカイオー・アイキャッチ)</title>
+			<title code="0x801c">Kikaioh Subtitle (キカイオー・サブタイトル)</title>
+			<title code="0x8043">Kikaioh Ending A (キカイオー・エンディングA)</title>
+			<title code="0x8044">Kikaioh Ending B (キカイオー・エンディングB)</title>
+			<title code="0x8014">Dixen Eyecatch (ディクセン・アイキャッチ)</title>
+			<title code="0x8049">Dixen Subtitle (ディクセン・サブタイトル)</title>
+			<title code="0xb013">Dixen Ending A (ディクセン・エンディングA)</title>
+			<title code="0xb014">Dixen Ending B (ディクセン・エンディングB)</title>
+			<title code="0xb015">Dixen Ending C (ディクセン・エンディングC)</title>
+			<title code="0x8019">Rafaga Eyecatch (ラファーガ・アイキャッチ)</title>
+			<title code="0x804d">Rafaga Subtitle (ラファーガ・サブタイトル)</title>
+			<title code="0x8034">Rafaga Ending A (ラファーガ・エンディングA)</title>
+			<title code="0x8035">Rafaga Ending B (ラファーガ・エンディングB)</title>
+			<title code="0x8036">Rafaga Ending C (ラファーガ・エンディングC)</title>
+			<title code="0x8037">Rafaga Ending D (ラファーガ・エンディングD)</title>
+			<title code="0xb031">Bolon Scenario Demo (ボロン・シナリオデモ)</title>
+			<title code="0x801b">Bolon Eyecatch (ボロン・アイキャッチ)</title>
+			<title code="0x804b">Bolon Subtitle (ボロン・サブタイトル)</title>
+			<title code="0x8038">Bolon Ending A (ボロン・エンディングA)</title>
+			<title code="0x8039">Bolon Ending B (ボロン・エンディングB)</title>
+			<title code="0x803a">Bolon Ending C (ボロン・エンディングC)</title>
+			<title code="0xb00f">Pulsion Entrance Theme (パルシオン・登場テーマ)</title>
+			<title code="0x8015">Pulsion Eyecatch (パルシオン・アイキャッチ)</title>
+			<title code="0x8048">Pulsion Subtitle (パルシオン・サブタイトル)</title>
+			<title code="0xb022">Pulsion Ending A (パルシオン・エンディングA)</title>
+			<title code="0xb023">Pulsion Ending B (パルシオン・エンディングB)</title>
+			<title code="0x802d">Wise Duck Entrance Theme (ワイズダック・登場テーマ)</title>
+			<title code="0x8016">Wise Duck Eyecatch (ワイズダック・アイキャッチ)</title>
+			<title code="0x8047">Wise Duck Subtitle (ワイズダック・サブタイトル)</title>
+			<title code="0x8033">Wise Duck Ending (ワイズダック・エンディング)</title>
+			<title code="0xb000">Diana-17 Appearance Theme 1 (ディアナ・登場テーマ1)</title>
+			<title code="0xb001">Diana-17 Appearance Theme 2 (ディアナ・登場テーマ2)</title>
+			<title code="0x8018">Diana-17 Eyecatch (ディアナ・アイキャッチ)</title>
+			<title code="0x804c">Diana-17 Subtitle (ディアナ・サブタイトル)</title>
+			<title code="0x803b">Diana-17 Ending A (ディアナ・エンディングA)</title>
+			<title code="0x803d">Diana-17 Ending B (ディアナ・エンディングB)</title>
+			<title code="0x803e">Diana-17 Ending C (ディアナ・エンディングC)</title>
+			<title code="0xb00e">Twinzam Appearance Theme (ツインザム・登場テーマ)</title>
+			<title code="0x801a">Twinzam Eyecatch (ツインザム・アイキャッチ)</title>
+			<title code="0x804a">Twinzam Subtitle (ツインザム・サブタイトル)</title>
+			<title code="0x8041">Twinzam Ending A (ツインザム・エンディングA)</title>
+			<title code="0x8042">Twinzam Ending B (ツインザム・エンディングB)</title>
 			<title code="0x802e">Fight!?</title>
-			<title code="0xb012">闘え！キカイオー(Inst)</title>
+			<title code="0xb012">Fight! Kikaioh (Instrumental) (闘え! キカイオー(Inst))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[ZN2] Street Fighter EX 2 Plus (ストリートファイターEX2プラス) (Q-Sound)</name>
+		<name>[ZN2] Street Fighter EX2 Plus (ストリートファイターEX2プラス) (Q-Sound)</name>
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="sfex2p">
-			<rom type="code" offset="0x00000">extp-02</rom>
-			<rom type="code" offset="0x20000">extp-03</rom>
-			<rom type="pcm" offset="0x000000">x2p-01m</rom>
+			<rom type="code" offset="0x00000">x2p_02.2e</rom>
+			<rom type="code" offset="0x20000">x2p_03.3e</rom>
+			<rom type="pcm" offset="0x000000">x2p-01m.3a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x409">Q-Sound Logo</title>
-			<title code="0x434">Attract</title>
-			<title code="0x412">Select</title>
-			<title code="0x427">Flash Train</title>
-			<title code="0x425">Three Trees</title>
-			<title code="0x428">Fake World</title>
-			<title code="0x420">Pearl in the Sky</title>
-			<title code="0x421">White Field</title>
-			<title code="0x423">Lost Sea</title>
-			<title code="0x435">Phantom Bomb</title>
-			<title code="0x426">Crowded Town</title>
-			<title code="0x42d">Green Shower</title>
-			<title code="0x429">Crash Power Plant</title>
-			<title code="0x42f">Frozen Mist</title>
-			<title code="0x424">Mahatma Temple with Hymn</title>
-			<title code="0x430">Digital Ignition</title>
-			<title code="0x422">The Infinite Earth</title>
-			<title code="0x42e">Irene</title>
-			<title code="0x432">Before Moon</title>
-			<title code="0x42a">Amusementive Crime 2</title>
-			<title code="0x42c">Passage of Lotus</title>
-			<title code="0x42b">More Stronger</title>
-			<title code="0x431">The Battle of the Flame</title>
-			<title code="0x436">The Battle of the Flame 2</title>
-			<title code="0x417">Regenerate (Ending)</title>
-			<title code="0x415">Credits Roll</title>
-			<title code="0x433">Bonus Game</title>
-			<title code="0x410">Stage Clear</title>
-			<title code="0x416">Challenger</title>
-			<title code="0x413">Continue</title>
-			<title code="0x411">Game Over</title>
-			<title code="0x414">Street Fighter EX 2 (EX2 Opening -Unused-)</title>
-			<title code="0x408">Speaker check</title>
+			<title code="0x434">Attract [New Advertise (新規集客)]</title>
+			<title code="0x412">Select (セレクト)</title>
+			<title code="0x427">Flash Train [Train Stage (汽車ステージ)]</title>
+			<title code="0x425">Three Tree [Waterside Forest Stage (水辺の森ステージ)]</title>
+			<title code="0x428">Fake World [Museum Stage (博物館ステージ)]</title>
+			<title code="0x420">Pearl in The Sky [Kyoto Stage (京都ステージ)]</title>
+			<title code="0x421">White Field [Snow Mountain Stage (雪山ステージ)]</title>
+			<title code="0x423">Lost Sea [Pirate Ship Stage (海賊船ステージ)]</title>
+			<title code="0x435">Phantom Bomb [Airport Stage (飛行場ステージ)]</title>
+			<title code="0x426">Crowded Town [Hong Kong Stage (香港ステージ)]</title>
+			<title code="0x42d">Green Shower [Jungle Stage (ジャングルステージ)]</title>
+			<title code="0x429">Crash Power Plant [Power Plant (発電所)]</title>
+			<title code="0x42f">Frozen Mist [Refrigerator Stage (冷蔵庫ステージ)]</title>
+			<title code="0x424">Mahatma Temple with Hymn [Church Stage (教会ステージ)]</title>
+			<title code="0x430">Digital Ignition [Space Shuttle Stage (スペースシャトルステージ)]</title>
+			<title code="0x422">The Infinite Earth [Kono Ki Nanno Ki Stage (この木なんの木ステージ)]</title>
+			<title code="0x42e">Irene [Goddess of Freedom Stage (自由の女神ステージ)]</title>
+			<title code="0x432">Before Moon [Wilderness Stage (荒野ステージ)]</title>
+			<title code="0x42a">Amusementive Crime 2 [Park Stage (公園ステージ)]</title>
+			<title code="0x42c">Passage of Lotus [Statue of Buddha Stage (仏像ステージ)]</title>
+			<title code="0x42b">More Stronger [Garuda Stage (ガルダスステージ)]</title>
+			<title code="0x431">The Battle of The Flame [Vega Stage (ベガステージ)]</title>
+			<title code="0x436">The Battle of The Flame 2 [Vega Stage (ベガステージ)]</title>
+			<title code="0x417">Regenerate [Ending (エンディング)]</title>
+			<title code="0x415">Staff Roll (スタッフ・ロール)</title>
+			<title code="0x433">Bonus Stage (ボーナスステージ)</title>
+			<title code="0x410">Stage Clear [Victory (勝利)]</title>
+			<title code="0x416">Challenger [Intrusion (乱入)]</title>
+			<title code="0x413">Continue (コンティニュー)</title>
+			<title code="0x411">Game Over (ゲームオーバー)</title>
+			<title code="0x414">Street Fighter EX2 (EX2 Attract)</title>
+			<title code="0x408">Speaker Test (スピーカーテスト)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -7817,39 +5753,38 @@
 		<driver type="zn">capcom</driver>
 		<driveralias type="Arcade">Capcom</driveralias>
 		<romlist archive="strider2">
-			<rom type="code" offset="0x00000">hr2-02.bin</rom>
-			<rom type="pcm" offset="0x000000">hr2-01m.bin</rom>
-			<rom type="pcm" offset="0x200000">hr2-01m.bin</rom>
+			<rom type="code" offset="0x00000">hr2_02.2e</rom>
+			<rom type="pcm" offset="0x0200000">hr2-01m.3a</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x1d">Q-Sound Logo</title>
-			<title code="0x01">The theme</title>
-			<title code="0x03">Mission select</title>
-			<title code="0x04">The command</title>
-			<title code="0x05">Invade and attack the armed fortress 1</title>
-			<title code="0x0a">Invade and attack the armed fortress 2</title>
-			<title code="0x0f">Maddness lurking in the antre</title>
-			<title code="0x17">The poem at death</title>
-			<title code="0x07">Take out the terrorists who are occpupying the city</title>
-			<title code="0x0c">Scud</title>
-			<title code="0x11">In the air of Neo Hong Kong</title>
-			<title code="0x19">An obedient dog</title>
-			<title code="0x06">The arctic reserch facility</title>
-			<title code="0x0b">Ancient life arised</title>
-			<title code="0x1c">The reversed ambiance</title>
-			<title code="0x10">The fate of the compositive life</title>
-			<title code="0x18">The roundetable discussion</title>
-			<title code="0x08">Pursue the Flying Battleship Balrog 1</title>
-			<title code="0x0d">Pursue the Flying Battleship Balrog 2</title>
-			<title code="0x12">The duel on the escape ship</title>
-			<title code="0x1a">Nightmare</title>
-			<title code="0x09">The 3rd Moon</title>
-			<title code="0x13">Grand Master</title>
-			<title code="0x14">The divine musnud</title>
-			<title code="0x15">Mission accomplished</title>
-			<title code="0x1b">The end of destiny</title>
-			<title code="0x02">Footsteps</title>
-			<title code="0x16">The demise</title>
+			<title code="0x01">Theme (主題)</title>
+			<title code="0x03">Mission Select (任務選択)</title>
+			<title code="0x04">Mission (指令)</title>
+			<title code="0x05">Armed Fortress Invasion 1 [Stage] (武装城塞侵攻1)</title>
+			<title code="0x0a">Armed Fortress Invasion 2 [Stage] (武装城塞侵攻2)</title>
+			<title code="0x0f">Madness Lurking in the Underground Cavern [Boss] (地下道に潜む狂気)</title>
+			<title code="0x17">Dying Phrase [Event] (辞世の句)</title>
+			<title code="0x07">Destroy the Terrorists in the Occupied City [Stage] (都市占拠テロ殲滅)</title>
+			<title code="0x0c">Dash [Stage] (疾走)</title>
+			<title code="0x11">The Skies of Neo Hong Kong City [Boss] (新香港市上空)</title>
+			<title code="0x19">Pet Dog [Event] (飼い犬)</title>
+			<title code="0x06">South Pole Research Facility [Stage] (極点研究所)</title>
+			<title code="0x0b">The Resurrected Ancient Creature [Stage] (蘇りし古(いにしえ)の生命)</title>
+			<title code="0x1c">Rotating Room [Stage] (反転空間)</title>
+			<title code="0x10">The End of All Beings [Boss] (合体生命の末路)</title>
+			<title code="0x18">Round Table Conference [Event] (円卓会議)</title>
+			<title code="0x08">Pursuit of the Air Battleship 1 [Stage] (空中戦艦追撃1)</title>
+			<title code="0x0d">Pursuit of the Air Battleship 2 [Stage] (空中戦艦追撃2)</title>
+			<title code="0x12">Duel on Top of the Escape Ship [Boss] (脱出艇上の決闘)</title>
+			<title code="0x1a">Nightmare [Event] (悪夢)</title>
+			<title code="0x09">The Third Moon [Stage] (第三の月)</title>
+			<title code="0x13">Grand Master [Boss] (グランドマスター)</title>
+			<title code="0x14">Throne of the God [Boss] (神の玉座)</title>
+			<title code="0x15">Mission Clear (任務完了)</title>
+			<title code="0x1b">The Settlement of Destiny [Ending] (宿命の結末)</title>
+			<title code="0x02">Footprints [Ranking Display] (足跡)</title>
+			<title code="0x16">Death [Game Over] (終焉)</title>
 		</titlelist>
 	</game>
 </gamelist>

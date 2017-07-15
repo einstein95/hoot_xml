@@ -126,22 +126,22 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Šw‰€“sŽsZ</name>
+		<name>[X68000] Gakuen Toshi Z (Šw‰€“sŽsZ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="PC-8801">Striker</driveralias>
 		<options>
-			<option name="mfp"     value="1"/>
-			<option name="dmaint"  value="1"/>
+			<option name="mfp" value="1"/>
+			<option name="dmaint" value="1"/>
 		</options>
 		<romlist archive="gktz68snd">
 			<rom type="code" offset="0x000000">gktz68snd.bin</rom>
-			<rom type="x"    offset="0x010000">tenq.x</rom>
+			<rom type="x" offset="0x010000">tenq.x</rom>
 			<rom type="code" offset="0x01a000">tone.odq</rom>
 			<rom type="code" offset="0x020000">BGMSONGS.DAT</rom>
 			<rom type="code" offset="0x030000">adpcm.dat</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x02" max="0x0f" extcode="1">BGM %02x</range>
+			<range min="0x02" max="0x0f" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

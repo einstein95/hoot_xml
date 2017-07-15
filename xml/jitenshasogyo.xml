@@ -36,9 +36,9 @@
 <gamelist date="2005/09/25">
 	<!-- //自転車創業 -->
 	<game>
-		<name>[X68000] あの、素晴らしい　　をもう一度</name>
+		<name>[X68000] Ano, Subarashii o Mouichido (あの、素晴らしい をもう一度) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">自転車創業</driveralias>
+		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<romlist archive="anos68snd">
 			<rom type="code" offset="0x000000">anos68snd.bin</rom>
 			<rom type="code" offset="0x010000">FMSND.ZMD</rom>
@@ -58,32 +58,32 @@
 			<rom type="code" offset="0x02b000">TANSAKU.ZMD</rom>
 			<rom type="code" offset="0x02c000">YANE.ZMD</rom>
 			<rom type="code" offset="0x040000">ANOS.ZPD</rom>
-			<rom type="x"    offset="0x060000">zmusic.x</rom>
+			<rom type="x" offset="0x060000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ANOS_MT.ZMD : メインテーマ</title>
-			<title code="0x02">CRYSTAL.ZMD : 水晶</title>
-			<title code="0x03">GIMON.ZMD   : 疑問</title>
-			<title code="0x04">KOYA.ZMD    : 荒野を歩く</title>
-			<title code="0x05">MIREIYU.ZMD : ミレイユのテーマ</title>
-			<title code="0x06">RIBI.ZMD    : 堕天使殺し</title>
-			<title code="0x07">RI_HI.ZMD   : リト悲</title>
-			<title code="0x08">RI_KI.ZMD   : リト喜</title>
-			<title code="0x09">RI_KIAI.ZMD : リト喜哀</title>
-			<title code="0x0a">RI_MA.ZMD   : リトのテーマ(間抜け)</title>
-			<title code="0x0b">RYUKETU.ZMD : 流血の直前</title>
-			<title code="0x0c">SEKAI.ZMD   : 世界の知識</title>
-			<title code="0x0d">SHOCK.ZMD   : ショッキング</title>
-			<title code="0x0e">TANSAKU.ZMD : 探索中</title>
-			<title code="0x0f">YANE.ZMD    : 屋根の下のささやかな夜</title>
+			<title code="0x01">メインテーマ</title>
+			<title code="0x02">水晶</title>
+			<title code="0x03">疑問</title>
+			<title code="0x04">荒野を歩く</title>
+			<title code="0x05">ミレイユのテーマ</title>
+			<title code="0x06">堕天使殺し</title>
+			<title code="0x07">リト悲</title>
+			<title code="0x08">リト喜</title>
+			<title code="0x09">リト喜哀</title>
+			<title code="0x0a">リトのテーマ(間抜け)</title>
+			<title code="0x0b">流血の直前</title>
+			<title code="0x0c">世界の知識</title>
+			<title code="0x0d">ショッキング</title>
+			<title code="0x0e">探索中</title>
+			<title code="0x0f">屋根の下のささやかな夜</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 空の浮動産</name>
+		<name>[X68000] Sora no Fudousan (空の浮動産) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">自転車創業</driveralias>
+		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<options>
-			<option name="pcm8"    value="0x01"/>
+			<option name="pcm8" value="0x01"/>
 		</options>
 		<romlist archive="anos268snd">
 			<rom type="code" offset="0x000000">anos2mus.r</rom>
@@ -106,7 +106,7 @@
 			<rom type="code" offset="0x050000">16battl3.zmd</rom>
 			<rom type="code" offset="0x054000">17ed.zmd</rom>
 			<rom type="code" offset="0x060000">sora.zpd</rom>
-			<rom type="x"    offset="0x080000">zmusic.x</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">停止</title>
@@ -130,9 +130,9 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] こねかけのうどんぶつける祭りがノルウェーの北の村の漁村で</name>
+		<name>[X68000] Konekake no Udon Butsukeru Matsuri ga Noruwee no Kita no Mura no Gyoson de (こねかけのうどんぶつける祭りがノルウェーの北の村の漁村で) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">自転車創業</driveralias>
+		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<romlist archive="anos368snd">
 			<rom type="code" offset="0x000000">anos368snd.bin</rom>
 			<rom type="code" offset="0x010000">00LCsnd.ZMD</rom>
@@ -146,17 +146,17 @@
 			<rom type="code" offset="0x028000">17offwhi.ZMD</rom>
 			<rom type="code" offset="0x030000">LC.ZPD</rom>
 			<rom type="code" offset="0x047000">orange.ZPD</rom>
-			<rom type="x"    offset="0x060000">zmusic.x</rom>
+			<rom type="x" offset="0x060000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">02WHITEOUT.ZMD : whiteout</title>
-			<title code="0x02">03anti.ZMD     : アンチエイリアス</title>
-			<title code="0x03">04UDON.ZMD     : U/D/O/N</title>
-			<title code="0x04">05rgb.ZMD      : RGB</title>
-			<title code="0x05">06cmyk.ZMD     : CMYK</title>
-			<title code="0x06">07color.ZMD    : colours</title>
-			<title code="0x07">08O_G.ZMD      : orange to green</title>
-			<title code="0x08">17offwhi.ZMD   : offwhite</title>
+			<title code="0x01">whiteout</title>
+			<title code="0x02">アンチエイリアス</title>
+			<title code="0x03">U/D/O/N</title>
+			<title code="0x04">RGB</title>
+			<title code="0x05">CMYK</title>
+			<title code="0x06">colours</title>
+			<title code="0x07">orange to green</title>
+			<title code="0x08">offwhite</title>
 		</titlelist>
 	</game>
 </gamelist>

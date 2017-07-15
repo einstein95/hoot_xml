@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //ASCII -->
 	<game>
-		<name>[PC-8801] Bokosuka Wars (YM2203)</name>
+		<name>[PC-8801] Bokosuka Wars (ボコスカウォーズ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">ASCII</driveralias>
 		<options>
@@ -79,17 +79,8 @@
 			<rom type="code" offset="0xa100">PROG1</rom>
 			<rom type="code" offset="0xf000">VOICE</rom>
 			<rom type="code" offset="0xf800">MUSIC</rom>
-			<rom type="bgm" offset="0x00">DUMMY</rom>
-			<rom type="bgm" offset="0x01">DUMMY</rom>
-			<rom type="bgm" offset="0x02">DUMMY</rom>
-			<rom type="bgm" offset="0x03">DUMMY</rom>
-			<rom type="bgm" offset="0x04">DUMMY</rom>
-			<rom type="bgm" offset="0x05">DUMMY</rom>
-			<rom type="bgm" offset="0x06">DUMMY</rom>
-			<rom type="bgm" offset="0x07">DUMMY</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Stop the Music</title>
 			<title code="0x01">Normal Time (通常時)</title>
 			<title code="0x02">Invincible (無敵)</title>
 			<title code="0x03">Using an Oxygen Tank (酸素ボンベ使用中)</title>
@@ -107,19 +98,11 @@
 			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="castleex">
-			<rom type="code" offset="0x0000">PATCH2</rom>
+			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x1000">PROG2</rom>
 			<rom type="code" offset="0xa100">PROG1</rom>
 			<rom type="code" offset="0xf000">VOICE</rom>
 			<rom type="code" offset="0xf800">MUSIC</rom>
-			<rom type="bgm" offset="0x00">DUMMY</rom>
-			<rom type="bgm" offset="0x01">DUMMY</rom>
-			<rom type="bgm" offset="0x02">DUMMY</rom>
-			<rom type="bgm" offset="0x03">DUMMY</rom>
-			<rom type="bgm" offset="0x04">DUMMY</rom>
-			<rom type="bgm" offset="0x05">DUMMY</rom>
-			<rom type="bgm" offset="0x06">DUMMY</rom>
-			<rom type="bgm" offset="0x07">DUMMY</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00">Stop the Music</title>

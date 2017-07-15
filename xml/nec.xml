@@ -64,7 +64,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PC-8801FH Demonstration</name>
+		<name>[PC-8801] PC-8801FH Demonstration (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<romlist archive="88fhdemo">
@@ -73,13 +73,13 @@
 			<rom type="code" offset="0xc000">MUSIC</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">花のワルツ    / Peter Ilyich Tchaikovsky</title>
+			<title code="0x01">Waltz of the Flowers (花のワルツ)    / Peter Ilyich Tchaikovsky</title>
 			<title code="0x00">Like A Virgin / Madonna</title>
 			<title code="0x02">Firecracker   / Yellow Magic Orchestra</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PC-8801MA2 店頭用デモンストレーションディスク</name>
+		<name>[PC-8801] PC-8801MA2 Shop Demonstration Disk (PC-8801MA2 店頭用デモンストレーションディスク) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -98,7 +98,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] CDたから箱(OPNA)</name>
+		<name>[PC-8801] CD Takara Hako (CDたから箱) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -113,12 +113,12 @@
 			<rom type="bgm" offset="0x01">MENU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">タイトル</title>
-			<title code="0x01">メニュー</title>
+			<title code="0x00">Title (タイトル)</title>
+			<title code="0x01">Menu (メニュー)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] CDたから箱(OPN)</name>
+		<name>[PC-8801] CD Takara Hako (CDたから箱) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -134,12 +134,12 @@
 			<rom type="bgm" offset="0x01">MENU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">タイトル</title>
-			<title code="0x01">メニュー</title>
+			<title code="0x00">Title (タイトル)</title>
+			<title code="0x01">Menu (メニュー)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] PC-88VA Demostration</name>
+		<name>[PC-88VA] PC-88VA Demonstration (YM2203)</name>
 		<driver type="opn">pc88vados</driver>
 		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="demo_va">
@@ -153,10 +153,10 @@
 			<title code="0x02">BGM #02</title>
 			<title code="0x03">BGM #03</title>
 			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-		<!--	<title code="0x06">05と同一</title> -->
-			<title code="0x07">BGM #07</title>
-		<!--	<title code="0x08">07と同一</title> -->
+			<title code="0x05">Eine kleine Nachtmusik</title>
+		<!--	<title code="0x06">Eine kleine Nachtmusik</title> -->
+			<title code="0x07">Ride of the Valkyries</title>
+		<!--	<title code="0x08">Ride of the Valkyries</title> -->
 		</titlelist>
 	</game>
 	<game>

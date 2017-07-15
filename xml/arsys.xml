@@ -42,15 +42,15 @@
 		<options>
 			<option name="mdata_addr" value="0xf200"/>
 			<option name="mdata_size" value="0x0e00"/>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="wibarm">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x7400">PROG</rom>
-			<rom type="bgm"  offset="0x00">MUS00</rom>
-			<rom type="bgm"  offset="0x01">MUS01</rom>
-			<rom type="bgm"  offset="0x02">MUS02</rom>
-			<rom type="bgm"  offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x00000001">Base (基地)</title>
@@ -66,11 +66,11 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
 			<option name="mdata_size" value="0x2100"/>
 			<option name="mfile_size" value="0x2100"/>
-			<option name="use_rtc"    value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="reviver">
 			<rom type="code" offset="0x0000">PROG</rom>
@@ -239,9 +239,9 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
-			<option name="use_rtc"    value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="starcruiser88">
 			<rom type="code" offset="0x0000">DRIVER</rom>
@@ -364,9 +364,9 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
-			<option name="use_rtc"    value="0x01"/>
+			<option name="use_rtc" value="0x01"/>
 		</options>
 		<romlist archive="starcruiser88">
 			<rom type="code" offset="0x0000">DRIVER</rom>
@@ -516,78 +516,6 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Prince of Persia (プリンスオブペルシャ) (YM2203)</name>
-		<driver type="opn">pc98</driver>
-		<driveralias type="PC-9801">Arsys Software</driveralias>
-		<options>
-			<option name="bootcs" value="0x0060"/>
-			<option name="bootip" value="0x0000"/>
-			<option name="funcvect" value="0x7f"/>
-			<option name="dataaddr" value="0x20000"/>
-			<option name="filesize" value="0x4000"/>
-			<option name="datamax" value="0x1b"/>
-		</options>
-		<romlist archive="persia98">
-			<rom type="code" offset="0x00600">persia98.bin</rom>
-			<rom type="code" offset="0x10000">MUSIC.SYS</rom>
-			<rom type="bgm" offset="0x01">MUSIC1.MUS</rom>
-			<rom type="bgm" offset="0x02">MUSIC2.MUS</rom>
-			<rom type="bgm" offset="0x03">MUSIC3.MUS</rom>
-			<rom type="bgm" offset="0x04">MUSIC4.MUS</rom>
-			<rom type="bgm" offset="0x05">FIGHT.MUS</rom>
-			<rom type="bgm" offset="0x06">FIGHTF.MUS</rom>
-			<rom type="bgm" offset="0x07">FIGHTS.MUS</rom>
-			<rom type="bgm" offset="0x08">FIGHTK.MUS</rom>
-			<rom type="bgm" offset="0x09">VICT1.MUS</rom>
-			<rom type="bgm" offset="0x0a">APPEAR.MUS</rom>
-			<rom type="bgm" offset="0x0b">APPEAR2.MUS</rom>
-			<rom type="bgm" offset="0x0c">PICKUP.MUS</rom>
-			<rom type="bgm" offset="0x0d">POWUP.MUS</rom>
-			<rom type="bgm" offset="0x0e">KUSURI.MUS</rom>
-			<rom type="bgm" offset="0x0f">CLEAR.MUS</rom>
-			<rom type="bgm" offset="0x10">EXIT.MUS</rom>
-			<rom type="bgm" offset="0x11">DEAD.MUS</rom>
-			<rom type="bgm" offset="0x12">DEAD2.MUS</rom>
-			<rom type="bgm" offset="0x13">OPEN.MUS</rom>
-			<rom type="bgm" offset="0x14">ROOM1.MUS</rom>
-			<rom type="bgm" offset="0x15">ROOM2.MUS</rom>
-			<rom type="bgm" offset="0x16">END1.MUS</rom>
-			<rom type="bgm" offset="0x17">END2.MUS</rom>
-			<rom type="bgm" offset="0x18">END3.MUS</rom>
-			<rom type="bgm" offset="0x19">TIMEOUT.MUS</rom>
-			<rom type="bgm" offset="0x1a">MENU.MUS</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Stop the Music</title>
-			<title code="0x01">MUSIC1.MUS</title>
-			<title code="0x02">MUSIC2.MUS</title>
-			<title code="0x03">MUSIC3.MUS</title>
-			<title code="0x04">MUSIC4.MUS</title>
-			<title code="0x05">FIGHT.MUS</title>
-			<title code="0x06">FIGHTF.MUS</title>
-			<title code="0x07">FIGHTS.MUS</title>
-			<title code="0x08">FIGHTK.MUS</title>
-			<title code="0x09">VICT1.MUS</title>
-			<title code="0x0a">APPEAR.MUS</title>
-			<title code="0x0b">APPEAR2.MUS</title>
-			<title code="0x0c">PICKUP.MUS</title>
-			<title code="0x0d">POWUP.MUS</title>
-			<title code="0x0e">KUSURI.MUS</title>
-			<title code="0x0f">CLEAR.MUS</title>
-			<title code="0x10">EXIT.MUS</title>
-			<title code="0x11">DEAD.MUS</title>
-			<title code="0x12">DEAD2.MUS</title>
-			<title code="0x13">OPEN.MUS</title>
-			<title code="0x14">ROOM1.MUS</title>
-			<title code="0x15">ROOM2.MUS</title>
-			<title code="0x16">END1.MUS</title>
-			<title code="0x17">END2.MUS</title>
-			<title code="0x18">END3.MUS</title>
-			<title code="0x19">TIMEOUT.MUS</title>
-			<title code="0x1a">MENU.MUS</title>
-		</titlelist>
-	</game>
-	<game>
 		<name>[PC-9801] Spindizzy II (スピンディジーII) (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
@@ -707,7 +635,7 @@
 			<option name="dataaddr" value="0x1be00"/>
 			<option name="filesize" value="0x2000"/>
 			<option name="clockmul" value="8"/>
-			<option name="datamax"  value="0x1f"/>
+			<option name="datamax" value="0x1f"/>
 		</options>
 		<romlist archive="sc_98">
 			<rom type="code" offset="0x00600">PROG</rom>
@@ -1213,7 +1141,7 @@
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
 		</options>
 		<romlist archive="x1rv">
@@ -1272,7 +1200,7 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 			<option name="mdata_addr" value="0xd300"/>
 		</options>
 		<romlist archive="x1rv">
@@ -1329,7 +1257,7 @@
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
 		</options>
 		<romlist archive="x1sc">
@@ -1453,7 +1381,7 @@
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0xf000"/>
+			<option name="init_pc" value="0xf000"/>
 			<option name="mdata_addr" value="0x5000"/>
 		</options>
 		<romlist archive="x1sc">
@@ -1829,38 +1757,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Tenka Toitsu (天下統一) (YM2151+MSM6258)</name>
-		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">Arsys Software</driveralias>
-		<romlist archive="ttsnd">
-			<rom type="code">tt.bin</rom>
-		</romlist>
-		<titlelist>
-			<title code="0x00">Stop the Music</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0A">BGM #10</title>
-			<title code="0x0B">BGM #11</title>
-			<title code="0x0C">BGM #12</title>
-			<title code="0x0D">BGM #13</title>
-		</titlelist>
-	</game>
-	<game>
-		<name>[MSX] Reviver</name>
+		<name>[MSX2] Reviver (リバイバー) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Arsys Software</driveralias>
+		<driveralias type="MSX2">Arsys Software</driveralias>
 		<options>
 			<option name="mdata_addr" value="0x8900"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="reviver_msx">
 		<rom type="code" offset="0x0400">patch</rom>
@@ -1912,11 +1816,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Reviver (OPN)</name>
+		<name>[FM-7] Reviver (YM2203)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xCE00"/>
 			<option name="mfile_size" value="0x2000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -1924,31 +1828,31 @@
 		<romlist archive="reviver_fm7">
 			<rom type="code" offset="0x4000">PATCH.BIN</rom>
 			<rom type="code" offset="0x0000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">FM00.BIN</rom>
-			<rom type="bgm"  offset="0x01">FM01.BIN</rom>
-			<rom type="bgm"  offset="0x02">FM02.BIN</rom>
-			<rom type="bgm"  offset="0x03">FM03.BIN</rom>
-			<rom type="bgm"  offset="0x04">FM04.BIN</rom>
-			<rom type="bgm"  offset="0x05">FM05.BIN</rom>
-			<rom type="bgm"  offset="0x06">FM06.BIN</rom>
-			<rom type="bgm"  offset="0x07">FM07.BIN</rom>
-			<rom type="bgm"  offset="0x08">FM08.BIN</rom>
-			<rom type="bgm"  offset="0x09">FM09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">FM10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">FM11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">FM12.BIN</rom>
-			<rom type="bgm"  offset="0x0d">FM13.BIN</rom>
-			<rom type="bgm"  offset="0x0e">FM14.BIN</rom>
-			<rom type="bgm"  offset="0x0f">FM15.BIN</rom>
-			<rom type="bgm"  offset="0x10">FM16.BIN</rom>
-			<rom type="bgm"  offset="0x11">FM17.BIN</rom>
-			<rom type="bgm"  offset="0x12">FM18.BIN</rom>
-			<rom type="bgm"  offset="0x13">FM19.BIN</rom>
-			<rom type="bgm"  offset="0x14">FM20.BIN</rom>
-			<rom type="bgm"  offset="0x15">FM21.BIN</rom>
-			<rom type="bgm"  offset="0x16">FM22.BIN</rom>
-			<rom type="bgm"  offset="0x17">FM23.BIN</rom>
-			<rom type="bgm"  offset="0x18">FM24.BIN</rom>
+			<rom type="bgm" offset="0x00">FM00.BIN</rom>
+			<rom type="bgm" offset="0x01">FM01.BIN</rom>
+			<rom type="bgm" offset="0x02">FM02.BIN</rom>
+			<rom type="bgm" offset="0x03">FM03.BIN</rom>
+			<rom type="bgm" offset="0x04">FM04.BIN</rom>
+			<rom type="bgm" offset="0x05">FM05.BIN</rom>
+			<rom type="bgm" offset="0x06">FM06.BIN</rom>
+			<rom type="bgm" offset="0x07">FM07.BIN</rom>
+			<rom type="bgm" offset="0x08">FM08.BIN</rom>
+			<rom type="bgm" offset="0x09">FM09.BIN</rom>
+			<rom type="bgm" offset="0x0a">FM10.BIN</rom>
+			<rom type="bgm" offset="0x0b">FM11.BIN</rom>
+			<rom type="bgm" offset="0x0c">FM12.BIN</rom>
+			<rom type="bgm" offset="0x0d">FM13.BIN</rom>
+			<rom type="bgm" offset="0x0e">FM14.BIN</rom>
+			<rom type="bgm" offset="0x0f">FM15.BIN</rom>
+			<rom type="bgm" offset="0x10">FM16.BIN</rom>
+			<rom type="bgm" offset="0x11">FM17.BIN</rom>
+			<rom type="bgm" offset="0x12">FM18.BIN</rom>
+			<rom type="bgm" offset="0x13">FM19.BIN</rom>
+			<rom type="bgm" offset="0x14">FM20.BIN</rom>
+			<rom type="bgm" offset="0x15">FM21.BIN</rom>
+			<rom type="bgm" offset="0x16">FM22.BIN</rom>
+			<rom type="bgm" offset="0x17">FM23.BIN</rom>
+			<rom type="bgm" offset="0x18">FM24.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0a">ARSYS LOGO</title>
@@ -1976,11 +1880,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] Reviver (PSG)</name>
+		<name>[FM-7] Reviver (AY-3-8910)</name>
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xCE00"/>
 			<option name="mfile_size" value="0x2000"/>
 			<option name="mdata_size" value="0x2000"/>
@@ -1988,27 +1892,27 @@
 		<romlist archive="reviver_fm7">
 			<rom type="code" offset="0x4000">PATCH.BIN</rom>
 			<rom type="code" offset="0x0000">DRIVER.BIN</rom>
-			<rom type="bgm"  offset="0x00">PSG00.BIN</rom>
-			<rom type="bgm"  offset="0x01">PSG01.BIN</rom>
-			<rom type="bgm"  offset="0x02">PSG02.BIN</rom>
-			<rom type="bgm"  offset="0x03">PSG03.BIN</rom>
-			<rom type="bgm"  offset="0x04">PSG04.BIN</rom>
-			<rom type="bgm"  offset="0x05">PSG05.BIN</rom>
-			<rom type="bgm"  offset="0x06">PSG06.BIN</rom>
-			<rom type="bgm"  offset="0x07">PSG07.BIN</rom>
-			<rom type="bgm"  offset="0x08">PSG08.BIN</rom>
-			<rom type="bgm"  offset="0x09">PSG09.BIN</rom>
-			<rom type="bgm"  offset="0x0a">PSG10.BIN</rom>
-			<rom type="bgm"  offset="0x0b">PSG11.BIN</rom>
-			<rom type="bgm"  offset="0x0c">PSG12.BIN</rom>
-			<rom type="bgm"  offset="0x0d">PSG13.BIN</rom>
-			<rom type="bgm"  offset="0x0e">PSG14.BIN</rom>
-			<rom type="bgm"  offset="0x0f">PSG15.BIN</rom>
-			<rom type="bgm"  offset="0x10">PSG16.BIN</rom>
-			<rom type="bgm"  offset="0x11">PSG17.BIN</rom>
-			<rom type="bgm"  offset="0x12">PSG18.BIN</rom>
-			<rom type="bgm"  offset="0x13">PSG19.BIN</rom>
-			<rom type="bgm"  offset="0x14">PSG20.BIN</rom>
+			<rom type="bgm" offset="0x00">PSG00.BIN</rom>
+			<rom type="bgm" offset="0x01">PSG01.BIN</rom>
+			<rom type="bgm" offset="0x02">PSG02.BIN</rom>
+			<rom type="bgm" offset="0x03">PSG03.BIN</rom>
+			<rom type="bgm" offset="0x04">PSG04.BIN</rom>
+			<rom type="bgm" offset="0x05">PSG05.BIN</rom>
+			<rom type="bgm" offset="0x06">PSG06.BIN</rom>
+			<rom type="bgm" offset="0x07">PSG07.BIN</rom>
+			<rom type="bgm" offset="0x08">PSG08.BIN</rom>
+			<rom type="bgm" offset="0x09">PSG09.BIN</rom>
+			<rom type="bgm" offset="0x0a">PSG10.BIN</rom>
+			<rom type="bgm" offset="0x0b">PSG11.BIN</rom>
+			<rom type="bgm" offset="0x0c">PSG12.BIN</rom>
+			<rom type="bgm" offset="0x0d">PSG13.BIN</rom>
+			<rom type="bgm" offset="0x0e">PSG14.BIN</rom>
+			<rom type="bgm" offset="0x0f">PSG15.BIN</rom>
+			<rom type="bgm" offset="0x10">PSG16.BIN</rom>
+			<rom type="bgm" offset="0x11">PSG17.BIN</rom>
+			<rom type="bgm" offset="0x12">PSG18.BIN</rom>
+			<rom type="bgm" offset="0x13">PSG19.BIN</rom>
+			<rom type="bgm" offset="0x14">PSG20.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0a">酒場1</title>
@@ -2035,11 +1939,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] WiBARM (OPN)</name>
+		<name>[FM-7] WiBARM (YM2203)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xed00"/>
 			<option name="mfile_size" value="0x0800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2047,10 +1951,10 @@
 		<romlist archive="wibarm_fm7">
 			<rom type="code" offset="0x0000">DRIVER.BIN</rom>
 			<rom type="code" offset="0x4000">PATCH.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0001">基地</title>
@@ -2062,11 +1966,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM-7] WiBARM (PSG)</name>
+		<name>[FM-7] WiBARM (AY-3-8910)</name>
 		<driver type="generic">fm7</driver>
 		<driveralias type="FM-7">Arsys Software</driveralias>
 		<options>
-			<option name="init_pc"    value="0x4000"/>
+			<option name="init_pc" value="0x4000"/>
 			<option name="mdata_addr" value="0xed00"/>
 			<option name="mfile_size" value="0x0800"/>
 			<option name="mdata_size" value="0x0800"/>
@@ -2074,10 +1978,10 @@
 		<romlist archive="wibarm_fm7">
 			<rom type="code" offset="0x0000">DRIVER.BIN</rom>
 			<rom type="code" offset="0x4000">PATCH.BIN</rom>
-			<rom type="bgm"  offset="0x00">MUS00.BIN</rom>
-			<rom type="bgm"  offset="0x01">MUS01.BIN</rom>
-			<rom type="bgm"  offset="0x02">MUS02.BIN</rom>
-			<rom type="bgm"  offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0001">基地</title>

@@ -118,8 +118,8 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Data West</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="4thunit3_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -142,8 +142,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Data West</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x00"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="4thunit3_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -166,8 +165,8 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Data West</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="4thunit4_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -175,14 +174,9 @@
 			<rom type="code" offset="0xC700">MUSIC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0000">BGM #00</title>
-			<title code="0x0001">BGM #01</title>
-			<title code="0x0002">BGM #02</title>
-			<title code="0x0003">BGM #03</title>
+			<range min="0x00" max="0x03" extcode="1">BGM #%02X</range>
 			<title code="0x0104">BGM #04</title>
-			<title code="0x0005">BGM #05</title>
-			<title code="0x0006">BGM #06</title>
-			<title code="0x0007">BGM #07</title>
+			<range min="0x05" max="0x07" extcode="1">BGM #%02X</range>
 			<title code="0x0108">BGM #08</title>
 		</titlelist>
 	</game>
@@ -191,8 +185,7 @@
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Data West</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x00"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="4thunit4_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -200,14 +193,9 @@
 			<rom type="code" offset="0xC700">MUSIC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0009">BGM #09</title>
-			<title code="0x000a">BGM #0a</title>
-			<title code="0x000b">BGM #0b</title>
-			<title code="0x000c">BGM #0c</title>
-			<title code="0x010d">BGM #0d</title>
-			<title code="0x000e">BGM #0e</title>
-			<title code="0x000f">BGM #0f</title>
-			<title code="0x0010">BGM #10</title>
+			<range min="0x09" max="0x0c" extcode="1">BGM #%02X</range>
+			<title code="0x010d">BGM #0D</title>
+			<range min="0x0e" max="0x10" extcode="1">BGM #%02X</range>
 			<title code="0x0111">BGM #11</title>
 		</titlelist>
 	</game>

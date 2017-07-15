@@ -2786,6 +2786,7 @@
 		<options>
 			<option name="clockmul" value="16"/>
 			<option name="rhy_mix" value="-10"/>
+			<option name="ssg_mix" value="-22"/>
 		</options>
 		<romlist archive="yuno_98">
 			<rom type="file" offset="-1">PLAY6.COM</rom>
@@ -3129,7 +3130,7 @@
 			<rom type="file" offset="0x78">YUNO175.M26</rom>
 			<rom type="file" offset="0x79">YUNO177.M26</rom>
 			<rom type="file" offset="0x7A">YUNO178.M26</rom>
-			<rom type="shell" offset="0">PLAY6 S /#32</rom>
+			<rom type="shell" offset="0">PLAY6 S -#20</rom>
 			<rom type="shell" offset="0">PLAY6_98</rom>
 		</romlist>
 		<titlelist>
@@ -3647,9 +3648,9 @@
 			<title code="0x1E">YOUNGB</title>
 			<title code="0x1F">ZONE</title>
 			<title code="0x20">GAGAGAN</title>
-			<title code="0x21">$00</title>
-			<title code="0x22">$01</title>
-			<title code="0x23">$02</title>
+			<title code="0x21">BGM #21</title>
+			<title code="0x22">BGM #22</title>
+			<title code="0x23">BGM #23</title>
 		</titlelist>
 	</game>
 	<game>

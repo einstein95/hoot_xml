@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //遊・演・体 -->
 	<game>
-		<name>[PC-9801] ELVES</name>
+		<name>[PC-9801] Elves (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<!-- 制作:日本ソフテック -->
@@ -65,6 +65,7 @@
 			<rom type="shell" offset="0">elves</rom>
 		</romlist>
 		<titlelist>
+			<title code="0xfe000000">Fade Out</title>
 		<!--	<title code="0x000001f8">OP.EXE    : (無音)</title> -->
 			<title code="0x0000020a">OP.EXE</title>
 			<title code="0x01010001">E.EXE</title>
@@ -85,7 +86,6 @@
 			<title code="0x01020015">MMLDAT.05</title>
 			<title code="0x01020016">MMLDAT.06</title>
 			<title code="0x01020017">MMLDAT.07</title>
-			<title code="0xfe000000">FADE OUT</title>
 		</titlelist>
 	</game>
 	<game>
@@ -126,13 +126,13 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] METAL FORCE(SPB)</name>
+		<name>[PC-9801] Metal Force (メタルフォース) (YM2608: SpeakBoard)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="fm_mix"   value="0"/>
-			<option name="ssg_mix"  value="-13"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-13"/>
 		</options>
 		<romlist archive="mforce98">
 			<rom type="file" offset="-1">MDZS.COM</rom>
@@ -167,64 +167,64 @@
 			<rom type="shell" offset="0">mdzsplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000014">[SPB] CHIME THEME</title>
-			<title code="0x000016">[SPB] OPENING</title>
-			<title code="0x000020">[SPB] TAKE OFF</title>
-			<title code="0x000010">[SPB] STAGE 1</title>
-			<title code="0x000013">[SPB] STAGE 2</title>
-			<title code="0x00001b">[SPB] STAGE 3</title>
-			<title code="0x000021">[SPB] STAGE 4</title>
-			<title code="0x00001d">[SPB] STAGE 5</title>
-			<title code="0x00001e">[SPB] STAGE 6</title>
-			<title code="0x00001c">[SPB] STAGE 7</title>
-			<title code="0x000023">[SPB] STAGE 8</title>
-			<title code="0x000024">[SPB] SCORE ATTACK</title>
-			<title code="0x00001f">[SPB] STAGE CLEAR</title>
-			<title code="0x000019">[SPB] CONTINUE</title>
-			<title code="0x000018">[SPB] GAME OVER</title>
-			<title code="0x00001a">[SPB] NAME ENTRY 1</title>
-			<title code="0x000017">[SPB] NAME ENTRY 2</title>
-			<title code="0x000011">[SPB] NORMAL BOSS</title>
-			<title code="0x000022">[SPB] LAST BOSS</title>
-			<title code="0x000012">[SPB] NORMAL BOSS(2)</title>
-			<title code="0x000026">[SPB] STAFF ROLL</title>
-			<title code="0x000025">[SPB] ENDING</title>
-			<title code="0x000015">[SPB] NOT USE</title>
-			<title code="0x010000">SSG効果音 #00</title>
-			<title code="0x010001">SSG効果音 #01</title>
-			<title code="0x010002">SSG効果音 #02</title>
-			<title code="0x010003">SSG効果音 #03</title>
-			<title code="0x010004">SSG効果音 #04</title>
-			<title code="0x010005">SSG効果音 #05</title>
-			<title code="0x010006">SSG効果音 #06</title>
-			<title code="0x010007">SSG効果音 #07</title>
-			<title code="0x010008">SSG効果音 #08</title>
-			<title code="0x010009">SSG効果音 #09</title>
-			<title code="0x01000a">SSG効果音 #0a</title>
-			<title code="0x01000b">SSG効果音 #0b</title>
-			<title code="0x01000c">SSG効果音 #0c</title>
-			<title code="0x01000d">SSG効果音 #0d</title>
-			<title code="0x01000e">SSG効果音 #0e</title>
-			<title code="0x01000f">SSG効果音 #0f</title>
-			<title code="0x010010">SSG効果音 #10</title>
-			<title code="0x010011">SSG効果音 #11</title>
-			<title code="0x010012">SSG効果音 #12</title>
-			<title code="0x010013">SSG効果音 #13</title>
-			<title code="0x010014">SSG効果音 #14</title>
-			<title code="0x010015">SSG効果音 #15</title>
-			<title code="0x010016">SSG効果音 #16</title>
-			<title code="0x010017">SSG効果音 #17</title>
-			<title code="0x010018">SSG効果音 #18</title>
-			<title code="0x010019">SSG効果音 #19</title>
-			<title code="0x01001a">SSG効果音 #1a</title>
-			<title code="0x01001b">SSG効果音 #1b</title>
-			<title code="0x01001c">SSG効果音 #1c</title>
-			<title code="0x01001d">SSG効果音 #1d</title>
-			<title code="0x010029">SSG効果音 #29</title>
-			<title code="0x01002a">SSG効果音 #2a</title>
-			<title code="0x01002b">SSG効果音 #2b</title>
-			<title code="0x01002c">SSG効果音 #2c</title>
-			<title code="0x01002d">SSG効果音 #2d</title>
+			<title code="0x000014">Chime Theme</title>
+			<title code="0x000016">Opening</title>
+			<title code="0x000020">Take Off</title>
+			<title code="0x000010">Stage 1</title>
+			<title code="0x000013">Stage 2</title>
+			<title code="0x00001b">Stage 3</title>
+			<title code="0x000021">Stage 4</title>
+			<title code="0x00001d">Stage 5</title>
+			<title code="0x00001e">Stage 6</title>
+			<title code="0x00001c">Stage 7</title>
+			<title code="0x000023">Stage 8</title>
+			<title code="0x000024">Score Attack</title>
+			<title code="0x00001f">Stage Clear</title>
+			<title code="0x000019">Continue</title>
+			<title code="0x000018">Game Over</title>
+			<title code="0x00001a">Name Entry 1</title>
+			<title code="0x000017">Name Entry 2</title>
+			<title code="0x000011">Normal Boss 1</title>
+			<title code="0x000022">Last Boss</title>
+			<title code="0x000012">Normal Boss 2</title>
+			<title code="0x000026">Staff Roll</title>
+			<title code="0x000025">Ending</title>
+			<title code="0x000015">Unused</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSG効果音 #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSG効果音 #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSG効果音 #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSG効果音 #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSG効果音 #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSG効果音 #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSG効果音 #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSG効果音 #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSG効果音 #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSG効果音 #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSG効果音 #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSG効果音 #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSG効果音 #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSG効果音 #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSG効果音 #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSG効果音 #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSG効果音 #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSG効果音 #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSG効果音 #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSG効果音 #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSG効果音 #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSG効果音 #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSG効果音 #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSG効果音 #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSG効果音 #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSG効果音 #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSG効果音 #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSG効果音 #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSG効果音 #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSG効果音 #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSG効果音 #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSG効果音 #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSG効果音 #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSG効果音 #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSG効果音 #2d)</title>
 			<title code="0x020000">ADPCM #00 (Kick)</title>
 			<title code="0x020001">ADPCM #01 (Snare 1)</title>
 			<title code="0x020002">ADPCM #02 (Tom)</title>
@@ -237,12 +237,12 @@
 			<title code="0x020009">ADPCM #09 (Clap)</title>
 			<title code="0x02000a">ADPCM #0a (Orchestra Hit)</title>
 			<title code="0x02000b">ADPCM #0b (Guitar)</title>
-			<title code="0x02000c">ADPCM #0c (hey)</title>
-			<title code="0x02000d">ADPCM #0d (爆発音#1)</title>
-			<title code="0x02000e">ADPCM #0e (爆発音#2)</title>
-			<title code="0x02000f">ADPCM #0f (爆発音#3)</title>
-			<title code="0x020010">ADPCM #10 (爆発音#4)</title>
-			<title code="0x020013">ADPCM #13 (風切音)</title>
+			<title code="0x02000c">ADPCM #0c (Hey)</title>
+			<title code="0x02000d">ADPCM #0d Explosion #1 (爆発音#1)</title>
+			<title code="0x02000e">ADPCM #0e Explosion #2 (爆発音#2)</title>
+			<title code="0x02000f">ADPCM #0f Explosion #3 (爆発音#3)</title>
+			<title code="0x020010">ADPCM #10 Explosion #4 (爆発音#4)</title>
+			<title code="0x020013">ADPCM #13 Wind (風切音)</title>
 			<title code="0x020014">ADPCM #14 (Vulcan)</title>
 			<title code="0x020015">ADPCM #15 (Laser)</title>
 			<title code="0x020016">ADPCM #16 (Homing)</title>
@@ -257,12 +257,12 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] METAL FORCE(86)</name>
+		<name>[PC-9801] Metal Force (メタルフォース) (YM2608: PC-9801-86)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
-			<option name="pcm_mix"  value="0xa0"/>
+			<option name="pcm_mix" value="0xa0"/>
 		</options>
 		<romlist archive="mforce98">
 			<rom type="file" offset="-1">MDZS.COM</rom>
@@ -297,68 +297,68 @@
 			<rom type="shell" offset="0">mdzsplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000014">CHIME THEME</title>
-			<title code="0x000016">OPENING</title>
-			<title code="0x000020">TAKE OFF</title>
-			<title code="0x000010">STAGE 1</title>
-			<title code="0x000013">STAGE 2</title>
-			<title code="0x00001b">STAGE 3</title>
-			<title code="0x000021">STAGE 4</title>
-			<title code="0x00001d">STAGE 5</title>
-			<title code="0x00001e">STAGE 6</title>
-			<title code="0x00001c">STAGE 7</title>
-			<title code="0x000023">STAGE 8</title>
-			<title code="0x000024">SCORE ATTACK</title>
-			<title code="0x00001f">STAGE CLEAR</title>
-			<title code="0x000019">CONTINUE</title>
-			<title code="0x000018">GAME OVER</title>
-			<title code="0x00001a">NAME ENTRY 1</title>
-			<title code="0x000017">NAME ENTRY 2</title>
-			<title code="0x000011">NORMAL BOSS</title>
-			<title code="0x000022">LAST BOSS</title>
-			<title code="0x000012">NORMAL BOSS(2)</title>
-			<title code="0x000026">STAFF ROLL</title>
-			<title code="0x000025">ENDING</title>
-			<title code="0x000015">NOT USE</title>
-			<title code="0x010000">SSG効果音 #00</title>
-			<title code="0x010001">SSG効果音 #01</title>
-			<title code="0x010002">SSG効果音 #02</title>
-			<title code="0x010003">SSG効果音 #03</title>
-			<title code="0x010004">SSG効果音 #04</title>
-			<title code="0x010005">SSG効果音 #05</title>
-			<title code="0x010006">SSG効果音 #06</title>
-			<title code="0x010007">SSG効果音 #07</title>
-			<title code="0x010008">SSG効果音 #08</title>
-			<title code="0x010009">SSG効果音 #09</title>
-			<title code="0x01000a">SSG効果音 #0a</title>
-			<title code="0x01000b">SSG効果音 #0b</title>
-			<title code="0x01000c">SSG効果音 #0c</title>
-			<title code="0x01000d">SSG効果音 #0d</title>
-			<title code="0x01000e">SSG効果音 #0e</title>
-			<title code="0x01000f">SSG効果音 #0f</title>
-			<title code="0x010010">SSG効果音 #10</title>
-			<title code="0x010011">SSG効果音 #11</title>
-			<title code="0x010012">SSG効果音 #12</title>
-			<title code="0x010013">SSG効果音 #13</title>
-			<title code="0x010014">SSG効果音 #14</title>
-			<title code="0x010015">SSG効果音 #15</title>
-			<title code="0x010016">SSG効果音 #16</title>
-			<title code="0x010017">SSG効果音 #17</title>
-			<title code="0x010018">SSG効果音 #18</title>
-			<title code="0x010019">SSG効果音 #19</title>
-			<title code="0x01001a">SSG効果音 #1a</title>
-			<title code="0x01001b">SSG効果音 #1b</title>
-			<title code="0x01001c">SSG効果音 #1c</title>
-			<title code="0x01001d">SSG効果音 #1d</title>
-			<title code="0x010029">SSG効果音 #29</title>
-			<title code="0x01002a">SSG効果音 #2a</title>
-			<title code="0x01002b">SSG効果音 #2b</title>
-			<title code="0x01002c">SSG効果音 #2c</title>
-			<title code="0x01002d">SSG効果音 #2d</title>
+			<title code="0x000014">Chime Theme</title>
+			<title code="0x000016">Opening</title>
+			<title code="0x000020">Take Off</title>
+			<title code="0x000010">Stage 1</title>
+			<title code="0x000013">Stage 2</title>
+			<title code="0x00001b">Stage 3</title>
+			<title code="0x000021">Stage 4</title>
+			<title code="0x00001d">Stage 5</title>
+			<title code="0x00001e">Stage 6</title>
+			<title code="0x00001c">Stage 7</title>
+			<title code="0x000023">Stage 8</title>
+			<title code="0x000024">Score Attack</title>
+			<title code="0x00001f">Stage Clear</title>
+			<title code="0x000019">Continue</title>
+			<title code="0x000018">Game Over</title>
+			<title code="0x00001a">Name Entry 1</title>
+			<title code="0x000017">Name Entry 2</title>
+			<title code="0x000011">Normal Boss 1</title>
+			<title code="0x000022">Last Boss</title>
+			<title code="0x000012">Normal Boss 2</title>
+			<title code="0x000026">Staff Roll</title>
+			<title code="0x000025">Ending</title>
+			<title code="0x000015">Unused</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSG効果音 #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSG効果音 #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSG効果音 #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSG効果音 #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSG効果音 #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSG効果音 #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSG効果音 #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSG効果音 #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSG効果音 #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSG効果音 #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSG効果音 #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSG効果音 #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSG効果音 #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSG効果音 #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSG効果音 #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSG効果音 #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSG効果音 #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSG効果音 #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSG効果音 #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSG効果音 #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSG効果音 #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSG効果音 #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSG効果音 #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSG効果音 #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSG効果音 #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSG効果音 #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSG効果音 #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSG効果音 #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSG効果音 #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSG効果音 #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSG効果音 #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSG効果音 #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSG効果音 #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSG効果音 #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSG効果音 #2d)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] METAL FORCE(OPN)</name>
+		<name>[PC-9801] Metal Force (メタルフォース) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -394,62 +394,62 @@
 			<rom type="shell" offset="0">mdzsplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000013">[NORMAL] CHIME THEME</title>
-			<title code="0x000014">[NORMAL] OPENING</title>
-			<title code="0x00001e">[NORMAL] TAKE OFF</title>
-			<title code="0x000010">[NORMAL] STAGE 1</title>
-			<title code="0x000012">[NORMAL] STAGE 2</title>
-			<title code="0x000019">[NORMAL] STAGE 3</title>
-			<title code="0x00001f">[NORMAL] STAGE 4</title>
-			<title code="0x00001b">[NORMAL] STAGE 5</title>
-			<title code="0x00001c">[NORMAL] STAGE 6</title>
-			<title code="0x00001a">[NORMAL] STAGE 7</title>
-			<title code="0x000021">[NORMAL] STAGE 8</title>
-			<title code="0x000022">[NORMAL] SCORE ATTACK</title>
-			<title code="0x00001d">[NORMAL] STAGE CLEAR</title>
-			<title code="0x000017">[NORMAL] CONTINUE</title>
-			<title code="0x000016">[NORMAL] GAME OVER</title>
-			<title code="0x000018">[NORMAL] NAME ENTRY 1</title>
-			<title code="0x000015">[NORMAL] NAME ENTRY 2</title>
-			<title code="0x000011">[NORMAL] NORMAL BOSS</title>
-			<title code="0x000020">[NORMAL] LAST BOSS</title>
-			<title code="0x000024">[NORMAL] STAFF ROLL</title>
-			<title code="0x000023">[NORMAL] ENDING</title>
-			<title code="0x010000">SSG効果音 #00</title>
-			<title code="0x010001">SSG効果音 #01</title>
-			<title code="0x010002">SSG効果音 #02</title>
-			<title code="0x010003">SSG効果音 #03</title>
-			<title code="0x010004">SSG効果音 #04</title>
-			<title code="0x010005">SSG効果音 #05</title>
-			<title code="0x010006">SSG効果音 #06</title>
-			<title code="0x010007">SSG効果音 #07</title>
-			<title code="0x010008">SSG効果音 #08</title>
-			<title code="0x010009">SSG効果音 #09</title>
-			<title code="0x01000a">SSG効果音 #0a</title>
-			<title code="0x01000b">SSG効果音 #0b</title>
-			<title code="0x01000c">SSG効果音 #0c</title>
-			<title code="0x01000d">SSG効果音 #0d</title>
-			<title code="0x01000e">SSG効果音 #0e</title>
-			<title code="0x01000f">SSG効果音 #0f</title>
-			<title code="0x010010">SSG効果音 #10</title>
-			<title code="0x010011">SSG効果音 #11</title>
-			<title code="0x010012">SSG効果音 #12</title>
-			<title code="0x010013">SSG効果音 #13</title>
-			<title code="0x010014">SSG効果音 #14</title>
-			<title code="0x010015">SSG効果音 #15</title>
-			<title code="0x010016">SSG効果音 #16</title>
-			<title code="0x010017">SSG効果音 #17</title>
-			<title code="0x010018">SSG効果音 #18</title>
-			<title code="0x010019">SSG効果音 #19</title>
-			<title code="0x01001a">SSG効果音 #1a</title>
-			<title code="0x01001b">SSG効果音 #1b</title>
-			<title code="0x01001c">SSG効果音 #1c</title>
-			<title code="0x01001d">SSG効果音 #1d</title>
-			<title code="0x010029">SSG効果音 #29</title>
-			<title code="0x01002a">SSG効果音 #2a</title>
-			<title code="0x01002b">SSG効果音 #2b</title>
-			<title code="0x01002c">SSG効果音 #2c</title>
-			<title code="0x01002d">SSG効果音 #2d</title>
+			<title code="0x000013">Chime Theme</title>
+			<title code="0x000014">Opening</title>
+			<title code="0x00001e">Take Off</title>
+			<title code="0x000010">Stage 1</title>
+			<title code="0x000012">Stage 2</title>
+			<title code="0x000019">Stage 3</title>
+			<title code="0x00001f">Stage 4</title>
+			<title code="0x00001b">Stage 5</title>
+			<title code="0x00001c">Stage 6</title>
+			<title code="0x00001a">Stage 7</title>
+			<title code="0x000021">Stage 8</title>
+			<title code="0x000022">Score Attack</title>
+			<title code="0x00001d">Stage Clear</title>
+			<title code="0x000017">Continue</title>
+			<title code="0x000016">Game Over</title>
+			<title code="0x000018">Name Entry 1</title>
+			<title code="0x000015">Name Entry 2</title>
+			<title code="0x000011">Normal Boss</title>
+			<title code="0x000020">Last Boss</title>
+			<title code="0x000024">Staff Roll</title>
+			<title code="0x000023">Ending</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSG効果音 #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSG効果音 #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSG効果音 #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSG効果音 #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSG効果音 #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSG効果音 #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSG効果音 #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSG効果音 #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSG効果音 #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSG効果音 #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSG効果音 #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSG効果音 #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSG効果音 #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSG効果音 #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSG効果音 #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSG効果音 #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSG効果音 #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSG効果音 #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSG効果音 #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSG効果音 #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSG効果音 #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSG効果音 #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSG効果音 #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSG効果音 #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSG効果音 #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSG効果音 #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSG効果音 #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSG効果音 #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSG効果音 #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSG効果音 #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSG効果音 #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSG効果音 #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSG効果音 #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSG効果音 #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSG効果音 #2d)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -699,8 +699,8 @@
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
-			<option name="fm_mix"	 value="0"/>
-			<option name="ssg_mix"	value="-18"/>
+			<option name="fm_mix" value="0"/>
+			<option name="ssg_mix" value="-18"/>
 		</options>
 		<romlist archive="yozakura_98">
 			<rom type="file" offset="-1">FMPP.COM</rom>

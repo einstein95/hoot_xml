@@ -202,22 +202,7 @@
 			<rom type="code" offset="0x8200">OPLBGM.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<range min="0x00" max="0x0f" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -233,22 +218,7 @@
 			<rom type="code" offset="0x9000">PSGBGM.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">BGM #00</title>
-			<title code="0x01">BGM #01</title>
-			<title code="0x02">BGM #02</title>
-			<title code="0x03">BGM #03</title>
-			<title code="0x04">BGM #04</title>
-			<title code="0x05">BGM #05</title>
-			<title code="0x06">BGM #06</title>
-			<title code="0x07">BGM #07</title>
-			<title code="0x08">BGM #08</title>
-			<title code="0x09">BGM #09</title>
-			<title code="0x0a">BGM #0a</title>
-			<title code="0x0b">BGM #0b</title>
-			<title code="0x0c">BGM #0c</title>
-			<title code="0x0d">BGM #0d</title>
-			<title code="0x0e">BGM #0e</title>
-			<title code="0x0f">BGM #0f</title>
+			<range min="0x00" max="0x0f" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
@@ -292,15 +262,7 @@
 			<title code="0x02">Clear (クリア)</title>
 			<title code="0x04">Game Over (ゲームオーバー)</title>
 			<title code="0x05">BGM #05</title>
-			<title code="0x100">SFX #01</title>
-			<title code="0x101">SFX #02</title>
-			<title code="0x102">SFX #03</title>
-			<title code="0x103">SFX #04</title>
-			<title code="0x104">SFX #05</title>
-			<title code="0x105">SFX #06</title>
-			<title code="0x106">SFX #07</title>
-			<title code="0x107">SFX #08</title>
-			<title code="0x108">SFX #09</title>
+			<range min="0x100" max="0x108" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>

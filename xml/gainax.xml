@@ -736,7 +736,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] The Secret of the Blue Water: Fushigi no Umi no Nadia (ふしぎの海のナディア -The Secret of the Blue Water-) (YM2203)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: The Secret of Blue Water (ふしぎの海のナディア -The Secret of the Blue Water-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -799,7 +799,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] The Secret of the Blue Water: Fushigi no Umi no Nadia (ふしぎの海のナディア -The Secret of the Blue Water-) (MT-32)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: The Secret of Blue Water (ふしぎの海のナディア -The Secret of the Blue Water-) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -861,7 +861,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] The Secret of the Blue Water: Fushigi no Umi no Nadia (ふしぎの海のナディア -The Secret of the Blue Water-) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: The Secret of Blue Water (ふしぎの海のナディア -The Secret of the Blue Water-) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -923,7 +923,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fushigi no Umi no Nadia Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (YM2203)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -984,7 +984,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fushigi no Umi no Nadia Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (MT-32)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (MT-32)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -1046,7 +1046,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fushigi no Umi no Nadia Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Fushigi no Umi no Nadia: Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (Munt, MT-32 simulation)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Gainax</driveralias>
 		<options>
@@ -2011,15 +2011,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] The Secret of the Blue Water: Fushigi no Umi no Nadia (ふしぎの海のナディア -The Secret of the Blue Water-)</name>
+		<name>[X68000] The Secret of the Blue Water: Fushigi no Umi no Nadia (ふしぎの海のナディア -The Secret of the Blue Water-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Gainax</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="nadia68snd">
 			<rom type="code" offset="0x00000">nadia68snd.bin</rom>
-			<rom type="x"    offset="0x10000">AUTOEXEC.X</rom>
+			<rom type="x" offset="0x10000">AUTOEXEC.X</rom>
 			<rom type="code" offset="0x20000">NADFM.EFC</rom>
 			<rom type="code" offset="0x30000">NDPCM1.LBP</rom>
 			<rom type="code" offset="0x40000">NDPCM2.LBP</rom>
@@ -2073,11 +2073,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Fushigi no Umi no Nadia Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK)</name>
+		<name>[X68000] Fushigi no Umi no Nadia Music Floppy Disk (ふしぎの海のナディア MUSIC FLOPPY DISK) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Gainax</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="nadiam68snd">
 			<rom type="code" offset="0x00000">ndmd68snd.bin</rom>
@@ -2132,11 +2132,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Silent Mobius (サイレントメビウス)</name>
+		<name>[X68000] Silent Mobius (サイレントメビウス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Gainax</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="sm68snd">
 			<rom type="code" offset="0x00000">sm68snd.bin</rom>
@@ -2208,15 +2208,15 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Mighty Battle Skin Panic (マイティバトルスキンパニック) (OPLL)</name>
+		<name>[MSX2] Mighty Battle Skin Panic (マイティバトルスキンパニック) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xC200"/>
 			<option name="mdata_size" value="0x0A00"/>
 			<option name="mfile_size" value="0x0A00"/>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="mbsp_msx,fmpac_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2284,14 +2284,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Mighty Battle Skin Panic (マイティバトルスキンパニック) (PSG)</name>
+		<name>[MSX2] Mighty Battle Skin Panic (マイティバトルスキンパニック) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xC200"/>
 			<option name="mdata_size" value="0x0A00"/>
 			<option name="mfile_size" value="0x0A00"/>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="mbsp_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -2358,11 +2358,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dennou Gakuen: Cybernetic Hi-School (電脳学園 CYBERNETIC Hi-SCHOOL)</name>
+		<name>[MSX2] Dennou Gakuen: Cybernetic Hi-School (電脳学園 CYBERNETIC Hi-SCHOOL) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 			<option name="mdata_addr" value="0xc400"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
@@ -2389,11 +2389,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dennou Gakuen: Cybernetic Hi-School Part 2: Highway Buster (電脳学園 CYBERNETIC Hi-SCHOOL Part2 HIGHWAY BUSTER)</name>
+		<name>[MSX2] Dennou Gakuen: Cybernetic Hi-School Part 2: Highway Buster (電脳学園 CYBERNETIC Hi-SCHOOL Part2 HIGHWAY BUSTER) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 			<option name="mdata_addr" value="0xc400"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
@@ -2424,11 +2424,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dennou Gakuen III: Gunbuster (電脳学園III GUNBUSTER)</name>
+		<name>[MSX2] Dennou Gakuen III: Gunbuster (電脳学園III GUNBUSTER) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>
@@ -2455,11 +2455,11 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dennou Gakuen III: Gunbuster Demo (Peach UP8) (電脳学園III GUNBUSTER DEMO(PEACH UP8))</name>
+		<name>[MSX2] Dennou Gakuen III: Gunbuster Demo (Peach UP8) (電脳学園III GUNBUSTER DEMO(PEACH UP8)) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Gainax</driveralias>
 		<options>
-			<option name="init_pc"    value="0x400"/>
+			<option name="init_pc" value="0x400"/>
 			<option name="mdata_addr" value="0xd000"/>
 			<option name="mdata_size" value="0x1000"/>
 			<option name="mfile_size" value="0x1000"/>

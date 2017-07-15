@@ -36,12 +36,12 @@
 <gamelist date="2005/09/25">
 	<!-- //COMPAC -->
 	<game>
-		<name>[X68000] The COCKPIT</name>
+		<name>[X68000] The Cockpit (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">COMPAC</driveralias>
+		<driveralias type="X68000">Compac</driveralias>
 		<options>
 			<option name="opm_mix" value="0x100"/>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="cockpit68snd">
 			<rom type="code" offset="0x00000">cockpit68snd.bin</rom>
@@ -49,14 +49,14 @@
 			<rom type="code" offset="0x55ac2">STDMUSIC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x02" max="0x03" extcode="1">BGM 0x%02x</range>
-			<range min="0x11" max="0x17" extcode="1">BGM 0x%02x</range>
+			<range min="0x02" max="0x03" extcode="1">BGM #%02X</range>
+			<range min="0x11" max="0x17" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] FRUITS FIELD</name>
+		<name>[X68000] Fruits Field (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">COMPAC</driveralias>
+		<driveralias type="X68000">Compac</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
@@ -78,51 +78,51 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Grandi Florum -Mischief of Iveris-</name>
+		<name>[X68000] Grandi Florum: Mischief of Iveris (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">COMPAC</driveralias>
+		<driveralias type="X68000">Compac</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="grandif68snd">
 			<rom type="code">gf68snd.bin</rom>
-			<rom type="x"    offset="0x010000">GFGMP.X</rom>
+			<rom type="x" offset="0x010000">GFGMP.X</rom>
 			<rom type="code" offset="0x030000">GFMUSPAC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x15" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x15" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Production Manager</name>
+		<name>[X68000] Production Manager (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">COMPAC</driveralias>
+		<driveralias type="X68000">Compac</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="pmngr68snd">
 			<rom type="code">pmngr68snd.bin</rom>
-			<rom type="x"    offset="0x010000">GSP.X</rom>
+			<rom type="x" offset="0x010000">GSP.X</rom>
 			<rom type="code" offset="0x010bfa">PM_MUSIC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x18" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x18" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] GROUP X(OPM)</name>
+		<name>[X68000] Group X (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">COMPAC</driveralias>
+		<driveralias type="X68000">Compac</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="groupx68snd">
 			<rom type="code">gx68snd.bin</rom>
-			<rom type="x"    offset="0x010000">GMP2RS.X</rom>
+			<rom type="x" offset="0x010000">GMP2RS.X</rom>
 			<rom type="code" offset="0x010e10">OPM_MUS.DAT</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x09" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x09" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

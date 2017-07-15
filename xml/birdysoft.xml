@@ -40,7 +40,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="hchaser">
@@ -124,8 +124,8 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
-			<option name="use_vrtc"  value="0x01"/>
+			<option name="init_pc" value="0x1000"/>
+			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="hchaser">
 			<rom type="code" offset="0x1000">PATCH</rom>
@@ -176,7 +176,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="rouge88">
@@ -289,7 +289,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="rouge88">
@@ -349,7 +349,7 @@
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="pias88">
@@ -404,7 +404,7 @@
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Birdy Soft</driveralias>
 		<options>
-			<option name="init_pc"   value="0x1000"/>
+			<option name="init_pc" value="0x1000"/>
 			<option name="use_vrtc" value="0x01"/>
 		</options>
 		<romlist archive="pias88">
@@ -2397,14 +2397,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Birdy World (バーディーワールド)</name>
+		<name>[MSX2] Birdy World (バーディーワールド) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="birdyw_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2437,18 +2437,18 @@
 			<title code="0x0a">BW12</title>
 			<title code="0x0b">BW13</title>
 			<title code="0x0c">BW14</title>
-			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Cal (キャル)</name>
+		<name>[MSX2] Cal (キャル) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="cal_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2477,18 +2477,18 @@
 			<title code="0x07">人魚姫</title>
 			<title code="0x00">アリス</title>
 			<title code="0x0a">エンディング</title>
-			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Cal II (キャルII)</name>
+		<name>[MSX2] Cal II (キャルII) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="cal2_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2531,18 +2531,18 @@
 			<title code="0x0f">マップ</title>
 			<title code="0x10">アイオーン1</title>
 			<title code="0x11">アイオーン2</title>
-			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Joker (ジョーカー)</name>
+		<name>[MSX2] Joker (ジョーカー) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="joker_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2582,14 +2582,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Joker II (ジョーカーII)</name>
+		<name>[MSX2] Joker II (ジョーカーII) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="joker2_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2634,18 +2634,18 @@
 			<title code="0x10">Suspicious Solo</title>
 			<title code="0x12">Joker</title>
 			<title code="0x11">Whistle With Wind</title>
-			<range min="0x0100" max="0x010c" extcode="0">SFX #%02x</range>
+			<range min="0x0100" max="0x010c" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Thanatos (サナトス)</name>
+		<name>[MSX2] Thanatos (サナトス) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="thanatos_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2681,14 +2681,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Pias (ピアス)</name>
+		<name>[MSX2] Pias (ピアス) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="pias_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2712,7 +2712,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Beast Revival (ビースト リバイバル)</name>
+		<name>[PC-9801] Beast Revival (ビースト リバイバル) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Birdy Soft</driveralias>
 		<options>
@@ -2769,14 +2769,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Beast: Injuu no Yakata (ビースト ～淫獣の館～)</name>
+		<name>[MSX2] Beast: Injuu no Yakata (ビースト ～淫獣の館～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">Birdy Soft</driveralias>
+		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="beast_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2806,14 +2806,14 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Beast 2: Incubuster (ビースト2 ～インキュバスター～)</name>
+		<name>[MSX2] Beast 2: Incubuster (ビースト2 ～インキュバスター～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Birdy Soft</driveralias>
 		<options>
 			<option name="mdata_addr" value="0xa400"/>
 			<option name="mdata_size" value="0x800"/>
 			<option name="mfile_size" value="0x800"/>
-			<option name="init_pc"    value="0x8000"/>
+			<option name="init_pc" value="0x8000"/>
 		</options>
 		<romlist archive="beast2_msx">
 			<rom type="code" offset="0xAC00">TSTIM</rom>
@@ -2845,7 +2845,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Beast: Injuu no Yakata (ビースト ～淫獣の館～)</name>
+		<name>[X68000] Beast: Injuu no Yakata (ビースト ～淫獣の館～) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -2871,11 +2871,11 @@
 			<rom type="code" offset="0x0c8f90">BEAST_B3D</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0a" extcode="1">BGM %d</range>
+			<range min="0x01" max="0x0a" extcode="1">BGM %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Cal (キャル)</name>
+		<name>[X68000] Cal (キャル) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -2922,11 +2922,11 @@
 			<title code="0x08">人魚姫</title>
 			<title code="0x01">アリス</title>
 			<title code="0x0b">エンディング</title>
-			<range min="0x0c" max="0x15" extcode="0">BEAST BGM #%d</range>
+			<range min="0x0c" max="0x15" extcode="0">Beast BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Cal II (キャルII)</name>
+		<name>[X68000] Cal II (キャルII) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -2983,7 +2983,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Pias (ピアス)</name>
+		<name>[X68000] Pias (ピアス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -3002,11 +3002,11 @@
 			<rom type="code" offset="0x0a0000">PIAS_A05</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x07" extcode="1">BGM #%d</range>
+			<range min="0x01" max="0x07" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Thanatos (サナトス)</name>
+		<name>[X68000] Thanatos (サナトス) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -3035,11 +3035,11 @@
 			<rom type="code" offset="0x09e0c0">THANATOS_A07</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0d" extcode="1">BGM #%02d</range>
+			<range min="0x01" max="0x0d" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～)</name>
+		<name>[X68000] Rouge: Manatsu no Kuchibeni (ルージュ ～真夏の口紅～) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Birdy Soft</driveralias>
 		<options>
@@ -3066,7 +3066,7 @@
 			<rom type="code" offset="0x0a0000">ROUGE_A05</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x01" max="0x0f" extcode="1">BGM #%d</range>
+			<range min="0x01" max="0x0f" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
 </gamelist>

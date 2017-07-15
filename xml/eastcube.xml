@@ -36,12 +36,12 @@
 <gamelist date="2005/09/25">
 	<!-- //EAST CUBE -->
 	<game>
-		<name>[MSX] 白夜物語 -ウインチェスター家の末裔-(OPLL)</name>
+		<name>[MSX2] Byakuya Monogatari: Winchester-ke no Matsuei (白夜物語 -ウインチェスター家の末裔-) (YM2413)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">EAST CUBE</driveralias>
+		<driveralias type="MSX2">East Cube</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
-			<option name="use_opll"   value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
 		</options>
 		<romlist archive="byakuya_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -49,27 +49,27 @@
 			<rom type="code" offset="0x8000">MAIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x100">MUSIC : 00</title>
-			<title code="0x001">MUSIC : 01</title>
-			<title code="0x102">MUSIC : 02</title>
-			<title code="0x103">MUSIC : 03</title>
-			<title code="0x004">MUSIC : 04</title>
-			<title code="0x005">MUSIC : 05</title>
-			<title code="0x106">MUSIC : 06</title>
-			<title code="0x107">MUSIC : 07</title>
-			<title code="0x108">MUSIC : 08</title>
-			<title code="0x109">MUSIC : 09</title>
-			<title code="0x10a">MUSIC : 0A</title>
-			<title code="0x10b">MUSIC : 0B</title>
-			<title code="0x10c">MUSIC : 0C</title>
+			<title code="0x100">BGM #00</title>
+			<title code="0x001">BGM #01</title>
+			<title code="0x102">BGM #02</title>
+			<title code="0x103">BGM #03</title>
+			<title code="0x004">BGM #04</title>
+			<title code="0x005">BGM #05</title>
+			<title code="0x106">BGM #06</title>
+			<title code="0x107">BGM #07</title>
+			<title code="0x108">BGM #08</title>
+			<title code="0x109">BGM #09</title>
+			<title code="0x10a">BGM #0A</title>
+			<title code="0x10b">BGM #0B</title>
+			<title code="0x10c">BGM #0C</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] 白夜物語 -ウインチェスター家の末裔-(PSG)</name>
+		<name>[MSX2] Byakuya Monogatari: Winchester-ke no Matsuei (白夜物語 -ウインチェスター家の末裔-) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
-		<driveralias type="MSX">EAST CUBE</driveralias>
+		<driveralias type="MSX2">East Cube</driveralias>
 		<options>
-			<option name="init_pc"    value="0x0400"/>
+			<option name="init_pc" value="0x0400"/>
 		</options>
 		<romlist archive="byakuya_msx">
 			<rom type="code" offset="0x0400">patch</rom>
@@ -77,32 +77,32 @@
 			<rom type="code" offset="0x8000">MAIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x100">MUSIC : 00</title>
-			<title code="0x001">MUSIC : 01</title>
-			<title code="0x102">MUSIC : 02</title>
-			<title code="0x103">MUSIC : 03</title>
-			<title code="0x004">MUSIC : 04</title>
-			<title code="0x005">MUSIC : 05</title>
-			<title code="0x107">MUSIC : 07</title>
-			<title code="0x108">MUSIC : 08</title>
-			<title code="0x109">MUSIC : 09</title>
-			<title code="0x10a">MUSIC : 0A</title>
-			<title code="0x10b">MUSIC : 0B</title>
-			<title code="0x10c">MUSIC : 0C</title>
+			<title code="0x100">BGM #00</title>
+			<title code="0x001">BGM #01</title>
+			<title code="0x102">BGM #02</title>
+			<title code="0x103">BGM #03</title>
+			<title code="0x004">BGM #04</title>
+			<title code="0x005">BGM #05</title>
+			<title code="0x107">BGM #07</title>
+			<title code="0x108">BGM #08</title>
+			<title code="0x109">BGM #09</title>
+			<title code="0x10a">BGM #0A</title>
+			<title code="0x10b">BGM #0B</title>
+			<title code="0x10c">BGM #0C</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] 白夜物語 -ウインチェスター家の末裔-</name>
+		<name>[X68000] Byakuya Monogatari: Winchester-ke no Matsuei (白夜物語 -ウインチェスター家の末裔-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
-		<driveralias type="X68000">EAST CUBE</driveralias>
+		<driveralias type="X68000">East Cube</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="byakuya68snd">
 			<rom type="code">byaku68snd.bin</rom>
-			<rom type="x"    offset="0x010000">MAIN.X</rom>
+			<rom type="x" offset="0x010000">MAIN.X</rom>
 			<rom type="code" offset="0x076e18">FM.DAT</rom>
-			<rom type="x"    offset="0x0a0000">FLOAT2.X</rom>
+			<rom type="x" offset="0x0a0000">FLOAT2.X</rom>
 			<rom type="code" offset="0x0b0000">KYOKU00.DAT</rom>
 			<rom type="code" offset="0x0b1000">KYOKU01.DAT</rom>
 			<rom type="code" offset="0x0b2000">KYOKU02.DAT</rom>

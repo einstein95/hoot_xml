@@ -128,7 +128,7 @@
 		<driveralias type="X68000">Epic/Sony</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
-			<option name="dmaint"  value="1"/>
+			<option name="dmaint" value="1"/>
 		</options>
 		<romlist archive="xenon68snd">
 			<rom type="code" offset="0x00000">xenon68snd.bin</rom>
@@ -166,7 +166,7 @@
 		<driveralias type="X68000">Epic/Sony</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
-			<option name="dmaint"  value="1"/>
+			<option name="dmaint" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="2"/>
 		</options>
@@ -203,7 +203,7 @@
 		<driveralias type="X68000">Epic/Sony</driveralias>
 		<options>
 			<option name="mfp" value="0x01"/>
-			<option name="dmaint"  value="1"/>
+			<option name="dmaint" value="1"/>
 			<option name="midiout" value="1"/>
 			<option name="midiout_type" value="1"/>
 		</options>
@@ -235,41 +235,41 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] DRAKKHEN</name>
+		<name>[X68000] Drakkhen (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Epic/Sony</driveralias>
 		<options>
-			<option name="mfp"     value="0x01"/>
+			<option name="mfp" value="0x01"/>
 		</options>
 		<romlist archive="drk68snd">
 			<rom type="code" offset="0x00000">drkn68snd.bin</rom>
-			<rom type="x"    offset="0x10000">GAME.X</rom>
+			<rom type="x" offset="0x10000">GAME.X</rom>
 			<rom type="code" offset="0x41000">DRK_M.MGD</rom>
 			<rom type="code" offset="0x47000">DRK_E.MGD</rom>
 			<rom type="code" offset="0x49000">DRA.SMP</rom>
 			<rom type="code" offset="0x73000">DRKEND.SMP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">BGM 01</title>
-			<title code="0x03">BGM 02</title>
-			<title code="0x04">BGM 03</title>
-			<title code="0x05">BGM 04</title>
-			<title code="0x06">BGM 05</title>
-			<title code="0x07">BGM 06</title>
-			<title code="0x08">BGM 07</title>
-			<title code="0x09">BGM 08</title>
-			<title code="0x0a">BGM 09</title>
-			<title code="0x0b">BGM 0A</title>
-			<title code="0x0c">BGM 0B</title>
-			<title code="0x0d">BGM 0C</title>
-			<title code="0x0f">BGM 0E</title>
-			<title code="0x10">BGM 0F</title>
-			<title code="0x12">BGM 11</title>
-			<title code="0x13">BGM 12</title>
-			<title code="0x14">BGM 13</title>
-			<title code="0x15">BGM 14</title>
-			<title code="0x16">BGM 15</title>
-			<title code="0x18">BGM 17</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0f">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x18">BGM #18</title>
 		</titlelist>
 	</game>
 </gamelist>

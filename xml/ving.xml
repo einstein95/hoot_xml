@@ -118,7 +118,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] スーパーリアル麻雀PIV FINAL(OPN)</name>
+		<name>[PC-9821] Super Real Mahjong PIV Final (スーパーリアル麻雀PIV FINAL) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9821">Ving</driveralias>
 		<options>
@@ -138,7 +138,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] スーパーリアル麻雀PIV FINAL(86)</name>
+		<name>[PC-9821] Super Real Mahjong PIV Final (スーパーリアル麻雀PIV FINAL) (YM2608)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Ving</driveralias>
 		<options>
@@ -158,7 +158,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] スーパーリアル麻雀PIV FINAL(GM)</name>
+		<name>[PC-9821] Super Real Mahjong PIV Final (スーパーリアル麻雀PIV FINAL) (GM)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9821">Ving</driveralias>
 		<options>
@@ -180,7 +180,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] スーパーリアル麻雀PIV FINAL(SB16)</name>
+		<name>[PC-9821] Super Real Mahjong PIV Final (スーパーリアル麻雀PIV FINAL) (YMF262)</name>
 		<driver type="soundblaster16">pc98dos</driver>
 		<driveralias type="PC-9821">Ving</driveralias>
 		<options>
@@ -192,6 +192,28 @@
 			<rom type="file" offset="-1">MUSIC.COM</rom>
 			<rom type="file" offset="7">P4B.MDP</rom>
 			<rom type="file" offset="8">OPL2.DAT</rom>
+			<rom type="file" offset="9">SSG2.DAT</rom>
+			<rom type="shell" offset="0">music 1</rom>
+			<rom type="shell" offset="0">srmp4_21</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">P4.MDP</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9821] Super Real Mahjong PIV Final (スーパーリアル麻雀PIV FINAL) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9821">Ving</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="srmp4_21">
+			<rom type="file" offset="-1">SRMP4_21.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="7">P4M.MDP</rom>
+			<rom type="file" offset="8">OPN2.DAT</rom>
 			<rom type="file" offset="9">SSG2.DAT</rom>
 			<rom type="shell" offset="0">music 1</rom>
 			<rom type="shell" offset="0">srmp4_21</rom>
