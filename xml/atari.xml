@@ -82,6 +82,7 @@
 			<title code="0x0c">Level 3 Clear</title>
 			<title code="0x28">Level 4 Clear</title>
 			<title code="0x08">Miss</title>
+			<range min="0x00" max="0xff" extcode="1">Sound Code #%02X</range>
 			<range min="0x1f" max="0x27" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
@@ -135,7 +136,7 @@
 			<title code="0x0b">Level Finish 1</title>
 			<title code="0x0c">Level Finish 2</title>
 			<title code="0x0d">Level Finish 3</title>
-			<title code="0x0f">Level Clear (play after Level Finish)</title>
+			<title code="0x0f">Level Clear (play after Level Finish)</title>			
 			<title code="0x10">Ran out of Fuel</title>
 			<title code="0x12">High Score</title>
 			<title code="0x16">Game Over</title>
