@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Spectreum Holobytee -->
+	<game>
+		<name>[PC/AT] Faces (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Spectrum Holobyte</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="faces_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.MUS</rom>
+			<rom type="file" offset="0x11">FACES.SND</rom>
+			<rom type="file" offset="0x12">ART.MUS</rom>
+			<rom type="file" offset="0x13">FACES.SND</rom>
+			<rom type="file" offset="0x14">FIGURES.MUS</rom>
+			<rom type="file" offset="0x15">FACES.SND</rom>
+			<rom type="file" offset="0x16">GENERIC.MUS</rom>
+			<rom type="file" offset="0x17">FACES.SND</rom>
+			<rom type="file" offset="0x18">HISTORY.MUS</rom>
+			<rom type="file" offset="0x19">FACES.SND</rom>
+			<rom type="file" offset="0x1A">HOLIDAYS.MUS</rom>
+			<rom type="file" offset="0x1B">FACES.SND</rom>
+			<rom type="file" offset="0x1C">INTHISTO.MUS</rom>
+			<rom type="file" offset="0x1D">FACES.SND</rom>
+			<rom type="file" offset="0x1E">LITERARY.MUS</rom>
+			<rom type="file" offset="0x1F">FACES.SND</rom>
+			<rom type="file" offset="0x20">MONSTERS.MUS</rom>
+			<rom type="file" offset="0x21">FACES.SND</rom>
+			<rom type="file" offset="0x22">MUSICIAN.MUS</rom>
+			<rom type="file" offset="0x23">FACES.SND</rom>
+			<rom type="file" offset="0x24">SCIENTIS.MUS</rom>
+			<rom type="file" offset="0x25">FACES.SND</rom>
+			<rom type="file" offset="0x26">VICTORY.MUS</rom>
+			<rom type="file" offset="0x27">FACES.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x12">ART</title>
+			<title code="0x14">FIGURES</title>
+			<title code="0x16">GENERIC</title>
+			<title code="0x18">HISTORY</title>
+			<title code="0x1A">HOLIDAYS</title>
+			<title code="0x1C">INTHISTO</title>
+			<title code="0x1E">LITERARY</title>
+			<title code="0x20">MONSTERS</title>
+			<title code="0x22">MUSICIAN</title>
+			<title code="0x24">SCIENTIS</title>
+			<title code="0x26">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Falcon 3.0 (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Spectrum Holobyte</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="falcon3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x08">Y.MID</rom>
+			<rom type="file" offset="0x10">A.MID</rom>
+			<rom type="file" offset="0x11">B.MID</rom>
+			<rom type="file" offset="0x12">C.MID</rom>
+			<rom type="file" offset="0x13">D.MID</rom>
+			<rom type="file" offset="0x14">E.MID</rom>
+			<rom type="file" offset="0x15">F.MID</rom>
+			<rom type="file" offset="0x16">G.MID</rom>
+			<rom type="file" offset="0x17">H.MID</rom>
+			<rom type="file" offset="0x18">I.MID</rom>
+			<rom type="file" offset="0x19">J.MID</rom>
+			<rom type="file" offset="0x1A">K.MID</rom>
+			<rom type="file" offset="0x1B">L.MID</rom>
+			<rom type="file" offset="0x1C">M.MID</rom>
+			<rom type="file" offset="0x1D">N.MID</rom>
+			<rom type="file" offset="0x1E">O.MID</rom>
+			<rom type="file" offset="0x1F">P.MID</rom>
+			<rom type="file" offset="0x20">Q.MID</rom>
+			<rom type="file" offset="0x21">R.MID</rom>
+			<rom type="file" offset="0x22">S.MID</rom>
+			<rom type="file" offset="0x23">T.MID</rom>
+			<rom type="file" offset="0x24">U.MID</rom>
+			<rom type="file" offset="0x25">V.MID</rom>
+			<rom type="file" offset="0x26">W.MID</rom>
+			<rom type="file" offset="0x27">X.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Falcon 3.0 (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Spectrum Holobyte</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="falcon3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x08">Y.MID</rom>
+			<rom type="file" offset="0x10">A.MID</rom>
+			<rom type="file" offset="0x11">B.MID</rom>
+			<rom type="file" offset="0x12">C.MID</rom>
+			<rom type="file" offset="0x13">D.MID</rom>
+			<rom type="file" offset="0x14">E.MID</rom>
+			<rom type="file" offset="0x15">F.MID</rom>
+			<rom type="file" offset="0x16">G.MID</rom>
+			<rom type="file" offset="0x17">H.MID</rom>
+			<rom type="file" offset="0x18">I.MID</rom>
+			<rom type="file" offset="0x19">J.MID</rom>
+			<rom type="file" offset="0x1A">K.MID</rom>
+			<rom type="file" offset="0x1B">L.MID</rom>
+			<rom type="file" offset="0x1C">M.MID</rom>
+			<rom type="file" offset="0x1D">N.MID</rom>
+			<rom type="file" offset="0x1E">O.MID</rom>
+			<rom type="file" offset="0x1F">P.MID</rom>
+			<rom type="file" offset="0x20">Q.MID</rom>
+			<rom type="file" offset="0x21">R.MID</rom>
+			<rom type="file" offset="0x22">S.MID</rom>
+			<rom type="file" offset="0x23">T.MID</rom>
+			<rom type="file" offset="0x24">U.MID</rom>
+			<rom type="file" offset="0x25">V.MID</rom>
+			<rom type="file" offset="0x26">W.MID</rom>
+			<rom type="file" offset="0x27">X.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+		</titlelist>
+	</game>
+</gamelist>

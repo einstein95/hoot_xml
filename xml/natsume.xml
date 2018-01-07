@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //NATSUME -->
+	<game>
+		<name>[PC-8801] Necropolis: Maiso Toshi (ネクロポリス －埋葬都市－) (YM2608)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="PC-8801">Natsume</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xd000"/>
+			<option name="mdata_size" value="0x2a00"/>
+			<option name="mfile_size" value="0x2a00"/>
+		</options>
+		<romlist archive="necropls">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xc000">DRIVER</rom>
+			<rom type="bgm" offset="0x00">MA100</rom>
+			<rom type="bgm" offset="0x01">MA101</rom>
+			<rom type="bgm" offset="0x02">MA102</rom>
+			<rom type="bgm" offset="0x03">MA200</rom>
+			<rom type="bgm" offset="0x04">MA201</rom>
+			<rom type="bgm" offset="0x05">MA202</rom>
+			<rom type="bgm" offset="0x06">MA203</rom>
+			<rom type="bgm" offset="0x07">MA204</rom>
+			<rom type="bgm" offset="0x08">MA205</rom>
+			<rom type="bgm" offset="0x09">MA206</rom>
+			<rom type="bgm" offset="0x0a">MA207</rom>
+			<rom type="bgm" offset="0x0b">MA208</rom>
+			<rom type="bgm" offset="0x0c">MA209</rom>
+			<rom type="bgm" offset="0x0d">MA210</rom>
+			<rom type="bgm" offset="0x0e">MA211</rom>
+			<rom type="bgm" offset="0x0f">MA212</rom>
+			<rom type="bgm" offset="0x10">MA213</rom>
+			<rom type="bgm" offset="0x11">MA214</rom>
+			<rom type="bgm" offset="0x12">MB102</rom>
+			<rom type="bgm" offset="0x13">MB106</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x12">オープニング1</title>
+			<title code="0x02">オープニング2</title>
+			<title code="0x13">効果音2</title>
+			<title code="0x01">タイトル</title>
+			<title code="0x09">ルクソール神殿</title>
+			<title code="0x05">バトル1</title>
+			<title code="0x0a">迷宮1</title>
+			<title code="0x0b">カルナック神殿</title>
+			<title code="0x0f">迷宮2</title>
+			<title code="0x03">バトル2</title>
+			<title code="0x10">迷宮3</title>
+			<title code="0x0c">迷宮4</title>
+			<title code="0x11">迷宮5</title>
+			<title code="0x0d">葬祭神殿</title>
+			<title code="0x0e">王家の谷</title>
+			<title code="0x04">バトル3</title>
+			<title code="0x06">バトル4 (セト)</title>
+			<title code="0x07">バトル5 (セト変身後)</title>
+			<title code="0x00">エンディング</title>
+			<title code="0x08">ゲームオーバー</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Necropolis: Maiso Toshi (ネクロポリス －埋葬都市－) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Natsume</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xd000"/>
+			<option name="mdata_size" value="0x2a00"/>
+			<option name="mfile_size" value="0x2a00"/>
+		</options>
+		<romlist archive="necropls">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xc000">DRIVER</rom>
+			<rom type="bgm" offset="0x00">MB100</rom>
+			<rom type="bgm" offset="0x01">MB101</rom>
+			<rom type="bgm" offset="0x02">MB102</rom>
+			<rom type="bgm" offset="0x03">MB103</rom>
+			<rom type="bgm" offset="0x04">MB104</rom>
+			<rom type="bgm" offset="0x05">MB105</rom>
+			<rom type="bgm" offset="0x06">MB106</rom>
+			<rom type="bgm" offset="0x07">MB200</rom>
+			<rom type="bgm" offset="0x08">MB201</rom>
+			<rom type="bgm" offset="0x09">MB202</rom>
+			<rom type="bgm" offset="0x0a">MB203</rom>
+			<rom type="bgm" offset="0x0b">MB204</rom>
+			<rom type="bgm" offset="0x0c">MB205</rom>
+			<rom type="bgm" offset="0x0d">MB206</rom>
+			<rom type="bgm" offset="0x0e">MB207</rom>
+			<rom type="bgm" offset="0x0f">MB208</rom>
+			<rom type="bgm" offset="0x10">MB209</rom>
+			<rom type="bgm" offset="0x11">MB210</rom>
+			<rom type="bgm" offset="0x12">MB211</rom>
+			<rom type="bgm" offset="0x13">MB212</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x01">オープニング1(不完全)</title> -->
+			<title code="0x02">オープニング1</title>
+			<title code="0x04">オープニング2</title>
+			<title code="0x06">効果音2</title>
+			<title code="0x03">タイトル</title>
+			<title code="0x0d">ルクソール神殿</title>
+			<title code="0x09">バトル1</title>
+			<title code="0x13">迷宮1</title>
+			<title code="0x0e">カルナック神殿</title>
+			<title code="0x12">迷宮2</title>
+			<title code="0x07">バトル2</title>
+			<title code="0x11">迷宮3</title>
+			<title code="0x0f">葬祭神殿</title>
+			<title code="0x10">王家の谷</title>
+			<title code="0x08">バトル3</title>
+			<title code="0x0a">バトル4 (セト)</title>
+			<title code="0x0b">バトル5 (セト変身後)</title>
+			<title code="0x00">エンディング</title>
+			<title code="0x0c">ゲームオーバー</title>
+			<title code="0x05">効果音1</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kagake Kira Kira Senshi Risky Jewel (輝け!キラキラ戦士 リスキージュエル) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Natsume</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="risky_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x10">RQJ_1.M</rom>
+			<rom type="file" offset="0x11">RQJ_2.M</rom>
+			<rom type="file" offset="0x12">RQJ_3.M</rom>
+			<rom type="file" offset="0x13">RQJ_5.M</rom>
+			<rom type="file" offset="0x14">RQJ_S2.M</rom>
+			<rom type="file" offset="0x15">RQJ_S6.M</rom>
+			<rom type="shell" offset="0">pmd /V0 /E0 /K</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">RQJ_1.M</title>
+			<title code="0x11">RQJ_2.M</title>
+			<title code="0x12">RQJ_3.M</title>
+			<title code="0x13">RQJ_5.M</title>
+			<title code="0x14">RQJ_S2.M</title>
+			<title code="0x15">RQJ_S6.M</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Majoriko Inbikai (魔浄理子 淫靡界) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Natsume</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="dummysndrom" value="1"/>
+		</options>
+		<romlist archive="majoriko_98">
+			<rom type="file" offset="-1">ODQ_98.COM</rom>
+			<rom type="file" offset="-1">MJSND.COM</rom>
+			<rom type="shell" offset="0">mjsnd</rom>
+			<rom type="shell" offset="0">odq_98</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x10" max="0x19" extcode="1">BGM #%02X</range>
+			<range min="0x80" max="0x9e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Majoriko Inbikai Inbizoon (魔浄理子 淫靡界 インビゾーン) (MT-32)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Natsume</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="dummysndrom" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="majoriko_98">
+			<rom type="file" offset="-1">ODQ_98.COM</rom>
+			<rom type="file" offset="-1">MJSND.COM</rom>
+			<rom type="shell" offset="0">mjsnd</rom>
+			<rom type="shell" offset="0">odq_98</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x10" max="0x19" extcode="1">BGM #%02X</range>
+			<range min="0x80" max="0x9e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Majoriko Inbikai Inbizoon (魔浄理子 淫靡界 インビゾーン) (Munt, MT-32 simulation)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Natsume</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="dummysndrom" value="1"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+			<option name="midiout_mix" value="0xa0"/>
+		</options>
+		<romlist archive="majoriko_98">
+			<rom type="file" offset="-1">ODQ_98.COM</rom>
+			<rom type="file" offset="-1">MJSND.COM</rom>
+			<rom type="shell" offset="0">mjsnd</rom>
+			<rom type="shell" offset="0">odq_98</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x10" max="0x19" extcode="1">BGM #%02X</range>
+			<range min="0x80" max="0x9e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX] Mitsume ga Tooru: The Three-Eyed One Comes Here (三つ目がとおる) (AY-3-8910)</name>
+		<driver type="kss">msx</driver>
+		<driveralias type="MSX">Natsume</driveralias>
+		<options>
+			<option name="ay_mix" value="0x48"/>
+			<option name="sn_mix" value="0x100"/>
+			<option name="fmpac_mix" value="0x200"/>
+			<option name="fmunit_mix" value="0x200"/>
+			<option name="scc_mix" value="0xcc"/>
+		</options>
+		<romlist archive="mitsume_msx">
+			<rom type="code">Mitsume ga Tooru (1989)(Natsume).kss</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0a</title>
+		</titlelist>
+	</game>
+</gamelist>

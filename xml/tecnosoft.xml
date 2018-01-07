@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //Tecnosoft -->
+	<game>
+		<name>[X68000] Thunder Force 2 (サンダーフォース II) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">Tecnosoft</driveralias>
+		<romlist archive="tf2snd">
+			<rom type="code">tf2snd.bin</rom>
+			<rom type="code" offset="0x0d000">TONE</rom>
+			<rom type="code" offset="0x50000">MAIN</rom>
+			<rom type="code" offset="0x10000">MUSIC00</rom>
+			<rom type="code" offset="0x12000">MUSIC01</rom>
+			<rom type="code" offset="0x14000">MUSIC02</rom>
+			<rom type="code" offset="0x16000">MUSIC03</rom>
+			<rom type="code" offset="0x18000">MUSIC04</rom>
+			<rom type="code" offset="0x1a000">MUSIC05</rom>
+			<rom type="code" offset="0x1c000">MUSIC06</rom>
+			<rom type="code" offset="0x1e000">MUSIC07</rom>
+			<rom type="code" offset="0x20000">MUSIC08</rom>
+			<rom type="code" offset="0x22000">MUSIC09</rom>
+			<rom type="code" offset="0x24000">MUSIC10</rom>
+			<rom type="code" offset="0x26000">MUSIC11</rom>
+			<rom type="code" offset="0x28000">MUSIC12</rom>
+			<rom type="code" offset="0x2a000">MUSIC13</rom>
+			<rom type="code" offset="0x2c000">MUSIC14</rom>
+			<rom type="code" offset="0x2e000">MUSIC15</rom>
+			<rom type="code" offset="0x30000">MUSIC16</rom>
+			<rom type="code" offset="0x32000">MUSIC17</rom>
+			<rom type="code" offset="0x34000">MUSIC18</rom>
+			<rom type="code" offset="0x36000">MUSIC19</rom>
+			<rom type="code" offset="0x38000">MUSIC20</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0000">Stop the Music</title>
+			<title code="0x0010">The Wind Blew All Day Long [Opening]</title>
+			<title code="0x0101">Knights of Legend [Stage 1]</title>
+			<title code="0x0109">Big na Okata 1 [Stage 1 Boss]</title>
+			<title code="0x0102">Exceed [Stage 2]</title>
+			<title code="0x010a">Big na Okata 2 [Stage 2 Boss]</title>
+			<title code="0x0103">Cloud of Dust [Stage 3]</title>
+			<title code="0x010b">Big na Okata 3 [Stage 3 Boss]</title>
+			<title code="0x0104">Take Strict Precautions [Stage 4]</title>
+			<title code="0x010c">Big na Okata 4 [Stage 4 Boss]</title>
+			<title code="0x0105">Illusion [Stage 5]</title>
+			<title code="0x010d">Big na Okata 5 [Stage 5 Boss]</title>
+			<title code="0x0106">Irrevocable Dream [Stage 6]</title>
+			<title code="0x010e">Big na Okata 6 [Stage 6 Boss]</title>
+			<title code="0x0013">Stage Clear [ステージクリア]</title>
+			<title code="0x0107">Ray of Hope [横低速面]</title>
+			<title code="0x0108">Cruise Control [横高速面]</title>
+			<title code="0x010f">Tan Tan Ta Ta Ta Tan [起動時]</title>
+			<title code="0x0111">Super Version Tan Tan [コンフィグ]</title>
+			<title code="0x0012">Mission 2 [平面クリア]</title>
+			<title code="0x0015">Take Off One's Gloves [Ending]</title>
+			<title code="0x0014">Game Over (ゲームオーバー)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Thunder Force (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="use_rtc" value="0x01"/>
+		</options>
+		<romlist archive="tf88sr">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x4000">PROG</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Stop the Music</title>
+			<title code="0x02000001">Main BGM (メインBGM)</title>
+			<title code="0x02000002">Main BGM w/o Intro (メインBGM (イントロなし))</title>
+			<title code="0x03000003">BGM #03</title>
+			<title code="0x04000004">BGM #04</title>
+			<title code="0x00000005">Game Over (ゲームオーバー)</title>
+			<title code="0x06000006">BGM #06</title>
+			<title code="0x07000007">BGM #07</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Plazma Line (プラズマライン) (PC-8801mkIISR専用版)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_rtc" value="0x01"/>
+		</options>
+		<romlist archive="plazmasr">
+			<rom type="code" offset="0x0000">PROG</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Stop the Music</title>
+			<title code="0x06000001">Normal flight.</title>
+			<title code="0x02000002">Name Entry</title>
+			<title code="0x03000003">Name Entry (High Score)</title>
+			<title code="0x00000004">Game Over (ゲームオーバー)</title>
+		<!--	<title code="0x05000005">Name Entry (High Score)</title> -->
+			<title code="0x06000006">Normal flight.(No intro)</title>
+			<title code="0x07000007">Guidance flight.</title>
+			<title code="0x08000008">Orbital flight.</title>
+			<title code="0x09000009">WARN! Jacker!</title>
+			<title code="0x0a00000a">BGM #0a</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Batten Tanuki no Daibouken (ばってんタヌキの大冒険) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="use_vrtc" value="0x01"/>
+		</options>
+		<romlist archive="batten88">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xaba0">PROG</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x05000005">オープニングデモ</title>
+			<title code="0x01000000">BGM #1(イントロあり)</title>
+			<title code="0x01000001">BGM #1(イントロなし)</title>
+			<title code="0x03000003">BGM #2</title>
+			<title code="0xff000004">ジングル</title>
+			<title code="0xff000002">ゲームオーバー</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Ku Gyoku Den (九玉伝) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x6800"/>
+			<option name="init_pc" value="0xf000"/>
+		</options>
+		<romlist archive="kugyoku">
+			<rom type="code" offset="0x0000">PROG</rom>
+			<rom type="code" offset="0x9800">FMBANK</rom>
+			<rom type="code" offset="0xd000">N88_3.ROM</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">オープニング</title>
+			<title code="0x01000000">オープニング(イントロなし)</title>
+			<title code="0x00000001">メインBGM</title>
+			<title code="0x00000002">ボス</title>
+			<title code="0x00000003">ラスボス</title>
+			<title code="0x00000004">エンディング</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Comsight (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<romlist archive="comsight">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1000">PROG</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">Demo 1</title>
+			<title code="0x00000003">Demo 1 (Title Logo)</title>
+			<title code="0x00000001">Demo 2 (Intro)</title>
+			<title code="0xff000000">Demo 2</title>
+			<title code="0xff000004">Demo 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Herzog (ヘルツォーク) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x7000"/>
+			<option name="mdata_size" value="0x1000"/>
+			<option name="mfile_size" value="0x1000"/>
+		</options>
+		<romlist archive="herzog">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x8000">DRIVER</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS08</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Originate the Strategy By Yourself</title>
+			<title code="0x00000001">A Streak of Lighting Through the Time</title>
+			<title code="0x00000002">Back to Square One</title>
+			<title code="0x00000003">Sleight of Hand</title>
+			<title code="0x00000004">Take It Easy</title>
+			<title code="0x00000005">Sniper</title>
+			<title code="0x00000006">The Super Fighter Invigorated Us</title>
+			<title code="0x00000007">The Previous War</title>
+			<title code="0x01000007">The Fighter Called 'Emergency' to Base</title>
+			<title code="0x00000008">The Dawn of a New Age</title>
+			<title code="0x01000008">Funeral March for the Metal Knights</title>
+			<title code="0x02000008">A Victorious Bell is Ringing (Marcie)</title>
+			<title code="0x03000008">A Victorious Bell is Ringing (Ruth)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] D' (ディーダッシュ) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<romlist archive="d'">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1000">PROG</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS06</rom>
+			<rom type="bgm" offset="0x07">MUS07</rom>
+			<rom type="bgm" offset="0x08">MUS08</rom>
+			<rom type="bgm" offset="0x09">MUS09</rom>
+			<rom type="bgm" offset="0x0a">MUS10</rom>
+			<rom type="bgm" offset="0x0b">MUS11</rom>
+			<rom type="bgm" offset="0x0c">MUS12</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Macrocosmos</title>
+			<title code="0x00000001">In Fortress</title>
+			<title code="0x00000002">Break Point</title>
+			<title code="0x01000002">SFX #1</title>
+			<title code="0x00000003">Secret Code D'</title>
+			<title code="0x00000004">Final Countdown</title>
+			<title code="0x01000004">Star Dust Requiem</title>
+			<title code="0x00000005">Coming Soon</title>
+			<title code="0x00000006">Factory</title>
+		<!--	<title code="0x00000007">In Fortress</title> -->
+			<title code="0x00000008">Enemy Hunter</title>
+			<title code="0x00000009">Space Humanoid</title>
+			<title code="0x0000000a">At Last</title>
+		<!--	<title code="0x0000000b">Break Point</title> -->
+		<!--	<title code="0x0100000b">SFX #1</title> -->
+			<title code="0x0000000c">Greater</title>
+			<title code="0x0100000c">SFX #2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Shin Ku Gyoku Den (新九玉伝) (YM2608)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_rtc" value="0x01"/>
+		</options>
+		<romlist archive="skugyoku">
+			<rom type="code" offset="0x0000">BIOS</rom>
+			<rom type="code" offset="0x1000">MUSDRV15</rom>
+			<rom type="code" offset="0x3000">G-EFECT</rom>
+			<rom type="code" offset="0x3400">DEMOE001</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x01">OPENMUS2</rom>
+			<rom type="bgm" offset="0x02">OPENMUS4</rom>
+			<rom type="bgm" offset="0x03">BGMB00</rom>
+			<rom type="bgm" offset="0x04">BGMB01</rom>
+			<rom type="bgm" offset="0x05">BGMB02</rom>
+			<rom type="bgm" offset="0x06">BGMB03</rom>
+			<rom type="bgm" offset="0x07">BGMB04</rom>
+			<rom type="bgm" offset="0x08">BGMB05</rom>
+			<rom type="bgm" offset="0x09">BGMB06</rom>
+			<rom type="bgm" offset="0x0a">BGMB07</rom>
+			<rom type="bgm" offset="0x0b">BGMB08</rom>
+			<rom type="bgm" offset="0x0c">BGMB09</rom>
+			<rom type="bgm" offset="0x0d">BGMB10</rom>
+			<rom type="bgm" offset="0x0e">BGMB11</rom>
+			<rom type="bgm" offset="0x0f">BGMB12</rom>
+			<rom type="bgm" offset="0x10">BGMB13</rom>
+			<rom type="bgm" offset="0x11">BOSBBGM1</rom>
+			<rom type="bgm" offset="0x12">BOSBBGM2</rom>
+			<rom type="bgm" offset="0x13">BOSBBGM3</rom>
+			<rom type="bgm" offset="0x14">BGMSB00</rom>
+			<rom type="bgm" offset="0x15">BGMSB01</rom>
+			<rom type="bgm" offset="0x16">ENDMUS2</rom>
+			<rom type="bgm" offset="0x17">ENDMUS4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">The Nine Gems [Story]</title>
+			<title code="0x00000001">Straight Away [Opening Theme]</title>
+			<title code="0xff000003">On the Street Corner [Town 1]</title>
+			<title code="0xff000004">The Road of Hotoke [Town 2]</title>
+			<title code="0xff000005">Look for Number Eight [Battle 2]</title>
+			<title code="0xff000006">Big Kids March [Town 3]</title>
+			<title code="0xff000007">Etude of Wind [Underground 1]</title>
+			<title code="0xff000008">No Relation [Battle 4]</title>
+			<title code="0xff000009">Stranger [Town 4]</title>
+			<title code="0xff00000a">A Light Breeze [Town 5]</title>
+			<title code="0xff00000b">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0xff00000c">The Dark Side [Underground 3]</title>
+			<title code="0xff00000d">Power of Gems [Battle 1]</title>
+			<title code="0xff00000e">Crystal Sparkling with Joy [Church]</title>
+			<title code="0xff00000f">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0xff000010">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0xff000011">Crazy Dance 1 [Boss 1]</title>
+			<title code="0xff000012">Fire Dragon [Boss 2]</title>
+			<title code="0xff000013">Crazy Dance 2 [Boss 3]</title>
+			<title code="0xff000014">But And! [Shop, Inn]</title>
+			<title code="0xff000015">People in the Town [House]</title>
+			<title code="0xff000016">Far Away [Ending]</title>
+			<title code="0x00000017">Adventures (High Way Star) [Staff Roll]</title>
+			<title code="0x00000000">効果音#00</title>
+			<title code="0x01000000">効果音#01</title>
+			<title code="0x02000000">効果音#02</title>
+			<title code="0x03000000">効果音#03</title>
+			<title code="0x04000000">効果音#04</title>
+			<title code="0x05000000">効果音#05</title>
+			<title code="0x06000000">効果音#06</title>
+			<title code="0x07000000">効果音#07</title>
+			<title code="0x08000000">効果音#08</title>
+			<title code="0x09000000">効果音#09</title>
+			<title code="0x0a000000">効果音#10</title>
+			<title code="0x0b000000">効果音#11</title>
+			<title code="0x0c000000">効果音#12</title>
+			<title code="0x0d000000">効果音#13</title>
+			<title code="0x0e000000">効果音#14</title>
+			<title code="0x0f000000">効果音#15</title>
+			<title code="0x10000000">効果音#16</title>
+			<title code="0x11000000">効果音#17</title>
+			<title code="0x12000000">効果音#18</title>
+			<title code="0x20000000">効果音#19</title>
+			<title code="0x21000000">効果音#20</title>
+			<title code="0x22000000">効果音#21</title>
+			<title code="0x23000000">効果音#22</title>
+			<title code="0x24000000">効果音#23</title>
+			<title code="0x25000000">効果音#24</title>
+			<title code="0x26000000">効果音#25</title>
+			<title code="0x27000000">効果音#26</title>
+			<title code="0x28000000">効果音#27</title>
+		<!--	<title code="0x29000000">効果音#28</title> -->
+		<!--	<title code="0x2a000000">効果音#29</title> -->
+		<!--	<title code="0x2b000000">効果音#30</title> -->
+		<!--	<title code="0x2c000000">効果音#31</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] Shin Ku Gyoku Den (新九玉伝) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+			<option name="use_rtc" value="0x01"/>
+		</options>
+		<romlist archive="skugyoku">
+			<rom type="code" offset="0x0000">BIOS</rom>
+			<rom type="code" offset="0x1000">MUSDRV6</rom>
+			<rom type="code" offset="0x3000">G-EFECT</rom>
+			<rom type="code" offset="0x3400">DEMOE001</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x01">OPENMUS1</rom>
+			<rom type="bgm" offset="0x02">OPENMUS3</rom>
+			<rom type="bgm" offset="0x03">BGMA00</rom>
+			<rom type="bgm" offset="0x04">BGMA01</rom>
+			<rom type="bgm" offset="0x05">BGMA02</rom>
+			<rom type="bgm" offset="0x06">BGMA03</rom>
+			<rom type="bgm" offset="0x07">BGMA04</rom>
+			<rom type="bgm" offset="0x08">BGMA05</rom>
+			<rom type="bgm" offset="0x09">BGMA06</rom>
+			<rom type="bgm" offset="0x0a">BGMA07</rom>
+			<rom type="bgm" offset="0x0b">BGMA08</rom>
+			<rom type="bgm" offset="0x0c">BGMA09</rom>
+			<rom type="bgm" offset="0x0d">BGMA10</rom>
+			<rom type="bgm" offset="0x0e">BGMA11</rom>
+			<rom type="bgm" offset="0x0f">BGMA12</rom>
+			<rom type="bgm" offset="0x10">BGMA13</rom>
+			<rom type="bgm" offset="0x11">BOSABGM1</rom>
+			<rom type="bgm" offset="0x12">BOSABGM2</rom>
+			<rom type="bgm" offset="0x13">BOSABGM3</rom>
+			<rom type="bgm" offset="0x14">BGMSA00</rom>
+			<rom type="bgm" offset="0x15">BGMSA01</rom>
+			<rom type="bgm" offset="0x16">ENDMUS1</rom>
+			<rom type="bgm" offset="0x17">ENDMUS3</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">The Nine Gems [Story]</title>
+			<title code="0x00000001">Straight Away [Opening Theme]</title>
+			<title code="0xff000003">On the Street Corner [Town 1]</title>
+			<title code="0xff000004">The Road of Hotoke [Town 2]</title>
+			<title code="0xff000005">Look for Number Eight [Battle 2]</title>
+			<title code="0xff000006">Big Kids March [Town 3]</title>
+			<title code="0xff000007">Etude of Wind [Underground 1]</title>
+			<title code="0xff000008">No Relation [Battle 4]</title>
+			<title code="0xff000009">Stranger [Town 4]</title>
+			<title code="0xff00000a">A Light Breeze [Town 5]</title>
+			<title code="0xff00000b">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0xff00000c">The Dark Side [Underground 3]</title>
+			<title code="0xff00000d">Power of Gems [Battle 1]</title>
+			<title code="0xff00000e">Crystal Sparkling with Joy [Church]</title>
+			<title code="0xff00000f">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0xff000010">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0xff000011">Crazy Dance 1 [Boss 1]</title>
+			<title code="0xff000012">Fire Dragon [Boss 2]</title>
+			<title code="0xff000013">Crazy Dance 2 [Boss 3]</title>
+			<title code="0xff000014">But And! [Shop, Inn]</title>
+			<title code="0xff000015">People in the Town [House]</title>
+			<title code="0xff000016">Far Away [Ending]</title>
+			<title code="0x00000017">Adventures (High Way Star) [Staff Roll]</title>
+			<title code="0x00000000">効果音#00</title>
+			<title code="0x01000000">効果音#01</title>
+			<title code="0x02000000">効果音#02</title>
+			<title code="0x03000000">効果音#03</title>
+			<title code="0x04000000">効果音#04</title>
+			<title code="0x05000000">効果音#05</title>
+			<title code="0x06000000">効果音#06</title>
+			<title code="0x07000000">効果音#07</title>
+			<title code="0x08000000">効果音#08</title>
+			<title code="0x09000000">効果音#09</title>
+			<title code="0x0a000000">効果音#10</title>
+			<title code="0x0b000000">効果音#11</title>
+			<title code="0x0c000000">効果音#12</title>
+			<title code="0x0d000000">効果音#13</title>
+			<title code="0x0e000000">効果音#14</title>
+			<title code="0x0f000000">効果音#15</title>
+			<title code="0x10000000">効果音#16</title>
+			<title code="0x11000000">効果音#17</title>
+			<title code="0x12000000">効果音#18</title>
+			<title code="0x20000000">効果音#19</title>
+			<title code="0x21000000">効果音#20</title>
+			<title code="0x22000000">効果音#21</title>
+			<title code="0x23000000">効果音#22</title>
+			<title code="0x24000000">効果音#23</title>
+			<title code="0x25000000">効果音#24</title>
+			<title code="0x26000000">効果音#25</title>
+			<title code="0x27000000">効果音#26</title>
+			<title code="0x28000000">効果音#27</title>
+		<!--	<title code="0x29000000">効果音#28</title> -->
+		<!--	<title code="0x2a000000">効果音#29</title> -->
+		<!--	<title code="0x2b000000">効果音#30</title> -->
+		<!--	<title code="0x2c000000">効果音#31</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Shin Ku Gyoku Den (新九玉伝) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Tecnosoft</driveralias>
+		<options>
+			<option name="bootcs" value="0x0000"/>
+			<option name="bootip" value="0xf000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="dataaddr" value="0x5000"/>
+			<option name="filesize" value="0x2000"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax" value="0x18"/>
+		</options>
+		<romlist archive="skugyoku98">
+			<rom type="code" offset="0x03000">MUSDRV98</rom>
+			<rom type="code" offset="0x07000">G-EFECT</rom>
+			<rom type="code" offset="0x07400">DEMOE001</rom>
+			<rom type="code" offset="0x0f000">skugyoku.bin</rom>
+			<rom type="code" offset="0x10000">BIOS</rom>
+			<rom type="bgm" offset="0x00">DUMMY</rom>
+			<rom type="bgm" offset="0x01">OPENMUS1</rom>
+			<rom type="bgm" offset="0x02">OPENMUS2</rom>
+			<rom type="bgm" offset="0x03">BGMA00</rom>
+			<rom type="bgm" offset="0x04">BGMA01</rom>
+			<rom type="bgm" offset="0x05">BGMA02</rom>
+			<rom type="bgm" offset="0x06">BGMA03</rom>
+			<rom type="bgm" offset="0x07">BGMA04</rom>
+			<rom type="bgm" offset="0x08">BGMA05</rom>
+			<rom type="bgm" offset="0x09">BGMA06</rom>
+			<rom type="bgm" offset="0x0a">BGMA07</rom>
+			<rom type="bgm" offset="0x0b">BGMA08</rom>
+			<rom type="bgm" offset="0x0c">BGMA09</rom>
+			<rom type="bgm" offset="0x0d">BGMA10</rom>
+			<rom type="bgm" offset="0x0e">BGMA11</rom>
+			<rom type="bgm" offset="0x0f">BGMA12</rom>
+			<rom type="bgm" offset="0x10">BGMA13</rom>
+			<rom type="bgm" offset="0x11">BOSABGM1</rom>
+			<rom type="bgm" offset="0x12">BOSABGM2</rom>
+			<rom type="bgm" offset="0x13">BOSABGM3</rom>
+			<rom type="bgm" offset="0x14">BGMSA00</rom>
+			<rom type="bgm" offset="0x15">BGMSA01</rom>
+			<rom type="bgm" offset="0x16">ENDMUS1</rom>
+			<rom type="bgm" offset="0x17">ENDMUS2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">The Nine Gems [Story]</title>
+			<title code="0x00000001">Straight Away [Opening Theme]</title>
+			<title code="0xff000003">On the Street Corner [Town 1]</title>
+			<title code="0xff000004">The Road of Hotoke [Town 2]</title>
+			<title code="0xff000005">Look for Number Eight [Battle 2]</title>
+			<title code="0xff000006">Big Kids March [Town 3]</title>
+			<title code="0xff000007">Etude of Wind [Underground 1]</title>
+			<title code="0xff000008">No Relation [Battle 4]</title>
+			<title code="0xff000009">Stranger [Town 4]</title>
+			<title code="0xff00000a">A Light Breeze [Town 5]</title>
+			<title code="0xff00000b">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0xff00000c">The Dark Side [Underground 3]</title>
+			<title code="0xff00000d">Power of Gems [Battle 1]</title>
+			<title code="0xff00000e">Crystal Sparkling with Joy [Church]</title>
+			<title code="0xff00000f">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0xff000010">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0xff000011">Crazy Dance 1 [Boss 1]</title>
+			<title code="0xff000012">Fire Dragon [Boss 2]</title>
+			<title code="0xff000013">Crazy Dance 2 [Boss 3]</title>
+			<title code="0xff000014">But And! [Shop, Inn]</title>
+			<title code="0xff000015">People in the Town [House]</title>
+			<title code="0xff000016">Far Away [Ending]</title>
+			<title code="0x00000017">Adventures (High Way Star) [Staff Roll]</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Ku Gyoku Den (九玉伝) (YM2151)</name>
+		<driver type="opm">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x6a00"/>
+		</options>
+		<romlist archive="x1kugyoku">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x5c00">OPMDRV</rom>
+			<rom type="bgm" offset="0x01">MA000</rom>
+			<rom type="bgm" offset="0x02">MA001</rom>
+			<rom type="bgm" offset="0x03">MA002</rom>
+			<rom type="bgm" offset="0x04">MA003</rom>
+			<rom type="bgm" offset="0x05">MA004</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xff000001">オープニング</title>
+			<title code="0x81000001">オープニング(イントロなし)</title>
+			<title code="0x80000003">メインBGM</title>
+			<title code="0x80000004">ボス</title>
+			<title code="0x80000005">ラスボス</title>
+			<title code="0xff000002">エンディング</title>
+			<title code="0x00000000">SFX #00</title>
+			<title code="0x01000000">SFX #01</title>
+			<title code="0x02000000">SFX #02</title>
+			<title code="0x03000000">SFX #03</title>
+			<title code="0x04000000">SFX #04</title>
+			<title code="0x05000000">SFX #05</title>
+			<title code="0x06000000">SFX #06</title>
+			<title code="0x11000000">SFX #11</title>
+			<title code="0x12000000">SFX #12</title>
+			<title code="0x13000000">SFX #13</title>
+			<title code="0x14000000">SFX #14</title>
+			<title code="0x15000000">SFX #15</title>
+			<title code="0x16000000">SFX #16</title>
+			<title code="0x17000000">SFX #17</title>
+			<title code="0x18000000">SFX #18</title>
+			<title code="0x19000000">SFX #19</title>
+			<title code="0x1a000000">SFX #1a</title>
+			<title code="0x1b000000">SFX #1b</title>
+			<title code="0x21000000">SFX #21</title>
+			<title code="0x22000000">SFX #22</title>
+			<title code="0x23000000">SFX #23</title>
+			<title code="0x24000000">SFX #24</title>
+			<title code="0x25000000">SFX #25</title>
+			<title code="0x26000000">SFX #26</title>
+			<title code="0x27000000">SFX #27</title>
+			<title code="0x28000000">SFX #28</title>
+			<title code="0x29000000">SFX #29</title>
+			<title code="0x2a000000">SFX #2a</title>
+			<title code="0x2b000000">SFX #2b</title>
+			<title code="0x31000000">SFX #31</title>
+			<title code="0x32000000">SFX #32</title>
+			<title code="0x33000000">SFX #33</title>
+			<title code="0x34000000">SFX #34</title>
+			<title code="0x35000000">SFX #35</title>
+			<title code="0x36000000">SFX #36</title>
+			<title code="0x37000000">SFX #37</title>
+			<title code="0x38000000">SFX #38</title>
+			<title code="0x39000000">SFX #39</title>
+			<title code="0x3a000000">SFX #3a</title>
+			<title code="0x3b000000">SFX #3b</title>
+			<title code="0x40000000">SFX #40</title>
+			<title code="0x41000000">SFX #41</title>
+			<title code="0x42000000">SFX #42</title>
+			<title code="0x50000000">SFX #50</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Ku Gyoku Den (九玉伝) (YM2149)</name>
+		<driver type="psg">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x6a00"/>
+		</options>
+		<romlist archive="x1kugyoku">
+			<rom type="code" offset="0x0000">PATCH2</rom>
+			<rom type="code" offset="0x5c00">PSGDRV</rom>
+			<rom type="bgm" offset="0x01">MB000</rom>
+			<rom type="bgm" offset="0x02">MB001</rom>
+			<rom type="bgm" offset="0x03">MB002</rom>
+			<rom type="bgm" offset="0x04">MB003</rom>
+			<rom type="bgm" offset="0x05">MB004</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xff000003">オープニング</title>
+			<title code="0x81000003">オープニング(イントロなし)</title>
+			<title code="0x80000005">メインBGM</title>
+			<title code="0x80000001">ボス</title>
+			<title code="0x80000002">ラスボス</title>
+			<title code="0xff000004">エンディング</title>
+			<title code="0x00000000">SFX #00</title>
+			<title code="0x01000000">SFX #01</title>
+			<title code="0x02000000">SFX #02</title>
+			<title code="0x03000000">SFX #03</title>
+			<title code="0x04000000">SFX #04</title>
+			<title code="0x05000000">SFX #05</title>
+			<title code="0x06000000">SFX #06</title>
+			<title code="0x11000000">SFX #11</title>
+			<title code="0x12000000">SFX #12</title>
+			<title code="0x13000000">SFX #13</title>
+			<title code="0x14000000">SFX #14</title>
+			<title code="0x15000000">SFX #15</title>
+			<title code="0x16000000">SFX #16</title>
+			<title code="0x17000000">SFX #17</title>
+			<title code="0x18000000">SFX #18</title>
+			<title code="0x19000000">SFX #19</title>
+			<title code="0x1a000000">SFX #1a</title>
+			<title code="0x1b000000">SFX #1b</title>
+			<title code="0x21000000">SFX #21</title>
+			<title code="0x22000000">SFX #22</title>
+			<title code="0x23000000">SFX #23</title>
+			<title code="0x24000000">SFX #24</title>
+			<title code="0x25000000">SFX #25</title>
+			<title code="0x26000000">SFX #26</title>
+			<title code="0x27000000">SFX #27</title>
+			<title code="0x28000000">SFX #28</title>
+			<title code="0x29000000">SFX #29</title>
+			<title code="0x2a000000">SFX #2a</title>
+			<title code="0x2b000000">SFX #2b</title>
+			<title code="0x31000000">SFX #31</title>
+			<title code="0x32000000">SFX #32</title>
+			<title code="0x33000000">SFX #33</title>
+			<title code="0x34000000">SFX #34</title>
+			<title code="0x35000000">SFX #35</title>
+			<title code="0x36000000">SFX #36</title>
+			<title code="0x37000000">SFX #37</title>
+			<title code="0x38000000">SFX #38</title>
+			<title code="0x39000000">SFX #39</title>
+			<title code="0x3a000000">SFX #3a</title>
+			<title code="0x3b000000">SFX #3b</title>
+			<title code="0x40000000">SFX #40</title>
+			<title code="0x41000000">SFX #41</title>
+			<title code="0x42000000">SFX #42</title>
+			<title code="0x50000000">SFX #50</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Herzog (ヘルツォーク) (YM2151)</name>
+		<driver type="opm">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x2800"/>
+		</options>
+		<romlist archive="x1herzog">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x1800">OPMX1</rom>
+			<rom type="bgm" offset="0x01">HZ-OP</rom>
+			<rom type="bgm" offset="0x02">HZ-MP</rom>
+			<rom type="bgm" offset="0x03">HZ-ED</rom>
+			<rom type="bgm" offset="0x04">HZ-BG1</rom>
+			<rom type="bgm" offset="0x05">HZ-BG2</rom>
+			<rom type="bgm" offset="0x06">HZ-BG3</rom>
+			<rom type="bgm" offset="0x07">HZ-BG4</rom>
+			<rom type="bgm" offset="0x08">HZ-BG5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000001">Originate the Strategy By Yourself</title>
+			<title code="0x01000001">A Streak of Lighting Through the Time</title>
+			<title code="0x00000004">Back to Square One</title>
+			<title code="0x00000005">Sleight of Hand</title>
+			<title code="0x00000006">Take it Easy</title>
+			<title code="0x00000007">Sniper</title>
+			<title code="0x00000008">The Super Fighter Invigorated Us</title>
+			<title code="0x00000002">The Previous War</title>
+			<title code="0x01000002">The Fighter Called 'Emergency' to Base</title>
+			<title code="0x00000003">The Dawn of a New Age</title>
+			<title code="0x01000003">Funeral March for the Metal Knight</title>
+			<title code="0x02000003">A Victorious Bell is Ringing (Marcie)</title>
+			<title code="0x03000003">A Victorious Bell is Ringing (Ruth)</title>
+			<title code="0x00000000">SFX #00</title>
+			<title code="0x01000000">SFX #01</title>
+			<title code="0x02000000">SFX #02</title>
+			<title code="0x03000000">SFX #03</title>
+			<title code="0x04000000">SFX #04</title>
+			<title code="0x05000000">SFX #05</title>
+			<title code="0x06000000">SFX #06</title>
+			<title code="0x07000000">SFX #07</title>
+			<title code="0x08000000">SFX #08</title>
+			<title code="0x09000000">SFX #09</title>
+			<title code="0x0a000000">SFX #10</title>
+			<title code="0x0b000000">SFX #11</title>
+			<title code="0x0c000000">SFX #12</title>
+			<title code="0x0d000000">SFX #13</title>
+			<title code="0x0e000000">SFX #14</title>
+			<title code="0x0f000000">SFX #15</title>
+			<title code="0x10000000">SFX #16</title>
+			<title code="0x11000000">SFX #17</title>
+			<title code="0x12000000">SFX #18</title>
+			<title code="0x13000000">SFX #19</title>
+			<title code="0x14000000">SFX #20</title>
+			<title code="0x15000000">SFX #21</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Herzog (ヘルツォーク) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">Tecnosoft</driveralias>
+		<options>
+			<option name="bootcs" value="0x1000"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="dataaddr" value="0x0e000"/>
+			<option name="filesize" value="0x1000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax" value="0x0c"/>
+		</options>
+		<romlist archive="herzog98">
+			<rom type="code" offset="0x10000">herzog.bin</rom>
+			<rom type="code" offset="0x18000">MAIN</rom>
+			<rom type="bgm" offset="0x01">MUS00</rom>
+			<rom type="bgm" offset="0x02">MUS01</rom>
+			<rom type="bgm" offset="0x03">MUS02</rom>
+			<rom type="bgm" offset="0x04">MUS03</rom>
+			<rom type="bgm" offset="0x05">MUS04</rom>
+			<rom type="bgm" offset="0x06">MUS05</rom>
+			<rom type="bgm" offset="0x07">MUS06</rom>
+			<rom type="bgm" offset="0x08">MUS07</rom>
+			<rom type="bgm" offset="0x09">MUS08</rom>
+			<rom type="bgm" offset="0x0a">MUS09</rom>
+			<rom type="bgm" offset="0x0b">MUS10</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0000000a">Originate the Strategy by Yourself</title>
+			<title code="0x0000000b">A Streak of Lighting Through the Time</title>
+			<title code="0x00000005">Back to Square One</title>
+			<title code="0x00000006">Sleight of Hand</title>
+			<title code="0x00000007">Take It Easy</title>
+			<title code="0x00000008">Sniper</title>
+			<title code="0x00000009">The Super Fighter Invigorated Us</title>
+			<title code="0x00000003">The Previous War</title>
+			<title code="0x00010003">The Fighter Called "Emergency" To Base</title>
+			<title code="0x00000004">The Dawn of a New Age</title>
+			<title code="0x00010004">Funeral March for the Metal Knights</title>
+			<title code="0x00020004">A Victorious Bell Is Ringing (Marcie)</title>
+			<title code="0x00030004">A Victorious Bell Is Ringing (Ruth)</title>
+			<title code="0x00000001">(D') Enemy Hunter</title>
+			<title code="0x00000002">(D') In Fortress</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Herzog (ヘルツォーク) (YM2149)</name>
+		<driver type="psg">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x2800"/>
+		</options>
+		<romlist archive="x1herzog">
+			<rom type="code" offset="0x0000">PATCH2</rom>
+			<rom type="code" offset="0x1800">PSGX1</rom>
+			<rom type="bgm" offset="0x01">HERPSG_O</rom>
+			<rom type="bgm" offset="0x02">HERPSG_M</rom>
+			<rom type="bgm" offset="0x03">HERPSG_E</rom>
+			<rom type="bgm" offset="0x04">HERPSG1</rom>
+			<rom type="bgm" offset="0x05">HERPSG2</rom>
+			<rom type="bgm" offset="0x06">HERPSG3</rom>
+			<rom type="bgm" offset="0x07">HERPSG4</rom>
+			<rom type="bgm" offset="0x08">HERPSG5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000001">Originate the Strategy By Yourself</title>
+			<title code="0x01000001">A Streak of Lighting Through the Time</title>
+			<title code="0x00000004">Back to Square One</title>
+			<title code="0x00000005">Sleight of Hand</title>
+			<title code="0x00000006">Take it Easy</title>
+			<title code="0x00000007">Sniper</title>
+			<title code="0x00000008">The Super Fighter Invigorated Us</title>
+			<title code="0x00000002">The Previous War</title>
+			<title code="0x01000002">The Fighter Called 'Emergency' to Base</title>
+			<title code="0x00000003">The Dawn of a New Age</title>
+			<title code="0x01000003">Funeral March for the Metal Knight</title>
+			<title code="0x02000003">A Victorious Bell is Ringing</title>
+			<title code="0x00000000">SFX #00</title>
+			<title code="0x01000000">SFX #01</title>
+			<title code="0x02000000">SFX #02</title>
+			<title code="0x03000000">SFX #03</title>
+			<title code="0x04000000">SFX #04</title>
+			<title code="0x05000000">SFX #05</title>
+			<title code="0x06000000">SFX #06</title>
+			<title code="0x07000000">SFX #07</title>
+			<title code="0x08000000">SFX #08</title>
+			<title code="0x09000000">SFX #09</title>
+			<title code="0x0a000000">SFX #10</title>
+			<title code="0x0b000000">SFX #11</title>
+			<title code="0x0c000000">SFX #12</title>
+			<title code="0x0d000000">SFX #13</title>
+			<title code="0x0e000000">SFX #14</title>
+			<title code="0x0f000000">SFX #15</title>
+			<title code="0x10000000">SFX #16</title>
+			<title code="0x11000000">SFX #17</title>
+			<title code="0x12000000">SFX #18</title>
+			<title code="0x13000000">SFX #19</title>
+			<title code="0x14000000">SFX #20</title>
+			<title code="0x15000000">SFX #21</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] D' (ディーダッシュ) (YM2151)</name>
+		<driver type="opm">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+		</options>
+		<romlist archive="x1d'">
+			<rom type="code" offset="0x1000">OPMPRG</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x00">MA000</rom>
+			<rom type="bgm" offset="0x01">MA001</rom>
+			<rom type="bgm" offset="0x02">MA002</rom>
+			<rom type="bgm" offset="0x03">MA003</rom>
+			<rom type="bgm" offset="0x04">MA004</rom>
+			<rom type="bgm" offset="0x05">MA005</rom>
+			<rom type="bgm" offset="0x06">MA006</rom>
+			<rom type="bgm" offset="0x07">MA007</rom>
+			<rom type="bgm" offset="0x08">MA008</rom>
+			<rom type="bgm" offset="0x09">MA009</rom>
+			<rom type="bgm" offset="0x0a">MA010</rom>
+			<rom type="bgm" offset="0x0b">MA011</rom>
+			<rom type="bgm" offset="0x0c">MA012</rom>
+			<rom type="bgm" offset="0x0d">MA013</rom>
+			<rom type="bgm" offset="0x0e">MA100</rom>
+			<rom type="bgm" offset="0x0f">MA101</rom>
+			<rom type="bgm" offset="0x10">MA102</rom>
+			<rom type="bgm" offset="0x11">MA103</rom>
+			<rom type="bgm" offset="0x12">MA104</rom>
+			<rom type="bgm" offset="0x13">MA105</rom>
+			<rom type="bgm" offset="0x14">MA106</rom>
+			<rom type="bgm" offset="0x15">MA107</rom>
+			<rom type="bgm" offset="0x16">MA108</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Macrocosmos</title>
+			<title code="0x00000001">Final Countdown</title>
+			<title code="0x01000001">Star Dust Requiem</title>
+			<title code="0x00000002">Macrocosmos</title>
+		<!--	<title code="0x00000003">Final Countdown</title> -->
+		<!--	<title code="0x00000004">Star Dust Requiem</title> -->
+			<title code="0x00000005">Coming Soon</title>
+			<title code="0x00000006">Factory</title>
+			<title code="0x00000007">In Fortress</title>
+			<title code="0x00000008">Enemy Hunter</title>
+			<title code="0x00000009">Space Humanoid</title>
+			<title code="0x0000000a">At Last</title>
+			<title code="0x0000000b">Secret Code D'</title>
+			<title code="0x0000000c">Break Point</title>
+		<!--	<title code="0x0100000c">SFX #01</title> -->
+			<title code="0x0000000d">Greater</title>
+			<title code="0x0100000d">SFX #01</title>
+		<!--	<title code="0x0000000e">Coming Soon</title> -->
+		<!--	<title code="0x0000000f">Factory</title> -->
+		<!--	<title code="0x00000010">In Fortress</title> -->
+		<!--	<title code="0x00000011">Enemy Hunter</title> -->
+		<!--	<title code="0x00000012">Space Humanoid</title> -->
+		<!--	<title code="0x00000013">At Last</title> -->
+		<!--	<title code="0x00000014">Break Point</title> -->
+		<!--	<title code="0x01000014">SFX #01</title> -->
+		<!--	<title code="0x00000015">Greater</title> -->
+		<!--	<title code="0x01000015">SFX #01</title> -->
+		<!--	<title code="0x00000016">Secret Code D'</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] D' (ディーダッシュ) (YM2149)</name>
+		<driver type="psg">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+		</options>
+		<romlist archive="x1d'">
+			<rom type="code" offset="0x1000">PSGPRG</rom>
+			<rom type="code" offset="0xf000">PATCH2</rom>
+			<rom type="bgm" offset="0x00">MB000</rom>
+			<rom type="bgm" offset="0x01">MB001</rom>
+			<rom type="bgm" offset="0x02">MB002</rom>
+			<rom type="bgm" offset="0x03">MB100</rom>
+			<rom type="bgm" offset="0x04">MB101</rom>
+			<rom type="bgm" offset="0x05">MB102</rom>
+			<rom type="bgm" offset="0x06">MB103</rom>
+			<rom type="bgm" offset="0x07">MB104</rom>
+			<rom type="bgm" offset="0x08">MB105</rom>
+			<rom type="bgm" offset="0x09">MB106</rom>
+			<rom type="bgm" offset="0x0a">MB107</rom>
+			<rom type="bgm" offset="0x0b">MB108</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">Macrocosmos</title>
+			<title code="0x00000001">Final Countdown</title>
+			<title code="0x00000002">Star Dust Requiem</title>
+			<title code="0x00000003">Coming Soon</title>
+			<title code="0x00000004">Factory</title>
+			<title code="0x00000005">In Fortress</title>
+			<title code="0x00000006">Enemy Hunter</title>
+			<title code="0x00000007">Space Humanoid</title>
+			<title code="0x00000008">At Last</title>
+			<title code="0x00000009">Secret Code D'</title>
+			<title code="0x0000000a">Break Point</title>
+		<!--	<title code="0x0100000a">SFX #01</title> -->
+			<title code="0x0000000b">Greater</title>
+			<title code="0x0100000b">SFX #01</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Shin Ku Gyoku Den (新九玉伝) (YM2151)</name>
+		<driver type="opm">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+		</options>
+		<romlist archive="x1skugyoku">
+			<rom type="code" offset="0x0000">BIOS</rom>
+			<rom type="code" offset="0x1000">MUSDRV08</rom>
+			<rom type="code" offset="0x3000">G-EFECTB</rom>
+			<rom type="code" offset="0x3400">DEMOE002</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x01">OPENMUS2</rom>
+			<rom type="bgm" offset="0x02">OPENMUS4</rom>
+			<rom type="bgm" offset="0x03">BGMB00</rom>
+			<rom type="bgm" offset="0x04">BGMB01</rom>
+			<rom type="bgm" offset="0x05">BGMB02</rom>
+			<rom type="bgm" offset="0x06">BGMB03</rom>
+			<rom type="bgm" offset="0x07">BGMB04</rom>
+			<rom type="bgm" offset="0x08">BGMB05</rom>
+			<rom type="bgm" offset="0x09">BGMB06</rom>
+			<rom type="bgm" offset="0x0a">BGMB07</rom>
+			<rom type="bgm" offset="0x0b">BGMB08</rom>
+			<rom type="bgm" offset="0x0c">BGMB09</rom>
+			<rom type="bgm" offset="0x0d">BGMB10</rom>
+			<rom type="bgm" offset="0x0e">BGMB11</rom>
+			<rom type="bgm" offset="0x0f">BGMB12</rom>
+			<rom type="bgm" offset="0x10">BGMB13</rom>
+			<rom type="bgm" offset="0x11">BOSBBGM1</rom>
+			<rom type="bgm" offset="0x12">BOSBBGM2</rom>
+			<rom type="bgm" offset="0x13">BOSBBGM3</rom>
+			<rom type="bgm" offset="0x14">BGMSB00</rom>
+			<rom type="bgm" offset="0x15">BGMSB01</rom>
+			<rom type="bgm" offset="0x16">ENDMUS2</rom>
+			<rom type="bgm" offset="0x17">ENDMUS4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">The Nine Gems [Story]</title>
+			<title code="0x00000001">Straight Away [Opening Theme]</title>
+			<title code="0xff000003">On the Street Corner [Town 1]</title>
+			<title code="0xff000004">The Road of Hotoke [Town 2]</title>
+			<title code="0xff000005">Look for Number Eight [Battle 2]</title>
+			<title code="0xff000006">Big Kids March [Town 3]</title>
+			<title code="0xff000007">Etude of Wind [Underground 1]</title>
+			<title code="0xff000008">No Relation [Battle 4]</title>
+			<title code="0xff000009">Stranger [Town 4]</title>
+			<title code="0xff00000a">A Light Breeze [Town 5]</title>
+			<title code="0xff00000b">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0xff00000c">The Dark Side [Underground 3]</title>
+			<title code="0xff00000d">Power of Gems [Battle 1]</title>
+			<title code="0xff00000e">Crystal Sparkling with Joy [Church]</title>
+			<title code="0xff00000f">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0xff000010">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0xff000011">Crazy Dance 1 [Boss 1]</title>
+			<title code="0xff000012">Fire Dragon [Boss 2]</title>
+			<title code="0xff000013">Crazy Dance 2 [Boss 3]</title>
+			<title code="0xff000014">But And! [Shop, Inn]</title>
+			<title code="0xff000015">People in the Town [House]</title>
+			<title code="0xff000016">Far Away [Ending]</title>
+			<title code="0x00000017">Adventures (High Way Star) [Staff Roll]</title>
+			<title code="0x00000000">効果音#00</title>
+			<title code="0x01000000">効果音#01</title>
+			<title code="0x02000000">効果音#02</title>
+			<title code="0x03000000">効果音#03</title>
+			<title code="0x04000000">効果音#04</title>
+			<title code="0x05000000">効果音#05</title>
+			<title code="0x06000000">効果音#06</title>
+			<title code="0x07000000">効果音#07</title>
+			<title code="0x08000000">効果音#08</title>
+			<title code="0x09000000">効果音#09</title>
+			<title code="0x0a000000">効果音#10</title>
+			<title code="0x0b000000">効果音#11</title>
+			<title code="0x0c000000">効果音#12</title>
+			<title code="0x0d000000">効果音#13</title>
+			<title code="0x0e000000">効果音#14</title>
+			<title code="0x0f000000">効果音#15</title>
+			<title code="0x10000000">効果音#16</title>
+			<title code="0x11000000">効果音#17</title>
+			<title code="0x12000000">効果音#18</title>
+			<title code="0x20000000">効果音#19</title>
+			<title code="0x21000000">効果音#20</title>
+			<title code="0x22000000">効果音#21</title>
+			<title code="0x23000000">効果音#22</title>
+			<title code="0x24000000">効果音#23</title>
+			<title code="0x25000000">効果音#24</title>
+			<title code="0x26000000">効果音#25</title>
+			<title code="0x27000000">効果音#26</title>
+			<title code="0x28000000">効果音#27</title>
+			<title code="0x29000000">効果音#28</title>
+			<title code="0x2a000000">効果音#29</title>
+			<title code="0x2b000000">効果音#30</title>
+			<title code="0x2c000000">効果音#31</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X1] Shin Ku Gyoku Den (新九玉伝) (YM2149)</name>
+		<driver type="psg">x1</driver>
+		<driveralias type="X1">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0xf000"/>
+		</options>
+		<romlist archive="x1skugyoku">
+			<rom type="code" offset="0x0000">BIOS</rom>
+			<rom type="code" offset="0x1000">MUSDRV03</rom>
+			<rom type="code" offset="0x3000">G-EFECTA</rom>
+			<rom type="code" offset="0x3400">DEMOE001</rom>
+			<rom type="code" offset="0xf000">PATCH</rom>
+			<rom type="bgm" offset="0x01">OPENMUS1</rom>
+			<rom type="bgm" offset="0x02">OPENMUS3</rom>
+			<rom type="bgm" offset="0x03">BGMA00</rom>
+			<rom type="bgm" offset="0x04">BGMA01</rom>
+			<rom type="bgm" offset="0x05">BGMA02</rom>
+			<rom type="bgm" offset="0x06">BGMA03</rom>
+			<rom type="bgm" offset="0x07">BGMA04</rom>
+			<rom type="bgm" offset="0x08">BGMA05</rom>
+			<rom type="bgm" offset="0x09">BGMA06</rom>
+			<rom type="bgm" offset="0x0a">BGMA07</rom>
+			<rom type="bgm" offset="0x0b">BGMA08</rom>
+			<rom type="bgm" offset="0x0c">BGMA09</rom>
+			<rom type="bgm" offset="0x0d">BGMA10</rom>
+			<rom type="bgm" offset="0x0e">BGMA11</rom>
+			<rom type="bgm" offset="0x0f">BGMA12</rom>
+			<rom type="bgm" offset="0x10">BGMA13</rom>
+			<rom type="bgm" offset="0x11">BOSABGM1</rom>
+			<rom type="bgm" offset="0x12">BOSABGM2</rom>
+			<rom type="bgm" offset="0x13">BOSABGM3</rom>
+			<rom type="bgm" offset="0x14">BGMSA00</rom>
+			<rom type="bgm" offset="0x15">BGMSA01</rom>
+			<rom type="bgm" offset="0x16">ENDMUS1</rom>
+			<rom type="bgm" offset="0x17">ENDMUS3</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000002">The Nine Gems [Story]</title>
+			<title code="0x00000001">Straight Away [Opening Theme]</title>
+			<title code="0xff000003">On the Street Corner [Town 1]</title>
+			<title code="0xff000004">The Road of Hotoke [Town 2]</title>
+			<title code="0xff000005">Look for Number Eight [Battle 2]</title>
+			<title code="0xff000006">Big Kids March [Town 3]</title>
+			<title code="0xff000007">Etude of Wind [Underground 1]</title>
+			<title code="0xff000008">No Relation [Battle 4]</title>
+			<title code="0xff000009">Stranger [Town 4]</title>
+			<title code="0xff00000a">A Light Breeze [Town 5]</title>
+			<title code="0xff00000b">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0xff00000c">The Dark Side [Underground 3]</title>
+			<title code="0xff00000d">Power of Gems [Battle 1]</title>
+			<title code="0xff00000e">Crystal Sparkling with Joy [Church]</title>
+			<title code="0xff00000f">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0xff000010">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0xff000011">Crazy Dance 1 [Boss 1]</title>
+			<title code="0xff000012">Fire Dragon [Boss 2]</title>
+			<title code="0xff000013">Crazy Dance 2 [Boss 3]</title>
+			<title code="0xff000014">But And! [Shop, Inn]</title>
+			<title code="0xff000015">People in the Town [House]</title>
+			<title code="0xff000016">Far Away [Ending]</title>
+			<title code="0x00000017">Adventures (High Way Star) [Staff Roll]</title>
+			<title code="0x00000000">効果音#00</title>
+			<title code="0x01000000">効果音#01</title>
+			<title code="0x02000000">効果音#02</title>
+			<title code="0x03000000">効果音#03</title>
+			<title code="0x04000000">効果音#04</title>
+			<title code="0x05000000">効果音#05</title>
+			<title code="0x06000000">効果音#06</title>
+			<title code="0x07000000">効果音#07</title>
+			<title code="0x08000000">効果音#08</title>
+			<title code="0x09000000">効果音#09</title>
+			<title code="0x0a000000">効果音#10</title>
+			<title code="0x0b000000">効果音#11</title>
+			<title code="0x0c000000">効果音#12</title>
+			<title code="0x0d000000">効果音#13</title>
+			<title code="0x0e000000">効果音#14</title>
+			<title code="0x0f000000">効果音#15</title>
+			<title code="0x10000000">効果音#16</title>
+			<title code="0x11000000">効果音#17</title>
+			<title code="0x12000000">効果音#18</title>
+			<title code="0x20000000">効果音#19</title>
+			<title code="0x21000000">効果音#20</title>
+			<title code="0x22000000">効果音#21</title>
+			<title code="0x23000000">効果音#22</title>
+			<title code="0x24000000">効果音#23</title>
+			<title code="0x25000000">効果音#24</title>
+			<title code="0x26000000">効果音#25</title>
+			<title code="0x27000000">効果音#26</title>
+			<title code="0x28000000">効果音#27</title>
+			<title code="0x29000000">効果音#28</title>
+			<title code="0x2a000000">効果音#29</title>
+			<title code="0x2b000000">効果音#30</title>
+			<title code="0x2c000000">効果音#31</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] D' (ディーダッシュ) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xaff9"/>
+			<option name="mdata_size" value="0x0D00"/>
+			<option name="mfile_size" value="0x0D00"/>
+			<option name="init_pc" value="0x0400"/>
+		      </options>
+		<romlist archive="d'_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x3ff9">MAIN.CMD</rom>
+			<rom type="bgm" offset="0x00">MML1-1.CMD</rom>
+			<rom type="bgm" offset="0x01">MML1-2.CMD</rom>
+			<rom type="bgm" offset="0x02">MML1-3.CMD</rom>
+			<rom type="bgm" offset="0x03">MML1-4.CMD</rom>
+			<rom type="bgm" offset="0x04">MML1-5.CMD</rom>
+			<rom type="bgm" offset="0x05">MML1-6.CMD</rom>
+			<rom type="bgm" offset="0x06">MML2-3.CMD</rom>
+			<rom type="bgm" offset="0x07">MML2-4.CMD</rom>
+			<rom type="bgm" offset="0x08">MML-BGM.CMD</rom>
+			<rom type="bgm" offset="0x09">MML-BGM2.CMD</rom>
+			<rom type="bgm" offset="0x0a">MML-END.CMD</rom>
+			<rom type="bgm" offset="0x0b">MML-END2.CMD</rom>
+			<rom type="bgm" offset="0x0c">MML-OPEN.CMD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0c">Macrocosmos</title>
+			<title code="0x00">Coming Soon</title>
+			<title code="0x01">Factory</title>
+			<title code="0x02">In Fortress</title>
+			<title code="0x03">Enemy Hunter</title>
+			<title code="0x04">Space Humanoid</title>
+			<title code="0x05">At Last</title>
+			<title code="0x06">Break Point</title>
+			<title code="0x07">Greater</title>
+			<title code="0x08">Secret Code D'</title>
+			<!--
+			<title code="0x09">Secret Code D'</title>
+			  -->
+			<title code="0x0a">Star Dust Requiem</title>
+			<title code="0x0b">Final Countdown</title>
+			<range min="0x100" max="0x10f" extcode="0">SFX #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Feedback (フィードバック) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xb000"/>
+			<option name="mdata_size" value="0x1000"/>
+			<option name="mfile_size" value="0x1000"/>
+			<option name="mdata_num" value="0x021"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
+		      </options>
+		<romlist archive="feedback_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">FM00.BIN</rom>
+			<rom type="bgm" offset="0x01">FM01.BIN</rom>
+			<rom type="bgm" offset="0x02">FM02.BIN</rom>
+			<rom type="bgm" offset="0x03">FM03.BIN</rom>
+			<rom type="bgm" offset="0x04">FM04.BIN</rom>
+			<rom type="bgm" offset="0x05">FM05.BIN</rom>
+			<rom type="bgm" offset="0x06">FM06.BIN</rom>
+			<rom type="bgm" offset="0x07">FM07.BIN</rom>
+			<rom type="bgm" offset="0x08">FM08.BIN</rom>
+			<rom type="bgm" offset="0x09">FM09.BIN</rom>
+			<rom type="bgm" offset="0x0a">FM0A.BIN</rom>
+			<rom type="bgm" offset="0x0b">FM0B.BIN</rom>
+			<rom type="bgm" offset="0x0c">FM0C.BIN</rom>
+			<rom type="bgm" offset="0x0d">FM0D.BIN</rom>
+			<rom type="bgm" offset="0x0e">FM0E.BIN</rom>
+			<rom type="bgm" offset="0x0f">FM0F.BIN</rom>
+			<rom type="bgm" offset="0x10">FM10.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stage 1</title>
+			<title code="0x01">Stage 2</title>
+			<title code="0x02">Stage 3</title>
+			<title code="0x03">Stage 4</title>
+			<title code="0x05">Stage 5</title>
+			<title code="0x06">Stage 6</title>
+			<title code="0x07">Opening #1</title>
+			<title code="0x08">Opening #2</title>
+			<title code="0x04">Ending #1</title>
+			<title code="0x09">Ending #2</title>
+			<title code="0x0a">Hyper Drive</title>
+			<title code="0x0c">Game Over</title>
+			<title code="0x0d">Boss</title>
+			<title code="0x0e">Clear#1</title>
+			<title code="0x0f">Clear#2</title>
+			<!--
+			<title code="0x0b">Clear #2</title>
+			  -->
+			<title code="0x10">Warp</title>
+			<title code="0x100">Power Up</title>
+			<title code="0x101">Shot #1</title>
+			<title code="0x102">SHOT #2</title>
+			<title code="0x103">Player Damage</title>
+			<title code="0x104">Enemy Damage</title>
+			<title code="0x105">Item</title>
+			<title code="0x106">Fire Ball</title>
+			<title code="0x107">Enemy Shot</title>
+			<title code="0x108">Appier #1</title>
+			<title code="0x109">Appier #2</title>
+			<title code="0x10a">Fall</title>
+			<title code="0x10b">Reflection</title>
+			<title code="0x10c">Burst</title>
+			<title code="0x10d">Missile</title>
+			<title code="0x10e">Catapulting</title>
+			<title code="0x10f">Pause</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Feedback (フィードバック) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xb000"/>
+			<option name="mdata_size" value="0x1000"/>
+			<option name="mfile_size" value="0x1000"/>
+			<option name="mdata_num" value="0x021"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="feedback_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">PSG00.BIN</rom>
+			<rom type="bgm" offset="0x01">PSG01.BIN</rom>
+			<rom type="bgm" offset="0x02">PSG02.BIN</rom>
+			<rom type="bgm" offset="0x03">PSG03.BIN</rom>
+			<rom type="bgm" offset="0x04">PSG04.BIN</rom>
+			<rom type="bgm" offset="0x05">PSG05.BIN</rom>
+			<rom type="bgm" offset="0x06">PSG06.BIN</rom>
+			<rom type="bgm" offset="0x07">PSG07.BIN</rom>
+			<rom type="bgm" offset="0x08">PSG08.BIN</rom>
+			<rom type="bgm" offset="0x09">PSG09.BIN</rom>
+			<rom type="bgm" offset="0x0a">PSG0A.BIN</rom>
+			<rom type="bgm" offset="0x0b">PSG0B.BIN</rom>
+			<rom type="bgm" offset="0x0c">PSG0C.BIN</rom>
+			<rom type="bgm" offset="0x0d">PSG0D.BIN</rom>
+			<rom type="bgm" offset="0x0e">PSG0E.BIN</rom>
+			<rom type="bgm" offset="0x0f">PSG0F.BIN</rom>
+			<rom type="bgm" offset="0x10">PSG10.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stage 1</title>
+			<title code="0x01">Stage 2</title>
+			<title code="0x02">Stage 3</title>
+			<title code="0x03">Stage 4</title>
+			<title code="0x05">Stage 5</title>
+			<title code="0x06">Stage 6</title>
+			<title code="0x07">Opening #1</title>
+			<title code="0x08">Opening #2</title>
+			<title code="0x04">Ending #1</title>
+			<title code="0x09">Ending #2</title>
+			<title code="0x0a">Hyper Drive</title>
+			<title code="0x0c">Game Over</title>
+			<title code="0x0d">Boss</title>
+			<title code="0x0e">Clear#1</title>
+			<title code="0x0f">Clear#2</title>
+			<!--
+			<title code="0x0b">Clear #2</title>
+			  -->
+			<title code="0x10">Warp</title>
+			<title code="0x100">Power Up</title>
+			<title code="0x101">Shot #1</title>
+			<title code="0x102">SHOT #2</title>
+			<title code="0x103">Player Damage</title>
+			<title code="0x104">Enemy Damage</title>
+			<title code="0x105">Item</title>
+			<title code="0x106">Fire Ball</title>
+			<title code="0x107">Enemy Shot</title>
+			<title code="0x108">Appier #1</title>
+			<title code="0x109">Appier #2</title>
+			<title code="0x10a">Fall</title>
+			<title code="0x10b">Reflection</title>
+			<title code="0x10c">Burst</title>
+			<title code="0x10d">Missile</title>
+			<title code="0x10e">Catapulting</title>
+			<title code="0x10f">Pause</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Herzog (ヘルツォーク) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xc000"/>
+			<option name="mdata_size" value="0x0C00"/>
+			<option name="mfile_size" value="0x0C00"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="herzog_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">MUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">MUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">MUS09.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0009">Originate The Strategy By Yourself [Opening II]</title>
+			<title code="0x0109">A Streak of Lighting Through The Time</title>
+			<title code="0x0000">The Previous War [Scenario Map]</title>
+			<title code="0x0001">Back To Square One [Stage 1: Vaxan (Capital of Mercies)]</title>
+			<title code="0x0002">Sleight Of Hand [Stage 2: Colna (Desert)]</title>
+			<title code="0x0003">Take It Easy [Stage 3, 9: Senty (Jungle)/Remerje (Base of Ruth)]</title>
+			<title code="0x0004">Sniper [Stage 4, 8: Astec (Ruins)/Lupars (Ice Field]</title>
+			<title code="0x0005">The Super Fighter Invigorated Us [Stage 5, 7: Cabern (Rock)/Dolmo (Snow Field)]</title>
+			<title code="0x0006">Stage 6: Meld (Sea Side)</title>
+			<title code="0x0007">The Dawn Of A New Age [Ending]</title>
+			<title code="0x0107">Funeral March For The Metal Knights [Game Over]</title>
+			<title code="0x0207">A Victorious Bell Is Ringing [Unknown]</title>
+			<title code="0x0008">The Dawn Of A New Age [Ending]</title>
+			<title code="0x0108">Funeral March For The Metal Knights [Game Over]</title>
+			<title code="0x0208">A Victorious Bell Is Ringing [Unknown]</title>
+		<!--	<title code="0x000a">Be His Soul Rest In Peace [Opening I]</title>
+			<title code="0x0000">The Fighter Called Emergency To Base [Scenario Map Last Battle]</title>	-->
+			<range min="0x10000" max="0x100ff" extcode="0">SFX #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Kugyoku Den (九玉伝)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xA0F9"/>
+			<option name="mdata_size" value="0x0B00"/>
+			<option name="mfile_size" value="0x0B00"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="kugyoku_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x3FF9">MAIN.CMD</rom>
+			<rom type="bgm" offset="0x00">MD_BGM1.CMD</rom>
+			<rom type="bgm" offset="0x01">MD_BGM2.CMD</rom>
+			<rom type="bgm" offset="0x02">MD_BGM3.CMD</rom>
+			<rom type="bgm" offset="0x03">MD_ENDIN.CMD</rom>
+			<rom type="bgm" offset="0x04">MD_MAIN.CMD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xff04">オープニング</title>
+			<title code="0x0000">メインBGM</title>
+			<title code="0x0001">ボス</title>
+			<title code="0x0002">ラスボス</title>
+			<title code="0xff03">エンディング</title>
+			<range min="0x10001" max="0x1000c" extcode="0">SFX #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Shin Ku Gyoku Den (新九玉伝) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xb400"/>
+			<option name="mdata_size" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="init_pc" value="0x0400"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="skugyoku_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xA000">FMDRV.BIN</rom>
+			<rom type="code" offset="0xAF00">TONE.BIN</rom>
+			<rom type="code" offset="0xB000">FMSE.BIN</rom>
+			<rom type="bgm" offset="0x00">FMUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">FMUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">FMUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">FMUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">FMUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">FMUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">FMUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">FMUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">FMUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">FMUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">FMUS0a.BIN</rom>
+			<rom type="bgm" offset="0x0b">FMUS0b.BIN</rom>
+			<rom type="bgm" offset="0x0c">FMUS0c.BIN</rom>
+			<rom type="bgm" offset="0x0d">FMUS0d.BIN</rom>
+			<rom type="bgm" offset="0x0e">FMUS0e.BIN</rom>
+			<rom type="bgm" offset="0x0f">FMUS0f.BIN</rom>
+			<rom type="bgm" offset="0x10">FMUS10.BIN</rom>
+			<rom type="bgm" offset="0x11">FMUS11.BIN</rom>
+			<rom type="bgm" offset="0x12">FMUS12.BIN</rom>
+			<rom type="bgm" offset="0x13">FMUS13.BIN</rom>
+			<rom type="bgm" offset="0x14">FMUS14.BIN</rom>
+			<rom type="bgm" offset="0x15">FMUS15.BIN</rom>
+			<rom type="bgm" offset="0x16">FMUS16.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">The Nine Gems [Story]</title>
+			<title code="0x02">Straight Away [Opening Theme]</title>
+			<title code="0x04">On the Street Corner [Town 1]</title>
+			<title code="0x05">The Road of Hotoke [Town 2]</title>
+			<title code="0x06">Look for Number Eight [Battle 2]</title>
+			<title code="0x07">Big Kids March [Town 3]</title>
+			<title code="0x08">Etude of Wind [Underground 1]</title>
+			<title code="0x09">No Relation [Battle 4]</title>
+			<title code="0x0a">Stranger [Town 4]</title>
+			<title code="0x0b">A Light Breeze [Town 5]</title>
+			<title code="0x0c">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0x0d">The Dark Side [Underground 3]</title>
+			<title code="0x0e">Power of Gems [Battle 1]</title>
+			<title code="0x0f">Crystal Sparkling with Joy [Church]</title>
+			<title code="0x10">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0x16">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0x11">Crazy Dance [Boss 1]</title>
+			<title code="0x12">Fire Dragon [Boss 2]</title>
+			<title code="0x13">Crazy Dance 2 [Boss 3]</title>
+			<title code="0x14">But And! [Shop, Inn]</title>
+			<title code="0x15">People in the Town [House]</title>
+			<title code="0x00">Far Away [Ending]</title>
+			<title code="0x01">Adventures (High Way Star) [Staff Roll]</title>
+			<range min="0x10000" max="0x1000c" extcode="0">SFX #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Shin Ku Gyoku Den (新九玉伝) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX">Tecnosoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xb400"/>
+			<option name="mdata_size" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="skugyoku_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xA000">PSGDRV.BIN</rom>
+			<rom type="code" offset="0xB000">PSGSE.BIN</rom>
+			<rom type="bgm" offset="0x00">PMUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">PMUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">PMUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">PMUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">PMUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">PMUS05.BIN</rom>
+			<rom type="bgm" offset="0x06">PMUS06.BIN</rom>
+			<rom type="bgm" offset="0x07">PMUS07.BIN</rom>
+			<rom type="bgm" offset="0x08">PMUS08.BIN</rom>
+			<rom type="bgm" offset="0x09">PMUS09.BIN</rom>
+			<rom type="bgm" offset="0x0a">PMUS0a.BIN</rom>
+			<rom type="bgm" offset="0x0b">PMUS0b.BIN</rom>
+			<rom type="bgm" offset="0x0c">PMUS0c.BIN</rom>
+			<rom type="bgm" offset="0x0d">PMUS0d.BIN</rom>
+			<rom type="bgm" offset="0x0e">PMUS0e.BIN</rom>
+			<rom type="bgm" offset="0x0f">PMUS0f.BIN</rom>
+			<rom type="bgm" offset="0x10">PMUS10.BIN</rom>
+			<rom type="bgm" offset="0x11">PMUS11.BIN</rom>
+			<rom type="bgm" offset="0x12">PMUS12.BIN</rom>
+			<rom type="bgm" offset="0x13">PMUS13.BIN</rom>
+			<rom type="bgm" offset="0x14">PMUS14.BIN</rom>
+			<rom type="bgm" offset="0x15">PMUS15.BIN</rom>
+			<rom type="bgm" offset="0x16">PMUS16.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">The Nine Gems [Story]</title>
+			<title code="0x00">Straight Away [Opening Theme]</title>
+			<title code="0x04">On the Street Corner [Town 1]</title>
+			<title code="0x05">The Road of Hotoke [Town 2]</title>
+			<title code="0x06">Look for Number Eight [Battle 2]</title>
+			<title code="0x07">Big Kids March [Town 3]</title>
+			<title code="0x08">Etude of Wind [Underground 1]</title>
+			<title code="0x09">No Relation [Battle 4]</title>
+			<title code="0x0a">Stranger [Town 4]</title>
+			<title code="0x0b">A Light Breeze [Town 5]</title>
+			<title code="0x0c">Night Closed Upon the Scene [Underground 2]</title>
+			<title code="0x0d">The Dark Side [Underground 3]</title>
+			<title code="0x0e">Power of Gems [Battle 1]</title>
+			<title code="0x0f">Crystal Sparkling with Joy [Church]</title>
+			<title code="0x10">The Legend of Nine Gems [Battle 3]</title>
+			<title code="0x16">Begin One's Journey [Castle "Gabas"]</title>
+			<title code="0x12">But And! [Shop, Inn]</title>
+			<title code="0x13">People in the Town [House]</title>
+			<title code="0x14">Crazy Dance [Boss 1]</title>
+			<title code="0x15">Fire Dragon [Boss 2]</title>
+			<title code="0x16">Crazy Dance 2 [Boss 3]</title>
+			<title code="0x02">Far Away [Ending]</title>
+			<title code="0x03">Adventures (High Way Star) [Staff Roll]</title>
+			<range min="0x10000" max="0x1000c" extcode="0">SFX #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[FM77-AV] Kugyoku Den (九玉伝)</name>
+		<driver type="generic">fm77av</driver>
+		<driveralias type="FM77-AV">Tecnosoft</driveralias>
+		<options>
+			<option name="init_pc" value="0x5000"/>
+			<option name="mdata_addr" value="0xa000"/>
+			<option name="mfile_size" value="0x1000"/>
+			<option name="mdata_size" value="0x1000"/>
+		</options>
+		<romlist archive="kugyoku_fmav">
+			<rom type="code" offset="0x0000">DRIVER.BIN</rom>
+			<rom type="code" offset="0x1800">DRIVER2.BIN</rom>
+			<rom type="code" offset="0x5000">PATCH.BIN</rom>
+			<rom type="irom" offset="0x0000">INITIATE.ROM</rom>
+			<rom type="bgm" offset="0x00">MUS00.BIN</rom>
+			<rom type="bgm" offset="0x01">MUS01.BIN</rom>
+			<rom type="bgm" offset="0x02">MUS02.BIN</rom>
+			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
+			<rom type="bgm" offset="0x04">MUS04.BIN</rom>
+			<rom type="bgm" offset="0x05">MUS05.BIN</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00000000">オープニング</title>
+			<title code="0x01000102">メインBGM</title>
+			<title code="0x02000004">ボス</title>
+			<title code="0x01000003">ラスボス</title>
+			<title code="0x00000001">エンディング</title>
+		<!--	<title code="0x00000005">エンディング</title> -->
+			<title code="0x010000">SFX #00</title>
+			<title code="0x010001">SFX #01</title>
+			<title code="0x010002">SFX #02</title>
+			<title code="0x010003">SFX #03</title>
+			<title code="0x010004">SFX #04</title>
+			<title code="0x010005">SFX #05</title>
+			<title code="0x010006">SFX #06</title>
+			<title code="0x010007">SFX #07</title>
+			<title code="0x010008">SFX #08</title>
+			<title code="0x010009">SFX #09</title>
+			<title code="0x01000a">SFX #0a</title>
+			<title code="0x01000b">SFX #0b</title>
+			<title code="0x01000c">SFX #0c</title>
+			<title code="0x01000d">SFX #0d</title>
+			<title code="0x01000e">SFX #0e</title>
+			<title code="0x01000f">SFX #0f</title>
+			<title code="0x020001">SFX #11</title>
+			<title code="0x020002">SFX #12</title>
+			<title code="0x020003">SFX #13</title>
+			<title code="0x020004">SFX #14</title>
+			<title code="0x020005">SFX #15</title>
+			<title code="0x020006">SFX #16</title>
+			<title code="0x020007">SFX #17</title>
+			<title code="0x020008">SFX #18</title>
+			<title code="0x020009">SFX #19</title>
+			<title code="0x02000a">SFX #1a</title>
+			<title code="0x02000b">SFX #1b</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Hyper Duel] Hyper Duel (ハイパーデュエル) (YM2151+MSM6295)</name>
+		<driver type="hyperduel">technosoft</driver>
+		<driveralias type="Arcade">Tecnosoft</driveralias>
+		<options>
+			<option name="opm_mix" value="0x190"/>
+			<option name="pcm_mix" value="0x110"/>
+		</options>
+		<romlist archive="hyprduel">
+			<rom type="code" offset="0x000000">ts_hyper-1.u74</rom>
+			<rom type="code" offset="0x000002">ts_hyper-2.u75</rom>
+			<rom type="code" offset="0x000004">ts_hyper-3.u76</rom>
+			<rom type="code" offset="0x000006">ts_hyper-4.u77</rom>
+			<rom type="pcm" offset="0x00000">97.u97</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Select</title>
+			<title code="0x00">Cyber Fleet [Stage 1]</title>
+			<title code="0x08">Boiled Kraken [Boss 1, 7]</title>
+			<title code="0x01">Full Burner [Stage 2]</title>
+			<title code="0x09">Cry Bringer [Boss 2]</title>
+			<title code="0x02">Hidden Moon [Stage 3]</title>
+			<title code="0x0a">I.W.A.O [Boss 3]</title>
+			<title code="0x03">Cosmo Babylon [Stage 4]</title>
+			<title code="0x0b">Black Angel [Boss 4]</title>
+			<title code="0x04">Count Down [Stage 5]</title>
+			<title code="0x05">Black Rain [Stage 6]</title>
+			<title code="0x0c">Nightmare [Boss 6]</title>
+			<title code="0x06">Night Sweeper [Stage 7]</title>
+			<title code="0x07">Bloody Government [Stage 8]</title>
+			<title code="0x0d">Hyper Duel [Boss 8]</title>
+			<title code="0x0e">Stage Clear</title>
+			<title code="0x11">Negative Energy [Ending]</title>
+			<title code="0x12">Congratulations!! [Ranking]</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x13">Venus Fire [Omake BGM -Thunder Force 3 -Stage 2-]</title>
+			<title code="0x14">Hunger Made Them Desperate [Omake BGM -Thunder Force 3 -Stage 7-]</title>
+		</titlelist>
+	</game>
+</gamelist>

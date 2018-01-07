@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- California Dreams -->
+	<game>
+		<name>[PC/AT] Street Rod 2 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">California Dreams</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="streetrod2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">MSRBEG.MUS</rom>
+			<rom type="file" offset="0x11">MSR.SND</rom>
+			<rom type="file" offset="0x12">MSR2.MUS</rom>
+			<rom type="file" offset="0x13">MSR.SND</rom>
+			<rom type="file" offset="0x14">MSR21.MUS</rom>
+			<rom type="file" offset="0x15">MSR.SND</rom>
+			<rom type="file" offset="0x16">MSR24.MUS</rom>
+			<rom type="file" offset="0x17">MSR.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x12">Music 2</title>
+			<title code="0x14">Music 3</title>
+			<title code="0x16">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Tunnels of Armageddon (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">California Dreams</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="tarmageddon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">MTUBEG.MUS</rom>
+			<rom type="file" offset="0x11">MTU.SND</rom>
+			<rom type="file" offset="0x12">MTUFUN.MUS</rom>
+			<rom type="file" offset="0x13">MTU.SND</rom>
+			<rom type="file" offset="0x14">MTUSTAGE.MUS</rom>
+			<rom type="file" offset="0x15">MTU.SND</rom>
+			<rom type="file" offset="0x16">MTUWIN.MUS</rom>
+			<rom type="file" offset="0x17">MTU.SND</rom>
+			<rom type="file" offset="0x18">MTUEND.MUS</rom>
+			<rom type="file" offset="0x19">MTU.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0xFF12">Music 2</title>
+			<title code="0xFF14">Music 3</title>
+			<title code="0x16">Music 4</title>
+			<title code="0xFF18">Music 5</title>
+		</titlelist>
+	</game>
+</gamelist>

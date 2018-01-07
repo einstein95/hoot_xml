@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Ocean -->
+	<game>
+		<name>[PC/AT] Cool World (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="1"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="coolworld_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">BGM #01</title>
+			<title code="0x1001">BGM #02</title>
+			<title code="0x1002">BGM #03</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elf (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x100"/>
+		</options>
+		<romlist archive="elf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">ATUNE1.BIN</rom>
+			<rom type="file" offset="0x11">ATUNE2.BIN</rom>
+			<rom type="file" offset="0x12">ATUNE3.BIN</rom>
+			<rom type="file" offset="0x13">ATUNE4.BIN</rom>
+			<rom type="file" offset="0x14">ATUNE5.BIN</rom>
+			<rom type="file" offset="0x15">ATUNE6.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elf (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="elf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">RTUNE1.BIN</rom>
+			<rom type="file" offset="0x11">RTUNE2.BIN</rom>
+			<rom type="file" offset="0x12">RTUNE3.BIN</rom>
+			<rom type="file" offset="0x13">RTUNE4.BIN</rom>
+			<rom type="file" offset="0x14">RTUNE5.BIN</rom>
+			<rom type="file" offset="0x15">RTUNE6.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elf (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="elf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x10">RTUNE1.BIN</rom>
+			<rom type="file" offset="0x11">RTUNE2.BIN</rom>
+			<rom type="file" offset="0x12">RTUNE3.BIN</rom>
+			<rom type="file" offset="0x13">RTUNE4.BIN</rom>
+			<rom type="file" offset="0x14">RTUNE5.BIN</rom>
+			<rom type="file" offset="0x15">RTUNE6.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jurassic Park (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="jurpark_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.ADL</rom>
+			<rom type="file" offset="0x11">3DMUSIC.ADL</rom>
+			<rom type="file" offset="0x12">PTEROMUS.ADL</rom>
+			<rom type="file" offset="0x13">REXCHASE.ADL</rom>
+			<rom type="file" offset="0x14">ROCKAREA.ADL</rom>
+			<rom type="file" offset="0x15">TUNNELS.ADL</rom>
+			<rom type="file" offset="0x16">OUTRO.ADL</rom>
+			<rom type="shell" offset="0">CODE.COM 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">3DMUSIC</title>
+			<title code="0x12">PTEROMUS</title>
+			<title code="0x13">REXCHASE</title>
+			<title code="0x14">ROCKAREA</title>
+			<title code="0x15">TUNNELS</title>
+			<title code="0x16">OUTRO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jurassic Park (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="jurpark_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">3DMUSIC.LAP</rom>
+			<rom type="file" offset="0x12">PTEROMUS.LAP</rom>
+			<rom type="file" offset="0x13">REXCHASE.LAP</rom>
+			<rom type="file" offset="0x14">ROCKAREA.LAP</rom>
+			<rom type="file" offset="0x15">TUNNELS.LAP</rom>
+			<rom type="file" offset="0x16">OUTRO.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">3DMUSIC</title>
+			<title code="0x12">PTEROMUS</title>
+			<title code="0x13">REXCHASE</title>
+			<title code="0x14">ROCKAREA</title>
+			<title code="0x15">TUNNELS</title>
+			<title code="0x16">OUTRO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jurassic Park (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="jurpark_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">3DMUSIC.LAP</rom>
+			<rom type="file" offset="0x12">PTEROMUS.LAP</rom>
+			<rom type="file" offset="0x13">REXCHASE.LAP</rom>
+			<rom type="file" offset="0x14">ROCKAREA.LAP</rom>
+			<rom type="file" offset="0x15">TUNNELS.LAP</rom>
+			<rom type="file" offset="0x16">OUTRO.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">3DMUSIC</title>
+			<title code="0x12">PTEROMUS</title>
+			<title code="0x13">REXCHASE</title>
+			<title code="0x14">ROCKAREA</title>
+			<title code="0x15">TUNNELS</title>
+			<title code="0x16">OUTRO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jurassic Park (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="jurpark_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.SCC</rom>
+			<rom type="file" offset="0x11">3DMUSIC.SCC</rom>
+			<rom type="file" offset="0x12">PTEROMUS.SCC</rom>
+			<rom type="file" offset="0x13">REXCHASE.SCC</rom>
+			<rom type="file" offset="0x14">ROCKAREA.SCC</rom>
+			<rom type="file" offset="0x15">TUNNELS.SCC</rom>
+			<rom type="file" offset="0x16">OUTRO.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">3DMUSIC</title>
+			<title code="0x12">PTEROMUS</title>
+			<title code="0x13">REXCHASE</title>
+			<title code="0x14">ROCKAREA</title>
+			<title code="0x15">TUNNELS</title>
+			<title code="0x16">OUTRO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hook (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="hook_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hook (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="hook_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hook (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="hook_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lethal Weapon (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="lethalwpn_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">PCTIT.ALB</rom>
+			<rom type="file" offset="0x11">PCMAP.ALB</rom>
+			<rom type="file" offset="0x12">PCING1.ALB</rom>
+			<rom type="file" offset="0x13">PCING2.ALB</rom>
+			<rom type="file" offset="0x14">PCING3A.ALB</rom>
+			<rom type="file" offset="0x15">ING4.ALB</rom>
+			<rom type="file" offset="0x16">PCING5.ALB</rom>
+			<rom type="file" offset="0x17">PCMOD.ALB</rom>
+			<rom type="file" offset="0x18">PCGO.ALB</rom>
+			<rom type="file" offset="0x19">PCHIGH.ALB</rom>
+			<rom type="file" offset="0x1A">PCCOMP.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">MAP</title>
+			<title code="0x12">INGAME 1</title>
+			<title code="0x13">INGAME 2</title>
+			<title code="0x14">INGAME 3</title>
+			<title code="0x15">INGAME 4</title>
+			<title code="0x16">INGAME 5</title>
+			<title code="0x17">EOL</title>
+			<title code="0x18">GAME OVER</title>
+			<title code="0x19">HISCORE</title>
+			<title code="0x1A">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lethal Weapon (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="lethalwpn_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">LAPC1.DRV</rom>
+			<rom type="file" offset="0x10">PCTIT.LAP</rom>
+			<rom type="file" offset="0x11">PCMAP.LAP</rom>
+			<rom type="file" offset="0x12">PCING1.LAP</rom>
+			<rom type="file" offset="0x13">PCING2.LAP</rom>
+			<rom type="file" offset="0x14">PCING3B.LAP</rom>
+			<rom type="file" offset="0x15">PCING4.LAP</rom>
+			<rom type="file" offset="0x16">PCING5.LAP</rom>
+			<rom type="file" offset="0x17">PCEOL.LAP</rom>
+			<rom type="file" offset="0x18">PCGO.LAP</rom>
+			<rom type="file" offset="0x19">PCHIGH.LAP</rom>
+			<rom type="file" offset="0x1A">PCCOMP.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">MAP</title>
+			<title code="0x12">INGAME 1</title>
+			<title code="0x13">INGAME 2</title>
+			<title code="0x14">INGAME 3</title>
+			<title code="0x15">INGAME 4</title>
+			<title code="0x16">INGAME 5</title>
+			<title code="0x17">EOL</title>
+			<title code="0x18">GAME OVER</title>
+			<title code="0x19">HISCORE</title>
+			<title code="0x1A">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Lethal Weapon (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="lethalwpn_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">LAPC1.DRV</rom>
+			<rom type="file" offset="0x10">PCTIT.LAP</rom>
+			<rom type="file" offset="0x11">PCMAP.LAP</rom>
+			<rom type="file" offset="0x12">PCING1.LAP</rom>
+			<rom type="file" offset="0x13">PCING2.LAP</rom>
+			<rom type="file" offset="0x14">PCING3B.LAP</rom>
+			<rom type="file" offset="0x15">PCING4.LAP</rom>
+			<rom type="file" offset="0x16">PCING5.LAP</rom>
+			<rom type="file" offset="0x17">PCEOL.LAP</rom>
+			<rom type="file" offset="0x18">PCGO.LAP</rom>
+			<rom type="file" offset="0x19">PCHIGH.LAP</rom>
+			<rom type="file" offset="0x1A">PCCOMP.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">MAP</title>
+			<title code="0x12">INGAME 1</title>
+			<title code="0x13">INGAME 2</title>
+			<title code="0x14">INGAME 3</title>
+			<title code="0x15">INGAME 4</title>
+			<title code="0x16">INGAME 5</title>
+			<title code="0x17">EOL</title>
+			<title code="0x18">GAME OVER</title>
+			<title code="0x19">HISCORE</title>
+			<title code="0x1A">COMPLETION</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games '92: Espana (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="espana92_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLMUS.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games '92: Espana (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="espana92_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games '92: Espana (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="espana92_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLMUS.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Simpsons: Bart vs The Space Mutants (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="simpsonsbvsm_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Simpsons: Bart vs The Space Mutants (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="simpsonsbvsm_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Simpsons: Bart vs The Space Mutants (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="simpsonsbvsm_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Wizkid (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="wizkid_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">AGRAVE.MID</rom>
+			<rom type="file" offset="0x11">ADOGGY.MID</rom>
+			<rom type="file" offset="0x12">ABIRFDAY.MID</rom>
+			<rom type="file" offset="0x13">AJAIL.MID</rom>
+			<rom type="file" offset="0x14">AOCEAN.MID</rom>
+			<rom type="file" offset="0x15">ALATIN.MID</rom>
+			<rom type="file" offset="0x16">ADRUMS.MID</rom>
+			<rom type="file" offset="0x17">AREGGIE.MID</rom>
+			<rom type="file" offset="0x18">ANELI2.MID</rom>
+			<rom type="file" offset="0x19">AWHIZZKI.MID</rom>
+			<rom type="file" offset="0x1A">A1812.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x19">WHIZZKID</title>
+			<title code="0x1A">1812</title>
+			<title code="0x12">BIRFDAY</title>
+			<title code="0x11">DOGGY</title>
+			<title code="0x16">DRUMS</title>
+			<title code="0x10">GRAVE</title>
+			<title code="0x13">JAIL</title>
+			<title code="0x15">LATIN</title>
+			<title code="0x18">NELI2</title>
+			<title code="0x14">OCEAN</title>
+			<title code="0x17">REGGIE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Wizkid (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="wizkid_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">GRAVE.MID</rom>
+			<rom type="file" offset="0x11">DOGGY.MID</rom>
+			<rom type="file" offset="0x12">BIRFDAY.MID</rom>
+			<rom type="file" offset="0x13">JAILHOUS.MID</rom>
+			<rom type="file" offset="0x14">OCEAN.MID</rom>
+			<rom type="file" offset="0x15">LATIN.MID</rom>
+			<rom type="file" offset="0x16">DRUMS.MID</rom>
+			<rom type="file" offset="0x17">REGGIE.MID</rom>
+			<rom type="file" offset="0x18">NELI2.MID</rom>
+			<rom type="file" offset="0x19">WHIZZKID.MID</rom>
+			<rom type="file" offset="0x1A">1812.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x19">WHIZZKID</title>
+			<title code="0x1A">1812</title>
+			<title code="0x12">BIRFDAY</title>
+			<title code="0x11">DOGGY</title>
+			<title code="0x16">DRUMS</title>
+			<title code="0x10">GRAVE</title>
+			<title code="0x13">JAIL</title>
+			<title code="0x15">LATIN</title>
+			<title code="0x18">NELI2</title>
+			<title code="0x14">OCEAN</title>
+			<title code="0x17">REGGIE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Wizkid (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="wizkid_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">GRAVE.MID</rom>
+			<rom type="file" offset="0x11">DOGGY.MID</rom>
+			<rom type="file" offset="0x12">BIRFDAY.MID</rom>
+			<rom type="file" offset="0x13">JAILHOUS.MID</rom>
+			<rom type="file" offset="0x14">OCEAN.MID</rom>
+			<rom type="file" offset="0x15">LATIN.MID</rom>
+			<rom type="file" offset="0x16">DRUMS.MID</rom>
+			<rom type="file" offset="0x17">REGGIE.MID</rom>
+			<rom type="file" offset="0x18">NELI2.MID</rom>
+			<rom type="file" offset="0x19">WHIZZKID.MID</rom>
+			<rom type="file" offset="0x1A">1812.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x19">WHIZZKID</title>
+			<title code="0x1A">1812</title>
+			<title code="0x12">BIRFDAY</title>
+			<title code="0x11">DOGGY</title>
+			<title code="0x16">DRUMS</title>
+			<title code="0x10">GRAVE</title>
+			<title code="0x13">JAIL</title>
+			<title code="0x15">LATIN</title>
+			<title code="0x18">NELI2</title>
+			<title code="0x14">OCEAN</title>
+			<title code="0x17">REGGIE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Wizkid (SC-55 in MT-32 mode)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="wizkid_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SC2MT.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">GRAVE.MID</rom>
+			<rom type="file" offset="0x11">DOGGY.MID</rom>
+			<rom type="file" offset="0x12">BIRFDAY.MID</rom>
+			<rom type="file" offset="0x13">JAILHOUS.MID</rom>
+			<rom type="file" offset="0x14">OCEAN.MID</rom>
+			<rom type="file" offset="0x15">LATIN.MID</rom>
+			<rom type="file" offset="0x16">DRUMS.MID</rom>
+			<rom type="file" offset="0x17">REGGIE.MID</rom>
+			<rom type="file" offset="0x18">NELI2.MID</rom>
+			<rom type="file" offset="0x19">WHIZZKID.MID</rom>
+			<rom type="file" offset="0x1A">1812.MID</rom>
+			<rom type="shell" offset="0">SC2MT.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x19">WHIZZKID</title>
+			<title code="0x1A">1812</title>
+			<title code="0x12">BIRFDAY</title>
+			<title code="0x11">DOGGY</title>
+			<title code="0x16">DRUMS</title>
+			<title code="0x10">GRAVE</title>
+			<title code="0x13">JAIL</title>
+			<title code="0x15">LATIN</title>
+			<title code="0x18">NELI2</title>
+			<title code="0x14">OCEAN</title>
+			<title code="0x17">REGGIE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WWF Wrestlemania (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="wwfwmania_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WWF Wrestlemania (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="wwfwmania_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WWF Wrestlemania (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Ocean</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="wwfwmania_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- 21st Century Entertainment -->
+	<game>
+		<name>[PC/AT] Pinball Dreams (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">21st Century Entertainment</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="pinballdreams_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.MID</rom>
+			<rom type="file" offset="0x11">SELECT.MID</rom>
+			<rom type="file" offset="0x12">JING1.MID</rom>
+			<rom type="file" offset="0x13">LEVEL1.MID</rom>
+			<rom type="file" offset="0x14">JING2.MID</rom>
+			<rom type="file" offset="0x15">LEVEL2.MID</rom>
+			<rom type="file" offset="0x16">JING3.MID</rom>
+			<rom type="file" offset="0x17">LEVEL3.MID</rom>
+			<rom type="file" offset="0x18">JING4.MID</rom>
+			<rom type="file" offset="0x19">LEVEL4.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">SELECT</title>
+			<title code="0x12">JINGLE 1</title>
+			<title code="0x13">LEVEL 1</title>
+			<title code="0x14">JINGLE 2</title>
+			<title code="0x15">LEVEL 2</title>
+			<title code="0x16">JINGLE 3</title>
+			<title code="0x17">LEVEL 3</title>
+			<title code="0x18">JINGLE 4</title>
+			<title code="0x19">LEVEL 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Pinball Dreams (Munt, MT-32 simulation) &lt;- SB .mods missing, not anytime soon, DMA not emulated</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">21st Century Entertainment</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="pinballdreams_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.MID</rom>
+			<rom type="file" offset="0x11">SELECT.MID</rom>
+			<rom type="file" offset="0x12">JING1.MID</rom>
+			<rom type="file" offset="0x13">LEVEL1.MID</rom>
+			<rom type="file" offset="0x14">JING2.MID</rom>
+			<rom type="file" offset="0x15">LEVEL2.MID</rom>
+			<rom type="file" offset="0x16">JING3.MID</rom>
+			<rom type="file" offset="0x17">LEVEL3.MID</rom>
+			<rom type="file" offset="0x18">JING4.MID</rom>
+			<rom type="file" offset="0x19">LEVEL4.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">SELECT</title>
+			<title code="0x12">JINGLE 1</title>
+			<title code="0x13">LEVEL 1</title>
+			<title code="0x14">JINGLE 2</title>
+			<title code="0x15">LEVEL 2</title>
+			<title code="0x16">JINGLE 3</title>
+			<title code="0x17">LEVEL 3</title>
+			<title code="0x18">JINGLE 4</title>
+			<title code="0x19">LEVEL 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Pinball Dreams (SC-55 in MT-32 mode)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">21st Century Entertainment</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="pinballdreams_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SC2MT.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.MID</rom>
+			<rom type="file" offset="0x11">SELECT.MID</rom>
+			<rom type="file" offset="0x12">JING1.MID</rom>
+			<rom type="file" offset="0x13">LEVEL1.MID</rom>
+			<rom type="file" offset="0x14">JING2.MID</rom>
+			<rom type="file" offset="0x15">LEVEL2.MID</rom>
+			<rom type="file" offset="0x16">JING3.MID</rom>
+			<rom type="file" offset="0x17">LEVEL3.MID</rom>
+			<rom type="file" offset="0x18">JING4.MID</rom>
+			<rom type="file" offset="0x19">LEVEL4.MID</rom>
+			<rom type="shell" offset="0">SC2MT.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">SELECT</title>
+			<title code="0x12">JINGLE 1</title>
+			<title code="0x13">LEVEL 1</title>
+			<title code="0x14">JINGLE 2</title>
+			<title code="0x15">LEVEL 2</title>
+			<title code="0x16">JINGLE 3</title>
+			<title code="0x17">LEVEL 3</title>
+			<title code="0x18">JINGLE 4</title>
+			<title code="0x19">LEVEL 4</title>
+		</titlelist>
+	</game>
+</gamelist>

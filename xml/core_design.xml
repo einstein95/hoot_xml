@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Core Design -->
+	<game>
+		<name>[PC/AT] Heimdall (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Core Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="heimdall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x0A">ALMUSIC.DAT</rom>
+			<rom type="file" offset="0x0B">PATCH.BNK</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1 (Title)</title>
+			<title code="0x11">Music 2 (Intro)</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Heimdall (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Core Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="heimdall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">CORMUSIC.DAT</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1 (Title)</title>
+			<title code="0x11">Music 2 (Intro)</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Heimdall (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Core Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="heimdall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.DRV</rom>
+			<rom type="file" offset="0x10">CORMUSIC.DAT</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1 (Title)</title>
+			<title code="0x11">Music 2 (Intro)</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Universe (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Core Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x200"/>
+		</options>
+		<romlist archive="universe_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="8">DATA.DRV</rom>
+			<rom type="file" offset="9">CODE.DRV</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x65">Music 1</title>
+			<title code="0x00">Music 2</title>
+			<title code="0x2C">Music 3</title>
+			<title code="0x41">Music 4</title>
+			<title code="0x61">Music 5</title>
+			<title code="0x6B">Music 6</title>
+			<title code="0x73">Music 7</title>
+			<title code="0x81">Music 8</title>
+			<title code="0x95">Music 9</title>
+			<title code="0x9D">Music 10</title>
+			<title code="0xBD">Music 11</title>
+			<title code="0xD6">Music 12</title>
+			<title code="0xDE">Music 13</title>
+			<title code="0xEA">Music 14</title>
+			<title code="0xF2">Music 15</title>
+			<title code="0x118">Music 16</title>
+			<title code="0x11B">Music 17</title>
+		</titlelist>
+	</game>
+</gamelist>

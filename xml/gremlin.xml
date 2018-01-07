@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Gremlin -->
+	<game>
+		<name>[PC/AT] Hero Quest (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="heroquest_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">GAME&amp;FX.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Ingame</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hero Quest (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="heroquest_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">GAME&amp;FX.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Ingame</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hero Quest (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="heroquest_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">GAME&amp;FX.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Ingame</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Plan 9 from Outer Space (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="plan9_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Plan 9 from Outer Space (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="plan9_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Plan 9 from Outer Space (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="plan9_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Space Crusade (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="spcrusade_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">ING.ALB</rom>
+			<rom type="file" offset="0x11">MEDAL.ALB</rom>
+			<rom type="file" offset="0x12">DEATH.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title/Ingame</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Death</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Space Crusade (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="spcrusade_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">ING.RLD</rom>
+			<rom type="file" offset="0x11">MEDAL.RLD</rom>
+			<rom type="file" offset="0x12">DEATH.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title/Ingame</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Death</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Space Crusade (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="spcrusade_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">ING.RLD</rom>
+			<rom type="file" offset="0x11">MEDAL.RLD</rom>
+			<rom type="file" offset="0x12">DEATH.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title/Ingame</title>
+			<title code="0x11">Completion</title>
+			<title code="0x12">Death</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Spacewrecked: 14 Billion Light Years From Earth (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="spacewrecked_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">BSSADLIB.ALB</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Spacewrecked: 14 Billion Light Years From Earth (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="spacewrecked_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">BSSROLAD.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Spacewrecked: 14 Billion Light Years From Earth (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="spacewrecked_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">BSSROLAD.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Team Suzuki (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="tsuzuki_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">CRASH.RLD</rom>
+			<rom type="file" offset="0x11">LAP.RLD</rom>
+			<rom type="file" offset="0x12">LEAGUE.RLD</rom>
+			<rom type="file" offset="0x13">LINEUP.RLD</rom>
+			<rom type="file" offset="0x14">RESULTS.RLD</rom>
+			<rom type="file" offset="0x15">TITLE.RLD</rom>
+			<rom type="file" offset="0x16">ZUKI.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">CRASH</title>
+			<title code="0x11">LAP</title>
+			<title code="0x12">LEAGUE</title>
+			<title code="0x13">LINEUP</title>
+			<title code="0x14">RESULTS</title>
+			<title code="0x15">TITLE</title>
+			<title code="0x16">ZUKI</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Team Suzuki (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="tsuzuki_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">CRASH.RLD</rom>
+			<rom type="file" offset="0x11">LAP.RLD</rom>
+			<rom type="file" offset="0x12">LEAGUE.RLD</rom>
+			<rom type="file" offset="0x13">LINEUP.RLD</rom>
+			<rom type="file" offset="0x14">RESULTS.RLD</rom>
+			<rom type="file" offset="0x15">TITLE.RLD</rom>
+			<rom type="file" offset="0x16">ZUKI.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">CRASH</title>
+			<title code="0x11">LAP</title>
+			<title code="0x12">LEAGUE</title>
+			<title code="0x13">LINEUP</title>
+			<title code="0x14">RESULTS</title>
+			<title code="0x15">TITLE</title>
+			<title code="0x16">ZUKI</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Team Suzuki (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="tsuzuki_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">CRASH.RLD</rom>
+			<rom type="file" offset="0x11">LAP.RLD</rom>
+			<rom type="file" offset="0x12">LEAGUE.RLD</rom>
+			<rom type="file" offset="0x13">LINEUP.RLD</rom>
+			<rom type="file" offset="0x14">RESULTS.RLD</rom>
+			<rom type="file" offset="0x15">TITLE.RLD</rom>
+			<rom type="file" offset="0x16">ZUKI.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">CRASH</title>
+			<title code="0x11">LAP</title>
+			<title code="0x12">LEAGUE</title>
+			<title code="0x13">LINEUP</title>
+			<title code="0x14">RESULTS</title>
+			<title code="0x15">TITLE</title>
+			<title code="0x16">ZUKI</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Toyota Celica GT Rally (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="toyota_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.ALB</rom>
+			<rom type="file" offset="0x11">ING.ALB</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Toyota Celica GT Rally (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="toyota_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">ING.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Toyota Celica GT Rally (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="toyota_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.RLD</rom>
+			<rom type="file" offset="0x11">ING.RLD</rom>
+			<rom type="shell" offset="0">CODE</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Utopia: The Creation of a Nation (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="utopia_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.DRV</rom>
+			<rom type="file" offset="0x10">MUSIC1.ALB</rom>
+			<rom type="file" offset="0x11">MUSIC2.ALB</rom>
+			<rom type="file" offset="0x12">MUSIC3.ALB</rom>
+			<rom type="file" offset="0x13">MUSIC4.ALB</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame 1</title>
+			<title code="0x12">Ingame 2</title>
+			<title code="0x13">Ingame 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Utopia: The Creation of a Nation (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="utopia_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">MUSIC1.RLD</rom>
+			<rom type="file" offset="0x11">MUSIC2.RLD</rom>
+			<rom type="file" offset="0x12">MUSIC3.RLD</rom>
+			<rom type="file" offset="0x13">MUSIC4.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame 1</title>
+			<title code="0x12">Ingame 2</title>
+			<title code="0x13">Ingame 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Utopia: The Creation of a Nation (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Gremlin</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="utopia_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">MUSIC1.RLD</rom>
+			<rom type="file" offset="0x11">MUSIC2.RLD</rom>
+			<rom type="file" offset="0x12">MUSIC3.RLD</rom>
+			<rom type="file" offset="0x13">MUSIC4.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Music</title>
+			<title code="0x11">Ingame 1</title>
+			<title code="0x12">Ingame 2</title>
+			<title code="0x13">Ingame 3</title>
+		</titlelist>
+	</game>
+</gamelist>

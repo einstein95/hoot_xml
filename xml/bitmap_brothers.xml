@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //Bitmap Brothers -->
+	<game>
+		<name>[PC/AT] Cadaver (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="cadaver_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Intro Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Cadaver (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="cadaver_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Intro Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Cadaver (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="cadaver_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Intro Music</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gods (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="gods_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">MUSIC.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gods (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="gods_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.RL</rom>
+			<rom type="file" offset="0x11">GODSRLA.RL</rom>
+			<rom type="file" offset="0x12">GODSRLB.RL</rom>
+			<rom type="file" offset="0x13">GODSRLC.RL</rom>
+			<rom type="file" offset="0x14">GODSRLD.RL</rom>
+			<rom type="file" offset="0x15">GODSRLE.RL</rom>
+			<rom type="file" offset="0x16">GODSRLF.RL</rom>
+			<rom type="file" offset="0x17">GODSRLG.RL</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+			<title code="0x1100">Ingame 1</title>
+			<title code="0x1200">Ingame 2</title>
+			<title code="0x1300">Ingame 3</title>
+			<title code="0x1400">Ingame 4</title>
+			<title code="0x1500">Ingame 5</title>
+			<title code="0x1600">Ingame 6</title>
+			<title code="0x1700">Ingame 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gods (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="gods_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">TITLE.RL</rom>
+			<rom type="file" offset="0x11">GODSRLA.RL</rom>
+			<rom type="file" offset="0x12">GODSRLB.RL</rom>
+			<rom type="file" offset="0x13">GODSRLC.RL</rom>
+			<rom type="file" offset="0x14">GODSRLD.RL</rom>
+			<rom type="file" offset="0x15">GODSRLE.RL</rom>
+			<rom type="file" offset="0x16">GODSRLF.RL</rom>
+			<rom type="file" offset="0x17">GODSRLG.RL</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+			<title code="0x1100">Ingame 1</title>
+			<title code="0x1200">Ingame 2</title>
+			<title code="0x1300">Ingame 3</title>
+			<title code="0x1400">Ingame 4</title>
+			<title code="0x1500">Ingame 5</title>
+			<title code="0x1600">Ingame 6</title>
+			<title code="0x1700">Ingame 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Magic Pockets (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="magicpockets_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">ADLIB2.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Magic Pockets (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="magicpockets_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">SOUNDBNK.BIN</rom>
+			<rom type="file" offset="0x11">ROLAND2.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1100">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Magic Pockets (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="magicpockets_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">PLAYER.BIN</rom>
+			<rom type="file" offset="0x10">SOUNDBNK.BIN</rom>
+			<rom type="file" offset="0x11">ROLAND2.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1100">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Speedball 2: Brutal Deluxe (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="spdball2_at">
+			<rom type="file" offset="-1">CODE2.COM</rom>
+			<rom type="file" offset="0x09">SBLASTER.BIN</rom>
+			<rom type="shell" offset="0">CODE2.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Tune</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Speedball 2: Brutal Deluxe (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="spdball2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">SPEEDY.RLD</rom>
+			<rom type="file" offset="0x11">BAZSPEED.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Tune</title>
+			<title code="0x11">Bazspeed</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Speedball 2: Brutal Deluxe (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="spdball2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MT32.DRV</rom>
+			<rom type="file" offset="0x10">SPEEDY.RLD</rom>
+			<rom type="file" offset="0x11">BAZSPEED.RLD</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title Tune</title>
+			<title code="0x11">Bazspeed</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Z (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bitmap Brothers</driveralias>
+		<options>
+			<option name="clockmul" value="16"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="z_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">E_INIT.XMI</rom>
+			<rom type="file" offset="0x11">EA1.XMI</rom>
+			<rom type="file" offset="0x12">EBATTLE.XMI</rom>
+			<rom type="file" offset="0x13">EC1.XMI</rom>
+			<rom type="file" offset="0x14">ED1.XMI</rom>
+			<rom type="file" offset="0x15">EJ1.XMI</rom>
+			<rom type="file" offset="0x16">ELOSE.XMI</rom>
+			<rom type="file" offset="0x17">EOPTIONS.XMI</rom>
+			<rom type="file" offset="0x18">EV1.XMI</rom>
+			<rom type="file" offset="0x19">EWIN.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">E_INIT</title>
+			<title code="0x1100">EA1</title>
+			<title code="0x1200">EBATTLE</title>
+			<title code="0x1300">EC1</title>
+			<title code="0x1400">ED1</title>
+			<title code="0x1500">EJ1</title>
+			<title code="0x1600">ELOSE</title>
+			<title code="0x1700">EOPTIONS</title>
+			<title code="0x1800">EV1</title>
+			<title code="0x1900">EWIN</title>
+    </titlelist>
+	</game>
+</gamelist>

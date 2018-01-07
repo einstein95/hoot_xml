@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Elite -->
+	<game>
+		<name>[PC/AT] Kung Fu Louie vs The Martial Art Posse (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Elite</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="kflouie_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSSND.DRV</rom>
+			<rom type="file" offset="0x10">KUNGFU.MUS</rom>
+			<rom type="file" offset="0x11">KUNGFU.SND</rom>
+			<rom type="file" offset="0x12">JAPAN.MUS</rom>
+			<rom type="file" offset="0x13">JAPAN.SND</rom>
+			<rom type="file" offset="0x14">KILLPOSS.MUS</rom>
+			<rom type="file" offset="0x15">KILLPOSS.SND</rom>
+			<rom type="file" offset="0x16">LEVEL1.MUS</rom>
+			<rom type="file" offset="0x17">LEVEL1.SND</rom>
+			<rom type="file" offset="0x18">LEVEL2.MUS</rom>
+			<rom type="file" offset="0x19">LEVEL2.SND</rom>
+			<rom type="file" offset="0x1A">LEVEL3.MUS</rom>
+			<rom type="file" offset="0x1B">LEVEL3.SND</rom>
+			<rom type="file" offset="0x1C">LEVEL4.MUS</rom>
+			<rom type="file" offset="0x1D">LEVEL4.SND</rom>
+			<rom type="file" offset="0x1E">LEVEL5.MUS</rom>
+			<rom type="file" offset="0x1F">LEVEL5.SND</rom>
+			<rom type="file" offset="0x20">LOSING.MUS</rom>
+			<rom type="file" offset="0x21">LOSING.SND</rom>
+			<rom type="file" offset="0x22">WINNING.MUS</rom>
+			<rom type="file" offset="0x23">WINNING.SND</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">KUNGFU</title>
+			<title code="0xFF12">JAPAN</title>
+			<title code="0xFF14">KILLPOSS</title>
+			<title code="0xFF16">LEVEL1</title>
+			<title code="0xFF18">LEVEL2</title>
+			<title code="0xFF1A">LEVEL3</title>
+			<title code="0xFF1C">LEVEL4</title>
+			<title code="0xFF1E">LEVEL5</title>
+			<title code="0xFF20">LOSING</title>
+			<title code="0xFF22">WINNING</title>
+		</titlelist>
+	</game>
+</gamelist>

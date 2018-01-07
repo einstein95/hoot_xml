@@ -1,0 +1,2498 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //FamilySoft -->
+	<game>
+		<name>[PC-8801] Muteki Keiji Daidageki: Shijousaidai no Hanzai (無敵刑事 大打撃 ～史上最大の犯罪～) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">FamilySoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xc000"/>
+			<option name="mdata_size" value="0x1000"/>
+			<option name="vdata_addr" value="0xd000"/>
+			<option name="vdata_size" value="0x1000"/>
+			<option name="vfile_size" value="0x1000"/>
+		</options>
+		<romlist archive="daida">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xd000">M.DR</rom>
+			<rom type="bgm" offset="0x00">MD1</rom>
+			<rom type="voice" offset="0x00">M.DR</rom>
+			<rom type="bgm" offset="0x01">MD2</rom>
+			<rom type="voice" offset="0x01">M.DR</rom>
+			<rom type="bgm" offset="0x02">MD3</rom>
+			<rom type="voice" offset="0x02">M.DR</rom>
+			<rom type="bgm" offset="0x03">MD4</rom>
+			<rom type="voice" offset="0x03">M.DR</rom>
+			<rom type="bgm" offset="0x04">MD5</rom>
+			<rom type="voice" offset="0x04">M.DR</rom>
+			<rom type="bgm" offset="0x05">MD6</rom>
+			<rom type="voice" offset="0x05">M.DR</rom>
+			<rom type="bgm" offset="0x06">MD7</rom>
+			<rom type="voice" offset="0x06">M.DR</rom>
+			<rom type="bgm" offset="0x07">MD8</rom>
+			<rom type="voice" offset="0x07">M.DR</rom>
+			<rom type="bgm" offset="0x08">MD9</rom>
+			<rom type="voice" offset="0x08">M.DR</rom>
+			<rom type="bgm" offset="0x09">MD10</rom>
+			<rom type="voice" offset="0x09">M.DR</rom>
+			<rom type="bgm" offset="0x0a">MD11</rom>
+			<rom type="voice" offset="0x0a">M.DR</rom>
+			<rom type="bgm" offset="0x0b">MD12</rom>
+			<rom type="voice" offset="0x0b">M.DR</rom>
+			<rom type="bgm" offset="0x0c">MD13</rom>
+			<rom type="voice" offset="0x0c">M.DR</rom>
+			<rom type="bgm" offset="0x0d">MD14</rom>
+			<rom type="voice" offset="0x0d">M.DR</rom>
+			<rom type="bgm" offset="0x0e">MD15</rom>
+			<rom type="voice" offset="0x0e">M.DR</rom>
+			<rom type="bgm" offset="0x0f">MD16</rom>
+			<rom type="voice" offset="0x0f">M.DR</rom>
+			<rom type="bgm" offset="0x10">MD17</rom>
+			<rom type="voice" offset="0x10">M.DR</rom>
+			<rom type="bgm" offset="0x11">MD18</rom>
+			<rom type="voice" offset="0x11">M.DR</rom>
+			<rom type="bgm" offset="0x12">MD19</rom>
+			<rom type="voice" offset="0x12">M.DR</rom>
+			<rom type="bgm" offset="0x13">MD20</rom>
+			<rom type="voice" offset="0x13">M.DR</rom>
+			<rom type="bgm" offset="0x14">daida1</rom>
+			<rom type="voice" offset="0x14">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x15">daida1.0</rom>
+			<rom type="voice" offset="0x15">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x16">daida1.1</rom>
+			<rom type="voice" offset="0x16">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x17">daida1.2</rom>
+			<rom type="voice" offset="0x17">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x18">daida1.3</rom>
+			<rom type="voice" offset="0x18">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x19">daida1.4</rom>
+			<rom type="voice" offset="0x19">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1a">daida1.5</rom>
+			<rom type="voice" offset="0x1a">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1b">daida1.9</rom>
+			<rom type="voice" offset="0x1b">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1c">daida2.0</rom>
+			<rom type="voice" offset="0x1c">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1d">daida3</rom>
+			<rom type="voice" offset="0x1d">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1e">daida4</rom>
+			<rom type="voice" offset="0x1e">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x1f">daida5</rom>
+			<rom type="voice" offset="0x1f">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x20">daida7</rom>
+			<rom type="voice" offset="0x20">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x21">daida8</rom>
+			<rom type="voice" offset="0x21">MUSIC.DR</rom>
+			<rom type="bgm" offset="0x22">daida9</rom>
+			<rom type="voice" offset="0x22">MUSIC.DR</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">MD1</title>
+			<title code="0x01">MD2</title>
+			<title code="0x02">MD3</title>
+			<title code="0x03">MD4</title>
+			<title code="0x04">MD5</title>
+			<title code="0x05">MD6</title>
+			<title code="0x06">MD7</title>
+			<title code="0x07">MD8</title>
+			<title code="0x08">MD9</title>
+			<title code="0x09">MD10</title>
+			<title code="0x0a">MD11</title>
+			<title code="0x0b">MD12</title>
+			<title code="0x0c">MD13</title>
+			<title code="0x0d">MD14</title>
+			<title code="0x0e">MD15</title>
+			<title code="0x0f">MD16</title>
+			<title code="0x10">MD17</title>
+			<title code="0x11">MD18</title>
+			<title code="0x12">MD19</title>
+			<title code="0x13">MD20</title>
+			<title code="0x14">daida1</title>
+			<title code="0x15">daida1.0</title>
+			<title code="0x16">daida1.1</title>
+			<title code="0x17">daida1.2</title>
+			<title code="0x18">daida1.3</title>
+			<title code="0x19">daida1.4</title>
+			<title code="0x1a">daida1.5</title>
+			<title code="0x1b">daida1.9</title>
+			<title code="0x1c">daida2.0</title>
+			<title code="0x1d">daida3</title>
+			<title code="0x1e">daida4</title>
+			<title code="0x1f">daida5</title>
+			<title code="0x20">daida7</title>
+			<title code="0x21">daida8</title>
+			<title code="0x22">daida9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Dies Irae (ディエス・イレ) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="diesirae_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x10">DIES_00.M</rom>
+			<rom type="file" offset="0x11">DIES_01.M</rom>
+			<rom type="file" offset="0x12">DIES_02.M</rom>
+			<rom type="file" offset="0x13">DIES_03.M</rom>
+			<rom type="file" offset="0x14">DIES_04.M</rom>
+			<rom type="file" offset="0x15">DIES_05.M</rom>
+			<rom type="file" offset="0x16">DIES_06.M</rom>
+			<rom type="file" offset="0x17">DIES_07.M</rom>
+			<rom type="file" offset="0x18">DIES_08.M</rom>
+			<rom type="file" offset="0x19">DIES_09.M</rom>
+			<rom type="file" offset="0x1a">DIES_10.M</rom>
+			<rom type="file" offset="0x1b">DIES_11.M</rom>
+			<rom type="file" offset="0x1c">DIES_13.M</rom>
+			<rom type="file" offset="0x1d">DIES_14.M</rom>
+			<rom type="file" offset="0x1e">ｷﾑ_01.M</rom>
+			<rom type="file" offset="0x1f">ｷﾑ_02.M</rom>
+			<rom type="file" offset="0x20">ｷﾑ_03.M</rom>
+			<rom type="file" offset="0x21">ｸﾘｽ_01.M</rom>
+			<rom type="file" offset="0x22">ｸﾘｽ_02.M</rom>
+			<rom type="file" offset="0x23">ｸﾘｽ_03.M</rom>
+			<rom type="file" offset="0x24">ｸﾘｽ_04.M</rom>
+			<rom type="file" offset="0x25">ﾏﾘｱﾝ_01.M</rom>
+			<rom type="file" offset="0x26">ﾏﾘｱﾝ_02.M</rom>
+			<rom type="file" offset="0x27">ﾏﾘｱﾝ_03.M</rom>
+			<rom type="file" offset="0x28">ﾘ-_01.M</rom>
+			<rom type="shell" offset="0">PMD # /m8 /e0 /v4 /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Dies Irae (Pre Opening)</title>
+			<title code="0x11">Dies Irae OPENING</title>
+			<title code="0x12">ｼﾝｾｶｲ</title>
+			<title code="0x13">ｻｲｸｽ</title>
+			<title code="0x14">ｷﾑ ﾊﾞﾄﾙ</title>
+			<title code="0x15">ｸﾘｽ ﾊﾞﾄﾙ</title>
+			<title code="0x16">ｸﾁﾌﾞｴ (ﾎﾟﾝﾃ ﾉ ﾃ-ﾏ)</title>
+			<title code="0x17">ﾏﾘｱﾝ ﾊﾞﾄﾙ 1</title>
+			<title code="0x18">ﾏﾘｱﾝ ﾊﾞﾄﾙ 2 (ﾂﾙｷﾞ ﾉ ﾏｲ)</title>
+			<title code="0x19">ﾊﾞﾗ-ﾄﾞ</title>
+			<title code="0x1a">ﾃﾞｨｴｽ ｲﾚ (ｻｲｺﾞ ﾉ ﾀﾀｶｲ)</title>
+			<title code="0x1b">BAD ENDING (ﾊﾞﾗ-ﾄﾞ)</title>
+			<title code="0x1c">ENDING (ﾙ-ﾌﾟ)</title>
+			<title code="0x1d">ﾄﾐﾀ ｻﾝ ﾉ ｷｮｸ ｶﾅ ?? (ﾙ-ﾌﾟﾅｼ)</title>
+			<title code="0x1e">ｷﾑ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x1f">ｿｳｻｼ-ﾝ (ｷﾑ)</title>
+			<title code="0x20">ｲﾍﾞﾝﾄ ｷﾑ</title>
+			<title code="0x21">ｸﾘｽ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x22">ｿｳｻｼ-ﾝ (ｸﾘｽ)</title>
+			<title code="0x23">ｲﾍﾞﾝﾄ (ｸﾘｽ)</title>
+			<title code="0x24">ｸﾘｽ ﾉ ﾃ-ﾏ (ｶｲ)</title>
+			<title code="0x25">ﾏﾘｱﾝ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x26">ｿｳｻｼ-ﾝ (ﾏﾘｱﾝ)</title>
+			<title code="0x27">ｲﾍﾞﾝﾄ (ﾏﾘｱﾝ)</title>
+			<title code="0x28">ｵｿｳｼｷ (ﾘｰ)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Area 88: Etranger 1995 (エリア88 ～エトランジェ1995～) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="a88_etr_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x10">AREA_23.M</rom>
+			<rom type="file" offset="0x11">BGMA_01.M</rom>
+			<rom type="file" offset="0x12">BGMA_02.M</rom>
+			<rom type="file" offset="0x13">BGMA_03.M</rom>
+			<rom type="file" offset="0x14">BGMA_04.M</rom>
+			<rom type="file" offset="0x15">BGMA_05.M</rom>
+			<rom type="file" offset="0x16">BGMA_06.M</rom>
+			<rom type="file" offset="0x17">BGMA_07.M</rom>
+			<rom type="file" offset="0x18">BGMA_08.M</rom>
+			<rom type="file" offset="0x19">BGMA_09.M</rom>
+			<rom type="file" offset="0x1a">BGMA_10.M</rom>
+			<rom type="file" offset="0x1b">BGMA_11.M</rom>
+			<rom type="file" offset="0x1c">BGMA_12.M</rom>
+			<rom type="file" offset="0x1d">BGMA_13.M</rom>
+			<rom type="file" offset="0x1e">BGMA_14.M</rom>
+			<rom type="file" offset="0x1f">BGMA_15.M</rom>
+			<rom type="file" offset="0x20">BGMA_16.M</rom>
+			<rom type="file" offset="0x21">BGMA_17.M</rom>
+			<rom type="file" offset="0x22">BGMA_18.M</rom>
+			<rom type="file" offset="0x23">BGMA_19.M</rom>
+			<rom type="file" offset="0x24">BGMA_20.M</rom>
+			<rom type="file" offset="0x25">BGMA_21.M</rom>
+			<rom type="file" offset="0x26">BGMA_22.M</rom>
+			<rom type="file" offset="0x27">BGMA_23.M</rom>
+			<rom type="file" offset="0x28">BGMA_24.M</rom>
+			<rom type="file" offset="0x29">BGMA_25.M</rom>
+			<rom type="shell" offset="0">PMD /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">(ｵ-ﾌﾟﾆﾝｸﾞ) / ｾﾞﾝｶｲ ﾉ ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟﾊﾞﾝ</title>
+			<title code="0x11">ﾒｲﾝﾏｯﾌﾟ1 / ﾂｳｼﾞｮｳ (2ﾌﾝﾙ-ﾌﾟﾀﾞﾖ!)</title>
+			<title code="0x12">ﾒｲﾝﾏｯﾌﾟ2 / ﾏｹｿｳ ﾅ ﾄｷ</title>
+			<title code="0x13">ｱﾀﾗｼｲ ﾂﾊﾞｻ / ｱﾀﾗｼｲ ｷﾀｲ ﾄｳﾁｬｸ</title>
+			<title code="0x14">ﾌﾞﾘ-ﾌｨﾝｸﾞﾖｳ / ｾﾞﾝｶｲ ﾁｼﾞｮｳﾏｯﾌﾟ (ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟ???ﾊﾞﾝ)</title>
+			<title code="0x15">ｻｸﾎﾞｳ ﾍﾉ ﾋﾞｮｳﾖﾐ / ﾃｷ ｾｲﾘｮｸ ﾎｳｺｸｼﾞ</title>
+			<title code="0x16">ﾏﾓﾉﾀﾁﾉｻｲﾃﾝ / ﾐｯｼｮﾝ ﾊﾂﾄﾞｳ</title>
+			<title code="0x17">ﾊﾞﾄﾙ 1 / 15sec. *2 ﾙ-ﾌﾟ</title>
+			<title code="0x18">ﾊﾞﾄﾙ 1 / ｺﾚﾊ､ ﾊﾞﾄﾙ 2 ﾆ ｼﾏｼｮｳ!!! (ﾀｲﾁｺｳｹﾞｷﾖｳ)</title>
+			<title code="0x19">ﾊﾞﾄﾙ 3 / ｹｲﾎｳ + ﾃｷ ﾉ ｺｳｹﾞｷ</title>
+			<title code="0x1a">ｾｲ ﾍﾉ ｼｭｳﾁｬｸ (ﾙ-ﾌﾟｾｽﾞ) / ｻｸｾﾝｾｲｺｳ &amp; ｼｮｳﾘ</title>
+			<title code="0x1b">ｼ ﾉ ﾁｭｳｶﾞｴﾘ (ﾙ-ﾌﾟｾｽﾞ) / ﾀﾞﾒ-ｼﾞ &amp; ﾂｲﾗｸ (ｼﾎﾞｳ ﾉ ﾊﾞｱｲ ﾊ､No.17 ﾉ ｷｮｸ ﾍ)</title>
+			<title code="0x1c">ｶﾜｲﾀ ｷﾎﾞｳ / ﾐｯｼｮﾝ ｼｭｳﾘｮｳ</title>
+			<title code="0x1d">ｶﾗｽﾀﾁ ﾉ ｺﾞｺﾞ / - Private Time ﾖｳ -</title>
+			<title code="0x1e">ﾏｯｺｲ / ﾌﾞｷ ﾉ ｳﾘｶｲ</title>
+			<title code="0x1f">ｱｽﾗﾝ ﾓﾕﾙ / ｼﾞｹﾝ &amp; ﾃｷ ﾉ ｿｳｺｳｹﾞｷ (Robert Fripp ﾉ ｵﾝｶﾞｸ ﾉ ﾖｳ)</title>
+			<title code="0x20">ｷﾄｳ ﾅｷ ｼｭﾂｹﾞｷ / ｾﾞﾝﾘｮｸｼｭﾂｹﾞｷ ﾒｲﾝBGM (1min.28sec.ﾙ-ﾌﾟ)</title>
+			<title code="0x21">ﾘｭｳｹﾂ ﾉ ﾀﾞｲｼｮｳ (ﾙ-ﾌﾟｾｽﾞ) / ﾒﾝﾊﾞ- ｼﾎﾞｳ</title>
+			<title code="0x22">ｵﾝｿｸ ﾉ ﾒｶﾞﾐﾀﾁ / ｾﾗ &amp; ﾅﾂｷ ﾉ ﾃ-ﾏ</title>
+			<title code="0x23">ﾀｸﾗﾐ ﾉ ﾄﾞｳｶｾﾝ / ﾅﾆｶｶﾞｵｺﾙｶﾝｼﾞ</title>
+			<title code="0x24">ｹﾞｷﾃﾂ ﾉ ｵﾁﾙｵﾄ / ｷﾝﾊﾟｸ &amp; ｷｭｳﾃﾝｶｲﾊﾞﾒﾝ</title>
+			<title code="0x25">Final Take Off / Fin Ending (ﾊﾚﾔｶ ﾅ ｿﾗ)</title>
+			<title code="0x26">ﾊｲ ﾆ ﾅｯﾀ ﾐﾗｲ / Bad Ending</title>
+			<title code="0x27">ｵ-ﾌﾟﾆﾝｸﾞ / ｾﾞﾝｶｲ ﾉ ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟﾊﾞﾝ</title>
+			<title code="0x28">ﾀﾞﾃﾝｼ ﾉ ｳﾀ (ﾀﾞﾚｶ ｶｼ ｦ ﾂｹﾃﾈ!!) / ｳｫ-ﾚﾝ ﾉ ｷﾞﾀ-</title>
+			<title code="0x29">ﾋｼﾞｮｳ ｹｲﾎｳ / ｸｳｼｭｳ ｻｲﾚﾝ</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="a88_ikj_98">
+			<rom type="file" offset="-1">INT7C.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="-1">MUSPJ_98.COM</rom>
+			<rom type="file" offset="0x08">A88OPN.DAT</rom>
+			<rom type="file" offset="0x09">A88SSG.DAT</rom>
+			<rom type="file" offset="0x10">A8801_FM.MDP</rom>
+			<rom type="file" offset="0x11">A8802_FM.MDP</rom>
+			<rom type="file" offset="0x12">A8803_FM.MDP</rom>
+			<rom type="file" offset="0x13">A8804_FM.MDP</rom>
+			<rom type="file" offset="0x14">A8805_FM.MDP</rom>
+			<rom type="file" offset="0x15">A8806_FM.MDP</rom>
+			<rom type="file" offset="0x16">A8807_FM.MDP</rom>
+			<rom type="file" offset="0x17">A8808_FM.MDP</rom>
+			<rom type="file" offset="0x18">A8809_FM.MDP</rom>
+			<rom type="file" offset="0x19">A8810_FM.MDP</rom>
+			<rom type="file" offset="0x1a">A8811_FM.MDP</rom>
+			<rom type="file" offset="0x1b">A8812_FM.MDP</rom>
+			<rom type="file" offset="0x1c">A8813_FM.MDP</rom>
+			<rom type="file" offset="0x1d">A8814_FM.MDP</rom>
+			<rom type="file" offset="0x1e">A8815_FM.MDP</rom>
+			<rom type="shell" offset="0">INT7C</rom>
+			<rom type="shell" offset="0">MUSIC</rom>
+			<rom type="shell" offset="0">MUSPJ_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">A8801_FM.MDP</title>
+			<title code="0x11">A8802_FM.MDP</title>
+			<title code="0x12">A8803_FM.MDP</title>
+			<title code="0x13">A8804_FM.MDP</title>
+			<title code="0x14">A8805_FM.MDP</title>
+			<title code="0x15">A8806_FM.MDP</title>
+			<title code="0x16">A8807_FM.MDP</title>
+			<title code="0x17">A8808_FM.MDP</title>
+			<title code="0x18">A8809_FM.MDP</title>
+			<title code="0x19">A8810_FM.MDP</title>
+			<title code="0x1a">A8811_FM.MDP</title>
+			<title code="0x1b">A8812_FM.MDP</title>
+			<title code="0x1c">A8813_FM.MDP</title>
+			<title code="0x1d">A8814_FM.MDP</title>
+			<title code="0x1e">A8815_FM.MDP</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (GM)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="a88_ikj_98">
+			<rom type="file" offset="-1">INT7C.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="-1">MUSPJ_98.COM</rom>
+			<rom type="file" offset="0x10">A8801_GM.MDP</rom>
+			<rom type="file" offset="0x11">A8802_GM.MDP</rom>
+			<rom type="file" offset="0x12">A8803_GM.MDP</rom>
+			<rom type="file" offset="0x13">A8804_GM.MDP</rom>
+			<rom type="file" offset="0x14">A8805_GM.MDP</rom>
+			<rom type="file" offset="0x15">A8806_GM.MDP</rom>
+			<rom type="file" offset="0x16">A8807_GM.MDP</rom>
+			<rom type="file" offset="0x17">A8808_GM.MDP</rom>
+			<rom type="file" offset="0x18">A8809_GM.MDP</rom>
+			<rom type="file" offset="0x19">A8810_GM.MDP</rom>
+			<rom type="file" offset="0x1a">A8811_GM.MDP</rom>
+			<rom type="file" offset="0x1b">A8812_GM.MDP</rom>
+			<rom type="file" offset="0x1c">A8813_GM.MDP</rom>
+			<rom type="file" offset="0x1d">A8814_GM.MDP</rom>
+			<rom type="file" offset="0x1e">A8815_GM.MDP</rom>
+			<rom type="shell" offset="0">INT7C</rom>
+			<rom type="shell" offset="0">MUSIC</rom>
+			<rom type="shell" offset="0">MUSPJ_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">A8801_GM.MDP</title>
+			<title code="0x11">A8802_GM.MDP</title>
+			<title code="0x12">A8803_GM.MDP</title>
+			<title code="0x13">A8804_GM.MDP</title>
+			<title code="0x14">A8805_GM.MDP</title>
+			<title code="0x15">A8806_GM.MDP</title>
+			<title code="0x16">A8807_GM.MDP</title>
+			<title code="0x17">A8808_GM.MDP</title>
+			<title code="0x18">A8809_GM.MDP</title>
+			<title code="0x19">A8810_GM.MDP</title>
+			<title code="0x1a">A8811_GM.MDP</title>
+			<title code="0x1b">A8812_GM.MDP</title>
+			<title code="0x1c">A8813_GM.MDP</title>
+			<title code="0x1d">A8814_GM.MDP</title>
+			<title code="0x1e">A8815_GM.MDP</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="a88_ikj_98">
+			<rom type="file" offset="-1">INT7C.COM</rom>
+			<rom type="file" offset="-1">MUSIC.COM</rom>
+			<rom type="file" offset="-1">MUSPJ_98.COM</rom>
+			<rom type="file" offset="0x10">A8801_GM.MDP</rom>
+			<rom type="file" offset="0x11">A8802_GM.MDP</rom>
+			<rom type="file" offset="0x12">A8803_GM.MDP</rom>
+			<rom type="file" offset="0x13">A8804_GM.MDP</rom>
+			<rom type="file" offset="0x14">A8805_GM.MDP</rom>
+			<rom type="file" offset="0x15">A8806_GM.MDP</rom>
+			<rom type="file" offset="0x16">A8807_GM.MDP</rom>
+			<rom type="file" offset="0x17">A8808_GM.MDP</rom>
+			<rom type="file" offset="0x18">A8809_GM.MDP</rom>
+			<rom type="file" offset="0x19">A8810_GM.MDP</rom>
+			<rom type="file" offset="0x1a">A8811_GM.MDP</rom>
+			<rom type="file" offset="0x1b">A8812_GM.MDP</rom>
+			<rom type="file" offset="0x1c">A8813_GM.MDP</rom>
+			<rom type="file" offset="0x1d">A8814_GM.MDP</rom>
+			<rom type="file" offset="0x1e">A8815_GM.MDP</rom>
+			<rom type="shell" offset="0">INT7C</rom>
+			<rom type="shell" offset="0">MUSIC</rom>
+			<rom type="shell" offset="0">MUSPJ_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">A8801_GM.MDP</title>
+			<title code="0x11">A8802_GM.MDP</title>
+			<title code="0x12">A8803_GM.MDP</title>
+			<title code="0x13">A8804_GM.MDP</title>
+			<title code="0x14">A8805_GM.MDP</title>
+			<title code="0x15">A8806_GM.MDP</title>
+			<title code="0x16">A8807_GM.MDP</title>
+			<title code="0x17">A8808_GM.MDP</title>
+			<title code="0x18">A8809_GM.MDP</title>
+			<title code="0x19">A8810_GM.MDP</title>
+			<title code="0x1a">A8811_GM.MDP</title>
+			<title code="0x1b">A8812_GM.MDP</title>
+			<title code="0x1c">A8813_GM.MDP</title>
+			<title code="0x1d">A8814_GM.MDP</title>
+			<title code="0x1e">A8815_GM.MDP</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Crasher Joe: Kanraku Wakusei no Inbou (クラッシャージョウ ～歓楽惑星の陰謀～) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="c_joe_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">JOE_SE.EFC</rom>
+			<rom type="file" offset="0x10">FAM_01.M</rom>
+			<rom type="file" offset="0x11">JOE_00.M</rom>
+			<rom type="file" offset="0x12">JOE_01.M</rom>
+			<rom type="file" offset="0x13">JOE_02.M</rom>
+			<rom type="file" offset="0x14">JOE_03.M</rom>
+			<rom type="file" offset="0x15">JOE_04.M</rom>
+			<rom type="file" offset="0x16">JOE_05.M</rom>
+			<rom type="file" offset="0x17">JOE_06.M</rom>
+			<rom type="file" offset="0x18">JOE_07.M</rom>
+			<rom type="file" offset="0x19">JOE_08.M</rom>
+			<rom type="file" offset="0x1a">JOE_09.M</rom>
+			<rom type="file" offset="0x1b">JOE_10.M</rom>
+			<rom type="file" offset="0x1c">JOE_11.M</rom>
+			<rom type="file" offset="0x1d">JOE_12.M</rom>
+			<rom type="file" offset="0x1e">JOE_13.M</rom>
+			<rom type="file" offset="0x1f">JOE_14.M</rom>
+			<rom type="file" offset="0x20">JOE_15.M</rom>
+			<rom type="file" offset="0x21">JOE_16.M</rom>
+			<rom type="file" offset="0x22">JOE_17.M</rom>
+			<rom type="file" offset="0x23">JOE_18.M</rom>
+			<rom type="file" offset="0x24">JOE_19.M</rom>
+			<rom type="file" offset="0x25">JOE_20.M</rom>
+			<rom type="file" offset="0x26">JOE_21.M</rom>
+			<rom type="file" offset="0x27">JOE_22.M</rom>
+			<rom type="shell" offset="0">PMD /M8 /V0 /E4 /K</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ﾌｧﾐﾘ-ｿﾌﾄ ﾌﾞﾗﾝﾄﾞﾒｲﾋｮｳｼﾞ</title>
+			<title code="0x11">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 2 ｼｮｳﾘﾉﾖｶﾝ)</title>
+			<title code="0x12">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾀｲﾄﾙ)</title>
+			<title code="0x13">ｸﾗｯｼｬ-ｼﾞｮｳ (ｵ-ﾌﾟﾆﾝｸﾞ)｢ﾙ-ﾌﾟﾅｼ｣</title>
+			<title code="0x14">ｸﾗｯｼｬ-ｼﾞｮｳ (ｱｲ ｷｬｯﾁ)</title>
+			<title code="0x15">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 1 ﾃ-ﾏ)</title>
+			<title code="0x16">ｸﾗｯｼｬ-ｼﾞｮｳ (ｾﾝﾆｭｳ)</title>
+			<title code="0x17">ｸﾗｯｼｬ-ｼﾞｮｳ (ｳﾞｨｼﾞｭｱﾙ ﾒｲﾝ)</title>
+			<title code="0x18">ｸﾗｯｼｬ-ｼﾞｮｳ (ｽﾃ-ｼﾞｸﾘｱ)</title>
+			<title code="0x19">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾊｲﾎﾞｸ)</title>
+			<title code="0x1a">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾎﾃﾙﾛﾋﾞ-,ﾎｶ)</title>
+			<title code="0x1b">ｸﾗｯｼｬ-ｼﾞｮｳ (ｺﾝﾌｨｸﾞ,ﾌﾞｷｾﾝﾀｸｶﾞﾒﾝ)</title>
+			<title code="0x1c">ｸﾗｯｼｬ-ｼﾞｮｳ (ｸｻﾅｷﾞｾｲｷｺｳｼﾞｮｳ)</title>
+			<title code="0x1d">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 3 ﾏｹｿｳ)</title>
+			<title code="0x1e">ｸﾗｯｼｬ-ｼﾞｮｳ (ｶｼﾞﾉ,ﾀﾉｼｲﾋﾄﾄｷ)</title>
+			<title code="0x1f">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾃｷ ｱｼﾞﾄ)</title>
+			<title code="0x20">ｸﾗｯｼｬ-ｼﾞｮｳ (ｻｶﾊﾞ,ﾄﾞﾗｯｸﾞｶﾌｪ)</title>
+			<title code="0x21">ｸﾗｯｼｬ-ｼﾞｮｳ (ｷ-ﾜ-ﾄﾞｾﾝﾀｸ,Informacio'n)</title>
+			<title code="0x22">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾀﾞｲﾄｳﾘｮｳ ｶﾝﾃｲ)</title>
+			<title code="0x23">ｸﾗｯｼｬ-ｼﾞｮｳ (ｾﾏﾘｸﾙ ｶﾝﾀｲ)</title>
+			<title code="0x24">ｸﾗｯｼｬ-ｼﾞｮｳ (ｷﾝﾊﾟｸﾊﾞﾒﾝ)</title>
+			<title code="0x25">ｸﾗｯｼｬ-ｼﾞｮｳ (ｴﾝﾃﾞｨﾝｸﾞ,ｽﾀｯﾌﾛ-ﾙ)</title>
+			<title code="0x26">ｸﾗｯｼｬ-ｼﾞｮｳ (ｴﾋﾟﾛ-ｸﾞ)｢ﾙ-ﾌﾟ ｱﾘ｣</title>
+			<title code="0x27">ｸﾗｯｼｬ-ｼﾞｮｳ (ｿﾉﾀ ｳﾞｨｼﾞｭｱﾙ)</title>
+			<range min="0x0801" max="0x0811" extcode="1">JOE_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kagaku Ninjatai Gatchaman: Taose! Galactor (科学忍者隊ガッチャマン 倒せ! ギャラクター) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="gatcha98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">EFC_000.EFC</rom>
+			<rom type="file" offset="0x10">M_000.M</rom>
+			<rom type="file" offset="0x11">M_001.M</rom>
+			<rom type="file" offset="0x12">M_002.M</rom>
+			<rom type="file" offset="0x13">M_003.M</rom>
+			<rom type="file" offset="0x14">M_004.M</rom>
+			<rom type="file" offset="0x15">M_005.M</rom>
+			<rom type="file" offset="0x16">M_006.M</rom>
+			<rom type="file" offset="0x17">M_007.M</rom>
+			<rom type="file" offset="0x18">M_008.M</rom>
+			<rom type="file" offset="0x19">M_009.M</rom>
+			<rom type="file" offset="0x1a">M_010.M</rom>
+			<rom type="file" offset="0x1b">M_011.M</rom>
+			<rom type="file" offset="0x1c">M_012.M</rom>
+			<rom type="file" offset="0x1d">M_013.M</rom>
+			<rom type="file" offset="0x1e">M_014.M</rom>
+			<rom type="file" offset="0x1f">M_015.M</rom>
+			<rom type="file" offset="0x20">M_016.M</rom>
+			<rom type="file" offset="0x21">M_017.M</rom>
+			<rom type="file" offset="0x22">M_018.M</rom>
+			<rom type="shell" offset="0">pmd /m8 /e2 /v0 /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">科学忍者隊ガッチャマン No.01 = T.V.Opening(Non Loop) =</title>
+			<title code="0x11">ｶﾞｯﾁｬﾏﾝ (ｷﾞｬﾗｸﾀ-ﾉｼﾝﾘｬｸ)</title>
+			<title code="0x12">ｶﾞｯﾁｬﾏﾝ (ｶｶﾞｸﾆﾝｼﾞｬﾀｲ ｼｭﾂﾄﾞｳ)</title>
+			<title code="0x13">ｶﾞｯﾁｬﾏﾝ (ｶｶﾞｸﾆﾝｼﾞｬﾀｲ ﾔｸﾄﾞｳ)</title>
+			<title code="0x14">ｶﾞｯﾁｬﾏﾝ (ｼﾉﾋﾞﾖﾙ ｱｸﾉｶｹﾞ1)</title>
+			<title code="0x15">ｶﾞｯﾁｬﾏﾝ (ｷﾞｬﾗｸﾀ- ﾉ ｼｭｳｹﾞｷ)</title>
+			<title code="0x16">ｶﾞｯﾁｬﾏﾝ (ｷｭｳﾁ)</title>
+			<title code="0x17">ｶﾞｯﾁｬﾏﾝ (Ending)</title>
+			<title code="0x18">ｶﾞｯﾁｬﾏﾝ (ｼﾉﾋﾞﾖﾙ ｸﾛｲｶｹﾞ)</title>
+			<title code="0x19">ｶﾞｯﾁｬﾏﾝ (ﾃｷ ｷﾁｾﾝﾆｭｳ)</title>
+			<title code="0x1a">ｶﾞｯﾁｬﾏﾝ (ﾊﾞﾄﾙ 1)</title>
+			<title code="0x1b">ｶﾞｯﾁｬﾏﾝ (ｷﾝｷｭｳｼﾞﾀｲ)</title>
+			<title code="0x1c">ｶﾞｯﾁｬﾏﾝ (ﾔｽﾗｷﾞ1)</title>
+			<title code="0x1d">ｶﾞｯﾁｬﾏﾝ (ﾔｽﾗｷﾞ2)</title>
+			<title code="0x1e">ｶﾞｯﾁｬﾏﾝ (Game Over)</title>
+			<title code="0x1f">科学忍者隊ガッチャマン No.02 = T.V.Opening(Loop) =</title>
+			<title code="0x20">科学忍者隊ガッチャマン No.05 = Bridge =</title>
+			<title code="0x21">科学忍者隊ガッチャマン No.03 = T.V.Ending(Non Loop) =</title>
+			<title code="0x22">科学忍者隊ガッチャマン No.03 = T.V.Ending(Non Loop) =</title>
+			<range min="0x0801" max="0x0806" extcode="1">EFC_000.EFC #%2X</range>
+			<range min="0x0808" max="0x0809" extcode="1">EFC_000.EFC #%2X</range>
+			<range min="0x080b" max="0x081c" extcode="1">EFC_000.EFC #%2X</range>
+			<range min="0x081e" max="0x081e" extcode="1">EFC_000.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam: A Year of War (機動戦士ガンダム A YEAR OF WAR) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="gdm_yow_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">MN.EXE</rom>
+			<rom type="conin" offset="5">MN.EXE</rom>
+			<rom type="file" offset="0x10">ZION00.MLO</rom>
+			<rom type="file" offset="0x11">ZION01.MLO</rom>
+			<rom type="file" offset="0x12">ZION02.MLO</rom>
+			<rom type="file" offset="0x13">ZION03.MLO</rom>
+			<rom type="file" offset="0x14">ZION04.MLO</rom>
+			<rom type="file" offset="0x15">ZION05.MLO</rom>
+			<rom type="file" offset="0x16">ZION06.MLO</rom>
+			<rom type="file" offset="0x17">ZION07.MLO</rom>
+			<rom type="file" offset="0x18">ZION08.MLO</rom>
+			<rom type="file" offset="0x19">ZION09.MLO</rom>
+			<rom type="file" offset="0x1a">ZION10.MLO</rom>
+			<rom type="file" offset="0x1b">ZION11.MLO</rom>
+			<rom type="file" offset="0x1c">ZION12.MLO</rom>
+			<rom type="file" offset="0x1d">ZION13.MLO</rom>
+			<rom type="file" offset="0x1e">ZION14.MLO</rom>
+			<rom type="file" offset="0x1f">ZION15.MLO</rom>
+			<rom type="file" offset="0x20">ZION16.MLO</rom>
+			<rom type="file" offset="0x21">ZION17.MLO</rom>
+			<rom type="file" offset="0x22">ZION18.MLO</rom>
+			<rom type="file" offset="0x23">ZION19.MLO</rom>
+			<rom type="file" offset="0x24">ZION20.MLO</rom>
+			<rom type="file" offset="0x25">ZION21.MLO</rom>
+			<rom type="file" offset="0x26">ZION22.MLO</rom>
+			<rom type="file" offset="0x27">ZION23.MLO</rom>
+			<rom type="file" offset="0x28">ZION24.MLO</rom>
+			<rom type="file" offset="0x29">ZION25.MLO</rom>
+			<rom type="file" offset="0x2a">ZION26.MLO</rom>
+			<rom type="file" offset="0x2b">ZION27.MLO</rom>
+			<rom type="file" offset="0x2c">ZION28.MLO</rom>
+			<rom type="file" offset="0x2d">ZION29.MLO</rom>
+			<rom type="file" offset="0x2e">ZION30.MLO</rom>
+			<rom type="file" offset="0x2f">ZION31.MLO</rom>
+			<rom type="file" offset="0x30">GUN_SE1.MLO</rom>
+			<rom type="file" offset="0x31">GUN_SE2.MLO</rom>
+			<rom type="file" offset="0x32">GUN_SE3.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ZION00.MLO</title>
+			<title code="0x11">ZION01.MLO</title>
+			<title code="0x12">ZION02.MLO</title>
+			<title code="0x13">ZION03.MLO</title>
+			<title code="0x14">ZION04.MLO</title>
+			<title code="0x15">ZION05.MLO</title>
+			<title code="0x16">ZION06.MLO</title>
+			<title code="0x17">ZION07.MLO</title>
+			<title code="0x18">ZION08.MLO</title>
+			<title code="0x19">ZION09.MLO</title>
+			<title code="0x1a">ZION10.MLO</title>
+			<title code="0x1b">ZION11.MLO</title>
+			<title code="0x1c">ZION12.MLO</title>
+			<title code="0x1d">ZION13.MLO</title>
+			<title code="0x1e">ZION14.MLO</title>
+			<title code="0x1f">ZION15.MLO</title>
+			<title code="0x20">ZION16.MLO</title>
+			<title code="0x21">ZION17.MLO</title>
+			<title code="0x22">ZION18.MLO</title>
+			<title code="0x23">ZION19.MLO</title>
+			<title code="0x24">ZION20.MLO</title>
+			<title code="0x25">ZION21.MLO</title>
+			<title code="0x26">ZION22.MLO</title>
+			<title code="0x27">ZION23.MLO</title>
+			<title code="0x28">ZION24.MLO</title>
+			<title code="0x29">ZION25.MLO</title>
+			<title code="0x2a">ZION26.MLO</title>
+			<title code="0x2b">ZION27.MLO</title>
+			<title code="0x2c">ZION28.MLO</title>
+			<title code="0x2d">ZION29.MLO</title>
+			<title code="0x2e">ZION30.MLO</title>
+			<title code="0x2f">ZION31.MLO</title>
+			<title code="0x30">GUN_SE1.MLO</title>
+			<title code="0x31">GUN_SE2.MLO</title>
+			<title code="0x32">GUN_SE3.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam: Advanced Operation (機動戦士ガンダム アドバンスドオペレーション) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="gdm_ao_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">GAO.EXE</rom>
+			<rom type="conin" offset="5">GAO.EXE</rom>
+			<rom type="file" offset="0x10">GUN01.MLO</rom>
+			<rom type="file" offset="0x11">GUN02.MLO</rom>
+			<rom type="file" offset="0x12">GUN03.MLO</rom>
+			<rom type="file" offset="0x13">GUN04.MLO</rom>
+			<rom type="file" offset="0x14">GUN05.MLO</rom>
+			<rom type="file" offset="0x15">GUN06.MLO</rom>
+			<rom type="file" offset="0x16">GUN07.MLO</rom>
+			<rom type="file" offset="0x17">GUN08.MLO</rom>
+			<rom type="file" offset="0x18">GUN09.MLO</rom>
+			<rom type="file" offset="0x1a">GUN10.MLO</rom>
+			<rom type="file" offset="0x1b">GUN11.MLO</rom>
+			<rom type="file" offset="0x1c">GUN12.MLO</rom>
+			<rom type="file" offset="0x1d">GUN13.MLO</rom>
+			<rom type="file" offset="0x1e">GUN14.MLO</rom>
+			<rom type="file" offset="0x1f">GUN15.MLO</rom>
+			<rom type="file" offset="0x20">GUN16.MLO</rom>
+			<rom type="file" offset="0x21">GUN17.MLO</rom>
+			<rom type="file" offset="0x22">GUN18.MLO</rom>
+			<rom type="file" offset="0x23">GUN19.MLO</rom>
+			<rom type="file" offset="0x25">GUN20.MLO</rom>
+			<rom type="file" offset="0x26">GUN21.MLO</rom>
+			<rom type="file" offset="0x27">GUN22.MLO</rom>
+			<rom type="file" offset="0x28">GUN23.MLO</rom>
+			<rom type="file" offset="0x29">GUN24.MLO</rom>
+			<rom type="file" offset="0x2a">GUN25.MLO</rom>
+			<rom type="file" offset="0x2b">GUN3.MLO</rom>
+			<rom type="file" offset="0x2c">GUN4.MLO</rom>
+			<rom type="file" offset="0x2d">SE_1.MLO</rom>
+			<rom type="file" offset="0x2e">SE_2.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">GUN01.MLO</title>
+			<title code="0x11">GUN02.MLO</title>
+			<title code="0x12">GUN03.MLO</title>
+			<title code="0x13">GUN04.MLO</title>
+			<title code="0x14">GUN05.MLO</title>
+			<title code="0x15">GUN06.MLO</title>
+			<title code="0x16">GUN07.MLO</title>
+			<title code="0x17">GUN08.MLO</title>
+			<title code="0x18">GUN09.MLO</title>
+			<title code="0x1a">GUN10.MLO</title>
+			<title code="0x1b">GUN11.MLO</title>
+			<title code="0x1c">GUN12.MLO</title>
+			<title code="0x1d">GUN13.MLO</title>
+			<title code="0x1e">GUN14.MLO</title>
+			<title code="0x1f">GUN15.MLO</title>
+			<title code="0x20">GUN16.MLO</title>
+			<title code="0x21">GUN17.MLO</title>
+			<title code="0x22">GUN18.MLO</title>
+			<title code="0x23">GUN19.MLO</title>
+			<title code="0x25">GUN20.MLO</title>
+			<title code="0x26">GUN21.MLO</title>
+			<title code="0x27">GUN22.MLO</title>
+			<title code="0x28">GUN23.MLO</title>
+			<title code="0x29">GUN24.MLO</title>
+			<title code="0x2a">GUN25.MLO</title>
+			<title code="0x2d">SE_1.MLO</title>
+			<title code="0x2e">SE_2.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam: Multiple Operation (機動戦士ガンダム マルチプルオペレーション) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="gdm_mo_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">GUN_SE.EFC</rom>
+			<rom type="file" offset="0x10">GAN_OP.M</rom>
+			<rom type="file" offset="0x11">GUN_01.M</rom>
+			<rom type="file" offset="0x12">GUN_02.M</rom>
+			<rom type="file" offset="0x13">GUN_03.M</rom>
+			<rom type="file" offset="0x14">GUN_04.M</rom>
+			<rom type="file" offset="0x15">GUN_05.M</rom>
+			<rom type="file" offset="0x16">GUN_06.M</rom>
+			<rom type="file" offset="0x17">GUN_07.M</rom>
+			<rom type="file" offset="0x18">GUN_08.M</rom>
+			<rom type="file" offset="0x19">GUN_09.M</rom>
+			<rom type="file" offset="0x1a">GUN_10.M</rom>
+			<rom type="file" offset="0x1b">GUN_11.M</rom>
+			<rom type="file" offset="0x1c">GUN_12.M</rom>
+			<rom type="file" offset="0x1d">GUN_13.M</rom>
+			<rom type="file" offset="0x1e">GUN_14.M</rom>
+			<rom type="file" offset="0x1f">GUN_15.M</rom>
+			<rom type="shell" offset="0">PMD /K /I</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">機動戦士ガンダム =Opening= No.01</title>
+			<title code="0x11">ﾒﾆｭ-ｶﾞﾒﾝ / MSF3,(ｸﾝﾚﾝ)</title>
+			<title code="0x12">ｼﾅﾘｵ ｶﾞﾒﾝ / MSF3,ﾊﾟｲﾛｯﾄﾙ-ﾑ</title>
+			<title code="0x13">ﾚﾝﾎﾟｳｸﾞﾝ / (ﾁｼﾞｮｳMap)</title>
+			<title code="0x14">ﾚﾝﾎﾟｳｸﾞﾝ / (ｳﾁｭｳMap)</title>
+			<title code="0x15">ｼﾞｵﾝｸﾞﾝ ﾁｼﾞｮｳ / Return of ZION (ﾒｲﾝﾃ-ﾏ)</title>
+			<title code="0x16">ｼﾞｵﾝｸﾞﾝ / (ｳﾁｭｳMap)</title>
+			<title code="0x17">ｼｭﾐﾚ-ｼｮﾝ ﾁｼﾞｮｳ(ﾌﾘ-) / ﾏ-ﾁ</title>
+			<title code="0x18">ｼｭﾐﾚ-ｼｮﾝ ｳﾁｭｳ (ﾌﾘ-) / ﾍﾞ-ｽﾗｲﾝ</title>
+			<title code="0x19">ﾚﾝﾎﾟｳｸﾞﾝ ｼｮｳﾘ / Return of ZION (Victory)</title>
+			<title code="0x1a">ｼﾞｵﾝｸﾞﾝ ｼｮｳﾘ / MSF3,(ｼｮｳﾘ)</title>
+			<title code="0x1b">ｶﾛｳｼﾞﾃ､ｶﾂ / MSF3,(ｺｳｶｸ)</title>
+			<title code="0x1c">ﾏｹ ...Game Over / Return of ZION (ｶﾅｼﾐ)</title>
+			<title code="0x1d">MSﾕﾆｯﾄｼｭｳﾘ / msf3,ﾌﾞﾘｯｼﾞ</title>
+			<title code="0x1e">ﾖﾋﾞ / Return of ZION (ﾌﾞﾘ-ﾌｨﾝｸﾞ)</title>
+			<title code="0x1f">機動戦士ガンダム =Ending= No.02</title>
+			<range min="0x0801" max="0x0814" extcode="1">GUN_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam: Return of Zion (機動戦士ガンダム リターン･オブ･ジオン) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="gdm_roz_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">MN.EXE</rom>
+			<rom type="conin" offset="5">MN.EXE</rom>
+			<rom type="file" offset="0x10">ZION00.MLO</rom>
+			<rom type="file" offset="0x11">ZION01.MLO</rom>
+			<rom type="file" offset="0x12">ZION02.MLO</rom>
+			<rom type="file" offset="0x13">ZION03.MLO</rom>
+			<rom type="file" offset="0x14">ZION04.MLO</rom>
+			<rom type="file" offset="0x15">ZION10.MLO</rom>
+			<rom type="file" offset="0x16">ZION11.MLO</rom>
+			<rom type="file" offset="0x17">ZION12.MLO</rom>
+			<rom type="file" offset="0x18">ZION13.MLO</rom>
+			<rom type="file" offset="0x19">ZION14.MLO</rom>
+			<rom type="file" offset="0x1a">ZION15.MLO</rom>
+			<rom type="file" offset="0x1b">ZION20.MLO</rom>
+			<rom type="file" offset="0x1c">ZION21.MLO</rom>
+			<rom type="file" offset="0x1d">ZION22.MLO</rom>
+			<rom type="file" offset="0x1e">ZION23.MLO</rom>
+			<rom type="file" offset="0x1f">ZION24.MLO</rom>
+			<rom type="file" offset="0x20">ZION25.MLO</rom>
+			<rom type="file" offset="0x21">ZION26.MLO</rom>
+			<rom type="file" offset="0x22">ZION27.MLO</rom>
+			<rom type="file" offset="0x23">ZION28.MLO</rom>
+			<rom type="file" offset="0x24">ZION29.MLO</rom>
+			<rom type="file" offset="0x25">ZION30.MLO</rom>
+			<rom type="file" offset="0x26">ZION31.MLO</rom>
+			<rom type="file" offset="0x27">ZION32.MLO</rom>
+			<rom type="file" offset="0x28">ZION33.MLO</rom>
+			<rom type="file" offset="0x29">ZION34.MLO</rom>
+			<rom type="file" offset="0x2a">ZION35.MLO</rom>
+			<rom type="file" offset="0x2b">ZION36.MLO</rom>
+			<rom type="file" offset="0x2c">ZION37.MLO</rom>
+			<rom type="file" offset="0x2d">ZION40.MLO</rom>
+			<rom type="file" offset="0x2e">ZION41.MLO</rom>
+			<rom type="file" offset="0x2f">ZION42.MLO</rom>
+			<rom type="file" offset="0x30">ZION43.MLO</rom>
+			<rom type="file" offset="0x31">ZION44.MLO</rom>
+			<rom type="file" offset="0x32">ZION45.MLO</rom>
+			<rom type="file" offset="0x33">ZION46.MLO</rom>
+			<rom type="file" offset="0x34">ZION47.MLO</rom>
+			<rom type="file" offset="0x35">ZION99.MLO</rom>
+			<rom type="file" offset="0x36">MS_SE01.MLO</rom>
+			<rom type="file" offset="0x37">MS_SE02.MLO</rom>
+			<rom type="file" offset="0x38">MS_SE03.MLO</rom>
+			<rom type="file" offset="0x39">MS_SE04.MLO</rom>
+			<rom type="file" offset="0x3a">MS_SE05.MLO</rom>
+			<rom type="file" offset="0x3b">MS_SE06.MLO</rom>
+			<rom type="file" offset="0x3c">MS_SE07.MLO</rom>
+			<rom type="file" offset="0x3d">MS_SE08.MLO</rom>
+			<rom type="file" offset="0x3e">MS_SE09.MLO</rom>
+			<rom type="file" offset="0x3f">MS_SE10.MLO</rom>
+			<rom type="file" offset="0x40">MS_SE11.MLO</rom>
+			<rom type="file" offset="0x41">MS_SE12.MLO</rom>
+			<rom type="file" offset="0x42">MS_SE13.MLO</rom>
+			<rom type="file" offset="0x43">MS_SE14.MLO</rom>
+			<rom type="file" offset="0x44">MS_SE15.MLO</rom>
+			<rom type="file" offset="0x45">MS_SE16.MLO</rom>
+			<rom type="file" offset="0x46">MS_SE17.MLO</rom>
+			<rom type="file" offset="0x47">MS_SE18.MLO</rom>
+			<rom type="file" offset="0x48">MS_SE19.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ZION00.MLO</title>
+			<title code="0x11">ZION01.MLO</title>
+			<title code="0x12">ZION02.MLO</title>
+			<title code="0x13">ZION03.MLO</title>
+			<title code="0x14">ZION04.MLO</title>
+			<title code="0x15">ZION10.MLO</title>
+			<title code="0x16">ZION11.MLO</title>
+			<title code="0x17">ZION12.MLO</title>
+			<title code="0x18">ZION13.MLO</title>
+			<title code="0x19">ZION14.MLO</title>
+			<title code="0x1a">ZION15.MLO</title>
+			<title code="0x1b">ZION20.MLO</title>
+			<title code="0x1c">ZION21.MLO</title>
+			<title code="0x1d">ZION22.MLO</title>
+			<title code="0x1e">ZION23.MLO</title>
+			<title code="0x1f">ZION24.MLO</title>
+			<title code="0x20">ZION25.MLO</title>
+			<title code="0x21">ZION26.MLO</title>
+			<title code="0x22">ZION27.MLO</title>
+			<title code="0x23">ZION28.MLO</title>
+			<title code="0x24">ZION29.MLO</title>
+			<title code="0x25">ZION30.MLO</title>
+			<title code="0x26">ZION31.MLO</title>
+			<title code="0x27">ZION32.MLO</title>
+			<title code="0x28">ZION33.MLO</title>
+			<title code="0x29">ZION34.MLO</title>
+			<title code="0x2a">ZION35.MLO</title>
+			<title code="0x2b">ZION36.MLO</title>
+			<title code="0x2c">ZION37.MLO</title>
+			<title code="0x2d">ZION40.MLO</title>
+			<title code="0x2e">ZION41.MLO</title>
+			<title code="0x2f">ZION42.MLO</title>
+			<title code="0x30">ZION43.MLO</title>
+			<title code="0x31">ZION44.MLO</title>
+			<title code="0x32">ZION45.MLO</title>
+			<title code="0x33">ZION46.MLO</title>
+			<title code="0x34">ZION47.MLO</title>
+			<title code="0x35">ZION99.MLO</title>
+			<title code="0x36">MS_SE01.MLO</title>
+			<title code="0x37">MS_SE02.MLO</title>
+			<title code="0x38">MS_SE03.MLO</title>
+			<title code="0x39">MS_SE04.MLO</title>
+			<title code="0x3a">MS_SE05.MLO</title>
+			<title code="0x3b">MS_SE06.MLO</title>
+			<title code="0x3c">MS_SE07.MLO</title>
+			<title code="0x3d">MS_SE08.MLO</title>
+			<title code="0x3e">MS_SE09.MLO</title>
+			<title code="0x3f">MS_SE10.MLO</title>
+			<title code="0x40">MS_SE11.MLO</title>
+			<title code="0x41">MS_SE12.MLO</title>
+			<title code="0x42">MS_SE13.MLO</title>
+			<title code="0x43">MS_SE14.MLO</title>
+			<title code="0x44">MS_SE15.MLO</title>
+			<title code="0x45">MS_SE16.MLO</title>
+			<title code="0x46">MS_SE17.MLO</title>
+			<title code="0x47">MS_SE18.MLO</title>
+			<title code="0x48">MS_SE19.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam 0083 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="gdm_0083_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">EFFECT.BIN</rom>
+			<rom type="file" offset="0x10">BGM01.M</rom>
+			<rom type="file" offset="0x11">BGM02.M</rom>
+			<rom type="file" offset="0x12">BGM03.M</rom>
+			<rom type="file" offset="0x13">BGM04.M</rom>
+			<rom type="file" offset="0x14">BGM05.M</rom>
+			<rom type="file" offset="0x15">BGM06.M</rom>
+			<rom type="file" offset="0x16">BGM07.M</rom>
+			<rom type="file" offset="0x17">BGM08.M</rom>
+			<rom type="file" offset="0x18">BGM09.M</rom>
+			<rom type="file" offset="0x19">BGM10.M</rom>
+			<rom type="file" offset="0x1a">BGM11.M</rom>
+			<rom type="file" offset="0x1b">BGM12.M</rom>
+			<rom type="file" offset="0x1c">BGM13.M</rom>
+			<rom type="file" offset="0x1d">BGM14.M</rom>
+			<rom type="file" offset="0x1e">BGM15.M</rom>
+			<rom type="file" offset="0x1f">BGM16.M</rom>
+			<rom type="file" offset="0x20">BGM17.M</rom>
+			<rom type="file" offset="0x21">BGM18.M</rom>
+			<rom type="file" offset="0x22">BGM19.M</rom>
+			<rom type="file" offset="0x23">BGM20.M</rom>
+			<rom type="shell" offset="0">PMD # /M9 /V0 /E2 /DF35 /DS5 /K</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM01.M</title>
+			<title code="0x11">BGM02.M</title>
+			<title code="0x12">BGM03.M</title>
+			<title code="0x13">BGM04.M</title>
+			<title code="0x14">BGM05.M</title>
+			<title code="0x15">BGM06.M</title>
+			<title code="0x16">BGM07.M</title>
+			<title code="0x17">BGM08.M</title>
+			<title code="0x18">BGM09.M</title>
+			<title code="0x19">BGM10.M</title>
+			<title code="0x1a">BGM11.M</title>
+			<title code="0x1b">BGM12.M</title>
+			<title code="0x1c">BGM13.M</title>
+			<title code="0x1d">BGM14.M</title>
+			<title code="0x1e">BGM15.M</title>
+			<title code="0x1f">BGM16.M</title>
+			<title code="0x20">BGM17.M</title>
+			<title code="0x21">BGM18.M</title>
+			<title code="0x22">BGM19.M</title>
+			<title code="0x23">BGM20.M</title>
+			<range min="0x0800" max="0x08ff" extcode="1">EFFECT.BIN #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (GS)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="gdm_0083_98">
+			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
+			<rom type="file" offset="-1">MMD.COM</rom>
+			<rom type="file" offset="0x10">BGM01.MMD</rom>
+			<rom type="file" offset="0x11">BGM02.MMD</rom>
+			<rom type="file" offset="0x12">BGM03.MMD</rom>
+			<rom type="file" offset="0x13">BGM04.MMD</rom>
+			<rom type="file" offset="0x14">BGM05.MMD</rom>
+			<rom type="file" offset="0x15">BGM06.MMD</rom>
+			<rom type="file" offset="0x16">BGM07.MMD</rom>
+			<rom type="file" offset="0x17">BGM08.MMD</rom>
+			<rom type="file" offset="0x18">BGM09.MMD</rom>
+			<rom type="file" offset="0x19">BGM10.MMD</rom>
+			<rom type="file" offset="0x1a">BGM11.MMD</rom>
+			<rom type="file" offset="0x1b">BGM12.MMD</rom>
+			<rom type="file" offset="0x1c">BGM13.MMD</rom>
+			<rom type="file" offset="0x1d">BGM14.MMD</rom>
+			<rom type="file" offset="0x1e">BGM15.MMD</rom>
+			<rom type="file" offset="0x1f">BGM16.MMD</rom>
+			<rom type="file" offset="0x20">BGM17.MMD</rom>
+			<rom type="file" offset="0x21">BGM18.MMD</rom>
+			<rom type="file" offset="0x22">BGM19.MMD</rom>
+			<rom type="file" offset="0x23">BGM20.MMD</rom>
+			<rom type="shell" offset="0">mmd /K</rom>
+			<rom type="shell" offset="0">mmp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM01.MMD</title>
+			<title code="0x11">BGM02.MMD</title>
+			<title code="0x12">BGM03.MMD</title>
+			<title code="0x13">BGM04.MMD</title>
+			<title code="0x14">BGM05.MMD</title>
+			<title code="0x15">BGM06.MMD</title>
+			<title code="0x16">BGM07.MMD</title>
+			<title code="0x17">BGM08.MMD</title>
+			<title code="0x18">BGM09.MMD</title>
+			<title code="0x19">BGM10.MMD</title>
+			<title code="0x1a">BGM11.MMD</title>
+			<title code="0x1b">BGM12.MMD</title>
+			<title code="0x1c">BGM13.MMD</title>
+			<title code="0x1d">BGM14.MMD</title>
+			<title code="0x1e">BGM15.MMD</title>
+			<title code="0x1f">BGM16.MMD</title>
+			<title code="0x20">BGM17.MMD</title>
+			<title code="0x21">BGM18.MMD</title>
+			<title code="0x22">BGM19.MMD</title>
+			<title code="0x23">BGM20.MMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="beep">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="gdm_0083_98">
+			<rom type="file" offset="-1">MMP_HOOT.COM</rom>
+			<rom type="file" offset="-1">MMD.COM</rom>
+			<rom type="file" offset="0x10">BGM01.MMD</rom>
+			<rom type="file" offset="0x11">BGM02.MMD</rom>
+			<rom type="file" offset="0x12">BGM03.MMD</rom>
+			<rom type="file" offset="0x13">BGM04.MMD</rom>
+			<rom type="file" offset="0x14">BGM05.MMD</rom>
+			<rom type="file" offset="0x15">BGM06.MMD</rom>
+			<rom type="file" offset="0x16">BGM07.MMD</rom>
+			<rom type="file" offset="0x17">BGM08.MMD</rom>
+			<rom type="file" offset="0x18">BGM09.MMD</rom>
+			<rom type="file" offset="0x19">BGM10.MMD</rom>
+			<rom type="file" offset="0x1a">BGM11.MMD</rom>
+			<rom type="file" offset="0x1b">BGM12.MMD</rom>
+			<rom type="file" offset="0x1c">BGM13.MMD</rom>
+			<rom type="file" offset="0x1d">BGM14.MMD</rom>
+			<rom type="file" offset="0x1e">BGM15.MMD</rom>
+			<rom type="file" offset="0x1f">BGM16.MMD</rom>
+			<rom type="file" offset="0x20">BGM17.MMD</rom>
+			<rom type="file" offset="0x21">BGM18.MMD</rom>
+			<rom type="file" offset="0x22">BGM19.MMD</rom>
+			<rom type="file" offset="0x23">BGM20.MMD</rom>
+			<rom type="shell" offset="0">mmd /K</rom>
+			<rom type="shell" offset="0">mmp_hoot</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM01.MMD</title>
+			<title code="0x11">BGM02.MMD</title>
+			<title code="0x12">BGM03.MMD</title>
+			<title code="0x13">BGM04.MMD</title>
+			<title code="0x14">BGM05.MMD</title>
+			<title code="0x15">BGM06.MMD</title>
+			<title code="0x16">BGM07.MMD</title>
+			<title code="0x17">BGM08.MMD</title>
+			<title code="0x18">BGM09.MMD</title>
+			<title code="0x19">BGM10.MMD</title>
+			<title code="0x1a">BGM11.MMD</title>
+			<title code="0x1b">BGM12.MMD</title>
+			<title code="0x1c">BGM13.MMD</title>
+			<title code="0x1d">BGM14.MMD</title>
+			<title code="0x1e">BGM15.MMD</title>
+			<title code="0x1f">BGM16.MMD</title>
+			<title code="0x20">BGM17.MMD</title>
+			<title code="0x21">BGM18.MMD</title>
+			<title code="0x22">BGM19.MMD</title>
+			<title code="0x23">BGM20.MMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Soukou Kihei Votoms: Real Battle (装甲騎兵ボトムズ リアルバトル) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="votoms_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">BTL_SE.EFC</rom>
+			<rom type="file" offset="0x10">S00.M</rom>
+			<rom type="file" offset="0x11">S01.M</rom>
+			<rom type="file" offset="0x12">S02.M</rom>
+			<rom type="file" offset="0x13">S03.M</rom>
+			<rom type="file" offset="0x14">S04.M</rom>
+			<rom type="file" offset="0x15">S05.M</rom>
+			<rom type="file" offset="0x16">S06.M</rom>
+			<rom type="file" offset="0x17">S07.M</rom>
+			<rom type="file" offset="0x18">S08.M</rom>
+			<rom type="file" offset="0x19">S09.M</rom>
+			<rom type="file" offset="0x1a">S10.M</rom>
+			<rom type="file" offset="0x1b">S11.M</rom>
+			<rom type="file" offset="0x1c">S12.M</rom>
+			<rom type="file" offset="0x1d">S13.M</rom>
+			<rom type="file" offset="0x1e">S14.M</rom>
+			<rom type="file" offset="0x1f">S15.M</rom>
+			<rom type="file" offset="0x20">S16.M</rom>
+			<rom type="file" offset="0x21">S17.M</rom>
+			<rom type="file" offset="0x22">S18.M</rom>
+			<rom type="file" offset="0x23">S19.M</rom>
+			<rom type="file" offset="0x24">S20.M</rom>
+			<rom type="file" offset="0x25">S21.M</rom>
+			<rom type="file" offset="0x26">S22.M</rom>
+			<rom type="file" offset="0x27">S23.M</rom>
+			<rom type="file" offset="0x28">S24.M</rom>
+			<rom type="shell" offset="0">PMD /m8 /e2 /v0 /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ﾒﾛｳﾘﾝｸ ｯﾎﾟｲ ｷｮｸ</title>
+			<title code="0x11">ﾒﾆｭ-ｶﾞﾒﾝ</title>
+			<title code="0x12">ｷｬﾗｸﾀ- ｴﾃﾞｨｯﾄ (Opening ﾉ ﾊｼﾞﾒ ﾉ ﾌﾞﾌﾞﾝ ﾆﾓ ﾂｶｯﾃﾈ!!)</title>
+			<title code="0x13">ｲﾂﾓﾉ ｷｮｸ</title>
+			<title code="0x14">AT-ｴﾃﾞｨｯﾄ</title>
+			<title code="0x15">ﾒｲﾝｽﾄﾘ-ﾄ</title>
+			<title code="0x16">ﾊﾟ-ﾂ ﾔ ｻﾝ (ｱｺﾊﾞ)</title>
+			<title code="0x17">ﾊﾞﾄﾘﾝｸﾞ ｶｲｼﾞｮｳ</title>
+			<title code="0x18">ｻｶﾊﾞ</title>
+			<title code="0x19">ﾖｳｷ ﾅ ｷｬﾗｸﾀ- ﾉ ﾃ-ﾏ (ｷｮｳ ﾊ,ｹｲﾊﾞﾃﾞﾓｳｶｯﾀ!!)</title>
+			<title code="0x1a">ｳｻﾝｸｻｲ ﾊﾅｼ</title>
+			<title code="0x1b">ﾊﾞﾄﾘﾝｸﾞ ﾏｴ (etc.ｲﾛｲﾛﾂｶｴｿｳ)</title>
+			<title code="0x1c">ﾊﾞﾄﾘﾝｸﾞ ｼｮｳﾘ</title>
+			<title code="0x1d">ﾊﾞﾄﾙ ﾆ ﾏｹﾀ ﾄｷ, SAVE ﾆﾓ ﾂｶｯﾃﾈ!!</title>
+			<title code="0x1e">ﾒﾛｳﾘﾝｸ ﾉ Ending ﾐﾀｲﾅ...</title>
+			<title code="0x1f">ｽﾀｯﾌ ﾛ-ﾙ</title>
+			<title code="0x20">ﾊﾞﾄﾘﾝｸﾞ (ﾉ-ﾏﾙ)</title>
+			<title code="0x21">ﾊﾞﾄﾘﾝｸﾞ ｱﾌﾞﾉ-ﾏﾙ (vs.PS ﾖｳ)</title>
+			<title code="0x22">ﾊﾞﾄﾘﾝｸﾞ (Big Game)</title>
+			<title code="0x23">ﾄｸﾍﾞﾂ ﾅ ﾊﾞﾄﾘﾝｸﾞ ﾉ ﾏｴ ﾅﾄﾞ ｲｲｶﾓ ｼﾚﾅｲ</title>
+			<title code="0x24">ｲﾛｲﾛ ﾂｶｴﾙ ｷｮｸ ﾀﾞ ﾄ ｵﾓｳ</title>
+			<title code="0x25">ｷﾓﾁ ﾉ ﾀｶﾌﾞｯﾃ ｲﾙ ﾄｷ ﾅﾄﾞ..</title>
+			<title code="0x26">ｼｱｲ ｶﾞ ｵﾜｯﾀ !!  ﾜ- ﾜ-</title>
+			<title code="0x27">入場 (ピーピー)</title>
+			<title code="0x28">ラジオノイズ</title>
+			<range min="0x0801" max="0x080b" extcode="1">BTL_SE.EFC #%2X</range>
+			<range min="0x080f" max="0x0810" extcode="1">BTL_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader (超時空要塞マクロス スカル･リーダー) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="mcrs_sl_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">MAC_SE.EFC</rom>
+			<rom type="file" offset="0x10">MAC_01.M</rom>
+			<rom type="file" offset="0x11">MAC_02.M</rom>
+			<rom type="file" offset="0x12">MAC_03.M</rom>
+			<rom type="file" offset="0x13">MAC_04.M</rom>
+			<rom type="file" offset="0x14">MAC_05.M</rom>
+			<rom type="file" offset="0x15">MAC_06.M</rom>
+			<rom type="file" offset="0x16">MAC_07.M</rom>
+			<rom type="file" offset="0x17">MAC_08.M</rom>
+			<rom type="file" offset="0x18">MAC_09.M</rom>
+			<rom type="file" offset="0x19">MAC_10.M</rom>
+			<rom type="file" offset="0x1a">MAC_11.M</rom>
+			<rom type="file" offset="0x1b">MAC_12.M</rom>
+			<rom type="file" offset="0x1c">MAC_13.M</rom>
+			<rom type="file" offset="0x1d">MAC_14.M</rom>
+			<rom type="file" offset="0x1e">MAC_15.M</rom>
+			<rom type="file" offset="0x1f">MAC_16.M</rom>
+			<rom type="file" offset="0x20">MAC_17.M</rom>
+			<rom type="file" offset="0x21">MAC_18.M</rom>
+			<rom type="file" offset="0x22">MAC_19.M</rom>
+			<rom type="file" offset="0x23">MAC_20.M</rom>
+			<rom type="file" offset="0x24">MAC_21.M</rom>
+			<rom type="file" offset="0x25">MAC_22.M</rom>
+			<rom type="file" offset="0x26">MAC_23.M</rom>
+			<rom type="file" offset="0x27">MAC_24.M</rom>
+			<rom type="file" offset="0x28">MAC_25.M</rom>
+			<rom type="file" offset="0x29">MAC_26.M</rom>
+			<rom type="file" offset="0x2a">MAC_27.M</rom>
+			<rom type="file" offset="0x2b">MAC_30.M</rom>
+			<rom type="file" offset="0x2c">MAC_31.M</rom>
+			<rom type="file" offset="0x2d">MAC_32.M</rom>
+			<rom type="file" offset="0x2e">MAC_33.M</rom>
+			<rom type="shell" offset="0">PMD /m8 /e2 /v0 /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
+			<title code="0x1e">Run Away</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
+			<title code="0x21">Just One Victry</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
+			<title code="0x23">Map 4</title>
+			<title code="0x24">Ending 1</title>
+			<title code="0x25">Ending 2</title>
+			<title code="0x26">T.V.Opening</title>
+			<title code="0x27">ｱｲ ｵﾎﾞｴﾃｲﾏｽｶ</title>
+			<title code="0x28">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x29">ｱﾗ-ﾑ 1</title>
+			<title code="0x2a">ｱﾗ-ﾑ 2 (TEL)</title>
+			<title code="0x2b">"Macrros" Rimix version</title>
+			<title code="0x2c">結婚行進曲</title>
+			<title code="0x2d">Game Center</title>
+			<title code="0x2e">マクロス(T.V.Opening)</title>
+			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader Complete Pack (超時空要塞マクロス スカル･リーダー コンプリートパック) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="mcrs_slc_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">MAC_SE.EFC</rom>
+			<rom type="file" offset="0x10">MAC_01.M</rom>
+			<rom type="file" offset="0x11">MAC_02.M</rom>
+			<rom type="file" offset="0x12">MAC_03.M</rom>
+			<rom type="file" offset="0x13">MAC_04.M</rom>
+			<rom type="file" offset="0x14">MAC_05.M</rom>
+			<rom type="file" offset="0x15">MAC_06.M</rom>
+			<rom type="file" offset="0x16">MAC_07.M</rom>
+			<rom type="file" offset="0x17">MAC_08.M</rom>
+			<rom type="file" offset="0x18">MAC_09.M</rom>
+			<rom type="file" offset="0x19">MAC_10.M</rom>
+			<rom type="file" offset="0x1a">MAC_11.M</rom>
+			<rom type="file" offset="0x1b">MAC_12.M</rom>
+			<rom type="file" offset="0x1c">MAC_13.M</rom>
+			<rom type="file" offset="0x1d">MAC_14.M</rom>
+			<rom type="file" offset="0x1e">MAC_15.M</rom>
+			<rom type="file" offset="0x1f">MAC_16.M</rom>
+			<rom type="file" offset="0x20">MAC_17.M</rom>
+			<rom type="file" offset="0x21">MAC_18.M</rom>
+			<rom type="file" offset="0x22">MAC_19.M</rom>
+			<rom type="file" offset="0x23">MAC_20.M</rom>
+			<rom type="file" offset="0x24">MAC_21.M</rom>
+			<rom type="file" offset="0x25">MAC_22.M</rom>
+			<rom type="file" offset="0x26">MAC_23.M</rom>
+			<rom type="file" offset="0x27">MAC_24.M</rom>
+			<rom type="file" offset="0x28">MAC_25.M</rom>
+			<rom type="file" offset="0x29">MAC_26.M</rom>
+			<rom type="file" offset="0x2a">MAC_27.M</rom>
+			<rom type="file" offset="0x2b">MAC_30.M</rom>
+			<rom type="file" offset="0x2c">MAC_31.M</rom>
+			<rom type="file" offset="0x2d">MAC_32.M</rom>
+			<rom type="file" offset="0x2e">MAC_33.M</rom>
+			<rom type="file" offset="0x2f">MAC_34.M</rom>
+			<rom type="file" offset="0x30">MAC_35.M</rom>
+			<rom type="file" offset="0x31">MAC_36.M</rom>
+			<rom type="file" offset="0x32">MAC_37.M</rom>
+			<rom type="file" offset="0x33">MAC_38.M</rom>
+			<rom type="file" offset="0x34">MCRS_1.M</rom>
+			<rom type="file" offset="0x35">MCRS_2.M</rom>
+			<rom type="file" offset="0x36">MCRS_3.M</rom>
+			<rom type="file" offset="0x37">MCRS_4.M</rom>
+			<rom type="file" offset="0x38">MCRS_5.M</rom>
+			<rom type="file" offset="0x39">MCRS_6.M</rom>
+			<rom type="file" offset="0x3a">MCRS_7.M</rom>
+			<rom type="file" offset="0x3b">MCRS_11.M</rom>
+			<rom type="shell" offset="0">PMD</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
+			<title code="0x1e">Run Away</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
+			<title code="0x21">Just One Victory</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
+			<title code="0x23">Map 4</title>
+			<title code="0x24">Ending 1</title>
+			<title code="0x25">Ending 2</title>
+			<title code="0x26">T.V.Opening</title>
+			<title code="0x27">ｱｲ ｵﾎﾞｴﾃｲﾏｽｶ</title>
+			<title code="0x28">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x29">ｱﾗ-ﾑ 1</title>
+			<title code="0x2a">ｱﾗ-ﾑ 2 (TEL)</title>
+			<title code="0x2b">"Macross" Remix version</title>
+			<title code="0x2c">結婚行進曲</title>
+			<title code="0x2d">Game Center</title>
+			<title code="0x2e">MAP1_new</title>
+			<title code="0x2f">Opening_new</title>
+			<title code="0x30">ﾐｽｺﾝ1 ﾛ-ﾙ</title>
+			<title code="0x31">ﾐｽｺﾝ ﾌｧﾝﾌｧ-ﾚ</title>
+			<title code="0x32">New_Map 2</title>
+			<title code="0x33">Ending _New ﾗﾌﾞｽﾄ-ﾘ-</title>
+			<title code="0x34">艦内モード (一般)</title>
+			<title code="0x35">艦内モード (軍事施設)</title>
+			<title code="0x36">戦術シーン (味方)</title>
+			<title code="0x37">戦術シーン (敵)</title>
+			<title code="0x38">戦闘シーン (味方)</title>
+			<title code="0x39">戦闘シーン (敵)</title>
+			<title code="0x3a">アームド１の曲</title>
+			<title code="0x3b">Game Over</title>
+			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Choujikuu Yousai Macross: Love Stories (超時空要塞マクロス ラブ･ストーリーズ) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="funcvect" value="0x7e"/>
+			<option name="clockmul" value="8"/>
+			<option name="showfm3ex" value="1"/>
+		</options>
+		<romlist archive="mcrs_ls_98">
+			<rom type="file" offset="-1">PMD_98.COM</rom>
+			<rom type="file" offset="-1">PMD.COM</rom>
+			<rom type="file" offset="0x08">MAC_SE.EFC</rom>
+			<rom type="file" offset="0x10">MAC_01.M</rom>
+			<rom type="file" offset="0x11">MAC_02.M</rom>
+			<rom type="file" offset="0x12">MAC_03.M</rom>
+			<rom type="file" offset="0x13">MAC_04.M</rom>
+			<rom type="file" offset="0x14">MAC_05.M</rom>
+			<rom type="file" offset="0x15">MAC_06.M</rom>
+			<rom type="file" offset="0x16">MAC_07.M</rom>
+			<rom type="file" offset="0x17">MAC_08.M</rom>
+			<rom type="file" offset="0x18">MAC_09.M</rom>
+			<rom type="file" offset="0x19">MAC_10.M</rom>
+			<rom type="file" offset="0x1a">MAC_11.M</rom>
+			<rom type="file" offset="0x1b">MAC_12.M</rom>
+			<rom type="file" offset="0x1c">MAC_13.M</rom>
+			<rom type="file" offset="0x1d">MAC_14.M</rom>
+			<rom type="file" offset="0x1e">MAC_15.M</rom>
+			<rom type="file" offset="0x1f">MAC_16.M</rom>
+			<rom type="file" offset="0x20">MAC_17.M</rom>
+			<rom type="file" offset="0x21">MAC_18.M</rom>
+			<rom type="file" offset="0x22">MAC_19.M</rom>
+			<rom type="file" offset="0x23">MAC_20.M</rom>
+			<rom type="file" offset="0x24">MAC_21.M</rom>
+			<rom type="file" offset="0x25">MAC_22.M</rom>
+			<rom type="file" offset="0x26">MAC_25.M</rom>
+			<rom type="file" offset="0x27">MAC_26.M</rom>
+			<rom type="file" offset="0x28">MAC_27.M</rom>
+			<rom type="file" offset="0x29">MAC_30.M</rom>
+			<rom type="file" offset="0x2a">MAC_31.M</rom>
+			<rom type="file" offset="0x2b">MAC_32.M</rom>
+			<rom type="file" offset="0x2c">MAC_33.M</rom>
+			<rom type="file" offset="0x2d">MAC_34.M</rom>
+			<rom type="file" offset="0x2e">MAC_35.M</rom>
+			<rom type="file" offset="0x2f">MAC_36.M</rom>
+			<rom type="file" offset="0x30">MAC_37.M</rom>
+			<rom type="file" offset="0x31">MAC_38.M</rom>
+			<rom type="file" offset="0x32">REY_03.M</rom>
+			<rom type="shell" offset="0">PMD /m8 /e2 /v0 /k</rom>
+			<rom type="shell" offset="0">pmd_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
+			<title code="0x1e">Run Away</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
+			<title code="0x21">Just One Victry</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
+			<title code="0x23">Map 4</title>
+			<title code="0x24">Ending 1</title>
+			<title code="0x25">Ending 2</title>
+			<title code="0x26">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x27">ｱﾗ-ﾑ 1</title>
+			<title code="0x28">ｱﾗ-ﾑ 2 (TEL)</title>
+			<title code="0x29">"Macrros" Rimix version</title>
+			<title code="0x2a">結婚行進曲</title>
+			<title code="0x2b">Game Center</title>
+			<title code="0x2c">ﾏｸﾛｽ (MAP1_new)</title>
+			<title code="0x2d">ﾏｸﾛｽ (Opening_new)</title>
+			<title code="0x2e">ﾏｸﾛｽ (ﾐｽｺﾝ1 ﾛ-ﾙ)</title>
+			<title code="0x2f">ﾏｸﾛｽ (ﾐｽｺﾝ ﾌｧﾝﾌｧ-ﾚ)</title>
+			<title code="0x30">ﾏｸﾛｽ (New_Map 2)</title>
+			<title code="0x31">ﾏｸﾛｽ (Ending _New ﾗﾌﾞｽﾄ-ﾘ-)</title>
+			<title code="0x32">レイカーズ(ﾆﾁｼﾞｮｳｼ-ﾝ)</title>
+			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Choujikuu Yousai Macross 1: Remember Me (超時空要塞マクロス リメンバー･ミー) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="mcrs_rm_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">MAC.EXE</rom>
+			<rom type="conin" offset="5">MAC.EXE</rom>
+			<rom type="file" offset="0x10">MAC00.MLO</rom>
+			<rom type="file" offset="0x11">MAC01.MLO</rom>
+			<rom type="file" offset="0x12">MAC02.MLO</rom>
+			<rom type="file" offset="0x13">MAC03.MLO</rom>
+			<rom type="file" offset="0x14">MAC04.MLO</rom>
+			<rom type="file" offset="0x15">MAC05.MLO</rom>
+			<rom type="file" offset="0x16">MAC06.MLO</rom>
+			<rom type="file" offset="0x17">MAC07.MLO</rom>
+			<rom type="file" offset="0x18">MAC08.MLO</rom>
+			<rom type="file" offset="0x19">MAC09.MLO</rom>
+			<rom type="file" offset="0x1a">MAC10.MLO</rom>
+			<rom type="file" offset="0x1b">MAC11.MLO</rom>
+			<rom type="file" offset="0x1c">MAC12.MLO</rom>
+			<rom type="file" offset="0x1d">MAC13.MLO</rom>
+			<rom type="file" offset="0x1e">MAC14.MLO</rom>
+			<rom type="file" offset="0x1f">MAC15.MLO</rom>
+			<rom type="file" offset="0x20">MAC16.MLO</rom>
+			<rom type="file" offset="0x21">MAC17.MLO</rom>
+			<rom type="file" offset="0x22">MAC18.MLO</rom>
+			<rom type="file" offset="0x23">MAC19.MLO</rom>
+			<rom type="file" offset="0x24">MAC20.MLO</rom>
+			<rom type="file" offset="0x25">MAC21.MLO</rom>
+			<rom type="file" offset="0x26">MAC22.MLO</rom>
+			<rom type="file" offset="0x27">MAC30.MLO</rom>
+			<rom type="file" offset="0x28">MAC31.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">MAC00.MLO</title>
+			<title code="0x11">MAC01.MLO</title>
+			<title code="0x12">MAC02.MLO</title>
+			<title code="0x13">MAC03.MLO</title>
+			<title code="0x14">MAC04.MLO</title>
+			<title code="0x15">MAC05.MLO</title>
+			<title code="0x16">MAC06.MLO</title>
+			<title code="0x17">MAC07.MLO</title>
+			<title code="0x18">MAC08.MLO</title>
+			<title code="0x19">MAC09.MLO</title>
+			<title code="0x1a">MAC10.MLO</title>
+			<title code="0x1b">MAC11.MLO</title>
+			<title code="0x1c">MAC12.MLO</title>
+			<title code="0x1d">MAC13.MLO</title>
+			<title code="0x1e">MAC14.MLO</title>
+			<title code="0x1f">MAC15.MLO</title>
+			<title code="0x20">MAC16.MLO</title>
+			<title code="0x21">MAC17.MLO</title>
+			<title code="0x22">MAC18.MLO</title>
+			<title code="0x23">MAC19.MLO</title>
+			<title code="0x24">MAC20.MLO</title>
+			<title code="0x25">MAC21.MLO</title>
+			<title code="0x26">MAC22.MLO</title>
+			<title code="0x27">MAC30.MLO</title>
+			<title code="0x28">MAC31.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Mahou Shojo Rina (魔法少女りな) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="rina_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">ADV.EXE</rom>
+			<rom type="conin" offset="5">ADV.EXE</rom>
+			<rom type="file" offset="0x10">RINA00.MLO</rom>
+			<rom type="file" offset="0x11">RINA01.MLO</rom>
+			<rom type="file" offset="0x12">RINA02.MLO</rom>
+			<rom type="file" offset="0x13">RINA03.MLO</rom>
+			<rom type="file" offset="0x14">RINA04.MLO</rom>
+			<rom type="file" offset="0x15">RINA05.MLO</rom>
+			<rom type="file" offset="0x16">RINA06.MLO</rom>
+			<rom type="file" offset="0x17">RINA07.MLO</rom>
+			<rom type="file" offset="0x18">RINA08.MLO</rom>
+			<rom type="file" offset="0x19">RINA09.MLO</rom>
+			<rom type="file" offset="0x1a">RINA10.MLO</rom>
+			<rom type="file" offset="0x1b">RINA11.MLO</rom>
+			<rom type="file" offset="0x1c">RINA12.MLO</rom>
+			<rom type="file" offset="0x1d">RINA13.MLO</rom>
+			<rom type="file" offset="0x1e">RINA14.MLO</rom>
+			<rom type="file" offset="0x1f">RINA15.MLO</rom>
+			<rom type="file" offset="0x20">RINA16.MLO</rom>
+			<rom type="file" offset="0x21">RINA17.MLO</rom>
+			<rom type="file" offset="0x22">RINA18.MLO</rom>
+			<rom type="file" offset="0x23">RINA19.MLO</rom>
+			<rom type="file" offset="0x24">RINA20.MLO</rom>
+			<rom type="file" offset="0x25">RINA21.MLO</rom>
+			<rom type="file" offset="0x26">RINA22.MLO</rom>
+			<rom type="file" offset="0x27">RINA23.MLO</rom>
+			<rom type="file" offset="0x28">RINA24.MLO</rom>
+			<rom type="file" offset="0x29">RINA25.MLO</rom>
+			<rom type="file" offset="0x2a">RINA26.MLO</rom>
+			<rom type="file" offset="0x2b">RINA27.MLO</rom>
+			<rom type="file" offset="0x2c">RINA28.MLO</rom>
+			<rom type="file" offset="0x2d">RINA29.MLO</rom>
+			<rom type="file" offset="0x2e">RINA30.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">RINA00.MLO</title>
+			<title code="0x11">RINA01.MLO</title>
+			<title code="0x12">RINA02.MLO</title>
+			<title code="0x13">RINA03.MLO</title>
+			<title code="0x14">RINA04.MLO</title>
+			<title code="0x15">RINA05.MLO</title>
+			<title code="0x16">RINA06.MLO</title>
+			<title code="0x17">RINA07.MLO</title>
+			<title code="0x18">RINA08.MLO</title>
+			<title code="0x19">RINA09.MLO</title>
+			<title code="0x1a">RINA10.MLO</title>
+			<title code="0x1b">RINA11.MLO</title>
+			<title code="0x1c">RINA12.MLO</title>
+			<title code="0x1d">RINA13.MLO</title>
+			<title code="0x1e">RINA14.MLO</title>
+			<title code="0x1f">RINA15.MLO</title>
+			<title code="0x20">RINA16.MLO</title>
+			<title code="0x21">RINA17.MLO</title>
+			<title code="0x22">RINA18.MLO</title>
+			<title code="0x23">RINA19.MLO</title>
+			<title code="0x24">RINA20.MLO</title>
+			<title code="0x25">RINA21.MLO</title>
+			<title code="0x26">RINA22.MLO</title>
+			<title code="0x27">RINA23.MLO</title>
+			<title code="0x28">RINA24.MLO</title>
+			<title code="0x29">RINA25.MLO</title>
+			<title code="0x2a">RINA26.MLO</title>
+			<title code="0x2b">RINA27.MLO</title>
+			<title code="0x2c">RINA28.MLO</title>
+			<title code="0x2d">RINA29.MLO</title>
+			<title code="0x2e">RINA30.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Ranse Eiketsu Series: Tokugawa Ieyasu (乱世英傑シリーズ 徳川家康) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="ieyasu_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">IEYASU.EXE</rom>
+			<rom type="conin" offset="5">IEYASU.EXE</rom>
+			<rom type="file" offset="0x10">GUNGI.MLO</rom>
+			<rom type="file" offset="0x11">I_SE1.MLO</rom>
+			<rom type="file" offset="0x12">I_SE2.MLO</rom>
+			<rom type="file" offset="0x13">I_SE3.MLO</rom>
+			<rom type="file" offset="0x14">I_SE4.MLO</rom>
+			<rom type="file" offset="0x15">N_SE6.MLO</rom>
+			<rom type="file" offset="0x16">YASU00.MLO</rom>
+			<rom type="file" offset="0x17">YASU01.MLO</rom>
+			<rom type="file" offset="0x18">YASU02.MLO</rom>
+			<rom type="file" offset="0x19">YASU03.MLO</rom>
+			<rom type="file" offset="0x1a">YASU04.MLO</rom>
+			<rom type="file" offset="0x1b">YASU05.MLO</rom>
+			<rom type="file" offset="0x1c">YASU11.MLO</rom>
+			<rom type="file" offset="0x1d">YASU12.MLO</rom>
+			<rom type="file" offset="0x1e">YASU13.MLO</rom>
+			<rom type="file" offset="0x1f">YASU14.MLO</rom>
+			<rom type="file" offset="0x20">YASU15.MLO</rom>
+			<rom type="file" offset="0x21">YASU16.MLO</rom>
+			<rom type="file" offset="0x22">YASU17.MLO</rom>
+			<rom type="file" offset="0x23">YASU21.MLO</rom>
+			<rom type="file" offset="0x24">YASU22.MLO</rom>
+			<rom type="file" offset="0x25">YASU23.MLO</rom>
+			<rom type="file" offset="0x26">YASU24.MLO</rom>
+			<rom type="file" offset="0x27">YASU25.MLO</rom>
+			<rom type="file" offset="0x28">YASU26.MLO</rom>
+			<rom type="file" offset="0x29">YASU30.MLO</rom>
+			<rom type="file" offset="0x2a">YASU31.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">GUNGI.MLO</title>
+			<title code="0x16">YASU00.MLO</title>
+			<title code="0x17">YASU01.MLO</title>
+			<title code="0x18">YASU02.MLO</title>
+			<title code="0x19">YASU03.MLO</title>
+			<title code="0x1a">YASU04.MLO</title>
+			<title code="0x1b">YASU05.MLO</title>
+			<title code="0x1c">YASU11.MLO</title>
+			<title code="0x1d">YASU12.MLO</title>
+			<title code="0x1e">YASU13.MLO</title>
+			<title code="0x1f">YASU14.MLO</title>
+			<title code="0x20">YASU15.MLO</title>
+			<title code="0x21">YASU16.MLO</title>
+			<title code="0x22">YASU17.MLO</title>
+			<title code="0x23">YASU21.MLO</title>
+			<title code="0x24">YASU22.MLO</title>
+			<title code="0x25">YASU23.MLO</title>
+			<title code="0x26">YASU24.MLO</title>
+			<title code="0x27">YASU25.MLO</title>
+			<title code="0x28">YASU26.MLO</title>
+			<title code="0x29">YASU30.MLO</title>
+			<title code="0x2a">YASU31.MLO</title>
+			<title code="0x11">I_SE1.MLO</title>
+			<title code="0x12">I_SE2.MLO</title>
+			<title code="0x13">I_SE3.MLO</title>
+			<title code="0x14">I_SE4.MLO</title>
+			<title code="0x15">N_SE6.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Ranse Eiketsu Series: Oda Nobunaga (乱世英傑シリーズ 織田信長) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="odanobu_98">
+			<rom type="file" offset="-1">mlalf_98.com</rom>
+			<rom type="file" offset="-1">MAIN.EXE</rom>
+			<rom type="conin" offset="5">MAIN.EXE</rom>
+			<rom type="file" offset="0x10">N_SE1.MLO</rom>
+			<rom type="file" offset="0x11">N_SE2.MLO</rom>
+			<rom type="file" offset="0x12">N_SE3.MLO</rom>
+			<rom type="file" offset="0x13">N_SE4.MLO</rom>
+			<rom type="file" offset="0x14">N_SE5.MLO</rom>
+			<rom type="file" offset="0x15">N_SE6.MLO</rom>
+			<rom type="file" offset="0x16">N_SE7.MLO</rom>
+			<rom type="file" offset="0x17">NOBU_E.MLO</rom>
+			<rom type="file" offset="0x18">NOBU00.MLO</rom>
+			<rom type="file" offset="0x19">NOBU01.MLO</rom>
+			<rom type="file" offset="0x1a">NOBU02.MLO</rom>
+			<rom type="file" offset="0x1b">NOBU03.MLO</rom>
+			<rom type="file" offset="0x1c">NOBU04.MLO</rom>
+			<rom type="file" offset="0x1d">NOBU05.MLO</rom>
+			<rom type="file" offset="0x1e">NOBU06.MLO</rom>
+			<rom type="file" offset="0x1f">NOBU07.MLO</rom>
+			<rom type="file" offset="0x20">NOBU08.MLO</rom>
+			<rom type="file" offset="0x21">NOBU09.MLO</rom>
+			<rom type="file" offset="0x22">NOBU10.MLO</rom>
+			<rom type="file" offset="0x23">NOBU11.MLO</rom>
+			<rom type="file" offset="0x24">NOBU12.MLO</rom>
+			<rom type="file" offset="0x25">NOBU13.MLO</rom>
+			<rom type="file" offset="0x26">NOBU14.MLO</rom>
+			<rom type="file" offset="0x27">NOBU15.MLO</rom>
+			<rom type="file" offset="0x28">NOBU20.MLO</rom>
+			<rom type="file" offset="0x29">NOBU21.MLO</rom>
+			<rom type="file" offset="0x2a">NOBU22.MLO</rom>
+			<rom type="file" offset="0x2b">NOBU23.MLO</rom>
+			<rom type="file" offset="0x2c">NOBU99.MLO</rom>
+			<rom type="shell" offset="0">mlalf_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">NOBU_E.MLO</title>
+			<title code="0x18">NOBU00.MLO</title>
+			<title code="0x19">NOBU01.MLO</title>
+			<title code="0x1a">NOBU02.MLO</title>
+			<title code="0x1b">NOBU03.MLO</title>
+			<title code="0x1c">NOBU04.MLO</title>
+			<title code="0x1d">NOBU05.MLO</title>
+			<title code="0x1e">NOBU06.MLO</title>
+			<title code="0x1f">NOBU07.MLO</title>
+			<title code="0x20">NOBU08.MLO</title>
+			<title code="0x21">NOBU09.MLO</title>
+			<title code="0x22">NOBU10.MLO</title>
+			<title code="0x23">NOBU11.MLO</title>
+			<title code="0x24">NOBU12.MLO</title>
+			<title code="0x25">NOBU13.MLO</title>
+			<title code="0x26">NOBU14.MLO</title>
+			<title code="0x27">NOBU15.MLO</title>
+			<title code="0x28">NOBU20.MLO</title>
+			<title code="0x29">NOBU21.MLO</title>
+			<title code="0x2a">NOBU22.MLO</title>
+			<title code="0x2b">NOBU23.MLO</title>
+			<title code="0x2c">NOBU99.MLO</title>
+			<title code="0x10">N_SE1.MLO</title>
+			<title code="0x11">N_SE2.MLO</title>
+			<title code="0x12">N_SE3.MLO</title>
+			<title code="0x13">N_SE4.MLO</title>
+			<title code="0x14">N_SE5.MLO</title>
+			<title code="0x15">N_SE6.MLO</title>
+			<title code="0x16">N_SE7.MLO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Majokko Kumi (魔女っ子クミ) (YM2203)</name>
+		<driver type="opn">pc98vx</driver>
+		<driveralias type="PC-9801">FamilySoft</driveralias>
+		<options>
+			<option name="bootcs" value="0x0060"/>
+			<option name="bootip" value="0x0000"/>
+			<option name="funcvect" value="0x7f"/>
+			<option name="clockmul" value="8"/>
+			<option name="datamax" value="0x01"/>
+		</options>
+		<romlist archive="kumi_98">
+			<rom type="code" offset="0x00600">kumi_98.bin</rom>
+			<rom type="code" offset="0x10000">MUS.DRV</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x10" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
+		</options>
+		<romlist archive="asuka68snd">
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x030000">mus_dat1/AS00.ZMD</rom>
+			<rom type="code" offset="0x031000">mus_dat1/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat1/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat1/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat1/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat1/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat1/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat1/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat1/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat1/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat1/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat1/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat1/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat1/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat1/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat1/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
+			<title code="0x01">Omake</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (GS)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="pcm8" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="asuka68snd">
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat2/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat2/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat2/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat2/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat2/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat2/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat2/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat2/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat2/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat2/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat2/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat2/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat2/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat2/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat2/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (TG-100)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="asuka68snd">
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat3/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat3/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat3/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat3/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat3/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat3/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat3/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat3/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat3/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat3/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat3/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat3/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat3/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat3/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat3/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+		</options>
+		<romlist archive="asuka68snd">
+			<rom type="code" offset="0x000000">asuka68snd.bin</rom>
+			<rom type="x" offset="0x010000">ZMSC.X</rom>
+			<rom type="code" offset="0x031000">mus_dat2/AS01.ZMD</rom>
+			<rom type="code" offset="0x036000">mus_dat2/AS02.ZMD</rom>
+			<rom type="code" offset="0x039000">mus_dat2/AS03.ZMD</rom>
+			<rom type="code" offset="0x03d000">mus_dat2/AS04.ZMD</rom>
+			<rom type="code" offset="0x041000">mus_dat2/AS05.ZMD</rom>
+			<rom type="code" offset="0x046000">mus_dat2/AS06.ZMD</rom>
+			<rom type="code" offset="0x04a000">mus_dat2/AS07.ZMD</rom>
+			<rom type="code" offset="0x04c000">mus_dat2/AS08.ZMD</rom>
+			<rom type="code" offset="0x057000">mus_dat2/AS09.ZMD</rom>
+			<rom type="code" offset="0x05a000">mus_dat2/AS10.ZMD</rom>
+			<rom type="code" offset="0x05d000">mus_dat2/AS11.ZMD</rom>
+			<rom type="code" offset="0x05e000">mus_dat2/AS12.ZMD</rom>
+			<rom type="code" offset="0x05f000">mus_dat2/AS13.ZMD</rom>
+			<rom type="code" offset="0x062000">mus_dat2/AS14.ZMD</rom>
+			<rom type="code" offset="0x064000">mus_dat2/AS15.ZMD</rom>
+			<rom type="code" offset="0x080000">mus_dat1/ASKA.ZPD</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x08">Burning Fest.</title>
+			<title code="0x0b">Entry</title>
+			<title code="0x0c">Title In</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
+			<title code="0x10">The Battle</title>
+			<title code="0x09">Vacation</title>
+			<title code="0x0a">Continue?</title>
+			<title code="0x0f">Game Over</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
+			<title code="0x0e">Legend of Valkyrie</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Kidou Senshi Gundam: Classic Operation (機動戦士ガンダム クラシックオペレーション) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<romlist archive="gundamco68snd">
+			<rom type="code">opmdrv.bin</rom>
+			<rom type="x" offset="0x08000">OPMDRV.X</rom>
+			<rom type="code" offset="0x24000">GMNEIRO.OPM</rom>
+			<rom type="code" offset="0x2c000">GSND0.OPM</rom>
+			<rom type="code" offset="0x30000">GSND1.OPM</rom>
+			<rom type="code" offset="0x34000">GSND2.OPM</rom>
+			<rom type="code" offset="0x38000">GSND3.OPM</rom>
+			<rom type="code" offset="0x3c000">GSND4.OPM</rom>
+			<rom type="code" offset="0x40000">GSND5.OPM</rom>
+			<rom type="code" offset="0x44000">GSND6.OPM</rom>
+			<rom type="code" offset="0x48000">GSND7.OPM</rom>
+			<rom type="code" offset="0x4c000">GSND8.OPM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0204">GSND0.OPM</title>
+			<title code="0x0205">GSND1.OPM</title>
+			<title code="0x0206">GSND2.OPM</title>
+			<title code="0x0207">GSND3.OPM</title>
+			<title code="0x0208">GSND4.OPM</title>
+			<title code="0x0209">GSND5.OPM</title>
+			<title code="0x020a">GSND6.OPM</title>
+			<title code="0x020b">GSND7.OPM</title>
+			<title code="0x020c">GSND8.OPM</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Seisenshi Dunbine (聖戦士ダンバイン) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">FamilySoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xc000"/>
+			<option name="mdata_size" value="0x2000"/>
+			<option name="mfile_size" value="0x2000"/>
+			<option name="mdata_num" value="0x40"/>
+			<option name="use_opll" value="0x01"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="dunbine_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0x4000">fmpac.rom</rom>
+			<rom type="bgm" offset="0x00">AD1.FM1</rom>
+			<rom type="bgm" offset="0x01">AD2.FM1</rom>
+			<rom type="bgm" offset="0x02">AD3.FM1</rom>
+			<rom type="bgm" offset="0x03">AD4.FM1</rom>
+			<rom type="bgm" offset="0x04">DUN.FM1</rom>
+			<rom type="bgm" offset="0x05">END.FM1</rom>
+			<rom type="bgm" offset="0x06">FG1.FM1</rom>
+			<rom type="bgm" offset="0x07">FG2.FM1</rom>
+			<rom type="bgm" offset="0x08">FRY.FM1</rom>
+			<rom type="bgm" offset="0x09">GAM.FM1</rom>
+			<rom type="bgm" offset="0x0a">MP1.FM1</rom>
+			<rom type="bgm" offset="0x0b">MP2.FM1</rom>
+			<rom type="bgm" offset="0x0c">MP3.FM1</rom>
+			<rom type="bgm" offset="0x0d">MP4.FM1</rom>
+			<rom type="bgm" offset="0x0e">OVR.FM1</rom>
+			<rom type="bgm" offset="0x0f">SN1.FM1</rom>
+			<rom type="bgm" offset="0x10">SN2.FM1</rom>
+			<rom type="bgm" offset="0x11">TAI.FM1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0000">AD1.FM1</title>
+			<title code="0x0001">AD2.FM1</title>
+			<title code="0x0002">AD3.FM1</title>
+			<title code="0x0003">AD4.FM1</title>
+			<title code="0x0004">DUN.FM1</title>
+			<title code="0x0005">END.FM1</title>
+			<title code="0x0006">FG1.FM1</title>
+			<title code="0x0007">FG2.FM1</title>
+			<title code="0x0008">FRY.FM1</title>
+			<title code="0x0009">GAM.FM1</title>
+			<title code="0x000a">MP1.FM1</title>
+			<title code="0x000b">MP2.FM1</title>
+			<title code="0x000c">MP3.FM1</title>
+			<title code="0x000d">MP4.FM1</title>
+			<title code="0x010e">OVR.FM1</title>
+			<title code="0x010f">SN1.FM1</title>
+			<title code="0x0110">SN2.FM1</title>
+			<title code="0x0011">TAI.FM1</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Square Resort (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+		</options>
+		<romlist archive="sqr68snd">
+			<rom type="code" offset="0x000000">sqr68snd.bin</rom>
+			<rom type="code" offset="0x010000">SR_TONE.ZMD</rom>
+			<rom type="code" offset="0x011000">BOSS_1.ZMD</rom>
+			<rom type="code" offset="0x013000">BRG_1.ZMD</rom>
+			<rom type="code" offset="0x014000">BRG_2.ZMD</rom>
+			<rom type="code" offset="0x016000">BRG_3.ZMD</rom>
+			<rom type="code" offset="0x017000">BRG_4.ZMD</rom>
+			<rom type="code" offset="0x019000">BRG_5.ZMD</rom>
+			<rom type="code" offset="0x01b000">HS_B2OPM.ZMD</rom>
+			<rom type="code" offset="0x01d000">HS_B3OPM.ZMD</rom>
+			<rom type="code" offset="0x020000">HS_B6OPM.ZMD</rom>
+			<rom type="code" offset="0x021000">HS_END.ZMD</rom>
+			<rom type="code" offset="0x024000">HS_OPN.ZMD</rom>
+			<rom type="code" offset="0x026000">TANK_1.ZMD</rom>
+			<rom type="code" offset="0x028000">TANK_2.ZMD</rom>
+			<rom type="code" offset="0x02b000">TANK_3.ZMD</rom>
+			<rom type="code" offset="0x050000">C_H1.ZPD</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0b">Opening</title>
+			<title code="0x05">Title</title>
+			<title code="0x03">Stage</title>
+			<title code="0x0c">VS Stage</title>
+			<title code="0x02">Stage Clear</title>
+			<title code="0x06">Game Over</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x04">BRG_3.ZMD</title>
+			<title code="0x01">BOSS_1.ZMD</title>
+			<title code="0x07">HS_B2OPM.ZMD</title>
+			<title code="0x08">HS_B3OPM.ZMD</title>
+			<title code="0x09">HS_B6OPM.ZMD</title>
+			<title code="0x0d">TANK_2.ZMD</title>
+			<title code="0x0e">TANK_3.ZMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Square Resort (YM2151+MSM6258+GS)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="sqr68snd">
+			<rom type="code" offset="0x000000">sqr68snd.bin</rom>
+			<rom type="code" offset="0x010000">SR_TONE.ZMD</rom>
+			<rom type="code" offset="0x011000">BOSS_1GS.ZMD</rom>
+			<rom type="code" offset="0x013000">BRG_1GS.ZMD</rom>
+			<rom type="code" offset="0x014000">BRG_2GS.ZMD</rom>
+			<rom type="code" offset="0x016000">BRG_3.ZMD</rom>
+			<rom type="code" offset="0x017000">BRG_4GS.ZMD</rom>
+			<rom type="code" offset="0x019000">BRG_5GS.ZMD</rom>
+			<rom type="code" offset="0x01b000">HS_B2GS.ZMD</rom>
+			<rom type="code" offset="0x01d000">HS_B3GS.ZMD</rom>
+			<rom type="code" offset="0x020000">HS_B6GS.ZMD</rom>
+			<rom type="code" offset="0x021000">HS_ENDGS.ZMD</rom>
+			<rom type="code" offset="0x024000">HS_OPN.ZMD</rom>
+			<rom type="code" offset="0x026000">TANK_1GS.ZMD</rom>
+			<rom type="code" offset="0x028000">TANK_2GS.ZMD</rom>
+			<rom type="code" offset="0x02b000">TANK_3.ZMD</rom>
+			<rom type="code" offset="0x050000">C_H1.ZPD</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0b">Opening</title>
+			<title code="0x05">Title</title>
+			<title code="0x03">Stage</title>
+			<title code="0x0c">VS Stage</title>
+			<title code="0x02">Stage Clear</title>
+			<title code="0x06">Game Over</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x01">BOSS_1GS.ZMD</title>
+			<title code="0x04">BRG_3.ZMD</title>
+			<title code="0x07">HS_B2GS.ZMD</title>
+			<title code="0x08">HS_B3GS.ZMD</title>
+			<title code="0x09">HS_B6GS.ZMD</title>
+			<title code="0x0d">TANK_2GS.ZMD</title>
+			<title code="0x0e">TANK_3.ZMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Square Resort (MT-32)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="sqr68snd">
+			<rom type="code" offset="0x000000">sqr68snd.bin</rom>
+			<rom type="code" offset="0x010000">SR_TONE.ZMD</rom>
+			<rom type="code" offset="0x011000">BOSS_1M3.ZMD</rom>
+			<rom type="code" offset="0x013000">BRG_1M32.ZMD</rom>
+			<rom type="code" offset="0x014000">BRG_2M32.ZMD</rom>
+			<rom type="code" offset="0x016000">BRG_3.ZMD</rom>
+			<rom type="code" offset="0x017000">BRG_4M32.ZMD</rom>
+			<rom type="code" offset="0x019000">BRG_5M32.ZMD</rom>
+			<rom type="code" offset="0x01b000">HS_B2M32.ZMD</rom>
+			<rom type="code" offset="0x01d000">HS_B3M32.ZMD</rom>
+			<rom type="code" offset="0x020000">HS_B6M32.ZMD</rom>
+			<rom type="code" offset="0x021000">HS_ENDM3.ZMD</rom>
+			<rom type="code" offset="0x024000">HS_OPN.ZMD</rom>
+			<rom type="code" offset="0x026000">TANK_1M3.ZMD</rom>
+			<rom type="code" offset="0x028000">TANK_2M3.ZMD</rom>
+			<rom type="code" offset="0x02b000">TANK_3.ZMD</rom>
+			<rom type="code" offset="0x050000">C_H1.ZPD</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0b">Opening</title>
+			<title code="0x05">Title</title>
+			<title code="0x03">Stage</title>
+			<title code="0x0c">VS Stage</title>
+			<title code="0x02">Stage Clear</title>
+			<title code="0x06">Game Over</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x01">BOSS_1M3.ZMD</title>
+			<title code="0x04">BRG_3.ZMD</title>
+			<title code="0x07">HS_B2M32.ZMD</title>
+			<title code="0x08">HS_B3M32.ZMD</title>
+			<title code="0x09">HS_B6M32.ZMD</title>
+			<title code="0x0d">TANK_2M3.ZMD</title>
+			<title code="0x0e">TANK_3.ZMD</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+		</options>
+		<romlist archive="vel68snd">
+			<rom type="code" offset="0x000000">vel68snd.bin</rom>
+			<rom type="code" offset="0x010000">TONE1.ZMD</rom>
+			<rom type="code" offset="0x012000">ANOTHER.ZMD</rom>
+			<rom type="code" offset="0x013000">BAT1.ZMD</rom>
+			<rom type="code" offset="0x015000">BAT2.ZMD</rom>
+			<rom type="code" offset="0x017000">CALROSS.ZMD</rom>
+			<rom type="code" offset="0x019000">CAVE.ZMD</rom>
+			<rom type="code" offset="0x01b000">end_1.zmd</rom>
+			<rom type="code" offset="0x01d000">end_2.zmd</rom>
+			<rom type="code" offset="0x01f000">FOG.ZMD</rom>
+			<rom type="code" offset="0x020000">GIL.ZMD</rom>
+			<rom type="code" offset="0x021000">G_OVER.ZMD</rom>
+			<rom type="code" offset="0x022000">INTRO.ZMD</rom>
+			<rom type="code" offset="0x024000">MAIN1.ZMD</rom>
+			<rom type="code" offset="0x026000">MAIN2.ZMD</rom>
+			<rom type="code" offset="0x028000">OPN_4.ZMD</rom>
+			<rom type="code" offset="0x02c000">ROMO1.ZMD</rom>
+			<rom type="code" offset="0x02d000">ROMO2.ZMD</rom>
+			<rom type="code" offset="0x02e000">SAD.ZMD</rom>
+			<rom type="code" offset="0x030000">SEL.ZMD</rom>
+			<rom type="code" offset="0x031000">STAFF.ZMD</rom>
+			<rom type="code" offset="0x034000">TOWN1.ZMD</rom>
+			<rom type="code" offset="0x036000">TOWN2.ZMD</rom>
+			<rom type="code" offset="0x037000">UNDEAD.ZMD</rom>
+			<rom type="code" offset="0x038000">ZENARG.ZMD</rom>
+			<rom type="code" offset="0x050000">drums.zpd</rom>
+			<rom type="code" offset="0x0b0000">drums2.zpd</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0e">Opening</title>
+			<title code="0x0b">Intro</title>
+			<title code="0x12">Select</title>
+			<title code="0x14">Town 1</title>
+			<title code="0x15">Town 2</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x05">Stage 3</title>
+			<title code="0x16">Stage 4</title>
+			<title code="0x08">Stage 5,6,8~10</title>
+			<title code="0x0f">Stage 7,12</title>
+			<title code="0x10">Stage 11</title>
+			<title code="0x01">Stage 13</title>
+			<title code="0x17">Stage 14</title>
+			<title code="0x02">Battle</title>
+			<title code="0x03">Boss</title>
+			<title code="0x04">Last Boss</title>
+			<title code="0x11">Event 1</title>
+			<title code="0x09">Event 2</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x06">Ending 1</title>
+			<title code="0x07">Ending 2</title>
+			<title code="0x13">Staff Roll</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (YM2151+MSM6258+GS)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="vel68snd">
+			<rom type="code" offset="0x000000">vel68snd.bin</rom>
+			<rom type="code" offset="0x010000">TONE1.ZMD</rom>
+			<rom type="code" offset="0x012000">ANOTHER.ZMD</rom>
+			<rom type="code" offset="0x013000">BAT1.ZMD</rom>
+			<rom type="code" offset="0x015000">BAT2.ZMD</rom>
+			<rom type="code" offset="0x017000">CALROSS.ZMD</rom>
+			<rom type="code" offset="0x019000">CAVE.ZMD</rom>
+			<rom type="code" offset="0x01b000">end_1.zmd</rom>
+			<rom type="code" offset="0x01d000">end_2.zmd</rom>
+			<rom type="code" offset="0x01f000">FOG.ZMD</rom>
+			<rom type="code" offset="0x020000">GIL.ZMD</rom>
+			<rom type="code" offset="0x021000">G_OVER.ZMD</rom>
+			<rom type="code" offset="0x022000">INTRO.ZMD</rom>
+			<rom type="code" offset="0x024000">MAIN1.ZMD</rom>
+			<rom type="code" offset="0x026000">MAIN2.ZMD</rom>
+			<rom type="code" offset="0x028000">OPN_4.ZMD</rom>
+			<rom type="code" offset="0x02c000">ROMO1.ZMD</rom>
+			<rom type="code" offset="0x02d000">ROMO2.ZMD</rom>
+			<rom type="code" offset="0x02e000">SAD.ZMD</rom>
+			<rom type="code" offset="0x030000">SEL.ZMD</rom>
+			<rom type="code" offset="0x031000">STAFF.ZMD</rom>
+			<rom type="code" offset="0x034000">TOWN1.ZMD</rom>
+			<rom type="code" offset="0x036000">TOWN2.ZMD</rom>
+			<rom type="code" offset="0x037000">UNDEAD.ZMD</rom>
+			<rom type="code" offset="0x038000">ZENARG.ZMD</rom>
+			<rom type="code" offset="0x050000">drums.zpd</rom>
+			<rom type="code" offset="0x0b0000">drums2.zpd</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0e">Opening</title>
+			<title code="0x0b">Intro</title>
+			<title code="0x12">Select</title>
+			<title code="0x14">Town 1</title>
+			<title code="0x15">Town 2</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x05">Stage 3</title>
+			<title code="0x16">Stage 4</title>
+			<title code="0x08">Stage 5,6,8~10</title>
+			<title code="0x0f">Stage 7,12</title>
+			<title code="0x10">Stage 11</title>
+			<title code="0x01">Stage 13</title>
+			<title code="0x17">Stage 14</title>
+			<title code="0x02">Battle</title>
+			<title code="0x03">Boss</title>
+			<title code="0x04">Last Boss</title>
+			<title code="0x11">Event 1</title>
+			<title code="0x09">Event 2</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x06">Ending 1</title>
+			<title code="0x07">Ending 2</title>
+			<title code="0x13">Staff Roll</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (Vermouth, Gravis Ultrasound simulation)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="0x01"/>
+			<option name="dmaint" value="0x01"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x80"/>
+		</options>
+		<romlist archive="vel68snd">
+			<rom type="code" offset="0x000000">vel68snd.bin</rom>
+			<rom type="code" offset="0x010000">TONE1.ZMD</rom>
+			<rom type="code" offset="0x012000">ANOTHER.ZMD</rom>
+			<rom type="code" offset="0x013000">BAT1.ZMD</rom>
+			<rom type="code" offset="0x015000">BAT2.ZMD</rom>
+			<rom type="code" offset="0x017000">CALROSS.ZMD</rom>
+			<rom type="code" offset="0x019000">CAVE.ZMD</rom>
+			<rom type="code" offset="0x01b000">end_1.zmd</rom>
+			<rom type="code" offset="0x01d000">end_2.zmd</rom>
+			<rom type="code" offset="0x01f000">FOG.ZMD</rom>
+			<rom type="code" offset="0x020000">GIL.ZMD</rom>
+			<rom type="code" offset="0x021000">G_OVER.ZMD</rom>
+			<rom type="code" offset="0x022000">INTRO.ZMD</rom>
+			<rom type="code" offset="0x024000">MAIN1.ZMD</rom>
+			<rom type="code" offset="0x026000">MAIN2.ZMD</rom>
+			<rom type="code" offset="0x028000">OPN_4.ZMD</rom>
+			<rom type="code" offset="0x02c000">ROMO1.ZMD</rom>
+			<rom type="code" offset="0x02d000">ROMO2.ZMD</rom>
+			<rom type="code" offset="0x02e000">SAD.ZMD</rom>
+			<rom type="code" offset="0x030000">SEL.ZMD</rom>
+			<rom type="code" offset="0x031000">STAFF.ZMD</rom>
+			<rom type="code" offset="0x034000">TOWN1.ZMD</rom>
+			<rom type="code" offset="0x036000">TOWN2.ZMD</rom>
+			<rom type="code" offset="0x037000">UNDEAD.ZMD</rom>
+			<rom type="code" offset="0x038000">ZENARG.ZMD</rom>
+			<rom type="code" offset="0x050000">drums.zpd</rom>
+			<rom type="code" offset="0x0b0000">drums2.zpd</rom>
+			<rom type="x" offset="0x080000">zmusic.x</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0e">Opening</title>
+			<title code="0x0b">Intro</title>
+			<title code="0x12">Select</title>
+			<title code="0x14">Town 1</title>
+			<title code="0x15">Town 2</title>
+			<title code="0x0c">Stage 1</title>
+			<title code="0x0d">Stage 2</title>
+			<title code="0x05">Stage 3</title>
+			<title code="0x16">Stage 4</title>
+			<title code="0x08">Stage 5,6,8~10</title>
+			<title code="0x0f">Stage 7,12</title>
+			<title code="0x10">Stage 11</title>
+			<title code="0x01">Stage 13</title>
+			<title code="0x17">Stage 14</title>
+			<title code="0x02">Battle</title>
+			<title code="0x03">Boss</title>
+			<title code="0x04">Last Boss</title>
+			<title code="0x11">Event 1</title>
+			<title code="0x09">Event 2</title>
+			<title code="0x0a">Game Over</title>
+			<title code="0x06">Ending 1</title>
+			<title code="0x07">Ending 2</title>
+			<title code="0x13">Staff Roll</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Soukou Kihei Votoms: Dead Ash (装甲騎兵ボトムズ デッドアッシュ) (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<romlist archive="deadash68snd">
+			<rom type="code">dash68snd.bin</rom>
+			<rom type="x" offset="0x010000">OPMDRV.X</rom>
+			<rom type="x" offset="0x030000">X.x</rom>
+			<rom type="code" offset="0x0b0000">MUSICd01.opm</rom>
+			<rom type="code" offset="0x0b2000">MUSICd02.opm</rom>
+			<rom type="code" offset="0x0b4000">MUSICd03.opm</rom>
+			<rom type="code" offset="0x0b6000">MUSICd04.opm</rom>
+			<rom type="code" offset="0x0b8000">MUSICd05.opm</rom>
+			<rom type="code" offset="0x0ba000">MUSICd06.opm</rom>
+			<rom type="code" offset="0x0bc000">MUSICd07.opm</rom>
+			<rom type="code" offset="0x0be000">MUSICd08.opm</rom>
+			<rom type="code" offset="0x0c0000">MUSICd09.opm</rom>
+			<rom type="code" offset="0x0c2000">MUSICd10.opm</rom>
+			<rom type="code" offset="0x0c4000">MUSICd11.opm</rom>
+			<rom type="code" offset="0x0c6000">MUSICdFD.opm</rom>
+			<rom type="code" offset="0x0c8000">MUSICdFE.opm</rom>
+			<rom type="code" offset="0x0ca000">MUSICdFF.opm</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">MUSICd01.opm</title>
+			<title code="0x02">MUSICd02.opm</title>
+			<title code="0x03">MUSICd03.opm</title>
+			<title code="0x04">MUSICd04.opm</title>
+			<title code="0x05">MUSICd05.opm</title>
+			<title code="0x06">MUSICd06.opm</title>
+			<title code="0x07">MUSICd07.opm</title>
+			<title code="0x08">MUSICd08.opm</title>
+			<title code="0x09">MUSICd09.opm</title>
+			<title code="0x0a">MUSICd10.opm</title>
+			<title code="0x0b">MUSICd11.opm</title>
+			<title code="0x0c">MUSICdFD.opm</title>
+			<title code="0x0d">MUSICdFE.opm</title>
+			<title code="0x0e">MUSICdFF.opm</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[X68000] Mad Stalker: Full Metal Force (YM2151+MSM6258)</name>
+		<driver type="generic">x68k</driver>
+		<driveralias type="X68000">FamilySoft</driveralias>
+		<options>
+			<option name="mfp" value="1"/>
+			<option name="pcm8" value="1"/>
+		</options>
+		<romlist archive="madstk68snd">
+			<rom type="code" offset="0x000000">madstk68snd.bin</rom>
+			<rom type="code" offset="0x010000">boss_1.zmd</rom>
+			<rom type="code" offset="0x014000">boss_2.zmd</rom>
+			<rom type="code" offset="0x018000">boss_3.zmd</rom>
+			<rom type="code" offset="0x01c000">boss_4.zmd</rom>
+			<rom type="code" offset="0x020000">boss_5.zmd</rom>
+			<rom type="code" offset="0x024000">boss_6.zmd</rom>
+			<rom type="code" offset="0x028000">demo.zmd</rom>
+			<rom type="code" offset="0x02c000">end.zmd</rom>
+			<rom type="code" offset="0x030000">mus1.zmd</rom>
+			<rom type="code" offset="0x034000">mus2.zmd</rom>
+			<rom type="code" offset="0x038000">mus3.zmd</rom>
+			<rom type="code" offset="0x03c000">mus4.zmd</rom>
+			<rom type="code" offset="0x040000">mus5.zmd</rom>
+			<rom type="code" offset="0x044000">mus6.zmd</rom>
+			<rom type="code" offset="0x048000">opning1.zmd</rom>
+			<rom type="code" offset="0x04c000">opning2.zmd</rom>
+			<rom type="code" offset="0x050000">select.zmd</rom>
+			<rom type="code" offset="0x054000">pcm1.zpd</rom>
+			<rom type="x" offset="0x080000">ZMSC.X</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x0f">Opening 1</title>
+			<title code="0x10">Opening 2</title>
+			<title code="0x11">Select</title>
+			<title code="0x07">Demo</title>
+			<title code="0x09">Stage 1</title>
+			<title code="0x0a">Stage 2</title>
+			<title code="0x0b">Stage 3</title>
+			<title code="0x0c">Stage 4</title>
+			<title code="0x0d">Stage 5</title>
+			<title code="0x0e">Stage 6 / Boss</title>
+			<!--
+			<title code="0x01">boss_1.zmd</title>
+			<title code="0x02">boss_2.zmd</title>
+			<title code="0x03">boss_3.zmd</title>
+			<title code="0x04">boss_4.zmd</title>
+			<title code="0x05">boss_5.zmd</title>
+			  -->
+			<title code="0x06">Last Boss</title>
+			<title code="0x08">Ending</title>
+			<range min="0x165" max="0x17a" extcode="1">SE 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Kidou Senshi Gundam: MS Field (機動戦士ガンダム MSフィールド) </name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">FamilySoft</driveralias>
+		<options>
+			<option name="mdata_addr" value="0x9ff9"/>
+			<option name="mdata_size" value="0x0800"/>
+			<option name="mfile_size" value="0x0800"/>
+			<option name="init_pc" value="0x0400"/>
+		</options>
+		<romlist archive="msfield_msx">
+			<rom type="code" offset="0x0400">patch</rom>
+			<rom type="code" offset="0xaff9">M.BIN</rom>
+			<rom type="bgm" offset="0x00">MUSIC0.BIN</rom>
+			<rom type="bgm" offset="0x01">MUSIC1.BIN</rom>
+			<rom type="bgm" offset="0x02">MUSIC2.BIN</rom>
+			<rom type="bgm" offset="0x03">MUSIC3.BIN</rom>
+			<rom type="bgm" offset="0x04">MUSIC4.BIN</rom>
+			<rom type="bgm" offset="0x05">MUSIC5.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x001" max="0x005" extcode="0">MUSIC%1d.BIN</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Keiji Dai Dageki: Shachou Reijou Yuukai Jiken (刑事大打撃 ～社長令嬢誘拐事件～) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">FamilySoft</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+		</options>
+		<romlist archive="daida_msx">
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0xd3F9">GPSGCTL.BIN</rom>
+			<rom type="code" offset="0xd852">GTEST.MG8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">BGM</title>
+		</titlelist>
+	</game>
+</gamelist>

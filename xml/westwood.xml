@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Westwood -->
+	<game>
+		<name>[PC/AT] The Legend of Kyrandia (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Westwood</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="kyrandia_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">INTRO.XMI</rom>
+			<rom type="file" offset="0x11">KYRA1A.XMI</rom>
+			<rom type="file" offset="0x12">KYRA1B.XMI</rom>
+			<rom type="file" offset="0x13">KYRA2A.XMI</rom>
+			<rom type="file" offset="0x14">KYRA3A.XMI</rom>
+			<rom type="file" offset="0x15">KYRA4A.XMI</rom>
+			<rom type="file" offset="0x16">KYRA4B.XMI</rom>
+			<rom type="file" offset="0x17">KYRA5A.XMI</rom>
+			<rom type="file" offset="0x18">KYRA5B.XMI</rom>
+			<rom type="file" offset="0x19">KYRAMISC.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE INTRO.XMI MIDI.ADV 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1002">INTRO 02</title>
+			<title code="0x1003">INTRO 03</title>
+			<title code="0x1004">INTRO 04</title>
+			<title code="0x1005">INTRO 05</title>
+			<title code="0x1102">KYRA1A 02</title>
+			<title code="0x1103">KYRA1A 03</title>
+			<title code="0x1104">KYRA1A 04</title>
+			<title code="0x1202">KYRA1B 02</title>
+			<title code="0x1203">KYRA1B 03</title>
+			<title code="0x1204">KYRA1B 04</title>
+			<title code="0x1205">KYRA1B 05</title>
+			<title code="0x1206">KYRA1B 06</title>
+			<title code="0x1207">KYRA1B 07</title>
+			<title code="0x1208">KYRA1B 08</title>
+			<title code="0x120D">KYRA1B 13</title>
+			<title code="0x120E">KYRA1B 14</title>
+			<title code="0x1302">KYRA2A 02</title>
+			<title code="0x1303">KYRA2A 03</title>
+			<title code="0x1304">KYRA2A 04</title>
+			<title code="0x1305">KYRA2A 05</title>
+			<title code="0x1306">KYRA2A 06</title>
+			<title code="0x1307">KYRA2A 07</title>
+			<title code="0x1402">KYRA3A 02</title>
+			<title code="0x1403">KYRA3A 03</title>
+			<title code="0x1404">KYRA3A 04</title>
+			<title code="0x1502">KYRA4A 02</title>
+			<title code="0x1503">KYRA4A 03</title>
+			<title code="0x1507">KYRA4A 07</title>
+			<title code="0x1508">KYRA4A 08</title>
+			<title code="0x160A">KYRA4B 10</title>
+			<title code="0x160B">KYRA4B 11</title>
+			<title code="0x1702">KYRA5A 02</title>
+			<title code="0x1703">KYRA5A 03</title>
+			<title code="0x1802">KYRA5B 02</title>
+			<title code="0x1803">KYRA5B 03</title>
+			<title code="0x1805">KYRA5B 05</title>
+			<title code="0x1806">KYRA5B 06</title>
+			<title code="0x1807">KYRA5B 07</title>
+			<title code="0x1808">KYRA5B 08</title>
+			<title code="0x1809">KYRA5B 09</title>
+			<title code="0x1902">KYRAMISC 02</title>
+			<title code="0x1903">KYRAMISC 03</title>
+			<title code="0x1904">KYRAMISC 04</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Legend of Kyrandia (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Westwood</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="kyrandia_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">INTRO.XMI</rom>
+			<rom type="file" offset="0x11">KYRA1A.XMI</rom>
+			<rom type="file" offset="0x12">KYRA1B.XMI</rom>
+			<rom type="file" offset="0x13">KYRA2A.XMI</rom>
+			<rom type="file" offset="0x14">KYRA3A.XMI</rom>
+			<rom type="file" offset="0x15">KYRA4A.XMI</rom>
+			<rom type="file" offset="0x16">KYRA4B.XMI</rom>
+			<rom type="file" offset="0x17">KYRA5A.XMI</rom>
+			<rom type="file" offset="0x18">KYRA5B.XMI</rom>
+			<rom type="file" offset="0x19">KYRAMISC.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE INTRO.XMI MIDI.ADV 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1002">INTRO 02</title>
+			<title code="0x1003">INTRO 03</title>
+			<title code="0x1004">INTRO 04</title>
+			<title code="0x1005">INTRO 05</title>
+			<title code="0x1102">KYRA1A 02</title>
+			<title code="0x1103">KYRA1A 03</title>
+			<title code="0x1104">KYRA1A 04</title>
+			<title code="0x1202">KYRA1B 02</title>
+			<title code="0x1203">KYRA1B 03</title>
+			<title code="0x1204">KYRA1B 04</title>
+			<title code="0x1205">KYRA1B 05</title>
+			<title code="0x1206">KYRA1B 06</title>
+			<title code="0x1207">KYRA1B 07</title>
+			<title code="0x1208">KYRA1B 08</title>
+			<title code="0x120D">KYRA1B 13</title>
+			<title code="0x120E">KYRA1B 14</title>
+			<title code="0x1302">KYRA2A 02</title>
+			<title code="0x1303">KYRA2A 03</title>
+			<title code="0x1304">KYRA2A 04</title>
+			<title code="0x1305">KYRA2A 05</title>
+			<title code="0x1306">KYRA2A 06</title>
+			<title code="0x1307">KYRA2A 07</title>
+			<title code="0x1402">KYRA3A 02</title>
+			<title code="0x1403">KYRA3A 03</title>
+			<title code="0x1404">KYRA3A 04</title>
+			<title code="0x1502">KYRA4A 02</title>
+			<title code="0x1503">KYRA4A 03</title>
+			<title code="0x1507">KYRA4A 07</title>
+			<title code="0x1508">KYRA4A 08</title>
+			<title code="0x160A">KYRA4B 10</title>
+			<title code="0x160B">KYRA4B 11</title>
+			<title code="0x1702">KYRA5A 02</title>
+			<title code="0x1703">KYRA5A 03</title>
+			<title code="0x1802">KYRA5B 02</title>
+			<title code="0x1803">KYRA5B 03</title>
+			<title code="0x1805">KYRA5B 05</title>
+			<title code="0x1806">KYRA5B 06</title>
+			<title code="0x1807">KYRA5B 07</title>
+			<title code="0x1808">KYRA5B 08</title>
+			<title code="0x1809">KYRA5B 09</title>
+			<title code="0x1902">KYRAMISC 02</title>
+			<title code="0x1903">KYRAMISC 03</title>
+			<title code="0x1904">KYRAMISC 04</title>
+		</titlelist>
+	</game>
+</gamelist>

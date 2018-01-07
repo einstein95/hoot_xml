@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Accolade -->
+        <game>
+		<name>[PC/AT] Altered Destiny (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="altereddestiny_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">F4DB9872.mus</rom>
+			<rom type="file" offset="0x11">011FD6A4.mus</rom>
+			<rom type="file" offset="0x12">028FEA62.mus</rom>
+			<rom type="file" offset="0x13">04146DF0.mus</rom>
+			<rom type="file" offset="0x14">0720C7E3.mus</rom>
+			<rom type="file" offset="0x15">072EA803.mus</rom>
+			<rom type="file" offset="0x16">0C461392.mus</rom>
+			<rom type="file" offset="0x17">0C6040D7.mus</rom>
+			<rom type="file" offset="0x18">DD56CF8A.mus</rom>
+			<rom type="file" offset="0x19">DD56F467.mus</rom>
+			<rom type="file" offset="0x1A">DE1CC4A9.mus</rom>
+			<rom type="file" offset="0x1B">DE238916.mus</rom>
+			<rom type="file" offset="0x1C">DE4BB520.mus</rom>
+			<rom type="file" offset="0x1D">DF0F6055.mus</rom>
+			<rom type="file" offset="0x1E">E0ABD06F.mus</rom>
+			<rom type="file" offset="0x1F">E273A2AE.mus</rom>
+			<rom type="file" offset="0x20">E28182CE.mus</rom>
+			<rom type="file" offset="0x21">E3CF82C6.mus</rom>
+			<rom type="file" offset="0x22">E44B8BEA.mus</rom>
+			<rom type="file" offset="0x23">E4C025D6.mus</rom>
+			<rom type="file" offset="0x24">E5160D2D.mus</rom>
+			<rom type="file" offset="0x25">E9ADF0E9.mus</rom>
+			<rom type="file" offset="0x26">EA17952E.mus</rom>
+			<rom type="file" offset="0x27">EB632F9B.mus</rom>
+			<rom type="file" offset="0x28">EB710FBB.mus</rom>
+			<rom type="file" offset="0x29">ECA1389E.mus</rom>
+			<rom type="file" offset="0x2A">ED175A2D.mus</rom>
+			<rom type="file" offset="0x2B">ED7E3B7E.mus</rom>
+			<rom type="file" offset="0x2C">EE49F4AB.mus</rom>
+			<rom type="file" offset="0x2D">F1F8274E.mus</rom>
+			<rom type="file" offset="0x2E">F48F1FA4.mus</rom>
+			<rom type="file" offset="0x2F">F919F5DE.mus</rom>
+			<rom type="file" offset="0x30">FB2B0BB8.mus</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+			<title code="0x2B">Music 28</title>
+			<title code="0x2C">Music 29</title>
+			<title code="0x2D">Music 30</title>
+			<title code="0x2E">Music 31</title>
+			<title code="0x2F">Music 32</title>
+			<title code="0x30">Music 33</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Altered Destiny (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="altereddestiny_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">F4DB9872.mus</rom>
+			<rom type="file" offset="0x11">011FD6A4.mus</rom>
+			<rom type="file" offset="0x12">028FEA62.mus</rom>
+			<rom type="file" offset="0x13">04146DF0.mus</rom>
+			<rom type="file" offset="0x14">0720C7E3.mus</rom>
+			<rom type="file" offset="0x15">072EA803.mus</rom>
+			<rom type="file" offset="0x16">0C461392.mus</rom>
+			<rom type="file" offset="0x17">0C6040D7.mus</rom>
+			<rom type="file" offset="0x18">DD56CF8A.mus</rom>
+			<rom type="file" offset="0x19">DD56F467.mus</rom>
+			<rom type="file" offset="0x1A">DE1CC4A9.mus</rom>
+			<rom type="file" offset="0x1B">DE238916.mus</rom>
+			<rom type="file" offset="0x1C">DE4BB520.mus</rom>
+			<rom type="file" offset="0x1D">DF0F6055.mus</rom>
+			<rom type="file" offset="0x1E">E0ABD06F.mus</rom>
+			<rom type="file" offset="0x1F">E273A2AE.mus</rom>
+			<rom type="file" offset="0x20">E28182CE.mus</rom>
+			<rom type="file" offset="0x21">E3CF82C6.mus</rom>
+			<rom type="file" offset="0x22">E44B8BEA.mus</rom>
+			<rom type="file" offset="0x23">E4C025D6.mus</rom>
+			<rom type="file" offset="0x24">E5160D2D.mus</rom>
+			<rom type="file" offset="0x25">E9ADF0E9.mus</rom>
+			<rom type="file" offset="0x26">EA17952E.mus</rom>
+			<rom type="file" offset="0x27">EB632F9B.mus</rom>
+			<rom type="file" offset="0x28">EB710FBB.mus</rom>
+			<rom type="file" offset="0x29">ECA1389E.mus</rom>
+			<rom type="file" offset="0x2A">ED175A2D.mus</rom>
+			<rom type="file" offset="0x2B">ED7E3B7E.mus</rom>
+			<rom type="file" offset="0x2C">EE49F4AB.mus</rom>
+			<rom type="file" offset="0x2D">F1F8274E.mus</rom>
+			<rom type="file" offset="0x2E">F48F1FA4.mus</rom>
+			<rom type="file" offset="0x2F">F919F5DE.mus</rom>
+			<rom type="file" offset="0x30">FB2B0BB8.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+			<title code="0x2B">Music 28</title>
+			<title code="0x2C">Music 29</title>
+			<title code="0x2D">Music 30</title>
+			<title code="0x2E">Music 31</title>
+			<title code="0x2F">Music 32</title>
+			<title code="0x30">Music 33</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Altered Destiny (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="altereddestiny_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">F4DB9872.mus</rom>
+			<rom type="file" offset="0x11">011FD6A4.mus</rom>
+			<rom type="file" offset="0x12">028FEA62.mus</rom>
+			<rom type="file" offset="0x13">04146DF0.mus</rom>
+			<rom type="file" offset="0x14">0720C7E3.mus</rom>
+			<rom type="file" offset="0x15">072EA803.mus</rom>
+			<rom type="file" offset="0x16">0C461392.mus</rom>
+			<rom type="file" offset="0x17">0C6040D7.mus</rom>
+			<rom type="file" offset="0x18">DD56CF8A.mus</rom>
+			<rom type="file" offset="0x19">DD56F467.mus</rom>
+			<rom type="file" offset="0x1A">DE1CC4A9.mus</rom>
+			<rom type="file" offset="0x1B">DE238916.mus</rom>
+			<rom type="file" offset="0x1C">DE4BB520.mus</rom>
+			<rom type="file" offset="0x1D">DF0F6055.mus</rom>
+			<rom type="file" offset="0x1E">E0ABD06F.mus</rom>
+			<rom type="file" offset="0x1F">E273A2AE.mus</rom>
+			<rom type="file" offset="0x20">E28182CE.mus</rom>
+			<rom type="file" offset="0x21">E3CF82C6.mus</rom>
+			<rom type="file" offset="0x22">E44B8BEA.mus</rom>
+			<rom type="file" offset="0x23">E4C025D6.mus</rom>
+			<rom type="file" offset="0x24">E5160D2D.mus</rom>
+			<rom type="file" offset="0x25">E9ADF0E9.mus</rom>
+			<rom type="file" offset="0x26">EA17952E.mus</rom>
+			<rom type="file" offset="0x27">EB632F9B.mus</rom>
+			<rom type="file" offset="0x28">EB710FBB.mus</rom>
+			<rom type="file" offset="0x29">ECA1389E.mus</rom>
+			<rom type="file" offset="0x2A">ED175A2D.mus</rom>
+			<rom type="file" offset="0x2B">ED7E3B7E.mus</rom>
+			<rom type="file" offset="0x2C">EE49F4AB.mus</rom>
+			<rom type="file" offset="0x2D">F1F8274E.mus</rom>
+			<rom type="file" offset="0x2E">F48F1FA4.mus</rom>
+			<rom type="file" offset="0x2F">F919F5DE.mus</rom>
+			<rom type="file" offset="0x30">FB2B0BB8.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+			<title code="0x2B">Music 28</title>
+			<title code="0x2C">Music 29</title>
+			<title code="0x2D">Music 30</title>
+			<title code="0x2E">Music 31</title>
+			<title code="0x2F">Music 32</title>
+			<title code="0x30">Music 33</title>
+		</titlelist>
+	</game>
+        <game>
+		<name>[PC/AT] Day of the Viper (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="dayviper_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="-1">ADLIB.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VIPER.mus</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Day of the Viper (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="dayviper_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MT32.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VIPER.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Day of the Viper (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="dayviper_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MT32.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VIPER.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Don't Go Alone (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="dgalone_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">OPENING.MUS</rom>
+			<rom type="file" offset="0x11">ENDING.MUS</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Opening</title>
+			<title code="0x11">Ending</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] E-Motion / The Game of Harmony (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="gharmony_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] E-Motion / The Game of Harmony (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="gharmony_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] E-Motion / The Game of Harmony (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="gharmony_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira: Mistress of the Dark (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="elvira_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD1.MUS</rom>
+			<rom type="file" offset="0x11">MOD7.MUS</rom>
+			<rom type="file" offset="0x12">MOD8.MUS</rom>
+			<rom type="file" offset="0x13">MOD9.MUS</rom>
+			<rom type="file" offset="0x14">MOD10.MUS</rom>
+			<rom type="file" offset="0x15">MOD14.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira: Mistress of the Dark (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="elvira_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD1.MUS</rom>
+			<rom type="file" offset="0x11">MOD7.MUS</rom>
+			<rom type="file" offset="0x12">MOD8.MUS</rom>
+			<rom type="file" offset="0x13">MOD9.MUS</rom>
+			<rom type="file" offset="0x14">MOD10.MUS</rom>
+			<rom type="file" offset="0x15">MOD14.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira: Mistress of the Dark (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="elvira_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD1.MUS</rom>
+			<rom type="file" offset="0x11">MOD7.MUS</rom>
+			<rom type="file" offset="0x12">MOD8.MUS</rom>
+			<rom type="file" offset="0x13">MOD9.MUS</rom>
+			<rom type="file" offset="0x14">MOD10.MUS</rom>
+			<rom type="file" offset="0x15">MOD14.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira II: The Jaws of Cerberus (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="elvira2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.mus</rom>
+			<rom type="file" offset="0x11">MOD1.mus</rom>
+			<rom type="file" offset="0x12">MOD2.mus</rom>
+			<rom type="file" offset="0x13">MOD3.mus</rom>
+			<rom type="file" offset="0x14">MOD4.mus</rom>
+			<rom type="file" offset="0x15">MOD5.mus</rom>
+			<rom type="file" offset="0x16">MOD6.mus</rom>
+			<rom type="file" offset="0x17">MOD7.mus</rom>
+			<rom type="file" offset="0x18">MOD8.mus</rom>
+			<rom type="file" offset="0x19">MOD9.mus</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira II: The Jaws of Cerberus (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="elvira2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.mus</rom>
+			<rom type="file" offset="0x11">MOD1.mus</rom>
+			<rom type="file" offset="0x12">MOD2.mus</rom>
+			<rom type="file" offset="0x13">MOD3.mus</rom>
+			<rom type="file" offset="0x14">MOD4.mus</rom>
+			<rom type="file" offset="0x15">MOD5.mus</rom>
+			<rom type="file" offset="0x16">MOD6.mus</rom>
+			<rom type="file" offset="0x17">MOD7.mus</rom>
+			<rom type="file" offset="0x18">MOD8.mus</rom>
+			<rom type="file" offset="0x19">MOD9.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Elvira II: The Jaws of Cerberus (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="elvira2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.mus</rom>
+			<rom type="file" offset="0x11">MOD1.mus</rom>
+			<rom type="file" offset="0x12">MOD2.mus</rom>
+			<rom type="file" offset="0x13">MOD3.mus</rom>
+			<rom type="file" offset="0x14">MOD4.mus</rom>
+			<rom type="file" offset="0x15">MOD5.mus</rom>
+			<rom type="file" offset="0x16">MOD6.mus</rom>
+			<rom type="file" offset="0x17">MOD7.mus</rom>
+			<rom type="file" offset="0x18">MOD8.mus</rom>
+			<rom type="file" offset="0x19">MOD9.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Grand Prix Unlimited (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="gprixunl_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GPU1.MUS</rom>
+			<rom type="file" offset="0x11">GPU2.MUS</rom>
+			<rom type="file" offset="0x12">GPU3.MUS</rom>
+			<rom type="file" offset="0x13">GPU4.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Grand Prix Unlimited (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="gprixunl_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GPU1.MUS</rom>
+			<rom type="file" offset="0x11">GPU2.MUS</rom>
+			<rom type="file" offset="0x12">GPU3.MUS</rom>
+			<rom type="file" offset="0x13">GPU4.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Grand Prix Unlimited (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="gprixunl_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GPU1.MUS</rom>
+			<rom type="file" offset="0x11">GPU2.MUS</rom>
+			<rom type="file" offset="0x12">GPU3.MUS</rom>
+			<rom type="file" offset="0x13">GPU4.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Grand Prix Unlimited (SC-55 in MT-32 mode)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="gprixunl_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SC2MT.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GPU1.MUS</rom>
+			<rom type="file" offset="0x11">GPU2.MUS</rom>
+			<rom type="file" offset="0x12">GPU3.MUS</rom>
+			<rom type="file" offset="0x13">GPU4.MUS</rom>
+			<rom type="shell" offset="0">SC2MT.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gunboat (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="gunboat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="-1">ADLIB.BIN</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VALK12.MUS</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gunboat (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="gunboat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VALK12.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Gunboat (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="gunboat_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">VALK12.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 8</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hardball III (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="hardball3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG2.MUS</rom>
+			<rom type="file" offset="0x11">SONG3.MUS</rom>
+			<rom type="file" offset="0x12">SONG4.MUS</rom>
+			<rom type="file" offset="0x13">SONG5.MUS</rom>
+			<rom type="file" offset="0x14">SONG6.MUS</rom>
+			<rom type="file" offset="0x15">SONG7.MUS</rom>
+			<rom type="file" offset="0x16">SONG8.MUS</rom>
+			<rom type="file" offset="0x17">SONG9.MUS</rom>
+			<rom type="file" offset="0x18">SONG10.MUS</rom>
+			<rom type="file" offset="0x19">SONG14.MUS</rom>
+			<rom type="file" offset="0x1A">SONG16.MUS</rom>
+			<rom type="file" offset="0x1B">SONG19.MUS</rom>
+			<rom type="file" offset="0x1C">SONG20.MUS</rom>
+			<rom type="file" offset="0x1D">SONG21.MUS</rom>
+			<rom type="file" offset="0x1E">SONG22.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hardball III (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="hardball3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG2.MUS</rom>
+			<rom type="file" offset="0x11">SONG3.MUS</rom>
+			<rom type="file" offset="0x12">SONG4.MUS</rom>
+			<rom type="file" offset="0x13">SONG5.MUS</rom>
+			<rom type="file" offset="0x14">SONG6.MUS</rom>
+			<rom type="file" offset="0x15">SONG7.MUS</rom>
+			<rom type="file" offset="0x16">SONG8.MUS</rom>
+			<rom type="file" offset="0x17">SONG9.MUS</rom>
+			<rom type="file" offset="0x18">SONG10.MUS</rom>
+			<rom type="file" offset="0x19">SONG14.MUS</rom>
+			<rom type="file" offset="0x1A">SONG16.MUS</rom>
+			<rom type="file" offset="0x1B">SONG19.MUS</rom>
+			<rom type="file" offset="0x1C">SONG20.MUS</rom>
+			<rom type="file" offset="0x1D">SONG21.MUS</rom>
+			<rom type="file" offset="0x1E">SONG22.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Hardball III (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="hardball3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG2.MUS</rom>
+			<rom type="file" offset="0x11">SONG3.MUS</rom>
+			<rom type="file" offset="0x12">SONG4.MUS</rom>
+			<rom type="file" offset="0x13">SONG5.MUS</rom>
+			<rom type="file" offset="0x14">SONG6.MUS</rom>
+			<rom type="file" offset="0x15">SONG7.MUS</rom>
+			<rom type="file" offset="0x16">SONG8.MUS</rom>
+			<rom type="file" offset="0x17">SONG9.MUS</rom>
+			<rom type="file" offset="0x18">SONG10.MUS</rom>
+			<rom type="file" offset="0x19">SONG14.MUS</rom>
+			<rom type="file" offset="0x1A">SONG16.MUS</rom>
+			<rom type="file" offset="0x1B">SONG19.MUS</rom>
+			<rom type="file" offset="0x1C">SONG20.MUS</rom>
+			<rom type="file" offset="0x1D">SONG21.MUS</rom>
+			<rom type="file" offset="0x1E">SONG22.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Golf: Signature Edition (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="jngolf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Golf: Signature Edition (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="jngolf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Golf: Signature Edition (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="jngolf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG0.MUS</rom>
+			<rom type="file" offset="0x11">SONG1.MUS</rom>
+			<rom type="file" offset="0x12">SONG2.MUS</rom>
+			<rom type="file" offset="0x13">SONG3.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Unlimited Golf (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="jngolfu_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GDATA04.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Unlimited Golf (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="jngolfu_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GDATA04.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jack Nicklaus Unlimited Golf (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="jngolfu_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">GDATA04.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Lost in L.A. (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="lostinla_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">000223C0.mus</rom>
+			<rom type="file" offset="0x11">04AC938D.mus</rom>
+			<rom type="file" offset="0x12">7CA93965.mus</rom>
+			<rom type="file" offset="0x13">7D797116.mus</rom>
+			<rom type="file" offset="0x14">7E0E27B0.mus</rom>
+			<rom type="file" offset="0x15">7F822101.mus</rom>
+			<rom type="file" offset="0x16">80A7AD87.mus</rom>
+			<rom type="file" offset="0x17">82BD4ECB.mus</rom>
+			<rom type="file" offset="0x18">8AE8A05B.mus</rom>
+			<rom type="file" offset="0x19">8EAF4E1D.mus</rom>
+			<rom type="file" offset="0x1A">9092A4FE.mus</rom>
+			<rom type="file" offset="0x1B">E28BE019.mus</rom>
+			<rom type="file" offset="0x1C">E9BAEEBD.mus</rom>
+			<rom type="file" offset="0x1D">F26A5588.mus</rom>
+			<rom type="file" offset="0x1E">F4EC2B7B.mus</rom>
+			<rom type="file" offset="0x1F">F5431058.mus</rom>
+			<rom type="file" offset="0x20">FABDEED2.mus</rom>
+			<rom type="file" offset="0x21">FAF0F250.mus</rom>
+			<rom type="file" offset="0x22">FF661096.mus</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Lost in L.A. (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="lostinla_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">000223C0.mus</rom>
+			<rom type="file" offset="0x11">04AC938D.mus</rom>
+			<rom type="file" offset="0x12">7CA93965.mus</rom>
+			<rom type="file" offset="0x13">7D797116.mus</rom>
+			<rom type="file" offset="0x14">7E0E27B0.mus</rom>
+			<rom type="file" offset="0x15">7F822101.mus</rom>
+			<rom type="file" offset="0x16">80A7AD87.mus</rom>
+			<rom type="file" offset="0x17">82BD4ECB.mus</rom>
+			<rom type="file" offset="0x18">8AE8A05B.mus</rom>
+			<rom type="file" offset="0x19">8EAF4E1D.mus</rom>
+			<rom type="file" offset="0x1A">9092A4FE.mus</rom>
+			<rom type="file" offset="0x1B">E28BE019.mus</rom>
+			<rom type="file" offset="0x1C">E9BAEEBD.mus</rom>
+			<rom type="file" offset="0x1D">F26A5588.mus</rom>
+			<rom type="file" offset="0x1E">F4EC2B7B.mus</rom>
+			<rom type="file" offset="0x1F">F5431058.mus</rom>
+			<rom type="file" offset="0x20">FABDEED2.mus</rom>
+			<rom type="file" offset="0x21">FAF0F250.mus</rom>
+			<rom type="file" offset="0x22">FF661096.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Lost in L.A. (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="lostinla_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">000223C0.mus</rom>
+			<rom type="file" offset="0x11">04AC938D.mus</rom>
+			<rom type="file" offset="0x12">7CA93965.mus</rom>
+			<rom type="file" offset="0x13">7D797116.mus</rom>
+			<rom type="file" offset="0x14">7E0E27B0.mus</rom>
+			<rom type="file" offset="0x15">7F822101.mus</rom>
+			<rom type="file" offset="0x16">80A7AD87.mus</rom>
+			<rom type="file" offset="0x17">82BD4ECB.mus</rom>
+			<rom type="file" offset="0x18">8AE8A05B.mus</rom>
+			<rom type="file" offset="0x19">8EAF4E1D.mus</rom>
+			<rom type="file" offset="0x1A">9092A4FE.mus</rom>
+			<rom type="file" offset="0x1B">E28BE019.mus</rom>
+			<rom type="file" offset="0x1C">E9BAEEBD.mus</rom>
+			<rom type="file" offset="0x1D">F26A5588.mus</rom>
+			<rom type="file" offset="0x1E">F4EC2B7B.mus</rom>
+			<rom type="file" offset="0x1F">F5431058.mus</rom>
+			<rom type="file" offset="0x20">FABDEED2.mus</rom>
+			<rom type="file" offset="0x21">FAF0F250.mus</rom>
+			<rom type="file" offset="0x22">FF661096.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Search for the King (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="searchking_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">82FA9337.mus</rom>
+			<rom type="file" offset="0x11">84DDEA18.mus</rom>
+			<rom type="file" offset="0x12">86C140F9.mus</rom>
+			<rom type="file" offset="0x13">88A497DA.mus</rom>
+			<rom type="file" offset="0x14">0248E368.mus</rom>
+			<rom type="file" offset="0x15">D958B726.mus</rom>
+			<rom type="file" offset="0x16">DECFF05E.mus</rom>
+			<rom type="file" offset="0x17">E1E2A497.mus</rom>
+			<rom type="file" offset="0x18">E688A9EF.mus</rom>
+			<rom type="file" offset="0x19">E117251E.mus</rom>
+			<rom type="file" offset="0x1A">E414795D.mus</rom>
+			<rom type="file" offset="0x1B">F9A340C9.mus</rom>
+			<rom type="file" offset="0x1C">F74B4B1C.mus</rom>
+			<rom type="file" offset="0x1D">F0531E68.mus</rom>
+			<rom type="file" offset="0x1E">FD582B7C.mus</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Search for the King (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="searchking_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">82FA9337.mus</rom>
+			<rom type="file" offset="0x11">84DDEA18.mus</rom>
+			<rom type="file" offset="0x12">86C140F9.mus</rom>
+			<rom type="file" offset="0x13">88A497DA.mus</rom>
+			<rom type="file" offset="0x14">0248E368.mus</rom>
+			<rom type="file" offset="0x15">D958B726.mus</rom>
+			<rom type="file" offset="0x16">DECFF05E.mus</rom>
+			<rom type="file" offset="0x17">E1E2A497.mus</rom>
+			<rom type="file" offset="0x18">E688A9EF.mus</rom>
+			<rom type="file" offset="0x19">E117251E.mus</rom>
+			<rom type="file" offset="0x1A">E414795D.mus</rom>
+			<rom type="file" offset="0x1B">F9A340C9.mus</rom>
+			<rom type="file" offset="0x1C">F74B4B1C.mus</rom>
+			<rom type="file" offset="0x1D">F0531E68.mus</rom>
+			<rom type="file" offset="0x1E">FD582B7C.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Les Manley in: Search for the King (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="searchking_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">82FA9337.mus</rom>
+			<rom type="file" offset="0x11">84DDEA18.mus</rom>
+			<rom type="file" offset="0x12">86C140F9.mus</rom>
+			<rom type="file" offset="0x13">88A497DA.mus</rom>
+			<rom type="file" offset="0x14">0248E368.mus</rom>
+			<rom type="file" offset="0x15">D958B726.mus</rom>
+			<rom type="file" offset="0x16">DECFF05E.mus</rom>
+			<rom type="file" offset="0x17">E1E2A497.mus</rom>
+			<rom type="file" offset="0x18">E688A9EF.mus</rom>
+			<rom type="file" offset="0x19">E117251E.mus</rom>
+			<rom type="file" offset="0x1A">E414795D.mus</rom>
+			<rom type="file" offset="0x1B">F9A340C9.mus</rom>
+			<rom type="file" offset="0x1C">F74B4B1C.mus</rom>
+			<rom type="file" offset="0x1D">F0531E68.mus</rom>
+			<rom type="file" offset="0x1E">FD582B7C.mus</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mike Ditka Ultimate Football (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="mditkauf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mike Ditka Ultimate Football (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="mditkauf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Mike Ditka Ultimate Football (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="mditkauf_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	   <game>
+		<name>[PC/AT] Snoopy's Game Club (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="snoopygc_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Snoopy's Game Club (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="snoopygc_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Snoopy's Game Club (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="snoopygc_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Test Drive III: The Passion (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="td3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Test Drive III: The Passion (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="td3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Test Drive III: The Passion (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="td3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">INSTR.DAT</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MUS1.MUS</rom>
+			<rom type="file" offset="0x11">MUS2.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games: Summer Challenge / Winter Challenge (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="summerch_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="file" offset="0x19">SONG10.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games: Summer Challenge / Winter Challenge (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="summerch_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="file" offset="0x19">SONG10.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Games: Summer Challenge / Winter Challenge (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="summerch_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">SONG1.MUS</rom>
+			<rom type="file" offset="0x11">SONG2.MUS</rom>
+			<rom type="file" offset="0x12">SONG3.MUS</rom>
+			<rom type="file" offset="0x13">SONG4.MUS</rom>
+			<rom type="file" offset="0x14">SONG5.MUS</rom>
+			<rom type="file" offset="0x15">SONG6.MUS</rom>
+			<rom type="file" offset="0x16">SONG7.MUS</rom>
+			<rom type="file" offset="0x17">SONG8.MUS</rom>
+			<rom type="file" offset="0x18">SONG9.MUS</rom>
+			<rom type="file" offset="0x19">SONG10.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WaxWorks (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="waxworks_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.MUS</rom>
+			<rom type="file" offset="0x11">MOD1.MUS</rom>
+			<rom type="file" offset="0x12">MOD2.MUS</rom>
+			<rom type="file" offset="0x13">MOD3.MUS</rom>
+			<rom type="file" offset="0x14">MOD4.MUS</rom>
+			<rom type="file" offset="0x15">MOD5.MUS</rom>
+			<rom type="file" offset="0x16">MOD6.MUS</rom>
+			<rom type="file" offset="0x17">MOD7.MUS</rom>
+			<rom type="file" offset="0x18">MOD8.MUS</rom>
+			<rom type="file" offset="0x19">MOD9.MUS</rom>
+			<rom type="file" offset="0x1A">MOD10.MUS</rom>
+			<rom type="file" offset="0x1B">MOD11.MUS</rom>
+			<rom type="file" offset="0x1C">MOD12.MUS</rom>
+			<rom type="file" offset="0x1D">MOD13.MUS</rom>
+			<rom type="file" offset="0x1E">MOD14.MUS</rom>
+			<rom type="file" offset="0x1F">MOD15.MUS</rom>
+			<rom type="file" offset="0x20">MOD16.MUS</rom>
+			<rom type="file" offset="0x21">MOD17.MUS</rom>
+			<rom type="file" offset="0x22">MOD18.MUS</rom>
+			<rom type="file" offset="0x23">MOD19.MUS</rom>
+			<rom type="file" offset="0x24">MOD20.MUS</rom>
+			<rom type="file" offset="0x25">MOD21.MUS</rom>
+			<rom type="file" offset="0x26">MOD22.MUS</rom>
+			<rom type="file" offset="0x27">MOD23.MUS</rom>
+			<rom type="file" offset="0x28">MOD24.MUS</rom>
+			<rom type="file" offset="0x29">MOD25.MUS</rom>
+			<rom type="file" offset="0x2A">MOD26.MUS</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WaxWorks (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="waxworks_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.MUS</rom>
+			<rom type="file" offset="0x11">MOD1.MUS</rom>
+			<rom type="file" offset="0x12">MOD2.MUS</rom>
+			<rom type="file" offset="0x13">MOD3.MUS</rom>
+			<rom type="file" offset="0x14">MOD4.MUS</rom>
+			<rom type="file" offset="0x15">MOD5.MUS</rom>
+			<rom type="file" offset="0x16">MOD6.MUS</rom>
+			<rom type="file" offset="0x17">MOD7.MUS</rom>
+			<rom type="file" offset="0x18">MOD8.MUS</rom>
+			<rom type="file" offset="0x19">MOD9.MUS</rom>
+			<rom type="file" offset="0x1A">MOD10.MUS</rom>
+			<rom type="file" offset="0x1B">MOD11.MUS</rom>
+			<rom type="file" offset="0x1C">MOD12.MUS</rom>
+			<rom type="file" offset="0x1D">MOD13.MUS</rom>
+			<rom type="file" offset="0x1E">MOD14.MUS</rom>
+			<rom type="file" offset="0x1F">MOD15.MUS</rom>
+			<rom type="file" offset="0x20">MOD16.MUS</rom>
+			<rom type="file" offset="0x21">MOD17.MUS</rom>
+			<rom type="file" offset="0x22">MOD18.MUS</rom>
+			<rom type="file" offset="0x23">MOD19.MUS</rom>
+			<rom type="file" offset="0x24">MOD20.MUS</rom>
+			<rom type="file" offset="0x25">MOD21.MUS</rom>
+			<rom type="file" offset="0x26">MOD22.MUS</rom>
+			<rom type="file" offset="0x27">MOD23.MUS</rom>
+			<rom type="file" offset="0x28">MOD24.MUS</rom>
+			<rom type="file" offset="0x29">MOD25.MUS</rom>
+			<rom type="file" offset="0x2A">MOD26.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] WaxWorks (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Accolade</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="waxworks_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="-1">MUSIC.DRV</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="file" offset="0x10">MOD0.MUS</rom>
+			<rom type="file" offset="0x11">MOD1.MUS</rom>
+			<rom type="file" offset="0x12">MOD2.MUS</rom>
+			<rom type="file" offset="0x13">MOD3.MUS</rom>
+			<rom type="file" offset="0x14">MOD4.MUS</rom>
+			<rom type="file" offset="0x15">MOD5.MUS</rom>
+			<rom type="file" offset="0x16">MOD6.MUS</rom>
+			<rom type="file" offset="0x17">MOD7.MUS</rom>
+			<rom type="file" offset="0x18">MOD8.MUS</rom>
+			<rom type="file" offset="0x19">MOD9.MUS</rom>
+			<rom type="file" offset="0x1A">MOD10.MUS</rom>
+			<rom type="file" offset="0x1B">MOD11.MUS</rom>
+			<rom type="file" offset="0x1C">MOD12.MUS</rom>
+			<rom type="file" offset="0x1D">MOD13.MUS</rom>
+			<rom type="file" offset="0x1E">MOD14.MUS</rom>
+			<rom type="file" offset="0x1F">MOD15.MUS</rom>
+			<rom type="file" offset="0x20">MOD16.MUS</rom>
+			<rom type="file" offset="0x21">MOD17.MUS</rom>
+			<rom type="file" offset="0x22">MOD18.MUS</rom>
+			<rom type="file" offset="0x23">MOD19.MUS</rom>
+			<rom type="file" offset="0x24">MOD20.MUS</rom>
+			<rom type="file" offset="0x25">MOD21.MUS</rom>
+			<rom type="file" offset="0x26">MOD22.MUS</rom>
+			<rom type="file" offset="0x27">MOD23.MUS</rom>
+			<rom type="file" offset="0x28">MOD24.MUS</rom>
+			<rom type="file" offset="0x29">MOD25.MUS</rom>
+			<rom type="file" offset="0x2A">MOD26.MUS</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x17">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x13">Music 5</title>
+			<title code="0x14">Music 6</title>
+			<title code="0x15">Music 7</title>
+			<title code="0x16">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+			<title code="0x1B">Music 12</title>
+			<title code="0x1C">Music 13</title>
+			<title code="0x1D">Music 14</title>
+			<title code="0x1E">Music 15</title>
+			<title code="0x1F">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+			<title code="0x2A">Music 27</title>
+		</titlelist>
+	</game>
+</gamelist>

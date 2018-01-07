@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Software 2000 -->
+	<game>
+		<name>[PC/AT] Bundesliga Manager Professional (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="bundesligamp_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">BM2TITLE.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Der Schatz im Silbersee (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="silbersee_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">SILBER01.CMF</rom>
+			<rom type="file" offset="0x11">SILBER02.CMF</rom>
+			<rom type="file" offset="0x12">SILBER03.CMF</rom>
+			<rom type="file" offset="0x13">SILBER04.CMF</rom>
+			<rom type="file" offset="0x14">SILBER05.CMF</rom>
+			<rom type="file" offset="0x15">SILBER06.CMF</rom>
+			<rom type="file" offset="0x16">SILBER07.CMF</rom>
+			<rom type="file" offset="0x17">SILBER08.CMF</rom>
+			<rom type="file" offset="0x18">SILBER09.CMF</rom>
+			<rom type="file" offset="0x19">SILBER10.CMF</rom>
+			<rom type="file" offset="0x1A">SILBER11.CMF</rom>
+			<rom type="file" offset="0x1B">SILBER12.CMF</rom>
+			<rom type="file" offset="0x1C">SILBER13.CMF</rom>
+			<rom type="file" offset="0x1D">SILBER14.CMF</rom>
+			<rom type="file" offset="0x1E">SILBER15.CMF</rom>
+			<rom type="file" offset="0x1F">SILBER16.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x13">Music 1</title>
+			<title code="0x10">Music 2</title>
+			<title code="0x11">Music 3</title>
+			<title code="0x12">Music 4</title>
+			<title code="0x15">Music 5</title>
+			<title code="0x16">Music 6</title>
+			<title code="0x17">Music 7</title>
+			<title code="0x19">Music 8</title>
+			<title code="0x1B">Music 9</title>
+			<title code="0x1C">Music 10</title>
+			<title code="0x1D">Music 11</title>
+			<title code="0x1E">Music 12</title>
+			<title code="0x1F">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Hohlenwelt Saga: Der Leuchtende Kristall (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="lkristall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">MT01.MID</rom>
+			<rom type="file" offset="0x11">MT02.MID</rom>
+			<rom type="file" offset="0x12">MT03.MID</rom>
+			<rom type="file" offset="0x13">MT04.MID</rom>
+			<rom type="file" offset="0x14">MT05.MID</rom>
+			<rom type="file" offset="0x15">MT06.MID</rom>
+			<rom type="file" offset="0x16">MT07.MID</rom>
+			<rom type="file" offset="0x17">MT08.MID</rom>
+			<rom type="file" offset="0x18">MT09.MID</rom>
+			<rom type="file" offset="0x19">MT10.MID</rom>
+			<rom type="file" offset="0x1A">MT11.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Hohlenwelt Saga: Der Leuchtende Kristall (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="lkristall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">MT01.MID</rom>
+			<rom type="file" offset="0x11">MT02.MID</rom>
+			<rom type="file" offset="0x12">MT03.MID</rom>
+			<rom type="file" offset="0x13">MT04.MID</rom>
+			<rom type="file" offset="0x14">MT05.MID</rom>
+			<rom type="file" offset="0x15">MT06.MID</rom>
+			<rom type="file" offset="0x16">MT07.MID</rom>
+			<rom type="file" offset="0x17">MT08.MID</rom>
+			<rom type="file" offset="0x18">MT09.MID</rom>
+			<rom type="file" offset="0x19">MT10.MID</rom>
+			<rom type="file" offset="0x1A">MT11.MID</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Hohlenwelt Saga: Der Leuchtende Kristall (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="lkristall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">GMRESET.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">GM01.MID</rom>
+			<rom type="file" offset="0x11">GM02.MID</rom>
+			<rom type="file" offset="0x12">GM03.MID</rom>
+			<rom type="file" offset="0x13">GM04.MID</rom>
+			<rom type="file" offset="0x14">GM05.MID</rom>
+			<rom type="file" offset="0x15">GM06.MID</rom>
+			<rom type="file" offset="0x16">GM07.MID</rom>
+			<rom type="file" offset="0x17">GM08.MID</rom>
+			<rom type="file" offset="0x18">GM09.MID</rom>
+			<rom type="file" offset="0x19">GM10.MID</rom>
+			<rom type="file" offset="0x1A">GM11.MID</rom>
+			<rom type="shell" offset="0">GMRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Hohlenwelt Saga: Der Leuchtende Kristall (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="lkristall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">GSRESET.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">SCC01.MID</rom>
+			<rom type="file" offset="0x11">SCC02.MID</rom>
+			<rom type="file" offset="0x12">SCC03.MID</rom>
+			<rom type="file" offset="0x13">SCC04.MID</rom>
+			<rom type="file" offset="0x14">SCC05.MID</rom>
+			<rom type="file" offset="0x15">SCC06.MID</rom>
+			<rom type="file" offset="0x16">SCC07.MID</rom>
+			<rom type="file" offset="0x17">SCC08.MID</rom>
+			<rom type="file" offset="0x18">SCC09.MID</rom>
+			<rom type="file" offset="0x19">SCC10.MID</rom>
+			<rom type="file" offset="0x1A">SCC11.MID</rom>
+			<rom type="shell" offset="0">GSRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Hohlenwelt Saga: Der Leuchtende Kristall (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="lkristall_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">MID.DRV</rom>
+			<rom type="file" offset="0x10">GM01.MID</rom>
+			<rom type="file" offset="0x11">GM02.MID</rom>
+			<rom type="file" offset="0x12">GM03.MID</rom>
+			<rom type="file" offset="0x13">GM04.MID</rom>
+			<rom type="file" offset="0x14">GM05.MID</rom>
+			<rom type="file" offset="0x15">GM06.MID</rom>
+			<rom type="file" offset="0x16">GM07.MID</rom>
+			<rom type="file" offset="0x17">GM08.MID</rom>
+			<rom type="file" offset="0x18">GM09.MID</rom>
+			<rom type="file" offset="0x19">GM10.MID</rom>
+			<rom type="file" offset="0x1A">GM11.MID</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1A">Music 11</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Die Kathedrale (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="kathedrale_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Title</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Eishockey Manager (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="eishockey_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Pizza Connection (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="pizzaconnection_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">M1.CMF</rom>
+			<rom type="file" offset="0x11">M2.CMF</rom>
+			<rom type="file" offset="0x12">M3.CMF</rom>
+			<rom type="file" offset="0x13">M4.CMF</rom>
+			<rom type="file" offset="0x14">M5.CMF</rom>
+			<rom type="file" offset="0x15">M6.CMF</rom>
+			<rom type="file" offset="0x16">M7.CMF</rom>
+			<rom type="file" offset="0x17">M8.CMF</rom>
+			<rom type="file" offset="0x18">TITEL.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Wild West World (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Software 2000</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="wildwestworld_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">WESTERN1.CMF</rom>
+			<rom type="file" offset="0x11">WESTERN2.CMF</rom>
+			<rom type="file" offset="0x12">WESTERN3.CMF</rom>
+			<rom type="file" offset="0x13">WESTERN4.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+		</titlelist>
+	</game>
+</gamelist>

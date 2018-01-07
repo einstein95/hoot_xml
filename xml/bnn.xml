@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //BNN -->
+	<game>
+		<name>[PC-9801] Wolf Pack (ウルフパック) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">BNN</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="wlfpk_98">
+			<rom type="file" offset="-1">WLFPK_98.COM</rom>
+			<rom type="file" offset="-1">MDR.EXE</rom>
+			<rom type="device" offset="0">mdr.exe</rom>
+			<rom type="shell" offset="0">wlfpk_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x12">BGM #12</title>
+			<title code="0x00">BGM #00</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">SFX #03</title>
+			<title code="0x04">SFX #04</title>
+			<title code="0x05">SFX #05</title>
+			<title code="0x06">SFX #06</title>
+			<title code="0x07">SFX #07</title>
+			<title code="0x08">SFX #08</title>
+			<title code="0x09">SFX #09</title>
+			<title code="0x0A">SFX #0A</title>
+			<title code="0x0B">SFX #0B</title>
+			<title code="0x0C">SFX #0C</title>
+			<title code="0x0D">SFX #0D</title>
+			<title code="0x0E">SFX #0E</title>
+			<title code="0x0F">SFX #0F</title>
+			<title code="0x10">SFX #10</title>
+			<title code="0x11">SFX #11</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Paragon Software -->
+	<game>
+		<name>[PC/AT] Space 1889 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Paragon Software</driveralias>
+		<options>
+			<option name="clockmul" value="6"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="space1889_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">SPTITLE.ROL</rom>
+			<rom type="file" offset="0x11">SPFUN.ROL</rom>
+			<rom type="file" offset="0x12">SPVICTOR.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">FUN</title>
+			<title code="0x12">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Amazing Spider Man &amp; Captain America in Dr. Doom's Revenge (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Paragon Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="sman_ca_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">TITLE.ROL</rom>
+			<rom type="file" offset="0x11">WIN.ROL</rom>
+			<rom type="file" offset="0x12">LOSE.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">TITLE</title>
+			<title code="0x11">WIN</title>
+			<title code="0x12">LOSE</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Punisher (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Paragon Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="punisher_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">PAG.ROL</rom>
+			<rom type="file" offset="0x11">PFUN.ROL</rom>
+			<rom type="file" offset="0x12">PIC.ROL</rom>
+			<rom type="file" offset="0x13">PMOB.ROL</rom>
+			<rom type="file" offset="0x14">PSHORT.ROL</rom>
+			<rom type="file" offset="0x15">PUNISH.ROL</rom>
+			<rom type="file" offset="0x16">PWIN.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+		</titlelist>
+	</game>
+		<game>
+		<name>[PC/AT] X-Men: Madness in Murderworld (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Paragon Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="xmenmim_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">XOPEN.ROL</rom>
+			<rom type="file" offset="0x11">XFUN.ROL</rom>
+			<rom type="file" offset="0x12">XVICTOR.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">OPEN</title>
+			<title code="0x11">FUN</title>
+			<title code="0x12">VICTORY</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] X-Men 2: The Fall of the Mutants (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Paragon Software</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="xmen2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">SOUND.COM</rom>
+			<rom type="file" offset="0x09">ROL.DRV</rom>
+			<rom type="file" offset="0x08">ADLIB.BNK</rom>
+			<rom type="file" offset="0x10">XMENOPEN.ROL</rom>
+			<rom type="file" offset="0x11">XMENWIN.ROL</rom>
+			<rom type="file" offset="0x12">XMENLOSE.ROL</rom>
+			<rom type="shell" offset="0">SOUND.COM</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">OPEN</title>
+			<title code="0x11">WIN</title>
+			<title code="0x12">LOSE</title>
+		</titlelist>
+	</game>
+</gamelist>

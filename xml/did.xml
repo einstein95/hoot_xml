@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Digital Image Design -->
+	<game>
+		<name>[PC/AT] F29 Retaliator (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="f29retaliator_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM 4</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Music 1</title>
+			<title code="0x02">Music 2</title>
+			<title code="0x03">Music 3</title>
+			<title code="0x04">Music 4</title>
+			<title code="0x05">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] F29 Retaliator (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="f29retaliator_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Music 1</title>
+			<title code="0x02">Music 2</title>
+			<title code="0x03">Music 3</title>
+			<title code="0x04">Music 4</title>
+			<title code="0x05">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] F29 Retaliator (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="f29retaliator_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="-1">MTRESET.COM</rom>
+			<rom type="file" offset="9">MUSIC.BIN</rom>
+			<rom type="shell" offset="0">MTRESET.COM</rom>
+			<rom type="shell" offset="0">CODE.COM 5</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Music 1</title>
+			<title code="0x02">Music 2</title>
+			<title code="0x03">Music 3</title>
+			<title code="0x04">Music 4</title>
+			<title code="0x05">Music 5</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inferno (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="inferno_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.ADL</rom>
+			<rom type="file" offset="0x11">BADNEWS.ADL</rom>
+			<rom type="file" offset="0x12">DEATH.ADL</rom>
+			<rom type="file" offset="0x13">DRAMATIC.ADL</rom>
+			<rom type="file" offset="0x14">HAPFINAL.ADL</rom>
+			<rom type="file" offset="0x15">HAPPY.ADL</rom>
+			<rom type="file" offset="0x16">HUMAN.ADL</rom>
+			<rom type="file" offset="0x17">HUMATMOS.ADL</rom>
+			<rom type="file" offset="0x18">MOON.ADL</rom>
+			<rom type="file" offset="0x19">PLANET1.ADL</rom>
+			<rom type="file" offset="0x1A">PLANET2.ADL</rom>
+			<rom type="file" offset="0x1B">REXATMOS.ADL</rom>
+			<rom type="file" offset="0x1C">REXXON.ADL</rom>
+			<rom type="file" offset="0x1D">SADFINAL.ADL</rom>
+			<rom type="file" offset="0x1E">SPACE1.ADL</rom>
+			<rom type="file" offset="0x1F">SPACE2.ADL</rom>
+			<rom type="file" offset="0x20">TAKEOFF.ADL</rom>
+			<rom type="shell" offset="0">CODE.COM 0 70</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">BADNEWS</title>
+			<title code="0x1200">DEATH</title>
+			<title code="0x1300">DRAMATIC</title>
+			<title code="0x1400">HAPFINAL</title>
+			<title code="0x1500">HAPPY</title>
+			<title code="0x1600">HUMAN</title>
+			<title code="0x1700">HUMATMOS</title>
+			<title code="0x1800">MOON</title>
+			<title code="0x1900">PLANET1</title>
+			<title code="0x1A00">PLANET2</title>
+			<title code="0x1B00">REXATMOS</title>
+			<title code="0x1C00">REXXON</title>
+			<title code="0x1D00">SADFINAL</title>
+			<title code="0x1E00">SPACE1</title>
+			<title code="0x1F00">SPACE2</title>
+			<title code="0x2000">TAKEOFF</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inferno (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="inferno_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">BADNEWS.LAP</rom>
+			<rom type="file" offset="0x12">DEATH.LAP</rom>
+			<rom type="file" offset="0x13">DRAMATIC.LAP</rom>
+			<rom type="file" offset="0x14">HAPFINAL.LAP</rom>
+			<rom type="file" offset="0x15">HAPPY.LAP</rom>
+			<rom type="file" offset="0x16">HUMAN.LAP</rom>
+			<rom type="file" offset="0x17">HUMATMOS.LAP</rom>
+			<rom type="file" offset="0x18">MOON.LAP</rom>
+			<rom type="file" offset="0x19">PLANET1.LAP</rom>
+			<rom type="file" offset="0x1A">PLANET2.LAP</rom>
+			<rom type="file" offset="0x1B">REXATMOS.LAP</rom>
+			<rom type="file" offset="0x1C">REXXON.LAP</rom>
+			<rom type="file" offset="0x1D">SADFINAL.LAP</rom>
+			<rom type="file" offset="0x1E">SPACE1.LAP</rom>
+			<rom type="file" offset="0x1F">SPACE2.LAP</rom>
+			<rom type="file" offset="0x20">TAKEOFF.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1 60</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">BADNEWS</title>
+			<title code="0x1200">DEATH</title>
+			<title code="0x1300">DRAMATIC</title>
+			<title code="0x1400">HAPFINAL</title>
+			<title code="0x1500">HAPPY</title>
+			<title code="0x1600">HUMAN</title>
+			<title code="0x1700">HUMATMOS</title>
+			<title code="0x1800">MOON</title>
+			<title code="0x1900">PLANET1</title>
+			<title code="0x1A00">PLANET2</title>
+			<title code="0x1B00">REXATMOS</title>
+			<title code="0x1C00">REXXON</title>
+			<title code="0x1D00">SADFINAL</title>
+			<title code="0x1E00">SPACE1</title>
+			<title code="0x1F00">SPACE2</title>
+			<title code="0x2000">TAKEOFF</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inferno (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="inferno_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.LAP</rom>
+			<rom type="file" offset="0x11">BADNEWS.LAP</rom>
+			<rom type="file" offset="0x12">DEATH.LAP</rom>
+			<rom type="file" offset="0x13">DRAMATIC.LAP</rom>
+			<rom type="file" offset="0x14">HAPFINAL.LAP</rom>
+			<rom type="file" offset="0x15">HAPPY.LAP</rom>
+			<rom type="file" offset="0x16">HUMAN.LAP</rom>
+			<rom type="file" offset="0x17">HUMATMOS.LAP</rom>
+			<rom type="file" offset="0x18">MOON.LAP</rom>
+			<rom type="file" offset="0x19">PLANET1.LAP</rom>
+			<rom type="file" offset="0x1A">PLANET2.LAP</rom>
+			<rom type="file" offset="0x1B">REXATMOS.LAP</rom>
+			<rom type="file" offset="0x1C">REXXON.LAP</rom>
+			<rom type="file" offset="0x1D">SADFINAL.LAP</rom>
+			<rom type="file" offset="0x1E">SPACE1.LAP</rom>
+			<rom type="file" offset="0x1F">SPACE2.LAP</rom>
+			<rom type="file" offset="0x20">TAKEOFF.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1 60</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">BADNEWS</title>
+			<title code="0x1200">DEATH</title>
+			<title code="0x1300">DRAMATIC</title>
+			<title code="0x1400">HAPFINAL</title>
+			<title code="0x1500">HAPPY</title>
+			<title code="0x1600">HUMAN</title>
+			<title code="0x1700">HUMATMOS</title>
+			<title code="0x1800">MOON</title>
+			<title code="0x1900">PLANET1</title>
+			<title code="0x1A00">PLANET2</title>
+			<title code="0x1B00">REXATMOS</title>
+			<title code="0x1C00">REXXON</title>
+			<title code="0x1D00">SADFINAL</title>
+			<title code="0x1E00">SPACE1</title>
+			<title code="0x1F00">SPACE2</title>
+			<title code="0x2000">TAKEOFF</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Inferno (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="inferno_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">TITLE.SCC</rom>
+			<rom type="file" offset="0x11">BADNEWS.SCC</rom>
+			<rom type="file" offset="0x12">DEATH.SCC</rom>
+			<rom type="file" offset="0x13">DRAMATIC.SCC</rom>
+			<rom type="file" offset="0x14">HAPFINAL.SCC</rom>
+			<rom type="file" offset="0x15">HAPPY.SCC</rom>
+			<rom type="file" offset="0x16">HUMAN.SCC</rom>
+			<rom type="file" offset="0x17">HUMATMOS.SCC</rom>
+			<rom type="file" offset="0x18">MOON.SCC</rom>
+			<rom type="file" offset="0x19">PLANET1.SCC</rom>
+			<rom type="file" offset="0x1A">PLANET2.SCC</rom>
+			<rom type="file" offset="0x1B">REXATMOS.SCC</rom>
+			<rom type="file" offset="0x1C">REXXON.SCC</rom>
+			<rom type="file" offset="0x1D">SADFINAL.SCC</rom>
+			<rom type="file" offset="0x1E">SPACE1.SCC</rom>
+			<rom type="file" offset="0x1F">SPACE2.SCC</rom>
+			<rom type="file" offset="0x20">TAKEOFF.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM 2 60</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">TITLE</title>
+			<title code="0x1100">BADNEWS</title>
+			<title code="0x1200">DEATH</title>
+			<title code="0x1300">DRAMATIC</title>
+			<title code="0x1400">HAPFINAL</title>
+			<title code="0x1500">HAPPY</title>
+			<title code="0x1600">HUMAN</title>
+			<title code="0x1700">HUMATMOS</title>
+			<title code="0x1800">MOON</title>
+			<title code="0x1900">PLANET1</title>
+			<title code="0x1A00">PLANET2</title>
+			<title code="0x1B00">REXATMOS</title>
+			<title code="0x1C00">REXXON</title>
+			<title code="0x1D00">SADFINAL</title>
+			<title code="0x1E00">SPACE1</title>
+			<title code="0x1F00">SPACE2</title>
+			<title code="0x2000">TAKEOFF</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] RoboCop 3 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="robocop3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Media Break</title>
+			<title code="0x11">Delta City</title>
+			<title code="0x12">The Church</title>
+			<title code="0x13">Death</title>
+			<title code="0x14">Driving</title>
+			<title code="0x15">Title</title>
+			<title code="0x16">Sewers</title>
+			<title code="0x17">Ninja</title>
+			<title code="0x18">OCP Tower</title>
+			<title code="0x19">Flying</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] RoboCop 3 (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="robocop3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Media Break</title>
+			<title code="0x11">Delta City</title>
+			<title code="0x12">The Church</title>
+			<title code="0x13">Death</title>
+			<title code="0x14">Driving</title>
+			<title code="0x15">Title</title>
+			<title code="0x16">Sewers</title>
+			<title code="0x17">Ninja</title>
+			<title code="0x18">OCP Tower</title>
+			<title code="0x19">Flying</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] RoboCop 3 (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="robocop3_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Media Break</title>
+			<title code="0x11">Delta City</title>
+			<title code="0x12">The Church</title>
+			<title code="0x13">Death</title>
+			<title code="0x14">Driving</title>
+			<title code="0x15">Title</title>
+			<title code="0x16">Sewers</title>
+			<title code="0x17">Ninja</title>
+			<title code="0x18">OCP Tower</title>
+			<title code="0x19">Flying</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] TFX (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="tfx_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.ADL</rom>
+			<rom type="file" offset="0x11">3-9TUNES.ADL</rom>
+			<rom type="file" offset="0x12">AIRBATLE.ADL</rom>
+			<rom type="file" offset="0x13">AIRSUPER.ADL</rom>
+			<rom type="file" offset="0x14">CLOSEAIR.ADL</rom>
+			<rom type="file" offset="0x15">COLUMBIA.ADL</rom>
+			<rom type="file" offset="0x16">DEATH.ADL</rom>
+			<rom type="file" offset="0x17">DEFSUPP.ADL</rom>
+			<rom type="file" offset="0x18">ENROL.ADL</rom>
+			<rom type="file" offset="0x19">INTER.ADL</rom>
+			<rom type="file" offset="0x1A">INTERCEP.ADL</rom>
+			<rom type="file" offset="0x1B">INTERDCT.ADL</rom>
+			<rom type="file" offset="0x1C">LIBYA.ADL</rom>
+			<rom type="file" offset="0x1D">MARITIME.ADL</rom>
+			<rom type="file" offset="0x1E">NEWS.ADL</rom>
+			<rom type="file" offset="0x1F">OCEAN.ADL</rom>
+			<rom type="file" offset="0x20">SOMALIA.ADL</rom>
+			<rom type="file" offset="0x21">SUCC.ADL</rom>
+			<rom type="file" offset="0x22">UNSUC.ADL</rom>
+			<rom type="file" offset="0x23">YUGO.ADL</rom>
+			<rom type="file" offset="0x24">UNKNOWN1.ADL</rom>
+			<rom type="file" offset="0x25">UNKNOWN2.ADL</rom>
+			<rom type="file" offset="0x26">UNKNOWN3.ADL</rom>
+			<rom type="shell" offset="0">CODE.COM 0</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">3-9TUNES</title>
+			<title code="0x12">AIRBATLE</title>
+			<title code="0x13">AIRSUPER</title>
+			<title code="0x14">CLOSEAIR</title>
+			<title code="0x15">COLUMBIA</title>
+			<title code="0x16">DEATH</title>
+			<title code="0x17">DEFSUPP</title>
+			<title code="0x18">ENROL</title>
+			<title code="0x19">INTER</title>
+			<title code="0x1A">INTERCEP</title>
+			<title code="0x1B">INTERDCT</title>
+			<title code="0x1C">LIBYA</title>
+			<title code="0x1D">MARITIME</title>
+			<title code="0x1E">NEWS</title>
+			<title code="0x1F">OCEAN</title>
+			<title code="0x20">SOMALIA</title>
+			<title code="0x21">SUCC</title>
+			<title code="0x22">UNSUC</title>
+			<title code="0x23">YUGO</title>
+			<title code="0x24">UNKNOWN1</title>
+			<title code="0x25">UNKNOWN2</title>
+			<title code="0x26">UNKNOWN3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] TFX (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="tfx_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.LAP</rom>
+			<rom type="file" offset="0x11">AIRBATLE.LAP</rom>
+			<rom type="file" offset="0x12">COLUMBIA.LAP</rom>
+			<rom type="file" offset="0x13">DEATH.LAP</rom>
+			<rom type="file" offset="0x14">ENROL.LAP</rom>
+			<rom type="file" offset="0x15">INTER.LAP</rom>
+			<rom type="file" offset="0x16">INTERCEP.LAP</rom>
+			<rom type="file" offset="0x17">INTERDCT.LAP</rom>
+			<rom type="file" offset="0x18">LIBYA.LAP</rom>
+			<rom type="file" offset="0x19">MARITIME.LAP</rom>
+			<rom type="file" offset="0x1A">NEWS.LAP</rom>
+			<rom type="file" offset="0x1B">OCEAN.LAP</rom>
+			<rom type="file" offset="0x1C">SOMALIA.LAP</rom>
+			<rom type="file" offset="0x1D">SUCC.LAP</rom>
+			<rom type="file" offset="0x1E">UNSUC.LAP</rom>
+			<rom type="file" offset="0x1F">YUGO.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">AIRBATLE</title>
+			<title code="0x12">COLUMBIA</title>
+			<title code="0x13">DEATH</title>
+			<title code="0x14">ENROL</title>
+			<title code="0x15">INTER</title>
+			<title code="0x16">INTERCEP</title>
+			<title code="0x17">INTERDCT</title>
+			<title code="0x18">LIBYA</title>
+			<title code="0x19">MARITIME</title>
+			<title code="0x1A">NEWS</title>
+			<title code="0x1B">OCEAN</title>
+			<title code="0x1C">SOMALIA</title>
+			<title code="0x1D">SUCC</title>
+			<title code="0x1E">UNSUC</title>
+			<title code="0x1F">YUGO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] TFX (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="tfx_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.LAP</rom>
+			<rom type="file" offset="0x11">AIRBATLE.LAP</rom>
+			<rom type="file" offset="0x12">COLUMBIA.LAP</rom>
+			<rom type="file" offset="0x13">DEATH.LAP</rom>
+			<rom type="file" offset="0x14">ENROL.LAP</rom>
+			<rom type="file" offset="0x15">INTER.LAP</rom>
+			<rom type="file" offset="0x16">INTERCEP.LAP</rom>
+			<rom type="file" offset="0x17">INTERDCT.LAP</rom>
+			<rom type="file" offset="0x18">LIBYA.LAP</rom>
+			<rom type="file" offset="0x19">MARITIME.LAP</rom>
+			<rom type="file" offset="0x1A">NEWS.LAP</rom>
+			<rom type="file" offset="0x1B">OCEAN.LAP</rom>
+			<rom type="file" offset="0x1C">SOMALIA.LAP</rom>
+			<rom type="file" offset="0x1D">SUCC.LAP</rom>
+			<rom type="file" offset="0x1E">UNSUC.LAP</rom>
+			<rom type="file" offset="0x1F">YUGO.LAP</rom>
+			<rom type="shell" offset="0">CODE.COM 1</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">AIRBATLE</title>
+			<title code="0x12">COLUMBIA</title>
+			<title code="0x13">DEATH</title>
+			<title code="0x14">ENROL</title>
+			<title code="0x15">INTER</title>
+			<title code="0x16">INTERCEP</title>
+			<title code="0x17">INTERDCT</title>
+			<title code="0x18">LIBYA</title>
+			<title code="0x19">MARITIME</title>
+			<title code="0x1A">NEWS</title>
+			<title code="0x1B">OCEAN</title>
+			<title code="0x1C">SOMALIA</title>
+			<title code="0x1D">SUCC</title>
+			<title code="0x1E">UNSUC</title>
+			<title code="0x1F">YUGO</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] TFX (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Digital Image Design</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="tfx_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">OSL.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.SCC</rom>
+			<rom type="file" offset="0x11">3-9TUNES.SCC</rom>
+			<rom type="file" offset="0x12">AIRBATTL.SCC</rom>
+			<rom type="file" offset="0x13">AIRSUPER.SCC</rom>
+			<rom type="file" offset="0x14">ANTIARMR.SCC</rom>
+			<rom type="file" offset="0x15">CLOSEAIR.SCC</rom>
+			<rom type="file" offset="0x16">COLUMBIA.SCC</rom>
+			<rom type="file" offset="0x17">DEATH.SCC</rom>
+			<rom type="file" offset="0x18">DEFSUPP.SCC</rom>
+			<rom type="file" offset="0x19">ENROL.SCC</rom>
+			<rom type="file" offset="0x1A">INTER.SCC</rom>
+			<rom type="file" offset="0x1B">INTERCEP.SCC</rom>
+			<rom type="file" offset="0x1C">INTERDCT.SCC</rom>
+			<rom type="file" offset="0x1D">LIBYA.SCC</rom>
+			<rom type="file" offset="0x1E">MARITIME.SCC</rom>
+			<rom type="file" offset="0x1F">NEWS.SCC</rom>
+			<rom type="file" offset="0x20">OCEAN.SCC</rom>
+			<rom type="file" offset="0x21">SOMALIA.SCC</rom>
+			<rom type="file" offset="0x22">SUCC.SCC</rom>
+			<rom type="file" offset="0x23">UNSUC.SCC</rom>
+			<rom type="file" offset="0x24">YUGO.SCC</rom>
+			<rom type="file" offset="0x25">UNKNOWN1.SCC</rom>
+			<rom type="file" offset="0x26">UNKNOWN2.SCC</rom>
+			<rom type="shell" offset="0">CODE.COM 2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">3-9TUNES</title>
+			<title code="0x12">AIRBATTL</title>
+			<title code="0x13">AIRSUPER</title>
+			<title code="0x14">ANTIARMR</title>
+			<title code="0x15">CLOSEAIR</title>
+			<title code="0x16">COLUMBIA</title>
+			<title code="0x17">DEATH</title>
+			<title code="0x18">DEFSUPP</title>
+			<title code="0x19">ENROL</title>
+			<title code="0x1A">INTER</title>
+			<title code="0x1B">INTERCEP</title>
+			<title code="0x1C">INTERDCT</title>
+			<title code="0x1D">LIBYA</title>
+			<title code="0x1E">MARITIME</title>
+			<title code="0x1F">NEWS</title>
+			<title code="0x20">OCEAN</title>
+			<title code="0x21">SOMALIA</title>
+			<title code="0x22">SUCC</title>
+			<title code="0x23">UNSUC</title>
+			<title code="0x24">YUGO</title>
+			<title code="0x25">UNKNOWN1</title>
+			<title code="0x26">UNKNOWN2</title>
+		</titlelist>
+	</game>
+</gamelist>

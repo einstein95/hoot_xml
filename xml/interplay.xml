@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Interplay -->
+	<game>
+		<name>[PC/AT] Battle Chess 4000 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="bchess4k_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="9">ADLIB.ADV</rom>
+			<rom type="file" offset="10">SAMPLE.AD</rom>
+			<rom type="file" offset="0x10">INTRO_2.XMI</rom>
+			<rom type="file" offset="0x11">2001_2.XMI</rom>
+			<rom type="file" offset="0x12">LOSE_2.XMI</rom>
+			<rom type="file" offset="0x13">WIN_2.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE ADLIB.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">2001</title>
+			<title code="0x1200">Lose</title>
+			<title code="0x1300">Win</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Battle Chess 4000 (YMF262) &lt;- sounds broken (2001) - Hoot bugs? or my driver...</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x200"/>
+		</options>
+		<romlist archive="bchess4k_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="9">SBP2FM.ADV</rom>
+			<rom type="file" offset="10">SAMPLE.OPL</rom>
+			<rom type="file" offset="0x10">INTRO_4.XMI</rom>
+			<rom type="file" offset="0x11">2001_4.XMI</rom>
+			<rom type="file" offset="0x12">LOSE_4.XMI</rom>
+			<rom type="file" offset="0x13">WIN_4.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE SBP2FM.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">2001</title>
+			<title code="0x1200">Lose</title>
+			<title code="0x1300">Win</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Omar Sharif on Bridge (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="omarsharif_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">ADLIB.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.AD</rom>
+			<rom type="file" offset="0x10">INTRO.XMI</rom>
+			<rom type="file" offset="0x11">WIN.XMI</rom>
+			<rom type="file" offset="0x12">LOSE.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE ADLIB.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Win</title>
+			<title code="0x1200">Lose</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Omar Sharif on Bridge (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="omarsharif_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">INTRO.XMI</rom>
+			<rom type="file" offset="0x11">WIN.XMI</rom>
+			<rom type="file" offset="0x12">LOSE.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Win</title>
+			<title code="0x1200">Lose</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Omar Sharif on Bridge (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="omarsharif_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">INTRO.XMI</rom>
+			<rom type="file" offset="0x11">WIN.XMI</rom>
+			<rom type="file" offset="0x12">LOSE.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Intro</title>
+			<title code="0x1100">Win</title>
+			<title code="0x1200">Lose</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rags to Riches: The Financial Market Simulation (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x180"/>
+		</options>
+		<romlist archive="ragstoriches_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">SBP2FM.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.OPL</rom>
+			<rom type="file" offset="0x10">THEME-4.XMI</rom>
+			<rom type="file" offset="0x11">1920S-4.XMI</rom>
+			<rom type="file" offset="0x12">CLASS-4.XMI</rom>
+			<rom type="file" offset="0x13">COUNTY-4.XMI</rom>
+			<rom type="file" offset="0x14">EASY-4.XMI</rom>
+			<rom type="file" offset="0x15">JAPAN-4.XMI</rom>
+			<rom type="file" offset="0x16">JAZZ-4.XMI</rom>
+			<rom type="file" offset="0x17">MUZAK-4.XMI</rom>
+			<rom type="file" offset="0x18">MYSTIC-4.XMI</rom>
+			<rom type="file" offset="0x19">NEWAGE-4.XMI</rom>
+			<rom type="file" offset="0x1A">POP-4.XMI</rom>
+			<rom type="file" offset="0x1B">PUNK-4.XMI</rom>
+			<rom type="file" offset="0x1C">ROCK-4.XMI</rom>
+			<rom type="file" offset="0x1D">SLEEP-4.XMI</rom>
+			<rom type="file" offset="0x1E">TECH-4.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NULL SBP2FM.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">THEME</title>
+			<title code="0x1100">1920S</title>
+			<title code="0x1200">CLASS</title>
+			<title code="0x1300">COUNTY</title>
+			<title code="0x1400">EASY</title>
+			<title code="0x1500">JAPAN</title>
+			<title code="0x1600">JAZZ</title>
+			<title code="0x1700">MUZAK</title>
+			<title code="0x1800">MYSTIC</title>
+			<title code="0x1900">NEWAGE</title>
+			<title code="0x1A00">POP</title>
+			<title code="0x1B00">PUNK</title>
+			<title code="0x1C00">ROCK</title>
+			<title code="0x1D00">SLEEP</title>
+			<title code="0x1E00">TECH</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rags to Riches: The Financial Market Simulation (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="ragstoriches_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MT32MPU.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.MT</rom>
+			<rom type="file" offset="-1">LOADMT32.XMI</rom>
+			<rom type="file" offset="0x10">THEME-M.XMI</rom>
+			<rom type="file" offset="0x11">1920S-M.XMI</rom>
+			<rom type="file" offset="0x12">CLASS-M.XMI</rom>
+			<rom type="file" offset="0x13">COUNTY-M.XMI</rom>
+			<rom type="file" offset="0x14">EASY-M.XMI</rom>
+			<rom type="file" offset="0x15">JAPAN-M.XMI</rom>
+			<rom type="file" offset="0x16">JAZZ-M.XMI</rom>
+			<rom type="file" offset="0x17">MUZAK-M.XMI</rom>
+			<rom type="file" offset="0x18">MYSTIC-M.XMI</rom>
+			<rom type="file" offset="0x19">NEWAGE-M.XMI</rom>
+			<rom type="file" offset="0x1A">POP-M.XMI</rom>
+			<rom type="file" offset="0x1B">PUNK-M.XMI</rom>
+			<rom type="file" offset="0x1C">ROCK-M.XMI</rom>
+			<rom type="file" offset="0x1D">SLEEP-M.XMI</rom>
+			<rom type="file" offset="0x1E">TECH-M.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE LOADMT32.XMI MT32MPU.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">THEME</title>
+			<title code="0x1100">1920S</title>
+			<title code="0x1200">CLASS</title>
+			<title code="0x1300">COUNTY</title>
+			<title code="0x1400">EASY</title>
+			<title code="0x1500">JAPAN</title>
+			<title code="0x1600">JAZZ</title>
+			<title code="0x1700">MUZAK</title>
+			<title code="0x1800">MYSTIC</title>
+			<title code="0x1900">NEWAGE</title>
+			<title code="0x1A00">POP</title>
+			<title code="0x1B00">PUNK</title>
+			<title code="0x1C00">ROCK</title>
+			<title code="0x1D00">SLEEP</title>
+			<title code="0x1E00">TECH</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rags to Riches: The Financial Market Simulation (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="ragstoriches_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MT32MPU.ADV</rom>
+			<rom type="file" offset="-1">SAMPLE.MT</rom>
+			<rom type="file" offset="-1">LOADMT32.XMI</rom>
+			<rom type="file" offset="0x10">THEME-M.XMI</rom>
+			<rom type="file" offset="0x11">1920S-M.XMI</rom>
+			<rom type="file" offset="0x12">CLASS-M.XMI</rom>
+			<rom type="file" offset="0x13">COUNTY-M.XMI</rom>
+			<rom type="file" offset="0x14">EASY-M.XMI</rom>
+			<rom type="file" offset="0x15">JAPAN-M.XMI</rom>
+			<rom type="file" offset="0x16">JAZZ-M.XMI</rom>
+			<rom type="file" offset="0x17">MUZAK-M.XMI</rom>
+			<rom type="file" offset="0x18">MYSTIC-M.XMI</rom>
+			<rom type="file" offset="0x19">NEWAGE-M.XMI</rom>
+			<rom type="file" offset="0x1A">POP-M.XMI</rom>
+			<rom type="file" offset="0x1B">PUNK-M.XMI</rom>
+			<rom type="file" offset="0x1C">ROCK-M.XMI</rom>
+			<rom type="file" offset="0x1D">SLEEP-M.XMI</rom>
+			<rom type="file" offset="0x1E">TECH-M.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE LOADMT32.XMI MT32MPU.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">THEME</title>
+			<title code="0x1100">1920S</title>
+			<title code="0x1200">CLASS</title>
+			<title code="0x1300">COUNTY</title>
+			<title code="0x1400">EASY</title>
+			<title code="0x1500">JAPAN</title>
+			<title code="0x1600">JAZZ</title>
+			<title code="0x1700">MUZAK</title>
+			<title code="0x1800">MYSTIC</title>
+			<title code="0x1900">NEWAGE</title>
+			<title code="0x1A00">POP</title>
+			<title code="0x1B00">PUNK</title>
+			<title code="0x1C00">ROCK</title>
+			<title code="0x1D00">SLEEP</title>
+			<title code="0x1E00">TECH</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rags to Riches: The Financial Market Simulation (SC-55)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="4"/>
+		</options>
+		<romlist archive="ragstoriches_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">THEME-S.XMI</rom>
+			<rom type="file" offset="0x11">1920S-S.XMI</rom>
+			<rom type="file" offset="0x12">CLASS-S.XMI</rom>
+			<rom type="file" offset="0x13">COUNTY-S.XMI</rom>
+			<rom type="file" offset="0x14">EASY-S.XMI</rom>
+			<rom type="file" offset="0x15">JAPAN-S.XMI</rom>
+			<rom type="file" offset="0x16">JAZZ-S.XMI</rom>
+			<rom type="file" offset="0x17">MUZAK-S.XMI</rom>
+			<rom type="file" offset="0x18">MYSTIC-S.XMI</rom>
+			<rom type="file" offset="0x19">NEWAGE-S.XMI</rom>
+			<rom type="file" offset="0x1A">POP-S.XMI</rom>
+			<rom type="file" offset="0x1B">PUNK-S.XMI</rom>
+			<rom type="file" offset="0x1C">ROCK-S.XMI</rom>
+			<rom type="file" offset="0x1D">SLEEP-S.XMI</rom>
+			<rom type="file" offset="0x1E">TECH-S.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">THEME</title>
+			<title code="0x1100">1920S</title>
+			<title code="0x1200">CLASS</title>
+			<title code="0x1300">COUNTY</title>
+			<title code="0x1400">EASY</title>
+			<title code="0x1500">JAPAN</title>
+			<title code="0x1600">JAZZ</title>
+			<title code="0x1700">MUZAK</title>
+			<title code="0x1800">MYSTIC</title>
+			<title code="0x1900">NEWAGE</title>
+			<title code="0x1A00">POP</title>
+			<title code="0x1B00">PUNK</title>
+			<title code="0x1C00">ROCK</title>
+			<title code="0x1D00">SLEEP</title>
+			<title code="0x1E00">TECH</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Rags to Riches: The Financial Market Simulation (Vermouth)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="6"/>
+			<option name="midiout_mix" value="0x100"/>
+		</options>
+		<romlist archive="ragstoriches_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">THEME-S.XMI</rom>
+			<rom type="file" offset="0x11">1920S-S.XMI</rom>
+			<rom type="file" offset="0x12">CLASS-S.XMI</rom>
+			<rom type="file" offset="0x13">COUNTY-S.XMI</rom>
+			<rom type="file" offset="0x14">EASY-S.XMI</rom>
+			<rom type="file" offset="0x15">JAPAN-S.XMI</rom>
+			<rom type="file" offset="0x16">JAZZ-S.XMI</rom>
+			<rom type="file" offset="0x17">MUZAK-S.XMI</rom>
+			<rom type="file" offset="0x18">MYSTIC-S.XMI</rom>
+			<rom type="file" offset="0x19">NEWAGE-S.XMI</rom>
+			<rom type="file" offset="0x1A">POP-S.XMI</rom>
+			<rom type="file" offset="0x1B">PUNK-S.XMI</rom>
+			<rom type="file" offset="0x1C">ROCK-S.XMI</rom>
+			<rom type="file" offset="0x1D">SLEEP-S.XMI</rom>
+			<rom type="file" offset="0x1E">TECH-S.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">THEME</title>
+			<title code="0x1100">1920S</title>
+			<title code="0x1200">CLASS</title>
+			<title code="0x1300">COUNTY</title>
+			<title code="0x1400">EASY</title>
+			<title code="0x1500">JAPAN</title>
+			<title code="0x1600">JAZZ</title>
+			<title code="0x1700">MUZAK</title>
+			<title code="0x1800">MYSTIC</title>
+			<title code="0x1900">NEWAGE</title>
+			<title code="0x1A00">POP</title>
+			<title code="0x1B00">PUNK</title>
+			<title code="0x1C00">ROCK</title>
+			<title code="0x1D00">SLEEP</title>
+			<title code="0x1E00">TECH</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Bard's Tale Construction Set (YMF262)</name>
+		<driver type="soundblaster16">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl3_mix" value="0x180"/>
+		</options>
+		<romlist archive="btcset_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="9">SBP2FM.ADV</rom>
+			<rom type="file" offset="10">SAMPLE.OPL</rom>
+			<rom type="file" offset="0x10">SB_BARD1.XMI</rom>
+			<rom type="file" offset="0x11">SB_BARD2.XMI</rom>
+			<rom type="file" offset="0x12">SB_BARD3.XMI</rom>
+			<rom type="file" offset="0x13">SB_BARD4.XMI</rom>
+			<rom type="file" offset="0x14">SB_BARD5.XMI</rom>
+			<rom type="file" offset="0x15">SB_BARD6.XMI</rom>
+			<rom type="file" offset="0x16">SB_BARD7.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE SBP2FM.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Bard's Tale Construction Set (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="btcset_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">BARD1.XMI</rom>
+			<rom type="file" offset="0x11">BARD2.XMI</rom>
+			<rom type="file" offset="0x12">BARD3.XMI</rom>
+			<rom type="file" offset="0x13">BARD4.XMI</rom>
+			<rom type="file" offset="0x14">BARD5.XMI</rom>
+			<rom type="file" offset="0x15">BARD6.XMI</rom>
+			<rom type="file" offset="0x16">BARD7.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] The Bard's Tale Construction Set (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Interplay</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="btcset_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">BARD1.XMI</rom>
+			<rom type="file" offset="0x11">BARD2.XMI</rom>
+			<rom type="file" offset="0x12">BARD3.XMI</rom>
+			<rom type="file" offset="0x13">BARD4.XMI</rom>
+			<rom type="file" offset="0x14">BARD5.XMI</rom>
+			<rom type="file" offset="0x15">BARD6.XMI</rom>
+			<rom type="file" offset="0x16">BARD7.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Music 1</title>
+			<title code="0x1100">Music 2</title>
+			<title code="0x1200">Music 3</title>
+			<title code="0x1300">Music 4</title>
+			<title code="0x1400">Music 5</title>
+			<title code="0x1500">Music 6</title>
+			<title code="0x1600">Music 7</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[SNES] Robocop versus Terminator (SPC700)</name>
+		<driver type="spc">snes</driver>
+		<driveralias type="SNES">Interplay</driveralias>
+		<options>
+			<option name="apu_mix" value="0x200"/>
+		</options>
+		<romlist archive="rvt_spc">
+			<rom type="data" offset="0x01">rvt-01.spc</rom>
+			<rom type="data" offset="0x02">rvt-02.spc</rom>
+			<rom type="data" offset="0x03">rvt-03.spc</rom>
+			<rom type="data" offset="0x04">rvt-04.spc</rom>
+			<rom type="data" offset="0x05">rvt-05.spc</rom>
+			<rom type="data" offset="0x06">rvt-06.spc</rom>
+			<rom type="data" offset="0x07">rvt-07.spc</rom>
+			<rom type="data" offset="0x08">rvt-08.spc</rom>
+			<rom type="data" offset="0x09">rvt-09.spc</rom>
+			<rom type="data" offset="0x0a">rvt-10.spc</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Title</title>
+			<title code="0x02">Cutscene 1</title>
+			<title code="0x03">Robo-Killer</title>
+			<title code="0x04">Rockin' to the Stalkin'</title>
+			<title code="0x05">Hard Rock Carnage</title>
+			<title code="0x06">Coming Up Behind Ya!</title>
+			<title code="0x07">Cutscene 2 &amp; 3</title>
+			<title code="0x08">Completed</title>
+			<title code="0x09">Continue?</title>
+			<title code="0x0a">Ending</title>
+		</titlelist>
+	</game>
+</gamelist>

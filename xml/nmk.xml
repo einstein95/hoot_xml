@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- NMK -->
+	<game>
+		<name>[Tecmo16] Riot (雷軋斗) (YM2151+MSM6295)</name>
+		<driver type="tecmo16">tecmo</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<romlist archive="riot">
+			<rom type="code" offset="0x00000">7.ic17</rom>
+			<rom type="pcm" offset="0x00000">8.ic18</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x6f" max="0x74" extcode="1">BGM #%02X</range>
+			<range min="0x76" max="0x83" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[NMK16] GunNail (YM2203+MSM6295x2)</name>
+		<driver type="nmk004">nmk</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<romlist archive="nmk004,gunnail">
+			<rom type="irom" offset="0x000000">nmk004.bin</rom>
+			<rom type="code" offset="0x000000">92077_2.u101</rom>
+			<rom type="pcm1" offset="0x000000">92077-5.u56</rom>
+			<rom type="pcm2" offset="0x000000">92077-6.u57</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x14" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[NMK16] Hacha Mecha Fighter (ハーカメカファイター) (YM2203+MSM6295x2)</name>
+		<driver type="nmk004">nmk</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<romlist archive="nmk004,hachamf">
+			<rom type="irom" offset="0x000000">nmk004.bin</rom>
+			<rom type="code" offset="0x000000">1.70</rom>
+			<rom type="pcm1" offset="0x000000">91076-2.46</rom>
+			<rom type="pcm2" offset="0x000000">91076-3.45</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x01" max="0x0c" extcode="1">BGM #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[NMK16] Thunder Dragon (サンダードラゴン) (YM2203+MSM6295x2)</name>
+		<driver type="nmk004">nmk</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<romlist archive="nmk004,tdragon">
+			<rom type="irom" offset="0x000000">nmk004.bin</rom>
+			<rom type="code" offset="0x000000">91070.1</rom>
+			<rom type="pcm1" offset="0x000000">91070.3</rom>
+			<rom type="pcm2" offset="0x000000">91070.2</rom>
+		</romlist>
+		<titlelist>
+			<title code="0xa4">Title</title> 
+			<title code="0xe0">Credit</title> 
+			<title code="0xa1">BGM 1</title> 
+			<title code="0xa2">BGM 2</title> 
+			<title code="0xa3">Boss</title> 
+			<title code="0xa5">Demo</title> 
+			<title code="0xa7">Staff Roll</title> 
+			<title code="0xa8">Name Entry</title> 
+			<title code="0xe2">Game Over</title> 
+		</titlelist>
+	</game>
+	<game>
+		<name>[NMK16] Thunder Dragon 2 (サンダードラゴン2) (YM2203+MSM6295)</name>
+		<driver type="tdragon2">nmk</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<options>
+			<option name="opn_mix" value="0x5c0"/>
+			<option name="pcm1_mix" value="0x057"/>
+			<option name="pcm2_mix" value="0x057"/>
+		</options>
+		<romlist archive="tdragon2">
+			<rom type="code" offset="0x00000">5.bin</rom>
+			<rom type="pcm1" offset="0x000000">ww930916.4</rom>
+			<rom type="pcm2" offset="0x000000">ww930915.3</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x99">Title</title>
+			<title code="0xb0">Credit</title>
+			<title code="0x02">Ready For The Battle [After Inserting Coin] (Ready For The Battle [コイン投入後BGM])</title>
+			<title code="0x03">Fly To Live I [Stage 1, 8 BGM]</title>
+			<title code="0x05">Live To Fly I [Stage 2, 6 BGM]</title>
+			<title code="0x04">Fly To Live II [Stage 3 BGM]</title>
+			<title code="0x06">Live To Fly II [Stage 4 BGM]</title>
+			<title code="0x11">Fly To Live III [Stage 5 BGM]</title>
+			<title code="0x10">Live To Fly III [Stage 7 BGM]</title>
+			<title code="0x07">Impatience #3 [Boss BGM]</title>
+			<title code="0x09">Marginal Attack [Last Boss BGM]</title>
+			<title code="0x0b">Epitaph [Ending BGM]</title>
+			<title code="0x0c">Day Dream [Ranking BGM]</title>
+			<title code="0xba">Over [Game Over]</title>
+			<range min="0xc0" max="0xd5" extcode="1">Voice #%02X</range>
+			<range min="0x80" max="0x88" extcode="1">SFX #%02X</range>
+			<range min="0x90" max="0x96" extcode="1">SFX #%02X</range>
+			<title code="0x98">SFX #98</title>
+			<range min="0xa0" max="0xa9" extcode="1">SFX #%02X</range>
+			<range min="0xb1" max="0xb9" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Neo Geo] Zed Blade (オペレーションラグナロク) (YM2610)</name>
+		<driver type="generic">neogeo</driver>
+		<driveralias type="Arcade">NMK</driveralias>
+		<options>
+			<option name="adpcm_size" value="0x800000"/>
+		</options>
+		<romlist archive="zedblade">
+			<rom type="code" offset="0x00000">076-m1.m1</rom>
+			<rom type="adpcma" offset="0x000000">076-v1.v1</rom>
+			<rom type="adpcma" offset="0x200000">076-v2.v2</rom>
+			<rom type="adpcma" offset="0x400000">076-v3.v3</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x02">Neo Geo Logo</title>
+			<title code="0x2d">O.P.R. (Opening / Ending)</title>
+			<title code="0x7f">Credit Inserted</title>
+			<title code="0x21">Can't Wait 30 Sec. (Title)</title>
+			<title code="0x22">Konstruktion (Select / Stage Demo)</title>
+			<title code="0x23">Shootaholic -Shockout Mix- (Stage 1, 6 / Credits)</title>
+			<title code="0x24">Universe Blue -Yueez Mix- (Stage 2, 5)</title>
+			<title code="0x25">Bionic Life -Hangup Mix- (Stage 3, 7)</title>
+			<title code="0x26">Asteroid Circus -Leprosy Mix- (Stage 4)</title>
+			<title code="0x2b">Valkyrie -She Likes Gabber Mix- (Stage 8)</title>
+			<title code="0x2a">Termination 4U -Lunatic Mix- (Boss)</title>
+			<title code="0x2e">Game Over</title>
+		</titlelist>
+	</game>
+</gamelist>

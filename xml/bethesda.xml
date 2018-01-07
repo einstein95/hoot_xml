@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Bethesda Softworks -->
+	<game>
+		<name>[PC/AT] Delta V (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Bethesda Softworks</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="deltav_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">SAMPLE.AD</rom>
+			<rom type="file" offset="-1">ADLIB.ADV</rom>
+			<rom type="file" offset="0x10">XMI00000.XMI</rom>
+			<rom type="file" offset="0x11">XMI00010.XMI</rom>
+			<rom type="file" offset="0x12">XMI00013.XMI</rom>
+			<rom type="file" offset="0x13">XMI00009.XMI</rom>
+			<rom type="file" offset="0x14">XMI00006.XMI</rom>
+			<rom type="file" offset="0x15">XMI00007.XMI</rom>
+			<rom type="file" offset="0x16">XMI00008.XMI</rom>
+			<rom type="file" offset="0x17">XMI00033.XMI</rom>
+			<rom type="file" offset="0x18">XMI00018.XMI</rom>
+			<rom type="file" offset="0x19">XMI00032.XMI</rom>
+			<rom type="file" offset="0x1a">XMI00027.XMI</rom>
+			<rom type="file" offset="0x1b">XMI00022.XMI</rom>
+			<rom type="file" offset="0x1c">XMI00017.XMI</rom>
+			<rom type="file" offset="0x1d">XMI00002.XMI</rom>
+			<rom type="file" offset="0x1e">XMI00019.XMI</rom>
+			<rom type="file" offset="0x1f">XMI00020.XMI</rom>
+			<rom type="file" offset="0x20">XMI00025.XMI</rom>
+      <rom type="shell" offset="0">HOOT.EXE NONE ADLIB.ADV</rom>
+		</romlist>
+		<titlelist>
+      <title code="0x1000">Loading...</title>
+			<title code="0x1100">Briefing Room Menu</title>
+			<title code="0x1200">Trace Configuration Menu</title>
+			<title code="0x1300">Sense-Net - BGM 1</title>
+			<title code="0x1400">Sense-Net - BGM 2 (Netrunner)</title>
+			<title code="0x1500">Sense-Net - BGM 3</title>
+			<title code="0x1600">Sense-Net - BGM 4</title>
+			<title code="0x1700">Sense-Net - BGM 5</title>
+			<title code="0x1800">Sense-Net - BGM 6</title>
+			<title code="0x1900">Sense-Net - BGM 7</title>
+			<title code="0x1A00">Sense-Net - BGM 8</title>
+			<title code="0x1B00">Sense-Net - BGM 9 (Last Mission)</title>
+			<title code="0x1C00">Operation Room (Mission Summary)</title>
+			<title code="0x1D00">High Ranking</title>
+			<title code="0x1E00">Reputations</title>
+			<title code="0x1F00">Ending</title>
+			<title code="0x2000">Unused?</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Delta V (GM)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Bethesda Softworks</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="8"/>
+		</options>
+		<romlist archive="deltav_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="-1">MIDI.ADV</rom>
+      <rom type="file" offset="0x10">XMI00021.XMI</rom>
+      <rom type="file" offset="0x11">XMI00011.XMI</rom>
+			<rom type="file" offset="0x12">XMI00012.XMI</rom>
+			<rom type="file" offset="0x13">XMI00004.XMI</rom>
+			<rom type="file" offset="0x14">XMI00001.XMI</rom>
+			<rom type="file" offset="0x15">XMI00005.XMI</rom>
+			<rom type="file" offset="0x16">XMI00003.XMI</rom>
+			<rom type="file" offset="0x17">XMI00031.XMI</rom>
+			<rom type="file" offset="0x18">XMI00028.XMI</rom>
+			<rom type="file" offset="0x19">XMI00029.XMI</rom>
+			<rom type="file" offset="0x1A">XMI00030.XMI</rom>
+			<rom type="file" offset="0x1B">XMI00026.XMI</rom>
+			<rom type="file" offset="0x1C">XMI00016.XMI</rom>
+			<rom type="file" offset="0x1D">XMI00014.XMI</rom>
+			<rom type="file" offset="0x1E">XMI00015.XMI</rom>
+			<rom type="file" offset="0x1F">XMI00023.XMI</rom>
+			<rom type="file" offset="0x20">XMI00024.XMI</rom>
+      <rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1000">Loading...</title>
+			<title code="0x1100">Briefing Room Menu</title>
+			<title code="0x1200">Trace Configuration Menu</title>
+			<title code="0x1300">Sense-Net - BGM 1</title>
+			<title code="0x1400">Sense-Net - BGM 2 (Netrunner)</title>
+			<title code="0x1500">Sense-Net - BGM 3</title>
+			<title code="0x1600">Sense-Net - BGM 4</title>
+			<title code="0x1700">Sense-Net - BGM 5</title>
+			<title code="0x1800">Sense-Net - BGM 6</title>
+			<title code="0x1900">Sense-Net - BGM 7</title>
+			<title code="0x1A00">Sense-Net - BGM 8</title>
+			<title code="0x1B00">Sense-Net - BGM 9 (Last Mission)</title>
+			<title code="0x1C00">Operation Room (Mission Summary)</title>
+			<title code="0x1D00">High Ranking</title>
+			<title code="0x1E00">Reputations</title>
+			<title code="0x1F00">Ending</title>
+			<title code="0x2000">Unused?</title>
+    </titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2006/11/09">
+	<!-- //nec -->
+	<game>
+		<name>[PC-8801] PC-8801mkIIFR Demonstration (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">NEC</driveralias>
+		<options>
+			<option name="mdata_addr" value="0xa000"/>
+		</options>
+		<romlist archive="88frdemo">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x0100">PROG</rom>
+			<rom type="bgm" offset="0x00">MUS00</rom>
+			<rom type="bgm" offset="0x01">MUS01</rom>
+			<rom type="bgm" offset="0x02">MUS02</rom>
+			<rom type="bgm" offset="0x03">MUS03</rom>
+			<rom type="bgm" offset="0x04">MUS04</rom>
+			<rom type="bgm" offset="0x05">MUS05</rom>
+			<rom type="bgm" offset="0x06">MUS06</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">ハイスクールはダンステリア   / Cyndi Lauper</title>
+			<title code="0x05">ねこふんじゃった             / 作曲者未詳</title>
+			<title code="0x04">Material Girl                / Madonna</title>
+			<title code="0x00">クラリネットをこわしちゃった / フランス民謡</title>
+			<title code="0x02">Hotel California             / Eagles</title>
+			<title code="0x06">Zoom                         / Casiopea</title>
+			<title code="0x03">Blue Lagoon                  / 高中正義</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] PC-8801FH Demonstration (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">NEC</driveralias>
+		<romlist archive="88fhdemo">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0xa000">DRIVER</rom>
+			<rom type="code" offset="0xc000">MUSIC</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Waltz of the Flowers (花のワルツ)    / Peter Ilyich Tchaikovsky</title>
+			<title code="0x00">Like A Virgin / Madonna</title>
+			<title code="0x02">Firecracker   / Yellow Magic Orchestra</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] PC-8801MA2 Shop Demonstration Disk (PC-8801MA2 店頭用デモンストレーションディスク) (YM2608)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="PC-8801">NEC</driveralias>
+		<options>
+			<option name="use_pcmx8" value="0x01"/>
+		</options>
+		<romlist archive="88ma2shopdemo">
+			<rom type="code" offset="0x0000">PATCH</rom>
+			<rom type="code" offset="0x9600">mdata.bin</rom>
+			<rom type="code" offset="0xa600">ssd.bin</rom>
+			<rom type="code" offset="0xb600">main.bin</rom>
+			<rom type="adpcm" offset="0x00000">ADPCM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">夢の中へ (FM音源)</title>
+			<title code="0x01">夢の中へ (ADPCM)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] CD Takara Hako (CDたから箱) (YM2608)</name>
+		<driver type="opna">pc88</driver>
+		<driveralias type="PC-8801">NEC</driveralias>
+		<options>
+			<option name="init_pc"    value="0x8000"/>
+			<option name="mdata_addr" value="0x0000"/>
+			<option name="mdata_size" value="0x7000"/>
+			<option name="mfile_size" value="0x7000"/>
+		</options>
+		<romlist archive="cdtakara">
+			<rom type="code" offset="0x8000">PATCH</rom>
+			<rom type="bgm" offset="0x00">TITLE</rom>
+			<rom type="bgm" offset="0x01">MENU</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Title (タイトル)</title>
+			<title code="0x01">Menu (メニュー)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-8801] CD Takara Hako (CDたから箱) (YM2203)</name>
+		<driver type="opn">pc88</driver>
+		<driveralias type="PC-8801">NEC</driveralias>
+		<options>
+			<option name="init_pc"    value="0x8000"/>
+			<option name="mdata_addr" value="0x0000"/>
+			<option name="mdata_size" value="0x7000"/>
+			<option name="mfile_size" value="0x7000"/>
+		</options>
+		<romlist archive="cdtakara">
+			<rom type="code" offset="0x0000">TITLE</rom>
+			<rom type="code" offset="0x8000">PATCH</rom>
+			<rom type="bgm" offset="0x00">TITLE</rom>
+			<rom type="bgm" offset="0x01">MENU</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Title (タイトル)</title>
+			<title code="0x01">Menu (メニュー)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] PC-88VA Demonstration (YM2203)</name>
+		<driver type="opn">pc88vados</driver>
+		<driveralias type="PC-88VA">NEC</driveralias>
+		<romlist archive="demo_va">
+			<rom type="file" offset="-1">DEMO2.SYS</rom>
+			<rom type="file" offset="-1">shangva.com</rom>
+			<rom type="device" offset="0">DEMO2.SYS</rom>
+			<rom type="shell" offset="0">shangva</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">Eine kleine Nachtmusik</title>
+		<!--	<title code="0x06">Eine kleine Nachtmusik</title> -->
+			<title code="0x07">Ride of the Valkyries</title>
+		<!--	<title code="0x08">Ride of the Valkyries</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] R-Type (R-タイプ) (YM2608)</name>
+		<driver type="opna">pc88vados</driver>
+		<driveralias type="PC-88VA">NEC</driveralias>
+		<romlist archive="rtypeva">
+			<rom type="file" offset="-1">rtype.com</rom>
+			<rom type="file" offset="-1">MAIN.EXE</rom>
+			<rom type="file" offset="0x10">JOINT.0B</rom>
+			<rom type="file" offset="0x11">RT02.0B</rom>
+			<rom type="file" offset="0x12">RT03.0B</rom>
+			<rom type="file" offset="0x13">RT04.0B</rom>
+			<rom type="file" offset="0x14">RT05.0B</rom>
+			<rom type="file" offset="0x15">RT06.0B</rom>
+			<rom type="file" offset="0x16">RT07.0B</rom>
+			<rom type="file" offset="0x17">RT08.0B</rom>
+			<rom type="file" offset="0x18">RTCLR2.0B</rom>
+			<rom type="file" offset="0x19">RTOP01.0B</rom>
+			<rom type="file" offset="0x1a">RTOPS2.0B</rom>
+			<rom type="file" offset="0x1b">RTSCOR.0B</rom>
+			<rom type="file" offset="0x1c">TITLE4.0B</rom>
+			<rom type="file" offset="0x1d">BOSS.0B</rom>
+			<rom type="file" offset="0x1e">CLEAR.0B</rom>
+			<rom type="file" offset="0x1f">GAMEOVER.0B</rom>
+			<rom type="file" offset="0x20">ENDING.0B</rom>
+			<rom type="file" offset="0x21">EFFECT.0B</rom>
+			<rom type="shell" offset="0">rtype</rom>
+		</romlist>
+		<titlelist>
+		<!--	<title code="0x01010019">Opening (オープニング)</title> -->
+			<title code="0x0001001a">Opening (オープニング)</title>
+			<title code="0x01000010">Start ～ Battle Theme [Stage 1]</title>
+			<title code="0x0100001c">Battle Theme [Stage 1]</title>
+			<title code="0x01000011">Monster Beat [Stage 2]</title>
+			<title code="0x01000012">Battle Pressure [Stage 3]</title>
+			<title code="0x01000013">ブツ・ブツ… [Stage 4]</title>
+			<title code="0x01000014">洞窟に潜むモンスター [Stage 5]</title>
+			<title code="0x01000015">Scramble Crossroad [Stage 6]</title>
+			<title code="0x01000016">夢の島 (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
+			<title code="0x01000017">母胎 [Stage 8]</title>
+			<title code="0x01010018">Continue</title>
+			<title code="0x0100001b">Scoring [Name Entry]</title>
+			<title code="0x0100001d">Boss Theme [Boss]</title>
+			<title code="0x0101001e">Return in Triumph [Stage Clear]</title>
+			<title code="0x01000020">Like a Hero [Ending]</title>
+			<title code="0x0101001f">The End of a War [Game Over]</title>
+		<!--	<title code="0x01010021">効果音</title> -->
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-88VA] R-Type (R-タイプ) (YM2203)</name>
+		<driver type="opn">pc88vados</driver>
+		<driveralias type="PC-88VA">NEC</driveralias>
+		<romlist archive="rtypeva">
+			<rom type="file" offset="-1">rtype.com</rom>
+			<rom type="file" offset="-1">MAIN.EXE</rom>
+			<rom type="file" offset="0x10">JOINT.0B</rom>
+			<rom type="file" offset="0x11">RT02.0B</rom>
+			<rom type="file" offset="0x12">RT03.0B</rom>
+			<rom type="file" offset="0x13">RT04.0B</rom>
+			<rom type="file" offset="0x14">RT05.0B</rom>
+			<rom type="file" offset="0x15">RT06.0B</rom>
+			<rom type="file" offset="0x16">RT07.0B</rom>
+			<rom type="file" offset="0x17">RT08.0B</rom>
+			<rom type="file" offset="0x18">RTCLR2.0B</rom>
+			<rom type="file" offset="0x19">RTOP01.0B</rom>
+			<rom type="file" offset="0x1a">RTOPS2.0B</rom>
+			<rom type="file" offset="0x1b">RTSCOR.0B</rom>
+			<rom type="file" offset="0x1c">TITLE4.0B</rom>
+			<rom type="file" offset="0x1d">BOSS.0B</rom>
+			<rom type="file" offset="0x1e">CLEAR.0B</rom>
+			<rom type="file" offset="0x1f">GAMEOVER.0B</rom>
+			<rom type="file" offset="0x20">ENDING.0B</rom>
+			<rom type="file" offset="0x21">EFFECT.0B</rom>
+			<rom type="shell" offset="0">rtype</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01010019">Opening (オープニング)</title>
+		<!--	<title code="0x0001001a">Opening (オープニング)</title> -->
+			<title code="0x01000010">Start ～ Battle Theme [Stage 1]</title>
+			<title code="0x0100001c">Battle Theme [Stage 1]</title>
+			<title code="0x01000011">Monster Beat [Stage 2]</title>
+			<title code="0x01000012">Battle Pressure [Stage 3]</title>
+			<title code="0x01000013">ブツ・ブツ… [Stage 4]</title>
+			<title code="0x01000014">洞窟に潜むモンスター [Stage 5]</title>
+			<title code="0x01000015">Scramble Crossroad [Stage 6]</title>
+			<title code="0x01000016">夢の島 (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
+			<title code="0x01000017">母胎 [Stage 8]</title>
+			<title code="0x01010018">Continue</title>
+			<title code="0x0100001b">Scoring [Name Entry]</title>
+			<title code="0x0100001d">Boss Theme [Boss]</title>
+			<title code="0x0101001e">Return in Triumph [Stage Clear]</title>
+			<title code="0x01000020">Like a Hero [Ending]</title>
+			<title code="0x0101001f">The End of a War [Game Over]</title>
+		<!--	<title code="0x01010021">効果音</title> -->
+		</titlelist>
+	</game>
+</gamelist>

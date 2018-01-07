@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Disney -->
+	<game>
+		<name>[PC/AT] Stunt Island (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Disney</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="stuntisland_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">ADLIB.ADV</rom>
+			<rom type="file" offset="0x0A">SAMPLE.AD</rom>
+			<rom type="file" offset="0x10">SI01A.XMI</rom>
+			<rom type="file" offset="0x11">SI02A.XMI</rom>
+			<rom type="file" offset="0x12">SI03A.XMI</rom>
+			<rom type="file" offset="0x13">SI04A.XMI</rom>
+			<rom type="file" offset="0x14">SI05A.XMI</rom>
+			<rom type="file" offset="0x15">SI06A.XMI</rom>
+			<rom type="file" offset="0x16">SI07A.XMI</rom>
+			<rom type="file" offset="0x17">SI08A.XMI</rom>
+			<rom type="file" offset="0x18">SI09A.XMI</rom>
+			<rom type="file" offset="0x19">SI10A.XMI</rom>
+			<rom type="file" offset="0x1A">SI11A.XMI</rom>
+			<rom type="file" offset="0x1B">SI12A.XMI</rom>
+			<rom type="file" offset="0x1C">SI13A.XMI</rom>
+			<rom type="file" offset="0x1D">SI14A.XMI</rom>
+			<rom type="file" offset="0x1E">SI15A.XMI</rom>
+			<rom type="file" offset="0x1F">SI16A.XMI</rom>
+			<rom type="file" offset="0x20">SI17A.XMI</rom>
+			<rom type="file" offset="0x21">SI18A.XMI</rom>
+			<rom type="file" offset="0x22">SI19A.XMI</rom>
+			<rom type="file" offset="0x23">SI20A.XMI</rom>
+			<rom type="file" offset="0x24">SI21A.XMI</rom>
+			<rom type="file" offset="0x25">SI22A.XMI</rom>
+			<rom type="file" offset="0x26">SI23A.XMI</rom>
+			<rom type="file" offset="0x27">SI24A.XMI</rom>
+			<rom type="file" offset="0x28">SI25A.XMI</rom>
+			<rom type="file" offset="0x29">SI26A.XMI</rom>
+			<rom type="file" offset="0x2A">SI27A.XMI</rom>
+			<rom type="file" offset="0x2B">SI28A.XMI</rom>
+			<rom type="file" offset="0x2C">SI29A.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE ADLIB.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2B00">Theme</title>
+			<title code="0x1000">Action #1</title>
+			<title code="0x1100">Action #2</title>
+			<title code="0x1200">Action #3</title>
+			<title code="0x1300">Bump #1</title>
+			<title code="0x1400">Bump #2</title>
+			<title code="0x1500">Bump #3</title>
+			<title code="0x1600">Bump #4</title>
+			<title code="0x1700">Bump #5</title>
+			<title code="0x1800">Bump #6</title>
+			<title code="0x1900">Bump #7</title>
+			<title code="0x1A00">Bump #8</title>
+			<title code="0x1B00">Chase #1</title>
+			<title code="0x1C00">Chase #2</title>
+			<title code="0x1D00">Chase #3</title>
+			<title code="0x1E00">Country</title>
+			<title code="0x1F00">Generic #1</title>
+			<title code="0x2000">Generic #2</title>
+			<title code="0x2100">Generic #3</title>
+			<title code="0x2200">Generic #4</title>
+			<title code="0x2300">Generic #5</title>
+			<title code="0x2400">Heroic #1</title>
+			<title code="0x2500">Heroic #2</title>
+			<title code="0x2600">Humor #1</title>
+			<title code="0x2700">Humor #2</title>
+			<title code="0x2800">Leave</title>
+			<title code="0x2900">Suspense #1</title>
+			<title code="0x2A00">Suspense #2</title>
+			<title code="0x2C00">Win</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Stunt Island (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Disney</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="stuntisland_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">SI01R.XMI</rom>
+			<rom type="file" offset="0x11">SI02R.XMI</rom>
+			<rom type="file" offset="0x12">SI03R.XMI</rom>
+			<rom type="file" offset="0x13">SI04R.XMI</rom>
+			<rom type="file" offset="0x14">SI05R.XMI</rom>
+			<rom type="file" offset="0x15">SI06R.XMI</rom>
+			<rom type="file" offset="0x16">SI07R.XMI</rom>
+			<rom type="file" offset="0x17">SI08R.XMI</rom>
+			<rom type="file" offset="0x18">SI09R.XMI</rom>
+			<rom type="file" offset="0x19">SI10R.XMI</rom>
+			<rom type="file" offset="0x1A">SI11R.XMI</rom>
+			<rom type="file" offset="0x1B">SI12R.XMI</rom>
+			<rom type="file" offset="0x1C">SI13R.XMI</rom>
+			<rom type="file" offset="0x1D">SI14R.XMI</rom>
+			<rom type="file" offset="0x1E">SI15R.XMI</rom>
+			<rom type="file" offset="0x1F">SI16R.XMI</rom>
+			<rom type="file" offset="0x20">SI17R.XMI</rom>
+			<rom type="file" offset="0x21">SI18R.XMI</rom>
+			<rom type="file" offset="0x22">SI19R.XMI</rom>
+			<rom type="file" offset="0x23">SI20R.XMI</rom>
+			<rom type="file" offset="0x24">SI21R.XMI</rom>
+			<rom type="file" offset="0x25">SI22R.XMI</rom>
+			<rom type="file" offset="0x26">SI23R.XMI</rom>
+			<rom type="file" offset="0x27">SI24R.XMI</rom>
+			<rom type="file" offset="0x28">SI25R.XMI</rom>
+			<rom type="file" offset="0x29">SI26R.XMI</rom>
+			<rom type="file" offset="0x2A">SI27R.XMI</rom>
+			<rom type="file" offset="0x2B">SI28R.XMI</rom>
+			<rom type="file" offset="0x2C">SI29R.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2B00">Theme</title>
+			<title code="0x1000">Action #1</title>
+			<title code="0x1100">Action #2</title>
+			<title code="0x1200">Action #3</title>
+			<title code="0x1300">Bump #1</title>
+			<title code="0x1400">Bump #2</title>
+			<title code="0x1500">Bump #3</title>
+			<title code="0x1600">Bump #4</title>
+			<title code="0x1700">Bump #5</title>
+			<title code="0x1800">Bump #6</title>
+			<title code="0x1900">Bump #7</title>
+			<title code="0x1A00">Bump #8</title>
+			<title code="0x1B00">Chase #1</title>
+			<title code="0x1C00">Chase #2</title>
+			<title code="0x1D00">Chase #3</title>
+			<title code="0x1E00">Country</title>
+			<title code="0x1F00">Generic #1</title>
+			<title code="0x2000">Generic #2</title>
+			<title code="0x2100">Generic #3</title>
+			<title code="0x2200">Generic #4</title>
+			<title code="0x2300">Generic #5</title>
+			<title code="0x2400">Heroic #1</title>
+			<title code="0x2500">Heroic #2</title>
+			<title code="0x2600">Humor #1</title>
+			<title code="0x2700">Humor #2</title>
+			<title code="0x2800">Leave</title>
+			<title code="0x2900">Suspense #1</title>
+			<title code="0x2A00">Suspense #2</title>
+			<title code="0x2C00">Win</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Stunt Island (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Disney</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="stuntisland_at">
+			<rom type="file" offset="-1">HOOT.EXE</rom>
+			<rom type="file" offset="0x9">MIDI.ADV</rom>
+			<rom type="file" offset="0x10">SI01R.XMI</rom>
+			<rom type="file" offset="0x11">SI02R.XMI</rom>
+			<rom type="file" offset="0x12">SI03R.XMI</rom>
+			<rom type="file" offset="0x13">SI04R.XMI</rom>
+			<rom type="file" offset="0x14">SI05R.XMI</rom>
+			<rom type="file" offset="0x15">SI06R.XMI</rom>
+			<rom type="file" offset="0x16">SI07R.XMI</rom>
+			<rom type="file" offset="0x17">SI08R.XMI</rom>
+			<rom type="file" offset="0x18">SI09R.XMI</rom>
+			<rom type="file" offset="0x19">SI10R.XMI</rom>
+			<rom type="file" offset="0x1A">SI11R.XMI</rom>
+			<rom type="file" offset="0x1B">SI12R.XMI</rom>
+			<rom type="file" offset="0x1C">SI13R.XMI</rom>
+			<rom type="file" offset="0x1D">SI14R.XMI</rom>
+			<rom type="file" offset="0x1E">SI15R.XMI</rom>
+			<rom type="file" offset="0x1F">SI16R.XMI</rom>
+			<rom type="file" offset="0x20">SI17R.XMI</rom>
+			<rom type="file" offset="0x21">SI18R.XMI</rom>
+			<rom type="file" offset="0x22">SI19R.XMI</rom>
+			<rom type="file" offset="0x23">SI20R.XMI</rom>
+			<rom type="file" offset="0x24">SI21R.XMI</rom>
+			<rom type="file" offset="0x25">SI22R.XMI</rom>
+			<rom type="file" offset="0x26">SI23R.XMI</rom>
+			<rom type="file" offset="0x27">SI24R.XMI</rom>
+			<rom type="file" offset="0x28">SI25R.XMI</rom>
+			<rom type="file" offset="0x29">SI26R.XMI</rom>
+			<rom type="file" offset="0x2A">SI27R.XMI</rom>
+			<rom type="file" offset="0x2B">SI28R.XMI</rom>
+			<rom type="file" offset="0x2C">SI29R.XMI</rom>
+			<rom type="shell" offset="0">HOOT.EXE NONE MIDI.ADV</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2B00">Theme</title>
+			<title code="0x1000">Action #1</title>
+			<title code="0x1100">Action #2</title>
+			<title code="0x1200">Action #3</title>
+			<title code="0x1300">Bump #1</title>
+			<title code="0x1400">Bump #2</title>
+			<title code="0x1500">Bump #3</title>
+			<title code="0x1600">Bump #4</title>
+			<title code="0x1700">Bump #5</title>
+			<title code="0x1800">Bump #6</title>
+			<title code="0x1900">Bump #7</title>
+			<title code="0x1A00">Bump #8</title>
+			<title code="0x1B00">Chase #1</title>
+			<title code="0x1C00">Chase #2</title>
+			<title code="0x1D00">Chase #3</title>
+			<title code="0x1E00">Country</title>
+			<title code="0x1F00">Generic #1</title>
+			<title code="0x2000">Generic #2</title>
+			<title code="0x2100">Generic #3</title>
+			<title code="0x2200">Generic #4</title>
+			<title code="0x2300">Generic #5</title>
+			<title code="0x2400">Heroic #1</title>
+			<title code="0x2500">Heroic #2</title>
+			<title code="0x2600">Humor #1</title>
+			<title code="0x2700">Humor #2</title>
+			<title code="0x2800">Leave</title>
+			<title code="0x2900">Suspense #1</title>
+			<title code="0x2A00">Suspense #2</title>
+			<title code="0x2C00">Win</title>
+		</titlelist>
+	</game>
+</gamelist>

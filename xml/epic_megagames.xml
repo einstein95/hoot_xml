@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- Epic Megagames -->
+	<game>
+		<name>[PC/AT] Brix (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="brix_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">SFILE1.BRX</rom>
+			<rom type="file" offset="0x11">SFILE2.BRX</rom>
+			<rom type="file" offset="0x12">SFILE3.BRX</rom>
+			<rom type="file" offset="0x1e">IGOR015.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Highway Hunter (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="hhunter_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">INTRO.CMF</rom>
+			<rom type="file" offset="0x11">END.CMF</rom>
+			<rom type="file" offset="0x12">GAMEOVER.CMF</rom>
+			<rom type="file" offset="0x13">ROAD1.CMF</rom>
+			<rom type="file" offset="0x14">ROAD2.CMF</rom>
+			<rom type="file" offset="0x15">ROAD3.CMF</rom>
+			<rom type="file" offset="0x16">ROAD4.CMF</rom>
+			<rom type="file" offset="0x17">ROAD5.CMF</rom>
+			<rom type="file" offset="0x18">ROAD6.CMF</rom>
+			<rom type="file" offset="0x19">ROAD7.CMF</rom>
+			<rom type="file" offset="0x1a">ROAD8.CMF</rom>
+			<rom type="file" offset="0x1b">ROAD9.CMF</rom>
+			<rom type="file" offset="0x1c">ROAD10.CMF</rom>
+			<rom type="file" offset="0x1d">ROAD11.CMF</rom>
+			<rom type="file" offset="0x1e">ROAD12.CMF</rom>
+			<rom type="file" offset="0x1f">RUSSIA.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">INTRO</title>
+			<title code="0x11">END</title>
+			<title code="0x12">GAME OVER</title>
+			<title code="0x13">ROAD 1</title>
+			<title code="0x14">ROAD 2</title>
+			<title code="0x15">ROAD 3</title>
+			<title code="0x16">ROAD 4</title>
+			<title code="0x17">ROAD 5</title>
+			<title code="0x18">ROAD 6</title>
+			<title code="0x19">ROAD 7</title>
+			<title code="0x1a">ROAD 8</title>
+			<title code="0x1b">ROAD 9</title>
+			<title code="0x1c">ROAD 10</title>
+			<title code="0x1d">ROAD 11</title>
+			<title code="0x1e">ROAD 12</title>
+			<title code="0x1f">RUSSIA</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Jill of the Jungle 1-3 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x180"/>
+		</options>
+		<romlist archive="jill_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">ACTION.CMF</rom>
+			<rom type="file" offset="0x11">ALIEN.CMF</rom>
+			<rom type="file" offset="0x12">BONZO.CMF</rom>
+			<rom type="file" offset="0x13">CUBIST.CMF</rom>
+			<rom type="file" offset="0x14">DAN.CMF</rom>
+			<rom type="file" offset="0x15">DEEPEVIL.CMF</rom>
+			<rom type="file" offset="0x16">DESERT.CMF</rom>
+			<rom type="file" offset="0x17">DUNGO.CMF</rom>
+			<rom type="file" offset="0x18">FUNKY.CMF</rom>
+			<rom type="file" offset="0x19">IT.CMF</rom>
+			<rom type="file" offset="0x1a">JUPITER.CMF</rom>
+			<rom type="file" offset="0x1b">KUNTAMON.CMF</rom>
+			<rom type="file" offset="0x1c">MOBYDICK.CMF</rom>
+			<rom type="file" offset="0x1d">NEOCLASS.CMF</rom>
+			<rom type="file" offset="0x1e">OMINOUS.CMF</rom>
+			<rom type="file" offset="0x1f">PEAKS.CMF</rom>
+			<rom type="file" offset="0x20">SEVEN.CMF</rom>
+			<rom type="file" offset="0x21">SPIDERS.CMF</rom>
+			<rom type="file" offset="0x22">STEALTH.CMF</rom>
+			<rom type="file" offset="0x23">UNDRGRND.CMF</rom>
+			<rom type="file" offset="0x24">WILD.CMF</rom>
+			<rom type="file" offset="0x25">ZEPPELIN.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x18">Funky</title>
+			<title code="0x25">Zeppelin</title>
+			<title code="0x21">Spiders</title>
+			<title code="0x1e">Ominous</title>
+			<title code="0x14">Dan</title>
+			<title code="0x22">Stealth</title>
+			<title code="0x19">It</title>
+			<title code="0x1a">Jupiter</title>
+			<title code="0x20">Seven</title>
+
+			<title code="0x1f">Peaks</title>
+			<title code="0x13">Cubist</title>
+			<title code="0x10">Action</title>
+			<title code="0x17">Dungo</title>
+			<title code="0x12">Bonzo</title>
+			<title code="0x1c">Moby Dick</title>
+			<title code="0x23">Underground</title>
+
+			<title code="0x14">Dan</title>
+			<title code="0x22">Stealth</title>
+			<title code="0x20">Seven</title>
+			<title code="0x13">Cubist</title>
+			<title code="0x24">Wild</title>
+			<title code="0x1d">Neoclassic</title>
+			<title code="0x1b">Kuntamon</title>
+			<title code="0x16">Desert</title>
+			<title code="0x11">Alien</title>
+			<title code="0x15">Deep Evil</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Kiloblaster 1-3 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="kiloblast_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">SONG_1.CMF</rom>
+			<rom type="file" offset="0x11">SONG_2.CMF</rom>
+			<rom type="file" offset="0x12">SONG_3.CMF</rom>
+			<rom type="file" offset="0x13">SONG_4.CMF</rom>
+			<rom type="file" offset="0x14">SONG_5.CMF</rom>
+			<rom type="file" offset="0x15">SONG_6.CMF</rom>
+			<rom type="file" offset="0x16">SONG_7.CMF</rom>
+			<rom type="file" offset="0x17">SONG_8.CMF</rom>
+			<rom type="file" offset="0x18">SONG_9.CMF</rom>
+			<rom type="file" offset="0x19">SONG_10.CMF</rom>
+			<rom type="file" offset="0x1a">SONG_11.CMF</rom>
+			<rom type="file" offset="0x1b">SONG_12.CMF</rom>
+			<rom type="file" offset="0x1c">SONG_13.CMF</rom>
+			<rom type="file" offset="0x1d">SONG_14.CMF</rom>
+			<rom type="file" offset="0x1e">SONG_15.CMF</rom>
+			<rom type="file" offset="0x1f">SONG_16.CMF</rom>
+			<rom type="file" offset="0x20">SONG_17.CMF</rom>
+			<rom type="file" offset="0x21">SONG_18.CMF</rom>
+			<rom type="file" offset="0x22">SONG_19.CMF</rom>
+			<rom type="file" offset="0x23">SONG_20.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1a">Music 11</title>
+			<title code="0x1b">Music 12</title>
+			<title code="0x1c">Music 13</title>
+			<title code="0x1d">Music 14</title>
+			<title code="0x1e">Music 15</title>
+			<title code="0x1f">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] OverKill (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="overkill_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+			<title code="0x17">BGM #08</title>
+			<title code="0x18">BGM #09</title>
+			<title code="0x19">BGM #10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] OverKill (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="overkill_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+			<title code="0x17">BGM #08</title>
+			<title code="0x18">BGM #09</title>
+			<title code="0x19">BGM #10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] OverKill (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="overkill_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+			<title code="0x17">BGM #08</title>
+			<title code="0x18">BGM #09</title>
+			<title code="0x19">BGM #10</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Solar Winds: The Escape (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="solarwinds_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">BH_MU1.CMF</rom>
+			<rom type="file" offset="0x11">BH_MU2.CMF</rom>
+			<rom type="file" offset="0x12">BH_MU3.CMF</rom>
+			<rom type="file" offset="0x13">BH_MU4.CMF</rom>
+			<rom type="file" offset="0x14">BH_MU5.CMF</rom>
+			<rom type="file" offset="0x15">BH_MU6.CMF</rom>
+			<rom type="file" offset="0x16">BH_MU7.CMF</rom>
+			<rom type="file" offset="0x17">BH_MU8.CMF</rom>
+			<rom type="file" offset="0x18">BH_MU9.CMF</rom>
+			<rom type="file" offset="0x19">BH_MU10.CMF</rom>
+			<rom type="file" offset="0x1a">BH_MU11.CMF</rom>
+			<rom type="file" offset="0x1b">BH_MU12.CMF</rom>
+			<rom type="file" offset="0x1c">BH_MU13.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1a">Music 11</title>
+			<title code="0x1b">Music 12</title>
+			<title code="0x1c">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Solar Winds 2: Universe (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="solarwinds2_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">BH_MU1.CMF</rom>
+			<rom type="file" offset="0x11">BH_MU2.CMF</rom>
+			<rom type="file" offset="0x12">BH_MU3.CMF</rom>
+			<rom type="file" offset="0x13">BH_MU4.CMF</rom>
+			<rom type="file" offset="0x14">BH_MU5.CMF</rom>
+			<rom type="file" offset="0x15">BH_MU6.CMF</rom>
+			<rom type="file" offset="0x16">BH_MU7.CMF</rom>
+			<rom type="file" offset="0x17">BH_MU8.CMF</rom>
+			<rom type="file" offset="0x18">BH_MU9.CMF</rom>
+			<rom type="file" offset="0x19">BH_MU10.CMF</rom>
+			<rom type="file" offset="0x1a">BH_MU11.CMF</rom>
+			<rom type="file" offset="0x1b">BH_MU12.CMF</rom>
+			<rom type="file" offset="0x1c">BH_MU13.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1a">Music 11</title>
+			<title code="0x1b">Music 12</title>
+			<title code="0x1c">Music 13</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Xargon 1-3 (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">Epic Megagames</driveralias>
+		<options>
+			<option name="clockmul" value="4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="xargon_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">FM.DRV</rom>
+			<rom type="file" offset="0x10">SONG_01.CMF</rom>
+			<rom type="file" offset="0x11">SONG_02.CMF</rom>
+			<rom type="file" offset="0x12">SONG_03.CMF</rom>
+			<rom type="file" offset="0x13">SONG_04.CMF</rom>
+			<rom type="file" offset="0x14">SONG_05.CMF</rom>
+			<rom type="file" offset="0x15">SONG_06.CMF</rom>
+			<rom type="file" offset="0x16">SONG_07.CMF</rom>
+			<rom type="file" offset="0x17">SONG_08.CMF</rom>
+			<rom type="file" offset="0x18">SONG_09.CMF</rom>
+			<rom type="file" offset="0x19">SONG_10.CMF</rom>
+			<rom type="file" offset="0x1a">SONG_11.CMF</rom>
+			<rom type="file" offset="0x1b">SONG_12.CMF</rom>
+			<rom type="file" offset="0x1c">SONG_13.CMF</rom>
+			<rom type="file" offset="0x1d">SONG_14.CMF</rom>
+			<rom type="file" offset="0x1e">SONG_15.CMF</rom>
+			<rom type="file" offset="0x1f">SONG_16.CMF</rom>
+			<rom type="file" offset="0x20">SONG_17.CMF</rom>
+			<rom type="file" offset="0x21">SONG_18.CMF</rom>
+			<rom type="file" offset="0x22">SONG_19.CMF</rom>
+			<rom type="file" offset="0x23">SONG_20.CMF</rom>
+			<rom type="file" offset="0x24">SONG_21.CMF</rom>
+			<rom type="file" offset="0x25">SONG_22.CMF</rom>
+			<rom type="file" offset="0x26">SONG_23.CMF</rom>
+			<rom type="file" offset="0x27">SONG_24.CMF</rom>
+			<rom type="file" offset="0x28">SONG_25.CMF</rom>
+			<rom type="file" offset="0x29">SONG_26.CMF</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Music 1</title>
+			<title code="0x11">Music 2</title>
+			<title code="0x12">Music 3</title>
+			<title code="0x13">Music 4</title>
+			<title code="0x14">Music 5</title>
+			<title code="0x15">Music 6</title>
+			<title code="0x16">Music 7</title>
+			<title code="0x17">Music 8</title>
+			<title code="0x18">Music 9</title>
+			<title code="0x19">Music 10</title>
+			<title code="0x1a">Music 11</title>
+			<title code="0x1b">Music 12</title>
+			<title code="0x1c">Music 13</title>
+			<title code="0x1d">Music 14</title>
+			<title code="0x1e">Music 15</title>
+			<title code="0x1f">Music 16</title>
+			<title code="0x20">Music 17</title>
+			<title code="0x21">Music 18</title>
+			<title code="0x22">Music 19</title>
+			<title code="0x23">Music 20</title>
+			<title code="0x24">Music 21</title>
+			<title code="0x25">Music 22</title>
+			<title code="0x26">Music 23</title>
+			<title code="0x27">Music 24</title>
+			<title code="0x28">Music 25</title>
+			<title code="0x29">Music 26</title>
+		</titlelist>
+	</game>
+</gamelist>

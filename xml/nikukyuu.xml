@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //にくきゅう -->
+	<game>
+		<name>[PC-9801] Susume! Choujou Genshou Kenkyuubu!!  (すすめ!超常現象研究部!!) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nikukyuu</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="susum_ck_98">
+			<rom type="file" offset="-1">NA.com</rom>
+			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="0x10">ASIOTO.O</rom>
+			<rom type="file" offset="0x11">CHAIM.O</rom>
+			<rom type="file" offset="0x12">DAN.O</rom>
+			<rom type="file" offset="0x13">DETA.O</rom>
+			<rom type="file" offset="0x14">GAKO.O</rom>
+			<rom type="file" offset="0x15">GESIGESI.O</rom>
+			<rom type="file" offset="0x16">GYO.O</rom>
+			<rom type="file" offset="0x17">HB.O</rom>
+			<rom type="file" offset="0x18">MAZE.O</rom>
+			<rom type="file" offset="0x19">OTL.O</rom>
+			<rom type="file" offset="0x1A">PIA.O</rom>
+			<rom type="file" offset="0x1B">PON.O</rom>
+			<rom type="file" offset="0x1C">SAKU.O</rom>
+			<rom type="file" offset="0x1D">SSK.O</rom>
+			<rom type="file" offset="0x1E">SUI.O</rom>
+			<rom type="file" offset="0x1F">SUIDEKI.O</rom>
+			<rom type="file" offset="0x20">UPPER.O</rom>
+			<rom type="shell" offset="0">NA</rom>
+			<rom type="shell" offset="0">NLP_HOOT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x1B">PON.O</title>
+			<title code="0x11">CHAIM.O</title>
+			<title code="0x10">ASIOTO.O</title>
+			<title code="0x12">DAN.O</title>
+			<title code="0x13">DETA.O</title>
+			<title code="0x14">GAKO.O</title>
+			<title code="0x16">GYO.O</title>
+			<title code="0x17">HB.O</title>
+			<title code="0x18">MAZE.O</title>
+			<title code="0x19">OTL.O</title>
+			<title code="0x1A">PIA.O</title>
+			<title code="0x15">GESIGESI.O</title>
+			<title code="0x1C">SAKU.O</title>
+			<title code="0x1E">SUI.O</title>
+			<title code="0x1F">SUIDEKI.O</title>
+			<title code="0x20">UPPER.O</title>
+			<title code="0x1D">SSK.O</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Suki! (好き!) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nikukyuu</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="suki_98">
+			<rom type="file" offset="-1">NA.com</rom>
+			<rom type="file" offset="-1">NLP_HOOT.COM</rom>
+			<rom type="file" offset="-1">TONES.DTA</rom>
+			<rom type="file" offset="0x10">O1AKI.O</rom>
+			<rom type="file" offset="0x11">O1ANE.O</rom>
+			<rom type="file" offset="0x12">O1CN.O</rom>
+			<rom type="file" offset="0x13">O1ENDING.O</rom>
+			<rom type="file" offset="0x14">O1FUYU.O</rom>
+			<rom type="file" offset="0x15">O1HARU.O</rom>
+			<rom type="file" offset="0x16">O1ICHO.O</rom>
+			<rom type="file" offset="0x17">O1KH.O</rom>
+			<rom type="file" offset="0x18">O1KND.O</rom>
+			<rom type="file" offset="0x19">O1MKT.O</rom>
+			<rom type="file" offset="0x1A">O1OJ.O</rom>
+			<rom type="file" offset="0x1B">O1QE.O</rom>
+			<rom type="file" offset="0x1C">O1RIKU.O</rom>
+			<rom type="file" offset="0x1D">O1SUMM.O</rom>
+			<rom type="file" offset="0x1E">O1TS.O</rom>
+			<rom type="file" offset="0x1F">O1YT.O</rom>
+			<rom type="file" offset="0x20">O2BC.O</rom>
+			<rom type="file" offset="0x21">O2FUKO.O</rom>
+			<rom type="file" offset="0x22">O2KOKU.O</rom>
+			<rom type="file" offset="0x23">O2MATU.O</rom>
+			<rom type="file" offset="0x24">O2NAME.O</rom>
+			<rom type="file" offset="0x25">O2OMK.O</rom>
+			<rom type="file" offset="0x26">O2OPNG.O</rom>
+			<rom type="file" offset="0x27">O2SHO.O</rom>
+			<rom type="file" offset="0x28">O2XM.O</rom>
+			<rom type="file" offset="0x29">O2YASU.O</rom>
+			<rom type="file" offset="0x2A">O3ACMV.O</rom>
+			<rom type="file" offset="0x2B">O3BOXING.O</rom>
+			<rom type="file" offset="0x2C">O3CDMV.O</rom>
+			<rom type="file" offset="0x2D">O3CLS.O</rom>
+			<rom type="file" offset="0x2E">O3ENKA.O</rom>
+			<rom type="file" offset="0x2F">O3HLMV.O</rom>
+			<rom type="file" offset="0x30">O3IDOL.O</rom>
+			<rom type="file" offset="0x31">O3LVMV.O</rom>
+			<rom type="file" offset="0x32">O3PON.O</rom>
+			<rom type="file" offset="0x33">O3PRO.O</rom>
+			<rom type="file" offset="0x34">O3RCRL.O</rom>
+			<rom type="file" offset="0x35">O3SCOR.O</rom>
+			<rom type="file" offset="0x36">O3SHOCK.O</rom>
+			<rom type="file" offset="0x37">O3SSK.O</rom>
+			<rom type="file" offset="0x38">O3YAQ.O</rom>
+			<rom type="shell" offset="0">NA</rom>
+			<rom type="shell" offset="0">NLP_HOOT</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x32">O3PON.O</title>
+			<title code="0x17">なにわおろし (金本 治美)</title>
+			<title code="0x18">見上げる瞳 (間宮 海)</title>
+			<title code="0x1C">スタートライン (日野 都)</title>
+			<title code="0x16">ムーンライト (日野 京子)</title>
+			<title code="0x12">晃耀 (白 玲華)</title>
+			<title code="0x1E">アフタヌーンティー (田沼 鈴江)</title>
+			<title code="0x1F">WET FLOWER (美馬 貴子)</title>
+			<title code="0x1A">微笑み (紅林 円(テーマ1))</title>
+			<title code="0x1B">私はパピヨン (紅林 円(テーマ2))</title>
+			<title code="0x11">TENDERNESS (綾)</title>
+			<title code="0x19">LOVE LOVE まこちゃん (真行寺 誠)</title>
+			<title code="0x23">やぐら (縁日)</title>
+			<title code="0x28">VIRGIN SNOW (クリスマス)</title>
+			<title code="0x27">わびさび (正月)</title>
+			<title code="0x35">Vゴール (サッカー)</title>
+			<title code="0x33">王道 (プロレス)</title>
+			<title code="0x2B">明日のヒガシ (ボクシング)</title>
+			<title code="0x38">DAY GAME (野球)</title>
+			<title code="0x2A">スタージョーンズドラゴン危機一髪 (アクション映画)</title>
+			<title code="0x2C">奥さまはダーリン (コメディ映画)</title>
+			<title code="0x2F">死霊の金曜日 (ホラー映画)</title>
+			<title code="0x31">カサブランカに燃ゆ (恋愛映画)</title>
+			<title code="0x30">ノーザンライトラヴ (アイドルコンサート)</title>
+			<title code="0x34">MUNA-SEA (ロックコンサート)</title>
+			<title code="0x2E">なにわの星 (演歌コンサート)</title>
+			<title code="0x2D">クラシカル (クラシックコンサート)</title>
+			<title code="0x29">MORNING CALL (春休み)</title>
+			<title code="0x15">SLOW STARTER (春)</title>
+			<title code="0x1D">SUMMER VACATION (夏)</title>
+			<title code="0x10">GLOMY SEASON (秋)</title>
+			<title code="0x14">冬物語 (冬)</title>
+			<title code="0x26">はじまるよ! (オープニング)</title>
+			<title code="0x13">笑顔で大好き! (エンディング)</title>
+			<title code="0x21">ブルーなひととき (バッドエンディング)</title>
+			<title code="0x24">BIRTH (名前入力)</title>
+			<title code="0x20">アセンション (Hシーン)</title>
+			<title code="0x25">追想 (おまけCG画面)</title>
+			<title code="0x22">PRAYER (告白のテーマ)</title>
+			<title code="0x37">サプライズ (ショック)</title>
+			<title code="0x36">超ベリバー (ファイナルショック)</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+					 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+				  offset CDATA #IMPLIED
+				  crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- //日本物産 -->
+	<game>
+		<name>[PC-9801] Mahjong Ou Densetsu (麻雀王伝説) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nihon Bussan</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="mjohden_98">
+			<rom type="file" offset="-1">FM.SYS</rom>
+			<rom type="file" offset="-1">NBFM_98.COM</rom>
+			<rom type="device" offset="0">FM.SYS</rom>
+			<rom type="shell" offset="0">nbfm_98</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x010301">BGM #03</title>
+			<title code="0x010401">BGM #04</title>
+			<title code="0x010501">BGM #05</title>
+			<title code="0x010601">BGM #06</title>
+			<title code="0x010701">BGM #07</title>
+			<title code="0x010801">BGM #08</title>
+			<title code="0x010901">BGM #09</title>
+			<title code="0x010A01">BGM #0A</title>
+			<title code="0x010B01">BGM #0B</title>
+			<title code="0x010C01">BGM #0C</title>
+			<title code="0x010D01">BGM #0D</title>
+			<title code="0x010E01">BGM #0E</title>
+			<title code="0x010F01">BGM #0F</title>
+			<title code="0x011001">BGM #10</title>
+			<title code="0x011101">BGM #11</title>
+			<title code="0x011201">BGM #12</title>
+			<title code="0x011301">BGM #13</title>
+			<title code="0x011401">BGM #14</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Mahjong Triple Wars Gaiden (麻雀トリプルウォーズ外伝)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nihon Bussan</driveralias>
+		<options>
+			<option name="clockmul" value="0x08"/>
+		</options>
+		<romlist archive="triplew_98">
+			<rom type="file" offset="-1">triplew.com</rom>
+			<rom type="file" offset="-1">TRIPLE.EXE</rom>
+			<rom type="shell" offset="0">triplew</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x1a">BGM #1A</title>
+			<title code="0x1b">BGM #1B</title>
+			<title code="0x1c">BGM #1C</title>
+			<title code="0x1d">BGM #1D</title>
+			<title code="0x1e">BGM #1E</title>
+			<title code="0x1f">BGM #1F</title>
+			<title code="0x20">BGM #20</title>
+			<title code="0x21">BGM #21</title>
+			<title code="0x22">BGM #22</title>
+			<title code="0x23">BGM #23</title>
+			<title code="0x24">BGM #24</title>
+			<title code="0x25">BGM #25</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC-9801] Mahjong Vanilla Syndrome (ま～じゃんバニラシンドローム)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Nihon Bussan</driveralias>
+		<options>
+			<option name="clockmul" value="0x08"/>
+		</options>
+		<romlist archive="vanilla_98">
+			<rom type="file" offset="-1">vanilla.com</rom>
+			<rom type="file" offset="-1">GAME.EXE</rom>
+			<rom type="shell" offset="0">vanilla</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x00">Stop the Music</title>
+			<title code="0x01">BGM #01</title>
+			<title code="0x02">BGM #02</title>
+			<title code="0x03">BGM #03</title>
+			<title code="0x04">BGM #04</title>
+			<title code="0x05">BGM #05</title>
+			<title code="0x06">BGM #06</title>
+			<title code="0x07">BGM #07</title>
+			<title code="0x08">BGM #08</title>
+			<title code="0x09">BGM #09</title>
+			<title code="0x0a">BGM #0A</title>
+			<title code="0x0b">BGM #0B</title>
+			<title code="0x0c">BGM #0C</title>
+			<title code="0x0d">BGM #0D</title>
+			<title code="0x0e">BGM #0E</title>
+			<title code="0x0f">BGM #0F</title>
+			<title code="0x10">BGM #10</title>
+			<title code="0x11">BGM #11</title>
+			<title code="0x12">BGM #12</title>
+			<title code="0x13">BGM #13</title>
+			<title code="0x14">BGM #14</title>
+			<title code="0x15">BGM #15</title>
+			<title code="0x16">BGM #16</title>
+			<title code="0x17">BGM #17</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x19">BGM #19</title>
+			<title code="0x1a">BGM #1A</title>
+			<title code="0x1b">BGM #1B</title>
+			<title code="0x1c">BGM #1C</title>
+			<title code="0x1d">BGM #1D</title>
+			<title code="0x1e">BGM #1E</title>
+			<title code="0x1f">BGM #1F</title>
+			<title code="0x20">BGM #20</title>
+			<title code="0x21">BGM #21</title>
+			<title code="0x22">BGM #22</title>
+			<title code="0x23">BGM #23</title>
+			<title code="0x24">BGM #24</title>
+			<title code="0x25">BGM #25</title>
+			<title code="0x26">BGM #26</title>
+			<title code="0x27">BGM #27</title>
+			<title code="0x28">BGM #28</title>
+			<title code="0x29">BGM #29</title>
+			<title code="0x2a">BGM #2A</title>
+			<title code="0x2b">BGM #2B</title>
+			<title code="0x2c">BGM #2C</title>
+			<title code="0x2d">BGM #2D</title>
+			<title code="0x2e">BGM #2E</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mahjong Shikaku (麻雀刺客) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Nihon Bussan</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="mjsikaku_msx,fmpac_msx">
+			<rom type="code" offset="0x0100">MAIN.BIN</rom>
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0x4000">FMPAC.ROM</rom>
+			<rom type="code" offset="0x8000">DRIVER.BIN</rom>
+			<rom type="code" offset="0x9800">FDAT.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
+			<range min="0x1f" max="0x21" extcode="1">BGM #%02X</range>
+			<range min="0x11" max="0x1e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mahjong Shikaku (麻雀刺客) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Nihon Bussan</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+		</options>
+		<romlist archive="mjsikaku_msx">
+			<rom type="code" offset="0x0100">MAIN.BIN</rom>
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0x8000">DRIVER.BIN</rom>
+			<rom type="code" offset="0x9800">PDAT.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x10" extcode="1">BGM #%02X</range>
+			<range min="0x1f" max="0x21" extcode="1">BGM #%02X</range>
+			<range min="0x15" max="0x1e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Seiha (制覇) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Nihon Bussan</driveralias>
+		<options>
+			<option name="init_pc" value="0x0100"/>
+		</options>
+		<romlist archive="seiha_msx">
+			<rom type="code" offset="0x0100">MJ.COM</rom>
+			<rom type="code" offset="0x0100">patch</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x0e" max="0x10" extcode="1">BGM 0x%02x</range>
+			<range min="0x1a" max="0x1a" extcode="1">BGM 0x%02x</range>
+			<range min="0x1f" max="0x27" extcode="1">BGM 0x%02x</range>
+			<range min="0x01" max="0x0d" extcode="1">SE 0x%02x</range>
+			<range min="0x12" max="0x19" extcode="1">SE 0x%02x</range>
+			<range min="0x1b" max="0x1e" extcode="1">SE 0x%02x</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mahjong Shikaku Gaiden: Hana no Momoko Gumi! (麻雀刺客外伝 花のももこ組!) (YM2413)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Nihon Bussan</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+			<option name="use_opll" value="0x01"/>
+		</options>
+		<romlist archive="hanamomo_msx,fmpac_msx">
+			<rom type="code" offset="0x0100">MAIN.BIN</rom>
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0x4000">FMPAC.ROM</rom>
+			<rom type="code" offset="0x8000">DRIVER.BIN</rom>
+			<rom type="code" offset="0x9800">FDAT.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x0d" extcode="1">BGM #%02X</range>
+			<range min="0x0e" max="0x1e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[MSX2] Mahjong Shikaku Gaiden: Hana no Momoko-gumi! (麻雀刺客外伝 花のももこ組!) (AY-3-8910)</name>
+		<driver type="generic">msx</driver>
+		<driveralias type="MSX2">Nihon Bussan</driveralias>
+		<options>
+			<option name="init_pc" value="0x1000"/>
+		</options>
+		<romlist archive="hanamomo_msx">
+			<rom type="code" offset="0x0100">MAIN.BIN</rom>
+			<rom type="code" offset="0x1000">patch</rom>
+			<rom type="code" offset="0x8000">DRIVER.BIN</rom>
+			<rom type="code" offset="0x9800">PDAT.BIN</rom>
+		</romlist>
+		<titlelist>
+			<range min="0x00" max="0x0d" extcode="1">BGM #%02X</range>
+			<range min="0x1f" max="0x1f" extcode="1">BGM #%02X</range>
+			<range min="0x0e" max="0x1e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Scramble] SF-X (スペースファイターX) (AY-3-8910x2)</name>
+		<driver type="scramble">konami</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="psg1_mix" value="0x40"/>
+			<option name="psg2_mix" value="0x40"/>
+			<option name="use_mame_ssg" value="0x1"/>
+		</options>
+		<romlist archive="sfx">
+			<rom type="code" offset="0x0000">5.5j</rom>
+			<rom type="code" offset="0x1000">6.6j</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x03">BGM #03</title>
+			<title code="0x18">BGM #18</title>
+			<title code="0x30">BGM #30</title>
+			<title code="0x33">BGM #33</title>
+			<title code="0x34">BGM #34</title>
+			<title code="0x35">BGM #35</title>
+			<title code="0x37">BGM #37</title>
+			<title code="0x38">BGM #38</title>
+			<title code="0x39">BGM #39</title>
+			<title code="0x3a">BGM #3a</title>
+			<title code="0x3b">BGM #3b</title>
+			<title code="0x3c">BGM #3c</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Terra Cresta (テラクレスタ) (YM2203+DAC)</name>
+		<driver type="terracra">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="terracre">
+			<rom type="code" offset="0x000000">tc2a_15b.bin</rom>
+			<rom type="code" offset="0x004000">tc2a_17b.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit (クレジット)</title>
+			<title code="0x65">Game Start ~ Theme of Terra Cresta (ゲームスタート～テラクレスタのテーマ)</title>
+			<title code="0x66">Theme of Terra Cresta (テラクレスタのテーマ)</title>
+			<title code="0x6a">Tubo (チューボ)</title>
+			<title code="0x67">Restart ~ Theme of Terra Cresta (再スタート～テラクレスタのテーマ)</title>
+			<title code="0x6b">Daikoon (ダイコーン)</title>
+			<title code="0x6d">Last Start ~ Theme of Terra Cresta (ラスト・スタート～テラクレスタのテーマ)</title>
+			<title code="0x6c">Mandora (マンドラー)</title>
+			<title code="0x68">Game Over (ゲームオーバー)</title>
+			<title code="0x69">Marching Roster [Name Entry] (マーチング・ラスタ [ネームエントリー])</title>
+			<title code="0x15">Boss Killed ~ Theme of Terra Cresta (ボス撃破～テラクレスタのテーマ)</title>
+			<range min="0x02" max="0x14" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Terra Cresta (テラクレスタ) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="terracre">
+			<rom type="code" offset="0x000000">bk2_11.15b</rom>
+			<rom type="code" offset="0x004000">bk2_12.17b</rom>
+			<rom type="code" offset="0x008000">bk2_13.18b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit (クレジット)</title>
+			<title code="0x65">Game Start ~ Theme of Terra Cresta (ゲームスタート～テラクレスタのテーマ)</title>
+			<title code="0x66">Theme of Terra Cresta (テラクレスタのテーマ)</title>
+			<title code="0x6a">Tubo (チューボ)</title>
+			<title code="0x67">Restart ~ Theme of Terra Cresta (再スタート～テラクレスタのテーマ)</title>
+			<title code="0x6b">Daikoon (ダイコーン)</title>
+			<title code="0x6d">Last Start ~ Theme of Terra Cresta (ラスト・スタート～テラクレスタのテーマ)</title>
+			<title code="0x6c">Mandora (マンドラー)</title>
+			<title code="0x68">Game Over (ゲームオーバー)</title>
+			<title code="0x69">Marching Roster [Name Entry] (マーチング・ラスタ [ネームエントリー])</title>
+			<title code="0x15">Boss Killed ~ Theme of Terra Cresta (ボス撃破～テラクレスタのテーマ)</title>
+			<range min="0x02" max="0x14" extcode="1">SFX #%02X</range>
+			<title code="0x16">SFX #16</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Cosmo Police Galivan (宇宙刑事ギャリバン) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="galivan">
+			<rom type="code" offset="0x000000">gv11.14b</rom>
+			<rom type="code" offset="0x004000">gv12.15b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x25">Credit (クレジット)</title>
+			<title code="0x2e">Game Start ~ Civilian Control II [Main BGM 1] (ゲーム・スタート～シビリアン・コントロールII [メイン BGM 1])</title>
+			<title code="0x31">Hard Galivan [Main BGM 2] (ハード・ギャリバン [メイン BGM 2])</title>
+			<title code="0x2f">Restart ~ Civilian Control II [Main BGM 1] (再スタート～シビリアン・コントロールII [メイン BGM 1])</title>
+			<title code="0x35">Theme of the Devil (魔王のテーマ)</title>
+			<title code="0x37">Devil Clear (魔王クリア)</title>
+			<title code="0x32">Game Over</title>
+			<title code="0x33">Mont-Pearl [Name Entry] (モン・パール [ネームエントリー])</title>
+			<title code="0x30">Civilian Control II [Main BGM 1] (シビリアン・コントロールII [Main BGM 1])</title>
+			<range min="0x01" max="0x14" extcode="1">SFX #%02X</range>
+			<range min="0x1f" max="0x24" extcode="1">SFX #%02X</range>
+			<range min="0x26" max="0x28" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] UFO Robo Dangar (UFOロボ・ダンガー) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="dangar">
+			<rom offset="0x000000" type="code">dangar13.b14</rom>
+			<rom offset="0x004000" type="code">dangar14.b15</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2e">Game Start ~ Skyscraper [Main BGM] (ゲーム・スタート～スカイ・クレーパー [メイン BGM])</title>
+			<title code="0x2f">Restart ~ Skyscraper [Main BGM] (再スタート～スカイ・クレーパー [メイン BGM])</title>
+			<title code="0x30">Last Start ~ Skyscraper (ラストスタート～スカイ・クレーパー [メイン BGM])</title>
+			<title code="0x31">Skyscraper [Main BGM] (スカイ・クレーパー [メイン BGM])</title>
+			<title code="0x39">Warp Sound (ワープ音)</title>
+			<title code="0x32">Blue Paradox [Theme of Another Dimension] (ブルー・パラドックス [異次元のテーマ])</title>
+			<title code="0x37">Restart ~ Blue Paradox [Theme of Another Dimension] (再スタート～ブルー・パラドクス [異次元のテーマ])</title>
+			<title code="0x38">Last Start ~ Blue Paradox [Theme of Another Dimension] (ラストスタート～ブルー・パラドクス [異次元のテーマ])</title>
+			<title code="0x3b">Gallus [Medium Boss] (ガルス [中型の敵])</title>
+			<title code="0x3a">Bado [Small Enemy] (バドー [小型の敵])</title>
+			<title code="0x35">Zuuru [Medium Enemy] (ズール [中型の敵])</title>
+			<title code="0x36">Noid [Large Enemy] (ノイド [大型の敵])</title>
+			<title code="0x33">Game Over (ゲームオーバー)</title>
+			<title code="0x34">Jubilee [Name Entry] (ジュビリー [ネームエントリー])</title>
+			<range min="0x01" max="0x14" extcode="1">SFX #%02X</range>
+			<range min="0x1f" max="0x25" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Ninja Emaki (妖魔忍法帖) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="ninjemak">
+			<rom offset="0x0000" type="code">ninjemak.12</rom>
+			<rom offset="0x4000" type="code">ninjemak.13</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">Credit</title>
+			<title code="0x2e">Game Start (ゲーム・スタート)</title>
+			<title code="0x34">Whirlwind of Clouds in the Sky [Main BGM 1] (天雲旋風 [メイン BGM 1])</title>
+			<title code="0x35">Like fire, Dashing Forward Bravely [Main BGM 2] (烈火勇進 [メイン BGM 2])</title>
+			<title code="0x3b">World of Darkness and Illusion (闇幻界)</title>
+			<title code="0x36">Sea of Demon (魔海仙)</title>
+			<title code="0x30">Pass Through Stage (各場面通過)</title>
+			<title code="0x37">Graveyard (墓地)</title>
+			<title code="0x38">Spiders Hell (蜘地獄)</title>
+			<title code="0x39">Large Skeleton (大骸骨)</title>
+			<title code="0x31">Enemy Clear (敵クリア)</title>
+			<title code="0x3a">Honorable Death (玉梓)</title>
+			<title code="0x32">Game Over (ゲームオーバー)</title>
+			<title code="0x33">Genroku Flower Viewing Dance [Name Entry] (元禄花見踊 [ネームエントリー])</title>
+			<range min="0x01" max="0x0f" extcode="1">SFX #%02X</range>
+			<range min="0x11" max="0x14" extcode="1">SFX #%02X</range>
+			<range min="0x1d" max="0x25" extcode="1">SFX #%02X</range>
+			<range min="0x27" max="0x2a" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Soldier Girl Amazon (聖戦士アマテラス) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x86"/>
+		</options>
+		<romlist archive="amazon">
+			<rom type="code" offset="0x000000">1.15b</rom>
+			<rom type="code" offset="0x004000">2.17b</rom>
+			<rom type="code" offset="0x008000">3.18b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit Inserted</title>
+			<title code="0x2e">Game Start - Soldier Amatelass (Main BGM)</title>
+			<title code="0x31">Soldier Amatelass (Main BGM)</title>
+			<title code="0x2f">Restart - Soldier Amatelass (Main BGM)</title>
+			<title code="0x30">Final Start - Soldier Amatelass (Main BGM)</title>
+			<title code="0x35">Theme of the Escapee</title>
+			<title code="0x38">Hell Bird (Monstrous Bird)</title>
+			<title code="0x36">Gorgon Head (Monster 1)</title>
+			<title code="0x37">Bugdarian (Mounster 2)</title>
+			<title code="0x39">Lobster Gunner (Monster 3)</title>
+			<title code="0x34">Game Clear</title>
+			<title code="0x32">Game Over</title>
+			<title code="0x33">Orange Mountain Hill (Name Entry)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Terra Cresta] Soldier Girl Amazon (聖戦士アマテラス) (YM3526+DAC)</name>
+		<driver type="terracre">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<romlist archive="amazon">
+			<rom type="code" offset="0x000000">1.15b</rom>
+			<rom type="code" offset="0x004000">2.17b</rom>
+			<rom type="code" offset="0x008000">3.18b</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit (クレジット)</title>
+			<title code="0x2e">Game Start ~ Soldier Amaterasu [Main BGM] (ゲームスタート～ソルジャー・アマテラス [メイン BGM])</title>
+			<title code="0x31">Soldier Amaterasu [Main BGM] (ソルジャー・アマテラス [メイン BGM])</title>
+			<title code="0x35">Theme of the Escapee (脱獄者のテーマ)</title>
+			<title code="0x34">Game Clear [ゲームクリアー]</title>
+			<title code="0x36">Gorgon Head [Monster I] (ゴーゴン・ヘッド [怪物 I])</title>
+			<title code="0x37">Bugdarian [Monster II] (バグダリアン [怪物 II])</title>
+			<title code="0x2f">Restart ~ Soldier Amaterasu [Main BGM] (再スタート～ソルジャー・アマテラス [メイン BGM])</title>
+			<title code="0x39">Lobster Gunner [Monster III] (ロブスタ・ガンナー [怪物 III])</title>
+			<title code="0x30">Last Start ~ Soldier Amaterasu [Main BGM] (ラスト・スタート～ソルジャー・アマテラス [メイン BGM])</title>
+			<title code="0x38">Hell Bird [Strange Bird] (ヘル・バード [怪鳥])</title>
+			<title code="0x32">Game Over (ゲームオーバー)</title>
+			<title code="0x33">Orange Mountain Hill [Name Entry] (オレンジ・マウンテン・ヒル [ネームエントリー])</title>
+			<range min="0x22" max="0x26" extcode="1">Voice #%02X</range>
+			<range min="0x02" max="0x0f" extcode="1">SFX #%02X</range>
+			<range min="0x11" max="0x14" extcode="1">SFX #%02X</range>
+			<range min="0x1f" max="0x21" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Chouji Meikyuu Legion (超時迷宮レジオン) (YM3812+DAC)</name>
+		<driver type="cclimbr2">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="legion">
+			<rom type="code" offset="0x000000">legion.1h</rom>
+			<rom type="code" offset="0x004000">legion.1i</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2e">ゲームスタート～シルバーレジオン (メインBGM)</title>
+			<title code="0x2f">各エリア・スタート ～ シルバーレジオン (メインBGM)</title>
+			<title code="0x31">シルバーレジオン (メインBGM)</title>
+			<title code="0x35">重力波タンク</title>
+			<title code="0x30">エリア・ゲート</title>
+			<title code="0x32">戦闘母艦ダーク</title>
+			<title code="0x33">小型母艦ダーク</title>
+			<title code="0x34">ダーク・ベイダー</title>
+			<title code="0x36">ボスクリア曲～シルバーレジオン (メインBGM)</title>
+			<title code="0x37">シルバーレジオン (メインBGM)</title>
+			<title code="0x3b">[未使用曲?] ガルス(UFOロボ・ダンガーより)</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Kozure Ookami (子連れ狼) (YM3812+DAC)</name>
+		<driver type="terraf">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="kozure">
+			<rom type="code" offset="0x000000">kozure11.17k</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit</title>
+			<title code="0x3B">Introduction</title>
+			<title code="0x2E">Game Start - BGM 1 (Main Theme)</title>
+			<title code="0x31">BGM 2 (Invincibility)</title>
+			<title code="0x30">BGM 1 (Main Theme)</title>
+			<title code="0x33">Boss</title>
+			<title code="0x35">Round Clear</title>
+			<title code="0x38">Bonus Game</title>
+			<title code="0x32">Dead</title>
+			<title code="0x2F">Final Start - BGM 1</title>
+			<title code="0x34">Final Boss</title>
+			<title code="0x39">Round Clear - Final Round Clear - Ending</title>
+			<title code="0x3A">Credits Roll - BGM 1</title>
+			<title code="0x36">Game Over</title>
+			<title code="0x37">Name Entry</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Terra Force (テラフォース) (YM3812+DAC)</name>
+		<driver type="terraf">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="terraf">
+			<rom type="code" offset="0x000000">11.17k</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit</title>
+			<title code="0x2E">Game Start - Ground Music</title>
+			<title code="0x31">Ground Music</title>
+			<title code="0x2F">Restart</title>
+			<title code="0x30">Last Start</title>
+			<title code="0x32">Underground Music [Theme of Terra Force]</title>
+			<title code="0x33">Bulgar [Small Boss]</title>
+			<title code="0x34">Griffon [Mid Boss]</title>
+			<title code="0x35">Goround [Big Boss]</title>
+			<title code="0x36">Game Over</title>
+			<title code="0x37">Ending</title>
+			<title code="0x38">Name Entry</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Armed Formation (アームドF) (YM3812+DAC)</name>
+		<driver type="terraf">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="armedf">
+			<rom type="code" offset="0x000000">af_10.rom</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x2E">Start / Insect [Start / Stage 1]</title>
+			<title code="0x30">Insect [Stage 1]</title>
+			<title code="0x31">Bone [Stage 2]</title>
+			<title code="0x32">Machine City [Stage 3]</title>
+			<title code="0x33">Sarcoma [Stage 4]</title>
+			<title code="0x34">Different King [Stage 5]</title>
+			<title code="0x35">Final Star [Stage 6]</title>
+			<title code="0x3A">Boss</title>
+			<title code="0x36">Exzath / Final Boss [Extra Stage / Last Boss]</title>
+			<title code="0x37">Clear</title>
+			<title code="0x38">Star Ship [Ending]</title>
+			<title code="0x3B">Earth &amp; Peace [Credits Roll]</title>
+			<title code="0x39">Friendship [Name Entry]</title>
+			<title code="0x2F">Game Over</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Crazy Climber 2 (クレイジークライマー2) (YM3812+DAC)</name>
+		<driver type="cclimbr2">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="cclimbr2">
+			<rom type="code" offset="0x000000">11.bin</rom>
+			<rom type="code" offset="0x004000">12.bin</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">Credit</title>
+			<title code="0x2E">Start / Samba De Lum (BGM 1)</title>
+			<title code="0x23">[Voice]</title>
+			<title code="0x2F">Restart</title>
+			<title code="0x39">Mambo De Lum (BGM 2)</title>
+			<title code="0x36">Clear 2</title>
+			<title code="0x31">Samba De Lum (BGM 1)</title>
+			<title code="0x32">Gorrila</title>
+			<title code="0x33">Condor</title>
+			<title code="0x34">Balloon</title>
+			<title code="0x3A">Ending</title>
+			<title code="0x30">Game Over</title>
+			<title code="0x3B">Name Entry</title>
+			<title code="0x35">Unused</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Chouji Meikyuu Legion] Sky Robo (戦え！ビッグファイター) (YM3812+DAC)</name>
+		<driver type="terraf">nichibutsu</driver>
+		<driveralias type="Arcade">Nichibutsu</driveralias>
+		<options>
+			<option name="opl_mix" value="0x150"/>
+			<option name="dac_mix" value="0x10D"/>
+		</options>
+		<romlist archive="skyrobo">
+			<rom type="code" offset="0x000000">8.17k</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x01">クレジット</title>
+			<title code="0x2e">ゲーム・スタート</title>
+			<title code="0x30">ステージ1</title>
+			<title code="0x39">ボス</title>
+			<title code="0x38">クリア</title>
+			<title code="0x3a">クリアデモ</title>
+			<title code="0x31">ステージ2,7</title>
+			<title code="0x32">ステージ3</title>
+			<title code="0x33">ステージ4</title>
+			<title code="0x34">ステージ5</title>
+			<title code="0x35">ステージ6</title>
+			<title code="0x37">ステージ8</title>
+			<title code="0x3b">エンディング</title>
+			<title code="0x2f">ゲームオーバー</title>
+		</titlelist>
+	</game>
+</gamelist>

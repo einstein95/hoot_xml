@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2005/09/25">
+	<!-- GameTek -->
+	<game>
+		<name>[PC/AT] Ashes of Empire (YM3812)</name>
+		<driver type="adlib">pcatdos</driver>
+		<driveralias type="PC/AT">GameTek</driveralias>
+		<options>
+			<option name="clockmul" value="0x4"/>
+			<option name="opl2_mix" value="0x1C0"/>
+		</options>
+		<romlist archive="ashesoe_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ADLIB.BIN</rom>
+			<rom type="file" offset="0x10">ATUNE1.DAT</rom>
+			<rom type="file" offset="0x11">ATUNE2.DAT</rom>
+			<rom type="file" offset="0x12">ATUNE3.DAT</rom>
+			<rom type="file" offset="0x13">ATUNE4.DAT</rom>
+			<rom type="file" offset="0x14">ATUNE5.DAT</rom>
+			<rom type="file" offset="0x15">ATUNE6.DAT</rom>
+			<rom type="file" offset="0x16">ATUNE7.DAT</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Ashes of Empire (MT-32)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">GameTek</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="2"/>
+		</options>
+		<romlist archive="ashesoe_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">RTUNE1.DAT</rom>
+			<rom type="file" offset="0x11">RTUNE2.DAT</rom>
+			<rom type="file" offset="0x12">RTUNE3.DAT</rom>
+			<rom type="file" offset="0x13">RTUNE4.DAT</rom>
+			<rom type="file" offset="0x14">RTUNE5.DAT</rom>
+			<rom type="file" offset="0x15">RTUNE6.DAT</rom>
+			<rom type="file" offset="0x16">RTUNE7.DAT</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+		</titlelist>
+	</game>
+	<game>
+		<name>[PC/AT] Ashes of Empire (Munt, MT-32 simulation)</name>
+		<driver type="beep">pcatdos</driver>
+		<driveralias type="PC/AT">GameTek</driveralias>
+		<options>
+			<option name="clockmul" value="0x04"/>
+			<option name="midiout" value="1"/>
+			<option name="midiout_type" value="1"/>
+		</options>
+		<romlist archive="ashesoe_at">
+			<rom type="file" offset="-1">CODE.COM</rom>
+			<rom type="file" offset="0x09">ROLAND.BIN</rom>
+			<rom type="file" offset="0x10">RTUNE1.DAT</rom>
+			<rom type="file" offset="0x11">RTUNE2.DAT</rom>
+			<rom type="file" offset="0x12">RTUNE3.DAT</rom>
+			<rom type="file" offset="0x13">RTUNE4.DAT</rom>
+			<rom type="file" offset="0x14">RTUNE5.DAT</rom>
+			<rom type="file" offset="0x15">RTUNE6.DAT</rom>
+			<rom type="file" offset="0x16">RTUNE7.DAT</rom>
+			<rom type="shell" offset="0">CODE.COM</rom>
+		</romlist>
+		<titlelist>
+			<title code="0x10">BGM #01</title>
+			<title code="0x11">BGM #02</title>
+			<title code="0x12">BGM #03</title>
+			<title code="0x13">BGM #04</title>
+			<title code="0x14">BGM #05</title>
+			<title code="0x15">BGM #06</title>
+			<title code="0x16">BGM #07</title>
+		</titlelist>
+	</game>
+</gamelist>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game|bind|childlists)*>
+	<!ATTLIST gamelist date CDATA #IMPLIED>
+	<!ELEMENT childlists (list)*>
+	<!ELEMENT list (#PCDATA)>
+	<!ELEMENT bind (exts,driver,options?)>
+	<!ELEMENT exts (ext)*>
+	<!ELEMENT ext (#PCDATA)>
+	<!ELEMENT game (name,driver,driveralias?,options?,romlist?,titlelist?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT driver (#PCDATA)>
+	<!ATTLIST driver type CDATA #IMPLIED>
+	<!ELEMENT driveralias (#PCDATA)>
+	<!ATTLIST driveralias type CDATA #IMPLIED>
+	<!ELEMENT options (option)*>
+	<!ELEMENT option EMPTY>
+	<!ATTLIST option name CDATA #REQUIRED
+		 value CDATA #REQUIRED>
+	<!ELEMENT romlist (rom)*>
+	<!ATTLIST romlist archive CDATA #IMPLIED>
+	<!ELEMENT rom (#PCDATA)>
+	<!ATTLIST rom type CDATA #REQUIRED
+					offset CDATA #IMPLIED
+					crc32 CDATA #IMPLIED>
+	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title code CDATA #REQUIRED
+					type CDATA #IMPLIED>
+	<!ELEMENT range (#PCDATA)>
+	<!ATTLIST range min CDATA #REQUIRED
+					max CDATA #REQUIRED
+					extcode CDATA #IMPLIED>
+]>
+<gamelist date="2015/12/26">
+	<!-- //SemiCom -->
+	<game>
+		<name>[Snow Bros.] Cookie &amp; Bibi 2 (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="cookbib2">
+			<rom type="code" offset="0x00000">cookbib2.07</rom>
+			<rom type="pcm" offset="0x00000">cookbib2.06</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc0c" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe43d" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Cookie &amp; Bibi 3 (YM2151+MSM6295)</name>
+		<driver type="cookbib3">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="cookbib3">
+			<rom type="code" offset="0x00000">u35.bin</rom>
+			<rom type="pcm" offset="0x00000">u14.bin</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc0b" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe426" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Hyper Pacman (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="hyperpac">
+			<rom type="code" offset="0x00000">hyperpac.u1</rom>
+			<rom type="pcm" offset="0x00000">hyperpac.j15</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc09" extcode="1">BGM #%02X</range>
+			<range min="0xe450" max="0xe451" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe432" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Ma Cheon Ru (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="mcheonru">
+			<rom type="code" offset="0x00000">u35</rom>
+			<rom type="pcm" offset="0x00000">u14</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc05" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe46e" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] More More (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="moremore">
+			<rom type="code" offset="0x00000">u35.bin</rom>
+			<rom type="pcm" offset="0x00000">u14.bin</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc05" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe44c" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] More More Plus (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="moremorp">
+			<rom type="code" offset="0x00000">mmp_u35.bin</rom>
+			<rom type="pcm" offset="0x00000">mmp_u14.bin</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc05" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe44f" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] New HyperMan (3-in-1 with Cookie &amp; Bibi &amp; HyperMan) (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="3in1semi">
+			<rom type="code" offset="0x00000">u35</rom>
+			<rom type="pcm" offset="0x00000">u14</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc07" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe455" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Puzzle Break (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="pzlbreak">
+			<rom type="code" offset="0x00000">0.u1</rom>
+			<rom type="pcm" offset="0x00000">1.uj15</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc06" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe432" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Su Ho Seong (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="suhosong">
+			<rom type="code" offset="0x00000">su_ho_sung.u1</rom>
+			<rom type="pcm" offset="0x00000">su_ho_sung.uj15</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xccff" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe480" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Toppy &amp; Rappy (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="toppyrap">
+			<rom type="code" offset="0x00000">u1.bin</rom>
+			<rom type="pcm" offset="0x00000">uj15.bin</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc0b" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe45a" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+	<game>
+		<name>[Snow Bros.] Twinkle (YM2151+MSM6295)</name>
+		<driver type="hyperpac">semicom</driver>
+		<driveralias type="Arcade">SemiCom</driveralias>
+		<romlist archive="twinkle">
+			<rom type="code" offset="0x00000">u1.bin</rom>
+			<rom type="pcm" offset="0x00000">uj15.bin</rom>
+		</romlist>
+		<titlelist>
+			<range min="0xcc01" max="0xcc07" extcode="1">BGM #%02X</range>
+			<range min="0xe450" max="0xe451" extcode="1">BGM #%02X</range>
+			<range min="0xe411" max="0xe428" extcode="1">SFX #%02X</range>
+		</titlelist>
+	</game>
+</gamelist>
