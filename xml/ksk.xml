@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,9 +34,9 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //Œàƒ\ƒtƒgƒEƒFƒAH–[ -->
+	<!-- //å‘‰ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢å·¥æˆ¿ -->
 	<game>
-		<name>[PC-8801] Argo (ƒAƒ‹ƒS[) (YM2203)</name>
+		<name>[PC-8801] Argo (ã‚¢ãƒ«ã‚´ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Kure Software Koubou</driveralias>
 		<options>
@@ -57,13 +57,13 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">MUS00</title>
-			<title code="0x00000001">ƒ^ƒCƒgƒ‹</title>
+			<title code="0x00000001">ã‚¿ã‚¤ãƒˆãƒ«</title>
 			<title code="0x00000002">MUS02</title>
-			<title code="0x00000003">ƒfƒJƒLƒƒƒ‰í“¬</title>
-			<title code="0x00000004">ŠX</title>
+			<title code="0x00000003">ãƒ‡ã‚«ã‚­ãƒ£ãƒ©æˆ¦é—˜</title>
+			<title code="0x00000004">è¡—</title>
 			<title code="0x00000005">MUS05</title>
 			<title code="0x00000006">MUS06</title>
-			<title code="0x01000007">ƒ†[ƒU[ƒfƒBƒXƒNì¬</title>
+			<title code="0x01000007">ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ‡ã‚£ã‚¹ã‚¯ä½œæˆ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -90,22 +90,22 @@
 			<rom type="bgm"  offset="0x0b">MUS11</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x03">ƒNƒ‰ƒŒƒ“ƒX‚Ì‘º</title>
-			<title code="0x09">ƒgƒŒƒ“ƒg‘Œ´</title>
-			<title code="0x04">‚Æ‚è‚Å</title>
-			<title code="0x07">ƒh[ƒo[ŠCŠİ</title>
-			<title code="0x08">ƒƒOƒŠƒXŠCŠİ</title>
-			<title code="0x02">Â‚¢À</title>
-			<title code="0x05">ƒSƒ‰‚ÌˆâÕ</title>
-			<title code="0x06">ƒEƒFƒ‹ƒYR’n</title>
-			<title code="0x0a">ƒoƒ‹ƒoƒ‰‚ÌR</title>
-			<title code="0x0b">ƒLƒƒƒƒƒbƒgé“à</title>
-			<title code="0x01">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x03">ã‚¯ãƒ©ãƒ¬ãƒ³ã‚¹ã®æ‘</title>
+			<title code="0x09">ãƒˆãƒ¬ãƒ³ãƒˆè‰åŸ</title>
+			<title code="0x04">ã¨ã‚Šã§</title>
+			<title code="0x07">ãƒ‰ãƒ¼ãƒãƒ¼æµ·å²¸</title>
+			<title code="0x08">ãƒ­ã‚°ãƒªã‚¹æµ·å²¸</title>
+			<title code="0x02">é’ã„æ²¼</title>
+			<title code="0x05">ã‚´ãƒ©ã®éºè·¡</title>
+			<title code="0x06">ã‚¦ã‚§ãƒ«ã‚ºå±±åœ°</title>
+			<title code="0x0a">ãƒãƒ«ãƒãƒ©ã®å±±</title>
+			<title code="0x0b">ã‚­ãƒ£ãƒ¡ãƒ­ãƒƒãƒˆåŸå†…</title>
+			<title code="0x01">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Duel (ƒfƒ…ƒGƒ‹) (YM2203)</name>
+		<name>[PC-8801] Duel (ãƒ‡ãƒ¥ã‚¨ãƒ«) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Kure Software Koubou</driveralias>
 		<options>
@@ -151,8 +151,8 @@
 			<title code="0xd0000000">OP1</title>
 			<title code="0xd7000001">Duel</title>
 			<title code="0xb0000020">Masaki</title>
-			<title code="0xb0000021">The Soldiers Align (•ÊƒAƒŒƒ“ƒW)</title>
-			<title code="0xb0000022">ƒ^ƒkƒL‚ÌO-Sanpo</title>
+			<title code="0xb0000021">The Soldiers Align (åˆ¥ã‚¢ãƒ¬ãƒ³ã‚¸)</title>
+			<title code="0xb0000022">ã‚¿ãƒŒã‚­ã®O-Sanpo</title>
 			<title code="0xb0000023">The Soldiers Align</title>
 			<title code="0xba000030">I'm Full of Beart</title>
 			<title code="0xba000031">Requiem</title>
@@ -208,7 +208,7 @@
 			<rom type="bgm" offset="0x0c">BACKUP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0100000a">Prince of palace (ƒI[ƒvƒjƒ“ƒO)</title>
+			<title code="0x0100000a">Prince of palace (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
 			<title code="0x00000000">In a Row</title>
 			<title code="0x00000001">Nuts about the girl</title>
 			<title code="0x00000002">A Martial Spirit</title>
@@ -216,11 +216,11 @@
 			<title code="0x00000004">Attack on him</title>
 			<title code="0x00000005">Lie?</title>
 			<title code="0x00000006">Curse Beat</title>
-			<title code="0x00000007">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é</title>
-			<title code="0x00000008">(ƒoƒ‹ƒoƒ‰‚ÌR)</title>
-			<title code="0x00000009">Prince of palace (ƒLƒƒƒƒƒbƒgé“à)</title>
-			<title code="0x0100000b">(ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x0200000c">ƒ^ƒkƒL‚ÌO-SANPO (ƒoƒbƒNƒAƒbƒv)</title>
+			<title code="0x00000007">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹</title>
+			<title code="0x00000008">(ãƒãƒ«ãƒãƒ©ã®å±±)</title>
+			<title code="0x00000009">Prince of palace (ã‚­ãƒ£ãƒ¡ãƒ­ãƒƒãƒˆåŸå†…)</title>
+			<title code="0x0100000b">(ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x0200000c">ã‚¿ãƒŒã‚­ã®O-SANPO (ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -252,7 +252,7 @@
 			<rom type="bgm" offset="0x0c">BACKUP</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0100000a">Prince of palace (ƒI[ƒvƒjƒ“ƒO)</title>
+			<title code="0x0100000a">Prince of palace (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
 			<title code="0x00000000">In a Row</title>
 			<title code="0x00000001">Nuts about the girl</title>
 			<title code="0x00000002">A Martial Spirit</title>
@@ -260,15 +260,15 @@
 			<title code="0x00000004">Attack on him</title>
 			<title code="0x00000005">Lie?</title>
 			<title code="0x00000006">Curse Beat</title>
-			<title code="0x00000007">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é</title>
-			<title code="0x00000008">ƒoƒ‹ƒoƒ‰‚ÌR</title>
-			<title code="0x00000009">Prince of palace (ƒLƒƒƒƒƒbƒgé“à)</title>
-			<title code="0x0100000b">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x0200000c">ƒ^ƒkƒL‚ÌO-SANPO (ƒoƒbƒNƒAƒbƒv)</title>
+			<title code="0x00000007">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹</title>
+			<title code="0x00000008">ãƒãƒ«ãƒãƒ©ã®å±±</title>
+			<title code="0x00000009">Prince of palace (ã‚­ãƒ£ãƒ¡ãƒ­ãƒƒãƒˆåŸå†…)</title>
+			<title code="0x0100000b">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x0200000c">ã‚¿ãƒŒã‚­ã®O-SANPO (ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen: Ornic Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“ -ƒIƒ‹ƒjƒbƒNí‹L-) (YM2203)</name>
+		<name>[PC-9801] First Queen: Ornic Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³ -ã‚ªãƒ«ãƒ‹ãƒƒã‚¯æˆ¦è¨˜-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -316,23 +316,23 @@
 			<title code="0x07">Attack On Him</title>
 			<title code="0x08">Lie ?</title>
 			<title code="0x09">Curse Beat</title>
-			<title code="0x0a">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é</title>
+			<title code="0x0a">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹</title>
 			<title code="0x0b">Sheaf Of Arrows</title>
 			<title code="0x0c">Melee</title>
 			<title code="0x0d">Money Maker</title>
-			<title code="0x0e">‹u‚ÌŒü‚±‚¤‚Ö</title>
+			<title code="0x0e">ä¸˜ã®å‘ã“ã†ã¸</title>
 			<title code="0x0f">Returned Soldier</title>
-			<title code="0x10">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é (another version)</title>
+			<title code="0x10">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹ (another version)</title>
 			<title code="0x11">Sheaf Of Arrows (another version)</title>
 			<title code="0x12">Melee (another version)</title>
 			<title code="0x13">MUS18 (another version)</title>
 			<title code="0x14">Monery Maker (another version)</title>
-			<title code="0x15">‹u‚Ì‚Ş‚±‚¤‚Ö (another version)</title>
+			<title code="0x15">ä¸˜ã®ã‚€ã“ã†ã¸ (another version)</title>
 			<title code="0x16">Returned Soldier (another version)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen II: Sabaku no Joou (ƒtƒ@[ƒXƒgƒNƒB[ƒ“II -»”™‚Ì—‰¤-) (YM2203)</name>
+		<name>[PC-9801] First Queen II: Sabaku no Joou (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³II -ç ‚æ¼ ã®å¥³ç‹-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -394,7 +394,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen III (ƒtƒ@[ƒXƒgƒNƒB[ƒ“III) (YM2203)</name>
+		<name>[PC-9801] First Queen III (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³III) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -531,7 +531,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Duel (ƒfƒ…ƒGƒ‹) (YM2203)</name>
+		<name>[PC-9801] Duel (ãƒ‡ãƒ¥ã‚¨ãƒ«) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -598,7 +598,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Duel Kawanakajima Scenario (ƒfƒ…ƒGƒ‹ ì’†“‡ƒVƒiƒŠƒI) (YM2203)</name>
+		<name>[PC-9801] Duel Kawanakajima Scenario (ãƒ‡ãƒ¥ã‚¨ãƒ« å·ä¸­å³¶ã‚·ãƒŠãƒªã‚ª) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -669,7 +669,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kawanakajima Ibunroku (ì’†“‡ˆÙ•·˜^) (YM2203)</name>
+		<name>[PC-9801] Kawanakajima Ibunroku (å·ä¸­å³¶ç•°èéŒ²) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -768,7 +768,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen IV: Barushia Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“IV -ƒoƒ‹ƒVƒAí‹L-) (YM2203)</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³IV -ãƒãƒ«ã‚·ã‚¢æˆ¦è¨˜-) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -914,7 +914,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen IV: Barushia Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“IV -ƒoƒ‹ƒVƒAí‹L-) (SC-55)</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³IV -ãƒãƒ«ã‚·ã‚¢æˆ¦è¨˜-) (SC-55)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -1018,7 +1018,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] First Queen IV: Barushia Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“IV -ƒoƒ‹ƒVƒAí‹L-) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] First Queen IV: Barushia Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³IV -ãƒãƒ«ã‚·ã‚¢æˆ¦è¨˜-) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -1122,7 +1122,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dark Seraphim (ƒ_[ƒNƒZƒ‰ƒtƒBƒ€) (YM2203)</name>
+		<name>[PC-9801] Dark Seraphim (ãƒ€ãƒ¼ã‚¯ã‚»ãƒ©ãƒ•ã‚£ãƒ ) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -1280,7 +1280,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Duel Succession (ƒfƒ…ƒGƒ‹EƒTƒNƒZƒVƒ‡ƒ“) (YM2203)</name>
+		<name>[PC-9801] Duel Succession (ãƒ‡ãƒ¥ã‚¨ãƒ«ãƒ»ã‚µã‚¯ã‚»ã‚·ãƒ§ãƒ³) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -1331,9 +1331,9 @@
 		<titlelist>
 			<title code="0x010001">Reconnoiter</title>
 			<title code="0x010002">BGM-02.BIN</title>
-			<title code="0x010003">Šó–]‚Ìæ‚Ö</title>
+			<title code="0x010003">å¸Œæœ›ã®å…ˆã¸</title>
 			<title code="0x010004">BGM-04.BIN</title>
-			<title code="0x010005">‰ğ•ú‚Ì</title>
+			<title code="0x010005">è§£æ”¾ã®æ™‚</title>
 			<title code="0x010006">BGM-06.BIN</title>
 			<title code="0x010007">BGM-07.BIN</title>
 			<title code="0x010008">BGM-08.BIN</title>
@@ -1428,7 +1428,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Early Kingdom (ƒA[ƒŠ[ƒLƒ“ƒOƒ_ƒ€) (YM2203)</name>
+		<name>[PC-9801] Early Kingdom (ã‚¢ãƒ¼ãƒªãƒ¼ã‚­ãƒ³ã‚°ãƒ€ãƒ ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Kure Software Koubou</driveralias>
 		<options>
@@ -1486,30 +1486,30 @@
 			<title code="0x000023">EK19.BIN</title>
 			<title code="0x000024">EK20.BIN</title>
 			<title code="0x000025">EK21.BIN</title>
-			<title code="0x01ffff">Œø‰Ê‰¹#01</title>
-			<title code="0x02ffff">Œø‰Ê‰¹#02</title>
-			<title code="0x03ffff">Œø‰Ê‰¹#03</title>
-			<title code="0x04ffff">Œø‰Ê‰¹#04</title>
-			<title code="0x05ffff">Œø‰Ê‰¹#05</title>
-			<title code="0x06ffff">Œø‰Ê‰¹#06</title>
-			<title code="0x07ffff">Œø‰Ê‰¹#07</title>
-			<title code="0x08ffff">Œø‰Ê‰¹#08</title>
-			<title code="0x09ffff">Œø‰Ê‰¹#09</title>
-			<title code="0x0affff">Œø‰Ê‰¹#0A</title>
-			<title code="0x0bffff">Œø‰Ê‰¹#0B</title>
-			<title code="0x0cffff">Œø‰Ê‰¹#0C</title>
-			<title code="0x0dffff">Œø‰Ê‰¹#0D</title>
-			<title code="0x0effff">Œø‰Ê‰¹#0E</title>
-			<title code="0x0fffff">Œø‰Ê‰¹#0F</title>
-			<title code="0x10ffff">Œø‰Ê‰¹#10</title>
-			<title code="0x11ffff">Œø‰Ê‰¹#11</title>
-			<title code="0x12ffff">Œø‰Ê‰¹#12</title>
-			<title code="0x13ffff">Œø‰Ê‰¹#13</title>
-			<title code="0x14ffff">Œø‰Ê‰¹#14</title>
+			<title code="0x01ffff">åŠ¹æœéŸ³#01</title>
+			<title code="0x02ffff">åŠ¹æœéŸ³#02</title>
+			<title code="0x03ffff">åŠ¹æœéŸ³#03</title>
+			<title code="0x04ffff">åŠ¹æœéŸ³#04</title>
+			<title code="0x05ffff">åŠ¹æœéŸ³#05</title>
+			<title code="0x06ffff">åŠ¹æœéŸ³#06</title>
+			<title code="0x07ffff">åŠ¹æœéŸ³#07</title>
+			<title code="0x08ffff">åŠ¹æœéŸ³#08</title>
+			<title code="0x09ffff">åŠ¹æœéŸ³#09</title>
+			<title code="0x0affff">åŠ¹æœéŸ³#0A</title>
+			<title code="0x0bffff">åŠ¹æœéŸ³#0B</title>
+			<title code="0x0cffff">åŠ¹æœéŸ³#0C</title>
+			<title code="0x0dffff">åŠ¹æœéŸ³#0D</title>
+			<title code="0x0effff">åŠ¹æœéŸ³#0E</title>
+			<title code="0x0fffff">åŠ¹æœéŸ³#0F</title>
+			<title code="0x10ffff">åŠ¹æœéŸ³#10</title>
+			<title code="0x11ffff">åŠ¹æœéŸ³#11</title>
+			<title code="0x12ffff">åŠ¹æœéŸ³#12</title>
+			<title code="0x13ffff">åŠ¹æœéŸ³#13</title>
+			<title code="0x14ffff">åŠ¹æœéŸ³#14</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] First Queen: Ornic Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“ -ƒIƒ‹ƒjƒbƒNí‹L-)</name>
+		<name>[PC-88VA] First Queen: Ornic Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³ -ã‚ªãƒ«ãƒ‹ãƒƒã‚¯æˆ¦è¨˜-)</name>
 		<driver type="opn">pc88va</driver>
 		<driveralias type="PC-88VA">Kure Software Koubou</driveralias>
 		<options>
@@ -1556,23 +1556,23 @@
 			<title code="0x07">Attack On Him</title>
 			<title code="0x08">Lie ?</title>
 			<title code="0x09">Curse Beat</title>
-			<title code="0x0a">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é</title>
+			<title code="0x0a">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹</title>
 			<title code="0x0b">Sheaf Of Arrows</title>
 			<title code="0x0c">Melee</title>
 			<title code="0x0d">Money Maker</title>
-			<title code="0x0e">‹u‚ÌŒü‚±‚¤‚Ö</title>
+			<title code="0x0e">ä¸˜ã®å‘ã“ã†ã¸</title>
 			<title code="0x0f">Returned Soldier</title>
-			<title code="0x10">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é (another version)</title>
+			<title code="0x10">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹ (another version)</title>
 			<title code="0x11">Sheaf Of Arrows (another version)</title>
 			<title code="0x12">Melee (another version)</title>
 			<title code="0x13">MUS18 (another version)</title>
 			<title code="0x14">Monery Maker (another version)</title>
-			<title code="0x15">‹u‚Ì‚Ş‚±‚¤‚Ö (another version)</title>
+			<title code="0x15">ä¸˜ã®ã‚€ã“ã†ã¸ (another version)</title>
 			<title code="0x16">Returned Soldier (another version)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] First Queen: Ornic Senki (ƒtƒ@[ƒXƒgƒNƒB[ƒ“ -ƒIƒ‹ƒjƒbƒNí‹L-)</name>
+		<name>[X68000] First Queen: Ornic Senki (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³ -ã‚ªãƒ«ãƒ‹ãƒƒã‚¯æˆ¦è¨˜-)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Kure Software Koubou</driveralias>
 		<options>
@@ -1606,17 +1606,17 @@
 			<title code="0x06">Attack On Him</title>
 			<title code="0x07">Lie ?</title>
 			<title code="0x08">Curse Beat</title>
-			<title code="0x09">‚½‚¾‚İ‚Â‚ß‚Ä‚¢‚é</title>
+			<title code="0x09">ãŸã ã¿ã¤ã‚ã¦ã„ã‚‹</title>
 			<title code="0x0b">Sheaf Of Arrows</title>
 			<title code="0x0c">Melee</title>
 			<title code="0x0d">Money Maker</title>
-			<title code="0x0e">‹u‚ÌŒü‚±‚¤‚Ö</title>
+			<title code="0x0e">ä¸˜ã®å‘ã“ã†ã¸</title>
 			<title code="0x0f">Returned Soldier</title>
-			<title code="0x01">‹È–¼•s–¾</title>
+			<title code="0x01">æ›²åä¸æ˜</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] First Queen II: Sabaku no Joou (ƒtƒ@[ƒXƒgƒNƒB[ƒ“II -»”™‚Ì—‰¤-)</name>
+		<name>[X68000] First Queen II: Sabaku no Joou (ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¯ã‚£ãƒ¼ãƒ³II -ç ‚æ¼ ã®å¥³ç‹-)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Kure Software Koubou</driveralias>
 		<options>

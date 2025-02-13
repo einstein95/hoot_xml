@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,7 +34,7 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //ウィンキーソフト -->
+	<!-- //繧ｦ繧｣繝ｳ繧ｭ繝ｼ繧ｽ繝輔ヨ -->
 	<game>
 		<name>[X68000] Olteus 2 (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
@@ -84,12 +84,12 @@
 			<rom type="code" offset="0x9000">DRIVER</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">オープニング</title>
-			<title code="0x01">ゲーム中BGM</title>
+			<title code="0x00">繧ｪ繝ｼ繝励ル繝ｳ繧ｰ</title>
+			<title code="0x01">繧ｲ繝ｼ繝荳ｭBGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tenchi wo Kurau: Makai Sangokushi (天地を喰らう －魔界三国志－) (YM2203)</name>
+		<name>[PC-8801] Tenchi wo Kurau: Makai Sangokushi (螟ｩ蝨ｰ繧貞眠繧峨≧ �ｼ埼ｭ皮阜荳牙嵜蠢暦ｼ�) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Winkysoft</driveralias>
 		<options>
@@ -453,7 +453,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] アメリカンサクセス(OPLL)</name>
+		<name>[MSX] 繧｢繝｡繝ｪ繧ｫ繝ｳ繧ｵ繧ｯ繧ｻ繧ｹ(OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
@@ -471,12 +471,12 @@
 			<rom type="bgm"  offset="0x01">MUS1.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">タイトル</title>
-			<title code="0x00">メインBGM</title>
+			<title code="0x01">繧ｿ繧､繝医Ν</title>
+			<title code="0x00">繝｡繧､繝ｳBGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] アメリカンサクセス(PSG)</name>
+		<name>[MSX] 繧｢繝｡繝ｪ繧ｫ繝ｳ繧ｵ繧ｯ繧ｻ繧ｹ(PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
@@ -493,12 +493,12 @@
 			<rom type="bgm"  offset="0x01">MUS1.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">タイトル</title>
-			<title code="0x00">メインBGM</title>
+			<title code="0x01">繧ｿ繧､繝医Ν</title>
+			<title code="0x00">繝｡繧､繝ｳBGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] あかんべドラゴン(OPLL)</name>
+		<name>[MSX] 縺ゅ°繧薙∋繝峨Λ繧ｴ繝ｳ(OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>
@@ -534,7 +534,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] あかんべドラゴン(PSG)</name>
+		<name>[MSX] 縺ゅ°繧薙∋繝峨Λ繧ｴ繝ｳ(PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Winkysoft</driveralias>
 		<options>

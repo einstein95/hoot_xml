@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //COCKTAIL SOFT -->
 	<game>
-		<name>[X68000] Cosmic Psycho (ƒRƒYƒ~ƒbƒNEƒTƒCƒR) (YM2151+MSM6258)</name>
+		<name>[X68000] Cosmic Psycho (ã‚³ã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚µã‚¤ã‚³) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<romlist archive="cos68snd">
@@ -107,7 +107,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Mayumi (‚Ü‚ä‚İ) (YM2151+MSM6258)</name>
+		<name>[X68000] Mayumi (ã¾ã‚†ã¿) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -140,7 +140,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Can Can Bunny (‚«‚á‚ñ‚«‚á‚ñƒoƒj[) (YM2151+MSM6258)</name>
+		<name>[X68000] Can Can Bunny (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -151,36 +151,36 @@
 			<rom type="x" offset="0x10000">bunny.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹ / ”ƒ‚¢•¨</title>
-			<title code="0x06">©º</title>
-			<title code="0x02">’†Œ´—B</title>
-			<title code="0x03">X‘º”ü‹M</title>
-			<title code="0x05">‰Íˆä–—¢“Ş</title>
-			<title code="0x07">”’’¹</title>
-			<title code="0x08">“n•Ó–ƒ”ü</title>
-			<title code="0x04">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ« / è²·ã„ç‰©</title>
+			<title code="0x06">è‡ªå®¤</title>
+			<title code="0x02">ä¸­åŸå”¯</title>
+			<title code="0x03">æ£®æ‘ç¾è²´</title>
+			<title code="0x05">æ²³äº•æº€é‡Œå¥ˆ</title>
+			<title code="0x07">ç™½é³¥é¦™</title>
+			<title code="0x08">æ¸¡è¾ºéº»ç¾</title>
+			<title code="0x04">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Can Can Bunny: Superior (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒXƒyƒŠƒI[ƒ‹) (YM2151+MSM6258)</name>
+		<name>[X68000] Can Can Bunny: Superior (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¹ãƒšãƒªã‚ªãƒ¼ãƒ«) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<romlist archive="cbs68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
-			<rom type="code" offset="0x24000">UMIN°1.M</rom>
-			<rom type="code" offset="0x28000">UMIN°2.M</rom>
-			<rom type="code" offset="0x2c000">UMIN°3.M</rom>
-			<rom type="code" offset="0x30000">UMIN°4.M</rom>
-			<rom type="code" offset="0x34000">UMIN°5.M</rom>
-			<rom type="code" offset="0x38000">UMIN°6.M</rom>
-			<rom type="code" offset="0x3c000">UMIN°7.M</rom>
-			<rom type="code" offset="0x40000">UMIN°8.M</rom>
-			<rom type="code" offset="0x44000">UMIN°9.M</rom>
-			<rom type="code" offset="0x48000">UMIN°A.M</rom>
-			<rom type="code" offset="0x4c000">UMIN°B.M</rom>
-			<rom type="code" offset="0x50000">UMIN°C.M</rom>
-			<rom type="code" offset="0x54000">UMIN°D.M</rom>
+			<rom type="code" offset="0x24000">UMINï½°1.M</rom>
+			<rom type="code" offset="0x28000">UMINï½°2.M</rom>
+			<rom type="code" offset="0x2c000">UMINï½°3.M</rom>
+			<rom type="code" offset="0x30000">UMINï½°4.M</rom>
+			<rom type="code" offset="0x34000">UMINï½°5.M</rom>
+			<rom type="code" offset="0x38000">UMINï½°6.M</rom>
+			<rom type="code" offset="0x3c000">UMINï½°7.M</rom>
+			<rom type="code" offset="0x40000">UMINï½°8.M</rom>
+			<rom type="code" offset="0x44000">UMINï½°9.M</rom>
+			<rom type="code" offset="0x48000">UMINï½°A.M</rom>
+			<rom type="code" offset="0x4c000">UMINï½°B.M</rom>
+			<rom type="code" offset="0x50000">UMINï½°C.M</rom>
+			<rom type="code" offset="0x54000">UMINï½°D.M</rom>
 			<rom type="code" offset="0x58000">END_1.M</rom>
 			<rom type="code" offset="0x60000">END_2.M</rom>
 			<rom type="code" offset="0x64000">END_3.M</rom>
@@ -188,26 +188,26 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0000">Stop the Music</title>
-			<title code="0x0215">UMIN°1.M</title>
-			<title code="0x0315">UMIN°2.M</title>
-			<title code="0x0415">UMIN°3.M</title>
-			<title code="0x0515">UMIN°4.M</title>
-			<title code="0x0615">UMIN°5.M</title>
-			<title code="0x0715">UMIN°6.M</title>
-			<title code="0x0815">UMIN°7.M</title>
-			<title code="0x0915">UMIN°8.M</title>
-			<title code="0x0a15">UMIN°9.M</title>
-			<title code="0x0b15">UMIN°A.M</title>
-			<title code="0x0c15">UMIN°B.M</title>
-			<title code="0x0d15">UMIN°C.M</title>
-			<title code="0x0e15">UMIN°D.M</title>
+			<title code="0x0215">UMINï½°1.M</title>
+			<title code="0x0315">UMINï½°2.M</title>
+			<title code="0x0415">UMINï½°3.M</title>
+			<title code="0x0515">UMINï½°4.M</title>
+			<title code="0x0615">UMINï½°5.M</title>
+			<title code="0x0715">UMINï½°6.M</title>
+			<title code="0x0815">UMINï½°7.M</title>
+			<title code="0x0915">UMINï½°8.M</title>
+			<title code="0x0a15">UMINï½°9.M</title>
+			<title code="0x0b15">UMINï½°A.M</title>
+			<title code="0x0c15">UMINï½°B.M</title>
+			<title code="0x0d15">UMINï½°C.M</title>
+			<title code="0x0e15">UMINï½°D.M</title>
 			<title code="0x0f15">Cat's Eye in a Wine-Glass</title>
-			<title code="0x1115">‚¹‚ß‚Ä¡ªA‰Ø‚â‚©‚É......</title>
+			<title code="0x1115">ã›ã‚ã¦ä»Šå®µã€è¯ã‚„ã‹ã«......</title>
 			<title code="0x1215">A.Y.A.</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Can Can Bunny: Premiere (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒvƒ‹ƒ~ƒG[ƒ‹) (YM2151+MSM6258)</name>
+		<name>[X68000] Can Can Bunny: Premiere (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ãƒ—ãƒ«ãƒŸã‚¨ãƒ¼ãƒ«) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -234,9 +234,9 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">ope.uso</title>
-			<title code="0x01">¯‚ÌƒvƒŒƒ[ƒ“ƒg</title>
-			<title code="0x02">—[•é‚ê‚ÌŠX</title>
-			<title code="0x03">‚ ‚Ì–º‚Ì‚¢‚½‰Ä</title>
+			<title code="0x01">æ˜Ÿã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ</title>
+			<title code="0x02">å¤•æš®ã‚Œã®è¡—</title>
+			<title code="0x03">ã‚ã®å¨˜ã®ã„ãŸå¤</title>
 			<title code="0x04">can_04.uso</title>
 			<title code="0x05">dc_01p.uso</title>
 			<title code="0x06">dc_aka.uso</title>
@@ -249,7 +249,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Can Can Bunny: Extra (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒGƒNƒXƒgƒ‰) (YM2151+MSM6258)</name>
+		<name>[X68000] Can Can Bunny: Extra (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¨ã‚¯ã‚¹ãƒˆãƒ©) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -272,7 +272,7 @@
 			<rom type="code" offset="0x0bd000">can5_10.uso</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">kyarun™</title>
+			<title code="0x01">kyarunâ˜†</title>
 			<title code="0x02">waiking town</title>
 			<title code="0x03">bright star</title>
 			<title code="0x04">night</title>
@@ -285,7 +285,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Kerakeraboshi (‚¯‚ç‚¯‚ç¯) (YM2151+MSM6258)</name>
+		<name>[X68000] Kerakeraboshi (ã‘ã‚‰ã‘ã‚‰æ˜Ÿ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -312,8 +312,8 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Illumina! (ƒCƒ‹ƒ~ƒi!) (YM2151+MSM6258)</name>
-		<!-- COSMIC PSYCHO‚Ìƒhƒ‰ƒCƒo‚ğ—¬—p -->
+		<name>[X68000] Illumina! (ã‚¤ãƒ«ãƒŸãƒŠ!) (YM2151+MSM6258)</name>
+		<!-- COSMIC PSYCHOã®ãƒ‰ãƒ©ã‚¤ãƒã‚’æµç”¨ -->
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<romlist archive="illumi68snd">
@@ -353,7 +353,7 @@
 			<rom type="code" offset="0x126000">Zon.uso</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">ƒCƒ‹ƒ~ƒi</title>
+			<title code="0x11">ã‚¤ãƒ«ãƒŸãƒŠ</title>
 			<title code="0x01">Good Looking</title>
 			<title code="0x02">Mind! Out!</title>
 			<title code="0x03">Bara.uso</title>
@@ -362,12 +362,12 @@
 			<title code="0x06">Departure</title>
 			<title code="0x08">Gmol.uso</title>
 			<title code="0x09">Battle Field</title>
-			<title code="0x0a">—Ìå‚ÌŠÙ</title>
+			<title code="0x0a">é ˜ä¸»ã®é¤¨</title>
 			<title code="0x0c">Bloody Love</title>
 			<title code="0x0f">Merou.uso</title>
 			<title code="0x10">Nodo.uso</title>
 			<title code="0x12">Game Over</title>
-			<title code="0x13">¸‚í‚ê‚½ŠÔ</title>
+			<title code="0x13">å¤±ã‚ã‚ŒãŸæ™‚é–“</title>
 			<title code="0x14">Prog.uso</title>
 			<title code="0x15">R5.uso</title>
 			<title code="0x16">Rb.uso</title>
@@ -387,7 +387,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Will no Dengon (ƒEƒBƒ‹‚Ì“`Œ¾) (YM2151+MSM6258)</name>
+		<name>[X68000] Will no Dengon (ã‚¦ã‚£ãƒ«ã®ä¼è¨€) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -422,7 +422,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sekai de Ichiban Kimi ga Suki! (¢ŠE‚Å‚¢‚¿‚Î‚ñŒN‚ª‚·‚«!) (YM2151+MSM6258)</name>
+		<name>[X68000] Sekai de Ichiban Kimi ga Suki! (ä¸–ç•Œã§ã„ã¡ã°ã‚“å›ãŒã™ã!) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<romlist archive="sekai68snd">
@@ -435,12 +435,12 @@
 			<rom type="code" offset="0x26000">CITYPOP.MCO</rom>
 			<rom type="code" offset="0x28000">DOJI.MCO</rom>
 			<rom type="code" offset="0x2a000">EPIANO.MCO</rom>
-			<rom type="code" offset="0x2c000">E°11.MCO</rom>
+			<rom type="code" offset="0x2c000">Eï½°11.MCO</rom>
 			<rom type="code" offset="0x2e000">G26.MCO</rom>
 			<rom type="code" offset="0x30000">HASHIRU.MCO</rom>
-			<rom type="code" offset="0x32000">MYR°H.MCO</rom>
+			<rom type="code" offset="0x32000">MYRï½°H.MCO</rom>
 			<rom type="code" offset="0x34000">OPEN.MCO</rom>
-			<rom type="code" offset="0x36000">REGE°AK.MCO</rom>
+			<rom type="code" offset="0x36000">REGEï½°AK.MCO</rom>
 			<rom type="code" offset="0x38000">TV9.MCO</rom>
 			<rom type="code" offset="0x3a000">TVOP4.MCO</rom>
 		</romlist>
@@ -451,49 +451,49 @@
 			<title code="0x04">CITYPOP.MCO</title>
 			<title code="0x05">DOJI.MCO</title>
 			<title code="0x06">EPIANO.MCO</title>
-			<title code="0x07">E°11.MCO</title>
+			<title code="0x07">Eï½°11.MCO</title>
 			<title code="0x08">G26.MCO</title>
 			<title code="0x09">HASHIRU.MCO</title>
-			<title code="0x0a">MYR°H.MCO</title>
+			<title code="0x0a">MYRï½°H.MCO</title>
 			<title code="0x0b">OPEN.MCO</title>
-			<title code="0x0c">REGE°AK.MCO</title>
+			<title code="0x0c">REGEï½°AK.MCO</title>
 			<title code="0x0d">TV9.MCO</title>
 			<title code="0x0e">TVOP4.MCO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Harenochi Oosawagi! (°‚ê‚Ì‚¿‚¨‚¨‚³‚í‚¬!) (YM2151+MSM6258)</name>
+		<name>[X68000] Harenochi Oosawagi! (æ™´ã‚Œã®ã¡ãŠãŠã•ã‚ã!) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<romlist archive="hare68snd">
 			<rom type="code">opmdrv.bin</rom>
 			<rom type="x" offset="0x08000">OPMDRV.X</rom>
-			<rom type="code" offset="0x24000">HO°OP.M</rom>
-			<rom type="code" offset="0x28000">HO°1.M</rom>
-			<rom type="code" offset="0x2c000">HO°2.M</rom>
-			<rom type="code" offset="0x30000">HO°3.M</rom>
-			<rom type="code" offset="0x34000">HO°4.M</rom>
-			<rom type="code" offset="0x38000">HO°5.M</rom>
-			<rom type="code" offset="0x3c000">HO°6.M</rom>
-			<rom type="code" offset="0x40000">HO°END.M</rom>
+			<rom type="code" offset="0x24000">HOï½°OP.M</rom>
+			<rom type="code" offset="0x28000">HOï½°1.M</rom>
+			<rom type="code" offset="0x2c000">HOï½°2.M</rom>
+			<rom type="code" offset="0x30000">HOï½°3.M</rom>
+			<rom type="code" offset="0x34000">HOï½°4.M</rom>
+			<rom type="code" offset="0x38000">HOï½°5.M</rom>
+			<rom type="code" offset="0x3c000">HOï½°6.M</rom>
+			<rom type="code" offset="0x40000">HOï½°END.M</rom>
 			<rom type="code" offset="0x44000">TEL.M</rom>
 			<rom type="code" offset="0x48000">play.opm</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x0000">Stop the Music</title>
-			<title code="0x020b">HO°OP.M</title>
-			<title code="0x030b">HO°1.M</title>
-			<title code="0x040b">HO°2.M</title>
-			<title code="0x050b">HO°3.M</title>
-			<title code="0x060b">HO°4.M</title>
-			<title code="0x070b">HO°5.M</title>
-			<title code="0x080b">HO°6.M</title>
-			<title code="0x090b">HO°END.M</title>
+			<title code="0x020b">HOï½°OP.M</title>
+			<title code="0x030b">HOï½°1.M</title>
+			<title code="0x040b">HOï½°2.M</title>
+			<title code="0x050b">HOï½°3.M</title>
+			<title code="0x060b">HOï½°4.M</title>
+			<title code="0x070b">HOï½°5.M</title>
+			<title code="0x080b">HOï½°6.M</title>
+			<title code="0x090b">HOï½°END.M</title>
 			<title code="0x0a0b">TEL.M</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sotsugyou Shashin / Miki (‘²‹ÆÊ^E”ü•P) (YM2151+MSM6258)</name>
+		<name>[X68000] Sotsugyou Shashin / Miki (å’æ¥­å†™çœŸãƒ»ç¾å§«) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Cocktail Soft</driveralias>
 		<options>
@@ -523,7 +523,7 @@
 			<title code="0x05">M_62.USO</title>
 			<title code="0x06">NAZO.USO</title>
 			<title code="0x08">ST6.USO</title>
-			<title code="0x03">‚Æ‚Ü‚ç‚È‚¢ƒƒŠ[ƒS[ƒ‰ƒ“ƒh</title>
+			<title code="0x03">ã¨ã¾ã‚‰ãªã„ãƒ¡ãƒªãƒ¼ã‚´ãƒ¼ãƒ©ãƒ³ãƒ‰</title>
 			<title code="0x09">KAIKE.USO</title>
 			<title code="0x0a">MAI.USO</title>
 			<title code="0x0b">MORN.USO</title>
@@ -531,7 +531,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Illumina! (ƒCƒ‹ƒ~ƒi!) (YM2203)</name>
+		<name>[PC-8801] Illumina! (ã‚¤ãƒ«ãƒŸãƒŠ!) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<romlist archive="illumina">
@@ -571,9 +571,9 @@
 		<titlelist>
 			<title code="0x00">Hard Struggle</title>
 			<title code="0x01">A104</title>
-			<title code="0x02">¸‚í‚ê‚½ŠÔ</title>
+			<title code="0x02">å¤±ã‚ã‚ŒãŸæ™‚é–“</title>
 			<title code="0x03">A106</title>
-			<title code="0x04">—Ìå‚ÌŠÙ</title>
+			<title code="0x04">é ˜ä¸»ã®é¤¨</title>
 			<title code="0x05">Battle Field</title>
 			<title code="0x06">Mind! Out!</title>
 			<title code="0x07">A110</title>
@@ -588,7 +588,7 @@
 			<title code="0x10">A119</title>
 			<title code="0x11">A120</title>
 			<title code="0x12">Good Looking</title>
-			<title code="0x13">ƒCƒ‹ƒ~ƒi</title>
+			<title code="0x13">ã‚¤ãƒ«ãƒŸãƒŠ</title>
 			<title code="0x14">A123</title>
 			<title code="0x15">A124</title>
 			<title code="0x16">A125</title>
@@ -602,7 +602,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Cosmic Psycho (ƒRƒYƒ~ƒbƒNEƒTƒCƒR) (YM2203)</name>
+		<name>[PC-8801] Cosmic Psycho (ã‚³ã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚µã‚¤ã‚³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -662,7 +662,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Liberty (ƒŠƒoƒeƒB[) (YM2203)</name>
+		<name>[PC-8801] Liberty (ãƒªãƒãƒ†ã‚£ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -691,7 +691,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Can Can Bunny (‚«‚á‚ñ‚«‚á‚ñƒoƒj[) (YM2203)</name>
+		<name>[PC-8801] Can Can Bunny (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -713,18 +713,18 @@
 			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x05">©º / ”ƒ‚¢•¨</title>
-			<title code="0x01">’†Œ´—B</title>
-			<title code="0x02">X‘º”ü‹M</title>
-			<title code="0x04">‰Íˆä–—¢“Ş</title>
-			<title code="0x06">”’’¹</title>
-			<title code="0x07">“n•Ó–ƒ”ü</title>
-			<title code="0x03">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x05">è‡ªå®¤ / è²·ã„ç‰©</title>
+			<title code="0x01">ä¸­åŸå”¯</title>
+			<title code="0x02">æ£®æ‘ç¾è²´</title>
+			<title code="0x04">æ²³äº•æº€é‡Œå¥ˆ</title>
+			<title code="0x06">ç™½é³¥é¦™</title>
+			<title code="0x07">æ¸¡è¾ºéº»ç¾</title>
+			<title code="0x03">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Can Can Bunny: Superior (‚«‚á‚ñ‚«‚á‚ñƒoƒj[EƒXƒyƒŠƒI[ƒ‹) (YM2203)</name>
+		<name>[PC-8801] Can Can Bunny: Superior (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ãƒ»ã‚¹ãƒšãƒªã‚ªãƒ¼ãƒ«) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<romlist archive="can2_88">
@@ -761,7 +761,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Sekai de Ichiban Kimi ga Suki! (¢ŠE‚Å‚¢‚¿‚Î‚ñŒN‚ª‚·‚«!) (YM2203)</name>
+		<name>[PC-8801] Sekai de Ichiban Kimi ga Suki! (ä¸–ç•Œã§ã„ã¡ã°ã‚“å›ãŒã™ã!) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -801,7 +801,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Sailor-fuku Senshi Ferris (ƒZ[ƒ‰[•ímƒtƒFƒŠƒX) (YM2203)</name>
+		<name>[PC-8801] Sailor-fuku Senshi Ferris (ã‚»ãƒ¼ãƒ©ãƒ¼æœæˆ¦å£«ãƒ•ã‚§ãƒªã‚¹) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -836,7 +836,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Angel (ƒGƒ“ƒWƒFƒ‹) (YM2203)</name>
+		<name>[PC-9801] Angel (ã‚¨ãƒ³ã‚¸ã‚§ãƒ«) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -866,13 +866,13 @@
 			<title code="0x14">AG05.USO</title>
 			<title code="0x15">AG06.USO</title>
 			<title code="0x16">AG07.USO</title>
-			<title code="0x17">–€“V˜O‚Ì‘Â“Vg</title>
+			<title code="0x17">æ‘©å¤©æ¥¼ã®å •å¤©ä½¿</title>
 			<title code="0x18">AG09.USO</title>
 			<title code="0x19">AG10.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Cosmic Psycho (ƒRƒYƒ~ƒbƒNEƒTƒCƒR) (YM2203)</name>
+		<name>[PC-9801] Cosmic Psycho (ã‚³ã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚µã‚¤ã‚³) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -991,7 +991,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Demon City (ƒf[ƒ‚ƒ“ƒVƒeƒB) (YM2203)</name>
+		<name>[PC-9801] Demon City (ãƒ‡ãƒ¼ãƒ¢ãƒ³ã‚·ãƒ†ã‚£) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1013,7 +1013,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x10">COCKTAIL.USO</title>
-			<title code="0x11">ƒCƒmƒZƒ“ƒgEƒ\ƒ‹ƒWƒƒ[</title>
+			<title code="0x11">ã‚¤ãƒã‚»ãƒ³ãƒˆãƒ»ã‚½ãƒ«ã‚¸ãƒ£ãƒ¼</title>
 			<title code="0x12">DM02.USO</title>
 			<title code="0x13">DM03.USO</title>
 			<title code="0x14">DM04.USO</title>
@@ -1023,7 +1023,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Doki Doki Vacation: Kirameku Kisetsu no Naka de (DOKIDOKIƒoƒP[ƒVƒ‡ƒ“ `‚«‚ç‚ß‚­‹Gß‚Ì’†‚Å`) (YM2203)</name>
+		<name>[PC-9801] Doki Doki Vacation: Kirameku Kisetsu no Naka de (DOKIDOKIãƒã‚±ãƒ¼ã‚·ãƒ§ãƒ³ ï½ãã‚‰ã‚ãå­£ç¯€ã®ä¸­ã§ï½) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1077,7 +1077,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] DoraDora Emotion: Seihaiden (DORADORAƒGƒ‚[ƒVƒ‡ƒ“ `¹”v“``) (YM2203)</name>
+		<name>[PC-9801] DoraDora Emotion: Seihaiden (DORADORAã‚¨ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ ï½è–ç‰Œä¼ï½) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1107,7 +1107,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] JYB: Mehame Haruuga wa Himitsu no Jumon (ƒWƒƒƒCƒu `ƒƒnƒEƒnƒ‹[ƒK‚Í”é–§‚Ìô•¶`)</name>
+		<name>[PC-9801] JYB: Mehame Haruuga wa Himitsu no Jumon (ã‚¸ãƒ£ã‚¤ãƒ– ï½ãƒ¡ãƒãƒ¡ãƒ»ãƒãƒ«ãƒ¼ã‚¬ã¯ç§˜å¯†ã®å‘ªæ–‡ï½)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1148,7 +1148,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mayumi (‚Ü‚ä‚İ) (YM2203)</name>
+		<name>[PC-9801] Mayumi (ã¾ã‚†ã¿) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1196,7 +1196,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Nike (ƒiƒCƒL) (YM2203)</name>
+		<name>[PC-9801] Nike (ãƒŠã‚¤ã‚­) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1271,7 +1271,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pia Carrot e Youkoso!! We've been Waiting for you (PiaƒLƒƒƒƒbƒg‚Ö‚æ‚¤‚±‚»!! We've been Waiting for you) (YM2203)</name>
+		<name>[PC-9801] Pia Carrot e Youkoso!! We've been Waiting for you (Piaã‚­ãƒ£ãƒ­ãƒƒãƒˆã¸ã‚ˆã†ã“ã!! We've been Waiting for you) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1299,24 +1299,24 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">‰ÄFƒJƒNƒeƒ‹‚ÅŠ£”t</title>
-			<title code="0x11">ƒgƒƒsƒJƒ‹ƒXƒ}ƒCƒ‹</title>
-			<title code="0x12">–Ø‰k‚ê“ú‚Ì‰º‚Å</title>
-			<title code="0x13">S‚ğ”`‚©‚È‚¢‚Å</title>
-			<title code="0x14">—â‚½‚­‚Ä—D‚µ‚­‚Ä</title>
-			<title code="0x15">—×‚É‚¢‚Ä‚à‚¢‚¢?</title>
+			<title code="0x10">å¤è‰²ã‚«ã‚¯ãƒ†ãƒ«ã§ä¹¾æ¯</title>
+			<title code="0x11">ãƒˆãƒ­ãƒ”ã‚«ãƒ«ã‚¹ãƒã‚¤ãƒ«</title>
+			<title code="0x12">æœ¨æ´©ã‚Œæ—¥ã®ä¸‹ã§</title>
+			<title code="0x13">å¿ƒã‚’è¦—ã‹ãªã„ã§</title>
+			<title code="0x14">å†·ãŸãã¦å„ªã—ãã¦</title>
+			<title code="0x15">éš£ã«ã„ã¦ã‚‚ã„ã„?</title>
 			<title code="0x16">Don't Call Teacher</title>
-			<title code="0x17">‚¢‚ç‚Á‚µ‚á‚¢‚Ü‚¹!</title>
-			<title code="0x18">PiaƒLƒƒƒƒbƒg‚Ö‚æ‚¤‚±‚»</title>
-			<title code="0x19">•ø‚«‚µ‚ß‚Ä‚Ù‚µ‚­‚Ä</title>
-			<title code="0x1a">‚æ‚¤‚±‚»A‰Ä‹x‚İ!</title>
-			<title code="0x1b">¡“ú‚àŠæ’£‚Á‚Ä!</title>
-			<title code="0x1c">ŒN‚Æ–²‚Ì’†‚Å</title>
-			<title code="0x1d">‚»‚µ‚Ä...‚ ‚è‚ª‚Æ‚¤</title>
+			<title code="0x17">ã„ã‚‰ã£ã—ã‚ƒã„ã¾ã›!</title>
+			<title code="0x18">Piaã‚­ãƒ£ãƒ­ãƒƒãƒˆã¸ã‚ˆã†ã“ã</title>
+			<title code="0x19">æŠ±ãã—ã‚ã¦ã»ã—ãã¦</title>
+			<title code="0x1a">ã‚ˆã†ã“ãã€å¤ä¼‘ã¿!</title>
+			<title code="0x1b">ä»Šæ—¥ã‚‚é ‘å¼µã£ã¦!</title>
+			<title code="0x1c">å›ã¨å¤¢ã®ä¸­ã§</title>
+			<title code="0x1d">ãã—ã¦...ã‚ã‚ŠãŒã¨ã†</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] True Heart (ƒgƒDƒ‹[ƒn[ƒg) (YM2203)</name>
+		<name>[PC-9801] True Heart (ãƒˆã‚¥ãƒ«ãƒ¼ãƒãƒ¼ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1350,7 +1350,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kerakeraboshi (‚¯‚ç‚¯‚ç¯) (YM2203)</name>
+		<name>[PC-9801] Kerakeraboshi (ã‘ã‚‰ã‘ã‚‰æ˜Ÿ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1380,7 +1380,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny: Superior (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒXƒyƒŠƒI[ƒ‹) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny: Superior (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¹ãƒšãƒªã‚ªãƒ¼ãƒ«) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1435,7 +1435,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny: Spirits (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒXƒsƒŠƒbƒc) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny: Spirits (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¹ãƒ”ãƒªãƒƒãƒ„) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1463,23 +1463,23 @@
 		</romlist>
 		<titlelist>
 			<title code="0x10">Moonlight Magic</title>
-			<title code="0x19">DŠïS</title>
-			<title code="0x16">ƒoƒP[ƒVƒ‡ƒ“</title>
-			<title code="0x12">ƒ‰ƒ”EƒAƒtƒFƒAƒu</title>
-			<title code="0x1d">ƒvƒƒ]ƒ“</title>
+			<title code="0x19">å¥½å¥‡å¿ƒ</title>
+			<title code="0x16">ãƒã‚±ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x12">ãƒ©ãƒ´ãƒ»ã‚¢ãƒ•ã‚§ã‚¢ãƒ–</title>
+			<title code="0x1d">ãƒ—ãƒ¯ã‚¾ãƒ³</title>
 			<title code="0x1b">Dry Martini</title>
 			<title code="0x13">Side Seat</title>
-			<title code="0x1a">ƒAƒEƒ^[EƒŠ[ƒt</title>
-			<title code="0x17">_X‚Ì–²Œ¶‹½</title>
-			<title code="0x14">ƒGƒNƒXƒvƒƒŒ[ƒVƒ‡ƒ“</title>
-			<title code="0x11">ƒƒ‚ƒŠƒAƒ‹</title>
-			<title code="0x18">ƒzƒƒCƒgEƒxƒ‹</title>
-			<title code="0x15">ƒ€[ƒ“EƒiƒCƒg</title>
+			<title code="0x1a">ã‚¢ã‚¦ã‚¿ãƒ¼ãƒ»ãƒªãƒ¼ãƒ•</title>
+			<title code="0x17">ç¥ã€…ã®å¤¢å¹»éƒ·</title>
+			<title code="0x14">ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x11">ãƒ¡ãƒ¢ãƒªã‚¢ãƒ«</title>
+			<title code="0x18">ãƒ›ãƒ¯ã‚¤ãƒˆãƒ»ãƒ™ãƒ«</title>
+			<title code="0x15">ãƒ ãƒ¼ãƒ³ãƒ»ãƒŠã‚¤ãƒˆ</title>
 			<title code="0x1c">SE04.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny: Premiere (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒvƒ‹ƒ~ƒG[ƒ‹) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny: Premiere (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ãƒ—ãƒ«ãƒŸã‚¨ãƒ¼ãƒ«) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1509,9 +1509,9 @@
 		</romlist>
 		<titlelist>
 			<title code="0x1b">OPE.USO</title>
-			<title code="0x10">¯‚ÌƒvƒŒƒ[ƒ“ƒg</title>
-			<title code="0x11">—[•é‚ê‚ÌŠX</title>
-			<title code="0x12">‚ ‚Ì–º‚Ì‚¢‚½‰Ä</title>
+			<title code="0x10">æ˜Ÿã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ</title>
+			<title code="0x11">å¤•æš®ã‚Œã®è¡—</title>
+			<title code="0x12">ã‚ã®å¨˜ã®ã„ãŸå¤</title>
 			<title code="0x13">CAN_04.USO</title>
 			<title code="0x14">DC_01P.USO</title>
 			<title code="0x15">DC_AKA.USO</title>
@@ -1526,7 +1526,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny: Extra (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒGƒNƒXƒgƒ‰) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny: Extra (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¨ã‚¯ã‚¹ãƒˆãƒ©) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1555,7 +1555,7 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">Kyarun™</title>
+			<title code="0x10">Kyarunâ˜†</title>
 			<title code="0x11">Waking Town</title>
 			<title code="0x12">Bright Star</title>
 			<title code="0x13">Night</title>
@@ -1574,7 +1574,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny: Limited 5 1/2 (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒŠƒ~ƒeƒbƒh 5 1/2) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny: Limited 5 1/2 (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ãƒªãƒŸãƒ†ãƒƒãƒ‰ 5 1/2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1606,29 +1606,29 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x15">I MEET YOU `­‚µ‚¾‚¯ƒXƒLƒƒƒ“ƒ_ƒ‹`</title>
-			<title code="0x13">6Œ‚Ì°‚ê‚½ŒßŒã‚Ì•—‚Ì‚æ‚¤‚É `KYARUN`</title>
-			<title code="0x14">”R‚¦‚ëƒGƒNƒXƒg</title>
-			<title code="0x16">¯‚ÌƒvƒŒƒ[ƒ“ƒg</title>
-			<title code="0x17">—[•é‚ê‚ÌŠX</title>
-			<title code="0x18">‚ ‚Ì–º‚Ì‚¢‚½‰Ä</title>
-			<title code="0x20">ƒƒ“ƒOƒ‰[ƒh‚Ì‘MŒõ</title>
-			<title code="0x11">–€“V˜O‚Ì‘Â“Vg</title>
-			<title code="0x1a">‚Æ‚Ü‚ç‚È‚¢ƒƒŠ[ƒS[ƒ‰ƒ“ƒh</title>
-			<title code="0x1b">Œ–é‚ÌƒgƒLƒƒL‚Ü‚¶‚Á‚­</title>
-			<title code="0x1f">×—´‚Ì_“a</title>
-			<title code="0x19">ƒCƒmƒZƒ“ƒgEƒ\ƒ‹ƒWƒƒ[</title>
-			<title code="0x1d">—ö‚Ìƒvƒ‰ƒYƒ}100%</title>
-			<title code="0x1e">4ŸŒ³–À˜H‚Å•ß‚Ü‚¦‚Ä</title>
-			<title code="0x10">ƒVƒ‹ƒo[EƒŒƒCƒ“</title>
-			<title code="0x12">ƒ‚[ƒjƒ“ƒOEƒR[ƒ‹</title>
+			<title code="0x15">I MEET YOU ï½å°‘ã—ã ã‘ã‚¹ã‚­ãƒ£ãƒ³ãƒ€ãƒ«ï½</title>
+			<title code="0x13">6æœˆã®æ™´ã‚ŒãŸåˆå¾Œã®é¢¨ã®ã‚ˆã†ã« ï½KYARUNï½</title>
+			<title code="0x14">ç‡ƒãˆã‚ã‚¨ã‚¯ã‚¹ãƒˆ</title>
+			<title code="0x16">æ˜Ÿã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ</title>
+			<title code="0x17">å¤•æš®ã‚Œã®è¡—</title>
+			<title code="0x18">ã‚ã®å¨˜ã®ã„ãŸå¤</title>
+			<title code="0x20">ãƒ­ãƒ³ã‚°ãƒ©ãƒ¼ãƒ‰ã®é–ƒå…‰</title>
+			<title code="0x11">æ‘©å¤©æ¥¼ã®å •å¤©ä½¿</title>
+			<title code="0x1a">ã¨ã¾ã‚‰ãªã„ãƒ¡ãƒªãƒ¼ã‚´ãƒ¼ãƒ©ãƒ³ãƒ‰</title>
+			<title code="0x1b">æœˆå¤œã®ãƒˆã‚­ãƒ¡ã‚­ã¾ã˜ã£ã</title>
+			<title code="0x1f">é‚ªé¾ã®ç¥æ®¿</title>
+			<title code="0x19">ã‚¤ãƒã‚»ãƒ³ãƒˆãƒ»ã‚½ãƒ«ã‚¸ãƒ£ãƒ¼</title>
+			<title code="0x1d">æ‹ã®ãƒ—ãƒ©ã‚ºãƒ100%</title>
+			<title code="0x1e">4æ¬¡å…ƒè¿·è·¯ã§æ•ã¾ãˆã¦</title>
+			<title code="0x10">ã‚·ãƒ«ãƒãƒ¼ãƒ»ãƒ¬ã‚¤ãƒ³</title>
+			<title code="0x12">ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ãƒ»ã‚³ãƒ¼ãƒ«</title>
 			<title code="0x1c">MAZIK 2 U</title>
 			<title code="0x21">CAN5S_01.USO</title>
 			<title code="0x22">CAN5S_02.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kurukuru Party: Princess Quest (‚­‚é‚­‚é™Party `ƒvƒŠƒ“ƒZƒXEƒNƒGƒXƒg`) (YM2203)</name>
+		<name>[PC-9801] Kurukuru Party: Princess Quest (ãã‚‹ãã‚‹â˜†Party ï½ãƒ—ãƒªãƒ³ã‚»ã‚¹ãƒ»ã‚¯ã‚¨ã‚¹ãƒˆï½) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1653,20 +1653,20 @@
 		</romlist>
 		<titlelist>
 			<title code="0x18">COCKTAIL.USO</title>
-			<title code="0x15">Chatting Room (Œê‚è•”)</title>
-			<title code="0x13">Ranchon (‚ç‚ñ‚¿‚å‚ñ)</title>
+			<title code="0x15">Chatting Room (èªã‚Šéƒ¨)</title>
+			<title code="0x13">Ranchon (ã‚‰ã‚“ã¡ã‚‡ã‚“)</title>
 			<title code="0x11">Le Adventure</title>
-			<title code="0x12">Manmande (‚Ü‚ñ‚Ü‚ñ‚Å`)</title>
+			<title code="0x12">Manmande (ã¾ã‚“ã¾ã‚“ã§ï½)</title>
 			<title code="0x10">Power Play</title>
 			<title code="0x17">Vado diritto?</title>
-			<title code="0x14">Evil Dragon (×—³)</title>
+			<title code="0x14">Evil Dragon (é‚ªç«œ)</title>
 		<!--	<title code="0x16">PQ_SE14.USO</title> -->
 			<title code="0x19">PQ_01.USO</title>
 			<title code="0x1a">PQ_02.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Illumina! (ƒCƒ‹ƒ~ƒi!) (YM2203)</name>
+		<name>[PC-9801] Illumina! (ã‚¤ãƒ«ãƒŸãƒŠ!) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1748,7 +1748,7 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">ƒCƒ‹ƒ~ƒi</title>
+			<title code="0x22">ã‚¤ãƒ«ãƒŸãƒŠ</title>
 			<title code="0x10">Good Looking</title>
 			<title code="0x11">Mind! Out!</title>
 			<title code="0x12">BARA.USO</title>
@@ -1757,12 +1757,12 @@
 			<title code="0x15">Departure</title>
 			<title code="0x18">GMOL.USO</title>
 			<title code="0x19">Battle Field</title>
-			<title code="0x1a">—Ìå‚ÌŠÙ</title>
+			<title code="0x1a">é ˜ä¸»ã®é¤¨</title>
 			<title code="0x1d">Bloody Love</title>
 			<title code="0x20">MEROU.USO</title>
 			<title code="0x21">NODO.USO</title>
 			<title code="0x23">Game Over</title>
-			<title code="0x24">¸‚í‚ê‚½ŠÔ</title>
+			<title code="0x24">å¤±ã‚ã‚ŒãŸæ™‚é–“</title>
 			<title code="0x25">PROG.USO</title>
 			<title code="0x26">R5.USO</title>
 			<title code="0x27">RB.USO</title>
@@ -1787,7 +1787,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Will no Dengon (ƒEƒBƒ‹‚Ì“`Œ¾) (YM2203)</name>
+		<name>[PC-9801] Will no Dengon (ã‚¦ã‚£ãƒ«ã®ä¼è¨€) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1829,7 +1829,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Erotic Baka Novel: Denwa no Bell ga... (ƒGƒƒ`ƒbƒN”n­ƒmƒxƒ‹ “d˜b‚Ìƒxƒ‹‚ª...) (YM2203)</name>
+		<name>[PC-9801] Erotic Baka Novel: Denwa no Bell ga... (ã‚¨ãƒ­ãƒãƒƒã‚¯é¦¬é¹¿ãƒãƒ™ãƒ« é›»è©±ã®ãƒ™ãƒ«ãŒ...) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1862,7 +1862,7 @@
 			<title code="0x12">BAK_OPEN.USO</title>
 			<title code="0x11">BAK_GAME.USO</title>
 			<title code="0x10">BAK_END.USO</title>
-			<title code="0x13">ƒ‚[ƒjƒ“ƒOEƒR[ƒ‹</title>
+			<title code="0x13">ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ãƒ»ã‚³ãƒ¼ãƒ«</title>
 			<title code="0x15">BAK_01.USO</title>
 			<title code="0x16">BAK_02.USO</title>
 			<title code="0x17">BAK_03.USO</title>
@@ -1877,7 +1877,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Erotic Baka Novel 2: Itsuka Dokokade. (ƒGƒƒ`ƒbƒNBAKAƒmƒxƒ‹2 ‚¢‚Â‚©‚Ç‚±‚©‚ÅB) (YM2203)</name>
+		<name>[PC-9801] Erotic Baka Novel 2: Itsuka Dokokade. (ã‚¨ãƒ­ãƒãƒƒã‚¯BAKAãƒãƒ™ãƒ«2 ã„ã¤ã‹ã©ã“ã‹ã§ã€‚) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1933,7 +1933,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Cocktail Soft: Zoukangou (ƒJƒNƒeƒ‹ƒ\ƒtƒg ‘Š§†) (YM2203)</name>
+		<name>[PC-9801] Cocktail Soft: Zoukangou (ã‚«ã‚¯ãƒ†ãƒ«ã‚½ãƒ•ãƒˆ å¢—åˆŠå·) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -1977,7 +1977,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Cocktail Soft: Zoukangou 2 (ƒJƒNƒeƒ‹ƒ\ƒtƒg ‘Š§†2) (YM2203)</name>
+		<name>[PC-9801] Cocktail Soft: Zoukangou 2 (ã‚«ã‚¯ãƒ†ãƒ«ã‚½ãƒ•ãƒˆ å¢—åˆŠå·2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2018,11 +2018,11 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">¯‚ÌƒvƒŒƒ[ƒ“ƒg</title>
-			<title code="0x11">‚ ‚Ì–º‚Ì‚¢‚½‰Ä</title>
+			<title code="0x10">æ˜Ÿã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ</title>
+			<title code="0x11">ã‚ã®å¨˜ã®ã„ãŸå¤</title>
 			<title code="0x12">CAN_04.USO</title>
 			<title code="0x13">DC_01P.USO</title>
-			<title code="0x14">‚Æ‚Ü‚ç‚È‚¢ƒƒŠ[ƒS[ƒ‰ƒ“ƒh</title>
+			<title code="0x14">ã¨ã¾ã‚‰ãªã„ãƒ¡ãƒªãƒ¼ã‚´ãƒ¼ãƒ©ãƒ³ãƒ‰</title>
 			<title code="0x15">END1.USO</title>
 			<title code="0x17">HAGEYAMA.USO</title>
 			<title code="0x18">IDOU.USO</title>
@@ -2048,7 +2048,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Custom Mate (ƒJƒXƒ^ƒ€ƒƒCƒg) (YM2203)</name>
+		<name>[PC-9801] Custom Mate (ã‚«ã‚¹ã‚¿ãƒ ãƒ¡ã‚¤ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2070,14 +2070,14 @@
 		<titlelist>
 			<title code="0x15">COCKTAIL.USO</title>
 			<title code="0x10">1.USO</title>
-			<title code="0x11">ƒVƒ‹ƒo[EƒŒƒCƒ“</title>
+			<title code="0x11">ã‚·ãƒ«ãƒãƒ¼ãƒ»ãƒ¬ã‚¤ãƒ³</title>
 			<title code="0x12">3.USO</title>
 			<title code="0x13">4.USO</title>
 			<title code="0x14">5.USO</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Custom Mate 2 (ƒJƒXƒ^ƒ€ƒƒCƒg2) (YM2203)</name>
+		<name>[PC-9801] Custom Mate 2 (ã‚«ã‚¹ã‚¿ãƒ ãƒ¡ã‚¤ãƒˆ2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2111,7 +2111,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Custom Mate 3 (ƒJƒXƒ^ƒ€ƒƒCƒg3) (YM2203)</name>
+		<name>[PC-9801] Custom Mate 3 (ã‚«ã‚¹ã‚¿ãƒ ãƒ¡ã‚¤ãƒˆ3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2158,7 +2158,7 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-<!-- SSGƒoƒ‰ƒ“ƒXDX—p
+<!-- SSGãƒãƒ©ãƒ³ã‚¹DXç”¨
 			<title code="0x10">CM3_01D.USO</title>
 			<title code="0x12">CM3_02D.USO</title>
 			<title code="0x14">CM3_03D.USO</title>
@@ -2197,7 +2197,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Queen's Library (ƒNƒC[ƒ“ƒYEƒ‰ƒCƒuƒ‰ƒŠ[) (YM2203)</name>
+		<name>[PC-9801] Queen's Library (ã‚¯ã‚¤ãƒ¼ãƒ³ã‚ºãƒ»ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2232,7 +2232,7 @@
 			<title code="0x12">QL_BOS2.USO</title>
 			<title code="0x13">QL_CL.USO</title>
 			<title code="0x14">QL_F1.USO</title>
-			<title code="0x15">ƒƒ“ƒOƒ‰[ƒh‚Ì‘MŒõ</title>
+			<title code="0x15">ãƒ­ãƒ³ã‚°ãƒ©ãƒ¼ãƒ‰ã®é–ƒå…‰</title>
 			<title code="0x16">QL_F3.USO</title>
 			<title code="0x17">QL_GIRL.USO</title>
 			<title code="0x18">QL_M14.USO</title>
@@ -2247,7 +2247,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Travel Junction (ƒgƒ‰ƒxƒ‹šƒWƒƒƒ“ƒNƒVƒ‡ƒ“) (YM2203)</name>
+		<name>[PC-9801] Travel Junction (ãƒˆãƒ©ãƒ™ãƒ«â˜…ã‚¸ãƒ£ãƒ³ã‚¯ã‚·ãƒ§ãƒ³) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2291,7 +2291,7 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-<!-- SSGƒoƒ‰ƒ“ƒXDX—p
+<!-- SSGãƒãƒ©ãƒ³ã‚¹DXç”¨
 			<title code="0x10">1D</title>
 			<title code="0x12">2D</title>
 			<title code="0x14">3D</title>
@@ -2326,7 +2326,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Half Moon ni Kawaru Made: Ramiyaryou no Nijiiro Tamatebako (ƒn[ƒtƒ€[ƒ“‚É‚©‚í‚é‚Ü‚Å `—–‹{—Á‚Ì“øF‹Êè” `) (YM2203)</name>
+		<name>[PC-9801] Half Moon ni Kawaru Made: Ramiyaryou no Nijiiro Tamatebako (ãƒãƒ¼ãƒ•ãƒ ãƒ¼ãƒ³ã«ã‹ã‚ã‚‹ã¾ã§ ï½è˜­å®®æ¶¼ã®è™¹è‰²ç‰æ‰‹ç®±ï½) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2363,14 +2363,14 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x11">Until the Half Moon (ƒn[ƒtƒ€[ƒ“‚É‚©‚í‚é‚Ü‚Å)</title>
-			<title code="0x12">Skin Smile (ƒXƒLƒ“@ƒXƒ}ƒCƒ‹)</title>
-			<title code="0x13">Forever My Heart (ƒn[ƒg‚Í‚¢‚Â‚Ü‚Å‚à)</title>
-			<title code="0x14">That Dreamy Feeling (–²‚İ‚é‹C‚¿)</title>
-			<title code="0x15">Suzuka: Hanashinobu Guidebook (—é­ ‰Ô”E–@’ )</title>
-			<title code="0x16">Suzaka: Restless Wind (—é­@—‚ê•—)</title>
-			<title code="0x17">Suzaka: Fighting Demon (—é­@“¬–‚)</title>
-			<title code="0x18">Rabbit Rabbit Heaven (‚ç‚Ñ‚ç‚Ñ“V‘)</title>
+			<title code="0x11">Until the Half Moon (ãƒãƒ¼ãƒ•ãƒ ãƒ¼ãƒ³ã«ã‹ã‚ã‚‹ã¾ã§)</title>
+			<title code="0x12">Skin Smile (ã‚¹ã‚­ãƒ³ã€€ã‚¹ãƒã‚¤ãƒ«)</title>
+			<title code="0x13">Forever My Heart (ãƒãƒ¼ãƒˆã¯ã„ã¤ã¾ã§ã‚‚)</title>
+			<title code="0x14">That Dreamy Feeling (å¤¢ã¿ã‚‹æ°—æŒã¡)</title>
+			<title code="0x15">Suzuka: Hanashinobu Guidebook (éˆ´é¹¿ èŠ±å¿æ³•å¸³)</title>
+			<title code="0x16">Suzaka: Restless Wind (éˆ´é¹¿ã€€ä¹±ã‚Œé¢¨)</title>
+			<title code="0x17">Suzaka: Fighting Demon (éˆ´é¹¿ã€€é—˜é­”)</title>
+			<title code="0x18">Rabbit Rabbit Heaven (ã‚‰ã³ã‚‰ã³å¤©å›½)</title>
 			<title code="0x10">C3SE01.USO</title>
 			<title code="0x19">HM_SE02A.USO</title>
 			<title code="0x1a">HM_SE03.USO</title>
@@ -2390,7 +2390,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Harenochi Oosawagi! (°‚ê‚Ì‚¿‚¨‚¨‚³‚í‚¬!) (YM2203)</name>
+		<name>[PC-9801] Harenochi Oosawagi! (æ™´ã‚Œã®ã¡ãŠãŠã•ã‚ã!) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2433,7 +2433,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Harenochi Munasawagi (°‚ê‚Ì‚¿‹¹‚³‚í‚¬) (YM2203)</name>
+		<name>[PC-9801] Harenochi Munasawagi (æ™´ã‚Œã®ã¡èƒ¸ã•ã‚ã) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2479,7 +2479,7 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-<!-- SSGƒoƒ‰ƒ“ƒXDX—p
+<!-- SSGãƒãƒ©ãƒ³ã‚¹DXç”¨
 			<title code="0x10">HARE_01D.USO</title>
 			<title code="0x12">HARE_02D.USO</title>
 			<title code="0x14">HARE_03D.USO</title>
@@ -2497,13 +2497,13 @@
 			<title code="0x25">HADSE_08.USO</title>
 			<title code="0x26">HADSE_09.USO</title>
 -->
-			<title code="0x19">¡“ú‚Í‚¢‚¢“ú‚Éˆá‚¢‚È‚¢ &lt; Living Theme &gt;</title>
-			<title code="0x11">°‚ê‚Ì‚¿‹¹‚³‚í‚¬ &lt; Main Theme &gt;</title>
-			<title code="0x1d">‚±‚ê‚Å‚¢‚¢‚Ì‚¾! &lt; Tama-Tama Theme &gt;</title>
-			<title code="0x17">–¾‚©‚è‚Ì–³‚¢–é‚Ì‹¿‚« &lt; Sentimental Ver. &gt;</title>
-			<title code="0x1b">ƒ{ƒX‚ª—ˆ‚½ &lt; Tama-Tama Battle Ver. &gt;</title>
-			<title code="0x15">¡uŠÔ‚ÍŒN‚¾‚¯‚Ìˆ×‚É &lt; Romantic Ver. &gt;</title>
-			<title code="0x13">°‚ê‚Ì‚¿‹¹‚³‚í‚¬ &lt; Ending Special &gt;</title>
+			<title code="0x19">ä»Šæ—¥ã¯ã„ã„æ—¥ã«é•ã„ãªã„ &lt; Living Theme &gt;</title>
+			<title code="0x11">æ™´ã‚Œã®ã¡èƒ¸ã•ã‚ã &lt; Main Theme &gt;</title>
+			<title code="0x1d">ã“ã‚Œã§ã„ã„ã®ã ! &lt; Tama-Tama Theme &gt;</title>
+			<title code="0x17">æ˜ã‹ã‚Šã®ç„¡ã„å¤œã®éŸ¿ã &lt; Sentimental Ver. &gt;</title>
+			<title code="0x1b">ãƒœã‚¹ãŒæ¥ãŸ &lt; Tama-Tama Battle Ver. &gt;</title>
+			<title code="0x15">ä»Šç¬é–“ã¯å›ã ã‘ã®ç‚ºã« &lt; Romantic Ver. &gt;</title>
+			<title code="0x13">æ™´ã‚Œã®ã¡èƒ¸ã•ã‚ã &lt; Ending Special &gt;</title>
 			<title code="0x27">HAVSE_01.USO</title>
 			<title code="0x28">HAVSE_02.USO</title>
 			<title code="0x29">HAVSE_03.USO</title>
@@ -2516,7 +2516,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dengeki Nurse (“dŒ‚ƒi[ƒX) (YM2203)</name>
+		<name>[PC-9801] Dengeki Nurse (é›»æ’ƒãƒŠãƒ¼ã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2557,21 +2557,21 @@
 		<titlelist>
 			<title code="0x10">COCKTAIL.USO</title>
 			<title code="0x11">NURSE01A.USO</title>
-			<title code="0x12">—ö‚Ìƒvƒ‰ƒYƒ}100%</title>
+			<title code="0x12">æ‹ã®ãƒ—ãƒ©ã‚ºãƒ100%</title>
 			<title code="0x13">Star Dust Lovers</title>
 			<title code="0x14">Drug-On Q</title>
-			<title code="0x15">•\š’c‚Ìƒe[ƒ}</title>
+			<title code="0x15">é»’åå­—å›£ã®ãƒ†ãƒ¼ãƒ</title>
 			<title code="0x16">Walk Don't Battle</title>
 			<title code="0x17">Pipe Liner 119</title>
-			<title code="0x18">•ˆß‚Ì“Vg’B-Black Angels-</title>
-			<title code="0x19">—ö‚ÌƒzƒXƒsƒ^ƒŠƒeƒB</title>
-			<title code="0x1a">ƒhƒ‰ƒCƒ”ƒBƒ“ƒO‹~‹}Ô</title>
-			<title code="0x1b">“dŒ‚ƒi[ƒXSOS!</title>
-			<title code="0x1c">”ß‚µ‚«ƒi[ƒXƒLƒƒƒbƒv</title>
-			<title code="0x1d">^‰Ä‚ÌƒuƒMƒEƒM‘åìí</title>
-			<title code="0x1e">ƒtƒ@ƒ‹ƒX-False-</title>
-			<title code="0x1f">ˆîÈ‚Ìö“üÒ</title>
-			<title code="0x20">¯‹ó‚Ìƒi[ƒVƒA</title>
+			<title code="0x18">é»’è¡£ã®å¤©ä½¿é”-Black Angels-</title>
+			<title code="0x19">æ‹ã®ãƒ›ã‚¹ãƒ”ã‚¿ãƒªãƒ†ã‚£</title>
+			<title code="0x1a">ãƒ‰ãƒ©ã‚¤ãƒ´ã‚£ãƒ³ã‚°æ•‘æ€¥è»Š</title>
+			<title code="0x1b">é›»æ’ƒãƒŠãƒ¼ã‚¹SOS!</title>
+			<title code="0x1c">æ‚²ã—ããƒŠãƒ¼ã‚¹ã‚­ãƒ£ãƒƒãƒ—</title>
+			<title code="0x1d">çœŸå¤ã®ãƒ–ã‚®ã‚¦ã‚®å¤§ä½œæˆ¦</title>
+			<title code="0x1e">ãƒ•ã‚¡ãƒ«ã‚¹-False-</title>
+			<title code="0x1f">ç¨²å¦»ã®æ½œå…¥è€…</title>
+			<title code="0x20">æ˜Ÿç©ºã®ãƒŠãƒ¼ã‚·ã‚¢</title>
 			<title code="0x21">NURSE_01.USO</title>
 			<title code="0x22">NURSE_02.USO</title>
 			<title code="0x23">NURSE_03.USO</title>
@@ -2583,7 +2583,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dengeki Nurse 2: More Sexy (“dŒ‚ƒi[ƒX2 `ƒ‚ƒAƒZƒNƒV[`) (YM2203)</name>
+		<name>[PC-9801] Dengeki Nurse 2: More Sexy (é›»æ’ƒãƒŠãƒ¼ã‚¹2 ï½ãƒ¢ã‚¢ã‚»ã‚¯ã‚·ãƒ¼ï½) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2621,22 +2621,22 @@
 			<rom type="shell" offset="0">usd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x16">lŸŒ³–À˜H‚Å•ß‚Ü‚¦‚Ä</title>
-			<title code="0x10">—ö‚Ìƒvƒ‰ƒYƒ}100% 94'</title>
-			<title code="0x1c">ƒgƒ‰ƒCƒAƒ‹Eƒ[ƒh</title>
-			<title code="0x14">¯‹ó‚Ìƒi[ƒVƒA</title>
-			<title code="0x12">“dŒ‚ƒi[ƒXSOS!</title>
-			<title code="0x17">ƒo[ƒjƒ“ƒOEƒhƒŠƒtƒg</title>
-			<title code="0x19">ƒCƒ“ƒgƒDEƒUEƒXƒ‚[ƒN</title>
-			<title code="0x1d">ƒoƒEƒƒEEƒTƒ“ƒVƒƒƒCƒ“</title>
+			<title code="0x16">å››æ¬¡å…ƒè¿·è·¯ã§æ•ã¾ãˆã¦</title>
+			<title code="0x10">æ‹ã®ãƒ—ãƒ©ã‚ºãƒ100% 94'</title>
+			<title code="0x1c">ãƒˆãƒ©ã‚¤ã‚¢ãƒ«ãƒ»ãƒ­ãƒ¼ãƒ‰</title>
+			<title code="0x14">æ˜Ÿç©ºã®ãƒŠãƒ¼ã‚·ã‚¢</title>
+			<title code="0x12">é›»æ’ƒãƒŠãƒ¼ã‚¹SOS!</title>
+			<title code="0x17">ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ»ãƒ‰ãƒªãƒ•ãƒˆ</title>
+			<title code="0x19">ã‚¤ãƒ³ãƒˆã‚¥ãƒ»ã‚¶ãƒ»ã‚¹ãƒ¢ãƒ¼ã‚¯</title>
+			<title code="0x1d">ãƒã‚¦ãƒ¯ã‚¦ãƒ»ã‚µãƒ³ã‚·ãƒ£ã‚¤ãƒ³</title>
 			<title code="0x1e">Toyama</title>
-			<title code="0x11">—ö‚Ìƒvƒ‰ƒYƒ}100%(L.A.ƒo[ƒWƒ‡ƒ“)</title>
-			<title code="0x18">ƒh[ƒvEƒhƒ‰ƒCƒo[</title>
-			<title code="0x1a">ƒXƒŠƒ‹Eƒgƒ‰ƒbƒv</title>
-			<title code="0x1b">—[—z‚ÆƒsƒXƒgƒ‹</title>
-			<title code="0x13">”ß‚µ‚İ‚Ìƒi[ƒXƒLƒƒƒbƒv</title>
-			<title code="0x1f">ƒqƒXƒeƒŠƒbƒNEƒrƒ…[ƒeƒBƒtƒ‹EƒŒƒfƒB</title>
-			<title code="0x15">lŸŒ³–À˜H‚Å•ß‚Ü‚¦‚Ä(TVƒTƒCƒYƒGƒfƒBƒbƒg)</title>
+			<title code="0x11">æ‹ã®ãƒ—ãƒ©ã‚ºãƒ100%(L.A.ãƒãƒ¼ã‚¸ãƒ§ãƒ³)</title>
+			<title code="0x18">ãƒ‰ãƒ¼ãƒ—ãƒ»ãƒ‰ãƒ©ã‚¤ãƒãƒ¼</title>
+			<title code="0x1a">ã‚¹ãƒªãƒ«ãƒ»ãƒˆãƒ©ãƒƒãƒ—</title>
+			<title code="0x1b">å¤•é™½ã¨ãƒ”ã‚¹ãƒˆãƒ«</title>
+			<title code="0x13">æ‚²ã—ã¿ã®ãƒŠãƒ¼ã‚¹ã‚­ãƒ£ãƒƒãƒ—</title>
+			<title code="0x1f">ãƒ’ã‚¹ãƒ†ãƒªãƒƒã‚¯ãƒ»ãƒ“ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ•ãƒ«ãƒ»ãƒ¬ãƒ‡ã‚£</title>
+			<title code="0x15">å››æ¬¡å…ƒè¿·è·¯ã§æ•ã¾ãˆã¦(TVã‚µã‚¤ã‚ºã‚¨ãƒ‡ã‚£ãƒƒãƒˆ)</title>
 			<title code="0x20">NR2_11.USO</title>
 			<title code="0x21">NR2_12.USO</title>
 			<title code="0x22">NR2_13.USO</title>
@@ -2648,7 +2648,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Noushuku Angel 120% (”ZkƒGƒ“ƒWƒFƒ‹120%) (YM2203)</name>
+		<name>[PC-9801] Noushuku Angel 120% (æ¿ƒç¸®ã‚¨ãƒ³ã‚¸ã‚§ãƒ«120%) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2706,7 +2706,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sotsugyou Shashin / Miki (‘²‹ÆÊ^ / ”ü•P) (YM2203)</name>
+		<name>[PC-9801] Sotsugyou Shashin / Miki (å’æ¥­å†™çœŸ / ç¾å§«) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -2743,7 +2743,7 @@
 			<title code="0x1c">SOTSU/OPEN.USO</title>
 			<title code="0x15">SOTSU/AISY.USO</title>
 			<title code="0x17">SOTSU/DOK.USO</title>
-			<title code="0x18">‚Æ‚Ü‚ç‚È‚¢ƒƒŠ[ƒS[ƒ‰ƒ“ƒh</title>
+			<title code="0x18">ã¨ã¾ã‚‰ãªã„ãƒ¡ãƒªãƒ¼ã‚´ãƒ¼ãƒ©ãƒ³ãƒ‰</title>
 			<title code="0x19">SOTSU/IMARI.USO</title>
 			<title code="0x1a">SOTSU/M_62.USO</title>
 			<title code="0x1b">SOTSU/NAZO.USO</title>
@@ -2751,7 +2751,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Nike (ƒiƒCƒL) (AY-3-8910)</name>
+		<name>[MSX2] Nike (ãƒŠã‚¤ã‚­) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -2796,7 +2796,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Can Can Bunny: Spirits (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒXƒsƒŠƒbƒc) (AY-3-8910)</name>
+		<name>[MSX2] Can Can Bunny: Spirits (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¹ãƒ”ãƒªãƒƒãƒ„) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -2825,23 +2825,23 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">Moonlight Magic</title>
-			<title code="0x09">DŠïS</title>
-			<title code="0x06">ƒoƒP[ƒVƒ‡ƒ“</title>
-			<title code="0x02">ƒ‰ƒ”EƒAƒtƒFƒAƒu</title>
-			<title code="0x0d">ƒvƒƒ]ƒ“</title>
+			<title code="0x09">å¥½å¥‡å¿ƒ</title>
+			<title code="0x06">ãƒã‚±ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x02">ãƒ©ãƒ´ãƒ»ã‚¢ãƒ•ã‚§ã‚¢ãƒ–</title>
+			<title code="0x0d">ãƒ—ãƒ¯ã‚¾ãƒ³</title>
 			<title code="0x0b">Dry Martini</title>
 			<title code="0x03">Side Seat</title>
-			<title code="0x0a">ƒAƒEƒ^[EƒŠ[ƒt</title>
-			<title code="0x07">_X‚Ì–²Œ¶‹½</title>
-			<title code="0x04">ƒGƒNƒXƒvƒƒŒ[ƒVƒ‡ƒ“</title>
-			<title code="0x01">ƒƒ‚ƒŠƒAƒ‹</title>
-			<title code="0x08">ƒzƒƒCƒgEƒxƒ‹</title>
-			<title code="0x05">ƒ€[ƒ“EƒiƒCƒg</title>
+			<title code="0x0a">ã‚¢ã‚¦ã‚¿ãƒ¼ãƒ»ãƒªãƒ¼ãƒ•</title>
+			<title code="0x07">ç¥ã€…ã®å¤¢å¹»éƒ·</title>
+			<title code="0x04">ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x01">ãƒ¡ãƒ¢ãƒªã‚¢ãƒ«</title>
+			<title code="0x08">ãƒ›ãƒ¯ã‚¤ãƒˆãƒ»ãƒ™ãƒ«</title>
+			<title code="0x05">ãƒ ãƒ¼ãƒ³ãƒ»ãƒŠã‚¤ãƒˆ</title>
 			<title code="0x0c">SE04.M</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Can Can Bunny: Superior (‚«‚á‚ñ‚«‚á‚ñƒoƒj[ ƒXƒyƒŠƒI[ƒ‹) (AY-3-8910)</name>
+		<name>[MSX2] Can Can Bunny: Superior (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼ ã‚¹ãƒšãƒªã‚ªãƒ¼ãƒ«) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -2878,7 +2878,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Illumina! (ƒCƒ‹ƒ~ƒi!)</name>
+		<name>[MSX2] Illumina! (ã‚¤ãƒ«ãƒŸãƒŠ!)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -2915,7 +2915,7 @@
 			<rom type="bgm" offset="0x16">ZON.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0c">ƒCƒ‹ƒ~ƒi</title>
+			<title code="0x0c">ã‚¤ãƒ«ãƒŸãƒŠ</title>
 			<title code="0x00">Good Looking</title>
 			<title code="0x01">Mind! Out!</title>
 			<title code="0x02">BARA.M</title>
@@ -2924,12 +2924,12 @@
 			<title code="0x05">Departure</title>
 			<title code="0x06">GMOL.M</title>
 			<title code="0x07">Battle Field</title>
-			<title code="0x08">—Ìå‚ÌŠÙ</title>
+			<title code="0x08">é ˜ä¸»ã®é¤¨</title>
 			<title code="0x09">Bloody Love</title>
 			<title code="0x0a">MEROU.M</title>
 			<title code="0x0b">NODO.M</title>
 			<title code="0x0d">Game Over</title>
-			<title code="0x0e">¸‚í‚ê‚½ŠÔ</title>
+			<title code="0x0e">å¤±ã‚ã‚ŒãŸæ™‚é–“</title>
 			<title code="0x0f">PROG.M</title>
 			<title code="0x10">R5.M</title>
 			<title code="0x11">RB.M</title>
@@ -2941,7 +2941,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Sekai de Ichiban Kimi ga Suki! (¢ŠE‚Å‚¢‚¿‚Î‚ñŒN‚ª‚·‚«!)</name>
+		<name>[MSX2] Sekai de Ichiban Kimi ga Suki! (ä¸–ç•Œã§ã„ã¡ã°ã‚“å›ãŒã™ã!)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -2986,7 +2986,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Cosmic Psycho (ƒRƒYƒ~ƒbƒNEƒTƒCƒR)</name>
+		<name>[MSX2] Cosmic Psycho (ã‚³ã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚µã‚¤ã‚³)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -3045,7 +3045,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Sailor-fuku Senshi Ferris (ƒZ[ƒ‰[•ímƒtƒFƒŠƒX)</name>
+		<name>[MSX2] Sailor-fuku Senshi Ferris (ã‚»ãƒ¼ãƒ©ãƒ¼æœæˆ¦å£«ãƒ•ã‚§ãƒªã‚¹)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -3092,7 +3092,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Sotsugyou Shashin / Miki (‘²‹ÆÊ^ / ”ü•P)</name>
+		<name>[MSX2] Sotsugyou Shashin / Miki (å’æ¥­å†™çœŸ / ç¾å§«)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>
@@ -3125,7 +3125,7 @@
 			<title code="0x05">M_62.M</title>
 			<title code="0x08">NAZO.M</title>
 			<title code="0x0b">ST6.M</title>
-			<title code="0x02">‚Æ‚Ü‚ç‚È‚¢ƒƒŠ[ƒS[ƒ‰ƒ“ƒh</title>
+			<title code="0x02">ã¨ã¾ã‚‰ãªã„ãƒ¡ãƒªãƒ¼ã‚´ãƒ¼ãƒ©ãƒ³ãƒ‰</title>
 			<title code="0x04">KAIKE.M</title>
 			<title code="0x06">MAI.M</title>
 			<title code="0x07">MORN.M</title>
@@ -3133,7 +3133,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Liberty (ƒŠƒoƒeƒB[) (YM2203)</name>
+		<name>[PC-9801] Liberty (ãƒªãƒãƒ†ã‚£ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -3152,7 +3152,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Can Can Bunny (‚«‚á‚ñ‚«‚á‚ñƒoƒj[) (YM2203)</name>
+		<name>[PC-9801] Can Can Bunny (ãã‚ƒã‚“ãã‚ƒã‚“ãƒãƒ‹ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Cocktail Soft</driveralias>
 		<options>
@@ -3177,19 +3177,19 @@
 			<rom type="bgm" offset="0x07">MUS07.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x05">©º / ”ƒ‚¢•¨</title>
-			<title code="0x01">’†Œ´—B</title>
-			<title code="0x02">X‘º”ü‹M</title>
-			<title code="0x04">‰Íˆä–—¢“Ş</title>
-			<title code="0x06">”’’¹</title>
-			<title code="0x07">“n•Ó–ƒ”ü</title>
-			<title code="0x03">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x05">è‡ªå®¤ / è²·ã„ç‰©</title>
+			<title code="0x01">ä¸­åŸå”¯</title>
+			<title code="0x02">æ£®æ‘ç¾è²´</title>
+			<title code="0x04">æ²³äº•æº€é‡Œå¥ˆ</title>
+			<title code="0x06">ç™½é³¥é¦™</title>
+			<title code="0x07">æ¸¡è¾ºéº»ç¾</title>
+			<title code="0x03">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 			<range min="0x101" max="0x111" extcode="0">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Harenochi Oosawagi! (°‚ê‚Ì‚¿‚¨‚¨‚³‚í‚¬!) (YM2203)</name>
+		<name>[PC-8801] Harenochi Oosawagi! (æ™´ã‚Œã®ã¡ãŠãŠã•ã‚ã!) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Cocktail Soft</driveralias>
 		<options>
@@ -3223,7 +3223,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Harenochi Oosawagi! (°‚ê‚Ì‚¿‚¨‚¨‚³‚í‚¬!)</name>
+		<name>[MSX2] Harenochi Oosawagi! (æ™´ã‚Œã®ã¡ãŠãŠã•ã‚ã!)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Cocktail Soft</driveralias>
 		<options>

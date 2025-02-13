@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -54,13 +54,13 @@
 			<rom type="bgm" offset="0x06">MUS06</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒnƒCƒXƒN[ƒ‹‚Íƒ_ƒ“ƒXƒeƒŠƒA   / Cyndi Lauper</title>
-			<title code="0x05">‚Ë‚±‚Ó‚ñ‚¶‚á‚Á‚½             / ì‹ÈÒ–¢Ú</title>
+			<title code="0x01">ãƒã‚¤ã‚¹ã‚¯ãƒ¼ãƒ«ã¯ãƒ€ãƒ³ã‚¹ãƒ†ãƒªã‚¢   / Cyndi Lauper</title>
+			<title code="0x05">ã­ã“ãµã‚“ã˜ã‚ƒã£ãŸ             / ä½œæ›²è€…æœªè©³</title>
 			<title code="0x04">Material Girl                / Madonna</title>
-			<title code="0x00">ƒNƒ‰ƒŠƒlƒbƒg‚ğ‚±‚í‚µ‚¿‚á‚Á‚½ / ƒtƒ‰ƒ“ƒX–¯—w</title>
+			<title code="0x00">ã‚¯ãƒ©ãƒªãƒãƒƒãƒˆã‚’ã“ã‚ã—ã¡ã‚ƒã£ãŸ / ãƒ•ãƒ©ãƒ³ã‚¹æ°‘è¬¡</title>
 			<title code="0x02">Hotel California             / Eagles</title>
 			<title code="0x06">Zoom                         / Casiopea</title>
-			<title code="0x03">Blue Lagoon                  / ‚’†³‹`</title>
+			<title code="0x03">Blue Lagoon                  / é«˜ä¸­æ­£ç¾©</title>
 		</titlelist>
 	</game>
 	<game>
@@ -73,13 +73,13 @@
 			<rom type="code" offset="0xc000">MUSIC</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Waltz of the Flowers (‰Ô‚Ìƒƒ‹ƒc)    / Peter Ilyich Tchaikovsky</title>
+			<title code="0x01">Waltz of the Flowers (èŠ±ã®ãƒ¯ãƒ«ãƒ„)    / Peter Ilyich Tchaikovsky</title>
 			<title code="0x00">Like A Virgin / Madonna</title>
 			<title code="0x02">Firecracker   / Yellow Magic Orchestra</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] PC-8801MA2 Shop Demonstration Disk (PC-8801MA2 “X“ª—pƒfƒ‚ƒ“ƒXƒgƒŒ[ƒVƒ‡ƒ“ƒfƒBƒXƒN) (YM2608)</name>
+		<name>[PC-8801] PC-8801MA2 Shop Demonstration Disk (PC-8801MA2 åº—é ­ç”¨ãƒ‡ãƒ¢ãƒ³ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãƒ‡ã‚£ã‚¹ã‚¯) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -93,12 +93,12 @@
 			<rom type="adpcm" offset="0x00000">ADPCM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">–²‚Ì’†‚Ö (FM‰¹Œ¹)</title>
-			<title code="0x01">–²‚Ì’†‚Ö (ADPCM)</title>
+			<title code="0x00">å¤¢ã®ä¸­ã¸ (FMéŸ³æº)</title>
+			<title code="0x01">å¤¢ã®ä¸­ã¸ (ADPCM)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] CD Takara Hako (CD‚½‚©‚ç” ) (YM2608)</name>
+		<name>[PC-8801] CD Takara Hako (CDãŸã‹ã‚‰ç®±) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -113,12 +113,12 @@
 			<rom type="bgm" offset="0x01">MENU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x01">Menu (ƒƒjƒ…[)</title>
+			<title code="0x00">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x01">Menu (ãƒ¡ãƒ‹ãƒ¥ãƒ¼)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] CD Takara Hako (CD‚½‚©‚ç” ) (YM2203)</name>
+		<name>[PC-8801] CD Takara Hako (CDãŸã‹ã‚‰ç®±) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">NEC</driveralias>
 		<options>
@@ -134,8 +134,8 @@
 			<rom type="bgm" offset="0x01">MENU</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x01">Menu (ƒƒjƒ…[)</title>
+			<title code="0x00">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x01">Menu (ãƒ¡ãƒ‹ãƒ¥ãƒ¼)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -160,7 +160,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] R-Type (R-ƒ^ƒCƒv) (YM2608)</name>
+		<name>[PC-88VA] R-Type (R-ã‚¿ã‚¤ãƒ—) (YM2608)</name>
 		<driver type="opna">pc88vados</driver>
 		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="rtypeva">
@@ -187,28 +187,28 @@
 			<rom type="shell" offset="0">rtype</rom>
 		</romlist>
 		<titlelist>
-		<!--	<title code="0x01010019">Opening (ƒI[ƒvƒjƒ“ƒO)</title> -->
-			<title code="0x0001001a">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x01000010">Start ` Battle Theme [Stage 1]</title>
+		<!--	<title code="0x01010019">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title> -->
+			<title code="0x0001001a">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x01000010">Start ï½ Battle Theme [Stage 1]</title>
 			<title code="0x0100001c">Battle Theme [Stage 1]</title>
 			<title code="0x01000011">Monster Beat [Stage 2]</title>
 			<title code="0x01000012">Battle Pressure [Stage 3]</title>
-			<title code="0x01000013">ƒuƒcEƒuƒcc [Stage 4]</title>
-			<title code="0x01000014">“´ŒA‚Éö‚Şƒ‚ƒ“ƒXƒ^[ [Stage 5]</title>
+			<title code="0x01000013">ãƒ–ãƒ„ãƒ»ãƒ–ãƒ„â€¦ [Stage 4]</title>
+			<title code="0x01000014">æ´çªŸã«æ½œã‚€ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ [Stage 5]</title>
 			<title code="0x01000015">Scramble Crossroad [Stage 6]</title>
-			<title code="0x01000016">–²‚Ì“‡ (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
-			<title code="0x01000017">•ê‘Ù [Stage 8]</title>
+			<title code="0x01000016">å¤¢ã®å³¶ (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
+			<title code="0x01000017">æ¯èƒ [Stage 8]</title>
 			<title code="0x01010018">Continue</title>
 			<title code="0x0100001b">Scoring [Name Entry]</title>
 			<title code="0x0100001d">Boss Theme [Boss]</title>
 			<title code="0x0101001e">Return in Triumph [Stage Clear]</title>
 			<title code="0x01000020">Like a Hero [Ending]</title>
 			<title code="0x0101001f">The End of a War [Game Over]</title>
-		<!--	<title code="0x01010021">Œø‰Ê‰¹</title> -->
+		<!--	<title code="0x01010021">åŠ¹æœéŸ³</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-88VA] R-Type (R-ƒ^ƒCƒv) (YM2203)</name>
+		<name>[PC-88VA] R-Type (R-ã‚¿ã‚¤ãƒ—) (YM2203)</name>
 		<driver type="opn">pc88vados</driver>
 		<driveralias type="PC-88VA">NEC</driveralias>
 		<romlist archive="rtypeva">
@@ -235,24 +235,24 @@
 			<rom type="shell" offset="0">rtype</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01010019">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-		<!--	<title code="0x0001001a">Opening (ƒI[ƒvƒjƒ“ƒO)</title> -->
-			<title code="0x01000010">Start ` Battle Theme [Stage 1]</title>
+			<title code="0x01010019">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+		<!--	<title code="0x0001001a">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title> -->
+			<title code="0x01000010">Start ï½ Battle Theme [Stage 1]</title>
 			<title code="0x0100001c">Battle Theme [Stage 1]</title>
 			<title code="0x01000011">Monster Beat [Stage 2]</title>
 			<title code="0x01000012">Battle Pressure [Stage 3]</title>
-			<title code="0x01000013">ƒuƒcEƒuƒcc [Stage 4]</title>
-			<title code="0x01000014">“´ŒA‚Éö‚Şƒ‚ƒ“ƒXƒ^[ [Stage 5]</title>
+			<title code="0x01000013">ãƒ–ãƒ„ãƒ»ãƒ–ãƒ„â€¦ [Stage 4]</title>
+			<title code="0x01000014">æ´çªŸã«æ½œã‚€ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ [Stage 5]</title>
 			<title code="0x01000015">Scramble Crossroad [Stage 6]</title>
-			<title code="0x01000016">–²‚Ì“‡ (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
-			<title code="0x01000017">•ê‘Ù [Stage 8]</title>
+			<title code="0x01000016">å¤¢ã®å³¶ (Ogorerumono Wa Hisashikarazu) [Stage 7]</title>
+			<title code="0x01000017">æ¯èƒ [Stage 8]</title>
 			<title code="0x01010018">Continue</title>
 			<title code="0x0100001b">Scoring [Name Entry]</title>
 			<title code="0x0100001d">Boss Theme [Boss]</title>
 			<title code="0x0101001e">Return in Triumph [Stage Clear]</title>
 			<title code="0x01000020">Like a Hero [Ending]</title>
 			<title code="0x0101001f">The End of a War [Game Over]</title>
-		<!--	<title code="0x01010021">Œø‰Ê‰¹</title> -->
+		<!--	<title code="0x01010021">åŠ¹æœéŸ³</title> -->
 		</titlelist>
 	</game>
 </gamelist>

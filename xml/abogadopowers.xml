@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -31,12 +31,14 @@
 	<!ELEMENT range (#PCDATA)>
 	<!ATTLIST range min CDATA #REQUIRED
 					max CDATA #REQUIRED
-					extcode CDATA #IMPLIED>
+					extcode CDATA #IMPLIED
+					start CDATA #IMPLIED>
+
 ]>
 <gamelist date="2005/09/25">
-	<!-- //ƒAƒ{ƒKƒhƒpƒ[ƒY -->
+	<!-- //ã‚¢ãƒœã‚¬ãƒ‰ãƒ‘ãƒ¯ãƒ¼ã‚º -->
 	<game>
-		<name>[PC-9801] Kuro no Danshou: The Literary Fragment (•‚Ì’fÍ THE LITERARY FRAGMENT) (YM2608)</name>
+		<name>[PC-9801] Kuro no Danshou: The Literary Fragment (é»’ã®æ–­ç«  THE LITERARY FRAGMENT) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -68,7 +70,7 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">Stop the Music</title>
+			<title code="0x21">[Stop]</title>
 			<title code="0x10">BGM_00.KM</title>
 			<title code="0x11">BGM_01.KM</title>
 			<title code="0x12">BGM_02.KM</title>
@@ -89,7 +91,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kuro no Danshou: The Literary Fragment (•‚Ì’fÍ THE LITERARY FRAGMENT) (YM2203)</name>
+		<name>[PC-9801] Kuro no Danshou: The Literary Fragment (é»’ã®æ–­ç«  THE LITERARY FRAGMENT) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -121,7 +123,7 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">Stop the Music</title>
+			<title code="0x21">[Stop]</title>
 			<title code="0x10">BGM_00.KM</title>
 			<title code="0x11">BGM_01.KM</title>
 			<title code="0x12">BGM_02.KM</title>
@@ -142,7 +144,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Es no Houteishiki (Es‚Ì•û’öŽ®) (YM2608)</name>
+		<name>[PC-9801] Es no Houteishiki (Esã®æ–¹ç¨‹å¼) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -175,7 +177,7 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">Stop the Music</title>
+			<title code="0x22">[Stop]</title>
 			<title code="0x10">Look Up at the Sky</title>
 			<title code="0x11">Retrace One's Memory</title>
 			<title code="0x12">Leave......</title>
@@ -197,7 +199,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Es no Houteishiki (Es‚Ì•û’öŽ®) (YM2203)</name>
+		<name>[PC-9801] Es no Houteishiki (Esã®æ–¹ç¨‹å¼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -231,7 +233,7 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x22">Stop the Music</title>
+			<title code="0x22">[Stop]</title>
 			<title code="0x10">Look Up at the Sky</title>
 			<title code="0x11">Retrace One's Memory</title>
 			<title code="0x12">Leave......</title>
@@ -253,7 +255,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Tsumo Baka Nisshi (‚Â‚àƒoƒJ“úŽ) (YM2203)</name>
+		<name>[PC-9801] Tsumo Baka Nisshi (ã¤ã‚‚ãƒã‚«æ—¥èªŒ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -285,27 +287,27 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">‘‘”ª˜A‘‘‚Ìƒe[ƒ}</title>
-			<title code="0x11">ƒO[ƒXƒlƒbƒN‚Ìƒe[ƒ}</title>
-			<title code="0x12">Œi˜OŠt‚Ìƒe[ƒ}</title>
-			<title code="0x13">ƒJƒWƒm‚Å—¬‚ê‚é‹È</title>
-			<title code="0x14">ƒGƒXƒNƒƒCƒA‚Ìƒe[ƒ}</title>
-			<title code="0x15">ƒpƒ`ƒXƒƒ{[ƒiƒXƒQ[ƒ€</title>
-			<title code="0x16">ˆÚ“®Žž‚Ì‹È</title>
-			<title code="0x17">‚Ê‚¬‚Ê‚¬BGM</title>
-			<title code="0x18">ƒKƒ“ƒNƒ‰ƒuƒ`ƒFƒbƒN‚ÌBGM</title>
-			<title code="0x19">ƒI[ƒvƒjƒ“ƒO‚Ì‹È</title>
-			<title code="0x1a">ƒAƒCƒeƒ€ƒVƒ‡ƒbƒv‚ÌBGM</title>
-			<title code="0x1b">ƒGƒ“ƒfƒBƒ“ƒO‚»‚Ì1</title>
-			<title code="0x1c">ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-			<title code="0x1d">ƒLƒƒƒ‰ƒNƒ^[Ð‰î</title>
-			<title code="0x1e">ƒGƒ“ƒfƒBƒ“ƒO‚»‚Ì2</title>
-			<title code="0x1f">”¼ƒ`ƒƒƒ“I—¹Žž‚ÌBGM</title>
-			<title code="0x20">ƒpƒ`ƒXƒƒŒƒMƒ…ƒ‰[Žž</title>
+			<title code="0x10">é›€è˜å…«é€£è˜ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x11">ã‚°ãƒ¼ã‚¹ãƒãƒƒã‚¯ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x12">æ™¯æ¥¼é–£ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x13">ã‚«ã‚¸ãƒŽã§æµã‚Œã‚‹æ›²</title>
+			<title code="0x14">ã‚¨ã‚¹ã‚¯ãƒ¯ã‚¤ã‚¢ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x15">ãƒ‘ãƒã‚¹ãƒ­ãƒœãƒ¼ãƒŠã‚¹ã‚²ãƒ¼ãƒ </title>
+			<title code="0x16">ç§»å‹•æ™‚ã®æ›²</title>
+			<title code="0x17">ã¬ãŽã¬ãŽBGM</title>
+			<title code="0x18">ã‚¬ãƒ³ã‚¯ãƒ©ãƒ–ãƒã‚§ãƒƒã‚¯ã®BGM</title>
+			<title code="0x19">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ã®æ›²</title>
+			<title code="0x1A">ã‚¢ã‚¤ãƒ†ãƒ ã‚·ãƒ§ãƒƒãƒ—ã®BGM</title>
+			<title code="0x1B">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãã®1</title>
+			<title code="0x1C">ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+			<title code="0x1D">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ç´¹ä»‹</title>
+			<title code="0x1E">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãã®2</title>
+			<title code="0x1F">åŠãƒãƒ£ãƒ³çµ‚äº†æ™‚ã®BGM</title>
+			<title code="0x20">ãƒ‘ãƒã‚¹ãƒ­ãƒ¬ã‚®ãƒ¥ãƒ©ãƒ¼æ™‚</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Tsumo Baka Nisshi (‚Â‚àƒoƒJ“úŽ) (YM2608)</name>
+		<name>[PC-9801] Tsumo Baka Nisshi (ã¤ã‚‚ãƒã‚«æ—¥èªŒ) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Abogado Powers</driveralias>
 		<options>
@@ -336,27 +338,27 @@
 			<rom type="shell" offset="0">CMDP.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">‘‘”ª˜A‘‘‚Ìƒe[ƒ}</title>
-			<title code="0x11">ƒO[ƒXƒlƒbƒN‚Ìƒe[ƒ}</title>
-			<title code="0x12">Œi˜OŠt‚Ìƒe[ƒ}</title>
-			<title code="0x13">ƒJƒWƒm‚Å—¬‚ê‚é‹È</title>
-			<title code="0x14">ƒGƒXƒNƒƒCƒA‚Ìƒe[ƒ}</title>
-			<title code="0x15">ƒpƒ`ƒXƒƒ{[ƒiƒXƒQ[ƒ€</title>
-			<title code="0x16">ˆÚ“®Žž‚Ì‹È</title>
-			<title code="0x17">‚Ê‚¬‚Ê‚¬BGM</title>
-			<title code="0x18">ƒKƒ“ƒNƒ‰ƒuƒ`ƒFƒbƒN‚ÌBGM</title>
-			<title code="0x19">ƒI[ƒvƒjƒ“ƒO‚Ì‹È</title>
-			<title code="0x1a">ƒAƒCƒeƒ€ƒVƒ‡ƒbƒv‚ÌBGM</title>
-			<title code="0x1b">ƒGƒ“ƒfƒBƒ“ƒO‚»‚Ì1</title>
-			<title code="0x1c">ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-			<title code="0x1d">ƒLƒƒƒ‰ƒNƒ^[Ð‰î</title>
-			<title code="0x1e">ƒGƒ“ƒfƒBƒ“ƒO‚»‚Ì2</title>
-			<title code="0x1f">”¼ƒ`ƒƒƒ“I—¹Žž‚ÌBGM</title>
-			<title code="0x20">ƒpƒ`ƒXƒƒŒƒMƒ…ƒ‰[Žž</title>
+			<title code="0x10">é›€è˜å…«é€£è˜ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x11">ã‚°ãƒ¼ã‚¹ãƒãƒƒã‚¯ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x12">æ™¯æ¥¼é–£ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x13">ã‚«ã‚¸ãƒŽã§æµã‚Œã‚‹æ›²</title>
+			<title code="0x14">ã‚¨ã‚¹ã‚¯ãƒ¯ã‚¤ã‚¢ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x15">ãƒ‘ãƒã‚¹ãƒ­ãƒœãƒ¼ãƒŠã‚¹ã‚²ãƒ¼ãƒ </title>
+			<title code="0x16">ç§»å‹•æ™‚ã®æ›²</title>
+			<title code="0x17">ã¬ãŽã¬ãŽBGM</title>
+			<title code="0x18">ã‚¬ãƒ³ã‚¯ãƒ©ãƒ–ãƒã‚§ãƒƒã‚¯ã®BGM</title>
+			<title code="0x19">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ã®æ›²</title>
+			<title code="0x1a">ã‚¢ã‚¤ãƒ†ãƒ ã‚·ãƒ§ãƒƒãƒ—ã®BGM</title>
+			<title code="0x1b">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãã®1</title>
+			<title code="0x1c">ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+			<title code="0x1d">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ç´¹ä»‹</title>
+			<title code="0x1e">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãã®2</title>
+			<title code="0x1f">åŠãƒãƒ£ãƒ³çµ‚äº†æ™‚ã®BGM</title>
+			<title code="0x20">ãƒ‘ãƒã‚¹ãƒ­ãƒ¬ã‚®ãƒ¥ãƒ©ãƒ¼æ™‚</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Kuro no Danshou: The Literary Fragment (•‚Ì’fÍ THE LITERARY FRAGMENT)</name>
+		<name>[PC/AT] Kuro no Danshou: The Literary Fragment (é»’ã®æ–­ç«  THE LITERARY FRAGMENT)</name>
 		<driver type="soundblaster16">pcatdos</driver>
 		<driveralias type="PC/AT">Abogado Powers</driveralias>
 		<options>
@@ -410,7 +412,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Es no Houteishiki (Es‚Ì•û’öŽ®)</name>
+		<name>[PC/AT] Es no Houteishiki (Esã®æ–¹ç¨‹å¼)</name>
 		<driver type="soundblaster16">pcatdos</driver>
 		<driveralias type="PC/AT">Abogado Powers</driveralias>
 		<options>

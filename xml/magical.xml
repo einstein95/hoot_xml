@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,9 +34,9 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //–‚–@Š”Ž®‰ïŽÐ -->
+	<!-- //é­”æ³•æ ªå¼ä¼šç¤¾ -->
 	<game>
-		<name>[PC-9801] Shougi Seiyen 2 («Šû¹“VII) (YM2203)</name>
+		<name>[PC-9801] Shougi Seiyen 2 (å°†æ£‹è–å¤©II) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Magical Company</driveralias>
 		<options>
@@ -67,7 +67,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Shougi Saikyou («ŠûÅ‹­) (YM2203)</name>
+		<name>[PC-9801] Shougi Saikyou (å°†æ£‹æœ€å¼·) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Magical Company</driveralias>
 		<options>
@@ -95,7 +95,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (‰ì˜T“`àSPECIAL) (YM2151+MSM6258)</name>
+		<name>[X68000] Garou Densetsu Special (é¤“ç‹¼ä¼èª¬SPECIAL) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -148,28 +148,28 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
-			<title code="0x13">‰ì˜T“`àSPECIAL</title>
+			<title code="0x13">é¤“ç‹¼ä¼èª¬SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
 <!--
 			<title code="0x12">VS</title>
 -->
 			<title code="0x17">VS</title>
-			<title code="0x02">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x03">ƒpƒXƒ^</title>
-			<title code="0x04">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x05">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x06">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x07">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x08">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x09">‰Š—´_</title>
-			<title code="0x0a">Duck Dub Dub(ƒ_ƒbƒN‚æ‚¨‘O‚à‚©)</title>
-			<title code="0x0b">’†‘Žlç”N‚Ì—ðŽj‚Æ‚Í‚¢‚©‚É</title>
-			<title code="0x0c">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x0d">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x0e">“­‚­“¬‹Žm</title>
-			<title code="0x0f">ƒM[ƒX‚É‚µ‚å‚¤‚ä</title>
-			<title code="0x10">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
-			<title code="0x11">—´ŒÕ‚ÌŒ Ver.230000000.0</title>
+			<title code="0x02">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x03">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x04">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x05">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x06">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x07">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x08">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x09">ç‚Žé¾ç¥ž</title>
+			<title code="0x0a">Duck Dub Dub(ãƒ€ãƒƒã‚¯ã‚ˆãŠå‰ã‚‚ã‹)</title>
+			<title code="0x0b">ä¸­å›½å››åƒå¹´ã®æ­´å²ã¨ã¯ã„ã‹ã«</title>
+			<title code="0x0c">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x0d">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x0e">åƒãé—˜ç‰›å£«</title>
+			<title code="0x0f">ã‚®ãƒ¼ã‚¹ã«ã—ã‚‡ã†ã‚†</title>
+			<title code="0x10">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
+			<title code="0x11">é¾è™Žã®æ‹³ Ver.230000000.0</title>
 			<title code="0x18">WINNER DEMO</title>
 			<title code="0x15">CONTINUE</title>
 			<title code="0x1a">MORE MISSION</title>
@@ -179,7 +179,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (‰ì˜T“`àSPECIAL) (YM2151+MSM6258+MT-32)</name>
+		<name>[X68000] Garou Densetsu Special (é¤“ç‹¼ä¼èª¬SPECIAL) (YM2151+MSM6258+MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -233,25 +233,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
-			<title code="0x13">‰ì˜T“`àSPECIAL</title>
+			<title code="0x13">é¤“ç‹¼ä¼èª¬SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
 			<title code="0x17">VS</title>
-			<title code="0x02">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x03">ƒpƒXƒ^</title>
-			<title code="0x04">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x05">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x06">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x07">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x08">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x09">‰Š—´_</title>
-			<title code="0x0a">Duck Dub Dub(ƒ_ƒbƒN‚æ‚¨‘O‚à‚©)</title>
-			<title code="0x0b">’†‘Žlç”N‚Ì—ðŽj‚Æ‚Í‚¢‚©‚É</title>
-			<title code="0x0c">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x0d">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x0e">“­‚­“¬‹Žm</title>
-			<title code="0x0f">ƒM[ƒX‚É‚µ‚å‚¤‚ä</title>
-			<title code="0x10">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
-			<title code="0x11">—´ŒÕ‚ÌŒ Ver.230000000.0</title>
+			<title code="0x02">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x03">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x04">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x05">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x06">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x07">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x08">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x09">ç‚Žé¾ç¥ž</title>
+			<title code="0x0a">Duck Dub Dub(ãƒ€ãƒƒã‚¯ã‚ˆãŠå‰ã‚‚ã‹)</title>
+			<title code="0x0b">ä¸­å›½å››åƒå¹´ã®æ­´å²ã¨ã¯ã„ã‹ã«</title>
+			<title code="0x0c">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x0d">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x0e">åƒãé—˜ç‰›å£«</title>
+			<title code="0x0f">ã‚®ãƒ¼ã‚¹ã«ã—ã‚‡ã†ã‚†</title>
+			<title code="0x10">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
+			<title code="0x11">é¾è™Žã®æ‹³ Ver.230000000.0</title>
 			<title code="0x18">WINNER DEMO</title>
 			<title code="0x15">CONTINUE</title>
 			<title code="0x1a">MORE MISSION</title>
@@ -261,7 +261,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (‰ì˜T“`àSPECIAL) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
+		<name>[X68000] Garou Densetsu Special (é¤“ç‹¼ä¼èª¬SPECIAL) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -315,25 +315,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
-			<title code="0x13">‰ì˜T“`àSPECIAL</title>
+			<title code="0x13">é¤“ç‹¼ä¼èª¬SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
 			<title code="0x17">VS</title>
-			<title code="0x02">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x03">ƒpƒXƒ^</title>
-			<title code="0x04">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x05">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x06">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x07">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x08">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x09">‰Š—´_</title>
-			<title code="0x0a">Duck Dub Dub(ƒ_ƒbƒN‚æ‚¨‘O‚à‚©)</title>
-			<title code="0x0b">’†‘Žlç”N‚Ì—ðŽj‚Æ‚Í‚¢‚©‚É</title>
-			<title code="0x0c">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x0d">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x0e">“­‚­“¬‹Žm</title>
-			<title code="0x0f">ƒM[ƒX‚É‚µ‚å‚¤‚ä</title>
-			<title code="0x10">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
-			<title code="0x11">—´ŒÕ‚ÌŒ Ver.230000000.0</title>
+			<title code="0x02">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x03">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x04">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x05">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x06">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x07">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x08">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x09">ç‚Žé¾ç¥ž</title>
+			<title code="0x0a">Duck Dub Dub(ãƒ€ãƒƒã‚¯ã‚ˆãŠå‰ã‚‚ã‹)</title>
+			<title code="0x0b">ä¸­å›½å››åƒå¹´ã®æ­´å²ã¨ã¯ã„ã‹ã«</title>
+			<title code="0x0c">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x0d">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x0e">åƒãé—˜ç‰›å£«</title>
+			<title code="0x0f">ã‚®ãƒ¼ã‚¹ã«ã—ã‚‡ã†ã‚†</title>
+			<title code="0x10">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
+			<title code="0x11">é¾è™Žã®æ‹³ Ver.230000000.0</title>
 			<title code="0x18">WINNER DEMO</title>
 			<title code="0x15">CONTINUE</title>
 			<title code="0x1a">MORE MISSION</title>
@@ -343,7 +343,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (‰ì˜T“`àSPECIAL) (YM2151+MSM6258+GS+MT-32)</name>
+		<name>[X68000] Garou Densetsu Special (é¤“ç‹¼ä¼èª¬SPECIAL) (YM2151+MSM6258+GS+MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -397,25 +397,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
-			<title code="0x13">‰ì˜T“`àSPECIAL</title>
+			<title code="0x13">é¤“ç‹¼ä¼èª¬SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
 			<title code="0x17">VS</title>
-			<title code="0x02">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x03">ƒpƒXƒ^</title>
-			<title code="0x04">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x05">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x06">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x07">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x08">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x09">‰Š—´_</title>
-			<title code="0x0a">Duck Dub Dub(ƒ_ƒbƒN‚æ‚¨‘O‚à‚©)</title>
-			<title code="0x0b">’†‘Žlç”N‚Ì—ðŽj‚Æ‚Í‚¢‚©‚É</title>
-			<title code="0x0c">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x0d">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x0e">“­‚­“¬‹Žm</title>
-			<title code="0x0f">ƒM[ƒX‚É‚µ‚å‚¤‚ä</title>
-			<title code="0x10">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
-			<title code="0x11">—´ŒÕ‚ÌŒ Ver.230000000.0</title>
+			<title code="0x02">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x03">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x04">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x05">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x06">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x07">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x08">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x09">ç‚Žé¾ç¥ž</title>
+			<title code="0x0a">Duck Dub Dub(ãƒ€ãƒƒã‚¯ã‚ˆãŠå‰ã‚‚ã‹)</title>
+			<title code="0x0b">ä¸­å›½å››åƒå¹´ã®æ­´å²ã¨ã¯ã„ã‹ã«</title>
+			<title code="0x0c">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x0d">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x0e">åƒãé—˜ç‰›å£«</title>
+			<title code="0x0f">ã‚®ãƒ¼ã‚¹ã«ã—ã‚‡ã†ã‚†</title>
+			<title code="0x10">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
+			<title code="0x11">é¾è™Žã®æ‹³ Ver.230000000.0</title>
 			<title code="0x18">WINNER DEMO</title>
 			<title code="0x15">CONTINUE</title>
 			<title code="0x1a">MORE MISSION</title>
@@ -425,7 +425,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu Special (‰ì˜T“`àSPECIAL) (YM2151+MSM6258+MT-32+Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] Garou Densetsu Special (é¤“ç‹¼ä¼èª¬SPECIAL) (YM2151+MSM6258+MT-32+Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -479,25 +479,25 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL Music</title>
-			<title code="0x13">‰ì˜T“`àSPECIAL</title>
+			<title code="0x13">é¤“ç‹¼ä¼èª¬SPECIAL</title>
 			<title code="0x16">PLAYER SELECT</title>
 			<title code="0x17">VS</title>
-			<title code="0x02">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x03">ƒpƒXƒ^</title>
-			<title code="0x04">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x05">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x06">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x07">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x08">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x09">‰Š—´_</title>
-			<title code="0x0a">Duck Dub Dub(ƒ_ƒbƒN‚æ‚¨‘O‚à‚©)</title>
-			<title code="0x0b">’†‘Žlç”N‚Ì—ðŽj‚Æ‚Í‚¢‚©‚É</title>
-			<title code="0x0c">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x0d">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x0e">“­‚­“¬‹Žm</title>
-			<title code="0x0f">ƒM[ƒX‚É‚µ‚å‚¤‚ä</title>
-			<title code="0x10">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
-			<title code="0x11">—´ŒÕ‚ÌŒ Ver.230000000.0</title>
+			<title code="0x02">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x03">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x04">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x05">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x06">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x07">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x08">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x09">ç‚Žé¾ç¥ž</title>
+			<title code="0x0a">Duck Dub Dub(ãƒ€ãƒƒã‚¯ã‚ˆãŠå‰ã‚‚ã‹)</title>
+			<title code="0x0b">ä¸­å›½å››åƒå¹´ã®æ­´å²ã¨ã¯ã„ã‹ã«</title>
+			<title code="0x0c">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x0d">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x0e">åƒãé—˜ç‰›å£«</title>
+			<title code="0x0f">ã‚®ãƒ¼ã‚¹ã«ã—ã‚‡ã†ã‚†</title>
+			<title code="0x10">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
+			<title code="0x11">é¾è™Žã®æ‹³ Ver.230000000.0</title>
 			<title code="0x18">WINNER DEMO</title>
 			<title code="0x15">CONTINUE</title>
 			<title code="0x1a">MORE MISSION</title>
@@ -507,7 +507,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu (‰ì˜T“`à h–½‚Ìí‚¢) (YM2151+MSM6258)</name>
+		<name>[X68000] Garou Densetsu (é¤“ç‹¼ä¼èª¬ å®¿å‘½ã®æˆ¦ã„) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<romlist archive="fatfury168snd">
@@ -544,35 +544,35 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL MUSIC</title>
-			<title code="0x0d">‰ì˜T“`àƒ^ƒCƒgƒ‹ NEOGEO</title>
-			<title code="0x16">3l‚æ‚ê‚Î•¶Žê‚Ì’mŒb</title>
+			<title code="0x0d">é¤“ç‹¼ä¼èª¬ã‚¿ã‚¤ãƒˆãƒ« NEOGEO</title>
+			<title code="0x16">3äººã‚ˆã‚Œã°æ–‡æ®Šã®çŸ¥æµ</title>
 			<title code="0x19">FIGHT!</title>
-			<title code="0x02">‰º’¬‚Ì–\‚ê‚ñ–V</title>
-			<title code="0x03">M‚¸‚é‚à‚Ì‚Í‹~‚í‚ê‚é</title>
-			<title code="0x04">ŠC‚Í’m‚Á‚Ä‚¢‚é</title>
-			<title code="0x05">’†‘Žlç”N‚Ì—ðŽj</title>
-			<title code="0x06">ƒLƒ“ƒOƒRƒuƒ‰‚ª‚â‚Á‚Ä‚­‚é</title>
-			<title code="0x07">—EŽÒ—‹“d</title>
-			<title code="0x08">‹´‚ð•à‚¯‚Î–_‚É‚ ‚½‚é</title>
-			<title code="0x09">ƒM[ƒX‚ÉƒLƒbƒX</title>
-			<title code="0x0a">‚¿‚å‚Á‚Æ¬ˆÓ‹C‚ÈŒ–‰Ü–ì˜Y</title>
-			<title code="0x18">–¼‚ð–¼æ‚ê</title>
-			<title code="0x0b">Ÿ—˜‚Ì‰e‚É</title>
-			<title code="0x0e">Œ‹‰Ê‚ª‘S‚Ä</title>
-			<title code="0x12">‰ö‚µ‚°‚È“z</title>
-			<title code="0x10">—U‰û</title>
-			<title code="0x14">–ÚŠo‚ß‚Ì—JŸT</title>
-			<title code="0x0f">‚Í‚¶‚Ü‚é‚¼`</title>
-			<title code="0x13">’n–‚Ì‰Ê‚Ä‚Ü‚Å‰Ÿ‚µ‚Ü‚­‚ê</title>
-			<title code="0x17">‚ ‚ñ‚½‚ÍˆÌ‚¢!</title>
-			<title code="0x1a">•‰‚¯‚é‚ªŸ‚¿‚æ</title>
-			<title code="0x15">â–]‚Ì”Þ•û‚É</title>
-			<title code="0x11">•s‹ü‚Ì¸_‰ä‚É‚ ‚è</title>
-			<title code="0x0c">Œ©‚Â‚ß‚ê‚ÎŒ»ŽÀ</title>
+			<title code="0x02">ä¸‹ç”ºã®æš´ã‚Œã‚“åŠ</title>
+			<title code="0x03">ä¿¡ãšã‚‹ã‚‚ã®ã¯æ•‘ã‚ã‚Œã‚‹</title>
+			<title code="0x04">æµ·ã¯çŸ¥ã£ã¦ã„ã‚‹</title>
+			<title code="0x05">ä¸­å›½å››åƒå¹´ã®æ­´å²</title>
+			<title code="0x06">ã‚­ãƒ³ã‚°ã‚³ãƒ–ãƒ©ãŒã‚„ã£ã¦ãã‚‹</title>
+			<title code="0x07">å‹‡è€…é›·é›»</title>
+			<title code="0x08">æ©‹ã‚’æ­©ã‘ã°æ£’ã«ã‚ãŸã‚‹</title>
+			<title code="0x09">ã‚®ãƒ¼ã‚¹ã«ã‚­ãƒƒã‚¹</title>
+			<title code="0x0a">ã¡ã‚‡ã£ã¨å°æ„æ°—ãªå–§å˜©é‡ŽéƒŽ</title>
+			<title code="0x18">åã‚’åä¹—ã‚Œ</title>
+			<title code="0x0b">å‹åˆ©ã®å½±ã«</title>
+			<title code="0x0e">çµæžœãŒå…¨ã¦</title>
+			<title code="0x12">æ€ªã—ã’ãªå¥´</title>
+			<title code="0x10">èª˜æ‹</title>
+			<title code="0x14">ç›®è¦šã‚ã®æ†‚é¬±</title>
+			<title code="0x0f">ã¯ã˜ã¾ã‚‹ãžï½ž</title>
+			<title code="0x13">åœ°ç„ã®æžœã¦ã¾ã§æŠ¼ã—ã¾ãã‚Œ</title>
+			<title code="0x17">ã‚ã‚“ãŸã¯å‰ã„!</title>
+			<title code="0x1a">è² ã‘ã‚‹ãŒå‹ã¡ã‚ˆ</title>
+			<title code="0x15">çµ¶æœ›ã®å½¼æ–¹ã«</title>
+			<title code="0x11">ä¸å±ˆã®ç²¾ç¥žæˆ‘ã«ã‚ã‚Š</title>
+			<title code="0x0c">è¦‹ã¤ã‚ã‚Œã°ç¾å®Ÿ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu (‰ì˜T“`à h–½‚Ìí‚¢) (YM2151+MSM6258+MT-32)</name>
+		<name>[X68000] Garou Densetsu (é¤“ç‹¼ä¼èª¬ å®¿å‘½ã®æˆ¦ã„) (YM2151+MSM6258+MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -613,35 +613,35 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL MUSIC</title>
-			<title code="0x0d">‰ì˜T“`àƒ^ƒCƒgƒ‹ NEOGEO</title>
-			<title code="0x16">3l‚æ‚ê‚Î•¶Žê‚Ì’mŒb</title>
+			<title code="0x0d">é¤“ç‹¼ä¼èª¬ã‚¿ã‚¤ãƒˆãƒ« NEOGEO</title>
+			<title code="0x16">3äººã‚ˆã‚Œã°æ–‡æ®Šã®çŸ¥æµ</title>
 			<title code="0x19">FIGHT!</title>
-			<title code="0x02">‰º’¬‚Ì–\‚ê‚ñ–V</title>
-			<title code="0x03">M‚¸‚é‚à‚Ì‚Í‹~‚í‚ê‚é</title>
-			<title code="0x04">ŠC‚Í’m‚Á‚Ä‚¢‚é</title>
-			<title code="0x05">’†‘Žlç”N‚Ì—ðŽj</title>
-			<title code="0x06">ƒLƒ“ƒOƒRƒuƒ‰‚ª‚â‚Á‚Ä‚­‚é</title>
-			<title code="0x07">—EŽÒ—‹“d</title>
-			<title code="0x08">‹´‚ð•à‚¯‚Î–_‚É‚ ‚½‚é</title>
-			<title code="0x09">ƒM[ƒX‚ÉƒLƒbƒX</title>
-			<title code="0x0a">‚¿‚å‚Á‚Æ¬ˆÓ‹C‚ÈŒ–‰Ü–ì˜Y</title>
-			<title code="0x18">–¼‚ð–¼æ‚ê</title>
-			<title code="0x0e">Œ‹‰Ê‚ª‘S‚Ä</title>
-			<title code="0x0b">Ÿ—˜‚Ì‰e‚É</title>
-			<title code="0x12">‰ö‚µ‚°‚È“z</title>
-			<title code="0x10">—U‰û</title>
-			<title code="0x14">–ÚŠo‚ß‚Ì—JŸT</title>
-			<title code="0x0f">‚Í‚¶‚Ü‚é‚¼`</title>
-			<title code="0x13">’n–‚Ì‰Ê‚Ä‚Ü‚Å‰Ÿ‚µ‚Ü‚­‚ê</title>
-			<title code="0x17">‚ ‚ñ‚½‚ÍˆÌ‚¢!</title>
-			<title code="0x1a">•‰‚¯‚é‚ªŸ‚¿‚æ</title>
-			<title code="0x11">•s‹ü‚Ì¸_‰ä‚É‚ ‚è</title>
-			<title code="0x15">â–]‚Ì”Þ•û‚É</title>
-			<title code="0x0c">Œ©‚Â‚ß‚ê‚ÎŒ»ŽÀ</title>
+			<title code="0x02">ä¸‹ç”ºã®æš´ã‚Œã‚“åŠ</title>
+			<title code="0x03">ä¿¡ãšã‚‹ã‚‚ã®ã¯æ•‘ã‚ã‚Œã‚‹</title>
+			<title code="0x04">æµ·ã¯çŸ¥ã£ã¦ã„ã‚‹</title>
+			<title code="0x05">ä¸­å›½å››åƒå¹´ã®æ­´å²</title>
+			<title code="0x06">ã‚­ãƒ³ã‚°ã‚³ãƒ–ãƒ©ãŒã‚„ã£ã¦ãã‚‹</title>
+			<title code="0x07">å‹‡è€…é›·é›»</title>
+			<title code="0x08">æ©‹ã‚’æ­©ã‘ã°æ£’ã«ã‚ãŸã‚‹</title>
+			<title code="0x09">ã‚®ãƒ¼ã‚¹ã«ã‚­ãƒƒã‚¹</title>
+			<title code="0x0a">ã¡ã‚‡ã£ã¨å°æ„æ°—ãªå–§å˜©é‡ŽéƒŽ</title>
+			<title code="0x18">åã‚’åä¹—ã‚Œ</title>
+			<title code="0x0e">çµæžœãŒå…¨ã¦</title>
+			<title code="0x0b">å‹åˆ©ã®å½±ã«</title>
+			<title code="0x12">æ€ªã—ã’ãªå¥´</title>
+			<title code="0x10">èª˜æ‹</title>
+			<title code="0x14">ç›®è¦šã‚ã®æ†‚é¬±</title>
+			<title code="0x0f">ã¯ã˜ã¾ã‚‹ãžï½ž</title>
+			<title code="0x13">åœ°ç„ã®æžœã¦ã¾ã§æŠ¼ã—ã¾ãã‚Œ</title>
+			<title code="0x17">ã‚ã‚“ãŸã¯å‰ã„!</title>
+			<title code="0x1a">è² ã‘ã‚‹ãŒå‹ã¡ã‚ˆ</title>
+			<title code="0x11">ä¸å±ˆã®ç²¾ç¥žæˆ‘ã«ã‚ã‚Š</title>
+			<title code="0x15">çµ¶æœ›ã®å½¼æ–¹ã«</title>
+			<title code="0x0c">è¦‹ã¤ã‚ã‚Œã°ç¾å®Ÿ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu (‰ì˜T“`à h–½‚Ìí‚¢) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
+		<name>[X68000] Garou Densetsu (é¤“ç‹¼ä¼èª¬ å®¿å‘½ã®æˆ¦ã„) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -682,35 +682,35 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL MUSIC</title>
-			<title code="0x0d">‰ì˜T“`àƒ^ƒCƒgƒ‹ NEOGEO</title>
-			<title code="0x16">3l‚æ‚ê‚Î•¶Žê‚Ì’mŒb</title>
+			<title code="0x0d">é¤“ç‹¼ä¼èª¬ã‚¿ã‚¤ãƒˆãƒ« NEOGEO</title>
+			<title code="0x16">3äººã‚ˆã‚Œã°æ–‡æ®Šã®çŸ¥æµ</title>
 			<title code="0x19">FIGHT!</title>
-			<title code="0x02">‰º’¬‚Ì–\‚ê‚ñ–V</title>
-			<title code="0x03">M‚¸‚é‚à‚Ì‚Í‹~‚í‚ê‚é</title>
-			<title code="0x04">ŠC‚Í’m‚Á‚Ä‚¢‚é</title>
-			<title code="0x05">’†‘Žlç”N‚Ì—ðŽj</title>
-			<title code="0x06">ƒLƒ“ƒOƒRƒuƒ‰‚ª‚â‚Á‚Ä‚­‚é</title>
-			<title code="0x07">—EŽÒ—‹“d</title>
-			<title code="0x08">‹´‚ð•à‚¯‚Î–_‚É‚ ‚½‚é</title>
-			<title code="0x09">ƒM[ƒX‚ÉƒLƒbƒX</title>
-			<title code="0x0a">‚¿‚å‚Á‚Æ¬ˆÓ‹C‚ÈŒ–‰Ü–ì˜Y</title>
-			<title code="0x18">–¼‚ð–¼æ‚ê</title>
-			<title code="0x0e">Œ‹‰Ê‚ª‘S‚Ä</title>
-			<title code="0x0b">Ÿ—˜‚Ì‰e‚É</title>
-			<title code="0x12">‰ö‚µ‚°‚È“z</title>
-			<title code="0x10">—U‰û</title>
-			<title code="0x14">–ÚŠo‚ß‚Ì—JŸT</title>
-			<title code="0x0f">‚Í‚¶‚Ü‚é‚¼`</title>
-			<title code="0x13">’n–‚Ì‰Ê‚Ä‚Ü‚Å‰Ÿ‚µ‚Ü‚­‚ê</title>
-			<title code="0x17">‚ ‚ñ‚½‚ÍˆÌ‚¢!</title>
-			<title code="0x1a">•‰‚¯‚é‚ªŸ‚¿‚æ</title>
-			<title code="0x15">â–]‚Ì”Þ•û‚É</title>
-			<title code="0x11">•s‹ü‚Ì¸_‰ä‚É‚ ‚è</title>
-			<title code="0x0c">Œ©‚Â‚ß‚ê‚ÎŒ»ŽÀ</title>
+			<title code="0x02">ä¸‹ç”ºã®æš´ã‚Œã‚“åŠ</title>
+			<title code="0x03">ä¿¡ãšã‚‹ã‚‚ã®ã¯æ•‘ã‚ã‚Œã‚‹</title>
+			<title code="0x04">æµ·ã¯çŸ¥ã£ã¦ã„ã‚‹</title>
+			<title code="0x05">ä¸­å›½å››åƒå¹´ã®æ­´å²</title>
+			<title code="0x06">ã‚­ãƒ³ã‚°ã‚³ãƒ–ãƒ©ãŒã‚„ã£ã¦ãã‚‹</title>
+			<title code="0x07">å‹‡è€…é›·é›»</title>
+			<title code="0x08">æ©‹ã‚’æ­©ã‘ã°æ£’ã«ã‚ãŸã‚‹</title>
+			<title code="0x09">ã‚®ãƒ¼ã‚¹ã«ã‚­ãƒƒã‚¹</title>
+			<title code="0x0a">ã¡ã‚‡ã£ã¨å°æ„æ°—ãªå–§å˜©é‡ŽéƒŽ</title>
+			<title code="0x18">åã‚’åä¹—ã‚Œ</title>
+			<title code="0x0e">çµæžœãŒå…¨ã¦</title>
+			<title code="0x0b">å‹åˆ©ã®å½±ã«</title>
+			<title code="0x12">æ€ªã—ã’ãªå¥´</title>
+			<title code="0x10">èª˜æ‹</title>
+			<title code="0x14">ç›®è¦šã‚ã®æ†‚é¬±</title>
+			<title code="0x0f">ã¯ã˜ã¾ã‚‹ãžï½ž</title>
+			<title code="0x13">åœ°ç„ã®æžœã¦ã¾ã§æŠ¼ã—ã¾ãã‚Œ</title>
+			<title code="0x17">ã‚ã‚“ãŸã¯å‰ã„!</title>
+			<title code="0x1a">è² ã‘ã‚‹ãŒå‹ã¡ã‚ˆ</title>
+			<title code="0x15">çµ¶æœ›ã®å½¼æ–¹ã«</title>
+			<title code="0x11">ä¸å±ˆã®ç²¾ç¥žæˆ‘ã«ã‚ã‚Š</title>
+			<title code="0x0c">è¦‹ã¤ã‚ã‚Œã°ç¾å®Ÿ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu (‰ì˜T“`à h–½‚Ìí‚¢) (YM2151+MSM6258+GS)</name>
+		<name>[X68000] Garou Densetsu (é¤“ç‹¼ä¼èª¬ å®¿å‘½ã®æˆ¦ã„) (YM2151+MSM6258+GS)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -751,35 +751,35 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL MUSIC</title>
-			<title code="0x0d">‰ì˜T“`àƒ^ƒCƒgƒ‹ NEOGEO</title>
-			<title code="0x16">3l‚æ‚ê‚Î•¶Žê‚Ì’mŒb</title>
+			<title code="0x0d">é¤“ç‹¼ä¼èª¬ã‚¿ã‚¤ãƒˆãƒ« NEOGEO</title>
+			<title code="0x16">3äººã‚ˆã‚Œã°æ–‡æ®Šã®çŸ¥æµ</title>
 			<title code="0x19">FIGHT!</title>
-			<title code="0x02">‰º’¬‚Ì–\‚ê‚ñ–V</title>
-			<title code="0x03">M‚¸‚é‚à‚Ì‚Í‹~‚í‚ê‚é</title>
-			<title code="0x04">ŠC‚Í’m‚Á‚Ä‚¢‚é</title>
-			<title code="0x05">’†‘Žlç”N‚Ì—ðŽj</title>
-			<title code="0x06">ƒLƒ“ƒOƒRƒuƒ‰‚ª‚â‚Á‚Ä‚­‚é</title>
-			<title code="0x07">—EŽÒ—‹“d</title>
-			<title code="0x08">‹´‚ð•à‚¯‚Î–_‚É‚ ‚½‚é</title>
-			<title code="0x09">ƒM[ƒX‚ÉƒLƒbƒX</title>
-			<title code="0x0a">‚¿‚å‚Á‚Æ¬ˆÓ‹C‚ÈŒ–‰Ü–ì˜Y</title>
-			<title code="0x18">–¼‚ð–¼æ‚ê</title>
-			<title code="0x0e">Œ‹‰Ê‚ª‘S‚Ä</title>
-			<title code="0x0b">Ÿ—˜‚Ì‰e‚É</title>
-			<title code="0x12">‰ö‚µ‚°‚È“z</title>
-			<title code="0x10">—U‰û</title>
-			<title code="0x14">–ÚŠo‚ß‚Ì—JŸT</title>
-			<title code="0x0f">‚Í‚¶‚Ü‚é‚¼`</title>
-			<title code="0x13">’n–‚Ì‰Ê‚Ä‚Ü‚Å‰Ÿ‚µ‚Ü‚­‚ê</title>
-			<title code="0x17">‚ ‚ñ‚½‚ÍˆÌ‚¢!</title>
-			<title code="0x1a">•‰‚¯‚é‚ªŸ‚¿‚æ</title>
-			<title code="0x15">â–]‚Ì”Þ•û‚É</title>
-			<title code="0x11">•s‹ü‚Ì¸_‰ä‚É‚ ‚è</title>
-			<title code="0x0c">Œ©‚Â‚ß‚ê‚ÎŒ»ŽÀ</title>
+			<title code="0x02">ä¸‹ç”ºã®æš´ã‚Œã‚“åŠ</title>
+			<title code="0x03">ä¿¡ãšã‚‹ã‚‚ã®ã¯æ•‘ã‚ã‚Œã‚‹</title>
+			<title code="0x04">æµ·ã¯çŸ¥ã£ã¦ã„ã‚‹</title>
+			<title code="0x05">ä¸­å›½å››åƒå¹´ã®æ­´å²</title>
+			<title code="0x06">ã‚­ãƒ³ã‚°ã‚³ãƒ–ãƒ©ãŒã‚„ã£ã¦ãã‚‹</title>
+			<title code="0x07">å‹‡è€…é›·é›»</title>
+			<title code="0x08">æ©‹ã‚’æ­©ã‘ã°æ£’ã«ã‚ãŸã‚‹</title>
+			<title code="0x09">ã‚®ãƒ¼ã‚¹ã«ã‚­ãƒƒã‚¹</title>
+			<title code="0x0a">ã¡ã‚‡ã£ã¨å°æ„æ°—ãªå–§å˜©é‡ŽéƒŽ</title>
+			<title code="0x18">åã‚’åä¹—ã‚Œ</title>
+			<title code="0x0e">çµæžœãŒå…¨ã¦</title>
+			<title code="0x0b">å‹åˆ©ã®å½±ã«</title>
+			<title code="0x12">æ€ªã—ã’ãªå¥´</title>
+			<title code="0x10">èª˜æ‹</title>
+			<title code="0x14">ç›®è¦šã‚ã®æ†‚é¬±</title>
+			<title code="0x0f">ã¯ã˜ã¾ã‚‹ãžï½ž</title>
+			<title code="0x13">åœ°ç„ã®æžœã¦ã¾ã§æŠ¼ã—ã¾ãã‚Œ</title>
+			<title code="0x17">ã‚ã‚“ãŸã¯å‰ã„!</title>
+			<title code="0x1a">è² ã‘ã‚‹ãŒå‹ã¡ã‚ˆ</title>
+			<title code="0x15">çµ¶æœ›ã®å½¼æ–¹ã«</title>
+			<title code="0x11">ä¸å±ˆã®ç²¾ç¥žæˆ‘ã«ã‚ã‚Š</title>
+			<title code="0x0c">è¦‹ã¤ã‚ã‚Œã°ç¾å®Ÿ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu (‰ì˜T“`à h–½‚Ìí‚¢) (YM2151+MSM6258+Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] Garou Densetsu (é¤“ç‹¼ä¼èª¬ å®¿å‘½ã®æˆ¦ã„) (YM2151+MSM6258+Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -820,35 +820,35 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">IPL MUSIC</title>
-			<title code="0x0d">‰ì˜T“`àƒ^ƒCƒgƒ‹ NEOGEO</title>
-			<title code="0x16">3l‚æ‚ê‚Î•¶Žê‚Ì’mŒb</title>
+			<title code="0x0d">é¤“ç‹¼ä¼èª¬ã‚¿ã‚¤ãƒˆãƒ« NEOGEO</title>
+			<title code="0x16">3äººã‚ˆã‚Œã°æ–‡æ®Šã®çŸ¥æµ</title>
 			<title code="0x19">FIGHT!</title>
-			<title code="0x02">‰º’¬‚Ì–\‚ê‚ñ–V</title>
-			<title code="0x03">M‚¸‚é‚à‚Ì‚Í‹~‚í‚ê‚é</title>
-			<title code="0x04">ŠC‚Í’m‚Á‚Ä‚¢‚é</title>
-			<title code="0x05">’†‘Žlç”N‚Ì—ðŽj</title>
-			<title code="0x06">ƒLƒ“ƒOƒRƒuƒ‰‚ª‚â‚Á‚Ä‚­‚é</title>
-			<title code="0x07">—EŽÒ—‹“d</title>
-			<title code="0x08">‹´‚ð•à‚¯‚Î–_‚É‚ ‚½‚é</title>
-			<title code="0x09">ƒM[ƒX‚ÉƒLƒbƒX</title>
-			<title code="0x0a">‚¿‚å‚Á‚Æ¬ˆÓ‹C‚ÈŒ–‰Ü–ì˜Y</title>
-			<title code="0x18">–¼‚ð–¼æ‚ê</title>
-			<title code="0x0e">Œ‹‰Ê‚ª‘S‚Ä</title>
-			<title code="0x0b">Ÿ—˜‚Ì‰e‚É</title>
-			<title code="0x12">‰ö‚µ‚°‚È“z</title>
-			<title code="0x10">—U‰û</title>
-			<title code="0x14">–ÚŠo‚ß‚Ì—JŸT</title>
-			<title code="0x0f">‚Í‚¶‚Ü‚é‚¼`</title>
-			<title code="0x13">’n–‚Ì‰Ê‚Ä‚Ü‚Å‰Ÿ‚µ‚Ü‚­‚ê</title>
-			<title code="0x17">‚ ‚ñ‚½‚ÍˆÌ‚¢!</title>
-			<title code="0x1a">•‰‚¯‚é‚ªŸ‚¿‚æ</title>
-			<title code="0x15">â–]‚Ì”Þ•û‚É</title>
-			<title code="0x11">•s‹ü‚Ì¸_‰ä‚É‚ ‚è</title>
-			<title code="0x0c">Œ©‚Â‚ß‚ê‚ÎŒ»ŽÀ</title>
+			<title code="0x02">ä¸‹ç”ºã®æš´ã‚Œã‚“åŠ</title>
+			<title code="0x03">ä¿¡ãšã‚‹ã‚‚ã®ã¯æ•‘ã‚ã‚Œã‚‹</title>
+			<title code="0x04">æµ·ã¯çŸ¥ã£ã¦ã„ã‚‹</title>
+			<title code="0x05">ä¸­å›½å››åƒå¹´ã®æ­´å²</title>
+			<title code="0x06">ã‚­ãƒ³ã‚°ã‚³ãƒ–ãƒ©ãŒã‚„ã£ã¦ãã‚‹</title>
+			<title code="0x07">å‹‡è€…é›·é›»</title>
+			<title code="0x08">æ©‹ã‚’æ­©ã‘ã°æ£’ã«ã‚ãŸã‚‹</title>
+			<title code="0x09">ã‚®ãƒ¼ã‚¹ã«ã‚­ãƒƒã‚¹</title>
+			<title code="0x0a">ã¡ã‚‡ã£ã¨å°æ„æ°—ãªå–§å˜©é‡ŽéƒŽ</title>
+			<title code="0x18">åã‚’åä¹—ã‚Œ</title>
+			<title code="0x0e">çµæžœãŒå…¨ã¦</title>
+			<title code="0x0b">å‹åˆ©ã®å½±ã«</title>
+			<title code="0x12">æ€ªã—ã’ãªå¥´</title>
+			<title code="0x10">èª˜æ‹</title>
+			<title code="0x14">ç›®è¦šã‚ã®æ†‚é¬±</title>
+			<title code="0x0f">ã¯ã˜ã¾ã‚‹ãžï½ž</title>
+			<title code="0x13">åœ°ç„ã®æžœã¦ã¾ã§æŠ¼ã—ã¾ãã‚Œ</title>
+			<title code="0x17">ã‚ã‚“ãŸã¯å‰ã„!</title>
+			<title code="0x1a">è² ã‘ã‚‹ãŒå‹ã¡ã‚ˆ</title>
+			<title code="0x15">çµ¶æœ›ã®å½¼æ–¹ã«</title>
+			<title code="0x11">ä¸å±ˆã®ç²¾ç¥žæˆ‘ã«ã‚ã‚Š</title>
+			<title code="0x0c">è¦‹ã¤ã‚ã‚Œã°ç¾å®Ÿ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu II (‰ì˜T“`à2 V‚½‚È‚éí‚¢) (YM2151+MSM6258)</name>
+		<name>[X68000] Garou Densetsu II (é¤“ç‹¼ä¼èª¬2 æ–°ãŸãªã‚‹æˆ¦ã„) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<romlist archive="fatfury268snd">
@@ -885,21 +885,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">IPL Music</title>
-			<title code="0x0c">‰ì˜T“`à2</title>
+			<title code="0x0c">é¤“ç‹¼ä¼èª¬2</title>
 			<title code="0x02">PLAYER SELECT</title>
 			<title code="0x03">VS</title>
-			<title code="0x0f">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x10">ƒpƒXƒ^</title>
-			<title code="0x11">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x12">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x13">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x14">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x15">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x16">‰Š—´_</title>
-			<title code="0x17">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x18">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x19">“­‚­“¬‹Žm</title>
-			<title code="0x1a">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
+			<title code="0x0f">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x10">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x11">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x12">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x13">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x14">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x15">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x16">ç‚Žé¾ç¥ž</title>
+			<title code="0x17">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x18">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x19">åƒãé—˜ç‰›å£«</title>
+			<title code="0x1a">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
 			<title code="0x1b">WINNER DEMO</title>
 			<title code="0x08">SLEEP WELL</title>
 			<title code="0x09">YOU WERE PERFECT</title>
@@ -912,11 +912,11 @@
 			<title code="0x07">GAME OVER</title>
 			<title code="0x0e">NAME</title>
 			<title code="0x0d">LEVEL UP</title>
-			<title code="0x01">•s‹µ‚ð‚Ô‚Á‚Æ‚Î‚¹!</title>
+			<title code="0x01">ä¸æ³ã‚’ã¶ã£ã¨ã°ã›!</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu II (‰ì˜T“`à2 V‚½‚È‚éí‚¢) (YM2151+MSM6258+MT-32)</name>
+		<name>[X68000] Garou Densetsu II (é¤“ç‹¼ä¼èª¬2 æ–°ãŸãªã‚‹æˆ¦ã„) (YM2151+MSM6258+MT-32)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -957,21 +957,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">IPL Music</title>
-			<title code="0x0c">‰ì˜T“`à2</title>
+			<title code="0x0c">é¤“ç‹¼ä¼èª¬2</title>
 			<title code="0x02">PLAYER SELECT</title>
 			<title code="0x03">VS</title>
-			<title code="0x0f">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x10">ƒpƒXƒ^</title>
-			<title code="0x11">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x12">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x13">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x14">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x15">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x16">‰Š—´_</title>
-			<title code="0x17">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x18">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x19">“­‚­“¬‹Žm</title>
-			<title code="0x1a">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
+			<title code="0x0f">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x10">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x11">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x12">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x13">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x14">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x15">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x16">ç‚Žé¾ç¥ž</title>
+			<title code="0x17">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x18">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x19">åƒãé—˜ç‰›å£«</title>
+			<title code="0x1a">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
 			<title code="0x1b">WINNER DEMO</title>
 			<title code="0x08">SLEEP WELL</title>
 			<title code="0x09">YOU WERE PERFECT</title>
@@ -981,12 +981,12 @@
 			<title code="0x07">GAME OVER</title>
 			<title code="0x0e">NAME</title>
 			<title code="0x0d">LEVEL UP</title>
-			<title code="0x01">•s‹µ‚ð‚Ô‚Á‚Æ‚Î‚¹!</title>
-			<title code="0x1c">ƒoƒ‰ƒ“ƒXƒeƒXƒg</title>
+			<title code="0x01">ä¸æ³ã‚’ã¶ã£ã¨ã°ã›!</title>
+			<title code="0x1c">ãƒãƒ©ãƒ³ã‚¹ãƒ†ã‚¹ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu II (‰ì˜T“`à2 V‚½‚È‚éí‚¢) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
+		<name>[X68000] Garou Densetsu II (é¤“ç‹¼ä¼èª¬2 æ–°ãŸãªã‚‹æˆ¦ã„) (YM2151+MSM6258+Munt, MT-32 simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -1027,21 +1027,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">IPL Music</title>
-			<title code="0x0c">‰ì˜T“`à2</title>
+			<title code="0x0c">é¤“ç‹¼ä¼èª¬2</title>
 			<title code="0x02">PLAYER SELECT</title>
 			<title code="0x03">VS</title>
-			<title code="0x0f">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x10">ƒpƒXƒ^</title>
-			<title code="0x11">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x12">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x13">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x14">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x15">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x16">‰Š—´_</title>
-			<title code="0x17">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x18">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x19">“­‚­“¬‹Žm</title>
-			<title code="0x1a">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
+			<title code="0x0f">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x10">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x11">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x12">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x13">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x14">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x15">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x16">ç‚Žé¾ç¥ž</title>
+			<title code="0x17">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x18">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x19">åƒãé—˜ç‰›å£«</title>
+			<title code="0x1a">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
 			<title code="0x1b">WINNER DEMO</title>
 			<title code="0x08">SLEEP WELL</title>
 			<title code="0x09">YOU WERE PERFECT</title>
@@ -1051,12 +1051,12 @@
 			<title code="0x07">GAME OVER</title>
 			<title code="0x0e">NAME</title>
 			<title code="0x0d">LEVEL UP</title>
-			<title code="0x01">•s‹µ‚ð‚Ô‚Á‚Æ‚Î‚¹!</title>
-			<title code="0x1c">ƒoƒ‰ƒ“ƒXƒeƒXƒg</title>
+			<title code="0x01">ä¸æ³ã‚’ã¶ã£ã¨ã°ã›!</title>
+			<title code="0x1c">ãƒãƒ©ãƒ³ã‚¹ãƒ†ã‚¹ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu II (‰ì˜T“`à2 V‚½‚È‚éí‚¢) (YM2151+MSM6258+GS)</name>
+		<name>[X68000] Garou Densetsu II (é¤“ç‹¼ä¼èª¬2 æ–°ãŸãªã‚‹æˆ¦ã„) (YM2151+MSM6258+GS)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -1097,21 +1097,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">IPL Music</title>
-			<title code="0x0c">‰ì˜T“`à2</title>
+			<title code="0x0c">é¤“ç‹¼ä¼èª¬2</title>
 			<title code="0x02">PLAYER SELECT</title>
 			<title code="0x03">VS</title>
-			<title code="0x0f">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x10">ƒpƒXƒ^</title>
-			<title code="0x11">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x12">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x13">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x14">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x15">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x16">‰Š—´_</title>
-			<title code="0x17">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x18">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x19">“­‚­“¬‹Žm</title>
-			<title code="0x1a">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
+			<title code="0x0f">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x10">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x11">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x12">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x13">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x14">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x15">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x16">ç‚Žé¾ç¥ž</title>
+			<title code="0x17">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x18">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x19">åƒãé—˜ç‰›å£«</title>
+			<title code="0x1a">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
 			<title code="0x1b">WINNER DEMO</title>
 			<title code="0x08">SLEEP WELL</title>
 			<title code="0x09">YOU WERE PERFECT</title>
@@ -1121,12 +1121,12 @@
 			<title code="0x07">GAME OVER</title>
 			<title code="0x0e">NAME</title>
 			<title code="0x0d">LEVEL UP</title>
-			<title code="0x01">•s‹µ‚ð‚Ô‚Á‚Æ‚Î‚¹!</title>
-			<title code="0x1c">ƒoƒ‰ƒ“ƒXƒeƒXƒg</title>
+			<title code="0x01">ä¸æ³ã‚’ã¶ã£ã¨ã°ã›!</title>
+			<title code="0x1c">ãƒãƒ©ãƒ³ã‚¹ãƒ†ã‚¹ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Garou Densetsu II (‰ì˜T“`à2 V‚½‚È‚éí‚¢) (YM2151+MSM6258+Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] Garou Densetsu II (é¤“ç‹¼ä¼èª¬2 æ–°ãŸãªã‚‹æˆ¦ã„) (YM2151+MSM6258+Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Magical Company</driveralias>
 		<options>
@@ -1167,21 +1167,21 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">IPL Music</title>
-			<title code="0x0c">‰ì˜T“`à2</title>
+			<title code="0x0c">é¤“ç‹¼ä¼èª¬2</title>
 			<title code="0x02">PLAYER SELECT</title>
 			<title code="0x03">VS</title>
-			<title code="0x0f">ƒNƒŠƒLƒ“ƒgƒ“</title>
-			<title code="0x10">ƒpƒXƒ^</title>
-			<title code="0x11">ƒ^ƒC“ì•”‚Ì“`‚¦‚½‚¢V‚µ‚¢Ž</title>
-			<title code="0x12">ƒ^[‚­‚ñ‚Æ–kƒs[</title>
-			<title code="0x13">ƒWƒ…ƒEƒxƒC</title>
-			<title code="0x14">ƒpƒ“ƒMƒƒƒSEƒz[ƒz</title>
-			<title code="0x15">ƒ\ƒEƒ‹‚És‚±‚¤!</title>
-			<title code="0x16">‰Š—´_</title>
-			<title code="0x17">ƒƒ“ƒhƒ“ƒ}[ƒ`</title>
-			<title code="0x18">ƒLƒ“ƒNƒRƒ“ƒN</title>
-			<title code="0x19">“­‚­“¬‹Žm</title>
-			<title code="0x1a">ƒŒƒNƒCƒGƒ€ ƒj’Z’² K.626 ƒfƒBƒGƒXEƒCƒŒ</title>
+			<title code="0x0f">ã‚¯ãƒªã‚­ãƒ³ãƒˆãƒ³</title>
+			<title code="0x10">ãƒ‘ã‚¹ã‚¿</title>
+			<title code="0x11">ã‚¿ã‚¤å—éƒ¨ã®ä¼ãˆãŸã„æ–°ã—ã„è©©</title>
+			<title code="0x12">ã‚¿ãƒ¼ãã‚“ã¨åŒ—ãƒ”ãƒ¼</title>
+			<title code="0x13">ã‚¸ãƒ¥ã‚¦ãƒ™ã‚¤</title>
+			<title code="0x14">ãƒ‘ãƒ³ã‚®ãƒ£ã‚´ãƒ»ãƒ›ãƒ¼ãƒ›</title>
+			<title code="0x15">ã‚½ã‚¦ãƒ«ã«è¡Œã“ã†!</title>
+			<title code="0x16">ç‚Žé¾ç¥ž</title>
+			<title code="0x17">ãƒ­ãƒ³ãƒ‰ãƒ³ãƒžãƒ¼ãƒ</title>
+			<title code="0x18">ã‚­ãƒ³ã‚¯ã‚³ãƒ³ã‚¯</title>
+			<title code="0x19">åƒãé—˜ç‰›å£«</title>
+			<title code="0x1a">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ  ãƒ‹çŸ­èª¿ K.626 ãƒ‡ã‚£ã‚¨ã‚¹ãƒ»ã‚¤ãƒ¬</title>
 			<title code="0x1b">WINNER DEMO</title>
 			<title code="0x08">SLEEP WELL</title>
 			<title code="0x09">YOU WERE PERFECT</title>
@@ -1191,8 +1191,8 @@
 			<title code="0x07">GAME OVER</title>
 			<title code="0x0e">NAME</title>
 			<title code="0x0d">LEVEL UP</title>
-			<title code="0x01">•s‹µ‚ð‚Ô‚Á‚Æ‚Î‚¹!</title>
-			<title code="0x1c">ƒoƒ‰ƒ“ƒXƒeƒXƒg</title>
+			<title code="0x01">ä¸æ³ã‚’ã¶ã£ã¨ã°ã›!</title>
+			<title code="0x1c">ãƒãƒ©ãƒ³ã‚¹ãƒ†ã‚¹ãƒˆ</title>
 		</titlelist>
 	</game>
 </gamelist>

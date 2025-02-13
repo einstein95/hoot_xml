@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -110,7 +110,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ‚ [‚Ï[‚Ý‚á‚ ‚Ç‚Á‚­(DISC ƒpƒi ƒAƒ~ƒ…[ƒYƒƒ“ƒg ƒRƒŒƒNƒVƒ‡ƒ“)(OPLL)</name>
+		<name>[MSX] ã‚ãƒ¼ã±ãƒ¼ã¿ã‚ƒã‚ã©ã£ã(DISC ãƒ‘ãƒŠ ã‚¢ãƒŸãƒ¥ãƒ¼ã‚ºãƒ¡ãƒ³ãƒˆ ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³)(OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Panasoft</driveralias>
 		<options>
@@ -123,12 +123,12 @@
 			<rom type="code" offset="0xb000">BGM.OPL</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹/ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x00">ƒVƒ…[ƒeƒBƒ“ƒOBGM</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ«/ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x00">ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°BGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] ‚ [‚Ï[‚Ý‚á‚ ‚Ç‚Á‚­(DISC ƒpƒi ƒAƒ~ƒ…[ƒYƒƒ“ƒg ƒRƒŒƒNƒVƒ‡ƒ“)(PSG)</name>
+		<name>[MSX] ã‚ãƒ¼ã±ãƒ¼ã¿ã‚ƒã‚ã©ã£ã(DISC ãƒ‘ãƒŠ ã‚¢ãƒŸãƒ¥ãƒ¼ã‚ºãƒ¡ãƒ³ãƒˆ ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³)(PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Panasoft</driveralias>
 		<options>
@@ -140,12 +140,12 @@
 			<rom type="code" offset="0xb000">BGM.PSG</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹/ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x00">ƒVƒ…[ƒeƒBƒ“ƒOBGM</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ«/ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x00">ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°BGM</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] FM Pana Amusement Cartridge (FMƒpƒiƒAƒ~ƒ…[ƒYƒƒ“ƒgƒJ[ƒgƒŠƒbƒW) (YM2413)</name>
+		<name>[MSX] FM Pana Amusement Cartridge (FMãƒ‘ãƒŠã‚¢ãƒŸãƒ¥ãƒ¼ã‚ºãƒ¡ãƒ³ãƒˆã‚«ãƒ¼ãƒˆãƒªãƒƒã‚¸) (YM2413)</name>
 		<driver type="ascii16">msx</driver>
 		<driveralias type="MSX">Panasoft</driveralias>
 		<options>
@@ -157,11 +157,11 @@
 			<rom type="rom"  offset="0x0000">FMPAC.ROM</rom>
 		</romlist>
 		<titlelist>
-			<range min="0x00" max="0x04" extcode="1">Sample %02d (ƒTƒ“ƒvƒ‹ %02d)</range>
+			<range min="0x00" max="0x04" extcode="1">Sample %02d (ã‚µãƒ³ãƒ—ãƒ« %02d)</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Gekisou Nyancle (Œƒ‘–ƒjƒƒƒ“ƒNƒ‹) (OPLL)</name>
+		<name>[MSX2] Gekisou Nyancle (æ¿€èµ°ãƒ‹ãƒ£ãƒ³ã‚¯ãƒ«) (OPLL)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Panasoft</driveralias>
 		<options>
@@ -189,28 +189,28 @@
 			<rom type="bgm"  offset="0x000a">FM0A.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010201">ƒ^ƒCƒgƒ‹/ƒfƒ‚</title>
-			<title code="0x010202">ƒvƒŒƒCƒ„[ ƒZƒŒƒNƒg</title>
-			<title code="0x010203">ƒ}ƒbƒv</title>
-			<title code="0x010204">ƒŒ[ƒXŠJŽnƒfƒ‚</title>
-			<title code="0x000307">ƒŒ[ƒXŠJŽn</title>
-			<title code="0x010301">ƒAƒbƒvƒŠƒPƒ^ƒEƒ“</title>
-			<title code="0x010401">ƒ}ƒVƒ…ƒ}ƒ[ƒh</title>
-			<title code="0x010501">ƒ~ƒYƒAƒ[ƒ‹</title>
-			<title code="0x010601">ƒOƒŠƒ“ƒs[ƒXƒRƒŠ[ƒk</title>
-			<title code="0x010701">ƒs[ƒiƒbƒcƒfƒBƒU[ƒg</title>
-			<title code="0x010901">ƒsƒbƒgƒCƒ“</title>
-			<title code="0x010902">ƒAƒCƒeƒ€ƒVƒ‡ƒbƒv</title>
-			<title code="0x010903">ƒzƒXƒsƒ^ƒ‹</title>
-			<title code="0x010304">ƒVƒbƒv ƒZƒŒƒNƒg</title>
-			<title code="0x010801">’†ƒXƒe[ƒW</title>
-			<title code="0x000306">ƒS[ƒ‹</title>
-			<title code="0x000a01">ƒ[ƒ‹ƒhƒNƒŠƒA</title>
-			<title code="0x010a03">‡ˆÊ</title>
-			<title code="0x010a06">ƒRƒ“ƒOƒ‰ƒ`ƒ…ƒŒ[ƒVƒ‡ƒ“</title>
-			<title code="0x010a05">ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-			<title code="0x000303">ƒ~ƒX</title>
-			<title code="0x000302">ƒQ[ƒ€ƒI[ƒo[</title>
+			<title code="0x010201">ã‚¿ã‚¤ãƒˆãƒ«/ãƒ‡ãƒ¢</title>
+			<title code="0x010202">ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010203">ãƒžãƒƒãƒ—</title>
+			<title code="0x010204">ãƒ¬ãƒ¼ã‚¹é–‹å§‹ãƒ‡ãƒ¢</title>
+			<title code="0x000307">ãƒ¬ãƒ¼ã‚¹é–‹å§‹</title>
+			<title code="0x010301">ã‚¢ãƒƒãƒ—ãƒªã‚±ã‚¿ã‚¦ãƒ³</title>
+			<title code="0x010401">ãƒžã‚·ãƒ¥ãƒžãƒ­ãƒ¼ãƒ‰</title>
+			<title code="0x010501">ãƒŸã‚ºã‚¢ãƒ¡ãƒ¼ãƒ«</title>
+			<title code="0x010601">ã‚°ãƒªãƒ³ãƒ”ãƒ¼ã‚¹ã‚³ãƒªãƒ¼ãƒŒ</title>
+			<title code="0x010701">ãƒ”ãƒ¼ãƒŠãƒƒãƒ„ãƒ‡ã‚£ã‚¶ãƒ¼ãƒˆ</title>
+			<title code="0x010901">ãƒ”ãƒƒãƒˆã‚¤ãƒ³</title>
+			<title code="0x010902">ã‚¢ã‚¤ãƒ†ãƒ ã‚·ãƒ§ãƒƒãƒ—</title>
+			<title code="0x010903">ãƒ›ã‚¹ãƒ”ã‚¿ãƒ«</title>
+			<title code="0x010304">ã‚·ãƒƒãƒ— ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010801">ä¸­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x000306">ã‚´ãƒ¼ãƒ«</title>
+			<title code="0x000a01">ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚¯ãƒªã‚¢</title>
+			<title code="0x010a03">é †ä½</title>
+			<title code="0x010a06">ã‚³ãƒ³ã‚°ãƒ©ãƒãƒ¥ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x010a05">ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+			<title code="0x000303">ãƒŸã‚¹</title>
+			<title code="0x000302">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
 			<title code="0x000904">BGM 0904</title>
 			<title code="0x000a02">BGM 0a02</title>
 			<title code="0x010a04">BGM 0a04</title>
@@ -219,7 +219,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Gekisou Nyancle (Œƒ‘–ƒjƒƒƒ“ƒNƒ‹) (PSG)</name>
+		<name>[MSX2] Gekisou Nyancle (æ¿€èµ°ãƒ‹ãƒ£ãƒ³ã‚¯ãƒ«) (PSG)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Panasoft</driveralias>
 		<options>
@@ -245,28 +245,28 @@
 			<rom type="bgm"  offset="0x000a">PSG0A.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x010201">ƒ^ƒCƒgƒ‹ƒfƒ‚</title>
-			<title code="0x010202">ƒvƒŒƒCƒ„[ ƒZƒŒƒNƒg</title>
-			<title code="0x010203">ƒ}ƒbƒv</title>
-			<title code="0x010204">ƒŒ[ƒXŠJŽnƒfƒ‚</title>
-			<title code="0x000307">ƒŒ[ƒXŠJŽn</title>
-			<title code="0x010301">ƒAƒbƒvƒŠƒPƒ^ƒEƒ“</title>
-			<title code="0x010401">ƒ}ƒVƒ…ƒ}ƒ[ƒh</title>
-			<title code="0x010501">ƒ~ƒYƒAƒ[ƒ‹</title>
-			<title code="0x010601">ƒOƒŠƒ“ƒs[ƒXƒRƒŠ[ƒk</title>
-			<title code="0x010701">ƒs[ƒiƒbƒcƒfƒBƒU[ƒg</title>
-			<title code="0x010901">ƒsƒbƒgƒCƒ“</title>
-			<title code="0x010902">ƒAƒCƒeƒ€ƒVƒ‡ƒbƒv</title>
-			<title code="0x010903">ƒzƒXƒsƒ^ƒ‹</title>
-			<title code="0x010304">ƒVƒbƒv ƒZƒŒƒNƒg</title>
-			<title code="0x010801">’†ƒXƒe[ƒW</title>
-			<title code="0x000306">ƒS[ƒ‹</title>
-			<title code="0x000a01">ƒ[ƒ‹ƒhƒNƒŠƒA</title>
-			<title code="0x010a03">‡ˆÊ</title>
-			<title code="0x010a06">ƒRƒ“ƒOƒ‰ƒ`ƒ…ƒŒ[ƒVƒ‡ƒ“</title>
-			<title code="0x010a05">ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-			<title code="0x000303">ƒ~ƒX</title>
-			<title code="0x000302">ƒQ[ƒ€ƒI[ƒo[</title>
+			<title code="0x010201">ã‚¿ã‚¤ãƒˆãƒ«ãƒ‡ãƒ¢</title>
+			<title code="0x010202">ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010203">ãƒžãƒƒãƒ—</title>
+			<title code="0x010204">ãƒ¬ãƒ¼ã‚¹é–‹å§‹ãƒ‡ãƒ¢</title>
+			<title code="0x000307">ãƒ¬ãƒ¼ã‚¹é–‹å§‹</title>
+			<title code="0x010301">ã‚¢ãƒƒãƒ—ãƒªã‚±ã‚¿ã‚¦ãƒ³</title>
+			<title code="0x010401">ãƒžã‚·ãƒ¥ãƒžãƒ­ãƒ¼ãƒ‰</title>
+			<title code="0x010501">ãƒŸã‚ºã‚¢ãƒ¡ãƒ¼ãƒ«</title>
+			<title code="0x010601">ã‚°ãƒªãƒ³ãƒ”ãƒ¼ã‚¹ã‚³ãƒªãƒ¼ãƒŒ</title>
+			<title code="0x010701">ãƒ”ãƒ¼ãƒŠãƒƒãƒ„ãƒ‡ã‚£ã‚¶ãƒ¼ãƒˆ</title>
+			<title code="0x010901">ãƒ”ãƒƒãƒˆã‚¤ãƒ³</title>
+			<title code="0x010902">ã‚¢ã‚¤ãƒ†ãƒ ã‚·ãƒ§ãƒƒãƒ—</title>
+			<title code="0x010903">ãƒ›ã‚¹ãƒ”ã‚¿ãƒ«</title>
+			<title code="0x010304">ã‚·ãƒƒãƒ— ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010801">ä¸­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x000306">ã‚´ãƒ¼ãƒ«</title>
+			<title code="0x000a01">ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚¯ãƒªã‚¢</title>
+			<title code="0x010a03">é †ä½</title>
+			<title code="0x010a06">ã‚³ãƒ³ã‚°ãƒ©ãƒãƒ¥ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³</title>
+			<title code="0x010a05">ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+			<title code="0x000303">ãƒŸã‚¹</title>
+			<title code="0x000302">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
 			<title code="0x000904">BGM 0904</title>
 			<title code="0x000a02">BGM 0a02</title>
 			<title code="0x010a04">BGM 0a04</title>

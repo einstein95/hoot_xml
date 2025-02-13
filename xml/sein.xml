@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,9 +34,9 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2007/03/25">
-	<!-- //ƒUƒCƒ“ƒ\ƒtƒg(Sein 1984~1986, Xain 1987~198905 (Galf Stream?), Zain 198909~... (Alfaim?)) -->
+	<!-- //ã‚¶ã‚¤ãƒ³ã‚½ãƒ•ãƒˆ(Sein 1984~1986, Xain 1987~198905 (Galf Stream?), Zain 198909~... (Alfaim?)) -->
 	<game>
-		<name>[PC-8801] Triton (ƒgƒŠƒg[ƒ“) (YM2203)</name>
+		<name>[PC-8801] Triton (ãƒˆãƒªãƒˆãƒ¼ãƒ³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -49,19 +49,19 @@
 			<rom type="code" offset="0xf000">ENDING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">’ÊíBGM</title>
-		<!--	<title code="0x01">Œ•‚ðU‚é‰¹</title>-->
-		<!--	<title code="0x02">ƒ}ƒWƒbƒNƒ{[ƒ‹”­ŽË‰¹</title>-->
-		<!--	<title code="0x03">HIT‰¹</title>-->
+			<title code="0x00">é€šå¸¸BGM</title>
+		<!--	<title code="0x01">å‰£ã‚’æŒ¯ã‚‹éŸ³</title>-->
+		<!--	<title code="0x02">ãƒžã‚¸ãƒƒã‚¯ãƒœãƒ¼ãƒ«ç™ºå°„éŸ³</title>-->
+		<!--	<title code="0x03">HITéŸ³</title>-->
 		<!--	<title code="0x04">BGM #04</title>-->
-			<title code="0x05">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x07">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x08">ƒAƒCƒeƒ€“üŽè/ƒŒƒxƒ‹ƒAƒbƒv</title>
+			<title code="0x05">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x07">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x08">ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹/ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—</title>
 			<title code="0x09">BGM #09</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Mirai (–¢—ˆ) (YM2203)</name>
+		<name>[PC-8801] Mirai (æœªæ¥) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -86,21 +86,21 @@
 			<rom type="bgm" offset="0x0a">MUS09</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x02">’nã (˜f¯1,5)</title>
-			<title code="0x03">’n‰º (˜f¯1,5,7)</title>
-			<title code="0x08">’nã (˜f¯2,7)</title>
-			<title code="0x04">’n‰º (˜f¯2,6)</title>
-			<title code="0x01">’nã (˜f¯3,6)</title>
-			<title code="0x05">’n‰º (˜f¯3)</title>
-			<title code="0x06">’nã (˜f¯4)</title>
-			<title code="0x07">’n‰º (˜f¯4)</title>
-			<title code="0x0a">ƒ{ƒX</title>
-			<title code="0x09">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x02">åœ°ä¸Š (æƒ‘æ˜Ÿ1,5)</title>
+			<title code="0x03">åœ°ä¸‹ (æƒ‘æ˜Ÿ1,5,7)</title>
+			<title code="0x08">åœ°ä¸Š (æƒ‘æ˜Ÿ2,7)</title>
+			<title code="0x04">åœ°ä¸‹ (æƒ‘æ˜Ÿ2,6)</title>
+			<title code="0x01">åœ°ä¸Š (æƒ‘æ˜Ÿ3,6)</title>
+			<title code="0x05">åœ°ä¸‹ (æƒ‘æ˜Ÿ3)</title>
+			<title code="0x06">åœ°ä¸Š (æƒ‘æ˜Ÿ4)</title>
+			<title code="0x07">åœ°ä¸‹ (æƒ‘æ˜Ÿ4)</title>
+			<title code="0x0a">ãƒœã‚¹</title>
+			<title code="0x09">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Jotunn (ƒˆƒgƒD[ƒ“) (YM2203)</name>
+		<name>[PC-8801] Jotunn (ãƒ¨ãƒˆã‚¥ãƒ¼ãƒ³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -119,7 +119,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Herlesh (ƒn[ƒŒƒbƒVƒ…) (YM2203)</name>
+		<name>[PC-8801] Herlesh (ãƒãƒ¼ãƒ¬ãƒƒã‚·ãƒ¥) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -147,7 +147,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Hideger (ƒnƒCƒfƒbƒK[) (YM2203)</name>
+		<name>[PC-8801] Hideger (ãƒã‚¤ãƒ‡ãƒƒã‚¬ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -166,7 +166,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Bastard Special (ƒoƒXƒ^[ƒhƒXƒyƒVƒƒƒ‹) (YM2203)</name>
+		<name>[PC-8801] Bastard Special (ãƒã‚¹ã‚¿ãƒ¼ãƒ‰ã‚¹ãƒšã‚·ãƒ£ãƒ«) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -199,7 +199,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Cluju (ƒNƒ‹[ƒWƒ…) (YM2203)</name>
+		<name>[PC-8801] Cluju (ã‚¯ãƒ«ãƒ¼ã‚¸ãƒ¥) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -237,7 +237,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Triton 2: Road of Darkness (ƒgƒŠƒg[ƒ“II ROAD OF DARKNESS) (YM2203)</name>
+		<name>[PC-8801] Triton 2: Road of Darkness (ãƒˆãƒªãƒˆãƒ¼ãƒ³II ROAD OF DARKNESS) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -272,7 +272,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Galf Streem (ƒKƒ‹ƒtƒXƒgƒŠ[ƒ€) (YM2203)</name>
+		<name>[PC-8801] Galf Streem (ã‚¬ãƒ«ãƒ•ã‚¹ãƒˆãƒªãƒ¼ãƒ ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<romlist archive="galfstrm">
@@ -413,7 +413,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Alfaim (ƒAƒ‹ƒtƒFƒCƒ€) (YM2608)</name>
+		<name>[PC-8801] Alfaim (ã‚¢ãƒ«ãƒ•ã‚§ã‚¤ãƒ ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -436,7 +436,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Alfaim (ƒAƒ‹ƒtƒFƒCƒ€) (YM2203)</name>
+		<name>[PC-8801] Alfaim (ã‚¢ãƒ«ãƒ•ã‚§ã‚¤ãƒ ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -459,7 +459,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Kobe Renai Monogatari (_ŒË—öˆ¤•¨Œê) (YM2608)</name>
+		<name>[PC-8801] Kobe Renai Monogatari (ç¥žæˆ¸æ‹æ„›ç‰©èªž) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -478,17 +478,17 @@
 			<rom type="bgm" offset="0x06">MUS600</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x02">‘æˆêÍuo‰ï‚¢c ‚»‚µ‚Äcv</title>
-			<title code="0x03">‘æ“ñÍuŒ»ŽÀcv</title>
-			<title code="0x04">‘æŽOÍu^ŽÀcv</title>
-			<title code="0x06">‘æŽlÍu—£‚êcv</title>
-			<title code="0x00">–¢Žg—p‹È</title>
-			<title code="0x01">–¢Žg—p‹È(ALFAIM)</title>
+			<title code="0x05">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x02">ç¬¬ä¸€ç« ã€Œå‡ºä¼šã„â€¦ ãã—ã¦â€¦ã€</title>
+			<title code="0x03">ç¬¬äºŒç« ã€Œç¾å®Ÿâ€¦ã€</title>
+			<title code="0x04">ç¬¬ä¸‰ç« ã€ŒçœŸå®Ÿâ€¦ã€</title>
+			<title code="0x06">ç¬¬å››ç« ã€Œé›¢ã‚Œâ€¦ã€</title>
+			<title code="0x00">æœªä½¿ç”¨æ›²</title>
+			<title code="0x01">æœªä½¿ç”¨æ›²(ALFAIM)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Kobe Renai Monogatari (_ŒË—öˆ¤•¨Œê) (YM2203)</name>
+		<name>[PC-8801] Kobe Renai Monogatari (ç¥žæˆ¸æ‹æ„›ç‰©èªž) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -507,17 +507,17 @@
 			<rom type="bgm" offset="0x06">MUS600</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x05">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x02">‘æˆêÍuo‰ï‚¢c ‚»‚µ‚Äcv</title>
-			<title code="0x03">‘æ“ñÍuŒ»ŽÀcv</title>
-			<title code="0x04">‘æŽOÍu^ŽÀcv</title>
-			<title code="0x06">‘æŽlÍu—£‚êcv</title>
-			<title code="0x00">–¢Žg—p‹È</title>
-			<title code="0x01">–¢Žg—p‹È(ALFAIM)</title>
+			<title code="0x05">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x02">ç¬¬ä¸€ç« ã€Œå‡ºä¼šã„â€¦ ãã—ã¦â€¦ã€</title>
+			<title code="0x03">ç¬¬äºŒç« ã€Œç¾å®Ÿâ€¦ã€</title>
+			<title code="0x04">ç¬¬ä¸‰ç« ã€ŒçœŸå®Ÿâ€¦ã€</title>
+			<title code="0x06">ç¬¬å››ç« ã€Œé›¢ã‚Œâ€¦ã€</title>
+			<title code="0x00">æœªä½¿ç”¨æ›²</title>
+			<title code="0x01">æœªä½¿ç”¨æ›²(ALFAIM)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tug of War (ƒ^ƒbƒOƒIƒuƒEƒH[) (YM2608)</name>
+		<name>[PC-8801] Tug of War (ã‚¿ãƒƒã‚°ã‚ªãƒ–ã‚¦ã‚©ãƒ¼) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -550,7 +550,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tug of War (ƒ^ƒbƒOƒIƒuƒEƒH[) (YM2203)</name>
+		<name>[PC-8801] Tug of War (ã‚¿ãƒƒã‚°ã‚ªãƒ–ã‚¦ã‚©ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Sein Soft</driveralias>
 		<options>
@@ -583,7 +583,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mirai (–¢—ˆ) (YM2203)</name>
+		<name>[PC-9801] Mirai (æœªæ¥) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Sein Soft</driveralias>
 		<options>
@@ -614,21 +614,21 @@
 			<rom type="bgm" offset="0x0a">MUS09</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x02">’nã(˜f¯1,5)</title>
-			<title code="0x03">’n‰º(˜f¯1,5,7)</title>
-			<title code="0x08">’nã(˜f¯2,7)</title>
-			<title code="0x04">’n‰º(˜f¯2,6)</title>
-			<title code="0x01">’nã(˜f¯3,6)</title>
-			<title code="0x05">’n‰º(˜f¯3)</title>
-			<title code="0x06">’nã(˜f¯4)</title>
-			<title code="0x07">’n‰º(˜f¯4)</title>
-			<title code="0x0a">ƒ{ƒX</title>
-			<title code="0x09">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x02">åœ°ä¸Š(æƒ‘æ˜Ÿ1,5)</title>
+			<title code="0x03">åœ°ä¸‹(æƒ‘æ˜Ÿ1,5,7)</title>
+			<title code="0x08">åœ°ä¸Š(æƒ‘æ˜Ÿ2,7)</title>
+			<title code="0x04">åœ°ä¸‹(æƒ‘æ˜Ÿ2,6)</title>
+			<title code="0x01">åœ°ä¸Š(æƒ‘æ˜Ÿ3,6)</title>
+			<title code="0x05">åœ°ä¸‹(æƒ‘æ˜Ÿ3)</title>
+			<title code="0x06">åœ°ä¸Š(æƒ‘æ˜Ÿ4)</title>
+			<title code="0x07">åœ°ä¸‹(æƒ‘æ˜Ÿ4)</title>
+			<title code="0x0a">ãƒœã‚¹</title>
+			<title code="0x09">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Mirai (–¢—ˆ) (YM2149)</name>
+		<name>[X1] Mirai (æœªæ¥) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Sein Soft</driveralias>
 		<options>
@@ -661,29 +661,29 @@
 			<rom type="bgm" offset="0x12">MUS17</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x0b">’nã(˜f¯1,4,7)</title>
-			<title code="0x0c">’n‰º(˜f¯1,4,7)</title>
-			<title code="0x0e">’nã(˜f¯2,5)</title>
-			<title code="0x0f">’n‰º(˜f¯2,5)</title>
-			<title code="0x10">’nã(˜f¯3,6)</title>
-			<title code="0x0d">’n‰º(˜f¯3,6)</title>
-			<title code="0x11">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x12">ƒ{ƒX</title>
-			<title code="0x02">’nã(PC88”Å˜f¯1,5)   (–¢Žg—p)</title>
-			<title code="0x03">’n‰º(PC88”Å˜f¯1,5,7) (–¢Žg—p)</title>
-			<title code="0x08">’nã(PC88”Å˜f¯2,7)   (–¢Žg—p)</title>
-			<title code="0x04">’n‰º(PC88”Å˜f¯2,6)   (–¢Žg—p)</title>
-			<title code="0x01">’nã(PC88”Å˜f¯3,6)   (–¢Žg—p)</title>
-			<title code="0x05">’n‰º(PC88”Å˜f¯3)     (–¢Žg—p)</title>
-			<title code="0x06">’nã(PC88”Å˜f¯4)     (–¢Žg—p)</title>
-			<title code="0x07">’n‰º(PC88”Å˜f¯4)     (–¢Žg—p)</title>
-			<title code="0x09">ƒGƒ“ƒfƒBƒ“ƒO          (–¢Žg—p)</title>
-			<title code="0x0a">ƒ{ƒX                  (–¢Žg—p)</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x0b">åœ°ä¸Š(æƒ‘æ˜Ÿ1,4,7)</title>
+			<title code="0x0c">åœ°ä¸‹(æƒ‘æ˜Ÿ1,4,7)</title>
+			<title code="0x0e">åœ°ä¸Š(æƒ‘æ˜Ÿ2,5)</title>
+			<title code="0x0f">åœ°ä¸‹(æƒ‘æ˜Ÿ2,5)</title>
+			<title code="0x10">åœ°ä¸Š(æƒ‘æ˜Ÿ3,6)</title>
+			<title code="0x0d">åœ°ä¸‹(æƒ‘æ˜Ÿ3,6)</title>
+			<title code="0x11">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x12">ãƒœã‚¹</title>
+			<title code="0x02">åœ°ä¸Š(PC88ç‰ˆæƒ‘æ˜Ÿ1,5)   (æœªä½¿ç”¨)</title>
+			<title code="0x03">åœ°ä¸‹(PC88ç‰ˆæƒ‘æ˜Ÿ1,5,7) (æœªä½¿ç”¨)</title>
+			<title code="0x08">åœ°ä¸Š(PC88ç‰ˆæƒ‘æ˜Ÿ2,7)   (æœªä½¿ç”¨)</title>
+			<title code="0x04">åœ°ä¸‹(PC88ç‰ˆæƒ‘æ˜Ÿ2,6)   (æœªä½¿ç”¨)</title>
+			<title code="0x01">åœ°ä¸Š(PC88ç‰ˆæƒ‘æ˜Ÿ3,6)   (æœªä½¿ç”¨)</title>
+			<title code="0x05">åœ°ä¸‹(PC88ç‰ˆæƒ‘æ˜Ÿ3)     (æœªä½¿ç”¨)</title>
+			<title code="0x06">åœ°ä¸Š(PC88ç‰ˆæƒ‘æ˜Ÿ4)     (æœªä½¿ç”¨)</title>
+			<title code="0x07">åœ°ä¸‹(PC88ç‰ˆæƒ‘æ˜Ÿ4)     (æœªä½¿ç”¨)</title>
+			<title code="0x09">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°          (æœªä½¿ç”¨)</title>
+			<title code="0x0a">ãƒœã‚¹                  (æœªä½¿ç”¨)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Alfaim (ƒAƒ‹ƒtƒFƒCƒ€) (YM2151+MSM6258)</name>
+		<name>[X68000] Alfaim (ã‚¢ãƒ«ãƒ•ã‚§ã‚¤ãƒ ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -703,7 +703,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Dios (ƒfƒBƒIƒX) (YM2151+MSM6258)</name>
+		<name>[X68000] Dios (ãƒ‡ã‚£ã‚ªã‚¹) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -730,7 +730,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Ground Master: Ushinawareta Houju no Densetsu (Ground Master -Ž¸‚í‚ê‚½•óŽì‚Ì“`à-) (YM2151+MSM6258)</name>
+		<name>[X68000] Ground Master: Ushinawareta Houju no Densetsu (Ground Master -å¤±ã‚ã‚ŒãŸå®ç ã®ä¼èª¬-) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -761,7 +761,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Reinforcer (ƒŒƒCƒ“ƒtƒH[ƒT[) (YM2151+MSM6258)</name>
+		<name>[X68000] Reinforcer (ãƒ¬ã‚¤ãƒ³ãƒ•ã‚©ãƒ¼ã‚µãƒ¼) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -788,21 +788,21 @@
 		<titlelist>
 			<title code="0x01">OPENING.X</title>
 			<title code="0x05">BGM1.X</title>
-			<!-- BGM1.X‚ÆƒoƒCƒiƒŠˆê’v
+			<!-- BGM1.Xã¨ãƒã‚¤ãƒŠãƒªä¸€è‡´
 			<title code="0x06">BGM2.X</title>
 			  -->
 			<title code="0x03">BGM2.X</title>
 			<title code="0x07">BGM3.X</title>
 			<title code="0x08">BGM4.X</title>
-			<!-- BGM4.X‚ÆƒoƒCƒiƒŠˆê’v
+			<!-- BGM4.Xã¨ãƒã‚¤ãƒŠãƒªä¸€è‡´
 			<title code="0x09">BGM5.X</title>
 			  -->
 			<title code="0x0a">BGM6.X</title>
-			<!-- BGM6.X‚ÆƒoƒCƒiƒŠˆê’v
+			<!-- BGM6.Xã¨ãƒã‚¤ãƒŠãƒªä¸€è‡´
 			<title code="0x0b">BGM7.X</title>
 			  -->
 			<title code="0x0c">BGM8.X</title>
-			<!-- BGM8.X‚ÆƒoƒCƒiƒŠˆê’v
+			<!-- BGM8.Xã¨ãƒã‚¤ãƒŠãƒªä¸€è‡´
 			<title code="0x0d">BGM9.X</title>
 			  -->
 			<title code="0x0e">BGM10.X</title>
@@ -811,7 +811,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Baruusa no Fukushuu (ƒoƒ‹[ƒT‚Ì•œQ) (YM2151+MSM6258)</name>
+		<name>[X68000] Baruusa no Fukushuu (ãƒãƒ«ãƒ¼ã‚µã®å¾©è®) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -824,21 +824,21 @@
 			<rom type="x" offset="0x40000">BARUSA.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x07">BGM1 (ŠC/’¬)</title>
-			<title code="0x04">ƒrƒWƒ…ƒAƒ‹ƒV[ƒ“1</title>
-			<title code="0x03">ƒ{ƒX</title>
-			<title code="0x02">BGM2 (•æê/X)</title>
-			<title code="0x08">BGM3 (“´ŒA/ˆâÕ)</title>
-			<title code="0x09">BGM4 (‰Š/_“a)</title>
-			<title code="0x0a">ƒrƒWƒ…ƒAƒ‹ƒV[ƒ“2</title>
-			<title code="0x05">ƒoƒ‹[ƒT</title>
-			<title code="0x0b">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x06">ƒQ[ƒ€ƒI[ƒo[</title>
+			<title code="0x01">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x07">BGM1 (æµ·/ç”º)</title>
+			<title code="0x04">ãƒ“ã‚¸ãƒ¥ã‚¢ãƒ«ã‚·ãƒ¼ãƒ³1</title>
+			<title code="0x03">ãƒœã‚¹</title>
+			<title code="0x02">BGM2 (å¢“å ´/æ£®)</title>
+			<title code="0x08">BGM3 (æ´žçªŸ/éºè·¡)</title>
+			<title code="0x09">BGM4 (ç‚Ž/ç¥žæ®¿)</title>
+			<title code="0x0a">ãƒ“ã‚¸ãƒ¥ã‚¢ãƒ«ã‚·ãƒ¼ãƒ³2</title>
+			<title code="0x05">ãƒãƒ«ãƒ¼ã‚µ</title>
+			<title code="0x0b">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x06">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Koube Renai Monogatari (_ŒË—öˆ¤•¨Œê) (YM2151+MSM6258)</name>
+		<name>[X68000] Koube Renai Monogatari (ç¥žæˆ¸æ‹æ„›ç‰©èªž) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sein Soft</driveralias>
 		<options>
@@ -850,15 +850,15 @@
 			<rom type="x" offset="0x30000">KOBE.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x02">‘æˆêÍuo‰ï‚¢c ‚»‚µ‚Äcv</title>
-			<title code="0x03">‘æ“ñÍuŒ»ŽÀcv</title>
-			<title code="0x04">‘æŽOÍu^ŽÀcv</title>
-			<title code="0x05">‘æŽlÍu—£‚êcv</title>
+			<title code="0x01">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x02">ç¬¬ä¸€ç« ã€Œå‡ºä¼šã„â€¦ ãã—ã¦â€¦ã€</title>
+			<title code="0x03">ç¬¬äºŒç« ã€Œç¾å®Ÿâ€¦ã€</title>
+			<title code="0x04">ç¬¬ä¸‰ç« ã€ŒçœŸå®Ÿâ€¦ã€</title>
+			<title code="0x05">ç¬¬å››ç« ã€Œé›¢ã‚Œâ€¦ã€</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Bastard (ƒoƒXƒ^[ƒh) (AY-3-8910)</name>
+		<name>[MSX2] Bastard (ãƒã‚¹ã‚¿ãƒ¼ãƒ‰) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -880,7 +880,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dios (ƒfƒBƒIƒX) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Dios (ãƒ‡ã‚£ã‚ªã‚¹) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -908,7 +908,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Dios (ƒfƒBƒIƒX) (AY-3-8910)</name>
+		<name>[MSX2] Dios (ãƒ‡ã‚£ã‚ªã‚¹) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -935,7 +935,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Galf Streem (ƒKƒ‹ƒtƒXƒgƒŠ[ƒ€) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Galf Streem (ã‚¬ãƒ«ãƒ•ã‚¹ãƒˆãƒªãƒ¼ãƒ ) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -963,7 +963,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Galf Streem (ƒKƒ‹ƒtƒXƒgƒŠ[ƒ€) (AY-3-8910)</name>
+		<name>[MSX2] Galf Streem (ã‚¬ãƒ«ãƒ•ã‚¹ãƒˆãƒªãƒ¼ãƒ ) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -1001,7 +1001,7 @@
 			<rom type="code" offset="0xb000">OPLL.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Title (ƒ^ƒCƒgƒ‹)</title>
+			<title code="0x01">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
 			<title code="0x02">BGM 02</title>
 		</titlelist>
 	</game>
@@ -1017,7 +1017,7 @@
 			<rom type="code" offset="0xb000">PSG.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Title (ƒ^ƒCƒgƒ‹)</title>
+			<title code="0x01">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
 			<title code="0x02">BGM 02</title>
 		</titlelist>
 	</game>
@@ -1033,14 +1033,14 @@
 			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x04">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x01">’ÊíBGM</title>
-			<title code="0x02">“X/‹³‰ï</title>
-			<title code="0x03">í“¬</title>
+			<title code="0x04">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x01">é€šå¸¸BGM</title>
+			<title code="0x02">åº—/æ•™ä¼š</title>
+			<title code="0x03">æˆ¦é—˜</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Triton II: Road of Darkness (ƒgƒŠƒg[ƒ“II ROAD OF DARKNESS) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Triton II: Road of Darkness (ãƒˆãƒªãƒˆãƒ¼ãƒ³II ROAD OF DARKNESS) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -1059,14 +1059,14 @@
 			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x03">’ÊíBGM</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x03">é€šå¸¸BGM</title>
 			<title code="0x00">BGM #00</title>
 			<title code="0x02">BGM #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Triton II: Road of Darkness (ƒgƒŠƒg[ƒ“II ROAD OF DARKNESS) (AY-3-8910)</name>
+		<name>[MSX2] Triton II: Road of Darkness (ãƒˆãƒªãƒˆãƒ¼ãƒ³II ROAD OF DARKNESS) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -1085,14 +1085,14 @@
 			<rom type="bgm" offset="0x03">MUS3.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x03">’ÊíBGM</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x03">é€šå¸¸BGM</title>
 			<title code="0x00">BGM #00</title>
 			<title code="0x02">BGM #02</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Majin Kyu (–‚_‹{) (AY-3-8910)</name>
+		<name>[MSX2] Majin Kyu (é­”ç¥žå®®) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>
@@ -1103,15 +1103,15 @@
 			<rom type="code" offset="0x4000">DRIVER.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x02">’ÊíBGM</title>
-			<title code="0x03">ŠX</title>
-			<title code="0x05">í“¬</title>
-			<title code="0x04">“ƒ</title>
+			<title code="0x01">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x02">é€šå¸¸BGM</title>
+			<title code="0x03">è¡—</title>
+			<title code="0x05">æˆ¦é—˜</title>
+			<title code="0x04">å¡”</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Mirai (–¢—ˆ) (AY-3-8910)</name>
+		<name>[MSX] Mirai (æœªæ¥) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Sein Soft</driveralias>
 		<options>
@@ -1137,7 +1137,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Garyuuou (‰å—´‰¤) (AY-3-8910)</name>
+		<name>[MSX2] Garyuuou (ç‰™é¾çŽ‹) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX2">Sein Soft</driveralias>
 		<options>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
 <xsl:template match="/">
 	<html lang="ja">
 	<head>
-		<title>hoot ƒ^ƒCƒgƒ‹ƒŠƒXƒg(<xsl:value-of select="gamelist/@date"/>”Å)</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"/>
+		<title>hoot ã‚¿ã‚¤ãƒˆãƒ«ãƒªã‚¹ãƒˆ(<xsl:value-of select="gamelist/@date"/>ç‰ˆ)</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="hoot.css"/>
 		<script language="JavaScript">
 		<xsl:comment>
@@ -24,10 +24,10 @@
 		</script>
 	</head>
 	<body>
-		<h1>hoot ƒ^ƒCƒgƒ‹ƒŠƒXƒg(<xsl:value-of select="gamelist/@date"/>”Å)</h1>
-		<button onClick="sort_list('dummy','dummy','dummy')">ƒ\[ƒg‚È‚µ</button>
-		<button onClick="sort_list('driver','driver/@type','name')">ƒhƒ‰ƒCƒo‚Åƒ\[ƒg</button>
-		<button onClick="sort_list('name','driver','driver/@type')">ƒ^ƒCƒgƒ‹‚Åƒ\[ƒg</button>
+		<h1>hoot ã‚¿ã‚¤ãƒˆãƒ«ãƒªã‚¹ãƒˆ(<xsl:value-of select="gamelist/@date"/>ç‰ˆ)</h1>
+		<button onClick="sort_list('dummy','dummy','dummy')">ã‚½ãƒ¼ãƒˆãªã—</button>
+		<button onClick="sort_list('driver','driver/@type','name')">ãƒ‰ãƒ©ã‚¤ãƒã§ã‚½ãƒ¼ãƒˆ</button>
+		<button onClick="sort_list('name','driver','driver/@type')">ã‚¿ã‚¤ãƒˆãƒ«ã§ã‚½ãƒ¼ãƒˆ</button>
 		<div id="gamelist">
 		<xsl:apply-templates select="gamelist"/>
 		</div>
@@ -42,7 +42,7 @@
 		<hr/>
 		<h2><xsl:value-of select="name"/></h2>
 		<h3>
-			ƒhƒ‰ƒCƒo:<xsl:value-of select="driver"/>
+			ãƒ‰ãƒ©ã‚¤ãƒ:<xsl:value-of select="driver"/>
 			(<xsl:value-of select="driver/@type"/>)
 		</h3>
 		<xsl:apply-templates select="options"/>
@@ -51,13 +51,13 @@
 	</xsl:for-each>
 </xsl:template>
 <xsl:template match="romlist">
-	<h4>ƒf[ƒ^</h4>
+	<h4>ãƒ‡ãƒ¼ã‚¿</h4>
 	<table>
 	<tr>
-		<th width="10%">Ží—Þ</th>
-		<th width="15%">ƒIƒtƒZƒbƒg</th>
+		<th width="10%">ç¨®é¡ž</th>
+		<th width="15%">ã‚ªãƒ•ã‚»ãƒƒãƒˆ</th>
 		<th width="15%">CRC32</th>
-		<th>ƒtƒ@ƒCƒ‹–¼</th>
+		<th>ãƒ•ã‚¡ã‚¤ãƒ«å</th>
 	</tr>
 	<xsl:for-each select="rom">
 		<tr>
@@ -70,11 +70,11 @@
 	</table>
 </xsl:template>
 <xsl:template match="options">
-	<h4>ƒIƒvƒVƒ‡ƒ“</h4>
+	<h4>ã‚ªãƒ—ã‚·ãƒ§ãƒ³</h4>
 	<table>
 	<tr>
-		<th width="25%">–¼‘O</th>
-		<th>’l</th>
+		<th width="25%">åå‰</th>
+		<th>å€¤</th>
 	</tr>
 	<xsl:for-each select="option">
 		<tr>
@@ -85,11 +85,11 @@
 	</table>
 </xsl:template>
 <xsl:template match="titlelist">
-	<h4>‹È–¼</h4>
+	<h4>æ›²å</h4>
 	<table>
 	<tr>
 		<th width="10%">No.</th>
-		<th>ƒ^ƒCƒgƒ‹</th>
+		<th>ã‚¿ã‚¤ãƒˆãƒ«</th>
 	</tr>
 	<xsl:for-each select="title">
 		<tr>

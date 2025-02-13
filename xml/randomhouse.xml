@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //RANDOM HOUSE -->
 	<game>
-		<name>[PC-9801] Jushin Rogus (獣神ローガス) (SPT.MSC) (YM2203)</name>
+		<name>[PC-9801] Jushin Rogus (迯｣逾槭Ο繝ｼ繧ｬ繧ｹ) (SPT.MSC) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Random House</driveralias>
 		<romlist archive="rogus98">
@@ -44,10 +44,10 @@
 			<rom type="file" offset="-1">SPT.MSC</rom>
 			<rom type="file" offset="-1">digan98.com</rom>
 			<rom type="shell" offset="0">set COMSPEC=A:\DIGAN98.COM</rom>
-			<!-- オリジナル -->
+			<!-- 繧ｪ繝ｪ繧ｸ繝翫Ν -->
 			<rom type="file" offset="-1">PLAY.EXE</rom>
 			<rom type="shell" offset="0">play.exe voice.vce spt.msc original</rom>
-			<!-- SOFBOX版 -->
+			<!-- SOFBOX迚� -->
 			<rom type="file" offset="-1">PLAY.COM</rom>
 			<rom type="shell" offset="0">play.com voice.vce spt.msc /p</rom>
 			<rom type="shell" offset="0">digan98 sofbox</rom>
@@ -87,7 +87,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Jushin Rogus (獣神ローガス) (ANIME.MSC) (YM2203)</name>
+		<name>[PC-9801] Jushin Rogus (迯｣逾槭Ο繝ｼ繧ｬ繧ｹ) (ANIME.MSC) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Random House</driveralias>
 		<options>
@@ -98,10 +98,10 @@
 			<rom type="file" offset="-1">ANIME.MSC</rom>
 			<rom type="file" offset="-1">digan98.com</rom>
 			<rom type="shell" offset="0">set COMSPEC=A:\DIGAN98.COM</rom>
-			<!-- オリジナル -->
+			<!-- 繧ｪ繝ｪ繧ｸ繝翫Ν -->
 			<rom type="file" offset="-1">PLAY.EXE</rom>
 			<rom type="shell" offset="0">play.exe voice.vce anime.msc original</rom>
-			<!-- SOFBOX版 -->
+			<!-- SOFBOX迚� -->
 			<rom type="file" offset="-1">PLAY.COM</rom>
 			<rom type="shell" offset="0">play.com voice.vce anime.msc /p</rom>
 			<rom type="shell" offset="0">digan98 sofbox</rom>

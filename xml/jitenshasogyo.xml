@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,9 +34,9 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //���]�ԑn�� -->
+	<!-- //自転車創業 -->
 	<game>
-		<name>[X68000] Ano, Subarashii o Mouichido (���́A�f���炵�� ��������x) (YM2151+MSM6258)</name>
+		<name>[X68000] Ano, Subarashii o Mouichido (あの、素晴らしい をもう一度) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<romlist archive="anos68snd">
@@ -61,25 +61,25 @@
 			<rom type="x" offset="0x060000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">���C���e�[�}</title>
-			<title code="0x02">����</title>
-			<title code="0x03">�^��</title>
-			<title code="0x04">�r������</title>
-			<title code="0x05">�~���C���̃e�[�}</title>
-			<title code="0x06">�V�g�E��</title>
-			<title code="0x07">���g��</title>
-			<title code="0x08">���g��</title>
-			<title code="0x09">���g�숣</title>
-			<title code="0x0a">���g�̃e�[�}(�Ԕ���)</title>
-			<title code="0x0b">�����̒��O</title>
-			<title code="0x0c">���E�̒m��</title>
-			<title code="0x0d">�V���b�L���O</title>
-			<title code="0x0e">�T����</title>
-			<title code="0x0f">�����̉��̂����₩�Ȗ�</title>
+			<title code="0x01">メインテーマ</title>
+			<title code="0x02">水晶</title>
+			<title code="0x03">疑問</title>
+			<title code="0x04">荒野を歩く</title>
+			<title code="0x05">ミレイユのテーマ</title>
+			<title code="0x06">堕天使殺し</title>
+			<title code="0x07">リト悲</title>
+			<title code="0x08">リト喜</title>
+			<title code="0x09">リト喜哀</title>
+			<title code="0x0a">リトのテーマ(間抜け)</title>
+			<title code="0x0b">流血の直前</title>
+			<title code="0x0c">世界の知識</title>
+			<title code="0x0d">ショッキング</title>
+			<title code="0x0e">探索中</title>
+			<title code="0x0f">屋根の下のささやかな夜</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sora no Fudousan (��̕����Y) (YM2151+MSM6258)</name>
+		<name>[X68000] Sora no Fudousan (空の浮動産) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<options>
@@ -109,28 +109,28 @@
 			<rom type="x" offset="0x080000">zmusic.x</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">��~</title>
-			<title code="0x01">�ދ��Ȏ��ƁB</title>
-			<title code="0x02">��̕����Y�B</title>
-			<title code="0x03">�@�w�T�_�B</title>
-			<title code="0x04">�c�c���Ă����������x�u������Ȃ��̂�B</title>
-			<title code="0x05">������ꂽ���͂̉��w�����B</title>
-			<title code="0x06">�t��t��2�B</title>
-			<title code="0x07">�t��t��3�B</title>
-			<title code="0x08">�s���`�B</title>
-			<title code="0x09">�퓬�B</title>
-			<title code="0x0A">�����B</title>
-			<title code="0x0B">�r㻂Ƌ����B</title>
-			<title code="0x0C">�t��t�؂P�B</title>
-			<title code="0x0D">�����B</title>
-			<title code="0x0E">���x100M�̍j�n���100M�_�b�V���B</title>
-			<title code="0x0F">�ő�̎��s�B</title>
-			<title code="0x10">�Ō�̖��@�B</title>
-			<title code="0x11">�`�͈ڈʁB</title>
+			<title code="0x00">停止</title>
+			<title code="0x01">退屈な授業。</title>
+			<title code="0x02">空の浮動産。</title>
+			<title code="0x03">法学概論。</title>
+			<title code="0x04">……っていうか今日休講日じゃないのよ。</title>
+			<title code="0x05">具現化された魔力の化学反応。</title>
+			<title code="0x06">春川春菜2。</title>
+			<title code="0x07">春川春菜3。</title>
+			<title code="0x08">ピンチ。</title>
+			<title code="0x09">戦闘。</title>
+			<title code="0x0A">決闘。</title>
+			<title code="0x0B">羊羹と牛乳。</title>
+			<title code="0x0C">春川春菜１。</title>
+			<title code="0x0D">即発。</title>
+			<title code="0x0E">高度100Mの綱渡りで100Mダッシュ。</title>
+			<title code="0x0F">最大の失敗。</title>
+			<title code="0x10">最後の魔法。</title>
+			<title code="0x11">伝模移位。</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Konekake no Udon Butsukeru Matsuri ga Noruwee no Kita no Mura no Gyoson de (���˂����̂��ǂ�Ԃ���Ղ肪�m���E�F�[�̖k�̑��̋�����) (YM2151+MSM6258)</name>
+		<name>[X68000] Konekake no Udon Butsukeru Matsuri ga Noruwee no Kita no Mura no Gyoson de (こねかけのうどんぶつける祭りがノルウェーの北の村の漁村で) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Jitensha Sougyou</driveralias>
 		<romlist archive="anos368snd">
@@ -150,7 +150,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">whiteout</title>
-			<title code="0x02">�A���`�G�C���A�X</title>
+			<title code="0x02">アンチエイリアス</title>
 			<title code="0x03">U/D/O/N</title>
 			<title code="0x04">RGB</title>
 			<title code="0x05">CMYK</title>

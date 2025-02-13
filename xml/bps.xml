@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -72,10 +72,10 @@
 			<rom type="bgm" offset="0x03">ED2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x01">ƒƒCƒ“BGM</title>
-			<title code="0x02">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x03">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x01">ãƒ¡ã‚¤ãƒ³BGM</title>
+			<title code="0x02">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x03">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
@@ -195,14 +195,14 @@
 			<rom type="bgm" offset="0x04">MUS04</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000000">Main Theme (ƒƒCƒ“ƒe[ƒ})</title>
+			<title code="0x01000000">Main Theme (ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒ)</title>
 			<title code="0x00000001">Pub</title>
-			<title code="0x00000002">Lucky Event (ƒ‰ƒbƒL[ƒCƒxƒ“ƒg)</title>
-			<title code="0x00000003">Bad Event (ƒoƒbƒhƒCƒxƒ“ƒg)</title>
+			<title code="0x00000002">Lucky Event (ãƒ©ãƒƒã‚­ãƒ¼ã‚¤ãƒ™ãƒ³ãƒˆ)</title>
+			<title code="0x00000003">Bad Event (ãƒãƒƒãƒ‰ã‚¤ãƒ™ãƒ³ãƒˆ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Pipe Dream (ƒpƒCƒvƒhƒŠ[ƒ€) (YM2203)</name>
+		<name>[PC-8801] Pipe Dream (ãƒ‘ã‚¤ãƒ—ãƒ‰ãƒªãƒ¼ãƒ ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Bullet Proof Software</driveralias>
 		<options>
@@ -267,7 +267,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Pipe Dream (ƒpƒCƒvƒhƒŠ[ƒ€) (YM2608)</name>
+		<name>[PC-8801] Pipe Dream (ãƒ‘ã‚¤ãƒ—ãƒ‰ãƒªãƒ¼ãƒ ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Bullet Proof Software</driveralias>
 		<options>
@@ -332,7 +332,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tetris (ƒeƒgƒŠƒX) (YM2203)</name>
+		<name>[PC-8801] Tetris (ãƒ†ãƒˆãƒªã‚¹) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Bullet Proof Software</driveralias>
 		<options>
@@ -378,7 +378,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Go Yuugi (ŒéE—VE‹Z) (YM2203)</name>
+		<name>[PC-8801] Go Yuugi (ç¢ãƒ»éŠãƒ»æŠ€) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Bullet Proof Software</driveralias>
 		<romlist archive="goyugi">
@@ -465,7 +465,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Tetris (ƒeƒgƒŠƒX) (YM2149)</name>
+		<name>[X1] Tetris (ãƒ†ãƒˆãƒªã‚¹) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Bullet Proof Software</driveralias>
 		<romlist archive="x1tetris">
@@ -485,7 +485,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Tetris (ƒeƒgƒŠƒX) (YM2151)</name>
+		<name>[X1] Tetris (ãƒ†ãƒˆãƒªã‚¹) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Bullet Proof Software</driveralias>
 		<options>
@@ -512,7 +512,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (BEEP)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -573,7 +573,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (YM2203)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -638,7 +638,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (MT-32)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -705,7 +705,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -772,7 +772,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (CM-64)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (CM-64)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -839,7 +839,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (GS)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -903,7 +903,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Frontier Universe (ƒtƒƒ“ƒeƒBƒAƒ†ƒjƒ”ƒ@[ƒX) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Frontier Universe (ãƒ•ãƒ­ãƒ³ãƒ†ã‚£ã‚¢ãƒ¦ãƒ‹ãƒ´ã‚¡ãƒ¼ã‚¹) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -968,7 +968,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pipe Dream (ƒpƒCƒvƒhƒŠ[ƒ€) (YM2203)</name>
+		<name>[PC-9801] Pipe Dream (ãƒ‘ã‚¤ãƒ—ãƒ‰ãƒªãƒ¼ãƒ ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1030,7 +1030,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Pipe Dream (ƒpƒCƒvƒhƒŠ[ƒ€) (BEEP)</name>
+		<name>[PC-9801] Pipe Dream (ãƒ‘ã‚¤ãƒ—ãƒ‰ãƒªãƒ¼ãƒ ) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1118,7 +1118,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hatris (ƒnƒbƒgƒŠƒX) (YM2203)</name>
+		<name>[PC-9801] Hatris (ãƒãƒƒãƒˆãƒªã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1165,7 +1165,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Hatris (ƒnƒbƒgƒŠƒX) (BEEP)</name>
+		<name>[PC-9801] Hatris (ãƒãƒƒãƒˆãƒªã‚¹) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1226,7 +1226,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Welltris (ƒEƒFƒ‹ƒgƒŠƒX) (YM2203)</name>
+		<name>[PC-9801] Welltris (ã‚¦ã‚§ãƒ«ãƒˆãƒªã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1278,7 +1278,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Welltris (ƒEƒFƒ‹ƒgƒŠƒX) (BEEP)</name>
+		<name>[PC-9801] Welltris (ã‚¦ã‚§ãƒ«ãƒˆãƒªã‚¹) (BEEP)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1426,7 +1426,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Tetris (ƒeƒgƒŠƒX) (YM2203)</name>
+		<name>[PC-9801] Tetris (ãƒ†ãƒˆãƒªã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1457,7 +1457,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Pipe Dream (ƒpƒCƒvƒhƒŠ[ƒ€) (YM2151+MSM6258)</name>
+		<name>[X68000] Pipe Dream (ãƒ‘ã‚¤ãƒ—ãƒ‰ãƒªãƒ¼ãƒ ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Bullet Proof Software</driveralias>
 		<options>
@@ -1526,7 +1526,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Tetris (ƒeƒgƒŠƒX) (YM2151+MSM6258)</name>
+		<name>[X68000] Tetris (ãƒ†ãƒˆãƒªã‚¹) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Bullet Proof Software</driveralias>
 		<romlist archive="tetris68snd">
@@ -1558,7 +1558,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Deflektor (ƒfƒBƒtƒŒƒNƒ^[) (YM2203)</name>
+		<name>[PC-9801] Deflektor (ãƒ‡ã‚£ãƒ•ãƒ¬ã‚¯ã‚¿ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Bullet Proof Software</driveralias>
 		<options>
@@ -1582,7 +1582,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Tetris (ƒeƒgƒŠƒX) (AY-3-8910+YM2413)</name>
+		<name>[MSX2] Tetris (ãƒ†ãƒˆãƒªã‚¹) (AY-3-8910+YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Bullet Proof Software</driveralias>
 		<options>
@@ -1615,7 +1615,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Tetris (ƒeƒgƒŠƒX) (AY-3-8910)</name>
+		<name>[MSX2] Tetris (ãƒ†ãƒˆãƒªã‚¹) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Bullet Proof Software</driveralias>
 		<options>
@@ -1661,10 +1661,10 @@
 			<rom type="code" offset="0xc000">DATA.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒƒCƒ“ƒe[ƒ}</title>
+			<title code="0x00">ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒ</title>
 			<title code="0x01">PUB</title>
-			<title code="0x02">ƒ‰ƒbƒL[ƒCƒxƒ“ƒg</title>
-			<title code="0x03">ƒoƒbƒhƒCƒxƒ“ƒg</title>
+			<title code="0x02">ãƒ©ãƒƒã‚­ãƒ¼ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="0x03">ãƒãƒƒãƒ‰ã‚¤ãƒ™ãƒ³ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //Arsys Software -->
 	<game>
-		<name>[PC-8801] WiBARM (ƒEƒCƒo[ƒ“) (YM2203)</name>
+		<name>[PC-8801] WiBARM (ã‚¦ã‚¤ãƒãƒ¼ãƒ³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -53,12 +53,12 @@
 			<rom type="bgm" offset="0x03">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">Base (Šî’n)</title>
-			<title code="0x00000002">Land (’nã)</title>
-			<title code="0x01000002">Battle (í“¬)</title>
-			<title code="0x00000000">3D Maze (Interior) (3D–À˜H(Œš•¨“à))</title>
-		<!--	<title code="0x01000000">Battle (í“¬)</title> -->
-			<title code="0xff000003">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
+			<title code="0x00000001">Base (åŸºåœ°)</title>
+			<title code="0x00000002">Land (åœ°ä¸Š)</title>
+			<title code="0x01000002">Battle (æˆ¦é—˜)</title>
+			<title code="0x00000000">3D Maze (Interior) (3Dè¿·è·¯(å»ºç‰©å†…))</title>
+		<!--	<title code="0x01000000">Battle (æˆ¦é—˜)</title> -->
+			<title code="0xff000003">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -100,31 +100,31 @@
 		</romlist>
 		<titlelist>
 			<title code="0x15">Arsys Logo</title>
-			<title code="0x00">Bar 1 (ğê1)</title>
-			<title code="0x01">Bar 2 (ğê2)</title>
-			<title code="0x02">Cave (“´ŒA)</title>
-			<title code="0x03">Castle (é)</title>
-			<title code="0x04">Heaven: Hallizard (“VŠEEƒnƒŠƒCƒU[ƒh)</title>
-			<title code="0x05">Hell: Zaliozard (×_ŠEEƒUƒŠƒIƒU[ƒh)</title>
-			<title code="0x06">Tandalyde the Sorceror (–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh)</title>
-			<title code="0x07">Sadarian Appears (ƒTƒ_ƒŠƒA[ƒ““oê)</title>
-			<title code="0x08">Battle (í“¬)</title>
-			<title code="0x09">Monster Encounter (–‚•¨‚Æ‚Ì‘˜‹ö)</title>
-			<title code="0x0a">Get a Special Item, Etc. (d—vƒAƒCƒeƒ€“üè ‘¼)</title>
-			<title code="0x0b">The Crystal Rod (ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh)</title>
-			<title code="0x0c">Death of Cote the Swordsman (Œ•mƒR[ƒg‚Ì€)</title>
-			<title code="0x0d">Trap (ƒgƒ‰ƒbƒv)</title>
-			<title code="0x0e">Ravistark (ƒ‰ƒrƒXƒ^[ƒN)</title>
-			<title code="0x0f">Battle with Sadarian (ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢)</title>
-			<title code="0x10">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x11">Sadarian's End (ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú)</title>
-			<title code="0x12">Meeting Alma the Swordswoman (—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢)</title>
-			<title code="0x13">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x14">Death (€)</title>
+			<title code="0x00">Bar 1 (é…’å ´1)</title>
+			<title code="0x01">Bar 2 (é…’å ´2)</title>
+			<title code="0x02">Cave (æ´çªŸ)</title>
+			<title code="0x03">Castle (åŸ)</title>
+			<title code="0x04">Heaven: Hallizard (å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x05">Hell: Zaliozard (é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x06">Tandalyde the Sorceror (é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰)</title>
+			<title code="0x07">Sadarian Appears (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´)</title>
+			<title code="0x08">Battle (æˆ¦é—˜)</title>
+			<title code="0x09">Monster Encounter (é­”ç‰©ã¨ã®é­é‡)</title>
+			<title code="0x0a">Get a Special Item, Etc. (é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–)</title>
+			<title code="0x0b">The Crystal Rod (ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰)</title>
+			<title code="0x0c">Death of Cote the Swordsman (å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»)</title>
+			<title code="0x0d">Trap (ãƒˆãƒ©ãƒƒãƒ—)</title>
+			<title code="0x0e">Ravistark (ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯)</title>
+			<title code="0x0f">Battle with Sadarian (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„)</title>
+			<title code="0x10">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x11">Sadarian's End (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„)</title>
+			<title code="0x13">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x14">Death (æ­»)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Armored Beast WerDragon (—db‹@b•ºƒ[ƒhƒ‰ƒSƒ“) (YM2608)</name>
+		<name>[PC-8801] Armored Beast WerDragon (å¦–ç£æ©Ÿç”²å…µãƒ¯ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -164,25 +164,25 @@
 			<title code="0x00">Opening 1</title>
 			<title code="0x01">Opening 2</title>
 			<title code="0x02">Stage 1</title>
-			<title code="0x11">Transform (•Ïg)</title>
+			<title code="0x11">Transform (å¤‰èº«)</title>
 			<title code="0x08">Boss</title>
 			<title code="0x09">Visual Scene 1 &amp; 2</title>
 			<title code="0x03">Stage 2</title>
 			<title code="0x04">Stage 3</title>
 			<title code="0x10">Visual Scene 3</title>
 			<title code="0x05">Stage 4</title>
-			<title code="0x0b">Visual Scene 4 (Flight) (”òãÄ)</title>
-			<title code="0x06">Stage 5 (Blue Sky) (ƒuƒ‹[ƒXƒJƒC)</title>
+			<title code="0x0b">Visual Scene 4 (Flight) (é£›ç¿”)</title>
+			<title code="0x06">Stage 5 (Blue Sky) (ãƒ–ãƒ«ãƒ¼ã‚¹ã‚«ã‚¤)</title>
 			<title code="0x0c">Visual Scene 5</title>
 			<title code="0x07">Stage 6</title>
-			<title code="0x0e">Last Boss 1 (Before Transformation) (•Ïg‘O)</title>
-			<title code="0x0d">Last Boss 2 (After Transformation) (•ÏgŒã)</title>
+			<title code="0x0e">Last Boss 1 (Before Transformation) (å¤‰èº«å‰)</title>
+			<title code="0x0d">Last Boss 2 (After Transformation) (å¤‰èº«å¾Œ)</title>
 			<title code="0x0a">Ending</title>
 			<title code="0x0f">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Armored Beast WerDragon (—db‹@b•ºƒ[ƒhƒ‰ƒSƒ“) (YM2203)</name>
+		<name>[PC-8801] Armored Beast WerDragon (å¦–ç£æ©Ÿç”²å…µãƒ¯ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -217,25 +217,25 @@
 			<title code="0x00">Opening 1</title>
 			<title code="0x01">Opening 2</title>
 			<title code="0x02">Stage 1</title>
-			<title code="0x11">Transform (•Ïg)</title>
+			<title code="0x11">Transform (å¤‰èº«)</title>
 			<title code="0x08">Boss</title>
 			<title code="0x09">Visual Scene 1 &amp; 2</title>
 			<title code="0x03">Stage 2</title>
 			<title code="0x04">Stage 3</title>
 			<title code="0x10">Visual Scene 3</title>
 			<title code="0x05">Stage 4</title>
-			<title code="0x0b">Visual Scene 4 (Flight) (”òãÄ)</title>
-			<title code="0x06">Stage 5 (Blue Sky) (ƒuƒ‹[ƒXƒJƒC)</title>
+			<title code="0x0b">Visual Scene 4 (Flight) (é£›ç¿”)</title>
+			<title code="0x06">Stage 5 (Blue Sky) (ãƒ–ãƒ«ãƒ¼ã‚¹ã‚«ã‚¤)</title>
 			<title code="0x0c">Visual Scene 5</title>
 			<title code="0x07">Stage 6</title>
-			<title code="0x0e">Last Boss 1 (Before Transformation) (•Ïg‘O)</title>
-			<title code="0x0d">Last Boss 2 (After Transformation) (•ÏgŒã)</title>
+			<title code="0x0e">Last Boss 1 (Before Transformation) (å¤‰èº«å‰)</title>
+			<title code="0x0d">Last Boss 2 (After Transformation) (å¤‰èº«å¾Œ)</title>
 			<title code="0x0a">Ending</title>
 			<title code="0x0f">Game Over</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2608)</name>
+		<name>[PC-8801] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -279,88 +279,88 @@
 			<rom type="bgm" offset="0x1d">MA030</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒXƒy[ƒXƒtƒ‰ƒCƒg</title>
-			<title code="0x01">ƒXƒy[ƒXƒtƒ@ƒCƒg</title>
-			<title code="0x02">ƒfƒU[ƒgƒ][ƒ“</title>
-			<title code="0x03">ƒXƒ^[ƒNƒ‹[ƒU[</title>
-			<title code="0x04">ƒŒƒbƒhƒ][ƒ“</title>
-			<title code="0x05">ƒXƒy[ƒXƒ{[ƒg</title>
-			<title code="0x06">ƒVƒ‡ƒbƒv</title>
-			<title code="0x07">ƒoƒgƒ‹ƒXƒy[ƒX</title>
-			<title code="0x08">ƒfƒB[ƒW[</title>
-			<title code="0x09">“y¯</title>
-			<title code="0x0a">‘åÔ”Á</title>
-			<title code="0x0b">ƒrƒbƒOƒ{ƒX</title>
-			<title code="0x0c">ƒ~ƒbƒhƒ{ƒX</title>
-			<title code="0x0d">Šî’n“à•”</title>
-			<title code="0x0e">ƒŒƒNƒCƒGƒ€</title>
-			<title code="0x0f">¶‘Ìƒvƒ‰ƒ“ƒg</title>
-			<title code="0x10">ƒ[ƒvƒAƒEƒg</title>
-			<title code="0x11">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x12">ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn</title>
+			<title code="0x00">ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ</title>
+			<title code="0x01">ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="0x02">ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³</title>
+			<title code="0x03">ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼</title>
+			<title code="0x04">ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³</title>
+			<title code="0x05">ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ</title>
+			<title code="0x06">ã‚·ãƒ§ãƒƒãƒ—</title>
+			<title code="0x07">ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹</title>
+			<title code="0x08">ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼</title>
+			<title code="0x09">åœŸæ˜Ÿ</title>
+			<title code="0x0a">å¤§èµ¤æ–‘</title>
+			<title code="0x0b">ãƒ“ãƒƒã‚°ãƒœã‚¹</title>
+			<title code="0x0c">ãƒŸãƒƒãƒ‰ãƒœã‚¹</title>
+			<title code="0x0d">åŸºåœ°å†…éƒ¨</title>
+			<title code="0x0e">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ </title>
+			<title code="0x0f">ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ</title>
+			<title code="0x10">ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x11">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x12">ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»</title>
 			<title code="0x13">NINETEEN</title>
-			<title code="0x14">ƒWƒ…[ƒ“</title>
-			<title code="0x15">ƒuƒ[ƒJ[</title>
-			<title code="0x16">˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN</title>
-			<title code="0x17">ƒo[ƒi[ƒh¯Œn</title>
-			<title code="0x18">‰Î¯</title>
-			<title code="0x19">—y‚©‚È‰F’ˆ‚Ö</title>
-			<title code="0x1a">ƒVƒŠƒEƒX¯Œn</title>
-			<title code="0x1b">VOID‘åíŠÍ</title>
-			<title code="0x1c">G-ƒJƒ^ƒpƒ‹ƒg</title>
-			<title code="0x1d">ƒnƒCƒp[ƒXƒy[ƒX</title>
-			<title code="0x20">Œø‰Ê‰¹#01</title>
-			<title code="0x21">Œø‰Ê‰¹#02</title>
-			<title code="0x22">Œø‰Ê‰¹#03</title>
-			<title code="0x23">Œø‰Ê‰¹#04</title>
-			<title code="0x24">Œø‰Ê‰¹#05</title>
-			<title code="0x25">Œø‰Ê‰¹#06</title>
-			<title code="0x26">Œø‰Ê‰¹#07</title>
-			<title code="0x27">Œø‰Ê‰¹#08</title>
-			<title code="0x28">Œø‰Ê‰¹#09</title>
-			<title code="0x29">Œø‰Ê‰¹#10</title>
-			<title code="0x2a">Œø‰Ê‰¹#11</title>
-			<title code="0x2b">Œø‰Ê‰¹#12</title>
-			<title code="0x2c">Œø‰Ê‰¹#13</title>
-			<title code="0x2d">Œø‰Ê‰¹#14</title>
-			<title code="0x2e">Œø‰Ê‰¹#15</title>
-			<title code="0x2f">Œø‰Ê‰¹#16</title>
-			<title code="0x30">Œø‰Ê‰¹#17</title>
-			<title code="0x31">Œø‰Ê‰¹#18</title>
-			<title code="0x32">Œø‰Ê‰¹#19</title>
-			<title code="0x33">Œø‰Ê‰¹#20</title>
-			<title code="0x34">Œø‰Ê‰¹#21</title>
-			<title code="0x35">Œø‰Ê‰¹#22</title>
-			<title code="0x36">Œø‰Ê‰¹#23</title>
-			<title code="0x37">Œø‰Ê‰¹#24</title>
-			<title code="0x38">Œø‰Ê‰¹#25</title>
-			<title code="0x39">Œø‰Ê‰¹#26</title>
-			<title code="0x3a">Œø‰Ê‰¹#27</title>
-			<title code="0x3b">Œø‰Ê‰¹#28</title>
-			<title code="0x3c">Œø‰Ê‰¹#29</title>
-			<title code="0x3d">Œø‰Ê‰¹#30</title>
-			<title code="0x3e">Œø‰Ê‰¹#31</title>
-			<title code="0x3f">Œø‰Ê‰¹#32</title>
-			<title code="0x40">Œø‰Ê‰¹#33</title>
-			<title code="0x41">Œø‰Ê‰¹#34</title>
-			<title code="0x42">Œø‰Ê‰¹#35</title>
-			<title code="0x43">Œø‰Ê‰¹#36</title>
-			<title code="0x44">Œø‰Ê‰¹#37</title>
-			<title code="0x45">Œø‰Ê‰¹#38</title>
-			<title code="0x46">Œø‰Ê‰¹#39</title>
-			<title code="0x47">Œø‰Ê‰¹#40</title>
-			<title code="0x48">Œø‰Ê‰¹#41</title>
-			<title code="0x49">Œø‰Ê‰¹#42</title>
-			<title code="0x4a">Œø‰Ê‰¹#43</title>
-			<title code="0x4b">Œø‰Ê‰¹#44</title>
-			<title code="0x4c">Œø‰Ê‰¹#45</title>
-			<title code="0x4d">Œø‰Ê‰¹#46</title>
-			<title code="0x4e">Œø‰Ê‰¹#47</title>
-			<title code="0x4f">Œø‰Ê‰¹#48</title>
+			<title code="0x14">ã‚¸ãƒ¥ãƒ¼ãƒ³</title>
+			<title code="0x15">ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼</title>
+			<title code="0x16">æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯</title>
+			<title code="0x17">ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»</title>
+			<title code="0x18">ç«æ˜Ÿ</title>
+			<title code="0x19">é¥ã‹ãªå®‡å®™ã¸</title>
+			<title code="0x1a">ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»</title>
+			<title code="0x1b">VOIDå¤§æˆ¦è‰¦</title>
+			<title code="0x1c">G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ</title>
+			<title code="0x1d">ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹</title>
+			<title code="0x20">åŠ¹æœéŸ³#01</title>
+			<title code="0x21">åŠ¹æœéŸ³#02</title>
+			<title code="0x22">åŠ¹æœéŸ³#03</title>
+			<title code="0x23">åŠ¹æœéŸ³#04</title>
+			<title code="0x24">åŠ¹æœéŸ³#05</title>
+			<title code="0x25">åŠ¹æœéŸ³#06</title>
+			<title code="0x26">åŠ¹æœéŸ³#07</title>
+			<title code="0x27">åŠ¹æœéŸ³#08</title>
+			<title code="0x28">åŠ¹æœéŸ³#09</title>
+			<title code="0x29">åŠ¹æœéŸ³#10</title>
+			<title code="0x2a">åŠ¹æœéŸ³#11</title>
+			<title code="0x2b">åŠ¹æœéŸ³#12</title>
+			<title code="0x2c">åŠ¹æœéŸ³#13</title>
+			<title code="0x2d">åŠ¹æœéŸ³#14</title>
+			<title code="0x2e">åŠ¹æœéŸ³#15</title>
+			<title code="0x2f">åŠ¹æœéŸ³#16</title>
+			<title code="0x30">åŠ¹æœéŸ³#17</title>
+			<title code="0x31">åŠ¹æœéŸ³#18</title>
+			<title code="0x32">åŠ¹æœéŸ³#19</title>
+			<title code="0x33">åŠ¹æœéŸ³#20</title>
+			<title code="0x34">åŠ¹æœéŸ³#21</title>
+			<title code="0x35">åŠ¹æœéŸ³#22</title>
+			<title code="0x36">åŠ¹æœéŸ³#23</title>
+			<title code="0x37">åŠ¹æœéŸ³#24</title>
+			<title code="0x38">åŠ¹æœéŸ³#25</title>
+			<title code="0x39">åŠ¹æœéŸ³#26</title>
+			<title code="0x3a">åŠ¹æœéŸ³#27</title>
+			<title code="0x3b">åŠ¹æœéŸ³#28</title>
+			<title code="0x3c">åŠ¹æœéŸ³#29</title>
+			<title code="0x3d">åŠ¹æœéŸ³#30</title>
+			<title code="0x3e">åŠ¹æœéŸ³#31</title>
+			<title code="0x3f">åŠ¹æœéŸ³#32</title>
+			<title code="0x40">åŠ¹æœéŸ³#33</title>
+			<title code="0x41">åŠ¹æœéŸ³#34</title>
+			<title code="0x42">åŠ¹æœéŸ³#35</title>
+			<title code="0x43">åŠ¹æœéŸ³#36</title>
+			<title code="0x44">åŠ¹æœéŸ³#37</title>
+			<title code="0x45">åŠ¹æœéŸ³#38</title>
+			<title code="0x46">åŠ¹æœéŸ³#39</title>
+			<title code="0x47">åŠ¹æœéŸ³#40</title>
+			<title code="0x48">åŠ¹æœéŸ³#41</title>
+			<title code="0x49">åŠ¹æœéŸ³#42</title>
+			<title code="0x4a">åŠ¹æœéŸ³#43</title>
+			<title code="0x4b">åŠ¹æœéŸ³#44</title>
+			<title code="0x4c">åŠ¹æœéŸ³#45</title>
+			<title code="0x4d">åŠ¹æœéŸ³#46</title>
+			<title code="0x4e">åŠ¹æœéŸ³#47</title>
+			<title code="0x4f">åŠ¹æœéŸ³#48</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2203)</name>
+		<name>[PC-8801] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Arsys Software</driveralias>
 		<options>
@@ -404,88 +404,88 @@
 			<rom type="bgm" offset="0x1d">MB030</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒXƒy[ƒXƒtƒ‰ƒCƒg</title>
-			<title code="0x01">ƒXƒy[ƒXƒtƒ@ƒCƒg</title>
-			<title code="0x02">ƒfƒU[ƒgƒ][ƒ“</title>
-			<title code="0x03">ƒXƒ^[ƒNƒ‹[ƒU[</title>
-			<title code="0x04">ƒŒƒbƒhƒ][ƒ“</title>
-			<title code="0x05">ƒXƒy[ƒXƒ{[ƒg</title>
-			<title code="0x06">ƒVƒ‡ƒbƒv</title>
-			<title code="0x07">ƒoƒgƒ‹ƒXƒy[ƒX</title>
-			<title code="0x08">ƒfƒB[ƒW[</title>
-			<title code="0x09">“y¯</title>
-			<title code="0x0a">‘åÔ”Á</title>
-			<title code="0x0b">ƒrƒbƒOƒ{ƒX</title>
-			<title code="0x0c">ƒ~ƒbƒhƒ{ƒX</title>
-			<title code="0x0d">Šî’n“à•”</title>
-			<title code="0x0e">ƒŒƒNƒCƒGƒ€</title>
-			<title code="0x0f">¶‘Ìƒvƒ‰ƒ“ƒg</title>
-			<title code="0x10">ƒ[ƒvƒAƒEƒg</title>
-			<title code="0x11">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x12">ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn</title>
+			<title code="0x00">ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ</title>
+			<title code="0x01">ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="0x02">ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³</title>
+			<title code="0x03">ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼</title>
+			<title code="0x04">ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³</title>
+			<title code="0x05">ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ</title>
+			<title code="0x06">ã‚·ãƒ§ãƒƒãƒ—</title>
+			<title code="0x07">ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹</title>
+			<title code="0x08">ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼</title>
+			<title code="0x09">åœŸæ˜Ÿ</title>
+			<title code="0x0a">å¤§èµ¤æ–‘</title>
+			<title code="0x0b">ãƒ“ãƒƒã‚°ãƒœã‚¹</title>
+			<title code="0x0c">ãƒŸãƒƒãƒ‰ãƒœã‚¹</title>
+			<title code="0x0d">åŸºåœ°å†…éƒ¨</title>
+			<title code="0x0e">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ </title>
+			<title code="0x0f">ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ</title>
+			<title code="0x10">ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x11">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x12">ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»</title>
 			<title code="0x13">NINETEEN</title>
-			<title code="0x14">ƒWƒ…[ƒ“</title>
-			<title code="0x15">ƒuƒ[ƒJ[</title>
-			<title code="0x16">˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN</title>
-			<title code="0x17">ƒo[ƒi[ƒh¯Œn</title>
-			<title code="0x18">‰Î¯</title>
-			<title code="0x19">—y‚©‚È‰F’ˆ‚Ö</title>
-			<title code="0x1a">ƒVƒŠƒEƒX¯Œn</title>
-			<title code="0x1b">VOID‘åíŠÍ</title>
-			<title code="0x1c">G-ƒJƒ^ƒpƒ‹ƒg</title>
-			<title code="0x1d">ƒnƒCƒp[ƒXƒy[ƒX</title>
-			<title code="0x20">Œø‰Ê‰¹#01</title>
-			<title code="0x21">Œø‰Ê‰¹#02</title>
-			<title code="0x22">Œø‰Ê‰¹#03</title>
-			<title code="0x23">Œø‰Ê‰¹#04</title>
-			<title code="0x24">Œø‰Ê‰¹#05</title>
-			<title code="0x25">Œø‰Ê‰¹#06</title>
-			<title code="0x26">Œø‰Ê‰¹#07</title>
-			<title code="0x27">Œø‰Ê‰¹#08</title>
-			<title code="0x28">Œø‰Ê‰¹#09</title>
-			<title code="0x29">Œø‰Ê‰¹#10</title>
-			<title code="0x2a">Œø‰Ê‰¹#11</title>
-			<title code="0x2b">Œø‰Ê‰¹#12</title>
-			<title code="0x2c">Œø‰Ê‰¹#13</title>
-			<title code="0x2d">Œø‰Ê‰¹#14</title>
-			<title code="0x2e">Œø‰Ê‰¹#15</title>
-			<title code="0x2f">Œø‰Ê‰¹#16</title>
-			<title code="0x30">Œø‰Ê‰¹#17</title>
-			<title code="0x31">Œø‰Ê‰¹#18</title>
-			<title code="0x32">Œø‰Ê‰¹#19</title>
-			<title code="0x33">Œø‰Ê‰¹#20</title>
-			<title code="0x34">Œø‰Ê‰¹#21</title>
-			<title code="0x35">Œø‰Ê‰¹#22</title>
-			<title code="0x36">Œø‰Ê‰¹#23</title>
-			<title code="0x37">Œø‰Ê‰¹#24</title>
-			<title code="0x38">Œø‰Ê‰¹#25</title>
-			<title code="0x39">Œø‰Ê‰¹#26</title>
-			<title code="0x3a">Œø‰Ê‰¹#27</title>
-			<title code="0x3b">Œø‰Ê‰¹#28</title>
-			<title code="0x3c">Œø‰Ê‰¹#29</title>
-			<title code="0x3d">Œø‰Ê‰¹#30</title>
-			<title code="0x3e">Œø‰Ê‰¹#31</title>
-			<title code="0x3f">Œø‰Ê‰¹#32</title>
-			<title code="0x40">Œø‰Ê‰¹#33</title>
-			<title code="0x41">Œø‰Ê‰¹#34</title>
-			<title code="0x42">Œø‰Ê‰¹#35</title>
-			<title code="0x43">Œø‰Ê‰¹#36</title>
-			<title code="0x44">Œø‰Ê‰¹#37</title>
-			<title code="0x45">Œø‰Ê‰¹#38</title>
-			<title code="0x46">Œø‰Ê‰¹#39</title>
-			<title code="0x47">Œø‰Ê‰¹#40</title>
-			<title code="0x48">Œø‰Ê‰¹#41</title>
-			<title code="0x49">Œø‰Ê‰¹#42</title>
-			<title code="0x4a">Œø‰Ê‰¹#43</title>
-			<title code="0x4b">Œø‰Ê‰¹#44</title>
-			<title code="0x4c">Œø‰Ê‰¹#45</title>
-			<title code="0x4d">Œø‰Ê‰¹#46</title>
-			<title code="0x4e">Œø‰Ê‰¹#47</title>
-			<title code="0x4f">Œø‰Ê‰¹#48</title>
+			<title code="0x14">ã‚¸ãƒ¥ãƒ¼ãƒ³</title>
+			<title code="0x15">ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼</title>
+			<title code="0x16">æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯</title>
+			<title code="0x17">ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»</title>
+			<title code="0x18">ç«æ˜Ÿ</title>
+			<title code="0x19">é¥ã‹ãªå®‡å®™ã¸</title>
+			<title code="0x1a">ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»</title>
+			<title code="0x1b">VOIDå¤§æˆ¦è‰¦</title>
+			<title code="0x1c">G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ</title>
+			<title code="0x1d">ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹</title>
+			<title code="0x20">åŠ¹æœéŸ³#01</title>
+			<title code="0x21">åŠ¹æœéŸ³#02</title>
+			<title code="0x22">åŠ¹æœéŸ³#03</title>
+			<title code="0x23">åŠ¹æœéŸ³#04</title>
+			<title code="0x24">åŠ¹æœéŸ³#05</title>
+			<title code="0x25">åŠ¹æœéŸ³#06</title>
+			<title code="0x26">åŠ¹æœéŸ³#07</title>
+			<title code="0x27">åŠ¹æœéŸ³#08</title>
+			<title code="0x28">åŠ¹æœéŸ³#09</title>
+			<title code="0x29">åŠ¹æœéŸ³#10</title>
+			<title code="0x2a">åŠ¹æœéŸ³#11</title>
+			<title code="0x2b">åŠ¹æœéŸ³#12</title>
+			<title code="0x2c">åŠ¹æœéŸ³#13</title>
+			<title code="0x2d">åŠ¹æœéŸ³#14</title>
+			<title code="0x2e">åŠ¹æœéŸ³#15</title>
+			<title code="0x2f">åŠ¹æœéŸ³#16</title>
+			<title code="0x30">åŠ¹æœéŸ³#17</title>
+			<title code="0x31">åŠ¹æœéŸ³#18</title>
+			<title code="0x32">åŠ¹æœéŸ³#19</title>
+			<title code="0x33">åŠ¹æœéŸ³#20</title>
+			<title code="0x34">åŠ¹æœéŸ³#21</title>
+			<title code="0x35">åŠ¹æœéŸ³#22</title>
+			<title code="0x36">åŠ¹æœéŸ³#23</title>
+			<title code="0x37">åŠ¹æœéŸ³#24</title>
+			<title code="0x38">åŠ¹æœéŸ³#25</title>
+			<title code="0x39">åŠ¹æœéŸ³#26</title>
+			<title code="0x3a">åŠ¹æœéŸ³#27</title>
+			<title code="0x3b">åŠ¹æœéŸ³#28</title>
+			<title code="0x3c">åŠ¹æœéŸ³#29</title>
+			<title code="0x3d">åŠ¹æœéŸ³#30</title>
+			<title code="0x3e">åŠ¹æœéŸ³#31</title>
+			<title code="0x3f">åŠ¹æœéŸ³#32</title>
+			<title code="0x40">åŠ¹æœéŸ³#33</title>
+			<title code="0x41">åŠ¹æœéŸ³#34</title>
+			<title code="0x42">åŠ¹æœéŸ³#35</title>
+			<title code="0x43">åŠ¹æœéŸ³#36</title>
+			<title code="0x44">åŠ¹æœéŸ³#37</title>
+			<title code="0x45">åŠ¹æœéŸ³#38</title>
+			<title code="0x46">åŠ¹æœéŸ³#39</title>
+			<title code="0x47">åŠ¹æœéŸ³#40</title>
+			<title code="0x48">åŠ¹æœéŸ³#41</title>
+			<title code="0x49">åŠ¹æœéŸ³#42</title>
+			<title code="0x4a">åŠ¹æœéŸ³#43</title>
+			<title code="0x4b">åŠ¹æœéŸ³#44</title>
+			<title code="0x4c">åŠ¹æœéŸ³#45</title>
+			<title code="0x4d">åŠ¹æœéŸ³#46</title>
+			<title code="0x4e">åŠ¹æœéŸ³#47</title>
+			<title code="0x4f">åŠ¹æœéŸ³#48</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] WiBARM (ƒEƒCƒo[ƒ“) (YM2203)</name>
+		<name>[PC-9801] WiBARM (ã‚¦ã‚¤ãƒãƒ¼ãƒ³) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -507,16 +507,16 @@
 			<rom type="bgm" offset="0x04">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000002">Base (Šî’n)</title>
-			<title code="0x000003">Land (’nã)</title>
-			<title code="0x010003">Battle (í“¬)</title>
-			<title code="0x000001">3D Maze (Interior) (3D–À˜H(Œš•¨“à))</title>
-		<!--	<title code="0x010001">Battle (í“¬)</title> -->
-			<title code="0x000004">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
+			<title code="0x000002">Base (åŸºåœ°)</title>
+			<title code="0x000003">Land (åœ°ä¸Š)</title>
+			<title code="0x010003">Battle (æˆ¦é—˜)</title>
+			<title code="0x000001">3D Maze (Interior) (3Dè¿·è·¯(å»ºç‰©å†…))</title>
+		<!--	<title code="0x010001">Battle (æˆ¦é—˜)</title> -->
+			<title code="0x000004">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Spindizzy II (ƒXƒsƒ“ƒfƒBƒW[II) (YM2203)</name>
+		<name>[PC-9801] Spindizzy II (ã‚¹ãƒ”ãƒ³ãƒ‡ã‚£ã‚¸ãƒ¼II) (YM2203)</name>
 		<driver type="opn">pc98</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -625,7 +625,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2203)</name>
+		<name>[PC-9801] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -674,88 +674,88 @@
 			<rom type="bgm" offset="0x1e">MUS30</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Space Flight (ƒXƒy[ƒXƒtƒ‰ƒCƒg)</title>
-			<title code="0x02">Space Fight (ƒXƒy[ƒXƒtƒ@ƒCƒg)</title>
-			<title code="0x03">Desert Zone (ƒfƒU[ƒgƒ][ƒ“)</title>
-			<title code="0x04">Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[)</title>
-			<title code="0x05">Red Zone (ƒŒƒbƒhƒ][ƒ“)</title>
-			<title code="0x06">Space Boat (ƒXƒy[ƒXƒ{[ƒg)</title>
-			<title code="0x07">Shop (ƒVƒ‡ƒbƒv)</title>
-			<title code="0x08">Battle Space (ƒoƒgƒ‹ƒXƒy[ƒX)</title>
-			<title code="0x09">Daisy (ƒfƒB[ƒW[)</title>
-			<title code="0x0a">Saturn (“y¯)</title>
-			<title code="0x0b">The Great Red Spot (‘åÔ”Á)</title>
-			<title code="0x0c">Big Boss (ƒrƒbƒOƒ{ƒX)</title>
-			<title code="0x0d">Mini Boss (ƒ~ƒbƒhƒ{ƒX)</title>
-			<title code="0x0e">Inside the Base (Šî’n“à•”)</title>
-			<title code="0x0f">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x10">Bio Plant (¶‘Ìƒvƒ‰ƒ“ƒg)</title>
-			<title code="0x11">Warp Out (ƒ[ƒvƒAƒEƒg)</title>
-			<title code="0x12">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x13">Rigil Kent System (ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn)</title>
+			<title code="0x01">Space Flight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ)</title>
+			<title code="0x02">Space Fight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x03">Desert Zone (ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x04">Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼)</title>
+			<title code="0x05">Red Zone (ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x06">Space Boat (ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ)</title>
+			<title code="0x07">Shop (ã‚·ãƒ§ãƒƒãƒ—)</title>
+			<title code="0x08">Battle Space (ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x09">Daisy (ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼)</title>
+			<title code="0x0a">Saturn (åœŸæ˜Ÿ)</title>
+			<title code="0x0b">The Great Red Spot (å¤§èµ¤æ–‘)</title>
+			<title code="0x0c">Big Boss (ãƒ“ãƒƒã‚°ãƒœã‚¹)</title>
+			<title code="0x0d">Mini Boss (ãƒŸãƒƒãƒ‰ãƒœã‚¹)</title>
+			<title code="0x0e">Inside the Base (åŸºåœ°å†…éƒ¨)</title>
+			<title code="0x0f">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x10">Bio Plant (ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ)</title>
+			<title code="0x11">Warp Out (ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x12">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x13">Rigil Kent System (ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»)</title>
 			<title code="0x14">Nineteen</title>
-			<title code="0x15">June (ƒWƒ…[ƒ“)</title>
-			<title code="0x16">Broker (ƒuƒ[ƒJ[)</title>
-			<title code="0x17">The Planet of Old New York (˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN)</title>
-			<title code="0x18">Barnard's Star (ƒo[ƒi[ƒh¯Œn)</title>
-			<title code="0x19">Mars (‰Î¯)</title>
-			<title code="0x1a">To a Far Away Galaxy (—y‚©‚È‰F’ˆ‚Ö)</title>
-			<title code="0x1b">Sirius System (ƒVƒŠƒEƒX¯Œn)</title>
-			<title code="0x1c">Great Battleship VOID (VOID ‘åíŠÍ)</title>
-			<title code="0x1d">G Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1e">Hyperspace (ƒnƒCƒp[ƒXƒy[ƒX)</title>
-			<title code="0x20">SFX #01 (Œø‰Ê‰¹#01)</title>
-			<title code="0x21">SFX #02 (Œø‰Ê‰¹#02)</title>
-			<title code="0x22">SFX #03 (Œø‰Ê‰¹#03)</title>
-			<title code="0x23">SFX #04 (Œø‰Ê‰¹#04)</title>
-			<title code="0x24">SFX #05 (Œø‰Ê‰¹#05)</title>
-			<title code="0x25">SFX #06 (Œø‰Ê‰¹#06)</title>
-			<title code="0x26">SFX #07 (Œø‰Ê‰¹#07)</title>
-			<title code="0x27">SFX #08 (Œø‰Ê‰¹#08)</title>
-			<title code="0x28">SFX #09 (Œø‰Ê‰¹#09)</title>
-			<title code="0x29">SFX #10 (Œø‰Ê‰¹#10)</title>
-			<title code="0x2a">SFX #11 (Œø‰Ê‰¹#11)</title>
-			<title code="0x2b">SFX #12 (Œø‰Ê‰¹#12)</title>
-			<title code="0x2c">SFX #13 (Œø‰Ê‰¹#13)</title>
-			<title code="0x2d">SFX #14 (Œø‰Ê‰¹#14)</title>
-			<title code="0x2e">SFX #15 (Œø‰Ê‰¹#15)</title>
-			<title code="0x2f">SFX #16 (Œø‰Ê‰¹#16)</title>
-			<title code="0x30">SFX #17 (Œø‰Ê‰¹#17)</title>
-			<title code="0x31">SFX #18 (Œø‰Ê‰¹#18)</title>
-			<title code="0x32">SFX #19 (Œø‰Ê‰¹#19)</title>
-			<title code="0x33">SFX #20 (Œø‰Ê‰¹#20)</title>
-			<title code="0x34">SFX #21 (Œø‰Ê‰¹#21)</title>
-			<title code="0x35">SFX #22 (Œø‰Ê‰¹#22)</title>
-			<title code="0x36">SFX #23 (Œø‰Ê‰¹#23)</title>
-			<title code="0x37">SFX #24 (Œø‰Ê‰¹#24)</title>
-			<title code="0x38">SFX #25 (Œø‰Ê‰¹#25)</title>
-			<title code="0x39">SFX #26 (Œø‰Ê‰¹#26)</title>
-			<title code="0x3a">SFX #27 (Œø‰Ê‰¹#27)</title>
-			<title code="0x3b">SFX #28 (Œø‰Ê‰¹#28)</title>
-			<title code="0x3c">SFX #29 (Œø‰Ê‰¹#29)</title>
-			<title code="0x3d">SFX #30 (Œø‰Ê‰¹#30)</title>
-			<title code="0x3e">SFX #31 (Œø‰Ê‰¹#31)</title>
-			<title code="0x3f">SFX #32 (Œø‰Ê‰¹#32)</title>
-			<title code="0x40">SFX #33 (Œø‰Ê‰¹#33)</title>
-			<title code="0x41">SFX #34 (Œø‰Ê‰¹#34)</title>
-			<title code="0x42">SFX #35 (Œø‰Ê‰¹#35)</title>
-			<title code="0x43">SFX #36 (Œø‰Ê‰¹#36)</title>
-			<title code="0x44">SFX #37 (Œø‰Ê‰¹#37)</title>
-			<title code="0x45">SFX #38 (Œø‰Ê‰¹#38)</title>
-			<title code="0x46">SFX #39 (Œø‰Ê‰¹#39)</title>
-			<title code="0x47">SFX #40 (Œø‰Ê‰¹#40)</title>
-			<title code="0x48">SFX #41 (Œø‰Ê‰¹#41)</title>
-			<title code="0x49">SFX #42 (Œø‰Ê‰¹#42)</title>
-			<title code="0x4a">SFX #43 (Œø‰Ê‰¹#43)</title>
-			<title code="0x4b">SFX #44 (Œø‰Ê‰¹#44)</title>
-			<title code="0x4c">SFX #45 (Œø‰Ê‰¹#45)</title>
-			<title code="0x4d">SFX #46 (Œø‰Ê‰¹#46)</title>
-			<title code="0x4e">SFX #47 (Œø‰Ê‰¹#47)</title>
-			<title code="0x4f">SFX #48 (Œø‰Ê‰¹#48)</title>
+			<title code="0x15">June (ã‚¸ãƒ¥ãƒ¼ãƒ³)</title>
+			<title code="0x16">Broker (ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼)</title>
+			<title code="0x17">The Planet of Old New York (æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯)</title>
+			<title code="0x18">Barnard's Star (ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»)</title>
+			<title code="0x19">Mars (ç«æ˜Ÿ)</title>
+			<title code="0x1a">To a Far Away Galaxy (é¥ã‹ãªå®‡å®™ã¸)</title>
+			<title code="0x1b">Sirius System (ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»)</title>
+			<title code="0x1c">Great Battleship VOID (VOID å¤§æˆ¦è‰¦)</title>
+			<title code="0x1d">G Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1e">Hyperspace (ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x20">SFX #01 (åŠ¹æœéŸ³#01)</title>
+			<title code="0x21">SFX #02 (åŠ¹æœéŸ³#02)</title>
+			<title code="0x22">SFX #03 (åŠ¹æœéŸ³#03)</title>
+			<title code="0x23">SFX #04 (åŠ¹æœéŸ³#04)</title>
+			<title code="0x24">SFX #05 (åŠ¹æœéŸ³#05)</title>
+			<title code="0x25">SFX #06 (åŠ¹æœéŸ³#06)</title>
+			<title code="0x26">SFX #07 (åŠ¹æœéŸ³#07)</title>
+			<title code="0x27">SFX #08 (åŠ¹æœéŸ³#08)</title>
+			<title code="0x28">SFX #09 (åŠ¹æœéŸ³#09)</title>
+			<title code="0x29">SFX #10 (åŠ¹æœéŸ³#10)</title>
+			<title code="0x2a">SFX #11 (åŠ¹æœéŸ³#11)</title>
+			<title code="0x2b">SFX #12 (åŠ¹æœéŸ³#12)</title>
+			<title code="0x2c">SFX #13 (åŠ¹æœéŸ³#13)</title>
+			<title code="0x2d">SFX #14 (åŠ¹æœéŸ³#14)</title>
+			<title code="0x2e">SFX #15 (åŠ¹æœéŸ³#15)</title>
+			<title code="0x2f">SFX #16 (åŠ¹æœéŸ³#16)</title>
+			<title code="0x30">SFX #17 (åŠ¹æœéŸ³#17)</title>
+			<title code="0x31">SFX #18 (åŠ¹æœéŸ³#18)</title>
+			<title code="0x32">SFX #19 (åŠ¹æœéŸ³#19)</title>
+			<title code="0x33">SFX #20 (åŠ¹æœéŸ³#20)</title>
+			<title code="0x34">SFX #21 (åŠ¹æœéŸ³#21)</title>
+			<title code="0x35">SFX #22 (åŠ¹æœéŸ³#22)</title>
+			<title code="0x36">SFX #23 (åŠ¹æœéŸ³#23)</title>
+			<title code="0x37">SFX #24 (åŠ¹æœéŸ³#24)</title>
+			<title code="0x38">SFX #25 (åŠ¹æœéŸ³#25)</title>
+			<title code="0x39">SFX #26 (åŠ¹æœéŸ³#26)</title>
+			<title code="0x3a">SFX #27 (åŠ¹æœéŸ³#27)</title>
+			<title code="0x3b">SFX #28 (åŠ¹æœéŸ³#28)</title>
+			<title code="0x3c">SFX #29 (åŠ¹æœéŸ³#29)</title>
+			<title code="0x3d">SFX #30 (åŠ¹æœéŸ³#30)</title>
+			<title code="0x3e">SFX #31 (åŠ¹æœéŸ³#31)</title>
+			<title code="0x3f">SFX #32 (åŠ¹æœéŸ³#32)</title>
+			<title code="0x40">SFX #33 (åŠ¹æœéŸ³#33)</title>
+			<title code="0x41">SFX #34 (åŠ¹æœéŸ³#34)</title>
+			<title code="0x42">SFX #35 (åŠ¹æœéŸ³#35)</title>
+			<title code="0x43">SFX #36 (åŠ¹æœéŸ³#36)</title>
+			<title code="0x44">SFX #37 (åŠ¹æœéŸ³#37)</title>
+			<title code="0x45">SFX #38 (åŠ¹æœéŸ³#38)</title>
+			<title code="0x46">SFX #39 (åŠ¹æœéŸ³#39)</title>
+			<title code="0x47">SFX #40 (åŠ¹æœéŸ³#40)</title>
+			<title code="0x48">SFX #41 (åŠ¹æœéŸ³#41)</title>
+			<title code="0x49">SFX #42 (åŠ¹æœéŸ³#42)</title>
+			<title code="0x4a">SFX #43 (åŠ¹æœéŸ³#43)</title>
+			<title code="0x4b">SFX #44 (åŠ¹æœéŸ³#44)</title>
+			<title code="0x4c">SFX #45 (åŠ¹æœéŸ³#45)</title>
+			<title code="0x4d">SFX #46 (åŠ¹æœéŸ³#46)</title>
+			<title code="0x4e">SFX #47 (åŠ¹æœéŸ³#47)</title>
+			<title code="0x4f">SFX #48 (åŠ¹æœéŸ³#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ƒXƒ^[ƒNƒ‹[ƒU[2 ƒUEƒIƒfƒ…ƒbƒZƒEƒXEƒvƒƒWƒFƒNƒg) (YM2203)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼2 ã‚¶ãƒ»ã‚ªãƒ‡ãƒ¥ãƒƒã‚»ã‚¦ã‚¹ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -771,61 +771,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0500">Initialization (‰Šú‰»)</title>
-			<title code="0x0501">Arsys Logo (ƒAƒ‹ƒVƒXƒƒS)</title>
-			<title code="0x0502">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x0503">Star Cruiser Title (ƒXƒ^[ƒNƒ‹[ƒU[ ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x0504">Battleship VOID Theme (VOID í“¬‚Ìƒe[ƒ})</title>
-			<title code="0x0505">Narration (ƒiƒŒ[ƒVƒ‡ƒ“)</title>
-			<title code="0x0506">Departing on a Journey Far Away (—y‚©‚È‚é—·—§‚¿)</title>
+			<title code="0x0500">Initialization (åˆæœŸåŒ–)</title>
+			<title code="0x0501">Arsys Logo (ã‚¢ãƒ«ã‚·ã‚¹ãƒ­ã‚´)</title>
+			<title code="0x0502">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x0503">Star Cruiser Title (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x0504">Battleship VOID Theme (VOID æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x0505">Narration (ãƒŠãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³)</title>
+			<title code="0x0506">Departing on a Journey Far Away (é¥ã‹ãªã‚‹æ—…ç«‹ã¡)</title>
 			<title code="0x0507">Prince</title>
 			<title code="0x0508">Area 1</title>
-			<title code="0x0509">Theme of a Broken Heart (S‚Ìƒe[ƒ})</title>
-			<title code="0x050a">Departure Theme (oq‚Ìƒe[ƒ})</title>
-			<title code="0x050b">Dyonica (ƒfƒBƒIƒjƒJ)</title>
-			<title code="0x0600">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x0601">Fleet Warp (ŠÍ‘àƒ[ƒv)</title>
+			<title code="0x0509">Theme of a Broken Heart (å‚·å¿ƒã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x050a">Departure Theme (å‡ºèˆªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x050b">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
+			<title code="0x0600">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x0601">Fleet Warp (è‰¦éšŠãƒ¯ãƒ¼ãƒ—)</title>
 			<title code="0x0602">Base</title>
-			<title code="0x0603">A Suspenseful Scene Part 1 (•sˆÀ‚ÈîŒi‚»‚Ì1)</title>
+			<title code="0x0603">A Suspenseful Scene Part 1 (ä¸å®‰ãªæƒ…æ™¯ãã®1)</title>
 			<title code="0x0604">Snow Land</title>
 			<title code="0x0605">I Cannot Trust Any of Them</title>
 			<title code="0x0606">Space Flight</title>
 			<title code="0x0607">Uni</title>
-			<title code="0x0608">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
-			<title code="0x0609">Morale Boost (m‹C‚—g)</title>
-			<title code="0x060a">Ground Battle Theme Part 2 (’nãí‚Ìƒe[ƒ}‚»‚Ì2)</title>
+			<title code="0x0608">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
+			<title code="0x0609">Morale Boost (å£«æ°—é«˜æš)</title>
+			<title code="0x060a">Ground Battle Theme Part 2 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®2)</title>
 			<title code="0x060b">White Comet</title>
 			<title code="0x060c">Bar</title>
-			<title code="0x060d">A Suspenseful Scene Part 2 (•sˆÀ‚ÈîŒi‚»‚Ì2)</title>
-			<title code="0x060e">Sounds Inside the Ship (ŠÍ“àŒø‰Ê‰¹)</title>
+			<title code="0x060d">A Suspenseful Scene Part 2 (ä¸å®‰ãªæƒ…æ™¯ãã®2)</title>
+			<title code="0x060e">Sounds Inside the Ship (è‰¦å†…åŠ¹æœéŸ³)</title>
 			<title code="0x060f">Shop1</title>
 			<title code="0x0610">Shop2</title>
 			<title code="0x0611">Energy Shop</title>
 			<title code="0x0612">Dangerous Zone</title>
 			<title code="0x0613">Shocking</title>
-			<title code="0x0614">Tension (‹Ù”—)</title>
-			<title code="0x0615">G-Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x0616">Aquatic Life (…’†¶•¨)</title>
-			<title code="0x0617">Returner Fleet (ƒŠƒ^ƒi[ŠÍ‘à)</title>
-			<title code="0x0618">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
+			<title code="0x0614">Tension (ç·Šè¿«)</title>
+			<title code="0x0615">G-Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x0616">Aquatic Life (æ°´ä¸­ç”Ÿç‰©)</title>
+			<title code="0x0617">Returner Fleet (ãƒªã‚¿ãƒŠãƒ¼è‰¦éšŠ)</title>
+			<title code="0x0618">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
 			<title code="0x0619">Core</title>
 			<title code="0x0700">Woody Planet</title>
 			<title code="0x0701">Alien's Bar</title>
-			<title code="0x0702">Artificial Urban Planet (lH“ss˜f¯)</title>
+			<title code="0x0702">Artificial Urban Planet (äººå·¥éƒ½å¸‚æƒ‘æ˜Ÿ)</title>
 			<title code="0x0703">The Center of Galaxy</title>
-			<title code="0x0704">Temple (_“a)</title>
+			<title code="0x0704">Temple (ç¥æ®¿)</title>
 			<title code="0x0705">Area 2</title>
 			<title code="0x0706">Juke Box</title>
-			<title code="0x0707">Ending Theme (Shine On) (ƒGƒ“ƒfƒBƒ“ƒO‚Ìƒe[ƒ} (Shine on))</title>
-			<title code="0x0708">Explosion (”š”­‰¹)</title>
-			<title code="0x0709">Pre-Nova (ƒvƒŠ ƒmƒ”ƒ@)</title>
-			<title code="0x070a">Dyonica (ƒfƒBƒIƒjƒJ)</title>
+			<title code="0x0707">Ending Theme (Shine On) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ãƒ†ãƒ¼ãƒ (Shine on))</title>
+			<title code="0x0708">Explosion (çˆ†ç™ºéŸ³)</title>
+			<title code="0x0709">Pre-Nova (ãƒ—ãƒª ãƒãƒ´ã‚¡)</title>
+			<title code="0x070a">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
 			<title code="0x070b">Powerful Blade</title>
 			<title code="0x070c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ƒXƒ^[ƒNƒ‹[ƒU[2 ƒUEƒIƒfƒ…ƒbƒZƒEƒXEƒvƒƒWƒFƒNƒg) (MT-32)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼2 ã‚¶ãƒ»ã‚ªãƒ‡ãƒ¥ãƒƒã‚»ã‚¦ã‚¹ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ) (MT-32)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -843,61 +843,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2500">Initialization (‰Šú‰»)</title>
-			<title code="0x2501">Arsys Logo (ƒAƒ‹ƒVƒXƒƒS)</title>
-			<title code="0x2502">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x2503">Star Cruiser Title (ƒXƒ^[ƒNƒ‹[ƒU[ ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x2504">Battleship VOID Theme (VOID í“¬‚Ìƒe[ƒ})</title>
-			<title code="0x2505">Narration (ƒiƒŒ[ƒVƒ‡ƒ“)</title>
-			<title code="0x2506">Departing on a Journey Far Away (—y‚©‚È‚é—·—§‚¿)</title>
+			<title code="0x2500">Initialization (åˆæœŸåŒ–)</title>
+			<title code="0x2501">Arsys Logo (ã‚¢ãƒ«ã‚·ã‚¹ãƒ­ã‚´)</title>
+			<title code="0x2502">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x2503">Star Cruiser Title (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x2504">Battleship VOID Theme (VOID æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x2505">Narration (ãƒŠãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³)</title>
+			<title code="0x2506">Departing on a Journey Far Away (é¥ã‹ãªã‚‹æ—…ç«‹ã¡)</title>
 			<title code="0x2507">Prince</title>
 			<title code="0x2508">Area 1</title>
-			<title code="0x2509">Theme of a Broken Heart (S‚Ìƒe[ƒ})</title>
-			<title code="0x250a">Departure Theme (oq‚Ìƒe[ƒ})</title>
-			<title code="0x250b">Dyonica (ƒfƒBƒIƒjƒJ)</title>
-			<title code="0x2600">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x2601">Fleet Warp (ŠÍ‘àƒ[ƒv)</title>
+			<title code="0x2509">Theme of a Broken Heart (å‚·å¿ƒã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x250a">Departure Theme (å‡ºèˆªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x250b">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
+			<title code="0x2600">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x2601">Fleet Warp (è‰¦éšŠãƒ¯ãƒ¼ãƒ—)</title>
 			<title code="0x2602">Base</title>
-			<title code="0x2603">A Suspenseful Scene Part 1 (•sˆÀ‚ÈîŒi‚»‚Ì1)</title>
+			<title code="0x2603">A Suspenseful Scene Part 1 (ä¸å®‰ãªæƒ…æ™¯ãã®1)</title>
 			<title code="0x2604">Snow Land</title>
 			<title code="0x2605">I Cannot Trust Any of Them</title>
 			<title code="0x2606">Space Flight</title>
 			<title code="0x2607">Uni</title>
-			<title code="0x2608">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
-			<title code="0x2609">Morale Boost (m‹C‚—g)</title>
-			<title code="0x260a">Ground Battle Theme Part 2 (’nãí‚Ìƒe[ƒ}‚»‚Ì2)</title>
+			<title code="0x2608">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
+			<title code="0x2609">Morale Boost (å£«æ°—é«˜æš)</title>
+			<title code="0x260a">Ground Battle Theme Part 2 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®2)</title>
 			<title code="0x260b">White Comet</title>
 			<title code="0x260c">Bar</title>
-			<title code="0x260d">A Suspenseful Scene Part 2 (•sˆÀ‚ÈîŒi‚»‚Ì2)</title>
-			<title code="0x260e">Sounds Inside the Ship (ŠÍ“àŒø‰Ê‰¹)</title>
+			<title code="0x260d">A Suspenseful Scene Part 2 (ä¸å®‰ãªæƒ…æ™¯ãã®2)</title>
+			<title code="0x260e">Sounds Inside the Ship (è‰¦å†…åŠ¹æœéŸ³)</title>
 			<title code="0x260f">Shop1</title>
 			<title code="0x2610">Shop2</title>
 			<title code="0x2611">Energy Shop</title>
 			<title code="0x2612">Dangerous Zone</title>
 			<title code="0x2613">Shocking</title>
-			<title code="0x2614">Tension (‹Ù”—)</title>
-			<title code="0x2615">G-Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x2616">Aquatic Life (…’†¶•¨)</title>
-			<title code="0x2617">Returner Fleet (ƒŠƒ^ƒi[ŠÍ‘à)</title>
-			<title code="0x2618">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
+			<title code="0x2614">Tension (ç·Šè¿«)</title>
+			<title code="0x2615">G-Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x2616">Aquatic Life (æ°´ä¸­ç”Ÿç‰©)</title>
+			<title code="0x2617">Returner Fleet (ãƒªã‚¿ãƒŠãƒ¼è‰¦éšŠ)</title>
+			<title code="0x2618">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
 			<title code="0x2619">Core</title>
 			<title code="0x2700">Woody Planet</title>
 			<title code="0x2701">Alien's Bar</title>
-			<title code="0x2702">Artificial Urban Planet (lH“ss˜f¯)</title>
+			<title code="0x2702">Artificial Urban Planet (äººå·¥éƒ½å¸‚æƒ‘æ˜Ÿ)</title>
 			<title code="0x2703">The Center of Galaxy</title>
-			<title code="0x2704">Temple (_“a)</title>
+			<title code="0x2704">Temple (ç¥æ®¿)</title>
 			<title code="0x2705">Area 2</title>
 			<title code="0x2706">Juke Box</title>
-			<title code="0x2707">Ending Theme (Shine On) (ƒGƒ“ƒfƒBƒ“ƒO‚Ìƒe[ƒ} (Shine on))</title>
-			<title code="0x2708">Explosion (”š”­‰¹)</title>
-			<title code="0x2709">Pre-Nova (ƒvƒŠ ƒmƒ”ƒ@)</title>
-			<title code="0x270a">Dyonica (ƒfƒBƒIƒjƒJ)</title>
+			<title code="0x2707">Ending Theme (Shine On) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ãƒ†ãƒ¼ãƒ (Shine on))</title>
+			<title code="0x2708">Explosion (çˆ†ç™ºéŸ³)</title>
+			<title code="0x2709">Pre-Nova (ãƒ—ãƒª ãƒãƒ´ã‚¡)</title>
+			<title code="0x270a">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
 			<title code="0x270b">Powerful Blade</title>
 			<title code="0x270c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ƒXƒ^[ƒNƒ‹[ƒU[2 ƒUEƒIƒfƒ…ƒbƒZƒEƒXEƒvƒƒWƒFƒNƒg) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼2 ã‚¶ãƒ»ã‚ªãƒ‡ãƒ¥ãƒƒã‚»ã‚¦ã‚¹ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ) (Munt, MT-32 simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -915,61 +915,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2500">Initialization (‰Šú‰»)</title>
-			<title code="0x2501">Arsys Logo (ƒAƒ‹ƒVƒXƒƒS)</title>
-			<title code="0x2502">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x2503">Star Cruiser Title (ƒXƒ^[ƒNƒ‹[ƒU[ ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x2504">Battleship VOID Theme (VOID í“¬‚Ìƒe[ƒ})</title>
-			<title code="0x2505">Narration (ƒiƒŒ[ƒVƒ‡ƒ“)</title>
-			<title code="0x2506">Departing on a Journey Far Away (—y‚©‚È‚é—·—§‚¿)</title>
+			<title code="0x2500">Initialization (åˆæœŸåŒ–)</title>
+			<title code="0x2501">Arsys Logo (ã‚¢ãƒ«ã‚·ã‚¹ãƒ­ã‚´)</title>
+			<title code="0x2502">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x2503">Star Cruiser Title (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x2504">Battleship VOID Theme (VOID æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x2505">Narration (ãƒŠãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³)</title>
+			<title code="0x2506">Departing on a Journey Far Away (é¥ã‹ãªã‚‹æ—…ç«‹ã¡)</title>
 			<title code="0x2507">Prince</title>
 			<title code="0x2508">Area 1</title>
-			<title code="0x2509">Theme of a Broken Heart (S‚Ìƒe[ƒ})</title>
-			<title code="0x250a">Departure Theme (oq‚Ìƒe[ƒ})</title>
-			<title code="0x250b">Dyonica (ƒfƒBƒIƒjƒJ)</title>
-			<title code="0x2600">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x2601">Fleet Warp (ŠÍ‘àƒ[ƒv)</title>
+			<title code="0x2509">Theme of a Broken Heart (å‚·å¿ƒã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x250a">Departure Theme (å‡ºèˆªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x250b">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
+			<title code="0x2600">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x2601">Fleet Warp (è‰¦éšŠãƒ¯ãƒ¼ãƒ—)</title>
 			<title code="0x2602">Base</title>
-			<title code="0x2603">A Suspenseful Scene Part 1 (•sˆÀ‚ÈîŒi‚»‚Ì1)</title>
+			<title code="0x2603">A Suspenseful Scene Part 1 (ä¸å®‰ãªæƒ…æ™¯ãã®1)</title>
 			<title code="0x2604">Snow Land</title>
 			<title code="0x2605">I Cannot Trust Any of Them</title>
 			<title code="0x2606">Space Flight</title>
 			<title code="0x2607">Uni</title>
-			<title code="0x2608">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
-			<title code="0x2609">Morale Boost (m‹C‚—g)</title>
-			<title code="0x260a">Ground Battle Theme Part 2 (’nãí‚Ìƒe[ƒ}‚»‚Ì2)</title>
+			<title code="0x2608">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
+			<title code="0x2609">Morale Boost (å£«æ°—é«˜æš)</title>
+			<title code="0x260a">Ground Battle Theme Part 2 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®2)</title>
 			<title code="0x260b">White Comet</title>
 			<title code="0x260c">Bar</title>
-			<title code="0x260d">A Suspenseful Scene Part 2 (•sˆÀ‚ÈîŒi‚»‚Ì2)</title>
-			<title code="0x260e">Sounds Inside the Ship (ŠÍ“àŒø‰Ê‰¹)</title>
+			<title code="0x260d">A Suspenseful Scene Part 2 (ä¸å®‰ãªæƒ…æ™¯ãã®2)</title>
+			<title code="0x260e">Sounds Inside the Ship (è‰¦å†…åŠ¹æœéŸ³)</title>
 			<title code="0x260f">Shop1</title>
 			<title code="0x2610">Shop2</title>
 			<title code="0x2611">Energy Shop</title>
 			<title code="0x2612">Dangerous Zone</title>
 			<title code="0x2613">Shocking</title>
-			<title code="0x2614">Tension (‹Ù”—)</title>
-			<title code="0x2615">G-Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x2616">Aquatic Life (…’†¶•¨)</title>
-			<title code="0x2617">Returner Fleet (ƒŠƒ^ƒi[ŠÍ‘à)</title>
-			<title code="0x2618">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
+			<title code="0x2614">Tension (ç·Šè¿«)</title>
+			<title code="0x2615">G-Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x2616">Aquatic Life (æ°´ä¸­ç”Ÿç‰©)</title>
+			<title code="0x2617">Returner Fleet (ãƒªã‚¿ãƒŠãƒ¼è‰¦éšŠ)</title>
+			<title code="0x2618">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
 			<title code="0x2619">Core</title>
 			<title code="0x2700">Woody Planet</title>
 			<title code="0x2701">Alien's Bar</title>
-			<title code="0x2702">Artificial Urban Planet (lH“ss˜f¯)</title>
+			<title code="0x2702">Artificial Urban Planet (äººå·¥éƒ½å¸‚æƒ‘æ˜Ÿ)</title>
 			<title code="0x2703">The Center of Galaxy</title>
-			<title code="0x2704">Temple (_“a)</title>
+			<title code="0x2704">Temple (ç¥æ®¿)</title>
 			<title code="0x2705">Area 2</title>
 			<title code="0x2706">Juke Box</title>
-			<title code="0x2707">Ending Theme (Shine On) (ƒGƒ“ƒfƒBƒ“ƒO‚Ìƒe[ƒ} (Shine on))</title>
-			<title code="0x2708">Explosion (”š”­‰¹)</title>
-			<title code="0x2709">Pre-Nova (ƒvƒŠ ƒmƒ”ƒ@)</title>
-			<title code="0x270a">Dyonica (ƒfƒBƒIƒjƒJ)</title>
+			<title code="0x2707">Ending Theme (Shine On) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ãƒ†ãƒ¼ãƒ (Shine on))</title>
+			<title code="0x2708">Explosion (çˆ†ç™ºéŸ³)</title>
+			<title code="0x2709">Pre-Nova (ãƒ—ãƒª ãƒãƒ´ã‚¡)</title>
+			<title code="0x270a">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
 			<title code="0x270b">Powerful Blade</title>
 			<title code="0x270c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ƒXƒ^[ƒNƒ‹[ƒU[2 ƒUEƒIƒfƒ…ƒbƒZƒEƒXEƒvƒƒWƒFƒNƒg) (SC-55)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼2 ã‚¶ãƒ»ã‚ªãƒ‡ãƒ¥ãƒƒã‚»ã‚¦ã‚¹ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ) (SC-55)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -987,61 +987,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1500">Initialization (‰Šú‰»)</title>
-			<title code="0x1501">Arsys Logo (ƒAƒ‹ƒVƒXƒƒS)</title>
-			<title code="0x1502">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x1503">Star Cruiser Title (ƒXƒ^[ƒNƒ‹[ƒU[ ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x1504">Battleship VOID Theme (VOID í“¬‚Ìƒe[ƒ})</title>
-			<title code="0x1505">Narration (ƒiƒŒ[ƒVƒ‡ƒ“)</title>
-			<title code="0x1506">Departing on a Journey Far Away (—y‚©‚È‚é—·—§‚¿)</title>
+			<title code="0x1500">Initialization (åˆæœŸåŒ–)</title>
+			<title code="0x1501">Arsys Logo (ã‚¢ãƒ«ã‚·ã‚¹ãƒ­ã‚´)</title>
+			<title code="0x1502">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x1503">Star Cruiser Title (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x1504">Battleship VOID Theme (VOID æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x1505">Narration (ãƒŠãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³)</title>
+			<title code="0x1506">Departing on a Journey Far Away (é¥ã‹ãªã‚‹æ—…ç«‹ã¡)</title>
 			<title code="0x1507">Prince</title>
 			<title code="0x1508">Area 1</title>
-			<title code="0x1509">Theme of a Broken Heart (S‚Ìƒe[ƒ})</title>
-			<title code="0x150a">Departure Theme (oq‚Ìƒe[ƒ})</title>
-			<title code="0x150b">Dyonica (ƒfƒBƒIƒjƒJ)</title>
-			<title code="0x1600">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x1601">Fleet Warp (ŠÍ‘àƒ[ƒv)</title>
+			<title code="0x1509">Theme of a Broken Heart (å‚·å¿ƒã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x150a">Departure Theme (å‡ºèˆªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x150b">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
+			<title code="0x1600">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x1601">Fleet Warp (è‰¦éšŠãƒ¯ãƒ¼ãƒ—)</title>
 			<title code="0x1602">Base</title>
-			<title code="0x1603">A Suspenseful Scene Part 1 (•sˆÀ‚ÈîŒi‚»‚Ì1)</title>
+			<title code="0x1603">A Suspenseful Scene Part 1 (ä¸å®‰ãªæƒ…æ™¯ãã®1)</title>
 			<title code="0x1604">Snow Land</title>
 			<title code="0x1605">I Cannot Trust Any of Them</title>
 			<title code="0x1606">Space Flight</title>
 			<title code="0x1607">Uni</title>
-			<title code="0x1608">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
-			<title code="0x1609">Morale Boost (m‹C‚—g)</title>
-			<title code="0x160a">Ground Battle Theme Part 2 (’nãí‚Ìƒe[ƒ}‚»‚Ì2)</title>
+			<title code="0x1608">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
+			<title code="0x1609">Morale Boost (å£«æ°—é«˜æš)</title>
+			<title code="0x160a">Ground Battle Theme Part 2 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®2)</title>
 			<title code="0x160b">White Comet</title>
 			<title code="0x160c">Bar</title>
-			<title code="0x160d">A Suspenseful Scene Part 2 (•sˆÀ‚ÈîŒi‚»‚Ì2)</title>
-			<title code="0x160e">Sounds Inside the Ship (ŠÍ“àŒø‰Ê‰¹)</title>
+			<title code="0x160d">A Suspenseful Scene Part 2 (ä¸å®‰ãªæƒ…æ™¯ãã®2)</title>
+			<title code="0x160e">Sounds Inside the Ship (è‰¦å†…åŠ¹æœéŸ³)</title>
 			<title code="0x160f">Shop1</title>
 			<title code="0x1610">Shop2</title>
 			<title code="0x1611">Energy Shop</title>
 			<title code="0x1612">Dangerous Zone</title>
 			<title code="0x1613">Shocking</title>
-			<title code="0x1614">Tension (‹Ù”—)</title>
-			<title code="0x1615">G-Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1616">Aquatic Life (…’†¶•¨)</title>
-			<title code="0x1617">Returner Fleet (ƒŠƒ^ƒi[ŠÍ‘à)</title>
-			<title code="0x1618">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
+			<title code="0x1614">Tension (ç·Šè¿«)</title>
+			<title code="0x1615">G-Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1616">Aquatic Life (æ°´ä¸­ç”Ÿç‰©)</title>
+			<title code="0x1617">Returner Fleet (ãƒªã‚¿ãƒŠãƒ¼è‰¦éšŠ)</title>
+			<title code="0x1618">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
 			<title code="0x1619">Core</title>
 			<title code="0x1700">Woody Planet</title>
 			<title code="0x1701">Alien's Bar</title>
-			<title code="0x1702">Artificial Urban Planet (lH“ss˜f¯)</title>
+			<title code="0x1702">Artificial Urban Planet (äººå·¥éƒ½å¸‚æƒ‘æ˜Ÿ)</title>
 			<title code="0x1703">The Center of Galaxy</title>
-			<title code="0x1704">Temple (_“a)</title>
+			<title code="0x1704">Temple (ç¥æ®¿)</title>
 			<title code="0x1705">Area 2</title>
 			<title code="0x1706">Juke Box</title>
-			<title code="0x1707">Ending Theme (Shine On) (ƒGƒ“ƒfƒBƒ“ƒO‚Ìƒe[ƒ} (Shine on))</title>
-			<title code="0x1708">Explosion (”š”­‰¹)</title>
-			<title code="0x1709">Pre-Nova (ƒvƒŠ ƒmƒ”ƒ@)</title>
-			<title code="0x170a">Dyonica (ƒfƒBƒIƒjƒJ)</title>
+			<title code="0x1707">Ending Theme (Shine On) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ãƒ†ãƒ¼ãƒ (Shine on))</title>
+			<title code="0x1708">Explosion (çˆ†ç™ºéŸ³)</title>
+			<title code="0x1709">Pre-Nova (ãƒ—ãƒª ãƒãƒ´ã‚¡)</title>
+			<title code="0x170a">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
 			<title code="0x170b">Powerful Blade</title>
 			<title code="0x170c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ƒXƒ^[ƒNƒ‹[ƒU[2 ƒUEƒIƒfƒ…ƒbƒZƒEƒXEƒvƒƒWƒFƒNƒg) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Star Cruiser II: The Odysseus Project (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼2 ã‚¶ãƒ»ã‚ªãƒ‡ãƒ¥ãƒƒã‚»ã‚¦ã‚¹ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Arsys Software</driveralias>
 		<options>
@@ -1059,61 +1059,61 @@
 			<rom type="shell" offset="0">sc2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1500">Initialization (‰Šú‰»)</title>
-			<title code="0x1501">Arsys Logo (ƒAƒ‹ƒVƒXƒƒS)</title>
-			<title code="0x1502">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x1503">Star Cruiser Title (ƒXƒ^[ƒNƒ‹[ƒU[ ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x1504">Battleship VOID Theme (VOID í“¬‚Ìƒe[ƒ})</title>
-			<title code="0x1505">Narration (ƒiƒŒ[ƒVƒ‡ƒ“)</title>
-			<title code="0x1506">Departing on a Journey Far Away (—y‚©‚È‚é—·—§‚¿)</title>
+			<title code="0x1500">Initialization (åˆæœŸåŒ–)</title>
+			<title code="0x1501">Arsys Logo (ã‚¢ãƒ«ã‚·ã‚¹ãƒ­ã‚´)</title>
+			<title code="0x1502">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x1503">Star Cruiser Title (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x1504">Battleship VOID Theme (VOID æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x1505">Narration (ãƒŠãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³)</title>
+			<title code="0x1506">Departing on a Journey Far Away (é¥ã‹ãªã‚‹æ—…ç«‹ã¡)</title>
 			<title code="0x1507">Prince</title>
 			<title code="0x1508">Area 1</title>
-			<title code="0x1509">Theme of a Broken Heart (S‚Ìƒe[ƒ})</title>
-			<title code="0x150a">Departure Theme (oq‚Ìƒe[ƒ})</title>
-			<title code="0x150b">Dyonica (ƒfƒBƒIƒjƒJ)</title>
-			<title code="0x1600">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x1601">Fleet Warp (ŠÍ‘àƒ[ƒv)</title>
+			<title code="0x1509">Theme of a Broken Heart (å‚·å¿ƒã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x150a">Departure Theme (å‡ºèˆªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x150b">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
+			<title code="0x1600">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x1601">Fleet Warp (è‰¦éšŠãƒ¯ãƒ¼ãƒ—)</title>
 			<title code="0x1602">Base</title>
-			<title code="0x1603">A Suspenseful Scene Part 1 (•sˆÀ‚ÈîŒi‚»‚Ì1)</title>
+			<title code="0x1603">A Suspenseful Scene Part 1 (ä¸å®‰ãªæƒ…æ™¯ãã®1)</title>
 			<title code="0x1604">Snow Land</title>
 			<title code="0x1605">I Cannot Trust Any of Them</title>
 			<title code="0x1606">Space Flight</title>
 			<title code="0x1607">Uni</title>
-			<title code="0x1608">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
-			<title code="0x1609">Morale Boost (m‹C‚—g)</title>
-			<title code="0x160a">Ground Battle Theme Part 2 (’nãí‚Ìƒe[ƒ}‚»‚Ì2)</title>
+			<title code="0x1608">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
+			<title code="0x1609">Morale Boost (å£«æ°—é«˜æš)</title>
+			<title code="0x160a">Ground Battle Theme Part 2 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®2)</title>
 			<title code="0x160b">White Comet</title>
 			<title code="0x160c">Bar</title>
-			<title code="0x160d">A Suspenseful Scene Part 2 (•sˆÀ‚ÈîŒi‚»‚Ì2)</title>
-			<title code="0x160e">Sounds Inside the Ship (ŠÍ“àŒø‰Ê‰¹)</title>
+			<title code="0x160d">A Suspenseful Scene Part 2 (ä¸å®‰ãªæƒ…æ™¯ãã®2)</title>
+			<title code="0x160e">Sounds Inside the Ship (è‰¦å†…åŠ¹æœéŸ³)</title>
 			<title code="0x160f">Shop1</title>
 			<title code="0x1610">Shop2</title>
 			<title code="0x1611">Energy Shop</title>
 			<title code="0x1612">Dangerous Zone</title>
 			<title code="0x1613">Shocking</title>
-			<title code="0x1614">Tension (‹Ù”—)</title>
-			<title code="0x1615">G-Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1616">Aquatic Life (…’†¶•¨)</title>
-			<title code="0x1617">Returner Fleet (ƒŠƒ^ƒi[ŠÍ‘à)</title>
-			<title code="0x1618">Ground Battle Theme Part 1 (’nãí‚Ìƒe[ƒ}‚»‚Ì1)</title>
+			<title code="0x1614">Tension (ç·Šè¿«)</title>
+			<title code="0x1615">G-Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1616">Aquatic Life (æ°´ä¸­ç”Ÿç‰©)</title>
+			<title code="0x1617">Returner Fleet (ãƒªã‚¿ãƒŠãƒ¼è‰¦éšŠ)</title>
+			<title code="0x1618">Ground Battle Theme Part 1 (åœ°ä¸Šæˆ¦ã®ãƒ†ãƒ¼ãƒãã®1)</title>
 			<title code="0x1619">Core</title>
 			<title code="0x1700">Woody Planet</title>
 			<title code="0x1701">Alien's Bar</title>
-			<title code="0x1702">Artificial Urban Planet (lH“ss˜f¯)</title>
+			<title code="0x1702">Artificial Urban Planet (äººå·¥éƒ½å¸‚æƒ‘æ˜Ÿ)</title>
 			<title code="0x1703">The Center of Galaxy</title>
-			<title code="0x1704">Temple (_“a)</title>
+			<title code="0x1704">Temple (ç¥æ®¿)</title>
 			<title code="0x1705">Area 2</title>
 			<title code="0x1706">Juke Box</title>
-			<title code="0x1707">Ending Theme (Shine On) (ƒGƒ“ƒfƒBƒ“ƒO‚Ìƒe[ƒ} (Shine on))</title>
-			<title code="0x1708">Explosion (”š”­‰¹)</title>
-			<title code="0x1709">Pre-Nova (ƒvƒŠ ƒmƒ”ƒ@)</title>
-			<title code="0x170a">Dyonica (ƒfƒBƒIƒjƒJ)</title>
+			<title code="0x1707">Ending Theme (Shine On) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ãƒ†ãƒ¼ãƒ (Shine on))</title>
+			<title code="0x1708">Explosion (çˆ†ç™ºéŸ³)</title>
+			<title code="0x1709">Pre-Nova (ãƒ—ãƒª ãƒãƒ´ã‚¡)</title>
+			<title code="0x170a">Dyonica (ãƒ‡ã‚£ã‚ªãƒ‹ã‚«)</title>
 			<title code="0x170b">Powerful Blade</title>
 			<title code="0x170c">Bio Punc</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] WiBARM (ƒEƒCƒo[ƒ“) (YM2149)</name>
+		<name>[X1] WiBARM (ã‚¦ã‚¤ãƒãƒ¼ãƒ³) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1128,12 +1128,12 @@
 			<rom type="bgm" offset="0x03">MUS03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000001">Base (Šî’n)</title>
-			<title code="0x00000002">Land (’nã)</title>
-			<title code="0x01000002">Battle (í“¬)</title>
-			<title code="0x00000000">3D Maze (Interior) (3D–À˜H(Œš•¨“à))</title>
-		<!--	<title code="0x01000000">Battle (í“¬)</title> -->
-			<title code="0xff000003">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
+			<title code="0x00000001">Base (åŸºåœ°)</title>
+			<title code="0x00000002">Land (åœ°ä¸Š)</title>
+			<title code="0x01000002">Battle (æˆ¦é—˜)</title>
+			<title code="0x00000000">3D Maze (Interior) (3Dè¿·è·¯(å»ºç‰©å†…))</title>
+		<!--	<title code="0x01000000">Battle (æˆ¦é—˜)</title> -->
+			<title code="0xff000003">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1172,27 +1172,27 @@
 		</romlist>
 		<titlelist>
 			<title code="0x15">Arsys Logo</title>
-			<title code="0x00">Bar 1 (ğê1)</title>
-			<title code="0x01">Bar 2 (ğê2)</title>
-			<title code="0x02">Cave (“´ŒA)</title>
-			<title code="0x03">Castle (é)</title>
-			<title code="0x04">Heaven: Hallizard (“VŠEEƒnƒŠƒCƒU[ƒh)</title>
-			<title code="0x05">Hell: Zaliozard (×_ŠEEƒUƒŠƒIƒU[ƒh)</title>
-			<title code="0x06">Tandalyde the Sorceror (–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh)</title>
-			<title code="0x07">Sadarian Appears (ƒTƒ_ƒŠƒA[ƒ““oê)</title>
-			<title code="0x08">Battle (í“¬)</title>
-			<title code="0x09">Monster Encounter (–‚•¨‚Æ‚Ì‘˜‹ö)</title>
-			<title code="0x0a">Get a Special Item, Etc. (d—vƒAƒCƒeƒ€“üè ‘¼)</title>
-			<title code="0x0b">The Crystal Rod (ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh)</title>
-			<title code="0x0c">Death of Cote the Swordsman (Œ•mƒR[ƒg‚Ì€)</title>
-			<title code="0x0d">Trap (ƒgƒ‰ƒbƒv)</title>
-			<title code="0x0e">Ravistark (ƒ‰ƒrƒXƒ^[ƒN)</title>
-			<title code="0x0f">Battle with Sadarian (ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢)</title>
-			<title code="0x10">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x11">Sadarian's End (ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú)</title>
-			<title code="0x12">Meeting Alma the Swordswoman (—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢)</title>
-			<title code="0x13">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x14">Death (€)</title>
+			<title code="0x00">Bar 1 (é…’å ´1)</title>
+			<title code="0x01">Bar 2 (é…’å ´2)</title>
+			<title code="0x02">Cave (æ´çªŸ)</title>
+			<title code="0x03">Castle (åŸ)</title>
+			<title code="0x04">Heaven: Hallizard (å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x05">Hell: Zaliozard (é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x06">Tandalyde the Sorceror (é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰)</title>
+			<title code="0x07">Sadarian Appears (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´)</title>
+			<title code="0x08">Battle (æˆ¦é—˜)</title>
+			<title code="0x09">Monster Encounter (é­”ç‰©ã¨ã®é­é‡)</title>
+			<title code="0x0a">Get a Special Item, Etc. (é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–)</title>
+			<title code="0x0b">The Crystal Rod (ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰)</title>
+			<title code="0x0c">Death of Cote the Swordsman (å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»)</title>
+			<title code="0x0d">Trap (ãƒˆãƒ©ãƒƒãƒ—)</title>
+			<title code="0x0e">Ravistark (ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯)</title>
+			<title code="0x0f">Battle with Sadarian (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„)</title>
+			<title code="0x10">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x11">Sadarian's End (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„)</title>
+			<title code="0x13">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x14">Death (æ­»)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1229,31 +1229,31 @@
 			<rom type="bgm" offset="0x14">MUS21P</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Bar 1 (ğê1)</title>
-			<title code="0x01">Bar 2 (ğê2)</title>
-			<title code="0x02">Cave (“´ŒA)</title>
-			<title code="0x03">Castle (é)</title>
-			<title code="0x04">Heaven: Hallizard (“VŠEEƒnƒŠƒCƒU[ƒh)</title>
-			<title code="0x05">Hell: Zaliozard (×_ŠEEƒUƒŠƒIƒU[ƒh)</title>
-			<title code="0x06">Tandalyde the Sorceror (–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh)</title>
-			<title code="0x07">Sadarian Appears (ƒTƒ_ƒŠƒA[ƒ““oê)</title>
-			<title code="0x08">Battle (í“¬)</title>
-			<title code="0x09">Monster Encounter (–‚•¨‚Æ‚Ì‘˜‹ö)</title>
-			<title code="0x0a">Get a Special Item, Etc. (d—vƒAƒCƒeƒ€“üè ‘¼)</title>
-			<title code="0x0b">The Crystal Rod (ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh)</title>
-			<title code="0x0c">Death of Cote the Swordsman (Œ•mƒR[ƒg‚Ì€)</title>
-			<title code="0x0d">Trap (ƒgƒ‰ƒbƒv)</title>
-			<title code="0x0e">Ravistark (ƒ‰ƒrƒXƒ^[ƒN)</title>
-			<title code="0x0f">Battle with Sadarian (ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢)</title>
-			<title code="0x10">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x11">Sadarian's End (ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú)</title>
-			<title code="0x12">Meeting Alma the Swordswoman (—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢)</title>
-			<title code="0x13">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x14">Death (€)</title>
+			<title code="0x00">Bar 1 (é…’å ´1)</title>
+			<title code="0x01">Bar 2 (é…’å ´2)</title>
+			<title code="0x02">Cave (æ´çªŸ)</title>
+			<title code="0x03">Castle (åŸ)</title>
+			<title code="0x04">Heaven: Hallizard (å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x05">Hell: Zaliozard (é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰)</title>
+			<title code="0x06">Tandalyde the Sorceror (é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰)</title>
+			<title code="0x07">Sadarian Appears (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´)</title>
+			<title code="0x08">Battle (æˆ¦é—˜)</title>
+			<title code="0x09">Monster Encounter (é­”ç‰©ã¨ã®é­é‡)</title>
+			<title code="0x0a">Get a Special Item, Etc. (é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–)</title>
+			<title code="0x0b">The Crystal Rod (ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰)</title>
+			<title code="0x0c">Death of Cote the Swordsman (å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»)</title>
+			<title code="0x0d">Trap (ãƒˆãƒ©ãƒƒãƒ—)</title>
+			<title code="0x0e">Ravistark (ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯)</title>
+			<title code="0x0f">Battle with Sadarian (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„)</title>
+			<title code="0x10">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x11">Sadarian's End (ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ)</title>
+			<title code="0x12">Meeting Alma the Swordswoman (å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„)</title>
+			<title code="0x13">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x14">Death (æ­»)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2151)</name>
+		<name>[X1] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1296,88 +1296,88 @@
 			<rom type="bgm" offset="0x1d">MUS30F</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Space Flight (ƒXƒy[ƒXƒtƒ‰ƒCƒg)</title>
-			<title code="0x01">Space Fight (ƒXƒy[ƒXƒtƒ@ƒCƒg)</title>
-			<title code="0x02">Desert Zone (ƒfƒU[ƒgƒ][ƒ“)</title>
-			<title code="0x03">Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[)</title>
-			<title code="0x04">Red Zone (ƒŒƒbƒhƒ][ƒ“)</title>
-			<title code="0x05">Space Boat (ƒXƒy[ƒXƒ{[ƒg)</title>
-			<title code="0x06">Shop (ƒVƒ‡ƒbƒv)</title>
-			<title code="0x07">Battle Space (ƒoƒgƒ‹ƒXƒy[ƒX)</title>
-			<title code="0x08">Daisy (ƒfƒB[ƒW[)</title>
-			<title code="0x09">Saturn (“y¯)</title>
-			<title code="0x0a">The Great Red Spot (‘åÔ”Á)</title>
-			<title code="0x0b">Big Boss (ƒrƒbƒOƒ{ƒX)</title>
-			<title code="0x0c">Mini Boss (ƒ~ƒbƒhƒ{ƒX)</title>
-			<title code="0x0d">Inside the Base (Šî’n“à•”)</title>
-			<title code="0x0e">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x0f">Bio Plant (¶‘Ìƒvƒ‰ƒ“ƒg)</title>
-			<title code="0x10">Warp Out (ƒ[ƒvƒAƒEƒg)</title>
-			<title code="0x11">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x12">Rigil Kent System (ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn)</title>
+			<title code="0x00">Space Flight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ)</title>
+			<title code="0x01">Space Fight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x02">Desert Zone (ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x03">Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼)</title>
+			<title code="0x04">Red Zone (ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x05">Space Boat (ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ)</title>
+			<title code="0x06">Shop (ã‚·ãƒ§ãƒƒãƒ—)</title>
+			<title code="0x07">Battle Space (ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x08">Daisy (ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼)</title>
+			<title code="0x09">Saturn (åœŸæ˜Ÿ)</title>
+			<title code="0x0a">The Great Red Spot (å¤§èµ¤æ–‘)</title>
+			<title code="0x0b">Big Boss (ãƒ“ãƒƒã‚°ãƒœã‚¹)</title>
+			<title code="0x0c">Mini Boss (ãƒŸãƒƒãƒ‰ãƒœã‚¹)</title>
+			<title code="0x0d">Inside the Base (åŸºåœ°å†…éƒ¨)</title>
+			<title code="0x0e">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x0f">Bio Plant (ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ)</title>
+			<title code="0x10">Warp Out (ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x11">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x12">Rigil Kent System (ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»)</title>
 			<title code="0x13">Nineteen</title>
-			<title code="0x14">June (ƒWƒ…[ƒ“)</title>
-			<title code="0x15">Broker (ƒuƒ[ƒJ[)</title>
-			<title code="0x16">The Planet of Old New York (˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN)</title>
-			<title code="0x17">Barnard's Star (ƒo[ƒi[ƒh¯Œn)</title>
-			<title code="0x18">Mars (‰Î¯)</title>
-			<title code="0x19">To a Far Away Galaxy (—y‚©‚È‰F’ˆ‚Ö)</title>
-			<title code="0x1a">Sirius System (ƒVƒŠƒEƒX¯Œn)</title>
-			<title code="0x1b">Great Battleship VOID (VOID ‘åíŠÍ)</title>
-			<title code="0x1c">G Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1d">Hyperspace (ƒnƒCƒp[ƒXƒy[ƒX)</title>
-			<title code="0x20">SFX #01 (Œø‰Ê‰¹#01)</title>
-			<title code="0x21">SFX #02 (Œø‰Ê‰¹#02)</title>
-			<title code="0x22">SFX #03 (Œø‰Ê‰¹#03)</title>
-			<title code="0x23">SFX #04 (Œø‰Ê‰¹#04)</title>
-			<title code="0x24">SFX #05 (Œø‰Ê‰¹#05)</title>
-			<title code="0x25">SFX #06 (Œø‰Ê‰¹#06)</title>
-			<title code="0x26">SFX #07 (Œø‰Ê‰¹#07)</title>
-			<title code="0x27">SFX #08 (Œø‰Ê‰¹#08)</title>
-			<title code="0x28">SFX #09 (Œø‰Ê‰¹#09)</title>
-			<title code="0x29">SFX #10 (Œø‰Ê‰¹#10)</title>
-			<title code="0x2a">SFX #11 (Œø‰Ê‰¹#11)</title>
-			<title code="0x2b">SFX #12 (Œø‰Ê‰¹#12)</title>
-			<title code="0x2c">SFX #13 (Œø‰Ê‰¹#13)</title>
-			<title code="0x2d">SFX #14 (Œø‰Ê‰¹#14)</title>
-			<title code="0x2e">SFX #15 (Œø‰Ê‰¹#15)</title>
-			<title code="0x2f">SFX #16 (Œø‰Ê‰¹#16)</title>
-			<title code="0x30">SFX #17 (Œø‰Ê‰¹#17)</title>
-			<title code="0x31">SFX #18 (Œø‰Ê‰¹#18)</title>
-			<title code="0x32">SFX #19 (Œø‰Ê‰¹#19)</title>
-			<title code="0x33">SFX #20 (Œø‰Ê‰¹#20)</title>
-			<title code="0x34">SFX #21 (Œø‰Ê‰¹#21)</title>
-			<title code="0x35">SFX #22 (Œø‰Ê‰¹#22)</title>
-			<title code="0x36">SFX #23 (Œø‰Ê‰¹#23)</title>
-			<title code="0x37">SFX #24 (Œø‰Ê‰¹#24)</title>
-			<title code="0x38">SFX #25 (Œø‰Ê‰¹#25)</title>
-			<title code="0x39">SFX #26 (Œø‰Ê‰¹#26)</title>
-			<title code="0x3a">SFX #27 (Œø‰Ê‰¹#27)</title>
-			<title code="0x3b">SFX #28 (Œø‰Ê‰¹#28)</title>
-			<title code="0x3c">SFX #29 (Œø‰Ê‰¹#29)</title>
-			<title code="0x3d">SFX #30 (Œø‰Ê‰¹#30)</title>
-			<title code="0x3e">SFX #31 (Œø‰Ê‰¹#31)</title>
-			<title code="0x3f">SFX #32 (Œø‰Ê‰¹#32)</title>
-			<title code="0x40">SFX #33 (Œø‰Ê‰¹#33)</title>
-			<title code="0x41">SFX #34 (Œø‰Ê‰¹#34)</title>
-			<title code="0x42">SFX #35 (Œø‰Ê‰¹#35)</title>
-			<title code="0x43">SFX #36 (Œø‰Ê‰¹#36)</title>
-			<title code="0x44">SFX #37 (Œø‰Ê‰¹#37)</title>
-			<title code="0x45">SFX #38 (Œø‰Ê‰¹#38)</title>
-			<title code="0x46">SFX #39 (Œø‰Ê‰¹#39)</title>
-			<title code="0x47">SFX #40 (Œø‰Ê‰¹#40)</title>
-			<title code="0x48">SFX #41 (Œø‰Ê‰¹#41)</title>
-			<title code="0x49">SFX #42 (Œø‰Ê‰¹#42)</title>
-			<title code="0x4a">SFX #43 (Œø‰Ê‰¹#43)</title>
-			<title code="0x4b">SFX #44 (Œø‰Ê‰¹#44)</title>
-			<title code="0x4c">SFX #45 (Œø‰Ê‰¹#45)</title>
-			<title code="0x4d">SFX #46 (Œø‰Ê‰¹#46)</title>
-			<title code="0x4e">SFX #47 (Œø‰Ê‰¹#47)</title>
-			<title code="0x4f">SFX #48 (Œø‰Ê‰¹#48)</title>
+			<title code="0x14">June (ã‚¸ãƒ¥ãƒ¼ãƒ³)</title>
+			<title code="0x15">Broker (ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼)</title>
+			<title code="0x16">The Planet of Old New York (æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯)</title>
+			<title code="0x17">Barnard's Star (ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»)</title>
+			<title code="0x18">Mars (ç«æ˜Ÿ)</title>
+			<title code="0x19">To a Far Away Galaxy (é¥ã‹ãªå®‡å®™ã¸)</title>
+			<title code="0x1a">Sirius System (ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»)</title>
+			<title code="0x1b">Great Battleship VOID (VOID å¤§æˆ¦è‰¦)</title>
+			<title code="0x1c">G Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1d">Hyperspace (ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x20">SFX #01 (åŠ¹æœéŸ³#01)</title>
+			<title code="0x21">SFX #02 (åŠ¹æœéŸ³#02)</title>
+			<title code="0x22">SFX #03 (åŠ¹æœéŸ³#03)</title>
+			<title code="0x23">SFX #04 (åŠ¹æœéŸ³#04)</title>
+			<title code="0x24">SFX #05 (åŠ¹æœéŸ³#05)</title>
+			<title code="0x25">SFX #06 (åŠ¹æœéŸ³#06)</title>
+			<title code="0x26">SFX #07 (åŠ¹æœéŸ³#07)</title>
+			<title code="0x27">SFX #08 (åŠ¹æœéŸ³#08)</title>
+			<title code="0x28">SFX #09 (åŠ¹æœéŸ³#09)</title>
+			<title code="0x29">SFX #10 (åŠ¹æœéŸ³#10)</title>
+			<title code="0x2a">SFX #11 (åŠ¹æœéŸ³#11)</title>
+			<title code="0x2b">SFX #12 (åŠ¹æœéŸ³#12)</title>
+			<title code="0x2c">SFX #13 (åŠ¹æœéŸ³#13)</title>
+			<title code="0x2d">SFX #14 (åŠ¹æœéŸ³#14)</title>
+			<title code="0x2e">SFX #15 (åŠ¹æœéŸ³#15)</title>
+			<title code="0x2f">SFX #16 (åŠ¹æœéŸ³#16)</title>
+			<title code="0x30">SFX #17 (åŠ¹æœéŸ³#17)</title>
+			<title code="0x31">SFX #18 (åŠ¹æœéŸ³#18)</title>
+			<title code="0x32">SFX #19 (åŠ¹æœéŸ³#19)</title>
+			<title code="0x33">SFX #20 (åŠ¹æœéŸ³#20)</title>
+			<title code="0x34">SFX #21 (åŠ¹æœéŸ³#21)</title>
+			<title code="0x35">SFX #22 (åŠ¹æœéŸ³#22)</title>
+			<title code="0x36">SFX #23 (åŠ¹æœéŸ³#23)</title>
+			<title code="0x37">SFX #24 (åŠ¹æœéŸ³#24)</title>
+			<title code="0x38">SFX #25 (åŠ¹æœéŸ³#25)</title>
+			<title code="0x39">SFX #26 (åŠ¹æœéŸ³#26)</title>
+			<title code="0x3a">SFX #27 (åŠ¹æœéŸ³#27)</title>
+			<title code="0x3b">SFX #28 (åŠ¹æœéŸ³#28)</title>
+			<title code="0x3c">SFX #29 (åŠ¹æœéŸ³#29)</title>
+			<title code="0x3d">SFX #30 (åŠ¹æœéŸ³#30)</title>
+			<title code="0x3e">SFX #31 (åŠ¹æœéŸ³#31)</title>
+			<title code="0x3f">SFX #32 (åŠ¹æœéŸ³#32)</title>
+			<title code="0x40">SFX #33 (åŠ¹æœéŸ³#33)</title>
+			<title code="0x41">SFX #34 (åŠ¹æœéŸ³#34)</title>
+			<title code="0x42">SFX #35 (åŠ¹æœéŸ³#35)</title>
+			<title code="0x43">SFX #36 (åŠ¹æœéŸ³#36)</title>
+			<title code="0x44">SFX #37 (åŠ¹æœéŸ³#37)</title>
+			<title code="0x45">SFX #38 (åŠ¹æœéŸ³#38)</title>
+			<title code="0x46">SFX #39 (åŠ¹æœéŸ³#39)</title>
+			<title code="0x47">SFX #40 (åŠ¹æœéŸ³#40)</title>
+			<title code="0x48">SFX #41 (åŠ¹æœéŸ³#41)</title>
+			<title code="0x49">SFX #42 (åŠ¹æœéŸ³#42)</title>
+			<title code="0x4a">SFX #43 (åŠ¹æœéŸ³#43)</title>
+			<title code="0x4b">SFX #44 (åŠ¹æœéŸ³#44)</title>
+			<title code="0x4c">SFX #45 (åŠ¹æœéŸ³#45)</title>
+			<title code="0x4d">SFX #46 (åŠ¹æœéŸ³#46)</title>
+			<title code="0x4e">SFX #47 (åŠ¹æœéŸ³#47)</title>
+			<title code="0x4f">SFX #48 (åŠ¹æœéŸ³#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2149)</name>
+		<name>[X1] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Arsys Software</driveralias>
 		<options>
@@ -1420,88 +1420,88 @@
 			<rom type="bgm" offset="0x1d">MUS30P</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Space Flight (ƒXƒy[ƒXƒtƒ‰ƒCƒg)</title>
-			<title code="0x01">Space Fight (ƒXƒy[ƒXƒtƒ@ƒCƒg)</title>
-			<title code="0x02">Desert Zone (ƒfƒU[ƒgƒ][ƒ“)</title>
-			<title code="0x03">Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[)</title>
-			<title code="0x04">Red Zone (ƒŒƒbƒhƒ][ƒ“)</title>
-			<title code="0x05">Space Boat (ƒXƒy[ƒXƒ{[ƒg)</title>
-			<title code="0x06">Shop (ƒVƒ‡ƒbƒv)</title>
-			<title code="0x07">Battle Space (ƒoƒgƒ‹ƒXƒy[ƒX)</title>
-			<title code="0x08">Daisy (ƒfƒB[ƒW[)</title>
-			<title code="0x09">Saturn (“y¯)</title>
-			<title code="0x0a">The Great Red Spot (‘åÔ”Á)</title>
-			<title code="0x0b">Big Boss (ƒrƒbƒOƒ{ƒX)</title>
-			<title code="0x0c">Mini Boss (ƒ~ƒbƒhƒ{ƒX)</title>
-			<title code="0x0d">Inside the Base (Šî’n“à•”)</title>
-			<title code="0x0e">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x0f">Bio Plant (¶‘Ìƒvƒ‰ƒ“ƒg)</title>
-			<title code="0x10">Warp Out (ƒ[ƒvƒAƒEƒg)</title>
-			<title code="0x11">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x12">Rigil Kent System (ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn)</title>
+			<title code="0x00">Space Flight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ)</title>
+			<title code="0x01">Space Fight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x02">Desert Zone (ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x03">Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼)</title>
+			<title code="0x04">Red Zone (ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x05">Space Boat (ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ)</title>
+			<title code="0x06">Shop (ã‚·ãƒ§ãƒƒãƒ—)</title>
+			<title code="0x07">Battle Space (ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x08">Daisy (ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼)</title>
+			<title code="0x09">Saturn (åœŸæ˜Ÿ)</title>
+			<title code="0x0a">The Great Red Spot (å¤§èµ¤æ–‘)</title>
+			<title code="0x0b">Big Boss (ãƒ“ãƒƒã‚°ãƒœã‚¹)</title>
+			<title code="0x0c">Mini Boss (ãƒŸãƒƒãƒ‰ãƒœã‚¹)</title>
+			<title code="0x0d">Inside the Base (åŸºåœ°å†…éƒ¨)</title>
+			<title code="0x0e">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x0f">Bio Plant (ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ)</title>
+			<title code="0x10">Warp Out (ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x11">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x12">Rigil Kent System (ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»)</title>
 			<title code="0x13">Nineteen</title>
-			<title code="0x14">June (ƒWƒ…[ƒ“)</title>
-			<title code="0x15">Broker (ƒuƒ[ƒJ[)</title>
-			<title code="0x16">The Planet of Old New York (˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN)</title>
-			<title code="0x17">Barnard's Star (ƒo[ƒi[ƒh¯Œn)</title>
-			<title code="0x18">Mars (‰Î¯)</title>
-			<title code="0x19">To a Far Away Galaxy (—y‚©‚È‰F’ˆ‚Ö)</title>
-			<title code="0x1a">Sirius System (ƒVƒŠƒEƒX¯Œn)</title>
-			<title code="0x1b">Great Battleship VOID (VOID ‘åíŠÍ)</title>
-			<title code="0x1c">G Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1d">Hyperspace (ƒnƒCƒp[ƒXƒy[ƒX)</title>
-			<title code="0x20">SFX #01 (Œø‰Ê‰¹#01)</title>
-			<title code="0x21">SFX #02 (Œø‰Ê‰¹#02)</title>
-			<title code="0x22">SFX #03 (Œø‰Ê‰¹#03)</title>
-			<title code="0x23">SFX #04 (Œø‰Ê‰¹#04)</title>
-			<title code="0x24">SFX #05 (Œø‰Ê‰¹#05)</title>
-			<title code="0x25">SFX #06 (Œø‰Ê‰¹#06)</title>
-			<title code="0x26">SFX #07 (Œø‰Ê‰¹#07)</title>
-			<title code="0x27">SFX #08 (Œø‰Ê‰¹#08)</title>
-			<title code="0x28">SFX #09 (Œø‰Ê‰¹#09)</title>
-			<title code="0x29">SFX #10 (Œø‰Ê‰¹#10)</title>
-			<title code="0x2a">SFX #11 (Œø‰Ê‰¹#11)</title>
-			<title code="0x2b">SFX #12 (Œø‰Ê‰¹#12)</title>
-			<title code="0x2c">SFX #13 (Œø‰Ê‰¹#13)</title>
-			<title code="0x2d">SFX #14 (Œø‰Ê‰¹#14)</title>
-			<title code="0x2e">SFX #15 (Œø‰Ê‰¹#15)</title>
-			<title code="0x2f">SFX #16 (Œø‰Ê‰¹#16)</title>
-			<title code="0x30">SFX #17 (Œø‰Ê‰¹#17)</title>
-			<title code="0x31">SFX #18 (Œø‰Ê‰¹#18)</title>
-			<title code="0x32">SFX #19 (Œø‰Ê‰¹#19)</title>
-			<title code="0x33">SFX #20 (Œø‰Ê‰¹#20)</title>
-			<title code="0x34">SFX #21 (Œø‰Ê‰¹#21)</title>
-			<title code="0x35">SFX #22 (Œø‰Ê‰¹#22)</title>
-			<title code="0x36">SFX #23 (Œø‰Ê‰¹#23)</title>
-			<title code="0x37">SFX #24 (Œø‰Ê‰¹#24)</title>
-			<title code="0x38">SFX #25 (Œø‰Ê‰¹#25)</title>
-			<title code="0x39">SFX #26 (Œø‰Ê‰¹#26)</title>
-			<title code="0x3a">SFX #27 (Œø‰Ê‰¹#27)</title>
-			<title code="0x3b">SFX #28 (Œø‰Ê‰¹#28)</title>
-			<title code="0x3c">SFX #29 (Œø‰Ê‰¹#29)</title>
-			<title code="0x3d">SFX #30 (Œø‰Ê‰¹#30)</title>
-			<title code="0x3e">SFX #31 (Œø‰Ê‰¹#31)</title>
-			<title code="0x3f">SFX #32 (Œø‰Ê‰¹#32)</title>
-			<title code="0x40">SFX #33 (Œø‰Ê‰¹#33)</title>
-			<title code="0x41">SFX #34 (Œø‰Ê‰¹#34)</title>
-			<title code="0x42">SFX #35 (Œø‰Ê‰¹#35)</title>
-			<title code="0x43">SFX #36 (Œø‰Ê‰¹#36)</title>
-			<title code="0x44">SFX #37 (Œø‰Ê‰¹#37)</title>
-			<title code="0x45">SFX #38 (Œø‰Ê‰¹#38)</title>
-			<title code="0x46">SFX #39 (Œø‰Ê‰¹#39)</title>
-			<title code="0x47">SFX #40 (Œø‰Ê‰¹#40)</title>
-			<title code="0x48">SFX #41 (Œø‰Ê‰¹#41)</title>
-			<title code="0x49">SFX #42 (Œø‰Ê‰¹#42)</title>
-			<title code="0x4a">SFX #43 (Œø‰Ê‰¹#43)</title>
-			<title code="0x4b">SFX #44 (Œø‰Ê‰¹#44)</title>
-			<title code="0x4c">SFX #45 (Œø‰Ê‰¹#45)</title>
-			<title code="0x4d">SFX #46 (Œø‰Ê‰¹#46)</title>
-			<title code="0x4e">SFX #47 (Œø‰Ê‰¹#47)</title>
-			<title code="0x4f">SFX #48 (Œø‰Ê‰¹#48)</title>
+			<title code="0x14">June (ã‚¸ãƒ¥ãƒ¼ãƒ³)</title>
+			<title code="0x15">Broker (ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼)</title>
+			<title code="0x16">The Planet of Old New York (æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯)</title>
+			<title code="0x17">Barnard's Star (ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»)</title>
+			<title code="0x18">Mars (ç«æ˜Ÿ)</title>
+			<title code="0x19">To a Far Away Galaxy (é¥ã‹ãªå®‡å®™ã¸)</title>
+			<title code="0x1a">Sirius System (ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»)</title>
+			<title code="0x1b">Great Battleship VOID (VOID å¤§æˆ¦è‰¦)</title>
+			<title code="0x1c">G Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1d">Hyperspace (ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x20">SFX #01 (åŠ¹æœéŸ³#01)</title>
+			<title code="0x21">SFX #02 (åŠ¹æœéŸ³#02)</title>
+			<title code="0x22">SFX #03 (åŠ¹æœéŸ³#03)</title>
+			<title code="0x23">SFX #04 (åŠ¹æœéŸ³#04)</title>
+			<title code="0x24">SFX #05 (åŠ¹æœéŸ³#05)</title>
+			<title code="0x25">SFX #06 (åŠ¹æœéŸ³#06)</title>
+			<title code="0x26">SFX #07 (åŠ¹æœéŸ³#07)</title>
+			<title code="0x27">SFX #08 (åŠ¹æœéŸ³#08)</title>
+			<title code="0x28">SFX #09 (åŠ¹æœéŸ³#09)</title>
+			<title code="0x29">SFX #10 (åŠ¹æœéŸ³#10)</title>
+			<title code="0x2a">SFX #11 (åŠ¹æœéŸ³#11)</title>
+			<title code="0x2b">SFX #12 (åŠ¹æœéŸ³#12)</title>
+			<title code="0x2c">SFX #13 (åŠ¹æœéŸ³#13)</title>
+			<title code="0x2d">SFX #14 (åŠ¹æœéŸ³#14)</title>
+			<title code="0x2e">SFX #15 (åŠ¹æœéŸ³#15)</title>
+			<title code="0x2f">SFX #16 (åŠ¹æœéŸ³#16)</title>
+			<title code="0x30">SFX #17 (åŠ¹æœéŸ³#17)</title>
+			<title code="0x31">SFX #18 (åŠ¹æœéŸ³#18)</title>
+			<title code="0x32">SFX #19 (åŠ¹æœéŸ³#19)</title>
+			<title code="0x33">SFX #20 (åŠ¹æœéŸ³#20)</title>
+			<title code="0x34">SFX #21 (åŠ¹æœéŸ³#21)</title>
+			<title code="0x35">SFX #22 (åŠ¹æœéŸ³#22)</title>
+			<title code="0x36">SFX #23 (åŠ¹æœéŸ³#23)</title>
+			<title code="0x37">SFX #24 (åŠ¹æœéŸ³#24)</title>
+			<title code="0x38">SFX #25 (åŠ¹æœéŸ³#25)</title>
+			<title code="0x39">SFX #26 (åŠ¹æœéŸ³#26)</title>
+			<title code="0x3a">SFX #27 (åŠ¹æœéŸ³#27)</title>
+			<title code="0x3b">SFX #28 (åŠ¹æœéŸ³#28)</title>
+			<title code="0x3c">SFX #29 (åŠ¹æœéŸ³#29)</title>
+			<title code="0x3d">SFX #30 (åŠ¹æœéŸ³#30)</title>
+			<title code="0x3e">SFX #31 (åŠ¹æœéŸ³#31)</title>
+			<title code="0x3f">SFX #32 (åŠ¹æœéŸ³#32)</title>
+			<title code="0x40">SFX #33 (åŠ¹æœéŸ³#33)</title>
+			<title code="0x41">SFX #34 (åŠ¹æœéŸ³#34)</title>
+			<title code="0x42">SFX #35 (åŠ¹æœéŸ³#35)</title>
+			<title code="0x43">SFX #36 (åŠ¹æœéŸ³#36)</title>
+			<title code="0x44">SFX #37 (åŠ¹æœéŸ³#37)</title>
+			<title code="0x45">SFX #38 (åŠ¹æœéŸ³#38)</title>
+			<title code="0x46">SFX #39 (åŠ¹æœéŸ³#39)</title>
+			<title code="0x47">SFX #40 (åŠ¹æœéŸ³#40)</title>
+			<title code="0x48">SFX #41 (åŠ¹æœéŸ³#41)</title>
+			<title code="0x49">SFX #42 (åŠ¹æœéŸ³#42)</title>
+			<title code="0x4a">SFX #43 (åŠ¹æœéŸ³#43)</title>
+			<title code="0x4b">SFX #44 (åŠ¹æœéŸ³#44)</title>
+			<title code="0x4c">SFX #45 (åŠ¹æœéŸ³#45)</title>
+			<title code="0x4d">SFX #46 (åŠ¹æœéŸ³#46)</title>
+			<title code="0x4e">SFX #47 (åŠ¹æœéŸ³#47)</title>
+			<title code="0x4f">SFX #48 (åŠ¹æœéŸ³#48)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[) (YM2151+MSM6258)</name>
+		<name>[X68000] Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="scsnd">
@@ -1509,40 +1509,40 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">Stop the Music</title>
-			<title code="0x01">Space Flight (ƒXƒy[ƒXƒtƒ‰ƒCƒg)</title>
-			<title code="0x02">Space Fight (ƒXƒy[ƒXƒtƒ@ƒCƒg)</title>
-			<title code="0x03">Desert Zone (ƒfƒU[ƒgƒ][ƒ“)</title>
-			<title code="0x04">Star Cruiser (ƒXƒ^[ƒNƒ‹[ƒU[)</title>
-			<title code="0x05">Red Zone (ƒŒƒbƒhƒ][ƒ“)</title>
-			<title code="0x06">Space Boat (ƒXƒy[ƒXƒ{[ƒg)</title>
-			<title code="0x07">Shop (ƒVƒ‡ƒbƒv)</title>
-			<title code="0x08">Battle Space (ƒoƒgƒ‹ƒXƒy[ƒX)</title>
-			<title code="0x09">Daisy (ƒfƒB[ƒW[)</title>
-			<title code="0x0A">Saturn (“y¯)</title>
-			<title code="0x0B">The Great Red Spot (‘åÔ”Á)</title>
-			<title code="0x0C">Big Boss (ƒrƒbƒOƒ{ƒX)</title>
-			<title code="0x0D">Mini Boss (ƒ~ƒbƒhƒ{ƒX)</title>
-			<title code="0x0E">Inside the Base (Šî’n“à•”)</title>
-			<title code="0x0F">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x10">Bio Plant (¶‘Ìƒvƒ‰ƒ“ƒg)</title>
-			<title code="0x11">Warp Out (ƒ[ƒvƒAƒEƒg)</title>
-			<title code="0x12">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x13">Rigil Kent System (ƒŠƒWƒ‹ƒPƒ“ƒg¯Œn)</title>
-			<title code="0x14">Welcome to the World of Star Cruiser (‚æ‚¤‚±‚»ƒXƒ^[ƒNƒ‹[ƒU[‚Ì¢ŠE‚Ö)</title>
-			<title code="0x15">June (ƒWƒ…[ƒ“)</title>
-			<title code="0x16">Broker (ƒuƒ[ƒJ[)</title>
-			<title code="0x17">The Planet of Old New York (˜f¯ƒI[ƒ‹ƒhƒjƒ…[ƒˆ[ƒN)</title>
-			<title code="0x18">Barnard's Star (ƒo[ƒi[ƒh¯Œn)</title>
-			<title code="0x19">Mars (‰Î¯)</title>
-			<title code="0x1A">To a Far Away Galaxy (—y‚©‚È‰F’ˆ‚Ö)</title>
-			<title code="0x1B">Sirius System (ƒVƒŠƒEƒX¯Œn)</title>
-			<title code="0x1C">Great Battleship VOID (VOID ‘åíŠÍ)</title>
-			<title code="0x1D">G Catapult (G-ƒJƒ^ƒpƒ‹ƒg)</title>
-			<title code="0x1E">Hyperspace (ƒnƒCƒp[ƒXƒy[ƒX)</title>
+			<title code="0x01">Space Flight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ãƒ©ã‚¤ãƒˆ)</title>
+			<title code="0x02">Space Fight (ã‚¹ãƒšãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x03">Desert Zone (ãƒ‡ã‚¶ãƒ¼ãƒˆã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x04">Star Cruiser (ã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼)</title>
+			<title code="0x05">Red Zone (ãƒ¬ãƒƒãƒ‰ã‚¾ãƒ¼ãƒ³)</title>
+			<title code="0x06">Space Boat (ã‚¹ãƒšãƒ¼ã‚¹ãƒœãƒ¼ãƒˆ)</title>
+			<title code="0x07">Shop (ã‚·ãƒ§ãƒƒãƒ—)</title>
+			<title code="0x08">Battle Space (ãƒãƒˆãƒ«ã‚¹ãƒšãƒ¼ã‚¹)</title>
+			<title code="0x09">Daisy (ãƒ‡ã‚£ãƒ¼ã‚¸ãƒ¼)</title>
+			<title code="0x0A">Saturn (åœŸæ˜Ÿ)</title>
+			<title code="0x0B">The Great Red Spot (å¤§èµ¤æ–‘)</title>
+			<title code="0x0C">Big Boss (ãƒ“ãƒƒã‚°ãƒœã‚¹)</title>
+			<title code="0x0D">Mini Boss (ãƒŸãƒƒãƒ‰ãƒœã‚¹)</title>
+			<title code="0x0E">Inside the Base (åŸºåœ°å†…éƒ¨)</title>
+			<title code="0x0F">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x10">Bio Plant (ç”Ÿä½“ãƒ—ãƒ©ãƒ³ãƒˆ)</title>
+			<title code="0x11">Warp Out (ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x12">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x13">Rigil Kent System (ãƒªã‚¸ãƒ«ï¼ã‚±ãƒ³ãƒˆæ˜Ÿç³»)</title>
+			<title code="0x14">Welcome to the World of Star Cruiser (ã‚ˆã†ã“ãã‚¹ã‚¿ãƒ¼ã‚¯ãƒ«ãƒ¼ã‚¶ãƒ¼ã®ä¸–ç•Œã¸)</title>
+			<title code="0x15">June (ã‚¸ãƒ¥ãƒ¼ãƒ³)</title>
+			<title code="0x16">Broker (ãƒ–ãƒ­ãƒ¼ã‚«ãƒ¼)</title>
+			<title code="0x17">The Planet of Old New York (æƒ‘æ˜Ÿã‚ªãƒ¼ãƒ«ãƒ‰ãƒ‹ãƒ¥ãƒ¼ãƒ¨ãƒ¼ã‚¯)</title>
+			<title code="0x18">Barnard's Star (ãƒãƒ¼ãƒŠãƒ¼ãƒ‰æ˜Ÿç³»)</title>
+			<title code="0x19">Mars (ç«æ˜Ÿ)</title>
+			<title code="0x1A">To a Far Away Galaxy (é¥ã‹ãªå®‡å®™ã¸)</title>
+			<title code="0x1B">Sirius System (ã‚·ãƒªã‚¦ã‚¹æ˜Ÿç³»)</title>
+			<title code="0x1C">Great Battleship VOID (VOID å¤§æˆ¦è‰¦)</title>
+			<title code="0x1D">G Catapult (G-ã‚«ã‚¿ãƒ‘ãƒ«ãƒˆ)</title>
+			<title code="0x1E">Hyperspace (ãƒã‚¤ãƒ‘ãƒ¼ã‚¹ãƒšãƒ¼ã‚¹)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Spindizzy II (ƒXƒsƒ“ƒfƒBƒW[2) (YM2151+MSM6258)</name>
+		<name>[X68000] Spindizzy II (ã‚¹ãƒ”ãƒ³ãƒ‡ã‚£ã‚¸ãƒ¼2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="sd2snd">
@@ -1728,7 +1728,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Knight Arms: The Hyblid Framer (ƒiƒCƒgƒA[ƒ€ƒY) (YM2151+MSM6258)</name>
+		<name>[X68000] Knight Arms: The Hyblid Framer (ãƒŠã‚¤ãƒˆã‚¢ãƒ¼ãƒ ã‚º) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Arsys Software</driveralias>
 		<romlist archive="kasnd">
@@ -1757,7 +1757,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Reviver (ƒŠƒoƒCƒo[) (AY-3-8910)</name>
+		<name>[MSX2] Reviver (ãƒªãƒã‚¤ãƒãƒ¼) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Arsys Software</driveralias>
 		<options>
@@ -1792,27 +1792,27 @@
 			<rom type="bgm" offset="0x14">MUS14.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">ğê1</title>
-			<title code="0x0b">ğê2</title>
-			<title code="0x0c">“´ŒA</title>
-			<title code="0x0d">é</title>
-			<title code="0x0e">“VŠEEƒnƒŠƒCƒU[ƒh</title>
-			<title code="0x0f">×_ŠEEƒUƒŠƒIƒU[ƒh</title>
-			<title code="0x10">–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh</title>
-			<title code="0x11">ƒTƒ_ƒŠƒA[ƒ““oê</title>
-			<title code="0x12">í“¬</title>
-			<title code="0x13">–‚•¨‚Æ‚Ì‘˜‹ö</title>
-			<title code="0x14">d—vƒAƒCƒeƒ€“üè ‘¼</title>
-			<title code="0x00">ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh</title>
-			<title code="0x01">Œ•mƒR[ƒg‚Ì€</title>
-			<title code="0x02">ƒgƒ‰ƒbƒv</title>
-			<title code="0x03">ƒ‰ƒrƒXƒ^[ƒN</title>
-			<title code="0x04">ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢</title>
-			<title code="0x05">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x06">ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú</title>
-			<title code="0x07">—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢</title>
-			<title code="0x08">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x09">€</title>
+			<title code="0x0a">é…’å ´1</title>
+			<title code="0x0b">é…’å ´2</title>
+			<title code="0x0c">æ´çªŸ</title>
+			<title code="0x0d">åŸ</title>
+			<title code="0x0e">å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x0f">é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x10">é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰</title>
+			<title code="0x11">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´</title>
+			<title code="0x12">æˆ¦é—˜</title>
+			<title code="0x13">é­”ç‰©ã¨ã®é­é‡</title>
+			<title code="0x14">é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–</title>
+			<title code="0x00">ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰</title>
+			<title code="0x01">å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»</title>
+			<title code="0x02">ãƒˆãƒ©ãƒƒãƒ—</title>
+			<title code="0x03">ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯</title>
+			<title code="0x04">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„</title>
+			<title code="0x05">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x06">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ</title>
+			<title code="0x07">å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„</title>
+			<title code="0x08">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x09">æ­»</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1856,27 +1856,27 @@
 		</romlist>
 		<titlelist>
 			<title code="0x0a">ARSYS LOGO</title>
-			<title code="0x0c">ğê1</title>
-			<title code="0x0d">ğê2</title>
-			<title code="0x0e">“´ŒA</title>
-			<title code="0x0f">é</title>
-			<title code="0x10">“VŠEEƒnƒŠƒCƒU[ƒh</title>
-			<title code="0x11">×_ŠEEƒUƒŠƒIƒU[ƒh</title>
-			<title code="0x12">–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh</title>
-			<title code="0x13">ƒTƒ_ƒŠƒA[ƒ““oê</title>
-			<title code="0x14">í“¬</title>
-			<title code="0x15">–‚•¨‚Æ‚Ì‘˜‹ö</title>
-			<title code="0x16">d—vƒAƒCƒeƒ€“üè ‘¼</title>
-			<title code="0x00">ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh</title>
-			<title code="0x01">Œ•mƒR[ƒg‚Ì€</title>
-			<title code="0x02">ƒgƒ‰ƒbƒv</title>
-			<title code="0x03">ƒ‰ƒrƒXƒ^[ƒN</title>
-			<title code="0x04">ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢</title>
-			<title code="0x05">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x06">ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú</title>
-			<title code="0x07">—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢</title>
-			<title code="0x08">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x09">€</title>
+			<title code="0x0c">é…’å ´1</title>
+			<title code="0x0d">é…’å ´2</title>
+			<title code="0x0e">æ´çªŸ</title>
+			<title code="0x0f">åŸ</title>
+			<title code="0x10">å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x11">é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x12">é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰</title>
+			<title code="0x13">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´</title>
+			<title code="0x14">æˆ¦é—˜</title>
+			<title code="0x15">é­”ç‰©ã¨ã®é­é‡</title>
+			<title code="0x16">é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–</title>
+			<title code="0x00">ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰</title>
+			<title code="0x01">å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»</title>
+			<title code="0x02">ãƒˆãƒ©ãƒƒãƒ—</title>
+			<title code="0x03">ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯</title>
+			<title code="0x04">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„</title>
+			<title code="0x05">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x06">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ</title>
+			<title code="0x07">å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„</title>
+			<title code="0x08">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x09">æ­»</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1915,27 +1915,27 @@
 			<rom type="bgm" offset="0x14">PSG20.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">ğê1</title>
-			<title code="0x0b">ğê2</title>
-			<title code="0x0c">“´ŒA</title>
-			<title code="0x0d">é</title>
-			<title code="0x0e">“VŠEEƒnƒŠƒCƒU[ƒh</title>
-			<title code="0x0f">×_ŠEEƒUƒŠƒIƒU[ƒh</title>
-			<title code="0x10">–‚“±tƒ^ƒ“ƒ_ƒ‰ƒCƒh</title>
-			<title code="0x11">ƒTƒ_ƒŠƒA[ƒ““oê</title>
-			<title code="0x12">í“¬</title>
-			<title code="0x13">–‚•¨‚Æ‚Ì‘˜‹ö</title>
-			<title code="0x14">d—vƒAƒCƒeƒ€“üè ‘¼</title>
-			<title code="0x00">ƒNƒŠƒXƒ^ƒ‹ƒƒbƒh</title>
-			<title code="0x01">Œ•mƒR[ƒg‚Ì€</title>
-			<title code="0x02">ƒgƒ‰ƒbƒv</title>
-			<title code="0x03">ƒ‰ƒrƒXƒ^[ƒN</title>
-			<title code="0x04">ƒTƒ_ƒŠƒA[ƒ“‚Æ‚Ìí‚¢</title>
-			<title code="0x05">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x06">ƒTƒ_ƒŠƒA[ƒ“‚ÌÅŠú</title>
-			<title code="0x07">—Œ•mƒAƒ‹ƒ}‚Æ‚Ìo‰ï‚¢</title>
-			<title code="0x08">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x09">€</title>
+			<title code="0x0a">é…’å ´1</title>
+			<title code="0x0b">é…’å ´2</title>
+			<title code="0x0c">æ´çªŸ</title>
+			<title code="0x0d">åŸ</title>
+			<title code="0x0e">å¤©ç•Œãƒ»ãƒãƒªã‚¤ã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x0f">é‚ªç¥ç•Œãƒ»ã‚¶ãƒªã‚ªã‚¶ãƒ¼ãƒ‰</title>
+			<title code="0x10">é­”å°å¸«ã‚¿ãƒ³ãƒ€ãƒ©ã‚¤ãƒ‰</title>
+			<title code="0x11">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ç™»å ´</title>
+			<title code="0x12">æˆ¦é—˜</title>
+			<title code="0x13">é­”ç‰©ã¨ã®é­é‡</title>
+			<title code="0x14">é‡è¦ã‚¢ã‚¤ãƒ†ãƒ å…¥æ‰‹ ä»–</title>
+			<title code="0x00">ã‚¯ãƒªã‚¹ã‚¿ãƒ«ãƒ­ãƒƒãƒ‰</title>
+			<title code="0x01">å‰£å£«ã‚³ãƒ¼ãƒˆã®æ­»</title>
+			<title code="0x02">ãƒˆãƒ©ãƒƒãƒ—</title>
+			<title code="0x03">ãƒ©ãƒ“ã‚¹ã‚¿ãƒ¼ã‚¯</title>
+			<title code="0x04">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã¨ã®æˆ¦ã„</title>
+			<title code="0x05">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x06">ã‚µãƒ€ãƒªã‚¢ãƒ¼ãƒ³ã®æœ€æœŸ</title>
+			<title code="0x07">å¥³å‰£å£«ã‚¢ãƒ«ãƒã¨ã®å‡ºä¼šã„</title>
+			<title code="0x08">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x09">æ­»</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1957,12 +1957,12 @@
 			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0001">Šî’n</title>
-			<title code="0x0002">’nã</title>
-		<!--	<title code="0x0100">í“¬</title> -->
-			<title code="0x0102">í“¬</title>
-			<title code="0x0000">3D–À˜H(Œš•¨“à)</title>
-			<title code="0xff03">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x0001">åŸºåœ°</title>
+			<title code="0x0002">åœ°ä¸Š</title>
+		<!--	<title code="0x0100">æˆ¦é—˜</title> -->
+			<title code="0x0102">æˆ¦é—˜</title>
+			<title code="0x0000">3Dè¿·è·¯(å»ºç‰©å†…)</title>
+			<title code="0xff03">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
@@ -1984,12 +1984,12 @@
 			<rom type="bgm" offset="0x03">MUS03.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0001">Šî’n</title>
-			<title code="0x0002">’nã</title>
-		<!--	<title code="0x0100">í“¬</title> -->
-			<title code="0x0102">í“¬</title>
-			<title code="0x0000">3D–À˜H(Œš•¨“à)</title>
-			<title code="0xff03">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x0001">åŸºåœ°</title>
+			<title code="0x0002">åœ°ä¸Š</title>
+		<!--	<title code="0x0100">æˆ¦é—˜</title> -->
+			<title code="0x0102">æˆ¦é—˜</title>
+			<title code="0x0000">3Dè¿·è·¯(å»ºç‰©å†…)</title>
+			<title code="0xff03">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 </gamelist>

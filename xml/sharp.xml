@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -140,7 +140,7 @@
 			<rom type="code" offset="0x24000">X68K.OPM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x02">X68000 Theme (X68000‚Ìƒe[ƒ})</title>
+			<title code="0x02">X68000 Theme (X68000ã®ãƒ†ãƒ¼ãƒ)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -156,23 +156,23 @@
 			<rom type="code" offset="0x537cc">MUSIC.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x08">Skyscraper Theme (–€“V˜O‚Ìƒe[ƒ})</title>
+			<title code="0x08">Skyscraper Theme (æ‘©å¤©æ¥¼ã®ãƒ†ãƒ¼ãƒ)</title>
 			<title code="0x0a">Stage Clear</title>
 			<title code="0x06">Game Over</title>
-			<title code="0x02">Bonanza Brother's Duty (ƒ{ƒiƒ“ƒUŒZ’ím‹`)</title>
-			<title code="0x04">Bonanza Elegy (ƒ{ƒiƒ“ƒUˆ£‰Ì)</title>
-			<title code="0x0c">Bonanza Suspense Theater (ƒ{ƒiƒ“ƒUEƒTƒXƒyƒ“ƒXŒ€ê)</title>
-			<title code="0x0e">Bonanza Go-Go (ƒ{ƒiƒ“ƒUEƒS[ƒS[)</title>
+			<title code="0x02">Bonanza Brother's Duty (ãƒœãƒŠãƒ³ã‚¶å…„å¼Ÿä»ç¾©)</title>
+			<title code="0x04">Bonanza Elegy (ãƒœãƒŠãƒ³ã‚¶å“€æ­Œ)</title>
+			<title code="0x0c">Bonanza Suspense Theater (ãƒœãƒŠãƒ³ã‚¶ãƒ»ã‚µã‚¹ãƒšãƒ³ã‚¹åŠ‡å ´)</title>
+			<title code="0x0e">Bonanza Go-Go (ãƒœãƒŠãƒ³ã‚¶ãƒ»ã‚´ãƒ¼ã‚´ãƒ¼)</title>
 			<title code="0x14">Bonus Title</title>
-			<title code="0x10">Thrilling Bonanza (ƒXƒŠƒ‹‚Èƒ{ƒiƒ“ƒU)</title>
+			<title code="0x10">Thrilling Bonanza (ã‚¹ãƒªãƒ«ãªãƒœãƒŠãƒ³ã‚¶)</title>
 			<title code="0x16">Perfect</title>
 			<title code="0x18">Miss</title>
-			<title code="0x12">Bonanza Serenade (ƒ{ƒiƒ“ƒUEƒZƒŒƒi[ƒf)</title>
+			<title code="0x12">Bonanza Serenade (ãƒœãƒŠãƒ³ã‚¶ãƒ»ã‚»ãƒ¬ãƒŠãƒ¼ãƒ‡)</title>
 			<range min="0x0102" max="0x0137" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Dash Yarou (ƒ_ƒbƒVƒ…–ì˜Y) (YM2151+MSM6258)</name>
+		<name>[X68000] Dash Yarou (ãƒ€ãƒƒã‚·ãƒ¥é‡éƒ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -198,15 +198,15 @@
 			<title code="0x10e">America Bye Bye</title>
 			<title code="0x10f">Congra</title>
 			<title code="0x111">Cut Off</title>
-			<title code="0x10b">‚â‚ç‚ê</title>
-			<title code="0x109">Not on CD 1 (CD–¢û˜^‹È)</title>
-			<title code="0x10c">Not on CD 2 (CD–¢û˜^‹È)</title>
-			<title code="0x110">Not on CD 3 (CD–¢û˜^‹È)</title>
+			<title code="0x10b">ã‚„ã‚‰ã‚Œ</title>
+			<title code="0x109">Not on CD 1 (CDæœªåéŒ²æ›²)</title>
+			<title code="0x10c">Not on CD 2 (CDæœªåéŒ²æ›²)</title>
+			<title code="0x110">Not on CD 3 (CDæœªåéŒ²æ›²)</title>
 			<range min="0x13" max="0x2e" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Chuuka Taisen (’†‰Ø‘åå) (YM2151+MSM6258)</name>
+		<name>[X68000] Chuuka Taisen (ä¸­è¯å¤§ä»™) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -223,23 +223,23 @@
 		</romlist>
 		<titlelist>
 			<title code="0x05">Loading</title>
-			<title code="0x01">Heaven (“VãŠE)</title>
-			<title code="0x02">ŒÜsR</title>
-			<title code="0x03">‰©‰Í</title>
-			<title code="0x04">–œ—¢’·ã</title>
-			<title code="0x06">–@pƒZƒŒƒNƒg</title>
-			<title code="0x07">Boss (ƒ{ƒX)</title>
+			<title code="0x01">Heaven (å¤©ä¸Šç•Œ)</title>
+			<title code="0x02">äº”è¡Œå±±</title>
+			<title code="0x03">é»„æ²³</title>
+			<title code="0x04">ä¸‡é‡Œé•·ä¸Š</title>
+			<title code="0x06">æ³•è¡“ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x07">Boss (ãƒœã‚¹)</title>
 			<title code="0x09">Game Over</title>
 			<title code="0x0a">Ending</title>
 			<title code="0x0b">Name Entry</title>
 			<title code="0x0d">1-Up</title>
-			<title code="0x08">Credit (–¢g—p)</title>
+			<title code="0x08">Credit (æœªä½¿ç”¨)</title>
 			<range min="0x0c" max="0x0c" extcode="1">SFX %02X</range>
 			<range min="0x0f" max="0x2f" extcode="1">SFX %02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Downtown Nekketsu Monogatari (ƒ_ƒEƒ“ƒ^ƒEƒ“”MŒŒ•¨Œê) (YM2151+MSM6258)</name>
+		<name>[X68000] Downtown Nekketsu Monogatari (ãƒ€ã‚¦ãƒ³ã‚¿ã‚¦ãƒ³ç†±è¡€ç‰©èª) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -256,24 +256,24 @@
 			<rom type="code" offset="0xe5dbb0">EFFECT2.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0e">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x03">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x02">Story (ƒXƒg[ƒŠ[)</title>
-			<title code="0x04">Downtown Nekketsu Monogatari Theme (ƒ_ƒEƒ“ƒ^ƒEƒ“”MŒŒ•¨Œê‚Ìƒe[ƒ})</title>
-			<title code="0x05">Œö‰€/‰ÍŒ´‚É‚Ä`‚Ğ‚Æ‚Æ‚«‚Ì‚â‚·‚ç‚¬`</title>
-			<title code="0x06">Mid-Boss Theme (’†ƒ{ƒX‚Ìƒe[ƒ})</title>
-			<title code="0x07">’·’J•”`ˆ¤‚ÌƒƒƒfƒB[`</title>
-			<title code="0x08">‘qŒÉ/Hê`¬—Ñ“oê`</title>
-			<title code="0x09">‚¨”ƒ‚¢•¨ƒ\ƒ“ƒO</title>
-			<title code="0x0a">‘åƒ{ƒX‚Ìƒe[ƒ}`ŒÜ‘ã/‹“c“oê`</title>
-			<title code="0x0b">—â•ôŠw‰€`‘ÎŒˆ!!`</title>
-			<title code="0x0c">ƒ_ƒuƒhƒ‰ŒZ’í‚Ìƒe[ƒ}`—³ˆêE—³“ñ“oê`</title>
-			<title code="0x0d">‘åŒˆ“¬`ÅŒã‚Ì“¬‚¢`</title>
-			<title code="0x0f">Victory (Unused) (Ÿ—˜(–¢g—p))</title>
-			<title code="0x10">Level Up (Unused) (ƒŒƒxƒ‹ƒAƒbƒv(–¢g—p))</title>
-			<title code="0x11">Defeat (Unused) (”s–k(–¢g—p))</title>
-			<title code="0x12">Ending Theme 1 (Unused) (ƒGƒ“ƒfƒBƒ“ƒOEƒe[ƒ}1(–¢g—p))</title>
-			<title code="0x13">Ending Theme 2 -Ocharake- (Unused) (ƒGƒ“ƒfƒBƒ“ƒOEƒe[ƒ}2`‚¨‚¿‚á‚ç‚¯`(–¢g—p))</title>
+			<title code="0x0e">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x03">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x02">Story (ã‚¹ãƒˆãƒ¼ãƒªãƒ¼)</title>
+			<title code="0x04">Downtown Nekketsu Monogatari Theme (ãƒ€ã‚¦ãƒ³ã‚¿ã‚¦ãƒ³ç†±è¡€ç‰©èªã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x05">å…¬åœ’/æ²³åŸã«ã¦ï½ã²ã¨ã¨ãã®ã‚„ã™ã‚‰ãï½</title>
+			<title code="0x06">Mid-Boss Theme (ä¸­ãƒœã‚¹ã®ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x07">é•·è°·éƒ¨ï½æ„›ã®ãƒ¡ãƒ­ãƒ‡ã‚£ãƒ¼ï½</title>
+			<title code="0x08">å€‰åº«/å·¥å ´ï½å°æ—ç™»å ´ï½</title>
+			<title code="0x09">ãŠè²·ã„ç‰©ã‚½ãƒ³ã‚°</title>
+			<title code="0x0a">å¤§ãƒœã‚¹ã®ãƒ†ãƒ¼ãƒï½äº”ä»£/è±ªç”°ç™»å ´ï½</title>
+			<title code="0x0b">å†·å³°å­¦åœ’ï½å¯¾æ±º!!ï½</title>
+			<title code="0x0c">ãƒ€ãƒ–ãƒ‰ãƒ©å…„å¼Ÿã®ãƒ†ãƒ¼ãƒï½ç«œä¸€ãƒ»ç«œäºŒç™»å ´ï½</title>
+			<title code="0x0d">å¤§æ±ºé—˜ï½æœ€å¾Œã®é—˜ã„ï½</title>
+			<title code="0x0f">Victory (Unused) (å‹åˆ©(æœªä½¿ç”¨))</title>
+			<title code="0x10">Level Up (Unused) (ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—(æœªä½¿ç”¨))</title>
+			<title code="0x11">Defeat (Unused) (æ•—åŒ—(æœªä½¿ç”¨))</title>
+			<title code="0x12">Ending Theme 1 (Unused) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãƒ»ãƒ†ãƒ¼ãƒ1(æœªä½¿ç”¨))</title>
+			<title code="0x13">Ending Theme 2 -Ocharake- (Unused) (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãƒ»ãƒ†ãƒ¼ãƒ2ï½ãŠã¡ã‚ƒã‚‰ã‘ï½(æœªä½¿ç”¨))</title>
 		</titlelist>
 	</game>
 	<game>
@@ -299,7 +299,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Nekketsu Koukou Dodgeball-bu Soccer-hen (”MŒŒ‚Zƒhƒbƒaƒ{[ƒ‹•” ƒTƒbƒJ[•Ò) (YM2151+MSM6258)</name>
+		<name>[X68000] Nekketsu Koukou Dodgeball-bu Soccer-hen (ç†±è¡€é«˜æ ¡ãƒ‰ãƒƒãƒ‚ãƒœãƒ¼ãƒ«éƒ¨ ã‚µãƒƒã‚«ãƒ¼ç·¨) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -314,38 +314,38 @@
 			<rom type="code" offset="0x058000">PCMDAT.SND</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x21">Technos Japan Logo (ƒeƒNƒmƒXƒWƒƒƒpƒ“ƒƒS)</title>
-			<title code="0x02">Intro (ƒCƒ“ƒgƒ)</title>
-			<title code="0x17">Intro 2 (ƒCƒ“ƒgƒ2)</title>
-			<title code="0x03">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x0b">‘Î—DG‰@•‘®‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x04">ƒ|ƒWƒVƒ‡ƒ“‘I‘ğ</title>
-			<title code="0x05">Round 1 (‘æ1‰ñí)</title>
-			<title code="0x18">Half-Time (ƒn[ƒtƒ^ƒCƒ€)</title>
-			<title code="0x1b">Clear (ƒNƒŠƒA)</title>
-			<title code="0x1d">Intermission (–‹ŠÔ)</title>
-			<title code="0x0c">‘Îµ•ŸŠw‰€‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x0d">‘Î€‹ğ–‚‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x1a">Defeat (”s–k)</title>
-			<title code="0x1c">Ä’§í</title>
-			<title code="0x0e">‘Îƒ}ƒ^ƒMŠw‰€‚Ìƒe[ƒ}</title>
-			<title code="0x0f">‘Î‹g–{H‹Æ‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x10">‘Î]ŒË‰Ø‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x06">Round 4 (‘æ4‰ñí)</title>
-			<title code="0x11">‘Îˆê–{’Ş…Y‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x12">‘Î‹°R¤‹Æ‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x13">‘ÎR–{‹»‹Æ‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x07">Round 7 (‘æ7‰ñí)</title>
-			<title code="0x14">‘Î–xXŠw‰€‚Ìƒe[ƒ}</title>
-			<title code="0x15">‘Î••”Šw‰€‚Ìƒe[ƒ}</title>
-			<title code="0x08">Round 10 (‘æ10‰ñí)</title>
-			<title code="0x16">‘Îl–’‰À‹Æ‚Z‚Ìƒe[ƒ}</title>
-			<title code="0x09">ŒˆŸí</title>
-			<title code="0x19">Half-Time (Final) (ƒn[ƒtƒ^ƒCƒ€(ŒˆŸí))</title>
-			<title code="0x1e">All Clear (Kiss) (ƒI[ƒ‹ƒNƒŠƒA(ƒLƒXƒV[ƒ“))</title>
-			<title code="0x20">Cast (ƒLƒƒƒXƒg)</title>
-			<title code="0x0a">Practice Match (—ûK‡)</title>
-			<title code="0x1f">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
+			<title code="0x21">Technos Japan Logo (ãƒ†ã‚¯ãƒã‚¹ã‚¸ãƒ£ãƒ‘ãƒ³ãƒ­ã‚´)</title>
+			<title code="0x02">Intro (ã‚¤ãƒ³ãƒˆãƒ­)</title>
+			<title code="0x17">Intro 2 (ã‚¤ãƒ³ãƒˆãƒ­2)</title>
+			<title code="0x03">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x0b">å¯¾å„ªç§€é™¢é™„å±é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x04">ãƒã‚¸ã‚·ãƒ§ãƒ³é¸æŠ</title>
+			<title code="0x05">Round 1 (ç¬¬1å›æˆ¦)</title>
+			<title code="0x18">Half-Time (ãƒãƒ¼ãƒ•ã‚¿ã‚¤ãƒ )</title>
+			<title code="0x1b">Clear (ã‚¯ãƒªã‚¢)</title>
+			<title code="0x1d">Intermission (å¹•é–“)</title>
+			<title code="0x0c">å¯¾ä¸ƒç¦å­¦åœ’é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x0d">å¯¾æ­»æ„šé­”é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x1a">Defeat (æ•—åŒ—)</title>
+			<title code="0x1c">å†æŒ‘æˆ¦</title>
+			<title code="0x0e">å¯¾ãƒã‚¿ã‚®å­¦åœ’ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x0f">å¯¾å‰æœ¬å·¥æ¥­é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x10">å¯¾æ±Ÿæˆ¸è¯é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x06">Round 4 (ç¬¬4å›æˆ¦)</title>
+			<title code="0x11">å¯¾ä¸€æœ¬é‡£æ°´ç”£é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x12">å¯¾æå±±å•†æ¥­é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x13">å¯¾å±±æœ¬èˆˆæ¥­é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x07">Round 7 (ç¬¬7å›æˆ¦)</title>
+			<title code="0x14">å¯¾å €ã€…å­¦åœ’ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x15">å¯¾æœéƒ¨å­¦åœ’ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x08">Round 10 (ç¬¬10å›æˆ¦)</title>
+			<title code="0x16">å¯¾å››æº€å¿ å®Ÿæ¥­é«˜æ ¡ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x09">æ±ºå‹æˆ¦</title>
+			<title code="0x19">Half-Time (Final) (ãƒãƒ¼ãƒ•ã‚¿ã‚¤ãƒ (æ±ºå‹æˆ¦))</title>
+			<title code="0x1e">All Clear (Kiss) (ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢(ã‚­ã‚¹ã‚·ãƒ¼ãƒ³))</title>
+			<title code="0x20">Cast (ã‚­ãƒ£ã‚¹ãƒˆ)</title>
+			<title code="0x0a">Practice Match (ç·´ç¿’è©¦åˆ)</title>
+			<title code="0x1f">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
 			<range min="0x22" max="0x24" extcode="1">BGM #%02X</range>
 		</titlelist>
 	</game>
@@ -413,39 +413,39 @@
 		<titlelist>
 			<title code="0x0001">Hit and Run</title>
 			<title code="0x0002">Run a Red Light</title>
-			<title code="0x0003">OENEDEO</title>
+			<title code="0x0003">Oãƒ»Nãƒ»Dãƒ»O</title>
 			<title code="0x0004">Sleeping The Pike Man</title>
 			<title code="0x0005">I Just Lose One's Senses</title>
 			<title code="0x0006">Time Saving</title>
 			<title code="0x0007">Accel #1</title>
 			<title code="0x0008">Game Over</title>
 			<!--
-			<title code="0x0101">Hit and Run (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0102">Run a Red Light (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0103">OENEDEO (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0104">Sleeping The Pike Man (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0105">I Just Lose One's Senses (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0106">Time Saving (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0107">Accel #1 (–¢g—p ‰¹Fˆá‚¢)</title>
-			<title code="0x0108">Game Over (–¢g—p ‰¹Fˆá‚¢)</title>
+			<title code="0x0101">Hit and Run (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0102">Run a Red Light (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0103">Oãƒ»Nãƒ»Dãƒ»O (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0104">Sleeping The Pike Man (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0105">I Just Lose One's Senses (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0106">Time Saving (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0107">Accel #1 (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
+			<title code="0x0108">Game Over (æœªä½¿ç”¨ éŸ³è‰²é•ã„)</title>
 			-->
-			<title code="0x0209">Hit and Run (–¢g—p Stereo)</title>
-			<title code="0x020a">Run a Red Light (–¢g—p Stereo)</title>
-			<title code="0x020b">OENEDEO (–¢g—p Stereo)</title>
-			<title code="0x020c">Sleeping The Pike Man (–¢g—p Stereo)</title>
-			<title code="0x020d">I Just Lose One's Senses (–¢g—p Stereo)</title>
-			<title code="0x020e">Time Saving (–¢g—p Stereo)</title>
-			<title code="0x020f">Accel #1 (–¢g—p Stereo)</title>
-			<title code="0x0210">Game Over (–¢g—p Stereo)</title>
+			<title code="0x0209">Hit and Run (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020a">Run a Red Light (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020b">Oãƒ»Nãƒ»Dãƒ»O (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020c">Sleeping The Pike Man (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020d">I Just Lose One's Senses (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020e">Time Saving (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x020f">Accel #1 (æœªä½¿ç”¨ Stereo)</title>
+			<title code="0x0210">Game Over (æœªä½¿ç”¨ Stereo)</title>
 			<!--
-			<title code="0x0309">Hit and Run (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030a">Run a Red Light (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030b">OENEDEO (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030c">Sleeping The Pike Man (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030d">I Just Lose One's Senses (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030e">Time Saving (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x030f">Accel #1 (–¢g—p Stereo‰¹Fˆá‚¢)</title>
-			<title code="0x0310">Game Over (–¢g—p Stereo‰¹Fˆá‚¢)</title>
+			<title code="0x0309">Hit and Run (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030a">Run a Red Light (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030b">Oãƒ»Nãƒ»Dãƒ»O (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030c">Sleeping The Pike Man (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030d">I Just Lose One's Senses (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030e">Time Saving (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x030f">Accel #1 (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
+			<title code="0x0310">Game Over (æœªä½¿ç”¨ StereoéŸ³è‰²é•ã„)</title>
 			-->
 		</titlelist>
 	</game>
@@ -480,8 +480,8 @@
 			<title code="0x03">Clear</title>
 			<title code="0x0a">Game Over</title>
 			<title code="0x08">Key Assign</title>
-			<title code="0x05">Ranking (Unused) (Ranking (–¢g—p))</title>
-			<title code="0x0b">Credit (Unused) (Credit (–¢g—p))</title>
+			<title code="0x05">Ranking (Unused) (Ranking (æœªä½¿ç”¨))</title>
+			<title code="0x0b">Credit (Unused) (Credit (æœªä½¿ç”¨))</title>
 			<range min="0x41" max="0x48" extcode="1">SFX #%02X</range>
 			<range min="0x150" max="0x162" extcode="1">SFX #%02X</range>
 			<range min="0x120" max="0x13c" extcode="1">Voice #%02X</range>
@@ -489,7 +489,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Salamander (¹—…™ÖÖ) (YM2151+MSM6258)</name>
+		<name>[X68000] Salamander (æ²™ç¾…æ›¼è›‡) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -520,30 +520,30 @@
 			<title code="0x0d">Aircraft Carrier</title>
 			<title code="0x18">Crystal Forever</title>
 			<title code="0x08">Peace Again</title>
-			<title code="0x02">Unused BGM #02 (–¢g—p‹È)</title>
-			<title code="0x05">Unused BGM #05 (–¢g—p‹È)</title>
-			<title code="0x06">Unused BGM #06 (–¢g—p‹È)</title>
-			<title code="0x09">Unused BGM #09 (–¢g—p‹È)</title>
-			<title code="0x0b">Unused BGM #0B (–¢g—p‹È)</title>
-			<title code="0x0c">Unused BGM #0C (–¢g—p‹È)</title>
-			<title code="0x0e">Unused BGM #0E (–¢g—p‹È)</title>
-			<title code="0x10">Unused BGM #10 (–¢g—p‹È)</title>
-			<title code="0x12">Unused BGM #12 (–¢g—p‹È)</title>
-			<title code="0x13">Unused BGM #13 (–¢g—p‹È)</title>
-			<title code="0x14">Unused BGM #14 (–¢g—p‹È)</title>
-			<title code="0x15">Unused BGM #15 (–¢g—p‹È)</title>
-			<title code="0x19">Unused BGM #19 (–¢g—p‹È)</title>
-			<title code="0x1a">Unused BGM #1A (–¢g—p‹È)</title>
-			<title code="0x1b">Unused BGM #1B (–¢g—p‹È)</title>
-			<title code="0x1c">Unused BGM #1C (–¢g—p‹È)</title>
-			<title code="0x1e">Unused BGM #1E (–¢g—p‹È)</title>
-			<title code="0x1f">Unused BGM #1F (–¢g—p‹È)</title>
+			<title code="0x02">Unused BGM #02 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x05">Unused BGM #05 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x06">Unused BGM #06 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x09">Unused BGM #09 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x0b">Unused BGM #0B (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x0c">Unused BGM #0C (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x0e">Unused BGM #0E (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x10">Unused BGM #10 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x12">Unused BGM #12 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x13">Unused BGM #13 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x14">Unused BGM #14 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x15">Unused BGM #15 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x19">Unused BGM #19 (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x1a">Unused BGM #1A (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x1b">Unused BGM #1B (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x1c">Unused BGM #1C (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x1e">Unused BGM #1E (æœªä½¿ç”¨æ›²)</title>
+			<title code="0x1f">Unused BGM #1F (æœªä½¿ç”¨æ›²)</title>
 			<range min="0x80" max="0x94" extcode="1">SFX #%02X</range>
 			<range min="0xa0" max="0xbe" extcode="1">SFX #%02X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Nekketsu Koukou Dodgeball-bu (”MŒŒ‚ZƒhƒbƒWƒ{[ƒ‹•”) (YM2151+MSM6258)</name>
+		<name>[X68000] Nekketsu Koukou Dodgeball-bu (ç†±è¡€é«˜æ ¡ãƒ‰ãƒƒã‚¸ãƒœãƒ¼ãƒ«éƒ¨) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Sharp</driveralias>
 		<options>
@@ -560,21 +560,21 @@
 			<rom type="code" offset="0x70000">ADPCM2.DAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x02">Opening Theme (ƒI[ƒvƒjƒ“ƒOEƒe[ƒ})</title>
-			<title code="0x03">u‚Ü‚Ä!‚±‚Ì‚â‚ë[!v</title>
-			<title code="0x04">Game Start (ƒQ[ƒ€ƒXƒ^[ƒg)</title>
-			<title code="0x05">“ú–{‘IèŒ `h“G‚è‚«‚Æ‚Ì‘ÎŒˆ</title>
-			<title code="0x0f">Ÿ—˜</title>
-			<title code="0x0b">¢ŠEio!!</title>
-			<title code="0x06">‘ÎƒCƒMƒŠƒXEƒ`[ƒ€‚Ìƒe[ƒ}</title>
-			<title code="0x07">‘ÎƒAƒCƒXƒ‰ƒ“ƒhEƒ`[ƒ€‚Ìƒe[ƒ}</title>
-			<title code="0x08">‘Î’†‘Eƒ`[ƒ€‚Ìƒe[ƒ}</title>
-			<title code="0x09">‘ÎƒAƒtƒŠƒJEƒ`[ƒ€‚Ìƒe[ƒ}</title>
-			<title code="0x0a">‘ÎƒAƒƒŠƒJEƒ`[ƒ€‚Ìƒe[ƒ}</title>
-			<title code="0x0c">•\²®</title>
-			<title code="0x0d">Game Over (ƒQ[ƒ€EƒI[ƒo[)</title>
-			<title code="0x0e">Name Entry (ƒl[ƒ€ƒGƒ“ƒgƒŠ[)</title>
+			<title code="0x01">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x02">Opening Theme (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ»ãƒ†ãƒ¼ãƒ)</title>
+			<title code="0x03">ã€Œã¾ã¦!ã“ã®ã‚„ã‚ãƒ¼!ã€</title>
+			<title code="0x04">Game Start (ã‚²ãƒ¼ãƒ ã‚¹ã‚¿ãƒ¼ãƒˆ)</title>
+			<title code="0x05">æ—¥æœ¬é¸æ‰‹æ¨©ï½å®¿æ•µã‚Šãã¨ã®å¯¾æ±º</title>
+			<title code="0x0f">å‹åˆ©</title>
+			<title code="0x0b">ä¸–ç•Œé€²å‡º!!</title>
+			<title code="0x06">å¯¾ã‚¤ã‚®ãƒªã‚¹ãƒ»ãƒãƒ¼ãƒ ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x07">å¯¾ã‚¢ã‚¤ã‚¹ãƒ©ãƒ³ãƒ‰ãƒ»ãƒãƒ¼ãƒ ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x08">å¯¾ä¸­å›½ãƒ»ãƒãƒ¼ãƒ ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x09">å¯¾ã‚¢ãƒ•ãƒªã‚«ãƒ»ãƒãƒ¼ãƒ ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x0a">å¯¾ã‚¢ãƒ¡ãƒªã‚«ãƒ»ãƒãƒ¼ãƒ ã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="0x0c">è¡¨å½°å¼</title>
+			<title code="0x0d">Game Over (ã‚²ãƒ¼ãƒ ãƒ»ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x0e">Name Entry (ãƒãƒ¼ãƒ ã‚¨ãƒ³ãƒˆãƒªãƒ¼)</title>
 			<range min="0x10" max="0x11" extcode="1">SFX #%02X</range>
 			<range min="0x80" max="0x95" extcode="1">Voice #%02X</range>
 		</titlelist>
@@ -703,7 +703,7 @@
 			<title code="116">Next Area (Story 2)</title>
 			<title code="117">Contact (Story 3)</title>
 			<title code="118">See you again (Name Entry)</title>
-			<title code="119">Boss 5 (No Intro) (Boss 5 (ƒCƒ“ƒgƒ–³‚µ))</title>
+			<title code="119">Boss 5 (No Intro) (Boss 5 (ã‚¤ãƒ³ãƒˆãƒ­ç„¡ã—))</title>
 			<range min="201" max="204" extcode="1">SFX %03d</range>
 			<range min="206" max="206" extcode="1">SFX %03d</range>
 			<range min="208" max="212" extcode="1">SFX %03d</range>

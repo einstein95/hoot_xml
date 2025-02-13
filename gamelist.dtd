@@ -21,11 +21,12 @@
 	<!ATTLIST rom type CDATA #REQUIRED
 				  offset CDATA #IMPLIED
 				  crc32 CDATA #IMPLIED>
-	<!ELEMENT titlelist (title|range)*>
+	<!ELEMENT titlelist (title)*>
 	<!ELEMENT title (#PCDATA)>
 	<!ATTLIST title code CDATA #REQUIRED
 					type CDATA #IMPLIED>
 	<!ELEMENT range (#PCDATA)>
 	<!ATTLIST range min CDATA #REQUIRED
 					max CDATA #REQUIRED
-					extcode CDATA #IMPLIED>
+					extcode CDATA #IMPLIED
+					start CDATA #IMPLIED>

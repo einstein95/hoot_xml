@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2007/08/10">
 	<!-- //Nidecom Carry -->
 	<game>
-		<name>[PC-8801] Victorious Nine (ƒrƒNƒgƒŠƒAƒXƒiƒCƒ“) (YM2203)</name>
+		<name>[PC-8801] Victorious Nine (ãƒ“ã‚¯ãƒˆãƒªã‚¢ã‚¹ãƒŠã‚¤ãƒ³) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Nidecom Carry</driveralias>
 		<options>
@@ -48,29 +48,29 @@
 			<rom type="code" offset="0x0100">PATCH</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x01000000">ƒ^ƒCƒgƒ‹(ƒ‹[ƒv)</title>
-			<title code="0x01000001">ƒCƒjƒ“ƒO•\</title>
-			<title code="0x01000003">ƒCƒjƒ“ƒO— </title>
-			<title code="0x00000006">ƒz[ƒ€ƒ‰ƒ“</title>
-			<title code="0x00000005">Ÿ‚¿</title>
-			<title code="0x00000002">•‰‚¯</title>
-			<title code="0x00000004">–¢Žg—p</title>
-<!--			<title code="0x000000ff">Œø‰Ê‰¹#00</title>
-			<title code="0x010000ff">Œø‰Ê‰¹#01</title>
-			<title code="0x020000ff">Œø‰Ê‰¹#02</title>
-			<title code="0x030000ff">Œø‰Ê‰¹#03</title>
-			<title code="0x040000ff">Œø‰Ê‰¹#04</title>
-			<title code="0x050000ff">Œø‰Ê‰¹#05</title>
-			<title code="0x060000ff">Œø‰Ê‰¹#06</title>
-			<title code="0x070000ff">Œø‰Ê‰¹#07</title>
-			<title code="0x080000ff">Œø‰Ê‰¹#08</title>
-			<title code="0x090000ff">Œø‰Ê‰¹#09</title>
-			<title code="0x0a0000ff">Œø‰Ê‰¹#0A</title>
-			<title code="0x0b0000ff">Œø‰Ê‰¹#0B</title>
-			<title code="0x0c0000ff">Œø‰Ê‰¹#0C</title>
-			<title code="0x0d0000ff">Œø‰Ê‰¹#0D</title>
-			<title code="0x0e0000ff">Œø‰Ê‰¹#0E</title> -->
+			<title code="0x00000000">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x01000000">ã‚¿ã‚¤ãƒˆãƒ«(ãƒ«ãƒ¼ãƒ—)</title>
+			<title code="0x01000001">ã‚¤ãƒ‹ãƒ³ã‚°è¡¨</title>
+			<title code="0x01000003">ã‚¤ãƒ‹ãƒ³ã‚°è£</title>
+			<title code="0x00000006">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³</title>
+			<title code="0x00000005">å‹ã¡</title>
+			<title code="0x00000002">è² ã‘</title>
+			<title code="0x00000004">æœªä½¿ç”¨</title>
+<!--			<title code="0x000000ff">åŠ¹æžœéŸ³#00</title>
+			<title code="0x010000ff">åŠ¹æžœéŸ³#01</title>
+			<title code="0x020000ff">åŠ¹æžœéŸ³#02</title>
+			<title code="0x030000ff">åŠ¹æžœéŸ³#03</title>
+			<title code="0x040000ff">åŠ¹æžœéŸ³#04</title>
+			<title code="0x050000ff">åŠ¹æžœéŸ³#05</title>
+			<title code="0x060000ff">åŠ¹æžœéŸ³#06</title>
+			<title code="0x070000ff">åŠ¹æžœéŸ³#07</title>
+			<title code="0x080000ff">åŠ¹æžœéŸ³#08</title>
+			<title code="0x090000ff">åŠ¹æžœéŸ³#09</title>
+			<title code="0x0a0000ff">åŠ¹æžœéŸ³#0A</title>
+			<title code="0x0b0000ff">åŠ¹æžœéŸ³#0B</title>
+			<title code="0x0c0000ff">åŠ¹æžœéŸ³#0C</title>
+			<title code="0x0d0000ff">åŠ¹æžœéŸ³#0D</title>
+			<title code="0x0e0000ff">åŠ¹æžœéŸ³#0E</title> -->
 		</titlelist>
 	</game>
 	<game>
@@ -89,19 +89,19 @@
 			<title code="0x00">Opening Title</title>
 			<title code="0x04">Game Start</title>
 			<title code="0x10">Ending (?)</title>
-			<title code="0x07">SFX #07 ƒ[ƒ^[‰¹(’x‚ß)</title>
-			<title code="0x08">SFX #08 ƒ[ƒ^[‰¹(‘¬‚ß)</title>
-			<title code="0x09">SFX #09 ”j‰ó‰¹</title>
-			<title code="0x0a">SFX #0A ƒ~ƒTƒCƒ‹”­ŽË</title>
-			<title code="0x0b">SFX #0B ‹@e</title>
-			<title code="0x0c">SFX #0C ƒTƒCƒŒƒ“</title>
+			<title code="0x07">SFX #07 ãƒ­ãƒ¼ã‚¿ãƒ¼éŸ³(é…ã‚)</title>
+			<title code="0x08">SFX #08 ãƒ­ãƒ¼ã‚¿ãƒ¼éŸ³(é€Ÿã‚)</title>
+			<title code="0x09">SFX #09 ç ´å£ŠéŸ³</title>
+			<title code="0x0a">SFX #0A ãƒŸã‚µã‚¤ãƒ«ç™ºå°„</title>
+			<title code="0x0b">SFX #0B æ©ŸéŠƒ</title>
+			<title code="0x0c">SFX #0C ã‚µã‚¤ãƒ¬ãƒ³</title>
 			<title code="0x0d">SFX #0D</title>
 			<title code="0x0e">SFX #0E</title>
 			<title code="0x0f">SFX #0F</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Legend of Kage (‰e‚Ì“`à) (YM2151)</name>
+		<name>[X1] Legend of Kage (å½±ã®ä¼èª¬) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Nidecom Carry</driveralias>
 		<options>
@@ -117,9 +117,9 @@
 			<rom type="bgm" offset="0x01">MO2.Z80</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">BGM1 (ƒƒCƒ“ƒe[ƒ})u‘–!v (No Intro)</title>
+			<title code="0x00000000">BGM1 (ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒž)ã€Œèµ°!ã€ (No Intro)</title>
 			<title code="0x01000000">Miss</title>
-			<title code="0x02000000">BGM1 (ƒƒCƒ“ƒe[ƒ})u‘–!v</title>
+			<title code="0x02000000">BGM1 (ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒž)ã€Œèµ°!ã€</title>
 			<title code="0x03000000">Extend</title>
 			<title code="0x04000000">SFX #01</title>
 			<title code="0x05000000">SFX #02</title>
@@ -129,9 +129,9 @@
 			<title code="0x09000000">SFX #06</title>
 			<title code="0x0a000000">SFX #07</title>
 			<title code="0x0b000000">SFX #08</title>
-			<title code="0x00000001">BGM2 (ƒXƒe[ƒWƒNƒŠƒA`)u“¬!v</title>
+			<title code="0x00000001">BGM2 (ã‚¹ãƒ†ãƒ¼ã‚¸ã‚¯ãƒªã‚¢ï½ž)ã€Œé—˜!ã€</title>
 			<title code="0x01000001">Miss</title>
-			<title code="0x02000001">–¶•P‚Ìƒe[ƒ}(ƒl[ƒ€ƒŒƒWƒXƒg)u‰ƒ!v</title>
+			<title code="0x02000001">éœ§å§«ã®ãƒ†ãƒ¼ãƒž(ãƒãƒ¼ãƒ ãƒ¬ã‚¸ã‚¹ãƒˆ)ã€Œå®´!ã€</title>
 			<title code="0x03000001">Extend</title>
 			<title code="0x04000001">SFX #09</title>
 			<title code="0x05000001">SFX #10</title>
@@ -140,7 +140,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Legend of Kage (‰e‚Ì“`à) (YM2149)</name>
+		<name>[X1] Legend of Kage (å½±ã®ä¼èª¬) (YM2149)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Nidecom Carry</driveralias>
 		<options>
@@ -156,9 +156,9 @@
 			<rom type="bgm" offset="0x01">MP2.Z80</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">BGM1 (ƒƒCƒ“ƒe[ƒ})u‘–!v (No Intro)</title>
+			<title code="0x00000000">BGM1 (ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒž)ã€Œèµ°!ã€ (No Intro)</title>
 			<title code="0x01000000">Miss</title>
-			<title code="0x02000000">BGM1 (ƒƒCƒ“ƒe[ƒ})u‘–!v</title>
+			<title code="0x02000000">BGM1 (ãƒ¡ã‚¤ãƒ³ãƒ†ãƒ¼ãƒž)ã€Œèµ°!ã€</title>
 			<title code="0x03000000">Extend</title>
 			<title code="0x04000000">SFX #01</title>
 			<title code="0x05000000">SFX #02</title>
@@ -168,9 +168,9 @@
 			<title code="0x09000000">SFX #06</title>
 			<title code="0x0a000000">SFX #07</title>
 			<title code="0x0b000000">SFX #08</title>
-			<title code="0x00000001">BGM2 (ƒXƒe[ƒWƒNƒŠƒA`)u“¬!v</title>
+			<title code="0x00000001">BGM2 (ã‚¹ãƒ†ãƒ¼ã‚¸ã‚¯ãƒªã‚¢ï½ž)ã€Œé—˜!ã€</title>
 			<title code="0x01000001">Miss</title>
-			<title code="0x02000001">–¶•P‚Ìƒe[ƒ}(ƒl[ƒ€ƒŒƒWƒXƒg)u‰ƒ!v</title>
+			<title code="0x02000001">éœ§å§«ã®ãƒ†ãƒ¼ãƒž(ãƒãƒ¼ãƒ ãƒ¬ã‚¸ã‚¹ãƒˆ)ã€Œå®´!ã€</title>
 			<title code="0x03000001">Extend</title>
 			<title code="0x04000001">SFX #09</title>
 			<title code="0x05000001">SFX #10</title>

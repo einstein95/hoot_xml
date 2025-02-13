@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //MAXIMA -->
 	<game>
-		<name>[PC-9801] Mercury: The Prime Master (�}�[�L�����[ �U �v���C���}�X�^�[) (YM2203)</name>
+		<name>[PC-9801] Mercury: The Prime Master (マーキュリー ザ プライムマスター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Maxima</driveralias>
 		<options>
@@ -73,29 +73,29 @@
 			<rom type="shell" offset="0">MRCRY_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">�^�C�g��</title>
-			<title code="0x11">�G���f�B���O1</title>
-			<title code="0x12">�G���f�B���O2</title>
-			<title code="0x13">�Q�[���I�[�o�[</title>
-			<title code="0x14">���a�ȋ󒆓s�s</title>
-			<title code="0x15">���a�Ȓ��A��</title>
-			<title code="0x16">�퓬��Ԃ̋󒆓s�s</title>
-			<title code="0x17">�퓬���̒��A��</title>
-			<title code="0x18">��</title>
-			<title code="0x19">���A</title>
-			<title code="0x1a">���s�s</title>
-			<title code="0x1b">�p��</title>
-			<title code="0x1c">�{�a</title>
-			<title code="0x1d">���K�[�g��s��</title>
-			<title code="0x1e">�D�ł̍q�C</title>
-			<title code="0x1f">�퓬</title>
-			<title code="0x20">�{�X�Ƃ̑���</title>
-			<title code="0x21">�{�X�Ƃ̐퓬</title>
-			<title code="0x22">�{�X�Ƃ̐퓬��</title>
-			<title code="0x23">�嗤BGM A</title>
-			<title code="0x24">�嗤BGM B</title>
-			<title code="0x25">�嗤BGM C</title>
-			<title code="0x26">�嗤BGM D</title>
+			<title code="0x10">タイトル</title>
+			<title code="0x11">エンディング1</title>
+			<title code="0x12">エンディング2</title>
+			<title code="0x13">ゲームオーバー</title>
+			<title code="0x14">平和な空中都市</title>
+			<title code="0x15">平和な町、村</title>
+			<title code="0x16">戦闘状態の空中都市</title>
+			<title code="0x17">戦闘時の町、村</title>
+			<title code="0x18">塔</title>
+			<title code="0x19">洞窟</title>
+			<title code="0x1a">魔都市</title>
+			<title code="0x1b">廃虚</title>
+			<title code="0x1c">宮殿</title>
+			<title code="0x1d">ラガート飛行中</title>
+			<title code="0x1e">船での航海</title>
+			<title code="0x1f">戦闘</title>
+			<title code="0x20">ボスとの遭遇</title>
+			<title code="0x21">ボスとの戦闘</title>
+			<title code="0x22">ボスとの戦闘後</title>
+			<title code="0x23">大陸BGM A</title>
+			<title code="0x24">大陸BGM B</title>
+			<title code="0x25">大陸BGM C</title>
+			<title code="0x26">大陸BGM D</title>
 			<title code="0x00FF">SFX #00</title>
 			<title code="0x01FF">SFX #01</title>
 			<title code="0x02FF">SFX #02</title>
@@ -130,7 +130,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Mercury: The Prime Master (�}�[�L�����[ �U �v���C���}�X�^�[) (YM2151+MSM6258)</name>
+		<name>[X68000] Mercury: The Prime Master (マーキュリー ザ プライムマスター) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Maxima</driveralias>
 		<options>
@@ -167,33 +167,33 @@
 		</romlist>
 		<titlelist>
 			<title code="0x01">MCM00.DAT</title>
-			<title code="0x02">�^�C�g��</title>
-			<title code="0x03">�G���f�B���O1</title>
-			<title code="0x04">�G���f�B���O2</title>
-			<title code="0x05">�Q�[���I�[�o�[</title>
-			<title code="0x06">���a�ȋ󒆓s�s</title>
-			<title code="0x07">���a�Ȓ��A��</title>
-			<title code="0x08">�퓬��Ԃ̋󒆓s�s</title>
-			<title code="0x09">�퓬���̒��A��</title>
-			<title code="0x0a">��</title>
-			<title code="0x0b">���A</title>
-			<title code="0x0c">���s�s</title>
-			<title code="0x0d">�p��</title>
-			<title code="0x0e">�{�a</title>
-			<title code="0x0f">���K�[�g��s��</title>
-			<title code="0x10">�D�ł̍q�C</title>
-			<title code="0x11">�퓬</title>
-			<title code="0x12">�{�X�Ƃ̑���</title>
-			<title code="0x13">�{�X�Ƃ̐퓬</title>
-			<title code="0x14">�{�X�Ƃ̐퓬��</title>
-			<title code="0x15">�嗤BGM A</title>
-			<title code="0x16">�嗤BGM B</title>
-			<title code="0x17">�嗤BGM C</title>
-			<title code="0x18">�嗤BGM D</title>
+			<title code="0x02">タイトル</title>
+			<title code="0x03">エンディング1</title>
+			<title code="0x04">エンディング2</title>
+			<title code="0x05">ゲームオーバー</title>
+			<title code="0x06">平和な空中都市</title>
+			<title code="0x07">平和な町、村</title>
+			<title code="0x08">戦闘状態の空中都市</title>
+			<title code="0x09">戦闘時の町、村</title>
+			<title code="0x0a">塔</title>
+			<title code="0x0b">洞窟</title>
+			<title code="0x0c">魔都市</title>
+			<title code="0x0d">廃虚</title>
+			<title code="0x0e">宮殿</title>
+			<title code="0x0f">ラガート飛行中</title>
+			<title code="0x10">船での航海</title>
+			<title code="0x11">戦闘</title>
+			<title code="0x12">ボスとの遭遇</title>
+			<title code="0x13">ボスとの戦闘</title>
+			<title code="0x14">ボスとの戦闘後</title>
+			<title code="0x15">大陸BGM A</title>
+			<title code="0x16">大陸BGM B</title>
+			<title code="0x17">大陸BGM C</title>
+			<title code="0x18">大陸BGM D</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Legend of Shalice (���W�F���h �I�u �V�����X) (YM2203)</name>
+		<name>[PC-9801] Legend of Shalice (レジェンド オブ シャリス) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Maxima</driveralias>
 		<options>
@@ -344,7 +344,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Zark Legend (�U�[�N���W�F���h �X�y�V���� ~ Zark Legend Special) (YM2151+MSM6258)</name>
+		<name>[X68000] Zark Legend (ザークレジェンド スペシャル ~ Zark Legend Special) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Maxima</driveralias>
 		<romlist archive="zarklgds68snd">

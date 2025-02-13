@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl" xml:lang="ja">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
 <xsl:template match="/">
 	<html lang="ja">
 	<head>
-		<title>hoot ドライバリスト</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"/>
+		<title>hoot 繝峨Λ繧､繝舌Μ繧ｹ繝�</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="hoot.css"/>
 	</head>
 	<body>
-		<h1>hoot ドライバリスト</h1>
+		<h1>hoot 繝峨Λ繧､繝舌Μ繧ｹ繝�</h1>
 		<hr/>
 		<xsl:apply-templates/>
 	</body>

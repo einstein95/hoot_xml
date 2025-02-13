@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //tecmo -->
 	<game>
-		<name>[MSX] Star Force (ƒXƒ^[ƒtƒH[ƒX) (AY-3-8910)</name>
+		<name>[MSX] Star Force (ã‚¹ã‚¿ãƒ¼ãƒ•ã‚©ãƒ¼ã‚¹) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Tecmo</driveralias>
 		<options>
@@ -62,7 +62,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Swimmer] Swimmer (ƒXƒCƒ}[) (AY-3-8910x2)</name>
+		<name>[Swimmer] Swimmer (ã‚¹ã‚¤ãƒãƒ¼) (AY-3-8910x2)</name>
 		<driver type="swimmer">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="swimmer">
@@ -87,7 +87,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Swimmer] Guzzler (ƒKƒYƒ‰[) (AY-3-8910x2)</name>
+		<name>[Swimmer] Guzzler (ã‚¬ã‚ºãƒ©ãƒ¼) (AY-3-8910x2)</name>
 		<driver type="swimmer">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<options>
@@ -110,8 +110,8 @@
 			<title code="0x2c">Drink 1</title>
 			<title code="0x2b">Drink 2</title>
 			<title code="0x2a">Drink 3</title>
-			<title code="0x2d">–³‰¹</title>
-			<title code="0x2e">G‰¹</title>
+			<title code="0x2d">ç„¡éŸ³</title>
+			<title code="0x2e">é›‘éŸ³</title>
 			<title code="0x2f">Atari</title>
 			<title code="0x30">Roulette</title>
 			<title code="0x31">Hazure</title>
@@ -123,7 +123,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Bomb Jack] Bomb Jack (ƒ{ƒ“ƒWƒƒƒbƒN) (AY-3-8910x3)</name>
+		<name>[Bomb Jack] Bomb Jack (ãƒœãƒ³ã‚¸ãƒ£ãƒƒã‚¯) (AY-3-8910x3)</name>
 		<driver type="bombjack">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="bombjack">
@@ -150,7 +150,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Senjyo] Senjyo (ƒZƒ“ƒWƒ‡ƒE) (SN76496x3)</name>
+		<name>[Senjyo] Senjyo (ã‚»ãƒ³ã‚¸ãƒ§ã‚¦) (SN76496x3)</name>
 		<driver type="starforce">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="senjyo">
@@ -169,7 +169,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Senjyo] Star Force (ƒXƒ^[ƒtƒH[ƒX) (SN76496x3)</name>
+		<name>[Senjyo] Star Force (ã‚¹ã‚¿ãƒ¼ãƒ•ã‚©ãƒ¼ã‚¹) (SN76496x3)</name>
 		<driver type="starforce">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="starforc">
@@ -196,7 +196,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Senjyo] Baluba-louk no Densetsu (ƒoƒ‹ƒoƒ‹[ƒN‚Ì“`à) (SN76496x3)</name>
+		<name>[Senjyo] Baluba-louk no Densetsu (ãƒãƒ«ãƒãƒ«ãƒ¼ã‚¯ã®ä¼èª¬) (SN76496x3)</name>
 		<driver type="starforce">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="baluba">
@@ -215,26 +215,26 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Pinball Action] Pinball Action (ƒsƒ“ƒ{[ƒ‹ƒAƒNƒVƒ‡ƒ“) (AY-3-8910x3)</name>
+		<name>[Pinball Action] Pinball Action (ãƒ”ãƒ³ãƒœãƒ¼ãƒ«ã‚¢ã‚¯ã‚·ãƒ§ãƒ³) (AY-3-8910x3)</name>
 		<driver type="pbaction">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="pbaction">
 			<rom type="code" offset="0x00000">a-e3.bin</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x32">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x02">Credit (ƒNƒŒƒWƒbƒg)</title>
-			<title code="0x0a">Main BGM (ƒƒCƒ“BGM)</title>
-			<title code="0x11">Slot Surface (ƒXƒƒbƒg–Ê)</title>
-			<title code="0x12">Card Surface (ƒJ[ƒh–Ê)</title>
-			<title code="0x24">Bowling Surface (ƒ{[ƒŠƒ“ƒO–Ê)</title>
-			<title code="0x19">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x1a">Name Entry (#1) (ƒl[ƒ€ƒGƒ“ƒgƒŠ[(1ˆÊ))</title>
-			<title code="0x1b">Name Entry (#2 or below) (ƒl[ƒ€ƒGƒ“ƒgƒŠ[(2ˆÊˆÈ‰º))</title>
+			<title code="0x32">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x02">Credit (ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆ)</title>
+			<title code="0x0a">Main BGM (ãƒ¡ã‚¤ãƒ³BGM)</title>
+			<title code="0x11">Slot Surface (ã‚¹ãƒ­ãƒƒãƒˆé¢)</title>
+			<title code="0x12">Card Surface (ã‚«ãƒ¼ãƒ‰é¢)</title>
+			<title code="0x24">Bowling Surface (ãƒœãƒ¼ãƒªãƒ³ã‚°é¢)</title>
+			<title code="0x19">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x1a">Name Entry (#1) (ãƒãƒ¼ãƒ ã‚¨ãƒ³ãƒˆãƒªãƒ¼(1ä½))</title>
+			<title code="0x1b">Name Entry (#2 or below) (ãƒãƒ¼ãƒ ã‚¨ãƒ³ãƒˆãƒªãƒ¼(2ä½ä»¥ä¸‹))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[Tehkan World Cup] Tehkan World Cup (ƒe[ƒJƒ“ƒ[ƒ‹ƒhƒJƒbƒv) (YM2149x2+MSM5205)</name>
+		<name>[Tehkan World Cup] Tehkan World Cup (ãƒ†ãƒ¼ã‚«ãƒ³ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚«ãƒƒãƒ—) (YM2149x2+MSM5205)</name>
 		<driver type="worldcup">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="tehkanwc">
@@ -259,7 +259,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Tehkan World Cup] Gridiron Fight (ƒOƒŠƒ_ƒCƒAƒ“ƒtƒ@ƒCƒg) (YM2149x2+MSM5205)</name>
+		<name>[Tehkan World Cup] Gridiron Fight (ã‚°ãƒªãƒ€ã‚¤ã‚¢ãƒ³ãƒ•ã‚¡ã‚¤ãƒˆ) (YM2149x2+MSM5205)</name>
 		<driver type="worldcup">tehkan</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="gridiron">
@@ -288,7 +288,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Solomon's Key] Solomon's Key (ƒ\ƒƒ‚ƒ“‚ÌŒ®) (AY-3-8910x3)</name>
+		<name>[Solomon's Key] Solomon's Key (ã‚½ãƒ­ãƒ¢ãƒ³ã®éµ) (AY-3-8910x3)</name>
 		<driver type="solomon">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<options>
@@ -319,25 +319,25 @@
 31	Unused Music 3	1:19
 32	Unused Music 4	1:05
 
-14	ƒNƒŒƒWƒbƒg	0:04
-15	ƒXƒ^[ƒg	0:04
-16	uƒ\ƒƒ‚ƒ“‚ÌŒ®vBGM1	1:00
-17	ƒ‰ƒEƒ“ƒhƒNƒŠƒA	0:04
-18	ƒ{[ƒiƒX	0:04
-19	ƒnƒŠ[ƒAƒbƒv	0:40
-20	ƒtƒFƒAƒŠ[	0:05
-21	ƒ{[ƒiƒX@ƒvƒŠƒYƒ“	0:30
+14	ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆ	0:04
+15	ã‚¹ã‚¿ãƒ¼ãƒˆ	0:04
+16	ã€Œã‚½ãƒ­ãƒ¢ãƒ³ã®éµã€BGM1	1:00
+17	ãƒ©ã‚¦ãƒ³ãƒ‰ã‚¯ãƒªã‚¢	0:04
+18	ãƒœãƒ¼ãƒŠã‚¹	0:04
+19	ãƒãƒªãƒ¼ã‚¢ãƒƒãƒ—	0:40
+20	ãƒ•ã‚§ã‚¢ãƒªãƒ¼	0:05
+21	ãƒœãƒ¼ãƒŠã‚¹ã€€ãƒ—ãƒªã‚ºãƒ³	0:30
 22	HIDDEN ROOM1	0:59
 23	HIDDEN ROOM2	1:01
-24	uƒ\ƒƒ‚ƒ“‚ÌŒ®vBGM2	1:28
-25	ƒGƒ“ƒfƒBƒ“ƒO	1:20
-26	ƒQ[ƒ€ƒI[ƒo[	0:04
-27	ƒl[ƒ€ƒGƒ“ƒgƒŠ[1	1:02
-28	ƒl[ƒ€ƒGƒ“ƒgƒŠ[2	1:24
-29	–¢g—p‹È1	0:37
-30	–¢g—p‹È2	0:50
-31	–¢g—p‹È3	1:19
-32	–¢g—p‹È4	1:05
+24	ã€Œã‚½ãƒ­ãƒ¢ãƒ³ã®éµã€BGM2	1:28
+25	ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°	1:20
+26	ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼	0:04
+27	ãƒãƒ¼ãƒ ã‚¨ãƒ³ãƒˆãƒªãƒ¼1	1:02
+28	ãƒãƒ¼ãƒ ã‚¨ãƒ³ãƒˆãƒªãƒ¼2	1:24
+29	æœªä½¿ç”¨æ›²1	0:37
+30	æœªä½¿ç”¨æ›²2	0:50
+31	æœªä½¿ç”¨æ›²3	1:19
+32	æœªä½¿ç”¨æ›²4	1:05
 -->
 			<title code="0x11">BGM #11</title>
 			<title code="0x12">BGM #12</title>
@@ -391,7 +391,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Rygar] Rygar (ƒAƒ‹ƒSƒX‚Ìím) (YM3812+MSM5205)</name>
+		<name>[Rygar] Rygar (ã‚¢ãƒ«ã‚´ã‚¹ã®æˆ¦å£«) (YM3812+MSM5205)</name>
 		<driver type="rygar">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="rygar">
@@ -419,7 +419,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Gemini Wing] Gemini Wing (ƒWƒFƒ~ƒjƒEƒCƒ“ƒO) (YM3812+MSM5205)</name>
+		<name>[Gemini Wing] Gemini Wing (ã‚¸ã‚§ãƒŸãƒ‹ã‚¦ã‚¤ãƒ³ã‚°) (YM3812+MSM5205)</name>
 		<driver type="gemini">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="gemini">
@@ -447,7 +447,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Gemini Wing] Silk Worm (ƒVƒ‹ƒNƒ[ƒ€) (YM3812+MSM5205)</name>
+		<name>[Gemini Wing] Silk Worm (ã‚·ãƒ«ã‚¯ãƒ¯ãƒ¼ãƒ ) (YM3812+MSM5205)</name>
 		<driver type="gemini">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="silkworm">
@@ -467,7 +467,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ninja Gaiden] Shadow Warriors (”EÒ—´Œ•“`) (YM2203x3+MSM6295)</name>
+		<name>[Ninja Gaiden] Shadow Warriors (å¿è€…é¾å‰£ä¼) (YM2203x3+MSM6295)</name>
 		<driver type="gaiden">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="shadoww">
@@ -499,7 +499,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ninja Gaiden] Shadow Warriors JP (”EÒ—´Œ•“`) (YM2203x3+MSM6295)</name>
+		<name>[Ninja Gaiden] Shadow Warriors JP (å¿è€…é¾å‰£ä¼) (YM2203x3+MSM6295)</name>
 		<driver type="gaiden">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="ryukendn">
@@ -531,7 +531,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ninja Gaiden] Tecmo Knight (ƒƒCƒ‹ƒhƒtƒ@ƒ“ƒO) (YM2203x3+MSM6295)</name>
+		<name>[Ninja Gaiden] Tecmo Knight (ãƒ¯ã‚¤ãƒ«ãƒ‰ãƒ•ã‚¡ãƒ³ã‚°) (YM2203x3+MSM6295)</name>
 		<driver type="gaiden">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="wildfang">
@@ -568,7 +568,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Ninja Gaiden] Raiga: Strato Fighter (—‹‰å) (YM2203x3+MSM6295)</name>
+		<name>[Ninja Gaiden] Raiga: Strato Fighter (é›·ç‰™) (YM2203x3+MSM6295)</name>
 		<driver type="gaiden">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="stratof">
@@ -604,7 +604,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Tecmo World Cup '90] Tecmo World Cup '90 (ƒeƒNƒ‚ƒ[ƒ‹ƒhƒJƒbƒv'90) (YM2608)</name>
+		<name>[Tecmo World Cup '90] Tecmo World Cup '90 (ãƒ†ã‚¯ãƒ¢ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚«ãƒƒãƒ—'90) (YM2608)</name>
 		<driver type="wc90">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="wc90">
@@ -654,7 +654,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Tecmo16] Final Star Force (ƒtƒ@ƒCƒiƒ‹ƒXƒ^[ƒtƒH[ƒX) (YM2151+MSM6295)</name>
+		<name>[Tecmo16] Final Star Force (ãƒ•ã‚¡ã‚¤ãƒŠãƒ«ã‚¹ã‚¿ãƒ¼ãƒ•ã‚©ãƒ¼ã‚¹) (YM2151+MSM6295)</name>
 		<driver type="tecmo16">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="fstarfrc">
@@ -682,7 +682,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Tecmo16] Ganbare Ginkun (‚ª‚ñ‚Î‚êƒMƒ“‚­‚ñ -ƒAƒNƒVƒ‡ƒ“ƒ~ƒjƒQ[ƒ€W-) (YM2151+MSM6295)</name>
+		<name>[Tecmo16] Ganbare Ginkun (ãŒã‚“ã°ã‚Œã‚®ãƒ³ãã‚“ -ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒŸãƒ‹ã‚²ãƒ¼ãƒ é›†-) (YM2151+MSM6295)</name>
 		<driver type="tecmo16">tecmo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<romlist archive="ginkun">
@@ -719,7 +719,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Neo Geo] Tecmo World Soccer '96 (ƒeƒNƒ‚ƒ[ƒ‹ƒhƒTƒbƒJ['95) (YM2610)</name>
+		<name>[Neo Geo] Tecmo World Soccer '96 (ãƒ†ã‚¯ãƒ¢ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚µãƒƒã‚«ãƒ¼'95) (YM2610)</name>
 		<driver type="generic">neogeo</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<options>
@@ -751,7 +751,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[Model 2B] Dead or Alive (ƒfƒbƒhƒIƒAƒAƒ‰ƒCƒu) (SCSP)</name>
+		<name>[Model 2B] Dead or Alive (ãƒ‡ãƒƒãƒ‰ã‚ªã‚¢ã‚¢ãƒ©ã‚¤ãƒ–) (SCSP)</name>
 		<driver type="model2a">sega</driver>
 		<driveralias type="Arcade">Tecmo</driveralias>
 		<options>

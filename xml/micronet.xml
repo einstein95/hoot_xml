@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -85,14 +85,14 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00000000">Stop the Music</title>
-			<title code="0x01000000">ƒLƒƒƒ‰ƒNƒ^[ƒZƒŒƒNƒg</title>
-			<title code="0x02000000">ƒLƒƒƒ‰ƒNƒ^[‘I‘ðI—¹</title>
-		<!--	<title code="0x00000001">00 : ‰‰‘t’âŽ~</title> -->
-			<title code="0x01000001">ƒ‰ƒEƒ“ƒhƒXƒ^[ƒg</title>
-			<title code="0x02000001">ƒƒCƒ“BGM</title>
-			<title code="0x03000001">Ÿ‚¿</title>
-			<title code="0x05000001">•‰‚¯</title>
-			<title code="0x04000001">ƒQ[ƒ€ƒI[ƒo[</title>
+			<title code="0x01000000">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x02000000">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼é¸æŠžçµ‚äº†</title>
+		<!--	<title code="0x00000001">00 : æ¼”å¥åœæ­¢</title> -->
+			<title code="0x01000001">ãƒ©ã‚¦ãƒ³ãƒ‰ã‚¹ã‚¿ãƒ¼ãƒˆ</title>
+			<title code="0x02000001">ãƒ¡ã‚¤ãƒ³BGM</title>
+			<title code="0x03000001">å‹ã¡</title>
+			<title code="0x05000001">è² ã‘</title>
+			<title code="0x04000001">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
 		</titlelist>
 	</game>
 	<game>
@@ -108,13 +108,13 @@
 			<rom type="code" offset="0x7300">PROGX2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒLƒƒƒ‰ƒNƒ^[ƒZƒŒƒNƒg</title>
-			<title code="0x01">ƒLƒƒƒ‰ƒNƒ^[‘I‘ðI—¹</title>
-			<title code="0x02">ƒ‰ƒEƒ“ƒhƒXƒ^[ƒg</title>
-			<title code="0x03">ƒƒCƒ“BGM</title>
-			<title code="0x04">Ÿ‚¿</title>
-			<title code="0x06">•‰‚¯</title>
-			<title code="0x05">ƒQ[ƒ€ƒI[ƒo[</title>
+			<title code="0x00">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x01">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼é¸æŠžçµ‚äº†</title>
+			<title code="0x02">ãƒ©ã‚¦ãƒ³ãƒ‰ã‚¹ã‚¿ãƒ¼ãƒˆ</title>
+			<title code="0x03">ãƒ¡ã‚¤ãƒ³BGM</title>
+			<title code="0x04">å‹ã¡</title>
+			<title code="0x06">è² ã‘</title>
+			<title code="0x05">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
 		</titlelist>
 	</game>
 	<game>
@@ -136,15 +136,15 @@
 			<rom type="bgm" offset="0x04">PROG4</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒLƒƒƒ‰ƒNƒ^[ƒZƒŒƒNƒg</title>
-			<title code="0x01">ƒQ[ƒ€ƒXƒ^[ƒg</title>
-			<title code="0x02">ƒQ[ƒ€’†BGM</title>
-			<title code="0x03">”sí</title>
-			<title code="0x04">Ÿ—˜</title>
+			<title code="0x00">ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x01">ã‚²ãƒ¼ãƒ ã‚¹ã‚¿ãƒ¼ãƒˆ</title>
+			<title code="0x02">ã‚²ãƒ¼ãƒ ä¸­BGM</title>
+			<title code="0x03">æ•—æˆ¦</title>
+			<title code="0x04">å‹åˆ©</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Tanba (‚½‚ñ‚Î) (YM2203)</name>
+		<name>[PC-8801] Tanba (ãŸã‚“ã°) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
@@ -164,7 +164,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Gokudou Jintori (‹É“¹wŽæ‚è) (YM2203)</name>
+		<name>[PC-8801] Gokudou Jintori (æ¥µé“é™£å–ã‚Š) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Micronet</driveralias>
 		<options>
@@ -196,7 +196,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gokudou Jintori (‹É“¹wŽæ‚è) (OPM)</name>
+		<name>[X1] Gokudou Jintori (æ¥µé“é™£å–ã‚Š) (OPM)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Micronet</driveralias>
 		<options>
@@ -228,7 +228,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gokudou Jintori (‹É“¹wŽæ‚è) (PSG)</name>
+		<name>[X1] Gokudou Jintori (æ¥µé“é™£å–ã‚Š) (PSG)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Micronet</driveralias>
 		<options>
@@ -260,7 +260,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Tanba (‚½‚ñ‚Î) (YM2151+MSM6258)</name>
+		<name>[X68000] Tanba (ãŸã‚“ã°) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Micronet</driveralias>
 		<options>
@@ -287,7 +287,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Mahjong Kyou Jidai Special (–ƒ‹¶Žž‘ãƒXƒyƒVƒƒƒ‹) (YM2151+MSM6258)</name>
+		<name>[X68000] Mahjong Kyou Jidai Special (éº»é›€ç‹‚æ™‚ä»£ã‚¹ãƒšã‚·ãƒ£ãƒ«) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Micronet</driveralias>
 		<options>
@@ -318,7 +318,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (–ƒ‹¶Žž‘ã SPECIAL II –`Œ¯•Ñ) (YM2413)</name>
+		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (éº»é›€ç‹‚æ™‚ä»£ SPECIAL II å†’é™ºç¯‡) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Micronet</driveralias>
 		<options>
@@ -335,7 +335,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (–ƒ‹¶Žž‘ã SPECIAL II –`Œ¯•Ñ) (AY-3-8910)</name>
+		<name>[MSX2] Mahjong Kyoujidai SPECIAL II Bouken-hen (éº»é›€ç‹‚æ™‚ä»£ SPECIAL II å†’é™ºç¯‡) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Micronet</driveralias>
 		<options>
@@ -351,7 +351,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Gokudou Jintori (‹É“¹wŽæ‚è) (YM2413)</name>
+		<name>[MSX] Gokudou Jintori (æ¥µé“é™£å–ã‚Š) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -372,7 +372,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Gokudou Jintori (‹É“¹wŽæ‚è) (AY-3-8910)</name>
+		<name>[MSX] Gokudou Jintori (æ¥µé“é™£å–ã‚Š) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -392,7 +392,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Tanba (‚½‚ñ‚Î) (YM2413)</name>
+		<name>[MSX] Tanba (ãŸã‚“ã°) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -405,12 +405,12 @@
 			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x01">ã‚ª‚è</title>
+			<title code="0x00">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x01">ä¸ŠãŒã‚Š</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Tanba (‚½‚ñ‚Î) (AY-3-8910)</name>
+		<name>[MSX] Tanba (ãŸã‚“ã°) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX">Micronet</driveralias>
 		<options>
@@ -422,8 +422,8 @@
 			<rom type="code" offset="0xc0d6">SINMUS.COM</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Title (ƒ^ƒCƒgƒ‹)</title>
-			<title code="0x01">ã‚ª‚è</title>
+			<title code="0x00">Title (ã‚¿ã‚¤ãƒˆãƒ«)</title>
+			<title code="0x01">ä¸ŠãŒã‚Š</title>
 		</titlelist>
 	</game>
 	<game>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -34,12 +34,12 @@
 					extcode CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
-	<!-- //—VE‰‰E‘Ì -->
+	<!-- //éŠãƒ»æ¼”ãƒ»ä½“ -->
 	<game>
 		<name>[PC-9801] Elves (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
-		<!-- §ì:“ú–{ƒ\ƒtƒeƒbƒN -->
+		<!-- åˆ¶ä½œ:æ—¥æœ¬ã‚½ãƒ•ãƒ†ãƒƒã‚¯ -->
 		<romlist archive="elves98">
 			<rom type="file" offset="-1">elves.com</rom>
 			<rom type="file" offset="-1">OP.EXE</rom>
@@ -66,7 +66,7 @@
 		</romlist>
 		<titlelist>
 			<title code="0xfe000000">Fade Out</title>
-		<!--	<title code="0x000001f8">OP.EXE    : (–³‰¹)</title> -->
+		<!--	<title code="0x000001f8">OP.EXE    : (ç„¡éŸ³)</title> -->
 			<title code="0x0000020a">OP.EXE</title>
 			<title code="0x01010001">E.EXE</title>
 			<title code="0x01010002">E.EXE</title>
@@ -74,7 +74,7 @@
 			<title code="0x01010004">E.EXE</title>
 			<title code="0x01010005">E.EXE</title>
 			<title code="0x01010006">E.EXE</title>
-		<!--	<title code="0x01010007">E.EXE     : (–Â‚ç‚È‚¢)</title> -->
+		<!--	<title code="0x01010007">E.EXE     : (é³´ã‚‰ãªã„)</title> -->
 			<title code="0x01010008">E.EXE</title>
 			<title code="0x01010009">E.EXE</title>
 			<title code="0x0101000a">E.EXE</title>
@@ -89,7 +89,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fifth Element: Tamashii no Genso (ƒtƒBƒtƒXEƒGƒŒƒƒ“ƒg -°‚ÌŒ³‘f-) (YM2203)</name>
+		<name>[PC-9801] Fifth Element: Tamashii no Genso (ãƒ•ã‚£ãƒ•ã‚¹ãƒ»ã‚¨ãƒ¬ãƒ¡ãƒ³ãƒˆ -é­‚ã®å…ƒç´ -) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -103,30 +103,30 @@
 			<rom type="shell" offset="0">fmp_5th</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000005">Œõ‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x010005">’¬‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x020005">ƒCƒxƒ“ƒg2(©‘R)   Composed &amp; Arranged by KID</title>
-			<title code="0x030005">í“¬BGM         Composed &amp; Arranged by KID</title>
-			<title code="0x040005">ˆÅ‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x050005">ƒCƒxƒ“ƒg1(lŠÔ)   Composed &amp; Arranged by KID</title>
-			<title code="0x060005">“´ŒA‚Ìƒe|ƒ}      Composed &amp; Arranged by KID</title>
-			<title code="0x070005">ÅŒã‚Ì“¬‚¢        Composed &amp; Arranged by KID</title>
-			<title code="0x080005">º“à‚Ìƒe|ƒ}(‰ü)  Composed &amp; Arranged by KID</title>
-			<title code="0x090005">“y‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x0a0005">€‚ñ‚¾‚ÌBGM     Composed &amp; Arranged by KID</title>
-			<title code="0x0b0005">‰Î‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x0c0005">“X‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x0d0005">…‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x0e0005">•—‚Ìƒe|ƒ}        Composed &amp; Arranged by KID</title>
-			<title code="0x0f0005">_“a‚Ìƒe|ƒ}      Composed &amp; Arranged by KID</title>
-			<title code="0x100005">ƒI|ƒvƒjƒ“ƒO                     Arranged by KID</title>
-			<title code="0x110005">ƒEƒBƒ‹ƒ_ƒlƒX      Composed &amp; Arranged by KID</title>
-			<title code="0x120005">ƒvƒŒƒI|ƒvƒjƒ“ƒO  Composed &amp; Arranged by KID</title>
-			<title code="0x130005">ƒGƒ“ƒfƒBƒ“ƒO      Composed &amp; Arranged by KID</title>
+			<title code="0x000005">å…‰ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x010005">ç”ºã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x020005">ã‚¤ãƒ™ãƒ³ãƒˆ2(è‡ªç„¶)   Composed &amp; Arranged by KID</title>
+			<title code="0x030005">æˆ¦é—˜æ™‚BGM         Composed &amp; Arranged by KID</title>
+			<title code="0x040005">é—‡ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x050005">ã‚¤ãƒ™ãƒ³ãƒˆ1(äººé–“)   Composed &amp; Arranged by KID</title>
+			<title code="0x060005">æ´çªŸã®ãƒ†ï¼ãƒ      Composed &amp; Arranged by KID</title>
+			<title code="0x070005">æœ€å¾Œã®é—˜ã„        Composed &amp; Arranged by KID</title>
+			<title code="0x080005">å®¤å†…ã®ãƒ†ï¼ãƒ(æ”¹)  Composed &amp; Arranged by KID</title>
+			<title code="0x090005">åœŸã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x0a0005">æ­»ã‚“ã æ™‚ã®BGM     Composed &amp; Arranged by KID</title>
+			<title code="0x0b0005">ç«ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x0c0005">åº—ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x0d0005">æ°´ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x0e0005">é¢¨ã®ãƒ†ï¼ãƒ        Composed &amp; Arranged by KID</title>
+			<title code="0x0f0005">ç¥æ®¿ã®ãƒ†ï¼ãƒ      Composed &amp; Arranged by KID</title>
+			<title code="0x100005">ã‚ªï¼ãƒ—ãƒ‹ãƒ³ã‚°                     Arranged by KID</title>
+			<title code="0x110005">ã‚¦ã‚£ãƒ«ãƒ€ãƒã‚¹      Composed &amp; Arranged by KID</title>
+			<title code="0x120005">ãƒ—ãƒ¬ã‚ªï¼ãƒ—ãƒ‹ãƒ³ã‚°  Composed &amp; Arranged by KID</title>
+			<title code="0x130005">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°      Composed &amp; Arranged by KID</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Metal Force (ƒƒ^ƒ‹ƒtƒH[ƒX) (YM2608: SpeakBoard)</name>
+		<name>[PC-9801] Metal Force (ãƒ¡ã‚¿ãƒ«ãƒ•ã‚©ãƒ¼ã‚¹) (YM2608: SpeakBoard)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -190,41 +190,41 @@
 			<title code="0x000026">Staff Roll</title>
 			<title code="0x000025">Ending</title>
 			<title code="0x000015">Unused</title>
-			<title code="0x010000">SSG Sound Effects #00 (SSGŒø‰Ê‰¹ #00)</title>
-			<title code="0x010001">SSG Sound Effects #01 (SSGŒø‰Ê‰¹ #01)</title>
-			<title code="0x010002">SSG Sound Effects #02 (SSGŒø‰Ê‰¹ #02)</title>
-			<title code="0x010003">SSG Sound Effects #03 (SSGŒø‰Ê‰¹ #03)</title>
-			<title code="0x010004">SSG Sound Effects #04 (SSGŒø‰Ê‰¹ #04)</title>
-			<title code="0x010005">SSG Sound Effects #05 (SSGŒø‰Ê‰¹ #05)</title>
-			<title code="0x010006">SSG Sound Effects #06 (SSGŒø‰Ê‰¹ #06)</title>
-			<title code="0x010007">SSG Sound Effects #07 (SSGŒø‰Ê‰¹ #07)</title>
-			<title code="0x010008">SSG Sound Effects #08 (SSGŒø‰Ê‰¹ #08)</title>
-			<title code="0x010009">SSG Sound Effects #09 (SSGŒø‰Ê‰¹ #09)</title>
-			<title code="0x01000a">SSG Sound Effects #0a (SSGŒø‰Ê‰¹ #0a)</title>
-			<title code="0x01000b">SSG Sound Effects #0b (SSGŒø‰Ê‰¹ #0b)</title>
-			<title code="0x01000c">SSG Sound Effects #0c (SSGŒø‰Ê‰¹ #0c)</title>
-			<title code="0x01000d">SSG Sound Effects #0d (SSGŒø‰Ê‰¹ #0d)</title>
-			<title code="0x01000e">SSG Sound Effects #0e (SSGŒø‰Ê‰¹ #0e)</title>
-			<title code="0x01000f">SSG Sound Effects #0f (SSGŒø‰Ê‰¹ #0f)</title>
-			<title code="0x010010">SSG Sound Effects #10 (SSGŒø‰Ê‰¹ #10)</title>
-			<title code="0x010011">SSG Sound Effects #11 (SSGŒø‰Ê‰¹ #11)</title>
-			<title code="0x010012">SSG Sound Effects #12 (SSGŒø‰Ê‰¹ #12)</title>
-			<title code="0x010013">SSG Sound Effects #13 (SSGŒø‰Ê‰¹ #13)</title>
-			<title code="0x010014">SSG Sound Effects #14 (SSGŒø‰Ê‰¹ #14)</title>
-			<title code="0x010015">SSG Sound Effects #15 (SSGŒø‰Ê‰¹ #15)</title>
-			<title code="0x010016">SSG Sound Effects #16 (SSGŒø‰Ê‰¹ #16)</title>
-			<title code="0x010017">SSG Sound Effects #17 (SSGŒø‰Ê‰¹ #17)</title>
-			<title code="0x010018">SSG Sound Effects #18 (SSGŒø‰Ê‰¹ #18)</title>
-			<title code="0x010019">SSG Sound Effects #19 (SSGŒø‰Ê‰¹ #19)</title>
-			<title code="0x01001a">SSG Sound Effects #1a (SSGŒø‰Ê‰¹ #1a)</title>
-			<title code="0x01001b">SSG Sound Effects #1b (SSGŒø‰Ê‰¹ #1b)</title>
-			<title code="0x01001c">SSG Sound Effects #1c (SSGŒø‰Ê‰¹ #1c)</title>
-			<title code="0x01001d">SSG Sound Effects #1d (SSGŒø‰Ê‰¹ #1d)</title>
-			<title code="0x010029">SSG Sound Effects #29 (SSGŒø‰Ê‰¹ #29)</title>
-			<title code="0x01002a">SSG Sound Effects #2a (SSGŒø‰Ê‰¹ #2a)</title>
-			<title code="0x01002b">SSG Sound Effects #2b (SSGŒø‰Ê‰¹ #2b)</title>
-			<title code="0x01002c">SSG Sound Effects #2c (SSGŒø‰Ê‰¹ #2c)</title>
-			<title code="0x01002d">SSG Sound Effects #2d (SSGŒø‰Ê‰¹ #2d)</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSGåŠ¹æœéŸ³ #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSGåŠ¹æœéŸ³ #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSGåŠ¹æœéŸ³ #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSGåŠ¹æœéŸ³ #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSGåŠ¹æœéŸ³ #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSGåŠ¹æœéŸ³ #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSGåŠ¹æœéŸ³ #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSGåŠ¹æœéŸ³ #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSGåŠ¹æœéŸ³ #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSGåŠ¹æœéŸ³ #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSGåŠ¹æœéŸ³ #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSGåŠ¹æœéŸ³ #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSGåŠ¹æœéŸ³ #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSGåŠ¹æœéŸ³ #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSGåŠ¹æœéŸ³ #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSGåŠ¹æœéŸ³ #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSGåŠ¹æœéŸ³ #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSGåŠ¹æœéŸ³ #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSGåŠ¹æœéŸ³ #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSGåŠ¹æœéŸ³ #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSGåŠ¹æœéŸ³ #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSGåŠ¹æœéŸ³ #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSGåŠ¹æœéŸ³ #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSGåŠ¹æœéŸ³ #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSGåŠ¹æœéŸ³ #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSGåŠ¹æœéŸ³ #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSGåŠ¹æœéŸ³ #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSGåŠ¹æœéŸ³ #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSGåŠ¹æœéŸ³ #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSGåŠ¹æœéŸ³ #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSGåŠ¹æœéŸ³ #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSGåŠ¹æœéŸ³ #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSGåŠ¹æœéŸ³ #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSGåŠ¹æœéŸ³ #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSGåŠ¹æœéŸ³ #2d)</title>
 			<title code="0x020000">ADPCM #00 (Kick)</title>
 			<title code="0x020001">ADPCM #01 (Snare 1)</title>
 			<title code="0x020002">ADPCM #02 (Tom)</title>
@@ -238,11 +238,11 @@
 			<title code="0x02000a">ADPCM #0a (Orchestra Hit)</title>
 			<title code="0x02000b">ADPCM #0b (Guitar)</title>
 			<title code="0x02000c">ADPCM #0c (Hey)</title>
-			<title code="0x02000d">ADPCM #0d Explosion #1 (”š”­‰¹#1)</title>
-			<title code="0x02000e">ADPCM #0e Explosion #2 (”š”­‰¹#2)</title>
-			<title code="0x02000f">ADPCM #0f Explosion #3 (”š”­‰¹#3)</title>
-			<title code="0x020010">ADPCM #10 Explosion #4 (”š”­‰¹#4)</title>
-			<title code="0x020013">ADPCM #13 Wind (•—Ø‰¹)</title>
+			<title code="0x02000d">ADPCM #0d Explosion #1 (çˆ†ç™ºéŸ³#1)</title>
+			<title code="0x02000e">ADPCM #0e Explosion #2 (çˆ†ç™ºéŸ³#2)</title>
+			<title code="0x02000f">ADPCM #0f Explosion #3 (çˆ†ç™ºéŸ³#3)</title>
+			<title code="0x020010">ADPCM #10 Explosion #4 (çˆ†ç™ºéŸ³#4)</title>
+			<title code="0x020013">ADPCM #13 Wind (é¢¨åˆ‡éŸ³)</title>
 			<title code="0x020014">ADPCM #14 (Vulcan)</title>
 			<title code="0x020015">ADPCM #15 (Laser)</title>
 			<title code="0x020016">ADPCM #16 (Homing)</title>
@@ -257,7 +257,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Metal Force (ƒƒ^ƒ‹ƒtƒH[ƒX) (YM2608: PC-9801-86)</name>
+		<name>[PC-9801] Metal Force (ãƒ¡ã‚¿ãƒ«ãƒ•ã‚©ãƒ¼ã‚¹) (YM2608: PC-9801-86)</name>
 		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -320,45 +320,45 @@
 			<title code="0x000026">Staff Roll</title>
 			<title code="0x000025">Ending</title>
 			<title code="0x000015">Unused</title>
-			<title code="0x010000">SSG Sound Effects #00 (SSGŒø‰Ê‰¹ #00)</title>
-			<title code="0x010001">SSG Sound Effects #01 (SSGŒø‰Ê‰¹ #01)</title>
-			<title code="0x010002">SSG Sound Effects #02 (SSGŒø‰Ê‰¹ #02)</title>
-			<title code="0x010003">SSG Sound Effects #03 (SSGŒø‰Ê‰¹ #03)</title>
-			<title code="0x010004">SSG Sound Effects #04 (SSGŒø‰Ê‰¹ #04)</title>
-			<title code="0x010005">SSG Sound Effects #05 (SSGŒø‰Ê‰¹ #05)</title>
-			<title code="0x010006">SSG Sound Effects #06 (SSGŒø‰Ê‰¹ #06)</title>
-			<title code="0x010007">SSG Sound Effects #07 (SSGŒø‰Ê‰¹ #07)</title>
-			<title code="0x010008">SSG Sound Effects #08 (SSGŒø‰Ê‰¹ #08)</title>
-			<title code="0x010009">SSG Sound Effects #09 (SSGŒø‰Ê‰¹ #09)</title>
-			<title code="0x01000a">SSG Sound Effects #0a (SSGŒø‰Ê‰¹ #0a)</title>
-			<title code="0x01000b">SSG Sound Effects #0b (SSGŒø‰Ê‰¹ #0b)</title>
-			<title code="0x01000c">SSG Sound Effects #0c (SSGŒø‰Ê‰¹ #0c)</title>
-			<title code="0x01000d">SSG Sound Effects #0d (SSGŒø‰Ê‰¹ #0d)</title>
-			<title code="0x01000e">SSG Sound Effects #0e (SSGŒø‰Ê‰¹ #0e)</title>
-			<title code="0x01000f">SSG Sound Effects #0f (SSGŒø‰Ê‰¹ #0f)</title>
-			<title code="0x010010">SSG Sound Effects #10 (SSGŒø‰Ê‰¹ #10)</title>
-			<title code="0x010011">SSG Sound Effects #11 (SSGŒø‰Ê‰¹ #11)</title>
-			<title code="0x010012">SSG Sound Effects #12 (SSGŒø‰Ê‰¹ #12)</title>
-			<title code="0x010013">SSG Sound Effects #13 (SSGŒø‰Ê‰¹ #13)</title>
-			<title code="0x010014">SSG Sound Effects #14 (SSGŒø‰Ê‰¹ #14)</title>
-			<title code="0x010015">SSG Sound Effects #15 (SSGŒø‰Ê‰¹ #15)</title>
-			<title code="0x010016">SSG Sound Effects #16 (SSGŒø‰Ê‰¹ #16)</title>
-			<title code="0x010017">SSG Sound Effects #17 (SSGŒø‰Ê‰¹ #17)</title>
-			<title code="0x010018">SSG Sound Effects #18 (SSGŒø‰Ê‰¹ #18)</title>
-			<title code="0x010019">SSG Sound Effects #19 (SSGŒø‰Ê‰¹ #19)</title>
-			<title code="0x01001a">SSG Sound Effects #1a (SSGŒø‰Ê‰¹ #1a)</title>
-			<title code="0x01001b">SSG Sound Effects #1b (SSGŒø‰Ê‰¹ #1b)</title>
-			<title code="0x01001c">SSG Sound Effects #1c (SSGŒø‰Ê‰¹ #1c)</title>
-			<title code="0x01001d">SSG Sound Effects #1d (SSGŒø‰Ê‰¹ #1d)</title>
-			<title code="0x010029">SSG Sound Effects #29 (SSGŒø‰Ê‰¹ #29)</title>
-			<title code="0x01002a">SSG Sound Effects #2a (SSGŒø‰Ê‰¹ #2a)</title>
-			<title code="0x01002b">SSG Sound Effects #2b (SSGŒø‰Ê‰¹ #2b)</title>
-			<title code="0x01002c">SSG Sound Effects #2c (SSGŒø‰Ê‰¹ #2c)</title>
-			<title code="0x01002d">SSG Sound Effects #2d (SSGŒø‰Ê‰¹ #2d)</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSGåŠ¹æœéŸ³ #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSGåŠ¹æœéŸ³ #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSGåŠ¹æœéŸ³ #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSGåŠ¹æœéŸ³ #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSGåŠ¹æœéŸ³ #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSGåŠ¹æœéŸ³ #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSGåŠ¹æœéŸ³ #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSGåŠ¹æœéŸ³ #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSGåŠ¹æœéŸ³ #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSGåŠ¹æœéŸ³ #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSGåŠ¹æœéŸ³ #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSGåŠ¹æœéŸ³ #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSGåŠ¹æœéŸ³ #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSGåŠ¹æœéŸ³ #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSGåŠ¹æœéŸ³ #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSGåŠ¹æœéŸ³ #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSGåŠ¹æœéŸ³ #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSGåŠ¹æœéŸ³ #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSGåŠ¹æœéŸ³ #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSGåŠ¹æœéŸ³ #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSGåŠ¹æœéŸ³ #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSGåŠ¹æœéŸ³ #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSGåŠ¹æœéŸ³ #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSGåŠ¹æœéŸ³ #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSGåŠ¹æœéŸ³ #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSGåŠ¹æœéŸ³ #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSGåŠ¹æœéŸ³ #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSGåŠ¹æœéŸ³ #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSGåŠ¹æœéŸ³ #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSGåŠ¹æœéŸ³ #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSGåŠ¹æœéŸ³ #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSGåŠ¹æœéŸ³ #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSGåŠ¹æœéŸ³ #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSGåŠ¹æœéŸ³ #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSGåŠ¹æœéŸ³ #2d)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Metal Force (ƒƒ^ƒ‹ƒtƒH[ƒX) (YM2203)</name>
+		<name>[PC-9801] Metal Force (ãƒ¡ã‚¿ãƒ«ãƒ•ã‚©ãƒ¼ã‚¹) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -415,45 +415,45 @@
 			<title code="0x000020">Last Boss</title>
 			<title code="0x000024">Staff Roll</title>
 			<title code="0x000023">Ending</title>
-			<title code="0x010000">SSG Sound Effects #00 (SSGŒø‰Ê‰¹ #00)</title>
-			<title code="0x010001">SSG Sound Effects #01 (SSGŒø‰Ê‰¹ #01)</title>
-			<title code="0x010002">SSG Sound Effects #02 (SSGŒø‰Ê‰¹ #02)</title>
-			<title code="0x010003">SSG Sound Effects #03 (SSGŒø‰Ê‰¹ #03)</title>
-			<title code="0x010004">SSG Sound Effects #04 (SSGŒø‰Ê‰¹ #04)</title>
-			<title code="0x010005">SSG Sound Effects #05 (SSGŒø‰Ê‰¹ #05)</title>
-			<title code="0x010006">SSG Sound Effects #06 (SSGŒø‰Ê‰¹ #06)</title>
-			<title code="0x010007">SSG Sound Effects #07 (SSGŒø‰Ê‰¹ #07)</title>
-			<title code="0x010008">SSG Sound Effects #08 (SSGŒø‰Ê‰¹ #08)</title>
-			<title code="0x010009">SSG Sound Effects #09 (SSGŒø‰Ê‰¹ #09)</title>
-			<title code="0x01000a">SSG Sound Effects #0a (SSGŒø‰Ê‰¹ #0a)</title>
-			<title code="0x01000b">SSG Sound Effects #0b (SSGŒø‰Ê‰¹ #0b)</title>
-			<title code="0x01000c">SSG Sound Effects #0c (SSGŒø‰Ê‰¹ #0c)</title>
-			<title code="0x01000d">SSG Sound Effects #0d (SSGŒø‰Ê‰¹ #0d)</title>
-			<title code="0x01000e">SSG Sound Effects #0e (SSGŒø‰Ê‰¹ #0e)</title>
-			<title code="0x01000f">SSG Sound Effects #0f (SSGŒø‰Ê‰¹ #0f)</title>
-			<title code="0x010010">SSG Sound Effects #10 (SSGŒø‰Ê‰¹ #10)</title>
-			<title code="0x010011">SSG Sound Effects #11 (SSGŒø‰Ê‰¹ #11)</title>
-			<title code="0x010012">SSG Sound Effects #12 (SSGŒø‰Ê‰¹ #12)</title>
-			<title code="0x010013">SSG Sound Effects #13 (SSGŒø‰Ê‰¹ #13)</title>
-			<title code="0x010014">SSG Sound Effects #14 (SSGŒø‰Ê‰¹ #14)</title>
-			<title code="0x010015">SSG Sound Effects #15 (SSGŒø‰Ê‰¹ #15)</title>
-			<title code="0x010016">SSG Sound Effects #16 (SSGŒø‰Ê‰¹ #16)</title>
-			<title code="0x010017">SSG Sound Effects #17 (SSGŒø‰Ê‰¹ #17)</title>
-			<title code="0x010018">SSG Sound Effects #18 (SSGŒø‰Ê‰¹ #18)</title>
-			<title code="0x010019">SSG Sound Effects #19 (SSGŒø‰Ê‰¹ #19)</title>
-			<title code="0x01001a">SSG Sound Effects #1a (SSGŒø‰Ê‰¹ #1a)</title>
-			<title code="0x01001b">SSG Sound Effects #1b (SSGŒø‰Ê‰¹ #1b)</title>
-			<title code="0x01001c">SSG Sound Effects #1c (SSGŒø‰Ê‰¹ #1c)</title>
-			<title code="0x01001d">SSG Sound Effects #1d (SSGŒø‰Ê‰¹ #1d)</title>
-			<title code="0x010029">SSG Sound Effects #29 (SSGŒø‰Ê‰¹ #29)</title>
-			<title code="0x01002a">SSG Sound Effects #2a (SSGŒø‰Ê‰¹ #2a)</title>
-			<title code="0x01002b">SSG Sound Effects #2b (SSGŒø‰Ê‰¹ #2b)</title>
-			<title code="0x01002c">SSG Sound Effects #2c (SSGŒø‰Ê‰¹ #2c)</title>
-			<title code="0x01002d">SSG Sound Effects #2d (SSGŒø‰Ê‰¹ #2d)</title>
+			<title code="0x010000">SSG Sound Effects #00 (SSGåŠ¹æœéŸ³ #00)</title>
+			<title code="0x010001">SSG Sound Effects #01 (SSGåŠ¹æœéŸ³ #01)</title>
+			<title code="0x010002">SSG Sound Effects #02 (SSGåŠ¹æœéŸ³ #02)</title>
+			<title code="0x010003">SSG Sound Effects #03 (SSGåŠ¹æœéŸ³ #03)</title>
+			<title code="0x010004">SSG Sound Effects #04 (SSGåŠ¹æœéŸ³ #04)</title>
+			<title code="0x010005">SSG Sound Effects #05 (SSGåŠ¹æœéŸ³ #05)</title>
+			<title code="0x010006">SSG Sound Effects #06 (SSGåŠ¹æœéŸ³ #06)</title>
+			<title code="0x010007">SSG Sound Effects #07 (SSGåŠ¹æœéŸ³ #07)</title>
+			<title code="0x010008">SSG Sound Effects #08 (SSGåŠ¹æœéŸ³ #08)</title>
+			<title code="0x010009">SSG Sound Effects #09 (SSGåŠ¹æœéŸ³ #09)</title>
+			<title code="0x01000a">SSG Sound Effects #0a (SSGåŠ¹æœéŸ³ #0a)</title>
+			<title code="0x01000b">SSG Sound Effects #0b (SSGåŠ¹æœéŸ³ #0b)</title>
+			<title code="0x01000c">SSG Sound Effects #0c (SSGåŠ¹æœéŸ³ #0c)</title>
+			<title code="0x01000d">SSG Sound Effects #0d (SSGåŠ¹æœéŸ³ #0d)</title>
+			<title code="0x01000e">SSG Sound Effects #0e (SSGåŠ¹æœéŸ³ #0e)</title>
+			<title code="0x01000f">SSG Sound Effects #0f (SSGåŠ¹æœéŸ³ #0f)</title>
+			<title code="0x010010">SSG Sound Effects #10 (SSGåŠ¹æœéŸ³ #10)</title>
+			<title code="0x010011">SSG Sound Effects #11 (SSGåŠ¹æœéŸ³ #11)</title>
+			<title code="0x010012">SSG Sound Effects #12 (SSGåŠ¹æœéŸ³ #12)</title>
+			<title code="0x010013">SSG Sound Effects #13 (SSGåŠ¹æœéŸ³ #13)</title>
+			<title code="0x010014">SSG Sound Effects #14 (SSGåŠ¹æœéŸ³ #14)</title>
+			<title code="0x010015">SSG Sound Effects #15 (SSGåŠ¹æœéŸ³ #15)</title>
+			<title code="0x010016">SSG Sound Effects #16 (SSGåŠ¹æœéŸ³ #16)</title>
+			<title code="0x010017">SSG Sound Effects #17 (SSGåŠ¹æœéŸ³ #17)</title>
+			<title code="0x010018">SSG Sound Effects #18 (SSGåŠ¹æœéŸ³ #18)</title>
+			<title code="0x010019">SSG Sound Effects #19 (SSGåŠ¹æœéŸ³ #19)</title>
+			<title code="0x01001a">SSG Sound Effects #1a (SSGåŠ¹æœéŸ³ #1a)</title>
+			<title code="0x01001b">SSG Sound Effects #1b (SSGåŠ¹æœéŸ³ #1b)</title>
+			<title code="0x01001c">SSG Sound Effects #1c (SSGåŠ¹æœéŸ³ #1c)</title>
+			<title code="0x01001d">SSG Sound Effects #1d (SSGåŠ¹æœéŸ³ #1d)</title>
+			<title code="0x010029">SSG Sound Effects #29 (SSGåŠ¹æœéŸ³ #29)</title>
+			<title code="0x01002a">SSG Sound Effects #2a (SSGåŠ¹æœéŸ³ #2a)</title>
+			<title code="0x01002b">SSG Sound Effects #2b (SSGåŠ¹æœéŸ³ #2b)</title>
+			<title code="0x01002c">SSG Sound Effects #2c (SSGåŠ¹æœéŸ³ #2c)</title>
+			<title code="0x01002d">SSG Sound Effects #2d (SSGåŠ¹æœéŸ³ #2d)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Wasureenu Honoo: Ardor Aeternus (–Y‚ê‚¦‚Ê‰Š -ARDOR AETERNUS-) (YM2203)</name>
+		<name>[PC-9801] Wasureenu Honoo: Ardor Aeternus (å¿˜ã‚Œãˆã¬ç‚ -ARDOR AETERNUS-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -543,59 +543,59 @@
 			<title code="0x000033">BGM #35</title>
 			<title code="0x000034">BGM #36</title>
 			<title code="0x000035">BGM #37</title>
-			<title code="0x010000">SFX #00 (Œø‰Ê‰¹ #00)</title>
-			<title code="0x010001">SFX #01 (Œø‰Ê‰¹ #01)</title>
-			<title code="0x010002">SFX #02 (Œø‰Ê‰¹ #02)</title>
-			<title code="0x010003">SFX #03 (Œø‰Ê‰¹ #03)</title>
-			<title code="0x010004">SFX #04 (Œø‰Ê‰¹ #04)</title>
-			<title code="0x010005">SFX #05 (Œø‰Ê‰¹ #05)</title>
-			<title code="0x010006">SFX #06 (Œø‰Ê‰¹ #06)</title>
-			<title code="0x010007">SFX #07 (Œø‰Ê‰¹ #07)</title>
-			<title code="0x010008">SFX #08 (Œø‰Ê‰¹ #08)</title>
-			<title code="0x010009">SFX #09 (Œø‰Ê‰¹ #09)</title>
-			<title code="0x01000a">SFX #0a (Œø‰Ê‰¹ #0a)</title>
-			<title code="0x01000b">SFX #0b (Œø‰Ê‰¹ #0b)</title>
-			<title code="0x01000c">SFX #0c (Œø‰Ê‰¹ #0c)</title>
-			<title code="0x01000d">SFX #0d (Œø‰Ê‰¹ #0d)</title>
-			<title code="0x01000e">SFX #0e (Œø‰Ê‰¹ #0e)</title>
-			<title code="0x01000f">SFX #0f (Œø‰Ê‰¹ #0f)</title>
-			<title code="0x010010">SFX #10 (Œø‰Ê‰¹ #10)</title>
-			<title code="0x010011">SFX #11 (Œø‰Ê‰¹ #11)</title>
-			<title code="0x010012">SFX #12 (Œø‰Ê‰¹ #12)</title>
-			<title code="0x010013">SFX #13 (Œø‰Ê‰¹ #13)</title>
-			<title code="0x010014">SFX #14 (Œø‰Ê‰¹ #14)</title>
-			<title code="0x010015">SFX #15 (Œø‰Ê‰¹ #15)</title>
-			<title code="0x010016">SFX #16 (Œø‰Ê‰¹ #16)</title>
-			<title code="0x010017">SFX #17 (Œø‰Ê‰¹ #17)</title>
-			<title code="0x010018">SFX #18 (Œø‰Ê‰¹ #18)</title>
-			<title code="0x010019">SFX #19 (Œø‰Ê‰¹ #19)</title>
-			<title code="0x01001a">SFX #1a (Œø‰Ê‰¹ #1a)</title>
-			<title code="0x01001b">SFX #1b (Œø‰Ê‰¹ #1b)</title>
-			<title code="0x01001c">SFX #1c (Œø‰Ê‰¹ #1c)</title>
-			<title code="0x01001d">SFX #1d (Œø‰Ê‰¹ #1d)</title>
-			<title code="0x01001e">SFX #1e (Œø‰Ê‰¹ #1e)</title>
-			<title code="0x01001f">SFX #1f (Œø‰Ê‰¹ #1f)</title>
-			<title code="0x010020">SFX #20 (Œø‰Ê‰¹ #20)</title>
-			<title code="0x010021">SFX #21 (Œø‰Ê‰¹ #21)</title>
-			<title code="0x010022">SFX #22 (Œø‰Ê‰¹ #22)</title>
-			<title code="0x010023">SFX #23 (Œø‰Ê‰¹ #23)</title>
-			<title code="0x010024">SFX #24 (Œø‰Ê‰¹ #24)</title>
-			<title code="0x010025">SFX #25 (Œø‰Ê‰¹ #25)</title>
-			<title code="0x010026">SFX #26 (Œø‰Ê‰¹ #26)</title>
-			<title code="0x010027">SFX #27 (Œø‰Ê‰¹ #27)</title>
-			<title code="0x010028">SFX #28 (Œø‰Ê‰¹ #28)</title>
-			<title code="0x010029">SFX #29 (Œø‰Ê‰¹ #29)</title>
-			<title code="0x01002a">SFX #2a (Œø‰Ê‰¹ #2a)</title>
-			<title code="0x01002b">SFX #2b (Œø‰Ê‰¹ #2b)</title>
-			<title code="0x01002c">SFX #2c (Œø‰Ê‰¹ #2c)</title>
-			<title code="0x01002d">SFX #2d (Œø‰Ê‰¹ #2d)</title>
-			<title code="0x01002e">SFX #2e (Œø‰Ê‰¹ #2e)</title>
-			<title code="0x01002f">SFX #2f (Œø‰Ê‰¹ #2f)</title>
-			<title code="0x010030">SFX #30 (Œø‰Ê‰¹ #30)</title>
+			<title code="0x010000">SFX #00 (åŠ¹æœéŸ³ #00)</title>
+			<title code="0x010001">SFX #01 (åŠ¹æœéŸ³ #01)</title>
+			<title code="0x010002">SFX #02 (åŠ¹æœéŸ³ #02)</title>
+			<title code="0x010003">SFX #03 (åŠ¹æœéŸ³ #03)</title>
+			<title code="0x010004">SFX #04 (åŠ¹æœéŸ³ #04)</title>
+			<title code="0x010005">SFX #05 (åŠ¹æœéŸ³ #05)</title>
+			<title code="0x010006">SFX #06 (åŠ¹æœéŸ³ #06)</title>
+			<title code="0x010007">SFX #07 (åŠ¹æœéŸ³ #07)</title>
+			<title code="0x010008">SFX #08 (åŠ¹æœéŸ³ #08)</title>
+			<title code="0x010009">SFX #09 (åŠ¹æœéŸ³ #09)</title>
+			<title code="0x01000a">SFX #0a (åŠ¹æœéŸ³ #0a)</title>
+			<title code="0x01000b">SFX #0b (åŠ¹æœéŸ³ #0b)</title>
+			<title code="0x01000c">SFX #0c (åŠ¹æœéŸ³ #0c)</title>
+			<title code="0x01000d">SFX #0d (åŠ¹æœéŸ³ #0d)</title>
+			<title code="0x01000e">SFX #0e (åŠ¹æœéŸ³ #0e)</title>
+			<title code="0x01000f">SFX #0f (åŠ¹æœéŸ³ #0f)</title>
+			<title code="0x010010">SFX #10 (åŠ¹æœéŸ³ #10)</title>
+			<title code="0x010011">SFX #11 (åŠ¹æœéŸ³ #11)</title>
+			<title code="0x010012">SFX #12 (åŠ¹æœéŸ³ #12)</title>
+			<title code="0x010013">SFX #13 (åŠ¹æœéŸ³ #13)</title>
+			<title code="0x010014">SFX #14 (åŠ¹æœéŸ³ #14)</title>
+			<title code="0x010015">SFX #15 (åŠ¹æœéŸ³ #15)</title>
+			<title code="0x010016">SFX #16 (åŠ¹æœéŸ³ #16)</title>
+			<title code="0x010017">SFX #17 (åŠ¹æœéŸ³ #17)</title>
+			<title code="0x010018">SFX #18 (åŠ¹æœéŸ³ #18)</title>
+			<title code="0x010019">SFX #19 (åŠ¹æœéŸ³ #19)</title>
+			<title code="0x01001a">SFX #1a (åŠ¹æœéŸ³ #1a)</title>
+			<title code="0x01001b">SFX #1b (åŠ¹æœéŸ³ #1b)</title>
+			<title code="0x01001c">SFX #1c (åŠ¹æœéŸ³ #1c)</title>
+			<title code="0x01001d">SFX #1d (åŠ¹æœéŸ³ #1d)</title>
+			<title code="0x01001e">SFX #1e (åŠ¹æœéŸ³ #1e)</title>
+			<title code="0x01001f">SFX #1f (åŠ¹æœéŸ³ #1f)</title>
+			<title code="0x010020">SFX #20 (åŠ¹æœéŸ³ #20)</title>
+			<title code="0x010021">SFX #21 (åŠ¹æœéŸ³ #21)</title>
+			<title code="0x010022">SFX #22 (åŠ¹æœéŸ³ #22)</title>
+			<title code="0x010023">SFX #23 (åŠ¹æœéŸ³ #23)</title>
+			<title code="0x010024">SFX #24 (åŠ¹æœéŸ³ #24)</title>
+			<title code="0x010025">SFX #25 (åŠ¹æœéŸ³ #25)</title>
+			<title code="0x010026">SFX #26 (åŠ¹æœéŸ³ #26)</title>
+			<title code="0x010027">SFX #27 (åŠ¹æœéŸ³ #27)</title>
+			<title code="0x010028">SFX #28 (åŠ¹æœéŸ³ #28)</title>
+			<title code="0x010029">SFX #29 (åŠ¹æœéŸ³ #29)</title>
+			<title code="0x01002a">SFX #2a (åŠ¹æœéŸ³ #2a)</title>
+			<title code="0x01002b">SFX #2b (åŠ¹æœéŸ³ #2b)</title>
+			<title code="0x01002c">SFX #2c (åŠ¹æœéŸ³ #2c)</title>
+			<title code="0x01002d">SFX #2d (åŠ¹æœéŸ³ #2d)</title>
+			<title code="0x01002e">SFX #2e (åŠ¹æœéŸ³ #2e)</title>
+			<title code="0x01002f">SFX #2f (åŠ¹æœéŸ³ #2f)</title>
+			<title code="0x010030">SFX #30 (åŠ¹æœéŸ³ #30)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Fifth Element 2: Hikari to Yami no Ouji (ƒtƒBƒtƒXEƒGƒŒƒƒ“ƒg2 -Œõ‚ÆˆÅ‚Ì‰¤q-) (YM2203)</name>
+		<name>[PC-9801] Fifth Element 2: Hikari to Yami no Ouji (ãƒ•ã‚£ãƒ•ã‚¹ãƒ»ã‚¨ãƒ¬ãƒ¡ãƒ³ãƒˆ2 -å…‰ã¨é—‡ã®ç‹å­-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -636,37 +636,37 @@
 			<rom type="shell" offset="0">mdznplay</rom>
 		</romlist>
 		<titlelist>
-			<title code="11">ƒI[ƒvƒjƒ“ƒO(main theme)</title>
-			<title code="12">ƒWƒƒƒ“ƒOƒ‹</title>
-			<title code="13">R</title>
-			<title code="14">“ì‹É</title>
-			<title code="15">‰_</title>
-			<title code="16">“V‹ó</title>
-			<title code="17">–‚‚Ì“´ŒA‚Ìƒe[ƒ}</title>
-			<title code="18">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="19">’¬‚Ìƒe[ƒ}(reprise)</title>
-			<title code="20">ô‚í‚ê‚½’¬‚Ìƒe[ƒ}</title>
-			<title code="21">ƒEƒBƒ‹ƒ_ƒlƒX</title>
-			<title code="22">“´ŒA‚Ìƒe[ƒ}(reprise)</title>
-			<title code="23">º“à‚Ìƒe[ƒ}(reprise)</title>
-			<title code="24">‘æ“ñ•”–`“ªƒCƒxƒ“ƒg</title>
-			<title code="25">‘æO•”–`“ªƒCƒxƒ“ƒg</title>
-			<title code="26">‘æl•”–`“ªƒCƒxƒ“ƒg</title>
-			<title code="27">‘æŒÜ•”–`“ªƒCƒxƒ“ƒg</title>
-			<title code="28">‘æ˜Z•”–`“ªƒCƒxƒ“ƒg</title>
-			<title code="29">í“¬</title>
-			<title code="30">ÅŒã‚Ìí“¬</title>
-			<title code="31">“X‚Ìƒe[ƒ}(reprise)</title>
-			<title code="32">‹³‰ï</title>
-			<title code="33">€‚ñ‚¾</title>
-			<title code="34">Œõ‚Ìƒe[ƒ}(reprise)</title>
-			<title code="35">’¬‚Ìƒe[ƒ}(new)</title>
-			<title code="36">“´ŒA‚Ìƒe[ƒ}(new)</title>
-			<title code="37">º“à‚Ìƒe[ƒ}(new)</title>
+			<title code="11">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°(main theme)</title>
+			<title code="12">ã‚¸ãƒ£ãƒ³ã‚°ãƒ«</title>
+			<title code="13">å±±</title>
+			<title code="14">å—æ¥µ</title>
+			<title code="15">é›²</title>
+			<title code="16">å¤©ç©º</title>
+			<title code="17">é­”ã®æ´çªŸã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="18">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="19">ç”ºã®ãƒ†ãƒ¼ãƒ(reprise)</title>
+			<title code="20">å‘ªã‚ã‚ŒãŸç”ºã®ãƒ†ãƒ¼ãƒ</title>
+			<title code="21">ã‚¦ã‚£ãƒ«ãƒ€ãƒã‚¹</title>
+			<title code="22">æ´çªŸã®ãƒ†ãƒ¼ãƒ(reprise)</title>
+			<title code="23">å®¤å†…ã®ãƒ†ãƒ¼ãƒ(reprise)</title>
+			<title code="24">ç¬¬äºŒéƒ¨å†’é ­ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="25">ç¬¬ä¸‰éƒ¨å†’é ­ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="26">ç¬¬å››éƒ¨å†’é ­ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="27">ç¬¬äº”éƒ¨å†’é ­ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="28">ç¬¬å…­éƒ¨å†’é ­ã‚¤ãƒ™ãƒ³ãƒˆ</title>
+			<title code="29">æˆ¦é—˜</title>
+			<title code="30">æœ€å¾Œã®æˆ¦é—˜</title>
+			<title code="31">åº—ã®ãƒ†ãƒ¼ãƒ(reprise)</title>
+			<title code="32">æ•™ä¼š</title>
+			<title code="33">æ­»ã‚“ã æ™‚</title>
+			<title code="34">å…‰ã®ãƒ†ãƒ¼ãƒ(reprise)</title>
+			<title code="35">ç”ºã®ãƒ†ãƒ¼ãƒ(new)</title>
+			<title code="36">æ´çªŸã®ãƒ†ãƒ¼ãƒ(new)</title>
+			<title code="37">å®¤å†…ã®ãƒ†ãƒ¼ãƒ(new)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] You-en-tai Kuusou Yuugi Series Vol.2: Nayuta no Sekai (—V‰‰‘Ì‹ó‘z—V‹Y Vol.2 “ß—R‘¼‚Ì¢ŠE) (YM2203)</name>
+		<name>[PC-9801] You-en-tai Kuusou Yuugi Series Vol.2: Nayuta no Sekai (éŠæ¼”ä½“ç©ºæƒ³éŠæˆ¯ Vol.2 é‚£ç”±ä»–ã®ä¸–ç•Œ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>
@@ -689,13 +689,13 @@
 			<title code="10">BGM #1</title>
 			<title code="11">BGM #2</title>
 			<title code="12">BGM #3</title>
-			<title code="13">–é÷ƒtƒ@ƒCƒg</title>
-			<title code="14">è‚¢</title>
-			<title code="15">ƒƒjƒ…[</title>
+			<title code="13">å¤œæ¡œãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="14">å ã„</title>
+			<title code="15">ãƒ¡ãƒ‹ãƒ¥ãƒ¼</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] You-en-tai Kuusou Yuugi Series Vol.1: Yozakura Dennou Ninpouchou (—V‰‰‘Ì‹ó‘z—V‹Y Vol.1 –é÷“d”]”E–@’Ÿ) (YM2203)</name>
+		<name>[PC-9801] You-en-tai Kuusou Yuugi Series Vol.1: Yozakura Dennou Ninpouchou (éŠæ¼”ä½“ç©ºæƒ³éŠæˆ¯ Vol.1 å¤œæ¡œé›»è„³å¿æ³•å¸–) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">You-en-tai</driveralias>
 		<options>

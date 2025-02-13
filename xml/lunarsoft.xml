@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //LUNAR SOFT -->
 	<game>
-		<name>[PC-9801] Resurrect (ƒŠƒUƒŒƒNƒg) (YM2203)</name>
+		<name>[PC-9801] Resurrect (ãƒªã‚¶ãƒ¬ã‚¯ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Lunar Soft</driveralias>
 		<options>
@@ -94,57 +94,57 @@
 			<rom type="shell" offset="0">magic_98</rom>
 		</romlist>
 		<titlelist>
-		<!-- Šï””Ô–Ú‚ª“à‘ ‰¹Œ¹—p,‹ô””Ô–Ú‚ª‚»‚Ì‘¼‰¹Œ¹—p -->
+		<!-- å¥‡æ•°ç•ªç›®ãŒå†…è”µéŸ³æºç”¨,å¶æ•°ç•ªç›®ãŒãã®ä»–éŸ³æºç”¨ -->
 <!--
-			<title code="0x610">_00.DAT : ‚Ü‚±‚ÆƒXƒe[ƒW</title>
-		 	<title code="0x612">_02.DAT : çˆŸ‹IƒXƒe[ƒW</title>
-		 	<title code="0x614">_04.DAT : ‚ ‚¢‚¿‚á‚ñƒXƒe[ƒW</title>
-		 	<title code="0x616">_06.DAT : ”`‚«Œ©ƒXƒe[ƒW</title>
-		 	<title code="0x618">_08.DAT : ƒAƒCƒRƒ“ƒoƒgƒ‹</title>
-		 	<title code="0x61a">_10.DAT : •üŽqƒXƒe[ƒW</title>
-		 	<title code="0x61c">_12.DAT : ƒAƒCƒRƒ“ƒoƒgƒ‹II</title>
-		 	<title code="0x61e">_14.DAT : ƒI[ƒvƒjƒ“ƒO</title>
-		 	<title code="0x620">_16.DAT : ‚³‚­‚çƒXƒe[ƒW</title>
-		 	<title code="0x622">_18.DAT : ƒGƒ“ƒfƒBƒ“ƒO</title>
-		 	<title code="0x624">_20.DAT : ŽDƒXƒe[ƒW</title>
-		 	<title code="0x626">_22.DAT : •üŽqƒXƒe[ƒWII</title>
-		 	<title code="0x628">_24.DAT : ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-		 	<title code="0x62a">_26.DAT : ˆ»ŽqƒXƒe[ƒW</title>
-		 	<title code="0x62c">_28.DAT : ˜L‰º‚Å‚â‚ñ‚·</title>
-		 	<title code="0x62e">_30.DAT : –¢Žg—p</title>
-		 	<title code="0x630">_32.DAT : –¢Žg—p</title>
-		 	<title code="0x632">_34.DAT : –¢Žg—p</title>
-		 	<title code="0x634">_36.DAT : –¢Žg—p</title>
-		 	<title code="0x636">_38.DAT : –¢Žg—p</title>
-		 	<title code="0x638">_40.DAT : –¢Žg—p</title>
+			<title code="0x610">_00.DAT : ã¾ã“ã¨ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x612">_02.DAT : åƒäºœç´€ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x614">_04.DAT : ã‚ã„ã¡ã‚ƒã‚“ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x616">_06.DAT : è¦—ãè¦‹ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x618">_08.DAT : ã‚¢ã‚¤ã‚³ãƒ³ãƒãƒˆãƒ«</title>
+		 	<title code="0x61a">_10.DAT : æœ‹å­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x61c">_12.DAT : ã‚¢ã‚¤ã‚³ãƒ³ãƒãƒˆãƒ«II</title>
+		 	<title code="0x61e">_14.DAT : ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+		 	<title code="0x620">_16.DAT : ã•ãã‚‰ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x622">_18.DAT : ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+		 	<title code="0x624">_20.DAT : è©©ç¹”ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x626">_22.DAT : æœ‹å­ã‚¹ãƒ†ãƒ¼ã‚¸II</title>
+		 	<title code="0x628">_24.DAT : ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+		 	<title code="0x62a">_26.DAT : ç¶¾å­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+		 	<title code="0x62c">_28.DAT : å»Šä¸‹ã§ã‚„ã‚“ã™</title>
+		 	<title code="0x62e">_30.DAT : æœªä½¿ç”¨</title>
+		 	<title code="0x630">_32.DAT : æœªä½¿ç”¨</title>
+		 	<title code="0x632">_34.DAT : æœªä½¿ç”¨</title>
+		 	<title code="0x634">_36.DAT : æœªä½¿ç”¨</title>
+		 	<title code="0x636">_38.DAT : æœªä½¿ç”¨</title>
+		 	<title code="0x638">_40.DAT : æœªä½¿ç”¨</title>
 		 	<title code="0x63a">_43.DAT : [STOP]</title>
 			<title code="0x63b">_44.DAT : [STOP]</title>
 -->
-			<title code="0x611">‚Ü‚±‚ÆƒXƒe[ƒW</title>
-			<title code="0x613">çˆŸ‹IƒXƒe[ƒW</title>
-			<title code="0x615">‚ ‚¢‚¿‚á‚ñƒXƒe[ƒW</title>
-			<title code="0x617">”`‚«Œ©ƒXƒe[ƒW</title>
-			<title code="0x619">ƒAƒCƒRƒ“ƒoƒgƒ‹</title>
-			<title code="0x61b">•üŽqƒXƒe[ƒW</title>
-			<title code="0x61d">ƒAƒCƒRƒ“ƒoƒgƒ‹II</title>
-			<title code="0x61f">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x621">‚³‚­‚çƒXƒe[ƒW</title>
-			<title code="0x623">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x625">ŽDƒXƒe[ƒW</title>
-			<title code="0x627">•üŽqƒXƒe[ƒWII</title>
-			<title code="0x629">ƒXƒ^ƒbƒtƒ[ƒ‹</title>
-			<title code="0x62b">ˆ»ŽqƒXƒe[ƒW</title>
-			<title code="0x62d">˜L‰º‚Å‚â‚ñ‚·</title>
-			<title code="0x62f">_31.DAT : –¢Žg—p</title>
-			<title code="0x631">_33.DAT : –¢Žg—p</title>
-			<title code="0x633">_35.DAT : –¢Žg—p</title>
-			<title code="0x635">_37.DAT : –¢Žg—p</title>
-			<title code="0x637">_39.DAT : –¢Žg—p</title>
-			<title code="0x639">_41.DAT : –¢Žg—p</title>
+			<title code="0x611">ã¾ã“ã¨ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x613">åƒäºœç´€ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x615">ã‚ã„ã¡ã‚ƒã‚“ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x617">è¦—ãè¦‹ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x619">ã‚¢ã‚¤ã‚³ãƒ³ãƒãƒˆãƒ«</title>
+			<title code="0x61b">æœ‹å­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x61d">ã‚¢ã‚¤ã‚³ãƒ³ãƒãƒˆãƒ«II</title>
+			<title code="0x61f">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x621">ã•ãã‚‰ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x623">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x625">è©©ç¹”ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x627">æœ‹å­ã‚¹ãƒ†ãƒ¼ã‚¸II</title>
+			<title code="0x629">ã‚¹ã‚¿ãƒƒãƒ•ãƒ­ãƒ¼ãƒ«</title>
+			<title code="0x62b">ç¶¾å­ã‚¹ãƒ†ãƒ¼ã‚¸</title>
+			<title code="0x62d">å»Šä¸‹ã§ã‚„ã‚“ã™</title>
+			<title code="0x62f">_31.DAT : æœªä½¿ç”¨</title>
+			<title code="0x631">_33.DAT : æœªä½¿ç”¨</title>
+			<title code="0x633">_35.DAT : æœªä½¿ç”¨</title>
+			<title code="0x635">_37.DAT : æœªä½¿ç”¨</title>
+			<title code="0x637">_39.DAT : æœªä½¿ç”¨</title>
+			<title code="0x639">_41.DAT : æœªä½¿ç”¨</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Sei Elemia Gakuen (¹ƒGƒŒƒ~ƒ„Šw‰€) (YM2203)</name>
+		<name>[PC-9801] Sei Elemia Gakuen (è–ã‚¨ãƒ¬ãƒŸãƒ¤å­¦åœ’) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Lunar Soft</driveralias>
 		<options>
@@ -189,7 +189,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Marginal Points (ƒ}[ƒWƒiƒ‹Eƒ|ƒCƒ“ƒg) (YM2203)</name>
+		<name>[PC-9801] Marginal Points (ãƒžãƒ¼ã‚¸ãƒŠãƒ«ãƒ»ãƒã‚¤ãƒ³ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Lunar Soft</driveralias>
 		<options>

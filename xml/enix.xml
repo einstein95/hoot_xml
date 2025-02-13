@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -51,22 +51,22 @@
 			<rom type="code" offset="0xd900">MUSIC1</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">‰˜HBGM</title>
-			<title code="0xff">•œ˜HBGM</title>
+			<title code="0x00">å¾€è·¯BGM</title>
+			<title code="0xff">å¾©è·¯BGM</title>
 			<title code="0x01">Stop</title>
 			<title code="0x02">Extend</title>
 			<title code="0x03">Round Clear</title>
-			<title code="0x04">ƒtƒB[ƒ`ƒƒ[</title>
+			<title code="0x04">ãƒ•ã‚£ãƒ¼ãƒãƒ£ãƒ¼</title>
 			<title code="0x05">Goal</title>
 			<title code="0x06">Game Over</title>
-			<title code="0x07">ÚG</title>
+			<title code="0x07">æŽ¥è§¦</title>
 			<title code="0x08">SFX</title>
-			<title code="0x09">—Ž‰º</title>
-			<title code="0x0a">ƒ~ƒX</title>
-			<title code="0x0b">ƒpƒ[ƒGƒT</title>
-			<title code="0x0c">ƒ‚ƒ“ƒXƒ^[H‚¤</title>
+			<title code="0x09">è½ä¸‹</title>
+			<title code="0x0a">ãƒŸã‚¹</title>
+			<title code="0x0b">ãƒ‘ãƒ¯ãƒ¼ã‚¨ã‚µ</title>
+			<title code="0x0c">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼é£Ÿã†</title>
 			<title code="0x0d">Round Start</title>
-			<title code="0x0e">ƒNƒŒƒWƒbƒg</title>
+			<title code="0x0e">ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
@@ -159,7 +159,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Gandhara: Crusade of the Buddha (ƒKƒ“ƒ_[ƒ‰ `•§‘É‚Ì¹í`) (YM2203)</name>
+		<name>[PC-8801] Gandhara: Crusade of the Buddha (ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ© ï½žä»é™€ã®è–æˆ¦ï½ž) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -202,38 +202,38 @@
 			<rom type="bgm" offset="0x1b">ENDING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">Sound Effect #0 (Œø‰Ê‰¹#0)</title>
-			<title code="0x00000001">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x00000002">The Road to Gandhara - Warrior of Buddha (ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm|)</title>
-			<title code="0x00000003">Lotus Land (“Œ•ûŒ¶‘z)</title>
-			<title code="0x00000004">Transmigration (“]¶—Ö‰ô)</title>
-			<title code="0x00000005">The Secular (¢‘­)</title>
-			<title code="0x00000006">Sound Effect #1 (Œø‰Ê‰¹#1)</title>
-			<title code="0x00000007">Lotus (˜@‰Ø)</title>
-			<title code="0x00000008">New Rank (‚ ‚ç‚½‚ÈˆÊ)</title>
-			<title code="0x00000009">The Netherworld (–»•{–‚“¹)</title>
-			<title code="0x0200000a">To the Heavens (“VãŠE‚Ö)</title>
-			<title code="0x0000000b">Under the Banyan Tree (•ì’ñŽ÷‚Ì‰º)</title>
-			<title code="0x0000000c">Jingle (ƒWƒ“ƒOƒ‹)</title>
-		<!--	<title code="0x0000000d">SFX #0 (Œø‰Ê‰¹#0)</title> -->
-			<title code="0x0000000e">The Netherworld (Tunnel) (–»•{–‚“¹(’n‰º“¹))</title>
-			<title code="0x0000000f">Obtaining the Buddha's Urn (•§ŽÉ—˜’Ù‚Ì“üŽè)</title>
-			<title code="0x00000010">Tranquility (Žâ)</title>
-			<title code="0x00000011">Dark God (Ž×_)</title>
-			<title code="0x00000012">Garuda (‰Þ˜O—…)</title>
-			<title code="0x00000013">Peace (•½ˆÀ)</title>
-			<title code="0x01000014">Human Realm (lŠÔŠE)</title>
-			<title code="0x01000015">Infernal Realm (’n–ŠE)</title>
-			<title code="0x01000016">Ghoul Realm (‰ì‹SŠE)</title>
-			<title code="0x01000017">Beast Realm (’{¶ŠE)</title>
-			<title code="0x01000018">Asura Realm (C—…ŠE)</title>
-			<title code="0x01000019">Heavenly Realm (“VãŠE)</title>
-			<title code="0x0000001a">The Road to Gandhara (Epilogue) (ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm| (ƒGƒsƒ[ƒO))</title>
-			<title code="0x0000001b">The Six Unenlightened Realms (˜Z–}ŠE)</title>
+			<title code="0x00000000">Sound Effect #0 (åŠ¹æžœéŸ³#0)</title>
+			<title code="0x00000001">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x00000002">The Road to Gandhara - Warrior of Buddha (ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼)</title>
+			<title code="0x00000003">Lotus Land (æ±æ–¹å¹»æƒ³)</title>
+			<title code="0x00000004">Transmigration (è»¢ç”Ÿè¼ªå»»)</title>
+			<title code="0x00000005">The Secular (ä¸–ä¿—)</title>
+			<title code="0x00000006">Sound Effect #1 (åŠ¹æžœéŸ³#1)</title>
+			<title code="0x00000007">Lotus (è“®è¯)</title>
+			<title code="0x00000008">New Rank (ã‚ã‚‰ãŸãªä½)</title>
+			<title code="0x00000009">The Netherworld (å†¥åºœé­”é“)</title>
+			<title code="0x0200000a">To the Heavens (å¤©ä¸Šç•Œã¸)</title>
+			<title code="0x0000000b">Under the Banyan Tree (è©ææ¨¹ã®ä¸‹)</title>
+			<title code="0x0000000c">Jingle (ã‚¸ãƒ³ã‚°ãƒ«)</title>
+		<!--	<title code="0x0000000d">SFX #0 (åŠ¹æžœéŸ³#0)</title> -->
+			<title code="0x0000000e">The Netherworld (Tunnel) (å†¥åºœé­”é“(åœ°ä¸‹é“))</title>
+			<title code="0x0000000f">Obtaining the Buddha's Urn (ä»èˆŽåˆ©å£·ã®å…¥æ‰‹)</title>
+			<title code="0x00000010">Tranquility (å¯‚)</title>
+			<title code="0x00000011">Dark God (é‚ªç¥ž)</title>
+			<title code="0x00000012">Garuda (è¿¦æ¥¼ç¾…)</title>
+			<title code="0x00000013">Peace (å¹³å®‰)</title>
+			<title code="0x01000014">Human Realm (äººé–“ç•Œ)</title>
+			<title code="0x01000015">Infernal Realm (åœ°ç„ç•Œ)</title>
+			<title code="0x01000016">Ghoul Realm (é¤“é¬¼ç•Œ)</title>
+			<title code="0x01000017">Beast Realm (ç•œç”Ÿç•Œ)</title>
+			<title code="0x01000018">Asura Realm (ä¿®ç¾…ç•Œ)</title>
+			<title code="0x01000019">Heavenly Realm (å¤©ä¸Šç•Œ)</title>
+			<title code="0x0000001a">The Road to Gandhara (Epilogue) (ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼ (ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°))</title>
+			<title code="0x0000001b">The Six Unenlightened Realms (å…­å‡¡ç•Œ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Dragon Buster (ƒhƒ‰ƒSƒ“ƒoƒXƒ^[) (YM2203)</name>
+		<name>[PC-8801] Dragon Buster (ãƒ‰ãƒ©ã‚´ãƒ³ãƒã‚¹ã‚¿ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -244,41 +244,41 @@
 			<rom type="code" offset="0x7000">DRIVER</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xc700000b">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0xc7000000">Start Music (ƒXƒ^[ƒgƒ~ƒ…[ƒWƒbƒN)</title>
-			<title code="0xc7000002">Rocky Mountain (BGMŠâŽR)</title>
-			<title code="0xc7000003">BGMƒŒƒ“ƒK</title>
-			<title code="0xc7000004">BGMƒJƒ^ƒRƒ“ƒx</title>
-			<title code="0xc7000005">BGMß“û“´</title>
-			<title code="0xc7000006">BGMƒ‹[ƒ€ƒK[ƒ_[</title>
-			<title code="0xc7000009">ƒhƒ‰ƒSƒ“Á–Å</title>
-			<title code="0x9a000007">ƒZƒŠƒA•P“oêƒ~ƒ…[ƒWƒbƒN(INTRO)</title>
-			<title code="0x9a000008">ƒZƒŠƒA•P“oêƒ~ƒ…[ƒWƒbƒN</title>
-			<title code="0xc700000a">Health Alert (‘Ì—ÍŒx‰¹)</title>
-			<title code="0xc7000001">Game Over Sound (ƒQ[ƒ€ƒI[ƒo[ƒTƒEƒ“ƒh)</title>
-			<title code="0xc700000c">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x00000080">SFX Walking on the Map (ƒ}ƒbƒv•às)</title>
-			<title code="0x00000081">SFX Entering a Dungeon (ƒ_ƒ“ƒWƒ‡ƒ““üo)</title>
-			<title code="0x00000082">SFX Jump (ƒWƒƒƒ“ƒv)</title>
-			<title code="0x00000083">SFX ƒNƒTƒŠˆÚ“®</title>
-			<title code="0x00000084">SFX Getting an Item (ƒAƒCƒeƒ€Žæ“¾)</title>
-			<title code="0x00000085">SFX Swinging a Sword (Œ•‚ðU‚é)</title>
-			<title code="0x00000086">SFX Killing the Enemy (“G‚ðŽa‚é)</title>
-			<title code="0x00000087">SFX Hitting the Sword (Œ•‚ª‚Ô‚Â‚©‚é)</title>
-			<title code="0x00000088">SFX Fireball Fired (ƒtƒ@ƒCƒAƒ{[ƒ‹”­ŽË)</title>
-			<title code="0x00000089">SFX Fireball Hit (ƒtƒ@ƒCƒAƒ{[ƒ‹ƒqƒbƒg)</title>
-			<title code="0x0000008a">SFX Damage (ƒ_ƒ[ƒW)</title>
-			<title code="0x0000008b">SFX Dragon Blowing Fire (ƒhƒ‰ƒSƒ“‰Î‚«)</title>
-			<title code="0x0000008c">SFX ƒCƒmƒTƒC&amp;ƒeƒXƒg[ƒ‹ˆÚ“®</title>
-			<title code="0x0000008d">SFX Bat, Slime, Will-O-The Wisp Flying (ƒoƒbƒgAƒXƒ‰ƒCƒ€AƒEƒBƒ‹EƒI[EƒUEƒEƒBƒXƒv”ò—ˆ)</title>
-			<title code="0x0000008e">SFX Bishop Spell Fire (ƒrƒVƒ‡ƒbƒvŽô•¶”­ŽË)</title>
-			<title code="0x0000008f">SFX Cave Shark (ƒP[ƒuƒVƒƒ[ƒN)</title>
-			<title code="0x00000090">SFX Vitality Increase/Decrease (ƒoƒCƒeƒŠƒeƒB‘Œ¸)</title>
-			<title code="0x00000091">SFX Dragon Kill (ƒhƒ‰ƒSƒ“Ža‚é)</title>
+			<title code="0xc700000b">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0xc7000000">Start Music (ã‚¹ã‚¿ãƒ¼ãƒˆãƒŸãƒ¥ãƒ¼ã‚¸ãƒƒã‚¯)</title>
+			<title code="0xc7000002">Rocky Mountain (BGMå²©å±±)</title>
+			<title code="0xc7000003">BGMãƒ¬ãƒ³ã‚¬</title>
+			<title code="0xc7000004">BGMã‚«ã‚¿ã‚³ãƒ³ãƒ™</title>
+			<title code="0xc7000005">BGMé¾ä¹³æ´ž</title>
+			<title code="0xc7000006">BGMãƒ«ãƒ¼ãƒ ã‚¬ãƒ¼ãƒ€ãƒ¼</title>
+			<title code="0xc7000009">ãƒ‰ãƒ©ã‚´ãƒ³æ¶ˆæ»…</title>
+			<title code="0x9a000007">ã‚»ãƒªã‚¢å§«ç™»å ´ãƒŸãƒ¥ãƒ¼ã‚¸ãƒƒã‚¯(INTRO)</title>
+			<title code="0x9a000008">ã‚»ãƒªã‚¢å§«ç™»å ´ãƒŸãƒ¥ãƒ¼ã‚¸ãƒƒã‚¯</title>
+			<title code="0xc700000a">Health Alert (ä½“åŠ›è­¦å‘ŠéŸ³)</title>
+			<title code="0xc7000001">Game Over Sound (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼ã‚µã‚¦ãƒ³ãƒ‰)</title>
+			<title code="0xc700000c">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x00000080">SFX Walking on the Map (ãƒžãƒƒãƒ—æ­©è¡Œ)</title>
+			<title code="0x00000081">SFX Entering a Dungeon (ãƒ€ãƒ³ã‚¸ãƒ§ãƒ³å…¥å‡º)</title>
+			<title code="0x00000082">SFX Jump (ã‚¸ãƒ£ãƒ³ãƒ—)</title>
+			<title code="0x00000083">SFX ã‚¯ã‚µãƒªç§»å‹•</title>
+			<title code="0x00000084">SFX Getting an Item (ã‚¢ã‚¤ãƒ†ãƒ å–å¾—)</title>
+			<title code="0x00000085">SFX Swinging a Sword (å‰£ã‚’æŒ¯ã‚‹)</title>
+			<title code="0x00000086">SFX Killing the Enemy (æ•µã‚’æ–¬ã‚‹)</title>
+			<title code="0x00000087">SFX Hitting the Sword (å‰£ãŒã¶ã¤ã‹ã‚‹)</title>
+			<title code="0x00000088">SFX Fireball Fired (ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«ç™ºå°„)</title>
+			<title code="0x00000089">SFX Fireball Hit (ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«ãƒ’ãƒƒãƒˆ)</title>
+			<title code="0x0000008a">SFX Damage (ãƒ€ãƒ¡ãƒ¼ã‚¸)</title>
+			<title code="0x0000008b">SFX Dragon Blowing Fire (ãƒ‰ãƒ©ã‚´ãƒ³ç«å¹ã)</title>
+			<title code="0x0000008c">SFX ã‚¤ãƒŽã‚µã‚¤&amp;ãƒ†ã‚¹ãƒˆãƒ¼ãƒ«ç§»å‹•</title>
+			<title code="0x0000008d">SFX Bat, Slime, Will-O-The Wisp Flying (ãƒãƒƒãƒˆã€ã‚¹ãƒ©ã‚¤ãƒ ã€ã‚¦ã‚£ãƒ«ãƒ»ã‚ªãƒ¼ãƒ»ã‚¶ãƒ»ã‚¦ã‚£ã‚¹ãƒ—é£›æ¥)</title>
+			<title code="0x0000008e">SFX Bishop Spell Fire (ãƒ“ã‚·ãƒ§ãƒƒãƒ—å‘ªæ–‡ç™ºå°„)</title>
+			<title code="0x0000008f">SFX Cave Shark (ã‚±ãƒ¼ãƒ–ã‚·ãƒ£ãƒ¼ã‚¯)</title>
+			<title code="0x00000090">SFX Vitality Increase/Decrease (ãƒã‚¤ãƒ†ãƒªãƒ†ã‚£å¢—æ¸›)</title>
+			<title code="0x00000091">SFX Dragon Kill (ãƒ‰ãƒ©ã‚´ãƒ³æ–¬ã‚‹)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Wingman 2: Rebirth of Kitakura (ƒEƒCƒ“ƒOƒ}ƒ“2 ƒL[ƒ^ƒNƒ‰[‚Ì•œŠˆ) (YM2203)</name>
+		<name>[PC-8801] Wingman 2: Rebirth of Kitakura (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³2 ã‚­ãƒ¼ã‚¿ã‚¯ãƒ©ãƒ¼ã®å¾©æ´») (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -299,15 +299,15 @@
 			<rom type="bgm" offset="0x04">MDAT</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Wingman 2 ~Opening~ (ƒEƒCƒ“ƒOƒ}ƒ“2 `ƒI[ƒvƒjƒ“ƒO`)</title>
-			<title code="0x02">Coffee Break (ƒR[ƒq[ƒuƒŒƒCƒN)</title>
-			<title code="0x01">Battle (í“¬)</title>
-			<title code="0x03">Demo (ƒfƒ‚)</title>
-			<title code="0x04">Wingman 2 ~Ending Theme (ƒEƒCƒ“ƒOƒ}ƒ“2 `I‹È`)</title>
+			<title code="0x00">Wingman 2 ~Opening~ (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³2 ï½žã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ï½ž)</title>
+			<title code="0x02">Coffee Break (ã‚³ãƒ¼ãƒ’ãƒ¼ãƒ–ãƒ¬ã‚¤ã‚¯)</title>
+			<title code="0x01">Battle (æˆ¦é—˜)</title>
+			<title code="0x03">Demo (ãƒ‡ãƒ¢)</title>
+			<title code="0x04">Wingman 2 ~Ending Theme (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³2 ï½žçµ‚æ›²ï½ž)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ƒEƒCƒ“ƒOƒ}ƒ“ƒXƒyƒVƒƒƒ‹ -‚³‚ç‚Î–²íŽm-) (YM2608)</name>
+		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³ã‚¹ãƒšã‚·ãƒ£ãƒ« -ã•ã‚‰ã°å¤¢æˆ¦å£«-) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -316,10 +316,10 @@
 		<romlist archive="wingsp88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0500">mibgm.mac</rom>
-			<rom type="code" offset="0x15a0">¾ÝÄ°.mus</rom>
-			<rom type="code" offset="0x18b0">¾ÝÄ°1.mus</rom>
+			<rom type="code" offset="0x15a0">ï½¾ï¾ï¾„ï½°.mus</rom>
+			<rom type="code" offset="0x18b0">ï½¾ï¾ï¾„ï½°1.mus</rom>
 			<rom type="code" offset="0x5000">musics.mac</rom>
-			<rom type="code" offset="0xa100">¾ÝÄ°2.mus</rom>
+			<rom type="code" offset="0xa100">ï½¾ï¾ï¾„ï½°2.mus</rom>
 			<rom type="bgm" offset="0x00">AOI.ST</rom>
 			<rom type="bgm" offset="0x01">BBOS.ST</rom>
 			<rom type="bgm" offset="0x02">OPEN.ST</rom>
@@ -334,13 +334,13 @@
 			<title code="0x00000001">Big.Boss</title>
 			<title code="0x00000000">Aoi</title>
 			<title code="0x00000005">Last Wing</title>
-			<title code="0x000000ff">í“¬ƒ‚[ƒhBGM</title>
-			<title code="0x010000ff">í“¬ƒ‚[ƒhŒø‰Ê‰¹#1</title>
-			<title code="0x020000ff">í“¬ƒ‚[ƒhŒø‰Ê‰¹#2</title>
+			<title code="0x000000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰BGM</title>
+			<title code="0x010000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰åŠ¹æžœéŸ³#1</title>
+			<title code="0x020000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰åŠ¹æžœéŸ³#2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ƒEƒCƒ“ƒOƒ}ƒ“ƒXƒyƒVƒƒƒ‹ -‚³‚ç‚Î–²íŽm-) (YM2203)</name>
+		<name>[PC-8801] Wingman Special: Farewell Dream Warrior (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³ã‚¹ãƒšã‚·ãƒ£ãƒ« -ã•ã‚‰ã°å¤¢æˆ¦å£«-) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -349,10 +349,10 @@
 		<romlist archive="wingsp88">
 			<rom type="code" offset="0x0000">PATCH</rom>
 			<rom type="code" offset="0x0500">mibgm.mac</rom>
-			<rom type="code" offset="0x15a0">¾ÝÄ°.mus</rom>
-			<rom type="code" offset="0x18b0">¾ÝÄ°1.mus</rom>
+			<rom type="code" offset="0x15a0">ï½¾ï¾ï¾„ï½°.mus</rom>
+			<rom type="code" offset="0x18b0">ï½¾ï¾ï¾„ï½°1.mus</rom>
 			<rom type="code" offset="0x5000">music.mac</rom>
-			<rom type="code" offset="0xa100">¾ÝÄ°2.mus</rom>
+			<rom type="code" offset="0xa100">ï½¾ï¾ï¾„ï½°2.mus</rom>
 			<rom type="bgm" offset="0x00">AOI.MUS</rom>
 			<rom type="bgm" offset="0x01">BBOS.mus</rom>
 			<rom type="bgm" offset="0x02">op.mus</rom>
@@ -367,13 +367,13 @@
 			<title code="0x00000001">Big.Boss</title>
 			<title code="0x00000000">Aoi</title>
 			<title code="0x00000005">Last Wing</title>
-			<title code="0x000000ff">í“¬ƒ‚[ƒhBGM</title>
-			<title code="0x010000ff">í“¬ƒ‚[ƒhŒø‰Ê‰¹#1</title>
-			<title code="0x020000ff">í“¬ƒ‚[ƒhŒø‰Ê‰¹#2</title>
+			<title code="0x000000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰BGM</title>
+			<title code="0x010000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰åŠ¹æžœéŸ³#1</title>
+			<title code="0x020000ff">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰åŠ¹æžœéŸ³#2</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`) (YM2203)</name>
+		<name>[PC-8801] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž) (YM2203)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="angelus88">
@@ -417,29 +417,29 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">Prologue (ƒvƒƒ[ƒO)</title>
-			<title code="0x1b">The Glittering Blue Stone (Â‚¢Î‚Ì‚«‚ç‚ß‚«)</title>
-			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`)</title>
-			<title code="0x06">Brian and Eris (ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX)</title>
-			<title code="0x0f">Transfiguration ~Seva's Warning~ (•Ï–e`ƒZƒ”ƒ@‚ÌŒx`)</title>
-			<title code="0x16">Blue Object ~Nostalgia~ (ƒuƒ‹[EƒIƒuƒWƒF`‹½D`)</title>
-			<title code="0x15">Evangel on Gnosis (ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX)</title>
-			<title code="0x19">Nocturne of Sadness (”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“)</title>
-			<title code="0x05">Eris in Japan (ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“)</title>
-			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`)</title>
-			<title code="0x13">Love's Sympathy ~Ver. II~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`)</title>
-			<title code="0x17">Hard Days (ƒn[ƒhEƒfƒCƒY)</title>
-			<title code="0x0e">Eris in Germany (ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[)</title>
-			<title code="0x10">Transfiguration ~Ver. II~ (•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`)</title>
-			<title code="0x08">Prophet (—\Œ¾ŽÒ)</title>
-			<title code="0x14">Love's Sympathy ~Ver. III~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`)</title>
-			<title code="0x09">Wandering Psyche (œfœr‚¢‚ÌƒvƒVƒ…ƒP)</title>
-			<title code="0x0c">Beyond the Collapse (•ö‰ó‚Ì”Þ•û)</title>
-			<title code="0x02">Epilogue (ƒGƒsƒ[ƒO)</title>
-			<title code="0x0d">In Peru Park (ƒyƒ‹[Œö‰€‚É‚Ä)</title>
-			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver1SNG`)</title>
-			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver2SSS`)</title>
-			<title code="0x0a">Wandering Psyche (Alternate Ver.) (œfœr‚¢‚ÌƒvƒVƒ…ƒP(•Êƒo[ƒWƒ‡ƒ“))</title>
+			<title code="0x18">Prologue (ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x1b">The Glittering Blue Stone (é’ã„çŸ³ã®ãã‚‰ã‚ã)</title>
+			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž)</title>
+			<title code="0x06">Brian and Eris (ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹)</title>
+			<title code="0x0f">Transfiguration ~Seva's Warning~ (å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž)</title>
+			<title code="0x16">Blue Object ~Nostalgia~ (ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž)</title>
+			<title code="0x15">Evangel on Gnosis (ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹)</title>
+			<title code="0x19">Nocturne of Sadness (æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³)</title>
+			<title code="0x05">Eris in Japan (ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³)</title>
+			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž)</title>
+			<title code="0x13">Love's Sympathy ~Ver. II~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž)</title>
+			<title code="0x17">Hard Days (ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º)</title>
+			<title code="0x0e">Eris in Germany (ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼)</title>
+			<title code="0x10">Transfiguration ~Ver. II~ (å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž)</title>
+			<title code="0x08">Prophet (äºˆè¨€è€…)</title>
+			<title code="0x14">Love's Sympathy ~Ver. III~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž)</title>
+			<title code="0x09">Wandering Psyche (å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±)</title>
+			<title code="0x0c">Beyond the Collapse (å´©å£Šã®å½¼æ–¹)</title>
+			<title code="0x02">Epilogue (ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x0d">In Peru Park (ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦)</title>
+			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer1SNGï½ž)</title>
+			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer2SSSï½ž)</title>
+			<title code="0x0a">Wandering Psyche (Alternate Ver.) (å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±(åˆ¥ãƒãƒ¼ã‚¸ãƒ§ãƒ³))</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x1c">SFX #02</title>
 			<title code="0x1d">SFX #03</title>
@@ -456,7 +456,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`) (YM2608)</name>
+		<name>[PC-8801] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž) (YM2608)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="angelus88">
@@ -500,29 +500,29 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x18">Prologue (ƒvƒƒ[ƒO)</title>
-			<title code="0x1b">The Glittering Blue Stone (Â‚¢Î‚Ì‚«‚ç‚ß‚«)</title>
-			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`)</title>
-			<title code="0x06">Brian and Eris (ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX)</title>
-			<title code="0x0f">Transfiguration ~Seva's Warning~ (•Ï–e`ƒZƒ”ƒ@‚ÌŒx`)</title>
-			<title code="0x16">Blue Object ~Nostalgia~ (ƒuƒ‹[EƒIƒuƒWƒF`‹½D`)</title>
-			<title code="0x15">Evangel on Gnosis (ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX)</title>
-			<title code="0x19">Nocturne of Sadness (”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“)</title>
-			<title code="0x05">Eris in Japan (ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“)</title>
-			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`)</title>
-			<title code="0x13">Love's Sympathy ~Ver. II~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`)</title>
-			<title code="0x17">Hard Days (ƒn[ƒhEƒfƒCƒY)</title>
-			<title code="0x0e">Eris in Germany (ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[)</title>
-			<title code="0x10">Transfiguration ~Ver. II~ (•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`)</title>
-			<title code="0x08">Prophet (—\Œ¾ŽÒ)</title>
-			<title code="0x14">Love's Sympathy ~Ver. III~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`)</title>
-			<title code="0x09">Wandering Psyche (œfœr‚¢‚ÌƒvƒVƒ…ƒP)</title>
-			<title code="0x0c">Beyond the Collapse (•ö‰ó‚Ì”Þ•û)</title>
-			<title code="0x02">Epilogue (ƒGƒsƒ[ƒO)</title>
-			<title code="0x0d">In Peru Park (ƒyƒ‹[Œö‰€‚É‚Ä)</title>
-			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver1SNG`)</title>
-			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver2SSS`)</title>
-			<title code="0x0a">Wandering Psyche (Alternate Ver.) (œfœr‚¢‚ÌƒvƒVƒ…ƒP(•Êƒo[ƒWƒ‡ƒ“))</title>
+			<title code="0x18">Prologue (ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x1b">The Glittering Blue Stone (é’ã„çŸ³ã®ãã‚‰ã‚ã)</title>
+			<title code="0x12">Love's Sympathy ~Angelus's Theme~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž)</title>
+			<title code="0x06">Brian and Eris (ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹)</title>
+			<title code="0x0f">Transfiguration ~Seva's Warning~ (å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž)</title>
+			<title code="0x16">Blue Object ~Nostalgia~ (ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž)</title>
+			<title code="0x15">Evangel on Gnosis (ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹)</title>
+			<title code="0x19">Nocturne of Sadness (æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³)</title>
+			<title code="0x05">Eris in Japan (ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³)</title>
+			<title code="0x1a">Peru Theme ~Jigsaw Town~ (ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž)</title>
+			<title code="0x13">Love's Sympathy ~Ver. II~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž)</title>
+			<title code="0x17">Hard Days (ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º)</title>
+			<title code="0x0e">Eris in Germany (ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼)</title>
+			<title code="0x10">Transfiguration ~Ver. II~ (å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž)</title>
+			<title code="0x08">Prophet (äºˆè¨€è€…)</title>
+			<title code="0x14">Love's Sympathy ~Ver. III~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž)</title>
+			<title code="0x09">Wandering Psyche (å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±)</title>
+			<title code="0x0c">Beyond the Collapse (å´©å£Šã®å½¼æ–¹)</title>
+			<title code="0x02">Epilogue (ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x0d">In Peru Park (ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦)</title>
+			<title code="0x03">Love's Sympathy ~Ver. 1 SNG~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer1SNGï½ž)</title>
+			<title code="0x04">Love's Sympathy ~Ver. 2 SSS~ (æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer2SSSï½ž)</title>
+			<title code="0x0a">Wandering Psyche (Alternate Ver.) (å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±(åˆ¥ãƒãƒ¼ã‚¸ãƒ§ãƒ³))</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x1c">SFX #02</title>
 			<title code="0x1d">SFX #03</title>
@@ -539,7 +539,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Old Village Story (ƒI[ƒ‹ƒhEƒ”ƒBƒŒƒbƒWEƒXƒg[ƒŠ[) (YM2608)</name>
+		<name>[PC-8801] Old Village Story (ã‚ªãƒ¼ãƒ«ãƒ‰ãƒ»ãƒ´ã‚£ãƒ¬ãƒƒã‚¸ãƒ»ã‚¹ãƒˆãƒ¼ãƒªãƒ¼) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="oldv">
@@ -569,41 +569,41 @@
 			<rom type="bgm" offset="0x15">TOWN-2.M2</rom>
 			<rom type="bgm" offset="0x16">WALTZ.M2</rom>
 			<rom type="bgm" offset="0x17">WOOD-1.M2</rom>
-			<rom type="bgm" offset="0x18">ËÞ¯¸Ø.M2</rom>
+			<rom type="bgm" offset="0x18">ï¾‹ï¾žï½¯ï½¸ï¾˜.M2</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x12">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x16">Village (‘º)</title>
+			<title code="0x12">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x16">Village (æ‘)</title>
 			<title code="0x00">BAROQU.M2</title>
 			<title code="0x01">CASL-1.M2</title>
-			<title code="0x02">Field 2 (ƒtƒB[ƒ‹ƒh2)</title>
+			<title code="0x02">Field 2 (ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰2)</title>
 			<title code="0x03">EMERG.M2</title>
-			<title code="0x04">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
+			<title code="0x04">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
 			<title code="0x05">HOLE-1.M2</title>
-			<title code="0x06">Showdown! Sylph (Boss Battle) (‘ÎŒˆ!ƒVƒ‹ƒt (ƒ{ƒXí))</title>
+			<title code="0x06">Showdown! Sylph (Boss Battle) (å¯¾æ±º!ã‚·ãƒ«ãƒ• (ãƒœã‚¹æˆ¦))</title>
 			<title code="0x07">KIKI-2.M2</title>
-			<title code="0x08">Castle (é)</title>
+			<title code="0x08">Castle (åŸŽ)</title>
 			<title code="0x09">KING-2.M2</title>
-			<title code="0x0a">Nobles' Town (‹M‘°‚ÌŠX)</title>
-			<title code="0x0c">Whale (ƒNƒWƒ‰)</title>
+			<title code="0x0a">Nobles' Town (è²´æ—ã®è¡—)</title>
+			<title code="0x0c">Whale (ã‚¯ã‚¸ãƒ©)</title>
 			<title code="0x0b">KUJI-2.M2</title>
-			<title code="0x0d">Dungeon (ƒ_ƒ“ƒWƒ‡ƒ“)</title>
-			<title code="0x0e">Adrift (•Y—¬)</title>
+			<title code="0x0d">Dungeon (ãƒ€ãƒ³ã‚¸ãƒ§ãƒ³)</title>
+			<title code="0x0e">Adrift (æ¼‚æµ)</title>
 			<title code="0x0f">OH!!!.M2</title>
 			<title code="0x10">OH!.M2</title>
 			<title code="0x11">SOROW5.M2</title>
 			<title code="0x13">TOKEI.M2</title>
-			<title code="0x14">Castle Town (é‰º’¬)</title>
+			<title code="0x14">Castle Town (åŸŽä¸‹ç”º)</title>
 			<title code="0x15">TOWN-2.M2</title>
-			<title code="0x17">Field 1 (ƒtƒB[ƒ‹ƒh1)</title>
-			<title code="0x18">Jingle (ƒWƒ“ƒOƒ‹)</title>
-			<title code="0xfd">Change Tempo (Slow) (ƒeƒ“ƒ|•ÏX(’x‚¢))</title>
-			<title code="0xfe">Change Tempo (Fast) (ƒeƒ“ƒ|•ÏX(‘¬‚¢))</title>
-			<title code="0xff">Change Tempo (Normal) (ƒeƒ“ƒ|•ÏX(’Êí))</title>
+			<title code="0x17">Field 1 (ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰1)</title>
+			<title code="0x18">Jingle (ã‚¸ãƒ³ã‚°ãƒ«)</title>
+			<title code="0xfd">Change Tempo (Slow) (ãƒ†ãƒ³ãƒå¤‰æ›´(é…ã„))</title>
+			<title code="0xfe">Change Tempo (Fast) (ãƒ†ãƒ³ãƒå¤‰æ›´(é€Ÿã„))</title>
+			<title code="0xff">Change Tempo (Normal) (ãƒ†ãƒ³ãƒå¤‰æ›´(é€šå¸¸))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] The Old Village Story (ƒI[ƒ‹ƒhEƒ”ƒBƒŒƒbƒWEƒXƒg[ƒŠ[) (YM2203)</name>
+		<name>[PC-8801] The Old Village Story (ã‚ªãƒ¼ãƒ«ãƒ‰ãƒ»ãƒ´ã‚£ãƒ¬ãƒƒã‚¸ãƒ»ã‚¹ãƒˆãƒ¼ãƒªãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="oldv">
@@ -629,37 +629,37 @@
 			<rom type="bgm" offset="0x10">TOWN-1.M</rom>
 			<rom type="bgm" offset="0x11">TOWN-2.M</rom>
 			<rom type="bgm" offset="0x13">WOOD-1.M</rom>
-			<rom type="bgm" offset="0x14">ËÞ¯¸Ø.M</rom>
+			<rom type="bgm" offset="0x14">ï¾‹ï¾žï½¯ï½¸ï¾˜.M</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0e">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x12">Village (‘º)</title>
+			<title code="0x0e">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x12">Village (æ‘)</title>
 			<title code="0x00">CASL-1.M</title>
-			<title code="0x01">Field 2 (ƒtƒB[ƒ‹ƒh2)</title>
+			<title code="0x01">Field 2 (ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰2)</title>
 			<title code="0x02">EMERG.M</title>
-			<title code="0x03">Ending (ƒGƒ“ƒfƒBƒ“ƒO)</title>
-			<title code="0x04">Showdown! Sylph (Boss Battle) (‘ÎŒˆ!ƒVƒ‹ƒt (ƒ{ƒXí))</title>
+			<title code="0x03">Ending (ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°)</title>
+			<title code="0x04">Showdown! Sylph (Boss Battle) (å¯¾æ±º!ã‚·ãƒ«ãƒ• (ãƒœã‚¹æˆ¦))</title>
 			<title code="0x05">KIKI-2.M</title>
-			<title code="0x06">Castle (é)</title>
-			<title code="0x07">Nobles' Town (‹M‘°‚ÌŠX)</title>
-			<title code="0x09">Whale (ƒNƒWƒ‰)</title>
+			<title code="0x06">Castle (åŸŽ)</title>
+			<title code="0x07">Nobles' Town (è²´æ—ã®è¡—)</title>
+			<title code="0x09">Whale (ã‚¯ã‚¸ãƒ©)</title>
 			<title code="0x08">KUJI-2.M</title>
-			<title code="0x0a">Dungeon (ƒ_ƒ“ƒWƒ‡ƒ“)</title>
-			<title code="0x0b">Adrift (•Y—¬)</title>
+			<title code="0x0a">Dungeon (ãƒ€ãƒ³ã‚¸ãƒ§ãƒ³)</title>
+			<title code="0x0b">Adrift (æ¼‚æµ)</title>
 			<title code="0x0c">OH!.M</title>
 			<title code="0x0d">SOROW5.M</title>
 			<title code="0x0f">TOKEI.M</title>
-			<title code="0x10">Castle Town (é‰º’¬)</title>
+			<title code="0x10">Castle Town (åŸŽä¸‹ç”º)</title>
 			<title code="0x11">TOWN-2.M</title>
-			<title code="0x13">Field 1 (ƒtƒB[ƒ‹ƒh1)</title>
-			<title code="0x14">Jingle (ƒWƒ“ƒOƒ‹)</title>
-			<title code="0xfd">Change Tempo (Slow) (ƒeƒ“ƒ|•ÏX(’x‚¢))</title>
-			<title code="0xfe">Change Tempo (Fast) (ƒeƒ“ƒ|•ÏX(‘¬‚¢))</title>
-			<title code="0xff">Change Tempo (Normal) (ƒeƒ“ƒ|•ÏX(’Êí))</title>
+			<title code="0x13">Field 1 (ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰1)</title>
+			<title code="0x14">Jingle (ã‚¸ãƒ³ã‚°ãƒ«)</title>
+			<title code="0xfd">Change Tempo (Slow) (ãƒ†ãƒ³ãƒå¤‰æ›´(é…ã„))</title>
+			<title code="0xfe">Change Tempo (Fast) (ãƒ†ãƒ³ãƒå¤‰æ›´(é€Ÿã„))</title>
+			<title code="0xff">Change Tempo (Normal) (ãƒ†ãƒ³ãƒå¤‰æ›´(é€šå¸¸))</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Burning Point (ƒo[ƒjƒ“ƒOƒ|ƒCƒ“ƒg) (YM2608)</name>
+		<name>[PC-8801] Burning Point (ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒã‚¤ãƒ³ãƒˆ) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -688,26 +688,26 @@
 			<rom type="bgm" offset="0x0f">MDAT10</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">Radio Tune (ƒ‰ƒWƒI‚Ì‹È)</title>
+			<title code="0x0f">Radio Tune (ãƒ©ã‚¸ã‚ªã®æ›²)</title>
 			<title code="0x00">Burning Point</title>
-			<title code="0x01">The Detective Agency Opens (’T’ãŽ––±ŠŠJ‹Æ)</title>
-			<title code="0x02">Debbie's Shop (ƒf[ƒrƒX‚Ì“X)</title>
-			<title code="0x03">Investigating Theme (‘{¸‚Ìƒe[ƒ})</title>
-			<title code="0x04">Get Rudolph (ƒ‹ƒhƒ‹ƒt‚Ì’Ç‚¦)</title>
-			<title code="0x05">Confession (”’)</title>
-			<title code="0x06">The Truth of 15 Years Ago (15”N‘O‚Ì^ŽÀ)</title>
-			<title code="0x07">The Killer (ŽElŽÒ)</title>
+			<title code="0x01">The Detective Agency Opens (æŽ¢åµäº‹å‹™æ‰€é–‹æ¥­)</title>
+			<title code="0x02">Debbie's Shop (ãƒ‡ãƒ¼ãƒ“ã‚¹ã®åº—)</title>
+			<title code="0x03">Investigating Theme (æœæŸ»ã®ãƒ†ãƒ¼ãƒž)</title>
+			<title code="0x04">Get Rudolph (ãƒ«ãƒ‰ãƒ«ãƒ•ã®è¿½ãˆ)</title>
+			<title code="0x05">Confession (å‘Šç™½)</title>
+			<title code="0x06">The Truth of 15 Years Ago (15å¹´å‰ã®çœŸå®Ÿ)</title>
+			<title code="0x07">The Killer (æ®ºäººè€…)</title>
 			<title code="0x08">Heart Attack Street</title>
-			<title code="0x09">Goldberg's Theme (ƒS[ƒ‹ƒhƒxƒ‹ƒN•Ï‘t‹È)</title>
-			<title code="0x0a">Core `ŠjS`</title>
-			<title code="0x0b">Waltz of Ambition (–ì–]‚Ìƒƒ‹ƒc)</title>
+			<title code="0x09">Goldberg's Theme (ã‚´ãƒ¼ãƒ«ãƒ‰ãƒ™ãƒ«ã‚¯å¤‰å¥æ›²)</title>
+			<title code="0x0a">Core ï½žæ ¸å¿ƒï½ž</title>
+			<title code="0x0b">Waltz of Ambition (é‡Žæœ›ã®ãƒ¯ãƒ«ãƒ„)</title>
 			<title code="0x0c">See you again, Steel</title>
 			<title code="0x0d">Burning Point (Finale)</title>
-			<title code="0x0e">Fanfare (ƒtƒ@ƒ“ƒtƒ@[ƒŒ)</title>
+			<title code="0x0e">Fanfare (ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Burning Point (ƒo[ƒjƒ“ƒOƒ|ƒCƒ“ƒg) (YM2203)</name>
+		<name>[PC-8801] Burning Point (ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒã‚¤ãƒ³ãƒˆ) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -734,22 +734,22 @@
 			<rom type="bgm" offset="0x0e">MDATN0f</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0f">Radio Tune (ƒ‰ƒWƒI‚Ì‹È)</title>
+			<title code="0x0f">Radio Tune (ãƒ©ã‚¸ã‚ªã®æ›²)</title>
 			<title code="0x00">Burning Point</title>
-			<title code="0x01">The Detective Agency Opens (’T’ãŽ––±ŠŠJ‹Æ)</title>
-			<title code="0x02">Debbie's Shop (ƒf[ƒrƒX‚Ì“X)</title>
-			<title code="0x03">Investigating Theme (‘{¸‚Ìƒe[ƒ})</title>
-			<title code="0x04">Get Rudolph (ƒ‹ƒhƒ‹ƒt‚Ì’Ç‚¦)</title>
-			<title code="0x05">Confession (”’)</title>
-			<title code="0x06">The Truth of 15 Years Ago (15”N‘O‚Ì^ŽÀ)</title>
-			<title code="0x07">The Killer (ŽElŽÒ)</title>
+			<title code="0x01">The Detective Agency Opens (æŽ¢åµäº‹å‹™æ‰€é–‹æ¥­)</title>
+			<title code="0x02">Debbie's Shop (ãƒ‡ãƒ¼ãƒ“ã‚¹ã®åº—)</title>
+			<title code="0x03">Investigating Theme (æœæŸ»ã®ãƒ†ãƒ¼ãƒž)</title>
+			<title code="0x04">Get Rudolph (ãƒ«ãƒ‰ãƒ«ãƒ•ã®è¿½ãˆ)</title>
+			<title code="0x05">Confession (å‘Šç™½)</title>
+			<title code="0x06">The Truth of 15 Years Ago (15å¹´å‰ã®çœŸå®Ÿ)</title>
+			<title code="0x07">The Killer (æ®ºäººè€…)</title>
 			<title code="0x08">Heart Attack Street</title>
-			<title code="0x09">Goldberg's Theme (ƒS[ƒ‹ƒhƒxƒ‹ƒN•Ï‘t‹È)</title>
-			<title code="0x0a">Core `ŠjS`</title>
-			<title code="0x0b">Waltz of Ambition (–ì–]‚Ìƒƒ‹ƒc)</title>
+			<title code="0x09">Goldberg's Theme (ã‚´ãƒ¼ãƒ«ãƒ‰ãƒ™ãƒ«ã‚¯å¤‰å¥æ›²)</title>
+			<title code="0x0a">Core ï½žæ ¸å¿ƒï½ž</title>
+			<title code="0x0b">Waltz of Ambition (é‡Žæœ›ã®ãƒ¯ãƒ«ãƒ„)</title>
 			<title code="0x0c">See you again, Steel</title>
 			<title code="0x0d">Burning Point (Finale)</title>
-			<title code="0x0e">Fanfare (ƒtƒ@ƒ“ƒtƒ@[ƒŒ)</title>
+			<title code="0x0e">Fanfare (ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬)</title>
 		</titlelist>
 	</game>
 	<game>
@@ -808,7 +808,7 @@
 			<title code="0x14">Demo 2</title>
 			<title code="0x08">Last Target</title>
 			<title code="0x02">Demo 3</title>
-			<title code="0x0b">Demo 4`Last Battle</title>
+			<title code="0x0b">Demo 4ï½žLast Battle</title>
 			<title code="0x04">Last Battle (b)</title>
 			<title code="0x12">Demo 5</title>
 			<title code="0x15">Ending 1</title>
@@ -872,7 +872,7 @@
 			<title code="0x14">Demo 2</title>
 			<title code="0x08">Last Target</title>
 			<title code="0x02">Demo 3</title>
-			<title code="0x0b">Demo 4`Last Battle</title>
+			<title code="0x0b">Demo 4ï½žLast Battle</title>
 			<title code="0x04">Last Battle (b)</title>
 			<title code="0x12">Demo 5</title>
 			<title code="0x15">Ending 1</title>
@@ -881,7 +881,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Jesus (ƒW[ƒUƒX) (YM2203)</name>
+		<name>[PC-8801] Jesus (ã‚¸ãƒ¼ã‚¶ã‚¹) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -978,48 +978,48 @@
 			<rom type="voice" offset="0x33">SDAT03</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Chime (ƒ`ƒƒƒCƒ€)</title>
-			<title code="0x01">Prelude to the Void (‹•‹ó‚Ö‚Ì‘O‘t)</title>
-			<title code="0x02">Balkas is Attacked by a Monster (ƒoƒ‹ƒJƒX‚ªƒ‚ƒ“ƒXƒ^[‚É‚¨‚»‚í‚ê‚é)</title>
-			<title code="0x09">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x03">Blue Infinity (‘“‚¢–³ŒÀ)</title>
-			<title code="0x0a">Sound of Hayao Walking (‘¬—Y‚ª•à‚­‚Æ‚«‚Ì‰¹)</title>
-			<title code="0x07">Hero's Repose (—EŽÒ‚Ì‹x‘§)</title>
-			<title code="0x08">Shining Eyes (‚«‚ç‚ß‚­“µ)</title>
-			<title code="0x05">Violet Love (ä¿F‚Ìˆ¤)</title>
-			<title code="0x04">Tranquil Universe (‚â‚·‚ç‚¬‚Ì‰F’ˆ)</title>
-			<title code="0x0b">Sweet Embrace (ŠÃ‚¢•ø—i)</title>
-			<title code="0x0c">Two Within a Dream (–²‚Ì’†‚Ì“ñl)</title>
-			<title code="0x0d">City on the Brink of Collapse (•ö‚ês‚­“sŽs)</title>
-			<title code="0x0e">To the Edge of the Sky (‹ó‚Ì‰Ê‚Ä‚Ö)</title>
-			<title code="0x0f">Impending Crisis (”—‚è‚­‚éŠë‹@)</title>
-			<title code="0x10">The Return (‹AŠÒ)</title>
-			<title code="0x15">The Intruder Reborn [1] (áS‚éN“üŽÒ [1])</title>
-			<title code="0x23">The Intruder Reborn [2] (áS‚éN“üŽÒ [2])</title>
-			<title code="0x16">Requiem (’Á°‰Ì)</title>
-			<title code="0x24">Shadow of Death (Ž€_‚Ì‰e)</title>
-			<title code="0x28">The Challenge (’§í‚ÌŽž)</title>
-			<title code="0x29">Victory Tune [1] (Ÿ—˜‚Ìù—¥ [1])</title>
-			<title code="0x30">If You Don't Listen to All of Victory Tune [1] (Ÿ—˜‚Ìù—¥ [1]‚ðÅŒã‚Ü‚Å•·‚©‚È‚¢‚Æ‰¹‚ª‚¨‚©‚µ‚¢)</title>
-			<title code="0x31">The Departing (‹Ž‚ès‚­ŽÒ’B)</title>
-			<title code="0x32">Ode to Life (¶–½‚Ö‚ÌŽ^‰Ì)</title>
-			<title code="0x06">Œø‰Ê‰¹01</title>
-			<title code="0x11">Œø‰Ê‰¹02</title>
-			<title code="0x12">Œø‰Ê‰¹03</title>
-			<title code="0x13">Œø‰Ê‰¹04</title>
-			<title code="0x14">Œø‰Ê‰¹05</title>
-			<title code="0x17">Œø‰Ê‰¹06</title>
-			<title code="0x19">Œø‰Ê‰¹07</title>
-			<title code="0x20">Œø‰Ê‰¹08</title>
-			<title code="0x21">Œø‰Ê‰¹09</title>
-			<title code="0x22">Œø‰Ê‰¹10</title>
-			<title code="0x25">Œø‰Ê‰¹11</title>
-			<title code="0x26">Œø‰Ê‰¹12</title>
-			<title code="0x27">Œø‰Ê‰¹13</title>
+			<title code="0x00">Chime (ãƒãƒ£ã‚¤ãƒ )</title>
+			<title code="0x01">Prelude to the Void (è™šç©ºã¸ã®å‰å¥)</title>
+			<title code="0x02">Balkas is Attacked by a Monster (ãƒãƒ«ã‚«ã‚¹ãŒãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã«ãŠãã‚ã‚Œã‚‹)</title>
+			<title code="0x09">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x03">Blue Infinity (è’¼ã„ç„¡é™)</title>
+			<title code="0x0a">Sound of Hayao Walking (é€Ÿé›„ãŒæ­©ãã¨ãã®éŸ³)</title>
+			<title code="0x07">Hero's Repose (å‹‡è€…ã®ä¼‘æ¯)</title>
+			<title code="0x08">Shining Eyes (ãã‚‰ã‚ãçž³)</title>
+			<title code="0x05">Violet Love (è«è‰²ã®æ„›)</title>
+			<title code="0x04">Tranquil Universe (ã‚„ã™ã‚‰ãŽã®å®‡å®™)</title>
+			<title code="0x0b">Sweet Embrace (ç”˜ã„æŠ±æ“)</title>
+			<title code="0x0c">Two Within a Dream (å¤¢ã®ä¸­ã®äºŒäºº)</title>
+			<title code="0x0d">City on the Brink of Collapse (å´©ã‚Œè¡Œãéƒ½å¸‚)</title>
+			<title code="0x0e">To the Edge of the Sky (ç©ºã®æžœã¦ã¸)</title>
+			<title code="0x0f">Impending Crisis (è¿«ã‚Šãã‚‹å±æ©Ÿ)</title>
+			<title code="0x10">The Return (å¸°é‚„)</title>
+			<title code="0x15">The Intruder Reborn [1] (ç”¦ã‚‹ä¾µå…¥è€… [1])</title>
+			<title code="0x23">The Intruder Reborn [2] (ç”¦ã‚‹ä¾µå…¥è€… [2])</title>
+			<title code="0x16">Requiem (éŽ®é­‚æ­Œ)</title>
+			<title code="0x24">Shadow of Death (æ­»ç¥žã®å½±)</title>
+			<title code="0x28">The Challenge (æŒ‘æˆ¦ã®æ™‚)</title>
+			<title code="0x29">Victory Tune [1] (å‹åˆ©ã®æ—‹å¾‹ [1])</title>
+			<title code="0x30">If You Don't Listen to All of Victory Tune [1] (å‹åˆ©ã®æ—‹å¾‹ [1]ã‚’æœ€å¾Œã¾ã§èžã‹ãªã„ã¨éŸ³ãŒãŠã‹ã—ã„)</title>
+			<title code="0x31">The Departing (åŽ»ã‚Šè¡Œãè€…é”)</title>
+			<title code="0x32">Ode to Life (ç”Ÿå‘½ã¸ã®è³›æ­Œ)</title>
+			<title code="0x06">åŠ¹æžœéŸ³01</title>
+			<title code="0x11">åŠ¹æžœéŸ³02</title>
+			<title code="0x12">åŠ¹æžœéŸ³03</title>
+			<title code="0x13">åŠ¹æžœéŸ³04</title>
+			<title code="0x14">åŠ¹æžœéŸ³05</title>
+			<title code="0x17">åŠ¹æžœéŸ³06</title>
+			<title code="0x19">åŠ¹æžœéŸ³07</title>
+			<title code="0x20">åŠ¹æžœéŸ³08</title>
+			<title code="0x21">åŠ¹æžœéŸ³09</title>
+			<title code="0x22">åŠ¹æžœéŸ³10</title>
+			<title code="0x25">åŠ¹æžœéŸ³11</title>
+			<title code="0x26">åŠ¹æžœéŸ³12</title>
+			<title code="0x27">åŠ¹æžœéŸ³13</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Jesus II (ƒW[ƒUƒX2) (YM2608)</name>
+		<name>[PC-8801] Jesus II (ã‚¸ãƒ¼ã‚¶ã‚¹2) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -1062,94 +1062,94 @@
 			<rom type="bgm" offset="0x22">effec3.com</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000020">Opening Demo (ƒI[ƒvƒjƒ“ƒOƒfƒ‚)</title>
-			<title code="0x00000009">In the Cosmos (Radio Ver.) (‰F’ˆ‚É—§‚¿‚Ä(ƒ‰ƒWƒJƒZ ver.))</title>
-			<title code="0x00000006">Ship's Hawaiian (‘Dã‚ÌƒnƒƒCƒAƒ“)</title>
-			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (‰F’ˆ‚É—§‚¿‚Ä(ƒ‰ƒWƒJƒZ •Êver.))</title>
-			<title code="0x0000000c">Suspense (ƒTƒXƒyƒ“ƒX)</title>
-			<title code="0x00000000">Army Theme (ŒR‘à‚Ìƒe[ƒ})</title>
-			<title code="0x00000003">Blue Infinity (‘“‚¢–³ŒÀ)</title>
-			<title code="0x00000008">In the Cosmos (‰F’ˆ‚É—§‚¿‚Ä)</title>
-			<title code="0x00000007">In the Cosmos (in G) (‰F’ˆ‚É—§‚¿‚Ä(in G))</title>
-			<title code="0x0000000b">The Departing (‹Ž‚ès‚­ŽÒ‚½‚¿)</title>
-			<title code="0x0000000e">Monster (ƒ‚ƒ“ƒXƒ^[)</title>
-			<title code="0x00000004">Elegy (ƒGƒŒƒW[)</title>
-			<title code="0x0000000a">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x00000005">Fight (ƒtƒ@ƒCƒg)</title>
-			<title code="0x00000002">Monster (Full Version) (ƒ‚ƒ“ƒXƒ^[(ƒtƒ‹ƒo[ƒWƒ‡ƒ“))</title>
-			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (ƒtƒBƒi[ƒŒ(‰F’ˆ‚É—§‚¿‚Ä`‘“‚¢–³ŒÀ`‹Ž‚ès‚­ŽÒ‚½‚¿`‰F’ˆ‚É—§‚¿‚Ä))</title>
-			<title code="0x00000020">Œø‰Ê‰¹00</title>
-			<title code="0x02000020">Œø‰Ê‰¹02</title>
-			<title code="0x03000020">Œø‰Ê‰¹03</title>
-			<title code="0x04000020">Œø‰Ê‰¹04</title>
-			<title code="0x05000020">Œø‰Ê‰¹05</title>
-			<title code="0x06000020">Œø‰Ê‰¹06</title>
-			<title code="0x07000020">Œø‰Ê‰¹07</title>
-			<title code="0x08000020">Œø‰Ê‰¹08</title>
-			<title code="0x09000020">Œø‰Ê‰¹09</title>
-			<title code="0x0a000020">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000020">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000020">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000020">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000020">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000020">Œø‰Ê‰¹0f</title>
-			<title code="0x10000020">Œø‰Ê‰¹10</title>
-			<title code="0x11000020">Œø‰Ê‰¹11</title>
-			<title code="0x12000020">Œø‰Ê‰¹12</title>
-			<title code="0x13000020">Œø‰Ê‰¹13</title>
-			<title code="0x14000020">Œø‰Ê‰¹14</title>
-			<title code="0x15000020">Œø‰Ê‰¹15</title>
-			<title code="0x16000020">Œø‰Ê‰¹16</title>
-			<title code="0x17000020">Œø‰Ê‰¹17</title>
-			<title code="0x18000020">Œø‰Ê‰¹18</title>
-			<title code="0x00000021">Œø‰Ê‰¹00</title>
-			<title code="0x01000021">Œø‰Ê‰¹01</title>
-			<title code="0x02000021">Œø‰Ê‰¹02</title>
-			<title code="0x03000021">Œø‰Ê‰¹03</title>
-			<title code="0x04000021">Œø‰Ê‰¹04</title>
-			<title code="0x05000021">Œø‰Ê‰¹05</title>
-			<title code="0x06000021">Œø‰Ê‰¹06</title>
-			<title code="0x07000021">Œø‰Ê‰¹07</title>
-			<title code="0x08000021">Œø‰Ê‰¹08</title>
-			<title code="0x09000021">Œø‰Ê‰¹09</title>
-			<title code="0x0a000021">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000021">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000021">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000021">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000021">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000021">Œø‰Ê‰¹0f</title>
-			<title code="0x10000021">Œø‰Ê‰¹10</title>
-			<title code="0x11000021">Œø‰Ê‰¹11</title>
-			<title code="0x12000021">Œø‰Ê‰¹12</title>
-			<title code="0x13000021">Œø‰Ê‰¹13</title>
-			<title code="0x14000021">Œø‰Ê‰¹14</title>
-			<title code="0x15000021">Œø‰Ê‰¹15</title>
-			<title code="0x16000021">Œø‰Ê‰¹16</title>
-			<title code="0x17000021">Œø‰Ê‰¹17</title>
-			<title code="0x18000021">Œø‰Ê‰¹18</title>
-			<title code="0x19000021">Œø‰Ê‰¹19</title>
-			<title code="0x1a000021">Œø‰Ê‰¹1a</title>
-			<title code="0x1b000021">Œø‰Ê‰¹1b</title>
-			<title code="0x00000022">Œø‰Ê‰¹00</title>
-			<title code="0x01000022">Œø‰Ê‰¹01</title>
-			<title code="0x02000022">Œø‰Ê‰¹02</title>
-			<title code="0x03000022">Œø‰Ê‰¹03</title>
-			<title code="0x04000022">Œø‰Ê‰¹04</title>
-			<title code="0x05000022">Œø‰Ê‰¹05</title>
-			<title code="0x06000022">Œø‰Ê‰¹06</title>
-			<title code="0x07000022">Œø‰Ê‰¹07</title>
-			<title code="0x08000022">Œø‰Ê‰¹08</title>
-			<title code="0x09000022">Œø‰Ê‰¹09</title>
-			<title code="0x0a000022">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000022">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000022">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000022">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000022">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000022">Œø‰Ê‰¹0f</title>
+			<title code="0x01000020">Opening Demo (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢)</title>
+			<title code="0x00000009">In the Cosmos (Radio Ver.) (å®‡å®™ã«ç«‹ã¡ã¦(ãƒ©ã‚¸ã‚«ã‚» ver.))</title>
+			<title code="0x00000006">Ship's Hawaiian (èˆ¹ä¸Šã®ãƒãƒ¯ã‚¤ã‚¢ãƒ³)</title>
+			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (å®‡å®™ã«ç«‹ã¡ã¦(ãƒ©ã‚¸ã‚«ã‚» åˆ¥ver.))</title>
+			<title code="0x0000000c">Suspense (ã‚µã‚¹ãƒšãƒ³ã‚¹)</title>
+			<title code="0x00000000">Army Theme (è»éšŠã®ãƒ†ãƒ¼ãƒž)</title>
+			<title code="0x00000003">Blue Infinity (è’¼ã„ç„¡é™)</title>
+			<title code="0x00000008">In the Cosmos (å®‡å®™ã«ç«‹ã¡ã¦)</title>
+			<title code="0x00000007">In the Cosmos (in G) (å®‡å®™ã«ç«‹ã¡ã¦(in G))</title>
+			<title code="0x0000000b">The Departing (åŽ»ã‚Šè¡Œãè€…ãŸã¡)</title>
+			<title code="0x0000000e">Monster (ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼)</title>
+			<title code="0x00000004">Elegy (ã‚¨ãƒ¬ã‚¸ãƒ¼)</title>
+			<title code="0x0000000a">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x00000005">Fight (ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x00000002">Monster (Full Version) (ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼(ãƒ•ãƒ«ãƒãƒ¼ã‚¸ãƒ§ãƒ³))</title>
+			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬(å®‡å®™ã«ç«‹ã¡ã¦ï½žè’¼ã„ç„¡é™ï½žåŽ»ã‚Šè¡Œãè€…ãŸã¡ï½žå®‡å®™ã«ç«‹ã¡ã¦))</title>
+			<title code="0x00000020">åŠ¹æžœéŸ³00</title>
+			<title code="0x02000020">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000020">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000020">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000020">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000020">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000020">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000020">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000020">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000020">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000020">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000020">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000020">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000020">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000020">åŠ¹æžœéŸ³0f</title>
+			<title code="0x10000020">åŠ¹æžœéŸ³10</title>
+			<title code="0x11000020">åŠ¹æžœéŸ³11</title>
+			<title code="0x12000020">åŠ¹æžœéŸ³12</title>
+			<title code="0x13000020">åŠ¹æžœéŸ³13</title>
+			<title code="0x14000020">åŠ¹æžœéŸ³14</title>
+			<title code="0x15000020">åŠ¹æžœéŸ³15</title>
+			<title code="0x16000020">åŠ¹æžœéŸ³16</title>
+			<title code="0x17000020">åŠ¹æžœéŸ³17</title>
+			<title code="0x18000020">åŠ¹æžœéŸ³18</title>
+			<title code="0x00000021">åŠ¹æžœéŸ³00</title>
+			<title code="0x01000021">åŠ¹æžœéŸ³01</title>
+			<title code="0x02000021">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000021">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000021">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000021">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000021">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000021">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000021">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000021">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000021">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000021">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000021">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000021">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000021">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000021">åŠ¹æžœéŸ³0f</title>
+			<title code="0x10000021">åŠ¹æžœéŸ³10</title>
+			<title code="0x11000021">åŠ¹æžœéŸ³11</title>
+			<title code="0x12000021">åŠ¹æžœéŸ³12</title>
+			<title code="0x13000021">åŠ¹æžœéŸ³13</title>
+			<title code="0x14000021">åŠ¹æžœéŸ³14</title>
+			<title code="0x15000021">åŠ¹æžœéŸ³15</title>
+			<title code="0x16000021">åŠ¹æžœéŸ³16</title>
+			<title code="0x17000021">åŠ¹æžœéŸ³17</title>
+			<title code="0x18000021">åŠ¹æžœéŸ³18</title>
+			<title code="0x19000021">åŠ¹æžœéŸ³19</title>
+			<title code="0x1a000021">åŠ¹æžœéŸ³1a</title>
+			<title code="0x1b000021">åŠ¹æžœéŸ³1b</title>
+			<title code="0x00000022">åŠ¹æžœéŸ³00</title>
+			<title code="0x01000022">åŠ¹æžœéŸ³01</title>
+			<title code="0x02000022">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000022">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000022">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000022">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000022">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000022">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000022">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000022">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000022">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000022">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000022">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000022">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000022">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000022">åŠ¹æžœéŸ³0f</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Jesus II (ƒW[ƒUƒX2) (YM2203)</name>
+		<name>[PC-8801] Jesus II (ã‚¸ãƒ¼ã‚¶ã‚¹2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -1180,94 +1180,94 @@
 			<rom type="bgm" offset="0x22">effec3.com</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01000020">Opening Demo (ƒI[ƒvƒjƒ“ƒOƒfƒ‚)</title>
-			<title code="0x00000009">In the Cosmos (Radio Ver.) (‰F’ˆ‚É—§‚¿‚Ä(ƒ‰ƒWƒJƒZ ver.))</title>
-			<title code="0x00000006">Ship's Hawaiian (‘Dã‚ÌƒnƒƒCƒAƒ“)</title>
-			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (‰F’ˆ‚É—§‚¿‚Ä(ƒ‰ƒWƒJƒZ •Êver.))</title>
-			<title code="0x0000000c">Suspense (ƒTƒXƒyƒ“ƒX)</title>
-			<title code="0x00000000">Army Theme (ŒR‘à‚Ìƒe[ƒ})</title>
-			<title code="0x00000003">Blue Infinity (‘“‚¢–³ŒÀ)</title>
-			<title code="0x00000008">In the Cosmos (‰F’ˆ‚É—§‚¿‚Ä)</title>
-			<title code="0x00000007">In the Cosmos (in G) (‰F’ˆ‚É—§‚¿‚Ä(in G))</title>
-			<title code="0x0000000b">The Departing (‹Ž‚ès‚­ŽÒ‚½‚¿)</title>
-			<title code="0x0000000e">Monster (ƒ‚ƒ“ƒXƒ^[)</title>
-			<title code="0x00000004">Elegy (ƒGƒŒƒW[)</title>
-			<title code="0x0000000a">Requiem (ƒŒƒNƒCƒGƒ€)</title>
-			<title code="0x00000005">Fight (ƒtƒ@ƒCƒg)</title>
-			<title code="0x00000002">Monster (Full Version) (ƒ‚ƒ“ƒXƒ^[(ƒtƒ‹ƒo[ƒWƒ‡ƒ“))</title>
-			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (ƒtƒBƒi[ƒŒ(‰F’ˆ‚É—§‚¿‚Ä`‘“‚¢–³ŒÀ`‹Ž‚ès‚­ŽÒ‚½‚¿`‰F’ˆ‚É—§‚¿‚Ä))</title>
-			<title code="0x00000020">Œø‰Ê‰¹00</title>
-			<title code="0x02000020">Œø‰Ê‰¹02</title>
-			<title code="0x03000020">Œø‰Ê‰¹03</title>
-			<title code="0x04000020">Œø‰Ê‰¹04</title>
-			<title code="0x05000020">Œø‰Ê‰¹05</title>
-			<title code="0x06000020">Œø‰Ê‰¹06</title>
-			<title code="0x07000020">Œø‰Ê‰¹07</title>
-			<title code="0x08000020">Œø‰Ê‰¹08</title>
-			<title code="0x09000020">Œø‰Ê‰¹09</title>
-			<title code="0x0a000020">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000020">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000020">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000020">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000020">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000020">Œø‰Ê‰¹0f</title>
-			<title code="0x10000020">Œø‰Ê‰¹10</title>
-			<title code="0x11000020">Œø‰Ê‰¹11</title>
-			<title code="0x12000020">Œø‰Ê‰¹12</title>
-			<title code="0x13000020">Œø‰Ê‰¹13</title>
-			<title code="0x14000020">Œø‰Ê‰¹14</title>
-			<title code="0x15000020">Œø‰Ê‰¹15</title>
-			<title code="0x16000020">Œø‰Ê‰¹16</title>
-			<title code="0x17000020">Œø‰Ê‰¹17</title>
-			<title code="0x18000020">Œø‰Ê‰¹18</title>
-			<title code="0x00000021">Œø‰Ê‰¹00</title>
-			<title code="0x01000021">Œø‰Ê‰¹01</title>
-			<title code="0x02000021">Œø‰Ê‰¹02</title>
-			<title code="0x03000021">Œø‰Ê‰¹03</title>
-			<title code="0x04000021">Œø‰Ê‰¹04</title>
-			<title code="0x05000021">Œø‰Ê‰¹05</title>
-			<title code="0x06000021">Œø‰Ê‰¹06</title>
-			<title code="0x07000021">Œø‰Ê‰¹07</title>
-			<title code="0x08000021">Œø‰Ê‰¹08</title>
-			<title code="0x09000021">Œø‰Ê‰¹09</title>
-			<title code="0x0a000021">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000021">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000021">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000021">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000021">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000021">Œø‰Ê‰¹0f</title>
-			<title code="0x10000021">Œø‰Ê‰¹10</title>
-			<title code="0x11000021">Œø‰Ê‰¹11</title>
-			<title code="0x12000021">Œø‰Ê‰¹12</title>
-			<title code="0x13000021">Œø‰Ê‰¹13</title>
-			<title code="0x14000021">Œø‰Ê‰¹14</title>
-			<title code="0x15000021">Œø‰Ê‰¹15</title>
-			<title code="0x16000021">Œø‰Ê‰¹16</title>
-			<title code="0x17000021">Œø‰Ê‰¹17</title>
-			<title code="0x18000021">Œø‰Ê‰¹18</title>
-			<title code="0x19000021">Œø‰Ê‰¹19</title>
-			<title code="0x1a000021">Œø‰Ê‰¹1a</title>
-			<title code="0x1b000021">Œø‰Ê‰¹1b</title>
-			<title code="0x00000022">Œø‰Ê‰¹00</title>
-			<title code="0x01000022">Œø‰Ê‰¹01</title>
-			<title code="0x02000022">Œø‰Ê‰¹02</title>
-			<title code="0x03000022">Œø‰Ê‰¹03</title>
-			<title code="0x04000022">Œø‰Ê‰¹04</title>
-			<title code="0x05000022">Œø‰Ê‰¹05</title>
-			<title code="0x06000022">Œø‰Ê‰¹06</title>
-			<title code="0x07000022">Œø‰Ê‰¹07</title>
-			<title code="0x08000022">Œø‰Ê‰¹08</title>
-			<title code="0x09000022">Œø‰Ê‰¹09</title>
-			<title code="0x0a000022">Œø‰Ê‰¹0a</title>
-			<title code="0x0b000022">Œø‰Ê‰¹0b</title>
-			<title code="0x0c000022">Œø‰Ê‰¹0c</title>
-			<title code="0x0d000022">Œø‰Ê‰¹0d</title>
-			<title code="0x0e000022">Œø‰Ê‰¹0e</title>
-			<title code="0x0f000022">Œø‰Ê‰¹0f</title>
+			<title code="0x01000020">Opening Demo (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢)</title>
+			<title code="0x00000009">In the Cosmos (Radio Ver.) (å®‡å®™ã«ç«‹ã¡ã¦(ãƒ©ã‚¸ã‚«ã‚» ver.))</title>
+			<title code="0x00000006">Ship's Hawaiian (èˆ¹ä¸Šã®ãƒãƒ¯ã‚¤ã‚¢ãƒ³)</title>
+			<title code="0x0000000d">In the Cosmos (Alt. Radio Version) (å®‡å®™ã«ç«‹ã¡ã¦(ãƒ©ã‚¸ã‚«ã‚» åˆ¥ver.))</title>
+			<title code="0x0000000c">Suspense (ã‚µã‚¹ãƒšãƒ³ã‚¹)</title>
+			<title code="0x00000000">Army Theme (è»éšŠã®ãƒ†ãƒ¼ãƒž)</title>
+			<title code="0x00000003">Blue Infinity (è’¼ã„ç„¡é™)</title>
+			<title code="0x00000008">In the Cosmos (å®‡å®™ã«ç«‹ã¡ã¦)</title>
+			<title code="0x00000007">In the Cosmos (in G) (å®‡å®™ã«ç«‹ã¡ã¦(in G))</title>
+			<title code="0x0000000b">The Departing (åŽ»ã‚Šè¡Œãè€…ãŸã¡)</title>
+			<title code="0x0000000e">Monster (ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼)</title>
+			<title code="0x00000004">Elegy (ã‚¨ãƒ¬ã‚¸ãƒ¼)</title>
+			<title code="0x0000000a">Requiem (ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ )</title>
+			<title code="0x00000005">Fight (ãƒ•ã‚¡ã‚¤ãƒˆ)</title>
+			<title code="0x00000002">Monster (Full Version) (ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼(ãƒ•ãƒ«ãƒãƒ¼ã‚¸ãƒ§ãƒ³))</title>
+			<title code="0x00000001">Finale (In the Cosmos/Blue Infinity/The Departing/In the Cosmos) (ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬(å®‡å®™ã«ç«‹ã¡ã¦ï½žè’¼ã„ç„¡é™ï½žåŽ»ã‚Šè¡Œãè€…ãŸã¡ï½žå®‡å®™ã«ç«‹ã¡ã¦))</title>
+			<title code="0x00000020">åŠ¹æžœéŸ³00</title>
+			<title code="0x02000020">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000020">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000020">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000020">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000020">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000020">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000020">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000020">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000020">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000020">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000020">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000020">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000020">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000020">åŠ¹æžœéŸ³0f</title>
+			<title code="0x10000020">åŠ¹æžœéŸ³10</title>
+			<title code="0x11000020">åŠ¹æžœéŸ³11</title>
+			<title code="0x12000020">åŠ¹æžœéŸ³12</title>
+			<title code="0x13000020">åŠ¹æžœéŸ³13</title>
+			<title code="0x14000020">åŠ¹æžœéŸ³14</title>
+			<title code="0x15000020">åŠ¹æžœéŸ³15</title>
+			<title code="0x16000020">åŠ¹æžœéŸ³16</title>
+			<title code="0x17000020">åŠ¹æžœéŸ³17</title>
+			<title code="0x18000020">åŠ¹æžœéŸ³18</title>
+			<title code="0x00000021">åŠ¹æžœéŸ³00</title>
+			<title code="0x01000021">åŠ¹æžœéŸ³01</title>
+			<title code="0x02000021">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000021">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000021">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000021">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000021">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000021">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000021">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000021">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000021">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000021">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000021">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000021">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000021">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000021">åŠ¹æžœéŸ³0f</title>
+			<title code="0x10000021">åŠ¹æžœéŸ³10</title>
+			<title code="0x11000021">åŠ¹æžœéŸ³11</title>
+			<title code="0x12000021">åŠ¹æžœéŸ³12</title>
+			<title code="0x13000021">åŠ¹æžœéŸ³13</title>
+			<title code="0x14000021">åŠ¹æžœéŸ³14</title>
+			<title code="0x15000021">åŠ¹æžœéŸ³15</title>
+			<title code="0x16000021">åŠ¹æžœéŸ³16</title>
+			<title code="0x17000021">åŠ¹æžœéŸ³17</title>
+			<title code="0x18000021">åŠ¹æžœéŸ³18</title>
+			<title code="0x19000021">åŠ¹æžœéŸ³19</title>
+			<title code="0x1a000021">åŠ¹æžœéŸ³1a</title>
+			<title code="0x1b000021">åŠ¹æžœéŸ³1b</title>
+			<title code="0x00000022">åŠ¹æžœéŸ³00</title>
+			<title code="0x01000022">åŠ¹æžœéŸ³01</title>
+			<title code="0x02000022">åŠ¹æžœéŸ³02</title>
+			<title code="0x03000022">åŠ¹æžœéŸ³03</title>
+			<title code="0x04000022">åŠ¹æžœéŸ³04</title>
+			<title code="0x05000022">åŠ¹æžœéŸ³05</title>
+			<title code="0x06000022">åŠ¹æžœéŸ³06</title>
+			<title code="0x07000022">åŠ¹æžœéŸ³07</title>
+			<title code="0x08000022">åŠ¹æžœéŸ³08</title>
+			<title code="0x09000022">åŠ¹æžœéŸ³09</title>
+			<title code="0x0a000022">åŠ¹æžœéŸ³0a</title>
+			<title code="0x0b000022">åŠ¹æžœéŸ³0b</title>
+			<title code="0x0c000022">åŠ¹æžœéŸ³0c</title>
+			<title code="0x0d000022">åŠ¹æžœéŸ³0d</title>
+			<title code="0x0e000022">åŠ¹æžœéŸ³0e</title>
+			<title code="0x0f000022">åŠ¹æžœéŸ³0f</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2) (YM2203)</name>
+		<name>[PC-8801] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="wgolf2">
@@ -1278,7 +1278,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">Awards Ceremony (•\²Ž®)</title>
+			<title code="0x03">Awards Ceremony (è¡¨å½°å¼)</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -1291,7 +1291,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] World Golf III (ƒ[ƒ‹ƒhƒSƒ‹ƒt3) (YM2608)</name>
+		<name>[PC-8801] World Golf III (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•3) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -1311,18 +1311,18 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Opening Demo (ƒI[ƒvƒjƒ“ƒOƒfƒ‚)</title>
-			<title code="0x01">Menu (ƒƒjƒ…[)</title>
-			<title code="0x02">Coffee Break (ƒR[ƒq[ƒuƒŒƒCƒN)</title>
-			<title code="0x03">Hole Out (ƒz[ƒ‹ƒAƒEƒg)</title>
-			<title code="0x04">Awards Ceremony (•\²Ž®)</title>
-		<!--	<title code="0x05">Chip-in SFX (ƒJƒbƒvƒCƒ“Œø‰Ê‰¹)</title>
-			<title code="0x06">Birdie SFX (ƒo[ƒfƒB[Œø‰Ê‰¹)</title>
-			<title code="0x07">Eagle SFX (ƒC[ƒOƒ‹Œø‰Ê‰¹)</title> -->
+			<title code="0x00">Opening Demo (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢)</title>
+			<title code="0x01">Menu (ãƒ¡ãƒ‹ãƒ¥ãƒ¼)</title>
+			<title code="0x02">Coffee Break (ã‚³ãƒ¼ãƒ’ãƒ¼ãƒ–ãƒ¬ã‚¤ã‚¯)</title>
+			<title code="0x03">Hole Out (ãƒ›ãƒ¼ãƒ«ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x04">Awards Ceremony (è¡¨å½°å¼)</title>
+		<!--	<title code="0x05">Chip-in SFX (ã‚«ãƒƒãƒ—ã‚¤ãƒ³åŠ¹æžœéŸ³)</title>
+			<title code="0x06">Birdie SFX (ãƒãƒ¼ãƒ‡ã‚£ãƒ¼åŠ¹æžœéŸ³)</title>
+			<title code="0x07">Eagle SFX (ã‚¤ãƒ¼ã‚°ãƒ«åŠ¹æžœéŸ³)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] World Golf III (ƒ[ƒ‹ƒhƒSƒ‹ƒt3) (YM2203)</name>
+		<name>[PC-8801] World Golf III (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•3) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="wgolf3">
@@ -1338,18 +1338,18 @@
 			<rom type="bgm" offset="0x07">MUS07</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Opening Demo (ƒI[ƒvƒjƒ“ƒOƒfƒ‚)</title>
-			<title code="0x01">Menu (ƒƒjƒ…[)</title>
-			<title code="0x02">Coffee Break (ƒR[ƒq[ƒuƒŒƒCƒN)</title>
-			<title code="0x03">Hole Out (ƒz[ƒ‹ƒAƒEƒg)</title>
-			<title code="0x04">Awards Ceremony (•\²Ž®)</title>
-		<!--	<title code="0x05">Chip-in SFX (ƒJƒbƒvƒCƒ“Œø‰Ê‰¹)</title>
-			<title code="0x06">Birdie SFX (ƒo[ƒfƒB[Œø‰Ê‰¹)</title>
-			<title code="0x07">Eagle SFX (ƒC[ƒOƒ‹Œø‰Ê‰¹)</title> -->
+			<title code="0x00">Opening Demo (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢)</title>
+			<title code="0x01">Menu (ãƒ¡ãƒ‹ãƒ¥ãƒ¼)</title>
+			<title code="0x02">Coffee Break (ã‚³ãƒ¼ãƒ’ãƒ¼ãƒ–ãƒ¬ã‚¤ã‚¯)</title>
+			<title code="0x03">Hole Out (ãƒ›ãƒ¼ãƒ«ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x04">Awards Ceremony (è¡¨å½°å¼)</title>
+		<!--	<title code="0x05">Chip-in SFX (ã‚«ãƒƒãƒ—ã‚¤ãƒ³åŠ¹æžœéŸ³)</title>
+			<title code="0x06">Birdie SFX (ãƒãƒ¼ãƒ‡ã‚£ãƒ¼åŠ¹æžœéŸ³)</title>
+			<title code="0x07">Eagle SFX (ã‚¤ãƒ¼ã‚°ãƒ«åŠ¹æžœéŸ³)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Shutendouji (Žè“V“¶Žq) (YM2608)</name>
+		<name>[PC-8801] Shutendouji (æ‰‹å¤©ç«¥å­) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="shuten88">
@@ -1390,7 +1390,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Shutendouji (Žè“V“¶Žq) (YM2203)</name>
+		<name>[PC-8801] Shutendouji (æ‰‹å¤©ç«¥å­) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<romlist archive="shuten88">
@@ -1636,7 +1636,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Jesus II (ƒW[ƒUƒX2) (YM2608)</name>
+		<name>[PC-9801] Jesus II (ã‚¸ãƒ¼ã‚¶ã‚¹2) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1654,22 +1654,22 @@
 			<rom type="shell" offset="0">46</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x65">ŒR‘à‚Ìƒe[ƒ}</title>
-			<title code="0x66">ƒtƒBƒi[ƒŒ</title>
-			<title code="0x67">ƒ‚ƒ“ƒXƒ^[</title>
-			<title code="0x68">ƒRƒƒbƒg</title>
-		<!--	<title code="0x69">ƒI[ƒo[ƒ`ƒ…ƒA</title> -->
-			<title code="0x6a">ƒGƒŒƒW[</title>
-			<title code="0x6b">ƒtƒ@ƒCƒg</title>
-			<title code="0x6c">—mã‰¹Šy</title>
-			<title code="0x6d">ƒe[ƒ}ING</title>
-			<title code="0x6e">ƒe[ƒ}</title>
-			<title code="0x6f">ƒ‰ƒWƒJƒZ</title>
-			<title code="0x70">ƒŒƒNƒCƒGƒ€</title>
-			<title code="0x71">•Ê‚ê</title>
-			<title code="0x72">ƒTƒXƒyƒ“ƒX</title>
-			<title code="0x73">ƒ‰ƒWƒJƒZ2</title>
-			<title code="0x74">ƒ‚ƒ“ƒXƒ^[2</title>
+			<title code="0x65">è»éšŠã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x66">ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬</title>
+			<title code="0x67">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼</title>
+			<title code="0x68">ã‚³ãƒ¡ãƒƒãƒˆ</title>
+		<!--	<title code="0x69">ã‚ªãƒ¼ãƒãƒ¼ãƒãƒ¥ã‚¢</title> -->
+			<title code="0x6a">ã‚¨ãƒ¬ã‚¸ãƒ¼</title>
+			<title code="0x6b">ãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="0x6c">æ´‹ä¸ŠéŸ³æ¥½</title>
+			<title code="0x6d">ãƒ†ãƒ¼ãƒžING</title>
+			<title code="0x6e">ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x6f">ãƒ©ã‚¸ã‚«ã‚»</title>
+			<title code="0x70">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ </title>
+			<title code="0x71">åˆ¥ã‚Œ</title>
+			<title code="0x72">ã‚µã‚¹ãƒšãƒ³ã‚¹</title>
+			<title code="0x73">ãƒ©ã‚¸ã‚«ã‚»2</title>
+			<title code="0x74">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼2</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x02">SFX #02</title>
 			<title code="0x03">SFX #03</title>
@@ -1697,11 +1697,11 @@
 			<title code="0x19">SFX #25</title>
 			<title code="0x1a">SFX #26</title>
 			<title code="0x1b">SFX #27</title>
-			<title code="0xff">ƒtƒF[ƒhƒAƒEƒg</title>
+			<title code="0xff">ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¢ã‚¦ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Jesus II (ƒW[ƒUƒX2) (YM2203)</name>
+		<name>[PC-9801] Jesus II (ã‚¸ãƒ¼ã‚¶ã‚¹2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1716,22 +1716,22 @@
 			<rom type="shell" offset="0">46</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x65">ŒR‘à‚Ìƒe[ƒ}</title>
-			<title code="0x66">ƒtƒBƒi[ƒŒ</title>
-			<title code="0x67">ƒ‚ƒ“ƒXƒ^[</title>
-			<title code="0x68">ƒRƒƒbƒg</title>
-		<!--	<title code="0x69">ƒI[ƒo[ƒ`ƒ…ƒA</title> -->
-			<title code="0x6a">ƒGƒŒƒW[</title>
-			<title code="0x6b">ƒtƒ@ƒCƒg</title>
-			<title code="0x6c">—mã‰¹Šy</title>
-			<title code="0x6d">ƒe[ƒ}ING</title>
-			<title code="0x6e">ƒe[ƒ}</title>
-			<title code="0x6f">ƒ‰ƒWƒJƒZ</title>
-			<title code="0x70">ƒŒƒNƒCƒGƒ€</title>
-			<title code="0x71">•Ê‚ê</title>
-			<title code="0x72">ƒTƒXƒyƒ“ƒX</title>
-			<title code="0x73">ƒ‰ƒWƒJƒZ2</title>
-			<title code="0x74">ƒ‚ƒ“ƒXƒ^[2</title>
+			<title code="0x65">è»éšŠã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x66">ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬</title>
+			<title code="0x67">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼</title>
+			<title code="0x68">ã‚³ãƒ¡ãƒƒãƒˆ</title>
+		<!--	<title code="0x69">ã‚ªãƒ¼ãƒãƒ¼ãƒãƒ¥ã‚¢</title> -->
+			<title code="0x6a">ã‚¨ãƒ¬ã‚¸ãƒ¼</title>
+			<title code="0x6b">ãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="0x6c">æ´‹ä¸ŠéŸ³æ¥½</title>
+			<title code="0x6d">ãƒ†ãƒ¼ãƒžING</title>
+			<title code="0x6e">ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x6f">ãƒ©ã‚¸ã‚«ã‚»</title>
+			<title code="0x70">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ </title>
+			<title code="0x71">åˆ¥ã‚Œ</title>
+			<title code="0x72">ã‚µã‚¹ãƒšãƒ³ã‚¹</title>
+			<title code="0x73">ãƒ©ã‚¸ã‚«ã‚»2</title>
+			<title code="0x74">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼2</title>
 			<title code="0x01">SFX #01</title>
 			<title code="0x02">SFX #02</title>
 			<title code="0x03">SFX #03</title>
@@ -1759,11 +1759,11 @@
 			<title code="0x19">SFX #25</title>
 			<title code="0x1a">SFX #26</title>
 			<title code="0x1b">SFX #27</title>
-			<title code="0xff">ƒtƒF[ƒhƒAƒEƒg</title>
+			<title code="0xff">ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¢ã‚¦ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] 46 Oku Nen Monogatari: The Shinka Ron (46‰­”N•¨Œê -THEi‰»˜_-) (YM2203)</name>
+		<name>[PC-9801] 46 Oku Nen Monogatari: The Shinka Ron (46å„„å¹´ç‰©èªž -THEé€²åŒ–è«–-) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1778,62 +1778,62 @@
 			<rom type="shell" offset="0">46</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒI[ƒvƒjƒ“ƒOƒe[ƒ}</title>
-			<title code="0x01">i‰»‚Ìƒe[ƒ}</title>
-			<title code="0x02">‚Ù‚±‚ç‚Ìƒe[ƒ}</title>
-			<title code="0x03">•s‹C–¡‚Èƒ_ƒ“ƒWƒ‡ƒ“</title>
-			<title code="0x04">ˆ£D</title>
-			<title code="0x05">ƒtƒB[ƒ‹ƒh‚Ìƒe[ƒ}A</title>
-			<title code="0x06">ƒtƒB[ƒ‹ƒh‚Ìƒe[ƒ}B</title>
-			<title code="0x07">—_ƒKƒCƒA‚Ìƒe[ƒ}</title>
-			<title code="0x08">ƒAƒgƒ‰ƒ“ƒeƒBƒX‚ÌŒR‘à</title>
-			<title code="0x09">Žô–‚‚Ìƒe[ƒ}</title>
-			<title code="0x0a">”j‰ó‚»‚µ‚Ä’a¶</title>
-			<title code="0x0b">ÅŒã‚Ìí‚¢</title>
-			<title code="0x0c">ƒtƒBƒi[ƒŒ</title>
-			<title code="0x0d">i‰»ƒtƒ@ƒ“ƒtƒ@[ƒŒ</title>
-			<title code="0x0e">í“¬‚Ìƒe[ƒ}</title>
-			<title code="0x0f">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x10">í“¬I—¹</title>
-			<title code="0x11">i‰»ƒGƒ“ƒh</title>
-			<title code="0x12">‚â‚ç‚ê Ž©•ª</title>
-			<title code="0x13">‚â‚ç‚ê “G</title>
-			<title code="0x14">UŒ‚ Ž©•ª</title>
-			<title code="0x15">UŒ‚ “G</title>
-			<title code="0x16">’nk</title>
-			<title code="0x17">”š”­</title>
-			<title code="0x18">”g</title>
-			<title code="0x19">—Ž‰º</title>
-			<title code="0x1a">‘«‰¹</title>
-			<title code="0x1b">‹@ŠBEUFO</title>
-			<title code="0x1c">—Ž—‹</title>
-			<title code="0x1d">•—</title>
-			<title code="0x1e">‰ï˜bA</title>
-			<title code="0x1f">‰ï˜bB</title>
-			<title code="0x20">‰ï˜bC</title>
-			<title code="0x21">‰ï˜bD</title>
-			<title code="0x22">‰ï˜bE</title>
-			<title code="0x23">“¦‚°‚é</title>
-			<title code="0x24">ƒ[ƒvƒCƒ“</title>
-			<title code="0x25">ƒ[ƒvƒAƒEƒg</title>
-			<title code="0x26">Žô–‚’f–––‚</title>
-			<title code="0x27">‘ÅŒ‚‰¹</title>
-			<title code="0x28">“ÁŽêUŒ‚A</title>
-			<title code="0x29">“ÁŽêUŒ‚B</title>
-			<title code="0x2a">Žô–‚UŒ‚</title>
-			<title code="0x2b">—Ç‚¢ƒAƒCƒeƒ€</title>
-			<title code="0x2c">ˆ«‚¢ƒAƒCƒeƒ€</title>
-			<title code="0x2d">t‚ª‚­‚é</title>
-			<title code="0x2e">‹Ù”—!</title>
-			<title code="0x2f">‘n¢</title>
-			<title code="0x30">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x31">‹‘å‰»</title>
-			<title code="0x32">ƒXƒMƒ„ƒ}ƒ“</title>
-			<title code="0xff">ƒtƒF[ƒhƒAƒEƒg</title>
+			<title code="0x00">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x01">é€²åŒ–ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x02">ã»ã“ã‚‰ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x03">ä¸æ°—å‘³ãªãƒ€ãƒ³ã‚¸ãƒ§ãƒ³</title>
+			<title code="0x04">å“€æ„</title>
+			<title code="0x05">ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®ãƒ†ãƒ¼ãƒžA</title>
+			<title code="0x06">ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®ãƒ†ãƒ¼ãƒžB</title>
+			<title code="0x07">å¥³ç¥žã‚¬ã‚¤ã‚¢ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x08">ã‚¢ãƒˆãƒ©ãƒ³ãƒ†ã‚£ã‚¹ã®è»éšŠ</title>
+			<title code="0x09">å‘ªé­”ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x0a">ç ´å£Šãã—ã¦èª•ç”Ÿ</title>
+			<title code="0x0b">æœ€å¾Œã®æˆ¦ã„</title>
+			<title code="0x0c">ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬</title>
+			<title code="0x0d">é€²åŒ–ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬</title>
+			<title code="0x0e">æˆ¦é—˜ã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x0f">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x10">æˆ¦é—˜çµ‚äº†</title>
+			<title code="0x11">é€²åŒ–ã‚¨ãƒ³ãƒ‰</title>
+			<title code="0x12">ã‚„ã‚‰ã‚Œ è‡ªåˆ†</title>
+			<title code="0x13">ã‚„ã‚‰ã‚Œ æ•µ</title>
+			<title code="0x14">æ”»æ’ƒ è‡ªåˆ†</title>
+			<title code="0x15">æ”»æ’ƒ æ•µ</title>
+			<title code="0x16">åœ°éœ‡</title>
+			<title code="0x17">çˆ†ç™º</title>
+			<title code="0x18">æ³¢</title>
+			<title code="0x19">è½ä¸‹</title>
+			<title code="0x1a">è¶³éŸ³</title>
+			<title code="0x1b">æ©Ÿæ¢°ãƒ»UFO</title>
+			<title code="0x1c">è½é›·</title>
+			<title code="0x1d">é¢¨</title>
+			<title code="0x1e">ä¼šè©±A</title>
+			<title code="0x1f">ä¼šè©±B</title>
+			<title code="0x20">ä¼šè©±C</title>
+			<title code="0x21">ä¼šè©±D</title>
+			<title code="0x22">ä¼šè©±E</title>
+			<title code="0x23">é€ƒã’ã‚‹</title>
+			<title code="0x24">ãƒ¯ãƒ¼ãƒ—ã‚¤ãƒ³</title>
+			<title code="0x25">ãƒ¯ãƒ¼ãƒ—ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x26">å‘ªé­”æ–­æœ«é­”</title>
+			<title code="0x27">æ‰“æ’ƒéŸ³</title>
+			<title code="0x28">ç‰¹æ®Šæ”»æ’ƒA</title>
+			<title code="0x29">ç‰¹æ®Šæ”»æ’ƒB</title>
+			<title code="0x2a">å‘ªé­”æ”»æ’ƒ</title>
+			<title code="0x2b">è‰¯ã„ã‚¢ã‚¤ãƒ†ãƒ </title>
+			<title code="0x2c">æ‚ªã„ã‚¢ã‚¤ãƒ†ãƒ </title>
+			<title code="0x2d">æ˜¥ãŒãã‚‹</title>
+			<title code="0x2e">ç·Šè¿«!</title>
+			<title code="0x2f">å‰µä¸–</title>
+			<title code="0x30">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x31">å·¨å¤§åŒ–</title>
+			<title code="0x32">ã‚¹ã‚®ãƒ¤ãƒžãƒ³</title>
+			<title code="0xff">ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¢ã‚¦ãƒˆ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Gunyu Sangokushi (ŒQ—YŽO‘Žu) (YM2203)</name>
+		<name>[PC-9801] Gunyu Sangokushi (ç¾¤é›„ä¸‰å›½å¿—) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1856,19 +1856,19 @@
 		</romlist>
 		<titlelist>
 			<title code="0x00">Stop the Music</title>
-			<title code="0x0b">Opening (ƒI[ƒvƒjƒ“ƒO)</title>
-			<title code="0x09">Battle Map (Opening) (í—ª‰æ–Ê(˜”Õ))</title>
-			<title code="0x0a">Battle Map (Ending) (í—ª‰æ–Ê(I”Õ))</title>
-			<title code="0x06">Battle (Offense) (í“¬ (U¨))</title>
-			<title code="0x07">Battle (Defense) (í“¬ (Žç¨))</title>
-			<title code="0x0d">Victory (Ÿ—˜)</title>
-			<title code="0x08">Defeat (”sí)</title>
-			<title code="0x0c">Game Over (ƒQ[ƒ€ƒI[ƒo[)</title>
-			<title code="0x05">Unity (“ˆê)</title>
+			<title code="0x0b">Opening (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°)</title>
+			<title code="0x09">Battle Map (Opening) (æˆ¦ç•¥ç”»é¢(åºç›¤))</title>
+			<title code="0x0a">Battle Map (Ending) (æˆ¦ç•¥ç”»é¢(çµ‚ç›¤))</title>
+			<title code="0x06">Battle (Offense) (æˆ¦é—˜ (æ”»å‹¢))</title>
+			<title code="0x07">Battle (Defense) (æˆ¦é—˜ (å®ˆå‹¢))</title>
+			<title code="0x0d">Victory (å‹åˆ©)</title>
+			<title code="0x08">Defeat (æ•—æˆ¦)</title>
+			<title code="0x0c">Game Over (ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)</title>
+			<title code="0x05">Unity (çµ±ä¸€)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Reichsritter - ’é‘‹RŽm’c - (YM2203)</name>
+		<name>[PC-9801] Reichsritter - å¸å›½é¨Žå£«å›£ - (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -1995,7 +1995,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2) (YM2151)</name>
+		<name>[X1] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<romlist archive="x1wg2">
@@ -2006,7 +2006,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">•\²Ž®</title>
+			<title code="0x03">è¡¨å½°å¼</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -2019,7 +2019,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2) (AY-3-8910)</name>
+		<name>[X1] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<romlist archive="x1wg2">
@@ -2030,7 +2030,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">•\²Ž®</title>
+			<title code="0x03">è¡¨å½°å¼</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -2043,7 +2043,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gandhara: Crusade of the Buddha (ƒKƒ“ƒ_[ƒ‰ `•§‘É‚Ì¹í`) (YM2151)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ© ï½žä»é™€ã®è–æˆ¦ï½ž) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
@@ -2084,38 +2084,38 @@
 			<rom type="bgm" offset="0x1b">ENDING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">Œø‰Ê‰¹#0</title>
-			<title code="0x00000001">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x00000002">ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm|</title>
-			<title code="0x00000003">“Œ•ûŒ¶‘z</title>
-			<title code="0x00000004">“]¶—Ö‰ô</title>
-			<title code="0x00000005">¢‘­</title>
-			<title code="0x00000006">Œø‰Ê‰¹#1</title>
-			<title code="0x00000007">˜@‰Ø</title>
-			<title code="0x00000008">‚ ‚ç‚½‚ÈˆÊ</title>
-			<title code="0x00000009">–»•{–‚“¹</title>
-			<title code="0x0200000a">“VãŠE‚Ö</title>
-			<title code="0x0000000b">•ì’ñŽ÷‚Ì‰º</title>
-			<title code="0x0000000c">ƒWƒ“ƒOƒ‹</title>
-		<!--	<title code="0x0000000d">ƒWƒ“ƒOƒ‹`–»•{–‚“¹(’n‰º“¹)</title> -->
-			<title code="0x0000000e">•§ŽÉ—˜’Ù‚Ì“üŽè</title>
-			<title code="0x0000000f">–»•{–‚“¹(’n‰º“¹)</title>
-			<title code="0x00000010">Žâ</title>
-			<title code="0x00000011">Ž×_</title>
-			<title code="0x00000012">‰Þ˜O—…</title>
-			<title code="0x00000013">•½ˆÀ</title>
-			<title code="0x01000014">lŠÔŠE</title>
-			<title code="0x01000015">’n–ŠE</title>
-			<title code="0x01000016">‰ì‹SŠE</title>
-			<title code="0x01000017">’{¶ŠE</title>
-			<title code="0x01000018">C—…ŠE</title>
-			<title code="0x01000019">“VãŠE</title>
-			<title code="0x0000001a">ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm| (ƒGƒsƒ[ƒO)</title>
-			<title code="0x0000001b">˜Z–}ŠE</title>
+			<title code="0x00000000">åŠ¹æžœéŸ³#0</title>
+			<title code="0x00000001">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x00000002">ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼</title>
+			<title code="0x00000003">æ±æ–¹å¹»æƒ³</title>
+			<title code="0x00000004">è»¢ç”Ÿè¼ªå»»</title>
+			<title code="0x00000005">ä¸–ä¿—</title>
+			<title code="0x00000006">åŠ¹æžœéŸ³#1</title>
+			<title code="0x00000007">è“®è¯</title>
+			<title code="0x00000008">ã‚ã‚‰ãŸãªä½</title>
+			<title code="0x00000009">å†¥åºœé­”é“</title>
+			<title code="0x0200000a">å¤©ä¸Šç•Œã¸</title>
+			<title code="0x0000000b">è©ææ¨¹ã®ä¸‹</title>
+			<title code="0x0000000c">ã‚¸ãƒ³ã‚°ãƒ«</title>
+		<!--	<title code="0x0000000d">ã‚¸ãƒ³ã‚°ãƒ«ï½žå†¥åºœé­”é“(åœ°ä¸‹é“)</title> -->
+			<title code="0x0000000e">ä»èˆŽåˆ©å£·ã®å…¥æ‰‹</title>
+			<title code="0x0000000f">å†¥åºœé­”é“(åœ°ä¸‹é“)</title>
+			<title code="0x00000010">å¯‚</title>
+			<title code="0x00000011">é‚ªç¥ž</title>
+			<title code="0x00000012">è¿¦æ¥¼ç¾…</title>
+			<title code="0x00000013">å¹³å®‰</title>
+			<title code="0x01000014">äººé–“ç•Œ</title>
+			<title code="0x01000015">åœ°ç„ç•Œ</title>
+			<title code="0x01000016">é¤“é¬¼ç•Œ</title>
+			<title code="0x01000017">ç•œç”Ÿç•Œ</title>
+			<title code="0x01000018">ä¿®ç¾…ç•Œ</title>
+			<title code="0x01000019">å¤©ä¸Šç•Œ</title>
+			<title code="0x0000001a">ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼ (ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x0000001b">å…­å‡¡ç•Œ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Gandhara: Crusade of the Buddha (ƒKƒ“ƒ_[ƒ‰ `•§‘É‚Ì¹í`) (AY-3-8910)</name>
+		<name>[X1] Gandhara: Crusade of the Buddha (ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ© ï½žä»é™€ã®è–æˆ¦ï½ž) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
@@ -2156,38 +2156,38 @@
 			<rom type="bgm" offset="0x1b">ENDING</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00000000">Œø‰Ê‰¹#0</title>
-			<title code="0x00000001">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x00000002">ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm|</title>
-			<title code="0x00000003">“Œ•ûŒ¶‘z</title>
-			<title code="0x00000004">“]¶—Ö‰ô</title>
-			<title code="0x00000005">¢‘­</title>
-			<title code="0x00000006">Œø‰Ê‰¹#1</title>
-			<title code="0x00000007">˜@‰Ø</title>
-			<title code="0x00000008">‚ ‚ç‚½‚ÈˆÊ</title>
-			<title code="0x00000009">–»•{–‚“¹</title>
-			<title code="0x0200000a">“VãŠE‚Ö</title>
-			<title code="0x0000000b">•ì’ñŽ÷‚Ì‰º</title>
-			<title code="0x0000000c">ƒWƒ“ƒOƒ‹</title>
-		<!--	<title code="0x0000000d">ƒWƒ“ƒOƒ‹`–»•{–‚“¹(’n‰º“¹)</title> -->
-			<title code="0x0000000e">•§ŽÉ—˜’Ù‚Ì“üŽè</title>
-			<title code="0x0000000f">–»•{–‚“¹(’n‰º“¹)</title>
-			<title code="0x00000010">Žâ</title>
-			<title code="0x00000011">Ž×_</title>
-			<title code="0x00000012">‰Þ˜O—…</title>
-			<title code="0x00000013">•½ˆÀ</title>
-			<title code="0x01000014">lŠÔŠE</title>
-			<title code="0x01000015">’n–ŠE</title>
-			<title code="0x01000016">‰ì‹SŠE</title>
-			<title code="0x01000017">’{¶ŠE</title>
-			<title code="0x01000018">C—…ŠE</title>
-			<title code="0x01000019">“VãŠE</title>
-			<title code="0x0000001a">ƒKƒ“ƒ_[ƒ‰‚Ö‚Ì˜H |•§‘É‚ÌíŽm| (ƒGƒsƒ[ƒO)</title>
-			<title code="0x0000001b">˜Z–}ŠE</title>
+			<title code="0x00000000">åŠ¹æžœéŸ³#0</title>
+			<title code="0x00000001">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x00000002">ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼</title>
+			<title code="0x00000003">æ±æ–¹å¹»æƒ³</title>
+			<title code="0x00000004">è»¢ç”Ÿè¼ªå»»</title>
+			<title code="0x00000005">ä¸–ä¿—</title>
+			<title code="0x00000006">åŠ¹æžœéŸ³#1</title>
+			<title code="0x00000007">è“®è¯</title>
+			<title code="0x00000008">ã‚ã‚‰ãŸãªä½</title>
+			<title code="0x00000009">å†¥åºœé­”é“</title>
+			<title code="0x0200000a">å¤©ä¸Šç•Œã¸</title>
+			<title code="0x0000000b">è©ææ¨¹ã®ä¸‹</title>
+			<title code="0x0000000c">ã‚¸ãƒ³ã‚°ãƒ«</title>
+		<!--	<title code="0x0000000d">ã‚¸ãƒ³ã‚°ãƒ«ï½žå†¥åºœé­”é“(åœ°ä¸‹é“)</title> -->
+			<title code="0x0000000e">ä»èˆŽåˆ©å£·ã®å…¥æ‰‹</title>
+			<title code="0x0000000f">å†¥åºœé­”é“(åœ°ä¸‹é“)</title>
+			<title code="0x00000010">å¯‚</title>
+			<title code="0x00000011">é‚ªç¥ž</title>
+			<title code="0x00000012">è¿¦æ¥¼ç¾…</title>
+			<title code="0x00000013">å¹³å®‰</title>
+			<title code="0x01000014">äººé–“ç•Œ</title>
+			<title code="0x01000015">åœ°ç„ç•Œ</title>
+			<title code="0x01000016">é¤“é¬¼ç•Œ</title>
+			<title code="0x01000017">ç•œç”Ÿç•Œ</title>
+			<title code="0x01000018">ä¿®ç¾…ç•Œ</title>
+			<title code="0x01000019">å¤©ä¸Šç•Œ</title>
+			<title code="0x0000001a">ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©ã¸ã®è·¯ ï¼ä»é™€ã®æˆ¦å£«ï¼ (ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x0000001b">å…­å‡¡ç•Œ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Jesus (ƒW[ƒUƒX) (YM2151)</name>
+		<name>[X1] Jesus (ã‚¸ãƒ¼ã‚¶ã‚¹) (YM2151)</name>
 		<driver type="opm">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
@@ -2212,102 +2212,102 @@
 			<rom type="bgm" offset="0x08">OPMMUS8</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a000000">ƒ`ƒƒƒCƒ€</title>
-		<!--	<title code="0x15000001">‰¹FÝ’è</title> -->
-			<title code="0x16000001">‹•‹ó‚Ö‚Ì‘O‘t</title>
-			<title code="0x00000000">ƒoƒ‹ƒJƒX‚ªƒ‚ƒ“ƒXƒ^[‚É‚¨‚»‚í‚ê‚é</title>
-			<title code="0x02000000">ƒQ[ƒ€ƒI[ƒo[</title>
-		<!--	<title code="0x0b000001">‰¹FÝ’è</title> -->
-			<title code="0x0c000001">‘“‚¢–³ŒÀ(ƒvƒƒ[ƒO)</title>
-			<title code="0x07000000">‘¬—Y‚ª•à‚­‚Æ‚«‚Ì‰¹</title>
-			<title code="0x01000000">‚«‚ç‚ß‚­“µ</title>
-		<!--	<title code="0x0d000001">‰¹FÝ’è</title> -->
-			<title code="0x0e000001">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-		<!--	<title code="0x05000000">‰¹FÝ’è</title> -->
-			<title code="0x06000000">ä¿F‚Ìˆ¤</title>
-			<title code="0x17000001">“d˜b‚Ì‰¹</title>
-		<!--	<title code="0x03000000">‰¹FÝ’è</title> -->
-			<title code="0x04000000">—EŽÒ‚Ì‹x‘§</title>
-			<title code="0x1c000002">‚«‚ç‚ß‚­“µ</title>
-		<!--	<title code="0x1a000001">‰¹FÝ’è</title> -->
-			<title code="0x1b000001">ŠÃ‚¢•ø—i</title>
-		<!--	<title code="0x18000001">‰¹FÝ’è</title> -->
-			<title code="0x19000001">–²‚Ì’†‚Ì“ñl</title>
-		<!--	<title code="0x13000001">‰¹FÝ’è</title> -->
-			<title code="0x14000001">•ö‚ês‚­“sŽs</title>
-		<!--	<title code="0x0f000001">‰¹FÝ’è</title> -->
-			<title code="0x10000001">‹ó‚Ì‰Ê‚Ä‚Ö</title>
-		<!--	<title code="0x11000001">‰¹FÝ’è</title> -->
-			<title code="0x12000001">”—‚è—ˆ‚éŠë‹@</title>
-			<title code="0x26000002">Œø‰Ê‰¹(ƒnƒbƒ`ŠJ•Â‰¹)</title>
-			<title code="0x1e000002">Œø‰Ê‰¹(‘D“à‰¹)</title>
-			<title code="0x2c000002">Œø‰Ê‰¹(‘D“à‰¹)</title>
-			<title code="0x1f000002">Œø‰Ê‰¹(ƒhƒAƒI[ƒvƒ“)</title>
-			<title code="0x20000002">Œø‰Ê‰¹(‹@ŠÖŽº)</title>
-			<title code="0x21000002">Œø‰Ê‰¹(“®—ÍŽº)</title>
-			<title code="0x22000002">Œø‰Ê‰¹(Œ¤‹†Žº)</title>
-			<title code="0x23000002">Œø‰Ê‰¹(ƒVƒ‡ƒbƒN)</title>
-			<title code="0x2b000002">áS‚éN“üŽÒ(1)(ƒoƒ‹ƒJƒX)</title>
-			<title code="0x2a000002">áS‚éN“üŽÒ(2)(ƒxƒŠ[ƒj)</title>
-			<title code="0x30000003">áS‚éN“üŽÒ(3)(H—¿ŒÉ)</title>
-			<title code="0x27000002">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[™ôšK1)</title>
-			<title code="0x35000003">Œø‰Ê‰¹(e”­ŽË1)</title>
-		<!--	<title code="0x32000003">‰¹F’è‹`</title> -->
-			<title code="0x33000003">¶–½‚Ö‚ÌŽ^‰Ì</title>
-		<!--	<title code="0x2d000002">‰¹FÝ’è</title> -->
-			<title code="0x2e000002">áS‚éN“üŽÒ(4)(ƒGƒŠ[ƒk)</title>
-			<title code="0x3d000004">Œø‰Ê‰¹(¶‘ÌƒZƒ“ƒT[)</title>
-			<title code="0x40000004">Œø‰Ê‰¹(‘qŒÉØ‚è—£‚µ)</title>
-		<!--	<title code="0x3b000004">‰¹FÝ’è</title> -->
-		<!--	<title code="0x3c000004">‹ó‚Ì‰Ê‚Ä‚Ö</title> -->
-			<title code="0x42000005">‹AŠÒ</title>
-			<title code="0x43000005">Œø‰Ê‰¹(Œx‰¹)</title>
-			<title code="0x44000005">Œø‰Ê‰¹(‘D“à‰¹1)</title>
-			<title code="0x51000005">ƒWƒ“ƒOƒ‹(ƒ‚ƒ“ƒXƒ^[”­Œ©1)</title>
-			<title code="0x50000005">Œø‰Ê‰¹(e”­ŽË2)</title>
-			<title code="0x58000006">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[™ôšK2)</title>
-		<!--	<title code="0x56000006">‰¹FÝ’è</title> -->
-			<title code="0x57000006">áS‚éN“üŽÒ(5)(–F‰Ô)</title>
-		<!--	<title code="0x59000006">‰¹FÝ’è</title> -->
-			<title code="0x5a000006">’Á°‰Ì</title>
-			<title code="0x5c000006">‹ó‚Ì‰Ê‚Ä‚Ö</title>
-			<title code="0x46000005">Œø‰Ê‰¹(’ÊM‰¹)</title>
-			<title code="0x47000005">Œø‰Ê‰¹(’ÊMƒmƒCƒY)</title>
-			<title code="0x4a000005">Œø‰Ê‰¹(ƒVƒ‡ƒbƒN)</title>
-			<title code="0x41000005">‚«‚ç‚ß‚­“µ</title>
-			<title code="0x45000005">Œø‰Ê‰¹(‘D“à‰¹2)</title>
-			<title code="0x53000006">áS‚éN“üŽÒ(6)(‹@ŠÖŽº‰º)</title>
-		<!--	<title code="0x39000004">‰¹FÝ’è</title> -->
-			<title code="0x3a000004">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-			<title code="0x5b000006">Ž€_‚Ì‰e</title>
-			<title code="0x52000005">ƒWƒ“ƒOƒ‹(ƒ‚ƒ“ƒXƒ^[”­Œ©2)</title>
-			<title code="0x5d000006">Œø‰Ê‰¹(ƒhƒAƒNƒ[ƒY)</title>
-		<!--	<title code="0x5e000006">‰¹FÝ’è</title> -->
-			<title code="0x5f000006">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-		<!--	<title code="0x63000007">‰¹FÝ’è</title> -->
-			<title code="0x64000007">”—‚è—ˆ‚éŠë‹@</title>
-			<title code="0x65000007">Œø‰Ê‰¹(‘D“à‰¹)</title>
-		<!--	<title code="0x66000007">‰¹FÝ’è</title> -->
-			<title code="0x67000007">’§í‚ÌŽž</title>
-			<title code="0x6c000007">áS‚éN“üŽÒ(7)</title>
-			<title code="0x70000008">Ÿ—˜‚Ìù—¥</title>
-		<!--	<title code="0x71000008">Ÿ—˜‚Ìù—¥(Œã”¼)</title> -->
-		<!--	<title code="0x68000007">‰¹FÝ’è</title> -->
-			<title code="0x69000007">‹Ž‚ès‚­ŽÒ’B</title>
-		<!--	<title code="0x6a000007">‰¹FÝ’è</title> -->
-			<title code="0x6b000007">¶–½‚Ö‚ÌŽ^‰Ì</title>
-			<title code="0x6f000008">‘“‚¢–³ŒÀ(ƒGƒsƒ[ƒO)</title>
-			<title code="0x2f000002">Œø‰Ê‰¹</title>
-			<title code="0x34000003">Œø‰Ê‰¹</title>
-			<title code="0x36000003">Œø‰Ê‰¹</title>
-		<!--	<title code="0x08000000">‰¹FÝ’è</title> -->
-			<title code="0x09000000">’§í‚ÌŽž</title>
-			<title code="0x54000006">áS‚éN“üŽÒ</title>
-			<title code="0x55000006">áS‚éN“üŽÒ</title>
-			<title code="0x60000006">Œø‰Ê‰¹(‘D“à‰¹3)</title>
-			<title code="0x61000007">Œø‰Ê‰¹(‹@ŠÖŽº)</title>
-		<!--	<title code="0x6d000008">‰¹FÝ’è</title> -->
-			<title code="0x6e000008">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
+			<title code="0x0a000000">ãƒãƒ£ã‚¤ãƒ </title>
+		<!--	<title code="0x15000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x16000001">è™šç©ºã¸ã®å‰å¥</title>
+			<title code="0x00000000">ãƒãƒ«ã‚«ã‚¹ãŒãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã«ãŠãã‚ã‚Œã‚‹</title>
+			<title code="0x02000000">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+		<!--	<title code="0x0b000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x0c000001">è’¼ã„ç„¡é™(ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x07000000">é€Ÿé›„ãŒæ­©ãã¨ãã®éŸ³</title>
+			<title code="0x01000000">ãã‚‰ã‚ãçž³</title>
+		<!--	<title code="0x0d000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x0e000001">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+		<!--	<title code="0x05000000">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x06000000">è«è‰²ã®æ„›</title>
+			<title code="0x17000001">é›»è©±ã®éŸ³</title>
+		<!--	<title code="0x03000000">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x04000000">å‹‡è€…ã®ä¼‘æ¯</title>
+			<title code="0x1c000002">ãã‚‰ã‚ãçž³</title>
+		<!--	<title code="0x1a000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x1b000001">ç”˜ã„æŠ±æ“</title>
+		<!--	<title code="0x18000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x19000001">å¤¢ã®ä¸­ã®äºŒäºº</title>
+		<!--	<title code="0x13000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x14000001">å´©ã‚Œè¡Œãéƒ½å¸‚</title>
+		<!--	<title code="0x0f000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x10000001">ç©ºã®æžœã¦ã¸</title>
+		<!--	<title code="0x11000001">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x12000001">è¿«ã‚Šæ¥ã‚‹å±æ©Ÿ</title>
+			<title code="0x26000002">åŠ¹æžœéŸ³(ãƒãƒƒãƒé–‹é–‰éŸ³)</title>
+			<title code="0x1e000002">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title>
+			<title code="0x2c000002">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title>
+			<title code="0x1f000002">åŠ¹æžœéŸ³(ãƒ‰ã‚¢ã‚ªãƒ¼ãƒ—ãƒ³)</title>
+			<title code="0x20000002">åŠ¹æžœéŸ³(æ©Ÿé–¢å®¤)</title>
+			<title code="0x21000002">åŠ¹æžœéŸ³(å‹•åŠ›å®¤)</title>
+			<title code="0x22000002">åŠ¹æžœéŸ³(ç ”ç©¶å®¤)</title>
+			<title code="0x23000002">åŠ¹æžœéŸ³(ã‚·ãƒ§ãƒƒã‚¯)</title>
+			<title code="0x2b000002">ç”¦ã‚‹ä¾µå…¥è€…(1)(ãƒãƒ«ã‚«ã‚¹)</title>
+			<title code="0x2a000002">ç”¦ã‚‹ä¾µå…¥è€…(2)(ãƒ™ãƒªãƒ¼ãƒ‹)</title>
+			<title code="0x30000003">ç”¦ã‚‹ä¾µå…¥è€…(3)(é£Ÿæ–™åº«)</title>
+			<title code="0x27000002">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼å’†å“®1)</title>
+			<title code="0x35000003">åŠ¹æžœéŸ³(éŠƒç™ºå°„1)</title>
+		<!--	<title code="0x32000003">éŸ³è‰²å®šç¾©</title> -->
+			<title code="0x33000003">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title>
+		<!--	<title code="0x2d000002">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x2e000002">ç”¦ã‚‹ä¾µå…¥è€…(4)(ã‚¨ãƒªãƒ¼ãƒŒ)</title>
+			<title code="0x3d000004">åŠ¹æžœéŸ³(ç”Ÿä½“ã‚»ãƒ³ã‚µãƒ¼)</title>
+			<title code="0x40000004">åŠ¹æžœéŸ³(å€‰åº«åˆ‡ã‚Šé›¢ã—)</title>
+		<!--	<title code="0x3b000004">éŸ³è‰²è¨­å®š</title> -->
+		<!--	<title code="0x3c000004">ç©ºã®æžœã¦ã¸</title> -->
+			<title code="0x42000005">å¸°é‚„</title>
+			<title code="0x43000005">åŠ¹æžœéŸ³(è­¦å‘ŠéŸ³)</title>
+			<title code="0x44000005">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³1)</title>
+			<title code="0x51000005">ã‚¸ãƒ³ã‚°ãƒ«(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ç™ºè¦‹1)</title>
+			<title code="0x50000005">åŠ¹æžœéŸ³(éŠƒç™ºå°„2)</title>
+			<title code="0x58000006">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼å’†å“®2)</title>
+		<!--	<title code="0x56000006">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x57000006">ç”¦ã‚‹ä¾µå…¥è€…(5)(èŠ³èŠ±)</title>
+		<!--	<title code="0x59000006">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x5a000006">éŽ®é­‚æ­Œ</title>
+			<title code="0x5c000006">ç©ºã®æžœã¦ã¸</title>
+			<title code="0x46000005">åŠ¹æžœéŸ³(é€šä¿¡éŸ³)</title>
+			<title code="0x47000005">åŠ¹æžœéŸ³(é€šä¿¡ãƒŽã‚¤ã‚º)</title>
+			<title code="0x4a000005">åŠ¹æžœéŸ³(ã‚·ãƒ§ãƒƒã‚¯)</title>
+			<title code="0x41000005">ãã‚‰ã‚ãçž³</title>
+			<title code="0x45000005">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³2)</title>
+			<title code="0x53000006">ç”¦ã‚‹ä¾µå…¥è€…(6)(æ©Ÿé–¢å®¤ä¸‹)</title>
+		<!--	<title code="0x39000004">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x3a000004">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+			<title code="0x5b000006">æ­»ç¥žã®å½±</title>
+			<title code="0x52000005">ã‚¸ãƒ³ã‚°ãƒ«(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ç™ºè¦‹2)</title>
+			<title code="0x5d000006">åŠ¹æžœéŸ³(ãƒ‰ã‚¢ã‚¯ãƒ­ãƒ¼ã‚º)</title>
+		<!--	<title code="0x5e000006">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x5f000006">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+		<!--	<title code="0x63000007">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x64000007">è¿«ã‚Šæ¥ã‚‹å±æ©Ÿ</title>
+			<title code="0x65000007">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title>
+		<!--	<title code="0x66000007">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x67000007">æŒ‘æˆ¦ã®æ™‚</title>
+			<title code="0x6c000007">ç”¦ã‚‹ä¾µå…¥è€…(7)</title>
+			<title code="0x70000008">å‹åˆ©ã®æ—‹å¾‹</title>
+		<!--	<title code="0x71000008">å‹åˆ©ã®æ—‹å¾‹(å¾ŒåŠ)</title> -->
+		<!--	<title code="0x68000007">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x69000007">åŽ»ã‚Šè¡Œãè€…é”</title>
+		<!--	<title code="0x6a000007">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x6b000007">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title>
+			<title code="0x6f000008">è’¼ã„ç„¡é™(ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+			<title code="0x2f000002">åŠ¹æžœéŸ³</title>
+			<title code="0x34000003">åŠ¹æžœéŸ³</title>
+			<title code="0x36000003">åŠ¹æžœéŸ³</title>
+		<!--	<title code="0x08000000">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x09000000">æŒ‘æˆ¦ã®æ™‚</title>
+			<title code="0x54000006">ç”¦ã‚‹ä¾µå…¥è€…</title>
+			<title code="0x55000006">ç”¦ã‚‹ä¾µå…¥è€…</title>
+			<title code="0x60000006">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³3)</title>
+			<title code="0x61000007">åŠ¹æžœéŸ³(æ©Ÿé–¢å®¤)</title>
+		<!--	<title code="0x6d000008">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x6e000008">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
 		<!--	<title code="0x1d000002">BGM #1D</title> -->
 		<!--	<title code="0x24000002">BGM #24</title> -->
 		<!--	<title code="0x25000002">BGM #25</title> -->
@@ -2329,7 +2329,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X1] Jesus (ƒW[ƒUƒX) (AY-3-8910)</name>
+		<name>[X1] Jesus (ã‚¸ãƒ¼ã‚¶ã‚¹) (AY-3-8910)</name>
 		<driver type="psg">x1</driver>
 		<driveralias type="X1">Enix</driveralias>
 		<options>
@@ -2342,102 +2342,102 @@
 			<rom type="data" offset="0x4000">PSGMUS</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x0a">ƒ`ƒƒƒCƒ€</title>
-		<!--	<title code="0x15">‰¹FÝ’è</title> -->
-			<title code="0x16">‹•‹ó‚Ö‚Ì‘O‘t</title>
-			<title code="0x00">ƒoƒ‹ƒJƒX‚ªƒ‚ƒ“ƒXƒ^[‚É‚¨‚»‚í‚ê‚é</title>
-			<title code="0x02">ƒQ[ƒ€ƒI[ƒo[</title>
-		<!--	<title code="0x0b">‰¹FÝ’è</title> -->
-			<title code="0x0c">‘“‚¢–³ŒÀ(ƒvƒƒ[ƒO)</title>
-		<!--	<title code="0x07">‘¬—Y‚ª•à‚­‚Æ‚«‚Ì‰¹</title> -->
-			<title code="0x01">‚«‚ç‚ß‚­“µ</title>
-		<!--	<title code="0x0d">‰¹FÝ’è</title> -->
-			<title code="0x0e">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-		<!--	<title code="0x05">‰¹FÝ’è</title> -->
-			<title code="0x06">ä¿F‚Ìˆ¤</title>
-			<title code="0x17">“d˜b‚Ì‰¹</title>
-		<!--	<title code="0x03">‰¹FÝ’è</title> -->
-			<title code="0x04">—EŽÒ‚Ì‹x‘§</title>
-			<title code="0x1c">‚«‚ç‚ß‚­“µ</title>
-		<!--	<title code="0x1a">‰¹FÝ’è</title> -->
-			<title code="0x1b">ŠÃ‚¢•ø—i</title>
-		<!--	<title code="0x18">‰¹FÝ’è</title> -->
-			<title code="0x19">–²‚Ì’†‚Ì“ñl</title>
-		<!--	<title code="0x13">‰¹FÝ’è</title> -->
-			<title code="0x14">•ö‚ês‚­“sŽs</title>
-		<!--	<title code="0x0f">‰¹FÝ’è</title> -->
-			<title code="0x10">‹ó‚Ì‰Ê‚Ä‚Ö</title>
-		<!--	<title code="0x11">‰¹FÝ’è</title> -->
-			<title code="0x12">”—‚è—ˆ‚éŠë‹@</title>
-			<title code="0x26">Œø‰Ê‰¹(ƒnƒbƒ`ŠJ•Â‰¹)</title>
-			<title code="0x1e">Œø‰Ê‰¹(‘D“à‰¹)</title>
-		<!--	<title code="0x2c">Œø‰Ê‰¹(‘D“à‰¹)</title> -->
-			<title code="0x1f">Œø‰Ê‰¹(ƒhƒAƒI[ƒvƒ“)</title>
-		<!--	<title code="0x20">Œø‰Ê‰¹(‹@ŠÖŽº)</title> -->
-			<title code="0x21">Œø‰Ê‰¹(“®—ÍŽº)</title>
-			<title code="0x22">Œø‰Ê‰¹(Œ¤‹†Žº)</title>
-			<title code="0x23">Œø‰Ê‰¹(ƒVƒ‡ƒbƒN)</title>
-			<title code="0x2b">áS‚éN“üŽÒ(1)(ƒoƒ‹ƒJƒX)</title>
-			<title code="0x2a">áS‚éN“üŽÒ(2)(ƒxƒŠ[ƒj)</title>
-			<title code="0x30">áS‚éN“üŽÒ(3)(H—¿ŒÉ)</title>
-		<!--	<title code="0x27">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[™ôšK1)</title> -->
-		<!--	<title code="0x35">Œø‰Ê‰¹(e”­ŽË1)</title> -->
-		<!--	<title code="0x32">‰¹F’è‹`</title> -->
-			<title code="0x33">¶–½‚Ö‚ÌŽ^‰Ì</title>
-		<!--	<title code="0x2d">‰¹FÝ’è</title> -->
-			<title code="0x2e">áS‚éN“üŽÒ(4)(ƒGƒŠ[ƒk)</title>
-			<title code="0x3d">Œø‰Ê‰¹(¶‘ÌƒZƒ“ƒT[)</title>
-			<title code="0x40">Œø‰Ê‰¹(‘qŒÉØ‚è—£‚µ)</title>
-		<!--	<title code="0x3b">‰¹FÝ’è</title> -->
-		<!--	<title code="0x3c">‹ó‚Ì‰Ê‚Ä‚Ö</title> -->
-			<title code="0x42">‹AŠÒ</title>
-			<title code="0x43">Œø‰Ê‰¹(Œx‰¹)</title>
-			<title code="0x44">Œø‰Ê‰¹(‘D“à‰¹1)</title>
-			<title code="0x51">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[”­Œ©)</title>
-			<title code="0x50">Œø‰Ê‰¹(e”­ŽË2)</title>
-		<!--	<title code="0x58">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[™ôšK2)</title> -->
-		<!--	<title code="0x56">‰¹FÝ’è</title> -->
-			<title code="0x57">áS‚éN“üŽÒ(5)(–F‰Ô)</title>
-		<!--	<title code="0x59">‰¹FÝ’è</title> -->
-			<title code="0x5a">’Á°‰Ì</title>
-			<title code="0x5c">‹ó‚Ì‰Ê‚Ä‚Ö</title>
-			<title code="0x46">Œø‰Ê‰¹(’ÊM‰¹)</title>
-			<title code="0x47">Œø‰Ê‰¹(’ÊMƒmƒCƒY)</title>
-			<title code="0x4a">Œø‰Ê‰¹(ƒVƒ‡ƒbƒN)</title>
-			<title code="0x41">‚«‚ç‚ß‚­“µ</title>
-			<title code="0x45">Œø‰Ê‰¹(‘D“à‰¹2)</title>
-			<title code="0x53">áS‚éN“üŽÒ(6)(‹@ŠÖŽº‰º)</title>
-		<!--	<title code="0x39">‰¹FÝ’è</title> -->
-			<title code="0x3a">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-			<title code="0x5b">Ž€_‚Ì‰e</title>
-			<title code="0x52">ƒWƒ“ƒOƒ‹(ƒ‚ƒ“ƒXƒ^[”­Œ©)</title>
-			<title code="0x5d">Œø‰Ê‰¹(ƒhƒAƒNƒ[ƒY)</title>
-		<!--	<title code="0x5e">‰¹FÝ’è</title> -->
-			<title code="0x5f">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-		<!--	<title code="0x63">‰¹FÝ’è</title> -->
-			<title code="0x64">”—‚è—ˆ‚éŠë‹@</title>
-		<!--	<title code="0x65">Œø‰Ê‰¹(‘D“à‰¹)</title> -->
-		<!--	<title code="0x66">‰¹FÝ’è</title> -->
-			<title code="0x67">’§í‚ÌŽž</title>
-			<title code="0x6c">áS‚éN“üŽÒ(7)</title>
-			<title code="0x70">Ÿ—˜‚Ìù—¥</title>
-		<!--	<title code="0x71">Ÿ—˜‚Ìù—¥(Œã”¼)</title> -->
-		<!--	<title code="0x68">‰¹FÝ’è</title> -->
-			<title code="0x69">‹Ž‚ès‚­ŽÒ’B</title>
-		<!--	<title code="0x6a">‰¹FÝ’è</title> -->
-			<title code="0x6b">¶–½‚Ö‚ÌŽ^‰Ì</title>
-			<title code="0x6f">‘“‚¢–³ŒÀ(ƒGƒsƒ[ƒO)</title>
-		<!--	<title code="0x2f">Œø‰Ê‰¹</title> -->
-		<!--	<title code="0x34">Œø‰Ê‰¹</title> -->
-			<title code="0x36">Œø‰Ê‰¹</title>
-		<!--	<title code="0x08">‰¹FÝ’è</title> -->
-		<!--	<title code="0x09">’§í‚ÌŽž</title> -->
-			<title code="0x54">áS‚éN“üŽÒ</title>
-			<title code="0x55">áS‚éN“üŽÒ</title>
-		<!--	<title code="0x60">Œø‰Ê‰¹(‘D“à‰¹3)</title> -->
-			<title code="0x61">‘“‚¢–³ŒÀ</title>
-			<title code="0x6d">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
-			<title code="0x6e">‚â‚·‚ç‚¬‚Ì‰F’ˆ</title>
+			<title code="0x0a">ãƒãƒ£ã‚¤ãƒ </title>
+		<!--	<title code="0x15">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x16">è™šç©ºã¸ã®å‰å¥</title>
+			<title code="0x00">ãƒãƒ«ã‚«ã‚¹ãŒãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã«ãŠãã‚ã‚Œã‚‹</title>
+			<title code="0x02">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+		<!--	<title code="0x0b">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x0c">è’¼ã„ç„¡é™(ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°)</title>
+		<!--	<title code="0x07">é€Ÿé›„ãŒæ­©ãã¨ãã®éŸ³</title> -->
+			<title code="0x01">ãã‚‰ã‚ãçž³</title>
+		<!--	<title code="0x0d">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x0e">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+		<!--	<title code="0x05">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x06">è«è‰²ã®æ„›</title>
+			<title code="0x17">é›»è©±ã®éŸ³</title>
+		<!--	<title code="0x03">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x04">å‹‡è€…ã®ä¼‘æ¯</title>
+			<title code="0x1c">ãã‚‰ã‚ãçž³</title>
+		<!--	<title code="0x1a">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x1b">ç”˜ã„æŠ±æ“</title>
+		<!--	<title code="0x18">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x19">å¤¢ã®ä¸­ã®äºŒäºº</title>
+		<!--	<title code="0x13">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x14">å´©ã‚Œè¡Œãéƒ½å¸‚</title>
+		<!--	<title code="0x0f">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x10">ç©ºã®æžœã¦ã¸</title>
+		<!--	<title code="0x11">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x12">è¿«ã‚Šæ¥ã‚‹å±æ©Ÿ</title>
+			<title code="0x26">åŠ¹æžœéŸ³(ãƒãƒƒãƒé–‹é–‰éŸ³)</title>
+			<title code="0x1e">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title>
+		<!--	<title code="0x2c">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title> -->
+			<title code="0x1f">åŠ¹æžœéŸ³(ãƒ‰ã‚¢ã‚ªãƒ¼ãƒ—ãƒ³)</title>
+		<!--	<title code="0x20">åŠ¹æžœéŸ³(æ©Ÿé–¢å®¤)</title> -->
+			<title code="0x21">åŠ¹æžœéŸ³(å‹•åŠ›å®¤)</title>
+			<title code="0x22">åŠ¹æžœéŸ³(ç ”ç©¶å®¤)</title>
+			<title code="0x23">åŠ¹æžœéŸ³(ã‚·ãƒ§ãƒƒã‚¯)</title>
+			<title code="0x2b">ç”¦ã‚‹ä¾µå…¥è€…(1)(ãƒãƒ«ã‚«ã‚¹)</title>
+			<title code="0x2a">ç”¦ã‚‹ä¾µå…¥è€…(2)(ãƒ™ãƒªãƒ¼ãƒ‹)</title>
+			<title code="0x30">ç”¦ã‚‹ä¾µå…¥è€…(3)(é£Ÿæ–™åº«)</title>
+		<!--	<title code="0x27">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼å’†å“®1)</title> -->
+		<!--	<title code="0x35">åŠ¹æžœéŸ³(éŠƒç™ºå°„1)</title> -->
+		<!--	<title code="0x32">éŸ³è‰²å®šç¾©</title> -->
+			<title code="0x33">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title>
+		<!--	<title code="0x2d">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x2e">ç”¦ã‚‹ä¾µå…¥è€…(4)(ã‚¨ãƒªãƒ¼ãƒŒ)</title>
+			<title code="0x3d">åŠ¹æžœéŸ³(ç”Ÿä½“ã‚»ãƒ³ã‚µãƒ¼)</title>
+			<title code="0x40">åŠ¹æžœéŸ³(å€‰åº«åˆ‡ã‚Šé›¢ã—)</title>
+		<!--	<title code="0x3b">éŸ³è‰²è¨­å®š</title> -->
+		<!--	<title code="0x3c">ç©ºã®æžœã¦ã¸</title> -->
+			<title code="0x42">å¸°é‚„</title>
+			<title code="0x43">åŠ¹æžœéŸ³(è­¦å‘ŠéŸ³)</title>
+			<title code="0x44">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³1)</title>
+			<title code="0x51">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ç™ºè¦‹)</title>
+			<title code="0x50">åŠ¹æžœéŸ³(éŠƒç™ºå°„2)</title>
+		<!--	<title code="0x58">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼å’†å“®2)</title> -->
+		<!--	<title code="0x56">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x57">ç”¦ã‚‹ä¾µå…¥è€…(5)(èŠ³èŠ±)</title>
+		<!--	<title code="0x59">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x5a">éŽ®é­‚æ­Œ</title>
+			<title code="0x5c">ç©ºã®æžœã¦ã¸</title>
+			<title code="0x46">åŠ¹æžœéŸ³(é€šä¿¡éŸ³)</title>
+			<title code="0x47">åŠ¹æžœéŸ³(é€šä¿¡ãƒŽã‚¤ã‚º)</title>
+			<title code="0x4a">åŠ¹æžœéŸ³(ã‚·ãƒ§ãƒƒã‚¯)</title>
+			<title code="0x41">ãã‚‰ã‚ãçž³</title>
+			<title code="0x45">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³2)</title>
+			<title code="0x53">ç”¦ã‚‹ä¾µå…¥è€…(6)(æ©Ÿé–¢å®¤ä¸‹)</title>
+		<!--	<title code="0x39">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x3a">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+			<title code="0x5b">æ­»ç¥žã®å½±</title>
+			<title code="0x52">ã‚¸ãƒ³ã‚°ãƒ«(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ç™ºè¦‹)</title>
+			<title code="0x5d">åŠ¹æžœéŸ³(ãƒ‰ã‚¢ã‚¯ãƒ­ãƒ¼ã‚º)</title>
+		<!--	<title code="0x5e">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x5f">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+		<!--	<title code="0x63">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x64">è¿«ã‚Šæ¥ã‚‹å±æ©Ÿ</title>
+		<!--	<title code="0x65">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title> -->
+		<!--	<title code="0x66">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x67">æŒ‘æˆ¦ã®æ™‚</title>
+			<title code="0x6c">ç”¦ã‚‹ä¾µå…¥è€…(7)</title>
+			<title code="0x70">å‹åˆ©ã®æ—‹å¾‹</title>
+		<!--	<title code="0x71">å‹åˆ©ã®æ—‹å¾‹(å¾ŒåŠ)</title> -->
+		<!--	<title code="0x68">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x69">åŽ»ã‚Šè¡Œãè€…é”</title>
+		<!--	<title code="0x6a">éŸ³è‰²è¨­å®š</title> -->
+			<title code="0x6b">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title>
+			<title code="0x6f">è’¼ã„ç„¡é™(ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°)</title>
+		<!--	<title code="0x2f">åŠ¹æžœéŸ³</title> -->
+		<!--	<title code="0x34">åŠ¹æžœéŸ³</title> -->
+			<title code="0x36">åŠ¹æžœéŸ³</title>
+		<!--	<title code="0x08">éŸ³è‰²è¨­å®š</title> -->
+		<!--	<title code="0x09">æŒ‘æˆ¦ã®æ™‚</title> -->
+			<title code="0x54">ç”¦ã‚‹ä¾µå…¥è€…</title>
+			<title code="0x55">ç”¦ã‚‹ä¾µå…¥è€…</title>
+		<!--	<title code="0x60">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³3)</title> -->
+			<title code="0x61">è’¼ã„ç„¡é™</title>
+			<title code="0x6d">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
+			<title code="0x6e">ã‚„ã™ã‚‰ãŽã®å®‡å®™</title>
 		<!--	<title code="0x1d">BGM #1D</title> -->
 		<!--	<title code="0x24">BGM #24</title> -->
 		<!--	<title code="0x25">BGM #25</title> -->
@@ -2459,7 +2459,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Misty Blue (ƒ~ƒXƒeƒB[ƒuƒ‹[) (YM2608)</name>
+		<name>[PC-8801] Misty Blue (ãƒŸã‚¹ãƒ†ã‚£ãƒ¼ãƒ–ãƒ«ãƒ¼) (YM2608)</name>
 		<driver type="opna">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -2527,8 +2527,8 @@
 			<title code="0x18">Opening</title>
 			<title code="0x19">Opening (OPN version)</title>
 			<title code="0x0b">Lovers</title>
-			<title code="0x04">Suspicion (‹^˜f)</title>
-			<title code="0x07">Elusive Thought (“Í‚©‚Ê‘z‚¢)</title>
+			<title code="0x04">Suspicion (ç–‘æƒ‘)</title>
+			<title code="0x07">Elusive Thought (å±Šã‹ã¬æƒ³ã„)</title>
 			<title code="0x06">Illusion</title>
 			<title code="0x0c">I wanna close to you</title>
 			<title code="0x0d">Misty Blue</title>
@@ -2538,23 +2538,23 @@
 			<title code="0x1a">Theme of enix quest</title>
 			<title code="0x1b">Escape (enix quest)</title>
 			<title code="0x1c">Battle (enix quest)</title>
-			<title code="0x05">ƒ~ƒbƒL[‚Ì‰Æ‚Ì‹È</title>
-			<title code="0x10">ƒ~ƒbƒL[‚Ì‰Æ‚Ì‹È(ƒ‹[ƒv)</title>
-			<title code="0x0a">ŒxŽ@‚Ì‹È</title>
-			<title code="0x11">ŒxŽ@‚Ì‹È(ƒ‹[ƒv)</title>
+			<title code="0x05">ãƒŸãƒƒã‚­ãƒ¼ã®å®¶ã®æ›²</title>
+			<title code="0x10">ãƒŸãƒƒã‚­ãƒ¼ã®å®¶ã®æ›²(ãƒ«ãƒ¼ãƒ—)</title>
+			<title code="0x0a">è­¦å¯Ÿã®æ›²</title>
+			<title code="0x11">è­¦å¯Ÿã®æ›²(ãƒ«ãƒ¼ãƒ—)</title>
 			<title code="0x08">BRIDGE 1</title>
 			<title code="0x09">BRIDGE 2</title>
-			<title code="0x01">–³‰¹</title>
-			<title code="0x02">ƒg[ƒ“</title>
-			<title code="0x12">“d˜b‚Ìƒxƒ‹</title>
-			<title code="0x13">“dŽÔ</title>
-			<title code="0x14">TV‚ÌƒmƒCƒY</title>
-			<title code="0x15">ŒÄ‚Ñ—é</title>
+			<title code="0x01">ç„¡éŸ³</title>
+			<title code="0x02">ãƒˆãƒ¼ãƒ³</title>
+			<title code="0x12">é›»è©±ã®ãƒ™ãƒ«</title>
+			<title code="0x13">é›»è»Š</title>
+			<title code="0x14">TVã®ãƒŽã‚¤ã‚º</title>
+			<title code="0x15">å‘¼ã³éˆ´</title>
 			<title code="0x16">FAX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-8801] Misty Blue (ƒ~ƒXƒeƒB[ƒuƒ‹[) (YM2203)</name>
+		<name>[PC-8801] Misty Blue (ãƒŸã‚¹ãƒ†ã‚£ãƒ¼ãƒ–ãƒ«ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">Enix</driveralias>
 		<options>
@@ -2601,8 +2601,8 @@
 		<!--	<title code="0x18">Opening</title> -->
 			<title code="0x19">Opening (OPN version)</title>
 			<title code="0x0b">Lovers</title>
-			<title code="0x04">‹^˜f</title>
-			<title code="0x07">“Í‚©‚Ê‘z‚¢</title>
+			<title code="0x04">ç–‘æƒ‘</title>
+			<title code="0x07">å±Šã‹ã¬æƒ³ã„</title>
 			<title code="0x06">Illusion</title>
 			<title code="0x0c">I wanna close to you</title>
 			<title code="0x0d">Misty Blue</title>
@@ -2612,23 +2612,23 @@
 			<title code="0x1a">Theme of enix quest</title>
 			<title code="0x1b">Escape (enix quest)</title>
 			<title code="0x1c">Battle (enix quest)</title>
-			<title code="0x05">ƒ~ƒbƒL[‚Ì‰Æ‚Ì‹È</title>
-			<title code="0x10">ƒ~ƒbƒL[‚Ì‰Æ‚Ì‹È(ƒ‹[ƒv)</title>
-			<title code="0x0a">ŒxŽ@‚Ì‹È</title>
-			<title code="0x11">ŒxŽ@‚Ì‹È(ƒ‹[ƒv)</title>
+			<title code="0x05">ãƒŸãƒƒã‚­ãƒ¼ã®å®¶ã®æ›²</title>
+			<title code="0x10">ãƒŸãƒƒã‚­ãƒ¼ã®å®¶ã®æ›²(ãƒ«ãƒ¼ãƒ—)</title>
+			<title code="0x0a">è­¦å¯Ÿã®æ›²</title>
+			<title code="0x11">è­¦å¯Ÿã®æ›²(ãƒ«ãƒ¼ãƒ—)</title>
 			<title code="0x08">BRIDGE 1</title>
 			<title code="0x09">BRIDGE 2</title>
-			<title code="0x01">–³‰¹</title>
-			<title code="0x02">ƒg[ƒ“</title>
-			<title code="0x12">“d˜b‚Ìƒxƒ‹</title>
-			<title code="0x13">“dŽÔ</title>
-			<title code="0x14">TV‚ÌƒmƒCƒY</title>
-			<title code="0x15">ŒÄ‚Ñ—é</title>
+			<title code="0x01">ç„¡éŸ³</title>
+			<title code="0x02">ãƒˆãƒ¼ãƒ³</title>
+			<title code="0x12">é›»è©±ã®ãƒ™ãƒ«</title>
+			<title code="0x13">é›»è»Š</title>
+			<title code="0x14">TVã®ãƒŽã‚¤ã‚º</title>
+			<title code="0x15">å‘¼ã³éˆ´</title>
 			<title code="0x16">FAX</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Misty Blue (ƒ~ƒXƒeƒB[ƒuƒ‹[) (YM2203)</name>
+		<name>[PC-9801] Misty Blue (ãƒŸã‚¹ãƒ†ã‚£ãƒ¼ãƒ–ãƒ«ãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -2662,10 +2662,10 @@
 			<rom type="file" offset="0x1b">OTO.MSC</rom>
 			<rom type="file" offset="0x1c">ROCK2</rom>
 			<rom type="file" offset="0x1d">TELBEL</rom>
-			<rom type="file" offset="0x1e">¶Þ¯ÀÝ</rom>
-			<rom type="file" offset="0x1f">»Þ»Þ°</rom>
-			<rom type="file" offset="0x20">Ëß°¯!</rom>
-			<rom type="file" offset="0x21">ËßÝÎßÝ</rom>
+			<rom type="file" offset="0x1e">ï½¶ï¾žï½¯ï¾€ï¾</rom>
+			<rom type="file" offset="0x1f">ï½»ï¾žï½»ï¾žï½°</rom>
+			<rom type="file" offset="0x20">ï¾‹ï¾Ÿï½°ï½¯!</rom>
+			<rom type="file" offset="0x21">ï¾‹ï¾Ÿï¾ï¾Žï¾Ÿï¾</rom>
 			<rom type="shell" offset="0">musica98</rom>
 			<rom type="shell" offset="0">musicap</rom>
 		</romlist>
@@ -2678,7 +2678,7 @@
 			<title code="0x09">BGM010</title>
 			<title code="0x0a">Illusion</title>
 			<title code="0x0b">In the morning</title>
-			<title code="0x0c">“Í‚©‚ÊŽv‚¢</title>
+			<title code="0x0c">å±Šã‹ã¬æ€ã„</title>
 			<title code="0x0d">BGM015</title>
 			<title code="0x0e">BGM016</title>
 			<title code="0x0f">BGM018</title>
@@ -2690,19 +2690,19 @@
 			<title code="0x15">Escape (enix quest)</title>
 			<title code="0x16">Battle (enix quest)</title>
 			<title code="0x17">Theme of enix quest</title>
-			<title code="0x18">Opening (–¢Žg—p)</title>
+			<title code="0x18">Opening (æœªä½¿ç”¨)</title>
 			<title code="0x19">Opening</title>
 			<title code="0x1b">OTO.MSC</title>
 			<title code="0x1c">I wanna close to you</title>
-			<title code="0x1d">Œø‰Ê‰¹</title>
-			<title code="0x1e">Œø‰Ê‰¹</title>
-			<title code="0x1f">Œø‰Ê‰¹</title>
-			<title code="0x20">Œø‰Ê‰¹</title>
-			<title code="0x21">Œø‰Ê‰¹</title>
+			<title code="0x1d">åŠ¹æžœéŸ³</title>
+			<title code="0x1e">åŠ¹æžœéŸ³</title>
+			<title code="0x1f">åŠ¹æžœéŸ³</title>
+			<title code="0x20">åŠ¹æžœéŸ³</title>
+			<title code="0x21">åŠ¹æžœéŸ³</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Shutendouji (Žè“V“¶Žq) (YM2203)</name>
+		<name>[PC-9801] Shutendouji (æ‰‹å¤©ç«¥å­) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -2748,7 +2748,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Jesus II (ƒW[ƒUƒX2) (YM2151+MSM6258)</name>
+		<name>[X68000] Jesus II (ã‚¸ãƒ¼ã‚¶ã‚¹2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="jesus268snd">
@@ -2756,94 +2756,94 @@
 			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x66">ŒR‘à‚Ìƒe[ƒ}</title>
-			<title code="0x67">ƒtƒBƒi[ƒŒ</title>
-			<title code="0x68">ƒ‚ƒ“ƒXƒ^[</title>
-			<title code="0x69">ƒRƒƒbƒg</title>
-			<title code="0x6a">ƒI[ƒo[ƒ`ƒ…ƒA</title>
-			<title code="0x6b">ƒGƒŒƒW[</title>
-			<title code="0x6c">ƒtƒ@ƒCƒg</title>
-			<title code="0x6d">—mã‰¹Šy</title>
-			<title code="0x6e">ƒe[ƒ}ING</title>
-			<title code="0x6f">ƒe[ƒ}</title>
-			<title code="0x70">ƒ‰ƒWƒJƒZ</title>
-			<title code="0x71">ƒŒƒNƒCƒGƒ€</title>
-			<title code="0x72">•Ê‚ê</title>
-			<title code="0x73">ƒTƒXƒyƒ“ƒX</title>
-			<title code="0x74">ƒ‰ƒWƒJƒZ2</title>
-			<title code="0x75">ƒ‚ƒ“ƒXƒ^[2</title>
-			<title code="0x02">‰Ý•¨‘D‹ß‚Ã‚­</title>
-			<title code="0x03">ƒŒ[ƒ_[+’ÊM</title>
-			<title code="0x04">”g‚Ì‰¹+ƒEƒ~ƒlƒR</title>
-			<title code="0x05">¬‚³‚­”g‚Ì‰¹</title>
-			<title code="0x06">ƒL[ƒ{[ƒhƒNƒŠƒbƒN‰¹</title>
-			<title code="0x07">ƒ_[ƒc–½’†‰¹</title>
-			<title code="0x08">‹q‘D‚®‚ç‚¢‚Ì‘D‚Ì‹@ŠÖŽº</title>
-			<title code="0x09">ƒRƒ“ƒeƒi—Ž‰º</title>
-			<title code="0x0A">ƒEƒCƒ“ƒ`Šª‚«ã‚°</title>
-			<title code="0x0B">“d˜bŒÄo‰¹</title>
-			<title code="0x0C">“d˜bØ‚é</title>
-			<title code="0x0D">“d˜b˜b’†‰¹</title>
-			<title code="0x0E">‰“‚­‚Å‹@ŠÖŽº”š”­</title>
-			<title code="0x0F">Ž€‘Ì‚ª•Ï‰»</title>
-			<title code="0x10">‰»‚¯•¨‚Ì‰¹</title>
-			<title code="0x11">eº</title>
-			<title code="0x12">e‚ð\‚¦‚é</title>
-			<title code="0x13">ƒRƒ“ƒeƒi‚ªŠJ‚­</title>
-			<title code="0x14">ˆêÄ‘|ŽË</title>
-			<title code="0x15">“’‹C‚ª‚½‚Â</title>
-			<title code="0x16">ƒwƒŠƒRƒvƒ^[‰¹</title>
-			<title code="0x17">ƒwƒŠ+ƒoƒ‹ƒJƒ“–C</title>
-			<title code="0x18">ƒwƒŠŒ‚’Ä‰¹</title>
-			<title code="0x19">ƒGƒ“ƒWƒ“‰¹(¬)</title>
-			<title code="0x1A">ƒVƒƒƒbƒ^[‰¹</title>
-			<title code="0x1B">ƒgƒ‰ƒ“ƒV[ƒo[ƒR[ƒ‹‰¹</title>
-			<title code="0x1C">‰F’ˆ‘DƒGƒ“ƒWƒ“‰¹</title>
-			<title code="0x1D">’…ŠÍ—pƒr[ƒRƒ“</title>
-			<title code="0x1E">ƒAƒŠ‚Ì‘«‰¹</title>
-			<title code="0x1F">ƒhƒbƒLƒ“ƒOƒxƒCƒmƒCƒY</title>
-			<title code="0x20">ƒtƒHƒW[ˆÚ“®‰¹</title>
-			<title code="0x21">ƒhƒA‚ÌŠJ‚­‰¹</title>
-			<title code="0x22">ƒGƒŒƒx[ƒ^[</title>
-			<title code="0x23">Œ¤‹†ŽºƒmƒCƒY</title>
-			<title code="0x24">“_–Å‚·‚éÆ–¾</title>
-			<title code="0x25">ƒ^[ƒQƒbƒgƒƒbƒNƒIƒ“</title>
-			<title code="0x26">»‚Ì—’</title>
-			<title code="0x27">‰“‚­‚Ì”š”­‰¹</title>
-			<title code="0x28">”ñíƒTƒCƒŒƒ“</title>
-			<title code="0x29">‹‘åƒGƒ“ƒWƒ“‰¹</title>
-			<title code="0x2a">ƒGƒŒƒx[ƒ^[—Ž‰º</title>
-			<title code="0x2b">|“S‚ÌƒhƒA‚ð‚½‚½‚­</title>
-			<title code="0x2c">”ò‚ÑŽU‚éƒKƒ‰ƒX</title>
-			<title code="0x2d">ƒoƒY[ƒJ”­ŽË</title>
-			<title code="0x2e">–½’†!</title>
-			<title code="0x2f">‚Í‚µ‚²‚É‚©‚©‚éŒC‰¹</title>
-			<title code="0x30">S‘Ÿ‚ÌŒÛ“®</title>
-			<title code="0x31">”g“®–CƒGƒlƒ‹ƒM[[“U</title>
-			<title code="0x32">GŽè‚ªL‚Ñ‚é</title>
-			<title code="0x33">—â‹CƒKƒX</title>
-			<title code="0x34">ƒtƒHƒW[ˆÚ“®‰¹B</title>
-			<title code="0x35">”ñíƒTƒCƒŒƒ“¬</title>
-			<title code="0x4E">ƒŒ[ƒ_[‰¹</title>
-			<title code="0x4F">…‚ª—Ž‚¿‚é‰¹</title>
-			<title code="0x50">–¢Žg—p</title>
-			<title code="0x51">ƒWƒƒ[ƒ“1</title>
-			<title code="0x52">ƒWƒƒ[ƒ“2</title>
-			<title code="0x53">ƒWƒƒ[ƒ“3</title>
-			<title code="0x54">ƒGƒŒƒx[ƒ^[”j‰ó</title>
-			<title code="0x55">‹@ŠÖe‚Ìeº2</title>
-			<title code="0x56">ƒ‚[ƒ‹ƒX‰¹</title>
-			<title code="0x57">ƒoƒCƒN ƒZƒ‹ƒ‚[ƒ^[</title>
-			<title code="0x58">ƒoƒCƒN ƒAƒCƒhƒŠƒ“ƒO</title>
-			<title code="0x59">ƒoƒCƒN ‚Ó‚©‚µ</title>
-			<title code="0x5a">ƒoƒCƒN ‘–‚èo‚µ</title>
-			<title code="0x5b">ƒoƒCƒN ‘–s‰¹</title>
-			<title code="0x5c">”g“®–C</title>
-			<title code="0x5d">ƒŒ[ƒ_[‰¹B</title>
+			<title code="0x66">è»éšŠã®ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x67">ãƒ•ã‚£ãƒŠãƒ¼ãƒ¬</title>
+			<title code="0x68">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼</title>
+			<title code="0x69">ã‚³ãƒ¡ãƒƒãƒˆ</title>
+			<title code="0x6a">ã‚ªãƒ¼ãƒãƒ¼ãƒãƒ¥ã‚¢</title>
+			<title code="0x6b">ã‚¨ãƒ¬ã‚¸ãƒ¼</title>
+			<title code="0x6c">ãƒ•ã‚¡ã‚¤ãƒˆ</title>
+			<title code="0x6d">æ´‹ä¸ŠéŸ³æ¥½</title>
+			<title code="0x6e">ãƒ†ãƒ¼ãƒžING</title>
+			<title code="0x6f">ãƒ†ãƒ¼ãƒž</title>
+			<title code="0x70">ãƒ©ã‚¸ã‚«ã‚»</title>
+			<title code="0x71">ãƒ¬ã‚¯ã‚¤ã‚¨ãƒ </title>
+			<title code="0x72">åˆ¥ã‚Œ</title>
+			<title code="0x73">ã‚µã‚¹ãƒšãƒ³ã‚¹</title>
+			<title code="0x74">ãƒ©ã‚¸ã‚«ã‚»2</title>
+			<title code="0x75">ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼2</title>
+			<title code="0x02">è²¨ç‰©èˆ¹è¿‘ã¥ã</title>
+			<title code="0x03">ãƒ¬ãƒ¼ãƒ€ãƒ¼+é€šä¿¡</title>
+			<title code="0x04">æ³¢ã®éŸ³+ã‚¦ãƒŸãƒã‚³</title>
+			<title code="0x05">å°ã•ãæ³¢ã®éŸ³</title>
+			<title code="0x06">ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‚¯ãƒªãƒƒã‚¯éŸ³</title>
+			<title code="0x07">ãƒ€ãƒ¼ãƒ„å‘½ä¸­éŸ³</title>
+			<title code="0x08">å®¢èˆ¹ãã‚‰ã„ã®èˆ¹ã®æ©Ÿé–¢å®¤</title>
+			<title code="0x09">ã‚³ãƒ³ãƒ†ãƒŠè½ä¸‹</title>
+			<title code="0x0A">ã‚¦ã‚¤ãƒ³ãƒå·»ãä¸Šã’</title>
+			<title code="0x0B">é›»è©±å‘¼å‡ºéŸ³</title>
+			<title code="0x0C">é›»è©±åˆ‡ã‚‹</title>
+			<title code="0x0D">é›»è©±è©±ä¸­éŸ³</title>
+			<title code="0x0E">é ãã§æ©Ÿé–¢å®¤çˆ†ç™º</title>
+			<title code="0x0F">æ­»ä½“ãŒå¤‰åŒ–</title>
+			<title code="0x10">åŒ–ã‘ç‰©ã®éŸ³</title>
+			<title code="0x11">éŠƒå£°</title>
+			<title code="0x12">éŠƒã‚’æ§‹ãˆã‚‹</title>
+			<title code="0x13">ã‚³ãƒ³ãƒ†ãƒŠãŒé–‹ã</title>
+			<title code="0x14">ä¸€æ–‰æŽƒå°„</title>
+			<title code="0x15">æ¹¯æ°—ãŒãŸã¤</title>
+			<title code="0x16">ãƒ˜ãƒªã‚³ãƒ—ã‚¿ãƒ¼éŸ³</title>
+			<title code="0x17">ãƒ˜ãƒª+ãƒãƒ«ã‚«ãƒ³ç ²</title>
+			<title code="0x18">ãƒ˜ãƒªæ’ƒå¢œéŸ³</title>
+			<title code="0x19">ã‚¨ãƒ³ã‚¸ãƒ³éŸ³(å°)</title>
+			<title code="0x1A">ã‚·ãƒ£ãƒƒã‚¿ãƒ¼éŸ³</title>
+			<title code="0x1B">ãƒˆãƒ©ãƒ³ã‚·ãƒ¼ãƒãƒ¼ã‚³ãƒ¼ãƒ«éŸ³</title>
+			<title code="0x1C">å®‡å®™èˆ¹ã‚¨ãƒ³ã‚¸ãƒ³éŸ³</title>
+			<title code="0x1D">ç€è‰¦ç”¨ãƒ“ãƒ¼ã‚³ãƒ³</title>
+			<title code="0x1E">ã‚¢ãƒªã®è¶³éŸ³</title>
+			<title code="0x1F">ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ™ã‚¤ãƒŽã‚¤ã‚º</title>
+			<title code="0x20">ãƒ•ã‚©ã‚¸ãƒ¼ç§»å‹•éŸ³</title>
+			<title code="0x21">ãƒ‰ã‚¢ã®é–‹ãéŸ³</title>
+			<title code="0x22">ã‚¨ãƒ¬ãƒ™ãƒ¼ã‚¿ãƒ¼</title>
+			<title code="0x23">ç ”ç©¶å®¤ãƒŽã‚¤ã‚º</title>
+			<title code="0x24">ç‚¹æ»…ã™ã‚‹ç…§æ˜Ž</title>
+			<title code="0x25">ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãƒ­ãƒƒã‚¯ã‚ªãƒ³</title>
+			<title code="0x26">ç ‚ã®åµ</title>
+			<title code="0x27">é ãã®çˆ†ç™ºéŸ³</title>
+			<title code="0x28">éžå¸¸ã‚µã‚¤ãƒ¬ãƒ³</title>
+			<title code="0x29">å·¨å¤§ã‚¨ãƒ³ã‚¸ãƒ³éŸ³</title>
+			<title code="0x2a">ã‚¨ãƒ¬ãƒ™ãƒ¼ã‚¿ãƒ¼è½ä¸‹</title>
+			<title code="0x2b">é‹¼é‰„ã®ãƒ‰ã‚¢ã‚’ãŸãŸã</title>
+			<title code="0x2c">é£›ã³æ•£ã‚‹ã‚¬ãƒ©ã‚¹</title>
+			<title code="0x2d">ãƒã‚ºãƒ¼ã‚«ç™ºå°„</title>
+			<title code="0x2e">å‘½ä¸­!</title>
+			<title code="0x2f">ã¯ã—ã”ã«ã‹ã‹ã‚‹é´éŸ³</title>
+			<title code="0x30">å¿ƒè‡“ã®é¼“å‹•</title>
+			<title code="0x31">æ³¢å‹•ç ²ã‚¨ãƒãƒ«ã‚®ãƒ¼å……å¡«</title>
+			<title code="0x32">è§¦æ‰‹ãŒä¼¸ã³ã‚‹</title>
+			<title code="0x33">å†·æ°—ã‚¬ã‚¹</title>
+			<title code="0x34">ãƒ•ã‚©ã‚¸ãƒ¼ç§»å‹•éŸ³B</title>
+			<title code="0x35">éžå¸¸ã‚µã‚¤ãƒ¬ãƒ³å°</title>
+			<title code="0x4E">ãƒ¬ãƒ¼ãƒ€ãƒ¼éŸ³</title>
+			<title code="0x4F">æ°´ãŒè½ã¡ã‚‹éŸ³</title>
+			<title code="0x50">æœªä½¿ç”¨</title>
+			<title code="0x51">ã‚¸ãƒ£ãƒ¼ãƒ³1</title>
+			<title code="0x52">ã‚¸ãƒ£ãƒ¼ãƒ³2</title>
+			<title code="0x53">ã‚¸ãƒ£ãƒ¼ãƒ³3</title>
+			<title code="0x54">ã‚¨ãƒ¬ãƒ™ãƒ¼ã‚¿ãƒ¼ç ´å£Š</title>
+			<title code="0x55">æ©Ÿé–¢éŠƒã®éŠƒå£°2</title>
+			<title code="0x56">ãƒ¢ãƒ¼ãƒ«ã‚¹éŸ³</title>
+			<title code="0x57">ãƒã‚¤ã‚¯ ã‚»ãƒ«ãƒ¢ãƒ¼ã‚¿ãƒ¼</title>
+			<title code="0x58">ãƒã‚¤ã‚¯ ã‚¢ã‚¤ãƒ‰ãƒªãƒ³ã‚°</title>
+			<title code="0x59">ãƒã‚¤ã‚¯ ãµã‹ã—</title>
+			<title code="0x5a">ãƒã‚¤ã‚¯ èµ°ã‚Šå‡ºã—</title>
+			<title code="0x5b">ãƒã‚¤ã‚¯ èµ°è¡ŒéŸ³</title>
+			<title code="0x5c">æ³¢å‹•ç ²</title>
+			<title code="0x5d">ãƒ¬ãƒ¼ãƒ€ãƒ¼éŸ³B</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] World Golf III (ƒ[ƒ‹ƒhƒSƒ‹ƒt3) (YM2151+MSM6258)</name>
+		<name>[X68000] World Golf III (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Enix</driveralias>
 		<romlist archive="wgolf368snd">
@@ -2851,11 +2851,11 @@
 			<rom type="x" offset="0x10000">MUSIC.X</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒI[ƒvƒjƒ“ƒOƒfƒ‚</title>
-			<title code="0x02">ƒƒjƒ…[</title>
-			<title code="0x03">ƒR[ƒq[ƒuƒŒ[ƒN</title>
-			<title code="0x04">ƒz[ƒ‹ƒAƒEƒg</title>
-			<title code="0x05">•\²Ž®</title>
+			<title code="0x01">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢</title>
+			<title code="0x02">ãƒ¡ãƒ‹ãƒ¥ãƒ¼</title>
+			<title code="0x03">ã‚³ãƒ¼ãƒ’ãƒ¼ãƒ–ãƒ¬ãƒ¼ã‚¯</title>
+			<title code="0x04">ãƒ›ãƒ¼ãƒ«ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x05">è¡¨å½°å¼</title>
 			<title code="0x06">BGM #05</title>
 			<title code="0x07">BGM #06</title>
 			<title code="0x08">BGM #07</title>
@@ -2874,7 +2874,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`) (YM2203)</name>
+		<name>[PC-9801] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -2888,26 +2888,26 @@
 			<rom type="code" offset="0x10000">DRIVER</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒvƒƒ[ƒO</title>
-			<title code="0x01">ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`</title>
-			<title code="0x02">Â‚¢Î‚Ì‚«‚ç‚ß‚«</title>
-			<title code="0x03">ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX</title>
-			<title code="0x04">•Ï–e`ƒZƒ”ƒ@‚ÌŒx`</title>
-			<title code="0x05">ƒuƒ‹[EƒIƒuƒWƒF`‹½D`</title>
-			<title code="0x06">ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX</title>
-			<title code="0x07">”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“</title>
-			<title code="0x08">ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“</title>
-			<title code="0x09">ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`</title>
-			<title code="0x0a">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0b">ƒn[ƒhEƒfƒCƒY</title>
-			<title code="0x0c">ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[</title>
-			<title code="0x0d">•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0e">—\Œ¾ŽÒ</title>
-			<title code="0x0f">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`</title>
-			<title code="0x10">œfœr‚¢‚ÌƒvƒVƒ…ƒP</title>
-			<title code="0x11">•ö‰ó‚Ì”Þ•û</title>
-			<title code="0x12">ƒGƒsƒ[ƒO</title>
-			<title code="0x13">ƒyƒ‹[Œö‰€‚É‚Ä</title>
+			<title code="0x00">ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°</title>
+			<title code="0x01">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž</title>
+			<title code="0x02">é’ã„çŸ³ã®ãã‚‰ã‚ã</title>
+			<title code="0x03">ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹</title>
+			<title code="0x04">å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž</title>
+			<title code="0x05">ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž</title>
+			<title code="0x06">ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹</title>
+			<title code="0x07">æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³</title>
+			<title code="0x08">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³</title>
+			<title code="0x09">ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž</title>
+			<title code="0x0a">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0b">ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º</title>
+			<title code="0x0c">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼</title>
+			<title code="0x0d">å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0e">äºˆè¨€è€…</title>
+			<title code="0x0f">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž</title>
+			<title code="0x10">å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±</title>
+			<title code="0x11">å´©å£Šã®å½¼æ–¹</title>
+			<title code="0x12">ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°</title>
+			<title code="0x13">ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦</title>
 			<title code="0x14">SFX #01</title>
 			<title code="0x15">SFX #02</title>
 			<title code="0x16">SFX #03</title>
@@ -2924,7 +2924,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2) (YM2203)</name>
+		<name>[PC-9801] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -2942,7 +2942,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">Awards Ceremony (•\²Ž®)</title>
+			<title code="0x03">Awards Ceremony (è¡¨å½°å¼)</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -2955,7 +2955,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] World Golf III (ƒ[ƒ‹ƒhƒSƒ‹ƒt3) (YM2203)</name>
+		<name>[PC-9801] World Golf III (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•3) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -2969,18 +2969,18 @@
 			<rom type="shell" offset="0">wg3</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">Opening Demo (ƒI[ƒvƒjƒ“ƒOƒfƒ‚)</title>
-			<title code="0x01">Menu (ƒƒjƒ…[)</title>
-			<title code="0x02">Coffee Break (ƒR[ƒq[ƒuƒŒƒCƒN)</title>
-			<title code="0x03">Hole Out (ƒz[ƒ‹ƒAƒEƒg)</title>
-			<title code="0x04">Awards Ceremony (•\²Ž®)</title>
-		<!--	<title code="0x05">Chip-in SFX (ƒJƒbƒvƒCƒ“Œø‰Ê‰¹)</title>
-			<title code="0x06">Birdie SFX (ƒo[ƒfƒB[Œø‰Ê‰¹)</title>
-			<title code="0x07">Eagle SFX (ƒC[ƒOƒ‹Œø‰Ê‰¹)</title> -->
+			<title code="0x00">Opening Demo (ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ãƒ‡ãƒ¢)</title>
+			<title code="0x01">Menu (ãƒ¡ãƒ‹ãƒ¥ãƒ¼)</title>
+			<title code="0x02">Coffee Break (ã‚³ãƒ¼ãƒ’ãƒ¼ãƒ–ãƒ¬ã‚¤ã‚¯)</title>
+			<title code="0x03">Hole Out (ãƒ›ãƒ¼ãƒ«ã‚¢ã‚¦ãƒˆ)</title>
+			<title code="0x04">Awards Ceremony (è¡¨å½°å¼)</title>
+		<!--	<title code="0x05">Chip-in SFX (ã‚«ãƒƒãƒ—ã‚¤ãƒ³åŠ¹æžœéŸ³)</title>
+			<title code="0x06">Birdie SFX (ãƒãƒ¼ãƒ‡ã‚£ãƒ¼åŠ¹æžœéŸ³)</title>
+			<title code="0x07">Eagle SFX (ã‚¤ãƒ¼ã‚°ãƒ«åŠ¹æžœéŸ³)</title> -->
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] The Old Village Story (ƒI[ƒ‹ƒhEƒ”ƒBƒŒƒbƒWEƒXƒg[ƒŠ[) (YM2203)</name>
+		<name>[PC-9801] The Old Village Story (ã‚ªãƒ¼ãƒ«ãƒ‰ãƒ»ãƒ´ã‚£ãƒ¬ãƒƒã‚¸ãƒ»ã‚¹ãƒˆãƒ¼ãƒªãƒ¼) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Enix</driveralias>
 		<options>
@@ -3009,32 +3009,32 @@
 			<rom type="file" offset="0x21">TOWN-2.M</rom>
 			<rom type="file" offset="0x22">WALTZ.M</rom>
 			<rom type="file" offset="0x23">WOOD-1.M</rom>
-			<rom type="file" offset="0x24">ËÞ¯¸Ø.M</rom>
+			<rom type="file" offset="0x24">ï¾‹ï¾žï½¯ï½¸ï¾˜.M</rom>
 			<rom type="shell" offset="0">play98</rom>
 			<rom type="shell" offset="0">oldv_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x1e">ƒI[ƒvƒjƒ“ƒO</title>
-			<title code="0x22">‘º</title>
+			<title code="0x1e">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<title code="0x22">æ‘</title>
 			<title code="0x10">CASL-1.M</title>
-			<title code="0x11">ƒtƒB[ƒ‹ƒh2</title>
+			<title code="0x11">ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰2</title>
 			<title code="0x12">EMERG.M</title>
-			<title code="0x13">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x14">‘ÎŒˆ!ƒVƒ‹ƒt (ƒ{ƒXí)</title>
+			<title code="0x13">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x14">å¯¾æ±º!ã‚·ãƒ«ãƒ• (ãƒœã‚¹æˆ¦)</title>
 			<title code="0x15">KIKI-2.M</title>
-			<title code="0x16">é</title>
-			<title code="0x17">‹M‘°‚ÌŠX</title>
+			<title code="0x16">åŸŽ</title>
+			<title code="0x17">è²´æ—ã®è¡—</title>
 			<title code="0x18">KUJI-2.M</title>
-			<title code="0x19">ƒNƒWƒ‰</title>
-			<title code="0x1a">ƒ_ƒ“ƒWƒ‡ƒ“</title>
-			<title code="0x1b">•Y—¬</title>
+			<title code="0x19">ã‚¯ã‚¸ãƒ©</title>
+			<title code="0x1a">ãƒ€ãƒ³ã‚¸ãƒ§ãƒ³</title>
+			<title code="0x1b">æ¼‚æµ</title>
 			<title code="0x1c">OH!.M</title>
 			<title code="0x1d">SOROW5.M</title>
 			<title code="0x1f">TOKEI.M</title>
-			<title code="0x20">é‰º’¬</title>
+			<title code="0x20">åŸŽä¸‹ç”º</title>
 			<title code="0x21">TOWN-2.M</title>
-			<title code="0x23">ƒtƒB[ƒ‹ƒh1</title>
-			<title code="0x24">ƒWƒ“ƒOƒ‹</title>
+			<title code="0x23">ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰1</title>
+			<title code="0x24">ã‚¸ãƒ³ã‚°ãƒ«</title>
 		</titlelist>
 	</game>
 	<game>
@@ -3125,7 +3125,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ƒEƒCƒ“ƒOƒ}ƒ“ƒXƒyƒVƒƒƒ‹ -‚³‚ç‚Î–²íŽm-) (YM2413)</name>
+		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³ã‚¹ãƒšã‚·ãƒ£ãƒ« -ã•ã‚‰ã°å¤¢æˆ¦å£«-) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3149,14 +3149,14 @@
 			<title code="0x0206">WINGMAN</title>
 			<title code="0x0105">SUNSET</title>
 			<title code="0x0000">PINCH</title>
-			<title code="0x0001">í“¬ƒ‚[ƒh</title>
+			<title code="0x0001">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰</title>
 			<title code="0x0002">BIG BOSS</title>
 			<title code="0x0003">AOI</title>
 			<title code="0x0004">LAST WING</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ƒEƒCƒ“ƒOƒ}ƒ“ƒXƒyƒVƒƒƒ‹ -‚³‚ç‚Î–²íŽm-) (AY-3-8910)</name>
+		<name>[MSX2] Wingman Special: Farewell Dream Warrior (ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³ã‚¹ãƒšã‚·ãƒ£ãƒ« -ã•ã‚‰ã°å¤¢æˆ¦å£«-) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3179,14 +3179,14 @@
 			<title code="0x0106">WINGMAN</title>
 			<title code="0x0105">SUNSET</title>
 			<title code="0x0000">PINCH</title>
-			<title code="0x0001">í“¬ƒ‚[ƒh</title>
+			<title code="0x0001">æˆ¦é—˜ãƒ¢ãƒ¼ãƒ‰</title>
 			<title code="0x0002">BIG BOSS</title>
 			<title code="0x0003">AOI</title>
 			<title code="0x0004">LAST WING</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2) (AY-3-8910)</name>
+		<name>[MSX2] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3200,7 +3200,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">Awards Ceremony (•\²Ž®)</title>
+			<title code="0x03">Awards Ceremony (è¡¨å½°å¼)</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -3213,7 +3213,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`) (YM2413)</name>
+		<name>[MSX2] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž) (YM2413)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3248,30 +3248,30 @@
 			<rom type="bgm" offset="0x13">OTOA20</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒvƒƒ[ƒO</title>
-			<title code="0x01">ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`</title>
-			<title code="0x02">Â‚¢Î‚Ì‚«‚ç‚ß‚«</title>
-			<title code="0x03">ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX</title>
-			<title code="0x04">•Ï–e`ƒZƒ”ƒ@‚ÌŒx`</title>
-			<title code="0x05">ƒuƒ‹[EƒIƒuƒWƒF`‹½D`</title>
-			<title code="0x06">ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX</title>
-			<title code="0x07">”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“</title>
-			<title code="0x08">ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“</title>
-			<title code="0x09">ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`</title>
-			<title code="0x0a">ƒyƒ‹[Œö‰€‚É‚Ä</title>
-			<title code="0x0b">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0c">ƒn[ƒhEƒfƒCƒY</title>
-			<title code="0x0d">ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[</title>
-			<title code="0x0e">•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0f">—\Œ¾ŽÒ</title>
-			<title code="0x10">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`</title>
-			<title code="0x11">œfœr‚¢‚ÌƒvƒVƒ…ƒP</title>
-			<title code="0x12">•ö‰ó‚Ì”Þ•û</title>
-			<title code="0x13">ƒGƒsƒ[ƒO</title>
+			<title code="0x00">ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°</title>
+			<title code="0x01">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž</title>
+			<title code="0x02">é’ã„çŸ³ã®ãã‚‰ã‚ã</title>
+			<title code="0x03">ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹</title>
+			<title code="0x04">å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž</title>
+			<title code="0x05">ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž</title>
+			<title code="0x06">ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹</title>
+			<title code="0x07">æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³</title>
+			<title code="0x08">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³</title>
+			<title code="0x09">ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž</title>
+			<title code="0x0a">ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦</title>
+			<title code="0x0b">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0c">ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º</title>
+			<title code="0x0d">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼</title>
+			<title code="0x0e">å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0f">äºˆè¨€è€…</title>
+			<title code="0x10">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž</title>
+			<title code="0x11">å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±</title>
+			<title code="0x12">å´©å£Šã®å½¼æ–¹</title>
+			<title code="0x13">ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`) (AY-3-8910)</name>
+		<name>[MSX2] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3305,30 +3305,30 @@
 			<rom type="bgm" offset="0x13">OTOB20</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x00">ƒvƒƒ[ƒO</title>
-			<title code="0x01">ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`</title>
-			<title code="0x02">Â‚¢Î‚Ì‚«‚ç‚ß‚«</title>
-			<title code="0x03">ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX</title>
-			<title code="0x04">•Ï–e`ƒZƒ”ƒ@‚ÌŒx`</title>
-			<title code="0x05">ƒuƒ‹[EƒIƒuƒWƒF`‹½D`</title>
-			<title code="0x06">ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX</title>
-			<title code="0x07">”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“</title>
-			<title code="0x08">ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“</title>
-			<title code="0x09">ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`</title>
-			<title code="0x0a">ƒyƒ‹[Œö‰€‚É‚Ä</title>
-			<title code="0x0b">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0c">ƒn[ƒhEƒfƒCƒY</title>
-			<title code="0x0d">ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[</title>
-			<title code="0x0e">•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0x0f">—\Œ¾ŽÒ</title>
-			<title code="0x10">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`</title>
-			<title code="0x11">œfœr‚¢‚ÌƒvƒVƒ…ƒP</title>
-			<title code="0x12">•ö‰ó‚Ì”Þ•û</title>
-			<title code="0x13">ƒGƒsƒ[ƒO</title>
+			<title code="0x00">ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°</title>
+			<title code="0x01">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž</title>
+			<title code="0x02">é’ã„çŸ³ã®ãã‚‰ã‚ã</title>
+			<title code="0x03">ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹</title>
+			<title code="0x04">å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž</title>
+			<title code="0x05">ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž</title>
+			<title code="0x06">ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹</title>
+			<title code="0x07">æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³</title>
+			<title code="0x08">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³</title>
+			<title code="0x09">ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž</title>
+			<title code="0x0a">ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦</title>
+			<title code="0x0b">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0c">ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º</title>
+			<title code="0x0d">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼</title>
+			<title code="0x0e">å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0x0f">äºˆè¨€è€…</title>
+			<title code="0x10">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž</title>
+			<title code="0x11">å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±</title>
+			<title code="0x12">å´©å£Šã®å½¼æ–¹</title>
+			<title code="0x13">ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Jesus (ƒW[ƒUƒX) (AY-3-8910)</name>
+		<name>[MSX2] Jesus (ã‚¸ãƒ¼ã‚¶ã‚¹) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Enix</driveralias>
 		<options>
@@ -3396,63 +3396,63 @@
 			<rom type="bgm" offset="0x35">MUS58.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x01">ƒ`ƒƒƒCƒ€</title>
-			<title code="0x02">‹•‹ó‚Ö‚Ì‘O‘t</title>
-			<title code="0x03">ƒoƒ‹ƒJƒX‚ªƒ‚ƒ“ƒXƒ^[‚É‚¨‚»‚í‚ê‚é</title>
-			<title code="0x04">ƒQ[ƒ€ƒI[ƒo[</title>
-			<title code="0x05">‘“‚¢–³ŒÀ</title>
-		<!--	<title code="0x21">‘“‚¢–³ŒÀ</title> -->
-		<!--	<title code="0x33">‘“‚¢–³ŒÀ</title> -->
-			<title code="0x0c">—EŽÒ‚Ì‹x‘§</title>
-			<title code="0x09">‚«‚ç‚ß‚­“µ</title>
-		<!--	<title code="0x1d">‚«‚ç‚ß‚­“µ</title> -->
-		<!--	<title code="0x2a">‚«‚ç‚ß‚­“µ</title> -->
-			<title code="0x0b">ä¿F‚Ìˆ¤</title>
-			<title code="0x07">ŠÃ‚¢•ø—i</title>
-			<title code="0x08">–²‚Ì’†‚Ì“ñl</title>
-			<title code="0x06">•ö‚ês‚­“sŽs</title>
-			<title code="0x0d">‹ó‚Ì‰Ê‚Ä‚Ö</title>
-		<!--	<title code="0x1e">‹ó‚Ì‰Ê‚Ä‚Ö</title> -->
-		<!--	<title code="0x29">‹ó‚Ì‰Ê‚Ä‚Ö</title> -->
-			<title code="0x0a">”—‚è‚­‚éŠë‹@</title>
-		<!--	<title code="0x34">”—‚è‚­‚éŠë‹@</title> -->
-			<title code="0x35">’§í‚ÌŽž</title>
-			<title code="0x23">Ž€_‚Ì‰e</title>
-			<title code="0x2c">‹AŠÒ</title>
-			<title code="0x30">’Á°‰Ì</title>
-			<title code="0x16">áS‚éN“üŽÒ</title>
-		<!--	<title code="0x27">áS‚éN“üŽÒ</title> -->
-			<title code="0x0f">Ÿ—˜‚Ìù—¥</title>
-			<title code="0x10">Ÿ—˜‚Ìù—¥</title>
-			<title code="0x11">‹Ž‚ès‚­ŽÒ’B</title>
-			<title code="0x12">¶–½‚Ö‚ÌŽ^‰Ì</title>
-		<!--	<title code="0x1c">¶–½‚Ö‚ÌŽ^‰Ì</title> -->
-			<title code="0x00">Œø‰Ê‰¹(“d˜b‚Ì‰¹)</title>
-			<title code="0x18">Œø‰Ê‰¹(“®—ÍŽº)</title>
-			<title code="0x13">Œø‰Ê‰¹(ƒhƒAƒI[ƒvƒ“)</title>
-		<!--	<title code="0x25">Œø‰Ê‰¹</title> -->
-			<title code="0x14">Œø‰Ê‰¹(‘D“à‰¹)</title>
-			<title code="0x15">Œø‰Ê‰¹(ƒnƒbƒ`ŠJ•Â‰¹)</title>
-			<title code="0x17">Œø‰Ê‰¹(ƒVƒ‡ƒbƒN)</title>
-		<!--	<title code="0x28">Œø‰Ê‰¹</title> -->
-			<title code="0x19">Œø‰Ê‰¹(e”­ŽË)</title>
-		<!--	<title code="0x24">Œø‰Ê‰¹(e”­ŽË)</title> -->
-			<title code="0x1a">Œø‰Ê‰¹(ƒ‚ƒ“ƒXƒ^[™ôšK)</title>
-		<!--	<title code="0x26">Œø‰Ê‰¹</title> -->
-			<title code="0x1b">Œø‰Ê‰¹(Œ¤‹†Žº)</title>
-			<title code="0x1f">Œø‰Ê‰¹(‘qŒÉØ‚è—£‚µ)</title>
-			<title code="0x20">Œø‰Ê‰¹(‘D“à‰¹2)</title>
-		<!--	<title code="0x2e">Œø‰Ê‰¹</title> -->
-			<title code="0x22">Œø‰Ê‰¹(¶‘ÌƒZƒ“ƒT[)</title>
-			<title code="0x2b">ƒWƒ“ƒOƒ‹(ƒ‚ƒ“ƒXƒ^[”­Œ©)</title>
-			<title code="0x2d">Œø‰Ê‰¹(Œx‰¹)</title>
-			<title code="0x2f">Œø‰Ê‰¹(‘D“à‰¹3)</title>
-			<title code="0x31">Œø‰Ê‰¹(’ÊMƒmƒCƒY)</title>
-			<title code="0x32">Œø‰Ê‰¹(’ÊM‰¹)</title>
+			<title code="0x01">ãƒãƒ£ã‚¤ãƒ </title>
+			<title code="0x02">è™šç©ºã¸ã®å‰å¥</title>
+			<title code="0x03">ãƒãƒ«ã‚«ã‚¹ãŒãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã«ãŠãã‚ã‚Œã‚‹</title>
+			<title code="0x04">ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼</title>
+			<title code="0x05">è’¼ã„ç„¡é™</title>
+		<!--	<title code="0x21">è’¼ã„ç„¡é™</title> -->
+		<!--	<title code="0x33">è’¼ã„ç„¡é™</title> -->
+			<title code="0x0c">å‹‡è€…ã®ä¼‘æ¯</title>
+			<title code="0x09">ãã‚‰ã‚ãçž³</title>
+		<!--	<title code="0x1d">ãã‚‰ã‚ãçž³</title> -->
+		<!--	<title code="0x2a">ãã‚‰ã‚ãçž³</title> -->
+			<title code="0x0b">è«è‰²ã®æ„›</title>
+			<title code="0x07">ç”˜ã„æŠ±æ“</title>
+			<title code="0x08">å¤¢ã®ä¸­ã®äºŒäºº</title>
+			<title code="0x06">å´©ã‚Œè¡Œãéƒ½å¸‚</title>
+			<title code="0x0d">ç©ºã®æžœã¦ã¸</title>
+		<!--	<title code="0x1e">ç©ºã®æžœã¦ã¸</title> -->
+		<!--	<title code="0x29">ç©ºã®æžœã¦ã¸</title> -->
+			<title code="0x0a">è¿«ã‚Šãã‚‹å±æ©Ÿ</title>
+		<!--	<title code="0x34">è¿«ã‚Šãã‚‹å±æ©Ÿ</title> -->
+			<title code="0x35">æŒ‘æˆ¦ã®æ™‚</title>
+			<title code="0x23">æ­»ç¥žã®å½±</title>
+			<title code="0x2c">å¸°é‚„</title>
+			<title code="0x30">éŽ®é­‚æ­Œ</title>
+			<title code="0x16">ç”¦ã‚‹ä¾µå…¥è€…</title>
+		<!--	<title code="0x27">ç”¦ã‚‹ä¾µå…¥è€…</title> -->
+			<title code="0x0f">å‹åˆ©ã®æ—‹å¾‹</title>
+			<title code="0x10">å‹åˆ©ã®æ—‹å¾‹</title>
+			<title code="0x11">åŽ»ã‚Šè¡Œãè€…é”</title>
+			<title code="0x12">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title>
+		<!--	<title code="0x1c">ç”Ÿå‘½ã¸ã®è³›æ­Œ</title> -->
+			<title code="0x00">åŠ¹æžœéŸ³(é›»è©±ã®éŸ³)</title>
+			<title code="0x18">åŠ¹æžœéŸ³(å‹•åŠ›å®¤)</title>
+			<title code="0x13">åŠ¹æžœéŸ³(ãƒ‰ã‚¢ã‚ªãƒ¼ãƒ—ãƒ³)</title>
+		<!--	<title code="0x25">åŠ¹æžœéŸ³</title> -->
+			<title code="0x14">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³)</title>
+			<title code="0x15">åŠ¹æžœéŸ³(ãƒãƒƒãƒé–‹é–‰éŸ³)</title>
+			<title code="0x17">åŠ¹æžœéŸ³(ã‚·ãƒ§ãƒƒã‚¯)</title>
+		<!--	<title code="0x28">åŠ¹æžœéŸ³</title> -->
+			<title code="0x19">åŠ¹æžœéŸ³(éŠƒç™ºå°„)</title>
+		<!--	<title code="0x24">åŠ¹æžœéŸ³(éŠƒç™ºå°„)</title> -->
+			<title code="0x1a">åŠ¹æžœéŸ³(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼å’†å“®)</title>
+		<!--	<title code="0x26">åŠ¹æžœéŸ³</title> -->
+			<title code="0x1b">åŠ¹æžœéŸ³(ç ”ç©¶å®¤)</title>
+			<title code="0x1f">åŠ¹æžœéŸ³(å€‰åº«åˆ‡ã‚Šé›¢ã—)</title>
+			<title code="0x20">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³2)</title>
+		<!--	<title code="0x2e">åŠ¹æžœéŸ³</title> -->
+			<title code="0x22">åŠ¹æžœéŸ³(ç”Ÿä½“ã‚»ãƒ³ã‚µãƒ¼)</title>
+			<title code="0x2b">ã‚¸ãƒ³ã‚°ãƒ«(ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ç™ºè¦‹)</title>
+			<title code="0x2d">åŠ¹æžœéŸ³(è­¦å‘ŠéŸ³)</title>
+			<title code="0x2f">åŠ¹æžœéŸ³(èˆ¹å†…éŸ³3)</title>
+			<title code="0x31">åŠ¹æžœéŸ³(é€šä¿¡ãƒŽã‚¤ã‚º)</title>
+			<title code="0x32">åŠ¹æžœéŸ³(é€šä¿¡éŸ³)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77-AV] World Golf II (ƒ[ƒ‹ƒhƒSƒ‹ƒt2)</name>
+		<name>[FM77-AV] World Golf II (ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚´ãƒ«ãƒ•2)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM77-AV">Enix</driveralias>
 		<options>
@@ -3466,7 +3466,7 @@
 			<title code="0x00">Opening</title>
 			<title code="0x01">Coffee Break #1</title>
 			<title code="0x02">Coffee Break #2</title>
-			<title code="0x03">Awards Ceremony (•\²Ž®)</title>
+			<title code="0x03">Awards Ceremony (è¡¨å½°å¼)</title>
 			<title code="0x04">Ending</title>
 			<title code="0x05">Birdie Try</title>
 			<title code="0x06">Eagle Try</title>
@@ -3479,7 +3479,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[FM77-AV] Angelus: Akuma no Fukuin (ƒAƒ“ƒWƒFƒ‰ƒX `ˆ«–‚‚Ì•Ÿ‰¹`)</name>
+		<name>[FM77-AV] Angelus: Akuma no Fukuin (ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ ï½žæ‚ªé­”ã®ç¦éŸ³ï½ž)</name>
 		<driver type="generic">fm77av</driver>
 		<driveralias type="FM77-AV">Enix</driveralias>
 		<options>
@@ -3530,29 +3530,29 @@
 			<rom type="bgm" offset="0x27">PASHA</rom>
 		</romlist>
 		<titlelist>
-			<title code="0xdc0018">ƒvƒƒ[ƒO</title>
-			<title code="0xdc001b">Â‚¢Î‚Ì‚«‚ç‚ß‚«</title>
-			<title code="0xdc0012">ˆ¤‚ÌƒVƒ“ƒpƒV[ `ƒAƒ“ƒWƒFƒ‰ƒX‚Ìƒe[ƒ}`</title>
-			<title code="0xdc0006">ƒuƒ‰ƒCƒAƒ“‚ÆƒGƒŠƒX</title>
-			<title code="0xdc000f">•Ï–e`ƒZƒ”ƒ@‚ÌŒx`</title>
-			<title code="0xdc0016">ƒuƒ‹[EƒIƒuƒWƒF`‹½D`</title>
-			<title code="0xdc0015">ƒGƒ”ƒ@ƒ“ƒWƒFƒ‹EƒIƒ“EƒOƒm[ƒVƒX</title>
-			<title code="0xdc0019">”ß‚µ‚Ý‚ÌƒmƒNƒ^[ƒ“</title>
-			<title code="0xdb0005">ƒGƒŠƒXEƒCƒ“EƒWƒƒƒpƒ“</title>
-			<title code="0xdc001a">ƒyƒ‹[‚Ìƒe[ƒ}`ƒWƒOƒ\[Eƒ^ƒEƒ“`</title>
-			<title code="0xdc0013">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0xdc0017">ƒn[ƒhEƒfƒCƒY</title>
-			<title code="0xdc000e">ƒGƒŠƒXEƒCƒ“EƒWƒƒ[ƒ}ƒj[</title>
-			<title code="0xdc0010">•Ï–e`ƒ”ƒ@[ƒWƒ‡ƒ“II`</title>
-			<title code="0xdc0008">—\Œ¾ŽÒ</title>
-			<title code="0xdc0014">ˆ¤‚ÌƒVƒ“ƒpƒV[`ƒ”ƒ@[ƒWƒ‡ƒ“III`</title>
-			<title code="0xdc0009">œfœr‚¢‚ÌƒvƒVƒ…ƒP</title>
-			<title code="0xdc000c">•ö‰ó‚Ì”Þ•û</title>
-			<title code="0xdb0002">ƒGƒsƒ[ƒO</title>
-			<title code="0xdc000d">ƒyƒ‹[Œö‰€‚É‚Ä</title>
-			<title code="0xdb0003">ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver1SNG`</title>
-			<title code="0xdb0004">ˆ¤‚ÌƒVƒ“ƒpƒV[`Ver2SSS`</title>
-			<title code="0xdc000a">œfœr‚¢‚ÌƒvƒVƒ…ƒP(•Êƒo[ƒWƒ‡ƒ“)</title>
+			<title code="0xdc0018">ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°</title>
+			<title code="0xdc001b">é’ã„çŸ³ã®ãã‚‰ã‚ã</title>
+			<title code="0xdc0012">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ ï½žã‚¢ãƒ³ã‚¸ã‚§ãƒ©ã‚¹ã®ãƒ†ãƒ¼ãƒžï½ž</title>
+			<title code="0xdc0006">ãƒ–ãƒ©ã‚¤ã‚¢ãƒ³ã¨ã‚¨ãƒªã‚¹</title>
+			<title code="0xdc000f">å¤‰è²Œï½žã‚»ãƒ´ã‚¡ã®è­¦å‘Šï½ž</title>
+			<title code="0xdc0016">ãƒ–ãƒ«ãƒ¼ãƒ»ã‚ªãƒ–ã‚¸ã‚§ï½žéƒ·æ„ï½ž</title>
+			<title code="0xdc0015">ã‚¨ãƒ´ã‚¡ãƒ³ã‚¸ã‚§ãƒ«ãƒ»ã‚ªãƒ³ãƒ»ã‚°ãƒŽãƒ¼ã‚·ã‚¹</title>
+			<title code="0xdc0019">æ‚²ã—ã¿ã®ãƒŽã‚¯ã‚¿ãƒ¼ãƒ³</title>
+			<title code="0xdb0005">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ‘ãƒ³</title>
+			<title code="0xdc001a">ãƒšãƒ«ãƒ¼ã®ãƒ†ãƒ¼ãƒžï½žã‚¸ã‚°ã‚½ãƒ¼ãƒ»ã‚¿ã‚¦ãƒ³ï½ž</title>
+			<title code="0xdc0013">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0xdc0017">ãƒãƒ¼ãƒ‰ãƒ»ãƒ‡ã‚¤ã‚º</title>
+			<title code="0xdc000e">ã‚¨ãƒªã‚¹ãƒ»ã‚¤ãƒ³ãƒ»ã‚¸ãƒ£ãƒ¼ãƒžãƒ‹ãƒ¼</title>
+			<title code="0xdc0010">å¤‰è²Œï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIï½ž</title>
+			<title code="0xdc0008">äºˆè¨€è€…</title>
+			<title code="0xdc0014">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³IIIï½ž</title>
+			<title code="0xdc0009">å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±</title>
+			<title code="0xdc000c">å´©å£Šã®å½¼æ–¹</title>
+			<title code="0xdb0002">ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°</title>
+			<title code="0xdc000d">ãƒšãƒ«ãƒ¼å…¬åœ’ã«ã¦</title>
+			<title code="0xdb0003">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer1SNGï½ž</title>
+			<title code="0xdb0004">æ„›ã®ã‚·ãƒ³ãƒ‘ã‚·ãƒ¼ï½žVer2SSSï½ž</title>
+			<title code="0xdc000a">å½·å¾¨ã„ã®ãƒ—ã‚·ãƒ¥ã‚±(åˆ¥ãƒãƒ¼ã‚¸ãƒ§ãƒ³)</title>
 			<title code="0xda8001">SFX #01</title>
 			<title code="0xde001c">SFX #02</title>
 			<title code="0xdf001d">SFX #03</title>
@@ -3569,7 +3569,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX] Animal Land Murder Case (ƒAƒjƒ}ƒ‹ƒ‰ƒ“ƒhŽElŽ–Œ) (AY-3-8910)</name>
+		<name>[MSX] Animal Land Murder Case (ã‚¢ãƒ‹ãƒžãƒ«ãƒ©ãƒ³ãƒ‰æ®ºäººäº‹ä»¶) (AY-3-8910)</name>
 		<driver type="kss">msx</driver>
 		<driveralias type="MSX">Enix</driveralias>
 		<options>

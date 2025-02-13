@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -36,7 +36,7 @@
 <gamelist date="2005/09/25">
 	<!-- //FamilySoft -->
 	<game>
-		<name>[PC-8801] Muteki Keiji Daidageki: Shijousaidai no Hanzai (���G�Y�� ��Ō� �`�j��ő�̔ƍ߁`) (YM2203)</name>
+		<name>[PC-8801] Muteki Keiji Daidageki: Shijousaidai no Hanzai (無敵刑事 大打撃 ～史上最大の犯罪～) (YM2203)</name>
 		<driver type="opn">pc88</driver>
 		<driveralias type="PC-8801">FamilySoft</driveralias>
 		<options>
@@ -159,7 +159,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Dies Irae (�f�B�G�X�E�C��) (YM2203)</name>
+		<name>[PC-9801] Dies Irae (ディエス・イレ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -183,50 +183,50 @@
 			<rom type="file" offset="0x1b">DIES_11.M</rom>
 			<rom type="file" offset="0x1c">DIES_13.M</rom>
 			<rom type="file" offset="0x1d">DIES_14.M</rom>
-			<rom type="file" offset="0x1e">��_01.M</rom>
-			<rom type="file" offset="0x1f">��_02.M</rom>
-			<rom type="file" offset="0x20">��_03.M</rom>
-			<rom type="file" offset="0x21">�ؽ_01.M</rom>
-			<rom type="file" offset="0x22">�ؽ_02.M</rom>
-			<rom type="file" offset="0x23">�ؽ_03.M</rom>
-			<rom type="file" offset="0x24">�ؽ_04.M</rom>
-			<rom type="file" offset="0x25">�ر�_01.M</rom>
-			<rom type="file" offset="0x26">�ر�_02.M</rom>
-			<rom type="file" offset="0x27">�ر�_03.M</rom>
-			<rom type="file" offset="0x28">�-_01.M</rom>
+			<rom type="file" offset="0x1e">ｷﾑ_01.M</rom>
+			<rom type="file" offset="0x1f">ｷﾑ_02.M</rom>
+			<rom type="file" offset="0x20">ｷﾑ_03.M</rom>
+			<rom type="file" offset="0x21">ｸﾘｽ_01.M</rom>
+			<rom type="file" offset="0x22">ｸﾘｽ_02.M</rom>
+			<rom type="file" offset="0x23">ｸﾘｽ_03.M</rom>
+			<rom type="file" offset="0x24">ｸﾘｽ_04.M</rom>
+			<rom type="file" offset="0x25">ﾏﾘｱﾝ_01.M</rom>
+			<rom type="file" offset="0x26">ﾏﾘｱﾝ_02.M</rom>
+			<rom type="file" offset="0x27">ﾏﾘｱﾝ_03.M</rom>
+			<rom type="file" offset="0x28">ﾘ-_01.M</rom>
 			<rom type="shell" offset="0">PMD # /m8 /e0 /v4 /k</rom>
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
 			<title code="0x10">Dies Irae (Pre Opening)</title>
 			<title code="0x11">Dies Irae OPENING</title>
-			<title code="0x12">�ݾ��</title>
-			<title code="0x13">����</title>
-			<title code="0x14">�� ����</title>
-			<title code="0x15">�ؽ ����</title>
-			<title code="0x16">���޴ (���� � �-�)</title>
-			<title code="0x17">�ر� ���� 1</title>
-			<title code="0x18">�ر� ���� 2 (�ٷ� � ϲ)</title>
-			<title code="0x19">���-��</title>
-			<title code="0x1a">�ި�� �� (���� � ����)</title>
-			<title code="0x1b">BAD ENDING (���-��)</title>
-			<title code="0x1c">ENDING (�-��)</title>
-			<title code="0x1d">��� �� � ��� �� ?? (�-��ż)</title>
-			<title code="0x1e">�� � �-� / LOOP��-�ޮ� H.Ohishi</title>
-			<title code="0x1f">����-� (��)</title>
-			<title code="0x20">����� ��</title>
-			<title code="0x21">�ؽ � �-� / LOOP��-�ޮ� H.Ohishi</title>
-			<title code="0x22">����-� (�ؽ)</title>
-			<title code="0x23">����� (�ؽ)</title>
-			<title code="0x24">�ؽ � �-� (��)</title>
-			<title code="0x25">�ر� � �-� / LOOP��-�ޮ� H.Ohishi</title>
-			<title code="0x26">����-� (�ر�)</title>
-			<title code="0x27">����� (�ر�)</title>
-			<title code="0x28">����� (ذ)</title>
+			<title code="0x12">ｼﾝｾｶｲ</title>
+			<title code="0x13">ｻｲｸｽ</title>
+			<title code="0x14">ｷﾑ ﾊﾞﾄﾙ</title>
+			<title code="0x15">ｸﾘｽ ﾊﾞﾄﾙ</title>
+			<title code="0x16">ｸﾁﾌﾞｴ (ﾎﾟﾝﾃ ﾉ ﾃ-ﾏ)</title>
+			<title code="0x17">ﾏﾘｱﾝ ﾊﾞﾄﾙ 1</title>
+			<title code="0x18">ﾏﾘｱﾝ ﾊﾞﾄﾙ 2 (ﾂﾙｷﾞ ﾉ ﾏｲ)</title>
+			<title code="0x19">ﾊﾞﾗ-ﾄﾞ</title>
+			<title code="0x1a">ﾃﾞｨｴｽ ｲﾚ (ｻｲｺﾞ ﾉ ﾀﾀｶｲ)</title>
+			<title code="0x1b">BAD ENDING (ﾊﾞﾗ-ﾄﾞ)</title>
+			<title code="0x1c">ENDING (ﾙ-ﾌﾟ)</title>
+			<title code="0x1d">ﾄﾐﾀ ｻﾝ ﾉ ｷｮｸ ｶﾅ ?? (ﾙ-ﾌﾟﾅｼ)</title>
+			<title code="0x1e">ｷﾑ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x1f">ｿｳｻｼ-ﾝ (ｷﾑ)</title>
+			<title code="0x20">ｲﾍﾞﾝﾄ ｷﾑ</title>
+			<title code="0x21">ｸﾘｽ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x22">ｿｳｻｼ-ﾝ (ｸﾘｽ)</title>
+			<title code="0x23">ｲﾍﾞﾝﾄ (ｸﾘｽ)</title>
+			<title code="0x24">ｸﾘｽ ﾉ ﾃ-ﾏ (ｶｲ)</title>
+			<title code="0x25">ﾏﾘｱﾝ ﾉ ﾃ-ﾏ / LOOPﾊﾞ-ｼﾞｮﾝ H.Ohishi</title>
+			<title code="0x26">ｿｳｻｼ-ﾝ (ﾏﾘｱﾝ)</title>
+			<title code="0x27">ｲﾍﾞﾝﾄ (ﾏﾘｱﾝ)</title>
+			<title code="0x28">ｵｿｳｼｷ (ﾘｰ)</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Area 88: Etranger 1995 (�G���A88 �`�G�g�����W�F1995�`) (YM2203)</name>
+		<name>[PC-9801] Area 88: Etranger 1995 (エリア88 ～エトランジェ1995～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -267,36 +267,36 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">(�-���ݸ�) / ��ݶ� � ��-�ޮݱ������</title>
-			<title code="0x11">Ҳ�ϯ��1 / ³�ޮ� (2���-�����!)</title>
-			<title code="0x12">Ҳ�ϯ��2 / Ϲ�� � ķ</title>
-			<title code="0x13">��׼� ��޻ / ��׼� ��� ĳ���</title>
-			<title code="0x14">���-̨ݸ�ֳ / ��ݶ� ��ޮ�ϯ�� (��-�ޮݱ���???���)</title>
-			<title code="0x15">���޳ �� �ޮ��� / ÷ ��خ� γ����</title>
-			<title code="0x16">�����ɻ��� / Я��� ���޳</title>
-			<title code="0x17">���� 1 / 15sec. *2 �-��</title>
-			<title code="0x18">���� 1 / ��ʤ ���� 2 � �ϼ��!!! (������޷ֳ)</title>
-			<title code="0x19">���� 3 / ��γ + ÷ � ���޷</title>
-			<title code="0x1a">�� �� ������ (�-�߾��) / ���ݾ��� &amp; ����</title>
-			<title code="0x1b">� � ����޴� (�-�߾��) / ���-�� &amp; ²׸ (��޳ � �ޱ� ʤNo.17 � ��� �)</title>
-			<title code="0x1c">�ܲ� ��޳ / Я��� ���خ�</title>
-			<title code="0x1d">�׽�� � �޺� / - Private Time ֳ -</title>
-			<title code="0x1e">ϯ�� / �޷ � �ض�</title>
-			<title code="0x1f">���� ��� / �޹� &amp; ÷ � �����޷ (Robert Fripp � �ݶ޸ � ֳ)</title>
-			<title code="0x20">�ĳ ŷ ��¹޷ / ���خ���¹޷ Ҳ�BGM (1min.28sec.�-��)</title>
-			<title code="0x21">ح��� � �޲��� (�-�߾��) / ����- ��޳</title>
-			<title code="0x22">�ݿ� � Ҷ���� / �� &amp; �· � �-�</title>
-			<title code="0x23">���� � �޳��� / �ƶ�޵�ٶݼ�</title>
-			<title code="0x24">�޷�� � ��ٵ� / ���߸ &amp; ����ݶ�����</title>
-			<title code="0x25">Final Take Off / Fin Ending (��Զ � ��)</title>
-			<title code="0x26">ʲ � ů� �ײ / Bad Ending</title>
-			<title code="0x27">�-���ݸ� / ��ݶ� � ��-�ޮݱ������</title>
-			<title code="0x28">���ݼ � �� (��ڶ �� � ¹��!!) / ��-�� � ���-</title>
-			<title code="0x29">˼ޮ� ��γ / ����� ����</title>
+			<title code="0x10">(ｵ-ﾌﾟﾆﾝｸﾞ) / ｾﾞﾝｶｲ ﾉ ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟﾊﾞﾝ</title>
+			<title code="0x11">ﾒｲﾝﾏｯﾌﾟ1 / ﾂｳｼﾞｮｳ (2ﾌﾝﾙ-ﾌﾟﾀﾞﾖ!)</title>
+			<title code="0x12">ﾒｲﾝﾏｯﾌﾟ2 / ﾏｹｿｳ ﾅ ﾄｷ</title>
+			<title code="0x13">ｱﾀﾗｼｲ ﾂﾊﾞｻ / ｱﾀﾗｼｲ ｷﾀｲ ﾄｳﾁｬｸ</title>
+			<title code="0x14">ﾌﾞﾘ-ﾌｨﾝｸﾞﾖｳ / ｾﾞﾝｶｲ ﾁｼﾞｮｳﾏｯﾌﾟ (ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟ???ﾊﾞﾝ)</title>
+			<title code="0x15">ｻｸﾎﾞｳ ﾍﾉ ﾋﾞｮｳﾖﾐ / ﾃｷ ｾｲﾘｮｸ ﾎｳｺｸｼﾞ</title>
+			<title code="0x16">ﾏﾓﾉﾀﾁﾉｻｲﾃﾝ / ﾐｯｼｮﾝ ﾊﾂﾄﾞｳ</title>
+			<title code="0x17">ﾊﾞﾄﾙ 1 / 15sec. *2 ﾙ-ﾌﾟ</title>
+			<title code="0x18">ﾊﾞﾄﾙ 1 / ｺﾚﾊ､ ﾊﾞﾄﾙ 2 ﾆ ｼﾏｼｮｳ!!! (ﾀｲﾁｺｳｹﾞｷﾖｳ)</title>
+			<title code="0x19">ﾊﾞﾄﾙ 3 / ｹｲﾎｳ + ﾃｷ ﾉ ｺｳｹﾞｷ</title>
+			<title code="0x1a">ｾｲ ﾍﾉ ｼｭｳﾁｬｸ (ﾙ-ﾌﾟｾｽﾞ) / ｻｸｾﾝｾｲｺｳ &amp; ｼｮｳﾘ</title>
+			<title code="0x1b">ｼ ﾉ ﾁｭｳｶﾞｴﾘ (ﾙ-ﾌﾟｾｽﾞ) / ﾀﾞﾒ-ｼﾞ &amp; ﾂｲﾗｸ (ｼﾎﾞｳ ﾉ ﾊﾞｱｲ ﾊ､No.17 ﾉ ｷｮｸ ﾍ)</title>
+			<title code="0x1c">ｶﾜｲﾀ ｷﾎﾞｳ / ﾐｯｼｮﾝ ｼｭｳﾘｮｳ</title>
+			<title code="0x1d">ｶﾗｽﾀﾁ ﾉ ｺﾞｺﾞ / - Private Time ﾖｳ -</title>
+			<title code="0x1e">ﾏｯｺｲ / ﾌﾞｷ ﾉ ｳﾘｶｲ</title>
+			<title code="0x1f">ｱｽﾗﾝ ﾓﾕﾙ / ｼﾞｹﾝ &amp; ﾃｷ ﾉ ｿｳｺｳｹﾞｷ (Robert Fripp ﾉ ｵﾝｶﾞｸ ﾉ ﾖｳ)</title>
+			<title code="0x20">ｷﾄｳ ﾅｷ ｼｭﾂｹﾞｷ / ｾﾞﾝﾘｮｸｼｭﾂｹﾞｷ ﾒｲﾝBGM (1min.28sec.ﾙ-ﾌﾟ)</title>
+			<title code="0x21">ﾘｭｳｹﾂ ﾉ ﾀﾞｲｼｮｳ (ﾙ-ﾌﾟｾｽﾞ) / ﾒﾝﾊﾞ- ｼﾎﾞｳ</title>
+			<title code="0x22">ｵﾝｿｸ ﾉ ﾒｶﾞﾐﾀﾁ / ｾﾗ &amp; ﾅﾂｷ ﾉ ﾃ-ﾏ</title>
+			<title code="0x23">ﾀｸﾗﾐ ﾉ ﾄﾞｳｶｾﾝ / ﾅﾆｶｶﾞｵｺﾙｶﾝｼﾞ</title>
+			<title code="0x24">ｹﾞｷﾃﾂ ﾉ ｵﾁﾙｵﾄ / ｷﾝﾊﾟｸ &amp; ｷｭｳﾃﾝｶｲﾊﾞﾒﾝ</title>
+			<title code="0x25">Final Take Off / Fin Ending (ﾊﾚﾔｶ ﾅ ｿﾗ)</title>
+			<title code="0x26">ﾊｲ ﾆ ﾅｯﾀ ﾐﾗｲ / Bad Ending</title>
+			<title code="0x27">ｵ-ﾌﾟﾆﾝｸﾞ / ｾﾞﾝｶｲ ﾉ ﾊﾞ-ｼﾞｮﾝｱｯﾌﾟﾊﾞﾝ</title>
+			<title code="0x28">ﾀﾞﾃﾝｼ ﾉ ｳﾀ (ﾀﾞﾚｶ ｶｼ ｦ ﾂｹﾃﾈ!!) / ｳｫ-ﾚﾝ ﾉ ｷﾞﾀ-</title>
+			<title code="0x29">ﾋｼﾞｮｳ ｹｲﾎｳ / ｸｳｼｭｳ ｻｲﾚﾝ</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (�G���A88 �`��p�b�̋O�Ձ`) (YM2203)</name>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -346,7 +346,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (�G���A88 �`��p�b�̋O�Ձ`) (GM)</name>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (GM)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -396,7 +396,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (�G���A88 �`��p�b�̋O�Ձ`) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Area 88: Ikkakujou no Kiseki (エリア88 ～一角獣の軌跡～) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -447,7 +447,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Crasher Joe: Kanraku Wakusei no Inbou (�N���b�V���[�W���E �`���y�f���̉A�d�`) (YM2203)</name>
+		<name>[PC-9801] Crasher Joe: Kanraku Wakusei no Inbou (クラッシャージョウ ～歓楽惑星の陰謀～) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -487,35 +487,35 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">̧��-��� ������Ҳˮ���</title>
-			<title code="0x11">�ׯ��-�ޮ� (Я��� 2 �����ֶ�)</title>
-			<title code="0x12">�ׯ��-�ޮ� (����)</title>
-			<title code="0x13">�ׯ��-�ޮ� (�-���ݸ�)��-��ż�</title>
-			<title code="0x14">�ׯ��-�ޮ� (�� ����)</title>
-			<title code="0x15">�ׯ��-�ޮ� (Я��� 1 �-�)</title>
-			<title code="0x16">�ׯ��-�ޮ� (��ƭ�)</title>
-			<title code="0x17">�ׯ��-�ޮ� (�ި�ޭ�� Ҳ�)</title>
-			<title code="0x18">�ׯ��-�ޮ� (��-�޸ر)</title>
-			<title code="0x19">�ׯ��-�ޮ� (ʲ�޸)</title>
-			<title code="0x1a">�ׯ��-�ޮ� (������-,ζ)</title>
-			<title code="0x1b">�ׯ��-�ޮ� (��̨��,�޷��������)</title>
-			<title code="0x1c">�ׯ��-�ޮ� (��ŷ޾�����ޮ�)</title>
-			<title code="0x1d">�ׯ��-�ޮ� (Я��� 3 Ϲ��)</title>
-			<title code="0x1e">�ׯ��-�ޮ� (����,�ɼ���ķ)</title>
-			<title code="0x1f">�ׯ��-�ޮ� (÷ ����)</title>
-			<title code="0x20">�ׯ��-�ޮ� (����,��ׯ�޶̪)</title>
-			<title code="0x21">�ׯ��-�ޮ� (�-�-�޾���,Informacio'n)</title>
-			<title code="0x22">�ׯ��-�ޮ� (�޲ĳخ� ��ò)</title>
-			<title code="0x23">�ׯ��-�ޮ� (��ظ� ����)</title>
-			<title code="0x24">�ׯ��-�ޮ� (���߸����)</title>
-			<title code="0x25">�ׯ��-�ޮ� (���ިݸ�,�����-�)</title>
-			<title code="0x26">�ׯ��-�ޮ� (����-��)��-�� �أ</title>
-			<title code="0x27">�ׯ��-�ޮ� (��� �ި�ޭ��)</title>
+			<title code="0x10">ﾌｧﾐﾘ-ｿﾌﾄ ﾌﾞﾗﾝﾄﾞﾒｲﾋｮｳｼﾞ</title>
+			<title code="0x11">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 2 ｼｮｳﾘﾉﾖｶﾝ)</title>
+			<title code="0x12">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾀｲﾄﾙ)</title>
+			<title code="0x13">ｸﾗｯｼｬ-ｼﾞｮｳ (ｵ-ﾌﾟﾆﾝｸﾞ)｢ﾙ-ﾌﾟﾅｼ｣</title>
+			<title code="0x14">ｸﾗｯｼｬ-ｼﾞｮｳ (ｱｲ ｷｬｯﾁ)</title>
+			<title code="0x15">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 1 ﾃ-ﾏ)</title>
+			<title code="0x16">ｸﾗｯｼｬ-ｼﾞｮｳ (ｾﾝﾆｭｳ)</title>
+			<title code="0x17">ｸﾗｯｼｬ-ｼﾞｮｳ (ｳﾞｨｼﾞｭｱﾙ ﾒｲﾝ)</title>
+			<title code="0x18">ｸﾗｯｼｬ-ｼﾞｮｳ (ｽﾃ-ｼﾞｸﾘｱ)</title>
+			<title code="0x19">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾊｲﾎﾞｸ)</title>
+			<title code="0x1a">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾎﾃﾙﾛﾋﾞ-,ﾎｶ)</title>
+			<title code="0x1b">ｸﾗｯｼｬ-ｼﾞｮｳ (ｺﾝﾌｨｸﾞ,ﾌﾞｷｾﾝﾀｸｶﾞﾒﾝ)</title>
+			<title code="0x1c">ｸﾗｯｼｬ-ｼﾞｮｳ (ｸｻﾅｷﾞｾｲｷｺｳｼﾞｮｳ)</title>
+			<title code="0x1d">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾐｯｼｮﾝ 3 ﾏｹｿｳ)</title>
+			<title code="0x1e">ｸﾗｯｼｬ-ｼﾞｮｳ (ｶｼﾞﾉ,ﾀﾉｼｲﾋﾄﾄｷ)</title>
+			<title code="0x1f">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾃｷ ｱｼﾞﾄ)</title>
+			<title code="0x20">ｸﾗｯｼｬ-ｼﾞｮｳ (ｻｶﾊﾞ,ﾄﾞﾗｯｸﾞｶﾌｪ)</title>
+			<title code="0x21">ｸﾗｯｼｬ-ｼﾞｮｳ (ｷ-ﾜ-ﾄﾞｾﾝﾀｸ,Informacio'n)</title>
+			<title code="0x22">ｸﾗｯｼｬ-ｼﾞｮｳ (ﾀﾞｲﾄｳﾘｮｳ ｶﾝﾃｲ)</title>
+			<title code="0x23">ｸﾗｯｼｬ-ｼﾞｮｳ (ｾﾏﾘｸﾙ ｶﾝﾀｲ)</title>
+			<title code="0x24">ｸﾗｯｼｬ-ｼﾞｮｳ (ｷﾝﾊﾟｸﾊﾞﾒﾝ)</title>
+			<title code="0x25">ｸﾗｯｼｬ-ｼﾞｮｳ (ｴﾝﾃﾞｨﾝｸﾞ,ｽﾀｯﾌﾛ-ﾙ)</title>
+			<title code="0x26">ｸﾗｯｼｬ-ｼﾞｮｳ (ｴﾋﾟﾛ-ｸﾞ)｢ﾙ-ﾌﾟ ｱﾘ｣</title>
+			<title code="0x27">ｸﾗｯｼｬ-ｼﾞｮｳ (ｿﾉﾀ ｳﾞｨｼﾞｭｱﾙ)</title>
 			<range min="0x0801" max="0x0811" extcode="1">JOE_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kagaku Ninjatai Gatchaman: Taose! Galactor (�Ȋw�E�ґ��K�b�`���}�� �|��! �M�����N�^�[) (YM2203)</name>
+		<name>[PC-9801] Kagaku Ninjatai Gatchaman: Taose! Galactor (科学忍者隊ガッチャマン 倒せ! ギャラクター) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -550,25 +550,25 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">�Ȋw�E�ґ��K�b�`���}�� No.01 = T.V.Opening(Non Loop) =</title>
-			<title code="0x11">�ޯ���� (�ެ׸�-ɼ�ج�)</title>
-			<title code="0x12">�ޯ���� (��޸�ݼެ�� ����޳)</title>
-			<title code="0x13">�ޯ���� (��޸�ݼެ�� Ը�޳)</title>
-			<title code="0x14">�ޯ���� (������ ��ɶ��1)</title>
-			<title code="0x15">�ޯ���� (�ެ׸�- � ����޷)</title>
-			<title code="0x16">�ޯ���� (����)</title>
-			<title code="0x17">�ޯ���� (Ending)</title>
-			<title code="0x18">�ޯ���� (������ �۲���)</title>
-			<title code="0x19">�ޯ���� (÷ ����ƭ�)</title>
-			<title code="0x1a">�ޯ���� (���� 1)</title>
-			<title code="0x1b">�ޯ���� (�ݷ������)</title>
-			<title code="0x1c">�ޯ���� (Խ׷�1)</title>
-			<title code="0x1d">�ޯ���� (Խ׷�2)</title>
-			<title code="0x1e">�ޯ���� (Game Over)</title>
-			<title code="0x1f">�Ȋw�E�ґ��K�b�`���}�� No.02 = T.V.Opening(Loop) =</title>
-			<title code="0x20">�Ȋw�E�ґ��K�b�`���}�� No.05 = Bridge =</title>
-			<title code="0x21">�Ȋw�E�ґ��K�b�`���}�� No.03 = T.V.Ending(Non Loop) =</title>
-			<title code="0x22">�Ȋw�E�ґ��K�b�`���}�� No.03 = T.V.Ending(Non Loop) =</title>
+			<title code="0x10">科学忍者隊ガッチャマン No.01 = T.V.Opening(Non Loop) =</title>
+			<title code="0x11">ｶﾞｯﾁｬﾏﾝ (ｷﾞｬﾗｸﾀ-ﾉｼﾝﾘｬｸ)</title>
+			<title code="0x12">ｶﾞｯﾁｬﾏﾝ (ｶｶﾞｸﾆﾝｼﾞｬﾀｲ ｼｭﾂﾄﾞｳ)</title>
+			<title code="0x13">ｶﾞｯﾁｬﾏﾝ (ｶｶﾞｸﾆﾝｼﾞｬﾀｲ ﾔｸﾄﾞｳ)</title>
+			<title code="0x14">ｶﾞｯﾁｬﾏﾝ (ｼﾉﾋﾞﾖﾙ ｱｸﾉｶｹﾞ1)</title>
+			<title code="0x15">ｶﾞｯﾁｬﾏﾝ (ｷﾞｬﾗｸﾀ- ﾉ ｼｭｳｹﾞｷ)</title>
+			<title code="0x16">ｶﾞｯﾁｬﾏﾝ (ｷｭｳﾁ)</title>
+			<title code="0x17">ｶﾞｯﾁｬﾏﾝ (Ending)</title>
+			<title code="0x18">ｶﾞｯﾁｬﾏﾝ (ｼﾉﾋﾞﾖﾙ ｸﾛｲｶｹﾞ)</title>
+			<title code="0x19">ｶﾞｯﾁｬﾏﾝ (ﾃｷ ｷﾁｾﾝﾆｭｳ)</title>
+			<title code="0x1a">ｶﾞｯﾁｬﾏﾝ (ﾊﾞﾄﾙ 1)</title>
+			<title code="0x1b">ｶﾞｯﾁｬﾏﾝ (ｷﾝｷｭｳｼﾞﾀｲ)</title>
+			<title code="0x1c">ｶﾞｯﾁｬﾏﾝ (ﾔｽﾗｷﾞ1)</title>
+			<title code="0x1d">ｶﾞｯﾁｬﾏﾝ (ﾔｽﾗｷﾞ2)</title>
+			<title code="0x1e">ｶﾞｯﾁｬﾏﾝ (Game Over)</title>
+			<title code="0x1f">科学忍者隊ガッチャマン No.02 = T.V.Opening(Loop) =</title>
+			<title code="0x20">科学忍者隊ガッチャマン No.05 = Bridge =</title>
+			<title code="0x21">科学忍者隊ガッチャマン No.03 = T.V.Ending(Non Loop) =</title>
+			<title code="0x22">科学忍者隊ガッチャマン No.03 = T.V.Ending(Non Loop) =</title>
 			<range min="0x0801" max="0x0806" extcode="1">EFC_000.EFC #%2X</range>
 			<range min="0x0808" max="0x0809" extcode="1">EFC_000.EFC #%2X</range>
 			<range min="0x080b" max="0x081c" extcode="1">EFC_000.EFC #%2X</range>
@@ -576,7 +576,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam: A Year of War (�@����m�K���_�� A YEAR OF WAR) (YM2203)</name>
+		<name>[PC-9801] Kidou Senshi Gundam: A Year of War (機動戦士ガンダム A YEAR OF WAR) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -662,7 +662,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam: Advanced Operation (�@����m�K���_�� �A�h�o���X�h�I�y���[�V����) (YM2203)</name>
+		<name>[PC-9801] Kidou Senshi Gundam: Advanced Operation (機動戦士ガンダム アドバンスドオペレーション) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -734,7 +734,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam: Multiple Operation (�@����m�K���_�� �}���`�v���I�y���[�V����) (YM2203)</name>
+		<name>[PC-9801] Kidou Senshi Gundam: Multiple Operation (機動戦士ガンダム マルチプルオペレーション) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -766,27 +766,27 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">�@����m�K���_�� =Opening= No.01</title>
-			<title code="0x11">�ƭ-���� / MSF3,(����)</title>
-			<title code="0x12">��ص ���� / MSF3,�߲ۯ��-�</title>
-			<title code="0x13">���߳��� / (��ޮ�Map)</title>
-			<title code="0x14">���߳��� / (����Map)</title>
-			<title code="0x15">�޵ݸ�� ��ޮ� / Return of ZION (Ҳ��-�)</title>
-			<title code="0x16">�޵ݸ�� / (����Map)</title>
-			<title code="0x17">����-��� ��ޮ�(��-) / �-�</title>
-			<title code="0x18">����-��� ���� (��-) / ��-�ײ�</title>
-			<title code="0x19">���߳��� ���� / Return of ZION (Victory)</title>
-			<title code="0x1a">�޵ݸ�� ���� / MSF3,(����)</title>
-			<title code="0x1b">�۳��ä�� / MSF3,(����)</title>
-			<title code="0x1c">Ϲ ...Game Over / Return of ZION (�ż�)</title>
-			<title code="0x1d">MS�Ưļ��� / msf3,��د��</title>
-			<title code="0x1e">��� / Return of ZION (���-̨ݸ�)</title>
-			<title code="0x1f">�@����m�K���_�� =Ending= No.02</title>
+			<title code="0x10">機動戦士ガンダム =Opening= No.01</title>
+			<title code="0x11">ﾒﾆｭ-ｶﾞﾒﾝ / MSF3,(ｸﾝﾚﾝ)</title>
+			<title code="0x12">ｼﾅﾘｵ ｶﾞﾒﾝ / MSF3,ﾊﾟｲﾛｯﾄﾙ-ﾑ</title>
+			<title code="0x13">ﾚﾝﾎﾟｳｸﾞﾝ / (ﾁｼﾞｮｳMap)</title>
+			<title code="0x14">ﾚﾝﾎﾟｳｸﾞﾝ / (ｳﾁｭｳMap)</title>
+			<title code="0x15">ｼﾞｵﾝｸﾞﾝ ﾁｼﾞｮｳ / Return of ZION (ﾒｲﾝﾃ-ﾏ)</title>
+			<title code="0x16">ｼﾞｵﾝｸﾞﾝ / (ｳﾁｭｳMap)</title>
+			<title code="0x17">ｼｭﾐﾚ-ｼｮﾝ ﾁｼﾞｮｳ(ﾌﾘ-) / ﾏ-ﾁ</title>
+			<title code="0x18">ｼｭﾐﾚ-ｼｮﾝ ｳﾁｭｳ (ﾌﾘ-) / ﾍﾞ-ｽﾗｲﾝ</title>
+			<title code="0x19">ﾚﾝﾎﾟｳｸﾞﾝ ｼｮｳﾘ / Return of ZION (Victory)</title>
+			<title code="0x1a">ｼﾞｵﾝｸﾞﾝ ｼｮｳﾘ / MSF3,(ｼｮｳﾘ)</title>
+			<title code="0x1b">ｶﾛｳｼﾞﾃ､ｶﾂ / MSF3,(ｺｳｶｸ)</title>
+			<title code="0x1c">ﾏｹ ...Game Over / Return of ZION (ｶﾅｼﾐ)</title>
+			<title code="0x1d">MSﾕﾆｯﾄｼｭｳﾘ / msf3,ﾌﾞﾘｯｼﾞ</title>
+			<title code="0x1e">ﾖﾋﾞ / Return of ZION (ﾌﾞﾘ-ﾌｨﾝｸﾞ)</title>
+			<title code="0x1f">機動戦士ガンダム =Ending= No.02</title>
 			<range min="0x0801" max="0x0814" extcode="1">GUN_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam: Return of Zion (�@����m�K���_�� ���^�[����I�u��W�I��) (YM2203)</name>
+		<name>[PC-9801] Kidou Senshi Gundam: Return of Zion (機動戦士ガンダム リターン･オブ･ジオン) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -916,7 +916,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam 0083 0083: Stardust Operation (�@����m�K���_��0083 �X�^�[�_�X�g�E�I�y���[�V����) (YM2203)</name>
+		<name>[PC-9801] Kidou Senshi Gundam 0083 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -975,7 +975,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (�@����m�K���_��0083 �X�^�[�_�X�g�E�I�y���[�V����) (GS)</name>
+		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1033,7 +1033,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (�@����m�K���_��0083 �X�^�[�_�X�g�E�I�y���[�V����) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Kidou Senshi Gundam 0083: Stardust Operation (機動戦士ガンダム0083 スターダスト・オペレーション) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1092,7 +1092,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Soukou Kihei Votoms: Real Battle (���b�R���{�g���Y ���A���o�g��) (YM2203)</name>
+		<name>[PC-9801] Soukou Kihei Votoms: Real Battle (装甲騎兵ボトムズ リアルバトル) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1133,37 +1133,37 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">�۳�ݸ ��߲ ���</title>
-			<title code="0x11">�ƭ-����</title>
-			<title code="0x12">��׸�- ��ި�� (Opening � ʼ�� � ����� �� ¶���!!)</title>
-			<title code="0x13">���� ���</title>
-			<title code="0x14">AT-��ި��</title>
-			<title code="0x15">Ҳݽ��-�</title>
-			<title code="0x16">��-� � �� (����)</title>
-			<title code="0x17">����ݸ� ���ޮ�</title>
-			<title code="0x18">����</title>
-			<title code="0x19">ֳ� � ��׸�- � �-� (��� �,������ӳ���!!)</title>
-			<title code="0x1a">��ݸ�� �ż</title>
-			<title code="0x1b">����ݸ� ϴ (etc.�۲�¶���)</title>
-			<title code="0x1c">����ݸ� ����</title>
-			<title code="0x1d">���� � Ϲ� ķ, SAVE �� ¶���!!</title>
-			<title code="0x1e">�۳�ݸ � Ending ����...</title>
-			<title code="0x1f">���� �-�</title>
-			<title code="0x20">����ݸ� (�-��)</title>
-			<title code="0x21">����ݸ� ����-�� (vs.PS ֳ)</title>
-			<title code="0x22">����ݸ� (Big Game)</title>
-			<title code="0x23">ĸ��� � ����ݸ� � ϴ ��� ���� ��Ų</title>
-			<title code="0x24">�۲� ¶�� ��� �� � �ӳ</title>
-			<title code="0x25">��� � ���ޯ� �� ķ ���..</title>
-			<title code="0x26">��� �� �ܯ� !!  �- �-</title>
-			<title code="0x27">���� (�s�[�s�[)</title>
-			<title code="0x28">���W�I�m�C�Y</title>
+			<title code="0x10">ﾒﾛｳﾘﾝｸ ｯﾎﾟｲ ｷｮｸ</title>
+			<title code="0x11">ﾒﾆｭ-ｶﾞﾒﾝ</title>
+			<title code="0x12">ｷｬﾗｸﾀ- ｴﾃﾞｨｯﾄ (Opening ﾉ ﾊｼﾞﾒ ﾉ ﾌﾞﾌﾞﾝ ﾆﾓ ﾂｶｯﾃﾈ!!)</title>
+			<title code="0x13">ｲﾂﾓﾉ ｷｮｸ</title>
+			<title code="0x14">AT-ｴﾃﾞｨｯﾄ</title>
+			<title code="0x15">ﾒｲﾝｽﾄﾘ-ﾄ</title>
+			<title code="0x16">ﾊﾟ-ﾂ ﾔ ｻﾝ (ｱｺﾊﾞ)</title>
+			<title code="0x17">ﾊﾞﾄﾘﾝｸﾞ ｶｲｼﾞｮｳ</title>
+			<title code="0x18">ｻｶﾊﾞ</title>
+			<title code="0x19">ﾖｳｷ ﾅ ｷｬﾗｸﾀ- ﾉ ﾃ-ﾏ (ｷｮｳ ﾊ,ｹｲﾊﾞﾃﾞﾓｳｶｯﾀ!!)</title>
+			<title code="0x1a">ｳｻﾝｸｻｲ ﾊﾅｼ</title>
+			<title code="0x1b">ﾊﾞﾄﾘﾝｸﾞ ﾏｴ (etc.ｲﾛｲﾛﾂｶｴｿｳ)</title>
+			<title code="0x1c">ﾊﾞﾄﾘﾝｸﾞ ｼｮｳﾘ</title>
+			<title code="0x1d">ﾊﾞﾄﾙ ﾆ ﾏｹﾀ ﾄｷ, SAVE ﾆﾓ ﾂｶｯﾃﾈ!!</title>
+			<title code="0x1e">ﾒﾛｳﾘﾝｸ ﾉ Ending ﾐﾀｲﾅ...</title>
+			<title code="0x1f">ｽﾀｯﾌ ﾛ-ﾙ</title>
+			<title code="0x20">ﾊﾞﾄﾘﾝｸﾞ (ﾉ-ﾏﾙ)</title>
+			<title code="0x21">ﾊﾞﾄﾘﾝｸﾞ ｱﾌﾞﾉ-ﾏﾙ (vs.PS ﾖｳ)</title>
+			<title code="0x22">ﾊﾞﾄﾘﾝｸﾞ (Big Game)</title>
+			<title code="0x23">ﾄｸﾍﾞﾂ ﾅ ﾊﾞﾄﾘﾝｸﾞ ﾉ ﾏｴ ﾅﾄﾞ ｲｲｶﾓ ｼﾚﾅｲ</title>
+			<title code="0x24">ｲﾛｲﾛ ﾂｶｴﾙ ｷｮｸ ﾀﾞ ﾄ ｵﾓｳ</title>
+			<title code="0x25">ｷﾓﾁ ﾉ ﾀｶﾌﾞｯﾃ ｲﾙ ﾄｷ ﾅﾄﾞ..</title>
+			<title code="0x26">ｼｱｲ ｶﾞ ｵﾜｯﾀ !!  ﾜ- ﾜ-</title>
+			<title code="0x27">入場 (ピーピー)</title>
+			<title code="0x28">ラジオノイズ</title>
 			<range min="0x0801" max="0x080b" extcode="1">BTL_SE.EFC #%2X</range>
 			<range min="0x080f" max="0x0810" extcode="1">BTL_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader (������v�ǃ}�N���X �X�J������[�_�[) (YM2203)</name>
+		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader (超時空要塞マクロス スカル･リーダー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1210,42 +1210,42 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">��γ 1</title>
-			<title code="0x11">�-���ݸ�1 ����ɳ���</title>
-			<title code="0x12">�-���ݸ�2 ϸ۽ ��¹��</title>
-			<title code="0x13">�-�����</title>
-			<title code="0x14">�� ����</title>
-			<title code="0x15">Ҳ���د��(��ج��-��)</title>
-			<title code="0x16">�߯������</title>
-			<title code="0x17">ϯ��</title>
-			<title code="0x18">ϯ��2</title>
-			<title code="0x19">ϯ��3</title>
-			<title code="0x1a">��ٷ�-��</title>
-			<title code="0x1b">����޲��</title>
-			<title code="0x1c">����1 VF-1 Dog Fight</title>
-			<title code="0x1d">�޽�۲��</title>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
 			<title code="0x1e">Run Away</title>
-			<title code="0x1f">�����-�ި���</title>
-			<title code="0x20">Game Over ϸ۽ �޷��</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
 			<title code="0x21">Just One Victry</title>
-			<title code="0x22">���޼ ɼ޼�</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
 			<title code="0x23">Map 4</title>
 			<title code="0x24">Ending 1</title>
 			<title code="0x25">Ending 2</title>
 			<title code="0x26">T.V.Opening</title>
-			<title code="0x27">�� ��޴òϽ�</title>
-			<title code="0x28">���,����,���</title>
-			<title code="0x29">��-� 1</title>
-			<title code="0x2a">��-� 2 (TEL)</title>
+			<title code="0x27">ｱｲ ｵﾎﾞｴﾃｲﾏｽｶ</title>
+			<title code="0x28">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x29">ｱﾗ-ﾑ 1</title>
+			<title code="0x2a">ｱﾗ-ﾑ 2 (TEL)</title>
 			<title code="0x2b">"Macrros" Rimix version</title>
-			<title code="0x2c">�����s�i��</title>
+			<title code="0x2c">結婚行進曲</title>
 			<title code="0x2d">Game Center</title>
-			<title code="0x2e">�}�N���X(T.V.Opening)</title>
+			<title code="0x2e">マクロス(T.V.Opening)</title>
 			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader Complete Pack (������v�ǃ}�N���X �X�J������[�_�[ �R���v���[�g�p�b�N) (YM2203)</name>
+		<name>[PC-9801] Choujikuu Yousai Macross: Skull Leader Complete Pack (超時空要塞マクロス スカル･リーダー コンプリートパック) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1305,55 +1305,55 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">��γ 1</title>
-			<title code="0x11">�-���ݸ�1 ����ɳ���</title>
-			<title code="0x12">�-���ݸ�2 ϸ۽ ��¹��</title>
-			<title code="0x13">�-�����</title>
-			<title code="0x14">�� ����</title>
-			<title code="0x15">Ҳ���د��(��ج��-��)</title>
-			<title code="0x16">�߯������</title>
-			<title code="0x17">ϯ��</title>
-			<title code="0x18">ϯ��2</title>
-			<title code="0x19">ϯ��3</title>
-			<title code="0x1a">��ٷ�-��</title>
-			<title code="0x1b">����޲��</title>
-			<title code="0x1c">����1 VF-1 Dog Fight</title>
-			<title code="0x1d">�޽�۲��</title>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
 			<title code="0x1e">Run Away</title>
-			<title code="0x1f">�����-�ި���</title>
-			<title code="0x20">Game Over ϸ۽ �޷��</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
 			<title code="0x21">Just One Victory</title>
-			<title code="0x22">���޼ ɼ޼�</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
 			<title code="0x23">Map 4</title>
 			<title code="0x24">Ending 1</title>
 			<title code="0x25">Ending 2</title>
 			<title code="0x26">T.V.Opening</title>
-			<title code="0x27">�� ��޴òϽ�</title>
-			<title code="0x28">���,����,���</title>
-			<title code="0x29">��-� 1</title>
-			<title code="0x2a">��-� 2 (TEL)</title>
+			<title code="0x27">ｱｲ ｵﾎﾞｴﾃｲﾏｽｶ</title>
+			<title code="0x28">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x29">ｱﾗ-ﾑ 1</title>
+			<title code="0x2a">ｱﾗ-ﾑ 2 (TEL)</title>
 			<title code="0x2b">"Macross" Remix version</title>
-			<title code="0x2c">�����s�i��</title>
+			<title code="0x2c">結婚行進曲</title>
 			<title code="0x2d">Game Center</title>
 			<title code="0x2e">MAP1_new</title>
 			<title code="0x2f">Opening_new</title>
-			<title code="0x30">н��1 �-�</title>
-			<title code="0x31">н�� ̧�̧-�</title>
+			<title code="0x30">ﾐｽｺﾝ1 ﾛ-ﾙ</title>
+			<title code="0x31">ﾐｽｺﾝ ﾌｧﾝﾌｧ-ﾚ</title>
 			<title code="0x32">New_Map 2</title>
-			<title code="0x33">Ending _New ��޽�-�-</title>
-			<title code="0x34">�͓����[�h (���)</title>
-			<title code="0x35">�͓����[�h (�R���{��)</title>
-			<title code="0x36">��p�V�[�� (����)</title>
-			<title code="0x37">��p�V�[�� (�G)</title>
-			<title code="0x38">�퓬�V�[�� (����)</title>
-			<title code="0x39">�퓬�V�[�� (�G)</title>
-			<title code="0x3a">�A�[���h�P�̋�</title>
+			<title code="0x33">Ending _New ﾗﾌﾞｽﾄ-ﾘ-</title>
+			<title code="0x34">艦内モード (一般)</title>
+			<title code="0x35">艦内モード (軍事施設)</title>
+			<title code="0x36">戦術シーン (味方)</title>
+			<title code="0x37">戦術シーン (敵)</title>
+			<title code="0x38">戦闘シーン (味方)</title>
+			<title code="0x39">戦闘シーン (敵)</title>
+			<title code="0x3a">アームド１の曲</title>
 			<title code="0x3b">Game Over</title>
 			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Choujikuu Yousai Macross: Love Stories (������v�ǃ}�N���X ���u��X�g�[���[�Y) (YM2203)</name>
+		<name>[PC-9801] Choujikuu Yousai Macross: Love Stories (超時空要塞マクロス ラブ･ストーリーズ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1404,46 +1404,46 @@
 			<rom type="shell" offset="0">pmd_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x10">��γ 1</title>
-			<title code="0x11">�-���ݸ�1 ����ɳ���</title>
-			<title code="0x12">�-���ݸ�2 ϸ۽ ��¹��</title>
-			<title code="0x13">�-�����</title>
-			<title code="0x14">�� ����</title>
-			<title code="0x15">Ҳ���د��(��ج��-��)</title>
-			<title code="0x16">�߯������</title>
-			<title code="0x17">ϯ��</title>
-			<title code="0x18">ϯ��2</title>
-			<title code="0x19">ϯ��3</title>
-			<title code="0x1a">��ٷ�-��</title>
-			<title code="0x1b">����޲��</title>
-			<title code="0x1c">����1 VF-1 Dog Fight</title>
-			<title code="0x1d">�޽�۲��</title>
+			<title code="0x10">ｹｲﾎｳ 1</title>
+			<title code="0x11">ｵ-ﾌﾟﾆﾝｸﾞ1 ｸﾗﾔﾐﾉｳﾁｭｳ</title>
+			<title code="0x12">ｵ-ﾌﾟﾆﾝｸﾞ2 ﾏｸﾛｽ ｼｭﾂｹﾞﾝ</title>
+			<title code="0x13">ﾛ-ﾄﾞﾁｭｳ</title>
+			<title code="0x14">ｱｲ ｷｬｯﾁ</title>
+			<title code="0x15">ﾒｲﾝﾌﾞﾘｯｼﾞ(ｾﾝﾘｬｸﾓ-ﾄﾞ)</title>
+			<title code="0x16">ﾎﾟｯﾄﾞﾌﾞﾀｲ</title>
+			<title code="0x17">ﾏｯﾌﾟ</title>
+			<title code="0x18">ﾏｯﾌﾟ2</title>
+			<title code="0x19">ﾏｯﾌﾟ3</title>
+			<title code="0x1a">ﾊﾞﾙｷﾘ-ﾀｲ</title>
+			<title code="0x1b">ｽｶﾙﾀﾞｲﾀｲ</title>
+			<title code="0x1c">ﾊﾞﾄﾙ1 VF-1 Dog Fight</title>
+			<title code="0x1d">ﾃﾞｽﾄﾛｲﾄﾞ</title>
 			<title code="0x1e">Run Away</title>
-			<title code="0x1f">�����-�ި���</title>
-			<title code="0x20">Game Over ϸ۽ �޷��</title>
+			<title code="0x1f">ｾﾞﾝﾄﾗ-ﾃﾞｨｸﾞﾝ</title>
+			<title code="0x20">Game Over ﾏｸﾛｽ ｹﾞｷﾁﾝ</title>
 			<title code="0x21">Just One Victry</title>
-			<title code="0x22">���޼ ɼ޼�</title>
+			<title code="0x22">ｾｲﾋﾞｼ ﾉｼﾞｼﾝ</title>
 			<title code="0x23">Map 4</title>
 			<title code="0x24">Ending 1</title>
 			<title code="0x25">Ending 2</title>
-			<title code="0x26">���,����,���</title>
-			<title code="0x27">��-� 1</title>
-			<title code="0x28">��-� 2 (TEL)</title>
+			<title code="0x26">ｻﾃﾝ,ｺｳｴﾝ,ｿﾉﾀ</title>
+			<title code="0x27">ｱﾗ-ﾑ 1</title>
+			<title code="0x28">ｱﾗ-ﾑ 2 (TEL)</title>
 			<title code="0x29">"Macrros" Rimix version</title>
-			<title code="0x2a">�����s�i��</title>
+			<title code="0x2a">結婚行進曲</title>
 			<title code="0x2b">Game Center</title>
-			<title code="0x2c">ϸ۽ (MAP1_new)</title>
-			<title code="0x2d">ϸ۽ (Opening_new)</title>
-			<title code="0x2e">ϸ۽ (н��1 �-�)</title>
-			<title code="0x2f">ϸ۽ (н�� ̧�̧-�)</title>
-			<title code="0x30">ϸ۽ (New_Map 2)</title>
-			<title code="0x31">ϸ۽ (Ending _New ��޽�-�-)</title>
-			<title code="0x32">���C�J�[�Y(���ޮ��-�)</title>
+			<title code="0x2c">ﾏｸﾛｽ (MAP1_new)</title>
+			<title code="0x2d">ﾏｸﾛｽ (Opening_new)</title>
+			<title code="0x2e">ﾏｸﾛｽ (ﾐｽｺﾝ1 ﾛ-ﾙ)</title>
+			<title code="0x2f">ﾏｸﾛｽ (ﾐｽｺﾝ ﾌｧﾝﾌｧ-ﾚ)</title>
+			<title code="0x30">ﾏｸﾛｽ (New_Map 2)</title>
+			<title code="0x31">ﾏｸﾛｽ (Ending _New ﾗﾌﾞｽﾄ-ﾘ-)</title>
+			<title code="0x32">レイカーズ(ﾆﾁｼﾞｮｳｼ-ﾝ)</title>
 			<range min="0x0801" max="0x0811" extcode="1">MAC_SE.EFC #%2X</range>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Choujikuu Yousai Macross 1: Remember Me (������v�ǃ}�N���X �������o�[��~�[) (YM2203)</name>
+		<name>[PC-9801] Choujikuu Yousai Macross 1: Remember Me (超時空要塞マクロス リメンバー･ミー) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1509,7 +1509,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mahou Shojo Rina (���@�������) (YM2203)</name>
+		<name>[PC-9801] Mahou Shojo Rina (魔法少女りな) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1587,7 +1587,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ranse Eiketsu Series: Tokugawa Ieyasu (�����p���V���[�Y ����ƍN) (YM2203)</name>
+		<name>[PC-9801] Ranse Eiketsu Series: Tokugawa Ieyasu (乱世英傑シリーズ 徳川家康) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1657,7 +1657,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Ranse Eiketsu Series: Oda Nobunaga (�����p���V���[�Y �D�c�M��) (YM2203)</name>
+		<name>[PC-9801] Ranse Eiketsu Series: Oda Nobunaga (乱世英傑シリーズ 織田信長) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1731,7 +1731,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Majokko Kumi (�������q�N�~) (YM2203)</name>
+		<name>[PC-9801] Majokko Kumi (魔女っ子クミ) (YM2203)</name>
 		<driver type="opn">pc98vx</driver>
 		<driveralias type="PC-9801">FamilySoft</driveralias>
 		<options>
@@ -1750,7 +1750,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Asuka 120%: Burning Fest (������120% BURNING Fest.) (YM2151+MSM6258)</name>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -1782,23 +1782,23 @@
 			<title code="0x08">Burning Fest.</title>
 			<title code="0x0b">Entry</title>
 			<title code="0x0c">Title In</title>
-			<title code="0x02">�򒹂̃e�[�}</title>
-			<title code="0x03">�̃e�[�}</title>
-			<title code="0x04">�Ք��̃e�[�}</title>
-			<title code="0x05">���q�̃e�[�}</title>
-			<title code="0x06">�߂��݂̃e�[�}</title>
-			<title code="0x07">�v���̃e�[�}</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
 			<title code="0x10">The Battle</title>
 			<title code="0x09">Vacation</title>
 			<title code="0x0a">Continue?</title>
 			<title code="0x0f">Game Over</title>
-			<title code="0x0d">����㇗����w�@�����w�Z�Z��</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
 			<title code="0x0e">Legend of Valkyrie</title>
 			<title code="0x01">Omake</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Asuka 120%: Burning Fest (������120% BURNING Fest.) (GS)</name>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (GS)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -1831,22 +1831,22 @@
 			<title code="0x08">Burning Fest.</title>
 			<title code="0x0b">Entry</title>
 			<title code="0x0c">Title In</title>
-			<title code="0x02">�򒹂̃e�[�}</title>
-			<title code="0x03">�̃e�[�}</title>
-			<title code="0x04">�Ք��̃e�[�}</title>
-			<title code="0x05">���q�̃e�[�}</title>
-			<title code="0x06">�߂��݂̃e�[�}</title>
-			<title code="0x07">�v���̃e�[�}</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
 			<title code="0x10">The Battle</title>
 			<title code="0x09">Vacation</title>
 			<title code="0x0a">Continue?</title>
 			<title code="0x0f">Game Over</title>
-			<title code="0x0d">����㇗����w�@�����w�Z�Z��</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
 			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Asuka 120%: Burning Fest (������120% BURNING Fest.) (TG-100)</name>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (TG-100)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -1879,22 +1879,22 @@
 			<title code="0x08">Burning Fest.</title>
 			<title code="0x0b">Entry</title>
 			<title code="0x0c">Title In</title>
-			<title code="0x02">�򒹂̃e�[�}</title>
-			<title code="0x03">�̃e�[�}</title>
-			<title code="0x04">�Ք��̃e�[�}</title>
-			<title code="0x05">���q�̃e�[�}</title>
-			<title code="0x06">�߂��݂̃e�[�}</title>
-			<title code="0x07">�v���̃e�[�}</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
 			<title code="0x10">The Battle</title>
 			<title code="0x09">Vacation</title>
 			<title code="0x0a">Continue?</title>
 			<title code="0x0f">Game Over</title>
-			<title code="0x0d">����㇗����w�@�����w�Z�Z��</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
 			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Asuka 120%: Burning Fest (������120% BURNING Fest.) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] Asuka 120%: Burning Fest (あすか120% BURNING Fest.) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -1927,22 +1927,22 @@
 			<title code="0x08">Burning Fest.</title>
 			<title code="0x0b">Entry</title>
 			<title code="0x0c">Title In</title>
-			<title code="0x02">�򒹂̃e�[�}</title>
-			<title code="0x03">�̃e�[�}</title>
-			<title code="0x04">�Ք��̃e�[�}</title>
-			<title code="0x05">���q�̃e�[�}</title>
-			<title code="0x06">�߂��݂̃e�[�}</title>
-			<title code="0x07">�v���̃e�[�}</title>
+			<title code="0x02">飛鳥のテーマ</title>
+			<title code="0x03">環のテーマ</title>
+			<title code="0x04">虎美のテーマ</title>
+			<title code="0x05">竜子のテーマ</title>
+			<title code="0x06">めぐみのテーマ</title>
+			<title code="0x07">久美のテーマ</title>
 			<title code="0x10">The Battle</title>
 			<title code="0x09">Vacation</title>
 			<title code="0x0a">Continue?</title>
 			<title code="0x0f">Game Over</title>
-			<title code="0x0d">����㇗����w�@�����w�Z�Z��</title>
+			<title code="0x0d">私立繚乱女学院高等学校校歌</title>
 			<title code="0x0e">Legend of Valkyrie</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Kidou Senshi Gundam: Classic Operation (�@����m�K���_�� �N���V�b�N�I�y���[�V����) (YM2151+MSM6258)</name>
+		<name>[X68000] Kidou Senshi Gundam: Classic Operation (機動戦士ガンダム クラシックオペレーション) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<romlist archive="gundamco68snd">
@@ -1972,7 +1972,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Seisenshi Dunbine (����m�_���o�C��) (AY-3-8910)</name>
+		<name>[MSX2] Seisenshi Dunbine (聖戦士ダンバイン) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">FamilySoft</driveralias>
 		<options>
@@ -2166,7 +2166,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] War-Torn Versnag (���F���X�i�[�O�헐) (YM2151+MSM6258)</name>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -2230,7 +2230,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] War-Torn Versnag (���F���X�i�[�O�헐) (YM2151+MSM6258+GS)</name>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (YM2151+MSM6258+GS)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -2296,7 +2296,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] War-Torn Versnag (���F���X�i�[�O�헐) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[X68000] War-Torn Versnag (ヴェルスナーグ戦乱) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<options>
@@ -2363,7 +2363,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Soukou Kihei Votoms: Dead Ash (���b�R���{�g���Y �f�b�h�A�b�V��) (YM2151+MSM6258)</name>
+		<name>[X68000] Soukou Kihei Votoms: Dead Ash (装甲騎兵ボトムズ デッドアッシュ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">FamilySoft</driveralias>
 		<romlist archive="deadash68snd">
@@ -2456,7 +2456,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Kidou Senshi Gundam: MS Field (�@����m�K���_�� MS�t�B�[���h) </name>
+		<name>[MSX2] Kidou Senshi Gundam: MS Field (機動戦士ガンダム MSフィールド) </name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">FamilySoft</driveralias>
 		<options>
@@ -2480,7 +2480,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Keiji Dai Dageki: Shachou Reijou Yuukai Jiken (�Y����Ō� �`�В��ߏ�U�������`) (AY-3-8910)</name>
+		<name>[MSX2] Keiji Dai Dageki: Shachou Reijou Yuukai Jiken (刑事大打撃 ～社長令嬢誘拐事件～) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">FamilySoft</driveralias>
 		<options>

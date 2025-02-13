@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Shift_JIS"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="hoot.xsl"?>
 <!DOCTYPE gamelist [
 	<!ELEMENT gamelist (game|bind|childlists)*>
@@ -64,7 +64,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[MSX2] Gall Force Eternal Story: Sousei no Jokyoku (GALL FORCE ETERNAL STORY ‘n¢‚Ì˜‹È) (AY-3-8910)</name>
+		<name>[MSX2] Gall Force Eternal Story: Sousei no Jokyoku (GALL FORCE ETERNAL STORY å‰µä¸–ã®åºæ›²) (AY-3-8910)</name>
 		<driver type="generic">msx</driver>
 		<driveralias type="MSX2">Sony</driveralias>
 		<options>
@@ -75,10 +75,10 @@
 			<rom type="code" offset="0x0100">patch</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x03">ƒI[ƒvƒjƒ“ƒO</title>
-			<!-- <title code="0x01">ƒI[ƒvƒjƒ“ƒO(loop)</title> -->
+			<title code="0x03">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°</title>
+			<!-- <title code="0x01">ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°(loop)</title> -->
 			<title code="0x00">BGM</title>
-			<title code="0x02">ƒGƒ“ƒfƒBƒ“ƒO</title>
+			<title code="0x02">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
 		</titlelist>
 	</game>
 	<game>
@@ -160,40 +160,40 @@
 			<rom type="bgm" offset="0x0005">OPLL5.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x000001">ƒQ[ƒ€ƒZƒŒƒNƒg</title>
-			<title code="0x010202">UŒ‚’†(1P)</title>
-			<title code="0x010203">o—Ûƒtƒ@ƒ“ƒtƒ@[ƒŒ</title>
-		<!--	<title code="0x020203">o—Ûƒtƒ@ƒ“ƒtƒ@[ƒŒ</title> -->
-			<title code="0x010200">ƒz[ƒ€ƒ‰ƒ“(1P)</title>
-		<!--	<title code="0x040200">ƒz[ƒ€ƒ‰ƒ“(1P)</title>
-			<title code="0x050200">ƒz[ƒ€ƒ‰ƒ“(1P)</title> -->
-			<title code="0x010201">UŒ‚I—¹(1P)</title>
-		<!--	<title code="0x040201">UŒ‚I—¹(1P)</title> -->
-			<title code="0x020200">UŒ‚’†(2P/COM)</title>
-			<title code="0x020201">ƒz[ƒ€ƒ‰ƒ“(2P/COM)</title>
-		<!--	<title code="0x030201">ƒz[ƒ€ƒ‰ƒ“(2P/COM)</title> -->
-			<title code="0x020202">UŒ‚I—¹(2P/COM)</title>
-		<!--	<title code="0x030202">UŒ‚I—¹(2P/COM)</title> -->
-			<title code="0x030200">ƒŒƒgƒ‹…ê</title>
-			<title code="0x040202">‰ž‰‡</title>
-			<title code="0x050201">ƒz[ƒ€ƒ‰ƒ“‹£‘ˆ</title>
-			<title code="0x000100">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x000101">ŽŽ‡Œ‹‰Ê</title>
-			<title code="0x000200">SFX “Š‹…‰¹</title>
-			<title code="0x000201">SFX •ß‹…‰¹</title>
-			<title code="0x000202">SFX ‘ÅŒ‚‰¹1</title>
-			<title code="0x000203">SFX ‘ÅŒ‚‰¹2</title>
-			<title code="0x000204">SFX ‘—‹…‰¹</title>
-			<title code="0x000205">SFX ƒoƒEƒ“ƒh‰¹</title>
-			<title code="0x000206">SFX ƒXƒ‰ƒCƒfƒBƒ“ƒO</title>
-			<title code="0x000207">SFX ƒqƒbƒg</title>
-			<title code="0x000208">SFX ƒz[ƒ€ƒ‰ƒ“</title>
+			<title code="0x000000">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x000001">ã‚²ãƒ¼ãƒ ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010202">æ”»æ’ƒä¸­(1P)</title>
+			<title code="0x010203">å‡ºå¡ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬</title>
+		<!--	<title code="0x020203">å‡ºå¡ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬</title> -->
+			<title code="0x010200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title>
+		<!--	<title code="0x040200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title>
+			<title code="0x050200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title> -->
+			<title code="0x010201">æ”»æ’ƒçµ‚äº†(1P)</title>
+		<!--	<title code="0x040201">æ”»æ’ƒçµ‚äº†(1P)</title> -->
+			<title code="0x020200">æ”»æ’ƒä¸­(2P/COM)</title>
+			<title code="0x020201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(2P/COM)</title>
+		<!--	<title code="0x030201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(2P/COM)</title> -->
+			<title code="0x020202">æ”»æ’ƒçµ‚äº†(2P/COM)</title>
+		<!--	<title code="0x030202">æ”»æ’ƒçµ‚äº†(2P/COM)</title> -->
+			<title code="0x030200">ãƒ¬ãƒˆãƒ­çƒå ´</title>
+			<title code="0x040202">å¿œæ´</title>
+			<title code="0x050201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³ç«¶äº‰</title>
+			<title code="0x000100">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x000101">è©¦åˆçµæžœ</title>
+			<title code="0x000200">SFX æŠ•çƒéŸ³</title>
+			<title code="0x000201">SFX æ•çƒéŸ³</title>
+			<title code="0x000202">SFX æ‰“æ’ƒéŸ³1</title>
+			<title code="0x000203">SFX æ‰“æ’ƒéŸ³2</title>
+			<title code="0x000204">SFX é€çƒéŸ³</title>
+			<title code="0x000205">SFX ãƒã‚¦ãƒ³ãƒ‰éŸ³</title>
+			<title code="0x000206">SFX ã‚¹ãƒ©ã‚¤ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x000207">SFX ãƒ’ãƒƒãƒˆ</title>
+			<title code="0x000208">SFX ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³</title>
 			<title code="0x000209">SFX</title>
-			<title code="0x00020a">SFX ƒAƒEƒg</title>
-			<title code="0x00020b">SFX ƒZ[ƒt</title>
-			<title code="0x00020c">SFX ƒ{[ƒ‹</title>
-			<title code="0x00020d">SFX ƒXƒgƒ‰ƒCƒN</title>
+			<title code="0x00020a">SFX ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x00020b">SFX ã‚»ãƒ¼ãƒ•</title>
+			<title code="0x00020c">SFX ãƒœãƒ¼ãƒ«</title>
+			<title code="0x00020d">SFX ã‚¹ãƒˆãƒ©ã‚¤ã‚¯</title>
 		</titlelist>
 	</game>
 	<game>
@@ -218,42 +218,42 @@
 			<rom type="bgm" offset="0x0005">FM5.BIN</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x000000">ƒ^ƒCƒgƒ‹</title>
-			<title code="0x000001">ƒQ[ƒ€ƒZƒŒƒNƒg</title>
-			<title code="0x010202">UŒ‚’†(1P)</title>
-			<title code="0x010203">o—Ûƒtƒ@ƒ“ƒtƒ@[ƒŒ</title>
-		<!--	<title code="0x020203">o—Ûƒtƒ@ƒ“ƒtƒ@[ƒŒ</title> -->
-			<title code="0x010200">ƒz[ƒ€ƒ‰ƒ“(1P)</title>
-		<!--	<title code="0x040200">ƒz[ƒ€ƒ‰ƒ“(1P)</title>
-			<title code="0x050200">ƒz[ƒ€ƒ‰ƒ“(1P)</title> -->
-			<title code="0x010201">UŒ‚I—¹(1P)</title>
-		<!--	<title code="0x040201">UŒ‚I—¹(1P)</title> -->
-			<title code="0x020200">UŒ‚’†(2P/COM)</title>
-			<title code="0x020201">ƒz[ƒ€ƒ‰ƒ“(2P/COM)</title>
-		<!--	<title code="0x030201">ƒz[ƒ€ƒ‰ƒ“(2P/COM)</title> -->
-			<title code="0x020202">UŒ‚I—¹(2P/COM)</title>
-		<!--	<title code="0x030202">UŒ‚I—¹(2P/COM)</title> -->
-			<title code="0x030200">ƒŒƒgƒ‹…ê</title>
-			<title code="0x040202">‰ž‰‡</title>
-			<title code="0x050201">ƒz[ƒ€ƒ‰ƒ“‹£‘ˆ</title>
-			<title code="0x000100">ƒGƒ“ƒfƒBƒ“ƒO</title>
-			<title code="0x000101">ŽŽ‡Œ‹‰Ê</title>
+			<title code="0x000000">ã‚¿ã‚¤ãƒˆãƒ«</title>
+			<title code="0x000001">ã‚²ãƒ¼ãƒ ã‚»ãƒ¬ã‚¯ãƒˆ</title>
+			<title code="0x010202">æ”»æ’ƒä¸­(1P)</title>
+			<title code="0x010203">å‡ºå¡ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬</title>
+		<!--	<title code="0x020203">å‡ºå¡ãƒ•ã‚¡ãƒ³ãƒ•ã‚¡ãƒ¼ãƒ¬</title> -->
+			<title code="0x010200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title>
+		<!--	<title code="0x040200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title>
+			<title code="0x050200">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(1P)</title> -->
+			<title code="0x010201">æ”»æ’ƒçµ‚äº†(1P)</title>
+		<!--	<title code="0x040201">æ”»æ’ƒçµ‚äº†(1P)</title> -->
+			<title code="0x020200">æ”»æ’ƒä¸­(2P/COM)</title>
+			<title code="0x020201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(2P/COM)</title>
+		<!--	<title code="0x030201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³(2P/COM)</title> -->
+			<title code="0x020202">æ”»æ’ƒçµ‚äº†(2P/COM)</title>
+		<!--	<title code="0x030202">æ”»æ’ƒçµ‚äº†(2P/COM)</title> -->
+			<title code="0x030200">ãƒ¬ãƒˆãƒ­çƒå ´</title>
+			<title code="0x040202">å¿œæ´</title>
+			<title code="0x050201">ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³ç«¶äº‰</title>
+			<title code="0x000100">ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x000101">è©¦åˆçµæžœ</title>
 			<title code="0x000200">SFX</title>
 			<title code="0x000201">SFX</title>
-			<title code="0x000202">SFX “Š‹…‰¹</title>
-			<title code="0x000203">SFX •ß‹…‰¹</title>
-			<title code="0x000204">SFX ‘ÅŒ‚‰¹1</title>
-			<title code="0x000205">SFX ‘ÅŒ‚‰¹2</title>
-			<title code="0x000206">SFX ‘—‹…‰¹</title>
-			<title code="0x000207">SFX ƒoƒEƒ“ƒh‰¹</title>
-			<title code="0x000208">SFX ƒXƒ‰ƒCƒfƒBƒ“ƒO</title>
-			<title code="0x000209">SFX ƒqƒbƒg</title>
-			<title code="0x00020a">SFX ƒz[ƒ€ƒ‰ƒ“</title>
+			<title code="0x000202">SFX æŠ•çƒéŸ³</title>
+			<title code="0x000203">SFX æ•çƒéŸ³</title>
+			<title code="0x000204">SFX æ‰“æ’ƒéŸ³1</title>
+			<title code="0x000205">SFX æ‰“æ’ƒéŸ³2</title>
+			<title code="0x000206">SFX é€çƒéŸ³</title>
+			<title code="0x000207">SFX ãƒã‚¦ãƒ³ãƒ‰éŸ³</title>
+			<title code="0x000208">SFX ã‚¹ãƒ©ã‚¤ãƒ‡ã‚£ãƒ³ã‚°</title>
+			<title code="0x000209">SFX ãƒ’ãƒƒãƒˆ</title>
+			<title code="0x00020a">SFX ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³</title>
 			<title code="0x00020b">SFX</title>
-			<title code="0x00020c">SFX ƒAƒEƒg</title>
-			<title code="0x00020d">SFX ƒZ[ƒt</title>
-			<title code="0x00020e">SFX ƒ{[ƒ‹</title>
-			<title code="0x00020f">SFX ƒXƒgƒ‰ƒCƒN</title>
+			<title code="0x00020c">SFX ã‚¢ã‚¦ãƒˆ</title>
+			<title code="0x00020d">SFX ã‚»ãƒ¼ãƒ•</title>
+			<title code="0x00020e">SFX ãƒœãƒ¼ãƒ«</title>
+			<title code="0x00020f">SFX ã‚¹ãƒˆãƒ©ã‚¤ã‚¯</title>
 			<title code="0x000210">SFX</title>
 		</titlelist>
 	</game>
