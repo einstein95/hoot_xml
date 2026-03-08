@@ -31,7 +31,8 @@
 	<!ELEMENT range (#PCDATA)>
 	<!ATTLIST range min CDATA #REQUIRED
 					max CDATA #REQUIRED
-					extcode CDATA #IMPLIED>
+					extcode CDATA #IMPLIED
+					start CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
 	<!-- //ACID PLAN -->
@@ -94,7 +95,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Charm 2: Niji Shoku no Kaze (シャルム2 -虹色の風-) (YM2203)</name>
+		<name>[PC-9801] Charm 2 ~Niji-iro no Kaze~ (シャルム2 ~虹色の風~) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Acid Plan</driveralias>
 		<options>
@@ -160,7 +161,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Charm 2: Niji Shoku no Kaze (シャルム2 -虹色の風-) (GS)</name>
+		<name>[PC-9801] Charm 2 ~Niji-iro no Kaze~ (シャルム2 ~虹色の風~) (GS)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Acid Plan</driveralias>
 		<options>
@@ -223,7 +224,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Charm 2: Niji Shoku no Kaze (シャルム2 -虹色の風-) (Vermouth, Gravis Ultrasound simulation)</name>
+		<name>[PC-9801] Charm 2 ~Niji-iro no Kaze~ (シャルム2 ~虹色の風~) (Vermouth, Gravis Ultrasound simulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Acid Plan</driveralias>
 		<options>
@@ -287,7 +288,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Chrome Paradise: Ginhakushiyoku no Rakuen (クロムパラダイス ～銀白色の楽園～) (YM2203)</name>
+		<name>[PC-9801] Chrome Paradise ~Ginpaku-iro no Rakuen~ (銀白色の楽園 ~クロムパラダイス~) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Acid Plan</driveralias>
 		<options>

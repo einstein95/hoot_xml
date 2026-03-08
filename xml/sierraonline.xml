@@ -31,7 +31,9 @@
 	<!ELEMENT range (#PCDATA)>
 	<!ATTLIST range min CDATA #REQUIRED
 					max CDATA #REQUIRED
-					extcode CDATA #IMPLIED>
+					extcode CDATA #IMPLIED
+					start CDATA #IMPLIED>
+
 ]>
 <gamelist date="2005/09/25">
 	<!-- //Sierra On-Line -->
@@ -332,7 +334,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Police Quest 2: The Vengeance (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Police Quest 2: The Vengeance (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -610,7 +612,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Space Quest 3: The Pirates of Pestulon (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Space Quest 3: The Pirates of Pestulon (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -938,7 +940,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Hoyle's Book of Games (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Hoyle's Book of Games (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -1308,7 +1310,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Quest for Glory 1: So You Want to Be a Hero (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Quest for Glory 1: So You Want to Be a Hero (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -1832,7 +1834,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -2334,7 +2336,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Laura Bow 1: The Colonel's Bequest (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Laura Bow 1: The Colonel's Bequest (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -2704,7 +2706,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Code-name: Iceman (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Code-name: Iceman (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -3278,7 +3280,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Conquest of Camelot (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Conquest of Camelot (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -3722,7 +3724,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Sorcerian (BEEP)</name>
+		<name>[PC/AT] Sorcerian (Beep)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4001,7 +4003,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Sorcerian (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Sorcerian (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4142,7 +4144,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Silpheed (BEEP)</name>
+		<name>[PC/AT] Silpheed (Beep)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4295,7 +4297,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Silpheed (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Silpheed (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4335,7 +4337,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Silpheed (PS/1 Version) (BEEP)</name>
+		<name>[PC/AT] Silpheed (PS/1 Version) (Beep)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4449,7 +4451,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Silpheed (PS/1 Version) (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Silpheed (PS/1 Version) (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4590,7 +4592,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Zeliard (BEEP)</name>
+		<name>[PC/AT] Zeliard (Beep)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>
@@ -4694,7 +4696,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC/AT] Zeliard (Munt, MT-32 simulation)</name>
+		<name>[PC/AT] Zeliard (Munt, MT-32 emulation)</name>
 		<driver type="beep">pcatdos</driver>
 		<driveralias type="PC/AT">Sierra On-Line</driveralias>
 		<options>

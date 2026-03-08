@@ -31,12 +31,13 @@
 	<!ELEMENT range (#PCDATA)>
 	<!ATTLIST range min CDATA #REQUIRED
 					max CDATA #REQUIRED
-					extcode CDATA #IMPLIED>
+					extcode CDATA #IMPLIED
+					start CDATA #IMPLIED>
 ]>
 <gamelist date="2005/09/25">
 	<!-- //Active -->
 	<game>
-		<name>[PC-9801] Angel Halo (エンジェルハイロウ) (YM2203)</name>
+		<name>[PC-9801] Angel Halo (エンジェル・ハイロウ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
@@ -69,11 +70,11 @@
 		</romlist>
 		<titlelist>
 			<title code="11">Angel Halo Op Main</title>
-			<title code="12">Angel Halo Op Take2</title>
+			<title code="12">Angel Halo Op Take 2</title>
 			<title code="13">Active Members</title>
-			<title code="14">Angel Halo Main1</title>
-			<title code="15">Angel Halo Main2</title>
-			<title code="16">Angel Halo Main3</title>
+			<title code="14">Angel Halo Main 1</title>
+			<title code="15">Angel Halo Main 2</title>
+			<title code="16">Angel Halo Main 3</title>
 			<title code="17">恐怖感</title>
 			<title code="18">緊迫</title>
 			<title code="19">高揚</title>
@@ -84,13 +85,13 @@
 			<title code="24">シュハ、キマセリ ending ver.</title>
 			<title code="25">1999年のクリスマス</title>
 			<title code="26">ジングルベル アレンジメント</title>
-			<title code="27">Angel Halo Ending1</title>
-			<title code="28">Angel Halo Ending2</title>
-			<title code="29">Angel Halo Ending3</title>
+			<title code="27">Angel Halo Ending 1</title>
+			<title code="28">Angel Halo Ending 2</title>
+			<title code="29">Angel Halo Ending 3</title>
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Angel Halo (エンジェルハイロウ) (YM2608)</name>
+		<name>[PC-9801] Angel Halo (エンジェル・ハイロウ) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
@@ -393,29 +394,29 @@
 			<rom type="file" offset="0x0d">B4.AMD</rom>
 			<rom type="file" offset="0x0e">B44.AMD</rom>
 			<rom type="file" offset="0x0f">BGM1.AMD</rom>
-			<rom type="file" offset="0x10">BGM10.AMD</rom>
-			<rom type="file" offset="0x11">BGM11.AMD</rom>
-			<rom type="file" offset="0x12">BGM3.AMD</rom>
-			<rom type="file" offset="0x13">BGM4.AMD</rom>
-			<rom type="file" offset="0x14">BGM5.AMD</rom>
-			<rom type="file" offset="0x15">BGM6.AMD</rom>
-			<rom type="file" offset="0x16">BGM8.AMD</rom>
+			<rom type="file" offset="0x10">BGM3.AMD</rom>
+			<rom type="file" offset="0x11">BGM4.AMD</rom>
+			<rom type="file" offset="0x12">BGM5.AMD</rom>
+			<rom type="file" offset="0x13">BGM6.AMD</rom>
+			<rom type="file" offset="0x14">BGM8.AMD</rom>
+			<rom type="file" offset="0x15">BGM10.AMD</rom>
+			<rom type="file" offset="0x16">BGM11.AMD</rom>
 			<rom type="file" offset="0x17">BUU.AMD</rom>
 			<rom type="file" offset="0x18">KO1.AMD</rom>
-			<rom type="file" offset="0x19">KO10.AMD</rom>
-			<rom type="file" offset="0x1a">KO11.AMD</rom>
-			<rom type="file" offset="0x1b">KO12.AMD</rom>
-			<rom type="file" offset="0x1c">KO13.AMD</rom>
-			<rom type="file" offset="0x1d">KO14.AMD</rom>
-			<rom type="file" offset="0x1e">KO15.AMD</rom>
-			<rom type="file" offset="0x1f">KO2.AMD</rom>
-			<rom type="file" offset="0x20">KO3.AMD</rom>
-			<rom type="file" offset="0x21">KO4.AMD</rom>
-			<rom type="file" offset="0x22">KO5.AMD</rom>
-			<rom type="file" offset="0x23">KO6.AMD</rom>
-			<rom type="file" offset="0x24">KO7.AMD</rom>
-			<rom type="file" offset="0x25">KO8.AMD</rom>
-			<rom type="file" offset="0x26">KO9.AMD</rom>
+			<rom type="file" offset="0x19">KO2.AMD</rom>
+			<rom type="file" offset="0x1a">KO3.AMD</rom>
+			<rom type="file" offset="0x1b">KO4.AMD</rom>
+			<rom type="file" offset="0x1c">KO5.AMD</rom>
+			<rom type="file" offset="0x1d">KO6.AMD</rom>
+			<rom type="file" offset="0x1e">KO7.AMD</rom>
+			<rom type="file" offset="0x1f">KO8.AMD</rom>
+			<rom type="file" offset="0x20">KO9.AMD</rom>
+			<rom type="file" offset="0x21">KO10.AMD</rom>
+			<rom type="file" offset="0x22">KO11.AMD</rom>
+			<rom type="file" offset="0x23">KO12.AMD</rom>
+			<rom type="file" offset="0x24">KO13.AMD</rom>
+			<rom type="file" offset="0x25">KO14.AMD</rom>
+			<rom type="file" offset="0x26">KO15.AMD</rom>
 			<rom type="file" offset="0x27">M1.AMD</rom>
 			<rom type="file" offset="0x28">M2.AMD</rom>
 			<rom type="file" offset="0x29">M31.AMD</rom>
@@ -427,32 +428,32 @@
 			<title code="0x0d">B4.AMD</title>
 			<title code="0x0e">B44.AMD</title>
 			<title code="0x0f">BGM1.AMD</title>
-			<title code="0x12">BGM3.AMD</title>
-			<title code="0x13">BGM4.AMD</title>
-			<title code="0x14">BGM5.AMD</title>
-			<title code="0x15">BGM6.AMD</title>
-			<title code="0x16">BGM8.AMD</title>
-			<title code="0x10">BGM10.AMD</title>
-			<title code="0x11">BGM11.AMD</title>
+			<title code="0x10">BGM3.AMD</title>
+			<title code="0x11">BGM4.AMD</title>
+			<title code="0x12">BGM5.AMD</title>
+			<title code="0x13">BGM6.AMD</title>
+			<title code="0x14">BGM8.AMD</title>
+			<title code="0x15">BGM10.AMD</title>
+			<title code="0x16">BGM11.AMD</title>
 			<title code="0x17">BUU.AMD</title>
 			<title code="0x27">M1.AMD</title>
 			<title code="0x28">M2.AMD</title>
 			<title code="0x29">M31.AMD</title>
 			<title code="0x18">KO1.AMD</title>
-			<title code="0x1f">KO2.AMD</title>
-			<title code="0x20">KO3.AMD</title>
-			<title code="0x21">KO4.AMD</title>
-			<title code="0x22">KO5.AMD</title>
-			<title code="0x23">KO6.AMD</title>
-			<title code="0x24">KO7.AMD</title>
-			<title code="0x25">KO8.AMD</title>
-			<title code="0x26">KO9.AMD</title>
-			<title code="0x19">KO10.AMD</title>
-			<title code="0x1a">KO11.AMD</title>
-			<title code="0x1b">KO12.AMD</title>
-			<title code="0x1c">KO13.AMD</title>
-			<title code="0x1d">KO14.AMD</title>
-			<title code="0x1e">KO15.AMD</title>
+			<title code="0x19">KO2.AMD</title>
+			<title code="0x1a">KO3.AMD</title>
+			<title code="0x1b">KO4.AMD</title>
+			<title code="0x1c">KO5.AMD</title>
+			<title code="0x1d">KO6.AMD</title>
+			<title code="0x1e">KO7.AMD</title>
+			<title code="0x1f">KO8.AMD</title>
+			<title code="0x20">KO9.AMD</title>
+			<title code="0x21">KO10.AMD</title>
+			<title code="0x22">KO11.AMD</title>
+			<title code="0x23">KO12.AMD</title>
+			<title code="0x24">KO13.AMD</title>
+			<title code="0x25">KO14.AMD</title>
+			<title code="0x26">KO15.AMD</title>
 		</titlelist>
 	</game>
 	<game>
@@ -487,7 +488,6 @@
 			<rom type="shell" offset="0">kusur_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="27">Stop the Music</title>
 			<title code="11">くすり指の教科書オルゴールバージョン</title>
 			<title code="12">くすり指の教科書(TV-Edit)</title>
 			<title code="13">お散歩のテーマ</title>
@@ -504,6 +504,7 @@
 			<title code="24">遠い約束</title>
 			<title code="25">怖い曲</title>
 			<title code="26">想い出のオルゴール</title>
+			<title code="27">START.AMD</title>
 		</titlelist>
 	</game>
 	<game>
@@ -537,7 +538,6 @@
 			<rom type="shell" offset="0">kusur_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="27">Stop the Music</title>
 			<title code="11">くすり指の教科書オルゴールバージョン</title>
 			<title code="12">くすり指の教科書(TV-Edit)</title>
 			<title code="13">お散歩のテーマ</title>
@@ -554,6 +554,7 @@
 			<title code="24">遠い約束</title>
 			<title code="25">怖い曲</title>
 			<title code="26">想い出のオルゴール</title>
+			<title code="27">START.AMD</title>
 		</titlelist>
 	</game>
 	<game>
@@ -773,6 +774,38 @@
 		</titlelist>
 	</game>
 	<game>
+		<name>[PC-9801] Hana Yori Dango (花よりダンゴ) (YM2203)</name>
+		<driver type="opn">pc98dos</driver>
+		<driveralias type="PC-9801">Active</driveralias>
+		<options>
+			<option name="clockmul" value="8"/>
+		</options>
+		<romlist archive="dang_98">
+			<rom type="file" offset="-1">dang_98.com</rom>
+			<rom type="file" offset="-1">MAIN.EXE</rom>
+			<rom type="conin" offset="5">MAIN.EXE</rom>
+			<rom type="file" offset="11">C_BGM1.MUS</rom>
+			<rom type="file" offset="12">C_BGM2.MUS</rom>
+			<rom type="file" offset="13">K_HANA.MUS</rom>
+			<rom type="file" offset="14">K_NUDE.MUS</rom>
+			<rom type="file" offset="15">K_SELECT.MUS</rom>
+			<rom type="file" offset="16">K_TITLE.MUS</rom>
+			<rom type="file" offset="17">T_DARK.MUS</rom>
+			<rom type="file" offset="18">T_ENDING.MUS</rom>
+			<rom type="shell" offset="0">dang_98.com</rom>
+		</romlist>
+		<titlelist>
+			<title code="16">K_TITLE.MUS</title>
+			<title code="15">K_SELECT.MUS</title>
+			<title code="11">C_BGM1.MUS</title>
+			<title code="12">C_BGM2.MUS</title>
+			<title code="13">K_HANA.MUS</title>
+			<title code="14">K_NUDE.MUS</title>
+			<title code="17">T_DARK.MUS</title>
+			<title code="18">T_ENDING.MUS</title>
+		</titlelist>
+	</game>
+	<game>
 		<name>[PC-9801] Hana Yori Dango 2 (花よりダンゴ2) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
@@ -826,7 +859,12 @@
 			<rom type="shell" offset="0">dang2_98</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x31">TITLE.AMD</title>
+			<title code="0x0b">B1.AMD</title>
+			<title code="0x0c">B2.AMD</title>
+			<title code="0x0d">B3.AMD</title>
+			<title code="0x0e">B4.AMD</title>
+			<title code="0x0f">B5.AMD</title>
+			<title code="0x10">B6.AMD</title>
 			<title code="0x11">BGM1.AMD</title>
 			<title code="0x1c">BGM2.AMD</title>
 			<title code="0x24">BGM3.AMD</title>
@@ -853,18 +891,13 @@
 			<title code="0x21">BGM24.AMD</title>
 			<title code="0x22">BGM25.AMD</title>
 			<title code="0x23">BGM26.AMD</title>
+			<title code="0x2b">E1.AMD</title>
+			<title code="0x2c">E2.AMD</title>
 			<title code="0x2d">KO1.AMD</title>
 			<title code="0x2e">KO2.AMD</title>
 			<title code="0x30">KO4.AMD</title>
-			<title code="0x0b">B1.AMD</title>
-			<title code="0x0c">B2.AMD</title>
-			<title code="0x0d">B3.AMD</title>
-			<title code="0x2b">E1.AMD</title>
-			<title code="0x2c">E2.AMD</title>
-			<title code="0x0e">B4.AMD</title>
-			<title code="0x0f">B5.AMD</title>
-			<title code="0x10">B6.AMD</title>
 			<title code="0x2f">KO3.AMD</title>
+			<title code="0x31">TITLE.AMD</title>
 		</titlelist>
 	</game>
 	<game>
@@ -922,7 +955,7 @@
 	</game>
 	<game>
 		<name>[PC-9801] Hanafuda de Pon! (花札でPON!) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -1107,7 +1140,7 @@
 			<rom type="file" offset="-1">PMD.COM</rom>
 			<rom type="file" offset="0x10">MF98N01.M</rom>
 			<rom type="file" offset="0x11">MF98N02.M</rom>
-			<rom type="file" offset="0x12">MF98S03.M</rom>
+			<rom type="file" offset="0x12">MF98N03.M</rom>
 			<rom type="file" offset="0x13">MF98N04.M</rom>
 			<rom type="file" offset="0x14">MF98N05.M</rom>
 			<rom type="file" offset="0x15">MF98N06.M</rom>
@@ -1517,7 +1550,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] Mahjong Gensoukyoku II (麻雀幻想曲II) (Munt, MT-32 simulation)</name>
+		<name>[PC-9801] Mahjong Gensoukyoku II (麻雀幻想曲II) (Munt, MT-32 emulation)</name>
 		<driver type="beep">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
@@ -2113,7 +2146,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] if 2 (イフ2) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2170,7 +2203,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Angel Halo (エンジェルハイロウ) (YM2203)</name>
+		<name>[PC-9821] Angel Halo (エンジェル・ハイロウ) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
@@ -2225,8 +2258,8 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9821] Angel Halo (エンジェルハイロウ) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<name>[PC-9821] Angel Halo (エンジェル・ハイロウ) (YM2608)</name>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2335,7 +2368,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] Misato-chan no Yume Nikki (みさとちゃんの夢日記) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2437,7 +2470,7 @@
 			<rom type="shell" offset="0">gunbl_21</rom>
 		</romlist>
 		<titlelist>
-			<title code="0x2d">Stop the Music</title>
+			<title code="0x2d">[Stop]</title>
 			<title code="0x0b">オープニング</title>
 <!--
 			<title code="0x0c">オープニング</title>
@@ -2549,7 +2582,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] Hanafuda de Pon! (花札でPON!) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2640,7 +2673,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] Mahjong de Pon! (麻雀でPON!) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2872,7 +2905,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] if 3 (イフ3) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -2999,7 +3032,7 @@
 	</game>
 	<game>
 		<name>[PC-9821] Sakura no Mori (櫻の杜) (YM2608)</name>
-		<driver type="opna">pc98dos</driver>
+		<driver type="86">pc98dos</driver>
 		<driveralias type="PC-9821">Active</driveralias>
 		<options>
 			<option name="clockmul" value="8"/>
@@ -3120,7 +3153,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] if1・2・3 CD Collection (YM2203)</name>
+		<name>[PC-9801] if 123 CD Collection (if1・2・3 CD Collection) (YM2203)</name>
 		<driver type="opn">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
@@ -3258,7 +3291,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[PC-9801] if1・2・3 CD Collection (YM2608)</name>
+		<name>[PC-9801] if 123 CD Collection (if1・2・3 CD Collection) (YM2608)</name>
 		<driver type="opna">pc98dos</driver>
 		<driveralias type="PC-9801">Active</driveralias>
 		<options>
@@ -3396,7 +3429,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] if (イフ)</name>
+		<name>[X68000] if (イフ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3449,7 +3482,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sweet Angel (スウィートエンジェル)</name>
+		<name>[X68000] Sweet Angel (スウィートエンジェル) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3582,7 +3615,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Hana Yori Dango (花よりダンゴ)</name>
+		<name>[X68000] Hana Yori Dango (花よりダンゴ) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3611,7 +3644,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Hana Yori Dango 2 (花よりダンゴ2)</name>
+		<name>[X68000] Hana Yori Dango 2 (花よりダンゴ2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3704,7 +3737,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Santa-kun (3太くん)</name>
+		<name>[X68000] Santa-kun (3太くん) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3734,7 +3767,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Gakuen Bomber (学園ボンバー)</name>
+		<name>[X68000] Gakuen Bomber (学園ボンバー) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3779,7 +3812,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] Sakura no Mori (櫻の杜)</name>
+		<name>[X68000] Sakura no Mori (櫻の杜) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3838,7 +3871,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] if 2 (イフ2)</name>
+		<name>[X68000] if 2 (イフ2) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
@@ -3896,7 +3929,7 @@
 		</titlelist>
 	</game>
 	<game>
-		<name>[X68000] if 3 (イフ3)</name>
+		<name>[X68000] if 3 (イフ3) (YM2151+MSM6258)</name>
 		<driver type="generic">x68k</driver>
 		<driveralias type="X68000">Active</driveralias>
 		<options>
